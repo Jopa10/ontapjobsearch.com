@@ -32,7 +32,7 @@ Edit only each `action:` line:
 ## JobG8 — 47 to review
 
 ---
-action:
+action: select
 POSS | JobG8 | Berkshire | Berkshire | £30000 - £38000 per year | Service Advisor
 source_key: jobg8
 source: JobG8
@@ -50,7 +50,7 @@ hub_fingerprint: c269e9fee0e4191fd7e44b5cd6a3f3f5d5bbdef193017964009aa79ef3a125f
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Buckinghamshire | Buckinghamshire | £30000 - £32000 per year | Purchase Ledger Administrator
 source_key: jobg8
 source: JobG8
@@ -68,7 +68,7 @@ hub_fingerprint: 502ae68eddf4a6cd8e5c16fe6de872d109afa68eb2dd0efd0aa2a203bdb05f2
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Cambridgeshire | Peterborough | £40000 per year | Service Advisor
 source_key: jobg8
 source: JobG8
@@ -86,7 +86,7 @@ hub_fingerprint: 6b7f484f8fa7c544e493d0c0d551a346b28a949b65d08dfc9debf3547cbc54c
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Cheshire - East | Crewe | £30000 - £35000 per year | Finance Assistant
 source_key: jobg8
 source: JobG8
@@ -104,7 +104,7 @@ hub_fingerprint: df3f9c3557805c8ec4002d8118d24632dcbc38205b742046fab9301b7a5a79d
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Cheshire - Warrington & Halton | Warrington | £35000 per year | Accounts Assistant
 source_key: jobg8
 source: JobG8
@@ -122,7 +122,7 @@ hub_fingerprint: b60e320f4c60cfaf5916774c241e3962b367f287b14df76cc901f874fb5d126
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Cheshire - Warrington & Halton | Warrington | £31000 per year | Service Advisor
 source_key: jobg8
 source: JobG8
@@ -140,7 +140,7 @@ hub_fingerprint: 2448a46bfe1a72cde71fdec9d649d277c32d9957526ce49de9b4903b86e4fe0
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Cornwall | Truro | £30030 per year | Customer Service Advisors
 source_key: jobg8
 source: JobG8
@@ -158,7 +158,7 @@ hub_fingerprint: dc1e3d46349619213d8f05b05eb10b2e6ad5180935999b0d255bcf862218ca6
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Devon | Devon | £30000 - £32000 per year | Accounts Administrator
 source_key: jobg8
 source: JobG8
@@ -176,7 +176,7 @@ hub_fingerprint: f6956e129d48d97cb4e4f3273273f6c38249540892a5464ca605730049a04ab
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Devon | Devon | £31000 per year | Administrator - Financial Services
 source_key: jobg8
 source: JobG8
@@ -194,7 +194,7 @@ hub_fingerprint: fa4d69bb1d9a43227350e68f8df3716770df810e6f93bdd8acc858e84a5fcea
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Devon | Devon | £30000 - £36000 per year | Service Advisor
 source_key: jobg8
 source: JobG8
@@ -212,7 +212,7 @@ hub_fingerprint: b28a92550589a87a719dea82d87e20bd6f8682dc6c0bd8d86b404ee9465a15d
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Devon | Devon | £30000 - £33000 per year | Service Advisor
 source_key: jobg8
 source: JobG8
@@ -230,7 +230,7 @@ hub_fingerprint: 562a363523520134968ca1089db2c091da8591ee957ed4a2b0e8fce76c2ab22
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Essex | Essex | — | Accounts Administrator
 source_key: jobg8
 source: JobG8
@@ -248,7 +248,7 @@ hub_fingerprint: 0a2c207cd1cab7d750ef342fce5b933ebf7152d974043ac53d50fd9cddc56e8
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Essex | Essex | — | Accounts Administrator
 source_key: jobg8
 source: JobG8
@@ -266,7 +266,7 @@ hub_fingerprint: f677c9bdb08d19f53e318b7db5057bd65f31e41e90bd84bfc7f74ff281e96d2
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Gloucestershire | Gloucestershire | £23.94 per hour | Materials Planner
 source_key: jobg8
 source: JobG8
@@ -284,7 +284,7 @@ hub_fingerprint: 6b365635b3365666d0ba4000ed2b62c09c38ca086c18a285485d4759f0f4f66
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £22 per hour | Fleet Operations Project Coordinator
 source_key: jobg8
 source: JobG8
@@ -302,7 +302,7 @@ hub_fingerprint: 9b08fb7e01cf8f1dec00255aad337083e7c754b1c4f8ca1966838a32ad9e817
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Hampshire | Eastleigh | £14.25 - £15.66 per hour | Learning Support Assistant
 source_key: jobg8
 source: JobG8
@@ -320,7 +320,7 @@ hub_fingerprint: 99a57eec73d4c8a9046463f4eefc754d4064b46265117a3352a8e2349f9a738
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Hampshire | Hampshire | £159 - £173 per daily | Accounts Assistant
 source_key: jobg8
 source: JobG8
@@ -338,7 +338,7 @@ hub_fingerprint: 534a59e0abeefed9c1925f62c3dd03af11195580c8d657f5986f73b54809273
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Hertfordshire | Hertfordshire | £34000 per year | Corporate Administrator
 source_key: jobg8
 source: JobG8
@@ -356,7 +356,7 @@ hub_fingerprint: f03e094eb6b0d2a6df264ea3a35d93181e115916d5587efa702e2c58b950e79
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Hertfordshire | Hertfordshire | £30000 - £35000 per year | Mortgage Administrators required top London Brokerage REMOTE / RARE
 source_key: jobg8
 source: JobG8
@@ -374,7 +374,7 @@ hub_fingerprint: c23f7558be939e81d2530fdca6d9a33deebb8cfa7b79793c4d239aa0cd37521
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Hertfordshire | Hertfordshire | £32000 per year | Service Advisor
 source_key: jobg8
 source: JobG8
@@ -392,7 +392,7 @@ hub_fingerprint: f17344e0700b2a6ae29464fc17ea4f52a273a38bc54e38fc6d16b60b31cb425
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Hertfordshire | Hertfordshire | £45000 per year | Service Advisor
 source_key: jobg8
 source: JobG8
@@ -410,7 +410,7 @@ hub_fingerprint: 2da3c8d56f06ca6f17b7af106fdbdc339e951abb7568dfaebb2f544c3c8b71f
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Kent | Kent | £40000 per year | FINANCIAL ADMINISTRATOR ADVISER SUPPORT CRANBROOK Up to &;40,000 Fully Office-Based
 source_key: jobg8
 source: JobG8
@@ -428,7 +428,7 @@ hub_fingerprint: 2911e4445c3b93a3b00705a86a95fb183236741ae4243f26d647bfc48d7cf09
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Leicestershire | Leicestershire | £30000 - £35000 per year | Finance Assistant
 source_key: jobg8
 source: JobG8
@@ -446,7 +446,7 @@ hub_fingerprint: 7691453bb22d6096e5bab53bf9a18e7171b7ee13b307074f150c246444e7bef
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Leicestershire | Leicestershire | £40000 per year | Technical Hub Coordinator
 source_key: jobg8
 source: JobG8
@@ -464,7 +464,7 @@ hub_fingerprint: cc85062c8894e751e2114f9dc8671dbf1ab639eefa3c226a13f35cf32c5d133
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Lincolnshire | Lincolnshire | £32000 per year | Financial Services Administrator
 source_key: jobg8
 source: JobG8
@@ -482,7 +482,7 @@ hub_fingerprint: ac685c85e75bedef2f1f50151f7398ebd9ffb5fa4831033da3d510e9f02f6b3
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | Enfield | £50000 per year | Service Advisor
 source_key: jobg8
 source: JobG8
@@ -500,7 +500,7 @@ hub_fingerprint: f45043ba8514acd822ccea2330267c10e46cf709e0620f852c40f2dfc8125bc
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | London | £32000 - £38000 per year | Client Support Administrator
 source_key: jobg8
 source: JobG8
@@ -518,7 +518,7 @@ hub_fingerprint: 5a4e6facec55732bd246521595349b24ec9ae916bb55d0665159b5a4cce6cd0
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | London | £40000 - £50000 per year | Complaints Handler
 source_key: jobg8
 source: JobG8
@@ -536,7 +536,7 @@ hub_fingerprint: 2b238e2d90f9eefbcae9e786483c4ec2667409a59e5004861da8a911881b8b7
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | London | £150 - £175 per daily | Interim Accounts Assistant Creative Agency London (On-site)
 source_key: jobg8
 source: JobG8
@@ -554,7 +554,7 @@ hub_fingerprint: 20a71174e06b032108567483139814dfad88c271c81d9dc1220d748edc4f171
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | London | £95 - £110 per daily | Learning Support Assistant
 source_key: jobg8
 source: JobG8
@@ -572,7 +572,7 @@ hub_fingerprint: 7057520b4327d3bc37376bd6c3b3efbe5f81520d67fa70e6aec86367b7cd1e8
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | London | £85 - £100 per daily | Learning Support Assistant
 source_key: jobg8
 source: JobG8
@@ -590,7 +590,7 @@ hub_fingerprint: 1f36d4ff8ad23c76fd4615d78008cd8bbd86fbcf1c1d1eb00515decda88449e
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | London | £40000 per year | Part Time Accounts Assistant
 source_key: jobg8
 source: JobG8
@@ -608,7 +608,7 @@ hub_fingerprint: 0e99b6cc09b824318863cf151da702eafc26b8ec7e696be7adf843e93cd4487
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | London | £18.00 - £21.00 per hour | Temporary Finance Assistant - Treasury and Cash Management
 source_key: jobg8
 source: JobG8
@@ -626,7 +626,7 @@ hub_fingerprint: 25c150768cd9f4f6fa6a8d0326f3dfb9f500260cfcaba00180e349c0b163036
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | Sidcup | £40000 per year | Service Advisor
 source_key: jobg8
 source: JobG8
@@ -644,7 +644,7 @@ hub_fingerprint: 27c5ef3289bb1cb5a2dabfcde8274a5d1eb8c428fb579672d35334d3c4918c9
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Merseyside - Liverpool | Liverpool | £33000 per year | Accounts Assistant
 source_key: jobg8
 source: JobG8
@@ -662,7 +662,7 @@ hub_fingerprint: 72bded1920cb9b762237a496bdd5064e24fc3469a838549885955e6f33d83d8
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £23 per hour | Care Home Support Worker - &;23p/h
 source_key: jobg8
 source: JobG8
@@ -680,7 +680,7 @@ hub_fingerprint: 0ac42cb6a8664760200c47c9f50fa624e57cd3cfa1f0f54936627232e17b06a
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Northern Ireland - East | Belfast | £31000 per year | Finance Assistant
 source_key: jobg8
 source: JobG8
@@ -698,7 +698,7 @@ hub_fingerprint: cecaf584fe2fc3e4027875a2f931fe37d545f84fd6dad4b4fc4911cc3267827
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Nottinghamshire | Nottinghamshire | £32000 per year | Accounts Assistant
 source_key: jobg8
 source: JobG8
@@ -716,7 +716,7 @@ hub_fingerprint: 9422bf638d0127d4d214e0166335e93b7da172018fdf06678a646c8fb9a21cc
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Oxfordshire | Oxfordshire | £30000 - £32000 per year | Accounts Assistant
 source_key: jobg8
 source: JobG8
@@ -734,7 +734,7 @@ hub_fingerprint: 86f6518eeb4b83c7351048ac6b4f3f8d5787104dea818098900fe11dd47728b
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Oxfordshire | Oxfordshire | £33000 - £36000 per year | Clinic Coordinator
 source_key: jobg8
 source: JobG8
@@ -752,7 +752,7 @@ hub_fingerprint: 1b58ffad020a21e9bc1afa66ebed846950750463cabb69939656b5e55d55f88
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Scotland Central - Edinburgh & Lothians | Edinburgh | £32000 - £35000 per year | Finance Assistant
 source_key: jobg8
 source: JobG8
@@ -770,7 +770,7 @@ hub_fingerprint: a1e25c3ff093d80f7b6042c1801058d103a00b1745c8f6c75f2cd23d11974c0
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Staffordshire | Staffordshire | £32000 per year | Service Advisor
 source_key: jobg8
 source: JobG8
@@ -788,7 +788,7 @@ hub_fingerprint: 26599d9fbf8e9ccce3ccc8dbda5fd57c62e887a4730a650964482423526f57a
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Suffolk | Suffolk | £23 - £26.01 per hour | Learning & Skills Ops co-ordinator
 source_key: jobg8
 source: JobG8
@@ -806,7 +806,7 @@ hub_fingerprint: 944d367e43771eb75cd6ffc82ed037e8d27e1fa260fd0c956e02b7b24365be8
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Wiltshire | Trowbridge | £85 - £110 per daily | Pastoral Support Worker
 source_key: jobg8
 source: JobG8
@@ -824,7 +824,7 @@ hub_fingerprint: c79254480651624bf5c405e23b7da6047c95ad039e1986edca82b0739a40fc1
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Wiltshire | Wiltshire | £31000 per year | Service Advisor
 source_key: jobg8
 source: JobG8
@@ -842,7 +842,7 @@ hub_fingerprint: a87712564d7b8046475080b4a6f796c25da86aecec6606abd2f6e9f6497439b
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Yorkshire - West | Dewsbury | £40000 - £50000 per year | Demand Planner
 source_key: jobg8
 source: JobG8
@@ -860,7 +860,7 @@ hub_fingerprint: ea3c7f9538003bf839a1278c128274e540e2e22244a6dc56576b2d60e435681
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Yorkshire - West | Leeds | £32000 - £40000 per year | Bookkeeper / Accounts Assistant
 source_key: jobg8
 source: JobG8
