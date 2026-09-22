@@ -6,9 +6,117 @@ The `excluded_on` date is the day the exclusion decision was made.
 To restore a job, edit only its `action:` line to `action: select`.
 On the next JobG8 run that exact job ID will be restored and removed from this list.
 
-remembered_exclusions: 347
+remembered_exclusions: 356
 
 ## SERVICE / ADMIN — EXCLUDED
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-22
+title: Service Advisor
+employer: Hedin Automotive
+region: 
+town: Middlesex
+salary: 
+job_id: 1868468
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-22
+title: Mortgage Administrators required top London Brokerage REMOTE / RARE
+employer: Astral Recruitment
+region: 
+town: Hertfordshire
+salary: 
+job_id: 1869806
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-22
+title: Materials Planner
+employer: Manpower
+region: 
+town: Gloucestershire
+salary: 
+job_id: 108007200
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-22
+title: Fleet Operations Project Coordinator
+employer: Manpower
+region: 
+town: Manchester
+salary: 
+job_id: 1951300
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-22
+title: Financial Services Administrator
+employer: NJR Recruitment
+region: 
+town: Lincolnshire
+salary: 
+job_id: 1859238
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-22
+title: FINANCIAL ADMINISTRATOR ADVISER SUPPORT CRANBROOK Up to &;40,000 Fully Office-Based
+employer: Financial Divisions
+region: 
+town: Kent
+salary: 
+job_id: 1859980
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-22
+title: Demand Planner
+employer: Michael Page Procurement & Supply Chain
+region: 
+town: Yorkshire
+salary: 
+job_id: 1866979
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-22
+title: Corporate Administrator
+employer: Reed
+region: 
+town: Hertfordshire
+salary: 
+job_id: 1912770
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-22
+title: Complaints Handler
+employer: ARC
+region: 
+town: London
+salary: 
+job_id: 1908427
+---
 
 ---
 action:
