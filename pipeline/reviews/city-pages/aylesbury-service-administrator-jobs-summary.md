@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 21
+- automatic review: 34
 - automatic exclude: 0
 - effective include: 2
-- effective review: 21
+- effective review: 34
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: teaching-vacancies-school-administrator-chiltern-way-academy-trust
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (21)
+## REVIEW (34)
 
 ---
 action: 
@@ -95,6 +95,42 @@ company: KennedyPearce Consulting - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-1868169
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable Assistant
+company: Michael Page Finance - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-1874768
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable Assistant
+company: Reed - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-1883925
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable Assistant - Temporary
+company: Broster Buchanan - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-1908380
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -150,6 +186,18 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Billing Assistant
+company: Reed - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-1898015
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Communications and Marketing Manager
 company: Bucks Students Union - Agency - Permanent
 location: High Wycombe
@@ -167,6 +215,54 @@ company: The Curve Group - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-1899364
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Control - Temp to Permanent - ASAP start!
+company: Marc Daniels - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-1949241
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: INGRAM MICRO (UK) LIMITED - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-1955322
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Marc Daniels - Agency - Permanent
+location: High Wycombe
+source: JobG8
+job_id: jobg8-1946332
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller (SME Accounts)
+company: Gleeson Recruitment Group - Agency - Permanent
+location: High Wycombe
+source: JobG8
+job_id: jobg8-1908515
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -222,6 +318,30 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: HR Operations Coordinator
+company: wild recruitment - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-1856610
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Junior Accounts Receivable Assistant
+company: Berry Recruitment - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-1909523
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Automation Manager
 company: Nextech - Agency - Permanent
 location: Milton Keynes
@@ -258,11 +378,35 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Medical Receptionist
+company: Primary Care Management Solutions Ltd
+location: High Wycombe, HP135DN
+source: NHS Jobs
+job_id: nhs-5558801
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part-time Finance Assistant - Education Sector
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-1905959
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Administrator
+company: Sussum Consulting LTD - Agency - Permanent
+location: Princes Risborough
+source: JobG8
+job_id: jobg8-1860687
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -287,6 +431,18 @@ company: Riverside Surgery
 location: High Wycombe, HP11 2RZ
 source: NHS Jobs
 job_id: nhs-5607494
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Ledger - Reconciliations
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-1938491
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

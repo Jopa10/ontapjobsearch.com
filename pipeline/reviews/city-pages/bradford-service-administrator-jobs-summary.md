@@ -4,7 +4,7 @@
 - Live route: `/bradford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 22
-- automatic exclude: 35
-- effective include: 11
-- effective review: 22
-- effective exclude: 35
+- automatic include: 10
+- automatic review: 32
+- automatic exclude: 38
+- effective include: 10
+- effective review: 32
+- effective exclude: 38
 
-## INCLUDE (11)
+## INCLUDE (10)
 
 ---
 action: 
@@ -144,19 +144,7 @@ job_id: nhs-5611927
 reason: Approved Bradford catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: Affinity Care
-location: Shipley, BD18 3EG, Shipley, BD18 3EE, Bradford, BD10 9AZ
-source: NHS Jobs
-job_id: nhs-5593331
-reason: Approved Bradford catchment.
----
-
-## REVIEW (22)
+## REVIEW (32)
 
 ---
 action: 
@@ -203,6 +191,18 @@ company: Bennett & Game Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-1907825
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Conveyancing Assistant
+company: HVLR LTD - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1929686
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -282,6 +282,18 @@ reason: No approved Bradford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: CRM Executive FTC
+company: Nigel Wright Group - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1957218
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Administrator
 company: Marks Sattin - Agency - Permanent
 location: Yorkshire
@@ -306,11 +318,11 @@ reason: No approved Bradford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Global EOR Payroll Coordinator
-company: MAUVE CORPORATE SYSTEMS UK LIMITED - Agency - Temporary
-location: Yorkshire
+title: HR Administrator
+company: Crossroads Truck & Bus Limited - Agency - Permanent
+location: Batley
 source: JobG8
-job_id: jobg8-107961732
+job_id: jobg8-1928245
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -318,11 +330,59 @@ reason: No approved Bradford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator
-company: Crossroads Truck & Bus Limited - Agency - Permanent
-location: Batley
+title: Legal PA
+company: Career Legal - Agency - Permanent
+location: Yorkshire
 source: JobG8
-job_id: jobg8-1928245
+job_id: jobg8-1909868
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Campaign Executive
+company: Link Communication - Agency - Permanent
+location: Pudsey
+source: JobG8
+job_id: jobg8-1935843
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Executive
+company: Elevation Recruitment Group - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1908696
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Executive
+company: PRATAP PARTNERSHIP LTD - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1857907
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Paralegal
+company: Accent Housing Group - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1897581
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -414,6 +474,54 @@ reason: No approved Bradford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Remote Conveyancing Paralegal
+company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1884403
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Senior Insight Executive
+company: Sphere Digital Recruitment - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1883710
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Senior Legal Administrator - Up to &;35,000
+company: Office Angels - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1909875
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Social Media & Content Creator
+company: Elevation Recruitment Group - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1908693
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Temporary Credit Control and Sales Ledger
 company: Sharp Consultancy - Agency - Permanent
 location: Yorkshire
@@ -422,7 +530,7 @@ job_id: jobg8-1960756
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (35)
+## EXCLUDE (38)
 
 ---
 action: 
@@ -632,6 +740,30 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Construction Paralegal
+company: CRA Consulting - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-1945171
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Conveyancing Assistant
+company: Reed - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-1883720
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Credit Control
 company: Reed - Agency - Permanent
 location: Wakefield
@@ -728,6 +860,42 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Marketing Executive
+company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-1908757
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Mobility Claims Paralegal
+company: CRA Consulting - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-1954967
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Paralegal
+company: Huntress - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-1895692
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Part Time Accounts Assistant
 company: Michael Page Finance - Agency - Permanent
 location: Leeds
@@ -805,30 +973,6 @@ company: Conway Medical Centre
 location: Leeds, LS8 5DE
 source: NHS Jobs
 job_id: nhs-5529086
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales and Service Advisor
-company: Gallagher - Agency - Permanent
-location: Wakefield
-source: JobG8
-job_id: jobg8-871951100439376691237340
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales and Service Advisor
-company: Gallagher - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-871951100439376691237341
 reason: Separate employment market.
 ---
 

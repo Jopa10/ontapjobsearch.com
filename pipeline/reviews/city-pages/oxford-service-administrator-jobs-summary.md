@@ -4,7 +4,7 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 8
-- automatic exclude: 11
-- effective include: 8
-- effective review: 8
-- effective exclude: 11
+- automatic include: 12
+- automatic review: 10
+- automatic exclude: 14
+- effective include: 12
+- effective review: 10
+- effective exclude: 14
 
-## INCLUDE (8)
+## INCLUDE (12)
 
 ---
 action: 
@@ -40,11 +40,47 @@ reason: Approved conservative Oxford launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Accounts Assistant
+company: The Employment Network - Agency - Permanent
+location: Oxford
+source: JobG8
+job_id: jobg8-1939329
+reason: Approved conservative Oxford launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Receivable Clerk
+company: Page Group - Agency - Permanent
+location: Oxford
+source: JobG8
+job_id: jobg8-1859215
+reason: Approved conservative Oxford launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Administrative Assistant
 company: Chalgrove Community Primary School
 location: Oxford
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-chalgrove-community-primary-school
+reason: Approved conservative Oxford launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Oxford Health NHS Trust
+location: Oxford, OX3 7JH
+source: NHS Jobs
+job_id: nhs-5613172
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -88,6 +124,18 @@ reason: Approved conservative Oxford launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Finance Officer
+company: Michael Page Finance - Agency - Permanent
+location: Oxford
+source: JobG8
+job_id: jobg8-1860334
+reason: Approved conservative Oxford launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Procurement Administrator *Hybrid Role*
 company: River Learning Trust
 location: Oxford
@@ -120,7 +168,7 @@ job_id: nhs-5601309
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (8)
+## REVIEW (10)
 
 ---
 action: 
@@ -174,11 +222,23 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Bank Administrator
-company: Operose Health
-location: Didcot, OX11 7GD
-source: NHS Jobs
-job_id: nhs-5583945
+title: Bookkeeper
+company: K2 Recruitment - Agency - Permanent
+location: Bicester
+source: JobG8
+job_id: jobg8-1959288
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Clinic Coordinator
+company: DBCharles Recruitment Limited - Agency - Permanent
+location: Henley-On-Thames
+source: JobG8
+job_id: jobg8-1871604
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -210,6 +270,18 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Officer
+company: Wade Macdonald - Agency - Permanent
+location: Didcot
+source: JobG8
+job_id: jobg8-1916299
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist
 company: The Key Medical Practice
 location: Kidlington, OX5 1AP
@@ -218,7 +290,7 @@ job_id: nhs-5577377
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (11)
+## EXCLUDE (14)
 
 ---
 action: 
@@ -229,6 +301,18 @@ company: Savant Recruitment - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-1909766
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Bookkeeper
+company: Michael Page Finance - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-1877483
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -296,6 +380,18 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Finance Officer - Receivables
+company: Reed - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-1857288
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Fleet Sales Administrator - Mercedes-Benz Kidlington
 company: Group 1 Automotive - Company - Permanent
 location: Oxfordshire
@@ -337,6 +433,18 @@ company: Abingdon School - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-1859419
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Payroll Administrator
+company: Portfolio Payroll - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-1874059
 reason: Broad county location; not Oxford-city evidence.
 ---
 

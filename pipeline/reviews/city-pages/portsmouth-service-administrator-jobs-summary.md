@@ -4,8 +4,8 @@
 - Live route: `/portsmouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
-- Threshold currently met: no
+- Effective included jobs: 4
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 24
+- automatic include: 4
+- automatic review: 32
 - automatic exclude: 0
-- effective include: 3
-- effective review: 24
+- effective include: 4
+- effective review: 32
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (4)
 
 ---
 action: 
@@ -60,7 +60,31 @@ job_id: jobg8-1960533
 reason: Exact approved Portsmouth workplace.
 ---
 
-## REVIEW (24)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Executive
+company: Michael Page Finance - Agency - Permanent
+location: Portsmouth
+source: JobG8
+job_id: jobg8-1959286
+reason: Exact approved Portsmouth workplace.
+---
+
+## REVIEW (32)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Sphere Digital Recruitment - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1859841
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -71,6 +95,42 @@ company: Michael Page Finance - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-1908072
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable
+company: Michael Page Finance - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-1868227
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable Clerk
+company: Michael Page Finance - Agency - Permanent
+location: Ringwood
+source: JobG8
+job_id: jobg8-1945557
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Receivable Assistant
+company: CMA Recruitment Group - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1949580
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -114,6 +174,30 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Bookkeeper
+company: Accountancy Expertise Ltd - Agency - Permanent
+location: Fareham
+source: JobG8
+job_id: jobg8-1914877
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Bookkeeper
+company: TC Group - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1907458
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Care Home Administrator
 company: Avery Healthcare Group Ltd.
 location: Winchester, SO22 5JH
@@ -143,6 +227,18 @@ company: 1to1 Group Limited - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-1869745
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Michael Page Finance - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-1868270
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -234,6 +330,18 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Legal Accounts Assistant
+company: SJC Partners - Agency - Permanent
+location: Southsea
+source: JobG8
+job_id: jobg8-1939784
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Lettings Administrator
 company: Mulberry Recruitment - Agency - Permanent
 location: Farnborough
@@ -246,11 +354,11 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Lifestyle Coordinator
-company: Care UK - Company - Permanent
+title: Payroll Assistant
+company: Michael Page Finance - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-107605314
+job_id: jobg8-1860081
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -263,6 +371,18 @@ company: Vita Multi Academy Trust
 location: Alresford
 source: Teaching Vacancies
 job_id: teaching-vacancies-personal-assistant-to-executive-headteacher-vita-multi-academy-trust
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger
+company: CMA Recruitment Group - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1909017
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -311,18 +431,6 @@ company: People First Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-107959953
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Telesales Executive
-company: Hirecracker - Agency - Permanent
-location: Fareham
-source: JobG8
-job_id: jobg8-107921838
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 

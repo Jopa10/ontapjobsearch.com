@@ -4,7 +4,7 @@
 - Live route: `/maidstone/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 33
+- automatic include: 7
+- automatic review: 48
 - automatic exclude: 0
-- effective include: 5
-- effective review: 33
+- effective include: 7
+- effective review: 48
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (7)
 
 ---
 action: 
@@ -76,6 +76,18 @@ reason: Exact approved Maidstone workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Credit Controller
+company: Reed - Agency - Permanent
+location: Maidstone
+source: JobG8
+job_id: jobg8-1875782
+reason: Exact approved Maidstone workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Personal Assistant to the Headteacher
 company: Maidstone Grammar School for Girls
 location: Maidstone
@@ -84,7 +96,19 @@ job_id: teaching-vacancies-personal-assistant-to-the-headteacher-maidstone-gramm
 reason: Exact approved Maidstone workplace.
 ---
 
-## REVIEW (33)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Purchase Ledger Clerk (Temporary)
+company: Pearson Whiffin Recruitment Ltd - Agency - Permanent
+location: Maidstone
+source: JobG8
+job_id: jobg8-1927434
+reason: Exact approved Maidstone workplace.
+---
+
+## REVIEW (48)
 
 ---
 action: 
@@ -223,6 +247,18 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
+company: HCRG Care Group
+location: Kent, DA1 1SA
+source: NHS Jobs
+job_id: nhs-5587232
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
 company: Kent and Medway Mental Health NHS Trust
 location: Sevenoaks, TN13 3PG
 source: NHS Jobs
@@ -246,11 +282,35 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Bookkeeper
+company: Pro Talent - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-1896668
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Claims Handler
 company: Adjusting Appointments Limited - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-1906608
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Client Bookkeeper
+company: Pro Talent - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-1897444
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -323,6 +383,18 @@ company: Get Recruited (UK) Ltd - Agency - Permanent
 location: Dartford
 source: JobG8
 job_id: jobg8-1873956
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Junior Payroll Administrator
+company: Fresh People - Agency - Permanent
+location: Canterbury
+source: JobG8
+job_id: jobg8-1868548
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -438,6 +510,66 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Part Time Bookkeeper
+company: Michael Page Finance - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-1912828
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: Office Angels - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-1899290
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Executive
+company: TPF Recruitment - Agency - Permanent
+location: Canterbury
+source: JobG8
+job_id: jobg8-1899296
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Clerk
+company: Michael Page Finance - Agency - Permanent
+location: Hythe
+source: JobG8
+job_id: jobg8-1939549
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Clerk
+company: Michael Page Finance - Agency - Permanent
+location: Sevenoaks
+source: JobG8
+job_id: jobg8-1939823
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Executive
 company: KFS Recruitment - Agency - Permanent
 location: Gravesend
@@ -450,11 +582,35 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: School Finance Officer
+company: Farrer Barnes Limited - Agency - Permanent
+location: Tenterden
+source: JobG8
+job_id: jobg8-1870764
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: School Receptionist & Administrator
 company: Valence School
 location: Westerham
 source: Teaching Vacancies
 job_id: teaching-vacancies-school-receptionist-administrator-valence-school-westerham-kent
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service advisor
+company: HTC - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-1855557
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -479,6 +635,54 @@ company: Ernest Gordon Recruitment - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-107855886
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Shipping / Logistic Coordinator
+company: Manpower - Agency - Temporary
+location: Ashford
+source: JobG8
+job_id: jobg8-108011495
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Finance Officer
+company: Farrer Barnes Limited - Agency - Permanent
+location: Tenterden
+source: JobG8
+job_id: jobg8-1912917
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Purchase Ledger Assistant 3 days a week
+company: Office Angels - Agency - Permanent
+location: Tenterden
+source: JobG8
+job_id: jobg8-1910504
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary School Finance Assistant
+company: Farrer Barnes Limited - Agency - Permanent
+location: Tonbridge
+source: JobG8
+job_id: jobg8-1937267
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 

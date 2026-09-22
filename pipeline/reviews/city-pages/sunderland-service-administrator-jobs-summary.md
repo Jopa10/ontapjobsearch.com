@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 43
+- automatic review: 40
 - automatic exclude: 0
 - effective include: 2
-- effective review: 43
+- effective review: 40
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: teaching-vacancies-lead-administrator-harry-watts-academy
 reason: Exact approved Sunderland workplace.
 ---
 
-## REVIEW (43)
+## REVIEW (40)
 
 ---
 action: 
@@ -102,18 +102,6 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Administration Assistant
-company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
-location: Ashington, NE63 8BL
-source: NHS Jobs
-job_id: nhs-5584416
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Administrative Assistant - Level 1
 company: Newcastle City Council
 location: Lemington Riverside, Rokeby Street, Newcastle upon Tyne, NE15 8RR
@@ -131,18 +119,6 @@ company: Age UK County Durham
 location: Age UK County Durham
 source: NEJobs
 job_id: nejobs-301544
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator: Data
-company: Norton Rose Fulbright LLP - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-1788888
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -299,18 +275,6 @@ company: Paul Card Recruitment Ltd - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-1947293
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: Reed - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-1959616
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 

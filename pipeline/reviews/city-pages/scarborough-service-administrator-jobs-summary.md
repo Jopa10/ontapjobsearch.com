@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 25
+- automatic review: 33
 - automatic exclude: 0
 - effective include: 0
-- effective review: 25
+- effective review: 33
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (25)
+## REVIEW (33)
 
 ---
 action: 
@@ -119,6 +119,54 @@ company: Finlink Ltd - Agency - Permanent
 location: Northallerton
 source: JobG8
 job_id: jobg8-1950236
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Commercial Property Legal Secretary/Assistant - York
+company: qed legal - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-1871047
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Commercial Property Paralegal Commercial Property Transactions Malton / York
+company: qed legal - Agency - Permanent
+location: Malton
+source: JobG8
+job_id: jobg8-1873947
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Conveyancing Assistant
+company: Janine Kot (JK) Recruitment Advisory Services Limited - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1906113
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Corporate/Commercial Legal Secretary/Assistant - York
+company: qed legal - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-1911811
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -222,6 +270,30 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Legal Secretary
+company: Capital Outsourcing Group Ltd - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1961050
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Secretary/Paralegal - Private Client
+company: Reed - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-1885701
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Lifestyle Co-ordinator
 company: Care UK - Company - Permanent
 location: Whitby
@@ -251,6 +323,18 @@ company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Knaresborough
 source: JobG8
 job_id: jobg8-1880493
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Paralegal
+company: Reed - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-1874079
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -311,6 +395,18 @@ company: Ripon Spa Surgery
 location: Ripon, HG4 2BE
 source: NHS Jobs
 job_id: nhs-5611094
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Residential Property Legal Secretary / Assistant - York
+company: qed legal - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-1871003
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

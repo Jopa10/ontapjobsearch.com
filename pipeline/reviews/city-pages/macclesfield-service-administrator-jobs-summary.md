@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 9
+- automatic review: 19
 - automatic exclude: 0
 - effective include: 0
-- effective review: 9
+- effective review: 19
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (9)
+## REVIEW (19)
 
 ---
 action: 
@@ -35,6 +35,18 @@ company: RG Consultancy Ltd - Agency - Permanent
 location: Nantwich
 source: JobG8
 job_id: jobg8-1885417
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable Clerk
+company: Michael Page Finance - Agency - Permanent
+location: Cheshire
+source: JobG8
+job_id: jobg8-1916337
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -90,6 +102,30 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
+title: Credit Controller
+company: Adele Carr Recruitment Limited - Agency - Permanent
+location: Cheshire
+source: JobG8
+job_id: jobg8-1916284
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Robert Walters - Agency - Permanent
+location: Wilmslow
+source: JobG8
+job_id: jobg8-1873951
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Advisor - Uncapped Commission
 company: EE - Company - Permanent
 location: Knutsford
@@ -102,11 +138,95 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
+title: Finance Assistant
+company: Acorn by Synergie - Agency - Permanent
+location: Crewe
+source: JobG8
+job_id: jobg8-1914754
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Administrator
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Crewe
 source: JobG8
 job_id: jobg8-1905063
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Payroll Administrator
+company: Cameron James - Agency - Permanent
+location: Wilmslow
+source: JobG8
+job_id: jobg8-1857329
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part time Payroll Administrator
+company: Imperium Financial Recruitment - Agency - Permanent
+location: Wilmslow
+source: JobG8
+job_id: jobg8-1870651
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Payroll Administrator
+company: JANE GORSE RECRUITMENT LIMITED - Agency - Permanent
+location: Knutsford
+source: JobG8
+job_id: jobg8-1958866
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator - Part time
+company: Resource Matters Ltd - Agency - Permanent
+location: Knutsford
+source: JobG8
+job_id: jobg8-1912221
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger
+company: Time Recruitment - Agency - Permanent
+location: Cheshire
+source: JobG8
+job_id: jobg8-1914758
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Clerk
+company: Adele Carr Recruitment Limited - Agency - Permanent
+location: Cheshire
+source: JobG8
+job_id: jobg8-1929698
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

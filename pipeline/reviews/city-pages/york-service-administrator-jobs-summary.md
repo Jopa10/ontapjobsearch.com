@@ -4,8 +4,8 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
-- Threshold currently met: no
+- Effective included jobs: 9
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 8
-- automatic exclude: 13
-- effective include: 4
-- effective review: 8
-- effective exclude: 13
+- automatic include: 9
+- automatic review: 9
+- automatic exclude: 15
+- effective include: 9
+- effective review: 9
+- effective exclude: 15
 
-## INCLUDE (4)
+## INCLUDE (9)
 
 ---
 action: 
@@ -72,7 +72,67 @@ job_id: teaching-vacancies-attendance-administrator-archbishop-holgate-s-school-
 reason: Approved York catchment.
 ---
 
-## REVIEW (8)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Commercial Property Legal Secretary/Assistant - York
+company: qed legal - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-1871047
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Corporate/Commercial Legal Secretary/Assistant - York
+company: qed legal - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-1911811
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Legal Secretary/Paralegal - Private Client
+company: Reed - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-1885701
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Paralegal
+company: Reed - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-1874079
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Residential Property Legal Secretary / Assistant - York
+company: qed legal - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-1871003
+reason: Approved York catchment.
+---
+
+## REVIEW (9)
 
 ---
 action: 
@@ -83,6 +143,18 @@ company: Property Personnel - Agency - Permanent
 location: Richmond
 source: JobG8
 job_id: jobg8-1869341
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Commercial Property Paralegal Commercial Property Transactions Malton / York
+company: qed legal - Agency - Permanent
+location: Malton
+source: JobG8
+job_id: jobg8-1873947
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -170,7 +242,7 @@ job_id: nhs-5611094
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (13)
+## EXCLUDE (15)
 
 ---
 action: 
@@ -206,6 +278,18 @@ location: Northallerton
 source: JobG8
 job_id: jobg8-1950236
 reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Conveyancing Assistant
+company: Janine Kot (JK) Recruitment Advisory Services Limited - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1906113
+reason: Broad regional label; not York-city evidence.
 ---
 
 ---
@@ -266,6 +350,18 @@ location: Harrogate
 source: JobG8
 job_id: jobg8-1905167
 reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Legal Secretary
+company: Capital Outsourcing Group Ltd - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1961050
+reason: Broad regional label; not York-city evidence.
 ---
 
 ---

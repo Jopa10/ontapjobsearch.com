@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 27
+- Effective included jobs: 26
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 27
-- automatic review: 18
-- automatic exclude: 2
-- effective include: 27
-- effective review: 18
-- effective exclude: 2
+- automatic include: 26
+- automatic review: 17
+- automatic exclude: 1
+- effective include: 26
+- effective review: 17
+- effective exclude: 1
 
-## INCLUDE (27)
+## INCLUDE (26)
 
 ---
 action: 
@@ -52,11 +52,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administrative Assistant for Pastoral
-company: Fairfield High School
+title: Administrative Assistant
+company: Deighton Pierce Glynn Ltd - Agency - Permanent
 location: Bristol
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-for-pastoral
+source: JobG8
+job_id: jobg8-1982356
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -64,11 +64,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administrator
-company: Sirona care & health CIC
-location: Bristol, BS16 1EQ
-source: NHS Jobs
-job_id: nhs-5583194
+title: Administrative Assistant for Pastoral
+company: Fairfield High School
+location: Bristol
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-for-pastoral
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -256,18 +256,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Office Assistant
-company: Chandag Primary School
-location: Bristol
-source: Teaching Vacancies
-job_id: teaching-vacancies-office-assistant-chandag-primary-school
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Part Time Accounts Assistant
 company: Michael Page Finance - Agency - Permanent
 location: Bristol
@@ -348,7 +336,7 @@ job_id: jobg8-1960385
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (18)
+## REVIEW (17)
 
 ---
 action: 
@@ -407,18 +395,6 @@ company: Ascent Resourcing Limited - Agency - Permanent
 location: Somerset
 source: JobG8
 job_id: jobg8-1961259
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Officer
-company: Knowle West Health Park Company - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-1861700
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
@@ -566,19 +542,7 @@ job_id: jobg8-107906403
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
-## EXCLUDE (2)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Purchasing and Supply Chain Coordinator
-company: Thrive Group - Agency - Permanent
-location: Bath
-source: JobG8
-job_id: jobg8-107994008
-reason: Separate employment market.
----
+## EXCLUDE (1)
 
 ---
 action: 

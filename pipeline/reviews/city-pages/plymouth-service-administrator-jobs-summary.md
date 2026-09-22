@@ -4,7 +4,7 @@
 - Live route: `/plymouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 31
+- automatic include: 8
+- automatic review: 35
 - automatic exclude: 0
-- effective include: 9
-- effective review: 31
+- effective include: 8
+- effective review: 35
 - effective exclude: 0
 
-## INCLUDE (9)
+## INCLUDE (8)
 
 ---
 action: 
@@ -112,18 +112,6 @@ reason: Exact approved Plymouth workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Schools Liaison Administrator
-company: City College Plymouth
-location: Plymouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-schools-liaison-administrator
-reason: Exact approved Plymouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Senior Administrator
 company: St Paul's Roman Catholic Primary School
 location: Plymouth
@@ -132,7 +120,7 @@ job_id: teaching-vacancies-senior-administrator-st-paul-s-roman-catholic-primary
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (31)
+## REVIEW (35)
 
 ---
 action: 
@@ -167,6 +155,18 @@ company: Michael Page Finance - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-1860828
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator - Financial Services
+company: mbf. - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-1934222
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -258,18 +258,6 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Finance Administrator
-company: Brook Street UK - Agency - Temporary
-location: Exeter
-source: JobG8
-job_id: jobg8-107981565
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Assistant
 company: Adecco - Agency - Permanent
 location: Exeter
@@ -342,6 +330,18 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: Patient Services Administrator
+company: Combe Coastal Practice
+location: ILFRACOMBE, EX34 8EG, ILFRACOMBE, EX34 0JA, WOOLACOMBE, EX34 7BT
+source: NHS Jobs
+job_id: nhs-5585498
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Assistant (Part Time - Temp)
 company: Butler Rose - Agency - Permanent
 location: Devon
@@ -359,6 +359,18 @@ company: Reed - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-1936876
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Officer
+company: Lloyd Barnes Recruitment - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-1857372
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -467,6 +479,30 @@ company: Royal Devon University Healthcare NHS Foundation Trust
 location: Exeter, EX2 5DW
 source: NHS Jobs
 job_id: nhs-5594406
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: Pembrook Resourcing - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-1881199
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: Pembrook Resourcing - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-1881200
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

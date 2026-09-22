@@ -4,7 +4,7 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
+- automatic include: 8
 - automatic review: 7
-- automatic exclude: 2
-- effective include: 7
+- automatic exclude: 3
+- effective include: 8
 - effective review: 7
-- effective exclude: 2
+- effective exclude: 3
 
-## INCLUDE (7)
+## INCLUDE (8)
 
 ---
 action: 
@@ -105,6 +105,18 @@ company: Cygnet - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-1898106
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Support Worker (Learning Disabilities)
+company: Cygnet - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-1856912
 reason: Approved Southampton catchment.
 ---
 
@@ -194,7 +206,19 @@ job_id: jobg8-1401784888
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (2)
+## EXCLUDE (3)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Learning Support Assistant
+company: Prospero Teaching - Agency - Permanent
+location: Eastleigh
+source: JobG8
+job_id: jobg8-1875238
+reason: Separate employment market.
+---
 
 ---
 action: 

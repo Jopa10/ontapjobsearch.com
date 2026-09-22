@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 20
+- automatic review: 18
 - automatic exclude: 0
 - effective include: 5
-- effective review: 20
+- effective review: 18
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-1932863
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (20)
+## REVIEW (18)
 
 ---
 action: 
@@ -107,18 +107,6 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Cheltenham
 source: JobG8
 job_id: jobg8-1892116
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR & Payroll Administrator
-company: Next Generation Ltd - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-107980548
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -275,18 +263,6 @@ company: Moxie and Mettle Limited - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-1912285
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Product Marketing Manager
-company: i2i Recruitment Consultancy - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-1944195
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

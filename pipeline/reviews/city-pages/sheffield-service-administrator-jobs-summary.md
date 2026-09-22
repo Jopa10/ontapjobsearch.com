@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 0
-- automatic exclude: 7
-- effective include: 6
-- effective review: 0
-- effective exclude: 7
+- automatic include: 8
+- automatic review: 3
+- automatic exclude: 8
+- effective include: 8
+- effective review: 3
+- effective exclude: 8
 
-## INCLUDE (6)
+## INCLUDE (8)
 
 ---
 action: 
@@ -88,6 +88,18 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Payroll Administrator
+company: Portfolio Payroll - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-1956235
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Personal Assistant to Headteacher
 company: Westfield School
 location: Sheffield
@@ -96,9 +108,57 @@ job_id: teaching-vacancies-personal-assistant-to-headteacher-westfield-school
 reason: Approved Sheffield catchment.
 ---
 
-## REVIEW (0)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Purchase Ledger Clerk
+company: Elevation Recruitment Group - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-1939350
+reason: Approved Sheffield catchment.
+---
 
-## EXCLUDE (7)
+## REVIEW (3)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part-time Payroll Assistant
+company: Portfolio Payroll - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1907486
+reason: No approved Sheffield catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Officer
+company: Marks Sattin - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1948871
+reason: No approved Sheffield catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Clerk
+company: PRATAP PARTNERSHIP LTD - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1933458
+reason: No approved Sheffield catchment rule matched; local review required.
+---
+
+## EXCLUDE (8)
 
 ---
 action: 
@@ -157,6 +217,18 @@ company: Sharp Consultancy - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-1899982
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Purchase Ledger Controller
+company: PRATAP PARTNERSHIP LTD - Agency - Permanent
+location: Rotherham
+source: JobG8
+job_id: jobg8-1874146
 reason: Separate employment market.
 ---
 

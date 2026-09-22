@@ -4,7 +4,7 @@
 - Live route: `/cardiff/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 0
+- automatic include: 12
+- automatic review: 2
 - automatic exclude: 0
-- effective include: 10
-- effective review: 0
+- effective include: 12
+- effective review: 2
 - effective exclude: 0
 
-## INCLUDE (10)
+## INCLUDE (12)
 
 ---
 action: 
@@ -136,6 +136,30 @@ reason: Approved conservative Cardiff launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Finance Officer
+company: Michael Page Finance - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-1908785
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Purchase Ledger Clerk / Finance Officer
+company: Michael Page Finance - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-1908702
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist
 company: Danescourt & Greenmount Surgery
 location: Cardiff, CF52SH, Cardiff, CF5 5LQ
@@ -144,6 +168,30 @@ job_id: nhs-5612411
 reason: Approved conservative Cardiff launch catchment.
 ---
 
-## REVIEW (0)
+## REVIEW (2)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Officer
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: South Glamorgan
+source: JobG8
+job_id: jobg8-1959397
+reason: No approved Cardiff catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Officer
+company: Reed - Agency - Permanent
+location: South Glamorgan
+source: JobG8
+job_id: jobg8-1877368
+reason: No approved Cardiff catchment rule matched; local review required.
+---
 
 ## EXCLUDE (0)

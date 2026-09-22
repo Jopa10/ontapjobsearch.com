@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 0
-- automatic exclude: 10
+- automatic review: 3
+- automatic exclude: 13
 - effective include: 3
-- effective review: 0
-- effective exclude: 10
+- effective review: 3
+- effective exclude: 13
 
 ## INCLUDE (3)
 
@@ -60,9 +60,45 @@ job_id: jobg8-1899397
 reason: Approved Barnsley catchment.
 ---
 
-## REVIEW (0)
+## REVIEW (3)
 
-## EXCLUDE (10)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part-time Payroll Assistant
+company: Portfolio Payroll - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1907486
+reason: No approved Barnsley catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Officer
+company: Marks Sattin - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1948871
+reason: No approved Barnsley catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Clerk
+company: PRATAP PARTNERSHIP LTD - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1933458
+reason: No approved Barnsley catchment rule matched; local review required.
+---
+
+## EXCLUDE (13)
 
 ---
 action: 
@@ -152,6 +188,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Payroll Administrator
+company: Portfolio Payroll - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-1956235
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Personal Assistant to Headteacher
 company: Westfield School
 location: Sheffield
@@ -169,6 +217,30 @@ company: Sharp Consultancy - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-1899982
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Purchase Ledger Clerk
+company: Elevation Recruitment Group - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-1939350
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Purchase Ledger Controller
+company: PRATAP PARTNERSHIP LTD - Agency - Permanent
+location: Rotherham
+source: JobG8
+job_id: jobg8-1874146
 reason: Separate employment market.
 ---
 

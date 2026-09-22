@@ -234,11 +234,11 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: Wellbeing and Activities Coordinator
-company: Avery Healthcare - Agency - Permanent
+title: Service Advisor
+company: Perfect Placement Uk Ltd - Agency - Permanent
 location: Staffordshire
 source: JobG8
-job_id: jobg8-323789138607000780837340
+job_id: jobg8-1875798
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

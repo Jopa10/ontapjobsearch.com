@@ -4,7 +4,7 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 2
+- Effective included jobs: 4
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 25
-- automatic exclude: 6
-- effective include: 2
-- effective review: 25
-- effective exclude: 6
+- automatic include: 4
+- automatic review: 30
+- automatic exclude: 10
+- effective include: 4
+- effective review: 30
+- effective exclude: 10
 
-## INCLUDE (2)
+## INCLUDE (4)
 
 ---
 action: 
@@ -40,6 +40,18 @@ reason: Approved Brighton & Hove catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Purchase Ledger Officer
+company: Brighton & Hove Albion Football Club - Company - Permanent
+location: Brighton
+source: JobG8
+job_id: jobg8-1956616
+reason: Approved Brighton & Hove catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist / Administrator
 company: Integrated Care 24 Ltd
 location: Brighton, BN1 7GF
@@ -48,7 +60,19 @@ job_id: nhs-5587236
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (25)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Telesales Executive
+company: Aimee Willow Connex - Agency - Permanent
+location: Brighton
+source: JobG8
+job_id: jobg8-1856512
+reason: Approved Brighton & Hove catchment.
+---
+
+## REVIEW (30)
 
 ---
 action: 
@@ -102,11 +126,23 @@ reason: No approved Brighton & Hove catchment rule matched; local review require
 action: 
 decision: review
 automatic_decision: review
-title: Client Services Administrator
-company: Financial Divisions - Agency - Permanent
+title: Bookkeeper
+company: Dynamite Recruitment Solutions Ltd - Agency - Permanent
+location: East Grinstead
+source: JobG8
+job_id: jobg8-1961294
+reason: No approved Brighton & Hove catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Bookkeeper
+company: First Recruitment Services - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-1894808
+job_id: jobg8-1932921
 reason: Broad location; review before city inclusion.
 ---
 
@@ -114,11 +150,47 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Executive Assistant and Marketing Coordinator
-company: Brighton College - Agency - Permanent
+title: Bookkeeper
+company: Lloyd Recruitment Services Ltd - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-1873533
+job_id: jobg8-1909953
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Bookkeeper
+company: Recruitment Solutions - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-1900102
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Bookkeeper
+company: TN Recruits - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-1916282
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Client Services Administrator
+company: Financial Divisions - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-1894808
 reason: Broad location; review before city inclusion.
 ---
 
@@ -168,6 +240,18 @@ location: Haywards Heath
 source: JobG8
 job_id: jobg8-1948806
 reason: No approved Brighton & Hove catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Officer
+company: Dance Professionals Fund - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-1909342
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -234,6 +318,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Part-time Bookkeeper
+company: Accountancy Expertise Ltd - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-1945554
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Purchase Ledger Administrator
 company: Michael Page Business Support - Agency - Permanent
 location: Sussex
@@ -252,18 +348,6 @@ location: Seaford, BN25 1DH
 source: NHS Jobs
 job_id: nhs-5598736
 reason: No approved Brighton & Hove catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Sussex Partnership NHS Foundation Trust
-location: Haywards Heath, RH16 4NQ
-source: NHS Jobs
-job_id: nhs-5595913
-reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -350,7 +434,7 @@ job_id: jobg8-622003465167988326437341
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (6)
+## EXCLUDE (10)
 
 ---
 action: 
@@ -373,6 +457,42 @@ company: Clover Talent Limited - Agency - Permanent
 location: Chichester
 source: JobG8
 job_id: jobg8-107983554
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Credit Controller
+company: Michael Page Finance - Agency - Permanent
+location: Crawley
+source: JobG8
+job_id: jobg8-1945011
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Credit Controller
+company: Michael Page Finance - Agency - Permanent
+location: Eastbourne
+source: JobG8
+job_id: jobg8-1960766
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Credit Controller
+company: Morgan McKinley - Agency - Permanent
+location: Eastbourne
+source: JobG8
+job_id: jobg8-1935620
 reason: Separate employment market.
 ---
 
@@ -409,6 +529,18 @@ company: Worth Recruiting - Property Industry Recruitment - Agency - Permanent
 location: Horsham
 source: JobG8
 job_id: jobg8-1868387
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Part Time Accounts Assistant
+company: Alexander Lloyd - Agency - Permanent
+location: Crawley
+source: JobG8
+job_id: jobg8-1885402
 reason: Separate employment market.
 ---
 

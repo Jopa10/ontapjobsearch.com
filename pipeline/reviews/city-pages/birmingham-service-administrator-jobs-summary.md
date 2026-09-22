@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 25
+- Effective included jobs: 33
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 25
-- automatic review: 4
-- automatic exclude: 7
-- effective include: 25
-- effective review: 4
-- effective exclude: 7
+- automatic include: 33
+- automatic review: 7
+- automatic exclude: 6
+- effective include: 33
+- effective review: 7
+- effective exclude: 6
 
-## INCLUDE (25)
+## INCLUDE (33)
 
 ---
 action: 
@@ -124,6 +124,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Bookkeeper
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-1857667
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Casualty Claims Handler
 company: Adjusting Appointments Limited - Agency - Permanent
 location: Birmingham
@@ -136,11 +148,47 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Children Law Paralegal - Birmingham
+company: Duncan Lewis Solictors - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-1900112
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Control
+company: Mitchell Adam - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-1910168
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: CRM Marketing Specialist
 company: Wilmington Plc - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-1892347
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Employment Paralegal, Birmingham, &;24,000 - &;28,000 DOE, Excellent training, Legal 500
+company: qed legal - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-1867433
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -172,6 +220,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: French or Spanish Speaking Credit Controller
+company: CWC Recruitment Ltd - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-1883587
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: GP receptionist
 company: Eden Court Medical Practice
 location: Birmingham, B35 6EE
@@ -184,11 +244,47 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Housing Paralegal (x2) - Birmingham
+company: Duncan Lewis Solictors - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-1900198
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Inclusion House Content Officer
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-1916298
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: International Accounts Officer
+company: Robertson Bell - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-1950987
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Legal PA
+company: Bell Cornwall Recruitment - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-1910289
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -220,11 +316,35 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Medical Receptionist
+company: Sutton Road Surgery
+location: Birmingham, B23 5TJ
+source: NHS Jobs
+job_id: nhs-5613214
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Office Administrator
 company: Yorkmead Junior and Infant School
 location: Birmingham
 source: Teaching Vacancies
 job_id: teaching-vacancies-office-administrator-yorkmead-junior-and-infant-school-birmingham-west-midlands
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Paralegal
+company: Kingsgate Recruitment Ltd - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-1957227
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -244,11 +364,11 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: People & Recruitment Coordinator
-company: ADI Group Services Ltd - Agency - Permanent
+title: Payroll Assistant
+company: Totum - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-1868082
+job_id: jobg8-1892587
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -280,6 +400,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Remote Conveyancing Paralegal
+company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-1884409
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Senior Internal Communications Manager
 company: Adecco - Agency - Permanent
 location: Birmingham
@@ -288,43 +420,7 @@ job_id: jobg8-1899929
 reason: Approved conservative Birmingham launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Trainee Digital Marketing Executive
-company: Netcom Online Learning - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-1905174
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Trainee Social Media Assistant
-company: Netcom Online Learning - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-1905169
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Trainee Social Media Executive
-company: Netcom Online Learning - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-1905165
-reason: Approved conservative Birmingham launch catchment.
----
-
-## REVIEW (4)
+## REVIEW (7)
 
 ---
 action: 
@@ -354,6 +450,42 @@ reason: No approved Birmingham catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Conveyancing Paralegal
+company: Bell Cornwall Recruitment - Agency - Permanent
+location: Sutton Coldfield
+source: JobG8
+job_id: jobg8-1883947
+reason: No approved Birmingham catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Conveyancing Paralegal
+company: G2 Legal Limited - Agency - Permanent
+location: West Midlands
+source: JobG8
+job_id: jobg8-1868228
+reason: Broad regional location; review before Birmingham inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Immediate Start Accounts Payable Assistant
+company: Mitchell Adam - Agency - Permanent
+location: West Midlands
+source: JobG8
+job_id: jobg8-1957646
+reason: Broad regional location; review before Birmingham inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist & Admin Assistant
 company: Hill West Primary School
 location: Sutton Coldfield
@@ -374,7 +506,7 @@ job_id: teaching-vacancies-senior-administrator-bishop-vesey-s-grammar-school
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
-## EXCLUDE (7)
+## EXCLUDE (6)
 
 ---
 action: 
@@ -385,18 +517,6 @@ company: Mitchell Adam - Agency - Permanent
 location: Solihull
 source: JobG8
 job_id: jobg8-1868171
-reason: Separate exact-city market at launch.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Assistant
-company: Flora Co Associates Ltd - Agency - Permanent
-location: Solihull
-source: JobG8
-job_id: jobg8-1870453
 reason: Separate exact-city market at launch.
 ---
 

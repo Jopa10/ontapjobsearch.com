@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 2
+- automatic review: 12
 - automatic exclude: 0
 - effective include: 8
-- effective review: 2
+- effective review: 12
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,19 @@ job_id: teaching-vacancies-senior-administrator-exams-data
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (2)
+## REVIEW (12)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable
+company: SF Partners - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1936737
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -138,11 +150,119 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Cash Allocation/Credit Control
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1907172
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Casualty Claims Handler
 company: Adjusting Appointments Limited - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-1906598
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Control
+company: Reed - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1956515
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Control - interim
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1907829
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Trinity House Group - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1858417
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Support Officer - Credit Control
+company: SF Partners - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1873852
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Coordinator
+company: Portfolio Payroll - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1898269
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Officer
+company: Counted Recruitment - Agency - Permanent
+location: Coalville
+source: JobG8
+job_id: jobg8-1938574
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: School Finance Assistant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1870863
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Technical Hub Coordinator
+company: PermaRock - Agency - Permanent
+location: Loughborough
+source: JobG8
+job_id: jobg8-108004550
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

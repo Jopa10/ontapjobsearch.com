@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
+- automatic include: 11
 - automatic review: 1
-- automatic exclude: 18
-- effective include: 8
+- automatic exclude: 32
+- effective include: 11
 - effective review: 1
-- effective exclude: 18
+- effective exclude: 32
 
-## INCLUDE (8)
+## INCLUDE (11)
 
 ---
 action: 
@@ -100,6 +100,42 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Purchase Ledger Clerk
+company: Reed - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-1949085
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Purchase Ledger Controller
+company: Reed - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-1869901
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Service Advisor
+company: The Recruitment Solution (London) Ltd - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-1870973
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Talent Acquisition Coordinator
 company: LHH Recruitment Solutions - Agency - Permanent
 location: Peterborough
@@ -134,7 +170,7 @@ job_id: teaching-vacancies-finance-admin-assistant-priory-junior-school-st-neots
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (18)
+## EXCLUDE (32)
 
 ---
 action: 
@@ -145,6 +181,30 @@ company: Eclectic Recruitment - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-1877925
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Payable Assistant
+company: Pure Resourcing Solutions - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-1907838
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Payable Assistant
+company: Pure Resourcing Solutions - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-1913056
 reason: Separate employment market.
 ---
 
@@ -188,6 +248,30 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Bookkeeper
+company: EA FIRST LTD - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-1908887
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Bookkeeper
+company: TC Group - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-1907392
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: CAMB - Client Services Coordinator
 company: RecruitAbility Ltd - Agency - Permanent
 location: Cambridge
@@ -212,6 +296,30 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Contract Credit Controller
+company: Reed - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-1898131
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Credit Controller
+company: Reed - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-1916025
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: CRM Officer
 company: Proactive Appointments - Agency - Permanent
 location: Cambridgeshire
@@ -224,11 +332,47 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Digital Marketing Specialist
+company: Reed - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-1857177
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Administrator
+company: Pure Resourcing Solutions - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-1870766
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Finance Assistant
 company: Pure Resourcing Solutions - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-1859976
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Officer
+company: Page Group - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-1885544
 reason: Separate employment market.
 ---
 
@@ -260,6 +404,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Interim Accounts Payable Assistant
+company: Michael Page Finance - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-1916060
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Internal Communications (REMOTE)
 company: Reed - Agency - Permanent
 location: Cambridgeshire
@@ -284,11 +440,47 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Part Time Purchase Ledger Clerk
+company: Huntress - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-1888166
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Part-Time Purchase Ledger Controller (18 hrs across 3 days)
+company: Adecco - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-1859119
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Patent Administrator
 company: The Law Support Group - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-1892204
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Purchase Ledger Clerk (Temp)
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-1908623
 reason: Separate employment market.
 ---
 
@@ -349,5 +541,17 @@ company: Perfect Placement Uk Ltd - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-1875937
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Temporary Accounts Payable Clerk
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-1873312
 reason: Separate employment market.
 ---

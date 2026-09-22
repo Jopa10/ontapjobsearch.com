@@ -4,7 +4,7 @@
 - Live route: `/shrewsbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 7
+- automatic include: 2
+- automatic review: 6
 - automatic exclude: 0
-- effective include: 3
-- effective review: 7
+- effective include: 2
+- effective review: 6
 - effective exclude: 0
 
-## INCLUDE (3)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Admin Assistant
-company: St Edward's CofE Primary School
-location: Shrewsbury
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-assistant-st-edward-s-cofe-primary-school
-reason: Exact approved Shrewsbury workplace.
----
+## INCLUDE (2)
 
 ---
 action: 
@@ -60,7 +48,7 @@ job_id: teaching-vacancies-receptionist-administrator-meole-brace-school-shrewsb
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (7)
+## REVIEW (6)
 
 ---
 action: 
@@ -95,18 +83,6 @@ company: Beech Grove Primary School
 location: Wellington
 source: Teaching Vacancies
 job_id: teaching-vacancies-finance-admin-assistant-beech-grove-primary-school
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: Much Wenlock and Cressage Medical Practice
-location: Much Wenlock, TF13 6BL, Shrewsbury, SY5 6DH
-source: NHS Jobs
-job_id: nhs-5579203
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

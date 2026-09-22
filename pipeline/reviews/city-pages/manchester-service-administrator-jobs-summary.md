@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 32
-- automatic review: 21
+- automatic review: 22
 - automatic exclude: 1
 - effective include: 32
-- effective review: 21
+- effective review: 22
 - effective exclude: 1
 
 ## INCLUDE (32)
@@ -184,18 +184,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Experienced Medical Receptionist
-company: New Islington Medical Practice
-location: Manchester, M4 6EE
-source: NHS Jobs
-job_id: nhs-5598394
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Finance Administrator
 company: Cherry Professional - Relationship Led Recruitment - Agency - Permanent
 location: Manchester
@@ -328,6 +316,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Medical Receptionist
+company: Hope Citadel Healthcare CIC
+location: Manchester, M14 6FS
+source: NHS Jobs
+job_id: nhs-5597473
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Medical Receptionist / Administrator
 company: Victoria Mill Medical Practice
 location: Manchester, M40 7LH
@@ -408,7 +408,7 @@ job_id: teaching-vacancies-senior-administrator-to-the-senior-leadership-team
 reason: Approved conservative Manchester launch catchment.
 ---
 
-## REVIEW (21)
+## REVIEW (22)
 
 ---
 action: 
@@ -647,6 +647,18 @@ company: Michael Page Business Support - Agency - Permanent
 location: Lancashire
 source: JobG8
 job_id: jobg8-1916143
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: SEO Manager
+company: Oscar Technology - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-1857594
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 

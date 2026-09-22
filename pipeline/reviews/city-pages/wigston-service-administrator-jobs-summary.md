@@ -16,15 +16,27 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 10
+- automatic review: 20
 - automatic exclude: 0
 - effective include: 0
-- effective review: 10
+- effective review: 20
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (10)
+## REVIEW (20)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable
+company: SF Partners - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1936737
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -35,6 +47,18 @@ company: Mixxos Group - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-1908964
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Cash Allocation/Credit Control
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1907172
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -78,11 +102,59 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Credit Control
+company: Reed - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1956515
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Control - interim
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1907829
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Assistant
 company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Leicester
 source: JobG8
 job_id: jobg8-1909307
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Trinity House Group - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1858417
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Support Officer - Credit Control
+company: SF Partners - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1873852
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -114,6 +186,30 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Coordinator
+company: Portfolio Payroll - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1898269
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Officer
+company: Counted Recruitment - Agency - Permanent
+location: Coalville
+source: JobG8
+job_id: jobg8-1938574
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist - Maternity Cover
 company: Manorfield Church of England Primary School
 location: Leicester
@@ -138,11 +234,35 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: School Finance Assistant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1870863
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Senior Administrator - Exams & Data
 company: Bosworth Academy
 location: Leicester
 source: Teaching Vacancies
 job_id: teaching-vacancies-senior-administrator-exams-data
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Technical Hub Coordinator
+company: PermaRock - Agency - Permanent
+location: Loughborough
+source: JobG8
+job_id: jobg8-108004550
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

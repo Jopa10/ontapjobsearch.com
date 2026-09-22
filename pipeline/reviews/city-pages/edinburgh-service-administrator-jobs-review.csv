@@ -1,5 +1,6 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-1878501,Accounts Assistant,Three Bridges Recruitment LTD - Agency - Permanent,Edinburgh,JobG8,include,include,Approved conservative Edinburgh launch catchment.,edinburgh,edinburgh-service-administrator-jobs
+include,jobg8-1871056,Finance Assistant,iMultiply Resourcing Ltd - Agency - Permanent,Edinburgh,JobG8,include,include,Approved conservative Edinburgh launch catchment.,edinburgh,edinburgh-service-administrator-jobs
 include,jobg8-1912183,Financial Services Administrator,IDEX Consulting Ltd - Agency - Permanent,Edinburgh,JobG8,include,include,Approved conservative Edinburgh launch catchment.,edinburgh,edinburgh-service-administrator-jobs
 include,jobg8-1885249,HR Administrator,Reed - Agency - Permanent,Edinburgh,JobG8,include,include,Approved conservative Edinburgh launch catchment.,edinburgh,edinburgh-service-administrator-jobs
 include,jobg8-1933959,HR Assistant,ICONIC RESOURCING LTD - Agency - Permanent,Edinburgh,JobG8,include,include,Approved conservative Edinburgh launch catchment.,edinburgh,edinburgh-service-administrator-jobs

@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 6
 - automatic review: 3
-- automatic exclude: 13
+- automatic exclude: 22
 - effective include: 6
 - effective review: 3
-- effective exclude: 13
+- effective exclude: 22
 
 ## INCLUDE (6)
 
@@ -33,18 +33,6 @@ company: Mitchell Adam - Agency - Permanent
 location: Coventry
 source: JobG8
 job_id: jobg8-1874877
-reason: Approved Coventry catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: SFM - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-1891527
 reason: Approved Coventry catchment.
 ---
 
@@ -81,6 +69,18 @@ company: THE RECRUITMENT DUO - Agency - Permanent
 location: Coventry
 source: JobG8
 job_id: jobg8-1916346
+reason: Approved Coventry catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Administrator
+company: James Gray Associates - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-1909613
 reason: Approved Coventry catchment.
 ---
 
@@ -134,7 +134,7 @@ job_id: teaching-vacancies-pa-to-principal-the-queen-elizabeth-academy-atherston
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (13)
+## EXCLUDE (22)
 
 ---
 action: 
@@ -145,6 +145,54 @@ company: 3 Point Recruitment - Agency - Permanent
 location: Rugby
 source: JobG8
 job_id: jobg8-1945783
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Payable
+company: 3 Point Recruitment - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-1893508
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Payable
+company: Four Squared - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-1912816
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Payable Clerk
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-1905974
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Payable Clerk
+company: Trinity House Group - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-1891794
 reason: Separate employment market.
 ---
 
@@ -188,11 +236,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Credit Control
+company: Reed - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-1955775
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Customer Service Advisor
 company: RA Bennett - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-1842482
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Administrator
+company: Trinity House Group - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-1913327
 reason: Separate employment market.
 ---
 
@@ -224,6 +296,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Finance Support Officer
+company: 3 Point Recruitment - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-1868210
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: HR Assistant
 company: Dudley Lodge - Agency - Permanent
 location: Warwickshire
@@ -248,6 +332,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Immediate Start Accounts Payable Assistant
+company: Mitchell Adam - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-1957746
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Insolvency Administrator Coventry
 company: Ambition Europe Limited - Agency - Permanent
 location: Warwickshire
@@ -265,6 +361,18 @@ company: Valley Road Medical Practice
 location: Leamington Spa, CV32 7SJ
 source: NHS Jobs
 job_id: nhs-4151642
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Purchase Ledger Clerk
+company: SF Partners - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-1940688
 reason: Separate employment market.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 12
-- automatic review: 28
+- automatic review: 31
 - automatic exclude: 0
 - effective include: 12
-- effective review: 28
+- effective review: 31
 - effective exclude: 0
 
 ## INCLUDE (12)
@@ -57,18 +57,6 @@ company: Devon Partnership NHS Trust
 location: Exeter, EX2 5AF, EXETER, EX2 9HS
 source: NHS Jobs
 job_id: nhs-5607097
-reason: Exact approved Exeter workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Administrator
-company: Brook Street UK - Agency - Temporary
-location: Exeter
-source: JobG8
-job_id: jobg8-107981565
 reason: Exact approved Exeter workplace.
 ---
 
@@ -148,6 +136,18 @@ reason: Exact approved Exeter workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Service Advisor
+company: Pembrook Resourcing - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-1881200
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Team Administrator
 company: Devon Partnership NHS Trust
 location: Exeter, EX2 5AF
@@ -168,7 +168,7 @@ job_id: jobg8-1877836
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (28)
+## REVIEW (31)
 
 ---
 action: 
@@ -203,6 +203,18 @@ company: Cann Bridge School
 location: Plymouth
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-5bf8284e-5a65-4c7e-bb0a-d149927a1892
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator - Financial Services
+company: mbf. - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-1934222
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -354,6 +366,18 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Patient Services Administrator
+company: Combe Coastal Practice
+location: ILFRACOMBE, EX34 8EG, ILFRACOMBE, EX34 0JA, WOOLACOMBE, EX34 7BT
+source: NHS Jobs
+job_id: nhs-5585498
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Assistant (Part Time - Temp)
 company: Butler Rose - Agency - Permanent
 location: Devon
@@ -383,6 +407,18 @@ company: Reed - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-1936876
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Officer
+company: Lloyd Barnes Recruitment - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-1857372
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -474,11 +510,11 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Schools Liaison Administrator
-company: City College Plymouth
+title: Senior Administrator
+company: St Paul's Roman Catholic Primary School
 location: Plymouth
 source: Teaching Vacancies
-job_id: teaching-vacancies-schools-liaison-administrator
+job_id: teaching-vacancies-senior-administrator-st-paul-s-roman-catholic-primary-school
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -486,11 +522,11 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Senior Administrator
-company: St Paul's Roman Catholic Primary School
-location: Plymouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-senior-administrator-st-paul-s-roman-catholic-primary-school
+title: Service Advisor
+company: Pembrook Resourcing - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-1881199
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

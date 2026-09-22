@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 15
+- Effective included jobs: 29
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
+- automatic include: 29
 - automatic review: 1
-- automatic exclude: 11
-- effective include: 15
+- automatic exclude: 14
+- effective include: 29
 - effective review: 1
-- effective exclude: 11
+- effective exclude: 14
 
-## INCLUDE (15)
+## INCLUDE (29)
 
 ---
 action: 
@@ -40,11 +40,59 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Accounts Payable Assistant
+company: Pure Resourcing Solutions - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-1907838
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Payable Assistant
+company: Pure Resourcing Solutions - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-1913056
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Administrator
 company: Cambridgeshire and Peterborough NHS Foundation Trust
 location: Cambridge, CB4 1PR
 source: NHS Jobs
 job_id: nhs-5611937
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Bookkeeper
+company: EA FIRST LTD - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-1908887
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Bookkeeper
+company: TC Group - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-1907392
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -76,6 +124,30 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Contract Credit Controller
+company: Reed - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-1898131
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
+company: Reed - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-1916025
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: CRM Officer
 company: Proactive Appointments - Agency - Permanent
 location: Cambridgeshire
@@ -88,11 +160,47 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Digital Marketing Specialist
+company: Reed - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-1857177
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Administrator
+company: Pure Resourcing Solutions - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-1870766
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Finance Assistant
 company: Pure Resourcing Solutions - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-1859976
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Officer
+company: Page Group - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-1885544
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -124,6 +232,18 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Interim Accounts Payable Assistant
+company: Michael Page Finance - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-1916060
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Internal Communications (REMOTE)
 company: Reed - Agency - Permanent
 location: Cambridgeshire
@@ -148,11 +268,47 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Part Time Purchase Ledger Clerk
+company: Huntress - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-1888166
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Part-Time Purchase Ledger Controller (18 hrs across 3 days)
+company: Adecco - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-1859119
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Patent Administrator
 company: The Law Support Group - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-1892204
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Purchase Ledger Clerk (Temp)
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-1908623
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -204,6 +360,18 @@ job_id: jobg8-1875937
 reason: Approved conservative Cambridge launch catchment.
 ---
 
+---
+action: 
+decision: include
+automatic_decision: include
+title: Temporary Accounts Payable Clerk
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-1873312
+reason: Approved conservative Cambridge launch catchment.
+---
+
 ## REVIEW (1)
 
 ---
@@ -218,7 +386,7 @@ job_id: teaching-vacancies-finance-admin-assistant-priory-junior-school-st-neots
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (11)
+## EXCLUDE (14)
 
 ---
 action: 
@@ -320,11 +488,47 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Purchase Ledger Clerk
+company: Reed - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-1949085
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Purchase Ledger Controller
+company: Reed - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-1869901
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: School Receptionist - Huntingdon
 company: Randstad Education - Agency - Permanent
 location: Huntingdon
 source: JobG8
 job_id: jobg8-1873140
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Service Advisor
+company: The Recruitment Solution (London) Ltd - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-1870973
 reason: Separate employment market.
 ---
 

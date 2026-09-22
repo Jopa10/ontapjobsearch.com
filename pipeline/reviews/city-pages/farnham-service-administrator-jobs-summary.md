@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 37
+- automatic review: 47
 - automatic exclude: 0
 - effective include: 0
-- effective review: 37
+- effective review: 47
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (37)
+## REVIEW (47)
 
 ---
 action: 
@@ -35,18 +35,6 @@ company: Aether Recruitment - Agency - Permanent
 location: Egham
 source: JobG8
 job_id: jobg8-1957312
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Reed - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-1899453
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -78,6 +66,42 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Accounts Payable
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-1938261
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable Assistant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-1939805
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable Assistant
+company: Kenneth Brian Associates Limited - Agency - Permanent
+location: Redhill
+source: JobG8
+job_id: jobg8-1909318
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Accounts Receivable Administrator
 company: Reed - Agency - Permanent
 location: Redhill
@@ -95,6 +119,18 @@ company: HCRG Care Group
 location: Camberley, GU16 7ER
 source: NHS Jobs
 job_id: nhs-5590134
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Bookkeeper
+company: Fletcher George Recruitment Ltd - Agency - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-1916202
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -138,11 +174,47 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Client Bookkeeper
+company: Howett Thorpe - Agency - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-1958493
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Client Services Administrator
 company: Financial Divisions - Agency - Permanent
 location: Godalming
 source: JobG8
 job_id: jobg8-1960411
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Pertemps Crawley 447 - Agency - Permanent
+location: Redhill
+source: JobG8
+job_id: jobg8-1914497
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Reed - Agency - Permanent
+location: Epsom
+source: JobG8
+job_id: jobg8-1956498
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -186,11 +258,35 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Entry level credit control / finance
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-1957288
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Ferrari Service Advisor
 company: Sytner Group - Agency - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-1950221
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance - Billings, Reconciliation, Credit Control
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Woking
+source: JobG8
+job_id: jobg8-1876045
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -306,6 +402,18 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Immediate Start Temporary Credit Controller
+company: Office Angels - Agency - Permanent
+location: Leatherhead
+source: JobG8
+job_id: jobg8-1883590
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Lettings Administrator
 company: Property Personnel - Agency - Permanent
 location: Guildford
@@ -378,6 +486,30 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Administrator
+company: proAV Ltd - Agency - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-1949513
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Officer
+company: Portfolio Payroll - Agency - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-1817848
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Reception & Clinic Administrator
 company: SKILLFRAME - Agency - Permanent
 location: Surrey
@@ -419,18 +551,6 @@ company: Eastwick Infant School
 location: Leatherhead
 source: Teaching Vacancies
 job_id: teaching-vacancies-safeguarding-and-send-administrative-assistant-eastwick-infant-school
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales and Marketing Executive
-company: Kenneth Brian Associates Limited - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-1869867
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 

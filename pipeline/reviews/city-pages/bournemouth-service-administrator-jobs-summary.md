@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 14
+- automatic review: 21
 - automatic exclude: 0
 - effective include: 2
-- effective review: 14
+- effective review: 21
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: teaching-vacancies-pa-to-leadership-team-b8e78b62-3fce-486c-bfe4-ebd07a0
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (14)
+## REVIEW (21)
 
 ---
 action: 
@@ -71,6 +71,18 @@ company: Office Angels - Agency - Permanent
 location: Verwood
 source: JobG8
 job_id: jobg8-1877445
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Receivable
+company: Talent Finance Ltd - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-1898268
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -102,6 +114,18 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Bookkeeping & Accounts Clerk
+company: Reed - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-1893830
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Care Coordinator
 company: Agincare Group - Agency - Permanent
 location: Dorset
@@ -119,6 +143,30 @@ company: MYO Talent - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-1860803
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Talent Finance Ltd - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-1898297
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller - 6 month contract
+company: Talent Finance Ltd - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-1891550
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -174,6 +222,30 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Administrator
+company: Reed - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-1865413
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Officer
+company: Sheridan Maine - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-1896663
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Placement Coordinator - Construction
 company: Bournemouth and Poole College - Agency - Contract
 location: Dorset
@@ -203,6 +275,18 @@ company: South Coast Medical Group
 location: Christchurch, BH23 2FQ
 source: NHS Jobs
 job_id: nhs-5600939
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Ledger
+company: Reed - Agency - Permanent
+location: Poole
+source: JobG8
+job_id: jobg8-1898195
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

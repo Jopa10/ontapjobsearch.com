@@ -4,7 +4,7 @@
 - Live route: `/rotherham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 11
+- automatic include: 3
+- automatic review: 16
 - automatic exclude: 0
-- effective include: 2
-- effective review: 11
+- effective include: 3
+- effective review: 16
 - effective exclude: 0
 
-## INCLUDE (2)
+## INCLUDE (3)
 
 ---
 action: 
@@ -40,6 +40,18 @@ reason: Exact approved Rotherham workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Purchase Ledger Controller
+company: PRATAP PARTNERSHIP LTD - Agency - Permanent
+location: Rotherham
+source: JobG8
+job_id: jobg8-1874146
+reason: Exact approved Rotherham workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist
 company: Saint Pius X Catholic High School A Specialist School in Humanities
 location: Rotherham
@@ -48,7 +60,7 @@ job_id: teaching-vacancies-receptionist-saint-pius-x-catholic-high-school-a-spec
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (11)
+## REVIEW (16)
 
 ---
 action: 
@@ -150,6 +162,42 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Part-time Payroll Assistant
+company: Portfolio Payroll - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1907486
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: Portfolio Payroll - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-1956235
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Officer
+company: Marks Sattin - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1948871
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Personal Assistant to Headteacher
 company: Westfield School
 location: Sheffield
@@ -167,6 +215,30 @@ company: Sharp Consultancy - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-1899982
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Clerk
+company: Elevation Recruitment Group - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-1939350
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Clerk
+company: PRATAP PARTNERSHIP LTD - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1933458
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
