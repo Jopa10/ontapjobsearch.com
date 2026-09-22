@@ -1,18 +1,18 @@
 # JobG8 Accounts & Finance Operations proof-region evidence candidates
 
-Content-unique national LIKELY_IN + BORDERLINE inventory: **738** against viability floor **100**.
+Content-unique national LIKELY_IN + BORDERLINE inventory: **727** against viability floor **100**.
 This report does not approve proof regions or any LIVE slice. It surfaces the strongest current markets for human boundary inspection after national discovery.
 
 ## London
 
-- LIKELY_IN: **84**
+- LIKELY_IN: **81**
 - BORDERLINE: **0**
-- Provisional OUT: **351**
+- Provisional OUT: **337**
 
 Most common LIKELY_IN titles:
 
-- Accounts Assistant: 10
 - Credit Controller: 8
+- Accounts Assistant: 8
 - Finance Administrator: 4
 - Finance Assistant: 3
 - Payroll Assistant: 3
@@ -47,9 +47,9 @@ Most common LIKELY_IN titles:
 
 ## Yorkshire - West
 
-- LIKELY_IN: **31**
+- LIKELY_IN: **30**
 - BORDERLINE: **0**
-- Provisional OUT: **68**
+- Provisional OUT: **72**
 
 Most common LIKELY_IN titles:
 
@@ -70,7 +70,7 @@ Most common LIKELY_IN titles:
 
 - LIKELY_IN: **25**
 - BORDERLINE: **0**
-- Provisional OUT: **62**
+- Provisional OUT: **61**
 
 Most common LIKELY_IN titles:
 
@@ -91,7 +91,7 @@ Most common LIKELY_IN titles:
 
 - LIKELY_IN: **24**
 - BORDERLINE: **0**
-- Provisional OUT: **46**
+- Provisional OUT: **50**
 
 Most common LIKELY_IN titles:
 

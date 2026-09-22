@@ -1,9 +1,9 @@
 # JobG8 Claims Support regional viability diagnostic
 
 Canonical UK assessment universe: **78 markets**.
-Observed feed dates: **7** (2026-09-15 to 2026-09-21).
-Latest feed: **2026-09-21**.
-Content-unique IN jobs on latest feed: **44**; unmapped/unknown region: **4**.
+Observed feed dates: **7** (2026-09-16 to 2026-09-22).
+Latest feed: **2026-09-22**.
+Content-unique IN jobs on latest feed: **45**; unmapped/unknown region: **4**.
 
 Diagnostic only: this does not activate a slice. `STRONG_REVIEW_CANDIDATE` is deliberately an evidence signal, not an automatic LIVE gate.
 
@@ -16,31 +16,30 @@ Watch regions: **4**.
 
 | Region | Latest | Avg | Median | 6+ days | Recent counts | Evidence |
 |---|---:|---:|---:|---:|---|---|
-| Staffordshire | 5 | 4.43 | 4.0 | 0 | 4 / 4 / 4 / 4 / 5 / 5 / 5 | WATCH |
-| Essex | 4 | 6.14 | 7.0 | 4 | 7 / 7 / 7 / 9 / 5 / 4 / 4 | WATCH |
+| Staffordshire | 5 | 4.57 | 5.0 | 0 | 4 / 4 / 4 / 5 / 5 / 5 / 5 | WATCH |
+| Essex | 4 | 5.71 | 5.0 | 3 | 7 / 7 / 9 / 5 / 4 / 4 / 4 | WATCH |
 | Greater Manchester - Manchester & Salford | 4 | 4.00 | 4.0 | 0 | 4 / 4 / 4 / 4 / 4 / 4 / 4 | WATCH |
-| Yorkshire - West | 4 | 2.86 | 3.0 | 0 | 1 / 3 / 2 / 2 / 4 / 4 / 4 | WATCH |
-| Bristol & Bath | 4 | 2.43 | 2.0 | 0 | 1 / 2 / 2 / 2 / 3 / 3 / 4 | THIN |
-| London | 3 | 3.86 | 4.0 | 0 | 5 / 5 / 4 / 4 / 3 / 3 / 3 | THIN |
-| Hertfordshire | 3 | 1.57 | 2.0 | 0 | 0 / 2 / 1 / 1 / 2 / 2 / 3 | THIN |
-| Scotland West - Glasgow | 2 | 1.86 | 2.0 | 0 | 2 / 2 / 2 / 1 / 2 / 2 / 2 | THIN |
-| North East | 2 | 0.57 | 0.0 | 0 | 0 / 0 / 0 / 0 / 1 / 1 / 2 | THIN |
-| Suffolk | 1 | 1.71 | 2.0 | 0 | 1 / 2 / 2 / 2 / 2 / 2 / 1 | THIN |
-| Dorset | 1 | 1.57 | 2.0 | 0 | 2 / 2 / 2 / 2 / 1 / 1 / 1 | THIN |
+| Yorkshire - West | 4 | 3.29 | 4.0 | 0 | 3 / 2 / 2 / 4 / 4 / 4 / 4 | WATCH |
+| Bristol & Bath | 4 | 2.86 | 3.0 | 0 | 2 / 2 / 2 / 3 / 3 / 4 / 4 | THIN |
+| London | 3 | 3.57 | 3.0 | 0 | 5 / 4 / 4 / 3 / 3 / 3 / 3 | THIN |
+| Hertfordshire | 3 | 2.00 | 2.0 | 0 | 2 / 1 / 1 / 2 / 2 / 3 / 3 | THIN |
+| Scotland West - Glasgow | 2 | 1.86 | 2.0 | 0 | 2 / 2 / 1 / 2 / 2 / 2 / 2 | THIN |
+| North East | 2 | 0.86 | 1.0 | 0 | 0 / 0 / 0 / 1 / 1 / 2 / 2 | THIN |
+| Suffolk | 1 | 1.71 | 2.0 | 0 | 2 / 2 / 2 / 2 / 2 / 1 / 1 | THIN |
+| Dorset | 1 | 1.43 | 1.0 | 0 | 2 / 2 / 2 / 1 / 1 / 1 / 1 | THIN |
 | Greater Manchester - North | 1 | 1.00 | 1.0 | 0 | 1 / 1 / 1 / 1 / 1 / 1 / 1 | THIN |
 | West Midlands - Birmingham & Solihull | 1 | 1.00 | 1.0 | 0 | 1 / 1 / 1 / 1 / 1 / 1 / 1 | THIN |
-| Kent | 1 | 0.71 | 1.0 | 0 | 2 / 0 / 0 / 0 / 1 / 1 / 1 | THIN |
-| Berkshire | 1 | 0.43 | 0.0 | 0 | 0 / 0 / 0 / 0 / 1 / 1 / 1 | THIN |
-| Cheshire - West | 1 | 0.43 | 0.0 | 0 | 0 / 0 / 0 / 0 / 1 / 1 / 1 | THIN |
-| Leicestershire | 1 | 0.43 | 0.0 | 0 | 0 / 0 / 0 / 0 / 1 / 1 / 1 | THIN |
-| Scotland West - Renfrewshire & Inverclyde | 1 | 0.43 | 0.0 | 0 | 0 / 0 / 0 / 0 / 1 / 1 / 1 | THIN |
-| Greater Manchester - Wigan & Bolton | 0 | 2.14 | 3.0 | 0 | 4 / 4 / 4 / 3 / 0 / 0 / 0 | THIN |
-| Cheshire - East | 0 | 0.57 | 1.0 | 0 | 1 / 1 / 1 / 1 / 0 / 0 / 0 | THIN |
-| Northamptonshire | 0 | 0.57 | 1.0 | 0 | 1 / 1 / 1 / 1 / 0 / 0 / 0 | THIN |
-| Merseyside - Liverpool | 0 | 0.43 | 0.0 | 0 | 1 / 1 / 1 / 0 / 0 / 0 / 0 | THIN |
-| Hampshire | 0 | 0.29 | 0.0 | 0 | 1 / 1 / 0 / 0 / 0 / 0 / 0 | THIN |
-| Scotland Central - Fife | 0 | 0.29 | 0.0 | 0 | 1 / 1 / 0 / 0 / 0 / 0 / 0 | THIN |
-| Oxfordshire | 0 | 0.14 | 0.0 | 0 | 1 / 0 / 0 / 0 / 0 / 0 / 0 | THIN |
+| Berkshire | 1 | 0.57 | 1.0 | 0 | 0 / 0 / 0 / 1 / 1 / 1 / 1 | THIN |
+| Cheshire - West | 1 | 0.57 | 1.0 | 0 | 0 / 0 / 0 / 1 / 1 / 1 / 1 | THIN |
+| Kent | 1 | 0.57 | 1.0 | 0 | 0 / 0 / 0 / 1 / 1 / 1 / 1 | THIN |
+| Leicestershire | 1 | 0.57 | 1.0 | 0 | 0 / 0 / 0 / 1 / 1 / 1 / 1 | THIN |
+| Northamptonshire | 1 | 0.57 | 1.0 | 0 | 1 / 1 / 1 / 0 / 0 / 0 / 1 | THIN |
+| Scotland West - Renfrewshire & Inverclyde | 1 | 0.57 | 1.0 | 0 | 0 / 0 / 0 / 1 / 1 / 1 / 1 | THIN |
+| Greater Manchester - Wigan & Bolton | 0 | 1.57 | 0.0 | 0 | 4 / 4 / 3 / 0 / 0 / 0 / 0 | THIN |
+| Cheshire - East | 0 | 0.43 | 0.0 | 0 | 1 / 1 / 1 / 0 / 0 / 0 / 0 | THIN |
+| Merseyside - Liverpool | 0 | 0.29 | 0.0 | 0 | 1 / 1 / 0 / 0 / 0 / 0 / 0 | THIN |
+| Hampshire | 0 | 0.14 | 0.0 | 0 | 1 / 0 / 0 / 0 / 0 / 0 / 0 | THIN |
+| Scotland Central - Fife | 0 | 0.14 | 0.0 | 0 | 1 / 0 / 0 / 0 / 0 / 0 / 0 | THIN |
 | Bedfordshire | 0 | 0.00 | 0.0 | 0 | 0 / 0 / 0 / 0 / 0 / 0 / 0 | THIN |
 | Buckinghamshire | 0 | 0.00 | 0.0 | 0 | 0 / 0 / 0 / 0 / 0 / 0 / 0 | THIN |
 | Cambridgeshire | 0 | 0.00 | 0.0 | 0 | 0 / 0 / 0 / 0 / 0 / 0 / 0 | THIN |
@@ -70,6 +69,7 @@ Watch regions: **4**.
 | Northern Ireland - East | 0 | 0.00 | 0.0 | 0 | 0 / 0 / 0 / 0 / 0 / 0 / 0 | THIN |
 | Northern Ireland - West | 0 | 0.00 | 0.0 | 0 | 0 / 0 / 0 / 0 / 0 / 0 / 0 | THIN |
 | Nottinghamshire | 0 | 0.00 | 0.0 | 0 | 0 / 0 / 0 / 0 / 0 / 0 / 0 | THIN |
+| Oxfordshire | 0 | 0.00 | 0.0 | 0 | 0 / 0 / 0 / 0 / 0 / 0 / 0 | THIN |
 | Rutland | 0 | 0.00 | 0.0 | 0 | 0 / 0 / 0 / 0 / 0 / 0 / 0 | THIN |
 | Scotland - Borders | 0 | 0.00 | 0.0 | 0 | 0 / 0 / 0 / 0 / 0 / 0 / 0 | THIN |
 | Scotland Central - Edinburgh & Lothians | 0 | 0.00 | 0.0 | 0 | 0 / 0 / 0 / 0 / 0 / 0 / 0 | THIN |

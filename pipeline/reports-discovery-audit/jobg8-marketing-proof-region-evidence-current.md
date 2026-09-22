@@ -1,21 +1,20 @@
 # JobG8 Marketing proof-region evidence candidates
 
-Content-unique national LIKELY_IN + BORDERLINE inventory: **246** against viability floor **100**.
+Content-unique national LIKELY_IN + BORDERLINE inventory: **225** against viability floor **100**.
 This report does not approve proof regions or any LIVE slice. It surfaces the strongest current markets for human boundary inspection after national discovery.
 
 ## London
 
-- LIKELY_IN: **42**
-- BORDERLINE: **20**
-- Provisional OUT: **21**
+- LIKELY_IN: **37**
+- BORDERLINE: **18**
+- Provisional OUT: **18**
 
 Most common LIKELY_IN titles:
 
-- Marketing Executive: 4
 - Marketing Manager: 2
-- Senior Marketing Executive: 2
+- Marketing Executive: 2
+- Digital Marketing Executive: 2
 - Luxury Content Marketing Executive: 1
-- Trainee Marketing Executive: 1
 - Marketing Coordinator: 1
 - Media & Marketing Officer: 1
 - Digital Marketing Manager - Retail Experience: 1
@@ -23,11 +22,11 @@ Most common LIKELY_IN titles:
 - German-Speaking Freelance Social Media Manager: 1
 - Digital Communications Officer: 1
 - Senior Content Marketing Manager: 1
+- Digital Marketing Manager - Agency Experience: 1
 
 Borderline titles:
 
 - Account Manager - Creative Agency / Channel Marketing: 1
-- CRM Marketing Specialist - FinTech: 1
 - Marketing Business Partner - Insurance: 1
 - Copywriter: 1
 - Digital Marketing & Social Media Consultant: 1
@@ -36,7 +35,6 @@ Borderline titles:
 - Marketing & Business Development Manager: 1
 - Marketing and Digital Assistant: 1
 - Marketing and Campaigns Officer - 6 month contract: 1
-- Social Media Specialist: 1
 - Senior Marketing and Events Executive: 1
 - Marketing & BD Executive: 1
 - Marketing Planner: 1
@@ -69,32 +67,10 @@ Borderline titles:
 - Senior Account Manager - Experiential Marketing: 1
 - Marketing & Design Executive: 1
 
-## West Midlands - Birmingham & Solihull
-
-- LIKELY_IN: **8**
-- BORDERLINE: **2**
-- Provisional OUT: **1**
-
-Most common LIKELY_IN titles:
-
-- Senior Internal Communications Manager: 1
-- Inclusion House Content Officer: 1
-- Communications and Marketing Manager - Fixed Term Contract 2 Years: 1
-- Marketing Executive: 1
-- PR Assistant: 1
-- Trainee Digital Marketing Executive: 1
-- Trainee Social Media Assistant: 1
-- Trainee Social Media Executive: 1
-
-Borderline titles:
-
-- Marketing & Client Services Coordinator: 1
-- CRM Marketing Specialist: 1
-
 ## Surrey
 
 - LIKELY_IN: **7**
-- BORDERLINE: **4**
+- BORDERLINE: **2**
 - Provisional OUT: **4**
 
 Most common LIKELY_IN titles:
@@ -108,8 +84,6 @@ Most common LIKELY_IN titles:
 
 Borderline titles:
 
-- Events Consultant (Marketing): 1
-- Sales and Marketing Executive: 1
 - CRM Executive: 1
 - Brand Ambassador: 1
 
@@ -132,4 +106,19 @@ Borderline titles:
 
 - Junior PR Account Manager: 1
 - Church Engagement Manager: 1
+
+## Essex
+
+- LIKELY_IN: **6**
+- BORDERLINE: **0**
+- Provisional OUT: **1**
+
+Most common LIKELY_IN titles:
+
+- E-commerce Assistant: 1
+- Digital Marketing & Social Media Executive: 1
+- Social Media Manager: 1
+- Marketing Executive (Content Creation / Adobe Creative Suite): 1
+- Digital Marketing Manager: 1
+- Social Media & Content Creator: 1
 

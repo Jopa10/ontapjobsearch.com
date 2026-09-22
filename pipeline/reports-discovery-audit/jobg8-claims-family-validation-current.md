@@ -1,12 +1,12 @@
 # JobG8 Claims Support family validation
 
-Feed: **2026-09-21.xlsx**
-Jobs in feed: **17,785**
-Broad insurance/claims universe: **393** raw rows
-IN after advert-level boundary rules: **46** raw rows
+Feed: **2026-09-22.xlsx**
+Jobs in feed: **17,340**
+Broad insurance/claims universe: **398** raw rows
+IN after advert-level boundary rules: **47** raw rows
 BORDERLINE: **0** raw rows
-OUT: **347** raw rows
-Content-unique IN jobs: **44** (removed **2** exact-content duplicate rows)
+OUT: **351** raw rows
+Content-unique IN jobs: **45** (removed **2** exact-content duplicate rows)
 
 Diagnostic only: no LIVE slice, publishing rule or production family status is changed.
 
@@ -23,9 +23,9 @@ Diagnostic only: no LIVE slice, publishing rule or production family status is c
 
 | Decision | Raw rows |
 |---|---:|
-| IN | 46 |
+| IN | 47 |
 | BORDERLINE | 0 |
-| OUT | 347 |
+| OUT | 351 |
 
 ## Content-unique IN regional shape
 
@@ -51,21 +51,22 @@ Diagnostic only: no LIVE slice, publishing rule or production family status is c
 | 1 | Cheshire - West |
 | 1 | Leicestershire |
 | 1 | West Midlands - Birmingham & Solihull |
+| 1 | Northamptonshire |
 
 ## JobG8 classifications feeding content-unique IN jobs
 
 | Jobs | JobG8 classification |
 |---:|---|
 | 38 | Insurance & Superannuation |
+| 4 | Legal |
 | 3 | Banking & Financial Services |
-| 3 | Legal |
 
 ## Recurring content-unique IN titles
 
 | Jobs | Title |
 |---:|---|
 | 8 | Claims Handler |
-| 7 | Casualty Claims Handler |
+| 8 | Casualty Claims Handler |
 | 5 | Subsidence Claims Handler |
 | 3 | Commercial Claims Handler |
 | 2 | Motor Claims Handler |

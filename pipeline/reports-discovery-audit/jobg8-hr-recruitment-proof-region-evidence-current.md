@@ -1,17 +1,17 @@
 # JobG8 HR / Recruitment proof-region evidence candidates
 
-Content-unique national LIKELY_IN + BORDERLINE inventory: **185** against viability floor **100**.
+Content-unique national LIKELY_IN + BORDERLINE inventory: **184** against viability floor **100**.
 This report does not approve proof regions or any LIVE slice. It surfaces the strongest current markets for human boundary inspection after national discovery.
 
 ## London
 
-- LIKELY_IN: **16**
+- LIKELY_IN: **17**
 - BORDERLINE: **29**
-- Provisional OUT: **69**
+- Provisional OUT: **66**
 
 Most common LIKELY_IN titles:
 
-- HR Assistant: 4
+- HR Assistant: 5
 - HR Coordinator: 2
 - HR Administrator: 1
 - Interim HR Coordinator, 2 months: 1
@@ -58,7 +58,7 @@ Borderline titles:
 
 - LIKELY_IN: **6**
 - BORDERLINE: **0**
-- Provisional OUT: **6**
+- Provisional OUT: **7**
 
 Most common LIKELY_IN titles:
 
@@ -67,6 +67,24 @@ Most common LIKELY_IN titles:
 - People Coordinator: 1
 - HR Administrator, Temporary to Permanent Opportunity: 1
 - HR & Recruitment Coordinator: 1
+
+## Northamptonshire
+
+- LIKELY_IN: **5**
+- BORDERLINE: **2**
+- Provisional OUT: **6**
+
+Most common LIKELY_IN titles:
+
+- HR Administrator: 2
+- Network HR Assistant: 1
+- People Assistant: 1
+- HR Administrator (Northampton Students Union Students Only): 1
+
+Borderline titles:
+
+- HR & Payroll Coordinator: 1
+- Recruitment Account Coordinator: 1
 
 ## Hampshire
 
@@ -83,26 +101,6 @@ Most common LIKELY_IN titles:
 Borderline titles:
 
 - HR and Operations Manager: 1
-
-## Bristol & Bath
-
-- LIKELY_IN: **4**
-- BORDERLINE: **4**
-- Provisional OUT: **18**
-
-Most common LIKELY_IN titles:
-
-- Recruitment Administrator: 1
-- Temp HR Administrator - initial 8 week project: 1
-- HR Administrator: 1
-- HR Coordinator: 1
-
-Borderline titles:
-
-- HR Officer: 1
-- Finance, HR & Office Manager: 1
-- Executive Consultant - Catering & Hospitality Recruitment: 1
-- Talent Acquisition Intern: 1
 
 ## Greater Manchester - Manchester & Salford
 

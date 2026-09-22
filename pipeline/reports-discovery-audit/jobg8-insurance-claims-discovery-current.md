@@ -1,11 +1,11 @@
 # JobG8 Insurance & Claims Support discovery audit
 
-Feed: **2026-09-21.xlsx**
-Jobs in feed: **17,785**
-Broad insurance/claims candidates: **393**
-Core support candidates: **84**
-Boundary-review candidates: **120**
-Specialist/senior exclusions at discovery stage: **189**
+Feed: **2026-09-22.xlsx**
+Jobs in feed: **17,340**
+Broad insurance/claims candidates: **398**
+Core support candidates: **87**
+Boundary-review candidates: **124**
+Specialist/senior exclusions at discovery stage: **187**
 
 Diagnostic only: this report does not change any Ontap publication or family-selection rule.
 
@@ -13,17 +13,17 @@ Diagnostic only: this report does not change any Ontap publication or family-sel
 
 | Decision | Jobs |
 |---|---:|
-| EXCLUDE_SPECIALIST | 189 |
-| REVIEW_OTHER_INSURANCE | 71 |
-| CORE_CLAIMS_SUPPORT | 60 |
-| REVIEW_ACCOUNT_HANDLER | 40 |
-| CORE_INSURANCE_SUPPORT | 24 |
+| EXCLUDE_SPECIALIST | 187 |
+| REVIEW_OTHER_INSURANCE | 72 |
+| CORE_CLAIMS_SUPPORT | 61 |
+| REVIEW_ACCOUNT_HANDLER | 43 |
+| CORE_INSURANCE_SUPPORT | 26 |
 | REVIEW_CLAIMS_TECHNICAL | 9 |
 
 ## Salary shape — core support only
 
 Soft reference range: **£25,000–£40,000** (diagnostic, not a hard gate).
-Core jobs with usable annualised salary: **25 / 84**.
+Core jobs with usable annualised salary: **25 / 87**.
 Median annualised midpoint: **£40,000**.
 Within soft range: **16 (64%)**; below: **2**; above: **7**.
 Hourly/daily/weekly figures are annualised approximately for discovery only.
@@ -33,19 +33,19 @@ Hourly/daily/weekly figures are annualised approximately for discovery only.
 | Jobs | Title |
 |---:|---|
 | 13 | Claims Handler |
-| 7 | Casualty Claims Handler |
+| 8 | Casualty Claims Handler |
+| 6 | Insurance Account Handler |
 | 5 | Subsidence Claims Handler |
 | 4 | Commercial Insurance Account Handler |
 | 4 | Liability Claims Handler |
-| 3 | Insurance Account Handler |
 | 3 | Motor Claims Handler |
 | 3 | Commercial Claims Handler |
 | 3 | Technical Claims Handler |
 | 2 | Property Claims Handler |
 | 2 | FNOL Handler |
 | 2 | Account Handler - Commercial Insurance |
-| 2 | Mortgage Insurance Advisor |
 | 1 | Claims Handler - Home / Motor / Insurance - Remote |
+| 1 | Insurance Advisor (Training provided!) |
 | 1 | Corporate Insurance Account Handler |
 | 1 | Insurance Claims and Service Advisor |
 | 1 | Claims Administrator |
@@ -57,8 +57,8 @@ Hourly/daily/weekly figures are annualised approximately for discovery only.
 
 | Jobs | Title |
 |---:|---|
-| 14 | Commercial Account Handler |
-| 9 | Account Handler |
+| 16 | Commercial Account Handler |
+| 10 | Account Handler |
 | 5 | Products Liability Adjuster |
 | 4 | Corporate Account Handler |
 | 3 | SME Account Handler |
@@ -79,9 +79,9 @@ Classification column detected: **/Job/Classification**.
 
 | Jobs | JobG8 classification |
 |---:|---|
-| 69 | Insurance & Superannuation |
-| 7 | Banking & Financial Services |
-| 5 | Legal |
+| 73 | Insurance & Superannuation |
+| 6 | Legal |
+| 5 | Banking & Financial Services |
 | 1 | HR / Recruitment |
 | 1 | Accounting |
 | 1 | Sales & Marketing |
@@ -90,18 +90,18 @@ Classification column detected: **/Job/Classification**.
 
 | Jobs | Ontap region |
 |---:|---|
-| 8 | Bristol & Bath |
+| 9 | Bristol & Bath |
+| 6 | London |
 | 6 | Essex |
 | 6 | Staffordshire |
 | 6 | Greater Manchester - Manchester & Salford |
 | 5 | Yorkshire - West |
-| 5 | London |
 | 3 | Sussex |
 | 3 | North East - Tyneside, Wearside & Northumberland |
 | 3 | Hertfordshire |
+| 2 | Northamptonshire |
+| 2 | Kent |
 | 2 | Berkshire |
-| 2 | Suffolk |
-| 2 | Gloucestershire |
 
 ## Discovery interpretation
 

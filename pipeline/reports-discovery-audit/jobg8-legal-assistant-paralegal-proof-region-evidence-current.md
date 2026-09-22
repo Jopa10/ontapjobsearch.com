@@ -1,13 +1,13 @@
 # JobG8 Legal Assistant / Paralegal proof-region evidence candidates
 
-Content-unique national LIKELY_IN + BORDERLINE inventory: **258** against viability floor **100**.
+Content-unique national LIKELY_IN + BORDERLINE inventory: **266** against viability floor **100**.
 This report does not approve proof regions or any LIVE slice. It surfaces the strongest current markets for human boundary inspection after national discovery.
 
 ## London
 
 - LIKELY_IN: **54**
 - BORDERLINE: **0**
-- Provisional OUT: **12**
+- Provisional OUT: **11**
 
 Most common LIKELY_IN titles:
 
@@ -66,13 +66,14 @@ Most common LIKELY_IN titles:
 
 ## Greater Manchester - Manchester & Salford
 
-- LIKELY_IN: **11**
+- LIKELY_IN: **12**
 - BORDERLINE: **1**
 - Provisional OUT: **2**
 
 Most common LIKELY_IN titles:
 
 - Private Client Paralegal: 1
+- Public Law Paralegal: 1
 - Commercial Litigation Paralegal: 1
 - Housing Paralegal: 1
 - Remote Conveyancing Paralegal: 1
@@ -90,7 +91,7 @@ Borderline titles:
 
 ## Norfolk
 
-- LIKELY_IN: **11**
+- LIKELY_IN: **12**
 - BORDERLINE: **0**
 - Provisional OUT: **0**
 
@@ -98,6 +99,7 @@ Most common LIKELY_IN titles:
 
 - Legal Secretary - Excellent Benefits & Environment: 3
 - Conveyancing Secretary: 1
+- Conveyancing Legal Secretary: 1
 - Dispute Resolution Paralegal: 1
 - Legal Secretary - Private Client: 1
 - Conveyancing Assistant/Paralegal Hybrid - Full or Part Time: 1
