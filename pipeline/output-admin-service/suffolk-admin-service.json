@@ -406,6 +406,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107865026",
+    "title": "Traffic Planner",
+    "company": "DS SMITH PACKAGING LIMITED - Agency - Permanent",
+    "location": "Suffolk",
+    "region": "Suffolk",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Transport Planner\nAs the flagship UK site for DS Smith Packaging, we operate our own fleet of HGV drivers, delivering high-quality cardboard packaging to customers across the Midlands and East of England. Our Transport team is key to our success, and we pride ourselves on inspiring leadership, modern vehicles, and a supportive work environment click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?gZ0pd2TJz0KhXCUShuG%2brw54EeSGmjmXs",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "DS SMITH PACKAGING LIMITED",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5599160",
     "source": "NHS Jobs",
     "title": "Receptionist",
@@ -421,7 +446,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0817",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0817",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5605467",
@@ -439,7 +468,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0250-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0250-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5604716",
@@ -457,7 +490,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0882",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0882",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5601993",
@@ -475,6 +512,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0875",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0875",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

@@ -553,31 +553,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "1899453",
-    "title": "Accounts Assistant",
-    "company": "Reed - Agency - Permanent",
-    "location": "Surrey",
-    "region": "Surrey",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "30000",
-    "salary_text": "£30000 per year",
-    "posted_date": "",
-    "description": "Accounts Assistant\n\n£30,000 Hybrid Working (2 Days Office / 3 Days Remote) Full Time 35 Hours Per Week\n\nAre you an organised and customer-focused finance professional looking for your next opportunity?\n\nWe are seeking an Accounts Assistant to join a busy and supportive finance team, playing a key role in the management of customer accounts, billing and payment processes.\n\nThis is a varied position that combines finance, administration and customer service, making it ideal for someone who enjoys building relationships while maintaining a high level of accuracy and attention to detail.\n\nThe Role\n\nAs an Accounts Assistant, you will support the Accounts Receivable function, ensuring invoices, payments and account records are processed accurately and efficiently. You will also act as a key point of contact for customer account queries, providing a professional and responsive service.\n\nKey Responsibilities\n- Processing invoices, credit notes, payments and refunds\n- Managing daily banking activities and payment reconciliations\n- Responding to customer account enquiries via phone and email\n- Administering additional service billing and resolving related queries\n- Maintaining corporate customer accounts\n- Assisting with month-end reconciliations and reporting\n- Processing refunds and account closures\n- Supporting regular billing cycles\n- Monitoring outstanding balances and following up overdue payments\n- Providing administrative support across the wider finance team when required\n\nEssential Skills & Experience\n- Strong customer service and communication skills\n- Excellent organisational and time management abilities\n- High levels of accuracy and attention to detail\n- Strong Microsoft Office skills\n- Confidence communicating with internal and external stakeholders\n\nDesirable Experience\n- Accounts Receivable or Credit Control experience\n- Previous experience working within a finance team\n- Intermediate Excel skills\n- Experience using finance or CRM systems\n\nWhat's On Offer?\n- Salary of £30,000\n- Hybrid working with 2 days in the office and 3 days working remotely\n- Supportive and collaborative team environment\n- Opportunity to develop your finance and accounting skills\n- Broad exposure across Accounts Receivable and finance operations\n- Competitive benefits package\n\nIf you're a proactive and detail-oriented finance professional with a passion for delivering excellent customer service, we'd love to hear from you. Apply today to find out more.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?31Q%2fsvDzOVaXSoPmANylGTWOZGfHAqagj",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "2 days in office",
-    "working_arrangement_evidence": "Accounts Assistant Accounts Assistant £30,000 Hybrid Working (2 Days Office / 3 Days Remote) Full Time 35 Hours Per Week Are you an organised and customer-focused finance professional looking for your next opportunity?",
-    "advertiser_name": "Reed",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "nhs-5599747",
     "source": "NHS Jobs",
     "title": "Receptionist/Administrator",
@@ -593,7 +568,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0103-26-0062",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0103-26-0062",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5590134",
@@ -611,7 +590,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2427",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2427",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5580577",
@@ -629,7 +612,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0103-26-0059",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0103-26-0059",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5611812",
@@ -647,7 +634,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9384-26-0838",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9384-26-0838",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5604356",
@@ -665,6 +656,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5706-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5706-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
