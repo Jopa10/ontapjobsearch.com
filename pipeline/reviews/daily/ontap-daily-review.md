@@ -32,7 +32,7 @@ Edit only each `action:` line:
 ## JobG8 — 7 to review
 
 ---
-action:
+action: select
 POSS | JobG8 | Devon | Devon | £16.00-£20.00 per hour | Pay Roll Administrator
 source_key: jobg8
 source: JobG8
@@ -50,7 +50,7 @@ hub_fingerprint: 6f3abb5663eb9ae4ee6197ae897a0e54fe77598b3a4c59ed973ef8073d313a0
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Hertfordshire | Hertfordshire | £32000 - £35000 per year | Finance Assistant
 source_key: jobg8
 source: JobG8
@@ -68,7 +68,7 @@ hub_fingerprint: eacf9788baa64e3953ef1f5a91db543db883a08997fdfe971c065eb31a01bd4
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Leicestershire | Leicestershire | £16.11 - £25.66 per hour | Purchasing Assistant
 source_key: jobg8
 source: JobG8
@@ -86,7 +86,7 @@ hub_fingerprint: b83ad1d03907eec0a33cdcf57026484f5e64a4ed26cd6aefe898f670fbf49cd
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | London | £36000 - £54000 per year | Ebilling Coordinator
 source_key: jobg8
 source: JobG8
@@ -104,7 +104,7 @@ hub_fingerprint: 30c7ef8242f0ca2c0107a03b3e693f886ac0eafe7c9617035e085baa145bd72
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | London | £19.05 per hour | interview Scheduler - Copilot
 source_key: jobg8
 source: JobG8
@@ -122,7 +122,7 @@ hub_fingerprint: fea81804322d6f5ddb152a36a79e1422dcf78cc10574171928848aa7ef45f32
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | Sutton | £45000 per year | Sales Progressor and Office Coordinator
 source_key: jobg8
 source: JobG8
@@ -140,7 +140,7 @@ hub_fingerprint: c7572e7f06c0417493f819f79b55113cb5d92c1f85f3d8f6a0be3542d6ed550
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Merseyside - Liverpool | Liverpool | £35000 per year (Benefits) | HR Operations Administrator
 source_key: jobg8
 source: JobG8
