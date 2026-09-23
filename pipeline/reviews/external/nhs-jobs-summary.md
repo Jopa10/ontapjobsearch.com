@@ -1,16 +1,400 @@
 # NHS Jobs admin/service review
 
-review_date: 2026-09-22
+review_date: 2026-09-23
 
-- Open Administrative & Clerical rows reviewed: 2203
-- Auto/remembered selected: 388
-- Selected HC Tier A: 195
-- Selected HC Tier B: 193
-- POSS awaiting decision: 1686
+- Open Administrative & Clerical rows reviewed: 2107
+- Auto/remembered selected: 379
+- Selected HC Tier A: 185
+- Selected HC Tier B: 194
+- POSS awaiting decision: 1608
 - Excluded: 0
-- HARD_PASS: 129
+- HARD_PASS: 120
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Wales South - Cardiff & Vale | Cardiff, CF14 2TL | £40559.00 to £48841.00 | Charity Brand Manager
+source_job_id: 5617044
+title: Charity Brand Manager
+employer: Velindre University NHS Trust
+region: Wales South - Cardiff & Vale
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C8120-26-0088
+factual_fingerprint: 1199db74ed90d6a73c1b7321363c508473bc119a944992c2cde27b9152b89785
+---
+
+---
+action:
+POSS | NHS Jobs | Somerset | Taunton, TA1 4DY | £25760.00 to £27476.00 | Booking Co-Ordinator
+source_job_id: 5616969
+title: Booking Co-Ordinator
+employer: Somerset NHS Foundation Trust
+region: Somerset
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1363
+factual_fingerprint: f7c9c6d90d6d57ec1cec8a9ba9ee99a3a4c745d092746c5ed40e44663c9f3b08
+---
+
+---
+action:
+POSS | NHS Jobs | Bristol & Bath | Bath, BA1 3NG | £25272.00 | Maternity Administrator
+source_job_id: 5617020
+title: Maternity Administrator
+employer: Royal United Hospitals Bath NHS Foundation Trust
+region: Bristol & Bath
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9427-26-0606
+factual_fingerprint: 6108530d3c2b747ec20cc20a9b2f3829f90eb5bf37ce1156dfd9c6e164ca93e9
+---
+
+---
+action:
+POSS | NHS Jobs | Surrey | Redhill, RH1 5RH | £39959.00 to £48117.00 | Employee Relations Advisor
+source_job_id: 5614712
+title: Employee Relations Advisor
+employer: Surrey and Sussex Healthcare NHS Trust
+region: Surrey
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9326-26-0616
+factual_fingerprint: 7721df5775877d9a8f8f05a47d16fd74c945e681e8fc0778720402dfd1350bee
+---
+
+---
+action:
+POSS | NHS Jobs | Yorkshire - South | Sheffield, S10 2SJ | £25272.00 | Receptionist/Clerical Officer
+source_job_id: 5616733
+title: Receptionist/Clerical Officer
+employer: Sheffield Teaching Hospitals NHS Foundation Trust
+region: Yorkshire - South
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9190-26-0584
+factual_fingerprint: 4f5ebdc583a2a05e465ba7872441f3abaa66abad283b384872d6899a3a743280
+---
+
+---
+action:
+POSS | NHS Jobs | Herefordshire | Hereford, HR1 2AZ | £25760.00 to £27476.00 | Resourcing Officer
+source_job_id: 5616940
+title: Resourcing Officer
+employer: Wye Valley NHS Trust
+region: Herefordshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9229-26-0828
+factual_fingerprint: 77ffa83a4994aee34b2eb8695f1aa75f8de808fcc93846b3a2b01a6ec60cdc93
+---
+
+---
+action:
+POSS | NHS Jobs | Hampshire | Southampton, SO16 6YD | £28392.00 to £31157.00 | Patient Pathway Navigator
+source_job_id: 5615440
+title: Patient Pathway Navigator
+employer: University Hospital Southampton NHS Trust
+region: Hampshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9188-26-0848
+factual_fingerprint: 3298e4c2d3b6f1ef657a705604a61b2fdd6f63ea333914ffa5fc93ab2a04b9a9
+---
+
+---
+action:
+POSS | NHS Jobs | Hampshire | Southampton, SO16 6YD | £28392.00 to £31157.00 | Data Quality Coordinator
+source_job_id: 5615388
+title: Data Quality Coordinator
+employer: University Hospital Southampton NHS Trust
+region: Hampshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9188-26-0847
+factual_fingerprint: b40f6859be9d32c5dced379c9de376960e2038554e6e0523f237f28c1d54a182
+---
+
+---
+action:
+POSS | NHS Jobs | Sussex | Brighton, BN2 3EW | £25760.00 to £27476.00 | Team Administrator - Admin Hub Community Care
+source_job_id: 5615816
+title: Team Administrator - Admin Hub Community Care
+employer: Sussex Community NHS Foundation Trust
+region: Sussex
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9150-26-0561
+factual_fingerprint: edf7116864411e9abf0b56a6bee7501a61e675f77cb19305ee8e2661507fd44e
+---
+
+---
+action:
+POSS | NHS Jobs | Hampshire | Southampton, SO16 6YD | £28392.00 to £31157.00 | Administration Team Leader
+source_job_id: 5615482
+title: Administration Team Leader
+employer: University Hospital Southampton NHS Trust
+region: Hampshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9188-26-0849
+factual_fingerprint: 9e3751a7514e77ac7887ea594ed67d966ace5048f64f8961b28c5b3ffba8883e
+---
+
+---
+action:
+POSS | NHS Jobs | Somerset | Weston-super-Mare, BS23 4TQ | £25760.00 to £27476.00 | Medical Secretary
+source_job_id: 5616860
+title: Medical Secretary
+employer: Bristol NHS Foundation Trust
+region: Somerset
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1967
+factual_fingerprint: f11cab422a47b58561a2b434a495d80cd82bbc272ea1a9c290177fb6b86b138f
+---
+
+---
+action:
+POSS | NHS Jobs | — | Willerby, HU10 6ED | £25760.00 to £27476.00 | Senior Administrator (Banking)
+source_job_id: 5616899
+title: Senior Administrator (Banking)
+employer: Humber Teaching NHS Foundation Trust
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9338-26-0485
+factual_fingerprint: f08cce1c323c690ab46e42ff5a0c1c66b4d4a40712ed178014e1d6a282a91c2b
+---
+
+---
+action:
+POSS | NHS Jobs | Bristol & Bath | Bristol, BS10 5NB | £24465.00 | General Porter
+source_job_id: 5616798
+title: General Porter
+employer: Bristol NHS Foundation Trust
+region: Bristol & Bath
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9339-26-1183
+factual_fingerprint: 1be26c212e9ec6f620baeab30cbfedeca6a2f03aba2ea50e60c40d8c8150b042
+---
+
+---
+action:
+POSS | NHS Jobs | Somerset | Weston-super-Mare, BS23 2AX | £25760.00 to £27476.00 | Medical Secretary
+source_job_id: 5616778
+title: Medical Secretary
+employer: Bristol NHS Foundation Trust
+region: Somerset
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1966
+factual_fingerprint: 015e8f1aea246aebfbf6c3ad2d3c6a7678b88ac2a4aa21aff1dcb864d66c8202
+---
+
+---
+action:
+POSS | NHS Jobs | Somerset | Weston-super-Mare, BS23 2AX | £25760.00 to £27476.00 | Medical Secretary
+source_job_id: 5616774
+title: Medical Secretary
+employer: Bristol NHS Foundation Trust
+region: Somerset
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1965
+factual_fingerprint: 72d85e0ccd3af3965f7f2168e21eb8a316f39ed8e79e1b87301d13dc6e7925e8
+---
+
+---
+action:
+POSS | NHS Jobs | Somerset | Weston-super-Mare, BS23 2AX | £25760.00 to £27476.00 | Medical Secretary
+source_job_id: 5616771
+title: Medical Secretary
+employer: Bristol NHS Foundation Trust
+region: Somerset
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1964
+factual_fingerprint: 318076d1e70d04c012423f383862ec158a278ea917fabc8eee4013ca4f45bfd7
+---
+
+---
+action:
+POSS | NHS Jobs | — | 317 01 Freeman Hospital, NE7 7DN | £25760.00 to £27476.00 | Scheduling Officer
+source_job_id: 5616715
+title: Scheduling Officer
+employer: The Newcastle upon Tyne Hospitals NHS Foundation Trust
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9317-26-0783
+factual_fingerprint: d0ade9688e6a862c8a187e98cf97e7e3301d7562d5e884575098ab2c84be9415
+---
+
+---
+action:
+POSS | NHS Jobs | Somerset | Weston-super-Mare, BS23 2AX | £25272.00 | A&E Receptionist
+source_job_id: 5616755
+title: A&E Receptionist
+employer: Bristol NHS Foundation Trust
+region: Somerset
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1963
+factual_fingerprint: aa18620c0ab95bbc24c0aaff6c27c076139cf1da201570401341312c9bf15f1c
+---
+
+---
+action:
+POSS | NHS Jobs | Norfolk | Norwich, NR6 5BE | £25760.00 to £27476.00 | Call Handler - Initial Response Service
+source_job_id: 5616741
+title: Call Handler - Initial Response Service
+employer: Norfolk & Suffolk Foundation NHS Trust
+region: Norfolk
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9246-26-1081
+factual_fingerprint: af4c78104b0f7d7a76d1f10d233fb9f329bf76bb75438aef032de7504a599bb8
+---
+
+---
+action:
+POSS | NHS Jobs | West Midlands - Black Country | West Bromwich, B71 4HJ | £25272.00 | Nursery Nurse
+source_job_id: 5615781
+title: Nursery Nurse
+employer: Sandwell and West Birmingham NHS Trust
+region: West Midlands - Black Country
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9381-26-0390
+factual_fingerprint: 697954d4dd33219362128e2bfa617083b7e21c34cd85894dfeeb05282a7495e8
+---
+
+---
+action:
+POSS | NHS Jobs | West Midlands - Birmingham & Solihull | Birmingham, B24 9FD | £27391.00 to £27391.00 | Customer Support Coordinator
+source_job_id: 5615773
+title: Customer Support Coordinator
+employer: Prometheus Safe and Secure
+region: West Midlands - Birmingham & Solihull
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0421-26-0022
+factual_fingerprint: 11239ab8bbb6e64fe4e444109e82b0a545a5d90703ccf09b7460b2d71f4f963d
+---
+
+---
+action:
+POSS | NHS Jobs | Somerset | Yeovil, BA21 4AT | £25760.00 to £27476.00 | Goods-In Coordinator
+source_job_id: 5616681
+title: Goods-In Coordinator
+employer: Somerset NHS Foundation Trust
+region: Somerset
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1359
+factual_fingerprint: 074d9dfe4c5fb67065454efb0bd6ad423e0abb7de5cb427b187a1a1bbd985d3f
+---
+
+---
+action:
+POSS | NHS Jobs | Lincolnshire | Boston, PE21 9QS | £25760.00 to £27476.00 | Clinical Support Officer - Band 3
+source_job_id: 5614870
+title: Clinical Support Officer - Band 3
+employer: United Lincolnshire Hospitals NHS Trust
+region: Lincolnshire
+reason: BRIDGEABLE: NHS admin/service title registry
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9357-26-0398
+factual_fingerprint: aefe47760f042d533634a93e98bc96dd705cb9c4f3c9ecf4e7720c3d3483f0e9
+---
+
+---
+action:
+POSS | NHS Jobs | Wales South -gwent | Newport, PO30 5TG | £39959.00 to £48117.00 | Complaints Case Handler
+source_job_id: 5616654
+title: Complaints Case Handler
+employer: Isle of Wight NHS Trust
+region: Wales South -gwent
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9470-26-0532
+factual_fingerprint: cd17861febf0e3f64136c5eccd385f74884f419902762c7883df5d469822d50b
+---
+
+---
+action:
+POSS | NHS Jobs | Gloucestershire | Cheltenham, GL53 0LA | £13.11 | GP Administrator
+source_job_id: 5613795
+title: GP Administrator
+employer: Leckhampton Surgery
+region: Gloucestershire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0618-26-0004
+factual_fingerprint: e9104ebf3873b2652daf72b9ff56a532f210ab0dd56d36e97c0ec3430d95b32b
+---
+
+---
+action:
+POSS | NHS Jobs | Merseyside - St Helens & Knowsley | St Helens, L35 5DR | £25760.00 to £27476.00 | Access Officer
+source_job_id: 5615869
+title: Access Officer
+employer: Mersey and West Lancashire Teaching Hospitals NHS Trust
+region: Merseyside - St Helens & Knowsley
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9409-26-0965
+factual_fingerprint: 2b44da0e7a4881d524706bdafe6152c44b7b3c138eeace6d2cb7df93f276761d
+---
+
+---
+action:
+POSS | NHS Jobs | London | London, E7 8AB | Negotiable | GP Operations and Workforce Lead
+source_job_id: 5616649
+title: GP Operations and Workforce Lead
+employer: Claremont Clinic
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0925-26-0015
+factual_fingerprint: 24646624feeb7016dc74df1e3346c369acae5dc75bc648d53715cb74186157b4
+---
+
+---
+action:
+POSS | NHS Jobs | West Midlands - Birmingham & Solihull | Birmingham, B9 5SS | £28392.00 to £31157.00 | Band 4 Emergency Department Administrator
+source_job_id: 5587244
+title: Band 4 Emergency Department Administrator
+employer: University Hospitals Birmingham NHS Foundation Trust
+region: West Midlands - Birmingham & Solihull
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C0020-26-1357
+factual_fingerprint: 72bad632b29666b8ca7d7a01dac46aeb2fce13296bc600546d704c2307935915
+---
+
+---
+action:
+POSS | NHS Jobs | Hertfordshire | Chorleywood, WD3 5TQ | £12.75 | Concierge
+source_job_id: 5616274
+title: Concierge
+employer: Avery Healthcare Group Ltd.
+region: Hertfordshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3977
+factual_fingerprint: d14d0b5839128078ab7754fe22d4b067ceafe7ceb87489169f4bce68edcd57ae
+---
+
+---
+action:
+POSS | NHS Jobs | Kent | Ashford, TN24 0GP | £14.48 | Care Coordinator
+source_job_id: 5616626
+title: Care Coordinator
+employer: Integrated Care 24 Ltd
+region: Kent
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0214-26-0136
+factual_fingerprint: 3e8fd521551973e256a07d1d1ea5f4eb03c41cb23217f52dc4c6bc7537b0d372
+---
+
+---
+action:
+POSS | NHS Jobs | Kent | Ashford, TN24 0GP | £14.48 | Care Coordinator
+source_job_id: 5616625
+title: Care Coordinator
+employer: Integrated Care 24 Ltd
+region: Kent
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0214-26-0135
+factual_fingerprint: 8ac715c5ae83800b8bd6da5d6faf348b5ebf4af0078ff85a639b97c0bd352c0b
+---
+
+---
+action:
+POSS | NHS Jobs | Norfolk | Norwich, NR7 0WF | £14.48 | Care Coordinator
+source_job_id: 5616593
+title: Care Coordinator
+employer: Integrated Care 24 Ltd
+region: Norfolk
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0214-26-0134
+factual_fingerprint: be5556440f57d88e5bfe1b17100fc537eaf6562a4b6a21d6a2ba913ac085eff6
+---
 
 ---
 action:
@@ -141,7 +525,7 @@ employer: Dartford and Gravesham NHS Trust
 region: Kent
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9252-26-0169
-factual_fingerprint: e385fc37aee3107cfa3c6af4c0d5c6eccc0b6e59354a3bf186986379760a64ec
+factual_fingerprint: 3560b95803cd3c8e013cb6a1cff88d5857fded58829cb9eb46df5fd2e5946636
 ---
 
 ---
@@ -369,7 +753,7 @@ employer: Dorset HealthCare University NHS Foundation Trust
 region: Dorset
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-1005
-factual_fingerprint: be9743d6075e6436079490d96dce084228568ed4467b2c7c1f7db910b693dd9f
+factual_fingerprint: e1610c91325f2c406efa6e5af0a1a563036e8885b442b673d29608bb27ff3fd6
 ---
 
 ---
@@ -429,7 +813,7 @@ employer: Public Health Wales
 region: Wales South - Cardiff & Vale
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9028-26-0182
-factual_fingerprint: 2d02f19c7f938af61eaae476c1bad9bb6d7c32fc6192adedebe5b386da603295
+factual_fingerprint: 7b7bfd7b9e1a72acd241573e9b1da9049af46e1ee4854418012364d0770658a6
 ---
 
 ---
@@ -441,7 +825,7 @@ employer: Manchester University NHS Foundation Trust
 region: Greater Manchester - Manchester & Salford
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2694
-factual_fingerprint: 04f23a917c31a1dd34fe567feb2493c25a2af99e1a88f4273e5cc45bced0f825
+factual_fingerprint: 4939e7cc2f321fd9f16d923125db357fcf8bc436b06189a1a985d82e221fbb1b
 ---
 
 ---
@@ -453,7 +837,7 @@ employer: Manchester University NHS Foundation Trust
 region: 
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2810
-factual_fingerprint: be0acf7bee99c6679c5d77740664b4f5054192bb14763d8d93794f4a6bc78cb8
+factual_fingerprint: 1073073e75b2ed5bc31c10cabb1470a52636065d0d6daa548abf75c101a85ec9
 ---
 
 ---
@@ -789,7 +1173,7 @@ employer: Imperial College Healthcare NHS Trust
 region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9290-26-1097
-factual_fingerprint: a61599d53f7d1263fa21bc4a49e86ab45af6efcfc1f8cf662c20cf572f29f5c0
+factual_fingerprint: 8207c5ed405ca96502764a544e8b641cc88744bcd4d32c3f90f477a1f7661362
 ---
 
 ---
@@ -994,6 +1378,18 @@ region: Gloucestershire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0796
 factual_fingerprint: 0fe6f3459e15f5d9f3fd5dbb2369e95d767326e98fab152d8c5abaf9afe6f07c
+---
+
+---
+action:
+POSS | NHS Jobs | — | Bronllys, LD3 0LU | £28819.00 to £31626.00 | Capital Administrative Officer
+source_job_id: 5614523
+title: Capital Administrative Officer
+employer: Powys Teaching Health Board
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9070-26-0457
+factual_fingerprint: e9d57eb8f9e82c9e109534549771d3e76c269c342a937e939e4988c9bf8766a0
 ---
 
 ---
@@ -1341,7 +1737,7 @@ employer: Aneurin Bevan University Health Board
 region: Wales South - Gwent
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9040-26-0954
-factual_fingerprint: d69f47838926e20b05150ace5bb43267c0c5b30d08dd4eda619a5b6a98459acc
+factual_fingerprint: efba488b33a6a6c2a3326d85b640e9f7a52a337b79c4ce4f824af499fce0c1f5
 ---
 
 ---
@@ -1389,7 +1785,7 @@ employer: Aneurin Bevan University Health Board
 region: Wales South - Gwent
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9040-26-0953
-factual_fingerprint: b65a6fc37f17b39fa49b4e6f89710f35e0d8e2e61490205f06b850bb4199c2c9
+factual_fingerprint: 421cb2fbe6d7cd7bd75f78f8ab69b0aedb1a073f729d45ae3b84cb06e3ccd5c8
 ---
 
 ---
@@ -1598,18 +1994,6 @@ factual_fingerprint: 3d9bdc93dfe1aec37c3024bd6d3d7c830d2faae59b6a48a655928c6348d
 
 ---
 action:
-POSS | NHS Jobs | London | London, NW1 2BU | £34186.00 to £37389.00 | Administration Coordinator
-source_job_id: 5611600
-title: Administration Coordinator
-employer: University College London Hospitals NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9309-26-0933
-factual_fingerprint: d12eb9034ccdba67392799f44e7c8468686cde730b42b9e8b8af8328a69ac0b1
----
-
----
-action:
 POSS | NHS Jobs | East Midlands | Hinckley, LE10 1DA | £12.71 | Customer Service Administrator
 source_job_id: 5614635
 title: Customer Service Administrator
@@ -1665,7 +2049,7 @@ employer: Cwm Taf Morgannwg University Health Board
 region: 
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9110-26-0965
-factual_fingerprint: 4d1bd79a8cf1332ee5fc6cbf7887c4fa603c85d735b558e819ec3a01b1b765a4
+factual_fingerprint: 7fa91a1b87b0772f9d2365bf3a01f1d3d58e0749beb2d4d9c5d9e7e00e18b147
 ---
 
 ---
@@ -1773,7 +2157,7 @@ employer: Manchester University NHS Foundation Trust
 region: Greater Manchester - Manchester & Salford
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2803
-factual_fingerprint: 2a52197c916ab2065d1f414902e992bb684fb15f2ec7ae51fb05119f9a03a5d4
+factual_fingerprint: 1dc42978e496bf85a098fdbe036f452dfbf8ea86e1db870d6109bf0eee2e933e
 ---
 
 ---
@@ -1833,7 +2217,7 @@ employer: Manchester University NHS Foundation Trust
 region: Greater Manchester - Manchester & Salford
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2798
-factual_fingerprint: 24417cae4b7054d9174dbdf688f2659b20f8824841fbc6bdbaedcec73cc25dc4
+factual_fingerprint: c6594fb5a53b26c1b504a6e57ad475e24c4bd037577becba421d62c1bb92003f
 ---
 
 ---
@@ -1845,7 +2229,7 @@ employer: Manchester University NHS Foundation Trust
 region: Greater Manchester - Manchester & Salford
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2797
-factual_fingerprint: 42d6b8456aa626300ccbef7a712c06af6bce8d7b81b022773f2507b4a7d295b8
+factual_fingerprint: 857d48b3d8429b25e84590598c72042f146c3a0ec9d550dd79c2f766649ac54b
 ---
 
 ---
@@ -1965,7 +2349,7 @@ employer: Northamptonshire Healthcare Foundation Trust
 region: Northamptonshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9270-26-0757
-factual_fingerprint: d4faa806ba2d2b6a42b231bfc21bacb0f8e7582c025f7352f90412b27f36118b
+factual_fingerprint: cdf5b70346e29ad3f2575cf51b60ea3d6b7c4e1afedc35c1578fbe9d051b9843
 ---
 
 ---
@@ -2073,7 +2457,7 @@ employer: Cwm Taf Morgannwg University Health Board
 region: 
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9110-26-0963
-factual_fingerprint: d7d725326c2ed1055609a10e05114c1910c1ead6836254661ed276fcff34738e
+factual_fingerprint: 88c63caa22407fc4de6e95d2890d1cbe1a8bbd6f47b4743a8e2a06b2d7acb274
 ---
 
 ---
@@ -2409,7 +2793,7 @@ employer: University Hospitals of Morecambe Bay NHS Trust
 region: 
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9331-26-0730
-factual_fingerprint: 2650f135da3293b4754721af4323dc8b3352514fb04bd9226e0f3fdc56992cc4
+factual_fingerprint: 1239a8d0450d0421569cc1aa332984bbe4b1f0c71a830e8019d8994bdd8d124b
 ---
 
 ---
@@ -3009,7 +3393,7 @@ employer: Liverpool Heart and Chest Hospital
 region: Merseyside - Liverpool
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9410-26-0127
-factual_fingerprint: d3905626a9c00625a5894f575f4ef716359b9b048ca5e5a032a15c87b68fa858
+factual_fingerprint: df5a3cdcf8def68b703a3c8c50535a9dcbf3fcad9c4a8cecd775750cdec47c94
 ---
 
 ---
@@ -3110,18 +3494,6 @@ factual_fingerprint: 62385e7a1b4f05e189388f86b36646f8048ab5fafceed71ca4c70a40329
 
 ---
 action:
-POSS | NHS Jobs | London | London, NW32QG | £34186.00 to £37389.00 | Band 4 Urology Pathway Navigator
-source_job_id: 5607576
-title: Band 4 Urology Pathway Navigator
-employer: Royal Free London NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9391-26-1615
-factual_fingerprint: 1d812aca2796b6c1022cd1154624b8a82523787eabb43bd1345a3c210a2a6512
----
-
----
-action:
 POSS | NHS Jobs | London | London, NW3 2QG | £30630.00 to £32346.00 | Band 3 Medical Education Administrator (BH)
 source_job_id: 5608128
 title: Band 3 Medical Education Administrator (BH)
@@ -3130,18 +3502,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9391-26-1618
 factual_fingerprint: 5e357a88e391d1b8eea4640425c57040a0040b38ef35b938025f89011e052c7a
----
-
----
-action:
-POSS | NHS Jobs | London | Enfield, Middlesex, EN2 8JL | £33262.00 to £36027.00 | Band 4 Patient Pathway Navigator Oncology
-source_job_id: 5612528
-title: Band 4 Patient Pathway Navigator Oncology
-employer: Royal Free London NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9391-26-1639
-factual_fingerprint: 1e6513ad25fb5a0c27f0540e46e9c71248af6b7b8d848e110e264935328429f1
 ---
 
 ---
@@ -3242,18 +3602,6 @@ factual_fingerprint: a209e7632d741c9b1236ef6f8aea4fad69f61e435eb25858c6e3af6f939
 
 ---
 action:
-POSS | NHS Jobs | London | Enfield, EN1 3XA | £33262.00 to £36027.00 | Band 4 OAC Bookings Team Coordinator
-source_job_id: 5611830
-title: Band 4 OAC Bookings Team Coordinator
-employer: Royal Free London NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9391-26-1633
-factual_fingerprint: 02688a385a387de70d2df1515d34eb5966fbe59c7eebf4f5eb6949c88729d4a3
----
-
----
-action:
 POSS | NHS Jobs | Lincolnshire | Grimsby, DN33 2BA | £28392.00 to £31157.00 | Patient Services - Training Facilitator
 source_job_id: 5612685
 title: Patient Services - Training Facilitator
@@ -3285,7 +3633,7 @@ employer: Sherwood Forest Hospitals NHS Foundation Trust
 region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9214-26-0826
-factual_fingerprint: fb492ea074fd5c9e9e6733690377de25f65d80a762eaa0d85d7b8a7a981160f3
+factual_fingerprint: 4c3666e807929ea21d37f0a22d7992d935f6eebdf13faa8579c0cdeeb75c3514
 ---
 
 ---
@@ -3322,18 +3670,6 @@ region:
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/G9907-26-0110
 factual_fingerprint: 06eeda94d3de629d0c89ce44b758af7d08f194a09b683d618c176be8dbcf44ce
----
-
----
-action:
-POSS | NHS Jobs | Berkshire | Reading, RG1 5AN | £32073.00 to £39043.00 | Corporate Governance Officer
-source_job_id: 5612408
-title: Corporate Governance Officer
-employer: Royal Berkshire NHS Foundation Trust
-region: Berkshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9193-26-0634
-factual_fingerprint: 5f7feade9011d6188664664127206e57afeaa56b2d955e3d68f637b3ee6790f8
 ---
 
 ---
@@ -3530,14 +3866,14 @@ factual_fingerprint: 1a406105d32ef764d620e696183c514be542c153f9da8d9fef5e490330b
 
 ---
 action:
-POSS | NHS Jobs | North East | Sunderland, SR5 2AL, Durham, DH7 8RW | £13.07 | Immunisation Administrative School Support - NE Central and NE South
+POSS | NHS Jobs | North East | Sunderland, SR5 2AL | £13.07 | Immunisation Administrative School Support - NE Central and NE South
 source_job_id: 5612170
 title: Immunisation Administrative School Support - NE Central and NE South
 employer: Intrahealth Ltd
 region: North East
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0025-26-0157
-factual_fingerprint: 817d01bd1eb5ad0e820390f35a71c97218ad22425649e6711ce91521eb590599
+factual_fingerprint: e37eac32bc1fc2376f699af87f0d837f7a8070d35ce305d1fc2ec8da0a96088a
 ---
 
 ---
@@ -3914,18 +4250,6 @@ factual_fingerprint: 7fc49cf27b84c230792b48d4fd5294b03aa380d45c63c267dcfaa80f07c
 
 ---
 action:
-POSS | NHS Jobs | Lincolnshire | Grantham, NG31 8DG | £25760.00 to £27476.00 | Clinician Support Officer - Band 3
-source_job_id: 5611575
-title: Clinician Support Officer - Band 3
-employer: United Lincolnshire Hospitals NHS Trust
-region: Lincolnshire
-reason: BRIDGEABLE: NHS admin/service title registry
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9357-26-0396
-factual_fingerprint: d7a2aa5d5525c8b2317b908dd94ca6b4c72863cbff07ffd1bb7434ea1743ea3c
----
-
----
-action:
 POSS | NHS Jobs | Lincolnshire | Boston, PE21 9QS | £25760.00 to £27476.00 | Clinician Support Officer - Band 3
 source_job_id: 5611537
 title: Clinician Support Officer - Band 3
@@ -4269,7 +4593,7 @@ employer: NHS Northamptonshire Integrated Care Board
 region: 
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9086-26-0024
-factual_fingerprint: 4295f736674c4dd6bd6621ee3ec03833b909ce8a1c5837e59519e144270db1ca
+factual_fingerprint: 325165ab1cd81f2053c96a9faee38d7f25e93cd5c9dd3d9b671cbf0a4f11356b
 ---
 
 ---
@@ -4329,7 +4653,7 @@ employer: NHS Northamptonshire Integrated Care Board
 region: 
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9086-26-0025
-factual_fingerprint: 613f33b3056179ba8059163eee4a230e6593a6251b7359c15ebf9b086ce64035
+factual_fingerprint: 6aa377150b0e715d0f9e39dfeadac639694490fe48b955da5ecc1fea96a5de36
 ---
 
 ---
@@ -5342,18 +5666,6 @@ factual_fingerprint: dc410854b30906ba530239408ad76b6e469b0c2a913731f1d39f64e988b
 
 ---
 action:
-POSS | NHS Jobs | West Midlands - Coventry & Warwickshire | Coventry, CV2 2DX | £25760.00 to £27476.00 | Waiting List Coordinator
-source_job_id: 5608242
-title: Waiting List Coordinator
-employer: University Hospitals Coventry and Warwickshire NHS Trust
-region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9218-26-1148
-factual_fingerprint: 6317a3d5dc71b1c8841b990b4026ccbff47f0ccb2bc513b853e753ff2e4fe25c
----
-
----
-action:
 POSS | NHS Jobs | Greater Manchester - North | Bury, BL9 0NJ | £14.25 | Patient Access Centre Coordinator
 source_job_id: 5609662
 title: Patient Access Centre Coordinator
@@ -5774,18 +6086,6 @@ factual_fingerprint: 9a3f7eae5d36c00fb41cc5d5204a2ff49f3c62c7f83da14de023ff1963b
 
 ---
 action:
-POSS | NHS Jobs | — | Paddington, W2 1NY | £38488.00 to £46852.00 | Content Officer (Patient Information)
-source_job_id: 5601146
-title: Content Officer (Patient Information)
-employer: Imperial College Healthcare NHS Trust
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9290-26-1056
-factual_fingerprint: e7f19696f3d072bdb42fc290bfbb24e9cba3b124b400019a878e3b7115a9704f
----
-
----
-action:
 POSS | NHS Jobs | North East | Darlington, DL3 6HX | £32073.00 to £39043.00 | Microsoft Licensing Optimisation Officer
 source_job_id: 5608738
 title: Microsoft Licensing Optimisation Officer
@@ -5866,18 +6166,6 @@ region: Hampshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9188-26-0827
 factual_fingerprint: 0143c6003a513fd4f3e7d3670ab5f4b5f995bd9ed2fe09d667cb1182efef4ea5
----
-
----
-action:
-POSS | NHS Jobs | Hampshire | Southampton, SO16 6YD | £32073.00 to £39043.00 | Business Administration Manager
-source_job_id: 5599269
-title: Business Administration Manager
-employer: University Hospital Southampton NHS Trust
-region: Hampshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9188-26-0818
-factual_fingerprint: d18e1783fc467dc92e1be1a7a61e87cf00e06b64fdfb8da8afee45c2552b22c4
 ---
 
 ---
@@ -6170,18 +6458,6 @@ factual_fingerprint: 529ca6ac0c92387fa3ba6d857b5b5d17ff12f3072519c22a79f6de5d510
 
 ---
 action:
-POSS | NHS Jobs | London | London, RM7 0AG | £30630.00 to £32346.00 | Commercial Procurement Logistics and Supplies Support Officer
-source_job_id: 5608411
-title: Commercial Procurement Logistics and Supplies Support Officer
-employer: Barts Health NHS Trust
-region: London
-reason: BRIDGEABLE: NHS admin/service title registry
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9259-26-1619
-factual_fingerprint: ca4839afa49e20c7a602c0aa9cc85e4976430f5e9caedf99ac77ef53e2a192ec
----
-
----
-action:
 POSS | NHS Jobs | Yorkshire - West | Brighouse, HD6 3NA | £32000.00 to £38000.00 | Practice Manager - Rastrick Health Centre
 source_job_id: 5607808
 title: Practice Manager - Rastrick Health Centre
@@ -6286,18 +6562,6 @@ region: Yorkshire - East
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9356-26-0626
 factual_fingerprint: e4aaed32f0b6990b539f2d4fd66ea81fd2c951162310d7d55aca371145efed3f
----
-
----
-action:
-POSS | NHS Jobs | — | Tooting Broadway, SW17 0QT | £47951.00 to £56863.00 | Data Quality & Income Recovery Assistant Manager
-source_job_id: 5608157
-title: Data Quality & Income Recovery Assistant Manager
-employer: St George's University Hospitals NHS Foundation Trust
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9200-26-0846
-factual_fingerprint: 640e29c3056652b0aaf7b2c3424778053d1daa89d6b25f2da180dd8a322953cc
 ---
 
 ---
@@ -6734,18 +6998,6 @@ factual_fingerprint: 11de41e46cfc13e81fcf873b6d742a6f9f476ab0467b726091893bf430a
 
 ---
 action:
-POSS | NHS Jobs | London | LONDON, SE1 8SD | £34186.00 to £37389.00 | First Responder Department Administrator
-source_job_id: 5607564
-title: First Responder Department Administrator
-employer: London Ambulance Service NHS Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9308-26-0129
-factual_fingerprint: e7851a75bbef655d15d25245942d1cdd12e74c31b9ffdabbad72d0bc07591078
----
-
----
-action:
 POSS | NHS Jobs | London | London, SE5 8AZ | £34186.00 to £37389.00 | Communications and Engagement Officer - EPR
 source_job_id: 5607532
 title: Communications and Engagement Officer - EPR
@@ -6806,18 +7058,6 @@ factual_fingerprint: 77effb67753d9d87ff513ad1db124dca86e54d780229f52fa16e61bc2ec
 
 ---
 action:
-POSS | NHS Jobs | Lincolnshire | Lincoln, LN2 5QY | £49387.00 to £56515.00 | Clinical Effectiveness Manager Band 7
-source_job_id: 5601570
-title: Clinical Effectiveness Manager Band 7
-employer: United Lincolnshire Hospitals NHS Trust
-region: Lincolnshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9357-26-0387
-factual_fingerprint: 91ca0c0ee1bac4b20f314732d4072aaeb439ffd68bc2f3979545338e8bf8860a
----
-
----
-action:
 POSS | NHS Jobs | East Midlands | Hinckley, LE10 0EW | £25272.00 | Receptionist/Administrative Assistant
 source_job_id: 5607414
 title: Receptionist/Administrative Assistant
@@ -6850,18 +7090,6 @@ region: Berkshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9151-26-1186
 factual_fingerprint: 3c081b94435b112c297c40801fd2c226eeefc7b403a604e38683536103c22f39
----
-
----
-action:
-POSS | NHS Jobs | Cambridgeshire | Cambridge, CB2 0QQ | £79504.00 to £84346.00 | Head of Large-Scale Change Portfolios
-source_job_id: 5607400
-title: Head of Large-Scale Change Portfolios
-employer: Cambridge University Hospital NHS Foundation Trust
-region: Cambridgeshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1187
-factual_fingerprint: 9eb4a7103b1639069c5fc7b39576672286dc65bac4d46807d7b25cb030aae4ec
 ---
 
 ---
@@ -7166,18 +7394,6 @@ factual_fingerprint: bf76b5827496798abbf4baf39a3cc6c16a400133df2aa36546fc3e9d2af
 
 ---
 action:
-POSS | NHS Jobs | Lancashire - Central | Preston, PR2 9HP | £25272.00 | Administrator - Pharmacy Homecare and High Cost Drugs
-source_job_id: 5584851
-title: Administrator - Pharmacy Homecare and High Cost Drugs
-employer: Lancashire Teaching Hospitals NHS Foundation Trust
-region: Lancashire - Central
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9438-26-0501
-factual_fingerprint: 1dc9ac049c20d990951b647b47c91712eddd837723dbebde5ec83682d781a6d4
----
-
----
-action:
 POSS | NHS Jobs | Lancashire - Central | Preston, PR2 9HT | £39959.00 to £48117.00 | Organisational Development Advisor - Team Engagement
 source_job_id: 5593069
 title: Organisational Development Advisor - Team Engagement
@@ -7198,18 +7414,6 @@ region: North Wales - East
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-2160
 factual_fingerprint: 163be9de637b3af82ce8a521dd4ae10ac5a057f3458ab293b2bd23cb2b906edd
----
-
----
-action:
-POSS | NHS Jobs | — | Anglesey, LL77 7PP | £26300.00 | Receptionist - Cefni
-source_job_id: 5607055
-title: Receptionist - Cefni
-employer: Betsi Cadwaladr University Health Board
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-2161
-factual_fingerprint: 39c837194e651c69e3177ee0972741251eab2368e6eaccc10e0375c42bf3e281
 ---
 
 ---
@@ -7258,30 +7462,6 @@ region: North Wales - East
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-2151
 factual_fingerprint: 17d0afc73f0e4a83516627792445ce733c24ea80dee39ec87fb787bfdc94259a
----
-
----
-action:
-POSS | NHS Jobs | — | Bodelwyddan, LL18 5UJ | £26813.00 to £27890.00 | Support Secretary
-source_job_id: 5605745
-title: Support Secretary
-employer: Betsi Cadwaladr University Health Board
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-2148
-factual_fingerprint: 3cc0ad65690da0f33ebae4d948694470fd1dea17a0d441a4286ac412f238a61e
----
-
----
-action:
-POSS | NHS Jobs | North Wales - East | Rhyl, LL18 3AS | £26813.00 to £27890.00 | Secretary
-source_job_id: 5605585
-title: Secretary
-employer: Betsi Cadwaladr University Health Board
-region: North Wales - East
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-2145
-factual_fingerprint: 76c5a78378f56aafe9e2be3a517a9e4dd25396df76cdab6480ae4f27ab4fb945
 ---
 
 ---
@@ -7474,18 +7654,6 @@ region: Cornwall
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0735-26-0004
 factual_fingerprint: b1151afb4faf27248b374a94c7a0f76026b8977dbe50307607072442c3384b49
----
-
----
-action:
-POSS | NHS Jobs | West Midlands - Coventry & Warwickshire | Warwick, CV34 5BW | £35392.00 to £42618.00 | Head of Income & Contracting
-source_job_id: 5606581
-title: Head of Income & Contracting
-employer: South Warwickshire University NHS Foundation Trust
-region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9203-26-0574
-factual_fingerprint: 55ce5b909d667894eb5e5dce83b5ae8ad65fc4148e03b740fa0ed1c2a7e24173
 ---
 
 ---
@@ -8594,30 +8762,6 @@ factual_fingerprint: f01beca77c5fa30eca169336b8dd47673f94a7f4666f010bb47c52512ef
 
 ---
 action:
-POSS | NHS Jobs | Wales South -gwent | Newport, PO30 5TG | £31967.00 to £38493.00 | Safeguarding Practitioner - Child
-source_job_id: 5601551
-title: Safeguarding Practitioner - Child
-employer: Portsmouth Hospitals University NHS Trust
-region: Wales South -gwent
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C8192-26-0504
-factual_fingerprint: 7ee7c2d304b60992255508988dfc83daf2a316974545ee8ab97bff9625ad790a
----
-
----
-action:
-POSS | NHS Jobs | — | Maidstone and Tunbridge Wells, ME16 9QQ | £25272.00 to £31157.00 | CAU Recruitment and Drop in Session details
-source_job_id: 5603955
-title: CAU Recruitment and Drop in Session details
-employer: Maidstone and Tunbridge Wells NHS Trust
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9359-26-0232
-factual_fingerprint: e4a90d05c1807a61e60f78a32b2cfbd1989aaf998ecda8e9480184661167035d
----
-
----
-action:
 POSS | NHS Jobs | Yorkshire - West | Leeds, LS9 7TF | £28392.00 to £31157.00 | PMO Administrator
 source_job_id: 5604762
 title: PMO Administrator
@@ -8973,7 +9117,7 @@ employer: University Hospitals Dorset NHS Foundation Trust
 region: Dorset
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9153-26-0786
-factual_fingerprint: 7f32ee1977171cf682038e98f029243effb10698e40324c7a041554b633be8a8
+factual_fingerprint: 92353f0d11f6b373e9cd403fae06848bfd7e58561dc3898c7f3fe39221e3891e
 ---
 
 ---
@@ -9034,18 +9178,6 @@ region:
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9317-26-0756
 factual_fingerprint: 1ec53535db94cc9b7296907dddbd8f7664258f0391b748fc7c09883ea5f4e52b
----
-
----
-action:
-POSS | NHS Jobs | North East | Newcastle upon Tyne, NE1 4LP | £25272.00 | Dispensary Assistant / Receptionist
-source_job_id: 5602115
-title: Dispensary Assistant / Receptionist
-employer: Newcastle Hospitals PharmaServices Limited
-region: North East
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C0004-26-0007
-factual_fingerprint: 8063b622b19c5192b94fc2e0c7d7c071c1cbf4c9cb4647a184b3160ce84f12e0
 ---
 
 ---
@@ -9986,18 +10118,6 @@ factual_fingerprint: fda888f3c0cf582a7c2fb4119c527bc622fa80777c535ff58eefda43500
 
 ---
 action:
-POSS | NHS Jobs | — | 317 Trustwide, NE1 4LP | £25760.00 to £27476.00 | Inventory Officer
-source_job_id: 5602206
-title: Inventory Officer
-employer: The Newcastle upon Tyne Hospitals NHS Foundation Trust
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9317-26-0751
-factual_fingerprint: b5956b705ccb0a3863dc65c48c7f98ef3678ea1138e3c7fd0afa6896618498f8
----
-
----
-action:
 POSS | NHS Jobs | — | Derriford, PL6 8DH | £32073.00 to £39043.00 | Employee Relations Advisor
 source_job_id: 5602313
 title: Employee Relations Advisor
@@ -10334,18 +10454,6 @@ factual_fingerprint: db1a5b259fa4763bed822e43c99b8242b0bd3c1497d71fd3366ddea661f
 
 ---
 action:
-POSS | NHS Jobs | Nottinghamshire | Nottinghamshire,, NG17 4JL | £35820.00 to £43003.00 | Senior EPR Intelligence Analyst
-source_job_id: 5601857
-title: Senior EPR Intelligence Analyst
-employer: Chesterfield Royal Hospital NHS Foundation Trust
-region: Nottinghamshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9166-26-0331
-factual_fingerprint: 3f1c0707893dddb3dbf8e5be3d5770b0fe3f5af03612cc0fe2b642e61e67950c
----
-
----
-action:
 POSS | NHS Jobs | London | London, NW3 2QG | £31554.00 to £33270.00 | Band 3 Ward Administrator - Hepatology
 source_job_id: 5597944
 title: Band 3 Ward Administrator - Hepatology
@@ -10378,18 +10486,6 @@ region: West Midlands - Coventry & Warwickshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5360-26-0010
 factual_fingerprint: da552400319c22327f4f925a840e958045b62cf9cfac885b13b5d36ade910615
----
-
----
-action:
-POSS | NHS Jobs | Greater Manchester - Manchester & Salford | Manchester, M13 9WL | £57528.00 to £64750.00 | Managed Equipment Service (MES) and Contracts Manager
-source_job_id: 5601533
-title: Managed Equipment Service (MES) and Contracts Manager
-employer: Manchester University NHS Foundation Trust
-region: Greater Manchester - Manchester & Salford
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2724
-factual_fingerprint: 540f225cf180ae7ec76105f5b83d0aad052cfdc2e7f90bdafaf868614f9df448
 ---
 
 ---
@@ -10486,18 +10582,6 @@ region: Essex
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-0888
 factual_fingerprint: 114ac3fa7a43027626c4d9d27a39652126c3fae1974167623d4935c12e659953
----
-
----
-action:
-POSS | NHS Jobs | Greater Manchester - South | Trafford, M33 0TH | £25760.00 to £27476.00 | Team Administrator (Individualised Commissioning Trafford)
-source_job_id: 5601414
-title: Team Administrator (Individualised Commissioning Trafford)
-employer: NHS Greater Manchester Integrated Care
-region: Greater Manchester - South
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/I9236-26-0052
-factual_fingerprint: db2bf0cca126f22214f8aee36ea1d9a4420430161688ffde789bea86cd7b2c32
 ---
 
 ---
@@ -10946,18 +11030,6 @@ factual_fingerprint: 83649423e9dd469803e381483efdcc030dd2562328e811fe4838f361fd3
 
 ---
 action:
-POSS | NHS Jobs | — | 317 02 Royal Victoria Infirmary, NE1 4LP | £25272.00 | Receptionist/Admissions Clerk
-source_job_id: 5600021
-title: Receptionist/Admissions Clerk
-employer: The Newcastle upon Tyne Hospitals NHS Foundation Trust
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9317-26-0748
-factual_fingerprint: 709f1b4c8a06b065d3ea2546230c3154f693943d56a39eb189d5a1a2609b6941
----
-
----
-action:
 POSS | NHS Jobs | Shropshire | Telford, TF1 6TF | £66582.00 to £77368.00 | Centre Manager - Obstetrics, Maternity & Neonates
 source_job_id: 5600886
 title: Centre Manager - Obstetrics, Maternity & Neonates
@@ -11014,18 +11086,6 @@ region:
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0464-26-0024
 factual_fingerprint: 2fa438128a24121778bc4cfbeb61ce8a98b70b344c9ecda8050b462289efe54b
----
-
----
-action:
-POSS | NHS Jobs | Wales South - Swansea Bay | Port Talbot, SA12 7BR | £26300.00 | Appointment Office Booking/Pre registration Clerk
-source_job_id: 5600771
-title: Appointment Office Booking/Pre registration Clerk
-employer: Swansea Bay University Health Board
-region: Wales South - Swansea Bay
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9130-26-0348
-factual_fingerprint: 5f7b9b8f541db72003a88947b796493c15ed9b046660de8013ec0d4fecc7587e
 ---
 
 ---
@@ -11282,18 +11342,6 @@ factual_fingerprint: 6466314018e7dae472e303d745fb00e7712bb3b60c69a897fb2796f3f6d
 
 ---
 action:
-POSS | NHS Jobs | East Midlands | Derby, DE22 3NE | £25272.00 | Renal Support Medical Secretary
-source_job_id: 5600217
-title: Renal Support Medical Secretary
-employer: University Hospitals of Derby and Burton NHS Foundation Trust
-region: East Midlands
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9320-26-0917
-factual_fingerprint: a86c687d85196d8bff9c6ab43707dcc63b276c50b3e5c84dbcf58c7a8a6f32de
----
-
----
-action:
 POSS | NHS Jobs | Yorkshire - West | Huddersfield, HD1 4QR | Negotiable | EXPERIENCED GP RECEPTIONIST/ADMINISTRATOR
 source_job_id: 5600069
 title: EXPERIENCED GP RECEPTIONIST/ADMINISTRATOR
@@ -11510,18 +11558,6 @@ factual_fingerprint: fce0e93247aed4924d749a53a0d4745e710661cfca1345fefcdb9cd1e0f
 
 ---
 action:
-POSS | NHS Jobs | North East | Sunderland, SR5 3XB | £39959.00 to £48117.00 | Complaint and Patient Experience Officer
-source_job_id: 5599585
-title: Complaint and Patient Experience Officer
-employer: North East & North Cumbria ICB
-region: North East
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9134-26-0065
-factual_fingerprint: a70c1960b3b525bd01f4fcee44ed78469bbbad87f1d806e303b28114d156d6a5
----
-
----
-action:
 POSS | NHS Jobs | Greater Manchester - Manchester & Salford | Manchester, M13 9LL | £57528.00 to £64750.00 | Senior Estates and Facilities Manager
 source_job_id: 5599333
 title: Senior Estates and Facilities Manager
@@ -11690,18 +11726,6 @@ factual_fingerprint: 2f68488cc48ed550f628bc5510316d2f1826fcb370f1867c9f6c73b4e92
 
 ---
 action:
-POSS | NHS Jobs | Merseyside - St Helens & Knowsley | Prescot, L35 5DR | £28392.00 to £31157.00 | Personal Medical Secretary
-source_job_id: 5599190
-title: Personal Medical Secretary
-employer: Mersey and West Lancashire Teaching Hospitals NHS Trust
-region: Merseyside - St Helens & Knowsley
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9409-26-0924
-factual_fingerprint: fe2b186f38f66a0f8f08917b50f912621a98310c18d8fb79afb0d78ab70ccaa3
----
-
----
-action:
 POSS | NHS Jobs | Berkshire | Reading, RG1 5AN | £25272.00 | Ward Clerk Sidmouth ward
 source_job_id: 5599233
 title: Ward Clerk Sidmouth ward
@@ -11746,30 +11770,6 @@ region: Cumbria - North
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9262-26-1444
 factual_fingerprint: a34f87b1d391874ac03ca158b8dc7090930d6fbc36d8f02de78a652823c1484e
----
-
----
-action:
-POSS | NHS Jobs | Yorkshire - West | Bradford, BD9 6RJ | £25760.00 to £31157.00 | Trainee Clinical Coder/Clinical Coder
-source_job_id: 5599289
-title: Trainee Clinical Coder/Clinical Coder
-employer: Bradford Teaching Hospitals NHS Foundation Trust
-region: Yorkshire - West
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9389-26-0479
-factual_fingerprint: 904beb5475218eb5a61b4634f4297f4f82ea3172d6cf0e3bee9d215294e15eeb
----
-
----
-action:
-POSS | NHS Jobs | London | London, EC1V 2PD | £47951.00 to £56863.00 | Specialty Manager - Paediatrics, Strabismus and Neuro-ophthalmology
-source_job_id: 5599207
-title: Specialty Manager - Paediatrics, Strabismus and Neuro-ophthalmology
-employer: Moorfields Eye Hospital NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9273-26-0225
-factual_fingerprint: b6d3b6973a74d9442dd6db2829fe3c12ab3cd03758f0ba3b50d8d0e0d8c829ef
 ---
 
 ---
@@ -11882,18 +11882,6 @@ factual_fingerprint: a93124b7a95a334286dc15b8152ff53ab4d8c70a9d4ffa4257104342384
 
 ---
 action:
-POSS | NHS Jobs | Greater Manchester - Wigan & Bolton | Bolton, BL0 4JR | £28392.00 to £31157.00 | Imaging Navigator
-source_job_id: 5598930
-title: Imaging Navigator
-employer: Bolton NHS Foundation Trust
-region: Greater Manchester - Wigan & Bolton
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9241-26-0324
-factual_fingerprint: 8edc4cc0aa99a4a328ddcf28cc2be35c84fb12c2a994a1498b30f6756cafcc5c
----
-
----
-action:
 POSS | NHS Jobs | North East - Tees Valley | Redcar, TS10 4NW | Negotiable | Reception Team Leader
 source_job_id: 5598770
 title: Reception Team Leader
@@ -11974,18 +11962,6 @@ region: Norfolk
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0812
 factual_fingerprint: 58bd9e0e5a4a7ef2854fbf8bb310428b9860060faa346de41a8c8f21378e3593
----
-
----
-action:
-POSS | NHS Jobs | Greater Manchester - South | Stockport, SK1 1PN | £32073.00 to £39043.00 | Senior Social Prescriber Link Worker (Band 5)
-source_job_id: 5598612
-title: Senior Social Prescriber Link Worker (Band 5)
-employer: Viaduct Care
-region: Greater Manchester - South
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0463-26-0011
-factual_fingerprint: 8f6f864cf3c0b3edfc5736e4ef4158d5925bd8d7f03aa8af5d1abb08ff33feee
 ---
 
 ---
@@ -12242,18 +12218,6 @@ factual_fingerprint: fb538f87d367f4faa77f21d7bb877a74e8944145d64b4ba2d15698e2ac5
 
 ---
 action:
-POSS | NHS Jobs | Cheshire - West | Chester, CH2 1UL | £25760.00 to £27476.00 | Medical Secretary
-source_job_id: 5596717
-title: Medical Secretary
-employer: Countess of Chester Hospital NHS Foundation Trust
-region: Cheshire - West
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9210-26-0423
-factual_fingerprint: cdf77aec396ef0f3e3364bef38e647194a9317306c6737aadb4bdfaa702fb17f
----
-
----
-action:
 POSS | NHS Jobs | London | CHESSINGTON, KT9 2GY | Negotiable | Medical Secretary
 source_job_id: 5597475
 title: Medical Secretary
@@ -12506,18 +12470,6 @@ factual_fingerprint: 7e4c2282bc6b658ee210b599f0dfd4b8cbc55a3d379a202d92a20c18b74
 
 ---
 action:
-POSS | NHS Jobs | Surrey | Redhill, RH1 5RH | £10304.00 to £10990.00 | Complaint Administrator
-source_job_id: 5586024
-title: Complaint Administrator
-employer: Surrey and Sussex Healthcare NHS Trust
-region: Surrey
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9326-26-0577
-factual_fingerprint: e5b1c7bd785281203a7158d27281bb3afe6beb85b403ad28cf89e7417de9b887
----
-
----
-action:
 POSS | NHS Jobs | Greater Manchester - Manchester & Salford | Manchester, M1 3BN | £57528.00 to £64750.00 | Senior Test Engineer
 source_job_id: 5597177
 title: Senior Test Engineer
@@ -12562,18 +12514,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9980-26-0132
 factual_fingerprint: 6eb2d4dcaec41845166c3ff1bc72beaac6254c9268ad95bb709a7e18702b123d
----
-
----
-action:
-POSS | NHS Jobs | West Midlands - Birmingham & Solihull | Birmingham, B4 6NH | £25760.00 to £27476.00 | Management Accounts Assistant
-source_job_id: 5597459
-title: Management Accounts Assistant
-employer: Birmingham Women's and Children's NHS Foundation Trust
-region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9284-26-0419
-factual_fingerprint: 6fe9885083109ea0a9a3e2284e5a586c6326676ff3121c892b3d79dfe4335263
 ---
 
 ---
@@ -13742,18 +13682,6 @@ factual_fingerprint: 7f9a591c2173047329451f0e98a8d29540ce9c5993cdc368fa9693a4bdc
 
 ---
 action:
-POSS | NHS Jobs | Sussex | Eastbourne, BN21 2UD | £25760.00 to £27476.00 | Education Centre Administrator
-source_job_id: 5595694
-title: Education Centre Administrator
-employer: East Sussex Healthcare NHS Trust
-region: Sussex
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9374-26-0835
-factual_fingerprint: 0cf4b7b610d312dc94da7a6a7be47477c77fcc3865796b297cba595c7695885b
----
-
----
-action:
 POSS | NHS Jobs | Leicestershire | Coalville, LE67 3FT | £63770.00 to £74100.00 | Head of Local Health Partners
 source_job_id: 5595470
 title: Head of Local Health Partners
@@ -14062,42 +13990,6 @@ region: Cumbria - North
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9262-26-1417
 factual_fingerprint: d24ea1f2989bda12c9a458e0adf7426e4dc82f0cb78441f17788cbeb82d58d95
----
-
----
-action:
-POSS | NHS Jobs | Nottinghamshire | Nottingham, NG2 4LA | £57528.00 to £64750.00 | Lead User Researcher
-source_job_id: 5595049
-title: Lead User Researcher
-employer: Health Research Authority
-region: Nottinghamshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9980-26-0125
-factual_fingerprint: 04940b159197d333014fd8449a03de1dd53cfc45332cb7fdde6ecabdc242ce6a
----
-
----
-action:
-POSS | NHS Jobs | Greater Manchester - Manchester & Salford | Manchester, M1 3BN | £57528.00 to £64750.00 | Lead User Researcher
-source_job_id: 5595025
-title: Lead User Researcher
-employer: Health Research Authority
-region: Greater Manchester - Manchester & Salford
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9980-26-0124
-factual_fingerprint: ff4684285c0639c0e7c1caccf6f23c7f498a5e9cb6b57f593ef6c424088e62b4
----
-
----
-action:
-POSS | NHS Jobs | North East | Newcastle upon Tyne, NE2 4NQ | £57528.00 to £64750.00 | Lead User Researcher
-source_job_id: 5595012
-title: Lead User Researcher
-employer: Health Research Authority
-region: North East
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9980-26-0123
-factual_fingerprint: ae372f7667e5fa19068b46e3d500a700dd8e99341c22261b9648dc2a2dab3ec5
 ---
 
 ---
@@ -14474,18 +14366,6 @@ factual_fingerprint: ffe8d9bfb2f1833dbd6ede9e37d491efb5c1990d610daed9965e02a431f
 
 ---
 action:
-POSS | NHS Jobs | Cambridgeshire | Cambridge, CB2 0QQ | £94356.00 to £108814.00 | Deputy Director for Large-Scale Change
-source_job_id: 5593642
-title: Deputy Director for Large-Scale Change
-employer: Cambridge University Hospital NHS Foundation Trust
-region: Cambridgeshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9180-26-1157
-factual_fingerprint: f8583b4f9768425ece44123a6da48f7ff0ded8f5da37d2acb1219e2067189fb3
----
-
----
-action:
 POSS | NHS Jobs | London | London, NW1 2BU | £58133.00 to £65261.00 | Assistant General Manager (Haematology)
 source_job_id: 5590630
 title: Assistant General Manager (Haematology)
@@ -14858,18 +14738,6 @@ factual_fingerprint: aeff57a8bfc84adbc9f7e7891c4ccaed5a3038145e7a4f8c3ef42c5fbeb
 
 ---
 action:
-POSS | NHS Jobs | Lincolnshire | Lincoln, LN5 7JH | £25760.00 to £27476.00 | Service Support Administrator
-source_job_id: 5590472
-title: Service Support Administrator
-employer: Lincolnshire Community Health Service NHS Trust
-region: Lincolnshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9818-26-0091
-factual_fingerprint: 1aefb6300478a0e30611bd028e0e53496ea37855485010ce51c568b4374a25ab
----
-
----
-action:
 POSS | NHS Jobs | East Midlands | Derby, DE22 3NE | £28392.00 to £31157.00 | Macmillan Information Centre Assistant
 source_job_id: 5593100
 title: Macmillan Information Centre Assistant
@@ -14966,18 +14834,6 @@ factual_fingerprint: b6144bae413cc5c0d64028d5040db238ef80ba88e88ec34019ade7c7121
 
 ---
 action:
-POSS | NHS Jobs | Yorkshire - South | Sheffield, S7 1NF | £32576.34 to £37406.08 | ADHD Team Manager
-source_job_id: 5593035
-title: ADHD Team Manager
-employer: Primary Care Sheffield
-region: Yorkshire - South
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3466-26-0056
-factual_fingerprint: 5c411dfb51f22c3c0473c8acf7e60948e35cec2f0dbfdcf33eb5c254165f53e6
----
-
----
-action:
 POSS | NHS Jobs | Merseyside - Liverpool | Liverpool, L31 0DJ | £14.70 | Senior Medical Administrator and Data Lead
 source_job_id: 5593034
 title: Senior Medical Administrator and Data Lead
@@ -15034,18 +14890,6 @@ region: Sussex
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9354-26-1079
 factual_fingerprint: 729e39f5c5f06ccd29a5ddea7c9213dade85e96a3773607cc5fe42fe9216209b
----
-
----
-action:
-POSS | NHS Jobs | London | Croydon, CR7 7YE | £63665.00 to £70887.00 | Deputy Head of Information Systems
-source_job_id: 5592937
-title: Deputy Head of Information Systems
-employer: Croydon Health Services NHS Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9199-8121474-NA
-factual_fingerprint: 3b8ceedaf847eab12c2432ff55f776d4249ee9a6fcec6a96aa1b1b8a2ec3e89b
 ---
 
 ---
@@ -15686,18 +15530,6 @@ factual_fingerprint: d482fbb9e776305f092f80f61d895b4d6542402472e488076168c158b90
 
 ---
 action:
-POSS | NHS Jobs | — | Burton-upon-Trent, DE14 2WF | £25760.00 to £27476.00 | Call Handler CCC
-source_job_id: 5585703
-title: Call Handler CCC
-employer: Midlands Partnership NHS Foundation Trust
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1295
-factual_fingerprint: d82499a2d1ef4253b4294a0208fec0744a7a2bc5e22090957abb8c9780c4b96d
----
-
----
-action:
 POSS | NHS Jobs | Staffordshire | Tamworth, B78 3HF | £25760.00 to £27476.00 | Complex Discharge Tracker
 source_job_id: 5587359
 title: Complex Discharge Tracker
@@ -15706,18 +15538,6 @@ region: Staffordshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1298
 factual_fingerprint: c41f1251c65641922e67908762d010182db56598ebb70954ee2a29f144b22bc2
----
-
----
-action:
-POSS | NHS Jobs | West Midlands - Birmingham & Solihull | Birmingham, B30 3AS, Birmingham, B13 0HN | £28392.00 to £31157.00 | Care Coordinator - MOBY Primary Care Network
-source_job_id: 5577570
-title: Care Coordinator - MOBY Primary Care Network
-employer: Our Health Partnership
-region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0300-26-0040
-factual_fingerprint: 45c1dcb478168ef57973d35db13a5f1c1d5a06ef3e86b903c43fe9f35d68a840
 ---
 
 ---
@@ -16070,18 +15890,6 @@ factual_fingerprint: bb3e9a4b6698bbe2129430b7ac3e93f536fc9b7fce069eaf4eb8f9b16d0
 
 ---
 action:
-POSS | NHS Jobs | North East | Darlington, DL1 4YL | £13.00 | Medical Administrator / Receptionist
-source_job_id: 5590593
-title: Medical Administrator / Receptionist
-employer: Neasham Road Surgery
-region: North East
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5346-26-0006
-factual_fingerprint: e5d5f1456e49ad29d68618fe01e95718262080ab8d344f6a9f0dd334df42384b
----
-
----
-action:
 POSS | NHS Jobs | Merseyside - Liverpool | Liverpool, L3 5PS | £25760.00 to £27476.00 | Secretary - Dental Hospital
 source_job_id: 5588243
 title: Secretary - Dental Hospital
@@ -16090,18 +15898,6 @@ region: Merseyside - Liverpool
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9287-26-1437
 factual_fingerprint: 3140956c9d637310d4cb81880dfa88d24e9e116421bc0cf2fe87e6d2ad65f7cb
----
-
----
-action:
-POSS | NHS Jobs | Merseyside - Liverpool | Liverpool, L7 8YE | £25760.00 to £27476.00 | Support Medical Secretary - Digestive Emergency Surgical Care Group
-source_job_id: 5584964
-title: Support Medical Secretary - Digestive Emergency Surgical Care Group
-employer: Liverpool University Hospitals NHS Foundation Trust
-region: Merseyside - Liverpool
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9287-26-1424
-factual_fingerprint: e762c969038265806e38c0b3095324948809ab7570914141cebb58f1cd90f95c
 ---
 
 ---
@@ -16234,18 +16030,6 @@ region: Cambridgeshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0168-26-0136
 factual_fingerprint: ebd69ace7ebce7cfc05b59868918a21c13eba506dda1ef040f72eeb5bae54453
----
-
----
-action:
-POSS | NHS Jobs | London | London, W2 1NY | £58133.00 to £65261.00 | Senior Surveillance Analyst
-source_job_id: 5586874
-title: Senior Surveillance Analyst
-employer: Imperial College Healthcare NHS Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9290-26-1019
-factual_fingerprint: 8aac997934892b9bc4a329581a4fcfce8507cf1f9acebb72bb0fb3af340f21dc
 ---
 
 ---
@@ -16406,18 +16190,6 @@ factual_fingerprint: 1cdb787af315fa768e4810fab180947178734ff14306c34d084b637b74f
 
 ---
 action:
-POSS | NHS Jobs | London | London, SW10 9NH | £66274.00 to £73496.00 | Service Manager – Maternity and Neonatal Services
-source_job_id: 5590012
-title: Service Manager – Maternity and Neonatal Services
-employer: Chelsea and Westminster Hospital NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9289-SC-451
-factual_fingerprint: f957c9e790b135d00b94716a795a2784e94e18bbc00ef5d529badd09a0597122
----
-
----
-action:
 POSS | NHS Jobs | — | Cambridge Bio Medical Campus, CB2 0AY | £28392.00 to £31157.00 | Administrative Co-ordinator/PA
 source_job_id: 5589985
 title: Administrative Co-ordinator/PA
@@ -16426,18 +16198,6 @@ region:
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9175-26-0257
 factual_fingerprint: 3aaed3811e27eebd088a630581867b7075ad4c91265da2bd6f9ae009277e28de
----
-
----
-action:
-POSS | NHS Jobs | Cheshire - West | Lancashire, PR26 6TY, ELLESMERE PORT, CH65 3EN | £32303.00 | Assistant Operations Manager - Cheshire & Lancashire
-source_job_id: 5589975
-title: Assistant Operations Manager - Cheshire & Lancashire
-employer: Intrahealth Ltd
-region: Cheshire - West
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0025-26-0152
-factual_fingerprint: 164874985a8198f2434004a34a2e4d9a60b67f040511fe3d8a73d439049658e0
 ---
 
 ---
@@ -16550,18 +16310,6 @@ factual_fingerprint: 235a18abd9f684386c327d47a09aeca01e0d693c1f8eace33bbca81dfda
 
 ---
 action:
-POSS | NHS Jobs | Greater Manchester - Wigan & Bolton | Bolton, BL1 5DD | £49387.00 to £56515.00 | Learning & Development Manager
-source_job_id: 5584437
-title: Learning & Development Manager
-employer: North West Ambulance Service NHS Trust
-region: Greater Manchester - Wigan & Bolton
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9242-26-0177
-factual_fingerprint: e7084ca216b1360d54e651c7aa4ef17abec6d21eddb09a17f2e66a8793cfcfbb
----
-
----
-action:
 POSS | NHS Jobs | — | Great Bramingham Lane, LU3 3NT | £21324.00 | Compassionate Neighbours Coordinator
 source_job_id: 5589419
 title: Compassionate Neighbours Coordinator
@@ -16606,18 +16354,6 @@ region: Dorset
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3782-VS-JL-2026
 factual_fingerprint: c73ec41a7a033a33342030ab0d71b3120ced691b1932b42b81866e93bd781c53
----
-
----
-action:
-POSS | NHS Jobs | Cambridgeshire | Cambridge, CB1 3DF | £25760.00 to £27476.00 | 0-19 HCP Administrator
-source_job_id: 5589175
-title: 0-19 HCP Administrator
-employer: East of England Community Health and Care NHS Trust (Cambridge)
-region: Cambridgeshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9448-26-0318
-factual_fingerprint: 04d0dfc35eab5a245a54d242866cf427d6691118ef77b433771b78983821b5d2
 ---
 
 ---
@@ -17078,18 +16814,6 @@ factual_fingerprint: a60d320c94322ad1e332dd116f821298c00e6f1c367287ea667cf192d7e
 
 ---
 action:
-POSS | NHS Jobs | Lancashire - North | Lancaster, LA1 4RP | £32073.00 to £39043.00 | Clinical Coder ACC
-source_job_id: 5585600
-title: Clinical Coder ACC
-employer: East Lancashire Hospitals NHS Trust
-region: Lancashire - North
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9435-26-0507
-factual_fingerprint: e3b593dfeaee49485f84bcfca866c32afbf06552bd83094097faa2b1fad3a428
----
-
----
-action:
 POSS | NHS Jobs | Greater Manchester - South | Stockport, SK7 5BW | Negotiable | Head of Business & Commercial Development
 source_job_id: 5581396
 title: Head of Business & Commercial Development
@@ -17158,18 +16882,6 @@ region: Essex
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B9828-26-0200
 factual_fingerprint: 5fd6bb9eeeee34ba3b1b49cef462973b1d0d9bd253b7ea779d461717d97d1fc5
----
-
----
-action:
-POSS | NHS Jobs | Sussex | St Leonards on Sea, TN38 0LB | £27658.00 to £30755.00 | Personal Assistant to Medical Director
-source_job_id: 5577652
-title: Personal Assistant to Medical Director
-employer: St Michael's Hospice (Hastings & Rother)
-region: Sussex
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0518-26-0024
-factual_fingerprint: 6da5d8191528c448a993a98666a098da90d7b62a8409d622741fc2d2e35b1cc4
 ---
 
 ---
@@ -17258,18 +16970,6 @@ factual_fingerprint: 7fcb4c8d8bd56afcfb18e3dbcc9e6a0f3246bde5b70566611c4a3717adb
 
 ---
 action:
-POSS | NHS Jobs | Suffolk | Bury St Edmunds, IP33 2QZ | £28392.00 to £31157.00 | PA - Medical Division
-source_job_id: 5585558
-title: PA - Medical Division
-employer: West Suffolk NHS Foundation Trust
-region: Suffolk
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9179-26-0582
-factual_fingerprint: ae4e5f7a89b38fd0aae5e032b7f071fc62aeafc28d4cda6206f05bb048a48957
----
-
----
-action:
 POSS | NHS Jobs | East Midlands | Derby, DE23 8AL | £25272.00 | Community Care Services Administrator
 source_job_id: 5587416
 title: Community Care Services Administrator
@@ -17282,18 +16982,6 @@ factual_fingerprint: 020cb44a0ad052323aa8b41350ddec0c3d2942beb123cb89f347a8176ca
 
 ---
 action:
-POSS | NHS Jobs | Lincolnshire | Lincoln, LN2 5QY | £57528.00 to £64750.00 | OD Transformation Programme Manager (Band 8a)
-source_job_id: 5585790
-title: OD Transformation Programme Manager (Band 8a)
-employer: United Lincolnshire Hospitals NHS Trust
-region: Lincolnshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9357-26-0364
-factual_fingerprint: 3f01250cdbb6b2504b1deea042ab414924f11da1ab066cbccf8046c0fb32cfc2
----
-
----
-action:
 POSS | NHS Jobs | Cambridgeshire | Cambridge Bio Medical Campus, CB2 0AY, Huntingdon, PE29 6FH | £32073.00 to £39043.00 | Accredited Clinical Coder
 source_job_id: 5587539
 title: Accredited Clinical Coder
@@ -17302,30 +16990,6 @@ region: Cambridgeshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9175-26-0255
 factual_fingerprint: e8fb1894dc37b1174376898ac831a2cc0312278ef48b272cea785605867d8089
----
-
----
-action:
-POSS | NHS Jobs | Somerset | Taunton, TA3 5FA | £13.09 | Patient Services Advisor - Creech Medical Centre nr Taunton, Somerset
-source_job_id: 5587549
-title: Patient Services Advisor - Creech Medical Centre nr Taunton, Somerset
-employer: Symphony Healthcare Services Limited
-region: Somerset
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0215-PSACMC-SEPT26
-factual_fingerprint: 7da06fe9803368516b825b39e5cb5526c2104576ce6920cd5467b82117f301d6
----
-
----
-action:
-POSS | NHS Jobs | Devon | Exeter, EX2 5DW | £28392.00 to £31157.00 | Radiotherapy Late Effects Navigator
-source_job_id: 5587161
-title: Radiotherapy Late Effects Navigator
-employer: Royal Devon University Healthcare NHS Foundation Trust
-region: Devon
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1095
-factual_fingerprint: cc85397503bb3a5f83805900113952d54fa68451cbcecac08ce24d3281e3be8b
 ---
 
 ---
@@ -17402,18 +17066,6 @@ factual_fingerprint: 5c6bc2c68efb968c3c1f3a5cad06c02168eb4a8fe671e1d7d7b3fdf3ce8
 
 ---
 action:
-POSS | NHS Jobs | — | North Essex, CO4 5JL | £39959.00 to £48117.00 | Medical Secretariat Service Manager
-source_job_id: 5587183
-title: Medical Secretariat Service Manager
-employer: Essex Partnership University NHS Foundation Trust
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-0862
-factual_fingerprint: 2dd2900c5b03c44829a310ed19e79fb584a5c2649986c79092e6ab653a89aa28
----
-
----
-action:
 POSS | NHS Jobs | Hampshire | Portsmouth, PO6 3EN, NEWPORT, PO30 5TG | £39959.00 to £48117.00 | OneEPR Business Change Analyst
 source_job_id: 5583873
 title: OneEPR Business Change Analyst
@@ -17462,18 +17114,6 @@ factual_fingerprint: 30a8085cd48a91d2286d0f19cb43d327cf31363db06d65af7605e6ab915
 
 ---
 action:
-POSS | NHS Jobs | Northamptonshire | Kettering, NN15 6EY | £79504.00 to £91609.00 | Head of Integrated Commissioning
-source_job_id: 5586640
-title: Head of Integrated Commissioning
-employer: NHS Northamptonshire Integrated Care Board
-region: Northamptonshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9086-26-0020
-factual_fingerprint: f37ed987843b8db07e8e4d2a650cefe667e7967a98b52963023b39f625b3cc17
----
-
----
-action:
 POSS | NHS Jobs | London | Southwark, E9 5NE | £25903.00 | ARRS Care Co-ordintor
 source_job_id: 5587122
 title: ARRS Care Co-ordintor
@@ -17498,42 +17138,6 @@ factual_fingerprint: 9e059fab03ea2ab1e1375fb72013d4287dc93bf1cc2bfbc57fd81571a49
 
 ---
 action:
-POSS | NHS Jobs | — | National, EX2 5SE | £55807.31 to £63861.95 | Technical Consultant (Infrastructure Operations)
-source_job_id: 5587186
-title: Technical Consultant (Infrastructure Operations)
-employer: NHS England
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9990-26-0643
-factual_fingerprint: e19c7a0c08253e767db79718156d113ddddcb3c9b0ff629572e71e6fb58b9b79
----
-
----
-action:
-POSS | NHS Jobs | — | Bristol / Totnes, BS1 6EH | £33422.00 to £48117.00 | Health Protection Practitioner L1
-source_job_id: 5587181
-title: Health Protection Practitioner L1
-employer: UK Health Security Agency
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/K9919-26-0271
-factual_fingerprint: e94f46739d5a348d788cc0aa61187d1000fd5229b9fd0c9d3ed1e915d1d25b99
----
-
----
-action:
-POSS | NHS Jobs | Worcestershire | Worcester, WR5 1DD, REDDITCH, B98 7UB | £25760.00 to £27476.00 | Support Medical Secretary Urology
-source_job_id: 5587172
-title: Support Medical Secretary Urology
-employer: Worcestershire Acute Hospitals NHS Trust
-region: Worcestershire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9365-26-0470-S3
-factual_fingerprint: 66df29894e6e53f06b2b11771d8a2f695faa88b2081907f1615f84c7227bbe43
----
-
----
-action:
 POSS | NHS Jobs | London | London, SE13 6LH | £49387.00 to £56515.00 | Health and Safety Advisor
 source_job_id: 5586138
 title: Health and Safety Advisor
@@ -17542,42 +17146,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9197-26-0819
 factual_fingerprint: ff8f338ce5e2845d134cc0582330b2437f8eafbe3dede5979031735c29da3b98
----
-
----
-action:
-POSS | NHS Jobs | Yorkshire - South | Sheffield, S25 4AJ | £35277.00 | People Advisor
-source_job_id: 5586720
-title: People Advisor
-employer: Bluebell Wood Children’s Hospice
-region: Yorkshire - South
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0039-26-0009
-factual_fingerprint: 4baa9c0a5187d0880b05180214600c716bee9ec5e5534764e7826dd4f647638d
----
-
----
-action:
-POSS | NHS Jobs | North East | Peterlee, SR8 5TW | £12.31 | Medical Receptionist/Administrator - William Brown Centre
-source_job_id: 5586959
-title: Medical Receptionist/Administrator - William Brown Centre
-employer: Intrahealth Ltd
-region: North East
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0025-26-0153
-factual_fingerprint: 310210c161ce2a7f6d521bf47efeeac28960787e4ff52a378ebea5df3e685882
----
-
----
-action:
-POSS | NHS Jobs | — | Porton, SP4 0JG | £41983.00 to £48128.00 | Senior Healthcare Scientist
-source_job_id: 5586890
-title: Senior Healthcare Scientist
-employer: UK Health Security Agency
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/K9919-26-0270
-factual_fingerprint: b642054af552ce0de57166e69a51311245830e2f6beceb5f0ccfbaa94d4d3789
 ---
 
 ---
@@ -17618,30 +17186,6 @@ factual_fingerprint: 94a636fbfc391dac6d9ae9c26370e598e3c4b21688fa83027911f1869ed
 
 ---
 action:
-POSS | NHS Jobs | — | TBC, PL31 2QT | £25760.00 to £27476.00 | Team Secretary - CMHT
-source_job_id: 5586165
-title: Team Secretary - CMHT
-employer: Cornwall Partnership NHS Foundation Trust
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9201-26-1116
-factual_fingerprint: fd229db76de4ac923b0b194e4b12046f261f491d4f33ac7e386358db413dbe66
----
-
----
-action:
-POSS | NHS Jobs | Cambridgeshire | Huntingdon, PE29 6FH, Cambridge Bio Medical Campus, CB2 0AY | £25760.00 to £27476.00 | Medical Secretary - Cardiology - fixed term
-source_job_id: 5586734
-title: Medical Secretary - Cardiology - fixed term
-employer: Royal Papworth Hospital NHS Foundation Trust
-region: Cambridgeshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9175-26-0254
-factual_fingerprint: 7acbee062b3f0287b7a1d3cda16773af3a9f7202b9b7d878bbe052d8ee8b1e07
----
-
----
-action:
 POSS | NHS Jobs | Staffordshire | Stafford, ST18 0SU | Negotiable | Prescription Clerk
 source_job_id: 5586336
 title: Prescription Clerk
@@ -17654,18 +17198,6 @@ factual_fingerprint: e1426e7d98a3d8fe051a8bbc8213bc3f5f65edba42ec5f8742f6694cf1a
 
 ---
 action:
-POSS | NHS Jobs | Norfolk | Great Yarmouth, NR31 6LA | £66582.00 to £77368.00 | Integrated Transfer of Care Lead
-source_job_id: 5586515
-title: Integrated Transfer of Care Lead
-employer: East Coast Community Healthcare CIC
-region: Norfolk
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B9849-26-0093
-factual_fingerprint: ac3e33799261469f7a2af794afb3c408af6cbcd6680e30d545f5ef8dd1b9abb7
----
-
----
-action:
 POSS | NHS Jobs | Leicestershire | Loughborough, LE11 3TU | £35608.00 to £46049.00 | Deputy HR Services Manager
 source_job_id: 5586276
 title: Deputy HR Services Manager
@@ -17674,18 +17206,6 @@ region: Leicestershire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/N0089-REQ-260669
 factual_fingerprint: c873fb83e9363586a185e65ab0587635fb93c432c4b07265cd328e67e3992a81
----
-
----
-action:
-POSS | NHS Jobs | Bristol & Bath | Bristol, BS2 8EG | £25272.00 | Maternity Ward Clerk - Central Delivery Suite
-source_job_id: 5586478
-title: Maternity Ward Clerk - Central Delivery Suite
-employer: Bristol NHS Foundation Trust
-region: Bristol & Bath
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1851
-factual_fingerprint: fbef983a9c332c57e5753720ca321627de49775a062e689040371165cbb69728
 ---
 
 ---
@@ -17750,18 +17270,6 @@ factual_fingerprint: ef0708099baf13fc80f303a4d9ec6c1ff4fa36b8fae90f7cbba76d4bf35
 
 ---
 action:
-POSS | NHS Jobs | Worcestershire | Worcester, WR5 1DD | £15600.00 | Advanced Apprentice - Financial Services (Cash & Salary Overpayments)
-source_job_id: 5585995
-title: Advanced Apprentice - Financial Services (Cash & Salary Overpayments)
-employer: Worcestershire Acute Hospitals NHS Trust
-region: Worcestershire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9365-26-0548-2
-factual_fingerprint: 6e6e49ea589d228b528e053310f47c970fa8cfe78ec87b4093d5c6060dbbbc5c
----
-
----
-action:
 POSS | NHS Jobs | — | Portland or Poole, DT5 1BB | £32000.00 to £36000.00 | Senior Payroll Assistant
 source_job_id: 5585537
 title: Senior Payroll Assistant
@@ -17798,66 +17306,6 @@ factual_fingerprint: 8a07650b360eb5c4177b8720afb84b52258644ff62ccdbe0026d4780e27
 
 ---
 action:
-POSS | NHS Jobs | Dorset | Weymouth, DT4 7TB | £10304.00 to £10990.00 | Weymouth Community Hospital Team Administrator
-source_job_id: 5586192
-title: Weymouth Community Hospital Team Administrator
-employer: Dorset HealthCare University NHS Foundation Trust
-region: Dorset
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0955
-factual_fingerprint: 13c3ba3d51ddf2dcdd2d250508f17539edaf39f3d44fd484f3bcb6493e00f0e6
----
-
----
-action:
-POSS | NHS Jobs | — | Leeds/London, SE1 8UG | £94356.00 to £108814.00 | Senior People Services Transformation Lead - People Managers
-source_job_id: 5586084
-title: Senior People Services Transformation Lead - People Managers
-employer: NHS England
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9990-26-0641
-factual_fingerprint: 2ecd9884bcf43030ff80370c3388614853265f2b541b813a5c3caae634bb6f88
----
-
----
-action:
-POSS | NHS Jobs | London | Barnet, EN5 3DJ | £36943.00 to £44900.00 | Band 5 Qualified Clinical Coding Officer
-source_job_id: 5585088
-title: Band 5 Qualified Clinical Coding Officer
-employer: Royal Free London NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9391-26-1559
-factual_fingerprint: 9bb73c1c30982045f76aa6c000b47d95f98368ef0fab74850311f2de7602da2f
----
-
----
-action:
-POSS | NHS Jobs | — | Norfolk/ Suffolk, PE30 5PE | £57528.00 to £64750.00 | Operational Lead
-source_job_id: 5585789
-title: Operational Lead
-employer: Norfolk & Suffolk Foundation NHS Trust
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9246-26-1021
-factual_fingerprint: cd8bfdb497a1f987e164d9f4b65b794d4f377d2d6e2084825214e12805ff0bab
----
-
----
-action:
-POSS | NHS Jobs | Cambridgeshire | Huntingdon, PE29 6FH, Cambridge Bio Medical Campus, CB2 0AY | £25760.00 to £27476.00 | Medical Secretary - part-time
-source_job_id: 5585983
-title: Medical Secretary - part-time
-employer: Royal Papworth Hospital NHS Foundation Trust
-region: Cambridgeshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9175-26-0250
-factual_fingerprint: 455d5970e3ac3a67aa0c54261471a06a5ffa08e72dc158df35f8a4fb078ee113
----
-
----
-action:
 POSS | NHS Jobs | Berkshire | Bracknell, RG12 2UT | £51657.00 to £58785.00 | Senior Buyer
 source_job_id: 5572862
 title: Senior Buyer
@@ -17882,30 +17330,6 @@ factual_fingerprint: 8a5aaba35ad1ab788894ecae4a101c5633614ba990bc0abb8ef33bd10a6
 
 ---
 action:
-POSS | NHS Jobs | West Midlands - Birmingham & Solihull | Sutton Coldfield, B75 7RR | £28392.00 to £31157.00 | Band 4 Medical Secretary Supervisor
-source_job_id: 5585977
-title: Band 4 Medical Secretary Supervisor
-employer: University Hospitals Birmingham NHS Foundation Trust
-region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C0020-26-1351
-factual_fingerprint: 2f9b9418b56aac88df618c88c75ec39d7464bfae6f08c2140842edc0beeb8f92
----
-
----
-action:
-POSS | NHS Jobs | Staffordshire | Stoke on Trent, ST4 7LF | £28392.00 to £31157.00 | Medical Secretary
-source_job_id: 5585885
-title: Medical Secretary
-employer: North Staffordshire Combined Healthcare Trust
-region: Staffordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9232-26-0234
-factual_fingerprint: a516589cfacb5efd587ab5c081be03d2b572903c806bb77e75a2af61013be624
----
-
----
-action:
 POSS | NHS Jobs | London | London, SE21 8AU | £27896.00 | PCN Care Coordinator
 source_job_id: 5585518
 title: PCN Care Coordinator
@@ -17914,66 +17338,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0322-26-0003
 factual_fingerprint: c831de9c701522df238fb7db7ef174965ee0af0f5cdc5fb6de9771de24246794
----
-
----
-action:
-POSS | NHS Jobs | — | London or Leeds, SE1 8UG | £79504.00 to £91609.00 | Senior People Services Transformation Lead - Clinical Education
-source_job_id: 5585799
-title: Senior People Services Transformation Lead - Clinical Education
-employer: NHS England
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9990-26-0640
-factual_fingerprint: 5b78b8c3b7f08ea5a560aa150291ec2a7c52dadf997a1caf855151b419e3ebf8
----
-
----
-action:
-POSS | NHS Jobs | — | North East Derbyshire, S45 9LX | £25272.00 | Community Care Services Administrator
-source_job_id: 5585647
-title: Community Care Services Administrator
-employer: Derbyshire Community Health Services NHSFT
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9842-26-0536
-factual_fingerprint: 75053a63134addeb4ba1b01b1fded0a6160f4730b9e38bc787899c75f833f82d
----
-
----
-action:
-POSS | NHS Jobs | Kent | Ashford, TW15 3AA | £29812.00 to £32715.00 | Ophthalmology Surgery Booking Coordinator
-source_job_id: 5585818
-title: Ophthalmology Surgery Booking Coordinator
-employer: Ashford & St. Peter's Hospitals NHS Foundation Trust
-region: Kent
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9323-26-0449
-factual_fingerprint: 001a89caf6827f5538957a7bc22e1c92f4bbc525a2c3158ab21b7f768fcb0dab
----
-
----
-action:
-POSS | NHS Jobs | Dorset | Dorset, DT1 2JY | £25760.00 to £27476.00 | Liaison Psychiatry Administrator
-source_job_id: 5585604
-title: Liaison Psychiatry Administrator
-employer: Dorset HealthCare University NHS Foundation Trust
-region: Dorset
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0954
-factual_fingerprint: 8c2bcb16fbf92dc9ee282f132d222be28dfc57827a750785448a734cebd408cb
----
-
----
-action:
-POSS | NHS Jobs | Dorset | Dorchester, DT1 2JY | £25760.00 to £27476.00 | Assistant Catheter Lab Co-Ordinator
-source_job_id: 5584670
-title: Assistant Catheter Lab Co-Ordinator
-employer: Dorset County Hospital NHS Foundation Trust
-region: Dorset
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9405-26-0427
-factual_fingerprint: 9be986bf7febb1e77b274e5fc77a35a5f8df6e46c38bfde9902bd7163f184533
 ---
 
 ---
@@ -18014,30 +17378,6 @@ factual_fingerprint: b13aa6182f856df44f92ede1e91120551097acac97cc5e3cacb1e7748e0
 
 ---
 action:
-POSS | NHS Jobs | — | Kendal Cumbria, LA9 7RG | £66582.00 to £77368.00 | Head of Medical Workforce
-source_job_id: 5584672
-title: Head of Medical Workforce
-employer: University Hospitals of Morecambe Bay NHS Trust
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9331-26-0681
-factual_fingerprint: c59259dcc170094ffb5a615b51c8b8b45792738d62c26827ea5e3eda8025c77e
----
-
----
-action:
-POSS | NHS Jobs | — | Nationally, SE1 8UG | £94356.00 to £108814.00 | Head of Healthcare Planning
-source_job_id: 5585442
-title: Head of Healthcare Planning
-employer: NHS England
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9990-26-0638
-factual_fingerprint: d1dfd3bbc65cef9e2e297974f04dcf4c64aea6799fc5fea49bce141333e16545
----
-
----
-action:
 POSS | NHS Jobs | Lancashire - Central | Lytham, FY8 5DZ, Preston, PR4 1RY | £12.71 | Receptionist Patient Advisor
 source_job_id: 5585227
 title: Receptionist Patient Advisor
@@ -18062,18 +17402,6 @@ factual_fingerprint: 8479563c96b88649399c481ee9107931bdcfa05680d75806995da8b2c8c
 
 ---
 action:
-POSS | NHS Jobs | Yorkshire - West | Leeds, LS9 7TF | £28392.00 to £31157.00 | Administration Co-Ordinator
-source_job_id: 5585120
-title: Administration Co-Ordinator
-employer: Leeds Teaching Hospitals
-region: Yorkshire - West
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-0909
-factual_fingerprint: d4d01a597ab5a7946e39e3c955113d1070ec31568f9bc8b2ce17fd7b11f668a5
----
-
----
-action:
 POSS | NHS Jobs | Essex | Chelmsford, CM2 6QR | £42243.00 to £52275.00 | HR Manager
 source_job_id: 5584691
 title: HR Manager
@@ -18082,18 +17410,6 @@ region: Essex
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0429-26-0002
 factual_fingerprint: 75637bfcdd67b953d81f9ab265e922948914c513505d31bd7a3c5626a0b03555
----
-
----
-action:
-POSS | NHS Jobs | — | Cornwall, TR1 3HD | £32073.00 to £39043.00 | Executive Assistant & Project Manager
-source_job_id: 5584411
-title: Executive Assistant & Project Manager
-employer: Royal Cornwall Hospitals Trust
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9156-26-0504
-factual_fingerprint: ccfaa2d8edbeb0f3aec1f99eb141280f6748553a42bb78df10c3b75c3750d75d
 ---
 
 ---
@@ -18122,66 +17438,6 @@ factual_fingerprint: ca550056d8c2be3f4d0618e4d0d7076a48f78441c172e5f4efb11accece
 
 ---
 action:
-POSS | NHS Jobs | — | London or Leeds, SE1 8UG | £94356.00 to £108814.00 | Head of People Services Transformation - OH & Wellbeing
-source_job_id: 5584373
-title: Head of People Services Transformation - OH & Wellbeing
-employer: NHS England
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9990-26-0631
-factual_fingerprint: 3a150a335b992665384032f14d91ce70c5864a724d6aea49d38683545f140cb9
----
-
----
-action:
-POSS | NHS Jobs | — | London or Leeds, SE1 8UG | £79504.00 to £91609.00 | Senior People Services Transformation Lead - Temp Staffing
-source_job_id: 5584381
-title: Senior People Services Transformation Lead - Temp Staffing
-employer: NHS England
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9990-26-0633
-factual_fingerprint: 52105e885a6da1299e274a19c7818d5662ab99ad4a456e31500c1c3b8663a285
----
-
----
-action:
-POSS | NHS Jobs | — | London or Leeds, SE1 8UG | £79504.00 to £91609.00 | Senior People Services Transformation Lead - Workforce Information
-source_job_id: 5584385
-title: Senior People Services Transformation Lead - Workforce Information
-employer: NHS England
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9990-26-0634
-factual_fingerprint: ec8f3d4a1e53907618521db5c27f35898ec01d96ade37326c70f66db329991a4
----
-
----
-action:
-POSS | NHS Jobs | — | London or Leeds, SE1 8UG | £79504.00 to £91609.00 | Senior People Services Transformation Lead - Starters, Movers, Leavers
-source_job_id: 5584377
-title: Senior People Services Transformation Lead - Starters, Movers, Leavers
-employer: NHS England
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9990-26-0632
-factual_fingerprint: cf2dd8961ded7f8e77bab90406aadcd66fc5b93f09db95af53ec167acec8222f
----
-
----
-action:
-POSS | NHS Jobs | Bristol & Bath | Bristol, BS1 3LH | £57528.00 to £64750.00 | Temporary Staffing Senior Operations Manager
-source_job_id: 5584453
-title: Temporary Staffing Senior Operations Manager
-employer: Bristol NHS Foundation Trust
-region: Bristol & Bath
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1843
-factual_fingerprint: 8910cf59d06028bc71430a5ad221eda498aa7f7f524eac537625069724b798c6
----
-
----
-action:
 POSS | NHS Jobs | London | Harrow, HA3 7LT | Negotiable | Senior Practice Administrator
 source_job_id: 5584319
 title: Senior Practice Administrator
@@ -18194,18 +17450,6 @@ factual_fingerprint: b5c4e5de4135fe5df4ecad4bc35da7c6e4d12e2b232c7e10d67d336a38b
 
 ---
 action:
-POSS | NHS Jobs | North East | Gateshead, NE9 6SX | £25760.00 to £31157.00 | Pathology Service Desk Assistant
-source_job_id: 5584497
-title: Pathology Service Desk Assistant
-employer: Gateshead Health NHS Foundation Trust
-region: North East
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9297-26-0489
-factual_fingerprint: ca40d41d0f2b091d45cbbc503fe35fb381a92878ef036392f1f60628c1a21266
----
-
----
-action:
 POSS | NHS Jobs | — | Bebington, CH63 4JY | £113565.00 to £150569.00 | Consultant in Dermatology
 source_job_id: 5584543
 title: Consultant in Dermatology
@@ -18214,54 +17458,6 @@ region:
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9408-26-0364
 factual_fingerprint: 6c9ba1ad6167f3cefeb44527b901c811f837ae9280bb1b54ef79a2902155efda
----
-
----
-action:
-POSS | NHS Jobs | Wales South -gwent | Newport, PO30 5TG | £31967.00 to £38493.00 | Safeguarding Practitioner - Child
-source_job_id: 5581829
-title: Safeguarding Practitioner - Child
-employer: Isle of Wight NHS Trust
-region: Wales South -gwent
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9470-26-0503
-factual_fingerprint: d49b696f676a47868c981586bab33aa460e02d934b9fe15dd4bdfceb16133224
----
-
----
-action:
-POSS | NHS Jobs | Yorkshire - West | Bradford, BD9 6RJ | £28392.00 to £31157.00 | Recruitment & Employment Services Officer
-source_job_id: 5584483
-title: Recruitment & Employment Services Officer
-employer: Bradford Teaching Hospitals NHS Foundation Trust
-region: Yorkshire - West
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9389-26-0470
-factual_fingerprint: 8f1fa4563e3616acd678b4681cb74b69b6fc937be5db19ebd69546bc6d35699f
----
-
----
-action:
-POSS | NHS Jobs | Hampshire | Portsmouth, PO6 3LY, Newport, PO30 5TG | £57528.00 to £64750.00 | Lead Clinical Safety Officer
-source_job_id: 5583255
-title: Lead Clinical Safety Officer
-employer: Isle of Wight NHS Trust
-region: Hampshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9470-26-0506
-factual_fingerprint: 69733d9b2413eb521518986bd15797862ac7422eef91f0a58fc42d9ff2915dec
----
-
----
-action:
-POSS | NHS Jobs | Hampshire | Portsmouth, PO6 3LY, Newport, PO30 5TG | £57528.00 to £64750.00 | Lead Clinical Safety Officer
-source_job_id: 5583269
-title: Lead Clinical Safety Officer
-employer: Portsmouth Hospitals University NHS Trust
-region: Hampshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C8192-26-0482
-factual_fingerprint: 6013d923c4cc34f3caf64acd944a3796c35d3198cafca6e2db968c8e4e91a12b
 ---
 
 ---
@@ -18705,7 +17901,7 @@ employer: Leven & Beeford Medical Practice
 region: Yorkshire - East
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2451-22-9740
-factual_fingerprint: c00490fb1c796e042d1c0464aa5e3c1e3b0c08c863f37eaedc64bbec9bba39a8
+factual_fingerprint: fcd382e13248c73e7483e4981e47085b03112c1413207411858807964a619ac5
 ---
 
 ---
@@ -18838,18 +18034,6 @@ region: Norfolk
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0769
 factual_fingerprint: 777e1755257e84c84e7bfba1367fe7039d9ce2c2b9d5a271efe53e97720a547d
----
-
----
-action:
-POSS | NHS Jobs | Essex | Tiptree, CO5 0HB | Negotiable | Operations Supervisor
-source_job_id: 5572712
-title: Operations Supervisor
-employer: Primary Care Careers
-region: Essex
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0776
-factual_fingerprint: e067eba49dbc1964ddba1d2a2cbb49d1b3ca1a2c353d4349c968f43cd24d5a78
 ---
 
 ---
@@ -19046,18 +18230,6 @@ factual_fingerprint: 7a94e290b4d2a4bd46735d6976821cd5a00cbc6271e41db72db0c6fa575
 
 ---
 action:
-POSS | NHS Jobs | Hampshire | Winchester, SO21 2RT | £14.00 | Weekend Receptionist
-source_job_id: 5574504
-title: Weekend Receptionist
-employer: Barchester Healthcare
-region: Hampshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9591
-factual_fingerprint: f9359c2debd540a6eb5aaab3659236a2674c4a290172952ed37582d77662b94e
----
-
----
-action:
 POSS | NHS Jobs | Kent | Chatham, ME4 3EP | Negotiable | General Practice Assistant (GPA)
 source_job_id: 5574439
 title: General Practice Assistant (GPA)
@@ -19154,30 +18326,6 @@ factual_fingerprint: 81ebd88fc149847ca2b980a57cc860b39ab0d8375b017d1fb5292b37260
 
 ---
 action:
-POSS | NHS Jobs | Greater Manchester - Manchester & Salford | Manchester, M1 1EX | £39770.00 | Management Accountant
-source_job_id: 5572527
-title: Management Accountant
-employer: NUPAS Ltd
-region: Greater Manchester - Manchester & Salford
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0169-26-0032
-factual_fingerprint: 921c0e58f23adb3537a7608871b6b4a153855f6ffd6fe06a4413df4c62e1c142
----
-
----
-action:
-POSS | NHS Jobs | — | Swindon / Bath / Salisbury, SN3 6BB | £18000.00 | Group Non-Executive Director - BSW Hospitals Group
-source_job_id: 5572475
-title: Group Non-Executive Director - BSW Hospitals Group
-employer: Great Western Hospitals NHS Foundation Trust
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9249-26-0538
-factual_fingerprint: e6fd8f7dd0ce3f49144b44bc9f600f42aeb3881372bbf9da84605cd644973cec
----
-
----
-action:
 POSS | NHS Jobs | Shropshire | Ellesmere, SY12 9BQ, Whitchurch, SY13 1FQ | £27500.00 to £30000.00 | Patient Services Supervisor
 source_job_id: 5572422
 title: Patient Services Supervisor
@@ -19214,18 +18362,6 @@ factual_fingerprint: d09fa706b406941dbad893eac530fb71da6e76e5adb704f3702ee7a9998
 
 ---
 action:
-POSS | NHS Jobs | Scotland Central - Tayside | Perth, PH1 1SB | £13.28 | Activities Assistant - Care Home
-source_job_id: 5571712
-title: Activities Assistant - Care Home
-employer: Barchester Healthcare
-region: Scotland Central - Tayside
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0177-26-9464
-factual_fingerprint: 372fc3eabce22bf22087f9ff98fbced5a7829021ae07d9ac0c39116954cc667d
----
-
----
-action:
 POSS | NHS Jobs | — | Kenton, HA3 9UY | £90000.00 | Care Home General Manager
 source_job_id: 5571345
 title: Care Home General Manager
@@ -19250,18 +18386,6 @@ factual_fingerprint: 32c9a9cf5e47ee00a0461fbb77f6579d468febfde0e19478ffb43cf9da7
 
 ---
 action:
-POSS | NHS Jobs | Cambridgeshire | Peterborough, PE3 8DT, PETERBOROUGH, PE1 2UF | £25000.00 to £27000.00 | Care Coordinator/ Executive Assistant
-source_job_id: 5530816
-title: Care Coordinator/ Executive Assistant
-employer: Bretton Park Healthcare
-region: Cambridgeshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5115-26-0016
-factual_fingerprint: 3283d40fae2125b2fa65e7f56f609ad8808efb130058870ffeb9a0d4de960038
----
-
----
-action:
 POSS | NHS Jobs | — | Old Brampton, S42 7JD | Negotiable | Governance & Executive Support Assistant
 source_job_id: 5571202
 title: Governance & Executive Support Assistant
@@ -19274,18 +18398,6 @@ factual_fingerprint: 1273231fd69f3c18b163f6c89938ba434e298af93dcf6e345ab035a3cec
 
 ---
 action:
-POSS | NHS Jobs | Worcestershire | Worcester, WR5 1DD | £28392.00 to £31157.00 | Senior Medical Secretary Diabetes
-source_job_id: 5565819
-title: Senior Medical Secretary Diabetes
-employer: Worcestershire Acute Hospitals NHS Trust
-region: Worcestershire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9365-26-0681
-factual_fingerprint: 77ed8b3af5f62f572fb95419ae58a107f2f16a98c4d60edfe132b3d79444b3ac
----
-
----
-action:
 POSS | NHS Jobs | London | Hayes, UB4 8DD | Negotiable | IT & Operational Coordinator (Full time)
 source_job_id: 5570808
 title: IT & Operational Coordinator (Full time)
@@ -19294,18 +18406,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0164-26-0002
 factual_fingerprint: ef59da377b172590dee39188b045bb830ccc35d4759287faabf024e758e4a9f7
----
-
----
-action:
-POSS | NHS Jobs | — | Virtual, M1 3BN | £1.00 | Technology Appraisal Committee - Members
-source_job_id: 5570301
-title: Technology Appraisal Committee - Members
-employer: NICE – The National Institute for Health and Care Excellence
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/G9907-26-0098
-factual_fingerprint: 64162939059ec9f9c0f402ebc846d31e18477db45e853d5c14d0047e41045106
 ---
 
 ---
@@ -19718,18 +18818,6 @@ factual_fingerprint: 39d8d2b14823ffe5e55c661dd5b84e2c956872a08bd5c14bf9a085be9a7
 
 ---
 action:
-POSS | NHS Jobs | Buckinghamshire | Milton Keynes, MK17 8QP | Negotiable | PCN Digital Transformation and Operations Manager
-source_job_id: 5562459
-title: PCN Digital Transformation and Operations Manager
-employer: Asplands Medical Centre
-region: Buckinghamshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0444-26-0003
-factual_fingerprint: 17919a06ca6b2964c481b7e946cdbf1a34c74b151ab96e44ab174aa4ff76b24a
----
-
----
-action:
 POSS | NHS Jobs | Herefordshire | Leominster, HR6 9QL | £31833.00 to £33916.00 | Operations and Compliance Lead
 source_job_id: 5562331
 title: Operations and Compliance Lead
@@ -19822,18 +18910,6 @@ region:
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0024-26-0070
 factual_fingerprint: 3cdf407df24464475fba8b2d084feea7758461cbd00248f7d59c9c872e45c20f
----
-
----
-action:
-POSS | NHS Jobs | Devon | Torquay, TQ1 7AA | £39959.00 to £48117.00 | Senior Health & Safety Advisor
-source_job_id: 5559283
-title: Senior Health & Safety Advisor
-employer: Torbay and South Devon NHS Foundation Trust
-region: Devon
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9388-26-0695
-factual_fingerprint: f9efeb429a8414f45f048b2e5d4702e597410e2f9e181cf693a32458cb53e521
 ---
 
 ---
@@ -20038,18 +19114,6 @@ region: Cheshire - Warrington & Halton
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2071
 factual_fingerprint: 5e2854aaa183721180dbab0f5cd09591bb7f41c64ae46bfbe802260853f00e17
----
-
----
-action:
-POSS | NHS Jobs | Devon | Torquay, TQ2 7AA | £57528.00 to £64750.00 | Senior Fire Safety Advisor
-source_job_id: 5540046
-title: Senior Fire Safety Advisor
-employer: Torbay and South Devon NHS Foundation Trust
-region: Devon
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9388-26-0678
-factual_fingerprint: a9dfd7c370967ed8e2005377661d67b291137f7f67a20965b2fdfa10e19acfc2
 ---
 
 ---
