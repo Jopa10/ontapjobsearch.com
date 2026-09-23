@@ -1,6 +1,6 @@
 # Ontap daily regional overview
 
-Generated: 2026-09-23T09:44:31+01:00
+Generated: 2026-09-23T16:12:33+01:00
 
 [Download this overview as Excel](./daily-region-overview.xlsx)
 
@@ -8,16 +8,16 @@ Generated: 2026-09-23T09:44:31+01:00
 
 | Measure | Count |
 |---|---:|
-| Unique live jobs | 1,887 |
+| Unique live jobs | 1,885 |
 | Unique JobG8 jobs | 1,556 |
-| Unique non-JobG8 jobs | 331 |
-| Regional/category slice placements | 2,218 |
+| Unique non-JobG8 jobs | 329 |
+| Regional/category slice placements | 2,216 |
 | Jobs appearing on multiple slices | 330 |
 | Extra slice placements | 331 |
 | Unique jobs outside governed slices | 0 |
 | Jobs found in non-LIVE slices | 0 |
 
-**Reconciliation: 1,887 unique jobs + 331 extra slice placements = 2,218 regional/category slice placements.**
+**Reconciliation: 1,885 unique jobs + 331 extra slice placements = 2,216 regional/category slice placements.**
 
 Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-23.csv` — **STALE — CSV says 1,912 for 2026-09-23**.
 
@@ -28,7 +28,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-2
 | JobG8 | 1,556 | 330 | 331 |
 | NEJobs | 3 | 0 | 0 |
 | NHS Jobs | 165 | 0 | 0 |
-| Teaching Vacancies | 163 | 0 | 0 |
+| Teaching Vacancies | 161 | 0 | 0 |
 
 ## JOBG8 FEED RECEIVED
 
@@ -298,7 +298,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-2
 
 ## CITY OPPORTUNITIES
 
-**326 mapped towns/localities with live jobs or an existing city page.** Counts use all 1,887 unique live Ontap jobs across every role and provider: 967 have an exact recognised town/locality and 920 have only broader or unrecognised location evidence. CREATE means 4+ current Service Admin jobs and no existing city page; London is held separately.
+**326 mapped towns/localities with live jobs or an existing city page.** Counts use all 1,885 unique live Ontap jobs across every role and provider: 965 have an exact recognised town/locality and 920 have only broader or unrecognised location evidence. CREATE means 4+ current Service Admin jobs and no existing city page; London is held separately.
 
 | Status | Town/city/locality | Region | All live jobs | Existing pages | Current routes | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre | Other / unclassified |
 |---|---|---|---:|---:|---||---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -338,20 +338,20 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-2
 | LIVE PAGE | Milton Keynes | Buckinghamshire | 10 | 1 | /milton-keynes/service-administrator-jobs | 3 | 0 | 0 | 0 | 3 | 4 | 0 | 0 | 0 |
 | LIVE PAGE | Peterborough | Cambridgeshire | 9 | 1 | /peterborough/service-administrator-jobs | 5 | 0 | 0 | 0 | 0 | 4 | 0 | 0 | 0 |
 | LIVE PAGE | Plymouth | Devon | 9 | 1 | /plymouth/service-administrator-jobs | 6 | 0 | 0 | 0 | 0 | 3 | 0 | 0 | 0 |
-| LIVE PAGE | Leicester | Leicestershire | 8 | 1 | /leicester/service-administrator-jobs | 6 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 |
 | LIVE PAGE | York | Yorkshire - North | 8 | 1 | /york/service-administrator-jobs | 3 | 0 | 0 | 5 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Coventry | West Midlands - Coventry & Warwickshire | 7 | 1 | /coventry/service-administrator-jobs | 2 | 0 | 0 | 0 | 0 | 2 | 3 | 0 | 0 |
+| LIVE PAGE | Leicester | Leicestershire | 7 | 1 | /leicester/service-administrator-jobs | 5 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 |
 | LIVE PAGE | Reading | Berkshire | 7 | 1 | /reading/jobs | 2 | 0 | 2 | 0 | 0 | 3 | 0 | 0 | 0 |
 | LIVE PAGE | Sheffield | Yorkshire - South | 7 | 1 | /sheffield/service-administrator-jobs | 5 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
 | LIVE PAGE | Warwick | West Midlands - Coventry & Warwickshire | 6 | 1 | /warwick/service-administrator-jobs | 1 | 0 | 0 | 0 | 0 | 5 | 0 | 0 | 0 |
 | LIVE PAGE | Edinburgh | Scotland Central - Edinburgh & Lothians | 5 | 1 | /edinburgh/service-administrator-jobs | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Gloucester | Gloucestershire | 5 | 1 | /gloucester/service-administrator-jobs | 2 | 0 | 0 | 0 | 0 | 3 | 0 | 0 | 0 |
-| LIVE PAGE | Hull | Yorkshire - East | 5 | 1 | /hull/service-administrator-jobs | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Basingstoke | Hampshire | 4 | 1 | /basingstoke/service-administrator-jobs | 1 | 0 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Bedford | Bedfordshire | 4 | 1 | /bedford/service-administrator-jobs | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Belfast | Northern Ireland - East | 4 | 1 | /belfast/service-administrator-jobs | 3 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
 | LIVE PAGE | Chester | Cheshire - West | 4 | 1 | /chester/jobs | 3 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
 | LIVE PAGE | Huddersfield | Yorkshire - West | 4 | 1 | /huddersfield/service-administrator-jobs | 3 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
+| LIVE PAGE | Hull | Yorkshire - East | 4 | 1 | /hull/service-administrator-jobs | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Portsmouth | Hampshire | 4 | 1 | /portsmouth/service-administrator-jobs | 3 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
 | LIVE PAGE | Brighton & Hove | Sussex | 3 | 1 | /brighton-hove/service-administrator-jobs | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 |
 | LIVE PAGE | Newcastle | North East - Tyneside, Wearside & Northumberland | 3 | 1 | /newcastle/service-administrator-jobs | 1 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -665,7 +665,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-2
 | Lancashire - East |  |  |  |  |  | 9 |  |  |
 | Lancashire - North |  |  |  |  |  |  |  |  |
 | Lancashire - West |  |  |  |  |  |  |  |  |
-| Leicestershire | 15 |  |  |  |  | 12 |  |  |
+| Leicestershire | 14 |  |  |  |  | 12 |  |  |
 | Lincolnshire | 19 |  |  |  |  |  |  |  |
 | London | 146 | 13 | 12 | 57 | 66 | 84 | 31 | CHECK |
 | Merseyside - Liverpool | 15 |  |  | 6 | 5 |  |  |  |
@@ -709,7 +709,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-2
 | West Midlands - Coventry & Warwickshire | 26 |  |  |  |  | 16 | 4 |  |
 | Wiltshire | 12 | 2 |  |  |  | 11 |  |  |
 | Worcestershire | 3 |  |  |  |  |  |  |  |
-| Yorkshire - East | 8 |  |  |  |  |  |  |  |
+| Yorkshire - East | 7 |  |  |  |  |  |  |  |
 | Yorkshire - North | 20 |  |  | 7 | 2 | 14 |  |  |
 | Yorkshire - South | 15 | 1 |  |  |  | 9 |  |  |
 | Yorkshire - West | 55 | 2 | 4 | 9 | 7 | 29 | 4 |  |
@@ -804,6 +804,6 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-2
 | Measure | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Live regions | 51 / 78 | 11 / 78 | 14 / 78 | 12 / 78 | 21 / 78 | 35 / 78 | 9 / 78 | 6 / 78 |
-| Live slice placements | 1117 + 1 CHECK | 80 | 58 | 168 | 173 + 2 CHECK | 570 + 1 CHECK | 50 + 2 CHECK | 2 + 4 CHECK |
+| Live slice placements | 1115 + 1 CHECK | 80 | 58 | 168 | 173 + 2 CHECK | 570 + 1 CHECK | 50 + 2 CHECK | 2 + 4 CHECK |
 
 **Live slices: 159 / 624.**
