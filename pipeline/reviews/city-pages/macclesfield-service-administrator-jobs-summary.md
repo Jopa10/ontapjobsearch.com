@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 19
+- automatic review: 18
 - automatic exclude: 0
 - effective include: 0
-- effective review: 19
+- effective review: 18
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (19)
+## REVIEW (18)
 
 ---
 action: 
@@ -47,18 +47,6 @@ company: Michael Page Finance - Agency - Permanent
 location: Cheshire
 source: JobG8
 job_id: jobg8-1916337
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Cygnet Health Care
-location: Knutsford, WA16 0HB
-source: NHS Jobs
-job_id: nhs-5607812
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

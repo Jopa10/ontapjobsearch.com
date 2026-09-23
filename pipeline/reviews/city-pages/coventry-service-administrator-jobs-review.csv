@@ -5,10 +5,11 @@ include,jobg8-1860303,HR Coordinator,Gleeson Recruitment Group - Agency - Perman
 include,jobg8-1916346,Part Time Website Content Coordinator,THE RECRUITMENT DUO - Agency - Permanent,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 include,jobg8-1909613,Payroll Administrator,James Gray Associates - Agency - Permanent,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 include,jobg8-1859862,People Coordinator,Michael Page Business Support - Agency - Permanent,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
+include,nhs-5616059,Ward Clerk,University Hospitals Coventry and Warwickshire NHS Trust,"Coventry, CV2 2DX",NHS Jobs,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 review,teaching-vacancies-administrator-studley-st-mary-s-cofe-academy,Administrator,Studley St Mary's CofE Academy,Studley,Teaching Vacancies,review,review,No approved Coventry catchment rule matched; local review required.,fallback,coventry-service-administrator-jobs
-review,jobg8-1859602,"HR Administrator, Temporary to Permanent Opportunity",Office Angels - Agency - Permanent,Atherstone,JobG8,review,review,No approved Coventry catchment rule matched; local review required.,fallback,coventry-service-administrator-jobs
 review,teaching-vacancies-pa-to-principal-the-queen-elizabeth-academy-atherstone-warwickshire,PA to Principal,The Queen Elizabeth Academy,Atherstone,Teaching Vacancies,review,review,No approved Coventry catchment rule matched; local review required.,fallback,coventry-service-administrator-jobs
 exclude,jobg8-1945783,Accounts Administrator,3 Point Recruitment - Agency - Permanent,Rugby,JobG8,exclude,exclude,Separate employment market.,rugby,coventry-service-administrator-jobs
+exclude,jobg8-1881935,Accounts Administrator,BRELLIS RECRUITMENT LIMITED - Agency - Permanent,Warwick,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-1893508,Accounts Payable,3 Point Recruitment - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-1912816,Accounts Payable,Four Squared - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-1905974,Accounts Payable Clerk,Gleeson Recruitment Group - Agency - Permanent,Warwick,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
@@ -22,8 +23,8 @@ exclude,jobg8-1913327,Finance Administrator,Trinity House Group - Agency - Perma
 exclude,jobg8-1906045,Finance Assistant,Gleeson Recruitment Group - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-1895750,Finance Assistant,Thefutureworks - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-1868210,Finance Support Officer,3 Point Recruitment - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
+exclude,nhs-5602211,GP Surgery Receptionist,Station Street Surgery,"Nuneaton, CV11 6HH",NHS Jobs,exclude,exclude,Separate employment market.,nuneaton,coventry-service-administrator-jobs
 exclude,jobg8-1859027,HR Assistant,Dudley Lodge - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
-exclude,jobg8-1868063,HR Assistant,Hiring People - Agency - Permanent,Warwick,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-1957746,Immediate Start Accounts Payable Assistant,Mitchell Adam - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-1933589,Insolvency Administrator Coventry,Ambition Europe Limited - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,nhs-4151642,MEDICAL RECEPTIONIST,Valley Road Medical Practice,"Leamington Spa, CV32 7SJ",NHS Jobs,exclude,exclude,Separate employment market.,leamington,coventry-service-administrator-jobs

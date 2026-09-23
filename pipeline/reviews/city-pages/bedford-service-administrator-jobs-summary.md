@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 9
+- automatic review: 8
 - automatic exclude: 0
 - effective include: 4
-- effective review: 9
+- effective review: 8
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: nhs-5608349
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (9)
+## REVIEW (8)
 
 ---
 action: 
@@ -119,18 +119,6 @@ company: Gamlingay Village Primary
 location: Sandy
 source: Teaching Vacancies
 job_id: teaching-vacancies-office-administrator-gamlingay-village-primary
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Procurement Administrator
-company: Cranfield University - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-415093
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

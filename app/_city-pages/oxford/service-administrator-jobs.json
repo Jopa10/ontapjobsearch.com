@@ -279,25 +279,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1124",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5601309",
-    "source": "NHS Jobs",
-    "title": "Team Administrator",
-    "company": "Oxford Health NHS Trust",
-    "advertiser_name": "Oxford Health NHS Trust",
-    "location": "Oxford, OX4 1XE",
-    "region": "Oxfordshire",
-    "salary": "£25760.00 to £27476.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-09-16T09:06:33.576623",
-    "closing_date": "2026-09-22",
-    "description": "Are you able to deliver professional, flexible and efficient administration support? We are looking for an Administrator to join our friendly team withinthe Oxfordshire Crisis Resolution and Home Treatment Team. The Crisis Resolution and Home Treatment Team (CRHTT) is a fast-paced, 24/7 service providing urgent mental health assessment and intensive home treatment as an alternative to hospital admission. As a Band 3 Administrator, you will play a vital role in supporting the multidisciplinary team by delivering high-quality administrative and operational support that enables the safe and effective delivery of patient care. This is a full time post 37.5 hours per week worked over a range of shifts of 08:00am-16:00pm, 09:0am-17:00 and 1000-1800 Provide a comprehensive range of administrative services to support the effective operation of the department.Undertake routine office duties including filing, photocopying, scanning, document preparation and record management. Monitor and order stationery, office supplies and other consumables within agreed processes. Manage incoming and outgoing correspondence, including post and electronic communications, ensuring timely action and distribution. Maintain accurate electronic and paper-based records in accordance with Trust policies and information governance requirements. We hope that the advert has given you a clear understanding of the skills we are seeking and the opportunity at hand. You will need to use the supporting statement element of your application form to demonstrate your suitability for this role and you should refer to the job description, person specification and the guidance notes attached to this role to help you tailor your application. The essential and desirable criteria will be used to shortlist for interview, and you should ensure that you refer to these within your application to increase your chances of being selected for interview. We are aware that some candidates may choose to use AI tools to support their application. We kindly remind applicants that submissions should remain an honest and accurate representation of their experience and must take care to ensure the use of AI tools does not generate an application that does not accurately reflect their knowledge, skills and values.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1104",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1104",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

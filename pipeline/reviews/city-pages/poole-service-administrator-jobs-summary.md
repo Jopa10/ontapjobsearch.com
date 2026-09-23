@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 22
+- automatic review: 21
 - automatic exclude: 0
 - effective include: 1
-- effective review: 22
+- effective review: 21
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: jobg8-1898195
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (22)
+## REVIEW (21)
 
 ---
 action: 
@@ -80,9 +80,9 @@ decision: review
 automatic_decision: review
 title: Activities Coordinator
 company: Agincare Group - Agency - Permanent
-location: Weymouth
+location: Dorset
 source: JobG8
-job_id: jobg8-107992811
+job_id: jobg8-107903280
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -91,10 +91,10 @@ action:
 decision: review
 automatic_decision: review
 title: Activities Coordinator
-company: Care Concern Group - Company - Permanent
-location: Dorset
+company: Agincare Group - Agency - Permanent
+location: Weymouth
 source: JobG8
-job_id: jobg8-107965514
+job_id: jobg8-107992811
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -199,18 +199,6 @@ action:
 decision: review
 automatic_decision: review
 title: HR Administrator
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-1868450
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrator
 company: Resource Recruitment - Agency - Permanent
 location: Ferndown
 source: JobG8
@@ -258,11 +246,11 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Placement Coordinator - Construction
-company: Bournemouth and Poole College - Agency - Contract
+title: Purchasing Assistant
+company: Rubicon Recruitment - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-107989969
+job_id: jobg8-23643_225635774
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

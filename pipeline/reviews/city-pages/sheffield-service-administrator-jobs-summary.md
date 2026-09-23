@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 8
 - automatic review: 3
-- automatic exclude: 8
+- automatic exclude: 7
 - effective include: 8
 - effective review: 3
-- effective exclude: 8
+- effective exclude: 7
 
 ## INCLUDE (8)
 
@@ -52,18 +52,6 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Clerical Officer
-company: Sheffield Teaching Hospitals NHS Foundation Trust
-location: Sheffield, S10 2JF
-source: NHS Jobs
-job_id: nhs-5611916
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Credit Control / Accounts Assistant
 company: Shillito Group - Agency - Permanent
 location: Sheffield
@@ -88,18 +76,6 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Payroll Administrator
-company: Portfolio Payroll - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1956235
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Personal Assistant to Headteacher
 company: Westfield School
 location: Sheffield
@@ -117,6 +93,30 @@ company: Elevation Recruitment Group - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-1939350
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Avery Healthcare Group Ltd.
+location: Sheffield, S6 4TF
+source: NHS Jobs
+job_id: nhs-5615634
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Grenoside Surgery
+location: Sheffield, S35 8NX, Sheffield, S6 1LA
+source: NHS Jobs
+job_id: nhs-5614236
 reason: Approved Sheffield catchment.
 ---
 
@@ -158,7 +158,7 @@ job_id: jobg8-1933458
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (8)
+## EXCLUDE (7)
 
 ---
 action: 
@@ -169,18 +169,6 @@ company: Gooseacre Primary Academy
 location: Rotherham
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-gooseacre-primary-academy-rotherham-south-yorkshire
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrative Assistant
-company: Garland House Surgery
-location: Barnsley, S73 9JX
-source: NHS Jobs
-job_id: nhs-5295793
 reason: Separate employment market.
 ---
 

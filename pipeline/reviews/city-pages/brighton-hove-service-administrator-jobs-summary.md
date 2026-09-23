@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 30
-- automatic exclude: 10
+- automatic review: 31
+- automatic exclude: 12
 - effective include: 4
-- effective review: 30
-- effective exclude: 10
+- effective review: 31
+- effective exclude: 12
 
 ## INCLUDE (4)
 
@@ -28,11 +28,23 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 action: 
 decision: include
 automatic_decision: include
-title: Administrator
-company: Sussex Community NHS Foundation Trust
-location: Hove, BN3 7HY
+title: Medical Receptionist
+company: Beaconsfield Medical Practice
+location: Brighton , BN1 6AG
 source: NHS Jobs
-job_id: nhs-5602750
+job_id: nhs-5616703
+reason: Approved Brighton & Hove catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Personal Assistant
+company: Sussex Partnership NHS Foundation Trust
+location: Hove, BN3 7HZ
+source: NHS Jobs
+job_id: nhs-5606493
 reason: Approved Brighton & Hove catchment.
 ---
 
@@ -52,18 +64,6 @@ reason: Approved Brighton & Hove catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist / Administrator
-company: Integrated Care 24 Ltd
-location: Brighton, BN1 7GF
-source: NHS Jobs
-job_id: nhs-5587236
-reason: Approved Brighton & Hove catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Telesales Executive
 company: Aimee Willow Connex - Agency - Permanent
 location: Brighton
@@ -72,7 +72,7 @@ job_id: jobg8-1856512
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (30)
+## REVIEW (31)
 
 ---
 action: 
@@ -186,11 +186,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Client Services Administrator
-company: Financial Divisions - Agency - Permanent
+title: Charity Administrator
+company: Brighton and Hove Speak Out - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-1894808
+job_id: jobg8-1991688
 reason: Broad location; review before city inclusion.
 ---
 
@@ -198,11 +198,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Field Care Coordinator
-company: Care Outlook Ltd - Agency - Permanent
+title: Client Services Administrator
+company: Financial Divisions - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-108004074
+job_id: jobg8-1894808
 reason: Broad location; review before city inclusion.
 ---
 
@@ -282,6 +282,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: HR Coordinator
+company: SAXON WEALD CAPITAL PLC - Agency - Contract
+location: Sussex
+source: JobG8
+job_id: jobg8-108019283
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Internal Sales Administrator
 company: Trident - Agency - Permanent
 location: Sussex
@@ -311,6 +323,18 @@ company: A1 People - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-1910463
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Onboarding, Security Vetting & PMO Coordinator
+company: Synergize Consulting Limited - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-107996029
 reason: Broad location; review before city inclusion.
 ---
 
@@ -390,18 +414,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Temporary HR Administrator
-company: Office Angels - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-1900339
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Temporary Senior HR Administrator
 company: Michael Page Business Support - Agency - Permanent
 location: Sussex
@@ -434,7 +446,7 @@ job_id: jobg8-622003465167988326437341
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (10)
+## EXCLUDE (12)
 
 ---
 action: 
@@ -512,6 +524,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: GP Receptionist
+company: Tangmere Medical Centre
+location: Chichester, PO20 2HS
+source: NHS Jobs
+job_id: nhs-5609047
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Mortgage Administrator Horsham
 company: Astral Recruitment - Agency - Permanent
 location: Horsham
@@ -541,6 +565,18 @@ company: Alexander Lloyd - Agency - Permanent
 location: Crawley
 source: JobG8
 job_id: jobg8-1885402
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Part Time Accounts Assistant
+company: Reed - Agency - Permanent
+location: Crawley
+source: JobG8
+job_id: jobg8-1881796
 reason: Separate employment market.
 ---
 

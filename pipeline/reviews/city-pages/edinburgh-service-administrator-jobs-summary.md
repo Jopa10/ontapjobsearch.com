@@ -4,8 +4,8 @@
 - Live route: `/edinburgh/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
-- Threshold currently met: yes
+- Effective included jobs: 5
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
+- automatic include: 5
 - automatic review: 1
 - automatic exclude: 0
-- effective include: 7
+- effective include: 5
 - effective review: 1
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (5)
 
 ---
 action: 
@@ -64,18 +64,6 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: HR Administrator
-company: Reed - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-1885249
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: HR Assistant
 company: ICONIC RESOURCING LTD - Agency - Permanent
 location: Edinburgh
@@ -93,18 +81,6 @@ company: Michael Page Business Support - Agency - Permanent
 location: Edinburgh
 source: JobG8
 job_id: jobg8-1907398
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Russian Customer Service Advisor
-company: Oyster Consultant - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-107916313
 reason: Approved conservative Edinburgh launch catchment.
 ---
 

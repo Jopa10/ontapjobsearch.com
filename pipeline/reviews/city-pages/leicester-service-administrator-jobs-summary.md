@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 12
+- automatic review: 15
 - automatic exclude: 0
 - effective include: 8
-- effective review: 12
+- effective review: 15
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: teaching-vacancies-senior-administrator-exams-data
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (12)
+## REVIEW (15)
 
 ---
 action: 
@@ -143,6 +143,18 @@ company: Mixxos Group - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-1908964
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: BMW Service Advisor
+company: Sytner Group - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1885227
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -198,6 +210,18 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Depot Coordinator
+company: Whistl - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1882271
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Assistant
 company: Trinity House Group - Agency - Permanent
 location: Leicestershire
@@ -239,6 +263,18 @@ company: Counted Recruitment - Agency - Permanent
 location: Coalville
 source: JobG8
 job_id: jobg8-1938574
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchasing Assistant
+company: Seismic Recruitment - Agency - Contract
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225628775
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

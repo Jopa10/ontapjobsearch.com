@@ -4,7 +4,7 @@
 - Live route: `/barnsley/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
+- automatic include: 2
 - automatic review: 3
 - automatic exclude: 13
-- effective include: 3
+- effective include: 2
 - effective review: 3
 - effective exclude: 13
 
-## INCLUDE (3)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrative Assistant
-company: Garland House Surgery
-location: Barnsley, S73 9JX
-source: NHS Jobs
-job_id: nhs-5295793
-reason: Approved Barnsley catchment.
----
+## INCLUDE (2)
 
 ---
 action: 
@@ -140,18 +128,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Clerical Officer
-company: Sheffield Teaching Hospitals NHS Foundation Trust
-location: Sheffield, S10 2JF
-source: NHS Jobs
-job_id: nhs-5611916
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Credit Control / Accounts Assistant
 company: Shillito Group - Agency - Permanent
 location: Sheffield
@@ -181,18 +157,6 @@ company: Adecco - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-1877335
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Payroll Administrator
-company: Portfolio Payroll - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1956235
 reason: Separate employment market.
 ---
 
@@ -241,6 +205,30 @@ company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Rotherham
 source: JobG8
 job_id: jobg8-1874146
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Avery Healthcare Group Ltd.
+location: Sheffield, S6 4TF
+source: NHS Jobs
+job_id: nhs-5615634
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Grenoside Surgery
+location: Sheffield, S35 8NX, Sheffield, S6 1LA
+source: NHS Jobs
+job_id: nhs-5614236
 reason: Separate employment market.
 ---
 

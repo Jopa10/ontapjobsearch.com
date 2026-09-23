@@ -4,7 +4,7 @@
 - Live route: `/milton-keynes/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 11
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 25
+- automatic include: 10
+- automatic review: 23
 - automatic exclude: 0
-- effective include: 11
-- effective review: 25
+- effective include: 10
+- effective review: 23
 - effective exclude: 0
 
-## INCLUDE (11)
+## INCLUDE (10)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: Lord Grey Academy
 location: Milton Keynes
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-centre-administrator-lord-grey-academy-milton-keynes-buckinghamshire
-reason: Exact approved Milton Keynes workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator - Prison Education - HMP Downview
-company: Milton Keynes College
-location: Milton Keynes
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-prison-education-hmp-downview
 reason: Exact approved Milton Keynes workplace.
 ---
 
@@ -136,6 +124,18 @@ reason: Exact approved Milton Keynes workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Part Time Payroll & HR
+company: Michael Page Finance - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-1991661
+reason: Exact approved Milton Keynes workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist
 company: Purbeck Health Centre
 location: Milton Keynes, MK14 6BL
@@ -144,19 +144,7 @@ job_id: nhs-5543958
 reason: Exact approved Milton Keynes workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Single Point of Access Administrator
-company: Central and North West London NHS Foundation Trust
-location: Milton Keynes, MK7 6AA
-source: NHS Jobs
-job_id: nhs-5600810
-reason: Exact approved Milton Keynes workplace.
----
-
-## REVIEW (25)
+## REVIEW (23)
 
 ---
 action: 
@@ -179,30 +167,6 @@ company: Job Board Direct - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-1959769
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Bucks and Berks Recruitment - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-1875924
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: KennedyPearce Consulting - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-1868169
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -306,6 +270,18 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Advisor - Property Management
+company: Blundells - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-1987458
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Assistant
 company: Techtronic Industries UK (TTI) - Agency - Permanent
 location: Buckinghamshire
@@ -330,18 +306,6 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: HR Operations Coordinator
-company: wild recruitment - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-1856610
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Junior Accounts Receivable Assistant
 company: Berry Recruitment - Agency - Permanent
 location: Buckinghamshire
@@ -359,18 +323,6 @@ company: FS1 Recruitment - Marketing, Creative, Digital, Finance, HR, Sales, Adm
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-1896236
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Events Project Co-ordinator
-company: Bucks and Berks Recruitment - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-1907611
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -443,6 +395,18 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-1938491
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales ledger/billings
+company: Robert Walters - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-1882176
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

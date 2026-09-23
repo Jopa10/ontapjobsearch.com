@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 9
-- automatic exclude: 15
-- effective include: 9
-- effective review: 9
-- effective exclude: 15
+- automatic include: 10
+- automatic review: 11
+- automatic exclude: 13
+- effective include: 10
+- effective review: 11
+- effective exclude: 13
 
-## INCLUDE (9)
+## INCLUDE (10)
 
 ---
 action: 
@@ -132,7 +132,19 @@ job_id: jobg8-1871003
 reason: Approved York catchment.
 ---
 
-## REVIEW (9)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Team Administrator
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: York, YO32 9XW
+source: NHS Jobs
+job_id: nhs-5590363
+reason: Approved York catchment.
+---
+
+## REVIEW (11)
 
 ---
 action: 
@@ -155,6 +167,30 @@ company: qed legal - Agency - Permanent
 location: Malton
 source: JobG8
 job_id: jobg8-1873947
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Demand Planner
+company: MTrec Recruitment - Agency - Permanent
+location: Bedale
+source: JobG8
+job_id: jobg8-107953544
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Demand Planner
+company: MTrec Recruitment - Agency - Permanent
+location: Bedale
+source: JobG8
+job_id: jobg8-1888842
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -242,7 +278,7 @@ job_id: nhs-5611094
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (15)
+## EXCLUDE (13)
 
 ---
 action: 
@@ -277,6 +313,18 @@ company: Finlink Ltd - Agency - Permanent
 location: Northallerton
 source: JobG8
 job_id: jobg8-1950236
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Client Services Administrator
+company: NJR Recruitment - Agency - Permanent
+location: Scarborough
+source: JobG8
+job_id: jobg8-1882087
 reason: Separate employment market.
 ---
 
@@ -356,35 +404,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Legal Secretary
-company: Capital Outsourcing Group Ltd - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-1961050
-reason: Broad regional label; not York-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Payroll Administrator
 company: Portfolio Payroll - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-1892503
-reason: Broad regional label; not York-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Payroll Administrator
-company: Si Recruitment - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-1874052
 reason: Broad regional label; not York-city evidence.
 ---
 
@@ -409,17 +433,5 @@ company: Reed - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-1867235
-reason: Broad regional label; not York-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Temporary Bookkeeper
-company: IPS Group - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-1916296
 reason: Broad regional label; not York-city evidence.
 ---

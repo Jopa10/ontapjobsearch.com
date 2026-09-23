@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 3
-- automatic exclude: 22
-- effective include: 6
-- effective review: 3
-- effective exclude: 22
+- automatic include: 7
+- automatic review: 2
+- automatic exclude: 23
+- effective include: 7
+- effective review: 2
+- effective exclude: 23
 
-## INCLUDE (6)
+## INCLUDE (7)
 
 ---
 action: 
@@ -96,7 +96,19 @@ job_id: jobg8-1859862
 reason: Approved Coventry catchment.
 ---
 
-## REVIEW (3)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Ward Clerk
+company: University Hospitals Coventry and Warwickshire NHS Trust
+location: Coventry, CV2 2DX
+source: NHS Jobs
+job_id: nhs-5616059
+reason: Approved Coventry catchment.
+---
+
+## REVIEW (2)
 
 ---
 action: 
@@ -114,18 +126,6 @@ reason: No approved Coventry catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator, Temporary to Permanent Opportunity
-company: Office Angels - Agency - Permanent
-location: Atherstone
-source: JobG8
-job_id: jobg8-1859602
-reason: No approved Coventry catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: PA to Principal
 company: The Queen Elizabeth Academy
 location: Atherstone
@@ -134,7 +134,7 @@ job_id: teaching-vacancies-pa-to-principal-the-queen-elizabeth-academy-atherston
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (22)
+## EXCLUDE (23)
 
 ---
 action: 
@@ -145,6 +145,18 @@ company: 3 Point Recruitment - Agency - Permanent
 location: Rugby
 source: JobG8
 job_id: jobg8-1945783
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Administrator
+company: BRELLIS RECRUITMENT LIMITED - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-1881935
 reason: Separate employment market.
 ---
 
@@ -308,11 +320,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: HR Assistant
-company: Dudley Lodge - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-1859027
+title: GP Surgery Receptionist
+company: Station Street Surgery
+location: Nuneaton, CV11 6HH
+source: NHS Jobs
+job_id: nhs-5602211
 reason: Separate employment market.
 ---
 
@@ -321,10 +333,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: HR Assistant
-company: Hiring People - Agency - Permanent
-location: Warwick
+company: Dudley Lodge - Agency - Permanent
+location: Warwickshire
 source: JobG8
-job_id: jobg8-1868063
+job_id: jobg8-1859027
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/scarborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 0
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 0
+- automatic include: 1
 - automatic review: 33
 - automatic exclude: 0
-- effective include: 0
+- effective include: 1
 - effective review: 33
 - effective exclude: 0
 
-## INCLUDE (0)
+## INCLUDE (1)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Client Services Administrator
+company: NJR Recruitment - Agency - Permanent
+location: Scarborough
+source: JobG8
+job_id: jobg8-1882087
+reason: Exact approved Scarborough workplace.
+---
 
 ## REVIEW (33)
 
@@ -186,6 +198,30 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Demand Planner
+company: MTrec Recruitment - Agency - Permanent
+location: Bedale
+source: JobG8
+job_id: jobg8-107953544
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Demand Planner
+company: MTrec Recruitment - Agency - Permanent
+location: Bedale
+source: JobG8
+job_id: jobg8-1888842
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Demand Planner - FMCG
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Northallerton
@@ -270,18 +306,6 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Legal Secretary
-company: Capital Outsourcing Group Ltd - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-1961050
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Legal Secretary/Paralegal - Private Client
 company: Reed - Agency - Permanent
 location: York
@@ -354,18 +378,6 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Administrator
-company: Si Recruitment - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-1874052
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Payroll Clerk
 company: Reed - Agency - Permanent
 location: Yorkshire
@@ -414,11 +426,11 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Temporary Bookkeeper
-company: IPS Group - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-1916296
+title: Team Administrator
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: York, YO32 9XW
+source: NHS Jobs
+job_id: nhs-5590363
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

@@ -1,8 +1,9 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
-include,nhs-5595156,Administrator,Hull University Teaching Hospitals NHS Trust,"Hull, HU1 3TD",NHS Jobs,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
 include,jobg8-1982338,Family Support Coordinator,Coram - Agency - Permanent,Hull,JobG8,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
 include,jobg8-107894712,Quotations & Estimating Coordinator,KD Recruitment Limited - Agency - Permanent,Hull,JobG8,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
 include,teaching-vacancies-receptionist-administrator-8983c99a-ea81-4d03-945c-21a86c87cb36,Receptionist Administrator,Alderman Cogan's Church of England Primary Academy,Hull,Teaching Vacancies,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
 include,teaching-vacancies-send-administrator-liberty-academy,SEND Administrator,Liberty Academy,Hull,Teaching Vacancies,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
 include,jobg8-1939826,Warranties Administrator - Automotive,Office Angels - Agency - Permanent,Hull,JobG8,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
+review,nhs-5614089,Administrator,Hull University Teaching Hospitals NHS Trust,"Cottingham, HU16 5JQ",NHS Jobs,review,review,No approved Hull catchment rule matched; local review required.,fallback,hull-service-administrator-jobs
+review,jobg8-1991433,HR Administrator,Howdens Joinery - Company - Permanent,Goole,JobG8,review,review,No approved Hull catchment rule matched; local review required.,fallback,hull-service-administrator-jobs
 review,jobg8-107952027,Sourcing Coordinator,REC-REVOLUTION LTD - Agency - Permanent,Bridlington,JobG8,review,review,No approved Hull catchment rule matched; local review required.,fallback,hull-service-administrator-jobs

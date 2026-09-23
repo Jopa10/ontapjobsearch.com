@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 20
+- automatic review: 23
 - automatic exclude: 0
 - effective include: 0
-- effective review: 20
+- effective review: 23
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (20)
+## REVIEW (23)
 
 ---
 action: 
@@ -47,6 +47,18 @@ company: Mixxos Group - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-1908964
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: BMW Service Advisor
+company: Sytner Group - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1885227
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -119,6 +131,18 @@ company: Gleeson Recruitment Group - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-1907829
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Depot Coordinator
+company: Whistl - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1882271
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -203,6 +227,18 @@ company: Counted Recruitment - Agency - Permanent
 location: Coalville
 source: JobG8
 job_id: jobg8-1938574
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchasing Assistant
+company: Seismic Recruitment - Agency - Contract
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225628775
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

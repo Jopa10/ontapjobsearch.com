@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 27
+- Effective included jobs: 29
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 27
+- automatic include: 29
 - automatic review: 31
 - automatic exclude: 22
-- effective include: 27
+- effective include: 29
 - effective review: 31
 - effective exclude: 22
 
-## INCLUDE (27)
+## INCLUDE (29)
 
 ---
 action: 
@@ -172,6 +172,30 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Client Money Controls Coordinator
+company: Everywhen, part of the Ardonagh Group - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-1991406
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Commercial Claims Handler
+company: Insure Recruitment - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-1889757
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Commercial Claims Handler (Personal Lines Handlers Considered!)
 company: Aston Charles Ltd - Agency - Permanent
 location: Leeds
@@ -213,6 +237,18 @@ company: Breedon Group plc - Company - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-1823573
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Onboarding Coordinator
+company: Avencia Consulting - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-1881992
 reason: Approved Leeds catchment.
 ---
 
@@ -297,18 +333,6 @@ company: Yorkshire Design Group - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-1910102
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Property Accounts Administrator
-company: IPS Group - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-1916170
 reason: Approved Leeds catchment.
 ---
 
@@ -788,18 +812,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Business Support Officer - Part Time
-company: Moorlands Primary School
-location: Huddersfield
-source: Teaching Vacancies
-job_id: teaching-vacancies-business-support-officer-part-time
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Claims Handler
 company: Grace Fredericks Recruitment - Agency - Permanent
 location: Halifax
@@ -853,6 +865,18 @@ company: Bradford Diocesan Academies Trust
 location: Bradford
 source: Teaching Vacancies
 job_id: teaching-vacancies-deputy-pa-receptionist-bradford-diocesan-academies-trust-bradford-not-recorded
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Early Help Family Support Coordinator (Asylum and Refugee)
+company: Refugee Action - Agency - Permanent
+location: Bradford
+source: JobG8
+job_id: jobg8-1991676
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/exeter/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 12
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
-- automatic review: 31
+- automatic include: 11
+- automatic review: 34
 - automatic exclude: 0
-- effective include: 12
-- effective review: 31
+- effective include: 11
+- effective review: 34
 - effective exclude: 0
 
-## INCLUDE (12)
+## INCLUDE (11)
 
 ---
 action: 
@@ -116,18 +116,6 @@ title: Service Administrator
 company: Royal Devon University Healthcare NHS Foundation Trust
 location: Exeter, EX2 5DW
 source: NHS Jobs
-job_id: nhs-5585701
-reason: Exact approved Exeter workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Administrator
-company: Royal Devon University Healthcare NHS Foundation Trust
-location: Exeter, EX2 5DW
-source: NHS Jobs
 job_id: nhs-5594406
 reason: Exact approved Exeter workplace.
 ---
@@ -168,7 +156,7 @@ job_id: jobg8-1877836
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (31)
+## REVIEW (34)
 
 ---
 action: 
@@ -294,6 +282,18 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Advisor
+company: Countrywide HQ - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-1991665
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Estates Administrator
 company: Learning Academies Trust
 location: Plymouth
@@ -378,6 +378,18 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Pay Roll Administrator
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-1991622
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Assistant (Part Time - Temp)
 company: Butler Rose - Agency - Permanent
 location: Devon
@@ -426,6 +438,18 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Officer
+company: Trial Balance Consulting - Agency - Permanent
+location: Plymouth
+source: JobG8
+job_id: jobg8-1882215
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Purchasing Assistant
 company: Reed - Agency - Permanent
 location: Devon
@@ -450,11 +474,11 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist/Administrator
-company: Croft Hall Medical Practice
-location: Torquay, TQ2 5UA
-source: NHS Jobs
-job_id: nhs-5552054
+title: Receptionist/Admin Assistant
+company: Acorn by Synergie - Agency - Permanent
+location: Tiverton
+source: JobG8
+job_id: jobg8-1990881
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -462,11 +486,11 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Recruitment Account Co-ordinator
-company: Acorn by Synergie - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-107953534
+title: Receptionist/Administrator
+company: Croft Hall Medical Practice
+location: Torquay, TQ2 5UA
+source: NHS Jobs
+job_id: nhs-5552054
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 18
+- automatic review: 19
 - automatic exclude: 0
 - effective include: 5
-- effective review: 18
+- effective review: 19
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-1932863
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (18)
+## REVIEW (19)
 
 ---
 action: 
@@ -131,6 +131,18 @@ company: Reed - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-1934798
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Co-Ordinator
+company: Cactus Search - Agency - Permanent
+location: Cheltenham
+source: JobG8
+job_id: jobg8-1881580
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

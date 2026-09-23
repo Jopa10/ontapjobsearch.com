@@ -4,7 +4,7 @@
 - Live route: `/belfast/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 7
+- automatic include: 4
+- automatic review: 5
 - automatic exclude: 0
-- effective include: 5
-- effective review: 7
+- effective include: 4
+- effective review: 5
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (4)
 
 ---
 action: 
@@ -40,11 +40,11 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: External Communications Executive
-company: A&O Shearman - Agency - Permanent
+title: Accounts Payable Controller
+company: Reed - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-21582_110129390
+job_id: jobg8-1933449
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -72,19 +72,7 @@ job_id: jobg8-1858475
 reason: Approved conservative Belfast launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Senior Marketing Assistant (12-month FTC)
-company: A&O Shearman - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-21582_110261545
-reason: Approved conservative Belfast launch catchment.
----
-
-## REVIEW (7)
+## REVIEW (5)
 
 ---
 action: 
@@ -126,18 +114,6 @@ reason: No approved Belfast catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: External Communications Executive
-company: A&O Shearman - Agency - Permanent
-location: County Antrim
-source: JobG8
-job_id: jobg8-21582_110129468
-reason: No approved Belfast catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales Coordinator
 company: Brook Street UK - Agency - Permanent
 location: Ballyclare
@@ -150,23 +126,11 @@ reason: No approved Belfast catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Senior Marketing Assistant (12-month FTC)
-company: A&O Shearman - Agency - Permanent
-location: County Down
-source: JobG8
-job_id: jobg8-21582_110261480
-reason: No approved Belfast catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Senior Marketing Assistant (12-month FTC)
-company: A&O Shearman - Agency - Permanent
+title: Sales Ledger Assistant
+company: Woodside Logistics Group - Agency - Contract
 location: County Antrim
 source: JobG8
-job_id: jobg8-21582_110261497
+job_id: jobg8-107994117
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 

@@ -3,6 +3,7 @@ include,teaching-vacancies-administration-assistant-buttershaw-business-enterpri
 include,nhs-5486478,Administrator,New Otley Road Medical Practice - Hillside Bridge,"Bradford, BD3 0BS, BRADFORD, BD8 9DW",NHS Jobs,include,include,Approved Bradford catchment.,bradford,bradford-service-administrator-jobs
 include,teaching-vacancies-administrator-37,Administrator - 37,Co-op Academy Grange,Bradford,Teaching Vacancies,include,include,Approved Bradford catchment.,bradford,bradford-service-administrator-jobs
 include,teaching-vacancies-deputy-pa-receptionist-bradford-diocesan-academies-trust-bradford-not-recorded,Deputy PA / Receptionist,Bradford Diocesan Academies Trust,Bradford,Teaching Vacancies,include,include,Approved Bradford catchment.,bradford,bradford-service-administrator-jobs
+include,jobg8-1991676,Early Help Family Support Coordinator (Asylum and Refugee),Refugee Action - Agency - Permanent,Bradford,JobG8,include,include,Approved Bradford catchment.,bradford,bradford-service-administrator-jobs
 include,jobg8-1907455,Finance Assistant with AAT Study Support,Axon Moore Group Ltd - Agency - Permanent,Bradford,JobG8,include,include,Approved Bradford catchment.,bradford,bradford-service-administrator-jobs
 include,jobg8-1900864,Interim Finance Officer,Robertson Bell - Agency - Permanent,Bradford,JobG8,include,include,Approved Bradford catchment.,bradford,bradford-service-administrator-jobs
 include,nhs-5603161,MEDICAL RECEPTIONIST,The Bradford Moor Practice,"Bradford, BD3 8QH",NHS Jobs,include,include,Approved Bradford catchment.,bradford,bradford-service-administrator-jobs
@@ -51,12 +52,13 @@ exclude,jobg8-107993362,Bid Coordinator,Ridge & Partners LLP - Agency - Permanen
 exclude,jobg8-1892117,Billing & Finance Assistant,Michael Page Finance - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
 exclude,jobg8-1951245,Bookkeeper / Accounts Assistant,BC Financial Search Ltd - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
 exclude,teaching-vacancies-business-support-officer-spring-grove-junior-infant-and-nursery-school-huddersfield-west-yorkshire,Business Support Officer,Spring Grove Junior Infant and Nursery School,Huddersfield,Teaching Vacancies,exclude,exclude,Separate employment market.,huddersfield,bradford-service-administrator-jobs
-exclude,teaching-vacancies-business-support-officer-part-time,Business Support Officer - Part Time,Moorlands Primary School,Huddersfield,Teaching Vacancies,exclude,exclude,Separate employment market.,huddersfield,bradford-service-administrator-jobs
 exclude,jobg8-1906594,Casualty Claims Handler,Adjusting Appointments Limited - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
 exclude,jobg8-1939820,Claims Handler,Grace Fredericks Recruitment - Agency - Permanent,Halifax,JobG8,exclude,exclude,Separate employment market.,halifax,bradford-service-administrator-jobs
 exclude,jobg8-1927518,Claims Handler (Top Insurance Company),Aston Charles Ltd - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
 exclude,nhs-5591866,Clerical Officer,Leeds Teaching Hospitals,"Leeds, LS9 7TF",NHS Jobs,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
 exclude,nhs-5594416,Clerical Officer,Leeds Teaching Hospitals,"Leeds, LS9 7TF",NHS Jobs,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
+exclude,jobg8-1991406,Client Money Controls Coordinator,"Everywhen, part of the Ardonagh Group - Agency - Permanent",Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
+exclude,jobg8-1889757,Commercial Claims Handler,Insure Recruitment - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
 exclude,jobg8-1927524,Commercial Claims Handler (Personal Lines Handlers Considered!),Aston Charles Ltd - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
 exclude,jobg8-1945171,Construction Paralegal,CRA Consulting - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
 exclude,jobg8-1883720,Conveyancing Assistant,Reed - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
@@ -66,6 +68,7 @@ exclude,teaching-vacancies-data-and-exams-administrator-moor-end-academy,Data an
 exclude,jobg8-1823573,Distribution Coordinator,Breedon Group plc - Company - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
 exclude,jobg8-1924718,Finance Assistant - Purchase Ledger,Kingdom People - Agency - Permanent,Huddersfield,JobG8,exclude,exclude,Separate employment market.,huddersfield,bradford-service-administrator-jobs
 exclude,jobg8-1937623,HR Coordinator / Advisor,Hays Specialist Recruitment Limited - Agency - Permanent,Huddersfield,JobG8,exclude,exclude,Separate employment market.,huddersfield,bradford-service-administrator-jobs
+exclude,jobg8-1881992,HR Onboarding Coordinator,Avencia Consulting - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
 exclude,jobg8-1936709,Interim OTC Cash Office Assistant,Marks Sattin - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
 exclude,jobg8-1873985,Jaguar Land Rover Accounts Assistant,Sytner Group - Agency - Permanent,Huddersfield,JobG8,exclude,exclude,Separate employment market.,huddersfield,bradford-service-administrator-jobs
 exclude,jobg8-1908757,Marketing Executive,IMPRESSION RECRUITMENT LIMITED - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
@@ -74,7 +77,6 @@ exclude,jobg8-1895692,Paralegal,Huntress - Agency - Permanent,Leeds,JobG8,exclud
 exclude,jobg8-1867682,Part Time Accounts Assistant,Michael Page Finance - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
 exclude,jobg8-1910102,Part-Time Accounts Assistant for Yorkshire Design Group,Yorkshire Design Group - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
 exclude,nhs-5056947,Practice Administrator,Warrengate Medical Centre,"Wakefield, WF1 4PR",NHS Jobs,exclude,exclude,Separate employment market.,wakefield,bradford-service-administrator-jobs
-exclude,jobg8-1916170,Property Accounts Administrator,IPS Group - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
 exclude,jobg8-1859484,Purchase Ledger Clerk,Robert Half - Agency - Permanent,Halifax,JobG8,exclude,exclude,Separate employment market.,halifax,bradford-service-administrator-jobs
 exclude,teaching-vacancies-receptionist-and-administration-assistant-leeds-east-academy,Receptionist and Administration Assistant,Leeds East Academy,Leeds,Teaching Vacancies,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
 exclude,nhs-5529086,Receptionist/Care Navigator,Conway Medical Centre,"Leeds, LS8 5DE",NHS Jobs,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs

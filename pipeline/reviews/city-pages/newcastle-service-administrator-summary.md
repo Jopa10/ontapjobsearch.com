@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 24
-- automatic exclude: 11
-- effective include: 7
-- effective review: 24
-- effective exclude: 11
+- automatic include: 6
+- automatic review: 23
+- automatic exclude: 12
+- effective include: 6
+- effective review: 23
+- effective exclude: 12
 
-## INCLUDE (7)
+## INCLUDE (6)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Newcastle City Council
 location: Lemington Riverside, Rokeby Street, Newcastle upon Tyne, NE15 8RR
 source: NEJobs
 job_id: nejobs-301338
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Development Executive
-company: Independent Utility Advice - Agency - Permanent
-location: Newcastle Upon Tyne
-source: JobG8
-job_id: jobg8-107967240
 reason: Approved Newcastle catchment.
 ---
 
@@ -108,7 +96,7 @@ job_id: nhs-5598890
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (24)
+## REVIEW (23)
 
 ---
 action: 
@@ -155,6 +143,18 @@ company: Finlink Ltd - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-1950434
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Content & Campaign Executive
+company: Nigel Wright Group - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1885754
 reason: Broad location; review before city inclusion.
 ---
 
@@ -210,35 +210,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Disease Claims Handler (3 - Month FTC)
-company: Gallagher - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-107984783
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Assistant
 company: Independent Utility Advice Ltd - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-1907000
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: Paul Card Recruitment Ltd - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-1947293
 reason: Broad location; review before city inclusion.
 ---
 
@@ -330,6 +306,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Part-time Finance Assistant
+company: KCR Solutions - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1882063
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Administrator
 company: Sopra Steria - Agency - Permanent
 location: Tyne And Wear
@@ -386,19 +374,7 @@ job_id: teaching-vacancies-school-support-roles-supervisory-assistant-administra
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Seaham, SR7 0BG
-source: NHS Jobs
-job_id: nhs-5589916
-reason: No approved Newcastle catchment rule matched; local review required.
----
-
-## EXCLUDE (11)
+## EXCLUDE (12)
 
 ---
 action: 
@@ -441,10 +417,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Administrator
-company: South Tyneside and Sunderland NHS Foundation Trust
-location: SUNDERLAND, SR2 8PL, GATESHEAD, NE10 8DX, SOUTH SHIELDS, NE34 8PS
+company: Moorlands Surgery
+location: Darlington, DL3 9JP
 source: NHS Jobs
-job_id: nhs-5602108
+job_id: nhs-5614776
 reason: Separate employment market.
 ---
 
@@ -452,11 +428,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Distribution Coordinator
-company: Breedon Group plc - Company - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-1857564
+title: Administrator
+company: South Tyneside and Sunderland NHS Foundation Trust
+location: SUNDERLAND, SR2 8PL, GATESHEAD, NE10 8DX, SOUTH SHIELDS, NE34 8PS
+source: NHS Jobs
+job_id: nhs-5602108
 reason: Separate employment market.
 ---
 
@@ -469,6 +445,18 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-1950247
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Junior Account Manager - Marketing
+company: BMC Recruitment Group - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-1992590
 reason: Separate employment market.
 ---
 

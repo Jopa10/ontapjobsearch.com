@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 19
-- automatic exclude: 14
+- automatic review: 18
+- automatic exclude: 15
 - effective include: 3
-- effective review: 19
-- effective exclude: 14
+- effective review: 18
+- effective exclude: 15
 
 ## INCLUDE (3)
 
@@ -60,7 +60,7 @@ job_id: jobg8-107193862
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (19)
+## REVIEW (18)
 
 ---
 action: 
@@ -119,18 +119,6 @@ company: TC Group - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-1907458
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Corporate Financial Administrator
-company: 1to1 Group Limited - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-1869745
 reason: Broad location; review before city inclusion.
 ---
 
@@ -290,7 +278,7 @@ job_id: jobg8-107959953
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (14)
+## EXCLUDE (15)
 
 ---
 action: 
@@ -349,6 +337,18 @@ company: The Harbour School
 location: Portsmouth
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrator-the-harbour-school-the-harbour-school
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Audit & Accounts Assistant
+company: Accountancy Expertise Ltd - Agency - Permanent
+location: Fareham
+source: JobG8
+job_id: jobg8-1856091
 reason: Separate employment market.
 ---
 

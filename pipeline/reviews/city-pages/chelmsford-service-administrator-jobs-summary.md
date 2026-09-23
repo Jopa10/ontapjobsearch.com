@@ -4,7 +4,7 @@
 - Live route: `/chelmsford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 70
+- automatic include: 10
+- automatic review: 73
 - automatic exclude: 0
-- effective include: 9
-- effective review: 70
+- effective include: 10
+- effective review: 73
 - effective exclude: 0
 
-## INCLUDE (9)
+## INCLUDE (10)
 
 ---
 action: 
@@ -69,6 +69,18 @@ company: Adecco - Agency - Permanent
 location: Chelmsford
 source: JobG8
 job_id: jobg8-1860176
+reason: Exact approved Chelmsford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
+company: TIME Appointments Ltd - Agency - Permanent
+location: Chelmsford
+source: JobG8
+job_id: jobg8-1882194
 reason: Exact approved Chelmsford workplace.
 ---
 
@@ -132,7 +144,7 @@ job_id: jobg8-1956210
 reason: Exact approved Chelmsford workplace.
 ---
 
-## REVIEW (70)
+## REVIEW (73)
 
 ---
 action: 
@@ -246,18 +258,6 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Payable Clerk
-company: Chalk Hill Group - Agency - Permanent
-location: Basildon
-source: JobG8
-job_id: jobg8-1945014
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Accounts Receivable Administrator
 company: XENIAL CONSULTING LTD - Agency - Permanent
 location: Essex
@@ -283,10 +283,10 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Alliance Medical Ltd
-location: Southend-on-Sea, SS0 0RY
+company: Inclusion
+location: Grays, RM17 6NB
 source: NHS Jobs
-job_id: nhs-5465926
+job_id: nhs-5614538
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -515,6 +515,18 @@ company: Reed - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-1938474
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Conveyancing Paralegal
+company: The Recruiter Specialists Group Ltd - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-1882257
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -846,6 +858,18 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Property Inspector Administrator
+company: GCB Recruitment - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-1977124
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Purchase Ledger
 company: Reed - Agency - Permanent
 location: Southend-On-Sea
@@ -954,11 +978,35 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Technical Motor Claims Handler
+company: TIME Appointments Ltd - Agency - Permanent
+location: Colchester
+source: JobG8
+job_id: jobg8-1889522
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Vehicle Administrator
 company: Reed - Agency - Permanent
 location: Stansted
 source: JobG8
 job_id: jobg8-1859688
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Ward Clerk
+company: Essex Partnership University NHS Foundation Trust
+location: Epping, CM16 6TN
+source: NHS Jobs
+job_id: nhs-5616270
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

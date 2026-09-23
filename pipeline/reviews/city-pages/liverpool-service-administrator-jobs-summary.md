@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 5
+- automatic include: 15
+- automatic review: 8
 - automatic exclude: 0
-- effective include: 9
-- effective review: 5
+- effective include: 15
+- effective review: 8
 - effective exclude: 0
 
-## INCLUDE (9)
+## INCLUDE (15)
 
 ---
 action: 
@@ -88,6 +88,30 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Clerical Officer
+company: Liverpool University Hospitals NHS Foundation Trust
+location: Liverpool, L7 8YE
+source: NHS Jobs
+job_id: nhs-5603282
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Enforcement Paralegal - Debt Recovery
+company: Standard 8 - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-1948909
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Finance Assistant
 company: Recruitment Solutions (North West) Ltd - Agency - Permanent
 location: Liverpool
@@ -112,11 +136,35 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: HR Operations Administrator
+company: Zachary Daniels Recruitment - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-23643_225532338
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Interim Marketing and Communications Manager
 company: Michael Page Marketing - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-1928716
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Litigated Motor Recoveries Claims Handler
+company: Keoghs LLP - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-1992976
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -132,17 +180,53 @@ job_id: jobg8-1870162
 reason: Approved conservative Liverpool launch catchment.
 ---
 
-## REVIEW (5)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Motor claims handler - Part time
+company: Spotlightjobs - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-1884509
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: People Services Learning & Development Administrator
+company: Riverside Group - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-1882314
+reason: Approved conservative Liverpool launch catchment.
+---
+
+## REVIEW (8)
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Digital Marketing Assistant Manager
-company: MHA - Agency - Permanent
+title: Employment Advisor/Paralegal
+company: Michael Page Legal - Agency - Permanent
 location: Merseyside
 source: JobG8
-job_id: jobg8-1839653
+job_id: jobg8-1885635
+reason: Broad county location; review before Liverpool inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Housing Disrepair Paralegal
+company: G2 Legal Limited - Agency - Permanent
+location: Merseyside
+source: JobG8
+job_id: jobg8-1870320
 reason: Broad county location; review before Liverpool inclusion.
 ---
 
@@ -162,11 +246,35 @@ reason: Broad county location; review before Liverpool inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Specialist - Paid Social & Content (Remote)
-company: HiiKER - Agency - Permanent
+title: Legal Assistant - MOJ Stage 3
+company: Bond Turner - Agency - Permanent
 location: Merseyside
 source: JobG8
-job_id: jobg8-1928451
+job_id: jobg8-1945020
+reason: Broad county location; review before Liverpool inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Pre-Litigation - Legal Assistant (PLCT H)
+company: Bond Turner - Agency - Permanent
+location: Merseyside
+source: JobG8
+job_id: jobg8-1945149
+reason: Broad county location; review before Liverpool inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Remote Conveyancing Paralegal
+company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
+location: Merseyside
+source: JobG8
+job_id: jobg8-1884412
 reason: Broad county location; review before Liverpool inclusion.
 ---
 

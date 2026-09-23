@@ -78,18 +78,6 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Casualty Claims Handler
-company: Gallagher - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-107975373
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Client Account Administrator
 company: Bush and Company Rehabilitation - Agency - Permanent
 location: Northamptonshire
@@ -210,11 +198,35 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: HR Administrator
+company: Lakeside Healthcare Group
+location: Corby, NN17 1TY
+source: NHS Jobs
+job_id: nhs-5614974
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Administrator (Northampton Students Union Students Only)
 company: Northampton Students' Union - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-1982316
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Assistant
+company: Rock UK - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-1991727
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -263,18 +275,6 @@ company: People Solutions Group Limited - Agency - Permanent
 location: Kettering
 source: JobG8
 job_id: jobg8-1939011
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Returns Administrator
-company: Quest Employment - Agency - Contract
-location: Wellingborough
-source: JobG8
-job_id: jobg8-107954199
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

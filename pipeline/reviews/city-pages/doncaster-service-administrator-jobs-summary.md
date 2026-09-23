@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 2
 - automatic review: 3
-- automatic exclude: 14
+- automatic exclude: 13
 - effective include: 2
 - effective review: 3
-- effective exclude: 14
+- effective exclude: 13
 
 ## INCLUDE (2)
 
@@ -86,7 +86,7 @@ job_id: jobg8-1933458
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (14)
+## EXCLUDE (13)
 
 ---
 action: 
@@ -121,30 +121,6 @@ company: Gooseacre Primary Academy
 location: Rotherham
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-gooseacre-primary-academy-rotherham-south-yorkshire
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrative Assistant
-company: Garland House Surgery
-location: Barnsley, S73 9JX
-source: NHS Jobs
-job_id: nhs-5295793
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Clerical Officer
-company: Sheffield Teaching Hospitals NHS Foundation Trust
-location: Sheffield, S10 2JF
-source: NHS Jobs
-job_id: nhs-5611916
 reason: Separate employment market.
 ---
 
@@ -188,18 +164,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Payroll Administrator
-company: Portfolio Payroll - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1956235
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Personal Assistant to Headteacher
 company: Westfield School
 location: Sheffield
@@ -229,6 +193,30 @@ company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Rotherham
 source: JobG8
 job_id: jobg8-1874146
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Avery Healthcare Group Ltd.
+location: Sheffield, S6 4TF
+source: NHS Jobs
+job_id: nhs-5615634
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Grenoside Surgery
+location: Sheffield, S35 8NX, Sheffield, S6 1LA
+source: NHS Jobs
+job_id: nhs-5614236
 reason: Separate employment market.
 ---
 

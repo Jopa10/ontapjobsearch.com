@@ -4,8 +4,8 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
-- Threshold currently met: yes
+- Effective included jobs: 5
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 1
+- automatic include: 5
+- automatic review: 3
 - automatic exclude: 0
-- effective include: 6
-- effective review: 1
+- effective include: 5
+- effective review: 3
 - effective exclude: 0
 
-## INCLUDE (6)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Hull University Teaching Hospitals NHS Trust
-location: Hull, HU1 3TD
-source: NHS Jobs
-job_id: nhs-5595156
-reason: Approved conservative Hull launch catchment.
----
+## INCLUDE (5)
 
 ---
 action: 
@@ -96,7 +84,31 @@ job_id: jobg8-1939826
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (1)
+## REVIEW (3)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Hull University Teaching Hospitals NHS Trust
+location: Cottingham, HU16 5JQ
+source: NHS Jobs
+job_id: nhs-5614089
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Administrator
+company: Howdens Joinery - Company - Permanent
+location: Goole
+source: JobG8
+job_id: jobg8-1991433
+reason: No approved Hull catchment rule matched; local review required.
+---
 
 ---
 action: 

@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 29
+- Effective included jobs: 30
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 29
+- automatic include: 30
 - automatic review: 1
 - automatic exclude: 14
-- effective include: 29
+- effective include: 30
 - effective review: 1
 - effective exclude: 14
 
-## INCLUDE (29)
+## INCLUDE (30)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Eclectic Recruitment - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-1877925
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Payable Assistant
-company: Pure Resourcing Solutions - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-1907838
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -165,6 +153,18 @@ company: Reed - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-1857177
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Events Coordinator
+company: Reed - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-1882412
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -369,6 +369,18 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-1873312
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Trainee Community Engagement Coordinator - Cambridge CB1
+company: Community Regen - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-1991749
 reason: Approved conservative Cambridge launch catchment.
 ---
 

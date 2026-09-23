@@ -4,7 +4,7 @@
 - Live route: `/plymouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 35
+- automatic include: 9
+- automatic review: 36
 - automatic exclude: 0
-- effective include: 8
-- effective review: 35
+- effective include: 9
+- effective review: 36
 - effective exclude: 0
 
-## INCLUDE (8)
+## INCLUDE (9)
 
 ---
 action: 
@@ -88,6 +88,18 @@ reason: Exact approved Plymouth workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Payroll Officer
+company: Trial Balance Consulting - Agency - Permanent
+location: Plymouth
+source: JobG8
+job_id: jobg8-1882215
+reason: Exact approved Plymouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist / Administrator / First Aid
 company: Plymstock School
 location: Plymouth
@@ -120,7 +132,7 @@ job_id: teaching-vacancies-senior-administrator-st-paul-s-roman-catholic-primary
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (35)
+## REVIEW (36)
 
 ---
 action: 
@@ -258,6 +270,18 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Advisor
+company: Countrywide HQ - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-1991665
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Assistant
 company: Adecco - Agency - Permanent
 location: Exeter
@@ -342,6 +366,18 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: Pay Roll Administrator
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-1991622
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Assistant (Part Time - Temp)
 company: Butler Rose - Agency - Permanent
 location: Devon
@@ -390,11 +426,11 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist/Administrator
-company: Croft Hall Medical Practice
-location: Torquay, TQ2 5UA
-source: NHS Jobs
-job_id: nhs-5552054
+title: Receptionist/Admin Assistant
+company: Acorn by Synergie - Agency - Permanent
+location: Tiverton
+source: JobG8
+job_id: jobg8-1990881
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -402,11 +438,11 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Recruitment Account Co-ordinator
-company: Acorn by Synergie - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-107953534
+title: Receptionist/Administrator
+company: Croft Hall Medical Practice
+location: Torquay, TQ2 5UA
+source: NHS Jobs
+job_id: nhs-5552054
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -455,18 +491,6 @@ company: Stansfield Academy
 location: Exeter
 source: Teaching Vacancies
 job_id: teaching-vacancies-senior-administrator-stansfield-academy-exeter-devon
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Administrator
-company: Royal Devon University Healthcare NHS Foundation Trust
-location: Exeter, EX2 5DW
-source: NHS Jobs
-job_id: nhs-5585701
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 20
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 20
+- automatic include: 19
 - automatic review: 12
 - automatic exclude: 6
-- effective include: 20
+- effective include: 19
 - effective review: 12
 - effective exclude: 6
 
-## INCLUDE (20)
+## INCLUDE (19)
 
 ---
 action: 
@@ -124,11 +124,11 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Clerical Officer
+title: Clinical Administrator
 company: North Cheshire and Mersey NHS Foundation Trust (BCH)
-location: Warrington, WA2 8HE
+location: Warrington, WA5 7YS
 source: NHS Jobs
-job_id: nhs-5586121
+job_id: nhs-5616107
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -237,18 +237,6 @@ company: High Street Surgery
 location: Warrington, WA3 3GS
 source: NHS Jobs
 job_id: nhs-5543509
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Retail Support Administrator
-company: AgeUK - Agency - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-1927990
 reason: Approved conservative Warrington launch catchment.
 ---
 

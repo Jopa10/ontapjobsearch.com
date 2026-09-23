@@ -4,7 +4,7 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
-- automatic review: 10
+- automatic include: 11
+- automatic review: 11
 - automatic exclude: 14
-- effective include: 12
-- effective review: 10
+- effective include: 11
+- effective review: 11
 - effective exclude: 14
 
-## INCLUDE (12)
+## INCLUDE (11)
 
 ---
 action: 
@@ -156,19 +156,7 @@ job_id: teaching-vacancies-student-receptionist-and-pastoral-assistant
 reason: Approved conservative Oxford launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Team Administrator
-company: Oxford Health NHS Trust
-location: Oxford, OX4 1XE
-source: NHS Jobs
-job_id: nhs-5601309
-reason: Approved conservative Oxford launch catchment.
----
-
-## REVIEW (10)
+## REVIEW (11)
 
 ---
 action: 
@@ -215,6 +203,18 @@ company: Bampton CofE Primary School
 location: Bampton
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-bampton-cofe-primary-school-bampton-oxfordshire
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: The Key Medical Practice
+location: Kidlington, OX5 1AP, KIDLINGTON, OX5 1LT
+source: NHS Jobs
+job_id: nhs-5615414
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 16
+- automatic review: 15
 - automatic exclude: 0
 - effective include: 3
-- effective review: 16
+- effective review: 15
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: teaching-vacancies-receptionist-saint-pius-x-catholic-high-school-a-spec
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (16)
+## REVIEW (15)
 
 ---
 action: 
@@ -83,30 +83,6 @@ company: Totley All Saints Church of England Voluntary Aided Primary School
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-assistant-part-time-18-hrs
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrative Assistant
-company: Garland House Surgery
-location: Barnsley, S73 9JX
-source: NHS Jobs
-job_id: nhs-5295793
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Clerical Officer
-company: Sheffield Teaching Hospitals NHS Foundation Trust
-location: Sheffield, S10 2JF
-source: NHS Jobs
-job_id: nhs-5611916
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -174,18 +150,6 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Administrator
-company: Portfolio Payroll - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1956235
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Payroll Officer
 company: Marks Sattin - Agency - Permanent
 location: Yorkshire
@@ -239,6 +203,30 @@ company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-1933458
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Avery Healthcare Group Ltd.
+location: Sheffield, S6 4TF
+source: NHS Jobs
+job_id: nhs-5615634
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Grenoside Surgery
+location: Sheffield, S35 8NX, Sheffield, S6 1LA
+source: NHS Jobs
+job_id: nhs-5614236
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

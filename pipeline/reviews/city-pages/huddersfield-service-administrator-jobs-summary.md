@@ -4,8 +4,8 @@
 - Live route: `/huddersfield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
-- Threshold currently met: yes
+- Effective included jobs: 5
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
+- automatic include: 5
 - automatic review: 32
-- automatic exclude: 42
-- effective include: 6
+- automatic exclude: 45
+- effective include: 5
 - effective review: 32
-- effective exclude: 42
+- effective exclude: 45
 
-## INCLUDE (6)
+## INCLUDE (5)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Spring Grove Junior Infant and Nursery School
 location: Huddersfield
 source: Teaching Vacancies
 job_id: teaching-vacancies-business-support-officer-spring-grove-junior-infant-and-nursery-school-huddersfield-west-yorkshire
-reason: Approved Huddersfield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Support Officer - Part Time
-company: Moorlands Primary School
-location: Huddersfield
-source: Teaching Vacancies
-job_id: teaching-vacancies-business-support-officer-part-time
 reason: Approved Huddersfield catchment.
 ---
 
@@ -482,7 +470,7 @@ job_id: jobg8-1960756
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (42)
+## EXCLUDE (45)
 
 ---
 action: 
@@ -692,6 +680,30 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Client Money Controls Coordinator
+company: Everywhen, part of the Ardonagh Group - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-1991406
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Commercial Claims Handler
+company: Insure Recruitment - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-1889757
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Commercial Claims Handler (Personal Lines Handlers Considered!)
 company: Aston Charles Ltd - Agency - Permanent
 location: Leeds
@@ -776,11 +788,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Early Help Family Support Coordinator (Asylum and Refugee)
+company: Refugee Action - Agency - Permanent
+location: Bradford
+source: JobG8
+job_id: jobg8-1991676
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Finance Assistant with AAT Study Support
 company: Axon Moore Group Ltd - Agency - Permanent
 location: Bradford
 source: JobG8
 job_id: jobg8-1907455
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: HR Onboarding Coordinator
+company: Avencia Consulting - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-1881992
 reason: Separate employment market.
 ---
 
@@ -925,18 +961,6 @@ company: Trust Primary Care Ltd
 location: Bradford, BD7 3JX
 source: NHS Jobs
 job_id: nhs-5611927
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Property Accounts Administrator
-company: IPS Group - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-1916170
 reason: Separate employment market.
 ---
 

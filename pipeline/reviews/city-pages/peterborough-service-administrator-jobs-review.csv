@@ -12,7 +12,6 @@ include,jobg8-1860755,Talent Acquisition Coordinator,LHH Recruitment Solutions -
 include,jobg8-1939450,Talent Acquisition Coordinator,qed legal - Agency - Permanent,Peterborough,JobG8,include,include,Approved conservative Peterborough launch catchment.,peterborough,peterborough-service-administrator-jobs
 review,teaching-vacancies-finance-admin-assistant-priory-junior-school-st-neots-cambridgeshire,Finance / Admin Assistant,Priory Junior School,St Neots,Teaching Vacancies,review,review,No approved Peterborough catchment rule matched; local review required.,fallback,peterborough-service-administrator-jobs
 exclude,jobg8-1877925,Accounts Assistant,Eclectic Recruitment - Agency - Permanent,Cambridge,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
-exclude,jobg8-1907838,Accounts Payable Assistant,Pure Resourcing Solutions - Agency - Permanent,Cambridgeshire,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
 exclude,jobg8-1913056,Accounts Payable Assistant,Pure Resourcing Solutions - Agency - Permanent,Cambridgeshire,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
 exclude,nhs-5611673,Administrator,Cambridgeshire and Peterborough NHS Foundation Trust,"Huntingdon, PE29 6FH",NHS Jobs,exclude,exclude,Separate employment market.,huntingdon,peterborough-service-administrator-jobs
 exclude,nhs-5611937,Administrator,Cambridgeshire and Peterborough NHS Foundation Trust,"Cambridge, CB4 1PR",NHS Jobs,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
@@ -25,6 +24,7 @@ exclude,jobg8-1898131,Contract Credit Controller,Reed - Agency - Permanent,Cambr
 exclude,jobg8-1916025,Credit Controller,Reed - Agency - Permanent,Cambridgeshire,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
 exclude,jobg8-1874671,CRM Officer,Proactive Appointments - Agency - Permanent,Cambridgeshire,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
 exclude,jobg8-1857177,Digital Marketing Specialist,Reed - Agency - Permanent,Cambridgeshire,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
+exclude,jobg8-1882412,Events Coordinator,Reed - Agency - Permanent,Cambridge,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
 exclude,jobg8-1870766,Finance Administrator,Pure Resourcing Solutions - Agency - Permanent,Cambridgeshire,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
 exclude,jobg8-1859976,Finance Assistant,Pure Resourcing Solutions - Agency - Permanent,Cambridge,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
 exclude,jobg8-1885544,Finance Officer,Page Group - Agency - Permanent,Cambridge,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
@@ -43,3 +43,4 @@ exclude,jobg8-1873139,School Receptionist Administrator - Cambridge,Randstad Edu
 exclude,teaching-vacancies-senior-office-administrator-pathfinder-cofe-primary-school-cambridge-cambridgeshire,Senior Office Administrator,Pathfinder CofE Primary School,Cambridge,Teaching Vacancies,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
 exclude,jobg8-1875937,Service Advisor,Perfect Placement Uk Ltd - Agency - Permanent,Cambridge,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
 exclude,jobg8-1873312,Temporary Accounts Payable Clerk,Hays Specialist Recruitment Limited - Agency - Permanent,Cambridgeshire,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
+exclude,jobg8-1991749,Trainee Community Engagement Coordinator - Cambridge CB1,Community Regen - Agency - Permanent,Cambridge,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs

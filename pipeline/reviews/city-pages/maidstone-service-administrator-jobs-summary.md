@@ -4,7 +4,7 @@
 - Live route: `/maidstone/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 48
+- automatic include: 5
+- automatic review: 56
 - automatic exclude: 0
-- effective include: 7
-- effective review: 48
+- effective include: 5
+- effective review: 56
 - effective exclude: 0
 
-## INCLUDE (7)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant
-company: St Augustine Academy
-location: Maidstone
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-st-augustine-academy
-reason: Exact approved Maidstone workplace.
----
+## INCLUDE (5)
 
 ---
 action: 
@@ -45,18 +33,6 @@ company: Kent and Medway Mental Health NHS Trust
 location: Maidstone, ME16 9PH
 source: NHS Jobs
 job_id: nhs-5608655
-reason: Exact approved Maidstone workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Attendance Administrator
-company: Maidstone Grammar School for Girls
-location: Maidstone
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-administrator-2f3d689b-f206-45e5-991f-9a3a5bcff860
 reason: Exact approved Maidstone workplace.
 ---
 
@@ -108,7 +84,7 @@ job_id: jobg8-1927434
 reason: Exact approved Maidstone workplace.
 ---
 
-## REVIEW (48)
+## REVIEW (56)
 
 ---
 action: 
@@ -119,18 +95,6 @@ company: Recruitment Solutions - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-1947842
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Cobb & Jones Recruitment Limited - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-1958067
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -199,18 +163,6 @@ action:
 decision: review
 automatic_decision: review
 title: Administration Assistant
-company: Kent and Medway Mental Health NHS Trust
-location: Sittingbourne, ME10 4HG
-source: NHS Jobs
-job_id: nhs-5601161
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administration Assistant
 company: Northgate Medical Practice
 location: Canterbury, CT1 1WL
 source: NHS Jobs
@@ -247,22 +199,10 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: HCRG Care Group
-location: Kent, DA1 1SA
+company: Invicta Health CIC
+location: Ramsgate, CT11 8AD
 source: NHS Jobs
-job_id: nhs-5587232
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Kent and Medway Mental Health NHS Trust
-location: Sevenoaks, TN13 3PG
-source: NHS Jobs
-job_id: nhs-5598443
+job_id: nhs-5615644
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -311,6 +251,54 @@ company: Pro Talent - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-1897444
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Conveyancing Legal Secretary
+company: G2 Legal Limited - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-1927463
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Conveyancing Legal Secretary
+company: Office Angels - Agency - Permanent
+location: Gillingham
+source: JobG8
+job_id: jobg8-1877879
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Court of Protection Paralegal
+company: Recruitment Solutions - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-1957722
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Court of Protection Paralegal - Competitive salary - Full or Part time
+company: qed legal - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-1881213
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -402,6 +390,42 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Legal Assistant - Commercial Property
+company: TN Recruits - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-1950202
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Secretary - Conveyancing
+company: Recruitment Solutions - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-1912987
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Secretary Private Client - Ashford
+company: TN Recruits - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-1945870
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Lettings Coordinator
 company: Reed - Agency - Permanent
 location: Kent
@@ -455,6 +479,18 @@ company: Mission Aviation Fellowship UK - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-1928026
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Executive
+company: Constant Recruitment Ltd - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-1886011
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -546,6 +582,18 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Private Client Paralegal - Support towards qualification - Hybrid working
+company: qed legal - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-1855593
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Purchase Ledger Clerk
 company: Michael Page Finance - Agency - Permanent
 location: Hythe
@@ -563,6 +611,42 @@ company: Michael Page Finance - Agency - Permanent
 location: Sevenoaks
 source: JobG8
 job_id: jobg8-1939823
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Quality & Customer Support Coordinator
+company: Huntress - Agency - Permanent
+location: Sittingbourne
+source: JobG8
+job_id: jobg8-1831356
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Dr C.J. Shimmins & Partners
+location: Dartford, DA1 1QY
+source: NHS Jobs
+job_id: nhs-5615926
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
+company: People First Personnel - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-1889334
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -635,18 +719,6 @@ company: Ernest Gordon Recruitment - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-107855886
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Shipping / Logistic Coordinator
-company: Manpower - Agency - Temporary
-location: Ashford
-source: JobG8
-job_id: jobg8-108011495
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 

@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 11
 - automatic review: 1
-- automatic exclude: 32
+- automatic exclude: 33
 - effective include: 11
 - effective review: 1
-- effective exclude: 32
+- effective exclude: 33
 
 ## INCLUDE (11)
 
@@ -170,7 +170,7 @@ job_id: teaching-vacancies-finance-admin-assistant-priory-junior-school-st-neots
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (32)
+## EXCLUDE (33)
 
 ---
 action: 
@@ -181,18 +181,6 @@ company: Eclectic Recruitment - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-1877925
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Payable Assistant
-company: Pure Resourcing Solutions - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-1907838
 reason: Separate employment market.
 ---
 
@@ -337,6 +325,18 @@ company: Reed - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-1857177
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Events Coordinator
+company: Reed - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-1882412
 reason: Separate employment market.
 ---
 
@@ -553,5 +553,17 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-1873312
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Trainee Community Engagement Coordinator - Cambridge CB1
+company: Community Regen - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-1991749
 reason: Separate employment market.
 ---

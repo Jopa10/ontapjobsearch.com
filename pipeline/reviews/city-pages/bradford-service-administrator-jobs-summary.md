@@ -4,7 +4,7 @@
 - Live route: `/bradford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
+- automatic include: 11
 - automatic review: 32
-- automatic exclude: 38
-- effective include: 10
+- automatic exclude: 39
+- effective include: 11
 - effective review: 32
-- effective exclude: 38
+- effective exclude: 39
 
-## INCLUDE (10)
+## INCLUDE (11)
 
 ---
 action: 
@@ -69,6 +69,18 @@ company: Bradford Diocesan Academies Trust
 location: Bradford
 source: Teaching Vacancies
 job_id: teaching-vacancies-deputy-pa-receptionist-bradford-diocesan-academies-trust-bradford-not-recorded
+reason: Approved Bradford catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Early Help Family Support Coordinator (Asylum and Refugee)
+company: Refugee Action - Agency - Permanent
+location: Bradford
+source: JobG8
+job_id: jobg8-1991676
 reason: Approved Bradford catchment.
 ---
 
@@ -530,7 +542,7 @@ job_id: jobg8-1960756
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (38)
+## EXCLUDE (39)
 
 ---
 action: 
@@ -656,18 +668,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Business Support Officer - Part Time
-company: Moorlands Primary School
-location: Huddersfield
-source: Teaching Vacancies
-job_id: teaching-vacancies-business-support-officer-part-time
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Casualty Claims Handler
 company: Adjusting Appointments Limited - Agency - Permanent
 location: Leeds
@@ -721,6 +721,30 @@ company: Leeds Teaching Hospitals
 location: Leeds, LS9 7TF
 source: NHS Jobs
 job_id: nhs-5594416
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Client Money Controls Coordinator
+company: Everywhen, part of the Ardonagh Group - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-1991406
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Commercial Claims Handler
+company: Insure Recruitment - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-1889757
 reason: Separate employment market.
 ---
 
@@ -836,6 +860,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: HR Onboarding Coordinator
+company: Avencia Consulting - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-1881992
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Interim OTC Cash Office Assistant
 company: Marks Sattin - Agency - Permanent
 location: Leeds
@@ -925,18 +961,6 @@ company: Warrengate Medical Centre
 location: Wakefield, WF1 4PR
 source: NHS Jobs
 job_id: nhs-5056947
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Property Accounts Administrator
-company: IPS Group - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-1916170
 reason: Separate employment market.
 ---
 

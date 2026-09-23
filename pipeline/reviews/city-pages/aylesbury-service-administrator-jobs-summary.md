@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 34
+- automatic review: 31
 - automatic exclude: 0
 - effective include: 2
-- effective review: 34
+- effective review: 31
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: teaching-vacancies-school-administrator-chiltern-way-academy-trust
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (34)
+## REVIEW (31)
 
 ---
 action: 
@@ -71,30 +71,6 @@ company: Job Board Direct - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-1959769
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Bucks and Berks Recruitment - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-1875924
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: KennedyPearce Consulting - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-1868169
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -155,18 +131,6 @@ company: Foreign & Commonwealth Office - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-1956753
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator - Prison Education - HMP Downview
-company: Milton Keynes College
-location: Milton Keynes
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-prison-education-hmp-downview
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -270,6 +234,18 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Advisor - Property Management
+company: Blundells - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-1987458
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: E-commerce Merchandise Lead
 company: FS1 Recruitment - Marketing, Creative, Digital, Finance, HR, Sales, Admin - Agency - Permanent
 location: Milton Keynes
@@ -318,18 +294,6 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: HR Operations Coordinator
-company: wild recruitment - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-1856610
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Junior Accounts Receivable Assistant
 company: Berry Recruitment - Agency - Permanent
 location: Buckinghamshire
@@ -366,11 +330,11 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Medical Events Project Co-ordinator
-company: Bucks and Berks Recruitment - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-1907611
+title: Medical Receptionist
+company: Primary Care Management Solutions Ltd
+location: High Wycombe, HP135DN
+source: NHS Jobs
+job_id: nhs-5558801
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -378,11 +342,11 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Medical Receptionist
-company: Primary Care Management Solutions Ltd
-location: High Wycombe, HP135DN
-source: NHS Jobs
-job_id: nhs-5558801
+title: Part Time Payroll & HR
+company: Michael Page Finance - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-1991661
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -450,11 +414,11 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Single Point of Access Administrator
-company: Central and North West London NHS Foundation Trust
-location: Milton Keynes, MK7 6AA
-source: NHS Jobs
-job_id: nhs-5600810
+title: Sales ledger/billings
+company: Robert Walters - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-1882176
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

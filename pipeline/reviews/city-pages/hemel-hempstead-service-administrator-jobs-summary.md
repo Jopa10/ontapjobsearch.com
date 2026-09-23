@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 33
+- automatic review: 35
 - automatic exclude: 0
 - effective include: 2
-- effective review: 33
+- effective review: 35
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: jobg8-1877352
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
-## REVIEW (33)
+## REVIEW (35)
 
 ---
 action: 
@@ -307,6 +307,18 @@ action:
 decision: review
 automatic_decision: review
 title: Finance Assistant
+company: Huntress - Agency - Permanent
+location: Hertford
+source: JobG8
+job_id: jobg8-1856029
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
 company: Investigo - Agency - Permanent
 location: Hertfordshire
 source: JobG8
@@ -443,6 +455,18 @@ company: Hertfordshire Partnership University NHS Foundation Trust
 location: Watford, WD18 0JP
 source: NHS Jobs
 job_id: nhs-5607673
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Telesales Executive
+company: SCALERS GROUP LIMITED - Agency - Permanent
+location: Ware
+source: JobG8
+job_id: jobg8-108005213
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

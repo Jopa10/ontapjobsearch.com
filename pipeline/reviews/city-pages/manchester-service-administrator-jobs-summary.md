@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 32
+- Effective included jobs: 30
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 32
-- automatic review: 22
+- automatic include: 30
+- automatic review: 38
 - automatic exclude: 1
-- effective include: 32
-- effective review: 22
+- effective include: 30
+- effective review: 38
 - effective exclude: 1
 
-## INCLUDE (32)
+## INCLUDE (30)
 
 ---
 action: 
@@ -124,18 +124,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Company Secretary (Interim)
-company: Robert Walters - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-1884404
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Corporate Insolvency Administrator
 company: Imperium Financial Recruitment - Agency - Permanent
 location: Manchester
@@ -165,18 +153,6 @@ company: MPJ Recruitment Ltd - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-1868529
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Services Administrator
-company: AJ Bell - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-1939328
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -408,7 +384,7 @@ job_id: teaching-vacancies-senior-administrator-to-the-senior-leadership-team
 reason: Approved conservative Manchester launch catchment.
 ---
 
-## REVIEW (22)
+## REVIEW (38)
 
 ---
 action: 
@@ -431,6 +407,30 @@ company: Gem Partnership Ltd - Agency - Permanent
 location: Lancashire
 source: JobG8
 job_id: jobg8-1950128
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business / Law / Finance Graduate
+company: Express Solicitors - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-1900293
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Children Law Paralegal - Manchester
+company: Duncan Lewis Solictors - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-1900140
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -462,6 +462,18 @@ reason: No approved Manchester catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Commercial Litigation Paralegal
+company: CRA Consulting - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-1870638
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Communications Officer
 company: Consula Group LTD - Agency - Permanent
 location: Lancashire
@@ -479,6 +491,30 @@ company: Black Cherry Recruitment Ltd - Agency - Permanent
 location: Lancashire
 source: JobG8
 job_id: jobg8-1949868
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Content Creator
+company: Zachary Daniels - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-1881613
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Court of Protection Paralegal
+company: G2 Legal Limited - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-1906421
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -558,6 +594,18 @@ reason: No approved Manchester catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Employers Liability and Public Liability Paralegal
+company: Simpson Millar LLP Solicitors - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-1852648
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: European Credit Controller
 company: CWC Recruitment Ltd - Agency - Permanent
 location: Lancashire
@@ -582,11 +630,107 @@ reason: No approved Manchester catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Head of AI/SEO
+company: Sphere Digital Recruitment - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-1883266
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Housing Paralegal
+company: G2 Legal Limited - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-1867969
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Administrator/ Paralegal
+company: CRA Consulting - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-1945005
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Litigation Paralegal
+company: The Portfolio Group - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-1939305
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Multi Track RTA Paralegal
+company: Simpson Millar LLP Solicitors - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-1852638
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Paid Media and Social Content Creator
+company: Standard 8 - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-1991873
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Assistant
 company: Totum - Agency - Permanent
 location: Lancashire
 source: JobG8
 job_id: jobg8-1892493
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Private Client Paralegal
+company: Revolution Recruitment Resources Ltd - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-1858318
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Public Law Paralegal
+company: GEMINI RECRUITMENT SERVICES LTD - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-1856868
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -611,6 +755,18 @@ company: Robert Walters - Agency - Permanent
 location: Lancashire
 source: JobG8
 job_id: jobg8-1891696
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Remote Conveyancing Paralegal
+company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-1884406
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -671,6 +827,18 @@ company: Adria Solutions - Agency - Permanent
 location: Lancashire
 source: JobG8
 job_id: jobg8-1898599
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Legal Secretary
+company: Office Angels - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-1897508
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 

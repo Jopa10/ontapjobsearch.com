@@ -4,7 +4,7 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 7
-- automatic exclude: 3
-- effective include: 8
-- effective review: 7
-- effective exclude: 3
+- automatic include: 9
+- automatic review: 8
+- automatic exclude: 4
+- effective include: 9
+- effective review: 8
+- effective exclude: 4
 
-## INCLUDE (8)
+## INCLUDE (9)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Thema Healthcare - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-1958886
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Male Support Worker
+company: Avenues Group - Company - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-455939784746781900837341
 reason: Approved Southampton catchment.
 ---
 
@@ -120,7 +132,7 @@ job_id: jobg8-1856912
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (7)
+## REVIEW (8)
 
 ---
 action: 
@@ -150,12 +162,12 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Day Opportunities Support Worker (HCC Care YA)
-company: Hampshire County Council - Company - Permanent
-location: Gosport
+title: Female Support Worker
+company: Avenues Group - Company - Permanent
+location: Tadley
 source: JobG8
-job_id: jobg8-1401784915
-reason: Broad location; review before city inclusion.
+job_id: jobg8-265253118665136537637340
+reason: No approved Southampton catchment rule matched; local review required.
 ---
 
 ---
@@ -164,9 +176,9 @@ decision: review
 automatic_decision: review
 title: Female Support Worker
 company: Avenues Group - Company - Permanent
-location: Tadley
+location: Petersfield
 source: JobG8
-job_id: jobg8-265253118665136537637340
+job_id: jobg8-801816236128835993637340
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
@@ -198,6 +210,18 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Support Worker
+company: Avenues Group - Company - Permanent
+location: Tadley
+source: JobG8
+job_id: jobg8-635330054620761292837340
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Support Worker (Out of Hours)
 company: Hampshire County Council - Company - Permanent
 location: Havant
@@ -206,7 +230,7 @@ job_id: jobg8-1401784888
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (3)
+## EXCLUDE (4)
 
 ---
 action: 
@@ -217,6 +241,18 @@ company: Prospero Teaching - Agency - Permanent
 location: Eastleigh
 source: JobG8
 job_id: jobg8-1875238
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Male Support Worker
+company: Avenues Group - Company - Permanent
+location: Fareham
+source: JobG8
+job_id: jobg8-455939784746781900837340
 reason: Separate employment market.
 ---
 

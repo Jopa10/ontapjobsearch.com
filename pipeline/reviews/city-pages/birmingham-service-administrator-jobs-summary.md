@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 33
+- Effective included jobs: 34
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 33
-- automatic review: 7
-- automatic exclude: 6
-- effective include: 33
-- effective review: 7
-- effective exclude: 6
+- automatic include: 34
+- automatic review: 8
+- automatic exclude: 5
+- effective include: 34
+- effective review: 8
+- effective exclude: 5
 
-## INCLUDE (33)
+## INCLUDE (34)
 
 ---
 action: 
@@ -112,18 +112,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Attendance Officer (2 roles)
-company: James Brindley School
-location: Birmingham
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-2-roles
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Bookkeeper
 company: Gleeson Recruitment Group - Agency - Permanent
 location: Birmingham
@@ -201,6 +189,18 @@ company: Australasian Recruitment Company - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-1867674
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Administrator
+company: Mitchell Adam - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-1855882
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -341,6 +341,18 @@ action:
 decision: include
 automatic_decision: include
 title: Paralegal
+company: Fisher German LLP - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-1881809
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Paralegal
 company: Kingsgate Recruitment Ltd - Agency - Permanent
 location: Birmingham
 source: JobG8
@@ -420,7 +432,7 @@ job_id: jobg8-1899929
 reason: Approved conservative Birmingham launch catchment.
 ---
 
-## REVIEW (7)
+## REVIEW (8)
 
 ---
 action: 
@@ -474,6 +486,18 @@ reason: Broad regional location; review before Birmingham inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Digital Marketing Specialist
+company: Gleeson Recruitment Group - Agency - Permanent
+location: West Midlands
+source: JobG8
+job_id: jobg8-1882104
+reason: Broad regional location; review before Birmingham inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Immediate Start Accounts Payable Assistant
 company: Mitchell Adam - Agency - Permanent
 location: West Midlands
@@ -506,7 +530,7 @@ job_id: teaching-vacancies-senior-administrator-bishop-vesey-s-grammar-school
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
-## EXCLUDE (6)
+## EXCLUDE (5)
 
 ---
 action: 
@@ -553,18 +577,6 @@ company: Mitchell Adam - Agency - Permanent
 location: Solihull
 source: JobG8
 job_id: jobg8-1873246
-reason: Separate exact-city market at launch.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Learning & Development Coordinator
-company: Whale Tankers - Agency - Permanent
-location: Solihull
-source: JobG8
-job_id: jobg8-1912504
 reason: Separate exact-city market at launch.
 ---
 
