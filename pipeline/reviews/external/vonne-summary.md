@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-09-22
-review_fingerprint: 78791e69ac0ab657e152e33453a9583a2d8534297fdee2052b3ff410a0c1e145
+review_date: 2026-09-23
+review_fingerprint: ba632aff3a74238b54e3cbc311468da8d9a4bc2969dc1024dd0e644d7072d005
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,26 +10,26 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-09-22T12:57:34+01:00
+Run generated: 2026-09-23T12:59:05+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 351
+JobG8 comparison rows: 354
 Approved NEJobs comparison rows: 3
 
 ## Funnel
 - VONNE listings read: 15
-- Detail-page candidates: 0
-- Detail pages fetched successfully: 0
+- Detail-page candidates: 1
+- Detail pages fetched successfully: 1
 - Detail failures/listing fallbacks: 0
-- Obvious hard passes not detail-fetched: 15
-- Tees Valley explicitly excluded: 3
+- Obvious hard passes not detail-fetched: 14
+- Tees Valley explicitly excluded: 4
 - Outside or unmapped geography excluded: 1
 - Generic/derived geography rows requiring review: 1
-- Retained target candidates: 11
+- Retained target candidates: 10
 
 ## Outcomes
 - HC: 0
 - POSS: 2
-- HARD_PASS: 9
+- HARD_PASS: 8
 - Final selected after remembered/manual actions: 0
 - Final POSS awaiting decision: 0
 - Manually excluded: 2
@@ -74,15 +74,14 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173448
 
 ## HARD_PASS
 
-- [Chief Executive Officer (CEO)](https://www.vonne.org.uk/vonne-jobs-details?cid=173422) — out-of-scope VONNE occupation.
 - [Communications & Campaigns Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173449) — confirmed JobG8 duplicate.
 - [Domestic Abuse Counsellor](https://www.vonne.org.uk/vonne-jobs-details?cid=173427) — insufficient service-admin evidence.
 - [Employability Advisor](https://www.vonne.org.uk/vonne-jobs-details?cid=173454) — insufficient service-admin evidence.
 - [Employability Advisor](https://www.vonne.org.uk/vonne-jobs-details?cid=173453) — insufficient service-admin evidence.
 - [Family Practitioner](https://www.vonne.org.uk/vonne-jobs-details?cid=173441) — out-of-scope VONNE occupation.
-- [Language & Learning Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173423) — insufficient service-admin evidence.
 - [Play & Youth Practitioner- Part-Time and Casual](https://www.vonne.org.uk/vonne-jobs-details?cid=173440) — out-of-scope VONNE occupation.
 - [Recovery Navigator](https://www.vonne.org.uk/vonne-jobs-details?cid=173443) — insufficient service-admin evidence.
+- [Wellbeing Facilitator](https://www.vonne.org.uk/vonne-jobs-details?cid=173458) — insufficient service-admin evidence.
 
 ## Safety boundary
 - The script writes CSV and Markdown review outputs only.
