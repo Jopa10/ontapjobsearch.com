@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-09-22
-review_fingerprint: 2d8ec47c5b032645213a6d27163c90ded5f97cfd80bcbb6db6959f71450b463e
-routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
+review_date: 2026-09-23
+review_fingerprint: 67bc64f04b7de97f26ee2f6d98699398c1e44152bc6f90d3b78a0bc7dd3ef07e
+routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 34
-- Selected: 18
-- POSS awaiting decision: 2
+- Records: 33
+- Selected: 17
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 14
+- Hard pass: 13
 
 ## SELECTED
 
@@ -248,21 +248,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-principal-7
 
 ---
 action: 
-SELECTED | Yorkshire - West | Knottingley, WF11 0EP | £25,614.00 - £25,614.00 Annually (Actual) Grade B Point 3 (£25,614 per annum) | Receptionist (7475)
-employer: Delta Academies Trust
-closing_date: 2026-09-23T23:59:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: eb65969447ae337d7956c089401c2a385c90387334aeda427c36e1ce39ecac1a
-source: Teaching Vacancies
-source_job_id: receptionist-7475
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-7475
----
-
----
-action: 
 SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS14 6HA | £25,454.00 - £26,267.00 Annually (Actual) | Receptionist and Administration Assistant
 employer: Leeds East Academy
 closing_date: 2026-09-28T23:59:00+01:00
@@ -323,6 +308,21 @@ source_job_id: deputy-student-services-manager-attendance-lead
 source_url: https://teaching-vacancies.service.gov.uk/jobs/deputy-student-services-manager-attendance-lead
 ---
 
+---
+action: 
+POSS | Yorkshire - West | Knottingley, Yorkshire and the Humber, WF11 0PJ | £30,515.00 - £33,119.00 Annually (FTE) Grade F Points 14 to 19 (£30,515 to £33,119 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £13,893.91. | SEN Support Officer (7557)
+employer: Simpson's Lane Academy
+closing_date: 2026-10-07T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: f39a8610da98a912cf8b3010e76a5935a918d882eb755ea3528bfae3e361c744
+source: Teaching Vacancies
+source_job_id: sen-support-officer-7557
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-support-officer-7557
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -330,8 +330,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/deputy-student-servic
 ## HARD_PASS
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-batley-girls-high-school-batley-west-yorkshire) — Insufficient admin/service evidence.
-- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-the-brooksbank-school-elland-west-yorkshire) — Insufficient admin/service evidence.
-- [Assistant Senco](https://teaching-vacancies.service.gov.uk/jobs/assistant-senco-fdb10c11-75c5-458b-8d4c-5aa13619d9cc) — Insufficient admin/service evidence.
+- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-buttershaw-business-enterprise-college-academy) — Manager title salary ceiling £37,655 is not below £28,000.
 - [Data, MIS and Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/data-mis-and-admissions-manager-batley-grammar-school-batley-west-yorkshire) — Manager title salary ceiling £38,267 is not below £28,000.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.
 - [Exam Invigilators](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilators-beckfoot-trust) — Insufficient admin/service evidence.
@@ -342,7 +341,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/deputy-student-servic
 - [Senior Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-altofts-junior-academy) — Insufficient admin/service evidence.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-linthwaite-clough-primary-school) — Missing salary or pay scale.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-impact-education-multi-academy-trust) — Insufficient admin/service evidence.
-- [Trust Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-administration-assistant-waterton-academy-trust) — Insufficient admin/service evidence.
+- [Work Placement Coordinator](https://teaching-vacancies.service.gov.uk/jobs/work-placement-coordinator-outwood-grange-academy) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

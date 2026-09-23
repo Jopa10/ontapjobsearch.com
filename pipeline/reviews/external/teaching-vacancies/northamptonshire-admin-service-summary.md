@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-09-22
+review_date: 2026-09-23
 review_fingerprint: c27df06f89ea6248d8e78943b8a767f5b8b6875024272e0332009ee700ae0e41
-routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
+routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 10
 - Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -106,12 +106,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ## HARD_PASS
 
-- [Exams Office Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-office-manager-bishop-stopford-school) — Manager title salary ceiling £33,699 is not below £28,000.
-- [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-sir-christopher-hatton-academy) — Insufficient admin/service evidence.
+- [Business Partner](https://teaching-vacancies.service.gov.uk/jobs/business-partner-st-james-infant-school) — Insufficient admin/service evidence.
 - [Finance and HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-and-hr-assistant) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-gloucester-nursery-school) — Manager title salary ceiling £38,510 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-south-end-infant-school) — Manager title salary ceiling £37,280 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-woodland-view-primary-school-northampton-northamptonshire) — Manager title salary ceiling £48,738 is not below £28,000.
-- [St James Infant and Pre School Business Partner](https://teaching-vacancies.service.gov.uk/jobs/st-james-infant-and-pre-school-business-partner-inmat-northampton-not-recorded) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

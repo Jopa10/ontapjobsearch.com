@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-09-22
-review_fingerprint: 8411a58d126fdcca87721f3729f9f7fe3a85d010bdfc6e65d0eadcbbdb5883a1
-routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
+review_date: 2026-09-23
+review_fingerprint: add11669a9bdc3b2bcf38fb6fc60a88bba27c34e20723f5df29b95ddeaad25ba
+routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 5
+- Records: 18
+- Selected: 6
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 8
 
 ## SELECTED
 
@@ -96,6 +96,21 @@ source_job_id: pa-to-principal-the-queen-elizabeth-academy-atherstone-warwickshi
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-the-queen-elizabeth-academy-atherstone-warwickshire
 ---
 
+---
+action: 
+SELECTED | West Midlands - Coventry & Warwickshire | Shipston-on-Stour, West Midlands, CV36 4DY | Grade D £13.28 per hour £25,614 to £26,016 pro rata (£21,908 to £22,252 actual salary) | Receptionist/Administrator
+employer: Shipston High School
+closing_date: 2026-10-05T09:00:00+01:00
+reason: Clear admin/service title: administrator, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d4bcc6fbd136d69ab3ac9b036f165cf9f3430405a5290f5b8358b2e0e3aab19d
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-shipston-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-shipston-high-school
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -169,7 +184,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer
 - [EHCP Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/ehcp-co-ordinator-discovery-academy) — Insufficient admin/service evidence.
 - [Facilities Apprentice](https://teaching-vacancies.service.gov.uk/jobs/facilities-apprentice-f2150388-8c53-4434-b5c5-9e0ddc54626d) — Insufficient admin/service evidence.
 - [MAT Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/mat-finance-officer-sidney-stringer-multi-academy-trust-coventry-not-recorded) — Insufficient admin/service evidence.
+- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-finham-park-school-coventry-west-midlands) — Manager title salary ceiling £54,143 is not below £28,000.
 - [PE Sports and Personal Development Assistant](https://teaching-vacancies.service.gov.uk/jobs/pe-sports-and-personal-development-assistant) — Insufficient admin/service evidence.
+- [Technical Services Team Assistant](https://teaching-vacancies.service.gov.uk/jobs/technical-services-team-assistant) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

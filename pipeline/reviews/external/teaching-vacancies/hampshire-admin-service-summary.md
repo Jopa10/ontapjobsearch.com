@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-09-22
+review_date: 2026-09-23
 review_fingerprint: c97f5e6e2f6cebbb1bd91a70f0ac3eec902886e602c1a1aaf10fe4cb3937d279
-routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
+routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 10
 - Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -91,6 +91,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to
 
 ## HARD_PASS
 
+- [Administration & Reception Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-reception-assistant-cove-school) — Missing salary or pay scale.
 - [Apprentice Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/apprentice-admin-assistant-penbridge-junior-school) — Missing salary or pay scale.
 - [Cover Co-ordinator and Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-co-ordinator-and-cover-supervisor) — Insufficient admin/service evidence.
 - [Deputy School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/deputy-school-business-manager-crestwood-community-school) — Manager title salary ceiling £46,565 is not below £28,000.

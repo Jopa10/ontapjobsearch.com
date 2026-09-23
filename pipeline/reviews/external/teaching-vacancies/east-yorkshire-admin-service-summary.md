@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - East
 
-review_date: 2026-09-22
-review_fingerprint: 2ef3a66ccf331af55f84cc731cdf91b41982a724f39de989f02a6bf8070bf086
-routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
+review_date: 2026-09-23
+review_fingerprint: c5a4bd9b681e301c361988c75ad35e40144caedd6d0583cab516d9009287c45a
+routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
 ontap_region: Yorkshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -14,27 +14,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 2
-- Selected: 2
-- POSS awaiting decision: 0
+- Selected: 1
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 0
 
 ## SELECTED
-
----
-action: 
-SELECTED | Yorkshire - East | Hull, Yorkshire and the Humber, HU9 3HJ | £25,614.00 - £26,427.00 Annually (FTE) | Receptionist Administrator
-employer: Alderman Cogan's Church of England Primary Academy
-closing_date: 2026-09-23T12:00:00+01:00
-reason: Clear admin/service title: administrator, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6ad83349d2f6830b92a4776ea5b40b48da1fcf9de947aa834de5a5c8f56e5cd2
-source: Teaching Vacancies
-source_job_id: receptionist-administrator-8983c99a-ea81-4d03-945c-21a86c87cb36
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-8983c99a-ea81-4d03-945c-21a86c87cb36
----
 
 ---
 action: 
@@ -53,7 +38,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-li
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Yorkshire - East | Hull, Yorkshire and the Humber, HU3 1UP | £30,515.00 - £33,119.00 Annually (FTE) Grade F Points 14 to 19 (£30,515 to £33,119 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary for this role starts at £26,362.80 | Data Officer (7483)
+employer: Hull Trinity House Academy
+closing_date: 2026-10-06T23:59:00+01:00
+reason: Borderline school administration title: data officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7b590933e8102ca5373320828c0921803d0e7c58c84faf3794819c9f38826ca1
+source: Teaching Vacancies
+source_job_id: data-officer-7483
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-7483
+---
 
 ## EXCLUDED BY REVIEW
 

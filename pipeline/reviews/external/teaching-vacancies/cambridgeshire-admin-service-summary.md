@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-09-22
+review_date: 2026-09-23
 review_fingerprint: f038bbe229a0a23d4e7393b33c029127c02c730ab5b504e0bb3f84807e090d8f
-routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
+routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-09-22
-review_fingerprint: 556a293779aaec5ce161469904bb173637ed41f58dd63ae8077aa2cc3462ce63
-routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
+review_date: 2026-09-23
+review_fingerprint: 2f5be229604eb244d3ebe53b8c8857ea53e34d7839d8bca1ee251f2c88ee1c13
+routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 58
-- Selected: 17
-- POSS awaiting decision: 4
+- Records: 64
+- Selected: 20
+- POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 37
+- Hard pass: 39
 
 ## SELECTED
 
@@ -143,6 +143,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-admin-assista
 
 ---
 action: 
+SELECTED | London | London, London, N16 0QP | £33,036 - £34,488 | Finance and Administrative Assistant
+employer: Grazebrook Primary School
+closing_date: 2026-09-25T12:00:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 92696ee547b6683c44201cdc66df5f253057a64cb7d10504c932d06d4068ea92
+source: Teaching Vacancies
+source_job_id: finance-and-administrative-assistant-grazebrook-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-and-administrative-assistant-grazebrook-primary-school
+---
+
+---
+action: 
 SELECTED | London | London, London, N4 1SY | £33,036 - £34,488 | Finance and Administrative Assistant
 employer: Woodberry Down Community Primary School
 closing_date: 2026-09-30T12:00:00+01:00
@@ -154,6 +169,21 @@ factual_fingerprint: 838c285fb9130614f7dca2a03b159d941c4da09ba31c63cfce27e3c4fd8
 source: Teaching Vacancies
 source_job_id: finance-and-administrative-assistant-woodberry-down-community-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-and-administrative-assistant-woodberry-down-community-primary-school
+---
+
+---
+action: 
+SELECTED | London | New Malden, KT3 6NU | £28,521.00 - £33,987.00 Annually (FTE) | Human Resources Administrator
+employer: Helix Learning Trust
+closing_date: 2026-10-16T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f43652e4f8b9b5a6deb4e7ac3524512526a106730822b047ed1fec8980bffbd0
+source: Teaching Vacancies
+source_job_id: human-resources-administrator-helix-learning-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/human-resources-administrator-helix-learning-trust
 ---
 
 ---
@@ -188,17 +218,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/maths-hub-executive-a
 
 ---
 action: 
-SELECTED | London | Dagenham, London, RM9 5QT | £16,149.00 Annually (Actual) Scale 4 point 7-10 | Partnership London SCITT Administrator
-employer: The Sydney Russell School
-closing_date: 2026-09-23T08:00:00+01:00
-reason: Clear admin/service title: administrator
+SELECTED | London | Borehamwood, East of England, WD6 1HL | £13.37 Hourly Plus London Fringe Allowance | Part-Time Receptionist
+employer: Yavneh College
+closing_date: 2026-10-05T09:00:00+01:00
+reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 301901ddd97b84fc39a145293b658c758257f1c27e2949a23b3b2a03d43e0a52
+factual_fingerprint: d0a50f505b335fe98e4e01f254acf5d6dec15a64b46059c7a9f54529efa5c255
 source: Teaching Vacancies
-source_job_id: partnership-london-scitt-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/partnership-london-scitt-administrator
+source_job_id: part-time-receptionist-yavneh-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-receptionist-yavneh-college
 ---
 
 ---
@@ -229,6 +259,21 @@ factual_fingerprint: 58a4d4de4a3a10b9a568a4a2351bc33594e378eace8741768719448bb20
 source: Teaching Vacancies
 source_job_id: receptionist-admin-assistant-st-paul-s-cofe-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-st-paul-s-cofe-primary-school
+---
+
+---
+action: 
+SELECTED | London | London, London, NW8 0NW | £31,639.00 - £33,044.00 Annually (Actual) OAT Grade 4 Inner London, SCP 11 - 14 | Receptionist at OBA Satellite Provision at Avondale Park Primary School
+employer: Ormiston Beachcroft Academy
+closing_date: 2026-10-08T12:00:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 91ca9009d6a75bfea4d7e27c3e868191c67309c2d93e63287b28e01a286e42e4
+source: Teaching Vacancies
+source_job_id: receptionist-at-oba-satellite-provision-at-avondale-park-primary-school-ormiston-beachcroft-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-at-oba-satellite-provision-at-avondale-park-primary-school-ormiston-beachcroft-academy
 ---
 
 ---
@@ -277,6 +322,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-data-administr
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | London | London, London, NW6 7BH | £29,856.00 Annually (FTE) GLPC SC3 SP6 - Actual starting salary 14378.10 | Admin with Reception Duties-for sixth form site at Harlesden Road NW10 3RN
+employer: The Avenue School
+closing_date: 2026-10-05T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7855e2bc92cecd0f071f6b417b1fa94779d531001ffd5e83fc6b14f3814692dd
+source: Teaching Vacancies
+source_job_id: admin-with-reception-duties-for-sixth-form-site-at-harlesden-road-nw10-3rn
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-with-reception-duties-for-sixth-form-site-at-harlesden-road-nw10-3rn
+---
 
 ---
 action: 
@@ -346,6 +406,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-mana
 
 - [Breakfast Club Leader](https://teaching-vacancies.service.gov.uk/jobs/breakfast-club-leader-st-paul-s-cofe-primary-school) — Insufficient admin/service evidence.
 - [Business Operations & Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/business-operations-finance-manager) — Manager title salary ceiling £59,394 is not below £28,000.
+- [Business Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/business-operations-manager-grazebrook-primary-school) — Manager title salary ceiling £59,394 is not below £28,000.
 - [Business Support and Finance Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/business-support-and-finance-co-ordinator) — Insufficient admin/service evidence.
 - [Chief Financial Officer ( CFO )](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-the-cardinal-wiseman-catholic-school) — Insufficient admin/service evidence.
 - [Data & Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-exams-manager-ark-bolingbroke-academy) — Manager title salary ceiling £44,231 is not below £28,000.
@@ -356,9 +417,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-mana
 - [Extra Club Manager](https://teaching-vacancies.service.gov.uk/jobs/extra-club-manager) — Manager title without salary evidence below £28,000.
 - [Finance Assistant AP](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-ap) — Insufficient admin/service evidence.
 - [Head of Governance & Compliance](https://teaching-vacancies.service.gov.uk/jobs/head-of-governance-compliance-the-charter-schools-educational-trust) — Insufficient admin/service evidence.
-- [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-wanstead-high-school) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-e8e93e8c-5c0c-4ba3-aa93-a10cbe7095cd) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-ark-oval-primary-academy-croydon-surrey) — Insufficient admin/service evidence.
+- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-glenthorne-high-school) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-woodside-primary-school-croydon-surrey) — Insufficient admin/service evidence.
 - [Human Resources Business Partner/People Manager FTC](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-people-manager-ftc) — Manager title salary ceiling £56,000 is not below £28,000.
 - [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-lilian-baylis-technology-school) — Insufficient admin/service evidence.
@@ -378,6 +439,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-mana
 - [Senior Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-admin-officer-st-stephen-s-cofe-primary-school) — Insufficient admin/service evidence.
 - [Sixth Form Support Officer](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-support-officer-harris-science-academy-east-london) — Insufficient admin/service evidence.
 - [Strategic Lead for Human Resources](https://teaching-vacancies.service.gov.uk/jobs/strategic-lead-for-human-resources) — Insufficient admin/service evidence.
+- [Strategic Lead for Human Resources](https://teaching-vacancies.service.gov.uk/jobs/strategic-lead-for-human-resources-grazebrook-primary-school) — Insufficient admin/service evidence.
 - [Student Attendance & Reporting Officer](https://teaching-vacancies.service.gov.uk/jobs/student-attendance-reporting-officer) — Insufficient admin/service evidence.
 - [Trust Senior Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-senior-admin-officer) — Insufficient admin/service evidence.
 - [Welfare and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/welfare-and-admin-officer) — Insufficient admin/service evidence.

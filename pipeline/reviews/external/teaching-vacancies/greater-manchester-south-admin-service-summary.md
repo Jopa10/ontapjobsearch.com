@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - South
 
-review_date: 2026-09-22
-review_fingerprint: f601e1381ffc2788858b81ceb8636814a182d100458409b4bdb0895ed628a8b6
-routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
+review_date: 2026-09-23
+review_fingerprint: 872e41680b805ae39e78efeb99386df3dbd809f19074c301d5da5057e12708b8
+routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
 ontap_region: Greater Manchester - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,15 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 0
+- Records: 6
+- Selected: 1
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 3
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Greater Manchester - South | Sale, North West, M33 5BP | 25,989.00 - 28,142.00 | HR Administrator
+employer: Ashton-on-Mersey School
+closing_date: 2026-09-30T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: fda3d1d46ddd1c2578a68563ecd6fb7cd036886660705c0ad5c3fbb7120f985a
+source: Teaching Vacancies
+source_job_id: hr-administrator-ashton-on-mersey-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-ashton-on-mersey-school
+---
 
 ## POSS — choose SELECT or EXCLUDE
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Gloucestershire
 
-review_date: 2026-09-22
+review_date: 2026-09-23
 review_fingerprint: 46415ab625f56d9ae116a413a8a98fcebc1eb20e68d78fc5ddbf5f4847eeef4f
-routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
+routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
 ontap_region: Gloucestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 3
 - Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -48,7 +48,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-cirencester-deer-park-school-cirencester-gloucestershire) — Manager title salary ceiling £33,673 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-chosen-hill-school) — Insufficient admin/service evidence.
-- [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-sir-william-romney-s-school-tetbury-gloucestershire) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

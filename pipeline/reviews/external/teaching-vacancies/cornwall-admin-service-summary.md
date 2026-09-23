@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-09-22
-review_fingerprint: 5a7913ad5c24a093f6e88f0a3ff95283ea55a8eb69af8accb2886df612e3d8dc
-routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
+review_date: 2026-09-23
+review_fingerprint: 81296e9620b8ffaf2c14b70790360ab0abdbbff5cd5aa384009f52210cade926
+routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 3
+- Records: 4
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
-
----
-action: 
-SELECTED | Cornwall | Falmouth, South West, TR11 4LH | Salary range - £27,665 - £30,366 per annum | Exams Officer
-employer: Falmouth School
-closing_date: 2026-09-28T09:00:00+01:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e9a2ec4c8c7263d6c5439b68ba12930f33c9365b6376b09ed115438e287e996d
-source: Teaching Vacancies
-source_job_id: exams-officer-falmouth-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-falmouth-school
----
 
 ---
 action: 
@@ -51,21 +36,6 @@ source_job_id: part-time-attendance-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-attendance-administrator
 ---
 
----
-action: 
-SELECTED | Cornwall | Liskeard, South West, PL14 5JH | £25,721.00 Annually (FTE) Actual salary: £11,651.76 | School Administrator
-employer: Darite Primary Academy
-closing_date: 2026-09-22T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5c29f781597b35eebf3541540f0712fe2c6eba8fde5a0dd4bdb444b5d335f3ea
-source: Teaching Vacancies
-source_job_id: school-administrator-darite-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-darite-primary-academy
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -76,6 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## HARD_PASS
 
+- [HR Lead](https://teaching-vacancies.service.gov.uk/jobs/hr-lead-pool-academy) — Insufficient admin/service evidence.
 - [Minibus Driver](https://teaching-vacancies.service.gov.uk/jobs/minibus-driver-98c65611-dc6c-4ef2-ab00-f9bfce2a5837) — Insufficient admin/service evidence.
 - [Specialist Administrator](https://teaching-vacancies.service.gov.uk/jobs/specialist-administrator-mounts-bay-academy) — Missing salary or pay scale.
 

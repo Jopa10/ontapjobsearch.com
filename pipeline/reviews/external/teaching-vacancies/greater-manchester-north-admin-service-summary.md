@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-09-22
-review_fingerprint: eb630d67308cdbceedd20d9fedabbff5abe2431cf5f48201c404ef17f6b51ad0
-routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
+review_date: 2026-09-23
+review_fingerprint: 597462a5b38a2a20a28a2c087b70ea57fa5c1d8ac5a0c67d5c498c0372797190
+routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 5
-- Selected: 3
-- POSS awaiting decision: 0
+- Selected: 2
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 2
 
@@ -38,21 +38,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-medic
 
 ---
 action: 
-SELECTED | Greater Manchester - North | Bury, North West, BL9 8LP | Grade 5 £25,989-£27,254 FTE Pay Award Pending | Administrative Assistant
-employer: Brookhaven School
-closing_date: 2026-09-23T09:00:59+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 86b559588ca1447ef9e719cee46278c788003f0b0c017c62156b0c411ca32eaf
-source: Teaching Vacancies
-source_job_id: administrative-assistant-brookhaven-school-bury-greater-manchester
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-brookhaven-school-bury-greater-manchester
----
-
----
-action: 
 SELECTED | Greater Manchester - North | Oldham, North West, OL8 3PT | £27,274 - £29,071 per annum | Business Administrator
 employer: Hollinwood Academy
 closing_date: 2026-10-02T09:00:00+01:00
@@ -68,7 +53,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administrato
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Greater Manchester - North | Oldham, North West, OL9 0BN | 28,148.50 - 30,733.73 | MIS Systems and Data Officer
+employer: North Chadderton School
+closing_date: 2026-10-06T12:00:00+01:00
+reason: Borderline school administration title: data officer
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 988e3107032a850463338fabc966b1c63a21799b99a2c03d216924ba54c1c58d
+source: Teaching Vacancies
+source_job_id: mis-systems-and-data-officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/mis-systems-and-data-officer
+---
 
 ## EXCLUDED BY REVIEW
 

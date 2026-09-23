@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-09-22
-review_fingerprint: c06173d5707c2341a60c9f53ffd2bc32fe167ec7fa653139bc0fcf48e084e1d3
-routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
+review_date: 2026-09-23
+review_fingerprint: b9c87ddb05347f6b62642304060008acecf5d705407a0452a52419ce70702f49
+routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 6
+- Records: 19
+- Selected: 8
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 9
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Yorkshire - South | Doncaster, Yorkshire and the Humber, DN6 8PU | £8,074.00 - £8,332.00 Annually (Actual) Pay Award Pending | Admin Assistant
+employer: Owston Park Primary Academy
+closing_date: 2026-10-12T09:00:00+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4f95de69b1b5d89255bbb68340cf25bcfa2501f9e285d41f132659e8ed1c058c
+source: Teaching Vacancies
+source_job_id: admin-assistant-owston-park-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-owston-park-primary-academy
+---
 
 ---
 action: 
@@ -94,6 +109,21 @@ factual_fingerprint: b8651b06c7a079cd0a25abcc822a0f1c2c7c9020ab16b82e2d44c9a0585
 source: Teaching Vacancies
 source_job_id: receptionist-saint-pius-x-catholic-high-school-a-specialist-school-in-humanities
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-saint-pius-x-catholic-high-school-a-specialist-school-in-humanities
+---
+
+---
+action: 
+SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S2 1EE | Grade 4 £26403 - £28,598 pro rata - pay award pending | Receptionist and Administrator
+employer: Prince Edward Primary School
+closing_date: 2026-10-07T12:00:00+01:00
+reason: Clear admin/service title: administrator, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7b64043b846e02d8eb062cf08150a44b70e78d04245db32f8b46772a9c385fb3
+source: Teaching Vacancies
+source_job_id: receptionist-and-administrator-adcd5f34-cc20-45ec-9a96-1d35515bc466
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administrator-adcd5f34-cc20-45ec-9a96-1d35515bc466
 ---
 
 ---

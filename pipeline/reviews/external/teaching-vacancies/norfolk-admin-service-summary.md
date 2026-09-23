@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-09-22
-review_fingerprint: 6b54418ebe2535d3bb8a0532ae57ac3b528537e044c8464f57cb2831178fb39b
-routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
+review_date: 2026-09-23
+review_fingerprint: 72bb9f7cfec3e139e44f3f1eb79c74482d5dc5fb4db6e903d365f751365c2add
+routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -100,6 +100,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/behaviour-careers-adm
 
 ---
 action: 
+POSS | Norfolk | Norwich, East of England, NR10 3PX | £13.69 per hour | Clerical Assistant
+employer: Spixworth Infant School
+closing_date: 2026-10-07T01:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 43ea3c295a7d620f5774983f72539c48b6f10b10ffc2373385a3da6ffa19c3df
+source: Teaching Vacancies
+source_job_id: clerical-assistant-spixworth-infant-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-spixworth-infant-school
+---
+
+---
+action: 
 POSS | Norfolk | King's Lynn, East of England, PE30 4AW | Grade D, Point 6 – 7 £26,847 - £27,274 pa FTE Please note that the salary will be pro rata (approx. £18,639 - £18936) | Finance Assistant (with some reception cover)
 employer: Springwood High School
 closing_date: 2026-09-29T01:00:00+01:00
@@ -111,21 +126,6 @@ factual_fingerprint: 3416fcf51de53436d9eca24c4bfa62aef815973afb2141594de7c6c1e7e
 source: Teaching Vacancies
 source_job_id: finance-assistant-with-some-reception-cover
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-with-some-reception-cover
----
-
----
-action: 
-POSS | Norfolk | Norwich, NR2 1NR | Salary: Support Staff Pay Scale I: £38,510 to £40,444 per annum | Governance Professional - Complaints and Governance Support
-employer: Inspiration Trust
-closing_date: 2026-09-23T12:00:00+01:00
-reason: Borderline school administration title: governance professional
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ca6e6faf14eb9e4b99e2b8d4ae5e711c1dbe68cc27ebeba336ffb19780b6aaa8
-source: Teaching Vacancies
-source_job_id: governance-professional-complaints-and-governance-support
-source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-complaints-and-governance-support
 ---
 
 ---

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-09-22
-review_fingerprint: 7498ffe10ed05f28e66e1082ea5af307aae247f104a56c2de1354641269c3779
-routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
+review_date: 2026-09-23
+review_fingerprint: da3e259b13393f24a2b208cfdc8eb6fb8feee3de2ca67aa3b5932478749eb5a7
+routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 23
-- Selected: 13
+- Records: 26
+- Selected: 12
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 14
 
 ## SELECTED
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B33 9RD | £11856 - £12826 per annum | Admin Assistant
+employer: Lift Lea Forest
+closing_date: 2026-10-06T14:00:14+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3092266b595083a7855745d81ec55ef2cafc9708e92ec365a066838ad02f5f95
+source: Teaching Vacancies
+source_job_id: admin-assistant-lift-lea-forest
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-lift-lea-forest
+---
 
 ---
 action: 
@@ -113,21 +128,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-year-te
 
 ---
 action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B15 2AF | Grade 3: £28,153pa (pro rata) - £34,811pa (pro rata) + SEN 1,779.86pa (pro rata) | Attendance Officer (2 roles)
-employer: James Brindley School
-closing_date: 2026-09-23T09:00:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 960dd9ed3108a58276553de19edf7b88d89fa3cf67abe76696bc48f840d22433
-source: Teaching Vacancies
-source_job_id: attendance-officer-2-roles
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-2-roles
----
-
----
-action: 
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B28 8BB | £28,598.00 - £34,434.00 Annually (FTE) | Office Administrator
 employer: Yorkmead Junior and Infant School
 closing_date: 2026-09-25T23:59:00+01:00
@@ -139,21 +139,6 @@ factual_fingerprint: 17d7b6e9373bc9d4780b4e83733b3d9bd178bf0207840cff28465054688
 source: Teaching Vacancies
 source_job_id: office-administrator-yorkmead-junior-and-infant-school-birmingham-west-midlands
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-yorkmead-junior-and-infant-school-birmingham-west-midlands
----
-
----
-action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B7 4QR | £11,923.86 Annually (Actual) Apprentice Rate 1 | Pastoral Support and Administrator Apprentice
-employer: E-ACT Heartlands Academy
-closing_date: 2026-09-28T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e4a9c9303900dde857bcc06050214b4df9bfefa192ef12f3d747dd6b984d1809
-source: Teaching Vacancies
-source_job_id: pastoral-support-and-administrator-apprentice
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-support-and-administrator-apprentice
 ---
 
 ---
@@ -226,15 +211,19 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/whole-school-attendan
 
 ## HARD_PASS
 
-- [Academy Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/academy-operations-manager-daylesford-academy) — Manager title salary ceiling £37,784 is not below £28,000.
+- [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-the-deanery-church-of-england-primary-school) — Missing salary or pay scale.
 - [Assistant SENCO](https://teaching-vacancies.service.gov.uk/jobs/assistant-senco-woodlands) — Insufficient admin/service evidence.
+- [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-fioretti-trust) — Insufficient admin/service evidence.
+- [Data Apprentice](https://teaching-vacancies.service.gov.uk/jobs/data-apprentice-academy-transformation-trust) — Insufficient admin/service evidence.
 - [Examinations Assistant](https://teaching-vacancies.service.gov.uk/jobs/examinations-assistant-plantsbrook-school) — Insufficient admin/service evidence.
+- [Governance Support Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-support-officer-eaa7a044-716c-471a-b1e0-33530ee7b932) — Insufficient admin/service evidence.
 - [Head of Executive Office and Communications](https://teaching-vacancies.service.gov.uk/jobs/head-of-executive-office-and-communications) — Insufficient admin/service evidence.
 - [Head of Marketing](https://teaching-vacancies.service.gov.uk/jobs/head-of-marketing-ormiston-academies-trust) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-st-john-paul-ii-multi-academy-company-birmingham-not-recorded) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-greet-primary-school) — Manager title salary ceiling £34,434 is not below £28,000.
 - [PA to Executive Head](https://teaching-vacancies.service.gov.uk/jobs/pa-to-executive-head) — Missing salary or pay scale.
 - [School Administration Assistant/ Attendance](https://teaching-vacancies.service.gov.uk/jobs/school-administration-assistant-attendance) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-severne-junior-infant-and-nursery-school) — Manager title salary ceiling £55,224 is not below £28,000.
 - [School Finance Partner](https://teaching-vacancies.service.gov.uk/jobs/school-finance-partner-fioretti-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary

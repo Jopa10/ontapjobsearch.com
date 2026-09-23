@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-09-22
-review_fingerprint: 2f3b8af20521a6a94f15376623a6c60ccd06ca160ca3764409a0a6353cb7d149
-routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
+review_date: 2026-09-23
+review_fingerprint: 6b9b616d734633b9c5201737ca0924667a8b0914ded3497e764471fc70258550
+routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 4
-- POSS awaiting decision: 3
+- Records: 15
+- Selected: 3
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 10
 
 ## SELECTED
 
@@ -66,21 +66,6 @@ source_job_id: school-attendance-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-attendance-administrator
 ---
 
----
-action: 
-SELECTED | Wiltshire | Swindon, South West, SN2 2UJ | £13.35 Hourly | School Receptionist
-employer: Even Swindon Primary School
-closing_date: 2026-09-23T09:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 582019b3e669a23512b118a76a4ade168b34ab2d4863d071dc27b40eff3ca6b2
-source: Teaching Vacancies
-source_job_id: school-receptionist-even-swindon-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-even-swindon-primary-school
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -113,21 +98,6 @@ source_job_id: clerk-to-governors-kingsbury-green-academy-calne-wiltshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-kingsbury-green-academy-calne-wiltshire
 ---
 
----
-action: 
-POSS | Wiltshire | Trowbridge, South West, BA14 9EN | £14.59 - £15.31 Hourly term time only (+ 2 weeks) | Governance Professional
-employer: St Augustine's Catholic College
-closing_date: 2026-09-23T12:00:00+01:00
-reason: Borderline school administration title: governance professional
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c3e20103644bbc043fd5581cb7ef68e7bca40791576d714621bcbcccd569f195
-source: Teaching Vacancies
-source_job_id: governance-professional-st-augustine-s-catholic-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-st-augustine-s-catholic-college
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -136,6 +106,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 
 - [Admissions and Transition Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-transition-coordinator) — Insufficient admin/service evidence.
 - [Assistant Data and Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-data-and-exams-manager) — Manager title salary ceiling £28,598 is not below £28,000.
+- [Attendance Liaison Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-liaison-assistant) — Insufficient admin/service evidence.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-0d106d15-bbf0-467f-8794-3393ccb03a2b) — Insufficient admin/service evidence.
 - [Early Years Stronger Practice Hub Manager](https://teaching-vacancies.service.gov.uk/jobs/early-years-stronger-practice-hub-manager) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-magna-learning-partnership-salisbury-not-recorded) — Insufficient admin/service evidence.

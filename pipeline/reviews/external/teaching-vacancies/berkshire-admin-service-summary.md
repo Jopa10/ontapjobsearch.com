@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-09-22
-review_fingerprint: d56c8738ad6645b92ee0c4716a8590f36c27cbbb002d5f49e45644833af93eee
-routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
+review_date: 2026-09-23
+review_fingerprint: bd49b9072432abc749809b15cbdbb688aaa690acd0f687f06b39b671b8718c53
+routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
-- Selected: 6
+- Records: 20
+- Selected: 5
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 11
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: 695c2e7898f7f3b1edb675e7c368e8236e10b8d22b9cb7258e5d59b239d
 source: Teaching Vacancies
 source_job_id: attendance-admissions-administrator-maternity-cover
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-admissions-administrator-maternity-cover
----
-
----
-action: 
-SELECTED | Berkshire | Reading, South East, RG1 5SG | £22,582.00 Annually (Actual) Grade 4 SCP 7 working 37 hours per week Term Time only plus 5 INSET days ( FTE 26,402) Plus a SEN allowance £1,538.711 | Receptionist & Administrative Officer
-employer: Hamilton School
-closing_date: 2026-09-30T23:59:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 366ff8f92f393bec987b4ff4a20fa628bb31c5f24ae48cc2830453bc31b61aaa
-source: Teaching Vacancies
-source_job_id: receptionist-administrative-officer-hamilton-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrative-officer-hamilton-school
 ---
 
 ---
@@ -185,8 +170,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-finance-assist
 - [EHCP Team Administrator - The Avenue School](https://teaching-vacancies.service.gov.uk/jobs/ehcp-team-administrator-the-avenue-school) — Missing salary or pay scale.
 - [Full Time Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/full-time-administration-officer) — Insufficient admin/service evidence.
 - [HR & Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-officer-the-park-federation-academy-trust) — Insufficient admin/service evidence.
+- [Medical Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/medical-administrative-assistant) — Missing salary or pay scale.
 - [Office Manager - Southcote Primary School](https://teaching-vacancies.service.gov.uk/jobs/office-manager-southcote-primary-school-southcote-primary-school-reading-berkshire) — Manager title salary ceiling £35,521 is not below £28,000.
 - [Office Manager and Personal Assistant to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-personal-assistant-to-the-headteacher-new-town-primary-school) — Manager title salary ceiling £40,444 is not below £28,000.
+- [School Development Officer](https://teaching-vacancies.service.gov.uk/jobs/school-development-officer) — Insufficient admin/service evidence.
 - [Site Team Administrative Assistant - The Avenue School](https://teaching-vacancies.service.gov.uk/jobs/site-team-administrative-assistant-the-avenue-school) — Missing salary or pay scale.
 
 ## Safety boundary

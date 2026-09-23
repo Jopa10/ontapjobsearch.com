@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-09-22
-review_fingerprint: 06b00859f65142b9cbc52948e026322670fb773c3ae710853b758ced398326e8
-routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
+review_date: 2026-09-23
+review_fingerprint: 1336700521e96394986746ebd4865269afea755bb1001eb83ad6e4bdedf28b82
+routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -68,21 +68,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
-SELECTED | Buckinghamshire | Milton Keynes, South East, MK6 5LP | Up to £26,884.00 per annum | Administrator - Prison Education - HMP Downview
-employer: Milton Keynes College
-closing_date: 2026-09-22T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d57094edaea195ae9f44ecc6fbe64f01f4ce426f354e1c636aca908ecf44db43
-source: Teaching Vacancies
-source_job_id: administrator-prison-education-hmp-downview
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-prison-education-hmp-downview
----
-
----
-action: 
 SELECTED | Buckinghamshire | Aylesbury, South East, HP22 7BR | £29,156.00 - £31,413.00 Annually (Actual) Bucks Pay Range 5 £29,156 to £31,413 (Full time equivalent to £34,319 to 36,975) | ARC Administrator
 employer: The Kingsbrook School
 closing_date: 2026-10-06T12:00:00+01:00
@@ -139,6 +124,21 @@ factual_fingerprint: 6056cf129b2c60b1e35ecef1f6c8b1cfbca770cf4c3d483384b02a91311
 source: Teaching Vacancies
 source_job_id: office-administrator-cf621f03-1b81-4970-86af-5e6e0d675eec
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-cf621f03-1b81-4970-86af-5e6e0d675eec
+---
+
+---
+action: 
+SELECTED | Buckinghamshire | Milton Keynes, South East, MK14 6AX | £29,070.00 - £33,672.00 Annually (Actual) Point 11 -20 £29,070 - £33,672 FTE, Pro rata accordingly | Receptionist
+employer: Stephenson Academy
+closing_date: 2026-10-07T23:59:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a14f127d9bcc6aa9507d835fbfb122eb9dfcf60b5328d02ac787e496776cc050
+source: Teaching Vacancies
+source_job_id: receptionist-stephenson-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-stephenson-academy
 ---
 
 ---

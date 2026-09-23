@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-09-22
-review_fingerprint: 8e87674431f8ec98e0b4f0737d8dfc3d52035144a09b4a19746bd7fad69b4e69
-routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
+review_date: 2026-09-23
+review_fingerprint: 3d17f2752453099d302964f3ab7454aa2723c00dd5b65bfc732ee32ee9b3aeeb
+routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 3
+- Records: 9
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: 9666f46c5f5115472682d1a7b3b8c56c30e7ff689b6b9a2b0edd4fca5bb
 source: Teaching Vacancies
 source_job_id: attendance-and-admissions-officer-65b72427-5324-4164-8260-a853358c3381
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admissions-officer-65b72427-5324-4164-8260-a853358c3381
+---
+
+---
+action: 
+SELECTED | Surrey | Epsom, South East, KT18 6HP | Associate 2.1-16 (£7,610.33 - £8,081.07 - Actual) | Office Assistant (Part time)
+employer: The Vale Primary School and Nursery
+closing_date: 2026-10-06T09:30:59+01:00
+reason: Clear admin/service title: office assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: aea6f75ece26362ac5ad68353c03885db6ce7ebf56268664a5bbe0a12e743b83
+source: Teaching Vacancies
+source_job_id: office-assistant-part-time-the-vale-primary-school-and-nursery
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-assistant-part-time-the-vale-primary-school-and-nursery
 ---
 
 ---
@@ -78,6 +93,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-a73
 
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-the-swan-trust-surrey-not-recorded) — Insufficient admin/service evidence.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-yattendon-school) — Manager title salary ceiling £36,943 is not below £28,000.
+- [Regional Finance Partner](https://teaching-vacancies.service.gov.uk/jobs/regional-finance-partner-the-beacon-school) — Insufficient admin/service evidence.
 - [Trust Estates Facilities & Compliance Coordinator](https://teaching-vacancies.service.gov.uk/jobs/trust-estates-facilities-compliance-coordinator) — Insufficient admin/service evidence.
 - [Trust Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-business-partner-greensand-multi-academy-trust) — Insufficient admin/service evidence.
 

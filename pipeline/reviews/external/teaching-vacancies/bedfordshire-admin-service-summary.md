@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-09-22
-review_fingerprint: a8f8aae8b8d5206538b0afb8b07b7cc9fabc8ed6dc3428cda25ec04712775557
-routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
+review_date: 2026-09-23
+review_fingerprint: 9c70975cec66501d29aa00f0f22db85eda9e986fc550b6a5afdba3df57b7e9e0
+routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 4
+- Records: 14
+- Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -68,6 +68,36 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-administrat
 
 ---
 action: 
+SELECTED | Bedfordshire | Luton, East of England, LU2 8HJ | £23,233.00 - £23,979.00 Annually (Actual) 37 hours a week, term time + 5 days - L3 (actual salary £23,233 pa) | Receptionist / Administrator - Maternity Cover
+employer: Putteridge High School
+closing_date: 2026-10-02T12:00:00+01:00
+reason: Clear admin/service title: administrator, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d6d16e56d3ba4c566ebdbc2ccfd557c9cca11ddc6226a331216d16ae17c1010e
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-maternity-cover-b0011690-aa34-46e2-8bbd-40b9783322e9
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-maternity-cover-b0011690-aa34-46e2-8bbd-40b9783322e9
+---
+
+---
+action: 
+SELECTED | Bedfordshire | Luton, East of England, LU2 7JL | £18,846.00 Annually (Actual) | Receptionist/Clerical Assistant
+employer: Richmond Hill School
+closing_date: 2026-10-04T23:59:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7b96850a227807a36899012202a3b39544398c5d580d4c84259a6e82d746c85e
+source: Teaching Vacancies
+source_job_id: receptionist-clerical-assistant-richmond-hill-school-luton-bedfordshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-clerical-assistant-richmond-hill-school-luton-bedfordshire
+---
+
+---
+action: 
 SELECTED | Bedfordshire | Sandy, East of England, SG19 1BL | NJC Level 2a points 3 – 4 £22,302– £22,652 per annum, actual salary (£25,614– £26,016 pro rata) | Receptionist/Finance Assistant
 employer: Sandy Secondary School
 closing_date: 2026-09-28T09:00:00+01:00
@@ -104,7 +134,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 
 ## HARD_PASS
 
-- [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-de16c660-42ff-448c-aed9-69dbe339a507) — Manager title salary ceiling £45,401 is not below £28,000.
+- [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-c5af3af6-3ac2-49eb-9534-035eb67e9604) — Manager title salary ceiling £45,401 is not below £28,000.
+- [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-grasmere-nursery-school) — Insufficient admin/service evidence.
 - [Clerical Assistant - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-maternity-cover-icknield-primary-school-luton-bedfordshire) — Insufficient admin/service evidence.
 - [Financial Controller](https://teaching-vacancies.service.gov.uk/jobs/financial-controller-e5903e11-7297-4be8-a7c1-2e9280429c10) — Insufficient admin/service evidence.
 - [Officer Manager](https://teaching-vacancies.service.gov.uk/jobs/officer-manager-17efeac4-e980-48de-8ddc-1a2e769d02a2) — Manager title without salary evidence below £28,000.

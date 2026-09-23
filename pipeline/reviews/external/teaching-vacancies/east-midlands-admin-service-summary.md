@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-09-22
-review_fingerprint: d405d5613f2c2ce22a81fefede74550795fc195b6d9f329af928ba361bd9e69e
-routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
+review_date: 2026-09-23
+review_fingerprint: 9fa3cd32a18f96c8b6e65ab96be04b2e193bb8d386b956bb32b0222731c68a28
+routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 9
 - Selected: 1
-- POSS awaiting decision: 3
+- POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -51,6 +51,21 @@ factual_fingerprint: 989ea8200fd98b456c27ff8bca1e912d02c03f0c1827ecb15b1fcb2d7c3
 source: Teaching Vacancies
 source_job_id: business-administration-apprentice-level-3-embark-multi-academy-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprentice-level-3-embark-multi-academy-trust
+---
+
+---
+action: 
+POSS | East Midlands | Ashbourne, East Midlands, DE6 1EP | £27,618.00 - £29,414.00 Annually (FTE) Pay Scale 4: £16,118 - £17,167 pro rata | Finance Assistant
+employer: Queen Elizabeth's Grammar School
+closing_date: 2026-10-13T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 7fdc5ee2ecd6ad143006a51224049df6494167322da3dcf3f8b9e33705a8fd70
+source: Teaching Vacancies
+source_job_id: finance-assistant-queen-elizabeth-s-grammar-school-ashbourne-derbyshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-queen-elizabeth-s-grammar-school-ashbourne-derbyshire
 ---
 
 ---
@@ -90,6 +105,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-assis
 ## HARD_PASS
 
 - [Management Information System (MIS) Administrator & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/management-information-system-mis-administrator-cover-manager-85783a14-bff5-44f3-9d32-6556a2a69f08) — Manager title salary ceiling £32,488 is not below £28,000.
+- [Receptionist](https://teaching-vacancies.service.gov.uk/jobs/receptionist-hastings-high-school) — Missing salary or pay scale.
 - [Reprographics & Marketing Coordinator](https://teaching-vacancies.service.gov.uk/jobs/reprographics-marketing-coordinator) — Insufficient admin/service evidence.
 - [Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-manager-98078324-9858-463d-9f77-566320746539) — Manager title salary ceiling £44,075 is not below £28,000.
 

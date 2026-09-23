@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-09-22
-review_fingerprint: ca389d00347800c40ce9ed5e078b5916c406a373bd02718146b660f7e1f380e2
-routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
+review_date: 2026-09-23
+review_fingerprint: 731dd4e7096c1ea2ab0904dfefe7eed63777594da0f07cf1336088977e227b34
+routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 6
+- Records: 12
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 7
 
 ## SELECTED
-
----
-action: 
-SELECTED | Kent | Maidstone, South East, ME16 8AE | £26,847.00 - £28,153.00 Annually (Actual) £14,208 - £15,241 - WAT Grade d pt.6-9 | Administration Assistant
-employer: St Augustine Academy
-closing_date: 2026-09-23T09:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6a1abd800498030ee0372463b2781895e4df0995aa84d4f02a31a8343d4c0b35
-source: Teaching Vacancies
-source_job_id: administration-assistant-st-augustine-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-st-augustine-academy
----
 
 ---
 action: 
@@ -68,29 +53,29 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-th
 
 ---
 action: 
-SELECTED | Kent | Maidstone, South East, ME16 0SF | £9,567.00 - £9,568.00 Annually (Actual) Kent Salaries KSC: £9,568 per annum | Attendance Administrator
-employer: Maidstone Grammar School for Girls
-closing_date: 2026-09-23T08:00:00+01:00
+SELECTED | Kent | Dartford, South East, DA1 2JT | £26,632 per annum | Curriculum Administrator
+employer: North Kent College
+closing_date: 2026-10-05T23:59:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: f9dff5cc2e0aeaf48bff73d0a2e077e0373166b9980948c9b5d30592461222ee
+factual_fingerprint: f8e158d9a688a919d13ba3265c5cb847279b168a917997eee666fa42fbbe5502
 source: Teaching Vacancies
-source_job_id: attendance-administrator-2f3d689b-f206-45e5-991f-9a3a5bcff860
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-2f3d689b-f206-45e5-991f-9a3a5bcff860
+source_job_id: curriculum-administrator-north-kent-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/curriculum-administrator-north-kent-college
 ---
 
 ---
 action: 
-SELECTED | Kent | Maidstone, South East, ME16 0SF | £30,347.00 - £30,348.00 Annually (Actual) Kent Salaries Kent Scheme G - -£30,348 pro rata (Full-time equivalent £34,347.90) per annum. | Personal Assistant to the Headteacher
+SELECTED | Kent | Maidstone, South East, ME16 0SF | £34,347.00 - £36,264.00 Annually (Actual) Kent Salaries Kent Scheme G - -£30,348 pro rata (Full-time equivalent £34,347.90) per annum. | Personal Assistant to the Headteacher
 employer: Maidstone Grammar School for Girls
 closing_date: 2026-09-28T08:00:00+01:00
 reason: Clear admin/service title: personal assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: c8fe03002e009f823b94b13a52e6035ae3c023bdc71af36d979fc884e88182fd
+factual_fingerprint: 734bff9fec087c57d391612da5061e8d0eccb358915acd15a8950c432cd4f523
 source: Teaching Vacancies
 source_job_id: personal-assistant-to-the-headteacher-maidstone-grammar-school-for-girls
 source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-headteacher-maidstone-grammar-school-for-girls
@@ -125,7 +110,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-a
 - [Exams and Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-assistant-the-north-school) — Insufficient admin/service evidence.
 - [Financial Analyst](https://teaching-vacancies.service.gov.uk/jobs/financial-analyst-the-norton-knatchbull-school) — Insufficient admin/service evidence.
 - [HR Apprentice](https://teaching-vacancies.service.gov.uk/jobs/hr-apprentice-04c6c700-00de-4ef8-b87e-13fad8c8e4b3) — Insufficient admin/service evidence.
+- [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-26e0bcfd-fd42-4fe6-bedf-503af84df187) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-staplehurst-school) — Manager title salary ceiling £29,020 is not below £28,000.
+- [Recruitment Lead](https://teaching-vacancies.service.gov.uk/jobs/recruitment-lead-aletheia-academies-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-09-22
-review_fingerprint: e1f05a3f0370db054e5a9a8b0fe4ae141d0c65e45054ee812cf84ca3eeaf715c
-routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
+review_date: 2026-09-23
+review_fingerprint: 7985d94ae87742b59ac0f1c04ab2ec1cfffb2fa3de135455b5fb51c579fc63d6
+routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 5
-- POSS awaiting decision: 2
+- Records: 11
+- Selected: 6
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -64,6 +64,21 @@ factual_fingerprint: d3d9b2431275d413906001f6dffad08621b3ec7770db23970c8b214a65c
 source: Teaching Vacancies
 source_job_id: pastoral-administrator-salford-city-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-salford-city-academy
+---
+
+---
+action: 
+SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M21 7SW | £22,427 to £29,071 | Receptionist and Marketing Administrator
+employer: Loreto High School Chorlton
+closing_date: 2026-09-29T08:00:00+01:00
+reason: Clear admin/service title: administrator, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 915d2fba06ab09000d73fbc003ba1e0339b5a66ad4362a22a83ea73649720bb4
+source: Teaching Vacancies
+source_job_id: receptionist-and-marketing-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-marketing-administrator
 ---
 
 ---
@@ -128,13 +143,27 @@ source_job_id: inclusion-administration-officer
 source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administration-officer
 ---
 
+---
+action: 
+POSS | Greater Manchester - Manchester & Salford | Manchester, North West, M40 9GJ | Grade 5 - £30,023 - £33,119 | School Administrator
+employer: Camberwell Park Specialist Support School
+closing_date: 2026-10-04T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 63085fe73ce468012414be44688e7e35d3960864db75ac63afc10b7462168e8d
+source: Teaching Vacancies
+source_job_id: school-administrator-camberwell-park-specialist-support-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-camberwell-park-specialist-support-school
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
-- [Administration Officer [Maternity Cover]](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-maternity-cover-st-anne-s-church-of-england-academy-manchester) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-the-co-operative-academies-trust) — Insufficient admin/service evidence.
 - [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-co-op-academy-medlock-manchester-greater-manchester) — Manager title salary ceiling £39,481 is not below £28,000.
 

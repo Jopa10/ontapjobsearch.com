@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-09-22
-review_fingerprint: d7acf51b330d79514e0a9c501268c3b88775cfbe1f2b7749dfaccae13b1ee466
-routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
+review_date: 2026-09-23
+review_fingerprint: e2c12a4bdfec0f871a9706e21cf8a1b01508fb2b395e3f14694f3723a8a1a7b0
+routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: LIVE
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 5
 - Selected: 1
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -38,20 +38,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-leadership-team
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Dorset | Poole, South West, BH17 7EP | Grade E+2, Points 7-13. Actual salary: £22,152 - £24,384 pay award pending | Data Manager
-employer: Parkstone Grammar School
-closing_date: 2026-09-23T09:00:00+01:00
-reason: Manager title below £28,000 salary ceiling requires review
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: eb7167ae4a6f83a8b4dfbab53e799d6ac21f95465a4929efac7033296c5df584
-source: Teaching Vacancies
-source_job_id: data-manager-parkstone-grammar-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-manager-parkstone-grammar-school
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -60,6 +47,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-manager-parkston
 ## HARD_PASS
 
 - [Admissions and Exam Officer - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-exam-officer-maternity-cover) — Insufficient admin/service evidence.
+- [Attendance Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/attendance-co-ordinator-the-bishop-of-winchester-academy) — Insufficient admin/service evidence.
 - [School Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/school-finance-manager-3595b4c3-74ce-4320-b9c0-0bd97114cef9) — Manager title salary ceiling £41,177 is not below £28,000.
 - [Student Welfare Assistant](https://teaching-vacancies.service.gov.uk/jobs/student-welfare-assistant-poole-high-school) — Insufficient admin/service evidence.
 

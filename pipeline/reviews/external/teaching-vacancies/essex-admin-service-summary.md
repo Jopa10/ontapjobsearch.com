@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-09-22
+review_date: 2026-09-23
 review_fingerprint: 7d118116857b1b3ec4c0497902f4003669f3d073509e4c7e55f66cf59b92e944
-routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
+routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 10
 - Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -122,6 +122,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-manager
 - [Payroll, Contracts & Systems Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-contracts-systems-officer) — Insufficient admin/service evidence.
 - [Repographics Technician](https://teaching-vacancies.service.gov.uk/jobs/repographics-technician) — Out-of-scope occupation: technician.
 - [Reprographics Administrator/Receptionist](https://teaching-vacancies.service.gov.uk/jobs/reprographics-administrator-receptionist-plume-school) — Missing salary or pay scale.
+- [Senior HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-ea247ce7-8c6b-4179-a7a3-f1673e767983) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

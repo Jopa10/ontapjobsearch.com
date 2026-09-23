@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — South West
 
-review_date: 2026-09-22
+review_date: 2026-09-23
 review_fingerprint: 53cc091065b8f3d1c3b389e153665b92bec5a7102af274b13318114f407afeac
-routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
+routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
 ontap_region: South West
 slice_category: admin_service
 slice_status: UNREGISTERED

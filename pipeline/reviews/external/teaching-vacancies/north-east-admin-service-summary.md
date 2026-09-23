@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-09-22
-review_fingerprint: 714d793388d8e1da0a0e6b11e0118b0106cc4a526ffcc7437395d9c8382b19ca
-routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
+review_date: 2026-09-23
+review_fingerprint: 66c758d30a252c535c34b3ba2a1549f869de1eb86280dbb7d9b8900da0165a08
+routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 6
+- Records: 10
+- Selected: 7
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
 
 ## SELECTED
+
+---
+action: 
+SELECTED | North East | Stanley, North East, DH9 0TW | £17,994.00 - £18,372.00 Annually (Actual) | Administration Assistant
+employer: North Durham Academy
+closing_date: 2026-10-06T12:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6d61779b4b8b1463daa10f377cbe255a639b809bdcf168fe2d856cc418c00f84
+source: Teaching Vacancies
+source_job_id: administration-assistant-north-durham-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-north-durham-academy
+---
 
 ---
 action: 

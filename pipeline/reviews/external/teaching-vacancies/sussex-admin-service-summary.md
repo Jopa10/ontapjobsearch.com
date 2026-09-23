@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-09-22
-review_fingerprint: 10495d0d9b3a4dfabff8646460caea77475f56a4d1c77d6bde9047d579b78436
-routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
+review_date: 2026-09-23
+review_fingerprint: fbd3a1ba180097931a749a8df51fb1742614b488ebfb8059348ac24e7f4e639e
+routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 3
+- Records: 5
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 0
@@ -49,6 +49,21 @@ factual_fingerprint: 667e31a64a2b0a47048c7f4987817938ca12a693fdf2f1fd929afa8c0eb
 source: Teaching Vacancies
 source_job_id: exams-officer-cfs
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-cfs
+---
+
+---
+action: 
+SELECTED | Sussex | Hastings, South East, TN35 5DN | East Sussex Grade 4 | Finance and HR Administrator
+employer: Mulberry Academy Hastings
+closing_date: 2026-10-09T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1e569f57a76b761d3f78b349063a7c8c3f4939e274ef75838e5a9cd5f4f1f7e8
+source: Teaching Vacancies
+source_job_id: finance-and-hr-administrator-mulberry-academy-hastings
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-and-hr-administrator-mulberry-academy-hastings
 ---
 
 ---

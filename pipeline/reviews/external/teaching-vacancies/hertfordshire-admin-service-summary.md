@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-09-22
-review_fingerprint: d8e83b75b2795ef270de338d678f83e176e2f6c6bccf7c58e9f35bfd398b5b82
-routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
+review_date: 2026-09-23
+review_fingerprint: 41efddc358e00a637ee955b285b061639be95f107f04808aa8d7ce5ad6b6b315
+routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 7
-- POSS awaiting decision: 5
+- Records: 13
+- Selected: 6
+- POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 3
 
 ## SELECTED
-
----
-action: 
-SELECTED | Hertfordshire | Watford, East of England, WD24 5JW | £20,328.00 Annually (Actual) | Administrator and Pupil Welfare
-employer: The Orchard Primary School
-closing_date: 2026-09-24T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7f5bfab27cf91fbf98859ab2685aac0d61881fdc48c0cc742bc78ac1b68a2cd7
-source: Teaching Vacancies
-source_job_id: administrator-and-pupil-welfare-the-orchard-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-and-pupil-welfare-the-orchard-primary-school
----
 
 ---
 action: 
@@ -145,21 +130,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-office
 
 ---
 action: 
-POSS | Hertfordshire | Harpenden, East of England, AL5 5FH | £24,519.00 Annually (FTE) Role is paid £12.71 plus holiday pay. Full time equivalent £24,519 | Attendance and Admin Officer
-employer: Katherine Warington School
-closing_date: 2026-09-23T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f4031657b8ae2307891fe5ca2dcfc49ffa63e891a790ccc829783665a50b254c
-source: Teaching Vacancies
-source_job_id: attendance-and-admin-officer-katherine-warington-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-officer-katherine-warington-school
----
-
----
-action: 
 POSS | Hertfordshire | Stevenage, SG1 5BZ | £12,521.00 - £13,197.00 Annually (Actual) | Finance Assistant
 employer: Brighter Futures Educational Trust
 closing_date: 2026-10-02T23:59:00+01:00
@@ -197,7 +167,7 @@ reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: c8d6bec738287ad99b8ca63eee61f7f18b30ce0710bccdbc59f1245d2efa3168
+factual_fingerprint: a348dc86d7c9991fecb24590b0d163554146601723cbb4f4452bc34ea2378497
 source: Teaching Vacancies
 source_job_id: ks4-pastoral-and-administrative-support-h4
 source_url: https://teaching-vacancies.service.gov.uk/jobs/ks4-pastoral-and-administrative-support-h4

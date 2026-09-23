@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-09-22
-review_fingerprint: 7d7d142eb343e8b5fe11915846cd7fe44d9c193da7359549162d401b5be7ff06
-routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
+review_date: 2026-09-23
+review_fingerprint: 20315050b5013741320a7139f5a93d50dbb38dff4bc2dc4157c1afcf03905721
+routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 8
+- Records: 20
+- Selected: 12
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 8
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Oxfordshire | Banbury, South East, OX15 4UL | £23,787.11 Annually (FTE) Grade 6 | Administration Assistant
+employer: Bloxham Grove Academy
+closing_date: 2026-09-28T09:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: fd3c45c8cb848d796c856d9d93acf0b067ef5e780d1557389869a6ba3265c7df
+source: Teaching Vacancies
+source_job_id: administration-assistant-bloxham-grove-academy-banbury
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-bloxham-grove-academy-banbury
+---
 
 ---
 action: 
@@ -49,6 +64,36 @@ factual_fingerprint: eccc62bee15fe31a212fcf00ccad2e1ba80631b03653f977460d45b6f97
 source: Teaching Vacancies
 source_job_id: administrative-assistant-chalgrove-community-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-chalgrove-community-primary-school
+---
+
+---
+action: 
+SELECTED | Oxfordshire | Abingdon, South East, OX14 1RF | £26,427.00 - £27,274.00 Annually (Actual) NJC Support Grade 5, SCP 5 - 7. Actual salary £22,686.56 - £23,413.68 FTE 0.86 | Admissions Administrator
+employer: Larkmead School
+closing_date: 2026-10-04T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6ebfcb525df5dbd91d79317b1b3fe4c7e685cb171afb2b8835c6d77dbc3b7234
+source: Teaching Vacancies
+source_job_id: admissions-administrator-larkmead-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-administrator-larkmead-school
+---
+
+---
+action: 
+SELECTED | Oxfordshire | Banbury, South East, OX16 9DG | Grade 4, commencing point 4, actual ‘term time only’ salary equates to £7,074 per annum | Attendance Administrator
+employer: Blessed George Napier Catholic School and Sixth Form
+closing_date: 2026-10-09T08:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a2b731714d78b2b507d8904cbbd3bc877a13efd0a9ca01b05a26ebde8dbf369f
+source: Teaching Vacancies
+source_job_id: attendance-administrator-blessed-george-napier-catholic-school-and-sixth-form
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-blessed-george-napier-catholic-school-and-sixth-form
 ---
 
 ---
@@ -141,6 +186,21 @@ source_job_id: student-receptionist-and-pastoral-assistant
 source_url: https://teaching-vacancies.service.gov.uk/jobs/student-receptionist-and-pastoral-assistant
 ---
 
+---
+action: 
+SELECTED | Oxfordshire | Abingdon, South East, OX14 1RF | £26,016.00 - £26,427.00 Annually (FTE) NJC Support Grade 4, SCP 4 - 5. Actual salary £19,617.47 - £19,927.39 FTE 0.75 | Student Services Administrator
+employer: Larkmead School
+closing_date: 2026-10-04T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7434365a3dfabe1ea82873d31014720b22aea7aec9a5f5637a2954848dfbb642
+source: Teaching Vacancies
+source_job_id: student-services-administrator-larkmead-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-administrator-larkmead-school
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -154,7 +214,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-receptionist-
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-bloxham-grove-academy) — Insufficient admin/service evidence.
 - [Chief Financial Officer (Part Time)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-part-time-abingdon-learning-trust) — Insufficient admin/service evidence.
 - [Chief Operating Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-operating-officer-oxford-diocesan-schools-trust-wantage-not-recorded) — Insufficient admin/service evidence.
-- [Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/cover-manager-gillotts-school) — Manager title salary ceiling £29,065 is not below £28,000.
 - [HR Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-partner-oxford-diocesan-bucks-schools-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-heyford-park-school) — Manager title salary ceiling £31,022 is not below £28,000.
 - [Procurement Contract Performance Manager *Hybrid Role*](https://teaching-vacancies.service.gov.uk/jobs/procurement-contract-performance-manager-hybrid-role) — Manager title salary ceiling £55,225 is not below £28,000.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-09-22
-review_fingerprint: aa24a5a390d2f78d24e1563dc04e51ac1df25c83c128404398e14e76a6478e1c
-routing_manifest_sha256: 9ae62ebc18958112193239d7aeba38004355f297a14cc10b13ceb6c548e29c9a
+review_date: 2026-09-23
+review_fingerprint: 73b73cd7ecf3b201745cf622e960e0a1d8fbd0c7d7276887f42ea9593572f0d9
+routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 24
-- Selected: 10
+- Records: 27
+- Selected: 13
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 12
@@ -30,10 +30,10 @@ reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 589eb2c3c23f0ba65300dfa2d9e8e5b724b99f8c471aa1fc89b9beda5a2df79c
+factual_fingerprint: 72ff240836f6cbf3df95ba6e0f782e1868cabcef870286ff1c5e1e7a231a8b97
 source: Teaching Vacancies
-source_job_id: administration-assistant-5bf8284e-5a65-4c7e-bb0a-d149927a1892
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-5bf8284e-5a65-4c7e-bb0a-d149927a1892
+source_job_id: administration-assistant-11d42ccb-1e47-4b92-b33d-cda687020619
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-11d42ccb-1e47-4b92-b33d-cda687020619
 ---
 
 ---
@@ -68,6 +68,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administra
 
 ---
 action: 
+SELECTED | Devon | Okehampton, South West, EX20 1PW | £23,560.00 - £25,119.00 Annually (Actual) NJC Grade D. Range 8 to 12 | Attendance Officer
+employer: Okehampton College
+closing_date: 2026-10-05T23:59:00+01:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6b169ff08d5d57063bc45f49130bf09a6b55a0571b2ae28da5749f33f213293a
+source: Teaching Vacancies
+source_job_id: attendance-officer-d0027772-8f3a-48b5-b0ae-06908bf9d607
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-d0027772-8f3a-48b5-b0ae-06908bf9d607
+---
+
+---
+action: 
 SELECTED | Devon | Exeter, South West, EX4 8NN | £27,709 - £30,515 | Business Administrator
 employer: St James School
 closing_date: 2026-09-28T23:59:00+01:00
@@ -79,6 +94,21 @@ factual_fingerprint: f4ed7cbed6020bce9882fdae5498f1b6e0215deeec2ad2728a9ead3f38d
 source: Teaching Vacancies
 source_job_id: business-administrator-d383ef29-c17f-437b-8271-918c1d87de9b
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administrator-d383ef29-c17f-437b-8271-918c1d87de9b
+---
+
+---
+action: 
+SELECTED | Devon | Okehampton, EX20 1PU | £21,072.00 - £21,407.00 Annually (Actual) NJC Grade C. Range 6 to 7 | People Administrator
+employer: Dartmoor Multi Academy Trust
+closing_date: 2026-10-21T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b8c30f63380f5f8e84f09ffd420b65364263862b7b27a8303afcab0672433b2e
+source: Teaching Vacancies
+source_job_id: people-administrator-dartmoor-multi-academy-trust-okehampton-not-recorded
+source_url: https://teaching-vacancies.service.gov.uk/jobs/people-administrator-dartmoor-multi-academy-trust-okehampton-not-recorded
 ---
 
 ---
@@ -139,6 +169,21 @@ factual_fingerprint: cba78843b31d017695c0778f96b53e5bde1c20bd49241631acd860039fa
 source: Teaching Vacancies
 source_job_id: school-hub-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-hub-administrator
+---
+
+---
+action: 
+SELECTED | Devon | Plymouth, South West, PL6 6DX | £26,427.00 - £27,274.00 Annually (FTE) Grade C, £13.70-£14.14, Actual Salary £15,349.24 | School Office Administrator
+employer: Beechwood Primary Academy
+closing_date: 2026-10-12T09:00:00+01:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5008107f28021204fc48613d5567a040177b5aa7dd8f1ccd4d0784917616b2aa
+source: Teaching Vacancies
+source_job_id: school-office-administrator-beechwood-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-administrator-beechwood-primary-academy
 ---
 
 ---
@@ -214,7 +259,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 - [Apprenticeship and PTSA Operations Coordinator](https://teaching-vacancies.service.gov.uk/jobs/apprenticeship-and-ptsa-operations-coordinator) — Insufficient admin/service evidence.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-torquay-boys-grammar-school-torquay-devon) — Insufficient admin/service evidence.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-0263aaa9-e252-4340-b2d6-102751e90f65) — Insufficient admin/service evidence.
-- [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-blackpool-church-of-england-primary-school) — Insufficient admin/service evidence.
+- [Creative Performing Arts Administration Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/creative-performing-arts-administration-support-assistant) — Insufficient admin/service evidence.
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-chulmleigh-community-college) — Missing salary or pay scale.
 - [Finance and Contracts Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-and-contracts-officer) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-dartmoor-multi-academy-trust) — Insufficient admin/service evidence.
