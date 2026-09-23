@@ -12,11 +12,13 @@ test("exposes a stable analytics-ready event for early client events", () => {
   assert.equal(ANALYTICS_READY_EVENT, "ontap:analytics-ready");
 });
 
-test("suppresses explicit browser automation and crawler analytics only", () => {
-  assert.equal(isLikelyAutomation("Mozilla/5.0 Chrome/140 Safari/537.36", false), false);
-  assert.equal(isLikelyAutomation("Mozilla/5.0 HeadlessChrome/140", false), true);
-  assert.equal(isLikelyAutomation("Googlebot/2.1", false), true);
-  assert.equal(isLikelyAutomation("Mozilla/5.0 Chrome/140", true), true);
+test("suppresses only explicit crawler or automation user agents", () => {
+  assert.equal(isLikelyAutomation("Mozilla/5.0 Chrome/140 Safari/537.36"), false);
+  assert.equal(isLikelyAutomation("Mozilla/5.0 Chrome/140", true), false);
+  assert.equal(isLikelyAutomation("Mozilla/5.0 HeadlessChrome/140"), true);
+  assert.equal(isLikelyAutomation("Googlebot/2.1"), true);
+  assert.equal(isLikelyAutomation("Mozilla/5.0 (compatible; Bingbot/2.0)"), true);
+  assert.equal(isLikelyAutomation("Mozilla/5.0 crawler-like-browser"), false);
 });
 
 test("recognises campaign parameters without treating ordinary queries as campaigns", () => {
