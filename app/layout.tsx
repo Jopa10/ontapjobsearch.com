@@ -2,6 +2,7 @@
 
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import Script from 'next/script';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -16,6 +17,7 @@ const inter = Inter({
 });
 
 const siteUrl = 'https://www.ontapjobsearch.com';
+const analyticsMeasurementId = 'G-XLJL0PXJ0V';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -97,6 +99,30 @@ export default function RootLayout({
             __html: JSON.stringify(websiteStructuredData),
           }}
         />
+        <Script id="ontap-ga4-bootstrap" strategy="beforeInteractive">
+          {`(function () {
+  var measurementId = '${analyticsMeasurementId}';
+  var automationPattern = /(?:Googlebot|bingbot|Baiduspider|YandexBot|DuckDuckBot|HeadlessChrome|PhantomJS|Selenium|Playwright|Puppeteer|facebookexternalhit|Twitterbot|LinkedInBot|Discordbot|Slackbot|WhatsApp)/i;
+  var currentWindow = window;
+  if (automationPattern.test(currentWindow.navigator.userAgent)) {
+    currentWindow.__ontapAnalyticsSuppressed = 'automation';
+    return;
+  }
+  currentWindow.dataLayer = currentWindow.dataLayer || [];
+  currentWindow.gtag = currentWindow.gtag || function () {
+    currentWindow.dataLayer.push(arguments);
+  };
+  if (!currentWindow.__ontapAnalyticsLoaded) {
+    currentWindow.__ontapAnalyticsLoaded = true;
+    currentWindow.gtag('js', new Date());
+    currentWindow.gtag('config', measurementId);
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=' + measurementId;
+    document.head.appendChild(script);
+  }
+})();`}
+        </Script>
       </head>
       <body className={`${inter.className} antialiased flex flex-col min-h-screen`} suppressHydrationWarning>
         <Analytics />
