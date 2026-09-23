@@ -52,26 +52,35 @@ function hasStoredValue(storage: Storage, key: string): boolean {
 export default function Analytics() {
   useEffect(() => {
     const analyticsWindow = window as AnalyticsWindow;
-    if (analyticsWindow.__ontapAnalyticsLoaded || analyticsWindow.__ontapAnalyticsSuppressed) return;
+    if (analyticsWindow.__ontapAnalyticsSuppressed) return;
 
-    if (isLikelyAutomation(navigator.userAgent)) {
-      analyticsWindow.__ontapAnalyticsSuppressed = "automation";
-      return;
+    if (!analyticsWindow.__ontapAnalyticsLoaded) {
+      if (isLikelyAutomation(window.navigator.userAgent)) {
+        analyticsWindow.__ontapAnalyticsSuppressed = "automation";
+        return;
+      }
+
+      analyticsWindow.__ontapAnalyticsLoaded = true;
+      analyticsWindow.dataLayer = analyticsWindow.dataLayer ?? [];
+      analyticsWindow.gtag = analyticsWindow.gtag ?? ((...args: unknown[]) => {
+        analyticsWindow.dataLayer?.push(args);
+      });
+
+      const gtag = analyticsWindow.gtag;
+      gtag("js", new Date());
+      gtag("config", ANALYTICS_MEASUREMENT_ID);
+
+      if (!document.querySelector(`script[src*="googletagmanager.com/gtag/js?id=${ANALYTICS_MEASUREMENT_ID}"]`)) {
+        const script = document.createElement("script");
+        script.async = true;
+        script.src = `https://www.googletagmanager.com/gtag/js?id=${ANALYTICS_MEASUREMENT_ID}`;
+        document.head.appendChild(script);
+      }
     }
 
-    analyticsWindow.__ontapAnalyticsLoaded = true;
-    analyticsWindow.dataLayer = analyticsWindow.dataLayer ?? [];
-    analyticsWindow.gtag = (...args: unknown[]) => analyticsWindow.dataLayer?.push(args);
-
     const gtag = analyticsWindow.gtag;
-    gtag("js", new Date());
-    gtag("config", ANALYTICS_MEASUREMENT_ID);
+    if (typeof gtag !== "function") return;
     window.dispatchEvent(new Event(ANALYTICS_READY_EVENT));
-
-    const script = document.createElement("script");
-    script.async = true;
-    script.src = `https://www.googletagmanager.com/gtag/js?id=${ANALYTICS_MEASUREMENT_ID}`;
-    document.head.appendChild(script);
 
     const now = Date.now();
     const firstSeen = readNumber(localStorage, FIRST_SEEN_KEY);
@@ -95,6 +104,7 @@ export default function Analytics() {
       });
     }
 
+    const events = ["pointerdown", "keydown", "touchstart", "scroll"] as const;
     const trackQualifiedVisit = (event: Event) => {
       if (!event.isTrusted || hasStoredValue(sessionStorage, QUALIFIED_SESSION_KEY)) return;
       writeValue(sessionStorage, QUALIFIED_SESSION_KEY, "tracked");
@@ -110,7 +120,6 @@ export default function Analytics() {
       events.forEach((eventName) => window.removeEventListener(eventName, trackQualifiedVisit));
     };
 
-    const events = ["pointerdown", "keydown", "touchstart", "scroll"] as const;
     events.forEach((eventName) => window.addEventListener(eventName, trackQualifiedVisit, { passive: true }));
 
     return () => {
