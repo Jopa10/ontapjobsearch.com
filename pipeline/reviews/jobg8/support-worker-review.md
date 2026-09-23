@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-09-22
+feed_date: 2026-09-23
 
 Edit only the `action:` line in each block:
 
@@ -89,6 +89,12 @@ SELECTED | Sussex | Chichester | £14.28 per hour | Healthcare Assistant
 job_id: 1959112
 ---
 
+---
+action:
+SELECTED | Sussex | Battle | £13.00 per hour | Healthcare Assistant
+job_id: 1990925
+---
+
 ## SUSSEX — POSSIBLES
 
 _No jobs in this group._
@@ -99,12 +105,6 @@ _No jobs in this group._
 action:
 SELECTED | Cumbria - South | Ulverston | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
 job_id: 107950046
----
-
----
-action:
-SELECTED | Cumbria - South | Appleby-in-westmorland | £30000 per year | Childrens Residential Support Worker
-job_id: 107989986
 ---
 
 ---
@@ -135,12 +135,6 @@ job_id: 1401784888
 action:
 SELECTED | Hampshire | Southampton | £25186 - £26244 per year | Night Care Worker
 job_id: 1401784887
----
-
----
-action:
-SELECTED | Hampshire | Gosport | £26018 - £27111 per year | Day Opportunities Support Worker (HCC Care YA)
-job_id: 1401784915
 ---
 
 ---
@@ -379,8 +373,8 @@ job_id: 484455508861989683237340
 
 ---
 action:
-SELECTED | Kent | Cranbrook | £15 - £17 per hour | Children's Complex Care Support Worker
-job_id: 107962413
+SELECTED | Kent | Margate | £25,845 per annum | Female Support Worker
+job_id: 143989699224639897637340
 ---
 
 ## KENT — POSSIBLES
@@ -453,6 +447,18 @@ job_id: 1961257
 action:
 SELECTED | London | Enfield | £12.92-£13.23 per hour | Support Worker
 job_id: 1881515
+---
+
+---
+action:
+SELECTED | London | London | £28860 per year | Care Assistant
+job_id: 1990764
+---
+
+---
+action:
+SELECTED | London | London | £30,784.00 per annum | Support Worker
+job_id: 1991722
 ---
 
 ## LONDON — POSSIBLES

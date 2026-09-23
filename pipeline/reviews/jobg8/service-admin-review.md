@@ -1,6 +1,6 @@
 # Service-admin manual review
 
-feed_date: 2026-09-22
+feed_date: 2026-09-23
 
 Edit only the `action:` line in each block:
 
@@ -109,12 +109,6 @@ job_id: 1937623
 
 ---
 action:
-SELECTED | Yorkshire - West | Leeds |  | Property Accounts Administrator
-job_id: 1916170
----
-
----
-action:
 SELECTED | Yorkshire - West | Leeds |  | Part-Time Accounts Assistant for Yorkshire Design Group
 job_id: 1910102
 ---
@@ -151,8 +145,26 @@ job_id: 107993362
 
 ---
 action:
+SELECTED | Yorkshire - West | Leeds |  | Commercial Claims Handler
+job_id: 1889757
+---
+
+---
+action:
 SELECTED | Yorkshire - West | Leeds |  | HR Onboarding Coordinator
 job_id: 1881992
+---
+
+---
+action:
+SELECTED | Yorkshire - West | Leeds |  | Client Money Controls Coordinator
+job_id: 1991406
+---
+
+---
+action:
+SELECTED | Yorkshire - West | Bradford |  | Early Help Family Support Coordinator (Asylum and Refugee)
+job_id: 1991676
 ---
 
 ## WEST YORKSHIRE — POSSIBLES
@@ -245,12 +257,6 @@ job_id: 1858746
 action:
 SELECTED | London | London |  | Sales Support Administrator
 job_id: 1859485
----
-
----
-action:
-SELECTED | London | London |  | Marketing Coordinator
-job_id: 1858069
 ---
 
 ---
@@ -495,12 +501,6 @@ job_id: 1909993
 
 ---
 action:
-SELECTED | London | Edgware |  | Accounts Assistant
-job_id: 1912487
----
-
----
-action:
 SELECTED | London | Enfield |  | Accounts Assistant
 job_id: 1912178
 ---
@@ -533,12 +533,6 @@ job_id: 1930110
 action:
 SELECTED | London | London | £30000 - £40000 per year | Marketing Planner
 job_id: 1932860
----
-
----
-action:
-SELECTED | London | London |  | Accounts Assistant
-job_id: 1938867
 ---
 
 ---
@@ -729,12 +723,6 @@ job_id: 1913442
 
 ---
 action:
-SELECTED | London | London | £18.00 - £21.00 per hour | Temporary Finance Assistant - Treasury and Cash Management
-job_id: 1911855
----
-
----
-action:
 SELECTED | London | South Croydon |  | Accounts Receivable Administrator
 job_id: 1911467
 ---
@@ -789,12 +777,6 @@ job_id: 1982395
 
 ---
 action:
-SELECTED | London | London |  | Supporter Services Administrator
-job_id: 1982344
----
-
----
-action:
 SELECTED | London | London |  | Lettings Administrator
 job_id: 1983372
 ---
@@ -823,7 +805,43 @@ SELECTED | London | London |  | Finance & HR Assistant
 job_id: 1883009
 ---
 
+---
+action:
+SELECTED | London | London |  | Town Planner
+job_id: 1990424
+---
+
+---
+action:
+SELECTED | London | London |  | Risk and Assurance Team Administrator (12 Month fixed term contract)
+job_id: 1991747
+---
+
+---
+action:
+SELECTED | London | London | £35,000 per annum | Committees Secretary & EA to the SLT
+job_id: 1991685
+---
+
+---
+action:
+SELECTED | London | London | £17.48 per hour | Recruitment Administrator
+job_id: 1992579
+---
+
 ## LONDON — POSSIBLES
+
+---
+action:
+POSS - LONDON | London | London | £19.05 per hour | interview Scheduler - Copilot
+job_id: 108016511
+---
+
+---
+action:
+POSS - LONDON | London | London | £36000 - £54000 per year | Ebilling Coordinator
+job_id: 1991832
+---
 
 ---
 action:
@@ -934,12 +952,6 @@ job_id: 107959953
 _No jobs in this group._
 
 ## SURREY — SELECTED
-
----
-action:
-SELECTED | Surrey | Surrey | competitive + benefits | Accounts Assistant, Up to 12 Months FTC
-job_id: 1402264245
----
 
 ---
 action:
@@ -1079,6 +1091,12 @@ SELECTED | Surrey | Surrey | £30000 per year | Lettings Administrator
 job_id: 1889841
 ---
 
+---
+action:
+SELECTED | Surrey | Surrey | competitive + benefits | Accounts Assistant, Up to 12 Months FTC
+job_id: 1402265683
+---
+
 ## SURREY — POSSIBLES
 
 _No jobs in this group._
@@ -1161,12 +1179,6 @@ job_id: 1909971
 action:
 SELECTED | Kent | Kent |  | Accounts Assistant
 job_id: 1958432
----
-
----
-action:
-SELECTED | Kent | Kent | £35000 per year | Accounts Assistant
-job_id: 1958067
 ---
 
 ---
@@ -1261,12 +1273,6 @@ job_id: 107954542
 
 ---
 action:
-SELECTED | Sussex | Sussex |  | Temporary HR Administrator
-job_id: 1900339
----
-
----
-action:
 SELECTED | Sussex | Sussex |  | Marketing Co-ordinator
 job_id: 1910463
 ---
@@ -1337,6 +1343,18 @@ SELECTED | Sussex | Sussex |  | Part Time Accounts Assistant
 job_id: 1881796
 ---
 
+---
+action:
+SELECTED | Sussex | Sussex |  | Charity Administrator
+job_id: 1991688
+---
+
+---
+action:
+SELECTED | Sussex | Sussex | £30000 per year | HR Coordinator
+job_id: 108019283
+---
+
 ## SUSSEX — POSSIBLES
 
 _No jobs in this group._
@@ -1362,12 +1380,6 @@ job_id: 1859862
 
 ---
 action:
-SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire |  | HR Administrator, Temporary to Permanent Opportunity
-job_id: 1859602
----
-
----
-action:
 SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire |  | HR & Recruitment Coordinator
 job_id: 1869638
 ---
@@ -1382,12 +1394,6 @@ job_id: 1874877
 action:
 SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire |  | Customer Service Advisor
 job_id: 1842482
----
-
----
-action:
-SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire |  | HR Assistant
-job_id: 1868063
 ---
 
 ---
@@ -1469,12 +1475,6 @@ job_id: 1876034
 
 ---
 action:
-SELECTED | Bedfordshire | Bedfordshire | £29950 per year | Procurement Administrator
-job_id: 415093
----
-
----
-action:
 SELECTED | Bedfordshire | Bedfordshire | £30000 - £35000 per year | Accounts Assistant
 job_id: 1944217
 ---
@@ -1549,6 +1549,12 @@ job_id: 1947035
 action:
 SELECTED | Berkshire | Berkshire |  | Sales Support Administrator
 job_id: 1898953
+---
+
+---
+action:
+SELECTED | Berkshire | Berkshire |  | Business Support Officer
+job_id: 1991742
 ---
 
 ## BERKSHIRE — POSSIBLES
@@ -1661,12 +1667,6 @@ job_id: 1899302
 
 ---
 action:
-SELECTED | Bristol & Bath | Bristol | £25,000 per annum | Administrative Assistant
-job_id: 1982356
----
-
----
-action:
 SELECTED | Bristol & Bath | Bristol | £29741 per year | Service Advisor
 job_id: 1884559
 ---
@@ -1681,24 +1681,6 @@ _No jobs in this group._
 action:
 SELECTED | Buckinghamshire | Buckinghamshire | £30000 - £32000 per year | Purchase Ledger Administrator
 job_id: 1860687
----
-
----
-action:
-SELECTED | Buckinghamshire | Buckinghamshire |  | HR Operations Coordinator
-job_id: 1856610
----
-
----
-action:
-SELECTED | Buckinghamshire | Buckinghamshire |  | Accounts Assistant
-job_id: 1875924
----
-
----
-action:
-SELECTED | Buckinghamshire | Buckinghamshire |  | Accounts Assistant
-job_id: 1868169
 ---
 
 ---
@@ -1729,12 +1711,6 @@ job_id: 1956753
 action:
 SELECTED | Buckinghamshire | Buckinghamshire |  | Accounts & Business Administrator
 job_id: 1959769
----
-
----
-action:
-SELECTED | Buckinghamshire | Buckinghamshire |  | Medical Events Project Co-ordinator
-job_id: 1907611
 ---
 
 ---
@@ -1873,6 +1849,12 @@ job_id: 1892204
 action:
 SELECTED | Cambridgeshire | Cambridge |  | Events Coordinator
 job_id: 1882412
+---
+
+---
+action:
+SELECTED | Cambridgeshire | Cambridge |  | Trainee Community Engagement Coordinator - Cambridge CB1
+job_id: 1991749
 ---
 
 ## CAMBRIDGESHIRE — POSSIBLES
@@ -2083,12 +2065,6 @@ job_id: 20279_62648-00a9a6350da241ecc876a19e242c605c
 action:
 SELECTED | Cheshire - Warrington & Halton | Runcorn |  | Accounts Payable Administrator
 job_id: 1908576
----
-
----
-action:
-SELECTED | Cheshire - Warrington & Halton | Warrington |  | Retail Support Administrator
-job_id: 1927990
 ---
 
 ---
@@ -2337,9 +2313,25 @@ SELECTED | Devon | Devon |  | Finance Assistant
 job_id: 1895753
 ---
 
+---
+action:
+SELECTED | Devon | Devon | £12.95 per hour | Receptionist/Admin Assistant
+job_id: 1990881
+---
+
+---
+action:
+SELECTED | Devon | Devon |  | Customer Service Advisor
+job_id: 1991665
+---
+
 ## DEVON — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - DEVON | Devon | Devon | £16.00-£20.00 per hour | Pay Roll Administrator
+job_id: 1991622
+---
 
 ## DORSET — SELECTED
 
@@ -2353,12 +2345,6 @@ job_id: 1860803
 action:
 SELECTED | Dorset | Dorset | £30000 per year | Trust Administrator
 job_id: 107765584
----
-
----
-action:
-SELECTED | Dorset | Dorset | £17.00 per hour | HR Administrator
-job_id: 1868450
 ---
 
 ---
@@ -2377,12 +2363,6 @@ job_id: 1877445
 action:
 SELECTED | Dorset | Dorset | £13.08 per hour | Finance Assistant
 job_id: 1898309
----
-
----
-action:
-SELECTED | Dorset | Dorset | £13.45 - £13.95 per hour | Activities Coordinator
-job_id: 107965514
 ---
 
 ---
@@ -2407,6 +2387,18 @@ job_id: 1957010
 action:
 SELECTED | Dorset | Dorset | £12000 per year | Activities Coordinator
 job_id: 107992811
+---
+
+---
+action:
+SELECTED | Dorset | Dorset | £26000 - £30000 per year | Purchasing Assistant
+job_id: 23643_225635774
+---
+
+---
+action:
+SELECTED | Dorset | Dorset | £12000 per year | Activities Coordinator
+job_id: 107903280
 ---
 
 ## DORSET — POSSIBLES
@@ -2705,12 +2697,6 @@ job_id: 1883512
 
 ---
 action:
-SELECTED | Greater Manchester - Manchester & Salford | Manchester |  | Company Secretary (Interim)
-job_id: 1884404
----
-
----
-action:
 SELECTED | Greater Manchester - Manchester & Salford | Manchester |  | Finance Assistant
 job_id: 1905690
 ---
@@ -2753,12 +2739,6 @@ job_id: 1948428
 
 ---
 action:
-SELECTED | Greater Manchester - Manchester & Salford | Manchester |  | Customer Services Administrator
-job_id: 1939328
----
-
----
-action:
 SELECTED | Greater Manchester - Manchester & Salford | Manchester |  | Lettings Administrator
 job_id: 1914033
 ---
@@ -2797,12 +2777,6 @@ _No jobs in this group._
 action:
 SELECTED | Greater Manchester - South | Altrincham |  | Bankruptcy Administrator
 job_id: 1869719
----
-
----
-action:
-SELECTED | Greater Manchester - South | Sale | £28,638 - £29,497 per annum | Recruitment Coordinator
-job_id: 1876630
 ---
 
 ---
@@ -3027,7 +3001,11 @@ job_id: 1882271
 
 ## LEICESTERSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - LEICESTERSHIRE | Leicestershire | Leicestershire | £16.11 - £25.66 per hour | Purchasing Assistant
+job_id: 23643_225628775
+---
 
 ## LINCOLNSHIRE — SELECTED
 
@@ -3139,9 +3117,19 @@ SELECTED | Merseyside - Liverpool | Liverpool |  | People Services Learning & De
 job_id: 1882314
 ---
 
+---
+action:
+SELECTED | Merseyside - Liverpool | Liverpool |  | Litigated Motor Recoveries Claims Handler
+job_id: 1992976
+---
+
 ## MERSEYSIDE - LIVERPOOL — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - MERSEYSIDE - LIVERPOOL | Merseyside - Liverpool | Liverpool | £35000 per year (Benefits) | HR Operations Administrator
+job_id: 23643_225532338
+---
 
 ## NORFOLK — SELECTED
 
@@ -3209,12 +3197,6 @@ job_id: 1950311
 action:
 SELECTED | Norfolk | Norfolk | £30000 per year | Accounts Assistant
 job_id: 1952000
----
-
----
-action:
-SELECTED | Norfolk | Norfolk |  | Bookkeeper & Administrator
-job_id: 1944032
 ---
 
 ---
@@ -3311,12 +3293,6 @@ job_id: 1899022
 
 ---
 action:
-SELECTED | Northamptonshire | Northamptonshire | £26000 per year | Returns Administrator
-job_id: 107954199
----
-
----
-action:
 SELECTED | Northamptonshire | Northamptonshire |  | Conference and Events Administrator
 job_id: 1982382
 ---
@@ -3325,6 +3301,12 @@ job_id: 1982382
 action:
 SELECTED | Northamptonshire | Northamptonshire |  | HR Administrator (Northampton Students Union Students Only)
 job_id: 1982316
+---
+
+---
+action:
+SELECTED | Northamptonshire | Northamptonshire |  | HR Assistant
+job_id: 1991727
 ---
 
 ## NORTHAMPTONSHIRE — POSSIBLES
@@ -3517,12 +3499,6 @@ job_id: 1871056
 action:
 SELECTED | Scotland Central - Edinburgh & Lothians | Edinburgh |  | Accounts Assistant
 job_id: 1878501
----
-
----
-action:
-SELECTED | Scotland Central - Edinburgh & Lothians | Edinburgh |  | HR Administrator
-job_id: 1885249
 ---
 
 ---
@@ -3743,12 +3719,6 @@ job_id: 1950284
 
 ---
 action:
-SELECTED | Scotland West - Glasgow | Glasgow | £12.71 per hour | Lifestyle Coordinator
-job_id: 107929888
----
-
----
-action:
 SELECTED | Scotland West - Glasgow | Glasgow |  | People & Administration Coordinator
 job_id: 1936242
 ---
@@ -3793,12 +3763,6 @@ job_id: 1928348
 action:
 SELECTED | Shropshire | Shropshire | £15 per hour | Accounts & Finance Coordinator
 job_id: 1894730
----
-
----
-action:
-SELECTED | Shropshire | Shropshire | £14.5 per hour | Temporary Admin Assistant
-job_id: 108013835
 ---
 
 ## SHROPSHIRE — POSSIBLES
@@ -4125,6 +4089,12 @@ SELECTED | Wales South - Valleys | Merthyr Tydfil |  | Contact Centre Agent
 job_id: 20279_62802-d24d3d6916a209e15b1680693740da2f
 ---
 
+---
+action:
+SELECTED | Wales South - Valleys | Pontypridd | £26,520 per annum | Wellbeing & Volunteer Coordinator
+job_id: 1991743
+---
+
 ## WALES SOUTH - VALLEYS — POSSIBLES
 
 _No jobs in this group._
@@ -4177,12 +4147,6 @@ job_id: 1958335
 action:
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham |  | Accounts Assistant
 job_id: 1914542
----
-
----
-action:
-SELECTED | West Midlands - Birmingham & Solihull | Solihull |  | Learning & Development Coordinator
-job_id: 1912504
 ---
 
 ---
@@ -4293,12 +4257,6 @@ SELECTED | Wiltshire | Wiltshire | £30000 per year | Accounts Assistant
 job_id: 1896597
 ---
 
----
-action:
-SELECTED | Wiltshire | Wiltshire | £13 - £14 per hour | Accounts and Finance Assistant
-job_id: 1896441
----
-
 ## WILTSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -4345,6 +4303,12 @@ job_id: 1939826
 action:
 SELECTED | Yorkshire - East | Hull | £21,213.98 per annum | Family Support Coordinator
 job_id: 1982338
+---
+
+---
+action:
+SELECTED | Yorkshire - East | Goole |  | HR Administrator
+job_id: 1991433
 ---
 
 ## YORKSHIRE - EAST — POSSIBLES
@@ -4494,6 +4458,12 @@ job_id: 1899093
 action:
 DROPPED | London | London | £40000 per year | HR ASSISTANT SPECIALIST LAW FIRM &;40,000 4:1 HYBRID
 job_id: 1897827
+---
+
+---
+action:
+DROPPED | Yorkshire - South | Barnsley | £35000 per year | German Speaking Administrator
+job_id: 107830594
 ---
 
 <!-- ONTAP_PERSISTENT_DECISIONS_V1
