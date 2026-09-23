@@ -1,11 +1,11 @@
 export const ANALYTICS_MEASUREMENT_ID = "G-XLJL0PXJ0V";
 export const ANALYTICS_READY_EVENT = "ontap:analytics-ready";
 
-const AUTOMATION_USER_AGENT =
-  /(?:bot\b|crawler|spider|slurp|headlesschrome|phantomjs|selenium|playwright|puppeteer|facebookexternalhit|linkedinbot|discordbot|whatsapp)/i;
+const EXPLICIT_AUTOMATION_USER_AGENT =
+  /(?:Googlebot|bingbot|Baiduspider|YandexBot|DuckDuckBot|HeadlessChrome|PhantomJS|Selenium|Playwright|Puppeteer|facebookexternalhit|Twitterbot|LinkedInBot|Discordbot|Slackbot|WhatsApp)/i;
 
-export function isLikelyAutomation(userAgent: string, webdriver: boolean): boolean {
-  return webdriver || AUTOMATION_USER_AGENT.test(userAgent);
+export function isLikelyAutomation(userAgent: string): boolean {
+  return EXPLICIT_AUTOMATION_USER_AGENT.test(userAgent);
 }
 
 export function pageContext(pathname: string): "job_detail" | "listing" | "site" {
