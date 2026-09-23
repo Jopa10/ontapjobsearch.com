@@ -832,23 +832,20 @@ job_id: 1992579
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £19.05 per hour | interview Scheduler - Copilot
 job_id: 108016511
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £36000 - £54000 per year | Ebilling Coordinator
 job_id: 1991832
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | Sutton | £45000 per year | Sales Progressor and Office Coordinator
 job_id: 1979293
 ---
-
 ## HAMPSHIRE — SELECTED
 
 ---
@@ -2328,11 +2325,10 @@ job_id: 1991665
 ## DEVON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - DEVON | Devon | Devon | £16.00-£20.00 per hour | Pay Roll Administrator
 job_id: 1991622
 ---
-
 ## DORSET — SELECTED
 
 ---
@@ -2932,11 +2928,10 @@ job_id: 1905967
 ## HERTFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - HERTFORDSHIRE | Hertfordshire | Hertfordshire | £32000 - £35000 per year | Finance Assistant
 job_id: 1856029
 ---
-
 ## LEICESTERSHIRE — SELECTED
 
 ---
@@ -3002,11 +2997,10 @@ job_id: 1882271
 ## LEICESTERSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - LEICESTERSHIRE | Leicestershire | Leicestershire | £16.11 - £25.66 per hour | Purchasing Assistant
 job_id: 23643_225628775
 ---
-
 ## LINCOLNSHIRE — SELECTED
 
 ---
@@ -3126,11 +3120,10 @@ job_id: 1992976
 ## MERSEYSIDE - LIVERPOOL — POSSIBLES
 
 ---
-action:
+action: select
 POSS - MERSEYSIDE - LIVERPOOL | Merseyside - Liverpool | Liverpool | £35000 per year (Benefits) | HR Operations Administrator
 job_id: 23643_225532338
 ---
-
 ## NORFOLK — SELECTED
 
 ---
