@@ -54,7 +54,7 @@ export default function Analytics() {
     const analyticsWindow = window as AnalyticsWindow;
     if (analyticsWindow.__ontapAnalyticsLoaded || analyticsWindow.__ontapAnalyticsSuppressed) return;
 
-    if (isLikelyAutomation(navigator.userAgent, navigator.webdriver)) {
+    if (isLikelyAutomation(navigator.userAgent)) {
       analyticsWindow.__ontapAnalyticsSuppressed = "automation";
       return;
     }
