@@ -13,14 +13,14 @@ Edit only the `action:` line in each block:
 
 ---
 action:
-SELECTED | Yorkshire - West | Leeds | £14.50 per hour | Night Support Worker
-job_id: 1986777
+SELECTED | Yorkshire - West | Wetherby | £14.50 per hour | Female Night Support Worker
+job_id: 1996739
 ---
 
 ---
 action:
-SELECTED | Yorkshire - West | Wetherby | £14.50 per hour | Night Support Worker
-job_id: 1986845
+SELECTED | Yorkshire - West | Leeds | £14.50 per hour | Female Night Support Worker
+job_id: 1996737
 ---
 
 ## WEST YORKSHIRE — POSSIBLES
@@ -37,7 +37,11 @@ job_id: 1938182
 
 ## SOUTH YORKSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - YORKSHIRE - SOUTH | Yorkshire - South | Barnsley | £39134 per year | Healthcare Assistant
+job_id: 107856311
+---
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — SELECTED
 
@@ -211,12 +215,6 @@ job_id: 1401785354
 
 ---
 action:
-SELECTED | Hampshire | Tadley | £25437 per year | Female Support Worker
-job_id: 107989086
----
-
----
-action:
 SELECTED | Hampshire | Winchester | £13.2 - £14.75 per hour | Specialist Care Support Worker Winchester
 job_id: 108004872
 ---
@@ -377,9 +375,19 @@ SELECTED | Kent | Margate | £25,845 per annum | Female Support Worker
 job_id: 143989699224639897637340
 ---
 
+---
+action:
+SELECTED | Kent | Tunbridge Wells | £15.77 per hour | Brain Injury Support Worker
+job_id: 1996389
+---
+
 ## KENT — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - KENT | Kent | Sevenoaks | £39134 per year | Healthcare Assistant
+job_id: 107854750
+---
 
 ## LONDON — SELECTED
 
@@ -439,12 +447,6 @@ job_id: 1961315
 
 ---
 action:
-SELECTED | London | Barking | £36693 per year | Early Language & Communication Support Worker
-job_id: 1961257
----
-
----
-action:
 SELECTED | London | Enfield | £12.92-£13.23 per hour | Support Worker
 job_id: 1881515
 ---
@@ -463,7 +465,11 @@ job_id: 1991722
 
 ## LONDON — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - LONDON | London | Kingston Upon Thames | £48917 per year | Healthcare Assistant - Travelling Role
+job_id: 107840835
+---
 
 ## OXFORDSHIRE — SELECTED
 
@@ -471,12 +477,6 @@ _No jobs in this group._
 action:
 SELECTED | Oxfordshire | Oxford | £85 - £110 per daily | Behaviour Support Assistant - Oxford
 job_id: 1819710
----
-
----
-action:
-SELECTED | Oxfordshire | Oxfordshire | £14.4 per hour | Home Carer
-job_id: 107617602
 ---
 
 ---
@@ -493,7 +493,11 @@ job_id: 107626594
 
 ## OXFORDSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - OXFORDSHIRE | Oxfordshire | Henley-on-thames | £39134 per year | Healthcare Assistant
+job_id: 107837858
+---
 
 ## SURREY — SELECTED
 
@@ -539,6 +543,12 @@ SELECTED | Surrey | Addlestone | £25,845 per year | Support Worker
 job_id: 470458959486622105637340
 ---
 
+---
+action:
+SELECTED | Surrey | Tadworth | £15.00 per hour | Male Healthcare Assistant
+job_id: 1996262
+---
+
 ## SURREY — POSSIBLES
 
 _No jobs in this group._
@@ -555,6 +565,12 @@ job_id: 1881025
 action:
 SELECTED | Wiltshire | Chippenham | £85 - £110 per daily | Autism Support Assistant
 job_id: 107869953
+---
+
+---
+action:
+SELECTED | Wiltshire | Warminster | £15.5 per hour ((DOE)) | Support Worker Waking Nights
+job_id: 107978779
 ---
 
 ## WILTSHIRE — POSSIBLES
