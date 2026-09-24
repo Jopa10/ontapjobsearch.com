@@ -37,7 +37,7 @@ export default function Header() {
     Ontap Job Search
   </div>
   <div className="text-xs text-gray-500">
-    UK jobs • Updated daily • No signup required
+    Updated daily • No sign-up
   </div>
 </div>
                     </Link>

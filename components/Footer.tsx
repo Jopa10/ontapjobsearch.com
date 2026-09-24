@@ -15,22 +15,22 @@ export default function Footer() {
 
     return (
         <footer className="bg-gray-900 text-gray-300 mt-auto">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-12">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-5 md:gap-8">
                     {/* Company Info */}
-                    <div className="col-span-1 md:col-span-2">
-                        <h3 className="text-white text-lg font-bold mb-4">Ontap Job Search</h3>
-                        <p className="text-sm mb-4">
+                    <div className="col-span-2 md:col-span-2">
+                        <h3 className="text-white text-lg font-bold mb-2 md:mb-4">Ontap Job Search</h3>
+                        <p className="text-sm mb-0 md:mb-4">
                             Curated UK jobs by role and region, checked regularly and available without signup.
                         </p>
                     </div>
 
                     {/* Quick Links */}
                     <div>
-                        <h4 className="text-white text-sm font-semibold mb-4 uppercase tracking-wider">
+                        <h4 className="text-white text-sm font-semibold mb-2 md:mb-4 uppercase tracking-wider">
                             Quick Links
                         </h4>
-                        <ul className="space-y-2">
+                        <ul className="space-y-1 md:space-y-2">
                             <li>
                                 <Link href="/" className="text-sm hover:text-white transition-colors">
                                     Home
@@ -51,10 +51,10 @@ export default function Footer() {
 
                     {/* Legal */}
                     <div>
-                        <h4 className="text-white text-sm font-semibold mb-4 uppercase tracking-wider">
+                        <h4 className="text-white text-sm font-semibold mb-2 md:mb-4 uppercase tracking-wider">
                             Legal
                         </h4>
-                        <ul className="space-y-2">
+                        <ul className="space-y-1 md:space-y-2">
                             <li>
                                 <Link href="/privacy-policy" className="text-sm hover:text-white transition-colors">
                                     Privacy Policy
@@ -75,7 +75,7 @@ export default function Footer() {
                 </div>
 
                 {/* Copyright */}
-                <div className="mt-8 pt-8 border-t border-gray-800 text-center">
+                <div className="mt-5 pt-5 md:mt-8 md:pt-8 border-t border-gray-800 text-center">
                     <p className="text-sm">
                         © {currentYear} Ontap Job Search. All rights reserved.
                     </p>

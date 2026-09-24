@@ -330,6 +330,28 @@ function CityBreadcrumbs({ breadcrumb }: { breadcrumb: CityPageBreadcrumb }) {
   );
 }
 
+function getListingIntro(introText: string | undefined, latestUpdate: string): string {
+  const latestDate = latestUpdate.startsWith("Updated ")
+    ? latestUpdate.slice("Updated ".length)
+    : latestUpdate;
+  if (!introText) return "Latest update: " + latestDate + " • Apply on employer sites";
+
+  return introText
+    .split(" • ")
+    .filter((part) => {
+      const clean = part.trim().toLowerCase();
+      return clean !== "updated daily" && !clean.startsWith("roles across ");
+    })
+    .map((part) => {
+      const clean = part.trim();
+      const prefix = "Latest update: Updated ";
+      return clean.startsWith(prefix)
+        ? "Latest update: " + clean.slice(prefix.length)
+        : clean;
+    })
+    .join(" • ");
+}
+
 function EmptyJobs() {
   return (
     <div
@@ -389,6 +411,7 @@ export default function JobSlicePage({
   const aiTipsSource = getAiTipsSourceForJsonPath(jsonPath);
   const cityBreadcrumb = getCityPageBreadcrumb(jsonPath);
   const childCityLinks = getActiveCityLinksForParentJsonPath(jsonPath);
+  const listingIntro = getListingIntro(introText, latestUpdate);
 
   return (
     <div className={softPageBackground ? styles.softPageBackground : undefined}>
@@ -461,8 +484,7 @@ export default function JobSlicePage({
                 margin: compactPageSpacing ? 0 : undefined,
               }}
             >
-              {introText ||
-                `Updated daily • Latest update: ${latestUpdate} • Roles across ${region} • Apply on employer sites`}
+              {listingIntro}
             </p>
           </div>
 
@@ -493,6 +515,10 @@ export default function JobSlicePage({
               <RelatedPagesPanel relatedPages={relatedPages} />
             </div>
           ) : null}
+
+          <div className={styles.mobileAiTips}>
+            <AiTipsCard regionSlug={aiTipsSource?.slug} compact />
+          </div>
 
           {jobs.length ? (
             <JobViewSwitcher

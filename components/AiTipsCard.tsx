@@ -10,7 +10,7 @@ type Gtag = (
   parameters: Record<string, string>
 ) => void;
 
-export default function AiTipsCard({ regionSlug }: { regionSlug?: string }) {
+export default function AiTipsCard({ regionSlug, compact = false }: { regionSlug?: string; compact?: boolean }) {
   const href = regionSlug ? `/ai-tips?from=${encodeURIComponent(regionSlug)}` : "/ai-tips";
 
   function trackClick() {
@@ -18,9 +18,17 @@ export default function AiTipsCard({ regionSlug }: { regionSlug?: string }) {
     gtag?.("event", "ai_tips_click", {
       link_url: href,
       page_path: window.location.pathname,
-      placement: "training_sidebar",
+      placement: compact ? "mobile_listing" : "training_sidebar",
       source_region: regionSlug || "unspecified",
     });
+  }
+
+  if (compact) {
+    return (
+      <Link href={href} onClick={trackClick} className={styles.aiTipsInlineLink}>
+        Practical AI tips for admin work →
+      </Link>
+    );
   }
 
   return (
