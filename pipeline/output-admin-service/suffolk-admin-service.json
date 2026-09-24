@@ -490,13 +490,17 @@
     "region": "Suffolk",
     "salary": "£25272.00",
     "employment_type": "Permanent",
-    "posted_date": "2026-09-23T14:01:29.388553450",
+    "posted_date": "2026-09-23T14:01:29.388553",
     "closing_date": "2026-09-30",
     "description": "We are looking for an enthusiastic, friendly and organised Receptionist to join our professional team in Stowmarket. We are an Integrated Team comprising of Nurses, Occupational Therapists, Physiotherapists, Social Workers and support staff. Our focus is on quality holistic care of those in our local community. You would be expected to work from Stowlodge with support from an administrator on site. Please note this post may close early if high a number of applications are recieved. This is a varied role - no two days are the same! You will be expected to work autonomously to provide reception support within a busy NHS building. This role requires the use of multiple systems including Systmone our patient recording system You will be arranging meetings, maintaining staff files, ordering stock, collecting data, creating templates, issuing equipment to name a few of the tasks involved in this role This is a patient facing role where you will communicate directly with the general public. We would also expect you to share our passion for delivering excellent patient care NHS experience isn't a requirement for this role but would be preferred. For full details of the responsibilities and duties of this role please see the attached job description.",
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9432-26-0728",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9432-26-0728",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5599160",
@@ -514,7 +518,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0817",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0817",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5605467",
@@ -532,7 +540,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0250-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0250-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5604716",
@@ -550,6 +562,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0882",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0882",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

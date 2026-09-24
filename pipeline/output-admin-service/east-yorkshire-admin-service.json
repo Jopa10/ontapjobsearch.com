@@ -1,30 +1,5 @@
 [
   {
-    "job_id": "107894712",
-    "title": "Quotations & Estimating Coordinator",
-    "company": "KD Recruitment Limited - Agency - Permanent",
-    "location": "Hull",
-    "region": "Yorkshire - East",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "27000",
-    "salary_max": "31000.24",
-    "salary_text": "£27000 - £31000.24 per year (+ Bank Holidays, ability to buy add)",
-    "posted_date": "",
-    "description": "Are you an experienced Quotations Coordinator, Estimator, Costing Coordinator or Commercial Coordinator looking for your next opportunity within a manufacturing business in the Hull area?\n\nDo you enjoy working with detailed information, building accurate quotations and making sure every element of a customer requirement has been properly costed?\n\nIf so, this Quotations & Estimating Coordinator jo click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Yic9job4bS9TDRS3aJFsW%2fiQEDQyP%2bfSc",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "KD Recruitment Limited",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "1939826",
     "title": "Warranties Administrator - Automotive",
     "company": "Office Angels - Agency - Permanent",
@@ -140,6 +115,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9356-26-0632",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9356-26-0632",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
