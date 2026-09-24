@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-09-23
-review_fingerprint: 9fa3cd32a18f96c8b6e65ab96be04b2e193bb8d386b956bb32b0222731c68a28
-routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
+review_date: 2026-09-24
+review_fingerprint: 3a53e87eb1b074c9a6d798228fd436f28cdff3ac5d8c88a288e100ce2dfe68f9
+routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 8
 - Selected: 1
-- POSS awaiting decision: 4
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 4
 
@@ -81,21 +81,6 @@ factual_fingerprint: 2aabe4f88eef315fee67d19923bab22bde8579a8f38bd553ad90d7cc21a
 source: Teaching Vacancies
 source_job_id: office-manager-clover-leys-spencer-academy-derby-derbyshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-clover-leys-spencer-academy-derby-derbyshire
----
-
----
-action: 
-POSS | East Midlands | Alfreton, East Midlands, DE55 5LZ | £22,989.12 - £23,403.48 Annually (Actual) Grade 6 | School Business Assistant (Student Attendance and Data)
-employer: Tibshelf Community School
-closing_date: 2026-09-23T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 3befcb6a4ab8349713f2ea840736b1ed7795e8b4bb62d0932e485e872ca3d694
-source: Teaching Vacancies
-source_job_id: school-business-assistant-student-attendance-and-data
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-assistant-student-attendance-and-data
 ---
 
 ## EXCLUDED BY REVIEW

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-09-23
-review_fingerprint: b29fdf9cf8c57bde7c78b51600e93801a37f327b28fcfc15d55cc070e0a0fcd0
-routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
+review_date: 2026-09-24
+review_fingerprint: cd2a050eb6cff6cf738e4da051f30dccf528ce297bb2f1adabc161e4e29644e0
+routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -113,17 +113,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ---
 action: 
-SELECTED | Somerset | Bridgwater, South West, TA6 4QY | Support Staff Pay Scale Band 5 points 7-9 | Primary Phase Administrator
+SELECTED | Somerset | Bridgwater, South West, TA6 4QY | Support Staff Pay Scale Band3b Point 4 | Receptionist and Admin Assistant
 employer: Bridgwater College Academy
-closing_date: 2026-09-23T23:59:00+01:00
-reason: Clear admin/service title: administrator
+closing_date: 2026-10-08T23:59:00+01:00
+reason: Clear admin/service title: admin assistant, receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 02a2b955ad91253fedee429d4c8185a268635fa6a072cac023e37b6c126e3df0
+factual_fingerprint: 8a6e1e18a88104176ea9119f1a4c3fe493d417b48ee0c650ca92f838db22941d
 source: Teaching Vacancies
-source_job_id: primary-phase-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/primary-phase-administrator
+source_job_id: receptionist-and-admin-assistant-bridgwater-college-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admin-assistant-bridgwater-college-academy
 ---
 
 ---

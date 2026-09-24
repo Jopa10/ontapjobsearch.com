@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-09-23
-review_fingerprint: 597462a5b38a2a20a28a2c087b70ea57fa5c1d8ac5a0c67d5c498c0372797190
-routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
+review_date: 2026-09-24
+review_fingerprint: 7f1c774534877841a81e9e570a9d2c661585a382151bbb98aa29f7885a7a7ef8
+routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 2
+- Records: 7
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -51,6 +51,21 @@ source_job_id: business-administrator-hollinwood-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administrator-hollinwood-academy
 ---
 
+---
+action: 
+SELECTED | Greater Manchester - North | Oldham, North West, OL8 3PH | £27,274 - £29,071 per annum | Business Administrator based at New Bridge Learning Centre
+employer: New Bridge School
+closing_date: 2026-10-05T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 22085a544a14adad5b29c58f36d437310999305f2e0fa415629913301b3748cf
+source: Teaching Vacancies
+source_job_id: business-administrator-based-at-new-bridge-learning-centre
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administrator-based-at-new-bridge-learning-centre
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -74,6 +89,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/mis-systems-and-data-
 
 ## HARD_PASS
 
+- [Business Administrator based at New Bridge College](https://teaching-vacancies.service.gov.uk/jobs/business-administrator-based-at-new-bridge-college) — Missing salary or pay scale.
 - [Receptionist / Administrator](https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-hollingworth-academy) — Missing salary or pay scale.
 - [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-sacred-heart-roman-catholic-primary-school-a-voluntary-academy) — Manager title salary ceiling £36,581 is not below £28,000.
 

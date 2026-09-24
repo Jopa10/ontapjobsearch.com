@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-09-23
-review_fingerprint: bd49b9072432abc749809b15cbdbb688aaa690acd0f687f06b39b671b8718c53
-routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
+review_date: 2026-09-24
+review_fingerprint: 2cafdda201d5137fdd89c7b6b5f766c6059d889d36716062aa5678f17a1b24e2
+routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
-- Selected: 5
-- POSS awaiting decision: 4
+- Records: 22
+- Selected: 6
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 13
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: 695c2e7898f7f3b1edb675e7c368e8236e10b8d22b9cb7258e5d59b239d
 source: Teaching Vacancies
 source_job_id: attendance-admissions-administrator-maternity-cover
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-admissions-administrator-maternity-cover
+---
+
+---
+action: 
+SELECTED | Berkshire | Reading, South East, RG7 3XJ | Between £29,071 and £33,119 | Personal Assistant to the Headteacher
+employer: The Willink School
+closing_date: 2026-10-16T12:00:00+01:00
+reason: Clear admin/service title: personal assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1f7fa1443f5f5cbcd20d0d523cd952e67a0ea7afea83acafb6bdd1ffeff8d8e4
+source: Teaching Vacancies
+source_job_id: personal-assistant-to-the-headteacher-the-willink-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-headteacher-the-willink-school
 ---
 
 ---
@@ -130,21 +145,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-and-communi
 
 ---
 action: 
-POSS | Berkshire | Wokingham, South East, RG40 3RB | £28,598-£31,021 | School Operations Officer
-employer: Nine Mile Ride Primary School
-closing_date: 2026-09-24T09:00:00+01:00
-reason: Borderline school administration title: operations officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: fdff2281f8d36d942fffb8caf1ec4dab239ecabd54528c163aa49b6f34ad3569
-source: Teaching Vacancies
-source_job_id: school-operations-officer-nine-mile-ride-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-operations-officer-nine-mile-ride-primary-school
----
-
----
-action: 
 POSS | Berkshire | Reading, South East, RG5 3EU | £26,176.00 - £28,395.00 Annually (Actual) Term time only plus 10 additional days | Senior Finance Assistant
 employer: The Bulmershe School
 closing_date: 2026-10-23T23:59:00+01:00
@@ -164,8 +164,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-finance-assist
 
 ## HARD_PASS
 
+- [Business Operations Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/business-operations-co-ordinator-arbour-vale-school) — Insufficient admin/service evidence.
 - [Casual Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/casual-lettings-assistant-maiden-erlegh-chiltern-edge-reading-berkshire) — Insufficient admin/service evidence.
-- [Clerk to the Governing Body](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-the-governing-body-d1b00184-727b-4b8d-ade0-c66789d84496) — Missing salary or pay scale.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-the-holt-school) — Manager title salary ceiling £36,573 is not below £28,000.
 - [EHCP Team Administrator - The Avenue School](https://teaching-vacancies.service.gov.uk/jobs/ehcp-team-administrator-the-avenue-school) — Missing salary or pay scale.
 - [Full Time Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/full-time-administration-officer) — Insufficient admin/service evidence.
@@ -174,7 +174,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-finance-assist
 - [Office Manager - Southcote Primary School](https://teaching-vacancies.service.gov.uk/jobs/office-manager-southcote-primary-school-southcote-primary-school-reading-berkshire) — Manager title salary ceiling £35,521 is not below £28,000.
 - [Office Manager and Personal Assistant to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-personal-assistant-to-the-headteacher-new-town-primary-school) — Manager title salary ceiling £40,444 is not below £28,000.
 - [School Development Officer](https://teaching-vacancies.service.gov.uk/jobs/school-development-officer) — Insufficient admin/service evidence.
+- [School Solicitor](https://teaching-vacancies.service.gov.uk/jobs/school-solicitor) — Insufficient admin/service evidence.
 - [Site Team Administrative Assistant - The Avenue School](https://teaching-vacancies.service.gov.uk/jobs/site-team-administrative-assistant-the-avenue-school) — Missing salary or pay scale.
+- [Supportive UCAS Manager](https://teaching-vacancies.service.gov.uk/jobs/supportive-ucas-manager) — Manager title salary ceiling £33,119 is not below £28,000.
 
 ## Safety boundary
 

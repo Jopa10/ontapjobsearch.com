@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-09-23
-review_fingerprint: 7c2165f5ce452ffc93fd57c15df475faa2c8f88d1a6b41c2efb8cdd186f64747
-routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
+review_date: 2026-09-24
+review_fingerprint: 55cf9c4273ebbd0f4e41a94875389e9d42590e0c8d6302fe0bd075fcfa1be62a
+routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -14,12 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 8
-- Selected: 4
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
+
+---
+action: 
+SELECTED | West Midlands - Black Country | West Bromwich, West Midlands, B70 7LE | £24,599 – £25,791 | Administration Assistant
+employer: West Bromwich Collegiate Academy
+closing_date: 2026-10-05T23:59:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 80a81a504ca68044566dc0f9e2d5ef2dbd8aa517893e5ef59bd47d4c1a3d537d
+source: Teaching Vacancies
+source_job_id: administration-assistant-west-bromwich-collegiate-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-west-bromwich-collegiate-academy
+---
 
 ---
 action: 
@@ -92,7 +107,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 ## HARD_PASS
 
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-joseph-leckie-academy-walsall-west-midlands) — Manager title salary ceiling £51,928 is not below £28,000.
-- [Exam Invigilators](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilators-472ff49d-b207-467b-8dbd-b5478c05c6b7) — Insufficient admin/service evidence.
 - [Site Assistant](https://teaching-vacancies.service.gov.uk/jobs/site-assistant-priory-primary-school-dudley-west-midlands) — Insufficient admin/service evidence.
 - [Teaching Assistant (Level 2)](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-level-2-manor-way-primary-academy) — Out-of-scope occupation: teaching assistant.
 

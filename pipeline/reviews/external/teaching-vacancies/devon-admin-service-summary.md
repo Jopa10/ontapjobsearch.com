@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-09-23
-review_fingerprint: 73b73cd7ecf3b201745cf622e960e0a1d8fbd0c7d7276887f42ea9593572f0d9
-routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
+review_date: 2026-09-24
+review_fingerprint: 3441c2ce3e66e3507bc74bc7018f1880fc9a1c68b006f9d9b8f72f1207ad301a
+routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 27
+- Records: 26
 - Selected: 13
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 12
+- Hard pass: 11
 
 ## SELECTED
 
@@ -53,21 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/apprenticeship-onboar
 
 ---
 action: 
-SELECTED | Devon | Torquay, South West, TQ1 4RN | £21,779.00 Annually (Actual) FTE £25989 | Attendance Administrator
-employer: St Cuthbert Mayne School
-closing_date: 2026-09-24T10:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e93d0dded7add0373e7862d342d0c0f1a9c97565ef849e07a503af1df8c1f798
-source: Teaching Vacancies
-source_job_id: attendance-administrator-65068773-d1be-4711-9b88-bde2f62d9e1b
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-65068773-d1be-4711-9b88-bde2f62d9e1b
----
-
----
-action: 
 SELECTED | Devon | Okehampton, South West, EX20 1PW | £23,560.00 - £25,119.00 Annually (Actual) NJC Grade D. Range 8 to 12 | Attendance Officer
 employer: Okehampton College
 closing_date: 2026-10-05T23:59:00+01:00
@@ -94,6 +79,21 @@ factual_fingerprint: f4ed7cbed6020bce9882fdae5498f1b6e0215deeec2ad2728a9ead3f38d
 source: Teaching Vacancies
 source_job_id: business-administrator-d383ef29-c17f-437b-8271-918c1d87de9b
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administrator-d383ef29-c17f-437b-8271-918c1d87de9b
+---
+
+---
+action: 
+SELECTED | Devon | Barnstaple, EX31 1JU | £13.91 Hourly 08:45am – 03:15pm Monday to Friday including 30 minutes unpaid lunch | HR Administrative Assistant
+employer: Team Multi Academy Trust
+closing_date: 2026-10-12T12:00:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 74cab42962aa3ecec5290acc06beca73aec1c20e241c9e5643de4466eda48956
+source: Teaching Vacancies
+source_job_id: hr-administrative-assistant-team-multi-academy-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrative-assistant-team-multi-academy-trust
 ---
 
 ---
@@ -235,14 +235,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-adminis
 
 ---
 action: 
-POSS | Devon | Exeter, South West, EX2 4NQ | £22,646.00 Annually (Actual) | Senior Pupil Services Officer
+POSS | Devon | Exeter, South West, EX2 4NQ | £27,709.00 - £29,070.00 Annually (FTE) | Senior Pupil Services Officer
 employer: St Leonard's (CofE) Primary School
 closing_date: 2026-10-06T09:00:00+01:00
 reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 9aab59515278e70177b8112af29075ed53a97f4bc309b856639639a6045199a6
+factual_fingerprint: d3b7c066f6b15675f449214cdad1f6e8dfeeab3d86aa29ab84ef7b90fc50f62a
 source: Teaching Vacancies
 source_job_id: senior-pupil-services-officer-st-leonard-s-cofe-primary-school-exeter-devon
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-st-leonard-s-cofe-primary-school-exeter-devon
@@ -264,7 +264,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 - [Finance and Contracts Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-and-contracts-officer) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-dartmoor-multi-academy-trust) — Insufficient admin/service evidence.
 - [Finance Business Partner - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-maternity-cover) — Insufficient admin/service evidence.
-- [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-cann-bridge-school) — Insufficient admin/service evidence.
 - [SEND Administration and Support](https://teaching-vacancies.service.gov.uk/jobs/send-administration-and-support) — Insufficient admin/service evidence.
 
 ## Safety boundary

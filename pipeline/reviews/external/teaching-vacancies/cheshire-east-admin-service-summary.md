@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - East
 
-review_date: 2026-09-23
+review_date: 2026-09-24
 review_fingerprint: 9a6f1d7d3642d0daa682289281a25d46b41efad033b0d9f864aa47fbfbeeef9a
-routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
+routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
 ontap_region: Cheshire - East
 slice_category: admin_service
 slice_status: LIVE

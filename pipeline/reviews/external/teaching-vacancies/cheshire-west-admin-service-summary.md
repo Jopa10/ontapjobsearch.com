@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - West
 
-review_date: 2026-09-23
+review_date: 2026-09-24
 review_fingerprint: e196c60add401de62c446917ba1cf052038c1fa6c8f9699217e26e25fa23add4
-routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
+routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
 ontap_region: Cheshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
+- Records: 3
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 0
+- Hard pass: 2
 
 ## SELECTED
 
@@ -46,7 +46,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator
 
 ## HARD_PASS
 
-- None.
+- [Attendance Welfare Officer / EVC Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/attendance-welfare-officer-evc-co-ordinator) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-weaverham-primary-academy) — Manager title without salary evidence below £28,000.
 
 ## Safety boundary
 

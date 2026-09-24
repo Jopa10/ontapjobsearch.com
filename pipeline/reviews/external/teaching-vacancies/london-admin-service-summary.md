@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-09-23
-review_fingerprint: 2f5be229604eb244d3ebe53b8c8857ea53e34d7839d8bca1ee251f2c88ee1c13
-routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
+review_date: 2026-09-24
+review_fingerprint: 7bf5a149ebc1d26126a605977b85c3754ad1403f51d419f4eb10a03b50343362
+routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 64
+- Records: 60
 - Selected: 20
 - POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 39
+- Hard pass: 35
 
 ## SELECTED
 
@@ -49,6 +49,21 @@ factual_fingerprint: b548f2c4669ec2cbcf2329c8d92abe4f5f22e903b754de9a0901a4065ef
 source: Teaching Vacancies
 source_job_id: admin-officer-with-receptionist-duties
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-officer-with-receptionist-duties
+---
+
+---
+action: 
+SELECTED | London | Romford, London, RM6 4TR | £31,284.00 - £32,653.00 Annually (FTE) OUTL4 (SCP 7–10) Actual Salary: £8,891.62 | Administrative Assistant
+employer: Newbridge School
+closing_date: 2026-10-12T09:00:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 59a3a22c7521cb1b385a32c7b18ca7e8c762466eb009df00c7cc247197a0409e
+source: Teaching Vacancies
+source_job_id: administrative-assistant-newbridge-school-romford-essex
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-newbridge-school-romford-essex
 ---
 
 ---
@@ -124,21 +139,6 @@ factual_fingerprint: 0860258da2974495395b22b45fb9fe647f6ad30f7f91ba8d4bf23f8283a
 source: Teaching Vacancies
 source_job_id: exam-access-arrangement-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exam-access-arrangement-administrator
----
-
----
-action: 
-SELECTED | London | Croydon, London, CR0 2EA | £22,428.61 - £23,747.62 Annually (Actual) TPA 8 / NJC 6 - 10 - £30,841 - £32,655pa FTE | Finance & Admin Assistant
-employer: Broadmead Primary School
-closing_date: 2026-09-23T23:59:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 03b59eab079f033f34b95832efbbc91672e93ad8ae0e3363c2479b0b39e6c4e5
-source: Teaching Vacancies
-source_job_id: finance-admin-assistant-broadmead-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-admin-assistant-broadmead-primary-school
 ---
 
 ---
@@ -408,7 +408,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-mana
 - [Business Operations & Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/business-operations-finance-manager) — Manager title salary ceiling £59,394 is not below £28,000.
 - [Business Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/business-operations-manager-grazebrook-primary-school) — Manager title salary ceiling £59,394 is not below £28,000.
 - [Business Support and Finance Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/business-support-and-finance-co-ordinator) — Insufficient admin/service evidence.
-- [Chief Financial Officer ( CFO )](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-the-cardinal-wiseman-catholic-school) — Insufficient admin/service evidence.
 - [Data & Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-exams-manager-ark-bolingbroke-academy) — Manager title salary ceiling £44,231 is not below £28,000.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-whitefriars-school) — Manager title salary ceiling £37,046 is not below £28,000.
 - [Data Manager / Support ICT Officer](https://teaching-vacancies.service.gov.uk/jobs/data-manager-support-ict-officer) — Manager title without salary evidence below £28,000.
@@ -424,7 +423,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-mana
 - [Human Resources Business Partner/People Manager FTC](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-people-manager-ftc) — Manager title salary ceiling £56,000 is not below £28,000.
 - [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-lilian-baylis-technology-school) — Insufficient admin/service evidence.
 - [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-saint-john-southworth-catholic-academy-trust) — Insufficient admin/service evidence.
-- [Learning Resource Centre Manager](https://teaching-vacancies.service.gov.uk/jobs/learning-resource-centre-manager-harris-city-academy-crystal-palace-london) — Manager title salary ceiling £34,488 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-chadwell-heath-academy) — Manager title without salary evidence below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-hawes-down-primary-school) — Manager title salary ceiling £28,146 is not below £28,000.
 - [Office Manager / PA to Head of School](https://teaching-vacancies.service.gov.uk/jobs/office-manager-pa-to-head-of-school-moorcroft-school) — Manager title salary ceiling £36,390 is not below £28,000.
@@ -434,14 +432,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-mana
 - [Recruitment and Engagement Manager](https://teaching-vacancies.service.gov.uk/jobs/recruitment-and-engagement-manager) — Manager title salary ceiling £42,060 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-9fea1743-b8ad-4e62-a781-6b930d7a551f) — Manager title salary ceiling £67,575 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-f3929ea5-8ab0-4347-ba05-b741572a9d77) — Manager title salary ceiling £54,843 is not below £28,000.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-grange-primary-school-london) — Manager title without salary evidence below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-handsworth-primary-school) — Manager title without salary evidence below £28,000.
 - [Senior Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-admin-officer-st-stephen-s-cofe-primary-school) — Insufficient admin/service evidence.
-- [Sixth Form Support Officer](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-support-officer-harris-science-academy-east-london) — Insufficient admin/service evidence.
+- [Senior Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-business-partner-creative-education-trust) — Insufficient admin/service evidence.
 - [Strategic Lead for Human Resources](https://teaching-vacancies.service.gov.uk/jobs/strategic-lead-for-human-resources) — Insufficient admin/service evidence.
 - [Strategic Lead for Human Resources](https://teaching-vacancies.service.gov.uk/jobs/strategic-lead-for-human-resources-grazebrook-primary-school) — Insufficient admin/service evidence.
 - [Student Attendance & Reporting Officer](https://teaching-vacancies.service.gov.uk/jobs/student-attendance-reporting-officer) — Insufficient admin/service evidence.
-- [Trust Senior Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-senior-admin-officer) — Insufficient admin/service evidence.
 - [Welfare and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/welfare-and-admin-officer) — Insufficient admin/service evidence.
 
 ## Safety boundary

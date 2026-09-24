@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-09-23
-review_fingerprint: a0d97a6d30b05d75a224aeaf11be46eb068787bd663faa6c9168dd706edb0dd4
-routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
+review_date: 2026-09-24
+review_fingerprint: 7b2a460aee34c9c497be7b8862a47ea0fbd7324dbba4c816dc7852e67db6dc01
+routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 6
-- Selected: 1
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -36,6 +36,21 @@ source_job_id: administrative-assistant-for-pastoral
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-for-pastoral
 ---
 
+---
+action: 
+SELECTED | Bristol & Bath | Bristol, South West, BS9 2NT | £26,824.00 - £28,142.00 Annually (Actual) Actual salary £22,677 - £23,791 per annum | School Administrator
+employer: North Star 265°
+closing_date: 2026-10-07T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 281e8ed0eec7c8a79a76716221b5e8d08cd07ef5275e9a986ec97c83f168b664
+source: Teaching Vacancies
+source_job_id: school-administrator-north-star-265
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-north-star-265
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -46,7 +61,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ## HARD_PASS
 
-- [Administration and Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-and-finance-assistant-fair-furlong-primary-school) — Insufficient admin/service evidence.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-bridge-learning-campus-bristol) — Insufficient admin/service evidence.
 - [Exams Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-assistant-sir-bernard-lovell-academy) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-whitchurch-primary-school) — Manager title without salary evidence below £28,000.

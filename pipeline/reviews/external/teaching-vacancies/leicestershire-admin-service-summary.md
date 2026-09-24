@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-09-23
-review_fingerprint: 82ecb6cefe6360061c1c17258e0835e038aa3e27247388ebf8650c15fd82ef09
-routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
+review_date: 2026-09-24
+review_fingerprint: 50802706f8f698cb4cdc9813959386abc783d787024b645977fc562ebf7b4713
+routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 2
+- Records: 8
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Leicestershire | Leicester, East Midlands, LE2 6UA | £31,537.00 - £33,699.00 Annually (FTE) Grade 2 Point 3-3 | PA to the Principal
+employer: Tudor Grange Samworth Academy, A church of England School
+closing_date: 2026-09-30T23:59:00+01:00
+reason: Clear admin/service title: pa to
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1fe85d73e6841cc24315362aa01931c4070f8ecddfa592bb5e79cfb45478142a
+source: Teaching Vacancies
+source_job_id: pa-to-the-principal-tudor-grange-samworth-academy-a-church-of-england-school-leicester-leicestershire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-principal-tudor-grange-samworth-academy-a-church-of-england-school-leicester-leicestershire
+---
 
 ---
 action: 
@@ -77,6 +92,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-and-communi
 - [Extended Services Club Manager (EXS031BC)](https://teaching-vacancies.service.gov.uk/jobs/extended-services-club-manager-exs031bc-sileby-redlands-community-primary-school) — Manager title salary ceiling £28,146 is not below £28,000.
 - [Finance and Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-and-operations-manager-learn-academies-trust) — Manager title salary ceiling £57,234 is not below £28,000.
 - [Governance Manager](https://teaching-vacancies.service.gov.uk/jobs/governance-manager-learn-academies-trust) — Manager title salary ceiling £44,104 is not below £28,000.
+- [School Office and SENDO Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-office-and-sendo-administration-assistant) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - East
 
-review_date: 2026-09-23
-review_fingerprint: c5a4bd9b681e301c361988c75ad35e40144caedd6d0583cab516d9009287c45a
-routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
+review_date: 2026-09-24
+review_fingerprint: 7eeb83ac0899457f960759d01bc535194d20d0f7485fc025a1c620d6d2e7ce6e
+routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
 ontap_region: Yorkshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,15 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
-- Selected: 1
+- Records: 1
+- Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 0
 
 ## SELECTED
 
----
-action: 
-SELECTED | Yorkshire - East | Hull, Yorkshire and the Humber, HU9 5YB | £14,429.00 - £15,634.00 Annually (Actual) Salary shown above is pro rata, based on an Full Time Equivalent of £27,709 to £30,023 (Grade F, Scale Points 8-13) | SEND Administrator
-employer: Liberty Academy
-closing_date: 2026-09-23T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a09a59aaa31e29ac758041065db79fe304145edd97f15f655270037fd7b5346b
-source: Teaching Vacancies
-source_job_id: send-administrator-liberty-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-liberty-academy
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 

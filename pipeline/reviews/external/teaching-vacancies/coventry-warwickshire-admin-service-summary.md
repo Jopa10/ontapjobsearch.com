@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-09-23
-review_fingerprint: add11669a9bdc3b2bcf38fb6fc60a88bba27c34e20723f5df29b95ddeaad25ba
-routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
+review_date: 2026-09-24
+review_fingerprint: 708de0fa46c2c7c45e3aa782b8380e51e2b2a9fa76f21405834943ee23c5e58b
+routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 18
-- Selected: 6
-- POSS awaiting decision: 4
+- Selected: 7
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 8
 
@@ -34,6 +34,21 @@ factual_fingerprint: 8caa1acf91291b485bea3168a9e1f51dea0387ea7c893a74a7d489f8c60
 source: Teaching Vacancies
 source_job_id: administration-assistant-23d0b4b5-47f8-416c-924d-d887471e9a01
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-23d0b4b5-47f8-416c-924d-d887471e9a01
+---
+
+---
+action: 
+SELECTED | West Midlands - Coventry & Warwickshire | Nuneaton, West Midlands, CV11 4QH | £21,407 - £22,233 | Administration Assistant
+employer: Oak Wood Primary School
+closing_date: 2026-10-09T09:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: da77d5ce4ecb6bf97159ab1557cdae45a240fc351176098d60874a946392ab02
+source: Teaching Vacancies
+source_job_id: administration-assistant-oak-wood-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-oak-wood-primary-school
 ---
 
 ---
@@ -141,21 +156,6 @@ factual_fingerprint: b2bbb164c03a24a457f40f3235a032176b7fdc57a1b50460dc595cba35d
 source: Teaching Vacancies
 source_job_id: attendance-improvement-officer-stratford-upon-avon-school-stratford-upon-avon-warwickshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-improvement-officer-stratford-upon-avon-school-stratford-upon-avon-warwickshire
----
-
----
-action: 
-POSS | West Midlands - Coventry & Warwickshire | Coventry, CV4 9AP | £8.00 Hourly £8 per hour for the first 12 months followed by national minimum wage for age | HR Support Apprentice
-employer: Finham Park Multi Academy Trust
-closing_date: 2026-09-24T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8797789afb59d41203e3630500abb6a02d87d0ca52fda037f5fd9d33c7dcf3c4
-source: Teaching Vacancies
-source_job_id: hr-support-apprentice-finham-park-multi-academy-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-support-apprentice-finham-park-multi-academy-trust
 ---
 
 ---

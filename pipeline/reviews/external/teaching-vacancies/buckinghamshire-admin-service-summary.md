@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-09-23
-review_fingerprint: 1336700521e96394986746ebd4865269afea755bb1001eb83ad6e4bdedf28b82
-routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
+review_date: 2026-09-24
+review_fingerprint: 067268e5f3cc3a7c84df507b2990126da2aea8c289b2b10e2378a6716f034898
+routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -34,21 +34,6 @@ factual_fingerprint: 007957ee89c9c9ef838916ea5983db1549228ea90d79b3a98173b3d2bf8
 source: Teaching Vacancies
 source_job_id: academy-administrator-chepping-view-primary-academy-high-wycombe-buckinghamshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-chepping-view-primary-academy-high-wycombe-buckinghamshire
----
-
----
-action: 
-SELECTED | Buckinghamshire | Milton Keynes, South East, MK3 6EW | £25,614 - £26,016 FTE | Admin Centre Administrator
-employer: Lord Grey Academy
-closing_date: 2026-09-24T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: cff4fd7ba248ee3023c4175108e5e81b1028967877958824fe14e5c35251f007
-source: Teaching Vacancies
-source_job_id: admin-centre-administrator-lord-grey-academy-milton-keynes-buckinghamshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-centre-administrator-lord-grey-academy-milton-keynes-buckinghamshire
 ---
 
 ---
@@ -154,6 +139,21 @@ factual_fingerprint: 58fb09222f8729c0b063ffc41747b4c03e7b491125ec2f21db31b0c9ad5
 source: Teaching Vacancies
 source_job_id: school-administrator-chiltern-way-academy-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-chiltern-way-academy-trust
+---
+
+---
+action: 
+SELECTED | Buckinghamshire | Aylesbury, HP22 6NL | £37,772.00 - £41,272.00 Annually (FTE) BPS Range 6. Actual salary will be pro rata, approx. £28,081 to £30,683 | SEN Administrator
+employer: Chiltern Way Academy Trust
+closing_date: 2026-10-09T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 169755cca07c5281a60f843dfd7dd9fac613db9353a043224d5de7d51a91e373
+source: Teaching Vacancies
+source_job_id: sen-administrator-chiltern-way-academy-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-chiltern-way-academy-trust
 ---
 
 ## POSS — choose SELECT or EXCLUDE

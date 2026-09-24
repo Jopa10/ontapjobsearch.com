@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-09-23
-review_fingerprint: 74e3aca5bfde9aac8df6e9427c4277179407ed96ce02dbfd0768723b52ec856a
-routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
+review_date: 2026-09-24
+review_fingerprint: 52df97c6f0faf04e1ec1725a056475654b4ee339f5665801f5c617a3a645f6dc
+routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 9
+- Records: 15
+- Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 7
@@ -34,21 +34,6 @@ factual_fingerprint: 58e4045c9b23f9c650d1b2b7cfe78970ecd68e8d6943aab73fef0575ed5
 source: Teaching Vacancies
 source_job_id: academy-administrator-35b6eb6f-c93e-4b6e-b5d9-62a3a5806607
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-35b6eb6f-c93e-4b6e-b5d9-62a3a5806607
----
-
----
-action: 
-SELECTED | Lincolnshire | Grimsby, Yorkshire and the Humber, DN33 1RJ | £26,016.00 Annually (FTE) Actual Salary £20,955 | Administration Assistant
-employer: Woodlands Academy
-closing_date: 2026-09-30T12:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ab22d4a082a1282bbde26ba42b90b6060e9cead7ea71b5c3550b41080024a3fa
-source: Teaching Vacancies
-source_job_id: administration-assistant-woodlands-academy-grimsby-north-east-lincolnshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-woodlands-academy-grimsby-north-east-lincolnshire
 ---
 
 ---
@@ -113,32 +98,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-chap
 
 ---
 action: 
-SELECTED | Lincolnshire | Lincoln, East Midlands, LN6 0EP | PPS4, £26,016 per annum, pro rata to £23,484 per annum | Receptionist / Administrative Assistant
-employer: The Priory City of Lincoln Academy
-closing_date: 2026-09-23T23:59:00+01:00
-reason: Clear admin/service title: administrative assistant, receptionist
+SELECTED | Lincolnshire | Brigg, Yorkshire and the Humber, DN20 8AR | £25,614.00 - £25,614.00 Annually (FTE) Grade B Points 3 (£25,614 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £21,561.31 | Receptionist (7569)
+employer: The Vale Academy
+closing_date: 2026-10-08T23:59:00+01:00
+reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: af98394ccb02340d41baac0600f5a73b64107e0aaa6fc804129869497b05d64a
+factual_fingerprint: 92bb652d1b2568113d4d6200716f8ec0c8457f27c35d9f2defa4e63147bcb3a3
 source: Teaching Vacancies
-source_job_id: receptionist-administrative-assistant-the-priory-city-of-lincoln-academy-lincoln-lincolnshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrative-assistant-the-priory-city-of-lincoln-academy-lincoln-lincolnshire
----
-
----
-action: 
-SELECTED | Lincolnshire | Scunthorpe, Yorkshire and the Humber, DN16 1NT | £21,955 - £22,304 per annum | School Administrator Role - Attendance Assistant
-employer: Outwood Academy Brumby
-closing_date: 2026-09-28T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 10aac0d432b3e8e2b48141c658567120dc91c6b4ec8f2e61e3cd3400cfbf0b58
-source: Teaching Vacancies
-source_job_id: school-administrator-role-attendance-assistant-a776f8a6-c388-4b6b-b481-9a6f4d4c6e5e
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-role-attendance-assistant-a776f8a6-c388-4b6b-b481-9a6f4d4c6e5e
+source_job_id: receptionist-7569
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-7569
 ---
 
 ---

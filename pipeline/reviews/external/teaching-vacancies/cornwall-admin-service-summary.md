@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-09-23
-review_fingerprint: 81296e9620b8ffaf2c14b70790360ab0abdbbff5cd5aa384009f52210cade926
-routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
+review_date: 2026-09-24
+review_fingerprint: 467f7d013e079905e98b7645713d42c8fdad869da5e76dc665a1f63c2325d86d
+routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 4
-- Selected: 1
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -36,6 +36,21 @@ source_job_id: part-time-attendance-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-attendance-administrator
 ---
 
+---
+action: 
+SELECTED | Cornwall | Saltash, South West, PL12 6DX | £25,948.00 Annually (FTE) | Temporary School Administrator
+employer: Brunel Primary & Nursery Academy
+closing_date: 2026-10-02T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0a2bf7c3453725607e1b20f41d3f24969e4db8071dcb7d2e74bf2ba13eed7efb
+source: Teaching Vacancies
+source_job_id: temporary-school-administrator-brunel-primary-nursery-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/temporary-school-administrator-brunel-primary-nursery-academy
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -47,7 +62,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-attendance-
 ## HARD_PASS
 
 - [HR Lead](https://teaching-vacancies.service.gov.uk/jobs/hr-lead-pool-academy) — Insufficient admin/service evidence.
-- [Minibus Driver](https://teaching-vacancies.service.gov.uk/jobs/minibus-driver-98c65611-dc6c-4ef2-ab00-f9bfce2a5837) — Insufficient admin/service evidence.
 - [Specialist Administrator](https://teaching-vacancies.service.gov.uk/jobs/specialist-administrator-mounts-bay-academy) — Missing salary or pay scale.
 
 ## Safety boundary

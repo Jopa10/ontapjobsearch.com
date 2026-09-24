@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-09-23
-review_fingerprint: 731dd4e7096c1ea2ab0904dfefe7eed63777594da0f07cf1336088977e227b34
-routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
+review_date: 2026-09-24
+review_fingerprint: fe5caba72d8cd532177adb0204ca40de75c037b54a17b998550c53afe447b01d
+routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 5
+- Records: 11
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 7
 
 ## SELECTED
-
----
-action: 
-SELECTED | Kent | Tonbridge, South East, TN9 2HE | Actual Pro Rata Salary £23,599 | Administrative Assistant
-employer: Hillview School for Girls
-closing_date: 2026-09-23T23:59:59+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2b5afbb7a4ff0e979c9784d8746d70da027c82d188f3b0363ad4a94de8a93f7b
-source: Teaching Vacancies
-source_job_id: administrative-assistant-hillview-school-for-girls
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-hillview-school-for-girls
----
 
 ---
 action: 
@@ -68,14 +53,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/curriculum-administra
 
 ---
 action: 
-SELECTED | Kent | Maidstone, South East, ME16 0SF | £34,347.00 - £36,264.00 Annually (Actual) Kent Salaries Kent Scheme G - -£30,348 pro rata (Full-time equivalent £34,347.90) per annum. | Personal Assistant to the Headteacher
+SELECTED | Kent | Maidstone, South East, ME16 0SF | £34,347.00 - £36,264.00 Annually (Actual) Kent Salaries Kent Scheme G - £34,347.90 per annum progressing to £36,264 per annum. | Personal Assistant to the Headteacher
 employer: Maidstone Grammar School for Girls
 closing_date: 2026-09-28T08:00:00+01:00
 reason: Clear admin/service title: personal assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 734bff9fec087c57d391612da5061e8d0eccb358915acd15a8950c432cd4f523
+factual_fingerprint: 0ae4d45a445c5ddece9994303859bcfb5d91c3ebc8c67d20155905f5d2ad45bf
 source: Teaching Vacancies
 source_job_id: personal-assistant-to-the-headteacher-maidstone-grammar-school-for-girls
 source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-headteacher-maidstone-grammar-school-for-girls

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-09-23
+review_date: 2026-09-24
 review_fingerprint: 5fff45100cf2438974cc554702a833a7df6b33cce9c87640a7b05bc6011350dc
-routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
+routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE

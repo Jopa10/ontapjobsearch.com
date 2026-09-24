@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-09-23
-review_fingerprint: fbd3a1ba180097931a749a8df51fb1742614b488ebfb8059348ac24e7f4e639e
-routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
+review_date: 2026-09-24
+review_fingerprint: 7dd1483e5f72dccd4b71e1b9460cde7d3d3fb5f3bca03c7885d6451a8ce0a796
+routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -45,7 +45,7 @@ reason: Clear admin/service title: exams officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 667e31a64a2b0a47048c7f4987817938ca12a693fdf2f1fd929afa8c0eb84d92
+factual_fingerprint: ae8c762c7d98a0383397684dd92be2dfebddccbe8184590acd812e9a8c746a9e
 source: Teaching Vacancies
 source_job_id: exams-officer-cfs
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-cfs
@@ -60,10 +60,10 @@ reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 1e569f57a76b761d3f78b349063a7c8c3f4939e274ef75838e5a9cd5f4f1f7e8
+factual_fingerprint: 832a4e14411082c880f5cf30e480db0fb86c2bac7a48c3249ed51afbedf32567
 source: Teaching Vacancies
-source_job_id: finance-and-hr-administrator-mulberry-academy-hastings
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-and-hr-administrator-mulberry-academy-hastings
+source_job_id: finance-and-hr-administrator-cc8255f8-dceb-44d0-8ba3-fc964a1272dc
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-and-hr-administrator-cc8255f8-dceb-44d0-8ba3-fc964a1272dc
 ---
 
 ---

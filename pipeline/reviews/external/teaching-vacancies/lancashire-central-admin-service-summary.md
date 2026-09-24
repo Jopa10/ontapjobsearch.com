@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - Central
 
-review_date: 2026-09-23
+review_date: 2026-09-24
 review_fingerprint: db7c2b97ffc9ae4e844d28c51a631363675d36d13a4ff053673b4cc6d3b59d6f
-routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
+routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
 ontap_region: Lancashire - Central
 slice_category: admin_service
 slice_status: UNREGISTERED

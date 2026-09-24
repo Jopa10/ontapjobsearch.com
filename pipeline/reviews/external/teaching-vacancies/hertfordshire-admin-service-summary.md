@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-09-23
-review_fingerprint: 41efddc358e00a637ee955b285b061639be95f107f04808aa8d7ce5ad6b6b315
-routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
+review_date: 2026-09-24
+review_fingerprint: e4cf090a6a4f29777fae871baa73e996e4851800f03bf3862cfdd2dbbb36f685
+routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 13
 - Selected: 6
-- POSS awaiting decision: 4
+- POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -173,6 +173,21 @@ source_job_id: ks4-pastoral-and-administrative-support-h4
 source_url: https://teaching-vacancies.service.gov.uk/jobs/ks4-pastoral-and-administrative-support-h4
 ---
 
+---
+action: 
+POSS | Hertfordshire | Hemel Hempstead, East of England, HP1 2JU | £25,390.00 Annually (Actual) H5/6 pro rata | Office Manager
+employer: Oakleaf Primary
+closing_date: 2026-10-07T09:00:00+01:00
+reason: Manager title below £28,000 salary ceiling requires review
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2def495bec21b0c455923775fbb0929e5872f82dd927cf35e95e70d8327c73e4
+source: Teaching Vacancies
+source_job_id: office-manager-oakleaf-primary-hemel-hempstead-hertfordshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-oakleaf-primary-hemel-hempstead-hertfordshire
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -181,7 +196,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/ks4-pastoral-and-admi
 
 - [Assistant SENDCo](https://teaching-vacancies.service.gov.uk/jobs/assistant-sendco-6880daf8-5253-47b8-806d-79b65802f205) — Insufficient admin/service evidence.
 - [Director of Finance & Operations](https://teaching-vacancies.service.gov.uk/jobs/director-of-finance-operations-herts-essex-multi-academy-trust) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-martins-wood-primary-school-stevenage-hertfordshire) — Manager title salary ceiling £33,119 is not below £28,000.
 
 ## Safety boundary
 

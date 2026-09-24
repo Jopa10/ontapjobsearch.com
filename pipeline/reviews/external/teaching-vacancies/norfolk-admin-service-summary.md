@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-09-23
-review_fingerprint: 72bb9f7cfec3e139e44f3f1eb79c74482d5dc5fb4db6e903d365f751365c2add
-routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
+review_date: 2026-09-24
+review_fingerprint: a98f5414d2c78d18fe26e5e82efe2b2846c346a1369a2fcbc45099c53457bbf6
+routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 4
-- POSS awaiting decision: 4
+- Records: 16
+- Selected: 6
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 7
 
@@ -34,6 +34,21 @@ factual_fingerprint: 870b0f18d0c970ebe29d720ef5539eab60ff61e4197de83c8f38a73b4e9
 source: Teaching Vacancies
 source_job_id: administration-assistant-hopton-church-of-england-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-hopton-church-of-england-primary-academy
+---
+
+---
+action: 
+SELECTED | Norfolk | Thetford, East of England, IP24 1EB | £24,854 to £26,492 actual pa | Administration Assistant with Attendance Officer responsibilities
+employer: The Bishop's Church of England Primary Academy
+closing_date: 2026-10-07T01:00:00+01:00
+reason: Clear admin/service title: attendance officer, administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 76e90675e5128c776b7d4dcc8463c2af89718c32437a1e3c02771dd24e87e378
+source: Teaching Vacancies
+source_job_id: administration-assistant-with-attendance-officer-responsibilities
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-with-attendance-officer-responsibilities
 ---
 
 ---
@@ -81,6 +96,21 @@ source_job_id: school-secretary-rudham-cofe-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-secretary-rudham-cofe-primary-academy
 ---
 
+---
+action: 
+SELECTED | Norfolk | Thetford, East of England, IP24 1EB | £18,974 to £19,271 actual pa | School Secretary
+employer: The Bishop's Church of England Primary Academy
+closing_date: 2026-10-07T01:00:00+01:00
+reason: Clear admin/service title: school secretary, secretary
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 33aeb0b294a385e49f987a331fffbbb2b9fdaf61f66bbd3237b9d55ce3acd67a
+source: Teaching Vacancies
+source_job_id: school-secretary-the-bishop-s-church-of-england-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-secretary-the-bishop-s-church-of-england-primary-academy
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -126,21 +156,6 @@ factual_fingerprint: 3416fcf51de53436d9eca24c4bfa62aef815973afb2141594de7c6c1e7e
 source: Teaching Vacancies
 source_job_id: finance-assistant-with-some-reception-cover
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-with-some-reception-cover
----
-
----
-action: 
-POSS | Norfolk | Wymondham, East of England, NR18 9SZ | £26,403 - £28,142 pa | HR Administrator
-employer: Wymondham College
-closing_date: 2026-11-07T00:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 67a58fc9072d4a4beaea7e724007e6a1502cfe136d38b5cb34221ec368d5a93b
-source: Teaching Vacancies
-source_job_id: hr-administrator-wymondham-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-wymondham-college
 ---
 
 ## EXCLUDED BY REVIEW

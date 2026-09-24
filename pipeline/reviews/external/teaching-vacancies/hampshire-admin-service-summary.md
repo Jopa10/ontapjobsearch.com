@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-09-23
-review_fingerprint: c97f5e6e2f6cebbb1bd91a70f0ac3eec902886e602c1a1aaf10fe4cb3937d279
-routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
+review_date: 2026-09-24
+review_fingerprint: 17a91dbf51d7727373a7f244ba4687f7bfbc62c99bfc48a00f568b2d75304cdd
+routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
+- Records: 12
 - Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 8
 
 ## SELECTED
 
@@ -38,6 +38,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-the-c
 
 ---
 action: 
+SELECTED | Hampshire | Portsmouth, South East, PO6 2PP | £8,682.22 - £9,103.20 Annually (Actual) | Administrative Assistant (Thursdays and Fridays)
+employer: Court Lane Junior Academy
+closing_date: 2026-10-05T23:59:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 738095b2c5e08afeb65a87b8a0131108cb3893ea57b6093f7e3555309954d3cb
+source: Teaching Vacancies
+source_job_id: administrative-assistant-thursdays-and-fridays
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-thursdays-and-fridays
+---
+
+---
+action: 
 SELECTED | Hampshire | Portsmouth, South East, PO2 8RA | £26,427 - £27,274 per annum (actual salary for term time plus 3 weeks £24,343 - £25,123) | Administrator - The Harbour School
 employer: The Harbour School
 closing_date: 2026-09-30T08:00:00+01:00
@@ -53,29 +68,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-the-har
 
 ---
 action: 
-SELECTED | Hampshire | Alresford, South East, SO24 9BS | £27,780.00 - £30,564.00 Annually (FTE) Actual salary £24,980 - £27,484 per annum | Exams Officer and Assessment Data Co ordinator
-employer: Perins School
-closing_date: 2026-09-25T23:59:00+01:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 93ac0a2883e9e6d7958b298dae31923000cc48ae97c640decb903b6d5f68ef35
-source: Teaching Vacancies
-source_job_id: exams-officer-and-assessment-data-co-ordinator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-and-assessment-data-co-ordinator
----
-
----
-action: 
-SELECTED | Hampshire | Alresford, SO24 9BS | £33,178.00 - £36,369.00 Annually (FTE) Actual salary £30,696 - £33,648 per annum | Personal Assistant to Executive Headteacher
+SELECTED | Hampshire | Alresford, SO24 9BS | £34,273.00 - £37,570.00 Annually (FTE) Actual salary £31,709 - £34,759 per annum | Personal Assistant to Executive Headteacher
 employer: Vita Multi Academy Trust
 closing_date: 2026-09-25T23:59:00+01:00
 reason: Clear admin/service title: personal assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 7e55dd820eb9d3f04bfb903e69cbd51848989a7cbaed5554faadfdefa843dbcc
+factual_fingerprint: 6940f12bbcac833b31de21d445225abad997cef6fa7ba9103b323520c9c48f48
 source: Teaching Vacancies
 source_job_id: personal-assistant-to-executive-headteacher-vita-multi-academy-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-executive-headteacher-vita-multi-academy-trust
@@ -93,9 +93,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to
 
 - [Administration & Reception Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-reception-assistant-cove-school) — Missing salary or pay scale.
 - [Apprentice Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/apprentice-admin-assistant-penbridge-junior-school) — Missing salary or pay scale.
-- [Cover Co-ordinator and Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-co-ordinator-and-cover-supervisor) — Insufficient admin/service evidence.
+- [Business Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/business-administration-officer) — Insufficient admin/service evidence.
+- [Data Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-administration-assistant-cove-school) — Insufficient admin/service evidence.
 - [Deputy School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/deputy-school-business-manager-crestwood-community-school) — Manager title salary ceiling £46,565 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-romsey-school) — Insufficient admin/service evidence.
+- [HR Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-administration-assistant-the-portsmouth-academy) — Insufficient admin/service evidence.
 - [School Resources/Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-resources-administration-assistant) — Insufficient admin/service evidence.
 
 ## Safety boundary

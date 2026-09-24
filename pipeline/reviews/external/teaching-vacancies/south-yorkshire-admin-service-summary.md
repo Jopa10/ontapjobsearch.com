@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-09-23
-review_fingerprint: b9c87ddb05347f6b62642304060008acecf5d705407a0452a52419ce70702f49
-routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
+review_date: 2026-09-24
+review_fingerprint: b947b1757c02468a0d9ddf40801df266bda6e5bc94b85e58a653df589f6c165f
+routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
-- Selected: 8
-- POSS awaiting decision: 2
+- Records: 20
+- Selected: 9
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 10
 
 ## SELECTED
 
@@ -30,7 +30,7 @@ reason: Clear admin/service title: admin assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 4f95de69b1b5d89255bbb68340cf25bcfa2501f9e285d41f132659e8ed1c058c
+factual_fingerprint: 4cfda2565e1ee80dbdcad077714090391285922f9fa8b3d9e34279bfbc581371
 source: Teaching Vacancies
 source_job_id: admin-assistant-owston-park-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-owston-park-primary-academy
@@ -64,6 +64,21 @@ factual_fingerprint: 91e8d487e9a7a4fb713ea841571a73f61890d5f97ab892fa26417d02817
 source: Teaching Vacancies
 source_job_id: administration-assistant-gooseacre-primary-academy-rotherham-south-yorkshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-gooseacre-primary-academy-rotherham-south-yorkshire
+---
+
+---
+action: 
+SELECTED | Yorkshire - South | Doncaster, Yorkshire and the Humber, DN2 5JG | £19,107.00 - £20,690.00 Annually (Actual) GRade 6 (Point 6-11) | Administration Assistant
+employer: Our Lady of Mount Carmel Catholic Primary School
+closing_date: 2026-10-05T09:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d0fe57dd90a94a59e9b3af4b16bdd63291f649fd40b01a29c6168a1bf7ae9e01
+source: Teaching Vacancies
+source_job_id: administration-assistant-our-lady-of-mount-carmel-catholic-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-our-lady-of-mount-carmel-catholic-primary-school
 ---
 
 ---
@@ -145,21 +160,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admi
 
 ---
 action: 
-POSS | Yorkshire - South | Sheffield, Yorkshire and the Humber, S20 3GU | £24551-£26592 depending on experience | Administration and Clerical Officer - Business Support
-employer: Halfway Nursery Infant School
-closing_date: 2026-09-24T12:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6aa438818c44ba1354355a8a229c4a16147b0df34dbf167777987b4c13586b29
-source: Teaching Vacancies
-source_job_id: administration-and-clerical-officer-business-support
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-and-clerical-officer-business-support
----
-
----
-action: 
 POSS | Yorkshire - South | Doncaster, Yorkshire and the Humber, DN5 9DD | £26,016.00 - £26,847.00 Annually (FTE) Grade C Points 04 to 06 (£26,016 to £26,847 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary for this job starts at £14,797.10 | Administration Officer (7376)
 employer: Don Valley Academy
 closing_date: 2026-10-01T23:59:00+01:00
@@ -181,7 +181,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-office
 
 - [Admin & Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-finance-assistant-newman-school) — Insufficient admin/service evidence.
 - [Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-newman-school) — Insufficient admin/service evidence.
-- [Attendance and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-officer-whiteways-primary-school) — Insufficient admin/service evidence.
+- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-st-thomas-more-catholic-primary-a-voluntary-academy) — Insufficient admin/service evidence.
+- [Business Support Manager](https://teaching-vacancies.service.gov.uk/jobs/business-support-manager-beck-primary-school-sheffield-south-yorkshire) — Manager title salary ceiling £40,921 is not below £28,000.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-st-clare-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-white-woods-primary-academy-trust) — Insufficient admin/service evidence.
 - [Finance & Admin Asst](https://teaching-vacancies.service.gov.uk/jobs/finance-admin-asst) — Insufficient admin/service evidence.

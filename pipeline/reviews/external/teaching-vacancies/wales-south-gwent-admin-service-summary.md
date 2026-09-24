@@ -1,11 +1,11 @@
-# Teaching Vacancies regional review — Cheshire - Warrington & Halton
+# Teaching Vacancies regional review — Wales South -gwent
 
 review_date: 2026-09-24
 review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
 routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
-ontap_region: Cheshire - Warrington & Halton
+ontap_region: Wales South -gwent
 slice_category: admin_service
-slice_status: LIVE
+slice_status: UNREGISTERED
 
 Edit only the `action:` line in each editable block.
 Blank POSS decisions remain unpublished.
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
+- Records: 1
 - Selected: 0
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -33,8 +33,7 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## HARD_PASS
 
-- [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-the-great-schools-trust) — Insufficient admin/service evidence.
-- [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-park-road-community-primary-school-warrington-cheshire) — Manager title salary ceiling £29,540 is not below £28,000.
+- [Office/Admin Manager](https://teaching-vacancies.service.gov.uk/jobs/office-admin-manager-christ-the-king-college) — Manager title salary ceiling £36,805 is not below £28,000.
 
 ## Safety boundary
 

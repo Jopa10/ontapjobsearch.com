@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Worcestershire
 
-review_date: 2026-09-23
-review_fingerprint: 11604234c61993591845febe7b3bf494ad006286b39d8cc175118f01414974c9
-routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
+review_date: 2026-09-24
+review_fingerprint: d44e9a32d3296df4f7c5bd9c5aa7172aff0127f337a2b0e4636b096b8bc9f9d8
+routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 1
+- Records: 5
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 2
@@ -34,6 +34,21 @@ factual_fingerprint: 9f0da2036dfe24a7797f4e69f2944fd30c97db2e93cdd1ac6926f86ecab
 source: Teaching Vacancies
 source_job_id: administrator-send-department-tenbury-high-ormiston-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-send-department-tenbury-high-ormiston-academy
+---
+
+---
+action: 
+SELECTED | Worcestershire | Stourport-on-Severn, West Midlands, DY13 8SH | NJC Scale 3.5 - £26,427 FTE | Office Administrator
+employer: Stourport Primary Academy
+closing_date: 2026-10-05T09:00:59+01:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 24d99a332b86a4e9f640aecd299a904bb3cbcf159aca2bc991262502b0ac5bc5
+source: Teaching Vacancies
+source_job_id: office-administrator-stourport-primary-academy-stourport-on-severn-worcestershire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-stourport-primary-academy-stourport-on-severn-worcestershire
 ---
 
 ## POSS — choose SELECT or EXCLUDE

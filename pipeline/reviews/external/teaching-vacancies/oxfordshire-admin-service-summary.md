@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-09-23
+review_date: 2026-09-24
 review_fingerprint: 20315050b5013741320a7139f5a93d50dbb38dff4bc2dc4157c1afcf03905721
-routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
+routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -212,11 +212,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-admi
 ## HARD_PASS
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-bloxham-grove-academy) — Insufficient admin/service evidence.
-- [Chief Financial Officer (Part Time)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-part-time-abingdon-learning-trust) — Insufficient admin/service evidence.
 - [Chief Operating Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-operating-officer-oxford-diocesan-schools-trust-wantage-not-recorded) — Insufficient admin/service evidence.
 - [HR Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-partner-oxford-diocesan-bucks-schools-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-heyford-park-school) — Manager title salary ceiling £31,022 is not below £28,000.
 - [Procurement Contract Performance Manager *Hybrid Role*](https://teaching-vacancies.service.gov.uk/jobs/procurement-contract-performance-manager-hybrid-role) — Manager title salary ceiling £55,225 is not below £28,000.
+- [School Premises and Compliance Manager](https://teaching-vacancies.service.gov.uk/jobs/school-premises-and-compliance-manager) — Manager title salary ceiling £36,050 is not below £28,000.
 - [Trust Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-payroll-officer-river-learning-trust) — Insufficient admin/service evidence.
 - [Welfare and Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/welfare-and-personal-care-assistant-39611e1b-adbb-45de-b253-14fdb122d0d4) — Insufficient admin/service evidence.
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-09-23
-review_fingerprint: 7d118116857b1b3ec4c0497902f4003669f3d073509e4c7e55f66cf59b92e944
-routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
+review_date: 2026-09-24
+review_fingerprint: fde4bdf11085e66fccf43d2d98fe43f0b9704a5a7645a009035383d1c68727f7
+routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 5
+- Records: 13
+- Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: f26ce8e17425ea2df6277393b923358f357d786a6e7b9f74686b9e57dbb
 source: Teaching Vacancies
 source_job_id: academy-administrator-belfairs-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-belfairs-academy
+---
+
+---
+action: 
+SELECTED | Essex | Grays, East of England, RM16 4DG | £24,050.00 - £26,054.00 Annually (Actual) | Administration Assistant (Attendance)
+employer: Orsett Heath Academy
+closing_date: 2026-10-01T12:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c44fe6ffa93244903d47f2a1bf814af5bcbe05f5d128b0bdc1122d7d49eea10f
+source: Teaching Vacancies
+source_job_id: administration-assistant-attendance-orsett-heath-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-attendance-orsett-heath-academy
 ---
 
 ---
@@ -64,6 +79,21 @@ factual_fingerprint: 2079a9258689ef1c1326e6c2e3c0dac3ba716f9b95278c6ce6ac911fc1b
 source: Teaching Vacancies
 source_job_id: lead-administrator-limebrook-primary-school-and-nursery-maldon-essex
 source_url: https://teaching-vacancies.service.gov.uk/jobs/lead-administrator-limebrook-primary-school-and-nursery-maldon-essex
+---
+
+---
+action: 
+SELECTED | Essex | Harlow, East of England, CM18 6RN | £23,371.00 - £24,464.00 Annually (Actual) Band 2 Max Points 3 - 6. Term time plus 1 additional week (40 Weeks). | Receptionist
+employer: Sir Frederick Gibberd College
+closing_date: 2026-09-29T23:59:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 90f72754b9ebc9308054e17e2a9a0cf2a9bc76fea9b0eeda7d07fcc836456b6d
+source: Teaching Vacancies
+source_job_id: receptionist-sir-frederick-gibberd-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-sir-frederick-gibberd-college
 ---
 
 ---
@@ -123,6 +153,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-manager
 - [Repographics Technician](https://teaching-vacancies.service.gov.uk/jobs/repographics-technician) — Out-of-scope occupation: technician.
 - [Reprographics Administrator/Receptionist](https://teaching-vacancies.service.gov.uk/jobs/reprographics-administrator-receptionist-plume-school) — Missing salary or pay scale.
 - [Senior HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-ea247ce7-8c6b-4179-a7a3-f1673e767983) — Insufficient admin/service evidence.
+- [STUDENT ATTENDANCE AND INCLUSION MANAGER](https://teaching-vacancies.service.gov.uk/jobs/student-attendance-and-inclusion-manager-dee93199-2550-4a54-8c93-9bcd03bba34f) — Manager title without salary evidence below £28,000.
 
 ## Safety boundary
 

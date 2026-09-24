@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-09-23
-review_fingerprint: 6b9b616d734633b9c5201737ca0924667a8b0914ded3497e764471fc70258550
-routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
+review_date: 2026-09-24
+review_fingerprint: cd95973ac7b1b3b618520293adb544cc034f30b017d29b5218eebe3fcf6024a9
+routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 3
+- Records: 14
+- Selected: 4
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 8
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: 736b06b838b5078799aa7ab6d5762f01c3010c5c49151dca388ff5ed27a
 source: Teaching Vacancies
 source_job_id: evening-receptionist-swindon-academy-swindon-wiltshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/evening-receptionist-swindon-academy-swindon-wiltshire
+---
+
+---
+action: 
+SELECTED | Wiltshire | Devizes, South West, SN10 4EB | £31,537 - £33,699 per annum pro rata | £28,517 - £30,472 per annum | Exams Officer
+employer: Lavington School
+closing_date: 2026-09-25T09:00:00+01:00
+reason: Clear admin/service title: exams officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2cdb91c31f9aa0e02a125c6dd8fb76d301bbad252df5591750f0cae5ed701195
+source: Teaching Vacancies
+source_job_id: exams-officer-a0e6b270-9f8e-4c55-b68b-38b5e9214d1b
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-a0e6b270-9f8e-4c55-b68b-38b5e9214d1b
 ---
 
 ---
@@ -107,13 +122,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-ki
 - [Admissions and Transition Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-transition-coordinator) — Insufficient admin/service evidence.
 - [Assistant Data and Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-data-and-exams-manager) — Manager title salary ceiling £28,598 is not below £28,000.
 - [Attendance Liaison Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-liaison-assistant) — Insufficient admin/service evidence.
-- [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-0d106d15-bbf0-467f-8794-3393ccb03a2b) — Insufficient admin/service evidence.
 - [Early Years Stronger Practice Hub Manager](https://teaching-vacancies.service.gov.uk/jobs/early-years-stronger-practice-hub-manager) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-magna-learning-partnership-salisbury-not-recorded) — Insufficient admin/service evidence.
 - [Local Governance Committee Clerks](https://teaching-vacancies.service.gov.uk/jobs/local-governance-committee-clerks) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-lethbridge-primary-school) — Manager title salary ceiling £35,814 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-paxcroft-primary-school) — Manager title salary ceiling £37,563 is not below £28,000.
-- [Senior Pupil Services Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-grange-infants-school) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

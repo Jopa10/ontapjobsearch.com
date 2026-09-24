@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-09-23
-review_fingerprint: 67bc64f04b7de97f26ee2f6d98699398c1e44152bc6f90d3b78a0bc7dd3ef07e
-routing_manifest_sha256: 9deed30e0c0478a2c9fdf76f10b4e8d0b36298f1c388068970bb3349e20bf96e
+review_date: 2026-09-24
+review_fingerprint: 946a50f2014c0dee40245af49de7a217fb36865b334dbe7eff6f814704b07c47
+routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 33
-- Selected: 17
+- Selected: 16
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 13
+- Hard pass: 14
 
 ## SELECTED
 
@@ -64,21 +64,6 @@ factual_fingerprint: 5fbe8994cb15982b545fa4d64210407a2384529611e0b226040a7a7681a
 source: Teaching Vacancies
 source_job_id: administrative-assistant-outwood-grange-academies-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-outwood-grange-academies-trust
----
-
----
-action: 
-SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS10 1HW | B1 (SCP 4-6) £26,016 - £26,846, Actual Salary: £ 22,951 - £ 23,683 | Administrative Assistant – Operations
-employer: The Ruth Gorse Academy
-closing_date: 2026-09-24T09:00:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 42ea47343b267810cf1a1d89029db37b79db6188b1c465b12c94bcd9ee0faaf5
-source: Teaching Vacancies
-source_job_id: administrative-assistant-operations
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-operations
 ---
 
 ---
@@ -338,6 +323,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-support-officer-7
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-greengates-primary-academy-bradford-west-yorkshire) — Insufficient admin/service evidence.
 - [HR Advisor (Central Team)](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-central-team) — Insufficient admin/service evidence.
 - [People Advisor (Temporary Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-temporary-maternity-cover) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-barkerend-primary-leadership-academy) — Manager title salary ceiling £47,665 is not below £28,000.
 - [Senior Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-altofts-junior-academy) — Insufficient admin/service evidence.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-linthwaite-clough-primary-school) — Missing salary or pay scale.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-impact-education-multi-academy-trust) — Insufficient admin/service evidence.
