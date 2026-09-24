@@ -1,7 +1,7 @@
 ﻿metric,value
 total rows input,16981
-total rows included,702
-total rows dropped,16263
+total rows included,705
+total rows dropped,16272
 title classification count - HIGH_CONFIDENCE,425
 title classification count - ELASTIC_FIT,434
 title classification count - REVIEW_CONTEXT_DEPENDENT,1
@@ -48,13 +48,13 @@ other elastic count - Hampshire,5
 total rows output - Hampshire,18
 job_id included - Hampshire,1859841; 1881197; 1885727; 1871498; 1898713; 1937622; 1934715; 1935606; 1899341; 1893259; 2012754; 2014390; 107963757; 1856091; 1858777; 1960533; 1947243; 1908072
 selection scenario - Surrey,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - Surrey,Surrey manual_select applied additively: 1 row(s) prioritised; 26 selected.
-credible total - Surrey,26
+selection message - Surrey,Surrey manual_select applied additively: 2 row(s) prioritised; 27 selected.
+credible total - Surrey,27
 high confidence count - Surrey,17
 anchor elastic count - Surrey,0
 other elastic count - Surrey,8
-total rows output - Surrey,26
-job_id included - Surrey,1906933; 1883892; 1902490; 1905583; 1908833; 1909922; 1938873; 1950221; 1956566; 1960411; 1908400; 1896014; 1889796; 1889841; 107920859; 2013874; 415491; 1950797; 1876222; 1868559; 1891639; 1960011; 1957312; 108012892; 1402265683; 1994120
+total rows output - Surrey,27
+job_id included - Surrey,1906933; 107989507; 1883892; 1902490; 1905583; 1908833; 1909922; 1938873; 1950221; 1956566; 1960411; 1908400; 1896014; 1889796; 1889841; 107920859; 2013874; 415491; 1950797; 1876222; 1868559; 1891639; 1960011; 1957312; 108012892; 1402265683; 1994120
 selection scenario - Kent,SCENARIO_3_FULL_VALID_SELECTION
 selection message - Kent,"Kent selection complete: all 19 valid selected role(s) retained after HIGH_CONFIDENCE, Maidstone ELASTIC_FIT and other ELASTIC_FIT ordering."
 credible total - Kent,19
@@ -344,13 +344,13 @@ other elastic count - Staffordshire,13
 total rows output - Staffordshire,14
 job_id included - Staffordshire,1875798; 1870733; 1868528; 23643_225583171; 1886352; 1885622; 1928214; 872170507984699392037340; 872170507984699392037341; 1950861; 1906599; 1897879; 107961085; 108003800
 selection scenario - Suffolk,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - Suffolk,Suffolk manual_select applied additively: 1 row(s) prioritised; 16 selected.
-credible total - Suffolk,16
+selection message - Suffolk,Suffolk manual_select applied additively: 2 row(s) prioritised; 17 selected.
+credible total - Suffolk,17
 high confidence count - Suffolk,10
 anchor elastic count - Suffolk,0
 other elastic count - Suffolk,5
-total rows output - Suffolk,16
-job_id included - Suffolk,107952084; 1857671; 1877376; 1880891; 1885584; 1885401; 1938554; 1939565; 1895911; 1896011; 1881806; 1874687; 1894195; 107969645; 1905103; 2013712
+total rows output - Suffolk,17
+job_id included - Suffolk,107994067; 107952084; 1857671; 1877376; 1880891; 1885584; 1885401; 1938554; 1939565; 1895911; 1896011; 1881806; 1874687; 1894195; 107969645; 1905103; 2013712
 selection scenario - Wales South - Cardiff & Vale,SCENARIO_2_COMPLETE_HC_PLUS_ANCHOR_ELASTIC
 selection message - Wales South - Cardiff & Vale,Wales South - Cardiff & Vale selection complete: all 8 selected role(s) are HIGH_CONFIDENCE plus Cardiff ELASTIC_FIT roles.
 credible total - Wales South - Cardiff & Vale,8
@@ -368,13 +368,13 @@ other elastic count - Wales South - Valleys,1
 total rows output - Wales South - Valleys,9
 job_id included - Wales South - Valleys,20279_62802-153faf593eb64b88272f45adeaa28d87; 20279_62802-73862c8b83139033e4e4a8b6efca9a33; 20279_62802-89740a075c6163b74ea2c52702062e5d; 20279_62802-d24d3d6916a209e15b1680693740da2f; 20279_62802-2e070410e7335f8aa6337a8a12843a61; 20279_62802-d9f2c79dd509b72909884c73849eeb30; 20279_62802-4deef884d46f28ef190e6cadd69985b2; 20279_62802-1090fef1a0d74276851cea13699470b2; 1991743
 selection scenario - West Midlands - Birmingham & Solihull,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - West Midlands - Birmingham & Solihull,West Midlands - Birmingham & Solihull manual_select applied additively: 1 row(s) prioritised; 11 selected.
-credible total - West Midlands - Birmingham & Solihull,11
+selection message - West Midlands - Birmingham & Solihull,West Midlands - Birmingham & Solihull manual_select applied additively: 2 row(s) prioritised; 12 selected.
+credible total - West Midlands - Birmingham & Solihull,12
 high confidence count - West Midlands - Birmingham & Solihull,5
 anchor elastic count - West Midlands - Birmingham & Solihull,4
 other elastic count - West Midlands - Birmingham & Solihull,1
-total rows output - West Midlands - Birmingham & Solihull,11
-job_id included - West Midlands - Birmingham & Solihull,1883639; 1865343; 2013891; 1859114; 1867674; 1914542; 1906597; 1868171; 1916617; 1958335; 1873246
+total rows output - West Midlands - Birmingham & Solihull,12
+job_id included - West Midlands - Birmingham & Solihull,1883639; 1996580; 1865343; 2013891; 1859114; 1867674; 1914542; 1906597; 1868171; 1916617; 1958335; 1873246
 selection scenario - West Midlands - Black Country,SCENARIO_3_FULL_VALID_SELECTION
 selection message - West Midlands - Black Country,"West Midlands - Black Country selection complete: all 6 valid selected role(s) retained after HIGH_CONFIDENCE, Wolverhampton ELASTIC_FIT and other ELASTIC_FIT ordering."
 credible total - West Midlands - Black Country,6

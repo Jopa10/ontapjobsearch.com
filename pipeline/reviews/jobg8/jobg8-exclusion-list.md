@@ -6,9 +6,117 @@ The `excluded_on` date is the day the exclusion decision was made.
 To restore a job, edit only its `action:` line to `action: select`.
 On the next JobG8 run that exact job ID will be restored and removed from this list.
 
-remembered_exclusions: 356
+remembered_exclusions: 366
 
 ## SERVICE / ADMIN — EXCLUDED
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-24
+title: Workday System Administrator - Finance
+employer: DRH Support Services
+region: 
+town: Perthshire
+salary: 
+job_id: 108007352
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-24
+title: Temporary HR Systems HiBob administrator
+employer: Love Success Recruitment
+region: 
+town: London
+salary: 
+job_id: 2013709
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-24
+title: Supply Chain Coordinator
+employer: Alexander Steele Ltd
+region: 
+town: London
+salary: 
+job_id: 107933355
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-24
+title: Recruitment Coordinator
+employer: Ryder Reid Legal Ltd
+region: 
+town: London
+salary: 
+job_id: 1996333
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-24
+title: International Sales Order Administrator
+employer: Simkiss Recruitment Solutions
+region: 
+town: Birmingham
+salary: 
+job_id: 107723364
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-24
+title: International Logistics Coordinator
+employer: Zachary Daniels Recruitment
+region: 
+town: London
+salary: 
+job_id: 23643_225641264
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-24
+title: International Logistics Administrator
+employer: Simkiss Recruitment Solutions
+region: 
+town: Birmingham
+salary: 
+job_id: 107662254
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-24
+title: IP Administrator (experienced)
+employer: Withers & Rogers
+region: 
+town: Somerset
+salary: 
+job_id: 108003758
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-24
+title: HR Coordinator
+employer: Ryder Reid Legal Ltd
+region: 
+town: London
+salary: 
+job_id: 1996350
+---
 
 ---
 action:
@@ -4163,6 +4271,18 @@ job_id: 23643_225460911
 ---
 
 ## SUPPORT WORKER — EXCLUDED
+
+---
+action:
+category: support_worker
+excluded_on: 2026-09-24
+title: Healthcare Assistant - Travelling Role
+employer: Advantage Angels Ltd
+region: 
+town: Surrey
+salary: 
+job_id: 107840835
+---
 
 ---
 action:

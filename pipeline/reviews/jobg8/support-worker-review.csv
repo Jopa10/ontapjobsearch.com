@@ -2,7 +2,7 @@
 2026-09-24,SELECTED,Yorkshire - West,Female Night Support Worker,Wetherby,£14.50 per hour,,,1996739
 2026-09-24,SELECTED,Yorkshire - West,Female Night Support Worker,Leeds,£14.50 per hour,,,1996737
 2026-09-24,SELECTED,Yorkshire - South,Night Support Worker,Sheffield,£13.15 Per Hour,,,1938182
-2026-09-24,POSS - YORKSHIRE - SOUTH,Yorkshire - South,Healthcare Assistant,Barnsley,£39134 per year,,,107856311
+2026-09-24,SELECTED,Yorkshire - South,Healthcare Assistant,Barnsley,£39134 per year,,,107856311
 2026-09-24,SELECTED,"North East - Tyneside, Wearside & Northumberland",Young People Support Worker,South Shields,"£26,436 per annum",,,1909446
 2026-09-24,SELECTED,"North East - Tyneside, Wearside & Northumberland",Care Home Support Worker - &;23p/h,Newcastle Upon Tyne,£23 per hour,,,1939256
 2026-09-24,SELECTED,North East - County Durham & Darlington/Hartlepool,Night Young People Support Worker,Durham,"£26,436 per annum",,,1939116
@@ -10,7 +10,7 @@
 2026-09-24,SELECTED,Sussex,Support Worker,Worthing,£27394 per year,,,107989029
 2026-09-24,SELECTED,Sussex,Healthcare Assistant,Chichester,£14.28 per hour,,,1959112
 2026-09-24,SELECTED,Sussex,Healthcare Assistant,Battle,£13.00 per hour,,,1990925
-2026-09-24,POSS - SUSSEX,Sussex,Healthcare Assistant,Haywards Heath,£39134 per year,,,107863056
+2026-09-24,SELECTED,Sussex,Healthcare Assistant,Haywards Heath,£39134 per year,,,107863056
 2026-09-24,SELECTED,Cumbria - South,Relief Support Worker,Ulverston,£12.85 per hour (plus rolled up holiday pay),,,107950046
 2026-09-24,SELECTED,Cumbria - South,Relief Support Worker,Barrow-in-furness,£12.85 per hour () will be paid),,,108001475
 2026-09-24,SELECTED,Hampshire,Secure Children's Home Support Worker,Eastleigh,"£32780 - £35564 per year (Market Supplement, plus Enhancements)",,,1401784900
@@ -32,8 +32,8 @@
 2026-09-24,SELECTED,Hampshire,Male Support Worker,Southampton,"£25,845 per annum",,,455939784746781900837341
 2026-09-24,SELECTED,Hampshire,Male Support Worker,Fareham,"£25,845 per annum",,,455939784746781900837340
 2026-09-24,SELECTED,Hampshire,Children's Homes Support Worker,Winchester,£28697 - £31573 per year,,,1401785482
+2026-09-24,SELECTED,Hampshire,Healthcare Assistant,Ryde,£39134 per year,,,107856243
 2026-09-24,SELECTED,Hampshire,Female Support Worker,Tadley,£25437 per year,,,107989086
-2026-09-24,POSS - HAMPSHIRE,Hampshire,Healthcare Assistant,Ryde,£39134 per year,,,107856243
 2026-09-24,SELECTED,Kent,Care Support Worker,Sittingbourne,£14.43 per hour,,,1877396
 2026-09-24,SELECTED,Kent,Female Support Worker,Tunbridge Wells,"£25,845 per annum",,,117813832060606873637340
 2026-09-24,SELECTED,Kent,Waking Night Support Worker,Tunbridge Wells,"£25,845 per year",,,604850204165380505637340
@@ -56,7 +56,7 @@
 2026-09-24,SELECTED,Kent,Female Support Worker - Waking Nights,Tunbridge Wells,"£25,845 per annum",,,484455508861989683237340
 2026-09-24,SELECTED,Kent,Female Support Worker,Margate,"£25,845 per annum",,,143989699224639897637340
 2026-09-24,SELECTED,Kent,Brain Injury Support Worker,Tunbridge Wells,£15.77 per hour,,,1996389
-2026-09-24,POSS - KENT,Kent,Healthcare Assistant,Sevenoaks,£39134 per year,,,107854750
+2026-09-24,SELECTED,Kent,Healthcare Assistant,Sevenoaks,£39134 per year,,,107854750
 2026-09-24,SELECTED,London,Learning Support Assistant,London,£95 - £110 per daily,,,1820000
 2026-09-24,SELECTED,London,Autism Support Worker,Bromley,£100 - £110 per daily,,,1815970
 2026-09-24,SELECTED,London,Learning Support Assistant,London,£85 - £100 per daily,,,1823089
@@ -68,12 +68,11 @@
 2026-09-24,SELECTED,London,Inclusion Support Worker,Barking,£31290 per year,,,1961315
 2026-09-24,SELECTED,London,Care Assistant,London,£28860 per year,,,1990764
 2026-09-24,SELECTED,London,Support Worker,London,"£30,784.00 per annum",,,1991722
-2026-09-24,POSS - LONDON,London,Healthcare Assistant - Travelling Role,Kingston Upon Thames,£48917 per year,,,107840835
 2026-09-24,SELECTED,Oxfordshire,Behaviour Support Assistant - Oxford,Oxford,£85 - £110 per daily,,,1819710
 2026-09-24,SELECTED,Oxfordshire,Home Carer,Witney,£14.4 per hour,,,107626591
 2026-09-24,SELECTED,Oxfordshire,Home Carer,Bicester,£14.4 per hour,,,107626594
+2026-09-24,SELECTED,Oxfordshire,Healthcare Assistant,Henley-on-thames,£39134 per year,,,107837858
 2026-09-24,SELECTED,Oxfordshire,Home Carer,Banbury,£14.4 per hour,,,107626596
-2026-09-24,POSS - OXFORDSHIRE,Oxfordshire,Healthcare Assistant,Henley-on-thames,£39134 per year,,,107837858
 2026-09-24,SELECTED,Surrey,Care Assistant,Guildford,£13.90 per hour,,,1859281
 2026-09-24,SELECTED,Surrey,Female Support Worker,Woking,"£25,845 per year",,,211322183273886515237340
 2026-09-24,SELECTED,Surrey,Support Worker,Chertsey,"£25,845 per year",,,186045280252696985637340
