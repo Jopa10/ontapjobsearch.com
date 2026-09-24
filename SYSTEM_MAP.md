@@ -1,5 +1,5 @@
-Warning: truncated output (original token count: 30365)
-Total output lines: 520
+Warning: truncated output (original token count: 30474)
+Total output lines: 522
 
 # Ontap System Map
 
@@ -11,6 +11,8 @@ Total output lines: 520
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
+
+- 24 September 2026 — **Quick View is the initial view on mobile listing pages:** on first visit without a saved choice, screens up to 700 px start in Quick View and wider screens start in Detailed View. A stored explicit choice still takes priority on later visits.
 
 - 24 September 2026 — **AI tips now return visitors to their originating job listing:** listing cards pass a validated source key, and `/ai-tips` resolves it only through the known regional/category route registry. Admin listing links retain their existing region key; other categories use a region-and-category key. Direct or invalid visits keep the `Browse current jobs` fallback. The fixed canonical URL and breadcrumb schema are unchanged, and the return-link click retains GA4 measurement.
 
@@ -96,7 +98,22 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 - 30 August 2026 — **JobG8 review application no longer creates temporary NHS 404s:** the JobG8 service-admin rebuild now runs the transactional NHS composer before committing its combined outputs, and includes the NHS review/decision surfaces in the same guarded commit. This prevents an intermediate `main` revision from deleting still-open NHS vacancies before the later NHS publisher restores them; NHS fetch, enrichment, source-cap and fail-closed controls remain unchanged.
 
 - 30 August 2026 — **JobG8 coverage evidence and salary reporting made factual:** the artifact retains the raw JobG8 salary columns but labels the effective source as `structured`, `description_fallback` or `missing`, displays the effective salary text and calculates annualised values/bands from that evidence. The shared description parser also no longer attaches the words `Hourly rate` to a preceding annual salary amount; it selects the explicit hourly figure that follows. The former inferred `Selection status` is replaced by `Publication / coverage status`: exact current publication, governed-family register match in a LIVE or non-LIVE market, governed-register rejection, or no governed-register match. The artifact explicitly does not claim an actual selector decision when it has not executed that family selector.
-- 30 August 2026 — **Automatic JobG8 discovery audits are main-only:** the path-filtered `push` trigger…15365 tokens truncated…sistent integrity failures stop the source. Exact equality with a second full sweep is not required because live vacancies can legitimately appear or close during the run.
+- 30 August 2026 — **Automatic JobG8 discovery audits are main-only:** the path-filtered `push` trigger now runs only for changes already on `main`, matching the workflow's main checkout, AWS OIDC trust and diagnostic writeback target. Feature-branch pushes no longer start a doomed production audit; the existing manually dispatched, artifact-only route remains the sole non-main audit path.
+- 30 August 2026 — **Owner-approved remainder of the missed JobG8 family-title review applied through exact refinements:** the existing Service Admin, Finance / Accounts, Customer Service, Customer Sales, Legal and HR / Recruitment selectors now admit only the named reviewed titles. `Personal Assistant` enters Service Admin only when advert text explicitly establishes executive/corporate-office PA work; direct-care, legal and ambiguous PA adverts fail closed. `Payroll , Pensions and HR Administrator (Hybrid)` remains an explicit Service Admin `HARD_PASS`. Generic title patterns, specialist exclusions, salary ceilings, geography, dedupe and LIVE-market gates are unchanged; focused regressions protect all additions and nearby exclusions.
+- 29 August 2026 — **Owner-reviewed A–H false negatives added to existing governed families:** persistent exact-title decisions now cover the agreed accessible Finance / Accounts, Customer Service, HR / Recruitment, Service Admin and Support Worker adverts found in the owner audit. Narrow production exceptions admit Accounts Payable Analyst, Assistant Accountant, Finance Administration Officer, HR and Payroll Administrator, Customer Engagement Executive, driver-qualified Support Worker/Practitioner and direct Housing Support variants without weakening the existing salary, source-integrity, geography, duplicate, seniority or LIVE-slice gates. Customer Service production now consum…14474 tokens truncated…permanent review decisions. Source freshness and factual-fingerprint checks remain authoritative.
+
+Publication isolation is hierarchical:
+
+- up to 15 unresolved/malformed **mandatory-review** jobs in one source are withheld fail-closed while clean jobs continue;
+- more than 15 such mandatory-review jobs, or a source-level integrity mismatch, isolates that source and retains its previous approved state;
+- after TV regional composition, up to three named regions missing a usable base output or approved snapshot/evidence retain their previous live page while verified TV regions publish; four or more stop TV, and any composition/evidence integrity failure stops regardless of count;
+- NHS untouched POSS rows are optional review opportunities and therefore do not count toward that isolation threshold;
+- source publisher failures are fail-soft where the prior approved state can safely be retained;
+- only a genuine combined/publication integrity failure should stop the whole publish.
+
+Confirmed source paths include JobG8, NEJobs, VONNE, Teaching Vacancies and NHS Jobs.
+
+Source freshness is owned upstream of the apply/publish orchestrator. If an active source review is stale or missing, the master review flags `NOT READY TO REVIEW`, excludes that stale source from the current master-review jobs, and must not treat its absence as zero inventory. A stale source does not by itself convert a later apply/publish run into a system-level failure: clean sources can continue under the isolation model. In particular, the parent apply/publish workflow does not refresh Teaching Vacancies; fresh TV state is produced by `run-teaching-vacancies-regional-review.yml`. TV discovery uses one complete audited national sweep: page audit failures retry that page, inconsistent route-level totals/ranges retry only that route, and persistent integrity failures stop the source. Exact equality with a second full sweep is not required because live vacancies can legitimately appear or close during the run.
 
 The England-wide Teaching Vacancies Markdown is a pending-edit queue, not the full decision register. It shows only LIVE, non-hard-pass rows with a blank `manual_action`; previously resolved `select` / `exclude` rows remain in the master CSV and regional approval state and continue to carry forward only while their stable ID and factual fingerprint still match. During cross-day regeneration, obsolete Markdown blocks that are already resolved in the CSV or no longer reviewable are ignored; strict block/fact validation still applies when owner edits are applied.
 
@@ -219,7 +236,7 @@ Report lifecycle is recurring operational reporting / deliberate specialist anal
 
 ## 3. Website / UX
 
-Every non-London `JobSlicePage` listing uses a consistent desktop promotion rail with three role-appropriate course cards and the practical AI-help card beneath them. Office-based dynamic and generated city pages resolve to the shared office set; support-worker pages resolve to three care courses; explicitly configured legacy pages keep their established three-card set. At mobile widths up to 700 px the whole rail is hidden. London retains its separately configured layout. The AI card links to `/ai-tips` with a validated regional/category source key; the page returns visitors to that exact approved listing, while direct or invalid visits see `Browse current jobs`. The canonical URL and breadcrumb schema stay fixed, and GA4 records AI-tip visits and return-link clicks.
+Every non-London `JobSlicePage` listing uses a consistent desktop promotion rail with three role-appropriate course cards and the practical AI-help card beneath them. Office-based dynamic and generated city pages resolve to the shared office set; support-worker pages resolve to three care courses; explicitly configured legacy pages keep their established three-card set. At mobile widths up to 700 px the whole rail is hidden. London retains its separately configured layout. The job-view switcher defaults first-time mobile visitors to Quick View and desktop visitors to Detailed View; a visitor's saved choice takes priority on later visits. The AI card links to `/ai-tips` with a validated regional/category source key; the page returns visitors to that exact approved listing, while direct or invalid visits see `Browse current jobs`. The canonical URL and breadcrumb schema stay fixed, and GA4 records AI-tip visits and return-link clicks.
 
 Purpose: user-facing job search, job pages, navigation and presentation.
 

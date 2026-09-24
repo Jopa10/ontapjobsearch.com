@@ -1,5 +1,5 @@
-Warning: truncated output (original token count: 22272)
-Total output lines: 370
+Warning: truncated output (original token count: 22350)
+Total output lines: 372
 
 # Ontap System Overview
 
@@ -9,6 +9,8 @@ Total output lines: 370
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 24 September 2026 — First-time mobile visitors now see Quick View first; desktop visitors continue to start in Detailed View. A previously saved view choice still takes priority.
 
 - 24 September 2026 — AI tips links now carry a checked identifier for the job page they came from. Readers can return to that exact listing; direct visits still offer `Browse current jobs`. The page's search canonical and breadcrumb remain fixed.
 
@@ -114,7 +116,23 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 - 26 August 2026 — **Five further Service Admin markets are approved for LIVE:** Cheshire - West, Northern Ireland - East, Scotland Central - Edinburgh & Lothians, Scotland West - Glasgow and Worcestershire. Their current / rolling-average / six-plus-day evidence is **8 / 8.0 / 5-of-5, 8 / 8.5 / 4-of-4, 6 / 12.8 / 4-of-4, 10 / 14.5 / 4-of-4 and 10 / 8.8 / 5-of-5** respectively. This is a named owner approval for all five and does not change the general Service Admin rule that automatic approval requires more than 8 current jobs. The Service Admin LIVE footprint is now **43 / 55 England markets and 46 / 78 UK markets**; the established regional-page, homepage, Browse Jobs, search and verified-publish mechanisms are reused.
 - 26 August 2026 — **One bad Teaching Vacancies advert no longer stops the other clean TV jobs:** after normal retries, up to 15 unavailable or malformed individual adverts are left out and named in the run evidence. Sixteen or more still stop TV, as does a broken/incomplete listing or a run producing no usable jobs.
 - 26 August 2026 — **NEJobs no longer mistakes two genuine vacancies for one merely because their title, employer and location match:** separate source IDs remain separate jobs. True duplicates already supplied by another source are still withheld, and the final check stops only for an approved job that is genuinely unaccounted for. The same correction protects VONNE because both use the shared North East composer.
-- 26 August 2026 — **VONNE connection interruptions now retry safely:** temporary resets or timeouts between GitHub and VONNE receive up to four bounded attempts instead of immediately ending…7272 tokens truncated…r.
+- 26 August 2026 — **VONNE connection interruptions now retry safely:** temporary resets or timeouts between GitHub and VONNE receive up to four bounded attempts instead of immediately ending the workflow. Invalid pages and exhausted retries still fail safely.
+- 26 August 2026 — **VONNE no longer loses its whole approved batch because of a small edit queue:** up to 10 undecided or changed vacancies are withheld individually while unchanged, previously selected VONNE jobs continue. Eleven or more stop VONNE for review, and genuine source/detail/factual integrity failures still block it.
+- 26 August 2026 — **Teaching Vacancies no longer retains obsolete regional review files:** when a vacancy moves into its corrected region, the old generated regional pair is removed before the master review is rebuilt. The existing identical Diss/Norfolk duplicate can pass through the recovery run safely, while conflicting duplicates still stop.
+- 26 August 2026 — **Teaching Vacancies now handles a search returning exactly one job:** TV writes `result` rather than `results` in that case. The page audit accepts both forms while keeping all existing page-count and vacancy-link completeness checks.
+- 24 August 2026 — **HR / Recruitment is LIVE in six explicitly approved markets:** London, West Yorkshire, Berkshire, Manchester & Salford, Nottinghamshire, and Birmingham & Solihull. The three exact-five proof markets—Sussex, Bristol & Bath and Essex—remain reserves and are not public. Daily selection now uses the reviewed advert-level HR / Recruitment boundary instead of the older exact-title HR mechanism, rechecking the £50k ceiling, senior/advisory/specialist and agency-sales exclusions, content duplicates and geographic conflicts before the shared verified-page publisher runs. The proof-reviewed Ashton-under-Lyne/Tameside advert remains in Manchester through a narrow explicit exception; unrelated location conflicts are still withheld.
+- 24 August 2026 — **HR / Recruitment proof-…6350 tokens truncated…ly when they genuinely belong to the same labour market and the decision is recorded in the city-page register.
+- 19 August 2026 — Put **Durham Service Admin on HOLD** because the original `durham` opportunity-market pattern could also match broad `County Durham` locations. The 22 August city audit added an explicit County Durham exclusion, but Durham remains HOLD until clean post-fix history requalifies it.
+- 19 August 2026 — Activated six additional Service Admin regions from same-feed evidence against the then-configured 33-market footprint: Buckinghamshire, Greater Manchester - South, Hertfordshire, Somerset, West Midlands - Birmingham & Solihull, and Yorkshire - East.
+- 19 August 2026 — Added the first same-feed daily coverage for Service Admin and Support Worker across the then-configured 33-market footprint; this was expanded to all 55 assessable England markets on 22 August.
+- 19 August 2026 — Added fail-soft publication hierarchy: small job-level problems are withheld while clean jobs continue; larger source problems isolate that source rather than blocking the whole Ontap publish.
+- 19 August 2026 — Merged architecture cleanup 1–5 into `main` via PR #211.
+
+## 1. Pipeline
+
+The main JobG8 process remains the primary production ingest/process path. NEJobs, VONNE, Teaching Vacancies and NHS Jobs provide additional inventory through governed source paths. After review, the single **Apply and publish Ontap daily review** workflow coordinates source publishers and the final verified-page publish.
+
+A source shown as `STALE` or `MISSING` in the unified review must not be interpreted as zero inventory. Repair/rerun that source, then rerun `Ontap daily review` to regenerate the master edit file before reviewing. The 22 August Teaching Vacancies recovery verified this operating sequence and the fail-soft source-isolation behaviour.
 
 At the 18 September audit, Service Admin is LIVE in **51 / 78 UK markets**. All use the same central catalog, slice register, production selector and verified-page publishing mechanism. `pipeline/registers/region_category_slice_register.csv` is authoritative if that count later changes.
 
@@ -213,7 +231,7 @@ Saved-location discovery is a progressive enhancement across mobile and desktop.
 The saved-location panel's count and `View nearby jobs` button use the same 15-mile search. An exact location search with no matching vacancies continues to display zero. Its onward action widens first to genuine current jobs within 15 straight-line miles of the approved canonical town, then to the corresponding Ontap region; it does not silently substitute unrelated national vacancies into the original results.
 
 
-Non-London job-listing pages show three relevant course cards followed by Ontap's practical AI-help robot card in the desktop left rail. The full promotional rail is hidden on mobile, keeping the vacancies central. London retains its separately configured layout. The robot links to `/ai-tips` with a checked source value, so readers can return to the same listing. Direct visits show `Browse current jobs`; the page's canonical URL and breadcrumb remain fixed. GA4 records the AI-tip and return-link clicks.
+Non-London job-listing pages show three relevant course cards followed by Ontap's practical AI-help robot card in the desktop left rail. The full promotional rail is hidden on mobile, keeping the vacancies central. London retains its separately configured layout. First-time mobile visitors start with Quick View; desktop visitors start with Detailed View, while a saved choice is remembered. The robot links to `/ai-tips` with a checked source value, so readers can return to the same listing. Direct visits show `Browse current jobs`; the page's canonical URL and breadcrumb remain fixed. GA4 records the AI-tip and return-link clicks.
 
 LIVE dynamic regional slices feed Browse Jobs, `/jobs/search`, job-detail backlinks and the homepage Admin region grid through the shared configured-slice/published-job mechanisms.
 

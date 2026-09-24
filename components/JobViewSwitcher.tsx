@@ -26,14 +26,18 @@ export default function JobViewSwitcher({
   const [sectorView, setSectorView] = useState<SectorView>("all");
 
   useEffect(() => {
+    let initialView: ViewMode = window.matchMedia("(max-width: 700px)").matches
+      ? "quick"
+      : "detailed";
     try {
       const stored = window.localStorage.getItem(STORAGE_KEY);
       if (stored === "quick" || stored === "detailed") {
-        queueMicrotask(() => setView(stored));
+        initialView = stored;
       }
     } catch {
-      // Storage can be unavailable in strict privacy modes. Detailed View remains default.
+      // Storage can be unavailable in strict privacy modes. Use the device-size default.
     }
+    setView(initialView);
   }, []);
 
   function choose(next: ViewMode) {
