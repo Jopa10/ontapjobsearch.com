@@ -38,11 +38,10 @@ job_id: 1938182
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Barnsley | £39134 per year | Healthcare Assistant
 job_id: 107856311
 ---
-
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — SELECTED
 
 ---
@@ -102,11 +101,10 @@ job_id: 1990925
 ## SUSSEX — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SUSSEX | Sussex | Haywards Heath | £39134 per year | Healthcare Assistant
 job_id: 107863056
 ---
-
 ## CUMBRIA SOUTH — SELECTED
 
 ---
@@ -250,11 +248,10 @@ job_id: 107989086
 ## HAMPSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - HAMPSHIRE | Hampshire | Ryde | £39134 per year | Healthcare Assistant
 job_id: 107856243
 ---
-
 ## KENT — SELECTED
 
 ---
@@ -392,11 +389,10 @@ job_id: 1996389
 ## KENT — POSSIBLES
 
 ---
-action:
+action: select
 POSS - KENT | Kent | Sevenoaks | £39134 per year | Healthcare Assistant
 job_id: 107854750
 ---
-
 ## LONDON — SELECTED
 
 ---
@@ -468,11 +464,10 @@ job_id: 1991722
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - LONDON | London | Kingston Upon Thames | £48917 per year | Healthcare Assistant - Travelling Role
 job_id: 107840835
 ---
-
 ## OXFORDSHIRE — SELECTED
 
 ---
@@ -502,11 +497,10 @@ job_id: 107626596
 ## OXFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - OXFORDSHIRE | Oxfordshire | Henley-on-thames | £39134 per year | Healthcare Assistant
 job_id: 107837858
 ---
-
 ## SURREY — SELECTED
 
 ---

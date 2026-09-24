@@ -856,35 +856,30 @@ job_id: 2014538
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £18 - £22 per hour | Temporary HR Systems HiBob administrator
 job_id: 2013709
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £40000 per year | Supply Chain Coordinator
 job_id: 107933355
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £50000 per year | HR Coordinator
 job_id: 1996350
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £55000 per year | Recruitment Coordinator
 job_id: 1996333
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £40000 - £45000 per year (Benefits) | International Logistics Coordinator
 job_id: 23643_225641264
 ---
-
 ## HAMPSHIRE — SELECTED
 
 ---
@@ -1160,11 +1155,10 @@ job_id: 415491
 ## SURREY — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SURREY | Surrey | Surrey | £45000 per year | Service Advisor
 job_id: 107989507
 ---
-
 ## KENT — SELECTED
 
 ---
@@ -1714,11 +1708,10 @@ job_id: 1884559
 ## BRISTOL & BATH — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - BRISTOL & BATH | Bristol & Bath | Bristol | £35000 per year | IP Administrator (experienced)
 job_id: 108003758
 ---
-
 ## BUCKINGHAMSHIRE — SELECTED
 
 ---
@@ -3760,11 +3753,10 @@ job_id: 1950377
 ## SCOTLAND CENTRAL - TAYSIDE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - SCOTLAND CENTRAL - TAYSIDE | Scotland Central - Tayside | Blairgowrie | £55000 per year | Workday System Administrator - Finance
 job_id: 108007352
 ---
-
 ## SCOTLAND WEST - GLASGOW — SELECTED
 
 ---
@@ -4094,11 +4086,10 @@ job_id: 2013712
 ## SUFFOLK — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SUFFOLK | Suffolk | Suffolk | £15.5 per hour | Site & Vetting Administrator
 job_id: 107994067
 ---
-
 ## WALES SOUTH - CARDIFF & VALE — SELECTED
 
 ---
@@ -4284,23 +4275,20 @@ job_id: 2013891
 ## WEST MIDLANDS - BIRMINGHAM & SOLIHULL — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Birmingham | £35000 per year | International Logistics Administrator
 job_id: 107662254
 ---
-
 ---
-action:
+action: exclude
 POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Birmingham | £35000 per year | International Sales Order Administrator
 job_id: 107723364
 ---
-
 ---
-action:
+action: select
 POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Birmingham | £30000 - £33000 per year | Purchasing Coordinator
 job_id: 1996580
 ---
-
 ## WEST MIDLANDS - BLACK COUNTRY — SELECTED
 
 ---
