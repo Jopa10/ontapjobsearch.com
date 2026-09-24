@@ -85,12 +85,6 @@ job_id: 1908629
 
 ---
 action:
-SELECTED | Sussex | Worthing | £27394 per year | Support Worker
-job_id: 107989029
----
-
----
-action:
 SELECTED | Sussex | Chichester | £14.28 per hour | Healthcare Assistant
 job_id: 1959112
 ---
@@ -105,6 +99,12 @@ job_id: 1990925
 action:
 SELECTED | Sussex | Haywards Heath | £39134 per year | Healthcare Assistant
 job_id: 107863056
+---
+
+---
+action:
+SELECTED | Sussex | Hove | £26000 per year | Waking Night Support Worker
+job_id: 108016979
 ---
 
 ## SUSSEX — POSSIBLES
@@ -411,12 +411,6 @@ _No jobs in this group._
 action:
 SELECTED | London | London | £95 - £110 per daily | Learning Support Assistant
 job_id: 1820000
----
-
----
-action:
-SELECTED | London | Bromley | £100 - £110 per daily | Autism Support Worker
-job_id: 1815970
 ---
 
 ---
