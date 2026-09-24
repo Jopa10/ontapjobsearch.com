@@ -335,7 +335,7 @@ function getListingIntro(introText: string | undefined, latestUpdate: string): s
   const latestDate = latestUpdate.startsWith("Updated ")
     ? latestUpdate.slice("Updated ".length)
     : latestUpdate;
-  if (!introText) return "Latest update: " + latestDate + ";
+  if (!introText) return "Latest update: " + latestDate;
 
   return introText
     .split(" • ")
