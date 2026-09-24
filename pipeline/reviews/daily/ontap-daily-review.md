@@ -32,7 +32,7 @@ Edit only each `action:` line:
 ## JobG8 — 18 to review
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Bristol & Bath | Bristol | £35000 per year | IP Administrator (experienced)
 source_key: jobg8
 source: JobG8
@@ -50,7 +50,7 @@ hub_fingerprint: 0cb881af031a90ee9a90f148a76fe3eace7abb1cd5473576f334a20c2dca5ba
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Hampshire | Ryde | £39134 per year | Healthcare Assistant
 source_key: jobg8
 source: JobG8
@@ -68,7 +68,7 @@ hub_fingerprint: 721f19ae36a1e2fa0847c51b833b271c98cffde067d39798f033cdbb15c401f
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Kent | Sevenoaks | £39134 per year | Healthcare Assistant
 source_key: jobg8
 source: JobG8
@@ -86,7 +86,7 @@ hub_fingerprint: ce7e83c5460162c4f9a6affa31afe8a6e98cf4c41889a64c72e25a4477b74f3
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | Kingston Upon Thames | £48917 per year | Healthcare Assistant - Travelling Role
 source_key: jobg8
 source: JobG8
@@ -104,7 +104,7 @@ hub_fingerprint: 1098458fb49262d7228224ae09ad4191715b5d55b5083b1ebd081df40440f03
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | London | £50000 per year | HR Coordinator
 source_key: jobg8
 source: JobG8
@@ -122,7 +122,7 @@ hub_fingerprint: b2c1e154691325971427f83952b4cb12b420179112fc5c070350fa58549e66c
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | London | £40000 - £45000 per year (Benefits) | International Logistics Coordinator
 source_key: jobg8
 source: JobG8
@@ -140,7 +140,7 @@ hub_fingerprint: c7f0ca5b98d779b35cb825a2959e5d48d69a8ce266d0b170fdccfb09d259b41
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | London | £55000 per year | Recruitment Coordinator
 source_key: jobg8
 source: JobG8
@@ -158,7 +158,7 @@ hub_fingerprint: c7c9e832d19c8a69c3d663c20fdf227aae27cc4cdf8d0d3e32aea51c8de689d
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | London | £40000 per year | Supply Chain Coordinator
 source_key: jobg8
 source: JobG8
@@ -176,7 +176,7 @@ hub_fingerprint: 085ddcb2ffcfa2354d9dbd2d8a25006116baae8b654ed9fac6c0c56e507b22c
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | London | £18 - £22 per hour | Temporary HR Systems HiBob administrator
 source_key: jobg8
 source: JobG8
@@ -194,7 +194,7 @@ hub_fingerprint: 1e5de3b92375181cc01c8b0f65cedcd8b8d946cc3cfadc06f74646f8a6c30ef
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Oxfordshire | Henley-on-thames | £39134 per year | Healthcare Assistant
 source_key: jobg8
 source: JobG8
@@ -212,7 +212,7 @@ hub_fingerprint: 182f2c837eeb6ffb84b8c3f01a2b7c7cb98ff5fe415f93d00ca4e10b3aef47a
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Scotland Central - Tayside | Blairgowrie | £55000 per year | Workday System Administrator - Finance
 source_key: jobg8
 source: JobG8
@@ -230,7 +230,7 @@ hub_fingerprint: d095070d8f6c0508fd79e303b55eb4cbfad78ad7a5ca0261816a9c5080f519d
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Suffolk | Suffolk | £15.5 per hour | Site & Vetting Administrator
 source_key: jobg8
 source: JobG8
@@ -248,7 +248,7 @@ hub_fingerprint: 9edd65d9a13342a3b8813d924b48c7b56900b17d107ef538fceb9f38e9eeaca
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Surrey | Surrey | £45000 per year | Service Advisor
 source_key: jobg8
 source: JobG8
@@ -266,7 +266,7 @@ hub_fingerprint: 8c301bf24b54e4195c717b302c4453855ef974b5419e8eb90871abef33ec155
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Sussex | Haywards Heath | £39134 per year | Healthcare Assistant
 source_key: jobg8
 source: JobG8
@@ -284,7 +284,7 @@ hub_fingerprint: be7cdbd09904a7626f8c8fa39eabc3b96625abd8f3d283f6d0c40a2cd85d7d9
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | West Midlands - Birmingham & Solihull | Birmingham | £35000 per year | International Logistics Administrator
 source_key: jobg8
 source: JobG8
@@ -302,7 +302,7 @@ hub_fingerprint: d1950f17543f4d286a06835f847eccdd749c796e0c7a8df122c76434d44a5a0
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | West Midlands - Birmingham & Solihull | Birmingham | £35000 per year | International Sales Order Administrator
 source_key: jobg8
 source: JobG8
@@ -320,7 +320,7 @@ hub_fingerprint: f5e9d4545a92f61919ce8df5b3b91982c2c5608e3b3b771aa3427cc84abc7a3
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | West Midlands - Birmingham & Solihull | Birmingham | £30000 - £33000 per year | Purchasing Coordinator
 source_key: jobg8
 source: JobG8
@@ -338,7 +338,7 @@ hub_fingerprint: be18465a06f176173ba71b5cef70ef1ba086af386df5a93a9189f039ec68b34
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Yorkshire - South | Barnsley | £39134 per year | Healthcare Assistant
 source_key: jobg8
 source: JobG8
