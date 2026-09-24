@@ -1,6 +1,6 @@
 # Ontap daily regional overview
 
-Generated: 2026-09-24T09:46:38+01:00
+Generated: 2026-09-24T10:11:39+01:00
 
 [Download this overview as Excel](./daily-region-overview.xlsx)
 
@@ -8,16 +8,16 @@ Generated: 2026-09-24T09:46:38+01:00
 
 | Measure | Count |
 |---|---:|
-| Unique live jobs | 1,878 |
+| Unique live jobs | 1,877 |
 | Unique JobG8 jobs | 1,560 |
-| Unique non-JobG8 jobs | 318 |
-| Regional/category slice placements | 2,198 |
+| Unique non-JobG8 jobs | 317 |
+| Regional/category slice placements | 2,197 |
 | Jobs appearing on multiple slices | 319 |
 | Extra slice placements | 320 |
 | Unique jobs outside governed slices | 0 |
 | Jobs found in non-LIVE slices | 0 |
 
-**Reconciliation: 1,878 unique jobs + 320 extra slice placements = 2,198 regional/category slice placements.**
+**Reconciliation: 1,877 unique jobs + 320 extra slice placements = 2,197 regional/category slice placements.**
 
 Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-24.csv` — **STALE — CSV says 1,900 for 2026-09-24**.
 
@@ -28,7 +28,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-2
 | JobG8 | 1,560 | 319 | 320 |
 | NEJobs | 3 | 0 | 0 |
 | NHS Jobs | 163 | 0 | 0 |
-| Teaching Vacancies | 152 | 0 | 0 |
+| Teaching Vacancies | 151 | 0 | 0 |
 
 ## JOBG8 FEED RECEIVED
 
@@ -292,7 +292,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-2
 
 ## CITY OPPORTUNITIES
 
-**324 mapped towns/localities with live jobs or an existing city page.** Counts use all 1,878 unique live Ontap jobs across every role and provider: 954 have an exact recognised town/locality and 924 have only broader or unrecognised location evidence. CREATE means 4+ current Service Admin jobs and no existing city page; London is held separately.
+**324 mapped towns/localities with live jobs or an existing city page.** Counts use all 1,877 unique live Ontap jobs across every role and provider: 953 have an exact recognised town/locality and 924 have only broader or unrecognised location evidence. CREATE means 4+ current Service Admin jobs and no existing city page; London is held separately.
 
 | Status | Town/city/locality | Region | All live jobs | Existing pages | Current routes | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre | Other / unclassified |
 |---|---|---|---:|---:|---||---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -484,7 +484,6 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-2
 | MONITOR | Skegness | Lincolnshire | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Sleaford | Lincolnshire | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Southend-on-sea | Essex | 2 | 0 |  | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
-| MONITOR | Torquay | Devon | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Trowbridge | Wiltshire | 2 | 0 |  | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Wantage | Oxfordshire | 2 | 0 |  | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
 | MONITOR | Wellington | Shropshire | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -602,6 +601,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-2
 | MONITOR | Tenbury Wells | Worcestershire | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Tipton | West Midlands - Black Country | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Tiverton | Devon | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| MONITOR | Torquay | Devon | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Trafford | Greater Manchester - South | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Tranent | Scotland Central - Edinburgh & Lothians | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Ulverston | Cumbria - South | 1 | 0 |  | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -640,7 +640,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-2
 | Cumbria - South |  | 2 |  |  |  |  |  |  |
 | Cumbria - West |  |  |  |  |  |  |  |  |
 | Derbyshire | 5 |  |  |  |  |  |  |  |
-| Devon | 40 |  | 4 |  |  | 16 |  |  |
+| Devon | 39 |  | 4 |  |  | 16 |  |  |
 | Dorset | 12 |  |  |  |  | 12 |  |  |
 | Essex | 41 |  |  | 18 | 6 | 30 |  |  |
 | Gloucestershire | 17 |  |  |  | 3 | 11 |  |  |
@@ -796,6 +796,6 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-2
 | Measure | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Live regions | 51 / 78 | 11 / 78 | 14 / 78 | 12 / 78 | 21 / 78 | 35 / 78 | 9 / 78 | 6 / 78 |
-| Live slice placements | 1112 + 1 CHECK | 86 | 57 | 166 | 169 + 2 CHECK | 560 + 2 CHECK | 47 + 2 CHECK | 1 + 5 CHECK |
+| Live slice placements | 1111 + 1 CHECK | 86 | 57 | 166 | 169 + 2 CHECK | 560 + 2 CHECK | 47 + 2 CHECK | 1 + 5 CHECK |
 
 **Live slices: 159 / 624.**
