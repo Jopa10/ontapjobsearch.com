@@ -11,6 +11,25 @@ export const metadata: Metadata = {
   alternates: { canonical: canonicalUrl },
 };
 
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Home",
+      item: "https://www.ontapjobsearch.com/",
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "AI tips",
+      item: canonicalUrl,
+    },
+  ],
+};
+
 const tips = [
   {
     title: "Turn rough notes into actions",
@@ -41,6 +60,23 @@ const tips = [
 export default function AiTipsPage() {
   return (
     <main className="mx-auto max-w-5xl px-5 py-10 sm:px-6 sm:py-14">
+      <nav aria-label="Breadcrumb" className="mb-5 text-sm text-slate-600">
+        <ol className="flex flex-wrap items-center gap-2">
+          <li>
+            <Link href="/" className="underline-offset-4 hover:underline">
+              Home
+            </Link>
+          </li>
+          <li aria-hidden="true">&gt;</li>
+          <li aria-current="page" className="font-medium text-slate-900">
+            AI tips
+          </li>
+        </ol>
+      </nav>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <section className="grid items-center gap-8 rounded-3xl border border-blue-100 bg-gradient-to-br from-blue-50 to-white p-6 sm:p-9 md:grid-cols-[1fr_240px]">
         <div>
           <p className="mb-3 text-sm font-bold uppercase tracking-wider text-blue-700">
