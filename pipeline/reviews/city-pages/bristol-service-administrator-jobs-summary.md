@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 21
+- Effective included jobs: 20
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 21
-- automatic review: 18
+- automatic include: 20
+- automatic review: 17
 - automatic exclude: 1
-- effective include: 21
-- effective review: 18
+- effective include: 20
+- effective review: 17
 - effective exclude: 1
 
-## INCLUDE (21)
+## INCLUDE (20)
 
 ---
 action: 
@@ -92,7 +92,7 @@ title: Administrator
 company: West Walk Surgery
 location: Bristol, BS37 4AX
 source: NHS Jobs
-job_id: nhs-5602566
+job_id: nhs-5590154
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -165,18 +165,6 @@ company: HFT - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-1946470
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: HR Coordinator
-company: Robert Half - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-1908352
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -276,7 +264,7 @@ job_id: jobg8-1960385
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (18)
+## REVIEW (17)
 
 ---
 action: 
@@ -311,18 +299,6 @@ company: M2 Professional Recruitment Services Ltd - Agency - Permanent
 location: Somerset
 source: JobG8
 job_id: jobg8-1990884
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller (Hybrid)
-company: Yolk Recruitment Ltd - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-1859492
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 

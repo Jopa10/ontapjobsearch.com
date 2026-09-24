@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 23
+- automatic review: 22
 - automatic exclude: 0
 - effective include: 0
-- effective review: 23
+- effective review: 22
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (23)
+## REVIEW (22)
 
 ---
 action: 
@@ -251,18 +251,6 @@ company: Manorfield Church of England Primary School
 location: Leicester
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-maternity-cover-manorfield-church-of-england-primary-school
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Safeguarding and Attendance Administrator
-company: Tudor Grange Samworth Academy, A church of England School
-location: Leicester
-source: Teaching Vacancies
-job_id: teaching-vacancies-safeguarding-and-attendance-administrator-tudor-grange-samworth-academy-a-church-of-england-school
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

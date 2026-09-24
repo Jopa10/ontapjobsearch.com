@@ -4,7 +4,7 @@
 - Live route: `/bradford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 32
-- automatic exclude: 39
-- effective include: 11
-- effective review: 32
-- effective exclude: 39
+- automatic include: 10
+- automatic review: 31
+- automatic exclude: 40
+- effective include: 10
+- effective review: 31
+- effective exclude: 40
 
-## INCLUDE (11)
+## INCLUDE (10)
 
 ---
 action: 
@@ -69,18 +69,6 @@ company: Bradford Diocesan Academies Trust
 location: Bradford
 source: Teaching Vacancies
 job_id: teaching-vacancies-deputy-pa-receptionist-bradford-diocesan-academies-trust-bradford-not-recorded
-reason: Approved Bradford catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Early Help Family Support Coordinator (Asylum and Refugee)
-company: Refugee Action - Agency - Permanent
-location: Bradford
-source: JobG8
-job_id: jobg8-1991676
 reason: Approved Bradford catchment.
 ---
 
@@ -156,7 +144,7 @@ job_id: nhs-5611927
 reason: Approved Bradford catchment.
 ---
 
-## REVIEW (32)
+## REVIEW (31)
 
 ---
 action: 
@@ -390,18 +378,6 @@ reason: No approved Bradford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Paralegal
-company: Accent Housing Group - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-1897581
-reason: No approved Bradford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Payroll Assistant
 company: Willow Recruit - Agency - Permanent
 location: Yorkshire
@@ -474,11 +450,11 @@ reason: No approved Bradford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Delta Academies Trust
-location: Knottingley
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-delta-academies-trust-knottingley-not-recorded
+title: Receptionist / Administrator
+company: The Surgery, Stuart Road
+location: Pontefract, WF8 4PQ
+source: NHS Jobs
+job_id: nhs-5617512
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -542,7 +518,7 @@ job_id: jobg8-1960756
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (39)
+## EXCLUDE (40)
 
 ---
 action: 
@@ -577,18 +553,6 @@ company: Outwood Grange Academies Trust
 location: Wakefield
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-outwood-grange-academies-trust
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrative Assistant – Operations
-company: The Ruth Gorse Academy
-location: Leeds
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-operations
 reason: Separate employment market.
 ---
 
@@ -728,6 +692,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Clerical Officer
+company: Leeds Teaching Hospitals
+location: Leeds, LS9 7TF
+source: NHS Jobs
+job_id: nhs-5619618
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Client Money Controls Coordinator
 company: Everywhen, part of the Ardonagh Group - Agency - Permanent
 location: Leeds
@@ -757,6 +733,18 @@ company: Aston Charles Ltd - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-1927524
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Commercial Insurance Coordinator
+company: MPJ Recruitment Ltd - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-1996252
 reason: Separate employment market.
 ---
 
@@ -872,6 +860,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Insolvency Case Administrator
+company: GGT Insolvency Recruitment - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-2014271
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Interim OTC Cash Office Assistant
 company: Marks Sattin - Agency - Permanent
 location: Leeds
@@ -956,18 +956,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Practice Administrator
-company: Warrengate Medical Centre
-location: Wakefield, WF1 4PR
-source: NHS Jobs
-job_id: nhs-5056947
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Purchase Ledger Clerk
 company: Robert Half - Agency - Permanent
 location: Halifax
@@ -992,11 +980,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist/Care Navigator
-company: Conway Medical Centre
-location: Leeds, LS8 5DE
+title: Receptionist/Administrator
+company: Leeds and York Partnership NHS Foundation Trust
+location: Leeds, LS14 6UH
 source: NHS Jobs
-job_id: nhs-5529086
+job_id: nhs-5618845
 reason: Separate employment market.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 32
+- automatic review: 35
 - automatic exclude: 0
 - effective include: 4
-- effective review: 32
+- effective review: 35
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-1959286
 reason: Exact approved Portsmouth workplace.
 ---
 
-## REVIEW (32)
+## REVIEW (35)
 
 ---
 action: 
@@ -210,6 +210,18 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Care Coordinator
+company: Agincare Group - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-107963757
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Care Home Administrator
 company: Avery Healthcare Group Ltd.
 location: Winchester, SO22 5JH
@@ -275,6 +287,18 @@ company: CMA Recruitment Group - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-1947243
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Healthy Homes Administrator & Scheduling Coordinator
+company: TristoneNash Ltd - Agency - Permanent
+location: Eastleigh
+source: JobG8
+job_id: jobg8-2014390
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -354,6 +378,30 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Office Administrator
+company: Rise Technical Recruitment Limited - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2012754
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll & Accounts Administrator (Part-time)
+company: Wade Macdonald - Agency - Permanent
+location: Andover
+source: JobG8
+job_id: jobg8-2013523
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Assistant
 company: Michael Page Finance - Agency - Permanent
 location: Hampshire
@@ -419,18 +467,6 @@ company: Pembrook Resourcing - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-1881197
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Coordinator
-company: People First Recruitment - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-107959953
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 

@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 8
-- automatic exclude: 4
+- automatic review: 7
+- automatic exclude: 5
 - effective include: 9
-- effective review: 8
-- effective exclude: 4
+- effective review: 7
+- effective exclude: 5
 
 ## INCLUDE (9)
 
@@ -132,19 +132,7 @@ job_id: jobg8-1856912
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (8)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Assistant
-company: Hampshire County Council - Company - Permanent
-location: Ringwood
-source: JobG8
-job_id: jobg8-1401785190
-reason: Broad location; review before city inclusion.
----
+## REVIEW (7)
 
 ---
 action: 
@@ -175,10 +163,10 @@ action:
 decision: review
 automatic_decision: review
 title: Female Support Worker
-company: Avenues Group - Company - Permanent
-location: Petersfield
+company: SeeAbility - Agency - Permanent
+location: Tadley
 source: JobG8
-job_id: jobg8-801816236128835993637340
+job_id: jobg8-107989086
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
@@ -186,11 +174,11 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Female Support Worker
-company: SeeAbility - Agency - Permanent
-location: Tadley
+title: Healthcare Assistant
+company: Advantage Angels Ltd - Agency - Contract
+location: Ryde
 source: JobG8
-job_id: jobg8-107989086
+job_id: jobg8-107856243
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
@@ -230,7 +218,19 @@ job_id: jobg8-1401784888
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (4)
+## EXCLUDE (5)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Children's Homes Support Worker
+company: Hampshire County Council - Company - Permanent
+location: Winchester
+source: JobG8
+job_id: jobg8-1401785482
+reason: Separate employment market.
+---
 
 ---
 action: 

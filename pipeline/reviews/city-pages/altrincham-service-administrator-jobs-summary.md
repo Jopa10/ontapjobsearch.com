@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 3
+- automatic review: 4
 - automatic exclude: 0
 - effective include: 2
-- effective review: 3
+- effective review: 4
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: jobg8-1869719
 reason: Exact approved Altrincham workplace.
 ---
 
-## REVIEW (3)
+## REVIEW (4)
 
 ---
 action: 
@@ -83,6 +83,18 @@ company: The People Pod - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-1934714
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Reception/Administrator
+company: High Lane Medical Centre
+location: Stockport, SK6 8DR
+source: NHS Jobs
+job_id: nhs-5619136
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

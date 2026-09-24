@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 19
-- automatic review: 12
+- automatic review: 11
 - automatic exclude: 6
 - effective include: 19
-- effective review: 12
+- effective review: 11
 - effective exclude: 6
 
 ## INCLUDE (19)
@@ -252,7 +252,7 @@ job_id: jobg8-1909662
 reason: Approved conservative Warrington launch catchment.
 ---
 
-## REVIEW (12)
+## REVIEW (11)
 
 ---
 action: 
@@ -371,18 +371,6 @@ company: Michael Page Finance - Agency - Permanent
 location: Cheshire
 source: JobG8
 job_id: jobg8-1928944
-reason: No approved Warrington catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Reception/administrator
-company: Peelhouse Medical Plaza
-location: Widnes, WA8 6TN
-source: NHS Jobs
-job_id: nhs-5603667
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 

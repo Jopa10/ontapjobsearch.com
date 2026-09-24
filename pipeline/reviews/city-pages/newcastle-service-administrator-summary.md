@@ -4,8 +4,8 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
-- Threshold currently met: yes
+- Effective included jobs: 5
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 23
+- automatic include: 5
+- automatic review: 21
 - automatic exclude: 12
-- effective include: 6
-- effective review: 23
+- effective include: 5
+- effective review: 21
 - effective exclude: 12
 
-## INCLUDE (6)
+## INCLUDE (5)
 
 ---
 action: 
@@ -84,19 +84,7 @@ job_id: jobg8-1874719
 reason: Approved Newcastle catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist / Administrator
-company: Glenpark Medical Practice
-location: Gateshead, NE11 9FJ, GATESHEAD, NE8 2PQ
-source: NHS Jobs
-job_id: nhs-5598890
-reason: Approved Newcastle catchment.
----
-
-## REVIEW (23)
+## REVIEW (21)
 
 ---
 action: 
@@ -215,18 +203,6 @@ company: Independent Utility Advice Ltd - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-1907000
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Housing Management Coordinator
-company: Home Group Limited - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-107978931
 reason: Broad location; review before city inclusion.
 ---
 
@@ -354,18 +330,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Sales Advisor - Part Time
-company: EE - Company - Permanent
-location: Cramlington
-source: JobG8
-job_id: jobg8-20279_61897-8a947d76c6803dd88116d68f668dce22
-reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: School Support Roles - Supervisory Assistant & Administrative Assistant
 company: St Peter's Church of England Primary School
 location: Wallsend
@@ -440,11 +404,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Finance Assistant
-company: Ernest Gordon Recruitment Limited - Agency - Permanent
-location: County Durham
+title: Business Development Executive
+company: Tina Lacey Recruitment Ltd - Agency - Permanent
+location: Darlington
 source: JobG8
-job_id: jobg8-1950247
+job_id: jobg8-107973178
 reason: Separate employment market.
 ---
 
@@ -452,11 +416,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Junior Account Manager - Marketing
-company: BMC Recruitment Group - Agency - Permanent
+title: Finance Assistant
+company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: County Durham
 source: JobG8
-job_id: jobg8-1992590
+job_id: jobg8-1950247
 reason: Separate employment market.
 ---
 

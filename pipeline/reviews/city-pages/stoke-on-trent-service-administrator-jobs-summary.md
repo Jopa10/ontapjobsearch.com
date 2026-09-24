@@ -114,6 +114,18 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
+title: Administrator
+company: North Staffordshire Combined Healthcare Trust
+location: Stoke on Trent, ST1 3NJ
+source: NHS Jobs
+job_id: nhs-5619403
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Casualty Claims Handler
 company: Adjusting Appointments Limited - Agency - Permanent
 location: Staffordshire
@@ -203,18 +215,6 @@ company: Brampton Recruitment Ltd - Agency - Contract
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225583171
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: North Staffordshire Combined Healthcare Trust
-location: Stoke on Trent, ST6 5UD
-source: NHS Jobs
-job_id: nhs-5599894
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 18
-- automatic exclude: 15
+- automatic review: 19
+- automatic exclude: 17
 - effective include: 3
-- effective review: 18
-- effective exclude: 15
+- effective review: 19
+- effective exclude: 17
 
 ## INCLUDE (3)
 
@@ -60,7 +60,7 @@ job_id: jobg8-107193862
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (18)
+## REVIEW (19)
 
 ---
 action: 
@@ -119,6 +119,18 @@ company: TC Group - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-1907458
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Coordinator
+company: Agincare Group - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-107963757
 reason: Broad location; review before city inclusion.
 ---
 
@@ -210,6 +222,18 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Office Administrator
+company: Rise Technical Recruitment Limited - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2012754
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Assistant
 company: Michael Page Finance - Agency - Permanent
 location: Hampshire
@@ -266,19 +290,7 @@ job_id: jobg8-1881197
 reason: Broad location; review before city inclusion.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Coordinator
-company: People First Recruitment - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-107959953
-reason: Broad location; review before city inclusion.
----
-
-## EXCLUDE (15)
+## EXCLUDE (17)
 
 ---
 action: 
@@ -392,6 +404,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Healthy Homes Administrator & Scheduling Coordinator
+company: TristoneNash Ltd - Agency - Permanent
+location: Eastleigh
+source: JobG8
+job_id: jobg8-2014390
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: HR Assistant
 company: Reed - Agency - Permanent
 location: Portsmouth
@@ -409,6 +433,18 @@ company: Mulberry Recruitment - Agency - Permanent
 location: Farnborough
 source: JobG8
 job_id: jobg8-1885727
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Payroll & Accounts Administrator (Part-time)
+company: Wade Macdonald - Agency - Permanent
+location: Andover
+source: JobG8
+job_id: jobg8-2013523
 reason: Separate employment market.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 6
+- automatic review: 8
 - automatic exclude: 0
 - effective include: 2
-- effective review: 6
+- effective review: 8
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: teaching-vacancies-receptionist-administrator-meole-brace-school-shrewsb
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (6)
+## REVIEW (8)
 
 ---
 action: 
@@ -78,11 +78,35 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Claims Handler
+company: Everywhen, part of the Ardonagh Group - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-1961524
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance & Admin Assistant
 company: Beech Grove Primary School
 location: Wellington
 source: Teaching Vacancies
 job_id: teaching-vacancies-finance-admin-assistant-beech-grove-primary-school
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: In-House Recruitment Coordinator
+company: Bethphage - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-108012415
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/chelmsford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 10
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 73
+- automatic include: 9
+- automatic review: 75
 - automatic exclude: 0
-- effective include: 10
-- effective review: 73
+- effective include: 9
+- effective review: 75
 - effective exclude: 0
 
-## INCLUDE (10)
+## INCLUDE (9)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: JS Legal Recruitment Ltd - Agency - Permanent
 location: Chelmsford
 source: JobG8
 job_id: jobg8-1873301
-reason: Exact approved Chelmsford workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Digital Marketing & Social Media Executive
-company: Worth Recruiting - Property Industry Recruitment - Agency - Permanent
-location: Chelmsford
-source: JobG8
-job_id: jobg8-1806934
 reason: Exact approved Chelmsford workplace.
 ---
 
@@ -144,7 +132,7 @@ job_id: jobg8-1956210
 reason: Exact approved Chelmsford workplace.
 ---
 
-## REVIEW (73)
+## REVIEW (75)
 
 ---
 action: 
@@ -923,6 +911,30 @@ company: REED - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-1938382
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
+company: Cibosano Ltd - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-745249606439062732837340
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
+company: Cibosano Ltd - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-745249606439062732837341
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

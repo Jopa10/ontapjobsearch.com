@@ -4,7 +4,7 @@
 - Live route: `/cardiff/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
+- automatic include: 11
 - automatic review: 2
 - automatic exclude: 0
-- effective include: 12
+- effective include: 11
 - effective review: 2
 - effective exclude: 0
 
-## INCLUDE (12)
+## INCLUDE (11)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Môrwell Talent Solutions - Agency - Permanent
 location: Cardiff
 source: JobG8
 job_id: jobg8-1939046
-reason: Approved conservative Cardiff launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant
-company: Velindre University NHS Trust
-location: Cardiff, CF14 2TL
-source: NHS Jobs
-job_id: nhs-5602460
 reason: Approved conservative Cardiff launch catchment.
 ---
 

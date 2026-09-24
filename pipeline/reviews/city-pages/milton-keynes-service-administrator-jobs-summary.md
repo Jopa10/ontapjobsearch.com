@@ -4,7 +4,7 @@
 - Live route: `/milton-keynes/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 10
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 23
+- automatic include: 8
+- automatic review: 26
 - automatic exclude: 0
-- effective include: 10
-- effective review: 23
+- effective include: 8
+- effective review: 26
 - effective exclude: 0
 
-## INCLUDE (10)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Payable Assistant
-company: Michael Page Finance - Agency - Permanent
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-1874768
-reason: Exact approved Milton Keynes workplace.
----
+## INCLUDE (8)
 
 ---
 action: 
@@ -45,18 +33,6 @@ company: Broster Buchanan - Agency - Permanent
 location: Milton Keynes
 source: JobG8
 job_id: jobg8-1908380
-reason: Exact approved Milton Keynes workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Admin Centre Administrator
-company: Lord Grey Academy
-location: Milton Keynes
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-centre-administrator-lord-grey-academy-milton-keynes-buckinghamshire
 reason: Exact approved Milton Keynes workplace.
 ---
 
@@ -144,7 +120,7 @@ job_id: nhs-5543958
 reason: Exact approved Milton Keynes workplace.
 ---
 
-## REVIEW (23)
+## REVIEW (26)
 
 ---
 action: 
@@ -247,6 +223,18 @@ action:
 decision: review
 automatic_decision: review
 title: Credit Controller
+company: In2 Consult - Agency - Permanent
+location: High Wycombe
+source: JobG8
+job_id: jobg8-2014306
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
 company: Marc Daniels - Agency - Permanent
 location: High Wycombe
 source: JobG8
@@ -330,18 +318,6 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Medical Receptionist
-company: Primary Care Management Solutions Ltd
-location: High Wycombe, HP135DN
-source: NHS Jobs
-job_id: nhs-5558801
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Morning Receptionist Maternity Cover
 company: Aylesbury High School
 location: Aylesbury
@@ -354,11 +330,47 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
+title: Operations Administrator (Maternity Cover)
+company: occy - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-338273623754984652837340
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Operations Administrator (Maternity Cover)
+company: occy - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-338273623754984652837341
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part-time Finance Assistant - Education Sector
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-1905959
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part-time Receptionist
+company: Practice Plus Group
+location: High Wycombe, HP12 3QL
+source: NHS Jobs
+job_id: nhs-5619603
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

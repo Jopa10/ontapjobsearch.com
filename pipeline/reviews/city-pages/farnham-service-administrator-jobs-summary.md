@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 52
+- automatic review: 55
 - automatic exclude: 0
 - effective include: 2
-- effective review: 52
+- effective review: 55
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: jobg8-1927556
 reason: Exact approved Farnham workplace.
 ---
 
-## REVIEW (52)
+## REVIEW (55)
 
 ---
 action: 
@@ -138,6 +138,18 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Administrative Assistant
+company: University of Surrey - Agency - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-415491
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrator
 company: HCRG Care Group
 location: Camberley, GU16 7ER
@@ -179,6 +191,18 @@ company: Right Now Group - Agency - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-1914960
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Support Administrator - Guildford &amp; Woking
+company: HCRG Care Group
+location: Woking, GU21 5SB
+source: NHS Jobs
+job_id: nhs-5619426
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -330,18 +354,6 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant - 12 MFTC
-company: Faith Recruitment - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-1871025
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Assistant - Temporary
 company: Michael Page Finance - Agency - Permanent
 location: Guildford
@@ -383,6 +395,18 @@ company: Optima Recruitment - Agency - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-1909852
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Housing Administrator -30 hours per week
+company: Field Lane - Agency - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-2013874
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -451,18 +475,6 @@ action:
 decision: review
 automatic_decision: review
 title: Lettings Administrator
-company: Property Personnel - Agency - Permanent
-location: Guildford
-source: JobG8
-job_id: jobg8-1805793
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Lettings Administrator
 company: Worth Recruiting - Property Industry Recruitment - Agency - Permanent
 location: Leatherhead
 source: JobG8
@@ -515,6 +527,18 @@ company: Lloyd Recruitment Services Ltd - Agency - Permanent
 location: Caterham
 source: JobG8
 job_id: jobg8-1868559
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Accounts Assistant
+company: Michael Page Finance - Agency - Permanent
+location: Walton-On-Thames
+source: JobG8
+job_id: jobg8-1994120
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -584,18 +608,6 @@ decision: review
 automatic_decision: review
 title: Receptionist/Administrator
 company: Dorking Healthcare Ltd.
-location: Godstone, RH9 8DY
-source: NHS Jobs
-job_id: nhs-5580577
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist/Administrator
-company: Dorking Healthcare Ltd.
 location: Redhill, RH1 2NP, Epsom, KT17 4BL, DORKING, RH4 2AA, Warlingham, CR6 9LF, DORKING, RH4 1SD, Epsom, KT17 4BL, WARLINGHAM, CR6 9NW, REDHILL, RH1 1EB
 source: NHS Jobs
 job_id: nhs-5599747
@@ -623,6 +635,30 @@ company: Eastwick Infant School
 location: Leatherhead
 source: Teaching Vacancies
 job_id: teaching-vacancies-safeguarding-and-send-administrative-assistant-eastwick-infant-school
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: Octane Recruitment - Agency - Permanent
+location: Chertsey
+source: JobG8
+job_id: jobg8-107920859
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: Octane Recruitment - Agency - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-107989507
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 

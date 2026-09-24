@@ -4,7 +4,7 @@
 - Live route: `/plymouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 36
+- automatic include: 10
+- automatic review: 35
 - automatic exclude: 0
-- effective include: 9
-- effective review: 36
+- effective include: 10
+- effective review: 35
 - effective exclude: 0
 
-## INCLUDE (9)
+## INCLUDE (10)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: City College Plymouth
 location: Plymouth
 source: Teaching Vacancies
 job_id: teaching-vacancies-apprenticeship-onboarding-administrator
+reason: Exact approved Plymouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Care Coordinator
+company: Persimmon Homes - Agency - Permanent
+location: Plymouth
+source: JobG8
+job_id: jobg8-108025447
 reason: Exact approved Plymouth workplace.
 ---
 
@@ -132,7 +144,7 @@ job_id: teaching-vacancies-senior-administrator-st-paul-s-roman-catholic-primary
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (36)
+## REVIEW (35)
 
 ---
 action: 
@@ -359,18 +371,6 @@ company: Combe Coastal Practice
 location: ILFRACOMBE, EX34 8EG, ILFRACOMBE, EX34 0JA, WOOLACOMBE, EX34 7BT
 source: NHS Jobs
 job_id: nhs-5585498
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Pay Roll Administrator
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-1991622
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

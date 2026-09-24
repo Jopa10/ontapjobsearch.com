@@ -88,11 +88,11 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Clerical Officer
-company: Liverpool University Hospitals NHS Foundation Trust
-location: Liverpool, L7 8YE
-source: NHS Jobs
-job_id: nhs-5603282
+title: Claims Handler
+company: Spotlightjobs - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-1996564
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -136,18 +136,6 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: HR Operations Administrator
-company: Zachary Daniels Recruitment - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-23643_225532338
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Interim Marketing and Communications Manager
 company: Michael Page Marketing - Agency - Permanent
 location: Liverpool
@@ -160,11 +148,11 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Litigated Motor Recoveries Claims Handler
-company: Keoghs LLP - Agency - Permanent
+title: Marketing Coordinator
+company: Michael Page - Agency - Contract
 location: Liverpool
 source: JobG8
-job_id: jobg8-1992976
+job_id: jobg8-23643_225639923
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -201,6 +189,18 @@ company: Riverside Group - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-1882314
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist and Administrator
+company: GP Practice Riverside
+location: Liverpool, L8 6QP, Liverpool, L7 6HD
+source: NHS Jobs
+job_id: nhs-5618745
 reason: Approved conservative Liverpool launch catchment.
 ---
 

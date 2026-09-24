@@ -4,7 +4,7 @@
 - Live route: `/warwick/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 26
+- automatic include: 5
+- automatic review: 24
 - automatic exclude: 0
-- effective include: 6
-- effective review: 26
+- effective include: 5
+- effective review: 24
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (5)
 
 ---
 action: 
@@ -64,18 +64,6 @@ reason: Exact approved Warwick workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Credit Control
-company: Reed - Agency - Permanent
-location: Warwick
-source: JobG8
-job_id: jobg8-1955775
-reason: Exact approved Warwick workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Purchase Ledger Clerk
 company: SF Partners - Agency - Permanent
 location: Warwick
@@ -96,7 +84,7 @@ job_id: jobg8-1960335
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (26)
+## REVIEW (24)
 
 ---
 action: 
@@ -270,35 +258,11 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: HR & Recruitment Coordinator
-company: Gleeson Recruitment Group - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-1869638
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR Assistant
 company: Dudley Lodge - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-1859027
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Coordinator
-company: Gleeson Recruitment Group - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-1860303
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

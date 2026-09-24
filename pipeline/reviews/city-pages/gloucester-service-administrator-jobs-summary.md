@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 19
+- automatic review: 21
 - automatic exclude: 0
 - effective include: 5
-- effective review: 19
+- effective review: 21
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-1932863
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (19)
+## REVIEW (21)
 
 ---
 action: 
@@ -155,6 +155,18 @@ company: i2i Recruitment Consultancy - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-1897570
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Insurance Administrator
+company: i2i Recruitment Consultancy - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-1961373
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -283,10 +295,10 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
-company: Yorkleigh Surgery
-location: Cheltenham, GL50 3ED
+company: G DOC Ltd
+location: Lydney, GL15 5NQ
 source: NHS Jobs
-job_id: nhs-5590140
+job_id: nhs-5617075
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -294,11 +306,11 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Recruitment Administrator
-company: Siamo Group Ltd - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-107871455
+title: Receptionist
+company: Yorkleigh Surgery
+location: Cheltenham, GL50 3ED
+source: NHS Jobs
+job_id: nhs-5590140
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -311,6 +323,18 @@ company: Pembrook Resourcing - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-1961064
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary HR Administrator
+company: Anderson Recruitment Ltd - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-2013271
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

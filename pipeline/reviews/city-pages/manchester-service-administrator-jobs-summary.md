@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 30
+- Effective included jobs: 33
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 30
-- automatic review: 38
-- automatic exclude: 1
-- effective include: 30
-- effective review: 38
-- effective exclude: 1
+- automatic include: 33
+- automatic review: 36
+- automatic exclude: 2
+- effective include: 33
+- effective review: 36
+- effective exclude: 2
 
-## INCLUDE (30)
+## INCLUDE (33)
 
 ---
 action: 
@@ -148,6 +148,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Credit Controller
+company: Booker - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-108025456
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Credit Hire Claims Handler
 company: MPJ Recruitment Ltd - Agency - Permanent
 location: Manchester
@@ -165,6 +177,18 @@ company: Cherry Professional - Relationship Led Recruitment - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-1876078
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
+company: MCR Property Group - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-2013532
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -292,18 +316,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Medical Receptionist
-company: Hope Citadel Healthcare CIC
-location: Manchester, M14 6FS
-source: NHS Jobs
-job_id: nhs-5597473
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Medical Receptionist / Administrator
 company: Victoria Mill Medical Practice
 location: Manchester, M40 7LH
@@ -333,6 +345,30 @@ company: Dawn Ellmore Employment Agency - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-1860156
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Purchasing Coordinator or Packaging Buyer
+company: Future Recruitment Ltd - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-23643_225640336
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: The Urmston Group Practice
+location: Manchester, M41 8AA
+source: NHS Jobs
+job_id: nhs-5617652
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -384,7 +420,7 @@ job_id: teaching-vacancies-senior-administrator-to-the-senior-leadership-team
 reason: Approved conservative Manchester launch catchment.
 ---
 
-## REVIEW (38)
+## REVIEW (36)
 
 ---
 action: 
@@ -438,18 +474,6 @@ reason: No approved Manchester catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Clinical Team Administrator
-company: Greater Manchester Mental Health NHS Foundation Trust
-location: Eccles, M30 0GT
-source: NHS Jobs
-job_id: nhs-5599492
-reason: Broad regional location; review before Manchester inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Commercial Brand Manager
 company: Vermelo RPO - Agency - Permanent
 location: Lancashire
@@ -491,18 +515,6 @@ company: Black Cherry Recruitment Ltd - Agency - Permanent
 location: Lancashire
 source: JobG8
 job_id: jobg8-1949868
-reason: No approved Manchester catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Content Creator
-company: Zachary Daniels - Agency - Permanent
-location: Lancashire
-source: JobG8
-job_id: jobg8-1881613
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -594,6 +606,18 @@ reason: No approved Manchester catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Data Claims Caseworker Paralegal
+company: Duncan Lewis Solictors - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-2013968
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Employers Liability and Public Liability Paralegal
 company: Simpson Millar LLP Solicitors - Agency - Permanent
 location: Lancashire
@@ -671,18 +695,6 @@ company: The Portfolio Group - Agency - Permanent
 location: Lancashire
 source: JobG8
 job_id: jobg8-1939305
-reason: No approved Manchester catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Multi Track RTA Paralegal
-company: Simpson Millar LLP Solicitors - Agency - Permanent
-location: Lancashire
-source: JobG8
-job_id: jobg8-1852638
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -786,18 +798,6 @@ reason: No approved Manchester catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Senior People Services Administrator
-company: Great Places Housing Association - Agency - Permanent
-location: Lancashire
-source: JobG8
-job_id: jobg8-1895182
-reason: No approved Manchester catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Senior PR Executive
 company: Michael Page Business Support - Agency - Permanent
 location: Lancashire
@@ -834,6 +834,18 @@ reason: No approved Manchester catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Social Media Manager
+company: Adria Solutions - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-2013286
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Temporary Legal Secretary
 company: Office Angels - Agency - Permanent
 location: Lancashire
@@ -842,7 +854,7 @@ job_id: jobg8-1897508
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
-## EXCLUDE (1)
+## EXCLUDE (2)
 
 ---
 action: 
@@ -853,5 +865,17 @@ company: Michael Page Finance - Agency - Permanent
 location: Salford
 source: JobG8
 job_id: jobg8-1869419
+reason: Separate exact-city market at launch.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Greater Manchester Mental Health NHS Foundation Trust
+location: Salford, M7 2YL
+source: NHS Jobs
+job_id: nhs-5617240
 reason: Separate exact-city market at launch.
 ---

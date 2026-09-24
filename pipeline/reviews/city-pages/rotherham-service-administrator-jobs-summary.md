@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 15
+- automatic review: 17
 - automatic exclude: 0
 - effective include: 3
-- effective review: 15
+- effective review: 17
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: teaching-vacancies-receptionist-saint-pius-x-catholic-high-school-a-spec
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (15)
+## REVIEW (17)
 
 ---
 action: 
@@ -131,6 +131,18 @@ company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-1908708
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Insolvency Case Administrator
+company: GGT Insolvency Recruitment - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2014257
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -215,6 +227,18 @@ company: Avery Healthcare Group Ltd.
 location: Sheffield, S6 4TF
 source: NHS Jobs
 job_id: nhs-5615634
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Grenoside Surgery
+location: Sheffield, S35 8NX, Sheffield, S6 1LA
+source: NHS Jobs
+job_id: nhs-5614100
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

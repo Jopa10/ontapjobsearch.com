@@ -279,9 +279,25 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1124",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5602464",
+    "source": "NHS Jobs",
+    "title": "Assistant Patient Pathway Administrator",
+    "company": "Oxford University Hospitals NHS Foundation Trust",
+    "advertiser_name": "Oxford University Hospitals NHS Foundation Trust",
+    "location": "Oxford, OX3 9DE",
+    "region": "Oxfordshire",
+    "salary": "£25272.00 to £27476.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-16T10:05:41.478049830",
+    "closing_date": "2026-09-30",
+    "description": "The Assistant Patient Pathway Administrator provides essential administrative support to ensure the smooth running of patient pathways and outpatient services. The role involves supporting clinical and administrative teams with key tasks such as appointment booking, patient record management, clinic preparation, and handling correspondence and enquiries. Working closely with Patient Pathway Administrators, the post holder helps maintain accurate data within electronic systems, supports RTT tracking, and ensures patients are efficiently managed through their care pathway. The role also contributes to service continuity by providing cover during periods of leave or increased demand. Overall, the position is vital in maintaining efficient service delivery, supporting patient flow, and ensuring a positive patient experience through organised, timely and professional administrative support. Support day-to-day administrative functions across patient pathways, ensuring a smooth and efficient service Assist with booking follow-up appointments and maintaining accurate RTT status Prepare clinic notes, collect and track patient records using EPR systems Manage patient correspondence, including filing, post distribution, and document handling Respond to patient, staff, and stakeholder enquiries in a professional and timely manner Support Patient Pathway Administrators and provide cover during periods of absence or increased demand Ensure accurate data entry and maintain high standards of data quality and confidentiality Assist with clinic processes, including checking patients in/out and capturing activity data These duties ensure efficient patient flow, accurate record management, and consistent administrative support to clinical teams. The Assistant Patient Pathway Administrator provides comprehensive administrative support to ensure the efficient running of patient pathways and outpatient services. Key responsibilities include booking follow-up appointments, maintaining accurate RTT status, preparing and tracking patient records using EPR systems, and managing correspondence and clinic documentation. The role involves responding to patient and staff enquiries professionally, supporting clinic processes such as patient check-in/out, and ensuring activity is recorded accurately. The post holder also provides cross-cover during absences or peak workload periods, contributing to service continuity, high data quality standards, and an effective, patient-centred administrative service.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1652",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1652",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
     "posted_date_basis": "source"
   }
 ]

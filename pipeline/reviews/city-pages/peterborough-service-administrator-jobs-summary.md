@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 11
 - automatic review: 1
-- automatic exclude: 33
+- automatic exclude: 31
 - effective include: 11
 - effective review: 1
-- effective exclude: 33
+- effective exclude: 31
 
 ## INCLUDE (11)
 
@@ -170,7 +170,7 @@ job_id: teaching-vacancies-finance-admin-assistant-priory-junior-school-st-neots
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (33)
+## EXCLUDE (31)
 
 ---
 action: 
@@ -181,18 +181,6 @@ company: Eclectic Recruitment - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-1877925
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Payable Assistant
-company: Pure Resourcing Solutions - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-1913056
 reason: Separate employment market.
 ---
 
@@ -277,6 +265,18 @@ company: Brevere Group - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-1859397
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Community Engagement Lead
+company: Caring Together - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-2013914
 reason: Separate employment market.
 ---
 
@@ -392,18 +392,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: HR Administrator
-company: EA FIRST LTD - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-1924725
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Interim Accounts Payable Assistant
 company: Michael Page Finance - Agency - Permanent
 location: Cambridge
@@ -476,11 +464,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Purchase Ledger Clerk (Temp)
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-1908623
+title: Personal Assistant
+company: East of England Community Health and Care NHS Trust (Cambridge)
+location: St Ives, PE27 4LG
+source: NHS Jobs
+job_id: nhs-5610324
 reason: Separate employment market.
 ---
 
@@ -488,11 +476,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist
-company: Cambridge University Hospital NHS Foundation Trust
-location: Cambridge, CB2 0QQ
-source: NHS Jobs
-job_id: nhs-5607939
+title: Purchase Ledger Clerk (Temp)
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-1908623
 reason: Separate employment market.
 ---
 
@@ -553,17 +541,5 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-1873312
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Trainee Community Engagement Coordinator - Cambridge CB1
-company: Community Regen - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-1991749
 reason: Separate employment market.
 ---

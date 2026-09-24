@@ -271,6 +271,18 @@ action:
 decision: review
 automatic_decision: review
 title: Customer Care Coordinator
+company: Persimmon Homes - Agency - Permanent
+location: Plymouth
+source: JobG8
+job_id: jobg8-108025447
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Care Coordinator
 company: RGB Recruitment - Agency - Permanent
 location: Devon
 source: JobG8
@@ -371,18 +383,6 @@ company: Combe Coastal Practice
 location: ILFRACOMBE, EX34 8EG, ILFRACOMBE, EX34 0JA, WOOLACOMBE, EX34 7BT
 source: NHS Jobs
 job_id: nhs-5585498
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Pay Roll Administrator
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-1991622
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

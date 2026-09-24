@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 34
-- automatic review: 8
+- automatic review: 7
 - automatic exclude: 5
 - effective include: 34
-- effective review: 8
+- effective review: 7
 - effective exclude: 5
 
 ## INCLUDE (34)
@@ -81,6 +81,18 @@ company: Yorkmead Junior and Infant School
 location: Birmingham
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-yorkmead-junior-and-infant-school-birmingham-west-midlands
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Not For Profit People - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2013891
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -400,11 +412,11 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Bosworth Medical Centre
-location: Birmingham, B37 5BU
-source: NHS Jobs
-job_id: nhs-5602762
+title: Purchasing Coordinator
+company: Bell Cornwall Recruitment - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-1996580
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -420,19 +432,7 @@ job_id: jobg8-1884409
 reason: Approved conservative Birmingham launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Senior Internal Communications Manager
-company: Adecco - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-1899929
-reason: Approved conservative Birmingham launch catchment.
----
-
-## REVIEW (8)
+## REVIEW (7)
 
 ---
 action: 
@@ -443,18 +443,6 @@ company: Avery Healthcare Group Ltd.
 location: Knowle, B93 9LQ
 source: NHS Jobs
 job_id: nhs-5595583
-reason: No approved Birmingham catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Communications and Marketing Manager - Fixed Term Contract 2 Years
-company: Birmingham Hospice - Agency - Permanent
-location: Staffordshire
-source: JobG8
-job_id: jobg8-1950310
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 

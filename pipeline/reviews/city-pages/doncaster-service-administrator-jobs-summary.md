@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 2
 - automatic review: 3
-- automatic exclude: 13
+- automatic exclude: 15
 - effective include: 2
 - effective review: 3
-- effective exclude: 13
+- effective exclude: 15
 
 ## INCLUDE (2)
 
@@ -86,7 +86,7 @@ job_id: jobg8-1933458
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (13)
+## EXCLUDE (15)
 
 ---
 action: 
@@ -164,6 +164,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Insolvency Case Administrator
+company: GGT Insolvency Recruitment - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2014257
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Personal Assistant to Headteacher
 company: Westfield School
 location: Sheffield
@@ -205,6 +217,18 @@ company: Avery Healthcare Group Ltd.
 location: Sheffield, S6 4TF
 source: NHS Jobs
 job_id: nhs-5615634
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Grenoside Surgery
+location: Sheffield, S35 8NX, Sheffield, S6 1LA
+source: NHS Jobs
+job_id: nhs-5614100
 reason: Separate employment market.
 ---
 

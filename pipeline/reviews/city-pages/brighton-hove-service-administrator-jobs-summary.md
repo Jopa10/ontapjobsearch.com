@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 31
-- automatic exclude: 12
+- automatic review: 29
+- automatic exclude: 11
 - effective include: 4
-- effective review: 31
-- effective exclude: 12
+- effective review: 29
+- effective exclude: 11
 
 ## INCLUDE (4)
 
@@ -72,7 +72,7 @@ job_id: jobg8-1856512
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (31)
+## REVIEW (29)
 
 ---
 action: 
@@ -139,18 +139,6 @@ action:
 decision: review
 automatic_decision: review
 title: Bookkeeper
-company: First Recruitment Services - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-1932921
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper
 company: Lloyd Recruitment Services Ltd - Agency - Permanent
 location: Sussex
 source: JobG8
@@ -179,18 +167,6 @@ company: TN Recruits - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-1916282
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Charity Administrator
-company: Brighton and Hove Speak Out - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-1991688
 reason: Broad location; review before city inclusion.
 ---
 
@@ -282,11 +258,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: HR Coordinator
-company: SAXON WEALD CAPITAL PLC - Agency - Contract
+title: HR Administrator
+company: Southdown - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-108019283
+job_id: jobg8-108015994
 reason: Broad location; review before city inclusion.
 ---
 
@@ -446,7 +422,7 @@ job_id: jobg8-622003465167988326437341
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (12)
+## EXCLUDE (11)
 
 ---
 action: 
@@ -457,18 +433,6 @@ company: Shinewater Primary School
 location: Eastbourne
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-shinewater-primary-school
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Business Development Executive
-company: Clover Talent Limited - Agency - Permanent
-location: Chichester
-source: JobG8
-job_id: jobg8-107983554
 reason: Separate employment market.
 ---
 

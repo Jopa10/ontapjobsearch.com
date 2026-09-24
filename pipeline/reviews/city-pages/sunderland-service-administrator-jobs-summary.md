@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 39
+- automatic review: 36
 - automatic exclude: 0
 - effective include: 2
-- effective review: 39
+- effective review: 36
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: teaching-vacancies-lead-administrator-harry-watts-academy
 reason: Exact approved Sunderland workplace.
 ---
 
-## REVIEW (39)
+## REVIEW (36)
 
 ---
 action: 
@@ -143,6 +143,18 @@ company: Bede Academy
 location: Blyth
 source: Teaching Vacancies
 job_id: teaching-vacancies-attendance-officer-administrator-bede-academy-blyth-northumberland
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Development Executive
+company: Tina Lacey Recruitment Ltd - Agency - Permanent
+location: Darlington
+source: JobG8
+job_id: jobg8-107973178
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -282,18 +294,6 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Housing Management Coordinator
-company: Home Group Limited - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-107978931
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR & Payroll Administrator
 company: Emmanuel Schools Foundation
 location: Blyth
@@ -335,18 +335,6 @@ company: Adecco - Agency - Permanent
 location: Newcastle
 source: JobG8
 job_id: jobg8-1874719
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Junior Account Manager - Marketing
-company: BMC Recruitment Group - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-1992590
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -467,30 +455,6 @@ company: Adecco - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-1916042
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist / Administrator
-company: Glenpark Medical Practice
-location: Gateshead, NE11 9FJ, GATESHEAD, NE8 2PQ
-source: NHS Jobs
-job_id: nhs-5598890
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Advisor - Part Time
-company: EE - Company - Permanent
-location: Cramlington
-source: JobG8
-job_id: jobg8-20279_61897-8a947d76c6803dd88116d68f668dce22
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 

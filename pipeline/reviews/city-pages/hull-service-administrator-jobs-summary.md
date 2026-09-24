@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
+- automatic include: 3
 - automatic review: 3
 - automatic exclude: 0
-- effective include: 5
+- effective include: 3
 - effective review: 3
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (3)
 
 ---
 action: 
@@ -45,30 +45,6 @@ company: KD Recruitment Limited - Agency - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-107894712
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist Administrator
-company: Alderman Cogan's Church of England Primary Academy
-location: Hull
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-administrator-8983c99a-ea81-4d03-945c-21a86c87cb36
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: SEND Administrator
-company: Liberty Academy
-location: Hull
-source: Teaching Vacancies
-job_id: teaching-vacancies-send-administrator-liberty-academy
 reason: Approved conservative Hull launch catchment.
 ---
 

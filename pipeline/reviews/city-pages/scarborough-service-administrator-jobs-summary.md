@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 33
+- automatic review: 30
 - automatic exclude: 0
 - effective include: 1
-- effective review: 33
+- effective review: 30
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: jobg8-1882087
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (33)
+## REVIEW (30)
 
 ---
 action: 
@@ -83,18 +83,6 @@ company: Archbishop Holgate's School, A Church of England Academy
 location: York
 source: Teaching Vacancies
 job_id: teaching-vacancies-attendance-administrator-archbishop-holgate-s-school-a-church-of-england-academy
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper
-company: IPS Group - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-1936715
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -191,18 +179,6 @@ company: Michael Page Finance - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-1939806
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Demand Planner
-company: MTrec Recruitment - Agency - Permanent
-location: Bedale
-source: JobG8
-job_id: jobg8-107953544
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -419,18 +395,6 @@ company: qed legal - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-1871003
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: York, YO32 9XW
-source: NHS Jobs
-job_id: nhs-5590363
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
