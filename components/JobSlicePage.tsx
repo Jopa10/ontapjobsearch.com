@@ -334,13 +334,13 @@ function getListingIntro(introText: string | undefined, latestUpdate: string): s
   const latestDate = latestUpdate.startsWith("Updated ")
     ? latestUpdate.slice("Updated ".length)
     : latestUpdate;
-  if (!introText) return "Latest update: " + latestDate + " • Apply on employer sites";
+  if (!introText) return "Latest update: " + latestDate + ";
 
   return introText
     .split(" • ")
     .filter((part) => {
       const clean = part.trim().toLowerCase();
-      return clean !== "updated daily" && !clean.startsWith("roles across ");
+      return clean !== "updated daily" && clean !== "apply on employer sites" && !clean.startsWith("roles across ");
     })
     .map((part) => {
       const clean = part.trim();
