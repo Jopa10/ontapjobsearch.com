@@ -4,6 +4,7 @@ import Link from "next/link";
 import AiTipsCard from "@/components/AiTipsCard";
 import { getAiTipsSourceForJsonPath } from "@/lib/ai-tips-sources";
 import DetailedJobList from "@/components/DetailedJobList";
+import JobPageSearch from "@/components/JobPageSearch";
 import JobViewSwitcher from "@/components/JobViewSwitcher";
 import QuickJobList from "@/components/QuickJobList";
 import SavedLocationJobs from "@/components/SavedLocationJobs";
@@ -489,6 +490,7 @@ export default function JobSlicePage({
           </div>
 
           <SavedLocationJobs />
+          <JobPageSearch />
 
           {childCityLinks.length ? (
             <div style={{ marginBottom: 8 }}>
@@ -501,12 +503,6 @@ export default function JobSlicePage({
           {browseLinks ? (
             <div style={{ marginBottom: browseLinks.compact ? 8 : 12 }}>
               <BrowseLinksPanel browseLinks={browseLinks} />
-            </div>
-          ) : null}
-
-          {relatedPage ? (
-            <div style={{ marginBottom: 12 }}>
-              <RelatedPageLink relatedPage={relatedPage} />
             </div>
           ) : null}
 
