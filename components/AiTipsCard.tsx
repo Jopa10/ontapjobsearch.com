@@ -10,8 +10,17 @@ type Gtag = (
   parameters: Record<string, string>
 ) => void;
 
-export default function AiTipsCard({ regionSlug, compact = false }: { regionSlug?: string; compact?: boolean }) {
-  const href = regionSlug ? `/ai-tips?from=${encodeURIComponent(regionSlug)}` : "/ai-tips";
+export default function AiTipsCard({
+  regionSlug,
+  sourceSlug,
+  compact = false,
+}: {
+  regionSlug?: string;
+  sourceSlug?: string;
+  compact?: boolean;
+}) {
+  const from = sourceSlug ?? regionSlug;
+  const href = from ? `/ai-tips?from=${encodeURIComponent(from)}` : "/ai-tips";
 
   function trackClick() {
     const gtag = (window as Window & { gtag?: Gtag }).gtag;

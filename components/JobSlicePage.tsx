@@ -415,7 +415,7 @@ export default function JobSlicePage({
   const listingIntro = getListingIntro(introText, latestUpdate);
   const mobileAiTips = () => (
     <div className={styles.mobileAiTips}>
-      <AiTipsCard regionSlug={aiTipsSource?.slug} compact />
+      <AiTipsCard regionSlug={aiTipsSource?.regionSlug} sourceSlug={aiTipsSource?.slug} compact />
     </div>
   );
 
@@ -466,7 +466,9 @@ export default function JobSlicePage({
               </div>
             ))}
           </div>
-          {sidebarExtra ?? <AiTipsCard regionSlug={aiTipsSource?.slug} />}
+          {sidebarExtra ?? (
+            <AiTipsCard regionSlug={aiTipsSource?.regionSlug} sourceSlug={aiTipsSource?.slug} />
+          )}
         </aside>
 
         <div className={styles.content}>

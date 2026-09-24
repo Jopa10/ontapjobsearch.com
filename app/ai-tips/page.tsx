@@ -86,8 +86,8 @@ export default async function AiTipsPage({
       <AiTipsReturnLink
         href={source?.href ?? "/browse-jobs"}
         label={source ? `← Back to ${source.label} jobs` : "Browse current jobs"}
-        sourceRegion={source?.slug ?? "direct"}
-        destinationRegion={source?.slug ?? "browse-jobs"}
+        sourceRegion={source?.regionSlug ?? "direct"}
+        destinationRegion={source?.regionSlug ?? "browse-jobs"}
       />
       <script
         type="application/ld+json"

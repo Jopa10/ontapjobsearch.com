@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import JobSlicePage from "@/components/JobSlicePage";
 import AiTipsCard from "@/components/AiTipsCard";
+import { getAiTipsSourceForJsonPath } from "@/lib/ai-tips-sources";
 import { getJobPageStatus } from "@/config/job-page-status";
 import {
   getPublishedDynamicSlice,
@@ -53,6 +54,13 @@ export default async function Page({ params }: PageProps) {
   const routeKey = `job-search/${slice.regionSlug}/${slice.categorySlug}`;
   const latestUpdate = getJobPageStatus(routeKey);
   const isSupport = slice.category === "support_worker";
+  const aiTipsSource = getAiTipsSourceForJsonPath([
+    "app",
+    "_city-pages",
+    "configured-slices",
+    slice.regionSlug,
+    `${slice.categorySlug}.json`,
+  ]);
 
   return (
     <JobSlicePage
@@ -80,7 +88,11 @@ export default async function Page({ params }: PageProps) {
           ? londonOfficeTraining
           : undefined
       }
-      sidebarExtra={slice.regionSlug === "london" ? <AiTipsCard regionSlug={slice.regionSlug} /> : undefined}
+      sidebarExtra={
+        slice.regionSlug === "london" ? (
+          <AiTipsCard regionSlug={slice.regionSlug} sourceSlug={aiTipsSource?.slug} />
+        ) : undefined
+      }
       hideSidebarOnMobile={slice.regionSlug !== "london"}
       trainingItemLimit={slice.regionSlug === "london" && isSupport ? 4 : 3}
     />
