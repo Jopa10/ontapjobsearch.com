@@ -8,7 +8,7 @@ import { classifyJobSector, findNthJobSectorIndex } from "@/lib/job-sector";
 import SectorBadge from "@/components/SectorBadge";
 import SectorSwitchBanner from "@/components/SectorSwitchBanner";
 import ResultsJobLink from "@/components/ResultsJobLink";
-import { Fragment } from "react";
+import { Fragment, type ReactNode } from "react";
 import styles from "@/components/QuickJobList.module.css";
 
 export type QuickJob = {
@@ -29,6 +29,7 @@ export type QuickJob = {
 type QuickJobListProps = {
   jobs: QuickJob[];
   sectorFilterEnabled?: boolean;
+  afterThirdJob?: ReactNode;
 };
 
 function displayLocation(location: string) {
@@ -47,6 +48,7 @@ function displayTitle(title: string) {
 export default function QuickJobList({
   jobs,
   sectorFilterEnabled = false,
+  afterThirdJob,
 }: QuickJobListProps) {
   const fifthBusinessIndex = findNthJobSectorIndex(jobs, "business", 5);
 
@@ -94,6 +96,10 @@ export default function QuickJobList({
                 ) : null}
               </span>
             </ResultsJobLink>
+            {afterThirdJob &&
+            (index === 2 || (jobs.length < 3 && index === jobs.length - 1))
+              ? afterThirdJob
+              : null}
             {sectorFilterEnabled && index === 4 ? (
               <SectorSwitchBanner audience="all" />
             ) : null}

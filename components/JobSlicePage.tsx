@@ -413,6 +413,11 @@ export default function JobSlicePage({
   const cityBreadcrumb = getCityPageBreadcrumb(jsonPath);
   const childCityLinks = getActiveCityLinksForParentJsonPath(jsonPath);
   const listingIntro = getListingIntro(introText, latestUpdate);
+  const mobileAiTips = () => (
+    <div className={styles.mobileAiTips}>
+      <AiTipsCard regionSlug={aiTipsSource?.slug} compact />
+    </div>
+  );
 
   return (
     <div className={softPageBackground ? styles.softPageBackground : undefined}>
@@ -512,22 +517,23 @@ export default function JobSlicePage({
             </div>
           ) : null}
 
-          <div className={styles.mobileAiTips}>
-            <AiTipsCard regionSlug={aiTipsSource?.slug} compact />
-          </div>
-
           {jobs.length ? (
             <JobViewSwitcher
               sectorFilterEnabled={sectorFilterEnabled}
               sectorCounts={sectorCounts}
               quickView={
-                <QuickJobList jobs={jobs} sectorFilterEnabled={sectorFilterEnabled} />
+                <QuickJobList
+                  jobs={jobs}
+                  sectorFilterEnabled={sectorFilterEnabled}
+                  afterThirdJob={mobileAiTips()}
+                />
               }
               detailedView={
                 <DetailedJobList
                   jobs={jobs}
                   anchorTown={anchorTown}
                   sectorFilterEnabled={sectorFilterEnabled}
+                  afterThirdJob={mobileAiTips()}
                 />
               }
             />

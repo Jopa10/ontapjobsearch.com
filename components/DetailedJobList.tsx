@@ -6,7 +6,7 @@ import { getJobPath } from "@/lib/published-jobs";
 import { classifyJobSector, findNthJobSectorIndex } from "@/lib/job-sector";
 import SectorBadge from "@/components/SectorBadge";
 import SectorSwitchBanner from "@/components/SectorSwitchBanner";
-import { Fragment } from "react";
+import { Fragment, type ReactNode } from "react";
 
 export type DetailedJob = {
   job_id: string;
@@ -35,6 +35,7 @@ type DetailedJobListProps = {
   jobs: DetailedJob[];
   anchorTown?: string;
   sectorFilterEnabled?: boolean;
+  afterThirdJob?: ReactNode;
 };
 
 function decodeMojibake(value: string) {
@@ -119,6 +120,7 @@ export default function DetailedJobList({
   jobs,
   anchorTown,
   sectorFilterEnabled = false,
+  afterThirdJob,
 }: DetailedJobListProps) {
   const fifthBusinessIndex = findNthJobSectorIndex(jobs, "business", 5);
 
@@ -179,6 +181,10 @@ export default function DetailedJobList({
               />
             </div>
             </article>
+            {afterThirdJob &&
+            (index === 2 || (jobs.length < 3 && index === jobs.length - 1))
+              ? afterThirdJob
+              : null}
             {sectorFilterEnabled && index === 4 ? (
               <SectorSwitchBanner audience="all" />
             ) : null}
