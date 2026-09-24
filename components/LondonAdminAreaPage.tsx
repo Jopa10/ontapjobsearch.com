@@ -107,7 +107,7 @@ export default function LondonAdminAreaPage({ area }: { area: LondonSubArea }) {
       trainingHeading="Boost your admin applications"
       trainingSubheading="Useful online learning commonly requested for service-administrator and office support roles"
       trainingItems={adminTraining}
-      sidebarExtra={<AiTipsCard />}
+      sidebarExtra={<AiTipsCard regionSlug="london" />}
       hideSidebarOnMobile={false}
     />
   );

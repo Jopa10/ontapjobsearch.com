@@ -65,7 +65,7 @@ export default function Page() {
       trainingSubheading="Useful online learning commonly requested for service-administrator and office support roles"
       trainingItems={adminTraining}
       relatedPage={relatedPage}
-      sidebarExtra={<AiTipsCard />}
+      sidebarExtra={<AiTipsCard regionSlug="north-east" />}
     />
   );
 }

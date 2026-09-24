@@ -19,7 +19,7 @@ function categoryIsAdmin(label: string): boolean {
 
 function sourceSlugFromRoute(route: string): string | undefined {
   const parts = route.split("/").filter(Boolean);
-  if (parts.at(-1) !== ADMIN_ROUTE) return undefined;
+  if (parts[parts.length - 1] !== ADMIN_ROUTE) return undefined;
   return parts[0] === "job-search" ? parts[1] : parts[0];
 }
 

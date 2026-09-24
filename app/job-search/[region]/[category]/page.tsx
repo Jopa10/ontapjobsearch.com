@@ -80,7 +80,7 @@ export default async function Page({ params }: PageProps) {
           ? londonOfficeTraining
           : undefined
       }
-      sidebarExtra={slice.regionSlug === "london" ? <AiTipsCard /> : undefined}
+      sidebarExtra={slice.regionSlug === "london" ? <AiTipsCard regionSlug={slice.regionSlug} /> : undefined}
       hideSidebarOnMobile={slice.regionSlug !== "london"}
       trainingItemLimit={slice.regionSlug === "london" && isSupport ? 4 : 3}
     />
