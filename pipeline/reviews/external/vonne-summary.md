@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-09-23
-review_fingerprint: ba632aff3a74238b54e3cbc311468da8d9a4bc2969dc1024dd0e644d7072d005
+review_date: 2026-09-24
+review_fingerprint: dad52fd2fdb30d6954ea03902dae44bf18750743dda8821fed1b44191a34b696
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,9 +10,9 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-09-23T12:59:05+01:00
+Run generated: 2026-09-24T13:05:31+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 354
+JobG8 comparison rows: 314
 Approved NEJobs comparison rows: 3
 
 ## Funnel
@@ -74,8 +74,8 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173448
 
 ## HARD_PASS
 
-- [Communications & Campaigns Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173449) — confirmed JobG8 duplicate.
-- [Domestic Abuse Counsellor](https://www.vonne.org.uk/vonne-jobs-details?cid=173427) — insufficient service-admin evidence.
+- [Advice Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173461) — out-of-scope VONNE occupation.
+- [Communications & Campaigns Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173449) — insufficient service-admin evidence.
 - [Employability Advisor](https://www.vonne.org.uk/vonne-jobs-details?cid=173454) — insufficient service-admin evidence.
 - [Employability Advisor](https://www.vonne.org.uk/vonne-jobs-details?cid=173453) — insufficient service-admin evidence.
 - [Family Practitioner](https://www.vonne.org.uk/vonne-jobs-details?cid=173441) — out-of-scope VONNE occupation.
