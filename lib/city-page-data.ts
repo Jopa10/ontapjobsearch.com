@@ -104,6 +104,10 @@ function parentLabelFromRoute(route: string): string {
   );
 }
 
+export function getKnownRegionLabel(regionSlug: string): string | undefined {
+  return parentLabels[regionSlug];
+}
+
 function roleBreadcrumb(
   categoryLabel: string
 ): Pick<CityPageBreadcrumb, "roleLabel" | "roleRoute"> {

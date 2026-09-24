@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import { cityPageDefinitions } from "@/lib/city-page-data";
+import { cityPageDefinitions, getKnownRegionLabel } from "@/lib/city-page-data";
 import { getLiveConfiguredSlices } from "@/lib/configured-job-slices";
 
 const ROOT = process.cwd();
@@ -54,7 +54,11 @@ function getSourceRecords(): SourceRecord[] {
     );
     const source: AiTipsSource = {
       slug: sourceKey(item.regionSlug, item.categorySlug),
-      label: displayName(item.region, item.displayLabel, item.categorySlug),
+      label: displayName(
+        getKnownRegionLabel(item.regionSlug) ?? item.region,
+        item.displayLabel,
+        item.categorySlug
+      ),
       href: hasStaticPage ? staticRoute : item.route,
       regionSlug: item.regionSlug,
     };
@@ -91,7 +95,11 @@ function getSourceRecords(): SourceRecord[] {
         const categoryLabel = category.display_label ?? categorySlug;
         const source: AiTipsSource = {
           slug: sourceKey(regionSlug, categorySlug),
-          label: displayName(region, categoryLabel, categorySlug),
+          label: displayName(
+            getKnownRegionLabel(regionSlug) ?? region,
+            categoryLabel,
+            categorySlug
+          ),
           href: `/${regionSlug}/${categorySlug}`,
           regionSlug,
         };
