@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-09-23
+feed_date: 2026-09-24
 
 Edit only the `action:` line in each block:
 
@@ -101,7 +101,11 @@ job_id: 1990925
 
 ## SUSSEX — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - SUSSEX | Sussex | Haywards Heath | £39134 per year | Healthcare Assistant
+job_id: 107863056
+---
 
 ## CUMBRIA SOUTH — SELECTED
 
@@ -157,12 +161,6 @@ job_id: 1856912
 action:
 SELECTED | Hampshire | Eastleigh | £14.25 - £15.66 per hour | Learning Support Assistant
 job_id: 1875238
----
-
----
-action:
-SELECTED | Hampshire | Ringwood | £26018 - £27111 per year | Care Assistant
-job_id: 1401785190
 ---
 
 ---
@@ -239,13 +237,23 @@ job_id: 455939784746781900837340
 
 ---
 action:
-SELECTED | Hampshire | Petersfield | £25,845 per year | Female Support Worker
-job_id: 801816236128835993637340
+SELECTED | Hampshire | Winchester | £28697 - £31573 per year | Children's Homes Support Worker
+job_id: 1401785482
+---
+
+---
+action:
+SELECTED | Hampshire | Tadley | £25437 per year | Female Support Worker
+job_id: 107989086
 ---
 
 ## HAMPSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - HAMPSHIRE | Hampshire | Ryde | £39134 per year | Healthcare Assistant
+job_id: 107856243
+---
 
 ## KENT — SELECTED
 
@@ -447,12 +455,6 @@ job_id: 1961315
 
 ---
 action:
-SELECTED | London | Enfield | £12.92-£13.23 per hour | Support Worker
-job_id: 1881515
----
-
----
-action:
 SELECTED | London | London | £28860 per year | Care Assistant
 job_id: 1990764
 ---
@@ -489,6 +491,12 @@ job_id: 107626591
 action:
 SELECTED | Oxfordshire | Bicester | £14.4 per hour | Home Carer
 job_id: 107626594
+---
+
+---
+action:
+SELECTED | Oxfordshire | Banbury | £14.4 per hour | Home Carer
+job_id: 107626596
 ---
 
 ## OXFORDSHIRE — POSSIBLES
@@ -549,6 +557,18 @@ SELECTED | Surrey | Tadworth | £15.00 per hour | Male Healthcare Assistant
 job_id: 1996262
 ---
 
+---
+action:
+SELECTED | Surrey | Caterham | £25,845 per annum | Female Support Worker
+job_id: 317886149299273728037340
+---
+
+---
+action:
+SELECTED | Surrey | Guildford | £25,845 per annum | Female Support Worker
+job_id: 547274071618460057637341
+---
+
 ## SURREY — POSSIBLES
 
 _No jobs in this group._
@@ -565,12 +585,6 @@ job_id: 1881025
 action:
 SELECTED | Wiltshire | Chippenham | £85 - £110 per daily | Autism Support Assistant
 job_id: 107869953
----
-
----
-action:
-SELECTED | Wiltshire | Warminster | £15.5 per hour ((DOE)) | Support Worker Waking Nights
-job_id: 107978779
 ---
 
 ## WILTSHIRE — POSSIBLES
