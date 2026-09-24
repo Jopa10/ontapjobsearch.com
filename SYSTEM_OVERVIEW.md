@@ -4,11 +4,13 @@ Total output lines: 372
 # Ontap System Overview
 
 **Last updated:** 24 September 2026
-**Status:** Canonical production state, reconciled on 21 September against the live slice register, city-page register and scheduled workflow definitions.
+**Status:** Canonical production state, reconciled on 24 September against the live slice register, city-page register and scheduled workflow definitions.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 24 September 2026 — **Four additional regional pages are LIVE:** Greater Manchester - North Finance / Accounts, Scotland Central - Fife Service Admin, Bristol & Bath Legal Assistant / Paralegal, and Staffordshire Marketing. The screenshot evidence was 12 / 5.4 / 6-of-14, 8 / 6.7 / 11-of-14, 6 / 6.9 / 11-of-14, and 7 / 6.9 / 11-of-14 respectively (today / 14-day average / days at 6+). They use the existing configured-slice catalog, central LIVE register, daily family pipelines and verified publisher.
 
 - 24 September 2026 — First-time mobile visitors now see Quick View first; desktop visitors continue to start in Detailed View. A previously saved view choice still takes priority.
 
@@ -134,7 +136,7 @@ The main JobG8 process remains the primary production ingest/process path. NEJob
 
 A source shown as `STALE` or `MISSING` in the unified review must not be interpreted as zero inventory. Repair/rerun that source, then rerun `Ontap daily review` to regenerate the master edit file before reviewing. The 22 August Teaching Vacancies recovery verified this operating sequence and the fail-soft source-isolation behaviour.
 
-At the 18 September audit, Service Admin is LIVE in **51 / 78 UK markets**. All use the same central catalog, slice register, production selector and verified-page publishing mechanism. `pipeline/registers/region_category_slice_register.csv` is authoritative if that count later changes.
+At the 24 September audit, Service Admin is LIVE in **52 / 78 UK markets**. All use the same central catalog, slice register, production selector and verified-page publishing mechanism. `pipeline/registers/region_category_slice_register.csv` is authoritative if that count later changes.
 
 Regional geography has two deliberately separate layers. `pipeline/config/uk_assessable_regions.json` defines the **78 assessable UK markets** used for daily diagnostics and coverage reporting; `england_assessable_regions.json` remains a subset/reference. `pipeline/config/job_slice_catalog.json` is the configured/public market layer and is not the national geography authority; `region_category_slice_register.csv` decides what is LIVE. A mapped job can therefore be assessed even when its market has no LIVE slice. `North East` remains the deliberate roll-up of all three underlying North East lookup areas, including Tees Valley.
 
@@ -318,7 +320,7 @@ The Google Indexing API retains its 200-notification safety limit and GitHub Iss
 
 ## Current state
 
-As reconciled from `pipeline/registers/region_category_slice_register.csv` on 18 September 2026, the register contains **126 LIVE rows**: Service Admin 51, Marketing 19, Customer Sales 14, Finance / Accounts 12, Support Worker 11, HR / Recruitment 9, Customer Service / Contact Centre 6 and Legal Assistant / Paralegal 4. Another 15 rows are CANDIDATE. The live register remains authoritative after this dated snapshot.
+The 18 September documentation reported 126 LIVE rows; the 24 September register recount found 159 before today’s four activations. The current register contains **163 LIVE rows**: Service Admin 52, Marketing 22, Customer Sales 14, Finance / Accounts 36, Support Worker 11, HR / Recruitment 9, Customer Service / Contact Centre 6 and Legal Assistant / Paralegal 13. Another 12 rows are CANDIDATE. The live register remains authoritative after this snapshot.
 
 The full JobG8 workflow assesses all eight families across all 78 UK markets (624 rows) and retains up to 14 feed-date snapshots. The shared city mechanism owns 54 active permanent routes (53 Admin and office, one Support Worker). Production deployment uses normal Vercel Git integration automatically, with CLI recovery manual-only. NHS Administrative & Clerical inventory is isolated safely on feed failure, remains capped at 20% per Service Admin page and uses the 4+1 display order. Live vacancy pages and search use deployment-built static/current inventory; expired-job recovery remains separate. Teaching Vacancies retains the source-isolation and concurrent-write safeguards described above.
 - 21 September 2026 — **Google indexing now gives JobG8 first claim on the daily allowance:** after the fixed deletion allowance, every available eligible JobG8 URL is selected before any non-JobG8 URL. Non-paying sources are capped at **20 of 200 submissions (10%)**; unused JobG8 capacity is never released to them. Workflow summaries now show live inventory, indexing candidates and selected submissions by source.

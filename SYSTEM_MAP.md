@@ -4,7 +4,7 @@ Total output lines: 522
 # Ontap System Map
 
 **Last updated:** 24 September 2026
-**Status:** Canonical production architecture, reconciled on 21 September against the active workflows, slice register, city-page register and current diagnostic contract.
+**Status:** Canonical production architecture, reconciled on 24 September against the active workflows, slice register, city-page register and current diagnostic contract.
 
 - 21 September 2026 — **Nearby-location analytics now explains incomplete location attempts and reliably measures restored preferences:** client events that occur before GA4 initialises wait for the shared analytics-ready signal instead of being dropped. Unsuccessful geolocation attempts now distinguish unsupported browsers, permission denial, unavailable positions, timeouts and nearby-API failures; manual-town attempts and saved-location refresh failures are measured separately. Existing `saved_location_return` and `saved_location_results_loaded` events remain the proof of remembered-location reuse.
 
@@ -12,13 +12,15 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 24 September 2026 — **Four approved regional slices were activated:** Greater Manchester - North Finance / Accounts, Scotland Central - Fife Service Admin, Bristol & Bath Legal Assistant / Paralegal, and Staffordshire Marketing. The configured catalog supplies route metadata, the explicit LIVE register controls activation, and existing family generation plus verified publication workflows handle the pages.
+
 - 24 September 2026 — **Quick View is the initial view on mobile listing pages:** on first visit without a saved choice, screens up to 700 px start in Quick View and wider screens start in Detailed View. A stored explicit choice still takes priority on later visits.
 
 - 24 September 2026 — **AI tips now return visitors to their originating job listing:** listing cards pass a validated source key, and `/ai-tips` resolves it only through the known regional/category route registry. Admin listing links retain their existing region key; other categories use a region-and-category key. Direct or invalid visits keep the `Browse current jobs` fallback. The fixed canonical URL and breadcrumb schema are unchanged, and the return-link click retains GA4 measurement.
 
 - 23 September 2026 — **JobG8 practical-role selection is now three-way and failure-isolated:** clearly junior/assistant/practical finance, bookkeeping, payroll and legal-office titles are eligible candidates despite broad words such as `legal` or `accountant`. Explicit mandatory ACCA/ACA/CIMA requirements remain automatic exclusions; AAT is allowed. Missing, preferred or ambiguous qualification wording is sent to the daily review queue after inspecting the full advert. Salary ceilings remain hard, while non-numeric salary wording is reviewed rather than excluded. A malformed or undecidable individual row is withheld and logged as `DAILY_REVIEW` while the remaining JobG8 rows continue.
 
-- 18 September 2026 — **Governance currency audit:** corrected stale current-state references to the former 55-market/three- or five-family diagnostic phases. The production contract is now explicitly 78 UK markets × eight governed families (624 rows); the 18 September slice-register snapshot is 126 LIVE rows and the city register contains 54 active permanent routes. Dated rollout figures remain historical evidence only.
+- 18 September 2026 — **Governance currency audit:** corrected stale current-state references to the former 55-market/three- or five-family diagnostic phases. The production contract is now explicitly 78 UK markets × eight governed families (624 rows); the 18 September documentation reported 126 LIVE rows; a 24 September register recount found 159 before four further activations and the city register contains 54 active permanent routes. Dated rollout figures remain historical evidence only.
 
 - 17 September 2026 — **Traffic reporting now separates explicit automation, human-qualified visits and anonymous returning browsers:** the shared client analytics bootstrap suppresses GA4 only for explicitly identified crawler/automation user agents. It does not use `navigator.webdriver` as a standalone suppression signal, and ordinary browsers continue to load GA4 and emit events; public-page access and indexing are unaffected. Real browsers emit `qualified_visit` after the first trusted interaction in a browser session. Anonymous local first/last-seen timestamps emit `returning_browser` only after a gap of at least 30 minutes, with no identity, town or coordinates; the existing `saved_location_return` and `saved_location_results_loaded` events remain the narrower proof of restored location use. `scripts/build-campaign-url.ts` is the single tested helper for links published on channels Ontap controls; internal navigation deliberately remains untagged so it cannot overwrite acquisition attribution.
 
@@ -347,7 +349,7 @@ This leaves one automatic route — `main` → Vercel Git integration — plus o
 
 ## Validation state
 
-As reconciled from `pipeline/registers/region_category_slice_register.csv` on 18 September 2026, the register contains **126 LIVE rows**: Service Admin 51, Marketing 19, Customer Sales 14, Finance / Accounts 12, Support Worker 11, HR / Recruitment 9, Customer Service / Contact Centre 6 and Legal Assistant / Paralegal 4. A further 15 rows are CANDIDATE. This is a dated audit snapshot; the register is authoritative after it changes.
+As reconciled from `pipeline/registers/region_category_slice_register.csv` on 24 September 2026, the register contains **163 LIVE rows**: Service Admin 52, Marketing 22, Customer Sales 14, Finance / Accounts 36, Support Worker 11, HR / Recruitment 9, Customer Service / Contact Centre 6 and Legal Assistant / Paralegal 13. A further 12 rows are CANDIDATE. The register is authoritative for current activation state.
 
 The full JobG8 workflow enforces the current **78 markets × eight families = 624 rows** diagnostic contract and up to 14 feed-date snapshots. `city-page-register.json` contains **54 active permanent routes (53 Admin and office, one Support Worker)**. NHS feed isolation, the 20% Service Admin ceiling, the 4+1 display rhythm, Teaching Vacancies source isolation, deployment-built search/static live vacancy pages and normal Git-to-Vercel deployment with manual-only CLI recovery remain the verified production architecture.
 

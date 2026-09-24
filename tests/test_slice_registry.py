@@ -15,6 +15,18 @@ from slice_registry import candidate_slices, load_slice_register, live_slices
 
 
 class SliceRegistryTests(unittest.TestCase):
+    def test_24_september_owner_approved_region_slices_are_live_and_routable(self):
+        approved = {
+            ("Greater Manchester - North", "finance_accounts"): "/job-search/greater-manchester-north/finance-accounts-jobs",
+            ("Scotland Central - Fife", "admin_service"): "/job-search/fife/service-administrator-jobs",
+            ("Bristol & Bath", "legal_assistant_paralegal"): "/job-search/bristol-bath/paralegal-jobs",
+            ("Staffordshire", "marketing"): "/job-search/staffordshire/marketing-jobs",
+        }
+        live = live_slices()
+        self.assertTrue(set(approved).issubset(live))
+        for (region, category), route in approved.items():
+            self.assertEqual(dynamic_route(region, category), route)
+
     def test_register_has_unique_valid_region_category_rows(self):
         records = load_slice_register()
         pairs = {(row.region, row.category) for row in records}
@@ -169,7 +181,10 @@ class SliceRegistryTests(unittest.TestCase):
                 "North East",
                 "Northern Ireland - East",
                 "Oxfordshire",
+                "Norfolk",
+                "Staffordshire",
                 "Yorkshire - North",
+                "Yorkshire - West",
             },
         )
         self.assertIn(("Kent", "marketing"), live_slices())
@@ -205,8 +220,32 @@ class SliceRegistryTests(unittest.TestCase):
                 "Shropshire",
                 "Yorkshire - West",
                 "Devon",
+                "Berkshire",
+                "Buckinghamshire",
+                "Cambridgeshire",
+                "Cheshire - East",
+                "Cheshire - West",
+                "Dorset",
                 "Essex",
+                "Hampshire",
+                "Hertfordshire",
+                "Kent",
+                "Lancashire - East",
+                "Leicestershire",
                 "Greater Manchester - Manchester & Salford",
+                "Greater Manchester - North",
+                "Norfolk",
+                "Northamptonshire",
+                "Nottinghamshire",
+                "Oxfordshire",
+                "Suffolk",
+                "Surrey",
+                "Sussex",
+                "Wales South - Cardiff & Vale",
+                "West Midlands - Birmingham & Solihull",
+                "West Midlands - Coventry & Warwickshire",
+                "Wiltshire",
+                "Yorkshire - South",
             },
         )
         self.assertNotIn(("London", "finance_accounts"), candidate_slices())
