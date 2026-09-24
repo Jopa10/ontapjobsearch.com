@@ -229,6 +229,52 @@ class AgreedTitleRuleTests(unittest.TestCase):
                 self.assertEqual("HARD_PASS", classification)
                 self.assertIn("para", reason.casefold())
 
+    def test_practical_finance_and_legal_titles_are_candidates(self) -> None:
+        practical_titles = (
+            "Credit Controller",
+            "Bookkeeper",
+            "Junior Accountant",
+            "Junior Bookkeeper",
+            "Legal Administrator",
+            "Paralegal",
+        )
+        for title in practical_titles:
+            with self.subTest(title=title):
+                classification, _reason, _priority, _stability = admin.classify_title(
+                    title, self.admin_register
+                )
+                self.assertEqual("HIGH_CONFIDENCE", classification)
+
+    def test_qualification_policy_excludes_only_mandatory_acca_aca_or_cima(self) -> None:
+        self.assertEqual(
+            "exclude",
+            admin.assess_practical_role_qualifications(
+                "Junior Accountant",
+                "ACCA qualification is essential for this role.",
+            )[0],
+        )
+        self.assertEqual(
+            "ok",
+            admin.assess_practical_role_qualifications(
+                "Bookkeeper",
+                "AAT is required; practical bookkeeping experience is welcome.",
+            )[0],
+        )
+        self.assertEqual(
+            "review",
+            admin.assess_practical_role_qualifications(
+                "Legal Administrator",
+                "Legal administration experience is desirable.",
+            )[0],
+        )
+        self.assertEqual(
+            "review",
+            admin.assess_practical_role_qualifications(
+                "Credit Controller",
+                "Maintain ledgers, chase debts and resolve customer queries.",
+            )[0],
+        )
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)

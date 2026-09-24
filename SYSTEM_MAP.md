@@ -1,9 +1,3 @@
-Warning: truncated output (original token count: 30538)
-Total output lines: 523
-
-Warning: truncated output (original token count: 31003)
-Total output lines: 513
-
 # Ontap System Map
 
 **Last updated:** 23 September 2026
@@ -14,6 +8,8 @@ Total output lines: 513
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
+
+- 23 September 2026 — **JobG8 practical-role selection is now three-way and failure-isolated:** clearly junior/assistant/practical finance, bookkeeping, payroll and legal-office titles are eligible candidates despite broad words such as `legal` or `accountant`. Explicit mandatory ACCA/ACA/CIMA requirements remain automatic exclusions; AAT is allowed. Missing, preferred or ambiguous qualification wording is sent to the daily review queue after inspecting the full advert. Salary ceilings remain hard, while non-numeric salary wording is reviewed rather than excluded. A malformed or undecidable individual row is withheld and logged as `DAILY_REVIEW` while the remaining JobG8 rows continue.
 
 - 18 September 2026 — **Governance currency audit:** corrected stale current-state references to the former 55-market/three- or five-family diagnostic phases. The production contract is now explicitly 78 UK markets × eight governed families (624 rows); the 18 September slice-register snapshot is 126 LIVE rows and the city register contains 54 active permanent routes. Dated rollout figures remain historical evidence only.
 

@@ -299,6 +299,10 @@ HIGH_CONFIDENCE_PATTERNS = [
     "call handler", "contact centre", "call centre", "service advisor", "service adviser",
     "service administrator", "service coordinator", "service co-ordinator", "business support officer",
     "business support administrator", "bookings administrator", "booking coordinator", "scheduler",
+    "assistant accountant", "assistant management accountant", "accounting assistant", "accountancy assistant", "accounts assistant",
+    "finance assistant", "junior accountant", "junior bookkeeper", "bookkeeper", "credit controller",
+    "payroll administrator", "payroll assistant", "payroll clerk", "payroll coordinator",
+    "legal administrator", "legal assistant", "paralegal",
 ]
 
 # Adjacent credible admin/service roles; useful for filling a thin slice but should not outrank HC.
@@ -309,6 +313,48 @@ ELASTIC_FIT_PATTERNS = [
     "service desk", "helpdesk", "help desk", "complaints handler", "claims handler",
     "case administrator", "document controller", "compliance administrator",
 ]
+
+# Practical finance, payroll and legal-office roles are valid office-work
+# candidates even though their titles contain words that historically sat in
+# the specialist hard-pass list.  Keep this list deliberately title-specific:
+# it does not weaken exclusions for senior, managerial or specialist roles.
+PRACTICAL_ROLE_PATTERNS = [
+    "assistant accountant", "assistant management accountant", "accounting assistant", "accountancy assistant",
+    "accounts assistant", "finance assistant", "junior accountant", "junior bookkeeper",
+    "bookkeeper", "credit controller", "payroll administrator", "payroll assistant",
+    "payroll clerk", "payroll coordinator", "legal administrator", "legal assistant",
+    "paralegal",
+]
+
+QUALIFICATION_RELEVANT_ROLE_RE = re.compile(
+    r"\b(?:account(?:ant|ancy|ing)?|bookkeep(?:er|ing)?|credit controller|"
+    r"payroll|legal|paralegal)\b",
+    re.IGNORECASE,
+)
+MANDATORY_PROFESSIONAL_QUALIFICATION_RE = re.compile(
+    r"(?:"
+    r"\b(?:must|required|essential|mandatory|minimum requirement)\b.{0,100}"
+    r"\b(?:acca|aca|cima)\b"
+    r"|"
+    r"\b(?:acca|aca|cima)\b.{0,100}"
+    r"\b(?:must|required|essential|mandatory|minimum requirement)\b"
+    r")",
+    re.IGNORECASE | re.DOTALL,
+)
+QUALIFICATION_SIGNAL_RE = re.compile(
+    r"\b(?:acca|aca|cima|aat|qualification|qualified|professional body|"
+    r"solicitor|barrister|law degree|legal practice course|lpc)\b",
+    re.IGNORECASE,
+)
+PREFERRED_QUALIFICATION_RE = re.compile(
+    r"\b(?:preferred|desirable|advantageous|ideally|would be useful|"
+    r"study support|working towards)\b",
+    re.IGNORECASE,
+)
+NON_NUMERIC_SALARY_RE = re.compile(
+    r"\b(?:competitive|dependent on experience|depending on experience|doe)\b",
+    re.IGNORECASE,
+)
 
 # Exact review titles can be added here after manual QA. Keep empty in V1.
 REVIEW_CONTEXT_DEPENDENT_TITLES: set[str] = set()
@@ -1535,6 +1581,43 @@ def contains_pattern(title_key: str, pattern: str) -> bool:
     return pattern in title_key
 
 
+def is_practical_role_title(title: str) -> bool:
+    """Return true only for the explicitly governed practical role families."""
+    title_key = normalise_title_for_register(title)
+    return any(contains_pattern(title_key, pattern) for pattern in PRACTICAL_ROLE_PATTERNS)
+
+
+def assess_practical_role_qualifications(title: str, description: Any) -> tuple[str, str]:
+    """Return ``ok``, ``review`` or ``exclude`` for qualification-sensitive roles.
+
+    This is intentionally narrower than a general qualification detector.  It
+    applies only to practical finance/bookkeeping/payroll/legal roles, where a
+    professional qualification can change whether the advert is suitable for
+    automatic selection.  The complete advert text is inspected.
+    """
+    if not is_practical_role_title(title) or not QUALIFICATION_RELEVANT_ROLE_RE.search(title):
+        return "ok", ""
+
+    text = norm(description)
+    if MANDATORY_PROFESSIONAL_QUALIFICATION_RE.search(text):
+        return "exclude", "explicit mandatory ACCA/ACA/CIMA requirement"
+
+    # AAT is expressly allowed.  A clearly stated AAT-only requirement is
+    # therefore not an exclusion; absent/unclear/preferred qualifications still
+    # remain review cases under the owner policy below.
+    if re.search(r"\baat\b", text, flags=re.IGNORECASE) and not re.search(
+        r"\b(?:acca|aca|cima|solicitor|barrister|law degree|lpc)\b", text, flags=re.IGNORECASE
+    ):
+        if re.search(r"\b(?:must|required|essential|mandatory)\b.{0,100}\baat\b|\baat\b.{0,100}\b(?:must|required|essential|mandatory)\b", text, flags=re.IGNORECASE | re.DOTALL):
+            return "ok", "AAT requirement is allowed"
+
+    if not QUALIFICATION_SIGNAL_RE.search(text):
+        return "review", "qualification information absent from full advert"
+    if PREFERRED_QUALIFICATION_RE.search(text):
+        return "review", "qualification is preferred/uncertain rather than a clear automatic pass"
+    return "review", "qualification wording is present but not confidently interpretable"
+
+
 def classify_title(title: str, title_register: dict[str, dict[str, str]] | None = None) -> tuple[str, str, int, str]:
     """
     Classify admin/service-office slice title intent.
@@ -1566,6 +1649,11 @@ def classify_title(title: str, title_register: dict[str, dict[str, str]] | None 
         )
 
     hard_hits = [p.strip() for p in HARD_PASS_PATTERNS if contains_pattern(title_key, p)]
+    if is_practical_role_title(title):
+        # ``legal`` and ``payroll`` are too broad for the governed practical
+        # titles above.  Other hard rules (for example ``senior`` or
+        # ``manager``) remain fully effective.
+        hard_hits = [hit for hit in hard_hits if hit not in {"legal", "payroll"}]
     if hard_hits:
         classification = "HARD_PASS"
         return classification, "hard pass title pattern: " + ", ".join(hard_hits), CLASSIFICATION_PRIORITY[classification], "STABLE"
@@ -1603,7 +1691,7 @@ def title_filter_details(title: str) -> tuple[list[str], list[str]]:
     return include_hits, exclude_hits
 
 
-def process(
+def _process_batch(
     job_df: pd.DataFrame,
     lookup: dict[str, str],
     location_fallback_lookup: dict[str, str],
@@ -1634,6 +1722,8 @@ def process(
         reviewed_salary_ceiling = norm(title_rule.get("salary_review_ceiling_gbp"))
         context_status = ""
         context_reason = ""
+        qualification_status = ""
+        qualification_reason = ""
         salary_review_status = ""
         annual_salary_upper = ""
         regional_salary_review_point = ""
@@ -1643,8 +1733,14 @@ def process(
         town = area
 
         def add_report(decision: str, reason: str, region: str = "") -> None:
+            selector_outcome = ""
+            if decision == "INCLUDED":
+                selector_outcome = "DAILY_REVIEW" if review_required else "INCLUDE_AUTOMATIC"
+            elif decision == "DROPPED":
+                selector_outcome = "EXCLUDE_AUTOMATIC"
             report_rows.append({
                 "decision": decision,
+                "selector_outcome": selector_outcome,
                 "manual_override": manual_override,
                 "manual_select": manual_select,
                 "selection_status": "",
@@ -1668,6 +1764,8 @@ def process(
                 "context_policy": context_policy,
                 "context_status": context_status,
                 "context_reason": context_reason,
+                "qualification_status": qualification_status,
+                "qualification_reason": qualification_reason,
                 "title_classification": title_classification,
                 "title_priority": title_priority,
                 "review_status": review_status,
@@ -1765,6 +1863,25 @@ def process(
             review_required = True
             review_reasons.append(context_assessment.reason)
 
+        qualification_status, qualification_reason = assess_practical_role_qualifications(
+            title,
+            raw_description,
+        )
+        if qualification_status == "exclude" and manual_override != "FORCE_INCLUDE":
+            drop("qualification rule: " + qualification_reason, region)
+            continue
+        if qualification_status == "review":
+            review_required = True
+            review_reasons.append(qualification_reason)
+
+        if (
+            is_practical_role_title(title)
+            and salary_assessment.status in {"missing", "unassessed"}
+            and NON_NUMERIC_SALARY_RE.search(salary_text_preview)
+        ):
+            review_required = True
+            review_reasons.append("non-numeric salary wording requires daily review")
+
         if title_classification == "REVIEW_CONTEXT_DEPENDENT":
             if context_policy and context_assessment.status == "ok":
                 title_classification = "HIGH_CONFIDENCE"
@@ -1818,6 +1935,103 @@ def process(
         }
         outputs[region].append(clean_record_strings(item))
         add_report("INCLUDED", reason, region)
+
+    return outputs, report_rows
+
+
+def process(
+    job_df: pd.DataFrame,
+    lookup: dict[str, str],
+    location_fallback_lookup: dict[str, str],
+    overrides: dict[str, str],
+    manual_selects: set[str],
+    title_register: dict[str, dict[str, str]],
+) -> tuple[dict[str, list[dict[str, Any]]], list[dict[str, Any]]]:
+    """Run selection in failure-isolated batches.
+
+    A malformed or undecidable row is withheld and logged as DAILY_REVIEW. If
+    a batch raises unexpectedly, it is retried one row at a time so one bad
+    advert cannot abort the remaining JobG8 selection/publish run.
+    """
+    outputs = {region: [] for region in OUTPUT_FILES}
+    report_rows: list[dict[str, Any]] = []
+    batch_size = 256
+
+    def review_error(row: pd.Series, exc: Exception) -> dict[str, Any]:
+        job_id = norm(row.get(COL["job_id"]))
+        title = norm(row.get(COL["title"]))
+        town = norm(row.get(COL["area"])) or norm(row.get(COL["location"]))
+        region = lookup.get(norm_key(row.get(COL["area"])), "")
+        if not region:
+            region = location_fallback_lookup.get(norm_key(row.get(COL["location"])), "")
+        try:
+            excel_row = int(row.name) + 2
+        except (TypeError, ValueError):
+            excel_row = ""
+        return {
+            "decision": "REVIEW_ERROR",
+            "selector_outcome": "DAILY_REVIEW",
+            "manual_override": "",
+            "manual_select": "",
+            "selection_status": "",
+            "selection_scenario": "",
+            "region_selection_message": "",
+            "remaining_slots": "",
+            "possible_selection_rank": "",
+            "excel_row": excel_row,
+            "job_id": job_id,
+            "title": title,
+            "town": town,
+            "region": COMBINED_OUTPUT_REGION_MAP.get(region, region),
+            "employment_type": norm(row.get(COL["employment_type"])),
+            "salary_text": "",
+            "salary_source": "",
+            "salary_review_status": "",
+            "annual_salary_upper": "",
+            "regional_salary_review_point": "",
+            "geo_source": "",
+            "description_preview": make_description_preview(row.get(COL["description"])),
+            "context_policy": "",
+            "context_status": "review",
+            "context_reason": "selector error; withheld from automatic selection",
+            "qualification_status": "",
+            "qualification_reason": "",
+            "title_classification": "REVIEW_CONTEXT_DEPENDENT",
+            "title_priority": CLASSIFICATION_PRIORITY["REVIEW_CONTEXT_DEPENDENT"],
+            "review_status": "REVIEW",
+            "classification_reason": "selector error",
+            "reason": f"selector error: {type(exc).__name__}: {exc}",
+            "apply_url_present": "yes" if norm(row.get(COL["apply_url"])) else "no",
+            "description_present": "yes" if norm(row.get(COL["description"])) else "no",
+        }
+
+    for start in range(0, len(job_df), batch_size):
+        batch = job_df.iloc[start:start + batch_size]
+        try:
+            batch_outputs, batch_reports = _process_batch(
+                batch, lookup, location_fallback_lookup, overrides, manual_selects, title_register
+            )
+            for region, items in batch_outputs.items():
+                outputs[region].extend(items)
+            report_rows.extend(batch_reports)
+            continue
+        except Exception:
+            # Retry only this batch row-by-row. The exception is deliberately
+            # not allowed to escape and stop the wider daily process.
+            pass
+
+        for index in batch.index:
+            row = job_df.loc[index]
+            try:
+                one_outputs, one_reports = _process_batch(
+                    job_df.loc[[index]], lookup, location_fallback_lookup,
+                    overrides, manual_selects, title_register,
+                )
+                for region, items in one_outputs.items():
+                    outputs[region].extend(items)
+                report_rows.extend(one_reports)
+            except Exception as exc:
+                report_rows.append(review_error(row, exc))
 
     return outputs, report_rows
 
@@ -2100,6 +2314,7 @@ def decision_report_fieldnames() -> list[str]:
     return [
         # Daily QA / review columns first.
         "decision",
+        "selector_outcome",
         "region",
         "title",
         "manual_override",
@@ -2121,6 +2336,8 @@ def decision_report_fieldnames() -> list[str]:
         "context_policy",
         "context_status",
         "context_reason",
+        "qualification_status",
+        "qualification_reason",
 
         # Audit/detail columns pushed right.
         "title_priority",
@@ -2235,6 +2452,17 @@ def _manual_review_preview_rows(
                 preview_rows.append(row)
                 preview_job_ids.add(job_id)
 
+    # Selector failures are withheld jobs and must remain visible to the owner
+    # even when geography could not be resolved into one of the normal review
+    # headings.
+    for row in rows:
+        if row.get("selector_outcome") != "DAILY_REVIEW":
+            continue
+        job_id = _markdown_value(row.get("job_id"))
+        if job_id and job_id not in preview_job_ids:
+            preview_rows.append(row)
+            preview_job_ids.add(job_id)
+
     active_action_ids = {
         _markdown_value(row.get("job_id"))
         for row in (preserved_action_rows or [])
@@ -2320,6 +2548,66 @@ def write_manual_review_markdown(
                 _markdown_value(row.get("region")),
                 _markdown_value(row.get("town")),
                 _markdown_value(row.get("salary_text")),
+                _markdown_value(row.get("title")),
+            ])
+            lines.extend([
+                "---",
+                f"action: {action}" if action else "action:",
+                summary,
+                f"job_id: {job_id}",
+                "---",
+                "",
+            ])
+
+    error_rows = [
+        row for row in rows
+        if row.get("selector_outcome") == "DAILY_REVIEW"
+        and not row.get("selection_status")
+        and _markdown_value(row.get("job_id"))
+        and _markdown_value(row.get("job_id")) not in emitted_job_ids
+    ]
+    lines.extend(["## SELECTOR ERRORS / UNRESOLVED", ""])
+    if not error_rows:
+        lines.extend(["_No selector errors or unresolved rows outside the normal possible groups._", ""])
+    else:
+        for row in error_rows:
+            job_id = _markdown_value(row.get("job_id"))
+            emitted_job_ids.add(job_id)
+            action = preserved_actions.get(job_id, "")
+            summary = " | ".join([
+                "REVIEW ERROR / UNRESOLVED",
+                _markdown_value(row.get("region")),
+                _markdown_value(row.get("town")),
+                _markdown_value(row.get("title")),
+            ])
+            lines.extend([
+                "---",
+                f"action: {action}" if action else "action:",
+                summary,
+                f"job_id: {job_id}",
+                "---",
+                "",
+            ])
+
+    error_rows = [
+        row for row in rows
+        if row.get("selector_outcome") == "DAILY_REVIEW"
+        and not row.get("selection_status")
+        and _markdown_value(row.get("job_id"))
+        and _markdown_value(row.get("job_id")) not in emitted_job_ids
+    ]
+    lines.extend(["## SELECTOR ERRORS / UNRESOLVED", ""])
+    if not error_rows:
+        lines.extend(["_No selector errors or unresolved rows outside the normal possible groups._", ""])
+    else:
+        for row in error_rows:
+            job_id = _markdown_value(row.get("job_id"))
+            emitted_job_ids.add(job_id)
+            action = preserved_actions.get(job_id, "")
+            summary = " | ".join([
+                "REVIEW ERROR / UNRESOLVED",
+                _markdown_value(row.get("region")),
+                _markdown_value(row.get("town")),
                 _markdown_value(row.get("title")),
             ])
             lines.extend([

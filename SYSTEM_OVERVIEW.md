@@ -7,6 +7,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 23 September 2026 — **JobG8 edge cases no longer act as blanket exclusions or whole-run failures:** practical junior/assistant finance, bookkeeping, payroll and legal-office jobs can enter the selector as candidates. Only a clear mandatory ACCA/ACA/CIMA requirement or an existing genuine hard rule excludes automatically; AAT is allowed. Unclear qualification or non-numeric salary wording goes to daily review, and an individual selector error is withheld and logged while the rest of the daily publishing process continues.
+
 - 21 September 2026 — **Location analytics now separates permission, position, timeout and nearby-service failures:** early saved-location return events wait until GA4 is ready, manual fallback attempts are visible, and remembered-location refresh failures are measured without exposing towns or coordinates.
 
 - 18 September 2026 — **Governance currency audit completed:** current-state sections now match the 78-market × eight-family diagnostic process, the 126 LIVE regional/category rows in the slice register, the 54 active governed city routes and the actual JobG8 schedule. Older launch counts remain only where clearly labelled as dated history. The repository README now points developers to the real production architecture rather than the superseded database-first prototype.
