@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import AiTipsReturnLink from "@/components/AiTipsReturnLink";
+import { getAiTipsSourceBySlug } from "@/lib/ai-tips-sources";
 
 const canonicalUrl = "https://www.ontapjobsearch.com/ai-tips";
 
@@ -57,7 +59,15 @@ const tips = [
   },
 ];
 
-export default function AiTipsPage() {
+export default async function AiTipsPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ from?: string | string[] }>;
+}) {
+  const params = await searchParams;
+  const from = typeof params.from === "string" ? params.from : undefined;
+  const source = from ? getAiTipsSourceBySlug(from) : undefined;
+
   return (
     <main className="mx-auto max-w-5xl px-5 py-10 sm:px-6 sm:py-14">
       <nav aria-label="Breadcrumb" className="mb-5 text-sm text-slate-600">
@@ -73,6 +83,12 @@ export default function AiTipsPage() {
           </li>
         </ol>
       </nav>
+      <AiTipsReturnLink
+        href={source?.href ?? "/browse-jobs"}
+        label={source ? `← Back to ${source.label} jobs` : "Browse current jobs"}
+        sourceRegion={source?.slug ?? "direct"}
+        destinationRegion={source?.slug ?? "browse-jobs"}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}

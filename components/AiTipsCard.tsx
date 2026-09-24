@@ -10,13 +10,16 @@ type Gtag = (
   parameters: Record<string, string>
 ) => void;
 
-export default function AiTipsCard() {
+export default function AiTipsCard({ regionSlug }: { regionSlug?: string }) {
+  const href = regionSlug ? `/ai-tips?from=${encodeURIComponent(regionSlug)}` : "/ai-tips";
+
   function trackClick() {
     const gtag = (window as Window & { gtag?: Gtag }).gtag;
     gtag?.("event", "ai_tips_click", {
-      link_url: "/ai-tips",
+      link_url: href,
       page_path: window.location.pathname,
       placement: "training_sidebar",
+      source_region: regionSlug || "unspecified",
     });
   }
 
@@ -34,7 +37,7 @@ export default function AiTipsCard() {
         <div id="ai-tips-card-title" className={styles.aiTipsTitle}>
           Practical AI help
         </div>
-        <Link href="/ai-tips" onClick={trackClick} className={styles.aiTipsLink}>
+        <Link href={href} onClick={trackClick} className={styles.aiTipsLink}>
           Explore Ontap&apos;s AI tips →
         </Link>
       </div>

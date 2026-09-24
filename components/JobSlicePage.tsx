@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import Link from "next/link";
 import AiTipsCard from "@/components/AiTipsCard";
+import { getAiTipsSourceForJsonPath } from "@/lib/ai-tips-sources";
 import DetailedJobList from "@/components/DetailedJobList";
 import JobViewSwitcher from "@/components/JobViewSwitcher";
 import QuickJobList from "@/components/QuickJobList";
@@ -385,6 +386,7 @@ export default function JobSlicePage({
     business: jobs.length - publicJobCount,
     public: publicJobCount,
   };
+  const aiTipsSource = getAiTipsSourceForJsonPath(jsonPath);
   const cityBreadcrumb = getCityPageBreadcrumb(jsonPath);
   const childCityLinks = getActiveCityLinksForParentJsonPath(jsonPath);
 
@@ -435,7 +437,7 @@ export default function JobSlicePage({
               </div>
             ))}
           </div>
-          {sidebarExtra ?? <AiTipsCard />}
+          {sidebarExtra ?? <AiTipsCard regionSlug={aiTipsSource?.slug} />}
         </aside>
 
         <div className={styles.content}>
