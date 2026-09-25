@@ -1,6 +1,6 @@
 # Ontap daily regional overview
 
-Generated: 2026-09-25T11:13:48+01:00
+Generated: 2026-09-25T11:28:54+01:00
 
 [Download this overview as Excel](./daily-region-overview.xlsx)
 
@@ -36,23 +36,23 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-2
 
 | JobG8 classification | Jobs received | Ontap jobs |
 |---|---:|---:|
-| Accounting | 3,404 | 621 |
+| Accounting | 3,404 | 632 |
 | Transport & Logistics | 3,376 | 56 |
 | Healthcare & Medical | 2,163 | 87 |
 | Education | 1,512 | 22 |
-| Legal | 1,335 | 251 |
+| Legal | 1,335 | 252 |
 | Sales & Marketing | 1,139 | 220 |
 | Banking & Financial Services | 1,108 | 67 |
 | I.T. & Communications | 1,042 | 25 |
-| HR / Recruitment | 715 | 102 |
-| Real Estate & Property | 509 | 10 |
+| HR / Recruitment | 715 | 103 |
+| Real Estate & Property | 509 | 11 |
 | Insurance & Superannuation | 432 | 44 |
 | Call Centre / CustomerService | 375 | 100 |
 | Community & Sport | 242 | 8 |
-| Administration | 115 | 68 |
+| Administration | 115 | 69 |
 | Advert / Media / Entertainment | 33 | 6 |
 | Government & Defence | 27 | 1 |
-| Total Ontap JobG8 jobs published today | 17,527 | 1,688 |
+| Total Ontap JobG8 jobs published today | 17,527 | 1,703 |
 
 ## PAGES
 
