@@ -67,6 +67,12 @@ job_id: 1900116
 
 ---
 action:
+SELECTED | Yorkshire - West | Keighley | £35000 per year [JobG8 salary fields] | Payroll Assistant
+job_id: 1910015
+---
+
+---
+action:
 SELECTED | Yorkshire - West | Leeds | no salary in JobG8 salary fields; no supported salary amount found in description | Commercial Claims Handler (Personal Lines Handlers Considered!)
 job_id: 1927524
 ---
@@ -265,12 +271,6 @@ POSS - YORKSHIRE - WEST | Yorkshire - West | Wakefield | no salary in JobG8 sala
 job_id: 1936446
 ---
 
----
-action:
-POSS - YORKSHIRE - WEST | Yorkshire - West | Keighley | £35000 per year [JobG8 salary fields] | Payroll Assistant
-job_id: 1910015
----
-
 ## SOUTH YORKSHIRE — SELECTED
 
 ---
@@ -301,6 +301,12 @@ job_id: 20279_62308-153faf593eb64b88272f45adeaa28d87
 action:
 SELECTED | Yorkshire - South | Barnsley | no salary in JobG8 salary fields; no supported salary amount found in description | Finance Assistant
 job_id: 1908708
+---
+
+---
+action:
+SELECTED | Yorkshire - South | Sheffield | £30000 - £33000 per year [JobG8 salary fields] | Assistant Accountant
+job_id: 1960387
 ---
 
 ---
@@ -339,12 +345,6 @@ job_id: 2014257
 action:
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £35000 per year [JobG8 salary fields] | Assistant Accountant
 job_id: 1884402
----
-
----
-action:
-POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £30000 - £33000 per year [JobG8 salary fields] | Assistant Accountant
-job_id: 1960387
 ---
 
 ---
@@ -655,6 +655,12 @@ job_id: 1900195
 action:
 SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Revenue Operations Coordinator
 job_id: 1899979
+---
+
+---
+action:
+SELECTED | London | London | £35000 - £38000 per year [JobG8 salary fields] | Credit Controller - TEMP-PERM
+job_id: 1902488
 ---
 
 ---
@@ -1085,6 +1091,12 @@ job_id: 1913442
 
 ---
 action:
+SELECTED | London | Loughton | £18 per hour [JobG8 salary fields] | Payroll Assistant
+job_id: 1911365
+---
+
+---
+action:
 SELECTED | London | South Croydon | no salary in JobG8 salary fields; no supported salary amount found in description | Accounts Receivable Administrator
 job_id: 1911467
 ---
@@ -1123,6 +1135,12 @@ job_id: 1910118
 action:
 SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Motor Claims Handler
 job_id: 1907083
+---
+
+---
+action:
+SELECTED | London | London | £30000 - £40000 per year [JobG8 salary fields] | Part Time Bookkeeper
+job_id: 1906710
 ---
 
 ---
@@ -1325,6 +1343,18 @@ job_id: 2021390
 
 ---
 action:
+SELECTED | London | London | £35,000-£37,000 per annum [extracted from description] | Accounts Assistant
+job_id: 2021807
+---
+
+---
+action:
+SELECTED | London | London | £40000 per year [JobG8 salary fields] | Temporary HR Assistant
+job_id: 2021756
+---
+
+---
+action:
 SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | 100% Remote Working - Trade Mark Formalities Administrator (c&;40,000+)
 job_id: 2021750
 ---
@@ -1335,12 +1365,6 @@ job_id: 2021750
 action:
 POSS - LONDON | London | London | £35000 per year [JobG8 salary fields] | Assistant Accountant
 job_id: 1857664
----
-
----
-action:
-POSS - LONDON | London | London | £35000 - £38000 per year [JobG8 salary fields] | Credit Controller - TEMP-PERM
-job_id: 1902488
 ---
 
 ---
@@ -1405,12 +1429,6 @@ job_id: 1935169
 
 ---
 action:
-POSS - LONDON | London | London | £30000 - £40000 per year [JobG8 salary fields] | Part Time Bookkeeper
-job_id: 1906710
----
-
----
-action:
 POSS - LONDON | London | London | £35000 - £45000 per year [JobG8 salary fields] | Credit Controller - Commercial Lending
 job_id: 1907631
 ---
@@ -1419,12 +1437,6 @@ job_id: 1907631
 action:
 POSS - LONDON | London | London | £45000 per year [JobG8 salary fields] | Assistant Management Accountant
 job_id: 1899175
----
-
----
-action:
-POSS - LONDON | London | London | £35,000-£37,000 per annum [extracted from description] | Accounts Assistant
-job_id: 2021807
 ---
 
 ---
@@ -1447,20 +1459,8 @@ job_id: 1936803
 
 ---
 action:
-POSS - LONDON | London | Loughton | £18 per hour [JobG8 salary fields] | Payroll Assistant
-job_id: 1911365
----
-
----
-action:
 POSS - LONDON | London | London | £40000 - £45000 per year [JobG8 salary fields] | Employee Relations Co-ordinator - 6 Month FTC
 job_id: 2021503
----
-
----
-action:
-POSS - LONDON | London | London | £40000 per year [JobG8 salary fields] | Temporary HR Assistant
-job_id: 2021756
 ---
 
 ## HAMPSHIRE — SELECTED
@@ -1654,6 +1654,12 @@ job_id: 1957224
 ---
 
 ## SURREY — SELECTED
+
+---
+action:
+SELECTED | Surrey | Surrey | £32000 - £35500 per year [JobG8 salary fields] | Residential Property Paralegal - Salary up to &;40,000 Highly reputable firm
+job_id: 1871021
+---
 
 ---
 action:
@@ -1865,12 +1871,6 @@ job_id: 108037759
 action:
 POSS - SURREY | Surrey | Surrey | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Management Accountant - with study support
 job_id: 1857179
----
-
----
-action:
-POSS - SURREY | Surrey | Surrey | £32000 - £35500 per year [JobG8 salary fields] | Residential Property Paralegal - Salary up to &;40,000 Highly reputable firm
-job_id: 1871021
 ---
 
 ---
@@ -2344,6 +2344,12 @@ job_id: 1915604
 
 ---
 action:
+SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire | £35000 per year | Payroll Administrator
+job_id: 1909613
+---
+
+---
+action:
 SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire |  | Finance Assistant
 job_id: 1906045
 ---
@@ -2366,12 +2372,6 @@ job_id: 1881935
 action:
 POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Warwickshire | £32000 - £34000 per year | Assistant Management Accountant
 job_id: 1912347
----
-
----
-action:
-POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Warwickshire | £35000 per year | Payroll Administrator
-job_id: 1909613
 ---
 ## BEDFORDSHIRE — SELECTED
 
@@ -2441,6 +2441,12 @@ job_id: 1896593
 
 ---
 action:
+SELECTED | Berkshire | Berkshire | £32000 - £35000 per year | Credit Controller
+job_id: 1858461
+---
+
+---
+action:
 SELECTED | Berkshire | Berkshire |  | Lettings Coordinator
 job_id: 1839908
 ---
@@ -2467,6 +2473,12 @@ job_id: 1877808
 action:
 SELECTED | Berkshire | Berkshire | £30000 - £38000 per year | Service Advisor
 job_id: 1881192
+---
+
+---
+action:
+SELECTED | Berkshire | Berkshire | £28000 - £35000 per year | Credit Controller
+job_id: 1908827
 ---
 
 ---
@@ -2531,6 +2543,12 @@ job_id: 1948872
 
 ---
 action:
+SELECTED | Berkshire | Berkshire | £32000 - £36000 per year | Payroll / Finance Assistant
+job_id: 1946537
+---
+
+---
+action:
 SELECTED | Berkshire | Berkshire | £30000 per year | Service Advisor
 job_id: 1947035
 ---
@@ -2573,6 +2591,12 @@ job_id: 1915684
 
 ---
 action:
+SELECTED | Berkshire | Berkshire | £30000 - £31000 per year | Credit Controller
+job_id: 1912841
+---
+
+---
+action:
 SELECTED | Berkshire | Berkshire |  | Sales Support Administrator
 job_id: 1898953
 ---
@@ -2587,20 +2611,8 @@ job_id: 1989839
 
 ---
 action:
-POSS - BERKSHIRE | Berkshire | Berkshire | £32000 - £35000 per year | Credit Controller
-job_id: 1858461
----
-
----
-action:
 POSS - BERKSHIRE | Berkshire | Berkshire | £17 - £20 per hour | Credit Controller
 job_id: 1877617
----
-
----
-action:
-POSS - BERKSHIRE | Berkshire | Berkshire | £28000 - £35000 per year | Credit Controller
-job_id: 1908827
 ---
 
 ---
@@ -2613,18 +2625,6 @@ job_id: 1959439
 action:
 POSS - BERKSHIRE | Berkshire | Berkshire | £20.29 per hour | Paralegal - Local Authority
 job_id: 1957896
----
-
----
-action:
-POSS - BERKSHIRE | Berkshire | Berkshire | £32000 - £36000 per year | Payroll / Finance Assistant
-job_id: 1946537
----
-
----
-action:
-POSS - BERKSHIRE | Berkshire | Berkshire | £30000 - £31000 per year | Credit Controller
-job_id: 1912841
 ---
 
 ## BRISTOL & BATH — SELECTED
@@ -2669,6 +2669,12 @@ job_id: 1873884
 action:
 SELECTED | Bristol & Bath | Bristol | £35000 per year | Claims Handler
 job_id: 1868067
+---
+
+---
+action:
+SELECTED | Bristol & Bath | Bristol | £30000 - £35000 per year | Payroll Administrator
+job_id: 1867788
 ---
 
 ---
@@ -2795,12 +2801,6 @@ job_id: 1860141
 
 ---
 action:
-POSS - BRISTOL & BATH | Bristol & Bath | Bristol | £30000 - £35000 per year | Payroll Administrator
-job_id: 1867788
----
-
----
-action:
 POSS - BRISTOL & BATH | Bristol & Bath | Bristol | £40000 - £45000 per year | Assistant Management Accountant
 job_id: 1892283
 ---
@@ -2823,6 +2823,12 @@ job_id: 1860687
 action:
 SELECTED | Buckinghamshire | Buckinghamshire |  | Finance Assistant
 job_id: 1905434
+---
+
+---
+action:
+SELECTED | Buckinghamshire | Buckinghamshire | £28000 - £32000 per year | Credit Controller (SME Accounts)
+job_id: 1908515
 ---
 
 ---
@@ -2917,6 +2923,12 @@ job_id: 338273623754984652837340
 
 ---
 action:
+SELECTED | Buckinghamshire | Buckinghamshire | £32000 per year | Credit Controller
+job_id: 2014306
+---
+
+---
+action:
 SELECTED | Buckinghamshire | Buckinghamshire | £30000 per year | Artist Relations and Events Coordinator
 job_id: 107996202
 ---
@@ -2925,20 +2937,8 @@ job_id: 107996202
 
 ---
 action:
-POSS - BUCKINGHAMSHIRE | Buckinghamshire | Buckinghamshire | £28000 - £32000 per year | Credit Controller (SME Accounts)
-job_id: 1908515
----
-
----
-action:
 POSS - BUCKINGHAMSHIRE | Buckinghamshire | Buckinghamshire |  | Graduate Finance Assistant Accountant
 job_id: 1932845
----
-
----
-action:
-POSS - BUCKINGHAMSHIRE | Buckinghamshire | Buckinghamshire | £32000 per year | Credit Controller
-job_id: 2014306
 ---
 
 ---
@@ -3071,8 +3071,20 @@ job_id: 1939236
 
 ---
 action:
+SELECTED | Cambridgeshire | Cambridge | £30000 - £32000 per year | Credit Controller
+job_id: 1916025
+---
+
+---
+action:
 SELECTED | Cambridgeshire | Cambridge |  | IP Paralegal (12-Month Contract) - Cambridge
 job_id: 1899565
+---
+
+---
+action:
+SELECTED | Cambridgeshire | Cambridge | £30000 - £32000 per year | Contract Credit Controller
+job_id: 1898131
 ---
 
 ---
@@ -3088,18 +3100,6 @@ job_id: 1882412
 ---
 
 ## CAMBRIDGESHIRE — POSSIBLES
-
----
-action:
-POSS - CAMBRIDGESHIRE | Cambridgeshire | Cambridge | £30000 - £32000 per year | Credit Controller
-job_id: 1916025
----
-
----
-action:
-POSS - CAMBRIDGESHIRE | Cambridgeshire | Cambridge | £30000 - £32000 per year | Contract Credit Controller
-job_id: 1898131
----
 
 ---
 action:
@@ -3119,6 +3119,12 @@ job_id: 1893572
 action:
 SELECTED | Cheshire - East | Congleton | £26,890.50 per annum | Service Coordinator
 job_id: 107933798
+---
+
+---
+action:
+SELECTED | Cheshire - East | Wilmslow | £30000 - £35000 per year | Part Time Payroll Administrator
+job_id: 1857329
 ---
 
 ---
@@ -3219,11 +3225,7 @@ job_id: 108018276
 
 ## CHESHIRE - EAST — POSSIBLES
 
----
-action:
-POSS - CHESHIRE - EAST | Cheshire - East | Wilmslow | £30000 - £35000 per year | Part Time Payroll Administrator
-job_id: 1857329
----
+_No jobs in this group._
 
 ## CHESHIRE - WARRINGTON & HALTON — SELECTED
 
@@ -3415,17 +3417,19 @@ job_id: 1909662
 
 ---
 action:
+SELECTED | Cheshire - Warrington & Halton | Widnes | £32000 per year | Credit Controller
+job_id: 1909831
+---
+
+---
+action:
 SELECTED | Cheshire - Warrington & Halton | Warrington |  | Accounts Assistant
 job_id: 1906561
 ---
 
 ## CHESHIRE - WARRINGTON & HALTON — POSSIBLES
 
----
-action:
-POSS - CHESHIRE - WARRINGTON & HALTON | Cheshire - Warrington & Halton | Widnes | £32000 per year | Credit Controller
-job_id: 1909831
----
+_No jobs in this group._
 
 ## CHESHIRE - WEST — SELECTED
 
@@ -3629,6 +3633,12 @@ job_id: 1908676
 
 ---
 action:
+SELECTED | Devon | Devon | £16 per hour | Accounting Assistant
+job_id: 1909574
+---
+
+---
+action:
 SELECTED | Devon | Devon | £27000 per year | Service Advisor
 job_id: 1912271
 ---
@@ -3637,6 +3647,12 @@ job_id: 1912271
 action:
 SELECTED | Devon | Devon |  | Conveyancing Legal Assistant
 job_id: 1911900
+---
+
+---
+action:
+SELECTED | Devon | Devon | £30000 - £34000 per year | Credit Controller
+job_id: 1920314
 ---
 
 ---
@@ -3707,17 +3723,7 @@ job_id: 108025447
 
 ## DEVON — POSSIBLES
 
----
-action:
-POSS - DEVON | Devon | Devon | £16 per hour | Accounting Assistant
-job_id: 1909574
----
-
----
-action:
-POSS - DEVON | Devon | Devon | £30000 - £34000 per year | Credit Controller
-job_id: 1920314
----
+_No jobs in this group._
 
 ## DORSET — SELECTED
 
@@ -3753,8 +3759,20 @@ job_id: 1885467
 
 ---
 action:
+SELECTED | Dorset | Dorset | £30000 - £35000 per year | Credit Controller - 6 month contract
+job_id: 1891550
+---
+
+---
+action:
 SELECTED | Dorset | Dorset | £13.08 per hour | Finance Assistant
 job_id: 1898309
+---
+
+---
+action:
+SELECTED | Dorset | Dorset | £25,000 - £32,000 per annum | Credit Controller
+job_id: 1898297
 ---
 
 ---
@@ -3805,18 +3823,6 @@ job_id: 107765584
 action:
 POSS - DORSET | Dorset | Dorset |  | Assistant Management Accountant
 job_id: 1867646
----
-
----
-action:
-POSS - DORSET | Dorset | Dorset | £30000 - £35000 per year | Credit Controller - 6 month contract
-job_id: 1891550
----
-
----
-action:
-POSS - DORSET | Dorset | Dorset | £25,000 - £32,000 per annum | Credit Controller
-job_id: 1898297
 ---
 
 ---
@@ -4039,6 +4045,18 @@ job_id: 1960197
 
 ---
 action:
+SELECTED | Essex | Essex | £30000 - £35000 per year | Accounting Assistant
+job_id: 1949235
+---
+
+---
+action:
+SELECTED | Essex | Essex | £32000 per year | Payroll Administrator
+job_id: 1948429
+---
+
+---
+action:
 SELECTED | Essex | Essex |  | ACCOUNTS ASSISTANT
 job_id: 1947300
 ---
@@ -4047,6 +4065,18 @@ job_id: 1947300
 action:
 SELECTED | Essex | Essex |  | Credit Controller
 job_id: 1939230
+---
+
+---
+action:
+SELECTED | Essex | Essex | £32000 per year | Junior Bookkeeper
+job_id: 1934659
+---
+
+---
+action:
+SELECTED | Essex | Essex | £32000 per year | Bookkeeper
+job_id: 1934636
 ---
 
 ---
@@ -4161,32 +4191,8 @@ job_id: 1929320
 
 ---
 action:
-POSS - ESSEX | Essex | Essex | £30000 - £35000 per year | Accounting Assistant
-job_id: 1949235
----
-
----
-action:
 POSS - ESSEX | Essex | Essex | £30000 - £38000 per year | Assistant Management Accountant
 job_id: 1948920
----
-
----
-action:
-POSS - ESSEX | Essex | Essex | £32000 per year | Payroll Administrator
-job_id: 1948429
----
-
----
-action:
-POSS - ESSEX | Essex | Essex | £32000 per year | Junior Bookkeeper
-job_id: 1934659
----
-
----
-action:
-POSS - ESSEX | Essex | Essex | £32000 per year | Bookkeeper
-job_id: 1934636
 ---
 
 ## GLOUCESTERSHIRE — SELECTED
@@ -4271,6 +4277,12 @@ job_id: 1906007
 
 ---
 action:
+SELECTED | Gloucestershire | Gloucestershire | £32000 per year | Finance Officer/Credit Controller
+job_id: 1892116
+---
+
+---
+action:
 SELECTED | Gloucestershire | Gloucestershire |  | Insurance Administrator
 job_id: 1961373
 ---
@@ -4307,11 +4319,7 @@ job_id: 108025159
 
 ## GLOUCESTERSHIRE — POSSIBLES
 
----
-action:
-POSS - GLOUCESTERSHIRE | Gloucestershire | Gloucestershire | £32000 per year | Finance Officer/Credit Controller
-job_id: 1892116
----
+_No jobs in this group._
 
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — SELECTED
 
@@ -4353,8 +4361,20 @@ job_id: 1820021
 
 ---
 action:
+SELECTED | Greater Manchester - Manchester & Salford | Salford | £30000 - £32000 per year | Credit Controller
+job_id: 1869419
+---
+
+---
+action:
 SELECTED | Greater Manchester - Manchester & Salford | Manchester | £24000 - £27000 per year | Commercial Litigation Paralegal
 job_id: 1870638
+---
+
+---
+action:
+SELECTED | Greater Manchester - Manchester & Salford | Manchester | £34000 per year | Credit Controller
+job_id: 1870353
 ---
 
 ---
@@ -4473,6 +4493,12 @@ job_id: 1959489
 
 ---
 action:
+SELECTED | Greater Manchester - Manchester & Salford | Manchester | £30000 - £35000 per year | Credit Controller
+job_id: 1959459
+---
+
+---
+action:
 SELECTED | Greater Manchester - Manchester & Salford | Manchester |  | Company Secretary
 job_id: 1948428
 ---
@@ -4577,26 +4603,8 @@ job_id: 1870931
 
 ---
 action:
-POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £34000 per year | Credit Controller
-job_id: 1870353
----
-
----
-action:
 POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £18 - £22 per hour | Assistant Management Accountant
 job_id: 1877583
----
-
----
-action:
-POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £30000 - £35000 per year | Credit Controller
-job_id: 1959459
----
-
----
-action:
-POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Salford | £30000 - £32000 per year | Credit Controller
-job_id: 1869419
 ---
 
 ---
@@ -4623,6 +4631,12 @@ job_id: 1868509
 action:
 SELECTED | Greater Manchester - South | Altrincham |  | Air Freight Imports Coordinator
 job_id: 1881286
+---
+
+---
+action:
+SELECTED | Greater Manchester - South | Altrincham | £35000 per year | Accounts and Payroll Assistant
+job_id: 1892512
 ---
 
 ---
@@ -4657,13 +4671,13 @@ POSS - GREATER MANCHESTER - SOUTH | Greater Manchester - South | Stockport | £3
 job_id: 1949350
 ---
 
+## GREATER MANCHESTER - WIGAN & BOLTON — SELECTED
+
 ---
 action:
-POSS - GREATER MANCHESTER - SOUTH | Greater Manchester - South | Altrincham | £35000 per year | Accounts and Payroll Assistant
-job_id: 1892512
+SELECTED | Greater Manchester - Wigan & Bolton | Bolton | £32000 - £37000 per year | Credit Controller
+job_id: 1856648
 ---
-
-## GREATER MANCHESTER - WIGAN & BOLTON — SELECTED
 
 ---
 action:
@@ -4714,12 +4728,6 @@ job_id: 1895046
 ---
 
 ## GREATER MANCHESTER - WIGAN & BOLTON — POSSIBLES
-
----
-action:
-POSS - GREATER MANCHESTER - WIGAN & BOLTON | Greater Manchester - Wigan & Bolton | Bolton | £32000 - £37000 per year | Credit Controller
-job_id: 1856648
----
 
 ---
 action:
@@ -4815,6 +4823,12 @@ job_id: 2013521
 
 ---
 action:
+SELECTED | Hertfordshire | Hertfordshire | £30000 - £35000 per year | Credit Controller
+job_id: 2013461
+---
+
+---
+action:
 SELECTED | Hertfordshire | Hertfordshire |  | HR Administrator / Assistant/ Coordinator - Urgent
 job_id: 2014253
 ---
@@ -4831,6 +4845,12 @@ SELECTED | Hertfordshire | Hertfordshire |  | Accounts Assistant
 job_id: 2021393
 ---
 
+---
+action:
+SELECTED | Hertfordshire | Hertfordshire | £35000 per year | Financial Administrator-Location- Hitchin-Salary-Up to &;35,000-Office-Based
+job_id: 2022155
+---
+
 ## HERTFORDSHIRE — POSSIBLES
 
 ---
@@ -4843,18 +4863,6 @@ job_id: 1898017
 action:
 POSS - HERTFORDSHIRE | Hertfordshire | Hertfordshire | £35000 per year | Assistant Accountant
 job_id: 1895594
----
-
----
-action:
-POSS - HERTFORDSHIRE | Hertfordshire | Hertfordshire | £30000 - £35000 per year | Credit Controller
-job_id: 2013461
----
-
----
-action:
-POSS - HERTFORDSHIRE | Hertfordshire | Hertfordshire | £35000 per year | Financial Administrator-Location- Hitchin-Salary-Up to &;35,000-Office-Based
-job_id: 2022155
 ---
 
 ## LEICESTERSHIRE — SELECTED
@@ -5223,6 +5231,12 @@ job_id: 1907571
 
 ---
 action:
+SELECTED | Norfolk | Norfolk | £14 - £15.50 per hour | Credit Controller
+job_id: 1899168
+---
+
+---
+action:
 SELECTED | Norfolk | Norfolk |  | Temporary Purchase Ledger Administrator
 job_id: 1892604
 ---
@@ -5259,12 +5273,6 @@ POSS - NORFOLK | Norfolk | Norfolk | £30000 - £35000 per year | Assistant Acco
 job_id: 1949573
 ---
 
----
-action:
-POSS - NORFOLK | Norfolk | Norfolk | £14 - £15.50 per hour | Credit Controller
-job_id: 1899168
----
-
 ## NORTH SCOTLAND — SELECTED
 
 ---
@@ -5284,6 +5292,12 @@ job_id: 2020857
 _No jobs in this group._
 
 ## NORTHAMPTONSHIRE — SELECTED
+
+---
+action:
+SELECTED | Northamptonshire | Northamptonshire | £35,000 per annum | HR & Payroll Coordinator
+job_id: 1860086
+---
 
 ---
 action:
@@ -5319,6 +5333,12 @@ job_id: 1875317
 action:
 SELECTED | Northamptonshire | Northamptonshire |  | Credit Controller
 job_id: 1885676
+---
+
+---
+action:
+SELECTED | Northamptonshire | Northamptonshire | £28000 - £31000 per year | Credit Controller
+job_id: 1908899
 ---
 
 ---
@@ -5376,18 +5396,6 @@ job_id: 2017813
 ---
 
 ## NORTHAMPTONSHIRE — POSSIBLES
-
----
-action:
-POSS - NORTHAMPTONSHIRE | Northamptonshire | Northamptonshire | £35,000 per annum | HR & Payroll Coordinator
-job_id: 1860086
----
-
----
-action:
-POSS - NORTHAMPTONSHIRE | Northamptonshire | Northamptonshire | £28000 - £31000 per year | Credit Controller
-job_id: 1908899
----
 
 ---
 action:
@@ -5469,6 +5477,12 @@ job_id: 1865237
 
 ---
 action:
+SELECTED | Nottinghamshire | Nottinghamshire | £26000 - £32000 per year | Paralegal/Fee Earner - Conveyancing
+job_id: 1859251
+---
+
+---
+action:
 SELECTED | Nottinghamshire | Nottinghamshire |  | Employment Paralegal - Nottingham Unique Culture &;24,000 to &;28,000
 job_id: 1869293
 ---
@@ -5543,12 +5557,6 @@ job_id: 2021344
 
 ---
 action:
-POSS - NOTTINGHAMSHIRE | Nottinghamshire | Nottinghamshire | £26000 - £32000 per year | Paralegal/Fee Earner - Conveyancing
-job_id: 1859251
----
-
----
-action:
 POSS - NOTTINGHAMSHIRE | Nottinghamshire | Nottinghamshire |  | Assistant Management Accountant
 job_id: 1859701
 ---
@@ -5593,6 +5601,12 @@ job_id: 1875123
 
 ---
 action:
+SELECTED | Oxfordshire | Oxfordshire | £31000 - £32000 per year | Bookkeeper
+job_id: 1877483
+---
+
+---
+action:
 SELECTED | Oxfordshire | Oxfordshire | £32000 per year | Accounts Assistant
 job_id: 1949577
 ---
@@ -5601,6 +5615,12 @@ job_id: 1949577
 action:
 SELECTED | Oxfordshire | Oxfordshire |  | Bookkeeper / Management Accountant
 job_id: 1956485
+---
+
+---
+action:
+SELECTED | Oxfordshire | Oxfordshire | £35000 per year | Bookkeeper
+job_id: 1959288
 ---
 
 ---
@@ -5669,25 +5689,15 @@ SELECTED | Oxfordshire | Oxfordshire | £28000 per year | Sales Administrator
 job_id: 107946842
 ---
 
-## OXFORDSHIRE — POSSIBLES
-
 ---
 action:
-POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £31000 - £32000 per year | Bookkeeper
-job_id: 1877483
----
-
----
-action:
-POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £35000 per year | Bookkeeper
-job_id: 1959288
----
-
----
-action:
-POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £35000 per year | Finance & Office Assistant
+SELECTED | Oxfordshire | Oxfordshire | £35000 per year | Finance & Office Assistant
 job_id: 2021409
 ---
+
+## OXFORDSHIRE — POSSIBLES
+
+_No jobs in this group._
 
 ## SCOTLAND CENTRAL - EDINBURGH & LOTHIANS — SELECTED
 
@@ -5717,6 +5727,12 @@ job_id: 1950430
 
 ---
 action:
+SELECTED | Scotland Central - Edinburgh & Lothians | Edinburgh | £30000 - £35000 per year | Credit Controller
+job_id: 1950171
+---
+
+---
+action:
 SELECTED | Scotland Central - Edinburgh & Lothians | Edinburgh | £30000 per year | Language Speaking Credit Controller - Fully remote
 job_id: 1910106
 ---
@@ -5729,11 +5745,7 @@ job_id: 107916316
 
 ## SCOTLAND CENTRAL - EDINBURGH & LOTHIANS — POSSIBLES
 
----
-action:
-POSS - SCOTLAND CENTRAL - EDINBURGH & LOTHIANS | Scotland Central - Edinburgh & Lothians | Edinburgh | £30000 - £35000 per year | Credit Controller
-job_id: 1950171
----
+_No jobs in this group._
 
 ## SCOTLAND CENTRAL - FIFE — SELECTED
 
@@ -6021,6 +6033,12 @@ job_id: 1909867
 
 ---
 action:
+SELECTED | Shropshire | Shropshire | £30000 - £35000 per year | Bookkeeper
+job_id: 1906558
+---
+
+---
+action:
 SELECTED | Shropshire | Shropshire | £15 per hour | Accounts & Finance Coordinator
 job_id: 1894730
 ---
@@ -6039,11 +6057,7 @@ job_id: 108012415
 
 ## SHROPSHIRE — POSSIBLES
 
----
-action:
-POSS - SHROPSHIRE | Shropshire | Shropshire | £30000 - £35000 per year | Bookkeeper
-job_id: 1906558
----
+_No jobs in this group._
 
 ## SOMERSET — SELECTED
 
@@ -6239,6 +6253,12 @@ job_id: 1879508
 
 ---
 action:
+SELECTED | Suffolk | Suffolk | £35000 per year | Credit Controller
+job_id: 1881234
+---
+
+---
+action:
 SELECTED | Suffolk | Suffolk |  | HR Administrator / Specialist - Insurance
 job_id: 1880891
 ---
@@ -6299,6 +6319,12 @@ job_id: 1938364
 
 ---
 action:
+SELECTED | Suffolk | Suffolk | £30000 - £35000 per year | Credit Controller
+job_id: 1936460
+---
+
+---
+action:
 SELECTED | Suffolk | Suffolk |  | HR Administrator
 job_id: 1938554
 ---
@@ -6313,6 +6339,12 @@ job_id: 1939565
 action:
 SELECTED | Suffolk | Suffolk |  | Aquarius Relationship and Placement Coordinator
 job_id: 1905103
+---
+
+---
+action:
+SELECTED | Suffolk | Suffolk | £35000 per year | Credit Controller
+job_id: 1895858
 ---
 
 ---
@@ -6361,26 +6393,8 @@ job_id: 1867138
 
 ---
 action:
-POSS - SUFFOLK | Suffolk | Suffolk | £35000 per year | Credit Controller
-job_id: 1881234
----
-
----
-action:
 POSS - SUFFOLK | Suffolk | Suffolk |  | Assistant Accountant
 job_id: 1904199
----
-
----
-action:
-POSS - SUFFOLK | Suffolk | Suffolk | £30000 - £35000 per year | Credit Controller
-job_id: 1936460
----
-
----
-action:
-POSS - SUFFOLK | Suffolk | Suffolk | £35000 per year | Credit Controller
-job_id: 1895858
 ---
 
 ---
@@ -6521,6 +6535,12 @@ job_id: 1910178
 
 ---
 action:
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham | £30000 - £35000 per year | Bookkeeper
+job_id: 1857667
+---
+
+---
+action:
 SELECTED | West Midlands - Birmingham & Solihull | Sutton Coldfield |  | Conveyancing Paralegal
 job_id: 1868228
 ---
@@ -6643,12 +6663,6 @@ job_id: 2021377
 
 ---
 action:
-POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Birmingham | £30000 - £35000 per year | Bookkeeper
-job_id: 1857667
----
-
----
-action:
 POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Birmingham |  | AAT Assistant Accountant
 job_id: 1870629
 ---
@@ -6729,6 +6743,42 @@ job_id: 1943932
 action:
 SELECTED | Wiltshire | Wiltshire | £35000 per year | Aftersales Service Advisor
 job_id: 107919550
+---
+
+---
+action:
+SELECTED | Wiltshire | Wiltshire | £30000 - £32000 per year | Client Bookkeeper
+job_id: 1876125
+---
+
+---
+action:
+SELECTED | Wiltshire | Wiltshire | £30000 - £35000 per year | Client Bookkeeper & Payroll Administrator
+job_id: 1884418
+---
+
+---
+action:
+SELECTED | Wiltshire | Wiltshire | £30000 - £32000 per year | Bookkeeper / Payroll & Accounts Assistant
+job_id: 1891434
+---
+
+---
+action:
+SELECTED | Wiltshire | Wiltshire | £30000 - £32000 per year | Bookkeeper
+job_id: 1891371
+---
+
+---
+action:
+SELECTED | Wiltshire | Wiltshire | £30000 - £32000 per year | Bookkeeper and Payroll Advisor
+job_id: 1898492
+---
+
+---
+action:
+SELECTED | Wiltshire | Wiltshire | £30000 - £32000 per year | Bookkeeper
+job_id: 1898460
 ---
 
 ---
@@ -6831,42 +6881,6 @@ job_id: 108017695
 
 ---
 action:
-POSS - WILTSHIRE | Wiltshire | Wiltshire | £30000 - £32000 per year | Client Bookkeeper
-job_id: 1876125
----
-
----
-action:
-POSS - WILTSHIRE | Wiltshire | Wiltshire | £30000 - £35000 per year | Client Bookkeeper & Payroll Administrator
-job_id: 1884418
----
-
----
-action:
-POSS - WILTSHIRE | Wiltshire | Wiltshire | £30000 - £32000 per year | Bookkeeper / Payroll & Accounts Assistant
-job_id: 1891434
----
-
----
-action:
-POSS - WILTSHIRE | Wiltshire | Wiltshire | £30000 - £32000 per year | Bookkeeper
-job_id: 1891371
----
-
----
-action:
-POSS - WILTSHIRE | Wiltshire | Wiltshire | £30000 - £32000 per year | Bookkeeper and Payroll Advisor
-job_id: 1898492
----
-
----
-action:
-POSS - WILTSHIRE | Wiltshire | Wiltshire | £30000 - £32000 per year | Bookkeeper
-job_id: 1898460
----
-
----
-action:
 POSS - WILTSHIRE | Wiltshire | Wiltshire |  | Assistant Accountant
 job_id: 1899617
 ---
@@ -6897,18 +6911,18 @@ SELECTED | Worcestershire | Worcestershire | £30000 per year | Group HR Co-ordi
 job_id: 1928891
 ---
 
+---
+action:
+SELECTED | Worcestershire | Worcestershire | £30000 - £35000 per year | Credit Controller
+job_id: 1907859
+---
+
 ## WORCESTERSHIRE — POSSIBLES
 
 ---
 action:
 POSS - WORCESTERSHIRE | Worcestershire | Worcestershire | £33000 - £35000 per year | Assistant Accountant
 job_id: 1939043
----
-
----
-action:
-POSS - WORCESTERSHIRE | Worcestershire | Worcestershire | £30000 - £35000 per year | Credit Controller
-job_id: 1907859
 ---
 
 ## YORKSHIRE - EAST — SELECTED
@@ -6939,6 +6953,12 @@ job_id: 1939826
 
 ---
 action:
+SELECTED | Yorkshire - East | Goole | £16.00 per hour | Part-time Credit Controller - MK108
+job_id: 1899369
+---
+
+---
+action:
 SELECTED | Yorkshire - East | Hull | £21,213.98 per annum | Family Support Coordinator
 job_id: 1982338
 ---
@@ -6961,12 +6981,6 @@ job_id: 1858682
 action:
 POSS - YORKSHIRE - EAST | Yorkshire - East | Hull |  | Interim Assistant Accountant
 job_id: 1873823
----
-
----
-action:
-POSS - YORKSHIRE - EAST | Yorkshire - East | Goole | £16.00 per hour | Part-time Credit Controller - MK108
-job_id: 1899369
 ---
 
 ## YORKSHIRE - NORTH — SELECTED
