@@ -1,13 +1,10 @@
-Warning: truncated output (original token count: 12258)
-Total output lines: 1891
-
 # Ontap daily job review
 
 > **NOT READY TO REVIEW — waiting for: NEJobs, VONNE, Teaching Vacancies**
 > Do not start reviewing yet. Rebuild this review after those source refreshes complete.
 
 review_date: 2026-09-25
-generated_at: 2026-09-25T11:18:35+00:00
+generated_at: 2026-09-25T11:55:30+00:00
 
 **103 job(s) need a human decision.**
 
@@ -755,12 +752,363 @@ hub_fingerprint: 6405b282168eb092d91501fbb920ca1df5240caa6c862a953466bb775244021
 ---
 
 ---
-action: select
+action:
 POSS | JobG8 | London | London | £35000 per year | Assistant Accountant
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 195…2258 tokens truncated…
+source_job_id: 1958379
+title: Assistant Accountant
+employer: 
+location: London
+region: London
+salary: £35000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 0e450cbe66b6d82f1db3e34e06bbd47c81f2b638aa7c09633c96470031a07fc3
+---
+
+---
+action:
+POSS | JobG8 | London | London | — | Assistant Accountant LUXURY / CREATIVE SECTOR
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1949592
+title: Assistant Accountant LUXURY / CREATIVE SECTOR
+employer: 
+location: London
+region: London
+salary: 
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: d12d1ea4ab227982daf72add92dd860c1cbeaf8499c444a541c4034baaed9329
+---
+
+---
+action:
+POSS | JobG8 | London | London | £45000 per year | Assistant Management Accountant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1899175
+title: Assistant Management Accountant
+employer: 
+location: London
+region: London
+salary: £45000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: d2fdaea974cd91155269af0514c6a22d0d60d127d620fec281729c39c3d93ab3
+---
+
+---
+action:
+POSS | JobG8 | London | London | £35000 - £40000 per year | Assistant Management Accountant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1932495
+title: Assistant Management Accountant
+employer: 
+location: London
+region: London
+salary: £35000 - £40000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: c3f3d52108bc552bb5750affaa197e36f6f0e7eac608a1f725acc88c9d863a7c
+---
+
+---
+action:
+POSS | JobG8 | London | London | £35000 - £45000 per year | Credit Controller - Commercial Lending
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1907631
+title: Credit Controller - Commercial Lending
+employer: 
+location: London
+region: London
+salary: £35000 - £45000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 8053ab637d52cc1c8a6756e07cd14d204c844637aad1e6c5907d68ced7fb4d69
+---
+
+---
+action:
+POSS | JobG8 | London | London | £150 - £170 per daily | Credit Controller - Interim
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1946938
+title: Credit Controller - Interim
+employer: 
+location: London
+region: London
+salary: £150 - £170 per daily
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: fb82e10cbb8eacfe6ceea492b5dac92a55c9e1e613fa318a51776d89e17b5790
+---
+
+---
+action:
+POSS | JobG8 | London | London | £40000 - £45000 per year | Employee Relations Co-ordinator - 6 Month FTC
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2021503
+title: Employee Relations Co-ordinator - 6 Month FTC
+employer: 
+location: London
+region: London
+salary: £40000 - £45000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 8d2bf20248b8267483a5effd829d99e1b65ae9019ac629cf075c6d64e8d8bf94
+---
+
+---
+action:
+POSS | JobG8 | London | London | £40000 - £45000 per year | Entry-Level Assistant Accountant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1957737
+title: Entry-Level Assistant Accountant
+employer: 
+location: London
+region: London
+salary: £40000 - £45000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 8688f7d4f22112538febd5b283c9f6996df36b40082f489b6885c675f1accb04
+---
+
+---
+action:
+POSS | JobG8 | London | London | £125 per daily | Learning Support Assistant
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 2022335
+title: Learning Support Assistant
+employer: 
+location: London
+region: London
+salary: £125 per daily
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 64a7ef3358ff281a1e6fa74bb041aa2542f017d32e1a574088b53b6ed0860fb7
+---
+
+---
+action:
+POSS | JobG8 | London | London | £45000 per year | Paralegal
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1935169
+title: Paralegal
+employer: 
+location: London
+region: London
+salary: £45000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 827dc0c1e33320d4e3657569003c392a0fce26b60f7bb38b888ecfb2415a12e1
+---
+
+---
+action:
+POSS | JobG8 | London | London | £50000 - £55000 per year | Paralegal (6-month FTC)
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1908706
+title: Paralegal (6-month FTC)
+employer: 
+location: London
+region: London
+salary: £50000 - £55000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 33545cd92ff66c5c50c3c05c3bdb6b04e07877c1c1be3f9ea0644d0e7dd2da48
+---
+
+---
+action:
+POSS | JobG8 | London | London | — | Part time Assistant Accountant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1934006
+title: Part time Assistant Accountant
+employer: 
+location: London
+region: London
+salary: 
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: c77be495a2d3f25089a877de324538b272adb51531cd9772b9c40f974b01a4a4
+---
+
+---
+action:
+POSS | JobG8 | London | Pinner | £42000 per year | Assistant Management Accountant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1936803
+title: Assistant Management Accountant
+employer: 
+location: Pinner
+region: London
+salary: £42000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 41c29197027fa60710402cfd53d7a14dcf832a87fafdcc6b9f8bd702e49e5c1b
+---
+
+---
+action:
+POSS | JobG8 | Merseyside - Liverpool | Liverpool | £33000 - £45000 per year | Employment Advisor/Paralegal
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1885635
+title: Employment Advisor/Paralegal
+employer: 
+location: Liverpool
+region: Merseyside - Liverpool
+salary: £33000 - £45000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: ab1c1746a32c78f263686fd5102b61da0ca81d947d4bcd611117d37afeadde7c
+---
+
+---
+action:
+POSS | JobG8 | Norfolk | Norfolk | £32500 per year | Assistant Accountant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1940916
+title: Assistant Accountant
+employer: 
+location: Norfolk
+region: Norfolk
+salary: £32500 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 974bd281e75e438aaa15a3b3339b755286f05c27febeddc7e48499a48889f5d3
+---
+
+---
+action:
+POSS | JobG8 | Norfolk | Norfolk | £30000 - £35000 per year | Assistant Accountant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1949573
+title: Assistant Accountant
+employer: 
+location: Norfolk
+region: Norfolk
+salary: £30000 - £35000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 7db46213053aac95e98aa7c4fd3751b33c2ff636eeb7c2b9429c8254c57c4309
+---
+
+---
+action:
+POSS | JobG8 | North East - County Durham & Darlington/Hartlepool | County Durham | — | Assistant Accountant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1895111
+title: Assistant Accountant
+employer: 
+location: County Durham
+region: North East - County Durham & Darlington/Hartlepool
+salary: 
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 85aec96a9044c07b3cc586f56b3c170c42cd69587f1bb785629747c859ba959d
+---
+
+---
+action:
+POSS | JobG8 | North East - Tyneside, Wearside & Northumberland | Newcastle | £40000 per year | Assistant Accountant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1944301
+title: Assistant Accountant
+employer: 
+location: Newcastle
+region: North East - Tyneside, Wearside & Northumberland
+salary: £40000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 049624f751fee4aaa997771a517481c20149578d80f867ed22d9a2b7a5edd499
+---
+
+---
+action:
+POSS | JobG8 | North East - Tyneside, Wearside & Northumberland | Tyne And Wear | — | Assistant Accountant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1946149
+title: Assistant Accountant
+employer: 
+location: Tyne And Wear
+region: North East - Tyneside, Wearside & Northumberland
+salary: 
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 02a2199f75ed38771a20ce32e461db20251d8ab300cc980c3e110fb4e856aef9
+---
+
+---
+action:
+POSS | JobG8 | North East - Tyneside, Wearside & Northumberland | Tyne And Wear | — | Assistant Management Accountant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 1856074
+title: Assistant Management Accountant
+employer: 
+location: Tyne And Wear
+region: North East - Tyneside, Wearside & Northumberland
+salary: 
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 8c0dc53058cfab26a2662345a3acabe6a237ab6496d8687fc0847f9916eb8711
 ---
 
 ---
@@ -1540,4 +1888,3 @@ hub_fingerprint: 5b9fcb5bd52aca12104fa2c9115b9f211ffd3ad6ea57946d8ec112639a0b35b
 ## NHS Jobs — 0 to review
 
 _No new or changed human decisions required._
-
