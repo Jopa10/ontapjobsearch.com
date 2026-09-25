@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 3
+- automatic include: 11
+- automatic review: 2
 - automatic exclude: 7
-- effective include: 10
-- effective review: 3
+- effective include: 11
+- effective review: 2
 - effective exclude: 7
 
-## INCLUDE (10)
+## INCLUDE (11)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Totley All Saints Church of England Voluntary Aided Primary School
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-assistant-part-time-18-hrs
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Accountant
+company: IPS Group - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-1960387
 reason: Approved Sheffield catchment.
 ---
 
@@ -81,18 +93,6 @@ company: GGT Insolvency Recruitment - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2014257
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Personal Assistant to Headteacher
-company: Westfield School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-personal-assistant-to-headteacher-westfield-school
 reason: Approved Sheffield catchment.
 ---
 
@@ -144,19 +144,19 @@ job_id: nhs-5614236
 reason: Approved Sheffield catchment.
 ---
 
-## REVIEW (3)
-
 ---
 action: 
-decision: review
-automatic_decision: review
-title: Part-time Payroll Assistant
-company: Portfolio Payroll - Agency - Permanent
-location: Yorkshire
+decision: include
+automatic_decision: include
+title: Remote Conveyancing Paralegal
+company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
+location: Sheffield
 source: JobG8
-job_id: jobg8-1907486
-reason: No approved Sheffield catchment rule matched; local review required.
+job_id: jobg8-1884424
+reason: Approved Sheffield catchment.
 ---
+
+## REVIEW (2)
 
 ---
 action: 
@@ -188,18 +188,6 @@ reason: No approved Sheffield catchment rule matched; local review required.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administration Assistant
-company: Gooseacre Primary Academy
-location: Rotherham
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-gooseacre-primary-academy-rotherham-south-yorkshire
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Customer Service Advisor
 company: EE - Company - Permanent
 location: Doncaster
@@ -217,6 +205,18 @@ company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-1908708
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Part-time Payroll Assistant
+company: Portfolio Payroll - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-1907486
 reason: Separate employment market.
 ---
 

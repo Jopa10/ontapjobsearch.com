@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 35
+- automatic review: 41
 - automatic exclude: 0
 - effective include: 4
-- effective review: 35
+- effective review: 41
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-1959286
 reason: Exact approved Portsmouth workplace.
 ---
 
-## REVIEW (35)
+## REVIEW (41)
 
 ---
 action: 
@@ -83,18 +83,6 @@ company: Sphere Digital Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-1859841
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant - Temporary
-company: Michael Page Finance - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-1908072
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -210,6 +198,18 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Business Support Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Southampton, SO14 0YG
+source: NHS Jobs
+job_id: nhs-5608574
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Care Coordinator
 company: Agincare Group - Agency - Permanent
 location: Hampshire
@@ -227,6 +227,30 @@ company: Avery Healthcare Group Ltd.
 location: Winchester, SO22 5JH
 source: NHS Jobs
 job_id: nhs-5612599
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Client Servicing Coordinator
+company: de Mellow & Co Financial Planning - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-357999054771820953637340
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Client Servicing Coordinator
+company: de Mellow & Co Financial Planning - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-357999054771820953637341
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -275,6 +299,18 @@ company: Perins School
 location: Alresford
 source: Teaching Vacancies
 job_id: teaching-vacancies-exams-officer-and-assessment-data-co-ordinator
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Family Paralegal
+company: Reed - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1916052
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -366,6 +402,18 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Legal Administrator
+company: SJC Partners - Agency - Permanent
+location: Southsea
+source: JobG8
+job_id: jobg8-1939433
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Lettings Administrator
 company: Mulberry Recruitment - Agency - Permanent
 location: Farnborough
@@ -426,11 +474,35 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Property Finance Paralegal
+company: G2 Legal Limited - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1905563
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Purchase Ledger
 company: CMA Recruitment Group - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-1909017
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Assistant
+company: CMA Recruitment Group - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2017694
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -474,11 +546,11 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Temporary Medical Secretary
-company: 1to1 Group Limited - Agency - Permanent
-location: Winchester
-source: JobG8
-job_id: jobg8-1934715
+title: Single Point of Access Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Fareham, PO17 6AR
+source: NHS Jobs
+job_id: nhs-5620952
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 

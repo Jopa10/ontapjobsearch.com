@@ -4,7 +4,7 @@
 - Live route: `/southampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
+- Effective included jobs: 4
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 19
+- automatic include: 4
+- automatic review: 24
 - automatic exclude: 17
-- effective include: 3
-- effective review: 19
+- effective include: 4
+- effective review: 24
 - effective exclude: 17
 
-## INCLUDE (3)
+## INCLUDE (4)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Michael Page Finance - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-1868227
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Business Support Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Southampton, SO14 0YG
+source: NHS Jobs
+job_id: nhs-5608574
 reason: Approved Southampton catchment.
 ---
 
@@ -60,7 +72,7 @@ job_id: jobg8-107193862
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (19)
+## REVIEW (24)
 
 ---
 action: 
@@ -71,18 +83,6 @@ company: Sphere Digital Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-1859841
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant - Temporary
-company: Michael Page Finance - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-1908072
 reason: Broad location; review before city inclusion.
 ---
 
@@ -138,6 +138,30 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Client Servicing Coordinator
+company: de Mellow & Co Financial Planning - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-357999054771820953637340
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Client Servicing Coordinator
+company: de Mellow & Co Financial Planning - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-357999054771820953637341
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: EHCP Coordinator
 company: Aspire People Limited - Agency - Permanent
 location: Hampshire
@@ -156,6 +180,18 @@ location: Alresford
 source: Teaching Vacancies
 job_id: teaching-vacancies-exams-officer-and-assessment-data-co-ordinator
 reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Family Paralegal
+company: Reed - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1916052
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -222,6 +258,18 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Legal Administrator
+company: SJC Partners - Agency - Permanent
+location: Southsea
+source: JobG8
+job_id: jobg8-1939433
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Office Administrator
 company: Rise Technical Recruitment Limited - Agency - Permanent
 location: Hampshire
@@ -258,11 +306,35 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Property Finance Paralegal
+company: G2 Legal Limited - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1905563
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Purchase Ledger
 company: CMA Recruitment Group - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-1909017
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Assistant
+company: CMA Recruitment Group - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2017694
 reason: Broad location; review before city inclusion.
 ---
 
@@ -476,11 +548,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Temporary Medical Secretary
-company: 1to1 Group Limited - Agency - Permanent
-location: Winchester
-source: JobG8
-job_id: jobg8-1934715
+title: Single Point of Access Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Fareham, PO17 6AR
+source: NHS Jobs
+job_id: nhs-5620952
 reason: Separate employment market.
 ---
 

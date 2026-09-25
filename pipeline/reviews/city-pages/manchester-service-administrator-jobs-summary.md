@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 33
+- Effective included jobs: 57
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 33
-- automatic review: 36
+- automatic include: 57
+- automatic review: 19
 - automatic exclude: 2
-- effective include: 33
-- effective review: 36
+- effective include: 57
+- effective review: 19
 - effective exclude: 2
 
-## INCLUDE (33)
+## INCLUDE (57)
 
 ---
 action: 
@@ -53,10 +53,34 @@ action:
 decision: include
 automatic_decision: include
 title: Administrator
+company: Manchester University NHS Foundation Trust
+location: Manchester, M13 9WL
+source: NHS Jobs
+job_id: nhs-5623609
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
 company: Whittaker Lane Medical Centre
 location: Manchester, M25 1EX
 source: NHS Jobs
 job_id: nhs-5362994
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Accountant
+company: WHITAKER SMITH RECRUITMENT LTD - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-1914723
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -112,6 +136,30 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Children Law Paralegal - Manchester
+company: Duncan Lewis Solictors - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-1900140
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Commercial Litigation Paralegal
+company: CRA Consulting - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-1870638
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Company Secretary
 company: Michael Page Legal - Agency - Permanent
 location: Manchester
@@ -124,11 +172,35 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Contract Specialist / In-House Paralegal
+company: Robert Walters - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-2017558
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Corporate Insolvency Administrator
 company: Imperium Financial Recruitment - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-1869723
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Court of Protection Paralegal
+company: G2 Legal Limited - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-1906421
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -160,11 +232,119 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Credit Controller
+company: Gem Partnership Ltd - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-1950155
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-1896349
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
+company: NJR Recruitment - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-1896761
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
+company: Platinum Recruitment Group - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-1959459
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
+company: Reed - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-1870353
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
+company: The Portfolio Group - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-1868351
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Credit Hire Claims Handler
 company: MPJ Recruitment Ltd - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-1868529
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: CRM Executive
+company: Zachary Daniels Recruitment - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-23643_225643073
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Employers Liability and Public Liability Paralegal
+company: Simpson Millar LLP Solicitors - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-1852648
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: European Credit Controller
+company: CWC Recruitment Ltd - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-1910105
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -244,6 +424,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Housing Paralegal
+company: G2 Legal Limited - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-1867969
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: HR Administrator
 company: Express Solicitors - Agency - Permanent
 location: Manchester
@@ -292,6 +484,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Legal Administrator/ Paralegal
+company: CRA Consulting - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-1945005
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Lettings Administrator
 company: deverellsmith - Agency - Permanent
 location: Manchester
@@ -316,11 +520,47 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Medical Receptionist
+company: Boothstown Medical Centre
+location: Manchester, M29 8RZ
+source: NHS Jobs
+job_id: nhs-5585993
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Medical Receptionist
+company: Hope Citadel Healthcare CIC
+location: Manchester, M14 6FS
+source: NHS Jobs
+job_id: nhs-5597473
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Medical Receptionist / Administrator
 company: Victoria Mill Medical Practice
 location: Manchester, M40 7LH
 source: NHS Jobs
 job_id: nhs-5613139
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Medical Receptionist/Admin
+company: Walkden Medical Centre
+location: Manchester, M28 3AT
+source: NHS Jobs
+job_id: nhs-5596997
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -345,6 +585,42 @@ company: Dawn Ellmore Employment Agency - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-1860156
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Assistant
+company: Totum - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-1892493
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Private Client Paralegal
+company: Revolution Recruitment Resources Ltd - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-1858318
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Public Law Paralegal
+company: GEMINI RECRUITMENT SERVICES LTD - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-1856868
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -400,6 +676,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Remote Conveyancing Paralegal
+company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-1884406
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Sales Ledger/Finance Assistant
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Manchester
@@ -420,7 +708,7 @@ job_id: teaching-vacancies-senior-administrator-to-the-senior-leadership-team
 reason: Approved conservative Manchester launch catchment.
 ---
 
-## REVIEW (36)
+## REVIEW (19)
 
 ---
 action: 
@@ -462,12 +750,12 @@ reason: No approved Manchester catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Children Law Paralegal - Manchester
-company: Duncan Lewis Solictors - Agency - Permanent
-location: Lancashire
-source: JobG8
-job_id: jobg8-1900140
-reason: No approved Manchester catchment rule matched; local review required.
+title: Clinical Team Administrator
+company: Greater Manchester Mental Health NHS Foundation Trust
+location: Eccles, M30 0GT
+source: NHS Jobs
+job_id: nhs-5599492
+reason: Broad regional location; review before Manchester inclusion.
 ---
 
 ---
@@ -479,18 +767,6 @@ company: Vermelo RPO - Agency - Permanent
 location: Lancashire
 source: JobG8
 job_id: jobg8-1909559
-reason: No approved Manchester catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Commercial Litigation Paralegal
-company: CRA Consulting - Agency - Permanent
-location: Lancashire
-source: JobG8
-job_id: jobg8-1870638
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -522,119 +798,11 @@ reason: No approved Manchester catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Court of Protection Paralegal
-company: G2 Legal Limited - Agency - Permanent
-location: Lancashire
-source: JobG8
-job_id: jobg8-1906421
-reason: No approved Manchester catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Gem Partnership Ltd - Agency - Permanent
-location: Lancashire
-source: JobG8
-job_id: jobg8-1950155
-reason: No approved Manchester catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Lancashire
-source: JobG8
-job_id: jobg8-1896349
-reason: No approved Manchester catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: NJR Recruitment - Agency - Permanent
-location: Lancashire
-source: JobG8
-job_id: jobg8-1896761
-reason: No approved Manchester catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Platinum Recruitment Group - Agency - Permanent
-location: Lancashire
-source: JobG8
-job_id: jobg8-1959459
-reason: No approved Manchester catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Reed - Agency - Permanent
-location: Lancashire
-source: JobG8
-job_id: jobg8-1870353
-reason: No approved Manchester catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: The Portfolio Group - Agency - Permanent
-location: Lancashire
-source: JobG8
-job_id: jobg8-1868351
-reason: No approved Manchester catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Data Claims Caseworker Paralegal
 company: Duncan Lewis Solictors - Agency - Permanent
 location: Lancashire
 source: JobG8
 job_id: jobg8-2013968
-reason: No approved Manchester catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Employers Liability and Public Liability Paralegal
-company: Simpson Millar LLP Solicitors - Agency - Permanent
-location: Lancashire
-source: JobG8
-job_id: jobg8-1852648
-reason: No approved Manchester catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: European Credit Controller
-company: CWC Recruitment Ltd - Agency - Permanent
-location: Lancashire
-source: JobG8
-job_id: jobg8-1910105
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -666,83 +834,11 @@ reason: No approved Manchester catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Housing Paralegal
-company: G2 Legal Limited - Agency - Permanent
-location: Lancashire
-source: JobG8
-job_id: jobg8-1867969
-reason: No approved Manchester catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Legal Administrator/ Paralegal
-company: CRA Consulting - Agency - Permanent
-location: Lancashire
-source: JobG8
-job_id: jobg8-1945005
-reason: No approved Manchester catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Litigation Paralegal
 company: The Portfolio Group - Agency - Permanent
 location: Lancashire
 source: JobG8
 job_id: jobg8-1939305
-reason: No approved Manchester catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Paid Media and Social Content Creator
-company: Standard 8 - Agency - Permanent
-location: Lancashire
-source: JobG8
-job_id: jobg8-1991873
-reason: No approved Manchester catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Assistant
-company: Totum - Agency - Permanent
-location: Lancashire
-source: JobG8
-job_id: jobg8-1892493
-reason: No approved Manchester catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Private Client Paralegal
-company: Revolution Recruitment Resources Ltd - Agency - Permanent
-location: Lancashire
-source: JobG8
-job_id: jobg8-1858318
-reason: No approved Manchester catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Public Law Paralegal
-company: GEMINI RECRUITMENT SERVICES LTD - Agency - Permanent
-location: Lancashire
-source: JobG8
-job_id: jobg8-1856868
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -767,18 +863,6 @@ company: Robert Walters - Agency - Permanent
 location: Lancashire
 source: JobG8
 job_id: jobg8-1891696
-reason: No approved Manchester catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Remote Conveyancing Paralegal
-company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
-location: Lancashire
-source: JobG8
-job_id: jobg8-1884406
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 

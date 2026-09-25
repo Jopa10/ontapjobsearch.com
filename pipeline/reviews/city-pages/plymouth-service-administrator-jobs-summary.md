@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 35
+- automatic review: 41
 - automatic exclude: 0
 - effective include: 10
-- effective review: 35
+- effective review: 41
 - effective exclude: 0
 
 ## INCLUDE (10)
@@ -144,7 +144,19 @@ job_id: teaching-vacancies-senior-administrator-st-paul-s-roman-catholic-primary
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (35)
+## REVIEW (41)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounting Assistant
+company: AMR - Specialist Property Recruiters - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-1909574
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -198,11 +210,11 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Attendance Administrator
-company: St Cuthbert Mayne School
-location: Torquay
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-administrator-65068773-d1be-4711-9b88-bde2f62d9e1b
+title: Booking Clerk / Receptionist (Trauma and Orthopaedics)
+company: Royal Devon University Healthcare NHS Foundation Trust
+location: Exeter, EX2 5DW
+source: NHS Jobs
+job_id: nhs-5619987
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -234,11 +246,11 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Business Support Administrator
-company: Devon Partnership NHS Trust
-location: Exeter, EX2 5AF, EXETER, EX2 9HS
-source: NHS Jobs
-job_id: nhs-5607097
+title: Conveyancing Legal Assistant
+company: G2 Legal Limited - Agency - Permanent
+location: Totnes
+source: JobG8
+job_id: jobg8-1911900
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -366,11 +378,23 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Patient Services Administrator
-company: Combe Coastal Practice
-location: ILFRACOMBE, EX34 8EG, ILFRACOMBE, EX34 0JA, WOOLACOMBE, EX34 7BT
+title: Legal Assistant - Conveyancing
+company: RLS Legal Recruitment - Agency - Permanent
+location: Totnes
+source: JobG8
+job_id: jobg8-1908676
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Administrator
+company: Devon Square Surgery
+location: Newton Abbot, TQ12 2HH
 source: NHS Jobs
-job_id: nhs-5585498
+job_id: nhs-5621196
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -407,6 +431,30 @@ company: Lloyd Barnes Recruitment - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-1857372
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Peri Ward Clerk
+company: Royal Devon University Healthcare NHS Foundation Trust
+location: Exeter, EX2 5DW
+source: NHS Jobs
+job_id: nhs-5623640
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Property Legal Assistant
+company: Pertemps Plymouth Commercial - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-1959379
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -503,6 +551,30 @@ company: Royal Devon University Healthcare NHS Foundation Trust
 location: Exeter, EX2 5DW
 source: NHS Jobs
 job_id: nhs-5594406
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Administrator
+company: Royal Devon University Healthcare NHS Foundation Trust
+location: Exeter, EX2 5DW
+source: NHS Jobs
+job_id: nhs-5619976
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Administrator
+company: Royal Devon University Healthcare NHS Foundation Trust
+location: Exeter, EX2 5DW
+source: NHS Jobs
+job_id: nhs-5619991
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

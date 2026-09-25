@@ -4,7 +4,7 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 7
+- automatic include: 8
+- automatic review: 6
 - automatic exclude: 5
-- effective include: 9
-- effective review: 7
+- effective include: 8
+- effective review: 6
 - effective exclude: 5
 
-## INCLUDE (9)
+## INCLUDE (8)
 
 ---
 action: 
@@ -89,18 +89,6 @@ action:
 decision: include
 automatic_decision: include
 title: Support Worker
-company: Avenues Group - Company - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-50992167369729638437341
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Support Worker
 company: The Society of St James - Agency - Permanent
 location: Southampton
 source: JobG8
@@ -132,7 +120,7 @@ job_id: jobg8-1856912
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (7)
+## REVIEW (6)
 
 ---
 action: 
@@ -179,18 +167,6 @@ company: Advantage Angels Ltd - Agency - Contract
 location: Ryde
 source: JobG8
 job_id: jobg8-107856243
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Support Worker
-company: Avenues Group - Company - Permanent
-location: Liss
-source: JobG8
-job_id: jobg8-50992167369729638437340
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 

@@ -178,7 +178,7 @@ title: Credit Control
 company: Reed - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-1956515
+job_id: jobg8-2017641
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -270,11 +270,11 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: School Finance Assistant
-company: Hays Specialist Recruitment Limited - Agency - Permanent
+title: Remote Conveyancing Paralegal
+company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-1870863
+job_id: jobg8-1884433
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -282,11 +282,11 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Technical Hub Coordinator
-company: PermaRock - Agency - Permanent
-location: Loughborough
+title: School Finance Assistant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Leicestershire
 source: JobG8
-job_id: jobg8-108004550
+job_id: jobg8-1870863
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

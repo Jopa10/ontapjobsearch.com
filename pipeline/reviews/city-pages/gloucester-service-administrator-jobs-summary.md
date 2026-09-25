@@ -4,7 +4,7 @@
 - Live route: `/gloucester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 21
+- automatic include: 6
+- automatic review: 23
 - automatic exclude: 0
-- effective include: 5
-- effective review: 21
+- effective include: 6
+- effective review: 23
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (6)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: 2 x Credit Controllers (contract to perm)
+company: CWC Recruitment Ltd - Agency - Permanent
+location: Gloucester
+source: JobG8
+job_id: jobg8-1916425
+reason: Exact approved Gloucester workplace.
+---
 
 ---
 action: 
@@ -84,17 +96,17 @@ job_id: jobg8-1932863
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (21)
+## REVIEW (23)
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Assistant
-company: Crowe UK - Agency - Permanent
-location: Gloucestershire
+title: Customer Service Coordinator
+company: RE Group - Agency - Temporary
+location: Stonehouse
 source: JobG8
-job_id: jobg8-1947491
+job_id: jobg8-108025159
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -107,6 +119,18 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Cheltenham
 source: JobG8
 job_id: jobg8-1892116
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: French speaking Payroll & HR Coordinator
+company: Euro London - Agency - Permanent
+location: Cirencester
+source: JobG8
+job_id: jobg8-2022072
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -143,6 +167,18 @@ company: Cactus Search - Agency - Permanent
 location: Cheltenham
 source: JobG8
 job_id: jobg8-1881580
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HSS - Linux Sytem Administrator
+company: Hackajob Ltd - Agency - Permanent
+location: Cheltenham
+source: JobG8
+job_id: jobg8-108018545
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -234,18 +270,6 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Payments Assistant
-company: Crowe UK - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-1947489
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Payroll Administrator
 company: Robert Half - Agency - Permanent
 location: Gloucestershire
@@ -311,6 +335,18 @@ company: Yorkleigh Surgery
 location: Cheltenham, GL50 3ED
 source: NHS Jobs
 job_id: nhs-5590140
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment Administrator
+company: Siamo Group Ltd - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-107871455
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

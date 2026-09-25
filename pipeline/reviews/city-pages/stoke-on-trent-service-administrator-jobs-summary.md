@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 17
+- automatic review: 21
 - automatic exclude: 0
 - effective include: 3
-- effective review: 17
+- effective review: 21
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: jobg8-1897879
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (17)
+## REVIEW (21)
 
 ---
 action: 
@@ -83,18 +83,6 @@ company: RG Consultancy Ltd - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-1928214
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Midlands Partnership NHS Foundation Trust
-location: Longton, Stoke on Trent, ST3 4QX
-source: NHS Jobs
-job_id: nhs-5606228
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -162,6 +150,30 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
+title: HR and Payroll Assistant (Maternity Cover)
+company: Jonathan Lee Recruitment - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-1934340
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Internal and External Communications & PR Specialist
+company: Opus People Solutions - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-1869139
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Learning and Engagement Coordinator
 company: Adullam Homes - Agency - Permanent
 location: Staffordshire
@@ -179,6 +191,42 @@ company: Oyster Recruitment Limited - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-1868528
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Events Executive
+company: Workstreet - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-1946289
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Executive (Events & Customer Engagement)
+company: UBT - Agency - Permanent
+location: Stafford
+source: JobG8
+job_id: jobg8-1928917
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Manager
+company: Workstreet - Agency - Permanent
+location: Tamworth
+source: JobG8
+job_id: jobg8-1944014
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -210,11 +258,11 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: Purchasing & Logistics Coordinator
-company: Brampton Recruitment Ltd - Agency - Contract
-location: Staffordshire
+title: Payroll Assistant
+company: Kate+Co - Agency - Permanent
+location: Lichfield
 source: JobG8
-job_id: jobg8-23643_225583171
+job_id: jobg8-1905742
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -234,6 +282,18 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
+title: Senior Media Relations Executive
+company: Citrus Recruit Ltd - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-107966198
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Service Advisor
 company: Perfect Placement Uk Ltd - Agency - Permanent
 location: Staffordshire
@@ -246,23 +306,11 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: Wellbeing and Activities Coordinator
-company: Avery Healthcare - Agency - Permanent
+title: Trade & Brand Marketing Manager
+company: The Animal People Recruitment - Agency - Permanent
 location: Staffordshire
 source: JobG8
-job_id: jobg8-872170507984699392037340
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Wellbeing and Activities Coordinator
-company: Avery Healthcare - Agency - Permanent
-location: Staffordshire
-source: JobG8
-job_id: jobg8-872170507984699392037341
+job_id: jobg8-1876092
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

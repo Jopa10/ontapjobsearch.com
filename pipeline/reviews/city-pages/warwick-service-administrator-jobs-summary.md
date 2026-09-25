@@ -126,18 +126,6 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Payable
-company: Four Squared - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-1912816
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Accounts Payable Clerk
 company: Trinity House Group - Agency - Permanent
 location: Warwickshire
@@ -179,6 +167,30 @@ company: Manpower - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-1916611
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Conveyancing Paralegal
+company: Reed - Agency - Permanent
+location: Leamington Spa
+source: JobG8
+job_id: jobg8-1915604
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Conveyancing Paralegal
+company: Reed - Agency - Permanent
+location: Leamington Spa
+source: JobG8
+job_id: jobg8-1915624
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -335,18 +347,6 @@ company: James Gray Associates - Agency - Permanent
 location: Coventry
 source: JobG8
 job_id: jobg8-1909613
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: People Coordinator
-company: Michael Page Business Support - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-1859862
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

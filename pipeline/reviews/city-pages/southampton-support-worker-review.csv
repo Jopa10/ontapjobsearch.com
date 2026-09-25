@@ -4,7 +4,6 @@ include,jobg8-1958886,Healthcare Assistant,Thema Healthcare - Agency - Permanent
 include,jobg8-455939784746781900837341,Male Support Worker,Avenues Group - Company - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
 include,jobg8-1401784887,Night Care Worker,Hampshire County Council - Company - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
 include,jobg8-1932858,Part-Time Support Worker,Cygnet - Agency - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
-include,jobg8-50992167369729638437341,Support Worker,Avenues Group - Company - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
 include,jobg8-1858493,Support Worker,The Society of St James - Agency - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
 include,jobg8-1898106,Support Worker (Days),Cygnet - Agency - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
 include,jobg8-1856912,Support Worker (Learning Disabilities),Cygnet - Agency - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
@@ -12,7 +11,6 @@ review,jobg8-1401785354,Children's Homes Support Worker,Hampshire County Council
 review,jobg8-265253118665136537637340,Female Support Worker,Avenues Group - Company - Permanent,Tadley,JobG8,review,review,No approved Southampton catchment rule matched; local review required.,fallback,southampton-support-worker
 review,jobg8-107989086,Female Support Worker,SeeAbility - Agency - Permanent,Tadley,JobG8,review,review,No approved Southampton catchment rule matched; local review required.,fallback,southampton-support-worker
 review,jobg8-107856243,Healthcare Assistant,Advantage Angels Ltd - Agency - Contract,Ryde,JobG8,review,review,No approved Southampton catchment rule matched; local review required.,fallback,southampton-support-worker
-review,jobg8-50992167369729638437340,Support Worker,Avenues Group - Company - Permanent,Liss,JobG8,review,review,No approved Southampton catchment rule matched; local review required.,fallback,southampton-support-worker
 review,jobg8-635330054620761292837340,Support Worker,Avenues Group - Company - Permanent,Tadley,JobG8,review,review,No approved Southampton catchment rule matched; local review required.,fallback,southampton-support-worker
 review,jobg8-1401784888,Support Worker (Out of Hours),Hampshire County Council - Company - Permanent,Havant,JobG8,review,review,Broad location; review before city inclusion.,context:hampshire,southampton-support-worker
 exclude,jobg8-1401785482,Children's Homes Support Worker,Hampshire County Council - Company - Permanent,Winchester,JobG8,exclude,exclude,Separate employment market.,winchester,southampton-support-worker

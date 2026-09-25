@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 17
+- automatic review: 21
 - automatic exclude: 0
 - effective include: 1
-- effective review: 17
+- effective review: 21
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: jobg8-1898195
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (17)
+## REVIEW (21)
 
 ---
 action: 
@@ -107,6 +107,18 @@ company: Reed - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-1893830
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Conveyancing Legal Assistant
+company: 360 Recruitment - Agency - Permanent
+location: Wimborne
+source: JobG8
+job_id: jobg8-1885467
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -202,6 +214,18 @@ title: Payroll Administrator
 company: Reed - Agency - Permanent
 location: Dorset
 source: JobG8
+job_id: jobg8-1865412
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: Reed - Agency - Permanent
+location: Dorset
+source: JobG8
 job_id: jobg8-1865413
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
@@ -235,10 +259,34 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist/Administrator
+company: Dorset HealthCare University NHS Foundation Trust
+location: Sherborne, DT93JU
+source: NHS Jobs
+job_id: nhs-5596760
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist/Administrator
 company: South Coast Medical Group
 location: Christchurch, BH23 2FQ
 source: NHS Jobs
 job_id: nhs-5600939
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trust Administrator
+company: Aspire Jobs Limited - Agency - Permanent
+location: Beaminster
+source: JobG8
+job_id: jobg8-107765584
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/northampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 20
+- automatic include: 3
+- automatic review: 18
 - automatic exclude: 0
-- effective include: 2
-- effective review: 20
+- effective include: 3
+- effective review: 18
 - effective exclude: 0
 
-## INCLUDE (2)
+## INCLUDE (3)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Experienced Legal Assistant Commercial Property
+company: SJC Partners - Agency - Permanent
+location: Northampton
+source: JobG8
+job_id: jobg8-1928413
+reason: Exact approved Northampton workplace.
+---
 
 ---
 action: 
@@ -48,7 +60,7 @@ job_id: jobg8-1899049
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (20)
+## REVIEW (18)
 
 ---
 action: 
@@ -90,11 +102,11 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Client Account Administrator
-company: Bush and Company Rehabilitation - Agency - Permanent
+title: Claims Handler - insurance/property - hybrid following probation
+company: The Graduate - Agency - Permanent
 location: Northamptonshire
 source: JobG8
-job_id: jobg8-1875317
+job_id: jobg8-2017813
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -102,11 +114,11 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Conference and Events Administrator
-company: MND Association - Agency - Permanent
+title: Client Account Administrator
+company: Bush and Company Rehabilitation - Agency - Permanent
 location: Northamptonshire
 source: JobG8
-job_id: jobg8-1982382
+job_id: jobg8-1875317
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -199,18 +211,6 @@ action:
 decision: review
 automatic_decision: review
 title: HR Administrator
-company: ACS Recruitment Solutions Ltd - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-1877500
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrator
 company: Lakeside Healthcare Group
 location: Corby, NN17 1TY
 source: NHS Jobs
@@ -222,23 +222,11 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator (Northampton Students Union Students Only)
-company: Northampton Students' Union - Agency - Permanent
+title: Intervention Claims Handler - hybrid (2 days from home) following probation
+company: The Graduate - Agency - Permanent
 location: Northamptonshire
 source: JobG8
-job_id: jobg8-1982316
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Assistant
-company: Rock UK - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-1991727
+job_id: jobg8-2017832
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

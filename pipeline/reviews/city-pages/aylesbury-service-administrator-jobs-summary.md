@@ -4,7 +4,7 @@
 - Live route: `/aylesbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 32
+- automatic include: 3
+- automatic review: 38
 - automatic exclude: 0
-- effective include: 2
-- effective review: 32
+- effective include: 3
+- effective review: 38
 - effective exclude: 0
 
-## INCLUDE (2)
+## INCLUDE (3)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Medical Receptionist
+company: Primary Care Management Solutions Ltd
+location: Aylesbury, HP21 8TR
+source: NHS Jobs
+job_id: nhs-5619604
+reason: Exact approved Aylesbury workplace.
+---
 
 ---
 action: 
@@ -48,7 +60,7 @@ job_id: teaching-vacancies-school-administrator-chiltern-way-academy-trust
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (32)
+## REVIEW (38)
 
 ---
 action: 
@@ -126,6 +138,18 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Artist Relations and Events Coordinator
+company: NFP People - Agency - Contract
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-107996202
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Billing Assistant
 company: Reed - Agency - Permanent
 location: Buckinghamshire
@@ -155,6 +179,30 @@ company: The Curve Group - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-1899364
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Conveyancing Paralegal
+company: Reed - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-1916513
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Conveyancing Paralegal
+company: Reed - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-1944303
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -258,18 +306,6 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Graduate Finance Assistant Accountant
-company: Robert Half - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-1932845
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR Administrator
 company: wild recruitment - Agency - Permanent
 location: Milton Keynes
@@ -294,6 +330,18 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Legal Assistant
+company: Reed - Agency - Permanent
+location: Gerrards Cross
+source: JobG8
+job_id: jobg8-1916446
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Automation Manager
 company: Nextech - Agency - Permanent
 location: Milton Keynes
@@ -311,6 +359,18 @@ company: FS1 Recruitment - Marketing, Creative, Digital, Finance, HR, Sales, Adm
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-1896236
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist
+company: Primary Care Management Solutions Ltd
+location: High Wycombe, HP135DN
+source: NHS Jobs
+job_id: nhs-5618527
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -378,6 +438,18 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Private Client Paralegal
+company: Reed - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-1915998
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Purchase Ledger Administrator
 company: Sussum Consulting LTD - Agency - Permanent
 location: Princes Risborough
@@ -407,6 +479,18 @@ company: Riverside Surgery
 location: High Wycombe, HP11 2RZ
 source: NHS Jobs
 job_id: nhs-5607494
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Residential Conveyancing Paralegal
+company: Quality Personnel Services Limited - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-1899553
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

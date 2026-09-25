@@ -4,8 +4,8 @@
 - Live route: `/edinburgh/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
-- Threshold currently met: no
+- Effective included jobs: 6
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
+- automatic include: 6
 - automatic review: 1
 - automatic exclude: 0
-- effective include: 5
+- effective include: 6
 - effective review: 1
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (6)
 
 ---
 action: 
@@ -40,11 +40,23 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Finance Assistant
-company: iMultiply Resourcing Ltd - Agency - Permanent
+title: Credit Controller
+company: Robert Half - Agency - Permanent
 location: Edinburgh
 source: JobG8
-job_id: jobg8-1871056
+job_id: jobg8-1950171
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Dutch Speaking Customer Service Advisor
+company: Oyster Consultant - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-107916316
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -76,11 +88,11 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Part Time Finance Assistant (Temp)
-company: Michael Page Business Support - Agency - Permanent
+title: Language Speaking Credit Controller - Fully remote
+company: CWC Recruitment Ltd - Agency - Permanent
 location: Edinburgh
 source: JobG8
-job_id: jobg8-1907398
+job_id: jobg8-1910106
 reason: Approved conservative Edinburgh launch catchment.
 ---
 

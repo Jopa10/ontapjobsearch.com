@@ -16,15 +16,27 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 3
+- automatic review: 7
 - automatic exclude: 0
 - effective include: 0
-- effective review: 3
+- effective review: 7
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (3)
+## REVIEW (7)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Herefordshire and Worcestershire Health and Care NHS Trust
+location: Kidderminster, DY10 1PG
+source: NHS Jobs
+job_id: nhs-5621451
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -35,6 +47,18 @@ company: Tenbury High Ormiston Academy
 location: Tenbury Wells
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrator-send-department-tenbury-high-ormiston-academy
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Four Squared - Agency - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-1907859
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -59,6 +83,30 @@ company: Davies Group - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-1879674
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Bookkeeper
+company: Four Squared - Agency - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-1856788
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: Four Squared - Agency - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-1891398
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

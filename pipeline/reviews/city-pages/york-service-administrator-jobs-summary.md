@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 10
+- automatic include: 13
+- automatic review: 9
 - automatic exclude: 12
-- effective include: 9
-- effective review: 10
+- effective include: 13
+- effective review: 9
 - effective exclude: 12
 
-## INCLUDE (9)
+## INCLUDE (13)
 
 ---
 action: 
@@ -88,6 +88,18 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Commercial Property Paralegal Commercial Property Transactions Malton / York
+company: qed legal - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-1873947
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Corporate/Commercial Legal Secretary/Assistant - York
 company: qed legal - Agency - Permanent
 location: York
@@ -112,11 +124,35 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Medical Receptionist
+company: Unity Health
+location: York, YO10 5LA, York, YO10 4DU
+source: NHS Jobs
+job_id: nhs-5615291
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Paralegal
 company: Reed - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-1874079
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Patient Care Navigator (Medical Receptionist - Priory Medical Centre)
+company: Priory Medical Group
+location: YORK, YO24 3WX
+source: NHS Jobs
+job_id: nhs-5604935
 reason: Approved York catchment.
 ---
 
@@ -132,7 +168,19 @@ job_id: jobg8-1871003
 reason: Approved York catchment.
 ---
 
-## REVIEW (10)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Website Administrator
+company: Reed - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-2021380
+reason: Approved York catchment.
+---
+
+## REVIEW (9)
 
 ---
 action: 
@@ -143,18 +191,6 @@ company: Property Personnel - Agency - Permanent
 location: Richmond
 source: JobG8
 job_id: jobg8-1869341
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Commercial Property Paralegal Commercial Property Transactions Malton / York
-company: qed legal - Agency - Permanent
-location: Malton
-source: JobG8
-job_id: jobg8-1873947
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -370,10 +406,10 @@ decision: exclude
 automatic_decision: exclude
 title: Payroll Administrator
 company: Portfolio Payroll - Agency - Permanent
-location: Yorkshire
+location: Harrogate
 source: JobG8
 job_id: jobg8-1892503
-reason: Broad regional label; not York-city evidence.
+reason: Separate employment market.
 ---
 
 ---
@@ -382,10 +418,10 @@ decision: exclude
 automatic_decision: exclude
 title: Payroll Clerk
 company: Reed - Agency - Permanent
-location: Yorkshire
+location: Harrogate
 source: JobG8
 job_id: jobg8-1908699
-reason: Broad regional label; not York-city evidence.
+reason: Separate employment market.
 ---
 
 ---
@@ -394,8 +430,8 @@ decision: exclude
 automatic_decision: exclude
 title: Payroll Coordinator
 company: Reed - Agency - Permanent
-location: Yorkshire
+location: Harrogate
 source: JobG8
 job_id: jobg8-1867235
-reason: Broad regional label; not York-city evidence.
+reason: Separate employment market.
 ---

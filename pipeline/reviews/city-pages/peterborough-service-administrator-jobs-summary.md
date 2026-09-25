@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
+- automatic include: 13
 - automatic review: 1
-- automatic exclude: 31
-- effective include: 11
+- automatic exclude: 33
+- effective include: 13
 - effective review: 1
-- effective exclude: 31
+- effective exclude: 33
 
-## INCLUDE (11)
+## INCLUDE (13)
 
 ---
 action: 
@@ -52,6 +52,18 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Administrative Support Officer
+company: North West Anglia NHS Foundation Trust
+location: Peterborough, PE3 9GZ
+source: NHS Jobs
+job_id: nhs-5623327
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Administrator
 company: Arthur Mellows Village College
 location: Peterborough
@@ -69,6 +81,18 @@ company: Cambridgeshire and Peterborough NHS Foundation Trust
 location: Peterborough, PE1 1HJ
 source: NHS Jobs
 job_id: nhs-5597120
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Bookkeeper
+company: TC Group - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-1907392
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -170,7 +194,7 @@ job_id: teaching-vacancies-finance-admin-assistant-priory-junior-school-st-neots
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (31)
+## EXCLUDE (33)
 
 ---
 action: 
@@ -226,33 +250,9 @@ decision: exclude
 automatic_decision: exclude
 title: Bookkeeper
 company: EA FIRST LTD - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-1908887
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Bookkeeper
-company: TC Group - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-1907392
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: CAMB - Client Services Coordinator
-company: RecruitAbility Ltd - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-1944668
+job_id: jobg8-1908887
 reason: Separate employment market.
 ---
 
@@ -286,7 +286,7 @@ decision: exclude
 automatic_decision: exclude
 title: Contract Credit Controller
 company: Reed - Agency - Permanent
-location: Cambridgeshire
+location: Cambridge
 source: JobG8
 job_id: jobg8-1898131
 reason: Separate employment market.
@@ -296,9 +296,21 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Conveyancing Paralegal/Assistant
+company: Clear Legal & Financial Recruitment - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-1870898
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Credit Controller
 company: Reed - Agency - Permanent
-location: Cambridgeshire
+location: Cambridge
 source: JobG8
 job_id: jobg8-1916025
 reason: Separate employment market.
@@ -392,11 +404,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Interim Accounts Payable Assistant
-company: Michael Page Finance - Agency - Permanent
-location: Cambridge
+title: Internal Communications (REMOTE)
+company: Reed - Agency - Permanent
+location: Cambridgeshire
 source: JobG8
-job_id: jobg8-1916060
+job_id: jobg8-1933672
 reason: Separate employment market.
 ---
 
@@ -404,11 +416,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Internal Communications (REMOTE)
-company: Reed - Agency - Permanent
-location: Cambridgeshire
+title: IP Paralegal (12-Month Contract) - Cambridge
+company: Dawn Ellmore Employment Agency - Agency - Permanent
+location: Cambridge
 source: JobG8
-job_id: jobg8-1933672
+job_id: jobg8-1899565
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Legal Administrator
+company: Pure Resourcing Solutions - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-1945697
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Legal Assistant
+company: Reed - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-1908938
 reason: Separate employment market.
 ---
 
@@ -464,11 +500,23 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Personal Assistant
-company: East of England Community Health and Care NHS Trust (Cambridge)
-location: St Ives, PE27 4LG
+title: Patient Services Administrator
+company: Red House Surgery
+location: Cambridge, CB4 1ER, Cambridge, CB1 1PT
 source: NHS Jobs
-job_id: nhs-5610324
+job_id: nhs-5622094
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Patient Services Administrator
+company: Red House Surgery
+location: Cambridge, CB4 1ER, Cambridge, CB1 1PT
+source: NHS Jobs
+job_id: nhs-5622126
 reason: Separate employment market.
 ---
 

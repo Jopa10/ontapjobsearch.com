@@ -4,7 +4,7 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
-- automatic review: 11
-- automatic exclude: 16
-- effective include: 12
-- effective review: 11
-- effective exclude: 16
+- automatic include: 13
+- automatic review: 12
+- automatic exclude: 19
+- effective include: 13
+- effective review: 12
+- effective exclude: 19
 
-## INCLUDE (12)
+## INCLUDE (13)
 
 ---
 action: 
@@ -88,18 +88,6 @@ reason: Approved conservative Oxford launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Assistant Patient Pathway Administrator
-company: Oxford University Hospitals NHS Foundation Trust
-location: Oxford, OX3 9DE
-source: NHS Jobs
-job_id: nhs-5602464
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Careers Administrator
 company: The Oxford Academy
 location: Oxford
@@ -136,11 +124,35 @@ reason: Approved conservative Oxford launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Finance & Office Assistant
+company: Thompson & Terry - Agency - Permanent
+location: Oxford
+source: JobG8
+job_id: jobg8-2021409
+reason: Approved conservative Oxford launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Finance Officer
 company: Michael Page Finance - Agency - Permanent
 location: Oxford
 source: JobG8
 job_id: jobg8-1860334
+reason: Approved conservative Oxford launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Patient Pathway Administrator
+company: Oxford University Hospitals NHS Foundation Trust
+location: Oxford, OX3 9DU
+source: NHS Jobs
+job_id: nhs-5621723
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -160,15 +172,15 @@ reason: Approved conservative Oxford launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Student Receptionist and Pastoral Assistant
-company: Cheney School
-location: Oxford
-source: Teaching Vacancies
-job_id: teaching-vacancies-student-receptionist-and-pastoral-assistant
+title: Ward Clerk
+company: Oxford University Hospitals NHS Foundation Trust
+location: Oxford, OX3 9DU
+source: NHS Jobs
+job_id: nhs-5620012
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (11)
+## REVIEW (12)
 
 ---
 action: 
@@ -270,6 +282,18 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Legal Assistant - Conveyancing
+company: Berry Recruitment - Agency - Permanent
+location: Wantage
+source: JobG8
+job_id: jobg8-1895931
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Office Administrator
 company: Wantage Primary Academy
 location: Wantage
@@ -302,7 +326,7 @@ job_id: nhs-5577377
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (16)
+## EXCLUDE (19)
 
 ---
 action: 
@@ -332,6 +356,18 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Bookkeeper / Management Accountant
+company: Curtis Recruitment - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-1956485
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Church Engagement Manager
 company: Church Mission Society - Agency - Permanent
 location: Oxfordshire
@@ -349,6 +385,30 @@ company: Abingdon School - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-1868389
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Conveyancing Paralegal
+company: Reed - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-1915603
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Conveyancing Paralegal
+company: Reed - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-1916097
 reason: Broad county location; not Oxford-city evidence.
 ---
 

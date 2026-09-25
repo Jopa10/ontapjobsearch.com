@@ -4,7 +4,7 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 29
-- automatic exclude: 11
-- effective include: 4
-- effective review: 29
-- effective exclude: 11
+- automatic include: 5
+- automatic review: 31
+- automatic exclude: 12
+- effective include: 5
+- effective review: 31
+- effective exclude: 12
 
-## INCLUDE (4)
+## INCLUDE (5)
 
 ---
 action: 
@@ -64,6 +64,18 @@ reason: Approved Brighton & Hove catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Service Administrator
+company: Brighton and Hove Federation
+location: Hove, BN3 7GS
+source: NHS Jobs
+job_id: nhs-5620851
+reason: Approved Brighton & Hove catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Telesales Executive
 company: Aimee Willow Connex - Agency - Permanent
 location: Brighton
@@ -72,7 +84,7 @@ job_id: jobg8-1856512
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (29)
+## REVIEW (31)
 
 ---
 action: 
@@ -186,6 +198,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Commercial Property Paralegal
+company: TN Recruits - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-1934337
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Assistant
 company: First Recruitment Services - Agency - Permanent
 location: Sussex
@@ -251,6 +275,18 @@ company: Northbrook College - Agency - Temporary
 location: Sussex
 source: JobG8
 job_id: jobg8-108005260
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Administrative Assistant (Secondment Cover)
+company: Chichester College Group - Company - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-107978791
 reason: Broad location; review before city inclusion.
 ---
 
@@ -378,6 +414,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Solicitor or Paralegal - Contentious Probate Litigation - Part-time
+company: Wise Monkey Recruitment ltd - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-1894680
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Technical Administrator
 company: Ellis James Partners Limited - Agency - Permanent
 location: Sussex
@@ -402,27 +450,15 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Wellbeing and Activities Coordinator
-company: Avery Healthcare - Agency - Permanent
+title: Trainee Solicitor/Paralegal
+company: Wise Monkey Recruitment ltd - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-622003465167988326437340
+job_id: jobg8-1883284
 reason: Broad location; review before city inclusion.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Wellbeing and Activities Coordinator
-company: Avery Healthcare - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-622003465167988326437341
-reason: Broad location; review before city inclusion.
----
-
-## EXCLUDE (11)
+## EXCLUDE (12)
 
 ---
 action: 
@@ -505,6 +541,18 @@ company: Astral Recruitment - Agency - Permanent
 location: Horsham
 source: JobG8
 job_id: jobg8-1908468
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: MSK Therapies - Booking Clerk
+company: East Sussex Healthcare NHS Trust
+location: Eastbourne, BN21 2UD
+source: NHS Jobs
+job_id: nhs-5607486
 reason: Separate employment market.
 ---
 

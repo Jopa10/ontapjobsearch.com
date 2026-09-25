@@ -4,7 +4,7 @@
 - Live route: `/doncaster/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 2
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 3
+- automatic include: 3
+- automatic review: 2
 - automatic exclude: 15
-- effective include: 2
-- effective review: 3
+- effective include: 3
+- effective review: 2
 - effective exclude: 15
 
-## INCLUDE (2)
+## INCLUDE (3)
 
 ---
 action: 
@@ -40,6 +40,18 @@ reason: Approved Doncaster catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Part-time Payroll Assistant
+company: Portfolio Payroll - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-1907486
+reason: Approved Doncaster catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Purchase Ledger Administrator
 company: Sharp Consultancy - Agency - Permanent
 location: Doncaster
@@ -48,19 +60,7 @@ job_id: jobg8-1899982
 reason: Approved Doncaster catchment.
 ---
 
-## REVIEW (3)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part-time Payroll Assistant
-company: Portfolio Payroll - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-1907486
-reason: No approved Doncaster catchment rule matched; local review required.
----
+## REVIEW (2)
 
 ---
 action: 
@@ -116,11 +116,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administration Assistant
-company: Gooseacre Primary Academy
-location: Rotherham
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-gooseacre-primary-academy-rotherham-south-yorkshire
+title: Assistant Accountant
+company: IPS Group - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-1960387
 reason: Separate employment market.
 ---
 
@@ -169,18 +169,6 @@ company: GGT Insolvency Recruitment - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2014257
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Personal Assistant to Headteacher
-company: Westfield School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-personal-assistant-to-headteacher-westfield-school
 reason: Separate employment market.
 ---
 
@@ -265,5 +253,17 @@ company: Staffline Recruitment Limited - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-1899397
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Remote Conveyancing Paralegal
+company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-1884424
 reason: Separate employment market.
 ---

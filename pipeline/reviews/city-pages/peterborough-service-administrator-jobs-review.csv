@@ -1,8 +1,10 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-1870317,Accounts Administrator,Reed - Agency - Permanent,Peterborough,JobG8,include,include,Approved conservative Peterborough launch catchment.,peterborough,peterborough-service-administrator-jobs
 include,jobg8-1939236,Accounts Assistant,Reed - Agency - Permanent,Peterborough,JobG8,include,include,Approved conservative Peterborough launch catchment.,peterborough,peterborough-service-administrator-jobs
+include,nhs-5623327,Administrative Support Officer,North West Anglia NHS Foundation Trust,"Peterborough, PE3 9GZ",NHS Jobs,include,include,Approved conservative Peterborough launch catchment.,peterborough,peterborough-service-administrator-jobs
 include,teaching-vacancies-administrator-47bb26eb-71c2-4cc0-b838-989640ff07ed,Administrator,Arthur Mellows Village College,Peterborough,Teaching Vacancies,include,include,Approved conservative Peterborough launch catchment.,peterborough,peterborough-service-administrator-jobs
 include,nhs-5597120,Assistant Administrator,Cambridgeshire and Peterborough NHS Foundation Trust,"Peterborough, PE1 1HJ",NHS Jobs,include,include,Approved conservative Peterborough launch catchment.,peterborough,peterborough-service-administrator-jobs
+include,jobg8-1907392,Bookkeeper,TC Group - Agency - Permanent,Peterborough,JobG8,include,include,Approved conservative Peterborough launch catchment.,peterborough,peterborough-service-administrator-jobs
 include,jobg8-1905510,Finance Assistant,Broster Buchanan - Agency - Permanent,Peterborough,JobG8,include,include,Approved conservative Peterborough launch catchment.,peterborough,peterborough-service-administrator-jobs
 include,jobg8-1871117,Part-Time Accounts Assistant / Bookkeeper,The One Group - Agency - Permanent,Peterborough,JobG8,include,include,Approved conservative Peterborough launch catchment.,peterborough,peterborough-service-administrator-jobs
 include,jobg8-1949085,Purchase Ledger Clerk,Reed - Agency - Permanent,Peterborough,JobG8,include,include,Approved conservative Peterborough launch catchment.,peterborough,peterborough-service-administrator-jobs
@@ -15,13 +17,12 @@ exclude,jobg8-1877925,Accounts Assistant,Eclectic Recruitment - Agency - Permane
 exclude,nhs-5611673,Administrator,Cambridgeshire and Peterborough NHS Foundation Trust,"Huntingdon, PE29 6FH",NHS Jobs,exclude,exclude,Separate employment market.,huntingdon,peterborough-service-administrator-jobs
 exclude,nhs-5611937,Administrator,Cambridgeshire and Peterborough NHS Foundation Trust,"Cambridge, CB4 1PR",NHS Jobs,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
 exclude,nhs-5530494,Administrator - Huntingdon,Vaccination UK,"Huntingdon, PE296FH",NHS Jobs,exclude,exclude,Separate employment market.,huntingdon,peterborough-service-administrator-jobs
-exclude,jobg8-1908887,Bookkeeper,EA FIRST LTD - Agency - Permanent,Cambridgeshire,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
-exclude,jobg8-1907392,Bookkeeper,TC Group - Agency - Permanent,Cambridgeshire,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
-exclude,jobg8-1944668,CAMB - Client Services Coordinator,RecruitAbility Ltd - Agency - Permanent,Cambridge,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
+exclude,jobg8-1908887,Bookkeeper,EA FIRST LTD - Agency - Permanent,Cambridge,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
 exclude,jobg8-1859397,Client Support Administrator,Brevere Group - Agency - Permanent,Cambridge,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
 exclude,jobg8-2013914,Community Engagement Lead,Caring Together - Agency - Permanent,Cambridgeshire,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
-exclude,jobg8-1898131,Contract Credit Controller,Reed - Agency - Permanent,Cambridgeshire,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
-exclude,jobg8-1916025,Credit Controller,Reed - Agency - Permanent,Cambridgeshire,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
+exclude,jobg8-1898131,Contract Credit Controller,Reed - Agency - Permanent,Cambridge,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
+exclude,jobg8-1870898,Conveyancing Paralegal/Assistant,Clear Legal & Financial Recruitment - Agency - Permanent,Cambridge,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
+exclude,jobg8-1916025,Credit Controller,Reed - Agency - Permanent,Cambridge,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
 exclude,jobg8-1874671,CRM Officer,Proactive Appointments - Agency - Permanent,Cambridgeshire,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
 exclude,jobg8-1857177,Digital Marketing Specialist,Reed - Agency - Permanent,Cambridgeshire,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
 exclude,jobg8-1882412,Events Coordinator,Reed - Agency - Permanent,Cambridge,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
@@ -29,13 +30,16 @@ exclude,jobg8-1870766,Finance Administrator,Pure Resourcing Solutions - Agency -
 exclude,jobg8-1859976,Finance Assistant,Pure Resourcing Solutions - Agency - Permanent,Cambridge,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
 exclude,jobg8-1885544,Finance Officer,Page Group - Agency - Permanent,Cambridge,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
 exclude,jobg8-1870849,Graduate Finance Assistant,Heap & Co - Agency - Permanent,Cambridge,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
-exclude,jobg8-1916060,Interim Accounts Payable Assistant,Michael Page Finance - Agency - Permanent,Cambridge,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
 exclude,jobg8-1933672,Internal Communications (REMOTE),Reed - Agency - Permanent,Cambridgeshire,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
+exclude,jobg8-1899565,IP Paralegal (12-Month Contract) - Cambridge,Dawn Ellmore Employment Agency - Agency - Permanent,Cambridge,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
+exclude,jobg8-1945697,Legal Administrator,Pure Resourcing Solutions - Agency - Permanent,Cambridge,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
+exclude,jobg8-1908938,Legal Assistant,Reed - Agency - Permanent,Cambridge,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
 exclude,jobg8-1876189,Lettings Administrator,Property Personnel - Agency - Permanent,Cambridge,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
 exclude,jobg8-1888166,Part Time Purchase Ledger Clerk,Huntress - Agency - Permanent,Cambridgeshire,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
 exclude,jobg8-1859119,Part-Time Purchase Ledger Controller (18 hrs across 3 days),Adecco - Agency - Permanent,Cambridgeshire,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
 exclude,jobg8-1892204,Patent Administrator,The Law Support Group - Agency - Permanent,Cambridge,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
-exclude,nhs-5610324,Personal Assistant,East of England Community Health and Care NHS Trust (Cambridge),"St Ives, PE27 4LG",NHS Jobs,exclude,exclude,Separate employment market.,context:cambridge,peterborough-service-administrator-jobs
+exclude,nhs-5622094,Patient Services Administrator,Red House Surgery,"Cambridge, CB4 1ER, Cambridge, CB1 1PT",NHS Jobs,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
+exclude,nhs-5622126,Patient Services Administrator,Red House Surgery,"Cambridge, CB4 1ER, Cambridge, CB1 1PT",NHS Jobs,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
 exclude,jobg8-1908623,Purchase Ledger Clerk (Temp),Hays Specialist Recruitment Limited - Agency - Permanent,Cambridgeshire,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs
 exclude,jobg8-1873140,School Receptionist - Huntingdon,Randstad Education - Agency - Permanent,Huntingdon,JobG8,exclude,exclude,Separate employment market.,huntingdon,peterborough-service-administrator-jobs
 exclude,jobg8-1873139,School Receptionist Administrator - Cambridge,Randstad Education - Agency - Permanent,Cambridge,JobG8,exclude,exclude,Separate employment market.,cambridge,peterborough-service-administrator-jobs

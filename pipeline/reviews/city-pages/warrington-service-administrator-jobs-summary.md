@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 19
+- Effective included jobs: 20
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 19
+- automatic include: 20
 - automatic review: 11
 - automatic exclude: 6
-- effective include: 19
+- effective include: 20
 - effective review: 11
 - effective exclude: 6
 
-## INCLUDE (19)
+## INCLUDE (20)
 
 ---
 action: 
@@ -232,6 +232,18 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Legal Assistant
+company: Law Staff Limited - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-1873432
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Medical Receptionist
 company: High Street Surgery
 location: Warrington, WA3 3GS
@@ -332,7 +344,7 @@ decision: review
 automatic_decision: review
 title: Credit Controller
 company: Accountable Recruitment - Agency - Permanent
-location: Cheshire
+location: Widnes
 source: JobG8
 job_id: jobg8-1909831
 reason: No approved Warrington catchment rule matched; local review required.
@@ -366,11 +378,11 @@ reason: No approved Warrington catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Payroll and Benefits Administrator
-company: Michael Page Finance - Agency - Permanent
-location: Cheshire
+title: Paralegal - Residential & Commercial Property, Commercial Law & Corporate Law
+company: Revolution Recruitment Resources Ltd - Agency - Permanent
+location: Widnes
 source: JobG8
-job_id: jobg8-1928944
+job_id: jobg8-1857293
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
@@ -378,11 +390,11 @@ reason: No approved Warrington catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: School Administrator - short term
-company: Tradewind Recruitment - Agency - Permanent
-location: Widnes
+title: Payroll and Benefits Administrator
+company: Michael Page Finance - Agency - Permanent
+location: Cheshire
 source: JobG8
-job_id: jobg8-1814111
+job_id: jobg8-1928944
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 

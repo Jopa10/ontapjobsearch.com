@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 20
+- Effective included jobs: 34
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 20
-- automatic review: 17
+- automatic include: 34
+- automatic review: 11
 - automatic exclude: 1
-- effective include: 20
-- effective review: 17
+- effective include: 34
+- effective review: 11
 - effective exclude: 1
 
-## INCLUDE (20)
+## INCLUDE (34)
 
 ---
 action: 
@@ -112,6 +112,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Antenatal Clinic Administrator
+company: Bristol NHS Foundation Trust
+location: Bristol, BS10 5NB
+source: NHS Jobs
+job_id: nhs-5621879
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Claims Administrator
 company: SS&C - Agency - Permanent
 location: Bristol
@@ -148,6 +160,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Contract Paralegal
+company: Alexander Mae (Bristol) Ltd - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-1928078
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Corporate Benefits Administrator
 company: Titan Wealth Holdings Limited - Agency - Permanent
 location: Bristol
@@ -160,11 +184,59 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Credit Controller
+company: Ashley Rees Associates - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-1870975
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
+company: M2 Professional Recruitment Services Ltd - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-1990884
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
+company: Core 3 Ltd - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-108025527
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Finance Billing Coordinator
 company: HFT - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-1946470
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: French or Spanish Speaking Credit Controller
+company: CWC Recruitment Ltd - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-1883570
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -196,11 +268,95 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Litigation Paralegal
+company: Reed - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-1905970
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Part Time Accounts Assistant
 company: Michael Page Finance - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-1949326
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Administrator
+company: Ashley Rees Associates - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-1888375
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Administrator
+company: Reed - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-1867788
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Clerk
+company: Robert Half - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-1903762
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Personal Injury Paralegal
+company: Yolk Recruitment Ltd - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-1895650
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Hanham Health
+location: Bristol, BS32 4DS, BRISTOL, BS35 4JF
+source: NHS Jobs
+job_id: nhs-5588442
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Remote Conveyancing Paralegal
+company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-1884435
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -225,6 +381,18 @@ company: Not For Profit People - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-1821573
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Senior Administrator
+company: Sirona care & health CIC
+location: Bristol, BS15 4DA
+source: NHS Jobs
+job_id: nhs-5612954
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -264,7 +432,7 @@ job_id: jobg8-1960385
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (17)
+## REVIEW (11)
 
 ---
 action: 
@@ -275,30 +443,6 @@ company: Oxford Health NHS Trust
 location: Keynsham, BS31 1HA
 source: NHS Jobs
 job_id: nhs-5610118
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Ashley Rees Associates - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-1870975
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: M2 Professional Recruitment Services Ltd - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-1990884
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
@@ -318,23 +462,11 @@ reason: No approved Bristol catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: French or Spanish Speaking Credit Controller
-company: CWC Recruitment Ltd - Agency - Permanent
+title: CRM and Lifecycle Manager
+company: Tildenet - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-1883570
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Fundraising & Engagement Officer ( Individual Giving)
-company: Raise + Recruit - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-1991746
+job_id: jobg8-2021045
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
@@ -426,47 +558,11 @@ reason: No approved Bristol catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Administrator
-company: Ashley Rees Associates - Agency - Permanent
+title: Patent Paralegal (c&;40,000) - Bristol
+company: Dawn Ellmore Employment Agency - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-1888375
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Administrator
-company: Reed - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-1867788
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Clerk
-company: Robert Half - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-1903762
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Ledger Controller
-company: Yate Supplies - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-107906403
+job_id: jobg8-1860141
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 

@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 18
+- automatic review: 20
 - automatic exclude: 0
 - effective include: 0
-- effective review: 18
+- effective review: 20
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (18)
+## REVIEW (20)
 
 ---
 action: 
@@ -35,18 +35,6 @@ company: RG Consultancy Ltd - Agency - Permanent
 location: Nantwich
 source: JobG8
 job_id: jobg8-1885417
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable Clerk
-company: Michael Page Finance - Agency - Permanent
-location: Cheshire
-source: JobG8
-job_id: jobg8-1916337
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -78,6 +66,18 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
+title: Construction Secretary
+company: Bloor Homes - Construction - Agency - Contract
+location: Crewe
+source: JobG8
+job_id: jobg8-108018276
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Contact Centre Agent - Uncapped Commission
 company: EE - Company - Permanent
 location: Knutsford
@@ -90,9 +90,21 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
+title: Conveyancing Paralegal / Fee Earner
+company: qed legal - Agency - Permanent
+location: Wilmslow
+source: JobG8
+job_id: jobg8-1898376
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Credit Controller
 company: Adele Carr Recruitment Limited - Agency - Permanent
-location: Cheshire
+location: Nantwich
 source: JobG8
 job_id: jobg8-1916284
 reason: No exact Macclesfield workplace matched; local geographic review is required.
@@ -191,6 +203,18 @@ company: Resource Matters Ltd - Agency - Permanent
 location: Knutsford
 source: JobG8
 job_id: jobg8-1912221
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Private Client Paralegal - Great Benefits
+company: qed legal - Agency - Permanent
+location: Wilmslow
+source: JobG8
+job_id: jobg8-1857326
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

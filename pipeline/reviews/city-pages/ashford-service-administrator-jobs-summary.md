@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 58
+- automatic review: 59
 - automatic exclude: 0
 - effective include: 0
-- effective review: 58
+- effective review: 59
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (58)
+## REVIEW (59)
 
 ---
 action: 
@@ -150,11 +150,11 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Bookkeeper
-company: Pro Talent - Agency - Permanent
+title: Assistant Management Accountant
+company: TPF Recruitment - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-1896668
+job_id: jobg8-1950126
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -162,11 +162,11 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Bookkeeper Administrator
-company: Reed - Agency - Permanent
-location: Maidstone
+title: Bookkeeper
+company: Pro Talent - Agency - Permanent
+location: Kent
 source: JobG8
-job_id: jobg8-1857798
+job_id: jobg8-1896668
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -330,6 +330,18 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Internal Sales Waterproofing
+company: Mitchell Maguire - Agency - Permanent
+location: Tonbridge
+source: JobG8
+job_id: jobg8-108023144
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Junior Payroll Administrator
 company: Fresh People - Agency - Permanent
 location: Canterbury
@@ -371,18 +383,6 @@ company: TN Recruits - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-1945870
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Lettings Coordinator
-company: Reed - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-1817573
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -462,6 +462,18 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Medical Receptionist
+company: River Darent Medical Group
+location: Farningham, DA4 0JU, DARTFORD, DA4 9AB
+source: NHS Jobs
+job_id: nhs-5583869
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Mortgage Administrators required top London Brokerage REMOTE / RARE
 company: Astral Recruitment - Agency - Permanent
 location: Kent
@@ -491,18 +503,6 @@ company: Michael Page Finance - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-1912828
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Administrator
-company: Office Angels - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-1899290
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -599,6 +599,18 @@ company: Dr C.J. Shimmins & Partners
 location: Dartford, DA1 1QY
 source: NHS Jobs
 job_id: nhs-5615926
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist / Administrator
+company: The Grovehurst Surgery
+location: Sittingbourne, ME10 2ST
+source: NHS Jobs
+job_id: nhs-5589840
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 

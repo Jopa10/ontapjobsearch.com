@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 34
-- automatic review: 7
-- automatic exclude: 5
+- automatic review: 6
+- automatic exclude: 4
 - effective include: 34
-- effective review: 7
-- effective exclude: 5
+- effective review: 6
+- effective exclude: 4
 
 ## INCLUDE (34)
 
@@ -81,18 +81,6 @@ company: Yorkmead Junior and Infant School
 location: Birmingham
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-yorkmead-junior-and-infant-school-birmingham-west-midlands
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Not For Profit People - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-2013891
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -329,10 +317,34 @@ action:
 decision: include
 automatic_decision: include
 title: Medical Receptionist
+company: Church Road Surgery
+location: Birmingham, B6 5UP
+source: NHS Jobs
+job_id: nhs-5622570
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Medical Receptionist
 company: Sutton Road Surgery
 location: Birmingham, B23 5TJ
 source: NHS Jobs
 job_id: nhs-5613214
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Medical Receptionist/Care Navigator
+company: Tower Hill Partnership Medical Practice
+location: Birmingham, B42 1BT
+source: NHS Jobs
+job_id: nhs-5622612
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -345,18 +357,6 @@ company: Yorkmead Junior and Infant School
 location: Birmingham
 source: Teaching Vacancies
 job_id: teaching-vacancies-office-administrator-yorkmead-junior-and-infant-school-birmingham-west-midlands
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Paralegal
-company: Fisher German LLP - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-1881809
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -412,18 +412,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Purchasing Coordinator
-company: Bell Cornwall Recruitment - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-1996580
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Remote Conveyancing Paralegal
 company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
 location: Birmingham
@@ -432,7 +420,19 @@ job_id: jobg8-1884409
 reason: Approved conservative Birmingham launch catchment.
 ---
 
-## REVIEW (7)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Sales Administrator
+company: Proprec - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2021377
+reason: Approved conservative Birmingham launch catchment.
+---
+
+## REVIEW (6)
 
 ---
 action: 
@@ -464,10 +464,10 @@ decision: review
 automatic_decision: review
 title: Conveyancing Paralegal
 company: G2 Legal Limited - Agency - Permanent
-location: West Midlands
+location: Sutton Coldfield
 source: JobG8
 job_id: jobg8-1868228
-reason: Broad regional location; review before Birmingham inclusion.
+reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
 ---
@@ -498,18 +498,6 @@ reason: Broad regional location; review before Birmingham inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist & Admin Assistant
-company: Hill West Primary School
-location: Sutton Coldfield
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-admin-assistant-hill-west-primary-school
-reason: No approved Birmingham catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Senior Administrator
 company: Bishop Vesey's Grammar School
 location: Sutton Coldfield
@@ -518,7 +506,7 @@ job_id: teaching-vacancies-senior-administrator-bishop-vesey-s-grammar-school
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
-## EXCLUDE (5)
+## EXCLUDE (4)
 
 ---
 action: 
@@ -565,17 +553,5 @@ company: Mitchell Adam - Agency - Permanent
 location: Solihull
 source: JobG8
 job_id: jobg8-1873246
-reason: Separate exact-city market at launch.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist & Admin Assistant
-company: St Peter's Catholic School
-location: Solihull
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-admin-assistant-st-peter-s-catholic-school
 reason: Separate exact-city market at launch.
 ---

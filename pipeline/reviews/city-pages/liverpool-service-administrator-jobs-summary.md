@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 15
+- Effective included jobs: 20
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
-- automatic review: 8
+- automatic include: 20
+- automatic review: 4
 - automatic exclude: 0
-- effective include: 15
-- effective review: 8
+- effective include: 20
+- effective review: 4
 - effective exclude: 0
 
-## INCLUDE (15)
+## INCLUDE (20)
 
 ---
 action: 
@@ -88,11 +88,35 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Billing & Credit Controller
+company: Reed - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-1875820
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Claims Handler
 company: Spotlightjobs - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-1996564
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Clerical Officer
+company: Liverpool University Hospitals NHS Foundation Trust
+location: Liverpool, L7 8XP
+source: NHS Jobs
+job_id: nhs-5600793
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -124,6 +148,18 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Housing Disrepair Paralegal
+company: G2 Legal Limited - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-1870320
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: HR Administrator
 company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Liverpool
@@ -141,6 +177,18 @@ company: Michael Page Marketing - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-1928716
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Legal Assistant - MOJ Stage 3
+company: Bond Turner - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-1945020
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -184,11 +232,11 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: People Services Learning & Development Administrator
-company: Riverside Group - Agency - Permanent
+title: Pre-Litigation - Legal Assistant (PLCT H)
+company: Bond Turner - Agency - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-1882314
+job_id: jobg8-1945149
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -204,7 +252,19 @@ job_id: nhs-5618745
 reason: Approved conservative Liverpool launch catchment.
 ---
 
-## REVIEW (8)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Remote Conveyancing Paralegal
+company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-1884412
+reason: Approved conservative Liverpool launch catchment.
+---
+
+## REVIEW (4)
 
 ---
 action: 
@@ -222,59 +282,11 @@ reason: Broad county location; review before Liverpool inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Housing Disrepair Paralegal
-company: G2 Legal Limited - Agency - Permanent
-location: Merseyside
-source: JobG8
-job_id: jobg8-1870320
-reason: Broad county location; review before Liverpool inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Interim Senior Internal Communication Manager
 company: Michael Page Marketing - Agency - Permanent
 location: Merseyside
 source: JobG8
 job_id: jobg8-1946410
-reason: Broad county location; review before Liverpool inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Legal Assistant - MOJ Stage 3
-company: Bond Turner - Agency - Permanent
-location: Merseyside
-source: JobG8
-job_id: jobg8-1945020
-reason: Broad county location; review before Liverpool inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Pre-Litigation - Legal Assistant (PLCT H)
-company: Bond Turner - Agency - Permanent
-location: Merseyside
-source: JobG8
-job_id: jobg8-1945149
-reason: Broad county location; review before Liverpool inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Remote Conveyancing Paralegal
-company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
-location: Merseyside
-source: JobG8
-job_id: jobg8-1884412
 reason: Broad county location; review before Liverpool inclusion.
 ---
 

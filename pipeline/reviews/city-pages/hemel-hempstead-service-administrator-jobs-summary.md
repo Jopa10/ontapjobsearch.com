@@ -4,7 +4,7 @@
 - Live route: `/hemel-hempstead/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 37
+- automatic include: 1
+- automatic review: 38
 - automatic exclude: 0
-- effective include: 2
-- effective review: 37
+- effective include: 1
+- effective review: 38
 - effective exclude: 0
 
-## INCLUDE (2)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Examinations Officer
-company: The Adeyfield Academy
-location: Hemel Hempstead
-source: Teaching Vacancies
-job_id: teaching-vacancies-examinations-officer-a5731d2f-6372-47b8-8d69-8228b7ce94d0
-reason: Exact approved Hemel Hempstead workplace.
----
+## INCLUDE (1)
 
 ---
 action: 
@@ -48,7 +36,7 @@ job_id: jobg8-1877352
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
-## REVIEW (37)
+## REVIEW (38)
 
 ---
 action: 
@@ -59,6 +47,18 @@ company: Pinpoint Resourcing Ltd - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-1905967
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: TRP Recruitment Limited - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-2021393
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -119,18 +119,6 @@ company: Vaccination UK
 location: Welwyn Garden City, AL71HH
 source: NHS Jobs
 job_id: nhs-5439405
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator and Pupil Welfare
-company: The Orchard Primary School
-location: Watford
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-and-pupil-welfare-the-orchard-primary-school
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -330,11 +318,11 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: Investigo - Agency - Permanent
+title: Financial Administrator-Location- Hitchin-Salary-Up to &;35,000-Office-Based
+company: Financial Divisions - Agency - Permanent
 location: Hertfordshire
 source: JobG8
-job_id: jobg8-1945616
+job_id: jobg8-2022155
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -378,6 +366,18 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
+title: Marketing and Communications Manager
+company: IPSEA - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-2021809
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Co-ordinator
 company: Brand Recruitment - Agency - Permanent
 location: Hertfordshire
@@ -402,11 +402,11 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Part-time Bookkeeper (school hours)
-company: Mission 4 Recruitment Ltd - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-1938647
+title: Medical Receptionist
+company: Parkfield Medical Centre
+location: Potters Bar, EN6 1QH
+source: NHS Jobs
+job_id: nhs-5621462
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -426,6 +426,18 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
+title: Procurement Administrator
+company: Rise Technical Recruitment - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-23643_225637970
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Purchase Ledger Assistant
 company: BCT Resourcing - Agency - Permanent
 location: Hertfordshire
@@ -438,23 +450,11 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Purchase Ledger Clerk/Accounts Payable Clerk
-company: Accountancy Action - Agency - Permanent
-location: Hertfordshire
+title: Sales Support
+company: ITSS Recruitment Ltd - Agency - Permanent
+location: Ware
 source: JobG8
-job_id: jobg8-1869202
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchasing Coordinator
-company: Rise Technical Recruitment - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-23643_225637970
+job_id: jobg8-108025973
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

@@ -4,8 +4,8 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
-- Threshold currently met: no
+- Effective included jobs: 10
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 21
-- automatic exclude: 12
-- effective include: 5
-- effective review: 21
-- effective exclude: 12
+- automatic include: 10
+- automatic review: 25
+- automatic exclude: 14
+- effective include: 10
+- effective review: 25
+- effective exclude: 14
 
-## INCLUDE (5)
+## INCLUDE (10)
 
 ---
 action: 
@@ -52,11 +52,35 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Business Development Executive
+company: Independent Utility Advice - Agency - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-107967240
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Home Administrator
+company: Akari Care Limited
+location: Newcastle, NE5 5HQ
+source: NHS Jobs
+job_id: nhs-5541887
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Home Administrator
 company: Akari Care Limited
 location: Gateshead, NE8 1QU
 source: NHS Jobs
-job_id: nhs-5596965
+job_id: nhs-5577937
 reason: Approved Newcastle catchment.
 ---
 
@@ -76,6 +100,18 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Housing Coordinator
+company: TPP Recruitment - Agency - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-1927962
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Invoicing Administrator
 company: Adecco - Agency - Permanent
 location: Newcastle
@@ -84,7 +120,31 @@ job_id: jobg8-1874719
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (21)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Motor Claims Handler
+company: Xpert Recruitment Solutions Limited - Agency - Permanent
+location: Newcastle
+source: JobG8
+job_id: jobg8-108026899
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist / Administrator
+company: Glenpark Medical Practice
+location: Gateshead, NE11 9FJ, GATESHEAD, NE8 2PQ
+source: NHS Jobs
+job_id: nhs-5598890
+reason: Approved Newcastle catchment.
+---
+
+## REVIEW (25)
 
 ---
 action: 
@@ -234,6 +294,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: HR Assistant (part time)
+company: Lynn Bennett Resourcing - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1991604
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Insolvency Administrator (Newcastle)
 company: Ambition Europe Limited - Agency - Permanent
 location: Tyne And Wear
@@ -246,11 +318,35 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Junior Accountant
+company: BMC Recruitment Group - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1893905
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Ledger Assistant
 company: Adecco - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-1876148
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing & Communications Manager
+company: Tynedale Hospice at Home - Agency - Permanent
+location: Northumberland
+source: JobG8
+job_id: jobg8-2021816
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
@@ -330,6 +426,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Remote Conveyancing Paralegal
+company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1884416
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: School Support Roles - Supervisory Assistant & Administrative Assistant
 company: St Peter's Church of England Primary School
 location: Wallsend
@@ -338,7 +446,7 @@ job_id: teaching-vacancies-school-support-roles-supervisory-assistant-administra
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
-## EXCLUDE (12)
+## EXCLUDE (14)
 
 ---
 action: 
@@ -349,6 +457,18 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-1884707
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Receivable Assistant
+company: LANCESOFT LTD - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-1982454
 reason: Separate employment market.
 ---
 
@@ -416,6 +536,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Business Support Administrator
+company: North East & North Cumbria ICB
+location: Sunderland, SR5 3XB
+source: NHS Jobs
+job_id: nhs-5619773
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Finance Assistant
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: County Durham
@@ -454,7 +586,7 @@ decision: exclude
 automatic_decision: exclude
 title: Payroll and Credit Controller
 company: Spear-heads - Agency - Permanent
-location: County Durham
+location: Durham
 source: JobG8
 job_id: jobg8-1933966
 reason: Separate employment market.

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 30
+- automatic review: 33
 - automatic exclude: 0
 - effective include: 1
-- effective review: 30
+- effective review: 33
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: jobg8-1882087
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (30)
+## REVIEW (33)
 
 ---
 action: 
@@ -140,7 +140,7 @@ decision: review
 automatic_decision: review
 title: Commercial Property Paralegal Commercial Property Transactions Malton / York
 company: qed legal - Agency - Permanent
-location: Malton
+location: York
 source: JobG8
 job_id: jobg8-1873947
 reason: No exact Scarborough workplace matched; local geographic review is required.
@@ -330,6 +330,18 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Medical Receptionist
+company: Unity Health
+location: York, YO10 5LA, York, YO10 4DU
+source: NHS Jobs
+job_id: nhs-5615291
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Paralegal
 company: Reed - Agency - Permanent
 location: York
@@ -342,9 +354,21 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Patient Care Navigator (Medical Receptionist - Priory Medical Centre)
+company: Priory Medical Group
+location: YORK, YO24 3WX
+source: NHS Jobs
+job_id: nhs-5604935
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Administrator
 company: Portfolio Payroll - Agency - Permanent
-location: Yorkshire
+location: Harrogate
 source: JobG8
 job_id: jobg8-1892503
 reason: No exact Scarborough workplace matched; local geographic review is required.
@@ -356,7 +380,7 @@ decision: review
 automatic_decision: review
 title: Payroll Clerk
 company: Reed - Agency - Permanent
-location: Yorkshire
+location: Harrogate
 source: JobG8
 job_id: jobg8-1908699
 reason: No exact Scarborough workplace matched; local geographic review is required.
@@ -368,7 +392,7 @@ decision: review
 automatic_decision: review
 title: Payroll Coordinator
 company: Reed - Agency - Permanent
-location: Yorkshire
+location: Harrogate
 source: JobG8
 job_id: jobg8-1867235
 reason: No exact Scarborough workplace matched; local geographic review is required.
@@ -395,6 +419,18 @@ company: qed legal - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-1871003
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Website Administrator
+company: Reed - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-2021380
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

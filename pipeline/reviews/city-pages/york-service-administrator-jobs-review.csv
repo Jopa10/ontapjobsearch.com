@@ -4,12 +4,15 @@ include,jobg8-1857674,Accounts Assistant 20 hrs Part time,KD Recruitment Limited
 include,nhs-5607825,Administrator,Practice Plus Group - Health in Justice,"York, YO41 1FZ",NHS Jobs,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,teaching-vacancies-attendance-administrator-archbishop-holgate-s-school-a-church-of-england-academy,Attendance Administrator,"Archbishop Holgate's School, A Church of England Academy",York,Teaching Vacancies,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,jobg8-1871047,Commercial Property Legal Secretary/Assistant - York,qed legal - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
+include,jobg8-1873947,Commercial Property Paralegal Commercial Property Transactions Malton / York,qed legal - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,jobg8-1911811,Corporate/Commercial Legal Secretary/Assistant - York,qed legal - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,jobg8-1885701,Legal Secretary/Paralegal - Private Client,Reed - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
+include,nhs-5615291,Medical Receptionist,Unity Health,"York, YO10 5LA, York, YO10 4DU",NHS Jobs,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,jobg8-1874079,Paralegal,Reed - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
+include,nhs-5604935,Patient Care Navigator (Medical Receptionist - Priory Medical Centre),Priory Medical Group,"YORK, YO24 3WX",NHS Jobs,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,jobg8-1871003,Residential Property Legal Secretary / Assistant - York,qed legal - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
+include,jobg8-2021380,Website Administrator,Reed - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 review,jobg8-1869341,Client Accounts Assistant,Property Personnel - Agency - Permanent,Richmond,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
-review,jobg8-1873947,Commercial Property Paralegal Commercial Property Transactions Malton / York,qed legal - Agency - Permanent,Malton,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,jobg8-1888842,Demand Planner,MTrec Recruitment - Agency - Permanent,Bedale,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,jobg8-1950790,Interim Finance Administrator,KD Recruitment Limited - Agency - Permanent,Filey,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,jobg8-108001446,Interim Finance Administrator,KD Recruitment Limited - Agency - Temporary,Filey,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
@@ -27,6 +30,6 @@ exclude,jobg8-1868898,Demand Planner - FMCG,Hays Specialist Recruitment Limited 
 exclude,jobg8-1945785,Finance Administrator,Marks Sattin - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
 exclude,jobg8-1910220,Finance Assistant,IPS Group - Agency - Permanent,Harrogate,JobG8,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs
 exclude,jobg8-1905167,Interim Finance Assistant,Marks Sattin - Agency - Permanent,Harrogate,JobG8,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs
-exclude,jobg8-1892503,Payroll Administrator,Portfolio Payroll - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
-exclude,jobg8-1908699,Payroll Clerk,Reed - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
-exclude,jobg8-1867235,Payroll Coordinator,Reed - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
+exclude,jobg8-1892503,Payroll Administrator,Portfolio Payroll - Agency - Permanent,Harrogate,JobG8,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs
+exclude,jobg8-1908699,Payroll Clerk,Reed - Agency - Permanent,Harrogate,JobG8,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs
+exclude,jobg8-1867235,Payroll Coordinator,Reed - Agency - Permanent,Harrogate,JobG8,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs
