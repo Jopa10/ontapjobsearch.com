@@ -299,7 +299,7 @@ HIGH_CONFIDENCE_PATTERNS = [
     "call handler", "contact centre", "call centre", "service advisor", "service adviser",
     "service administrator", "service coordinator", "service co-ordinator", "business support officer",
     "business support administrator", "bookings administrator", "booking coordinator", "scheduler",
-    "assistant accountant", "assistant management accountant", "accounting assistant", "accountancy assistant", "accounts assistant",
+    "assistant accountant", "assistant management accountant", "management accountant assistant", "accounting assistant", "accountancy assistant", "accounts assistant",
     "finance assistant", "junior accountant", "junior bookkeeper", "bookkeeper", "credit controller",
     "payroll administrator", "payroll assistant", "payroll clerk", "payroll coordinator",
     "legal administrator", "legal assistant", "paralegal",
@@ -319,16 +319,16 @@ ELASTIC_FIT_PATTERNS = [
 # the specialist hard-pass list.  Keep this list deliberately title-specific:
 # it does not weaken exclusions for senior, managerial or specialist roles.
 PRACTICAL_ROLE_PATTERNS = [
-    "assistant accountant", "assistant management accountant", "accounting assistant", "accountancy assistant",
+    "assistant accountant", "assistant management accountant", "management accountant assistant", "accounting assistant", "accountancy assistant",
     "accounts assistant", "finance assistant", "junior accountant", "junior bookkeeper",
     "bookkeeper", "credit controller", "payroll administrator", "payroll assistant",
     "payroll clerk", "payroll coordinator", "legal administrator", "legal assistant",
     "paralegal",
 ]
 
-QUALIFICATION_RELEVANT_ROLE_RE = re.compile(
-    r"\b(?:account(?:ant|ancy|ing)?|bookkeep(?:er|ing)?|credit controller|"
-    r"payroll|legal|paralegal)\b",
+ACCOUNTANT_ASSISTANT_TITLE_RE = re.compile(
+    r"\b(?:assistant\s+(?:management\s+)?accountant|"
+    r"management\s+accountant\s+assistant)\b",
     re.IGNORECASE,
 )
 MANDATORY_PROFESSIONAL_QUALIFICATION_RE = re.compile(
@@ -342,8 +342,7 @@ MANDATORY_PROFESSIONAL_QUALIFICATION_RE = re.compile(
     re.IGNORECASE | re.DOTALL,
 )
 QUALIFICATION_SIGNAL_RE = re.compile(
-    r"\b(?:acca|aca|cima|aat|qualification|qualified|professional body|"
-    r"solicitor|barrister|law degree|legal practice course|lpc)\b",
+    r"\b(?:acca|aca|cima|aat|qualification|qualified|professional body)\b",
     re.IGNORECASE,
 )
 PREFERRED_QUALIFICATION_RE = re.compile(
@@ -1590,12 +1589,13 @@ def is_practical_role_title(title: str) -> bool:
 def assess_practical_role_qualifications(title: str, description: Any) -> tuple[str, str]:
     """Return ``ok``, ``review`` or ``exclude`` for qualification-sensitive roles.
 
-    This is intentionally narrower than a general qualification detector.  It
-    applies only to practical finance/bookkeeping/payroll/legal roles, where a
-    professional qualification can change whether the advert is suitable for
-    automatic selection.  The complete advert text is inspected.
+    This is intentionally narrow: the ACCA/ACA/CIMA check applies to Assistant
+    Accountant and Assistant Management Accountant titles. Bookkeeper, payroll,
+    credit-control and legal-office titles do not enter this accountant
+    qualification review. The complete advert text is inspected for in-scope
+    titles.
     """
-    if not is_practical_role_title(title) or not QUALIFICATION_RELEVANT_ROLE_RE.search(title):
+    if not is_practical_role_title(title) or not ACCOUNTANT_ASSISTANT_TITLE_RE.search(title):
         return "ok", ""
 
     text = norm(description)
@@ -2482,6 +2482,21 @@ def _markdown_value(value: Any) -> str:
     return re.sub(r"\s+", " ", norm(value)).strip()
 
 
+def _manual_review_salary_label(row: dict[str, Any]) -> str:
+    """Show whether review salary came from JobG8 fields or description parsing."""
+    salary = _markdown_value(row.get("salary_text"))
+    source = _markdown_value(row.get("salary_source"))
+    if salary:
+        source_label = {
+            "structured": "JobG8 salary fields",
+            "description_fallback": "extracted from description",
+        }.get(source, source or "source unspecified")
+        return f"{salary} [{source_label}]"
+    if source == "missing":
+        return "no salary in JobG8 salary fields; no supported salary amount found in description"
+    return "salary unavailable; source not established"
+
+
 def write_manual_review_markdown(
     path: Path,
     rows: list[dict[str, Any]],
@@ -2547,7 +2562,7 @@ def write_manual_review_markdown(
                 review_label,
                 _markdown_value(row.get("region")),
                 _markdown_value(row.get("town")),
-                _markdown_value(row.get("salary_text")),
+                _manual_review_salary_label(row),
                 _markdown_value(row.get("title")),
             ])
             lines.extend([

@@ -237,6 +237,7 @@ class AgreedTitleRuleTests(unittest.TestCase):
             "Junior Bookkeeper",
             "Legal Administrator",
             "Paralegal",
+            "Management Accountant Assistant",
         )
         for title in practical_titles:
             with self.subTest(title=title):
@@ -249,7 +250,7 @@ class AgreedTitleRuleTests(unittest.TestCase):
         self.assertEqual(
             "exclude",
             admin.assess_practical_role_qualifications(
-                "Junior Accountant",
+                "Assistant Accountant",
                 "ACCA qualification is essential for this role.",
             )[0],
         )
@@ -261,18 +262,59 @@ class AgreedTitleRuleTests(unittest.TestCase):
             )[0],
         )
         self.assertEqual(
-            "review",
+            "ok",
             admin.assess_practical_role_qualifications(
-                "Legal Administrator",
-                "Legal administration experience is desirable.",
+                "Bookkeeper",
+                "Maintain ledgers and prepare monthly reconciliations.",
             )[0],
         )
         self.assertEqual(
             "review",
             admin.assess_practical_role_qualifications(
-                "Credit Controller",
+                "Assistant Accountant",
                 "Maintain ledgers, chase debts and resolve customer queries.",
             )[0],
+        )
+        self.assertEqual(
+            "ok",
+            admin.assess_practical_role_qualifications(
+                "Bookkeeper",
+                "ACCA qualification is essential for this role.",
+            )[0],
+        )
+        self.assertEqual(
+            "exclude",
+            admin.assess_practical_role_qualifications(
+                "Management Accountant Assistant",
+                "CIMA is a mandatory requirement.",
+            )[0],
+        )
+        self.assertEqual(
+            "ok",
+            admin.assess_practical_role_qualifications(
+                "Credit Controller",
+                "A professional qualification would be desirable.",
+            )[0],
+        )
+
+    def test_manual_review_salary_label_shows_source_or_missing_status(self) -> None:
+        self.assertEqual(
+            "£26,000 - £30,000 per year [JobG8 salary fields]",
+            admin._manual_review_salary_label({
+                "salary_text": "£26,000 - £30,000 per year",
+                "salary_source": "structured",
+            }),
+        )
+        self.assertEqual(
+            "£26,000 per year [extracted from description]",
+            admin._manual_review_salary_label({
+                "salary_text": "£26,000 per year",
+                "salary_source": "description_fallback",
+            }),
+        )
+        self.assertEqual(
+            "no salary in JobG8 salary fields; no supported salary amount found in description",
+            admin._manual_review_salary_label({"salary_source": "missing"}),
         )
 
 
