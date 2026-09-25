@@ -1,6 +1,6 @@
 # Ontap daily regional overview
 
-Generated: 2026-09-25T16:35:04+01:00
+Generated: 2026-09-25T17:36:43+01:00
 
 [Download this overview as Excel](./daily-region-overview.xlsx)
 
@@ -8,16 +8,16 @@ Generated: 2026-09-25T16:35:04+01:00
 
 | Measure | Count |
 |---|---:|
-| Unique live jobs | 2,062 |
+| Unique live jobs | 2,061 |
 | Unique JobG8 jobs | 1,703 |
-| Unique non-JobG8 jobs | 359 |
-| Regional/category slice placements | 2,617 |
+| Unique non-JobG8 jobs | 358 |
+| Regional/category slice placements | 2,616 |
 | Jobs appearing on multiple slices | 555 |
 | Extra slice placements | 555 |
 | Unique jobs outside governed slices | 0 |
 | Jobs found in non-LIVE slices | 0 |
 
-**Reconciliation: 2,062 unique jobs + 555 extra slice placements = 2,617 regional/category slice placements.**
+**Reconciliation: 2,061 unique jobs + 555 extra slice placements = 2,616 regional/category slice placements.**
 
 Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-25.csv` — **STALE — CSV says 2,078 for 2026-09-25**.
 
@@ -28,7 +28,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-2
 | JobG8 | 1,703 | 555 | 555 |
 | NEJobs | 2 | 0 | 0 |
 | NHS Jobs | 225 | 0 | 0 |
-| Teaching Vacancies | 132 | 0 | 0 |
+| Teaching Vacancies | 131 | 0 | 0 |
 
 ## JOBG8 FEED RECEIVED
 
@@ -296,7 +296,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-2
 
 ## CITY OPPORTUNITIES
 
-**349 mapped towns/localities with live jobs or an existing city page.** Counts use all 2,062 unique live Ontap jobs across every role and provider: 1,083 have an exact recognised town/locality and 979 have only broader or unrecognised location evidence. CREATE means 4+ current Service Admin jobs and no existing city page; London is held separately.
+**349 mapped towns/localities with live jobs or an existing city page.** Counts use all 2,061 unique live Ontap jobs across every role and provider: 1,082 have an exact recognised town/locality and 979 have only broader or unrecognised location evidence. CREATE means 4+ current Service Admin jobs and no existing city page; London is held separately.
 
 | Status | Town/city/locality | Region | All live jobs | Existing pages | Current routes | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre | Other / unclassified |
 |---|---|---|---:|---:|---||---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -326,7 +326,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-2
 | LIVE PAGE | Warrington | Cheshire - Warrington & Halton | 17 | 1 | /warrington/service-administrator-jobs | 13 | 0 | 0 | 0 | 0 | 4 | 0 | 0 | 0 |
 | LIVE PAGE | Liverpool | Merseyside - Liverpool | 16 | 1 | /liverpool/service-administrator-jobs | 12 | 0 | 0 | 1 | 3 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Nottingham | Nottinghamshire | 14 | 1 | /nottingham/jobs | 9 | 0 | 0 | 0 | 0 | 4 | 1 | 0 | 0 |
-| LIVE PAGE | Oxford | Oxfordshire | 14 | 1 | /oxford/service-administrator-jobs | 8 | 1 | 0 | 0 | 0 | 5 | 0 | 0 | 0 |
+| LIVE PAGE | Oxford | Oxfordshire | 13 | 1 | /oxford/service-administrator-jobs | 7 | 1 | 0 | 0 | 0 | 5 | 0 | 0 | 0 |
 | LIVE PAGE | Southampton | Hampshire | 13 | 2 | /southampton/service-administrator-jobs, /southampton/support-worker | 1 | 8 | 2 | 0 | 0 | 2 | 0 | 0 | 0 |
 | LIVE PAGE | Norwich | Norfolk | 12 | 1 | /norwich/jobs | 1 | 0 | 0 | 2 | 4 | 5 | 0 | 0 | 0 |
 | LIVE PAGE | Cardiff | Wales South - Cardiff & Vale | 11 | 1 | /cardiff/service-administrator-jobs | 9 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 |
@@ -702,7 +702,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-2
 | Northern Ireland - East | 8 |  |  |  | CHECK | CHECK | CHECK |  |
 | Northern Ireland - West |  |  |  |  |  |  |  |  |
 | Nottinghamshire | 26 |  |  |  |  | 12 | 2 |  |
-| Oxfordshire | 35 | 5 |  |  | 7 | 14 |  |  |
+| Oxfordshire | 34 | 5 |  |  | 7 | 14 |  |  |
 | Rutland |  |  |  |  |  |  |  |  |
 | Scotland - Borders |  |  |  |  |  |  |  |  |
 | Scotland Central - Edinburgh & Lothians | 7 |  |  |  |  |  |  |  |
@@ -825,6 +825,6 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-2
 | Measure | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Live regions | 52 / 78 | 11 / 78 | 14 / 78 | 13 / 78 | 22 / 78 | 36 / 78 | 9 / 78 | 6 / 78 |
-| Live slice placements | 1490 | 89 | 72 | 172 | 182 + 2 CHECK | 567 + 2 CHECK | 44 + 2 CHECK | 1 + 5 CHECK |
+| Live slice placements | 1489 | 89 | 72 | 172 | 182 + 2 CHECK | 567 + 2 CHECK | 44 + 2 CHECK | 1 + 5 CHECK |
 
 **Live slices: 163 / 624.**
