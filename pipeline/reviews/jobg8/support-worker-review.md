@@ -133,7 +133,11 @@ job_id: 107863056
 
 ## SUSSEX — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - SUSSEX | Sussex | Burgess Hill | £39134 per year | Healthcare Assistant
+job_id: 108024728
+---
 
 ## CUMBRIA SOUTH — SELECTED
 
@@ -147,6 +151,12 @@ job_id: 107950046
 action:
 SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour () will be paid) | Relief Support Worker
 job_id: 108001475
+---
+
+---
+action:
+SELECTED | Cumbria - South | Kirkby Stephen | £30000 per year | Childrens Residential Support Worker
+job_id: 108027338
 ---
 
 ## CUMBRIA SOUTH — POSSIBLES
@@ -603,12 +613,24 @@ SELECTED | Wiltshire | Chippenham | £85 - £110 per daily | Autism Support Assi
 job_id: 107869953
 ---
 
+---
+action:
+SELECTED | Wiltshire | Swindon | £30000 per year | Childrens Residential Support Worker
+job_id: 108025046
+---
+
 ## WILTSHIRE — POSSIBLES
 
 ---
 action:
 POSS - WILTSHIRE | Wiltshire | Chippenham | £39134 per year | Healthcare Assistant
 job_id: 107879735
+---
+
+---
+action:
+POSS - WILTSHIRE | Wiltshire | Salisbury | £22.25 - £28 per hour | Mental Health Support Worker
+job_id: 108025922
 ---
 
 <!-- ONTAP_PERSISTENT_DECISIONS_V1
