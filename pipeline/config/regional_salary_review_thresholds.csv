@@ -1,7 +1,9 @@
-region,review_threshold_gbp,notes
-London,35000,Higher London and South East review point agreed 2026-07-24
-Sussex,35000,Use London salary review point
-Hampshire,35000,Use London salary review point
-Surrey,35000,Use London salary review point
-Kent,35000,Use London salary review point
-DEFAULT,30000,All other current regions
+family,region,review_threshold_gbp,notes
+default,London,35000,Legacy shared threshold retained for families without a specific policy
+default,Sussex,35000,Legacy shared threshold retained for families without a specific policy
+default,Hampshire,35000,Legacy shared threshold retained for families without a specific policy
+default,Surrey,35000,Legacy shared threshold retained for families without a specific policy
+default,Kent,35000,Legacy shared threshold retained for families without a specific policy
+default,DEFAULT,30000,Legacy shared threshold for all other regions and families
+admin_service,London,42000,Admin/Service salary review point agreed 2026-09-25
+admin_service,DEFAULT,37000,Admin/Service salary review point agreed 2026-09-25; all regions outside London

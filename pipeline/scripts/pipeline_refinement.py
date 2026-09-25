@@ -112,22 +112,40 @@ def _amounts_and_period_from_text(salary_text: Any) -> tuple[list[float], str]:
     return amounts, _normalise_period(text)
 
 
-def load_salary_thresholds(path: Path = SALARY_POLICY_PATH) -> dict[str, float]:
-    """Load regional upper-salary review points, including a DEFAULT row."""
-    thresholds: dict[str, float] = {}
+def load_salary_thresholds(path: Path = SALARY_POLICY_PATH) -> dict[tuple[str, str], float]:
+    """Load family and regional upper-salary review points.
+
+    Rows without a ``family`` column retain the legacy shared policy.  A
+    family-specific row takes precedence, with the legacy regional/default
+    threshold used as fallback for families without explicit overrides.
+    """
+    thresholds: dict[tuple[str, str], float] = {}
     with path.open("r", encoding="utf-8-sig", newline="") as handle:
         for row in csv.DictReader(handle):
             region = _clean_text(row.get("region"))
             threshold = _parse_amount(row.get("review_threshold_gbp"))
             if region and threshold is not None:
-                thresholds[region.casefold()] = threshold
-    if "default" not in thresholds:
+                family = _clean_text(row.get("family")) or "default"
+                thresholds[(family.casefold(), region.casefold())] = threshold
+    if ("default", "default") not in thresholds:
         raise ValueError(f"Salary policy must contain a DEFAULT row: {path}")
     return thresholds
 
 
-def salary_threshold_for_region(region: str, thresholds: dict[str, float]) -> float:
-    return thresholds.get(_clean_text(region).casefold(), thresholds["default"])
+def salary_threshold_for_region(
+    region: str,
+    thresholds: dict[tuple[str, str], float],
+    family: str = "default",
+) -> float:
+    region_key = _clean_text(region).casefold()
+    family_key = _clean_text(family).casefold() or "default"
+    return thresholds.get(
+        (family_key, region_key),
+        thresholds.get(
+            (family_key, "default"),
+            thresholds.get(("default", region_key), thresholds[("default", "default")]),
+        ),
+    )
 
 
 def assess_salary(
@@ -137,7 +155,8 @@ def assess_salary(
     salary_period: Any,
     salary_text: Any,
     region: str,
-    thresholds: dict[str, float],
+    thresholds: dict[tuple[str, str], float],
+    family: str = "default",
     reviewed_ceiling_gbp: Any = None,
 ) -> SalaryAssessment:
     """Annualise the upper figure and apply the agreed regional review rule.
@@ -157,7 +176,7 @@ def assess_salary(
         amounts, text_period = _amounts_and_period_from_text(salary_text)
         period = text_period or period
 
-    threshold = salary_threshold_for_region(region, thresholds)
+    threshold = salary_threshold_for_region(region, thresholds, family)
     if not amounts:
         return SalaryAssessment("missing", None, threshold, "salary unavailable")
     if not period:

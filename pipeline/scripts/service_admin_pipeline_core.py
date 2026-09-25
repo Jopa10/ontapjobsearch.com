@@ -1822,6 +1822,7 @@ def _process_batch(
             salary_text=salary_text_preview,
             region=region,
             thresholds=SALARY_THRESHOLDS,
+            family="admin_service",
             reviewed_ceiling_gbp=reviewed_salary_ceiling,
         )
         salary_review_status = salary_assessment.status

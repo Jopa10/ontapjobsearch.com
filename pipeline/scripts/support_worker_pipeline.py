@@ -1688,6 +1688,7 @@ def process(
             salary_text=salary_text_preview,
             region=publish_region,
             thresholds=SALARY_THRESHOLDS,
+            family="support_worker",
             reviewed_ceiling_gbp=reviewed_salary_ceiling,
         )
         salary_review_status = salary_assessment.status

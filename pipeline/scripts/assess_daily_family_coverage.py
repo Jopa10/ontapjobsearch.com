@@ -546,6 +546,7 @@ def _assess_customer_service(
                 salary_text=salary_text,
                 region=region,
                 thresholds=customer_service.SALARY_THRESHOLDS,
+                family="customer_service_contact_centre",
             )
             if salary.corrupt or salary.review_required:
                 continue

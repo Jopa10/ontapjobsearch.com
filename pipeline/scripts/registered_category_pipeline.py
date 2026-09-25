@@ -268,6 +268,7 @@ def run_live_registered_categories() -> int:
                     salary_text=salary_text,
                     region=region,
                     thresholds=SALARY_THRESHOLDS,
+                    family=category,
                 )
                 if salary.corrupt:
                     decisions.append(
