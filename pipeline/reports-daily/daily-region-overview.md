@@ -1,6 +1,6 @@
 # Ontap daily regional overview
 
-Generated: 2026-09-24T19:31:34+01:00
+Generated: 2026-09-25T09:13:56+01:00
 
 [Download this overview as Excel](./daily-region-overview.xlsx)
 
@@ -8,16 +8,16 @@ Generated: 2026-09-24T19:31:34+01:00
 
 | Measure | Count |
 |---|---:|
-| Unique live jobs | 1,875 |
+| Unique live jobs | 1,861 |
 | Unique JobG8 jobs | 1,560 |
-| Unique non-JobG8 jobs | 315 |
-| Regional/category slice placements | 2,195 |
+| Unique non-JobG8 jobs | 301 |
+| Regional/category slice placements | 2,181 |
 | Jobs appearing on multiple slices | 319 |
 | Extra slice placements | 320 |
 | Unique jobs outside governed slices | 0 |
 | Jobs found in non-LIVE slices | 0 |
 
-**Reconciliation: 1,875 unique jobs + 320 extra slice placements = 2,195 regional/category slice placements.**
+**Reconciliation: 1,861 unique jobs + 320 extra slice placements = 2,181 regional/category slice placements.**
 
 Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-24.csv` — **STALE — CSV says 1,900 for 2026-09-24**.
 
@@ -27,32 +27,32 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-2
 |---|---:|---:|---:|
 | JobG8 | 1,560 | 319 | 320 |
 | NEJobs | 3 | 0 | 0 |
-| NHS Jobs | 163 | 0 | 0 |
-| Teaching Vacancies | 149 | 0 | 0 |
+| NHS Jobs | 161 | 0 | 0 |
+| Teaching Vacancies | 137 | 0 | 0 |
 
 ## JOBG8 FEED RECEIVED
 
-**JobG8 jobs received: 17,051** (feed date: 2026-09-24)
+**JobG8 jobs received: 16,991** (feed date: 2026-09-25)
 
 | JobG8 classification | Jobs received | Ontap jobs |
 |---|---:|---:|
-| Accounting | 3,415 | 606 |
-| Transport & Logistics | 3,248 | 55 |
-| Healthcare & Medical | 1,928 | 84 |
-| Education | 1,476 | 20 |
-| Legal | 1,322 | 198 |
-| Banking & Financial Services | 1,109 | 68 |
-| Sales & Marketing | 1,096 | 212 |
-| I.T. & Communications | 1,032 | 23 |
-| HR / Recruitment | 704 | 100 |
-| Real Estate & Property | 496 | 12 |
-| Insurance & Superannuation | 426 | 42 |
-| Call Centre / CustomerService | 382 | 98 |
-| Community & Sport | 244 | 14 |
-| Administration | 111 | 67 |
-| Advert / Media / Entertainment | 35 | 5 |
-| Government & Defence | 27 | 1 |
-| Total Ontap JobG8 jobs published today | 17,051 | 1,605 |
+| Accounting | 3,396 | 600 |
+| Transport & Logistics | 3,231 | 55 |
+| Healthcare & Medical | 1,868 | 85 |
+| Education | 1,510 | 22 |
+| Legal | 1,335 | 198 |
+| Sales & Marketing | 1,111 | 216 |
+| Banking & Financial Services | 1,099 | 67 |
+| I.T. & Communications | 1,021 | 24 |
+| HR / Recruitment | 705 | 99 |
+| Real Estate & Property | 505 | 10 |
+| Insurance & Superannuation | 429 | 43 |
+| Call Centre / CustomerService | 372 | 97 |
+| Community & Sport | 238 | 7 |
+| Administration | 113 | 67 |
+| Advert / Media / Entertainment | 33 | 5 |
+| Government & Defence | 25 | 1 |
+| Total Ontap JobG8 jobs published today | 16,991 | 1,596 |
 
 ## PAGES
 
@@ -291,7 +291,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-2
 
 ## CITY OPPORTUNITIES
 
-**324 mapped towns/localities with live jobs or an existing city page.** Counts use all 1,875 unique live Ontap jobs across every role and provider: 951 have an exact recognised town/locality and 924 have only broader or unrecognised location evidence. CREATE means 4+ current Service Admin jobs and no existing city page; London is held separately.
+**323 mapped towns/localities with live jobs or an existing city page.** Counts use all 1,861 unique live Ontap jobs across every role and provider: 937 have an exact recognised town/locality and 924 have only broader or unrecognised location evidence. CREATE means 4+ current Service Admin jobs and no existing city page; London is held separately.
 
 | Status | Town/city/locality | Region | All live jobs | Existing pages | Current routes | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre | Other / unclassified |
 |---|---|---|---:|---:|---||---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -312,26 +312,26 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-2
 | CREATE | Merthyr Tydfil | Wales South - Valleys | 4 | 0 |  | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | CREATE | Newport-on-tay | Scotland Central - Tayside | 4 | 0 |  | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Birmingham | West Midlands - Birmingham & Solihull | 34 | 1 | /birmingham/service-administrator-jobs | 17 | 0 | 0 | 7 | 4 | 6 | 0 | 0 | 0 |
-| LIVE PAGE | Leeds | Yorkshire - West | 27 | 1 | /leeds/service-administrator-jobs | 18 | 1 | 1 | 4 | 1 | 2 | 0 | 0 | 0 |
 | LIVE PAGE | Manchester | Greater Manchester - Manchester & Salford | 26 | 1 | /manchester/service-administrator-jobs | 20 | 0 | 2 | 0 | 0 | 4 | 0 | 0 | 0 |
 | LIVE PAGE | Bristol | Bristol & Bath | 25 | 1 | /bristol/service-administrator-jobs | 20 | 0 | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
+| LIVE PAGE | Leeds | Yorkshire - West | 25 | 1 | /leeds/service-administrator-jobs | 16 | 1 | 1 | 4 | 1 | 2 | 0 | 0 | 0 |
 | LIVE PAGE | Warrington | Cheshire - Warrington & Halton | 16 | 1 | /warrington/service-administrator-jobs | 12 | 0 | 0 | 0 | 0 | 4 | 0 | 0 | 0 |
 | LIVE PAGE | Liverpool | Merseyside - Liverpool | 15 | 1 | /liverpool/service-administrator-jobs | 11 | 0 | 0 | 1 | 3 | 0 | 0 | 0 | 0 |
-| LIVE PAGE | Nottingham | Nottinghamshire | 15 | 1 | /nottingham/jobs | 10 | 0 | 0 | 0 | 0 | 4 | 1 | 0 | 0 |
 | LIVE PAGE | Cambridge | Cambridgeshire | 14 | 1 | /cambridge/service-administrator-jobs | 12 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 |
 | LIVE PAGE | Exeter | Devon | 13 | 1 | /exeter/service-administrator-jobs | 7 | 0 | 2 | 0 | 0 | 4 | 0 | 0 | 0 |
-| LIVE PAGE | Oxford | Oxfordshire | 13 | 1 | /oxford/service-administrator-jobs | 8 | 1 | 0 | 0 | 0 | 4 | 0 | 0 | 0 |
 | LIVE PAGE | Southampton | Hampshire | 13 | 2 | /southampton/service-administrator-jobs, /southampton/support-worker | 0 | 9 | 2 | 0 | 0 | 2 | 0 | 0 | 0 |
 | LIVE PAGE | Maidstone | Kent | 12 | 1 | /maidstone/service-administrator-jobs | 1 | 7 | 1 | 0 | 0 | 3 | 0 | 0 | 0 |
 | LIVE PAGE | Norwich | Norfolk | 12 | 1 | /norwich/jobs | 1 | 0 | 0 | 2 | 4 | 5 | 0 | 0 | 0 |
+| LIVE PAGE | Nottingham | Nottinghamshire | 12 | 1 | /nottingham/jobs | 7 | 0 | 0 | 0 | 0 | 4 | 1 | 0 | 0 |
+| LIVE PAGE | Oxford | Oxfordshire | 12 | 1 | /oxford/service-administrator-jobs | 7 | 1 | 0 | 0 | 0 | 4 | 0 | 0 | 0 |
 | LIVE PAGE | Cardiff | Wales South - Cardiff & Vale | 11 | 1 | /cardiff/service-administrator-jobs | 9 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 |
 | LIVE PAGE | Glasgow | Scotland West - Glasgow | 11 | 1 | /glasgow/service-administrator-jobs | 10 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Plymouth | Devon | 11 | 1 | /plymouth/service-administrator-jobs | 7 | 0 | 1 | 0 | 0 | 3 | 0 | 0 | 0 |
 | LIVE PAGE | Bradford | Yorkshire - West | 10 | 1 | /bradford/service-administrator-jobs | 9 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
 | LIVE PAGE | Chelmsford | Essex | 9 | 1 | /chelmsford/service-administrator-jobs | 7 | 0 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Peterborough | Cambridgeshire | 9 | 1 | /peterborough/service-administrator-jobs | 5 | 0 | 0 | 0 | 0 | 4 | 0 | 0 | 0 |
-| LIVE PAGE | Sheffield | Yorkshire - South | 9 | 1 | /sheffield/service-administrator-jobs | 7 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
 | LIVE PAGE | Milton Keynes | Buckinghamshire | 8 | 1 | /milton-keynes/service-administrator-jobs | 2 | 0 | 0 | 0 | 3 | 3 | 0 | 0 | 0 |
+| LIVE PAGE | Sheffield | Yorkshire - South | 8 | 1 | /sheffield/service-administrator-jobs | 6 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
 | LIVE PAGE | Leicester | Leicestershire | 7 | 1 | /leicester/service-administrator-jobs | 5 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 |
 | LIVE PAGE | Reading | Berkshire | 7 | 1 | /reading/jobs | 2 | 0 | 2 | 0 | 0 | 3 | 0 | 0 | 0 |
 | LIVE PAGE | York | Yorkshire - North | 7 | 1 | /york/service-administrator-jobs | 2 | 0 | 0 | 5 | 0 | 0 | 0 | 0 | 0 |
@@ -350,15 +350,14 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-2
 | LIVE PAGE | Hull | Yorkshire - East | 3 | 1 | /hull/service-administrator-jobs | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Newcastle | North East - Tyneside, Wearside & Northumberland | 3 | 1 | /newcastle/service-administrator-jobs | 1 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Northallerton | Yorkshire - North | 3 | 1 | /northallerton/jobs | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| LIVE PAGE | Rotherham | Yorkshire - South | 3 | 1 | /rotherham/service-administrator-jobs | 2 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
 | LIVE PAGE | Stoke-on-trent | Staffordshire | 3 | 1 | /stoke-on-trent/service-administrator-jobs | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Altrincham | Greater Manchester - South | 2 | 1 | /altrincham/service-administrator-jobs | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Aylesbury | Buckinghamshire | 2 | 1 | /aylesbury/service-administrator-jobs | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Bournemouth | Dorset | 2 | 1 | /bournemouth/service-administrator-jobs | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Doncaster | Yorkshire - South | 2 | 1 | /doncaster/service-administrator-jobs | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
 | LIVE PAGE | Farnham | Surrey | 2 | 1 | /farnham/service-administrator-jobs | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 |
-| LIVE PAGE | Hemel Hempstead | Hertfordshire | 2 | 1 | /hemel-hempstead/service-administrator-jobs | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Northampton | Northamptonshire | 2 | 1 | /northampton/service-administrator-jobs | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
+| LIVE PAGE | Rotherham | Yorkshire - South | 2 | 1 | /rotherham/service-administrator-jobs | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
 | LIVE PAGE | Salford | Greater Manchester - Manchester & Salford | 2 | 1 | /salford/jobs | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
 | LIVE PAGE | Sunderland | North East - Tyneside, Wearside & Northumberland | 2 | 1 | /sunderland/service-administrator-jobs | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Wakefield | Yorkshire - West | 2 | 1 | /wakefield/jobs | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
@@ -366,6 +365,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-2
 | LIVE PAGE | Bolton | Greater Manchester - Wigan & Bolton | 1 | 1 | /bolton/jobs | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Durham | North East - County Durham & Darlington/Hartlepool | 1 | 1 | /durham/jobs | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Gateshead | North East - Tyneside, Wearside & Northumberland | 1 | 1 | /gateshead/jobs | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| LIVE PAGE | Hemel Hempstead | Hertfordshire | 1 | 1 | /hemel-hempstead/service-administrator-jobs | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Poole | Dorset | 1 | 1 | /poole/service-administrator-jobs | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
 | LIVE PAGE | Scarborough | Yorkshire - North | 1 | 1 | /scarborough/service-administrator-jobs | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Shrewsbury | Shropshire | 1 | 1 | /shrewsbury/service-administrator-jobs | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -405,9 +405,9 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-2
 | MONITOR | Guildford | Surrey | 6 | 0 |  | 0 | 3 | 1 | 0 | 1 | 1 | 0 | 0 | 0 |
 | MONITOR | Slough | Berkshire | 6 | 0 |  | 2 | 0 | 1 | 0 | 0 | 3 | 0 | 0 | 0 |
 | MONITOR | Tunbridge Wells | Kent | 6 | 0 |  | 0 | 5 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| MONITOR | Watford | Hertfordshire | 6 | 0 |  | 2 | 0 | 3 | 0 | 0 | 1 | 0 | 0 | 0 |
 | MONITOR | Colchester | Essex | 5 | 0 |  | 2 | 0 | 0 | 1 | 0 | 2 | 0 | 0 | 0 |
 | MONITOR | Tonbridge | Kent | 5 | 0 |  | 0 | 4 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
+| MONITOR | Watford | Hertfordshire | 5 | 0 |  | 1 | 0 | 3 | 0 | 0 | 1 | 0 | 0 | 0 |
 | MONITOR | Woking | Surrey | 5 | 0 |  | 1 | 2 | 0 | 0 | 0 | 2 | 0 | 0 | 0 |
 | MONITOR | Blackburn | Lancashire - East | 4 | 0 |  | 0 | 0 | 0 | 0 | 0 | 4 | 0 | 0 | 0 |
 | MONITOR | Bury St Edmunds | Suffolk | 4 | 0 |  | 1 | 0 | 0 | 0 | 0 | 3 | 0 | 0 | 0 |
@@ -419,7 +419,6 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-2
 | MONITOR | Kettering | Northamptonshire | 4 | 0 |  | 2 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 |
 | MONITOR | Newton Abbot | Devon | 4 | 0 |  | 2 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 |
 | MONITOR | Redhill | Surrey | 4 | 0 |  | 2 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 |
-| MONITOR | Solihull | West Midlands - Birmingham & Solihull | 4 | 0 |  | 2 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 |
 | MONITOR | Bracknell | Berkshire | 3 | 0 |  | 1 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 |
 | MONITOR | Castleford | Yorkshire - West | 3 | 0 |  | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 0 | 0 |
 | MONITOR | Chertsey | Surrey | 3 | 0 |  | 1 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -436,8 +435,8 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-2
 | MONITOR | Newbury | Berkshire | 3 | 0 |  | 0 | 0 | 2 | 0 | 0 | 1 | 0 | 0 | 0 |
 | MONITOR | Northwich | Cheshire - West | 3 | 0 |  | 2 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | MONITOR | Sevenoaks | Kent | 3 | 0 |  | 0 | 2 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
+| MONITOR | Solihull | West Midlands - Birmingham & Solihull | 3 | 0 |  | 1 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 |
 | MONITOR | Stockport | Greater Manchester - South | 3 | 0 |  | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| MONITOR | Sutton Coldfield | West Midlands - Birmingham & Solihull | 3 | 0 |  | 2 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Tadley | Hampshire | 3 | 0 |  | 0 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Tenterden | Kent | 3 | 0 |  | 0 | 0 | 0 | 0 | 0 | 3 | 0 | 0 | 0 |
 | MONITOR | Truro | Cornwall | 3 | 0 |  | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -483,11 +482,11 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-2
 | MONITOR | Skegness | Lincolnshire | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Sleaford | Lincolnshire | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Southend-on-sea | Essex | 2 | 0 |  | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
+| MONITOR | Sutton Coldfield | West Midlands - Birmingham & Solihull | 2 | 0 |  | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Trowbridge | Wiltshire | 2 | 0 |  | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Wantage | Oxfordshire | 2 | 0 |  | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
 | MONITOR | Wellington | Shropshire | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Welwyn Garden City | Hertfordshire | 2 | 0 |  | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| MONITOR | Wokingham | Berkshire | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Yeovil | Somerset | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Addlestone | Surrey | 1 | 0 |  | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Aldershot | Hampshire | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -527,7 +526,6 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-2
 | MONITOR | Esher | Surrey | 1 | 0 |  | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Ferndown | Dorset | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Folkestone | Kent | 1 | 0 |  | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| MONITOR | Gainsborough | Lincolnshire | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Godalming | Surrey | 1 | 0 |  | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
 | MONITOR | Goole | Yorkshire - East | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Grantham | Lincolnshire | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -617,17 +615,18 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-2
 | MONITOR | Wickford | Essex | 1 | 0 |  | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
 | MONITOR | Wigan | Greater Manchester - Wigan & Bolton | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Witney | Oxfordshire | 1 | 0 |  | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| MONITOR | Wokingham | Berkshire | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Worthing | Sussex | 1 | 0 |  | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Wymondham | Norfolk | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 
-> LIVE counts come directly from the current published `app/` JSON, deduplicated within each canonical region/family slice while preserving legitimate appearances in more than one family. This is the live-site authority for the reconciliation above; the dated source-count CSV is shown only as a freshness cross-check. The overview covers all 78 assessable UK markets; LIVE status remains controlled only by the slice register. Before same-feed 78-market coverage has run, NOT LIVE Admin/Support and Customer Service may fall back to the latest all-region Module 2 profile (2026-08-17), and Service Admin may also add current Teaching Vacancies regional candidate output. `—` means not assessed / no current source; it does NOT mean zero. NOT LIVE Service Admin and Support Worker were assessed from the same JobG8 daily feed (2026-09-24) used by the production family run, across 78 UK markets with the config-driven production wrappers, persistent review decisions and canonical geo. NOT LIVE Sales Advisor was assessed from that same feed across 78 UK markets using the governed Customer Sales classifier, canonical geo, campaign dedupe and final production QA. Sales diagnostic counts are evidence only and never activate a slice automatically; LIVE Sales Advisor counts continue to come from the current published Customer Sales configured-slice JSON. NOT LIVE Paralegal, Marketing, Finance / Accounts and HR / Recruitment were assessed from that same feed across 78, 78, 78 and 78 UK markets respectively, using their governed production boundaries and canonical geo. NOT LIVE Customer Service / Contact Centre was assessed from that same feed across 78 UK markets using its governed exact-title, salary and geography rules. All diagnostic counts are evidence only and never activate a slice automatically. Rolling family history stores one snapshot per feed date, replaces same-date reruns, retains the latest 14 feed dates and is used only as decision evidence for NOT LIVE slices.
+> LIVE counts come directly from the current published `app/` JSON, deduplicated within each canonical region/family slice while preserving legitimate appearances in more than one family. This is the live-site authority for the reconciliation above; the dated source-count CSV is shown only as a freshness cross-check. The overview covers all 78 assessable UK markets; LIVE status remains controlled only by the slice register. Before same-feed 78-market coverage has run, NOT LIVE Admin/Support and Customer Service may fall back to the latest all-region Module 2 profile (2026-08-17), and Service Admin may also add current Teaching Vacancies regional candidate output. `—` means not assessed / no current source; it does NOT mean zero. NOT LIVE Service Admin and Support Worker were assessed from the same JobG8 daily feed (2026-09-25) used by the production family run, across 78 UK markets with the config-driven production wrappers, persistent review decisions and canonical geo. NOT LIVE Sales Advisor was assessed from that same feed across 78 UK markets using the governed Customer Sales classifier, canonical geo, campaign dedupe and final production QA. Sales diagnostic counts are evidence only and never activate a slice automatically; LIVE Sales Advisor counts continue to come from the current published Customer Sales configured-slice JSON. NOT LIVE Paralegal, Marketing, Finance / Accounts and HR / Recruitment were assessed from that same feed across 78, 78, 78 and 78 UK markets respectively, using their governed production boundaries and canonical geo. NOT LIVE Customer Service / Contact Centre was assessed from that same feed across 78 UK markets using its governed exact-title, salary and geography rules. All diagnostic counts are evidence only and never activate a slice automatically. Rolling family history stores one snapshot per feed date, replaces same-date reruns, retains the latest 14 feed dates and is used only as decision evidence for NOT LIVE slices.
 
 ## LIVE
 
 | Region | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Bedfordshire | 12 |  |  |  |  |  |  |  |
-| Berkshire | 17 |  | 6 | 14 | 9 | 16 | 2 |  |
+| Berkshire | 16 |  | 6 | 14 | 9 | 16 | 2 |  |
 | Bristol & Bath | 22 |  | 5 | CHECK | 4 | 17 |  |  |
 | Buckinghamshire | 23 |  |  |  | 5 | 16 |  | CHECK |
 | Cambridgeshire | 43 |  |  |  | 4 | 20 |  |  |
@@ -649,7 +648,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-2
 | Greater Manchester - Wigan & Bolton | 7 |  |  |  |  |  |  |  |
 | Hampshire | 31 | 21 | 6 |  |  | 14 |  | CHECK |
 | Herefordshire |  |  |  |  |  |  |  |  |
-| Hertfordshire | 25 |  | 4 |  | 5 | 15 |  |  |
+| Hertfordshire | 23 |  | 4 |  | 5 | 15 |  |  |
 | Kent | 29 | 23 | 5 | 8 | 7 | 21 |  |  |
 | Lancashire - Blackpool & Fylde |  |  |  |  |  |  |  |  |
 | Lancashire - Central |  |  |  |  |  |  |  |  |
@@ -657,7 +656,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-2
 | Lancashire - North |  |  |  |  |  |  |  |  |
 | Lancashire - West |  |  |  |  |  |  |  |  |
 | Leicestershire | 14 |  |  |  |  | 12 |  |  |
-| Lincolnshire | 17 |  |  |  |  |  |  |  |
+| Lincolnshire | 16 |  |  |  |  |  |  |  |
 | London | 143 | 11 | 13 | 56 | 65 | 82 | 31 | CHECK |
 | Merseyside - Liverpool | 15 |  |  | 6 | 6 |  |  |  |
 | Merseyside - Sefton |  |  |  |  |  |  |  |  |
@@ -671,8 +670,8 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-2
 | Northamptonshire | 16 |  |  |  |  | 12 |  |  |
 | Northern Ireland - East | 8 |  |  |  | CHECK | CHECK | CHECK |  |
 | Northern Ireland - West |  |  |  |  |  |  |  |  |
-| Nottinghamshire | 21 |  |  |  |  | 12 | 2 |  |
-| Oxfordshire | 27 | 5 |  |  | 7 | 13 |  |  |
+| Nottinghamshire | 18 |  |  |  |  | 12 | 2 |  |
+| Oxfordshire | 26 | 5 |  |  | 7 | 13 |  |  |
 | Rutland |  |  |  |  |  |  |  |  |
 | Scotland - Borders |  |  |  |  |  |  |  |  |
 | Scotland Central - Edinburgh & Lothians | 6 |  |  |  |  |  |  |  |
@@ -695,15 +694,15 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-2
 | Wales South - Gwent |  |  |  |  |  |  |  |  |
 | Wales South - Swansea Bay |  |  |  |  |  |  |  |  |
 | Wales South - Valleys | 11 |  |  |  |  |  |  |  |
-| West Midlands - Birmingham & Solihull | 42 |  |  | 9 | 6 | 12 | CHECK |  |
+| West Midlands - Birmingham & Solihull | 40 |  |  | 9 | 6 | 12 | CHECK |  |
 | West Midlands - Black Country | 12 |  |  |  |  |  |  |  |
 | West Midlands - Coventry & Warwickshire | 23 |  |  |  |  | 15 | 2 |  |
 | Wiltshire | 12 | 2 |  |  |  | 11 |  |  |
 | Worcestershire | 3 |  |  |  |  |  |  |  |
 | Yorkshire - East | 6 |  |  |  |  |  |  |  |
 | Yorkshire - North | 18 |  |  | 7 | 2 | 13 |  |  |
-| Yorkshire - South | 17 | 2 |  |  |  | 9 |  |  |
-| Yorkshire - West | 55 | 2 | 2 | 8 | 7 | 29 | 4 |  |
+| Yorkshire - South | 15 | 2 |  |  |  | 9 |  |  |
+| Yorkshire - West | 53 | 2 | 2 | 8 | 7 | 29 | 4 |  |
 
 ## NOT LIVE
 
@@ -711,90 +710,90 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-2
 
 | Region | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Bedfordshire |  | 1 / 0.3 / 0/14 | 1 / 1.5 / 0/14 | 2 / 3.6 / 2/14 | 1 / 1.2 / 0/14 | 4 / 2.4 / 0/14 | 0 / 0.9 / 0/14 | 0 / 0.5 / 0/14 |
+| Bedfordshire |  | 1 / 0.4 / 0/14 | 1 / 1.4 / 0/14 | 2 / 3.4 / 2/14 | 1 / 1.1 / 0/14 | 4 / 2.6 / 0/14 | 0 / 0.7 / 0/14 | 0 / 0.4 / 0/14 |
 | Berkshire |  | 1 / 0.6 / 0/14 |  |  |  |  |  | 0 / 0.0 / 0/14 |
-| Bristol & Bath |  | 3 / 1.7 / 0/14 |  |  |  |  | 2 / 3.6 / 0/14 | 0 / 0.9 / 0/14 |
-| Buckinghamshire |  | 1 / 0.3 / 0/14 | 5 / 2.1 / 0/14 | 5 / 4.5 / 5/14 |  |  | 1 / 1.9 / 0/14 |  |
-| Cambridgeshire |  | 1 / 0.2 / 0/14 | 3 / 1.3 / 0/14 | 6 / 3.5 / 2/14 |  |  | 3 / 3.0 / 0/14 | 0 / 0.0 / 0/14 |
-| Cheshire - East |  | 1 / 0.4 / 0/14 | 2 / 3.0 / 0/14 | 2 / 1.3 / 0/14 | 1 / 1.0 / 0/14 |  | 1 / 0.4 / 0/14 | 2 / 1.7 / 0/14 |
-| Cheshire - Warrington & Halton |  | 0 / 0.4 / 0/14 | 1 / 1.0 / 0/14 | 2 / 2.1 / 0/14 | 4 / 4.4 / 0/14 |  | 1 / 0.4 / 0/14 | 0 / 0.0 / 0/14 |
-| Cheshire - West |  | 1 / 0.1 / 0/14 | 1 / 0.8 / 0/14 | 1 / 1.6 / 0/14 |  |  | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 |
-| Cornwall |  | 3 / 2.1 / 0/14 | 1 / 1.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 4 / 1.6 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 |
-| Cumbria - North | 0 / 0.9 / 0/14 | 3 / 3.1 / 5/14 | 0 / 0.1 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 1 / 0.3 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 |
-| Cumbria - South | 1 / 0.7 / 0/14 |  | 1 / 0.4 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.4 / 0/14 | 0 / 0.1 / 0/14 | 0 / 0.3 / 0/14 | 1 / 0.4 / 0/14 |
-| Cumbria - West | 0 / 0.0 / 0/14 | 1 / 0.7 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 |
-| Derbyshire |  | 2 / 0.5 / 0/14 | 0 / 1.7 / 0/14 | 4 / 3.0 / 0/14 | 2 / 1.2 / 0/14 | 2 / 1.9 / 0/14 | 2 / 1.4 / 0/14 | 0 / 0.0 / 0/14 |
-| Devon |  | 3 / 2.9 / 0/14 |  | 3 / 2.8 / 0/14 | 1 / 1.7 / 0/14 |  | 2 / 1.9 / 0/14 | 3 / 1.8 / 0/14 |
+| Bristol & Bath |  | 3 / 1.9 / 0/14 |  |  |  |  | 2 / 3.5 / 0/14 | 0 / 0.7 / 0/14 |
+| Buckinghamshire |  | 1 / 0.4 / 0/14 | 4 / 2.4 / 0/14 | 5 / 4.6 / 5/14 |  |  | 1 / 1.8 / 0/14 |  |
+| Cambridgeshire |  | 1 / 0.3 / 0/14 | 3 / 1.5 / 0/14 | 6 / 3.8 / 3/14 |  |  | 3 / 3.1 / 0/14 | 0 / 0.0 / 0/14 |
+| Cheshire - East |  | 1 / 0.4 / 0/14 | 2 / 2.9 / 0/14 | 2 / 1.4 / 0/14 | 1 / 1.0 / 0/14 |  | 1 / 0.5 / 0/14 | 2 / 1.7 / 0/14 |
+| Cheshire - Warrington & Halton |  | 0 / 0.3 / 0/14 | 1 / 1.1 / 0/14 | 2 / 2.1 / 0/14 | 3 / 4.2 / 0/14 |  | 1 / 0.5 / 0/14 | 0 / 0.0 / 0/14 |
+| Cheshire - West |  | 1 / 0.2 / 0/14 | 1 / 0.9 / 0/14 | 1 / 1.5 / 0/14 |  |  | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 |
+| Cornwall |  | 3 / 2.2 / 0/14 | 1 / 1.1 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 4 / 1.9 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 |
+| Cumbria - North | 0 / 0.7 / 0/14 | 3 / 3.3 / 5/14 | 0 / 0.1 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 1 / 0.4 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 |
+| Cumbria - South | 1 / 0.7 / 0/14 |  | 1 / 0.5 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.4 / 0/14 | 0 / 0.1 / 0/14 | 0 / 0.2 / 0/14 | 1 / 0.5 / 0/14 |
+| Cumbria - West | 0 / 0.0 / 0/14 | 1 / 0.8 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 |
+| Derbyshire |  | 2 / 0.6 / 0/14 | 0 / 1.4 / 0/14 | 4 / 3.0 / 0/14 | 2 / 1.4 / 0/14 | 2 / 2.0 / 0/14 | 2 / 1.4 / 0/14 | 0 / 0.0 / 0/14 |
+| Devon |  | 3 / 2.9 / 0/14 |  | 3 / 2.9 / 0/14 | 1 / 1.6 / 0/14 |  | 2 / 1.9 / 0/14 | 3 / 1.9 / 0/14 |
 | Dorset |  | 0 / 0.4 / 0/14 | 2 / 2.0 / 0/14 | 3 / 3.3 / 2/14 | 0 / 0.3 / 0/14 |  | 1 / 1.3 / 0/14 | 0 / 0.0 / 0/14 |
-| Essex |  | 4 / 1.5 / 0/14 | 7 / 5.1 / 6/14 |  |  |  | 3 / 4.3 / 4/14 | 0 / 0.9 / 0/14 |
-| Gloucestershire |  | 1 / 0.9 / 0/14 | 0 / 1.2 / 0/14 | 1 / 1.2 / 0/14 |  |  | 3 / 2.3 / 0/14 | 0 / 1.3 / 0/14 |
+| Essex |  | 3 / 1.7 / 0/14 | 7 / 5.4 / 7/14 |  |  |  | 3 / 4.1 / 3/14 | 0 / 0.7 / 0/14 |
+| Gloucestershire |  | 1 / 1.0 / 0/14 | 0 / 1.0 / 0/14 | 1 / 1.2 / 0/14 |  |  | 4 / 2.5 / 0/14 | 0 / 1.1 / 0/14 |
 | Greater Manchester - Manchester & Salford |  | 1 / 0.7 / 0/14 |  |  |  |  |  | 0 / 0.2 / 0/14 |
-| Greater Manchester - North | 4 / 3.2 / 0/14 | 0 / 0.9 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 1 / 0.3 / 0/14 |  | 0 / 0.6 / 0/14 | 0 / 0.0 / 0/14 |
-| Greater Manchester - South |  | 3 / 0.3 / 0/14 | 0 / 0.0 / 0/14 | 2 / 1.6 / 0/14 |  | 5 / 2.5 / 0/14 | 1 / 1.1 / 0/14 | 0 / 0.0 / 0/14 |
-| Greater Manchester - Wigan & Bolton |  | 0 / 0.0 / 0/14 | 1 / 0.8 / 0/14 | 1 / 2.1 / 0/14 | 2 / 1.0 / 0/14 | 7 / 2.6 / 4/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 |
-| Hampshire |  |  |  | 6 / 4.2 / 6/14 | 1 / 3.9 / 6/14 |  | 5 / 5.7 / 6/14 |  |
-| Herefordshire | 1 / 1.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 1 / 0.7 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 |
-| Hertfordshire |  | 0 / 0.0 / 0/14 |  | 0 / 0.9 / 0/14 |  |  | 4 / 2.1 / 0/14 | 1 / 0.9 / 0/14 |
-| Kent |  |  |  |  |  |  | 1 / 2.1 / 0/14 | 0 / 0.4 / 0/14 |
-| Lancashire - Blackpool & Fylde | 1 / 0.4 / 0/14 | 0 / 0.0 / 0/14 | 1 / 0.6 / 0/14 | 0 / 0.1 / 0/14 | 0 / 0.9 / 0/14 | 1 / 0.3 / 0/14 | 0 / 0.1 / 0/14 | 0 / 0.0 / 0/14 |
-| Lancashire - Central | 2 / 1.8 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.1 / 0/14 | 5 / 2.7 / 3/14 | 0 / 0.0 / 0/14 | 0 / 0.1 / 0/14 |
-| Lancashire - East | 6 / 3.9 / 1/14 | 1 / 1.0 / 0/14 | 1 / 0.8 / 0/14 | 2 / 0.9 / 0/14 | 0 / 0.4 / 0/14 |  | 1 / 0.1 / 0/14 | 0 / 0.0 / 0/14 |
-| Lancashire - North | 1 / 1.0 / 0/14 | 2 / 1.5 / 0/14 | 1 / 1.0 / 0/14 | 1 / 1.0 / 0/14 | 0 / 0.0 / 0/14 | 1 / 1.2 / 0/14 | 0 / 0.3 / 0/14 | 0 / 0.0 / 0/14 |
-| Lancashire - West | 1 / 0.3 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.8 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 3 / 1.5 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 |
-| Leicestershire |  | 0 / 0.2 / 0/14 | 1 / 1.0 / 0/14 | 4 / 4.1 / 0/14 | 3 / 2.5 / 0/14 |  | 1 / 0.9 / 0/14 | 0 / 0.0 / 0/14 |
-| Lincolnshire |  | 1 / 0.2 / 0/14 | 3 / 0.7 / 0/14 | 2 / 2.0 / 0/14 | 4 / 3.0 / 0/14 | 9 / 3.4 / 4/14 | 0 / 0.0 / 0/14 | 0 / 0.3 / 0/14 |
+| Greater Manchester - North | 4 / 3.2 / 0/14 | 0 / 0.9 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 1 / 0.4 / 0/14 |  | 0 / 0.5 / 0/14 | 0 / 0.0 / 0/14 |
+| Greater Manchester - South |  | 3 / 0.5 / 0/14 | 1 / 0.1 / 0/14 | 2 / 1.6 / 0/14 |  | 5 / 2.9 / 0/14 | 0 / 1.0 / 0/14 | 0 / 0.0 / 0/14 |
+| Greater Manchester - Wigan & Bolton |  | 0 / 0.0 / 0/14 | 1 / 0.9 / 0/14 | 1 / 2.0 / 0/14 | 2 / 1.1 / 0/14 | 7 / 3.1 / 5/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 |
+| Hampshire |  |  |  | 6 / 4.5 / 7/14 | 1 / 3.5 / 5/14 |  | 5 / 5.6 / 5/14 |  |
+| Herefordshire | 2 / 1.1 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 1 / 0.8 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 |
+| Hertfordshire |  | 0 / 0.0 / 0/14 |  | 0 / 0.8 / 0/14 |  |  | 4 / 2.3 / 0/14 | 1 / 0.9 / 0/14 |
+| Kent |  |  |  |  |  |  | 1 / 1.9 / 0/14 | 0 / 0.4 / 0/14 |
+| Lancashire - Blackpool & Fylde | 1 / 0.5 / 0/14 | 0 / 0.0 / 0/14 | 1 / 0.6 / 0/14 | 0 / 0.1 / 0/14 | 0 / 0.7 / 0/14 | 1 / 0.4 / 0/14 | 0 / 0.1 / 0/14 | 0 / 0.0 / 0/14 |
+| Lancashire - Central | 1 / 1.7 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.1 / 0/14 | 4 / 3.0 / 3/14 | 0 / 0.0 / 0/14 | 0 / 0.1 / 0/14 |
+| Lancashire - East | 6 / 4.1 / 2/14 | 1 / 1.0 / 0/14 | 1 / 0.9 / 0/14 | 2 / 1.0 / 0/14 | 0 / 0.3 / 0/14 |  | 1 / 0.1 / 0/14 | 0 / 0.0 / 0/14 |
+| Lancashire - North | 1 / 0.9 / 0/14 | 2 / 1.6 / 0/14 | 1 / 1.0 / 0/14 | 1 / 1.0 / 0/14 | 0 / 0.0 / 0/14 | 1 / 1.2 / 0/14 | 0 / 0.2 / 0/14 | 0 / 0.0 / 0/14 |
+| Lancashire - West | 1 / 0.4 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.7 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 3 / 1.7 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 |
+| Leicestershire |  | 0 / 0.2 / 0/14 | 1 / 1.0 / 0/14 | 4 / 4.0 / 0/14 | 3 / 2.6 / 0/14 |  | 1 / 0.8 / 0/14 | 0 / 0.0 / 0/14 |
+| Lincolnshire |  | 1 / 0.3 / 0/14 | 3 / 0.8 / 0/14 | 2 / 2.0 / 0/14 | 4 / 3.1 / 0/14 | 9 / 3.9 / 5/14 | 0 / 0.0 / 0/14 | 0 / 0.2 / 0/14 |
 | London |  |  |  |  |  |  |  |  |
-| Merseyside - Liverpool |  | 0 / 0.9 / 0/14 | 2 / 1.1 / 0/14 |  |  | 7 / 3.6 / 4/14 | 1 / 1.0 / 0/14 | 0 / 0.9 / 0/14 |
+| Merseyside - Liverpool |  | 0 / 0.8 / 0/14 | 2 / 1.1 / 0/14 |  |  | 7 / 3.9 / 5/14 | 1 / 1.0 / 0/14 | 0 / 0.7 / 0/14 |
 | Merseyside - Sefton | 2 / 1.4 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 1 / 0.9 / 0/14 | 0 / 0.0 / 0/14 | 1 / 0.6 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 |
-| Merseyside - St Helens & Knowsley | 5 / 3.8 / 0/14 | 1 / 0.3 / 0/14 | 1 / 1.2 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.4 / 0/14 | 1 / 0.3 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 |
-| Merseyside - Wirral | 1 / 0.6 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 1 / 1.0 / 0/14 | 1 / 1.4 / 0/14 | 0 / 0.6 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.2 / 0/14 |
-| Norfolk |  | 2 / 1.8 / 2/14 | 1 / 0.5 / 0/14 |  |  |  | 3 / 2.7 / 0/14 | 0 / 0.0 / 0/14 |
-| North East |  |  |  | 1 / 2.4 / 0/14 |  |  | 3 / 2.9 / 0/14 |  |
-| North Scotland |  | 0 / 0.0 / 0/14 |  | 1 / 0.9 / 0/14 | 0 / 0.0 / 0/14 | 2 / 1.1 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.2 / 0/14 |
-| North Wales - East | 2 / 2.3 / 0/14 | 8 / 1.6 / 2/14 | 1 / 1.8 / 0/14 | 0 / 0.0 / 0/14 | 1 / 0.9 / 0/14 | 3 / 1.9 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.9 / 0/14 |
-| North Wales - West | 1 / 1.4 / 0/14 | 1 / 0.7 / 0/14 | 1 / 0.3 / 0/14 | 0 / 0.1 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.1 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.4 / 0/14 |
-| Northamptonshire |  | 0 / 0.4 / 0/14 | 1 / 2.8 / 0/14 | 2 / 1.7 / 0/14 | 1 / 1.7 / 0/14 |  | 6 / 4.6 / 2/14 | 0 / 0.0 / 0/14 |
-| Northern Ireland - East |  | 0 / 0.9 / 0/14 | 0 / 0.4 / 0/14 | 0 / 7.6 / 6/14 |  |  |  | 0 / 0.4 / 0/14 |
-| Northern Ireland - West | 1 / 9.4 / 6/14 | 0 / 0.0 / 0/14 | 0 / 1.0 / 0/14 | 0 / 0.3 / 0/14 | 0 / 1.2 / 0/14 | 0 / 1.6 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.9 / 0/14 |
-| Nottinghamshire |  | 1 / 0.7 / 0/14 | 0 / 1.3 / 0/14 | 3 / 5.4 / 8/14 | 3 / 1.7 / 0/14 |  |  | 0 / 0.0 / 0/14 |
-| Oxfordshire |  |  | 5 / 3.4 / 0/14 | 7 / 4.8 / 6/14 |  |  | 1 / 0.5 / 0/14 | 0 / 0.0 / 0/14 |
+| Merseyside - St Helens & Knowsley | 5 / 4.1 / 0/14 | 1 / 0.4 / 0/14 | 1 / 1.2 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.4 / 0/14 | 1 / 0.4 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 |
+| Merseyside - Wirral | 1 / 0.6 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 1 / 1.0 / 0/14 | 1 / 1.4 / 0/14 | 0 / 0.5 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.1 / 0/14 |
+| Norfolk |  | 2 / 1.9 / 2/14 | 1 / 0.5 / 0/14 |  |  |  | 3 / 2.7 / 0/14 | 0 / 0.0 / 0/14 |
+| North East |  |  |  | 1 / 2.2 / 0/14 |  |  | 3 / 2.8 / 0/14 |  |
+| North Scotland |  | 0 / 0.0 / 0/14 |  | 2 / 1.0 / 0/14 | 0 / 0.0 / 0/14 | 2 / 1.2 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.2 / 0/14 |
+| North Wales - East | 2 / 2.2 / 0/14 | 7 / 2.1 / 3/14 | 1 / 1.7 / 0/14 | 0 / 0.0 / 0/14 | 1 / 0.9 / 0/14 | 3 / 2.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.7 / 0/14 |
+| North Wales - West | 1 / 1.2 / 0/14 | 1 / 0.7 / 0/14 | 1 / 0.4 / 0/14 | 0 / 0.1 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.4 / 0/14 |
+| Northamptonshire |  | 0 / 0.4 / 0/14 | 1 / 2.6 / 0/14 | 2 / 1.8 / 0/14 | 1 / 1.6 / 0/14 |  | 3 / 4.4 / 2/14 | 0 / 0.0 / 0/14 |
+| Northern Ireland - East |  | 0 / 0.7 / 0/14 | 0 / 0.4 / 0/14 | 0 / 6.6 / 5/14 |  |  |  | 0 / 0.4 / 0/14 |
+| Northern Ireland - West | 1 / 7.9 / 5/14 | 0 / 0.0 / 0/14 | 0 / 0.9 / 0/14 | 0 / 0.3 / 0/14 | 0 / 1.1 / 0/14 | 0 / 1.3 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.7 / 0/14 |
+| Nottinghamshire |  | 1 / 0.7 / 0/14 | 0 / 1.1 / 0/14 | 3 / 5.1 / 7/14 | 2 / 1.7 / 0/14 |  |  | 0 / 0.0 / 0/14 |
+| Oxfordshire |  |  | 5 / 3.4 / 0/14 | 7 / 5.2 / 7/14 |  |  | 1 / 0.5 / 0/14 | 0 / 0.0 / 0/14 |
 | Rutland | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 |
-| Scotland - Borders | 0 / 2.1 / 0/14 | 0 / 0.0 / 0/14 | 1 / 0.5 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.4 / 0/14 | 0 / 0.0 / 0/14 |
-| Scotland Central - Edinburgh & Lothians |  | 0 / 0.0 / 0/14 | 3 / 1.6 / 0/14 | 1 / 0.6 / 0/14 | 1 / 1.9 / 0/14 | 6 / 3.8 / 5/14 | 2 / 2.1 / 0/14 | 0 / 0.0 / 0/14 |
-| Scotland Central - Falkirk & Stirling | 1 / 1.1 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 1 / 0.4 / 0/14 | 1 / 0.4 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.1 / 0/14 |
+| Scotland - Borders | 0 / 1.8 / 0/14 | 0 / 0.0 / 0/14 | 1 / 0.6 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.4 / 0/14 | 0 / 0.0 / 0/14 |
+| Scotland Central - Edinburgh & Lothians |  | 0 / 0.0 / 0/14 | 3 / 1.6 / 0/14 | 1 / 0.6 / 0/14 | 1 / 1.8 / 0/14 | 5 / 4.1 / 5/14 | 2 / 2.1 / 0/14 | 0 / 0.0 / 0/14 |
+| Scotland Central - Falkirk & Stirling | 1 / 1.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 1 / 0.4 / 0/14 | 1 / 0.5 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.1 / 0/14 |
 | Scotland Central - Fife |  | 0 / 0.0 / 0/14 | 1 / 1.2 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.1 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 |
-| Scotland Central - Tayside |  | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.4 / 0/14 | 1 / 1.1 / 0/14 | 0 / 0.3 / 0/14 | 1 / 0.5 / 0/14 | 0 / 0.0 / 0/14 |
+| Scotland Central - Tayside |  | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.4 / 0/14 | 1 / 1.1 / 0/14 | 0 / 0.3 / 0/14 | 1 / 0.6 / 0/14 | 0 / 0.0 / 0/14 |
 | Scotland West - Ayrshire | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.4 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.4 / 0/14 |
-| Scotland West - Glasgow |  | 0 / 0.0 / 0/14 |  | 0 / 1.1 / 0/14 | 0 / 0.0 / 0/14 | 2 / 1.1 / 0/14 | 2 / 1.0 / 0/14 | 1 / 1.0 / 0/14 |
+| Scotland West - Glasgow |  | 0 / 0.0 / 0/14 |  | 0 / 0.9 / 0/14 | 0 / 0.0 / 0/14 | 2 / 1.2 / 0/14 | 2 / 1.1 / 0/14 | 1 / 1.0 / 0/14 |
 | Scotland West - Lanarkshire | 1 / 0.6 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 1 / 1.1 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 |
 | Scotland West - Renfrewshire & Inverclyde | 1 / 0.9 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 |
-| Shropshire |  | 1 / 0.4 / 0/14 | 1 / 1.3 / 0/14 | 1 / 1.6 / 0/14 | 1 / 0.4 / 0/14 |  | 1 / 1.0 / 0/14 | 0 / 0.2 / 0/14 |
-| Somerset |  | 6 / 2.6 / 1/14 | 2 / 1.6 / 0/14 | 0 / 0.4 / 0/14 | 3 / 3.8 / 0/14 | 5 / 1.9 / 0/14 | 0 / 0.1 / 0/14 | 1 / 0.4 / 0/14 |
-| Staffordshire |  | 2 / 0.6 / 0/14 | 0 / 0.9 / 0/14 | 1 / 1.3 / 0/14 |  | 7 / 4.1 / 6/14 | 1 / 1.3 / 0/14 |  |
-| Suffolk |  | 3 / 1.2 / 0/14 | 2 / 3.0 / 0/14 |  | 2 / 0.9 / 0/14 |  | 2 / 2.1 / 0/14 | 0 / 0.0 / 0/14 |
-| Surrey |  |  |  |  |  |  | 3 / 3.8 / 0/14 |  |
-| Sussex |  |  |  | 2 / 3.5 / 0/14 | 2 / 4.6 / 4/14 |  |  | 0 / 0.4 / 0/14 |
-| Wales - Mid | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 1 / 0.4 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 |
-| Wales - West | 0 / 1.1 / 0/14 | 1 / 1.8 / 2/14 | 0 / 0.0 / 0/14 | 0 / 0.2 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.4 / 0/14 | 0 / 0.0 / 0/14 |
-| Wales South - Cardiff & Vale |  | 0 / 0.0 / 0/14 | 1 / 1.1 / 0/14 | 0 / 1.2 / 0/14 | 0 / 0.4 / 0/14 |  | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 |
-| Wales South - Gwent | 3 / 2.1 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 1 / 0.6 / 0/14 | 1 / 1.0 / 0/14 | 3 / 0.9 / 0/14 | 0 / 0.6 / 0/14 | 0 / 0.0 / 0/14 |
-| Wales South - Swansea Bay | 14 / 8.6 / 10/14 | 1 / 0.1 / 0/14 | 1 / 0.7 / 0/14 | 0 / 0.3 / 0/14 | 0 / 0.6 / 0/14 | 5 / 2.1 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 |
-| Wales South - Valleys |  | 0 / 1.4 / 0/14 | 3 / 2.5 / 0/14 | 0 / 0.3 / 0/14 | 0 / 0.0 / 0/14 | 2 / 0.6 / 0/14 | 0 / 0.0 / 0/14 | 1 / 0.9 / 0/14 |
-| West Midlands - Birmingham & Solihull |  | 1 / 1.0 / 0/14 | 4 / 2.9 / 0/14 |  |  |  |  | 0 / 0.5 / 0/14 |
-| West Midlands - Black Country |  | 1 / 1.1 / 0/14 | 1 / 0.1 / 0/14 | 1 / 2.4 / 0/14 | 1 / 0.3 / 0/14 | 3 / 2.2 / 0/14 | 1 / 0.8 / 0/14 | 0 / 0.3 / 0/14 |
-| West Midlands - Coventry & Warwickshire |  | 1 / 1.6 / 0/14 | 2 / 1.5 / 0/14 | 4 / 3.3 / 0/14 | 6 / 4.4 / 2/14 |  |  | 1 / 1.0 / 0/14 |
-| Wiltshire |  |  | 2 / 2.0 / 0/14 | 8 / 5.4 / 6/14 | 0 / 2.3 / 0/14 |  | 1 / 2.0 / 0/14 | 0 / 0.6 / 0/14 |
-| Worcestershire |  | 0 / 0.0 / 0/14 | 3 / 1.6 / 0/14 | 3 / 3.5 / 0/14 | 0 / 0.4 / 0/14 | 7 / 3.9 / 6/14 | 2 / 1.5 / 0/14 | 0 / 0.4 / 0/14 |
-| Yorkshire - East |  | 1 / 0.4 / 0/14 | 0 / 0.0 / 0/14 | 1 / 1.2 / 0/14 | 0 / 0.6 / 0/14 | 3 / 3.0 / 0/14 | 1 / 1.1 / 0/14 | 0 / 0.4 / 0/14 |
-| Yorkshire - North |  | 5 / 1.9 / 0/14 | 2 / 1.9 / 0/14 |  |  |  | 1 / 3.1 / 4/14 | 1 / 1.1 / 0/14 |
-| Yorkshire - South |  |  | 1 / 1.4 / 0/14 | 1 / 2.4 / 0/14 | 3 / 3.6 / 1/14 |  | 1 / 1.8 / 0/14 | 1 / 1.0 / 0/14 |
-| Yorkshire - West |  |  |  |  |  |  |  | 0 / 0.9 / 0/14 |
+| Shropshire |  | 1 / 0.5 / 0/14 | 1 / 1.3 / 0/14 | 1 / 1.4 / 0/14 | 1 / 0.5 / 0/14 |  | 1 / 0.9 / 0/14 | 0 / 0.2 / 0/14 |
+| Somerset |  | 6 / 2.9 / 2/14 | 2 / 1.6 / 0/14 | 0 / 0.4 / 0/14 | 3 / 3.7 / 0/14 | 5 / 2.3 / 0/14 | 0 / 0.1 / 0/14 | 1 / 0.5 / 0/14 |
+| Staffordshire |  | 2 / 0.7 / 0/14 | 0 / 0.7 / 0/14 | 1 / 1.3 / 0/14 |  | 7 / 4.5 / 7/14 | 1 / 1.3 / 0/14 |  |
+| Suffolk |  | 3 / 1.4 / 0/14 | 2 / 3.0 / 0/14 |  | 1 / 0.9 / 0/14 |  | 2 / 2.1 / 0/14 | 0 / 0.0 / 0/14 |
+| Surrey |  |  |  |  |  |  | 3 / 3.6 / 0/14 |  |
+| Sussex |  |  |  | 2 / 3.4 / 0/14 | 2 / 4.4 / 3/14 |  |  | 0 / 0.4 / 0/14 |
+| Wales - Mid | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 1 / 0.5 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 |
+| Wales - West | 0 / 0.9 / 0/14 | 1 / 1.9 / 2/14 | 0 / 0.0 / 0/14 | 0 / 0.2 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.3 / 0/14 | 0 / 0.0 / 0/14 |
+| Wales South - Cardiff & Vale |  | 0 / 0.0 / 0/14 | 1 / 1.0 / 0/14 | 0 / 1.1 / 0/14 | 0 / 0.4 / 0/14 |  | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 |
+| Wales South - Gwent | 3 / 2.1 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 1 / 0.6 / 0/14 | 1 / 1.0 / 0/14 | 3 / 1.1 / 0/14 | 0 / 0.5 / 0/14 | 0 / 0.0 / 0/14 |
+| Wales South - Swansea Bay | 14 / 9.5 / 11/14 | 1 / 0.1 / 0/14 | 1 / 0.7 / 0/14 | 0 / 0.3 / 0/14 | 0 / 0.5 / 0/14 | 5 / 2.5 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 |
+| Wales South - Valleys |  | 0 / 1.2 / 0/14 | 3 / 2.6 / 0/14 | 0 / 0.2 / 0/14 | 0 / 0.0 / 0/14 | 2 / 0.7 / 0/14 | 0 / 0.0 / 0/14 | 1 / 0.9 / 0/14 |
+| West Midlands - Birmingham & Solihull |  | 1 / 1.0 / 0/14 | 4 / 3.0 / 0/14 |  |  |  |  | 0 / 0.4 / 0/14 |
+| West Midlands - Black Country |  | 1 / 1.1 / 0/14 | 1 / 0.1 / 0/14 | 1 / 2.1 / 0/14 | 1 / 0.4 / 0/14 | 2 / 2.2 / 0/14 | 1 / 0.8 / 0/14 | 0 / 0.2 / 0/14 |
+| West Midlands - Coventry & Warwickshire |  | 1 / 1.6 / 0/14 | 2 / 1.6 / 0/14 | 3 / 3.4 / 0/14 | 6 / 4.5 / 3/14 |  |  | 1 / 1.0 / 0/14 |
+| Wiltshire |  |  | 2 / 2.0 / 0/14 | 8 / 5.7 / 7/14 | 0 / 2.0 / 0/14 |  | 1 / 1.9 / 0/14 | 0 / 0.5 / 0/14 |
+| Worcestershire |  | 0 / 0.0 / 0/14 | 3 / 1.7 / 0/14 | 3 / 3.4 / 0/14 | 0 / 0.3 / 0/14 | 7 / 4.4 / 7/14 | 2 / 1.6 / 0/14 | 0 / 0.4 / 0/14 |
+| Yorkshire - East |  | 0 / 0.4 / 0/14 | 0 / 0.0 / 0/14 | 1 / 1.1 / 0/14 | 0 / 0.5 / 0/14 | 3 / 2.9 / 0/14 | 1 / 1.1 / 0/14 | 0 / 0.4 / 0/14 |
+| Yorkshire - North |  | 5 / 2.3 / 0/14 | 2 / 1.9 / 0/14 |  |  |  | 1 / 2.8 / 3/14 | 1 / 1.1 / 0/14 |
+| Yorkshire - South |  |  | 1 / 1.3 / 0/14 | 1 / 2.2 / 0/14 | 3 / 3.4 / 0/14 |  | 1 / 1.7 / 0/14 | 1 / 1.0 / 0/14 |
+| Yorkshire - West |  |  |  |  |  |  |  | 0 / 0.7 / 0/14 |
 
 ## HEADLINE
 
 | Measure | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Live regions | 52 / 78 | 11 / 78 | 14 / 78 | 13 / 78 | 22 / 78 | 36 / 78 | 9 / 78 | 6 / 78 |
-| Live slice placements | 1109 + 2 CHECK | 86 | 57 | 166 + 1 CHECK | 169 + 3 CHECK | 560 + 3 CHECK | 47 + 2 CHECK | 1 + 5 CHECK |
+| Live slice placements | 1095 + 2 CHECK | 86 | 57 | 166 + 1 CHECK | 169 + 3 CHECK | 560 + 3 CHECK | 47 + 2 CHECK | 1 + 5 CHECK |
 
 **Live slices: 163 / 624.**
