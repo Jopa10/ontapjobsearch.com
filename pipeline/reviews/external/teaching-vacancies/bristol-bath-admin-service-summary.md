@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-09-24
-review_fingerprint: 7b2a460aee34c9c497be7b8862a47ea0fbd7324dbba4c816dc7852e67db6dc01
-routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
+review_date: 2026-09-25
+review_fingerprint: b128a63753fbd2e9674ddf54cbd443ec4599cd8d2f1433774db1a6e8f208c6a2
+routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 6
-- Selected: 2
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: 56e7b703aa4d4d2daf9ccdf7a7fc269eef51f5e8a38c7a8101c4aa6d7f3
 source: Teaching Vacancies
 source_job_id: administrative-assistant-for-pastoral
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-for-pastoral
+---
+
+---
+action: 
+SELECTED | Bristol & Bath | Bath, South West, BA3 3AL | £27,274.00 Annually (FTE) | Administrator
+employer: Fosse Way School
+closing_date: 2026-10-05T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ed6cb10c39793b08a5e671067469e9f4c97cef9e4eced86b92b3c7e2b0401706
+source: Teaching Vacancies
+source_job_id: administrator-fosse-way-school-bath-somerset
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-fosse-way-school-bath-somerset
 ---
 
 ---
@@ -64,7 +79,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-bridge-learning-campus-bristol) — Insufficient admin/service evidence.
 - [Exams Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-assistant-sir-bernard-lovell-academy) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-whitchurch-primary-school) — Manager title without salary evidence below £28,000.
-- [Recruitment Coordinator](https://teaching-vacancies.service.gov.uk/jobs/recruitment-coordinator-35317134-5457-4fd1-9788-d52457d462fb) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

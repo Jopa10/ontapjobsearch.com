@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-09-24
-review_fingerprint: 946a50f2014c0dee40245af49de7a217fb36865b334dbe7eff6f814704b07c47
-routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
+review_date: 2026-09-25
+review_fingerprint: 41fa43c1638f6cc7b29e8d07f457491888cc6c75c74566f80f2bcaa57f9aa1fb
+routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 33
-- Selected: 16
-- POSS awaiting decision: 3
+- Records: 29
+- Selected: 13
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 14
 
@@ -34,21 +34,6 @@ factual_fingerprint: 77df06f4ef77438daf5d814e21401ce1d0edc2dfc91590056050bf2a8b1
 source: Teaching Vacancies
 source_job_id: administration-assistant-buttershaw-business-enterprise-college-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-buttershaw-business-enterprise-college-academy
----
-
----
-action: 
-SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS27 0LZ | Salary: B3 (SCP 7-11) £27,274 - £29,070, Actual Salary: £23,458 - £25,002 | Administration Assistant SEND
-employer: Bruntcliffe Academy
-closing_date: 2026-09-25T09:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: f6442f71fae08818494f74911e11675634399da986fe6fbe0155fd51d63281a5
-source: Teaching Vacancies
-source_job_id: administration-assistant-send-bruntcliffe-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-send-bruntcliffe-academy
 ---
 
 ---
@@ -79,36 +64,6 @@ factual_fingerprint: a58587bc87cb366355963333204eac5d210fedda4d8432f813b71d8f881
 source: Teaching Vacancies
 source_job_id: administrator-37
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-37
----
-
----
-action: 
-SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS17 5HX | B1 Point 5 | Apprentice Admin Assistant - Level 2 FULL TIME
-employer: Alwoodley Primary School
-closing_date: 2026-09-25T12:00:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 42b05cf6ed8b34083fe3dc1ef035d47a8f97497f81f1220ba0ba15bfcf21f941
-source: Teaching Vacancies
-source_job_id: apprentice-admin-assistant-level-2-full-time
-source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-admin-assistant-level-2-full-time
----
-
----
-action: 
-SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS17 5HX | B1 Point 5 | Apprentice Admin Assistant - Level 2 PART TIME
-employer: Alwoodley Primary School
-closing_date: 2026-09-25T12:00:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 54397a9e2953ed6972f1e8f802b850eaaf7b3437aa6118e7af709cac0fb5a5f2
-source: Teaching Vacancies
-source_job_id: apprentice-admin-assistant-level-2-part-time
-source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-admin-assistant-level-2-part-time
 ---
 
 ---
@@ -265,21 +220,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/recruitment-administr
 
 ---
 action: 
-POSS | Yorkshire - West | Bradford, Yorkshire and the Humber, BD3 0DU | £11,368.00 - £11,731.00 Annually (Actual) Band 5, SCP 4 to 6, 19 hours per week, TTO plus 3 days, Wed & Thu 8:45am to 4:30pm and Fri 10:00am to 2:30pm | Administrator
-employer: Carlton Bolling
-closing_date: 2026-09-25T10:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 6d46982900d593f2d77d12a8c57de55dd26ab239be1540da9268721afdb11cd4
-source: Teaching Vacancies
-source_job_id: administrator-carlton-bolling-bradford-west-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-carlton-bolling-bradford-west-yorkshire
----
-
----
-action: 
 POSS | Yorkshire - West | Leeds, Yorkshire and the Humber, LS16 5AG | Grade C2 SCP 15-19, actual salary £25,823-£27,575 | Deputy Student Services Manager & Attendance Lead
 employer: Lawnswood School
 closing_date: 2026-10-05T09:00:00+01:00
@@ -324,9 +264,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-support-officer-7
 - [HR Advisor (Central Team)](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-central-team) — Insufficient admin/service evidence.
 - [People Advisor (Temporary Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-temporary-maternity-cover) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-barkerend-primary-leadership-academy) — Manager title salary ceiling £47,665 is not below £28,000.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-weetwood-primary-school-leeds-west-yorkshire) — Manager title salary ceiling £42,123 is not below £28,000.
 - [Senior Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-altofts-junior-academy) — Insufficient admin/service evidence.
 - [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-linthwaite-clough-primary-school) — Missing salary or pay scale.
-- [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-impact-education-multi-academy-trust) — Insufficient admin/service evidence.
 - [Work Placement Coordinator](https://teaching-vacancies.service.gov.uk/jobs/work-placement-coordinator-outwood-grange-academy) — Insufficient admin/service evidence.
 
 ## Safety boundary

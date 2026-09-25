@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-09-24
-review_fingerprint: b5b1bb190a9a0be45f7d3cdbe7e13fd7a1f813bf7c265ffd885f9e607bcd87f4
-routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
+review_date: 2026-09-25
+review_fingerprint: 46d82708fffdb7f288742c4e48fc01194efcf9031b410179558413c6ee373c8d
+routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 21
-- Selected: 10
+- Records: 16
+- Selected: 7
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 7
 
 ## SELECTED
 
@@ -34,51 +34,6 @@ factual_fingerprint: c3ce706f1a2bf0e6ff5692920c9ceccbd5c737a14d1cf0ea111a8ff1607
 source: Teaching Vacancies
 source_job_id: administration-assistant-diverse-academies-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-diverse-academies-trust
----
-
----
-action: 
-SELECTED | Nottinghamshire | Mansfield, East Midlands, NG21 9TA | £22,569.72 - £22,569.72 Annually (Actual) Term time only | Administration Assistant
-employer: Thoresby Vale Primary Academy
-closing_date: 2026-09-25T23:59:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2710ff6c7c8d9cbeaa8320e1cf1192b30b2415b073aa39e35dc92d884c56d4c5
-source: Teaching Vacancies
-source_job_id: administration-assistant-thoresby-vale-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-thoresby-vale-primary-academy
----
-
----
-action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG17 8FX | £24,413.00 - £25,185.00 Annually (FTE) | Administrative Assistant
-employer: Greenwood Primary and Nursery School
-closing_date: 2026-09-25T09:00:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: be2be491b96bcd8d9d3472ff7b356f179dc8604f7e8c58d6e34210a726fb3e9e
-source: Teaching Vacancies
-source_job_id: administrative-assistant-greenwood-primary-and-nursery-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-greenwood-primary-and-nursery-school
----
-
----
-action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG15 6WU | £25,583.00 - £26,428.00 Annually (FTE) Grade 3 points 5 - 7, term time only, plus two weeks | Administrative Assistant
-employer: Hucknall Flying High Academy
-closing_date: 2026-09-25T09:00:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 14fbcb24bc8c6c571854577ab0f28d21b410824393a7c09ac3180e5a41cfeaa3
-source: Teaching Vacancies
-source_job_id: administrative-assistant-hucknall-flying-high-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-hucknall-flying-high-academy
 ---
 
 ---
@@ -211,9 +166,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-the-whit
 
 - [Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-radford-primary-school-academy) — Insufficient admin/service evidence.
 - [Attendance Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-administration-assistant-the-long-eaton-school) — Insufficient admin/service evidence.
-- [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-our-lady-of-lourdes-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [HR and Recruitment Team Leader](https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-team-leader) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-jubilee-l-e-a-d-academy) — Manager title salary ceiling £32,187 is not below £28,000.
 - [One to One Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/one-to-one-personal-care-assistant) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-bf443901-6fb8-4721-9adf-b67f0bdbd6f6) — Insufficient admin/service evidence.
 - [School Business Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-business-administrator-ladycross-infant-school) — Missing salary or pay scale.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - East
 
-review_date: 2026-09-24
-review_fingerprint: 7abea3ecd3263e82b9541733ac148cbc51c11f78657634f1c4a09444be288eec
-routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
+review_date: 2026-09-25
+review_fingerprint: 9aa3bd4ccd38279cab1be8363008a709ebf91c95275b9009c8e905d21525f0ea
+routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
 ontap_region: Lancashire - East
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 3
-- POSS awaiting decision: 1
+- Records: 3
+- Selected: 2
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
 
@@ -51,37 +51,9 @@ source_job_id: office-administrator-blacko-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-blacko-primary-school
 ---
 
----
-action: 
-SELECTED | Lancashire - East | Blackburn, North West, BB2 6LX | £25,583 to £26,828, | Office Administrator
-employer: Wensley Fold CofE Primary Academy
-closing_date: 2026-09-25T12:00:00+01:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 8edac9b18f3e6ddc451fa738329b881f52a412df83dcaaf73d3081cf524b07b3
-source: Teaching Vacancies
-source_job_id: office-administrator-wensley-fold-cofe-primary-academy-blackburn-lancashire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-wensley-fold-cofe-primary-academy-blackburn-lancashire
----
-
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Lancashire - East | Blackburn, North West, BB1 4ED | £25,000.00 - £35,000.00 Annually (Actual) | Data Officer
-employer: The Hyndburn Academy
-closing_date: 2026-09-24T17:00:00+01:00
-reason: Borderline school administration title: data officer
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: b894d546b45046997540513d61c13b55912a40357e492562e00263ffa759646e
-source: Teaching Vacancies
-source_job_id: data-officer-the-hyndburn-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-the-hyndburn-academy
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

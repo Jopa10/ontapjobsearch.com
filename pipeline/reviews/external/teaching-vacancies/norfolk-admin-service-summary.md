@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-09-24
-review_fingerprint: a98f5414d2c78d18fe26e5e82efe2b2846c346a1369a2fcbc45099c53457bbf6
-routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
+review_date: 2026-09-25
+review_fingerprint: 1dc5128398e7c44c02e820b2c364ab68e7990c86437fe37f166c10d040c0d306
+routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -14,12 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 16
-- Selected: 6
-- POSS awaiting decision: 3
+- Selected: 8
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Norfolk | Great Yarmouth, East of England, NR30 3DT | Salary: Support Staff Pay Scale D: £23,112 to £23,479 pro-rata per annum (Actual) (£26,427- £26,847 full time/full year equivalent) | Administration Assistant
+employer: Great Yarmouth Primary Academy and Nursery
+closing_date: 2026-10-16T01:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 31f5ed28fcb06609b37aee84cb345475fdb2b91e3da42ea0bc15dc8607a21411
+source: Teaching Vacancies
+source_job_id: administration-assistant-great-yarmouth-primary-academy-and-nursery
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-great-yarmouth-primary-academy-and-nursery
+---
 
 ---
 action: 
@@ -83,6 +98,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-assistant-west
 
 ---
 action: 
+SELECTED | Norfolk | King's Lynn, East of England, PE30 2QB | Salary: Support Staff Pay Scale C: £22,401 to £22,752 pro-rata per annum (Actual) (£25,614 - £26,016 full time/full year equivalent) | Receptionist
+employer: King Edward VII Academy
+closing_date: 2026-10-02T01:00:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f9c2f6eba972339fea7afc26f52c9fecca4694c9a275c90ae5f3fec60e84fdc1
+source: Teaching Vacancies
+source_job_id: receptionist-king-edward-vii-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-king-edward-vii-academy
+---
+
+---
+action: 
 SELECTED | Norfolk | King's Lynn, East of England, PE31 8RF | £10,376 - £10,539 actual pa | School Secretary
 employer: Rudham CofE Primary Academy
 closing_date: 2026-09-28T01:00:00+01:00
@@ -112,21 +142,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-secretary-the-
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Norfolk | Norwich, East of England, NR5 0PX | £16,356.00 - £17,168.00 Annually (Actual) | Behaviour & Careers Administration Assistant
-employer: Ormiston Victory Academy
-closing_date: 2026-09-25T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e6c56facc0307b023cdfaad0a2fa3700d1df561d69a2aeb2ab9e3e5f2114be08
-source: Teaching Vacancies
-source_job_id: behaviour-careers-administration-assistant
-source_url: https://teaching-vacancies.service.gov.uk/jobs/behaviour-careers-administration-assistant
----
 
 ---
 action: 
@@ -165,7 +180,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-wit
 ## HARD_PASS
 
 - [Administration Officer: Vulnerable Students](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-vulnerable-students) — Insufficient admin/service evidence.
-- [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-broad-horizons-education-trust) — Insufficient admin/service evidence.
 - [Director of Compliance](https://teaching-vacancies.service.gov.uk/jobs/director-of-compliance) — Insufficient admin/service evidence.
 - [Office Coordinator](https://teaching-vacancies.service.gov.uk/jobs/office-coordinator-duchy-of-lancaster-methwold-cofe-primary-school-thetford-norfolk) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-poringland-primary-school) — Manager title salary ceiling £33,119 is not below £28,000.

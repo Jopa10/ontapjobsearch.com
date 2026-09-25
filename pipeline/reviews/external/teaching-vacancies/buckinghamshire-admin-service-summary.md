@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-09-24
-review_fingerprint: 067268e5f3cc3a7c84df507b2990126da2aea8c289b2b10e2378a6716f034898
-routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
+review_date: 2026-09-25
+review_fingerprint: 65cefee6e83caf8539df62fc8be1b6d016264ecbf77c97aab259add64da4ee9d
+routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 9
+- Records: 16
+- Selected: 7
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 9
 
 ## SELECTED
 
@@ -38,21 +38,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator
 
 ---
 action: 
-SELECTED | Buckinghamshire | Amersham, South East, HP7 9HH | Bucks Pay Range 2 - £23,666 pro rata / £26,522 FTE | Administration Assistant
-employer: Amersham School
-closing_date: 2026-09-25T23:59:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: dcc1f05a0f4ccd17372929c836e080ad9ce27c086bea3523ac406bfccd5ebff1
-source: Teaching Vacancies
-source_job_id: administration-assistant-amersham-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-amersham-school
----
-
----
-action: 
 SELECTED | Buckinghamshire | Aylesbury, South East, HP22 7BR | £29,156.00 - £31,413.00 Annually (Actual) Bucks Pay Range 5 £29,156 to £31,413 (Full time equivalent to £34,319 to 36,975) | ARC Administrator
 employer: The Kingsbrook School
 closing_date: 2026-10-06T12:00:00+01:00
@@ -64,21 +49,6 @@ factual_fingerprint: f99444afc5d1849323ce2a57354d4923d694b96c02a452d398790b0d1c8
 source: Teaching Vacancies
 source_job_id: arc-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/arc-administrator
----
-
----
-action: 
-SELECTED | Buckinghamshire | Amersham, South East, HP7 9HH | Bucks Pay Range 3.16 £24,074 pro rata / £29,114 FTE | Attendance Officer
-employer: Amersham School
-closing_date: 2026-09-25T23:59:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 67457aece2f661420afeef2e88ecf613d3ee9bf8e4755057aecc81b186354865
-source: Teaching Vacancies
-source_job_id: attendance-officer-amersham-school-amersham-buckinghamshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-amersham-school-amersham-buckinghamshire
 ---
 
 ---
@@ -174,6 +144,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-chi
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-alfriston-school) — Manager title salary ceiling £46,650 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-b95ff08b-9acf-4cd1-8f39-df785de23724) — Manager title salary ceiling £48,738 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-cf969ad1-41ff-497a-b265-ced6b70225ac) — Manager title salary ceiling £48,738 is not below £28,000.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-winslow-church-of-england-school) — Manager title salary ceiling £41,272 is not below £28,000.
 
 ## Safety boundary
 

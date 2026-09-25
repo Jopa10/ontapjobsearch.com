@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-09-24
-review_fingerprint: b947b1757c02468a0d9ddf40801df266bda6e5bc94b85e58a653df589f6c165f
-routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
+review_date: 2026-09-25
+review_fingerprint: ec229f56c33a2d1a2354e1f0f4c629c56d753beab613bcd1db76689fa95ff1f9
+routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
-- Selected: 9
-- POSS awaiting decision: 1
+- Records: 22
+- Selected: 8
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 12
 
 ## SELECTED
 
@@ -53,21 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-part-
 
 ---
 action: 
-SELECTED | Yorkshire - South | Rotherham, Yorkshire and the Humber, S63 0NU | £26,017.00 - £26,847.00 Annually (FTE) scp 4-6 Pro rata £20,660 - £21,319 | Administration Assistant
-employer: Gooseacre Primary Academy
-closing_date: 2026-09-25T09:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 91e8d487e9a7a4fb713ea841571a73f61890d5f97ab892fa26417d02817f22bc
-source: Teaching Vacancies
-source_job_id: administration-assistant-gooseacre-primary-academy-rotherham-south-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-gooseacre-primary-academy-rotherham-south-yorkshire
----
-
----
-action: 
 SELECTED | Yorkshire - South | Doncaster, Yorkshire and the Humber, DN2 5JG | £19,107.00 - £20,690.00 Annually (Actual) GRade 6 (Point 6-11) | Administration Assistant
 employer: Our Lady of Mount Carmel Catholic Primary School
 closing_date: 2026-10-05T09:00:00+01:00
@@ -98,17 +83,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-admin-assi
 
 ---
 action: 
-SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S20 1HQ | £34,237.00 - £38,510.00 Annually (FTE) Grade 6 SCP 21 to 26 (Actual salary £30,957 - £34,821) | Personal Assistant to Headteacher
-employer: Westfield School
-closing_date: 2026-09-24T23:59:00+01:00
-reason: Clear admin/service title: personal assistant
+SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S2 1SN | £32,043 gross per annum | HR Administrator
+employer: Sheffield Park Academy
+closing_date: 2026-10-08T23:59:00+01:00
+reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 589406a11436d8f09b35a36409284fb5a070c45b47d0a37eecda4f1896b4bfab
+factual_fingerprint: 0f7d5f78d7a1536f6b7bc0b83313907d0d525466cebf958a39f5567973f7291f
 source: Teaching Vacancies
-source_job_id: personal-assistant-to-headteacher-westfield-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-headteacher-westfield-school
+source_job_id: hr-administrator-e50a9848-dea2-4828-a9a5-5745ea9a03ce
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-e50a9848-dea2-4828-a9a5-5745ea9a03ce
 ---
 
 ---
@@ -173,6 +158,21 @@ source_job_id: administration-officer-7376
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-7376
 ---
 
+---
+action: 
+POSS | Yorkshire - South | Rotherham, Yorkshire and the Humber, S66 8AB | Band E Point 7 to 11 £27,264 to £29,071 per annum Actual Salary £23,433 - £24,977 | Data Officer
+employer: Maltby Academy
+closing_date: 2026-10-05T09:00:00+01:00
+reason: Borderline school administration title: data officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c290a64c70c26ee413b68840e7c7968f68e51289b9e29a49fc4796bd10134b5d
+source: Teaching Vacancies
+source_job_id: data-officer-maltby-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-maltby-academy
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -180,14 +180,16 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-office
 ## HARD_PASS
 
 - [Admin & Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-finance-assistant-newman-school) — Insufficient admin/service evidence.
-- [Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-newman-school) — Insufficient admin/service evidence.
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-st-thomas-more-catholic-primary-a-voluntary-academy) — Insufficient admin/service evidence.
+- [Attendance and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-officer-sharrow-nursery-infant-and-junior-school) — Insufficient admin/service evidence.
 - [Business Support Manager](https://teaching-vacancies.service.gov.uk/jobs/business-support-manager-beck-primary-school-sheffield-south-yorkshire) — Manager title salary ceiling £40,921 is not below £28,000.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-st-clare-catholic-multi-academy-trust) — Insufficient admin/service evidence.
+- [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-ridgewood-school) — Insufficient admin/service evidence.
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-white-woods-primary-academy-trust) — Insufficient admin/service evidence.
 - [Finance & Admin Asst](https://teaching-vacancies.service.gov.uk/jobs/finance-admin-asst) — Insufficient admin/service evidence.
+- [Finance Manager (FTC)](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-ftc) — Manager title salary ceiling £53,500 is not below £28,000.
+- [Governance and Executive Support Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-and-executive-support-officer) — Insufficient admin/service evidence.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-982c74fa-4963-48bf-be10-a1bcf0a4bf2f) — Manager title salary ceiling £39,773 is not below £28,000.
-- [Part-time Administrator](https://teaching-vacancies.service.gov.uk/jobs/part-time-administrator-woodhouse-west-primary-school-sheffield-south-yorkshire) — Missing salary or pay scale.
 - [Senior Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-kings-oak-primary) — Insufficient admin/service evidence.
 
 ## Safety boundary

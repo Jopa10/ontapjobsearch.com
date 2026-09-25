@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - Central
 
-review_date: 2026-09-24
-review_fingerprint: db7c2b97ffc9ae4e844d28c51a631363675d36d13a4ff053673b4cc6d3b59d6f
-routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
+review_date: 2026-09-25
+review_fingerprint: 757b23cf0c0e843fdcec3fd69bb1515f9c0c4a8d4861649a7dfb813e363ffd09
+routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
 ontap_region: Lancashire - Central
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -38,17 +38,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-4-ehcp-
 
 ---
 action: 
-SELECTED | Lancashire - Central | Preston, North West, PR1 4PR | £28,142.00 - £32,061.00 Annually (FTE) | Data & Exams Officer
-employer: Christ The King Catholic High School
-closing_date: 2026-09-25T09:00:00+01:00
-reason: Clear admin/service title: exams officer
+SELECTED | Lancashire - Central | Preston, North West, PR1 1TT | £26,016.00 - £26,847.00 Annually (FTE) | School Business Support Assistant (Part-Time)
+employer: St Ignatius' Catholic Primary School, Preston
+closing_date: 2026-10-16T12:00:00+01:00
+reason: Clear admin/service title: business support assistant
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: 278912f669fb913bc93858809e6a4fd422c25be965f0726a020e92b1f408122b
+factual_fingerprint: 9e8537a3f7b6655b7d6745033b30376cccd5a19036c7025b2ebd3f6e591ed0bc
 source: Teaching Vacancies
-source_job_id: data-exams-officer-christ-the-king-catholic-high-school-preston-lancashire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-exams-officer-christ-the-king-catholic-high-school-preston-lancashire
+source_job_id: school-business-support-assistant-part-time
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-support-assistant-part-time
 ---
 
 ## POSS — choose SELECT or EXCLUDE

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-09-24
-review_fingerprint: 9e3c6291ed073baddebe90516ecc731854a6f2122a7bcfce13ae1e3e0aee5daf
-routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
+review_date: 2026-09-25
+review_fingerprint: 6e12daca05362b93d575a9a7b6fae12f3132f148f5b3bffd55fe64d32762a80f
+routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 7
+- Records: 14
+- Selected: 8
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 3
@@ -124,6 +124,21 @@ factual_fingerprint: e1138498c0de9fcf7dae66df75fb8817ff229478730bd3d94e8f47adbf1
 source: Teaching Vacancies
 source_job_id: senior-administrator-to-the-senior-leadership-team
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-to-the-senior-leadership-team
+---
+
+---
+action: 
+SELECTED | Greater Manchester - Manchester & Salford | Manchester, M60 0AG | NJC SCP12 - SCP19 £28,598 - £32,062 | Trust Finance and Systems Administrator
+employer: The Co Operative Academies Trust
+closing_date: 2026-10-12T00:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f58fcb8ca4d33990b2a966c308d9e7c3cc9322d7bc237e5db50a3fa68e898f4d
+source: Teaching Vacancies
+source_job_id: trust-finance-and-systems-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-and-systems-administrator
 ---
 
 ## POSS — choose SELECT or EXCLUDE

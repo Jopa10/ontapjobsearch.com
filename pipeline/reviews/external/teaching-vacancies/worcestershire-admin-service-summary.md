@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Worcestershire
 
-review_date: 2026-09-24
-review_fingerprint: d44e9a32d3296df4f7c5bd9c5aa7172aff0127f337a2b0e4636b096b8bc9f9d8
-routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
+review_date: 2026-09-25
+review_fingerprint: ed512b0deaff62034e62436545ee37cc7630a190b323bddde7ff8e1b12082323
+routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 5
-- Selected: 2
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -51,6 +51,21 @@ source_job_id: office-administrator-stourport-primary-academy-stourport-on-sever
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-stourport-primary-academy-stourport-on-severn-worcestershire
 ---
 
+---
+action: 
+SELECTED | Worcestershire | Kidderminster, West Midlands, DY10 2BX | £26,016.00 Annually (FTE) Actual pro rata salary approx £5,387 per annum for part time hours and term time only | Receptionist and Admin Assistant
+employer: St George's CofE School
+closing_date: 2026-10-09T23:59:00+01:00
+reason: Clear admin/service title: admin assistant, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 89ac2b640690266f046cbd79294849b3ef9eb80a0d3d4d11ab6e8d7108aab000
+source: Teaching Vacancies
+source_job_id: receptionist-and-admin-assistant-st-george-s-cofe-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admin-assistant-st-george-s-cofe-school
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -74,7 +89,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 
 ## HARD_PASS
 
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-trinity-high-school-and-sixth-form-centre) — Manager title without salary evidence below £28,000.
 - [School Office Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-office-administrator-north-worcester-primary-school-worcester-worcestershire) — Missing salary or pay scale.
 
 ## Safety boundary

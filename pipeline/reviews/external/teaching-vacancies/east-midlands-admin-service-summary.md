@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-09-24
-review_fingerprint: 3a53e87eb1b074c9a6d798228fd436f28cdff3ac5d8c88a288e100ce2dfe68f9
-routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
+review_date: 2026-09-25
+review_fingerprint: b63e7814ae76d042b0fd3633b3555ecf093ddbe58fbd06c37f52bac805d90058
+routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 7
 - Selected: 1
-- POSS awaiting decision: 3
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 4
 
@@ -66,21 +66,6 @@ factual_fingerprint: 7fdc5ee2ecd6ad143006a51224049df6494167322da3dcf3f8b9e33705a
 source: Teaching Vacancies
 source_job_id: finance-assistant-queen-elizabeth-s-grammar-school-ashbourne-derbyshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-queen-elizabeth-s-grammar-school-ashbourne-derbyshire
----
-
----
-action: 
-POSS | East Midlands | Derby, East Midlands, DE24 5AX | £26,241.00 - £27,997.00 Annually (Actual) NJC 11-15 - Full Time - 41 weeks per year | Office Manager
-employer: Clover Leys Spencer Academy
-closing_date: 2026-09-28T12:00:00+01:00
-reason: Manager title below £28,000 salary ceiling requires review
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 2aabe4f88eef315fee67d19923bab22bde8579a8f38bd553ad90d7cc21aff5d4
-source: Teaching Vacancies
-source_job_id: office-manager-clover-leys-spencer-academy-derby-derbyshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-clover-leys-spencer-academy-derby-derbyshire
 ---
 
 ## EXCLUDED BY REVIEW

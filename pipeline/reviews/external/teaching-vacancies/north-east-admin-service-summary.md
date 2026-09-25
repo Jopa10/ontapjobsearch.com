@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-09-24
-review_fingerprint: 66c758d30a252c535c34b3ba2a1549f869de1eb86280dbb7d9b8900da0165a08
-routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
+review_date: 2026-09-25
+review_fingerprint: 30b5c714ea9613ea6b7c3543ba107fff1e5e5b4217c1b3c90e73dd424849e805
+routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
+- Records: 11
 - Selected: 7
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 3
 
@@ -128,7 +128,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-support-roles-
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | North East | Sunderland, North East, SR3 2BB | £24,670.09 - £26,332.00 Annually (Actual) | Office Manager
+employer: St Leonard's Catholic Primary School, Silksworth
+closing_date: 2026-10-07T12:00:00+01:00
+reason: Manager title below £28,000 salary ceiling requires review
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 964c4c005884f6075477f0857551cf199cfff97d8b66cc7b1c4fb4d7825f4241
+source: Teaching Vacancies
+source_job_id: office-manager-st-leonard-s-catholic-primary-school-silksworth
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-leonard-s-catholic-primary-school-silksworth
+---
 
 ## EXCLUDED BY REVIEW
 

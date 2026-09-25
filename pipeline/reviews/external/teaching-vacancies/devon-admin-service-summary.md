@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-09-24
-review_fingerprint: 3441c2ce3e66e3507bc74bc7018f1880fc9a1c68b006f9d9b8f72f1207ad301a
-routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
+review_date: 2026-09-25
+review_fingerprint: 50abf8dbe457b719d5637c5d8da3cc6deeba3364be369124ed5f0feaae21214b
+routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 26
-- Selected: 13
-- POSS awaiting decision: 2
+- Records: 27
+- Selected: 14
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 10
 
 ## SELECTED
 
@@ -49,6 +49,21 @@ factual_fingerprint: 18f800daa121f10aba18f5b2f274e2d008ffc3c927fb9bed1bedae6db1e
 source: Teaching Vacancies
 source_job_id: apprenticeship-onboarding-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/apprenticeship-onboarding-administrator
+---
+
+---
+action: 
+SELECTED | Devon | Exeter, South West, EX2 6AP | £23,071.62 - £25,407.68 | Attendance Officer
+employer: Isca Academy
+closing_date: 2026-09-27T23:59:00+01:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f87a9e1a865c685ad433deb9236f236043c2cf588f928029548741dc07c17997
+source: Teaching Vacancies
+source_job_id: attendance-officer-3a512135-b2ab-44a1-ab86-624ecc2e7290
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-3a512135-b2ab-44a1-ab86-624ecc2e7290
 ---
 
 ---
@@ -248,6 +263,21 @@ source_job_id: senior-pupil-services-officer-st-leonard-s-cofe-primary-school-ex
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-st-leonard-s-cofe-primary-school-exeter-devon
 ---
 
+---
+action: 
+POSS | Devon | Exeter, South West, EX1 2SN | £27,709.00 - £29,070.00 Annually (FTE) | Senior Pupil Services officer - 2 days/week
+employer: St Michael's Church of England Primary Academy
+closing_date: 2026-10-16T09:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: be27b750952f6c45ecb0747822ce9f610ec9df837586f6d397d843545b50e3d9
+source: Teaching Vacancies
+source_job_id: senior-pupil-services-officer-2-days-week-st-michael-s-church-of-england-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-2-days-week-st-michael-s-church-of-england-primary-academy
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -255,7 +285,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 ## HARD_PASS
 
 - [[260909] Office Manager](https://teaching-vacancies.service.gov.uk/jobs/260909-office-manager) — Manager title salary ceiling £33,673 is not below £28,000.
-- [Administrator](https://teaching-vacancies.service.gov.uk/jobs/administrator-collaton-st-mary-church-of-england-primary-school) — Missing salary or pay scale.
 - [Apprenticeship and PTSA Operations Coordinator](https://teaching-vacancies.service.gov.uk/jobs/apprenticeship-and-ptsa-operations-coordinator) — Insufficient admin/service evidence.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-torquay-boys-grammar-school-torquay-devon) — Insufficient admin/service evidence.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-0263aaa9-e252-4340-b2d6-102751e90f65) — Insufficient admin/service evidence.

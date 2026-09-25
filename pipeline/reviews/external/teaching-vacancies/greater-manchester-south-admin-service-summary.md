@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - South
 
-review_date: 2026-09-24
-review_fingerprint: 872e41680b805ae39e78efeb99386df3dbd809f19074c301d5da5057e12708b8
-routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
+review_date: 2026-09-25
+review_fingerprint: c96c6a918661478aa5d6104bb0abb5fcf07faed130620e043a37cd3df6caebb1
+routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
 ontap_region: Greater Manchester - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 5
 - Selected: 1
-- POSS awaiting decision: 2
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 3
 
@@ -51,21 +51,6 @@ factual_fingerprint: 0a41ccb94dd6e3a92befca1242cb492e11df3ce5f44290929175ce6e1c9
 source: Teaching Vacancies
 source_job_id: attendance-and-communications-officer
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-communications-officer
----
-
----
-action: 
-POSS | Greater Manchester - South | Stockport, North West, SK7 5JX | £15,409 - £16,162 (Actual salary) | SEND Admininstrator
-employer: Hazel Grove High School
-closing_date: 2026-09-25T09:00:59+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: bf600e97229e0411bdb1e2443c9cb433975452aa82f196c5f81c27304d90904d
-source: Teaching Vacancies
-source_job_id: send-admininstrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-admininstrator
 ---
 
 ## EXCLUDED BY REVIEW

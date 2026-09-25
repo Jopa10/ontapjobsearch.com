@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-09-24
-review_fingerprint: 55cf9c4273ebbd0f4e41a94875389e9d42590e0c8d6302fe0bd075fcfa1be62a
-routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
+review_date: 2026-09-25
+review_fingerprint: d01b75243e9a1a2d5255ea7046b868ce79f239ff6d8472f88780ffcb034f67f4
+routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 5
+- Records: 9
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 5
 
 ## SELECTED
 
@@ -81,21 +81,6 @@ source_job_id: receptionist-yew-tree-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-yew-tree-primary-school
 ---
 
----
-action: 
-SELECTED | West Midlands - Black Country | Wolverhampton, West Midlands, WV3 9DU | £26,427.00 - £26,847.00 Annually (FTE) | Receptionist/ Administrative Assistant
-employer: St Edmund's Catholic Academy
-closing_date: 2026-09-30T12:00:00+01:00
-reason: Clear admin/service title: administrative assistant, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 92f3770eb004ffb27b8b32ce610627c4621c5a9f0bb21d0f6195526b36bd23c9
-source: Teaching Vacancies
-source_job_id: receptionist-administrative-assistant-st-edmund-s-catholic-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrative-assistant-st-edmund-s-catholic-academy
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -107,6 +92,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 ## HARD_PASS
 
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-joseph-leckie-academy-walsall-west-midlands) — Manager title salary ceiling £51,928 is not below £28,000.
+- [Exam Invigilators](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilators-472ff49d-b207-467b-8dbd-b5478c05c6b7) — Insufficient admin/service evidence.
+- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-st-chad-s-academies-trust) — Manager title salary ceiling £65,035 is not below £28,000.
 - [Site Assistant](https://teaching-vacancies.service.gov.uk/jobs/site-assistant-priory-primary-school-dudley-west-midlands) — Insufficient admin/service evidence.
 - [Teaching Assistant (Level 2)](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-level-2-manor-way-primary-academy) — Out-of-scope occupation: teaching assistant.
 

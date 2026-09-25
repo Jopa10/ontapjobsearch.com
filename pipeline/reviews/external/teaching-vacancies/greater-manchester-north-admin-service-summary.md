@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-09-24
-review_fingerprint: 7f1c774534877841a81e9e570a9d2c661585a382151bbb98aa29f7885a7a7ef8
-routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
+review_date: 2026-09-25
+review_fingerprint: 5b950e7c32dae0db807af91862caf57d86380d4bd2a08cc4e259a179f63be1c6
+routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 3
+- Records: 6
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 3
 
 ## SELECTED
-
----
-action: 
-SELECTED | Greater Manchester - North | Heywood, North West, OL10 2QN | £25,981.00 - £27,693.00 Annually (Actual) School Support Scale point 1 - 3, currently increased to Real Living Wage | Admin Assistant (Medical and First Aid Responsibility)
-employer: Edgar Wood Academy
-closing_date: 2026-09-25T12:00:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 7e9cf785a34c1674b275308556d8b909467ee4d315729426597264358f97ca98
-source: Teaching Vacancies
-source_job_id: admin-assistant-medical-and-first-aid-responsibility
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-medical-and-first-aid-responsibility
----
 
 ---
 action: 

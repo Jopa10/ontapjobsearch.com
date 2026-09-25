@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-09-24
-review_fingerprint: 9c70975cec66501d29aa00f0f22db85eda9e986fc550b6a5afdba3df57b7e9e0
-routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
+review_date: 2026-09-25
+review_fingerprint: 775a435c032c64a804d6631d0ede58c29704362e7c94a7c8f6773a304576749e
+routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
+- Records: 14
 - Selected: 6
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 8
 
@@ -38,21 +38,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ---
 action: 
-SELECTED | Bedfordshire | Bedford, East of England, MK41 9DQ | £25,185.00 - £25,583.00 Annually (FTE) | Office Administrator
-employer: St John Rigby Catholic Primary School
-closing_date: 2026-09-25T12:00:00+01:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: da634e2b07b9543f8d38ecda395f42a7170390b1ff348f3a3bab35fc6283c874
-source: Teaching Vacancies
-source_job_id: office-administrator-st-john-rigby-catholic-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-john-rigby-catholic-primary-school
----
-
----
-action: 
 SELECTED | Bedfordshire | Luton, East of England, LU1 4BB | Level 3C Points 6 - 8 | Reception Administrator Assistant
 employer: Manshead Church of England Academy
 closing_date: 2026-09-28T09:00:00+01:00
@@ -68,6 +53,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-administrat
 
 ---
 action: 
+SELECTED | Bedfordshire | Dunstable, East of England, LU5 6AB | £20,086.00 - £20,727.00 Annually (Actual) | Receptionist & Administrative Assistant
+employer: Parkfields Middle School
+closing_date: 2026-10-08T09:00:00+01:00
+reason: Clear admin/service title: administrative assistant, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b50e6f9223289befb6b68d8cf21fff3c273b505eb7985264511e107c77bd1868
+source: Teaching Vacancies
+source_job_id: receptionist-administrative-assistant-parkfields-middle-school-dunstable-bedfordshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrative-assistant-parkfields-middle-school-dunstable-bedfordshire
+---
+
+---
+action: 
 SELECTED | Bedfordshire | Luton, East of England, LU2 8HJ | £23,233.00 - £23,979.00 Annually (Actual) 37 hours a week, term time + 5 days - L3 (actual salary £23,233 pa) | Receptionist / Administrator - Maternity Cover
 employer: Putteridge High School
 closing_date: 2026-10-02T12:00:00+01:00
@@ -75,10 +75,10 @@ reason: Clear admin/service title: administrator, receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: d6d16e56d3ba4c566ebdbc2ccfd557c9cca11ddc6226a331216d16ae17c1010e
+factual_fingerprint: 19b3fb049f84f11d9f2ee0674d789232c4bb74e960dc977e3849d4695788736f
 source: Teaching Vacancies
-source_job_id: receptionist-administrator-maternity-cover-b0011690-aa34-46e2-8bbd-40b9783322e9
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-maternity-cover-b0011690-aa34-46e2-8bbd-40b9783322e9
+source_job_id: receptionist-administrator-maternity-cover-698a8012-ea64-49ee-8f10-84f9ae723800
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-maternity-cover-698a8012-ea64-49ee-8f10-84f9ae723800
 ---
 
 ---
@@ -113,20 +113,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-finance-
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Bedfordshire | Luton, LU4 0PF | £16.62 - £17.85 Hourly | Governance Professional (Clerk)
-employer: St Thomas Catholic Academies Trust
-closing_date: 2026-09-25T12:00:00+01:00
-reason: Borderline school administration title: governance professional
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b7765419421b98a6e313425f38252f166a41ab38f62495f578e3b18fa8176693
-source: Teaching Vacancies
-source_job_id: governance-professional-clerk-st-thomas-catholic-academies-trust-luton-not-recorded
-source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-clerk-st-thomas-catholic-academies-trust-luton-not-recorded
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

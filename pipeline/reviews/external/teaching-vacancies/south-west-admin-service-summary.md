@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — South West
 
-review_date: 2026-09-24
-review_fingerprint: 53cc091065b8f3d1c3b389e153665b92bec5a7102af274b13318114f407afeac
-routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
+review_date: 2026-09-25
+review_fingerprint: 22d83cf19bee4eb8df4137e5325b1ba026ced066c5b699c834beea452d70ef6c
+routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
 ontap_region: South West
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 6
 - Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 2
 
 ## SELECTED
 
@@ -68,17 +68,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-administrat
 
 ---
 action: 
-SELECTED | South West | Pewsey, South West, SN9 5LZ | £26,427.00 - £26,847.00 Annually (FTE) £7,370.49 - £7,487.63 (Actual) | School Administrator
-employer: Easton Royal Academy
-closing_date: 2026-09-25T09:00:00+01:00
-reason: Clear admin/service title: administrator
+SELECTED | South West | Chipping Campden, South West, GL55 6HU | £25,583 - £25,989 p.a. FTE | Receptionist & Administrative Assistant
+employer: Chipping Campden School
+closing_date: 2026-10-05T12:00:00+01:00
+reason: Clear admin/service title: administrative assistant, receptionist
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: 6cbc33ca4199630e2e6411785e7bf86ccce81af4ea2e0ccca0d4b13c57365ad7
+factual_fingerprint: 89de83f9bda1975419ba34bb3d9c6ebf0673463319e9a96addcf343420b5e597
 source: Teaching Vacancies
-source_job_id: school-administrator-easton-royal-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-easton-royal-academy
+source_job_id: receptionist-administrative-assistant-chipping-campden-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrative-assistant-chipping-campden-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -91,6 +91,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## HARD_PASS
 
+- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-chipping-campden-school) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-torpoint-community-college) — Manager title salary ceiling £56,293 is not below £28,000.
 
 ## Safety boundary

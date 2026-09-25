@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-09-24
-review_fingerprint: 5fff45100cf2438974cc554702a833a7df6b33cce9c87640a7b05bc6011350dc
-routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
+review_date: 2026-09-25
+review_fingerprint: fd425f18dca52564a96b6a740c156b7450e3c88d620e79f9946fd14fe8449916
+routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 8
-- Selected: 3
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: 6f08d5e7a292e06e10c2be0378b60c47fcd7924ece170c196cfc86e9120
 source: Teaching Vacancies
 source_job_id: attendance-officer-level-4-longford-primary-academy-cannock-staffordshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-level-4-longford-primary-academy-cannock-staffordshire
----
-
----
-action: 
-SELECTED | Staffordshire | Stoke-on-Trent, West Midlands, ST6 6LZ | £23,862.00 - £26,425.00 Annually (Actual) | Finance Administrator
-employer: St Margaret Ward Catholic Academy
-closing_date: 2026-09-25T12:00:00+01:00
-reason: Clear admin/service title: administrator, finance administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: aee1a4e7e36c57abbcd61230af07bd728e87289df55d9bb9c48102e83ed606a1
-source: Teaching Vacancies
-source_job_id: finance-administrator-st-margaret-ward-catholic-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-st-margaret-ward-catholic-academy
 ---
 
 ---
@@ -77,9 +62,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admi
 ## HARD_PASS
 
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-1b712634-857b-405e-a4de-a196344ada05) — Insufficient admin/service evidence.
-- [Deputy Chief Executive Officer - Finance and Operations](https://teaching-vacancies.service.gov.uk/jobs/deputy-chief-executive-officer-finance-and-operations) — Insufficient admin/service evidence.
+- [Data and Insights Officer](https://teaching-vacancies.service.gov.uk/jobs/data-and-insights-officer) — Insufficient admin/service evidence.
 - [Finance Assistant (SBMAT) - Level 4](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-sbmat-level-4) — Insufficient admin/service evidence.
 - [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-discovery-academy-stoke-on-trent-staffordshire) — Insufficient admin/service evidence.
+- [School Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-administration-assistant-westwood-college) — Insufficient admin/service evidence.
 - [Senior Administration and Finance Assistant - Level 5](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-and-finance-assistant-level-5) — Insufficient admin/service evidence.
 
 ## Safety boundary

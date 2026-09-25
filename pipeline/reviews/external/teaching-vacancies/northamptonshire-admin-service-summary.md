@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-09-24
-review_fingerprint: c27df06f89ea6248d8e78943b8a767f5b8b6875024272e0332009ee700ae0e41
-routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
+review_date: 2026-09-25
+review_fingerprint: 289a19a272fb3362d29c3b9519802bdce54e33e3fec60f479a67c206533d3b62
+routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 5
+- Records: 8
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 5
@@ -64,36 +64,6 @@ factual_fingerprint: de27ad7fb26521e387e272efa4e7477a45d49819168c4acb383a3b3f920
 source: Teaching Vacancies
 source_job_id: operations-administrator-corby-business-academy-corby-northamptonshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-administrator-corby-business-academy-corby-northamptonshire
----
-
----
-action: 
-SELECTED | Northamptonshire | Northampton, East Midlands, NN3 6DW | £25,614.00 - £26,016.00 Annually (FTE) ACTUAL SALARY £8,931 per year | Receptionist/Admin Assistant
-employer: Parklands Nursery School
-closing_date: 2026-10-02T23:59:00+01:00
-reason: Clear admin/service title: admin assistant, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 34f3afab7f0132bf49d6828ddcc49397892944ceccb967e253c4d67ebd6cf3ee
-source: Teaching Vacancies
-source_job_id: receptionist-admin-assistant-parklands-nursery-school-northampton-northamptonshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-parklands-nursery-school-northampton-northamptonshire
----
-
----
-action: 
-SELECTED | Northamptonshire | Northampton, East Midlands, NN2 7RR | £24,796.00 Annually (FTE) | Receptionist/Administrator
-employer: Green Oaks Primary Academy
-closing_date: 2026-09-30T23:59:00+01:00
-reason: Clear admin/service title: administrator, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1770e7735ea104ea6cdaed945191b98807b60d6a48b696c3d632635188c60d0a
-source: Teaching Vacancies
-source_job_id: receptionist-administrator-green-oaks-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-green-oaks-primary-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE

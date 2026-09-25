@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-09-24
-review_fingerprint: fde4bdf11085e66fccf43d2d98fe43f0b9704a5a7645a009035383d1c68727f7
-routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
+review_date: 2026-09-25
+review_fingerprint: 53d068752a96e819313f6c80fc7c25f554a0ace68de1f897a0e0175a0b8d315c
+routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 7
-- POSS awaiting decision: 1
+- Records: 15
+- Selected: 8
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 7
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: f26ce8e17425ea2df6277393b923358f357d786a6e7b9f74686b9e57dbb
 source: Teaching Vacancies
 source_job_id: academy-administrator-belfairs-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-belfairs-academy
+---
+
+---
+action: 
+SELECTED | Essex | Maldon, East of England, CM9 8PN | Pay: Scale 3 (Point 6 - 7) (£26,847 - £27,274) pro rata. | Administration Assistant
+employer: Great Totham Primary School
+closing_date: 2026-10-15T12:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 533519c4f5e2861351e3d8bc5c1d22798545a8b6c0dbcd9b9018c62771d181dc
+source: Teaching Vacancies
+source_job_id: administration-assistant-great-totham-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-great-totham-primary-school
 ---
 
 ---
@@ -128,20 +143,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/social-media-design-a
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Essex | Rayleigh, SS6 7DD | £14,458.51 - £14,657.94 Annually (Actual) | Trust Finance Manager
-employer: Schools For Every Child
-closing_date: 2026-09-25T12:00:00+01:00
-reason: Manager title below £28,000 salary ceiling requires review
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0cb6d7ea83f88d29ac8f418f6cb1abbe81c0e5dec1d308b83c17e1b3c5e2584c
-source: Teaching Vacancies
-source_job_id: trust-finance-manager-schools-for-every-child
-source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-manager-schools-for-every-child
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -149,11 +151,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-manager
 
 ## HARD_PASS
 
+- [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-harlow-college) — Insufficient admin/service evidence.
 - [Payroll, Contracts & Systems Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-contracts-systems-officer) — Insufficient admin/service evidence.
 - [Repographics Technician](https://teaching-vacancies.service.gov.uk/jobs/repographics-technician) — Out-of-scope occupation: technician.
 - [Reprographics Administrator/Receptionist](https://teaching-vacancies.service.gov.uk/jobs/reprographics-administrator-receptionist-plume-school) — Missing salary or pay scale.
 - [Senior HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-ea247ce7-8c6b-4179-a7a3-f1673e767983) — Insufficient admin/service evidence.
 - [STUDENT ATTENDANCE AND INCLUSION MANAGER](https://teaching-vacancies.service.gov.uk/jobs/student-attendance-and-inclusion-manager-dee93199-2550-4a54-8c93-9bcd03bba34f) — Manager title without salary evidence below £28,000.
+- [Work Placement Officer](https://teaching-vacancies.service.gov.uk/jobs/work-placement-officer) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-09-24
-review_fingerprint: cd95973ac7b1b3b618520293adb544cc034f30b017d29b5218eebe3fcf6024a9
-routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
+review_date: 2026-09-25
+review_fingerprint: 5300988a93ae549c8b55a3180ead8c98ad1fe51290c79bf3055a80a6b6dc2ac9
+routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 4
+- Records: 13
+- Selected: 3
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 8
@@ -23,32 +23,17 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Wiltshire | Swindon, South West, SN2 1JR | £8,621.00 Annually (Actual) | Evening Receptionist
-employer: Swindon Academy
-closing_date: 2026-10-05T23:59:00+01:00
-reason: Clear admin/service title: receptionist
+SELECTED | Wiltshire | Chippenham, South West, SN14 0QT | £25,614.00 - £26,847.00 Annually (FTE) Actual Salary: Admin Assistant, £3830-£3953 per annum plus Actual Salary: TPA – £8413 per annum | Admin Assistant and Teachers Personal Assistant
+employer: Queen's Crescent School
+closing_date: 2026-10-06T12:00:00+01:00
+reason: Clear admin/service title: admin assistant, personal assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 736b06b838b5078799aa7ab6d5762f01c3010c5c49151dca388ff5ed27ad2606
+factual_fingerprint: 15e73ab6b3a879500a12a8d1129572c673ac50a71279a08db56da01e26298efe
 source: Teaching Vacancies
-source_job_id: evening-receptionist-swindon-academy-swindon-wiltshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/evening-receptionist-swindon-academy-swindon-wiltshire
----
-
----
-action: 
-SELECTED | Wiltshire | Devizes, South West, SN10 4EB | £31,537 - £33,699 per annum pro rata | £28,517 - £30,472 per annum | Exams Officer
-employer: Lavington School
-closing_date: 2026-09-25T09:00:00+01:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2cdb91c31f9aa0e02a125c6dd8fb76d301bbad252df5591750f0cae5ed701195
-source: Teaching Vacancies
-source_job_id: exams-officer-a0e6b270-9f8e-4c55-b68b-38b5e9214d1b
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-a0e6b270-9f8e-4c55-b68b-38b5e9214d1b
+source_job_id: admin-assistant-and-teachers-personal-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-and-teachers-personal-assistant
 ---
 
 ---
@@ -124,9 +109,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-ki
 - [Attendance Liaison Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-liaison-assistant) — Insufficient admin/service evidence.
 - [Early Years Stronger Practice Hub Manager](https://teaching-vacancies.service.gov.uk/jobs/early-years-stronger-practice-hub-manager) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-magna-learning-partnership-salisbury-not-recorded) — Insufficient admin/service evidence.
+- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-great-western-academy-swindon) — Insufficient admin/service evidence.
 - [Local Governance Committee Clerks](https://teaching-vacancies.service.gov.uk/jobs/local-governance-committee-clerks) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-lethbridge-primary-school) — Manager title salary ceiling £35,814 is not below £28,000.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-paxcroft-primary-school) — Manager title salary ceiling £37,563 is not below £28,000.
 
 ## Safety boundary
 

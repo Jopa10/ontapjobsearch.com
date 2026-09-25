@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-09-24
-review_fingerprint: 7dd1483e5f72dccd4b71e1b9460cde7d3d3fb5f3bca03c7885d6451a8ce0a796
-routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
+review_date: 2026-09-25
+review_fingerprint: ed8d28039bac0469c5b14c22919bfd4bf33fb1a203605633c8ee866726eb21b0
+routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -23,17 +23,32 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Sussex | Eastbourne, South East, BN23 8ED | £25,316 - £26,378 | Administration Assistant
-employer: Shinewater Primary School
-closing_date: 2026-09-25T12:00:00+01:00
-reason: Clear admin/service title: administration assistant
+SELECTED | Sussex | St Leonards-on-Sea, South East, TN38 0NX | Grade 4, Scale point 9-10 £26,016 - £26,247 pro-rata (Actual salary £23,050 - £23,255) | Administrator
+employer: St Leonards Church of England Primary Academy
+closing_date: 2026-10-16T09:00:00+01:00
+reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 0ffacc0799951be3fe036ded15fa5a45948c313a0ad4bf56fd030a43f0e2fdae
+factual_fingerprint: d6ee43fde02e53f6999b40a3c112b57586a79c255832a8fb1841a11528ecef50
 source: Teaching Vacancies
-source_job_id: administration-assistant-shinewater-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-shinewater-primary-school
+source_job_id: administrator-st-leonards-church-of-england-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-st-leonards-church-of-england-primary-academy
+---
+
+---
+action: 
+SELECTED | Sussex | Eastbourne, South East, BN21 1UE | £20,252.00 - £20,574.00 Annually (Actual) | Admissions Officer
+employer: The Cavendish School
+closing_date: 2026-10-06T09:00:00+01:00
+reason: Clear admin/service title: admissions officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e6966028a92a3ef6d05888c6d597e2a22f024f9ed0b92a83493888b3aa9dad72
+source: Teaching Vacancies
+source_job_id: admissions-officer-the-cavendish-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-the-cavendish-school
 ---
 
 ---
@@ -49,21 +64,6 @@ factual_fingerprint: ae8c762c7d98a0383397684dd92be2dfebddccbe8184590acd812e9a8c7
 source: Teaching Vacancies
 source_job_id: exams-officer-cfs
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-cfs
----
-
----
-action: 
-SELECTED | Sussex | Hastings, South East, TN35 5DN | East Sussex Grade 4 | Finance and HR Administrator
-employer: Mulberry Academy Hastings
-closing_date: 2026-10-09T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 832a4e14411082c880f5cf30e480db0fb86c2bac7a48c3249ed51afbedf32567
-source: Teaching Vacancies
-source_job_id: finance-and-hr-administrator-cc8255f8-dceb-44d0-8ba3-fc964a1272dc
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-and-hr-administrator-cc8255f8-dceb-44d0-8ba3-fc964a1272dc
 ---
 
 ---

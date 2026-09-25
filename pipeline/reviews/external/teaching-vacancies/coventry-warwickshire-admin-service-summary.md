@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-09-24
-review_fingerprint: 708de0fa46c2c7c45e3aa782b8380e51e2b2a9fa76f21405834943ee23c5e58b
-routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
+review_date: 2026-09-25
+review_fingerprint: fcf293ae8fe9f456242fe6f1989d4b8951e5379f3dab0bfe457c65b99757425a
+routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
+- Records: 17
 - Selected: 7
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 7
 
 ## SELECTED
 
@@ -83,17 +83,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-studley
 
 ---
 action: 
-SELECTED | West Midlands - Coventry & Warwickshire | Rugby, West Midlands, CV22 6EA | £15,152.00 Annually (FTE) • 25 hours/week, Monday-Friday, 9:30 am to 2:30pm | Data Administrator
-employer: Harris Church of England Academy
-closing_date: 2026-10-08T23:59:00+01:00
-reason: Clear admin/service title: administrator, data administrator
+SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV1 4BU | Grade 5, £29,837 - £35,940 per annum (£27,219 - £35,940 per annum pro-rata) | EXAMS OFFICER, BARR’S HILL SCHOOL
+employer: Barr's Hill School
+closing_date: 2026-10-09T23:59:00+01:00
+reason: Clear admin/service title: exams officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: c269735dcd2b266d328ba568ddf02dd6d2ab8e47eb0c1cbd15b8e887ad08efbc
+factual_fingerprint: a768b2cb731d0e969dc722beddd6222f9f56274fda74e2773f13c5cc3aa380f7
 source: Teaching Vacancies
-source_job_id: data-administrator-harris-church-of-england-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-administrator-harris-church-of-england-academy
+source_job_id: exams-officer-barr-s-hill-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-barr-s-hill-school
 ---
 
 ---
@@ -182,7 +182,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer
 - [Campaign Manager](https://teaching-vacancies.service.gov.uk/jobs/campaign-manager-lawrence-sheriff-school) — Manager title salary ceiling £40,444 is not below £28,000.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-triumph-learning-trust-rugby-not-recorded) — Insufficient admin/service evidence.
 - [EHCP Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/ehcp-co-ordinator-discovery-academy) — Insufficient admin/service evidence.
-- [Facilities Apprentice](https://teaching-vacancies.service.gov.uk/jobs/facilities-apprentice-f2150388-8c53-4434-b5c5-9e0ddc54626d) — Insufficient admin/service evidence.
 - [MAT Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/mat-finance-officer-sidney-stringer-multi-academy-trust-coventry-not-recorded) — Insufficient admin/service evidence.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-finham-park-school-coventry-west-midlands) — Manager title salary ceiling £54,143 is not below £28,000.
 - [PE Sports and Personal Development Assistant](https://teaching-vacancies.service.gov.uk/jobs/pe-sports-and-personal-development-assistant) — Insufficient admin/service evidence.

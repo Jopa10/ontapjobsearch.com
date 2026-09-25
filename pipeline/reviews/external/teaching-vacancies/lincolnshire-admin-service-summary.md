@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-09-24
-review_fingerprint: 52df97c6f0faf04e1ec1725a056475654b4ee339f5665801f5c617a3a645f6dc
-routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
+review_date: 2026-09-25
+review_fingerprint: 560e9a08cbd1a68b276c13f50a613583a539375eb57da96992438e229bbd9a3e
+routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 7
+- Records: 14
+- Selected: 8
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 5
 
 ## SELECTED
 
@@ -38,17 +38,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator
 
 ---
 action: 
-SELECTED | Lincolnshire | Gainsborough, East Midlands, DN21 2ST | Between £22,290 and £23,831 actual | Cover and Operations Administrator
-employer: The Queen Elizabeth's High School, Gainsborough
-closing_date: 2026-09-25T08:00:00+01:00
-reason: Clear admin/service title: administrator
+SELECTED | Lincolnshire | Grimsby, Yorkshire and the Humber, DN33 1RJ | £26,016.00 Annually (FTE) Actual Salary £20,955 | Administration Assistant
+employer: Woodlands Academy
+closing_date: 2026-09-30T12:00:00+01:00
+reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 1b39fb6193f7053b86ff1cde956cf6ce6f683e78449cf91fba773186525abb19
+factual_fingerprint: ab22d4a082a1282bbde26ba42b90b6060e9cead7ea71b5c3550b41080024a3fa
 source: Teaching Vacancies
-source_job_id: cover-and-operations-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-and-operations-administrator
+source_job_id: administration-assistant-woodlands-academy-grimsby-north-east-lincolnshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-woodlands-academy-grimsby-north-east-lincolnshire
 ---
 
 ---
@@ -113,6 +113,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-7569
 
 ---
 action: 
+SELECTED | Lincolnshire | Scunthorpe, Yorkshire and the Humber, DN16 1NT | £21,955 - £22,304 per annum | School Administrator Role - Attendance Assistant
+employer: Outwood Academy Brumby
+closing_date: 2026-09-28T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 10aac0d432b3e8e2b48141c658567120dc91c6b4ec8f2e61e3cd3400cfbf0b58
+source: Teaching Vacancies
+source_job_id: school-administrator-role-attendance-assistant-a776f8a6-c388-4b6b-b481-9a6f4d4c6e5e
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-role-attendance-assistant-a776f8a6-c388-4b6b-b481-9a6f4d4c6e5e
+---
+
+---
+action: 
 SELECTED | Lincolnshire | Sleaford, East Midlands, NG34 7DD | £24,796.00 - £25,985.00 Annually (FTE) Grade 3.6 to 3.9 | Sixth Form Administrator
 employer: Carre's Grammar School
 closing_date: 2026-09-28T17:00:00+01:00
@@ -149,12 +164,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-manager-the-s
 
 ## HARD_PASS
 
-- [Bursar](https://teaching-vacancies.service.gov.uk/jobs/bursar-cliffedale-primary-school) — Insufficient admin/service evidence.
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-walton-academy) — Manager title salary ceiling £49,749 is not below £28,000.
 - [Governance & Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-compliance-officer-inspire-connected-communities-trust-louth-not-recorded) — Insufficient admin/service evidence.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-queen-elizabeth-s-high-school-gainsborough) — Manager title salary ceiling £42,839 is not below £28,000.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-a28cea11-d24b-43cc-a15c-772ff5fa57da) — Insufficient admin/service evidence.
-- [Learning Support Assistant with personal care](https://teaching-vacancies.service.gov.uk/jobs/learning-support-assistant-with-personal-care-skegness-academy) — Insufficient admin/service evidence.
 - [Trust Executive Assistant & HR Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/trust-executive-assistant-hr-co-ordinator) — Insufficient admin/service evidence.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-09-24
-review_fingerprint: 734fb69f537d680fdc2b6b09969e1a8f465f633421d37eb556e0958ef7eebed1
-routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
+review_date: 2026-09-25
+review_fingerprint: fa125e39bbcf2071fe3d4f7b68a281e414afd1cd3c70e32dd95124d5aa9bb07e
+routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 28
-- Selected: 13
-- POSS awaiting decision: 1
+- Records: 27
+- Selected: 12
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 14
+- Hard pass: 15
 
 ## SELECTED
 
@@ -98,6 +98,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B29 4HE | £23,408.04 - £25,392.13 Annually (Actual) SCP 12-17 | Administrator
+employer: E-ACT Shenley Academy
+closing_date: 2026-10-05T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ec12df7cb9efd9d181dc512ca36a19067961903353211a17477c94676d1fd612
+source: Teaching Vacancies
+source_job_id: administrator-de634a79-2cc9-479b-b3fe-58787528dcaa
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-de634a79-2cc9-479b-b3fe-58787528dcaa
+---
+
+---
+action: 
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B13 0TW | £29,540.00 - £31,537.00 Annually (FTE) Actual Salary £26,592 – £28,390 | Administrator (Payroll and Leadership Support)
 employer: Swanshurst School
 closing_date: 2026-10-02T12:00:00+01:00
@@ -158,36 +173,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-support-and-
 
 ---
 action: 
-SELECTED | West Midlands - Birmingham & Solihull | Sutton Coldfield, West Midlands, B74 4LD | £25,614 - £27,709 FTE, actual salary £13,637 - £14,753 per annum | Receptionist & Admin Assistant
-employer: Hill West Primary School
-closing_date: 2026-09-25T09:00:00+01:00
-reason: Clear admin/service title: admin assistant, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b2e430c1bdae5742aee8800ee46fa455d5eabc626276bd3716b1a2274002bfbe
-source: Teaching Vacancies
-source_job_id: receptionist-admin-assistant-hill-west-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-hill-west-primary-school
----
-
----
-action: 
-SELECTED | West Midlands - Birmingham & Solihull | Solihull, West Midlands, B91 3NZ | £24,796.00 - £25,538.00 Annually (FTE) £21,256-£21,931 subject to the NJC pay agreement | Receptionist & Admin Assistant
-employer: St Peter's Catholic School
-closing_date: 2026-09-25T09:00:00+01:00
-reason: Clear admin/service title: admin assistant, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b8fb656d8b211436dd55b06b8c2b101604d2cc9dd22c404c6cbc52724d925d76
-source: Teaching Vacancies
-source_job_id: receptionist-admin-assistant-st-peter-s-catholic-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-st-peter-s-catholic-school
----
-
----
-action: 
 SELECTED | West Midlands - Birmingham & Solihull | Sutton Coldfield, West Midlands, B74 2NH | £28,598.00 - £31,537.00 Annually (FTE) | Senior Administrator
 employer: Bishop Vesey's Grammar School
 closing_date: 2026-10-02T23:59:00+01:00
@@ -218,20 +203,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/whole-school-attendan
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B29 4HE | £23,408.04 - £25,392.13 Annually (Actual) SCP 12-17 | Administrator
-employer: E-ACT Shenley Academy
-closing_date: 2026-10-05T09:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ec12df7cb9efd9d181dc512ca36a19067961903353211a17477c94676d1fd612
-source: Teaching Vacancies
-source_job_id: administrator-de634a79-2cc9-479b-b3fe-58787528dcaa
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-de634a79-2cc9-479b-b3fe-58787528dcaa
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -246,8 +218,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-de634a7
 - [Examinations Assistant](https://teaching-vacancies.service.gov.uk/jobs/examinations-assistant-plantsbrook-school) — Insufficient admin/service evidence.
 - [Governance Support Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-support-officer-eaa7a044-716c-471a-b1e0-33530ee7b932) — Insufficient admin/service evidence.
 - [Head of Executive Office and Communications](https://teaching-vacancies.service.gov.uk/jobs/head-of-executive-office-and-communications) — Insufficient admin/service evidence.
-- [Head of Marketing](https://teaching-vacancies.service.gov.uk/jobs/head-of-marketing-ormiston-academies-trust) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-st-john-paul-ii-multi-academy-company-birmingham-not-recorded) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-bloomsbury-nursery-school) — Manager title salary ceiling £34,434 is not below £28,000.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-erdington-hall-primary-school) — Manager title salary ceiling £43,149 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-greet-primary-school) — Manager title salary ceiling £34,434 is not below £28,000.
 - [PA to Executive Head](https://teaching-vacancies.service.gov.uk/jobs/pa-to-executive-head) — Missing salary or pay scale.
 - [School Administration Assistant/ Attendance](https://teaching-vacancies.service.gov.uk/jobs/school-administration-assistant-attendance) — Insufficient admin/service evidence.

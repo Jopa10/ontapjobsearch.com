@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-09-24
-review_fingerprint: e4cf090a6a4f29777fae871baa73e996e4851800f03bf3862cfdd2dbbb36f685
-routing_manifest_sha256: 21da780a05066992023de257e8b99fc70a8cecd95520e9a3b30f50dda571fb7d
+review_date: 2026-09-25
+review_fingerprint: 0fd6b97198c678543a7f64e8d4077683cea693e2abf5a37e73e7543fe52c5f80
+routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 13
-- Selected: 6
-- POSS awaiting decision: 5
+- Selected: 5
+- POSS awaiting decision: 6
 - Excluded: 0
 - Hard pass: 2
 
@@ -49,21 +49,6 @@ factual_fingerprint: 04e627ebbf407ed87e881615e1bf00b89bee52e3076c91b6a059e967539
 source: Teaching Vacancies
 source_job_id: database-and-admissions-administrator-simon-balle-all-through-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/database-and-admissions-administrator-simon-balle-all-through-school
----
-
----
-action: 
-SELECTED | Hertfordshire | Hemel Hempstead, East of England, HP2 4DE | £28,837.00 - £30,971.00 Annually (Actual) H7.19-23 Depending on Experience | Examinations Officer
-employer: The Adeyfield Academy
-closing_date: 2026-09-24T23:59:00+01:00
-reason: Clear admin/service title: examinations officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5543d057e3707efc1ae1d641acdcde1fb5255d65250920143097b7644b22e41c
-source: Teaching Vacancies
-source_job_id: examinations-officer-a5731d2f-6372-47b8-8d69-8228b7ce94d0
-source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-a5731d2f-6372-47b8-8d69-8228b7ce94d0
 ---
 
 ---
@@ -156,6 +141,21 @@ factual_fingerprint: b67aac90523c6d904bd7fe1688d07fe7b45cb91aa867f5d16f5df32b388
 source: Teaching Vacancies
 source_job_id: governance-professional-clerk-to-the-governing-board-roundwood-park-school-harpenden-hertfordshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-clerk-to-the-governing-board-roundwood-park-school-harpenden-hertfordshire
+---
+
+---
+action: 
+POSS | Hertfordshire | Chorleywood, WD3 6EW | £30,515.00 Annually (FTE) | HR Advisor
+employer: Danes Educational Trust
+closing_date: 2026-10-12T09:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 392979f7fa2c6594ee206c98dbac419d69e816af72af5d581b8bbd38ae9a55af
+source: Teaching Vacancies
+source_job_id: hr-advisor-d40681c8-89e4-43bc-8af3-fdfdebca5b15
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-d40681c8-89e4-43bc-8af3-fdfdebca5b15
 ---
 
 ---
