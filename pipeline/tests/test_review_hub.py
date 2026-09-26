@@ -346,7 +346,7 @@ def test_missing_source_review_block_is_held_per_job_while_other_actions_continu
 
 def test_patch_action_holds_when_source_block_is_missing(tmp_path: Path) -> None:
     path = tmp_path / "review.md"
-    original = "---\\naction:\\njob_id: one\\n---\\n"
+    original = "\n".join(["---", "action:", "job_id: one", "---", ""])
     path.write_text(original, encoding="utf-8")
 
     assert master_review._patch_action(path, "job_id", "missing", "select") is False
