@@ -2,11 +2,11 @@
 
 review_date: 2026-09-26
 
-- Open Administrative & Clerical rows reviewed: 2226
+- Open Administrative & Clerical rows reviewed: 2222
 - Auto/remembered selected: 410
 - Selected HC Tier A: 204
 - Selected HC Tier B: 206
-- POSS awaiting decision: 1692
+- POSS awaiting decision: 1688
 - Excluded: 0
 - HARD_PASS: 124
 
@@ -5678,18 +5678,6 @@ factual_fingerprint: 4ccedb74e1b475a15b7648c6fb6472ef385db639f705be32861c5733d40
 
 ---
 action:
-POSS | NHS Jobs | Greater Manchester - South | Stockport, SK2 7JE | £25272.00 | Medicine Administrator
-source_job_id: 5617171
-title: Medicine Administrator
-employer: Stockport NHS Foundation Trust
-region: Greater Manchester - South
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9362-26-0704
-factual_fingerprint: 94b592db438189d2ee0dab2c1a9feb5c658da9f11901d2bd464a6da164ea99d6
----
-
----
-action:
 POSS | NHS Jobs | Yorkshire - East | Hull, HU10 6ED | £28392.00 to £31157.00 | Recruitment Team Lead
 source_job_id: 5616736
 title: Recruitment Team Lead
@@ -7858,18 +7846,6 @@ region: Greater Manchester - Manchester & Salford
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2798
 factual_fingerprint: c6594fb5a53b26c1b504a6e57ad475e24c4bd037577becba421d62c1bb92003f
----
-
----
-action:
-POSS | NHS Jobs | Greater Manchester - Manchester & Salford | Manchester, M23 9LP | £25760.00 to £27476.00 | Imaging Booking & Scheduling Coordinator
-source_job_id: 5613931
-title: Imaging Booking & Scheduling Coordinator
-employer: Manchester University NHS Foundation Trust
-region: Greater Manchester - Manchester & Salford
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2797
-factual_fingerprint: 857d48b3d8429b25e84590598c72042f146c3a0ec9d550dd79c2f766649ac54b
 ---
 
 ---
@@ -10070,18 +10046,6 @@ factual_fingerprint: a49103f7e9dab854e89cbce61067e892e145340443cb7a798e3dfe1a926
 
 ---
 action:
-POSS | NHS Jobs | Merseyside - Liverpool | Fazakerley, Liverpool, L9 7AL | £32073.00 to £39043.00 | Bowel Cancer Screening Deputy Programme Manager
-source_job_id: 5610793
-title: Bowel Cancer Screening Deputy Programme Manager
-employer: Liverpool University Hospitals NHS Foundation Trust
-region: Merseyside - Liverpool
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9287-26-1542
-factual_fingerprint: 3ce06ba351f66d558c26106e78305265827e840a1a55dbb490ba439e4f1225e0
----
-
----
-action:
 POSS | NHS Jobs | Yorkshire - South | Rotherham, S65 3HD | £25760.00 to £27476.00 | Service Support Assistant
 source_job_id: 5610083
 title: Service Support Assistant
@@ -10797,7 +10761,7 @@ employer: University Hospital Southampton NHS Trust
 region: Hampshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9188-26-0841
-factual_fingerprint: 49d76257e5c925773f863e7d550915ef893503d30e848304e13cdaca9439ce17
+factual_fingerprint: 1053bf2fa348995ebac46f9411e31ecd6c8b7393fd27c4839ac190db9549c44e
 ---
 
 ---
@@ -11902,18 +11866,6 @@ region: Merseyside - Liverpool
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5496-26-0007
 factual_fingerprint: a6b49382d0d3e53af869aa6d24c672da67198873e3b8d6fef49863e6cb05e12e
----
-
----
-action:
-POSS | NHS Jobs | Berkshire | Reading, RG1 5LE | £25272.00 | Receptionist (Florey Sexual Health Clinic)
-source_job_id: 5607740
-title: Receptionist (Florey Sexual Health Clinic)
-employer: Royal Berkshire NHS Foundation Trust
-region: Berkshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9193-26-0620
-factual_fingerprint: e8c09fe2456dedb93999214c5a4baab46f4b965489f81977dfc1e84f045bf0a4
 ---
 
 ---
