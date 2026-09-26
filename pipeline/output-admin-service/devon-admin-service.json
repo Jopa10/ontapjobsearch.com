@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-school-administrator-brunel-school-paignton-devon",
-    "title": "School Administrator",
-    "company": "Brunel School",
-    "location": "Paignton",
-    "region": "Devon",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£25,923.00 Annually (FTE) £23,755 actual",
-    "work_pattern": "",
-    "posted_date": "2026-09-14",
-    "closing_date": "2026-09-25",
-    "closing_datetime": "2026-09-25T23:59:00+01:00",
-    "summary": "School Administrator with Brunel School in Paignton. ['full time']; £25,923.00 Annually (FTE) £23,755 actual.",
-    "description": "Brunel School is recruiting for this vacancy in Paignton.\n\nThe advertised position is School Administrator.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £25,923.00 Annually (FTE) £23,755 actual.\n\nThe stated application deadline is 2026-09-25T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/school-administrator-brunel-school-paignton-devon?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Brunel School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-business-administrator-d383ef29-c17f-437b-8271-918c1d87de9b",
     "title": "Business Administrator",
     "company": "St James School",
@@ -958,6 +930,28 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "nhs-5525304",
+    "source": "NHS Jobs",
+    "title": "Team Administrator",
+    "company": "Devon Partnership NHS Trust",
+    "advertiser_name": "Devon Partnership NHS Trust",
+    "location": "Exeter, EX1 3QS, TIVERTON, EX16 6NT",
+    "region": "Devon",
+    "salary": "£25760.00 to £27476.00",
+    "employment_type": "Fixed-Term",
+    "posted_date": "2026-09-25T13:59:26.596095",
+    "closing_date": "2026-10-08",
+    "description": "This is an opportunity to join one of our friendly TALKWORKS teams, with two opportunities available: one with the East Devon TALKWORKS team, based in Exeter, and the other with the Mid Devon TALKWORKS team, based at Tiverton Hospital. Both roles offer hybrid working, including the option to work from home on some days if required. The post holder will need a good telephone manner, as the role involves responding to clients phoning into the service, and processing referrals, and making calls to clients. The role also therefore requires the accurate entry of confidential and sensitive data into clinical record systems. The role will involve the coordination and implementation of office procedures and will require a high degree of organisational skills and excellent working knowledge of administrative systems. Interviews for these posts are scheduled to take place on Tuesday 20th October at Elizabeth House in Exeter. If you are applying for the Tiverton based post and travelling to Exeter for the interview would be problematic please contact the recruiting manager to discuss alternative options. Duties and Responsibilities Key Responsibilities include: Work within the friendly Exeter and East or Mid Devon administration team supporting clinicians who provide psychological therapy Comprehensive diary management Meetings administration; taking and distributing formal minutes; recording clear actions. Frequently inputting complex and sensitive data relating to people who use our services onto electronic patient records system Support the manager and team by ensuring that records are up to date on all staffing and patient systems and that items are dealt with quickly and efficiently. The Job description can be viewed in the attached document. This also covers the person specification.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0604",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0604",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5619991",
     "source": "NHS Jobs",
     "title": "Service Administrator",
@@ -973,7 +967,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1166",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1166",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5619976",
@@ -991,7 +989,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1160",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1160",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5580080",
@@ -1009,7 +1011,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0678",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0678",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5604784",
@@ -1027,25 +1033,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0654-1",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0654-1",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
-  },
-  {
-    "job_id": "nhs-5594406",
-    "source": "NHS Jobs",
-    "title": "Service Administrator",
-    "company": "Royal Devon University Healthcare NHS Foundation Trust",
-    "advertiser_name": "Royal Devon University Healthcare NHS Foundation Trust",
-    "location": "Exeter, EX2 5DW",
-    "region": "Devon",
-    "salary": "£25760.00 to £27476.00",
-    "employment_type": "Fixed-Term",
-    "posted_date": "2026-09-11T11:34:37.132933",
-    "closing_date": "2026-09-25",
-    "description": "The post holder will support the Administration Line Managers/Service Coordinators by Co-ordinating a professional, efficient and effective administrative service to patients and visitors in accordance with Trust policies and standards The role will coordinate and organise the attendance of patients to outpatient, inpatient & day case appointments in line with local team and Trust arrangements as instructed Ensure all administrative processes; and enquiries are dealt with in an efficient and timely manner, following agreed standard operating procedures, escalating to senior manager as appropriate Undertake general clerical duties to maximise all available capacity in an appropriate way Proof reading clinical letters (please note there is no audio typing in this role) Monitoring waiting times, ensuring that our patients treatment pathways, from referral to treatment are accurate and up to date (for more information on what this means please visit - NHS England Referral to treatment) Ensure all information is secure and confidentiality of information is maintained at all times Provide excellent customer care which may include communic For more detail about the main duties of this role, please see the job description section below. As a key member of the Royal Devon University Healthcare NHS Foundation Trust, you will be joining an exceptional team working together to help our patients to stay healthy, when they need it most. For more information on the Job Description and Responsibilities please click the link below. More detail about the role We are looking to recruit an enthusiastic and motivated Service Administrator to join the Princess Elizabeth Orthopaedic Centre. The successful candidate must be highly motivated with excellent communication skills, enjoy working within a busy and vibrant team. They must be able to prioritise their workload and able to work well under pressure. Secretarial experience, knowledge of working in a hospital environment and medical terminology are all desirable for this role, but not essential. You will have excellent communication and interpersonal skills, and proven experience in dealing with service users on the telephone. You will be flexible and adaptable with excellent IT skills. You will need to enjoy the challenge of working as part of a busy team yet have the ability to use your own initiative to meet the changing needs of the department and Orthopaedic service as a whole. If you feel you would be able to meet the demands of this challenging and rewarding role, then we would be delighted to hear from you. Working Pattern: 29 Hours a week, days and times to be discussed Interview Date: To be confirmed For further information please contact: Jasmin Rockey Admin Line Manager jasmin.rockey@nhs.net, Visits to the department are welcome and encouraged. This is a fixed term contract until 24/08/2027. For current NHS employees this post could be a secondment opportunity. As an inclusive employer, the Royal Devon values diversity and is committed to creating a culture of inclusivity where everyone can be themselves and reach their full potential. We believe in fostering a sense of belonging and actively encourage applications from individuals of all backgrounds, cultures, and abilities. We recognise the advantages of having a diverse workforce that reflects the communities we serve. Preference will be given to staff with Priority and 'At Risk' status including NHS At Risk staff throughout Devon. The Royal Devon University Healthcare NHS Foundation Trust reserves the right to close vacancy when sufficient applications have been received. The Royal Devon University Healthcare NHS Foundation Trust was established in April 2022, bringing together the expertise of both the Royal Devon and Exeter NHS Foundation Trust and Northern Devon Healthcare NHS Trust. Benefits We will work together to maintain a culture that develops and supports you and your team. This might include funding for a care certificate, a degree or leadership qualifications. Or it might include days off to study, engage in CPD or rotational placements to help you hone your skills. Wherever you are heading in the NHS, we'll help you get there. Looking after you is important to us. We strive to help our staff create a healthy work-life balance through flexible working schemes and our family friendly policies. If you're starting out in the NHS, you'll start with 27 days paid annual leave (plus bank holidays), rising to 33 days plus bank holidays. You'll benefit from access to our own comprehensive occupational health services, including counselling, onsite wellbeing activities and groups. Salary is not the only financial benefit You'll have access to an extensive range of staff discounts on shopping, fitness and leisure options and you can spread the cost of technology and home appliance purchases from major retailers. You will also have access to other benefits including: National discount services such as the Blue Light Card and Health Service Discounts. Salary sacrifice options including our OFSTED rated outstanding nursery onsite at Exeter Car lease schemes. The NHS Pension scheme (one of the most generous and comprehensive in the UK). Cycle to work scheme These are just a few of the benefits available if the role is something you are interested in, we'd love to hear from you.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1119",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1119",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5552054",
@@ -1063,7 +1055,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2737-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2737-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5623640",
@@ -1081,7 +1077,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1179",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1179",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5619987",
@@ -1099,7 +1099,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1164",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1164",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5621196",
@@ -1117,6 +1121,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3658-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3658-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

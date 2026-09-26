@@ -375,56 +375,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "108018545",
-    "title": "HSS - Linux Sytem Administrator",
-    "company": "Hackajob Ltd - Agency - Permanent",
-    "location": "Gloucestershire",
-    "region": "Gloucestershire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "hackajob is partnering directly with DXC Technology to hire for this role.\n\nJob Description:\n\nLinux - System Administrator\n\nLocation: Cheltenham ( 5 Days on Site)\n\nDue to the nature of the work and the customers we support, the successful candidate must be eligible to meet UK Government and contractual personnel security requirements, including the applicable residency requirements for the role, and have . . click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?eq2PR%2bX5cty5iEZp8aAXp%2bQoaEzt%2bhSqp",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Hackajob Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "107871455",
-    "title": "Recruitment Administrator",
-    "company": "Siamo Group Ltd - Agency - Permanent",
-    "location": "Gloucestershire",
-    "region": "Gloucestershire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "28000",
-    "salary_text": "£28000 per year",
-    "posted_date": "",
-    "description": "We here at Siamo are thrilled to be working with a forward-thinking, well-established firm that has been a leader in its market for many years.\nDue to continued growth, they are looking to bring on board an Administrator with a difference.\nYoull support different areas of the business, with your focus being on providing Sales Consultants with the data and information they need to engage with clients click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?QHpHeWTcrP7apaEE33PYmEyuHNFhSmc4y",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Siamo Group Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "108025159",
     "title": "Customer Service Coordinator",
     "company": "RE Group - Agency - Temporary",
@@ -515,7 +465,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0782-26-0072",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0782-26-0072",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5590140",
@@ -533,7 +487,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1227-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1227-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5600422",
@@ -551,6 +509,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0772",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0772",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

@@ -56,31 +56,6 @@
     "posted_date_basis": "source"
   },
   {
-    "job_id": "107994067",
-    "title": "Site & Vetting Administrator",
-    "company": "Randstad Sourceright - Agency - Contract",
-    "location": "Suffolk",
-    "region": "Suffolk",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Contract",
-    "salary_min": "15.5",
-    "salary_max": "15.5",
-    "salary_text": "£15.5 per hour",
-    "posted_date": "",
-    "description": "Job title: Site & Vetting Administrator\n\nLocation: Orwell, Ipswich & Leiston (All onsite between the 2 locations)\n\nPlease note that there is only transportation via bus to Leiston if you are to drive you will need to use the park and ride\n\nContract length: End of February 2027 (High potential to go Permanent)\n\nShift Pattern: Monday - Friday 9 click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?6WDmO0cNttqnOaExGwQCyz4cYHTV%2bMMVa",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Randstad Sourceright",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "107952084",
     "title": "Learning & Skills Ops co-ordinator",
     "company": "Rullion Limited - Agency - Contract",
@@ -631,6 +606,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "2026597",
+    "title": "Family Law Paralegal",
+    "company": "ENVISION PEOPLE LTD - Agency - Permanent",
+    "location": "Suffolk",
+    "region": "Suffolk",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Key Requirements - Essential\n- Previous family law experience gained within a law firm.\n- Experience assisting with private family matters, including divorce and children matters.\n- Strong client care and communication skills.\n- Ability to work effectively within a small team.\n- Strong organisational and time-management skills.\n- Professional and proactive approach to client service.\n\nThe Role\n\nEnvision People is representing a well-established Suffolk law firm seeking a Family Paralegal to join its busy team in Beccles.\n\nThe role is predominantly focused on private family law, supporting fee earners on a range of matters including divorce and children work. There will also be the opportunity to gain exposure to private client matters, including wills and probate.\n\nThis opportunity would suit a candidate looking to develop their career within a supportive and client-focused legal practice.\n\nDesirable Experience\n\nThe following would be advantageous:\n- Previous court attendance experience.\n- Experience preparing bundles and legal documents.\n- Exposure to wills and probate matters.\n- Law degree, LPC or SQE studies.\n\nWorking Environment\n- Full-time office-based position.\n- Supportive and friendly team environment.\n- Exposure to both family and private client work.\n- Opportunity for long-term career development.\n- Preference for candidates based locally to Suffolk.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?31Q%2fsvDzOVZ4bzGlbklHkU29smFM%2bMZVj",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "ENVISION PEOPLE LTD",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "1874687",
     "title": "Shipping Coordinator",
     "company": "Reed - Agency - Permanent",
@@ -756,31 +756,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107865026",
-    "title": "Traffic Planner",
-    "company": "DS SMITH PACKAGING LIMITED - Agency - Permanent",
-    "location": "Suffolk",
-    "region": "Suffolk",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Transport Planner\nAs the flagship UK site for DS Smith Packaging, we operate our own fleet of HGV drivers, delivering high-quality cardboard packaging to customers across the Midlands and East of England. Our Transport team is key to our success, and we pride ourselves on inspiring leadership, modern vehicles, and a supportive work environment click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?aziU08XVyRE0eiY9AciJv1Q4oDnjHW0kd",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "DS SMITH PACKAGING LIMITED",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "nhs-5618869",
     "source": "NHS Jobs",
     "title": "Receptionist",
@@ -796,7 +771,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9432-26-0728",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9432-26-0728",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5599160",
@@ -814,7 +793,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0817",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0817",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5605467",
@@ -832,7 +815,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0250-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0250-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5604716",
@@ -850,7 +837,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0882",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0882",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5601993",
@@ -868,7 +859,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0875",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0875",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5564377",
@@ -886,7 +881,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0851",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0851",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5591277",
@@ -904,6 +903,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2466-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2466-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

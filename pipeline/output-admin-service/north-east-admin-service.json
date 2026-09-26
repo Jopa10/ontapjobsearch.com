@@ -112,34 +112,6 @@
     "posted_date_basis": "source"
   },
   {
-    "job_id": "nejobs-301338",
-    "title": "Administrative Assistant - Level 1",
-    "company": "Newcastle City Council",
-    "location": "Lemington Riverside, Rokeby Street, Newcastle upon Tyne, NE15 8RR",
-    "region": "North East",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Fixed Term",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£25,185 per annum pro rata (Actual salary £21,187 per annum)",
-    "work_pattern": "Part time - term time plus specified days",
-    "posted_date": "2026-09-02",
-    "closing_date": "2026-09-25",
-    "closing_datetime": "2026-09-25T12:00:00+01:00",
-    "summary": "Administrative Assistant - Level 1 with Newcastle City Council in Lemington Riverside, Rokeby Street, Newcastle upon Tyne, NE15 8RR. Fixed Term; Part time - term time plus specified days; £25,185 per annum pro rata (Actual salary £21,187 per annum).",
-    "description": "Newcastle City Council is recruiting for this vacancy in Lemington Riverside, Rokeby Street, Newcastle upon Tyne, NE15 8RR.\n\nThe advertised position is Administrative Assistant - Level 1, with the working terms listed as Fixed Term; Part time - term time plus specified days.\n\nThe advertised salary is £25,185 per annum pro rata (Actual salary £21,187 per annum).\n\nThe stated closing date is 25/09/2026 12:00.\n\nUse the original North East Jobs advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://www.northeastjobs.org.uk/job/Administrative_Assistant_Level_1/301338?utm_source=ontap&utm_medium=referral&utm_campaign=nejobs_pilot",
-    "source": "NEJobs",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Newcastle City Council",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "nejobs-301544",
     "title": "Administrator",
     "company": "Age UK County Durham",
@@ -696,6 +668,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "2024355",
+    "title": "1st Line Service Desk Agent",
+    "company": "Cap Resourcing Ltd - Agency - Permanent",
+    "location": "Tyne And Wear",
+    "region": "North East - Tyneside, Wearside & Northumberland",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "1st Line Service Desk Agent\n\nFully Remote Up to £26,000\n\nCAP Resourcing is working with an established technology business that is looking for a customer focused 1st Line Service Desk Agent to join its team.\n\nThis is a great opportunity for someone with service desk experience who enjoys solving technical problems, supporting customers and working as part of a collaborative IT team.\n\nThe Role\n\nAs a 1st Line Service Desk Agent, you'll be the first point of contact for customers requiring technical support. You'll troubleshoot a range of IT issues, manage support requests and ensure customers receive an efficient, high-quality service.\n\nAbout You\n\nWe're looking for someone with:\n- Previous service desk experience, ideally within a managed services environment.\n- A good understanding of Azure, networking and servers.\n- Strong customer service and communication skills.\n- Excellent problem solving and organisational abilities.\n- A proactive approach and a genuine desire to help customers.\n- The ability to prioritise tasks and manage competing demands.\n\nEssential qualifications:\n- AZ-900: Azure Fundamentals.\n- MS-900: Microsoft 365 Fundamentals.\n\nSC-900: Security, Compliance and Identity Fundamentals would be desirable.\n\nWhat's on Offer?\n\nFully remote working\n\nSalary up to £26,000\n\nA supportive and collaborative IT environment\n\nThe opportunity to develop your technical skills and progress your career\n\nInterested? Get in touch with CAP Resourcing to find out more or apply today!",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Y5CHIaMSKAxWKFFx8LYFZ0G%2b%2fOxCC5NJv",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Cap Resourcing Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "108026899",
     "title": "Motor Claims Handler",
     "company": "Xpert Recruitment Solutions Limited - Agency - Permanent",
@@ -736,7 +733,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2354-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2354-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5610574",
@@ -754,7 +755,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1254",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1254",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5602108",
@@ -772,7 +777,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9155-CMAC-0926-22",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9155-CMAC-0926-22",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5598890",
@@ -790,7 +799,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4568-26-0013",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4568-26-0013",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5577937",
@@ -808,7 +821,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1188",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1188",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5541887",
@@ -826,7 +843,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1106",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/W0033-26-1106",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5619773",
@@ -844,6 +865,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/D9134-26-0073",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/D9134-26-0073",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

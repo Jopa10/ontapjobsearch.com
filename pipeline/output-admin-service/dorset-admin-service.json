@@ -250,31 +250,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "425719102925963264037340",
-    "title": "Front of House / Customer Service Staff",
-    "company": "PLANETARIUM GO UK LIMITED - Agency - Permanent",
-    "location": "Dorset",
-    "region": "Dorset",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£13 per hour",
-    "posted_date": "",
-    "description": "Front of House / Customer Service Staff\n\nPlanetarium Go UK - Portable Planetariums\n\nLocation: Bournemouth Square, Bournemouth BH2 6 HE\n\nContract: October 02, 2026 - October 25, 2026\n\nPay: £13 per hour\n\nABOUT PLANETARIUM GO UK\n\nPlanetarium Go UK is a portable planetarium company delivering immersive, dome-based astronomy experiences in iconic locations across the UK. We create engaging and accessible experiences for families, schools, and the general public.\n\nTHE ROLE\n\nWe are recruiting Front of House / Customer Service Staff to join our team. This is a customer-facing role focused on delivering excellent visitor experiences in a busy public venue.\n\nKEY RESPONSIBILITIES\n- Welcoming visitors and providing excellent customer service\n- Ticket and merchandise sales\n- Managing visitor flow and entry times\n- Assisting with seating and session turnover\n- Supporting families and school groups\n- Answering visitor questions\n- Handling payments and basic sales records\n- Maintaining cleanliness and presentation of public areas\n\nWHAT WE'RE LOOKING FOR\n- Experience in customer service, hospitality, retail, or events\n- Friendly communication skills\n- Professional and reliable attitude\n- Availability for the full contract period\n\nDesirable:\n- Interest in science or astronomy (not required)\n\nWHAT WE OFFER\n- £13 per hour\n- Fixed-term contract\n- Supportive team environment",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?MQiKzVwZdh1MYGM5vevTBzfLlqmGzxF9u",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "PLANETARIUM GO UK LIMITED",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "2013522",
     "title": "Finance Assistant",
     "company": "Reed - Agency - Permanent",
@@ -390,7 +365,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2965-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2965-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5596490",
@@ -408,7 +387,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0063-26-0018",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0063-26-0018",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5596760",
@@ -426,6 +409,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0972",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-0972",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

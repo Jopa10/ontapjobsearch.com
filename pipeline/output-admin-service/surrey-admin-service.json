@@ -728,31 +728,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "2013874",
-    "title": "Housing Administrator -30 hours per week",
-    "company": "Field Lane - Agency - Permanent",
-    "location": "Surrey",
-    "region": "Surrey",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "About The Role\nHousing Administrator - 30 Hours per Week\nAre you passionate about making a difference in people's lives?\nDo you want to be part of a caring, supportive and dedicated team?\nWe're looking for a Housing Administrator to join our supported living and housing services in Surrey.\nThis is a varied role where your organisation, communication and people skills will help provide an effective housing service to tenants, families and professionals.\nAs a Housing Administrator, you'll:\n- Act as a first point of contact for tenants, families, professionals and agencies.\n- Maintain tenancy records, agreements and housing documentation, including easy-read versions.\n- Provide housing management support, including for tenants at Ashdown.\n- Coordinate repairs and maintenance enquiries, working with tenants, families, colleagues and contractors.\n- Support tenants and families with Housing Benefit, Universal Credit and exempt accommodation queries.\n- Liaise with local authorities and external agencies to resolve housing-related issues.\n- Support property and projects teams with administration and document control.\n- Book meetings, reviews and professional visits and provide a welcoming service to visitors.\n\nWhat we're looking for:\n- At least two years' administrative experience, ideally in housing, supported living, care or a related environment.\n- Strong organisational skills and excellent attention to detail.\n- Good communication and IT skills.\n- Experience maintaining accurate records and dealing with customer enquiries.\n- The ability to manage competing priorities and work collaboratively.\n- A warm, professional, empathetic and non-judgemental approach.\n- An understanding of confidentiality, safeguarding, equality and inclusion.\n\nWe're committed to keeping the people we support safe, so this role requires a satisfactory enhanced DBS and background checks. We are an equal opportunities employer and value diversity within our workforce. Candidates must have the right to work in the UK, as sponsorship is not available for this role.\n\nAbout The Organisation\nField Lane is a charity with a long history of providing care and support for a diverse range of people, including:\n- Adults with learning disabilities, many of whom are also autistic.\n- Vulnerable families - including those experiencing homelessness.\n- Individuals needing extra support to remain in their homes or with their families.\n\nWe actively champion improved rights, services, and opportunities for people with autism, and we are proud to provide inclusive, compassionate support that helps people live fulfilling lives.\nWhy Join Us?\n- Be part of a warm, inclusive, and supportive team.\n- Ongoing training and professional development opportunities.\n- The chance to make a real difference in people's lives every day.\n- Competitive pay and benefits package.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Yic9job4bS98WOS6cBQUle%2bPh8%2bK4H7fc",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Field Lane",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "415491",
     "title": "Administrative Assistant",
     "company": "University of Surrey - Agency - Permanent",
@@ -918,7 +893,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0103-26-0062",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0103-26-0062",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5590134",
@@ -936,7 +915,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2427",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2427",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5619426",
@@ -954,7 +937,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2573",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2573",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5604356",
@@ -972,7 +959,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5706-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5706-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5592510",
@@ -990,6 +981,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0455-26-0025",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0455-26-0025",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
