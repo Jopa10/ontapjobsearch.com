@@ -242,29 +242,25 @@ job_id: 107995853
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Management Accountant
 job_id: 1860458
 ---
-
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Wakefield | £35000 per year [JobG8 salary fields] | Assistant Management Accountant
 job_id: 1874082
 ---
-
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Wakefield | £30000 - £35000 per year [JobG8 salary fields] | Assistant Management Accountant
 job_id: 1873914
 ---
-
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Wakefield | no salary in JobG8 salary fields; no supported salary amount found in description | Interim Assistant Accountant (6 month FTC)
 job_id: 1936446
 ---
-
 ## SOUTH YORKSHIRE — SELECTED
 
 ---
@@ -342,23 +338,20 @@ job_id: 2024835
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £35000 per year [JobG8 salary fields] | Assistant Accountant
 job_id: 1884402
 ---
-
 ---
-action:
+action: select
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Barnsley | £32000 per year [JobG8 salary fields] | Assistant Accountant / Finance Officer
 job_id: 1871012
 ---
-
 ---
-action:
+action: select
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Rotherham | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Accountant
 job_id: 1949982
 ---
-
 ## NORTH EAST — SELECTED
 
 _No jobs in this group._
@@ -1362,113 +1355,95 @@ job_id: 2028719
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | £35000 per year [JobG8 salary fields] | Assistant Accountant
 job_id: 1857664
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £50000 - £55000 per year [JobG8 salary fields] | Paralegal (6-month FTC)
 job_id: 1908706
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Part time Assistant Accountant
 job_id: 1934006
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £35000 - £40000 per year [JobG8 salary fields] | Assistant Management Accountant
 job_id: 1932495
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Accountant LUXURY / CREATIVE SECTOR
 job_id: 1949592
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £35000 per year [JobG8 salary fields] | Assistant Accountant
 job_id: 1958379
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £40000 - £45000 per year [JobG8 salary fields] | Entry-Level Assistant Accountant
 job_id: 1957737
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Accountant
 job_id: 1946479
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £150 - £170 per daily [JobG8 salary fields] | Credit Controller - Interim
 job_id: 1946938
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £40000 per year [JobG8 salary fields] | Assistant Accountant
 job_id: 1948209
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £45000 per year [JobG8 salary fields] | Paralegal
 job_id: 1935169
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £35000 - £45000 per year [JobG8 salary fields] | Credit Controller - Commercial Lending
 job_id: 1907631
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £45000 per year [JobG8 salary fields] | Assistant Management Accountant
 job_id: 1899175
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | Borehamwood | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Accountant
 job_id: 1897127
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | Borehamwood | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Management Accountant
 job_id: 1934632
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | Pinner | £42000 per year [JobG8 salary fields] | Assistant Management Accountant
 job_id: 1936803
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £40000 - £45000 per year [JobG8 salary fields] | Employee Relations Co-ordinator - 6 Month FTC
 job_id: 2021503
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £45000 - £50000 per year [JobG8 salary fields] | Service Desk Team Leader
 job_id: 2028403
 ---
-
 ## HAMPSHIRE — SELECTED
 
 ---
@@ -1612,35 +1587,30 @@ job_id: 2028253
 ## HAMPSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - HAMPSHIRE | Hampshire | Hampshire | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Management Accountant
 job_id: 1877930
 ---
-
 ---
-action:
+action: select
 POSS - HAMPSHIRE | Hampshire | Hampshire | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Accountant (Part-Time, 3 Days per Week)
 job_id: 1881335
 ---
-
 ---
-action:
+action: select
 POSS - HAMPSHIRE | Hampshire | Hampshire | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Accountant
 job_id: 1928243
 ---
-
 ---
-action:
+action: select
 POSS - HAMPSHIRE | Hampshire | Hampshire | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Management Accountant
 job_id: 1949566
 ---
-
 ---
-action:
+action: select
 POSS - HAMPSHIRE | Hampshire | Hampshire | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Accountant
 job_id: 1957224
 ---
-
 ## SURREY — SELECTED
 
 ---
@@ -1850,29 +1820,25 @@ job_id: 108037759
 ## SURREY — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SURREY | Surrey | Surrey | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Management Accountant - with study support
 job_id: 1857179
 ---
-
 ---
-action:
+action: select
 POSS - SURREY | Surrey | Surrey | £40000 - £42000 per year [JobG8 salary fields] | Bookkeeper
 job_id: 1916202
 ---
-
 ---
-action:
+action: select
 POSS - SURREY | Surrey | Surrey | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Accountant - FTC
 job_id: 1912704
 ---
-
 ---
-action:
+action: select
 POSS - SURREY | Surrey | Surrey | competitive + benefits [JobG8 salary fields] | Accounts Assistant, Up to 12 Months FTC
 job_id: 1402265683
 ---
-
 ## KENT — SELECTED
 
 ---
@@ -2046,17 +2012,15 @@ job_id: 2028629
 ## KENT — POSSIBLES
 
 ---
-action:
+action: select
 POSS - KENT | Kent | Kent | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Management Accountant
 job_id: 1877663
 ---
-
 ---
-action:
+action: select
 POSS - KENT | Kent | Kent | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Accountant
 job_id: 1905113
 ---
-
 ## SELECTOR ERRORS / UNRESOLVED
 
 _No selector errors or unresolved rows outside the normal possible groups._
@@ -2363,7 +2327,7 @@ job_id: 2024649
 ## COVENTRY & WARWICKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Warwickshire | £32000 - £34000 per year | Assistant Management Accountant
 job_id: 1912347
 ---
@@ -2426,11 +2390,10 @@ job_id: 415441
 ## BEDFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BEDFORDSHIRE | Bedfordshire | Bedfordshire | £30000 per year | Assistant Management Accountant
 job_id: 1896593
 ---
-
 ## BERKSHIRE — SELECTED
 
 ---
@@ -2610,23 +2573,20 @@ job_id: 2026593
 ## BERKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BERKSHIRE | Berkshire | Berkshire | £17 - £20 per hour | Credit Controller
 job_id: 1877617
 ---
-
 ---
-action:
+action: select
 POSS - BERKSHIRE | Berkshire | Berkshire |  | Assistant Accountant
 job_id: 1959439
 ---
-
 ---
-action:
+action: select
 POSS - BERKSHIRE | Berkshire | Berkshire | £20.29 per hour | Paralegal - Local Authority
 job_id: 1957896
 ---
-
 ## BRISTOL & BATH — SELECTED
 
 ---
@@ -2788,23 +2748,20 @@ job_id: 1821573
 ## BRISTOL & BATH — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BRISTOL & BATH | Bristol & Bath | Bristol | £40000 per year | Patent Paralegal (c&;40,000) - Bristol
 job_id: 1860141
 ---
-
 ---
-action:
+action: exclude
 POSS - BRISTOL & BATH | Bristol & Bath | Bristol | £40000 - £45000 per year | Assistant Management Accountant
 job_id: 1892283
 ---
-
 ---
-action:
+action: exclude
 POSS - BRISTOL & BATH | Bristol & Bath | Bristol | £50000 per year | HR Administrator Placement Programme No Experience Needed
 job_id: 107921784
 ---
-
 ## BUCKINGHAMSHIRE — SELECTED
 
 ---
@@ -2912,17 +2869,15 @@ job_id: 107996202
 ## BUCKINGHAMSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BUCKINGHAMSHIRE | Buckinghamshire | Buckinghamshire |  | Graduate Finance Assistant Accountant
 job_id: 1932845
 ---
-
 ---
-action:
+action: select
 POSS - BUCKINGHAMSHIRE | Buckinghamshire | Buckinghamshire | £27500 - £37500 per year (Hybrid Working + Training) | Purchasing Coordinator (MRP)
 job_id: 23643_225648958
 ---
-
 ## CAMBRIDGESHIRE — SELECTED
 
 ---
@@ -3078,17 +3033,15 @@ job_id: 2024943
 ## CAMBRIDGESHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - CAMBRIDGESHIRE | Cambridgeshire | Peterborough | £20.00 per hour | Assistant Accountant
 job_id: 1870876
 ---
-
 ---
-action:
+action: select
 POSS - CAMBRIDGESHIRE | Cambridgeshire | Huntingdon | £35000 - £40000 per year | Assistant Management Accountant
 job_id: 1893572
 ---
-
 ## CHESHIRE - EAST — SELECTED
 
 ---
@@ -3790,17 +3743,15 @@ job_id: 107765584
 ## DORSET — POSSIBLES
 
 ---
-action:
+action: select
 POSS - DORSET | Dorset | Dorset |  | Assistant Management Accountant
 job_id: 1867646
 ---
-
 ---
-action:
+action: select
 POSS - DORSET | Dorset | Dorset | £27500 - £37500 per year (Hybrid Working + Training) | Purchasing Coordinator (MRP/Logistics)
 job_id: 23643_225649037
 ---
-
 ## ESSEX — SELECTED
 
 ---
@@ -4124,41 +4075,35 @@ job_id: 1882194
 ## ESSEX — POSSIBLES
 
 ---
-action:
+action: select
 POSS - ESSEX | Essex | Essex |  | Assistant Accountant - Accounts Practice
 job_id: 1867977
 ---
-
 ---
-action:
+action: select
 POSS - ESSEX | Essex | Essex | £33000 - £38000 per year | Bookkeeper
 job_id: 1897599
 ---
-
 ---
-action:
+action: exclude
 POSS - ESSEX | Essex | Essex | £40000 - £45000 per year | Assistant Management Accountant
 job_id: 1927365
 ---
-
 ---
-action:
+action: select
 POSS - ESSEX | Essex | Essex |  | Assistant Management Accountant
 job_id: 1929320
 ---
-
 ---
-action:
+action: select
 POSS - ESSEX | Essex | Essex | £30000 - £38000 per year | Assistant Management Accountant
 job_id: 1948920
 ---
-
 ---
-action:
+action: exclude
 POSS - ESSEX | Essex | Essex | £27.38 per hour | Paralegal
 job_id: 2026601
 ---
-
 ## GLOUCESTERSHIRE — SELECTED
 
 ---
@@ -4542,29 +4487,25 @@ job_id: 2028767
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — POSSIBLES
 
 ---
-action:
+action: select
 POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £30000 - £35000 per year | Assistant Accountant
 job_id: 1870942
 ---
-
 ---
-action:
+action: select
 POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £35000 - £40000 per year | Assistant Management Accountant + Study
 job_id: 1870931
 ---
-
 ---
-action:
+action: select
 POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £18 - £22 per hour | Assistant Management Accountant
 job_id: 1877583
 ---
-
 ---
-action:
+action: exclude
 POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £35000 - £38000 per year (Flexitime, Onsite gym) | Demand Planner
 job_id: 23643_225594440
 ---
-
 ## GREATER MANCHESTER - SOUTH — SELECTED
 
 ---
@@ -4618,11 +4559,10 @@ job_id: 1882120
 ## GREATER MANCHESTER - SOUTH — POSSIBLES
 
 ---
-action:
+action: select
 POSS - GREATER MANCHESTER - SOUTH | Greater Manchester - South | Stockport | £35000 per year | Assistant Management Accountant
 job_id: 1949350
 ---
-
 ## GREATER MANCHESTER - WIGAN & BOLTON — SELECTED
 
 ---
@@ -4682,11 +4622,10 @@ job_id: 1895046
 ## GREATER MANCHESTER - WIGAN & BOLTON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - GREATER MANCHESTER - WIGAN & BOLTON | Greater Manchester - Wigan & Bolton | Wigan | £32000 per year | Assistant Accountant
 job_id: 1869552
 ---
-
 ## HERTFORDSHIRE — SELECTED
 
 ---
@@ -4806,17 +4745,15 @@ job_id: 2022155
 ## HERTFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - HERTFORDSHIRE | Hertfordshire | Hertfordshire |  | Assistant Management Accountant
 job_id: 1898017
 ---
-
 ---
-action:
+action: select
 POSS - HERTFORDSHIRE | Hertfordshire | Hertfordshire | £35000 per year | Assistant Accountant
 job_id: 1895594
 ---
-
 ## LEICESTERSHIRE — SELECTED
 
 ---
@@ -4966,17 +4903,15 @@ job_id: 2028819
 ## LINCOLNSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - LINCOLNSHIRE | Lincolnshire | Lincolnshire | £35000 - £45000 per year | Assistant Management Accountant
 job_id: 1867240
 ---
-
 ---
-action:
+action: select
 POSS - LINCOLNSHIRE | Lincolnshire | Lincolnshire |  | Assistant Management Accountant
 job_id: 1946181
 ---
-
 ## MERSEYSIDE - LIVERPOOL — SELECTED
 
 ---
@@ -5066,11 +5001,10 @@ job_id: 2027305
 ## MERSEYSIDE - LIVERPOOL — POSSIBLES
 
 ---
-action:
+action: select
 POSS - MERSEYSIDE - LIVERPOOL | Merseyside - Liverpool | Liverpool | £33000 - £45000 per year | Employment Advisor/Paralegal
 job_id: 1885635
 ---
-
 ## NORFOLK — SELECTED
 
 ---
@@ -5208,17 +5142,15 @@ job_id: 2013829
 ## NORFOLK — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORFOLK | Norfolk | Norfolk | £32500 per year | Assistant Accountant
 job_id: 1940916
 ---
-
 ---
-action:
+action: select
 POSS - NORFOLK | Norfolk | Norfolk | £30000 - £35000 per year | Assistant Accountant
 job_id: 1949573
 ---
-
 ## NORTH SCOTLAND — SELECTED
 
 ---
@@ -5350,17 +5282,15 @@ job_id: 2029255
 ## NORTHAMPTONSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORTHAMPTONSHIRE | Northamptonshire | Northamptonshire |  | Assistant Accountant
 job_id: 1916146
 ---
-
 ---
-action:
+action: select
 POSS - NORTHAMPTONSHIRE | Northamptonshire | Northamptonshire | £32000 - £38000 per year | Payroll Administrator
 job_id: 1899049
 ---
-
 ## NORTHERN IRELAND - EAST — SELECTED
 
 ---
@@ -5414,11 +5344,10 @@ job_id: 107986102
 ## NORTHERN IRELAND - EAST — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORTHERN IRELAND - EAST | Northern Ireland - East | Newtownabbey |  | Assistant Accountant
 job_id: 1937764
 ---
-
 ## NOTTINGHAMSHIRE — SELECTED
 
 ---
@@ -5508,17 +5437,15 @@ job_id: 2021344
 ## NOTTINGHAMSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NOTTINGHAMSHIRE | Nottinghamshire | Nottinghamshire |  | Assistant Management Accountant
 job_id: 1871114
 ---
-
 ---
-action:
+action: select
 POSS - NOTTINGHAMSHIRE | Nottinghamshire | Nottinghamshire | £30000 - £33000 per year | Assistant Accountant
 job_id: 1916447
 ---
-
 ## OXFORDSHIRE — SELECTED
 
 ---
@@ -6142,17 +6069,15 @@ job_id: 108005589
 ## STAFFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - STAFFORDSHIRE | Staffordshire | Staffordshire |  | Graduate assistant accountant
 job_id: 1895507
 ---
-
 ---
-action:
+action: select
 POSS - STAFFORDSHIRE | Staffordshire | Staffordshire | £40000 per year | Assistant Accountant
 job_id: 1950276
 ---
-
 ## SUFFOLK — SELECTED
 
 ---
@@ -6326,17 +6251,15 @@ job_id: 2026597
 ## SUFFOLK — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SUFFOLK | Suffolk | Suffolk | £34000 - £38000 per year | Assistant Accountant
 job_id: 1867138
 ---
-
 ---
-action:
+action: select
 POSS - SUFFOLK | Suffolk | Suffolk |  | Assistant Accountant
 job_id: 1904199
 ---
-
 ## WALES SOUTH - CARDIFF & VALE — SELECTED
 
 ---
@@ -6390,11 +6313,10 @@ job_id: 1947089
 ## WALES SOUTH - CARDIFF & VALE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - WALES SOUTH - CARDIFF & VALE | Wales South - Cardiff & Vale | Cardiff | £32000 - £38000 per year | Assistant Accountant
 job_id: 1859856
 ---
-
 ## WALES SOUTH - VALLEYS — SELECTED
 
 ---
@@ -6454,17 +6376,15 @@ job_id: 1936986
 ## WALES SOUTH - VALLEYS — POSSIBLES
 
 ---
-action:
+action: select
 POSS - WALES SOUTH - VALLEYS | Wales South - Valleys | Caerphilly | £36500 per year | Assistant Accountant
 job_id: 1959495
 ---
-
 ---
-action:
+action: select
 POSS - WALES SOUTH - VALLEYS | Wales South - Valleys | Aberdare |  | Assistant Management Accountant
 job_id: 1910178
 ---
-
 ## WEST MIDLANDS - BIRMINGHAM & SOLIHULL — SELECTED
 
 ---
@@ -6620,11 +6540,10 @@ job_id: 2028830
 ## WEST MIDLANDS - BIRMINGHAM & SOLIHULL — POSSIBLES
 
 ---
-action:
+action: select
 POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Birmingham |  | Assistant Management Accountant
 job_id: 1915879
 ---
-
 ## WEST MIDLANDS - BLACK COUNTRY — SELECTED
 
 ---
@@ -6666,29 +6585,25 @@ job_id: 108006568
 ## WEST MIDLANDS - BLACK COUNTRY — POSSIBLES
 
 ---
-action:
+action: select
 POSS - WEST MIDLANDS - BLACK COUNTRY | West Midlands - Black Country | Wolverhampton |  | BMW Assistant Accountant
 job_id: 1868697
 ---
-
 ---
-action:
+action: select
 POSS - WEST MIDLANDS - BLACK COUNTRY | West Midlands - Black Country | Wolverhampton | £40000 per year | Assistant Accountant
 job_id: 1939828
 ---
-
 ---
-action:
+action: select
 POSS - WEST MIDLANDS - BLACK COUNTRY | West Midlands - Black Country | Walsall | £35000 per year | Assistant Management Accountant
 job_id: 1898340
 ---
-
 ---
-action:
+action: select
 POSS - WEST MIDLANDS - BLACK COUNTRY | West Midlands - Black Country | Wednesbury | £30000 - £35000 per year | Assistant Management Accountant
 job_id: 1943932
 ---
-
 ## WILTSHIRE — SELECTED
 
 ---
@@ -6826,11 +6741,10 @@ job_id: 2028796
 ## WILTSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - WILTSHIRE | Wiltshire | Wiltshire |  | Assistant Accountant
 job_id: 1899617
 ---
-
 ## WORCESTERSHIRE — SELECTED
 
 ---
@@ -6866,11 +6780,10 @@ job_id: 1907859
 ## WORCESTERSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - WORCESTERSHIRE | Worcestershire | Worcestershire | £33000 - £35000 per year | Assistant Accountant
 job_id: 1939043
 ---
-
 ## YORKSHIRE - EAST — SELECTED
 
 ---
@@ -6918,17 +6831,15 @@ job_id: 1991433
 ## YORKSHIRE - EAST — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - EAST | Yorkshire - East | Hull | £30000 - £40000 per year | Assistant Management Accountant
 job_id: 1858682
 ---
-
 ---
-action:
+action: select
 POSS - YORKSHIRE - EAST | Yorkshire - East | Hull |  | Interim Assistant Accountant
 job_id: 1873823
 ---
-
 ## YORKSHIRE - NORTH — SELECTED
 
 ---
@@ -7036,7 +6947,7 @@ job_id: 2021380
 ## YORKSHIRE - NORTH — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - NORTH | Yorkshire - North | Richmond | £35000 - £38000 per year | Credit Controller
 job_id: 1939806
 ---
