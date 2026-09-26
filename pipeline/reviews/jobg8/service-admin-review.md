@@ -681,12 +681,6 @@ job_id: 1904169
 
 ---
 action:
-SELECTED | London | Uxbridge | no salary in JobG8 salary fields; no supported salary amount found in description | Bid Coordinator
-job_id: 107970959
----
-
----
-action:
 SELECTED | London | South Croydon | no salary in JobG8 salary fields; no supported salary amount found in description | Accounts Assistant
 job_id: 1905435
 ---
@@ -1407,12 +1401,6 @@ job_id: 2026411
 
 ---
 action:
-SELECTED | London | Harrow | £26000 per year [JobG8 salary fields] | Attendance Coordinator
-job_id: 108041014
----
-
----
-action:
 SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Network and Funds Coordinator
 job_id: 2028807
 ---
@@ -1421,6 +1409,24 @@ job_id: 2028807
 action:
 SELECTED | London | London | £38,382 per annum [extracted from description] | Examinations Coordinator (Theory)
 job_id: 2028719
+---
+
+---
+action:
+SELECTED | London | London | £24,000 per annum [extracted from description] | Charity Coordinator
+job_id: 2029766
+---
+
+---
+action:
+SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Office Administrator
+job_id: 2029765
+---
+
+---
+action:
+SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Education Partnership Co-ordinator
+job_id: 2030537
 ---
 
 ## LONDON — POSSIBLES
@@ -1595,6 +1601,12 @@ job_id: 2014390
 action:
 SELECTED | Hampshire | Hampshire | no salary in JobG8 salary fields; no supported salary amount found in description | Accounts Payable and Purchasing Administrator
 job_id: 2028253
+---
+
+---
+action:
+SELECTED | Hampshire | Hampshire | £28000 per year [JobG8 salary fields] | Care Coordinator
+job_id: 107963757
 ---
 
 ## HAMPSHIRE — POSSIBLES
@@ -2001,12 +2013,6 @@ job_id: 1889334
 
 ---
 action:
-SELECTED | Kent | Kent | £28000 per year [JobG8 salary fields] | MAF in the Community (MiC) Resourcing Coordinator
-job_id: 107958419
----
-
----
-action:
 SELECTED | Kent | Kent | no salary in JobG8 salary fields; no supported salary amount found in description | Accounts Assistant
 job_id: 2024535
 ---
@@ -2207,12 +2213,6 @@ job_id: 108015994
 
 ---
 action:
-SELECTED | Sussex | Sussex | £35000 per year | Onboarding, Security Vetting & PMO Coordinator
-job_id: 107996029
----
-
----
-action:
 SELECTED | Sussex | Sussex | £15.00 per hour | School Administrator
 job_id: 2023516
 ---
@@ -2221,6 +2221,12 @@ job_id: 2023516
 action:
 SELECTED | Sussex | Sussex | £30000 - £35000 per year | Accounts Administrator
 job_id: 2027321
+---
+
+---
+action:
+SELECTED | Sussex | Sussex | £26000 per year | HR Administrative Assistant (Secondment Cover)
+job_id: 107978791
 ---
 
 ## SUSSEX — POSSIBLES
@@ -2753,12 +2759,6 @@ job_id: 2027908
 action:
 SELECTED | Bristol & Bath | Bristol |  | Peripatetic Service Coordinator - Mental Health
 job_id: 2028810
----
-
----
-action:
-SELECTED | Bristol & Bath | Bristol |  | Sales and Partnerships Coordinator
-job_id: 1821573
 ---
 
 ## BRISTOL & BATH — POSSIBLES
@@ -4225,6 +4225,12 @@ SELECTED | Gloucestershire | Gloucestershire | £13.45 per hour (+ Holiday Allow
 job_id: 108025159
 ---
 
+---
+action:
+SELECTED | Gloucestershire | Gloucestershire |  | Sales Support Executive
+job_id: 108006035
+---
+
 ## GLOUCESTERSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -5133,12 +5139,6 @@ job_id: 1949573
 
 ---
 action:
-SELECTED | Norfolk | Norfolk | £25,600 per annum | Finance Assistant - Expenditure & Creditors (AP)
-job_id: 1950311
----
-
----
-action:
 SELECTED | Norfolk | Norfolk | £30000 per year | Accounts Assistant
 job_id: 1952000
 ---
@@ -5917,6 +5917,12 @@ SELECTED | Scotland West - Glasgow | Glasgow |  | Lettings Administrator
 job_id: 1962313
 ---
 
+---
+action:
+SELECTED | Scotland West - Glasgow | Glasgow | £12.71 per hour | Activities Coordinator
+job_id: 108027073
+---
+
 ## SCOTLAND WEST - GLASGOW — POSSIBLES
 
 _No jobs in this group._
@@ -5963,6 +5969,12 @@ job_id: 1961524
 action:
 SELECTED | Shropshire | Shropshire |  | In-House Recruitment Coordinator
 job_id: 108012415
+---
+
+---
+action:
+SELECTED | Shropshire | Shropshire | £28000 per year | Experienced Credit Controller
+job_id: 108006754
 ---
 
 ## SHROPSHIRE — POSSIBLES
@@ -6023,6 +6035,24 @@ job_id: 108027102
 action:
 SELECTED | Somerset | Somerset | £30000 - £35000 per year | Bookkeeper - practice
 job_id: 2026255
+---
+
+---
+action:
+SELECTED | Somerset | Somerset | £12.71 per hour | Activities Coordinator
+job_id: 108027382
+---
+
+---
+action:
+SELECTED | Somerset | Somerset | £12.71 per hour | Activities Coordinator
+job_id: 108036038
+---
+
+---
+action:
+SELECTED | Somerset | Somerset | £30000 per year | Sales / BD Co-Ordinator
+job_id: 108037168
 ---
 
 ## SOMERSET — POSSIBLES
@@ -6307,6 +6337,12 @@ SELECTED | Suffolk | Suffolk |  | Family Law Paralegal
 job_id: 2026597
 ---
 
+---
+action:
+SELECTED | Suffolk | Suffolk | £28000 per year | Credit Controller
+job_id: 108041978
+---
+
 ## SUFFOLK — POSSIBLES
 
 _No jobs in this group._
@@ -6521,12 +6557,6 @@ job_id: 1900112
 action:
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham |  | Housing Paralegal (x2) - Birmingham
 job_id: 1900198
----
-
----
-action:
-SELECTED | West Midlands - Birmingham & Solihull | Solihull | £13.85 - £14.36 per hour | Accounts Payable Administrator
-job_id: 1916617
 ---
 
 ---

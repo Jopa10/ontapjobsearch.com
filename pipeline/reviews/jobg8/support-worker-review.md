@@ -131,12 +131,6 @@ SELECTED | Sussex | Haywards Heath | £39134 per year | Healthcare Assistant
 job_id: 107863056
 ---
 
----
-action:
-SELECTED | Sussex | Lewes | £39134 per year | Healthcare Assistant
-job_id: 108024728
----
-
 ## SUSSEX — POSSIBLES
 
 _No jobs in this group._
@@ -159,6 +153,12 @@ job_id: 108001475
 action:
 SELECTED | Cumbria - South | Kirkby Stephen | £30000 per year | Childrens Residential Support Worker
 job_id: 108027338
+---
+
+---
+action:
+SELECTED | Cumbria - South | Appleby-in-westmorland | £30000 per year | Childrens Residential Support Worker
+job_id: 108027339
 ---
 
 ## CUMBRIA SOUTH — POSSIBLES
@@ -225,6 +225,18 @@ job_id: 107856243
 action:
 SELECTED | Hampshire | Romsey | £28697 - £31573 per year | Children's Home Support Worker
 job_id: 1401785505
+---
+
+---
+action:
+SELECTED | Hampshire | Tadley | £25437 per year | Female Support Worker
+job_id: 107989086
+---
+
+---
+action:
+SELECTED | Hampshire | Freshwater | £14000 per year | Care Assistant
+job_id: 107986719
 ---
 
 ## HAMPSHIRE — POSSIBLES
@@ -295,12 +307,6 @@ job_id: 1927514
 
 ---
 action:
-SELECTED | London | Barking | £31290 per year | Inclusion Support Worker
-job_id: 1961315
----
-
----
-action:
 SELECTED | London | London | £28860 per year | Care Assistant
 job_id: 1990764
 ---
@@ -351,12 +357,6 @@ job_id: 107626594
 action:
 SELECTED | Oxfordshire | Banbury | £14.4 per hour | Home Carer
 job_id: 107626596
----
-
----
-action:
-SELECTED | Oxfordshire | Oxford | £15.24 per hour (plus benefits) | Care Assistant
-job_id: 108042462
 ---
 
 ## OXFORDSHIRE — POSSIBLES
