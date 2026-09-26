@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - East
 
-review_date: 2026-09-25
-review_fingerprint: 9aa3bd4ccd38279cab1be8363008a709ebf91c95275b9009c8e905d21525f0ea
-routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
+review_date: 2026-09-26
+review_fingerprint: 5117b2b146192ffe018326f18e524924ba0f62a1457e15cc5c01e06588807853
+routing_manifest_sha256: 659b8ff13d13221c591f0e893d5b850035994c447d6e8ab9f09ee4be1e7ebd4c
 ontap_region: Lancashire - East
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 3
-- Selected: 2
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 0
 
 ## SELECTED
 
@@ -51,6 +51,21 @@ source_job_id: office-administrator-blacko-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-blacko-primary-school
 ---
 
+---
+action: 
+SELECTED | Lancashire - East | Clitheroe, North West, BB7 1EJ | APT&C Grade 4 | SEND Administrator
+employer: Ribblesdale School
+closing_date: 2026-10-05T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 02d3d2a79fc38a859e77c47ba78903d0f19e1f553d47acd0204d2f2fad670e69
+source: Teaching Vacancies
+source_job_id: send-administrator-ribblesdale-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ribblesdale-school
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -61,7 +76,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ## HARD_PASS
 
-- [Payroll and Pensions Manager](https://teaching-vacancies.service.gov.uk/jobs/payroll-and-pensions-manager-star-academies-blackburn-not-recorded) — Manager title salary ceiling £60,952 is not below £28,000.
+- None.
 
 ## Safety boundary
 

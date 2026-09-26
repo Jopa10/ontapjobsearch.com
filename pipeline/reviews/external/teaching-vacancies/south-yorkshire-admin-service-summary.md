@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-09-25
-review_fingerprint: ec229f56c33a2d1a2354e1f0f4c629c56d753beab613bcd1db76689fa95ff1f9
-routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
+review_date: 2026-09-26
+review_fingerprint: 9b885949777d54a3f9baafed33562c9b0674ff0f0e27b8297af3a0e86870771a
+routing_manifest_sha256: 659b8ff13d13221c591f0e893d5b850035994c447d6e8ab9f09ee4be1e7ebd4c
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 22
-- Selected: 8
+- Records: 23
+- Selected: 9
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 12
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S17 3PT | Grade 4 (£26403 - £28598 pro rata) | Admin & Clerical Officer Level 2 Rowan School
+employer: The Rowan School
+closing_date: 2026-10-31T12:00:00+00:00
+reason: Clear admin/service title: admin clerical officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 956dfe297433d55e402f7a0686a00c275a1393470d518b5732670935f1654221
+source: Teaching Vacancies
+source_job_id: admin-clerical-officer-level-2-rowan-school-the-rowan-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-clerical-officer-level-2-rowan-school-the-rowan-school
+---
 
 ---
 action: 
@@ -180,12 +195,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-maltby-a
 ## HARD_PASS
 
 - [Admin & Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-finance-assistant-newman-school) — Insufficient admin/service evidence.
+- [Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-newman-school) — Insufficient admin/service evidence.
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-st-thomas-more-catholic-primary-a-voluntary-academy) — Insufficient admin/service evidence.
 - [Attendance and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-officer-sharrow-nursery-infant-and-junior-school) — Insufficient admin/service evidence.
 - [Business Support Manager](https://teaching-vacancies.service.gov.uk/jobs/business-support-manager-beck-primary-school-sheffield-south-yorkshire) — Manager title salary ceiling £40,921 is not below £28,000.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-st-clare-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-ridgewood-school) — Insufficient admin/service evidence.
-- [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-white-woods-primary-academy-trust) — Insufficient admin/service evidence.
 - [Finance & Admin Asst](https://teaching-vacancies.service.gov.uk/jobs/finance-admin-asst) — Insufficient admin/service evidence.
 - [Finance Manager (FTC)](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-ftc) — Manager title salary ceiling £53,500 is not below £28,000.
 - [Governance and Executive Support Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-and-executive-support-officer) — Insufficient admin/service evidence.

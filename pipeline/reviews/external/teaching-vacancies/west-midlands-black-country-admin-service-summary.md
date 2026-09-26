@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-09-25
+review_date: 2026-09-26
 review_fingerprint: d01b75243e9a1a2d5255ea7046b868ce79f239ff6d8472f88780ffcb034f67f4
-routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
+routing_manifest_sha256: 659b8ff13d13221c591f0e893d5b850035994c447d6e8ab9f09ee4be1e7ebd4c
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 10
 - Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -94,6 +94,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-yew-tree
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-joseph-leckie-academy-walsall-west-midlands) — Manager title salary ceiling £51,928 is not below £28,000.
 - [Exam Invigilators](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilators-472ff49d-b207-467b-8dbd-b5478c05c6b7) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-st-chad-s-academies-trust) — Manager title salary ceiling £65,035 is not below £28,000.
+- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-5f4d4502-0d91-4091-b646-cbfc76dcdfb2) — Insufficient admin/service evidence.
 - [Site Assistant](https://teaching-vacancies.service.gov.uk/jobs/site-assistant-priory-primary-school-dudley-west-midlands) — Insufficient admin/service evidence.
 - [Teaching Assistant (Level 2)](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-level-2-manor-way-primary-academy) — Out-of-scope occupation: teaching assistant.
 

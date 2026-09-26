@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-09-25
-review_fingerprint: 289a19a272fb3362d29c3b9519802bdce54e33e3fec60f479a67c206533d3b62
-routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
+review_date: 2026-09-26
+review_fingerprint: c15d41201156fabc11527b6e9d43c31ac191628d66d6aedb103262f8e021b372
+routing_manifest_sha256: 659b8ff13d13221c591f0e893d5b850035994c447d6e8ab9f09ee4be1e7ebd4c
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,27 +13,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 3
+- Records: 6
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Northamptonshire | Northampton, East Midlands, NN3 3QF | £26,016.00 Annually (FTE) NJC 4: £26,016.00 FTE, £13,896.42 pro-rata per annum for working 22.5 hours per week, 39 term time weeks per annum | Academy Administrator - Part Time
-employer: The Arbours Primary Academy
-closing_date: 2026-10-20T23:59:00+01:00
+SELECTED | Northamptonshire | Kettering, East Midlands, NN15 6HY | £26,016.00 - £26,016.00 Annually (FTE) NJC04 : £26,016 pa FTE (£18,528pa pr rata) - term time | Academy Administrator
+employer: Greenfields Primary School and Nursery
+closing_date: 2026-10-12T23:59:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: c82959177f6bff5d9f6ddae0f98a061fba4c87f6fb1a4b655c4cd02e44a6ef02
+factual_fingerprint: b393157af7bf0dc502c41e4fb3a6a8eb5e30d610308c1316811553d008314e5d
 source: Teaching Vacancies
-source_job_id: academy-administrator-part-time
-source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-part-time
+source_job_id: academy-administrator-greenfields-primary-school-and-nursery
+source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-greenfields-primary-school-and-nursery
 ---
 
 ---
@@ -51,21 +51,6 @@ source_job_id: front-of-house-receptionist-wollaston-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/front-of-house-receptionist-wollaston-school
 ---
 
----
-action: 
-SELECTED | Northamptonshire | Corby, East Midlands, NN17 5EB | £27,514.00 Annually (Actual) | Operations Administrator
-employer: Corby Business Academy
-closing_date: 2026-09-25T15:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: de27ad7fb26521e387e272efa4e7477a45d49819168c4acb383a3b3f92067767
-source: Teaching Vacancies
-source_job_id: operations-administrator-corby-business-academy-corby-northamptonshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-administrator-corby-business-academy-corby-northamptonshire
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -80,7 +65,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-administra
 - [Finance and HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-and-hr-assistant) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-creating-tomorrow-multi-academy-trust) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-gloucester-nursery-school) — Manager title salary ceiling £38,510 is not below £28,000.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-woodland-view-primary-school-northampton-northamptonshire) — Manager title salary ceiling £48,738 is not below £28,000.
 
 ## Safety boundary
 

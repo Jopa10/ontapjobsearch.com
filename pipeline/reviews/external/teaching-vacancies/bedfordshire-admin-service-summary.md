@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-09-25
+review_date: 2026-09-26
 review_fingerprint: 775a435c032c64a804d6631d0ede58c29704362e7c94a7c8f6773a304576749e
-routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
+routing_manifest_sha256: 659b8ff13d13221c591f0e893d5b850035994c447d6e8ab9f09ee4be1e7ebd4c
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
+- Records: 15
 - Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 9
 
 ## SELECTED
 
@@ -121,6 +121,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-finance-
 
 ## HARD_PASS
 
+- [Admin & Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-finance-assistant-mark-rutherford-school) — Insufficient admin/service evidence.
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-c5af3af6-3ac2-49eb-9534-035eb67e9604) — Manager title salary ceiling £45,401 is not below £28,000.
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-grasmere-nursery-school) — Insufficient admin/service evidence.
 - [Clerical Assistant - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-maternity-cover-icknield-primary-school-luton-bedfordshire) — Insufficient admin/service evidence.

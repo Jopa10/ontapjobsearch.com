@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-09-25
-review_fingerprint: 30b5c714ea9613ea6b7c3543ba107fff1e5e5b4217c1b3c90e73dd424849e805
-routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
+review_date: 2026-09-26
+review_fingerprint: 8f512f5114f62dda944071f924c6cd649dc3e80485703d496632e417c74546b5
+routing_manifest_sha256: 659b8ff13d13221c591f0e893d5b850035994c447d6e8ab9f09ee4be1e7ebd4c
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 7
-- POSS awaiting decision: 1
+- Records: 13
+- Selected: 9
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -38,6 +38,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
+SELECTED | North East | Sunderland, North East, SR3 2BB | £11,376.94 - £11,555.42 Annually (Actual) Job Evaluation in process | Administration Assistant
+employer: St Leonard's Catholic Primary School, Silksworth
+closing_date: 2026-10-07T12:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8a5e76f70b7b630a0f852ff04bec4f391e5c80c797af4eee447a3db3117c94bb
+source: Teaching Vacancies
+source_job_id: administration-assistant-st-leonard-s-catholic-primary-school-silksworth
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-st-leonard-s-catholic-primary-school-silksworth
+---
+
+---
+action: 
 SELECTED | North East | Blyth, North East, NE24 2SY | £24,829.00 Annually (Actual) SCP10 | Attendance Officer & Administrator
 employer: Bede Academy
 closing_date: 2026-10-02T09:00:00+01:00
@@ -49,6 +64,21 @@ factual_fingerprint: 0105b1e26ecf77a30d3162367d75dee318ac214fb8304b1f829bde9c160
 source: Teaching Vacancies
 source_job_id: attendance-officer-administrator-bede-academy-blyth-northumberland
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-administrator-bede-academy-blyth-northumberland
+---
+
+---
+action: 
+SELECTED | North East | Peterlee, North East, SR8 2RN | £25,125 | Data Management Administrator (2025/HM084)
+employer: East Durham College
+closing_date: 2026-10-11T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: bdeeb8867fca89842312e5ff5818735800e47e004def50a6c4dc216d7f3f918a
+source: Teaching Vacancies
+source_job_id: data-management-administrator-2025-hm084
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-management-administrator-2025-hm084
 ---
 
 ---
@@ -128,20 +158,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-support-roles-
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | North East | Sunderland, North East, SR3 2BB | £24,670.09 - £26,332.00 Annually (Actual) | Office Manager
-employer: St Leonard's Catholic Primary School, Silksworth
-closing_date: 2026-10-07T12:00:00+01:00
-reason: Manager title below £28,000 salary ceiling requires review
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 964c4c005884f6075477f0857551cf199cfff97d8b66cc7b1c4fb4d7825f4241
-source: Teaching Vacancies
-source_job_id: office-manager-st-leonard-s-catholic-primary-school-silksworth
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-leonard-s-catholic-primary-school-silksworth
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -149,6 +166,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-leo
 
 ## HARD_PASS
 
+- [Business Lead](https://teaching-vacancies.service.gov.uk/jobs/business-lead-st-leonard-s-catholic-primary-school-silksworth) — Insufficient admin/service evidence.
 - [Governance and Procurement Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-and-procurement-officer) — Insufficient admin/service evidence.
 - [HR Administration Assistant (Gateshead Schools)](https://teaching-vacancies.service.gov.uk/jobs/hr-administration-assistant-gateshead-schools) — Insufficient admin/service evidence.
 - [Marketing Assistant](https://teaching-vacancies.service.gov.uk/jobs/marketing-assistant-kings-priory-school) — Insufficient admin/service evidence.

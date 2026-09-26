@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-09-25
-review_fingerprint: d965d1019980e848c036df4b9b75b3946d8382a5a9636110e8ead3649b608573
-routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
+review_date: 2026-09-26
+review_fingerprint: 5c6b21b9c2ad0875e7cc5cb659cf6c19217a4283881bdf4f90e8e8c346df4f0e
+routing_manifest_sha256: 659b8ff13d13221c591f0e893d5b850035994c447d6e8ab9f09ee4be1e7ebd4c
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 4
+- Records: 10
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 4
@@ -79,6 +79,21 @@ factual_fingerprint: 2c1c7316a67719aceffeb794c7e35fbcf65ad068dd303b61fce5e6d7515
 source: Teaching Vacancies
 source_job_id: administration-assistant-castle-east-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-castle-east-school
+---
+
+---
+action: 
+SELECTED | Suffolk | Lowestoft, East of England, NR32 2NX | £23,316.00 Annually (Actual) Grade 3, point 4-6 | Business Support Officer
+employer: Roman Hill Primary School
+closing_date: 2026-10-09T12:00:00+01:00
+reason: Clear admin/service title: business support officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d27686acdebffb7ae37040286ef6c1cadfd2576d0325ac9cf438aaf94c015bb6
+source: Teaching Vacancies
+source_job_id: business-support-officer-826fc972-2852-4bd7-96a9-d089acb8c7b2
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-826fc972-2852-4bd7-96a9-d089acb8c7b2
 ---
 
 ## POSS — choose SELECT or EXCLUDE

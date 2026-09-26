@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-09-25
-review_fingerprint: ed8d28039bac0469c5b14c22919bfd4bf33fb1a203605633c8ee866726eb21b0
-routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
+review_date: 2026-09-26
+review_fingerprint: 376fa3d8223a5e18723f0e78738d8ca4bc80f0c533acb679b2ac02aa79c67e76
+routing_manifest_sha256: 659b8ff13d13221c591f0e893d5b850035994c447d6e8ab9f09ee4be1e7ebd4c
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 4
-- POSS awaiting decision: 1
+- Records: 7
+- Selected: 5
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 0
 
@@ -68,6 +68,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-cfs
 
 ---
 action: 
+SELECTED | Sussex | Chichester, South East, PO19 3HP | £37,563 - £40,444 pro rata | Personal Assistant to the Head Teacher
+employer: Bishop Luffa School, Chichester
+closing_date: 2026-10-08T23:59:00+01:00
+reason: Clear admin/service title: personal assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 39de46b584fd455013eb8763ae991c136035dbcb98c28ecb867bd62f325a0d97
+source: Teaching Vacancies
+source_job_id: personal-assistant-to-the-head-teacher-bishop-luffa-school-chichester
+source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-head-teacher-bishop-luffa-school-chichester
+---
+
+---
+action: 
 SELECTED | Sussex | Haywards Heath, South East, RH17 6EQ | S3 £24,521.84-£26,103.42 (actual salary) - £28,637-£30,484 (FTE) SP (20.1 -23) | Receptionist / Administrator
 employer: Brantridge School
 closing_date: 2026-10-03T23:59:00+01:00
@@ -82,6 +97,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Sussex | Eastbourne, South East, BN22 9EE | FTE: £26,017.00 - £26,429.00 (actual salary: £21,167.55 to £21,502.76) | Administrative Assistant
+employer: Heron Park Primary Academy
+closing_date: 2026-10-16T00:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5d19c60bd96f0537cbeff3a0b5e848650d9474e84a35b385d5dd43a4a326fbda
+source: Teaching Vacancies
+source_job_id: administrative-assistant-91c2bb10-6af8-4419-845b-e5add4b37610
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-91c2bb10-6af8-4419-845b-e5add4b37610
+---
 
 ---
 action: 

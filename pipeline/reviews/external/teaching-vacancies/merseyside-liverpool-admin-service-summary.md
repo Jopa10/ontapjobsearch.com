@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - Liverpool
 
-review_date: 2026-09-25
+review_date: 2026-09-26
 review_fingerprint: 550d858c4dbff8b6d92ec3bb799e0f2420720568c22da77153181d17847d0a8d
-routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
+routing_manifest_sha256: 659b8ff13d13221c591f0e893d5b850035994c447d6e8ab9f09ee4be1e7ebd4c
 ontap_region: Merseyside - Liverpool
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 3
 - Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -60,7 +60,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-pastoral-senior-
 ## HARD_PASS
 
 - [Data and Exams Admin Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-admin-support-assistant) — Insufficient admin/service evidence.
-- [HR People Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-people-partner) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

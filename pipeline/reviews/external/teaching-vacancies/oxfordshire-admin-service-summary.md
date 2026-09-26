@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-09-25
-review_fingerprint: b45f2f5fc77f5e57ffde61f5d1453e1a72cbb5ccba1d5293a56fbab14908920f
-routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
+review_date: 2026-09-26
+review_fingerprint: ee1043352c7af8314dcdff7ac0dc18ca189c57d63103f543ed2b63795b58b947
+routing_manifest_sha256: 659b8ff13d13221c591f0e893d5b850035994c447d6e8ab9f09ee4be1e7ebd4c
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
-- Selected: 11
+- Records: 19
+- Selected: 10
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 9
@@ -139,21 +139,6 @@ factual_fingerprint: 79885fdaefbb49d1b5aaaedf099dc71015ee7a0c6a9c9916fb8c0813be7
 source: Teaching Vacancies
 source_job_id: office-administrator-wantage-primary-academy-wantage-oxfordshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-wantage-primary-academy-wantage-oxfordshire
----
-
----
-action: 
-SELECTED | Oxfordshire | Oxford, OX4 4SF | £30,025.00 - £32,046.00 Annually (FTE) 0.4 FTE Actual Salary: £12,010 - £12,818 | Procurement Administrator *Hybrid Role*
-employer: River Learning Trust
-closing_date: 2026-09-25T17:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2d50559be5c7159324bf86226a8f98add9d40eb34c7e4c1e3c5346ce1494036e
-source: Teaching Vacancies
-source_job_id: procurement-administrator-hybrid-role
-source_url: https://teaching-vacancies.service.gov.uk/jobs/procurement-administrator-hybrid-role
 ---
 
 ---

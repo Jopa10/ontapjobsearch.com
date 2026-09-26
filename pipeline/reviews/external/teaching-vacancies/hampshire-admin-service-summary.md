@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-09-25
-review_fingerprint: 17a91dbf51d7727373a7f244ba4687f7bfbc62c99bfc48a00f568b2d75304cdd
-routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
+review_date: 2026-09-26
+review_fingerprint: bdc58b16dea191ef8e35becb0d2df961134449a2e1c20d1f0e85f20cdf15f9dd
+routing_manifest_sha256: 659b8ff13d13221c591f0e893d5b850035994c447d6e8ab9f09ee4be1e7ebd4c
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,27 +14,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 10
-- Selected: 4
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 8
 
 ## SELECTED
-
----
-action: 
-SELECTED | Hampshire | Aldershot, South East, GU11 4AA | £25,052.00 - £26,825.00 Annually (FTE) £8,980 - £9,615 Pro-Rata | Admin Assistant
-employer: The Cambridge Primary School
-closing_date: 2026-09-25T23:59:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: fc12dc9edf438e2739a519c431d5765f65dad5136ee67fac5cd9993c79652844
-source: Teaching Vacancies
-source_job_id: admin-assistant-the-cambridge-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-the-cambridge-primary-school
----
 
 ---
 action: 
@@ -66,21 +51,6 @@ source_job_id: administrator-the-harbour-school-the-harbour-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-the-harbour-school-the-harbour-school
 ---
 
----
-action: 
-SELECTED | Hampshire | Alresford, SO24 9BS | £34,273.00 - £37,570.00 Annually (FTE) Actual salary £31,709 - £34,759 per annum | Personal Assistant to Executive Headteacher
-employer: Vita Multi Academy Trust
-closing_date: 2026-09-25T23:59:00+01:00
-reason: Clear admin/service title: personal assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6940f12bbcac833b31de21d445225abad997cef6fa7ba9103b323520c9c48f48
-source: Teaching Vacancies
-source_job_id: personal-assistant-to-executive-headteacher-vita-multi-academy-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-executive-headteacher-vita-multi-academy-trust
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -93,7 +63,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to
 
 - [Administration & Reception Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-reception-assistant-cove-school) — Missing salary or pay scale.
 - [Apprentice Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/apprentice-admin-assistant-penbridge-junior-school) — Missing salary or pay scale.
+- [Business Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/business-administration-officer) — Insufficient admin/service evidence.
 - [Data Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-administration-assistant-cove-school) — Insufficient admin/service evidence.
+- [Deputy School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/deputy-school-business-manager-crestwood-community-school) — Manager title salary ceiling £46,565 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-romsey-school) — Insufficient admin/service evidence.
 - [HR Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-administration-assistant-the-portsmouth-academy) — Insufficient admin/service evidence.
 - [School Resources/Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-resources-administration-assistant) — Insufficient admin/service evidence.

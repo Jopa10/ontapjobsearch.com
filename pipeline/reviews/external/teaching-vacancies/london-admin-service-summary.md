@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-09-25
-review_fingerprint: b1b0b10d0a369fd91feec871922cfe03ca5b9d5aeff9f2732466c31043f0f526
-routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
+review_date: 2026-09-26
+review_fingerprint: 3b4fb27c10a973f121b2f0ebabbb12b89243c737b596298e09669b2dc5cedf09
+routing_manifest_sha256: 659b8ff13d13221c591f0e893d5b850035994c447d6e8ab9f09ee4be1e7ebd4c
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 66
-- Selected: 22
-- POSS awaiting decision: 5
+- Records: 69
+- Selected: 26
+- POSS awaiting decision: 7
 - Excluded: 0
-- Hard pass: 39
+- Hard pass: 36
 
 ## SELECTED
+
+---
+action: 
+SELECTED | London | London, London, SE16 3PB | £32,164.00 - £34,084.00 Annually (Actual) Term Time + 2 Weeks | Academy Administrator
+employer: Galleywall Primary, City of London Academy
+closing_date: 2026-10-12T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2d201e74fe1c303adadd98595f980b645c74c6287c43f809dffb3174f0ee733b
+source: Teaching Vacancies
+source_job_id: academy-administrator-galleywall-primary-city-of-london-academy-london
+source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-galleywall-primary-city-of-london-academy-london
+---
 
 ---
 action: 
@@ -158,6 +173,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-and-administr
 
 ---
 action: 
+SELECTED | London | Hayes, London, UB4 9LE | £25,099.00 Annually (Actual) | General Administrator
+employer: Barnhill Community High School
+closing_date: 2026-10-09T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 026523f38daa505722cdd06ae1757274b83e447f7f25301fb06960c2572e3282
+source: Teaching Vacancies
+source_job_id: general-administrator-38fde377-10ba-4d36-87df-9496dab66650
+source_url: https://teaching-vacancies.service.gov.uk/jobs/general-administrator-38fde377-10ba-4d36-87df-9496dab66650
+---
+
+---
+action: 
 SELECTED | London | New Malden, KT3 6NU | £28,521.00 - £33,987.00 Annually (FTE) | Human Resources Administrator
 employer: Helix Learning Trust
 closing_date: 2026-10-16T23:59:00+01:00
@@ -233,6 +263,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to
 
 ---
 action: 
+SELECTED | London | New Malden, London, KT3 6NU | £28,026.00 - £29,436.00 Annually (FTE) Salary Scale C3 - C5 Actual £13,636 - £14,026pa (£28,617pa - £29,436 FTE) | Receptionist (Part-time)
+employer: Coombe Boys' School
+closing_date: 2026-10-06T10:00:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a0d625fb7b65f3fe8cc0be5a0d9cc35634ed39d50662e500588063d98d8a947a
+source: Teaching Vacancies
+source_job_id: receptionist-part-time-coombe-boys-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-part-time-coombe-boys-school
+---
+
+---
+action: 
 SELECTED | London | London, London, N21 2RA | Scale 3 | Receptionist / Admin Assistant
 employer: St Paul's CofE Primary School
 closing_date: 2026-10-05T12:00:00+01:00
@@ -304,6 +349,21 @@ factual_fingerprint: 30bd27166c508b2e8d2b2d37623d1855c0c2c5a1c65520fed09c5d23303
 source: Teaching Vacancies
 source_job_id: school-receptionist-orion-coopers
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-orion-coopers
+---
+
+---
+action: 
+SELECTED | London | Woodford Green, London, IG8 0TP | £31,290.00 - £32,655.00 Annually (FTE) | School Receptionist/Admin Assistant
+employer: Trinity Catholic High School
+closing_date: 2026-10-05T12:00:00+01:00
+reason: Clear admin/service title: admin assistant, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2a3d631083f135affec405eed28ccb3e09c7c5c41838183612be4c94111c094d
+source: Teaching Vacancies
+source_job_id: school-receptionist-admin-assistant-trinity-catholic-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-admin-assistant-trinity-catholic-high-school
 ---
 
 ---
@@ -400,6 +460,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/communications-office
 
 ---
 action: 
+POSS | London | Twickenham, London, TW2 5LH | £24,600 to £25,697 per annum | Cover & Lettings Administrator
+employer: Waldegrave School
+closing_date: 2026-10-05T09:00:59+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 716e5a963b4f830209f13b953df972e3996ec8daafe7f19dc5fe1e7d6af20035
+source: Teaching Vacancies
+source_job_id: cover-lettings-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-lettings-administrator
+---
+
+---
+action: 
 POSS | London | Harrow, London, HA3 5RQ | £24,030.00 - £25,048.00 Annually (Actual) | Cover Supervisor Manager
 employer: Whitefriars School
 closing_date: 2026-10-01T23:59:00+01:00
@@ -428,6 +503,21 @@ source_job_id: exams-and-data-officer-001df384-4611-4e33-97d4-7c89842c0e25
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-officer-001df384-4611-4e33-97d4-7c89842c0e25
 ---
 
+---
+action: 
+POSS | London | Isleworth, London, TW7 5DB | £33,129.00 - £35,109.00 Annually (FTE) NJC Scale 5 £33,129 to £35,109 (pro rata) Pro rata salary based on working 36 hours a week for 5 days a week, 39 weeks per annum (N.B. this is ‘term time’ i.e. 195 days) | SEND Administrator
+employer: Bolder Academy
+closing_date: 2026-10-12T12:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2aa6d12d4e8637b94171ac0d449be0bd9dcdeca6f5592140b687c125dbcec75b
+source: Teaching Vacancies
+source_job_id: send-administrator-bolder-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-bolder-academy
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -439,24 +529,22 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-office
 - [Careers Advisor](https://teaching-vacancies.service.gov.uk/jobs/careers-advisor-adc96ad5-4177-4d7f-9893-1125998e829c) — Insufficient admin/service evidence.
 - [Careers Progression & Work Experience Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/careers-progression-work-experience-co-ordinator-davenant-foundation-school-loughton-essex) — Insufficient admin/service evidence.
 - [Chief Financial Officer ( CFO )](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-the-cardinal-wiseman-catholic-school) — Insufficient admin/service evidence.
+- [Clerk](https://teaching-vacancies.service.gov.uk/jobs/clerk-fa200dc5-f631-4c94-82eb-9b7a7dc9e643) — Insufficient admin/service evidence.
+- [Cover Coordinator](https://teaching-vacancies.service.gov.uk/jobs/cover-coordinator-the-kingston-academy-kingston-upon-thames-surrey) — Insufficient admin/service evidence.
 - [Data & Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-exams-manager-ark-bolingbroke-academy) — Manager title salary ceiling £44,231 is not below £28,000.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-whitefriars-school) — Manager title salary ceiling £37,046 is not below £28,000.
-- [Data Manager / Support ICT Officer](https://teaching-vacancies.service.gov.uk/jobs/data-manager-support-ict-officer) — Manager title without salary evidence below £28,000.
 - [Deputy Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/deputy-chief-financial-officer-connect-education-trust) — Insufficient admin/service evidence.
 - [Director of HR](https://teaching-vacancies.service.gov.uk/jobs/director-of-hr-orion-education-chislehurst-not-recorded) — Insufficient admin/service evidence.
 - [Extra Club Manager](https://teaching-vacancies.service.gov.uk/jobs/extra-club-manager) — Manager title without salary evidence below £28,000.
-- [Finance Assistant AP](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-ap) — Insufficient admin/service evidence.
 - [H3 Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/h3-admin-officer) — Insufficient admin/service evidence.
-- [Head of Governance & Compliance](https://teaching-vacancies.service.gov.uk/jobs/head-of-governance-compliance-the-charter-schools-educational-trust) — Insufficient admin/service evidence.
 - [HR & Payroll Apprentice](https://teaching-vacancies.service.gov.uk/jobs/hr-payroll-apprentice) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-e8e93e8c-5c0c-4ba3-aa93-a10cbe7095cd) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-ark-oval-primary-academy-croydon-surrey) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-glenthorne-high-school) — Insufficient admin/service evidence.
-- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-woodside-primary-school-croydon-surrey) — Insufficient admin/service evidence.
 - [Human Resources Business Partner/People Manager FTC](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-people-manager-ftc) — Manager title salary ceiling £56,000 is not below £28,000.
 - [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-lilian-baylis-technology-school) — Insufficient admin/service evidence.
 - [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-saint-john-southworth-catholic-academy-trust) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-chadwell-heath-academy) — Manager title without salary evidence below £28,000.
+- [Learning Resource Centre Manager](https://teaching-vacancies.service.gov.uk/jobs/learning-resource-centre-manager-harris-city-academy-crystal-palace-london) — Manager title salary ceiling £34,488 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-hawes-down-primary-school) — Manager title salary ceiling £28,146 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-the-st-thomas-the-apostle-college) — Manager title salary ceiling £35,725 is not below £28,000.
 - [Part Time HR Officer](https://teaching-vacancies.service.gov.uk/jobs/part-time-hr-officer) — Insufficient admin/service evidence.
@@ -470,7 +558,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-office
 - [School Office Supervisor](https://teaching-vacancies.service.gov.uk/jobs/school-office-supervisor) — Insufficient admin/service evidence.
 - [Senior Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-admin-officer-st-stephen-s-cofe-primary-school) — Insufficient admin/service evidence.
 - [Senior Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-business-partner-creative-education-trust) — Insufficient admin/service evidence.
-- [Sixth Form Support Officer](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-support-officer-harris-science-academy-east-london) — Insufficient admin/service evidence.
 - [Strategic Lead for Human Resources](https://teaching-vacancies.service.gov.uk/jobs/strategic-lead-for-human-resources) — Insufficient admin/service evidence.
 - [Welfare and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/welfare-and-admin-officer) — Insufficient admin/service evidence.
 

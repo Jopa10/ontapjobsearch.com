@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-09-25
-review_fingerprint: 4d064ba25c367ebc118213103e862eb32153e6eeba2773ac9b2bd42600970026
-routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
+review_date: 2026-09-26
+review_fingerprint: ebdfcf440aadcf83614182a8da17b54700bea1f37287dc5995f6a1bf711937ea
+routing_manifest_sha256: 659b8ff13d13221c591f0e893d5b850035994c447d6e8ab9f09ee4be1e7ebd4c
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 5
+- Records: 16
+- Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 10
 
 ## SELECTED
 
@@ -83,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-admin-assista
 
 ---
 action: 
+SELECTED | Cambridgeshire | St Neots, East of England, PE19 5TT | £29,542.00 - £32,046.00 Annually (FTE) Mon - Fri 08.30am - 12.15pm | School Administrative Receptionist
+employer: Buckden CofE Primary School
+closing_date: 2026-10-09T12:00:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0c9e1c53eee863da2bbbbdfdd7ce65615b7d253ba9e9ab07672cf5bbca3a73e4
+source: Teaching Vacancies
+source_job_id: school-administrative-receptionist
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrative-receptionist
+---
+
+---
+action: 
 SELECTED | Cambridgeshire | Cambridge, East of England, CB24 3DS | Point 4-5, £26,016 - £26,427 FTE | Senior Office Administrator
 employer: Pathfinder CofE Primary School
 closing_date: 2026-09-28T12:00:00+01:00
@@ -108,6 +123,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-office-adminis
 
 - [Head of HR Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-operations-united-learning-trust) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-f3f57ca9-847f-4e59-bac2-1caf377a9267) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-buckden-cofe-primary-school) — Manager title salary ceiling £34,811 is not below £28,000.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-9a683a81-163f-46a5-b7f5-732557216d39) — Manager title salary ceiling £44,854 is not below £28,000.
 - [PA to Head of School & Administration Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-head-of-school-administration-manager) — Manager title salary ceiling £36,581 is not below £28,000.
 - [Reception Services](https://teaching-vacancies.service.gov.uk/jobs/reception-services-manor-drive-secondary-academy-peterborough-cambridgeshire) — Insufficient admin/service evidence.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-09-25
+review_date: 2026-09-26
 review_fingerprint: 46d82708fffdb7f288742c4e48fc01194efcf9031b410179558413c6ee373c8d
-routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
+routing_manifest_sha256: 659b8ff13d13221c591f0e893d5b850035994c447d6e8ab9f09ee4be1e7ebd4c
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
+- Records: 18
 - Selected: 7
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 9
 
 ## SELECTED
 
@@ -166,7 +166,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-the-whit
 
 - [Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-radford-primary-school-academy) — Insufficient admin/service evidence.
 - [Attendance Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-administration-assistant-the-long-eaton-school) — Insufficient admin/service evidence.
+- [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-our-lady-of-lourdes-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [HR and Recruitment Team Leader](https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-team-leader) — Insufficient admin/service evidence.
+- [HR/People Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-people-operations-manager) — Manager title salary ceiling £57,358 is not below £28,000.
 - [One to One Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/one-to-one-personal-care-assistant) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-bf443901-6fb8-4721-9adf-b67f0bdbd6f6) — Insufficient admin/service evidence.
 - [School Business Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-business-administrator-ladycross-infant-school) — Missing salary or pay scale.

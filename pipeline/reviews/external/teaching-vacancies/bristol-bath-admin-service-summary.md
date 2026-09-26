@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-09-25
+review_date: 2026-09-26
 review_fingerprint: b128a63753fbd2e9674ddf54cbd443ec4599cd8d2f1433774db1a6e8f208c6a2
-routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
+routing_manifest_sha256: 659b8ff13d13221c591f0e893d5b850035994c447d6e8ab9f09ee4be1e7ebd4c
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 8
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 5
 
 ## SELECTED
 
@@ -78,7 +78,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-bridge-learning-campus-bristol) — Insufficient admin/service evidence.
 - [Exams Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-assistant-sir-bernard-lovell-academy) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-2ff3f4b1-17d1-4e07-b943-97bfa6ca1118) — Manager title salary ceiling £34,237 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-whitchurch-primary-school) — Manager title without salary evidence below £28,000.
+- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-sgs-pegasus-school) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

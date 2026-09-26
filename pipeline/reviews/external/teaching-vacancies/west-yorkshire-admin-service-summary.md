@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-09-25
-review_fingerprint: 41fa43c1638f6cc7b29e8d07f457491888cc6c75c74566f80f2bcaa57f9aa1fb
-routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
+review_date: 2026-09-26
+review_fingerprint: 7d6add919e74a0af929d8583d3aa3031139a100294fb8465944418b1aebb0bc2
+routing_manifest_sha256: 659b8ff13d13221c591f0e893d5b850035994c447d6e8ab9f09ee4be1e7ebd4c
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 29
+- Records: 31
 - Selected: 13
-- POSS awaiting decision: 2
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 14
+- Hard pass: 15
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Yorkshire - West | Wakefield, Yorkshire and the Humber, WF3 1JQ | £22,418.00 - £23,133.00 Annually (Actual) | Administration Assistant
+employer: Woodkirk Academy
+closing_date: 2026-10-12T09:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 80761e9ccfe3aef36b298e2ae558fa953598796e1c053411d551cbdbbb47126c
+source: Teaching Vacancies
+source_job_id: administration-assistant-993064c2-8d4e-49cd-a144-d8b71360ac51
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-993064c2-8d4e-49cd-a144-d8b71360ac51
+---
 
 ---
 action: 
@@ -79,21 +94,6 @@ factual_fingerprint: 6b191281391407b4b05ca71a54dd40c35951e42945a20b56a68bc8656f4
 source: Teaching Vacancies
 source_job_id: attendance-admissions-officer-highfield-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-admissions-officer-highfield-school
----
-
----
-action: 
-SELECTED | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD1 4BJ | £11,722.00 Annually (Actual) Term Time only | Business Support Officer
-employer: Spring Grove Junior Infant and Nursery School
-closing_date: 2026-09-25T23:59:00+01:00
-reason: Clear admin/service title: business support officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 4c504b9c83fe920c321db3a6ef64f06dc83bfb75415276fe140446d9fd5638cc
-source: Teaching Vacancies
-source_job_id: business-support-officer-spring-grove-junior-infant-and-nursery-school-huddersfield-west-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-spring-grove-junior-infant-and-nursery-school-huddersfield-west-yorkshire
 ---
 
 ---
@@ -235,6 +235,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/deputy-student-servic
 
 ---
 action: 
+POSS | Yorkshire - West | Leeds, Yorkshire and the Humber, LS16 5EA | £35,837.00 - £37,629.00 Annually (Actual) | Exams and Data Officer
+employer: Abbey Grange Church of England Academy
+closing_date: 2026-10-12T09:00:00+01:00
+reason: Borderline school administration title: data officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: c9d4182e848fbec90706e49a014b1ba1c9750e17bd2d43be3c59879375cfadf4
+source: Teaching Vacancies
+source_job_id: exams-and-data-officer-abbey-grange-church-of-england-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-officer-abbey-grange-church-of-england-academy
+---
+
+---
+action: 
 POSS | Yorkshire - West | Knottingley, Yorkshire and the Humber, WF11 0PJ | £30,515.00 - £33,119.00 Annually (FTE) Grade F Points 14 to 19 (£30,515 to £33,119 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £13,893.91. | SEN Support Officer (7557)
 employer: Simpson's Lane Academy
 closing_date: 2026-10-07T23:59:00+01:00
@@ -259,6 +274,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-support-officer-7
 - [Data, MIS and Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/data-mis-and-admissions-manager-batley-grammar-school-batley-west-yorkshire) — Manager title salary ceiling £38,267 is not below £28,000.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.
 - [Exam Invigilators](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilators-beckfoot-trust) — Insufficient admin/service evidence.
+- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-ossett-academy-and-sixth-form-college) — Insufficient admin/service evidence.
 - [Finance Manager (Core Team)](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-core-team) — Manager title salary ceiling £49,282 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-greengates-primary-academy-bradford-west-yorkshire) — Insufficient admin/service evidence.
 - [HR Advisor (Central Team)](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-central-team) — Insufficient admin/service evidence.

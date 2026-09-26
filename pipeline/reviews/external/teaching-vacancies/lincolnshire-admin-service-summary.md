@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-09-25
-review_fingerprint: 560e9a08cbd1a68b276c13f50a613583a539375eb57da96992438e229bbd9a3e
-routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
+review_date: 2026-09-26
+review_fingerprint: 77564b24a90fa6660409719b340425b401f5c0ccba96ee31e69acc590ace1207
+routing_manifest_sha256: 659b8ff13d13221c591f0e893d5b850035994c447d6e8ab9f09ee4be1e7ebd4c
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 8
+- Records: 13
+- Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 5
@@ -64,21 +64,6 @@ factual_fingerprint: e21874fdc87a0270efaa642a3500822a10a3d8637c25902f0ddd3b573aa
 source: Teaching Vacancies
 source_job_id: data-exams-officer-thomas-middlecott-academy-boston-lincolnshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/data-exams-officer-thomas-middlecott-academy-boston-lincolnshire
----
-
----
-action: 
-SELECTED | Lincolnshire | Brigg, Yorkshire and the Humber, DN20 8AR | £30,515.00 - £33,119.00 Annually (FTE) Grade F Points 14 to 19 (£30,515 to £33,119 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £27,039.33 | Data and Exams Officer
-employer: The Vale Academy
-closing_date: 2026-09-25T23:59:00+01:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3ae63c4e050f95feed6f6a840aba6da39b11b95996e764903f862abc98078fd8
-source: Teaching Vacancies
-source_job_id: data-and-exams-officer-the-vale-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-officer-the-vale-academy
 ---
 
 ---

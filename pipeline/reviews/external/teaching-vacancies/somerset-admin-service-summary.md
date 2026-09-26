@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-09-25
-review_fingerprint: cd2a050eb6cff6cf738e4da051f30dccf528ce297bb2f1adabc161e4e29644e0
-routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
+review_date: 2026-09-26
+review_fingerprint: 2b79dcaea27f49629e0d25b2e764c371b8c4f27ccb0ab7509cd8e83a303c4f44
+routing_manifest_sha256: 659b8ff13d13221c591f0e893d5b850035994c447d6e8ab9f09ee4be1e7ebd4c
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 8
+- Records: 11
+- Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 4
@@ -68,21 +68,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | Somerset | Weston-Super-Mare, South West, BS22 8XX | PATH 4. £26,429 FTE, £11,191 prorated | Business Support Administrator
-employer: Worle Community School
-closing_date: 2026-09-25T21:00:59+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 35dcc8c420660550709bf7bf38855cc1889f2dfeab792cd6a1979d0b319710b9
-source: Teaching Vacancies
-source_job_id: business-support-administrator-worle-community-school-weston-super-mare-somerset
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-administrator-worle-community-school-weston-super-mare-somerset
----
-
----
-action: 
 SELECTED | Somerset | Yeovil, South West, BA21 4DR | [£24,707 FTE] | Business Support and Compliance Administrator - Part Time
 employer: Yeovil College
 closing_date: 2026-10-04T23:59:00+01:00
@@ -94,21 +79,6 @@ factual_fingerprint: 005e2f2913b6a10686f74afbdc7b8984e70f702d4a2573125a9b97b7c1f
 source: Teaching Vacancies
 source_job_id: business-support-and-compliance-administrator-part-time
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-and-compliance-administrator-part-time
----
-
----
-action: 
-SELECTED | Somerset | Weston-Super-Mare, South West, BS24 9DA | £16,115.95 | Office Administrator
-employer: Oldmixon Primary School
-closing_date: 2026-09-25T23:59:59+01:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f3d14bddc23e3722c13d0e2dc1aa6c41c06b738cb0f34eebca796f312de90d3d
-source: Teaching Vacancies
-source_job_id: office-administrator-oldmixon-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-oldmixon-primary-school
 ---
 
 ---

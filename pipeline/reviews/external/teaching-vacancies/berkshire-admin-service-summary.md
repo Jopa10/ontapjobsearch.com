@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-09-25
-review_fingerprint: 92f873c55203e5ab6e652367307bd3d142cfdecc50a79e0a8d3566c46fc0b22a
-routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
+review_date: 2026-09-26
+review_fingerprint: 04fa2ada518eeaccfc9dad9a9dc298aff726b9e15c1ccdd4b4d4235d05e2acfd
+routing_manifest_sha256: 659b8ff13d13221c591f0e893d5b850035994c447d6e8ab9f09ee4be1e7ebd4c
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 22
+- Records: 23
 - Selected: 6
-- POSS awaiting decision: 2
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 14
 
@@ -112,6 +112,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/welfare-assistant-adm
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Berkshire | Reading, South East, RG1 5SL | £18,327.00 Annually (Actual) Grade 3 SCP5 30 hours per week TTO plus 5 INSET days. £26,427 FTE | Administration Support Assistant
+employer: Maiden Erlegh School in Reading
+closing_date: 2026-10-02T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: df72a3c5ff1aa665d95eb405ad507777dde7661182f5bc2ca06e671e168aeddf
+source: Teaching Vacancies
+source_job_id: administration-support-assistant-maiden-erlegh-school-in-reading
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-support-assistant-maiden-erlegh-school-in-reading
+---
 
 ---
 action: 

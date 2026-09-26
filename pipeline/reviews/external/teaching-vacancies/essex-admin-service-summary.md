@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-09-25
-review_fingerprint: 53d068752a96e819313f6c80fc7c25f554a0ace68de1f897a0e0175a0b8d315c
-routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
+review_date: 2026-09-26
+review_fingerprint: e159547cf16bb1bf503add5ab89f9f273792bcdd8fa5098222e4b1c0a92ee719
+routing_manifest_sha256: 659b8ff13d13221c591f0e893d5b850035994c447d6e8ab9f09ee4be1e7ebd4c
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 8
+- Records: 16
+- Selected: 9
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 7
@@ -124,6 +124,21 @@ factual_fingerprint: d71c70f74dc1aa26e78412d83f52ac02b2184fdc4b6a4efde81bf6f07c6
 source: Teaching Vacancies
 source_job_id: receptionist-0-4-1-year-fixed-contract
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-0-4-1-year-fixed-contract
+---
+
+---
+action: 
+SELECTED | Essex | Colchester, East of England, CO3 3QJ | Pay Scale 4 (Point 8 - 9) | School Administrator & Clerical Support
+employer: Kingswode Hoe School
+closing_date: 2026-10-01T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e7f5c16f33feb6213c20ccc26a3951a24b13701fad1583e5e97e36a420b9257e
+source: Teaching Vacancies
+source_job_id: school-administrator-clerical-support
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-clerical-support
 ---
 
 ---

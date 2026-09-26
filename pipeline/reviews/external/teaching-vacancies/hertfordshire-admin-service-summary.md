@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-09-25
-review_fingerprint: 0fd6b97198c678543a7f64e8d4077683cea693e2abf5a37e73e7543fe52c5f80
-routing_manifest_sha256: 9fbfcd93820c76442f27c00ed8a67c3997feded05945067a3781e99400b6a809
+review_date: 2026-09-26
+review_fingerprint: eb9804c99453dde05ae9e33e7f9ac34c0b0c0ecf8f95bb8ff76911cd88f22381
+routing_manifest_sha256: 659b8ff13d13221c591f0e893d5b850035994c447d6e8ab9f09ee4be1e7ebd4c
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 5
+- Records: 14
+- Selected: 6
 - POSS awaiting decision: 6
 - Excluded: 0
 - Hard pass: 2
@@ -55,15 +55,15 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/database-and-admissio
 action: 
 SELECTED | Hertfordshire | Rickmansworth, East of England, WD3 1HG | H9, Point 28 (Actual Salary £34,804 ) | Exams Officer
 employer: Saint Joan of Arc Catholic School
-closing_date: 2026-09-28T23:59:59+01:00
+closing_date: 2026-09-30T23:59:59+01:00
 reason: Clear admin/service title: exams officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 95364e097ccc2c395744bd8be3d0b2af0636db451adb51e8a375cc38a7351e18
+factual_fingerprint: 0795bc821374eadb701463c3ed097e2b8ddc3a70d093bb307b9bb7cc753cfa41
 source: Teaching Vacancies
-source_job_id: exams-officer-6f4c470f-3514-47b2-bee0-5c17421f7874
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-6f4c470f-3514-47b2-bee0-5c17421f7874
+source_job_id: exams-officer-11aba835-4586-4112-975b-4f8e3255dc66
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-11aba835-4586-4112-975b-4f8e3255dc66
 ---
 
 ---
@@ -94,6 +94,21 @@ factual_fingerprint: 24f16235cf52ba7217dfc92fcb615a53bb335656ea5da5abf9d398ab074
 source: Teaching Vacancies
 source_job_id: office-administrator-larwood-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-larwood-school
+---
+
+---
+action: 
+SELECTED | Hertfordshire | Royston, East of England, SG8 5QG | Salary to be paid on the Pay Spine for Professional, Administrative and Clerical Job Family Scale 2. | Office Administrator
+employer: Petersfield CofE Aided Primary School
+closing_date: 2026-10-12T09:00:00+01:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 633ee9623f2877bdc5fa75718934b7de2b66ca74d38a9b11754bc9dfb7d02c56
+source: Teaching Vacancies
+source_job_id: office-administrator-petersfield-cofe-aided-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-petersfield-cofe-aided-primary-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
