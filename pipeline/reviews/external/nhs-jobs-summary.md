@@ -2,11 +2,11 @@
 
 review_date: 2026-09-26
 
-- Open Administrative & Clerical rows reviewed: 2222
+- Open Administrative & Clerical rows reviewed: 2219
 - Auto/remembered selected: 410
 - Selected HC Tier A: 204
 - Selected HC Tier B: 206
-- POSS awaiting decision: 1688
+- POSS awaiting decision: 1685
 - Excluded: 0
 - HARD_PASS: 124
 
@@ -4762,18 +4762,6 @@ region: Hertfordshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9367-26-0917
 factual_fingerprint: 39f37c223333b945af30b92bd8c0e7d2de8c0c112545b36060a5a2d29fa668f5
----
-
----
-action:
-POSS | NHS Jobs | West Midlands - Coventry & Warwickshire | Coventry, CV3 3DG | £25760.00 to £27476.00 | Administrative Coordinator
-source_job_id: 5617804
-title: Administrative Coordinator
-employer: University Hospitals Coventry and Warwickshire NHS Trust
-region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9218-26-1163
-factual_fingerprint: 0e04a1fbd0dcee2b1bfdce773eb50cd9590edcd57c818688a42830a1701f124c
 ---
 
 ---
@@ -9806,18 +9794,6 @@ factual_fingerprint: 855f66f65551c6c61e4077580a2b098e6c993aadc3e05060bb27f436dc8
 
 ---
 action:
-POSS | NHS Jobs | Northamptonshire | Northampton, NN1 5BD | Negotiable | Northampton Emergency Department (A&E) Volunteer (Over 18s only)
-source_job_id: 5607915
-title: Northampton Emergency Department (A&E) Volunteer (Over 18s only)
-employer: Northampton General Hospital
-region: Northamptonshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9265-26-0630
-factual_fingerprint: d8c1b9583664f37d110fa0134693f00460299421e2d3fad90e7ffd058ce28203
----
-
----
-action:
 POSS | NHS Jobs | London | London, WC1N 1LE | £47951.00 to £56863.00 | EPR Credentialed Trainer
 source_job_id: 5611244
 title: EPR Credentialed Trainer
@@ -10738,18 +10714,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9309-26-0922
 factual_fingerprint: c18ed7ffe0b0e145425382e49d862d9dd149423d75b2bb9cace8b0db8e2e7e3e
----
-
----
-action:
-POSS | NHS Jobs | London | London, NW1 2BU | £38488.00 to £46852.00 | Administration Team Leader
-source_job_id: 5605934
-title: Administration Team Leader
-employer: University College London Hospitals NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9309-26-0923
-factual_fingerprint: d810894380e2136adb8539e733b0871df800e8f3ef5cdb7d77271470934f734a
 ---
 
 ---

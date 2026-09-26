@@ -678,6 +678,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107963757",
+    "title": "Care Coordinator",
+    "company": "Agincare Group - Agency - Permanent",
+    "location": "Hampshire",
+    "region": "Hampshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "28000",
+    "salary_max": "28000",
+    "salary_text": "£28000 per year",
+    "posted_date": "",
+    "description": "Package Description: Turn Your Organising Skills into Meaningful Impact\n\nPerhaps youre an experienced care professional ready for something new, or you have a background in workforce scheduling and would love to bring those skills into care.\n\nAt Agincare, we know great care starts with great coordination. Were looking for a Care Coordinator at our New Milton Branch who enjoys organising, problem-solvi click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?kjuUUj3TFp6HsI15914xgipKsUPGuZt1g",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Agincare Group",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "1858777",
     "title": "EHCP Coordinator",
     "company": "Aspire People Limited - Agency - Permanent",
@@ -743,7 +768,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-4042",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-4042",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5624270",
@@ -761,7 +790,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9188-26-0862",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9188-26-0862",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5608199",
@@ -779,7 +812,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0487",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0487",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5592877",
@@ -797,7 +834,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0465",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0465",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5586737",
@@ -815,7 +856,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M9301-26-0217",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M9301-26-0217",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5577957",
@@ -833,7 +878,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3415-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3415-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5620952",
@@ -851,6 +900,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-2064",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-2064",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

@@ -450,6 +450,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "108006035",
+    "title": "Sales Support Executive",
+    "company": "Usay Compare - Agency - Permanent",
+    "location": "Gloucestershire",
+    "region": "Gloucestershire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "About the Role\n\nThis role is perfect for someone who enjoys speaking with people, building rapport and helping customers understand their options. There is no cold calling, every customer you speak to has already shown interest in our services.\n\nYoull be the first point of contact for customers, providing friendly, professional support and transferring interested callers to our Sales Advisers click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?G%2b5YiGNoEgqXKyooGKW%2b8go2AFQQgvWDn",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Usay Compare",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5617075",
     "source": "NHS Jobs",
     "title": "Receptionist",
@@ -465,7 +490,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0782-26-0072",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0782-26-0072",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5590140",
@@ -483,7 +512,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1227-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1227-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5600422",
@@ -501,6 +534,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0772",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0772",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
