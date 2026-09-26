@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 34
+- Effective included jobs: 35
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 34
+- automatic include: 35
 - automatic review: 6
-- automatic exclude: 4
-- effective include: 34
+- automatic exclude: 5
+- effective include: 35
 - effective review: 6
-- effective exclude: 4
+- effective exclude: 5
 
-## INCLUDE (34)
+## INCLUDE (35)
 
 ---
 action: 
@@ -76,18 +76,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administrative Assistant
-company: Yorkmead Junior and Infant School
-location: Birmingham
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-yorkmead-junior-and-infant-school-birmingham-west-midlands
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Administrator (Payroll and Leadership Support)
 company: Swanshurst School
 location: Birmingham
@@ -105,6 +93,18 @@ company: Swanshurst School
 location: Birmingham
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrator-year-team-swanshurst-school
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Management Accountant
+company: Counted Recruitment - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-1915879
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -256,18 +256,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Inclusion House Content Officer
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-1916298
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: International Accounts Officer
 company: Robertson Bell - Agency - Permanent
 location: Birmingham
@@ -352,18 +340,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Office Administrator
-company: Yorkmead Junior and Infant School
-location: Birmingham
-source: Teaching Vacancies
-job_id: teaching-vacancies-office-administrator-yorkmead-junior-and-infant-school-birmingham-west-midlands
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Paralegal
 company: Kingsgate Recruitment Ltd - Agency - Permanent
 location: Birmingham
@@ -400,6 +376,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Post-Completion Administrator
+company: Reed - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2024287
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: PR Assistant
 company: LAW CHOICE RECRUITMENT - Agency - Permanent
 location: Birmingham
@@ -429,6 +417,30 @@ company: Proprec - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-2021377
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Temporary HR Administrator
+company: Katie Bard & Angela Mortimer Plc - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2028830
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Trusts & Grants Coordinator
+company: Fareshare Midlands - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2028750
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -506,7 +518,7 @@ job_id: teaching-vacancies-senior-administrator-bishop-vesey-s-grammar-school
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
-## EXCLUDE (4)
+## EXCLUDE (5)
 
 ---
 action: 
@@ -553,5 +565,17 @@ company: Mitchell Adam - Agency - Permanent
 location: Solihull
 source: JobG8
 job_id: jobg8-1873246
+reason: Separate exact-city market at launch.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: HR Administrator - Hybrid Role
+company: Katie Bard & Angela Mortimer Plc - Agency - Permanent
+location: Solihull
+source: JobG8
+job_id: jobg8-2026991
 reason: Separate exact-city market at launch.
 ---

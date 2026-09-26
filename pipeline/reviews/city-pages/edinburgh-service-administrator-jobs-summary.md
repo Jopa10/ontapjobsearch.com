@@ -4,8 +4,8 @@
 - Live route: `/edinburgh/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
-- Threshold currently met: yes
+- Effective included jobs: 5
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 1
+- automatic include: 5
+- automatic review: 2
 - automatic exclude: 0
-- effective include: 6
-- effective review: 1
+- effective include: 5
+- effective review: 2
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (5)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Robert Half - Agency - Permanent
 location: Edinburgh
 source: JobG8
 job_id: jobg8-1950171
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Dutch Speaking Customer Service Advisor
-company: Oyster Consultant - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-107916316
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -96,7 +84,7 @@ job_id: jobg8-1910106
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
-## REVIEW (1)
+## REVIEW (2)
 
 ---
 action: 
@@ -107,6 +95,18 @@ company: ICONIC RESOURCING LTD - Agency - Permanent
 location: Tranent
 source: JobG8
 job_id: jobg8-1950430
+reason: No approved Edinburgh catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Residential Conveyancing Paralegal
+company: Reed - Agency - Permanent
+location: North Berwick
+source: JobG8
+job_id: jobg8-2027323
 reason: No approved Edinburgh catchment rule matched; local review required.
 ---
 

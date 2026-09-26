@@ -512,11 +512,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Apprentice Admin Assistant - Level 2 FULL TIME
-company: Alwoodley Primary School
+title: Assistant Management Accountant
+company: Axon Moore Group Ltd - Agency - Permanent
+location: Wakefield
+source: JobG8
+job_id: jobg8-1874082
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Assistant Management Accountant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Leeds
-source: Teaching Vacancies
-job_id: teaching-vacancies-apprentice-admin-assistant-level-2-full-time
+source: JobG8
+job_id: jobg8-1860458
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Assistant Management Accountant
+company: Michael Page Finance - Agency - Permanent
+location: Wakefield
+source: JobG8
+job_id: jobg8-1873914
 reason: Separate employment market.
 ---
 
@@ -572,18 +596,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Business Support Officer
-company: Spring Grove Junior Infant and Nursery School
-location: Huddersfield
-source: Teaching Vacancies
-job_id: teaching-vacancies-business-support-officer-spring-grove-junior-infant-and-nursery-school-huddersfield-west-yorkshire
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Casualty Claims Handler
 company: Adjusting Appointments Limited - Agency - Permanent
 location: Leeds
@@ -613,18 +625,6 @@ company: Aston Charles Ltd - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-1927518
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Clerical Officer
-company: Leeds Teaching Hospitals
-location: Leeds, LS9 7TF
-source: NHS Jobs
-job_id: nhs-5594416
 reason: Separate employment market.
 ---
 
@@ -776,18 +776,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Distribution Coordinator
-company: Breedon Group plc - Company - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-1823573
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Finance Assistant - Purchase Ledger
 company: Kingdom People - Agency - Permanent
 location: Huddersfield
@@ -829,6 +817,18 @@ company: GGT Insolvency Recruitment - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-2014271
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Interim Assistant Accountant (6 month FTC)
+company: HW Finance - Agency - Permanent
+location: Wakefield
+source: JobG8
+job_id: jobg8-1936446
 reason: Separate employment market.
 ---
 

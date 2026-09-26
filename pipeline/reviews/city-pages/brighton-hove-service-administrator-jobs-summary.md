@@ -102,6 +102,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Accounts Administrator
+company: Travail Employment Group - Burgess Hill - Agency - Permanent
+location: East Grinstead
+source: JobG8
+job_id: jobg8-2027321
+reason: No approved Brighton & Hove catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Accounts Assistant
 company: Michael Page Finance - Agency - Permanent
 location: Lancing
@@ -120,18 +132,6 @@ location: Sussex
 source: JobG8
 job_id: jobg8-1906627
 reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator (Part Time)
-company: Practice Plus Group - Health in Justice
-location: Lewes, BN7 1EA
-source: NHS Jobs
-job_id: nhs-5599920
-reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
 ---
@@ -282,18 +282,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrative Assistant (Secondment Cover)
-company: Chichester College Group - Company - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-107978791
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR Administrator
 company: Southdown - Agency - Permanent
 location: Sussex
@@ -402,6 +390,18 @@ reason: No approved Brighton & Hove catchment rule matched; local review require
 action: 
 decision: review
 automatic_decision: review
+title: School Administrator
+company: Reed - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2023516
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Senior HR Administrator
 company: Michael Page Finance - Agency - Permanent
 location: Sussex
@@ -459,18 +459,6 @@ reason: Broad location; review before city inclusion.
 ---
 
 ## EXCLUDE (12)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administration Assistant
-company: Shinewater Primary School
-location: Eastbourne
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-shinewater-primary-school
-reason: Separate employment market.
----
 
 ---
 action: 
@@ -601,5 +589,17 @@ company: Sussex Partnership NHS Foundation Trust
 location: Chichester, PO19 1BX
 source: NHS Jobs
 job_id: nhs-5604706
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Ward Administrator
+company: Sussex Partnership NHS Foundation Trust
+location: Crawley, RH11 7EJ
+source: NHS Jobs
+job_id: nhs-5607501
 reason: Separate employment market.
 ---

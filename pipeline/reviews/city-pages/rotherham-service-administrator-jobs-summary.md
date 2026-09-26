@@ -4,7 +4,7 @@
 - Live route: `/rotherham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 18
+- automatic include: 3
+- automatic review: 22
 - automatic exclude: 0
-- effective include: 2
-- effective review: 18
+- effective include: 3
+- effective review: 22
 - effective exclude: 0
 
-## INCLUDE (2)
+## INCLUDE (3)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Accountant
+company: Elevation Recruitment Group - Agency - Permanent
+location: Rotherham
+source: JobG8
+job_id: jobg8-1949982
+reason: Exact approved Rotherham workplace.
+---
 
 ---
 action: 
@@ -48,7 +60,7 @@ job_id: teaching-vacancies-receptionist-saint-pius-x-catholic-high-school-a-spec
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (18)
+## REVIEW (22)
 
 ---
 action: 
@@ -78,11 +90,59 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Administrator
+company: Elysium Healthcare
+location: Barnsley, S71 4FL
+source: NHS Jobs
+job_id: nhs-5624848
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Reed - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-2024835
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Assistant Accountant
 company: IPS Group - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-1960387
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: Reed - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-1884402
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant / Finance Officer
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Barnsley
+source: JobG8
+job_id: jobg8-1871012
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

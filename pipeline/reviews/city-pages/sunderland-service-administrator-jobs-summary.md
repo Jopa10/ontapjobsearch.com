@@ -4,7 +4,7 @@
 - Live route: `/sunderland/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 46
+- automatic include: 2
+- automatic review: 45
 - automatic exclude: 0
-- effective include: 3
-- effective review: 46
+- effective include: 2
+- effective review: 45
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (2)
 
 ---
 action: 
@@ -40,18 +40,6 @@ reason: Exact approved Sunderland workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Business Support Administrator
-company: North East & North Cumbria ICB
-location: Sunderland, SR5 3XB
-source: NHS Jobs
-job_id: nhs-5619773
-reason: Exact approved Sunderland workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Lead Administrator
 company: Harry Watts Academy
 location: Sunderland
@@ -60,7 +48,19 @@ job_id: teaching-vacancies-lead-administrator-harry-watts-academy
 reason: Exact approved Sunderland workplace.
 ---
 
-## REVIEW (46)
+## REVIEW (45)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: 1st Line Service Desk Agent
+company: Cap Resourcing Ltd - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2024355
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -103,18 +103,6 @@ action:
 decision: review
 automatic_decision: review
 title: Accounts Receivable Assistant
-company: LANCESOFT LTD - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-1982454
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Receivable Assistant
 company: Randstad Perm Professionals - Agency - Permanent
 location: County Durham
 source: JobG8
@@ -126,11 +114,11 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Administrative Assistant - Level 1
-company: Newcastle City Council
-location: Lemington Riverside, Rokeby Street, Newcastle upon Tyne, NE15 8RR
-source: NEJobs
-job_id: nejobs-301338
+title: Administrative Assistant
+company: Northumbria Healthcare NHS Foundation Trust
+location: Wallsend, NE28 8QU
+source: NHS Jobs
+job_id: nhs-5623047
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -167,18 +155,6 @@ company: Bede Academy
 location: Blyth
 source: Teaching Vacancies
 job_id: teaching-vacancies-attendance-officer-administrator-bede-academy-blyth-northumberland
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Development Executive
-company: Independent Utility Advice - Agency - Permanent
-location: Newcastle Upon Tyne
-source: JobG8
-job_id: jobg8-107967240
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 

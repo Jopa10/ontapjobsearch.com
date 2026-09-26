@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 41
+- automatic review: 40
 - automatic exclude: 0
 - effective include: 10
-- effective review: 41
+- effective review: 40
 - effective exclude: 0
 
 ## INCLUDE (10)
@@ -144,7 +144,7 @@ job_id: teaching-vacancies-senior-administrator-st-paul-s-roman-catholic-primary
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (41)
+## REVIEW (40)
 
 ---
 action: 
@@ -510,18 +510,6 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: School Administrator
-company: Brunel School
-location: Paignton
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-administrator-brunel-school-paignton-devon
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: School Hub Administrator
 company: Cornerstone Academy Trust
 location: Exeter
@@ -539,18 +527,6 @@ company: Stansfield Academy
 location: Exeter
 source: Teaching Vacancies
 job_id: teaching-vacancies-senior-administrator-stansfield-academy-exeter-devon
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Administrator
-company: Royal Devon University Healthcare NHS Foundation Trust
-location: Exeter, EX2 5DW
-source: NHS Jobs
-job_id: nhs-5594406
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -611,6 +587,18 @@ company: Perfect Placement Uk Ltd - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-1912271
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Team Administrator
+company: Devon Partnership NHS Trust
+location: Exeter, EX1 3QS, TIVERTON, EX16 6NT
+source: NHS Jobs
+job_id: nhs-5525304
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 13
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
+- automatic include: 12
 - automatic review: 12
-- automatic exclude: 19
-- effective include: 13
+- automatic exclude: 15
+- effective include: 12
 - effective review: 12
-- effective exclude: 19
+- effective exclude: 15
 
-## INCLUDE (13)
+## INCLUDE (12)
 
 ---
 action: 
@@ -69,6 +69,18 @@ company: Chalgrove Community Primary School
 location: Oxford
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-chalgrove-community-primary-school
+reason: Approved conservative Oxford launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrative Assistant
+company: Oxford University Hospitals NHS Foundation Trust
+location: Headington, Oxford, OX3 9DU
+source: NHS Jobs
+job_id: nhs-5623981
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -136,11 +148,11 @@ reason: Approved conservative Oxford launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Finance Officer
-company: Michael Page Finance - Agency - Permanent
+title: Lead Generation & Marketing Executive
+company: Pertemps Specialist Division - Agency - Permanent
 location: Oxford
 source: JobG8
-job_id: jobg8-1860334
+job_id: jobg8-2026596
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -153,30 +165,6 @@ company: Oxford University Hospitals NHS Foundation Trust
 location: Oxford, OX3 9DU
 source: NHS Jobs
 job_id: nhs-5621723
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Procurement Administrator *Hybrid Role*
-company: River Learning Trust
-location: Oxford
-source: Teaching Vacancies
-job_id: teaching-vacancies-procurement-administrator-hybrid-role
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Ward Clerk
-company: Oxford University Hospitals NHS Foundation Trust
-location: Oxford, OX3 9DU
-source: NHS Jobs
-job_id: nhs-5620012
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -326,7 +314,7 @@ job_id: nhs-5577377
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (19)
+## EXCLUDE (15)
 
 ---
 action: 
@@ -373,18 +361,6 @@ company: Church Mission Society - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-1970218
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Content Creator
-company: Abingdon School - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-1868389
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -440,18 +416,6 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Digital Marketing Manager
-company: Church Mission Society - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-1972436
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Finance Officer - Receivables
 company: Reed - Agency - Permanent
 location: Oxfordshire
@@ -500,18 +464,6 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Marketing Manager
-company: Abingdon School - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-1859419
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Payroll Administrator
 company: Portfolio Payroll - Agency - Permanent
 location: Oxfordshire
@@ -541,17 +493,5 @@ company: The Recruitment Group - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-107946842
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Advisor
-company: The Solution Automotive Limited - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-107842072
 reason: Broad county location; not Oxford-city evidence.
 ---

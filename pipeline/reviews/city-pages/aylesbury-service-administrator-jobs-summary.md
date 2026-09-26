@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 38
+- automatic review: 36
 - automatic exclude: 0
 - effective include: 3
-- effective review: 38
+- effective review: 36
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: teaching-vacancies-school-administrator-chiltern-way-academy-trust
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (38)
+## REVIEW (36)
 
 ---
 action: 
@@ -155,18 +155,6 @@ company: Reed - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-1898015
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Communications and Marketing Manager
-company: Bucks Students Union - Agency - Permanent
-location: High Wycombe
-source: JobG8
-job_id: jobg8-1891738
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -306,6 +294,18 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Graduate Finance Assistant Accountant
+company: Robert Half - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-1932845
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Administrator
 company: wild recruitment - Agency - Permanent
 location: Milton Keynes
@@ -378,30 +378,6 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Operations Administrator (Maternity Cover)
-company: occy - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-338273623754984652837340
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Operations Administrator (Maternity Cover)
-company: occy - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-338273623754984652837341
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Part Time Payroll & HR
 company: Michael Page Finance - Agency - Permanent
 location: Milton Keynes
@@ -462,6 +438,18 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Purchasing Coordinator (MRP)
+company: Ernest Gordon Recruitment Limited - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225648958
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist
 company: Purbeck Health Centre
 location: Milton Keynes, MK14 6BL
@@ -479,18 +467,6 @@ company: Riverside Surgery
 location: High Wycombe, HP11 2RZ
 source: NHS Jobs
 job_id: nhs-5607494
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Residential Conveyancing Paralegal
-company: Quality Personnel Services Limited - Agency - Permanent
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-1899553
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

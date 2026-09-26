@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 30
+- Effective included jobs: 28
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 30
-- automatic review: 1
-- automatic exclude: 16
-- effective include: 30
-- effective review: 1
-- effective exclude: 16
+- automatic include: 28
+- automatic review: 2
+- automatic exclude: 17
+- effective include: 28
+- effective review: 2
+- effective exclude: 17
 
-## INCLUDE (30)
+## INCLUDE (28)
 
 ---
 action: 
@@ -57,6 +57,18 @@ company: EA FIRST LTD - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-1908887
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Bursary Support Administrator
+company: Randstad Education - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-2024943
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -153,30 +165,6 @@ company: Reed - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-1882412
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Administrator
-company: Pure Resourcing Solutions - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-1870766
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Assistant
-company: Pure Resourcing Solutions - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-1859976
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -372,19 +360,7 @@ job_id: jobg8-1875937
 reason: Approved conservative Cambridge launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Temporary Accounts Payable Clerk
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-1873312
-reason: Approved conservative Cambridge launch catchment.
----
-
-## REVIEW (1)
+## REVIEW (2)
 
 ---
 action: 
@@ -398,7 +374,19 @@ job_id: teaching-vacancies-finance-admin-assistant-priory-junior-school-st-neots
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (16)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Personal Assistant
+company: East of England Community Health and Care NHS Trust (Cambridge)
+location: St Ives, PE27 4LG
+source: NHS Jobs
+job_id: nhs-5610324
+reason: No approved Cambridge catchment rule matched; local review required.
+---
+
+## EXCLUDE (17)
 
 ---
 action: 
@@ -476,11 +464,23 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Assistant Administrator
-company: Cambridgeshire and Peterborough NHS Foundation Trust
-location: Peterborough, PE1 1HJ
-source: NHS Jobs
-job_id: nhs-5597120
+title: Assistant Accountant
+company: The One Group - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-1870876
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Assistant Management Accountant
+company: Heap & Co - Agency - Permanent
+location: Huntingdon
+source: JobG8
+job_id: jobg8-1893572
 reason: Separate employment market.
 ---
 

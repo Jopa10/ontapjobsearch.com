@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 38
+- automatic review: 39
 - automatic exclude: 0
 - effective include: 1
-- effective review: 38
+- effective review: 39
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: jobg8-1877352
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
-## REVIEW (38)
+## REVIEW (39)
 
 ---
 action: 
@@ -119,6 +119,30 @@ company: Vaccination UK
 location: Welwyn Garden City, AL71HH
 source: NHS Jobs
 job_id: nhs-5439405
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: Elevate Search Ltd - Agency - Permanent
+location: Hertford
+source: JobG8
+job_id: jobg8-1895594
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Management Accountant
+company: Reed - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-1898017
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -359,18 +383,6 @@ company: STORMX RECRUITMENT LIMITED - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-1939831
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing and Communications Manager
-company: IPSEA - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-2021809
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

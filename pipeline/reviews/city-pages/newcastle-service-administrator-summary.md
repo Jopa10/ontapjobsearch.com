@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 25
-- automatic exclude: 14
-- effective include: 10
-- effective review: 25
-- effective exclude: 14
+- automatic include: 8
+- automatic review: 27
+- automatic exclude: 12
+- effective include: 8
+- effective review: 27
+- effective exclude: 12
 
-## INCLUDE (10)
+## INCLUDE (8)
 
 ---
 action: 
@@ -33,30 +33,6 @@ company: Consult KA Ltd - Agency - Permanent
 location: Newcastle
 source: JobG8
 job_id: jobg8-1899187
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrative Assistant - Level 1
-company: Newcastle City Council
-location: Lemington Riverside, Rokeby Street, Newcastle upon Tyne, NE15 8RR
-source: NEJobs
-job_id: nejobs-301338
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Development Executive
-company: Independent Utility Advice - Agency - Permanent
-location: Newcastle Upon Tyne
-source: JobG8
-job_id: jobg8-107967240
 reason: Approved Newcastle catchment.
 ---
 
@@ -144,7 +120,19 @@ job_id: nhs-5598890
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (25)
+## REVIEW (27)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: 1st Line Service Desk Agent
+company: Cap Resourcing Ltd - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2024355
+reason: Broad location; review before city inclusion.
+---
 
 ---
 action: 
@@ -156,6 +144,18 @@ location: Tyne And Wear
 source: JobG8
 job_id: jobg8-1948440
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrative Assistant
+company: Northumbria Healthcare NHS Foundation Trust
+location: Wallsend, NE28 8QU
+source: NHS Jobs
+job_id: nhs-5623047
+reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
 ---
@@ -446,7 +446,7 @@ job_id: teaching-vacancies-school-support-roles-supervisory-assistant-administra
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
-## EXCLUDE (14)
+## EXCLUDE (12)
 
 ---
 action: 
@@ -457,18 +457,6 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-1884707
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Receivable Assistant
-company: LANCESOFT LTD - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-1982454
 reason: Separate employment market.
 ---
 
@@ -529,18 +517,6 @@ company: Tina Lacey Recruitment Ltd - Agency - Permanent
 location: Darlington
 source: JobG8
 job_id: jobg8-107973178
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Business Support Administrator
-company: North East & North Cumbria ICB
-location: Sunderland, SR5 3XB
-source: NHS Jobs
-job_id: nhs-5619773
 reason: Separate employment market.
 ---
 

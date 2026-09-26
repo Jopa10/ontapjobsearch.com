@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 18
+- automatic review: 19
 - automatic exclude: 0
 - effective include: 3
-- effective review: 18
+- effective review: 19
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: jobg8-1899049
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (18)
+## REVIEW (19)
 
 ---
 action: 
@@ -102,6 +102,18 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Assistant Accountant
+company: Oasis Business Personnel Ltd - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-1916146
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Claims Handler - insurance/property - hybrid following probation
 company: The Graduate - Agency - Permanent
 location: Northamptonshire
@@ -119,18 +131,6 @@ company: Bush and Company Rehabilitation - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-1875317
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Contract Administrator
-company: Manpower - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-1916599
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -215,6 +215,18 @@ company: Lakeside Healthcare Group
 location: Corby, NN17 1TY
 source: NHS Jobs
 job_id: nhs-5614974
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Assistant
+company: HR Recruit - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-2029255
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

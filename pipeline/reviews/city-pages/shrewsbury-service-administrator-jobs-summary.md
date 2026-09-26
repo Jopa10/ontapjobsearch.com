@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 10
+- automatic review: 9
 - automatic exclude: 0
 - effective include: 1
-- effective review: 10
+- effective review: 9
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: teaching-vacancies-administration-assistant-severndale-specialist-academ
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (10)
+## REVIEW (9)
 
 ---
 action: 
@@ -107,18 +107,6 @@ company: Bethphage - Agency - Permanent
 location: Shropshire
 source: JobG8
 job_id: jobg8-108012415
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Patient Services Advisor (Receptionist)
-company: Churchmere Medical Group
-location: Ellesmere, SY12 0DB, Whitchurch, SY13 1FQ
-source: NHS Jobs
-job_id: nhs-5590172
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

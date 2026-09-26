@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 15
-- automatic review: 36
+- automatic review: 35
 - automatic exclude: 0
 - effective include: 15
-- effective review: 36
+- effective review: 35
 - effective exclude: 0
 
 ## INCLUDE (15)
@@ -140,18 +140,6 @@ title: Service Administrator
 company: Royal Devon University Healthcare NHS Foundation Trust
 location: Exeter, EX2 5DW
 source: NHS Jobs
-job_id: nhs-5594406
-reason: Exact approved Exeter workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Administrator
-company: Royal Devon University Healthcare NHS Foundation Trust
-location: Exeter, EX2 5DW
-source: NHS Jobs
 job_id: nhs-5619976
 reason: Exact approved Exeter workplace.
 ---
@@ -186,6 +174,18 @@ decision: include
 automatic_decision: include
 title: Team Administrator
 company: Devon Partnership NHS Trust
+location: Exeter, EX1 3QS, TIVERTON, EX16 6NT
+source: NHS Jobs
+job_id: nhs-5525304
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Team Administrator
+company: Devon Partnership NHS Trust
 location: Exeter, EX2 5AF
 source: NHS Jobs
 job_id: nhs-5604784
@@ -204,7 +204,7 @@ job_id: jobg8-1877836
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (36)
+## REVIEW (35)
 
 ---
 action: 
@@ -575,18 +575,6 @@ company: Ivy Education Trust
 location: Teignmouth
 source: Teaching Vacancies
 job_id: teaching-vacancies-recruitment-and-people-services-administrator
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: School Administrator
-company: Brunel School
-location: Paignton
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-administrator-brunel-school-paignton-devon
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

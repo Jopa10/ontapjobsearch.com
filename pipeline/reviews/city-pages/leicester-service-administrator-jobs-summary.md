@@ -4,7 +4,7 @@
 - Live route: `/leicester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 15
+- automatic include: 8
+- automatic review: 16
 - automatic exclude: 0
-- effective include: 7
-- effective review: 15
+- effective include: 8
+- effective review: 16
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (8)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administration Assistant
+company: Leicestershire Partnership NHS Trust
+location: Leicester, LE3 0QU
+source: NHS Jobs
+job_id: nhs-5624672
+reason: Exact approved Leicester workplace.
+---
 
 ---
 action: 
@@ -108,7 +120,7 @@ job_id: teaching-vacancies-senior-administrator-exams-data
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (15)
+## REVIEW (16)
 
 ---
 action: 
@@ -251,6 +263,18 @@ company: Counted Recruitment - Agency - Permanent
 location: Coalville
 source: JobG8
 job_id: jobg8-1938574
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Private Client Paralegal, Excellent Progression, Market Harborough, Leicestershire - Hybrid Working
+company: qed legal - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-2026724
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

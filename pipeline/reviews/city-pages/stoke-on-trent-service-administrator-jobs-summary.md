@@ -4,7 +4,7 @@
 - Live route: `/stoke-on-trent/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 21
+- automatic include: 2
+- automatic review: 24
 - automatic exclude: 0
-- effective include: 3
-- effective review: 21
+- effective include: 2
+- effective review: 24
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (2)
 
 ---
 action: 
@@ -40,18 +40,6 @@ reason: Exact approved Stoke-on-trent workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Finance Administrator
-company: St Margaret Ward Catholic Academy
-location: Stoke-on-Trent
-source: Teaching Vacancies
-job_id: teaching-vacancies-finance-administrator-st-margaret-ward-catholic-academy
-reason: Exact approved Stoke-on-trent workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: HR Assistant
 company: GXO Logistics - Company - Permanent
 location: Stoke-On-Trent
@@ -60,7 +48,7 @@ job_id: jobg8-1897879
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (21)
+## REVIEW (24)
 
 ---
 action: 
@@ -92,6 +80,18 @@ decision: review
 automatic_decision: review
 title: Administrator
 company: Midlands Partnership NHS Foundation Trust
+location: Longton, Stoke on Trent, ST3 4QX
+source: NHS Jobs
+job_id: nhs-5606228
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Midlands Partnership NHS Foundation Trust
 location: Burslem, Stoke-on-Trent, ST6 7AG
 source: NHS Jobs
 job_id: nhs-5609313
@@ -114,6 +114,18 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
+title: Assistant Accountant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-1950276
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Casualty Claims Handler
 company: Adjusting Appointments Limited - Agency - Permanent
 location: Staffordshire
@@ -126,11 +138,11 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: EL/PL Liability Claims Handler
-company: Davies Group - Agency - Permanent
-location: Staffordshire
+title: Finance Assistant (Part-Time)
+company: LHH Recruitment Solutions - Agency - Permanent
+location: Uttoxeter
 source: JobG8
-job_id: jobg8-1886352
+job_id: jobg8-1885622
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -138,11 +150,23 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant (Part-Time)
-company: LHH Recruitment Solutions - Agency - Permanent
-location: Uttoxeter
+title: Graduate assistant accountant
+company: SME Graduate Employment Ltd - Agency - Permanent
+location: Staffordshire
 source: JobG8
-job_id: jobg8-1885622
+job_id: jobg8-1895507
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Administrator
+company: Turner & Voce Limited - Agency - Permanent
+location: Rugeley
+source: JobG8
+job_id: jobg8-108005589
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

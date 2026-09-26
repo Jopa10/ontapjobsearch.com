@@ -1,5 +1,4 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
-include,teaching-vacancies-business-support-officer-spring-grove-junior-infant-and-nursery-school-huddersfield-west-yorkshire,Business Support Officer,Spring Grove Junior Infant and Nursery School,Huddersfield,Teaching Vacancies,include,include,Approved Huddersfield catchment.,huddersfield,huddersfield-service-administrator-jobs
 include,teaching-vacancies-data-and-exams-administrator-moor-end-academy,Data and Exams Administrator,Moor End Academy,Huddersfield,Teaching Vacancies,include,include,Approved Huddersfield catchment.,huddersfield,huddersfield-service-administrator-jobs
 include,jobg8-1924718,Finance Assistant - Purchase Ledger,Kingdom People - Agency - Permanent,Huddersfield,JobG8,include,include,Approved Huddersfield catchment.,huddersfield,huddersfield-service-administrator-jobs
 include,jobg8-1937623,HR Coordinator / Advisor,Hays Specialist Recruitment Limited - Agency - Permanent,Huddersfield,JobG8,include,include,Approved Huddersfield catchment.,huddersfield,huddersfield-service-administrator-jobs
@@ -37,7 +36,9 @@ exclude,teaching-vacancies-administrative-assistant-outwood-grange-academies-tru
 exclude,nhs-5486478,Administrator,New Otley Road Medical Practice - Hillside Bridge,"Bradford, BD3 0BS, BRADFORD, BD8 9DW",NHS Jobs,exclude,exclude,Separate employment market.,bradford,huddersfield-service-administrator-jobs
 exclude,nhs-5603778,Administrator,Practice Plus Group - Health in Justice,"Leeds, LS12 2TJ",NHS Jobs,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,teaching-vacancies-administrator-37,Administrator - 37,Co-op Academy Grange,Bradford,Teaching Vacancies,exclude,exclude,Separate employment market.,bradford,huddersfield-service-administrator-jobs
-exclude,teaching-vacancies-apprentice-admin-assistant-level-2-full-time,Apprentice Admin Assistant - Level 2 FULL TIME,Alwoodley Primary School,Leeds,Teaching Vacancies,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
+exclude,jobg8-1874082,Assistant Management Accountant,Axon Moore Group Ltd - Agency - Permanent,Wakefield,JobG8,exclude,exclude,Separate employment market.,wakefield,huddersfield-service-administrator-jobs
+exclude,jobg8-1860458,Assistant Management Accountant,Hays Specialist Recruitment Limited - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
+exclude,jobg8-1873914,Assistant Management Accountant,Michael Page Finance - Agency - Permanent,Wakefield,JobG8,exclude,exclude,Separate employment market.,wakefield,huddersfield-service-administrator-jobs
 exclude,jobg8-107993362,Bid Coordinator,Ridge & Partners LLP - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-1892117,Billing & Finance Assistant,Michael Page Finance - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-1948585,Bookkeeper,Bennett & Game Recruitment - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
@@ -45,7 +46,6 @@ exclude,jobg8-1951245,Bookkeeper / Accounts Assistant,BC Financial Search Ltd - 
 exclude,jobg8-1906594,Casualty Claims Handler,Adjusting Appointments Limited - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-1939820,Claims Handler,Grace Fredericks Recruitment - Agency - Permanent,Halifax,JobG8,exclude,exclude,Separate employment market.,halifax,huddersfield-service-administrator-jobs
 exclude,jobg8-1927518,Claims Handler (Top Insurance Company),Aston Charles Ltd - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
-exclude,nhs-5594416,Clerical Officer,Leeds Teaching Hospitals,"Leeds, LS9 7TF",NHS Jobs,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,nhs-5619618,Clerical Officer,Leeds Teaching Hospitals,"Leeds, LS9 7TF",NHS Jobs,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-1889757,Commercial Claims Handler,Insure Recruitment - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-1927524,Commercial Claims Handler (Personal Lines Handlers Considered!),Aston Charles Ltd - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
@@ -58,10 +58,10 @@ exclude,jobg8-1873668,Credit Controller,Synergem Recruitment - Agency - Permanen
 exclude,jobg8-1914030,Credit Controller (US HOURS),Elevation Recruitment Group - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,teaching-vacancies-data-administrator-the-north-halifax-grammar-school-halifax-west-yorkshire,Data Administrator,The North Halifax Grammar School,Halifax,Teaching Vacancies,exclude,exclude,Separate employment market.,halifax,huddersfield-service-administrator-jobs
 exclude,teaching-vacancies-deputy-pa-receptionist-bradford-diocesan-academies-trust-bradford-not-recorded,Deputy PA / Receptionist,Bradford Diocesan Academies Trust,Bradford,Teaching Vacancies,exclude,exclude,Separate employment market.,bradford,huddersfield-service-administrator-jobs
-exclude,jobg8-1823573,Distribution Coordinator,Breedon Group plc - Company - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-1907455,Finance Assistant with AAT Study Support,Axon Moore Group Ltd - Agency - Permanent,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,huddersfield-service-administrator-jobs
 exclude,jobg8-1881992,HR Onboarding Coordinator,Avencia Consulting - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-2014271,Insolvency Case Administrator,GGT Insolvency Recruitment - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
+exclude,jobg8-1936446,Interim Assistant Accountant (6 month FTC),HW Finance - Agency - Permanent,Wakefield,JobG8,exclude,exclude,Separate employment market.,wakefield,huddersfield-service-administrator-jobs
 exclude,jobg8-1900864,Interim Finance Officer,Robertson Bell - Agency - Permanent,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,huddersfield-service-administrator-jobs
 exclude,jobg8-1936709,Interim OTC Cash Office Assistant,Marks Sattin - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-107995853,Maintenance Service Coordinator,Interaction - Leeds - Agency - Permanent,Wakefield,JobG8,exclude,exclude,Separate employment market.,wakefield,huddersfield-service-administrator-jobs

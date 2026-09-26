@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 34
+- Effective included jobs: 33
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 34
-- automatic review: 11
-- automatic exclude: 1
-- effective include: 34
-- effective review: 11
-- effective exclude: 1
+- automatic include: 33
+- automatic review: 9
+- automatic exclude: 2
+- effective include: 33
+- effective review: 9
+- effective exclude: 2
 
-## INCLUDE (34)
+## INCLUDE (33)
 
 ---
 action: 
@@ -208,18 +208,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Finance Assistant
-company: Core 3 Ltd - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-108025527
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Finance Billing Coordinator
 company: HFT - Agency - Permanent
 location: Bristol
@@ -244,23 +232,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Interim Part Time Finance Assistant
-company: Hays Specialist Recruitment Limited - Agency - Permanent
+title: Litigated EL/PL Claims Handler
+company: Keoghs LLP - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-1899302
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: IT Co-ordinator
-company: Framatome Limited - Company - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-1819615
+job_id: jobg8-1961953
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -285,6 +261,18 @@ company: Michael Page Finance - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-1949326
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Patent Paralegal (c&;40,000) - Bristol
+company: Dawn Ellmore Employment Agency - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-1860141
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -328,11 +316,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Personal Injury Paralegal
-company: Yolk Recruitment Ltd - Agency - Permanent
+title: Peripatetic Service Coordinator - Mental Health
+company: Milestones Trust - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-1895650
+job_id: jobg8-2028810
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -340,11 +328,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Hanham Health
-location: Bristol, BS32 4DS, BRISTOL, BS35 4JF
-source: NHS Jobs
-job_id: nhs-5588442
+title: Personal Injury Paralegal
+company: Yolk Recruitment Ltd - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-1895650
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -365,10 +353,10 @@ action:
 decision: include
 automatic_decision: include
 title: Sales and Partnerships Coordinator
-company: NFP People - Agency - Permanent
+company: Not For Profit People - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-107909264
+job_id: jobg8-1821573
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -376,11 +364,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Sales and Partnerships Coordinator
-company: Not For Profit People - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-1821573
+title: Senior Administrator
+company: Sirona care & health CIC
+location: Henbury, Bristol, BS10 7EH
+source: NHS Jobs
+job_id: nhs-5593198
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -432,7 +420,7 @@ job_id: jobg8-1960385
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (11)
+## REVIEW (9)
 
 ---
 action: 
@@ -479,18 +467,6 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Somerset
 source: JobG8
 job_id: jobg8-1895536
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Interim Billing Assistant
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-1957612
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
@@ -554,19 +530,7 @@ job_id: jobg8-1952001
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Patent Paralegal (c&;40,000) - Bristol
-company: Dawn Ellmore Employment Agency - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-1860141
-reason: No approved Bristol catchment rule matched; local review required.
----
-
-## EXCLUDE (1)
+## EXCLUDE (2)
 
 ---
 action: 
@@ -577,5 +541,17 @@ company: Henlee Resourcing & Consulting Ltd - Agency - Permanent
 location: Bath
 source: JobG8
 job_id: jobg8-1928936
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Workforce Development Administrator
+company: Adecco - Agency - Permanent
+location: Bath
+source: JobG8
+job_id: jobg8-2027908
 reason: Separate employment market.
 ---

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 20
+- automatic review: 22
 - automatic exclude: 0
 - effective include: 2
-- effective review: 20
+- effective review: 22
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -40,15 +40,15 @@ reason: Exact approved Bournemouth workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Front of House / Customer Service Staff
-company: PLANETARIUM GO UK LIMITED - Agency - Permanent
-location: Bournemouth
-source: JobG8
-job_id: jobg8-425719102925963264037340
+title: Receptionist - Bank
+company: Avery Healthcare Group Ltd.
+location: Bournemouth, BH4 9DR
+source: NHS Jobs
+job_id: nhs-5591331
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (20)
+## REVIEW (22)
 
 ---
 action: 
@@ -95,6 +95,18 @@ company: Agincare Group - Agency - Permanent
 location: Weymouth
 source: JobG8
 job_id: jobg8-107992811
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Management Accountant
+company: CMA Recruitment Group - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-1867646
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -239,6 +251,18 @@ company: Rubicon Recruitment - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225635774
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchasing Coordinator (MRP/Logistics)
+company: Ernest Gordon Recruitment Limited - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225649037
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

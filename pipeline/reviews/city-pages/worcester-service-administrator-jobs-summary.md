@@ -16,25 +16,25 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 7
+- automatic review: 8
 - automatic exclude: 0
 - effective include: 0
-- effective review: 7
+- effective review: 8
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (7)
+## REVIEW (8)
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: Herefordshire and Worcestershire Health and Care NHS Trust
-location: Kidderminster, DY10 1PG
+title: Administration Assistant
+company: Pershore Medical Practice
+location: Pershore, WR10 1PX
 source: NHS Jobs
-job_id: nhs-5621451
+job_id: nhs-5623875
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -47,6 +47,18 @@ company: Tenbury High Ormiston Academy
 location: Tenbury Wells
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrator-send-department-tenbury-high-ormiston-academy
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: Trinity House Group - Agency - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-1939043
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

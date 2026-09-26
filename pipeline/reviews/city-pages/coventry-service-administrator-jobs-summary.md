@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
+- automatic include: 5
 - automatic review: 2
 - automatic exclude: 23
-- effective include: 4
+- effective include: 5
 - effective review: 2
 - effective exclude: 23
 
-## INCLUDE (4)
+## INCLUDE (5)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Mitchell Adam - Agency - Permanent
 location: Coventry
 source: JobG8
 job_id: jobg8-1874877
+reason: Approved Coventry catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Management Accountant
+company: 3 Point Recruitment - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-1912347
 reason: Approved Coventry catchment.
 ---
 
@@ -200,6 +212,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Conveyancing Legal Assistant
+company: G2 Legal Limited - Agency - Permanent
+location: Leamington Spa
+source: JobG8
+job_id: jobg8-2024649
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Conveyancing Paralegal
 company: Reed - Agency - Permanent
 location: Leamington Spa
@@ -289,18 +313,6 @@ company: Station Street Surgery
 location: Nuneaton, CV11 6HH
 source: NHS Jobs
 job_id: nhs-5602211
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: HR Assistant
-company: Dudley Lodge - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-1859027
 reason: Separate employment market.
 ---
 

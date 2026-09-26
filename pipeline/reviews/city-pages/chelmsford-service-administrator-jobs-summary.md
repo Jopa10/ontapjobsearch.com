@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 82
+- automatic review: 84
 - automatic exclude: 0
 - effective include: 9
-- effective review: 82
+- effective review: 84
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -132,7 +132,7 @@ job_id: jobg8-1956210
 reason: Exact approved Chelmsford workplace.
 ---
 
-## REVIEW (82)
+## REVIEW (84)
 
 ---
 action: 
@@ -323,6 +323,42 @@ company: Express Staffing Ltd - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-1927411
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant - Accounts Practice
+company: Executive Talent Solutions - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-1867977
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Management Accountant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-1929320
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Management Accountant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-1948920
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -786,6 +822,18 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Paralegal
+company: Jonathan Lee Recruitment - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-2026601
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Paralegal - Conveyancing
 company: REED - Agency - Permanent
 location: Essex
@@ -995,30 +1043,6 @@ company: REED - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-1938377
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: Cibosano Ltd - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-745249606439062732837340
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: Cibosano Ltd - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-745249606439062732837341
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

@@ -1,11 +1,16 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
+include,nhs-5624848,Administrator,Elysium Healthcare,"Barnsley, S71 4FL",NHS Jobs,include,include,Approved Barnsley catchment.,barnsley,barnsley-service-administrator-jobs
+include,jobg8-1871012,Assistant Accountant / Finance Officer,Hays Specialist Recruitment Limited - Agency - Permanent,Barnsley,JobG8,include,include,Approved Barnsley catchment.,barnsley,barnsley-service-administrator-jobs
 include,jobg8-1908708,Finance Assistant,PRATAP PARTNERSHIP LTD - Agency - Permanent,Barnsley,JobG8,include,include,Approved Barnsley catchment.,barnsley,barnsley-service-administrator-jobs
 include,jobg8-1899397,Recruitment Account Coordinator,Staffline Recruitment Limited - Agency - Permanent,Barnsley,JobG8,include,include,Approved Barnsley catchment.,barnsley,barnsley-service-administrator-jobs
 review,jobg8-1948871,Payroll Officer,Marks Sattin - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Barnsley catchment rule matched; local review required.,fallback,barnsley-service-administrator-jobs
 review,jobg8-1933458,Purchase Ledger Clerk,PRATAP PARTNERSHIP LTD - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Barnsley catchment rule matched; local review required.,fallback,barnsley-service-administrator-jobs
 exclude,jobg8-1959767,Accounts Assistant,Sharp Consultancy - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,teaching-vacancies-admin-assistant-part-time-18-hrs,Admin Assistant - Part Time - 18 hrs,Totley All Saints Church of England Voluntary Aided Primary School,Sheffield,Teaching Vacancies,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
+exclude,jobg8-2024835,Administrator,Reed - Agency - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
+exclude,jobg8-1949982,Assistant Accountant,Elevation Recruitment Group - Agency - Permanent,Rotherham,JobG8,exclude,exclude,Separate employment market.,rotherham,barnsley-service-administrator-jobs
 exclude,jobg8-1960387,Assistant Accountant,IPS Group - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
+exclude,jobg8-1884402,Assistant Accountant,Reed - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-1905225,Credit Control / Accounts Assistant,Shillito Group - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-20279_62308-153faf593eb64b88272f45adeaa28d87,Customer Service Advisor,EE - Company - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
 exclude,jobg8-1877335,Facilities Coordinator,Adecco - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 54
+- automatic review: 55
 - automatic exclude: 0
 - effective include: 2
-- effective review: 54
+- effective review: 55
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: jobg8-1927556
 reason: Exact approved Farnham workplace.
 ---
 
-## REVIEW (54)
+## REVIEW (55)
 
 ---
 action: 
@@ -162,11 +162,35 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Assistant Accountant - FTC
+company: Michael Page Finance - Agency - Permanent
+location: Guildford
+source: JobG8
+job_id: jobg8-1912704
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Assistant Management Accountant
 company: Reed - Agency - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-1871521
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Management Accountant - with study support
+company: Kenneth Brian Associates Limited - Agency - Permanent
+location: Camberley
+source: JobG8
+job_id: jobg8-1857179
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -383,18 +407,6 @@ company: Optima Recruitment - Agency - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-1909852
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Housing Administrator -30 hours per week
-company: Field Lane - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-2013874
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 

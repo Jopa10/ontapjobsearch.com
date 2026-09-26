@@ -16,37 +16,13 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 20
-- automatic review: 4
+- automatic review: 3
 - automatic exclude: 0
 - effective include: 20
-- effective review: 4
+- effective review: 3
 - effective exclude: 0
 
 ## INCLUDE (20)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Adaptable Recruitment - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-1860714
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts assistant
-company: Nigel Wright Group - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-1907658
-reason: Approved conservative Liverpool launch catchment.
----
 
 ---
 action: 
@@ -124,6 +100,18 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Employment Advisor/Paralegal
+company: Michael Page Legal - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-1885635
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Enforcement Paralegal - Debt Recovery
 company: Standard 8 - Agency - Permanent
 location: Liverpool
@@ -141,6 +129,18 @@ company: Recruitment Solutions (North West) Ltd - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-1934062
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
+company: X1 Lettings - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-2027305
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -264,19 +264,7 @@ job_id: jobg8-1884412
 reason: Approved conservative Liverpool launch catchment.
 ---
 
-## REVIEW (4)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Employment Advisor/Paralegal
-company: Michael Page Legal - Agency - Permanent
-location: Merseyside
-source: JobG8
-job_id: jobg8-1885635
-reason: Broad county location; review before Liverpool inclusion.
----
+## REVIEW (3)
 
 ---
 action: 

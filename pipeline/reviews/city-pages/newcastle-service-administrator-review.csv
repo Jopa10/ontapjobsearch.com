@@ -1,7 +1,5 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-1899187,Accounts Assistant,Consult KA Ltd - Agency - Permanent,Newcastle,JobG8,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
-include,nejobs-301338,Administrative Assistant - Level 1,Newcastle City Council,"Lemington Riverside, Rokeby Street, Newcastle upon Tyne, NE15 8RR",NEJobs,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
-include,jobg8-107967240,Business Development Executive,Independent Utility Advice - Agency - Permanent,Newcastle Upon Tyne,JobG8,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
 include,nhs-5541887,Home Administrator,Akari Care Limited,"Newcastle, NE5 5HQ",NHS Jobs,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
 include,nhs-5577937,Home Administrator,Akari Care Limited,"Gateshead, NE8 1QU",NHS Jobs,include,include,Approved Newcastle catchment.,gateshead,newcastle-service-administrator
 include,nhs-5610574,Home Administrator,Akari Care Limited,"Newcastle, NE5 5HQ",NHS Jobs,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
@@ -9,7 +7,9 @@ include,jobg8-1927962,Housing Coordinator,TPP Recruitment - Agency - Permanent,N
 include,jobg8-1874719,Invoicing Administrator,Adecco - Agency - Permanent,Newcastle,JobG8,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
 include,jobg8-108026899,Motor Claims Handler,Xpert Recruitment Solutions Limited - Agency - Permanent,Newcastle,JobG8,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
 include,nhs-5598890,Receptionist / Administrator,Glenpark Medical Practice,"Gateshead, NE11 9FJ, GATESHEAD, NE8 2PQ",NHS Jobs,include,include,Approved Newcastle catchment.,gateshead,newcastle-service-administrator
+review,jobg8-2024355,1st Line Service Desk Agent,Cap Resourcing Ltd - Agency - Permanent,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
 review,jobg8-1948440,Accounts Payable Assistant,Nigel Wright Group - Agency - Permanent,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
+review,nhs-5623047,Administrative Assistant,Northumbria Healthcare NHS Foundation Trust,"Wallsend, NE28 8QU",NHS Jobs,review,review,No approved Newcastle catchment rule matched; local review required.,fallback,newcastle-service-administrator
 review,teaching-vacancies-attendance-officer-administrator-bede-academy-blyth-northumberland,Attendance Officer & Administrator,Bede Academy,Blyth,Teaching Vacancies,review,review,No approved Newcastle catchment rule matched; local review required.,fallback,newcastle-service-administrator
 review,jobg8-1906595,Casualty Claims Handler,Adjusting Appointments Limited - Agency - Permanent,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
 review,jobg8-1950434,Client Engagement Administrator,Finlink Ltd - Agency - Permanent,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
@@ -35,13 +35,11 @@ review,jobg8-1916042,Purchase Ledger Clerk,Adecco - Agency - Permanent,Tyne And 
 review,jobg8-1884416,Remote Conveyancing Paralegal,LEGAL TALENT PARTNERS LIMITED - Agency - Permanent,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
 review,teaching-vacancies-school-support-roles-supervisory-assistant-administrative-assistant,School Support Roles - Supervisory Assistant & Administrative Assistant,St Peter's Church of England Primary School,Wallsend,Teaching Vacancies,review,review,No approved Newcastle catchment rule matched; local review required.,fallback,newcastle-service-administrator
 exclude,jobg8-1884707,Accounts Assistant,Ernest Gordon Recruitment Limited - Agency - Permanent,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
-exclude,jobg8-1982454,Accounts Receivable Assistant,LANCESOFT LTD - Agency - Permanent,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,jobg8-1961052,Accounts Receivable Assistant,Randstad Perm Professionals - Agency - Permanent,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,nejobs-301544,Administrator,Age UK County Durham,Age UK County Durham,NEJobs,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,nhs-5614776,Administrator,Moorlands Surgery,"Darlington, DL3 9JP",NHS Jobs,exclude,exclude,Separate employment market.,darlington,newcastle-service-administrator
 exclude,nhs-5602108,Administrator,South Tyneside and Sunderland NHS Foundation Trust,"SUNDERLAND, SR2 8PL, GATESHEAD, NE10 8DX, SOUTH SHIELDS, NE34 8PS",NHS Jobs,exclude,exclude,Separate employment market.,sunderland,newcastle-service-administrator
 exclude,jobg8-107973178,Business Development Executive,Tina Lacey Recruitment Ltd - Agency - Permanent,Darlington,JobG8,exclude,exclude,Separate employment market.,darlington,newcastle-service-administrator
-exclude,nhs-5619773,Business Support Administrator,North East & North Cumbria ICB,"Sunderland, SR5 3XB",NHS Jobs,exclude,exclude,Separate employment market.,sunderland,newcastle-service-administrator
 exclude,jobg8-1950247,Finance Assistant,Ernest Gordon Recruitment Limited - Agency - Permanent,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,teaching-vacancies-lead-administrator-harry-watts-academy,Lead Administrator,Harry Watts Academy,Sunderland,Teaching Vacancies,exclude,exclude,Separate employment market.,sunderland,newcastle-service-administrator
 exclude,jobg8-1869910,Marketing Manager,Ronald James - Agency - Permanent,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator

@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 36
+- Effective included jobs: 34
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 36
+- automatic include: 34
 - automatic review: 25
-- automatic exclude: 23
-- effective include: 36
+- automatic exclude: 25
+- effective include: 34
 - effective review: 25
-- effective exclude: 23
+- effective exclude: 25
 
-## INCLUDE (36)
+## INCLUDE (34)
 
 ---
 action: 
@@ -52,11 +52,11 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Apprentice Admin Assistant - Level 2 FULL TIME
-company: Alwoodley Primary School
+title: Assistant Management Accountant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Leeds
-source: Teaching Vacancies
-job_id: teaching-vacancies-apprentice-admin-assistant-level-2-full-time
+source: JobG8
+job_id: jobg8-1860458
 reason: Approved Leeds catchment.
 ---
 
@@ -129,18 +129,6 @@ company: Aston Charles Ltd - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-1927518
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Clerical Officer
-company: Leeds Teaching Hospitals
-location: Leeds, LS9 7TF
-source: NHS Jobs
-job_id: nhs-5594416
 reason: Approved Leeds catchment.
 ---
 
@@ -249,18 +237,6 @@ company: Elevation Recruitment Group - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-1914030
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Distribution Coordinator
-company: Breedon Group plc - Company - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-1823573
 reason: Approved Leeds catchment.
 ---
 
@@ -758,7 +734,7 @@ job_id: jobg8-1960756
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
-## EXCLUDE (23)
+## EXCLUDE (25)
 
 ---
 action: 
@@ -812,11 +788,23 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Business Support Officer
-company: Spring Grove Junior Infant and Nursery School
-location: Huddersfield
-source: Teaching Vacancies
-job_id: teaching-vacancies-business-support-officer-spring-grove-junior-infant-and-nursery-school-huddersfield-west-yorkshire
+title: Assistant Management Accountant
+company: Axon Moore Group Ltd - Agency - Permanent
+location: Wakefield
+source: JobG8
+job_id: jobg8-1874082
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Assistant Management Accountant
+company: Michael Page Finance - Agency - Permanent
+location: Wakefield
+source: JobG8
+job_id: jobg8-1873914
 reason: Separate employment market.
 ---
 
@@ -913,6 +901,18 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Huddersfield
 source: JobG8
 job_id: jobg8-1937623
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Interim Assistant Accountant (6 month FTC)
+company: HW Finance - Agency - Permanent
+location: Wakefield
+source: JobG8
+job_id: jobg8-1936446
 reason: Separate employment market.
 ---
 

@@ -1,5 +1,6 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-1874877,Accounts Assistant,Mitchell Adam - Agency - Permanent,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
+include,jobg8-1912347,Assistant Management Accountant,3 Point Recruitment - Agency - Permanent,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 include,jobg8-1916346,Part Time Website Content Coordinator,THE RECRUITMENT DUO - Agency - Permanent,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 include,jobg8-1909613,Payroll Administrator,James Gray Associates - Agency - Permanent,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 include,nhs-5616059,Ward Clerk,University Hospitals Coventry and Warwickshire NHS Trust,"Coventry, CV2 2DX",NHS Jobs,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
@@ -13,6 +14,7 @@ exclude,jobg8-1891794,Accounts Payable Clerk,Trinity House Group - Agency - Perm
 exclude,teaching-vacancies-administration-assistant-23d0b4b5-47f8-416c-924d-d887471e9a01,Administration Assistant,Evergreen School,Warwick,Teaching Vacancies,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-1916505,Billing Operations Administrator,Manpower - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-1916611,Cash Allocation Administrator,Manpower - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
+exclude,jobg8-2024649,Conveyancing Legal Assistant,G2 Legal Limited - Agency - Permanent,Leamington Spa,JobG8,exclude,exclude,Separate employment market.,leamington,coventry-service-administrator-jobs
 exclude,jobg8-1915604,Conveyancing Paralegal,Reed - Agency - Permanent,Leamington Spa,JobG8,exclude,exclude,Separate employment market.,leamington,coventry-service-administrator-jobs
 exclude,jobg8-1915624,Conveyancing Paralegal,Reed - Agency - Permanent,Leamington Spa,JobG8,exclude,exclude,Separate employment market.,leamington,coventry-service-administrator-jobs
 exclude,jobg8-1842482,Customer Service Advisor,RA Bennett - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
@@ -21,7 +23,6 @@ exclude,jobg8-1906045,Finance Assistant,Gleeson Recruitment Group - Agency - Per
 exclude,jobg8-1895750,Finance Assistant,Thefutureworks - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-1868210,Finance Support Officer,3 Point Recruitment - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,nhs-5602211,GP Surgery Receptionist,Station Street Surgery,"Nuneaton, CV11 6HH",NHS Jobs,exclude,exclude,Separate employment market.,nuneaton,coventry-service-administrator-jobs
-exclude,jobg8-1859027,HR Assistant,Dudley Lodge - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-1957746,Immediate Start Accounts Payable Assistant,Mitchell Adam - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-1933589,Insolvency Administrator Coventry,Ambition Europe Limited - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,nhs-4151642,MEDICAL RECEPTIONIST,Valley Road Medical Practice,"Leamington Spa, CV32 7SJ",NHS Jobs,exclude,exclude,Separate employment market.,leamington,coventry-service-administrator-jobs

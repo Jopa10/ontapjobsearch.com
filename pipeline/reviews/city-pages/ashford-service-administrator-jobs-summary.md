@@ -4,7 +4,7 @@
 - Live route: `/ashford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 0
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,16 +15,28 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 0
-- automatic review: 59
+- automatic include: 1
+- automatic review: 62
 - automatic exclude: 0
-- effective include: 0
-- effective review: 59
+- effective include: 1
+- effective review: 62
 - effective exclude: 0
 
-## INCLUDE (0)
+## INCLUDE (1)
 
-## REVIEW (59)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Reed - Agency - Permanent
+location: Ashford
+source: JobG8
+job_id: jobg8-2024535
+reason: Exact approved Ashford workplace.
+---
+
+## REVIEW (62)
 
 ---
 action: 
@@ -115,18 +127,6 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: HCRG Care Group
-location: Kent, DA1 1SA
-source: NHS Jobs
-job_id: nhs-5587232
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
 company: Invicta Health CIC
 location: Ramsgate, CT11 8AD
 source: NHS Jobs
@@ -143,6 +143,30 @@ company: The Robert Napier School
 location: Gillingham
 source: Teaching Vacancies
 job_id: teaching-vacancies-admissions-officer-the-robert-napier-school
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: Michael Page Finance - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-1905113
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Management Accountant
+company: Michael Page Finance - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-1877663
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -174,6 +198,18 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Business Support Administrator
+company: Aimee Willow Connex - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2028629
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Claims Handler
 company: Adjusting Appointments Limited - Agency - Permanent
 location: Kent
@@ -191,6 +227,18 @@ company: Pro Talent - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-1897444
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Clinical Administrator
+company: Len Valley Practice
+location: Maidstone, ME17 2QF
+source: NHS Jobs
+job_id: nhs-5606943
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -498,18 +546,6 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Part Time Bookkeeper
-company: Michael Page Finance - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-1912828
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Payroll Executive
 company: TPF Recruitment - Agency - Permanent
 location: Canterbury
@@ -611,6 +647,18 @@ company: The Grovehurst Surgery
 location: Sittingbourne, ME10 2ST
 source: NHS Jobs
 job_id: nhs-5589840
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist / Administrator (Care Coordinator)
+company: Faversham Medical Practice
+location: Faversham, ME13 8QR, Faversham, ME13 8FH
+source: NHS Jobs
+job_id: nhs-5605171
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 

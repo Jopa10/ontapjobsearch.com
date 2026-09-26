@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 24
+- automatic review: 25
 - automatic exclude: 0
 - effective include: 5
-- effective review: 24
+- effective review: 25
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-1960335
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (24)
+## REVIEW (25)
 
 ---
 action: 
@@ -150,6 +150,18 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Assistant Management Accountant
+company: 3 Point Recruitment - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-1912347
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Billing Operations Administrator
 company: Manpower - Agency - Permanent
 location: Warwickshire
@@ -167,6 +179,18 @@ company: Manpower - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-1916611
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Conveyancing Legal Assistant
+company: G2 Legal Limited - Agency - Permanent
+location: Leamington Spa
+source: JobG8
+job_id: jobg8-2024649
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -263,18 +287,6 @@ company: Station Street Surgery
 location: Nuneaton, CV11 6HH
 source: NHS Jobs
 job_id: nhs-5602211
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Assistant
-company: Dudley Lodge - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-1859027
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

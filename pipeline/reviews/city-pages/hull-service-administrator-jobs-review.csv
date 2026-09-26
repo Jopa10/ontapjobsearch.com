@@ -1,5 +1,8 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
+include,jobg8-1858682,Assistant Management Accountant,IPS Group - Agency - Permanent,Hull,JobG8,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
 include,jobg8-1982338,Family Support Coordinator,Coram - Agency - Permanent,Hull,JobG8,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
+include,jobg8-1873823,Interim Assistant Accountant,Chase and Holland Recruitment Ltd - Agency - Permanent,Hull,JobG8,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
+include,nhs-5570885,Receptionist,The Oaks Medical Centre,"Hull, HU4 6RF",NHS Jobs,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
 include,jobg8-1939826,Warranties Administrator - Automotive,Office Angels - Agency - Permanent,Hull,JobG8,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
 review,nhs-5614089,Administrator,Hull University Teaching Hospitals NHS Trust,"Cottingham, HU16 5JQ",NHS Jobs,review,review,No approved Hull catchment rule matched; local review required.,fallback,hull-service-administrator-jobs
 review,jobg8-1991433,HR Administrator,Howdens Joinery - Company - Permanent,Goole,JobG8,review,review,No approved Hull catchment rule matched; local review required.,fallback,hull-service-administrator-jobs

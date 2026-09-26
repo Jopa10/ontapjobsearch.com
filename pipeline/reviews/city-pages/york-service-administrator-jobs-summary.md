@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 13
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
-- automatic review: 9
+- automatic include: 12
+- automatic review: 10
 - automatic exclude: 12
-- effective include: 13
-- effective review: 9
+- effective include: 12
+- effective review: 10
 - effective exclude: 12
 
-## INCLUDE (13)
+## INCLUDE (12)
 
 ---
 action: 
@@ -148,18 +148,6 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Patient Care Navigator (Medical Receptionist - Priory Medical Centre)
-company: Priory Medical Group
-location: YORK, YO24 3WX
-source: NHS Jobs
-job_id: nhs-5604935
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Residential Property Legal Secretary / Assistant - York
 company: qed legal - Agency - Permanent
 location: York
@@ -180,7 +168,7 @@ job_id: jobg8-2021380
 reason: Approved York catchment.
 ---
 
-## REVIEW (9)
+## REVIEW (10)
 
 ---
 action: 
@@ -191,6 +179,18 @@ company: Property Personnel - Agency - Permanent
 location: Richmond
 source: JobG8
 job_id: jobg8-1869341
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Michael Page Finance - Agency - Permanent
+location: Richmond
+source: JobG8
+job_id: jobg8-1939806
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -344,12 +344,12 @@ reason: Broad regional label; not York-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Credit Controller
-company: Michael Page Finance - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-1939806
-reason: Broad regional label; not York-city evidence.
+title: Data Administrator
+company: Ayton & Snainton Medical Practice
+location: Scarborough, YO13 9JF
+source: NHS Jobs
+job_id: nhs-5624493
+reason: Separate employment market.
 ---
 
 ---

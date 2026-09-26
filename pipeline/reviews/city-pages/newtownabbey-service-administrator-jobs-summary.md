@@ -4,7 +4,7 @@
 - Live route: `/newtownabbey/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 0
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 0
+- automatic include: 1
 - automatic review: 8
 - automatic exclude: 0
-- effective include: 0
+- effective include: 1
 - effective review: 8
 - effective exclude: 0
 
-## INCLUDE (0)
+## INCLUDE (1)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Accountant
+company: Reed - Agency - Permanent
+location: Newtownabbey
+source: JobG8
+job_id: jobg8-1937764
+reason: Exact approved Newtownabbey workplace.
+---
 
 ## REVIEW (8)
 

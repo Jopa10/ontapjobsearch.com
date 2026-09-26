@@ -9,10 +9,10 @@ include,jobg8-1911811,Corporate/Commercial Legal Secretary/Assistant - York,qed 
 include,jobg8-1885701,Legal Secretary/Paralegal - Private Client,Reed - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,nhs-5615291,Medical Receptionist,Unity Health,"York, YO10 5LA, York, YO10 4DU",NHS Jobs,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,jobg8-1874079,Paralegal,Reed - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
-include,nhs-5604935,Patient Care Navigator (Medical Receptionist - Priory Medical Centre),Priory Medical Group,"YORK, YO24 3WX",NHS Jobs,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,jobg8-1871003,Residential Property Legal Secretary / Assistant - York,qed legal - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,jobg8-2021380,Website Administrator,Reed - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 review,jobg8-1869341,Client Accounts Assistant,Property Personnel - Agency - Permanent,Richmond,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
+review,jobg8-1939806,Credit Controller,Michael Page Finance - Agency - Permanent,Richmond,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,jobg8-1888842,Demand Planner,MTrec Recruitment - Agency - Permanent,Bedale,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,jobg8-1950790,Interim Finance Administrator,KD Recruitment Limited - Agency - Permanent,Filey,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,jobg8-108001446,Interim Finance Administrator,KD Recruitment Limited - Agency - Temporary,Filey,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
@@ -25,7 +25,7 @@ exclude,jobg8-1868543,Client Administrator - Financial Services,Reed - Agency - 
 exclude,jobg8-1950236,Client Engagement Administrator,Finlink Ltd - Agency - Permanent,Northallerton,JobG8,exclude,exclude,Separate employment market.,northallerton,york-service-administrator-jobs
 exclude,jobg8-1882087,Client Services Administrator,NJR Recruitment - Agency - Permanent,Scarborough,JobG8,exclude,exclude,Separate employment market.,scarborough,york-service-administrator-jobs
 exclude,jobg8-1906113,Conveyancing Assistant,Janine Kot (JK) Recruitment Advisory Services Limited - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
-exclude,jobg8-1939806,Credit Controller,Michael Page Finance - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
+exclude,nhs-5624493,Data Administrator,Ayton & Snainton Medical Practice,"Scarborough, YO13 9JF",NHS Jobs,exclude,exclude,Separate employment market.,scarborough,york-service-administrator-jobs
 exclude,jobg8-1868898,Demand Planner - FMCG,Hays Specialist Recruitment Limited - Agency - Permanent,Northallerton,JobG8,exclude,exclude,Separate employment market.,northallerton,york-service-administrator-jobs
 exclude,jobg8-1945785,Finance Administrator,Marks Sattin - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
 exclude,jobg8-1910220,Finance Assistant,IPS Group - Agency - Permanent,Harrogate,JobG8,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs

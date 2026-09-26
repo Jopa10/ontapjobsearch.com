@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 20
+- automatic review: 19
 - automatic exclude: 0
 - effective include: 0
-- effective review: 20
+- effective review: 19
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (20)
+## REVIEW (19)
 
 ---
 action: 
@@ -59,18 +59,6 @@ company: EE - Company - Permanent
 location: Knutsford
 source: JobG8
 job_id: jobg8-20279_62648-d1c6bd5673f826e43797e1c92de24d69
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Construction Secretary
-company: Bloor Homes - Construction - Agency - Contract
-location: Crewe
-source: JobG8
-job_id: jobg8-108018276
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

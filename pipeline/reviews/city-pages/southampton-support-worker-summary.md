@@ -4,8 +4,8 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
-- Threshold currently met: yes
+- Effective included jobs: 4
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 6
-- automatic exclude: 5
-- effective include: 8
-- effective review: 6
-- effective exclude: 5
+- automatic include: 4
+- automatic review: 3
+- automatic exclude: 3
+- effective include: 4
+- effective review: 3
+- effective exclude: 3
 
-## INCLUDE (8)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Female Support Worker
-company: Avenues Group - Company - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-265253118665136537637341
-reason: Approved Southampton catchment.
----
+## INCLUDE (4)
 
 ---
 action: 
@@ -52,47 +40,11 @@ reason: Approved Southampton catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Male Support Worker
-company: Avenues Group - Company - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-455939784746781900837341
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Night Care Worker
-company: Hampshire County Council - Company - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-1401784887
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Part-Time Support Worker
 company: Cygnet - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-1932858
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Support Worker
-company: The Society of St James - Agency - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-1858493
 reason: Approved Southampton catchment.
 ---
 
@@ -120,7 +72,19 @@ job_id: jobg8-1856912
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (6)
+## REVIEW (3)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Children's Home Support Worker
+company: Hampshire County Council - Company - Permanent
+location: Romsey
+source: JobG8
+job_id: jobg8-1401785505
+reason: Broad location; review before city inclusion.
+---
 
 ---
 action: 
@@ -138,30 +102,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Female Support Worker
-company: Avenues Group - Company - Permanent
-location: Tadley
-source: JobG8
-job_id: jobg8-265253118665136537637340
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Female Support Worker
-company: SeeAbility - Agency - Permanent
-location: Tadley
-source: JobG8
-job_id: jobg8-107989086
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Healthcare Assistant
 company: Advantage Angels Ltd - Agency - Contract
 location: Ryde
@@ -170,31 +110,7 @@ job_id: jobg8-107856243
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Support Worker
-company: Avenues Group - Company - Permanent
-location: Tadley
-source: JobG8
-job_id: jobg8-635330054620761292837340
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Support Worker (Out of Hours)
-company: Hampshire County Council - Company - Permanent
-location: Havant
-source: JobG8
-job_id: jobg8-1401784888
-reason: Broad location; review before city inclusion.
----
-
-## EXCLUDE (5)
+## EXCLUDE (3)
 
 ---
 action: 
@@ -217,30 +133,6 @@ company: Prospero Teaching - Agency - Permanent
 location: Eastleigh
 source: JobG8
 job_id: jobg8-1875238
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Male Support Worker
-company: Avenues Group - Company - Permanent
-location: Fareham
-source: JobG8
-job_id: jobg8-455939784746781900837340
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Secure Children's Home Support Worker
-company: Hampshire County Council - Company - Permanent
-location: Eastleigh
-source: JobG8
-job_id: jobg8-1401784900
 reason: Separate employment market.
 ---
 

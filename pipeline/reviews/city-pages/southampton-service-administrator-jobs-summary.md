@@ -4,7 +4,7 @@
 - Live route: `/southampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 24
-- automatic exclude: 17
-- effective include: 4
-- effective review: 24
-- effective exclude: 17
+- automatic include: 3
+- automatic review: 22
+- automatic exclude: 18
+- effective include: 3
+- effective review: 22
+- effective exclude: 18
 
-## INCLUDE (4)
+## INCLUDE (3)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Michael Page Finance - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-1868227
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Support Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO14 0YG
-source: NHS Jobs
-job_id: nhs-5608574
 reason: Approved Southampton catchment.
 ---
 
@@ -64,15 +52,15 @@ reason: Approved Southampton catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Insurance Account Executive
-company: Aspire Jobs Limited - Agency - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-107193862
+title: Recruitment Administrator
+company: University Hospital Southampton NHS Trust
+location: Southampton, SO16 6YD
+source: NHS Jobs
+job_id: nhs-5624270
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (24)
+## REVIEW (22)
 
 ---
 action: 
@@ -114,47 +102,59 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Assistant Accountant
+company: The Niche Partnership - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1957224
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant (Part-Time, 3 Days per Week)
+company: Reed - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1881335
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Management Accountant
+company: CMA Recruitment Group - Agency - Permanent
+location: Romsey
+source: JobG8
+job_id: jobg8-1877930
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Management Accountant
+company: CMA Recruitment Group - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1949566
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Bookkeeper
 company: TC Group - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-1907458
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Coordinator
-company: Agincare Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-107963757
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Client Servicing Coordinator
-company: de Mellow & Co Financial Planning - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-357999054771820953637340
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Client Servicing Coordinator
-company: de Mellow & Co Financial Planning - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-357999054771820953637341
 reason: Broad location; review before city inclusion.
 ---
 
@@ -168,18 +168,6 @@ location: Hampshire
 source: JobG8
 job_id: jobg8-1858777
 reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Exams Officer and Assessment Data Co ordinator
-company: Perins School
-location: Alresford
-source: Teaching Vacancies
-job_id: teaching-vacancies-exams-officer-and-assessment-data-co-ordinator
-reason: No approved Southampton catchment rule matched; local review required.
 ---
 
 ---
@@ -294,18 +282,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Personal Assistant to Executive Headteacher
-company: Vita Multi Academy Trust
-location: Alresford
-source: Teaching Vacancies
-job_id: teaching-vacancies-personal-assistant-to-executive-headteacher-vita-multi-academy-trust
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Property Finance Paralegal
 company: G2 Legal Limited - Agency - Permanent
 location: Hampshire
@@ -342,18 +318,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist / Administrator
-company: The Society of St James - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-1898713
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Service Advisor
 company: Pembrook Resourcing - Agency - Permanent
 location: Hampshire
@@ -362,17 +326,17 @@ job_id: jobg8-1881197
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (17)
+## EXCLUDE (18)
 
 ---
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Admin Assistant
-company: The Cambridge Primary School
-location: Aldershot
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-assistant-the-cambridge-primary-school
+title: Accounts Payable and Purchasing Administrator
+company: Sheridan Maine - Agency - Permanent
+location: Basingstoke
+source: JobG8
+job_id: jobg8-2028253
 reason: Separate employment market.
 ---
 
@@ -428,6 +392,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Assistant Accountant
+company: CMA Recruitment Group - Agency - Permanent
+location: Eastleigh
+source: JobG8
+job_id: jobg8-1928243
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Audit & Accounts Assistant
 company: Accountancy Expertise Ltd - Agency - Permanent
 location: Fareham
@@ -445,18 +421,6 @@ company: Accountancy Expertise Ltd - Agency - Permanent
 location: Fareham
 source: JobG8
 job_id: jobg8-1914877
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Care Home Administrator
-company: Avery Healthcare Group Ltd.
-location: Winchester, SO22 5JH
-source: NHS Jobs
-job_id: nhs-5612599
 reason: Separate employment market.
 ---
 
@@ -529,6 +493,18 @@ company: Michael Page Finance - Agency - Permanent
 location: Portsmouth
 source: JobG8
 job_id: jobg8-1959286
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Avery Healthcare Group Ltd.
+location: Winchester, SO22 5JH
+source: NHS Jobs
+job_id: nhs-5623458
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
+- automatic include: 12
 - automatic review: 2
-- automatic exclude: 7
-- effective include: 11
+- automatic exclude: 11
+- effective include: 12
 - effective review: 2
-- effective exclude: 7
+- effective exclude: 11
 
-## INCLUDE (11)
+## INCLUDE (12)
 
 ---
 action: 
@@ -57,6 +57,18 @@ company: IPS Group - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-1960387
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Accountant
+company: Reed - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-1884402
 reason: Approved Sheffield catchment.
 ---
 
@@ -182,7 +194,55 @@ job_id: jobg8-1933458
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (7)
+## EXCLUDE (11)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: Elysium Healthcare
+location: Barnsley, S71 4FL
+source: NHS Jobs
+job_id: nhs-5624848
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: Reed - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-2024835
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Assistant Accountant
+company: Elevation Recruitment Group - Agency - Permanent
+location: Rotherham
+source: JobG8
+job_id: jobg8-1949982
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Assistant Accountant / Finance Officer
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Barnsley
+source: JobG8
+job_id: jobg8-1871012
+reason: Separate employment market.
+---
 
 ---
 action: 

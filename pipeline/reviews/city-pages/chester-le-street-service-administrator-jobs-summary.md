@@ -16,15 +16,27 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 49
+- automatic review: 47
 - automatic exclude: 0
 - effective include: 0
-- effective review: 49
+- effective review: 47
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (49)
+## REVIEW (47)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: 1st Line Service Desk Agent
+company: Cap Resourcing Ltd - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2024355
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -67,18 +79,6 @@ action:
 decision: review
 automatic_decision: review
 title: Accounts Receivable Assistant
-company: LANCESOFT LTD - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-1982454
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Receivable Assistant
 company: Randstad Perm Professionals - Agency - Permanent
 location: County Durham
 source: JobG8
@@ -90,11 +90,11 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Administrative Assistant - Level 1
-company: Newcastle City Council
-location: Lemington Riverside, Rokeby Street, Newcastle upon Tyne, NE15 8RR
-source: NEJobs
-job_id: nejobs-301338
+title: Administrative Assistant
+company: Northumbria Healthcare NHS Foundation Trust
+location: Wallsend, NE28 8QU
+source: NHS Jobs
+job_id: nhs-5623047
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -151,34 +151,10 @@ action:
 decision: review
 automatic_decision: review
 title: Business Development Executive
-company: Independent Utility Advice - Agency - Permanent
-location: Newcastle Upon Tyne
-source: JobG8
-job_id: jobg8-107967240
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Development Executive
 company: Tina Lacey Recruitment Ltd - Agency - Permanent
 location: Darlington
 source: JobG8
 job_id: jobg8-107973178
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Support Administrator
-company: North East & North Cumbria ICB
-location: Sunderland, SR5 3XB
-source: NHS Jobs
-job_id: nhs-5619773
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
