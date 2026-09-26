@@ -151,6 +151,7 @@ jobs:
 
           plan = json.load(open(sys.argv[1], encoding="utf-8"))
           quarantined = plan.get("quarantined_jobs", [])
+          unapplied = plan.get("unapplied_jobs", [])
           withheld = plan.get("withheld_jobs", [])
           isolated = plan.get("isolated_sources", [])
           with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as handle:
