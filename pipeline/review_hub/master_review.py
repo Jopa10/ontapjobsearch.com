@@ -260,7 +260,7 @@ def _patch_action(
     id_field: str,
     source_job_id: str,
     action: str,
-) -> None:
+) -> bool:
     if not path.is_file():
         raise ValueError(f"source review Markdown missing: {path}")
     text = path.read_text(encoding="utf-8-sig")
@@ -279,9 +279,7 @@ def _patch_action(
             r"(?mi)^action:[ \t]*(?:select|exclude)?[ \t]*$",
             block,
         ):
-            raise ValueError(
-                f"review block has no editable action line: {source_job_id}"
-            )
+            return match.group(0)
         matched += 1
         block = re.sub(
             r"(?mi)^action:[ \t]*(?:select|exclude)?[ \t]*$",
@@ -297,13 +295,12 @@ def _patch_action(
         text,
     )
     if matched != 1:
-        raise ValueError(
-            f"expected one source review block for {source_job_id}; found {matched}"
-        )
+        return False
     path.write_text(updated, encoding="utf-8")
+    return True
 
 
-def _route_action(decision: ParsedDecision) -> None:
+def _route_action(decision: ParsedDecision) -> bool:
     if decision.source_key == "jobg8":
         if decision.item.category == "admin_service":
             path = PIPELINE_ROOT / "reviews/jobg8/service-admin-review.md"
@@ -313,8 +310,9 @@ def _route_action(decision: ParsedDecision) -> None:
             raise ValueError(
                 f"unsupported JobG8 category: {decision.item.category}"
             )
-        _patch_action(path, "job_id", decision.item.source_job_id, decision.action)
-        return
+        return _patch_action(
+            path, "job_id", decision.item.source_job_id, decision.action
+        )
     routes = {
         "nejobs": (
             PIPELINE_ROOT / "reviews/external/northeast-jobs-summary.md",
@@ -339,7 +337,7 @@ def _route_action(decision: ParsedDecision) -> None:
             f"source {decision.source_key!r} has no enabled decision adapter"
         )
     path, id_field = routes[decision.source_key]
-    _patch_action(path, id_field, decision.item.source_job_id, decision.action)
+    return _patch_action(path, id_field, decision.item.source_job_id, decision.action)
 
 
 def apply_master(
@@ -432,11 +430,57 @@ def apply_master(
         for decision in quarantined
     ]
 
+    unapplied_jobs: list[dict[str, str]] = []
     if write:
+        applied_actions: list[ParsedDecision] = []
         for decision in acted:
-            _route_action(decision)
-        for decision in quarantine_excludes:
-            _route_action(decision)
+            try:
+                routed = _route_action(decision)
+            except (OSError, ValueError) as error:
+                routed = False
+                reason = str(error)
+            else:
+                reason = "no unique editable source review block"
+            if routed is False:
+                unapplied_jobs.append(
+                    {
+                        "source": decision.source_key,
+                        "source_job_id": decision.item.source_job_id,
+                        "title": decision.item.title,
+                        "action": decision.action,
+                        "reason": reason,
+                    }
+                )
+            else:
+                applied_actions.append(decision)
+        acted = applied_actions
+
+        applied_quarantines: list[ParsedDecision] = []
+        for decision, exclusion in zip(quarantined, quarantine_excludes):
+            try:
+                routed = _route_action(exclusion)
+            except (OSError, ValueError) as error:
+                routed = False
+                reason = str(error)
+            else:
+                reason = "no unique editable source review block"
+            if routed is False:
+                unapplied_jobs.append(
+                    {
+                        "source": decision.source_key,
+                        "source_job_id": decision.item.source_job_id,
+                        "title": decision.item.title,
+                        "action": "exclude",
+                        "reason": reason,
+                    }
+                )
+            else:
+                applied_quarantines.append(decision)
+        quarantined = applied_quarantines
+        quarantine_excludes = [
+            ParsedDecision("exclude", decision.source_key, decision.item, decision.fingerprint)
+            for decision in quarantined
+        ]
 
     publish_sources = [
         result
@@ -462,6 +506,8 @@ def apply_master(
             }
             for decision in quarantined
         ],
+        "unapplied": len(unapplied_jobs),
+        "unapplied_jobs": unapplied_jobs,
         "withheld": len(withheld),
         "withheld_jobs": [
             {
