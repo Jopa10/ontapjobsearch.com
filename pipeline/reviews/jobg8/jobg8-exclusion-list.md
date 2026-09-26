@@ -6,9 +6,165 @@ The `excluded_on` date is the day the exclusion decision was made.
 To restore a job, edit only its `action:` line to `action: select`.
 On the next JobG8 run that exact job ID will be restored and removed from this list.
 
-remembered_exclusions: 366
+remembered_exclusions: 380
 
 ## SERVICE / ADMIN — EXCLUDED
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-26
+title: Service Desk Team Leader
+employer: AWD online
+region: 
+town: London
+salary: 
+job_id: 2028403
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-26
+title: Part time Assistant Accountant
+employer: Kenneth Brian Associates Limited
+region: 
+town: London
+salary: 
+job_id: 1934006
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-26
+title: Paralegal (6-month FTC)
+employer: Hays Specialist Recruitment Limited
+region: 
+town: London
+salary: 
+job_id: 1908706
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-26
+title: Paralegal
+employer: Jonathan Lee Recruitment
+region: 
+town: Essex
+salary: 
+job_id: 2026601
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-26
+title: HR Administrator Placement Programme No Experience Needed
+employer: IT Online Learning
+region: 
+town: Somerset
+salary: 
+job_id: 107921784
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-26
+title: Entry-Level Assistant Accountant
+employer: Regal Brooke Limited
+region: 
+town: London
+salary: 
+job_id: 1957737
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-26
+title: Employee Relations Co-ordinator - 6 Month FTC
+employer: Leaman Consulting
+region: 
+town: London
+salary: 
+job_id: 2021503
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-26
+title: Demand Planner
+employer: Potential Recruitment
+region: 
+town: Manchester
+salary: 
+job_id: 23643_225594440
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-26
+title: Credit Controller - Interim
+employer: Finspire Talent Limited
+region: 
+town: London
+salary: 
+job_id: 1946938
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-26
+title: Credit Controller - Commercial Lending
+employer: Cameron James
+region: 
+town: London
+salary: 
+job_id: 1907631
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-26
+title: Assistant Management Accountant
+employer: Michael Page Finance
+region: 
+town: Essex
+salary: 
+job_id: 1927365
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-26
+title: Assistant Management Accountant
+employer: Altum Consulting
+region: 
+town: London
+salary: 
+job_id: 1899175
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-26
+title: Assistant Management Accountant
+employer: Robert Half
+region: 
+town: Somerset
+salary: 
+job_id: 1892283
+---
 
 ---
 action:
@@ -4271,6 +4427,18 @@ job_id: 23643_225460911
 ---
 
 ## SUPPORT WORKER — EXCLUDED
+
+---
+action:
+category: support_worker
+excluded_on: 2026-09-26
+title: Mental Health Support Worker
+employer: Medgen Ltd
+region: 
+town: Wiltshire
+salary: 
+job_id: 108025922
+---
 
 ---
 action:

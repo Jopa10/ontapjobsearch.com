@@ -15,7 +15,7 @@
 2026-09-26,SELECTED,Sussex,Healthcare Assistant,Chichester,£14.28 per hour,,,1959112
 2026-09-26,SELECTED,Sussex,Healthcare Assistant,Battle,£13.00 per hour,,,1990925
 2026-09-26,SELECTED,Sussex,Healthcare Assistant,Haywards Heath,£39134 per year,,,107863056
-2026-09-26,POSS - SUSSEX,Sussex,Healthcare Assistant,Lewes,£39134 per year,,,108024728
+2026-09-26,SELECTED,Sussex,Healthcare Assistant,Lewes,£39134 per year,,,108024728
 2026-09-26,SELECTED,Cumbria - South,Relief Support Worker,Ulverston,£12.85 per hour (plus rolled up holiday pay),,,107950046
 2026-09-26,SELECTED,Cumbria - South,Relief Support Worker,Barrow-in-furness,£12.85 per hour () will be paid),,,108001475
 2026-09-26,SELECTED,Cumbria - South,Childrens Residential Support Worker,Kirkby Stephen,£30000 per year,,,108027338
@@ -28,7 +28,7 @@
 2026-09-26,SELECTED,Hampshire,Specialist Care Support Worker Winchester,Winchester,£13.2 - £14.75 per hour,,,108004872
 2026-09-26,SELECTED,Hampshire,Children's Homes Support Worker,Winchester,£28697 - £31573 per year,,,1401785482
 2026-09-26,SELECTED,Hampshire,Healthcare Assistant,Ryde,£39134 per year,,,107856243
-2026-09-26,POSS - HAMPSHIRE,Hampshire,Children's Home Support Worker,Romsey,£28697 - £31573 per year,,,1401785505
+2026-09-26,SELECTED,Hampshire,Children's Home Support Worker,Romsey,£28697 - £31573 per year,,,1401785505
 2026-09-26,SELECTED,Kent,Care Support Worker,Sittingbourne,£14.43 per hour,,,1877396
 2026-09-26,SELECTED,Kent,Qualified Hearing Care Assistant,Tunbridge Wells,competitive + benefits,,,1402265374
 2026-09-26,SELECTED,Kent,Support Worker,Maidstone,"£28,031.56 per annum",,,1957967
@@ -40,10 +40,10 @@
 2026-09-26,SELECTED,London,Support Worker,London,"£29,713.46 per annum",,,1927514
 2026-09-26,SELECTED,London,Inclusion Support Worker,Barking,£31290 per year,,,1961315
 2026-09-26,SELECTED,London,Care Assistant,London,£28860 per year,,,1990764
+2026-09-26,SELECTED,London,Learning Support Assistant,London,£125 per daily,,,2022335
+2026-09-26,SELECTED,London,Learning Support Assistant,London,£100 - £120 per daily,,,2028441
 2026-09-26,SELECTED,London,Bereavement Support Worker,London,"£30,000 per annum",,,2028763
 2026-09-26,SELECTED,London,Night Care Assistant,London,£12.71 per hour,,,107862702
-2026-09-26,POSS - LONDON,London,Learning Support Assistant,London,£125 per daily,,,2022335
-2026-09-26,POSS - LONDON,London,Learning Support Assistant,London,£100 - £120 per daily,,,2028441
 2026-09-26,SELECTED,Oxfordshire,Home Carer,Witney,£14.4 per hour,,,107626591
 2026-09-26,SELECTED,Oxfordshire,Home Carer,Bicester,£14.4 per hour,,,107626594
 2026-09-26,SELECTED,Oxfordshire,Home Carer,Banbury,£14.4 per hour,,,107626596
@@ -52,5 +52,4 @@
 2026-09-26,SELECTED,Surrey,Female Healthcare Assistant,Caterham,£14.50 per hour,,,2021731
 2026-09-26,SELECTED,Wiltshire,Pastoral Support Worker,Trowbridge,£85 - £110 per daily,,,1881025
 2026-09-26,SELECTED,Wiltshire,Autism Support Assistant,Chippenham,£85 - £110 per daily,,,107869953
-2026-09-26,POSS - WILTSHIRE,Wiltshire,Healthcare Assistant,Chippenham,£39134 per year,,,107879735
-2026-09-26,POSS - WILTSHIRE,Wiltshire,Mental Health Support Worker,Salisbury,£22.25 - £28 per hour,,,108025922
+2026-09-26,SELECTED,Wiltshire,Healthcare Assistant,Chippenham,£39134 per year,,,107879735

@@ -2,15 +2,51 @@
 
 review_date: 2026-09-26
 
-- Open Administrative & Clerical rows reviewed: 2223
-- Auto/remembered selected: 409
-- Selected HC Tier A: 203
+- Open Administrative & Clerical rows reviewed: 2226
+- Auto/remembered selected: 410
+- Selected HC Tier A: 204
 - Selected HC Tier B: 206
-- POSS awaiting decision: 1690
+- POSS awaiting decision: 1692
 - Excluded: 0
 - HARD_PASS: 124
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | North East | Cramlington, NE23 6NZ | £49387.00 to £56515.00 | Data & Digital Improvement Manager (Primary Care)
+source_job_id: 5620867
+title: Data & Digital Improvement Manager (Primary Care)
+employer: Northumbria Healthcare NHS Foundation Trust
+region: North East
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9319-26-0892
+factual_fingerprint: d85c6818764b753148dc5b5d9b9a0bfa66726c8b3e400a0500c6e15d8355b368
+---
+
+---
+action:
+POSS | NHS Jobs | North East | Cramlington, NE23 6NZ | £49387.00 to £56515.00 | Governance Manager (Primary Care)
+source_job_id: 5621410
+title: Governance Manager (Primary Care)
+employer: Northumbria Healthcare NHS Foundation Trust
+region: North East
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9319-26-0893
+factual_fingerprint: c777a21433941c327d5139c87a2ad86a255d610cd4631bc1e1b293a056611383
+---
+
+---
+action:
+POSS | NHS Jobs | North East | Newcastle upon Tyne, NE27 0QJ | £25272.00 | Apprentice in Payroll (Level 3)
+source_job_id: 5621629
+title: Apprentice in Payroll (Level 3)
+employer: Northumbria Healthcare NHS Foundation Trust
+region: North East
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9319-26-0895
+factual_fingerprint: dd2ddbc2d3a42ddc6205e9c2ec6ca9550313785aace6ddb9e2ca308f48c86da2
+---
 
 ---
 action:
@@ -12190,18 +12226,6 @@ region:
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9381-26-0384
 factual_fingerprint: 14706d674dca282e779fdd609930c3feb67e624fc3cf02dedf41f6c20a4b1af1
----
-
----
-action:
-POSS | NHS Jobs | — | Newcastle-under-Lyme, ST4 6QG | £25760.00 to £27476.00 | Medical Secretary
-source_job_id: 5604613
-title: Medical Secretary
-employer: University Hospital of North Midlands NHS Trust
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9205-26-1866
-factual_fingerprint: ddf0664dc2990fa18fea815347cdd40aa6805ea0550cdf50df6d35f315592566
 ---
 
 ---
