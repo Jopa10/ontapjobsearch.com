@@ -164,6 +164,15 @@ jobs:
                       handle.write(
                           f"- {row['source']}/{row['source_job_id']}: {row['title']}\n"
                       )
+              if unapplied:
+                  handle.write("\n### Job-level routing holds\n\n")
+                  handle.write(
+                      f"{len(unapplied)} reviewed decision(s) could not be matched to exactly one editable source review block; those jobs were held while other sources continued.\n\n"
+                  )
+                  for row in unapplied[:15]:
+                      handle.write(
+                          f"- {row['source']}/{row['source_job_id']}: {row['title']} — {row['reason']}\n"
+                      )
               if withheld:
                   handle.write("\n### Automatic no-edit withholding\n\n")
                   handle.write(
