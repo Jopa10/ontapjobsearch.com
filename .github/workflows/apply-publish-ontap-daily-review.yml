@@ -151,6 +151,7 @@ jobs:
 
           plan = json.load(open(sys.argv[1], encoding="utf-8"))
           quarantined = plan.get("quarantined_jobs", [])
+          unapplied = plan.get("unapplied_jobs", [])
           withheld = plan.get("withheld_jobs", [])
           isolated = plan.get("isolated_sources", [])
           with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as handle:
@@ -162,6 +163,15 @@ jobs:
                   for row in quarantined[:15]:
                       handle.write(
                           f"- {row['source']}/{row['source_job_id']}: {row['title']}\n"
+                      )
+              if unapplied:
+                  handle.write("\n### Job-level routing holds\n\n")
+                  handle.write(
+                      f"{len(unapplied)} reviewed decision(s) could not be matched to exactly one editable source review block; those jobs were held while other sources continued.\n\n"
+                  )
+                  for row in unapplied[:15]:
+                      handle.write(
+                          f"- {row['source']}/{row['source_job_id']}: {row['title']} — {row['reason']}\n"
                       )
               if withheld:
                   handle.write("\n### Automatic no-edit withholding\n\n")
