@@ -356,7 +356,7 @@ hub_fingerprint: a9921682929b873f6bcce519c48569202d8b504a16eaf5a1a269f632705b369
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Essex | Essex | £27.38 per hour | Paralegal
 source_key: jobg8
 source: JobG8
@@ -572,7 +572,7 @@ hub_fingerprint: e2ab83287889ce25bbf43805fa0dd2c53661165dbad0286711e997bbfecd4b0
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Hampshire | Romsey | £28697 - £31573 per year | Children's Home Support Worker
 source_key: jobg8
 source: JobG8
@@ -788,7 +788,7 @@ hub_fingerprint: 6405b282168eb092d91501fbb920ca1df5240caa6c862a953466bb775244021
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | London | £35000 per year | Assistant Accountant
 source_key: jobg8
 source: JobG8
@@ -805,8 +805,8 @@ source_url:
 hub_fingerprint: 0e450cbe66b6d82f1db3e34e06bbd47c81f2b638aa7c09633c96470031a07fc3
 ---
 
----
-action:
+--- 
+action: select
 POSS | JobG8 | London | London | — | Assistant Accountant LUXURY / CREATIVE SECTOR
 source_key: jobg8
 source: JobG8
@@ -824,7 +824,7 @@ hub_fingerprint: d12d1ea4ab227982daf72add92dd860c1cbeaf8499c444a541c4034baaed932
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | London | £45000 per year | Assistant Management Accountant
 source_key: jobg8
 source: JobG8
@@ -842,7 +842,7 @@ hub_fingerprint: d2fdaea974cd91155269af0514c6a22d0d60d127d620fec281729c39c3d93ab
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | London | £35000 - £40000 per year | Assistant Management Accountant
 source_key: jobg8
 source: JobG8
@@ -860,7 +860,7 @@ hub_fingerprint: c3f3d52108bc552bb5750affaa197e36f6f0e7eac608a1f725acc88c9d863a7
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | London | £35000 - £45000 per year | Credit Controller - Commercial Lending
 source_key: jobg8
 source: JobG8
@@ -878,7 +878,7 @@ hub_fingerprint: 8053ab637d52cc1c8a6756e07cd14d204c844637aad1e6c5907d68ced7fb4d6
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | London | £150 - £170 per daily | Credit Controller - Interim
 source_key: jobg8
 source: JobG8
@@ -896,7 +896,7 @@ hub_fingerprint: fb82e10cbb8eacfe6ceea492b5dac92a55c9e1e613fa318a51776d89e17b579
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | London | £40000 - £45000 per year | Employee Relations Co-ordinator - 6 Month FTC
 source_key: jobg8
 source: JobG8
@@ -914,7 +914,7 @@ hub_fingerprint: 8d2bf20248b8267483a5effd829d99e1b65ae9019ac629cf075c6d64e8d8bf9
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | London | £40000 - £45000 per year | Entry-Level Assistant Accountant
 source_key: jobg8
 source: JobG8
@@ -932,7 +932,7 @@ hub_fingerprint: 8688f7d4f22112538febd5b283c9f6996df36b40082f489b6885c675f1accb0
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | London | £125 per daily | Learning Support Assistant
 source_key: jobg8
 source: JobG8
@@ -950,7 +950,7 @@ hub_fingerprint: 64a7ef3358ff281a1e6fa74bb041aa2542f017d32e1a574088b53b6ed0860fb
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | London | £100 - £120 per daily | Learning Support Assistant
 source_key: jobg8
 source: JobG8
@@ -968,7 +968,7 @@ hub_fingerprint: 621996234e8eab2c08c7b1ad180513a323e05f19ff3f5328925b7baa5ca587e
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | London | £45000 per year | Paralegal
 source_key: jobg8
 source: JobG8
@@ -986,7 +986,7 @@ hub_fingerprint: 827dc0c1e33320d4e3657569003c392a0fce26b60f7bb38b888ecfb2415a12e
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | London | £50000 - £55000 per year | Paralegal (6-month FTC)
 source_key: jobg8
 source: JobG8
@@ -1004,7 +1004,7 @@ hub_fingerprint: 33545cd92ff66c5c50c3c05c3bdb6b04e07877c1c1be3f9ea0644d0e7dd2da4
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | London | — | Part time Assistant Accountant
 source_key: jobg8
 source: JobG8
@@ -1022,7 +1022,7 @@ hub_fingerprint: c77be495a2d3f25089a877de324538b272adb51531cd9772b9c40f974b01a4a
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | London | £45000 - £50000 per year | Service Desk Team Leader
 source_key: jobg8
 source: JobG8
@@ -1040,7 +1040,7 @@ hub_fingerprint: f24615f37d48e28357b1961ebe4538f00813eb28cd9202b8d05b8162c761364
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | Pinner | £42000 per year | Assistant Management Accountant
 source_key: jobg8
 source: JobG8
@@ -1058,7 +1058,7 @@ hub_fingerprint: 41c29197027fa60710402cfd53d7a14dcf832a87fafdcc6b9f8bd702e49e5c1
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Merseyside - Liverpool | Liverpool | £33000 - £45000 per year | Employment Advisor/Paralegal
 source_key: jobg8
 source: JobG8
@@ -1076,7 +1076,7 @@ hub_fingerprint: ab1c1746a32c78f263686fd5102b61da0ca81d947d4bcd611117d37afeadde7
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Norfolk | Norfolk | £32500 per year | Assistant Accountant
 source_key: jobg8
 source: JobG8
@@ -1094,7 +1094,7 @@ hub_fingerprint: 974bd281e75e438aaa15a3b3339b755286f05c27febeddc7e48499a48889f5d
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Norfolk | Norfolk | £30000 - £35000 per year | Assistant Accountant
 source_key: jobg8
 source: JobG8
@@ -1112,7 +1112,7 @@ hub_fingerprint: 7db46213053aac95e98aa7c4fd3751b33c2ff636eeb7c2b9429c8254c57c430
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | North East - County Durham & Darlington/Hartlepool | County Durham | — | Assistant Accountant
 source_key: jobg8
 source: JobG8
@@ -1130,7 +1130,7 @@ hub_fingerprint: 85aec96a9044c07b3cc586f56b3c170c42cd69587f1bb785629747c859ba959
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | North East - Tyneside, Wearside & Northumberland | Newcastle | £40000 per year | Assistant Accountant
 source_key: jobg8
 source: JobG8
@@ -1148,7 +1148,7 @@ hub_fingerprint: 049624f751fee4aaa997771a517481c20149578d80f867ed22d9a2b7a5edd49
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | North East - Tyneside, Wearside & Northumberland | Tyne And Wear | — | Assistant Accountant
 source_key: jobg8
 source: JobG8
@@ -1166,7 +1166,7 @@ hub_fingerprint: 02a2199f75ed38771a20ce32e461db20251d8ab300cc980c3e110fb4e856aef
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | North East - Tyneside, Wearside & Northumberland | Tyne And Wear | — | Assistant Management Accountant
 source_key: jobg8
 source: JobG8
@@ -1472,7 +1472,7 @@ hub_fingerprint: 114c49456964109a62a44c801718e7563d5d475410efa2382968bb21e434a3c
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Sussex | Lewes | £39134 per year | Healthcare Assistant
 source_key: jobg8
 source: JobG8
