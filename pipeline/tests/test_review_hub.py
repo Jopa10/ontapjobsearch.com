@@ -301,3 +301,53 @@ def test_patch_action_changes_only_matching_block(tmp_path: Path) -> None:
     text = path.read_text(encoding="utf-8")
     assert "action:\njob_id: one" in text
     assert "action: exclude\njob_id: two" in text
+
+
+def test_missing_source_review_block_is_held_per_job_while_other_actions_continue(
+    tmp_path: Path,
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    review_items = (
+        item(source_job_id="missing-source-block"),
+        item(source_job_id="valid-source-block"),
+    )
+    source = result_many(review_items)
+    path = tmp_path / "ontap-daily-review.md"
+    text = master_review.master_text([source], today=TODAY, previous=path)
+    text = text.replace("action:\n", "action: select\n", 2)
+    path.write_text(text, encoding="utf-8")
+
+    routed = []
+
+    def route(decision):
+        routed.append(decision.item.source_job_id)
+        return decision.item.source_job_id == "valid-source-block"
+
+    monkeypatch.setattr(master_review, "load_all_sources", lambda today: [source])
+    monkeypatch.setattr(master_review, "_route_action", route)
+
+    plan = master_review.apply_master(path, today=TODAY, write=True)
+
+    assert routed == ["missing-source-block", "valid-source-block"]
+    assert plan["actions"] == 1
+    assert plan["unapplied"] == 1
+    assert plan["unapplied_jobs"] == [
+        {
+            "source": "test",
+            "source_job_id": "missing-source-block",
+            "title": "Borderline Administrator",
+            "action": "select",
+            "reason": "no unique editable source review block",
+        }
+    ]
+    assert plan["isolated_sources"] == []
+    assert plan["publish"][0]["source"] == "test"
+
+
+def test_patch_action_holds_when_source_block_is_missing(tmp_path: Path) -> None:
+    path = tmp_path / "review.md"
+    original = "---\\naction:\\njob_id: one\\n---\\n"
+    path.write_text(original, encoding="utf-8")
+
+    assert master_review._patch_action(path, "job_id", "missing", "select") is False
+    assert path.read_text(encoding="utf-8") == original
