@@ -2,11 +2,11 @@
 
 review_date: 2026-09-27
 
-- Open Administrative & Clerical rows reviewed: 2205
+- Open Administrative & Clerical rows reviewed: 2201
 - Auto/remembered selected: 406
 - Selected HC Tier A: 201
 - Selected HC Tier B: 205
-- POSS awaiting decision: 1677
+- POSS awaiting decision: 1673
 - Excluded: 0
 - HARD_PASS: 122
 
@@ -1370,18 +1370,6 @@ factual_fingerprint: 04dbcdcece15fb481dcb6ad2a057e212919b13c4b55d9d5b6b65dd3259c
 
 ---
 action:
-POSS | NHS Jobs | London | London, SW10 9NH | £34186.00 to £37389.00 | IVF Laboratory Adminstrator
-source_job_id: 5623177
-title: IVF Laboratory Adminstrator
-employer: Chelsea and Westminster Hospital NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9289-SC-458
-factual_fingerprint: c74cf9c1ca764354a0b78747876f811a99ccec52f33266eac398f62a6f978416
----
-
----
-action:
 POSS | NHS Jobs | Shropshire | Whitchurch, CF14 7EZ | Negotiable | Receptionist - Whitchurch Medical Centre
 source_job_id: 5623020
 title: Receptionist - Whitchurch Medical Centre
@@ -1522,18 +1510,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2475-26-0005
 factual_fingerprint: 58bc95fbfc1defc33db5671fdc5b508499877ce9ca325fd49287f7e2bfd72eb3
----
-
----
-action:
-POSS | NHS Jobs | Norfolk | Norwich, NR4 7UY | £25272.00 to £31157.00 | Administration - Temporary Staffing (Bank)
-source_job_id: 5622439
-title: Administration - Temporary Staffing (Bank)
-employer: Norfolk and Norwich University Hospital
-region: Norfolk
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9234-26-0898
-factual_fingerprint: 6d3561f12a7bd954d23624e6eb1623d7487ad3dbe4616214a9d2d0e84b736232
 ---
 
 ---
@@ -4754,18 +4730,6 @@ factual_fingerprint: f763057853fb52b6ad17672d3c1fdfa87660997e715110c0c643e650a0f
 
 ---
 action:
-POSS | NHS Jobs | West Midlands - Coventry & Warwickshire | Coventry, CV2 2DX | £32073.00 to £39043.00 | Clinical Quality Officer, Medicine
-source_job_id: 5618182
-title: Clinical Quality Officer, Medicine
-employer: University Hospitals Coventry and Warwickshire NHS Trust
-region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9218-26-1166
-factual_fingerprint: ff3e69804dc3ce26c68e29fdb3e5f6f88edae073420a66f2722886cc3dc33f3e
----
-
----
-action:
 POSS | NHS Jobs | West Midlands - Coventry & Warwickshire | Coventry, CV2 2DX | £28392.00 to £31157.00 | Medical Secretary, Neurosurgery
 source_job_id: 5614698
 title: Medical Secretary, Neurosurgery
@@ -6598,18 +6562,6 @@ region: Surrey
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9325-26-0710
 factual_fingerprint: 45afd3afc46fcae15344f69ca8a12cce4db7787190a034450f47629cc8d9242a
----
-
----
-action:
-POSS | NHS Jobs | Kent | DARTFORD, DA2 8DA | £27106.00 to £28850.00 | Appointments Officer
-source_job_id: 5616119
-title: Appointments Officer
-employer: Dartford and Gravesham NHS Trust
-region: Kent
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9252-26-0168
-factual_fingerprint: 9c23334a04fc15603cf889328c491dca3d444c458dd0ab3ded0467495877840e
 ---
 
 ---
