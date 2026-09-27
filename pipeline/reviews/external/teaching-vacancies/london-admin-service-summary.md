@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-09-26
-review_fingerprint: 3b4fb27c10a973f121b2f0ebabbb12b89243c737b596298e09669b2dc5cedf09
-routing_manifest_sha256: 659b8ff13d13221c591f0e893d5b850035994c447d6e8ab9f09ee4be1e7ebd4c
+review_date: 2026-09-27
+review_fingerprint: 48a9bfd1f08957fc09d7885e5a44090f027ea77cb173754681345e89d516e4e0
+routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 69
+- Records: 67
 - Selected: 26
-- POSS awaiting decision: 7
+- POSS awaiting decision: 6
 - Excluded: 0
-- Hard pass: 36
+- Hard pass: 35
 
 ## SELECTED
 
@@ -475,21 +475,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-lettings-admini
 
 ---
 action: 
-POSS | London | Harrow, London, HA3 5RQ | £24,030.00 - £25,048.00 Annually (Actual) | Cover Supervisor Manager
-employer: Whitefriars School
-closing_date: 2026-10-01T23:59:00+01:00
-reason: Manager title below £28,000 salary ceiling requires review
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 25fcbf7a96f5a01d77f3aa1e5135acbdee30f3dd8e653a3f530817b470154d1c
-source: Teaching Vacancies
-source_job_id: cover-supervisor-manager-whitefriars-school-harrow-middlesex
-source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-manager-whitefriars-school-harrow-middlesex
----
-
----
-action: 
 POSS | London | Barking, London, IG11 9AG | £32,372.00 - £33,343.00 Annually (Actual) Scale 6 (Point 18 – £36,693 to Point 20 – £37,794 Full time) Prorated salary range is likely to be approx: £32,372 – £33,343, (dependant on experience, week per year and continuous service). Based on working 35 hours per week, Term time plus 10 days. | Exams and Data Officer
 employer: Barking Abbey School, A Specialist Sports and Humanities College
 closing_date: 2026-10-16T09:00:00+01:00
@@ -539,11 +524,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-bo
 - [H3 Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/h3-admin-officer) — Insufficient admin/service evidence.
 - [HR & Payroll Apprentice](https://teaching-vacancies.service.gov.uk/jobs/hr-payroll-apprentice) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-e8e93e8c-5c0c-4ba3-aa93-a10cbe7095cd) — Insufficient admin/service evidence.
-- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-ark-oval-primary-academy-croydon-surrey) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-glenthorne-high-school) — Insufficient admin/service evidence.
 - [Human Resources Business Partner/People Manager FTC](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-people-manager-ftc) — Manager title salary ceiling £56,000 is not below £28,000.
 - [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-lilian-baylis-technology-school) — Insufficient admin/service evidence.
-- [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-saint-john-southworth-catholic-academy-trust) — Insufficient admin/service evidence.
 - [Learning Resource Centre Manager](https://teaching-vacancies.service.gov.uk/jobs/learning-resource-centre-manager-harris-city-academy-crystal-palace-london) — Manager title salary ceiling £34,488 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-hawes-down-primary-school) — Manager title salary ceiling £28,146 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-the-st-thomas-the-apostle-college) — Manager title salary ceiling £35,725 is not below £28,000.
@@ -558,6 +541,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-bo
 - [School Office Supervisor](https://teaching-vacancies.service.gov.uk/jobs/school-office-supervisor) — Insufficient admin/service evidence.
 - [Senior Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-admin-officer-st-stephen-s-cofe-primary-school) — Insufficient admin/service evidence.
 - [Senior Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-business-partner-creative-education-trust) — Insufficient admin/service evidence.
+- [Sixth Form Support Officer](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-support-officer-harris-science-academy-east-london) — Insufficient admin/service evidence.
 - [Strategic Lead for Human Resources](https://teaching-vacancies.service.gov.uk/jobs/strategic-lead-for-human-resources) — Insufficient admin/service evidence.
 - [Welfare and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/welfare-and-admin-officer) — Insufficient admin/service evidence.
 

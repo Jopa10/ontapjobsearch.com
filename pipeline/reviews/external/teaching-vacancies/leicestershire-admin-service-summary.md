@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-09-26
-review_fingerprint: 50802706f8f698cb4cdc9813959386abc783d787024b645977fc562ebf7b4713
-routing_manifest_sha256: 659b8ff13d13221c591f0e893d5b850035994c447d6e8ab9f09ee4be1e7ebd4c
+review_date: 2026-09-27
+review_fingerprint: 6d6f3a962a7c025bd4113e9231ac8a5e82dc651b09f0f273b8cb3065166da1a9
+routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 3
+- Records: 7
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 4
@@ -49,21 +49,6 @@ factual_fingerprint: 878f9c86c9ba6030d97c5c10ae4f183ea71cc8e745ae461eb1d1aa1aae9
 source: Teaching Vacancies
 source_job_id: receptionist-maternity-cover-manorfield-church-of-england-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-maternity-cover-manorfield-church-of-england-primary-school
----
-
----
-action: 
-SELECTED | Leicestershire | Leicester, East Midlands, LE9 9JL | FTE - £28,604 - £30,028 | Senior Administrator - Exams & Data
-employer: Bosworth Academy
-closing_date: 2026-09-27T09:00:59+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7cbaf28d7405459b3275cb812628adbfe4bfc48cbf915b3b63250458f6254879
-source: Teaching Vacancies
-source_job_id: senior-administrator-exams-data
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-exams-data
 ---
 
 ## POSS — choose SELECT or EXCLUDE

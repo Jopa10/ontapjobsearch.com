@@ -12,14 +12,14 @@ Edit only the `action:` line in each unresolved block:
 
 ## TOTALS
 
-- All routed roles: **593**
-- REVIEW NOW (LIVE regions): **546**
-- EDITABLE NOW (no remembered action): **543**
+- All routed roles: **588**
+- REVIEW NOW (LIVE regions): **540**
+- EDITABLE NOW (no remembered action): **537**
 - REMEMBERED / RESOLVED: **3**
-- DEFERRED - REGION NOT LIVE: **47**
-- SELECTED: **231**
-- POSS: **46**
-- HARD PASS / EXCLUDED: **269**
+- DEFERRED - REGION NOT LIVE: **48**
+- SELECTED: **229**
+- POSS: **45**
+- HARD PASS / EXCLUDED: **266**
 
 ## BEDFORDSHIRE — SELECTED
 
@@ -789,11 +789,11 @@ _No jobs in this group._
 
 ---
 action:
-POSS | Gloucestershire | Tewkesbury, South West, GL20 5SW | Estimated total hours of 130 annually. Hourly rate of £18-£25 depending on experience, invoiced for work undertaken | Governance Professional / Clerk to the Trust Board
+POSS | Gloucestershire | Tewkesbury, South West, GL20 5SW | £18.00 - £25.00 Hourly Estimated total hours of 130 annually. Hourly rate of £18-£25 depending on experience, invoiced for work undertaken | Governance Professional / Clerk to the Trust Board
 employer: Abbey View
-closing_date: 2026-09-28T23:59:00+01:00
+closing_date: 2026-10-12T23:59:00+01:00
 reason: Borderline school administration title: governance professional
-factual_fingerprint: ebca3153379254f9b0fea3d56a4a19c5c11b2a2353092321f6532ac869a980ca
+factual_fingerprint: 84fc12cb32fc9d3175c77c5d1781701b60d5c641574320cf227f23916f3431a7
 source_job_id: governance-professional-clerk-to-the-trust-board
 source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-clerk-to-the-trust-board
 ---
@@ -1224,17 +1224,6 @@ reason: Clear admin/service title: receptionist
 factual_fingerprint: 878f9c86c9ba6030d97c5c10ae4f183ea71cc8e745ae461eb1d1aa1aae962459
 source_job_id: receptionist-maternity-cover-manorfield-church-of-england-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-maternity-cover-manorfield-church-of-england-primary-school
----
-
----
-action:
-SELECTED | Leicestershire | Leicester, East Midlands, LE9 9JL | FTE - £28,604 - £30,028 | Senior Administrator - Exams & Data
-employer: Bosworth Academy
-closing_date: 2026-09-27T09:00:59+01:00
-reason: Clear admin/service title: administrator
-factual_fingerprint: 7cbaf28d7405459b3275cb812628adbfe4bfc48cbf915b3b63250458f6254879
-source_job_id: senior-administrator-exams-data
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-exams-data
 ---
 
 ## LEICESTERSHIRE — POSSIBLES
@@ -1674,17 +1663,6 @@ reason: Possible JobG8 duplicate requires review
 factual_fingerprint: 716e5a963b4f830209f13b953df972e3996ec8daafe7f19dc5fe1e7d6af20035
 source_job_id: cover-lettings-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-lettings-administrator
----
-
----
-action:
-POSS | London | Harrow, London, HA3 5RQ | £24,030.00 - £25,048.00 Annually (Actual) | Cover Supervisor Manager
-employer: Whitefriars School
-closing_date: 2026-10-01T23:59:00+01:00
-reason: Manager title below £28,000 salary ceiling requires review
-factual_fingerprint: 25fcbf7a96f5a01d77f3aa1e5135acbdee30f3dd8e653a3f530817b470154d1c
-source_job_id: cover-supervisor-manager-whitefriars-school-harrow-middlesex
-source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-manager-whitefriars-school-harrow-middlesex
 ---
 
 ---
@@ -2129,17 +2107,6 @@ reason: Clear admin/service title: administrator
 factual_fingerprint: a2b731714d78b2b507d8904cbbd3bc877a13efd0a9ca01b05a26ebde8dbf369f
 source_job_id: attendance-administrator-blessed-george-napier-catholic-school-and-sixth-form
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-blessed-george-napier-catholic-school-and-sixth-form
----
-
----
-action:
-SELECTED | Oxfordshire | Oxford, South East, OX4 6JZ | £26,824.00 - £29,065.00 Annually (FTE) Term Time Plus 2 weeks (5 inset days and hours during exam results) | Careers Administrator
-employer: The Oxford Academy
-closing_date: 2026-09-27T12:00:00+01:00
-reason: Clear admin/service title: administrator
-factual_fingerprint: 0426f9fbd26c1f4ad369f782003f23f9607a8eccf99d1dc323b268a442b09680
-source_job_id: careers-administrator-cbb25421-bec6-4abb-95a2-a79f4b477968
-source_url: https://teaching-vacancies.service.gov.uk/jobs/careers-administrator-cbb25421-bec6-4abb-95a2-a79f4b477968
 ---
 
 ---
@@ -3277,7 +3244,7 @@ These roles remain visible in the CSV but are not individually marked until the 
 | Greater Manchester - North / admin_service | 8 | 3 | 1 | 4 |
 | Lancashire - Blackpool & Fylde / admin_service | 1 | 1 | 0 | 0 |
 | Lancashire - Central / admin_service | 3 | 2 | 0 | 1 |
-| Lancashire - East / admin_service | 3 | 3 | 0 | 0 |
+| Lancashire - East / admin_service | 4 | 3 | 0 | 1 |
 | Merseyside - Sefton / admin_service | 1 | 1 | 0 | 0 |
 | Merseyside - St Helens & Knowsley / admin_service | 3 | 1 | 0 | 2 |
 | North East - Tees Valley / admin_service | 10 | 3 | 1 | 6 |

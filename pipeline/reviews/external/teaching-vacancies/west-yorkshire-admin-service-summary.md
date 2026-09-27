@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-09-26
+review_date: 2026-09-27
 review_fingerprint: 7d6add919e74a0af929d8583d3aa3031139a100294fb8465944418b1aebb0bc2
-routing_manifest_sha256: 659b8ff13d13221c591f0e893d5b850035994c447d6e8ab9f09ee4be1e7ebd4c
+routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 31
+- Records: 32
 - Selected: 13
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 15
+- Hard pass: 16
 
 ## SELECTED
 
@@ -270,6 +270,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-support-officer-7
 ## HARD_PASS
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-batley-girls-high-school-batley-west-yorkshire) — Insufficient admin/service evidence.
+- [Content Creator (7617)](https://teaching-vacancies.service.gov.uk/jobs/content-creator-7617) — Insufficient admin/service evidence.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-buttershaw-business-enterprise-college-academy) — Manager title salary ceiling £37,655 is not below £28,000.
 - [Data, MIS and Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/data-mis-and-admissions-manager-batley-grammar-school-batley-west-yorkshire) — Manager title salary ceiling £38,267 is not below £28,000.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.

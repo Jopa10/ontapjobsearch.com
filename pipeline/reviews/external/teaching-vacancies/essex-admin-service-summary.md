@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-09-26
+review_date: 2026-09-27
 review_fingerprint: e159547cf16bb1bf503add5ab89f9f273792bcdd8fa5098222e4b1c0a92ee719
-routing_manifest_sha256: 659b8ff13d13221c591f0e893d5b850035994c447d6e8ab9f09ee4be1e7ebd4c
+routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
+- Records: 15
 - Selected: 9
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
 
@@ -172,7 +172,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/social-media-design-a
 - [Reprographics Administrator/Receptionist](https://teaching-vacancies.service.gov.uk/jobs/reprographics-administrator-receptionist-plume-school) — Missing salary or pay scale.
 - [Senior HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-ea247ce7-8c6b-4179-a7a3-f1673e767983) — Insufficient admin/service evidence.
 - [STUDENT ATTENDANCE AND INCLUSION MANAGER](https://teaching-vacancies.service.gov.uk/jobs/student-attendance-and-inclusion-manager-dee93199-2550-4a54-8c93-9bcd03bba34f) — Manager title without salary evidence below £28,000.
-- [Work Placement Officer](https://teaching-vacancies.service.gov.uk/jobs/work-placement-officer) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

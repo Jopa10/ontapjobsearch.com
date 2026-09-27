@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-09-26
-review_fingerprint: ee1043352c7af8314dcdff7ac0dc18ca189c57d63103f543ed2b63795b58b947
-routing_manifest_sha256: 659b8ff13d13221c591f0e893d5b850035994c447d6e8ab9f09ee4be1e7ebd4c
+review_date: 2026-09-27
+review_fingerprint: 37e9c52c1ee9884b215205fb77fa029e9b5556bf8d1975aebe4be1cfe95e47e8
+routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
-- Selected: 10
+- Records: 18
+- Selected: 9
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 9
@@ -94,21 +94,6 @@ factual_fingerprint: a2b731714d78b2b507d8904cbbd3bc877a13efd0a9ca01b05a26ebde8db
 source: Teaching Vacancies
 source_job_id: attendance-administrator-blessed-george-napier-catholic-school-and-sixth-form
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-blessed-george-napier-catholic-school-and-sixth-form
----
-
----
-action: 
-SELECTED | Oxfordshire | Oxford, South East, OX4 6JZ | £26,824.00 - £29,065.00 Annually (FTE) Term Time Plus 2 weeks (5 inset days and hours during exam results) | Careers Administrator
-employer: The Oxford Academy
-closing_date: 2026-09-27T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0426f9fbd26c1f4ad369f782003f23f9607a8eccf99d1dc323b268a442b09680
-source: Teaching Vacancies
-source_job_id: careers-administrator-cbb25421-bec6-4abb-95a2-a79f4b477968
-source_url: https://teaching-vacancies.service.gov.uk/jobs/careers-administrator-cbb25421-bec6-4abb-95a2-a79f4b477968
 ---
 
 ---

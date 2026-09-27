@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-09-26
+review_date: 2026-09-27
 review_fingerprint: 8f512f5114f62dda944071f924c6cd649dc3e80485703d496632e417c74546b5
-routing_manifest_sha256: 659b8ff13d13221c591f0e893d5b850035994c447d6e8ab9f09ee4be1e7ebd4c
+routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
+- Records: 12
 - Selected: 9
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -168,7 +168,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-support-roles-
 
 - [Business Lead](https://teaching-vacancies.service.gov.uk/jobs/business-lead-st-leonard-s-catholic-primary-school-silksworth) — Insufficient admin/service evidence.
 - [Governance and Procurement Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-and-procurement-officer) — Insufficient admin/service evidence.
-- [HR Administration Assistant (Gateshead Schools)](https://teaching-vacancies.service.gov.uk/jobs/hr-administration-assistant-gateshead-schools) — Insufficient admin/service evidence.
 - [Marketing Assistant](https://teaching-vacancies.service.gov.uk/jobs/marketing-assistant-kings-priory-school) — Insufficient admin/service evidence.
 
 ## Safety boundary

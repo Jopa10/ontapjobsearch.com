@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-09-26
+review_date: 2026-09-27
 review_fingerprint: 77564b24a90fa6660409719b340425b401f5c0ccba96ee31e69acc590ace1207
-routing_manifest_sha256: 659b8ff13d13221c591f0e893d5b850035994c447d6e8ab9f09ee4be1e7ebd4c
+routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
+- Records: 14
 - Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -149,6 +149,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-manager-the-s
 
 ## HARD_PASS
 
+- [Bursar](https://teaching-vacancies.service.gov.uk/jobs/bursar-cliffedale-primary-school) — Insufficient admin/service evidence.
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-walton-academy) — Manager title salary ceiling £49,749 is not below £28,000.
 - [Governance & Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-compliance-officer-inspire-connected-communities-trust-louth-not-recorded) — Insufficient admin/service evidence.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-queen-elizabeth-s-high-school-gainsborough) — Manager title salary ceiling £42,839 is not below £28,000.

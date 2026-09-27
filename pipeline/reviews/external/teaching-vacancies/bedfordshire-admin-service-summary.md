@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-09-26
+review_date: 2026-09-27
 review_fingerprint: 775a435c032c64a804d6631d0ede58c29704362e7c94a7c8f6773a304576749e
-routing_manifest_sha256: 659b8ff13d13221c591f0e893d5b850035994c447d6e8ab9f09ee4be1e7ebd4c
+routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
+- Records: 14
 - Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 8
 
 ## SELECTED
 
@@ -124,7 +124,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-finance-
 - [Admin & Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-finance-assistant-mark-rutherford-school) — Insufficient admin/service evidence.
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-c5af3af6-3ac2-49eb-9534-035eb67e9604) — Manager title salary ceiling £45,401 is not below £28,000.
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-grasmere-nursery-school) — Insufficient admin/service evidence.
-- [Clerical Assistant - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-maternity-cover-icknield-primary-school-luton-bedfordshire) — Insufficient admin/service evidence.
 - [Financial Controller](https://teaching-vacancies.service.gov.uk/jobs/financial-controller-e5903e11-7297-4be8-a7c1-2e9280429c10) — Insufficient admin/service evidence.
 - [Officer Manager](https://teaching-vacancies.service.gov.uk/jobs/officer-manager-17efeac4-e980-48de-8ddc-1a2e769d02a2) — Manager title without salary evidence below £28,000.
 - [Safeguarding Officer](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-officer-redborne-upper-school-and-community-college) — Insufficient admin/service evidence.

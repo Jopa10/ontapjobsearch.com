@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-09-26
+review_date: 2026-09-27
 review_fingerprint: 65cefee6e83caf8539df62fc8be1b6d016264ecbf77c97aab259add64da4ee9d
-routing_manifest_sha256: 659b8ff13d13221c591f0e893d5b850035994c447d6e8ab9f09ee4be1e7ebd4c
+routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
+- Records: 16
 - Selected: 7
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 9
 
 ## SELECTED
 
@@ -139,6 +139,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-chi
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-45a5bd2d-645c-4812-81b2-869f779b8215) — Insufficient admin/service evidence.
 - [Data and Timetabling Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-timetabling-manager) — Manager title salary ceiling £35,669 is not below £28,000.
 - [Employee Relations Officer](https://teaching-vacancies.service.gov.uk/jobs/employee-relations-officer) — Insufficient admin/service evidence.
+- [HR Officer Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-maternity-cover-aylesbury-high-school) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-the-aylesbury-vale-academy) — Manager title salary ceiling £36,975 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-alfriston-school) — Manager title salary ceiling £46,650 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-b95ff08b-9acf-4cd1-8f39-df785de23724) — Manager title salary ceiling £48,738 is not below £28,000.

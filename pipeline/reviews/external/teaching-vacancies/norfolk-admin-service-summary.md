@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-09-26
+review_date: 2026-09-27
 review_fingerprint: 1dc5128398e7c44c02e820b2c364ab68e7990c86437fe37f166c10d040c0d306
-routing_manifest_sha256: 659b8ff13d13221c591f0e893d5b850035994c447d6e8ab9f09ee4be1e7ebd4c
+routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
+- Records: 13
 - Selected: 8
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 3
 
 ## SELECTED
 
@@ -181,9 +181,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-wit
 
 - [Administration Officer: Vulnerable Students](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-vulnerable-students) — Insufficient admin/service evidence.
 - [Director of Compliance](https://teaching-vacancies.service.gov.uk/jobs/director-of-compliance) — Insufficient admin/service evidence.
-- [Office Coordinator](https://teaching-vacancies.service.gov.uk/jobs/office-coordinator-duchy-of-lancaster-methwold-cofe-primary-school-thetford-norfolk) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-poringland-primary-school) — Manager title salary ceiling £33,119 is not below £28,000.
-- [Preschool Lead Practitioner – Part Time (2 days)](https://teaching-vacancies.service.gov.uk/jobs/preschool-lead-practitioner-part-time-2-days) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

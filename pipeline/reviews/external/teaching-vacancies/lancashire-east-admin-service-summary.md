@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - East
 
-review_date: 2026-09-26
+review_date: 2026-09-27
 review_fingerprint: 5117b2b146192ffe018326f18e524924ba0f62a1457e15cc5c01e06588807853
-routing_manifest_sha256: 659b8ff13d13221c591f0e893d5b850035994c447d6e8ab9f09ee4be1e7ebd4c
+routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
 ontap_region: Lancashire - East
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 4
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 0
+- Hard pass: 1
 
 ## SELECTED
 
@@ -76,7 +76,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ri
 
 ## HARD_PASS
 
-- None.
+- [Payroll and Pensions Manager](https://teaching-vacancies.service.gov.uk/jobs/payroll-and-pensions-manager-star-academies-blackburn-not-recorded) — Manager title salary ceiling £60,952 is not below £28,000.
 
 ## Safety boundary
 

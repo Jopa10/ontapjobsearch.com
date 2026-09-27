@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-09-26
+review_date: 2026-09-27
 review_fingerprint: ebdfcf440aadcf83614182a8da17b54700bea1f37287dc5995f6a1bf711937ea
-routing_manifest_sha256: 659b8ff13d13221c591f0e893d5b850035994c447d6e8ab9f09ee4be1e7ebd4c
+routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
+- Records: 15
 - Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 9
 
 ## SELECTED
 
@@ -122,7 +122,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-office-adminis
 ## HARD_PASS
 
 - [Head of HR Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-operations-united-learning-trust) — Insufficient admin/service evidence.
-- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-f3f57ca9-847f-4e59-bac2-1caf377a9267) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-buckden-cofe-primary-school) — Manager title salary ceiling £34,811 is not below £28,000.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-9a683a81-163f-46a5-b7f5-732557216d39) — Manager title salary ceiling £44,854 is not below £28,000.
 - [PA to Head of School & Administration Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-head-of-school-administration-manager) — Manager title salary ceiling £36,581 is not below £28,000.
