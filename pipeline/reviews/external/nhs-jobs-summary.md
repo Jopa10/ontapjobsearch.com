@@ -1,14 +1,14 @@
 # NHS Jobs admin/service review
 
-review_date: 2026-09-26
+review_date: 2026-09-27
 
-- Open Administrative & Clerical rows reviewed: 2219
-- Auto/remembered selected: 410
-- Selected HC Tier A: 204
-- Selected HC Tier B: 206
-- POSS awaiting decision: 1685
+- Open Administrative & Clerical rows reviewed: 2205
+- Auto/remembered selected: 406
+- Selected HC Tier A: 201
+- Selected HC Tier B: 205
+- POSS awaiting decision: 1677
 - Excluded: 0
-- HARD_PASS: 124
+- HARD_PASS: 122
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
 
@@ -3602,18 +3602,6 @@ factual_fingerprint: c86bf646212dd31e770feb7d81ebbf0edbda2ccbb76cbc8aa5bc9e7a6bc
 
 ---
 action:
-POSS | NHS Jobs | London | London, W2 1NY | £47951.00 to £56863.00 | Business Intelligence Analyst
-source_job_id: 5620384
-title: Business Intelligence Analyst
-employer: Imperial College Healthcare NHS Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9290-26-1105
-factual_fingerprint: 26ac95d950229c0f653b640579a788d997b095f7c94b33efa174c8dc9ee1cdf5
----
-
----
-action:
 POSS | NHS Jobs | Wiltshire | Swindon, SN1 2DQ, Swindon, SN5 5AN, Swindon, SN1 2QU | Negotiable | GP Assistant
 source_job_id: 5620031
 title: GP Assistant
@@ -4162,18 +4150,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9271-26-0388
 factual_fingerprint: d26b0e85bf5ef007177c190628f453931f9d6fc38899bfff75064133d0486a90
----
-
----
-action:
-POSS | NHS Jobs | London | London, EC1V 2PD | £31554.00 to £33270.00 | Outpatient Clinic Coordinator
-source_job_id: 5619483
-title: Outpatient Clinic Coordinator
-employer: Moorfields Eye Hospital NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9273-26-0233
-factual_fingerprint: 003b40b2406f548b0f3008ee97f1b49743316eec19cc2ba22864e28ccf330563
 ---
 
 ---
@@ -5614,18 +5590,6 @@ region: Gloucestershire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9318-26-0829
 factual_fingerprint: c724e4d4bb0cf8d1367156308a0e5bc74959a68f120356d925842221226ab592
----
-
----
-action:
-POSS | NHS Jobs | West Midlands - Black Country | Smethwick, B66 2QT | £28392.00 to £31157.00 | PALS Officer
-source_job_id: 5617283
-title: PALS Officer
-employer: Sandwell and West Birmingham NHS Trust
-region: West Midlands - Black Country
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9381-26-0395
-factual_fingerprint: 1f123dec2f5ceaf6a0189f0ef97ebd764b1c3931b894c0d40a9372324bc4fa45
 ---
 
 ---
@@ -9098,18 +9062,6 @@ factual_fingerprint: 62996aef0ba351cf7b110172e1b50db3eb3a8e5aff1c8046e6fe4867760
 
 ---
 action:
-POSS | NHS Jobs | Kent | Gillingham, ME7 1AL | £25272.00 | Administrator Assistant/Receptionist
-source_job_id: 5612356
-title: Administrator Assistant/Receptionist
-employer: Kent and Medway Mental Health NHS Trust
-region: Kent
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0766
-factual_fingerprint: 55025f0b258465024c96d3b46cf9f5e54d35f9bcf169fc468758db3f2185bc7b
----
-
----
-action:
 POSS | NHS Jobs | — | Wednesfield, WV10 0QP | £25760.00 to £27476.00 | CAS Co-Ordinator & Team Secretary
 source_job_id: 5612425
 title: CAS Co-Ordinator & Team Secretary
@@ -10178,18 +10130,6 @@ factual_fingerprint: 5b5ba95a11d64c7c61d72b337bc9a271203f18efc7654e704b05ba2336d
 
 ---
 action:
-POSS | NHS Jobs | West Midlands - Black Country | Halesowen, B63 3HN | £12.91 | Temporary Receptionist GP Practice
-source_job_id: 5610602
-title: Temporary Receptionist GP Practice
-employer: Stourside Medical Practice
-region: West Midlands - Black Country
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0805-26-0020
-factual_fingerprint: 877892f4673b563f497d4df0ad683c3b78b74d2d6dd55f7eb4bd67dfabe02e1b
----
-
----
-action:
 POSS | NHS Jobs | — | Leeds and surrounding areas, LS6 2BG | Negotiable | Learning and Development Facilitator - Leeds and surrounding area
 source_job_id: 5610233
 title: Learning and Development Facilitator - Leeds and surrounding area
@@ -10714,18 +10654,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9309-26-0922
 factual_fingerprint: c18ed7ffe0b0e145425382e49d862d9dd149423d75b2bb9cace8b0db8e2e7e3e
----
-
----
-action:
-POSS | NHS Jobs | Hampshire | Southampton, SO16 6YD | Negotiable | Endoscopy Flow Coordinator
-source_job_id: 5608246
-title: Endoscopy Flow Coordinator
-employer: University Hospital Southampton NHS Trust
-region: Hampshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9188-26-0841
-factual_fingerprint: 1053bf2fa348995ebac46f9411e31ecd6c8b7393fd27c4839ac190db9549c44e
 ---
 
 ---
@@ -14462,18 +14390,6 @@ factual_fingerprint: c636e847c4273bae8cbaeefcef2e8572cc755ddd53c320e9e1794ce8fc7
 
 ---
 action:
-POSS | NHS Jobs | West Midlands - Birmingham & Solihull | Birmingham, B31 2AP | £25760.00 to £27476.00 | MSK Occupational Health Service Administrator - WorkFit Project
-source_job_id: 5602100
-title: MSK Occupational Health Service Administrator - WorkFit Project
-employer: The Royal Orthopaedic Hospital NHS Foundation Trust
-region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9303-26-0131
-factual_fingerprint: 23cb5f1e15ac88af85820d9dec03dc08ddb1e81ff5d1b663810e803afbf68eac
----
-
----
-action:
 POSS | NHS Jobs | — | Leeds / Exeter, LS1 4AP | £59264.40 to £67818.00 | Cyber Security Analyst - Infrastructure & Networks
 source_job_id: 5602297
 title: Cyber Security Analyst - Infrastructure & Networks
@@ -15778,18 +15694,6 @@ region: Merseyside - Liverpool
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9287-26-1489
 factual_fingerprint: d2e33ec870d18ec41958874181f28c9c3876ed38f7bfb9c8fb4c1841aa398653
----
-
----
-action:
-POSS | NHS Jobs | Cumbria - North | Carlisle, CA2 7HY | £94356.00 to £108814.00 | Associate Director of Operations
-source_job_id: 5598943
-title: Associate Director of Operations
-employer: North Cumbria Integrated Care NHS Foundation Trust
-region: Cumbria - North
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9262-26-1444
-factual_fingerprint: a34f87b1d391874ac03ca158b8dc7090930d6fbc36d8f02de78a652823c1484e
 ---
 
 ---
