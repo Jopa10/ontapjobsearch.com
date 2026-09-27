@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-09-26
+feed_date: 2026-09-27
 
 Edit only the `action:` line in each block:
 
@@ -21,6 +21,12 @@ job_id: 1996739
 action:
 SELECTED | Yorkshire - West | Leeds | £14.50 per hour | Female Night Support Worker
 job_id: 1996737
+---
+
+---
+action:
+SELECTED | Yorkshire - West | Halifax | £13.15 per hour | Support Worker
+job_id: 2026985
 ---
 
 ---
@@ -227,18 +233,6 @@ SELECTED | Hampshire | Romsey | £28697 - £31573 per year | Children's Home Sup
 job_id: 1401785505
 ---
 
----
-action:
-SELECTED | Hampshire | Tadley | £25437 per year | Female Support Worker
-job_id: 107989086
----
-
----
-action:
-SELECTED | Hampshire | Freshwater | £14000 per year | Care Assistant
-job_id: 107986719
----
-
 ## HAMPSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -325,14 +319,14 @@ job_id: 2028441
 
 ---
 action:
-SELECTED | London | London | £30,000 per annum | Bereavement Support Worker
-job_id: 2028763
+SELECTED | London | London | £12.71 per hour | Night Care Assistant
+job_id: 107862702
 ---
 
 ---
 action:
-SELECTED | London | London | £12.71 per hour | Night Care Assistant
-job_id: 107862702
+SELECTED | London | London | £12.71 per hour | Care Assistant
+job_id: 107862712
 ---
 
 ## LONDON — POSSIBLES

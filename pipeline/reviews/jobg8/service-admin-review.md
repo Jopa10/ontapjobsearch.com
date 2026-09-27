@@ -1,6 +1,6 @@
 # Service-admin manual review
 
-feed_date: 2026-09-26
+feed_date: 2026-09-27
 
 Edit only the `action:` line in each block:
 
@@ -407,12 +407,6 @@ job_id: 1858746
 action:
 SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Sales Support Administrator
 job_id: 1859485
----
-
----
-action:
-SELECTED | London | London | £35000 per year [JobG8 salary fields] | Assistant Accountant
-job_id: 1857664
 ---
 
 ---
@@ -1413,14 +1407,8 @@ job_id: 2028719
 
 ---
 action:
-SELECTED | London | London | £24,000 per annum [extracted from description] | Charity Coordinator
-job_id: 2029766
----
-
----
-action:
-SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Office Administrator
-job_id: 2029765
+SELECTED | London | London | £34,280.35 Per Annum [extracted from description] | Property Services Planner/Scheduler
+job_id: 2028899
 ---
 
 ---
@@ -2189,12 +2177,6 @@ job_id: 1894808
 
 ---
 action:
-SELECTED | Sussex | Sussex |  | Solicitor or Paralegal - Contentious Probate Litigation - Part-time
-job_id: 1894680
----
-
----
-action:
 SELECTED | Sussex | Sussex | £26000 per year | HR Administrative Assistant
 job_id: 108005260
 ---
@@ -2207,12 +2189,6 @@ job_id: 1881796
 
 ---
 action:
-SELECTED | Sussex | Sussex | £24000 per year | HR Administrator
-job_id: 108015994
----
-
----
-action:
 SELECTED | Sussex | Sussex | £15.00 per hour | School Administrator
 job_id: 2023516
 ---
@@ -2221,12 +2197,6 @@ job_id: 2023516
 action:
 SELECTED | Sussex | Sussex | £30000 - £35000 per year | Accounts Administrator
 job_id: 2027321
----
-
----
-action:
-SELECTED | Sussex | Sussex | £26000 per year | HR Administrative Assistant (Secondment Cover)
-job_id: 107978791
 ---
 
 ## SUSSEX — POSSIBLES
@@ -2759,6 +2729,12 @@ job_id: 2027908
 action:
 SELECTED | Bristol & Bath | Bristol |  | Peripatetic Service Coordinator - Mental Health
 job_id: 2028810
+---
+
+---
+action:
+SELECTED | Bristol & Bath | Bristol | £26000 per year | Customer Support Coordinator
+job_id: 108025083
 ---
 
 ## BRISTOL & BATH — POSSIBLES
@@ -4509,12 +4485,6 @@ job_id: 2017558
 
 ---
 action:
-SELECTED | Greater Manchester - Manchester & Salford | Stretford |  | Gorse Hill Studios Administrator
-job_id: 2028809
----
-
----
-action:
 SELECTED | Greater Manchester - Manchester & Salford | Manchester | £28,051 per annum | OASIS PROJECT ADMINISTRATOR (PARENTS AND CARERS)
 job_id: 2028767
 ---
@@ -5171,12 +5141,6 @@ job_id: 1892604
 action:
 SELECTED | Norfolk | Norfolk |  | Accounts Assistant
 job_id: 1881936
----
-
----
-action:
-SELECTED | Norfolk | Norfolk |  | Emergency Call Handler - Ambulance
-job_id: 2013829
 ---
 
 ## NORFOLK — POSSIBLES
@@ -6145,12 +6109,6 @@ SELECTED | Staffordshire | Staffordshire | £13 - £14 per hour (+ Bonus) | Onsi
 job_id: 108003800
 ---
 
----
-action:
-SELECTED | Staffordshire | Staffordshire | £14.3 per hour | HR Administrator
-job_id: 108005589
----
-
 ## STAFFORDSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -6473,6 +6431,12 @@ job_id: 1936986
 action:
 SELECTED | Wales South - Valleys | Aberdare |  | Assistant Management Accountant
 job_id: 1910178
+---
+
+---
+action:
+SELECTED | Wales South - Valleys | Pontypridd |  | Distribution Coordinator
+job_id: 2032395
 ---
 
 ## WALES SOUTH - VALLEYS — POSSIBLES
@@ -6833,12 +6797,6 @@ job_id: 1915676
 action:
 SELECTED | Wiltshire | Wiltshire | £30000 per year | Accounts Assistant
 job_id: 1896597
----
-
----
-action:
-SELECTED | Wiltshire | Wiltshire |  | Administrator
-job_id: 2028796
 ---
 
 ## WILTSHIRE — POSSIBLES
