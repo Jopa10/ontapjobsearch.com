@@ -1,26 +1,26 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-20T15:30:08+01:00",
+  "generated_at": "2026-09-27T16:30:05+01:00",
   "source": "Teaching Vacancies",
   "region": "Oxfordshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-20",
-  "review_fingerprint": "6f40f1f6537928c40c5ef1781ca70cae3e85ea608cc553071e250f45a2cb7ae1",
-  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
-  "review_csv_sha256": "1771794e938e2a98620a5530885466b255a17c649338a31b20c1895b132d5658",
-  "summary_md_sha256": "c8c12c8107f3c83fb151277c34a5ed648765f2605bd858e32667a99c6b2ecaac",
-  "approved_snapshot_sha256": "472e360fc07eeb33d0b05e8e39ecd87bed748d49869a2502b635da13355c62a2",
+  "review_date": "2026-09-27",
+  "review_fingerprint": "37e9c52c1ee9884b215205fb77fa029e9b5556bf8d1975aebe4be1cfe95e47e8",
+  "routing_manifest_sha256": "cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a",
+  "review_csv_sha256": "95c63d7ac21da9450a07fc6a167447d570860fd9ed2b8059c385646f455dbb63",
+  "summary_md_sha256": "acb40e1066e99814097a32222bef0f81f66f3875735f9efa93efc80ab66e118e",
+  "approved_snapshot_sha256": "f1429adf283fad6661ddcfd5666283c856b4fdaea953ca1f2f8aa3a5ab95440d",
   "approved_rows": 9,
   "approved_job_ids": [
-    "teaching-vacancies-attendance-officer-wallingford-school",
-    "teaching-vacancies-procurement-administrator-hybrid-role",
-    "teaching-vacancies-student-receptionist-and-pastoral-assistant",
-    "teaching-vacancies-careers-administrator-cbb25421-bec6-4abb-95a2-a79f4b477968",
     "teaching-vacancies-administration-assistant-bloxham-grove-academy-banbury",
     "teaching-vacancies-administrative-assistant-chalgrove-community-primary-school",
     "teaching-vacancies-office-administrator-wantage-primary-academy-wantage-oxfordshire",
     "teaching-vacancies-data-insights-and-examinations-officer-orion-academy",
-    "teaching-vacancies-administrative-assistant-bampton-cofe-primary-school-bampton-oxfordshire"
+    "teaching-vacancies-admissions-administrator-larkmead-school",
+    "teaching-vacancies-student-services-administrator-larkmead-school",
+    "teaching-vacancies-administrative-assistant-bampton-cofe-primary-school-bampton-oxfordshire",
+    "teaching-vacancies-attendance-administrator-blessed-george-napier-catholic-school-and-sixth-form",
+    "teaching-vacancies-receptionist-edf1f45d-c1c2-4efe-8319-033977840917"
   ]
 }

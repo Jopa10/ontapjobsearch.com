@@ -1,21 +1,26 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-20T15:30:07+01:00",
+  "generated_at": "2026-09-27T16:30:05+01:00",
   "source": "Teaching Vacancies",
   "region": "North East",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-20",
-  "review_fingerprint": "8bbe72d183ba971ed59728aff0d7e9f37efc5265ae8b8269b706b8d685e8196f",
-  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
-  "review_csv_sha256": "a397034b5483997d6974c3845bf89f26a14a65dd66aaa8084331ad2053cac955",
-  "summary_md_sha256": "57dd2fdb461d4c15d95cbae16b1b0a5f4a47d653be29909bc4c34d80f3b2e80e",
-  "approved_snapshot_sha256": "9fa183f93dae64432e437a4060a176fe2fdd16f72d3c2509e51873e036278630",
-  "approved_rows": 4,
+  "review_date": "2026-09-27",
+  "review_fingerprint": "8f512f5114f62dda944071f924c6cd649dc3e80485703d496632e417c74546b5",
+  "routing_manifest_sha256": "cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a",
+  "review_csv_sha256": "7c03ed38203b0c992da32347e76faeabe91149815f2edbe5346630a4f212d928",
+  "summary_md_sha256": "e6f405879a43378ce8bc4bcb23e031ff1b1ad2aefd1f6a6fd1c6eda51d02c8db",
+  "approved_snapshot_sha256": "db340c9fe942e04ed22874d0c5b7dfb1d1b56a731da33546823c2db7da23dfc7",
+  "approved_rows": 9,
   "approved_job_ids": [
+    "teaching-vacancies-inclusion-administrator-the-blyth-academy",
     "teaching-vacancies-school-support-roles-supervisory-assistant-administrative-assistant",
     "teaching-vacancies-attendance-officer-administrator-bede-academy-blyth-northumberland",
     "teaching-vacancies-hr-payroll-administrator-emmanuel-schools-foundation",
-    "teaching-vacancies-lead-administrator-harry-watts-academy"
+    "teaching-vacancies-lead-administrator-harry-watts-academy",
+    "teaching-vacancies-administration-assistant-north-durham-academy",
+    "teaching-vacancies-administration-assistant-st-leonard-s-catholic-primary-school-silksworth",
+    "teaching-vacancies-data-management-administrator-2025-hm084",
+    "teaching-vacancies-school-administrator-4b89961d-cc62-4cfa-9732-a8929179b607"
   ]
 }

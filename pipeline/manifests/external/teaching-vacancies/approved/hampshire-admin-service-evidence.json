@@ -1,21 +1,19 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-20T15:30:06+01:00",
+  "generated_at": "2026-09-27T16:30:03+01:00",
   "source": "Teaching Vacancies",
   "region": "Hampshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-20",
-  "review_fingerprint": "c97f5e6e2f6cebbb1bd91a70f0ac3eec902886e602c1a1aaf10fe4cb3937d279",
-  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
-  "review_csv_sha256": "7904978272a87860c22b4e0e3153952f53d06b566b9285116623a4bf8ac65f1c",
-  "summary_md_sha256": "7ea7bfbe5c71c11c7def6a70760d2d3e4e53fb9d3f4e5c1cd675fc89882feab8",
-  "approved_snapshot_sha256": "94b411444bc435288b542a53ba714e53ee606fa82ea7ef83b02b14c3a9320e1c",
-  "approved_rows": 4,
+  "review_date": "2026-09-27",
+  "review_fingerprint": "bdc58b16dea191ef8e35becb0d2df961134449a2e1c20d1f0e85f20cdf15f9dd",
+  "routing_manifest_sha256": "cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a",
+  "review_csv_sha256": "ca7ca84ca6757026f3c5da955f7fc20db64173640548f4977803be08f3cced1c",
+  "summary_md_sha256": "e6c2b44a4e3d818a1b8bec1b611f9cdafd12f55b5f24fadd2b44690c9e388159",
+  "approved_snapshot_sha256": "59ba7f09e5b26faf99d842295e65fc67d519f99d834d7dfd895cc07ba1edab0c",
+  "approved_rows": 2,
   "approved_job_ids": [
-    "teaching-vacancies-admin-assistant-the-cambridge-primary-school",
-    "teaching-vacancies-exams-officer-and-assessment-data-co-ordinator",
-    "teaching-vacancies-personal-assistant-to-executive-headteacher-vita-multi-academy-trust",
-    "teaching-vacancies-administrator-the-harbour-school-the-harbour-school"
+    "teaching-vacancies-administrator-the-harbour-school-the-harbour-school",
+    "teaching-vacancies-administrative-assistant-thursdays-and-fridays"
   ]
 }

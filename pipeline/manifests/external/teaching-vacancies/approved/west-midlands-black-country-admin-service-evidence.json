@@ -1,21 +1,21 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-20T15:30:09+01:00",
+  "generated_at": "2026-09-27T16:30:07+01:00",
   "source": "Teaching Vacancies",
   "region": "West Midlands - Black Country",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-20",
-  "review_fingerprint": "7c2165f5ce452ffc93fd57c15df475faa2c8f88d1a6b41c2efb8cdd186f64747",
-  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
-  "review_csv_sha256": "ba3a47ae64ca2c1b6fad1727bab7ac870a52979e307f3e30bf874bf31b4f32ae",
-  "summary_md_sha256": "35d0c24cdb85ecefbcb88c364b6857da6bb88c318fa8436c94674424dd135584",
-  "approved_snapshot_sha256": "2c26848286e50108ea356595263ff2ae4bbd7fa29cb09d1dc0d02bcb4344062e",
+  "review_date": "2026-09-27",
+  "review_fingerprint": "d01b75243e9a1a2d5255ea7046b868ce79f239ff6d8472f88780ffcb034f67f4",
+  "routing_manifest_sha256": "cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a",
+  "review_csv_sha256": "8a6d171a996780559ce8682ae46f9df8d6123f498c0bc2f596977d07821fc6ff",
+  "summary_md_sha256": "5c7af0d64a3e00daa4060e2b0143438498f7f7b96e869153c963a3647086dc9e",
+  "approved_snapshot_sha256": "a58a5b255f5ac992b83f39d8a41d773ae20153e65d7d61fe0572c7761a64c1b7",
   "approved_rows": 4,
   "approved_job_ids": [
     "teaching-vacancies-administrative-assistant-st-jude-s-church-of-england-primary-academy",
     "teaching-vacancies-receptionist-yew-tree-primary-school",
-    "teaching-vacancies-receptionist-administrative-assistant-st-edmund-s-catholic-academy",
+    "teaching-vacancies-administration-assistant-west-bromwich-collegiate-academy",
     "teaching-vacancies-attendance-officer-ormiston-sandwell-community-academy-oldbury-west-midlands"
   ]
 }

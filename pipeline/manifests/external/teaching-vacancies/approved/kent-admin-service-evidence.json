@@ -1,23 +1,22 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-20T15:30:07+01:00",
+  "generated_at": "2026-09-27T16:30:04+01:00",
   "source": "Teaching Vacancies",
   "region": "Kent",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-20",
-  "review_fingerprint": "ca389d00347800c40ce9ed5e078b5916c406a373bd02718146b660f7e1f380e2",
-  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
-  "review_csv_sha256": "ff3b75dd6ef2f3459e2e4eaaa08d1beba8f26e7e4d06d00a01a035515aa2fb65",
-  "summary_md_sha256": "2cc2dc7326ba4cad938b360362f2f06d40cb8270697df80d7edb9bcdd0bbb13a",
-  "approved_snapshot_sha256": "4b562e4d03178f402d3b3ab08a438c1e4f9256c2b39a7db488fa5d1394d0ccad",
-  "approved_rows": 6,
+  "review_date": "2026-09-27",
+  "review_fingerprint": "d1a163197be23634174f30c6c58ec61ba8d9d8ef9d6f1e4fd0101c5b198dddad",
+  "routing_manifest_sha256": "cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a",
+  "review_csv_sha256": "354de87073fe857d33132ce84092879611c8c4d694435b25fcf5539e2f39e711",
+  "summary_md_sha256": "1314df35e65556ea4544f6d4398d62ce87be67c0ce4b96c4ab7c450c681c5e81",
+  "approved_snapshot_sha256": "024a18f0c01b4bac55ecee289da1e7aeca3edca2c6a83404081403493b575b82",
+  "approved_rows": 5,
   "approved_job_ids": [
-    "teaching-vacancies-administration-assistant-st-augustine-academy",
-    "teaching-vacancies-administrative-assistant-hillview-school-for-girls",
-    "teaching-vacancies-attendance-administrator-2f3d689b-f206-45e5-991f-9a3a5bcff860",
     "teaching-vacancies-school-receptionist-administrator-valence-school-westerham-kent",
     "teaching-vacancies-admissions-officer-the-robert-napier-school",
-    "teaching-vacancies-personal-assistant-to-the-headteacher-maidstone-grammar-school-for-girls"
+    "teaching-vacancies-personal-assistant-to-the-headteacher-maidstone-grammar-school-for-girls",
+    "teaching-vacancies-curriculum-administrator-north-kent-college",
+    "teaching-vacancies-pupil-records-administrator-parkwood-hall-academy-trust-swanley-kent"
   ]
 }

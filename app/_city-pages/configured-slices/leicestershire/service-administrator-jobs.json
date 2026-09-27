@@ -1,8 +1,8 @@
 [
   {
-    "job_id": "teaching-vacancies-senior-administrator-exams-data",
-    "title": "Senior Administrator - Exams & Data",
-    "company": "Bosworth Academy",
+    "job_id": "teaching-vacancies-pa-to-the-principal-tudor-grange-samworth-academy-a-church-of-england-school-leicester-leicestershire",
+    "title": "PA to the Principal",
+    "company": "Tudor Grange Samworth Academy, A church of England School",
     "location": "Leicester",
     "region": "Leicestershire",
     "country": "UK",
@@ -10,21 +10,18 @@
     "employment_type": "['full time']",
     "salary_min": "",
     "salary_max": "",
-    "salary_text": "FTE - £28,604 - £30,028",
+    "salary_text": "£31,537.00 - £33,699.00 Annually (FTE) Grade 2 Point 3-3",
     "work_pattern": "",
     "posted_date": "2026-09-09",
-    "closing_date": "2026-09-27",
-    "closing_datetime": "2026-09-27T09:00:59+01:00",
-    "summary": "Senior Administrator - Exams & Data with Bosworth Academy in Leicester. ['full time']; FTE - £28,604 - £30,028.",
-    "description": "Bosworth Academy is recruiting for this vacancy in Leicester.\n\nThe advertised position is Senior Administrator - Exams & Data.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is FTE - £28,604 - £30,028.\n\nThe stated application deadline is 2026-09-27T09:00:59+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-exams-data?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "closing_date": "2026-09-30",
+    "closing_datetime": "2026-09-30T23:59:00+01:00",
+    "summary": "PA to the Principal with Tudor Grange Samworth Academy, A church of England School in Leicester. ['full time']; £31,537.00 - £33,699.00 Annually (FTE) Grade 2 Point 3-3.",
+    "description": "Tudor Grange Samworth Academy, A church of England School is recruiting for this vacancy in Leicester.\n\nThe advertised position is PA to the Principal.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £31,537.00 - £33,699.00 Annually (FTE) Grade 2 Point 3-3.\n\nThe stated application deadline is 2026-09-30T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-principal-tudor-grange-samworth-academy-a-church-of-england-school-leicester-leicestershire?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Bosworth Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -50,9 +47,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Manorfield Church of England Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -397,6 +391,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9313-26-0429",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -416,6 +413,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0126-26-0031",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

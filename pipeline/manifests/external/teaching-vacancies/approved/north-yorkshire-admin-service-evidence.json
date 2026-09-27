@@ -1,19 +1,18 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-20T15:30:10+01:00",
+  "generated_at": "2026-09-27T16:30:08+01:00",
   "source": "Teaching Vacancies",
   "region": "Yorkshire - North",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-20",
-  "review_fingerprint": "b5170c548686cc612ccc4d950f06981652cd53daaf329dd7f5cfdfabc51aa8a3",
-  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
-  "review_csv_sha256": "13d1fc49bf24212030442e9ce16172350e98d408211258da4b357247e087e039",
-  "summary_md_sha256": "0155399958077882ddf641763689d06dce0e89c555811ea1feeb4e1097d0687a",
-  "approved_snapshot_sha256": "0f08ce927e02f6cc040187d8481cc3aebeb00e4feb4f5b1eef1150271a46bc44",
-  "approved_rows": 2,
+  "review_date": "2026-09-27",
+  "review_fingerprint": "b2f4e62f6b352928a3f38ee4b779eff2a0604a7b85b228127863e896d39fee93",
+  "routing_manifest_sha256": "cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a",
+  "review_csv_sha256": "cfca1f9cbc205912df071886bec9799f91b7e1805cd753c4e4e88526a42b0d68",
+  "summary_md_sha256": "440544c72c1f4a3ca55643f47ac3369430c5bb0dec9ebf9153445221ff8f39b3",
+  "approved_snapshot_sha256": "243b06441b9a276d87b2d2afaee7f2a842f8624d7b244ea6e6e1fe275b8de246",
+  "approved_rows": 1,
   "approved_job_ids": [
-    "teaching-vacancies-send-administrator-george-pindar-school",
     "teaching-vacancies-attendance-administrator-archbishop-holgate-s-school-a-church-of-england-academy"
   ]
 }

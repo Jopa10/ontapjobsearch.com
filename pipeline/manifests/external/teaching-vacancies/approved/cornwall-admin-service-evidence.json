@@ -1,19 +1,19 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-20T15:30:05+01:00",
+  "generated_at": "2026-09-27T16:30:02+01:00",
   "source": "Teaching Vacancies",
   "region": "Cornwall",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-20",
-  "review_fingerprint": "b1220edd4426413e1816f0ef09aa29414a667e7e4c375d086ec46c70d03affc7",
-  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
-  "review_csv_sha256": "9a0ddec68b7f59c7106f4f91ab1d2d29a5a114de53710ea25a3fa352f23a6c19",
-  "summary_md_sha256": "95c4b4db79721acb4cabc98ab3cf52d5d4e2a779211d3ce153569cf866fc5e7e",
-  "approved_snapshot_sha256": "d23cd44d4710cf75e7978d0829851045ad576a3be8a8d5cafe6888b769aca9dd",
+  "review_date": "2026-09-27",
+  "review_fingerprint": "467f7d013e079905e98b7645713d42c8fdad869da5e76dc665a1f63c2325d86d",
+  "routing_manifest_sha256": "cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a",
+  "review_csv_sha256": "4e771bc414842f2a401cb0d538e59884acce6f3a73b9a4dfb828c272151f63a5",
+  "summary_md_sha256": "8234cc79c59d34b63969588985394f6194cab8da59af2a20051599115e6dd916",
+  "approved_snapshot_sha256": "960ee690dfc845015aaf8d3d977e688c086ed23d5724892e753facb9224d1e87",
   "approved_rows": 2,
   "approved_job_ids": [
-    "teaching-vacancies-exams-officer-falmouth-school",
-    "teaching-vacancies-school-administrator-darite-primary-academy"
+    "teaching-vacancies-temporary-school-administrator-brunel-primary-nursery-academy",
+    "teaching-vacancies-part-time-attendance-administrator"
   ]
 }

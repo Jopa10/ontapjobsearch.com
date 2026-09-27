@@ -1,20 +1,25 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-20T15:30:06+01:00",
+  "generated_at": "2026-09-27T16:30:03+01:00",
   "source": "Teaching Vacancies",
   "region": "Greater Manchester - Manchester & Salford",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-20",
-  "review_fingerprint": "be40957dac51a11b651cd4f3a3bf508595f80b21af3951f471a40fa59c6bb12d",
-  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
-  "review_csv_sha256": "6ae5ef1c7b4a8925733a7774213a4f0e1edfa9be30f2efe05131efdabce23fb8",
-  "summary_md_sha256": "359cf957018f0d43fed9a663064c9a2dc8746974dba3e812bc1e5a6f7666fb30",
-  "approved_snapshot_sha256": "a9b3eec0b211b8650b1dcd4ef1db5a87c62d3ac417821058f394e14009a208a5",
-  "approved_rows": 3,
+  "review_date": "2026-09-27",
+  "review_fingerprint": "6e12daca05362b93d575a9a7b6fae12f3132f148f5b3bffd55fe64d32762a80f",
+  "routing_manifest_sha256": "cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a",
+  "review_csv_sha256": "426cba98b3fe9f6577dd3e1e94eff76e1561b970533ee886bf2a4623311049d8",
+  "summary_md_sha256": "4014f2e035533b2a5b0b963f96e1b6b9d88686cc3ba557a029f4cd242dba95c6",
+  "approved_snapshot_sha256": "957a7c66e0d200d2d3af81ef78b40ed83e3e6fc6c24ca0f30f06d3893f46e0e2",
+  "approved_rows": 8,
   "approved_job_ids": [
     "teaching-vacancies-senior-administrator-to-the-senior-leadership-team",
     "teaching-vacancies-assistant-exams-officer-saint-paul-s-catholic-high-school",
-    "teaching-vacancies-pastoral-administrator-salford-city-academy"
+    "teaching-vacancies-level-2-academy-administrator-fa9311a4-090f-47e6-bfc4-97d8abcfff69",
+    "teaching-vacancies-office-administrator-the-orchards-stretford-greater-manchester",
+    "teaching-vacancies-receptionist-and-marketing-administrator",
+    "teaching-vacancies-send-administrator-the-albion-academy",
+    "teaching-vacancies-office-administrator-and-receptionist-salford-city-academy",
+    "teaching-vacancies-trust-finance-and-systems-administrator"
   ]
 }

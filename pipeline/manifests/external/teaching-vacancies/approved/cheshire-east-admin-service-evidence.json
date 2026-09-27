@@ -1,16 +1,19 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-20T15:30:04+01:00",
+  "generated_at": "2026-09-27T16:30:01+01:00",
   "source": "Teaching Vacancies",
   "region": "Cheshire - East",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-20",
-  "review_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
-  "review_csv_sha256": "e6dd64cd0529c5efba4c91628381fe2b1d95b7621a281a4ae9f45da9293f4031",
-  "summary_md_sha256": "92e250076cff55aa58aa442eb7143bf6af164410a68fe4265eb27969f5c56eb8",
-  "approved_snapshot_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-  "approved_rows": 0,
-  "approved_job_ids": []
+  "review_date": "2026-09-27",
+  "review_fingerprint": "402994003010c9ea3f5c31c4f99b574aab9742e89ad8cc2c19d6b01cb7c4e4cb",
+  "routing_manifest_sha256": "cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a",
+  "review_csv_sha256": "bf16111499cd5609f545912116825da8e5c7393412090f0210dcd37abac41bd1",
+  "summary_md_sha256": "584e7d4f9b123926cdf8608eeb63cfffb44172dcb8607cca1e916bca9858fd99",
+  "approved_snapshot_sha256": "879f3dfd9496c4e969a777ca3b6b35ace443afb928982012572623b6e0f1ba81",
+  "approved_rows": 2,
+  "approved_job_ids": [
+    "teaching-vacancies-sixth-form-administrator-the-fallibroome-academy",
+    "teaching-vacancies-school-office-administrator-highfields-academy"
+  ]
 }

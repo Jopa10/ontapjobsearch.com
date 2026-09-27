@@ -1,16 +1,18 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-20T15:30:06+01:00",
+  "generated_at": "2026-09-27T16:30:03+01:00",
   "source": "Teaching Vacancies",
   "region": "Greater Manchester - South",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-20",
-  "review_fingerprint": "9a8d5d3d6cf5e5ac9bb1fc4b15e8553aa9788df20dffd8ddb24cca2af79d9620",
-  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
-  "review_csv_sha256": "3e55548ce336696c527aea4772115b397effb3cb8f9f3950fb74198ef201e801",
-  "summary_md_sha256": "beefa4c0ee337c689ac0e47287ec16b518e0cfac2b95050b08dadbd1612fd905",
-  "approved_snapshot_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-  "approved_rows": 0,
-  "approved_job_ids": []
+  "review_date": "2026-09-27",
+  "review_fingerprint": "c96c6a918661478aa5d6104bb0abb5fcf07faed130620e043a37cd3df6caebb1",
+  "routing_manifest_sha256": "cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a",
+  "review_csv_sha256": "25f89c23718ab5833627059bb2104424dd8a0acb8a3d47110bb7207db47e87ac",
+  "summary_md_sha256": "73b69259d27bfef90f2a6779d4f030d1ae0314ecf0c8d5868d77c44ca365a82f",
+  "approved_snapshot_sha256": "ae344c1bfeaeb48c8eee99bdbe0cb2daeab34de1788a3ee0e191cd851f1c6124",
+  "approved_rows": 1,
+  "approved_job_ids": [
+    "teaching-vacancies-hr-administrator-ashton-on-mersey-school"
+  ]
 }

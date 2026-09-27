@@ -1,22 +1,24 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-20T15:30:04+01:00",
+  "generated_at": "2026-09-27T16:30:01+01:00",
   "source": "Teaching Vacancies",
   "region": "Buckinghamshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-20",
-  "review_fingerprint": "7298562f23f0be27be383cb4ee66d6abdf391661c9093761ad146473e5343b95",
-  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
-  "review_csv_sha256": "8d4fa4db94e73ebdbea2d382931029a62a9d07c46ab7b14b0990f272da20caaa",
-  "summary_md_sha256": "ddfb59c4c7baa0bac3618b0c0dc697f11a82e8b7aee9822608164f735f92e489",
-  "approved_snapshot_sha256": "20321e1deae483ace48f9779dc1a9ae85422fb6ba15894faf9aa48ae9cfc80ab",
-  "approved_rows": 5,
+  "review_date": "2026-09-27",
+  "review_fingerprint": "65cefee6e83caf8539df62fc8be1b6d016264ecbf77c97aab259add64da4ee9d",
+  "routing_manifest_sha256": "cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a",
+  "review_csv_sha256": "72d07242c3c11d2e7d1a51806435acbf24b5e7d5e3a2cd52c9abdeac203e9e6c",
+  "summary_md_sha256": "9d1ca5bed0d97f11fe65e778b94f85109556332c9ae4e58755bb1daa2e34f5a5",
+  "approved_snapshot_sha256": "95f0f03013e97a35c034833c700e93009482f432831b2aa3e6fe650b8f6606f4",
+  "approved_rows": 7,
   "approved_job_ids": [
-    "teaching-vacancies-administrator-prison-education-hmp-downview",
-    "teaching-vacancies-admin-centre-administrator-lord-grey-academy-milton-keynes-buckinghamshire",
     "teaching-vacancies-school-administrator-chiltern-way-academy-trust",
     "teaching-vacancies-academy-administrator-chepping-view-primary-academy-high-wycombe-buckinghamshire",
-    "teaching-vacancies-morning-receptionist-maternity-cover"
+    "teaching-vacancies-morning-receptionist-maternity-cover",
+    "teaching-vacancies-arc-administrator",
+    "teaching-vacancies-office-administrator-cf621f03-1b81-4970-86af-5e6e0d675eec",
+    "teaching-vacancies-receptionist-stephenson-academy",
+    "teaching-vacancies-sen-administrator-chiltern-way-academy-trust"
   ]
 }

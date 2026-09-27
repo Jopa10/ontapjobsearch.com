@@ -22,9 +22,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Diverse Academies Trust",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -50,9 +47,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Newark Orchard School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -78,9 +72,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Djanogly City Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -106,9 +97,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Nethergate Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -134,9 +122,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Park Vale Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -162,9 +147,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "St Giles School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -190,9 +172,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Netherfield Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -612,6 +591,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9270-26-0773",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -631,6 +613,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0497",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -650,6 +635,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4604-26-0006",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -669,6 +657,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4148-26-0005",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -688,6 +679,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1908-26-0001",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

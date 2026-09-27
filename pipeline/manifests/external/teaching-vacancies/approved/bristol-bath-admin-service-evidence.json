@@ -1,20 +1,20 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-20T15:30:04+01:00",
+  "generated_at": "2026-09-27T16:30:01+01:00",
   "source": "Teaching Vacancies",
   "region": "Bristol & Bath",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-20",
-  "review_fingerprint": "b25a91c297a5cf050ba2531e4546d3452145a7a2d57226fa9a9139766cf57310",
-  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
-  "review_csv_sha256": "65a6ed204133d414172a477517637bd45a7d257c0b17d148ec3ba800bc1b0e83",
-  "summary_md_sha256": "616583c8ec47d5c0f7cc27bf31e34233d82a7b17d4a5ce2e29a33bac2b0a6d09",
-  "approved_snapshot_sha256": "1dcfc18c662ea51f10d9e8b423b9689502bd75ed9e78680e28b2cd806583813a",
+  "review_date": "2026-09-27",
+  "review_fingerprint": "b128a63753fbd2e9674ddf54cbd443ec4599cd8d2f1433774db1a6e8f208c6a2",
+  "routing_manifest_sha256": "cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a",
+  "review_csv_sha256": "53953964cd143543775db8c92b2168c21ced114ee4c8279384255702c9188baf",
+  "summary_md_sha256": "5ebd3f7b6fb69ae8624300be9d8df261d81c9df2521653a992dbb9b5eb84c978",
+  "approved_snapshot_sha256": "89655898f927d916ae62f70bcdccf72c6681986ddd538643bdaed85080878a0f",
   "approved_rows": 3,
   "approved_job_ids": [
-    "teaching-vacancies-office-assistant-chandag-primary-school",
-    "teaching-vacancies-exams-officer-downend-school",
-    "teaching-vacancies-administrative-assistant-for-pastoral"
+    "teaching-vacancies-administrative-assistant-for-pastoral",
+    "teaching-vacancies-administrator-fosse-way-school-bath-somerset",
+    "teaching-vacancies-school-administrator-north-star-265"
   ]
 }

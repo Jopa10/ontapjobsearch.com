@@ -1,21 +1,23 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-20T15:30:04+01:00",
+  "generated_at": "2026-09-27T16:30:00+01:00",
   "source": "Teaching Vacancies",
   "region": "Bedfordshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-20",
-  "review_fingerprint": "a8f8aae8b8d5206538b0afb8b07b7cc9fabc8ed6dc3428cda25ec04712775557",
-  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
-  "review_csv_sha256": "8de1e10f816ac65438e5d16a4e4f5ce2e8b2c49ba6867ddc627aff4ccc6f1d0c",
-  "summary_md_sha256": "a46362ffe908990f08f6e8e9f5256be0193249f1a00bb784e20846fa34c54fdb",
-  "approved_snapshot_sha256": "17e8211dfe7400c37ecf2d0ca5adb12c344e55b7b62c89478dcb6f9f6d2facde",
-  "approved_rows": 4,
+  "review_date": "2026-09-27",
+  "review_fingerprint": "775a435c032c64a804d6631d0ede58c29704362e7c94a7c8f6773a304576749e",
+  "routing_manifest_sha256": "cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a",
+  "review_csv_sha256": "c9019ce388e03d571e19d2064c0adef3c28e8c1ac8e67b5294de68eb053bd0f1",
+  "summary_md_sha256": "664dda6ec1b54df8290c879ae0423567c8f9ae3ed5aa6f4fb75aa0ef287b2680",
+  "approved_snapshot_sha256": "90d78dd1b3d19bdf234318a2fcf08f1b31c0a6612ba85c8e27a43418103b7bf1",
+  "approved_rows": 6,
   "approved_job_ids": [
-    "teaching-vacancies-office-administrator-st-john-rigby-catholic-primary-school",
     "teaching-vacancies-reception-administrator-assistant",
     "teaching-vacancies-receptionist-finance-assistant",
-    "teaching-vacancies-office-administrator-gamlingay-village-primary"
+    "teaching-vacancies-office-administrator-gamlingay-village-primary",
+    "teaching-vacancies-receptionist-administrator-maternity-cover-698a8012-ea64-49ee-8f10-84f9ae723800",
+    "teaching-vacancies-receptionist-clerical-assistant-richmond-hill-school-luton-bedfordshire",
+    "teaching-vacancies-receptionist-administrative-assistant-parkfields-middle-school-dunstable-bedfordshire"
   ]
 }

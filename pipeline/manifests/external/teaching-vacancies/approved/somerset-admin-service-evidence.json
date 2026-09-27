@@ -1,26 +1,23 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-20T15:30:08+01:00",
+  "generated_at": "2026-09-27T16:30:06+01:00",
   "source": "Teaching Vacancies",
   "region": "Somerset",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-20",
-  "review_fingerprint": "6f6cefe88d2ba81f2dbdd69f0017ee2538b27780fb388e8eae61b0961894bbc1",
-  "routing_manifest_sha256": "065adeebd098ac67bbd93ba5d404c793bd8bd10e570ed2e3401383dce52aeb45",
-  "review_csv_sha256": "d9cca5ca5132c44e1175855b65d9644704557a8c64fbed41596c5ddcdb73c99a",
-  "summary_md_sha256": "d0c60a3908133cf6a505467d47944e48c0cec49891963f1133aa62c8b27e5d85",
-  "approved_snapshot_sha256": "baafc623608c9cf977a88a0f392aff7b4f43ec0219e3119af2d88c8e8180d30c",
-  "approved_rows": 9,
+  "review_date": "2026-09-27",
+  "review_fingerprint": "2b79dcaea27f49629e0d25b2e764c371b8c4f27ccb0ab7509cd8e83a303c4f44",
+  "routing_manifest_sha256": "cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a",
+  "review_csv_sha256": "a893b966139bb9ae7d10881f0cf1ae006718998f39c4538b039306e502a51f79",
+  "summary_md_sha256": "7f9b9f1049e01ddc5f27c70553b8dbef998d859a0b1d0c779953bf3f3ec7871d",
+  "approved_snapshot_sha256": "fc617ce15c989c090a6a435365fd32d256c893fd5ad9aa429ed5dbbf0297edf5",
+  "approved_rows": 6,
   "approved_job_ids": [
-    "teaching-vacancies-administration-assistant-level-1-receptionist-hans-price-academy-weston-super-mare-somerset",
-    "teaching-vacancies-hr-officer-pa-to-headteacher-541f73d7-6e1e-4a33-924f-61b63d3822dd",
-    "teaching-vacancies-primary-phase-administrator",
-    "teaching-vacancies-business-support-administrator-worle-community-school-weston-super-mare-somerset",
-    "teaching-vacancies-office-administrator-oldmixon-primary-school",
     "teaching-vacancies-admin-assistant-st-vigor-st-john-church-school",
     "teaching-vacancies-administrative-assistant-st-gildas-catholic-primary-school",
     "teaching-vacancies-business-support-and-compliance-administrator-part-time",
-    "teaching-vacancies-receptionist-and-admin-assistant-west-somerset-college-minehead-somerset"
+    "teaching-vacancies-receptionist-and-admin-assistant-west-somerset-college-minehead-somerset",
+    "teaching-vacancies-admin-assistant-the-castle-school",
+    "teaching-vacancies-receptionist-and-admin-assistant-bridgwater-college-academy"
   ]
 }
