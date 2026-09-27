@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 55
+- automatic review: 58
 - automatic exclude: 0
 - effective include: 2
-- effective review: 55
+- effective review: 58
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: jobg8-1927556
 reason: Exact approved Farnham workplace.
 ---
 
-## REVIEW (55)
+## REVIEW (58)
 
 ---
 action: 
@@ -191,6 +191,18 @@ company: Kenneth Brian Associates Limited - Agency - Permanent
 location: Camberley
 source: JobG8
 job_id: jobg8-1857179
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Attendance and Admissions Officer
+company: Danetree Primary School
+location: Epsom
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-and-admissions-officer-65b72427-5324-4164-8260-a853358c3381
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -546,6 +558,18 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Office Assistant (Part time)
+company: The Vale Primary School and Nursery
+location: Epsom
+source: Teaching Vacancies
+job_id: teaching-vacancies-office-assistant-part-time-the-vale-primary-school-and-nursery
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part Time Accounts Assistant
 company: Lloyd Recruitment Services Ltd - Agency - Permanent
 location: Caterham
@@ -647,6 +671,18 @@ company: Eastwick Infant School
 location: Leatherhead
 source: Teaching Vacancies
 job_id: teaching-vacancies-safeguarding-and-send-administrative-assistant-eastwick-infant-school
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: SEN Administrator
+company: St Dominic's School
+location: Godalming
+source: Teaching Vacancies
+job_id: teaching-vacancies-sen-administrator-a73e2173-5c60-48da-8b9b-ca0b2be7c7a6
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 

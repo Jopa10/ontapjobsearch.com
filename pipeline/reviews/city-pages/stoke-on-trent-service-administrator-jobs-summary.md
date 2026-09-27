@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 24
+- automatic review: 23
 - automatic exclude: 0
 - effective include: 2
-- effective review: 24
+- effective review: 23
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: jobg8-1897879
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (24)
+## REVIEW (23)
 
 ---
 action: 
@@ -71,18 +71,6 @@ company: RG Consultancy Ltd - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-1928214
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Midlands Partnership NHS Foundation Trust
-location: Longton, Stoke on Trent, ST3 4QX
-source: NHS Jobs
-job_id: nhs-5606228
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -126,6 +114,18 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
+title: Attendance Officer - Level 4
+company: Longford Primary Academy
+location: Cannock
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-officer-level-4-longford-primary-academy-cannock-staffordshire
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Casualty Claims Handler
 company: Adjusting Appointments Limited - Agency - Permanent
 location: Staffordshire
@@ -155,18 +155,6 @@ company: SME Graduate Employment Ltd - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-1895507
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrator
-company: Turner & Voce Limited - Agency - Permanent
-location: Rugeley
-source: JobG8
-job_id: jobg8-108005589
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 33
+- Effective included jobs: 34
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 33
-- automatic review: 9
-- automatic exclude: 2
-- effective include: 33
-- effective review: 9
-- effective exclude: 2
+- automatic include: 34
+- automatic review: 10
+- automatic exclude: 3
+- effective include: 34
+- effective review: 10
+- effective exclude: 3
 
-## INCLUDE (33)
+## INCLUDE (34)
 
 ---
 action: 
@@ -208,6 +208,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Customer Support Coordinator
+company: Places for People - Company - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-108025083
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Finance Billing Coordinator
 company: HFT - Agency - Permanent
 location: Bristol
@@ -352,11 +364,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Sales and Partnerships Coordinator
-company: Not For Profit People - Agency - Permanent
+title: School Administrator
+company: North Star 265°
 location: Bristol
-source: JobG8
-job_id: jobg8-1821573
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-administrator-north-star-265
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -420,7 +432,7 @@ job_id: jobg8-1960385
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (9)
+## REVIEW (10)
 
 ---
 action: 
@@ -530,7 +542,31 @@ job_id: jobg8-1952001
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
-## EXCLUDE (2)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Somerset
+source: JobG8
+job_id: jobg8-2030027
+reason: No approved Bristol catchment rule matched; local review required.
+---
+
+## EXCLUDE (3)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: Fosse Way School
+location: Bath
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-fosse-way-school-bath-somerset
+reason: Separate employment market.
+---
 
 ---
 action: 

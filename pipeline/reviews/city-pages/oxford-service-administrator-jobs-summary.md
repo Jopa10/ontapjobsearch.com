@@ -4,7 +4,7 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
-- automatic review: 12
-- automatic exclude: 15
-- effective include: 12
-- effective review: 12
-- effective exclude: 15
+- automatic include: 11
+- automatic review: 16
+- automatic exclude: 14
+- effective include: 11
+- effective review: 16
+- effective exclude: 14
 
-## INCLUDE (12)
+## INCLUDE (11)
 
 ---
 action: 
@@ -100,18 +100,6 @@ reason: Approved conservative Oxford launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Careers Administrator
-company: The Oxford Academy
-location: Oxford
-source: Teaching Vacancies
-job_id: teaching-vacancies-careers-administrator-cbb25421-bec6-4abb-95a2-a79f4b477968
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Commercial Property Secretary
 company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Oxford
@@ -168,7 +156,7 @@ job_id: nhs-5621723
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (12)
+## REVIEW (16)
 
 ---
 action: 
@@ -227,6 +215,30 @@ company: The Key Medical Practice
 location: Kidlington, OX5 1AP, KIDLINGTON, OX5 1LT
 source: NHS Jobs
 job_id: nhs-5615414
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admissions Administrator
+company: Larkmead School
+location: Abingdon
+source: Teaching Vacancies
+job_id: teaching-vacancies-admissions-administrator-larkmead-school
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Attendance Administrator
+company: Blessed George Napier Catholic School and Sixth Form
+location: Banbury
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-administrator-blessed-george-napier-catholic-school-and-sixth-form
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -307,6 +319,18 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
+company: Faringdon Community College
+location: Faringdon
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-edf1f45d-c1c2-4efe-8319-033977840917
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
 company: The Key Medical Practice
 location: Kidlington, OX5 1AP
 source: NHS Jobs
@@ -314,7 +338,19 @@ job_id: nhs-5577377
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (15)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Student Services Administrator
+company: Larkmead School
+location: Abingdon
+source: Teaching Vacancies
+job_id: teaching-vacancies-student-services-administrator-larkmead-school
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+## EXCLUDE (14)
 
 ---
 action: 
@@ -349,18 +385,6 @@ company: Curtis Recruitment - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-1956485
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Church Engagement Manager
-company: Church Mission Society - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-1970218
 reason: Broad county location; not Oxford-city evidence.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 35
+- Effective included jobs: 40
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 35
-- automatic review: 6
-- automatic exclude: 5
-- effective include: 35
-- effective review: 6
-- effective exclude: 5
+- automatic include: 40
+- automatic review: 7
+- automatic exclude: 4
+- effective include: 40
+- effective review: 7
+- effective exclude: 4
 
-## INCLUDE (35)
+## INCLUDE (40)
 
 ---
 action: 
@@ -52,6 +52,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Admin Assistant
+company: Lift Lea Forest
+location: Birmingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-assistant-lift-lea-forest
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Administration Assistant
 company: Harborne Primary School
 location: Birmingham
@@ -69,6 +81,30 @@ company: Greet Primary School
 location: Birmingham
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-greet-primary-school
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrative Assistant
+company: Pheasey Park Farm Primary School and Early Years Centre
+location: Birmingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-pheasey-park-farm-primary-school-and-early-years-centre
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: E-ACT Shenley Academy
+location: Birmingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-de634a79-2cc9-479b-b3fe-58787528dcaa
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -424,11 +460,35 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: School Office Administrator
+company: Castle Bromwich Junior School
+location: Birmingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-office-administrator-castle-bromwich-junior-school-birmingham-west-midlands
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Temporary HR Administrator
 company: Katie Bard & Angela Mortimer Plc - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-2028830
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2030025
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -444,7 +504,7 @@ job_id: jobg8-2028750
 reason: Approved conservative Birmingham launch catchment.
 ---
 
-## REVIEW (6)
+## REVIEW (7)
 
 ---
 action: 
@@ -518,7 +578,19 @@ job_id: teaching-vacancies-senior-administrator-bishop-vesey-s-grammar-school
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
-## EXCLUDE (5)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Whole School Attendance Officer (Mat Cover)
+company: Bishop Vesey's Grammar School
+location: Sutton Coldfield
+source: Teaching Vacancies
+job_id: teaching-vacancies-whole-school-attendance-officer-mat-cover
+reason: No approved Birmingham catchment rule matched; local review required.
+---
+
+## EXCLUDE (4)
 
 ---
 action: 
@@ -529,18 +601,6 @@ company: Mitchell Adam - Agency - Permanent
 location: Solihull
 source: JobG8
 job_id: jobg8-1868171
-reason: Separate exact-city market at launch.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Payable Administrator
-company: Manpower - Agency - Permanent
-location: Solihull
-source: JobG8
-job_id: jobg8-1916617
 reason: Separate exact-city market at launch.
 ---
 

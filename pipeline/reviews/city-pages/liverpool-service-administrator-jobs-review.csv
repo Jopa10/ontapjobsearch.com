@@ -1,6 +1,7 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-1937916,Accounts Assistant,Reed - Agency - Permanent,Liverpool,JobG8,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs
 include,jobg8-1909830,Accounts Assistant / Bookkeeper,Beam Recruit - Agency - Permanent,Liverpool,JobG8,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs
+include,teaching-vacancies-administrative-assistant-bishop-martin-church-of-england-primary-school-woolton-liverpool-merseyside,Administrative Assistant,"Bishop Martin Church of England Primary School, Woolton",Liverpool,Teaching Vacancies,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs
 include,nhs-5608176,Administrator (Bank),Practice Plus Group - Health in Justice,"Liverpool, L9 7LH",NHS Jobs,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs
 include,jobg8-1875820,Billing & Credit Controller,Reed - Agency - Permanent,Liverpool,JobG8,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs
 include,jobg8-1996564,Claims Handler,Spotlightjobs - Agency - Permanent,Liverpool,JobG8,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs

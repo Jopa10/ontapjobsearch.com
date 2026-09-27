@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 59
+- Effective included jobs: 62
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 59
-- automatic review: 21
+- automatic include: 62
+- automatic review: 20
 - automatic exclude: 2
-- effective include: 59
-- effective review: 21
+- effective include: 62
+- effective review: 20
 - effective exclude: 2
 
-## INCLUDE (59)
+## INCLUDE (62)
 
 ---
 action: 
@@ -520,6 +520,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Level 2 Academy Administrator
+company: Dixons Newall Green Academy
+location: Manchester
+source: Teaching Vacancies
+job_id: teaching-vacancies-level-2-academy-administrator-fa9311a4-090f-47e6-bfc4-97d8abcfff69
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Medical Receptionist
 company: Hope Citadel Healthcare CIC
 location: Manchester, M14 6FS
@@ -580,11 +592,11 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Pastoral Administrator
+title: Office Administrator and Receptionist
 company: Salford City Academy
 location: Manchester
 source: Teaching Vacancies
-job_id: teaching-vacancies-pastoral-administrator-salford-city-academy
+job_id: teaching-vacancies-office-administrator-and-receptionist-salford-city-academy
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -676,6 +688,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist and Marketing Administrator
+company: Loreto High School Chorlton
+location: Manchester
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-and-marketing-administrator
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist in General Practice
 company: Eastlands Medical Practice
 location: Manchester, M11 4EJ
@@ -732,7 +756,19 @@ job_id: nhs-5569272
 reason: Approved conservative Manchester launch catchment.
 ---
 
-## REVIEW (21)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Trust Finance and Systems Administrator
+company: The Co Operative Academies Trust
+location: Manchester
+source: Teaching Vacancies
+job_id: teaching-vacancies-trust-finance-and-systems-administrator
+reason: Approved conservative Manchester launch catchment.
+---
+
+## REVIEW (20)
 
 ---
 action: 
@@ -798,18 +834,6 @@ reason: No approved Manchester catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Communications Officer
-company: Consula Group LTD - Agency - Permanent
-location: Lancashire
-source: JobG8
-job_id: jobg8-1908376
-reason: No approved Manchester catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Consumer Social Media Account Director - Manchester/Hybrid
 company: Black Cherry Recruitment Ltd - Agency - Permanent
 location: Lancashire
@@ -846,18 +870,6 @@ reason: No approved Manchester catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Gorse Hill Studios Administrator
-company: Gorse Hill Studios - Agency - Permanent
-location: Stretford
-source: JobG8
-job_id: jobg8-2028809
-reason: No approved Manchester catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Graduate Accounts Payable Associate
 company: Robert Walters - Agency - Permanent
 location: Lancashire
@@ -887,6 +899,18 @@ company: The Portfolio Group - Agency - Permanent
 location: Lancashire
 source: JobG8
 job_id: jobg8-1939305
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Office Administrator
+company: The Orchards
+location: Stretford
+source: Teaching Vacancies
+job_id: teaching-vacancies-office-administrator-the-orchards-stretford-greater-manchester
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -1004,10 +1028,10 @@ reason: Separate exact-city market at launch.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist
-company: Greater Manchester Mental Health NHS Foundation Trust
-location: Salford, M7 2YL
-source: NHS Jobs
-job_id: nhs-5617240
+title: SEND Administrator
+company: The Albion Academy
+location: Salford
+source: Teaching Vacancies
+job_id: teaching-vacancies-send-administrator-the-albion-academy
 reason: Separate exact-city market at launch.
 ---

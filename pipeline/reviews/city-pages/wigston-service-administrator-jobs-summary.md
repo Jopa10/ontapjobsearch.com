@@ -210,6 +210,18 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: PA to the Principal
+company: Tudor Grange Samworth Academy, A church of England School
+location: Leicester
+source: Teaching Vacancies
+job_id: teaching-vacancies-pa-to-the-principal-tudor-grange-samworth-academy-a-church-of-england-school-leicester-leicestershire
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part Time Accounts Assistant
 company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Leicester
@@ -299,18 +311,6 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-1870863
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Senior Administrator - Exams & Data
-company: Bosworth Academy
-location: Leicester
-source: Teaching Vacancies
-job_id: teaching-vacancies-senior-administrator-exams-data
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

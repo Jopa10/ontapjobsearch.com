@@ -4,7 +4,7 @@
 - Live route: `/southampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
+- Effective included jobs: 4
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 22
-- automatic exclude: 18
-- effective include: 3
-- effective review: 22
-- effective exclude: 18
+- automatic include: 4
+- automatic review: 23
+- automatic exclude: 20
+- effective include: 4
+- effective review: 23
+- effective exclude: 20
 
-## INCLUDE (3)
+## INCLUDE (4)
 
 ---
 action: 
@@ -52,6 +52,18 @@ reason: Approved Southampton catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Insurance Account Executive
+company: Aspire Jobs Limited - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-107193862
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Recruitment Administrator
 company: University Hospital Southampton NHS Trust
 location: Southampton, SO16 6YD
@@ -60,7 +72,7 @@ job_id: nhs-5624270
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (22)
+## REVIEW (23)
 
 ---
 action: 
@@ -155,6 +167,18 @@ company: TC Group - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-1907458
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Coordinator
+company: Agincare Group - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-107963757
 reason: Broad location; review before city inclusion.
 ---
 
@@ -326,7 +350,7 @@ job_id: jobg8-1881197
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (18)
+## EXCLUDE (20)
 
 ---
 action: 
@@ -337,6 +361,18 @@ company: Sheridan Maine - Agency - Permanent
 location: Basingstoke
 source: JobG8
 job_id: jobg8-2028253
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrative Assistant (Thursdays and Fridays)
+company: Court Lane Junior Academy
+location: Portsmouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-thursdays-and-fridays
 reason: Separate employment market.
 ---
 
@@ -428,6 +464,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Care Home Administrator
+company: Avery Healthcare Group Ltd.
+location: Winchester, SO22 5JH
+source: NHS Jobs
+job_id: nhs-5612599
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Company Secretary - 12 month FTC
 company: Michael Page Legal - Agency - Permanent
 location: Farnborough
@@ -512,11 +560,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist/Administrator
-company: Operose Health
-location: Basingstoke, RG22 4EH
+title: Single Point of Access Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Fareham, PO17 6AR
 source: NHS Jobs
-job_id: nhs-5592877
+job_id: nhs-5620952
 reason: Separate employment market.
 ---
 
@@ -524,11 +572,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Single Point of Access Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Fareham, PO17 6AR
-source: NHS Jobs
-job_id: nhs-5620952
+title: Telesales Executive
+company: Southern Communications Ltd - Agency - Permanent
+location: Basingstoke
+source: JobG8
+job_id: jobg8-108041601
 reason: Separate employment market.
 ---
 

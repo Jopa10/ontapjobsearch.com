@@ -4,8 +4,8 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
-- Threshold currently met: no
+- Effective included jobs: 7
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 2
-- automatic exclude: 23
-- effective include: 5
-- effective review: 2
-- effective exclude: 23
+- automatic include: 7
+- automatic review: 3
+- automatic exclude: 24
+- effective include: 7
+- effective review: 3
+- effective exclude: 24
 
-## INCLUDE (5)
+## INCLUDE (7)
 
 ---
 action: 
@@ -40,11 +40,35 @@ reason: Approved Coventry catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Administration Assistant
+company: Stretton Church of England Academy
+location: Coventry
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-stretton-church-of-england-academy-coventry-west-midlands
+reason: Approved Coventry catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Assistant Management Accountant
 company: 3 Point Recruitment - Agency - Permanent
 location: Coventry
 source: JobG8
 job_id: jobg8-1912347
+reason: Approved Coventry catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: EXAMS OFFICER, BARR’S HILL SCHOOL
+company: Barr's Hill School
+location: Coventry
+source: Teaching Vacancies
+job_id: teaching-vacancies-exams-officer-barr-s-hill-school
 reason: Approved Coventry catchment.
 ---
 
@@ -84,7 +108,7 @@ job_id: nhs-5616059
 reason: Approved Coventry catchment.
 ---
 
-## REVIEW (2)
+## REVIEW (3)
 
 ---
 action: 
@@ -110,7 +134,19 @@ job_id: teaching-vacancies-pa-to-principal-the-queen-elizabeth-academy-atherston
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (23)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist/Administrator
+company: Shipston High School
+location: Shipston-on-Stour
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-administrator-shipston-high-school
+reason: No approved Coventry catchment rule matched; local review required.
+---
+
+## EXCLUDE (24)
 
 ---
 action: 
@@ -181,6 +217,18 @@ company: Evergreen School
 location: Warwick
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-23d0b4b5-47f8-416c-924d-d887471e9a01
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administration Assistant
+company: Oak Wood Primary School
+location: Nuneaton
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-oak-wood-primary-school
 reason: Separate employment market.
 ---
 

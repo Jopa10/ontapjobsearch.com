@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 27
-- automatic exclude: 12
+- automatic review: 29
+- automatic exclude: 15
 - effective include: 8
-- effective review: 27
-- effective exclude: 12
+- effective review: 29
+- effective exclude: 15
 
 ## INCLUDE (8)
 
@@ -120,7 +120,7 @@ job_id: nhs-5598890
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (27)
+## REVIEW (29)
 
 ---
 action: 
@@ -306,6 +306,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Inclusion Administrator
+company: The Blyth Academy
+location: Blyth
+source: Teaching Vacancies
+job_id: teaching-vacancies-inclusion-administrator-the-blyth-academy
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Insolvency Administrator (Newcastle)
 company: Ambition Europe Limited - Agency - Permanent
 location: Tyne And Wear
@@ -438,6 +450,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: School Administrator
+company: Berwick St Mary's Church of England Primary School
+location: Berwick-upon-Tweed
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-administrator-4b89961d-cc62-4cfa-9732-a8929179b607
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: School Support Roles - Supervisory Assistant & Administrative Assistant
 company: St Peter's Church of England Primary School
 location: Wallsend
@@ -446,7 +470,7 @@ job_id: teaching-vacancies-school-support-roles-supervisory-assistant-administra
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
-## EXCLUDE (12)
+## EXCLUDE (15)
 
 ---
 action: 
@@ -469,6 +493,30 @@ company: Randstad Perm Professionals - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-1961052
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administration Assistant
+company: North Durham Academy
+location: Stanley
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-north-durham-academy
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administration Assistant
+company: St Leonard's Catholic Primary School, Silksworth
+location: Sunderland
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-st-leonard-s-catholic-primary-school-silksworth
 reason: Separate employment market.
 ---
 
@@ -517,6 +565,18 @@ company: Tina Lacey Recruitment Ltd - Agency - Permanent
 location: Darlington
 source: JobG8
 job_id: jobg8-107973178
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Data Management Administrator (2025/HM084)
+company: East Durham College
+location: Peterlee
+source: Teaching Vacancies
+job_id: teaching-vacancies-data-management-administrator-2025-hm084
 reason: Separate employment market.
 ---
 

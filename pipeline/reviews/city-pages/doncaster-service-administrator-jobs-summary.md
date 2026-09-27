@@ -4,8 +4,8 @@
 - Live route: `/doncaster/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
-- Threshold currently met: no
+- Effective included jobs: 6
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,38 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
+- automatic include: 6
 - automatic review: 2
-- automatic exclude: 19
-- effective include: 4
+- automatic exclude: 24
+- effective include: 6
 - effective review: 2
-- effective exclude: 19
+- effective exclude: 24
 
-## INCLUDE (4)
+## INCLUDE (6)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Admin Assistant
+company: Owston Park Primary Academy
+location: Doncaster
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-assistant-owston-park-primary-academy
+reason: Approved Doncaster catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administration Assistant
+company: Our Lady of Mount Carmel Catholic Primary School
+location: Doncaster
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-our-lady-of-mount-carmel-catholic-primary-school
+reason: Approved Doncaster catchment.
+---
 
 ---
 action: 
@@ -98,7 +122,7 @@ job_id: jobg8-1933458
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (19)
+## EXCLUDE (24)
 
 ---
 action: 
@@ -109,6 +133,18 @@ company: Sharp Consultancy - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-1959767
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Admin & Clerical Officer Level 2 Rowan School
+company: The Rowan School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-clerical-officer-level-2-rowan-school-the-rowan-school
 reason: Separate employment market.
 ---
 
@@ -188,6 +224,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Attendance Admin Assistant
+company: Lift Firth Park
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-admin-assistant-lift-firth-park
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Credit Control / Accounts Assistant
 company: Shillito Group - Agency - Permanent
 location: Sheffield
@@ -217,6 +265,18 @@ company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-1908708
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: HR Administrator
+company: Sheffield Park Academy
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-hr-administrator-e50a9848-dea2-4828-a9a5-5745ea9a03ce
 reason: Separate employment market.
 ---
 
@@ -301,6 +361,30 @@ company: Saint Pius X Catholic High School A Specialist School in Humanities
 location: Rotherham
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-saint-pius-x-catholic-high-school-a-specialist-school-in-humanities
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist and Administrator
+company: Prince Edward Primary School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-and-administrator-adcd5f34-cc20-45ec-9a96-1d35515bc466
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist and Administrator – (52 or 42 weeks considered)
+company: Sheffield Park Academy
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-and-administrator-52-or-42-weeks-considered
 reason: Separate employment market.
 ---
 

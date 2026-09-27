@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 13
-- automatic review: 1
+- automatic review: 4
 - automatic exclude: 33
 - effective include: 13
-- effective review: 1
+- effective review: 4
 - effective exclude: 33
 
 ## INCLUDE (13)
@@ -180,7 +180,31 @@ job_id: jobg8-1939450
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (1)
+## REVIEW (4)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrative Assistant
+company: Lantern Community Primary School
+location: Ely
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-df6b12e7-31c1-4ffd-8f6e-62dfb6e08db8
+reason: No approved Peterborough catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator (SEN and Careers)
+company: Marshland High School
+location: Wisbech
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-sen-and-careers
+reason: No approved Peterborough catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -191,6 +215,18 @@ company: Priory Junior School
 location: St Neots
 source: Teaching Vacancies
 job_id: teaching-vacancies-finance-admin-assistant-priory-junior-school-st-neots-cambridgeshire
+reason: No approved Peterborough catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: School Administrative Receptionist
+company: Buckden CofE Primary School
+location: St Neots
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-administrative-receptionist
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 

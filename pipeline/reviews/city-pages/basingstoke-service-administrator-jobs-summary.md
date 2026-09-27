@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 41
+- automatic review: 45
 - automatic exclude: 0
 - effective include: 2
-- effective review: 41
+- effective review: 45
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -40,15 +40,15 @@ reason: Exact approved Basingstoke workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist/Administrator
-company: Operose Health
-location: Basingstoke, RG22 4EH
-source: NHS Jobs
-job_id: nhs-5592877
+title: Telesales Executive
+company: Southern Communications Ltd - Agency - Permanent
+location: Basingstoke
+source: JobG8
+job_id: jobg8-108041601
 reason: Exact approved Basingstoke workplace.
 ---
 
-## REVIEW (41)
+## REVIEW (45)
 
 ---
 action: 
@@ -95,6 +95,18 @@ company: CMA Recruitment Group - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-1949580
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrative Assistant (Thursdays and Fridays)
+company: Court Lane Junior Academy
+location: Portsmouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-thursdays-and-fridays
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -246,6 +258,30 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Care Coordinator
+company: Agincare Group - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-107963757
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Home Administrator
+company: Avery Healthcare Group Ltd.
+location: Winchester, SO22 5JH
+source: NHS Jobs
+job_id: nhs-5612599
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Company Secretary - 12 month FTC
 company: Michael Page Legal - Agency - Permanent
 location: Farnborough
@@ -359,6 +395,18 @@ company: Reed - Agency - Permanent
 location: Portsmouth
 source: JobG8
 job_id: jobg8-1960533
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Insurance Account Executive
+company: Aspire Jobs Limited - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-107193862
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 

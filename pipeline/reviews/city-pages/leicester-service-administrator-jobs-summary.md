@@ -88,6 +88,18 @@ reason: Exact approved Leicester workplace.
 action: 
 decision: include
 automatic_decision: include
+title: PA to the Principal
+company: Tudor Grange Samworth Academy, A church of England School
+location: Leicester
+source: Teaching Vacancies
+job_id: teaching-vacancies-pa-to-the-principal-tudor-grange-samworth-academy-a-church-of-england-school-leicester-leicestershire
+reason: Exact approved Leicester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Part Time Accounts Assistant
 company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Leicester
@@ -105,18 +117,6 @@ company: Manorfield Church of England Primary School
 location: Leicester
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-maternity-cover-manorfield-church-of-england-primary-school
-reason: Exact approved Leicester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Senior Administrator - Exams & Data
-company: Bosworth Academy
-location: Leicester
-source: Teaching Vacancies
-job_id: teaching-vacancies-senior-administrator-exams-data
 reason: Exact approved Leicester workplace.
 ---
 

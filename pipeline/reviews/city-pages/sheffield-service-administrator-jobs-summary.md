@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
+- automatic include: 17
 - automatic review: 2
-- automatic exclude: 11
-- effective include: 12
+- automatic exclude: 13
+- effective include: 17
 - effective review: 2
-- effective exclude: 11
+- effective exclude: 13
 
-## INCLUDE (12)
+## INCLUDE (17)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Sharp Consultancy - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-1959767
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Admin & Clerical Officer Level 2 Rowan School
+company: The Rowan School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-clerical-officer-level-2-rowan-school-the-rowan-school
 reason: Approved Sheffield catchment.
 ---
 
@@ -76,6 +88,18 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Attendance Admin Assistant
+company: Lift Firth Park
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-admin-assistant-lift-firth-park
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Credit Control / Accounts Assistant
 company: Shillito Group - Agency - Permanent
 location: Sheffield
@@ -93,6 +117,18 @@ company: Adecco - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-1877335
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Administrator
+company: Sheffield Park Academy
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-hr-administrator-e50a9848-dea2-4828-a9a5-5745ea9a03ce
 reason: Approved Sheffield catchment.
 ---
 
@@ -160,6 +196,30 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist and Administrator
+company: Prince Edward Primary School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-and-administrator-adcd5f34-cc20-45ec-9a96-1d35515bc466
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist and Administrator – (52 or 42 weeks considered)
+company: Sheffield Park Academy
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-and-administrator-52-or-42-weeks-considered
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Remote Conveyancing Paralegal
 company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
 location: Sheffield
@@ -194,7 +254,31 @@ job_id: jobg8-1933458
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (11)
+## EXCLUDE (13)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Admin Assistant
+company: Owston Park Primary Academy
+location: Doncaster
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-assistant-owston-park-primary-academy
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administration Assistant
+company: Our Lady of Mount Carmel Catholic Primary School
+location: Doncaster
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-our-lady-of-mount-carmel-catholic-primary-school
+reason: Separate employment market.
+---
 
 ---
 action: 

@@ -4,7 +4,7 @@
 - Live route: `/bradford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 27
-- automatic exclude: 47
-- effective include: 10
-- effective review: 27
-- effective exclude: 47
+- automatic include: 11
+- automatic review: 29
+- automatic exclude: 48
+- effective include: 11
+- effective review: 29
+- effective exclude: 48
 
-## INCLUDE (10)
+## INCLUDE (11)
 
 ---
 action: 
@@ -124,6 +124,18 @@ reason: Approved Bradford catchment.
 action: 
 decision: include
 automatic_decision: include
+title: PA to the Principal (7519)
+company: Valley Academy
+location: Bradford
+source: Teaching Vacancies
+job_id: teaching-vacancies-pa-to-the-principal-7519
+reason: Approved Bradford catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Part time Finance Assistant
 company: Reed - Agency - Permanent
 location: Bradford
@@ -144,7 +156,7 @@ job_id: nhs-5611927
 reason: Approved Bradford catchment.
 ---
 
-## REVIEW (27)
+## REVIEW (29)
 
 ---
 action: 
@@ -155,6 +167,18 @@ company: IPL, Forza and Kober Foods - Agency - Permanent
 location: Normanton
 source: JobG8
 job_id: jobg8-1959241
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Attendance & Admissions Officer
+company: Highfield School
+location: Ossett
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-admissions-officer-highfield-school
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -426,6 +450,18 @@ reason: No approved Bradford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Recruitment Administrator (7575)
+company: Delta Academies Trust
+location: Knottingley
+source: Teaching Vacancies
+job_id: teaching-vacancies-recruitment-administrator-7575
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Senior Insight Executive
 company: Sphere Digital Recruitment - Agency - Permanent
 location: Yorkshire
@@ -470,7 +506,7 @@ job_id: jobg8-1960756
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (47)
+## EXCLUDE (48)
 
 ---
 action: 
@@ -481,6 +517,18 @@ company: Synergem Recruitment - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-1906013
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administration Assistant
+company: Woodkirk Academy
+location: Wakefield
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-993064c2-8d4e-49cd-a144-d8b71360ac51
 reason: Separate employment market.
 ---
 

@@ -49,6 +49,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "107193862",
+    "title": "Insurance Account Executive",
+    "company": "Aspire Jobs Limited - Agency - Permanent",
+    "advertiser_name": "Aspire Jobs Limited",
+    "advertiser_type": "Agency",
+    "location": "Southampton",
+    "region": "Hampshire",
+    "country": "UK",
+    "category": "Customer Sales / Sales Advisor",
+    "employment_type": "Permanent",
+    "salary_min": "25",
+    "salary_max": "25",
+    "salary_text": "£25 per hour (days hols)",
+    "posted_date": "2026-09-16",
+    "description": "Location: Fareham\n\nSalary: £ DOE + commission\n\nHours: Monday - Friday 8.30am - 5pm (1 hour lunch), office based; hybrid working after probation, 3 days in the office, 2 days at home (Tuesday & Friday)\n\nBenefits: Ongoing training, 25 days holidays + bank hols (opportunity to buy more holiday), auto enrolment pension, great social team environment\n\nAspire Jobs are working with a well-established and growing cli click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?G%2b5YiGNoEgoaRqAfYlgc8A0uUwoVTPW2n",
+    "source": "JobG8",
+    "customer_sales_classification": "CONDITIONAL_ACCOUNT_SALES",
+    "customer_sales_reason": "account-based title with sales and office/digital evidence",
+    "customer_sales_overlap_policy": "non-exclusive",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "nhs-5624270",
     "source": "NHS Jobs",
     "title": "Recruitment Administrator",
@@ -65,6 +90,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9188-26-0862",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

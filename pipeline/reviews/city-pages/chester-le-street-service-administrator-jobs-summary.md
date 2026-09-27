@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 47
+- automatic review: 52
 - automatic exclude: 0
 - effective include: 0
-- effective review: 47
+- effective review: 52
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (47)
+## REVIEW (52)
 
 ---
 action: 
@@ -83,6 +83,30 @@ company: Randstad Perm Professionals - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-1961052
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Assistant
+company: North Durham Academy
+location: Stanley
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-north-durham-academy
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Assistant
+company: St Leonard's Catholic Primary School, Silksworth
+location: Sunderland
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-st-leonard-s-catholic-primary-school-silksworth
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -203,6 +227,18 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-1905519
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Data Management Administrator (2025/HM084)
+company: East Durham College
+location: Peterlee
+source: Teaching Vacancies
+job_id: teaching-vacancies-data-management-administrator-2025-hm084
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -347,6 +383,18 @@ company: Lynn Bennett Resourcing - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-1991604
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Inclusion Administrator
+company: The Blyth Academy
+location: Blyth
+source: Teaching Vacancies
+job_id: teaching-vacancies-inclusion-administrator-the-blyth-academy
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -563,6 +611,18 @@ company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-1884416
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: School Administrator
+company: Berwick St Mary's Church of England Primary School
+location: Berwick-upon-Tweed
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-administrator-4b89961d-cc62-4cfa-9732-a8929179b607
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 

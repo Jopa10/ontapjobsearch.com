@@ -4,7 +4,7 @@
 - Live route: `/sunderland/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 45
+- automatic include: 3
+- automatic review: 49
 - automatic exclude: 0
-- effective include: 2
-- effective review: 45
+- effective include: 3
+- effective review: 49
 - effective exclude: 0
 
-## INCLUDE (2)
+## INCLUDE (3)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administration Assistant
+company: St Leonard's Catholic Primary School, Silksworth
+location: Sunderland
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-st-leonard-s-catholic-primary-school-silksworth
+reason: Exact approved Sunderland workplace.
+---
 
 ---
 action: 
@@ -48,7 +60,7 @@ job_id: teaching-vacancies-lead-administrator-harry-watts-academy
 reason: Exact approved Sunderland workplace.
 ---
 
-## REVIEW (45)
+## REVIEW (49)
 
 ---
 action: 
@@ -107,6 +119,18 @@ company: Randstad Perm Professionals - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-1961052
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Assistant
+company: North Durham Academy
+location: Stanley
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-north-durham-academy
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -215,6 +239,18 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-1905519
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Data Management Administrator (2025/HM084)
+company: East Durham College
+location: Peterlee
+source: Teaching Vacancies
+job_id: teaching-vacancies-data-management-administrator-2025-hm084
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -359,6 +395,18 @@ company: Lynn Bennett Resourcing - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-1991604
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Inclusion Administrator
+company: The Blyth Academy
+location: Blyth
+source: Teaching Vacancies
+job_id: teaching-vacancies-inclusion-administrator-the-blyth-academy
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -563,6 +611,18 @@ company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-1884416
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: School Administrator
+company: Berwick St Mary's Church of England Primary School
+location: Berwick-upon-Tweed
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-administrator-4b89961d-cc62-4cfa-9732-a8929179b607
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 

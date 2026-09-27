@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 28
-- automatic review: 2
+- automatic review: 5
 - automatic exclude: 17
 - effective include: 28
-- effective review: 2
+- effective review: 5
 - effective exclude: 17
 
 ## INCLUDE (28)
@@ -360,7 +360,31 @@ job_id: jobg8-1875937
 reason: Approved conservative Cambridge launch catchment.
 ---
 
-## REVIEW (2)
+## REVIEW (5)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrative Assistant
+company: Lantern Community Primary School
+location: Ely
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-df6b12e7-31c1-4ffd-8f6e-62dfb6e08db8
+reason: No approved Cambridge catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator (SEN and Careers)
+company: Marshland High School
+location: Wisbech
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-sen-and-careers
+reason: No approved Cambridge catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -383,6 +407,18 @@ company: East of England Community Health and Care NHS Trust (Cambridge)
 location: St Ives, PE27 4LG
 source: NHS Jobs
 job_id: nhs-5610324
+reason: No approved Cambridge catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: School Administrative Receptionist
+company: Buckden CofE Primary School
+location: St Neots
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-administrative-receptionist
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 

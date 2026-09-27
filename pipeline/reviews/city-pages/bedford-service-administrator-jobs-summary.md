@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 11
+- automatic review: 14
 - automatic exclude: 0
 - effective include: 5
-- effective review: 11
+- effective review: 14
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: nhs-5608349
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (11)
+## REVIEW (14)
 
 ---
 action: 
@@ -179,6 +179,42 @@ company: Manshead Church of England Academy
 location: Luton
 source: Teaching Vacancies
 job_id: teaching-vacancies-reception-administrator-assistant
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist & Administrative Assistant
+company: Parkfields Middle School
+location: Dunstable
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-administrative-assistant-parkfields-middle-school-dunstable-bedfordshire
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist / Administrator - Maternity Cover
+company: Putteridge High School
+location: Luton
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-administrator-maternity-cover-698a8012-ea64-49ee-8f10-84f9ae723800
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist/Clerical Assistant
+company: Richmond Hill School
+location: Luton
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-clerical-assistant-richmond-hill-school-luton-bedfordshire
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

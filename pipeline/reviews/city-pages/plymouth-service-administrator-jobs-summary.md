@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 40
+- automatic review: 44
 - automatic exclude: 0
 - effective include: 10
-- effective review: 40
+- effective review: 44
 - effective exclude: 0
 
 ## INCLUDE (10)
@@ -32,7 +32,7 @@ title: Administration Assistant
 company: Cann Bridge School
 location: Plymouth
 source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-5bf8284e-5a65-4c7e-bb0a-d149927a1892
+job_id: teaching-vacancies-administration-assistant-11d42ccb-1e47-4b92-b33d-cda687020619
 reason: Exact approved Plymouth workplace.
 ---
 
@@ -57,18 +57,6 @@ company: Persimmon Homes - Agency - Permanent
 location: Plymouth
 source: JobG8
 job_id: jobg8-108025447
-reason: Exact approved Plymouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Estates Administrator
-company: Learning Academies Trust
-location: Plymouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-estates-administrator-learning-academies-trust
 reason: Exact approved Plymouth workplace.
 ---
 
@@ -136,6 +124,18 @@ reason: Exact approved Plymouth workplace.
 action: 
 decision: include
 automatic_decision: include
+title: School Office Administrator
+company: Beechwood Primary Academy
+location: Plymouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-office-administrator-beechwood-primary-academy
+reason: Exact approved Plymouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Senior Administrator
 company: St Paul's Roman Catholic Primary School
 location: Plymouth
@@ -144,7 +144,7 @@ job_id: teaching-vacancies-senior-administrator-st-paul-s-roman-catholic-primary
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (40)
+## REVIEW (44)
 
 ---
 action: 
@@ -203,6 +203,30 @@ company: mbf. - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-1934222
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Attendance Officer
+company: Isca Academy
+location: Exeter
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-officer-3a512135-b2ab-44a1-ab86-624ecc2e7290
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Attendance Officer
+company: Okehampton College
+location: Okehampton
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-officer-d0027772-8f3a-48b5-b0ae-06908bf9d607
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -354,6 +378,18 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: HR Administrative Assistant
+company: Team Multi Academy Trust
+location: Barnstaple
+source: Teaching Vacancies
+job_id: teaching-vacancies-hr-administrative-assistant-team-multi-academy-trust
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Administrator
 company: Artis Recruitment - Agency - Permanent
 location: Newton Abbot
@@ -431,6 +467,18 @@ company: Lloyd Barnes Recruitment - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-1857372
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: People Administrator
+company: Dartmoor Multi Academy Trust
+location: Okehampton
+source: Teaching Vacancies
+job_id: teaching-vacancies-people-administrator-dartmoor-multi-academy-trust-okehampton-not-recorded
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

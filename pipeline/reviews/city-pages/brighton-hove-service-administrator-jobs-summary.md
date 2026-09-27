@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 31
-- automatic exclude: 12
+- automatic review: 28
+- automatic exclude: 14
 - effective include: 5
-- effective review: 31
-- effective exclude: 12
+- effective review: 28
+- effective exclude: 14
 
 ## INCLUDE (5)
 
@@ -84,7 +84,7 @@ job_id: jobg8-1856512
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (31)
+## REVIEW (28)
 
 ---
 action: 
@@ -282,18 +282,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator
-company: Southdown - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-108015994
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Internal Sales Administrator
 company: Trident - Agency - Permanent
 location: Sussex
@@ -323,18 +311,6 @@ company: A1 People - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-1910463
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Onboarding, Security Vetting & PMO Coordinator
-company: Synergize Consulting Limited - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-107996029
 reason: Broad location; review before city inclusion.
 ---
 
@@ -414,18 +390,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Solicitor or Paralegal - Contentious Probate Litigation - Part-time
-company: Wise Monkey Recruitment ltd - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-1894680
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Technical Administrator
 company: Ellis James Partners Limited - Agency - Permanent
 location: Sussex
@@ -458,7 +422,31 @@ job_id: jobg8-1883284
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (12)
+## EXCLUDE (14)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: St Leonards Church of England Primary Academy
+location: St Leonards-on-Sea
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-st-leonards-church-of-england-primary-academy
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Admissions Officer
+company: The Cavendish School
+location: Eastbourne
+source: Teaching Vacancies
+job_id: teaching-vacancies-admissions-officer-the-cavendish-school
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -584,11 +572,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist/Telephonist
-company: Sussex Partnership NHS Foundation Trust
-location: Chichester, PO19 1BX
-source: NHS Jobs
-job_id: nhs-5604706
+title: Personal Assistant to the Head Teacher
+company: Bishop Luffa School, Chichester
+location: Chichester
+source: Teaching Vacancies
+job_id: teaching-vacancies-personal-assistant-to-the-head-teacher-bishop-luffa-school-chichester
 reason: Separate employment market.
 ---
 
@@ -596,10 +584,10 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Ward Administrator
+title: Receptionist/Telephonist
 company: Sussex Partnership NHS Foundation Trust
-location: Crawley, RH11 7EJ
+location: Chichester, PO19 1BX
 source: NHS Jobs
-job_id: nhs-5607501
+job_id: nhs-5604706
 reason: Separate employment market.
 ---

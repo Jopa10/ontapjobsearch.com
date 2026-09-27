@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 8
+- automatic review: 10
 - automatic exclude: 0
 - effective include: 0
-- effective review: 8
+- effective review: 10
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (8)
+## REVIEW (10)
 
 ---
 action: 
@@ -90,6 +90,18 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Office Administrator
+company: Stourport Primary Academy
+location: Stourport-on-Severn
+source: Teaching Vacancies
+job_id: teaching-vacancies-office-administrator-stourport-primary-academy-stourport-on-severn-worcestershire
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Onboarding Coordinator
 company: Davies Group - Agency - Permanent
 location: Worcestershire
@@ -119,6 +131,18 @@ company: Four Squared - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-1891398
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist and Admin Assistant
+company: St George's CofE School
+location: Kidderminster
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-and-admin-assistant-st-george-s-cofe-school
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/exeter/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 15
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
-- automatic review: 35
+- automatic include: 16
+- automatic review: 38
 - automatic exclude: 0
-- effective include: 15
-- effective review: 35
+- effective include: 16
+- effective review: 38
 - effective exclude: 0
 
-## INCLUDE (15)
+## INCLUDE (16)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Michael Page Finance - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-1860828
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Attendance Officer
+company: Isca Academy
+location: Exeter
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-officer-3a512135-b2ab-44a1-ab86-624ecc2e7290
 reason: Exact approved Exeter workplace.
 ---
 
@@ -204,7 +216,7 @@ job_id: jobg8-1877836
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (35)
+## REVIEW (38)
 
 ---
 action: 
@@ -238,7 +250,7 @@ title: Administration Assistant
 company: Cann Bridge School
 location: Plymouth
 source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-5bf8284e-5a65-4c7e-bb0a-d149927a1892
+job_id: teaching-vacancies-administration-assistant-11d42ccb-1e47-4b92-b33d-cda687020619
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -263,6 +275,18 @@ company: City College Plymouth
 location: Plymouth
 source: Teaching Vacancies
 job_id: teaching-vacancies-apprenticeship-onboarding-administrator
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Attendance Officer
+company: Okehampton College
+location: Okehampton
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-officer-d0027772-8f3a-48b5-b0ae-06908bf9d607
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -354,18 +378,6 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Estates Administrator
-company: Learning Academies Trust
-location: Plymouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-estates-administrator-learning-academies-trust
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Assistant
 company: Butler Rose - Agency - Permanent
 location: Plymouth
@@ -395,6 +407,18 @@ company: Lloyd Barnes Recruitment - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-1873474
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Administrative Assistant
+company: Team Multi Academy Trust
+location: Barnstaple
+source: Teaching Vacancies
+job_id: teaching-vacancies-hr-administrative-assistant-team-multi-academy-trust
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -510,6 +534,18 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: People Administrator
+company: Dartmoor Multi Academy Trust
+location: Okehampton
+source: Teaching Vacancies
+job_id: teaching-vacancies-people-administrator-dartmoor-multi-academy-trust-okehampton-not-recorded
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Property Legal Assistant
 company: Pertemps Plymouth Commercial - Agency - Permanent
 location: Devon
@@ -587,6 +623,18 @@ company: St Budeaux CofE Primary Academy
 location: Plymouth
 source: Teaching Vacancies
 job_id: teaching-vacancies-school-administrator-st-budeaux-cofe-primary-academy
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: School Office Administrator
+company: Beechwood Primary Academy
+location: Plymouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-office-administrator-beechwood-primary-academy
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

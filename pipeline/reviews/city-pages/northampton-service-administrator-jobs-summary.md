@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 19
+- automatic review: 21
 - automatic exclude: 0
 - effective include: 3
-- effective review: 19
+- effective review: 21
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,19 @@ job_id: jobg8-1899049
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (19)
+## REVIEW (21)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Academy Administrator
+company: Greenfields Primary School and Nursery
+location: Kettering
+source: Teaching Vacancies
+job_id: teaching-vacancies-academy-administrator-greenfields-primary-school-and-nursery
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -191,6 +203,18 @@ company: Oasis Business Personnel Ltd - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-1916093
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Front of House Receptionist
+company: Wollaston School
+location: Wellingborough
+source: Teaching Vacancies
+job_id: teaching-vacancies-front-of-house-receptionist-wollaston-school
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

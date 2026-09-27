@@ -4,7 +4,7 @@
 - Live route: `/portsmouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 39
+- automatic include: 5
+- automatic review: 42
 - automatic exclude: 0
-- effective include: 4
-- effective review: 39
+- effective include: 5
+- effective review: 42
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (5)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrative Assistant (Thursdays and Fridays)
+company: Court Lane Junior Academy
+location: Portsmouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-thursdays-and-fridays
+reason: Exact approved Portsmouth workplace.
+---
 
 ---
 action: 
@@ -72,7 +84,7 @@ job_id: jobg8-1959286
 reason: Exact approved Portsmouth workplace.
 ---
 
-## REVIEW (39)
+## REVIEW (42)
 
 ---
 action: 
@@ -258,6 +270,30 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Care Coordinator
+company: Agincare Group - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-107963757
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Home Administrator
+company: Avery Healthcare Group Ltd.
+location: Winchester, SO22 5JH
+source: NHS Jobs
+job_id: nhs-5612599
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Company Secretary - 12 month FTC
 company: Michael Page Legal - Agency - Permanent
 location: Farnborough
@@ -359,6 +395,18 @@ company: Trusted Technology Partnership - Agency - Permanent
 location: Ringwood
 source: JobG8
 job_id: jobg8-1937622
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Insurance Account Executive
+company: Aspire Jobs Limited - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-107193862
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -486,18 +534,6 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist/Administrator
-company: Operose Health
-location: Basingstoke, RG22 4EH
-source: NHS Jobs
-job_id: nhs-5592877
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Recruitment Administrator
 company: University Hospital Southampton NHS Trust
 location: Southampton, SO16 6YD
@@ -527,6 +563,18 @@ company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 location: Fareham, PO17 6AR
 source: NHS Jobs
 job_id: nhs-5620952
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Telesales Executive
+company: Southern Communications Ltd - Agency - Permanent
+location: Basingstoke
+source: JobG8
+job_id: jobg8-108041601
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 

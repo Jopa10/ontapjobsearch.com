@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 22
+- automatic review: 29
 - automatic exclude: 0
 - effective include: 3
-- effective review: 22
+- effective review: 29
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: teaching-vacancies-receptionist-saint-pius-x-catholic-high-school-a-spec
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (22)
+## REVIEW (29)
 
 ---
 action: 
@@ -78,11 +78,47 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Admin & Clerical Officer Level 2 Rowan School
+company: The Rowan School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-clerical-officer-level-2-rowan-school-the-rowan-school
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin Assistant
+company: Owston Park Primary Academy
+location: Doncaster
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-assistant-owston-park-primary-academy
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Admin Assistant - Part Time - 18 hrs
 company: Totley All Saints Church of England Voluntary Aided Primary School
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-assistant-part-time-18-hrs
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Assistant
+company: Our Lady of Mount Carmel Catholic Primary School
+location: Doncaster
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-our-lady-of-mount-carmel-catholic-primary-school
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -150,6 +186,18 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Attendance Admin Assistant
+company: Lift Firth Park
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-admin-assistant-lift-firth-park
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Credit Control / Accounts Assistant
 company: Shillito Group - Agency - Permanent
 location: Sheffield
@@ -191,6 +239,18 @@ company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-1908708
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Administrator
+company: Sheffield Park Academy
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-hr-administrator-e50a9848-dea2-4828-a9a5-5745ea9a03ce
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -299,6 +359,30 @@ company: Grenoside Surgery
 location: Sheffield, S35 8NX, Sheffield, S6 1LA
 source: NHS Jobs
 job_id: nhs-5614236
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist and Administrator
+company: Prince Edward Primary School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-and-administrator-adcd5f34-cc20-45ec-9a96-1d35515bc466
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist and Administrator – (52 or 42 weeks considered)
+company: Sheffield Park Academy
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-and-administrator-52-or-42-weeks-considered
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

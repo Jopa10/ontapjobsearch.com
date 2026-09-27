@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 21
+- automatic review: 22
 - automatic exclude: 0
 - effective include: 6
-- effective review: 21
+- effective review: 22
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-1932863
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (21)
+## REVIEW (22)
 
 ---
 action: 
@@ -323,6 +323,18 @@ company: Yorkleigh Surgery
 location: Cheltenham, GL50 3ED
 source: NHS Jobs
 job_id: nhs-5590140
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Support Executive
+company: Usay Compare - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-108006035
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

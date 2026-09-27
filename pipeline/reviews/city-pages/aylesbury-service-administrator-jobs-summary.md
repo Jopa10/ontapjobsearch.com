@@ -4,8 +4,8 @@
 - Live route: `/aylesbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
-- Threshold currently met: no
+- Effective included jobs: 5
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 36
+- automatic include: 5
+- automatic review: 38
 - automatic exclude: 0
-- effective include: 3
-- effective review: 36
+- effective include: 5
+- effective review: 38
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (5)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: ARC Administrator
+company: The Kingsbrook School
+location: Aylesbury
+source: Teaching Vacancies
+job_id: teaching-vacancies-arc-administrator
+reason: Exact approved Aylesbury workplace.
+---
 
 ---
 action: 
@@ -60,7 +72,19 @@ job_id: teaching-vacancies-school-administrator-chiltern-way-academy-trust
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (36)
+---
+action: 
+decision: include
+automatic_decision: include
+title: SEN Administrator
+company: Chiltern Way Academy Trust
+location: Aylesbury
+source: Teaching Vacancies
+job_id: teaching-vacancies-sen-administrator-chiltern-way-academy-trust
+reason: Exact approved Aylesbury workplace.
+---
+
+## REVIEW (38)
 
 ---
 action: 
@@ -378,6 +402,18 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Office Administrator
+company: Sir William Ramsay School
+location: High Wycombe
+source: Teaching Vacancies
+job_id: teaching-vacancies-office-administrator-cf621f03-1b81-4970-86af-5e6e0d675eec
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part Time Payroll & HR
 company: Michael Page Finance - Agency - Permanent
 location: Milton Keynes
@@ -467,6 +503,18 @@ company: Riverside Surgery
 location: High Wycombe, HP11 2RZ
 source: NHS Jobs
 job_id: nhs-5607494
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Stephenson Academy
+location: Milton Keynes
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-stephenson-academy
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

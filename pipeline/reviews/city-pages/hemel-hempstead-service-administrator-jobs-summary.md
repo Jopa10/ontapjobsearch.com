@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 39
+- automatic review: 41
 - automatic exclude: 0
 - effective include: 1
-- effective review: 39
+- effective review: 41
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: jobg8-1877352
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
-## REVIEW (39)
+## REVIEW (41)
 
 ---
 action: 
@@ -298,7 +298,7 @@ title: Exams Officer
 company: Saint Joan of Arc Catholic School
 location: Rickmansworth
 source: Teaching Vacancies
-job_id: teaching-vacancies-exams-officer-6f4c470f-3514-47b2-bee0-5c17421f7874
+job_id: teaching-vacancies-exams-officer-11aba835-4586-4112-975b-4f8e3255dc66
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -419,6 +419,30 @@ company: Parkfield Medical Centre
 location: Potters Bar, EN6 1QH
 source: NHS Jobs
 job_id: nhs-5621462
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Office Administrator
+company: Larwood School
+location: Stevenage
+source: Teaching Vacancies
+job_id: teaching-vacancies-office-administrator-larwood-school
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Office Administrator
+company: Petersfield CofE Aided Primary School
+location: Royston
+source: Teaching Vacancies
+job_id: teaching-vacancies-office-administrator-petersfield-cofe-aided-primary-school
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

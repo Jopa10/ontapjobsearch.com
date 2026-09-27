@@ -35,21 +35,18 @@
     "employment_type": "['full time']",
     "salary_min": "",
     "salary_max": "",
-    "salary_text": "£30,347.00 - £30,348.00 Annually (Actual) Kent Salaries Kent Scheme G - -£30,348 pro rata (Full-time equivalent £34,347.90) per annum.",
+    "salary_text": "£34,347.00 - £36,264.00 Annually (Actual) Kent Salaries Kent Scheme G - £34,347.90 per annum progressing to £36,264 per annum.",
     "work_pattern": "",
     "posted_date": "2026-09-15",
     "closing_date": "2026-09-28",
     "closing_datetime": "2026-09-28T08:00:00+01:00",
-    "summary": "Personal Assistant to the Headteacher with Maidstone Grammar School for Girls in Maidstone. ['full time']; £30,347.00 - £30,348.00 Annually (Actual) Kent Salaries Kent Scheme G - -£30,348 pro rata (Full-time equivalent £34,347.90) per annum..",
-    "description": "Maidstone Grammar School for Girls is recruiting for this vacancy in Maidstone.\n\nThe advertised position is Personal Assistant to the Headteacher.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £30,347.00 - £30,348.00 Annually (Actual) Kent Salaries Kent Scheme G - -£30,348 pro rata (Full-time equivalent £34,347.90) per annum..\n\nThe stated application deadline is 2026-09-28T08:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "summary": "Personal Assistant to the Headteacher with Maidstone Grammar School for Girls in Maidstone. ['full time']; £34,347.00 - £36,264.00 Annually (Actual) Kent Salaries Kent Scheme G - £34,347.90 per annum progressing to £36,264 per annum..",
+    "description": "Maidstone Grammar School for Girls is recruiting for this vacancy in Maidstone.\n\nThe advertised position is Personal Assistant to the Headteacher.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £34,347.00 - £36,264.00 Annually (Actual) Kent Salaries Kent Scheme G - £34,347.90 per annum progressing to £36,264 per annum..\n\nThe stated application deadline is 2026-09-28T08:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
     "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-headteacher-maidstone-grammar-school-for-girls?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Maidstone Grammar School for Girls",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -93,6 +90,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0525-26-0013",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]
