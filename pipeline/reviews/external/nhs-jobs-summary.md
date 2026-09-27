@@ -2,11 +2,11 @@
 
 review_date: 2026-09-27
 
-- Open Administrative & Clerical rows reviewed: 2201
+- Open Administrative & Clerical rows reviewed: 2198
 - Auto/remembered selected: 406
 - Selected HC Tier A: 201
 - Selected HC Tier B: 205
-- POSS awaiting decision: 1673
+- POSS awaiting decision: 1670
 - Excluded: 0
 - HARD_PASS: 122
 
@@ -8654,18 +8654,6 @@ factual_fingerprint: 3e3345f1dcf0f5978b05154ccadc5b26508e453a2ee5d9ad5abf5ebfa8c
 
 ---
 action:
-POSS | NHS Jobs | West Midlands - Birmingham & Solihull | Birmingham, B4 6AR | £25760.00 to £27476.00 | Patient Admin Services Senior Booking Clerk
-source_job_id: 5613170
-title: Patient Admin Services Senior Booking Clerk
-employer: Birmingham Women's and Children's NHS Foundation Trust
-region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9284-26-0434
-factual_fingerprint: 17f4f96e800f6d8eb094e0a2a6790b488fa44f319383e69d17fd9ab77b254d9e
----
-
----
-action:
 POSS | NHS Jobs | Norfolk | King's Lynn, PE30 4ET | £66582.00 to £77368.00 | Head of Estates Integration – NWUHG New Hospital Programme
 source_job_id: 5613064
 title: Head of Estates Integration – NWUHG New Hospital Programme
@@ -14042,18 +14030,6 @@ factual_fingerprint: cdb1e6f35b410a7d2edcbc89640ffde770650e42eb6af223076fd12ed53
 
 ---
 action:
-POSS | NHS Jobs | Sussex | Crawley, RH11 7DH | £25272.00 | Urgent Treatment Centre Receptionist
-source_job_id: 5602902
-title: Urgent Treatment Centre Receptionist
-employer: Sussex Community NHS Foundation Trust
-region: Sussex
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9150-26-0553
-factual_fingerprint: e5d3da13fee997a90da7dfc9a2344f329113708699b6cbba7217f49282dc5886
----
-
----
-action:
 POSS | NHS Jobs | Leicestershire | Leicestershire, LE3 8TB | £79504.00 to £91609.00 | Head of UEC Acute Pathways
 source_job_id: 5602469
 title: Head of UEC Acute Pathways
@@ -16810,18 +16786,6 @@ region: Yorkshire - South
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9272-26-0505
 factual_fingerprint: f686e68d8f4bb3d291ac0111014b5c3ffa575d0954e18b3ee8dae46711a69c11
----
-
----
-action:
-POSS | NHS Jobs | Bristol & Bath | BRISTOL, BS2 8HW | £25760.00 to £27476.00 | Outpatient clinic Coordinator
-source_job_id: 5596365
-title: Outpatient clinic Coordinator
-employer: Bristol NHS Foundation Trust
-region: Bristol & Bath
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1884
-factual_fingerprint: 23f60c0b97fff3d3b860f16a65f0e4eb8cb0cf5515c19205dadbfd19dab2c3ff
 ---
 
 ---
