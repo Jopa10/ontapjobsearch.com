@@ -1417,6 +1417,12 @@ SELECTED | London | London | no salary in JobG8 salary fields; no supported sala
 job_id: 2030537
 ---
 
+---
+action:
+SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | HR Administration Assistant
+job_id: 2031679
+---
+
 ## LONDON — POSSIBLES
 
 _No jobs in this group._
@@ -2009,6 +2015,12 @@ job_id: 2024535
 action:
 SELECTED | Kent | Kent | no salary in JobG8 salary fields; no supported salary amount found in description | Business Support Administrator
 job_id: 2028629
+---
+
+---
+action:
+SELECTED | Kent | Kent | £30000 per year [JobG8 salary fields] | Procurement Assistant
+job_id: 108043304
 ---
 
 ## KENT — POSSIBLES
@@ -4207,6 +4219,12 @@ SELECTED | Gloucestershire | Gloucestershire |  | Sales Support Executive
 job_id: 108006035
 ---
 
+---
+action:
+SELECTED | Gloucestershire | Gloucestershire | £28000 per year | Recruitment Administrator
+job_id: 107871455
+---
+
 ## GLOUCESTERSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -5143,6 +5161,12 @@ SELECTED | Norfolk | Norfolk |  | Accounts Assistant
 job_id: 1881936
 ---
 
+---
+action:
+SELECTED | Norfolk | Norfolk | £30000 per year | Traffic Planner
+job_id: 108035698
+---
+
 ## NORFOLK — POSSIBLES
 
 _No jobs in this group._
@@ -6004,12 +6028,6 @@ job_id: 2026255
 ---
 action:
 SELECTED | Somerset | Somerset | £12.71 per hour | Activities Coordinator
-job_id: 108027382
----
-
----
-action:
-SELECTED | Somerset | Somerset | £12.71 per hour | Activities Coordinator
 job_id: 108036038
 ---
 
@@ -6653,12 +6671,6 @@ job_id: 1950960
 action:
 SELECTED | West Midlands - Black Country | Walsall | £25000 - £27000 per year | HR Administrator
 job_id: 1949460
----
-
----
-action:
-SELECTED | West Midlands - Black Country | Tipton |  | Artwork Coordinator
-job_id: 108006568
 ---
 
 ## WEST MIDLANDS - BLACK COUNTRY — POSSIBLES

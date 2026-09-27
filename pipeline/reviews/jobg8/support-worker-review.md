@@ -71,6 +71,12 @@ SELECTED | North East - Tyneside, Wearside & Northumberland | Hexham | £13.15 p
 job_id: 2021488
 ---
 
+---
+action:
+SELECTED | North East - Tyneside, Wearside & Northumberland | Whitley Bay | £12.85 per hour (plus rolled up holiday pay) | Female Relief Support Worker
+job_id: 108044187
+---
+
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
 
 ---
@@ -135,6 +141,12 @@ job_id: 1990925
 action:
 SELECTED | Sussex | Haywards Heath | £39134 per year | Healthcare Assistant
 job_id: 107863056
+---
+
+---
+action:
+SELECTED | Sussex | Hove | £13 per hour | Female Support Worker
+job_id: 108041798
 ---
 
 ## SUSSEX — POSSIBLES
@@ -323,12 +335,6 @@ SELECTED | London | London | £12.71 per hour | Night Care Assistant
 job_id: 107862702
 ---
 
----
-action:
-SELECTED | London | London | £12.71 per hour | Care Assistant
-job_id: 107862712
----
-
 ## LONDON — POSSIBLES
 
 _No jobs in this group._
@@ -369,6 +375,12 @@ job_id: 1996262
 action:
 SELECTED | Surrey | Caterham | £14.50 per hour | Female Healthcare Assistant
 job_id: 2021731
+---
+
+---
+action:
+SELECTED | Surrey | Redhill | £26000 per year | Female Support Worker
+job_id: 108043110
 ---
 
 ## SURREY — POSSIBLES
