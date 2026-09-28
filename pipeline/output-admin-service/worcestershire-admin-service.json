@@ -243,13 +243,17 @@
     "region": "Worcestershire",
     "salary": "£25760.00 to £27476.00",
     "employment_type": "Permanent",
-    "posted_date": "2026-09-28T08:18:27.821539808",
+    "posted_date": "2026-09-28T08:18:27.821540",
     "closing_date": "2026-10-08",
     "description": "Are you an excellent communicator with a passion for healthcare? We're seeking an enthusiastic and adaptable administrator to be part of our Neighbourhood Mental Health Team in Evesham. In this important role, you'll use your knowledge, experience & expertise to provide essential support to our hard-working frontline NHS teams. A passion for excellent patient care is a must. Required qualifications are listed in the Person Spec. You will be a strong communicator supporting a wide range of people including patients and health care professionals. You will need to be responsive and adaptable to the needs of the service but be sure that your hard work will be making a real difference to our patients and service users every day. Why apply? Comprehensive induction and local orientation. A wide range of opportunities for you to develop your skills and experience. S Support from the wider team Applicants must read the attached guidance notes before submitting your application for full understanding of Trust requirements. Maintaining patient records effectively and accurately General office duties such as typing, scanning, photocopying, printing Scheduling appointments/ minuting meetings Handling correspondence - ingoing/outgoing mail Handling queries over the telephone and face to face from staff, patients, and external agencies Looking after the shared email inbox Assisting the team with various administrative tasks Performance related tasks Supervising staff The job description and person specification gives you all the information you need about this role. Still have questions? The recruiting manager would love to hear from you, their contact details can be found in the job advert.",
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9798-26-0053",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9798-26-0053",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5623875",
@@ -267,6 +271,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0875-26-1026",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0875-26-1026",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

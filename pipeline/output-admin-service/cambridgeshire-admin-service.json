@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-senior-office-administrator-pathfinder-cofe-primary-school-cambridge-cambridgeshire",
-    "title": "Senior Office Administrator",
-    "company": "Pathfinder CofE Primary School",
-    "location": "Cambridge",
-    "region": "Cambridgeshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "Point 4-5, £26,016 - £26,427 FTE",
-    "work_pattern": "",
-    "posted_date": "2026-09-18",
-    "closing_date": "2026-09-28",
-    "closing_datetime": "2026-09-28T12:00:00+01:00",
-    "summary": "Senior Office Administrator with Pathfinder CofE Primary School in Cambridge. ['part time']; Point 4-5, £26,016 - £26,427 FTE.",
-    "description": "Pathfinder CofE Primary School is recruiting for this vacancy in Cambridge.\n\nThe advertised position is Senior Office Administrator.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is Point 4-5, £26,016 - £26,427 FTE.\n\nThe stated application deadline is 2026-09-28T12:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrator-pathfinder-cofe-primary-school-cambridge-cambridgeshire?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Pathfinder CofE Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-administrative-assistant-df6b12e7-31c1-4ffd-8f6e-62dfb6e08db8",
     "title": "Administrative Assistant",
     "company": "Lantern Community Primary School",
@@ -615,31 +587,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "1905510",
-    "title": "Finance Assistant",
-    "company": "Broster Buchanan - Agency - Permanent",
-    "location": "Peterborough",
-    "region": "Cambridgeshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Broster Buchanan are recruiting for a Finance Assistant to join a growing SME in Peterborough.\n\nWe're looking for an organised, proactive and commercially aware finance professional to support the day-to-day financial operations of the business. Working closely with the Finance Director, you'll gain broad exposure across transactional finance and develop your accounting experience.\n\nKey Responsibilities\n- Process and code supplier invoices, credit notes and payments\n- Maintain purchase and sales ledgers, including reconciliations\n- Monitor outstanding debt and support credit control and cash collection\n- Process and reconcile daily banking transactions\n- Assist with month-end close, balance sheet reconciliations, accruals and prepayments\n- Support VAT and statutory reporting\n- Maintain the fixed asset register and financial records in Xero\n- Investigate and resolve financial discrepancies\n- Support management accounts, reporting and financial analysis\n- Identify opportunities to improve finance processes, controls and reporting\n- Provide ad-hoc finance support and analysis across the business\n\nSkills & Experience Essential:\n- Previous experience in an accounts or finance role\n- Good understanding of purchase ledger, sales ledger and bank reconciliations\n- Strong numerical skills and attention to detail\n- Good Excel knowledge\n- Excellent organisation and ability to meet deadlines\n- Confident communication skills with customers, suppliers and colleagues\n- Proactive approach to problem-solving\n\nDesirable:\n- AAT qualified or studying towards AAT, ACCA or CIMA\n- Experience with Xero or similar accounting software\n- SME experience\n- Manufacturing, distribution or product-based experience\n- Exposure to month-end management accounts",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCKYOpkh0SVbzUEvKYyx3oi9l",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Broster Buchanan",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "1907392",
     "title": "Bookkeeper",
     "company": "TC Group - Agency - Permanent",
@@ -755,7 +702,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9176-26-0542",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9176-26-0542",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5611937",
@@ -773,7 +724,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9310-26-0612",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9310-26-0612",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5611673",
@@ -791,7 +746,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9310-26-0604",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9310-26-0604",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5530494",
@@ -809,7 +768,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0200",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0200",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5622126",
@@ -827,7 +790,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2625-26-0009",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2625-26-0009",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5622094",
@@ -845,24 +812,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2625-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2625-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
-  },
-  {
-    "job_id": "nhs-5610324",
-    "source": "NHS Jobs",
-    "title": "Personal Assistant",
-    "company": "East of England Community Health and Care NHS Trust (Cambridge)",
-    "advertiser_name": "East of England Community Health and Care NHS Trust (Cambridge)",
-    "location": "St Ives, PE27 4LG",
-    "region": "Cambridgeshire",
-    "salary": "£28392.00 to £31157.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-09-18T15:21:22.601894519",
-    "closing_date": "2026-10-01",
-    "description": "Are you an organised, proactive professional looking for an opportunity to make a real impact within the NHS? An exciting opportunity has arisen for an experienced and highly organised Personal Assistant to join the Chief Nurse's Directorate within East of England Community Health and Care NHS Trust. This key role provides comprehensive administrative, secretarial and organisational support to two Deputy Chief Nurses, the Assistant Director of Allied Health Professionals and the Assistant Director of Professional Practice (Nursing). We are looking for a professional, proactive and adaptable individual who can confidently manage competing priorities while maintaining excellent attention to detail. You will play a vital role in supporting the delivery of high-quality, safe and effective services by providing senior leaders with efficient, responsive business support. The successful candidate will possess excellent communication and organisational skills, be able to work independently using initiative and judgement, and demonstrate the highest standards of confidentiality and professionalism. Proven experience of diary management, minute taking, meeting coordination and the use of Microsoft 365 applications is essential. This is an excellent opportunity to work closely with senior leaders and contribute to priorities across patient safety, patient experience, professional practice and quality improvement. The post holder will provide a comprehensive Personal Assistant service to senior leaders within the Chief Nurse's Directorate, supporting the effective management of a wide range of administrative and organisational activities. The successful candidate will manage complex diaries, coordinate meetings, act as a key point of contact for enquiries, and handle sensitive information with professionalism and discretion. Responsibilities include preparing agendas and meeting papers, taking accurate minutes, monitoring actions, and producing high-quality reports, presentations and correspondence. The role also involves maintaining effective filing systems, supporting workforce administration processes, and ensuring records are managed in line with information governance requirements. Working closely with colleagues across the Trust, the post holder will provide responsive support to help deliver priorities relating to patient safety, patient experience, professional practice, governance and quality improvement. We are seeking a motivated and organised individual with excellent communication skills, strong attention to detail, and the ability to manage competing priorities while maintaining a high standard of service. Applicants are strongly encouraged to review the Job Description and Person Specification before submitting an application. Please note: Should we receive a high volume of applications, we reserve the right to close this vacancy early. Early application is encouraged. Job Purpose The post holder will be a key member of the Chief Nurses Directorate and will be responsible for providing comprehensive administrative, secretarial and organisational support to the two Deputy Chief Nurses, the Assistant Director of Allied Health Professionals and the Assistant Director of Professional Practice (Nursing). The role requires the post holder to work independently with minimal supervision, exercising initiative, discretion and judgement in managing competing priorities and maintaining effective communication across a range of internal and external stakeholders. Personal Assistant duties Provide high-quality, comprehensive, and responsive personal assistant, secretarial and administrative support to the two Deputy Chief Nurses, the Assistant Director of Allied Health Professionals and the Assistant Director of Professional Practice (Nursing) Support portfolios including patient experience, patient safety, regulatory compliance and quality by ensuring meetings, papers, correspondence and actions are coordinated effectively. Develop a strong understanding of the priorities, objectives and working styles of the Deputy Chief Nurses and assigned Assistant Directors to provide proactive, responsive and effective PA support. Act as the first point of contact for enquiries on behalf of the Deputy Chief Nurses assigned Assistant Directors, managing communications professionally and ensuring appropriate action is taken. Proactively manage complex electronic diaries and 'bring forward' systems, anticipating requirements, responding to changing priorities and ensuring the Deputy Chief Nurses and assigned Assistant Directors are fully prepared for meetings and commitments. Take accurate and timely minutes of meetings, produce action logs and ensure meeting outcomes and actions are circulated and monitored appropriately.Ensure efficient follow-up of actions arising from meetings using initiative to monitor progress and highlight outstanding actions where appropriate. Develop and maintain electronic and paper filing systems ensuring records are accurate, accessible, archived appropriately and managed in accordance with the Trusts information governance and data retention policies. Prepare, format and distribute letters, reports, presentations and other documentation to a high professional standard using Microsoft 365 and other Trust systems. Utilise Microsoft 365 applications and Trust electronic systems effectively, supporting efficient ways of working and maintaining accurate records. Maintain personnel files and electronic information relating to annual leave, sickness absence, mandatory training and other workforce information in accordance with organisational policies and processes. Ensure effective office administration systems are maintained and support business continuity through appropriate handover arrangements and office cover during periods of absence. Handle confidential and sensitive information appropriately, including matters relating to recruitment, employee relations, serious incidents, complaints and governance processes. Act as an ambassador for the Trust, demonstrating professionalism, discretion, integrity, courtesy and respect in all interactions. Work collaboratively with business support colleagues to provide a comprehensive, flexible and professional support service across the Chief Nurse Directorate. Arrange visitor parking at Trust sites using the appropriate systems where required. Organise internal and external meetings, including: diary coordination venue and room bookings agenda preparation collation and circulation of meeting papers arranging refreshments where required coordination of attendee requirements Employees must be aware of the responsibilities placed upon them under the Health and Safety at Work Act (1974), to ensure the agreed safety procedures are carried out to maintain a safe environment for employees and visitors. Ensure the Trusts Health and Safety Policies are understood and observed and that procedures are followed. Ensure the appropriate use of equipment and facilities and the environment is maintained in good order. Take the necessary precautions to safeguard the welfare and safety of themselves, patients, staff and visitors, in accordance with the Health and Safety at Work Act. Undertake appropriate Health and Safety training to support safe working practice including, where appropriate, its management. Maintaining own professional development and requirement to take part in appraisal and KSF process. Observe and maintain strict confidentiality with regards to any patient/family/staff/records and information in line with the requirements of the Data Protection Act. Any data that is taken/shared as part of a phone call or transported, faxed, or transferred electronically must be undertaken with regard to the Trust Information Governance and Information Security policies. The post holder must adhere to the Trust risk assessment and risk management processes The post holder must adhere to infection control policies and procedures Undertake mandatory training and any other training relevant to the role as required by Cambridgeshire Community Services NHS Trust. The post holder must participate in clinical and safeguarding audits as required The post holder is required to participate in relevant emergency preparedness process for their team.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9448-26-0335",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9448-26-0335",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

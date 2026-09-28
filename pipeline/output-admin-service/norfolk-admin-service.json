@@ -190,31 +190,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "1949573",
-    "title": "Assistant Accountant",
-    "company": "Keeler Recruitment - Agency - Permanent",
-    "location": "Norfolk",
-    "region": "Norfolk",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "35000",
-    "salary_text": "£30000 - £35000 per year",
-    "posted_date": "",
-    "description": "Assistant Accountant\n\nLocation: Fakenham\n\nSalary: £30,000 - £35,000\n\nHours: Full-time\n\nAbout the Role\n\nWe are working with a well-established organisation based in Fakenham who are looking to recruit an Assistant Accountant to join their finance team.\n\nThis is a great opportunity for someone with a good grounding in finance who is looking to develop their experience and take the next step in their career. Working closely alongside the Finance Manager, you will play an important role in supporting the day-to-day running of the finance function and ensuring the accounts are accurate and up to date.\n\nThe ideal candidate will have an AAT Level 3 qualification, or equivalent experience, alongside a hardworking and positive attitude. This role would suit someone who enjoys being hands-on, is keen to learn and wants to continue developing their accounting knowledge.\n\nKey Responsibilities\n- Assisting the Finance Manager with the day-to-day running of the finance function\n- Supporting with month-end processes and management accounts\n- Preparing and posting journals\n- Bank and balance sheet reconciliations\n- Supporting with purchase and sales ledger processes\n- Processing invoices and payments\n- Investigating and resolving financial discrepancies\n- Assisting with cashflow and other financial reporting\n- Maintaining accurate financial records and supporting documentation\n- Providing general support to the wider team as required\n- Working closely with the Finance Manager on ad-hoc finance projects and tasks\n\nAbout You\n\nWe are looking for someone who is:\n- AAT Level 3 qualified, or qualified by relevant experience\n- Experienced within an accounts or finance environment\n- Hardworking, reliable and organised\n- Comfortable working to deadlines and managing their own workload\n- A good communicator who works well as part of a team\n- Keen to learn, develop and broaden their accounting experience\n- Confident using Microsoft Excel and finance systems\n- Proactive and willing to get involved across the wider finance function\n\nWhat's on Offer\n- Salary of £30,000 - £35,000\n- The opportunity to work closely with and learn from an experienced Finance Manager\n- A varied role with exposure across the wider finance function\n- Excellent opportunity for career development and progression\n- A supportive and friendly finance team\n\nContact Rebecca at Keeler Recruitment on or email",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Yic9job4bS%2bvu4MvfMNpXeZFMdb82VDac",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Keeler Recruitment",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "1859172",
     "title": "Financial Services Administrator",
     "company": "NOODLE TALENT PARTNERS LIMITED - Agency - Permanent",
@@ -705,7 +680,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0179-1095",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0179-1095",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5623950",
@@ -723,7 +702,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0977-250926",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0977-250926",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5598299",
@@ -741,7 +724,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0179-1092",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0179-1092",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5615591",
@@ -759,7 +746,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1540-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1540-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5572899",
@@ -777,6 +768,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0782",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0782",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

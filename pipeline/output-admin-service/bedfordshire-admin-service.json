@@ -362,6 +362,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "2036003",
+    "title": "Customer Service Administrator",
+    "company": "Response Personnel - Agency - Permanent",
+    "location": "Bedfordshire",
+    "region": "Bedfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£13.00-£13.25 per hour",
+    "posted_date": "",
+    "description": "Customer Focus Administrator\n\nLocation: Sandy, Bedfordshire\nSalary: £13.00-£13.25 per hour\nHours: 40 hours per week\nContract: Temporary - up to 3 months\nStart Date: ASAP\n\nAbout the Role\n\nWe are currently looking for a Customer Focus Administrator to join our team based at our Sandy site.\n\nThis is a temporary position for up to three months, supporting the business while we complete an ongoing recruitment process. The ideal candidate will be organised, computer literate and confident communicating with customers over the telephone.\n\nKey Responsibilities\n- Completing accurate data entry and maintaining information on internal systems.\n- Answering incoming telephone calls and dealing with queries in a professional and friendly manner.\n- Providing a positive customer experience at all times.\n- Ensuring information is entered accurately and efficiently.\n- Supporting the wider team with general administrative duties as required.\n\nAbout You\n\nThe successful candidate will have:\n- Good computer skills and confidence using systems.\n- Excellent attention to detail.\n- A professional and friendly telephone manner.\n- Strong verbal communication skills.\n- Good organisational skills and the ability to manage tasks efficiently.\n- A customer-focused approach.\n- The ability to work independently as well as part of a team.\n\nWorking Hours\n\nMonday - Thursday: 7:30am - 4:15pm\nFriday: 7:30am - 3:00pm\n\nThis includes a 20-minute paid break and 30-minute unpaid lunch break.\n\nIf you are organised, customer-focused and have strong administration and communication skills, we would love to hear from you.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N4%2fB0wQFxbGC53zmb%2bNf5K7q",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Response Personnel",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5620192",
     "source": "NHS Jobs",
     "title": "Administration Assistant",
@@ -377,7 +402,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9448-26-0343",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9448-26-0343",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5608349",
@@ -395,7 +424,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5910-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5910-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5610497",
@@ -413,6 +446,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2155-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2155-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

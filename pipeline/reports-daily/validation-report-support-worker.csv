@@ -1,12 +1,12 @@
 ﻿metric,value
-total rows input,15576
-total rows included,46
-total rows dropped,15530
-title classification count - HIGH_CONFIDENCE,131
-title classification count - ELASTIC_FIT,44
+total rows input,15591
+total rows included,47
+total rows dropped,15543
+title classification count - HIGH_CONFIDENCE,129
+title classification count - ELASTIC_FIT,45
 title classification count - REVIEW_CONTEXT_DEPENDENT,1
-title classification count - HARD_PASS,7149
-title classification count - OUT_OF_SCOPE,8251
+title classification count - HARD_PASS,7230
+title classification count - OUT_OF_SCOPE,8186
 selection scenario - Yorkshire - West,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Yorkshire - West,Yorkshire - West selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Yorkshire - West,4
@@ -32,13 +32,13 @@ other elastic count - North East,3
 total rows output - North East,8
 job_id included - North East,1939256; 1939116; 2021645; 2021488; 2021360; 1909446; 2021670; 2021413
 selection scenario - Sussex,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Sussex,Sussex selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Sussex,4
-high confidence count - Sussex,3
+selection message - Sussex,Sussex selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Sussex,5
+high confidence count - Sussex,4
 anchor elastic count - Sussex,0
 other elastic count - Sussex,0
-total rows output - Sussex,4
-job_id included - Sussex,107863056; 1908629; 1959112; 1990925
+total rows output - Sussex,5
+job_id included - Sussex,107863056; 1908629; 1959112; 1990925; 108041798
 selection scenario - Cumbria - South,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Cumbria - South,Cumbria - South selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Cumbria - South,4

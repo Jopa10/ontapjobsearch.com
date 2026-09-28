@@ -250,6 +250,28 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "nhs-5625936",
+    "source": "NHS Jobs",
+    "title": "Receptionist",
+    "company": "SSP Health",
+    "advertiser_name": "SSP Health",
+    "location": "Bolton, BL3 3PH",
+    "region": "Greater Manchester - Wigan & Bolton",
+    "salary": "£12.21",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-28T10:20:08.869151953",
+    "closing_date": "2026-10-15",
+    "description": "We are looking an experienced receptionist to join our friendly team In Bolton. As a member of frontline staff you will be the first point of contact for our service users and visitors. You will need to be non-judgemental with excellent communication and listening skills. Experience of working in General Practice is desirable. You will be working collaboratively and across sites where required with Bolton Medical Centre, Bolton General Practice, Shanti Medical Centre & 3D Medical Centre You must be able to deal objectively and professionally in a calm and approachable manner when liaising with patients, staff, healthcare professionals and outside agencies. Prioritising a busy workload, being a good team player and possessing the ability to deal with a wide range of clerical and administration duties in a busy environment is also required. Knowledge of the EMIS web system would be an advantage; full training and support would be offered to the successful applicant.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5035-26-0078",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5035-26-0078",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5607140",
     "source": "NHS Jobs",
     "title": "Receptionist / Administrator",
@@ -265,24 +287,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1607-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1607-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
-  },
-  {
-    "job_id": "nhs-5603907",
-    "source": "NHS Jobs",
-    "title": "Clerical Officer",
-    "company": "Bolton NHS Foundation Trust",
-    "advertiser_name": "Bolton NHS Foundation Trust",
-    "location": "Bolton, BL6 5AF",
-    "region": "Greater Manchester - Wigan & Bolton",
-    "salary": "£25272.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-09-16T13:37:46.759086",
-    "closing_date": "2026-09-30",
-    "description": "Please note: This role is not eligible for Skilled Worker visa sponsorship. Applicants must have the right to work in the UK at the time of application, as we are unable to support visa applications for this position. Part-time 22.5 hours per week. Permanent post. We are looking for a highly organised clerical officer to provide and maintain an efficient administration service to the Trauma and Orthopaedic Department which will include the raising of purchase orders, compiling agenda's, organising meetings and typing up minutes. Validation of waiting lists, arranging appointments and general office duties. Candidates should be articulate, capable of undertaking a demanding workload and must be able to demonstrate a significant level of initiative. The post holder will be responsible for arranging department meetings and compiling agenda's as well as assisting with arranging appointments and raising purchase orders To provide clerical support to the Trauma and Orthopaedics Department. To assist with the organisation of meetings/agendas and minutes. To support with clerical validation of the 18 week referral to treatment pathway, organise appointments where necessary and general office duties.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9241-26-0339",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9241-26-0339",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

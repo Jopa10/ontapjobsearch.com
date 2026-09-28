@@ -546,7 +546,33 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-4054",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-4054",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5622645",
+    "source": "NHS Jobs",
+    "title": "Team Administrator",
+    "company": "Northamptonshire Healthcare Foundation Trust",
+    "advertiser_name": "Northamptonshire Healthcare Foundation Trust",
+    "location": "Daventry, NN11 4DY",
+    "region": "Northamptonshire",
+    "salary": "£25760.00 to £27476.00",
+    "employment_type": "Fixed-Term",
+    "posted_date": "2026-09-28T09:10:58.802974451",
+    "closing_date": "2026-10-09",
+    "description": "We have an exciting opportunity for a 9 month fixed term contract Band 3 Team Administrator to join our evolving and inclusive team to provide comprehensive administrative support at Danetre Inpatients Unit, Danetre Hospital in Daventry, this is part of the Adult Inpatient Community Beds Services within Northamptonshire. We are current looking to recruit someone for 37.5 hours per week, days to be agreed, into a permanent post, based at Danetre Inpatients Unit. The post holder will work alongside an established countywide administration team based across the North and West of the county. They must be flexible and use their initiative to organise their own workload dependent of the priorities and requirements at the time. Good communication skills, organisational ability, strong IT skills and flexibility are essential for this role. This role provides business and service administration support to the Danetre Inpatients Unit team, always ensuring a focus on quality and delivery. The post holder will be required to adhere to multiple deadlines with priorities that could change on a regular basis. They will be required to attend locality meetings and liaise closely with the B7 Ward and Therapy Team Manager on the ward. The post holder will frequently be the first point of contact for key stakeholders within their locality, so will have a high level of communication skills to be able to provide assurance and deliver a positive outcome For further information on the advertised role, please refer to the job description located under the Supporting Documents heading. The full person specification can be accessed under the About You Section of the document.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9270-26-0777",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9270-26-0777",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5617697",
@@ -564,7 +590,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0790-26-0012",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0790-26-0012",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5614974",
@@ -582,6 +612,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3007-26-0099",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3007-26-0099",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

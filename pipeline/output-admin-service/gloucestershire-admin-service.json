@@ -400,6 +400,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107980548",
+    "title": "HR & Payroll Administrator",
+    "company": "Next Generation Ltd - Agency - Permanent",
+    "location": "Gloucestershire",
+    "region": "Gloucestershire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "30000",
+    "salary_max": "30000",
+    "salary_text": "£30000 per year",
+    "posted_date": "",
+    "description": "Job Title : HR & Payroll Administrator\n\nSalary: Up to £30,000 p.a. (DOE)\n\nContract Type: Permanent\n\nHours: Monday Thursday 8.30am 17.00pm\n\nFriday 8.30am 16:00pm\n\nNext Generation have been appointed to recruitment for a HR & Payroll Administrator to work with an engineering business who supply parts into multiple industries click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?QHpHeWTcrP4DC27aeADdVab7hO5j3SBzy",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Next Generation Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "1934798",
     "title": "HR Assistant",
     "company": "Reed - Agency - Permanent",
@@ -490,7 +515,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0782-26-0072",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0782-26-0072",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5590140",
@@ -508,7 +537,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1227-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1227-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5600422",
@@ -526,6 +559,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0772",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0772",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
