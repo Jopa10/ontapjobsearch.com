@@ -137,9 +137,19 @@ SELECTED | Sussex | Haywards Heath | £39134 per year | Healthcare Assistant
 job_id: 107863056
 ---
 
+---
+action:
+SELECTED | Sussex | Hove | £13 per hour | Female Support Worker
+job_id: 108041798
+---
+
 ## SUSSEX — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - SUSSEX | Sussex | Uckfield | £39134 per year | Healthcare Assistant
+job_id: 108024713
+---
 
 ## CUMBRIA SOUTH — SELECTED
 
