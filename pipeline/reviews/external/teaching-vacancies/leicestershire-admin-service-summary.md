@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-09-27
+review_date: 2026-09-28
 review_fingerprint: 6d6f3a962a7c025bd4113e9231ac8a5e82dc651b09f0f273b8cb3065166da1a9
-routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
+routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE

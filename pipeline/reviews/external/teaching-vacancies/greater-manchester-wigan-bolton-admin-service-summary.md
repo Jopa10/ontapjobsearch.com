@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Wigan & Bolton
 
-review_date: 2026-09-27
-review_fingerprint: ba92f69fda3dae63436c0b65a80a3aa04bc928a168d4430a93ca5b39e28dd5f4
-routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
+review_date: 2026-09-28
+review_fingerprint: 311a9f55543b25fc5b5ea1aca6b399537f6e9afcc378a51e03f14ff24a4ef182
+routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
 ontap_region: Greater Manchester - Wigan & Bolton
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 3
 - Selected: 0
-- POSS awaiting decision: 2
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 2
 
@@ -24,21 +24,6 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 - None.
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Greater Manchester - Wigan & Bolton | Wigan, WN6 0NX | £12,024.46 - £12,607.74 Annually (Actual) | Finance Assistant
-employer: Mosaic Learning Trust
-closing_date: 2026-09-28T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a0e7117c366913beda1ae23f25d2ac071ea20b30eac3caea57d4b0ddb46732c8
-source: Teaching Vacancies
-source_job_id: finance-assistant-mosaic-learning-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-mosaic-learning-trust
----
 
 ---
 action: 
@@ -61,7 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-clerical-assis
 
 ## HARD_PASS
 
-- [School Office Manager - Primary](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-primary) — Manager title salary ceiling £35,412 is not below £28,000.
+- [Senior Administration Officer (Fixed Term)](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-fixed-term) — Insufficient admin/service evidence.
 - [Senior Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/senior-clerical-assistant-lostock-primary-school-bolton-lancashire) — Insufficient admin/service evidence.
 
 ## Safety boundary

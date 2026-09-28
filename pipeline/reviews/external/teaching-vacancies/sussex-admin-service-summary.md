@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-09-27
-review_fingerprint: 376fa3d8223a5e18723f0e78738d8ca4bc80f0c533acb679b2ac02aa79c67e76
-routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
+review_date: 2026-09-28
+review_fingerprint: b6a6a1fb91707d4eea9623667120b4caff5c267b615b4db01ab55ebb0f8286b5
+routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -53,21 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-th
 
 ---
 action: 
-SELECTED | Sussex | Chichester, South East, PO20 1NP | 30,515 to £33,120 FTE (£15,590 to £16,921 actual) | Exams Officer - CFS
-employer: Chichester Free School
-closing_date: 2026-09-28T00:00:00+01:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ae8c762c7d98a0383397684dd92be2dfebddccbe8184590acd812e9a8c746a9e
-source: Teaching Vacancies
-source_job_id: exams-officer-cfs
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-cfs
----
-
----
-action: 
 SELECTED | Sussex | Chichester, South East, PO19 3HP | £37,563 - £40,444 pro rata | Personal Assistant to the Head Teacher
 employer: Bishop Luffa School, Chichester
 closing_date: 2026-10-08T23:59:00+01:00
@@ -79,6 +64,21 @@ factual_fingerprint: 39de46b584fd455013eb8763ae991c136035dbcb98c28ecb867bd62f325
 source: Teaching Vacancies
 source_job_id: personal-assistant-to-the-head-teacher-bishop-luffa-school-chichester
 source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-head-teacher-bishop-luffa-school-chichester
+---
+
+---
+action: 
+SELECTED | Sussex | Bexhill-on-Sea, South East, TN39 4BY | NJC Grade 2 Point 3 (£24,769) pro rata to term time only + 3 weeks* £22,673 pro rata | Receptionist
+employer: Bexhill High Academy
+closing_date: 2026-10-08T09:00:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 55d833c435425abc67e73620f89ccfc928670884f8e9d1d4f59f9432038b245b
+source: Teaching Vacancies
+source_job_id: receptionist-bf66e44e-bcae-44e6-9b0c-09362e8e31cb
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-bf66e44e-bcae-44e6-9b0c-09362e8e31cb
 ---
 
 ---

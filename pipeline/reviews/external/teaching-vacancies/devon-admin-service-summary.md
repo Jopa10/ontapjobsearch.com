@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-09-27
-review_fingerprint: 50abf8dbe457b719d5637c5d8da3cc6deeba3364be369124ed5f0feaae21214b
-routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
+review_date: 2026-09-28
+review_fingerprint: ab46f1d3f57204fc6d92549e4c5b11be7f1192b1f952d2e1ab7e4af0c693a65e
+routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 27
-- Selected: 14
-- POSS awaiting decision: 3
+- Records: 23
+- Selected: 13
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 8
 
 ## SELECTED
 
@@ -53,21 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/apprenticeship-onboar
 
 ---
 action: 
-SELECTED | Devon | Exeter, South West, EX2 6AP | £23,071.62 - £25,407.68 | Attendance Officer
-employer: Isca Academy
-closing_date: 2026-09-27T23:59:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f87a9e1a865c685ad433deb9236f236043c2cf588f928029548741dc07c17997
-source: Teaching Vacancies
-source_job_id: attendance-officer-3a512135-b2ab-44a1-ab86-624ecc2e7290
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-3a512135-b2ab-44a1-ab86-624ecc2e7290
----
-
----
-action: 
 SELECTED | Devon | Okehampton, South West, EX20 1PW | £23,560.00 - £25,119.00 Annually (Actual) NJC Grade D. Range 8 to 12 | Attendance Officer
 employer: Okehampton College
 closing_date: 2026-10-05T23:59:00+01:00
@@ -98,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administrato
 
 ---
 action: 
+SELECTED | Devon | Ivybridge, South West, PL21 0JA | £14,575.00 - £15,381.00 Annually (Actual) WeST grade C SCP 5-7 | College Receptionist
+employer: Ivybridge Community College
+closing_date: 2026-10-12T09:00:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9ba42db837afa5b7e7c5fcf1ecf193595ff837153fc073c2c9da8478194372b0
+source: Teaching Vacancies
+source_job_id: college-receptionist-ivybridge-community-college-ivybridge-devon
+source_url: https://teaching-vacancies.service.gov.uk/jobs/college-receptionist-ivybridge-community-college-ivybridge-devon
+---
+
+---
+action: 
 SELECTED | Devon | Barnstaple, EX31 1JU | £13.91 Hourly 08:45am – 03:15pm Monday to Friday including 30 minutes unpaid lunch | HR Administrative Assistant
 employer: Team Multi Academy Trust
 closing_date: 2026-10-12T12:00:00+01:00
@@ -124,21 +124,6 @@ factual_fingerprint: b8c30f63380f5f8e84f09ffd420b65364263862b7b27a8303afcab06724
 source: Teaching Vacancies
 source_job_id: people-administrator-dartmoor-multi-academy-trust-okehampton-not-recorded
 source_url: https://teaching-vacancies.service.gov.uk/jobs/people-administrator-dartmoor-multi-academy-trust-okehampton-not-recorded
----
-
----
-action: 
-SELECTED | Devon | Plymouth, South West, PL9 9AZ | £21,911.60 - £22,613.92 Annually (Actual) Grade C SCP 5 - 7 FTE £25,583 - £26,403 (pay award pending) | Receptionist / Administrator / First Aid
-employer: Plymstock School
-closing_date: 2026-09-28T09:00:00+01:00
-reason: Clear admin/service title: administrator, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 39499dbc1eb828cf1085472600443fad92e476fb42ea5440ac27edeb873ad879
-source: Teaching Vacancies
-source_job_id: receptionist-administrator-first-aid-998a420b-1445-400e-ae08-d9399cb9bf66
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-first-aid-998a420b-1445-400e-ae08-d9399cb9bf66
 ---
 
 ---
@@ -235,21 +220,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 
 ---
 action: 
-POSS | Devon | Torquay, South West, TQ2 7EL | £27254 (actual salary £9340) | Reception and Administration Assistant
-employer: Torquay Boys' Grammar School
-closing_date: 2026-09-28T12:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8ef13f13b60a387e422aae4f5c14266dae23738aa68a94cde7e1e97be3236cfb
-source: Teaching Vacancies
-source_job_id: reception-and-administration-assistant-109b825b-7a0b-44c3-a80d-67ce740b1847
-source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-administration-assistant-109b825b-7a0b-44c3-a80d-67ce740b1847
----
-
----
-action: 
 POSS | Devon | Exeter, South West, EX2 4NQ | £27,709.00 - £29,070.00 Annually (FTE) | Senior Pupil Services Officer
 employer: St Leonard's (CofE) Primary School
 closing_date: 2026-10-06T09:00:00+01:00
@@ -285,14 +255,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 ## HARD_PASS
 
 - [[260909] Office Manager](https://teaching-vacancies.service.gov.uk/jobs/260909-office-manager) — Manager title salary ceiling £33,673 is not below £28,000.
-- [Apprenticeship and PTSA Operations Coordinator](https://teaching-vacancies.service.gov.uk/jobs/apprenticeship-and-ptsa-operations-coordinator) — Insufficient admin/service evidence.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-torquay-boys-grammar-school-torquay-devon) — Insufficient admin/service evidence.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-0263aaa9-e252-4340-b2d6-102751e90f65) — Insufficient admin/service evidence.
-- [Creative Performing Arts Administration Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/creative-performing-arts-administration-support-assistant) — Insufficient admin/service evidence.
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-chulmleigh-community-college) — Missing salary or pay scale.
-- [Finance and Contracts Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-and-contracts-officer) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-dartmoor-multi-academy-trust) — Insufficient admin/service evidence.
 - [Finance Business Partner - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-maternity-cover) — Insufficient admin/service evidence.
+- [People Advisor ( Devon Cluster)](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-devon-cluster) — Insufficient admin/service evidence.
 - [SEND Administration and Support](https://teaching-vacancies.service.gov.uk/jobs/send-administration-and-support) — Insufficient admin/service evidence.
 
 ## Safety boundary

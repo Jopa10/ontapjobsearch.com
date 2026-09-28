@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-09-27
-review_fingerprint: 2b79dcaea27f49629e0d25b2e764c371b8c4f27ccb0ab7509cd8e83a303c4f44
-routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
+review_date: 2026-09-28
+review_fingerprint: 27564e8d26692c3c6dcd645f2fae6d5f71126370b1239b57bbcf8a24eaa520de
+routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 6
+- Records: 9
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 4
@@ -53,21 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-the-c
 
 ---
 action: 
-SELECTED | Somerset | Yeovil, South West, BA21 4EG | £17,893.00 - £18,255.00 Annually (Actual) | Administrative Assistant
-employer: St Gildas Catholic Primary School
-closing_date: 2026-09-28T09:00:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0a85f1d9d74ad33d563c93fff899dfc7fe0fc08eb274a4f7c4daa0d6b7aa064c
-source: Teaching Vacancies
-source_job_id: administrative-assistant-st-gildas-catholic-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-st-gildas-catholic-primary-school
----
-
----
-action: 
 SELECTED | Somerset | Yeovil, South West, BA21 4DR | [£24,707 FTE] | Business Support and Compliance Administrator - Part Time
 employer: Yeovil College
 closing_date: 2026-10-04T23:59:00+01:00
@@ -94,21 +79,6 @@ factual_fingerprint: 8a6e1e18a88104176ea9119f1a4c3fe493d417b48ee0c650ca92f838db2
 source: Teaching Vacancies
 source_job_id: receptionist-and-admin-assistant-bridgwater-college-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admin-assistant-bridgwater-college-academy
----
-
----
-action: 
-SELECTED | Somerset | Minehead, South West, TA24 6AY | Support Staff Pay Scale Band3b Point 4 | Receptionist and Admin Assistant
-employer: West Somerset College
-closing_date: 2026-10-04T23:59:00+01:00
-reason: Clear admin/service title: admin assistant, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1cf96d6c6e8f846c1d3a40bf573994ac2379e2ce713ca5a371ea67bc95dfa632
-source: Teaching Vacancies
-source_job_id: receptionist-and-admin-assistant-west-somerset-college-minehead-somerset
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admin-assistant-west-somerset-college-minehead-somerset
 ---
 
 ## POSS — choose SELECT or EXCLUDE

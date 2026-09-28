@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-09-27
-review_fingerprint: 7d6add919e74a0af929d8583d3aa3031139a100294fb8465944418b1aebb0bc2
-routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
+review_date: 2026-09-28
+review_fingerprint: a411762652871f3f9876208325164ba68a9b9e9b7ade7407858ac1af3f4a4b1e
+routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 32
-- Selected: 13
+- Records: 28
+- Selected: 11
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 16
+- Hard pass: 14
 
 ## SELECTED
 
@@ -83,21 +83,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-37
 
 ---
 action: 
-SELECTED | Yorkshire - West | Ossett, Yorkshire and the Humber, WF5 9BS | £24,391.00 - £25,590.00 Annually (Actual) term time plus 5 days | Attendance & Admissions Officer
-employer: Highfield School
-closing_date: 2026-09-28T09:00:00+01:00
-reason: Clear admin/service title: admissions officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 6b191281391407b4b05ca71a54dd40c35951e42945a20b56a68bc8656f47ff93
-source: Teaching Vacancies
-source_job_id: attendance-admissions-officer-highfield-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-admissions-officer-highfield-school
----
-
----
-action: 
 SELECTED | Yorkshire - West | Castleford, Yorkshire and the Humber, WF10 3QJ | £12,995.00 - £13,158.00 Annually (Actual) Term time only plus 22.5hrs | Clerical Assistant/Receptionist
 employer: Townville Academy
 closing_date: 2026-10-02T12:00:00+01:00
@@ -124,21 +109,6 @@ factual_fingerprint: 257ab7ffc89119f94fdfc7cfdd4150f1fcf8028c4e7fdfb8b96c45d74ae
 source: Teaching Vacancies
 source_job_id: data-administrator-the-north-halifax-grammar-school-halifax-west-yorkshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/data-administrator-the-north-halifax-grammar-school-halifax-west-yorkshire
----
-
----
-action: 
-SELECTED | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD4 5JA | £26,583.26 Annually (Actual) Grade 7 SCP14-17 | Data and Exams Administrator
-employer: Moor End Academy
-closing_date: 2026-09-28T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: f8539d8e3c47cfbf92f52a7aae21e3f635bbb37777fa10576be785dbee360e67
-source: Teaching Vacancies
-source_job_id: data-and-exams-administrator-moor-end-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-administrator-moor-end-academy
 ---
 
 ---
@@ -271,7 +241,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-support-officer-7
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-batley-girls-high-school-batley-west-yorkshire) — Insufficient admin/service evidence.
 - [Content Creator (7617)](https://teaching-vacancies.service.gov.uk/jobs/content-creator-7617) — Insufficient admin/service evidence.
-- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-buttershaw-business-enterprise-college-academy) — Manager title salary ceiling £37,655 is not below £28,000.
 - [Data, MIS and Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/data-mis-and-admissions-manager-batley-grammar-school-batley-west-yorkshire) — Manager title salary ceiling £38,267 is not below £28,000.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.
 - [Exam Invigilators](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilators-beckfoot-trust) — Insufficient admin/service evidence.
@@ -279,11 +248,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-support-officer-7
 - [Finance Manager (Core Team)](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-core-team) — Manager title salary ceiling £49,282 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-greengates-primary-academy-bradford-west-yorkshire) — Insufficient admin/service evidence.
 - [HR Advisor (Central Team)](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-central-team) — Insufficient admin/service evidence.
-- [People Advisor (Temporary Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-temporary-maternity-cover) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-barkerend-primary-leadership-academy) — Manager title salary ceiling £47,665 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-weetwood-primary-school-leeds-west-yorkshire) — Manager title salary ceiling £42,123 is not below £28,000.
+- [Senior Admin and Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-admin-and-operations-manager) — Manager title salary ceiling £40,444 is not below £28,000.
 - [Senior Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-altofts-junior-academy) — Insufficient admin/service evidence.
-- [Senior Administrator](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-linthwaite-clough-primary-school) — Missing salary or pay scale.
 - [Work Placement Coordinator](https://teaching-vacancies.service.gov.uk/jobs/work-placement-coordinator-outwood-grange-academy) — Insufficient admin/service evidence.
 
 ## Safety boundary

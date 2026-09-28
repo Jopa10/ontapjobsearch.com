@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-09-27
-review_fingerprint: ebdfcf440aadcf83614182a8da17b54700bea1f37287dc5995f6a1bf711937ea
-routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
+review_date: 2026-09-28
+review_fingerprint: 721c6c05cdfb5cbf3f0184ff1a08be7e3152354c9b708b083130734ecbfb3e3c
+routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 6
+- Records: 13
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 9
@@ -34,21 +34,6 @@ factual_fingerprint: 04cfb913ee0d8366bd9ee0e9ed0d6d5428732898eb03a9878c4ae67e759
 source: Teaching Vacancies
 source_job_id: administrative-assistant-df6b12e7-31c1-4ffd-8f6e-62dfb6e08db8
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-df6b12e7-31c1-4ffd-8f6e-62dfb6e08db8
----
-
----
-action: 
-SELECTED | Cambridgeshire | Peterborough, East of England, PE6 7JX | £14,802.00 Annually (Actual) | Administrator
-employer: Arthur Mellows Village College
-closing_date: 2026-09-28T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0212aa390ec9bb1b4c002dfc941ea22561703a264fc3612bcff2b493ad321cc5
-source: Teaching Vacancies
-source_job_id: administrator-47bb26eb-71c2-4cc0-b838-989640ff07ed
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-47bb26eb-71c2-4cc0-b838-989640ff07ed
 ---
 
 ---
@@ -96,21 +81,6 @@ source_job_id: school-administrative-receptionist
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrative-receptionist
 ---
 
----
-action: 
-SELECTED | Cambridgeshire | Cambridge, East of England, CB24 3DS | Point 4-5, £26,016 - £26,427 FTE | Senior Office Administrator
-employer: Pathfinder CofE Primary School
-closing_date: 2026-09-28T12:00:00+01:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: fc2409b3461ec8750c9112cbd4ce01874db69953cec628c6eb776cc8810162a1
-source: Teaching Vacancies
-source_job_id: senior-office-administrator-pathfinder-cofe-primary-school-cambridge-cambridgeshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrator-pathfinder-cofe-primary-school-cambridge-cambridgeshire
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -121,7 +91,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-office-adminis
 
 ## HARD_PASS
 
-- [Head of HR Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-operations-united-learning-trust) — Insufficient admin/service evidence.
+- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-f3f57ca9-847f-4e59-bac2-1caf377a9267) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-buckden-cofe-primary-school) — Manager title salary ceiling £34,811 is not below £28,000.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-9a683a81-163f-46a5-b7f5-732557216d39) — Manager title salary ceiling £44,854 is not below £28,000.
 - [PA to Head of School & Administration Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-head-of-school-administration-manager) — Manager title salary ceiling £36,581 is not below £28,000.

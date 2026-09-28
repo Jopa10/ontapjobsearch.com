@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-09-27
-review_fingerprint: 1dc5128398e7c44c02e820b2c364ab68e7990c86437fe37f166c10d040c0d306
-routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
+review_date: 2026-09-28
+review_fingerprint: 20cb21b3ecedfb1e947124481270b540d4f7c5f4abd1d29d524aa94c07535020
+routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 8
+- Records: 11
+- Selected: 6
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 3
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Norfolk | Norwich, East of England, NR3 1DD | Salary: Support Staff Pay Scale D: £23,112 to £23,479 pro-rata per annum (Actual) (£26,427 - £26,847 full time/full year equivalent) | Administration Assistant
+employer: Jane Austen College
+closing_date: 2026-10-09T01:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6b55b836500bebd52e8bc94e860006debfe91ce7b8230665196a2405302e324e
+source: Teaching Vacancies
+source_job_id: administration-assistant-8b4b0d9f-5aef-4920-bca2-851d2222cd88
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-8b4b0d9f-5aef-4920-bca2-851d2222cd88
+---
 
 ---
 action: 
@@ -68,36 +83,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
-SELECTED | Norfolk | Great Yarmouth, East of England, NR29 4QD | £24,827.05 - £26,060.00 Annually (Actual) OAT Grade 4, SCP 11 - 14 (Salary figure includes holiday pay) | Attendance Officer
-employer: Flegg High Ormiston Academy
-closing_date: 2026-09-27T23:59:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 189e1df74d584fa11e84a4a25a135d1e1fed7d935eec1024cbff5dc18f215b31
-source: Teaching Vacancies
-source_job_id: attendance-officer-flegg-high-ormiston-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-flegg-high-ormiston-academy
----
-
----
-action: 
-SELECTED | Norfolk | Norwich, East of England, NR5 8HT | £21,746 - £22,092 per annum | Office Assistant
-employer: West Earlham Junior School
-closing_date: 2026-09-28T01:00:00+01:00
-reason: Clear admin/service title: office assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 232323f00fbf3ff3e4173444ba08b8acc41d6f73f6d45d4cbea3e27a965ebe12
-source: Teaching Vacancies
-source_job_id: office-assistant-west-earlham-junior-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-assistant-west-earlham-junior-school
----
-
----
-action: 
 SELECTED | Norfolk | King's Lynn, East of England, PE30 2QB | Salary: Support Staff Pay Scale C: £22,401 to £22,752 pro-rata per annum (Actual) (£25,614 - £26,016 full time/full year equivalent) | Receptionist
 employer: King Edward VII Academy
 closing_date: 2026-10-02T01:00:00+01:00
@@ -109,21 +94,6 @@ factual_fingerprint: f9c2f6eba972339fea7afc26f52c9fecca4694c9a275c90ae5f3fec60e8
 source: Teaching Vacancies
 source_job_id: receptionist-king-edward-vii-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-king-edward-vii-academy
----
-
----
-action: 
-SELECTED | Norfolk | King's Lynn, East of England, PE31 8RF | £10,376 - £10,539 actual pa | School Secretary
-employer: Rudham CofE Primary Academy
-closing_date: 2026-09-28T01:00:00+01:00
-reason: Clear admin/service title: school secretary, secretary
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: bfc80bad7286c269184542f882b120e70fc74bb500fc2923b0adebf00afebc74
-source: Teaching Vacancies
-source_job_id: school-secretary-rudham-cofe-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-secretary-rudham-cofe-primary-academy
 ---
 
 ---

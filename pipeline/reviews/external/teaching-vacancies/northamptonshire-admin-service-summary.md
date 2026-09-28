@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-09-27
-review_fingerprint: c15d41201156fabc11527b6e9d43c31ac191628d66d6aedb103262f8e021b372
-routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
+review_date: 2026-09-28
+review_fingerprint: 2605bb4824f7120dc31b1a3617b562c6668125b93ca9620f92b5b3c5f68843e0
+routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 6
-- Selected: 2
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -51,6 +51,21 @@ source_job_id: front-of-house-receptionist-wollaston-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/front-of-house-receptionist-wollaston-school
 ---
 
+---
+action: 
+SELECTED | Northamptonshire | Northampton, East Midlands, NN6 8QE | £9,649.00 Annually (Actual) Grade E, Point 4. £25,185 FTE, Actual salary £9,649 £1,000 Welcome Bonus * *Terms and conditions apply | Receptionist
+employer: Guilsborough Academy
+closing_date: 2026-10-07T09:00:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d546935ed10c862bfd59367a48213250061788ab00f0168ad3a82fbc5d0241cf
+source: Teaching Vacancies
+source_job_id: receptionist-guilsborough-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-guilsborough-academy
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -62,7 +77,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/front-of-house-recept
 ## HARD_PASS
 
 - [Business Partner](https://teaching-vacancies.service.gov.uk/jobs/business-partner-st-james-infant-school) — Insufficient admin/service evidence.
-- [Finance and HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-and-hr-assistant) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-creating-tomorrow-multi-academy-trust) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-gloucester-nursery-school) — Manager title salary ceiling £38,510 is not below £28,000.
 

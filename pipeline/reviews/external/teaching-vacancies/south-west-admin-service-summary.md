@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — South West
 
-review_date: 2026-09-27
-review_fingerprint: 22d83cf19bee4eb8df4137e5325b1ba026ced066c5b699c834beea452d70ef6c
-routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
+review_date: 2026-09-28
+review_fingerprint: 71efc44600c269366267e600bd0073890daa68b2b67da97dd019b6e08f57cad2
+routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
 ontap_region: South West
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 4
+- Records: 5
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
@@ -34,21 +34,6 @@ factual_fingerprint: bf6b1bc1093a9a0e6850e5ab8764e21388602a6a2b60c6cf8994a32d5c6
 source: Teaching Vacancies
 source_job_id: pastoral-administrator-the-wellington-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-the-wellington-academy
----
-
----
-action: 
-SELECTED | South West | Perranporth, South West, TR6 0EU | 13,011.00 | Reception Administrator
-employer: Perranporth Community Primary School
-closing_date: 2026-09-27T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: a1b343032389e87b4f8c4babaf79c734954dda9b30862e942686450a98cae140
-source: Teaching Vacancies
-source_job_id: reception-administrator-perranporth-community-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-administrator-perranporth-community-primary-school
 ---
 
 ---

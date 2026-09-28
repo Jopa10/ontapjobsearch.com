@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - East
 
-review_date: 2026-09-27
+review_date: 2026-09-28
 review_fingerprint: 402994003010c9ea3f5c31c4f99b574aab9742e89ad8cc2c19d6b01cb7c4e4cb
-routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
+routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
 ontap_region: Cheshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 3
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -62,7 +62,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administra
 ## HARD_PASS
 
 - [Director of People](https://teaching-vacancies.service.gov.uk/jobs/director-of-people-the-learning-partnership-academies-trust-crewe-not-recorded) — Insufficient admin/service evidence.
-- [Procurement and Contracts Manager](https://teaching-vacancies.service.gov.uk/jobs/procurement-and-contracts-manager-the-learning-partnership-academies-trust) — Manager title salary ceiling £56,084 is not below £28,000.
 
 ## Safety boundary
 

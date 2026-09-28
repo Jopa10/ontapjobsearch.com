@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-09-27
-review_fingerprint: 77564b24a90fa6660409719b340425b401f5c0ccba96ee31e69acc590ace1207
-routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
+review_date: 2026-09-28
+review_fingerprint: 0c605813d0e6aa13d0b3f458a894d1543ce77a27ff14c6494dab6bf954faa359
+routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 7
+- Records: 15
+- Selected: 9
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -53,6 +53,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
+SELECTED | Lincolnshire | Spalding, East Midlands, PE11 2JQ | £14,002.00 - £14,684.00 Annually (Actual) Grade 4 SCP 9-12, Part time - Monday to Friday 8.30am - 1pm | Administrator
+employer: St Paul's Community Primary and Nursery School, Spalding
+closing_date: 2026-10-11T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e89114c3189703aa75664217c3b75a43f772efed7384b0fa2441d633b65cb948
+source: Teaching Vacancies
+source_job_id: administrator-st-paul-s-community-primary-and-nursery-school-spalding
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-st-paul-s-community-primary-and-nursery-school-spalding
+---
+
+---
+action: 
 SELECTED | Lincolnshire | Boston, East Midlands, PE20 1JS | £30,023.00 - £30,023.00 Annually (FTE) NJC13 £30,023 FTE (£27,723.95 pro rata) | Data & Exams Officer
 employer: Thomas Middlecott Academy
 closing_date: 2026-10-18T23:59:00+01:00
@@ -68,17 +83,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-exams-officer-th
 
 ---
 action: 
-SELECTED | Lincolnshire | Skegness, East Midlands, PE24 5LS | £9,476.00 - £10,439.00 Annually (Actual) G5.12 (£27,254 FTE) to G5.15 (£30,024 FTE) | HR Administrator
-employer: Chapel St Leonards Primary School
-closing_date: 2026-09-27T23:59:00+01:00
-reason: Clear admin/service title: administrator
+SELECTED | Lincolnshire | Grimsby, DN41 7QD | £29,542.00 - £32,046.00 Annually (Actual) Actual salary: £14,069 - £15,261 | HR & Office Administrator
+employer: Harbour Learning Trust
+closing_date: 2026-10-23T12:00:00+01:00
+reason: Clear admin/service title: administrator, office administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: f92b533ab0994f1cc761907c125ff46bf69327598589bdbc62f35d95ae93f337
+factual_fingerprint: b94d957a97a2110f3441ec108223a0b8f505b7462e7962731fbb0e3d85253a35
 source: Teaching Vacancies
-source_job_id: hr-administrator-chapel-st-leonards-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-chapel-st-leonards-primary-school
+source_job_id: hr-office-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-office-administrator
 ---
 
 ---
@@ -98,17 +113,32 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-7569
 
 ---
 action: 
-SELECTED | Lincolnshire | Scunthorpe, Yorkshire and the Humber, DN16 1NT | £21,955 - £22,304 per annum | School Administrator Role - Attendance Assistant
-employer: Outwood Academy Brumby
-closing_date: 2026-09-28T09:00:00+01:00
-reason: Clear admin/service title: administrator
+SELECTED | Lincolnshire | Spalding, East Midlands, PE11 2EH | £22,530.00 - £23,614.00 Annually (Actual) Grade 3 Point 6-9 (FTE £25,614-£26,846) | Receptionist/ Admin Assistant
+employer: Tulip Academy
+closing_date: 2026-10-01T23:59:00+01:00
+reason: Clear admin/service title: admin assistant, receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 10aac0d432b3e8e2b48141c658567120dc91c6b4ec8f2e61e3cd3400cfbf0b58
+factual_fingerprint: 6d82f1ad8b229cf888db8495ab6cdb55c665563480a831957415e39ce54f62ee
 source: Teaching Vacancies
-source_job_id: school-administrator-role-attendance-assistant-a776f8a6-c388-4b6b-b481-9a6f4d4c6e5e
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-role-attendance-assistant-a776f8a6-c388-4b6b-b481-9a6f4d4c6e5e
+source_job_id: receptionist-admin-assistant-tulip-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-tulip-academy
+---
+
+---
+action: 
+SELECTED | Lincolnshire | Boston, East Midlands, PE21 0PX | £23,933.00 - £25,098.00 Annually (Actual) G4.9-12 £26,846 - £28,153 FTE | Receptionist/Admin Assistant
+employer: Boston Endeavour Academy
+closing_date: 2026-10-21T23:59:00+01:00
+reason: Clear admin/service title: admin assistant, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 297da02685fe16b682d5e209eaff108a750b360588f9ca202855722d2ebd027c
+source: Teaching Vacancies
+source_job_id: receptionist-admin-assistant-boston-endeavour-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-boston-endeavour-academy
 ---
 
 ---
@@ -150,11 +180,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-manager-the-s
 ## HARD_PASS
 
 - [Bursar](https://teaching-vacancies.service.gov.uk/jobs/bursar-cliffedale-primary-school) — Insufficient admin/service evidence.
-- [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-walton-academy) — Manager title salary ceiling £49,749 is not below £28,000.
 - [Governance & Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-compliance-officer-inspire-connected-communities-trust-louth-not-recorded) — Insufficient admin/service evidence.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-queen-elizabeth-s-high-school-gainsborough) — Manager title salary ceiling £42,839 is not below £28,000.
-- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-a28cea11-d24b-43cc-a15c-772ff5fa57da) — Insufficient admin/service evidence.
 - [Trust Executive Assistant & HR Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/trust-executive-assistant-hr-co-ordinator) — Insufficient admin/service evidence.
+- [Trust HR Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-hr-manager-keystone-academy-trust) — Manager title salary ceiling £33,673 is not below £28,000.
 
 ## Safety boundary
 

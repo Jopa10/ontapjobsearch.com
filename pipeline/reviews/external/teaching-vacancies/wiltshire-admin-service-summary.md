@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-09-27
-review_fingerprint: 5300988a93ae549c8b55a3180ead8c98ad1fe51290c79bf3055a80a6b6dc2ac9
-routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
+review_date: 2026-09-28
+review_fingerprint: 8aecb13382755533dbb3a0a3e24c8751534df3b16fadee5a8176893fb129557f
+routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 3
-- POSS awaiting decision: 2
+- Records: 11
+- Selected: 2
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 8
 
@@ -38,32 +38,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-and-t
 
 ---
 action: 
-SELECTED | Wiltshire | Swindon, South West, SN2 2NQ | £11,495.00 Annually (Actual) | Part Time Receptionist/Administrator
-employer: Nova Hreod Academy
-closing_date: 2026-10-01T23:59:00+01:00
-reason: Clear admin/service title: administrator, receptionist
+SELECTED | Wiltshire | Devizes, South West, SN10 4EB | £31,537 - £33,699 per annum pro rata | £28,517 - £30,472 per annum | Exams Officer
+employer: Lavington School
+closing_date: 2026-09-29T09:00:00+01:00
+reason: Clear admin/service title: exams officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 19c944ea4c26a2d35904f8a96316690cfdc1384d89a9ff90dbfaceda6b14bed1
+factual_fingerprint: 30f023bd1dda29f84c6ea5f57af9349946786985aef4804521998980358acae5
 source: Teaching Vacancies
-source_job_id: part-time-receptionist-administrator-nova-hreod-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-receptionist-administrator-nova-hreod-academy
----
-
----
-action: 
-SELECTED | Wiltshire | Swindon, South West, SN4 7HG | £25,185.00 - £25,989.00 Annually (FTE) Actual Salary: £20,491 - £21,145 (DOE) pro rata | School Attendance Administrator
-employer: Royal Wootton Bassett Academy
-closing_date: 2026-09-27T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b068ce2f24f3ec8333c6e86dc7811c73a908d3069aca9d5d0d908c146e0b715d
-source: Teaching Vacancies
-source_job_id: school-attendance-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-attendance-administrator
+source_job_id: exams-officer-a0e6b270-9f8e-4c55-b68b-38b5e9214d1b
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-a0e6b270-9f8e-4c55-b68b-38b5e9214d1b
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -83,21 +68,6 @@ source_job_id: clerk-to-governors-grove-learning-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-grove-learning-trust
 ---
 
----
-action: 
-POSS | Wiltshire | Calne, South West, SN11 8YH | £29,064.00 - £31,022.00 Annually (FTE) NJC Grade G, £3,378-£3,605 (DOE) Actual | Clerk to Governors
-employer: Kingsbury Green Academy
-closing_date: 2026-09-27T23:59:00+01:00
-reason: Borderline school administration title: clerk to governors
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 383f4f9824ba767e2f44589d5338c81a9005b1bf029a7fd07fe2fa3ea50fa006
-source: Teaching Vacancies
-source_job_id: clerk-to-governors-kingsbury-green-academy-calne-wiltshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-kingsbury-green-academy-calne-wiltshire
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -109,9 +79,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-ki
 - [Attendance Liaison Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-liaison-assistant) — Insufficient admin/service evidence.
 - [Early Years Stronger Practice Hub Manager](https://teaching-vacancies.service.gov.uk/jobs/early-years-stronger-practice-hub-manager) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-magna-learning-partnership-salisbury-not-recorded) — Insufficient admin/service evidence.
+- [HLTA Behaviour and Inclusion](https://teaching-vacancies.service.gov.uk/jobs/hlta-behaviour-and-inclusion) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-great-western-academy-swindon) — Insufficient admin/service evidence.
 - [Local Governance Committee Clerks](https://teaching-vacancies.service.gov.uk/jobs/local-governance-committee-clerks) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-lethbridge-primary-school) — Manager title salary ceiling £35,814 is not below £28,000.
 
 ## Safety boundary
 

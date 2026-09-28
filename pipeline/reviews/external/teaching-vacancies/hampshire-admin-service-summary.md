@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-09-27
+review_date: 2026-09-28
 review_fingerprint: bdc58b16dea191ef8e35becb0d2df961134449a2e1c20d1f0e85f20cdf15f9dd
-routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
+routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
+- Records: 9
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 7
 
 ## SELECTED
 
@@ -61,7 +61,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-the-har
 
 ## HARD_PASS
 
-- [Administration & Reception Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-reception-assistant-cove-school) — Missing salary or pay scale.
 - [Apprentice Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/apprentice-admin-assistant-penbridge-junior-school) — Missing salary or pay scale.
 - [Business Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/business-administration-officer) — Insufficient admin/service evidence.
 - [Data Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-administration-assistant-cove-school) — Insufficient admin/service evidence.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-09-27
-review_fingerprint: 04fa2ada518eeaccfc9dad9a9dc298aff726b9e15c1ccdd4b4d4235d05e2acfd
-routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
+review_date: 2026-09-28
+review_fingerprint: fe57dac80caed2b4e0a5c8c921f27505b44de471fe3c5704caac9a2687cd88de
+routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 23
+- Records: 21
 - Selected: 6
-- POSS awaiting decision: 3
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 14
+- Hard pass: 13
 
 ## SELECTED
 
@@ -53,6 +53,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-admissions
 
 ---
 action: 
+SELECTED | Berkshire | Reading, South East, RG1 5SL | £12,218.00 Annually (Actual) Grade 3 (SCP 3-5 ) working 20 hours per week Term Time Only plus 5 INSET days. FTE £26,427.00 | Attendance Administrative Assistant
+employer: Maiden Erlegh School in Reading
+closing_date: 2026-10-25T23:59:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 25025decb2e1706d158688cad29f328492d1f11b80bcfa80ee2127aee2f4544b
+source: Teaching Vacancies
+source_job_id: attendance-administrative-assistant-491e52ee-e6f5-45d1-a1d1-8677846dcf7e
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrative-assistant-491e52ee-e6f5-45d1-a1d1-8677846dcf7e
+---
+
+---
+action: 
 SELECTED | Berkshire | Reading, South East, RG7 3XJ | Between £29,071 and £33,119 | Personal Assistant to the Headteacher
 employer: The Willink School
 closing_date: 2026-10-16T12:00:00+01:00
@@ -64,21 +79,6 @@ factual_fingerprint: 1f7fa1443f5f5cbcd20d0d523cd952e67a0ea7afea83acafb6bdd1ffeff
 source: Teaching Vacancies
 source_job_id: personal-assistant-to-the-headteacher-the-willink-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-headteacher-the-willink-school
----
-
----
-action: 
-SELECTED | Berkshire | Ascot, South East, SL5 9QY | £20,104.00 Annually (Actual) FTE £29318, Scale 4 Point 7 | Safeguarding Administrator and Student Wellbeing Support
-employer: Charters School
-closing_date: 2026-09-28T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8582b6350e6fe01a995ecbecbbf9d0a2c8c781ae83e9370ec74eba2e7bf0f4d3
-source: Teaching Vacancies
-source_job_id: safeguarding-administrator-and-student-wellbeing-support
-source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-administrator-and-student-wellbeing-support
 ---
 
 ---
@@ -130,21 +130,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-suppor
 
 ---
 action: 
-POSS | Berkshire | Reading, South East, RG31 6XY | £20,019.00 - £23,175.00 Annually (Actual) | Marketing and Communications Officer
-employer: Denefield School
-closing_date: 2026-09-28T09:00:00+01:00
-reason: Borderline school administration title: communications officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8222365f38d7f0790ba00ca656393530cb51a3a28407553bf09a868bf0a0847c
-source: Teaching Vacancies
-source_job_id: marketing-and-communications-officer-denefield-school-reading-berkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-and-communications-officer-denefield-school-reading-berkshire
----
-
----
-action: 
 POSS | Berkshire | Reading, South East, RG5 3EU | £26,176.00 - £28,395.00 Annually (Actual) Term time only plus 10 additional days | Senior Finance Assistant
 employer: The Bulmershe School
 closing_date: 2026-10-23T23:59:00+01:00
@@ -172,7 +157,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-finance-assist
 - [Full Time Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/full-time-administration-officer) — Insufficient admin/service evidence.
 - [HR & Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-officer-the-park-federation-academy-trust) — Insufficient admin/service evidence.
 - [Medical Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/medical-administrative-assistant) — Missing salary or pay scale.
-- [Office Manager - Southcote Primary School](https://teaching-vacancies.service.gov.uk/jobs/office-manager-southcote-primary-school-southcote-primary-school-reading-berkshire) — Manager title salary ceiling £35,521 is not below £28,000.
 - [Office Manager and Personal Assistant to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-personal-assistant-to-the-headteacher-new-town-primary-school) — Manager title salary ceiling £40,444 is not below £28,000.
 - [School Development Officer](https://teaching-vacancies.service.gov.uk/jobs/school-development-officer) — Insufficient admin/service evidence.
 - [School Solicitor](https://teaching-vacancies.service.gov.uk/jobs/school-solicitor) — Insufficient admin/service evidence.

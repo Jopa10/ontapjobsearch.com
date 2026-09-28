@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-09-27
-review_fingerprint: eb9804c99453dde05ae9e33e7f9ac34c0b0c0ecf8f95bb8ff76911cd88f22381
-routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
+review_date: 2026-09-28
+review_fingerprint: da92a7719e974db8fda92b49e214d07f8460ad3a156182882eb85f1ca20e519e
+routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
+- Records: 13
 - Selected: 6
-- POSS awaiting decision: 6
+- POSS awaiting decision: 5
 - Excluded: 0
 - Hard pass: 2
 
@@ -112,21 +112,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Hertfordshire | Rickmansworth, South East, WD3 6ER | £26,552.00 - £28,742.00 Annually (FTE) Term time only Pro Rata salary. | Administration Officer
-employer: Chenies School
-closing_date: 2026-10-12T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: fbc785644a71e069856172a38d0d1c96e1a07af5611b82af93a937aa530d164d
-source: Teaching Vacancies
-source_job_id: administration-officer-chenies-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-chenies-school
----
 
 ---
 action: 

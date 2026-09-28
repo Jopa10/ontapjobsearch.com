@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-09-27
-review_fingerprint: 6e12daca05362b93d575a9a7b6fae12f3132f148f5b3bffd55fe64d32762a80f
-routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
+review_date: 2026-09-28
+review_fingerprint: d8ae57e80c9276bc9bfd1de115e2e97bd9228a5fcef86748661f986e6b4f5525
+routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 8
+- Records: 13
+- Selected: 7
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 3
@@ -113,21 +113,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-th
 
 ---
 action: 
-SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M21 7SX | The starting pro-rata salary is £29,448 and the full time equivalent is £34,237. | Senior Administrator to the Senior Leadership Team
-employer: CHS South
-closing_date: 2026-09-27T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e1138498c0de9fcf7dae66df75fb8817ff229478730bd3d94e8f47adbf1e4ef5
-source: Teaching Vacancies
-source_job_id: senior-administrator-to-the-senior-leadership-team
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-to-the-senior-leadership-team
----
-
----
-action: 
 SELECTED | Greater Manchester - Manchester & Salford | Manchester, M60 0AG | NJC SCP12 - SCP19 £28,598 - £32,062 | Trust Finance and Systems Administrator
 employer: The Co Operative Academies Trust
 closing_date: 2026-10-12T00:00:00+01:00
@@ -160,17 +145,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-suppor
 
 ---
 action: 
-POSS | Greater Manchester - Manchester & Salford | Manchester, North West, M19 1FS | £23,460.00 - £25,006.00 Annually (Actual) NJC Grade 4, Points 7-11 | Inclusion Administration Officer
-employer: Levenshulme High School
-closing_date: 2026-09-28T08:00:00+01:00
+POSS | Greater Manchester - Manchester & Salford | Manchester, North West, M15 4ZB | £14.14 per hour | Reception and Administration Assistant
+employer: Crown Street Primary School
+closing_date: 2026-10-17T09:00:59+01:00
 reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: ec5436af541cda84e64c6e90914cad84d70c87ef28e118831e5ed14c7a2e48e3
+factual_fingerprint: c4b327ff57ece83a7b637cf4a66bbd9583d98e7964d19268dbea8cb99109e5e6
 source: Teaching Vacancies
-source_job_id: inclusion-administration-officer
-source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administration-officer
+source_job_id: reception-and-administration-assistant-crown-street-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-administration-assistant-crown-street-primary-school
 ---
 
 ---

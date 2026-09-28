@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-09-27
-review_fingerprint: b2f4e62f6b352928a3f38ee4b779eff2a0604a7b85b228127863e896d39fee93
-routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
+review_date: 2026-09-28
+review_fingerprint: b342e561128b0214d29ab6d07a13e9d81c251358fde5d59e4d365190f1e4c3fa
+routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,27 +13,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 3
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Yorkshire - North | York, Yorkshire and the Humber, YO10 5ZA | Grade 5 (£23,698 – this is the pro rata salary) | Attendance Administrator
-employer: Archbishop Holgate's School, A Church of England Academy
-closing_date: 2026-09-28T08:00:00+01:00
-reason: Clear admin/service title: administrator
+SELECTED | Yorkshire - North | Scarborough, Yorkshire and the Humber, YO12 7DD | Grade CD | Administration Assistant
+employer: Gladstone Road Primary School
+closing_date: 2026-10-13T12:00:00+01:00
+reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 175ea147fb2bebd3dcdcf4e9eb36595feb19e8c9b8c3ac3a0ba9cc86b5756fbe
+factual_fingerprint: 6dfc0ff4523b32661698aef2f0509616c0df8d6941f8baa8037c6a55ab623902
 source: Teaching Vacancies
-source_job_id: attendance-administrator-archbishop-holgate-s-school-a-church-of-england-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-archbishop-holgate-s-school-a-church-of-england-academy
+source_job_id: administration-assistant-gladstone-road-primary-school-scarborough-north-yorkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-gladstone-road-primary-school-scarborough-north-yorkshire
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -48,7 +48,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administra
 
 - [Administration Apprentice](https://teaching-vacancies.service.gov.uk/jobs/administration-apprentice-park-grove-primary-academy) — Insufficient admin/service evidence.
 - [Exams Officer, Data and Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-officer-data-and-cover-manager) — Manager title salary ceiling £30,390 is not below £28,000.
-- [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-heartwood-learning-trust-york-not-recorded) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

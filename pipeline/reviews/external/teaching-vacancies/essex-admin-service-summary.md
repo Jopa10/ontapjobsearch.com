@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-09-27
-review_fingerprint: e159547cf16bb1bf503add5ab89f9f273792bcdd8fa5098222e4b1c0a92ee719
-routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
+review_date: 2026-09-28
+review_fingerprint: 88f5d7361077872f2730479501723be6cea58275507a21caba4006210293a815
+routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 9
+- Records: 13
+- Selected: 7
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 6
 
 ## SELECTED
-
----
-action: 
-SELECTED | Essex | Leigh-on-Sea, East of England, SS9 3TG | £13,684.00 - £14,350.00 Annually (Actual) | Academy Administrator
-employer: Belfairs Academy
-closing_date: 2026-10-04T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f26ce8e17425ea2df6277393b923358f357d786a6e7b9f74686b9e57dbbaf18f
-source: Teaching Vacancies
-source_job_id: academy-administrator-belfairs-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-belfairs-academy
----
 
 ---
 action: 
@@ -141,21 +126,6 @@ source_job_id: school-administrator-clerical-support
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-clerical-support
 ---
 
----
-action: 
-SELECTED | Essex | Westcliff-on-Sea, East of England, SS0 7JS | 7-12 | Social Media & Design Administrator
-employer: St Bernard's High School
-closing_date: 2026-09-28T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9af255a138170f336860de0fb83f2898475101d8e980187255db71695a15a3b3
-source: Teaching Vacancies
-source_job_id: social-media-design-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/social-media-design-administrator
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -169,9 +139,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/social-media-design-a
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-harlow-college) — Insufficient admin/service evidence.
 - [Payroll, Contracts & Systems Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-contracts-systems-officer) — Insufficient admin/service evidence.
 - [Repographics Technician](https://teaching-vacancies.service.gov.uk/jobs/repographics-technician) — Out-of-scope occupation: technician.
-- [Reprographics Administrator/Receptionist](https://teaching-vacancies.service.gov.uk/jobs/reprographics-administrator-receptionist-plume-school) — Missing salary or pay scale.
-- [Senior HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-ea247ce7-8c6b-4179-a7a3-f1673e767983) — Insufficient admin/service evidence.
+- [Senior HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-8119a08e-351e-407b-8e55-7b302ed8a76f) — Insufficient admin/service evidence.
 - [STUDENT ATTENDANCE AND INCLUSION MANAGER](https://teaching-vacancies.service.gov.uk/jobs/student-attendance-and-inclusion-manager-dee93199-2550-4a54-8c93-9bcd03bba34f) — Manager title without salary evidence below £28,000.
+- [Work Placement Officer](https://teaching-vacancies.service.gov.uk/jobs/work-placement-officer) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-09-27
-review_fingerprint: 13f791f7314a87042bfa654ddb584b3e7535e8423631ff3d61280961c6d84583
-routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
+review_date: 2026-09-28
+review_fingerprint: f71c2452d241888733d088dd6112fb60963c7e9482b3a8b0b9ef9035c0ca3882
+routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 25
-- Selected: 11
-- POSS awaiting decision: 0
+- Selected: 10
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 14
 
@@ -83,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B17 9LU | £26,514.00 - £29,071.00 Annually (FTE) | Administrative Assistant, Admissions & Attendance
+employer: Harborne Primary School
+closing_date: 2026-10-12T12:00:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9aa2156f0b152cb2aa0fa9b9216fd86874198a738441e87d1876e4cadc87191d
+source: Teaching Vacancies
+source_job_id: administrative-assistant-admissions-attendance
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-admissions-attendance
+---
+
+---
+action: 
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B29 4HE | £23,408.04 - £25,392.13 Annually (Actual) SCP 12-17 | Administrator
 employer: E-ACT Shenley Academy
 closing_date: 2026-10-05T09:00:00+01:00
@@ -128,67 +143,50 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-year-te
 
 ---
 action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B7 4QR | £11,923.86 Annually (Actual) Apprentice Rate 1 | Pastoral Support and Administrator Apprentice
-employer: E-ACT Heartlands Academy
-closing_date: 2026-09-28T09:00:00+01:00
-reason: Clear admin/service title: administrator
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B10 0EG | £27,709.00 to £29,071.00 per annum (pro rata £24,444.59 to £25,646.13 per annum) | Business Support Officer - Finance
+employer: The Olive School, Small Heath
+closing_date: 2026-10-05T23:59:00+01:00
+reason: Clear admin/service title: business support officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: e4a9c9303900dde857bcc06050214b4df9bfefa192ef12f3d747dd6b984d1809
+factual_fingerprint: 5677eb708abf92958bdaac85e22fb393beaceae7a541de980d120c7d0ad7687e
 source: Teaching Vacancies
-source_job_id: pastoral-support-and-administrator-apprentice
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-support-and-administrator-apprentice
+source_job_id: business-support-officer-finance-the-olive-school-small-heath
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-finance-the-olive-school-small-heath
 ---
 
 ---
 action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B36 0HD | £ 25614.00 - £26427 | School Office Administrator
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B36 0HD | FTE - £ 25614.00 - £26427.00 Actual Salary - £ 20770.00 - £21909.00 | School Office Administrator
 employer: Castle Bromwich Junior School
 closing_date: 2026-10-14T09:00:00+01:00
 reason: Clear admin/service title: administrator, office administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 222b1e389eb6a651397ece0a31db910705bea5cd9759b5061e560872a324c75d
+factual_fingerprint: d0addec0efed820b1afcd6065021263dcb9c3c106035e1160e7086d2d9646e68
 source: Teaching Vacancies
 source_job_id: school-office-administrator-castle-bromwich-junior-school-birmingham-west-midlands
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-administrator-castle-bromwich-junior-school-birmingham-west-midlands
 ---
 
----
-action: 
-SELECTED | West Midlands - Birmingham & Solihull | Sutton Coldfield, West Midlands, B74 2NH | £28,598.00 - £31,537.00 Annually (FTE) | Senior Administrator
-employer: Bishop Vesey's Grammar School
-closing_date: 2026-09-28T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7302a06a68c219f62cd1d623685abf5dc9e1c3dbadc965fdde3abdab6bf1d91d
-source: Teaching Vacancies
-source_job_id: senior-administrator-bishop-vesey-s-grammar-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-bishop-vesey-s-grammar-school
----
-
----
-action: 
-SELECTED | West Midlands - Birmingham & Solihull | Sutton Coldfield, West Midlands, B74 2NH | £30,240.00 - £31,934.00 Annually (Actual) | Whole School Attendance Officer (Mat Cover)
-employer: Bishop Vesey's Grammar School
-closing_date: 2026-09-27T23:59:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 06c9d6dc514d4b6acd038c6c7defdcb9e0f6c1854141c3ab55481ab5c5268ca8
-source: Teaching Vacancies
-source_job_id: whole-school-attendance-officer-mat-cover
-source_url: https://teaching-vacancies.service.gov.uk/jobs/whole-school-attendance-officer-mat-cover
----
-
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B44 0JL | Birmingham Pay scale Grade 3, points 9 - 22 depending on experience | Office Administrator
+employer: Kings Rise Academy
+closing_date: 2026-10-19T15:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1f546d20f95f975ea0c67e078e38157f97c7d0abab10b622c5469f7b9851d600
+source: Teaching Vacancies
+source_job_id: office-administrator-kings-rise-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-kings-rise-academy
+---
 
 ## EXCLUDED BY REVIEW
 

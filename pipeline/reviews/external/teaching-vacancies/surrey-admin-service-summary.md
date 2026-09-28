@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-09-27
-review_fingerprint: 3d17f2752453099d302964f3ab7454aa2723c00dd5b65bfc732ee32ee9b3aeeb
-routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
+review_date: 2026-09-28
+review_fingerprint: 72cccbbf5fe326c05cc04dd9c07b2df5b6678b36e8b9d0aaf7e7f4d4016d13fb
+routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 10
-- Selected: 4
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: 9666f46c5f5115472682d1a7b3b8c56c30e7ff689b6b9a2b0edd4fca5bb
 source: Teaching Vacancies
 source_job_id: attendance-and-admissions-officer-65b72427-5324-4164-8260-a853358c3381
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admissions-officer-65b72427-5324-4164-8260-a853358c3381
+---
+
+---
+action: 
+SELECTED | Surrey | Weybridge, South East, KT13 8UZ | Salary ELM6 £30,647 FTE Actual Salary £17,026 | HR Administrator
+employer: Heathside School
+closing_date: 2026-09-30T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ed1284d98479a3490d70afd091418956c7951ad98529f9dc4df1d5ea97eeaeb8
+source: Teaching Vacancies
+source_job_id: hr-administrator-ee39b099-7efe-4405-b75b-67e4389825c0
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-ee39b099-7efe-4405-b75b-67e4389825c0
 ---
 
 ---
@@ -93,7 +108,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-a73
 
 - [Admissions Advisor](https://teaching-vacancies.service.gov.uk/jobs/admissions-advisor) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-the-swan-trust-surrey-not-recorded) — Insufficient admin/service evidence.
-- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-yattendon-school) — Manager title salary ceiling £36,943 is not below £28,000.
 - [Regional Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/regional-finance-manager-06cafd15-1ee6-4d43-9137-043ba72063ed) — Manager title salary ceiling £28,167 is not below £28,000.
 - [Regional Finance Partner](https://teaching-vacancies.service.gov.uk/jobs/regional-finance-partner-the-beacon-school) — Insufficient admin/service evidence.
 - [Trust Estates Facilities & Compliance Coordinator](https://teaching-vacancies.service.gov.uk/jobs/trust-estates-facilities-compliance-coordinator) — Insufficient admin/service evidence.

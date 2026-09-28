@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-09-27
-review_fingerprint: 42a67fb8cdbf820a03b72912fbb4a0f5ebd025087a41dada5bb083bed933d25e
-routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
+review_date: 2026-09-28
+review_fingerprint: 9b1f673bbefea24780b52efc21b985f1b90ed13d71fa22102c5ecc7d7e80ce9c
+routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 3
+- Records: 10
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -66,6 +66,21 @@ source_job_id: business-support-officer-attendance-and-admissions-star-radcliffe
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-attendance-and-admissions-star-radcliffe-academy-radcliffe
 ---
 
+---
+action: 
+SELECTED | Greater Manchester - North | Oldham, North West, OL2 5BF | £28,437.98 - £30,375.64 Annually (Actual) SCP 16-20 | Pastoral Administrator
+employer: E-ACT the Oldham Academy North
+closing_date: 2026-10-12T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 8e4ed9d92a746c27254cc67e68e38b22e8ebd9b47ad02ce5fe360d6decdb4c83
+source: Teaching Vacancies
+source_job_id: pastoral-administrator-e-act-the-oldham-academy-north
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-e-act-the-oldham-academy-north
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -90,6 +105,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/mis-systems-and-data-
 ## HARD_PASS
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-richmond-academy) — Insufficient admin/service evidence.
+- [Attendance Support Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-support-officer-st-gabriel-s-rc-high-school-a-voluntary-academy-bury-lancashire) — Insufficient admin/service evidence.
 - [Business Administrator based at New Bridge College](https://teaching-vacancies.service.gov.uk/jobs/business-administrator-based-at-new-bridge-college) — Missing salary or pay scale.
 - [Receptionist / Administrator](https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-hollingworth-academy) — Missing salary or pay scale.
 - [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-sacred-heart-roman-catholic-primary-school-a-voluntary-academy) — Manager title salary ceiling £36,581 is not below £28,000.

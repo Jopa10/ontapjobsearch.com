@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-09-27
-review_fingerprint: fcf293ae8fe9f456242fe6f1989d4b8951e5379f3dab0bfe457c65b99757425a
-routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
+review_date: 2026-09-28
+review_fingerprint: 44756f1c7a14221ab6d134c63d2102fa0c2b33785ea6fab6014df5139befabcb
+routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 7
+- Records: 16
+- Selected: 6
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 7
 
 ## SELECTED
-
----
-action: 
-SELECTED | West Midlands - Coventry & Warwickshire | Warwick, West Midlands, CV34 5DF | 22,277.00 - 22,629.00 | Administration Assistant
-employer: Evergreen School
-closing_date: 2026-09-27T23:59:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8caa1acf91291b485bea3168a9e1f51dea0387ea7c893a74a7d489f8c605312b
-source: Teaching Vacancies
-source_job_id: administration-assistant-23d0b4b5-47f8-416c-924d-d887471e9a01
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-23d0b4b5-47f8-416c-924d-d887471e9a01
----
 
 ---
 action: 

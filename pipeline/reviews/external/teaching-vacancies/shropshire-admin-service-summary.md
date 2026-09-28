@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Shropshire
 
-review_date: 2026-09-27
-review_fingerprint: 6053558049cf7d4a61c1d3b0d75e098ff6608b9a11ecf4959bcc8fc0fa5a3c14
-routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
+review_date: 2026-09-28
+review_fingerprint: 223bf3de1f0b8e7156eb936171ef3e8acf5cb2bf970a8e0fb9655c1d8fedf8db
+routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
 ontap_region: Shropshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 3
+- Records: 3
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
-
----
-action: 
-SELECTED | Shropshire | Shrewsbury, West Midlands, SY2 5SH | £23,962 | Administration Assistant
-employer: Severndale Specialist Academy
-closing_date: 2026-09-28T09:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 60ea79847662ac6f238202918d165864be8a704cfd0932d6c136a94e2a2d7a8c
-source: Teaching Vacancies
-source_job_id: administration-assistant-severndale-specialist-academy-shrewsbury-shropshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-severndale-specialist-academy-shrewsbury-shropshire
----
 
 ---
 action: 

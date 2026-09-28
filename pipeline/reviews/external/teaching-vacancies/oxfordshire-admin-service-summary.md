@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-09-27
-review_fingerprint: 37e9c52c1ee9884b215205fb77fa029e9b5556bf8d1975aebe4be1cfe95e47e8
-routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
+review_date: 2026-09-28
+review_fingerprint: e6e140076825c0690f78a02def1c9847f4b42cab4a3c3e9db2e776c1924bcdcb
+routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
-- Selected: 9
-- POSS awaiting decision: 0
+- Records: 14
+- Selected: 7
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 6
 
 ## SELECTED
-
----
-action: 
-SELECTED | Oxfordshire | Banbury, South East, OX15 4UL | £23,787.11 Annually (FTE) Grade 6 | Administration Assistant
-employer: Bloxham Grove Academy
-closing_date: 2026-09-28T09:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: fd3c45c8cb848d796c856d9d93acf0b067ef5e780d1557389869a6ba3265c7df
-source: Teaching Vacancies
-source_job_id: administration-assistant-bloxham-grove-academy-banbury
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-bloxham-grove-academy-banbury
----
 
 ---
 action: 
@@ -49,21 +34,6 @@ factual_fingerprint: 53036fa163499f625b7e3a69b3b1f64ddedab60ecf2eccc21a4507523fb
 source: Teaching Vacancies
 source_job_id: administrative-assistant-bampton-cofe-primary-school-bampton-oxfordshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-bampton-cofe-primary-school-bampton-oxfordshire
----
-
----
-action: 
-SELECTED | Oxfordshire | Oxford, South East, OX44 7ST | £11,763.99 - £11,949.84 Annually (Actual) Grade 4 (£26,016 - £26,427 pro rata) | Administrative Assistant
-employer: Chalgrove Community Primary School
-closing_date: 2026-09-28T09:00:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: eccc62bee15fe31a212fcf00ccad2e1ba80631b03653f977460d45b6f9746f49
-source: Teaching Vacancies
-source_job_id: administrative-assistant-chalgrove-community-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-chalgrove-community-primary-school
 ---
 
 ---
@@ -158,7 +128,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-admi
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Oxfordshire | Oxford, South East, OX2 7WP | £26,824.00 - £29,065.00 Annually (FTE) Grade 6, term-time only + INSET days, 10.5 to 14 hours per week | Data Assistant
+employer: The Swan School
+closing_date: 2026-10-12T08:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e3cbb83628cf44c680fd71fec088735a492051d60e33f99cb521b9ac3735f4dc
+source: Teaching Vacancies
+source_job_id: data-assistant-the-swan-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-assistant-the-swan-school
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -166,9 +149,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-admi
 
 ## HARD_PASS
 
-- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-bloxham-grove-academy) — Insufficient admin/service evidence.
-- [Chief Operating Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-operating-officer-oxford-diocesan-schools-trust-wantage-not-recorded) — Insufficient admin/service evidence.
-- [HR Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-partner-oxford-diocesan-bucks-schools-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-heyford-park-school) — Manager title salary ceiling £31,022 is not below £28,000.
 - [Procurement Contract Performance Manager *Hybrid Role*](https://teaching-vacancies.service.gov.uk/jobs/procurement-contract-performance-manager-hybrid-role) — Manager title salary ceiling £55,225 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-edward-feild-primary-school) — Manager title salary ceiling £39,482 is not below £28,000.

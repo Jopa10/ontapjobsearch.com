@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-09-27
-review_fingerprint: 46d82708fffdb7f288742c4e48fc01194efcf9031b410179558413c6ee373c8d
-routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
+review_date: 2026-09-28
+review_fingerprint: e51bb7b333511953c38f7e5a3cbcce12dc41d05adb33d6c600344db54e91f933
+routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
-- Selected: 7
-- POSS awaiting decision: 2
+- Records: 15
+- Selected: 3
+- POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 8
 
 ## SELECTED
-
----
-action: 
-SELECTED | Nottinghamshire | Retford, DN22 7GR | £26,433.00 - £26,433.00 Annually (Actual) | Administration Assistant
-employer: Diverse Academies Trust
-closing_date: 2026-09-27T23:59:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c3ce706f1a2bf0e6ff5692920c9ceccbd5c737a14d1cf0ea111a8ff16079f87f
-source: Teaching Vacancies
-source_job_id: administration-assistant-diverse-academies-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-diverse-academies-trust
----
 
 ---
 action: 
@@ -53,47 +38,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | Nottinghamshire | Newark, East Midlands, NG24 3AL | £11,495.00 Annually (Actual) Term Time Only Monday - Friday 12:30 - 16:30 G3.6 £24796 FTE | Administrative Assistant
-employer: Newark Orchard School
-closing_date: 2026-09-27T23:59:00+01:00
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG4 4JD | £21,907.96 - £22,610.16 Annually (Actual) TTO | Administrative Assistant
+employer: Stanhope Primary and Nursery School
+closing_date: 2026-10-21T23:59:00+01:00
 reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: c47c0f2ee1ca72c0ac044ee3b48f0c1f5424cb9eca5ea7fced6712098c2009a4
+factual_fingerprint: 162b3783fcbd9958ea5e24564ddfd85061d38e40e800f9c94c2fa2cc8b6e845b
 source: Teaching Vacancies
-source_job_id: administrative-assistant-newark-orchard-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-newark-orchard-school
----
-
----
-action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG5 9AZ | Redhill Academy Trust Pay Scale, Band 6, Scale point 29 - 32 | Healthcare Assistant / Administrator
-employer: Park Vale Academy
-closing_date: 2026-09-28T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ec8bcfa691ce240c32b0c5587ba54447d66afe3639e5e61a3e2b1ba9bfd8c2d7
-source: Teaching Vacancies
-source_job_id: healthcare-assistant-administrator-2d4f9d72-72ff-4ae4-b72c-412c6513e51a
-source_url: https://teaching-vacancies.service.gov.uk/jobs/healthcare-assistant-administrator-2d4f9d72-72ff-4ae4-b72c-412c6513e51a
----
-
----
-action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG7 6ND | £26,736.00 - £28,475.00 Annually (FTE) PayScale 4, £25,468 - £27,124 Pro-rata | Receptionist & Administrative Assistant
-employer: Djanogly City Academy
-closing_date: 2026-09-27T23:59:00+01:00
-reason: Clear admin/service title: administrative assistant, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6890b89707bdf2e91b93ce01ea3c3634a40debf04f11a64dc16eabd8ad629f32
-source: Teaching Vacancies
-source_job_id: receptionist-administrative-assistant-djanogly-city-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrative-assistant-djanogly-city-academy
+source_job_id: administrative-assistant-stanhope-primary-and-nursery-school-nottingham-nottinghamshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-stanhope-primary-and-nursery-school-nottingham-nottinghamshire
 ---
 
 ---
@@ -111,22 +66,22 @@ source_job_id: receptionist-administrator-5a07569f-4f14-44ab-a5b1-5db86e8a339d
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-5a07569f-4f14-44ab-a5b1-5db86e8a339d
 ---
 
+## POSS — choose SELECT or EXCLUDE
+
 ---
 action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG11 8HX | £22,202.00 - £22,554.00 Annually (Actual) GAT4. 37 hours per week, 39 weeks per year | Receptionist/Administrator
-employer: Nethergate Academy
-closing_date: 2026-09-27T23:59:00+01:00
-reason: Clear admin/service title: administrator, receptionist
-jobg8_check: NO_MATCH
+POSS | Nottinghamshire | Mansfield, East Midlands, NG19 8DF | £22,229.00 - £22,578.00 Annually (Actual) GAT 3, 37 hours per week, Monday - Friday, Term Time only | Administrator
+employer: The Bramble Academy
+closing_date: 2026-10-18T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 9facba11afaa35064442201bcc2ae618e20f66bdb84a1662a049854242f4c2f8
+factual_fingerprint: 20644841fa29fef276144443be18aea76012d45ee3c5eb9964edf6880f2235fa
 source: Teaching Vacancies
-source_job_id: receptionist-administrator-nethergate-academy-nottingham-nottinghamshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-nethergate-academy-nottingham-nottinghamshire
+source_job_id: administrator-the-bramble-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-the-bramble-academy
 ---
-
-## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 
@@ -158,6 +113,21 @@ source_job_id: data-officer-the-white-hills-park-trust-ltd
 source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-the-white-hills-park-trust-ltd
 ---
 
+---
+action: 
+POSS | Nottinghamshire | Nottingham, East Midlands, NG5 4LT | £24,430.00 - £26,930.00 Annually (Actual) | Office Manager
+employer: The Good Shepherd Catholic Primary, Arnold
+closing_date: 2026-10-09T09:00:00+01:00
+reason: Manager title below £28,000 salary ceiling requires review
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 02b098dfb25e93de44860eb1183a2a7e2f1fbec63befb4239fb8a575ee1e7219
+source: Teaching Vacancies
+source_job_id: office-manager-the-good-shepherd-catholic-primary-arnold
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-the-good-shepherd-catholic-primary-arnold
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -169,9 +139,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-the-whit
 - [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-our-lady-of-lourdes-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [HR and Recruitment Team Leader](https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-team-leader) — Insufficient admin/service evidence.
 - [HR/People Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-people-operations-manager) — Manager title salary ceiling £57,358 is not below £28,000.
-- [One to One Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/one-to-one-personal-care-assistant) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-bf443901-6fb8-4721-9adf-b67f0bdbd6f6) — Insufficient admin/service evidence.
-- [School Business Administrator](https://teaching-vacancies.service.gov.uk/jobs/school-business-administrator-ladycross-infant-school) — Missing salary or pay scale.
+- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-blue-bell-hill-primary-and-nursery-school-nottingham-nottinghamshire) — Insufficient admin/service evidence.
 - [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-burntstump-seely-cofe-primary-academy) — Manager title salary ceiling £30,514 is not below £28,000.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-09-27
-review_fingerprint: 9b885949777d54a3f9baafed33562c9b0674ff0f0e27b8297af3a0e86870771a
-routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
+review_date: 2026-09-28
+review_fingerprint: e2a443f1680f7d5cba053ccf884ef7b1b3f002975ecfffd18b75c66da16381cc
+routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 23
-- Selected: 9
+- Records: 24
+- Selected: 10
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 12
@@ -113,17 +113,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-e50a
 
 ---
 action: 
-SELECTED | Yorkshire - South | Rotherham, Yorkshire and the Humber, S63 7PQ | £13,358.00 - £13,567.00 Annually (Actual) Band C | Receptionist
-employer: Saint Pius X Catholic High School A Specialist School in Humanities
-closing_date: 2026-09-28T09:00:00+01:00
+SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S36 1AS | £15,359.00 - £15,603.00 Annually (Actual) Grade 3 SCP 5 to 6 | Receptionist
+employer: Stocksbridge Junior School
+closing_date: 2026-10-11T23:59:00+01:00
 reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: b8651b06c7a079cd0a25abcc822a0f1c2c7c9020ab16b82e2d44c9a0585c15f6
+factual_fingerprint: 0b85e09644f78827f39ff29d0c6f48cd04c14fa7af8d8692a47e6ad515794150
 source: Teaching Vacancies
-source_job_id: receptionist-saint-pius-x-catholic-high-school-a-specialist-school-in-humanities
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-saint-pius-x-catholic-high-school-a-specialist-school-in-humanities
+source_job_id: receptionist-stocksbridge-junior-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-stocksbridge-junior-school
 ---
 
 ---
@@ -154,6 +154,21 @@ factual_fingerprint: 0d56cee29f760f057613063e41e54356cf262d661df1b1bd6efe5768745
 source: Teaching Vacancies
 source_job_id: receptionist-and-administrator-52-or-42-weeks-considered
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administrator-52-or-42-weeks-considered
+---
+
+---
+action: 
+SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S26 6QP | £26,427.00 - £26,847.00 Annually (FTE) | Temporary Admin Assistant at Kiveton Park Infant School
+employer: Kiveton Park Infant School
+closing_date: 2026-10-02T23:59:00+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f49504da613b621ee0db923dd1c686dd88a53c329b3754ae0b99d9a0ef42ecf3
+source: Teaching Vacancies
+source_job_id: temporary-admin-assistant-at-kiveton-park-infant-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/temporary-admin-assistant-at-kiveton-park-infant-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -201,11 +216,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-maltby-a
 - [Business Support Manager](https://teaching-vacancies.service.gov.uk/jobs/business-support-manager-beck-primary-school-sheffield-south-yorkshire) — Manager title salary ceiling £40,921 is not below £28,000.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-st-clare-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-ridgewood-school) — Insufficient admin/service evidence.
-- [Finance & Admin Asst](https://teaching-vacancies.service.gov.uk/jobs/finance-admin-asst) — Insufficient admin/service evidence.
-- [Finance Manager (FTC)](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-ftc) — Manager title salary ceiling £53,500 is not below £28,000.
+- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-sheffield-park-academy-sheffield-south-yorkshire) — Manager title salary ceiling £53,500 is not below £28,000.
 - [Governance and Executive Support Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-and-executive-support-officer) — Insufficient admin/service evidence.
-- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-982c74fa-4963-48bf-be10-a1bcf0a4bf2f) — Manager title salary ceiling £39,773 is not below £28,000.
+- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-42e231a7-dcef-4bf5-a3d7-0eb145f4ac02) — Insufficient admin/service evidence.
 - [Senior Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-kings-oak-primary) — Insufficient admin/service evidence.
+- [Senior Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-st-francis-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

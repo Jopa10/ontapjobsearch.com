@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Worcestershire
 
-review_date: 2026-09-27
-review_fingerprint: ed512b0deaff62034e62436545ee37cc7630a190b323bddde7ff8e1b12082323
-routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
+review_date: 2026-09-28
+review_fingerprint: 07de2915377de24a236da71094408845f6b7e35f8df1539e6889186c981fd560
+routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 4
 - Selected: 3
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
 
@@ -68,20 +68,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admi
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Worcestershire | Worcester, WR4 9SG | £27,273.00 - £27,273.00 Annually (FTE) Casual zero hour contract - hourly rate | Governance Professional/Clerk
-employer: The Black Pear Trust
-closing_date: 2026-09-28T12:00:00+01:00
-reason: Borderline school administration title: governance professional
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9eef59e7d1311ebca4f5ec01c533bc9c14e73fe09b7038e9a507e36873d1e3ca
-source: Teaching Vacancies
-source_job_id: governance-professional-clerk-the-black-pear-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-clerk-the-black-pear-trust
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

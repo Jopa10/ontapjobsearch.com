@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - South
 
-review_date: 2026-09-27
-review_fingerprint: c96c6a918661478aa5d6104bb0abb5fcf07faed130620e043a37cd3df6caebb1
-routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
+review_date: 2026-09-28
+review_fingerprint: 9f9d4f2f323296739e0ae9fa943c7908a60ab67107685a0b51b2793f6ab764a2
+routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
 ontap_region: Greater Manchester - South
 slice_category: admin_service
 slice_status: LIVE
@@ -14,12 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 5
-- Selected: 1
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Greater Manchester - South | Hyde, North West, SK14 4SP | Support Staff Pay Scale Grade D | Administrator
+employer: Hyde High School
+closing_date: 2026-10-09T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8e27db3f3da65d449ae4159ba29b372ae52aa6b62c863fdbf72af2fbc298a93e
+source: Teaching Vacancies
+source_job_id: administrator-hyde-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-hyde-high-school
+---
 
 ---
 action: 
@@ -59,7 +74,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-commun
 
 ## HARD_PASS
 
-- [Business Administrator (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/business-administrator-maternity-cover-thomas-ashton-school) — Missing salary or pay scale.
 - [Casual Committee Clerk](https://teaching-vacancies.service.gov.uk/jobs/casual-committee-clerk-the-laurus-trust-cheadle-not-recorded) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-ashton-on-mersey-school) — Insufficient admin/service evidence.
 

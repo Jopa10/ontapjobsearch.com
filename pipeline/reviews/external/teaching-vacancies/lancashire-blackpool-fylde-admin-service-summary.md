@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - Blackpool & Fylde
 
-review_date: 2026-09-27
+review_date: 2026-09-28
 review_fingerprint: 47540c1324d6ebd862ec87b4ea18333f7865aa5d526f54e9710231c6c4dd2bf6
-routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
+routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
 ontap_region: Lancashire - Blackpool & Fylde
 slice_category: admin_service
 slice_status: UNREGISTERED

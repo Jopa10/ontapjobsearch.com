@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-09-27
-review_fingerprint: 775a435c032c64a804d6631d0ede58c29704362e7c94a7c8f6773a304576749e
-routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
+review_date: 2026-09-28
+review_fingerprint: 3c2a4cef906af8424f781907c81de19c5aef608d2b4633e82f5526c2544912c9
+routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -23,6 +23,21 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
+SELECTED | Bedfordshire | Luton, East of England, LU2 8HJ | £24,470.00 - £26,523.00 Annually (Actual) L4 (actual starting salary £24,470 pa) | Attendance Officer
+employer: Putteridge High School
+closing_date: 2026-10-09T09:00:00+01:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: fdabaca2bd920573360bed69afcd3757112b0af68008bcb4dc6b69d1c4300356
+source: Teaching Vacancies
+source_job_id: attendance-officer-putteridge-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-putteridge-high-school
+---
+
+---
+action: 
 SELECTED | Bedfordshire | Sandy, East of England, SG19 3HD | £25,583.00 - £25,989.00 Annually (FTE) NJC Scale 3 points 5 to 6 – pay award pending. Actual salary £15,211.51 per annum on point 5 | Office Administrator
 employer: Gamlingay Village Primary
 closing_date: 2026-10-01T09:00:00+01:00
@@ -38,17 +53,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ---
 action: 
-SELECTED | Bedfordshire | Luton, East of England, LU1 4BB | Level 3C Points 6 - 8 | Reception Administrator Assistant
+SELECTED | Bedfordshire | Luton, East of England, LU1 4BB | Level 3C Points 6 - 8 | Receptionist
 employer: Manshead Church of England Academy
-closing_date: 2026-09-28T09:00:00+01:00
-reason: Clear admin/service title: administrator
+closing_date: 2026-10-05T09:00:00+01:00
+reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 04417083bcdba7453e058986ed044e3baeaedd285ead5636a734ae3439b4e7c1
+factual_fingerprint: c2a15335b51a202bbac11f6dc28ec22b62835d0c10595eb6f8584ccc11b9d705
 source: Teaching Vacancies
-source_job_id: reception-administrator-assistant
-source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-administrator-assistant
+source_job_id: receptionist-manshead-church-of-england-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-manshead-church-of-england-academy
 ---
 
 ---
@@ -85,30 +100,15 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 action: 
 SELECTED | Bedfordshire | Luton, East of England, LU2 7JL | £18,846.00 Annually (Actual) | Receptionist/Clerical Assistant
 employer: Richmond Hill School
-closing_date: 2026-10-04T23:59:00+01:00
+closing_date: 2026-09-30T23:59:00+01:00
 reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 7b96850a227807a36899012202a3b39544398c5d580d4c84259a6e82d746c85e
+factual_fingerprint: c9df544891550807aa6e39f9fb5a7f9d249497ddd96143ed710112fd5a41dfc9
 source: Teaching Vacancies
 source_job_id: receptionist-clerical-assistant-richmond-hill-school-luton-bedfordshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-clerical-assistant-richmond-hill-school-luton-bedfordshire
----
-
----
-action: 
-SELECTED | Bedfordshire | Sandy, East of England, SG19 1BL | NJC Level 2a points 3 – 4 £22,302– £22,652 per annum, actual salary (£25,614– £26,016 pro rata) | Receptionist/Finance Assistant
-employer: Sandy Secondary School
-closing_date: 2026-09-28T09:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8b3b1799ad8343306070859d7867ff1e4eb157590b8c4ca83e9483d47f1c3c28
-source: Teaching Vacancies
-source_job_id: receptionist-finance-assistant
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-finance-assistant
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -125,10 +125,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-finance-
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-c5af3af6-3ac2-49eb-9534-035eb67e9604) — Manager title salary ceiling £45,401 is not below £28,000.
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-grasmere-nursery-school) — Insufficient admin/service evidence.
 - [Financial Controller](https://teaching-vacancies.service.gov.uk/jobs/financial-controller-e5903e11-7297-4be8-a7c1-2e9280429c10) — Insufficient admin/service evidence.
+- [Marketing & Social Media Assistant](https://teaching-vacancies.service.gov.uk/jobs/marketing-social-media-assistant) — Insufficient admin/service evidence.
 - [Officer Manager](https://teaching-vacancies.service.gov.uk/jobs/officer-manager-17efeac4-e980-48de-8ddc-1a2e769d02a2) — Manager title without salary evidence below £28,000.
 - [Safeguarding Officer](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-officer-redborne-upper-school-and-community-college) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-all-saints-academy-dunstable) — Manager title salary ceiling £44,253 is not below £28,000.
-- [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-93a93028-4ad1-42a9-8df8-0c2cc9ddd27b) — Manager title without salary evidence below £28,000.
 
 ## Safety boundary
 

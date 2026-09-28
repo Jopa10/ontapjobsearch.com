@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-09-27
+review_date: 2026-09-28
 review_fingerprint: fd425f18dca52564a96b6a740c156b7450e3c88d620e79f9946fd14fe8449916
-routing_manifest_sha256: cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a
+routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 9
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -66,6 +66,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admi
 - [Finance Assistant (SBMAT) - Level 4](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-sbmat-level-4) — Insufficient admin/service evidence.
 - [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-discovery-academy-stoke-on-trent-staffordshire) — Insufficient admin/service evidence.
 - [School Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-administration-assistant-westwood-college) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-5bedbe1d-eaea-4d84-a744-7318349a5687) — Manager title salary ceiling £39,152 is not below £28,000.
 - [Senior Administration and Finance Assistant - Level 5](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-and-finance-assistant-level-5) — Insufficient admin/service evidence.
 
 ## Safety boundary
