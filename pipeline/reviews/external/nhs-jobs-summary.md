@@ -2,15 +2,99 @@
 
 review_date: 2026-09-28
 
-- Open Administrative & Clerical rows reviewed: 2210
-- Auto/remembered selected: 438
+- Open Administrative & Clerical rows reviewed: 2216
+- Auto/remembered selected: 439
 - Selected HC Tier A: 222
-- Selected HC Tier B: 216
-- POSS awaiting decision: 1653
+- Selected HC Tier B: 217
+- POSS awaiting decision: 1658
 - Excluded: 0
 - HARD_PASS: 119
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | London | London, N19 3RN | £14.00 | Patient Services Co-ordinator
+source_job_id: 5627984
+title: Patient Services Co-ordinator
+employer: St John’s Way Medical Centre
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0970-26-0004
+factual_fingerprint: 5e0d3c8b22c8d53f7fd695cba5450fc0f2d578c92524fb40c828cf35b8aeaf37
+---
+
+---
+action:
+POSS | NHS Jobs | Somerset | Taunton, TA1 4DY | £25272.00 to £25272.00 | Waiting List Assistant
+source_job_id: 5598881
+title: Waiting List Assistant
+employer: Somerset NHS Foundation Trust
+region: Somerset
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1330
+factual_fingerprint: 2e5d532db016e3a0c81662af0c73d956d68cc07e3c393e774e638f21f646e4f2
+---
+
+---
+action:
+POSS | NHS Jobs | Somerset | Yeovil, BA21 4AT | £25272.00 to £25272.00 | Rotational Ward Clerk
+source_job_id: 5616068
+title: Rotational Ward Clerk
+employer: Somerset NHS Foundation Trust
+region: Somerset
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1357
+factual_fingerprint: 71b94d865c52807954bbbb051d56b5c14333ac99569cb8d85e6d0e21177cf166
+---
+
+---
+action:
+POSS | NHS Jobs | Somerset | Yeovil, BA21 4AT | £25272.00 to £25272.00 | Emergency Department Receptionist
+source_job_id: 5618120
+title: Emergency Department Receptionist
+employer: Somerset NHS Foundation Trust
+region: Somerset
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1372
+factual_fingerprint: 8c835239d2e2bde83c1862e757f0f7a670fae7038c92212d4fbaaa91566d9aaa
+---
+
+---
+action:
+POSS | NHS Jobs | Somerset | Taunton, TA1 4DY | £25760.00 to £27476.00 | Waiting List Co-Ordinator
+source_job_id: 5624697
+title: Waiting List Co-Ordinator
+employer: Somerset NHS Foundation Trust
+region: Somerset
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1395
+factual_fingerprint: db0b1492a19fbcc2ce8fc20dac43fc97e781f6285f62b577a59c753199a0e2bf
+---
+
+---
+action:
+POSS | NHS Jobs | Somerset | Taunton, TA1 5DA | £25272.00 to £25272.00 | Outpatient Clinic Administrator
+source_job_id: 5623928
+title: Outpatient Clinic Administrator
+employer: Somerset NHS Foundation Trust
+region: Somerset
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1394
+factual_fingerprint: 4feda446ced5c5a84b252c1b6bcba3d19fc126bfa196f3d79a0a0601e0eaff0e
+---
+
+---
+action:
+POSS | NHS Jobs | Somerset | Yeovil, BA21 4AT | £25272.00 | Day Surgery Receptionist
+source_job_id: 5622772
+title: Day Surgery Receptionist
+employer: Somerset NHS Foundation Trust
+region: Somerset
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1388
+factual_fingerprint: e150201203821d849daaeda9f865dfb9718ba50e10ab236e7e54a38f54720cf7
+---
 
 ---
 action:
@@ -6646,18 +6730,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9197-26-0866
 factual_fingerprint: 79ea13db3aad7c7a20691fd61769798f021022cff2c82bdbc3c1e19bdf039d95
----
-
----
-action:
-POSS | NHS Jobs | London | Woolwich, London, SE18 3QH | £28392.00 to £31157.00 | Medical Secretary
-source_job_id: 5618740
-title: Medical Secretary
-employer: Lewisham and Greenwich NHS Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9197-26-0865
-factual_fingerprint: ac4337321957380741f6271072706ae168aa24ff53106779d83f605f90dc9047
 ---
 
 ---
@@ -18586,18 +18658,6 @@ region: Cambridgeshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9175-26-0255
 factual_fingerprint: e8fb1894dc37b1174376898ac831a2cc0312278ef48b272cea785605867d8089
----
-
----
-action:
-POSS | NHS Jobs | Bristol & Bath | Bristol, BS2 8BJ | £25760.00 to £27476.00 | Outpatient Clinic Coordinator
-source_job_id: 5587495
-title: Outpatient Clinic Coordinator
-employer: Bristol NHS Foundation Trust
-region: Bristol & Bath
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-1855
-factual_fingerprint: cb7ed619787e77a8c8807f2c0df42b8cc7b6559612c34602566bf4c838a42114
 ---
 
 ---
