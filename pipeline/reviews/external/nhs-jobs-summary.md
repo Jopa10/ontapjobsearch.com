@@ -2,13 +2,13 @@
 
 review_date: 2026-09-28
 
-- Open Administrative & Clerical rows reviewed: 2022
+- Open Administrative & Clerical rows reviewed: 2023
 - Auto/remembered selected: 399
 - Selected HC Tier A: 201
 - Selected HC Tier B: 198
 - POSS awaiting decision: 1514
 - Excluded: 0
-- HARD_PASS: 109
+- HARD_PASS: 110
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
 
@@ -13617,7 +13617,7 @@ employer: Walsall Healthcare NHS Trust
 region: West Midlands - Black Country
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9407-26-0360
-factual_fingerprint: 5698af22fe177fdd252c2af53d8ceeb49092eaaeac83563c19cb2f8b674b6c81
+factual_fingerprint: 793801c54984ef16d4fd3fccfd06e3cc5128ecc43f036c9266c3f1c8f395c6ac
 ---
 
 ---
@@ -15741,7 +15741,7 @@ employer: University Hospitals of Derby and Burton NHS Foundation Trust
 region: Nottinghamshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9320-26-0910
-factual_fingerprint: e84eeaba0bc297dbb5b07a76ac801a900d4f6ac77f54ef944f797fbaf257b988
+factual_fingerprint: ebc27dd7162ad5b3b9456caddd959a669ea2958d06d5aa326e00f25b04cb3520
 ---
 
 ---

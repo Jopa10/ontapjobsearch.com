@@ -1,30 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-school-administrator-chiltern-way-academy-trust",
-    "title": "School Administrator",
-    "company": "Chiltern Way Academy Trust",
-    "location": "Aylesbury",
-    "region": "Buckinghamshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£29,114.00 - £31,230.00 Annually (FTE) Actual salary for hours worked will be £24,690.91 to £26,485.44",
-    "work_pattern": "",
-    "posted_date": "2026-09-11",
-    "closing_date": "2026-09-27",
-    "closing_datetime": "2026-09-27T23:59:00+01:00",
-    "summary": "School Administrator with Chiltern Way Academy Trust in Aylesbury. ['full time']; £29,114.00 - £31,230.00 Annually (FTE) Actual salary for hours worked will be £24,690.91 to £26,485.44.",
-    "description": "Chiltern Way Academy Trust is recruiting for this vacancy in Aylesbury.\n\nThe advertised position is School Administrator.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £29,114.00 - £31,230.00 Annually (FTE) Actual salary for hours worked will be £24,690.91 to £26,485.44.\n\nThe stated application deadline is 2026-09-27T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/school-administrator-chiltern-way-academy-trust?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-academy-administrator-chepping-view-primary-academy-high-wycombe-buckinghamshire",
     "title": "Academy Administrator",
     "company": "Chepping View Primary Academy",
@@ -47,6 +22,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Chepping View Primary Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -72,6 +50,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Aylesbury High School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -97,6 +78,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "The Kingsbrook School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -122,6 +106,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Sir William Ramsay School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -147,6 +134,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Stephenson Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -172,6 +162,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Chiltern Way Academy Trust",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -666,9 +659,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2885",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -688,9 +678,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5367-26-0001",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -710,9 +697,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3962-26-0008",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -732,9 +716,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0123TMP",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -754,9 +735,25 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0121CHMC",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5607180",
+    "source": "NHS Jobs",
+    "title": "Senior Administrator",
+    "company": "Primary Care Management Solutions Ltd",
+    "advertiser_name": "Primary Care Management Solutions Ltd",
+    "location": "HIGH WYCOMBE, HP13 5DN",
+    "region": "Buckinghamshire",
+    "salary": "Negotiable",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-23T09:33:50.688268438",
+    "closing_date": "2026-09-28",
+    "description": "Chiltern House Medical Centre is seeking an experienced Senior Administrator to join the team on a permanent, full time basis . The post holder will support the day to day running of the practice, helping to ensure the smooth delivery of clinical, reception and administrative services while maintaining high standards of patient care. The role involves supporting the practice leadership team, coordinating daily administrative workflows, assisting with reception and administrative functions, and ensuring effective communication and collaborative working across the surgery. The successful candidate will play an important role in supporting staff, maintaining efficient processes and contributing to continuous improvement across the practice. The ideal candidate will have strong administrative experience within a GP surgery or primary care setting , with a good understanding of practice operations, patient services and administrative processes. Experience with EMIS is highly desirable. The role requires strong organisational and communication skills, a proactive approach and the ability to manage competing priorities effectively. This is a permanent, full time position offering an excellent opportunity for an experienced administrator to develop their career within a busy GP practice and make a valuable contribution to the continued smooth running of Chiltern House Medical Centre. Oversee the day-to-day operations of the practice Lead and support the reception and administrative teams Ensure high standards of patient care, confidentiality, and service delivery Manage and optimize daily workflows using EMIS Work collaboratively with the practice leadership team to maintain operational continuity and efficiency Support staff performance, training, and effective team working Identify opportunities to improve processes and overall practice efficiency Assist with the implementation and monitoring of practice policies and procedures Respond to operational issues and ensure they are resolved promptly and effectively Support the day to day operations of the practice, working closely with the Business Manager and helping ensure staff meet their responsibilities. Support the supervision, induction, training, recruitment and absence management of reception and administrative staff. Support HR administration, ensuring compliance with practice policies and procedures, maintaining training and appraisal records, managing DBS checks, annual leave through TeamNet and supporting staff development. Support the management of the clinical system and IT processes, including user access and security for EMIS Web . Assist staff with searches, audits, templates and rotas, and help resolve local IT issues. Support governance and operational compliance, including significant events, audits, complaints management, risk management, health and safety, fire safety, COSHH, PAT testing, legionella and waste management. Assist with premises and asset management, insurance reports, smart card sponsorship and PPG meetings. Liaise with external stakeholders and provide administrative support to the Business Manager when required. No canvassing or recruitment agencies.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0117CHMC",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0117CHMC",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
     "posted_date_basis": "source"
   }
 ]

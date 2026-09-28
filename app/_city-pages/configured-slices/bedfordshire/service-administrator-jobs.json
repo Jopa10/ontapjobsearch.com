@@ -1,55 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-reception-administrator-assistant",
-    "title": "Reception Administrator Assistant",
-    "company": "Manshead Church of England Academy",
-    "location": "Luton",
-    "region": "Bedfordshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "Level 3C Points 6 - 8",
-    "work_pattern": "",
-    "posted_date": "2026-09-17",
-    "closing_date": "2026-09-28",
-    "closing_datetime": "2026-09-28T09:00:00+01:00",
-    "summary": "Reception Administrator Assistant with Manshead Church of England Academy in Luton. ['full time']; Level 3C Points 6 - 8.",
-    "description": "Manshead Church of England Academy is recruiting for this vacancy in Luton.\n\nThe advertised position is Reception Administrator Assistant.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is Level 3C Points 6 - 8.\n\nThe stated application deadline is 2026-09-28T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/reception-administrator-assistant?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "teaching-vacancies-receptionist-finance-assistant",
-    "title": "Receptionist/Finance Assistant",
-    "company": "Sandy Secondary School",
-    "location": "Sandy",
-    "region": "Bedfordshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "NJC Level 2a points 3 – 4 £22,302– £22,652 per annum, actual salary (£25,614– £26,016 pro rata)",
-    "work_pattern": "",
-    "posted_date": "2026-09-11",
-    "closing_date": "2026-09-28",
-    "closing_datetime": "2026-09-28T09:00:00+01:00",
-    "summary": "Receptionist/Finance Assistant with Sandy Secondary School in Sandy. ['part time']; NJC Level 2a points 3 – 4 £22,302– £22,652 per annum, actual salary (£25,614– £26,016 pro rata).",
-    "description": "Sandy Secondary School is recruiting for this vacancy in Sandy.\n\nThe advertised position is Receptionist/Finance Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is NJC Level 2a points 3 – 4 £22,302– £22,652 per annum, actual salary (£25,614– £26,016 pro rata).\n\nThe stated application deadline is 2026-09-28T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/receptionist-finance-assistant?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-office-administrator-gamlingay-village-primary",
     "title": "Office Administrator",
     "company": "Gamlingay Village Primary",
@@ -72,6 +22,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Gamlingay Village Primary",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -97,6 +50,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Putteridge High School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -122,6 +78,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Richmond Hill School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -147,6 +106,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Parkfields Middle School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -416,9 +378,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9448-26-0343",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -438,9 +397,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5910-26-0005",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -460,9 +416,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2155-26-0005",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

@@ -22,31 +22,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "teaching-vacancies-administrative-assistant-st-gildas-catholic-primary-school",
-    "title": "Administrative Assistant",
-    "company": "St Gildas Catholic Primary School",
-    "location": "Yeovil",
-    "region": "Somerset",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time', 'part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£17,893.00 - £18,255.00 Annually (Actual)",
-    "work_pattern": "",
-    "posted_date": "2026-09-10",
-    "closing_date": "2026-09-28",
-    "closing_datetime": "2026-09-28T09:00:00+01:00",
-    "summary": "Administrative Assistant with St Gildas Catholic Primary School in Yeovil. ['full time', 'part time']; £17,893.00 - £18,255.00 Annually (Actual).",
-    "description": "St Gildas Catholic Primary School is recruiting for this vacancy in Yeovil.\n\nThe advertised position is Administrative Assistant.\n\nThe source lists the employment type as ['full time', 'part time'].\n\nThe advertised salary or pay scale is £17,893.00 - £18,255.00 Annually (Actual).\n\nThe stated application deadline is 2026-09-28T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-st-gildas-catholic-primary-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
+    "advertiser_name": "St Vigor & St John Church School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -72,6 +50,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Yeovil College",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -97,6 +78,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "West Somerset College",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -122,6 +106,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "The Castle School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -147,6 +134,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Bridgwater College Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -375,31 +365,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "108027382",
-    "title": "Activities Coordinator",
-    "company": "Care Concern Group - Company - Permanent",
-    "location": "Somerset",
-    "region": "Somerset",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "12.71",
-    "salary_max": "12.71",
-    "salary_text": "£12.71 per hour",
-    "posted_date": "2026-09-27",
-    "description": "Clarence Park Residential & Nursing Care Home is a well established service in Weston-super-Mare, located close to the seafront and set within a characterful Victorian townhouse. Supporting up to 43 residents, the home provides high quality nursing, respite and palliative care within a calm, welcoming and team focused environment where staff can build meaningful relationships and make a genuine di click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Yic9job4bS8v85TttMznQztEN%2fWRfBvFc",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Care Concern Group",
-    "advertiser_type": "Company",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "108036038",
     "title": "Activities Coordinator",
     "company": "Care Concern Group - Company - Permanent",
@@ -466,9 +431,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1380",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -488,9 +450,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0014-26-1721",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -510,9 +469,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1305-26-0005",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -532,9 +488,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2122-26-0012",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

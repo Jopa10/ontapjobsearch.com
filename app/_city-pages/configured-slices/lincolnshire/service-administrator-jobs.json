@@ -1,55 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-hr-administrator-chapel-st-leonards-primary-school",
-    "title": "HR Administrator",
-    "company": "Chapel St Leonards Primary School",
-    "location": "Skegness",
-    "region": "Lincolnshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£9,476.00 - £10,439.00 Annually (Actual) G5.12 (£27,254 FTE) to G5.15 (£30,024 FTE)",
-    "work_pattern": "",
-    "posted_date": "2026-09-11",
-    "closing_date": "2026-09-27",
-    "closing_datetime": "2026-09-27T23:59:00+01:00",
-    "summary": "HR Administrator with Chapel St Leonards Primary School in Skegness. ['part time']; £9,476.00 - £10,439.00 Annually (Actual) G5.12 (£27,254 FTE) to G5.15 (£30,024 FTE).",
-    "description": "Chapel St Leonards Primary School is recruiting for this vacancy in Skegness.\n\nThe advertised position is HR Administrator.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £9,476.00 - £10,439.00 Annually (Actual) G5.12 (£27,254 FTE) to G5.15 (£30,024 FTE).\n\nThe stated application deadline is 2026-09-27T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-chapel-st-leonards-primary-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "teaching-vacancies-school-administrator-role-attendance-assistant-a776f8a6-c388-4b6b-b481-9a6f4d4c6e5e",
-    "title": "School Administrator Role - Attendance Assistant",
-    "company": "Outwood Academy Brumby",
-    "location": "Scunthorpe",
-    "region": "Lincolnshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£21,955 - £22,304 per annum",
-    "work_pattern": "",
-    "posted_date": "2026-09-14",
-    "closing_date": "2026-09-28",
-    "closing_datetime": "2026-09-28T09:00:00+01:00",
-    "summary": "School Administrator Role - Attendance Assistant with Outwood Academy Brumby in Scunthorpe. ['full time']; £21,955 - £22,304 per annum.",
-    "description": "Outwood Academy Brumby is recruiting for this vacancy in Scunthorpe.\n\nThe advertised position is School Administrator Role - Attendance Assistant.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £21,955 - £22,304 per annum.\n\nThe stated application deadline is 2026-09-28T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/school-administrator-role-attendance-assistant-a776f8a6-c388-4b6b-b481-9a6f4d4c6e5e?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-sixth-form-administrator-carre-s-grammar-school-sleaford-lincolnshire",
     "title": "Sixth Form Administrator",
     "company": "Carre's Grammar School",
@@ -72,6 +22,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Carre's Grammar School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -97,6 +50,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Woodlands Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -122,6 +78,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "The Vale Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -147,6 +106,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Thomas Middlecott Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -172,6 +134,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Thomas Middlecott Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -491,9 +456,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9274-26-0368",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -513,9 +475,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9274-26-0371",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -535,9 +494,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3629-26-0013",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -557,9 +513,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A6029-26-0004",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

@@ -22,6 +22,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Bishop Martin Church of England Primary School, Woolton",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -416,9 +419,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5232-26-0004",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -438,9 +438,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0486",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -460,9 +457,25 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9287-26-1501",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5620107",
+    "source": "NHS Jobs",
+    "title": "Medical Receptionist",
+    "company": "Dunstan Village Group Practice",
+    "advertiser_name": "Dunstan Village Group Practice",
+    "location": "Liverpool, L7 6HD",
+    "region": "Merseyside - Liverpool",
+    "salary": "£12.71",
+    "employment_type": "Fixed-Term",
+    "posted_date": "2026-09-24T09:02:53.422124054",
+    "closing_date": "2026-11-30",
+    "description": "Busy friendly inner city practice with high ethnic population and a list size of approximately 8400 patient. EMIS Web system user for which experience is preferred but not essential as full training will be provided. We are a highly efficient and friendly team. Hours - Your hours will be 37.5 hours per week which will include reception, admin duties and a 30 minute paid lunch break each day. Salary - Your salary will be £12.71 per hour. There may also be overtime opportunities that arise. As a GP Practice Receptionist, you will be the first point of contact for patients, providing excellent customer service and administrative support to ensure the smooth running of the practice. The role requires someone with strong communication skills, attention to detail, and the ability to multitask in a fast-paced environment Being the first point of contact for patients/visitors attending the practice. Greeting patients and handling telephone/email enquiries in a professional & friendly manner Booking, amending, and cancelling appointments using our clinical system Processing prescriptions and supporting clinicians with administrative tasks. Handling patient records, ensuring confidentiality and accuracy Previous experience in a GP surgery or healthcare environment (desirable but not essential) A GP receptionist serves as the first point of contact for patients. Providing administrative support, managing appointments and ensuring smooth practice operations whilst maintaining confidentiality and professionalism. Key responsibilities: Patient interactions and reception duties: Greeting patients and visitors in a professional and friendly manner both in person, via telephone and over email. Booking, amending and cancelling appointments using clinical systems. Assisting patients in accessing appropriate services or health care professionals efficiently. Acting as a chaperone during clinical examinations when required once adequate training is provided. Providing information about practice arrangements to prospective new or temporary patients. Administrative and clerical tasks: Processing repeat prescription requests and online consultation requests according to practice guidelines. Managing patient records which will involve coding and filing correspondence and medical notes. Supporting clinicians with administrative tasks. Maintaining the tidiness, safety and security of the practice premises. Attending staff meetings and undertaking training as required. Confidentiality and compliance: Handling sensitive patient information with strict confidentiality. Following practice policies and procedures and written protocols to ensure compliance with both practice and NHS standards. Reporting potential risks and supporting health, safety and infection control measures to senior members of staff.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5219-26-0004",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5219-26-0004",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
     "posted_date_basis": "source"
   }
 ]
