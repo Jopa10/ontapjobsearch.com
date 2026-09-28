@@ -1,6 +1,6 @@
 # Service-admin manual review
 
-feed_date: 2026-09-27
+feed_date: 2026-09-28
 
 Edit only the `action:` line in each block:
 
@@ -257,12 +257,6 @@ SELECTED | Yorkshire - West | Leeds | no salary in JobG8 salary fields; no suppo
 job_id: 2014271
 ---
 
----
-action:
-SELECTED | Yorkshire - West | Wakefield | £30000 per year [JobG8 salary fields] | Maintenance Service Coordinator
-job_id: 107995853
----
-
 ## WEST YORKSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -273,12 +267,6 @@ _No jobs in this group._
 action:
 SELECTED | Yorkshire - South | Barnsley | £32000 per year [JobG8 salary fields] | Assistant Accountant / Finance Officer
 job_id: 1871012
----
-
----
-action:
-SELECTED | Yorkshire - South | Sheffield | no salary in JobG8 salary fields; no supported salary amount found in description | Facilities Coordinator
-job_id: 1877335
 ---
 
 ---
@@ -359,6 +347,12 @@ SELECTED | Yorkshire - South | Doncaster | £27000 per year [JobG8 salary fields
 job_id: 2024835
 ---
 
+---
+action:
+SELECTED | Yorkshire - South | Sheffield | no salary in JobG8 salary fields; no supported salary amount found in description | Audience Development Coordinator - Local Authority - Libraries
+job_id: 2033599
+---
+
 ## SOUTH YORKSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -413,12 +407,6 @@ job_id: 1859485
 action:
 SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | HR Assistant
 job_id: 1855692
----
-
----
-action:
-SELECTED | London | Southwark | no salary in JobG8 salary fields; no supported salary amount found in description | HR Assistant
-job_id: 1838618
 ---
 
 ---
@@ -1311,18 +1299,6 @@ job_id: 2018013
 
 ---
 action:
-SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | School Administrator
-job_id: 2018652
----
-
----
-action:
-SELECTED | London | Southwark | no salary in JobG8 salary fields; no supported salary amount found in description | Finance/Admin Assistant
-job_id: 1896626
----
-
----
-action:
 SELECTED | London | Borehamwood | no salary in JobG8 salary fields; no supported salary amount found in description | Client Administrator
 job_id: 2021678
 ---
@@ -1353,12 +1329,6 @@ job_id: 2021750
 
 ---
 action:
-SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Supply Chain Administrator
-job_id: 2023502
----
-
----
-action:
 SELECTED | London | London | £35000 per year [JobG8 salary fields] | Mortgage Administrator
 job_id: 2024818
 ---
@@ -1367,18 +1337,6 @@ job_id: 2024818
 action:
 SELECTED | London | Bromley | £30000 per year [JobG8 salary fields] | Commercial Property Paralegal
 job_id: 2024385
----
-
----
-action:
-SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Facilities Administrator - 3 Month FTC
-job_id: 2025107
----
-
----
-action:
-SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Workspace Services Receptionist
-job_id: 2024782
 ---
 
 ---
@@ -1395,26 +1353,8 @@ job_id: 2026411
 
 ---
 action:
-SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Network and Funds Coordinator
-job_id: 2028807
----
-
----
-action:
-SELECTED | London | London | £38,382 per annum [extracted from description] | Examinations Coordinator (Theory)
-job_id: 2028719
----
-
----
-action:
 SELECTED | London | London | £34,280.35 Per Annum [extracted from description] | Property Services Planner/Scheduler
 job_id: 2028899
----
-
----
-action:
-SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Education Partnership Co-ordinator
-job_id: 2030537
 ---
 
 ---
@@ -1445,12 +1385,6 @@ job_id: 1859841
 action:
 SELECTED | Hampshire | Hampshire | no salary in JobG8 salary fields; no supported salary amount found in description | Audit & Accounts Assistant
 job_id: 1856091
----
-
----
-action:
-SELECTED | Hampshire | Hampshire | no salary in JobG8 salary fields; no supported salary amount found in description | EHCP Coordinator
-job_id: 1858777
 ---
 
 ---
@@ -1583,12 +1517,6 @@ job_id: 1893259
 action:
 SELECTED | Hampshire | Hampshire | no salary in JobG8 salary fields; no supported salary amount found in description | Office Administrator
 job_id: 2012754
----
-
----
-action:
-SELECTED | Hampshire | Hampshire | £28310 per year [JobG8 salary fields] | Healthy Homes Administrator & Scheduling Coordinator
-job_id: 2014390
 ---
 
 ---
@@ -2017,12 +1945,6 @@ SELECTED | Kent | Kent | no salary in JobG8 salary fields; no supported salary a
 job_id: 2028629
 ---
 
----
-action:
-SELECTED | Kent | Kent | £30000 per year [JobG8 salary fields] | Procurement Assistant
-job_id: 108043304
----
-
 ## KENT — POSSIBLES
 
 _No jobs in this group._
@@ -2041,12 +1963,6 @@ _No selector errors or unresolved rows outside the normal possible groups._
 action:
 SELECTED | Sussex | Sussex | £28000 - £30000 per year | Accounts Assistant
 job_id: 1860453
----
-
----
-action:
-SELECTED | Sussex | Sussex |  | Internal Sales Administrator
-job_id: 1843728
 ---
 
 ---
@@ -2201,14 +2117,14 @@ job_id: 1881796
 
 ---
 action:
-SELECTED | Sussex | Sussex | £15.00 per hour | School Administrator
-job_id: 2023516
+SELECTED | Sussex | Sussex | £30000 - £35000 per year | Accounts Administrator
+job_id: 2027321
 ---
 
 ---
 action:
-SELECTED | Sussex | Sussex | £30000 - £35000 per year | Accounts Administrator
-job_id: 2027321
+SELECTED | Sussex | Sussex |  | Marketing Coordinator
+job_id: 2034128
 ---
 
 ## SUSSEX — POSSIBLES
@@ -2565,12 +2481,6 @@ job_id: 1898953
 
 ---
 action:
-SELECTED | Berkshire | Berkshire |  | Customer Safety Administrator
-job_id: 1989839
----
-
----
-action:
 SELECTED | Berkshire | Berkshire | £24,521.29 per annum | Social Media & Marketing Administrator (Apprentice)
 job_id: 2024647
 ---
@@ -2749,6 +2659,12 @@ SELECTED | Bristol & Bath | Bristol | £26000 per year | Customer Support Coordi
 job_id: 108025083
 ---
 
+---
+action:
+SELECTED | Bristol & Bath | Bristol |  | Office Coordinator
+job_id: 28025_JR99
+---
+
 ## BRISTOL & BATH — POSSIBLES
 
 _No jobs in this group._
@@ -2919,18 +2835,6 @@ job_id: 1870973
 
 ---
 action:
-SELECTED | Cambridgeshire | Huntingdon |  | School Receptionist - Huntingdon
-job_id: 1873140
----
-
----
-action:
-SELECTED | Cambridgeshire | Cambridge |  | School Receptionist Administrator - Cambridge
-job_id: 1873139
----
-
----
-action:
 SELECTED | Cambridgeshire | Cambridge |  | Lettings Administrator
 job_id: 1876189
 ---
@@ -3031,23 +2935,11 @@ SELECTED | Cambridgeshire | Cambridge |  | Events Coordinator
 job_id: 1882412
 ---
 
----
-action:
-SELECTED | Cambridgeshire | Cambridge | £14 - £15 per hour | Bursary Support Administrator
-job_id: 2024943
----
-
 ## CAMBRIDGESHIRE — POSSIBLES
 
 _No jobs in this group._
 
 ## CHESHIRE - EAST — SELECTED
-
----
-action:
-SELECTED | Cheshire - East | Congleton | £26,890.50 per annum | Service Coordinator
-job_id: 107933798
----
 
 ---
 action:
@@ -3509,12 +3401,6 @@ job_id: 1860828
 action:
 SELECTED | Devon | Devon |  | Customer Care Coordinator
 job_id: 1858672
----
-
----
-action:
-SELECTED | Devon | Devon |  | HR Administrator
-job_id: 1874648
 ---
 
 ---
@@ -4209,12 +4095,6 @@ job_id: 2013271
 
 ---
 action:
-SELECTED | Gloucestershire | Gloucestershire | £13.45 per hour (+ Holiday Allowance) | Customer Service Coordinator
-job_id: 108025159
----
-
----
-action:
 SELECTED | Gloucestershire | Gloucestershire |  | Sales Support Executive
 job_id: 108006035
 ---
@@ -4259,12 +4139,6 @@ job_id: 1870942
 action:
 SELECTED | Greater Manchester - Manchester & Salford | Manchester | £35000 - £40000 per year | Assistant Management Accountant + Study
 job_id: 1870931
----
-
----
-action:
-SELECTED | Greater Manchester - Manchester & Salford | Manchester |  | Central Planning Co-ordinator
-job_id: 1870724
 ---
 
 ---
@@ -4507,6 +4381,18 @@ SELECTED | Greater Manchester - Manchester & Salford | Manchester | £28,051 per
 job_id: 2028767
 ---
 
+---
+action:
+SELECTED | Greater Manchester - Manchester & Salford | Manchester | £30000 per year | Sales Support Executive
+job_id: 108042377
+---
+
+---
+action:
+SELECTED | Greater Manchester - Manchester & Salford | Manchester |  | Credit Controller
+job_id: 108025456
+---
+
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — POSSIBLES
 
 _No jobs in this group._
@@ -4523,12 +4409,6 @@ job_id: 1869719
 action:
 SELECTED | Greater Manchester - South | Altrincham | £30000 per year | Plot Sales Paralegal
 job_id: 1868509
----
-
----
-action:
-SELECTED | Greater Manchester - South | Altrincham |  | Air Freight Imports Coordinator
-job_id: 1881286
 ---
 
 ---
@@ -5161,12 +5041,6 @@ SELECTED | Norfolk | Norfolk |  | Accounts Assistant
 job_id: 1881936
 ---
 
----
-action:
-SELECTED | Norfolk | Norfolk | £30000 per year | Traffic Planner
-job_id: 108035698
----
-
 ## NORFOLK — POSSIBLES
 
 _No jobs in this group._
@@ -5183,12 +5057,6 @@ job_id: 1856807
 action:
 SELECTED | North Scotland | Inverness |  | Private Client Paralegal
 job_id: 2020857
----
-
----
-action:
-SELECTED | North Scotland | Aberdeen |  | Logistics Coordinator
-job_id: 2025092
 ---
 
 ## NORTH SCOTLAND — POSSIBLES
@@ -6153,20 +6021,8 @@ job_id: 1857671
 
 ---
 action:
-SELECTED | Suffolk | Suffolk | £26000 per year | Shipping Coordinator
-job_id: 1874687
----
-
----
-action:
 SELECTED | Suffolk | Suffolk | £34000 - £38000 per year | Assistant Accountant
 job_id: 1867138
----
-
----
-action:
-SELECTED | Suffolk | Suffolk |  | Booking Coordinator Support
-job_id: 1877376
 ---
 
 ---
@@ -6319,6 +6175,12 @@ SELECTED | Suffolk | Suffolk | £28000 per year | Credit Controller
 job_id: 108041978
 ---
 
+---
+action:
+SELECTED | Suffolk | Suffolk |  | Traffic Planner
+job_id: 107865026
+---
+
 ## SUFFOLK — POSSIBLES
 
 _No jobs in this group._
@@ -6449,12 +6311,6 @@ job_id: 1936986
 action:
 SELECTED | Wales South - Valleys | Aberdare |  | Assistant Management Accountant
 job_id: 1910178
----
-
----
-action:
-SELECTED | Wales South - Valleys | Pontypridd |  | Distribution Coordinator
-job_id: 2032395
 ---
 
 ## WALES SOUTH - VALLEYS — POSSIBLES
@@ -6593,6 +6449,12 @@ job_id: 2021377
 action:
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham |  | Post-Completion Administrator
 job_id: 2024287
+---
+
+---
+action:
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham |  | HR Administrator
+job_id: 2028422
 ---
 
 ---
@@ -7058,12 +6920,6 @@ job_id: 1878996
 
 ---
 action:
-DROPPED | Yorkshire - West | Leeds | £65000 per year | Financial Planner (IFA)
-job_id: 1883282
----
-
----
-action:
 DROPPED | Hampshire | Hampshire | £60000 per year | Financial Planner
 job_id: 1891480
 ---
@@ -7168,12 +7024,6 @@ job_id: 23643_225641264
 action:
 DROPPED | London | London | £40000 - £45000 per year | Employee Relations Co-ordinator - 6 Month FTC
 job_id: 2021503
----
-
----
-action:
-DROPPED | London | London | £45000 - £50000 per year | Service Desk Team Leader
-job_id: 2028403
 ---
 
 <!-- ONTAP_PERSISTENT_DECISIONS_V1

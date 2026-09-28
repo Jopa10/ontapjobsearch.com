@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-09-27
+feed_date: 2026-09-28
 
 Edit only the `action:` line in each block:
 
@@ -71,12 +71,6 @@ SELECTED | North East - Tyneside, Wearside & Northumberland | Hexham | £13.15 p
 job_id: 2021488
 ---
 
----
-action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Whitley Bay | £12.85 per hour (plus rolled up holiday pay) | Female Relief Support Worker
-job_id: 108044187
----
-
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
 
 ---
@@ -143,12 +137,6 @@ SELECTED | Sussex | Haywards Heath | £39134 per year | Healthcare Assistant
 job_id: 107863056
 ---
 
----
-action:
-SELECTED | Sussex | Hove | £13 per hour | Female Support Worker
-job_id: 108041798
----
-
 ## SUSSEX — POSSIBLES
 
 _No jobs in this group._
@@ -189,12 +177,6 @@ _No jobs in this group._
 action:
 SELECTED | Hampshire | Southampton | £13.45 - £14.00 per hour | Support Worker (Learning Disabilities)
 job_id: 1856912
----
-
----
-action:
-SELECTED | Hampshire | Eastleigh | £14.25 - £15.66 per hour | Learning Support Assistant
-job_id: 1875238
 ---
 
 ---
@@ -295,18 +277,6 @@ job_id: 1858304
 
 ---
 action:
-SELECTED | London | London | £97 - £115 per daily | Autism Support
-job_id: 1839076
----
-
----
-action:
-SELECTED | London | London | £97 - £115 per daily | Autism Support Assistant
-job_id: 1839075
----
-
----
-action:
 SELECTED | London | London | £29,713.46 per annum | Support Worker
 job_id: 1927514
 ---
@@ -315,24 +285,6 @@ job_id: 1927514
 action:
 SELECTED | London | London | £28860 per year | Care Assistant
 job_id: 1990764
----
-
----
-action:
-SELECTED | London | London | £125 per daily | Learning Support Assistant
-job_id: 2022335
----
-
----
-action:
-SELECTED | London | London | £100 - £120 per daily | Learning Support Assistant
-job_id: 2028441
----
-
----
-action:
-SELECTED | London | London | £12.71 per hour | Night Care Assistant
-job_id: 107862702
 ---
 
 ## LONDON — POSSIBLES
@@ -388,12 +340,6 @@ job_id: 108043110
 _No jobs in this group._
 
 ## WILTSHIRE — SELECTED
-
----
-action:
-SELECTED | Wiltshire | Trowbridge | £85 - £110 per daily | Pastoral Support Worker
-job_id: 1881025
----
 
 ---
 action:
