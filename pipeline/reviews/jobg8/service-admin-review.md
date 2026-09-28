@@ -363,7 +363,47 @@ _No jobs in this group._
 
 ## NORTH EAST — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL | North East - County Durham & Darlington/Hartlepool | County Durham | closing_date:  | Assistant Accountant
+job_id: 1895111
+---
+
+---
+action:
+POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Newcastle | £40000 per year | Assistant Accountant
+job_id: 1944301
+---
+
+---
+action:
+POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Tyne And Wear | closing_date:  | Assistant Accountant
+job_id: 1946149
+---
+
+---
+action:
+POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Tyne And Wear | closing_date:  | Assistant Management Accountant
+job_id: 1856074
+---
+
+---
+action:
+POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Tyne And Wear | closing_date:  | Assistant Management Accountant
+job_id: 1895961
+---
+
+---
+action:
+POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Tyne And Wear | closing_date:  | HR Administrator
+job_id: 1907001
+---
+
+---
+action:
+POSS - NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND | North East - Tyneside, Wearside & Northumberland | Tyne And Wear | £35000 - £45000 per year | Procurement & Logistics Coordinator
+job_id: 23643_225599266
+---
 
 ## LONDON — SELECTED
 
