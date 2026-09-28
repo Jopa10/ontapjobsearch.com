@@ -1,7 +1,7 @@
 ﻿metric,value
 total rows input,15576
-total rows included,1115
-total rows dropped,14454
+total rows included,1121
+total rows dropped,14455
 title classification count - HIGH_CONFIDENCE,1093
 title classification count - ELASTIC_FIT,210
 title classification count - REVIEW_CONTEXT_DEPENDENT,1
@@ -23,14 +23,14 @@ anchor elastic count - Yorkshire - South,1
 other elastic count - Yorkshire - South,1
 total rows output - Yorkshire - South,15
 job_id included - Yorkshire - South,1884402; 1884424; 1960387; 1959767; 1905225; 2014257; 2033599; 1871012; 1949982; 1908708; 1899982; 20279_62308-153faf593eb64b88272f45adeaa28d87; 1907486; 2024835; 1899397
-selection scenario - North East,SCENARIO_3_FULL_VALID_SELECTION
-selection message - North East,"North East selection complete: all 21 valid selected role(s) retained after HIGH_CONFIDENCE, Newcastle Upon Tyne ELASTIC_FIT and other ELASTIC_FIT ordering."
-credible total - North East,21
+selection scenario - North East,SCENARIO_3_MANUAL_SELECTION_APPLIED
+selection message - North East,North East manual_select applied additively: 6 row(s) prioritised; 27 selected.
+credible total - North East,27
 high confidence count - North East,16
 anchor elastic count - North East,1
 other elastic count - North East,4
-total rows output - North East,21
-job_id included - North East,1927962; 1884416; 1893905; 1905519; 1933508; 1937180; 1950434; 1958584; 1907000; 1897045; 1896566; 1882063; 1874719; 1899187; 1884707; 1933966; 1950247; 1906595; 1897065; 1991604; 108026899
+total rows output - North East,27
+job_id included - North East,1927962; 1856074; 1946149; 1895961; 1944301; 1895111; 23643_225599266; 1884416; 1893905; 1905519; 1933508; 1937180; 1950434; 1958584; 1907000; 1897045; 1896566; 1882063; 1874719; 1899187; 1884707; 1933966; 1950247; 1906595; 1897065; 1991604; 108026899
 selection scenario - London,SCENARIO_3_MANUAL_SELECTION_APPLIED
 selection message - London,London manual_select applied additively: 20 row(s) prioritised; 166 selected.
 credible total - London,166
