@@ -22,6 +22,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Cann Bridge School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -47,6 +50,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "City College Plymouth",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -148,31 +154,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "teaching-vacancies-receptionist-administrator-first-aid-998a420b-1445-400e-ae08-d9399cb9bf66",
-    "title": "Receptionist / Administrator / First Aid",
-    "company": "Plymstock School",
-    "location": "Plymouth",
-    "region": "Devon",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£21,911.60 - £22,613.92 Annually (Actual) Grade C SCP 5 - 7 FTE £25,583 - £26,403 (pay award pending)",
-    "work_pattern": "",
-    "posted_date": "2026-07-14",
-    "closing_date": "2026-09-28",
-    "closing_datetime": "2026-09-28T09:00:00+01:00",
-    "summary": "Receptionist / Administrator / First Aid with Plymstock School in Plymouth. ['full time']; £21,911.60 - £22,613.92 Annually (Actual) Grade C SCP 5 - 7 FTE £25,583 - £26,403 (pay award pending).",
-    "description": "Plymstock School is recruiting for this vacancy in Plymouth.\n\nThe advertised position is Receptionist / Administrator / First Aid.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £21,911.60 - £22,613.92 Annually (Actual) Grade C SCP 5 - 7 FTE £25,583 - £26,403 (pay award pending).\n\nThe stated application deadline is 2026-09-28T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-first-aid-998a420b-1445-400e-ae08-d9399cb9bf66?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-school-administrator-st-budeaux-cofe-primary-academy",
     "title": "School Administrator",
     "company": "St Budeaux CofE Primary Academy",
@@ -195,6 +176,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "St Budeaux CofE Primary Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -220,6 +204,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Beechwood Primary Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -245,6 +232,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "St Paul's Roman Catholic Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

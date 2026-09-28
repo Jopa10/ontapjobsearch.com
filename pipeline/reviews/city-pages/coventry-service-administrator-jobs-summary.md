@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 7
 - automatic review: 3
-- automatic exclude: 24
+- automatic exclude: 23
 - effective include: 7
 - effective review: 3
-- effective exclude: 24
+- effective exclude: 23
 
 ## INCLUDE (7)
 
@@ -146,7 +146,7 @@ job_id: teaching-vacancies-receptionist-administrator-shipston-high-school
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (24)
+## EXCLUDE (23)
 
 ---
 action: 
@@ -205,18 +205,6 @@ company: Trinity House Group - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-1891794
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administration Assistant
-company: Evergreen School
-location: Warwick
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-23d0b4b5-47f8-416c-924d-d887471e9a01
 reason: Separate employment market.
 ---
 

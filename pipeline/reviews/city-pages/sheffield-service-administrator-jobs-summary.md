@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 17
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
+- automatic include: 18
 - automatic review: 2
-- automatic exclude: 13
-- effective include: 17
+- automatic exclude: 12
+- effective include: 18
 - effective review: 2
-- effective exclude: 13
+- effective exclude: 12
 
-## INCLUDE (17)
+## INCLUDE (18)
 
 ---
 action: 
@@ -100,11 +100,11 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Credit Control / Accounts Assistant
-company: Shillito Group - Agency - Permanent
+title: Audience Development Coordinator - Local Authority - Libraries
+company: Reed - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-1905225
+job_id: jobg8-2033599
 reason: Approved Sheffield catchment.
 ---
 
@@ -112,11 +112,11 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Facilities Coordinator
-company: Adecco - Agency - Permanent
+title: Credit Control / Accounts Assistant
+company: Shillito Group - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-1877335
+job_id: jobg8-1905225
 reason: Approved Sheffield catchment.
 ---
 
@@ -196,6 +196,18 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist Administrator
+company: Richmond Medical Centre
+location: Sheffield, S13 8NA
+source: NHS Jobs
+job_id: nhs-5625323
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist and Administrator
 company: Prince Edward Primary School
 location: Sheffield
@@ -254,7 +266,7 @@ job_id: jobg8-1933458
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (13)
+## EXCLUDE (12)
 
 ---
 action: 
@@ -385,18 +397,6 @@ company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Rotherham
 source: JobG8
 job_id: jobg8-1874146
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Saint Pius X Catholic High School A Specialist School in Humanities
-location: Rotherham
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-saint-pius-x-catholic-high-school-a-specialist-school-in-humanities
 reason: Separate employment market.
 ---
 

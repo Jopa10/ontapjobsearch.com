@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 34
-- automatic review: 10
+- automatic review: 9
 - automatic exclude: 3
 - effective include: 34
-- effective review: 10
+- effective review: 9
 - effective exclude: 3
 
 ## INCLUDE (34)
@@ -81,18 +81,6 @@ company: Sirona care & health CIC
 location: Bristol, BS6 6AU
 source: NHS Jobs
 job_id: nhs-5610700
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: West Walk Surgery
-location: Bristol, BS37 4AX
-source: NHS Jobs
-job_id: nhs-5590154
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -268,6 +256,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Office Coordinator
+company: Forvis Mazars LLP - Company - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-28025_JR99
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Part Time Accounts Assistant
 company: Michael Page Finance - Agency - Permanent
 location: Bristol
@@ -432,7 +432,7 @@ job_id: jobg8-1960385
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (10)
+## REVIEW (9)
 
 ---
 action: 
@@ -539,18 +539,6 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Somerset
 source: JobG8
 job_id: jobg8-1952001
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-2030027
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 28
+- Effective included jobs: 26
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 28
+- automatic include: 26
 - automatic review: 5
-- automatic exclude: 17
-- effective include: 28
+- automatic exclude: 15
+- effective include: 26
 - effective review: 5
-- effective exclude: 17
+- effective exclude: 15
 
-## INCLUDE (28)
+## INCLUDE (26)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: EA FIRST LTD - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-1908887
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Bursary Support Administrator
-company: Randstad Education - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-2024943
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -328,18 +316,6 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: School Receptionist Administrator - Cambridge
-company: Randstad Education - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-1873139
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Senior Office Administrator
 company: Pathfinder CofE Primary School
 location: Cambridge
@@ -422,7 +398,7 @@ job_id: teaching-vacancies-school-administrative-receptionist
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (17)
+## EXCLUDE (15)
 
 ---
 action: 
@@ -457,18 +433,6 @@ company: North West Anglia NHS Foundation Trust
 location: Peterborough, PE3 9GZ
 source: NHS Jobs
 job_id: nhs-5623327
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Arthur Mellows Village College
-location: Peterborough
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-47bb26eb-71c2-4cc0-b838-989640ff07ed
 reason: Separate employment market.
 ---
 
@@ -577,18 +541,6 @@ company: Reed - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-1869901
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: School Receptionist - Huntingdon
-company: Randstad Education - Agency - Permanent
-location: Huntingdon
-source: JobG8
-job_id: jobg8-1873140
 reason: Separate employment market.
 ---
 

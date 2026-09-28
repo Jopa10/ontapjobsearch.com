@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 16
+- automatic review: 15
 - automatic exclude: 0
 - effective include: 8
-- effective review: 16
+- effective review: 15
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: teaching-vacancies-receptionist-maternity-cover-manorfield-church-of-eng
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (16)
+## REVIEW (15)
 
 ---
 action: 
@@ -299,18 +299,6 @@ company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-1884433
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: School Finance Assistant
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-1870863
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 58
+- automatic review: 57
 - automatic exclude: 0
 - effective include: 2
-- effective review: 58
+- effective review: 57
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: jobg8-1927556
 reason: Exact approved Farnham workplace.
 ---
 
-## REVIEW (58)
+## REVIEW (57)
 
 ---
 action: 
@@ -143,18 +143,6 @@ company: University of Surrey - Agency - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-415491
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: HCRG Care Group
-location: Camberley, GU16 7ER
-source: NHS Jobs
-job_id: nhs-5590134
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 

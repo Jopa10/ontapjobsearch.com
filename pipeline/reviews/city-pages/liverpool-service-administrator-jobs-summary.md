@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 21
+- Effective included jobs: 22
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 21
+- automatic include: 22
 - automatic review: 3
 - automatic exclude: 0
-- effective include: 21
+- effective include: 22
 - effective review: 3
 - effective exclude: 0
 
-## INCLUDE (21)
+## INCLUDE (22)
 
 ---
 action: 
@@ -225,6 +225,18 @@ company: Michael Page Business Support - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-1870162
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Medical Receptionist
+company: Dunstan Village Group Practice
+location: Liverpool, L7 6HD
+source: NHS Jobs
+job_id: nhs-5620107
 reason: Approved conservative Liverpool launch catchment.
 ---
 

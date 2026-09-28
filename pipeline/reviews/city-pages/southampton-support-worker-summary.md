@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 4
 - automatic review: 3
-- automatic exclude: 3
+- automatic exclude: 2
 - effective include: 4
 - effective review: 3
-- effective exclude: 3
+- effective exclude: 2
 
 ## INCLUDE (4)
 
@@ -110,7 +110,7 @@ job_id: jobg8-107856243
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
-## EXCLUDE (3)
+## EXCLUDE (2)
 
 ---
 action: 
@@ -121,18 +121,6 @@ company: Hampshire County Council - Company - Permanent
 location: Winchester
 source: JobG8
 job_id: jobg8-1401785482
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Learning Support Assistant
-company: Prospero Teaching - Agency - Permanent
-location: Eastleigh
-source: JobG8
-job_id: jobg8-1875238
 reason: Separate employment market.
 ---
 

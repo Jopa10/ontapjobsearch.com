@@ -11,7 +11,6 @@ include,teaching-vacancies-pa-to-the-principal-7519,PA to the Principal (7519),V
 include,jobg8-1874588,Part time Finance Assistant,Reed - Agency - Permanent,Bradford,JobG8,include,include,Approved Bradford catchment.,bradford,bradford-service-administrator-jobs
 include,nhs-5611927,Project Administrator,Trust Primary Care Ltd,"Bradford, BD7 3JX",NHS Jobs,include,include,Approved Bradford catchment.,bradford,bradford-service-administrator-jobs
 review,jobg8-1959241,Administrator - Accounts Payable,"IPL, Forza and Kober Foods - Agency - Permanent",Normanton,JobG8,review,review,No approved Bradford catchment rule matched; local review required.,fallback,bradford-service-administrator-jobs
-review,teaching-vacancies-attendance-admissions-officer-highfield-school,Attendance & Admissions Officer,Highfield School,Ossett,Teaching Vacancies,review,review,No approved Bradford catchment rule matched; local review required.,fallback,bradford-service-administrator-jobs
 review,teaching-vacancies-clerical-assistant-receptionist-townville-academy-castleford-west-yorkshire,Clerical Assistant/Receptionist,Townville Academy,Castleford,Teaching Vacancies,review,review,No approved Bradford catchment rule matched; local review required.,fallback,bradford-service-administrator-jobs
 review,jobg8-1907825,Cloud Bookkeeper,Bennett & Game Recruitment - Agency - Permanent,Keighley,JobG8,review,review,No approved Bradford catchment rule matched; local review required.,fallback,bradford-service-administrator-jobs
 review,jobg8-1929686,Conveyancing Assistant,HVLR LTD - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Bradford catchment rule matched; local review required.,fallback,bradford-service-administrator-jobs
@@ -64,7 +63,6 @@ exclude,jobg8-1871224,Credit Controller,Headstar - Agency - Permanent,Leeds,JobG
 exclude,jobg8-1873668,Credit Controller,Synergem Recruitment - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
 exclude,jobg8-1914030,Credit Controller (US HOURS),Elevation Recruitment Group - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
 exclude,teaching-vacancies-data-administrator-the-north-halifax-grammar-school-halifax-west-yorkshire,Data Administrator,The North Halifax Grammar School,Halifax,Teaching Vacancies,exclude,exclude,Separate employment market.,halifax,bradford-service-administrator-jobs
-exclude,teaching-vacancies-data-and-exams-administrator-moor-end-academy,Data and Exams Administrator,Moor End Academy,Huddersfield,Teaching Vacancies,exclude,exclude,Separate employment market.,huddersfield,bradford-service-administrator-jobs
 exclude,jobg8-1924718,Finance Assistant - Purchase Ledger,Kingdom People - Agency - Permanent,Huddersfield,JobG8,exclude,exclude,Separate employment market.,huddersfield,bradford-service-administrator-jobs
 exclude,jobg8-1937623,HR Coordinator / Advisor,Hays Specialist Recruitment Limited - Agency - Permanent,Huddersfield,JobG8,exclude,exclude,Separate employment market.,huddersfield,bradford-service-administrator-jobs
 exclude,jobg8-1881992,HR Onboarding Coordinator,Avencia Consulting - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
@@ -72,7 +70,6 @@ exclude,jobg8-2014271,Insolvency Case Administrator,GGT Insolvency Recruitment -
 exclude,jobg8-1936446,Interim Assistant Accountant (6 month FTC),HW Finance - Agency - Permanent,Wakefield,JobG8,exclude,exclude,Separate employment market.,wakefield,bradford-service-administrator-jobs
 exclude,jobg8-1936709,Interim OTC Cash Office Assistant,Marks Sattin - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
 exclude,jobg8-1873985,Jaguar Land Rover Accounts Assistant,Sytner Group - Agency - Permanent,Huddersfield,JobG8,exclude,exclude,Separate employment market.,huddersfield,bradford-service-administrator-jobs
-exclude,jobg8-107995853,Maintenance Service Coordinator,Interaction - Leeds - Agency - Permanent,Wakefield,JobG8,exclude,exclude,Separate employment market.,wakefield,bradford-service-administrator-jobs
 exclude,jobg8-1908757,Marketing Executive,IMPRESSION RECRUITMENT LIMITED - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
 exclude,jobg8-1954967,Mobility Claims Paralegal,CRA Consulting - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
 exclude,jobg8-1895692,Paralegal,Huntress - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs

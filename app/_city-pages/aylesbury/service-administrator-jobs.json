@@ -22,6 +22,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "The Kingsbrook School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -47,31 +50,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "teaching-vacancies-school-administrator-chiltern-way-academy-trust",
-    "title": "School Administrator",
-    "company": "Chiltern Way Academy Trust",
-    "location": "Aylesbury",
-    "region": "Buckinghamshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£29,114.00 - £31,230.00 Annually (FTE) Actual salary for hours worked will be £24,690.91 to £26,485.44",
-    "work_pattern": "",
-    "posted_date": "2026-09-11",
-    "closing_date": "2026-09-27",
-    "closing_datetime": "2026-09-27T23:59:00+01:00",
-    "summary": "School Administrator with Chiltern Way Academy Trust in Aylesbury. ['full time']; £29,114.00 - £31,230.00 Annually (FTE) Actual salary for hours worked will be £24,690.91 to £26,485.44.",
-    "description": "Chiltern Way Academy Trust is recruiting for this vacancy in Aylesbury.\n\nThe advertised position is School Administrator.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £29,114.00 - £31,230.00 Annually (FTE) Actual salary for hours worked will be £24,690.91 to £26,485.44.\n\nThe stated application deadline is 2026-09-27T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/school-administrator-chiltern-way-academy-trust?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
+    "advertiser_name": "Aylesbury High School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -97,6 +78,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Chiltern Way Academy Trust",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -116,9 +100,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0123TMP",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

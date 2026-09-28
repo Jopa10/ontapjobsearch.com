@@ -270,18 +270,6 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist - Bank
-company: Avery Healthcare Group Ltd.
-location: Bournemouth, BH4 9DR
-source: NHS Jobs
-job_id: nhs-5591331
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Receptionist/Administrator
 company: Dorset HealthCare University NHS Foundation Trust
 location: Sherborne, DT93JU
@@ -299,6 +287,18 @@ company: South Coast Medical Group
 location: Christchurch, BH23 2FQ
 source: NHS Jobs
 job_id: nhs-5600939
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment Administrator
+company: University Hospitals Dorset NHS Foundation Trust
+location: Bournemouth, BH8 0BJ
+source: NHS Jobs
+job_id: nhs-5625199
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

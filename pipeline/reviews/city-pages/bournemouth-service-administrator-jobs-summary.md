@@ -40,11 +40,11 @@ reason: Exact approved Bournemouth workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist - Bank
-company: Avery Healthcare Group Ltd.
-location: Bournemouth, BH4 9DR
+title: Recruitment Administrator
+company: University Hospitals Dorset NHS Foundation Trust
+location: Bournemouth, BH8 0BJ
 source: NHS Jobs
-job_id: nhs-5591331
+job_id: nhs-5625199
 reason: Exact approved Bournemouth workplace.
 ---
 

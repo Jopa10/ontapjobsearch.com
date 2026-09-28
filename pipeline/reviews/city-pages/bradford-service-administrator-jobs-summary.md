@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 11
-- automatic review: 29
-- automatic exclude: 48
+- automatic review: 28
+- automatic exclude: 46
 - effective include: 11
-- effective review: 29
-- effective exclude: 48
+- effective review: 28
+- effective exclude: 46
 
 ## INCLUDE (11)
 
@@ -156,7 +156,7 @@ job_id: nhs-5611927
 reason: Approved Bradford catchment.
 ---
 
-## REVIEW (29)
+## REVIEW (28)
 
 ---
 action: 
@@ -167,18 +167,6 @@ company: IPL, Forza and Kober Foods - Agency - Permanent
 location: Normanton
 source: JobG8
 job_id: jobg8-1959241
-reason: No approved Bradford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Attendance & Admissions Officer
-company: Highfield School
-location: Ossett
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-admissions-officer-highfield-school
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -506,7 +494,7 @@ job_id: jobg8-1960756
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (48)
+## EXCLUDE (46)
 
 ---
 action: 
@@ -812,18 +800,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Data and Exams Administrator
-company: Moor End Academy
-location: Huddersfield
-source: Teaching Vacancies
-job_id: teaching-vacancies-data-and-exams-administrator-moor-end-academy
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Finance Assistant - Purchase Ledger
 company: Kingdom People - Agency - Permanent
 location: Huddersfield
@@ -901,18 +877,6 @@ company: Sytner Group - Agency - Permanent
 location: Huddersfield
 source: JobG8
 job_id: jobg8-1873985
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Maintenance Service Coordinator
-company: Interaction - Leeds - Agency - Permanent
-location: Wakefield
-source: JobG8
-job_id: jobg8-107995853
 reason: Separate employment market.
 ---
 

@@ -50,31 +50,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "teaching-vacancies-administrator-47bb26eb-71c2-4cc0-b838-989640ff07ed",
-    "title": "Administrator",
-    "company": "Arthur Mellows Village College",
-    "location": "Peterborough",
-    "region": "Cambridgeshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£14,802.00 Annually (Actual)",
-    "work_pattern": "",
-    "posted_date": "2026-09-03",
-    "closing_date": "2026-09-28",
-    "closing_datetime": "2026-09-28T09:00:00+01:00",
-    "summary": "Administrator with Arthur Mellows Village College in Peterborough. ['part time']; £14,802.00 Annually (Actual).",
-    "description": "Arthur Mellows Village College is recruiting for this vacancy in Peterborough.\n\nThe advertised position is Administrator.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £14,802.00 Annually (Actual).\n\nThe stated application deadline is 2026-09-28T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administrator-47bb26eb-71c2-4cc0-b838-989640ff07ed?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "1870876",
     "title": "Assistant Accountant",
     "company": "The One Group - Agency - Permanent",
@@ -314,9 +289,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9176-26-0542",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

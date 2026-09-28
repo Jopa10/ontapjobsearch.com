@@ -50,31 +50,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "teaching-vacancies-attendance-administrator-archbishop-holgate-s-school-a-church-of-england-academy",
-    "title": "Attendance Administrator",
-    "company": "Archbishop Holgate's School, A Church of England Academy",
-    "location": "York",
-    "region": "Yorkshire - North",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "Grade 5 (£23,698 – this is the pro rata salary)",
-    "work_pattern": "",
-    "posted_date": "2026-09-09",
-    "closing_date": "2026-09-28",
-    "closing_datetime": "2026-09-28T08:00:00+01:00",
-    "summary": "Attendance Administrator with Archbishop Holgate's School, A Church of England Academy in York. ['full time']; Grade 5 (£23,698 – this is the pro rata salary).",
-    "description": "Archbishop Holgate's School, A Church of England Academy is recruiting for this vacancy in York.\n\nThe advertised position is Attendance Administrator.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is Grade 5 (£23,698 – this is the pro rata salary).\n\nThe stated application deadline is 2026-09-28T08:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-archbishop-holgate-s-school-a-church-of-england-academy?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "1871047",
     "display_reference": "1871047",
     "title": "Commercial Property Legal Secretary/Assistant - York",
@@ -263,9 +238,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4504-26-0002",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -285,9 +257,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0480",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

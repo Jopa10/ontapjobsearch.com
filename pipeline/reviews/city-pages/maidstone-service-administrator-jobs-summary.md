@@ -4,8 +4,8 @@
 - Live route: `/maidstone/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
-- Threshold currently met: yes
+- Effective included jobs: 2
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 60
+- automatic include: 2
+- automatic review: 58
 - automatic exclude: 0
-- effective include: 4
-- effective review: 60
+- effective include: 2
+- effective review: 58
 - effective exclude: 0
 
-## INCLUDE (4)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Clinical Administrator
-company: Len Valley Practice
-location: Maidstone, ME17 2QF
-source: NHS Jobs
-job_id: nhs-5606943
-reason: Exact approved Maidstone workplace.
----
+## INCLUDE (2)
 
 ---
 action: 
@@ -52,18 +40,6 @@ reason: Exact approved Maidstone workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Personal Assistant to the Headteacher
-company: Maidstone Grammar School for Girls
-location: Maidstone
-source: Teaching Vacancies
-job_id: teaching-vacancies-personal-assistant-to-the-headteacher-maidstone-grammar-school-for-girls
-reason: Exact approved Maidstone workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Purchase Ledger Clerk (Temporary)
 company: Pearson Whiffin Recruitment Ltd - Agency - Permanent
 location: Maidstone
@@ -72,7 +48,7 @@ job_id: jobg8-1927434
 reason: Exact approved Maidstone workplace.
 ---
 
-## REVIEW (60)
+## REVIEW (58)
 
 ---
 action: 
@@ -179,18 +155,6 @@ company: Invicta Health CIC
 location: Ramsgate, CT11 8AD
 source: NHS Jobs
 job_id: nhs-5615644
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admissions Officer
-company: The Robert Napier School
-location: Gillingham
-source: Teaching Vacancies
-job_id: teaching-vacancies-admissions-officer-the-robert-napier-school
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -707,18 +671,6 @@ company: Farrer Barnes Limited - Agency - Permanent
 location: Tenterden
 source: JobG8
 job_id: jobg8-1870764
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: School Receptionist & Administrator
-company: Valence School
-location: Westerham
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-receptionist-administrator-valence-school-westerham-kent
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 

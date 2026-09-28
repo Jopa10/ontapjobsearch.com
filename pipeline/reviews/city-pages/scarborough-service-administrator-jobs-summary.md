@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 32
+- automatic review: 31
 - automatic exclude: 0
 - effective include: 2
-- effective review: 32
+- effective review: 31
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: nhs-5624493
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (32)
+## REVIEW (31)
 
 ---
 action: 
@@ -83,18 +83,6 @@ company: Practice Plus Group - Health in Justice
 location: York, YO41 1FZ
 source: NHS Jobs
 job_id: nhs-5607825
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Attendance Administrator
-company: Archbishop Holgate's School, A Church of England Academy
-location: York
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-administrator-archbishop-holgate-s-school-a-church-of-england-academy
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

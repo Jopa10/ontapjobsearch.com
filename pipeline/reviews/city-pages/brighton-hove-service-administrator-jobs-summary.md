@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 28
+- automatic review: 27
 - automatic exclude: 14
 - effective include: 5
-- effective review: 28
+- effective review: 27
 - effective exclude: 14
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-1856512
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (28)
+## REVIEW (27)
 
 ---
 action: 
@@ -282,18 +282,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Internal Sales Administrator
-company: Trident - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-1843728
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Junior Finance Assistant
 company: Harvey John - Agency - Permanent
 location: Sussex
@@ -311,6 +299,18 @@ company: A1 People - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-1910463
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Coordinator
+company: A1 People - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2034128
 reason: Broad location; review before city inclusion.
 ---
 
@@ -360,18 +360,6 @@ location: Haywards Heath
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-administrator-brantridge-school
 reason: No approved Brighton & Hove catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: School Administrator
-company: Reed - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2023516
-reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -488,18 +476,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Exams Officer - CFS
-company: Chichester Free School
-location: Chichester
-source: Teaching Vacancies
-job_id: teaching-vacancies-exams-officer-cfs
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: GP Receptionist
 company: Tangmere Medical Centre
 location: Chichester, PO20 2HS
@@ -589,5 +565,17 @@ company: Sussex Partnership NHS Foundation Trust
 location: Chichester, PO19 1BX
 source: NHS Jobs
 job_id: nhs-5604706
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Ward Administrator
+company: Sussex Partnership NHS Foundation Trust
+location: Crawley, RH11 7EJ
+source: NHS Jobs
+job_id: nhs-5607501
 reason: Separate employment market.
 ---

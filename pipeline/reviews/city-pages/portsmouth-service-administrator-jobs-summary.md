@@ -4,7 +4,7 @@
 - Live route: `/portsmouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 42
+- automatic include: 4
+- automatic review: 41
 - automatic exclude: 0
-- effective include: 5
-- effective review: 42
+- effective include: 4
+- effective review: 41
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (4)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Court Lane Junior Academy
 location: Portsmouth
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-thursdays-and-fridays
-reason: Exact approved Portsmouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Island City Practice
-location: Portsmouth, PO4 8TA
-source: NHS Jobs
-job_id: nhs-5577957
 reason: Exact approved Portsmouth workplace.
 ---
 
@@ -84,7 +72,7 @@ job_id: jobg8-1959286
 reason: Exact approved Portsmouth workplace.
 ---
 
-## REVIEW (42)
+## REVIEW (41)
 
 ---
 action: 
@@ -270,6 +258,18 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Business Support Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Southampton, SO14 0YG
+source: NHS Jobs
+job_id: nhs-5608574
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Care Coordinator
 company: Agincare Group - Agency - Permanent
 location: Hampshire
@@ -318,18 +318,6 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: EHCP Coordinator
-company: Aspire People Limited - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-1858777
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Family Paralegal
 company: Reed - Agency - Permanent
 location: Hampshire
@@ -347,18 +335,6 @@ company: CMA Recruitment Group - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-1947243
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Healthy Homes Administrator & Scheduling Coordinator
-company: TristoneNash Ltd - Agency - Permanent
-location: Eastleigh
-source: JobG8
-job_id: jobg8-2014390
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 

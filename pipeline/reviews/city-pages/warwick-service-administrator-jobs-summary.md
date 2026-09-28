@@ -4,7 +4,7 @@
 - Live route: `/warwick/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
+- automatic include: 4
 - automatic review: 29
 - automatic exclude: 0
-- effective include: 5
+- effective include: 4
 - effective review: 29
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (4)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Gleeson Recruitment Group - Agency - Permanent
 location: Warwick
 source: JobG8
 job_id: jobg8-1905974
-reason: Exact approved Warwick workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant
-company: Evergreen School
-location: Warwick
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-23d0b4b5-47f8-416c-924d-d887471e9a01
 reason: Exact approved Warwick workplace.
 ---
 

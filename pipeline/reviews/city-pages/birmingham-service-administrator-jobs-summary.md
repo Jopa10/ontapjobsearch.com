@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 40
+- Effective included jobs: 39
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 40
-- automatic review: 7
+- automatic include: 39
+- automatic review: 5
 - automatic exclude: 4
-- effective include: 40
-- effective review: 7
+- effective include: 39
+- effective review: 5
 - effective exclude: 4
 
-## INCLUDE (40)
+## INCLUDE (39)
 
 ---
 action: 
@@ -292,6 +292,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: HR Administrator
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2028422
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: International Accounts Officer
 company: Robertson Bell - Agency - Permanent
 location: Birmingham
@@ -388,18 +400,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Pastoral Support and Administrator Apprentice
-company: E-ACT Heartlands Academy
-location: Birmingham
-source: Teaching Vacancies
-job_id: teaching-vacancies-pastoral-support-and-administrator-apprentice
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Payroll Assistant
 company: Totum - Agency - Permanent
 location: Birmingham
@@ -484,18 +484,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-2030025
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Trusts & Grants Coordinator
 company: Fareshare Midlands - Agency - Permanent
 location: Birmingham
@@ -504,7 +492,7 @@ job_id: jobg8-2028750
 reason: Approved conservative Birmingham launch catchment.
 ---
 
-## REVIEW (7)
+## REVIEW (5)
 
 ---
 action: 
@@ -564,30 +552,6 @@ location: West Midlands
 source: JobG8
 job_id: jobg8-1957646
 reason: Broad regional location; review before Birmingham inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Senior Administrator
-company: Bishop Vesey's Grammar School
-location: Sutton Coldfield
-source: Teaching Vacancies
-job_id: teaching-vacancies-senior-administrator-bishop-vesey-s-grammar-school
-reason: No approved Birmingham catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Whole School Attendance Officer (Mat Cover)
-company: Bishop Vesey's Grammar School
-location: Sutton Coldfield
-source: Teaching Vacancies
-job_id: teaching-vacancies-whole-school-attendance-officer-mat-cover
-reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
 ## EXCLUDE (4)

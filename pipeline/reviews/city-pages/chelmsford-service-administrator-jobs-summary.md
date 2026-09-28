@@ -558,6 +558,18 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Conveyancing Assistant
+company: JS Legal Recruitment Ltd - Agency - Permanent
+location: Wickford
+source: JobG8
+job_id: jobg8-2033578
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Conveyancing Assistant New Build
 company: JS Legal Recruitment Ltd - Agency - Permanent
 location: Essex
@@ -1127,18 +1139,6 @@ company: SHEAWORKS Ltd - Agency - Permanent
 location: Harlow
 source: JobG8
 job_id: jobg8-1897449
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Social Media & Design Administrator
-company: St Bernard's High School
-location: Westcliff-on-Sea
-source: Teaching Vacancies
-job_id: teaching-vacancies-social-media-design-administrator
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

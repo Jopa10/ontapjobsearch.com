@@ -4,7 +4,7 @@
 - Live route: `/plymouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 10
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 44
+- automatic include: 9
+- automatic review: 42
 - automatic exclude: 0
-- effective include: 10
-- effective review: 44
+- effective include: 9
+- effective review: 42
 - effective exclude: 0
 
-## INCLUDE (10)
+## INCLUDE (9)
 
 ---
 action: 
@@ -100,18 +100,6 @@ reason: Exact approved Plymouth workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist / Administrator / First Aid
-company: Plymstock School
-location: Plymouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-administrator-first-aid-998a420b-1445-400e-ae08-d9399cb9bf66
-reason: Exact approved Plymouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: School Administrator
 company: St Budeaux CofE Primary Academy
 location: Plymouth
@@ -144,7 +132,7 @@ job_id: teaching-vacancies-senior-administrator-st-paul-s-roman-catholic-primary
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (44)
+## REVIEW (42)
 
 ---
 action: 
@@ -203,18 +191,6 @@ company: mbf. - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-1934222
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Attendance Officer
-company: Isca Academy
-location: Exeter
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-3a512135-b2ab-44a1-ab86-624ecc2e7290
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -395,18 +371,6 @@ company: Artis Recruitment - Agency - Permanent
 location: Newton Abbot
 source: JobG8
 job_id: jobg8-1945151
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrator
-company: Reed - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-1874648
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/aylesbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 38
+- automatic include: 4
+- automatic review: 39
 - automatic exclude: 0
-- effective include: 5
-- effective review: 38
+- effective include: 4
+- effective review: 39
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (4)
 
 ---
 action: 
@@ -64,18 +64,6 @@ reason: Exact approved Aylesbury workplace.
 action: 
 decision: include
 automatic_decision: include
-title: School Administrator
-company: Chiltern Way Academy Trust
-location: Aylesbury
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-administrator-chiltern-way-academy-trust
-reason: Exact approved Aylesbury workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: SEN Administrator
 company: Chiltern Way Academy Trust
 location: Aylesbury
@@ -84,7 +72,7 @@ job_id: teaching-vacancies-sen-administrator-chiltern-way-academy-trust
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (38)
+## REVIEW (39)
 
 ---
 action: 
@@ -539,6 +527,18 @@ company: Robert Walters - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-1882176
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Senior Administrator
+company: Primary Care Management Solutions Ltd
+location: HIGH WYCOMBE, HP13 5DN
+source: NHS Jobs
+job_id: nhs-5607180
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 29
-- automatic exclude: 15
-- effective include: 8
-- effective review: 29
-- effective exclude: 15
+- automatic include: 11
+- automatic review: 32
+- automatic exclude: 17
+- effective include: 11
+- effective review: 32
+- effective exclude: 17
 
-## INCLUDE (8)
+## INCLUDE (11)
 
 ---
 action: 
@@ -33,6 +33,30 @@ company: Consult KA Ltd - Agency - Permanent
 location: Newcastle
 source: JobG8
 job_id: jobg8-1899187
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Accountant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Newcastle
+source: JobG8
+job_id: jobg8-1944301
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Business Development Executive
+company: Independent Utility Advice - Agency - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-107967240
 reason: Approved Newcastle catchment.
 ---
 
@@ -100,6 +124,18 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Medical Receptionist
+company: Betts Avenue Medical Centre
+location: Newcastle Upon Tyne, NE15 6TQ, Newcastle Upon Tyne, NE3 3QP
+source: NHS Jobs
+job_id: nhs-5621861
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Motor Claims Handler
 company: Xpert Recruitment Solutions Limited - Agency - Permanent
 location: Newcastle
@@ -120,19 +156,7 @@ job_id: nhs-5598890
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (29)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: 1st Line Service Desk Agent
-company: Cap Resourcing Ltd - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-2024355
-reason: Broad location; review before city inclusion.
----
+## REVIEW (32)
 
 ---
 action: 
@@ -156,6 +180,42 @@ location: Wallsend, NE28 8QU
 source: NHS Jobs
 job_id: nhs-5623047
 reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: Nigel Wright Group - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1946149
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Management Accountant
+company: KCR Solutions - Agency - Permanent
+location: Washington
+source: JobG8
+job_id: jobg8-1856074
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Management Accountant
+company: KCR Solutions - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1895961
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -426,6 +486,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Procurement & Logistics Coordinator
+company: Reed Specialist Recruitment - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225599266
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Purchase Ledger Clerk
 company: Adecco - Agency - Permanent
 location: Tyne And Wear
@@ -470,7 +542,7 @@ job_id: teaching-vacancies-school-support-roles-supervisory-assistant-administra
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
-## EXCLUDE (15)
+## EXCLUDE (17)
 
 ---
 action: 
@@ -560,11 +632,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Assistant Accountant
+company: Spear-heads - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-1895111
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Business Development Executive
 company: Tina Lacey Recruitment Ltd - Agency - Permanent
 location: Darlington
 source: JobG8
 job_id: jobg8-107973178
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Business Support Administrator
+company: North East & North Cumbria ICB
+location: Sunderland, SR5 3XB
+source: NHS Jobs
+job_id: nhs-5619773
 reason: Separate employment market.
 ---
 

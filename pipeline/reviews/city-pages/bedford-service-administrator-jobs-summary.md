@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 14
+- automatic review: 12
 - automatic exclude: 0
 - effective include: 5
-- effective review: 14
+- effective review: 12
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: nhs-5608349
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (14)
+## REVIEW (12)
 
 ---
 action: 
@@ -174,18 +174,6 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Reception Administrator Assistant
-company: Manshead Church of England Academy
-location: Luton
-source: Teaching Vacancies
-job_id: teaching-vacancies-reception-administrator-assistant
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Receptionist & Administrative Assistant
 company: Parkfields Middle School
 location: Dunstable
@@ -215,18 +203,6 @@ company: Richmond Hill School
 location: Luton
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-clerical-assistant-richmond-hill-school-luton-bedfordshire
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist/Finance Assistant
-company: Sandy Secondary School
-location: Sandy
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-finance-assistant
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

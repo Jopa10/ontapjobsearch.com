@@ -4,7 +4,7 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 16
+- automatic include: 10
+- automatic review: 15
 - automatic exclude: 14
-- effective include: 11
-- effective review: 16
+- effective include: 10
+- effective review: 15
 - effective exclude: 14
 
-## INCLUDE (11)
+## INCLUDE (10)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: Page Group - Agency - Permanent
 location: Oxford
 source: JobG8
 job_id: jobg8-1859215
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrative Assistant
-company: Chalgrove Community Primary School
-location: Oxford
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-chalgrove-community-primary-school
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -156,7 +144,7 @@ job_id: nhs-5621723
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (16)
+## REVIEW (15)
 
 ---
 action: 
@@ -167,18 +155,6 @@ company: FryerMiles - Agency - Permanent
 location: Wantage
 source: JobG8
 job_id: jobg8-1914683
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administration Assistant
-company: Bloxham Grove Academy
-location: Banbury
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-bloxham-grove-academy-banbury
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 

@@ -224,6 +224,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Audience Development Coordinator - Local Authority - Libraries
+company: Reed - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2033599
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Credit Control / Accounts Assistant
 company: Shillito Group - Agency - Permanent
 location: Sheffield
@@ -241,18 +253,6 @@ company: EE - Company - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-20279_62308-153faf593eb64b88272f45adeaa28d87
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Facilities Coordinator
-company: Adecco - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1877335
 reason: Separate employment market.
 ---
 
@@ -368,11 +368,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist
-company: Saint Pius X Catholic High School A Specialist School in Humanities
-location: Rotherham
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-saint-pius-x-catholic-high-school-a-specialist-school-in-humanities
+title: Receptionist Administrator
+company: Richmond Medical Centre
+location: Sheffield, S13 8NA
+source: NHS Jobs
+job_id: nhs-5625323
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/exeter/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 16
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
-- automatic review: 38
+- automatic include: 15
+- automatic review: 36
 - automatic exclude: 0
-- effective include: 16
-- effective review: 38
+- effective include: 15
+- effective review: 36
 - effective exclude: 0
 
-## INCLUDE (16)
+## INCLUDE (15)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Michael Page Finance - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-1860828
-reason: Exact approved Exeter workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Attendance Officer
-company: Isca Academy
-location: Exeter
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-3a512135-b2ab-44a1-ab86-624ecc2e7290
 reason: Exact approved Exeter workplace.
 ---
 
@@ -216,7 +204,7 @@ job_id: jobg8-1877836
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (38)
+## REVIEW (36)
 
 ---
 action: 
@@ -438,18 +426,6 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator
-company: Reed - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-1874648
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Legal Assistant - Conveyancing
 company: RLS Legal Recruitment - Agency - Permanent
 location: Totnes
@@ -563,18 +539,6 @@ company: Reed - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-1905927
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist / Administrator / First Aid
-company: Plymstock School
-location: Plymouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-administrator-first-aid-998a420b-1445-400e-ae08-d9399cb9bf66
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

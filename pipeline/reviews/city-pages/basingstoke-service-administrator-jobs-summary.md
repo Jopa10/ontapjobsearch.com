@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 45
+- automatic review: 43
 - automatic exclude: 0
 - effective include: 2
-- effective review: 45
+- effective review: 43
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: jobg8-108041601
 reason: Exact approved Basingstoke workplace.
 ---
 
-## REVIEW (45)
+## REVIEW (43)
 
 ---
 action: 
@@ -119,18 +119,6 @@ company: Inclusion
 location: Eastleigh, PO16 0NX
 source: NHS Jobs
 job_id: nhs-5586737
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Island City Practice
-location: Portsmouth, PO4 8TA
-source: NHS Jobs
-job_id: nhs-5577957
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -258,6 +246,18 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Business Support Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Southampton, SO14 0YG
+source: NHS Jobs
+job_id: nhs-5608574
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Care Coordinator
 company: Agincare Group - Agency - Permanent
 location: Hampshire
@@ -306,18 +306,6 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: EHCP Coordinator
-company: Aspire People Limited - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-1858777
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Family Paralegal
 company: Reed - Agency - Permanent
 location: Hampshire
@@ -335,18 +323,6 @@ company: CMA Recruitment Group - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-1947243
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Healthy Homes Administrator & Scheduling Coordinator
-company: TristoneNash Ltd - Agency - Permanent
-location: Eastleigh
-source: JobG8
-job_id: jobg8-2014390
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 

@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 10
+- automatic review: 11
 - automatic exclude: 0
 - effective include: 0
-- effective review: 10
+- effective review: 11
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (10)
+## REVIEW (11)
 
 ---
 action: 
@@ -35,6 +35,18 @@ company: Pershore Medical Practice
 location: Pershore, WR10 1PX
 source: NHS Jobs
 job_id: nhs-5623875
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Herefordshire and Worcestershire Health and Care NHS Trust
+location: Evesham, WR11 1JT
+source: NHS Jobs
+job_id: nhs-5625179
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 20
+- automatic review: 19
 - automatic exclude: 0
 - effective include: 1
-- effective review: 20
+- effective review: 19
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: teaching-vacancies-sixth-form-administrator-the-fallibroome-academy
 reason: Exact approved Macclesfield workplace.
 ---
 
-## REVIEW (20)
+## REVIEW (19)
 
 ---
 action: 
@@ -263,18 +263,6 @@ company: Perfect Placement Uk Ltd - Agency - Permanent
 location: Knutsford
 source: JobG8
 job_id: jobg8-1875811
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Coordinator
-company: Adullam Homes - Agency - Permanent
-location: Congleton
-source: JobG8
-job_id: jobg8-107933798
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

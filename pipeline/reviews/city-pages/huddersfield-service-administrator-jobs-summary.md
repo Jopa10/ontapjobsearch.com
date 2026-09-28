@@ -4,7 +4,7 @@
 - Live route: `/huddersfield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 29
-- automatic exclude: 55
-- effective include: 4
-- effective review: 29
-- effective exclude: 55
+- automatic include: 3
+- automatic review: 28
+- automatic exclude: 54
+- effective include: 3
+- effective review: 28
+- effective exclude: 54
 
-## INCLUDE (4)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Data and Exams Administrator
-company: Moor End Academy
-location: Huddersfield
-source: Teaching Vacancies
-job_id: teaching-vacancies-data-and-exams-administrator-moor-end-academy
-reason: Approved Huddersfield catchment.
----
+## INCLUDE (3)
 
 ---
 action: 
@@ -72,7 +60,7 @@ job_id: jobg8-1873985
 reason: Approved Huddersfield catchment.
 ---
 
-## REVIEW (29)
+## REVIEW (28)
 
 ---
 action: 
@@ -83,18 +71,6 @@ company: IPL, Forza and Kober Foods - Agency - Permanent
 location: Normanton
 source: JobG8
 job_id: jobg8-1959241
-reason: No approved Huddersfield catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Attendance & Admissions Officer
-company: Highfield School
-location: Ossett
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-admissions-officer-highfield-school
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
@@ -422,7 +398,7 @@ job_id: jobg8-1960756
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (55)
+## EXCLUDE (54)
 
 ---
 action: 
@@ -841,18 +817,6 @@ company: Marks Sattin - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-1936709
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Maintenance Service Coordinator
-company: Interaction - Leeds - Agency - Permanent
-location: Wakefield
-source: JobG8
-job_id: jobg8-107995853
 reason: Separate employment market.
 ---
 

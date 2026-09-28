@@ -50,31 +50,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "teaching-vacancies-attendance-officer-3a512135-b2ab-44a1-ab86-624ecc2e7290",
-    "title": "Attendance Officer",
-    "company": "Isca Academy",
-    "location": "Exeter",
-    "region": "Devon",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£23,071.62 - £25,407.68",
-    "work_pattern": "",
-    "posted_date": "2026-09-24",
-    "closing_date": "2026-09-27",
-    "closing_datetime": "2026-09-27T23:59:00+01:00",
-    "summary": "Attendance Officer with Isca Academy in Exeter. ['full time']; £23,071.62 - £25,407.68.",
-    "description": "Isca Academy is recruiting for this vacancy in Exeter.\n\nThe advertised position is Attendance Officer.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £23,071.62 - £25,407.68.\n\nThe stated application deadline is 2026-09-27T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-3a512135-b2ab-44a1-ab86-624ecc2e7290?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-business-administrator-d383ef29-c17f-437b-8271-918c1d87de9b",
     "title": "Business Administrator",
     "company": "St James School",
@@ -97,6 +72,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "St James School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -172,6 +150,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Cornerstone Academy Trust",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -197,6 +178,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Stansfield Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -265,9 +249,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0604",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -287,9 +268,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0654-1",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -309,9 +287,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1164",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -331,9 +306,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1179",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -353,9 +325,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1160",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -375,9 +344,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1166",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

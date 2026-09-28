@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 63
+- automatic review: 59
 - automatic exclude: 0
 - effective include: 1
-- effective review: 63
+- effective review: 59
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: jobg8-2024535
 reason: Exact approved Ashford workplace.
 ---
 
-## REVIEW (63)
+## REVIEW (59)
 
 ---
 action: 
@@ -138,18 +138,6 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Admissions Officer
-company: The Robert Napier School
-location: Gillingham
-source: Teaching Vacancies
-job_id: teaching-vacancies-admissions-officer-the-robert-napier-school
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Assistant Accountant
 company: Michael Page Finance - Agency - Permanent
 location: Kent
@@ -227,18 +215,6 @@ company: Pro Talent - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-1897444
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Clinical Administrator
-company: Len Valley Practice
-location: Maidstone, ME17 2QF
-source: NHS Jobs
-job_id: nhs-5606943
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -558,18 +534,6 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Personal Assistant to the Headteacher
-company: Maidstone Grammar School for Girls
-location: Maidstone
-source: Teaching Vacancies
-job_id: teaching-vacancies-personal-assistant-to-the-headteacher-maidstone-grammar-school-for-girls
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Private Client Paralegal - Support towards qualification - Hybrid working
 company: qed legal - Agency - Permanent
 location: Kent
@@ -707,18 +671,6 @@ company: Farrer Barnes Limited - Agency - Permanent
 location: Tenterden
 source: JobG8
 job_id: jobg8-1870764
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: School Receptionist & Administrator
-company: Valence School
-location: Westerham
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-receptionist-administrator-valence-school-westerham-kent
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 

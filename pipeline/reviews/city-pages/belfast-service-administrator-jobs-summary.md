@@ -4,7 +4,7 @@
 - Live route: `/belfast/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
+- automatic include: 3
 - automatic review: 6
 - automatic exclude: 0
-- effective include: 4
+- effective include: 3
 - effective review: 6
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (3)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: Reed - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-1858475
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2030024
 reason: Approved conservative Belfast launch catchment.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 62
+- Effective included jobs: 61
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 62
+- automatic include: 61
 - automatic review: 20
 - automatic exclude: 2
-- effective include: 62
+- effective include: 61
 - effective review: 20
 - effective exclude: 2
 
-## INCLUDE (62)
+## INCLUDE (61)
 
 ---
 action: 
@@ -148,18 +148,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Central Planning Co-ordinator
-company: Whistl - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-1870724
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Children Law Paralegal - Manchester
 company: Duncan Lewis Solictors - Agency - Permanent
 location: Manchester
@@ -237,6 +225,18 @@ company: Platinum Recruitment Group - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-1877766
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
+company: Booker - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-108025456
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -676,18 +676,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist / Administrator
-company: Meadowview Surgery
-location: Manchester, M46 0LE
-source: NHS Jobs
-job_id: nhs-5606802
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist and Marketing Administrator
 company: Loreto High School Chorlton
 location: Manchester
@@ -736,11 +724,11 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Senior Administrator to the Senior Leadership Team
-company: CHS South
+title: Sales Support Executive
+company: VCG Technology Services Limited - Agency - Permanent
 location: Manchester
-source: Teaching Vacancies
-job_id: teaching-vacancies-senior-administrator-to-the-senior-leadership-team
+source: JobG8
+job_id: jobg8-108042377
 reason: Approved conservative Manchester launch catchment.
 ---
 

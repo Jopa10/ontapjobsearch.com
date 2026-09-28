@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 34
-- automatic review: 27
-- automatic exclude: 27
+- automatic review: 26
+- automatic exclude: 25
 - effective include: 34
-- effective review: 27
-- effective exclude: 27
+- effective review: 26
+- effective exclude: 25
 
 ## INCLUDE (34)
 
@@ -432,7 +432,7 @@ job_id: jobg8-1956696
 reason: Approved Leeds catchment.
 ---
 
-## REVIEW (27)
+## REVIEW (26)
 
 ---
 action: 
@@ -443,18 +443,6 @@ company: IPL, Forza and Kober Foods - Agency - Permanent
 location: Normanton
 source: JobG8
 job_id: jobg8-1959241
-reason: No approved Leeds catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Attendance & Admissions Officer
-company: Highfield School
-location: Ossett
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-admissions-officer-highfield-school
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
@@ -758,7 +746,7 @@ job_id: jobg8-1960756
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
-## EXCLUDE (27)
+## EXCLUDE (25)
 
 ---
 action: 
@@ -884,18 +872,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Data and Exams Administrator
-company: Moor End Academy
-location: Huddersfield
-source: Teaching Vacancies
-job_id: teaching-vacancies-data-and-exams-administrator-moor-end-academy
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Deputy PA / Receptionist
 company: Bradford Diocesan Academies Trust
 location: Bradford
@@ -973,18 +949,6 @@ company: Sytner Group - Agency - Permanent
 location: Huddersfield
 source: JobG8
 job_id: jobg8-1873985
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Maintenance Service Coordinator
-company: Interaction - Leeds - Agency - Permanent
-location: Wakefield
-source: JobG8
-job_id: jobg8-107995853
 reason: Separate employment market.
 ---
 

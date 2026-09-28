@@ -4,8 +4,8 @@
 - Live route: `/sunderland/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
-- Threshold currently met: no
+- Effective included jobs: 4
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 49
+- automatic include: 4
+- automatic review: 56
 - automatic exclude: 0
-- effective include: 3
-- effective review: 49
+- effective include: 4
+- effective review: 56
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (4)
 
 ---
 action: 
@@ -52,6 +52,18 @@ reason: Exact approved Sunderland workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Business Support Administrator
+company: North East & North Cumbria ICB
+location: Sunderland, SR5 3XB
+source: NHS Jobs
+job_id: nhs-5619773
+reason: Exact approved Sunderland workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Lead Administrator
 company: Harry Watts Academy
 location: Sunderland
@@ -60,19 +72,7 @@ job_id: teaching-vacancies-lead-administrator-harry-watts-academy
 reason: Exact approved Sunderland workplace.
 ---
 
-## REVIEW (49)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: 1st Line Service Desk Agent
-company: Cap Resourcing Ltd - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-2024355
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
+## REVIEW (56)
 
 ---
 action: 
@@ -174,11 +174,83 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Assistant Accountant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Newcastle
+source: JobG8
+job_id: jobg8-1944301
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: Nigel Wright Group - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1946149
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: Spear-heads - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-1895111
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Management Accountant
+company: KCR Solutions - Agency - Permanent
+location: Washington
+source: JobG8
+job_id: jobg8-1856074
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Management Accountant
+company: KCR Solutions - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1895961
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Attendance Officer & Administrator
 company: Bede Academy
 location: Blyth
 source: Teaching Vacancies
 job_id: teaching-vacancies-attendance-officer-administrator-bede-academy-blyth-northumberland
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Development Executive
+company: Independent Utility Advice - Agency - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-107967240
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -498,6 +570,18 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Medical Receptionist
+company: Betts Avenue Medical Centre
+location: Newcastle Upon Tyne, NE15 6TQ, Newcastle Upon Tyne, NE3 3QP
+source: NHS Jobs
+job_id: nhs-5621861
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Mercedes-Benz Accounts Assistant
 company: Sytner Group - Agency - Permanent
 location: Tyne And Wear
@@ -563,6 +647,18 @@ company: Portfolio Payroll - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-1958584
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Procurement & Logistics Coordinator
+company: Reed Specialist Recruitment - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225599266
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 

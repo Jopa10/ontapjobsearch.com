@@ -522,11 +522,11 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: School Administrator
+title: SEN Administrator
 company: Chiltern Way Academy Trust
 location: Aylesbury
 source: Teaching Vacancies
-job_id: teaching-vacancies-school-administrator-chiltern-way-academy-trust
+job_id: teaching-vacancies-sen-administrator-chiltern-way-academy-trust
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -534,11 +534,11 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: SEN Administrator
-company: Chiltern Way Academy Trust
-location: Aylesbury
-source: Teaching Vacancies
-job_id: teaching-vacancies-sen-administrator-chiltern-way-academy-trust
+title: Senior Administrator
+company: Primary Care Management Solutions Ltd
+location: HIGH WYCOMBE, HP13 5DN
+source: NHS Jobs
+job_id: nhs-5607180
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

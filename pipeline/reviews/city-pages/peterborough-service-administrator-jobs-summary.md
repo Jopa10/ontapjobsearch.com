@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 13
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
+- automatic include: 12
 - automatic review: 4
-- automatic exclude: 33
-- effective include: 13
+- automatic exclude: 30
+- effective include: 12
 - effective review: 4
-- effective exclude: 33
+- effective exclude: 30
 
-## INCLUDE (13)
+## INCLUDE (12)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: North West Anglia NHS Foundation Trust
 location: Peterborough, PE3 9GZ
 source: NHS Jobs
 job_id: nhs-5623327
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Arthur Mellows Village College
-location: Peterborough
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-47bb26eb-71c2-4cc0-b838-989640ff07ed
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -230,7 +218,7 @@ job_id: teaching-vacancies-school-administrative-receptionist
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (33)
+## EXCLUDE (30)
 
 ---
 action: 
@@ -301,18 +289,6 @@ company: EA FIRST LTD - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-1908887
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Bursary Support Administrator
-company: Randstad Education - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-2024943
 reason: Separate employment market.
 ---
 
@@ -577,30 +553,6 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-1908623
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: School Receptionist - Huntingdon
-company: Randstad Education - Agency - Permanent
-location: Huntingdon
-source: JobG8
-job_id: jobg8-1873140
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: School Receptionist Administrator - Cambridge
-company: Randstad Education - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-1873139
 reason: Separate employment market.
 ---
 

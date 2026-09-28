@@ -4,7 +4,7 @@
 - Live route: `/southampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 23
-- automatic exclude: 20
-- effective include: 4
-- effective review: 23
-- effective exclude: 20
+- automatic include: 5
+- automatic review: 22
+- automatic exclude: 18
+- effective include: 5
+- effective review: 22
+- effective exclude: 18
 
-## INCLUDE (4)
+## INCLUDE (5)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Michael Page Finance - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-1868227
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Business Support Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Southampton, SO14 0YG
+source: NHS Jobs
+job_id: nhs-5608574
 reason: Approved Southampton catchment.
 ---
 
@@ -72,7 +84,7 @@ job_id: nhs-5624270
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (23)
+## REVIEW (22)
 
 ---
 action: 
@@ -179,18 +191,6 @@ company: Agincare Group - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-107963757
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: EHCP Coordinator
-company: Aspire People Limited - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-1858777
 reason: Broad location; review before city inclusion.
 ---
 
@@ -350,7 +350,7 @@ job_id: jobg8-1881197
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (20)
+## EXCLUDE (18)
 
 ---
 action: 
@@ -385,18 +385,6 @@ company: Inclusion
 location: Eastleigh, PO16 0NX
 source: NHS Jobs
 job_id: nhs-5586737
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Island City Practice
-location: Portsmouth, PO4 8TA
-source: NHS Jobs
-job_id: nhs-5577957
 reason: Separate employment market.
 ---
 
@@ -481,18 +469,6 @@ company: Michael Page Legal - Agency - Permanent
 location: Farnborough
 source: JobG8
 job_id: jobg8-1899341
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Healthy Homes Administrator & Scheduling Coordinator
-company: TristoneNash Ltd - Agency - Permanent
-location: Eastleigh
-source: JobG8
-job_id: jobg8-2014390
 reason: Separate employment market.
 ---
 
