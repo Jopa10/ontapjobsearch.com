@@ -283,12 +283,6 @@ job_id: 1899982
 
 ---
 action:
-SELECTED | Yorkshire - South | Doncaster | no salary in JobG8 salary fields; no supported salary amount found in description | Customer Service Advisor
-job_id: 20279_62308-153faf593eb64b88272f45adeaa28d87
----
-
----
-action:
 SELECTED | Yorkshire - South | Barnsley | no salary in JobG8 salary fields; no supported salary amount found in description | Finance Assistant
 job_id: 1908708
 ---
@@ -345,6 +339,30 @@ job_id: 2024835
 action:
 SELECTED | Yorkshire - South | Sheffield | no salary in JobG8 salary fields; no supported salary amount found in description | Audience Development Coordinator - Local Authority - Libraries
 job_id: 2033599
+---
+
+---
+action:
+SELECTED | Yorkshire - South | Doncaster | no salary in JobG8 salary fields; no supported salary amount found in description | Contact Centre Agent
+job_id: 20279_63174-d24d3d6916a209e15b1680693740da2f
+---
+
+---
+action:
+SELECTED | Yorkshire - South | Doncaster | no salary in JobG8 salary fields; no supported salary amount found in description | Call Centre Operator
+job_id: 20279_63174-73862c8b83139033e4e4a8b6efca9a33
+---
+
+---
+action:
+SELECTED | Yorkshire - South | Doncaster | no salary in JobG8 salary fields; no supported salary amount found in description | Customer Service Advisor
+job_id: 20279_63174-153faf593eb64b88272f45adeaa28d87
+---
+
+---
+action:
+SELECTED | Yorkshire - South | Doncaster | no salary in JobG8 salary fields; no supported salary amount found in description | Call Centre Agent
+job_id: 20279_63174-89740a075c6163b74ea2c52702062e5d
 ---
 
 ## SOUTH YORKSHIRE — POSSIBLES
@@ -1263,12 +1281,6 @@ job_id: 2022135
 
 ---
 action:
-SELECTED | London | London | £40000 per year [JobG8 salary fields] | Temporary HR Assistant
-job_id: 2021756
----
-
----
-action:
 SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | 100% Remote Working - Trade Mark Formalities Administrator (c&;40,000+)
 job_id: 2021750
 ---
@@ -1307,18 +1319,6 @@ job_id: 2028899
 action:
 SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | HR Administration Assistant
 job_id: 2031679
----
-
----
-action:
-SELECTED | London | Dagenham | £12.81 per hour [JobG8 salary fields] | Activities Coordinator
-job_id: 108042544
----
-
----
-action:
-SELECTED | London | Uxbridge | £28000 - £32000 per year [JobG8 salary fields] | Tenancy Administrator
-job_id: 2036490
 ---
 
 ---
@@ -1367,6 +1367,18 @@ job_id: 2039926
 action:
 SELECTED | London | London | £12.71 per hour (and increasing for exceptional candidates.) [JobG8 salary fields] | Activities Coordinator
 job_id: 107862803
+---
+
+---
+action:
+SELECTED | London | London | £35000 per year [JobG8 salary fields] | Mortgage and Protection Administrator
+job_id: 2043381
+---
+
+---
+action:
+SELECTED | London | London | £21000 per year [JobG8 salary fields] | Finance Assistant
+job_id: 2041611
 ---
 
 ## LONDON — POSSIBLES
@@ -1827,12 +1839,6 @@ job_id: 1868548
 
 ---
 action:
-SELECTED | Kent | Kent | no salary in JobG8 salary fields; no supported salary amount found in description | Quality & Customer Support Coordinator
-job_id: 1831356
----
-
----
-action:
 SELECTED | Kent | Kent | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Management Accountant
 job_id: 1877663
 ---
@@ -1901,12 +1907,6 @@ job_id: 1947842
 action:
 SELECTED | Kent | Kent | no salary in JobG8 salary fields; no supported salary amount found in description | Claims Handler
 job_id: 1906608
----
-
----
-action:
-SELECTED | Kent | Kent | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Accountant
-job_id: 1905113
 ---
 
 ---
@@ -2161,12 +2161,6 @@ job_id: 2039380
 
 _No jobs in this group._
 ## COVENTRY & WARWICKSHIRE — SELECTED
-
----
-action:
-SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire |  | Accounts Assistant
-job_id: 1874877
----
 
 ---
 action:
@@ -2459,12 +2453,6 @@ job_id: 1959439
 action:
 SELECTED | Berkshire | Berkshire | £20.29 per hour | Paralegal - Local Authority
 job_id: 1957896
----
-
----
-action:
-SELECTED | Berkshire | Berkshire | £32000 - £36000 per year | Payroll / Finance Assistant
-job_id: 1946537
 ---
 
 ---
@@ -2817,12 +2805,6 @@ job_id: 23643_225648958
 
 ---
 action:
-SELECTED | Buckinghamshire | Buckinghamshire | £30000 per year | Artist Relations and Events Coordinator
-job_id: 107996202
----
-
----
-action:
 SELECTED | Buckinghamshire | Buckinghamshire | £30000 per year | Repairs Coordinator / Customer Care Coordinator
 job_id: 107877794
 ---
@@ -2915,12 +2897,6 @@ job_id: 1908887
 action:
 SELECTED | Cambridgeshire | Peterborough |  | Bookkeeper
 job_id: 1907392
----
-
----
-action:
-SELECTED | Cambridgeshire | Cambridge |  | Legal Administrator
-job_id: 1945697
 ---
 
 ---
@@ -3249,12 +3225,6 @@ job_id: 1944948
 
 ---
 action:
-SELECTED | Cheshire - Warrington & Halton | Warrington |  | Graduate HR Administrator
-job_id: 1959440
----
-
----
-action:
 SELECTED | Cheshire - Warrington & Halton | Warrington | £35000 per year | Accounts Assistant
 job_id: 1936736
 ---
@@ -3507,12 +3477,6 @@ job_id: 1920314
 
 ---
 action:
-SELECTED | Devon | Devon |  | HR Administrator
-job_id: 1945151
----
-
----
-action:
 SELECTED | Devon | Devon | £30000 - £32000 per year | Finance Assistant
 job_id: 1949612
 ---
@@ -3567,8 +3531,14 @@ job_id: 1991665
 
 ---
 action:
-SELECTED | Devon | Devon |  | Customer Care Coordinator
-job_id: 108025447
+SELECTED | Devon | Devon | £24000 per year | Insurance Administrator
+job_id: 107875971
+---
+
+---
+action:
+SELECTED | Devon | Devon | £36000 per year | HR Administrator - Employee Relations
+job_id: 2041166
 ---
 
 ## DEVON — POSSIBLES
@@ -3671,6 +3641,12 @@ job_id: 107765584
 action:
 SELECTED | Dorset | Dorset | £27500 - £37500 per year (Hybrid Working + Training) | Purchasing Coordinator (MRP/Logistics)
 job_id: 23643_225649037
+---
+
+---
+action:
+SELECTED | Dorset | Dorset |  | HR Coordinator
+job_id: 2041792
 ---
 
 ## DORSET — POSSIBLES
@@ -4665,12 +4641,6 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Leicestershire | Leicestershire | £30000 - £35000 per year | Finance Assistant
-job_id: 1858417
----
-
----
-action:
 SELECTED | Leicestershire | Leicestershire | £30000 per year | Commercial Property Secretary
 job_id: 1869342
 ---
@@ -4737,15 +4707,13 @@ job_id: 2026724
 
 ## LEICESTERSHIRE — POSSIBLES
 
-_No jobs in this group._
-
-## LINCOLNSHIRE — SELECTED
-
 ---
 action:
-SELECTED | Lincolnshire | Lincolnshire |  | Service Advisor - BYD
-job_id: 107877158
+POSS - LEICESTERSHIRE | Leicestershire | Leicestershire | £23.00 per hour | Contracts Administrator
+job_id: 2042976
 ---
+
+## LINCOLNSHIRE — SELECTED
 
 ---
 action:
@@ -4769,12 +4737,6 @@ job_id: 1867240
 action:
 SELECTED | Lincolnshire | Lincolnshire | £12.83 per hour | Finance Assistant
 job_id: 1955944
----
-
----
-action:
-SELECTED | Lincolnshire | Lincolnshire |  | Assistant Management Accountant
-job_id: 1946181
 ---
 
 ---
@@ -4923,12 +4885,6 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Norfolk | Norfolk | £30000 per year | Recovery Coordinator
-job_id: 107919491
----
-
----
-action:
 SELECTED | Norfolk | Norfolk |  | Financial Services Administrator
 job_id: 1859172
 ---
@@ -4967,12 +4923,6 @@ job_id: 1877355
 action:
 SELECTED | Norfolk | Norfolk | £30000 - £35000 per year | Finance Assistant
 job_id: 1891535
----
-
----
-action:
-SELECTED | Norfolk | Norfolk |  | Finance Assistant
-job_id: 1893615
 ---
 
 ---
@@ -5461,12 +5411,6 @@ SELECTED | Oxfordshire | Oxfordshire | £35000 per year | Finance & Office Assis
 job_id: 2021409
 ---
 
----
-action:
-SELECTED | Oxfordshire | Oxfordshire |  | Inventory Control Administrator
-job_id: 108042433
----
-
 ## OXFORDSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -5877,14 +5821,14 @@ job_id: 2013968
 
 ---
 action:
-SELECTED | Somerset | Somerset | £12.71 per hour | Activities Coordinator
-job_id: 108027102
+SELECTED | Somerset | Somerset | £30000 - £35000 per year | Bookkeeper - practice
+job_id: 2026255
 ---
 
 ---
 action:
-SELECTED | Somerset | Somerset | £30000 - £35000 per year | Bookkeeper - practice
-job_id: 2026255
+SELECTED | Somerset | Somerset |  | IT Service Desk Coordinator
+job_id: 108036681
 ---
 
 ## SOMERSET — POSSIBLES
@@ -6217,12 +6161,6 @@ SELECTED | Wales South - Cardiff & Vale | Cardiff | £27000 per year | Accounts 
 job_id: 1941677
 ---
 
----
-action:
-SELECTED | Wales South - Cardiff & Vale | Cardiff |  | BMW Service Advisor
-job_id: 1947089
----
-
 ## WALES SOUTH - CARDIFF & VALE — POSSIBLES
 
 _No jobs in this group._
@@ -6457,6 +6395,12 @@ SELECTED | West Midlands - Birmingham & Solihull | Birmingham |  | Warranty Coor
 job_id: 2039482
 ---
 
+---
+action:
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham |  | Local Offer Website Coordinator
+job_id: 2041167
+---
+
 ## WEST MIDLANDS - BIRMINGHAM & SOLIHULL — POSSIBLES
 
 _No jobs in this group._
@@ -6522,12 +6466,6 @@ job_id: 1949460
 _No jobs in this group._
 
 ## WILTSHIRE — SELECTED
-
----
-action:
-SELECTED | Wiltshire | Wiltshire | £35000 per year | Aftersales Service Advisor
-job_id: 107919550
----
 
 ---
 action:
@@ -6757,6 +6695,12 @@ SELECTED | Yorkshire - East | Goole |  | HR Administrator
 job_id: 1991433
 ---
 
+---
+action:
+SELECTED | Yorkshire - East | Hull |  | Credit Controller
+job_id: 2041225
+---
+
 ## YORKSHIRE - EAST — POSSIBLES
 
 _No jobs in this group._
@@ -6871,6 +6815,12 @@ SELECTED | Yorkshire - North | York |  | Website Administrator
 job_id: 2021380
 ---
 
+---
+action:
+SELECTED | Yorkshire - North | Scarborough |  | Service Coordinator (UPS)
+job_id: 108026099
+---
+
 ## YORKSHIRE - NORTH — POSSIBLES
 
 _No jobs in this group._
@@ -6946,12 +6896,6 @@ job_id: 1937620
 action:
 DROPPED | London | London | £55000 per year | HR Coordinator
 job_id: 1937610
----
-
----
-action:
-DROPPED | London | London | £40000 - £50000 per year | Complaints Handler
-job_id: 1908427
 ---
 
 ---

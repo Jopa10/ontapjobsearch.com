@@ -131,12 +131,6 @@ SELECTED | Sussex | Haywards Heath | £39134 per year | Healthcare Assistant
 job_id: 107863056
 ---
 
----
-action:
-SELECTED | Sussex | Hove | £13 per hour | Female Support Worker
-job_id: 108041798
----
-
 ## SUSSEX — POSSIBLES
 
 _No jobs in this group._
@@ -213,6 +207,24 @@ job_id: 107856243
 action:
 SELECTED | Hampshire | Romsey | £28697 - £31573 per year | Children's Home Support Worker
 job_id: 1401785505
+---
+
+---
+action:
+SELECTED | Hampshire | Winchester | £26018 - £27111 per year | Care Assistant
+job_id: 1401785443
+---
+
+---
+action:
+SELECTED | Hampshire | Romsey | £26018 - £27111 per year () plus Market Supplement) | Waking Night Childrens Home Support Worker
+job_id: 1401785294
+---
+
+---
+action:
+SELECTED | Hampshire | Alton | £26018 - £27111 per year | Care Assistant
+job_id: 1401785277
 ---
 
 ## HAMPSHIRE — POSSIBLES
@@ -309,12 +321,6 @@ job_id: 1996262
 action:
 SELECTED | Surrey | Caterham | £14.50 per hour | Female Healthcare Assistant
 job_id: 2021731
----
-
----
-action:
-SELECTED | Surrey | Redhill | £26000 per year | Female Support Worker
-job_id: 108043110
 ---
 
 ## SURREY — POSSIBLES
