@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 39
+- Effective included jobs: 41
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 39
-- automatic review: 5
-- automatic exclude: 4
-- effective include: 39
-- effective review: 5
-- effective exclude: 4
+- automatic include: 41
+- automatic review: 4
+- automatic exclude: 5
+- effective include: 41
+- effective review: 4
+- effective exclude: 5
 
-## INCLUDE (39)
+## INCLUDE (41)
 
 ---
 action: 
@@ -268,6 +268,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: General Practice Administrator
+company: Iridium Medical Practice
+location: Birmingham, B33 8TA, Birmingham, B33 9EN
+source: NHS Jobs
+job_id: nhs-5626936
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: GP receptionist
 company: Eden Court Medical Practice
 location: Birmingham, B35 6EE
@@ -297,6 +309,18 @@ company: Gleeson Recruitment Group - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-2028422
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Influencer & Community Marketing Executive
+company: UBT - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2034578
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -484,27 +508,15 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Trusts & Grants Coordinator
-company: Fareshare Midlands - Agency - Permanent
+title: Warranty Coordinator
+company: ABL Recruitment - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-2028750
+job_id: jobg8-2039482
 reason: Approved conservative Birmingham launch catchment.
 ---
 
-## REVIEW (5)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Home Administrator
-company: Avery Healthcare Group Ltd.
-location: Knowle, B93 9LQ
-source: NHS Jobs
-job_id: nhs-5595583
-reason: No approved Birmingham catchment rule matched; local review required.
----
+## REVIEW (4)
 
 ---
 action: 
@@ -554,7 +566,7 @@ job_id: jobg8-1957646
 reason: Broad regional location; review before Birmingham inclusion.
 ---
 
-## EXCLUDE (4)
+## EXCLUDE (5)
 
 ---
 action: 
@@ -601,5 +613,17 @@ company: Katie Bard & Angela Mortimer Plc - Agency - Permanent
 location: Solihull
 source: JobG8
 job_id: jobg8-2026991
+reason: Separate exact-city market at launch.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Part Time Receptionist
+company: Richmond Medical Centre
+location: Solihull, B92 7SA
+source: NHS Jobs
+job_id: nhs-5623766
 reason: Separate exact-city market at launch.
 ---

@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 34
+- Effective included jobs: 31
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 34
-- automatic review: 9
-- automatic exclude: 3
-- effective include: 34
-- effective review: 9
-- effective exclude: 3
+- automatic include: 31
+- automatic review: 7
+- automatic exclude: 4
+- effective include: 31
+- effective review: 7
+- effective exclude: 4
 
-## INCLUDE (34)
+## INCLUDE (31)
 
 ---
 action: 
@@ -45,30 +45,6 @@ company: Robert Half - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-1899222
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrative Assistant
-company: Bristol NHS Foundation Trust
-location: Bristol, BS10 5NB
-source: NHS Jobs
-job_id: nhs-5614506
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrative Assistant for Pastoral
-company: Fairfield High School
-location: Bristol
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-for-pastoral
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -196,18 +172,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Support Coordinator
-company: Places for People - Company - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-108025083
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Finance Billing Coordinator
 company: HFT - Agency - Permanent
 location: Bristol
@@ -249,18 +213,6 @@ company: Reed - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-1905970
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Office Coordinator
-company: Forvis Mazars LLP - Company - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-28025_JR99
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -352,6 +304,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Regional Casework Coordinator - South West
+company: SSAFA - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-2040001
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Remote Conveyancing Paralegal
 company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
 location: Bristol
@@ -432,7 +396,7 @@ job_id: jobg8-1960385
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (9)
+## REVIEW (7)
 
 ---
 action: 
@@ -467,30 +431,6 @@ company: Tildenet - Agency - Permanent
 location: Somerset
 source: JobG8
 job_id: jobg8-2021045
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Interim Accounts Payable
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-1895536
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Interim Part TIme Finance Officer
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-1903556
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
@@ -542,7 +482,7 @@ job_id: jobg8-1952001
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
-## EXCLUDE (3)
+## EXCLUDE (4)
 
 ---
 action: 
@@ -553,6 +493,18 @@ company: Fosse Way School
 location: Bath
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrator-fosse-way-school-bath-somerset
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Medical Administrator
+company: Fairfield Park Health Centre
+location: Bath, BA1 6EA
+source: NHS Jobs
+job_id: nhs-5627314
 reason: Separate employment market.
 ---
 

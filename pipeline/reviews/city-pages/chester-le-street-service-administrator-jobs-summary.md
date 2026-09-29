@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 60
+- automatic review: 62
 - automatic exclude: 0
 - effective include: 0
-- effective review: 60
+- effective review: 62
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (60)
+## REVIEW (62)
 
 ---
 action: 
@@ -246,18 +246,6 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Business Support Administrator
-company: North East & North Cumbria ICB
-location: Sunderland, SR5 3XB
-source: NHS Jobs
-job_id: nhs-5619773
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Casualty Claims Handler
 company: Adjusting Appointments Limited - Agency - Permanent
 location: Tyne And Wear
@@ -378,6 +366,18 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
+title: GP Receptionist
+company: Jesmond Health Partnership
+location: Newcastle upon Tyne, NE2 2AH, Newcastle Upon Tyne, NE2 1PQ, Newcastle Upon Tyne, NE3 1TX, Newcastle Upon Tyne, NE2 3LD
+source: NHS Jobs
+job_id: nhs-5627717
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Home Administrator
 company: Akari Care Limited
 location: Newcastle, NE5 5HQ
@@ -407,6 +407,18 @@ company: Akari Care Limited
 location: Newcastle, NE5 5HQ
 source: NHS Jobs
 job_id: nhs-5610574
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Home Administrator
+company: Akari Care Limited
+location: Newcastle, NE5 5AY
+source: NHS Jobs
+job_id: nhs-5626649
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -570,18 +582,6 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Medical Receptionist
-company: Betts Avenue Medical Centre
-location: Newcastle Upon Tyne, NE15 6TQ, Newcastle Upon Tyne, NE3 3QP
-source: NHS Jobs
-job_id: nhs-5621861
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Mercedes-Benz Accounts Assistant
 company: Sytner Group - Agency - Permanent
 location: Tyne And Wear
@@ -666,6 +666,18 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
+title: Procurement Administrator
+company: Reed Specialist Recruitment - Agency - Permanent
+location: Seaham
+source: JobG8
+job_id: jobg8-23643_225656711
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Project Administrator
 company: Age UK County Durham
 location: Age UK County Durham
@@ -683,6 +695,18 @@ company: Adecco - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-1916042
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Clerk
+company: Spear-heads - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-2036113
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 

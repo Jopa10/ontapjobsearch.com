@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 19
+- automatic review: 20
 - automatic exclude: 0
 - effective include: 1
-- effective review: 19
+- effective review: 20
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: teaching-vacancies-sixth-form-administrator-the-fallibroome-academy
 reason: Exact approved Macclesfield workplace.
 ---
 
-## REVIEW (19)
+## REVIEW (20)
 
 ---
 action: 
@@ -131,6 +131,18 @@ company: EE - Company - Permanent
 location: Knutsford
 source: JobG8
 job_id: jobg8-20279_62648-5f053ed6bc220092db88c81c1fa679dd
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Executive Assistant & HR Administrator
+company: Railway Children - Agency - Permanent
+location: Crewe
+source: JobG8
+job_id: jobg8-2039946
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

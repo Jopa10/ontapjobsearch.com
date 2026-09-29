@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 22
+- automatic review: 24
 - automatic exclude: 0
 - effective include: 3
-- effective review: 22
+- effective review: 24
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: jobg8-1899049
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (22)
+## REVIEW (24)
 
 ---
 action: 
@@ -210,6 +210,18 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Depot Coordinator
+company: Whistl - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-2039628
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance/Accounts Assistant - Credit Control, Sales Ledger & Purchase Ledger
 company: Oasis Business Personnel Ltd - Agency - Permanent
 location: Northamptonshire
@@ -323,6 +335,18 @@ company: People Solutions Group Limited - Agency - Permanent
 location: Kettering
 source: JobG8
 job_id: jobg8-1939011
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Team Administrator
+company: Northamptonshire Healthcare Foundation Trust
+location: Daventry, NN11 4DY
+source: NHS Jobs
+job_id: nhs-5622645
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

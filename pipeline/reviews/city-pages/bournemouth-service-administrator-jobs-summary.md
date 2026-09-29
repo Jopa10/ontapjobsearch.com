@@ -4,7 +4,7 @@
 - Live route: `/bournemouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 22
+- automatic include: 3
+- automatic review: 21
 - automatic exclude: 0
-- effective include: 2
-- effective review: 22
+- effective include: 3
+- effective review: 21
 - effective exclude: 0
 
-## INCLUDE (2)
+## INCLUDE (3)
 
 ---
 action: 
@@ -40,6 +40,18 @@ reason: Exact approved Bournemouth workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist - Bank
+company: Avery Healthcare Group Ltd.
+location: Bournemouth, BH4 9DR
+source: NHS Jobs
+job_id: nhs-5591331
+reason: Exact approved Bournemouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Recruitment Administrator
 company: University Hospitals Dorset NHS Foundation Trust
 location: Bournemouth, BH8 0BJ
@@ -48,7 +60,7 @@ job_id: nhs-5625199
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (22)
+## REVIEW (21)
 
 ---
 action: 
@@ -263,18 +275,6 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225649037
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist/Administrator
-company: Dorset HealthCare University NHS Foundation Trust
-location: Sherborne, DT93JU
-source: NHS Jobs
-job_id: nhs-5596760
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

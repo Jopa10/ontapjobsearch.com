@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 34
+- Effective included jobs: 32
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 34
-- automatic review: 26
+- automatic include: 32
+- automatic review: 27
 - automatic exclude: 25
-- effective include: 34
-- effective review: 26
+- effective include: 32
+- effective review: 27
 - effective exclude: 25
 
-## INCLUDE (34)
+## INCLUDE (32)
 
 ---
 action: 
@@ -124,6 +124,18 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Claims Handler
+company: Avencia Consulting - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-2039200
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Claims Handler (Top Insurance Company)
 company: Aston Charles Ltd - Agency - Permanent
 location: Leeds
@@ -141,18 +153,6 @@ company: Leeds Teaching Hospitals
 location: Leeds, LS9 7TF
 source: NHS Jobs
 job_id: nhs-5619618
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Commercial Claims Handler
-company: Insure Recruitment - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-1889757
 reason: Approved Leeds catchment.
 ---
 
@@ -201,18 +201,6 @@ company: Reed - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-1883720
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Credit Controller
-company: Headstar - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-1871224
 reason: Approved Leeds catchment.
 ---
 
@@ -364,18 +352,6 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist and Administration Assistant
-company: Leeds East Academy
-location: Leeds
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-and-administration-assistant-leeds-east-academy
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist/Administrator
 company: Leeds and York Partnership NHS Foundation Trust
 location: Leeds, LS14 6UH
@@ -432,7 +408,19 @@ job_id: jobg8-1956696
 reason: Approved Leeds catchment.
 ---
 
-## REVIEW (26)
+## REVIEW (27)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Account Manager Sales
+company: FMCG Recruitment Ltd - Agency - Permanent
+location: Wetherby
+source: JobG8
+job_id: jobg8-108015143
+reason: No approved Leeds catchment rule matched; local review required.
+---
 
 ---
 action: 

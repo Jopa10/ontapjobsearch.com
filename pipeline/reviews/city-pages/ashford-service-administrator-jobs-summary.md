@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 59
+- automatic review: 58
 - automatic exclude: 0
 - effective include: 1
-- effective review: 59
+- effective review: 58
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: jobg8-2024535
 reason: Exact approved Ashford workplace.
 ---
 
-## REVIEW (59)
+## REVIEW (58)
 
 ---
 action: 
@@ -107,18 +107,6 @@ company: Northgate Medical Practice
 location: Canterbury, CT1 1WL
 source: NHS Jobs
 job_id: nhs-5612839
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrative Assistant
-company: Kent and Medway Mental Health NHS Trust
-location: Gillingham, ME7 1AL
-source: NHS Jobs
-job_id: nhs-5608122
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -198,6 +186,18 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Business Support Assistant
+company: Oasis Restore - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-108044308
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Claims Handler
 company: Adjusting Appointments Limited - Agency - Permanent
 location: Kent
@@ -215,6 +215,18 @@ company: Pro Talent - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-1897444
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Clinical Administrator
+company: Len Valley Practice
+location: Maidstone, ME17 2QF
+source: NHS Jobs
+job_id: nhs-5606943
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -366,18 +378,6 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Internal Sales Waterproofing
-company: Mitchell Maguire - Agency - Permanent
-location: Tonbridge
-source: JobG8
-job_id: jobg8-108023144
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Junior Payroll Administrator
 company: Fresh People - Agency - Permanent
 location: Canterbury
@@ -426,6 +426,18 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: MAF in the Community (MiC) Resourcing Coordinator
+company: Mission Aviation Fellowship UK - Agency - Contract
+location: Kent
+source: JobG8
+job_id: jobg8-107958419
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Account Executive - Kent - To &;30K
 company: Jump IT Recruitment Solutions Ltd - Agency - Permanent
 location: Kent
@@ -467,6 +479,18 @@ company: Constant Recruitment Ltd - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-1886011
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Executive
+company: Recruitment Solutions - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2040044
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -551,30 +575,6 @@ company: Parkwood Hall Academy Trust
 location: Swanley
 source: Teaching Vacancies
 job_id: teaching-vacancies-pupil-records-administrator-parkwood-hall-academy-trust-swanley-kent
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Clerk
-company: Michael Page Finance - Agency - Permanent
-location: Hythe
-source: JobG8
-job_id: jobg8-1939549
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Clerk
-company: Michael Page Finance - Agency - Permanent
-location: Sevenoaks
-source: JobG8
-job_id: jobg8-1939823
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -695,18 +695,6 @@ company: Prima Hatfield Associates - Agency - Permanent
 location: Canterbury
 source: JobG8
 job_id: jobg8-1909971
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Advisor (HGV/Commercial Vehicles)
-company: Ernest Gordon Recruitment - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-107855886
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 

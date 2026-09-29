@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 7
+- automatic review: 8
 - automatic exclude: 0
 - effective include: 4
-- effective review: 7
+- effective review: 8
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-1868509
 reason: Exact approved Altrincham workplace.
 ---
 
-## REVIEW (7)
+## REVIEW (8)
 
 ---
 action: 
@@ -143,6 +143,18 @@ company: The People Pod - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-1934714
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Lettings Coordinator
+company: The People Pod - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-2035890
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

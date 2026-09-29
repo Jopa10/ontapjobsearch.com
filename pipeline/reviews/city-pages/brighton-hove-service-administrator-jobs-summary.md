@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 27
+- automatic review: 28
 - automatic exclude: 14
 - effective include: 5
-- effective review: 27
+- effective review: 28
 - effective exclude: 14
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-1856512
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (27)
+## REVIEW (28)
 
 ---
 action: 
@@ -144,6 +144,30 @@ location: East Grinstead
 source: JobG8
 job_id: jobg8-1961294
 reason: No approved Brighton & Hove catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Bookkeeper
+company: First Recruitment Services - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2039380
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Bookkeeper
+company: First Recruitment Services - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2039419
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -240,30 +264,6 @@ location: Haywards Heath
 source: JobG8
 job_id: jobg8-1948806
 reason: No approved Brighton & Hove catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Officer
-company: Dance Professionals Fund - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-1909342
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Horticulture Resource Coordinator
-company: Brinsbury College - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-107954542
-reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -378,6 +378,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Service Advisor
+company: Pembrook Resourcing - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2036123
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Technical Administrator
 company: Ellis James Partners Limited - Agency - Permanent
 location: Sussex
@@ -476,18 +488,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: GP Receptionist
-company: Tangmere Medical Centre
-location: Chichester, PO20 2HS
-source: NHS Jobs
-job_id: nhs-5609047
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Mortgage Administrator Horsham
 company: Astral Recruitment - Agency - Permanent
 location: Horsham
@@ -553,6 +553,18 @@ company: Bishop Luffa School, Chichester
 location: Chichester
 source: Teaching Vacancies
 job_id: teaching-vacancies-personal-assistant-to-the-head-teacher-bishop-luffa-school-chichester
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist/Care Navigator
+company: Parklands Surgery
+location: Chichester, PO19 3DT
+source: NHS Jobs
+job_id: nhs-5569929
 reason: Separate employment market.
 ---
 

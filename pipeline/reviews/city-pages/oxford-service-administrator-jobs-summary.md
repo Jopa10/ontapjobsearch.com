@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 15
-- automatic exclude: 14
+- automatic review: 14
+- automatic exclude: 15
 - effective include: 10
-- effective review: 15
-- effective exclude: 14
+- effective review: 14
+- effective exclude: 15
 
 ## INCLUDE (10)
 
@@ -144,7 +144,7 @@ job_id: nhs-5621723
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (15)
+## REVIEW (14)
 
 ---
 action: 
@@ -270,18 +270,6 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Office Administrator
-company: Wantage Primary Academy
-location: Wantage
-source: Teaching Vacancies
-job_id: teaching-vacancies-office-administrator-wantage-primary-academy-wantage-oxfordshire
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Payroll Officer
 company: Wade Macdonald - Agency - Permanent
 location: Didcot
@@ -326,7 +314,7 @@ job_id: teaching-vacancies-student-services-administrator-larkmead-school
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (14)
+## EXCLUDE (15)
 
 ---
 action: 
@@ -445,6 +433,18 @@ company: Reed - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-1939388
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Inventory Control Administrator
+company: GXO Logistics - Company - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-108042433
 reason: Broad county location; not Oxford-city evidence.
 ---
 

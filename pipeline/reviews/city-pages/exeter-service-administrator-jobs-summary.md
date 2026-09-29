@@ -4,7 +4,7 @@
 - Live route: `/exeter/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 15
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
-- automatic review: 36
+- automatic include: 13
+- automatic review: 35
 - automatic exclude: 0
-- effective include: 15
-- effective review: 36
+- effective include: 13
+- effective review: 35
 - effective exclude: 0
 
-## INCLUDE (15)
+## INCLUDE (13)
 
 ---
 action: 
@@ -45,30 +45,6 @@ company: Michael Page Finance - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-1860828
-reason: Exact approved Exeter workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Booking Clerk / Receptionist (Trauma and Orthopaedics)
-company: Royal Devon University Healthcare NHS Foundation Trust
-location: Exeter, EX2 5DW
-source: NHS Jobs
-job_id: nhs-5619987
-reason: Exact approved Exeter workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Administrator
-company: St James School
-location: Exeter
-source: Teaching Vacancies
-job_id: teaching-vacancies-business-administrator-d383ef29-c17f-437b-8271-918c1d87de9b
 reason: Exact approved Exeter workplace.
 ---
 
@@ -204,7 +180,7 @@ job_id: jobg8-1877836
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (36)
+## REVIEW (35)
 
 ---
 action: 
@@ -438,18 +414,6 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Medical Administrator
-company: Devon Square Surgery
-location: Newton Abbot, TQ12 2HH
-source: NHS Jobs
-job_id: nhs-5621196
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Payroll Assistant (Part Time - Temp)
 company: Butler Rose - Agency - Permanent
 location: Devon
@@ -546,6 +510,18 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist
+company: Axminster Medical Practice
+location: Axminster, EX13 5AG
+source: NHS Jobs
+job_id: nhs-5627512
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist/Admin Assistant
 company: Acorn by Synergie - Agency - Permanent
 location: Tiverton
@@ -563,18 +539,6 @@ company: Croft Hall Medical Practice
 location: Torquay, TQ2 5UA
 source: NHS Jobs
 job_id: nhs-5552054
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment and People Services Administrator
-company: Ivy Education Trust
-location: Teignmouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-recruitment-and-people-services-administrator
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

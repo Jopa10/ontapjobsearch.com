@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 7
 - automatic review: 3
-- automatic exclude: 23
+- automatic exclude: 24
 - effective include: 7
 - effective review: 3
-- effective exclude: 23
+- effective exclude: 24
 
 ## INCLUDE (7)
 
@@ -146,7 +146,7 @@ job_id: teaching-vacancies-receptionist-administrator-shipston-high-school
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (23)
+## EXCLUDE (24)
 
 ---
 action: 
@@ -397,6 +397,18 @@ company: SF Partners - Agency - Permanent
 location: Warwick
 source: JobG8
 job_id: jobg8-1940688
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist / Administration Assistant
+company: Barnardos - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2039993
 reason: Separate employment market.
 ---
 

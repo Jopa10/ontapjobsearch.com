@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 39
+- automatic review: 38
 - automatic exclude: 0
 - effective include: 4
-- effective review: 39
+- effective review: 38
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: teaching-vacancies-sen-administrator-chiltern-way-academy-trust
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (39)
+## REVIEW (38)
 
 ---
 action: 
@@ -107,18 +107,6 @@ company: Reed - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-1883925
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable Assistant - Temporary
-company: Broster Buchanan - Agency - Permanent
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-1908380
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -510,6 +498,18 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Repairs Coordinator / Customer Care Coordinator
+company: A.D.S Construction Personnel Ltd - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-107877794
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Ledger - Reconciliations
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Buckinghamshire
@@ -527,18 +527,6 @@ company: Robert Walters - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-1882176
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Senior Administrator
-company: Primary Care Management Solutions Ltd
-location: HIGH WYCOMBE, HP13 5DN
-source: NHS Jobs
-job_id: nhs-5607180
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

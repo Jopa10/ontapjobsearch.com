@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 41
+- automatic review: 42
 - automatic exclude: 0
 - effective include: 4
-- effective review: 41
+- effective review: 42
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -52,18 +52,6 @@ reason: Exact approved Portsmouth workplace.
 action: 
 decision: include
 automatic_decision: include
-title: HR Assistant
-company: Reed - Agency - Permanent
-location: Portsmouth
-source: JobG8
-job_id: jobg8-1960533
-reason: Exact approved Portsmouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Payroll Executive
 company: Michael Page Finance - Agency - Permanent
 location: Portsmouth
@@ -72,7 +60,19 @@ job_id: jobg8-1959286
 reason: Exact approved Portsmouth workplace.
 ---
 
-## REVIEW (41)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist - Kingston Crescent Surgery
+company: Portsdown Group Practice
+location: Portsmouth, PO2 8AL
+source: NHS Jobs
+job_id: nhs-5627419
+reason: Exact approved Portsmouth workplace.
+---
+
+## REVIEW (42)
 
 ---
 action: 
@@ -131,18 +131,6 @@ company: CMA Recruitment Group - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-1949580
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Inclusion
-location: Eastleigh, PO16 0NX
-source: NHS Jobs
-job_id: nhs-5586737
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -258,35 +246,23 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Business Support Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO14 0YG
-source: NHS Jobs
-job_id: nhs-5608574
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Coordinator
-company: Agincare Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-107963757
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Care Home Administrator
 company: Avery Healthcare Group Ltd.
 location: Winchester, SO22 5JH
 source: NHS Jobs
 job_id: nhs-5612599
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Charity Co-ordinator
+company: Veterans Outreach Support - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2039925
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -378,6 +354,18 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Insolvency Administrator
+company: FRP Group - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2034581
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Insurance Account Executive
 company: Aspire Jobs Limited - Agency - Permanent
 location: Southampton
@@ -419,6 +407,18 @@ company: Mulberry Recruitment - Agency - Permanent
 location: Farnborough
 source: JobG8
 job_id: jobg8-1885727
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Materials Scheduler
+company: Kingdom People - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-108043893
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -563,6 +563,18 @@ company: Michael Page Finance - Agency - Permanent
 location: Winchester
 source: JobG8
 job_id: jobg8-1893259
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Ward Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Fareham, PO17 5NA
+source: NHS Jobs
+job_id: nhs-5626622
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 

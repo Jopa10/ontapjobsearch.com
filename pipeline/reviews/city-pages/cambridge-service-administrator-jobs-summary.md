@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 26
+- Effective included jobs: 25
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 26
-- automatic review: 5
-- automatic exclude: 15
-- effective include: 26
-- effective review: 5
-- effective exclude: 15
+- automatic include: 25
+- automatic review: 3
+- automatic exclude: 13
+- effective include: 25
+- effective review: 3
+- effective exclude: 13
 
-## INCLUDE (26)
+## INCLUDE (25)
 
 ---
 action: 
@@ -316,18 +316,6 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Senior Office Administrator
-company: Pathfinder CofE Primary School
-location: Cambridge
-source: Teaching Vacancies
-job_id: teaching-vacancies-senior-office-administrator-pathfinder-cofe-primary-school-cambridge-cambridgeshire
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Service Advisor
 company: Perfect Placement Uk Ltd - Agency - Permanent
 location: Cambridge
@@ -336,19 +324,7 @@ job_id: jobg8-1875937
 reason: Approved conservative Cambridge launch catchment.
 ---
 
-## REVIEW (5)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrative Assistant
-company: Lantern Community Primary School
-location: Ely
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-df6b12e7-31c1-4ffd-8f6e-62dfb6e08db8
-reason: No approved Cambridge catchment rule matched; local review required.
----
+## REVIEW (3)
 
 ---
 action: 
@@ -378,18 +354,6 @@ reason: No approved Cambridge catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Personal Assistant
-company: East of England Community Health and Care NHS Trust (Cambridge)
-location: St Ives, PE27 4LG
-source: NHS Jobs
-job_id: nhs-5610324
-reason: No approved Cambridge catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: School Administrative Receptionist
 company: Buckden CofE Primary School
 location: St Neots
@@ -398,7 +362,7 @@ job_id: teaching-vacancies-school-administrative-receptionist
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (15)
+## EXCLUDE (13)
 
 ---
 action: 
@@ -493,30 +457,6 @@ company: TC Group - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-1907392
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Finance Assistant
-company: Broster Buchanan - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-1905510
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Part-Time Accounts Assistant / Bookkeeper
-company: The One Group - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-1871117
 reason: Separate employment market.
 ---
 

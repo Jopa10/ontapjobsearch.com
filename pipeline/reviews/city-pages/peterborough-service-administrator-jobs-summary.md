@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
-- automatic review: 4
-- automatic exclude: 30
-- effective include: 12
-- effective review: 4
-- effective exclude: 30
+- automatic include: 10
+- automatic review: 3
+- automatic exclude: 28
+- effective include: 10
+- effective review: 3
+- effective exclude: 28
 
-## INCLUDE (12)
+## INCLUDE (10)
 
 ---
 action: 
@@ -88,30 +88,6 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Finance Assistant
-company: Broster Buchanan - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-1905510
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Part-Time Accounts Assistant / Bookkeeper
-company: The One Group - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-1871117
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Purchase Ledger Clerk
 company: Reed - Agency - Permanent
 location: Peterborough
@@ -168,19 +144,7 @@ job_id: jobg8-1939450
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (4)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrative Assistant
-company: Lantern Community Primary School
-location: Ely
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-df6b12e7-31c1-4ffd-8f6e-62dfb6e08db8
-reason: No approved Peterborough catchment rule matched; local review required.
----
+## REVIEW (3)
 
 ---
 action: 
@@ -218,7 +182,7 @@ job_id: teaching-vacancies-school-administrative-receptionist
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (30)
+## EXCLUDE (28)
 
 ---
 action: 
@@ -536,35 +500,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Personal Assistant
-company: East of England Community Health and Care NHS Trust (Cambridge)
-location: St Ives, PE27 4LG
-source: NHS Jobs
-job_id: nhs-5610324
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Purchase Ledger Clerk (Temp)
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-1908623
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Senior Office Administrator
-company: Pathfinder CofE Primary School
-location: Cambridge
-source: Teaching Vacancies
-job_id: teaching-vacancies-senior-office-administrator-pathfinder-cofe-primary-school-cambridge-cambridgeshire
 reason: Separate employment market.
 ---
 

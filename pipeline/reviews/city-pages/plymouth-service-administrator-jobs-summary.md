@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 42
+- automatic review: 39
 - automatic exclude: 0
 - effective include: 9
-- effective review: 42
+- effective review: 39
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -132,7 +132,7 @@ job_id: teaching-vacancies-senior-administrator-st-paul-s-roman-catholic-primary
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (42)
+## REVIEW (39)
 
 ---
 action: 
@@ -210,35 +210,11 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Booking Clerk / Receptionist (Trauma and Orthopaedics)
-company: Royal Devon University Healthcare NHS Foundation Trust
-location: Exeter, EX2 5DW
-source: NHS Jobs
-job_id: nhs-5619987
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Business Administrator
 company: Devon Partnership NHS Trust
 location: Newton Abbot, TQ12 4PH
 source: NHS Jobs
 job_id: nhs-5580080
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Administrator
-company: St James School
-location: Exeter
-source: Teaching Vacancies
-job_id: teaching-vacancies-business-administrator-d383ef29-c17f-437b-8271-918c1d87de9b
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -390,18 +366,6 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Medical Administrator
-company: Devon Square Surgery
-location: Newton Abbot, TQ12 2HH
-source: NHS Jobs
-job_id: nhs-5621196
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Payroll Assistant (Part Time - Temp)
 company: Butler Rose - Agency - Permanent
 location: Devon
@@ -486,6 +450,18 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist
+company: Axminster Medical Practice
+location: Axminster, EX13 5AG
+source: NHS Jobs
+job_id: nhs-5627512
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist/Admin Assistant
 company: Acorn by Synergie - Agency - Permanent
 location: Tiverton
@@ -503,18 +479,6 @@ company: Croft Hall Medical Practice
 location: Torquay, TQ2 5UA
 source: NHS Jobs
 job_id: nhs-5552054
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment and People Services Administrator
-company: Ivy Education Trust
-location: Teignmouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-recruitment-and-people-services-administrator
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

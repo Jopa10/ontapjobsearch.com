@@ -4,7 +4,7 @@
 - Live route: `/shrewsbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 0
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,16 +15,28 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 0
-- automatic review: 10
+- automatic include: 1
+- automatic review: 9
 - automatic exclude: 0
-- effective include: 0
-- effective review: 10
+- effective include: 1
+- effective review: 9
 - effective exclude: 0
 
-## INCLUDE (0)
+## INCLUDE (1)
 
-## REVIEW (10)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Admin Assistant/Receptionist
+company: Midlands Partnership NHS Foundation Trust
+location: Shrewsbury, SY1 4RQ
+source: NHS Jobs
+job_id: nhs-5625413
+reason: Exact approved Shrewsbury workplace.
+---
+
+## REVIEW (9)
 
 ---
 action: 
@@ -71,18 +83,6 @@ company: Everywhen, part of the Ardonagh Group - Agency - Permanent
 location: Shropshire
 source: JobG8
 job_id: jobg8-1961524
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Experienced Credit Controller
-company: Tardis Environmental UK Limited - Agency - Permanent
-location: Shropshire
-source: JobG8
-job_id: jobg8-108006754
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

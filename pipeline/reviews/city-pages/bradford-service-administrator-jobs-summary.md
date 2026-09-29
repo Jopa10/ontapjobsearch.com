@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 11
-- automatic review: 28
-- automatic exclude: 46
+- automatic review: 29
+- automatic exclude: 44
 - effective include: 11
-- effective review: 28
-- effective exclude: 46
+- effective review: 29
+- effective exclude: 44
 
 ## INCLUDE (11)
 
@@ -156,7 +156,19 @@ job_id: nhs-5611927
 reason: Approved Bradford catchment.
 ---
 
-## REVIEW (28)
+## REVIEW (29)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Account Manager Sales
+company: FMCG Recruitment Ltd - Agency - Permanent
+location: Wetherby
+source: JobG8
+job_id: jobg8-108015143
+reason: No approved Bradford catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -494,7 +506,7 @@ job_id: jobg8-1960756
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (46)
+## EXCLUDE (44)
 
 ---
 action: 
@@ -645,6 +657,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Claims Handler
+company: Avencia Consulting - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-2039200
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Claims Handler
 company: Grace Fredericks Recruitment - Agency - Permanent
 location: Halifax
 source: JobG8
@@ -673,18 +697,6 @@ company: Leeds Teaching Hospitals
 location: Leeds, LS9 7TF
 source: NHS Jobs
 job_id: nhs-5619618
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Commercial Claims Handler
-company: Insure Recruitment - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-1889757
 reason: Separate employment market.
 ---
 
@@ -745,18 +757,6 @@ company: Reed - Agency - Permanent
 location: Wakefield
 source: JobG8
 job_id: jobg8-1948857
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Credit Controller
-company: Headstar - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-1871224
 reason: Separate employment market.
 ---
 
@@ -973,18 +973,6 @@ company: Beechwood Medical Centre
 location: Halifax, HX2 8AL
 source: NHS Jobs
 job_id: nhs-5623216
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist and Administration Assistant
-company: Leeds East Academy
-location: Leeds
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-and-administration-assistant-leeds-east-academy
 reason: Separate employment market.
 ---
 

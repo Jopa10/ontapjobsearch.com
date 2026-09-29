@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 32
+- automatic include: 12
+- automatic review: 33
 - automatic exclude: 17
-- effective include: 11
-- effective review: 32
+- effective include: 12
+- effective review: 33
 - effective exclude: 17
 
-## INCLUDE (11)
+## INCLUDE (12)
 
 ---
 action: 
@@ -57,6 +57,18 @@ company: Independent Utility Advice - Agency - Permanent
 location: Newcastle Upon Tyne
 source: JobG8
 job_id: jobg8-107967240
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: GP Receptionist
+company: Jesmond Health Partnership
+location: Newcastle upon Tyne, NE2 2AH, Newcastle Upon Tyne, NE2 1PQ, Newcastle Upon Tyne, NE3 1TX, Newcastle Upon Tyne, NE2 3LD
+source: NHS Jobs
+job_id: nhs-5627717
 reason: Approved Newcastle catchment.
 ---
 
@@ -100,6 +112,18 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Home Administrator
+company: Akari Care Limited
+location: Newcastle, NE5 5AY
+source: NHS Jobs
+job_id: nhs-5626649
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Housing Coordinator
 company: TPP Recruitment - Agency - Permanent
 location: Newcastle Upon Tyne
@@ -117,18 +141,6 @@ company: Adecco - Agency - Permanent
 location: Newcastle
 source: JobG8
 job_id: jobg8-1874719
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Receptionist
-company: Betts Avenue Medical Centre
-location: Newcastle Upon Tyne, NE15 6TQ, Newcastle Upon Tyne, NE3 3QP
-source: NHS Jobs
-job_id: nhs-5621861
 reason: Approved Newcastle catchment.
 ---
 
@@ -156,7 +168,7 @@ job_id: nhs-5598890
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (32)
+## REVIEW (33)
 
 ---
 action: 
@@ -498,6 +510,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Procurement Administrator
+company: Reed Specialist Recruitment - Agency - Permanent
+location: Seaham
+source: JobG8
+job_id: jobg8-23643_225656711
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Purchase Ledger Clerk
 company: Adecco - Agency - Permanent
 location: Tyne And Wear
@@ -656,18 +680,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Business Support Administrator
-company: North East & North Cumbria ICB
-location: Sunderland, SR5 3XB
-source: NHS Jobs
-job_id: nhs-5619773
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Data Management Administrator (2025/HM084)
 company: East Durham College
 location: Peterlee
@@ -733,6 +745,18 @@ company: Age UK County Durham
 location: Age UK County Durham
 source: NEJobs
 job_id: nejobs-301543
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Purchase Ledger Clerk
+company: Spear-heads - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-2036113
 reason: Separate employment market.
 ---
 

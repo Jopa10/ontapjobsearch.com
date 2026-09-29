@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 89
+- automatic review: 90
 - automatic exclude: 0
 - effective include: 9
-- effective review: 89
+- effective review: 90
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -132,7 +132,7 @@ job_id: jobg8-1956210
 reason: Exact approved Chelmsford workplace.
 ---
 
-## REVIEW (89)
+## REVIEW (90)
 
 ---
 action: 
@@ -707,6 +707,18 @@ company: Rutherford Briant - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-1898623
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Fundraising Administrator
+company: Charity People - Company - Permanent
+location: Southend-On-Sea
+source: JobG8
+job_id: jobg8-2040041
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

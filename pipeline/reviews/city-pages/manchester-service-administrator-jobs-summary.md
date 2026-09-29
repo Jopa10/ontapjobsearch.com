@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 61
+- Effective included jobs: 56
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 61
-- automatic review: 20
+- automatic include: 56
+- automatic review: 19
 - automatic exclude: 2
-- effective include: 61
-- effective review: 20
+- effective include: 56
+- effective review: 19
 - effective exclude: 2
 
-## INCLUDE (61)
+## INCLUDE (56)
 
 ---
 action: 
@@ -52,11 +52,11 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administrator
+title: Administrative Assistant
 company: Manchester University NHS Foundation Trust
 location: Manchester, M13 9WL
 source: NHS Jobs
-job_id: nhs-5623609
+job_id: nhs-5625202
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -64,11 +64,11 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Assistant Accountant
-company: Platinum Recruitment Group - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-1870942
+title: Administrator
+company: Manchester University NHS Foundation Trust
+location: Manchester, M13 9WL
+source: NHS Jobs
+job_id: nhs-5623609
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -105,18 +105,6 @@ company: Michael Page Finance - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-1877583
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Assistant Management Accountant + Study
-company: Platinum Recruitment Group - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-1870931
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -184,18 +172,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Contract Specialist / In-House Paralegal
-company: Robert Walters - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-2017558
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Corporate Insolvency Administrator
 company: Imperium Financial Recruitment - Agency - Permanent
 location: Manchester
@@ -225,18 +201,6 @@ company: Platinum Recruitment Group - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-1877766
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Credit Controller
-company: Booker - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-108025456
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -357,6 +321,18 @@ company: CWC Recruitment Ltd - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-1910105
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Experienced Medical Receptionist
+company: New Islington Medical Practice
+location: Manchester, M4 6EE
+source: NHS Jobs
+job_id: nhs-5627669
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -508,18 +484,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Lettings Administrator
-company: deverellsmith - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-1914033
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Level 2 Academy Administrator
 company: Dixons Newall Green Academy
 location: Manchester
@@ -561,30 +525,6 @@ company: Victoria Mill Medical Practice
 location: Manchester, M40 7LH
 source: NHS Jobs
 job_id: nhs-5613139
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Receptionist/Admin
-company: Walkden Medical Centre
-location: Manchester, M28 3AT
-source: NHS Jobs
-job_id: nhs-5596997
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: OASIS PROJECT ADMINISTRATOR (PARENTS AND CARERS)
-company: Oasis Trust - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-2028767
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -756,7 +696,7 @@ job_id: teaching-vacancies-trust-finance-and-systems-administrator
 reason: Approved conservative Manchester launch catchment.
 ---
 
-## REVIEW (20)
+## REVIEW (19)
 
 ---
 action: 
@@ -792,18 +732,6 @@ location: Lancashire
 source: JobG8
 job_id: jobg8-1900293
 reason: No approved Manchester catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Clinical Team Administrator
-company: Greater Manchester Mental Health NHS Foundation Trust
-location: Eccles, M30 0GT
-source: NHS Jobs
-job_id: nhs-5599492
-reason: Broad regional location; review before Manchester inclusion.
 ---
 
 ---

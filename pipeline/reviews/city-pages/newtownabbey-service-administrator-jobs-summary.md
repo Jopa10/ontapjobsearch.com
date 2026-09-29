@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 8
+- automatic review: 7
 - automatic exclude: 0
 - effective include: 1
-- effective review: 8
+- effective review: 7
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: jobg8-1937764
 reason: Exact approved Newtownabbey workplace.
 ---
 
-## REVIEW (8)
+## REVIEW (7)
 
 ---
 action: 
@@ -107,18 +107,6 @@ company: Reed - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-1956441
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Coordinator
-company: Brook Street UK - Agency - Permanent
-location: Ballyclare
-source: JobG8
-job_id: jobg8-107922303
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 

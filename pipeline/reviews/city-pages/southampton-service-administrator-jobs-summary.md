@@ -4,7 +4,7 @@
 - Live route: `/southampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 22
+- automatic include: 4
+- automatic review: 24
 - automatic exclude: 18
-- effective include: 5
-- effective review: 22
+- effective include: 4
+- effective review: 24
 - effective exclude: 18
 
-## INCLUDE (5)
+## INCLUDE (4)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Michael Page Finance - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-1868227
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Support Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO14 0YG
-source: NHS Jobs
-job_id: nhs-5608574
 reason: Approved Southampton catchment.
 ---
 
@@ -84,7 +72,7 @@ job_id: nhs-5624270
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (22)
+## REVIEW (24)
 
 ---
 action: 
@@ -186,11 +174,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Care Coordinator
-company: Agincare Group - Agency - Permanent
+title: Charity Co-ordinator
+company: Veterans Outreach Support - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-107963757
+job_id: jobg8-2039925
 reason: Broad location; review before city inclusion.
 ---
 
@@ -258,6 +246,18 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Insolvency Administrator
+company: FRP Group - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2034581
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Legal Accounts Assistant
 company: SJC Partners - Agency - Permanent
 location: Southsea
@@ -276,6 +276,18 @@ location: Southsea
 source: JobG8
 job_id: jobg8-1939433
 reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Materials Scheduler
+company: Kingdom People - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-108043893
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -381,18 +393,6 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Administrator
-company: Inclusion
-location: Eastleigh, PO16 0NX
-source: NHS Jobs
-job_id: nhs-5586737
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
 company: Practice Plus Group - Health in Justice
 location: Winchester, SO22 5DF
 source: NHS Jobs
@@ -476,18 +476,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: HR Assistant
-company: Reed - Agency - Permanent
-location: Portsmouth
-source: JobG8
-job_id: jobg8-1960533
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Lettings Administrator
 company: Mulberry Recruitment - Agency - Permanent
 location: Farnborough
@@ -536,6 +524,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Receptionist - Kingston Crescent Surgery
+company: Portsdown Group Practice
+location: Portsmouth, PO2 8AL
+source: NHS Jobs
+job_id: nhs-5627419
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Single Point of Access Administrator
 company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 location: Fareham, PO17 6AR
@@ -565,5 +565,17 @@ company: Michael Page Finance - Agency - Permanent
 location: Winchester
 source: JobG8
 job_id: jobg8-1893259
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Ward Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Fareham, PO17 5NA
+source: NHS Jobs
+job_id: nhs-5626622
 reason: Separate employment market.
 ---

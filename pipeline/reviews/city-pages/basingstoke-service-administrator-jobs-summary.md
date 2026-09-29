@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 43
+- automatic review: 44
 - automatic exclude: 0
 - effective include: 2
-- effective review: 43
+- effective review: 44
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: jobg8-108041601
 reason: Exact approved Basingstoke workplace.
 ---
 
-## REVIEW (43)
+## REVIEW (44)
 
 ---
 action: 
@@ -107,18 +107,6 @@ company: Court Lane Junior Academy
 location: Portsmouth
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-thursdays-and-fridays
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Inclusion
-location: Eastleigh, PO16 0NX
-source: NHS Jobs
-job_id: nhs-5586737
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -246,35 +234,23 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Business Support Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO14 0YG
-source: NHS Jobs
-job_id: nhs-5608574
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Coordinator
-company: Agincare Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-107963757
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Care Home Administrator
 company: Avery Healthcare Group Ltd.
 location: Winchester, SO22 5JH
 source: NHS Jobs
 job_id: nhs-5612599
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Charity Co-ordinator
+company: Veterans Outreach Support - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2039925
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -366,11 +342,11 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: HR Assistant
-company: Reed - Agency - Permanent
-location: Portsmouth
+title: Insolvency Administrator
+company: FRP Group - Agency - Permanent
+location: Hampshire
 source: JobG8
-job_id: jobg8-1960533
+job_id: jobg8-2034581
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -419,6 +395,18 @@ company: Mulberry Recruitment - Agency - Permanent
 location: Farnborough
 source: JobG8
 job_id: jobg8-1885727
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Materials Scheduler
+company: Kingdom People - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-108043893
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -522,6 +510,18 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist - Kingston Crescent Surgery
+company: Portsdown Group Practice
+location: Portsmouth, PO2 8AL
+source: NHS Jobs
+job_id: nhs-5627419
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Recruitment Administrator
 company: University Hospital Southampton NHS Trust
 location: Southampton, SO16 6YD
@@ -563,6 +563,18 @@ company: Michael Page Finance - Agency - Permanent
 location: Winchester
 source: JobG8
 job_id: jobg8-1893259
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Ward Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Fareham, PO17 5NA
+source: NHS Jobs
+job_id: nhs-5626622
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 

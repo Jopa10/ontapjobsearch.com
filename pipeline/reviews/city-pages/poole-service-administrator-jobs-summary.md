@@ -270,11 +270,11 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist/Administrator
-company: Dorset HealthCare University NHS Foundation Trust
-location: Sherborne, DT93JU
+title: Receptionist - Bank
+company: Avery Healthcare Group Ltd.
+location: Bournemouth, BH4 9DR
 source: NHS Jobs
-job_id: nhs-5596760
+job_id: nhs-5591331
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
