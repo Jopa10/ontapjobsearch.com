@@ -73,5 +73,30 @@
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "108015143",
+    "title": "Account Manager Sales",
+    "company": "FMCG Recruitment Ltd - Agency - Permanent",
+    "advertiser_name": "FMCG Recruitment Ltd",
+    "advertiser_type": "Agency",
+    "location": "Wetherby",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Customer Sales / Sales Advisor",
+    "employment_type": "Permanent",
+    "salary_min": "35000",
+    "salary_max": "35000",
+    "salary_text": "£35000 per year",
+    "posted_date": "2026-09-29",
+    "description": "Healthcare Account Manager\n\nWetherby, West Yorkshire Full-time, Permanent Office-based MondayFriday, 9:00am 5:00pm\n\n£30,000 basic + £5,000 OTE (£35,000 expected earnings) + uncapped commission\n\nAre you an experienced Account Manager, Sales Executive or Business Development professional looking for a varied role where you can build customer relationships, develop new business and grow your commerc. . click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?31Q%2fsvDzOVZitY1suiXFKcjJc0rk7eZzj",
+    "source": "JobG8",
+    "customer_sales_classification": "CONDITIONAL_ACCOUNT_SALES",
+    "customer_sales_reason": "account-based title with sales and office/digital evidence",
+    "customer_sales_overlap_policy": "non-exclusive",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
   }
 ]
