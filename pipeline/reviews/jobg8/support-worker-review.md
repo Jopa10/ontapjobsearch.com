@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-09-28
+feed_date: 2026-09-29
 
 Edit only the `action:` line in each block:
 
@@ -13,18 +13,6 @@ Edit only the `action:` line in each block:
 
 ---
 action:
-SELECTED | Yorkshire - West | Wetherby | £14.50 per hour | Female Night Support Worker
-job_id: 1996739
----
-
----
-action:
-SELECTED | Yorkshire - West | Leeds | £14.50 per hour | Female Night Support Worker
-job_id: 1996737
----
-
----
-action:
 SELECTED | Yorkshire - West | Halifax | £13.15 per hour | Support Worker
 job_id: 2026985
 ---
@@ -33,6 +21,12 @@ job_id: 2026985
 action:
 SELECTED | Yorkshire - West | Holmfirth | £14.08 per hour | Childrens Residential Waking Night Support Worker
 job_id: 107860982
+---
+
+---
+action:
+SELECTED | Yorkshire - West | Leeds | £14.50 per hour | Female Night Support Worker
+job_id: 2039210
 ---
 
 ## WEST YORKSHIRE — POSSIBLES
@@ -145,30 +139,14 @@ job_id: 108041798
 
 ## SUSSEX — POSSIBLES
 
----
-action:
-POSS - SUSSEX | Sussex | Uckfield | £39134 per year | Healthcare Assistant
-job_id: 108024713
----
+_No jobs in this group._
 
 ## CUMBRIA SOUTH — SELECTED
 
 ---
 action:
-SELECTED | Cumbria - South | Ulverston | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
-job_id: 107950046
----
-
----
-action:
 SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour () will be paid) | Relief Support Worker
 job_id: 108001475
----
-
----
-action:
-SELECTED | Cumbria - South | Kirkby Stephen | £30000 per year | Childrens Residential Support Worker
-job_id: 108027338
 ---
 
 ---
@@ -283,12 +261,6 @@ job_id: 1857768
 action:
 SELECTED | London | Bromley | £14.25 per hour | Community Care Assistant
 job_id: 1858304
----
-
----
-action:
-SELECTED | London | London | £29,713.46 per annum | Support Worker
-job_id: 1927514
 ---
 
 ---
