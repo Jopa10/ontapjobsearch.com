@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-09-28
-review_fingerprint: f96c48d90dd4a0f8a34344aba1a0c3284a4f1590b2d627b0f56dcc901913a7c0
+review_date: 2026-09-29
+review_fingerprint: af1e53f46433fe63057817dd51600781f3042d3843aaa41943515c6888bcfb2c
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,28 +10,28 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-09-28T15:20:47+01:00
+Run generated: 2026-09-29T14:13:50+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 328
+JobG8 comparison rows: 320
 Approved NEJobs comparison rows: 2
 
 ## Funnel
 - VONNE listings read: 15
-- Detail-page candidates: 3
-- Detail pages fetched successfully: 3
+- Detail-page candidates: 2
+- Detail pages fetched successfully: 2
 - Detail failures/listing fallbacks: 0
-- Obvious hard passes not detail-fetched: 12
-- Tees Valley explicitly excluded: 3
+- Obvious hard passes not detail-fetched: 13
+- Tees Valley explicitly excluded: 2
 - Outside or unmapped geography excluded: 1
 - Generic/derived geography rows requiring review: 1
-- Retained target candidates: 11
+- Retained target candidates: 12
 
 ## Outcomes
 - HC: 0
-- POSS: 2
+- POSS: 3
 - HARD_PASS: 9
 - Final selected after remembered/manual actions: 0
-- Final POSS awaiting decision: 2
+- Final POSS awaiting decision: 3
 - Manually excluded: 0
 ## Detail diagnostics
 - No unresolved detail-page failures.
@@ -54,6 +54,19 @@ tracking_key: vonne-173468
 vacancy_fingerprint: 473cc7b424b8ffe7e0574bf796b773b5212da99c870656e1ac126920e92d4405
 source_job_id: 173468
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173468
+---
+---
+action:
+POSS | North East - County Durham & Darlington/Hartlepool | Darlington | £31,000 Per Annum | Shared Lives Carer in Darlington
+employer: St Annes Community Services
+closing_date: 01 November 2026
+geography: CONFIRMED — location: exact area
+reason: annualised upper salary £31,000 exceeds North East review point £30,000
+source: VONNE
+tracking_key: vonne-172562
+vacancy_fingerprint: eb8b793916af3ab9b99e3ea1b533e1e9d92fb19db6343aaff2e2319719a7dba1
+source_job_id: 172562
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=172562
 ---
 ---
 action:
@@ -81,7 +94,7 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173475
 - [Parent Carer Project Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173466) — out-of-scope VONNE occupation.
 - [Recovery Coach](https://www.vonne.org.uk/vonne-jobs-details?cid=173464) — insufficient service-admin evidence.
 - [Recovery Coach](https://www.vonne.org.uk/vonne-jobs-details?cid=173463) — insufficient service-admin evidence.
-- [Team Leader, All-Age Caregivers, Caregivers Connected Gateshead Service](https://www.vonne.org.uk/vonne-jobs-details?cid=173477) — insufficient service-admin evidence.
+- [Team Leader - All-Age Caregivers](https://www.vonne.org.uk/vonne-jobs-details?cid=173477) — insufficient service-admin evidence.
 - [Young Carer Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173481) — out-of-scope VONNE occupation.
 
 ## Safety boundary
