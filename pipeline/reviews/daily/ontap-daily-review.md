@@ -4,9 +4,9 @@
 > Do not start reviewing yet. Rebuild this review after those source refreshes complete.
 
 review_date: 2026-09-29
-generated_at: 2026-09-29T08:37:30+00:00
+generated_at: 2026-09-29T13:12:04+00:00
 
-**1 job(s) need a human decision.**
+**0 job(s) need a human decision.**
 
 Edit only each `action:` line:
 - `action: select` = include the vacancy.
@@ -21,7 +21,7 @@ Edit only each `action:` line:
 
 | Source | Status | Review date | Needs review | Note |
 |---|---|---|---:|---|
-| JobG8 | OK | 2026-09-29 | 1 | — |
+| JobG8 | OK | 2026-09-29 | 0 | — |
 | NEJobs | STALE | 2026-09-18 | 0 | — |
 | VONNE | STALE | 2026-09-28 | 0 | — |
 | Teaching Vacancies | STALE | 2026-09-28 | 0 | — |
@@ -29,25 +29,9 @@ Edit only each `action:` line:
 
 > **Attention:** one or more active source reviews are stale or missing. Those sources contribute no jobs to this file and must not be treated as zero inventory.
 
-## JobG8 — 1 to review
+## JobG8 — 0 to review
 
----
-action: exclude
-POSS | JobG8 | London | London | £54,486 per annum | Interim Head of Governance & Company Secretary
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2039986
-title: Interim Head of Governance & Company Secretary
-employer: 
-location: London
-region: London
-salary: £54,486 per annum
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: c9199b51259c8416bfb2f16dc1df321fd4afa5625838f8a61e1f06c513e4f4da
----
+_No new or changed human decisions required._
 
 ## NHS Jobs — 0 to review
 
