@@ -1372,11 +1372,10 @@ job_id: 107862803
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £54,486 per annum [extracted from description] | Interim Head of Governance & Company Secretary
 job_id: 2039986
 ---
-
 ## HAMPSHIRE — SELECTED
 
 ---
