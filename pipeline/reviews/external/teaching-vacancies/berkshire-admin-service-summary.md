@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-09-28
-review_fingerprint: fe57dac80caed2b4e0a5c8c921f27505b44de471fe3c5704caac9a2687cd88de
-routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
+review_date: 2026-09-29
+review_fingerprint: f92d4eea07d4e236eb37d0162b376148064704e134f8fce0035191baa3e27a08
+routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 21
-- Selected: 6
+- Selected: 7
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 13
+- Hard pass: 12
 
 ## SELECTED
 
@@ -83,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to
 
 ---
 action: 
+SELECTED | Berkshire | Slough, South East, SL3 7EF | £26,744.00 - £27,407.00 Annually (FTE) £23,236 - £23,812 Actual | Receptionist
+employer: The Langley Academy Primary
+closing_date: 2026-10-05T09:00:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1e27f6a815da037ab1ab18a395905bb3041827b3f7c3285cc2a297031ff8d33d
+source: Teaching Vacancies
+source_job_id: receptionist-the-langley-academy-primary
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-langley-academy-primary
+---
+
+---
+action: 
 SELECTED | Berkshire | Reading, South East, RG6 5UZ | £25,583.00 - £25,583.00 Annually (FTE) | School Administrator
 employer: Radstock Primary School
 closing_date: 2026-10-09T12:00:00+01:00
@@ -90,7 +105,7 @@ reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 44e805813c6994dd0cf0d5c33ed54cf06d18e23b9a4a213e39627b385f5e6940
+factual_fingerprint: 4db642820872c78e47fce37926ef71ca84398ab5b279e28f14c29915d4b0bee1
 source: Teaching Vacancies
 source_job_id: school-administrator-radstock-primary-school-reading-berkshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-radstock-primary-school-reading-berkshire
@@ -152,7 +167,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-finance-assist
 - [Business Operations Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/business-operations-co-ordinator-arbour-vale-school) — Insufficient admin/service evidence.
 - [Casual Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/casual-lettings-assistant-maiden-erlegh-chiltern-edge-reading-berkshire) — Insufficient admin/service evidence.
 - [Clerk to the Governing Body](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-the-governing-body-d1b00184-727b-4b8d-ade0-c66789d84496) — Missing salary or pay scale.
-- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-the-holt-school) — Manager title salary ceiling £36,573 is not below £28,000.
 - [EHCP Team Administrator - The Avenue School](https://teaching-vacancies.service.gov.uk/jobs/ehcp-team-administrator-the-avenue-school) — Missing salary or pay scale.
 - [Full Time Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/full-time-administration-officer) — Insufficient admin/service evidence.
 - [HR & Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-officer-the-park-federation-academy-trust) — Insufficient admin/service evidence.

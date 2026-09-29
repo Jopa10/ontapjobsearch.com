@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-09-28
-review_fingerprint: 27564e8d26692c3c6dcd645f2fae6d5f71126370b1239b57bbcf8a24eaa520de
-routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
+review_date: 2026-09-29
+review_fingerprint: 7a386c5e17644ecf023d2e5ebadfbe79d9a5791ae4251bbeee2b992639cbcc5d
+routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -20,21 +20,6 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 - Hard pass: 4
 
 ## SELECTED
-
----
-action: 
-SELECTED | Somerset | Radstock, South West, BA3 4EX | £26, 847 FTE per annum, PRO RATA | Admin Assistant
-employer: St Vigor & St John Church School
-closing_date: 2026-09-28T23:59:59+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c4593b77c7a8a1a4f4794ba81698b9b5e186dad6f9e10255a1a23f9ee0d74d4f
-source: Teaching Vacancies
-source_job_id: admin-assistant-st-vigor-st-john-church-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-st-vigor-st-john-church-school
----
 
 ---
 action: 
@@ -64,6 +49,21 @@ factual_fingerprint: 005e2f2913b6a10686f74afbdc7b8984e70f702d4a2573125a9b97b7c1f
 source: Teaching Vacancies
 source_job_id: business-support-and-compliance-administrator-part-time
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-and-compliance-administrator-part-time
+---
+
+---
+action: 
+SELECTED | Somerset | Minehead, South West, TA24 6AY | BTCT Band 6, Points 10-12 | Exams Officer
+employer: West Somerset College
+closing_date: 2026-10-12T23:59:00+01:00
+reason: Clear admin/service title: exams officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3d4fb6936a5a8e82f4e2db6be99d6765b069c97e944c3c82af559dafd0589532
+source: Teaching Vacancies
+source_job_id: exams-officer-a5af8350-c1ba-4da1-923b-fd1382b67fde
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-a5af8350-c1ba-4da1-923b-fd1382b67fde
 ---
 
 ---

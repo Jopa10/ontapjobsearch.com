@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-09-28
-review_fingerprint: 44756f1c7a14221ab6d134c63d2102fa0c2b33785ea6fab6014df5139befabcb
-routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
+review_date: 2026-09-29
+review_fingerprint: 12b0d19c496172b959b115cc86aa33c5e99b8e847a9cdc5b8ee6ee9ef45e8612
+routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
+- Records: 17
 - Selected: 6
-- POSS awaiting decision: 3
+- POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 7
 
@@ -115,6 +115,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ---
 action: 
+POSS | West Midlands - Coventry & Warwickshire | Nuneaton, West Midlands, CV11 6BH | £27,266- £29,783 | Administration Officer - Learning Support
+employer: North Warwickshire and South Leicestershire College
+closing_date: 2026-10-18T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d55e16b3de56c530f76caaced768669cfa71e1bc6b38bb03eeb109f61966c8d2
+source: Teaching Vacancies
+source_job_id: administration-officer-learning-support
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-learning-support
+---
+
+---
+action: 
 POSS | West Midlands - Coventry & Warwickshire | Rugby, West Midlands, CV22 7HN | NJC05 to NJC06 £25,583.00 to £25,989.00 FTE (£22,675.13 to £23,034.99 Actual) | Adminstrator
 employer: Henry Hinde School
 closing_date: 2026-10-01T00:00:00+01:00
@@ -164,9 +179,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer
 
 ## HARD_PASS
 
-- [Campaign Manager](https://teaching-vacancies.service.gov.uk/jobs/campaign-manager-lawrence-sheriff-school) — Manager title salary ceiling £40,444 is not below £28,000.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-triumph-learning-trust-rugby-not-recorded) — Insufficient admin/service evidence.
-- [EHCP Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/ehcp-co-ordinator-discovery-academy) — Insufficient admin/service evidence.
+- [Examinations Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/examinations-co-ordinator) — Insufficient admin/service evidence.
+- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-etone-college) — Insufficient admin/service evidence.
 - [MAT Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/mat-finance-officer-sidney-stringer-multi-academy-trust-coventry-not-recorded) — Insufficient admin/service evidence.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-finham-park-school-coventry-west-midlands) — Manager title salary ceiling £54,143 is not below £28,000.
 - [PE Sports and Personal Development Assistant](https://teaching-vacancies.service.gov.uk/jobs/pe-sports-and-personal-development-assistant) — Insufficient admin/service evidence.

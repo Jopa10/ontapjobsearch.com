@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-09-28
-review_fingerprint: e51bb7b333511953c38f7e5a3cbcce12dc41d05adb33d6c600344db54e91f933
-routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
+review_date: 2026-09-29
+review_fingerprint: 6eeb0fbbe6ff2ca917e1d95ba9a653cc7279ef2c43145ec0c740f4c5b08526da
+routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 15
-- Selected: 3
+- Selected: 4
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 7
 
 ## SELECTED
 
@@ -38,14 +38,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG4 4JD | £21,907.96 - £22,610.16 Annually (Actual) TTO | Administrative Assistant
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG4 4JD | £22,631.57 - £23,356.04 Annually (Actual) TTO | Administrative Assistant
 employer: Stanhope Primary and Nursery School
 closing_date: 2026-10-21T23:59:00+01:00
 reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 162b3783fcbd9958ea5e24564ddfd85061d38e40e800f9c94c2fa2cc8b6e845b
+factual_fingerprint: b687e4f906bc5b72685c9d8ec975b67ca14db3036735161d97c18fd340ce285c
 source: Teaching Vacancies
 source_job_id: administrative-assistant-stanhope-primary-and-nursery-school-nottingham-nottinghamshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-stanhope-primary-and-nursery-school-nottingham-nottinghamshire
@@ -64,6 +64,21 @@ factual_fingerprint: 4759977efa68750936e91606fdb281a05e313004ede618d8addbc8c327d
 source: Teaching Vacancies
 source_job_id: receptionist-administrator-5a07569f-4f14-44ab-a5b1-5db86e8a339d
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-5a07569f-4f14-44ab-a5b1-5db86e8a339d
+---
+
+---
+action: 
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG5 8GX | Redhill Academy Trust Pay Scale, Band 6, Scale point 29 - 32 | Sixth Form Administrator
+employer: Redhill Academy
+closing_date: 2026-10-09T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 12e482cd8c01a33497e1a388f6b8fdc3c6c8432b0e6d0b90e2151d77c993ccb3
+source: Teaching Vacancies
+source_job_id: sixth-form-administrator-redhill-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrator-redhill-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -135,7 +150,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-the-go
 ## HARD_PASS
 
 - [Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-radford-primary-school-academy) — Insufficient admin/service evidence.
-- [Attendance Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-administration-assistant-the-long-eaton-school) — Insufficient admin/service evidence.
 - [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-our-lady-of-lourdes-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [HR and Recruitment Team Leader](https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-team-leader) — Insufficient admin/service evidence.
 - [HR/People Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-people-operations-manager) — Manager title salary ceiling £57,358 is not below £28,000.

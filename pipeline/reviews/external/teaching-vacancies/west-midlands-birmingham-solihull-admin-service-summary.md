@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-09-28
-review_fingerprint: f71c2452d241888733d088dd6112fb60963c7e9482b3a8b0b9ef9035c0ca3882
-routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
+review_date: 2026-09-29
+review_fingerprint: 3cca62d4345ce97bc56809a6de3170fc0fb2b0912a81ae4c1101628849f98956
+routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 25
-- Selected: 10
+- Records: 26
+- Selected: 11
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 14
@@ -49,6 +49,21 @@ factual_fingerprint: 678c6e8bcb2ffb43ec31f444dca49eb408fddc102938a47b0edd76380b1
 source: Teaching Vacancies
 source_job_id: administration-assistant-harborne-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-harborne-primary-school
+---
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Sutton Coldfield, West Midlands, B75 7DY | £25,614 - £27,709 FTE, actual salary £22,426 - £24,260 per annum | Administration Assistant
+employer: The Royal Sutton School
+closing_date: 2026-10-13T09:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 22f47690c02ae58ce5a3e6f9253d6f59d9078eeffb839e46aa157af3fdb2164f
+source: Teaching Vacancies
+source_job_id: administration-assistant-the-royal-sutton-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-the-royal-sutton-school
 ---
 
 ---
@@ -204,10 +219,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-bloomsbury-nursery-school) — Manager title salary ceiling £34,434 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-erdington-hall-primary-school) — Manager title salary ceiling £43,149 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-greet-primary-school) — Manager title salary ceiling £34,434 is not below £28,000.
-- [PA to Executive Head](https://teaching-vacancies.service.gov.uk/jobs/pa-to-executive-head) — Missing salary or pay scale.
 - [School Administration Assistant/ Attendance](https://teaching-vacancies.service.gov.uk/jobs/school-administration-assistant-attendance) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-severne-junior-infant-and-nursery-school) — Manager title salary ceiling £55,224 is not below £28,000.
 - [School Finance Partner](https://teaching-vacancies.service.gov.uk/jobs/school-finance-partner-fioretti-trust) — Insufficient admin/service evidence.
+- [SENIOR ADMINISTRATOR – SEND ASSISTANT MANAGER](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-send-assistant-manager) — Manager title salary ceiling £32,554 is not below £28,000.
 
 ## Safety boundary
 

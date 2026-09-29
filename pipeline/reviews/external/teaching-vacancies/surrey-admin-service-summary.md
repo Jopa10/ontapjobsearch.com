@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-09-28
-review_fingerprint: 72cccbbf5fe326c05cc04dd9c07b2df5b6678b36e8b9d0aaf7e7f4d4016d13fb
-routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
+review_date: 2026-09-29
+review_fingerprint: 8f8d1b19732ab9b5c8f42e58a5957e8377f64053a3f202a875798587527a2013
+routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 5
+- Records: 9
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -38,21 +38,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admiss
 
 ---
 action: 
-SELECTED | Surrey | Weybridge, South East, KT13 8UZ | Salary ELM6 £30,647 FTE Actual Salary £17,026 | HR Administrator
-employer: Heathside School
-closing_date: 2026-09-30T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ed1284d98479a3490d70afd091418956c7951ad98529f9dc4df1d5ea97eeaeb8
-source: Teaching Vacancies
-source_job_id: hr-administrator-ee39b099-7efe-4405-b75b-67e4389825c0
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-ee39b099-7efe-4405-b75b-67e4389825c0
----
-
----
-action: 
 SELECTED | Surrey | Epsom, South East, KT18 6HP | Associate 2.1-16 (£7,610.33 - £8,081.07 - Actual) | Office Assistant (Part time)
 employer: The Vale Primary School and Nursery
 closing_date: 2026-10-06T09:30:59+01:00
@@ -64,21 +49,6 @@ factual_fingerprint: aea6f75ece26362ac5ad68353c03885db6ce7ebf56268664a5bbe0a12e7
 source: Teaching Vacancies
 source_job_id: office-assistant-part-time-the-vale-primary-school-and-nursery
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-assistant-part-time-the-vale-primary-school-and-nursery
----
-
----
-action: 
-SELECTED | Surrey | Leatherhead, South East, KT23 3PP | £25,111.00 - £27,318.00 Annually (FTE) P4 - £11,943 - £12,993pa (actual) | Safeguarding and SEND Administrative Assistant
-employer: Eastwick Infant School
-closing_date: 2026-09-28T23:59:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 75b2acd183694df85fbada9f86d187312d4935673006f0ef239a7d4784f187c0
-source: Teaching Vacancies
-source_job_id: safeguarding-and-send-administrative-assistant-eastwick-infant-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-and-send-administrative-assistant-eastwick-infant-school
 ---
 
 ---
@@ -108,6 +78,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-a73
 
 - [Admissions Advisor](https://teaching-vacancies.service.gov.uk/jobs/admissions-advisor) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-the-swan-trust-surrey-not-recorded) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-fox-grove-school-leatherhead-surrey) — Manager title salary ceiling £37,002 is not below £28,000.
 - [Regional Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/regional-finance-manager-06cafd15-1ee6-4d43-9137-043ba72063ed) — Manager title salary ceiling £28,167 is not below £28,000.
 - [Regional Finance Partner](https://teaching-vacancies.service.gov.uk/jobs/regional-finance-partner-the-beacon-school) — Insufficient admin/service evidence.
 - [Trust Estates Facilities & Compliance Coordinator](https://teaching-vacancies.service.gov.uk/jobs/trust-estates-facilities-compliance-coordinator) — Insufficient admin/service evidence.

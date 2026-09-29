@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-09-28
-review_fingerprint: a383e75a012e002c8f05f41b36675152d6ea7de908a2a89bb0bb761b027e8d33
-routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
+review_date: 2026-09-29
+review_fingerprint: f189a8f97c095e54c795ba9877243ac71c75d58b4fed689eccdcc980086192f2
+routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -145,12 +145,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 action: 
 SELECTED | North East | Wallsend, North East, NE28 6PY | Grade 5 £27,274 - £28,153 per annum pro rata, pay award pending (actual salary £6,312 - £6,516). Grade 2 £25,614 per annum pro rata (actual salary £866 per annum). | School Support Roles - Supervisory Assistant & Administrative Assistant
 employer: St Peter's Church of England Primary School
-closing_date: 2026-10-01T23:59:00+01:00
+closing_date: 2026-10-08T23:59:00+01:00
 reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: ece3b6a31b493731e60c3ec2b881ae680fbd6627b80f0e3bac045227c96428a7
+factual_fingerprint: 5d23f32ef1261f46c135fc4dae01439a12b5a25065ecd91b0896f95483303390
 source: Teaching Vacancies
 source_job_id: school-support-roles-supervisory-assistant-administrative-assistant
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-support-roles-supervisory-assistant-administrative-assistant

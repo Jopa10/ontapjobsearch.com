@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-09-28
-review_fingerprint: b6a6a1fb91707d4eea9623667120b4caff5c267b615b4db01ab55ebb0f8286b5
-routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
+review_date: 2026-09-29
+review_fingerprint: ed5d11649ec4dd2d80f0b71af6e66e3733e934420bc176def1345b098d19780a
+routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -53,6 +53,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-th
 
 ---
 action: 
+SELECTED | Sussex | St. Leonards-on-Sea, South East, TN38 9DS | £17,254.02 - £18,385.78 Annually (Actual) TPA 8 / NJC 6 - 10 - £26,847 - £28,608pa FTE | Attendance & HR Admin Assistant
+employer: Hollington Primary School
+closing_date: 2026-10-09T23:59:00+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5e352118eb0748be3fc493f9ca56c6b033ca73c47e29cabff48971e71379163c
+source: Teaching Vacancies
+source_job_id: attendance-hr-admin-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-hr-admin-assistant
+---
+
+---
+action: 
 SELECTED | Sussex | Chichester, South East, PO19 3HP | £37,563 - £40,444 pro rata | Personal Assistant to the Head Teacher
 employer: Bishop Luffa School, Chichester
 closing_date: 2026-10-08T23:59:00+01:00
@@ -64,21 +79,6 @@ factual_fingerprint: 39de46b584fd455013eb8763ae991c136035dbcb98c28ecb867bd62f325
 source: Teaching Vacancies
 source_job_id: personal-assistant-to-the-head-teacher-bishop-luffa-school-chichester
 source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-head-teacher-bishop-luffa-school-chichester
----
-
----
-action: 
-SELECTED | Sussex | Bexhill-on-Sea, South East, TN39 4BY | NJC Grade 2 Point 3 (£24,769) pro rata to term time only + 3 weeks* £22,673 pro rata | Receptionist
-employer: Bexhill High Academy
-closing_date: 2026-10-08T09:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 55d833c435425abc67e73620f89ccfc928670884f8e9d1d4f59f9432038b245b
-source: Teaching Vacancies
-source_job_id: receptionist-bf66e44e-bcae-44e6-9b0c-09362e8e31cb
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-bf66e44e-bcae-44e6-9b0c-09362e8e31cb
 ---
 
 ---

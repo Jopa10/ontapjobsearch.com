@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-09-28
-review_fingerprint: 721c6c05cdfb5cbf3f0184ff1a08be7e3152354c9b708b083130734ecbfb3e3c
-routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
+review_date: 2026-09-29
+review_fingerprint: dbe3d29c82b24120cacf785a170b7cd217af2ed45578c327a801894d3c70350b
+routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 4
+- Records: 11
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 8
 
 ## SELECTED
-
----
-action: 
-SELECTED | Cambridgeshire | Ely, East of England, CB6 2WL | £11,608.00 Annually (Actual) Meridian Trust Support Staff Pay Scale (Grade 3) | Administrative Assistant
-employer: Lantern Community Primary School
-closing_date: 2026-09-29T09:00:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 04cfb913ee0d8366bd9ee0e9ed0d6d5428732898eb03a9878c4ae67e7594f1d4
-source: Teaching Vacancies
-source_job_id: administrative-assistant-df6b12e7-31c1-4ffd-8f6e-62dfb6e08db8
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-df6b12e7-31c1-4ffd-8f6e-62dfb6e08db8
----
 
 ---
 action: 
@@ -91,6 +76,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrative
 
 ## HARD_PASS
 
+- [Head of HR Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-operations-meridian-trust-huntingdon-not-recorded) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-f3f57ca9-847f-4e59-bac2-1caf377a9267) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-buckden-cofe-primary-school) — Manager title salary ceiling £34,811 is not below £28,000.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-9a683a81-163f-46a5-b7f5-732557216d39) — Manager title salary ceiling £44,854 is not below £28,000.
@@ -98,8 +84,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrative
 - [Reception Services](https://teaching-vacancies.service.gov.uk/jobs/reception-services-manor-drive-secondary-academy-peterborough-cambridgeshire) — Insufficient admin/service evidence.
 - [School Business Leader](https://teaching-vacancies.service.gov.uk/jobs/school-business-leader-university-of-cambridge-primary-school) — Insufficient admin/service evidence.
 - [Senior HR Adviser (Field based Cambridge and Ely area primarily)](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-field-based-cambridge-and-ely-area-primarily-northstowe-learning-community) — Insufficient admin/service evidence.
-- [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-b45f29c6-8c14-4783-aad4-2de78180395b) — Insufficient admin/service evidence.
-- [Trust Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-accountant-swavesey-village-college-cambridge-cambridgeshire) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-09-28
-review_fingerprint: 20cb21b3ecedfb1e947124481270b540d4f7c5f4abd1d29d524aa94c07535020
-routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
+review_date: 2026-09-29
+review_fingerprint: f9ce929a0406a2571868b421f8bea3cdca00f79e486816680b3485afb1dc52d0
+routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 6
-- POSS awaiting decision: 2
+- Records: 10
+- Selected: 7
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -83,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
+SELECTED | Norfolk | King's Lynn, East of England, PE30 4QJ | £22,731-£23,092 per annum actual | Administrator
+employer: Parkway Academy
+closing_date: 2026-10-16T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6ccdd80b9381fa5ce26404101668c6c5e57eb2852b1f3ba9a396eb4bc1fadd03
+source: Teaching Vacancies
+source_job_id: administrator-parkway-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-parkway-academy
+---
+
+---
+action: 
 SELECTED | Norfolk | King's Lynn, East of England, PE30 2QB | Salary: Support Staff Pay Scale C: £22,401 to £22,752 pro-rata per annum (Actual) (£25,614 - £26,016 full time/full year equivalent) | Receptionist
 employer: King Edward VII Academy
 closing_date: 2026-10-02T01:00:00+01:00
@@ -128,21 +143,6 @@ source_job_id: clerical-assistant-spixworth-infant-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-spixworth-infant-school
 ---
 
----
-action: 
-POSS | Norfolk | King's Lynn, East of England, PE30 4AW | Grade D, Point 6 – 7 £26,847 - £27,274 pa FTE Please note that the salary will be pro rata (approx. £18,639 - £18936) | Finance Assistant (with some reception cover)
-employer: Springwood High School
-closing_date: 2026-09-29T01:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3416fcf51de53436d9eca24c4bfa62aef815973afb2141594de7c6c1e7e6266d
-source: Teaching Vacancies
-source_job_id: finance-assistant-with-some-reception-cover
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-with-some-reception-cover
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -150,7 +150,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-wit
 ## HARD_PASS
 
 - [Administration Officer: Vulnerable Students](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-vulnerable-students) — Insufficient admin/service evidence.
-- [Director of Compliance](https://teaching-vacancies.service.gov.uk/jobs/director-of-compliance) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-poringland-primary-school) — Manager title salary ceiling £33,119 is not below £28,000.
 
 ## Safety boundary

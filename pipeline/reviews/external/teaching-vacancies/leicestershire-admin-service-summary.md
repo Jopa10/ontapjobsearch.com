@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-09-28
-review_fingerprint: 6d6f3a962a7c025bd4113e9231ac8a5e82dc651b09f0f273b8cb3065166da1a9
-routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
+review_date: 2026-09-29
+review_fingerprint: 333ac8faca301c3c69d50a08f96bf948f6fb89d2c64a3639677278e396a46184
+routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 6
 - Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -55,14 +55,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-maternit
 
 ---
 action: 
-POSS | Leicestershire | Loughborough, East Midlands, LE12 6QN | £27,709.00 - £27,709.00 Annually (FTE) | Marketing and Communications Officer
+POSS | Leicestershire | Loughborough, East Midlands, LE12 6QN | £29,070.00 - £29,070.00 Annually (FTE) | Marketing and Communications Officer
 employer: East Leake Academy
 closing_date: 2026-10-03T23:59:00+01:00
 reason: Borderline school administration title: communications officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: dfe202f09fc52796872a38553896bb52cf73a16457705497161f01f6a9e4018d
+factual_fingerprint: a1ca8398b5e4613b00cd53fd29745be109c4a40318e2f9253f3a4e6f0ad1ae7f
 source: Teaching Vacancies
 source_job_id: marketing-and-communications-officer-east-leake-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-and-communications-officer-east-leake-academy
@@ -76,7 +76,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-and-communi
 
 - [Extended Services Club Manager (EXS031BC)](https://teaching-vacancies.service.gov.uk/jobs/extended-services-club-manager-exs031bc-sileby-redlands-community-primary-school) — Manager title salary ceiling £28,146 is not below £28,000.
 - [Finance and Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-and-operations-manager-learn-academies-trust) — Manager title salary ceiling £57,234 is not below £28,000.
-- [Governance Manager](https://teaching-vacancies.service.gov.uk/jobs/governance-manager-learn-academies-trust) — Manager title salary ceiling £44,104 is not below £28,000.
 - [School Office and SENDO Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-office-and-sendo-administration-assistant) — Insufficient admin/service evidence.
 
 ## Safety boundary

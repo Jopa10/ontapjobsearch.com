@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East - Tees Valley
 
-review_date: 2026-09-28
+review_date: 2026-09-29
 review_fingerprint: defe5ec6027ee9f09ac705791ea232fc653a92618b69311fd632eab2904f095c
-routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
+routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 10
 - Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -91,6 +91,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-hr-assistant-4c
 
 - [Administration Support Clerk](https://teaching-vacancies.service.gov.uk/jobs/administration-support-clerk-acklam-grange-school) — Insufficient admin/service evidence.
 - [Barley Fields Primary School – School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/barley-fields-primary-school-school-office-manager) — Manager title salary ceiling £39,124 is not below £28,000.
+- [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-outwood-academy-redcar) — Insufficient admin/service evidence.
 - [Office Manager and PA to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-pa-to-the-headteacher-our-lady-st-bede-catholic-academy-stockton-on-tees-cleveland) — Manager title salary ceiling £33,699 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-patrick-s-catholic-college-a-voluntary-catholic-academy) — Manager title salary ceiling £35,412 is not below £28,000.
 - [Trust Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-assistant-spark-education-trust-stockton-on-tees-not-recorded) — Insufficient admin/service evidence.

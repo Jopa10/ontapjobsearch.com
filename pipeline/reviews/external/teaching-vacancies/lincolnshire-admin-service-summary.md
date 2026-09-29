@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-09-28
-review_fingerprint: 0c605813d0e6aa13d0b3f458a894d1543ce77a27ff14c6494dab6bf954faa359
-routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
+review_date: 2026-09-29
+review_fingerprint: 34aeff1ccf66948b1caeaacc1107d2c0d1f9e38cd3f53c48dcf91c8ce7a13501
+routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 9
+- Records: 14
+- Selected: 8
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 5
@@ -139,21 +139,6 @@ factual_fingerprint: 297da02685fe16b682d5e209eaff108a750b360588f9ca202855722d2eb
 source: Teaching Vacancies
 source_job_id: receptionist-admin-assistant-boston-endeavour-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-boston-endeavour-academy
----
-
----
-action: 
-SELECTED | Lincolnshire | Sleaford, East Midlands, NG34 7DD | £24,796.00 - £25,985.00 Annually (FTE) Grade 3.6 to 3.9 | Sixth Form Administrator
-employer: Carre's Grammar School
-closing_date: 2026-09-28T17:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 788c97745081a05d1653db5d0ee339c415d935dfe8009c071c3344f4ed6bfc6f
-source: Teaching Vacancies
-source_job_id: sixth-form-administrator-carre-s-grammar-school-sleaford-lincolnshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrator-carre-s-grammar-school-sleaford-lincolnshire
 ---
 
 ## POSS — choose SELECT or EXCLUDE

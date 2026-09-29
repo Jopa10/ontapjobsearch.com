@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-09-28
-review_fingerprint: 3c2a4cef906af8424f781907c81de19c5aef608d2b4633e82f5526c2544912c9
-routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
+review_date: 2026-09-29
+review_fingerprint: 6415599a0f89daa9b433f9c50087b4c2f6cf672fa227c0d143d32955a7e739ca
+routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 6
-- POSS awaiting decision: 0
+- Records: 17
+- Selected: 7
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 9
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Bedfordshire | Shefford, East of England, SG17 5XA | £25,614.00 Annually (FTE) | Administrative Assistant/Receptionist
+employer: Shefford Lower School
+closing_date: 2026-10-05T09:00:00+01:00
+reason: Clear admin/service title: administrative assistant, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a19230ef1bf9aa10468f53e19291f95523b47b5a74b47a30793dbf0f92667873
+source: Teaching Vacancies
+source_job_id: administrative-assistant-receptionist-shefford-lower-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-receptionist-shefford-lower-school
+---
 
 ---
 action: 
@@ -113,7 +128,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-clerical
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Bedfordshire | Dunstable, East of England, LU5 5AB | £24,792.00 - £26,425.00 Annually (Actual) | Data Manager
+employer: All Saints Academy Dunstable
+closing_date: 2026-10-13T09:00:00+01:00
+reason: Manager title below £28,000 salary ceiling requires review
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0a4e01dfab5ee028e14466eb3eaf08a52cadd0b1d6960b0640081d889404d198
+source: Teaching Vacancies
+source_job_id: data-manager-all-saints-academy-dunstable
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-manager-all-saints-academy-dunstable
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -129,6 +157,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-clerical
 - [Officer Manager](https://teaching-vacancies.service.gov.uk/jobs/officer-manager-17efeac4-e980-48de-8ddc-1a2e769d02a2) — Manager title without salary evidence below £28,000.
 - [Safeguarding Officer](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-officer-redborne-upper-school-and-community-college) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-all-saints-academy-dunstable) — Manager title salary ceiling £44,253 is not below £28,000.
+- [SCHOOL BUSINESS MANAGER](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-putteridge-primary-school) — Manager title salary ceiling £49,282 is not below £28,000.
 
 ## Safety boundary
 

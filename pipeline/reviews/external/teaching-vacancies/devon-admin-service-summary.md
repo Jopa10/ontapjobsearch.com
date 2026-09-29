@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-09-28
-review_fingerprint: ab46f1d3f57204fc6d92549e4c5b11be7f1192b1f952d2e1ab7e4af0c693a65e
-routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
+review_date: 2026-09-29
+review_fingerprint: c08fc8d334eb1928744a9668ceaac5a7a99346f7f7eb2795471a2a566bf4afe8
+routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 23
-- Selected: 13
+- Selected: 15
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 6
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: 72ff240836f6cbf3df95ba6e0f782e1868cabcef870286ff1c5e1e7a231
 source: Teaching Vacancies
 source_job_id: administration-assistant-11d42ccb-1e47-4b92-b33d-cda687020619
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-11d42ccb-1e47-4b92-b33d-cda687020619
+---
+
+---
+action: 
+SELECTED | Devon | Newton Abbot, South West, TQ12 2NF | £26,847.00 - £27,274.00 Annually (FTE) Actual salary: £12,715 salary p.a. Working hours: 09:30 – 14:00 Monday to Friday inclusive with a half hour unpaid break for lunch on each day. | Administrative Assistant
+employer: Newton Abbot College
+closing_date: 2026-10-13T09:00:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: fa3e4a08600fd7b03bc7027f0647856e642892d82ad6f06d0281851a49517aeb
+source: Teaching Vacancies
+source_job_id: administrative-assistant-newton-abbot-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-newton-abbot-college
 ---
 
 ---
@@ -68,21 +83,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-d0
 
 ---
 action: 
-SELECTED | Devon | Exeter, South West, EX4 8NN | £27,709 - £30,515 | Business Administrator
-employer: St James School
-closing_date: 2026-09-28T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f4ed7cbed6020bce9882fdae5498f1b6e0215deeec2ad2728a9ead3f38d927fd
-source: Teaching Vacancies
-source_job_id: business-administrator-d383ef29-c17f-437b-8271-918c1d87de9b
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administrator-d383ef29-c17f-437b-8271-918c1d87de9b
----
-
----
-action: 
 SELECTED | Devon | Ivybridge, South West, PL21 0JA | £14,575.00 - £15,381.00 Annually (Actual) WeST grade C SCP 5-7 | College Receptionist
 employer: Ivybridge Community College
 closing_date: 2026-10-12T09:00:00+01:00
@@ -94,6 +94,21 @@ factual_fingerprint: 9ba42db837afa5b7e7c5fcf1ecf193595ff837153fc073c2c9da8478194
 source: Teaching Vacancies
 source_job_id: college-receptionist-ivybridge-community-college-ivybridge-devon
 source_url: https://teaching-vacancies.service.gov.uk/jobs/college-receptionist-ivybridge-community-college-ivybridge-devon
+---
+
+---
+action: 
+SELECTED | Devon | Brixham, South West, TQ5 9HF | TSAT Pay Group 5 pro rata to £33,736 - £39,997 for hours and weeks stated (£33,899 - £40,190 FTE) | Exams and Admissions Officer
+employer: Brixham College
+closing_date: 2026-10-11T23:59:00+01:00
+reason: Clear admin/service title: admissions officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0401b31c28232de05b1465ed4b8e6efe746f1ec56831aa03e1a6267ddee1a69c
+source: Teaching Vacancies
+source_job_id: exams-and-admissions-officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-and-admissions-officer
 ---
 
 ---
@@ -128,17 +143,32 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/people-administrator-
 
 ---
 action: 
-SELECTED | Devon | Teignmouth, TQ14 9HZ | £26,847.00 - £27,274.00 Annually (FTE) Actual starting salary based on 21 hpw / 40 wpy (£13,443pa (including holiday pay)) | Recruitment and People Services Administrator
-employer: Ivy Education Trust
-closing_date: 2026-09-29T09:00:00+01:00
+SELECTED | Devon | Plymouth, South West, PL7 4LT | £26,427.00 - £27,274.00 Annually (FTE) WeST Grade C (scp 5-7) £26,427 – £27,274 FTE, actual salary from £21,410.99 per annum | Post 16 Administrator and Study Supervisor
+employer: Hele's School
+closing_date: 2026-10-12T09:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: d95d1c590eefd1a3be0113fa44c162b07a9e74aaaa66a748be3b37496777e18b
+factual_fingerprint: aad4a13f621b5caea47ee9ee1056e667fec2da0d61329d12c6f00862f837f35a
 source: Teaching Vacancies
-source_job_id: recruitment-and-people-services-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/recruitment-and-people-services-administrator
+source_job_id: post-16-administrator-and-study-supervisor
+source_url: https://teaching-vacancies.service.gov.uk/jobs/post-16-administrator-and-study-supervisor
+---
+
+---
+action: 
+SELECTED | Devon | Paignton, South West, TQ3 2AL | £25,923.00 Annually (FTE) £23,755 actual | School Administrator
+employer: Brunel School
+closing_date: 2026-10-09T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 91b3a1b0d1ffc0e5f5bccd15c71fc0392cba438ed4393c1f535d5286cbdd6059
+source: Teaching Vacancies
+source_job_id: school-administrator-1732ecba-2bb1-485d-9ab8-04529470023c
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-1732ecba-2bb1-485d-9ab8-04529470023c
 ---
 
 ---
@@ -254,10 +284,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 
 ## HARD_PASS
 
-- [[260909] Office Manager](https://teaching-vacancies.service.gov.uk/jobs/260909-office-manager) — Manager title salary ceiling £33,673 is not below £28,000.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-torquay-boys-grammar-school-torquay-devon) — Insufficient admin/service evidence.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-0263aaa9-e252-4340-b2d6-102751e90f65) — Insufficient admin/service evidence.
-- [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-chulmleigh-community-college) — Missing salary or pay scale.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-dartmoor-multi-academy-trust) — Insufficient admin/service evidence.
 - [Finance Business Partner - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-maternity-cover) — Insufficient admin/service evidence.
 - [People Advisor ( Devon Cluster)](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-devon-cluster) — Insufficient admin/service evidence.

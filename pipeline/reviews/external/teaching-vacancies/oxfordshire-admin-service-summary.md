@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-09-28
-review_fingerprint: e6e140076825c0690f78a02def1c9847f4b42cab4a3c3e9db2e776c1924bcdcb
-routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
+review_date: 2026-09-29
+review_fingerprint: a342a1688ed44f0980742603e4f8b93c79f6bdbead30b5e5f8b1566988a1bb1e
+routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 7
+- Records: 12
+- Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -83,21 +83,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-insights-and-exa
 
 ---
 action: 
-SELECTED | Oxfordshire | Wantage, South East, OX12 7GQ | £24,796.00 - £26,403.00 Annually (FTE) NJC 3 – 7 (dependent on experience). Pro rata will be subject to hours. Paid for 44.65 weeks annual pay | Office Administrator
-employer: Wantage Primary Academy
-closing_date: 2026-09-28T23:59:00+01:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 79885fdaefbb49d1b5aaaedf099dc71015ee7a0c6a9c9916fb8c0813be784059
-source: Teaching Vacancies
-source_job_id: office-administrator-wantage-primary-academy-wantage-oxfordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-wantage-primary-academy-wantage-oxfordshire
----
-
----
-action: 
 SELECTED | Oxfordshire | Faringdon, South East, SN7 7LB | £26,016.00 - £26,427.00 Annually (FTE) Support Staff NJC grade 4, SCP 4-5. 37 hours per week/38 weeks per year. Actual annual salary in the region of £21,813 to £22,158 | Receptionist
 employer: Faringdon Community College
 closing_date: 2026-10-12T12:00:00+01:00
@@ -149,7 +134,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-assistant-the-sw
 
 ## HARD_PASS
 
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-heyford-park-school) — Manager title salary ceiling £31,022 is not below £28,000.
 - [Procurement Contract Performance Manager *Hybrid Role*](https://teaching-vacancies.service.gov.uk/jobs/procurement-contract-performance-manager-hybrid-role) — Manager title salary ceiling £55,225 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-edward-feild-primary-school) — Manager title salary ceiling £39,482 is not below £28,000.
 - [School Premises and Compliance Manager](https://teaching-vacancies.service.gov.uk/jobs/school-premises-and-compliance-manager) — Manager title salary ceiling £36,050 is not below £28,000.

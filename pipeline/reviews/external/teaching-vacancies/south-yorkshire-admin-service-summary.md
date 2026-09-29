@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-09-28
-review_fingerprint: e2a443f1680f7d5cba053ccf884ef7b1b3f002975ecfffd18b75c66da16381cc
-routing_manifest_sha256: 572e007c3e2fdd8e674f8d69f7d8f3bf2a66633a21b598a829b88b167060619a
+review_date: 2026-09-29
+review_fingerprint: 9bb38f45e8535eef6191f7b16b6d4c5adfabe85bfed1295f2733e7d7300d0df5
+routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 24
+- Records: 26
 - Selected: 10
-- POSS awaiting decision: 2
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 12
+- Hard pass: 13
 
 ## SELECTED
 
@@ -68,14 +68,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-part-
 
 ---
 action: 
-SELECTED | Yorkshire - South | Doncaster, Yorkshire and the Humber, DN2 5JG | £19,107.00 - £20,690.00 Annually (Actual) GRade 6 (Point 6-11) | Administration Assistant
+SELECTED | Yorkshire - South | Doncaster, Yorkshire and the Humber, DN2 5JG | £19,107.00 - £20,690.00 Annually (Actual) Grade 6 (Point 6-11) | Administration Assistant
 employer: Our Lady of Mount Carmel Catholic Primary School
 closing_date: 2026-10-05T09:00:00+01:00
 reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: d0fe57dd90a94a59e9b3af4b16bdd63291f649fd40b01a29c6168a1bf7ae9e01
+factual_fingerprint: a2e902b45b5ab8490a721a2e7d195f2968986fb30169f599e205ffdd049a984c
 source: Teaching Vacancies
 source_job_id: administration-assistant-our-lady-of-mount-carmel-catholic-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-our-lady-of-mount-carmel-catholic-primary-school
@@ -190,6 +190,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-office
 
 ---
 action: 
+POSS | Yorkshire - South | Sheffield, Yorkshire and the Humber, S13 8HH | £27,274.00 - £29,542.00 | Attendance & Admin Officer
+employer: Athelstan Primary School
+closing_date: 2026-10-20T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f816621a5ec64f1622c07b7111bf3190cc6350764f12b24cc6c3338aea072e29
+source: Teaching Vacancies
+source_job_id: attendance-admin-officer-athelstan-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-admin-officer-athelstan-primary-school
+---
+
+---
+action: 
 POSS | Yorkshire - South | Rotherham, Yorkshire and the Humber, S66 8AB | Band E Point 7 to 11 £27,264 to £29,071 per annum Actual Salary £23,433 - £24,977 | Data Officer
 employer: Maltby Academy
 closing_date: 2026-10-05T09:00:00+01:00
@@ -216,6 +231,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-maltby-a
 - [Business Support Manager](https://teaching-vacancies.service.gov.uk/jobs/business-support-manager-beck-primary-school-sheffield-south-yorkshire) — Manager title salary ceiling £40,921 is not below £28,000.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-st-clare-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-ridgewood-school) — Insufficient admin/service evidence.
+- [Finance & Admin Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-admin-manager-d96b3a8a-2064-4ef9-a6f2-d501737f9290) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-sheffield-park-academy-sheffield-south-yorkshire) — Manager title salary ceiling £53,500 is not below £28,000.
 - [Governance and Executive Support Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-and-executive-support-officer) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-42e231a7-dcef-4bf5-a3d7-0eb145f4ac02) — Insufficient admin/service evidence.
