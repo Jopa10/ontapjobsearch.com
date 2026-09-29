@@ -1049,11 +1049,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9384-26-0858",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9384-26-0858",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5599747",
@@ -1071,11 +1067,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0103-26-0062",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0103-26-0062",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5619426",
@@ -1093,11 +1085,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2573",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2573",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5604356",
@@ -1115,11 +1103,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5706-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5706-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5592510",
@@ -1137,10 +1121,6 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0455-26-0025",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0455-26-0025",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   }
 ]

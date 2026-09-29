@@ -14,6 +14,18 @@ Edit only each `action:` line for POSS rows. Unchanged decisions are restored by
 
 ---
 action:
+POSS | NHS Jobs | — | Remote with travel to site, M3 5NA | £29000.00 | Governance - Team Administrator
+source_job_id: 5627915
+title: Governance - Team Administrator
+employer: Omnes Healthcare Limited
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1797-26-0203
+factual_fingerprint: bca5ee8ff4290eec7a024ff2d0851713d011a6ba56139f2af6962bf5764e811f
+---
+
+---
+action:
 POSS | NHS Jobs | — | Stockton, TS18 1TW | £35000.00 to £40000.00 | Operations Lead - NENC Primary Care Collaborative
 source_job_id: 5628492
 title: Operations Lead - NENC Primary Care Collaborative
@@ -5061,7 +5073,7 @@ employer: Buckinghamshire Healthcare NHS Trust
 region: Buckinghamshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9434-26-0636
-factual_fingerprint: bf69477098dc2e173a731b185deba7abe41158bc35f741f92d9de8290f545ded
+factual_fingerprint: 9b5af5e57e7ce265fb865184a9c73587ee5179897b19826e40725e7bc9abe895
 ---
 
 ---
@@ -14530,18 +14542,6 @@ region: Hampshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9470-26-0522
 factual_fingerprint: f01beca77c5fa30eca169336b8dd47673f94a7f4666f010bb47c52512ef06e80
----
-
----
-action:
-POSS | NHS Jobs | Yorkshire - West | Leeds, LS9 7TF | £28392.00 to £31157.00 | PMO Administrator
-source_job_id: 5604762
-title: PMO Administrator
-employer: Leeds Teaching Hospitals
-region: Yorkshire - West
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-0962
-factual_fingerprint: c09865c1a5f69005b643352ec32ab04a2287fa9f8a0b33698aa8b92b8b51b7b2
 ---
 
 ---
