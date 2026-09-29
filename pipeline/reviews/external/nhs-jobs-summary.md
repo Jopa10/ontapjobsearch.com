@@ -2,13 +2,13 @@
 
 review_date: 2026-09-29
 
-- Open Administrative & Clerical rows reviewed: 2279
-- Auto/remembered selected: 448
-- Selected HC Tier A: 231
+- Open Administrative & Clerical rows reviewed: 2278
+- Auto/remembered selected: 449
+- Selected HC Tier A: 232
 - Selected HC Tier B: 217
-- POSS awaiting decision: 1710
+- POSS awaiting decision: 1707
 - Excluded: 0
-- HARD_PASS: 121
+- HARD_PASS: 122
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
 
@@ -6050,18 +6050,6 @@ factual_fingerprint: 3d903c912942c20660d4ebd7255cbd9731fb0f4ed5b0e59d5460f5da3ab
 
 ---
 action:
-POSS | NHS Jobs | London | London, SE5 9RS | £34186.00 to £37389.00 | Bereavement Officer
-source_job_id: 5611582
-title: Bereavement Officer
-employer: King's College Hospital NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9213-26-0829
-factual_fingerprint: ad1cbee1b24615f2a48d4d5e79328f4062e6fde4c938d0fa9af9abbe1a85d14c
----
-
----
-action:
 POSS | NHS Jobs | East Midlands | Alfreton, DE55 4JJ | £12.98 | Part-Time GP Receptionist
 source_job_id: 5623114
 title: Part-Time GP Receptionist
@@ -11678,18 +11666,6 @@ factual_fingerprint: 65defee38b07de6500b23c91ef1c679a8dcd026d7cc1f97ed168fb78dfa
 
 ---
 action:
-POSS | NHS Jobs | Shropshire | Telford, TF3 3DD | £25272.00 | Community Diagnostic Centre Receptionist
-source_job_id: 5614354
-title: Community Diagnostic Centre Receptionist
-employer: The Shrewsbury and Telford Hospital NHS Trust
-region: Shropshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9223-26-0930
-factual_fingerprint: fd6b019a3a434c7c1197df86b1401d5f0d116ab877b83aaa708b9193490b03a0
----
-
----
-action:
 POSS | NHS Jobs | Greater Manchester - Manchester & Salford | Manchester, M8 5RB | £66582.00 to £77368.00 | NMGH New Hospital Senior Equipment Project Manager
 source_job_id: 5614317
 title: NMGH New Hospital Senior Equipment Project Manager
@@ -13414,18 +13390,6 @@ region: North East
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9980-26-0133
 factual_fingerprint: 738a25adba8ffee7738ccdadaf9d2e70c9446d9194c3c87ccd104b65b86ddcc4
----
-
----
-action:
-POSS | NHS Jobs | London | Southall, UB1 3HW | £30630.00 to £32346.00 | Audiology Admin Coordinator
-source_job_id: 5611079
-title: Audiology Admin Coordinator
-employer: London North West University Healthcare NHS Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9337-26-0760
-factual_fingerprint: eeac378332ec25fa195a1ece1b91f2967c69580ed48c3152c5c71c0518e0ff50
 ---
 
 ---

@@ -375,31 +375,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "1959440",
-    "title": "Graduate HR Administrator",
-    "company": "ARBORVITAE CARE SERVICES LTD - Agency - Permanent",
-    "location": "Warrington",
-    "region": "Cheshire - Warrington & Halton",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Are you a recent graduate looking to build a rewarding career in Human Resources? We are seeking a motivated and organised Graduate HR Administrator to join our growing HR team.\n\nThis is an excellent opportunity for someone who is passionate about people, keen to develop their HR knowledge, and looking to gain hands-on experience across the full employee lifecycle within a supportive and professional environment.\n\nKey Responsibilities\n- Provide administrative support to the HR team across all HR activities.\n- Maintain accurate employee records and HR databases.\n- Assist with recruitment processes, including advertising vacancies, screening applications, and coordinating interviews.\n- Support onboarding and induction activities for new starters.\n- Prepare employment contracts, offer letters, and HR documentation.\n- Assist with payroll administration and employee benefits processes.\n- Monitor absence records and support leave management procedures.\n- Respond to employee queries in a professional and timely manner.\n- Ensure HR records remain compliant with company policies and employment legislation.\n- Support HR projects, employee engagement initiatives, and training activities.\n\nAbout You\n\nWe are looking for someone who:\n- Holds a degree in Human Resources, Business, Psychology, or a related subject (or is due to graduate soon).\n- Has excellent organisational and administrative skills.\n- Possesses strong written and verbal communication abilities.\n- Is proficient in Microsoft Office, particularly Excel, Word, and Outlook.\n- Demonstrates strong attention to detail and accuracy.\n- Can manage multiple tasks and prioritise effectively.\n- Maintains confidentiality and professionalism at all times.\n- Is enthusiastic, proactive, and eager to learn.\n\nDesirable\n- Previous administrative, customer service, or internship experience.\n- Knowledge of HR processes or employment law.\n- Interest in studying towards a CIPD qualification.\n\nWhat We Offer\n- Competitive salary and benefits package.\n- Full training and development support.\n- Opportunity to work towards a CIPD qualification.\n- Career progression within a growing HR function.\n- Friendly and collaborative working environment.\n- Hybrid/flexible working options.\n- Generous holiday allowance and company benefits.\n\nHow to Apply\n\nIf you're ready to take the first step in your HR career and develop your skills within a supportive organisation, we'd love to hear from you.\n\nApply today with your CV and a brief cover letter outlining why you're interested in the role.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?UzhMt9n%2bTsSp4nrCEkz%2fBu7xfe1%2b1mnOm",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "What We Offer - Competitive salary and benefits package. - Full training and development support. - Opportunity to work towards a CIPD qualification. - Career progression within a growing HR function. - Friendly and collaborative working environment. - Hybrid/flexible working options. - Generous holiday allowance and company benefits.",
-    "advertiser_name": "ARBORVITAE CARE SERVICES LTD",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "1906561",
     "title": "Accounts Assistant",
     "company": "Bis Henderson - Agency - Permanent",
@@ -840,7 +815,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9835-WA26-130",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9835-WA26-130",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5543509",
@@ -858,6 +837,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5911-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5911-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

@@ -56,31 +56,6 @@
     "posted_date_basis": "source"
   },
   {
-    "job_id": "107919550",
-    "title": "Aftersales Service Advisor",
-    "company": "Arden White Limited - Agency - Permanent",
-    "location": "Wiltshire",
-    "region": "Wiltshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "35000",
-    "salary_max": "35000",
-    "salary_text": "£35000 per year",
-    "posted_date": "",
-    "description": "Arden White Automotive Recruitment Specialists are delighted to present an exciting opportunity for an experiencedService Advisor to join a premium automotive brand that is known for its innovation, quality, and customer excellence. This is a fantastic opportunity for a skilled service professional to take the next step in their career to the role ofService Advisor click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX7CGz9i0vRQpiMswsqr3Yqaz",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Arden White Limited",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "1899617",
     "title": "Assistant Accountant",
     "company": "Robert Half - Agency - Permanent",
@@ -621,7 +596,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5768-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5768-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5591907",
@@ -639,7 +618,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2439",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2439",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5618620",
@@ -657,7 +640,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0863-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0863-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5614143",
@@ -675,7 +662,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3442-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3442-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5607369",
@@ -693,6 +684,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9269-26-0366",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9269-26-0366",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

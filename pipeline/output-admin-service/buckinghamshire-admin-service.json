@@ -618,31 +618,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107996202",
-    "title": "Artist Relations and Events Coordinator",
-    "company": "NFP People - Agency - Contract",
-    "location": "Buckinghamshire",
-    "region": "Buckinghamshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Contract",
-    "salary_min": "30000",
-    "salary_max": "30000",
-    "salary_text": "£30000 per year",
-    "posted_date": "",
-    "description": "Artist Relations and Events Coordinator\n\nWe are seeking a highly organised coordinator to support artist engagements, events and Christian partnerships across the UK.\n\nPosition: Artist Relations and Events Coordinator\n\nLocation: Milton Keynes/Hybrid\n\nSalary: £32,500 to £34,937 per annum, depending on experience\n\nHours: Full-time, 36 click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?MQiKzVwZdh0kDR53H47YsV1vBzamKcKVu",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "Position: Artist Relations and Events Coordinator Location: Milton Keynes/Hybrid Salary: £32,500 to £34,937 per annum, depending on experience Hours: Full-time, 36 click apply for full job details Buckinghamshire Buckinghamshire",
-    "advertiser_name": "NFP People",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "107877794",
     "title": "Repairs Coordinator / Customer Care Coordinator",
     "company": "A.D.S Construction Personnel Ltd - Agency - Permanent",
@@ -683,7 +658,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2885",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2885",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5607494",
@@ -701,7 +680,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5367-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5367-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5543958",
@@ -719,7 +702,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3962-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3962-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5619604",
@@ -737,7 +724,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0123TMP",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0123TMP",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5618527",
@@ -755,6 +746,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0121CHMC",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0121CHMC",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

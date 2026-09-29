@@ -340,31 +340,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "1893615",
-    "title": "Finance Assistant",
-    "company": "Pure Resourcing Solutions - Agency - Permanent",
-    "location": "Norfolk",
-    "region": "Norfolk",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Temporary Finance Assistant\n3 months plus\nNorwich\n\nA fantastic opportunity for a Finance Assistant has arisen with a wonderful, well-known Norwich-based organisation.\n\nSupporting the wider team, this role will involve the following tasks:\n- Purchase ledger and Sales ledger duties\n- Supplier statement reconciliations\n- Assisting with banking and bank reconciliations\n- Processing expenses\n\nExperience in a similar role is required, along with the availability to start at short notice.\n\nPlease apply by submitting your CV or contacting Caroline Meeson at Pure.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbyVRnaRnyUxvGrXomr551adt",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Pure Resourcing Solutions",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "1912235",
     "title": "Service Advisor",
     "company": "Perfect Placement Uk Ltd - Agency - Permanent",
@@ -615,31 +590,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107919491",
-    "title": "Recovery Coordinator",
-    "company": "Julian Support - Agency - Permanent",
-    "location": "Norfolk",
-    "region": "Norfolk",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "30000",
-    "salary_text": "£30000 per year",
-    "posted_date": "",
-    "description": "Recovery Coordinator - Spider is advertising on behalf of Julian Support, who are looking for a Recovery Coordinators to join their ARCH (Accessing Resource from Crisis to Home) team on a full-time basis.\n\nThere are two opportunities available: one permanent Recovery Coordinator position covering East Norfolk/Waveney, and one Peripatetic Recovery Coordinator position on a fixed-term contract until 3 click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?ju9emE%2fz0VKMoT3tJNIKBQtca%2bTUVSZ9w",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Julian Support",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "nhs-5621955",
     "source": "NHS Jobs",
     "title": "Administrator",
@@ -655,7 +605,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0179-1095",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0179-1095",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5623950",
@@ -673,7 +627,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0977-250926",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0977-250926",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5615591",
@@ -691,7 +649,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1540-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1540-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5572899",
@@ -709,6 +671,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0782",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0782",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

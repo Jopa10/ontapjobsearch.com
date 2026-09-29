@@ -1674,6 +1674,28 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "nhs-5288592",
+    "source": "NHS Jobs",
+    "title": "Receptionist",
+    "company": "Angel Lane Surgery",
+    "advertiser_name": "Angel Lane Surgery",
+    "location": "Essex, CM6 1AQ",
+    "region": "Essex",
+    "salary": "£12.71",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-29T10:13:23.445602777",
+    "closing_date": "2026-10-30",
+    "description": "We are currently recruiting for receptionists at our G.P Surgery, we can offer either part-time or full-time hours to suit any successful applicant, these roles are perfect for motivated individuals eager to join our team and help provide the best experience for our patients. We are a small G.P practice in the town of Great Dunmow in Essex serving approximately 13,000 patients. A knowledge of EMIS would be preferable but full training will be given to the successful applicant(s). We are looking for candidates who can be flexible within the role and have the capability to meet the daily needs of the practice and be able to support their team with cover and for absences and annual leave when required. The successful candidate(s) will greet patients and visitors warmly to ensure a positive first impression of our surgery. They will undertake duties including answering incoming telephone calls promptly from patients or healthcare professionals. Provide accurate information and direct inquiries appropriately, this can be face to face with patients, by telephone or on our online service. Remain professional, patient and calm in situations which can be stressful. They will assist patients with queries, book appointments and will work alongside our dispensary team and all clinicians. We are advertising to recruit receptionists for our G.P practice. The successful candidate needs to be flexible within the role and have the ability to adapt to the daily needs of the practice and our patients and be willing to cover annual leave and absences when required. They will need to, assist and direct patients in accessing the service required in a polite, efficient and effective way. They must be willing to give assistance to the whole practice team and radiate a positive and friendly image to patients and other visitors, whether in person or via the telephone. They will need to work efficiently with all their reception team members and surgery colleagues to ensure that patients receive the very best, professional service that we pride ourselves on.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5897-26-0000",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5897-26-0000",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5620717",
     "source": "NHS Jobs",
     "title": "Administration Assistant",
@@ -1689,7 +1711,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-0914",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-0914",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5614538",
@@ -1707,7 +1733,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M9301-26-0233",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M9301-26-0233",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5611929",
@@ -1725,7 +1755,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1948-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1948-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5582118",
@@ -1743,7 +1777,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3759-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3759-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5446642",
@@ -1761,7 +1799,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0084",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0084",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5616270",
@@ -1779,7 +1821,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-0907",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-0907",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5579637",
@@ -1797,7 +1843,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0854",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0854",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5605464",
@@ -1815,6 +1865,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5923-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5923-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

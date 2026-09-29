@@ -1295,25 +1295,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3961-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3961-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
-  },
-  {
-    "job_id": "nhs-5619618",
-    "source": "NHS Jobs",
-    "title": "Clerical Officer",
-    "company": "Leeds Teaching Hospitals",
-    "advertiser_name": "Leeds Teaching Hospitals",
-    "location": "Leeds, LS9 7TF",
-    "region": "Yorkshire - West",
-    "salary": "£25272.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-09-24T07:48:06.671333149",
-    "closing_date": "2026-10-08",
-    "description": "Do you have excellent organisational skills with attention to detail to succeed in an administrative role? At the Immunology and Allergy department and Bronchoscopy Department, we are looking for a friendly, self-motivated and enthusiastic individual to provide comprehensive administration service and clerical support and be a part of our team at St James Hospital. You will be joining our supportive and positive team that combines of administration staff, secretaries, doctors and nurses. At LTHT, we pride ourselves of having the goal to be the best place to work, so if this is a role you are interested in please apply to become the next Clerical Officer at the Immunology and Allergy department! A full programme of training and induction will be given along with the opportunities for professional development in a supportive environment. There is a part-time position (23.5 hours per week) and a full-time (37.5 hours per week) position available. Please contact Jenny Palk by email at jennifer.palk1@nhs.net for further enquiries. Why you should join our Team The successful candidate will be within the Immunology and Allergy team to facilitate the smooth and efficient delivery of the patient administration pathway from referral and throughout the outpatient and inpatient process. You will be providing an efficient, effective and accurate administrative duty to support the delivery of high standard and cost effective treatment of patients. The responsibilities of this role include reception duties, making outpatient appointments, clinic preparation, pre-admitting patients for procedures, dealing with patient enquiries and other healthcare professionals and filing of results. Therefore having excellent communication, being able to work as part of a team as well as being able to use own initiative and working towards deadlines are the skills to be successful at this role. If you have the skills to take on this role, please apply. We want you on our team! Criteria: Educated to GCSE Grade C or above in English and Maths Willingness to undertake further professional development and training Knowledge of Computerised Office Systems An Administrative qualification eg CLAIT, IBT (desirable) Experience in dealing with members of the public in an working environment Previous NHS experience including Reception/Office Administration experience (desirable) Experience of using administrative systems including data entry, operation of hospital out-patient receptions and inpatient pathways (desirable) A good team player, with the ability to work in a diverse and demanding environment in a multidisciplinary team Excellent communication skills both verbally and written that are clear and concise Effective interpersonal skills Good organisational and time management skills Basic computer literacy and willingness to further undergo training Ability to use the Trusts Patient Administration System (desirable) Our Trust values The Leeds Way is working together to support each other and deliver the best possible care to patients. We are…. Responsible Open and Honest One Team Kind Our Trust priorities Our purpose: Excellent, safe and sustainable care for every patient every time Our priorities: People Improvement and Innovation Partnerships Outcomes To comply with UK Government regulations on Skilled Worker sponsorship, Leeds Teaching Hospital NHS Trust is unable to provide sponsorship to applicants who do not meet the eligibility criteria or the salary threshold concessions set out under the Skilled Worker visa route. Please take this into consideration before submitting your application. Full guidance on these concessions, including details of who may qualify, can be found here. We reserve the right to close this advert early if we receive a high number of suitable applications.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-1013",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-1013",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5618845",
@@ -1331,7 +1317,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9173-26-0453",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9173-26-0453",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5617512",
@@ -1349,7 +1339,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0368-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0368-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5486478",
@@ -1367,7 +1361,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4884-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4884-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5603778",
@@ -1385,7 +1383,33 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0447",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0447",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5630977",
+    "source": "NHS Jobs",
+    "title": "Care Navigator / Receptionist",
+    "company": "Lofthouse Surgery",
+    "advertiser_name": "Lofthouse Surgery",
+    "location": "Wakefield, WF3 3SA, Leeds, LS26 0AE",
+    "region": "Yorkshire - West",
+    "salary": "£13.24",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-29T16:10:14.300457032",
+    "closing_date": "2026-10-23",
+    "description": "An exciting opportunity has arisen for a Care Navigator / Receptionist to join our busy team, working at both our Lofthouse Site and The Manse, our Rothwell Site. The current vacancy we have available is for 30 hours a week over a 5 day period (Monday to Friday) - 6 hours a day from 12:30 - 18:30. The practice working day is between 07:45 and 18:30, the successful applicant will be willing to work flexibly when needed. Interviews to be held week commencing 2nd November. Care Navigators are the first line of contact with our patients and visitors. This is a varied role that includes face to face and telephone contact with patients as well as administrative duties. You will work as part of a team of Care Navigators, maintaining a high quality and efficient service for the patients, Doctors and Nurses. Reception experience/customer service is desirable, but training will be given to the successful candidate. To receive, assist and direct patients in accessing the appropriate service or healthcare professional, in a courteous, efficient, and effective way. Provide general assistance to the Practice team and project a positive and friendly image to patients and other visitors, either in person or via the telephone. Act as a Care Navigator, signposting patients to appropriate NHS services or appropriate Health Professional to meet their needs. In addition, the post holder will also support the multi-disciplinary team, providing administrative support as required, in line with the needs of the organisation. We pride ourselves in our friendly practice, and if you feel you could be part of our team please do get in touch.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0058-26-0009",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0058-26-0009",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5620676",
@@ -1403,7 +1427,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5995-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5995-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5611927",
@@ -1421,7 +1449,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0320-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0320-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5603161",
@@ -1439,7 +1471,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0721-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0721-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5056947",
@@ -1457,7 +1493,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4396-25-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4396-25-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5529086",
@@ -1475,6 +1515,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5649-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5649-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

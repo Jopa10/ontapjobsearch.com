@@ -75,6 +75,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "2041225",
+    "title": "Credit Controller",
+    "company": "Edwards & Pearce - Doncaster - Agency - Permanent",
+    "location": "Hull",
+    "region": "Yorkshire - East",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Edwards & Pearce are assisting a prominent client in Hull who is keen to recruit an experienced Credit Controller. Applicants must be time served from a busy credit control environment and show tenacity, assertiveness and strong communication skills whilst managing all aspects of Credit Control. The client offers excellent benefits which include hybrid work pattern and a generous holiday entitlement.\n\nTHE ROLE\nPermanent position, full time hours, hybrid working available\nAll aspects of credit control from assessing initial risk to solving queries\nTo proactively manage the reduction of the company's UK and global debt\nBuild and maintain relationships with clients throughout the credit procedure\nIdentify, investigate and resolve all issues with client accounts\nAccurately complete administration and debtor reports related to credit control\n\nTHE CANDIDATE\nApplicants must have a proven history working within credit control including managing high volume debtors lists\nConfidence to forge / develop business relationships in order to retrieve debt\nBe able to accurately maintain customer contact, payments and records\nPossess credit knowledge to successfully resolve account irregularities\nBe highly accurate, tenacious, assertive and possess strong negotiating skills\nGood standard of IT literacy including Microsoft Word & Excel\n\nTHE BENEFITS:\nHybrid work pattern\nHealth care\nAbove average holidays\n\nThe Consultancy:\nEdwards & Pearce acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. Edwards & Pearce is an Equal Opportunities Employer.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?QHpHeWTcrP5CsQ8UHQB0P3qRRsymw48by",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "The client offers excellent benefits which include hybrid work pattern and a generous holiday entitlement.",
+    "advertiser_name": "Edwards & Pearce - Doncaster",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "1982338",
     "title": "Family Support Coordinator",
     "company": "Coram - Agency - Permanent",
@@ -240,7 +265,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E9810-26-0310",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E9810-26-0310",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5614089",
@@ -258,6 +287,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9356-26-0632",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9356-26-0632",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
