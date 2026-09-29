@@ -32,7 +32,7 @@ Edit only each `action:` line:
 ## JobG8 — 1 to review
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | London | £54,486 per annum | Interim Head of Governance & Company Secretary
 source_key: jobg8
 source: JobG8
