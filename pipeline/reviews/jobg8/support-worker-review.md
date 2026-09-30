@@ -31,7 +31,11 @@ job_id: 2039210
 
 ## WEST YORKSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - YORKSHIRE - WEST | Yorkshire - West | Huddersfield | £13.30-£16.25 per hour | Home Care Assistant
+job_id: 1986485
+---
 
 ## SOUTH YORKSHIRE — SELECTED
 
@@ -39,6 +43,24 @@ _No jobs in this group._
 action:
 SELECTED | Yorkshire - South | Sheffield | £13.15 Per Hour | Night Support Worker
 job_id: 1938182
+---
+
+---
+action:
+SELECTED | Yorkshire - South | Barnsley | £13.45 per hour | Rehabilitation Support Worker
+job_id: 1978086
+---
+
+---
+action:
+SELECTED | Yorkshire - South | Barnsley | £13.45 per hour | Hybrid Rehabilitation Support Worker
+job_id: 1978049
+---
+
+---
+action:
+SELECTED | Yorkshire - South | Sheffield | £13.45 per hour | Outreach Rehabilitation Support Worker
+job_id: 1978160
 ---
 
 ---
@@ -137,12 +159,6 @@ SELECTED | Sussex | Haywards Heath | £39134 per year | Healthcare Assistant
 job_id: 107863056
 ---
 
----
-action:
-SELECTED | Sussex | Eastbourne | £14.31 per hour | Night Care Assistant
-job_id: 108051484
----
-
 ## SUSSEX — POSSIBLES
 
 _No jobs in this group._
@@ -155,23 +171,11 @@ SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour () will be pai
 job_id: 108001475
 ---
 
----
-action:
-SELECTED | Cumbria - South | Appleby-in-westmorland | £30000 per year | Childrens Residential Support Worker
-job_id: 108027339
----
-
 ## CUMBRIA SOUTH — POSSIBLES
 
 _No jobs in this group._
 
 ## HAMPSHIRE — SELECTED
-
----
-action:
-SELECTED | Hampshire | Southampton | £13.45 - £14.00 per hour | Support Worker (Learning Disabilities)
-job_id: 1856912
----
 
 ---
 action:
@@ -205,14 +209,14 @@ job_id: 108004872
 
 ---
 action:
-SELECTED | Hampshire | Winchester | £28697 - £31573 per year | Children's Homes Support Worker
-job_id: 1401785482
+SELECTED | Hampshire | Alton | £14.43 per hour | Care Assistant
+job_id: 1980850
 ---
 
 ---
 action:
-SELECTED | Hampshire | Ryde | £39134 per year | Healthcare Assistant
-job_id: 107856243
+SELECTED | Hampshire | Winchester | £28697 - £31573 per year | Children's Homes Support Worker
+job_id: 1401785482
 ---
 
 ---
@@ -237,6 +241,12 @@ job_id: 1401785277
 action:
 SELECTED | Hampshire | Eastleigh | £32780 - £35564 per year (Market Supplement, plus Enhancements) | Secure Children's Home Support Worker
 job_id: 1401785578
+---
+
+---
+action:
+SELECTED | Hampshire | Southampton | £14.31 per hour | Night Care Assistant
+job_id: 108051561
 ---
 
 ## HAMPSHIRE — POSSIBLES
@@ -265,6 +275,18 @@ job_id: 1957967
 
 ---
 action:
+SELECTED | Kent | Tunbridge Wells | £14.43 per hour | Care Assistant
+job_id: 1981559
+---
+
+---
+action:
+SELECTED | Kent | Sevenoaks | £14.43 per hour | Care Assistant
+job_id: 1981486
+---
+
+---
+action:
 SELECTED | Kent | Tunbridge Wells | £15.77 per hour | Brain Injury Support Worker
 job_id: 1996389
 ---
@@ -277,20 +299,14 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | London | London | £28028 per year | Support Worker - Male Only (GOR)
-job_id: 1857768
----
-
----
-action:
-SELECTED | London | Bromley | £14.25 per hour | Community Care Assistant
-job_id: 1858304
----
-
----
-action:
 SELECTED | London | London | £28860 per year | Care Assistant
 job_id: 1990764
+---
+
+---
+action:
+SELECTED | London | London | £16.95 per hour | Relief Worker - Care Assistant
+job_id: 2049393
 ---
 
 ## LONDON — POSSIBLES
@@ -335,6 +351,12 @@ SELECTED | Surrey | Caterham | £14.50 per hour | Female Healthcare Assistant
 job_id: 2021731
 ---
 
+---
+action:
+SELECTED | Surrey | Redhill | £26000 per year | Female Support Worker
+job_id: 108043110
+---
+
 ## SURREY — POSSIBLES
 
 _No jobs in this group._
@@ -343,20 +365,8 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Wiltshire | Chippenham | £85 - £110 per daily | Autism Support Assistant
-job_id: 107869953
----
-
----
-action:
 SELECTED | Wiltshire | Chippenham | £39134 per year | Healthcare Assistant
 job_id: 107879735
----
-
----
-action:
-SELECTED | Wiltshire | Trowbridge | £85 - £110 per daily | Autism Support Assistant
-job_id: 107869969
 ---
 
 ## WILTSHIRE — POSSIBLES
