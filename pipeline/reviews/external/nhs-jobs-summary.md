@@ -2,15 +2,51 @@
 
 review_date: 2026-09-30
 
-- Open Administrative & Clerical rows reviewed: 2351
+- Open Administrative & Clerical rows reviewed: 2353
 - Auto/remembered selected: 449
 - Selected HC Tier A: 233
 - Selected HC Tier B: 216
-- POSS awaiting decision: 1775
+- POSS awaiting decision: 1777
 - Excluded: 0
 - HARD_PASS: 127
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | East Midlands | Alfreton, DE55 5PS, Alfreton, DE556LD, Chesterfield, S425RB | £12.87 | Patient Services Coordinator
+source_job_id: 5633975
+title: Patient Services Coordinator
+employer: Staffa Health
+region: East Midlands
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5184-26-0003
+factual_fingerprint: d3428d40a32f3ecf86e3b74bc39bfcb14d7a15b15f30497bd122bb04fc9db9d5
+---
+
+---
+action:
+POSS | NHS Jobs | West Midlands - Coventry & Warwickshire | Warwick, CV34 5BW | £30205.00 | Access to Information Officer
+source_job_id: 5633967
+title: Access to Information Officer
+employer: Innovate Healthcare Services
+region: West Midlands - Coventry & Warwickshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9203-26-0024
+factual_fingerprint: 1b0c2bc9b48802e378901178d7ffb706cddf7c0aca82f275d848943da0382a73
+---
+
+---
+action:
+POSS | NHS Jobs | Somerset | Wiveliscombe, TA4 2BF, TAUNTON, TA21 8BD | £13.50 | PCN Administration Care Co-ordinator
+source_job_id: 5633393
+title: PCN Administration Care Co-ordinator
+employer: Taunton Deane West Primary Care Network
+region: Somerset
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/W0068-26-0010
+factual_fingerprint: 398e2643a4ed5ad36a032fd7bdc3ba9c4ebe3ea806634036096e7abcc67bffbc
+---
 
 ---
 action:
@@ -14170,18 +14206,6 @@ region: Surrey
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9326-26-0610
 factual_fingerprint: 28e063d1f6a43c8348175535679965d9be1cbd74fe15162e3919b8a064a01f1f
----
-
----
-action:
-POSS | NHS Jobs | West Midlands - Birmingham & Solihull | Birmingham, B31 2AP | £25272.00 | Workforce Information Apprentice
-source_job_id: 5612353
-title: Workforce Information Apprentice
-employer: The Royal Orthopaedic Hospital NHS Foundation Trust
-region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9303-26-0133
-factual_fingerprint: 80a6b46c49703673ae453e37fe394324ef0e4713b7564553cf314ceb3e785bd7
 ---
 
 ---
