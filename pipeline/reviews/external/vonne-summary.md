@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-09-29
-review_fingerprint: af1e53f46433fe63057817dd51600781f3042d3843aaa41943515c6888bcfb2c
+review_date: 2026-09-30
+review_fingerprint: 45bafec8f587e313dbd345f137d52d8651e4c880efb440b97cb0c18dc33cc7c5
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,10 +10,10 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-09-29T14:13:50+01:00
+Run generated: 2026-09-30T13:54:12+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 320
-Approved NEJobs comparison rows: 2
+JobG8 comparison rows: 138
+Approved NEJobs comparison rows: 0
 
 ## Funnel
 - VONNE listings read: 15
@@ -21,17 +21,17 @@ Approved NEJobs comparison rows: 2
 - Detail pages fetched successfully: 2
 - Detail failures/listing fallbacks: 0
 - Obvious hard passes not detail-fetched: 13
-- Tees Valley explicitly excluded: 2
-- Outside or unmapped geography excluded: 1
-- Generic/derived geography rows requiring review: 1
-- Retained target candidates: 12
+- Tees Valley explicitly excluded: 0
+- Outside or unmapped geography excluded: 2
+- Generic/derived geography rows requiring review: 2
+- Retained target candidates: 13
 
 ## Outcomes
 - HC: 0
-- POSS: 3
+- POSS: 4
 - HARD_PASS: 9
 - Final selected after remembered/manual actions: 0
-- Final POSS awaiting decision: 3
+- Final POSS awaiting decision: 4
 - Manually excluded: 0
 ## Detail diagnostics
 - No unresolved detail-page failures.
@@ -54,6 +54,19 @@ tracking_key: vonne-173468
 vacancy_fingerprint: 473cc7b424b8ffe7e0574bf796b773b5212da99c870656e1ac126920e92d4405
 source_job_id: 173468
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173468
+---
+---
+action:
+POSS | North East | Hybrid | £24,480 Per Annum | Policy project intern
+employer: North East Chamber of Commerce
+closing_date: 27 October 2026
+geography: GENERIC_REVIEW — generic VONNE location requires manual North East check
+reason: North East geography is generic or derived and requires review
+source: VONNE
+tracking_key: vonne-173489
+vacancy_fingerprint: bc9ec920b2419dc727fb6c3eda438952c14038d6e91a40ce9e195d7a66d10c1b
+source_job_id: 173489
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173489
 ---
 ---
 action:
@@ -87,10 +100,10 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173475
 
 ## HARD_PASS
 
-- [Advice Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173461) — out-of-scope VONNE occupation.
 - [Age Friendly Engagement Co-ordinator](https://www.vonne.org.uk/vonne-jobs-details?cid=173472) — insufficient service-admin evidence.
 - [Community Health Activator - Researcher (CHAR)](https://www.vonne.org.uk/vonne-jobs-details?cid=173467) — insufficient service-admin evidence.
 - [Grants and Funding Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173425) — out-of-scope VONNE occupation.
+- [Learning Disability Skills Specialist (Part Time)](https://www.vonne.org.uk/vonne-jobs-details?cid=172581) — insufficient service-admin evidence.
 - [Parent Carer Project Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173466) — out-of-scope VONNE occupation.
 - [Recovery Coach](https://www.vonne.org.uk/vonne-jobs-details?cid=173464) — insufficient service-admin evidence.
 - [Recovery Coach](https://www.vonne.org.uk/vonne-jobs-details?cid=173463) — insufficient service-admin evidence.
