@@ -32,7 +32,7 @@ Edit only each `action:` line:
 ## JobG8 — 3 to review
 
 ---
-action:
+action: select
 POSS | JobG8 | Hampshire | Eastleigh | £32780 - £35564 per year (Market Supplement, plus Enhancements) | Secure Children's Home Support Worker
 source_key: jobg8
 source: JobG8
@@ -50,7 +50,7 @@ hub_fingerprint: 92674bb34448eae75ceaf5902a21e4a795134e15378fe6ef6178cf43202e412
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Leicestershire | Leicestershire | £23.00 per hour | Contracts Administrator
 source_key: jobg8
 source: JobG8
@@ -68,7 +68,7 @@ hub_fingerprint: 95da93bff8268bef0d98f556b3cb0eeff8917f61a33046adacfa87433a6f6ee
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Yorkshire - South | Sheffield | — | Assistant Management Accountant
 source_key: jobg8
 source: JobG8
