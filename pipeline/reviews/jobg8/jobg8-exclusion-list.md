@@ -6,9 +6,21 @@ The `excluded_on` date is the day the exclusion decision was made.
 To restore a job, edit only its `action:` line to `action: select`.
 On the next JobG8 run that exact job ID will be restored and removed from this list.
 
-remembered_exclusions: 382
+remembered_exclusions: 383
 
 ## SERVICE / ADMIN — EXCLUDED
+
+---
+action:
+category: service_admin
+excluded_on: 2026-09-30
+title: Contracts Administrator
+employer: Adecco
+region: 
+town: Leicestershire
+salary: 
+job_id: 2042976
+---
 
 ---
 action:

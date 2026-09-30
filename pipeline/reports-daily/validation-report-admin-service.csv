@@ -1,7 +1,7 @@
 ﻿metric,value
 total rows input,15075
-total rows included,1103
-total rows dropped,13970
+total rows included,1104
+total rows dropped,13971
 title classification count - HIGH_CONFIDENCE,1086
 title classification count - ELASTIC_FIT,196
 title classification count - REVIEW_CONTEXT_DEPENDENT,1
@@ -16,13 +16,13 @@ other elastic count - Yorkshire - West,2
 total rows output - Yorkshire - West,39
 job_id included - Yorkshire - West,1860458; 1951245; 1873668; 1867682; 1884403; 1936709; 1945171; 1956696; 1954967; 1948585; 1914030; 1906013; 1895692; 1892117; 2014271; 1927524; 1927518; 1906594; 107993362; 1881992; 1996252; 2039200; 1874082; 1873914; 1936446; 1874588; 1907455; 1873985; 1924718; 1880847; 1900116; 1946946; 1910015; 1907825; 1928245; 1957637; 1959241; 1937623; 1939820
 selection scenario - Yorkshire - South,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - Yorkshire - South,Yorkshire - South manual_select applied additively: 3 row(s) prioritised; 18 selected.
-credible total - Yorkshire - South,18
+selection message - Yorkshire - South,Yorkshire - South manual_select applied additively: 4 row(s) prioritised; 19 selected.
+credible total - Yorkshire - South,19
 high confidence count - Yorkshire - South,13
 anchor elastic count - Yorkshire - South,1
 other elastic count - Yorkshire - South,1
-total rows output - Yorkshire - South,18
-job_id included - Yorkshire - South,1884402; 1884424; 1960387; 1959767; 1905225; 2014257; 2033599; 1871012; 1949982; 1908708; 1899982; 1907486; 2024835; 20279_63174-d24d3d6916a209e15b1680693740da2f; 20279_63174-73862c8b83139033e4e4a8b6efca9a33; 20279_63174-153faf593eb64b88272f45adeaa28d87; 20279_63174-89740a075c6163b74ea2c52702062e5d; 1899397
+total rows output - Yorkshire - South,19
+job_id included - Yorkshire - South,1884402; 2044207; 1884424; 1960387; 1959767; 1905225; 2014257; 2033599; 1871012; 1949982; 1908708; 1899982; 1907486; 2024835; 20279_63174-d24d3d6916a209e15b1680693740da2f; 20279_63174-73862c8b83139033e4e4a8b6efca9a33; 20279_63174-153faf593eb64b88272f45adeaa28d87; 20279_63174-89740a075c6163b74ea2c52702062e5d; 1899397
 selection scenario - North East,SCENARIO_3_MANUAL_SELECTION_APPLIED
 selection message - North East,North East manual_select applied additively: 6 row(s) prioritised; 27 selected.
 credible total - North East,27
