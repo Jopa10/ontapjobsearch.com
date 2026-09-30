@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-09-29
-review_fingerprint: 6415599a0f89daa9b433f9c50087b4c2f6cf672fa227c0d143d32955a7e739ca
-routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
+review_date: 2026-09-30
+review_fingerprint: 927305dab375add3a989df5306208d62557e1ca6cc2e9fa13cf19654044a4850
+routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 7
+- Records: 18
+- Selected: 8
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 9
@@ -38,6 +38,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+SELECTED | Bedfordshire | Bedford, East of England, MK45 2NU | £22,859.00 - £23,594.00 Annually (Actual) | Attendance Officer
+employer: Redborne Upper School and Community College
+closing_date: 2026-10-11T23:59:00+01:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 21d1a910cfeff6fe3750646ac51d304a3081ccc8d97225c741d476f6eec186dd
+source: Teaching Vacancies
+source_job_id: attendance-officer-5c4746af-e5b9-4134-b7ab-8d54523d4fae
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-5c4746af-e5b9-4134-b7ab-8d54523d4fae
+---
+
+---
+action: 
 SELECTED | Bedfordshire | Luton, East of England, LU2 8HJ | £24,470.00 - £26,523.00 Annually (Actual) L4 (actual starting salary £24,470 pa) | Attendance Officer
 employer: Putteridge High School
 closing_date: 2026-10-09T09:00:00+01:00
@@ -49,6 +64,21 @@ factual_fingerprint: fdabaca2bd920573360bed69afcd3757112b0af68008bcb4dc6b69d1c43
 source: Teaching Vacancies
 source_job_id: attendance-officer-putteridge-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-putteridge-high-school
+---
+
+---
+action: 
+SELECTED | Bedfordshire | Luton, LU3 3QN | £16,006.00 - £17,349.00 Annually (Actual) L4 pts 9 - 14 pro rata'd | HR Administrator
+employer: Chiltern Learning Trust
+closing_date: 2026-10-12T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f8e702b9295c8a3d290cc378d095d8a10ef3dcad1aca508fa4829bc15854e61a
+source: Teaching Vacancies
+source_job_id: hr-administrator-d2f90df6-89af-4919-b35e-a47a1e5bf7df
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-d2f90df6-89af-4919-b35e-a47a1e5bf7df
 ---
 
 ---
@@ -111,21 +141,6 @@ source_job_id: receptionist-administrator-maternity-cover-698a8012-ea64-49ee-8f1
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-maternity-cover-698a8012-ea64-49ee-8f10-84f9ae723800
 ---
 
----
-action: 
-SELECTED | Bedfordshire | Luton, East of England, LU2 7JL | £18,846.00 Annually (Actual) | Receptionist/Clerical Assistant
-employer: Richmond Hill School
-closing_date: 2026-09-30T23:59:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c9df544891550807aa6e39f9fb5a7f9d249497ddd96143ed710112fd5a41dfc9
-source: Teaching Vacancies
-source_job_id: receptionist-clerical-assistant-richmond-hill-school-luton-bedfordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-clerical-assistant-richmond-hill-school-luton-bedfordshire
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -152,9 +167,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-manager-all-sain
 - [Admin & Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-finance-assistant-mark-rutherford-school) — Insufficient admin/service evidence.
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-c5af3af6-3ac2-49eb-9534-035eb67e9604) — Manager title salary ceiling £45,401 is not below £28,000.
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-grasmere-nursery-school) — Insufficient admin/service evidence.
-- [Financial Controller](https://teaching-vacancies.service.gov.uk/jobs/financial-controller-e5903e11-7297-4be8-a7c1-2e9280429c10) — Insufficient admin/service evidence.
+- [Financial Controller](https://teaching-vacancies.service.gov.uk/jobs/financial-controller-d16aa33a-3828-4ee7-adc5-957893657a4c) — Insufficient admin/service evidence.
 - [Marketing & Social Media Assistant](https://teaching-vacancies.service.gov.uk/jobs/marketing-social-media-assistant) — Insufficient admin/service evidence.
-- [Officer Manager](https://teaching-vacancies.service.gov.uk/jobs/officer-manager-17efeac4-e980-48de-8ddc-1a2e769d02a2) — Manager title without salary evidence below £28,000.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-greys-education-centre) — Manager title salary ceiling £34,811 is not below £28,000.
 - [Safeguarding Officer](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-officer-redborne-upper-school-and-community-college) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-all-saints-academy-dunstable) — Manager title salary ceiling £44,253 is not below £28,000.
 - [SCHOOL BUSINESS MANAGER](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-putteridge-primary-school) — Manager title salary ceiling £49,282 is not below £28,000.

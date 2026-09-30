@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-09-29
+review_date: 2026-09-30
 review_fingerprint: b342e561128b0214d29ab6d07a13e9d81c251358fde5d59e4d365190f1e4c3fa
-routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
+routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -46,8 +46,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ## HARD_PASS
 
-- [Administration Apprentice](https://teaching-vacancies.service.gov.uk/jobs/administration-apprentice-park-grove-primary-academy) — Insufficient admin/service evidence.
 - [Exams Officer, Data and Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-officer-data-and-cover-manager) — Manager title salary ceiling £30,390 is not below £28,000.
+- [Reception and Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/reception-and-administration-assistant-knavesmire-primary-school) — Insufficient admin/service evidence.
 - [Safeguarding Officer](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-officer-5ec4a7bd-4b3a-4070-92dc-4fd84807f54f) — Insufficient admin/service evidence.
 
 ## Safety boundary

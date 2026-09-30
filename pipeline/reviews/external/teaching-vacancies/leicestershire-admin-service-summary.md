@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-09-29
+review_date: 2026-09-30
 review_fingerprint: 333ac8faca301c3c69d50a08f96bf948f6fb89d2c64a3639677278e396a46184
-routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
+routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 7
 - Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -76,6 +76,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-and-communi
 
 - [Extended Services Club Manager (EXS031BC)](https://teaching-vacancies.service.gov.uk/jobs/extended-services-club-manager-exs031bc-sileby-redlands-community-primary-school) — Manager title salary ceiling £28,146 is not below £28,000.
 - [Finance and Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-and-operations-manager-learn-academies-trust) — Manager title salary ceiling £57,234 is not below £28,000.
+- [School Business Manager ( Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-maternity-cover-keyham-lodge-school) — Manager title salary ceiling £44,109 is not below £28,000.
 - [School Office and SENDO Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-office-and-sendo-administration-assistant) — Insufficient admin/service evidence.
 
 ## Safety boundary

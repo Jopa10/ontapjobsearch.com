@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-09-29
-review_fingerprint: 9b1f673bbefea24780b52efc21b985f1b90ed13d71fa22102c5ecc7d7e80ce9c
-routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
+review_date: 2026-09-30
+review_fingerprint: 0377173d6099e1b4dce7ac33c81ece8524af443414700003bf75175f0915e92e
+routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 4
+- Records: 12
+- Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 5
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Greater Manchester - North | Rochdale, North West, OL12 0ET | Grade 3, Scp 5-6, £10,787.97-£11,043.00 (£26,427-£26,847 FTE) | Administration Assistant - Level 2
+employer: St Patrick's Roman Catholic Primary School
+closing_date: 2026-10-14T23:59:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: edb84ca06584fa16776d98b0b872a98fd1b6c9343fdcb9b37a02b5108db015f4
+source: Teaching Vacancies
+source_job_id: administration-assistant-level-2-st-patrick-s-roman-catholic-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-level-2-st-patrick-s-roman-catholic-primary-school
+---
 
 ---
 action: 
@@ -49,6 +64,21 @@ factual_fingerprint: 22085a544a14adad5b29c58f36d437310999305f2e0fa415629913301b3
 source: Teaching Vacancies
 source_job_id: business-administrator-based-at-new-bridge-learning-centre
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administrator-based-at-new-bridge-learning-centre
+---
+
+---
+action: 
+SELECTED | Greater Manchester - North | Rochdale, North West, OL11 5EF | £27,709.00 to £29,071.00 per annum (pro rata £24,444.59 to £25,646.13 per annum) | Business Support Officer
+employer: Oulder Hill Leadership Academy
+closing_date: 2026-10-18T23:59:00+01:00
+reason: Clear admin/service title: business support officer
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: c8891c13811aebec7ba6c6230bce7280614bdabf59430c98c22c5204254f08bc
+source: Teaching Vacancies
+source_job_id: business-support-officer-oulder-hill-leadership-academy-rochdale-lancashire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-oulder-hill-leadership-academy-rochdale-lancashire
 ---
 
 ---

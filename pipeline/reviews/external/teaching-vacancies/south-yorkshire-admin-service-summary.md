@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-09-29
-review_fingerprint: 9bb38f45e8535eef6191f7b16b6d4c5adfabe85bfed1295f2733e7d7300d0df5
-routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
+review_date: 2026-09-30
+review_fingerprint: 5cc0228fcde3171cb90bef61c14b36ba7042f10874611707f1a134496464f5a4
+routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 26
-- Selected: 10
+- Records: 27
+- Selected: 11
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 13
@@ -154,6 +154,21 @@ factual_fingerprint: 0d56cee29f760f057613063e41e54356cf262d661df1b1bd6efe5768745
 source: Teaching Vacancies
 source_job_id: receptionist-and-administrator-52-or-42-weeks-considered
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administrator-52-or-42-weeks-considered
+---
+
+---
+action: 
+SELECTED | Yorkshire - South | Sheffield, S9 4LR | £31,015.00 - £33,673.00 Annually (Actual) Grade 5 SCP 15 to 20 | SCITT Administrator
+employer: Chorus Education Trust
+closing_date: 2026-10-18T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 752946d2d9d36048839b7d8e837c895a995e02806a18c010de56edc080fd1f14
+source: Teaching Vacancies
+source_job_id: scitt-administrator-chorus-education-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/scitt-administrator-chorus-education-trust
 ---
 
 ---

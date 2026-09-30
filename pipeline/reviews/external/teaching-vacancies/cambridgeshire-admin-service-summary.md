@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-09-29
-review_fingerprint: dbe3d29c82b24120cacf785a170b7cd217af2ed45578c327a801894d3c70350b
-routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
+review_date: 2026-09-30
+review_fingerprint: 56799ef9fb4e460b32e56e0446b5d59ec4f31605492577de48dd8704b4739dd2
+routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 3
+- Records: 13
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 9
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Cambridgeshire | Peterborough, East Midlands, PE6 8NF | £27,524.00 - £30,024.00 Annually (FTE) Grade 5 Scale Point 12 – 15 (£18,813 - £20,725 Actual) | Administrator
+employer: The Deepings School
+closing_date: 2026-10-09T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 753b29df3a48799a663d190d0d42fc6fc5747a690a9dd2a3a5737c76d6c048c7
+source: Teaching Vacancies
+source_job_id: administrator-15d5f5a9-8506-4a81-9d7f-949f6c949c54
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-15d5f5a9-8506-4a81-9d7f-949f6c949c54
+---
 
 ---
 action: 
@@ -83,6 +98,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrative
 - [PA to Head of School & Administration Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-head-of-school-administration-manager) — Manager title salary ceiling £36,581 is not below £28,000.
 - [Reception Services](https://teaching-vacancies.service.gov.uk/jobs/reception-services-manor-drive-secondary-academy-peterborough-cambridgeshire) — Insufficient admin/service evidence.
 - [School Business Leader](https://teaching-vacancies.service.gov.uk/jobs/school-business-leader-university-of-cambridge-primary-school) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-beaupre-community-primary-school) — Manager title salary ceiling £29,542 is not below £28,000.
 - [Senior HR Adviser (Field based Cambridge and Ely area primarily)](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-field-based-cambridge-and-ely-area-primarily-northstowe-learning-community) — Insufficient admin/service evidence.
 
 ## Safety boundary

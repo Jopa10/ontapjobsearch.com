@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-09-29
-review_fingerprint: b63e7814ae76d042b0fd3633b3555ecf093ddbe58fbd06c37f52bac805d90058
-routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
+review_date: 2026-09-30
+review_fingerprint: 837b86601884013eb0a41433c01005429934c6c84369a86fafe57287ed162a9b
+routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 1
+- Records: 9
+- Selected: 2
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 5
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: e0ef9bcf274a211ade9b456367f3f98e07108513588c64ded444ef1bb8d
 source: Teaching Vacancies
 source_job_id: receptionist-administrative-assistant-st-clare-s-school-derby-derbyshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrative-assistant-st-clare-s-school-derby-derbyshire
+---
+
+---
+action: 
+SELECTED | East Midlands | Derby, East Midlands, DE24 8FT | £14,860.00 - £15,575.00 Annually (Actual) NJC 3-6. 25 hours per week, 11:00 - 4:00 Monday to Friday | Receptionist and Office Administrator
+employer: Ashwood Spencer Academy
+closing_date: 2026-10-13T23:59:00+01:00
+reason: Clear admin/service title: administrator, office administrator, receptionist
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: efb7193140efb4099bd2ed447dd03bbeb74fdad2db03fef46a0c2d2c56d1de0a
+source: Teaching Vacancies
+source_job_id: receptionist-and-office-administrator-ashwood-spencer-academy-derby-derbyshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-office-administrator-ashwood-spencer-academy-derby-derbyshire
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -74,7 +89,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-que
 
 ## HARD_PASS
 
+- [Human Resources Advisor](https://teaching-vacancies.service.gov.uk/jobs/human-resources-advisor-st-ralph-sherwin-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [Management Information System (MIS) Administrator & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/management-information-system-mis-administrator-cover-manager-85783a14-bff5-44f3-9d32-6556a2a69f08) — Manager title salary ceiling £32,488 is not below £28,000.
+- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-sherard-primary-school) — Insufficient admin/service evidence.
 - [Receptionist](https://teaching-vacancies.service.gov.uk/jobs/receptionist-hastings-high-school) — Missing salary or pay scale.
 - [Reprographics & Marketing Coordinator](https://teaching-vacancies.service.gov.uk/jobs/reprographics-marketing-coordinator) — Insufficient admin/service evidence.
 

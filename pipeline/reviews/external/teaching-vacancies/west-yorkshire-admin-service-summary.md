@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-09-29
-review_fingerprint: c90a1cdd841a4db0b15fadac0d478c63caef70d15d041a383d90b105a5997e2e
-routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
+review_date: 2026-09-30
+review_fingerprint: 86dc73cb4fab05c35a1ad7b427dd273c780b25323cb68ad209eb7bec53aa54d6
+routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 28
-- Selected: 9
+- Records: 31
+- Selected: 11
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 16
+- Hard pass: 17
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: 80761e9ccfe3aef36b298e2ae558fa953598796e1c053411d551cbdbbb4
 source: Teaching Vacancies
 source_job_id: administration-assistant-993064c2-8d4e-49cd-a144-d8b71360ac51
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-993064c2-8d4e-49cd-a144-d8b71360ac51
----
-
----
-action: 
-SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD6 3PX | £21,978.00 - £22,506.00 Annually (Actual) Band 5 SCP 5-6 (£21,978 - £22,506 actual salary) pay award pending. 37 hours per week term time only plus two training days | Administration Assistant
-employer: Buttershaw Business & Enterprise College Academy
-closing_date: 2026-09-30T09:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 77df06f4ef77438daf5d814e21401ce1d0edc2dfc91590056050bf2a8b11e30c
-source: Teaching Vacancies
-source_job_id: administration-assistant-buttershaw-business-enterprise-college-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-buttershaw-business-enterprise-college-academy
 ---
 
 ---
@@ -128,6 +113,36 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/deputy-pa-receptionis
 
 ---
 action: 
+SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD4 8RG | Band 7, SCP 7-11 Actual Salary £18,487 - £19,705 | Exams Officer
+employer: Bradford Forster Academy
+closing_date: 2026-10-12T09:00:00+01:00
+reason: Clear admin/service title: exams officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 9860be3c6d0945ddb1514492a9c6e46b24561796e3afc37591250fa802232baa
+source: Teaching Vacancies
+source_job_id: exams-officer-bradford-forster-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-bradford-forster-academy
+---
+
+---
+action: 
+SELECTED | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD5 8AE | £30,574 to £32,108 | Leadership Team Administrator (Hybrid)
+employer: Moldgreen Community Primary School
+closing_date: 2026-10-14T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: bd5c23abed45a131ef448855731816407843ada7aebfe413f5ad5b440298ac85
+source: Teaching Vacancies
+source_job_id: leadership-team-administrator-hybrid
+source_url: https://teaching-vacancies.service.gov.uk/jobs/leadership-team-administrator-hybrid
+---
+
+---
+action: 
 SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD7 3JT | £22,039.12 Annually (Actual) | Office Administrator
 employer: St Oswald's Church of England Primary Academy
 closing_date: 2026-10-05T23:59:00+01:00
@@ -139,6 +154,21 @@ factual_fingerprint: 5bae21d615e984af8b69b1bc53b0ae1469dcbd8004029f4329bd07cd067
 source: Teaching Vacancies
 source_job_id: office-administrator-st-oswald-s-church-of-england-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-oswald-s-church-of-england-primary-academy
+---
+
+---
+action: 
+SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD8 7DX | £30,515.00 - £33,119.00 Annually (FTE) Grade F Points 14 to 18 (£30, 515 to £33,119 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £26,362.80. | PA to the Principal (7519)
+employer: Valley Academy
+closing_date: 2026-10-05T23:59:00+01:00
+reason: Clear admin/service title: pa to
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 1ea7a8a06c883353aab42ee86d30a68ee0c4fcc4db5b089db817d19d311abd19
+source: Teaching Vacancies
+source_job_id: pa-to-the-principal-7519
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-principal-7519
 ---
 
 ---
@@ -210,6 +240,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-support-officer-7
 ## HARD_PASS
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-batley-girls-high-school-batley-west-yorkshire) — Insufficient admin/service evidence.
+- [Administration Officer (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-maternity-cover-honley-high-school) — Missing salary or pay scale.
+- [Attendance and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-officer-st-michael-s-cofe-academy-wakefield-west-yorkshire) — Insufficient admin/service evidence.
 - [Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/compliance-officer-delta-academies-trust-knottingley-not-recorded) — Insufficient admin/service evidence.
 - [Content Creator (7617)](https://teaching-vacancies.service.gov.uk/jobs/content-creator-7617) — Insufficient admin/service evidence.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-buttershaw-business-enterprise-college-academy-bradford-west-yorkshire) — Manager title salary ceiling £37,655 is not below £28,000.
@@ -217,7 +249,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-support-officer-7
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.
 - [Exam Invigilators](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilators-beckfoot-trust) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-ossett-academy-and-sixth-form-college) — Insufficient admin/service evidence.
-- [Finance Manager (Core Team)](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-core-team) — Manager title salary ceiling £49,282 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-greengates-primary-academy-bradford-west-yorkshire) — Insufficient admin/service evidence.
 - [HR Advisor (Central Team)](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-central-team) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-barkerend-primary-leadership-academy) — Manager title salary ceiling £47,665 is not below £28,000.

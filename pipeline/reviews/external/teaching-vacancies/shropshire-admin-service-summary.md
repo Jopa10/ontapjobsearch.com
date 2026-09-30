@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Shropshire
 
-review_date: 2026-09-29
-review_fingerprint: 223bf3de1f0b8e7156eb936171ef3e8acf5cb2bf970a8e0fb9655c1d8fedf8db
-routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
+review_date: 2026-09-30
+review_fingerprint: cf15bd717a6c2ea2e44d52dceaaf3766209af448d6ccb29e7ea4e6b0e4598f98
+routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
 ontap_region: Shropshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 4
 - Selected: 2
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
 
@@ -53,7 +53,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senco-and-safeguardin
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Shropshire | Oswestry, West Midlands, SY10 7BD | £26,762.00 Annually (Actual) | Exam and Data Manager
+employer: St Martins School (3-16 Learning Community)
+closing_date: 2026-10-12T15:00:00+01:00
+reason: Manager title below £28,000 salary ceiling requires review
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b40d157aa800aed2a422b91ca3e5ccd93654656f6db6da82ffc4e19dfe814e22
+source: Teaching Vacancies
+source_job_id: exam-and-data-manager-st-martins-school-3-16-learning-community
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exam-and-data-manager-st-martins-school-3-16-learning-community
+---
 
 ## EXCLUDED BY REVIEW
 

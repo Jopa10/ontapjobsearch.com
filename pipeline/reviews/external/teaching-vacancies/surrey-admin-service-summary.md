@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-09-29
-review_fingerprint: 8f8d1b19732ab9b5c8f42e58a5957e8377f64053a3f202a875798587527a2013
-routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
+review_date: 2026-09-30
+review_fingerprint: 7433c8ad83f37832b421c675214919c5c2ceb02b81328be25d18a2cc10eed2de
+routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 3
+- Records: 10
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 6
@@ -34,6 +34,21 @@ factual_fingerprint: 9666f46c5f5115472682d1a7b3b8c56c30e7ff689b6b9a2b0edd4fca5bb
 source: Teaching Vacancies
 source_job_id: attendance-and-admissions-officer-65b72427-5324-4164-8260-a853358c3381
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admissions-officer-65b72427-5324-4164-8260-a853358c3381
+---
+
+---
+action: 
+SELECTED | Surrey | Guildford, South East, GU2 4YD | £26,080.00 Annually (FTE) Pro rata £7,287 | Office Administrator
+employer: St Nicolas' Church of England Infant School
+closing_date: 2026-10-05T08:00:00+01:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9026b50f22657a806517812de7c0db2b8d7404228f885b8cf9353bf1ce8a0d3f
+source: Teaching Vacancies
+source_job_id: office-administrator-294d664c-6dae-452d-b27f-2e380c9b2c7b
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-294d664c-6dae-452d-b27f-2e380c9b2c7b
 ---
 
 ---

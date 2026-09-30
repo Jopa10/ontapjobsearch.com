@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-09-29
+review_date: 2026-09-30
 review_fingerprint: 86a5ceacf18242507732c8627b1015164235fcc13a24d5c1c29db80dc28bf2ce
-routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
+routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -63,9 +63,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-or
 
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-joseph-leckie-academy-walsall-west-midlands) — Manager title salary ceiling £51,928 is not below £28,000.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-ormiston-shelfield-community-academy-walsall-west-midlands) — Manager title salary ceiling £37,563 is not below £28,000.
-- [Exam Invigilators](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilators-472ff49d-b207-467b-8dbd-b5478c05c6b7) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-st-chad-s-academies-trust) — Manager title salary ceiling £65,035 is not below £28,000.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-5f4d4502-0d91-4091-b646-cbfc76dcdfb2) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-jesson-s-church-of-england-primary-school) — Manager title without salary evidence below £28,000.
 - [Teaching Assistant (Level 2)](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-level-2-manor-way-primary-academy) — Out-of-scope occupation: teaching assistant.
 
 ## Safety boundary

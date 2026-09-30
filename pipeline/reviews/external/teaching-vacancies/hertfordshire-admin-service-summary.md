@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-09-29
-review_fingerprint: 50938e99f89356ff84ef072a869f25b94c546d02df2864cdd349515d6819385b
-routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
+review_date: 2026-09-30
+review_fingerprint: 31e5018542a3cda73cfbf5991cd36728ffe559b5a64324a485ddee7fa15a4a1d
+routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 8
+- Records: 17
+- Selected: 9
 - POSS awaiting decision: 5
 - Excluded: 0
 - Hard pass: 3
@@ -23,14 +23,14 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Hertfordshire | Welwyn Garden City, East of England, AL7 3RP | £10,090.00 - £10,090.00 Annually (Actual) TTO | Administrator
+SELECTED | Hertfordshire | Welwyn Garden City, East of England, AL7 3RP | £9,768.00 - £9,768.00 Annually (Actual) TTO | Administrator
 employer: Ludwick Nursery School
 closing_date: 2026-10-11T23:59:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: dfb1ec56f76e88f5150ec607569478cd9711efef2750eeaaf2d4b9a3d895e902
+factual_fingerprint: bfc84c2cd7e92246f082fede79acbc98da2a33a19dcec7b1a988e626f11d317a
 source: Teaching Vacancies
 source_job_id: administrator-ludwick-nursery-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-ludwick-nursery-school
@@ -49,6 +49,21 @@ factual_fingerprint: f4948a796e5d4d65e9f8083c1c8fad9c27087de624c709c8f2e1edd06d7
 source: Teaching Vacancies
 source_job_id: attendance-administrator-the-astley-cooper-school-hemel-hempstead-hertfordshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-the-astley-cooper-school-hemel-hempstead-hertfordshire
+---
+
+---
+action: 
+SELECTED | Hertfordshire | Watford, East of England, WD18 0AE | £25,118.00 Annually (Actual) | Cover Administrator / Supervisor
+employer: Watford Grammar School for Girls
+closing_date: 2026-10-04T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 99e58c1b1ddcb198cf9e15201f009289810763c1247701ee26fa168bd2d9241e
+source: Teaching Vacancies
+source_job_id: cover-administrator-supervisor
+source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-administrator-supervisor
 ---
 
 ---
@@ -224,7 +239,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-oaklea
 
 ## HARD_PASS
 
-- [Assistant SENDCo](https://teaching-vacancies.service.gov.uk/jobs/assistant-sendco-6880daf8-5253-47b8-806d-79b65802f205) — Insufficient admin/service evidence.
+- [Assistant SENDCo](https://teaching-vacancies.service.gov.uk/jobs/assistant-sendco-69793fea-1d51-405a-a79e-55b4c58afc9c) — Insufficient admin/service evidence.
 - [Director of Finance & Operations](https://teaching-vacancies.service.gov.uk/jobs/director-of-finance-operations-herts-essex-multi-academy-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-aa7f3068-bd4a-4f6c-a3c0-513cc79c39b8) — Manager title salary ceiling £33,119 is not below £28,000.
 

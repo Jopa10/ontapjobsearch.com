@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-09-29
-review_fingerprint: 5fe62a95e90b002d52aaec591a82224b6171da4479c52c35b390d205b418782c
-routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
+review_date: 2026-09-30
+review_fingerprint: fa43e516d45381ee1ba40656f9c778b0eb50c53ac51fb8add74a002098e82c8e
+routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 1
+- Records: 10
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 7
@@ -34,6 +34,21 @@ factual_fingerprint: 15e73ab6b3a879500a12a8d1129572c673ac50a71279a08db56da01e262
 source: Teaching Vacancies
 source_job_id: admin-assistant-and-teachers-personal-assistant
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-and-teachers-personal-assistant
+---
+
+---
+action: 
+SELECTED | Wiltshire | Melksham, South West, SN12 6QZ | £18,143.00 - £19,021.00 Annually (Actual) WHFNJC K Grade | Pastoral Administrator
+employer: Melksham Oak Community School
+closing_date: 2026-10-18T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 48c93243bc3b0d1913b9fc601d5cc63b206c3876bcff4cf9247eaa1ed03c8732
+source: Teaching Vacancies
+source_job_id: pastoral-administrator-melksham-oak-community-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-melksham-oak-community-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

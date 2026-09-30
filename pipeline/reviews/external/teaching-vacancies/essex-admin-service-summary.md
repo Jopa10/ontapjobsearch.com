@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-09-29
-review_fingerprint: 88f5d7361077872f2730479501723be6cea58275507a21caba4006210293a815
-routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
+review_date: 2026-09-30
+review_fingerprint: a1a56b79ec484c55005af16237104ad1732db2c5f39c245bea24352553b0f2c9
+routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 15
 - Selected: 7
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 7
 
 ## SELECTED
 
@@ -83,17 +83,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/lead-administrator-li
 
 ---
 action: 
-SELECTED | Essex | Harlow, East of England, CM18 6RN | £23,371.00 - £24,464.00 Annually (Actual) Band 2 Max Points 3 - 6. Term time plus 1 additional week (40 Weeks). | Receptionist
-employer: Sir Frederick Gibberd College
-closing_date: 2026-09-29T23:59:00+01:00
+SELECTED | Essex | Grays, East of England, RM17 5SW | £20,497.00 - £21,940.00 Annually (Actual) Thurrock Band A - Point 1-6 | Receptionist
+employer: Little Thurrock Primary School
+closing_date: 2026-10-08T12:00:00+01:00
 reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 90f72754b9ebc9308054e17e2a9a0cf2a9bc76fea9b0eeda7d07fcc836456b6d
+factual_fingerprint: 6707fad5fccf627dc32f1720dc41553edddc39f2b8d0e6fc57132ebae647f3bb
 source: Teaching Vacancies
-source_job_id: receptionist-sir-frederick-gibberd-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-sir-frederick-gibberd-college
+source_job_id: receptionist-little-thurrock-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-little-thurrock-primary-school
 ---
 
 ---
@@ -128,7 +128,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Essex | Clacton On Sea, CO15 6DZ | £28,608.00 - £30,023.00 Annually (Actual) Local Government Scale 5, Point 10-13 | People Operations Officer
+employer: The Sigma Trust
+closing_date: 2026-10-12T09:00:00+01:00
+reason: Borderline school administration title: operations officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 99d228b3bb01305fea299da282a8533fe6c06e9482d868cc802fdd7bfb7c36e9
+source: Teaching Vacancies
+source_job_id: people-operations-officer-the-sigma-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/people-operations-officer-the-sigma-trust
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -136,9 +149,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## HARD_PASS
 
+- [Business Administration Apprentice Level 3](https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprentice-level-3-doddinghurst-church-of-england-junior-school) — Insufficient admin/service evidence.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-mossbourne-port-side-academy) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-harlow-college) — Insufficient admin/service evidence.
-- [Repographics Technician](https://teaching-vacancies.service.gov.uk/jobs/repographics-technician) — Out-of-scope occupation: technician.
+- [Payroll, Contracts & Systems Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-contracts-systems-officer) — Insufficient admin/service evidence.
+- [Senior HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-8119a08e-351e-407b-8e55-7b302ed8a76f) — Insufficient admin/service evidence.
 - [STUDENT ATTENDANCE AND INCLUSION MANAGER](https://teaching-vacancies.service.gov.uk/jobs/student-attendance-and-inclusion-manager-dee93199-2550-4a54-8c93-9bcd03bba34f) — Manager title without salary evidence below £28,000.
 - [Work Placement Officer](https://teaching-vacancies.service.gov.uk/jobs/work-placement-officer) — Insufficient admin/service evidence.
 

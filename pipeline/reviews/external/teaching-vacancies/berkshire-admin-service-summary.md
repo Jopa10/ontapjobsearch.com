@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-09-29
-review_fingerprint: f92d4eea07d4e236eb37d0162b376148064704e134f8fce0035191baa3e27a08
-routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
+review_date: 2026-09-30
+review_fingerprint: e57bc46ac2c4ac7eda0753fa745ccd7ba8a0858dd349f481a4ca1b3e0033ac6e
+routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 21
-- Selected: 7
+- Records: 20
+- Selected: 6
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 12
@@ -111,21 +111,6 @@ source_job_id: school-administrator-radstock-primary-school-reading-berkshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-radstock-primary-school-reading-berkshire
 ---
 
----
-action: 
-SELECTED | Berkshire | Slough, South East, SL2 5BA | £22,274.00 - £22,957.00 Annually (Actual) | Welfare Assistant & Administrator
-employer: James Elliman Academy
-closing_date: 2026-09-30T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6404079a30d8438bad9c65b1638355e59eeacaff44b2fbe26d8eeb7ce0630a28
-source: Teaching Vacancies
-source_job_id: welfare-assistant-administrator-james-elliman-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/welfare-assistant-administrator-james-elliman-academy
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -172,9 +157,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-finance-assist
 - [HR & Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-officer-the-park-federation-academy-trust) — Insufficient admin/service evidence.
 - [Medical Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/medical-administrative-assistant) — Missing salary or pay scale.
 - [Office Manager and Personal Assistant to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-personal-assistant-to-the-headteacher-new-town-primary-school) — Manager title salary ceiling £40,444 is not below £28,000.
+- [Receptionist & Admin Assistant - Katesgrove Primary School](https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-katesgrove-primary-school-katesgrove-primary-school) — Missing salary or pay scale.
 - [School Development Officer](https://teaching-vacancies.service.gov.uk/jobs/school-development-officer) — Insufficient admin/service evidence.
 - [School Solicitor](https://teaching-vacancies.service.gov.uk/jobs/school-solicitor) — Insufficient admin/service evidence.
-- [Site Team Administrative Assistant - The Avenue School](https://teaching-vacancies.service.gov.uk/jobs/site-team-administrative-assistant-the-avenue-school) — Missing salary or pay scale.
 - [Supportive UCAS Manager](https://teaching-vacancies.service.gov.uk/jobs/supportive-ucas-manager) — Manager title salary ceiling £33,119 is not below £28,000.
 
 ## Safety boundary

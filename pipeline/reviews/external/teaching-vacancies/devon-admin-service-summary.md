@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-09-29
-review_fingerprint: c08fc8d334eb1928744a9668ceaac5a7a99346f7f7eb2795471a2a566bf4afe8
-routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
+review_date: 2026-09-30
+review_fingerprint: fd9d99add91fb8e73e8b751b22036c44eafa6f136e199443e00fb56c7dc90772
+routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 23
+- Records: 22
 - Selected: 15
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
-
----
-action: 
-SELECTED | Devon | Plymouth, South West, PL6 8EE | £8,320.00 - £8,590.00 Annually (Actual) | Administration Assistant
-employer: Cann Bridge School
-closing_date: 2026-09-30T12:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 72ff240836f6cbf3df95ba6e0f782e1868cabcef870286ff1c5e1e7a231a8b97
-source: Teaching Vacancies
-source_job_id: administration-assistant-11d42ccb-1e47-4b92-b33d-cda687020619
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-11d42ccb-1e47-4b92-b33d-cda687020619
----
 
 ---
 action: 
@@ -64,6 +49,21 @@ factual_fingerprint: 18f800daa121f10aba18f5b2f274e2d008ffc3c927fb9bed1bedae6db1e
 source: Teaching Vacancies
 source_job_id: apprenticeship-onboarding-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/apprenticeship-onboarding-administrator
+---
+
+---
+action: 
+SELECTED | Devon | Exeter, South West, EX2 6AP | £23,071.62 - £25,407.68 | Attendance Officer
+employer: Isca Academy
+closing_date: 2026-10-25T23:59:00+00:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7a9c7a64b3f34bd5056f712eba69c7e36f82919a1a4014a5b61bfbe1c787f70b
+source: Teaching Vacancies
+source_job_id: attendance-officer-4a095b88-91b4-4569-8b60-0007e7f44a59
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-4a095b88-91b4-4569-8b60-0007e7f44a59
 ---
 
 ---
@@ -284,7 +284,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 
 ## HARD_PASS
 
-- [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-torquay-boys-grammar-school-torquay-devon) — Insufficient admin/service evidence.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-0263aaa9-e252-4340-b2d6-102751e90f65) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-dartmoor-multi-academy-trust) — Insufficient admin/service evidence.
 - [Finance Business Partner - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-maternity-cover) — Insufficient admin/service evidence.

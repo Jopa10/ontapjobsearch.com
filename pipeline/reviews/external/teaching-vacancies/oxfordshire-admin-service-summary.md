@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-09-29
+review_date: 2026-09-30
 review_fingerprint: a342a1688ed44f0980742603e4f8b93c79f6bdbead30b5e5f8b1566988a1bb1e
-routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
+routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 14
 - Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 7
 
 ## SELECTED
 
@@ -134,8 +134,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-assistant-the-sw
 
 ## HARD_PASS
 
+- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-ea745762-5600-4686-a0b9-47ee2a173a59) — Insufficient admin/service evidence.
 - [Procurement Contract Performance Manager *Hybrid Role*](https://teaching-vacancies.service.gov.uk/jobs/procurement-contract-performance-manager-hybrid-role) — Manager title salary ceiling £55,225 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-edward-feild-primary-school) — Manager title salary ceiling £39,482 is not below £28,000.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-madley-brook-community-primary-school) — Manager title salary ceiling £42,124 is not below £28,000.
 - [School Premises and Compliance Manager](https://teaching-vacancies.service.gov.uk/jobs/school-premises-and-compliance-manager) — Manager title salary ceiling £36,050 is not below £28,000.
 - [Trust Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-payroll-officer-river-learning-trust) — Insufficient admin/service evidence.
 - [Welfare and Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/welfare-and-personal-care-assistant-39611e1b-adbb-45de-b253-14fdb122d0d4) — Insufficient admin/service evidence.

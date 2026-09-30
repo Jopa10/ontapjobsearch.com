@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-09-29
-review_fingerprint: 5c6b21b9c2ad0875e7cc5cb659cf6c19217a4283881bdf4f90e8e8c346df4f0e
-routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
+review_date: 2026-09-30
+review_fingerprint: db8b0f97503d1ccb4bc654b4084475b91acb5b314bb3d4eda4133d207d6d3fcd
+routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 8
-- Selected: 5
+- Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -96,6 +96,21 @@ source_job_id: business-support-officer-826fc972-2852-4bd7-96a9-d089acb8c7b2
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-826fc972-2852-4bd7-96a9-d089acb8c7b2
 ---
 
+---
+action: 
+SELECTED | Suffolk | Ipswich, East of England, IP1 6SG | £25,646.00 Annually (Actual) | Receptionist/Administration Assistant
+employer: Ormiston Endeavour Academy
+closing_date: 2026-10-18T23:59:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7685e4348c549f1824d66d2bb2ab237579996d9aa61567ad8c1c752027d0b06b
+source: Teaching Vacancies
+source_job_id: receptionist-administration-assistant-ormiston-endeavour-academy-ipswich-suffolk
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administration-assistant-ormiston-endeavour-academy-ipswich-suffolk
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -120,7 +135,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-gl
 ## HARD_PASS
 
 - [Attendance and Inclusion Support Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-inclusion-support-officer) — Insufficient admin/service evidence.
-- [Office Manager and Exams Officer](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-exams-officer) — Manager title salary ceiling £32,597 is not below £28,000.
 
 ## Safety boundary
 

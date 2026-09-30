@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-09-29
-review_fingerprint: 7a386c5e17644ecf023d2e5ebadfbe79d9a5791ae4251bbeee2b992639cbcc5d
-routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
+review_date: 2026-09-30
+review_fingerprint: ed0aec8bbbf0efdaee6a8bd3d53340c1e999804a6ac1b7c25ef211d13c12e1e1
+routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 4
+- Records: 11
+- Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 4
@@ -34,6 +34,36 @@ factual_fingerprint: 1c3878457dd7f77795e05ddfe67a2ee6a28549898e5c9674b37510655eb
 source: Teaching Vacancies
 source_job_id: admin-assistant-the-castle-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-the-castle-school
+---
+
+---
+action: 
+SELECTED | Somerset | Weston-Super-Mare, South West, BS24 8EE | £22,947 - £25,010 | Admin Assistant
+employer: Winterstoke Hundred Academy
+closing_date: 2026-10-16T23:59:59+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: eab3976cdabea520c3018946c4904f98ed332cd992dcec242d5c4e4e1c298b55
+source: Teaching Vacancies
+source_job_id: admin-assistant-winterstoke-hundred-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-winterstoke-hundred-academy
+---
+
+---
+action: 
+SELECTED | Somerset | Taunton, South West, TA4 2NE | £9,542 - £10,400 | Administrative Assistant
+employer: Kingsmead Academy
+closing_date: 2026-10-14T23:59:59+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9d708af52b2f85b9ef59eb89bc4e6a11995d7267a2716265244c15bdaa13784b
+source: Teaching Vacancies
+source_job_id: administrative-assistant-kingsmead-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-kingsmead-academy
 ---
 
 ---

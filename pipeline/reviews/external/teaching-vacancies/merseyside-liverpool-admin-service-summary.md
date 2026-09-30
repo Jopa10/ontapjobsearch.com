@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - Liverpool
 
-review_date: 2026-09-29
+review_date: 2026-09-30
 review_fingerprint: 550d858c4dbff8b6d92ec3bb799e0f2420720568c22da77153181d17847d0a8d
-routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
+routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
 ontap_region: Merseyside - Liverpool
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 6
 - Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -61,6 +61,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-pastoral-senior-
 
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-the-laetare-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [Data and Exams Admin Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-admin-support-assistant) — Insufficient admin/service evidence.
+- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-pope-francis-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [HR People Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-people-partner) — Insufficient admin/service evidence.
 
 ## Safety boundary

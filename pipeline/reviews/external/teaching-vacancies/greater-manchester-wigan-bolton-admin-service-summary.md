@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Wigan & Bolton
 
-review_date: 2026-09-29
+review_date: 2026-09-30
 review_fingerprint: 311a9f55543b25fc5b5ea1aca6b399537f6e9afcc378a51e03f14ff24a4ef182
-routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
+routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
 ontap_region: Greater Manchester - Wigan & Bolton
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 4
 - Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -46,6 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-clerical-assis
 
 ## HARD_PASS
 
+- [Business Support Manager](https://teaching-vacancies.service.gov.uk/jobs/business-support-manager-up-holland-high-school) — Manager title without salary evidence below £28,000.
 - [Senior Administration Officer (Fixed Term)](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-fixed-term) — Insufficient admin/service evidence.
 - [Senior Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/senior-clerical-assistant-lostock-primary-school-bolton-lancashire) — Insufficient admin/service evidence.
 

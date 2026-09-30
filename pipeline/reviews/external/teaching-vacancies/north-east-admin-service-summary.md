@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-09-29
-review_fingerprint: f189a8f97c095e54c795ba9877243ac71c75d58b4fed689eccdcc980086192f2
-routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
+review_date: 2026-09-30
+review_fingerprint: 5a1f552dd65cacfd533ec3e514dadaa9f8db9269afa51dee09ce8587b400e85e
+routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,24 +13,24 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
+- Records: 12
 - Selected: 9
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | North East | Stanley, North East, DH9 0TW | £17,994.00 - £18,372.00 Annually (Actual) | Administration Assistant
+SELECTED | North East | Stanley, North East, DH9 0TW | £17,994.00 - £18,372.00 Annually (Actual) (Pay award pending) | Administration Assistant
 employer: North Durham Academy
 closing_date: 2026-10-06T12:00:00+01:00
 reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 6d61779b4b8b1463daa10f377cbe255a639b809bdcf168fe2d856cc418c00f84
+factual_fingerprint: f10b3b257ec73c61e62cde22c1f88d298d8726d13acd13f3013a7225f3229926
 source: Teaching Vacancies
 source_job_id: administration-assistant-north-durham-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-north-durham-academy
@@ -167,7 +167,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-support-roles-
 ## HARD_PASS
 
 - [Business Lead](https://teaching-vacancies.service.gov.uk/jobs/business-lead-st-leonard-s-catholic-primary-school-silksworth) — Insufficient admin/service evidence.
-- [Governance and Procurement Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-and-procurement-officer) — Insufficient admin/service evidence.
 - [HR Administration Assistant (Gateshead Schools)](https://teaching-vacancies.service.gov.uk/jobs/hr-administration-assistant-gateshead-schools) — Insufficient admin/service evidence.
 - [Marketing Assistant](https://teaching-vacancies.service.gov.uk/jobs/marketing-assistant-kings-priory-school) — Insufficient admin/service evidence.
 

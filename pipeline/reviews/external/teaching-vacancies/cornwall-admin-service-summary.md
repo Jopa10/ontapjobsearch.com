@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-09-29
+review_date: 2026-09-30
 review_fingerprint: 467f7d013e079905e98b7645713d42c8fdad869da5e76dc665a1f63c2325d86d
-routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
+routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE
@@ -63,7 +63,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/temporary-school-admi
 
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-saltash-community-school) — Insufficient admin/service evidence.
 - [HR Lead](https://teaching-vacancies.service.gov.uk/jobs/hr-lead-pool-academy) — Insufficient admin/service evidence.
-- [Minibus Driver](https://teaching-vacancies.service.gov.uk/jobs/minibus-driver-98c65611-dc6c-4ef2-ab00-f9bfce2a5837) — Insufficient admin/service evidence.
+- [People Lead](https://teaching-vacancies.service.gov.uk/jobs/people-lead-1946fc8a-54b9-4506-808b-a157f27767c8) — Insufficient admin/service evidence.
 - [SEND Access Arrangements Coordinator](https://teaching-vacancies.service.gov.uk/jobs/send-access-arrangements-coordinator) — Insufficient admin/service evidence.
 - [Specialist Administrator](https://teaching-vacancies.service.gov.uk/jobs/specialist-administrator-mounts-bay-academy) — Missing salary or pay scale.
 

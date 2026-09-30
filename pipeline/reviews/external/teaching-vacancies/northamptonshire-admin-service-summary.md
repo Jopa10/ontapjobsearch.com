@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-09-29
-review_fingerprint: 2605bb4824f7120dc31b1a3617b562c6668125b93ca9620f92b5b3c5f68843e0
-routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
+review_date: 2026-09-30
+review_fingerprint: 08687742c4eef6e4ab90f92c326a41f9a3adb2105938250bf8237769b070e797
+routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 3
+- Records: 10
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 6
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: b393157af7bf0dc502c41e4fb3a6a8eb5e30d610308c1316811553d0083
 source: Teaching Vacancies
 source_job_id: academy-administrator-greenfields-primary-school-and-nursery
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-greenfields-primary-school-and-nursery
+---
+
+---
+action: 
+SELECTED | Northamptonshire | Northampton, East Midlands, NN4 6TP | £22,525.00 - £22,884.00 Annually (Actual) Part- time hours also available | Administrator
+employer: Caroline Chisholm School
+closing_date: 2026-10-07T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a308502a22f20790c04ea5f163c0e3fcad05b2baf760cce4c9547cdcad17c5a0
+source: Teaching Vacancies
+source_job_id: administrator-caroline-chisholm-school-northampton-northamptonshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-caroline-chisholm-school-northampton-northamptonshire
 ---
 
 ---
@@ -76,7 +91,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-guilsbor
 
 ## HARD_PASS
 
+- [Academy Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/academy-operations-manager-malcolm-arnold-academy-northampton-northamptonshire) — Manager title salary ceiling £44,253 is not below £28,000.
 - [Business Partner](https://teaching-vacancies.service.gov.uk/jobs/business-partner-st-james-infant-school) — Insufficient admin/service evidence.
+- [Data Apprentice](https://teaching-vacancies.service.gov.uk/jobs/data-apprentice-dslv-e-act-academy) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-creating-tomorrow-multi-academy-trust) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-gloucester-nursery-school) — Manager title salary ceiling £38,510 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-south-end-infant-school-rushden-northamptonshire) — Manager title salary ceiling £37,280 is not below £28,000.

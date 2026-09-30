@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-09-29
-review_fingerprint: d8ae57e80c9276bc9bfd1de115e2e97bd9228a5fcef86748661f986e6b4f5525
-routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
+review_date: 2026-09-30
+review_fingerprint: 64ccb8fd7f2abedbf4ed11bcf9a3298293ec86330dcbf8a45630b4d4aafeb1c8
+routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 7
+- Records: 11
+- Selected: 5
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 3
 
 ## SELECTED
-
----
-action: 
-SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M23 2YS | £27,274.00 - £29,071.00 Annually (FTE) Grade 4 scp. 7-11 pro rated. Actual Salary: £23,460 - £25,569 | Assistant Exams Officer
-employer: Saint Paul's Catholic High School
-closing_date: 2026-09-30T12:00:00+01:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f784f36393553e3dbeea8146b731fa75e5dbaa25a1585fe0ed5a0d8afec393fb
-source: Teaching Vacancies
-source_job_id: assistant-exams-officer-saint-paul-s-catholic-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/assistant-exams-officer-saint-paul-s-catholic-high-school
----
 
 ---
 action: 
@@ -49,21 +34,6 @@ factual_fingerprint: 5b1a42a6a31eee53b51ddfa9c655f65e4a4bdd897632dc7f1b58935a3a6
 source: Teaching Vacancies
 source_job_id: level-2-academy-administrator-fa9311a4-090f-47e6-bfc4-97d8abcfff69
 source_url: https://teaching-vacancies.service.gov.uk/jobs/level-2-academy-administrator-fa9311a4-090f-47e6-bfc4-97d8abcfff69
----
-
----
-action: 
-SELECTED | Greater Manchester - Manchester & Salford | Stretford, North West, M32 9TG | £21,662.00 - £22,352.00 Annually (Actual) Bright Futures Grade 3 Point 4 - 6 Full Time 36.25 Hours | Office Administrator
-employer: The Orchards
-closing_date: 2026-09-30T08:00:00+01:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ee19b0077fa71f1fdce4194e66aaa3510b48cfacc4aa8cc9108e58a4646c33ba
-source: Teaching Vacancies
-source_job_id: office-administrator-the-orchards-stretford-greater-manchester
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-the-orchards-stretford-greater-manchester
 ---
 
 ---
@@ -181,7 +151,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 - [Governance and Compliance Professional](https://teaching-vacancies.service.gov.uk/jobs/governance-and-compliance-professional-greater-manchester-academies-trust) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-the-co-operative-academies-trust) — Insufficient admin/service evidence.
-- [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-co-op-academy-medlock-manchester-greater-manchester) — Manager title salary ceiling £39,481 is not below £28,000.
+- [Trust Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-assistant-the-co-operative-academies-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

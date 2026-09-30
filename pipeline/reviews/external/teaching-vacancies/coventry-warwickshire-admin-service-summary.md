@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-09-29
-review_fingerprint: 12b0d19c496172b959b115cc86aa33c5e99b8e847a9cdc5b8ee6ee9ef45e8612
-routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
+review_date: 2026-09-30
+review_fingerprint: 2d7dfcd717408cce17251c971948e3be919bfc311beac4b897aee2203996e508
+routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 6
-- POSS awaiting decision: 4
+- Records: 14
+- Selected: 5
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
 
@@ -49,21 +49,6 @@ factual_fingerprint: e3864591fa2c67b5d1f7962f4b790a36675271c163a973a50dbcbed326c
 source: Teaching Vacancies
 source_job_id: administration-assistant-stretton-church-of-england-academy-coventry-west-midlands
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-stretton-church-of-england-academy-coventry-west-midlands
----
-
----
-action: 
-SELECTED | West Midlands - Coventry & Warwickshire | Studley, West Midlands, B80 7ND | £25,583.00 - £25,989.00 Annually (FTE) Actual salary £9,039 to £9,183 per annum, working 2 days per week | Administrator
-employer: Studley St Mary's CofE Academy
-closing_date: 2026-09-29T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9c89a0da9ef60984ffdc9749119453e3c726d91da6ece63e29e5d95fbedfaf58
-source: Teaching Vacancies
-source_job_id: administrator-studley-st-mary-s-cofe-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-studley-st-mary-s-cofe-academy
 ---
 
 ---
@@ -145,21 +130,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/adminstrator
 
 ---
 action: 
-POSS | West Midlands - Coventry & Warwickshire | Stratford-upon-Avon, West Midlands, CV37 9DH | Starting salary for a full-time post £32,578 to £35,570 per annum, starting point depending on experience and qualifications. Actual salary £28,944 to £31,602 per annum based on hours and weeks worked as stated, subject to any continuous service. | Attendance Improvement Officer
-employer: Stratford Upon Avon School
-closing_date: 2026-09-30T12:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b2bbb164c03a24a457f40f3235a032176b7fdc57a1b50460dc595cba35da4876
-source: Teaching Vacancies
-source_job_id: attendance-improvement-officer-stratford-upon-avon-school-stratford-upon-avon-warwickshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-improvement-officer-stratford-upon-avon-school-stratford-upon-avon-warwickshire
----
-
----
-action: 
 POSS | West Midlands - Coventry & Warwickshire | Nuneaton, CV11 4QH | £27,274 to £29,071 | Trust Finance Officer
 employer: Central England Academy Trust
 closing_date: 2026-10-05T08:00:00+01:00
@@ -180,7 +150,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer
 ## HARD_PASS
 
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-triumph-learning-trust-rugby-not-recorded) — Insufficient admin/service evidence.
-- [Examinations Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/examinations-co-ordinator) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-etone-college) — Insufficient admin/service evidence.
 - [MAT Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/mat-finance-officer-sidney-stringer-multi-academy-trust-coventry-not-recorded) — Insufficient admin/service evidence.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-finham-park-school-coventry-west-midlands) — Manager title salary ceiling £54,143 is not below £28,000.

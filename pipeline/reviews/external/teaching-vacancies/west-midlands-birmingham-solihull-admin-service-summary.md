@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-09-29
+review_date: 2026-09-30
 review_fingerprint: 3cca62d4345ce97bc56809a6de3170fc0fb2b0912a81ae4c1101628849f98956
-routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
+routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -211,11 +211,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 - [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-the-deanery-church-of-england-primary-school) — Missing salary or pay scale.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-fioretti-trust) — Insufficient admin/service evidence.
-- [Data Apprentice](https://teaching-vacancies.service.gov.uk/jobs/data-apprentice-academy-transformation-trust) — Insufficient admin/service evidence.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-swanshurst-school) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Examinations Assistant](https://teaching-vacancies.service.gov.uk/jobs/examinations-assistant-plantsbrook-school) — Insufficient admin/service evidence.
 - [Governance Support Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-support-officer-eaa7a044-716c-471a-b1e0-33530ee7b932) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-st-john-paul-ii-multi-academy-company-birmingham-not-recorded) — Insufficient admin/service evidence.
+- [Office Administration](https://teaching-vacancies.service.gov.uk/jobs/office-administration) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-bloomsbury-nursery-school) — Manager title salary ceiling £34,434 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-erdington-hall-primary-school) — Manager title salary ceiling £43,149 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-greet-primary-school) — Manager title salary ceiling £34,434 is not below £28,000.

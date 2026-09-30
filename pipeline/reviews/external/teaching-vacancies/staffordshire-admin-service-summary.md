@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-09-29
-review_fingerprint: fd425f18dca52564a96b6a740c156b7450e3c88d620e79f9946fd14fe8449916
-routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
+review_date: 2026-09-30
+review_fingerprint: 0b2f6c88fd372387716ad4f7a8f7848ea3f44ef8c9235581be161b71d35696ff
+routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 2
+- Records: 10
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 7
@@ -34,6 +34,21 @@ factual_fingerprint: 6f08d5e7a292e06e10c2be0378b60c47fcd7924ece170c196cfc86e9120
 source: Teaching Vacancies
 source_job_id: attendance-officer-level-4-longford-primary-academy-cannock-staffordshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-level-4-longford-primary-academy-cannock-staffordshire
+---
+
+---
+action: 
+SELECTED | Staffordshire | Stoke-on-Trent, West Midlands, ST6 6LZ | £27,122.00 Annually (Actual) | Curriculum/Data Administrator
+employer: St Margaret Ward Catholic Academy
+closing_date: 2026-10-12T12:00:00+01:00
+reason: Clear admin/service title: administrator, data administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7d4de3e8c7591bc777a9f9498bbb68ff93b35fa56d4e1e9fa0547b10d66c0fc4
+source: Teaching Vacancies
+source_job_id: curriculum-data-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/curriculum-data-administrator
 ---
 
 ---

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East - Tees Valley
 
-review_date: 2026-09-29
-review_fingerprint: defe5ec6027ee9f09ac705791ea232fc653a92618b69311fd632eab2904f095c
-routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
+review_date: 2026-09-30
+review_fingerprint: 7d496f1073184914b19397bddb495565e6871a5c95cf42d77675e64a67f18628
+routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 3
+- Records: 9
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 6
@@ -34,21 +34,6 @@ factual_fingerprint: de266f2fa4b6e006e64a42a1afe7842ebe07c663e38c8902c623c6b0ddd
 source: Teaching Vacancies
 source_job_id: administration-assistant-e053f2e7-6038-4ade-97e2-a063832069a7
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-e053f2e7-6038-4ade-97e2-a063832069a7
----
-
----
-action: 
-SELECTED | North East - Tees Valley | Middlesbrough, North East, TS7 0LA | £22,204.00 - £23,273.00 Annually (FTE) Salary based on Grade C/D, Scale Point 03 - 06 £25,614 - 26,847 FTE. | Administration Assistant
-employer: Nunthorpe School & Sixth Form
-closing_date: 2026-09-30T12:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 06980d3572d33be6654f0741655a2da351540c82d223e456fb67e92fbbb89e71
-source: Teaching Vacancies
-source_job_id: administration-assistant-nunthorpe-school-sixth-form
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-nunthorpe-school-sixth-form
 ---
 
 ---

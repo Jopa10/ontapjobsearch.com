@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-09-29
-review_fingerprint: bdc58b16dea191ef8e35becb0d2df961134449a2e1c20d1f0e85f20cdf15f9dd
-routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
+review_date: 2026-09-30
+review_fingerprint: ff60871bbacefd313ce1b7847eb458e27e34db87a3c5bf205d972dd17ea8029e
+routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 2
+- Records: 8
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 7
@@ -34,21 +34,6 @@ factual_fingerprint: 738095b2c5e08afeb65a87b8a0131108cb3893ea57b6093f7e355530995
 source: Teaching Vacancies
 source_job_id: administrative-assistant-thursdays-and-fridays
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-thursdays-and-fridays
----
-
----
-action: 
-SELECTED | Hampshire | Portsmouth, South East, PO2 8RA | £26,427 - £27,274 per annum (actual salary for term time plus 3 weeks £24,343 - £25,123) | Administrator - The Harbour School
-employer: The Harbour School
-closing_date: 2026-09-30T08:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b3a1369ae7e11bf654be3419288700766f6e952ff817cfe9e39a38581c9e8117
-source: Teaching Vacancies
-source_job_id: administrator-the-harbour-school-the-harbour-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-the-harbour-school-the-harbour-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

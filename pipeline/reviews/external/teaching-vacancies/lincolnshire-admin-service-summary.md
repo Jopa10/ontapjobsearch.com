@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-09-29
-review_fingerprint: 34aeff1ccf66948b1caeaacc1107d2c0d1f9e38cd3f53c48dcf91c8ce7a13501
-routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
+review_date: 2026-09-30
+review_fingerprint: df9b38eb5dacf8b74fe01eeac794db536841cc3affb2a5d8b6c778ac371dede9
+routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 8
+- Records: 13
+- Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 5
@@ -34,21 +34,6 @@ factual_fingerprint: 58e4045c9b23f9c650d1b2b7cfe78970ecd68e8d6943aab73fef0575ed5
 source: Teaching Vacancies
 source_job_id: academy-administrator-35b6eb6f-c93e-4b6e-b5d9-62a3a5806607
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-35b6eb6f-c93e-4b6e-b5d9-62a3a5806607
----
-
----
-action: 
-SELECTED | Lincolnshire | Grimsby, Yorkshire and the Humber, DN33 1RJ | £26,016.00 Annually (FTE) Actual Salary £20,955 | Administration Assistant
-employer: Woodlands Academy
-closing_date: 2026-09-30T12:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ab22d4a082a1282bbde26ba42b90b6060e9cead7ea71b5c3550b41080024a3fa
-source: Teaching Vacancies
-source_job_id: administration-assistant-woodlands-academy-grimsby-north-east-lincolnshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-woodlands-academy-grimsby-north-east-lincolnshire
 ---
 
 ---

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-09-29
+review_date: 2026-09-30
 review_fingerprint: f9ce929a0406a2571868b421f8bea3cdca00f79e486816680b3485afb1dc52d0
-routing_manifest_sha256: 98b39116fc5713c2bc6e91db9b417a30d36eeabf95d0fc865c3afae9ab4632b9
+routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
+- Records: 12
 - Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 4
 
 ## SELECTED
 
@@ -150,7 +150,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-sp
 ## HARD_PASS
 
 - [Administration Officer: Vulnerable Students](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-vulnerable-students) — Insufficient admin/service evidence.
+- [HR Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-administration-assistant-inspiration-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-poringland-primary-school) — Manager title salary ceiling £33,119 is not below £28,000.
+- [Transport Assistant](https://teaching-vacancies.service.gov.uk/jobs/transport-assistant) — Insufficient admin/service evidence.
 
 ## Safety boundary
 
