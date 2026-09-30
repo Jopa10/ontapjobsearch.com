@@ -1,6 +1,6 @@
 # Ontap daily regional overview
 
-Generated: 2026-09-30T13:52:36+01:00
+Generated: 2026-09-30T17:31:31+01:00
 
 [Download this overview as Excel](./daily-region-overview.xlsx)
 
@@ -8,16 +8,16 @@ Generated: 2026-09-30T13:52:36+01:00
 
 | Measure | Count |
 |---|---:|
-| Unique live jobs | 2,046 |
+| Unique live jobs | 2,045 |
 | Unique JobG8 jobs | 1,645 |
-| Unique non-JobG8 jobs | 401 |
-| Regional/category slice placements | 2,590 |
+| Unique non-JobG8 jobs | 400 |
+| Regional/category slice placements | 2,589 |
 | Jobs appearing on multiple slices | 544 |
 | Extra slice placements | 544 |
 | Unique jobs outside governed slices | 0 |
 | Jobs found in non-LIVE slices | 0 |
 
-**Reconciliation: 2,046 unique jobs + 544 extra slice placements = 2,590 regional/category slice placements.**
+**Reconciliation: 2,045 unique jobs + 544 extra slice placements = 2,589 regional/category slice placements.**
 
 Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-30.csv` — **STALE — CSV says 2,077 for 2026-09-30**.
 
@@ -27,7 +27,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-3
 |---|---:|---:|---:|
 | JobG8 | 1,645 | 544 | 544 |
 | NHS Jobs | 240 | 0 | 0 |
-| Teaching Vacancies | 161 | 0 | 0 |
+| Teaching Vacancies | 160 | 0 | 0 |
 
 ## JOBG8 FEED RECEIVED
 
@@ -295,7 +295,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-3
 
 ## CITY OPPORTUNITIES
 
-**359 mapped towns/localities with live jobs or an existing city page.** Counts use all 2,046 unique live Ontap jobs across every role and provider: 1,083 have an exact recognised town/locality and 963 have only broader or unrecognised location evidence. CREATE means 4+ current Service Admin jobs and no existing city page; London is held separately.
+**358 mapped towns/localities with live jobs or an existing city page.** Counts use all 2,045 unique live Ontap jobs across every role and provider: 1,082 have an exact recognised town/locality and 963 have only broader or unrecognised location evidence. CREATE means 4+ current Service Admin jobs and no existing city page; London is held separately.
 
 | Status | Town/city/locality | Region | All live jobs | Existing pages | Current routes | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre | Other / unclassified |
 |---|---|---|---:|---:|---||---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -406,7 +406,6 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-3
 | HOLD – LONDON | Stanmore | London | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | HOLD – LONDON | Barking | London | 1 | 0 |  | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
 | HOLD – LONDON | Bexley | London | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| HOLD – LONDON | Bushey | London | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | HOLD – LONDON | Chislehurst | London | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | HOLD – LONDON | Enfield | London | 1 | 0 |  | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
 | HOLD – LONDON | Ilford | London | 1 | 0 |  | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
@@ -697,7 +696,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-3
 | Lancashire - West |  |  |  |  |  |  |  |  |
 | Leicestershire | 16 |  |  |  |  | 10 |  |  |
 | Lincolnshire | 16 |  |  |  |  |  |  |  |
-| London | 224 | 3 | 13 | 50 | 72 | 73 | 27 | CHECK |
+| London | 223 | 3 | 13 | 50 | 72 | 73 | 27 | CHECK |
 | Merseyside - Liverpool | 22 |  |  | 6 | 5 |  |  |  |
 | Merseyside - Sefton |  |  |  |  |  |  |  |  |
 | Merseyside - St Helens & Knowsley |  |  |  |  |  |  |  |  |
@@ -834,6 +833,6 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-09-3
 | Measure | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Live regions | 52 / 78 | 11 / 78 | 14 / 78 | 13 / 78 | 22 / 78 | 36 / 78 | 9 / 78 | 6 / 78 |
-| Live slice placements | 1566 | 47 | 48 | 170 | 189 + 1 CHECK | 527 + 3 CHECK | 42 + 2 CHECK | 1 + 5 CHECK |
+| Live slice placements | 1565 | 47 | 48 | 170 | 189 + 1 CHECK | 527 + 3 CHECK | 42 + 2 CHECK | 1 + 5 CHECK |
 
 **Live slices: 163 / 624.**
