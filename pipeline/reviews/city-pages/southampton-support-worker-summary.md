@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 3
-- automatic exclude: 2
+- automatic review: 4
+- automatic exclude: 4
 - effective include: 4
-- effective review: 3
-- effective exclude: 2
+- effective review: 4
+- effective exclude: 4
 
 ## INCLUDE (4)
 
@@ -72,7 +72,19 @@ job_id: jobg8-1856912
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (3)
+## REVIEW (4)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Assistant
+company: Hampshire County Council - Company - Permanent
+location: Alton
+source: JobG8
+job_id: jobg8-1401785277
+reason: Broad location; review before city inclusion.
+---
 
 ---
 action: 
@@ -110,7 +122,19 @@ job_id: jobg8-107856243
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
-## EXCLUDE (2)
+## EXCLUDE (4)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Care Assistant
+company: Hampshire County Council - Company - Permanent
+location: Winchester
+source: JobG8
+job_id: jobg8-1401785443
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -121,6 +145,18 @@ company: Hampshire County Council - Company - Permanent
 location: Winchester
 source: JobG8
 job_id: jobg8-1401785482
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Secure Children's Home Support Worker
+company: Hampshire County Council - Company - Permanent
+location: Eastleigh
+source: JobG8
+job_id: jobg8-1401785578
 reason: Separate employment market.
 ---
 

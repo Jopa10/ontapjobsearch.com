@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 28
+- automatic review: 27
 - automatic exclude: 14
 - effective include: 5
-- effective review: 28
+- effective review: 27
 - effective exclude: 14
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-1856512
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (28)
+## REVIEW (27)
 
 ---
 action: 
@@ -238,7 +238,7 @@ title: Finance Assistant
 company: First Recruitment Services - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-1891451
+job_id: jobg8-2044482
 reason: Broad location; review before city inclusion.
 ---
 
@@ -252,18 +252,6 @@ location: Sussex
 source: JobG8
 job_id: jobg8-1869397
 reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant (MAT Cover)
-company: Clearline Recruitment Ltd - Agency - Permanent
-location: Haywards Heath
-source: JobG8
-job_id: jobg8-1948806
-reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
 ---

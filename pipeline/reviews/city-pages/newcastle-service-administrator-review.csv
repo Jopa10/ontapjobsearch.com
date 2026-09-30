@@ -1,8 +1,8 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-1899187,Accounts Assistant,Consult KA Ltd - Agency - Permanent,Newcastle,JobG8,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
+include,nhs-5628810,Admin/receptionist,Stephenson Park Health Group,"Newcastle Upon Tyne, NE12 9BQ",NHS Jobs,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
 include,jobg8-1944301,Assistant Accountant,Hays Specialist Recruitment Limited - Agency - Permanent,Newcastle,JobG8,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
 include,jobg8-107967240,Business Development Executive,Independent Utility Advice - Agency - Permanent,Newcastle Upon Tyne,JobG8,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
-include,nhs-5627717,GP Receptionist,Jesmond Health Partnership,"Newcastle upon Tyne, NE2 2AH, Newcastle Upon Tyne, NE2 1PQ, Newcastle Upon Tyne, NE3 1TX, Newcastle Upon Tyne, NE2 3LD",NHS Jobs,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
 include,nhs-5541887,Home Administrator,Akari Care Limited,"Newcastle, NE5 5HQ",NHS Jobs,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
 include,nhs-5577937,Home Administrator,Akari Care Limited,"Gateshead, NE8 1QU",NHS Jobs,include,include,Approved Newcastle catchment.,gateshead,newcastle-service-administrator
 include,nhs-5610574,Home Administrator,Akari Care Limited,"Newcastle, NE5 5HQ",NHS Jobs,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
@@ -34,7 +34,6 @@ review,jobg8-1893905,Junior Accountant,BMC Recruitment Group - Agency - Permanen
 review,jobg8-1876148,Ledger Assistant,Adecco - Agency - Permanent,Staffordshire,JobG8,review,review,No approved Newcastle catchment rule matched; local review required.,fallback,newcastle-service-administrator
 review,jobg8-2021816,Marketing & Communications Manager,Tynedale Hospice at Home - Agency - Permanent,Northumberland,JobG8,review,review,No approved Newcastle catchment rule matched; local review required.,fallback,newcastle-service-administrator
 review,jobg8-1897065,Marketing Planner,Nigel Wright Group - Agency - Permanent,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
-review,jobg8-1896566,Mercedes-Benz Accounts Assistant,Sytner Group - Agency - Permanent,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
 review,jobg8-1882063,Part-time Finance Assistant,KCR Solutions - Agency - Permanent,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
 review,jobg8-1897045,Payroll Administrator,Sopra Steria - Agency - Permanent,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
 review,jobg8-1958584,Payroll Assistant,Portfolio Payroll - Agency - Permanent,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator

@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 24
-- automatic exclude: 18
+- automatic review: 27
+- automatic exclude: 17
 - effective include: 4
-- effective review: 24
-- effective exclude: 18
+- effective review: 27
+- effective exclude: 17
 
 ## INCLUDE (4)
 
@@ -72,7 +72,7 @@ job_id: nhs-5624270
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (24)
+## REVIEW (27)
 
 ---
 action: 
@@ -210,6 +210,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Finance Officer
+company: Home-Start Portsmouth - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2046589
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Administrator
 company: 4Recruitment Services - Agency - Permanent
 location: Lyndhurst
@@ -276,6 +288,18 @@ location: Southsea
 source: JobG8
 job_id: jobg8-1939433
 reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Assistant - Commercial Property
+company: Harwood Recruitment Solutions Limited - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2044543
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -362,7 +386,19 @@ job_id: jobg8-1881197
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (18)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Receptionist
+company: Silcom Recruitment Limited - Agency - Permanent
+location: Petersfield
+source: JobG8
+job_id: jobg8-2046029
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+## EXCLUDE (17)
 
 ---
 action: 
@@ -397,18 +433,6 @@ company: Practice Plus Group - Health in Justice
 location: Winchester, SO22 5DF
 source: NHS Jobs
 job_id: nhs-5608199
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator - The Harbour School
-company: The Harbour School
-location: Portsmouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-the-harbour-school-the-harbour-school
 reason: Separate employment market.
 ---
 

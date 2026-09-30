@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 58
+- automatic review: 57
 - automatic exclude: 0
 - effective include: 1
-- effective review: 58
+- effective review: 57
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: jobg8-2024535
 reason: Exact approved Ashford workplace.
 ---
 
-## REVIEW (58)
+## REVIEW (57)
 
 ---
 action: 
@@ -114,23 +114,11 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: Invicta Health CIC
-location: Ramsgate, CT11 8AD
-source: NHS Jobs
-job_id: nhs-5615644
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: Michael Page Finance - Agency - Permanent
+title: Administrator Accountancy firm Xero essential
+company: Office Angels - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-1905113
+job_id: jobg8-2045801
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -366,6 +354,18 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Insurance Claims Coordinator
+company: Huntress - Agency - Permanent
+location: Chatham
+source: JobG8
+job_id: jobg8-2044917
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Insurance Sales Executive
 company: Get Recruited (UK) Ltd - Agency - Permanent
 location: Dartford
@@ -450,18 +450,6 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Marketing and Communications
-company: TN Recruits - Agency - Permanent
-location: Tunbridge Wells
-source: JobG8
-job_id: jobg8-1914149
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Marketing Content Executive
 company: Mission Aviation Fellowship UK - Agency - Permanent
 location: Folkestone
@@ -491,6 +479,18 @@ company: Recruitment Solutions - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-2040044
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Executive
+company: Reed - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2044913
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -587,18 +587,6 @@ company: Pearson Whiffin Recruitment Ltd - Agency - Permanent
 location: Maidstone
 source: JobG8
 job_id: jobg8-1927434
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Quality & Customer Support Coordinator
-company: Huntress - Agency - Permanent
-location: Sittingbourne
-source: JobG8
-job_id: jobg8-1831356
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 

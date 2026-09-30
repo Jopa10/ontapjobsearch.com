@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 30
+- automatic review: 35
 - automatic exclude: 0
 - effective include: 2
-- effective review: 30
+- effective review: 35
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: jobg8-1874146
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (30)
+## REVIEW (35)
 
 ---
 action: 
@@ -115,18 +115,6 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Elysium Healthcare
-location: Barnsley, S71 4FL
-source: NHS Jobs
-job_id: nhs-5624848
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
 company: Reed - Agency - Permanent
 location: Doncaster
 source: JobG8
@@ -174,6 +162,18 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Assistant Management Accountant
+company: Elevation Recruitment Group - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2044207
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Attendance Admin Assistant
 company: Lift Firth Park
 location: Sheffield
@@ -198,6 +198,42 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-20279_63174-89740a075c6163b74ea2c52702062e5d
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-20279_63174-73862c8b83139033e4e4a8b6efca9a33
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-20279_63174-d24d3d6916a209e15b1680693740da2f
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Credit Control / Accounts Assistant
 company: Shillito Group - Agency - Permanent
 location: Sheffield
@@ -214,7 +250,7 @@ title: Customer Service Advisor
 company: EE - Company - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-20279_62308-153faf593eb64b88272f45adeaa28d87
+job_id: jobg8-20279_63174-153faf593eb64b88272f45adeaa28d87
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -227,6 +263,18 @@ company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-1908708
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: GP Receptionist
+company: Elm Lane & Chapeltown Surgery
+location: Sheffield, S5 7TW, SHEFFIELD, S35 1TD
+source: NHS Jobs
+job_id: nhs-5627333
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -251,6 +299,18 @@ company: GGT Insolvency Recruitment - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2014257
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist
+company: Norwood Medical Centre
+location: Sheffield, S5 7HD
+source: NHS Jobs
+job_id: nhs-5630483
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

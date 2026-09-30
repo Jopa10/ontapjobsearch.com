@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 30
+- automatic review: 28
 - automatic exclude: 0
 - effective include: 4
-- effective review: 30
+- effective review: 28
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-1960335
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (30)
+## REVIEW (28)
 
 ---
 action: 
@@ -83,18 +83,6 @@ company: 3 Point Recruitment - Agency - Permanent
 location: Rugby
 source: JobG8
 job_id: jobg8-1945783
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Mitchell Adam - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-1874877
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -143,18 +131,6 @@ company: Stretton Church of England Academy
 location: Coventry
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-stretton-church-of-england-academy-coventry-west-midlands
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Studley St Mary's CofE Academy
-location: Studley
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-studley-st-mary-s-cofe-academy
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

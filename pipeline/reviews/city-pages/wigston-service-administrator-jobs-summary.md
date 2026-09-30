@@ -162,18 +162,6 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: Trinity House Group - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-1858417
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Support Officer - Credit Control
 company: SF Partners - Agency - Permanent
 location: Leicestershire
@@ -251,6 +239,18 @@ company: qed legal - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-2026724
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchasing Administrator - with Parking
+company: Office Angels - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225663833
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

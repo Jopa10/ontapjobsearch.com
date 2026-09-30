@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 8
+- automatic review: 6
 - automatic exclude: 0
 - effective include: 4
-- effective review: 8
+- effective review: 6
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,19 +72,7 @@ job_id: jobg8-1868509
 reason: Exact approved Altrincham workplace.
 ---
 
-## REVIEW (8)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Michael Page Finance - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-1950420
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
+## REVIEW (6)
 
 ---
 action: 
@@ -119,18 +107,6 @@ company: Dot Partners - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-1949350
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrator
-company: Ashton-on-Mersey School
-location: Sale
-source: Teaching Vacancies
-job_id: teaching-vacancies-hr-administrator-ashton-on-mersey-school
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

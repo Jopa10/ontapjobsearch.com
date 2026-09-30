@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 3
+- automatic include: 6
+- automatic review: 2
 - automatic exclude: 24
-- effective include: 7
-- effective review: 3
+- effective include: 6
+- effective review: 2
 - effective exclude: 24
 
-## INCLUDE (7)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Mitchell Adam - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-1874877
-reason: Approved Coventry catchment.
----
+## INCLUDE (6)
 
 ---
 action: 
@@ -108,19 +96,7 @@ job_id: nhs-5616059
 reason: Approved Coventry catchment.
 ---
 
-## REVIEW (3)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Studley St Mary's CofE Academy
-location: Studley
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-studley-st-mary-s-cofe-academy
-reason: No approved Coventry catchment rule matched; local review required.
----
+## REVIEW (2)
 
 ---
 action: 

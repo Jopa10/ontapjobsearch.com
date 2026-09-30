@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 62
+- automatic review: 61
 - automatic exclude: 0
 - effective include: 0
-- effective review: 62
+- effective review: 61
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (62)
+## REVIEW (61)
 
 ---
 action: 
@@ -71,6 +71,18 @@ company: Randstad Perm Professionals - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-1961052
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin/receptionist
+company: Stephenson Park Health Group
+location: Newcastle Upon Tyne, NE12 9BQ
+source: NHS Jobs
+job_id: nhs-5628810
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -366,18 +378,6 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: GP Receptionist
-company: Jesmond Health Partnership
-location: Newcastle upon Tyne, NE2 2AH, Newcastle Upon Tyne, NE2 1PQ, Newcastle Upon Tyne, NE3 1TX, Newcastle Upon Tyne, NE2 3LD
-source: NHS Jobs
-job_id: nhs-5627717
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Home Administrator
 company: Akari Care Limited
 location: Newcastle, NE5 5HQ
@@ -575,18 +575,6 @@ company: Nigel Wright Group - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-1897065
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Mercedes-Benz Accounts Assistant
-company: Sytner Group - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-1896566
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 

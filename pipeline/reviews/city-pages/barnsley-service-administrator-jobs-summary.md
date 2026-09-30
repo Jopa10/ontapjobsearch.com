@@ -4,7 +4,7 @@
 - Live route: `/barnsley/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
+- automatic include: 3
 - automatic review: 2
-- automatic exclude: 26
-- effective include: 4
+- automatic exclude: 32
+- effective include: 3
 - effective review: 2
-- effective exclude: 26
+- effective exclude: 32
 
-## INCLUDE (4)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Elysium Healthcare
-location: Barnsley, S71 4FL
-source: NHS Jobs
-job_id: nhs-5624848
-reason: Approved Barnsley catchment.
----
+## INCLUDE (3)
 
 ---
 action: 
@@ -98,7 +86,7 @@ job_id: jobg8-1933458
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (26)
+## EXCLUDE (32)
 
 ---
 action: 
@@ -212,6 +200,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Assistant Management Accountant
+company: Elevation Recruitment Group - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2044207
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Attendance Admin Assistant
 company: Lift Firth Park
 location: Sheffield
@@ -236,6 +236,42 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Call Centre Agent
+company: EE - Company - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-20279_63174-89740a075c6163b74ea2c52702062e5d
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Call Centre Operator
+company: EE - Company - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-20279_63174-73862c8b83139033e4e4a8b6efca9a33
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Contact Centre Agent
+company: EE - Company - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-20279_63174-d24d3d6916a209e15b1680693740da2f
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Credit Control / Accounts Assistant
 company: Shillito Group - Agency - Permanent
 location: Sheffield
@@ -252,7 +288,19 @@ title: Customer Service Advisor
 company: EE - Company - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-20279_62308-153faf593eb64b88272f45adeaa28d87
+job_id: jobg8-20279_63174-153faf593eb64b88272f45adeaa28d87
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: GP Receptionist
+company: Elm Lane & Chapeltown Surgery
+location: Sheffield, S5 7TW, SHEFFIELD, S35 1TD
+source: NHS Jobs
+job_id: nhs-5627333
 reason: Separate employment market.
 ---
 
@@ -277,6 +325,18 @@ company: GGT Insolvency Recruitment - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2014257
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Medical Receptionist
+company: Norwood Medical Centre
+location: Sheffield, S5 7HD
+source: NHS Jobs
+job_id: nhs-5630483
 reason: Separate employment market.
 ---
 

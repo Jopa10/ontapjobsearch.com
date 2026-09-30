@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 25
+- Effective included jobs: 24
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 25
-- automatic review: 3
-- automatic exclude: 13
-- effective include: 25
-- effective review: 3
-- effective exclude: 13
+- automatic include: 24
+- automatic review: 4
+- automatic exclude: 12
+- effective include: 24
+- effective review: 4
+- effective exclude: 12
 
-## INCLUDE (25)
+## INCLUDE (24)
 
 ---
 action: 
@@ -208,18 +208,6 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Legal Administrator
-company: Pure Resourcing Solutions - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-1945697
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Legal Assistant
 company: Reed - Agency - Permanent
 location: Cambridge
@@ -324,7 +312,7 @@ job_id: jobg8-1875937
 reason: Approved conservative Cambridge launch catchment.
 ---
 
-## REVIEW (3)
+## REVIEW (4)
 
 ---
 action: 
@@ -354,6 +342,18 @@ reason: No approved Cambridge catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Personal Assistant
+company: East of England Community Health and Care NHS Trust (Cambridge)
+location: St Ives, PE27 4LG
+source: NHS Jobs
+job_id: nhs-5610324
+reason: No approved Cambridge catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: School Administrative Receptionist
 company: Buckden CofE Primary School
 location: St Neots
@@ -362,7 +362,7 @@ job_id: teaching-vacancies-school-administrative-receptionist
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (13)
+## EXCLUDE (12)
 
 ---
 action: 
@@ -385,18 +385,6 @@ company: Reed - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-1939236
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrative Support Officer
-company: North West Anglia NHS Foundation Trust
-location: Peterborough, PE3 9GZ
-source: NHS Jobs
-job_id: nhs-5623327
 reason: Separate employment market.
 ---
 

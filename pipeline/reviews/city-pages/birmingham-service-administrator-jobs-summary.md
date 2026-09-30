@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 41
+- Effective included jobs: 44
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 41
+- automatic include: 44
 - automatic review: 4
-- automatic exclude: 5
-- effective include: 41
+- automatic exclude: 7
+- effective include: 44
 - effective review: 4
-- effective exclude: 5
+- effective exclude: 7
 
-## INCLUDE (41)
+## INCLUDE (44)
 
 ---
 action: 
@@ -220,18 +220,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Events Coordinator
-company: Australasian Recruitment Company - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-1867674
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Finance Administrator
 company: Mitchell Adam - Agency - Permanent
 location: Birmingham
@@ -328,6 +316,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Internal Sales Administrator
+company: Morgan Parkes Recruitment Limited - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2044276
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: International Accounts Officer
 company: Robertson Bell - Agency - Permanent
 location: Birmingham
@@ -345,6 +345,18 @@ company: Bell Cornwall Recruitment - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-1910289
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Local Offer Website Coordinator
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2041167
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -460,6 +472,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist/Administrator
+company: The Wand Medical Centre
+location: Birmingham, B12 0UF
+source: NHS Jobs
+job_id: nhs-5629570
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Remote Conveyancing Paralegal
 company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
 location: Birmingham
@@ -501,6 +525,18 @@ company: Katie Bard & Angela Mortimer Plc - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-2028830
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2041041
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -566,7 +602,7 @@ job_id: jobg8-1957646
 reason: Broad regional location; review before Birmingham inclusion.
 ---
 
-## EXCLUDE (5)
+## EXCLUDE (7)
 
 ---
 action: 
@@ -577,6 +613,18 @@ company: Mitchell Adam - Agency - Permanent
 location: Solihull
 source: JobG8
 job_id: jobg8-1868171
+reason: Separate exact-city market at launch.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: SF Partners - Agency - Permanent
+location: Solihull
+source: JobG8
+job_id: jobg8-2044201
 reason: Separate exact-city market at launch.
 ---
 
@@ -601,6 +649,18 @@ company: Mitchell Adam - Agency - Permanent
 location: Solihull
 source: JobG8
 job_id: jobg8-1873246
+reason: Separate exact-city market at launch.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: GP Practice Receptionist
+company: Hobs Moat Medical Centre
+location: Solihull, B92 8ED
+source: NHS Jobs
+job_id: nhs-5631076
 reason: Separate exact-city market at launch.
 ---
 

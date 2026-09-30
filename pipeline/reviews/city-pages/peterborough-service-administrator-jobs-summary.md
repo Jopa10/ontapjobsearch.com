@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
+- automatic include: 9
 - automatic review: 3
 - automatic exclude: 28
-- effective include: 10
+- effective include: 9
 - effective review: 3
 - effective exclude: 28
 
-## INCLUDE (10)
+## INCLUDE (9)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Reed - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-1939236
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrative Support Officer
-company: North West Anglia NHS Foundation Trust
-location: Peterborough, PE3 9GZ
-source: NHS Jobs
-job_id: nhs-5623327
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -404,18 +392,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Legal Administrator
-company: Pure Resourcing Solutions - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-1945697
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Legal Assistant
 company: Reed - Agency - Permanent
 location: Cambridge
@@ -493,6 +469,18 @@ company: Red House Surgery
 location: Cambridge, CB4 1ER, Cambridge, CB1 1PT
 source: NHS Jobs
 job_id: nhs-5622126
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Personal Assistant
+company: East of England Community Health and Care NHS Trust (Cambridge)
+location: St Ives, PE27 4LG
+source: NHS Jobs
+job_id: nhs-5610324
 reason: Separate employment market.
 ---
 

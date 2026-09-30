@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 21
+- automatic review: 22
 - automatic exclude: 0
 - effective include: 3
-- effective review: 21
+- effective review: 22
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: nhs-5625199
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (21)
+## REVIEW (22)
 
 ---
 action: 
@@ -215,6 +215,18 @@ company: Resource Recruitment - Agency - Permanent
 location: Ferndown
 source: JobG8
 job_id: jobg8-1957010
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Coordinator
+company: Dovetail Recruitment Ltd - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-2041792
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

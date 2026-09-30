@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 20
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 20
-- automatic review: 11
+- automatic include: 17
+- automatic review: 10
 - automatic exclude: 6
-- effective include: 20
-- effective review: 11
+- effective include: 17
+- effective review: 10
 - effective exclude: 6
 
-## INCLUDE (20)
+## INCLUDE (17)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Reed - Agency - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-1936736
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Payable Associate
-company: RS Components Holdings Limited - Agency - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-1912325
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -117,18 +105,6 @@ company: EE - Company - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-20279_62648-e22242ba84bf98abd1c8488521625d74
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Clinical Administrator
-company: North Cheshire and Mersey NHS Foundation Trust (BCH)
-location: Warrington, WA5 7YS
-source: NHS Jobs
-job_id: nhs-5616107
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -220,18 +196,6 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Graduate HR Administrator
-company: ARBORVITAE CARE SERVICES LTD - Agency - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-1959440
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Legal Assistant
 company: Law Staff Limited - Agency - Permanent
 location: Warrington
@@ -264,7 +228,7 @@ job_id: jobg8-1909662
 reason: Approved conservative Warrington launch catchment.
 ---
 
-## REVIEW (11)
+## REVIEW (10)
 
 ---
 action: 
@@ -383,18 +347,6 @@ company: Revolution Recruitment Resources Ltd - Agency - Permanent
 location: Widnes
 source: JobG8
 job_id: jobg8-1857293
-reason: No approved Warrington catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll and Benefits Administrator
-company: Michael Page Finance - Agency - Permanent
-location: Cheshire
-source: JobG8
-job_id: jobg8-1928944
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 

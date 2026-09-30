@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 57
+- automatic review: 60
 - automatic exclude: 0
 - effective include: 2
-- effective review: 57
+- effective review: 60
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: jobg8-1927556
 reason: Exact approved Farnham workplace.
 ---
 
-## REVIEW (57)
+## REVIEW (60)
 
 ---
 action: 
@@ -174,6 +174,18 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Assistant Town Planner
+company: Penguin Recruitment Ltd - Agency - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-2045680
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Attendance and Admissions Officer
 company: Danetree Primary School
 location: Epsom
@@ -186,11 +198,35 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Beneficiary Services Project Co-ordinator
+company: Police Care UK - Agency - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-2046627
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Bookkeeper
 company: Fletcher George Recruitment Ltd - Agency - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-1916202
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Bookkeeper
+company: Fletcher George Recruitment Ltd - Agency - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-2044193
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -306,6 +342,18 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Ferrari Marketing Executive
+company: Sytner Group - Agency - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-2045727
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Ferrari Service Advisor
 company: Sytner Group - Agency - Permanent
 location: Surrey
@@ -378,6 +426,18 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Financial Administrator
+company: Financial Divisions - Agency - Permanent
+location: Godalming
+source: JobG8
+job_id: jobg8-2045887
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Fleet Administrator
 company: Reed - Agency - Permanent
 location: Leatherhead
@@ -431,18 +491,6 @@ company: Office Angels - Agency - Permanent
 location: Leatherhead
 source: JobG8
 job_id: jobg8-1883590
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Internal Sales Representative
-company: OPR Ltd - Agency - Permanent
-location: Guildford
-source: JobG8
-job_id: jobg8-108016828
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -618,11 +666,11 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Programme Administrator
-company: University of Surrey - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-415543
+title: Receptionist
+company: Chaldon Road Surgery
+location: Caterham, CR3 5PG
+source: NHS Jobs
+job_id: nhs-5628925
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -683,18 +731,6 @@ company: Pembrook Resourcing - Agency - Permanent
 location: Staines
 source: JobG8
 job_id: jobg8-1950797
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Advisor
-company: Prospectus IT Recruitment - Agency - Permanent
-location: Epsom
-source: JobG8
-job_id: jobg8-108037759
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 

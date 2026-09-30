@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 39
+- automatic review: 41
 - automatic exclude: 0
 - effective include: 9
-- effective review: 39
+- effective review: 41
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -52,11 +52,11 @@ reason: Exact approved Plymouth workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Care Coordinator
-company: Persimmon Homes - Agency - Permanent
+title: Finance Assistant
+company: Butler Rose - Agency - Permanent
 location: Plymouth
 source: JobG8
-job_id: jobg8-108025447
+job_id: jobg8-1895753
 reason: Exact approved Plymouth workplace.
 ---
 
@@ -64,11 +64,11 @@ reason: Exact approved Plymouth workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Finance Assistant
-company: Butler Rose - Agency - Permanent
+title: HR Administrator - Employee Relations
+company: Acorn by Synergie - Agency - Permanent
 location: Plymouth
 source: JobG8
-job_id: jobg8-1895753
+job_id: jobg8-2041166
 reason: Exact approved Plymouth workplace.
 ---
 
@@ -132,7 +132,7 @@ job_id: teaching-vacancies-senior-administrator-st-paul-s-roman-catholic-primary
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (39)
+## REVIEW (41)
 
 ---
 action: 
@@ -282,6 +282,18 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: Finance and Bursary Administrator
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-2045343
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Assistant
 company: Adecco - Agency - Permanent
 location: Exeter
@@ -342,11 +354,11 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator
-company: Artis Recruitment - Agency - Permanent
-location: Newton Abbot
+title: Insurance Administrator
+company: Switch - Agency - Permanent
+location: Exeter
 source: JobG8
-job_id: jobg8-1945151
+job_id: jobg8-107875971
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -414,18 +426,6 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Peri Ward Clerk
-company: Royal Devon University Healthcare NHS Foundation Trust
-location: Exeter, EX2 5DW
-source: NHS Jobs
-job_id: nhs-5623640
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Property Legal Assistant
 company: Pertemps Plymouth Commercial - Agency - Permanent
 location: Devon
@@ -450,11 +450,35 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: Reception/Administrator
+company: Litchdon Medical Centre
+location: Barnstaple, EX32 9LL
+source: NHS Jobs
+job_id: nhs-5616652
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist
 company: Axminster Medical Practice
 location: Axminster, EX13 5AG
 source: NHS Jobs
 job_id: nhs-5627512
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: College Surgery Partnership
+location: Cullompton, EX15 1FE
+source: NHS Jobs
+job_id: nhs-5628758
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

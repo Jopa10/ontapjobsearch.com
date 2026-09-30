@@ -4,7 +4,7 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
+- automatic include: 9
 - automatic review: 14
 - automatic exclude: 15
-- effective include: 10
+- effective include: 9
 - effective review: 14
 - effective exclude: 15
 
-## INCLUDE (10)
+## INCLUDE (9)
 
 ---
 action: 
@@ -69,18 +69,6 @@ company: Oxford University Hospitals NHS Foundation Trust
 location: Headington, Oxford, OX3 9DU
 source: NHS Jobs
 job_id: nhs-5623981
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Oxford Health NHS Trust
-location: Oxford, OX3 7JH
-source: NHS Jobs
-job_id: nhs-5613172
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -136,11 +124,11 @@ reason: Approved conservative Oxford launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Patient Pathway Administrator
+title: Ward Clerk
 company: Oxford University Hospitals NHS Foundation Trust
 location: Oxford, OX3 9DU
 source: NHS Jobs
-job_id: nhs-5621723
+job_id: nhs-5620012
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -404,6 +392,18 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Finance Administrator
+company: UCCF The Christian Unions - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-2046642
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Finance Officer - Receivables
 company: Reed - Agency - Permanent
 location: Oxfordshire
@@ -433,18 +433,6 @@ company: Reed - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-1939388
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Inventory Control Administrator
-company: GXO Logistics - Company - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-108042433
 reason: Broad county location; not Oxford-city evidence.
 ---
 

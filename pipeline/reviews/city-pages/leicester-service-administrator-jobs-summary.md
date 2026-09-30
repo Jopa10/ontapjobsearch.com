@@ -4,7 +4,7 @@
 - Live route: `/leicester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 15
+- automatic include: 8
+- automatic review: 14
 - automatic exclude: 0
-- effective include: 7
-- effective review: 15
+- effective include: 8
+- effective review: 14
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (8)
 
 ---
 action: 
@@ -100,6 +100,18 @@ reason: Exact approved Leicester workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Purchasing Administrator - with Parking
+company: Office Angels - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225663833
+reason: Exact approved Leicester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist - Maternity Cover
 company: Manorfield Church of England Primary School
 location: Leicester
@@ -108,7 +120,7 @@ job_id: teaching-vacancies-receptionist-maternity-cover-manorfield-church-of-eng
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (15)
+## REVIEW (14)
 
 ---
 action: 
@@ -203,18 +215,6 @@ company: Whistl - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-1882271
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: Trinity House Group - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-1858417
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

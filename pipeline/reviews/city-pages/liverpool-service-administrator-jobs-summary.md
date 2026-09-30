@@ -100,18 +100,6 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Clerical Officer
-company: Liverpool University Hospitals NHS Foundation Trust
-location: Liverpool, L7 8XP
-source: NHS Jobs
-job_id: nhs-5600793
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Employment Advisor/Paralegal
 company: Michael Page Legal - Agency - Permanent
 location: Liverpool
@@ -225,6 +213,18 @@ company: Michael Page - Agency - Contract
 location: Liverpool
 source: JobG8
 job_id: jobg8-23643_225639923
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Medical Receptionist
+company: Dunstan Village Group Practice
+location: Liverpool, L7 6HD
+source: NHS Jobs
+job_id: nhs-5620107
 reason: Approved conservative Liverpool launch catchment.
 ---
 

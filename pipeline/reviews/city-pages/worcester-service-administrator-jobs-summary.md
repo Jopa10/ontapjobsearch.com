@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 11
+- automatic review: 10
 - automatic exclude: 0
 - effective include: 0
-- effective review: 11
+- effective review: 10
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (11)
+## REVIEW (10)
 
 ---
 action: 
@@ -83,18 +83,6 @@ company: Four Squared - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-1907859
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Group HR Co-ordinator
-company: James Andrew Recruitment Solutions (JAR Solutions) - Agency - Permanent
-location: Redditch
-source: JobG8
-job_id: jobg8-1928891
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

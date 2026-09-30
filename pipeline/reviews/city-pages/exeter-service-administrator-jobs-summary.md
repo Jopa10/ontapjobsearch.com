@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 13
-- automatic review: 35
+- automatic review: 37
 - automatic exclude: 0
 - effective include: 13
-- effective review: 35
+- effective review: 37
 - effective exclude: 0
 
 ## INCLUDE (13)
@@ -76,11 +76,11 @@ reason: Exact approved Exeter workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Peri Ward Clerk
-company: Royal Devon University Healthcare NHS Foundation Trust
-location: Exeter, EX2 5DW
-source: NHS Jobs
-job_id: nhs-5623640
+title: Insurance Administrator
+company: Switch - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-107875971
 reason: Exact approved Exeter workplace.
 ---
 
@@ -180,7 +180,7 @@ job_id: jobg8-1877836
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (35)
+## REVIEW (37)
 
 ---
 action: 
@@ -307,18 +307,6 @@ action:
 decision: review
 automatic_decision: review
 title: Customer Care Coordinator
-company: Persimmon Homes - Agency - Permanent
-location: Plymouth
-source: JobG8
-job_id: jobg8-108025447
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Care Coordinator
 company: RGB Recruitment - Agency - Permanent
 location: Devon
 source: JobG8
@@ -335,6 +323,18 @@ company: Countrywide HQ - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-1991665
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance and Bursary Administrator
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-2045343
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -390,11 +390,11 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator
-company: Artis Recruitment - Agency - Permanent
-location: Newton Abbot
+title: HR Administrator - Employee Relations
+company: Acorn by Synergie - Agency - Permanent
+location: Plymouth
 source: JobG8
-job_id: jobg8-1945151
+job_id: jobg8-2041166
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -510,11 +510,35 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Reception/Administrator
+company: Litchdon Medical Centre
+location: Barnstaple, EX32 9LL
+source: NHS Jobs
+job_id: nhs-5616652
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist
 company: Axminster Medical Practice
 location: Axminster, EX13 5AG
 source: NHS Jobs
 job_id: nhs-5627512
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: College Surgery Partnership
+location: Cullompton, EX15 1FE
+source: NHS Jobs
+job_id: nhs-5628758
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

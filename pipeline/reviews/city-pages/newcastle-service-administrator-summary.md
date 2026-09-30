@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 12
-- automatic review: 33
+- automatic review: 32
 - automatic exclude: 17
 - effective include: 12
-- effective review: 33
+- effective review: 32
 - effective exclude: 17
 
 ## INCLUDE (12)
@@ -33,6 +33,18 @@ company: Consult KA Ltd - Agency - Permanent
 location: Newcastle
 source: JobG8
 job_id: jobg8-1899187
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Admin/receptionist
+company: Stephenson Park Health Group
+location: Newcastle Upon Tyne, NE12 9BQ
+source: NHS Jobs
+job_id: nhs-5628810
 reason: Approved Newcastle catchment.
 ---
 
@@ -57,18 +69,6 @@ company: Independent Utility Advice - Agency - Permanent
 location: Newcastle Upon Tyne
 source: JobG8
 job_id: jobg8-107967240
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: GP Receptionist
-company: Jesmond Health Partnership
-location: Newcastle upon Tyne, NE2 2AH, Newcastle Upon Tyne, NE2 1PQ, Newcastle Upon Tyne, NE3 1TX, Newcastle Upon Tyne, NE2 3LD
-source: NHS Jobs
-job_id: nhs-5627717
 reason: Approved Newcastle catchment.
 ---
 
@@ -168,7 +168,7 @@ job_id: nhs-5598890
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (33)
+## REVIEW (32)
 
 ---
 action: 
@@ -443,18 +443,6 @@ company: Nigel Wright Group - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-1897065
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Mercedes-Benz Accounts Assistant
-company: Sytner Group - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-1896566
 reason: Broad location; review before city inclusion.
 ---
 

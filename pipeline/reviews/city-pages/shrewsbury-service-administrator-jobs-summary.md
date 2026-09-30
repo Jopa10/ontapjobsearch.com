@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 9
+- automatic review: 10
 - automatic exclude: 0
 - effective include: 1
-- effective review: 9
+- effective review: 10
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: nhs-5625413
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (9)
+## REVIEW (10)
 
 ---
 action: 
@@ -119,6 +119,18 @@ company: Sellick Partnership - Agency - Permanent
 location: Shropshire
 source: JobG8
 job_id: jobg8-1909867
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist/Administrator
+company: Knockin Medical Centre
+location: Oswestry, SY10 8HL
+source: NHS Jobs
+job_id: nhs-5631168
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

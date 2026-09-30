@@ -4,8 +4,8 @@
 - Live route: `/belfast/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
-- Threshold currently met: no
+- Effective included jobs: 6
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
+- automatic include: 6
 - automatic review: 5
 - automatic exclude: 0
-- effective include: 3
+- effective include: 6
 - effective review: 5
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (6)
 
 ---
 action: 
@@ -52,11 +52,47 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Paralegal - Team 6
+company: Keoghs LLP - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2045513
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Paralegal - Team 9
+company: Keoghs LLP - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2045517
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Sales Ledger Accounts Assistant
 company: Reed - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-1858475
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2041040
 reason: Approved conservative Belfast launch catchment.
 ---
 

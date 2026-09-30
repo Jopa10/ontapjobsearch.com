@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 43
+- automatic review: 40
 - automatic exclude: 0
 - effective include: 1
-- effective review: 43
+- effective review: 40
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: jobg8-1877352
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
-## REVIEW (43)
+## REVIEW (40)
 
 ---
 action: 
@@ -270,18 +270,6 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Digital Marketing Executive
-company: SMT Recruitment - Agency - Permanent
-location: Welwyn Garden City
-source: JobG8
-job_id: jobg8-1860287
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: EMEA Marketing Coordinator
 company: Evolve Selection Ltd - Agency - Permanent
 location: Hertfordshire
@@ -426,6 +414,18 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
+title: Mental Health Act Administrator
+company: Elysium Healthcare
+location: Potters Bar, EN6 2SE
+source: NHS Jobs
+job_id: nhs-5630065
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Office Administrator
 company: Larwood School
 location: Stevenage
@@ -455,18 +455,6 @@ company: Kings Langley Surgery
 location: Kings Langley, WD4 8ET, Hemel Hempstead, HP3 0HG
 source: NHS Jobs
 job_id: nhs-5627192
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part-time Purchase Ledger Clerk
-company: Abacus Consulting - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-1897440
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -527,30 +515,6 @@ company: The Solution Auto - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-1871732
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Telesales Executive
-company: SCALERS GROUP LIMITED - Agency - Permanent
-location: Ware
-source: JobG8
-job_id: jobg8-108005213
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Van Business Development Executive (BDE)
-company: Reed - Agency - Permanent
-location: Hatfield
-source: JobG8
-job_id: jobg8-1835839
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

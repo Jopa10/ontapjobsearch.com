@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 3
 - automatic review: 29
-- automatic exclude: 52
+- automatic exclude: 49
 - effective include: 3
 - effective review: 29
-- effective exclude: 52
+- effective exclude: 49
 
 ## INCLUDE (3)
 
@@ -410,7 +410,7 @@ job_id: jobg8-1960756
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (52)
+## EXCLUDE (49)
 
 ---
 action: 
@@ -421,18 +421,6 @@ company: Synergem Recruitment - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-1906013
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administration Assistant
-company: Buttershaw Business & Enterprise College Academy
-location: Bradford
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-buttershaw-business-enterprise-college-academy
 reason: Separate employment market.
 ---
 
@@ -584,6 +572,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Care Navigator / Receptionist
+company: Lofthouse Surgery
+location: Wakefield, WF3 3SA, Leeds, LS26 0AE
+source: NHS Jobs
+job_id: nhs-5630977
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Casualty Claims Handler
 company: Adjusting Appointments Limited - Agency - Permanent
 location: Leeds
@@ -625,18 +625,6 @@ company: Aston Charles Ltd - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-1927518
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Clerical Officer
-company: Leeds Teaching Hospitals
-location: Leeds, LS9 7TF
-source: NHS Jobs
-job_id: nhs-5619618
 reason: Separate employment market.
 ---
 
@@ -920,18 +908,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Part-Time Accounts Assistant for Yorkshire Design Group
-company: Yorkshire Design Group - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-1910102
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Practice Administrator
 company: Warrengate Medical Centre
 location: Wakefield, WF1 4PR
@@ -973,18 +949,6 @@ company: Beechwood Medical Centre
 location: Halifax, HX2 8AL
 source: NHS Jobs
 job_id: nhs-5623216
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist/Administrator
-company: Leeds and York Partnership NHS Foundation Trust
-location: Leeds, LS14 6UH
-source: NHS Jobs
-job_id: nhs-5618845
 reason: Separate employment market.
 ---
 

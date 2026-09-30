@@ -4,7 +4,7 @@
 - Live route: `/milton-keynes/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 10
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 32
+- automatic include: 9
+- automatic review: 33
 - automatic exclude: 0
-- effective include: 10
-- effective review: 32
+- effective include: 9
+- effective review: 33
 - effective exclude: 0
 
-## INCLUDE (10)
+## INCLUDE (9)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: FS1 Recruitment - Marketing, Creative, Digital, Finance, HR, Sales, Adm
 location: Milton Keynes
 source: JobG8
 job_id: jobg8-1913072
-reason: Exact approved Milton Keynes workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Artist Relations and Events Coordinator
-company: NFP People - Agency - Contract
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-107996202
 reason: Exact approved Milton Keynes workplace.
 ---
 
@@ -144,7 +132,7 @@ job_id: teaching-vacancies-receptionist-stephenson-academy
 reason: Exact approved Milton Keynes workplace.
 ---
 
-## REVIEW (32)
+## REVIEW (33)
 
 ---
 action: 
@@ -167,6 +155,18 @@ company: Job Board Direct - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-1959769
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable
+company: Orka Financial - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-2041612
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -318,18 +318,6 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Graduate Finance Assistant Accountant
-company: Robert Half - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-1932845
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Junior Accounts Receivable Assistant
 company: Berry Recruitment - Agency - Permanent
 location: Buckinghamshire
@@ -407,6 +395,18 @@ company: Sir William Ramsay School
 location: High Wycombe
 source: Teaching Vacancies
 job_id: teaching-vacancies-office-administrator-cf621f03-1b81-4970-86af-5e6e0d675eec
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Finance Assistant
+company: Bucks and Berks Recruitment - Agency - Permanent
+location: High Wycombe
+source: JobG8
+job_id: jobg8-2044228
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

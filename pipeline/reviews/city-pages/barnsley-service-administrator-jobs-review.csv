@@ -1,5 +1,4 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
-include,nhs-5624848,Administrator,Elysium Healthcare,"Barnsley, S71 4FL",NHS Jobs,include,include,Approved Barnsley catchment.,barnsley,barnsley-service-administrator-jobs
 include,jobg8-1871012,Assistant Accountant / Finance Officer,Hays Specialist Recruitment Limited - Agency - Permanent,Barnsley,JobG8,include,include,Approved Barnsley catchment.,barnsley,barnsley-service-administrator-jobs
 include,jobg8-1908708,Finance Assistant,PRATAP PARTNERSHIP LTD - Agency - Permanent,Barnsley,JobG8,include,include,Approved Barnsley catchment.,barnsley,barnsley-service-administrator-jobs
 include,jobg8-1899397,Recruitment Account Coordinator,Staffline Recruitment Limited - Agency - Permanent,Barnsley,JobG8,include,include,Approved Barnsley catchment.,barnsley,barnsley-service-administrator-jobs
@@ -14,12 +13,18 @@ exclude,jobg8-2024835,Administrator,Reed - Agency - Permanent,Doncaster,JobG8,ex
 exclude,jobg8-1949982,Assistant Accountant,Elevation Recruitment Group - Agency - Permanent,Rotherham,JobG8,exclude,exclude,Separate employment market.,rotherham,barnsley-service-administrator-jobs
 exclude,jobg8-1960387,Assistant Accountant,IPS Group - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-1884402,Assistant Accountant,Reed - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
+exclude,jobg8-2044207,Assistant Management Accountant,Elevation Recruitment Group - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,teaching-vacancies-attendance-admin-assistant-lift-firth-park,Attendance Admin Assistant,Lift Firth Park,Sheffield,Teaching Vacancies,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-2033599,Audience Development Coordinator - Local Authority - Libraries,Reed - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
+exclude,jobg8-20279_63174-89740a075c6163b74ea2c52702062e5d,Call Centre Agent,EE - Company - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
+exclude,jobg8-20279_63174-73862c8b83139033e4e4a8b6efca9a33,Call Centre Operator,EE - Company - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
+exclude,jobg8-20279_63174-d24d3d6916a209e15b1680693740da2f,Contact Centre Agent,EE - Company - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
 exclude,jobg8-1905225,Credit Control / Accounts Assistant,Shillito Group - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
-exclude,jobg8-20279_62308-153faf593eb64b88272f45adeaa28d87,Customer Service Advisor,EE - Company - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
+exclude,jobg8-20279_63174-153faf593eb64b88272f45adeaa28d87,Customer Service Advisor,EE - Company - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
+exclude,nhs-5627333,GP Receptionist,Elm Lane & Chapeltown Surgery,"Sheffield, S5 7TW, SHEFFIELD, S35 1TD",NHS Jobs,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,teaching-vacancies-hr-administrator-e50a9848-dea2-4828-a9a5-5745ea9a03ce,HR Administrator,Sheffield Park Academy,Sheffield,Teaching Vacancies,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-2014257,Insolvency Case Administrator,GGT Insolvency Recruitment - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
+exclude,nhs-5630483,Medical Receptionist,Norwood Medical Centre,"Sheffield, S5 7HD",NHS Jobs,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-1907486,Part-time Payroll Assistant,Portfolio Payroll - Agency - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
 exclude,jobg8-1899982,Purchase Ledger Administrator,Sharp Consultancy - Agency - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
 exclude,jobg8-1939350,Purchase Ledger Clerk,Elevation Recruitment Group - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs

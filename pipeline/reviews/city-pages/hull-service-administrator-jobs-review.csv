@@ -1,11 +1,12 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,nhs-5625163,Administration Assistant,City Health Care Partnership CIC,"Hull, HU7 4DW",NHS Jobs,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
 include,jobg8-1858682,Assistant Management Accountant,IPS Group - Agency - Permanent,Hull,JobG8,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
+include,jobg8-2041225,Credit Controller,Edwards & Pearce - Doncaster - Agency - Permanent,Hull,JobG8,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
 include,jobg8-1982338,Family Support Coordinator,Coram - Agency - Permanent,Hull,JobG8,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
 include,jobg8-1873823,Interim Assistant Accountant,Chase and Holland Recruitment Ltd - Agency - Permanent,Hull,JobG8,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
 include,jobg8-1939826,Warranties Administrator - Automotive,Office Angels - Agency - Permanent,Hull,JobG8,include,include,Approved conservative Hull launch catchment.,hull,hull-service-administrator-jobs
 review,nhs-5614089,Administrator,Hull University Teaching Hospitals NHS Trust,"Cottingham, HU16 5JQ",NHS Jobs,review,review,No approved Hull catchment rule matched; local review required.,fallback,hull-service-administrator-jobs
-review,jobg8-1991433,HR Administrator,Howdens Joinery - Company - Permanent,Goole,JobG8,review,review,No approved Hull catchment rule matched; local review required.,fallback,hull-service-administrator-jobs
+review,jobg8-2047165,HR Administrator,Howdens Joinery - Company - Permanent,Goole,JobG8,review,review,No approved Hull catchment rule matched; local review required.,fallback,hull-service-administrator-jobs
 review,jobg8-1899369,Part-time Credit Controller - MK108,Adecco - Agency - Permanent,Goole,JobG8,review,review,No approved Hull catchment rule matched; local review required.,fallback,hull-service-administrator-jobs
 review,jobg8-1874048,Payroll Administrator,Si Recruitment - Agency - Permanent,Goole,JobG8,review,review,No approved Hull catchment rule matched; local review required.,fallback,hull-service-administrator-jobs
 review,jobg8-1905442,Private Client Paralegal Wills & LPAs Whitby / Driffield,qed legal - Agency - Permanent,Driffield,JobG8,review,review,No approved Hull catchment rule matched; local review required.,fallback,hull-service-administrator-jobs

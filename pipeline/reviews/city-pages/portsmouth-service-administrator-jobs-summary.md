@@ -4,8 +4,8 @@
 - Live route: `/portsmouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
-- Threshold currently met: yes
+- Effective included jobs: 3
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 42
+- automatic include: 3
+- automatic review: 45
 - automatic exclude: 0
-- effective include: 4
-- effective review: 42
+- effective include: 3
+- effective review: 45
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (3)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Court Lane Junior Academy
 location: Portsmouth
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-thursdays-and-fridays
-reason: Exact approved Portsmouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator - The Harbour School
-company: The Harbour School
-location: Portsmouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-the-harbour-school-the-harbour-school
 reason: Exact approved Portsmouth workplace.
 ---
 
@@ -72,7 +60,7 @@ job_id: nhs-5627419
 reason: Exact approved Portsmouth workplace.
 ---
 
-## REVIEW (42)
+## REVIEW (45)
 
 ---
 action: 
@@ -318,6 +306,18 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Finance Officer
+company: Home-Start Portsmouth - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2046589
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Administrator
 company: 4Recruitment Services - Agency - Permanent
 location: Lyndhurst
@@ -395,6 +395,18 @@ company: SJC Partners - Agency - Permanent
 location: Southsea
 source: JobG8
 job_id: jobg8-1939433
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Assistant - Commercial Property
+company: Harwood Recruitment Solutions Limited - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2044543
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -527,6 +539,18 @@ company: Pembrook Resourcing - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-1881197
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Receptionist
+company: Silcom Recruitment Limited - Agency - Permanent
+location: Petersfield
+source: JobG8
+job_id: jobg8-2046029
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 

@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 11
 - automatic review: 10
-- automatic exclude: 12
+- automatic exclude: 14
 - effective include: 11
 - effective review: 10
-- effective exclude: 12
+- effective exclude: 14
 
 ## INCLUDE (11)
 
@@ -278,7 +278,7 @@ job_id: nhs-5611094
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (12)
+## EXCLUDE (14)
 
 ---
 action: 
@@ -314,6 +314,18 @@ location: Scarborough
 source: JobG8
 job_id: jobg8-1882087
 reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Content Creator
+company: Greenfield I T Recruitment - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2045708
+reason: Broad regional label; not York-city evidence.
 ---
 
 ---
@@ -421,5 +433,17 @@ company: Reed - Agency - Permanent
 location: Harrogate
 source: JobG8
 job_id: jobg8-1867235
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Service Coordinator (UPS)
+company: Dale Power Solutions - Agency - Permanent
+location: Scarborough
+source: JobG8
+job_id: jobg8-108026099
 reason: Separate employment market.
 ---
