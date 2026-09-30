@@ -2,15 +2,39 @@
 
 review_date: 2026-09-30
 
-- Open Administrative & Clerical rows reviewed: 2211
+- Open Administrative & Clerical rows reviewed: 2214
 - Auto/remembered selected: 431
 - Selected HC Tier A: 225
 - Selected HC Tier B: 206
-- POSS awaiting decision: 1658
+- POSS awaiting decision: 1660
 - Excluded: 0
-- HARD_PASS: 122
+- HARD_PASS: 123
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Devon | Plymouth, PL7 4DR | £12.71 | Patient Advisor - Phone hub
+source_job_id: 5631538
+title: Patient Advisor - Phone hub
+employer: Beacon Medical Group
+region: Devon
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1739-26-0052
+factual_fingerprint: f76d47ea87ac19e76ac7eb098a9a2f2e89485f79be88bdba4c1b1a0438d33ede
+---
+
+---
+action:
+POSS | NHS Jobs | Yorkshire - South | Barnsley, S75 2EP | £39959.00 to £48117.00 | 2838 - Complaints Investigator
+source_job_id: 5630071
+title: 2838 - Complaints Investigator
+employer: Barnsley Hospital NHS Foundation Trust
+region: Yorkshire - South
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9163-2838E-09-2026
+factual_fingerprint: d55087e6ad71d8560c3497aae638c11db31386bf68164a26c767c11fe5fddd42
+---
 
 ---
 action:
@@ -16869,7 +16893,7 @@ employer: Salisbury NHS Foundation Trust
 region: Wiltshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9269-26-0353
-factual_fingerprint: d708cd8503702118d07969eab8a711b91acb41a86a12c5ed703fb177fbf44f8f
+factual_fingerprint: ad409f13516285126ca9eeffbaf1152cd33e0327a9c45ac62edcbb5e2a9cad42
 ---
 
 ---
