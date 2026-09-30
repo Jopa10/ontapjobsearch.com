@@ -236,11 +236,10 @@ job_id: 1401785277
 ## HAMPSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - HAMPSHIRE | Hampshire | Eastleigh | £32780 - £35564 per year (Market Supplement, plus Enhancements) | Secure Children's Home Support Worker
 job_id: 1401785578
 ---
-
 ## KENT — SELECTED
 
 ---

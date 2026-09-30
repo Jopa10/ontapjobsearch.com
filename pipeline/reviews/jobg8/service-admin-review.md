@@ -362,11 +362,10 @@ job_id: 20279_63174-89740a075c6163b74ea2c52702062e5d
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Management Accountant
 job_id: 2044207
 ---
-
 ## NORTH EAST — SELECTED
 
 _No jobs in this group._
@@ -4682,11 +4681,10 @@ job_id: 23643_225663833
 ## LEICESTERSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - LEICESTERSHIRE | Leicestershire | Leicestershire | £23.00 per hour | Contracts Administrator
 job_id: 2042976
 ---
-
 ## LINCOLNSHIRE — SELECTED
 
 ---
