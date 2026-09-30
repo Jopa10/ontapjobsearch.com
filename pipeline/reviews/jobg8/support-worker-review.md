@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-09-29
+feed_date: 2026-09-30
 
 Edit only the `action:` line in each block:
 
@@ -39,6 +39,12 @@ _No jobs in this group._
 action:
 SELECTED | Yorkshire - South | Sheffield | £13.15 Per Hour | Night Support Worker
 job_id: 1938182
+---
+
+---
+action:
+SELECTED | Yorkshire - South | Mexborough | £13.15 Per Hour | Healthcare Support Worker
+job_id: 2044232
 ---
 
 ## SOUTH YORKSHIRE — POSSIBLES
@@ -131,6 +137,12 @@ SELECTED | Sussex | Haywards Heath | £39134 per year | Healthcare Assistant
 job_id: 107863056
 ---
 
+---
+action:
+SELECTED | Sussex | Eastbourne | £14.31 per hour | Night Care Assistant
+job_id: 108051484
+---
+
 ## SUSSEX — POSSIBLES
 
 _No jobs in this group._
@@ -217,19 +229,17 @@ job_id: 1401785443
 
 ---
 action:
-SELECTED | Hampshire | Romsey | £26018 - £27111 per year () plus Market Supplement) | Waking Night Childrens Home Support Worker
-job_id: 1401785294
----
-
----
-action:
 SELECTED | Hampshire | Alton | £26018 - £27111 per year | Care Assistant
 job_id: 1401785277
 ---
 
 ## HAMPSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - HAMPSHIRE | Hampshire | Eastleigh | £32780 - £35564 per year (Market Supplement, plus Enhancements) | Secure Children's Home Support Worker
+job_id: 1401785578
+---
 
 ## KENT — SELECTED
 
@@ -339,6 +349,12 @@ job_id: 107869953
 action:
 SELECTED | Wiltshire | Chippenham | £39134 per year | Healthcare Assistant
 job_id: 107879735
+---
+
+---
+action:
+SELECTED | Wiltshire | Trowbridge | £85 - £110 per daily | Autism Support Assistant
+job_id: 107869969
 ---
 
 ## WILTSHIRE — POSSIBLES
