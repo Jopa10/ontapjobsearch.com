@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - Liverpool
 
-review_date: 2026-09-30
-review_fingerprint: 550d858c4dbff8b6d92ec3bb799e0f2420720568c22da77153181d17847d0a8d
-routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
+review_date: 2026-10-01
+review_fingerprint: d734e2b55c610319ba8f78568a39c264f0cfd6299c94a3af70f60fafb2bb75ba
+routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
 ontap_region: Merseyside - Liverpool
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 1
+- Records: 7
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 4
@@ -34,6 +34,21 @@ factual_fingerprint: 785f1254cb44c6218ddcc273973ab01c2140f335ae3d07828511f2c06cb
 source: Teaching Vacancies
 source_job_id: administrative-assistant-bishop-martin-church-of-england-primary-school-woolton-liverpool-merseyside
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-bishop-martin-church-of-england-primary-school-woolton-liverpool-merseyside
+---
+
+---
+action: 
+SELECTED | Merseyside - Liverpool | Liverpool, North West, L13 1HD | £22,300.00 - £22,654.00 Annually (Actual) Please see recruitment pack for further details | Receptionist
+employer: King's Leadership Academy Wavertree
+closing_date: 2026-10-14T23:59:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3b051b0df591c4c13e9273d0e08d11b48e2a009cc3cfd57458d0a798521d7267
+source: Teaching Vacancies
+source_job_id: receptionist-6daa74e9-7381-4a23-93df-9b2577545b8a
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-6daa74e9-7381-4a23-93df-9b2577545b8a
 ---
 
 ## POSS — choose SELECT or EXCLUDE

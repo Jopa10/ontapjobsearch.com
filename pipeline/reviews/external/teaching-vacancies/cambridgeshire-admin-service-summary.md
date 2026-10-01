@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-09-30
+review_date: 2026-10-01
 review_fingerprint: 56799ef9fb4e460b32e56e0446b5d59ec4f31605492577de48dd8704b4739dd2
-routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
+routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
+- Records: 12
 - Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 8
 
 ## SELECTED
 
@@ -94,7 +94,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrative
 - [Head of HR Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-operations-meridian-trust-huntingdon-not-recorded) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-f3f57ca9-847f-4e59-bac2-1caf377a9267) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-buckden-cofe-primary-school) — Manager title salary ceiling £34,811 is not below £28,000.
-- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-9a683a81-163f-46a5-b7f5-732557216d39) — Manager title salary ceiling £44,854 is not below £28,000.
 - [PA to Head of School & Administration Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-head-of-school-administration-manager) — Manager title salary ceiling £36,581 is not below £28,000.
 - [Reception Services](https://teaching-vacancies.service.gov.uk/jobs/reception-services-manor-drive-secondary-academy-peterborough-cambridgeshire) — Insufficient admin/service evidence.
 - [School Business Leader](https://teaching-vacancies.service.gov.uk/jobs/school-business-leader-university-of-cambridge-primary-school) — Insufficient admin/service evidence.

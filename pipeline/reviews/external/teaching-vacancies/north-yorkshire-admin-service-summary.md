@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-09-30
-review_fingerprint: b342e561128b0214d29ab6d07a13e9d81c251358fde5d59e4d365190f1e4c3fa
-routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
+review_date: 2026-10-01
+review_fingerprint: ee2541657b7287b5c0d9f7d063aeb447229fd3f2b7fccc62112a09606590743f
+routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 6
 - Selected: 1
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -38,7 +38,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Yorkshire - North | Scarborough, Yorkshire and the Humber, YO11 1HS | £26,016.00 - £26,847.00 Annually (FTE) Grade C Points 4 to 6 (£26,016 to £26,847 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £12,149.18 | Administration Officer (7631)
+employer: Friarage Community Academy
+closing_date: 2026-10-15T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 46202bac75bb16de9d7531ce60d282308059dfcd6b6a44cfb479794b8bb357f0
+source: Teaching Vacancies
+source_job_id: administration-officer-7631
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-7631
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -46,6 +59,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ## HARD_PASS
 
+- [Administration Apprentice](https://teaching-vacancies.service.gov.uk/jobs/administration-apprentice-park-grove-primary-academy) — Insufficient admin/service evidence.
 - [Exams Officer, Data and Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-officer-data-and-cover-manager) — Manager title salary ceiling £30,390 is not below £28,000.
 - [Reception and Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/reception-and-administration-assistant-knavesmire-primary-school) — Insufficient admin/service evidence.
 - [Safeguarding Officer](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-officer-5ec4a7bd-4b3a-4070-92dc-4fd84807f54f) — Insufficient admin/service evidence.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-09-30
-review_fingerprint: df9b38eb5dacf8b74fe01eeac794db536841cc3affb2a5d8b6c778ac371dede9
-routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
+review_date: 2026-10-01
+review_fingerprint: c0fc8e6e3cea9ce28465c3d803be4994b0cb0526048bd542a051ea7035c3dbe9
+routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 7
+- Records: 12
+- Selected: 8
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 3
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: 58e4045c9b23f9c650d1b2b7cfe78970ecd68e8d6943aab73fef0575ed5
 source: Teaching Vacancies
 source_job_id: academy-administrator-35b6eb6f-c93e-4b6e-b5d9-62a3a5806607
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-35b6eb6f-c93e-4b6e-b5d9-62a3a5806607
+---
+
+---
+action: 
+SELECTED | Lincolnshire | Grantham, East Midlands, NG31 9AU | £25,614.00 - £26,846.00 Annually (FTE) | Administrative Assistant
+employer: Kesteven and Grantham Girls' School
+closing_date: 2026-10-09T09:00:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7f8ba4a11749a5d581059d347251457485badf053763e1105aa4a5a09c7ae4fc
+source: Teaching Vacancies
+source_job_id: administrative-assistant-kesteven-and-grantham-girls-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-kesteven-and-grantham-girls-school
 ---
 
 ---
@@ -152,8 +167,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-manager-the-s
 - [Bursar](https://teaching-vacancies.service.gov.uk/jobs/bursar-cliffedale-primary-school) — Insufficient admin/service evidence.
 - [Governance & Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-compliance-officer-inspire-connected-communities-trust-louth-not-recorded) — Insufficient admin/service evidence.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-queen-elizabeth-s-high-school-gainsborough) — Manager title salary ceiling £42,839 is not below £28,000.
-- [Trust Executive Assistant & HR Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/trust-executive-assistant-hr-co-ordinator) — Insufficient admin/service evidence.
-- [Trust HR Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-hr-manager-keystone-academy-trust) — Manager title salary ceiling £33,673 is not below £28,000.
 
 ## Safety boundary
 

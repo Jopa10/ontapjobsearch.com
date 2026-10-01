@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-09-30
+review_date: 2026-10-01
 review_fingerprint: 837b86601884013eb0a41433c01005429934c6c84369a86fafe57287ed162a9b
-routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
+routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 10
 - Selected: 2
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -89,6 +89,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-que
 
 ## HARD_PASS
 
+- [Administrative Officer L1](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-l1) — Insufficient admin/service evidence.
 - [Human Resources Advisor](https://teaching-vacancies.service.gov.uk/jobs/human-resources-advisor-st-ralph-sherwin-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [Management Information System (MIS) Administrator & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/management-information-system-mis-administrator-cover-manager-85783a14-bff5-44f3-9d32-6556a2a69f08) — Manager title salary ceiling £32,488 is not below £28,000.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-sherard-primary-school) — Insufficient admin/service evidence.

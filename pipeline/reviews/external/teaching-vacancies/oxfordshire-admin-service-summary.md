@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-09-30
-review_fingerprint: a342a1688ed44f0980742603e4f8b93c79f6bdbead30b5e5f8b1566988a1bb1e
-routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
+review_date: 2026-10-01
+review_fingerprint: 6a4c75418ac3ee264ecc461d1427168645ae2964b7da85136dd2bdfce10ab1ed
+routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 6
+- Records: 13
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 7
@@ -64,21 +64,6 @@ factual_fingerprint: a2b731714d78b2b507d8904cbbd3bc877a13efd0a9ca01b05a26ebde8db
 source: Teaching Vacancies
 source_job_id: attendance-administrator-blessed-george-napier-catholic-school-and-sixth-form
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-blessed-george-napier-catholic-school-and-sixth-form
----
-
----
-action: 
-SELECTED | Oxfordshire | Oxford, South East, OX4 6DQ | £34,319.00 - £36,615.00 Annually (Actual) | Data Insights and Examinations Officer
-employer: Orion Academy
-closing_date: 2026-09-30T23:59:00+01:00
-reason: Clear admin/service title: examinations officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b0497205cb4a28278dafd6476b890d4537bee2b6a0bb697ff13b5848b9c58847
-source: Teaching Vacancies
-source_job_id: data-insights-and-examinations-officer-orion-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-insights-and-examinations-officer-orion-academy
 ---
 
 ---
@@ -134,7 +119,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-assistant-the-sw
 
 ## HARD_PASS
 
-- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-ea745762-5600-4686-a0b9-47ee2a173a59) — Insufficient admin/service evidence.
+- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-4f507139-5c20-454a-a4fe-5cdecd55a8b0) — Insufficient admin/service evidence.
 - [Procurement Contract Performance Manager *Hybrid Role*](https://teaching-vacancies.service.gov.uk/jobs/procurement-contract-performance-manager-hybrid-role) — Manager title salary ceiling £55,225 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-edward-feild-primary-school) — Manager title salary ceiling £39,482 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-madley-brook-community-primary-school) — Manager title salary ceiling £42,124 is not below £28,000.

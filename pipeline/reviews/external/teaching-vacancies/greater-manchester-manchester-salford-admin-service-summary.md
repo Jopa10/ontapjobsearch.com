@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-09-30
-review_fingerprint: 64ccb8fd7f2abedbf4ed11bcf9a3298293ec86330dcbf8a45630b4d4aafeb1c8
-routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
+review_date: 2026-10-01
+review_fingerprint: f783a4edb7130fc614ef22335e6ac85c8f8dfab0b5c157e58912e19020a54cf1
+routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -14,27 +14,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 11
-- Selected: 5
+- Selected: 4
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
-
----
-action: 
-SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M23 2SX | DAT Level 2, SCP 14-17 (Actual salary £24,444 - £24,832) | Level 2 Academy Administrator
-employer: Dixons Newall Green Academy
-closing_date: 2026-09-30T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5b1a42a6a31eee53b51ddfa9c655f65e4a4bdd897632dc7f1b58935a3a6e053b
-source: Teaching Vacancies
-source_job_id: level-2-academy-administrator-fa9311a4-090f-47e6-bfc4-97d8abcfff69
-source_url: https://teaching-vacancies.service.gov.uk/jobs/level-2-academy-administrator-fa9311a4-090f-47e6-bfc4-97d8abcfff69
----
 
 ---
 action: 
@@ -55,12 +40,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 action: 
 SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M21 7SW | £22,427 to £29,071 | Receptionist and Marketing Administrator
 employer: Loreto High School Chorlton
-closing_date: 2026-10-02T08:00:00+01:00
+closing_date: 2026-10-04T08:00:00+01:00
 reason: Clear admin/service title: administrator, receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: ccb3f9945d36a6ba1fe5ded6660bec97829bb60578b97608a93c13d4788ffeb0
+factual_fingerprint: b173a63230cc008c534ff747e26e41c65c8218a40eec1ee0ba2d83fe7a0cc52a
 source: Teaching Vacancies
 source_job_id: receptionist-and-marketing-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-marketing-administrator
@@ -122,7 +107,7 @@ reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: c4b327ff57ece83a7b637cf4a66bbd9583d98e7964d19268dbea8cb99109e5e6
+factual_fingerprint: 6d45efec73013b65b99186fda98deae23495bfc4249c2c32096b494e9cec72c5
 source: Teaching Vacancies
 source_job_id: reception-and-administration-assistant-crown-street-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-administration-assistant-crown-street-primary-school
@@ -149,6 +134,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## HARD_PASS
 
+- [Apprentice Finance Assistant - 37](https://teaching-vacancies.service.gov.uk/jobs/apprentice-finance-assistant-37) — Insufficient admin/service evidence.
 - [Governance and Compliance Professional](https://teaching-vacancies.service.gov.uk/jobs/governance-and-compliance-professional-greater-manchester-academies-trust) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-the-co-operative-academies-trust) — Insufficient admin/service evidence.
 - [Trust Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-assistant-the-co-operative-academies-trust) — Insufficient admin/service evidence.

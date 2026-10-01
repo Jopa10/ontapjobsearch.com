@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-09-30
-review_fingerprint: f9ce929a0406a2571868b421f8bea3cdca00f79e486816680b3485afb1dc52d0
-routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
+review_date: 2026-10-01
+review_fingerprint: 9ddb3e5a85a1044aeec34cc67f36feff1b00bbf1c39240ec42c5b6a90193e7c0
+routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 7
+- Records: 13
+- Selected: 8
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 4
@@ -94,6 +94,21 @@ factual_fingerprint: 6ccdd80b9381fa5ce26404101668c6c5e57eb2852b1f3ba9a396eb4bc1f
 source: Teaching Vacancies
 source_job_id: administrator-parkway-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-parkway-academy
+---
+
+---
+action: 
+SELECTED | Norfolk | Norwich, East of England, NR7 9DL | £25,302 to £27,447 actual pa | Attendance Officer
+employer: The Open Academy
+closing_date: 2026-10-16T01:00:00+01:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8718bdfd908366630ba997073fb86db4a3a7e7042bbbd10104f7cb9b37162f04
+source: Teaching Vacancies
+source_job_id: attendance-officer-0493d912-bc9a-4b94-82de-5beddc58546b
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-0493d912-bc9a-4b94-82de-5beddc58546b
 ---
 
 ---

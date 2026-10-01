@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-09-30
-review_fingerprint: 5a1f552dd65cacfd533ec3e514dadaa9f8db9269afa51dee09ce8587b400e85e
-routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
+review_date: 2026-10-01
+review_fingerprint: 090855d5d70b8c47ea1c87d8e41d0c549d847f4677e9ce2d5daec67d2c716a3d
+routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 9
-- POSS awaiting decision: 0
+- Records: 13
+- Selected: 8
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -98,21 +98,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-payroll-administra
 
 ---
 action: 
-SELECTED | North East | Blyth, North East, NE24 4JP | Grade 3, SCP 7-8, FTE salary £27,274.00 - £27,709.00, pro rata salary £24,096.58 - £24,480.90 | Inclusion Administrator
-employer: The Blyth Academy
-closing_date: 2026-09-30T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f0500291f72e166c2f92841c9bdaac9db965ddd1fe948beaa4ac8e4bc30136b2
-source: Teaching Vacancies
-source_job_id: inclusion-administrator-the-blyth-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrator-the-blyth-academy
----
-
----
-action: 
 SELECTED | North East | Sunderland, North East, SR5 5JA | N5 SCP 13 - 17 FTE salary: £30,023 - £32,046 per annum £16,615 - £17,735 actual salary pro-rata (£15.56 - £16.61 hourly rate) | Lead Administrator
 employer: Harry Watts Academy
 closing_date: 2026-10-05T12:00:00+01:00
@@ -158,7 +143,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-support-roles-
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | North East | South Shields, North East, NE34 0QA | £22,768.00 Annually (Actual) Band 4 SCP 6 (pending the outcome of Job Evaluation) | Pastoral Administration Assistant
+employer: St Wilfrid's RC College
+closing_date: 2026-10-12T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b83a086215ad4bc74e1cc839eb8bd5dc6c64b9be10c084ffaebe27f1d8c2ef5a
+source: Teaching Vacancies
+source_job_id: pastoral-administration-assistant-st-wilfrid-s-rc-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administration-assistant-st-wilfrid-s-rc-college
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -167,6 +165,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-support-roles-
 ## HARD_PASS
 
 - [Business Lead](https://teaching-vacancies.service.gov.uk/jobs/business-lead-st-leonard-s-catholic-primary-school-silksworth) — Insufficient admin/service evidence.
+- [Governance and Procurement Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-and-procurement-officer) — Insufficient admin/service evidence.
 - [HR Administration Assistant (Gateshead Schools)](https://teaching-vacancies.service.gov.uk/jobs/hr-administration-assistant-gateshead-schools) — Insufficient admin/service evidence.
 - [Marketing Assistant](https://teaching-vacancies.service.gov.uk/jobs/marketing-assistant-kings-priory-school) — Insufficient admin/service evidence.
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-09-30
-review_fingerprint: 86dc73cb4fab05c35a1ad7b427dd273c780b25323cb68ad209eb7bec53aa54d6
-routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
+review_date: 2026-10-01
+review_fingerprint: 02e215262766edfc5e26696fa5ce58549a349d8d138bb35f61c0f5ac380eb0fb
+routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 31
-- Selected: 11
-- POSS awaiting decision: 3
+- Records: 29
+- Selected: 10
+- POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 17
+- Hard pass: 15
 
 ## SELECTED
 
@@ -49,21 +49,6 @@ factual_fingerprint: 5fbe8994cb15982b545fa4d64210407a2384529611e0b226040a7a7681a
 source: Teaching Vacancies
 source_job_id: administrative-assistant-outwood-grange-academies-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-outwood-grange-academies-trust
----
-
----
-action: 
-SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD5 9ET | 25,584.00 - 25,989.00 | Administrator - 37
-employer: Co-op Academy Grange
-closing_date: 2026-10-01T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: a58587bc87cb366355963333204eac5d210fedda4d8432f813b71d8f88111410
-source: Teaching Vacancies
-source_job_id: administrator-37
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-37
 ---
 
 ---
@@ -135,7 +120,7 @@ reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: NEW_REVIEW
-factual_fingerprint: bd5c23abed45a131ef448855731816407843ada7aebfe413f5ad5b440298ac85
+factual_fingerprint: f9cda97ec15a105cc1a00e3ff901d8a62fa9d8b7818ade4f1e96fca1b9b38b3e
 source: Teaching Vacancies
 source_job_id: leadership-team-administrator-hybrid
 source_url: https://teaching-vacancies.service.gov.uk/jobs/leadership-team-administrator-hybrid
@@ -190,6 +175,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/recruitment-administr
 
 ---
 action: 
+POSS | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD3 4HA | £25,224.32 - £27,362.35 Annually (Actual) Band E. Term time plus 1 day, 37hrs per week | Administration Officer - Attendance
+employer: Royds Hall, A Share Academy
+closing_date: 2026-10-15T09:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 520d7854b8da8cb0bb599e1442e787556ac818d7a3c019dd0575d5d47f0e9c2f
+source: Teaching Vacancies
+source_job_id: administration-officer-attendance-royds-hall-a-share-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-attendance-royds-hall-a-share-academy
+---
+
+---
+action: 
 POSS | Yorkshire - West | Leeds, Yorkshire and the Humber, LS16 5AG | Grade C2 SCP 15-19, actual salary £25,823-£27,575 | Deputy Student Services Manager & Attendance Lead
 employer: Lawnswood School
 closing_date: 2026-10-05T09:00:00+01:00
@@ -239,19 +239,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-support-officer-7
 
 ## HARD_PASS
 
-- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-batley-girls-high-school-batley-west-yorkshire) — Insufficient admin/service evidence.
 - [Administration Officer (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-maternity-cover-honley-high-school) — Missing salary or pay scale.
 - [Attendance and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-officer-st-michael-s-cofe-academy-wakefield-west-yorkshire) — Insufficient admin/service evidence.
 - [Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/compliance-officer-delta-academies-trust-knottingley-not-recorded) — Insufficient admin/service evidence.
-- [Content Creator (7617)](https://teaching-vacancies.service.gov.uk/jobs/content-creator-7617) — Insufficient admin/service evidence.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-buttershaw-business-enterprise-college-academy-bradford-west-yorkshire) — Manager title salary ceiling £37,655 is not below £28,000.
 - [Data, MIS and Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/data-mis-and-admissions-manager-batley-grammar-school-batley-west-yorkshire) — Manager title salary ceiling £38,267 is not below £28,000.
+- [Exam invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-24f8eb7c-b19e-4030-be72-314dfd2ec557) — Insufficient admin/service evidence.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.
 - [Exam Invigilators](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilators-beckfoot-trust) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-ossett-academy-and-sixth-form-college) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-greengates-primary-academy-bradford-west-yorkshire) — Insufficient admin/service evidence.
 - [HR Advisor (Central Team)](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-central-team) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-barkerend-primary-leadership-academy) — Manager title salary ceiling £47,665 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-weetwood-primary-school-leeds-west-yorkshire) — Manager title salary ceiling £42,123 is not below £28,000.
 - [SEND Administration and Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/send-administration-and-support-assistant) — Insufficient admin/service evidence.
 - [Senior Admin and Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-admin-and-operations-manager) — Manager title salary ceiling £40,444 is not below £28,000.

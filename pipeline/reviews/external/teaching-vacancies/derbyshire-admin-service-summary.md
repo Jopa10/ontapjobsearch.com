@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-09-30
+review_date: 2026-10-01
 review_fingerprint: 65211913583bb14be53e105228665cb0654f0388fb33b4ebecf662c299f06d2f
-routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
+routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -46,7 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-with-pa
 
 ## HARD_PASS
 
-- [Careers Officer](https://teaching-vacancies.service.gov.uk/jobs/careers-officer-tupton-hall-school) — Insufficient admin/service evidence.
+- [Careers Advisor](https://teaching-vacancies.service.gov.uk/jobs/careers-advisor-tupton-hall-school) — Insufficient admin/service evidence.
 - [Exams & Data Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-data-manager-st-thomas-more-catholic-voluntary-academy) — Manager title salary ceiling £32,892 is not below £28,000.
 - [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-baa22bb2-6d0c-44b2-88f2-02e91a0e297e) — Insufficient admin/service evidence.
 

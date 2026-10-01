@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-09-30
-review_fingerprint: 31e5018542a3cda73cfbf5991cd36728ffe559b5a64324a485ddee7fa15a4a1d
-routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
+review_date: 2026-10-01
+review_fingerprint: 79c48a66add704edba79d2837bef51762ae7bec96c567379ea88b498cf0aae2c
+routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 9
+- Records: 15
+- Selected: 7
 - POSS awaiting decision: 5
 - Excluded: 0
 - Hard pass: 3
@@ -83,36 +83,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/database-and-admissio
 
 ---
 action: 
-SELECTED | Hertfordshire | Rickmansworth, East of England, WD3 1HG | H9, Point 28 (Actual Salary £34,804 ) | Exams Officer
-employer: Saint Joan of Arc Catholic School
-closing_date: 2026-09-30T23:59:59+01:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0795bc821374eadb701463c3ed097e2b8ddc3a70d093bb307b9bb7cc753cfa41
-source: Teaching Vacancies
-source_job_id: exams-officer-11aba835-4586-4112-975b-4f8e3255dc66
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-11aba835-4586-4112-975b-4f8e3255dc66
----
-
----
-action: 
-SELECTED | Hertfordshire | Royston, East of England, SG8 5NP | £13.47 Hourly | Finance Administrator
-employer: Bassingbourn Primary School
-closing_date: 2026-09-30T23:59:00+01:00
-reason: Clear admin/service title: administrator, finance administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c60e4ce42aad20ac83200e8bfd8bea84f4df960661272882cad014c4a89d8cd6
-source: Teaching Vacancies
-source_job_id: finance-administrator-bassingbourn-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-bassingbourn-primary-school
----
-
----
-action: 
 SELECTED | Hertfordshire | Hoddesdon, East of England, EN11 0RW | £23,144.62 Annually (Actual) | Office Administrator
 employer: Forres Primary Academy
 closing_date: 2026-10-13T23:59:00+01:00
@@ -163,8 +133,8 @@ action:
 POSS | Hertfordshire | Stevenage, SG1 5BZ | £12,521.00 - £13,197.00 Annually (Actual) | Finance Assistant
 employer: Brighter Futures Educational Trust
 closing_date: 2026-10-09T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: 369574d46ae9a7c9572ada9413108a6361562d419e20ea7b6e3a2b99e1837db9

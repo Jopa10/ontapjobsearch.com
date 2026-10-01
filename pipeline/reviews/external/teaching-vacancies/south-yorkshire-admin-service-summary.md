@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-09-30
-review_fingerprint: 5cc0228fcde3171cb90bef61c14b36ba7042f10874611707f1a134496464f5a4
-routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
+review_date: 2026-10-01
+review_fingerprint: bed5314d73475a2233eae0b38a1f8e616511300b097dde67baf5752fc5c4cbdb
+routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 27
-- Selected: 11
+- Records: 30
+- Selected: 12
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 13
+- Hard pass: 15
 
 ## SELECTED
 
@@ -64,6 +64,21 @@ factual_fingerprint: 636093461e80d6c5a908aca5ec2be52a7e78a850c18513573d228986812
 source: Teaching Vacancies
 source_job_id: admin-assistant-part-time-18-hrs
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-part-time-18-hrs
+---
+
+---
+action: 
+SELECTED | Yorkshire - South | Doncaster, Yorkshire and the Humber, DN9 1BY | £25,269.00 Annually (FTE) 14 hours per week , Term time only . | Admin Support - Receptionist
+employer: South Axholme Academy
+closing_date: 2026-10-08T10:00:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b9fb5860590355c01d1fd6e80c49fd69d0f5e75d2dfb27d9bbdf0248b3a6fd13
+source: Teaching Vacancies
+source_job_id: admin-support-receptionist-south-axholme-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-support-receptionist-south-axholme-academy
 ---
 
 ---
@@ -246,12 +261,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-maltby-a
 - [Business Support Manager](https://teaching-vacancies.service.gov.uk/jobs/business-support-manager-beck-primary-school-sheffield-south-yorkshire) — Manager title salary ceiling £40,921 is not below £28,000.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-st-clare-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-ridgewood-school) — Insufficient admin/service evidence.
-- [Finance & Admin Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-admin-manager-d96b3a8a-2064-4ef9-a6f2-d501737f9290) — Manager title salary ceiling £41,771 is not below £28,000.
+- [Finance & Admin Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-admin-manager-171240df-359e-4c34-b77f-8c67e1ee2d06) — Manager title salary ceiling £41,771 is not below £28,000.
+- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-800b81f8-109d-4857-8ee1-281e2de5e328) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-sheffield-park-academy-sheffield-south-yorkshire) — Manager title salary ceiling £53,500 is not below £28,000.
+- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-99fb8e49-5fcd-4f2c-851e-e3b3f1e72d55) — Insufficient admin/service evidence.
 - [Governance and Executive Support Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-and-executive-support-officer) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-42e231a7-dcef-4bf5-a3d7-0eb145f4ac02) — Insufficient admin/service evidence.
-- [Senior Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-kings-oak-primary) — Insufficient admin/service evidence.
 - [Senior Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-st-francis-catholic-multi-academy-trust) — Insufficient admin/service evidence.
+- [Senior Management Account / Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/senior-management-account-head-of-finance) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

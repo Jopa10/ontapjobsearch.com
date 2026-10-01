@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-09-30
-review_fingerprint: 2d7dfcd717408cce17251c971948e3be919bfc311beac4b897aee2203996e508
-routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
+review_date: 2026-10-01
+review_fingerprint: edcb96422371e7eb6682efffce6e34c621e0988801057fd0e2d31d0da1a75dc8
+routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 5
-- POSS awaiting decision: 3
+- Records: 13
+- Selected: 4
+- POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
-
----
-action: 
-SELECTED | West Midlands - Coventry & Warwickshire | Nuneaton, West Midlands, CV11 4QH | £21,407 - £22,233 | Administration Assistant
-employer: Oak Wood Primary School
-closing_date: 2026-10-09T09:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: da77d5ce4ecb6bf97159ab1557cdae45a240fc351176098d60874a946392ab02
-source: Teaching Vacancies
-source_job_id: administration-assistant-oak-wood-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-oak-wood-primary-school
----
 
 ---
 action: 
@@ -115,17 +100,32 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-office
 
 ---
 action: 
-POSS | West Midlands - Coventry & Warwickshire | Rugby, West Midlands, CV22 7HN | NJC05 to NJC06 £25,583.00 to £25,989.00 FTE (£22,675.13 to £23,034.99 Actual) | Adminstrator
-employer: Henry Hinde School
-closing_date: 2026-10-01T00:00:00+01:00
+POSS | West Midlands - Coventry & Warwickshire | Coventry, CV1 5LY | Grade 4 - £26,847 to £30,515 per annum | MAT Compliance Officer
+employer: Sidney Stringer Multi Academy Trust
+closing_date: 2026-10-23T11:59:59+01:00
 reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 1a413815561bbc408d42f1afeae50fda1a4505c629c2234e06b16a7e98b5dc8a
+factual_fingerprint: 3e0bdfc1f2548ed6279f78cf77e2502564873f3127aee6a38017f27e50e367ff
 source: Teaching Vacancies
-source_job_id: adminstrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/adminstrator
+source_job_id: mat-compliance-officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/mat-compliance-officer
+---
+
+---
+action: 
+POSS | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV2 5BD | Actual salary £22,576 – £23,667 | Reception and Administration Assistant
+employer: Caludon Castle School
+closing_date: 2026-10-11T21:00:59+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 48dca5d87b4c65af608f240ac3ae74399f4fabd6f66b8e514bfc4f9db5c6e2da
+source: Teaching Vacancies
+source_job_id: reception-and-administration-assistant-caludon-castle-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-administration-assistant-caludon-castle-school
 ---
 
 ---
@@ -151,7 +151,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer
 
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-triumph-learning-trust-rugby-not-recorded) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-etone-college) — Insufficient admin/service evidence.
-- [MAT Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/mat-finance-officer-sidney-stringer-multi-academy-trust-coventry-not-recorded) — Insufficient admin/service evidence.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-finham-park-school-coventry-west-midlands) — Manager title salary ceiling £54,143 is not below £28,000.
 - [PE Sports and Personal Development Assistant](https://teaching-vacancies.service.gov.uk/jobs/pe-sports-and-personal-development-assistant) — Insufficient admin/service evidence.
 - [Technical Services Team Assistant](https://teaching-vacancies.service.gov.uk/jobs/technical-services-team-assistant) — Insufficient admin/service evidence.

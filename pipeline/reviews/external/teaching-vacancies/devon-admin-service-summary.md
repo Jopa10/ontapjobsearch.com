@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-09-30
-review_fingerprint: fd9d99add91fb8e73e8b751b22036c44eafa6f136e199443e00fb56c7dc90772
-routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
+review_date: 2026-10-01
+review_fingerprint: 1c5c5162f69fb63516e4a748bae2dcffcf37b5dcfa09c80dbc16e51c393a3166
+routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 22
-- Selected: 15
+- Records: 24
+- Selected: 16
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -128,6 +128,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrative-ass
 
 ---
 action: 
+SELECTED | Devon | Plymouth, South West, PL1 5QG | Full time | Fixed Term Maternity | £27,432 per annum | MIS Administrator (Maternity Cover)
+employer: City College Plymouth
+closing_date: 2026-10-14T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 92e02ea4bfa2301e58a8b1f7d5318e02108ea0107737c7d80868a6f77b27ca00
+source: Teaching Vacancies
+source_job_id: mis-administrator-maternity-cover
+source_url: https://teaching-vacancies.service.gov.uk/jobs/mis-administrator-maternity-cover
+---
+
+---
+action: 
 SELECTED | Devon | Okehampton, EX20 1PU | £21,072.00 - £21,407.00 Annually (Actual) NJC Grade C. Range 6 to 7 | People Administrator
 employer: Dartmoor Multi Academy Trust
 closing_date: 2026-10-21T12:00:00+01:00
@@ -154,21 +169,6 @@ factual_fingerprint: aad4a13f621b5caea47ee9ee1056e667fec2da0d61329d12c6f00862f83
 source: Teaching Vacancies
 source_job_id: post-16-administrator-and-study-supervisor
 source_url: https://teaching-vacancies.service.gov.uk/jobs/post-16-administrator-and-study-supervisor
----
-
----
-action: 
-SELECTED | Devon | Paignton, South West, TQ3 2AL | £25,923.00 Annually (FTE) £23,755 actual | School Administrator
-employer: Brunel School
-closing_date: 2026-10-09T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 91b3a1b0d1ffc0e5f5bccd15c71fc0392cba438ed4393c1f535d5286cbdd6059
-source: Teaching Vacancies
-source_job_id: school-administrator-1732ecba-2bb1-485d-9ab8-04529470023c
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-1732ecba-2bb1-485d-9ab8-04529470023c
 ---
 
 ---
@@ -246,6 +246,21 @@ source_job_id: senior-administrator-stansfield-academy-exeter-devon
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-stansfield-academy-exeter-devon
 ---
 
+---
+action: 
+SELECTED | Devon | Plymouth, South West, PL1 5QG | Part Time | Permanent | £21,437 Per Annum (Pro Rata of £26,440 Per Annum) | Student Funding Administrator
+employer: City College Plymouth
+closing_date: 2026-10-14T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f2a1d181a0c11b29013950b5a04f356c5bb258344804305c4aca1d91b129d365
+source: Teaching Vacancies
+source_job_id: student-funding-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/student-funding-administrator
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -284,11 +299,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 
 ## HARD_PASS
 
-- [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-0263aaa9-e252-4340-b2d6-102751e90f65) — Insufficient admin/service evidence.
+- [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-torquay-boys-grammar-school-torquay-devon) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-dartmoor-multi-academy-trust) — Insufficient admin/service evidence.
 - [Finance Business Partner - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-maternity-cover) — Insufficient admin/service evidence.
 - [People Advisor ( Devon Cluster)](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-devon-cluster) — Insufficient admin/service evidence.
-- [SEND Administration and Support](https://teaching-vacancies.service.gov.uk/jobs/send-administration-and-support) — Insufficient admin/service evidence.
+- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-8814e3e0-1c77-47a4-8dae-d06f210769fa) — Insufficient admin/service evidence.
+- [Resources Assistant](https://teaching-vacancies.service.gov.uk/jobs/resources-assistant-torquay-girls-grammar-school) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

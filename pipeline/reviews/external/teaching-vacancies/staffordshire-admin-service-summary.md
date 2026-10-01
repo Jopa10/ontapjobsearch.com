@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-09-30
-review_fingerprint: 0b2f6c88fd372387716ad4f7a8f7848ea3f44ef8c9235581be161b71d35696ff
-routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
+review_date: 2026-10-01
+review_fingerprint: cd4a99ee77bec7f8a9ad30fcf854612992d6f857705f36cd0b8f0c7238810c2d
+routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 10
-- Selected: 3
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
 
@@ -53,6 +53,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/curriculum-data-admin
 
 ---
 action: 
+SELECTED | Staffordshire | Stoke-on-Trent, West Midlands, ST11 9PW | £27,274.00 - £28,153.00 Annually (FTE) Actual Salary £12,737 - £13,147 per annum | Examinations Officer
+employer: Blythe Bridge High School
+closing_date: 2026-10-14T12:00:00+01:00
+reason: Clear admin/service title: examinations officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a9b968f32992a1bd296a92b459a250d82cd0b5565d911a948c7ee9323b33a006
+source: Teaching Vacancies
+source_job_id: examinations-officer-blythe-bridge-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-blythe-bridge-high-school
+---
+
+---
+action: 
 SELECTED | Staffordshire | Tamworth, West Midlands, B77 2NE | £22277 - £22629 per annum | Receptionist and Admin Assistant
 employer: Lift Tamworth
 closing_date: 2026-10-02T13:30:18+01:00
@@ -78,7 +93,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admi
 
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-1b712634-857b-405e-a4de-a196344ada05) — Insufficient admin/service evidence.
 - [Data and Insights Officer](https://teaching-vacancies.service.gov.uk/jobs/data-and-insights-officer) — Insufficient admin/service evidence.
-- [Finance Assistant (SBMAT) - Level 4](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-sbmat-level-4) — Insufficient admin/service evidence.
 - [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-discovery-academy-stoke-on-trent-staffordshire) — Insufficient admin/service evidence.
 - [School Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-administration-assistant-westwood-college) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-5bedbe1d-eaea-4d84-a744-7318349a5687) — Manager title salary ceiling £39,152 is not below £28,000.

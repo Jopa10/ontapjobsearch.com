@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-09-30
+review_date: 2026-10-01
 review_fingerprint: 444474056f7b46305805c7d6a42ff6c05a9db6b68ad9029408d6a0fdb420109f
-routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
+routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE

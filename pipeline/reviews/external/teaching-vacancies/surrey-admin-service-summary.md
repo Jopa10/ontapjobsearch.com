@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-09-30
-review_fingerprint: 7433c8ad83f37832b421c675214919c5c2ceb02b81328be25d18a2cc10eed2de
-routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
+review_date: 2026-10-01
+review_fingerprint: 80febee55d91cccca15d6863fbdcb5ea9d566098108464e8e45fd2e1c76c0ad0
+routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 4
+- Records: 11
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 8
 
 ## SELECTED
 
@@ -53,21 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ---
 action: 
-SELECTED | Surrey | Epsom, South East, KT18 6HP | Associate 2.1-16 (£7,610.33 - £8,081.07 - Actual) | Office Assistant (Part time)
-employer: The Vale Primary School and Nursery
-closing_date: 2026-10-06T09:30:59+01:00
-reason: Clear admin/service title: office assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: aea6f75ece26362ac5ad68353c03885db6ce7ebf56268664a5bbe0a12e743b83
-source: Teaching Vacancies
-source_job_id: office-assistant-part-time-the-vale-primary-school-and-nursery
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-assistant-part-time-the-vale-primary-school-and-nursery
----
-
----
-action: 
 SELECTED | Surrey | Godalming, South East, GU8 4DX | S3, scale points 20.1 – 23, depending on experience. FTE: £28,637 - £30,484; Actual: £23,840.67 - £25,378.32 | SEN Administrator
 employer: St Dominic's School
 closing_date: 2026-10-11T23:59:00+01:00
@@ -92,10 +77,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-a73
 ## HARD_PASS
 
 - [Admissions Advisor](https://teaching-vacancies.service.gov.uk/jobs/admissions-advisor) — Insufficient admin/service evidence.
+- [Chief Operating Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-operating-officer-the-howard-partnership-trust) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-the-swan-trust-surrey-not-recorded) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-fox-grove-school-leatherhead-surrey) — Manager title salary ceiling £37,002 is not below £28,000.
 - [Regional Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/regional-finance-manager-06cafd15-1ee6-4d43-9137-043ba72063ed) — Manager title salary ceiling £28,167 is not below £28,000.
 - [Regional Finance Partner](https://teaching-vacancies.service.gov.uk/jobs/regional-finance-partner-the-beacon-school) — Insufficient admin/service evidence.
+- [School Business Partner](https://teaching-vacancies.service.gov.uk/jobs/school-business-partner-powell-corderoy-primary-school) — Insufficient admin/service evidence.
 - [Trust Estates Facilities & Compliance Coordinator](https://teaching-vacancies.service.gov.uk/jobs/trust-estates-facilities-compliance-coordinator) — Insufficient admin/service evidence.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-09-30
-review_fingerprint: 333ac8faca301c3c69d50a08f96bf948f6fb89d2c64a3639677278e396a46184
-routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
+review_date: 2026-10-01
+review_fingerprint: 31cbd91bafef431dd154d8faac02e4f06c43f0d9e585294c6f9005ddf776087c
+routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 2
+- Records: 6
+- Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 4
 
 ## SELECTED
-
----
-action: 
-SELECTED | Leicestershire | Leicester, East Midlands, LE2 6UA | £31,537.00 - £33,699.00 Annually (FTE) Grade 2 Point 3-3 | PA to the Principal
-employer: Tudor Grange Samworth Academy, A church of England School
-closing_date: 2026-09-30T23:59:00+01:00
-reason: Clear admin/service title: pa to
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1fe85d73e6841cc24315362aa01931c4070f8ecddfa592bb5e79cfb45478142a
-source: Teaching Vacancies
-source_job_id: pa-to-the-principal-tudor-grange-samworth-academy-a-church-of-england-school-leicester-leicestershire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-principal-tudor-grange-samworth-academy-a-church-of-england-school-leicester-leicestershire
----
 
 ---
 action: 

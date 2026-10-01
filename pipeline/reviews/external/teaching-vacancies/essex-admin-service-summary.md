@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-09-30
-review_fingerprint: a1a56b79ec484c55005af16237104ad1732db2c5f39c245bea24352553b0f2c9
-routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
+review_date: 2026-10-01
+review_fingerprint: e060071a22f28e4be099c5467697a276697cbf82b2309a796f7229bdf655ace7
+routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 7
+- Records: 13
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 7
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Essex | Southend-on-Sea, East of England, SS2 4RL | £24,232.00 - £25,835.00 Annually (Actual) Salary Range: Level 5, Points 8 - 12 (£27,709-£29,542 fte) | Administration Assistant
+employer: St Nicholas School
+closing_date: 2026-10-30T23:59:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 33a507e44b982d74393414ea891d60a071e659dafd5cf73ee57d71a93710588c
+source: Teaching Vacancies
+source_job_id: administration-assistant-d4c71f58-82f8-447e-966b-f065379eaa99
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-d4c71f58-82f8-447e-966b-f065379eaa99
+---
 
 ---
 action: 
@@ -34,21 +49,6 @@ factual_fingerprint: 533519c4f5e2861351e3d8bc5c1d22798545a8b6c0dbcd9b9018c62771d
 source: Teaching Vacancies
 source_job_id: administration-assistant-great-totham-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-great-totham-primary-school
----
-
----
-action: 
-SELECTED | Essex | Grays, East of England, RM16 4DG | £24,050.00 - £26,054.00 Annually (Actual) | Administration Assistant (Attendance)
-employer: Orsett Heath Academy
-closing_date: 2026-10-01T12:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c44fe6ffa93244903d47f2a1bf814af5bcbe05f5d128b0bdc1122d7d49eea10f
-source: Teaching Vacancies
-source_job_id: administration-assistant-attendance-orsett-heath-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-attendance-orsett-heath-academy
 ---
 
 ---
@@ -94,36 +94,6 @@ factual_fingerprint: 6707fad5fccf627dc32f1720dc41553edddc39f2b8d0e6fc57132ebae64
 source: Teaching Vacancies
 source_job_id: receptionist-little-thurrock-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-little-thurrock-primary-school
----
-
----
-action: 
-SELECTED | Essex | Basildon, East of England, SS14 1UX | £26,646.00 - £27,911.00 Annually (FTE) | Receptionist 0.4 (1 Year Fixed Contract)
-employer: The Basildon Lower Academy
-closing_date: 2026-09-30T23:59:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d71c70f74dc1aa26e78412d83f52ac02b2184fdc4b6a4efde81bf6f07c6f72ab
-source: Teaching Vacancies
-source_job_id: receptionist-0-4-1-year-fixed-contract
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-0-4-1-year-fixed-contract
----
-
----
-action: 
-SELECTED | Essex | Colchester, East of England, CO3 3QJ | Pay Scale 4 (Point 8 - 9) | School Administrator & Clerical Support
-employer: Kingswode Hoe School
-closing_date: 2026-10-01T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e7f5c16f33feb6213c20ccc26a3951a24b13701fad1583e5e97e36a420b9257e
-source: Teaching Vacancies
-source_job_id: school-administrator-clerical-support
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-clerical-support
 ---
 
 ## POSS — choose SELECT or EXCLUDE

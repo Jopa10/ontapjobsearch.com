@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-09-30
+review_date: 2026-10-01
 review_fingerprint: 6acc62a3d157943f4083653044cf793c6423930dd58ad799b566d5a788dd57a1
-routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
+routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -150,9 +150,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-the-go
 ## HARD_PASS
 
 - [Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-radford-primary-school-academy) — Insufficient admin/service evidence.
+- [Administrative Officer L3](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-l3-robert-shaw-primary-and-nursery-school) — Insufficient admin/service evidence.
 - [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-our-lady-of-lourdes-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [HR and Recruitment Team Leader](https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-team-leader) — Insufficient admin/service evidence.
-- [HR/People Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-people-operations-manager) — Manager title salary ceiling £57,358 is not below £28,000.
 - [Personal Assistant to the Principal and Office Manager](https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-principal-and-office-manager-6f027893-3df6-483b-bec0-beb9e8765ced) — Manager title salary ceiling £34,280 is not below £28,000.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-bf443901-6fb8-4721-9adf-b67f0bdbd6f6) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-blue-bell-hill-primary-and-nursery-school-nottingham-nottinghamshire) — Insufficient admin/service evidence.

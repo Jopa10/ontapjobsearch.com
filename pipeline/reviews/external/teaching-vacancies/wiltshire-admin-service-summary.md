@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-09-30
+review_date: 2026-10-01
 review_fingerprint: fa43e516d45381ee1ba40656f9c778b0eb50c53ac51fb8add74a002098e82c8e
-routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
+routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -74,7 +74,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-gr
 
 ## HARD_PASS
 
-- [Admissions and Transition Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-transition-coordinator) — Insufficient admin/service evidence.
+- [Admissions and Transition Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-transition-coordinator) — Expired, closed or invalid deadline.
 - [Assistant Data and Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-data-and-exams-manager) — Manager title salary ceiling £28,598 is not below £28,000.
 - [Attendance Liaison Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-liaison-assistant) — Insufficient admin/service evidence.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-magna-learning-partnership-salisbury-not-recorded) — Insufficient admin/service evidence.

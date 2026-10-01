@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-09-30
-review_fingerprint: db8b0f97503d1ccb4bc654b4084475b91acb5b314bb3d4eda4133d207d6d3fcd
-routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
+review_date: 2026-10-01
+review_fingerprint: 2319b8887fc41b5860d0d394924bfc5cf3d5722c1125ee5dbfb91aaa593456f4
+routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 8
-- Selected: 6
-- POSS awaiting decision: 1
+- Selected: 7
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
 
@@ -83,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
+SELECTED | Suffolk | Leiston, East of England, IP16 4BG | £21,567.00 - £22,256.00 Annually (Actual) Grade 3, points 4-6 (£25,185-£25,989 FTE) | Attendance Administrator
+employer: Alde Valley Academy
+closing_date: 2026-10-14T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 31d3956dd75dc3fe64b7336882c7f9a8ba7b74f4e9aa98cd5729003167e6425c
+source: Teaching Vacancies
+source_job_id: attendance-administrator-alde-valley-academy-leiston-suffolk
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-alde-valley-academy-leiston-suffolk
+---
+
+---
+action: 
 SELECTED | Suffolk | Lowestoft, East of England, NR32 2NX | £23,316.00 Annually (Actual) Grade 3, point 4-6 | Business Support Officer
 employer: Roman Hill Primary School
 closing_date: 2026-10-09T12:00:00+01:00
@@ -90,10 +105,10 @@ reason: Clear admin/service title: business support officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: d27686acdebffb7ae37040286ef6c1cadfd2576d0325ac9cf438aaf94c015bb6
+factual_fingerprint: 78591b9f313fbe8f154cb52d543b440005b06f731d5e2a4c86963c9d74b06286
 source: Teaching Vacancies
-source_job_id: business-support-officer-826fc972-2852-4bd7-96a9-d089acb8c7b2
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-826fc972-2852-4bd7-96a9-d089acb8c7b2
+source_job_id: business-support-officer-bbc7f993-e424-451f-bc18-fcb10089798b
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-bbc7f993-e424-451f-bc18-fcb10089798b
 ---
 
 ---
@@ -113,20 +128,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Suffolk | Brandon, East of England, IP27 0DA | £30,308 to £32,385 actual pa | Operations Officer
-employer: Glade Academy
-closing_date: 2026-09-30T23:59:00+01:00
-reason: Borderline school administration title: operations officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8b3bf8eae91e1e709af7cf5f700f3b10a5b7a2efd4894e4c91611bf9cc4ced26
-source: Teaching Vacancies
-source_job_id: operations-officer-glade-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-glade-academy
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

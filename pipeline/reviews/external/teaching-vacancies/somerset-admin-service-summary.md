@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-09-30
+review_date: 2026-10-01
 review_fingerprint: ed0aec8bbbf0efdaee6a8bd3d53340c1e999804a6ac1b7c25ef211d13c12e1e1
-routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
+routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 12
 - Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -137,6 +137,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-support-of
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-st-nicholas-chantry-church-of-england-primary-school) — Insufficient admin/service evidence.
 - [Apprentice Workplace Reviewer](https://teaching-vacancies.service.gov.uk/jobs/apprentice-workplace-reviewer) — Insufficient admin/service evidence.
 - [Finance Business Partner - Projects and Costings](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-projects-and-costings) — Insufficient admin/service evidence.
+- [Operations Lead](https://teaching-vacancies.service.gov.uk/jobs/operations-lead-bishops-hull-primary-school) — Insufficient admin/service evidence.
 - [Project and Executive Support Officer - Part Time](https://teaching-vacancies.service.gov.uk/jobs/project-and-executive-support-officer-part-time) — Insufficient admin/service evidence.
 
 ## Safety boundary

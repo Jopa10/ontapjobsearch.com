@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-09-30
+review_date: 2026-10-01
 review_fingerprint: 86a5ceacf18242507732c8627b1015164235fcc13a24d5c1c29db80dc28bf2ce
-routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
+routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 9
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -66,6 +66,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-or
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-st-chad-s-academies-trust) — Manager title salary ceiling £65,035 is not below £28,000.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-5f4d4502-0d91-4091-b646-cbfc76dcdfb2) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-jesson-s-church-of-england-primary-school) — Manager title without salary evidence below £28,000.
+- [Site Assistant](https://teaching-vacancies.service.gov.uk/jobs/site-assistant-09678cb0-aa80-498a-9526-d1d6da59db60) — Insufficient admin/service evidence.
 - [Teaching Assistant (Level 2)](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-level-2-manor-way-primary-academy) — Out-of-scope occupation: teaching assistant.
 
 ## Safety boundary

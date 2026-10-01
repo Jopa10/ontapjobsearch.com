@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-09-30
-review_fingerprint: 927305dab375add3a989df5306208d62557e1ca6cc2e9fa13cf19654044a4850
-routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
+review_date: 2026-10-01
+review_fingerprint: 6ea4fbfe657124924f6c6efa56cdd07181e28cce6f173008a66bbaded21779b7
+routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
+- Records: 17
 - Selected: 8
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 8
 
 ## SELECTED
 
@@ -83,17 +83,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-d2f9
 
 ---
 action: 
-SELECTED | Bedfordshire | Sandy, East of England, SG19 3HD | £25,583.00 - £25,989.00 Annually (FTE) NJC Scale 3 points 5 to 6 – pay award pending. Actual salary £15,211.51 per annum on point 5 | Office Administrator
-employer: Gamlingay Village Primary
-closing_date: 2026-10-01T09:00:00+01:00
-reason: Clear admin/service title: administrator, office administrator
+SELECTED | Bedfordshire | Bedford, MK43 9HT | £32,046.00 - £34,811.00 Annually (Actual) (Actual £27248 - £29599) | PA to SLT and Admissions Administrator
+employer: Wootton Academy Trust
+closing_date: 2026-10-14T23:59:00+01:00
+reason: Clear admin/service title: administrator, pa to
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 4bd5688e945a8c48b15efcfcd4efdf0a414fb19bc557a597bfd2fb0936bfa627
+factual_fingerprint: 3509ceb65a58cce842455af35efb4ebb0904db244a5a1a59b5d315464879cfe6
 source: Teaching Vacancies
-source_job_id: office-administrator-gamlingay-village-primary
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-gamlingay-village-primary
+source_job_id: pa-to-slt-and-admissions-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-slt-and-admissions-administrator
 ---
 
 ---
@@ -166,9 +166,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-manager-all-sain
 
 - [Admin & Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-finance-assistant-mark-rutherford-school) — Insufficient admin/service evidence.
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-c5af3af6-3ac2-49eb-9534-035eb67e9604) — Manager title salary ceiling £45,401 is not below £28,000.
-- [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-grasmere-nursery-school) — Insufficient admin/service evidence.
-- [Financial Controller](https://teaching-vacancies.service.gov.uk/jobs/financial-controller-d16aa33a-3828-4ee7-adc5-957893657a4c) — Insufficient admin/service evidence.
-- [Marketing & Social Media Assistant](https://teaching-vacancies.service.gov.uk/jobs/marketing-social-media-assistant) — Insufficient admin/service evidence.
+- [Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/facilities-manager-denbigh-primary-school) — Manager title salary ceiling £43,149 is not below £28,000.
+- [Financial Controller](https://teaching-vacancies.service.gov.uk/jobs/financial-controller-c66a5ec1-0bf4-4c91-a1e1-d206dac91d10) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-greys-education-centre) — Manager title salary ceiling £34,811 is not below £28,000.
 - [Safeguarding Officer](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-officer-redborne-upper-school-and-community-college) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-all-saints-academy-dunstable) — Manager title salary ceiling £44,253 is not below £28,000.

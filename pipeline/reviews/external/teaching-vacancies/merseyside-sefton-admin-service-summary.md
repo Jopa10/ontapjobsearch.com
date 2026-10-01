@@ -1,9 +1,9 @@
-# Teaching Vacancies regional review — Merseyside - St Helens & Knowsley
+# Teaching Vacancies regional review — Merseyside - Sefton
 
 review_date: 2026-10-01
-review_fingerprint: b4171938523e35ddf92acf3741f9dc6eb825945ae75bd865dce39d70c7c3c3f2
+review_fingerprint: eaebddf28a3697c6547ccb8dd8bc6315fcdcc5fbe7ecac5de06d9871c03cb8b2
 routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
-ontap_region: Merseyside - St Helens & Knowsley
+ontap_region: Merseyside - Sefton
 slice_category: admin_service
 slice_status: UNREGISTERED
 
@@ -13,27 +13,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
+- Records: 1
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 0
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Merseyside - St Helens & Knowsley | Newton-le-Willows, North West, WA12 0AQ | £22,936.30 - £23,665.20 | Receptionist
-employer: Hope Academy
-closing_date: 2026-10-16T00:00:00+01:00
-reason: Clear admin/service title: receptionist
+SELECTED | Merseyside - Sefton | Southport, North West, PR9 7NN | £7,322.22 - £7,556.11 Annually (Actual) Grade 4, SCP 4-6 | Administrative Assistant
+employer: Churchtown Primary School
+closing_date: 2026-10-16T09:00:00+01:00
+reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: 97a5cdc7b66b5832366b495b4f9a67b97f21ead582080c999f6be91c0a7cd874
+factual_fingerprint: b83cab44130c1267eb33f25a2923731682b75f84914860b67e3fcc26d009b5ff
 source: Teaching Vacancies
-source_job_id: receptionist-hope-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-hope-academy
+source_job_id: administrative-assistant-churchtown-primary-school-southport-merseyside
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-churchtown-primary-school-southport-merseyside
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -46,7 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-hope-aca
 
 ## HARD_PASS
 
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-sutton-manor-community-primary-school) — Manager title without salary evidence below £28,000.
+- None.
 
 ## Safety boundary
 

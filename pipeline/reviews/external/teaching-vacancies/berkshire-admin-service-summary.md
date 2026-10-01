@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-09-30
-review_fingerprint: e57bc46ac2c4ac7eda0753fa745ccd7ba8a0858dd349f481a4ca1b3e0033ac6e
-routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
+review_date: 2026-10-01
+review_fingerprint: 3ccbaf25ef40f8519689631f261d0e32db864251bf7586cc8009defdf1d05f59
+routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
-- Selected: 6
+- Records: 22
+- Selected: 8
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 12
@@ -68,6 +68,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administra
 
 ---
 action: 
+SELECTED | Berkshire | Maidenhead, South East, SL6 7NQ | £16,473.00 - £16,735.00 Annually (Actual) Actual salary based on 25 hours per week | Medical Office Assistant
+employer: Furze Platt Senior School
+closing_date: 2026-10-12T09:00:00+01:00
+reason: Clear admin/service title: office assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 49a51f904dcbe93ff1ca6417bd35cfbc4962190adb1151855e530d76e024d740
+source: Teaching Vacancies
+source_job_id: medical-office-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/medical-office-assistant
+---
+
+---
+action: 
 SELECTED | Berkshire | Reading, South East, RG7 3XJ | Between £29,071 and £33,119 | Personal Assistant to the Headteacher
 employer: The Willink School
 closing_date: 2026-10-16T12:00:00+01:00
@@ -109,6 +124,21 @@ factual_fingerprint: 4db642820872c78e47fce37926ef71ca84398ab5b279e28f14c29915d4b
 source: Teaching Vacancies
 source_job_id: school-administrator-radstock-primary-school-reading-berkshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-radstock-primary-school-reading-berkshire
+---
+
+---
+action: 
+SELECTED | Berkshire | Slough, South East, SL2 5BA | £22,274.00 - £22,957.00 Annually (Actual) | Welfare Assistant & Administrator
+employer: James Elliman Academy
+closing_date: 2026-12-31T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7e17fcac9c3fcc09d1efc81c9fb3758fa90a1707f6aafe5ed2500f178032bcfb
+source: Teaching Vacancies
+source_job_id: welfare-assistant-administrator-james-elliman-academy-slough-berkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/welfare-assistant-administrator-james-elliman-academy-slough-berkshire
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -160,7 +190,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-finance-assist
 - [Receptionist & Admin Assistant - Katesgrove Primary School](https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-katesgrove-primary-school-katesgrove-primary-school) — Missing salary or pay scale.
 - [School Development Officer](https://teaching-vacancies.service.gov.uk/jobs/school-development-officer) — Insufficient admin/service evidence.
 - [School Solicitor](https://teaching-vacancies.service.gov.uk/jobs/school-solicitor) — Insufficient admin/service evidence.
-- [Supportive UCAS Manager](https://teaching-vacancies.service.gov.uk/jobs/supportive-ucas-manager) — Manager title salary ceiling £33,119 is not below £28,000.
+- [Supportive UCAS Manager](https://teaching-vacancies.service.gov.uk/jobs/supportive-ucas-manager) — Manager title salary ceiling £29,542 is not below £28,000.
 
 ## Safety boundary
 

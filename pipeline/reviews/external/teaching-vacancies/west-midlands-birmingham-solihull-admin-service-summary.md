@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-09-30
-review_fingerprint: 3cca62d4345ce97bc56809a6de3170fc0fb2b0912a81ae4c1101628849f98956
-routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
+review_date: 2026-10-01
+review_fingerprint: f14c88ea97df03cf76ac30816754d03318784ab47826e8d1a9ec14790fa4f7b1
+routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 26
-- Selected: 11
-- POSS awaiting decision: 1
+- Selected: 12
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 14
 
@@ -173,6 +173,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-offi
 
 ---
 action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B44 0JL | Birmingham Pay scale Grade 3, points 9 - 22 depending on experience | Office Administrator
+employer: Kings Rise Academy
+closing_date: 2026-10-19T15:00:00+01:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1f546d20f95f975ea0c67e078e38157f97c7d0abab10b622c5469f7b9851d600
+source: Teaching Vacancies
+source_job_id: office-administrator-kings-rise-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-kings-rise-academy
+---
+
+---
+action: 
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B36 0HD | FTE - £ 25614.00 - £26427.00 Actual Salary - £ 20770.00 - £21909.00 | School Office Administrator
 employer: Castle Bromwich Junior School
 closing_date: 2026-10-14T09:00:00+01:00
@@ -188,20 +203,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-adminis
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B44 0JL | Birmingham Pay scale Grade 3, points 9 - 22 depending on experience | Office Administrator
-employer: Kings Rise Academy
-closing_date: 2026-10-19T15:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1f546d20f95f975ea0c67e078e38157f97c7d0abab10b622c5469f7b9851d600
-source: Teaching Vacancies
-source_job_id: office-administrator-kings-rise-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-kings-rise-academy
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -211,14 +213,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 - [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-the-deanery-church-of-england-primary-school) — Missing salary or pay scale.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-fioretti-trust) — Insufficient admin/service evidence.
-- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-swanshurst-school) — Manager title salary ceiling £41,771 is not below £28,000.
-- [Examinations Assistant](https://teaching-vacancies.service.gov.uk/jobs/examinations-assistant-plantsbrook-school) — Insufficient admin/service evidence.
+- [Data Apprentice](https://teaching-vacancies.service.gov.uk/jobs/data-apprentice-academy-transformation-trust) — Insufficient admin/service evidence.
 - [Governance Support Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-support-officer-eaa7a044-716c-471a-b1e0-33530ee7b932) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-st-john-paul-ii-multi-academy-company-birmingham-not-recorded) — Insufficient admin/service evidence.
 - [Office Administration](https://teaching-vacancies.service.gov.uk/jobs/office-administration) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-bloomsbury-nursery-school) — Manager title salary ceiling £34,434 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-erdington-hall-primary-school) — Manager title salary ceiling £43,149 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-greet-primary-school) — Manager title salary ceiling £34,434 is not below £28,000.
+- [PA to Executive Head](https://teaching-vacancies.service.gov.uk/jobs/pa-to-executive-head) — Missing salary or pay scale.
 - [School Administration Assistant/ Attendance](https://teaching-vacancies.service.gov.uk/jobs/school-administration-assistant-attendance) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-severne-junior-infant-and-nursery-school) — Manager title salary ceiling £55,224 is not below £28,000.
 - [School Finance Partner](https://teaching-vacancies.service.gov.uk/jobs/school-finance-partner-fioretti-trust) — Insufficient admin/service evidence.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Worcestershire
 
-review_date: 2026-09-30
-review_fingerprint: 07de2915377de24a236da71094408845f6b7e35f8df1539e6889186c981fd560
-routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
+review_date: 2026-10-01
+review_fingerprint: fc0aaf4ba42debaa332924234fb558471e3689c111132b1b3de7352d531d455b
+routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
-- Selected: 3
+- Records: 5
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 0
+- Hard pass: 1
 
 ## SELECTED
 
@@ -66,6 +66,21 @@ source_job_id: receptionist-and-admin-assistant-st-george-s-cofe-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admin-assistant-st-george-s-cofe-school
 ---
 
+---
+action: 
+SELECTED | Worcestershire | Redditch, West Midlands, B98 0UB | £21,874.00 - £22,217.00 Annually (Actual) | Receptionist/Administrator
+employer: Ipsley CofE Middle School
+closing_date: 2026-10-12T09:00:00+01:00
+reason: Clear admin/service title: administrator, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 571907f4dad9a24a753128770b9587166d08333a4253d2312e1cc52881962973
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-ipsley-cofe-middle-school-redditch
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-ipsley-cofe-middle-school-redditch
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -76,7 +91,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admi
 
 ## HARD_PASS
 
-- None.
+- [Invigilator](https://teaching-vacancies.service.gov.uk/jobs/invigilator-arrow-vale-high-school-redditch) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-09-30
-review_fingerprint: 08687742c4eef6e4ab90f92c326a41f9a3adb2105938250bf8237769b070e797
-routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
+review_date: 2026-10-01
+review_fingerprint: da24e15f713720df1c9635f48acb5a62eb3b31537db386632dbe0e3621126597
+routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
+- Records: 11
 - Selected: 4
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 6
 
@@ -38,17 +38,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator
 
 ---
 action: 
-SELECTED | Northamptonshire | Northampton, East Midlands, NN4 6TP | £22,525.00 - £22,884.00 Annually (Actual) Part- time hours also available | Administrator
-employer: Caroline Chisholm School
-closing_date: 2026-10-07T12:00:00+01:00
+SELECTED | Northamptonshire | Northampton, East Midlands, NN6 6HU | £26,846.00 - £27,274.00 Annually (FTE) £18702.88 Actual Salary | Administrator
+employer: Welford Sibbertoft and Sulby Endowed School
+closing_date: 2026-10-15T12:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: a308502a22f20790c04ea5f163c0e3fcad05b2baf760cce4c9547cdcad17c5a0
+factual_fingerprint: b5862d4c7d669e082bfb20f6a8500220add860c986216d75820b2fe0cb6cca2a
 source: Teaching Vacancies
-source_job_id: administrator-caroline-chisholm-school-northampton-northamptonshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-caroline-chisholm-school-northampton-northamptonshire
+source_job_id: administrator-welford-sibbertoft-and-sulby-endowed-school-northampton-northamptonshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-welford-sibbertoft-and-sulby-endowed-school-northampton-northamptonshire
 ---
 
 ---
@@ -83,7 +83,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-guilsbor
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Northamptonshire | Northampton, East Midlands, NN4 6TP | £22,525.00 - £22,884.00 Annually (Actual) Part- time hours also available | Administrator
+employer: Caroline Chisholm School
+closing_date: 2026-10-07T12:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a308502a22f20790c04ea5f163c0e3fcad05b2baf760cce4c9547cdcad17c5a0
+source: Teaching Vacancies
+source_job_id: administrator-caroline-chisholm-school-northampton-northamptonshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-caroline-chisholm-school-northampton-northamptonshire
+---
 
 ## EXCLUDED BY REVIEW
 

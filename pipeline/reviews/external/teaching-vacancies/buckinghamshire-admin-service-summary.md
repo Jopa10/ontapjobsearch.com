@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-09-30
-review_fingerprint: 10b7ef5f866785106ed322457d4fee2dc94678ca249126b0ccf4937a257aa428
-routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
+review_date: 2026-10-01
+review_fingerprint: e5be673c6d4794544431f25a95a3eeab5efe7dcbb6db982989e7898286e8585e
+routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 13
 - Selected: 6
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 6
 
@@ -38,17 +38,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator
 
 ---
 action: 
-SELECTED | Buckinghamshire | Aylesbury, South East, HP22 7BR | £29,156.00 - £31,413.00 Annually (Actual) Bucks Pay Range 5 £29,156 to £31,413 (Full time equivalent to £34,319 to 36,975) | ARC Administrator
-employer: The Kingsbrook School
-closing_date: 2026-10-06T12:00:00+01:00
-reason: Clear admin/service title: administrator
+SELECTED | Buckinghamshire | Buckingham, South East, MK18 2AP | £26,522.00 - £28,742.00 Annually (FTE) | Admin Assistant
+employer: Padbury Church of England School
+closing_date: 2026-10-11T23:59:00+01:00
+reason: Clear admin/service title: admin assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: f99444afc5d1849323ce2a57354d4923d694b96c02a452d398790b0d1c8f77d9
+factual_fingerprint: 78796568646d6527c55c8803de1c331b2e45e941becb831e1e7f2bfefe0c2d58
 source: Teaching Vacancies
-source_job_id: arc-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/arc-administrator
+source_job_id: admin-assistant-padbury-church-of-england-school-buckingham-buckinghamshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-padbury-church-of-england-school-buckingham-buckinghamshire
 ---
 
 ---
@@ -113,7 +113,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-chi
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Buckinghamshire | Aylesbury, South East, HP22 7BR | £29,156.00 - £31,413.00 Annually (Actual) Bucks Pay Range 5 £29,156 to £31,413 (Full time equivalent to £34,319 to 36,975) | ARC Administrator
+employer: The Kingsbrook School
+closing_date: 2026-10-06T12:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f99444afc5d1849323ce2a57354d4923d694b96c02a452d398790b0d1c8f77d9
+source: Teaching Vacancies
+source_job_id: arc-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/arc-administrator
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -123,7 +136,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-chi
 
 - [Business Support L3](https://teaching-vacancies.service.gov.uk/jobs/business-support-l3-brooklands-farm-primary-school) — Insufficient admin/service evidence.
 - [Designated Safeguarding Lead](https://teaching-vacancies.service.gov.uk/jobs/designated-safeguarding-lead-brooklands-farm-primary-school) — Insufficient admin/service evidence.
-- [Employee Relations Officer](https://teaching-vacancies.service.gov.uk/jobs/employee-relations-officer) — Insufficient admin/service evidence.
+- [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-royal-grammar-school-high-wycombe) — Manager title salary ceiling £47,020 is not below £28,000.
 - [HR Officer Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-maternity-cover-aylesbury-high-school) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-the-aylesbury-vale-academy) — Manager title salary ceiling £36,975 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-winslow-church-of-england-school) — Manager title salary ceiling £41,272 is not below £28,000.

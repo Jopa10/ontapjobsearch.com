@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-09-30
+review_date: 2026-10-01
 review_fingerprint: ff60871bbacefd313ce1b7847eb458e27e34db87a3c5bf205d972dd17ea8029e
-routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
+routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -50,8 +50,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 - [Business Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/business-administration-officer) — Insufficient admin/service evidence.
 - [Data Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-administration-assistant-cove-school) — Insufficient admin/service evidence.
 - [Deputy School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/deputy-school-business-manager-crestwood-community-school) — Manager title salary ceiling £46,565 is not below £28,000.
+- [Exams Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-assistant-the-romsey-school) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-romsey-school) — Insufficient admin/service evidence.
-- [HR Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-administration-assistant-the-portsmouth-academy) — Insufficient admin/service evidence.
 - [School Resources/Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-resources-administration-assistant) — Insufficient admin/service evidence.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East - Tees Valley
 
-review_date: 2026-09-30
-review_fingerprint: 7d496f1073184914b19397bddb495565e6871a5c95cf42d77675e64a67f18628
-routing_manifest_sha256: cdbd591c22970e9097bb68f19e03260e588fcb6147b0482c5bb9a2fd620d9067
+review_date: 2026-10-01
+review_fingerprint: c0927d08df5b0f07e8b0793ef43ff55930c16e11b72aed68a30ffd3779f67815
+routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 2
+- Records: 10
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 6
@@ -23,17 +23,32 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | North East - Tees Valley | Yarm, North East, TS15 9ET | Grade F, SCP 7 to 8, pending job evaluation | Administration Assistant
+SELECTED | North East - Tees Valley | Yarm, North East, TS15 9ET | £23,564 to £24,481, pending job evaluation | Administration Assistant
 employer: Conyers School
 closing_date: 2026-10-12T12:00:00+01:00
 reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: de266f2fa4b6e006e64a42a1afe7842ebe07c663e38c8902c623c6b0ddd4edbc
+factual_fingerprint: cbe371be327547ed6b8ef1850d860610f434d608cd788a602066a1d0719c3023
 source: Teaching Vacancies
-source_job_id: administration-assistant-e053f2e7-6038-4ade-97e2-a063832069a7
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-e053f2e7-6038-4ade-97e2-a063832069a7
+source_job_id: administration-assistant-6d289c6b-155d-4735-affe-2840a052662f
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-6d289c6b-155d-4735-affe-2840a052662f
+---
+
+---
+action: 
+SELECTED | North East - Tees Valley | Stockton-on-Tees, North East, TS17 9DE | £25,185 - £25,583 pro rata (actual salary: £8,821 - £8,961) | Business Support Assistant
+employer: St Patrick's Catholic College, A Voluntary Catholic Academy
+closing_date: 2026-10-19T09:00:00+01:00
+reason: Clear admin/service title: business support assistant
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 6e2da1be2b6002e408999a56bf5b3a87473e83d03815f8cc875c0ce8fad9859a
+source: Teaching Vacancies
+source_job_id: business-support-assistant-st-patrick-s-catholic-college-a-voluntary-catholic-academy-stockton-on-tees-teesside
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-assistant-st-patrick-s-catholic-college-a-voluntary-catholic-academy-stockton-on-tees-teesside
 ---
 
 ---
@@ -55,17 +70,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-huntclif
 
 ---
 action: 
-POSS | North East - Tees Valley | Stockton-On-Tees, TS17 0RJ | Grade F, SCP 7 to 8 | Trust HR Assistant
+POSS | North East - Tees Valley | Stockton-On-Tees, TS17 0RJ | Actual salary £24,165 to £25,108 | Trust HR Assistant
 employer: Spark Education Trust
 closing_date: 2026-10-12T12:00:00+01:00
 reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: ff43a3765798efaca4532c4d3a900ea1f6bfba0fb336443c528fd3d83aa22fa7
+factual_fingerprint: 5f780d6b9c668281c1bd8032e1f0a171d52598d4def5783db9cde24d56db4e0a
 source: Teaching Vacancies
-source_job_id: trust-hr-assistant-4cbf6320-926e-4fa3-b6fa-3945a409f1ad
-source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-hr-assistant-4cbf6320-926e-4fa3-b6fa-3945a409f1ad
+source_job_id: trust-hr-assistant-175589f5-53ea-4b6b-937b-0cd777bc83f2
+source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-hr-assistant-175589f5-53ea-4b6b-937b-0cd777bc83f2
 ---
 
 ## EXCLUDED BY REVIEW
@@ -79,7 +94,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-hr-assistant-4c
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-outwood-academy-redcar) — Insufficient admin/service evidence.
 - [Office Manager and PA to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-pa-to-the-headteacher-our-lady-st-bede-catholic-academy-stockton-on-tees-cleveland) — Manager title salary ceiling £33,699 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-patrick-s-catholic-college-a-voluntary-catholic-academy) — Manager title salary ceiling £35,412 is not below £28,000.
-- [Trust Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-assistant-spark-education-trust-stockton-on-tees-not-recorded) — Insufficient admin/service evidence.
+- [Trust Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-assistant-dc4109c3-10fb-4988-9b60-ca1acab51bc8) — Insufficient admin/service evidence.
 
 ## Safety boundary
 
