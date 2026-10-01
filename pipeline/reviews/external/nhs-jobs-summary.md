@@ -2,15 +2,27 @@
 
 review_date: 2026-10-01
 
-- Open Administrative & Clerical rows reviewed: 2173
+- Open Administrative & Clerical rows reviewed: 2174
 - Auto/remembered selected: 406
 - Selected HC Tier A: 211
 - Selected HC Tier B: 195
-- POSS awaiting decision: 1655
+- POSS awaiting decision: 1656
 - Excluded: 0
 - HARD_PASS: 112
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Lincolnshire | Lincoln, LN2 5QY | £28392.00 to £31157.00 | Lung Cancer Screening Navigator - Band 4
+source_job_id: 5635495
+title: Lung Cancer Screening Navigator - Band 4
+employer: United Lincolnshire Hospitals NHS Trust
+region: Lincolnshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9357-26-0419
+factual_fingerprint: 79cebefac59de1d9615ab29edfbccf7b7e6d4443bdfaadce6d830cd7f9252e46
+---
 
 ---
 action:
