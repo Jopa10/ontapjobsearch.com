@@ -407,11 +407,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9814-26-186",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9814-26-186",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5610991",
@@ -429,10 +425,42 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9274-26-0368",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9274-26-0368",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
+  },
+  {
+    "job_id": "nhs-5615073",
+    "source": "NHS Jobs",
+    "title": "Administrator",
+    "company": "Lincolnshire Partnership NHS Foundation Trust",
+    "advertiser_name": "Lincolnshire Partnership NHS Foundation Trust",
+    "location": "Skegness, PE25 2JA",
+    "region": "Lincolnshire",
+    "salary": "£25272.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-22T11:15:46.774162332",
+    "closing_date": "2026-10-05",
+    "description": "This is an exciting opportunity to join an established Lincolnshire Talking Therapy service as a B2 Administrative Assistant for the Skegness LTT Team. We are looking for an organised, flexible, efficient team player to join our busy mental health talking therapies service. The successful applicant will be based at Holly Lodge, Skegness, supporting service delivery, working Mon- Friday. The service will provide regular supervision and training to support this. You will require excellent communication, organisational and IT skills, as well as having an exemplary telephone manner, with the initiative to work on your own at times. Lincolnshire Talking Therapies is a successful service that provides a stepped care model for the treatment of people with mild to moderate mental health problems. For further information please contact Pamela Dennis, Team Manager, Skegness LTT via email at Pamela.dennis6@nhs.net We are not able to offer sponsorship for this role. Please provide details of the visa type and expiry date in your application. Failure to provide the required information will result in your application being rejected. As an Administrator, you will play a crucial role in supporting the smooth operation of our talking therapies service. You'll assist both clinical and non-clinical teams, ensure a welcoming environment for all visitors, and develop essential skills for a future NHS career. To undertake reception and routine administration duties in support of clinical and non-clinical activity, ensuring a professional and efficient reception service is provided for all visitors, including service users, carers, contractors, external and internal stakeholders, along with site colleagues and teams. Main Duties of the Apprentice Administrator (Mental Health NHS Talking Therapies): - Provide administrative support to the talking therapies team, including answering phones and responding to emails. - Assist with booking appointments, managing waiting lists, and scheduling assessments. - Maintain accurate and confidential patient records in line with NHS policies. - Welcome and guide service users, families, and visitors to the service. - Support the preparation and distribution of clinical documents, letters, and reports. - Help to organise meetings and take minutes when required. - Input data and generate routine reports for the team. - Work closely with clinical and administrative colleagues to ensure the smooth running of the service. - Uphold patient confidentiality and treat all information sensitively. - Undertake general office tasks such as photocopying, scanning, and filling Please view the attached Job Description and Person Specification for further details regarding this position.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9274-26-0371",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9274-26-0371",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A"
+  },
+  {
+    "job_id": "nhs-5562166",
+    "source": "NHS Jobs",
+    "title": "Receptionist",
+    "company": "Market Cross Surgery",
+    "advertiser_name": "Market Cross Surgery",
+    "location": "Grantham, NG33 4BB",
+    "region": "Lincolnshire",
+    "salary": "£12.71",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-26T09:49:41.534880421",
+    "closing_date": "2026-10-30",
+    "description": "The GP receptionist is responsible for undertaking a wide range of reception duties and providing support to the multidisciplinary team. Duties may include, but are not limited to, greeting and directing patients, effective use of the appointment system, booking appointments, processing of personal information and assisting patients as required. To act as a central point of contact for patients, the distribution of information, messages and enquiries for the clinical team, liaising with the multidisciplinary team member and external agencies such as secondary care and community service providers. The core responsibilities of the receptionist are as follows. On occasion, there may be a requirement to carry out tasks not listed below, that are within the reasonable scope of the role. Maintain and monitor practice appointment system Process personal, telephone and e-requests for appointments Answer incoming phone calls, dealing with the callers request appropriately Signpost patients to the correct service Initiating contact with and responding to, requests from patients, team members and external agencies Data entry of new and temporary registrations and relevant patient information as requested Input data as necessary onto patients healthcare records Direct requests for information to relevant team members i.e., SAR, DVLA forms, insurance/solicitors letters Manage all queries as necessary in an efficient manner Carry out system searches as requested Support all clinical staff with general tasks as required Photocopy documentation as required Maintain a clean, tidy and effective working area Monitor and maintain the reception area and notice boards In addition to the core responsibilities, the Receptionist may be requested to; 1. Action incoming emails and correspondence as necessary 2. Complete opening and closing procedures in accordance with the rota 3. Partake in audit as directed by the audit lead 4. Support admin team, providing cover during absences 5. Scan patient related documents and attach scanned documents to patients healthcare record We currently have 2 part time vacancies available allowing us to be flexible for the right candidate. All hours will be worked between 08:00 and 18:30, Monday to Friday",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3629-26-0013",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3629-26-0013",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A"
   }
 ]

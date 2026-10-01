@@ -641,9 +641,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9190-26-0601",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -663,9 +660,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9457-26-0304",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -685,9 +679,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0093-26-0008",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -707,9 +698,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3971",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -729,9 +717,25 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4533-26-0926-2",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5614100",
+    "source": "NHS Jobs",
+    "title": "Receptionist",
+    "company": "Grenoside Surgery",
+    "advertiser_name": "Grenoside Surgery",
+    "location": "Sheffield, S35 8NX, Sheffield, S6 1LA",
+    "region": "Yorkshire - South",
+    "salary": "£13.17",
+    "employment_type": "Fixed-Term",
+    "posted_date": "2026-09-22T09:15:39.166518857",
+    "closing_date": "2026-10-09",
+    "description": "Maternity cover role and the potential for something more permanent afterwards Hours: Monday 2.30pm - 6pm Tuesday 12pm - 5.30pm Wednesday 12pm - 5.30pm Friday 8.30am - 7pm The successful applicant will require good keyboard skills. Previous experience in a health environment is an advantage, but not essential as full training will be given. It is essential that you are able to cover for sickness and holidays above your contracted hours. Informal enquires welcome to Alison Leigh (Reception Lead) or Kara Eaves (Practice Manager), on 0114 240 3159. Open the premises. Receive and greet patients on arrival. Receive and direct incoming calls from Total Triage. EMIS clinical system, full training will be given. General enquiries, explain surgery procedures both at the reception desk and by telephone. Scan & file clinical correspondence onto patients medical records. Home Visit requests. Process repeat prescription requests. in Process messages and requests from many different sources, both internal and external. Liaise with other agencies, e.g. district nurses, social services, ambulance service on request. Check clinical fridges to ensure correct temperature is maintained. Open incoming mail. Ensure that the reception area is left tidy and ready for use by incoming colleagues, and that they are provided with information concerning any unresolved or urgent matters. Cover for reception colleagues on a rota basis, minimal. Secure the premises (late shift) - check windows before departure, tidy waiting room. Ensure that arrangements have been made for emergency telephone answering. Attend appropriate practice meetings and training courses/complete Blue Stream courses as appropriate. Main duties of the job",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4533-26-0926",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4533-26-0926",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
     "posted_date_basis": "source"
   }
 ]

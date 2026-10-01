@@ -1105,11 +1105,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9377-26-0432",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9377-26-0432",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5623216",
@@ -1127,11 +1123,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3961-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3961-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5617512",
@@ -1149,11 +1141,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0368-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0368-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5486478",
@@ -1171,11 +1159,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4884-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4884-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5603778",
@@ -1193,11 +1177,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0447",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0447",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5636667",
@@ -1215,11 +1195,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4379-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4379-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5634925",
@@ -1237,11 +1213,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3218-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3218-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5630977",
@@ -1259,11 +1231,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0058-26-0009",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0058-26-0009",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5620676",
@@ -1281,11 +1249,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5995-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5995-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5611927",
@@ -1303,10 +1267,24 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0320-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0320-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
+  },
+  {
+    "job_id": "nhs-5603161",
+    "source": "NHS Jobs",
+    "title": "MEDICAL RECEPTIONIST",
+    "company": "The Bradford Moor Practice",
+    "advertiser_name": "The Bradford Moor Practice",
+    "location": "Bradford, BD3 8QH",
+    "region": "Yorkshire - West",
+    "salary": "Negotiable",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-16T11:02:25.765827097",
+    "closing_date": "2026-10-31",
+    "description": "We need a reliable, motivated, hard working and flexible individual to join our friendly busy team. Must have SystmOne experience withgood computer and communication skills. To work 25.5 hours per week To commence as soon as possible. FLEXIBILITY IS ESSENTIAL TO THIS ROLE. Greeting and directing patients and visitors on arrival. Signposting patients to the most appropriate healthcare professional. Registering new patients. Booking appointments. Using photocopier, telephone, email and clinical system. Respond to the needs of clinicians during surgery. Respond to requests from Management. Preparing consultation rooms, prior to and after surgery. General housekeeping (e.g. keeping waiting and office areas clean and tidy). Action tasks on SystmOne Provide clerical assistance to support the delivery of patient services, e.g. post, data input and scanning. Specified Duties To provide and effective, polite and efficient point of contact to all patients and visitors to the Practice. To create and instil an atmosphere of calm, pleasant and peaceful surrounds. Maintain a positive attitude at all times. Smile when you answer the phone. Remember never say it is not my job to. Always say what you can do, not what you cannot do. Acknowledge and welcome the arrival of patients with a booked appointment at the front desk. Make future appointments and allocate appropriate same day appointments. Liaise with duty doctor via SystmOne any instructions regarding the processing of lists that are undertaken in line with the agreed procedure. Answer the telephone within 4 rings and ensure all messages are recorded in SystmOne and are dealt with or passed to the appropriate person for action. Deal with actions arising from the post when dealt with by the duty doctor. Deal with prescriptions requests and home visit requests as they come in, on the telephone and face to face. Make up a visit list each day and print out a patient summary relating to each person being visited. Exhibit willingness to train on new technology and updated systems, as required. Ensure all aspects of Health and safety are adhered to and breaches reported to Management. Flexibility when asked to cover shifts for holidays, sickness, absences remember you never know when you might need cover. Generally keeping the reception area, in fact all areas clean and tidy. Scan all post into SystmOne record as agreed. Ensure accurate data entry onto SystmOne according to protocols. Liaise with other Health Care professionals, as and when necessary to ensure relevant people are advised of developments, which affect patients under their care. To work in a manner that ensures the smooth running of the Practice. Receiving and receipting monies. Using email facilities as an internal communication tool. At the end of the day ensure all areas of reception are tidy in order to ensure easy accessibility for the cleaners. To ensure all areas are secure at night, all electrical equipment is switched off and that the building is secure when last to leave. Ensure phone lines are switched over to the preferred out of hours provider. Complete all tasks relevant to position. Complete and maintain targets as set out and agreed by the Practice Manager in annual appraisal. Read and adhere to all protocols. Work as a team Filing with accuracy Use alert/reminder templates Prescriptions pull out non-collected ones after 3 months Change patient names and addresses Stocking up clinical rooms Maintain security of the premises Maintain ultimate confidentiality This job description is not exhaustive and therefore other duties may be asked of you by the clinic/management team if within your physical and educational capabilities.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0721-26-0006",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0721-26-0006",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B"
   }
 ]

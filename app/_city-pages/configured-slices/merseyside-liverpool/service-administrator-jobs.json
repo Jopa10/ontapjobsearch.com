@@ -316,9 +316,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0625",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -338,9 +335,25 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5232-26-0004",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5608176",
+    "source": "NHS Jobs",
+    "title": "Administrator (Bank)",
+    "company": "Practice Plus Group - Health in Justice",
+    "advertiser_name": "Practice Plus Group - Health in Justice",
+    "location": "Liverpool, L9 7LH",
+    "region": "Merseyside - Liverpool",
+    "salary": "£13.73 to £13.73",
+    "employment_type": "Bank",
+    "posted_date": "2026-09-18T08:45:22.812610155",
+    "closing_date": "2026-10-02",
+    "description": "UNLOCK YOUR BEST WORK LIFE + MAKE A DIFFERENCE TO EVERY LIFE We have an exciting opportunity for a Bank Administrator to join the team at HMP Altcourse, a busy Category B male prison in Fazakerley, Liverpool. HMP Altcourse is the busiest remand prison in England, accommodating approximately 1,160 adult males with an average stay of 10 weeks. Practice Plus Group provides primary care and substance misuse services across eight wings, clinic areas, inpatient facilities, and reception services. Bespoke induction, including our Introducing Health in Justice training course Competency framework Regional and national career development opportunities Our bespoke Learning Management System to address your learning needs Support from the wider team Candidates are required to have a Legal right to work in the UK and due to the nature of the role, offers of employment will be subject to additional vetting and security checks As our new Bank Administrator, your responsibilities will include: As the first point of contact for the healthcare team, you will actively speak to hospitals, GP surgeries, solicitors and others, arranging external appointments for patients, requesting discharge summaries and patient summaries etc Work closely with the wider prison team to arrange hospital appointments, escorts and bed watch. You will also ensure that prison officers have up to date clinic lists Process E Referrals Update trackers, systems and spreadsheets for hospital appointments, admissions, consent forms etc Carry out admin tasks for Early Days in Custody (EDIC), including joining the daily call General admin duties such as scanning, post, minute taking and stock check",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0486",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0486",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
     "posted_date_basis": "source"
   }
 ]
