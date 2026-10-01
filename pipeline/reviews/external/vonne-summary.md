@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-09-30
-review_fingerprint: 45bafec8f587e313dbd345f137d52d8651e4c880efb440b97cb0c18dc33cc7c5
+review_date: 2026-10-01
+review_fingerprint: 9159716e6238e0559296622724a42ee599cde9e8d10acb28fc8395034bf0bb73
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,9 +10,9 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-09-30T13:54:12+01:00
+Run generated: 2026-10-01T14:45:50+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 138
+JobG8 comparison rows: 354
 Approved NEJobs comparison rows: 0
 
 ## Funnel
@@ -57,14 +57,14 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173468
 ---
 ---
 action:
-POSS | North East | Hybrid | £24,480 Per Annum | Policy project intern
+POSS | North East | Hybrid | £24,480 Per Annum | Project Assistant
 employer: North East Chamber of Commerce
 closing_date: 27 October 2026
 geography: GENERIC_REVIEW — generic VONNE location requires manual North East check
 reason: North East geography is generic or derived and requires review
 source: VONNE
 tracking_key: vonne-173489
-vacancy_fingerprint: bc9ec920b2419dc727fb6c3eda438952c14038d6e91a40ce9e195d7a66d10c1b
+vacancy_fingerprint: 614f3aa276c1067c98c18edf1a0144b16bb8bf36311bd7826b4c62486ff7f4ba
 source_job_id: 173489
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173489
 ---
