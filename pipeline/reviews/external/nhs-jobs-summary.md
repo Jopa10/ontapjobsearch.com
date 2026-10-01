@@ -2,15 +2,27 @@
 
 review_date: 2026-10-01
 
-- Open Administrative & Clerical rows reviewed: 2318
+- Open Administrative & Clerical rows reviewed: 2319
 - Auto/remembered selected: 426
 - Selected HC Tier A: 222
 - Selected HC Tier B: 204
-- POSS awaiting decision: 1780
+- POSS awaiting decision: 1781
 - Excluded: 0
 - HARD_PASS: 112
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Yorkshire - West | Leeds, LS9 9JD, LEEDS, LS15 7HR | Negotiable | Medical Secretary
+source_job_id: 5636990
+title: Medical Secretary
+employer: East Park Medical Centre
+region: Yorkshire - West
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0887-26-0006
+factual_fingerprint: 7c2ac5fda12a2a6ba0deaf7e89e78eb64a6b03563ac1e7dbf425c1060c7a9024
+---
 
 ---
 action:
@@ -1773,7 +1785,7 @@ employer: Kettering General Hospital NHS Foundation Trust
 region: Northamptonshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9264-26-0567
-factual_fingerprint: f0dac94852587699490d57ebbde990675418c27a7fb669e2e90d25d3af8de7d4
+factual_fingerprint: 04c0e4f6b5abf1efadf42a18975408e0ab445f83121f963be7ecf0bf069282d6
 ---
 
 ---
