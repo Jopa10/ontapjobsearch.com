@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 22
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,38 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 22
-- automatic review: 3
+- automatic include: 17
+- automatic review: 5
 - automatic exclude: 0
-- effective include: 22
-- effective review: 3
+- effective include: 17
+- effective review: 5
 - effective exclude: 0
 
-## INCLUDE (22)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Reed - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-1937916
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant / Bookkeeper
-company: Beam Recruit - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-1909830
-reason: Approved conservative Liverpool launch catchment.
----
+## INCLUDE (17)
 
 ---
 action: 
@@ -69,18 +45,6 @@ company: Practice Plus Group - Health in Justice
 location: Liverpool, L9 7LH
 source: NHS Jobs
 job_id: nhs-5608176
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Billing & Credit Controller
-company: Reed - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-1875820
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -117,18 +81,6 @@ company: Standard 8 - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-1948909
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Assistant
-company: Recruitment Solutions (North West) Ltd - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-1934062
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -196,30 +148,6 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Loss Prevention Administrator Day/Night
-company: Michael Page - Agency - Temporary
-location: Liverpool
-source: JobG8
-job_id: jobg8-23643_225656456
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Marketing Coordinator
-company: Michael Page - Agency - Contract
-location: Liverpool
-source: JobG8
-job_id: jobg8-23643_225639923
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Medical Receptionist
 company: Dunstan Village Group Practice
 location: Liverpool, L7 6HD
@@ -244,11 +172,11 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Pre-Litigation - Legal Assistant (PLCT H)
-company: Bond Turner - Agency - Permanent
+title: Motor Claims Handler CH3
+company: Keoghs LLP - Agency - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-1945149
+job_id: jobg8-1984602
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -256,11 +184,11 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Mersey Care NHS Foundation Trust
-location: Liverpool, L15 2LQ
-source: NHS Jobs
-job_id: nhs-5625742
+title: Pre-Litigation - Legal Assistant (PLCT H)
+company: Bond Turner - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-1945149
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -288,7 +216,31 @@ job_id: jobg8-1884412
 reason: Approved conservative Liverpool launch catchment.
 ---
 
-## REVIEW (3)
+---
+action: 
+decision: include
+automatic_decision: include
+title: TikTok Content Creator & Live Host
+company: Reed Specialist Recruitment - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-23643_225560031
+reason: Approved conservative Liverpool launch catchment.
+---
+
+## REVIEW (5)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Campaign Manager
+company: Roberts Webb Recruitment - Agency - Permanent
+location: Merseyside
+source: JobG8
+job_id: jobg8-1887932
+reason: Broad county location; review before Liverpool inclusion.
+---
 
 ---
 action: 
@@ -323,6 +275,18 @@ company: Zachary Daniels - Agency - Permanent
 location: Merseyside
 source: JobG8
 job_id: jobg8-1935673
+reason: Broad county location; review before Liverpool inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Merseyside
+source: JobG8
+job_id: jobg8-2048022
 reason: Broad county location; review before Liverpool inclusion.
 ---
 

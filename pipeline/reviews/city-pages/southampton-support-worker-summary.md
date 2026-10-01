@@ -4,7 +4,7 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
+- automatic include: 3
 - automatic review: 4
 - automatic exclude: 4
-- effective include: 4
+- effective include: 3
 - effective review: 4
 - effective exclude: 4
 
-## INCLUDE (4)
+## INCLUDE (3)
 
 ---
 action: 
@@ -60,18 +60,6 @@ job_id: jobg8-1898106
 reason: Approved Southampton catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Support Worker (Learning Disabilities)
-company: Cygnet - Agency - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-1856912
-reason: Approved Southampton catchment.
----
-
 ## REVIEW (4)
 
 ---
@@ -84,6 +72,18 @@ location: Alton
 source: JobG8
 job_id: jobg8-1401785277
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Assistant
+company: TRIDENT HEALTHCARE SOLUTIONS LIMITED - Agency - Permanent
+location: Alton
+source: JobG8
+job_id: jobg8-1980850
+reason: No approved Southampton catchment rule matched; local review required.
 ---
 
 ---
@@ -108,18 +108,6 @@ location: Romsey
 source: JobG8
 job_id: jobg8-1401785354
 reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Healthcare Assistant
-company: Advantage Angels Ltd - Agency - Contract
-location: Ryde
-source: JobG8
-job_id: jobg8-107856243
-reason: No approved Southampton catchment rule matched; local review required.
 ---
 
 ## EXCLUDE (4)

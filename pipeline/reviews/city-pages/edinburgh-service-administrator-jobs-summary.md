@@ -4,7 +4,7 @@
 - Live route: `/edinburgh/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,50 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
+- automatic include: 1
 - automatic review: 2
 - automatic exclude: 0
-- effective include: 5
+- effective include: 1
 - effective review: 2
 - effective exclude: 0
 
-## INCLUDE (5)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Three Bridges Recruitment LTD - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-1878501
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Credit Controller
-company: Robert Half - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-1950171
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Financial Services Administrator
-company: IDEX Consulting Ltd - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-1912183
-reason: Approved conservative Edinburgh launch catchment.
----
+## INCLUDE (1)
 
 ---
 action: 
@@ -69,18 +33,6 @@ company: ICONIC RESOURCING LTD - Agency - Permanent
 location: Edinburgh
 source: JobG8
 job_id: jobg8-1933959
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Language Speaking Credit Controller - Fully remote
-company: CWC Recruitment Ltd - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-1910106
 reason: Approved conservative Edinburgh launch catchment.
 ---
 

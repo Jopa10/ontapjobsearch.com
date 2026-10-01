@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 2
-- automatic exclude: 26
+- automatic review: 0
+- automatic exclude: 18
 - effective include: 9
-- effective review: 2
-- effective exclude: 26
+- effective review: 0
+- effective exclude: 18
 
 ## INCLUDE (9)
 
@@ -112,11 +112,11 @@ reason: Approved Doncaster catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Part-time Payroll Assistant
-company: Portfolio Payroll - Agency - Permanent
+title: HR Assistant
+company: Elevation Recruitment Group - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-1907486
+job_id: jobg8-2046084
 reason: Approved Doncaster catchment.
 ---
 
@@ -124,53 +124,17 @@ reason: Approved Doncaster catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Purchase Ledger Administrator
-company: Sharp Consultancy - Agency - Permanent
+title: HR Coordinator
+company: Office Angels - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-1899982
+job_id: jobg8-1987373
 reason: Approved Doncaster catchment.
 ---
 
-## REVIEW (2)
+## REVIEW (0)
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Officer
-company: Marks Sattin - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-1948871
-reason: No approved Doncaster catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Clerk
-company: PRATAP PARTNERSHIP LTD - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-1933458
-reason: No approved Doncaster catchment rule matched; local review required.
----
-
-## EXCLUDE (26)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Assistant
-company: Sharp Consultancy - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1959767
-reason: Separate employment market.
----
+## EXCLUDE (18)
 
 ---
 action: 
@@ -193,54 +157,6 @@ company: Totley All Saints Church of England Voluntary Aided Primary School
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-assistant-part-time-18-hrs
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Assistant Accountant
-company: Elevation Recruitment Group - Agency - Permanent
-location: Rotherham
-source: JobG8
-job_id: jobg8-1949982
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Assistant Accountant
-company: IPS Group - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1960387
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Assistant Accountant
-company: Reed - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1884402
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Assistant Accountant / Finance Officer
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-1871012
 reason: Separate employment market.
 ---
 
@@ -284,35 +200,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Credit Control / Accounts Assistant
+title: Clerical Officer/Receptionist
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S5 7AU
+source: NHS Jobs
+job_id: nhs-5634291
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Credit Controller
+company: Sharp Consultancy - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2043404
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Credit Controller/Accounts Assistant
 company: Shillito Group - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-1905225
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Finance Assistant
-company: PRATAP PARTNERSHIP LTD - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-1908708
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: GP Receptionist
-company: Elm Lane & Chapeltown Surgery
-location: Sheffield, S5 7TW, SHEFFIELD, S35 1TD
-source: NHS Jobs
-job_id: nhs-5627333
+job_id: jobg8-1881566
 reason: Separate employment market.
 ---
 
@@ -344,42 +260,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Medical Receptionist
-company: Norwood Medical Centre
-location: Sheffield, S5 7HD
-source: NHS Jobs
-job_id: nhs-5630483
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Purchase Ledger Clerk
-company: Elevation Recruitment Group - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1939350
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Purchase Ledger Controller
-company: PRATAP PARTNERSHIP LTD - Agency - Permanent
-location: Rotherham
-source: JobG8
-job_id: jobg8-1874146
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Receptionist
 company: Avery Healthcare Group Ltd.
 location: Sheffield, S6 4TF
@@ -396,7 +276,7 @@ title: Receptionist
 company: Grenoside Surgery
 location: Sheffield, S35 8NX, Sheffield, S6 1LA
 source: NHS Jobs
-job_id: nhs-5614100
+job_id: nhs-5614236
 reason: Separate employment market.
 ---
 
@@ -405,10 +285,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Receptionist
-company: Grenoside Surgery
-location: Sheffield, S35 8NX, Sheffield, S6 1LA
+company: Sheffield Health Partnership University NHS Foundation Trust
+location: Sheffield, S11 9BJ
 source: NHS Jobs
-job_id: nhs-5614236
+job_id: nhs-5634371
 reason: Separate employment market.
 ---
 

@@ -2,11 +2,10 @@ decision,job_id,title,company,location,source,automatic_decision,effective_decis
 include,jobg8-1958886,Healthcare Assistant,Thema Healthcare - Agency - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
 include,jobg8-1932858,Part-Time Support Worker,Cygnet - Agency - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
 include,jobg8-1898106,Support Worker (Days),Cygnet - Agency - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
-include,jobg8-1856912,Support Worker (Learning Disabilities),Cygnet - Agency - Permanent,Southampton,JobG8,include,include,Approved Southampton catchment.,southampton,southampton-support-worker
 review,jobg8-1401785277,Care Assistant,Hampshire County Council - Company - Permanent,Alton,JobG8,review,review,Broad location; review before city inclusion.,context:hampshire,southampton-support-worker
+review,jobg8-1980850,Care Assistant,TRIDENT HEALTHCARE SOLUTIONS LIMITED - Agency - Permanent,Alton,JobG8,review,review,No approved Southampton catchment rule matched; local review required.,fallback,southampton-support-worker
 review,jobg8-1401785505,Children's Home Support Worker,Hampshire County Council - Company - Permanent,Romsey,JobG8,review,review,Broad location; review before city inclusion.,context:hampshire,southampton-support-worker
 review,jobg8-1401785354,Children's Homes Support Worker,Hampshire County Council - Company - Permanent,Romsey,JobG8,review,review,Broad location; review before city inclusion.,context:hampshire,southampton-support-worker
-review,jobg8-107856243,Healthcare Assistant,Advantage Angels Ltd - Agency - Contract,Ryde,JobG8,review,review,No approved Southampton catchment rule matched; local review required.,fallback,southampton-support-worker
 exclude,jobg8-1401785443,Care Assistant,Hampshire County Council - Company - Permanent,Winchester,JobG8,exclude,exclude,Separate employment market.,winchester,southampton-support-worker
 exclude,jobg8-1401785482,Children's Homes Support Worker,Hampshire County Council - Company - Permanent,Winchester,JobG8,exclude,exclude,Separate employment market.,winchester,southampton-support-worker
 exclude,jobg8-1401785578,Secure Children's Home Support Worker,Hampshire County Council - Company - Permanent,Eastleigh,JobG8,exclude,exclude,Separate employment market.,eastleigh,southampton-support-worker

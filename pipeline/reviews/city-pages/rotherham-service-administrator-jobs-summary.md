@@ -4,7 +4,7 @@
 - Live route: `/rotherham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
+- Effective included jobs: 0
 - Threshold currently met: no
 
 ## How to review
@@ -15,52 +15,16 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 35
+- automatic include: 0
+- automatic review: 27
 - automatic exclude: 0
-- effective include: 2
-- effective review: 35
+- effective include: 0
+- effective review: 27
 - effective exclude: 0
 
-## INCLUDE (2)
+## INCLUDE (0)
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Assistant Accountant
-company: Elevation Recruitment Group - Agency - Permanent
-location: Rotherham
-source: JobG8
-job_id: jobg8-1949982
-reason: Exact approved Rotherham workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Purchase Ledger Controller
-company: PRATAP PARTNERSHIP LTD - Agency - Permanent
-location: Rotherham
-source: JobG8
-job_id: jobg8-1874146
-reason: Exact approved Rotherham workplace.
----
-
-## REVIEW (35)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Sharp Consultancy - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1959767
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
+## REVIEW (27)
 
 ---
 action: 
@@ -119,42 +83,6 @@ company: Reed - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-2024835
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: IPS Group - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1960387
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: Reed - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1884402
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant / Finance Officer
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-1871012
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -222,6 +150,18 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Clerical Officer/Receptionist
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S5 7AU
+source: NHS Jobs
+job_id: nhs-5634291
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Contact Centre Agent
 company: EE - Company - Permanent
 location: Doncaster
@@ -234,11 +174,23 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Credit Control / Accounts Assistant
+title: Credit Controller
+company: Sharp Consultancy - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2043404
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller/Accounts Assistant
 company: Shillito Group - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-1905225
+job_id: jobg8-1881566
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -258,30 +210,6 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: PRATAP PARTNERSHIP LTD - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-1908708
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: GP Receptionist
-company: Elm Lane & Chapeltown Surgery
-location: Sheffield, S5 7TW, SHEFFIELD, S35 1TD
-source: NHS Jobs
-job_id: nhs-5627333
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR Administrator
 company: Sheffield Park Academy
 location: Sheffield
@@ -294,83 +222,35 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: HR Assistant
+company: Elevation Recruitment Group - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-2046084
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Coordinator
+company: Office Angels - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-1987373
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Insolvency Case Administrator
 company: GGT Insolvency Recruitment - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2014257
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: Norwood Medical Centre
-location: Sheffield, S5 7HD
-source: NHS Jobs
-job_id: nhs-5630483
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part-time Payroll Assistant
-company: Portfolio Payroll - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-1907486
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Officer
-company: Marks Sattin - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-1948871
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Administrator
-company: Sharp Consultancy - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-1899982
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Clerk
-company: Elevation Recruitment Group - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1939350
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Clerk
-company: PRATAP PARTNERSHIP LTD - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-1933458
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -394,7 +274,7 @@ title: Receptionist
 company: Grenoside Surgery
 location: Sheffield, S35 8NX, Sheffield, S6 1LA
 source: NHS Jobs
-job_id: nhs-5614100
+job_id: nhs-5614236
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -403,10 +283,10 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
-company: Grenoside Surgery
-location: Sheffield, S35 8NX, Sheffield, S6 1LA
+company: Sheffield Health Partnership University NHS Foundation Trust
+location: Sheffield, S11 9BJ
 source: NHS Jobs
-job_id: nhs-5614236
+job_id: nhs-5634371
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

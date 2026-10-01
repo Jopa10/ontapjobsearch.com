@@ -4,7 +4,7 @@
 - Live route: `/bedford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 13
+- automatic include: 4
+- automatic review: 14
 - automatic exclude: 0
-- effective include: 5
-- effective review: 13
+- effective include: 4
+- effective review: 14
 - effective exclude: 0
 
-## INCLUDE (5)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant / Bookkeper
-company: The GK Group Limited - Agency - Permanent
-location: Bedford
-source: JobG8
-job_id: jobg8-1876034
-reason: Exact approved Bedford workplace.
----
+## INCLUDE (4)
 
 ---
 action: 
@@ -84,43 +72,7 @@ job_id: nhs-5608349
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (13)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: NLB Solutions - Agency - Permanent
-location: Luton
-source: JobG8
-job_id: jobg8-1859771
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Reed - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-1944217
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Management Accountant
-company: Abacus Consulting - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-1896593
-reason: No exact Bedford workplace matched; local geographic review is required.
----
+## REVIEW (14)
 
 ---
 action: 
@@ -131,6 +83,30 @@ company: Response Personnel - Agency - Permanent
 location: Sandy
 source: JobG8
 job_id: jobg8-2036003
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Data Administrator (Guidance & Education System)
+company: Reed Talent Solutions - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-1981043
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Early Careers Coordinator
+company: BPHA - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-1849342
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -162,11 +138,11 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Office Administrator
-company: Gamlingay Village Primary
-location: Sandy
-source: Teaching Vacancies
-job_id: teaching-vacancies-office-administrator-gamlingay-village-primary
+title: Legal Assistant
+company: Law Staff Limited - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-1987381
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -179,6 +155,30 @@ company: BMA RECRUITMENT LTD - Agency - Permanent
 location: Luton
 source: JobG8
 job_id: jobg8-1908809
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Partnership Coordinator
+company: Reed Talent Solutions - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-1981044
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: Portfolio Payroll - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-2046269
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

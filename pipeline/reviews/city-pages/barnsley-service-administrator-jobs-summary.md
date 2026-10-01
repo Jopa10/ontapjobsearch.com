@@ -4,7 +4,7 @@
 - Live route: `/barnsley/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,38 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 2
-- automatic exclude: 32
-- effective include: 3
-- effective review: 2
-- effective exclude: 32
+- automatic include: 1
+- automatic review: 0
+- automatic exclude: 26
+- effective include: 1
+- effective review: 0
+- effective exclude: 26
 
-## INCLUDE (3)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Assistant Accountant / Finance Officer
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-1871012
-reason: Approved Barnsley catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Assistant
-company: PRATAP PARTNERSHIP LTD - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-1908708
-reason: Approved Barnsley catchment.
----
+## INCLUDE (1)
 
 ---
 action: 
@@ -60,45 +36,9 @@ job_id: jobg8-1899397
 reason: Approved Barnsley catchment.
 ---
 
-## REVIEW (2)
+## REVIEW (0)
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Officer
-company: Marks Sattin - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-1948871
-reason: No approved Barnsley catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Clerk
-company: PRATAP PARTNERSHIP LTD - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-1933458
-reason: No approved Barnsley catchment rule matched; local review required.
----
-
-## EXCLUDE (32)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Assistant
-company: Sharp Consultancy - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1959767
-reason: Separate employment market.
----
+## EXCLUDE (26)
 
 ---
 action: 
@@ -157,42 +97,6 @@ company: Reed - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-2024835
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Assistant Accountant
-company: Elevation Recruitment Group - Agency - Permanent
-location: Rotherham
-source: JobG8
-job_id: jobg8-1949982
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Assistant Accountant
-company: IPS Group - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1960387
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Assistant Accountant
-company: Reed - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1884402
 reason: Separate employment market.
 ---
 
@@ -260,6 +164,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Clerical Officer/Receptionist
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S5 7AU
+source: NHS Jobs
+job_id: nhs-5634291
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Contact Centre Agent
 company: EE - Company - Permanent
 location: Doncaster
@@ -272,11 +188,23 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Credit Control / Accounts Assistant
+title: Credit Controller
+company: Sharp Consultancy - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2043404
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Credit Controller/Accounts Assistant
 company: Shillito Group - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-1905225
+job_id: jobg8-1881566
 reason: Separate employment market.
 ---
 
@@ -296,18 +224,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: GP Receptionist
-company: Elm Lane & Chapeltown Surgery
-location: Sheffield, S5 7TW, SHEFFIELD, S35 1TD
-source: NHS Jobs
-job_id: nhs-5627333
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: HR Administrator
 company: Sheffield Park Academy
 location: Sheffield
@@ -320,71 +236,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: HR Assistant
+company: Elevation Recruitment Group - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-2046084
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: HR Coordinator
+company: Office Angels - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-1987373
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Insolvency Case Administrator
 company: GGT Insolvency Recruitment - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2014257
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Medical Receptionist
-company: Norwood Medical Centre
-location: Sheffield, S5 7HD
-source: NHS Jobs
-job_id: nhs-5630483
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Part-time Payroll Assistant
-company: Portfolio Payroll - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-1907486
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Purchase Ledger Administrator
-company: Sharp Consultancy - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-1899982
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Purchase Ledger Clerk
-company: Elevation Recruitment Group - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1939350
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Purchase Ledger Controller
-company: PRATAP PARTNERSHIP LTD - Agency - Permanent
-location: Rotherham
-source: JobG8
-job_id: jobg8-1874146
 reason: Separate employment market.
 ---
 
@@ -408,7 +288,7 @@ title: Receptionist
 company: Grenoside Surgery
 location: Sheffield, S35 8NX, Sheffield, S6 1LA
 source: NHS Jobs
-job_id: nhs-5614100
+job_id: nhs-5614236
 reason: Separate employment market.
 ---
 
@@ -417,10 +297,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Receptionist
-company: Grenoside Surgery
-location: Sheffield, S35 8NX, Sheffield, S6 1LA
+company: Sheffield Health Partnership University NHS Foundation Trust
+location: Sheffield, S11 9BJ
 source: NHS Jobs
-job_id: nhs-5614236
+job_id: nhs-5634371
 reason: Separate employment market.
 ---
 

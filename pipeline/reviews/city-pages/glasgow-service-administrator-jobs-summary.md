@@ -4,7 +4,7 @@
 - Live route: `/glasgow/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
+- automatic include: 12
 - automatic review: 2
 - automatic exclude: 0
-- effective include: 10
+- effective include: 12
 - effective review: 2
 - effective exclude: 0
 
-## INCLUDE (10)
+## INCLUDE (12)
 
 ---
 action: 
@@ -64,18 +64,6 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Client Engagement Administrator
-company: Finlink Ltd - Agency - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-1950284
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Contact Centre Agent
 company: EE - Company - Permanent
 location: Glasgow
@@ -88,11 +76,47 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Conveyancing Paralegal
+company: qed legal - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-2041188
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Conveyancing Paralegal / Conveyancer
+company: Additional Resources Ltd - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-1962298
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Customer Service Advisor
 company: EE - Company - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-20279_62718-153faf593eb64b88272f45adeaa28d87
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Family Paralegal
+company: G2 Legal Limited - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-2048211
 reason: Approved conservative Glasgow launch catchment.
 ---
 

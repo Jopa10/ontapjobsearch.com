@@ -4,8 +4,8 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
-- Threshold currently met: yes
+- Effective included jobs: 4
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 2
-- automatic exclude: 24
-- effective include: 6
-- effective review: 2
-- effective exclude: 24
+- automatic include: 4
+- automatic review: 3
+- automatic exclude: 14
+- effective include: 4
+- effective review: 3
+- effective exclude: 14
 
-## INCLUDE (6)
+## INCLUDE (4)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Stretton Church of England Academy
 location: Coventry
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-stretton-church-of-england-academy-coventry-west-midlands
-reason: Approved Coventry catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Assistant Management Accountant
-company: 3 Point Recruitment - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-1912347
 reason: Approved Coventry catchment.
 ---
 
@@ -76,27 +64,27 @@ reason: Approved Coventry catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Payroll Administrator
-company: James Gray Associates - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-1909613
+title: Receptionist
+company: Willenhall Primary Care Centre 1
+location: Coventry, CV3 3DG
+source: NHS Jobs
+job_id: nhs-5632425
 reason: Approved Coventry catchment.
 ---
+
+## REVIEW (3)
 
 ---
 action: 
-decision: include
-automatic_decision: include
-title: Ward Clerk
-company: University Hospitals Coventry and Warwickshire NHS Trust
-location: Coventry, CV2 2DX
-source: NHS Jobs
-job_id: nhs-5616059
-reason: Approved Coventry catchment.
+decision: review
+automatic_decision: review
+title: Finance Clerk / Trainee Accounts Assistant
+company: T2P Recruitment Ltd - Agency - Permanent
+location: Kenilworth
+source: JobG8
+job_id: jobg8-2028358
+reason: No approved Coventry catchment rule matched; local review required.
 ---
-
-## REVIEW (2)
 
 ---
 action: 
@@ -122,19 +110,7 @@ job_id: teaching-vacancies-receptionist-administrator-shipston-high-school
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (24)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Administrator
-company: 3 Point Recruitment - Agency - Permanent
-location: Rugby
-source: JobG8
-job_id: jobg8-1945783
-reason: Separate employment market.
----
+## EXCLUDE (14)
 
 ---
 action: 
@@ -152,11 +128,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Accounts Payable
-company: 3 Point Recruitment - Agency - Permanent
-location: Warwickshire
+title: Accounts Assistant
+company: Macildowie Recruitment and Retention - Agency - Permanent
+location: Rugby
 source: JobG8
-job_id: jobg8-1893508
+job_id: jobg8-2046750
 reason: Separate employment market.
 ---
 
@@ -164,23 +140,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Accounts Payable Clerk
-company: Gleeson Recruitment Group - Agency - Permanent
-location: Warwick
-source: JobG8
-job_id: jobg8-1905974
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Payable Clerk
-company: Trinity House Group - Agency - Permanent
+title: Accounts Assistant
+company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-1891794
+job_id: jobg8-2049443
 reason: Separate employment market.
 ---
 
@@ -193,18 +157,6 @@ company: Oak Wood Primary School
 location: Nuneaton
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-oak-wood-primary-school
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Billing Operations Administrator
-company: Manpower - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-1916505
 reason: Separate employment market.
 ---
 
@@ -260,59 +212,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Customer Service Advisor
-company: RA Bennett - Agency - Permanent
+title: Fundraising & Supporter Care Co-ordinator
+company: Third Solutions - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-1842482
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Finance Administrator
-company: Trinity House Group - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-1913327
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Finance Assistant
-company: Gleeson Recruitment Group - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-1906045
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Finance Assistant
-company: Thefutureworks - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-1895750
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Finance Support Officer
-company: 3 Point Recruitment - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-1868210
+job_id: jobg8-2053812
 reason: Separate employment market.
 ---
 
@@ -332,23 +236,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Immediate Start Accounts Payable Assistant
-company: Mitchell Adam - Agency - Permanent
+title: HR Administrator
+company: Reed Talent Solutions - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-1957746
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Insolvency Administrator Coventry
-company: Ambition Europe Limited - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-1933589
+job_id: jobg8-1979923
 reason: Separate employment market.
 ---
 
@@ -368,23 +260,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Purchase Ledger Clerk
-company: SF Partners - Agency - Permanent
-location: Warwick
-source: JobG8
-job_id: jobg8-1940688
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist / Administration Assistant
-company: Barnardos - Agency - Permanent
+title: Private Client Paralegal
+company: G2 Legal Limited - Agency - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2039993
+job_id: jobg8-2049188
 reason: Separate employment market.
 ---
 
@@ -397,17 +277,5 @@ company: Perfect Placement Uk Ltd - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-1912273
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Trainee Finance Assistant
-company: SF Partners - Agency - Permanent
-location: Warwick
-source: JobG8
-job_id: jobg8-1960335
 reason: Separate employment market.
 ---

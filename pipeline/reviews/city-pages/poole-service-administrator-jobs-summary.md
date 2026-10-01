@@ -4,7 +4,7 @@
 - Live route: `/poole/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 1
+- Effective included jobs: 0
 - Threshold currently met: no
 
 ## How to review
@@ -15,64 +15,16 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
-- automatic review: 24
+- automatic include: 0
+- automatic review: 11
 - automatic exclude: 0
-- effective include: 1
-- effective review: 24
+- effective include: 0
+- effective review: 11
 - effective exclude: 0
 
-## INCLUDE (1)
+## INCLUDE (0)
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Sales Ledger
-company: Reed - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-1898195
-reason: Exact approved Poole workplace.
----
-
-## REVIEW (24)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Rubicon Recruitment - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-1937845
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant Verwood Temporary
-company: Office Angels - Agency - Permanent
-location: Verwood
-source: JobG8
-job_id: jobg8-1877445
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Receivable
-company: Talent Finance Ltd - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-1898268
-reason: No exact Poole workplace matched; local geographic review is required.
----
+## REVIEW (11)
 
 ---
 action: 
@@ -90,35 +42,11 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: Regent's Park Healthcare
-location: Bournemouth, BH7 7DW
-source: NHS Jobs
-job_id: nhs-5596490
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Management Accountant
+title: Bookkeeper
 company: CMA Recruitment Group - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-1867646
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeping & Accounts Clerk
-company: Reed - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-1893830
+job_id: jobg8-1881711
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -131,54 +59,6 @@ company: 360 Recruitment - Agency - Permanent
 location: Wimborne
 source: JobG8
 job_id: jobg8-1885467
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Talent Finance Ltd - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-1898297
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller - 6 month contract
-company: Talent Finance Ltd - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-1891550
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: Adecco - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-1898309
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-1867894
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -222,42 +102,6 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Administrator
-company: Reed - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-1865412
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Administrator
-company: Reed - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-1865413
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Officer
-company: Sheridan Maine - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-1896663
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Purchasing Assistant
 company: Rubicon Recruitment - Agency - Permanent
 location: Dorset
@@ -282,23 +126,11 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist - Bank
-company: Avery Healthcare Group Ltd.
-location: Bournemouth, BH4 9DR
+title: Receptionist
+company: Dorset HealthCare University NHS Foundation Trust
+location: Bournemouth, BH7 6JF
 source: NHS Jobs
-job_id: nhs-5591331
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist/Administrator
-company: South Coast Medical Group
-location: Christchurch, BH23 2FQ
-source: NHS Jobs
-job_id: nhs-5600939
+job_id: nhs-5632763
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

@@ -16,37 +16,25 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 22
+- automatic review: 14
 - automatic exclude: 0
 - effective include: 0
-- effective review: 22
+- effective review: 14
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (22)
+## REVIEW (14)
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Payable
-company: SF Partners - Agency - Permanent
+title: Accounts Assistant
+company: Cherry Professional - Relationship Led Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-1936737
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable Co-ordinator
-company: Mixxos Group - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-1908964
+job_id: jobg8-2049700
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -78,18 +66,6 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Cash Allocation/Credit Control
-company: Gleeson Recruitment Group - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-1907172
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Casualty Claims Handler
 company: Adjusting Appointments Limited - Agency - Permanent
 location: Leicestershire
@@ -114,30 +90,6 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Credit Control
-company: Reed - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-2017641
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Control - interim
-company: Gleeson Recruitment Group - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-1907829
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Depot Coordinator
 company: Whistl - Agency - Permanent
 location: Leicestershire
@@ -150,11 +102,11 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: Macildowie Recruitment and Retention - Agency - Permanent
+title: Financial Services Administrator
+company: North Oak Recruitment Ltd - Agency - Permanent
 location: Leicester
 source: JobG8
-job_id: jobg8-1909307
+job_id: jobg8-1975876
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -162,11 +114,11 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Finance Support Officer - Credit Control
-company: SF Partners - Agency - Permanent
+title: HR Administrator
+company: Aspire People Limited - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-1873852
+job_id: jobg8-1979613
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -179,54 +131,6 @@ company: InMind
 location: Leicester, LE36QR
 source: NHS Jobs
 job_id: nhs-5597537
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: PA to the Principal
-company: Tudor Grange Samworth Academy, A church of England School
-location: Leicester
-source: Teaching Vacancies
-job_id: teaching-vacancies-pa-to-the-principal-tudor-grange-samworth-academy-a-church-of-england-school-leicester-leicestershire
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part Time Accounts Assistant
-company: Macildowie Recruitment and Retention - Agency - Permanent
-location: Leicester
-source: JobG8
-job_id: jobg8-1936448
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Coordinator
-company: Portfolio Payroll - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-1898269
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Officer
-company: Counted Recruitment - Agency - Permanent
-location: Coalville
-source: JobG8
-job_id: jobg8-1938574
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

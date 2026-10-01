@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 21
+- automatic review: 22
 - automatic exclude: 0
 - effective include: 2
-- effective review: 21
+- effective review: 22
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,19 +48,7 @@ job_id: jobg8-1897879
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (21)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant (Part time)
-company: RG Consultancy Ltd - Agency - Permanent
-location: Staffordshire
-source: JobG8
-job_id: jobg8-1928214
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
+## REVIEW (22)
 
 ---
 action: 
@@ -83,18 +71,6 @@ company: North Staffordshire Combined Healthcare Trust
 location: Stoke on Trent, ST1 3NJ
 source: NHS Jobs
 job_id: nhs-5619403
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Staffordshire
-source: JobG8
-job_id: jobg8-1950276
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -126,11 +102,11 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant (Part-Time)
-company: LHH Recruitment Solutions - Agency - Permanent
-location: Uttoxeter
+title: Digital Marketing Manager (Manufacturing / B2B)
+company: Ernest Gordon Recruitment Limited - Agency - Permanent
+location: Staffordshire
 source: JobG8
-job_id: jobg8-1885622
+job_id: jobg8-1981874
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -138,11 +114,23 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: Graduate assistant accountant
-company: SME Graduate Employment Ltd - Agency - Permanent
-location: Staffordshire
+title: Finance Assistant
+company: SF Partners - Agency - Permanent
+location: Tamworth
 source: JobG8
-job_id: jobg8-1895507
+job_id: jobg8-2051869
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Coordinator
+company: SF Partners - Agency - Permanent
+location: Tamworth
+source: JobG8
+job_id: jobg8-1892749
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -198,11 +186,11 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Executive (Events & Customer Engagement)
-company: UBT - Agency - Permanent
-location: Stafford
+title: Marketing Executive
+company: Forward Role - Agency - Permanent
+location: Staffordshire
 source: JobG8
-job_id: jobg8-1928917
+job_id: jobg8-1704748
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -215,6 +203,18 @@ company: Workstreet - Agency - Permanent
 location: Tamworth
 source: JobG8
 job_id: jobg8-1944014
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Manager (B2B)
+company: Jonathan Lee Recruitment - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-1891841
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -246,11 +246,11 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Assistant
-company: Kate+Co - Agency - Permanent
-location: Lichfield
-source: JobG8
-job_id: jobg8-1905742
+title: Receptionist and Admin Assistant
+company: Lift Tamworth
+location: Tamworth
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-and-admin-assistant-lift-tamworth
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -258,11 +258,23 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist and Admin Assistant
-company: Lift Tamworth
+title: Recruitment Coordinator
+company: XPERT RECRUITMENT SOLUTIONS LIMITED - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-2043391
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Senior Media Relations Exec
+company: SF Partners - Agency - Permanent
 location: Tamworth
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-and-admin-assistant-lift-tamworth
+source: JobG8
+job_id: jobg8-1962053
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

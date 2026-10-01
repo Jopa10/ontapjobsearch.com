@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 6
+- automatic review: 5
 - automatic exclude: 0
 - effective include: 6
-- effective review: 6
+- effective review: 5
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -40,11 +40,11 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Assistant Management Accountant
-company: IPS Group - Agency - Permanent
+title: Bookkeeper & Payroll Administrator
+company: Equals One - Agency - Permanent
 location: Hull
 source: JobG8
-job_id: jobg8-1858682
+job_id: jobg8-2022226
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -64,11 +64,11 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Family Support Coordinator
-company: Coram - Agency - Permanent
+title: Family Law Paralegal in Hull
+company: The Ten Percent Group - Agency - Permanent
 location: Hull
 source: JobG8
-job_id: jobg8-1982338
+job_id: jobg8-2028710
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -76,11 +76,11 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Interim Assistant Accountant
-company: Chase and Holland Recruitment Ltd - Agency - Permanent
+title: Family Support Coordinator
+company: Coram - Agency - Permanent
 location: Hull
 source: JobG8
-job_id: jobg8-1873823
+job_id: jobg8-1982338
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -96,7 +96,7 @@ job_id: jobg8-1939826
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (6)
+## REVIEW (5)
 
 ---
 action: 
@@ -126,23 +126,11 @@ reason: No approved Hull catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Part-time Credit Controller - MK108
-company: Adecco - Agency - Permanent
+title: HR Operations Coordinator
+company: Portfolio HR & Reward - Agency - Permanent
 location: Goole
 source: JobG8
-job_id: jobg8-1899369
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Administrator
-company: Si Recruitment - Agency - Permanent
-location: Goole
-source: JobG8
-job_id: jobg8-1874048
+job_id: jobg8-1893147
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

@@ -4,8 +4,8 @@
 - Live route: `/altrincham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
-- Threshold currently met: yes
+- Effective included jobs: 3
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,38 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 6
+- automatic include: 3
+- automatic review: 10
 - automatic exclude: 0
-- effective include: 4
-- effective review: 6
+- effective include: 3
+- effective review: 10
 - effective exclude: 0
 
-## INCLUDE (4)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts and Payroll Assistant
-company: Portfolio Payroll - Agency - Permanent
-location: Altrincham
-source: JobG8
-job_id: jobg8-1892512
-reason: Exact approved Altrincham workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Bankruptcy Administrator
-company: Imperium Financial Recruitment - Agency - Permanent
-location: Altrincham
-source: JobG8
-job_id: jobg8-1869719
-reason: Exact approved Altrincham workplace.
----
+## INCLUDE (3)
 
 ---
 action: 
@@ -64,6 +40,18 @@ reason: Exact approved Altrincham workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Finance assistant - R2R
+company: Robert Walters - Agency - Permanent
+location: Altrincham
+source: JobG8
+job_id: jobg8-2045948
+reason: Exact approved Altrincham workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Plot Sales Paralegal
 company: The Eventus Recruitment Group - Agency - Permanent
 location: Altrincham
@@ -72,41 +60,17 @@ job_id: jobg8-1868509
 reason: Exact approved Altrincham workplace.
 ---
 
-## REVIEW (6)
+## REVIEW (10)
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Assistant - Purchase Ledger & Credit Control
-company: hireful. - Agency - Permanent
-location: Trafford
+title: Digital Marketing Executive (Social Media)
+company: FindCore - Agency - Permanent
+location: Cheadle
 source: JobG8
-job_id: jobg8-1912852
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrative Assistant
-company: Donneybrook Medical Centre
-location: Hyde, SK14 2AH
-source: NHS Jobs
-job_id: nhs-5616557
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Management Accountant
-company: Dot Partners - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-1949350
+job_id: jobg8-1853041
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -138,11 +102,83 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Marketing Manager
+company: Flexible Solutionz - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-1980762
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Specialist - 45k
+company: FindCore - Agency - Permanent
+location: Cheadle
+source: JobG8
+job_id: jobg8-1853051
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Paid Marketing Executive
+company: Zachary Daniels - Agency - Permanent
+location: Cheshire
+source: JobG8
+job_id: jobg8-1977280
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: PERSONAL INJURY PARALEGAL - HYBRID
+company: Maze Recruitment Services Limited - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-2049253
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Property Coordinator
+company: The People Pod - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-2043192
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Reception/Administrator
 company: High Lane Medical Centre
 location: Stockport, SK6 8DR
 source: NHS Jobs
 job_id: nhs-5619136
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Social Media Marketing Executive
+company: FindCore - Agency - Permanent
+location: Cheadle
+source: JobG8
+job_id: jobg8-1853037
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

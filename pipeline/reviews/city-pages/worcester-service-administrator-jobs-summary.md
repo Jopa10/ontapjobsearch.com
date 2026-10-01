@@ -4,7 +4,7 @@
 - Live route: `/worcester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 0
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,40 +15,28 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 0
-- automatic review: 10
+- automatic include: 1
+- automatic review: 6
 - automatic exclude: 0
-- effective include: 0
-- effective review: 10
+- effective include: 1
+- effective review: 6
 - effective exclude: 0
 
-## INCLUDE (0)
-
-## REVIEW (10)
+## INCLUDE (1)
 
 ---
 action: 
-decision: review
-automatic_decision: review
-title: Administration Assistant
-company: Pershore Medical Practice
-location: Pershore, WR10 1PX
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Spring Gardens Group Medical Practice
+location: Worcester, WR1 2BS
 source: NHS Jobs
-job_id: nhs-5623875
-reason: No exact Worcester workplace matched; local geographic review is required.
+job_id: nhs-5633214
+reason: Exact approved Worcester workplace.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Herefordshire and Worcestershire Health and Care NHS Trust
-location: Evesham, WR11 1JT
-source: NHS Jobs
-job_id: nhs-5625179
-reason: No exact Worcester workplace matched; local geographic review is required.
----
+## REVIEW (6)
 
 ---
 action: 
@@ -66,11 +54,11 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Assistant Accountant
-company: Trinity House Group - Agency - Permanent
-location: Worcestershire
+title: Finance Assistant
+company: SF Partners - Agency - Permanent
+location: Pershore
 source: JobG8
-job_id: jobg8-1939043
+job_id: jobg8-2045457
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -78,11 +66,11 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Credit Controller
-company: Four Squared - Agency - Permanent
-location: Worcestershire
+title: Mortgage Administrator
+company: Reed - Agency - Permanent
+location: Bromsgrove
 source: JobG8
-job_id: jobg8-1907859
+job_id: jobg8-1980547
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -107,30 +95,6 @@ company: Davies Group - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-1879674
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part Time Bookkeeper
-company: Four Squared - Agency - Permanent
-location: Worcestershire
-source: JobG8
-job_id: jobg8-1856788
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Administrator
-company: Four Squared - Agency - Permanent
-location: Worcestershire
-source: JobG8
-job_id: jobg8-1891398
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

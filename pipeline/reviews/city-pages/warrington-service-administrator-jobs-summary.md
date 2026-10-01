@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 17
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,48 +15,24 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
-- automatic review: 10
-- automatic exclude: 6
-- effective include: 17
-- effective review: 10
-- effective exclude: 6
+- automatic include: 13
+- automatic review: 8
+- automatic exclude: 5
+- effective include: 13
+- effective review: 8
+- effective exclude: 5
 
-## INCLUDE (17)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Bis Henderson - Agency - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-1906561
-reason: Approved conservative Warrington launch catchment.
----
+## INCLUDE (13)
 
 ---
 action: 
 decision: include
 automatic_decision: include
 title: Accounts Assistant
-company: Reed - Agency - Permanent
+company: Axon Moore Group Ltd - Agency - Permanent
 location: Warrington
 source: JobG8
-job_id: jobg8-1936736
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Bookkeeper
-company: Reed - Agency - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-1911962
+job_id: jobg8-2045461
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -136,18 +112,6 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Credit Controller (12-Month FTC)
-company: Rubax - Agency - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-1903559
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Customer Service Advisor - Uncapped Commission
 company: EE - Company - Permanent
 location: Warrington
@@ -176,7 +140,7 @@ title: Finance Assistant
 company: Adecco - Agency - Permanent
 location: Warrington
 source: JobG8
-job_id: jobg8-1858441
+job_id: jobg8-2039620
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -184,11 +148,11 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Finance Assistant
-company: Reed - Agency - Permanent
+title: Legal Assistant - Private Client
+company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Warrington
 source: JobG8
-job_id: jobg8-1944948
+job_id: jobg8-1977265
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -196,23 +160,11 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Legal Assistant
-company: Law Staff Limited - Agency - Permanent
+title: Payroll Assistant
+company: Michael Page Finance - Agency - Permanent
 location: Warrington
 source: JobG8
-job_id: jobg8-1873432
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Receptionist
-company: High Street Surgery
-location: Warrington, WA3 3GS
-source: NHS Jobs
-job_id: nhs-5543509
+job_id: jobg8-2039790
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -228,7 +180,7 @@ job_id: jobg8-1909662
 reason: Approved conservative Warrington launch catchment.
 ---
 
-## REVIEW (10)
+## REVIEW (8)
 
 ---
 action: 
@@ -306,18 +258,6 @@ reason: No approved Warrington catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Credit Controller
-company: Accountable Recruitment - Agency - Permanent
-location: Widnes
-source: JobG8
-job_id: jobg8-1909831
-reason: No approved Warrington catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Service Advisor - Uncapped Commission
 company: EE - Company - Permanent
 location: Widnes
@@ -338,31 +278,7 @@ job_id: jobg8-20279_62648-872ae37268a541755e97df9c9ced56fa
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Paralegal - Residential & Commercial Property, Commercial Law & Corporate Law
-company: Revolution Recruitment Resources Ltd - Agency - Permanent
-location: Widnes
-source: JobG8
-job_id: jobg8-1857293
-reason: No approved Warrington catchment rule matched; local review required.
----
-
-## EXCLUDE (6)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Payable Administrator
-company: RG Consultancy Ltd - Agency - Permanent
-location: Runcorn
-source: JobG8
-job_id: jobg8-1908576
-reason: Separate employment market.
----
+## EXCLUDE (5)
 
 ---
 action: 
@@ -416,10 +332,10 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Finance Assistant
-company: Michael Page Finance - Agency - Permanent
+title: Payroll Administrator
+company: Portfolio Payroll - Agency - Permanent
 location: Runcorn
 source: JobG8
-job_id: jobg8-1859491
+job_id: jobg8-2039669
 reason: Separate employment market.
 ---

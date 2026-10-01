@@ -4,8 +4,8 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
-- Threshold currently met: yes
+- Effective included jobs: 5
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,50 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 14
-- automatic exclude: 15
-- effective include: 9
-- effective review: 14
-- effective exclude: 15
+- automatic include: 5
+- automatic review: 10
+- automatic exclude: 10
+- effective include: 5
+- effective review: 10
+- effective exclude: 10
 
-## INCLUDE (9)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Robert Half - Agency - Permanent
-location: Oxford
-source: JobG8
-job_id: jobg8-1949577
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: The Employment Network - Agency - Permanent
-location: Oxford
-source: JobG8
-job_id: jobg8-1939329
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Receivable Clerk
-company: Page Group - Agency - Permanent
-location: Oxford
-source: JobG8
-job_id: jobg8-1859215
-reason: Approved conservative Oxford launch catchment.
----
+## INCLUDE (5)
 
 ---
 action: 
@@ -81,18 +45,6 @@ company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Oxford
 source: JobG8
 job_id: jobg8-1914753
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Data Insights and Examinations Officer
-company: Orion Academy
-location: Oxford
-source: Teaching Vacancies
-job_id: teaching-vacancies-data-insights-and-examinations-officer-orion-academy
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -132,31 +84,7 @@ job_id: nhs-5620012
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (14)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: FryerMiles - Agency - Permanent
-location: Wantage
-source: JobG8
-job_id: jobg8-1914683
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administration Assistant
-company: Herefordshire and Worcestershire Health and Care NHS Trust
-location: Burford, Tenbury Wells, WR15 8AP
-source: NHS Jobs
-job_id: nhs-5604262
-reason: No approved Oxford catchment rule matched; local review required.
----
+## REVIEW (10)
 
 ---
 action: 
@@ -198,11 +126,11 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Attendance Administrator
-company: Blessed George Napier Catholic School and Sixth Form
-location: Banbury
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-administrator-blessed-george-napier-catholic-school-and-sixth-form
+title: Assistant Management Accountant
+company: Thomas Franks Ltd - Agency - Permanent
+location: Hook Norton
+source: JobG8
+job_id: jobg8-2043202
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -210,11 +138,11 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Bookkeeper
-company: K2 Recruitment - Agency - Permanent
-location: Bicester
-source: JobG8
-job_id: jobg8-1959288
+title: Attendance Administrator
+company: Blessed George Napier Catholic School and Sixth Form
+location: Banbury
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-administrator-blessed-george-napier-catholic-school-and-sixth-form
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -234,35 +162,11 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Junior Finance Assistant
-company: Michael Page Finance - Agency - Permanent
-location: Kidlington
-source: JobG8
-job_id: jobg8-1857779
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Legal Assistant - Conveyancing
 company: Berry Recruitment - Agency - Permanent
 location: Wantage
 source: JobG8
 job_id: jobg8-1895931
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Officer
-company: Wade Macdonald - Agency - Permanent
-location: Didcot
-source: JobG8
-job_id: jobg8-1916299
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -302,19 +206,7 @@ job_id: teaching-vacancies-student-services-administrator-larkmead-school
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (15)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Assistant
-company: Savant Recruitment - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-1909766
-reason: Broad county location; not Oxford-city evidence.
----
+## EXCLUDE (10)
 
 ---
 action: 
@@ -324,19 +216,7 @@ title: Bookkeeper
 company: Michael Page Finance - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-1877483
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Bookkeeper / Management Accountant
-company: Curtis Recruitment - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-1956485
+job_id: jobg8-2028361
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -368,47 +248,11 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Digital Marketing Executive
-company: Michael Page Business Support - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-1940167
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Digital Marketing Executive, Meta Ads, Google Ads, Oxford, COR7681
 company: Corriculo Ltd - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-1883696
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Finance Administrator
-company: UCCF The Christian Unions - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-2046642
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Finance Officer - Receivables
-company: Reed - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-1857288
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -440,6 +284,18 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Management Accountant/Bookkeeper
+company: Ambition Europe Limited - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-2049838
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Marketing Executive
 company: Plus One Recruitment - Agency - Permanent
 location: Oxfordshire
@@ -456,19 +312,7 @@ title: Payroll Administrator
 company: Portfolio Payroll - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-1874059
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Purchase Ledger Administrator
-company: Rise Technical Recruitment Limited - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-1875123
+job_id: jobg8-1886004
 reason: Broad county location; not Oxford-city evidence.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,36 +15,24 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 10
-- automatic exclude: 14
-- effective include: 11
-- effective review: 10
-- effective exclude: 14
+- automatic include: 9
+- automatic review: 13
+- automatic exclude: 9
+- effective include: 9
+- effective review: 13
+- effective exclude: 9
 
-## INCLUDE (11)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Administrator
-company: Capital Outsourcing Group Ltd - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-1907580
-reason: Approved York catchment.
----
+## INCLUDE (9)
 
 ---
 action: 
 decision: include
 automatic_decision: include
-title: Accounts Assistant 20 hrs Part time
-company: KD Recruitment Limited - Agency - Permanent
+title: 2x People Services Administrator
+company: Brook Street - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-1857674
+job_id: jobg8-1986354
 reason: Approved York catchment.
 ---
 
@@ -64,35 +52,23 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Commercial Property Legal Secretary/Assistant - York
-company: qed legal - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-1871047
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Commercial Property Paralegal Commercial Property Transactions Malton / York
-company: qed legal - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-1873947
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Corporate/Commercial Legal Secretary/Assistant - York
 company: qed legal - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-1911811
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Legal Secretary/Paralegal - Commercial Property
+company: Reed - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-1885750
 reason: Approved York catchment.
 ---
 
@@ -112,6 +88,18 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Legal Secretary/Paralegal - Residential Conveyancing
+company: Reed - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-1885743
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Medical Receptionist
 company: Unity Health
 location: York, YO10 5LA, York, YO10 4DU
@@ -124,23 +112,11 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Paralegal
-company: Reed - Agency - Permanent
+title: Paralegal - Family
+company: Capital Outsourcing Group Ltd - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-1874079
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Residential Property Legal Secretary / Assistant - York
-company: qed legal - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-1871003
+job_id: jobg8-2046307
 reason: Approved York catchment.
 ---
 
@@ -156,17 +132,17 @@ job_id: jobg8-2021380
 reason: Approved York catchment.
 ---
 
-## REVIEW (10)
+## REVIEW (13)
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Client Accounts Assistant
-company: Property Personnel - Agency - Permanent
-location: Richmond
+title: Credit Controller
+company: Get Recruited (UK) Ltd - Agency - Permanent
+location: Catterick Garrison
 source: JobG8
-job_id: jobg8-1869341
+job_id: jobg8-2053052
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -175,10 +151,46 @@ action:
 decision: review
 automatic_decision: review
 title: Credit Controller
-company: Michael Page Finance - Agency - Permanent
-location: Richmond
+company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
+location: Ripon
 source: JobG8
-job_id: jobg8-1939806
+job_id: jobg8-2048426
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Ripon Farm Services - Agency - Permanent
+location: Ripon
+source: JobG8
+job_id: jobg8-2043051
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Si Recruitment - Agency - Permanent
+location: Catterick Garrison
+source: JobG8
+job_id: jobg8-2051167
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller, Ripon
+company: Si Recruitment - Agency - Permanent
+location: Ripon
+source: JobG8
+job_id: jobg8-2048214
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -191,18 +203,6 @@ company: MTrec Recruitment - Agency - Permanent
 location: Bedale
 source: JobG8
 job_id: jobg8-1888842
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Interim Finance Administrator
-company: KD Recruitment Limited - Agency - Permanent
-location: Filey
-source: JobG8
-job_id: jobg8-1950790
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -234,11 +234,11 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Lifestyle Co-ordinator
-company: Care UK - Company - Permanent
-location: Whitby
+title: Legal Secretary/Paralegal - Private Client
+company: Reed - Agency - Permanent
+location: Malton
 source: JobG8
-job_id: jobg8-107871574
+job_id: jobg8-1885742
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -270,6 +270,18 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Probate & Wills Legal Secretary - Malton, Yorkshire
+company: qed legal - Agency - Permanent
+location: Malton
+source: JobG8
+job_id: jobg8-2050560
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist/Administrator
 company: Ripon Spa Surgery
 location: Ripon, HG4 2BE
@@ -278,29 +290,17 @@ job_id: nhs-5611094
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (14)
+## EXCLUDE (9)
 
 ---
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Client Administrator - Financial Services
-company: Reed - Agency - Permanent
-location: Northallerton
+title: Bookkeeper
+company: Si Recruitment - Agency - Permanent
+location: Harrogate
 source: JobG8
-job_id: jobg8-1868543
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Client Engagement Administrator
-company: Finlink Ltd - Agency - Permanent
-location: Northallerton
-source: JobG8
-job_id: jobg8-1950236
+job_id: jobg8-2048296
 reason: Separate employment market.
 ---
 
@@ -368,23 +368,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Finance Administrator
-company: Marks Sattin - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-1945785
-reason: Broad regional label; not York-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Finance Assistant
-company: IPS Group - Agency - Permanent
+company: HW Finance - Agency - Permanent
 location: Harrogate
 source: JobG8
-job_id: jobg8-1910220
+job_id: jobg8-1882896
 reason: Separate employment market.
 ---
 
@@ -392,47 +380,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Interim Finance Assistant
-company: Marks Sattin - Agency - Permanent
+title: Legal Secretary
+company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Harrogate
 source: JobG8
-job_id: jobg8-1905167
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Payroll Administrator
-company: Portfolio Payroll - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-1892503
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Payroll Clerk
-company: Reed - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-1908699
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Payroll Coordinator
-company: Reed - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-1867235
+job_id: jobg8-1982430
 reason: Separate employment market.
 ---
 
