@@ -1,23 +1,25 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-27T16:30:00+01:00",
+  "generated_at": "2026-10-01T18:23:27+01:00",
   "source": "Teaching Vacancies",
   "region": "Bedfordshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-27",
-  "review_fingerprint": "775a435c032c64a804d6631d0ede58c29704362e7c94a7c8f6773a304576749e",
-  "routing_manifest_sha256": "cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a",
-  "review_csv_sha256": "c9019ce388e03d571e19d2064c0adef3c28e8c1ac8e67b5294de68eb053bd0f1",
-  "summary_md_sha256": "664dda6ec1b54df8290c879ae0423567c8f9ae3ed5aa6f4fb75aa0ef287b2680",
-  "approved_snapshot_sha256": "90d78dd1b3d19bdf234318a2fcf08f1b31c0a6612ba85c8e27a43418103b7bf1",
-  "approved_rows": 6,
+  "review_date": "2026-10-01",
+  "review_fingerprint": "6ea4fbfe657124924f6c6efa56cdd07181e28cce6f173008a66bbaded21779b7",
+  "routing_manifest_sha256": "192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304",
+  "review_csv_sha256": "a369a061dd49855df9df8f913e200c73edf71247ce0ae7cee2bfc20a3bef6c2b",
+  "summary_md_sha256": "3cf0d1b4be4dcd9b3d887efc6b0cecaafad1dd77792fe49ae33077b61b827afc",
+  "approved_snapshot_sha256": "dac99070d26a58f889eacd6fa6783b1d9ce5fec3ab9bd611c63cef873a8fb83a",
+  "approved_rows": 8,
   "approved_job_ids": [
-    "teaching-vacancies-reception-administrator-assistant",
-    "teaching-vacancies-receptionist-finance-assistant",
-    "teaching-vacancies-office-administrator-gamlingay-village-primary",
     "teaching-vacancies-receptionist-administrator-maternity-cover-698a8012-ea64-49ee-8f10-84f9ae723800",
-    "teaching-vacancies-receptionist-clerical-assistant-richmond-hill-school-luton-bedfordshire",
-    "teaching-vacancies-receptionist-administrative-assistant-parkfields-middle-school-dunstable-bedfordshire"
+    "teaching-vacancies-administrative-assistant-receptionist-shefford-lower-school",
+    "teaching-vacancies-receptionist-manshead-church-of-england-academy",
+    "teaching-vacancies-receptionist-administrative-assistant-parkfields-middle-school-dunstable-bedfordshire",
+    "teaching-vacancies-attendance-officer-putteridge-high-school",
+    "teaching-vacancies-attendance-officer-5c4746af-e5b9-4134-b7ab-8d54523d4fae",
+    "teaching-vacancies-hr-administrator-d2f90df6-89af-4919-b35e-a47a1e5bf7df",
+    "teaching-vacancies-pa-to-slt-and-admissions-administrator"
   ]
 }

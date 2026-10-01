@@ -1,23 +1,25 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-27T16:30:01+01:00",
+  "generated_at": "2026-10-01T18:23:28+01:00",
   "source": "Teaching Vacancies",
   "region": "Berkshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-27",
-  "review_fingerprint": "04fa2ada518eeaccfc9dad9a9dc298aff726b9e15c1ccdd4b4d4235d05e2acfd",
-  "routing_manifest_sha256": "cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a",
-  "review_csv_sha256": "becef91f232c1bd8191931fe3246d672955cd57f8f195bd9f761b9bed822829b",
-  "summary_md_sha256": "e3299636cb32f2a1167c64715267fd89d547161be593bf598c6273b8f08f96c6",
-  "approved_snapshot_sha256": "3a6f98512a1bb151771b1c2d078f6c5a86d5fc716b1053b3d172a490b317fd9c",
-  "approved_rows": 6,
+  "review_date": "2026-10-01",
+  "review_fingerprint": "3ccbaf25ef40f8519689631f261d0e32db864251bf7586cc8009defdf1d05f59",
+  "routing_manifest_sha256": "192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304",
+  "review_csv_sha256": "5bc7036eb0f2b4743b3daa0ee1be69c0c5a5b1bb4af72214ba2b1d84712baa4f",
+  "summary_md_sha256": "dbd05f7e53c09ea88490c91fdb39bfafeb39bc6e54a06890da92f6dfe99f5581",
+  "approved_snapshot_sha256": "997a28ae0712a96a6da3921e24a40b4e674a58553a0d97b4a2408c1616de17a5",
+  "approved_rows": 8,
   "approved_job_ids": [
-    "teaching-vacancies-safeguarding-administrator-and-student-wellbeing-support",
-    "teaching-vacancies-welfare-assistant-administrator-james-elliman-academy",
     "teaching-vacancies-administrative-assistant-lettings-estates",
+    "teaching-vacancies-receptionist-the-langley-academy-primary",
     "teaching-vacancies-school-administrator-radstock-primary-school-reading-berkshire",
+    "teaching-vacancies-medical-office-assistant",
     "teaching-vacancies-personal-assistant-to-the-headteacher-the-willink-school",
-    "teaching-vacancies-attendance-admissions-administrator-maternity-cover"
+    "teaching-vacancies-attendance-administrative-assistant-491e52ee-e6f5-45d1-a1d1-8677846dcf7e",
+    "teaching-vacancies-attendance-admissions-administrator-maternity-cover",
+    "teaching-vacancies-welfare-assistant-administrator-james-elliman-academy-slough-berkshire"
   ]
 }

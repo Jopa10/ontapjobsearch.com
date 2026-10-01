@@ -21,11 +21,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Townville Academy",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-administrative-assistant-outwood-grange-academies-trust",
@@ -49,11 +45,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Outwood Grange Academies Trust",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-office-administrator-st-oswald-s-church-of-england-primary-academy",
@@ -77,11 +69,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "St Oswald's Church of England Primary Academy",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-pa-to-the-principal-7519",
@@ -105,11 +93,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Valley Academy",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-recruitment-administrator-7575",
@@ -133,11 +117,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Delta Academies Trust",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-data-administrator-the-north-halifax-grammar-school-halifax-west-yorkshire",
@@ -161,11 +141,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "The North Halifax Grammar School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-administration-assistant-993064c2-8d4e-49cd-a144-d8b71360ac51",
@@ -189,11 +165,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Woodkirk Academy",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-deputy-pa-receptionist-bradford-diocesan-academies-trust-bradford-not-recorded",
@@ -217,11 +189,55 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Bradford Diocesan Academies Trust",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
+  },
+  {
+    "job_id": "teaching-vacancies-exams-officer-bradford-forster-academy",
+    "title": "Exams Officer",
+    "company": "Bradford Forster Academy",
+    "location": "Bradford",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "Band 7, SCP 7-11 Actual Salary £18,487 - £19,705",
+    "work_pattern": "",
+    "posted_date": "2026-09-30",
+    "closing_date": "2026-10-12",
+    "closing_datetime": "2026-10-12T09:00:00+01:00",
+    "summary": "Exams Officer with Bradford Forster Academy in Bradford. ['full time']; Band 7, SCP 7-11 Actual Salary £18,487 - £19,705.",
+    "description": "Bradford Forster Academy is recruiting for this vacancy in Bradford.\n\nThe advertised position is Exams Officer.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is Band 7, SCP 7-11 Actual Salary £18,487 - £19,705.\n\nThe stated application deadline is 2026-10-12T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/exams-officer-bradford-forster-academy?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": ""
+  },
+  {
+    "job_id": "teaching-vacancies-leadership-team-administrator-hybrid",
+    "title": "Leadership Team Administrator (Hybrid)",
+    "company": "Moldgreen Community Primary School",
+    "location": "Huddersfield",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['part time', 'temporary']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£30,574 to £32,108",
+    "work_pattern": "",
+    "posted_date": "2026-09-30",
+    "closing_date": "2026-10-14",
+    "closing_datetime": "2026-10-14T12:00:00+01:00",
+    "summary": "Leadership Team Administrator (Hybrid) with Moldgreen Community Primary School in Huddersfield. ['part time', 'temporary']; £30,574 to £32,108.",
+    "description": "Moldgreen Community Primary School is recruiting for this vacancy in Huddersfield.\n\nThe advertised position is Leadership Team Administrator (Hybrid).\n\nThe source lists the employment type as ['part time', 'temporary'].\n\nThe advertised salary or pay scale is £30,574 to £32,108.\n\nThe stated application deadline is 2026-10-14T12:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/leadership-team-administrator-hybrid?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "1945171",

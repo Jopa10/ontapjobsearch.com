@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-school-support-roles-supervisory-assistant-administrative-assistant",
-    "title": "School Support Roles - Supervisory Assistant & Administrative Assistant",
-    "company": "St Peter's Church of England Primary School",
-    "location": "Wallsend",
-    "region": "North East",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time', 'temporary']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "Grade 5 £27,274 - £28,153 per annum pro rata, pay award pending (actual salary £6,312 - £6,516). Grade 2 £25,614 per annum pro rata (actual salary £866 per annum).",
-    "work_pattern": "",
-    "posted_date": "2026-09-16",
-    "closing_date": "2026-10-01",
-    "closing_datetime": "2026-10-01T23:59:00+01:00",
-    "summary": "School Support Roles - Supervisory Assistant & Administrative Assistant with St Peter's Church of England Primary School in Wallsend. ['part time', 'temporary']; Grade 5 £27,274 - £28,153 per annum pro rata, pay award pending (actual salary £6,312 - £6,516). Grade 2 £25,614 per annum pro rata (actual salary £866 per annum)..",
-    "description": "St Peter's Church of England Primary School is recruiting for this vacancy in Wallsend.\n\nThe advertised position is School Support Roles - Supervisory Assistant & Administrative Assistant.\n\nThe source lists the employment type as ['part time', 'temporary'].\n\nThe advertised salary or pay scale is Grade 5 £27,274 - £28,153 per annum pro rata, pay award pending (actual salary £6,312 - £6,516). Grade 2 £25,614 per annum pro rata (actual salary £866 per annum)..\n\nThe stated application deadline is 2026-10-01T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/school-support-roles-supervisory-assistant-administrative-assistant?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "St Peter's Church of England Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-attendance-officer-administrator-bede-academy-blyth-northumberland",
     "title": "Attendance Officer & Administrator",
     "company": "Bede Academy",
@@ -49,11 +21,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Bede Academy",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-hr-payroll-administrator-emmanuel-schools-foundation",
@@ -77,11 +45,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Emmanuel Schools Foundation",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-lead-administrator-harry-watts-academy",
@@ -105,11 +69,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Harry Watts Academy",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-administration-assistant-north-durham-academy",
@@ -122,22 +82,18 @@
     "employment_type": "['part time']",
     "salary_min": "",
     "salary_max": "",
-    "salary_text": "£17,994.00 - £18,372.00 Annually (Actual)",
+    "salary_text": "£17,994.00 - £18,372.00 Annually (Actual) (Pay award pending)",
     "work_pattern": "",
     "posted_date": "2026-09-22",
     "closing_date": "2026-10-06",
     "closing_datetime": "2026-10-06T12:00:00+01:00",
-    "summary": "Administration Assistant with North Durham Academy in Stanley. ['part time']; £17,994.00 - £18,372.00 Annually (Actual).",
-    "description": "North Durham Academy is recruiting for this vacancy in Stanley.\n\nThe advertised position is Administration Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £17,994.00 - £18,372.00 Annually (Actual).\n\nThe stated application deadline is 2026-10-06T12:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "summary": "Administration Assistant with North Durham Academy in Stanley. ['part time']; £17,994.00 - £18,372.00 Annually (Actual) (Pay award pending).",
+    "description": "North Durham Academy is recruiting for this vacancy in Stanley.\n\nThe advertised position is Administration Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £17,994.00 - £18,372.00 Annually (Actual) (Pay award pending).\n\nThe stated application deadline is 2026-10-06T12:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
     "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-north-durham-academy?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "North Durham Academy",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-administration-assistant-st-leonard-s-catholic-primary-school-silksworth",
@@ -150,22 +106,42 @@
     "employment_type": "['part time']",
     "salary_min": "",
     "salary_max": "",
-    "salary_text": "£11,376.94 - £11,555.42 Annually (Actual) Job Evaluation in process",
+    "salary_text": "£11,752.00 Annually (Actual) Scale 1 SCP 3. Pending the outcome of Job Evaluation",
     "work_pattern": "",
     "posted_date": "2026-09-25",
     "closing_date": "2026-10-07",
     "closing_datetime": "2026-10-07T12:00:00+01:00",
-    "summary": "Administration Assistant with St Leonard's Catholic Primary School, Silksworth in Sunderland. ['part time']; £11,376.94 - £11,555.42 Annually (Actual) Job Evaluation in process.",
-    "description": "St Leonard's Catholic Primary School, Silksworth is recruiting for this vacancy in Sunderland.\n\nThe advertised position is Administration Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £11,376.94 - £11,555.42 Annually (Actual) Job Evaluation in process.\n\nThe stated application deadline is 2026-10-07T12:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "summary": "Administration Assistant with St Leonard's Catholic Primary School, Silksworth in Sunderland. ['part time']; £11,752.00 Annually (Actual) Scale 1 SCP 3. Pending the outcome of Job Evaluation.",
+    "description": "St Leonard's Catholic Primary School, Silksworth is recruiting for this vacancy in Sunderland.\n\nThe advertised position is Administration Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £11,752.00 Annually (Actual) Scale 1 SCP 3. Pending the outcome of Job Evaluation.\n\nThe stated application deadline is 2026-10-07T12:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
     "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-st-leonard-s-catholic-primary-school-silksworth?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "St Leonard's Catholic Primary School, Silksworth",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
+  },
+  {
+    "job_id": "teaching-vacancies-school-support-roles-supervisory-assistant-administrative-assistant",
+    "title": "School Support Roles - Supervisory Assistant & Administrative Assistant",
+    "company": "St Peter's Church of England Primary School",
+    "location": "Wallsend",
+    "region": "North East",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['part time', 'temporary']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "Grade 5 £27,274 - £28,153 per annum pro rata, pay award pending (actual salary £6,312 - £6,516). Grade 2 £25,614 per annum pro rata (actual salary £866 per annum).",
+    "work_pattern": "",
+    "posted_date": "2026-09-16",
+    "closing_date": "2026-10-08",
+    "closing_datetime": "2026-10-08T23:59:00+01:00",
+    "summary": "School Support Roles - Supervisory Assistant & Administrative Assistant with St Peter's Church of England Primary School in Wallsend. ['part time', 'temporary']; Grade 5 £27,274 - £28,153 per annum pro rata, pay award pending (actual salary £6,312 - £6,516). Grade 2 £25,614 per annum pro rata (actual salary £866 per annum)..",
+    "description": "St Peter's Church of England Primary School is recruiting for this vacancy in Wallsend.\n\nThe advertised position is School Support Roles - Supervisory Assistant & Administrative Assistant.\n\nThe source lists the employment type as ['part time', 'temporary'].\n\nThe advertised salary or pay scale is Grade 5 £27,274 - £28,153 per annum pro rata, pay award pending (actual salary £6,312 - £6,516). Grade 2 £25,614 per annum pro rata (actual salary £866 per annum)..\n\nThe stated application deadline is 2026-10-08T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/school-support-roles-supervisory-assistant-administrative-assistant?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-data-management-administrator-2025-hm084",
@@ -189,11 +165,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "East Durham College",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-school-administrator-4b89961d-cc62-4cfa-9732-a8929179b607",
@@ -217,11 +189,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Berwick St Mary's Church of England Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "1927962",

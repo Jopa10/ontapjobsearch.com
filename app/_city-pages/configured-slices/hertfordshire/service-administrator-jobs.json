@@ -22,9 +22,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Larwood School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -50,9 +47,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Watford Grammar School for Girls",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -78,9 +72,31 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Simon Balle All-Through School",
-    "advertiser_type": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-administrator-ludwick-nursery-school",
+    "title": "Administrator",
+    "company": "Ludwick Nursery School",
+    "location": "Welwyn Garden City",
+    "region": "Hertfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['part time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£9,768.00 - £9,768.00 Annually (Actual) TTO",
+    "work_pattern": "",
+    "posted_date": "2026-09-29",
+    "closing_date": "2026-10-11",
+    "closing_datetime": "2026-10-11T23:59:00+01:00",
+    "summary": "Administrator with Ludwick Nursery School in Welwyn Garden City. ['part time']; £9,768.00 - £9,768.00 Annually (Actual) TTO.",
+    "description": "Ludwick Nursery School is recruiting for this vacancy in Welwyn Garden City.\n\nThe advertised position is Administrator.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £9,768.00 - £9,768.00 Annually (Actual) TTO.\n\nThe stated application deadline is 2026-10-11T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administrator-ludwick-nursery-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
     "posted_date_basis": "source"
   },
   {
@@ -106,9 +122,56 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Petersfield CofE Aided Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-office-administrator-forres-primary-academy",
+    "title": "Office Administrator",
+    "company": "Forres Primary Academy",
+    "location": "Hoddesdon",
+    "region": "Hertfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['part time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£23,144.62 Annually (Actual)",
+    "work_pattern": "",
+    "posted_date": "2026-09-29",
+    "closing_date": "2026-10-13",
+    "closing_datetime": "2026-10-13T23:59:00+01:00",
+    "summary": "Office Administrator with Forres Primary Academy in Hoddesdon. ['part time']; £23,144.62 Annually (Actual).",
+    "description": "Forres Primary Academy is recruiting for this vacancy in Hoddesdon.\n\nThe advertised position is Office Administrator.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £23,144.62 Annually (Actual).\n\nThe stated application deadline is 2026-10-13T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/office-administrator-forres-primary-academy?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-attendance-administrator-the-astley-cooper-school-hemel-hempstead-hertfordshire",
+    "title": "Attendance Administrator",
+    "company": "The Astley Cooper School",
+    "location": "Hemel Hempstead",
+    "region": "Hertfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£24,728.00 - £26,748.00 Annually (Actual)",
+    "work_pattern": "",
+    "posted_date": "2026-07-03",
+    "closing_date": "2026-10-23",
+    "closing_datetime": "2026-10-23T09:00:00+01:00",
+    "summary": "Attendance Administrator with The Astley Cooper School in Hemel Hempstead. ['full time']; £24,728.00 - £26,748.00 Annually (Actual).",
+    "description": "The Astley Cooper School is recruiting for this vacancy in Hemel Hempstead.\n\nThe advertised position is Attendance Administrator.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £24,728.00 - £26,748.00 Annually (Actual).\n\nThe stated application deadline is 2026-10-23T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-the-astley-cooper-school-hemel-hempstead-hertfordshire?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
     "posted_date_basis": "source"
   },
   {
@@ -653,6 +716,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0644-26-0008",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -672,6 +738,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0072",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -691,6 +760,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2171",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -710,6 +782,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0405-26-0009",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -729,6 +804,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9361-26-0561",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

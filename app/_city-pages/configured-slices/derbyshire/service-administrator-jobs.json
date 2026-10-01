@@ -22,9 +22,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Heritage High School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -103,6 +100,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "20091_325865",
+    "title": "Administrator",
+    "company": "Outcomes First Group - Company - Permanent",
+    "location": "Derbyshire",
+    "region": "Derbyshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "22160.62",
+    "salary_max": "22160.62",
+    "salary_text": "£22160.62 per year",
+    "posted_date": "2026-10-01",
+    "description": "At OFG we give you time to enjoy those special moments and hobbies outside of work\n\nJob Title: Administrator\nLocation: Bluebank School, Whittington Moor, Derbyshire, S41 8 LQ\nHours: 37.5 hours per week Monday-Friday\nSalary: £22,160.62 per annum (not pro rata)\nContract: Permanent Term Time Only\nStart: October 2026\nUK applicants only - no sponsorship available\n\nAbout the Role\n\nAre you an organised, proactive and people-focused administrator looking for a role where you can make a genuine difference every single day?\n\nWe're looking for an enthusiastic Administrator to join our dedicated team. This is much more than an office role, you'll be the welcoming face of our service, the person who keeps everything running smoothly behind the scenes, and a vital part of creating positive experiences for the children and young people we support.\n\nIf you thrive in a fast-paced environment, enjoy variety and take pride in delivering exceptional support, we'd love to hear from you. The responsibilities below are based on the role profile provided.\n\nWhat You'll Be Doing\n- Providing high-quality, confidential administrative support to managers and colleagues across the service.\n- Acting as the first point of contact, welcoming visitors, managing calls and ensuring a professional and friendly reception experience.\n- Coordinating referrals, admissions, reviews and maintaining accurate records for children and young people.\n- Supporting the organisation and administration of examinations, including GCSEs, BTECs and other qualifications.\n- Assisting with recruitment administration, onboarding processes and maintaining staff records.\n- Managing diaries, meeting arrangements, post, deliveries and electronic access systems.\n- Supporting financial processes including petty cash, invoices, expenses and purchasing activities.\n- Maintaining accurate databases and documentation while ensuring compliance with safeguarding, data protection and regulatory requirements.\n\nAbout You\n\nWe're looking for someone who:\n- Has previous experience in an administrative role and excellent organisational skills.\n- Is a confident communicator with strong written and verbal communication skills.\n- Works effectively both independently and as part of a supportive team.\n- Is competent using IT systems, databases and Microsoft Office applications.\n- Can handle sensitive and confidential information with discretion and professionalism.\n- Is proactive, flexible and able to prioritise tasks while remaining calm under pressure.\n- Is committed to safeguarding, professionalism and achieving the best outcomes for young people.\n- Brings a positive attitude and a willingness to learn and develop within the role.\n\nAbout Bluebank School\n\nBluebank School is an Acorn Education school in Chesterfield, providing specialist education for students aged 11 to 16 with social, emotional and mental health (SEMH) needs and other complex learning needs. We are committed to creating a safe, nurturing and inclusive environment where every student feels valued, supported and encouraged to achieve their full potential.\n\nWith small class sizes, personalised learning programmes and a highly supportive approach, we help students develop the academic, social and life skills they need to succeed. Our tailored curriculum combines National Curriculum learning with a strong focus on emotional wellbeing, resilience, communication and independence.\n\nAt Bluebank School, we believe that every child deserves the opportunity to thrive. We celebrate individuality, build confidence and empower students to overcome challenges, recognise their strengths and achieve meaningful success. Guided by our ethos that everybody is somebody, we work together to ensure every young person feels respected, included and ready for their future.\n\nAt Outcomes First Schools, we provide specialist education for learners who need a deeper level of understanding, expertise and support than mainstream education can typically offer. We support students with a wide range of complex, co-occurring and neurodivergent needs, including autism, ADHD, SEMH, speech and communication needs, dyslexia and experiences of trauma or adversity.\n\nWe are proud to be a part of OFG Education who in 2025 were officially certified as a 'Great Place to Work' for the sixth year running.\n\nWhy Join Us?\n\nWe place students and vulnerable young adults at the heart of everything we do, so every day brings the satisfaction of making a real difference. We are committed to the safeguarding and promoting the welfare of students and young people. All applicants will be subject to social media checks and successful applicants to a fully enhanced DBS.\n- Life Assurance\n- Pension scheme with options to increase contributions\n- \"Your Wellbeing Matters\" - mental health support and physical health checks\n- Flexible Benefits Platform (Vista), including:\n- Health, wellbeing and insurance benefits\n- Hundreds of UK and international discounts\n- Cycle to Work Scheme & Electric Car Purchase Scheme\n- Critical illness cover\n- Family Growth Support, including enhanced maternity/paternity leave and paid fertility treatment support\n\nWe reserve the right to close the vacancy early if we receive a high volume of suitable applications.\n\nOFG Education is committed to carrying out a fair, thorough and efficient recruitment process in line with Keeping Children Safe in Education. Whilst we aim to keep applicants informed throughout, OFG Education does not accept liability for any loss of earnings or other associated costs incurred by applicants as a result of delays or changes in the compliance process. All stages of the compliance process are subject to necessary safeguarding checks and compliance with statutory requirements, which may affect timescales.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?QHpHeWTcrP7ZX%2beTIxZccCzvLdP8VUVgy",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Outcomes First Group",
+    "advertiser_type": "Company",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "23643_225564557",
     "title": "Supply Chain Coordinator",
     "company": "Adecco - Agency - Contract",
@@ -169,6 +191,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2479-26-0004",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

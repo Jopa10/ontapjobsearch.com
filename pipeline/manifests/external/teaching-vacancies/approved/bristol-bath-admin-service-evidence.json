@@ -1,19 +1,18 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-27T16:30:01+01:00",
+  "generated_at": "2026-10-01T18:23:28+01:00",
   "source": "Teaching Vacancies",
   "region": "Bristol & Bath",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-27",
-  "review_fingerprint": "b128a63753fbd2e9674ddf54cbd443ec4599cd8d2f1433774db1a6e8f208c6a2",
-  "routing_manifest_sha256": "cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a",
-  "review_csv_sha256": "53953964cd143543775db8c92b2168c21ced114ee4c8279384255702c9188baf",
-  "summary_md_sha256": "5ebd3f7b6fb69ae8624300be9d8df261d81c9df2521653a992dbb9b5eb84c978",
-  "approved_snapshot_sha256": "89655898f927d916ae62f70bcdccf72c6681986ddd538643bdaed85080878a0f",
-  "approved_rows": 3,
+  "review_date": "2026-10-01",
+  "review_fingerprint": "444474056f7b46305805c7d6a42ff6c05a9db6b68ad9029408d6a0fdb420109f",
+  "routing_manifest_sha256": "192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304",
+  "review_csv_sha256": "cff30d88f1775864e38a12c42a1ce4cf2fadbf60c88f5d62bbb7b8d7ca1b28a5",
+  "summary_md_sha256": "da7fd4bde6ccf11cb73e5d0eb561108e8578f47e03a8456e92b035c58e3de6ae",
+  "approved_snapshot_sha256": "c99954d932988faa5ac01e2fdc4f508825b9c3a26af54775ffba28be1bd78aee",
+  "approved_rows": 2,
   "approved_job_ids": [
-    "teaching-vacancies-administrative-assistant-for-pastoral",
     "teaching-vacancies-administrator-fosse-way-school-bath-somerset",
     "teaching-vacancies-school-administrator-north-star-265"
   ]

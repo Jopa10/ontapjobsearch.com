@@ -1,5 +1,30 @@
 [
   {
+    "job_id": "teaching-vacancies-pa-to-leadership-team-83fa491b-26bc-45d1-a318-ca6280f814e2",
+    "title": "PA to Leadership Team",
+    "company": "The Bishop of Winchester Academy",
+    "location": "Bournemouth",
+    "region": "Dorset",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "Full time, Term Time Only plus two weeks contract (41 weeks per annum) . Actual - £26,466.48 (The Full Time Equivalent is £30,078).",
+    "work_pattern": "",
+    "posted_date": "2026-09-09",
+    "closing_date": "2026-10-12",
+    "closing_datetime": "2026-10-12T23:59:00+01:00",
+    "summary": "PA to Leadership Team with The Bishop of Winchester Academy in Bournemouth. ['full time']; Full time, Term Time Only plus two weeks contract (41 weeks per annum) . Actual - £26,466.48 (The Full Time Equivalent is £30,078)..",
+    "description": "The Bishop of Winchester Academy is recruiting for this vacancy in Bournemouth.\n\nThe advertised position is PA to Leadership Team.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is Full time, Term Time Only plus two weeks contract (41 weeks per annum) . Actual - £26,466.48 (The Full Time Equivalent is £30,078)..\n\nThe stated application deadline is 2026-10-12T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/pa-to-leadership-team-83fa491b-26bc-45d1-a318-ca6280f814e2?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "1957010",
     "title": "HR Administrator",
     "company": "Resource Recruitment - Agency - Permanent",
@@ -225,6 +250,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "108024705",
+    "title": "Activities Coordinator",
+    "company": "Agincare Group - Agency - Permanent",
+    "location": "Dorset",
+    "region": "Dorset",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "12000",
+    "salary_max": "12000",
+    "salary_text": "£12000 per year",
+    "posted_date": "2026-10-01",
+    "description": "Package Description: Bring Your Creativity to Work as an Activities Coordinator at Cheriton care home\n\nAre you looking for a rewarding career where you cantruly make a difference?\nDo you love bringing joy to others, designing fun activities and lighting up a room with your personality?\n\nWhether you're brand new to care or just searching for an exciting new challenge, this is your chance to shine click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?QHpHeWTcrP68njqnTxSQpzAz7Xlpsm%2fyy",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Agincare Group",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "nhs-5632763",
     "source": "NHS Jobs",
     "title": "Receptionist",
@@ -241,6 +291,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-1039",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -260,6 +313,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9153-26-0827",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

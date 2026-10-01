@@ -1,18 +1,18 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-27T16:30:08+01:00",
+  "generated_at": "2026-10-01T18:23:34+01:00",
   "source": "Teaching Vacancies",
   "region": "Yorkshire - North",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-27",
-  "review_fingerprint": "b2f4e62f6b352928a3f38ee4b779eff2a0604a7b85b228127863e896d39fee93",
-  "routing_manifest_sha256": "cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a",
-  "review_csv_sha256": "cfca1f9cbc205912df071886bec9799f91b7e1805cd753c4e4e88526a42b0d68",
-  "summary_md_sha256": "440544c72c1f4a3ca55643f47ac3369430c5bb0dec9ebf9153445221ff8f39b3",
-  "approved_snapshot_sha256": "243b06441b9a276d87b2d2afaee7f2a842f8624d7b244ea6e6e1fe275b8de246",
+  "review_date": "2026-10-01",
+  "review_fingerprint": "ee2541657b7287b5c0d9f7d063aeb447229fd3f2b7fccc62112a09606590743f",
+  "routing_manifest_sha256": "192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304",
+  "review_csv_sha256": "f641699a0c233c59941cc7da9a84217ef59b0f60dfab8c07c5c128b1d2fc8d24",
+  "summary_md_sha256": "624fec1b7178be9672395a162c3d91187ece8559145d2f05c20b15b5872d20ad",
+  "approved_snapshot_sha256": "916449a612a0ff664cf25147d91936290971f7e508e7887f4646598349d8dc6f",
   "approved_rows": 1,
   "approved_job_ids": [
-    "teaching-vacancies-attendance-administrator-archbishop-holgate-s-school-a-church-of-england-academy"
+    "teaching-vacancies-administration-assistant-gladstone-road-primary-school-scarborough-north-yorkshire"
   ]
 }

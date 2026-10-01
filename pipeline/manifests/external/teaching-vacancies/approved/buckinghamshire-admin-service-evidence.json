@@ -1,24 +1,23 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-09-27T16:30:01+01:00",
+  "generated_at": "2026-10-01T18:23:28+01:00",
   "source": "Teaching Vacancies",
   "region": "Buckinghamshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-09-27",
-  "review_fingerprint": "65cefee6e83caf8539df62fc8be1b6d016264ecbf77c97aab259add64da4ee9d",
-  "routing_manifest_sha256": "cb9eaefdc736fc2b3141318e4b189c8310cb980f410d8ef0631b02c3ca38f03a",
-  "review_csv_sha256": "72d07242c3c11d2e7d1a51806435acbf24b5e7d5e3a2cd52c9abdeac203e9e6c",
-  "summary_md_sha256": "9d1ca5bed0d97f11fe65e778b94f85109556332c9ae4e58755bb1daa2e34f5a5",
-  "approved_snapshot_sha256": "95f0f03013e97a35c034833c700e93009482f432831b2aa3e6fe650b8f6606f4",
-  "approved_rows": 7,
+  "review_date": "2026-10-01",
+  "review_fingerprint": "e5be673c6d4794544431f25a95a3eeab5efe7dcbb6db982989e7898286e8585e",
+  "routing_manifest_sha256": "192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304",
+  "review_csv_sha256": "27506f7adfa9319d719e41df6f8ca136bec672040d9071b52fca92a42efda20a",
+  "summary_md_sha256": "929d6adee94005ea929b6a5d3f1bbed76e96977731f849401468f116a3b1c3f3",
+  "approved_snapshot_sha256": "b575fd53acc1cbd7df3a4e66bf5417228de7742d4d8d7f3c5f235a0403811f8c",
+  "approved_rows": 6,
   "approved_job_ids": [
-    "teaching-vacancies-school-administrator-chiltern-way-academy-trust",
     "teaching-vacancies-academy-administrator-chepping-view-primary-academy-high-wycombe-buckinghamshire",
     "teaching-vacancies-morning-receptionist-maternity-cover",
-    "teaching-vacancies-arc-administrator",
     "teaching-vacancies-office-administrator-cf621f03-1b81-4970-86af-5e6e0d675eec",
     "teaching-vacancies-receptionist-stephenson-academy",
-    "teaching-vacancies-sen-administrator-chiltern-way-academy-trust"
+    "teaching-vacancies-sen-administrator-chiltern-way-academy-trust",
+    "teaching-vacancies-admin-assistant-padbury-church-of-england-school-buckingham-buckinghamshire"
   ]
 }
