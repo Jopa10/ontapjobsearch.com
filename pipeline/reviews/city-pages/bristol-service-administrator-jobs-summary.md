@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 28
+- Effective included jobs: 27
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 28
-- automatic review: 8
+- automatic include: 27
+- automatic review: 6
 - automatic exclude: 6
-- effective include: 28
-- effective review: 8
+- effective include: 27
+- effective review: 6
 - effective exclude: 6
 
-## INCLUDE (28)
+## INCLUDE (27)
 
 ---
 action: 
@@ -244,11 +244,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Recruitment Administrator
-company: Reed - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-1988015
+title: Practice Receptionist
+company: West View Surgery
+location: Bristol, BS31 1BX
+source: NHS Jobs
+job_id: nhs-5635693
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -256,11 +256,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Remote Conveyancing Paralegal
-company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
+title: Recruitment Administrator
+company: Reed - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-1884435
+job_id: jobg8-2057330
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -273,18 +273,6 @@ company: North Star 265°
 location: Bristol
 source: Teaching Vacancies
 job_id: teaching-vacancies-school-administrator-north-star-265
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Senior Administrator
-company: Sirona care & health CIC
-location: Henbury, Bristol, BS10 7EH
-source: NHS Jobs
-job_id: nhs-5593198
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -360,7 +348,7 @@ job_id: jobg8-1981180
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (8)
+## REVIEW (6)
 
 ---
 action: 
@@ -431,30 +419,6 @@ company: Signature Recruitment Limited - Agency - Permanent
 location: Somerset
 source: JobG8
 job_id: jobg8-1868291
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Manager
-company: ADLIB - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-1891471
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-2048014
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 

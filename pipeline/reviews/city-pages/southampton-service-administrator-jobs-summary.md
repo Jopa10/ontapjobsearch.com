@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 28
+- automatic review: 31
 - automatic exclude: 15
 - effective include: 6
-- effective review: 28
+- effective review: 31
 - effective exclude: 15
 
 ## INCLUDE (6)
@@ -96,19 +96,7 @@ job_id: nhs-5624270
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (28)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Accountancy Action - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2043232
-reason: Broad location; review before city inclusion.
----
+## REVIEW (31)
 
 ---
 action: 
@@ -167,6 +155,30 @@ company: The Niche Partnership - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-2050139
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Client Servicing Coordinator
+company: de Mellow & Co Financial Planning - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-357999054771820953637340
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Client Servicing Coordinator
+company: de Mellow & Co Financial Planning - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-357999054771820953637341
 reason: Broad location; review before city inclusion.
 ---
 
@@ -239,6 +251,18 @@ company: HighPoint - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-1935606
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Administrator
+company: Reed - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2055352
 reason: Broad location; review before city inclusion.
 ---
 
@@ -335,6 +359,18 @@ company: Rise Technical Recruitment Limited - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-2012754
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: Accountability Recruitment - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2056786
 reason: Broad location; review before city inclusion.
 ---
 
@@ -524,11 +560,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: HR coordinator
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Basingstoke
+title: HR Assistant
+company: Reed - Agency - Permanent
+location: Portsmouth
 source: JobG8
-job_id: jobg8-1848405
+job_id: jobg8-2057207
 reason: Separate employment market.
 ---
 

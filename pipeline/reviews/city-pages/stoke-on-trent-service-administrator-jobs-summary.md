@@ -4,8 +4,8 @@
 - Live route: `/stoke-on-trent/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
-- Threshold currently met: no
+- Effective included jobs: 4
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 22
+- automatic include: 4
+- automatic review: 23
 - automatic exclude: 0
-- effective include: 2
-- effective review: 22
+- effective include: 4
+- effective review: 23
 - effective exclude: 0
 
-## INCLUDE (2)
+## INCLUDE (4)
 
 ---
 action: 
@@ -40,6 +40,30 @@ reason: Exact approved Stoke-on-trent workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Curriculum/Data Administrator
+company: St Margaret Ward Catholic Academy
+location: Stoke-on-Trent
+source: Teaching Vacancies
+job_id: teaching-vacancies-curriculum-data-administrator
+reason: Exact approved Stoke-on-trent workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Examinations Officer
+company: Blythe Bridge High School
+location: Stoke-on-Trent
+source: Teaching Vacancies
+job_id: teaching-vacancies-examinations-officer-blythe-bridge-high-school
+reason: Exact approved Stoke-on-trent workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: HR Assistant
 company: GXO Logistics - Company - Permanent
 location: Stoke-On-Trent
@@ -48,19 +72,7 @@ job_id: jobg8-1897879
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (22)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Midlands Partnership NHS Foundation Trust
-location: Burslem, Stoke-on-Trent, ST6 7AG
-source: NHS Jobs
-job_id: nhs-5609313
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
+## REVIEW (23)
 
 ---
 action: 
@@ -95,6 +107,18 @@ company: Adjusting Appointments Limited - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-1906599
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customs Administrator
+company: Outsource - Agency - Contract
+location: Stafford
+source: JobG8
+job_id: jobg8-108061323
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -239,6 +263,18 @@ company: Winner Recruitment - Agency - Temporary
 location: Cannock
 source: JobG8
 job_id: jobg8-108003800
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: University Hospital of North Midlands NHS Trust
+location: Stafford, ST163SA
+source: NHS Jobs
+job_id: nhs-5632642
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 14
-- automatic review: 60
+- automatic review: 66
 - automatic exclude: 0
 - effective include: 14
-- effective review: 60
+- effective review: 66
 - effective exclude: 0
 
 ## INCLUDE (14)
@@ -192,17 +192,17 @@ job_id: jobg8-1956210
 reason: Exact approved Chelmsford workplace.
 ---
 
-## REVIEW (60)
+## REVIEW (66)
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Academy Administrator
-company: Belfairs Academy
-location: Leigh-on-Sea
-source: Teaching Vacancies
-job_id: teaching-vacancies-academy-administrator-belfairs-academy
+title: Accounts Administrator
+company: Reed - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-2056509
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -259,6 +259,18 @@ action:
 decision: review
 automatic_decision: review
 title: Administration Assistant
+company: East Suffolk and North Essex NHS Foundation Trust
+location: Colchester, CO4 5LJ
+source: NHS Jobs
+job_id: nhs-5623477
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Assistant
 company: Essex Partnership University NHS Foundation Trust
 location: Grays, Essex, RM16 2PX
 source: NHS Jobs
@@ -287,6 +299,18 @@ company: Great Totham Primary School
 location: Maldon
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-great-totham-primary-school
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Assistant
+company: St Nicholas School
+location: Southend-on-Sea
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-d4c71f58-82f8-447e-966b-f065379eaa99
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -486,6 +510,18 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Credit Controller
+company: Rutherford Briant - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-2056732
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Digital Marketing and CRM Specialist (Hubspot)
 company: Brand Recruitment - Agency - Permanent
 location: Essex
@@ -515,30 +551,6 @@ company: A1 Personnel Employment Agency Ltd - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-1852104
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR & Payroll Administrator
-company: Pursuit Resources Group - Agency - Permanent
-location: Colchester
-source: JobG8
-job_id: jobg8-2028922
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR & Payroll Assistant
-company: Casanovas Recruitment Solutions - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-1847904
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -702,18 +714,6 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Part-Time Bookkeeper
-company: Cottrell Moore Ltd - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-2051884
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Performance Marketing Manager
 company: Peregrine Livefoods Ltd - Agency - Permanent
 location: Essex
@@ -726,11 +726,47 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Performance Marketing Manager
+company: Peregrine Livefoods Ltd - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-715286127875771596837340
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Private Client Fee Earner/ Paralegal - Flexible Working
 company: Reed - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-1938449
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Property Inspections Team Coordinator
+company: Recruitment Solutions for Business (UK) Ltd - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-414872248919261184037340
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Property Inspections Team Coordinator
+company: Recruitment Solutions for Business (UK) Ltd - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-414872248919261184037341
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -755,6 +791,18 @@ company: Angel Lane Surgery
 location: Essex, CM6 1AQ
 source: NHS Jobs
 job_id: nhs-5288592
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Little Thurrock Primary School
+location: Grays
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-little-thurrock-primary-school
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -791,6 +839,30 @@ company: REED - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-1938377
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
+company: Cibosano Ltd - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-745249606439062732837340
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
+company: Cibosano Ltd - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-745249606439062732837341
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -886,7 +958,7 @@ title: Vehicle Administrator
 company: Reed - Agency - Permanent
 location: Stansted
 source: JobG8
-job_id: jobg8-1859688
+job_id: jobg8-2057165
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

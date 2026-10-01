@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 49
+- automatic review: 53
 - automatic exclude: 0
 - effective include: 2
-- effective review: 49
+- effective review: 53
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: jobg8-2044937
 reason: Exact approved Ashford workplace.
 ---
 
-## REVIEW (49)
+## REVIEW (53)
 
 ---
 action: 
@@ -66,11 +66,47 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Admin Assistant
+company: Gordons Children's Academy, Junior
+location: Rochester
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-assistant-gordons-children-s-academy-junior
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administration Assistant
 company: Northgate Medical Practice
 location: Canterbury, CT1 1WL
 source: NHS Jobs
 job_id: nhs-5612839
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Kent and Medway Mental Health NHS Trust
+location: Gillingham, ME7 1AL
+source: NHS Jobs
+job_id: nhs-5635005
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Kent and Medway Mental Health NHS Trust
+location: Maidstone, ME16 9QQ
+source: NHS Jobs
+job_id: nhs-5635869
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -95,6 +131,18 @@ company: Penguin Recruitment Ltd - Agency - Permanent
 location: Maidstone
 source: JobG8
 job_id: jobg8-2052913
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Billings coordinator
+company: Julie Rose Recruitment - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2056739
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -287,6 +335,18 @@ company: Earl Street Employment Consultants Ltd - Agency - Permanent
 location: Dartford
 source: JobG8
 job_id: jobg8-1875398
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Administrator
+company: Huntress - Agency - Permanent
+location: Dartford
+source: JobG8
+job_id: jobg8-2057135
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -527,18 +587,6 @@ company: Parkwood Hall Academy Trust
 location: Swanley
 source: Teaching Vacancies
 job_id: teaching-vacancies-pupil-records-administrator-parkwood-hall-academy-trust-swanley-kent
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase ledger clerk
-company: Michael Page Finance - Agency - Permanent
-location: Maidstone
-source: JobG8
-job_id: jobg8-2039706
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 

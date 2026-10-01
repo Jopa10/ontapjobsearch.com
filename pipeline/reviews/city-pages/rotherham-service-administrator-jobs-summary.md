@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 27
+- automatic review: 31
 - automatic exclude: 0
 - effective include: 0
-- effective review: 27
+- effective review: 31
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (27)
+## REVIEW (31)
 
 ---
 action: 
@@ -59,6 +59,18 @@ company: Totley All Saints Church of England Voluntary Aided Primary School
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-assistant-part-time-18-hrs
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin Support - Receptionist
+company: South Axholme Academy
+location: Doncaster
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-support-receptionist-south-axholme-academy
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -274,6 +286,18 @@ title: Receptionist
 company: Grenoside Surgery
 location: Sheffield, S35 8NX, Sheffield, S6 1LA
 source: NHS Jobs
+job_id: nhs-5614100
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Grenoside Surgery
+location: Sheffield, S35 8NX, Sheffield, S6 1LA
+source: NHS Jobs
 job_id: nhs-5614236
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
@@ -287,6 +311,18 @@ company: Sheffield Health Partnership University NHS Foundation Trust
 location: Sheffield, S11 9BJ
 source: NHS Jobs
 job_id: nhs-5634371
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Stocksbridge Junior School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-stocksbridge-junior-school
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -342,11 +378,23 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Remote Conveyancing Paralegal
-company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
+title: SCITT Administrator
+company: Chorus Education Trust
 location: Sheffield
-source: JobG8
-job_id: jobg8-1884424
+source: Teaching Vacancies
+job_id: teaching-vacancies-scitt-administrator-chorus-education-trust
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Admin Assistant at Kiveton Park Infant School
+company: Kiveton Park Infant School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-temporary-admin-assistant-at-kiveton-park-infant-school
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

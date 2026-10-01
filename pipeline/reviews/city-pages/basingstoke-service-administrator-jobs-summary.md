@@ -4,7 +4,7 @@
 - Live route: `/basingstoke/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 47
+- automatic include: 1
+- automatic review: 51
 - automatic exclude: 0
-- effective include: 2
-- effective review: 47
+- effective include: 1
+- effective review: 51
 - effective exclude: 0
 
-## INCLUDE (2)
+## INCLUDE (1)
 
 ---
 action: 
@@ -36,19 +36,7 @@ job_id: jobg8-2028253
 reason: Exact approved Basingstoke workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: HR coordinator
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Basingstoke
-source: JobG8
-job_id: jobg8-1848405
-reason: Exact approved Basingstoke workplace.
----
-
-## REVIEW (47)
+## REVIEW (51)
 
 ---
 action: 
@@ -71,18 +59,6 @@ company: Cluett Reeve Ltd - Agency - Permanent
 location: Fareham
 source: JobG8
 job_id: jobg8-1884468
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Accountancy Action - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2043232
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -191,6 +167,30 @@ company: Avery Healthcare Group Ltd.
 location: Winchester, SO22 5JH
 source: NHS Jobs
 job_id: nhs-5612599
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Client Servicing Coordinator
+company: de Mellow & Co Financial Planning - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-357999054771820953637340
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Client Servicing Coordinator
+company: de Mellow & Co Financial Planning - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-357999054771820953637341
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -307,10 +307,34 @@ action:
 decision: review
 automatic_decision: review
 title: HR Administrator
+company: Reed - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2055352
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Administrator
 company: Trusted Technology Partnership - Agency - Permanent
 location: Ringwood
 source: JobG8
 job_id: jobg8-1937622
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Assistant
+company: Reed - Agency - Permanent
+location: Portsmouth
+source: JobG8
+job_id: jobg8-2057207
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -419,6 +443,18 @@ company: Wade Macdonald - Agency - Permanent
 location: Andover
 source: JobG8
 job_id: jobg8-2013523
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: Accountability Recruitment - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2056786
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/northampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 16
+- automatic include: 6
+- automatic review: 17
 - automatic exclude: 0
-- effective include: 4
-- effective review: 16
+- effective include: 6
+- effective review: 17
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (6)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Welford Sibbertoft and Sulby Endowed School
+location: Northampton
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-welford-sibbertoft-and-sulby-endowed-school-northampton-northamptonshire
+reason: Exact approved Northampton workplace.
+---
 
 ---
 action: 
@@ -72,7 +84,19 @@ job_id: nhs-5632294
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (16)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Guilsborough Academy
+location: Northampton
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-guilsborough-academy
+reason: Exact approved Northampton workplace.
+---
+
+## REVIEW (17)
 
 ---
 action: 
@@ -191,6 +215,18 @@ company: Impact HR - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-2046754
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Administrator
+company: Lakeside Healthcare Group
+location: Corby, NN17 1TY
+source: NHS Jobs
+job_id: nhs-5614974
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

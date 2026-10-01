@@ -114,6 +114,18 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Activity Co-ordinator
+company: Cygnet - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-2055201
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Admin/receptionist
 company: Stephenson Park Health Group
 location: Newcastle Upon Tyne, NE12 9BQ
@@ -474,6 +486,18 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Part-Time Accounts Assistant
+company: Reed - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2056781
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part-time Finance Assistant
 company: KCR Solutions - Agency - Permanent
 location: Tyne And Wear
@@ -522,18 +546,6 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Remote Conveyancing Paralegal
-company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-1884416
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales Advisor - Part Time
 company: EE - Company - Permanent
 location: Cramlington
@@ -575,18 +587,6 @@ company: Ronald James - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-1869864
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-2048025
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 

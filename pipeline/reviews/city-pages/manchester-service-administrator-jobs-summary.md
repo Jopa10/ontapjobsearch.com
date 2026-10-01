@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 42
-- automatic review: 28
+- automatic review: 27
 - automatic exclude: 1
 - effective include: 42
-- effective review: 28
+- effective review: 27
 - effective exclude: 1
 
 ## INCLUDE (42)
@@ -53,10 +53,10 @@ action:
 decision: include
 automatic_decision: include
 title: Administrator
-company: Manchester University NHS Foundation Trust
-location: Manchester, M14 4GP
+company: NICE – The National Institute for Health and Care Excellence
+location: Manchester, M1 3BN
 source: NHS Jobs
-job_id: nhs-5630893
+job_id: nhs-5631646
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -64,11 +64,11 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administrator
-company: NICE – The National Institute for Health and Care Excellence
-location: Manchester, M1 3BN
-source: NHS Jobs
-job_id: nhs-5631646
+title: Business Development Executive
+company: 2i Recruit Ltd - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-2055423
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -244,6 +244,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Housing Disrepair Fee Earner - Hybrid/Remote
+company: qed legal - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-2055852
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Housing Paralegal
 company: G2 Legal Limited - Agency - Permanent
 location: Manchester
@@ -340,11 +352,11 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Medical Administrator
-company: Sides Medical Centre
-location: Manchester, M27 0EW
+title: Medical Receptionist / Administrator
+company: Victoria Mill Medical Practice
+location: Manchester, M40 7LH
 source: NHS Jobs
-job_id: nhs-5628659
+job_id: nhs-5613139
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -424,18 +436,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Purchasing Assistant
-company: Michael Page - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225558612
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Purchasing Coordinator or Packaging Buyer
 company: Future Recruitment Ltd - Agency - Permanent
 location: Manchester
@@ -484,11 +484,11 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Remote Conveyancing Paralegal
-company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-1884406
+title: Receptionist in General Practice
+company: Eastlands Medical Practice
+location: Manchester, M11 4EJ
+source: NHS Jobs
+job_id: nhs-5604780
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -528,7 +528,7 @@ job_id: teaching-vacancies-trust-finance-and-systems-administrator
 reason: Approved conservative Manchester launch catchment.
 ---
 
-## REVIEW (28)
+## REVIEW (27)
 
 ---
 action: 
@@ -851,18 +851,6 @@ company: Office Angels - Agency - Permanent
 location: Lancashire
 source: JobG8
 job_id: jobg8-1897508
-reason: No approved Manchester catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Lancashire
-source: JobG8
-job_id: jobg8-2048024
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 

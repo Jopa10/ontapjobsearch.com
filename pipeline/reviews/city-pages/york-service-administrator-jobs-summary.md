@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 13
-- automatic exclude: 9
-- effective include: 9
-- effective review: 13
-- effective exclude: 9
+- automatic include: 8
+- automatic review: 12
+- automatic exclude: 10
+- effective include: 8
+- effective review: 12
+- effective exclude: 10
 
-## INCLUDE (9)
+## INCLUDE (8)
 
 ---
 action: 
@@ -100,18 +100,6 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Medical Receptionist
-company: Unity Health
-location: York, YO10 5LA, York, YO10 4DU
-source: NHS Jobs
-job_id: nhs-5615291
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Paralegal - Family
 company: Capital Outsourcing Group Ltd - Agency - Permanent
 location: York
@@ -132,7 +120,7 @@ job_id: jobg8-2021380
 reason: Approved York catchment.
 ---
 
-## REVIEW (13)
+## REVIEW (12)
 
 ---
 action: 
@@ -222,18 +210,6 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Ledger Clerk
-company: Optimum Recruitment Group Limited - Agency - Permanent
-location: Ripon
-source: JobG8
-job_id: jobg8-107798375
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Legal Secretary/Paralegal - Private Client
 company: Reed - Agency - Permanent
 location: Malton
@@ -290,7 +266,31 @@ job_id: nhs-5611094
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (9)
+## EXCLUDE (10)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administration Assistant
+company: Gladstone Road Primary School
+location: Scarborough
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-gladstone-road-primary-school-scarborough-north-yorkshire
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administration assistant
+company: Posterngate Surgery
+location: Selby, YO8 4QH
+source: NHS Jobs
+job_id: nhs-5635889
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -385,17 +385,5 @@ company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Harrogate
 source: JobG8
 job_id: jobg8-1982430
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Coordinator (UPS)
-company: Dale Power Solutions - Agency - Permanent
-location: Scarborough
-source: JobG8
-job_id: jobg8-108026099
 reason: Separate employment market.
 ---

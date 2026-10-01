@@ -4,7 +4,7 @@
 - Live route: `/bedford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 14
+- automatic include: 7
+- automatic review: 15
 - automatic exclude: 0
-- effective include: 4
-- effective review: 14
+- effective include: 7
+- effective review: 15
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (7)
 
 ---
 action: 
@@ -52,11 +52,47 @@ reason: Exact approved Bedford workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Attendance Officer
+company: Redborne Upper School and Community College
+location: Bedford
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-officer-5c4746af-e5b9-4134-b7ab-8d54523d4fae
+reason: Exact approved Bedford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: 1st Choice Rec - Agency - Permanent
+location: Bedford
+source: JobG8
+job_id: jobg8-2057133
+reason: Exact approved Bedford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Legal Assistant
 company: Reed - Agency - Permanent
 location: Bedford
 source: JobG8
 job_id: jobg8-1945614
+reason: Exact approved Bedford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: PA to SLT and Admissions Administrator
+company: Wootton Academy Trust
+location: Bedford
+source: Teaching Vacancies
+job_id: teaching-vacancies-pa-to-slt-and-admissions-administrator
 reason: Exact approved Bedford workplace.
 ---
 
@@ -72,7 +108,31 @@ job_id: nhs-5608349
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (14)
+## REVIEW (15)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrative Assistant/Receptionist
+company: Shefford Lower School
+location: Shefford
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-receptionist-shefford-lower-school
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Attendance Officer
+company: Putteridge High School
+location: Luton
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-officer-putteridge-high-school
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -102,18 +162,6 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Early Careers Coordinator
-company: BPHA - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-1849342
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Faculty Support Administrator
 company: Cranfield University - Agency - Permanent
 location: Bedfordshire
@@ -131,6 +179,18 @@ company: Duncan Lewis Solictors - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-1900194
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Administrator
+company: Chiltern Learning Trust
+location: Luton
+source: Teaching Vacancies
+job_id: teaching-vacancies-hr-administrator-d2f90df6-89af-4919-b35e-a47a1e5bf7df
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -186,6 +246,18 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist
+company: Manshead Church of England Academy
+location: Luton
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-manshead-church-of-england-academy
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist & Administrative Assistant
 company: Parkfields Middle School
 location: Dunstable
@@ -210,35 +282,11 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist/Clerical Assistant
-company: Richmond Hill School
-location: Luton
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-clerical-assistant-richmond-hill-school-luton-bedfordshire
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Underwriting Support Administrator
 company: Burton Recruitment - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-1916041
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Workflow Administrator
-company: Greensands Medical Practice
-location: Potton, SG19 2QS
-source: NHS Jobs
-job_id: nhs-5610497
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

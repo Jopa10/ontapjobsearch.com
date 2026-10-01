@@ -4,7 +4,7 @@
 - Live route: `/milton-keynes/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 10
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,38 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
+- automatic include: 13
 - automatic review: 31
 - automatic exclude: 0
-- effective include: 10
+- effective include: 13
 - effective review: 31
 - effective exclude: 0
 
-## INCLUDE (10)
+## INCLUDE (13)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts & Purchasing Administrator
+company: Altitude-Recruitment Limited - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-2055938
+reason: Exact approved Milton Keynes workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts and Purchasing Administrator
+company: EAC Consulting Group - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-2056357
+reason: Exact approved Milton Keynes workplace.
+---
 
 ---
 action: 
@@ -112,6 +136,18 @@ reason: Exact approved Milton Keynes workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Payroll and Benefits Officer
+company: James Gray Associates - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-2056497
+reason: Exact approved Milton Keynes workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist
 company: Purbeck Health Centre
 location: Milton Keynes, MK14 6BL
@@ -174,6 +210,18 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
+title: Admin Assistant
+company: Padbury Church of England School
+location: Buckingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-assistant-padbury-church-of-england-school-buckingham-buckinghamshire
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrative Officer
 company: Foreign & Commonwealth Office - Agency - Permanent
 location: Buckinghamshire
@@ -186,11 +234,11 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: ARC Administrator
-company: The Kingsbrook School
-location: Aylesbury
-source: Teaching Vacancies
-job_id: teaching-vacancies-arc-administrator
+title: Administrative Officer
+company: Foreign & Commonwealth Office - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-604158583863718707237340
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -491,18 +539,6 @@ company: Chiltern Way Academy Trust
 location: Aylesbury
 source: Teaching Vacancies
 job_id: teaching-vacancies-sen-administrator-chiltern-way-academy-trust
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Senior Administrator
-company: Primary Care Management Solutions Ltd
-location: HIGH WYCOMBE, HP13 5DN
-source: NHS Jobs
-job_id: nhs-5635303
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

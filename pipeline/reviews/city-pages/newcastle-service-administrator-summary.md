@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 23
-- automatic exclude: 14
+- automatic review: 22
+- automatic exclude: 15
 - effective include: 10
-- effective review: 23
-- effective exclude: 14
+- effective review: 22
+- effective exclude: 15
 
 ## INCLUDE (10)
 
@@ -144,7 +144,7 @@ job_id: jobg8-108026899
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (23)
+## REVIEW (22)
 
 ---
 action: 
@@ -330,6 +330,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Part-Time Accounts Assistant
+company: Reed - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2056781
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part-time Finance Assistant
 company: KCR Solutions - Agency - Permanent
 location: Tyne And Wear
@@ -360,18 +372,6 @@ location: Seaham
 source: JobG8
 job_id: jobg8-23643_225656711
 reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Remote Conveyancing Paralegal
-company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-1884416
-reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -410,19 +410,7 @@ job_id: teaching-vacancies-school-support-roles-supervisory-assistant-administra
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-2048025
-reason: Broad location; review before city inclusion.
----
-
-## EXCLUDE (14)
+## EXCLUDE (15)
 
 ---
 action: 
@@ -469,6 +457,18 @@ company: Reed - Agency - Permanent
 location: Durham
 source: JobG8
 job_id: jobg8-2037066
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Activity Co-ordinator
+company: Cygnet - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-2055201
 reason: Separate employment market.
 ---
 

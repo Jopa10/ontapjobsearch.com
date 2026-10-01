@@ -4,8 +4,8 @@
 - Live route: `/aylesbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
-- Threshold currently met: yes
+- Effective included jobs: 3
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 37
+- automatic include: 3
+- automatic review: 41
 - automatic exclude: 0
-- effective include: 4
-- effective review: 37
+- effective include: 3
+- effective review: 41
 - effective exclude: 0
 
-## INCLUDE (4)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: ARC Administrator
-company: The Kingsbrook School
-location: Aylesbury
-source: Teaching Vacancies
-job_id: teaching-vacancies-arc-administrator
-reason: Exact approved Aylesbury workplace.
----
+## INCLUDE (3)
 
 ---
 action: 
@@ -72,7 +60,7 @@ job_id: teaching-vacancies-sen-administrator-chiltern-way-academy-trust
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (37)
+## REVIEW (41)
 
 ---
 action: 
@@ -83,6 +71,30 @@ company: Chepping View Primary Academy
 location: High Wycombe
 source: Teaching Vacancies
 job_id: teaching-vacancies-academy-administrator-chepping-view-primary-academy-high-wycombe-buckinghamshire
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts & Purchasing Administrator
+company: Altitude-Recruitment Limited - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-2055938
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts and Purchasing Administrator
+company: EAC Consulting Group - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-2056357
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -102,11 +114,35 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Admin Assistant
+company: Padbury Church of England School
+location: Buckingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-assistant-padbury-church-of-england-school-buckingham-buckinghamshire
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrative Officer
 company: Foreign & Commonwealth Office - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-1956753
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrative Officer
+company: Foreign & Commonwealth Office - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-604158583863718707237340
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -414,6 +450,18 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Payroll and Benefits Officer
+company: James Gray Associates - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-2056497
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Private Client Paralegal
 company: Reed - Agency - Permanent
 location: Buckinghamshire
@@ -491,18 +539,6 @@ company: Robert Walters - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-1882176
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Senior Administrator
-company: Primary Care Management Solutions Ltd
-location: HIGH WYCOMBE, HP13 5DN
-source: NHS Jobs
-job_id: nhs-5635303
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

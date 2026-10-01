@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 60
+- automatic review: 63
 - automatic exclude: 0
 - effective include: 2
-- effective review: 60
+- effective review: 63
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: jobg8-1979310
 reason: Exact approved Farnham workplace.
 ---
 
-## REVIEW (60)
+## REVIEW (63)
 
 ---
 action: 
@@ -179,6 +179,18 @@ company: Michael Page Marketing - Agency - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-2039738
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Development Executive
+company: 2i Recruit Ltd - Agency - Permanent
+location: Weybridge
+source: JobG8
+job_id: jobg8-2055422
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -354,18 +366,6 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Healthcare Administrator
-company: Ashe Consulting - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-1848509
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR - People Administrator
 company: proAV Ltd - Agency - Permanent
 location: Surrey
@@ -394,7 +394,19 @@ title: Investment Administrator
 company: 2i Recruit Ltd - Agency - Permanent
 location: Surrey
 source: JobG8
-job_id: jobg8-2048057
+job_id: jobg8-2055504
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Investment Administrator
+company: mbf. - Agency - Permanent
+location: Guildford
+source: JobG8
+job_id: jobg8-2055607
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -418,7 +430,7 @@ title: Legal Assistant
 company: 2i Recruit Ltd - Agency - Permanent
 location: Surrey
 source: JobG8
-job_id: jobg8-2048060
+job_id: jobg8-2055508
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -466,7 +478,7 @@ title: Legal Secretary
 company: 2i Recruit Ltd - Agency - Permanent
 location: Surrey
 source: JobG8
-job_id: jobg8-2048058
+job_id: jobg8-2055505
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -510,11 +522,47 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Office Assistant (Part time)
-company: The Vale Primary School and Nursery
-location: Epsom
+title: Mortgage Administrator
+company: Recruitment Solutions for Business (UK) Ltd - Agency - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-257163358784559513637340
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Mortgage Administrator
+company: Recruitment Solutions for Business (UK) Ltd - Agency - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-257163358784559513637341
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Office Administrator
+company: St Nicolas' Church of England Infant School
+location: Guildford
 source: Teaching Vacancies
-job_id: teaching-vacancies-office-assistant-part-time-the-vale-primary-school-and-nursery
+job_id: teaching-vacancies-office-administrator-294d664c-6dae-452d-b27f-2e380c9b2c7b
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Oracle Database Administrator (Oracle DBA)
+company: CGI - Company - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-611028359
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -526,7 +574,7 @@ title: Paralegal
 company: 2i Recruit Ltd - Agency - Permanent
 location: Surrey
 source: JobG8
-job_id: jobg8-2048065
+job_id: jobg8-2055513
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -538,7 +586,7 @@ title: Paralegal (Lending)
 company: 2i Recruit Ltd - Agency - Permanent
 location: Surrey
 source: JobG8
-job_id: jobg8-2048084
+job_id: jobg8-2055545
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -582,18 +630,6 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Part-Time Marketing Manager
-company: HighPoint - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-2050461
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Patient Services Administrator
 company: Esher Green Surgery
 location: Esher, KT10 8BX
@@ -606,11 +642,11 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Administrator (Part-time)
-company: 2i Recruit Ltd - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-2048088
+title: People Flexi Bank - Administrator
+company: Royal Surrey NHS Foundation Trust
+location: Epsom, KT17 4QJ
+source: NHS Jobs
+job_id: nhs-5626975
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -622,7 +658,7 @@ title: People Flexi Bank - Administrator
 company: Royal Surrey NHS Foundation Trust
 location: Epsom, KT17 4QJ
 source: NHS Jobs
-job_id: nhs-5626975
+job_id: nhs-5636130
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 

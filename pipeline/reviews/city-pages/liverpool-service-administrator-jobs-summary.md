@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 17
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
-- automatic review: 5
+- automatic include: 16
+- automatic review: 4
 - automatic exclude: 0
-- effective include: 17
-- effective review: 5
+- effective include: 16
+- effective review: 4
 - effective exclude: 0
 
-## INCLUDE (17)
+## INCLUDE (16)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Practice Plus Group - Health in Justice
 location: Liverpool, L9 7LH
 source: NHS Jobs
 job_id: nhs-5608176
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator (Bank)
+company: Practice Plus Group - Health in Justice
+location: Liverpool, L9 7LH
+source: NHS Jobs
+job_id: nhs-5635802
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -148,18 +160,6 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Medical Receptionist
-company: Dunstan Village Group Practice
-location: Liverpool, L7 6HD
-source: NHS Jobs
-job_id: nhs-5620107
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Motor claims handler - Part time
 company: Spotlightjobs - Agency - Permanent
 location: Liverpool
@@ -196,6 +196,18 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist
+company: King's Leadership Academy Wavertree
+location: Liverpool
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-6daa74e9-7381-4a23-93df-9b2577545b8a
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist and Administrator
 company: GP Practice Riverside
 location: Liverpool, L8 6QP, Liverpool, L7 6HD
@@ -204,31 +216,7 @@ job_id: nhs-5618745
 reason: Approved conservative Liverpool launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Remote Conveyancing Paralegal
-company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-1884412
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: TikTok Content Creator & Live Host
-company: Reed Specialist Recruitment - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-23643_225560031
-reason: Approved conservative Liverpool launch catchment.
----
-
-## REVIEW (5)
+## REVIEW (4)
 
 ---
 action: 
@@ -275,18 +263,6 @@ company: Zachary Daniels - Agency - Permanent
 location: Merseyside
 source: JobG8
 job_id: jobg8-1935673
-reason: Broad county location; review before Liverpool inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Merseyside
-source: JobG8
-job_id: jobg8-2048022
 reason: Broad county location; review before Liverpool inclusion.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/doncaster/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
+- automatic include: 10
 - automatic review: 0
-- automatic exclude: 18
-- effective include: 9
+- automatic exclude: 21
+- effective include: 10
 - effective review: 0
-- effective exclude: 18
+- effective exclude: 21
 
-## INCLUDE (9)
+## INCLUDE (10)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Owston Park Primary Academy
 location: Doncaster
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-assistant-owston-park-primary-academy
+reason: Approved Doncaster catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Admin Support - Receptionist
+company: South Axholme Academy
+location: Doncaster
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-support-receptionist-south-axholme-academy
 reason: Approved Doncaster catchment.
 ---
 
@@ -134,7 +146,7 @@ reason: Approved Doncaster catchment.
 
 ## REVIEW (0)
 
-## EXCLUDE (18)
+## EXCLUDE (21)
 
 ---
 action: 
@@ -276,6 +288,18 @@ title: Receptionist
 company: Grenoside Surgery
 location: Sheffield, S35 8NX, Sheffield, S6 1LA
 source: NHS Jobs
+job_id: nhs-5614100
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Grenoside Surgery
+location: Sheffield, S35 8NX, Sheffield, S6 1LA
+source: NHS Jobs
 job_id: nhs-5614236
 reason: Separate employment market.
 ---
@@ -289,6 +313,18 @@ company: Sheffield Health Partnership University NHS Foundation Trust
 location: Sheffield, S11 9BJ
 source: NHS Jobs
 job_id: nhs-5634371
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Stocksbridge Junior School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-stocksbridge-junior-school
 reason: Separate employment market.
 ---
 
@@ -344,10 +380,22 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Remote Conveyancing Paralegal
-company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
+title: SCITT Administrator
+company: Chorus Education Trust
 location: Sheffield
-source: JobG8
-job_id: jobg8-1884424
+source: Teaching Vacancies
+job_id: teaching-vacancies-scitt-administrator-chorus-education-trust
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Temporary Admin Assistant at Kiveton Park Infant School
+company: Kiveton Park Infant School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-temporary-admin-assistant-at-kiveton-park-infant-school
 reason: Separate employment market.
 ---

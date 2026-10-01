@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 14
+- automatic review: 13
 - automatic exclude: 0
 - effective include: 0
-- effective review: 14
+- effective review: 13
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (14)
+## REVIEW (13)
 
 ---
 action: 
@@ -127,10 +127,10 @@ action:
 decision: review
 automatic_decision: review
 title: Mental Health Act Administrator
-company: InMind
-location: Leicester, LE36QR
+company: Leicestershire Partnership NHS Trust
+location: Leicester, LE3 9EJ
 source: NHS Jobs
-job_id: nhs-5597537
+job_id: nhs-5636423
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -179,18 +179,6 @@ company: Manorfield Church of England Primary School
 location: Leicester
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-maternity-cover-manorfield-church-of-england-primary-school
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Remote Conveyancing Paralegal
-company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-1884433
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

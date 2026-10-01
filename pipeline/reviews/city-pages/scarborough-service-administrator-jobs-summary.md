@@ -16,13 +16,25 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 28
+- automatic review: 27
 - automatic exclude: 0
 - effective include: 3
-- effective review: 28
+- effective review: 27
 - effective exclude: 0
 
 ## INCLUDE (3)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administration Assistant
+company: Gladstone Road Primary School
+location: Scarborough
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-gladstone-road-primary-school-scarborough-north-yorkshire
+reason: Exact approved Scarborough workplace.
+---
 
 ---
 action: 
@@ -48,19 +60,7 @@ job_id: nhs-5624493
 reason: Exact approved Scarborough workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Coordinator (UPS)
-company: Dale Power Solutions - Agency - Permanent
-location: Scarborough
-source: JobG8
-job_id: jobg8-108026099
-reason: Exact approved Scarborough workplace.
----
-
-## REVIEW (28)
+## REVIEW (27)
 
 ---
 action: 
@@ -71,6 +71,18 @@ company: Brook Street - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-1986354
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration assistant
+company: Posterngate Surgery
+location: Selby, YO8 4QH
+source: NHS Jobs
+job_id: nhs-5635889
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -246,18 +258,6 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Ledger Clerk
-company: Optimum Recruitment Group Limited - Agency - Permanent
-location: Ripon
-source: JobG8
-job_id: jobg8-107798375
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Legal Secretary
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Harrogate
@@ -335,18 +335,6 @@ company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Knaresborough
 source: JobG8
 job_id: jobg8-1880493
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: Unity Health
-location: York, YO10 5LA, York, YO10 4DU
-source: NHS Jobs
-job_id: nhs-5615291
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

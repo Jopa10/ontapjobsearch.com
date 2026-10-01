@@ -4,8 +4,8 @@
 - Live route: `/portsmouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
-- Threshold currently met: no
+- Effective included jobs: 4
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 46
+- automatic include: 4
+- automatic review: 48
 - automatic exclude: 0
-- effective include: 3
-- effective review: 46
+- effective include: 4
+- effective review: 48
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (4)
 
 ---
 action: 
@@ -52,6 +52,18 @@ reason: Exact approved Portsmouth workplace.
 action: 
 decision: include
 automatic_decision: include
+title: HR Assistant
+company: Reed - Agency - Permanent
+location: Portsmouth
+source: JobG8
+job_id: jobg8-2057207
+reason: Exact approved Portsmouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist - Kingston Crescent Surgery
 company: Portsdown Group Practice
 location: Portsmouth, PO2 8AL
@@ -60,7 +72,7 @@ job_id: nhs-5627419
 reason: Exact approved Portsmouth workplace.
 ---
 
-## REVIEW (46)
+## REVIEW (48)
 
 ---
 action: 
@@ -83,18 +95,6 @@ company: Cluett Reeve Ltd - Agency - Permanent
 location: Fareham
 source: JobG8
 job_id: jobg8-1884468
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Accountancy Action - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2043232
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -210,6 +210,30 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Client Servicing Coordinator
+company: de Mellow & Co Financial Planning - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-357999054771820953637340
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Client Servicing Coordinator
+company: de Mellow & Co Financial Planning - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-357999054771820953637341
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Company Secretary - 12 month FTC
 company: Michael Page Legal - Agency - Permanent
 location: Farnborough
@@ -307,10 +331,10 @@ action:
 decision: review
 automatic_decision: review
 title: HR Administrator
-company: Trusted Technology Partnership - Agency - Permanent
-location: Ringwood
+company: Reed - Agency - Permanent
+location: Hampshire
 source: JobG8
-job_id: jobg8-1937622
+job_id: jobg8-2055352
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -318,11 +342,11 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: HR coordinator
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Basingstoke
+title: HR Administrator
+company: Trusted Technology Partnership - Agency - Permanent
+location: Ringwood
 source: JobG8
-job_id: jobg8-1848405
+job_id: jobg8-1937622
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -431,6 +455,18 @@ company: Wade Macdonald - Agency - Permanent
 location: Andover
 source: JobG8
 job_id: jobg8-2013523
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: Accountability Recruitment - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2056786
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 

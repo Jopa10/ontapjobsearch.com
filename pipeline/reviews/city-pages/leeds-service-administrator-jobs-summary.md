@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 33
+- Effective included jobs: 35
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 33
-- automatic review: 21
-- automatic exclude: 19
-- effective include: 33
-- effective review: 21
-- effective exclude: 19
+- automatic include: 35
+- automatic review: 18
+- automatic exclude: 23
+- effective include: 35
+- effective review: 18
+- effective exclude: 23
 
-## INCLUDE (33)
+## INCLUDE (35)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Ridge & Partners LLP - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-107993362
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Brand Manager
+company: Reed - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-2056878
 reason: Approved Leeds catchment.
 ---
 
@@ -220,6 +232,18 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
+title: HR Administrator
+company: Macmillan Davies - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-2056161
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: HR Coordinator
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Leeds
@@ -364,11 +388,11 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Remote Conveyancing Paralegal
-company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
+title: Sales and Service Advisor
+company: Gallagher - Agency - Permanent
 location: Leeds
 source: JobG8
-job_id: jobg8-1884403
+job_id: jobg8-149058001152088473637341
 reason: Approved Leeds catchment.
 ---
 
@@ -420,7 +444,7 @@ job_id: jobg8-1956696
 reason: Approved Leeds catchment.
 ---
 
-## REVIEW (21)
+## REVIEW (18)
 
 ---
 action: 
@@ -431,18 +455,6 @@ company: Townville Academy
 location: Castleford
 source: Teaching Vacancies
 job_id: teaching-vacancies-clerical-assistant-receptionist-townville-academy-castleford-west-yorkshire
-reason: No approved Leeds catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Commercial Marketing Manager
-company: pyramid8 - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-1849376
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
@@ -630,18 +642,6 @@ reason: No approved Leeds catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Recruitment Resourcing Specialist: English & German Speaking
-company: Love Success Recruitment - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2037267
-reason: No approved Leeds catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Senior Legal Administrator - Up to &;35,000
 company: Office Angels - Agency - Permanent
 location: Yorkshire
@@ -662,19 +662,7 @@ job_id: jobg8-1908693
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2048020
-reason: No approved Leeds catchment rule matched; local review required.
----
-
-## EXCLUDE (19)
+## EXCLUDE (23)
 
 ---
 action: 
@@ -788,6 +776,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Exams Officer
+company: Bradford Forster Academy
+location: Bradford
+source: Teaching Vacancies
+job_id: teaching-vacancies-exams-officer-bradford-forster-academy
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: HR Coordinator / Advisor
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Huddersfield
@@ -824,11 +824,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Leadership Team Administrator (Hybrid)
+company: Moldgreen Community Primary School
+location: Huddersfield
+source: Teaching Vacancies
+job_id: teaching-vacancies-leadership-team-administrator-hybrid
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Marketing Coordinator
 company: Equals One - Agency - Permanent
 location: Bradford
 source: JobG8
 job_id: jobg8-1986859
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Medical Receptionist
+company: Drs Shaw, Walker & Culliney
+location: Huddersfield, HD8 8DJ
+source: NHS Jobs
+job_id: nhs-5636667
 reason: Separate employment market.
 ---
 
@@ -889,6 +913,18 @@ company: Beechwood Medical Centre
 location: Halifax, HX2 8AL
 source: NHS Jobs
 job_id: nhs-5623216
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Sales and Service Advisor
+company: Gallagher - Agency - Permanent
+location: Wakefield
+source: JobG8
+job_id: jobg8-149058001152088473637340
 reason: Separate employment market.
 ---
 

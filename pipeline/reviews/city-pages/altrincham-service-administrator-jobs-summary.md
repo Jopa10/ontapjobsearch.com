@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 10
+- automatic review: 13
 - automatic exclude: 0
 - effective include: 3
-- effective review: 10
+- effective review: 13
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,43 @@ job_id: jobg8-1868509
 reason: Exact approved Altrincham workplace.
 ---
 
-## REVIEW (10)
+## REVIEW (13)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Hyde High School
+location: Hyde
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-hyde-high-school
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Pennine Care NHS FT
+location: Stockport, SK2 7JE
+source: NHS Jobs
+job_id: nhs-5635510
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Michael Page Finance - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-2052516
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
 
 ---
 action: 

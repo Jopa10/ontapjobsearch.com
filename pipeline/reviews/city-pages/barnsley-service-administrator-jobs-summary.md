@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 1
 - automatic review: 0
-- automatic exclude: 26
+- automatic exclude: 30
 - effective include: 1
 - effective review: 0
-- effective exclude: 26
+- effective exclude: 30
 
 ## INCLUDE (1)
 
@@ -38,7 +38,7 @@ reason: Approved Barnsley catchment.
 
 ## REVIEW (0)
 
-## EXCLUDE (26)
+## EXCLUDE (30)
 
 ---
 action: 
@@ -73,6 +73,18 @@ company: Totley All Saints Church of England Voluntary Aided Primary School
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-assistant-part-time-18-hrs
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Admin Support - Receptionist
+company: South Axholme Academy
+location: Doncaster
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-support-receptionist-south-axholme-academy
 reason: Separate employment market.
 ---
 
@@ -288,6 +300,18 @@ title: Receptionist
 company: Grenoside Surgery
 location: Sheffield, S35 8NX, Sheffield, S6 1LA
 source: NHS Jobs
+job_id: nhs-5614100
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Grenoside Surgery
+location: Sheffield, S35 8NX, Sheffield, S6 1LA
+source: NHS Jobs
 job_id: nhs-5614236
 reason: Separate employment market.
 ---
@@ -301,6 +325,18 @@ company: Sheffield Health Partnership University NHS Foundation Trust
 location: Sheffield, S11 9BJ
 source: NHS Jobs
 job_id: nhs-5634371
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Stocksbridge Junior School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-stocksbridge-junior-school
 reason: Separate employment market.
 ---
 
@@ -344,10 +380,22 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Remote Conveyancing Paralegal
-company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
+title: SCITT Administrator
+company: Chorus Education Trust
 location: Sheffield
-source: JobG8
-job_id: jobg8-1884424
+source: Teaching Vacancies
+job_id: teaching-vacancies-scitt-administrator-chorus-education-trust
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Temporary Admin Assistant at Kiveton Park Infant School
+company: Kiveton Park Infant School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-temporary-admin-assistant-at-kiveton-park-infant-school
 reason: Separate employment market.
 ---

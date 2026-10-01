@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 17
+- Effective included jobs: 20
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
+- automatic include: 20
 - automatic review: 0
-- automatic exclude: 10
-- effective include: 17
+- automatic exclude: 11
+- effective include: 20
 - effective review: 0
-- effective exclude: 10
+- effective exclude: 11
 
-## INCLUDE (17)
+## INCLUDE (20)
 
 ---
 action: 
@@ -164,6 +164,18 @@ title: Receptionist
 company: Grenoside Surgery
 location: Sheffield, S35 8NX, Sheffield, S6 1LA
 source: NHS Jobs
+job_id: nhs-5614100
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Grenoside Surgery
+location: Sheffield, S35 8NX, Sheffield, S6 1LA
+source: NHS Jobs
 job_id: nhs-5614236
 reason: Approved Sheffield catchment.
 ---
@@ -177,6 +189,18 @@ company: Sheffield Health Partnership University NHS Foundation Trust
 location: Sheffield, S11 9BJ
 source: NHS Jobs
 job_id: nhs-5634371
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Stocksbridge Junior School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-stocksbridge-junior-school
 reason: Approved Sheffield catchment.
 ---
 
@@ -220,17 +244,29 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Remote Conveyancing Paralegal
-company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
+title: SCITT Administrator
+company: Chorus Education Trust
 location: Sheffield
-source: JobG8
-job_id: jobg8-1884424
+source: Teaching Vacancies
+job_id: teaching-vacancies-scitt-administrator-chorus-education-trust
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Temporary Admin Assistant at Kiveton Park Infant School
+company: Kiveton Park Infant School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-temporary-admin-assistant-at-kiveton-park-infant-school
 reason: Approved Sheffield catchment.
 ---
 
 ## REVIEW (0)
 
-## EXCLUDE (10)
+## EXCLUDE (11)
 
 ---
 action: 
@@ -241,6 +277,18 @@ company: Owston Park Primary Academy
 location: Doncaster
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-assistant-owston-park-primary-academy
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Admin Support - Receptionist
+company: South Axholme Academy
+location: Doncaster
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-support-receptionist-south-axholme-academy
 reason: Separate employment market.
 ---
 

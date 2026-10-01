@@ -4,7 +4,7 @@
 - Live route: `/hemel-hempstead/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 37
+- automatic include: 3
+- automatic review: 39
 - automatic exclude: 0
-- effective include: 2
-- effective review: 37
+- effective include: 3
+- effective review: 39
 - effective exclude: 0
 
-## INCLUDE (2)
+## INCLUDE (3)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Attendance Administrator
+company: The Astley Cooper School
+location: Hemel Hempstead
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-administrator-the-astley-cooper-school-hemel-hempstead-hertfordshire
+reason: Exact approved Hemel Hempstead workplace.
+---
 
 ---
 action: 
@@ -48,7 +60,7 @@ job_id: jobg8-1877352
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
-## REVIEW (37)
+## REVIEW (39)
 
 ---
 action: 
@@ -71,6 +83,18 @@ company: Reed - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-2044300
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Ludwick Nursery School
+location: Welwyn Garden City
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-ludwick-nursery-school
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -119,6 +143,18 @@ company: Premier Foods - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-1982840
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Brand Marketing Executive - 12 month FTC
+company: Think Specialist Recruitment - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-2052287
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -330,18 +366,6 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Marketing and Communications Manager
-company: Devonshire Hayes Recruitment Specialists Limited - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-1849351
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Marketing Co-ordinator
 company: Brand Recruitment - Agency - Permanent
 location: Hertfordshire
@@ -395,6 +419,18 @@ company: Elysium Healthcare
 location: Potters Bar, EN6 2SE
 source: NHS Jobs
 job_id: nhs-5630065
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Office Administrator
+company: Forres Primary Academy
+location: Hoddesdon
+source: Teaching Vacancies
+job_id: teaching-vacancies-office-administrator-forres-primary-academy
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

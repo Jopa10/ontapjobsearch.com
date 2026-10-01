@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 49
-- automatic review: 5
+- automatic review: 6
 - automatic exclude: 7
 - effective include: 49
-- effective review: 5
+- effective review: 6
 - effective exclude: 7
 
 ## INCLUDE (49)
@@ -88,6 +88,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Administrative Assistant, Admissions & Attendance
+company: Harborne Primary School
+location: Birmingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-admissions-attendance
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Administrator
 company: E-ACT Shenley Academy
 location: Birmingham
@@ -129,6 +141,18 @@ company: Trinity House Group - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-2046783
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Business Support Officer - Finance
+company: The Olive School, Small Heath
+location: Birmingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-business-support-officer-finance-the-olive-school-small-heath
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -448,6 +472,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Office Administrator
+company: Kings Rise Academy
+location: Birmingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-office-administrator-kings-rise-academy
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Paralegal
 company: Kingsgate Recruitment Ltd - Agency - Permanent
 location: Birmingham
@@ -532,18 +568,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Remote Conveyancing Paralegal
-company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-1884409
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Sales Administrator
 company: Proprec - Agency - Permanent
 location: Birmingham
@@ -580,30 +604,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Trainee Digital Marketing Executive
-company: Netcom Online Learning - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-2050331
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Trainee Social Media Assistant
-company: Netcom Online Learning - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-2050354
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Warranty Coordinator
 company: ABL Recruitment - Agency - Permanent
 location: Birmingham
@@ -612,7 +612,19 @@ job_id: jobg8-2039482
 reason: Approved conservative Birmingham launch catchment.
 ---
 
-## REVIEW (5)
+## REVIEW (6)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Assistant
+company: The Royal Sutton School
+location: Sutton Coldfield
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-the-royal-sutton-school
+reason: No approved Birmingham catchment rule matched; local review required.
+---
 
 ---
 action: 

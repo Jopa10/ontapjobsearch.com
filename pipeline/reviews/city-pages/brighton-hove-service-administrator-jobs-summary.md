@@ -4,8 +4,8 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
-- Threshold currently met: no
+- Effective included jobs: 6
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 28
+- automatic include: 6
+- automatic review: 29
 - automatic exclude: 13
-- effective include: 5
-- effective review: 28
+- effective include: 6
+- effective review: 29
 - effective exclude: 13
 
-## INCLUDE (5)
+## INCLUDE (6)
 
 ---
 action: 
@@ -64,6 +64,18 @@ reason: Approved Brighton & Hove catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Patient Care Advisor - Receptionist
+company: St Peter’s Medical Centre
+location: Brighton, BN1 4LA
+source: NHS Jobs
+job_id: nhs-5635694
+reason: Approved Brighton & Hove catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Personal Assistant
 company: Sussex Partnership NHS Foundation Trust
 location: Hove, BN3 7HZ
@@ -84,7 +96,7 @@ job_id: nhs-5620851
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (28)
+## REVIEW (29)
 
 ---
 action: 
@@ -114,12 +126,12 @@ reason: No approved Brighton & Hove catchment rule matched; local review require
 action: 
 decision: review
 automatic_decision: review
-title: Bookkeeper
-company: First Recruitment Services - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2039380
-reason: Broad location; review before city inclusion.
+title: Attendance & HR Admin Assistant
+company: Hollington Primary School
+location: St. Leonards-on-Sea
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-hr-admin-assistant
+reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
 ---
@@ -130,7 +142,7 @@ title: Bookkeeper
 company: First Recruitment Services - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2039419
+job_id: jobg8-2039380
 reason: Broad location; review before city inclusion.
 ---
 
@@ -155,6 +167,18 @@ company: Reed - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2013599
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Operations and HR Coordinator
+company: Farrer Barnes Limited - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2056867
 reason: Broad location; review before city inclusion.
 ---
 
@@ -191,6 +215,18 @@ company: TN Recruits - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-1934337
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller - Accounts Assistant
+company: Morgan McKinley - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2056847
 reason: Broad location; review before city inclusion.
 ---
 
@@ -390,18 +426,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Service Advisor
-company: Prima Hatfield Associates - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-1850479
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Temporary Senior HR Administrator
 company: Michael Page Business Support - Agency - Permanent
 location: Sussex
@@ -512,18 +536,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Office Administrator
-company: Worth Recruiting - Property Industry Recruitment - Agency - Permanent
-location: Horsham
-source: JobG8
-job_id: jobg8-1868387
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Part Time Accounts Assistant
 company: Reed - Agency - Permanent
 location: Crawley
@@ -541,6 +553,18 @@ company: Bishop Luffa School, Chichester
 location: Chichester
 source: Teaching Vacancies
 job_id: teaching-vacancies-personal-assistant-to-the-head-teacher-bishop-luffa-school-chichester
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Sales Executive
+company: Clover Talent Limited - Agency - Permanent
+location: Chichester
+source: JobG8
+job_id: jobg8-108024258
 reason: Separate employment market.
 ---
 

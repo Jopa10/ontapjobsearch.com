@@ -4,7 +4,7 @@
 - Live route: `/exeter/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 20
+- automatic include: 8
+- automatic review: 27
 - automatic exclude: 0
-- effective include: 6
-- effective review: 20
+- effective include: 8
+- effective review: 27
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (8)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Attendance Officer
+company: Isca Academy
+location: Exeter
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-officer-4a095b88-91b4-4569-8b60-0007e7f44a59
+reason: Exact approved Exeter workplace.
+---
 
 ---
 action: 
@@ -68,6 +80,18 @@ title: Service Administrator
 company: Royal Devon University Healthcare NHS Foundation Trust
 location: Exeter, EX2 5DW
 source: NHS Jobs
+job_id: nhs-5619976
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Service Administrator
+company: Royal Devon University Healthcare NHS Foundation Trust
+location: Exeter, EX2 5DW
+source: NHS Jobs
 job_id: nhs-5619991
 reason: Exact approved Exeter workplace.
 ---
@@ -96,7 +120,19 @@ job_id: nhs-5525304
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (20)
+## REVIEW (27)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrative Assistant
+company: Newton Abbot College
+location: Newton Abbot
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-newton-abbot-college
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -119,6 +155,30 @@ company: Okehampton College
 location: Okehampton
 source: Teaching Vacancies
 job_id: teaching-vacancies-attendance-officer-d0027772-8f3a-48b5-b0ae-06908bf9d607
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Administrator
+company: Devon Partnership NHS Trust
+location: Newton Abbot, TQ12 4PH
+source: NHS Jobs
+job_id: nhs-5580080
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: College Receptionist
+company: Ivybridge Community College
+location: Ivybridge
+source: Teaching Vacancies
+job_id: teaching-vacancies-college-receptionist-ivybridge-community-college-ivybridge-devon
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -155,6 +215,18 @@ company: Countrywide HQ - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-1991665
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Exams and Admissions Officer
+company: Brixham College
+location: Brixham
+source: Teaching Vacancies
+job_id: teaching-vacancies-exams-and-admissions-officer
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -210,11 +282,35 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: MIS Administrator (Maternity Cover)
+company: City College Plymouth
+location: Plymouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-mis-administrator-maternity-cover
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: People Administrator
 company: Dartmoor Multi Academy Trust
 location: Okehampton
 source: Teaching Vacancies
 job_id: teaching-vacancies-people-administrator-dartmoor-multi-academy-trust-okehampton-not-recorded
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Post 16 Administrator and Study Supervisor
+company: Hele's School
+location: Plymouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-post-16-administrator-and-study-supervisor
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -335,6 +431,18 @@ company: Perfect Placement Uk Ltd - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-1912271
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Student Funding Administrator
+company: City College Plymouth
+location: Plymouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-student-funding-administrator
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

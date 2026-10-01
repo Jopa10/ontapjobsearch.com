@@ -1,5 +1,30 @@
 [
   {
+    "job_id": "teaching-vacancies-administrator-15d5f5a9-8506-4a81-9d7f-949f6c949c54",
+    "title": "Administrator",
+    "company": "The Deepings School",
+    "location": "Peterborough",
+    "region": "Cambridgeshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£27,524.00 - £30,024.00 Annually (FTE) Grade 5 Scale Point 12 – 15 (£18,813 - £20,725 Actual)",
+    "work_pattern": "",
+    "posted_date": "2026-09-30",
+    "closing_date": "2026-10-09",
+    "closing_datetime": "2026-10-09T23:59:00+01:00",
+    "summary": "Administrator with The Deepings School in Peterborough. ['full time']; £27,524.00 - £30,024.00 Annually (FTE) Grade 5 Scale Point 12 – 15 (£18,813 - £20,725 Actual).",
+    "description": "The Deepings School is recruiting for this vacancy in Peterborough.\n\nThe advertised position is Administrator.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £27,524.00 - £30,024.00 Annually (FTE) Grade 5 Scale Point 12 – 15 (£18,813 - £20,725 Actual).\n\nThe stated application deadline is 2026-10-09T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administrator-15d5f5a9-8506-4a81-9d7f-949f6c949c54?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "1981536",
     "title": "Commercial Insurance Claims Handler",
     "company": "Infinity Recruitment Consultancy Ltd - Agency - Permanent",
@@ -98,5 +123,24 @@
     "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "nhs-5636638",
+    "source": "NHS Jobs",
+    "title": "Medical Receptionist / Administrator",
+    "company": "Abbeyview Surgery",
+    "advertiser_name": "Abbeyview Surgery",
+    "location": "Peterborough, PE6 0AL",
+    "region": "Cambridgeshire",
+    "salary": "Negotiable",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-01T14:45:30.442029730",
+    "closing_date": "2026-10-16",
+    "description": "Abbeyview Surgery is a GP Surgery in rural Lincolnshire serving circa 9300 patients. We have a diverse, friendly team that work hard to provide the best quality care to our Practice population. Providing front of house support to patients and various administrative support to our team of clinicians, as needed from time to time. this will include some administrative duties outside of reception duties. Experience within a reception/administrative position is essential. Job summary Medical Receptionist Duties:- Greet patients and visitors in a professional and friendly manner- Answer phone calls and direct them to the appropriate department or individual- Schedule appointments and manage the appointment calendar- Check-in patients- Maintain patient records and update information as necessary- Handle incoming and outgoing emails- Ensure the waiting area is clean and organized Main duties of the job Skills:- Excellent communication and interpersonal skills- Strong organisational and multitasking abilities- Attention to detail and accuracy in data entry- Proficiency in using office equipment such as computers, printers and scanners- Ability to maintain patient confidentiality Overview of your organisation If you are a motivated individual with excellent customer service skills, we would love to hear from you. This is a great opportunity to join a dynamic team in a fast-paced medical practice.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5532-26-0017",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5532-26-0017",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "posted_date_basis": "source"
   }
 ]

@@ -4,8 +4,8 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
-- Threshold currently met: no
+- Effective included jobs: 6
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
+- automatic include: 6
 - automatic review: 4
-- automatic exclude: 13
-- effective include: 4
+- automatic exclude: 12
+- effective include: 6
 - effective review: 4
-- effective exclude: 13
+- effective exclude: 12
 
-## INCLUDE (4)
+## INCLUDE (6)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: The Deepings School
+location: Peterborough
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-15d5f5a9-8506-4a81-9d7f-949f6c949c54
+reason: Approved conservative Peterborough launch catchment.
+---
 
 ---
 action: 
@@ -33,6 +45,18 @@ company: Infinity Recruitment Consultancy Ltd - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-1981536
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Medical Receptionist / Administrator
+company: Abbeyview Surgery
+location: Peterborough, PE6 0AL
+source: NHS Jobs
+job_id: nhs-5636638
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -122,7 +146,7 @@ job_id: teaching-vacancies-school-administrative-receptionist
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (13)
+## EXCLUDE (12)
 
 ---
 action: 
@@ -253,18 +277,6 @@ company: The Law Support Group - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-1892204
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Patient Services Administrator
-company: Red House Surgery
-location: Cambridge, CB4 1ER, Cambridge, CB1 1PT
-source: NHS Jobs
-job_id: nhs-5622126
 reason: Separate employment market.
 ---
 

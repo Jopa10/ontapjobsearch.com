@@ -16,13 +16,25 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 48
+- automatic review: 52
 - automatic exclude: 0
 - effective include: 3
-- effective review: 48
+- effective review: 52
 - effective exclude: 0
 
 ## INCLUDE (3)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Kent and Medway Mental Health NHS Trust
+location: Maidstone, ME16 9QQ
+source: NHS Jobs
+job_id: nhs-5635869
+reason: Exact approved Maidstone workplace.
+---
 
 ---
 action: 
@@ -48,19 +60,7 @@ job_id: nhs-5606943
 reason: Exact approved Maidstone workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Purchase ledger clerk
-company: Michael Page Finance - Agency - Permanent
-location: Maidstone
-source: JobG8
-job_id: jobg8-2039706
-reason: Exact approved Maidstone workplace.
----
-
-## REVIEW (48)
+## REVIEW (52)
 
 ---
 action: 
@@ -90,6 +90,18 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Admin Assistant
+company: Gordons Children's Academy, Junior
+location: Rochester
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-assistant-gordons-children-s-academy-junior
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administration Assistant
 company: Northgate Medical Practice
 location: Canterbury, CT1 1WL
@@ -102,11 +114,35 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Administrator
+company: Kent and Medway Mental Health NHS Trust
+location: Gillingham, ME7 1AL
+source: NHS Jobs
+job_id: nhs-5635005
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrator Accountancy firm Xero essential
 company: Office Angels - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-2045801
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Billings coordinator
+company: Julie Rose Recruitment - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2056739
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -287,6 +323,18 @@ company: Earl Street Employment Consultants Ltd - Agency - Permanent
 location: Dartford
 source: JobG8
 job_id: jobg8-1875398
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Administrator
+company: Huntress - Agency - Permanent
+location: Dartford
+source: JobG8
+job_id: jobg8-2057135
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
