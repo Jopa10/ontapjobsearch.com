@@ -4,9 +4,9 @@
 > Do not start reviewing yet. Rebuild this review after those source refreshes complete.
 
 review_date: 2026-10-02
-generated_at: 2026-10-02T16:22:37+00:00
+generated_at: 2026-10-02T20:06:08+00:00
 
-**134 job(s) need a human decision.**
+**133 job(s) need a human decision.**
 
 Edit only each `action:` line:
 - `action: select` = include the vacancy.
@@ -21,7 +21,7 @@ Edit only each `action:` line:
 
 | Source | Status | Review date | Needs review | Note |
 |---|---|---|---:|---|
-| JobG8 | OK | 2026-10-02 | 81 | — |
+| JobG8 | OK | 2026-10-02 | 80 | — |
 | NEJobs | STALE | 2026-09-18 | 0 | — |
 | VONNE | OK | 2026-10-02 | 4 | — |
 | Teaching Vacancies | OK | 2026-10-02 | 49 | — |
@@ -29,7 +29,7 @@ Edit only each `action:` line:
 
 > **Attention:** one or more active source reviews are stale or missing. Those sources contribute no jobs to this file and must not be treated as zero inventory.
 
-## JobG8 — 81 to review
+## JobG8 — 80 to review
 
 ---
 action:
@@ -249,24 +249,6 @@ hub_fingerprint: 0f99794df7c8a72d2627ed5cb0cf61a472c896c82851aeecb075a3744476b1f
 
 ---
 action:
-POSS | JobG8 | Devon | Devon | £35000 - £40000 per year | Finance Assistant Audit
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2056757
-title: Finance Assistant Audit
-employer: 
-location: Devon
-region: Devon
-salary: £35000 - £40000 per year
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: f5987d6d2b6f1262d540e726e58228c48702c646392bcc33f20772ace898d61b
----
-
----
-action:
 POSS | JobG8 | Devon | Devon | £30000 - £40000 per year | Remote Conveyancing Paralegal
 source_key: jobg8
 source: JobG8
@@ -317,6 +299,24 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: 557603afaa5afaae87956e5058e4cf722205ee33fd6d399346e261a5411ad138
+---
+
+---
+action:
+POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | — | Bookkeeper/Assistant Accountant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2063837
+title: Bookkeeper/Assistant Accountant
+employer: 
+location: Manchester
+region: Greater Manchester - Manchester & Salford
+salary: 
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 180fc4495204a2c852ada05bdee19c48423cb911ecb0c433060f28668bd0dac0
 ---
 
 ---
@@ -1145,24 +1145,6 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: 5d5d89b1d1d3a07219a279458951a47faa173a0bf430e926020ee3d17e725df6
----
-
----
-action:
-POSS | JobG8 | Suffolk | Suffolk | £42000 per year | HR Co-ordinator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 2050434
-title: HR Co-ordinator
-employer: 
-location: Suffolk
-region: Suffolk
-salary: £42000 per year
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 08f2431c38ff681ee8b6fd8a0d5cd750c90064aad4cf709a1bf9f409140a7b00
 ---
 
 ---
