@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Gladstone Road Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "1885701",
@@ -399,6 +403,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "2050566",
+    "title": "Administrator",
+    "company": "Tradewind Recruitment - Agency - Permanent",
+    "location": "Richmond",
+    "region": "Yorkshire - North",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Experienced Administrator - Full Time\n\nExperienced Administrator\n\nTradewind Recruitment is recruiting on behalf of a school in Richmond upon Thames for a full-time Administrator.\n\nThis opportunity would suit an organised and professional individual with administrative experience who is confident communicating with a range of stakeholders, including staff, students, parents and external contacts.\n\nThe Role\n\nThe successful candidate will provide administrative and customer service support within a busy school environment.\n\nResponsibilities may include:\n- Managing day-to-day administrative duties efficiently and accurately\n- Responding to enquiries in a professional and timely manner\n- Providing high-quality customer service to parents, students, staff and visitors\n- Answering telephone calls and responding to emails\n- Maintaining accurate records and updating school systems\n- Preparing documents, correspondence and reports\n- Organising information and maintaining filing systems\n- Supporting staff with general administrative requirements\n- Handling a range of queries and directing them appropriately\n- Maintaining confidentiality and following school procedures\n- Providing a professional and welcoming front-of-house service when required\n\nPerson Specification\n\nWe welcome applications from candidates who can demonstrate:\n- Previous experience in an administrative role\n- Customer service experience\n- Strong verbal and written communication skills\n- Good organisational and time-management skills\n- Attention to detail and accuracy\n- A professional and approachable manner\n- The ability to prioritise workload and meet deadlines\n- Confidence using Microsoft Office and administrative systems\n- The ability to work independently and as part of a team\n\nThe following experience would be beneficial but is not essential:\n- Experience working in a school, education, public sector or similar professional environment\n- Experience using SIMS and/or Arbor\n\nWorking Hours\n- Full-time\n- 5 days per week\n- Ongoing opportunity\n- School-based position in Richmond upon Thames\n\nBenefits\n- Full-time ongoing opportunity\n- Competitive pay rate\n- Opportunity to work within a professional school environment\n- Dedicated support from a recruitment consultant\n- Opportunity to develop experience within the education sector\n- Potential for a long-term position\n\nEligibility and Compliance\n\nTo be considered for this opportunity, applicants will be required to provide:\n- An up-to-date CV outlining relevant experience\n- Proof of Right to Work in the UK\n- Professional references\n- Valid identification documents\n- Evidence of qualifications or training where applicable\n- Any safeguarding documentation or checks required for the position\n\nPlease note that additional pre-employment checks may be required in line with safeguarding responsibilities and the school's recruitment procedures.\n\nEqual Opportunities\n\nTradewind Recruitment is committed to promoting equality, diversity and inclusion. We welcome applications from all suitably qualified candidates regardless of age, disability, gender identity, marital status, pregnancy or maternity, race, religion or belief, sex, or sexual orientation.\n\nApply Today\n\nIf you are interested in this opportunity and would like to be considered, please submit your up-to-date CV to Tradewind Recruitment.\n\nWe look forward to hearing from you.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?QHpHeWTcrP7yReqXOsBKddmZ0FC0eYjdy",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Tradewind Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "1868898",
     "title": "Demand Planner - FMCG",
     "company": "Hays Specialist Recruitment Limited - Agency - Permanent",
@@ -464,7 +493,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1013-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1013-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5611094",
@@ -482,7 +515,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5428-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5428-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5607825",
@@ -500,7 +537,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0480",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0480",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5624493",
@@ -518,6 +559,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3656-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3656-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

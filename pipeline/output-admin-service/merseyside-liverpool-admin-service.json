@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Bishop Martin Church of England Primary School, Woolton",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-receptionist-6daa74e9-7381-4a23-93df-9b2577545b8a",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "King's Leadership Academy Wavertree",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "1885635",
@@ -223,6 +231,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "2056486",
+    "title": "School Receptionist / Administrator - North Liverpool",
+    "company": "Tradewind Recruitment - Agency - Permanent",
+    "location": "Liverpool",
+    "region": "Merseyside - Liverpool",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Are you an experienced School Administrator or Receptionist looking for your next opportunity?\n\nWe are currently recruiting for a school in North Liverpool and are looking for a confident, organised and experienced administrator to join their team.\n\nPrevious school experience is highly preferred, and you must have strong general administration experience.\n\nThe role will involve a mixture of front-of-house reception and school administration, including dealing with pupils, parents, staff and visitors on a daily basis.\n\nWe're looking for someone who is:\n- Experienced in a busy administrative environment\n- Confident dealing with parents, pupils and professionals\n- Organised and able to manage competing priorities\n- Professional and approachable\n- Confident using IT and Microsoft Office\n- Experienced with school administration systems - desirable\n- Able to work independently and as part of a wider school team\n\nSchool experience is preferred, particularly experience working within a primary, secondary, SEN or alternative provision setting.\n\nThis would suit someone who has previously worked as a School Administrator, Receptionist, Office Administrator, Attendance Administrator, School Business Support or similar.\n\nNorth Liverpool\nFull-time opportunity\nCompetitive rate of pay\nImmediate start available\n\nIf you have strong administration experience and ideally a background working in schools, we'd love to hear from you.\n\nApply today or contact our education recruitment team for more information.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?G%2b5YiGNoEgp3%2bSqj8oXojRqZvVSWx2fQn",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Tradewind Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "1984602",
     "title": "Motor Claims Handler CH3",
     "company": "Keoghs LLP - Agency - Permanent",
@@ -313,7 +346,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0625",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0625",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5618745",
@@ -331,7 +368,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5232-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5232-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5608176",
@@ -349,6 +390,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0486",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0486",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

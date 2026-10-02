@@ -1,53 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-administration-assistant-hopton-church-of-england-primary-academy",
-    "title": "Administration Assistant",
-    "company": "Hopton Church of England Primary Academy",
-    "location": "Diss",
-    "region": "Norfolk",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "Grade 2/3 (£24796- £28142 pro-rata)",
-    "work_pattern": "",
-    "posted_date": "2026-09-10",
-    "closing_date": "2026-10-02",
-    "closing_datetime": "2026-10-02T01:00:00+01:00",
-    "summary": "Administration Assistant with Hopton Church of England Primary Academy in Diss. ['part time']; Grade 2/3 (£24796- £28142 pro-rata).",
-    "description": "Hopton Church of England Primary Academy is recruiting for this vacancy in Diss.\n\nThe advertised position is Administration Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is Grade 2/3 (£24796- £28142 pro-rata).\n\nThe stated application deadline is 2026-10-02T01:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-hopton-church-of-england-primary-academy?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
-  },
-  {
-    "job_id": "teaching-vacancies-receptionist-king-edward-vii-academy",
-    "title": "Receptionist",
-    "company": "King Edward VII Academy",
-    "location": "King's Lynn",
-    "region": "Norfolk",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "Salary: Support Staff Pay Scale C: £22,401 to £22,752 pro-rata per annum (Actual) (£25,614 - £26,016 full time/full year equivalent)",
-    "work_pattern": "",
-    "posted_date": "2026-09-24",
-    "closing_date": "2026-10-02",
-    "closing_datetime": "2026-10-02T01:00:00+01:00",
-    "summary": "Receptionist with King Edward VII Academy in King's Lynn. ['full time']; Salary: Support Staff Pay Scale C: £22,401 to £22,752 pro-rata per annum (Actual) (£25,614 - £26,016 full time/full year equivalent).",
-    "description": "King Edward VII Academy is recruiting for this vacancy in King's Lynn.\n\nThe advertised position is Receptionist.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is Salary: Support Staff Pay Scale C: £22,401 to £22,752 pro-rata per annum (Actual) (£25,614 - £26,016 full time/full year equivalent).\n\nThe stated application deadline is 2026-10-02T01:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/receptionist-king-edward-vii-academy?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
-  },
-  {
     "job_id": "teaching-vacancies-administration-assistant-with-attendance-officer-responsibilities",
     "title": "Administration Assistant with Attendance Officer responsibilities",
     "company": "The Bishop's Church of England Primary Academy",
@@ -69,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Bishop's Church of England Primary Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-school-secretary-the-bishop-s-church-of-england-primary-academy",
@@ -93,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Bishop's Church of England Primary Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-administration-assistant-8b4b0d9f-5aef-4920-bca2-851d2222cd88",
@@ -117,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Jane Austen College",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-administration-assistant-great-yarmouth-primary-academy-and-nursery",
@@ -141,7 +105,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Great Yarmouth Primary Academy and Nursery",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-administrator-parkway-academy",
@@ -165,7 +133,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Parkway Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-attendance-officer-0493d912-bc9a-4b94-82de-5beddc58546b",
@@ -189,7 +161,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Open Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "1867104",
@@ -657,7 +633,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0977-011026",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0977-011026",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5621955",
@@ -675,7 +655,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0179-1095",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0179-1095",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5623950",
@@ -693,7 +677,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0977-250926",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0977-250926",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5635272",
@@ -711,7 +699,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9177-26-0405",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9177-26-0405",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5631108",
@@ -729,7 +721,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4737-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4737-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5615591",
@@ -747,6 +743,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1540-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1540-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

@@ -1,29 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-administrator-sen-and-careers",
-    "title": "Administrator (SEN and Careers)",
-    "company": "Marshland High School",
-    "location": "Wisbech",
-    "region": "Cambridgeshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "Scale D, Pt 6-7, £13.47 - £13.68/hour (FTE £25,989 - £26,403 per year, based on a 37hr week) Please note this salary will be paid pro rata",
-    "work_pattern": "",
-    "posted_date": "2026-09-24",
-    "closing_date": "2026-10-02",
-    "closing_datetime": "2026-10-02T01:00:00+01:00",
-    "summary": "Administrator (SEN and Careers) with Marshland High School in Wisbech. ['part time']; Scale D, Pt 6-7, £13.47 - £13.68/hour (FTE £25,989 - £26,403 per year, based on a 37hr week) Please note this salary will be paid pro rata.",
-    "description": "Marshland High School is recruiting for this vacancy in Wisbech.\n\nThe advertised position is Administrator (SEN and Careers).\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is Scale D, Pt 6-7, £13.47 - £13.68/hour (FTE £25,989 - £26,403 per year, based on a 37hr week) Please note this salary will be paid pro rata.\n\nThe stated application deadline is 2026-10-02T01:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administrator-sen-and-careers?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
-  },
-  {
     "job_id": "teaching-vacancies-administrator-15d5f5a9-8506-4a81-9d7f-949f6c949c54",
     "title": "Administrator",
     "company": "The Deepings School",
@@ -45,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Deepings School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-school-administrative-receptionist",
@@ -69,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Buckden CofE Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-finance-admin-assistant-priory-junior-school-st-neots-cambridgeshire",
@@ -93,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Priory Junior School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "1876189",
@@ -246,6 +234,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "2059342",
+    "title": "Interim HR Coordinator",
+    "company": "Pure Resourcing Solutions - Agency - Permanent",
+    "location": "Cambridge",
+    "region": "Cambridgeshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "30000",
+    "salary_max": "31000",
+    "salary_text": "£30000 - £31000 per year",
+    "posted_date": "",
+    "description": "HR & Recruitment Coordinator\n\nOn-site Role\nFull-time (37.5 hours per week)\n£30,000 - £31,000 + Potential Permanent Opportunity\nBased in north Cambridgeshire\n\nPure are delighted to be supporting a well-established organisation in the recruitment of a Temporary HR & Recruitment Coordinator. This role has arisen due to a leaver within the HR team and offers an excellent opportunity to join a busy and supportive people function, with the potential to become permanent for the right individual.\n\nWorking closely with the HR team, you'll provide a mix of HR administration, recruitment coordination and employee lifecycle support, helping to ensure a seamless experience for managers and employees alike.\n\nKey responsibilities include:\n- Coordinating recruitment activity, including scheduling interviews and liaising with candidates\n- Supporting onboarding and ensuring new starters have everything they need from day one\n- Managing HR administration, including promotion processes and approvals\n- Conducting right-to-work checks and maintaining employee records\n- Supporting the HR Services inbox and responding to employee queries\n- Assisting with payroll administration before submission to an external payroll provider\n- Providing administrative support to the Employee Relations team\n\nAbout you:\n- Previous experience in HR administration and recruitment coordination\n- Organised, proactive and confident managing multiple priorities\n- Strong attention to detail and excellent communication skills\n- Comfortable working in a fast-paced environment and taking initiative\n- Experience of using an HRIS is essential.\n- Payroll administration experience would be advantageous\n\nThis is a fantastic opportunity for someone who enjoys variety, thrives in a collaborative environment, and wants to make a real contribution to a growing HR team.\n\nFor a confidential discussion, please get in touch with Pure today.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?io0x8AEcaIPKlT1MxMCIWtiT33dXIPXpo",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Pure Resourcing Solutions",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "1870973",
     "title": "Service Advisor",
     "company": "The Recruitment Solution (London) Ltd - Agency - Permanent",
@@ -361,7 +374,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9310-26-0612",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9310-26-0612",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5611673",
@@ -379,7 +396,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9310-26-0604",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9310-26-0604",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5636638",
@@ -397,6 +418,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5532-26-0017",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5532-26-0017",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
