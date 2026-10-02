@@ -91,12 +91,6 @@ job_id: 1987404
 
 ---
 action:
-SELECTED | Yorkshire - West | Bradford | no salary in JobG8 salary fields; no supported salary amount found in description | Marketing Coordinator
-job_id: 1986859
----
-
----
-action:
 SELECTED | Yorkshire - West | Leeds | no salary in JobG8 salary fields; no supported salary amount found in description | Casualty Claims Handler
 job_id: 1984600
 ---
@@ -215,12 +209,6 @@ SELECTED | Yorkshire - West | Leeds | no salary in JobG8 salary fields; no suppo
 job_id: 2048926
 ---
 
----
-action:
-SELECTED | Yorkshire - West | Wetherby | no salary in JobG8 salary fields; no supported salary amount found in description | Branch Administrator
-job_id: 2051232
----
-
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
@@ -331,12 +319,6 @@ _No jobs in this group._
 action:
 SELECTED | London | London | £32000 per year [JobG8 salary fields] | Service Advisor
 job_id: 1859292
----
-
----
-action:
-SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | HR Assistant
-job_id: 1855692
 ---
 
 ---
@@ -589,12 +571,6 @@ job_id: 1949356
 action:
 SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Aviation Finance Paralegal
 job_id: 1937736
----
-
----
-action:
-SELECTED | London | London | £16 per hour [JobG8 salary fields] | Temp HR Administrator!
-job_id: 1928816
 ---
 
 ---
@@ -911,12 +887,6 @@ job_id: 2021465
 
 ---
 action:
-SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Accounts Assistant
-job_id: 2021390
----
-
----
-action:
 SELECTED | London | London | £35000 per year [JobG8 salary fields] | Financial Administrator -North West London-Up to &;35,000 - Hybrid - Career Progression
 job_id: 2022135
 ---
@@ -1199,18 +1169,6 @@ job_id: 2051874
 
 ---
 action:
-SELECTED | London | Uxbridge | £29500 per year [JobG8 salary fields] | Pupil Support Administrator
-job_id: 20091_324681
----
-
----
-action:
-SELECTED | London | Hayes | £29500 per year [JobG8 salary fields] | Pupil Support Administrator
-job_id: 20091_324681-b5c58daf68fdcf9cf849ce08cc8c3867
----
-
----
-action:
 SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | PT Experienced Accounts Administrator starting ASAP
 job_id: 680274873892732928037341
 ---
@@ -1449,6 +1407,36 @@ SELECTED | London | London | no salary in JobG8 salary fields; no supported sala
 job_id: 2060918
 ---
 
+---
+action:
+SELECTED | London | London | £35000 - £41000 per year [JobG8 salary fields] | Billings Administrator
+job_id: 2063583
+---
+
+---
+action:
+SELECTED | London | London | £38000 - £40000 per year [JobG8 salary fields] | Transfers Administrator
+job_id: 2063172
+---
+
+---
+action:
+SELECTED | London | Wallington | no salary in JobG8 salary fields; no supported salary amount found in description | Private Client Paralegal
+job_id: 2063305
+---
+
+---
+action:
+SELECTED | London | Wallington | no salary in JobG8 salary fields; no supported salary amount found in description | Conveyancing Paralegal
+job_id: 2063293
+---
+
+---
+action:
+SELECTED | London | Hackney | £16 - £18 per hour [JobG8 salary fields] | Finance Assistant
+job_id: 2063326
+---
+
 ## LONDON — POSSIBLES
 
 ---
@@ -1511,12 +1499,6 @@ job_id: 1871498
 action:
 SELECTED | Hampshire | Hampshire | no salary in JobG8 salary fields; no supported salary amount found in description | Property Finance Paralegal
 job_id: 1905563
----
-
----
-action:
-SELECTED | Hampshire | Hampshire | £23,132.20-£24,000 per annum [extracted from description] | Legal Accounts Assistant
-job_id: 1939784
 ---
 
 ---
@@ -1683,20 +1665,8 @@ job_id: 2055352
 
 ---
 action:
-SELECTED | Hampshire | Hampshire | no salary in JobG8 salary fields; no supported salary amount found in description | HR Assistant
-job_id: 2057207
----
-
----
-action:
 SELECTED | Hampshire | Hampshire | £28310 per year [JobG8 salary fields] | Healthy Homes Administrator & Scheduling Coordinator
 job_id: 2014390
----
-
----
-action:
-SELECTED | Hampshire | Hampshire | no salary in JobG8 salary fields; no supported salary amount found in description | EHCP Coordinator
-job_id: 1858777
 ---
 
 ---
@@ -1733,6 +1703,18 @@ job_id: 2049995
 action:
 SELECTED | Hampshire | Hampshire | £13.59 per hour [extracted from description] | Store Coordinator
 job_id: 2044782
+---
+
+---
+action:
+SELECTED | Hampshire | Hampshire | £27000 - £30000 per year [JobG8 salary fields] | Freight Sales Support Clerk
+job_id: 2064051
+---
+
+---
+action:
+SELECTED | Hampshire | Hampshire | no salary in JobG8 salary fields; no supported salary amount found in description | HR Assistant
+job_id: 2062579
 ---
 
 ## HAMPSHIRE — POSSIBLES
@@ -1849,12 +1831,6 @@ job_id: 1994120
 
 ---
 action:
-SELECTED | Surrey | Surrey | £32080 - £33951 per year [JobG8 salary fields] | Administrative Assistant
-job_id: 415491
----
-
----
-action:
 SELECTED | Surrey | Surrey | no salary in JobG8 salary fields; no supported salary amount found in description | Legal Assistant / Paralegal
 job_id: 2021647
 ---
@@ -1939,24 +1915,6 @@ job_id: 257163358784559513637340
 
 ---
 action:
-SELECTED | Surrey | Surrey | no salary in JobG8 salary fields; no supported salary amount found in description | Paralegal
-job_id: 2055513
----
-
----
-action:
-SELECTED | Surrey | Surrey | no salary in JobG8 salary fields; no supported salary amount found in description | Legal Assistant
-job_id: 2055508
----
-
----
-action:
-SELECTED | Surrey | Surrey | no salary in JobG8 salary fields; no supported salary amount found in description | Investment Administrator
-job_id: 2055504
----
-
----
-action:
 SELECTED | Surrey | Surrey | £35000 per year [JobG8 salary fields] | Investment Administrator
 job_id: 2055607
 ---
@@ -1997,6 +1955,30 @@ SELECTED | Surrey | Surrey | no salary in JobG8 salary fields; no supported sala
 job_id: 2060983
 ---
 
+---
+action:
+SELECTED | Surrey | Surrey | no salary in JobG8 salary fields; no supported salary amount found in description | Investment Administrator
+job_id: 2062205
+---
+
+---
+action:
+SELECTED | Surrey | Surrey | no salary in JobG8 salary fields; no supported salary amount found in description | Paralegal
+job_id: 2062172
+---
+
+---
+action:
+SELECTED | Surrey | Surrey | no salary in JobG8 salary fields; no supported salary amount found in description | Legal Assistant
+job_id: 2062167
+---
+
+---
+action:
+SELECTED | Surrey | Surrey | no salary in JobG8 salary fields; no supported salary amount found in description | Business Management System Coordinator
+job_id: 108060385
+---
+
 ## SURREY — POSSIBLES
 
 ---
@@ -2012,12 +1994,6 @@ job_id: 2056622
 ---
 
 ## KENT — SELECTED
-
----
-action:
-SELECTED | Kent | Kent | no salary in JobG8 salary fields; no supported salary amount found in description | Service advisor
-job_id: 1855557
----
 
 ---
 action:
@@ -2095,12 +2071,6 @@ job_id: 2028629
 action:
 SELECTED | Kent | Kent | no salary in JobG8 salary fields; no supported salary amount found in description | Bookkeeper
 job_id: 2026057
----
-
----
-action:
-SELECTED | Kent | Kent | £26000 per year [JobG8 salary fields] | Business Support Assistant
-job_id: 108044308
 ---
 
 ---
@@ -2351,12 +2321,6 @@ job_id: 2045548
 
 ---
 action:
-SELECTED | Sussex | Sussex | £14.29 per hour | Finance Assistant
-job_id: 2044272
----
-
----
-action:
 SELECTED | Sussex | Sussex | £13.85 - £14.36 per hour | Finance Assistant
 job_id: 2044482
 ---
@@ -2389,6 +2353,24 @@ job_id: 2056867
 action:
 SELECTED | Sussex | Sussex |  | Internal Sales Administrator Team Lead
 job_id: 2038040
+---
+
+---
+action:
+SELECTED | Sussex | Sussex |  | Accounts Assistant
+job_id: 2063288
+---
+
+---
+action:
+SELECTED | Sussex | Sussex |  | Accounts Assistant
+job_id: 2063701
+---
+
+---
+action:
+SELECTED | Sussex | Sussex | £20000 per year | Horticulture Resource Coordinator
+job_id: 107954542
 ---
 
 ## SUSSEX — POSSIBLES
@@ -2613,6 +2595,12 @@ SELECTED | Bedfordshire | Bedfordshire |  | Customer Service Advisor
 job_id: 2057133
 ---
 
+---
+action:
+SELECTED | Bedfordshire | Bedfordshire | £15 per hour | Shipping & Logistics Coordinator
+job_id: 2063915
+---
+
 ## BEDFORDSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -2753,20 +2741,8 @@ job_id: 2045344
 
 ---
 action:
-SELECTED | Berkshire | Berkshire |  | HR Administrator
-job_id: 2045540
----
-
----
-action:
 SELECTED | Berkshire | Berkshire |  | Finance Administration Assistant
 job_id: 2048189
----
-
----
-action:
-SELECTED | Berkshire | Berkshire | £29500 per year | Pupil Support Administrator
-job_id: 20091_324681-03f77e739f8132a7634b10f52d3f0e4f
 ---
 
 ---
@@ -2797,6 +2773,12 @@ job_id: 2041120
 action:
 SELECTED | Berkshire | Berkshire |  | System Administrator - Linux & Cloud Infrastructure
 job_id: 612445453
+---
+
+---
+action:
+SELECTED | Berkshire | Berkshire |  | HR Administrator
+job_id: 2062934
 ---
 
 ## BERKSHIRE — POSSIBLES
@@ -2931,12 +2913,6 @@ job_id: 2045193
 
 ---
 action:
-SELECTED | Bristol & Bath | Bristol |  | Patent Paralegal - Bristol (c&;40,000 + benefits Hybrid)
-job_id: 2044469
----
-
----
-action:
 SELECTED | Bristol & Bath | Bath |  | Audit & Accounts Assistant
 job_id: 2049154
 ---
@@ -2957,6 +2933,12 @@ job_id: 2048221
 action:
 SELECTED | Bristol & Bath | Bristol | £30000 per year | Recruitment Administrator
 job_id: 2057330
+---
+
+---
+action:
+SELECTED | Bristol & Bath | Bristol | £32000 per year | Service Advisor
+job_id: 2063920
 ---
 
 ## BRISTOL & BATH — POSSIBLES
@@ -3193,8 +3175,20 @@ job_id: 1882412
 
 ---
 action:
-SELECTED | Cambridgeshire | Cambridge | £30000 - £31000 per year | Interim HR Coordinator
-job_id: 2059342
+SELECTED | Cambridgeshire | Cambridge |  | Interim HR Coordinator
+job_id: 2063078
+---
+
+---
+action:
+SELECTED | Cambridgeshire | Cambridge |  | HR Administrator
+job_id: 2063039
+---
+
+---
+action:
+SELECTED | Cambridgeshire | Peterborough | £14.22 per hour | IT Helpdesk Advisor - Dutch Speaker
+job_id: 108061988
 ---
 
 ## CAMBRIDGESHIRE — POSSIBLES
@@ -3577,18 +3571,6 @@ SELECTED | Derbyshire | Derbyshire |  | Conveyancing Administrator
 job_id: 1882118
 ---
 
----
-action:
-SELECTED | Derbyshire | Derbyshire | £22160.62 per year | Administrator
-job_id: 20091_325865
----
-
----
-action:
-SELECTED | Derbyshire | Derbyshire | £28000 - £30000 per year | Supply Chain Coordinator
-job_id: 23643_225564557
----
-
 ## DERBYSHIRE — POSSIBLES
 
 ---
@@ -3604,12 +3586,6 @@ job_id: 2059301
 ---
 
 ## DEVON — SELECTED
-
----
-action:
-SELECTED | Devon | Devon |  | Customer Care Coordinator
-job_id: 1858672
----
 
 ---
 action:
@@ -3677,6 +3653,24 @@ SELECTED | Devon | Devon | £16.75 per hour | Finance and Bursary Administrator
 job_id: 2045343
 ---
 
+---
+action:
+SELECTED | Devon | Devon | £30,000 per annum | HR Assistant
+job_id: 108059822
+---
+
+---
+action:
+SELECTED | Devon | Devon |  | HR Coordinator
+job_id: 2062986
+---
+
+---
+action:
+SELECTED | Devon | Devon |  | Payroll Administrator
+job_id: 108060887
+---
+
 ## DEVON — POSSIBLES
 
 ---
@@ -3689,12 +3683,6 @@ job_id: 2055395
 action:
 POSS - DEVON | Devon | Devon | £30000 - £40000 per year | Remote Conveyancing Paralegal
 job_id: 2055612
----
-
----
-action:
-POSS - DEVON | Devon | Devon | £35000 - £40000 per year | Finance Assistant Audit
-job_id: 2056757
 ---
 
 ## DORSET — SELECTED
@@ -3757,6 +3745,24 @@ job_id: 2041792
 action:
 SELECTED | Dorset | Dorset | £12000 per year | Activities Coordinator
 job_id: 108024705
+---
+
+---
+action:
+SELECTED | Dorset | Dorset | £26000 per year | Care Coordinator
+job_id: 108069104
+---
+
+---
+action:
+SELECTED | Dorset | Dorset | £15.50 - £16.00 per hour | People Administrator
+job_id: 2062918
+---
+
+---
+action:
+SELECTED | Dorset | Dorset |  | Credit Controller
+job_id: 2063324
 ---
 
 ## DORSET — POSSIBLES
@@ -4137,12 +4143,6 @@ job_id: 108006035
 
 ---
 action:
-SELECTED | Gloucestershire | Gloucestershire | £30000 per year | HR & Payroll Administrator
-job_id: 107980548
----
-
----
-action:
 SELECTED | Gloucestershire | Gloucestershire | £28935 per year | People Development Coordinator
 job_id: 2037263
 ---
@@ -4163,12 +4163,6 @@ job_id: 2050223
 action:
 SELECTED | Gloucestershire | Gloucestershire |  | Technical Administrator
 job_id: 2051901
----
-
----
-action:
-SELECTED | Gloucestershire | Gloucestershire | £26000 per year | Care Coordinator
-job_id: 108064327
 ---
 
 ---
@@ -4194,12 +4188,6 @@ job_id: 2043219
 _No jobs in this group._
 
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — SELECTED
-
----
-action:
-SELECTED | Greater Manchester - Manchester & Salford | Manchester |  | HR Systems & Reporting Coordinator
-job_id: 1856248
----
 
 ---
 action:
@@ -4339,12 +4327,24 @@ SELECTED | Greater Manchester - Manchester & Salford | Manchester | £14.52 per 
 job_id: 2059975
 ---
 
+---
+action:
+SELECTED | Greater Manchester - Manchester & Salford | Manchester |  | Asset Servicing Administrator (12 Month Fixed-Term Contract)
+job_id: 2063937
+---
+
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — POSSIBLES
 
 ---
 action:
 POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester | £40000 - £45000 per year | Junior Accountant
 job_id: 2014345
+---
+
+---
+action:
+POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester |  | Bookkeeper/Assistant Accountant
+job_id: 2063837
 ---
 
 ## GREATER MANCHESTER - SOUTH — SELECTED
@@ -4377,12 +4377,6 @@ job_id: 2043192
 action:
 SELECTED | Greater Manchester - South | Altrincham |  | Finance assistant - R2R
 job_id: 2045948
----
-
----
-action:
-SELECTED | Greater Manchester - South | Stockport |  | PERSONAL INJURY PARALEGAL - HYBRID
-job_id: 2049253
 ---
 
 ---
@@ -4585,6 +4579,12 @@ job_id: 2041623
 action:
 SELECTED | Hertfordshire | Hertfordshire | £28000 - £30000 per year | Commercial Administrator
 job_id: 2039272
+---
+
+---
+action:
+SELECTED | Hertfordshire | Hertfordshire |  | Investment Administrator
+job_id: 2058650
 ---
 
 ## HERTFORDSHIRE — POSSIBLES
@@ -4813,12 +4813,6 @@ job_id: 1996564
 action:
 SELECTED | Merseyside - Liverpool | Liverpool |  | Finance Assistant
 job_id: 2027305
----
-
----
-action:
-SELECTED | Merseyside - Liverpool | Liverpool |  | School Receptionist / Administrator - North Liverpool
-job_id: 2056486
 ---
 
 ## MERSEYSIDE - LIVERPOOL — POSSIBLES
@@ -5199,6 +5193,12 @@ SELECTED | Nottinghamshire | Nottinghamshire | £14.00 - £16.00 per hour | HR A
 job_id: 2056728
 ---
 
+---
+action:
+SELECTED | Nottinghamshire | Nottinghamshire |  | Customer Service Administrator
+job_id: 107964483
+---
+
 ## NOTTINGHAMSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -5327,6 +5327,18 @@ job_id: 2027323
 action:
 SELECTED | Scotland Central - Edinburgh & Lothians | Livingston |  | Logistics Coordinator
 job_id: 2051830
+---
+
+---
+action:
+SELECTED | Scotland Central - Edinburgh & Lothians | Edinburgh |  | IT Helpdesk Analyst (German Speaking)
+job_id: 2064402
+---
+
+---
+action:
+SELECTED | Scotland Central - Edinburgh & Lothians | Edinburgh | £13.00 per hour | Administrator Reception
+job_id: 2063301
 ---
 
 ## SCOTLAND CENTRAL - EDINBURGH & LOTHIANS — POSSIBLES
@@ -5751,12 +5763,6 @@ job_id: 2051869
 
 ---
 action:
-SELECTED | Staffordshire | Staffordshire | £15.11 per hour | Customs Administrator
-job_id: 108061323
----
-
----
-action:
 SELECTED | Staffordshire | Staffordshire | £30000 - £32000 per year | Training & Development Coordinator
 job_id: 2058006
 ---
@@ -5771,6 +5777,12 @@ job_id: 2050063
 action:
 SELECTED | Staffordshire | Staffordshire | £26244 - £27031 per year | Faculty Centre Administrator
 job_id: 2036473
+---
+
+---
+action:
+SELECTED | Staffordshire | Staffordshire |  | Sales Coordinator
+job_id: 108062618
 ---
 
 ## STAFFORDSHIRE — POSSIBLES
@@ -5925,12 +5937,6 @@ POSS - SUFFOLK | Suffolk | Suffolk | £30000 - £40000 per year | Remote Conveya
 job_id: 2055404
 ---
 
----
-action:
-POSS - SUFFOLK | Suffolk | Suffolk | £42000 per year | HR Co-ordinator
-job_id: 2050434
----
-
 ## WALES SOUTH - CARDIFF & VALE — SELECTED
 
 ---
@@ -5973,12 +5979,6 @@ job_id: 2045376
 action:
 SELECTED | Wales South - Cardiff & Vale | Cardiff | £30000 per year | Accounts Assistant
 job_id: 2059106
----
-
----
-action:
-SELECTED | Wales South - Cardiff & Vale | Cardiff | £27000 per year | Accounts Assistant
-job_id: 23643_225564170
 ---
 
 ## WALES SOUTH - CARDIFF & VALE — POSSIBLES
@@ -6383,6 +6383,12 @@ SELECTED | Wiltshire | Wiltshire | £35000 per year | Aftersales Service Advisor
 job_id: 107919550
 ---
 
+---
+action:
+SELECTED | Wiltshire | Wiltshire |  | Service Advisor
+job_id: 108062254
+---
+
 ## WILTSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -6573,6 +6579,30 @@ job_id: 2051167
 action:
 SELECTED | Yorkshire - North | Richmond |  | Administrator
 job_id: 2050566
+---
+
+---
+action:
+SELECTED | Yorkshire - North | Malton | £30000 per year | Service Coordinator
+job_id: 108059238
+---
+
+---
+action:
+SELECTED | Yorkshire - North | Ripon | £30000 per year | Credit Controller
+job_id: 108060036
+---
+
+---
+action:
+SELECTED | Yorkshire - North | Catterick Garrison | £28000 per year | Credit Controller
+job_id: 108061850
+---
+
+---
+action:
+SELECTED | Yorkshire - North | Catterick Garrison | £28000 per year | Credit Controller
+job_id: 108063151
 ---
 
 ## YORKSHIRE - NORTH — POSSIBLES

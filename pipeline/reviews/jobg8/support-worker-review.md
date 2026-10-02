@@ -65,12 +65,6 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | South Shields | £26,436 per annum | Young People Support Worker
-job_id: 1909446
----
-
----
-action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £23 per hour | Care Home Support Worker - &;23p/h
 job_id: 1939256
 ---
@@ -153,8 +147,14 @@ job_id: 108058320
 
 ---
 action:
-SELECTED | Sussex | Worthing | £27394 per year | Support Worker
-job_id: 107989029
+SELECTED | Sussex | Eastbourne | £13.79 - £14.31 per hour | Bank Care Assistant
+job_id: 108051488
+---
+
+---
+action:
+SELECTED | Sussex | Hailsham | £28000 per year | Residential Support Worker Childrens Care
+job_id: 108062155
 ---
 
 ## SUSSEX — POSSIBLES
@@ -173,6 +173,12 @@ job_id: 108001475
 action:
 SELECTED | Cumbria - South | Barrow-in-furness | £15 per hour (dependent on experience) | Rehabilitation Support Worker
 job_id: 108057926
+---
+
+---
+action:
+SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour | Support Worker
+job_id: 108059082
 ---
 
 ## CUMBRIA SOUTH — POSSIBLES
@@ -397,18 +403,6 @@ SELECTED | Kent | Sevenoaks | £14.00 - £17.00 per hour | Healthcare Assistant
 job_id: 2055653
 ---
 
----
-action:
-SELECTED | Kent | New Romney | £13.45 per hour | Support Worker
-job_id: 107918496
----
-
----
-action:
-SELECTED | Kent | Ramsgate | £13.45 per hour | Support Worker- Male
-job_id: 107918508
----
-
 ## KENT — POSSIBLES
 
 ---
@@ -559,6 +553,24 @@ SELECTED | Surrey | Walton-on-thames | £25,845 per annum | Support Worker
 job_id: 185888891903515033637340
 ---
 
+---
+action:
+SELECTED | Surrey | Guildford | £24000 per year | Residential Support Worker
+job_id: 108058876
+---
+
+---
+action:
+SELECTED | Surrey | Tadworth | £15 per hour | Male Healthcare Assistant - Tadworth
+job_id: 108062488
+---
+
+---
+action:
+SELECTED | Surrey | Leatherhead | £15 per hour | Male Healthcare Assistant - Leatherhead
+job_id: 108062509
+---
+
 ## SURREY — POSSIBLES
 
 _No jobs in this group._
@@ -569,6 +581,12 @@ _No jobs in this group._
 action:
 SELECTED | Wiltshire | Chippenham | £39134 per year | Healthcare Assistant
 job_id: 107879735
+---
+
+---
+action:
+SELECTED | Wiltshire | Swindon | £24000 per year | Healthcare Assistant
+job_id: 108068073
 ---
 
 ## WILTSHIRE — POSSIBLES
