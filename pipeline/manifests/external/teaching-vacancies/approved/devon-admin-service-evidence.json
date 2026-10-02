@@ -1,21 +1,20 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-01T18:23:29+01:00",
+  "generated_at": "2026-10-02T17:41:03+01:00",
   "source": "Teaching Vacancies",
   "region": "Devon",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-01",
-  "review_fingerprint": "1c5c5162f69fb63516e4a748bae2dcffcf37b5dcfa09c80dbc16e51c393a3166",
-  "routing_manifest_sha256": "192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304",
-  "review_csv_sha256": "b45a67fb4f1e46d03c43cd41685b747b7d32184647bf9e9b8af793497ec5e35b",
-  "summary_md_sha256": "0f3be1d94ff17c386a7af92b079c8b04ec8950dac9a0b7fea457f8cecbe31610",
-  "approved_snapshot_sha256": "da908130d0c981c15a708346e26be1931f5e04c8e09e70e3fd453aafb00ce133",
+  "review_date": "2026-10-02",
+  "review_fingerprint": "f6d444e5b1f4b115605a34dea95406f464ccd26c28ae724cb08c7a3c1bbd026a",
+  "routing_manifest_sha256": "95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a",
+  "review_csv_sha256": "f02dc9461eb732063d124ccdd160405eeefba8b35d12970a86d9bd8ffd53f4a1",
+  "summary_md_sha256": "1adf53d591124099d84140860255e5849cea50ee48785fc32346579859deb1a5",
+  "approved_snapshot_sha256": "0b7c3267077376dc269dfe061543c4156697466ed86f3a497cdfc28ff40e2fb9",
   "approved_rows": 16,
   "approved_job_ids": [
     "teaching-vacancies-apprenticeship-onboarding-administrator",
     "teaching-vacancies-attendance-officer-d0027772-8f3a-48b5-b0ae-06908bf9d607",
-    "teaching-vacancies-senior-administrator-stansfield-academy-exeter-devon",
     "teaching-vacancies-school-administrator-st-budeaux-cofe-primary-academy",
     "teaching-vacancies-exams-and-admissions-officer",
     "teaching-vacancies-school-hub-administrator",
@@ -28,6 +27,7 @@
     "teaching-vacancies-mis-administrator-maternity-cover",
     "teaching-vacancies-student-funding-administrator",
     "teaching-vacancies-people-administrator-dartmoor-multi-academy-trust-okehampton-not-recorded",
+    "teaching-vacancies-senior-administrator-stansfield-academy-exeter-devon",
     "teaching-vacancies-attendance-officer-4a095b88-91b4-4569-8b60-0007e7f44a59"
   ]
 }

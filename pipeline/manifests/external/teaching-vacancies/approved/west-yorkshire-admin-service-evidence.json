@@ -1,27 +1,26 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-01T18:23:35+01:00",
+  "generated_at": "2026-10-02T17:41:09+01:00",
   "source": "Teaching Vacancies",
   "region": "Yorkshire - West",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-01",
-  "review_fingerprint": "02e215262766edfc5e26696fa5ce58549a349d8d138bb35f61c0f5ac380eb0fb",
-  "routing_manifest_sha256": "192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304",
-  "review_csv_sha256": "6ea012f38931e34560446a65495637c4e7494770c86525a3d3a57bc1e4156a15",
-  "summary_md_sha256": "b0a6d30054c0fe58e2ce907d798a2db0e66e2cccf62fe01e9819822844dcb0ec",
-  "approved_snapshot_sha256": "abdde637b0334b0cd989f78673fa39fe0fd7783d440194075f2b7ced341b67d6",
-  "approved_rows": 10,
+  "review_date": "2026-10-02",
+  "review_fingerprint": "1b9194800ed92a39ed20915bd14b6a51a6d78a04ae5451fcd12cd0af78a6c4e7",
+  "routing_manifest_sha256": "95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a",
+  "review_csv_sha256": "0991d63acbd4a4154b21dcdb01433b7c768018b3e671efe8b4e2aec61713720c",
+  "summary_md_sha256": "5801f23d145fdcd04bca92bc0dde5a519f7fd516c4b4e589bdc03bd63491b94f",
+  "approved_snapshot_sha256": "7c75b708a2847381040d2fe3aa97e02c2f068f1b33c59c8162e42fbc1536ec89",
+  "approved_rows": 9,
   "approved_job_ids": [
-    "teaching-vacancies-clerical-assistant-receptionist-townville-academy-castleford-west-yorkshire",
     "teaching-vacancies-administrative-assistant-outwood-grange-academies-trust",
-    "teaching-vacancies-office-administrator-st-oswald-s-church-of-england-primary-academy",
     "teaching-vacancies-pa-to-the-principal-7519",
     "teaching-vacancies-recruitment-administrator-7575",
     "teaching-vacancies-data-administrator-the-north-halifax-grammar-school-halifax-west-yorkshire",
     "teaching-vacancies-administration-assistant-993064c2-8d4e-49cd-a144-d8b71360ac51",
     "teaching-vacancies-deputy-pa-receptionist-bradford-diocesan-academies-trust-bradford-not-recorded",
     "teaching-vacancies-exams-officer-bradford-forster-academy",
-    "teaching-vacancies-leadership-team-administrator-hybrid"
+    "teaching-vacancies-leadership-team-administrator-hybrid",
+    "teaching-vacancies-administrative-assistant-south-craven-school"
   ]
 }

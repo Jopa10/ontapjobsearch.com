@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-receptionist-and-admin-assistant-lift-tamworth",
-    "title": "Receptionist and Admin Assistant",
-    "company": "Lift Tamworth",
-    "location": "Tamworth",
-    "region": "Staffordshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£22277 - £22629 per annum",
-    "work_pattern": "",
-    "posted_date": "2026-09-18",
-    "closing_date": "2026-10-02",
-    "closing_datetime": "2026-10-02T13:30:18+01:00",
-    "summary": "Receptionist and Admin Assistant with Lift Tamworth in Tamworth. ['full time']; £22277 - £22629 per annum.",
-    "description": "Lift Tamworth is recruiting for this vacancy in Tamworth.\n\nThe advertised position is Receptionist and Admin Assistant.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £22277 - £22629 per annum.\n\nThe stated application deadline is 2026-10-02T13:30:18+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admin-assistant-lift-tamworth?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Lift Tamworth",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-attendance-officer-level-4-longford-primary-academy-cannock-staffordshire",
     "title": "Attendance Officer - Level 4",
     "company": "Longford Primary Academy",
@@ -50,9 +22,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Longford Primary Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -78,9 +47,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "St Margaret Ward Catholic Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -106,9 +72,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Blythe Bridge High School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -453,6 +416,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9205-26-1903",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -472,6 +438,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9232-26-0255",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -491,6 +460,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0513",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -510,6 +482,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1364",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

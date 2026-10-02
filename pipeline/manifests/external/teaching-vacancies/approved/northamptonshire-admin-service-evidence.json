@@ -1,21 +1,21 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-01T18:23:32+01:00",
+  "generated_at": "2026-10-02T17:41:06+01:00",
   "source": "Teaching Vacancies",
   "region": "Northamptonshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-01",
-  "review_fingerprint": "da24e15f713720df1c9635f48acb5a62eb3b31537db386632dbe0e3621126597",
-  "routing_manifest_sha256": "192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304",
-  "review_csv_sha256": "fab69650d55c4d659ce6c1d19c2b59246cefd629974b0d430d384db3c0a6ad98",
-  "summary_md_sha256": "cf353c6e2f02f1e80bc12f038a0ec71143f2d890127091392e587772a7b37da4",
-  "approved_snapshot_sha256": "1c841653c1944d8958fd76b70b8cc6d731e4847f4b720154777b8e73f0ec1fdd",
+  "review_date": "2026-10-02",
+  "review_fingerprint": "38d3a70fc9b8eb0e53753ba59c9ca55aeb21dcbf6e259d6977e2760c56e615b4",
+  "routing_manifest_sha256": "95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a",
+  "review_csv_sha256": "ce1e614ed2211913d3935b8fbba29abfff7a31fddfba6c209c51b654f983baaf",
+  "summary_md_sha256": "af94a023511758acdf70ef46246a393acedab90d1f537bece297b4356cba88b9",
+  "approved_snapshot_sha256": "11f6b920cf109fd57864cf6027c21e7c46a6a8777c34a6569870892e405ce816",
   "approved_rows": 4,
   "approved_job_ids": [
+    "teaching-vacancies-administrator-caroline-chisholm-school-northampton-northamptonshire",
     "teaching-vacancies-receptionist-guilsborough-academy",
     "teaching-vacancies-front-of-house-receptionist-wollaston-school",
-    "teaching-vacancies-academy-administrator-greenfields-primary-school-and-nursery",
     "teaching-vacancies-administrator-welford-sibbertoft-and-sulby-endowed-school-northampton-northamptonshire"
   ]
 }

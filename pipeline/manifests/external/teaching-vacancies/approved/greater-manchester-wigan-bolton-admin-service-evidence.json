@@ -1,18 +1,16 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-01T18:23:30+01:00",
+  "generated_at": "2026-10-02T17:41:04+01:00",
   "source": "Teaching Vacancies",
   "region": "Greater Manchester - Wigan & Bolton",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-01",
-  "review_fingerprint": "f453fd1b9a953f755002494ddbabf7fd80f8e55a5ae030ad2eb12673dd372495",
-  "routing_manifest_sha256": "192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304",
-  "review_csv_sha256": "406367373c637c558ab467aab04f80108709029a50938bd5f2f8833eafaafd4e",
-  "summary_md_sha256": "21c8e0286c7ff9bfc8ae7f3e2d998e07011dbce22851b788f3231187a9d2544b",
-  "approved_snapshot_sha256": "75e316d9bc03a800feb8b73377b7976fc6a288949adc582abe8b581c7a4223ae",
-  "approved_rows": 1,
-  "approved_job_ids": [
-    "teaching-vacancies-pastoral-admin-assistant-dean-trust-wigan"
-  ]
+  "review_date": "2026-10-02",
+  "review_fingerprint": "311a9f55543b25fc5b5ea1aca6b399537f6e9afcc378a51e03f14ff24a4ef182",
+  "routing_manifest_sha256": "95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a",
+  "review_csv_sha256": "48a8afcb581c70c278804ddc87b0e8cae53b0687e159e1a12d5b2dd36366fc62",
+  "summary_md_sha256": "697b0f23babd6890d0aff0c277b13ad962a557cab14f9cc7bc16cf723e6ae39e",
+  "approved_snapshot_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "approved_rows": 0,
+  "approved_job_ids": []
 }

@@ -1,17 +1,17 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-01T18:23:34+01:00",
+  "generated_at": "2026-10-02T17:41:09+01:00",
   "source": "Teaching Vacancies",
   "region": "Yorkshire - South",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-01",
-  "review_fingerprint": "bed5314d73475a2233eae0b38a1f8e616511300b097dde67baf5752fc5c4cbdb",
-  "routing_manifest_sha256": "192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304",
-  "review_csv_sha256": "00ec5c84a65a5155f9284087041f97951031b636221583a15c7aa1f5b04425a1",
-  "summary_md_sha256": "6f1c95932e191dcad3fa39ee4a97baf9eae8dfce2f21ed7e3aa3dc1da8900d40",
-  "approved_snapshot_sha256": "c3d773a478d74288b8dc107342a2e1efa9e72ced548b9b33f17162d8346552e8",
-  "approved_rows": 12,
+  "review_date": "2026-10-02",
+  "review_fingerprint": "5695df467b8b7763321edb798e1d2d37afd56da03c47dfe64db6c08abf7db6f9",
+  "routing_manifest_sha256": "95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a",
+  "review_csv_sha256": "b75fb98bca9e3a8c8b78ac088f5ea5368d39ea7dfc2ab908de6bade550af57dd",
+  "summary_md_sha256": "ed58b9e916400f06ddaacf1528f8f066e72e9c6fd186e6af1b12d0680ba44a5c",
+  "approved_snapshot_sha256": "b4b4913c2ba12b709771db921e9f3218fcd3afe361c7a3376c0d0d6329ab3ec9",
+  "approved_rows": 13,
   "approved_job_ids": [
     "teaching-vacancies-admin-assistant-part-time-18-hrs",
     "teaching-vacancies-temporary-admin-assistant-at-kiveton-park-infant-school",
@@ -23,6 +23,7 @@
     "teaching-vacancies-hr-administrator-e50a9848-dea2-4828-a9a5-5745ea9a03ce",
     "teaching-vacancies-receptionist-stocksbridge-junior-school",
     "teaching-vacancies-admin-assistant-owston-park-primary-academy",
+    "teaching-vacancies-attendance-and-attendance-officer",
     "teaching-vacancies-scitt-administrator-chorus-education-trust",
     "teaching-vacancies-admin-clerical-officer-level-2-rowan-school-the-rowan-school"
   ]

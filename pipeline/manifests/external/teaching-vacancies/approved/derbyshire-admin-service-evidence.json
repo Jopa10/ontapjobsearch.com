@@ -1,18 +1,19 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-01T18:23:29+01:00",
+  "generated_at": "2026-10-02T17:41:03+01:00",
   "source": "Teaching Vacancies",
   "region": "Derbyshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-01",
-  "review_fingerprint": "65211913583bb14be53e105228665cb0654f0388fb33b4ebecf662c299f06d2f",
-  "routing_manifest_sha256": "192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304",
-  "review_csv_sha256": "63c4fa0dadfb84481742128c79d7aebf159070a50976ee276f5a2a79f08b0596",
-  "summary_md_sha256": "c40c45a70fdc59c6d3bd008183a92c86670c7bb543dca4d45db254b04c46cd73",
-  "approved_snapshot_sha256": "3f16f3440d91be3779d68c5acaeb2336694a7bea5268f32cdc1cd1e4b3979ed8",
-  "approved_rows": 1,
+  "review_date": "2026-10-02",
+  "review_fingerprint": "a40416e6e92ceabbf805726e2bf828d726b5c9b70e70d00a884c652809cd4306",
+  "routing_manifest_sha256": "95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a",
+  "review_csv_sha256": "5c2ec519d746504619d913c4ea1aa9b911fd6f23ab785f6798305282dc687bc6",
+  "summary_md_sha256": "284a4da3d8558f4cff553775372392f0e066983cb9386042269aee5a423e0dba",
+  "approved_snapshot_sha256": "df7d1368e864715aae039290809690f55584bbecd904e95b18ce3aa62e602b93",
+  "approved_rows": 2,
   "approved_job_ids": [
-    "teaching-vacancies-administrator-with-pastoral-focus"
+    "teaching-vacancies-administrator-with-pastoral-focus",
+    "teaching-vacancies-administrative-assistant-cover-administrator-the-bolsover-school-chesterfield-derbyshire"
   ]
 }

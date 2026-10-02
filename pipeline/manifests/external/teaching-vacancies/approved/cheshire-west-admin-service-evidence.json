@@ -1,18 +1,16 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-01T18:23:29+01:00",
+  "generated_at": "2026-10-02T17:41:02+01:00",
   "source": "Teaching Vacancies",
   "region": "Cheshire - West",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-01",
-  "review_fingerprint": "e196c60add401de62c446917ba1cf052038c1fa6c8f9699217e26e25fa23add4",
-  "routing_manifest_sha256": "192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304",
-  "review_csv_sha256": "e524fa1f2101ebf87ebc4227382f64ecf2c796b2076eb08c51b5fd71ab2cafd4",
-  "summary_md_sha256": "f595a05989b42064413ef3cb10ed2a8a4ed75f36290ccd06cec75f155046b370",
-  "approved_snapshot_sha256": "fd099224ccb3c6832d78584b5811e5e0e35bb28b0a1647cba598426aa657425d",
-  "approved_rows": 1,
-  "approved_job_ids": [
-    "teaching-vacancies-finance-administrator-upton-by-chester-high-school"
-  ]
+  "review_date": "2026-10-02",
+  "review_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "routing_manifest_sha256": "95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a",
+  "review_csv_sha256": "8d913a9da43dabd02e1a226d06632c6dfa53c6081f25a459ba06b2c92447b439",
+  "summary_md_sha256": "c569772bc92bd4180dd64ccc37eab626f17b28dd25706b3c2e46a45a84a4d27a",
+  "approved_snapshot_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "approved_rows": 0,
+  "approved_job_ids": []
 }

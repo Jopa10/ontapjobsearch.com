@@ -1,21 +1,22 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-01T18:23:33+01:00",
+  "generated_at": "2026-10-02T17:41:08+01:00",
   "source": "Teaching Vacancies",
   "region": "West Midlands - Coventry & Warwickshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-01",
-  "review_fingerprint": "edcb96422371e7eb6682efffce6e34c621e0988801057fd0e2d31d0da1a75dc8",
-  "routing_manifest_sha256": "192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304",
-  "review_csv_sha256": "563d4fe6b2b82925a97b485de62807f3f6d1b3f56a1492edd2fe1926523a1882",
-  "summary_md_sha256": "bb08a58c72d87dcff6bd97e8ac39fbadf01757f8b3bf764d1453e86f427ee319",
-  "approved_snapshot_sha256": "26e60db8fcebb0dd7d49cedd5af683cd1791391eec2e288cb44f2da86b0e9777",
-  "approved_rows": 4,
+  "review_date": "2026-10-02",
+  "review_fingerprint": "0ab42d4c91b1a5c2156a5eb8c3cb7420f7211388d4bc64aaee67b568c59edf3b",
+  "routing_manifest_sha256": "95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a",
+  "review_csv_sha256": "de17c188e90192275c969b4e46263374a8601361913841f825d4e663833ac41d",
+  "summary_md_sha256": "05ef6a70ef58288195af6ec36c228dde76b733a840ba1537b0b38de16c8a3bff",
+  "approved_snapshot_sha256": "96271ab1f140eb893a1a1126710107823ea6e050e3b119988e732232f7ca9622",
+  "approved_rows": 5,
   "approved_job_ids": [
     "teaching-vacancies-receptionist-administrator-shipston-high-school",
     "teaching-vacancies-pa-to-principal-the-queen-elizabeth-academy-atherstone-warwickshire",
     "teaching-vacancies-administration-assistant-stretton-church-of-england-academy-coventry-west-midlands",
+    "teaching-vacancies-administration-assistant-oak-wood-primary-school",
     "teaching-vacancies-exams-officer-barr-s-hill-school"
   ]
 }

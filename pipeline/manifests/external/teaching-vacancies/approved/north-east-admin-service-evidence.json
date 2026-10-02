@@ -1,25 +1,25 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-01T18:23:31+01:00",
+  "generated_at": "2026-10-02T17:41:06+01:00",
   "source": "Teaching Vacancies",
   "region": "North East",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-01",
-  "review_fingerprint": "090855d5d70b8c47ea1c87d8e41d0c549d847f4677e9ce2d5daec67d2c716a3d",
-  "routing_manifest_sha256": "192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304",
-  "review_csv_sha256": "79fdf81dc3513acb1f92c0551b6d33893762ae2779aa3ea76338938b61c10b82",
-  "summary_md_sha256": "7f2b224364ba2d681813717aea6a03b88fc79088aedc13f5f74b31b3648244b6",
-  "approved_snapshot_sha256": "f0317303431c231409f0fcc2600bf45d6461d8675f9beb1497812b8b0b8810f9",
+  "review_date": "2026-10-02",
+  "review_fingerprint": "bb8dd3e1e6c7091e609fcd63220bcda3ef9e7e6c156b30d34d044959f9657024",
+  "routing_manifest_sha256": "95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a",
+  "review_csv_sha256": "8011f84d07177db7e8c65fc8c4b53ed6f20b3f16481b2e59efe107fbbf301ed4",
+  "summary_md_sha256": "cca2391cc0b2b7b486c0ce0c0ee6a1bc8b79b8f64058dbabbf40f188e9b7b705",
+  "approved_snapshot_sha256": "1a812b492895dec7b38fae99820b8c008f6c38721eb1d6f3ad060d5700a76225",
   "approved_rows": 8,
   "approved_job_ids": [
-    "teaching-vacancies-attendance-officer-administrator-bede-academy-blyth-northumberland",
     "teaching-vacancies-hr-payroll-administrator-emmanuel-schools-foundation",
     "teaching-vacancies-lead-administrator-harry-watts-academy",
     "teaching-vacancies-administration-assistant-north-durham-academy",
     "teaching-vacancies-administration-assistant-st-leonard-s-catholic-primary-school-silksworth",
     "teaching-vacancies-school-support-roles-supervisory-assistant-administrative-assistant",
     "teaching-vacancies-data-management-administrator-2025-hm084",
+    "teaching-vacancies-administration-assistant-st-anthony-s-girls-catholic-academy",
     "teaching-vacancies-school-administrator-4b89961d-cc62-4cfa-9732-a8929179b607"
   ]
 }

@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-admin-officer-with-receptionist-duties",
-    "title": "Admin Officer (with Receptionist Duties)",
-    "company": "Wembley Manor",
-    "location": "Wembley",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£29,856.00 Annually (FTE) GLPC SC3 SP6 - Actual starting salary £17,972.63",
-    "work_pattern": "",
-    "posted_date": "2026-09-21",
-    "closing_date": "2026-10-02",
-    "closing_datetime": "2026-10-02T23:59:00+01:00",
-    "summary": "Admin Officer (with Receptionist Duties) with Wembley Manor in Wembley. ['part time']; £29,856.00 Annually (FTE) GLPC SC3 SP6 - Actual starting salary £17,972.63.",
-    "description": "Wembley Manor is recruiting for this vacancy in Wembley.\n\nThe advertised position is Admin Officer (with Receptionist Duties).\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £29,856.00 Annually (FTE) GLPC SC3 SP6 - Actual starting salary £17,972.63.\n\nThe stated application deadline is 2026-10-02T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/admin-officer-with-receptionist-duties?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Wembley Manor",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-administrative-assistant-riverside-school",
     "title": "Administrative Assistant",
     "company": "Riverside School",
@@ -49,11 +21,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Riverside School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-admin-assistant-warren-road-primary-school",
@@ -77,11 +45,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Warren Road Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-administrative-assistant-with-finance-experience",
@@ -105,11 +69,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "John Ball Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-part-time-receptionist-yavneh-college",
@@ -133,11 +93,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Yavneh College",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-personal-assistant-to-the-headteacher-southgate-school",
@@ -161,11 +117,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Southgate School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-receptionist-admin-assistant-st-paul-s-cofe-primary-school",
@@ -189,11 +141,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "St Paul's CofE Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-school-receptionist-orion-coopers",
@@ -217,11 +165,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Orion Coopers",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-school-receptionist-admin-assistant-trinity-catholic-high-school",
@@ -245,11 +189,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Trinity Catholic High School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-receptionist-part-time-coombe-boys-school",
@@ -273,11 +213,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Coombe Boys' School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-receptionist-at-oba-satellite-provision-at-avondale-park-primary-school-ormiston-beachcroft-academy",
@@ -301,11 +237,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Ormiston Beachcroft Academy",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-attendance-officer-ormiston-bridge-academy",
@@ -329,11 +261,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Ormiston Bridge Academy",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-behaviour-support-administrator-the-douay-martyrs-catholic-school-uxbridge-middlesex",
@@ -357,11 +285,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "The Douay Martyrs Catholic School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-general-administrator-38fde377-10ba-4d36-87df-9496dab66650",
@@ -385,11 +309,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Barnhill Community High School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-learning-support-administrator-burntwood-school",
@@ -413,39 +333,31 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Burntwood School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
-    "job_id": "teaching-vacancies-receptionist-administrative-support-the-sydney-russell-school",
-    "title": "Receptionist/Administrative Support",
-    "company": "The Sydney Russell School",
-    "location": "Dagenham",
+    "job_id": "teaching-vacancies-senior-data-administrator",
+    "title": "Senior Data Administrator",
+    "company": "The Beckmead Trust",
+    "location": "London",
     "region": "London",
     "country": "UK",
     "category": "Admin/Service – Office Support",
     "employment_type": "['full time']",
     "salary_min": "",
     "salary_max": "",
-    "salary_text": "£30,760.00 - £32,102.00 Annually (Actual) Scale 4 point 7-10",
+    "salary_text": "38,256 FTE - £39,276 FTE. NJC Grade 7 SCP 23 - 25 (Outer London)",
     "work_pattern": "",
-    "posted_date": "2026-09-24",
+    "posted_date": "2026-08-26",
     "closing_date": "2026-10-09",
-    "closing_datetime": "2026-10-09T05:00:00+01:00",
-    "summary": "Receptionist/Administrative Support with The Sydney Russell School in Dagenham. ['full time']; £30,760.00 - £32,102.00 Annually (Actual) Scale 4 point 7-10.",
-    "description": "The Sydney Russell School is recruiting for this vacancy in Dagenham.\n\nThe advertised position is Receptionist/Administrative Support.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £30,760.00 - £32,102.00 Annually (Actual) Scale 4 point 7-10.\n\nThe stated application deadline is 2026-10-09T05:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrative-support-the-sydney-russell-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "closing_datetime": "2026-10-09T00:00:00+01:00",
+    "summary": "Senior Data Administrator with The Beckmead Trust in London. ['full time']; 38,256 FTE - £39,276 FTE. NJC Grade 7 SCP 23 - 25 (Outer London).",
+    "description": "The Beckmead Trust is recruiting for this vacancy in London.\n\nThe advertised position is Senior Data Administrator.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is 38,256 FTE - £39,276 FTE. NJC Grade 7 SCP 23 - 25 (Outer London).\n\nThe stated application deadline is 2026-10-09T00:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/senior-data-administrator?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "The Sydney Russell School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-academy-administrator-galleywall-primary-city-of-london-academy-london",
@@ -469,39 +381,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Galleywall Primary, City of London Academy",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "teaching-vacancies-administrative-assistant-newbridge-school-romford-essex",
-    "title": "Administrative Assistant",
-    "company": "Newbridge School",
-    "location": "Romford",
-    "region": "London",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£31,284.00 - £32,653.00 Annually (FTE) OUTL4 (SCP 7–10) Actual Salary: £8,891.62",
-    "work_pattern": "",
-    "posted_date": "2026-09-23",
-    "closing_date": "2026-10-12",
-    "closing_datetime": "2026-10-12T09:00:00+01:00",
-    "summary": "Administrative Assistant with Newbridge School in Romford. ['part time']; £31,284.00 - £32,653.00 Annually (FTE) OUTL4 (SCP 7–10) Actual Salary: £8,891.62.",
-    "description": "Newbridge School is recruiting for this vacancy in Romford.\n\nThe advertised position is Administrative Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £31,284.00 - £32,653.00 Annually (FTE) OUTL4 (SCP 7–10) Actual Salary: £8,891.62.\n\nThe stated application deadline is 2026-10-12T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-newbridge-school-romford-essex?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Newbridge School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-education-and-health-care-plan-ehcp-administrator-carew-academy",
@@ -525,11 +405,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Carew Academy",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-administration-assistant-hawes-down-primary-school",
@@ -553,11 +429,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Hawes Down Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-administrative-assistant-welfare-part-time",
@@ -581,11 +453,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Edmonton County School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-human-resources-administrator-helix-learning-trust",
@@ -609,11 +477,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Helix Learning Trust",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-school-admin-assistant-receptionist-belmont-junior-school",
@@ -637,11 +501,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Belmont Junior School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-send-administrator-eastbrook-school",
@@ -665,11 +525,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Eastbrook School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "1950111",

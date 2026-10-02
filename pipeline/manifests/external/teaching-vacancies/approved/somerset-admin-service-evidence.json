@@ -1,16 +1,16 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-01T18:23:32+01:00",
+  "generated_at": "2026-10-02T17:41:07+01:00",
   "source": "Teaching Vacancies",
   "region": "Somerset",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-01",
-  "review_fingerprint": "ed0aec8bbbf0efdaee6a8bd3d53340c1e999804a6ac1b7c25ef211d13c12e1e1",
-  "routing_manifest_sha256": "192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304",
-  "review_csv_sha256": "b51aeeb0830b74f862718162d1b5f3862e8c36ffa383e6e8ae20a9b2c9bcee2b",
-  "summary_md_sha256": "2defcbeabcf9602ddb1b74c7a411cfacd5349cbcb3d8c744e301c65c1ca6afbc",
-  "approved_snapshot_sha256": "2d34061a0bccda3bc17d37e7b29a19d3abb263d1d1148f27ad12b50560710906",
+  "review_date": "2026-10-02",
+  "review_fingerprint": "81baeaa8ab5f25a124f1630d5ce2f4a844916221b5500d2885b5f9f047ec727e",
+  "routing_manifest_sha256": "95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a",
+  "review_csv_sha256": "3a9fad4c7566b2e87faa368f6e12ab12f655ac686334ca38ad8261c273e776f5",
+  "summary_md_sha256": "a123e9fac928f40e01a7c61c04c4a325ccd9f48387e79b919400aa6c26bc1824",
+  "approved_snapshot_sha256": "91eef5f67fc8d80651ff3de6c900b21c8c583ed94bab92fee747e21c87611599",
   "approved_rows": 6,
   "approved_job_ids": [
     "teaching-vacancies-business-support-and-compliance-administrator-part-time",
@@ -18,6 +18,6 @@
     "teaching-vacancies-receptionist-and-admin-assistant-bridgwater-college-academy",
     "teaching-vacancies-exams-officer-a5af8350-c1ba-4da1-923b-fd1382b67fde",
     "teaching-vacancies-administrative-assistant-kingsmead-academy",
-    "teaching-vacancies-admin-assistant-winterstoke-hundred-academy"
+    "teaching-vacancies-administration-assistant-winterstoke-hundred-academy"
   ]
 }

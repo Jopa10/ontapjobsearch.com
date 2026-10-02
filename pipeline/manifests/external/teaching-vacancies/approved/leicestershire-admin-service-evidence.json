@@ -1,18 +1,19 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-01T18:23:31+01:00",
+  "generated_at": "2026-10-02T17:41:05+01:00",
   "source": "Teaching Vacancies",
   "region": "Leicestershire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-01",
-  "review_fingerprint": "31cbd91bafef431dd154d8faac02e4f06c43f0d9e585294c6f9005ddf776087c",
-  "routing_manifest_sha256": "192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304",
-  "review_csv_sha256": "1342f39936d164fc23087f5b98313062280c7253b40933921f4c3f7cabd883c9",
-  "summary_md_sha256": "28f0f3278ed6b6d355fb29078acf7981503c029d1f8f585806d97dcd09829cf7",
-  "approved_snapshot_sha256": "98add97e769557ff6e5a5d44571a6ed97977217b539596a1f0b3b9f20b0671f2",
-  "approved_rows": 1,
+  "review_date": "2026-10-02",
+  "review_fingerprint": "124b26646452861faadfc948195ab75216f496197d603c4333abadf6f20010d9",
+  "routing_manifest_sha256": "95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a",
+  "review_csv_sha256": "d065f47435db316d34bd405a996c6a8fbce1beb45bae75139902719ad5418c8d",
+  "summary_md_sha256": "1e135131f7f2fabf01d8a83e72ac26e4873dabc5509acb1f47827593b1ad79f0",
+  "approved_snapshot_sha256": "606d0a0ae6d9d2441b11a55c3ef0f7bd1844c6274e345d1bd1eef11c27939f32",
+  "approved_rows": 2,
   "approved_job_ids": [
-    "teaching-vacancies-receptionist-maternity-cover-manorfield-church-of-england-primary-school"
+    "teaching-vacancies-receptionist-maternity-cover-manorfield-church-of-england-primary-school",
+    "teaching-vacancies-key-stage-administrator"
   ]
 }

@@ -1,24 +1,24 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-01T18:23:30+01:00",
+  "generated_at": "2026-10-02T17:41:04+01:00",
   "source": "Teaching Vacancies",
   "region": "Hertfordshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-01",
-  "review_fingerprint": "79c48a66add704edba79d2837bef51762ae7bec96c567379ea88b498cf0aae2c",
-  "routing_manifest_sha256": "192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304",
-  "review_csv_sha256": "60979c8c808b4df1b562558d3e5a7766bc7fc58735e08d3a90b5a5adb0a9d148",
-  "summary_md_sha256": "64ce2490f96b5a92b32d895cc3ab0c32fcd67359feb18728e979c21b2610c927",
-  "approved_snapshot_sha256": "9dc21fe1409cf4db9c7e8a2b7554a28f46ad731867d7aa76d58f12cdac2cccee",
+  "review_date": "2026-10-02",
+  "review_fingerprint": "5bc2ef2d2be46942707b55614e435d954bced32b7c5b4f9470c4151c2f38b876",
+  "routing_manifest_sha256": "95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a",
+  "review_csv_sha256": "16fba53933476c49d2bad18c6d23adbaa46df73b78f1606bce8aaced596a4fdb",
+  "summary_md_sha256": "a91dc00ac63614227237e28585fc2b8c024444453c7eb59d3d7be0a37e96d167",
+  "approved_snapshot_sha256": "8aff01a019f8f1a0c99e9af2861225efc573339ef1a58965c827a52ca6a92f1d",
   "approved_rows": 7,
   "approved_job_ids": [
     "teaching-vacancies-office-administrator-larwood-school",
-    "teaching-vacancies-cover-administrator-supervisor",
     "teaching-vacancies-database-and-admissions-administrator-simon-balle-all-through-school",
     "teaching-vacancies-administrator-ludwick-nursery-school",
     "teaching-vacancies-office-administrator-petersfield-cofe-aided-primary-school",
     "teaching-vacancies-office-administrator-forres-primary-academy",
+    "teaching-vacancies-part-time-admin-assistant-oxhey-wood-primary-school",
     "teaching-vacancies-attendance-administrator-the-astley-cooper-school-hemel-hempstead-hertfordshire"
   ]
 }
