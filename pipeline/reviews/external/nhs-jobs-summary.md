@@ -14,6 +14,30 @@ Edit only each `action:` line for POSS rows. Unchanged decisions are restored by
 
 ---
 action:
+POSS | NHS Jobs | Herefordshire | Hereford, HR1 2ER | £32073.00 to £39043.00 | Administration Manager - Surgical Specialities (INTERNAL)
+source_job_id: 5638983
+title: Administration Manager - Surgical Specialities (INTERNAL)
+employer: Wye Valley NHS Trust
+region: Herefordshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9229-26-0868
+factual_fingerprint: 617915691b9d0c42e2474737a46446687d4ad22e81905332f03768292f84730a
+---
+
+---
+action:
+POSS | NHS Jobs | — | Woolwich, SE18 4QH | £39959.00 to £48117.00 | Senior Complaints Officer
+source_job_id: 5638955
+title: Senior Complaints Officer
+employer: Lewisham and Greenwich NHS Trust
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9197-26-0889
+factual_fingerprint: d1f9cf1e7f0642ea30d81340b7b9528f750f047a3ea4d5ff913b91ef3ec513d9
+---
+
+---
+action:
 POSS | NHS Jobs | Cheshire - East | crewe, CW1 4QJ | £25760.00 to £27476.00 | Clinic Coordinator
 source_job_id: 5638181
 title: Clinic Coordinator
@@ -5330,18 +5354,6 @@ factual_fingerprint: d68f7c5d007116fc8b893121823c539238645151d1a51f1e3ca7032891b
 
 ---
 action:
-POSS | NHS Jobs | London | Orpington, BR6 8ND | £36943.00 to £44900.00 | General Surgery Lead Elective Admissions/SAAU
-source_job_id: 5632550
-title: General Surgery Lead Elective Admissions/SAAU
-employer: King's College Hospital NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9213-26-0866
-factual_fingerprint: 12b83818b3e2cc88a28a963688ee6721ce37bff6568d3cb3b71cea37638fad58
----
-
----
-action:
 POSS | NHS Jobs | London | London, EC1V 2PD | £20511.60 to £22433.40 | A&E Weekend Supervisor
 source_job_id: 5632282
 title: A&E Weekend Supervisor
@@ -6034,18 +6046,6 @@ region: Kent
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9277-26-1015
 factual_fingerprint: 63b519bc0763577d256e329f30cd9be82341854cf84a970218b8a29d7460ad86
----
-
----
-action:
-POSS | NHS Jobs | Bedfordshire | Luton, LU4 0DZ | £28392.00 to £31157.00 | Nephrology Medical Secretary / Clinic Co-ordinator (Part time)
-source_job_id: 5629501
-title: Nephrology Medical Secretary / Clinic Co-ordinator (Part time)
-employer: Bedfordshire Hospitals NHS Foundation Trust
-region: Bedfordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9418-26-0990
-factual_fingerprint: 09f48432e58ec6bb8c09429663df2803d810fc6fa68379ee4867390a40330464
 ---
 
 ---
@@ -7821,7 +7821,7 @@ employer: Northern Lincolnshire and Goole NHS Foundation Trust
 region: Lincolnshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9208-26-0577
-factual_fingerprint: 1ea823493d761789c6b8ec61286d8b9e06590428140b4cbfbc623464ad86e178
+factual_fingerprint: 06c55d9788507278c7c21f3fcef4826ec7c43d43c0f28fc12b390f720397c78f
 ---
 
 ---

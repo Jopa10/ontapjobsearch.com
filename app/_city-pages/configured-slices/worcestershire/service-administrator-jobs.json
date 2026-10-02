@@ -1,30 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-administrator-send-department-tenbury-high-ormiston-academy",
-    "title": "Administrator (SEND Department)",
-    "company": "Tenbury High Ormiston Academy",
-    "location": "Tenbury Wells",
-    "region": "Worcestershire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£8,782.00 - £8,921.00 Annually (Actual)",
-    "work_pattern": "",
-    "posted_date": "2026-09-11",
-    "closing_date": "2026-10-02",
-    "closing_datetime": "2026-10-02T12:00:00+01:00",
-    "summary": "Administrator (SEND Department) with Tenbury High Ormiston Academy in Tenbury Wells. ['part time']; £8,782.00 - £8,921.00 Annually (Actual).",
-    "description": "Tenbury High Ormiston Academy is recruiting for this vacancy in Tenbury Wells.\n\nThe advertised position is Administrator (SEND Department).\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £8,782.00 - £8,921.00 Annually (Actual).\n\nThe stated application deadline is 2026-10-02T12:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administrator-send-department-tenbury-high-ormiston-academy?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-office-administrator-stourport-primary-academy-stourport-on-severn-worcestershire",
     "title": "Office Administrator",
     "company": "Stourport Primary Academy",
@@ -47,6 +22,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Stourport Primary Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -72,6 +50,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "St George's CofE School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -97,6 +78,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Ipsley CofE Middle School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
