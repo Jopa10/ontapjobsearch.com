@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-10-01
-review_fingerprint: 9159716e6238e0559296622724a42ee599cde9e8d10acb28fc8395034bf0bb73
+review_date: 2026-10-02
+review_fingerprint: 3c62dfbfcad65509d2231d940dfdc5e6b3c399051954b9e5900def76269fe9d6
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,9 +10,9 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-10-01T14:45:50+01:00
+Run generated: 2026-10-02T14:00:58+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 354
+JobG8 comparison rows: 422
 Approved NEJobs comparison rows: 0
 
 ## Funnel
@@ -22,14 +22,14 @@ Approved NEJobs comparison rows: 0
 - Detail failures/listing fallbacks: 0
 - Obvious hard passes not detail-fetched: 13
 - Tees Valley explicitly excluded: 0
-- Outside or unmapped geography excluded: 2
+- Outside or unmapped geography excluded: 3
 - Generic/derived geography rows requiring review: 2
-- Retained target candidates: 13
+- Retained target candidates: 12
 
 ## Outcomes
 - HC: 0
 - POSS: 4
-- HARD_PASS: 9
+- HARD_PASS: 8
 - Final selected after remembered/manual actions: 0
 - Final POSS awaiting decision: 4
 - Manually excluded: 0
@@ -105,10 +105,9 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173475
 - [Grants and Funding Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173425) — out-of-scope VONNE occupation.
 - [Learning Disability Skills Specialist (Part Time)](https://www.vonne.org.uk/vonne-jobs-details?cid=172581) — insufficient service-admin evidence.
 - [Parent Carer Project Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173466) — out-of-scope VONNE occupation.
-- [Recovery Coach](https://www.vonne.org.uk/vonne-jobs-details?cid=173464) — insufficient service-admin evidence.
-- [Recovery Coach](https://www.vonne.org.uk/vonne-jobs-details?cid=173463) — insufficient service-admin evidence.
 - [Team Leader - All-Age Caregivers](https://www.vonne.org.uk/vonne-jobs-details?cid=173477) — insufficient service-admin evidence.
 - [Young Carer Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173481) — out-of-scope VONNE occupation.
+- [Youth Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173495) — out-of-scope VONNE occupation.
 
 ## Safety boundary
 - The script writes CSV and Markdown review outputs only.
