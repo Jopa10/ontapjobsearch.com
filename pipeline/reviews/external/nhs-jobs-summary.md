@@ -2,15 +2,135 @@
 
 review_date: 2026-10-02
 
-- Open Administrative & Clerical rows reviewed: 2370
+- Open Administrative & Clerical rows reviewed: 2380
 - Auto/remembered selected: 425
 - Selected HC Tier A: 226
 - Selected HC Tier B: 199
-- POSS awaiting decision: 1830
+- POSS awaiting decision: 1840
 - Excluded: 0
 - HARD_PASS: 115
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Hampshire | Southampton, SO14 0YG | £28392.00 to £31157.00 | Senior Buyer
+source_job_id: 5639808
+title: Senior Buyer
+employer: Wessex Procurement Limited
+region: Hampshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C8188-26-0004
+factual_fingerprint: e9fc28ff163ba11a43fd5c8ff39d9daa01dd1f4c8ee95a3d66cebd178818d823
+---
+
+---
+action:
+POSS | NHS Jobs | Hampshire | Basingstoke, SO16 6YD | £25760.00 to £27476.00 | Stock Management Officer
+source_job_id: 5639712
+title: Stock Management Officer
+employer: Wessex Procurement Limited
+region: Hampshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C8188-26-0003
+factual_fingerprint: 18c3d5a77bd7841ba1ed166abc6f65dffb6282b94e2b502a8f912ecbb0019894
+---
+
+---
+action:
+POSS | NHS Jobs | Essex | Chelmsford, CM1 1QH | £39959.00 to £48117.00 | HCA Recruitment & Retention Officer - Band 6
+source_job_id: 5638499
+title: HCA Recruitment & Retention Officer - Band 6
+employer: NHS Essex Integrated Care Board
+region: Essex
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9708-MSE573
+factual_fingerprint: cc365dd178984271f75c270548d9f56ce976cf2b49fa5228969d8374854b9963
+---
+
+---
+action:
+POSS | NHS Jobs | Sussex | Eastbourne, BN21 2UD | £25272.00 | Endoscopy Administrative Assistant
+source_job_id: 5630490
+title: Endoscopy Administrative Assistant
+employer: East Sussex Healthcare NHS Trust
+region: Sussex
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9374-26-0881
+factual_fingerprint: f6ebd1df57aa612e9b3fa7d7630fe5b422dda91fa73b51b8a49e9353008c9b6b
+---
+
+---
+action:
+POSS | NHS Jobs | Sussex | St Leonards-on-Sea, TN37 7RD | £32073.00 to £39043.00 | Pathology Patient Pathway Co-ordinator
+source_job_id: 5630258
+title: Pathology Patient Pathway Co-ordinator
+employer: East Sussex Healthcare NHS Trust
+region: Sussex
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9374-26-0880
+factual_fingerprint: ec998b78d4d4ee87cb6547db7c3ccea4be40e995b91810ff1a509f1f600b4fbe
+---
+
+---
+action:
+POSS | NHS Jobs | Sussex | Eastbourne, BN21 2UD | £25272.00 | Interface Services Administrator UCR/VW
+source_job_id: 5628740
+title: Interface Services Administrator UCR/VW
+employer: East Sussex Healthcare NHS Trust
+region: Sussex
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9374-26-0876
+factual_fingerprint: 2aaae3b78ee615424d40270d5878daa8c4591232bb5afe0714936d4972935c2d
+---
+
+---
+action:
+POSS | NHS Jobs | Sussex | Eastbourne, BN21 2UD | £49387.00 to £56515.00 | Clinical Coding Trainer
+source_job_id: 5633805
+title: Clinical Coding Trainer
+employer: East Sussex Healthcare NHS Trust
+region: Sussex
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9374-26-0884
+factual_fingerprint: 46deb78264e60ce8586a3f8cdf48794a4cd9046e1109d80b7989aa769c020345
+---
+
+---
+action:
+POSS | NHS Jobs | Sussex | Eastbourne, BN21 2UD | £49387.00 to £56515.00 | Clinical Coding Auditor
+source_job_id: 5633768
+title: Clinical Coding Auditor
+employer: East Sussex Healthcare NHS Trust
+region: Sussex
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9374-26-0883
+factual_fingerprint: ed0814558e082dd0e0c9d6f6b9e1cb30261d5a57e8f52bc07a8194f2de2f959b
+---
+
+---
+action:
+POSS | NHS Jobs | Dorset | Wimborne, BH21 1AP | Negotiable | Patient Services Manager
+source_job_id: 5640028
+title: Patient Services Manager
+employer: The Quarter Jack Surgery
+region: Dorset
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2440-26-0005
+factual_fingerprint: a01e8e44318892504ec0353cb1893e519a84118297ec4722efa326ec067fe812
+---
+
+---
+action:
+POSS | NHS Jobs | London | London, NW1 5DH | £150000.00 | North West London Primary Care Provider Collaborative, Chief Executive
+source_job_id: 5639387
+title: North West London Primary Care Provider Collaborative, Chief Executive
+employer: Healthcare Central London Ltd
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0121-26-0003
+factual_fingerprint: 2dfb0c920e5fa774219198d16a5d60346c6cc20a3357de5375514f449de45a45
+---
 
 ---
 action:
@@ -2481,7 +2601,7 @@ employer: Lincolnshire Community Health Service NHS Trust
 region: Lincolnshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9818-26-0094
-factual_fingerprint: e2adb470a727c6bce075b1ed64344b0175f9445d72bbd5e67abc3bd77f3ec6a2
+factual_fingerprint: f44f499061d9244a4d3fb5064eb64060e1cfe1f7188b9ebd39f95d710fcf412d
 ---
 
 ---

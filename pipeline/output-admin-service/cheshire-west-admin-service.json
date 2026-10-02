@@ -315,7 +315,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9373-26-0630",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9373-26-0630",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5637491",
@@ -333,24 +337,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9373-26-0629",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9373-26-0629",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
-  },
-  {
-    "job_id": "nhs-5628168",
-    "source": "NHS Jobs",
-    "title": "Ward Clerk",
-    "company": "Countess of Chester Hospital NHS Foundation Trust",
-    "advertiser_name": "Countess of Chester Hospital NHS Foundation Trust",
-    "location": "Chester, CH2 1UL",
-    "region": "Cheshire - West",
-    "salary": "£25272.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-09-29T10:40:08.206673735",
-    "closing_date": "2026-10-07",
-    "description": "Working Part time: 19.5 hours per week We are seeking a motivated and compassionate Children's Ward Clerk to join our busy paediatric team. The successful candidate will provide efficient administrative and reception support to the ward, acting as a key point of contact for children, families, visitors, and healthcare professionals. You will be responsible for managing patient information, supporting admissions and discharges, handling telephone enquiries, maintaining accurate records, and ensuring the smooth day-to-day running of ward administration. Excellent communication, organisational, and IT skills are essential, along with the ability to work effectively in a fast-paced environment. This role requires a friendly, professional approach and a commitment to delivering a high standard of service to children, young people, and their families. Provide an efficient and professional ward clerk service to support the smooth running of the Children's Ward. Act as the first point of contact for patients, families, carers, visitors, and members of the multidisciplinary team. Receive and direct telephone calls, messages, and enquiries in a prompt and courteous manner. Maintain accurate patient records and ensure all information is entered correctly onto Trust electronic systems. Support patient admissions, transfers, and discharges, ensuring all documentation is completed accurately and in a timely manner. Prepare, organise, and file ward documentation in line with Trust policies and procedures. Liaise effectively with nursing, medical, allied health professional, and administrative teams. Arrange appointments, investigations, transport, and follow-up requirements as requested. Ensure patient confidentiality is maintained at all times in accordance with GDPR and Trust policies. Order and maintain adequate stocks of ward stationery and administrative supplies. Produce reports, correspondence, and ward activity data as required. Provide a welcoming, caring, and child-friendly environment for children, young people, and their families. Prioritise workload effectively and respond flexibly to the changing needs of the service. Participate in training, development, and mandatory updates relevant to the role. See Job Description for further details. Recruitment selection processes are based on competence (see Person specification) and values. An applicant guide to help and support you through your recruitment journey can be accessed at the bottom of this page. If you have a disability that meets the definition set out in the Equality Act 2010, and you can show that you meet the essential criteria described in the person specification for an available position, please answer YES to the question: Do you wish to be considered under the Guaranteed Interview Scheme? Please inform the team if you have any special support needs to be considered as part of the interview and selection processes. The trust offers a Guaranteed Interview Scheme to any armed forces community applicants who meet the essential criteria for the post. If a DBS is required for your role, you are encouraged to enrol for the DBS Update Service. A small annual fee applies which is payable to the DBS Service.Please note applicants will be required to pay for their DBS check. Costswill be deducted from their salary over the first three months of employment. New entrants to the NHS will commence on the minimum of the scale stated above. Applicants requiring sponsorship may wish to determine the likelihood of obtaining sponsorship for this position by assessing themselves against the criteria on the gov.uk website - https://www.gov.uk/check-uk-visa. The Trust will not sponsor where the starting salary does not meet immigration rules Applicants are advised to apply early as if a large number of applications are received for this post, we reserve the right to close the vacancy prior to the advertised date. Good luck with your application.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9210-26-0444",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9210-26-0444",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

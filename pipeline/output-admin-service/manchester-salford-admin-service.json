@@ -727,7 +727,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0973-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0973-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5631646",
@@ -739,13 +743,17 @@
     "region": "Greater Manchester - Manchester & Salford",
     "salary": "£28392.00 to £31157.00",
     "employment_type": "Fixed-Term",
-    "posted_date": "2026-09-30T09:02:16.425703040",
+    "posted_date": "2026-09-30T09:02:16.425703",
     "closing_date": "2026-10-14",
     "description": "Do you want to do meaningful work that makes a genuine difference to society? Our main purpose here at The National Institute for Health and Care Excellence (NICE) is to improve health and wellbeing by putting science and evidence at the heart of health and care decision making. As an organisation we all collaborate to achieve this same goal through empowering our workforce to do great things! We can offer you a great place to work with good benefits, flexible working, and a supportive, friendly, and inclusive environment. The Medicines Evaluation Directorate (MED) develops guidance and advice on the use of new and existing medicines (including highly specialised medicines), treatments, medical devices, diagnostics and surgical procedures within the NHS. The Technology Appraisals programme within MED advises the NHS and patients on the clinical and cost effectiveness of the technologies reviewed and their optimal position in clinical practice. Providing administrative support within the Project Team in the Technology Appraisals programme. Working daily with internal and external stakeholders to provide high-quality support, with close attention to detail. Developing and administering systems within the centre/directorate Planning and organising activities and own day-to-day work Providing efficient and effective administrative and secretarial support to team members, including preparing correspondence and papers, collating, copying and distributing papers and managing diaries Dealing with day-to-day enquiries by email, referring to other members of the team as appropriate Responding to queries, tailoring the approach to meet the needs of different groups/individuals Regular written and verbal liaison with committee members Liaising with a range of stakeholders both externally and internally Managing correspondence for their area of work Providing cover and deputising for the Assistant Project Manager in their absence Assisting in the induction and training of new and temporary members of staff Undertaking continuing professional development To be considered for this role, you should be able to particularly demonstrate the person specification criteria in the job advert in your application. However, applicants should be able to demonstrate all essential criteria through the entirety of the recruitment process to be considered for the job. Please see job description attached for full list of responsibilities. Please note that this role may not be eligible for sponsorship under the Skilled Worker route. Please refer to the Direct Gov website for further information regarding eligibility. Please note this vacancy may be closed early if sufficient suitable applications are received so we encourage an early application.",
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/G9907-26-0120",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/G9907-26-0120",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5631127",
@@ -763,7 +771,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5615-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5615-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5623609",
@@ -781,7 +793,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2830",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2830",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5627669",
@@ -799,7 +815,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1532-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1532-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5613139",
@@ -817,7 +837,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2593-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2593-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5604780",
@@ -835,6 +859,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2366-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2366-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
