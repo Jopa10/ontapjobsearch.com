@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - East
 
-review_date: 2026-10-01
+review_date: 2026-10-02
 review_fingerprint: 402994003010c9ea3f5c31c4f99b574aab9742e89ad8cc2c19d6b01cb7c4e4cb
-routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
+routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
 ontap_region: Cheshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 4
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 2
 
 ## SELECTED
 
@@ -62,6 +62,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administra
 ## HARD_PASS
 
 - [Director of People](https://teaching-vacancies.service.gov.uk/jobs/director-of-people-the-learning-partnership-academies-trust-crewe-not-recorded) — Insufficient admin/service evidence.
+- [Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-manager-the-fallibroome-academy) — Manager title salary ceiling £29,745 is not below £28,000.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-10-01
-review_fingerprint: 79c48a66add704edba79d2837bef51762ae7bec96c567379ea88b498cf0aae2c
-routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
+review_date: 2026-10-02
+review_fingerprint: 5bc2ef2d2be46942707b55614e435d954bced32b7c5b4f9470c4151c2f38b876
+routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -49,21 +49,6 @@ factual_fingerprint: f4948a796e5d4d65e9f8083c1c8fad9c27087de624c709c8f2e1edd06d7
 source: Teaching Vacancies
 source_job_id: attendance-administrator-the-astley-cooper-school-hemel-hempstead-hertfordshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-the-astley-cooper-school-hemel-hempstead-hertfordshire
----
-
----
-action: 
-SELECTED | Hertfordshire | Watford, East of England, WD18 0AE | £25,118.00 Annually (Actual) | Cover Administrator / Supervisor
-employer: Watford Grammar School for Girls
-closing_date: 2026-10-04T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 99e58c1b1ddcb198cf9e15201f009289810763c1247701ee26fa168bd2d9241e
-source: Teaching Vacancies
-source_job_id: cover-administrator-supervisor
-source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-administrator-supervisor
 ---
 
 ---
@@ -124,6 +109,21 @@ factual_fingerprint: 633ee9623f2877bdc5fa75718934b7de2b66ca74d38a9b11754bc9dfb7d
 source: Teaching Vacancies
 source_job_id: office-administrator-petersfield-cofe-aided-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-petersfield-cofe-aided-primary-school
+---
+
+---
+action: 
+SELECTED | Hertfordshire | Watford, East of England, WD19 7SL | £27,180.00 Annually (FTE) PART TIME (MORNINGS), TERM TIME ONLY | Part-Time Admin Assistant
+employer: Oxhey Wood Primary School
+closing_date: 2026-10-18T23:59:00+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 494688c903e500d50d4301e6faeb4756358e9452adf554f080e7fa60658e6744
+source: Teaching Vacancies
+source_job_id: part-time-admin-assistant-oxhey-wood-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-admin-assistant-oxhey-wood-primary-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

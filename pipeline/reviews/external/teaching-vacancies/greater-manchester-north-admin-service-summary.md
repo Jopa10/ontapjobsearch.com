@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-10-01
-review_fingerprint: 0377173d6099e1b4dce7ac33c81ece8524af443414700003bf75175f0915e92e
-routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
+review_date: 2026-10-02
+review_fingerprint: 747671e51913fda534cc2dae56c73c2fe0715cb4f06903405658eb187f4a751e
+routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 11
 - Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: edb84ca06584fa16776d98b0b872a98fd1b6c9343fdcb9b37a02b5108db
 source: Teaching Vacancies
 source_job_id: administration-assistant-level-2-st-patrick-s-roman-catholic-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-level-2-st-patrick-s-roman-catholic-primary-school
----
-
----
-action: 
-SELECTED | Greater Manchester - North | Oldham, North West, OL8 3PT | £27,274 - £29,071 per annum | Business Administrator
-employer: Hollinwood Academy
-closing_date: 2026-10-02T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: cb782ab744e6ae40aaf013d112bee55684d465763a6a007db676311239bcdc17
-source: Teaching Vacancies
-source_job_id: business-administrator-hollinwood-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administrator-hollinwood-academy
 ---
 
 ---
@@ -75,7 +60,7 @@ reason: Clear admin/service title: business support officer
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: c8891c13811aebec7ba6c6230bce7280614bdabf59430c98c22c5204254f08bc
+factual_fingerprint: 24553a06e4d5c3ee320e53c2905a5bb875657ef38eaa662acb62dcf7878eef42
 source: Teaching Vacancies
 source_job_id: business-support-officer-oulder-hill-leadership-academy-rochdale-lancashire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-oulder-hill-leadership-academy-rochdale-lancashire
@@ -94,6 +79,21 @@ factual_fingerprint: 9c09279201e1e4b28c135de68da5ec9a94dda6fef76c304db0b0e9a0046
 source: Teaching Vacancies
 source_job_id: business-support-officer-attendance-and-admissions-star-radcliffe-academy-radcliffe
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-attendance-and-admissions-star-radcliffe-academy-radcliffe
+---
+
+---
+action: 
+SELECTED | Greater Manchester - North | Radcliffe, North West, M26 2SZ | £27,709.00 to £29,071.00 per annum (pro rata £24,444.59 to £25,646.13 per annum) | Business Support Officer SEND
+employer: Star Radcliffe Academy
+closing_date: 2026-10-18T23:59:00+01:00
+reason: Clear admin/service title: business support officer
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: da2c5f67b67f6cd0dd1330581ee681a050f312ea7ea23648598185a8bf638448
+source: Teaching Vacancies
+source_job_id: business-support-officer-send
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-send
 ---
 
 ---
@@ -137,7 +137,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/mis-systems-and-data-
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-richmond-academy) — Insufficient admin/service evidence.
 - [Attendance Support Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-support-officer-st-gabriel-s-rc-high-school-a-voluntary-academy-bury-lancashire) — Insufficient admin/service evidence.
 - [Business Administrator based at New Bridge College](https://teaching-vacancies.service.gov.uk/jobs/business-administrator-based-at-new-bridge-college) — Missing salary or pay scale.
-- [Receptionist / Administrator](https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-hollingworth-academy) — Missing salary or pay scale.
 - [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-sacred-heart-roman-catholic-primary-school-a-voluntary-academy) — Manager title salary ceiling £36,581 is not below £28,000.
 
 ## Safety boundary

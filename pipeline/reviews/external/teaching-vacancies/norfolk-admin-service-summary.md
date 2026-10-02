@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-10-01
-review_fingerprint: 9ddb3e5a85a1044aeec34cc67f36feff1b00bbf1c39240ec42c5b6a90193e7c0
-routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
+review_date: 2026-10-02
+review_fingerprint: 584053ad22514993bf0aeeaec0d44edd48c9411479fa3c6018ec5741787f9158
+routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 8
+- Records: 10
+- Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -49,21 +49,6 @@ factual_fingerprint: 31f5ed28fcb06609b37aee84cb345475fdb2b91e3da42ea0bc15dc8607a
 source: Teaching Vacancies
 source_job_id: administration-assistant-great-yarmouth-primary-academy-and-nursery
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-great-yarmouth-primary-academy-and-nursery
----
-
----
-action: 
-SELECTED | Norfolk | Diss, East of England, IP22 2QY | Grade 2/3 (£24796- £28142 pro-rata) | Administration Assistant
-employer: Hopton Church of England Primary Academy
-closing_date: 2026-10-02T01:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 870b0f18d0c970ebe29d720ef5539eab60ff61e4197de83c8f38a73b4e9fd00d
-source: Teaching Vacancies
-source_job_id: administration-assistant-hopton-church-of-england-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-hopton-church-of-england-primary-academy
 ---
 
 ---
@@ -113,21 +98,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-04
 
 ---
 action: 
-SELECTED | Norfolk | King's Lynn, East of England, PE30 2QB | Salary: Support Staff Pay Scale C: £22,401 to £22,752 pro-rata per annum (Actual) (£25,614 - £26,016 full time/full year equivalent) | Receptionist
-employer: King Edward VII Academy
-closing_date: 2026-10-02T01:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f9c2f6eba972339fea7afc26f52c9fecca4694c9a275c90ae5f3fec60e84fdc1
-source: Teaching Vacancies
-source_job_id: receptionist-king-edward-vii-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-king-edward-vii-academy
----
-
----
-action: 
 SELECTED | Norfolk | Thetford, East of England, IP24 1EB | £18,974 to £19,271 actual pa | School Secretary
 employer: The Bishop's Church of England Primary Academy
 closing_date: 2026-10-07T01:00:00+01:00
@@ -164,7 +134,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-sp
 
 ## HARD_PASS
 
-- [Administration Officer: Vulnerable Students](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-vulnerable-students) — Insufficient admin/service evidence.
 - [HR Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-administration-assistant-inspiration-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-poringland-primary-school) — Manager title salary ceiling £33,119 is not below £28,000.
 - [Transport Assistant](https://teaching-vacancies.service.gov.uk/jobs/transport-assistant) — Insufficient admin/service evidence.

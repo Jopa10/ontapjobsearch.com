@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-10-01
+review_date: 2026-10-02
 review_fingerprint: ed5d11649ec4dd2d80f0b71af6e66e3733e934420bc176def1345b098d19780a
-routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
+routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE

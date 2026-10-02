@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-10-01
+review_date: 2026-10-02
 review_fingerprint: c6183e1c0c5a389b217807e11fc8927527a059839a9b85ff265ad0855b99a722
-routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
+routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: LIVE
@@ -46,8 +46,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-leadership-team
 
 ## HARD_PASS
 
-- [Admissions and Exam Officer - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-exam-officer-maternity-cover) — Insufficient admin/service evidence.
 - [Attendance Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/attendance-co-ordinator-the-bishop-of-winchester-academy) — Insufficient admin/service evidence.
+- [Exam Officer - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/exam-officer-maternity-cover-st-aldhelm-s-academy-poole-dorset) — Insufficient admin/service evidence.
 - [Finance Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-admin-officer-corfe-hills-school) — Insufficient admin/service evidence.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-10-01
+review_date: 2026-10-02
 review_fingerprint: 86a5ceacf18242507732c8627b1015164235fcc13a24d5c1c29db80dc28bf2ce
-routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
+routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 11
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 9
 
 ## SELECTED
 
@@ -63,7 +63,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-or
 
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-joseph-leckie-academy-walsall-west-midlands) — Manager title salary ceiling £51,928 is not below £28,000.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-ormiston-shelfield-community-academy-walsall-west-midlands) — Manager title salary ceiling £37,563 is not below £28,000.
+- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-wolverhampton-girls-high-school) — Manager title salary ceiling £30,202 is not below £28,000.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-st-chad-s-academies-trust) — Manager title salary ceiling £65,035 is not below £28,000.
+- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-3c179d0b-a9c2-49dd-88f6-f3678f79fb20) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-5f4d4502-0d91-4091-b646-cbfc76dcdfb2) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-jesson-s-church-of-england-primary-school) — Manager title without salary evidence below £28,000.
 - [Site Assistant](https://teaching-vacancies.service.gov.uk/jobs/site-assistant-09678cb0-aa80-498a-9526-d1d6da59db60) — Insufficient admin/service evidence.

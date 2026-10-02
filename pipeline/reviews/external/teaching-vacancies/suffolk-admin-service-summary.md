@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-10-01
-review_fingerprint: 2319b8887fc41b5860d0d394924bfc5cf3d5722c1125ee5dbfb91aaa593456f4
-routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
+review_date: 2026-10-02
+review_fingerprint: 323f66e072ed8002a856da8d51fe70fa7fb675f9ee6c5090005da589d6833cd8
+routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 7
+- Records: 7
+- Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
@@ -34,21 +34,6 @@ factual_fingerprint: e48a23a54dd91777ee55e6dae005edbea7fb12d3e7804628080e22aa0e8
 source: Teaching Vacancies
 source_job_id: admin-assistant-castle-east-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-castle-east-school
----
-
----
-action: 
-SELECTED | Suffolk | Woodbridge, East of England, IP12 3RE | £25,614.00 Annually (FTE) Grade 2, Point 3 | Admin Assistant
-employer: Hollesley Primary School
-closing_date: 2026-10-09T23:59:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b1134e4c75df1df9f21e6aad7a8eadbfd7507b09caaa27396942a7076f0d5c70
-source: Teaching Vacancies
-source_job_id: admin-assistant-hollesley-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-hollesley-primary-school
 ---
 
 ---

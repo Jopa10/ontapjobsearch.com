@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-10-01
-review_fingerprint: f14c88ea97df03cf76ac30816754d03318784ab47826e8d1a9ec14790fa4f7b1
-routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
+review_date: 2026-10-02
+review_fingerprint: 860afdbe1471f4b0bf106df85b2946def7c7ddd51545eb708c67dbab496c7bcf
+routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 26
-- Selected: 12
+- Records: 25
+- Selected: 10
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 14
+- Hard pass: 15
 
 ## SELECTED
 
@@ -98,6 +98,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B27 7BT | Grade 2 (Pt 3 - 8) FTE £25,614 - £27,709 – Actual Salary £22,645 - £24,498 | Administrative Assistant
+employer: The Oaklands Primary School
+closing_date: 2026-10-11T23:59:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7fbda42ad597e4801c4e7de78eb122c99bd5aa5d98264d9a316ab23780ab5940
+source: Teaching Vacancies
+source_job_id: administrative-assistant-the-oaklands-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-the-oaklands-primary-school
+---
+
+---
+action: 
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B17 9LU | £26,514.00 - £29,071.00 Annually (FTE) | Administrative Assistant, Admissions & Attendance
 employer: Harborne Primary School
 closing_date: 2026-10-12T12:00:00+01:00
@@ -109,51 +124,6 @@ factual_fingerprint: 9aa2156f0b152cb2aa0fa9b9216fd86874198a738441e87d1876e4cadc8
 source: Teaching Vacancies
 source_job_id: administrative-assistant-admissions-attendance
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-admissions-attendance
----
-
----
-action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B29 4HE | £23,408.04 - £25,392.13 Annually (Actual) SCP 12-17 | Administrator
-employer: E-ACT Shenley Academy
-closing_date: 2026-10-05T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ec12df7cb9efd9d181dc512ca36a19067961903353211a17477c94676d1fd612
-source: Teaching Vacancies
-source_job_id: administrator-de634a79-2cc9-479b-b3fe-58787528dcaa
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-de634a79-2cc9-479b-b3fe-58787528dcaa
----
-
----
-action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B13 0TW | £29,540.00 - £31,537.00 Annually (FTE) Actual Salary £26,592 – £28,390 | Administrator (Payroll and Leadership Support)
-employer: Swanshurst School
-closing_date: 2026-10-02T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e4ec8910bc790ed34c2576553a6ab3281fad4c1542f38ad1be793a7101189d41
-source: Teaching Vacancies
-source_job_id: administrator-payroll-and-leadership-support
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-payroll-and-leadership-support
----
-
----
-action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B13 0TW | £27,254.00 - £29,064.00 Annually (FTE) Actual Salary £23,933 - £25,522 per annum | Administrator (Year Team)
-employer: Swanshurst School
-closing_date: 2026-10-02T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 42bfa0638fd8c8ec072838197caff5d2121a67e02bafccb29200f25ec61c2489
-source: Teaching Vacancies
-source_job_id: administrator-year-team-swanshurst-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-year-team-swanshurst-school
 ---
 
 ---
@@ -214,6 +184,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-adminis
 - [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-the-deanery-church-of-england-primary-school) — Missing salary or pay scale.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-fioretti-trust) — Insufficient admin/service evidence.
 - [Data Apprentice](https://teaching-vacancies.service.gov.uk/jobs/data-apprentice-academy-transformation-trust) — Insufficient admin/service evidence.
+- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-swanshurst-school) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Governance Support Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-support-officer-eaa7a044-716c-471a-b1e0-33530ee7b932) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-st-john-paul-ii-multi-academy-company-birmingham-not-recorded) — Insufficient admin/service evidence.
 - [Office Administration](https://teaching-vacancies.service.gov.uk/jobs/office-administration) — Insufficient admin/service evidence.

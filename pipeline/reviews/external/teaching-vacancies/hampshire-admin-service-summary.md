@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-10-01
-review_fingerprint: ff60871bbacefd313ce1b7847eb458e27e34db87a3c5bf205d972dd17ea8029e
-routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
+review_date: 2026-10-02
+review_fingerprint: d3b0c253ca5d17f03972a5bf093af850e6ab2ace907a3e060e3f0d078d473825
+routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 1
+- Records: 9
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 7
@@ -36,6 +36,21 @@ source_job_id: administrative-assistant-thursdays-and-fridays
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-thursdays-and-fridays
 ---
 
+---
+action: 
+SELECTED | Hampshire | Basingstoke, South East, RG22 6HA | £12,059.00 - £13,260.00 Monthly Actual salary £12,059-£13,260 (FTE £25,551-£28,096) | Receptionist (Maternity Cover)
+employer: The Blue Coat School Basingstoke
+closing_date: 2026-10-11T23:59:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 829d11b9cecd62de226d2621366319ac14d7de72ecfc2e017fa9d1d7e45049ab
+source: Teaching Vacancies
+source_job_id: receptionist-maternity-cover-the-blue-coat-school-basingstoke
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-maternity-cover-the-blue-coat-school-basingstoke
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -49,10 +64,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 - [Apprentice Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/apprentice-admin-assistant-penbridge-junior-school) — Missing salary or pay scale.
 - [Business Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/business-administration-officer) — Insufficient admin/service evidence.
 - [Data Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-administration-assistant-cove-school) — Insufficient admin/service evidence.
-- [Deputy School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/deputy-school-business-manager-crestwood-community-school) — Manager title salary ceiling £46,565 is not below £28,000.
 - [Exams Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-assistant-the-romsey-school) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-romsey-school) — Insufficient admin/service evidence.
 - [School Resources/Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-resources-administration-assistant) — Insufficient admin/service evidence.
+- [Staff Wellbeing, Engagement and Development Advisor](https://teaching-vacancies.service.gov.uk/jobs/staff-wellbeing-engagement-and-development-advisor) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-10-01
+review_date: 2026-10-02
 review_fingerprint: 03b9f6d3d4597f875f1cc7a2a42fead218866d08a425bc6b586f92c30c2fa79f
-routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
+routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 6
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 3
 
 ## SELECTED
 
@@ -77,11 +77,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-records-adminis
 ## HARD_PASS
 
 - [Exams and Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-assistant-the-north-school) — Insufficient admin/service evidence.
-- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-aletheia-academies-trust-gravesend-not-recorded) — Insufficient admin/service evidence.
-- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-aletheia-academies-trust-gravesend-not-recorded) — Insufficient admin/service evidence.
 - [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-26e0bcfd-fd42-4fe6-bedf-503af84df187) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-staplehurst-school) — Manager title salary ceiling £29,020 is not below £28,000.
-- [Recruitment Lead](https://teaching-vacancies.service.gov.uk/jobs/recruitment-lead-aletheia-academies-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

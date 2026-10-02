@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-10-01
-review_fingerprint: 6acc62a3d157943f4083653044cf793c6423930dd58ad799b566d5a788dd57a1
-routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
+review_date: 2026-10-02
+review_fingerprint: 3fe5753722e5af3b021b01c74e6aefcb74f9733e5bca0a7367bb9afd46c1e684
+routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 17
-- Selected: 5
-- POSS awaiting decision: 3
+- Selected: 6
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 9
 
@@ -83,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ---
 action: 
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG3 6DS | Pro Rata salary £19,082 - £21,244 (FTE salary £27,409 – £30,515) | Senior Administrator
+employer: Carlton Digby School
+closing_date: 2026-10-14T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a4eba9cd3cf8d11e8adb4a938b29e44e929e8bcb3dee68c73e7c78bb4d5f4a27
+source: Teaching Vacancies
+source_job_id: senior-administrator-carlton-digby-school-nottingham-nottinghamshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-carlton-digby-school-nottingham-nottinghamshire
+---
+
+---
+action: 
 SELECTED | Nottinghamshire | Nottingham, East Midlands, NG5 8GX | Redhill Academy Trust Pay Scale, Band 6, Scale point 29 - 32 | Sixth Form Administrator
 employer: Redhill Academy
 closing_date: 2026-10-09T12:00:00+01:00
@@ -115,21 +130,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-the-bra
 
 ---
 action: 
-POSS | Nottinghamshire | Nottingham, NG9 3GA | £15,092.87 - £16,940.13 Annually (Actual) NJE Grade 5 - £31,015 - £34,811 (FTE) | Data Officer
-employer: The White Hills Park Trust Ltd
-closing_date: 2026-10-02T09:00:00+01:00
-reason: Borderline school administration title: data officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 205cb81db075e4052dbf10e809c511f0c86f0f8a1b7625e18ccc2fe669648211
-source: Teaching Vacancies
-source_job_id: data-officer-the-white-hills-park-trust-ltd
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-the-white-hills-park-trust-ltd
----
-
----
-action: 
 POSS | Nottinghamshire | Nottingham, East Midlands, NG5 4LT | £24,430.00 - £26,930.00 Annually (Actual) | Office Manager
 employer: The Good Shepherd Catholic Primary, Arnold
 closing_date: 2026-10-09T09:00:00+01:00
@@ -149,8 +149,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-the-go
 
 ## HARD_PASS
 
-- [Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-radford-primary-school-academy) — Insufficient admin/service evidence.
 - [Administrative Officer L3](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-l3-robert-shaw-primary-and-nursery-school) — Insufficient admin/service evidence.
+- [Data Protection Support Officer](https://teaching-vacancies.service.gov.uk/jobs/data-protection-support-officer) — Insufficient admin/service evidence.
 - [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-our-lady-of-lourdes-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [HR and Recruitment Team Leader](https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-team-leader) — Insufficient admin/service evidence.
 - [Personal Assistant to the Principal and Office Manager](https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-principal-and-office-manager-6f027893-3df6-483b-bec0-beb9e8765ced) — Manager title salary ceiling £34,280 is not below £28,000.

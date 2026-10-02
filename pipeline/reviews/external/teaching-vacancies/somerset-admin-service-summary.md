@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-10-01
-review_fingerprint: ed0aec8bbbf0efdaee6a8bd3d53340c1e999804a6ac1b7c25ef211d13c12e1e1
-routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
+review_date: 2026-10-02
+review_fingerprint: 81baeaa8ab5f25a124f1630d5ce2f4a844916221b5500d2885b5f9f047ec727e
+routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 12
 - Selected: 6
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -38,17 +38,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-the-c
 
 ---
 action: 
-SELECTED | Somerset | Weston-Super-Mare, South West, BS24 8EE | £22,947 - £25,010 | Admin Assistant
+SELECTED | Somerset | Weston-Super-Mare, South West, BS24 8EE | £22,947 - £25,010 | Administration Assistant
 employer: Winterstoke Hundred Academy
 closing_date: 2026-10-16T23:59:59+01:00
-reason: Clear admin/service title: admin assistant
+reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: eab3976cdabea520c3018946c4904f98ed332cd992dcec242d5c4e4e1c298b55
+factual_fingerprint: 2853696b3c397aba372c81583fd33d29b5f06b1714957932a66cdb9cd86acf1a
 source: Teaching Vacancies
-source_job_id: admin-assistant-winterstoke-hundred-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-winterstoke-hundred-academy
+source_job_id: administration-assistant-winterstoke-hundred-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-winterstoke-hundred-academy
 ---
 
 ---
@@ -60,7 +60,7 @@ reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 9d708af52b2f85b9ef59eb89bc4e6a11995d7267a2716265244c15bdaa13784b
+factual_fingerprint: 4d6e2f7849d0fcdc45e3d57fe15be0087bcb19f7ca048e94472bbd53cd4960bc
 source: Teaching Vacancies
 source_job_id: administrative-assistant-kingsmead-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-kingsmead-academy
@@ -113,20 +113,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admi
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Somerset | Minehead, South West, TA24 6AY | Support Staff Pay Scale Band 5 point 7-9 | Attendance Support Officer
-employer: West Somerset College
-closing_date: 2026-10-01T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4c64bdeac9bbe6cae3b32d70546342f76118e4329cd763882e666618b32591bd
-source: Teaching Vacancies
-source_job_id: attendance-support-officer-west-somerset-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-support-officer-west-somerset-college
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -136,6 +123,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-support-of
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-st-nicholas-chantry-church-of-england-primary-school) — Insufficient admin/service evidence.
 - [Apprentice Workplace Reviewer](https://teaching-vacancies.service.gov.uk/jobs/apprentice-workplace-reviewer) — Insufficient admin/service evidence.
+- [Customer Service Representative](https://teaching-vacancies.service.gov.uk/jobs/customer-service-representative) — Insufficient admin/service evidence.
 - [Finance Business Partner - Projects and Costings](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-projects-and-costings) — Insufficient admin/service evidence.
 - [Operations Lead](https://teaching-vacancies.service.gov.uk/jobs/operations-lead-bishops-hull-primary-school) — Insufficient admin/service evidence.
 - [Project and Executive Support Officer - Part Time](https://teaching-vacancies.service.gov.uk/jobs/project-and-executive-support-officer-part-time) — Insufficient admin/service evidence.

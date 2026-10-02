@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-10-01
-review_fingerprint: 31cbd91bafef431dd154d8faac02e4f06c43f0d9e585294c6f9005ddf776087c
-routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
+review_date: 2026-10-02
+review_fingerprint: 124b26646452861faadfc948195ab75216f496197d603c4333abadf6f20010d9
+routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 1
-- POSS awaiting decision: 1
+- Records: 8
+- Selected: 2
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 4
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Leicestershire | Leicester, East Midlands, LE9 9JL | Actual Salary £22,981 | Key Stage Administrator
+employer: Bosworth Academy
+closing_date: 2026-10-23T09:00:59+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f5199f3754ba92c6508a6bededdd47f65a4e65014035bb89c338e137f0d0e5b7
+source: Teaching Vacancies
+source_job_id: key-stage-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/key-stage-administrator
+---
 
 ---
 action: 
@@ -51,6 +66,21 @@ factual_fingerprint: a1ca8398b5e4613b00cd53fd29745be109c4a40318e2f9253f3a4e6f0ad
 source: Teaching Vacancies
 source_job_id: marketing-and-communications-officer-east-leake-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-and-communications-officer-east-leake-academy
+---
+
+---
+action: 
+POSS | Leicestershire | Wigston, LE18 2AH | £24,741.00 - £27,334.00 Annually (Actual) Grade 10 | Payroll, Pensions and People Data Manager
+employer: Learn Academies Trust
+closing_date: 2026-10-16T09:00:00+01:00
+reason: Manager title below £28,000 salary ceiling requires review
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 79e52ade2e0a3e45e0e8e3fe17aa91e1f0eab0fcca1163fa1292a72171b08882
+source: Teaching Vacancies
+source_job_id: payroll-pensions-and-people-data-manager
+source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-pensions-and-people-data-manager
 ---
 
 ## EXCLUDED BY REVIEW

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-10-01
-review_fingerprint: 02e215262766edfc5e26696fa5ce58549a349d8d138bb35f61c0f5ac380eb0fb
-routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
+review_date: 2026-10-02
+review_fingerprint: 1b9194800ed92a39ed20915bd14b6a51a6d78a04ae5451fcd12cd0af78a6c4e7
+routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 29
-- Selected: 10
-- POSS awaiting decision: 4
+- Records: 30
+- Selected: 9
+- POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 15
+- Hard pass: 16
 
 ## SELECTED
 
@@ -53,17 +53,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | Yorkshire - West | Castleford, Yorkshire and the Humber, WF10 3QJ | £12,995.00 - £13,158.00 Annually (Actual) Term time only plus 22.5hrs | Clerical Assistant/Receptionist
-employer: Townville Academy
-closing_date: 2026-10-02T12:00:00+01:00
-reason: Clear admin/service title: receptionist
+SELECTED | Yorkshire - West | Keighley, Yorkshire and the Humber, BD20 7RL | £22,452.00 - £23,168.00 Annually (Actual) | Administrative Assistant
+employer: South Craven School
+closing_date: 2026-10-16T12:00:00+01:00
+reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: NEW_REVIEW
-factual_fingerprint: 6182204ae1f70487d9e816ae6a7bf54e844d9e24bdaa4611714de58606bff989
+factual_fingerprint: e2dad36c2beee843fef7bbe75ebf3d6fb137aa2b163294ba19ea20cb75ea45ae
 source: Teaching Vacancies
-source_job_id: clerical-assistant-receptionist-townville-academy-castleford-west-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-receptionist-townville-academy-castleford-west-yorkshire
+source_job_id: administrative-assistant-south-craven-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-south-craven-school
 ---
 
 ---
@@ -124,21 +124,6 @@ factual_fingerprint: f9cda97ec15a105cc1a00e3ff901d8a62fa9d8b7818ade4f1e96fca1b9b
 source: Teaching Vacancies
 source_job_id: leadership-team-administrator-hybrid
 source_url: https://teaching-vacancies.service.gov.uk/jobs/leadership-team-administrator-hybrid
----
-
----
-action: 
-SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD7 3JT | £22,039.12 Annually (Actual) | Office Administrator
-employer: St Oswald's Church of England Primary Academy
-closing_date: 2026-10-05T23:59:00+01:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 5bae21d615e984af8b69b1bc53b0ae1469dcbd8004029f4329bd07cd067f82ee
-source: Teaching Vacancies
-source_job_id: office-administrator-st-oswald-s-church-of-england-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-st-oswald-s-church-of-england-primary-academy
 ---
 
 ---
@@ -220,6 +205,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-office
 
 ---
 action: 
+POSS | Yorkshire - West | Shipley, Yorkshire and the Humber, BD18 3JE | £35,570.00 - £40,444.00 Annually (FTE) Band S01 - S02, SCP 17 to SCP 28 (Actual salary £30,732 - £35,267), 37 hours per week, TTO+5 days | Operations Officer
+employer: Bradford Alternative Provision Academy
+closing_date: 2026-10-21T09:00:00+01:00
+reason: Borderline school administration title: operations officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 4bf01274b15814861596092b9df57521c3a60e32c4ae190e755545e402430bf9
+source: Teaching Vacancies
+source_job_id: operations-officer-bradford-alternative-provision-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-bradford-alternative-provision-academy
+---
+
+---
+action: 
 POSS | Yorkshire - West | Knottingley, Yorkshire and the Humber, WF11 0PJ | £30,515.00 - £33,119.00 Annually (FTE) Grade F Points 14 to 19 (£30,515 to £33,119 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £13,893.91. | SEN Support Officer (7557)
 employer: Simpson's Lane Academy
 closing_date: 2026-10-07T23:59:00+01:00
@@ -241,15 +241,16 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-support-officer-7
 
 - [Administration Officer (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-maternity-cover-honley-high-school) — Missing salary or pay scale.
 - [Attendance and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-officer-st-michael-s-cofe-academy-wakefield-west-yorkshire) — Insufficient admin/service evidence.
-- [Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/compliance-officer-delta-academies-trust-knottingley-not-recorded) — Insufficient admin/service evidence.
+- [Compliance Officer (7364)](https://teaching-vacancies.service.gov.uk/jobs/compliance-officer-7364) — Insufficient admin/service evidence.
+- [Content Creator (7617)](https://teaching-vacancies.service.gov.uk/jobs/content-creator-7617-delta-academies-trust) — Insufficient admin/service evidence.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-buttershaw-business-enterprise-college-academy-bradford-west-yorkshire) — Manager title salary ceiling £37,655 is not below £28,000.
 - [Data, MIS and Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/data-mis-and-admissions-manager-batley-grammar-school-batley-west-yorkshire) — Manager title salary ceiling £38,267 is not below £28,000.
-- [Exam invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-24f8eb7c-b19e-4030-be72-314dfd2ec557) — Insufficient admin/service evidence.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.
 - [Exam Invigilators](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilators-beckfoot-trust) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-ossett-academy-and-sixth-form-college) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-greengates-primary-academy-bradford-west-yorkshire) — Insufficient admin/service evidence.
 - [HR Advisor (Central Team)](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-central-team) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-holy-name-catholic-voluntary-academy) — Manager title salary ceiling £32,046 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-weetwood-primary-school-leeds-west-yorkshire) — Manager title salary ceiling £42,123 is not below £28,000.
 - [SEND Administration and Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/send-administration-and-support-assistant) — Insufficient admin/service evidence.
 - [Senior Admin and Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-admin-and-operations-manager) — Manager title salary ceiling £40,444 is not below £28,000.

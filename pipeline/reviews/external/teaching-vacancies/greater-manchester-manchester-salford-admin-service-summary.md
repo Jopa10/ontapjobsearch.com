@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-10-01
-review_fingerprint: f783a4edb7130fc614ef22335e6ac85c8f8dfab0b5c157e58912e19020a54cf1
-routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
+review_date: 2026-10-02
+review_fingerprint: d948631b5f39d71449eeeeee5709897e885f20abf58226228dcd790384d5d3ca
+routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -14,12 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 11
-- Selected: 4
+- Selected: 5
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M23 2SX | DAT Level 2, SCP 14-17 (Actual salary £23,664 - £24,039) | Level 2 Academy Administrator
+employer: Dixons Newall Green Academy
+closing_date: 2026-10-08T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3ab4637d18fdc713c81f3e29d6f8406082b1a94097ed413bd20352d5c22f1aee
+source: Teaching Vacancies
+source_job_id: level-2-academy-administrator-87638371-b844-4b56-8fc9-861f67e6ef3c
+source_url: https://teaching-vacancies.service.gov.uk/jobs/level-2-academy-administrator-87638371-b844-4b56-8fc9-861f67e6ef3c
+---
 
 ---
 action: 
@@ -134,10 +149,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## HARD_PASS
 
-- [Apprentice Finance Assistant - 37](https://teaching-vacancies.service.gov.uk/jobs/apprentice-finance-assistant-37) — Insufficient admin/service evidence.
+- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/apprentice-finance-assistant-37) — Insufficient admin/service evidence.
 - [Governance and Compliance Professional](https://teaching-vacancies.service.gov.uk/jobs/governance-and-compliance-professional-greater-manchester-academies-trust) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-the-co-operative-academies-trust) — Insufficient admin/service evidence.
-- [Trust Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-assistant-the-co-operative-academies-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

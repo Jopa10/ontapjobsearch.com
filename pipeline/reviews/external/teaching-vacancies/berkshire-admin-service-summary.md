@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-10-01
-review_fingerprint: 3ccbaf25ef40f8519689631f261d0e32db864251bf7586cc8009defdf1d05f59
-routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
+review_date: 2026-10-02
+review_fingerprint: 29fa5c66b22e9a6facfea989b777f95861c74fdb989efe5c30abea387c034234
+routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 22
-- Selected: 8
+- Records: 19
+- Selected: 9
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 12
+- Hard pass: 8
 
 ## SELECTED
 
@@ -64,6 +64,21 @@ factual_fingerprint: 25025decb2e1706d158688cad29f328492d1f11b80bcfa80ee2127aee2f
 source: Teaching Vacancies
 source_job_id: attendance-administrative-assistant-491e52ee-e6f5-45d1-a1d1-8677846dcf7e
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrative-assistant-491e52ee-e6f5-45d1-a1d1-8677846dcf7e
+---
+
+---
+action: 
+SELECTED | Berkshire | Bracknell, South East, RG42 4FS | £26,084.00 Annually (FTE) Actual gross salary including Outer London Fringe is £17,977pa. Term time only plus 2 days. | Exams Administrator
+employer: King's Academy Binfield
+closing_date: 2026-10-14T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: dd6bfe64dec042520ebfc65e5d1e5e138ee47068e03fc1a8deaa7213c037752f
+source: Teaching Vacancies
+source_job_id: exams-administrator-king-s-academy-binfield
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-administrator-king-s-academy-binfield
 ---
 
 ---
@@ -180,12 +195,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-finance-assist
 ## HARD_PASS
 
 - [Business Operations Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/business-operations-co-ordinator-arbour-vale-school) — Insufficient admin/service evidence.
-- [Casual Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/casual-lettings-assistant-maiden-erlegh-chiltern-edge-reading-berkshire) — Insufficient admin/service evidence.
-- [Clerk to the Governing Body](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-the-governing-body-d1b00184-727b-4b8d-ade0-c66789d84496) — Missing salary or pay scale.
-- [EHCP Team Administrator - The Avenue School](https://teaching-vacancies.service.gov.uk/jobs/ehcp-team-administrator-the-avenue-school) — Missing salary or pay scale.
 - [Full Time Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/full-time-administration-officer) — Insufficient admin/service evidence.
 - [HR & Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-officer-the-park-federation-academy-trust) — Insufficient admin/service evidence.
-- [Medical Administrative Assistant](https://teaching-vacancies.service.gov.uk/jobs/medical-administrative-assistant) — Missing salary or pay scale.
 - [Office Manager and Personal Assistant to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-personal-assistant-to-the-headteacher-new-town-primary-school) — Manager title salary ceiling £40,444 is not below £28,000.
 - [Receptionist & Admin Assistant - Katesgrove Primary School](https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-katesgrove-primary-school-katesgrove-primary-school) — Missing salary or pay scale.
 - [School Development Officer](https://teaching-vacancies.service.gov.uk/jobs/school-development-officer) — Insufficient admin/service evidence.

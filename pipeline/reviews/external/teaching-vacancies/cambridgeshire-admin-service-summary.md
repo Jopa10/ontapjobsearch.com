@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-10-01
-review_fingerprint: 56799ef9fb4e460b32e56e0446b5d59ec4f31605492577de48dd8704b4739dd2
-routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
+review_date: 2026-10-02
+review_fingerprint: 26ac669c4851434fbeacc04ec1d11281a748e48ef3a3cffbb3f2db928845d037
+routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 13
 - Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 9
 
 ## SELECTED
 
@@ -38,17 +38,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-15d5f5a
 
 ---
 action: 
-SELECTED | Cambridgeshire | Wisbech, East of England, PE14 7HA | Scale D, Pt 6-7, £13.47 - £13.68/hour (FTE £25,989 - £26,403 per year, based on a 37hr week) Please note this salary will be paid pro rata | Administrator (SEN and Careers)
-employer: Marshland High School
-closing_date: 2026-10-02T01:00:00+01:00
-reason: Clear admin/service title: administrator
+SELECTED | Cambridgeshire | St. Neots, East of England, PE19 2SH | £32,578.00 - £34,812.00 Annually (FTE) Pro rata salary - £30,003 - £32,061 | Exams Officer
+employer: Ernulf Academy
+closing_date: 2026-10-11T23:59:00+01:00
+reason: Clear admin/service title: exams officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: a532b87bc4ec57d9a94f8df129c99e35a68dd84d6ee2d3869c1708574c220811
+factual_fingerprint: edc5f6d030631ffba51f05723fe1a264940075d46691b0981ac8f4b30ba6f828
 source: Teaching Vacancies
-source_job_id: administrator-sen-and-careers
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-sen-and-careers
+source_job_id: exams-officer-ernulf-academy-st-neots
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-ernulf-academy-st-neots
 ---
 
 ---
@@ -93,6 +93,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrative
 
 - [Head of HR Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-operations-meridian-trust-huntingdon-not-recorded) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-f3f57ca9-847f-4e59-bac2-1caf377a9267) — Insufficient admin/service evidence.
+- [MAT Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/mat-finance-officer-d8a95cad-c0d6-4162-8e48-a6074dda2712) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-buckden-cofe-primary-school) — Manager title salary ceiling £34,811 is not below £28,000.
 - [PA to Head of School & Administration Manager](https://teaching-vacancies.service.gov.uk/jobs/pa-to-head-of-school-administration-manager) — Manager title salary ceiling £36,581 is not below £28,000.
 - [Reception Services](https://teaching-vacancies.service.gov.uk/jobs/reception-services-manor-drive-secondary-academy-peterborough-cambridgeshire) — Insufficient admin/service evidence.

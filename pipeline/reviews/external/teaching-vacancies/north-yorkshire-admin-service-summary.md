@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-10-01
+review_date: 2026-10-02
 review_fingerprint: ee2541657b7287b5c0d9f7d063aeb447229fd3f2b7fccc62112a09606590743f
-routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
+routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE

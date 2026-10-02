@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-10-01
-review_fingerprint: 1c5c5162f69fb63516e4a748bae2dcffcf37b5dcfa09c80dbc16e51c393a3166
-routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
+review_date: 2026-10-02
+review_fingerprint: f6d444e5b1f4b115605a34dea95406f464ccd26c28ae724cb08c7a3c1bbd026a
+routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 24
+- Records: 25
 - Selected: 16
-- POSS awaiting decision: 2
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 6
 
@@ -235,12 +235,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 action: 
 SELECTED | Devon | Exeter, South West, EX2 7LB | £31,724 - £35,688 | Senior Administrator
 employer: Stansfield Academy
-closing_date: 2026-10-05T23:59:00+01:00
+closing_date: 2026-10-22T23:59:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: f15e070093b3334fc66696a87d368b472234ab719d87bb645b6fe45c865e3501
+factual_fingerprint: 9553a9b88cb7d038d52cffa77f733aa2968fe3935c15ada1e04688dcfe48de38
 source: Teaching Vacancies
 source_job_id: senior-administrator-stansfield-academy-exeter-devon
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-stansfield-academy-exeter-devon
@@ -262,6 +262,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-funding-admin
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Devon | Okehampton, South West, EX20 1PW | £24,400.00 - £26,014.00 Annually (Actual) NJC Grade D - Scale Point 8 to 12 | Data Manager
+employer: Okehampton College
+closing_date: 2026-10-13T23:59:00+01:00
+reason: Manager title below £28,000 salary ceiling requires review
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 32a71d322a91330128a9313e4c1d0c041facb089104f1d7483f14a376a6433e9
+source: Teaching Vacancies
+source_job_id: data-manager-1904630c-9a5e-4c61-a889-251c7e244c67
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-manager-1904630c-9a5e-4c61-a889-251c7e244c67
+---
 
 ---
 action: 

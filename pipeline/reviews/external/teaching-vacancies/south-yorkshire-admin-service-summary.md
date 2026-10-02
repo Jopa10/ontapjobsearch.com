@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-10-01
-review_fingerprint: bed5314d73475a2233eae0b38a1f8e616511300b097dde67baf5752fc5c4cbdb
-routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
+review_date: 2026-10-02
+review_fingerprint: 5695df467b8b7763321edb798e1d2d37afd56da03c47dfe64db6c08abf7db6f9
+routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 30
-- Selected: 12
-- POSS awaiting decision: 3
+- Records: 32
+- Selected: 13
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 15
+- Hard pass: 17
 
 ## SELECTED
 
@@ -109,6 +109,21 @@ factual_fingerprint: 05d99f80e89db3abaa42926eca564d5566a7a2a3f8b09cf13cebe902265
 source: Teaching Vacancies
 source_job_id: attendance-admin-assistant-lift-firth-park
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-admin-assistant-lift-firth-park
+---
+
+---
+action: 
+SELECTED | Yorkshire - South | Rotherham, Yorkshire and the Humber, S60 3LX | £27,274.00 - £28,153.00 Annually (FTE) TTO plus 5 training days - actual salary £23,459 - £23,442 | Attendance and Attendance Officer
+employer: Newman School
+closing_date: 2026-10-13T09:00:00+01:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 667345ad47ec8c73600b47dca6317475ce525aec797fa28ba8d74cb5104aa33d
+source: Teaching Vacancies
+source_job_id: attendance-and-attendance-officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-attendance-officer
 ---
 
 ---
@@ -205,21 +220,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/temporary-admin-assis
 
 ---
 action: 
-POSS | Yorkshire - South | Doncaster, Yorkshire and the Humber, DN5 9DD | £26,016.00 - £26,847.00 Annually (FTE) Grade C Points 04 to 06 (£26,016 to £26,847 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary for this job starts at £14,797.10 | Administration Officer (7376)
-employer: Don Valley Academy
-closing_date: 2026-10-01T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b98d737bb5743302b9649b93cf64524849d9ffce67f185b5b7093f3953a9f3c4
-source: Teaching Vacancies
-source_job_id: administration-officer-7376
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-7376
----
-
----
-action: 
 POSS | Yorkshire - South | Sheffield, Yorkshire and the Humber, S13 8HH | £27,274.00 - £29,542.00 | Attendance & Admin Officer
 employer: Athelstan Primary School
 closing_date: 2026-10-20T23:59:00+01:00
@@ -254,8 +254,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-maltby-a
 
 ## HARD_PASS
 
-- [Admin & Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-finance-assistant-newman-school) — Insufficient admin/service evidence.
-- [Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/admin-officer-newman-school) — Insufficient admin/service evidence.
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-st-thomas-more-catholic-primary-a-voluntary-academy) — Insufficient admin/service evidence.
 - [Attendance and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-officer-sharrow-nursery-infant-and-junior-school) — Insufficient admin/service evidence.
 - [Business Support Manager](https://teaching-vacancies.service.gov.uk/jobs/business-support-manager-beck-primary-school-sheffield-south-yorkshire) — Manager title salary ceiling £40,921 is not below £28,000.
@@ -263,12 +261,16 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-maltby-a
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-ridgewood-school) — Insufficient admin/service evidence.
 - [Finance & Admin Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-admin-manager-171240df-359e-4c34-b77f-8c67e1ee2d06) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-800b81f8-109d-4857-8ee1-281e2de5e328) — Insufficient admin/service evidence.
+- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-minerva-learning-trust-sheffield-not-recorded) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-sheffield-park-academy-sheffield-south-yorkshire) — Manager title salary ceiling £53,500 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-99fb8e49-5fcd-4f2c-851e-e3b3f1e72d55) — Insufficient admin/service evidence.
 - [Governance and Executive Support Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-and-executive-support-officer) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-42e231a7-dcef-4bf5-a3d7-0eb145f4ac02) — Insufficient admin/service evidence.
+- [Safeguarding and Welfare Officer](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-and-welfare-officer-newman-school) — Insufficient admin/service evidence.
 - [Senior Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-st-francis-catholic-multi-academy-trust) — Insufficient admin/service evidence.
+- [Senior Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-manager-minerva-learning-trust) — Manager title salary ceiling £58,557 is not below £28,000.
 - [Senior Management Account / Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/senior-management-account-head-of-finance) — Insufficient admin/service evidence.
+- [Transactional Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/transactional-finance-manager) — Manager title salary ceiling £53,051 is not below £28,000.
 
 ## Safety boundary
 

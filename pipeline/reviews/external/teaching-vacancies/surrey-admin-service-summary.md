@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-10-01
+review_date: 2026-10-02
 review_fingerprint: 80febee55d91cccca15d6863fbdcb5ea9d566098108464e8e45fd2e1c76c0ad0
-routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
+routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 10
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 7
 
 ## SELECTED
 
@@ -78,12 +78,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-a73
 
 - [Admissions Advisor](https://teaching-vacancies.service.gov.uk/jobs/admissions-advisor) — Insufficient admin/service evidence.
 - [Chief Operating Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-operating-officer-the-howard-partnership-trust) — Insufficient admin/service evidence.
-- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-the-swan-trust-surrey-not-recorded) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-fox-grove-school-leatherhead-surrey) — Manager title salary ceiling £37,002 is not below £28,000.
+- [Office Manager/PA to Principal](https://teaching-vacancies.service.gov.uk/jobs/office-manager-pa-to-principal-kenyngton-manor-primary-school-sunbury-on-thames-surrey) — Manager title salary ceiling £33,301 is not below £28,000.
 - [Regional Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/regional-finance-manager-06cafd15-1ee6-4d43-9137-043ba72063ed) — Manager title salary ceiling £28,167 is not below £28,000.
 - [Regional Finance Partner](https://teaching-vacancies.service.gov.uk/jobs/regional-finance-partner-the-beacon-school) — Insufficient admin/service evidence.
 - [School Business Partner](https://teaching-vacancies.service.gov.uk/jobs/school-business-partner-powell-corderoy-primary-school) — Insufficient admin/service evidence.
-- [Trust Estates Facilities & Compliance Coordinator](https://teaching-vacancies.service.gov.uk/jobs/trust-estates-facilities-compliance-coordinator) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

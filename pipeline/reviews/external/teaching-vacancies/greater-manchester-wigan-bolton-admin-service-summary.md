@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Wigan & Bolton
 
-review_date: 2026-10-01
-review_fingerprint: f453fd1b9a953f755002494ddbabf7fd80f8e55a5ae030ad2eb12673dd372495
-routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
+review_date: 2026-10-02
+review_fingerprint: 311a9f55543b25fc5b5ea1aca6b399537f6e9afcc378a51e03f14ff24a4ef182
+routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
 ontap_region: Greater Manchester - Wigan & Bolton
 slice_category: admin_service
 slice_status: LIVE
@@ -14,27 +14,14 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 5
-- Selected: 1
+- Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
----
-action: 
-SELECTED | Greater Manchester - Wigan & Bolton | Wigan, North West, WN5 0DQ | 25,583.00 - 26,824.00 | Pastoral Admin Assistant
-employer: Dean Trust Wigan
-closing_date: 2026-10-09T08:00:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b105e8f8859d0f2209b55d98f7814d4eb587bd1796285d2575d95ea51142beb3
-source: Teaching Vacancies
-source_job_id: pastoral-admin-assistant-dean-trust-wigan
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-admin-assistant-dean-trust-wigan
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -60,6 +47,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-clerical-assis
 ## HARD_PASS
 
 - [Business Support Manager](https://teaching-vacancies.service.gov.uk/jobs/business-support-manager-up-holland-high-school) — Manager title without salary evidence below £28,000.
+- [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-king-s-leadership-academy-bolton) — Manager title salary ceiling £32,046 is not below £28,000.
 - [Senior Administration Officer (Fixed Term)](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-fixed-term) — Insufficient admin/service evidence.
 - [Senior Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/senior-clerical-assistant-lostock-primary-school-bolton-lancashire) — Insufficient admin/service evidence.
 

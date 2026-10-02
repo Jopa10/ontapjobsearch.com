@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-10-01
-review_fingerprint: c0fc8e6e3cea9ce28465c3d803be4994b0cb0526048bd542a051ea7035c3dbe9
-routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
+review_date: 2026-10-02
+review_fingerprint: a26821f11c1a1c82c97bc53986d02ec200117ac4c6abe3f2c3f40c0ee6cc4b92
+routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 8
+- Records: 11
+- Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 3
@@ -109,21 +109,6 @@ factual_fingerprint: 92bb652d1b2568113d4d6200716f8ec0c8457f27c35d9f2defa4e63147b
 source: Teaching Vacancies
 source_job_id: receptionist-7569
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-7569
----
-
----
-action: 
-SELECTED | Lincolnshire | Spalding, East Midlands, PE11 2EH | £22,530.00 - £23,614.00 Annually (Actual) Grade 3 Point 6-9 (FTE £25,614-£26,846) | Receptionist/ Admin Assistant
-employer: Tulip Academy
-closing_date: 2026-10-01T23:59:00+01:00
-reason: Clear admin/service title: admin assistant, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6d82f1ad8b229cf888db8495ab6cdb55c665563480a831957415e39ce54f62ee
-source: Teaching Vacancies
-source_job_id: receptionist-admin-assistant-tulip-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-tulip-academy
 ---
 
 ---

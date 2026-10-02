@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East - Tees Valley
 
-review_date: 2026-10-01
-review_fingerprint: c0927d08df5b0f07e8b0793ef43ff55930c16e11b72aed68a30ffd3779f67815
-routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
+review_date: 2026-10-02
+review_fingerprint: e14716a3db6f1df2ea2cdd819986226e5ab5a3ab3339a572c81e3670f2956f30
+routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 3
-- POSS awaiting decision: 1
+- Records: 12
+- Selected: 4
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 6
 
@@ -53,6 +53,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-assi
 
 ---
 action: 
+SELECTED | North East - Tees Valley | Middlesbrough, North East, TS3 6PX | £25,989 - £28,142 (actual salary: £22,455 - £24,315) | Business Support Officer
+employer: St Alphonsus' Catholic Primary School
+closing_date: 2026-10-12T09:00:00+01:00
+reason: Clear admin/service title: business support officer
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: a72afc6c066831a4501434a36187ce8aacf8ad9d6bb16a709c0724c0ad0fdfac
+source: Teaching Vacancies
+source_job_id: business-support-officer-st-alphonsus-catholic-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-st-alphonsus-catholic-primary-school
+---
+
+---
+action: 
 SELECTED | North East - Tees Valley | Saltburn By the Sea, North East, TS12 1HJ | Grade C, SCP 3 | Receptionist
 employer: Huntcliff School
 closing_date: 2026-10-12T09:00:00+01:00
@@ -67,6 +82,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-huntclif
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | North East - Tees Valley | Middlesbrough, North East, TS3 0RH | (Grade 2, SCP 3-4) | Admin and Reprographics Assistant (Maternity Cover)
+employer: Outwood Academy Ormesby
+closing_date: 2026-10-15T12:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 557a4d31e59e7fe94b5e17dba1e9830c299f1e15f5ff9139cf8c34aa1c1c4815
+source: Teaching Vacancies
+source_job_id: admin-and-reprographics-assistant-maternity-cover
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-and-reprographics-assistant-maternity-cover
+---
 
 ---
 action: 

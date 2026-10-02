@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-10-01
+review_date: 2026-10-02
 review_fingerprint: 6a4c75418ac3ee264ecc461d1427168645ae2964b7da85136dd2bdfce10ab1ed
-routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
+routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
+- Records: 11
 - Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 5
 
 ## SELECTED
 
@@ -124,8 +124,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-assistant-the-sw
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-edward-feild-primary-school) — Manager title salary ceiling £39,482 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-madley-brook-community-primary-school) — Manager title salary ceiling £42,124 is not below £28,000.
 - [School Premises and Compliance Manager](https://teaching-vacancies.service.gov.uk/jobs/school-premises-and-compliance-manager) — Manager title salary ceiling £36,050 is not below £28,000.
-- [Trust Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-payroll-officer-river-learning-trust) — Insufficient admin/service evidence.
-- [Welfare and Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/welfare-and-personal-care-assistant-39611e1b-adbb-45de-b253-14fdb122d0d4) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

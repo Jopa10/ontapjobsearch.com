@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-10-01
+review_date: 2026-10-02
 review_fingerprint: e5be673c6d4794544431f25a95a3eeab5efe7dcbb6db982989e7898286e8585e
-routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
+routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -135,10 +135,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/arc-administrator
 ## HARD_PASS
 
 - [Business Support L3](https://teaching-vacancies.service.gov.uk/jobs/business-support-l3-brooklands-farm-primary-school) — Insufficient admin/service evidence.
+- [Deputy Head's PA and Office Manager](https://teaching-vacancies.service.gov.uk/jobs/deputy-head-s-pa-and-office-manager) — Out-of-scope occupation: deputy head.
 - [Designated Safeguarding Lead](https://teaching-vacancies.service.gov.uk/jobs/designated-safeguarding-lead-brooklands-farm-primary-school) — Insufficient admin/service evidence.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-royal-grammar-school-high-wycombe) — Manager title salary ceiling £47,020 is not below £28,000.
 - [HR Officer Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-maternity-cover-aylesbury-high-school) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-the-aylesbury-vale-academy) — Manager title salary ceiling £36,975 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-winslow-church-of-england-school) — Manager title salary ceiling £41,272 is not below £28,000.
 
 ## Safety boundary

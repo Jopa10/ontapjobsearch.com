@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-10-01
-review_fingerprint: 6ea4fbfe657124924f6c6efa56cdd07181e28cce6f173008a66bbaded21779b7
-routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
+review_date: 2026-10-02
+review_fingerprint: 0b990088cf17ec17262a3510b1df988c45d186fab6130908f8e63df6e9951f43
+routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 8
+- Records: 16
+- Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 8
@@ -124,21 +124,6 @@ factual_fingerprint: b50e6f9223289befb6b68d8cf21fff3c273b505eb7985264511e107c77b
 source: Teaching Vacancies
 source_job_id: receptionist-administrative-assistant-parkfields-middle-school-dunstable-bedfordshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrative-assistant-parkfields-middle-school-dunstable-bedfordshire
----
-
----
-action: 
-SELECTED | Bedfordshire | Luton, East of England, LU2 8HJ | £23,233.00 - £23,979.00 Annually (Actual) 37 hours a week, term time + 5 days - L3 (actual salary £23,233 pa) | Receptionist / Administrator - Maternity Cover
-employer: Putteridge High School
-closing_date: 2026-10-02T12:00:00+01:00
-reason: Clear admin/service title: administrator, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 19b3fb049f84f11d9f2ee0674d789232c4bb74e960dc977e3849d4695788736f
-source: Teaching Vacancies
-source_job_id: receptionist-administrator-maternity-cover-698a8012-ea64-49ee-8f10-84f9ae723800
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-maternity-cover-698a8012-ea64-49ee-8f10-84f9ae723800
 ---
 
 ## POSS — choose SELECT or EXCLUDE

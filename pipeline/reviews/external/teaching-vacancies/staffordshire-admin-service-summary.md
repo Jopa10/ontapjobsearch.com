@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-10-01
-review_fingerprint: cd4a99ee77bec7f8a9ad30fcf854612992d6f857705f36cd0b8f0c7238810c2d
-routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
+review_date: 2026-10-02
+review_fingerprint: 0d5aedde63e612faafa9f8329dfb9fe2ee75b032d7bb075d85ab9f8af04e2fed
+routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 4
+- Records: 7
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 4
 
 ## SELECTED
 
@@ -66,21 +66,6 @@ source_job_id: examinations-officer-blythe-bridge-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-blythe-bridge-high-school
 ---
 
----
-action: 
-SELECTED | Staffordshire | Tamworth, West Midlands, B77 2NE | £22277 - £22629 per annum | Receptionist and Admin Assistant
-employer: Lift Tamworth
-closing_date: 2026-10-02T13:30:18+01:00
-reason: Clear admin/service title: admin assistant, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 45e109626dde2ff91e536c1b092b893b1a8cdd6aff14265dd88d0059a5f10007
-source: Teaching Vacancies
-source_job_id: receptionist-and-admin-assistant-lift-tamworth
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admin-assistant-lift-tamworth
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -91,12 +76,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admi
 
 ## HARD_PASS
 
-- [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-1b712634-857b-405e-a4de-a196344ada05) — Insufficient admin/service evidence.
 - [Data and Insights Officer](https://teaching-vacancies.service.gov.uk/jobs/data-and-insights-officer) — Insufficient admin/service evidence.
 - [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-discovery-academy-stoke-on-trent-staffordshire) — Insufficient admin/service evidence.
 - [School Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-administration-assistant-westwood-college) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-5bedbe1d-eaea-4d84-a744-7318349a5687) — Manager title salary ceiling £39,152 is not below £28,000.
-- [Senior Administration and Finance Assistant - Level 5](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-and-finance-assistant-level-5) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

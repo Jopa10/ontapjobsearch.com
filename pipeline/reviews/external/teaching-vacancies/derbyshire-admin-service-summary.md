@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-10-01
-review_fingerprint: 65211913583bb14be53e105228665cb0654f0388fb33b4ebecf662c299f06d2f
-routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
+review_date: 2026-10-02
+review_fingerprint: a40416e6e92ceabbf805726e2bf828d726b5c9b70e70d00a884c652809cd4306
+routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 1
+- Records: 5
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Derbyshire | Chesterfield, East Midlands, S44 6XA | Redhill Academy Trust Pay Scale Band 7, Scale Points 32 - 36 Actual salary: £22,824 - £24,713 per annum (FTE: £27,004 - £29,239) | Administrative Assistant/Cover Administrator
+employer: The Bolsover School
+closing_date: 2026-10-12T12:00:00+01:00
+reason: Clear admin/service title: administrator, administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 28f23e40f23db766155de3ddb86ff0c51231c0963346ff1518970030638118c8
+source: Teaching Vacancies
+source_job_id: administrative-assistant-cover-administrator-the-bolsover-school-chesterfield-derbyshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-cover-administrator-the-bolsover-school-chesterfield-derbyshire
+---
 
 ---
 action: 
@@ -47,7 +62,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-with-pa
 ## HARD_PASS
 
 - [Careers Advisor](https://teaching-vacancies.service.gov.uk/jobs/careers-advisor-tupton-hall-school) — Insufficient admin/service evidence.
-- [Exams & Data Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-data-manager-st-thomas-more-catholic-voluntary-academy) — Manager title salary ceiling £32,892 is not below £28,000.
+- [Exams & Data Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-data-manager-st-thomas-more-catholic-voluntary-academy) — Manager title salary ceiling £33,169 is not below £28,000.
 - [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-baa22bb2-6d0c-44b2-88f2-02e91a0e297e) — Insufficient admin/service evidence.
 
 ## Safety boundary

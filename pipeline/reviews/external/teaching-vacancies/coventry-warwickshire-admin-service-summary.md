@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-10-01
-review_fingerprint: edcb96422371e7eb6682efffce6e34c621e0988801057fd0e2d31d0da1a75dc8
-routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
+review_date: 2026-10-02
+review_fingerprint: 0ab42d4c91b1a5c2156a5eb8c3cb7420f7211388d4bc64aaee67b568c59edf3b
+routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 4
+- Records: 14
+- Selected: 5
 - POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 5
 
 ## SELECTED
+
+---
+action: 
+SELECTED | West Midlands - Coventry & Warwickshire | Nuneaton, West Midlands, CV11 4QH | £21,407 - £22,233 | Administration Assistant
+employer: Oak Wood Primary School
+closing_date: 2026-10-09T09:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: da77d5ce4ecb6bf97159ab1557cdae45a240fc351176098d60874a946392ab02
+source: Teaching Vacancies
+source_job_id: administration-assistant-oak-wood-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-oak-wood-primary-school
+---
 
 ---
 action: 

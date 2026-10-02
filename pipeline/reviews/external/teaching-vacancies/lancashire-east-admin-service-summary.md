@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - East
 
-review_date: 2026-10-01
-review_fingerprint: 605e08f3f368cede20731bf3cc94e9c033b52b4bd094c3926fe59b1ffa5694d3
-routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
+review_date: 2026-10-02
+review_fingerprint: ab8f18043eebf309dd89bb6b6c80d9d5ccba68e540e9ca019d93d839a87d3b56
+routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
 ontap_region: Lancashire - East
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 3
+- Records: 4
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
 
 ## SELECTED
-
----
-action: 
-SELECTED | Lancashire - East | Nelson, North West, BB9 6LS | £13.48 - £13.70 Hourly | Office Administrator
-employer: Blacko Primary School
-closing_date: 2026-10-02T12:00:00+01:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: b11e8e60266f2da000d598257749128d0971264056e6fcc8accae9f4a59cf450
-source: Teaching Vacancies
-source_job_id: office-administrator-blacko-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-blacko-primary-school
----
 
 ---
 action: 

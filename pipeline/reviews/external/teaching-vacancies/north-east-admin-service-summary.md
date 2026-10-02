@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-10-01
-review_fingerprint: 090855d5d70b8c47ea1c87d8e41d0c549d847f4677e9ce2d5daec67d2c716a3d
-routing_manifest_sha256: 192c8accac7ec9ff62690a0f42d4ef4fc8486334fa20fef6b55de019d2aff304
+review_date: 2026-10-02
+review_fingerprint: bb8dd3e1e6c7091e609fcd63220bcda3ef9e7e6c156b30d34d044959f9657024
+routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
+- Records: 18
 - Selected: 8
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 8
 
 ## SELECTED
 
@@ -38,6 +38,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
+SELECTED | North East | Sunderland, North East, SR2 7JN | £26,427.00 - £26,847.00 Annually (Actual) | Administration Assistant
+employer: St Anthony's Girls' Catholic Academy
+closing_date: 2026-10-12T09:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e448cf527177d900e9f47fa7a9165d97fcab438d7e9691003b47a3d8fa4582b6
+source: Teaching Vacancies
+source_job_id: administration-assistant-st-anthony-s-girls-catholic-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-st-anthony-s-girls-catholic-academy
+---
+
+---
+action: 
 SELECTED | North East | Sunderland, North East, SR3 2BB | £11,752.00 Annually (Actual) Scale 1 SCP 3. Pending the outcome of Job Evaluation | Administration Assistant
 employer: St Leonard's Catholic Primary School, Silksworth
 closing_date: 2026-10-07T12:00:00+01:00
@@ -49,21 +64,6 @@ factual_fingerprint: a43e984290e6157cd14e234b947be8f19698a009fe207c0ebff6d307ae7
 source: Teaching Vacancies
 source_job_id: administration-assistant-st-leonard-s-catholic-primary-school-silksworth
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-st-leonard-s-catholic-primary-school-silksworth
----
-
----
-action: 
-SELECTED | North East | Blyth, North East, NE24 2SY | £24,829.00 Annually (Actual) SCP10 | Attendance Officer & Administrator
-employer: Bede Academy
-closing_date: 2026-10-02T09:00:00+01:00
-reason: Clear admin/service title: administrator, attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0105b1e26ecf77a30d3162367d75dee318ac214fb8304b1f829bde9c16088460
-source: Teaching Vacancies
-source_job_id: attendance-officer-administrator-bede-academy-blyth-northumberland
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-administrator-bede-academy-blyth-northumberland
 ---
 
 ---
@@ -145,6 +145,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-support-roles-
 
 ---
 action: 
+POSS | North East | Peterlee, North East, SR8 2RN | Scale 5: £25,230 - £26,034 | HR Assistant
+employer: East Durham College
+closing_date: 2026-10-19T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: fc084c4162b08eed2b4c8d16ea3fbdf2724d8a3d62be53a33da8a0b749b4cec6
+source: Teaching Vacancies
+source_job_id: hr-assistant-east-durham-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-east-durham-college
+---
+
+---
+action: 
 POSS | North East | South Shields, North East, NE34 0QA | £22,768.00 Annually (Actual) Band 4 SCP 6 (pending the outcome of Job Evaluation) | Pastoral Administration Assistant
 employer: St Wilfrid's RC College
 closing_date: 2026-10-12T23:59:00+01:00
@@ -164,9 +179,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrati
 
 ## HARD_PASS
 
+- [Assistant Principal - Personal Development & Wellbeing](https://teaching-vacancies.service.gov.uk/jobs/assistant-principal-personal-development-wellbeing) — Out-of-scope occupation: principal.
 - [Business Lead](https://teaching-vacancies.service.gov.uk/jobs/business-lead-st-leonard-s-catholic-primary-school-silksworth) — Insufficient admin/service evidence.
+- [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-st-anthony-s-girls-catholic-academy-sunderland-tyne-and-wear) — Manager title salary ceiling £42,123 is not below £28,000.
+- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-bishop-chadwick-catholic-education-trust) — Insufficient admin/service evidence.
 - [Governance and Procurement Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-and-procurement-officer) — Insufficient admin/service evidence.
 - [HR Administration Assistant (Gateshead Schools)](https://teaching-vacancies.service.gov.uk/jobs/hr-administration-assistant-gateshead-schools) — Insufficient admin/service evidence.
+- [HR Support Staff](https://teaching-vacancies.service.gov.uk/jobs/hr-support-staff) — Insufficient admin/service evidence.
 - [Marketing Assistant](https://teaching-vacancies.service.gov.uk/jobs/marketing-assistant-kings-priory-school) — Insufficient admin/service evidence.
 
 ## Safety boundary
