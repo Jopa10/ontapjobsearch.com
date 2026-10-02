@@ -4,7 +4,7 @@
 - Live route: `/northampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 17
+- automatic include: 5
+- automatic review: 18
 - automatic exclude: 0
-- effective include: 6
-- effective review: 17
+- effective include: 5
+- effective review: 18
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (5)
 
 ---
 action: 
@@ -64,18 +64,6 @@ reason: Exact approved Northampton workplace.
 action: 
 decision: include
 automatic_decision: include
-title: HR Administrator
-company: ACS Recruitment Solutions Ltd - Agency - Permanent
-location: Northampton
-source: JobG8
-job_id: jobg8-1853443
-reason: Exact approved Northampton workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist
 company: County Surgery
 location: Northampton, NN1 4QA
@@ -96,7 +84,7 @@ job_id: teaching-vacancies-receptionist-guilsborough-academy
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (17)
+## REVIEW (18)
 
 ---
 action: 
@@ -191,6 +179,18 @@ company: Whistl - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-2039628
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Events Administrator in Motorsport
+company: Katie Bard & Angela Mortimer Plc - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-2060783
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

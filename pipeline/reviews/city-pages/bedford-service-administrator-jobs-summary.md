@@ -4,7 +4,7 @@
 - Live route: `/bedford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 15
+- automatic include: 6
+- automatic review: 14
 - automatic exclude: 0
-- effective include: 7
-- effective review: 15
+- effective include: 6
+- effective review: 14
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (6)
 
 ---
 action: 
@@ -96,19 +96,7 @@ job_id: teaching-vacancies-pa-to-slt-and-admissions-administrator
 reason: Exact approved Bedford workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: Sharnbrook Surgery
-location: Bedford, MK44 1PZ
-source: NHS Jobs
-job_id: nhs-5608349
-reason: Exact approved Bedford workplace.
----
-
-## REVIEW (15)
+## REVIEW (14)
 
 ---
 action: 
@@ -263,18 +251,6 @@ company: Parkfields Middle School
 location: Dunstable
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-administrative-assistant-parkfields-middle-school-dunstable-bedfordshire
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist / Administrator - Maternity Cover
-company: Putteridge High School
-location: Luton
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-administrator-maternity-cover-698a8012-ea64-49ee-8f10-84f9ae723800
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

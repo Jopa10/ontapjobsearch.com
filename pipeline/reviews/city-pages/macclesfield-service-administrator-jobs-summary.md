@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 12
+- automatic review: 13
 - automatic exclude: 0
 - effective include: 1
-- effective review: 12
+- effective review: 13
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,19 @@ job_id: teaching-vacancies-sixth-form-administrator-the-fallibroome-academy
 reason: Exact approved Macclesfield workplace.
 ---
 
-## REVIEW (12)
+## REVIEW (13)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin Assistant
+company: Cygnet Health Care
+location: Crewe, CW1 4QW
+source: NHS Jobs
+job_id: nhs-5637351
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
 
 ---
 action: 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 44
+- automatic review: 42
 - automatic exclude: 0
 - effective include: 3
-- effective review: 44
+- effective review: 42
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: teaching-vacancies-lead-administrator-harry-watts-academy
 reason: Exact approved Sunderland workplace.
 ---
 
-## REVIEW (44)
+## REVIEW (42)
 
 ---
 action: 
@@ -174,23 +174,11 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Attendance Officer & Administrator
-company: Bede Academy
-location: Blyth
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-administrator-bede-academy-blyth-northumberland
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bid Coordinator
-company: COLEMAN JAMES LTD - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-107881364
+title: Administrator
+company: Seaton Surgery
+location: Hartlepool, TS25 1AX
+source: NHS Jobs
+job_id: nhs-5637587
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -342,35 +330,11 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Home Administrator
-company: Akari Care Limited
-location: Newcastle, NE5 5HQ
-source: NHS Jobs
-job_id: nhs-5541887
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Home Administrator
-company: Akari Care Limited
-location: Gateshead, NE8 1QU
-source: NHS Jobs
-job_id: nhs-5577937
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Home Administrator
-company: Akari Care Limited
-location: Newcastle, NE5 5HQ
-source: NHS Jobs
-job_id: nhs-5610574
+title: Graduate Logistics Administrator
+company: KCR Solutions - Agency - Permanent
+location: Northumberland
+source: JobG8
+job_id: jobg8-2044922
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -587,6 +551,18 @@ company: Ronald James - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-1869864
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Team Administrator
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Darlington, DL2 2TS
+source: NHS Jobs
+job_id: nhs-5637413
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 

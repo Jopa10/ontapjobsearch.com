@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 27
+- automatic review: 31
 - automatic exclude: 0
 - effective include: 3
-- effective review: 27
+- effective review: 31
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: nhs-5624493
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (27)
+## REVIEW (31)
 
 ---
 action: 
@@ -95,6 +95,18 @@ company: Practice Plus Group - Health in Justice
 location: York, YO41 1FZ
 source: NHS Jobs
 job_id: nhs-5607825
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Tradewind Recruitment - Agency - Permanent
+location: Richmond
+source: JobG8
+job_id: jobg8-2050566
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -258,6 +270,18 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Ledger Clerk
+company: Optimum Recruitment Group Limited - Agency - Permanent
+location: Ripon
+source: JobG8
+job_id: jobg8-107798375
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Legal Secretary
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Harrogate
@@ -371,6 +395,30 @@ company: Ripon Spa Surgery
 location: Ripon, HG4 2BE
 source: NHS Jobs
 job_id: nhs-5611094
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Remote Conveyancing Paralegal
+company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2055397
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Supporter Engagement Assistant
+company: Yorkshire Cancer Research - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2060979
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

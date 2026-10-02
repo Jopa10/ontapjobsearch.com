@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 23
+- automatic review: 26
 - automatic exclude: 0
 - effective include: 4
-- effective review: 23
+- effective review: 26
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,19 @@ job_id: jobg8-1897879
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (23)
+## REVIEW (26)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Midlands Partnership NHS Foundation Trust
+location: Burslem, Stoke-on-Trent, ST6 7AG
+source: NHS Jobs
+job_id: nhs-5609313
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -126,11 +138,35 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
+title: Customs Administrator
+company: Outsource UK - Agency - Permanent
+location: Stafford
+source: JobG8
+job_id: jobg8-2050063
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Digital Marketing Manager (Manufacturing / B2B)
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-1981874
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Faculty Centre Administrator
+company: Newcastle and Stafford Colleges Group - Agency - Permanent
+location: Stafford
+source: JobG8
+job_id: jobg8-2036473
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -258,18 +294,6 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: Onsite Account Coordinator
-company: Winner Recruitment - Agency - Temporary
-location: Cannock
-source: JobG8
-job_id: jobg8-108003800
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Receptionist
 company: University Hospital of North Midlands NHS Trust
 location: Stafford, ST163SA
@@ -347,6 +371,18 @@ company: The Animal People Recruitment - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-1876092
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Training & Development Coordinator
+company: Macmillan Davies - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-2058006
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

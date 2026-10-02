@@ -1,4 +1,5 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
+include,nhs-5637209,Administrative Assistant,Leeds Teaching Hospitals,"Leeds, LS9 7TF",NHS Jobs,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,nhs-5603778,Administrator,Practice Plus Group - Health in Justice,"Leeds, LS12 2TJ",NHS Jobs,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-107993362,Bid Coordinator,Ridge & Partners LLP - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-2056878,Brand Manager,Reed - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
@@ -29,15 +30,16 @@ include,jobg8-1954967,Mobility Claims Paralegal,CRA Consulting - Agency - Perman
 include,jobg8-1895692,Paralegal,Huntress - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-2042757,Paralegal - Real Estate & Projects - Hybrid working,CRA Consulting - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-1976651,Property Claims Handler,Adjusting Appointments Limited - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
-include,jobg8-149058001152088473637341,Sales and Service Advisor,Gallagher - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-2022022,Senior Marketing Executive,IMPRESSION RECRUITMENT LIMITED - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-1975937,Social Media Coordinator,Dream Big Digital - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
+include,jobg8-2048926,Temporary Administrator - Reed Education (Leeds),Reed - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-2028584,Temporary Credit Controller,Synergem Recruitment - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-1956696,Temporary HR Administrator,Hays Specialist Recruitment Limited - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
-review,teaching-vacancies-clerical-assistant-receptionist-townville-academy-castleford-west-yorkshire,Clerical Assistant/Receptionist,Townville Academy,Castleford,Teaching Vacancies,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
+review,jobg8-2051232,Branch Administrator,Reed - Agency - Permanent,Wetherby,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-1885753,Conveyancing Assistant,Edwards & Pearce - Doncaster - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-1929686,Conveyancing Assistant,HVLR LTD - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-1981974,Conveyancing Assistant,IMPRESSION RECRUITMENT LIMITED - Agency - Permanent,Keighley,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
+review,jobg8-2044575,Credit Control,Hays Specialist Recruitment Limited - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-1957218,CRM Executive FTC,Nigel Wright Group - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-1928245,HR Administrator,Crossroads Truck & Bus Limited - Agency - Permanent,Batley,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-1981973,Legal Assistant - Property,IMPRESSION RECRUITMENT LIMITED - Agency - Permanent,Otley,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
@@ -46,6 +48,7 @@ review,jobg8-1908696,Marketing Executive,Elevation Recruitment Group - Agency - 
 review,jobg8-1857907,Marketing Executive,PRATAP PARTNERSHIP LTD - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-2042141,Marketing Executive,pyramid8 - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-2045800,Marketing Executive (Luxury Spa & Sauna's),Ernest Gordon Recruitment Limited - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
+review,jobg8-2039767,Part Time Purchase Ledger,IPS Group - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-1874090,People Officer,Essential Employment - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-1981982,Plot Sale Conveyancing & Commercial Property Assistant Role - Wakefield,qed legal - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,nhs-5617512,Receptionist / Administrator,"The Surgery, Stuart Road","Pontefract, WF8 4PQ",NHS Jobs,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
@@ -64,14 +67,14 @@ exclude,teaching-vacancies-deputy-pa-receptionist-bradford-diocesan-academies-tr
 exclude,teaching-vacancies-exams-officer-bradford-forster-academy,Exams Officer,Bradford Forster Academy,Bradford,Teaching Vacancies,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
 exclude,jobg8-1937623,HR Coordinator / Advisor,Hays Specialist Recruitment Limited - Agency - Permanent,Huddersfield,JobG8,exclude,exclude,Separate employment market.,huddersfield,leeds-service-administrator-jobs
 exclude,jobg8-1996503,Internal Sales / New Business Executive,Streamline Search Ltd - Agency - Permanent,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
+exclude,jobg8-2058358,IT Service Desk Analyst - 1st Line - Huddersfield,Circle Recruitment - Agency - Permanent,Huddersfield,JobG8,exclude,exclude,Separate employment market.,huddersfield,leeds-service-administrator-jobs
 exclude,jobg8-1980054,Junior Marketing Executive,Reed - Agency - Permanent,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
 exclude,teaching-vacancies-leadership-team-administrator-hybrid,Leadership Team Administrator (Hybrid),Moldgreen Community Primary School,Huddersfield,Teaching Vacancies,exclude,exclude,Separate employment market.,huddersfield,leeds-service-administrator-jobs
 exclude,jobg8-1986859,Marketing Coordinator,Equals One - Agency - Permanent,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
 exclude,nhs-5636667,Medical Receptionist,"Drs Shaw, Walker & Culliney","Huddersfield, HD8 8DJ",NHS Jobs,exclude,exclude,Separate employment market.,huddersfield,leeds-service-administrator-jobs
-exclude,nhs-5603161,MEDICAL RECEPTIONIST,The Bradford Moor Practice,"Bradford, BD3 8QH",NHS Jobs,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
 exclude,teaching-vacancies-office-administrator-st-oswald-s-church-of-england-primary-academy,Office Administrator,St Oswald's Church of England Primary Academy,Bradford,Teaching Vacancies,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
 exclude,teaching-vacancies-pa-to-the-principal-7519,PA to the Principal (7519),Valley Academy,Bradford,Teaching Vacancies,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
 exclude,nhs-5611927,Project Administrator,Trust Primary Care Ltd,"Bradford, BD7 3JX",NHS Jobs,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
 exclude,nhs-5623216,Receptionist,Beechwood Medical Centre,"Halifax, HX2 8AL",NHS Jobs,exclude,exclude,Separate employment market.,halifax,leeds-service-administrator-jobs
-exclude,jobg8-149058001152088473637340,Sales and Service Advisor,Gallagher - Agency - Permanent,Wakefield,JobG8,exclude,exclude,Separate employment market.,wakefield,leeds-service-administrator-jobs
+exclude,jobg8-2059161,Sales Ledger Clark,Hays Specialist Recruitment Limited - Agency - Permanent,Wakefield,JobG8,exclude,exclude,Separate employment market.,wakefield,leeds-service-administrator-jobs
 exclude,jobg8-2042628,Senior Residential Conveyancing assistant,CRA Consulting - Agency - Permanent,Wakefield,JobG8,exclude,exclude,Separate employment market.,wakefield,leeds-service-administrator-jobs

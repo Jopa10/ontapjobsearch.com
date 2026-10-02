@@ -4,7 +4,7 @@
 - Live route: `/milton-keynes/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 13
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
-- automatic review: 31
+- automatic include: 12
+- automatic review: 35
 - automatic exclude: 0
-- effective include: 13
-- effective review: 31
+- effective include: 12
+- effective review: 35
 - effective exclude: 0
 
-## INCLUDE (13)
+## INCLUDE (12)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: EAC Consulting Group - Agency - Permanent
 location: Milton Keynes
 source: JobG8
 job_id: jobg8-2056357
-reason: Exact approved Milton Keynes workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Amazon PPC Executive
-company: FS1 Recruitment - Marketing, Creative, Digital, Finance, HR, Sales, Admin - Agency - Permanent
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-1913072
 reason: Exact approved Milton Keynes workplace.
 ---
 
@@ -180,7 +168,7 @@ job_id: jobg8-2028313
 reason: Exact approved Milton Keynes workplace.
 ---
 
-## REVIEW (31)
+## REVIEW (35)
 
 ---
 action: 
@@ -191,6 +179,18 @@ company: Chepping View Primary Academy
 location: High Wycombe
 source: Teaching Vacancies
 job_id: teaching-vacancies-academy-administrator-chepping-view-primary-academy-high-wycombe-buckinghamshire
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Adecco - Agency - Permanent
+location: Aylesbury
+source: JobG8
+job_id: jobg8-2058901
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -367,6 +367,18 @@ action:
 decision: review
 automatic_decision: review
 title: Marketing Executive
+company: Adecco - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-2059155
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Executive
 company: FS1 Recruitment - Marketing, Creative, Digital, Finance, HR, Sales, Admin - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
@@ -430,7 +442,7 @@ title: PARALEGAL - CRIMINAL
 company: Maze Recruitment Services Limited - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
-job_id: jobg8-2049281
+job_id: jobg8-2060472
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -442,7 +454,7 @@ title: PARALEGAL - REGULATORY DISPUTE RESOLUTION
 company: Maze Recruitment Services Limited - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
-job_id: jobg8-2049304
+job_id: jobg8-2060435
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -511,6 +523,18 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
+company: Gladstone Road Surgery
+location: Chesham, HP5 3EZ
+source: NHS Jobs
+job_id: nhs-5638681
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
 company: Riverside Surgery
 location: High Wycombe, HP11 2RZ
 source: NHS Jobs
@@ -551,6 +575,18 @@ company: Proximity Recruitment - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-1981843
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Technical Helpdesk Support
+company: GXO Logistics - Company - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-2052926
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 4
+- automatic include: 12
+- automatic review: 3
 - automatic exclude: 7
-- effective include: 11
-- effective review: 4
+- effective include: 12
+- effective review: 3
 - effective exclude: 7
 
-## INCLUDE (11)
+## INCLUDE (12)
 
 ---
 action: 
@@ -81,6 +81,18 @@ company: Reed - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-1882412
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Interim HR Coordinator
+company: Pure Resourcing Solutions - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-2059342
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -156,19 +168,7 @@ job_id: jobg8-1875937
 reason: Approved conservative Cambridge launch catchment.
 ---
 
-## REVIEW (4)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator (SEN and Careers)
-company: Marshland High School
-location: Wisbech
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-sen-and-careers
-reason: No approved Cambridge catchment rule matched; local review required.
----
+## REVIEW (3)
 
 ---
 action: 

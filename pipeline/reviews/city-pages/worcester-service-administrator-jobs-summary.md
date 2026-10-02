@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 6
+- automatic review: 5
 - automatic exclude: 0
 - effective include: 2
-- effective review: 6
+- effective review: 5
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,19 +48,7 @@ job_id: jobg8-2055604
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (6)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator (SEND Department)
-company: Tenbury High Ormiston Academy
-location: Tenbury Wells
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-send-department-tenbury-high-ormiston-academy
-reason: No exact Worcester workplace matched; local geographic review is required.
----
+## REVIEW (5)
 
 ---
 action: 

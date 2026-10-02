@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 35
+- Effective included jobs: 36
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 35
-- automatic review: 18
+- automatic include: 36
+- automatic review: 20
 - automatic exclude: 23
-- effective include: 35
-- effective review: 18
+- effective include: 36
+- effective review: 20
 - effective exclude: 23
 
-## INCLUDE (35)
+## INCLUDE (36)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrative Assistant
+company: Leeds Teaching Hospitals
+location: Leeds, LS9 7TF
+source: NHS Jobs
+job_id: nhs-5637209
+reason: Approved Leeds catchment.
+---
 
 ---
 action: 
@@ -388,18 +400,6 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Sales and Service Advisor
-company: Gallagher - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-149058001152088473637341
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Senior Marketing Executive
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Leeds
@@ -417,6 +417,18 @@ company: Dream Big Digital - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-1975937
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Temporary Administrator - Reed Education (Leeds)
+company: Reed - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-2048926
 reason: Approved Leeds catchment.
 ---
 
@@ -444,17 +456,17 @@ job_id: jobg8-1956696
 reason: Approved Leeds catchment.
 ---
 
-## REVIEW (18)
+## REVIEW (20)
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Clerical Assistant/Receptionist
-company: Townville Academy
-location: Castleford
-source: Teaching Vacancies
-job_id: teaching-vacancies-clerical-assistant-receptionist-townville-academy-castleford-west-yorkshire
+title: Branch Administrator
+company: Reed - Agency - Permanent
+location: Wetherby
+source: JobG8
+job_id: jobg8-2051232
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
@@ -491,6 +503,18 @@ company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Keighley
 source: JobG8
 job_id: jobg8-1981974
+reason: No approved Leeds catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Control
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2044575
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
@@ -587,6 +611,18 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2045800
+reason: No approved Leeds catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Purchase Ledger
+company: IPS Group - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2039767
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
@@ -812,6 +848,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: IT Service Desk Analyst - 1st Line - Huddersfield
+company: Circle Recruitment - Agency - Permanent
+location: Huddersfield
+source: JobG8
+job_id: jobg8-2058358
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Junior Marketing Executive
 company: Reed - Agency - Permanent
 location: Bradford
@@ -853,18 +901,6 @@ company: Drs Shaw, Walker & Culliney
 location: Huddersfield, HD8 8DJ
 source: NHS Jobs
 job_id: nhs-5636667
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: MEDICAL RECEPTIONIST
-company: The Bradford Moor Practice
-location: Bradford, BD3 8QH
-source: NHS Jobs
-job_id: nhs-5603161
 reason: Separate employment market.
 ---
 
@@ -920,11 +956,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Sales and Service Advisor
-company: Gallagher - Agency - Permanent
+title: Sales Ledger Clark
+company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Wakefield
 source: JobG8
-job_id: jobg8-149058001152088473637340
+job_id: jobg8-2059161
 reason: Separate employment market.
 ---
 

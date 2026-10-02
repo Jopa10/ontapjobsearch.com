@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 48
+- automatic review: 56
 - automatic exclude: 0
 - effective include: 4
-- effective review: 48
+- effective review: 56
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: nhs-5627419
 reason: Exact approved Portsmouth workplace.
 ---
 
-## REVIEW (48)
+## REVIEW (56)
 
 ---
 action: 
@@ -174,6 +174,18 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Admin Assistant - Care Home
+company: Barchester Healthcare
+location: Fareham, PO14 2NF
+source: NHS Jobs
+job_id: nhs-5522934
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrator
 company: Practice Plus Group - Health in Justice
 location: Winchester, SO22 5DF
@@ -258,6 +270,30 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: EHCP Coordinator
+company: Aspire People Limited - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1858777
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Export Coordinator
+company: Reed - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-2057274
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Family Paralegal
 company: Reed - Agency - Permanent
 location: Hampshire
@@ -294,11 +330,11 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Finance Officer
-company: Home-Start Portsmouth - Agency - Permanent
-location: Hampshire
+title: Healthy Homes Administrator & Scheduling Coordinator
+company: TristoneNash Ltd - Agency - Permanent
+location: Eastleigh
 source: JobG8
-job_id: jobg8-2046589
+job_id: jobg8-2014390
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -366,6 +402,18 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Inside Sales and Quotations Clerk
+company: Noble Recruiting - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-2043264
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Insolvency Administrator
 company: FRP Group - Agency - Permanent
 location: Hampshire
@@ -426,6 +474,18 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Logistics Coordinator
+company: Adecco - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2053237
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Materials Scheduler
 company: Kingdom People - Agency - Permanent
 location: Hampshire
@@ -438,11 +498,23 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Office Administrator
-company: Rise Technical Recruitment Limited - Agency - Permanent
+title: Ocean Import Coordinator
+company: Detail2 Limited - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2012754
+job_id: jobg8-2056769
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Patient Administrator
+company: University Hospital Southampton NHS Trust
+location: Southampton, SO16 5YA
+source: NHS Jobs
+job_id: nhs-5273675
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -455,18 +527,6 @@ company: Wade Macdonald - Agency - Permanent
 location: Andover
 source: JobG8
 job_id: jobg8-2013523
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Administrator
-company: Accountability Recruitment - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2056786
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -491,6 +551,18 @@ company: CMA Recruitment Group - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-2046127
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Officer
+company: Accountability Recruitment - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2058879
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -558,18 +630,6 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Avery Healthcare Group Ltd.
-location: Winchester, SO22 5JH
-source: NHS Jobs
-job_id: nhs-5623458
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Recruitment Administrator
 company: University Hospital Southampton NHS Trust
 location: Southampton, SO16 6YD
@@ -618,11 +678,47 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Shipping Administrator
+company: Matchtech - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2049995
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Shipping Coordinator
+company: Cluett Reeve Ltd - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2059451
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Single Point of Access Administrator
 company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 location: Fareham, PO17 6AR
 source: NHS Jobs
 job_id: nhs-5620952
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Store Coordinator
+company: Adecco - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2044782
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 

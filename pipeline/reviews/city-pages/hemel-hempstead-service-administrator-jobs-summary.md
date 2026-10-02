@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 39
+- automatic review: 41
 - automatic exclude: 0
 - effective include: 3
-- effective review: 39
+- effective review: 41
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: jobg8-1877352
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
-## REVIEW (39)
+## REVIEW (41)
 
 ---
 action: 
@@ -179,6 +179,18 @@ company: East and North Hertfordshire Teaching NHS Trust
 location: Stevenage, SG1 4AB
 source: NHS Jobs
 job_id: nhs-5612223
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Commercial Administrator
+company: Howells Recruitment - Agency - Permanent
+location: Hertford
+source: JobG8
+job_id: jobg8-2039272
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -354,11 +366,11 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Legal Assistant
-company: Law Staff Limited - Agency - Permanent
+title: Junior CRM Analyst
+company: Harnham - Data & Analytics Recruitment - Agency - Permanent
 location: Hertfordshire
 source: JobG8
-job_id: jobg8-2049840
+job_id: jobg8-2044310
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -366,11 +378,11 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Co-ordinator
-company: Brand Recruitment - Agency - Permanent
+title: Legal Assistant
+company: Law Staff Limited - Agency - Permanent
 location: Hertfordshire
 source: JobG8
-job_id: jobg8-1938290
+job_id: jobg8-2049840
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -395,18 +407,6 @@ company: JSL Solutions Ltd - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-1944669
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: Parkfield Medical Centre
-location: Potters Bar, EN6 1QH
-source: NHS Jobs
-job_id: nhs-5621462
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -527,6 +527,30 @@ company: The Solution Auto - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-1871732
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Desk Coordinator
+company: Proactive Appointments - Agency - Permanent
+location: Hertford
+source: JobG8
+job_id: jobg8-2041623
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Team Administrator
+company: Hertfordshire Partnership University NHS Foundation Trust
+location: Stevenage, SG1 4AB
+source: NHS Jobs
+job_id: nhs-5637279
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

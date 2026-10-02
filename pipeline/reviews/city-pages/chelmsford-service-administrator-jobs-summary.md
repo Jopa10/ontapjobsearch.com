@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 14
-- automatic review: 66
+- automatic review: 68
 - automatic exclude: 0
 - effective include: 14
-- effective review: 66
+- effective review: 68
 - effective exclude: 0
 
 ## INCLUDE (14)
@@ -192,7 +192,7 @@ job_id: jobg8-1956210
 reason: Exact approved Chelmsford workplace.
 ---
 
-## REVIEW (66)
+## REVIEW (68)
 
 ---
 action: 
@@ -546,11 +546,23 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Global Infor System Administrator
-company: A1 Personnel Employment Agency Ltd - Agency - Permanent
+title: Facilities Coordinator
+company: Adore Recruitment - Agency - Permanent
+location: Basildon
+source: JobG8
+job_id: jobg8-2045178
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Graduate Town Planner
+company: Penguin Recruitment Ltd - Agency - Permanent
 location: Essex
 source: JobG8
-job_id: jobg8-1852104
+job_id: jobg8-2055778
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -563,6 +575,18 @@ company: Sterling Recruitment Solutions Ltd - Agency - Permanent
 location: Dunmow
 source: JobG8
 job_id: jobg8-1874129
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Import Coordinator
+company: Streamline Search Ltd - Agency - Permanent
+location: Tilbury
+source: JobG8
+job_id: jobg8-2048720
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -635,18 +659,6 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-1916140
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Manager
-company: Pure Resourcing Solutions - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-2017918
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -731,6 +743,18 @@ company: Peregrine Livefoods Ltd - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-715286127875771596837340
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Primary - School Administrator
+company: Reed - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-2052023
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

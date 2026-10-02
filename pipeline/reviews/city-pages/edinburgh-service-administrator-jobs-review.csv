@@ -1,4 +1,5 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-1933959,HR Assistant,ICONIC RESOURCING LTD - Agency - Permanent,Edinburgh,JobG8,include,include,Approved conservative Edinburgh launch catchment.,edinburgh,edinburgh-service-administrator-jobs
 review,jobg8-1950430,HR Assistant,ICONIC RESOURCING LTD - Agency - Permanent,Tranent,JobG8,review,review,No approved Edinburgh catchment rule matched; local review required.,fallback,edinburgh-service-administrator-jobs
+review,jobg8-2051830,Logistics Coordinator,Owen Daniels - Agency - Permanent,Livingston,JobG8,review,review,No approved Edinburgh catchment rule matched; local review required.,fallback,edinburgh-service-administrator-jobs
 review,jobg8-2027323,Residential Conveyancing Paralegal,Reed - Agency - Permanent,North Berwick,JobG8,review,review,No approved Edinburgh catchment rule matched; local review required.,fallback,edinburgh-service-administrator-jobs

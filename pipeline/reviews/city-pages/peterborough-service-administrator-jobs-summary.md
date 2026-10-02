@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 4
-- automatic exclude: 12
+- automatic review: 3
+- automatic exclude: 13
 - effective include: 6
-- effective review: 4
-- effective exclude: 12
+- effective review: 3
+- effective exclude: 13
 
 ## INCLUDE (6)
 
@@ -96,19 +96,7 @@ job_id: jobg8-1939450
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (4)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator (SEN and Careers)
-company: Marshland High School
-location: Wisbech
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-sen-and-careers
-reason: No approved Peterborough catchment rule matched; local review required.
----
+## REVIEW (3)
 
 ---
 action: 
@@ -146,7 +134,7 @@ job_id: teaching-vacancies-school-administrative-receptionist
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (12)
+## EXCLUDE (13)
 
 ---
 action: 
@@ -217,6 +205,18 @@ company: Reed - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-1882412
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Interim HR Coordinator
+company: Pure Resourcing Solutions - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-2059342
 reason: Separate employment market.
 ---
 

@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 7
-- automatic exclude: 5
+- automatic review: 5
+- automatic exclude: 4
 - effective include: 6
-- effective review: 7
-- effective exclude: 5
+- effective review: 5
+- effective exclude: 4
 
 ## INCLUDE (6)
 
@@ -96,7 +96,7 @@ job_id: jobg8-1898106
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (7)
+## REVIEW (5)
 
 ---
 action: 
@@ -120,30 +120,6 @@ location: Alton
 source: JobG8
 job_id: jobg8-1980850
 reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Children's Home Support Worker
-company: Hampshire County Council - Company - Permanent
-location: Romsey
-source: JobG8
-job_id: jobg8-1401785505
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Children's Homes Support Worker
-company: Hampshire County Council - Company - Permanent
-location: Romsey
-source: JobG8
-job_id: jobg8-1401785354
-reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -182,7 +158,7 @@ job_id: jobg8-635330054620761292837340
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
-## EXCLUDE (5)
+## EXCLUDE (4)
 
 ---
 action: 
@@ -229,17 +205,5 @@ company: Hampshire County Council - Company - Permanent
 location: Eastleigh
 source: JobG8
 job_id: jobg8-1401785578
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Specialist Care Support Worker Winchester
-company: SCA Care - Agency - Permanent
-location: Winchester
-source: JobG8
-job_id: jobg8-108004872
 reason: Separate employment market.
 ---

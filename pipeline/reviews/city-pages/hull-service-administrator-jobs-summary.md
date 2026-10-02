@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 5
+- automatic review: 4
 - automatic exclude: 0
 - effective include: 7
-- effective review: 5
+- effective review: 4
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,19 +108,7 @@ job_id: jobg8-1939826
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (5)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Hull University Teaching Hospitals NHS Trust
-location: Cottingham, HU16 5JQ
-source: NHS Jobs
-job_id: nhs-5614089
-reason: No approved Hull catchment rule matched; local review required.
----
+## REVIEW (4)
 
 ---
 action: 
@@ -150,11 +138,11 @@ reason: No approved Hull catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Private Client Paralegal Wills & LPAs Whitby / Driffield
-company: qed legal - Agency - Permanent
-location: Driffield
-source: JobG8
-job_id: jobg8-1905442
+title: Medical Receptionist
+company: Howden Medical Centre
+location: Goole, DN14 7DD
+source: NHS Jobs
+job_id: nhs-5635521
 reason: No approved Hull catchment rule matched; local review required.
 ---
 
@@ -162,11 +150,11 @@ reason: No approved Hull catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Sourcing Coordinator
-company: REC-REVOLUTION LTD - Agency - Permanent
-location: Bridlington
+title: Private Client Paralegal Wills & LPAs Whitby / Driffield
+company: qed legal - Agency - Permanent
+location: Driffield
 source: JobG8
-job_id: jobg8-107952027
+job_id: jobg8-1905442
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

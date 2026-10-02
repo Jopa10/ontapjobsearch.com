@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 12
-- automatic exclude: 10
+- automatic review: 14
+- automatic exclude: 12
 - effective include: 8
-- effective review: 12
-- effective exclude: 10
+- effective review: 14
+- effective exclude: 12
 
 ## INCLUDE (8)
 
@@ -120,7 +120,19 @@ job_id: jobg8-2021380
 reason: Approved York catchment.
 ---
 
-## REVIEW (12)
+## REVIEW (14)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Tradewind Recruitment - Agency - Permanent
+location: Richmond
+source: JobG8
+job_id: jobg8-2050566
+reason: No approved York catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -210,6 +222,18 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Ledger Clerk
+company: Optimum Recruitment Group Limited - Agency - Permanent
+location: Ripon
+source: JobG8
+job_id: jobg8-107798375
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Legal Secretary/Paralegal - Private Client
 company: Reed - Agency - Permanent
 location: Malton
@@ -266,7 +290,7 @@ job_id: nhs-5611094
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (10)
+## EXCLUDE (12)
 
 ---
 action: 
@@ -386,4 +410,28 @@ location: Harrogate
 source: JobG8
 job_id: jobg8-1982430
 reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Remote Conveyancing Paralegal
+company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2055397
+reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Supporter Engagement Assistant
+company: Yorkshire Cancer Research - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2060979
+reason: Broad regional label; not York-city evidence.
 ---

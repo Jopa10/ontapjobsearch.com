@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 3
+- automatic review: 4
 - automatic exclude: 0
 - effective include: 5
-- effective review: 3
+- effective review: 4
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,19 @@ job_id: jobg8-2045517
 reason: Approved conservative Belfast launch catchment.
 ---
 
-## REVIEW (3)
+## REVIEW (4)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Administrator
+company: Reed - Agency - Permanent
+location: Lisburn
+source: JobG8
+job_id: jobg8-2059061
+reason: No approved Belfast catchment rule matched; local review required.
+---
 
 ---
 action: 

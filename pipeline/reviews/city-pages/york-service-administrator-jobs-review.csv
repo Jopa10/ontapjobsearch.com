@@ -7,6 +7,7 @@ include,jobg8-1885701,Legal Secretary/Paralegal - Private Client,Reed - Agency -
 include,jobg8-1885743,Legal Secretary/Paralegal - Residential Conveyancing,Reed - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,jobg8-2046307,Paralegal - Family,Capital Outsourcing Group Ltd - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,jobg8-2021380,Website Administrator,Reed - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
+review,jobg8-2050566,Administrator,Tradewind Recruitment - Agency - Permanent,Richmond,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,jobg8-2053052,Credit Controller,Get Recruited (UK) Ltd - Agency - Permanent,Catterick Garrison,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,jobg8-2048426,Credit Controller,IMPRESSION RECRUITMENT LIMITED - Agency - Permanent,Ripon,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,jobg8-2043051,Credit Controller,Ripon Farm Services - Agency - Permanent,Ripon,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
@@ -14,6 +15,7 @@ review,jobg8-2051167,Credit Controller,Si Recruitment - Agency - Permanent,Catte
 review,jobg8-2048214,"Credit Controller, Ripon",Si Recruitment - Agency - Permanent,Ripon,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,jobg8-1888842,Demand Planner,MTrec Recruitment - Agency - Permanent,Bedale,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,jobg8-108001446,Interim Finance Administrator,KD Recruitment Limited - Agency - Temporary,Filey,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
+review,jobg8-107798375,Ledger Clerk,Optimum Recruitment Group Limited - Agency - Permanent,Ripon,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,jobg8-1885742,Legal Secretary/Paralegal - Private Client,Reed - Agency - Permanent,Malton,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,jobg8-1880492,Marketing Executive,IMPRESSION RECRUITMENT LIMITED - Agency - Permanent,Knaresborough,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,jobg8-1880493,Marketing Manager,IMPRESSION RECRUITMENT LIMITED - Agency - Permanent,Knaresborough,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
@@ -29,3 +31,5 @@ exclude,nhs-5624493,Data Administrator,Ayton & Snainton Medical Practice,"Scarbo
 exclude,jobg8-1868898,Demand Planner - FMCG,Hays Specialist Recruitment Limited - Agency - Permanent,Northallerton,JobG8,exclude,exclude,Separate employment market.,northallerton,york-service-administrator-jobs
 exclude,jobg8-1882896,Finance Assistant,HW Finance - Agency - Permanent,Harrogate,JobG8,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs
 exclude,jobg8-1982430,Legal Secretary,IMPRESSION RECRUITMENT LIMITED - Agency - Permanent,Harrogate,JobG8,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs
+exclude,jobg8-2055397,Remote Conveyancing Paralegal,LEGAL TALENT PARTNERS LIMITED - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
+exclude,jobg8-2060979,Supporter Engagement Assistant,Yorkshire Cancer Research - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs

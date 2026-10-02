@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 4
 - automatic review: 3
-- automatic exclude: 13
+- automatic exclude: 18
 - effective include: 4
 - effective review: 3
-- effective exclude: 13
+- effective exclude: 18
 
 ## INCLUDE (4)
 
@@ -110,7 +110,7 @@ job_id: teaching-vacancies-receptionist-administrator-shipston-high-school
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (13)
+## EXCLUDE (18)
 
 ---
 action: 
@@ -200,6 +200,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Customer Supply Coordinator
+company: Plus One Recruitment - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-2056680
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Fundraising & Supporter Care Co-ordinator
 company: Third Solutions - Agency - Permanent
 location: Warwickshire
@@ -236,11 +248,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: MEDICAL RECEPTIONIST
-company: Valley Road Medical Practice
-location: Leamington Spa, CV32 7SJ
-source: NHS Jobs
-job_id: nhs-4151642
+title: P2P Supply Chain Planner
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-2052561
 reason: Separate employment market.
 ---
 
@@ -253,6 +265,54 @@ company: G2 Legal Limited - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-2049188
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Private Client Paralegal
+company: The Eventus Recruitment Group - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2059104
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: School Receptionist
+company: Aspire People Limited - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2049236
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: School Receptionist
+company: Aspire People Limited - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2049322
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: School Receptionist
+company: Aspire People Limited - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2049448
 reason: Separate employment market.
 ---
 

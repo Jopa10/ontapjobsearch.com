@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 27
+- automatic review: 28
 - automatic exclude: 0
 - effective include: 2
-- effective review: 27
+- effective review: 28
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: nhs-5600422
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (27)
+## REVIEW (28)
 
 ---
 action: 
@@ -59,6 +59,30 @@ company: Reed - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-2050223
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Right Now Group - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-2053465
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Bookkeeper
+company: Reed - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-2048160
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -234,18 +258,6 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Officer
-company: Anderson Recruitment - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-107907113
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: People Development Coordinator
 company: Juice Recruitment Ltd - Agency - Permanent
 location: Gloucestershire
@@ -342,11 +354,11 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Service Advisor
-company: Richard Abson Group - Agency - Permanent
-location: Cheltenham
+title: Service Desk Analyst
+company: Sopra Steria - Agency - Permanent
+location: Gloucestershire
 source: JobG8
-job_id: jobg8-1851721
+job_id: jobg8-2043219
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

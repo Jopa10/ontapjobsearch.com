@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 13
-- automatic review: 8
+- automatic review: 9
 - automatic exclude: 5
 - effective include: 13
-- effective review: 8
+- effective review: 9
 - effective exclude: 5
 
 ## INCLUDE (13)
@@ -180,7 +180,19 @@ job_id: jobg8-1909662
 reason: Approved conservative Warrington launch catchment.
 ---
 
-## REVIEW (8)
+## REVIEW (9)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Breakdown & Recovery Co-ordinator
+company: Hough Green - Agency - Permanent
+location: Widnes
+source: JobG8
+job_id: jobg8-2050339
+reason: No approved Warrington catchment rule matched; local review required.
+---
 
 ---
 action: 

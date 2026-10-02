@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 49
+- Effective included jobs: 52
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 49
+- automatic include: 52
 - automatic review: 6
 - automatic exclude: 7
-- effective include: 49
+- effective include: 52
 - effective review: 6
 - effective exclude: 7
 
-## INCLUDE (49)
+## INCLUDE (52)
 
 ---
 action: 
@@ -112,35 +112,23 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administrator (Payroll and Leadership Support)
-company: Swanshurst School
-location: Birmingham
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-payroll-and-leadership-support
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator (Year Team)
-company: Swanshurst School
-location: Birmingham
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-year-team-swanshurst-school
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Billing & Accounts Receivable Assistant
 company: Trinity House Group - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-2046783
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Birmingham Programme Coordinator
+company: Action Tutoring - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2060989
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -225,6 +213,18 @@ company: Wilmington Plc - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-1892347
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Care Coordinator
+company: Outline Recruitment - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2061161
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -592,11 +592,47 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: School Receptionist
+company: Aspire People Limited - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2049403
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Shipping Administrator - interim - Hybrid
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2042228
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Temporary HR Administrator
 company: Katie Bard & Angela Mortimer Plc - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-2028830
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Trust Finance Administrator
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2042167
 reason: Approved conservative Birmingham launch catchment.
 ---
 

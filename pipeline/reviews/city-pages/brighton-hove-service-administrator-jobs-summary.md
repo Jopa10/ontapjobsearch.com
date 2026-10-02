@@ -4,8 +4,8 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
-- Threshold currently met: yes
+- Effective included jobs: 4
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
+- automatic include: 4
 - automatic review: 29
-- automatic exclude: 13
-- effective include: 6
+- automatic exclude: 11
+- effective include: 4
 - effective review: 29
-- effective exclude: 13
+- effective exclude: 11
 
-## INCLUDE (6)
+## INCLUDE (4)
 
 ---
 action: 
@@ -52,35 +52,11 @@ reason: Approved Brighton & Hove catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Medical Receptionist
-company: Beaconsfield Medical Practice
-location: Brighton , BN1 6AG
-source: NHS Jobs
-job_id: nhs-5616703
-reason: Approved Brighton & Hove catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Patient Care Advisor - Receptionist
 company: St Peter’s Medical Centre
 location: Brighton, BN1 4LA
 source: NHS Jobs
 job_id: nhs-5635694
-reason: Approved Brighton & Hove catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Personal Assistant
-company: Sussex Partnership NHS Foundation Trust
-location: Hove, BN3 7HZ
-source: NHS Jobs
-job_id: nhs-5606493
 reason: Approved Brighton & Hove catchment.
 ---
 
@@ -322,7 +298,7 @@ title: HR Administrator
 company: Southdown - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-108015994
+job_id: jobg8-1986831
 reason: Broad location; review before city inclusion.
 ---
 
@@ -330,11 +306,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator
-company: Southdown - Agency - Permanent
+title: Internal Sales Administrator Team Lead
+company: Trident - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-1986831
+job_id: jobg8-2038040
 reason: Broad location; review before city inclusion.
 ---
 
@@ -446,7 +422,7 @@ job_id: jobg8-1883284
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (13)
+## EXCLUDE (11)
 
 ---
 action: 
@@ -524,18 +500,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: MSK Therapies - Booking Clerk
-company: East Sussex Healthcare NHS Trust
-location: Eastbourne, BN21 2UD
-source: NHS Jobs
-job_id: nhs-5607486
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Part Time Accounts Assistant
 company: Reed - Agency - Permanent
 location: Crawley
@@ -589,17 +553,5 @@ company: First Recruitment Services - Agency - Permanent
 location: Eastbourne
 source: JobG8
 job_id: jobg8-2052067
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Ward Administrator
-company: Sussex Partnership NHS Foundation Trust
-location: Crawley, RH11 7EJ
-source: NHS Jobs
-job_id: nhs-5607501
 reason: Separate employment market.
 ---

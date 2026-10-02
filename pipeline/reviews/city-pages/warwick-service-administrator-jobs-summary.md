@@ -4,7 +4,7 @@
 - Live route: `/warwick/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 1
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
-- automatic review: 19
+- automatic include: 3
+- automatic review: 22
 - automatic exclude: 0
-- effective include: 1
-- effective review: 19
+- effective include: 3
+- effective review: 22
 - effective exclude: 0
 
-## INCLUDE (1)
+## INCLUDE (3)
 
 ---
 action: 
@@ -36,7 +36,31 @@ job_id: jobg8-1881935
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (19)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Supply Coordinator
+company: Plus One Recruitment - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-2056680
+reason: Exact approved Warwick workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: P2P Supply Chain Planner
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-2052561
+reason: Exact approved Warwick workplace.
+---
+
+## REVIEW (22)
 
 ---
 action: 
@@ -186,18 +210,6 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: MEDICAL RECEPTIONIST
-company: Valley Road Medical Practice
-location: Leamington Spa, CV32 7SJ
-source: NHS Jobs
-job_id: nhs-4151642
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: PA to Principal
 company: The Queen Elizabeth Academy
 location: Atherstone
@@ -234,6 +246,18 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Private Client Paralegal
+company: The Eventus Recruitment Group - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2059104
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist
 company: Willenhall Primary Care Centre 1
 location: Coventry, CV3 3DG
@@ -251,6 +275,42 @@ company: Shipston High School
 location: Shipston-on-Stour
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-administrator-shipston-high-school
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: School Receptionist
+company: Aspire People Limited - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2049236
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: School Receptionist
+company: Aspire People Limited - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2049322
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: School Receptionist
+company: Aspire People Limited - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2049448
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

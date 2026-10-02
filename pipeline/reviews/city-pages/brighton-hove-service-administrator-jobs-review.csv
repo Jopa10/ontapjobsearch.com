@@ -1,9 +1,7 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-2045548,Credit Controller,Michael Page Finance - Agency - Permanent,Brighton,JobG8,include,include,Approved Brighton & Hove catchment.,brighton,brighton-hove-service-administrator-jobs
 include,jobg8-2028278,Finance Assistant (Accounts Payable) - Brighton,Marks Sattin - Agency - Permanent,Brighton,JobG8,include,include,Approved Brighton & Hove catchment.,brighton,brighton-hove-service-administrator-jobs
-include,nhs-5616703,Medical Receptionist,Beaconsfield Medical Practice,"Brighton , BN1 6AG",NHS Jobs,include,include,Approved Brighton & Hove catchment.,brighton,brighton-hove-service-administrator-jobs
 include,nhs-5635694,Patient Care Advisor - Receptionist,St Peter’s Medical Centre,"Brighton, BN1 4LA",NHS Jobs,include,include,Approved Brighton & Hove catchment.,brighton,brighton-hove-service-administrator-jobs
-include,nhs-5606493,Personal Assistant,Sussex Partnership NHS Foundation Trust,"Hove, BN3 7HZ",NHS Jobs,include,include,Approved Brighton & Hove catchment.,hove,brighton-hove-service-administrator-jobs
 include,nhs-5620851,Service Administrator,Brighton and Hove Federation,"Hove, BN3 7GS",NHS Jobs,include,include,Approved Brighton & Hove catchment.,hove,brighton-hove-service-administrator-jobs
 review,jobg8-107985976,Accommodation & International Admissions Administrative Assistant,Chichester College Group - Company - Permanent,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
 review,jobg8-2027321,Accounts Administrator,Travail Employment Group - Burgess Hill - Agency - Permanent,East Grinstead,JobG8,review,review,No approved Brighton & Hove catchment rule matched; local review required.,fallback,brighton-hove-service-administrator-jobs
@@ -23,8 +21,8 @@ review,jobg8-2044272,Finance Assistant,First Recruitment Services - Agency - Per
 review,jobg8-2044482,Finance Assistant,First Recruitment Services - Agency - Permanent,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
 review,jobg8-2043392,Finance Assistant,Terry Parris Associates Ltd - Agency - Permanent,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
 review,jobg8-108005260,HR Administrative Assistant,Northbrook College - Agency - Temporary,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
-review,jobg8-108015994,HR Administrator,Southdown - Agency - Permanent,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
 review,jobg8-1986831,HR Administrator,Southdown - Agency - Permanent,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
+review,jobg8-2038040,Internal Sales Administrator Team Lead,Trident - Agency - Permanent,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
 review,jobg8-1910463,Marketing Co-ordinator,A1 People - Agency - Permanent,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
 review,jobg8-2034128,Marketing Coordinator,A1 People - Agency - Permanent,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
 review,jobg8-2021499,Payroll administrator,Portfolio Payroll - Agency - Permanent,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
@@ -40,10 +38,8 @@ exclude,teaching-vacancies-administrator-st-leonards-church-of-england-primary-a
 exclude,teaching-vacancies-admissions-officer-the-cavendish-school,Admissions Officer,The Cavendish School,Eastbourne,Teaching Vacancies,exclude,exclude,Separate employment market.,eastbourne,brighton-hove-service-administrator-jobs
 exclude,jobg8-1886080,Finance Assistant,Michael Page Finance - Agency - Permanent,Worthing,JobG8,exclude,exclude,Separate employment market.,worthing,brighton-hove-service-administrator-jobs
 exclude,jobg8-1908468,Mortgage Administrator Horsham,Astral Recruitment - Agency - Permanent,Horsham,JobG8,exclude,exclude,Separate employment market.,horsham,brighton-hove-service-administrator-jobs
-exclude,nhs-5607486,MSK Therapies - Booking Clerk,East Sussex Healthcare NHS Trust,"Eastbourne, BN21 2UD",NHS Jobs,exclude,exclude,Separate employment market.,eastbourne,brighton-hove-service-administrator-jobs
 exclude,jobg8-1881796,Part Time Accounts Assistant,Reed - Agency - Permanent,Crawley,JobG8,exclude,exclude,Separate employment market.,crawley,brighton-hove-service-administrator-jobs
 exclude,teaching-vacancies-personal-assistant-to-the-head-teacher-bishop-luffa-school-chichester,Personal Assistant to the Head Teacher,"Bishop Luffa School, Chichester",Chichester,Teaching Vacancies,exclude,exclude,Separate employment market.,chichester,brighton-hove-service-administrator-jobs
 exclude,jobg8-108024258,Sales Executive,Clover Talent Limited - Agency - Permanent,Chichester,JobG8,exclude,exclude,Separate employment market.,chichester,brighton-hove-service-administrator-jobs
 exclude,jobg8-2048366,Sales Ledger Assistant,Pavilion Recruitment Solutions - Agency - Permanent,Crawley,JobG8,exclude,exclude,Separate employment market.,crawley,brighton-hove-service-administrator-jobs
 exclude,jobg8-2052067,Service Advisor,First Recruitment Services - Agency - Permanent,Eastbourne,JobG8,exclude,exclude,Separate employment market.,eastbourne,brighton-hove-service-administrator-jobs
-exclude,nhs-5607501,Ward Administrator,Sussex Partnership NHS Foundation Trust,"Crawley, RH11 7EJ",NHS Jobs,exclude,exclude,Separate employment market.,crawley,brighton-hove-service-administrator-jobs

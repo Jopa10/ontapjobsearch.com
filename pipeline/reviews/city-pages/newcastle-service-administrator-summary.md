@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 22
-- automatic exclude: 15
-- effective include: 10
-- effective review: 22
-- effective exclude: 15
+- automatic include: 7
+- automatic review: 21
+- automatic exclude: 17
+- effective include: 7
+- effective review: 21
+- effective exclude: 17
 
-## INCLUDE (10)
+## INCLUDE (7)
 
 ---
 action: 
@@ -78,42 +78,6 @@ decision: include
 automatic_decision: include
 title: Home Administrator
 company: Akari Care Limited
-location: Newcastle, NE5 5HQ
-source: NHS Jobs
-job_id: nhs-5541887
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Home Administrator
-company: Akari Care Limited
-location: Gateshead, NE8 1QU
-source: NHS Jobs
-job_id: nhs-5577937
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Home Administrator
-company: Akari Care Limited
-location: Newcastle, NE5 5HQ
-source: NHS Jobs
-job_id: nhs-5610574
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Home Administrator
-company: Akari Care Limited
 location: Newcastle, NE5 5AY
 source: NHS Jobs
 job_id: nhs-5626649
@@ -144,7 +108,7 @@ job_id: jobg8-108026899
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (22)
+## REVIEW (21)
 
 ---
 action: 
@@ -168,30 +132,6 @@ location: Wallsend, NE28 8QU
 source: NHS Jobs
 job_id: nhs-5623047
 reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Attendance Officer & Administrator
-company: Bede Academy
-location: Blyth
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-administrator-bede-academy-blyth-northumberland
-reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bid Coordinator
-company: COLEMAN JAMES LTD - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-107881364
-reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -264,6 +204,18 @@ location: Tyne And Wear
 source: JobG8
 job_id: jobg8-2018008
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Graduate Logistics Administrator
+company: KCR Solutions - Agency - Permanent
+location: Northumberland
+source: JobG8
+job_id: jobg8-2044922
+reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
 ---
@@ -410,7 +362,7 @@ job_id: teaching-vacancies-school-support-roles-supervisory-assistant-administra
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
-## EXCLUDE (15)
+## EXCLUDE (17)
 
 ---
 action: 
@@ -512,6 +464,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Administrator
+company: Seaton Surgery
+location: Hartlepool, TS25 1AX
+source: NHS Jobs
+job_id: nhs-5637587
+reason: Outside Newcastle catchment.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Bookkeeper
 company: Cameron James - Agency - Permanent
 location: Darlington
@@ -589,5 +553,17 @@ company: Ronald James - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-1869864
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Team Administrator
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Darlington, DL2 2TS
+source: NHS Jobs
+job_id: nhs-5637413
 reason: Separate employment market.
 ---

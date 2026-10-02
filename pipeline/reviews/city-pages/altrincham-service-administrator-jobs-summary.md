@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 13
+- automatic review: 9
 - automatic exclude: 0
 - effective include: 3
-- effective review: 13
+- effective review: 9
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: jobg8-1868509
 reason: Exact approved Altrincham workplace.
 ---
 
-## REVIEW (13)
+## REVIEW (9)
 
 ---
 action: 
@@ -102,23 +102,11 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Digital Marketing Executive (Social Media)
-company: FindCore - Agency - Permanent
-location: Cheadle
+title: Import Coordinator
+company: Reed - Agency - Permanent
+location: Trafford
 source: JobG8
-job_id: jobg8-1853041
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Lettings Coordinator
-company: The People Pod - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-1934714
+job_id: jobg8-2050130
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -131,30 +119,6 @@ company: The People Pod - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-2035890
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Manager
-company: Flexible Solutionz - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-1980762
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Specialist - 45k
-company: FindCore - Agency - Permanent
-location: Cheadle
-source: JobG8
-job_id: jobg8-1853051
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -203,18 +167,6 @@ company: High Lane Medical Centre
 location: Stockport, SK6 8DR
 source: NHS Jobs
 job_id: nhs-5619136
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Social Media Marketing Executive
-company: FindCore - Agency - Permanent
-location: Cheadle
-source: JobG8
-job_id: jobg8-1853037
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

@@ -16,15 +16,27 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 8
+- automatic review: 9
 - automatic exclude: 0
 - effective include: 0
-- effective review: 8
+- effective review: 9
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (8)
+## REVIEW (9)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Administrator
+company: Reed - Agency - Permanent
+location: Lisburn
+source: JobG8
+job_id: jobg8-2059061
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
 
 ---
 action: 

@@ -4,7 +4,7 @@
 - Live route: `/cardiff/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,38 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
+- automatic include: 9
 - automatic review: 0
 - automatic exclude: 0
-- effective include: 6
+- effective include: 9
 - effective review: 0
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (9)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Michael Page - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-23643_225564170
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Michael Page Finance - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-2059106
+reason: Approved conservative Cardiff launch catchment.
+---
 
 ---
 action: 
@@ -81,6 +105,18 @@ company: Acorn by Synergie - Agency - Permanent
 location: Cardiff
 source: JobG8
 job_id: jobg8-1885929
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Planner and Scheduler - Taffs Well
+company: PHS Group Limited - Company - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-2045376
 reason: Approved conservative Cardiff launch catchment.
 ---
 

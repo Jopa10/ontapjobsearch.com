@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 53
+- automatic review: 58
 - automatic exclude: 0
 - effective include: 2
-- effective review: 53
+- effective review: 58
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: jobg8-2044937
 reason: Exact approved Ashford workplace.
 ---
 
-## REVIEW (53)
+## REVIEW (58)
 
 ---
 action: 
@@ -318,11 +318,35 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: German Logistics Administrator &;34k 3:30pm Friday finish
+company: Office Angels - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2055118
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: GP Receptionist
 company: Pilgrims Way Surgery
 location: Dartford, DA1 1QY
 source: NHS Jobs
 job_id: nhs-5635318
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Graduate Town Planner
+company: Penguin Recruitment Ltd - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2055597
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -431,6 +455,18 @@ company: TN Recruits - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-1945870
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Secretary Residential Property
+company: TN Recruits - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2055336
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -630,6 +666,18 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Senior Administrator - Oasis Restore Secure School
+company: Central and North West London NHS Foundation Trust
+location: Rochester, ME1 3YB
+source: NHS Jobs
+job_id: nhs-5637080
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Service advisor
 company: HTC - Agency - Permanent
 location: Kent
@@ -671,6 +719,18 @@ company: Prima Hatfield Associates - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-2043499
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: Prima Hatfield Associates - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2059657
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 

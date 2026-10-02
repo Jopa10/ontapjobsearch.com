@@ -172,18 +172,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Litigated EL/PL Claims Handler
-company: Keoghs LLP - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-1961953
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Litigation Paralegal
 company: Reed - Agency - Permanent
 location: Bristol
@@ -282,6 +270,18 @@ decision: include
 automatic_decision: include
 title: Senior Administrator
 company: Sirona care & health CIC
+location: Henbury, Bristol, BS10 7EH
+source: NHS Jobs
+job_id: nhs-5593198
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Senior Administrator
+company: Sirona care & health CIC
 location: Bristol, BS15 4DA
 source: NHS Jobs
 job_id: nhs-5612954
@@ -354,11 +354,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: Oxford Health NHS Trust
-location: Keynsham, BS31 1HA
-source: NHS Jobs
-job_id: nhs-5610118
+title: Communications Officer
+company: The Bridge Foundation - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-2060921
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 

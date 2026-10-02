@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 13
+- automatic review: 14
 - automatic exclude: 0
 - effective include: 0
-- effective review: 13
+- effective review: 14
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (13)
+## REVIEW (14)
 
 ---
 action: 
@@ -35,18 +35,6 @@ company: Cherry Professional - Relationship Led Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-2049700
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administration Assistant
-company: Leicestershire Partnership NHS Trust
-location: Leicester, LE3 0QU
-source: NHS Jobs
-job_id: nhs-5624672
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -78,11 +66,35 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Commercial Administrator
+company: Macildowie Recruitment and Retention - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-2049449
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Commercial Property Secretary
 company: Allstaff Recruitment - Agency - Permanent
 location: Leicester
 source: JobG8
 job_id: jobg8-1869342
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service & Planning Coordinator
+company: Reed - Agency - Permanent
+location: Shepshed
+source: JobG8
+job_id: jobg8-2057903
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
