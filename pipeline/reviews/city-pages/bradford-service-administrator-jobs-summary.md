@@ -4,7 +4,7 @@
 - Live route: `/bradford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 22
+- automatic include: 8
+- automatic review: 23
 - automatic exclude: 48
-- effective include: 9
-- effective review: 22
+- effective include: 8
+- effective review: 23
 - effective exclude: 48
 
-## INCLUDE (9)
+## INCLUDE (8)
 
 ---
 action: 
@@ -100,18 +100,6 @@ reason: Approved Bradford catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Office Administrator
-company: St Oswald's Church of England Primary Academy
-location: Bradford
-source: Teaching Vacancies
-job_id: teaching-vacancies-office-administrator-st-oswald-s-church-of-england-primary-academy
-reason: Approved Bradford catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: PA to the Principal (7519)
 company: Valley Academy
 location: Bradford
@@ -132,7 +120,19 @@ job_id: nhs-5611927
 reason: Approved Bradford catchment.
 ---
 
-## REVIEW (22)
+## REVIEW (23)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrative Assistant
+company: South Craven School
+location: Keighley
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-south-craven-school
+reason: No approved Bradford catchment rule matched; local review required.
+---
 
 ---
 action: 

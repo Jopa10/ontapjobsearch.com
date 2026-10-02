@@ -222,18 +222,6 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Cover Administrator / Supervisor
-company: Watford Grammar School for Girls
-location: Watford
-source: Teaching Vacancies
-job_id: teaching-vacancies-cover-administrator-supervisor
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Credit Controller
 company: Academia the Technology Group - Agency - Permanent
 location: Hertfordshire
@@ -467,6 +455,18 @@ company: Kings Langley Surgery
 location: Kings Langley, WD4 8ET, Hemel Hempstead, HP3 0HG
 source: NHS Jobs
 job_id: nhs-5627192
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part-Time Admin Assistant
+company: Oxhey Wood Primary School
+location: Watford
+source: Teaching Vacancies
+job_id: teaching-vacancies-part-time-admin-assistant-oxhey-wood-primary-school
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

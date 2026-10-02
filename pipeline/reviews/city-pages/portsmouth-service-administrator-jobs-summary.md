@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 56
+- automatic review: 57
 - automatic exclude: 0
 - effective include: 4
-- effective review: 56
+- effective review: 57
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: nhs-5627419
 reason: Exact approved Portsmouth workplace.
 ---
 
-## REVIEW (56)
+## REVIEW (57)
 
 ---
 action: 
@@ -623,6 +623,18 @@ company: CMA Recruitment Group - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-2017694
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist (Maternity Cover)
+company: The Blue Coat School Basingstoke
+location: Basingstoke
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-maternity-cover-the-blue-coat-school-basingstoke
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 

@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 22
-- automatic exclude: 53
+- automatic review: 23
+- automatic exclude: 52
 - effective include: 4
-- effective review: 22
-- effective exclude: 53
+- effective review: 23
+- effective exclude: 52
 
 ## INCLUDE (4)
 
@@ -72,7 +72,19 @@ job_id: nhs-5636667
 reason: Approved Huddersfield catchment.
 ---
 
-## REVIEW (22)
+## REVIEW (23)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrative Assistant
+company: South Craven School
+location: Keighley
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-south-craven-school
+reason: No approved Huddersfield catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -338,7 +350,7 @@ job_id: jobg8-1908693
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (53)
+## EXCLUDE (52)
 
 ---
 action: 
@@ -805,18 +817,6 @@ company: CRA Consulting - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-1954967
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Office Administrator
-company: St Oswald's Church of England Primary Academy
-location: Bradford
-source: Teaching Vacancies
-job_id: teaching-vacancies-office-administrator-st-oswald-s-church-of-england-primary-academy
 reason: Separate employment market.
 ---
 

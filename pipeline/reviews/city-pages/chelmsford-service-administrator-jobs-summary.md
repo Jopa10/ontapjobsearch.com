@@ -4,7 +4,7 @@
 - Live route: `/chelmsford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 14
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
+- automatic include: 15
 - automatic review: 68
 - automatic exclude: 0
-- effective include: 14
+- effective include: 15
 - effective review: 68
 - effective exclude: 0
 
-## INCLUDE (14)
+## INCLUDE (15)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Vaccination UK
 location: Chelmsford, CM144LN
 source: NHS Jobs
 job_id: nhs-5446642
+reason: Exact approved Chelmsford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Antenatal Clinic Administrator
+company: Mid and South Essex NHS Foundation Trust
+location: Chelmsford, CM1 7ET
+source: NHS Jobs
+job_id: nhs-5638977
 reason: Exact approved Chelmsford workplace.
 ---
 

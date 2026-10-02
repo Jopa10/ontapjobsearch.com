@@ -1,5 +1,30 @@
 [
   {
+    "job_id": "teaching-vacancies-administrator-caroline-chisholm-school-northampton-northamptonshire",
+    "title": "Administrator",
+    "company": "Caroline Chisholm School",
+    "location": "Northampton",
+    "region": "Northamptonshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time', 'part time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£22,525.00 - £22,884.00 Annually (Actual) Part- time hours also available",
+    "work_pattern": "",
+    "posted_date": "2026-09-30",
+    "closing_date": "2026-10-07",
+    "closing_datetime": "2026-10-07T12:00:00+01:00",
+    "summary": "Administrator with Caroline Chisholm School in Northampton. ['full time', 'part time']; £22,525.00 - £22,884.00 Annually (Actual) Part- time hours also available.",
+    "description": "Caroline Chisholm School is recruiting for this vacancy in Northampton.\n\nThe advertised position is Administrator.\n\nThe source lists the employment type as ['full time', 'part time'].\n\nThe advertised salary or pay scale is £22,525.00 - £22,884.00 Annually (Actual) Part- time hours also available.\n\nThe stated application deadline is 2026-10-07T12:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administrator-caroline-chisholm-school-northampton-northamptonshire?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "teaching-vacancies-administrator-welford-sibbertoft-and-sulby-endowed-school-northampton-northamptonshire",
     "title": "Administrator",
     "company": "Welford Sibbertoft and Sulby Endowed School",
@@ -22,9 +47,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Welford Sibbertoft and Sulby Endowed School",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -100,9 +122,6 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Guilsborough Academy",
-    "advertiser_type": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {

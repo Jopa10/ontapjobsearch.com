@@ -114,6 +114,18 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Administrator
+company: Kent and Medway Mental Health NHS Trust
+location: Sheerness, ME12 1AW
+source: NHS Jobs
+job_id: nhs-5639216
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrator Accountancy firm Xero essential
 company: Office Angels - Agency - Permanent
 location: Kent
@@ -191,18 +203,6 @@ company: Adjusting Appointments Limited - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-1906608
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Clinical Administrator
-company: Len Valley Practice
-location: Maidstone, ME17 2QF
-source: NHS Jobs
-job_id: nhs-5606943
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 

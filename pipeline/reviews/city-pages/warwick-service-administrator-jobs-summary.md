@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 22
+- automatic review: 23
 - automatic exclude: 0
 - effective include: 3
-- effective review: 22
+- effective review: 23
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: jobg8-2052561
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (22)
+## REVIEW (23)
 
 ---
 action: 
@@ -83,6 +83,18 @@ company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-2049443
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Assistant
+company: Oak Wood Primary School
+location: Nuneaton
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-oak-wood-primary-school
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

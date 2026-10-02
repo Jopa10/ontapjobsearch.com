@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 26
+- automatic review: 25
 - automatic exclude: 0
 - effective include: 4
-- effective review: 26
+- effective review: 25
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-1897879
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (26)
+## REVIEW (25)
 
 ---
 action: 
@@ -299,18 +299,6 @@ company: University Hospital of North Midlands NHS Trust
 location: Stafford, ST163SA
 source: NHS Jobs
 job_id: nhs-5632642
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist and Admin Assistant
-company: Lift Tamworth
-location: Tamworth
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-and-admin-assistant-lift-tamworth
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

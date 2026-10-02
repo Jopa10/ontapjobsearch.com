@@ -4,7 +4,7 @@
 - Live route: `/maidstone/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 57
+- automatic include: 2
+- automatic review: 58
 - automatic exclude: 0
-- effective include: 3
-- effective review: 57
+- effective include: 2
+- effective review: 58
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (2)
 
 ---
 action: 
@@ -48,19 +48,7 @@ job_id: jobg8-2052913
 reason: Exact approved Maidstone workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Clinical Administrator
-company: Len Valley Practice
-location: Maidstone, ME17 2QF
-source: NHS Jobs
-job_id: nhs-5606943
-reason: Exact approved Maidstone workplace.
----
-
-## REVIEW (57)
+## REVIEW (58)
 
 ---
 action: 
@@ -119,6 +107,18 @@ company: Kent and Medway Mental Health NHS Trust
 location: Gillingham, ME7 1AL
 source: NHS Jobs
 job_id: nhs-5635005
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Kent and Medway Mental Health NHS Trust
+location: Sheerness, ME12 1AW
+source: NHS Jobs
+job_id: nhs-5639216
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 

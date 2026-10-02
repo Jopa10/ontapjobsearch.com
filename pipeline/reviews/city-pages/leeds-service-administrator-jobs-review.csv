@@ -35,6 +35,7 @@ include,jobg8-1975937,Social Media Coordinator,Dream Big Digital - Agency - Perm
 include,jobg8-2048926,Temporary Administrator - Reed Education (Leeds),Reed - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-2028584,Temporary Credit Controller,Synergem Recruitment - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-1956696,Temporary HR Administrator,Hays Specialist Recruitment Limited - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
+review,teaching-vacancies-administrative-assistant-south-craven-school,Administrative Assistant,South Craven School,Keighley,Teaching Vacancies,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-2051232,Branch Administrator,Reed - Agency - Permanent,Wetherby,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-1885753,Conveyancing Assistant,Edwards & Pearce - Doncaster - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-1929686,Conveyancing Assistant,HVLR LTD - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
@@ -72,7 +73,6 @@ exclude,jobg8-1980054,Junior Marketing Executive,Reed - Agency - Permanent,Bradf
 exclude,teaching-vacancies-leadership-team-administrator-hybrid,Leadership Team Administrator (Hybrid),Moldgreen Community Primary School,Huddersfield,Teaching Vacancies,exclude,exclude,Separate employment market.,huddersfield,leeds-service-administrator-jobs
 exclude,jobg8-1986859,Marketing Coordinator,Equals One - Agency - Permanent,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
 exclude,nhs-5636667,Medical Receptionist,"Drs Shaw, Walker & Culliney","Huddersfield, HD8 8DJ",NHS Jobs,exclude,exclude,Separate employment market.,huddersfield,leeds-service-administrator-jobs
-exclude,teaching-vacancies-office-administrator-st-oswald-s-church-of-england-primary-academy,Office Administrator,St Oswald's Church of England Primary Academy,Bradford,Teaching Vacancies,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
 exclude,teaching-vacancies-pa-to-the-principal-7519,PA to the Principal (7519),Valley Academy,Bradford,Teaching Vacancies,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
 exclude,nhs-5611927,Project Administrator,Trust Primary Care Ltd,"Bradford, BD7 3JX",NHS Jobs,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
 exclude,nhs-5623216,Receptionist,Beechwood Medical Centre,"Halifax, HX2 8AL",NHS Jobs,exclude,exclude,Separate employment market.,halifax,leeds-service-administrator-jobs

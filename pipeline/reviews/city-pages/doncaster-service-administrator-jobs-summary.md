@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 10
 - automatic review: 0
-- automatic exclude: 21
+- automatic exclude: 22
 - effective include: 10
 - effective review: 0
-- effective exclude: 21
+- effective exclude: 22
 
 ## INCLUDE (10)
 
@@ -146,7 +146,7 @@ reason: Approved Doncaster catchment.
 
 ## REVIEW (0)
 
-## EXCLUDE (21)
+## EXCLUDE (22)
 
 ---
 action: 
@@ -157,6 +157,18 @@ company: The Rowan School
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-clerical-officer-level-2-rowan-school-the-rowan-school
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Admin Assistant
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S5 7AU
+source: NHS Jobs
+job_id: nhs-5639875
 reason: Separate employment market.
 ---
 
@@ -193,6 +205,18 @@ company: Lift Firth Park
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-attendance-admin-assistant-lift-firth-park
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Attendance and Attendance Officer
+company: Newman School
+location: Rotherham
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-and-attendance-officer
 reason: Separate employment market.
 ---
 
@@ -277,18 +301,6 @@ company: Avery Healthcare Group Ltd.
 location: Sheffield, S6 4TF
 source: NHS Jobs
 job_id: nhs-5615634
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Grenoside Surgery
-location: Sheffield, S35 8NX, Sheffield, S6 1LA
-source: NHS Jobs
-job_id: nhs-5614100
 reason: Separate employment market.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 29
+- automatic review: 30
 - automatic exclude: 11
 - effective include: 4
-- effective review: 29
+- effective review: 30
 - effective exclude: 11
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: nhs-5620851
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (29)
+## REVIEW (30)
 
 ---
 action: 
@@ -371,6 +371,18 @@ company: Brantridge School
 location: Haywards Heath
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-administrator-brantridge-school
+reason: No approved Brighton & Hove catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist / Administrator
+company: Foundry Healthcare Lewes
+location: Lewes, BN7 2LU, Lewes, BN7 2RD, Lewes, BN8 5QN, Lewes, BN7 1US
+source: NHS Jobs
+job_id: nhs-5639730
 reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 

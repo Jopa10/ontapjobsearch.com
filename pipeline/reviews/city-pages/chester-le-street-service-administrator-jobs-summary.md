@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 45
+- automatic review: 47
 - automatic exclude: 0
 - effective include: 0
-- effective review: 45
+- effective review: 47
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (45)
+## REVIEW (47)
 
 ---
 action: 
@@ -119,6 +119,18 @@ company: North Durham Academy
 location: Stanley
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-north-durham-academy
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Assistant
+company: St Anthony's Girls' Catholic Academy
+location: Sunderland
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-st-anthony-s-girls-catholic-academy
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -323,6 +335,18 @@ company: KCR Solutions - Agency - Permanent
 location: Northumberland
 source: JobG8
 job_id: jobg8-2044922
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Home Administrator
+company: Akari Care Limited
+location: Newcastle, NE5 5HQ
+source: NHS Jobs
+job_id: nhs-5610574
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 

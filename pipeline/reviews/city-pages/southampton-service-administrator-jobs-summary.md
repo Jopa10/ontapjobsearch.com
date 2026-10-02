@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 9
 - automatic review: 35
-- automatic exclude: 16
+- automatic exclude: 17
 - effective include: 9
 - effective review: 35
-- effective exclude: 16
+- effective exclude: 17
 
 ## INCLUDE (9)
 
@@ -554,7 +554,7 @@ job_id: jobg8-2044782
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (16)
+## EXCLUDE (17)
 
 ---
 action: 
@@ -697,6 +697,18 @@ company: Reed - Agency - Permanent
 location: Winchester
 source: JobG8
 job_id: jobg8-1881715
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist (Maternity Cover)
+company: The Blue Coat School Basingstoke
+location: Basingstoke
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-maternity-cover-the-blue-coat-school-basingstoke
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/bedford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
+- automatic include: 7
 - automatic review: 14
 - automatic exclude: 0
-- effective include: 6
+- effective include: 7
 - effective review: 14
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (7)
 
 ---
 action: 
@@ -93,6 +93,18 @@ company: Wootton Academy Trust
 location: Bedford
 source: Teaching Vacancies
 job_id: teaching-vacancies-pa-to-slt-and-admissions-administrator
+reason: Exact approved Bedford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Ward Clerk
+company: Bedfordshire Hospitals NHS Foundation Trust
+location: Bedford, MK42 9DJ
+source: NHS Jobs
+job_id: nhs-5639310
 reason: Exact approved Bedford workplace.
 ---
 

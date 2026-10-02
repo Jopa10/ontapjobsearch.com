@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 52
-- automatic review: 6
+- automatic review: 7
 - automatic exclude: 7
 - effective include: 52
-- effective review: 6
+- effective review: 7
 - effective exclude: 7
 
 ## INCLUDE (52)
@@ -88,11 +88,11 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administrative Assistant, Admissions & Attendance
-company: Harborne Primary School
+title: Administrative Assistant
+company: The Oaklands Primary School
 location: Birmingham
 source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-admissions-attendance
+job_id: teaching-vacancies-administrative-assistant-the-oaklands-primary-school
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -100,11 +100,11 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administrator
-company: E-ACT Shenley Academy
+title: Administrative Assistant, Admissions & Attendance
+company: Harborne Primary School
 location: Birmingham
 source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-de634a79-2cc9-479b-b3fe-58787528dcaa
+job_id: teaching-vacancies-administrative-assistant-admissions-attendance
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -648,7 +648,7 @@ job_id: jobg8-2039482
 reason: Approved conservative Birmingham launch catchment.
 ---
 
-## REVIEW (6)
+## REVIEW (7)
 
 ---
 action: 
@@ -659,6 +659,18 @@ company: The Royal Sutton School
 location: Sutton Coldfield
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-the-royal-sutton-school
+reason: No approved Birmingham catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Home Administrator
+company: Avery Healthcare Group Ltd.
+location: Knowle, B93 9LQ
+source: NHS Jobs
+job_id: nhs-5638487
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 

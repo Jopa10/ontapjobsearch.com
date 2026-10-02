@@ -4,7 +4,7 @@
 - Live route: `/northampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 18
+- automatic include: 6
+- automatic review: 17
 - automatic exclude: 0
-- effective include: 5
-- effective review: 18
+- effective include: 6
+- effective review: 17
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (6)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Caroline Chisholm School
+location: Northampton
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-caroline-chisholm-school-northampton-northamptonshire
+reason: Exact approved Northampton workplace.
+---
 
 ---
 action: 
@@ -84,19 +96,7 @@ job_id: teaching-vacancies-receptionist-guilsborough-academy
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (18)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Academy Administrator
-company: Greenfields Primary School and Nursery
-location: Kettering
-source: Teaching Vacancies
-job_id: teaching-vacancies-academy-administrator-greenfields-primary-school-and-nursery
-reason: No exact Northampton workplace matched; local geographic review is required.
----
+## REVIEW (17)
 
 ---
 action: 

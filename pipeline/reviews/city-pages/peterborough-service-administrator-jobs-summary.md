@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 3
+- automatic review: 4
 - automatic exclude: 13
 - effective include: 6
-- effective review: 3
+- effective review: 4
 - effective exclude: 13
 
 ## INCLUDE (6)
@@ -96,7 +96,19 @@ job_id: jobg8-1939450
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (3)
+## REVIEW (4)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Exams Officer
+company: Ernulf Academy
+location: St. Neots
+source: Teaching Vacancies
+job_id: teaching-vacancies-exams-officer-ernulf-academy-st-neots
+reason: No approved Peterborough catchment rule matched; local review required.
+---
 
 ---
 action: 

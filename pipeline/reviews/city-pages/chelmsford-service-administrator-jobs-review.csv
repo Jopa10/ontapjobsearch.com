@@ -1,6 +1,7 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-2028623,Accounts Receivable Assistant,Countrywide HQ - Agency - Permanent,Chelmsford,JobG8,include,include,Exact approved Chelmsford workplace.,exact:chelmsford,chelmsford-service-administrator-jobs
 include,nhs-5446642,Administrator - Chelmsford,Vaccination UK,"Chelmsford, CM144LN",NHS Jobs,include,include,Exact approved Chelmsford workplace.,exact:chelmsford,chelmsford-service-administrator-jobs
+include,nhs-5638977,Antenatal Clinic Administrator,Mid and South Essex NHS Foundation Trust,"Chelmsford, CM1 7ET",NHS Jobs,include,include,Exact approved Chelmsford workplace.,exact:chelmsford,chelmsford-service-administrator-jobs
 include,jobg8-2048936,Associate Town Planner / Associate Partner,Penguin Recruitment Ltd - Agency - Permanent,Chelmsford,JobG8,include,include,Exact approved Chelmsford workplace.,exact:chelmsford,chelmsford-service-administrator-jobs
 include,jobg8-1873301,Conveyancing Paralegal,JS Legal Recruitment Ltd - Agency - Permanent,Chelmsford,JobG8,include,include,Exact approved Chelmsford workplace.,exact:chelmsford,chelmsford-service-administrator-jobs
 include,jobg8-2048232,Conveyancing Paralegal,JS Legal Recruitment Ltd - Agency - Permanent,Chelmsford,JobG8,include,include,Exact approved Chelmsford workplace.,exact:chelmsford,chelmsford-service-administrator-jobs

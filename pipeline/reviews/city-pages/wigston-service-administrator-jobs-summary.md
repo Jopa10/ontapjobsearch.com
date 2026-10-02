@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 14
+- automatic review: 15
 - automatic exclude: 0
 - effective include: 0
-- effective review: 14
+- effective review: 15
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (14)
+## REVIEW (15)
 
 ---
 action: 
@@ -131,6 +131,18 @@ company: Aspire People Limited - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-1979613
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Key Stage Administrator
+company: Bosworth Academy
+location: Leicester
+source: Teaching Vacancies
+job_id: teaching-vacancies-key-stage-administrator
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

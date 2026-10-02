@@ -3,6 +3,7 @@ include,nhs-5628810,Admin/receptionist,Stephenson Park Health Group,"Newcastle U
 include,jobg8-107967240,Business Development Executive,Independent Utility Advice - Agency - Permanent,Newcastle Upon Tyne,JobG8,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
 include,jobg8-1986474,Client Administrator,IDEX Consulting Ltd - Agency - Permanent,Newcastle,JobG8,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
 include,jobg8-2021556,Credit Controller,Tenth Revolution Group - Agency - Permanent,Newcastle Upon Tyne,JobG8,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
+include,nhs-5610574,Home Administrator,Akari Care Limited,"Newcastle, NE5 5HQ",NHS Jobs,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
 include,nhs-5626649,Home Administrator,Akari Care Limited,"Newcastle, NE5 5AY",NHS Jobs,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
 include,jobg8-1927962,Housing Coordinator,TPP Recruitment - Agency - Permanent,Newcastle Upon Tyne,JobG8,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
 include,jobg8-108026899,Motor Claims Handler,Xpert Recruitment Solutions Limited - Agency - Permanent,Newcastle,JobG8,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
@@ -33,6 +34,7 @@ exclude,jobg8-1888837,Accounts Assistant,Reed - Agency - Permanent,Durham,JobG8,
 exclude,jobg8-2037066,Accounts Assistant,Reed - Agency - Permanent,Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,jobg8-2055201,Activity Co-ordinator,Cygnet - Agency - Permanent,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,teaching-vacancies-administration-assistant-north-durham-academy,Administration Assistant,North Durham Academy,Stanley,Teaching Vacancies,exclude,exclude,Separate employment market.,context:durham,newcastle-service-administrator
+exclude,teaching-vacancies-administration-assistant-st-anthony-s-girls-catholic-academy,Administration Assistant,St Anthony's Girls' Catholic Academy,Sunderland,Teaching Vacancies,exclude,exclude,Separate employment market.,sunderland,newcastle-service-administrator
 exclude,teaching-vacancies-administration-assistant-st-leonard-s-catholic-primary-school-silksworth,Administration Assistant,"St Leonard's Catholic Primary School, Silksworth",Sunderland,Teaching Vacancies,exclude,exclude,Separate employment market.,sunderland,newcastle-service-administrator
 exclude,nhs-5614776,Administrator,Moorlands Surgery,"Darlington, DL3 9JP",NHS Jobs,exclude,exclude,Separate employment market.,darlington,newcastle-service-administrator
 exclude,nhs-5637587,Administrator,Seaton Surgery,"Hartlepool, TS25 1AX",NHS Jobs,exclude,exclude,Outside Newcastle catchment.,hartlepool,newcastle-service-administrator

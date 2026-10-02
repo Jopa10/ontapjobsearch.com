@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 4
 - automatic review: 3
-- automatic exclude: 18
+- automatic exclude: 19
 - effective include: 4
 - effective review: 3
-- effective exclude: 18
+- effective exclude: 19
 
 ## INCLUDE (4)
 
@@ -110,7 +110,7 @@ job_id: teaching-vacancies-receptionist-administrator-shipston-high-school
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (18)
+## EXCLUDE (19)
 
 ---
 action: 
@@ -145,6 +145,18 @@ company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-2049443
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administration Assistant
+company: Oak Wood Primary School
+location: Nuneaton
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-oak-wood-primary-school
 reason: Separate employment market.
 ---
 

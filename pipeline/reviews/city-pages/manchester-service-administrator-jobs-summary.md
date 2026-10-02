@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 42
+- Effective included jobs: 43
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 42
+- automatic include: 43
 - automatic review: 33
 - automatic exclude: 1
-- effective include: 42
+- effective include: 43
 - effective review: 33
 - effective exclude: 1
 
-## INCLUDE (42)
+## INCLUDE (43)
 
 ---
 action: 
@@ -345,6 +345,18 @@ company: CRA Consulting - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-1945005
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Level 2 Academy Administrator
+company: Dixons Newall Green Academy
+location: Manchester
+source: Teaching Vacancies
+job_id: teaching-vacancies-level-2-academy-administrator-87638371-b844-4b56-8fc9-861f67e6ef3c
 reason: Approved conservative Manchester launch catchment.
 ---
 

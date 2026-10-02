@@ -4,7 +4,7 @@
 - Live route: `/basingstoke/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 1
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
+- automatic include: 2
 - automatic review: 59
 - automatic exclude: 0
-- effective include: 1
+- effective include: 2
 - effective review: 59
 - effective exclude: 0
 
-## INCLUDE (1)
+## INCLUDE (2)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Sheridan Maine - Agency - Permanent
 location: Basingstoke
 source: JobG8
 job_id: jobg8-2028253
+reason: Exact approved Basingstoke workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist (Maternity Cover)
+company: The Blue Coat School Basingstoke
+location: Basingstoke
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-maternity-cover-the-blue-coat-school-basingstoke
 reason: Exact approved Basingstoke workplace.
 ---
 

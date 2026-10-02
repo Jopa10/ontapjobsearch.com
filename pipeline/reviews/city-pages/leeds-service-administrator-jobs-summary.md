@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 36
-- automatic review: 20
-- automatic exclude: 23
+- automatic review: 21
+- automatic exclude: 22
 - effective include: 36
-- effective review: 20
-- effective exclude: 23
+- effective review: 21
+- effective exclude: 22
 
 ## INCLUDE (36)
 
@@ -456,7 +456,19 @@ job_id: jobg8-1956696
 reason: Approved Leeds catchment.
 ---
 
-## REVIEW (20)
+## REVIEW (21)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrative Assistant
+company: South Craven School
+location: Keighley
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-south-craven-school
+reason: No approved Leeds catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -698,7 +710,7 @@ job_id: jobg8-1908693
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
-## EXCLUDE (23)
+## EXCLUDE (22)
 
 ---
 action: 
@@ -901,18 +913,6 @@ company: Drs Shaw, Walker & Culliney
 location: Huddersfield, HD8 8DJ
 source: NHS Jobs
 job_id: nhs-5636667
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Office Administrator
-company: St Oswald's Church of England Primary Academy
-location: Bradford
-source: Teaching Vacancies
-job_id: teaching-vacancies-office-administrator-st-oswald-s-church-of-england-primary-academy
 reason: Separate employment market.
 ---
 

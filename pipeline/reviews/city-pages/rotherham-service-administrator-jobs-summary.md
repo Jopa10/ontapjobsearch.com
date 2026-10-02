@@ -4,7 +4,7 @@
 - Live route: `/rotherham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 0
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 0
+- automatic include: 1
 - automatic review: 31
 - automatic exclude: 0
-- effective include: 0
+- effective include: 1
 - effective review: 31
 - effective exclude: 0
 
-## INCLUDE (0)
+## INCLUDE (1)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Attendance and Attendance Officer
+company: Newman School
+location: Rotherham
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-and-attendance-officer
+reason: Exact approved Rotherham workplace.
+---
 
 ## REVIEW (31)
 
@@ -47,6 +59,18 @@ company: Owston Park Primary Academy
 location: Doncaster
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-assistant-owston-park-primary-academy
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin Assistant
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S5 7AU
+source: NHS Jobs
+job_id: nhs-5639875
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -275,18 +299,6 @@ company: Avery Healthcare Group Ltd.
 location: Sheffield, S6 4TF
 source: NHS Jobs
 job_id: nhs-5615634
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Grenoside Surgery
-location: Sheffield, S35 8NX, Sheffield, S6 1LA
-source: NHS Jobs
-job_id: nhs-5614100
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
