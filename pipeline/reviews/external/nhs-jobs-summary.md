@@ -14,6 +14,18 @@ Edit only each `action:` line for POSS rows. Unchanged decisions are restored by
 
 ---
 action:
+POSS | NHS Jobs | — | ULTH, LN2 5QY | £28392.00 to £31157.00 | Tobacco Dependency Advisor Band 4
+source_job_id: 5640083
+title: Tobacco Dependency Advisor Band 4
+employer: United Lincolnshire Hospitals NHS Trust
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9357-26-0433
+factual_fingerprint: 0a1f90470fe308238581b3e7694b7053b2bd86dae9c5fe0b83df79c1ffb2e442
+---
+
+---
+action:
 POSS | NHS Jobs | Hampshire | Southampton, SO14 0YG | £28392.00 to £31157.00 | Senior Buyer
 source_job_id: 5639808
 title: Senior Buyer
@@ -394,18 +406,6 @@ region: East Midlands
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9320-26-0986
 factual_fingerprint: 79acc6e83a50672fb4f9bf0a79c422541b2ca2da33c78c0fd2ea4793f8928b4b
----
-
----
-action:
-POSS | NHS Jobs | Greater Manchester - South | Stockport, SK2 7JE | £28392.00 to £31157.00 | Waiting List Officer – Elective Booking & Scheduling Team
-source_job_id: 5638101
-title: Waiting List Officer – Elective Booking & Scheduling Team
-employer: Stockport NHS Foundation Trust
-region: Greater Manchester - South
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9362-26-0734
-factual_fingerprint: 8e95c06d8c6a19541452a4f8f90ab760feddb725ce4da19fafc6595a3e0f2edd
 ---
 
 ---
