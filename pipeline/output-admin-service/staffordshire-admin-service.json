@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Longford Primary Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-curriculum-data-administrator",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "St Margaret Ward Catholic Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-examinations-officer-blythe-bridge-high-school",
@@ -69,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Blythe Bridge High School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "1875798",
@@ -119,31 +131,6 @@
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "108061323",
-    "title": "Customs Administrator",
-    "company": "Outsource - Agency - Contract",
-    "location": "Staffordshire",
-    "region": "Staffordshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Contract",
-    "salary_min": "15.11",
-    "salary_max": "15.11",
-    "salary_text": "£15.11 per hour",
-    "posted_date": "",
-    "description": "Customs Administrator\nLocation: Stafford\nDuration: 12-Month Contract\nHourly Rate: £15.11 PAYE per hour\nWorking Arrangements: Full time on site\nWorking Hours: Mon-Thurs: 08:00-16:30 Fri: 08:00-13:00\n\nWe're seeking a Customs Administrator to support daily import and customs activities within a busy, fast-paced team click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Yic9job4bS9B01AjcK6UYkuVCHREsYeKc",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Outsource",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Hourly",
     "posted_date_basis": ""
   },
   {
@@ -397,6 +384,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "108062618",
+    "title": "Sales Coordinator",
+    "company": "INSTARMAC GROUP - Agency - Permanent",
+    "location": "Staffordshire",
+    "region": "Staffordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Hours of Work\n\nMonday to Friday - 9:00am 5:30pm - On-site\n\nBenefits\n- Performance Profit Related Bonus (PPRP) target of 8% annually\n- Individual Target Bonus\n- Up to 29 days' holiday\n- 57.5% employer pension contribution\n- Private medical & dental cover\n- Life Assurance & Income Protection\n- Free use of holiday homes in Tenerife, Padstow & St Ives (with subsidised travel)\n- Employee Assistance Programme\n- Retail discounts & w click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?MQiKzVwZdh1MWidrj4H6yYrVut8N%2b%2fX%2fu",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "INSTARMAC GROUP",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5632642",
     "source": "NHS Jobs",
     "title": "Receptionist",
@@ -412,7 +424,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9205-26-1903",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9205-26-1903",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5619403",
@@ -430,7 +446,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9232-26-0255",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9232-26-0255",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5613574",
@@ -448,7 +468,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0513",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0513",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5609313",
@@ -466,6 +490,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1364",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1364",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

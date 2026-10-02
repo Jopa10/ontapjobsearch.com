@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Larwood School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-database-and-admissions-administrator-simon-balle-all-through-school",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Simon Balle All-Through School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-administrator-ludwick-nursery-school",
@@ -69,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Ludwick Nursery School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-office-administrator-petersfield-cofe-aided-primary-school",
@@ -93,7 +105,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Petersfield CofE Aided Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-office-administrator-forres-primary-academy",
@@ -117,7 +133,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Forres Primary Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-part-time-admin-assistant-oxhey-wood-primary-school",
@@ -141,7 +161,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Oxhey Wood Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-attendance-administrator-the-astley-cooper-school-hemel-hempstead-hertfordshire",
@@ -165,7 +189,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Astley Cooper School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "1871732",
@@ -593,6 +621,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "2058650",
+    "title": "Investment Administrator",
+    "company": "Claims Recruitment Services - Agency - Permanent",
+    "location": "Hertfordshire",
+    "region": "Hertfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "We are recruiting for an Investment Administrator on behalf of a Fintech business based in St Albans.\n\nThe successful candidate will provide effective and efficient servicing of all Structured and Investment products on behalf of clients.\n\nKey Responsibilities\n- Completing daily pricing on all structured and investment products.\n- Processing redemption requested on structured and investment products.\n- Processing dividends and completing periodic stock reconciliation.\n- Liaising with the administration and finance department in the smooth transition of maturities, surrenders, and dividend processing.\n- Processing death notification on structured product plans and subsequent disposal or transfer of assets.\n- Producing management information, as determined by the Dealing Manager.\n- Undertaking processing of post strike adjustments.\n\nKey Requirements\n- Experience of at least 2 years carrying out an investment administrative role.\n- Minimum qualifications of GCSE standard or equivalent.\n- Strong numerical, analytical and reconciling skills.\n- Knowledge of dividends, stock transfers and dealing.\n- ISA product knowledge.\n- Proficient in Microsoft Excel and Word.\n- Experience of working within the Financial Services Industry.\n- Willing to study towards the Investment Administration Qualifications.\n- Knowledge of HMRC ISA Regulations and it's application to investment products.\n\nWe do not retain any personal information without your permission. Please refer to our data protection policy on our official website for more information.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fjjcmQsxgSwW1BihJedAMgti",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Claims Recruitment Services",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "1927516",
     "title": "Claims Handler",
     "company": "PMR - Agency - Permanent",
@@ -733,7 +786,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9367-26-0939",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9367-26-0939",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5627192",
@@ -751,7 +808,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0644-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0644-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5439405",
@@ -769,7 +830,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0072",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0072",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5630065",
@@ -787,7 +852,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2171",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2171",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5612223",
@@ -805,6 +874,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9361-26-0561",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9361-26-0561",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

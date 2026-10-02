@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "North Kent College",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-pupil-records-administrator-parkwood-hall-academy-trust-swanley-kent",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Parkwood Hall Academy Trust",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-admin-assistant-gordons-children-s-academy-junior",
@@ -69,32 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
-  },
-  {
-    "job_id": "1855557",
-    "title": "Service advisor",
-    "company": "HTC - Agency - Permanent",
-    "location": "Kent",
-    "region": "Kent",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "HTC is a long-established, privately owned group that has been at the forefront of the UK commercial vehicle industry since 1970. As one of the original DAF franchises, we have grown into a powerhouse within the Ballyvesey Holdings Ltd family. We proudly represent industry leaders including DAF Trucks, FiatPro, and Maxus, providing world-class vehicle sales and aftersales support.\n\nAn excellent opportunity for an experienced Service Advisor to join HTC Group (DAF) You will be working as part of a team delivering a first class, professional customer service ensuring that where possible customer enquiries, payments and complaints are resolved at the first point of contact.\n\nKey duties and Responsibilities\n- To work as part of a team delivering a first class, professional customer service ensuring that where possible customer enquiries, payments and complaints are resolved at the first point of contact.\n- To greet customers in a friendly, professional and courteous manner.\n- To undertake general administrative duties to ensure the smooth flow of work within the Customer Service Reception.\n- To give repair estimates and price quotations and offer repair suggestions.\n- Register new vehicles\n- Ensure invoices and taxing vehicles are completed accurately and on time.\n- Locate unavailable items from other suppliers and arrange for delivery or pass order to stock control.\n- Handle all internal and external customers and suppliers with courtesy.\n- Adhere to Health & Safety Policies and Procedures at all times.\n\nPreferred Qualifications and Experience\n- Excellent communication and interpersonal skills.\n- Ability to work under pressure.\n- Previous experience in a Parts or Service advisor role.\n- You must be PC literate with a working knowledge of administration procedures.\n- Have an understanding of the commercial vehicle after market operation.\n\nAt Ballyvesey Holdings your right to privacy is important to us. By applying for this job, your information will be entered into our recruitment system. This will enable you to register for job alerts, apply for jobs and for us to help you find your next role. To read our full privacy policy please follow the link:",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?ju9emE%2fz0VIvN1cOg1Dw%2b%2fVz5zCZqpQZw",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "HTC",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
+    "advertiser_name": "Gordons Children's Academy, Junior",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "1875398",
@@ -393,31 +380,6 @@
     "advertiser_name": "Michael Page Finance",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "108044308",
-    "title": "Business Support Assistant",
-    "company": "Oasis Restore - Agency - Permanent",
-    "location": "Kent",
-    "region": "Kent",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "26000",
-    "salary_max": "26000",
-    "salary_text": "£26000 per year",
-    "posted_date": "",
-    "description": "JOB TITLE: Business Support Officer\n\nCLOSING DATE: 8am Monday 12th October 2026\n\nINTERVIEW DATE: Interviews will take place on Wednesday 14th October 2026\n\nSTART DATE: As Soon As Possible\n\nSALARY: Salary SCP14 (£27,747) - SCP18 (£29,860) + Local Government Pension Scheme click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Y5CHIaMSKAyEC0uPVQKROZUFv4CxUJxOv",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Oasis Restore",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": ""
   },
@@ -787,7 +749,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0804",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0804",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5635869",
@@ -805,7 +771,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0797",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0797",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5635005",
@@ -823,7 +793,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0792",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0792",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5612839",
@@ -841,7 +815,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0461-26-0014",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0461-26-0014",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5635318",
@@ -859,7 +837,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5072-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5072-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5637080",
@@ -877,7 +859,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9333-26-1297",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9333-26-1297",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5605171",
@@ -895,6 +881,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0646-26-0027",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0646-26-0027",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
