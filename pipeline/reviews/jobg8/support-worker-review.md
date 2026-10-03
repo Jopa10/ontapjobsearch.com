@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-10-02
+feed_date: 2026-10-03
 
 Edit only the `action:` line in each block:
 
@@ -165,12 +165,6 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour () will be paid) | Relief Support Worker
-job_id: 108001475
----
-
----
-action:
 SELECTED | Cumbria - South | Barrow-in-furness | £15 per hour (dependent on experience) | Rehabilitation Support Worker
 job_id: 108057926
 ---
@@ -257,18 +251,6 @@ job_id: 559639887195039334437340
 action:
 SELECTED | Hampshire | Tadley | £25,845 per annum | Support Worker
 job_id: 635330054620761292837340
----
-
----
-action:
-SELECTED | Hampshire | Southampton | £25,845 per annum | Male Support Worker
-job_id: 455939784746781900837341
----
-
----
-action:
-SELECTED | Hampshire | Fareham | £25,845 per annum | Male Support Worker
-job_id: 455939784746781900837340
 ---
 
 ---
@@ -443,6 +425,12 @@ SELECTED | London | London | £100 - £105 per daily | Autism Support Worker
 job_id: 2037495
 ---
 
+---
+action:
+SELECTED | London | Ilford | £15,412.00 per annum | Support Worker
+job_id: 2067783
+---
+
 ## LONDON — POSSIBLES
 
 ---
@@ -571,17 +559,17 @@ SELECTED | Surrey | Leatherhead | £15 per hour | Male Healthcare Assistant - Le
 job_id: 108062509
 ---
 
+---
+action:
+SELECTED | Surrey | Addlestone | £25,845 per year | Support Worker
+job_id: 343400282262077440037340
+---
+
 ## SURREY — POSSIBLES
 
 _No jobs in this group._
 
 ## WILTSHIRE — SELECTED
-
----
-action:
-SELECTED | Wiltshire | Chippenham | £39134 per year | Healthcare Assistant
-job_id: 107879735
----
 
 ---
 action:
