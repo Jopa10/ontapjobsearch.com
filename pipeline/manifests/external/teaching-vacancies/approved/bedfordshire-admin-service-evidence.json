@@ -1,17 +1,17 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-02T17:41:01+01:00",
+  "generated_at": "2026-10-03T16:13:23+01:00",
   "source": "Teaching Vacancies",
   "region": "Bedfordshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-02",
-  "review_fingerprint": "0b990088cf17ec17262a3510b1df988c45d186fab6130908f8e63df6e9951f43",
-  "routing_manifest_sha256": "95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a",
-  "review_csv_sha256": "9d60d2dc48e960ef136ba01c1caa24aa34c3da0535928771dfb1ff1251dada29",
-  "summary_md_sha256": "894bddc78b19512b3d908d5811bb63b96c28ddb7890c8af6bd50b7f5d8e7922a",
-  "approved_snapshot_sha256": "cb5149e34526563afbabe6d35ded7e972428d0ddbb6eefaffb512ed7e48847c2",
-  "approved_rows": 7,
+  "review_date": "2026-10-03",
+  "review_fingerprint": "eb4f33d3a6f53e04f37a1ba0509fa6b864ecc497c8bc71bda49ff4f21f22f3fc",
+  "routing_manifest_sha256": "603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52",
+  "review_csv_sha256": "69b920ac8c878f086047dd89625abe5909b3f5d962f22a850060d4e77c57ed21",
+  "summary_md_sha256": "7cc96533cbda4845db440963c3ce4f8d0106dfc61649867925d0d6372a6fc2a7",
+  "approved_snapshot_sha256": "efff0dab1cba1ba6f3f8f1912018042339f34cdc71e5ef78d973196e9c5665bf",
+  "approved_rows": 8,
   "approved_job_ids": [
     "teaching-vacancies-administrative-assistant-receptionist-shefford-lower-school",
     "teaching-vacancies-receptionist-manshead-church-of-england-academy",
@@ -19,6 +19,7 @@
     "teaching-vacancies-attendance-officer-putteridge-high-school",
     "teaching-vacancies-attendance-officer-5c4746af-e5b9-4134-b7ab-8d54523d4fae",
     "teaching-vacancies-hr-administrator-d2f90df6-89af-4919-b35e-a47a1e5bf7df",
-    "teaching-vacancies-pa-to-slt-and-admissions-administrator"
+    "teaching-vacancies-pa-to-slt-and-admissions-administrator",
+    "teaching-vacancies-clerical-and-hr-administrator"
   ]
 }

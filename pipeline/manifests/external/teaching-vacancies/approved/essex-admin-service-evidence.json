@@ -1,22 +1,22 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-02T17:41:03+01:00",
+  "generated_at": "2026-10-03T16:13:25+01:00",
   "source": "Teaching Vacancies",
   "region": "Essex",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-02",
-  "review_fingerprint": "e060071a22f28e4be099c5467697a276697cbf82b2309a796f7229bdf655ace7",
-  "routing_manifest_sha256": "95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a",
-  "review_csv_sha256": "436ef628c6baeb3c11200de3d06097af78ef6cf718ee891bf5850fcea815fae2",
-  "summary_md_sha256": "0f875c806f0a6e81f8d9eac38812e259da22e11b77b2cb13d023bbd9b623bf45",
-  "approved_snapshot_sha256": "e648a3ab897228b181810a1ab936a76c49978a6633fb67deb98a66730aac002f",
+  "review_date": "2026-10-03",
+  "review_fingerprint": "07b90519a022002e84be9688aa1950e0d2151dd5c97c72ea1ae6fbf2e51fc6f1",
+  "routing_manifest_sha256": "603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52",
+  "review_csv_sha256": "be1cd36dc4313d77aa5faaebbc7111a5bcd03929998b5c4257ce711ba97ccc88",
+  "summary_md_sha256": "bc4951f878eda77e99b85589b41896f4feaa3550e928fc878958045af186597c",
+  "approved_snapshot_sha256": "213d298fd2687e970fdb30e054aabaf0969a1c966b6d966dc67017c38c305fe9",
   "approved_rows": 5,
   "approved_job_ids": [
-    "teaching-vacancies-lead-administrator-limebrook-primary-school-and-nursery-maldon-essex",
     "teaching-vacancies-receptionist-little-thurrock-primary-school",
     "teaching-vacancies-attendance-and-send-administrator-with-midday-assistant-role-included",
     "teaching-vacancies-administration-assistant-great-totham-primary-school",
+    "teaching-vacancies-receptionist-brentwood-county-high-school",
     "teaching-vacancies-administration-assistant-d4c71f58-82f8-447e-966b-f065379eaa99"
   ]
 }

@@ -1,16 +1,18 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-02T17:41:04+01:00",
+  "generated_at": "2026-10-03T16:13:26+01:00",
   "source": "Teaching Vacancies",
   "region": "Gloucestershire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-02",
-  "review_fingerprint": "2903f6b9fc7343789695ac52f321e49a215aadfde9607c2dc833d4d34250c353",
-  "routing_manifest_sha256": "95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a",
-  "review_csv_sha256": "c55b6203407bbe84f6ab60ee292155fd17fef8d9493cbeb08f504a32ea67f759",
-  "summary_md_sha256": "4e7d797b6d05b5adf817ff2cadf34f99e006b2b873206b4f83d550f300ebfcd4",
-  "approved_snapshot_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-  "approved_rows": 0,
-  "approved_job_ids": []
+  "review_date": "2026-10-03",
+  "review_fingerprint": "e250e11754ccfc0439eb59de14ca2cee5f6f75300f32a0ad812f7675ca192dbc",
+  "routing_manifest_sha256": "603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52",
+  "review_csv_sha256": "47e4a7d5b7d15eda092f124d4168da5fb687ce0d0dae6ae9711463b04b9a79f2",
+  "summary_md_sha256": "d988225f4bea3d583108c02c1040625efcf688c7dbebbd0c57452ecdfdc662d4",
+  "approved_snapshot_sha256": "517c80f086bf1f6895e87833c26c51405a46a14915b59f7e168b53b5abd73b49",
+  "approved_rows": 1,
+  "approved_job_ids": [
+    "teaching-vacancies-school-administrator-st-james-church-of-england-junior-school"
+  ]
 }

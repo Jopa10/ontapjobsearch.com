@@ -175,6 +175,31 @@
     "posted_date_basis": "source"
   },
   {
+    "job_id": "teaching-vacancies-clerical-and-hr-administrator",
+    "title": "Clerical and HR Administrator",
+    "company": "Leighton Middle School",
+    "location": "Leighton Buzzard",
+    "region": "Bedfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['part time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£12,055.00 - £12,244.00 Annually (Actual) NJC Level 2A pt 3-4 (£25,614 - £26,016 FTE)",
+    "work_pattern": "",
+    "posted_date": "2026-10-02",
+    "closing_date": "2026-10-19",
+    "closing_datetime": "2026-10-19T10:00:00+01:00",
+    "summary": "Clerical and HR Administrator with Leighton Middle School in Leighton Buzzard. ['part time']; £12,055.00 - £12,244.00 Annually (Actual) NJC Level 2A pt 3-4 (£25,614 - £26,016 FTE).",
+    "description": "Leighton Middle School is recruiting for this vacancy in Leighton Buzzard.\n\nThe advertised position is Clerical and HR Administrator.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £12,055.00 - £12,244.00 Annually (Actual) NJC Level 2A pt 3-4 (£25,614 - £26,016 FTE).\n\nThe stated application deadline is 2026-10-19T10:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/clerical-and-hr-administrator?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "1900194",
     "title": "Family Law Paralegals (x2) - Luton",
     "company": "Duncan Lewis Solictors - Agency - Permanent",
@@ -475,6 +500,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "2063915",
+    "title": "Shipping & Logistics Coordinator",
+    "company": "Response Personnel - Agency - Permanent",
+    "location": "Luton",
+    "region": "Bedfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "15",
+    "salary_max": "15",
+    "salary_text": "£15 per hour",
+    "posted_date": "2026-10-03",
+    "description": "Shipping & Logistics Coordinator\n\nLocation: Luton\nWorking Pattern: Fully office-based\nContract: Temporary - With opportunity to go permanent\nStart Date: Immediate / ASAP\nHours: 8:30am - 5pm\nRate: £15 per hour\n\nWe are currently looking for a Shipping & Logistics Coordinator to join our team in Luton. This is an exciting opportunity for an experienced shipping or logistics professional to join a fast-paced manufacturing environment and play a key role in ensuring customer orders are shipped accurately and on time.\n\nPlease note: this is a fully office-based position in Luton, with no working from home option.\n\nThe Role\n\nAs Shipping & Logistics Coordinator, you will be responsible for coordinating customer shipments, working closely with customers, freight forwarders, Planning, Operations and internal support teams to ensure the smooth and timely movement of goods.\n\nKey Responsibilities\n- Coordinate customer shipments, including EXW collections.\n- Act as the main point of contact for customers regarding shipping arrangements.\n- Liaise with freight forwarders and obtain competitive freight quotations.\n- Work closely with Planning and Operations to ensure customer orders are shipped on time.\n- Prepare shipping and export documentation, including:\n- Certificates of Origin\n- ATRs\n- Commercial invoices\n- Certificates of Conformance\n- Test certificates\n- Support import/export and customs documentation, including SAD documentation.\n- Process customer shipments through relevant shipping portals.\n- Liaise with the Credit team regarding Letters of Credit.\n- Participate in Health & Safety and continuous improvement activities.\n- Ensure shipping activities are completed accurately and in line with company procedures and customer requirements.\n\nAbout You\n\nWe are looking for a hands-on, organised and customer-focused individual who is comfortable working in a busy manufacturing environment.\n\nYou will ideally have:\n- Previous experience in shipping, logistics, exports or a similar role.\n- Good knowledge of EXW and international shipping processes.\n- Experience working with freight forwarders and preparing export documentation.\n- Strong communication and organisational skills.\n- Excellent attention to detail and the ability to manage multiple priorities.\n- Good IT skills, particularly Microsoft Excel.\n- Previous SAP experience would be desirable, although full SAP training can be provided.\n\nWhat We're Looking For\n\nThe successful candidate will be someone who can hit the ground running, communicate confidently with customers and internal teams, and ensure shipments are coordinated efficiently and accurately.\n\nIf you have experience in shipping or logistics and are available to take on a temporary role in Luton, we'd love to hear from you.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aziU08XVyREWjGNSfUuu2b3Ei93WbJb3d",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Response Personnel",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "nhs-5620192",
     "source": "NHS Jobs",
     "title": "Administration Assistant",
@@ -491,6 +541,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9448-26-0343",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -510,6 +563,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9418-26-1019",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

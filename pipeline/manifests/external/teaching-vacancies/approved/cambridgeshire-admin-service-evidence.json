@@ -1,21 +1,21 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-02T17:41:02+01:00",
+  "generated_at": "2026-10-03T16:13:24+01:00",
   "source": "Teaching Vacancies",
   "region": "Cambridgeshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-02",
-  "review_fingerprint": "26ac669c4851434fbeacc04ec1d11281a748e48ef3a3cffbb3f2db928845d037",
-  "routing_manifest_sha256": "95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a",
-  "review_csv_sha256": "8a7c5b20322570bc4f57348d89274b1c2a640a3ce06cc200aabef636ca6b335a",
-  "summary_md_sha256": "1488b59d78495d8fb946fb9ab71dd467ab42e91b9061e17a8b5fdc8394918131",
-  "approved_snapshot_sha256": "3324391db11a48fb0fb2f798fd5581d95ff3c1d0cd2d60f224adeaea36c7ea44",
+  "review_date": "2026-10-03",
+  "review_fingerprint": "3a6b9383ccce57bf4b1ff9bd20182e9b7a62f6913487b9f1b87101a957129388",
+  "routing_manifest_sha256": "603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52",
+  "review_csv_sha256": "9067dac967c4d0aae4158a98b71eafc2423958eabee0a76f9bbd74ceac3e6c55",
+  "summary_md_sha256": "dc60ff27b40dd4e33ef3936402cca34a29d2c32e5575ee295c63fed40ac05ffb",
+  "approved_snapshot_sha256": "5ec68499b447067b5ef2adb14cb4f3727e12100a654792b8ef481828aaf5d964",
   "approved_rows": 4,
   "approved_job_ids": [
-    "teaching-vacancies-administrator-15d5f5a9-8506-4a81-9d7f-949f6c949c54",
     "teaching-vacancies-school-administrative-receptionist",
     "teaching-vacancies-exams-officer-ernulf-academy-st-neots",
+    "teaching-vacancies-exams-officer-longsands-academy-st-neots-cambridgeshire",
     "teaching-vacancies-finance-admin-assistant-priory-junior-school-st-neots-cambridgeshire"
   ]
 }

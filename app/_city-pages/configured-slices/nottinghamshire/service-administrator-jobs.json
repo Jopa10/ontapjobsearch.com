@@ -1,30 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-receptionist-administrator-5a07569f-4f14-44ab-a5b1-5db86e8a339d",
-    "title": "Receptionist / Administrator",
-    "company": "St Giles School",
-    "location": "Retford",
-    "region": "Nottinghamshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£21,567.00 Annually (Actual) TTO/Pro Rata",
-    "work_pattern": "",
-    "posted_date": "2026-09-10",
-    "closing_date": "2026-10-02",
-    "closing_datetime": "2026-10-02T23:59:00+01:00",
-    "summary": "Receptionist / Administrator with St Giles School in Retford. ['full time']; £21,567.00 Annually (Actual) TTO/Pro Rata.",
-    "description": "St Giles School is recruiting for this vacancy in Retford.\n\nThe advertised position is Receptionist / Administrator.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £21,567.00 Annually (Actual) TTO/Pro Rata.\n\nThe stated application deadline is 2026-10-02T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-5a07569f-4f14-44ab-a5b1-5db86e8a339d?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-administrative-assistant-netherfield-primary-school",
     "title": "Administrative Assistant",
     "company": "Netherfield Primary School",
@@ -350,6 +325,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "107964483",
+    "title": "Customer Service Administrator",
+    "company": "Cass Art - Agency - Contract",
+    "location": "Nottinghamshire",
+    "region": "Nottinghamshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Contract",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-10-03",
+    "description": "In this role you will support driving sales through bespoke service and sales opportunities within the Customer Service department. You will support the larger team in handling all customer and membership enquiries and help to resolve all matters with ease and speed, ensuring that the company manifesto is kept at the heart of all you do click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aziU08XVyRGdA12%2bMu2ZhvVrFir4128vd",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Cass Art",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "2021344",
     "title": "Subsidence Claims Handler",
     "company": "MPJ Recruitment Ltd - Agency - Permanent",
@@ -391,6 +391,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0526",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -410,6 +413,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9826-PHCB-6568",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -429,6 +435,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0092",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

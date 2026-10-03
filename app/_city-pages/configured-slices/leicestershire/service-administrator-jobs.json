@@ -1,30 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-receptionist-maternity-cover-manorfield-church-of-england-primary-school",
-    "title": "Receptionist - Maternity Cover",
-    "company": "Manorfield Church of England Primary School",
-    "location": "Leicester",
-    "region": "Leicestershire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "Grade 4 SCP 5 - £25,629 (actual £17,780.65)",
-    "work_pattern": "",
-    "posted_date": "2026-09-18",
-    "closing_date": "2026-10-02",
-    "closing_datetime": "2026-10-02T23:59:59+01:00",
-    "summary": "Receptionist - Maternity Cover with Manorfield Church of England Primary School in Leicester. ['part time']; Grade 4 SCP 5 - £25,629 (actual £17,780.65).",
-    "description": "Manorfield Church of England Primary School is recruiting for this vacancy in Leicester.\n\nThe advertised position is Receptionist - Maternity Cover.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is Grade 4 SCP 5 - £25,629 (actual £17,780.65).\n\nThe stated application deadline is 2026-10-02T23:59:59+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/receptionist-maternity-cover-manorfield-church-of-england-primary-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-key-stage-administrator",
     "title": "Key Stage Administrator",
     "company": "Bosworth Academy",
@@ -366,6 +341,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9313-26-0437",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

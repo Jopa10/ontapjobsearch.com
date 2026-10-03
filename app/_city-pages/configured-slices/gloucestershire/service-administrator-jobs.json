@@ -1,5 +1,30 @@
 [
   {
+    "job_id": "teaching-vacancies-school-administrator-st-james-church-of-england-junior-school",
+    "title": "School Administrator",
+    "company": "St James' Church of England Junior School",
+    "location": "Gloucester",
+    "region": "Gloucestershire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['part time', 'temporary']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "Grade 3, Point 5",
+    "work_pattern": "",
+    "posted_date": "2026-10-02",
+    "closing_date": "2026-10-09",
+    "closing_datetime": "2026-10-09T12:00:00+01:00",
+    "summary": "School Administrator with St James' Church of England Junior School in Gloucester. ['part time', 'temporary']; Grade 3, Point 5.",
+    "description": "St James' Church of England Junior School is recruiting for this vacancy in Gloucester.\n\nThe advertised position is School Administrator.\n\nThe source lists the employment type as ['part time', 'temporary'].\n\nThe advertised salary or pay scale is Grade 3, Point 5.\n\nThe stated application deadline is 2026-10-09T12:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/school-administrator-st-james-church-of-england-junior-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "1909553",
     "title": "HR & Payroll Administrator",
     "company": "Pertemps Gloucester - Agency - Permanent",
@@ -200,31 +225,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "107980548",
-    "title": "HR & Payroll Administrator",
-    "company": "Next Generation Ltd - Agency - Permanent",
-    "location": "Gloucestershire",
-    "region": "Gloucestershire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "30000",
-    "salary_text": "£30000 per year",
-    "posted_date": "2026-09-21",
-    "description": "Job Title : HR & Payroll Administrator\n\nSalary: Up to £30,000 p.a. (DOE)\n\nContract Type: Permanent\n\nHours: Monday Thursday 8.30am 17.00pm\n\nFriday 8.30am 16:00pm\n\nNext Generation have been appointed to recruitment for a HR & Payroll Administrator to work with an engineering business who supply parts into multiple industries click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?QHpHeWTcrP4DC27aeADdVab7hO5j3SBzy",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Next Generation Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "2039522",
     "title": "Payroll Administrator",
     "company": "Robert Half - Agency - Permanent",
@@ -296,31 +296,6 @@
     "advertiser_name": "Burgh Recruitment Ltd",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "108064327",
-    "title": "Care Coordinator",
-    "company": "Leaders In Care Recruitment Ltd - Agency - Permanent",
-    "location": "Gloucestershire",
-    "region": "Gloucestershire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "26000",
-    "salary_max": "26000",
-    "salary_text": "£26000 per year",
-    "posted_date": "2026-10-01",
-    "description": "Community care coordination Monday to Friday £24,000-£26,000 Career progression\nAre you an experienced Care Coordinator looking for a stable Monday to Friday role within a large, established homecare organisation?\nWe are recruiting for a Care Coordinator to support the delivery of high-quality community care services from a Gloucester-based office click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?kjuUUj3TFp6h%2bvSk6kCYoYWpAjYrplrOg",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Leaders In Care Recruitment Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
@@ -516,6 +491,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0343-26-0030abl670e",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -535,6 +513,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0782-26-0072",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -554,6 +535,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9318-26-0856",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -573,6 +557,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0772",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

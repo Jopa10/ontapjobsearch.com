@@ -1,23 +1,22 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-02T17:41:02+01:00",
+  "generated_at": "2026-10-03T16:13:24+01:00",
   "source": "Teaching Vacancies",
   "region": "Buckinghamshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-02",
-  "review_fingerprint": "e5be673c6d4794544431f25a95a3eeab5efe7dcbb6db982989e7898286e8585e",
-  "routing_manifest_sha256": "95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a",
-  "review_csv_sha256": "9529e3959dd61630c795ebbd0f10251a8c2a2b2e5b0e95f8c40acb235fff47fd",
-  "summary_md_sha256": "3479bcca64103728315288628c5a9d027a437f396e89a3cbb386638bc5b13026",
-  "approved_snapshot_sha256": "b575fd53acc1cbd7df3a4e66bf5417228de7742d4d8d7f3c5f235a0403811f8c",
-  "approved_rows": 6,
+  "review_date": "2026-10-03",
+  "review_fingerprint": "938ab267cc65e71851ee5aef853aa53a089dac3f3f382f5905d0b21a06e6522b",
+  "routing_manifest_sha256": "603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52",
+  "review_csv_sha256": "ba58c947112f7c1487c47859bf48a1bccf4afb7e671bea39711d2eec4f3a10b0",
+  "summary_md_sha256": "0f3dee7e2c252897c74a42f555bef5139e106e49b71748eb4d9e3f4bbfafd510",
+  "approved_snapshot_sha256": "8f6ed8f2bd585d3ee3216a18fb3f82ac96c226bcc5aeb33dc7f58bc342d9f109",
+  "approved_rows": 5,
   "approved_job_ids": [
-    "teaching-vacancies-academy-administrator-chepping-view-primary-academy-high-wycombe-buckinghamshire",
-    "teaching-vacancies-morning-receptionist-maternity-cover",
     "teaching-vacancies-office-administrator-cf621f03-1b81-4970-86af-5e6e0d675eec",
     "teaching-vacancies-receptionist-stephenson-academy",
     "teaching-vacancies-sen-administrator-chiltern-way-academy-trust",
-    "teaching-vacancies-admin-assistant-padbury-church-of-england-school-buckingham-buckinghamshire"
+    "teaching-vacancies-admin-assistant-padbury-church-of-england-school-buckingham-buckinghamshire",
+    "teaching-vacancies-hr-administrative-assistant-stocklake-park-community-school"
   ]
 }

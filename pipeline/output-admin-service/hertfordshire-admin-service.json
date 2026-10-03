@@ -1,5 +1,29 @@
 [
   {
+    "job_id": "teaching-vacancies-cover-administrator-supervisor",
+    "title": "Cover Administrator / Supervisor",
+    "company": "Watford Grammar School for Girls",
+    "location": "Watford",
+    "region": "Hertfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['part time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£25,118.00 Annually (Actual)",
+    "work_pattern": "",
+    "posted_date": "2026-09-18",
+    "closing_date": "2026-10-04",
+    "closing_datetime": "2026-10-04T23:59:00+01:00",
+    "summary": "Cover Administrator / Supervisor with Watford Grammar School for Girls in Watford. ['part time']; £25,118.00 Annually (Actual).",
+    "description": "Watford Grammar School for Girls is recruiting for this vacancy in Watford.\n\nThe advertised position is Cover Administrator / Supervisor.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £25,118.00 Annually (Actual).\n\nThe stated application deadline is 2026-10-04T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/cover-administrator-supervisor?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": ""
+  },
+  {
     "job_id": "teaching-vacancies-database-and-admissions-administrator-simon-balle-all-through-school",
     "title": "Database and Admissions Administrator",
     "company": "Simon Balle All-Through School",
@@ -21,11 +45,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Simon Balle All-Through School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-administrator-ludwick-nursery-school",
@@ -49,11 +69,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Ludwick Nursery School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-office-administrator-petersfield-cofe-aided-primary-school",
@@ -77,11 +93,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Petersfield CofE Aided Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-office-administrator-forres-primary-academy",
@@ -105,11 +117,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Forres Primary Academy",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-part-time-admin-assistant-oxhey-wood-primary-school",
@@ -133,11 +141,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Oxhey Wood Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-attendance-administrator-the-astley-cooper-school-hemel-hempstead-hertfordshire",
@@ -161,11 +165,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "The Astley Cooper School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "1871732",

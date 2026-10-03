@@ -166,5 +166,29 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": ""
+  },
+  {
+    "job_id": "teaching-vacancies-clerical-and-hr-administrator",
+    "title": "Clerical and HR Administrator",
+    "company": "Leighton Middle School",
+    "location": "Leighton Buzzard",
+    "region": "Bedfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['part time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£12,055.00 - £12,244.00 Annually (Actual) NJC Level 2A pt 3-4 (£25,614 - £26,016 FTE)",
+    "work_pattern": "",
+    "posted_date": "2026-10-02",
+    "closing_date": "2026-10-19",
+    "closing_datetime": "2026-10-19T10:00:00+01:00",
+    "summary": "Clerical and HR Administrator with Leighton Middle School in Leighton Buzzard. ['part time']; £12,055.00 - £12,244.00 Annually (Actual) NJC Level 2A pt 3-4 (£25,614 - £26,016 FTE).",
+    "description": "Leighton Middle School is recruiting for this vacancy in Leighton Buzzard.\n\nThe advertised position is Clerical and HR Administrator.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £12,055.00 - £12,244.00 Annually (Actual) NJC Level 2A pt 3-4 (£25,614 - £26,016 FTE).\n\nThe stated application deadline is 2026-10-19T10:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/clerical-and-hr-administrator?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": ""
   }
 ]

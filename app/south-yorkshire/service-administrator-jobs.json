@@ -1,55 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-admin-assistant-part-time-18-hrs",
-    "title": "Admin Assistant - Part Time - 18 hrs",
-    "company": "Totley All Saints Church of England Voluntary Aided Primary School",
-    "location": "Sheffield",
-    "region": "Yorkshire - South",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£11,175.00 - £11,352.00 Annually (Actual) Grade 3 SCP 5 -6",
-    "work_pattern": "",
-    "posted_date": "2026-09-08",
-    "closing_date": "2026-10-02",
-    "closing_datetime": "2026-10-02T23:59:00+01:00",
-    "summary": "Admin Assistant - Part Time - 18 hrs with Totley All Saints Church of England Voluntary Aided Primary School in Sheffield. ['part time']; £11,175.00 - £11,352.00 Annually (Actual) Grade 3 SCP 5 -6.",
-    "description": "Totley All Saints Church of England Voluntary Aided Primary School is recruiting for this vacancy in Sheffield.\n\nThe advertised position is Admin Assistant - Part Time - 18 hrs.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £11,175.00 - £11,352.00 Annually (Actual) Grade 3 SCP 5 -6.\n\nThe stated application deadline is 2026-10-02T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-part-time-18-hrs?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "teaching-vacancies-temporary-admin-assistant-at-kiveton-park-infant-school",
-    "title": "Temporary Admin Assistant at Kiveton Park Infant School",
-    "company": "Kiveton Park Infant School",
-    "location": "Sheffield",
-    "region": "Yorkshire - South",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£26,427.00 - £26,847.00 Annually (FTE)",
-    "work_pattern": "",
-    "posted_date": "2026-09-25",
-    "closing_date": "2026-10-02",
-    "closing_datetime": "2026-10-02T23:59:00+01:00",
-    "summary": "Temporary Admin Assistant at Kiveton Park Infant School with Kiveton Park Infant School in Sheffield. ['part time']; £26,427.00 - £26,847.00 Annually (FTE).",
-    "description": "Kiveton Park Infant School is recruiting for this vacancy in Sheffield.\n\nThe advertised position is Temporary Admin Assistant at Kiveton Park Infant School.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £26,427.00 - £26,847.00 Annually (FTE).\n\nThe stated application deadline is 2026-10-02T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/temporary-admin-assistant-at-kiveton-park-infant-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-administration-assistant-our-lady-of-mount-carmel-catholic-primary-school",
     "title": "Administration Assistant",
     "company": "Our Lady of Mount Carmel Catholic Primary School",
@@ -666,6 +616,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9190-26-0608",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -685,6 +638,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9190-26-0601",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -704,6 +660,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9457-26-0304",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -723,6 +682,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0093-26-0008",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -742,6 +704,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3971",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -761,6 +726,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4533-26-0926-2",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

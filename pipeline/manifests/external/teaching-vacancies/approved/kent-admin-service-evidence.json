@@ -1,20 +1,21 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-02T17:41:05+01:00",
+  "generated_at": "2026-10-03T16:13:28+01:00",
   "source": "Teaching Vacancies",
   "region": "Kent",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-02",
-  "review_fingerprint": "03b9f6d3d4597f875f1cc7a2a42fead218866d08a425bc6b586f92c30c2fa79f",
-  "routing_manifest_sha256": "95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a",
-  "review_csv_sha256": "5a656b2a06a071036feea1f90659704e6fa7034f71d749cd652ec2fa87321dc1",
-  "summary_md_sha256": "6f8bc2b280028cbf90c236e9787ef4415981ac40513bad927d30e6f73e4670c1",
-  "approved_snapshot_sha256": "2328954f4fed0ad00ba472dda43c0cf19233bfc0ec65291872f7e19b40d7325f",
-  "approved_rows": 3,
+  "review_date": "2026-10-03",
+  "review_fingerprint": "4d659c7b34227a4fb880db417d9ed1a942cea96e9ff77cb023bbe133eaf8b127",
+  "routing_manifest_sha256": "603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52",
+  "review_csv_sha256": "3af099d8e8a1d13fbbb09ff314ab2ea4ff178e56eaad6ed5cad601677163728d",
+  "summary_md_sha256": "945e539134500e731ac2b81510b04cc6fd27e8b930af7d19d1338456515179da",
+  "approved_snapshot_sha256": "fda05a02e936e45074f568653544ae3472cd19d3f792069d0dcda840f26e7134",
+  "approved_rows": 4,
   "approved_job_ids": [
     "teaching-vacancies-curriculum-administrator-north-kent-college",
     "teaching-vacancies-pupil-records-administrator-parkwood-hall-academy-trust-swanley-kent",
-    "teaching-vacancies-admin-assistant-gordons-children-s-academy-junior"
+    "teaching-vacancies-admin-assistant-gordons-children-s-academy-junior",
+    "teaching-vacancies-administrative-assistant-hillview-school-for-girls-tonbridge-kent"
   ]
 }

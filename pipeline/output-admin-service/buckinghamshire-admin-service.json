@@ -21,11 +21,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Sir William Ramsay School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-receptionist-stephenson-academy",
@@ -49,11 +45,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Stephenson Academy",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-sen-administrator-chiltern-way-academy-trust",
@@ -77,11 +69,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Chiltern Way Academy Trust",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-admin-assistant-padbury-church-of-england-school-buckingham-buckinghamshire",
@@ -105,11 +93,31 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Padbury Church of England School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
+  },
+  {
+    "job_id": "teaching-vacancies-hr-administrative-assistant-stocklake-park-community-school",
+    "title": "HR Administrative Assistant",
+    "company": "Stocklake Park Community School",
+    "location": "Aylesbury",
+    "region": "Buckinghamshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time', 'part time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£21,218-£22,994 (FTE £26,522-£28,742) per annum",
+    "work_pattern": "",
+    "posted_date": "2026-10-01",
+    "closing_date": "2026-10-16",
+    "closing_datetime": "2026-10-16T23:59:59+01:00",
+    "summary": "HR Administrative Assistant with Stocklake Park Community School in Aylesbury. ['full time', 'part time']; £21,218-£22,994 (FTE £26,522-£28,742) per annum.",
+    "description": "Stocklake Park Community School is recruiting for this vacancy in Aylesbury.\n\nThe advertised position is HR Administrative Assistant.\n\nThe source lists the employment type as ['full time', 'part time'].\n\nThe advertised salary or pay scale is £21,218-£22,994 (FTE £26,522-£28,742) per annum.\n\nThe stated application deadline is 2026-10-16T23:59:59+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/hr-administrative-assistant-stocklake-park-community-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "23643_225648958",

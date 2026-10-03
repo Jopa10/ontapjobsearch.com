@@ -125,6 +125,31 @@
     "posted_date_basis": "source"
   },
   {
+    "job_id": "teaching-vacancies-administrative-assistant-data-finham-park-2",
+    "title": "Administrative Assistant (Data)",
+    "company": "Finham Park 2",
+    "location": "Coventry",
+    "region": "West Midlands - Coventry & Warwickshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['part time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£26,016.00 - £27,274.00 Annually (FTE) Grade 3 , Actual Salary £21660- £22708 per annum",
+    "work_pattern": "",
+    "posted_date": "2026-10-02",
+    "closing_date": "2026-10-15",
+    "closing_datetime": "2026-10-15T09:00:00+01:00",
+    "summary": "Administrative Assistant (Data) with Finham Park 2 in Coventry. ['part time']; £26,016.00 - £27,274.00 Annually (FTE) Grade 3 , Actual Salary £21660- £22708 per annum.",
+    "description": "Finham Park 2 is recruiting for this vacancy in Coventry.\n\nThe advertised position is Administrative Assistant (Data).\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £26,016.00 - £27,274.00 Annually (FTE) Grade 3 , Actual Salary £21660- £22708 per annum.\n\nThe stated application deadline is 2026-10-15T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-data-finham-park-2?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "1912273",
     "title": "Service Advisor",
     "company": "Perfect Placement Uk Ltd - Agency - Permanent",
@@ -296,31 +321,6 @@
     "advertiser_name": "G2 Legal Limited",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "2028358",
-    "title": "Finance Clerk / Trainee Accounts Assistant",
-    "company": "T2P Recruitment Ltd - Agency - Permanent",
-    "location": "Kenilworth",
-    "region": "West Midlands - Coventry & Warwickshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-10-01",
-    "description": "Job Type: Full-time, Permanent\n\nSalary: Competitive, dependent on age and experience\n\nT2 P Recruitment is recruiting for a Finance Clerk / Trainee Finance Assistant to join an established and supportive Finance team based in Kenilworth.\n\nThis is a fantastic entry-level opportunity for someone looking to begin and develop a long-term career within finance and accounts.\n\nPrevious finance experience is not essential. Our client is much more interested in finding someone with the right attitude, attention to detail and willingness to learn.\n\nYou may be a school or college leaver looking for your first career opportunity, or perhaps already working in an administration or customer service role and looking to move into finance.\n\nThe Role\n\nWorking as part of an experienced Finance team, you will receive training and gain exposure across a variety of finance and accounts activities.\n\nYour responsibilities will include:\n- Processing, coding and posting purchase invoices\n- Allocating costs accurately to the general ledger\n- Investigating invoice queries and discrepancies\n- Processing supplier payments\n- Completing supplier statement reconciliations\n- Bank reconciliations\n- Managing payments into accounts receivable ledgers\n- Answering incoming telephone calls\n- Managing shared mailbox activity and correspondence\n- General finance and administrative duties\n\nAs your knowledge and experience develop, you will also have the opportunity to become involved in month-end processes, management and compliance reporting, KPI reporting and wider Finance projects.\n\nWhat We're Looking For\n\nWe're looking for someone who is:\n- Accurate with excellent attention to detail\n- Confident communicating with colleagues and suppliers\n- Proactive and willing to investigate and resolve problems\n- Comfortable using Microsoft Office, including Excel, Word and Outlook\n- Organised and reliable\n- A positive team player\n- Keen to learn and develop a career within finance\n\nTraining & Career Development\n\nThis isn't simply an administration role - there is a genuine opportunity to build a career in finance.\n\nYou will be supported by an experienced team while developing your knowledge across different areas of accounts and gaining exposure to month-end processes.\n\nFor the right person, the company is also happy to support further professional development, including AAT study support and potentially further qualifications such as ACCA as your career progresses.\n\nWhy Apply?\n\nThis is an excellent opportunity if you want an employer who is prepared to train you, invest in you and give you the opportunity to progress.\n\nIf you're bright, motivated, good with detail and serious about developing a career within finance, we'd love to hear from you.\n\nApply today with your CV and T2 P Recruitment will be in touch to discuss the opportunity with you in more detail.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCLSfGPmYefdmMVMsAF0HHH0l",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "T2P Recruitment Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
   },
@@ -616,6 +616,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5997-26-0002",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -635,6 +638,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5837-26-0009",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]
