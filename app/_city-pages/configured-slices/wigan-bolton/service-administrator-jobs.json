@@ -216,9 +216,25 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5035-26-0078",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5627153",
+    "source": "NHS Jobs",
+    "title": "Ward Clerk",
+    "company": "Bolton NHS Foundation Trust",
+    "advertiser_name": "Bolton NHS Foundation Trust",
+    "location": "Bolton, BL4 0JR",
+    "region": "Greater Manchester - Wigan & Bolton",
+    "salary": "£25272.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-29T13:18:08.087378296",
+    "closing_date": "2026-10-12",
+    "description": "37.5 Hours Full time. E5/F5 fall within the Family and diagnostics division We are responsible for Paediatric inpatients, Paediatric surgical day case, Paediatric assessment unit and Paediatric HDU. We welcome a dynamic and committed Ward Clerk to become part of our team dedicated to delivering exceptional patient care. Please note: This role is not eligible for Skilled Worker visa sponsorship. Applicants must have the right to work in the UK at the time of application, as we are unable to support visa applications for this position. You will be required to work 37.5 hours per week and have excellent customer service skills and be familiar with the ward environment and etiquette. You also must have excellent communication skills and be able to prioritise your own workload and work within the multidisciplinary team. As you are the first face that the visitors will see on arrival you must have a polite and courteous disposition. You will also require to have good computer skills as you will be using the trust's digital systems such as patient management. You will also be responsible for management of patient records, help facilitate admissions and discharges. If you feel that you can meet this criteria and are eager to take on new challenges within the Department then please apply. Duties and Responsibilities Undertake the registration of patients admissions and discharges, appointments andoutcomes on the Patient management system. Request case notes from medical records/file for patients attending on to the ward, locateany missing case notes using tracking skills and knowledge of filing systems. Ensure that health records standards are met at all times adhering to the access to healthrecords policies and that all data is input is in compliance with the data protection act. Ensure all documents are filed correctly and that case notes are maintained in a neat andorderly state. Plan and prioritise own workload to ensure ward deadlines are met Complete corporate, departmental induction and required IT training.Communication and Client contact. Ensure at all times that patient/client confidentiality is maintained, promoting equality forpatients and others and respecting privacy, dignity, religious and cultural beliefs. Ensure the prompt answering of telephone calls in an efficient, helpful and professionalmanner. Receive and transmit messages either personally, by telephone or email from Patients,G.Ps, staff and other healthcare professionals, to appropriate staff ensuring accuracy. Ensure all necessary information is relayed and display an understanding for the degree ofurgency required. Liaise with medical secretaries, other disciplines and departments to ensure relevantcommunication with regard to patient care is maintained. Adhere to the confidentialitydisclosure.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9241-26-0361",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9241-26-0361",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
     "posted_date_basis": "source"
   }
 ]
