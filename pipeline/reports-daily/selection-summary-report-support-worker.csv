@@ -3,10 +3,10 @@ Yorkshire - West,,1,1,0,0,1,,1,Leeds,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Yorkshir
 Yorkshire - South,,5,4,1,0,0,,5,Sheffield,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Yorkshire - South selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
 North East,,7,5,0,2,1,,7,Newcastle Upon Tyne,SCENARIO_3_MANUAL_SELECTION_APPLIED,North East manual_select applied additively: 1 row(s) prioritised; 7 selected.
 Sussex,,6,6,0,0,0,,6,Brighton,SCENARIO_1_COMPLETE_HC_ONLY,Sussex selection complete: HIGH_CONFIDENCE roles selected.
-Cumbria - South,,3,2,1,0,0,,3,Barrow-in-Furness,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Cumbria - South selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
-Hampshire,,15,15,0,0,0,,15,Southampton,SCENARIO_3_MANUAL_SELECTION_APPLIED,Hampshire manual_select applied additively: 1 row(s) prioritised; 15 selected.
+Cumbria - South,,2,2,0,0,0,,2,Barrow-in-Furness,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Cumbria - South selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
+Hampshire,,13,13,0,0,0,,13,Southampton,SCENARIO_3_MANUAL_SELECTION_APPLIED,Hampshire manual_select applied additively: 1 row(s) prioritised; 13 selected.
 Kent,,20,14,3,3,1,,20,Maidstone,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC,"Kent selection complete: 20 selected after HIGH_CONFIDENCE, Maidstone ELASTIC_FIT, and other ELASTIC_FIT roles."
-London,,5,3,1,0,6,,5,London,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,London selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
+London,,6,4,1,0,6,,6,London,SCENARIO_3_MANUAL_SELECTION_APPLIED,London manual_select applied additively: 1 row(s) prioritised; 6 selected.
 Oxfordshire,,5,5,0,0,1,,5,Oxford,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Oxfordshire selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
-Surrey,,8,7,1,0,0,,8,Guildford,SCENARIO_2_COMPLETE_HC_PLUS_ANCHOR_ELASTIC,Surrey selection complete: HIGH_CONFIDENCE plus Guildford ELASTIC_FIT selected.
-Wiltshire,,2,2,0,0,2,,2,Swindon,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Wiltshire selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
+Surrey,,9,8,1,0,0,,9,Guildford,SCENARIO_2_COMPLETE_HC_PLUS_ANCHOR_ELASTIC,Surrey selection complete: HIGH_CONFIDENCE plus Guildford ELASTIC_FIT selected.
+Wiltshire,,1,1,0,0,2,,1,Swindon,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Wiltshire selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
