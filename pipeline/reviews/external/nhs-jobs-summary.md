@@ -2,11 +2,11 @@
 
 review_date: 2026-10-03
 
-- Open Administrative & Clerical rows reviewed: 2283
-- Auto/remembered selected: 397
+- Open Administrative & Clerical rows reviewed: 2278
+- Auto/remembered selected: 398
 - Selected HC Tier A: 211
-- Selected HC Tier B: 186
-- POSS awaiting decision: 1774
+- Selected HC Tier B: 187
+- POSS awaiting decision: 1768
 - Excluded: 0
 - HARD_PASS: 112
 
@@ -81,7 +81,7 @@ employer: Manchester University NHS Foundation Trust
 region: Greater Manchester - Manchester & Salford
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2905
-factual_fingerprint: bfb8bd4e6c010e0f147d07dcb4d968c735d1abb1b7aedf26d3fe73d553b56997
+factual_fingerprint: 82808f309397b42e72e8515a3ff7375d384c86382ceffa1288fc77d2b08766a6
 ---
 
 ---
@@ -1066,18 +1066,6 @@ region: West Midlands - Black Country
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/L0055-26-0023
 factual_fingerprint: 8e16a773345d070956ff517b8bd786d36008cc2e0449d72ca9a86f6b159bf40f
----
-
----
-action:
-POSS | NHS Jobs | Hertfordshire | Stevenage, SG1 4AB | £32073.00 to £39043.00 | Policy & Quality Assurance Officer
-source_job_id: 5637742
-title: Policy & Quality Assurance Officer
-employer: East and North Hertfordshire Teaching NHS Trust
-region: Hertfordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9361-26-0590
-factual_fingerprint: a79a55bf55f7793e25835c4da14d0876eb629e7bc18e7c87b7c0524be815d5c9
 ---
 
 ---
@@ -7646,18 +7634,6 @@ factual_fingerprint: d55787ec3b907aa87a3022ddfe21a453fa6b85c8b4e00ebeb670fcb9eb3
 
 ---
 action:
-POSS | NHS Jobs | — | Crumpsall, M8 5RB | £39959.00 to £56515.00 | Deputy Finance Business Partner
-source_job_id: 5630958
-title: Deputy Finance Business Partner
-employer: Manchester University NHS Foundation Trust
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2879
-factual_fingerprint: 6405a48cbebd17242b104c6d242121dd9e6736ad6559b5119cc49181ede8e932
----
-
----
-action:
 POSS | NHS Jobs | West Midlands - Birmingham & Solihull | Birmingham, B15 2TH | £28392.00 to £31157.00 | Band 4 Medical Secretary Supervisor
 source_job_id: 5629631
 title: Band 4 Medical Secretary Supervisor
@@ -7918,18 +7894,6 @@ region: Wales South - Cardiff & Vale
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9001-26-0873
 factual_fingerprint: 53111cf25b9ee02f90eae0b88977769aea6890ed885b4d181cd43cb1e2c75553
----
-
----
-action:
-POSS | NHS Jobs | Merseyside - Liverpool | Liverpool, L7 9NJ | £32073.00 to £39043.00 | Software / Systems Developer
-source_job_id: 5629997
-title: Software / Systems Developer
-employer: Liverpool University Hospitals NHS Foundation Trust
-region: Merseyside - Liverpool
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9287-26-1597
-factual_fingerprint: 36f1bf1be11ffe019badddc2c5ba7a1a3890003c98f5e5b9db55e6e2beb81138
 ---
 
 ---
@@ -8674,18 +8638,6 @@ region: Yorkshire - North
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3150-26-0018
 factual_fingerprint: 9831b8a0707f596b79ffdef0d59011e4b9fefa91ceb921e3bf10c946bc99d753
----
-
----
-action:
-POSS | NHS Jobs | Norfolk | NORWICH, NR7 0HR | £28392.00 to £31157.00 | Assistant Financial Accountant
-source_job_id: 5629726
-title: Assistant Financial Accountant
-employer: East of England Ambulance Service
-region: Norfolk
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9247-26-0061
-factual_fingerprint: 824f705751ee61927745eafeebff09f349a6ac3d2a7ee410b27b91cf89dbff7e
 ---
 
 ---
@@ -10282,18 +10234,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9990-26-0719
 factual_fingerprint: 23c8a93fa865b3ac31609de238242acf0f3aefb8d396946abf887a551af888f1
----
-
----
-action:
-POSS | NHS Jobs | Nottinghamshire | NOTTINGHAM, NG72UH | £25760.00 to £27476.00 | Facilities Operations Operative
-source_job_id: 5627545
-title: Facilities Operations Operative
-employer: Nottingham University Hospitals NHS Trusts
-region: Nottinghamshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9164-26-0899
-factual_fingerprint: 7353b1eacd910e8bc3ffd5b746bcb18a4aefb747f7510249eac54faff92282f5
 ---
 
 ---
@@ -15022,18 +14962,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9196-26-1146
 factual_fingerprint: 822a6a6775199baeee1c6c94836d787115d27adaf9d17c3bfce76d4292a67bfd
----
-
----
-action:
-POSS | NHS Jobs | Cumbria - South | Kendal, LA9 7RG | £39959.00 to £48117.00 | People Services Advisor
-source_job_id: 5617084
-title: People Services Advisor
-employer: University Hospitals of Morecambe Bay NHS Trust
-region: Cumbria - South
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9331-26-0670
-factual_fingerprint: 64d53ed6997b9174cdb464959265e47052147e42ce2066a03c4343496b660e18
 ---
 
 ---
