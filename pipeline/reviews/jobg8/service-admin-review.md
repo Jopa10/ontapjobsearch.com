@@ -995,12 +995,6 @@ job_id: 2039256
 
 ---
 action:
-SELECTED | London | Uxbridge | no salary in JobG8 salary fields; no supported salary amount found in description | Bid Coordinator
-job_id: 107970959
----
-
----
-action:
 SELECTED | London | London | £12.71 per hour (and increasing for exceptional candidates.) [JobG8 salary fields] | Activities Coordinator
 job_id: 107862803
 ---
@@ -1141,12 +1135,6 @@ job_id: 2048185
 action:
 SELECTED | London | London | £13.85 per hour [extracted from description] | Medical Receptionist
 job_id: 2051874
----
-
----
-action:
-SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | PT Experienced Accounts Administrator starting ASAP
-job_id: 680274873892732928037341
 ---
 
 ---
@@ -1423,6 +1411,12 @@ job_id: 2067764
 action:
 SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Community and Volunteering Co-ordinator
 job_id: 2067754
+---
+
+---
+action:
+SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Real Estate Claims Handler
+job_id: 2068501
 ---
 
 ## LONDON — POSSIBLES
@@ -2139,6 +2133,12 @@ SELECTED | Kent | Kent | no salary in JobG8 salary fields; no supported salary a
 job_id: 23643_225681004
 ---
 
+---
+action:
+SELECTED | Kent | Kent | £26000 per year [JobG8 salary fields] | Business Support Assistant
+job_id: 108044308
+---
+
 ## KENT — POSSIBLES
 
 ---
@@ -2353,6 +2353,12 @@ job_id: 2063288
 action:
 SELECTED | Sussex | Sussex |  | Accounts Assistant
 job_id: 2063701
+---
+
+---
+action:
+SELECTED | Sussex | Sussex | £20000 per year | Horticulture Resource Coordinator
+job_id: 107954542
 ---
 
 ## SUSSEX — POSSIBLES
@@ -3535,6 +3541,12 @@ SELECTED | Cornwall | Helston |  | Client Bookkeeper
 job_id: 2048675
 ---
 
+---
+action:
+SELECTED | Cornwall | Wadebridge | £13.3 per hour | Activities Coordinator
+job_id: 108063079
+---
+
 ## CORNWALL — POSSIBLES
 
 _No jobs in this group._
@@ -4669,6 +4681,12 @@ SELECTED | Leicestershire | Leicestershire | £13.33 per hour | Commercial Admin
 job_id: 2049449
 ---
 
+---
+action:
+SELECTED | Leicestershire | Leicestershire | £13.95 per hour | Activities Coordinator
+job_id: 108061254
+---
+
 ## LEICESTERSHIRE — POSSIBLES
 
 ---
@@ -4731,6 +4749,12 @@ job_id: 2040169
 action:
 SELECTED | Lincolnshire | Lincolnshire |  | Emerging Talent and Resourcing Coordinator
 job_id: 2053803
+---
+
+---
+action:
+SELECTED | Lincolnshire | Lincolnshire | £30000 per year | Student Inclusion and Engagement Coordinator
+job_id: 108070241
 ---
 
 ## LINCOLNSHIRE — POSSIBLES
@@ -5283,6 +5307,12 @@ SELECTED | Oxfordshire | Oxfordshire |  | Management Accountant/Bookkeeper
 job_id: 2049838
 ---
 
+---
+action:
+SELECTED | Oxfordshire | Oxfordshire | £12.71 per hour | Activities Coordinator
+job_id: 108062084
+---
+
 ## OXFORDSHIRE — POSSIBLES
 
 ---
@@ -5555,12 +5585,6 @@ job_id: 1933955
 
 ---
 action:
-SELECTED | Scotland West - Glasgow | Glasgow |  | People & Administration Coordinator
-job_id: 1936242
----
-
----
-action:
 SELECTED | Scotland West - Glasgow | Clydebank |  | Claims Handler
 job_id: 1906613
 ---
@@ -5707,6 +5731,18 @@ SELECTED | Somerset | Somerset |  | Payroll Administrator
 job_id: 2044538
 ---
 
+---
+action:
+SELECTED | Somerset | Somerset | £12.71 per hour | Activities Coordinator
+job_id: 108068266
+---
+
+---
+action:
+SELECTED | Somerset | Somerset | £12.71 per hour | Activities Coordinator
+job_id: 108068437
+---
+
 ## SOMERSET — POSSIBLES
 
 _No jobs in this group._
@@ -5783,12 +5819,6 @@ job_id: 2050063
 action:
 SELECTED | Staffordshire | Staffordshire | £26244 - £27031 per year | Faculty Centre Administrator
 job_id: 2036473
----
-
----
-action:
-SELECTED | Staffordshire | Staffordshire |  | Sales Coordinator
-job_id: 108062618
 ---
 
 ## STAFFORDSHIRE — POSSIBLES
@@ -5933,6 +5963,12 @@ job_id: 2046226
 action:
 SELECTED | Suffolk | Suffolk | £29500 per year | Logistics Coordinator
 job_id: 2036991
+---
+
+---
+action:
+SELECTED | Suffolk | Suffolk |  | Traffic Planner
+job_id: 108059584
 ---
 
 ## SUFFOLK — POSSIBLES
@@ -6419,6 +6455,12 @@ SELECTED | Worcestershire | Worcestershire |  | Wedding & Events Co-ordinator
 job_id: 2055604
 ---
 
+---
+action:
+SELECTED | Worcestershire | Worcestershire | £26000 per year | Care Coordinator
+job_id: 108053865
+---
+
 ## WORCESTERSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -6471,6 +6513,12 @@ job_id: 2041225
 action:
 SELECTED | Yorkshire - East | Goole |  | HR Administrator
 job_id: 2047165
+---
+
+---
+action:
+SELECTED | Yorkshire - East | Bridlington | £14 - £15 per hour | Temporary Bookkeeper
+job_id: 108066397
 ---
 
 ## YORKSHIRE - EAST — POSSIBLES
@@ -6607,14 +6655,20 @@ job_id: 108061850
 
 ---
 action:
-SELECTED | Yorkshire - North | Catterick Garrison | £28000 per year | Credit Controller
-job_id: 108063151
+SELECTED | Yorkshire - North | York |  | Finance Assistant
+job_id: 2067804
 ---
 
 ---
 action:
-SELECTED | Yorkshire - North | York |  | Finance Assistant
-job_id: 2067804
+SELECTED | Yorkshire - North | Scarborough |  | Service Coordinator (UPS)
+job_id: 108026099
+---
+
+---
+action:
+SELECTED | Yorkshire - North | Scarborough | £13 - £14 per hour (depending on experience) | Temporary Administrator
+job_id: 108067298
 ---
 
 ## YORKSHIRE - NORTH — POSSIBLES

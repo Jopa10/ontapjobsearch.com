@@ -175,6 +175,12 @@ SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour | Support Work
 job_id: 108059082
 ---
 
+---
+action:
+SELECTED | Cumbria - South | Ulverston | £12.85 per hour | Support Worker
+job_id: 108027430
+---
+
 ## CUMBRIA SOUTH — POSSIBLES
 
 _No jobs in this group._
@@ -275,12 +281,6 @@ job_id: 1877396
 action:
 SELECTED | Kent | Tunbridge Wells | competitive + benefits | Qualified Hearing Care Assistant
 job_id: 1402265374
----
-
----
-action:
-SELECTED | Kent | Maidstone | £28,031.56 per annum | Support Worker
-job_id: 1957967
 ---
 
 ---
@@ -431,6 +431,12 @@ SELECTED | London | Ilford | £15,412.00 per annum | Support Worker
 job_id: 2067783
 ---
 
+---
+action:
+SELECTED | London | London | £13.1 per hour (+ Benefits) | Full Time / Part Time Care Worker
+job_id: 107894305
+---
+
 ## LONDON — POSSIBLES
 
 ---
@@ -501,6 +507,12 @@ SELECTED | Oxfordshire | Kidlington | £85 - £110 per daily | Emotional Support
 job_id: 1957015
 ---
 
+---
+action:
+SELECTED | Oxfordshire | Bicester | £26000 per year | Female Support Worker
+job_id: 108050902
+---
+
 ## OXFORDSHIRE — POSSIBLES
 
 ---
@@ -543,26 +555,8 @@ job_id: 185888891903515033637340
 
 ---
 action:
-SELECTED | Surrey | Guildford | £24000 per year | Residential Support Worker
-job_id: 108058876
----
-
----
-action:
-SELECTED | Surrey | Tadworth | £15 per hour | Male Healthcare Assistant - Tadworth
-job_id: 108062488
----
-
----
-action:
 SELECTED | Surrey | Leatherhead | £15 per hour | Male Healthcare Assistant - Leatherhead
 job_id: 108062509
----
-
----
-action:
-SELECTED | Surrey | Addlestone | £25,845 per year | Support Worker
-job_id: 343400282262077440037340
 ---
 
 ## SURREY — POSSIBLES
