@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-10-02
+review_date: 2026-10-03
 review_fingerprint: fa43e516d45381ee1ba40656f9c778b0eb50c53ac51fb8add74a002098e82c8e
-routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
+routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 10
 - Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -77,6 +77,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-gr
 - [Assistant Data and Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/assistant-data-and-exams-manager) — Manager title salary ceiling £28,598 is not below £28,000.
 - [Attendance Liaison Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-liaison-assistant) — Insufficient admin/service evidence.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-magna-learning-partnership-salisbury-not-recorded) — Insufficient admin/service evidence.
+- [HLTA Behaviour and Inclusion](https://teaching-vacancies.service.gov.uk/jobs/hlta-behaviour-and-inclusion) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-great-western-academy-swindon) — Insufficient admin/service evidence.
 - [Local Governance Committee Clerks](https://teaching-vacancies.service.gov.uk/jobs/local-governance-committee-clerks) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-william-morris-primary-school) — Manager title salary ceiling £46,185 is not below £28,000.

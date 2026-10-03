@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-10-02
-review_fingerprint: bb8dd3e1e6c7091e609fcd63220bcda3ef9e7e6c156b30d34d044959f9657024
-routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
+review_date: 2026-10-03
+review_fingerprint: e9c0d9e9353c3611460b5af76001855eaf911c257811f861576b515afc582f01
+routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
-- Selected: 8
+- Records: 16
+- Selected: 7
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 7
 
 ## SELECTED
 
@@ -79,21 +79,6 @@ factual_fingerprint: bdeeb8867fca89842312e5ff5818735800e47e004def50a6c4dc216d7f3
 source: Teaching Vacancies
 source_job_id: data-management-administrator-2025-hm084
 source_url: https://teaching-vacancies.service.gov.uk/jobs/data-management-administrator-2025-hm084
----
-
----
-action: 
-SELECTED | North East | Blyth, NE24 2SY | £28,992.00 - £30,452.00 Annually (Actual) Term Time Plus 4 weeks (Will consider Whole Time) | HR & Payroll Administrator
-employer: Emmanuel Schools Foundation
-closing_date: 2026-10-02T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9782f3fd704d82d3ab934a876a9ef958513d993a848865f126b96bbf365ad10f
-source: Teaching Vacancies
-source_job_id: hr-payroll-administrator-emmanuel-schools-foundation
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-payroll-administrator-emmanuel-schools-foundation
 ---
 
 ---
@@ -184,7 +169,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrati
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-st-anthony-s-girls-catholic-academy-sunderland-tyne-and-wear) — Manager title salary ceiling £42,123 is not below £28,000.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-bishop-chadwick-catholic-education-trust) — Insufficient admin/service evidence.
 - [Governance and Procurement Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-and-procurement-officer) — Insufficient admin/service evidence.
-- [HR Administration Assistant (Gateshead Schools)](https://teaching-vacancies.service.gov.uk/jobs/hr-administration-assistant-gateshead-schools) — Insufficient admin/service evidence.
 - [HR Support Staff](https://teaching-vacancies.service.gov.uk/jobs/hr-support-staff) — Insufficient admin/service evidence.
 - [Marketing Assistant](https://teaching-vacancies.service.gov.uk/jobs/marketing-assistant-kings-priory-school) — Insufficient admin/service evidence.
 

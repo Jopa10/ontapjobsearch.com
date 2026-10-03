@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-10-02
+review_date: 2026-10-03
 review_fingerprint: 86a5ceacf18242507732c8627b1015164235fcc13a24d5c1c29db80dc28bf2ce
-routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
+routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 10
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 8
 
 ## SELECTED
 
@@ -69,7 +69,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-or
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-5f4d4502-0d91-4091-b646-cbfc76dcdfb2) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-jesson-s-church-of-england-primary-school) — Manager title without salary evidence below £28,000.
 - [Site Assistant](https://teaching-vacancies.service.gov.uk/jobs/site-assistant-09678cb0-aa80-498a-9526-d1d6da59db60) — Insufficient admin/service evidence.
-- [Teaching Assistant (Level 2)](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-level-2-manor-way-primary-academy) — Out-of-scope occupation: teaching assistant.
 
 ## Safety boundary
 

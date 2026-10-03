@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Gloucestershire
 
-review_date: 2026-10-02
-review_fingerprint: 2903f6b9fc7343789695ac52f321e49a215aadfde9607c2dc833d4d34250c353
-routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
+review_date: 2026-10-03
+review_fingerprint: e250e11754ccfc0439eb59de14ca2cee5f6f75300f32a0ad812f7675ca192dbc
+routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
 ontap_region: Gloucestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,15 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
-- Selected: 0
+- Records: 2
+- Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 0
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Gloucestershire | Gloucester, South West, GL1 4JU | Grade 3, Point 5 | School Administrator
+employer: St James' Church of England Junior School
+closing_date: 2026-10-09T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8703f186671ceea78e1fcead2268ec991ce7a38eee192d3c093e2442b63ffad2
+source: Teaching Vacancies
+source_job_id: school-administrator-st-james-church-of-england-junior-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-st-james-church-of-england-junior-school
+---
 
 ## POSS — choose SELECT or EXCLUDE
 

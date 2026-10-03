@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Shropshire
 
-review_date: 2026-10-02
+review_date: 2026-10-03
 review_fingerprint: cf15bd717a6c2ea2e44d52dceaaf3766209af448d6ccb29e7ea4e6b0e4598f98
-routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
+routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
 ontap_region: Shropshire
 slice_category: admin_service
 slice_status: LIVE

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-10-02
-review_fingerprint: 747671e51913fda534cc2dae56c73c2fe0715cb4f06903405658eb187f4a751e
-routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
+review_date: 2026-10-03
+review_fingerprint: 7820cf62a8499b96eb09ea9cd722deb7c4d49a80dd2a11abd3b61a5ae28e2225
+routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 11
-- Selected: 6
+- Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -98,6 +98,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-offi
 
 ---
 action: 
+SELECTED | Greater Manchester - North | Oldham, North West, OL9 9QR | £26,847.00 - £29,071.00 Annually (FTE) Term Time Only plus 1 week | Office Administrator
+employer: Kingfisher Special School
+closing_date: 2026-10-19T08:00:00+01:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: d91cb21b94eaabc2df9733689181ffc1bb911c9980c9a66dfd2dae629a0c210d
+source: Teaching Vacancies
+source_job_id: office-administrator-c5d744ea-573f-4ae3-a99f-6ef11866ee72
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-c5d744ea-573f-4ae3-a99f-6ef11866ee72
+---
+
+---
+action: 
 SELECTED | Greater Manchester - North | Oldham, North West, OL2 5BF | £28,437.98 - £30,375.64 Annually (Actual) SCP 16-20 | Pastoral Administrator
 employer: E-ACT the Oldham Academy North
 closing_date: 2026-10-12T09:00:00+01:00
@@ -134,7 +149,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/mis-systems-and-data-
 
 ## HARD_PASS
 
-- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-richmond-academy) — Insufficient admin/service evidence.
 - [Attendance Support Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-support-officer-st-gabriel-s-rc-high-school-a-voluntary-academy-bury-lancashire) — Insufficient admin/service evidence.
 - [Business Administrator based at New Bridge College](https://teaching-vacancies.service.gov.uk/jobs/business-administrator-based-at-new-bridge-college) — Missing salary or pay scale.
 - [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-sacred-heart-roman-catholic-primary-school-a-voluntary-academy) — Manager title salary ceiling £36,581 is not below £28,000.

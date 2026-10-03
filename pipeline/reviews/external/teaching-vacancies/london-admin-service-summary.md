@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-10-02
+review_date: 2026-10-03
 review_fingerprint: 6822a4638ebe572a1159809b2a7771a78e85e631c4f6143f0dbe4e43c1809834
-routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
+routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 59
+- Records: 60
 - Selected: 22
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 33
+- Hard pass: 34
 
 ## SELECTED
 
@@ -437,6 +437,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-bo
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-anthem-schools-trust-london-not-recorded) — Insufficient admin/service evidence.
 - [Headteacher's PA](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-the-heathland-school-hounslow) — Out-of-scope occupation: teacher, headteacher.
 - [HR & Payroll Apprentice](https://teaching-vacancies.service.gov.uk/jobs/hr-payroll-apprentice) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-chadwell-heath-academy-romford-essex) — Manager title without salary evidence below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-hawes-down-primary-school) — Manager title salary ceiling £28,146 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-the-st-thomas-the-apostle-college) — Manager title salary ceiling £38,021 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-victory-primary-school-london) — Manager title without salary evidence below £28,000.
@@ -444,9 +445,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-bo
 - [Part Time HR Officer](https://teaching-vacancies.service.gov.uk/jobs/part-time-hr-officer) — Insufficient admin/service evidence.
 - [Procurement and Payments Manager](https://teaching-vacancies.service.gov.uk/jobs/procurement-and-payments-manager-girls-learning-trust) — Manager title salary ceiling £50,675 is not below £28,000.
 - [Regional HR Partner](https://teaching-vacancies.service.gov.uk/jobs/regional-hr-partner-36023a7d-c903-4173-b385-43f854d87e14) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-f3929ea5-8ab0-4347-ba05-b741572a9d77) — Manager title salary ceiling £54,843 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-grange-primary-school-london) — Manager title without salary evidence below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-handsworth-primary-school) — Manager title without salary evidence below £28,000.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-sacred-heart-roman-catholic-primary-school) — Manager title salary ceiling £48,519 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-wells-primary-school) — Manager title without salary evidence below £28,000.
 - [Senior Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-admin-officer-st-stephen-s-cofe-primary-school) — Insufficient admin/service evidence.
 - [Senior Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-business-partner-creative-education-trust) — Insufficient admin/service evidence.

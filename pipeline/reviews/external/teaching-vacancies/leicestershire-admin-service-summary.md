@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-10-02
-review_fingerprint: 124b26646452861faadfc948195ab75216f496197d603c4333abadf6f20010d9
-routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
+review_date: 2026-10-03
+review_fingerprint: 6de19247d4ca17e448a49fd73391bd4655fccf30335d499f9fe320696b98d221
+routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 2
+- Records: 11
+- Selected: 1
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 8
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: f5199f3754ba92c6508a6bededdd47f65a4e65014035bb89c338e137f0d
 source: Teaching Vacancies
 source_job_id: key-stage-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/key-stage-administrator
----
-
----
-action: 
-SELECTED | Leicestershire | Leicester, East Midlands, LE9 4LU | Grade 4 SCP 5 - £25,629 (actual £17,780.65) | Receptionist - Maternity Cover
-employer: Manorfield Church of England Primary School
-closing_date: 2026-10-02T23:59:59+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 878f9c86c9ba6030d97c5c10ae4f183ea71cc8e745ae461eb1d1aa1aae962459
-source: Teaching Vacancies
-source_job_id: receptionist-maternity-cover-manorfield-church-of-england-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-maternity-cover-manorfield-church-of-england-primary-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -89,8 +74,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-pensions-and-
 
 ## HARD_PASS
 
+- [Executive Assistant to the Trust Leader (CEO) and Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-to-the-trust-leader-ceo-and-compliance-officer) — Insufficient admin/service evidence.
 - [Extended Services Club Manager (EXS031BC)](https://teaching-vacancies.service.gov.uk/jobs/extended-services-club-manager-exs031bc-sileby-redlands-community-primary-school) — Manager title salary ceiling £28,146 is not below £28,000.
 - [Finance and Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-and-operations-manager-learn-academies-trust) — Manager title salary ceiling £57,234 is not below £28,000.
+- [Office Manager (BAD31BC)](https://teaching-vacancies.service.gov.uk/jobs/office-manager-bad31bc) — Manager title salary ceiling £35,493 is not below £28,000.
+- [Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-discovery-schools-academies-trust-ltd) — Insufficient admin/service evidence.
+- [People Admin Team Leader](https://teaching-vacancies.service.gov.uk/jobs/people-admin-team-leader) — Insufficient admin/service evidence.
 - [School Business Manager ( Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-maternity-cover-keyham-lodge-school) — Manager title salary ceiling £44,109 is not below £28,000.
 - [School Office and SENDO Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-office-and-sendo-administration-assistant) — Insufficient admin/service evidence.
 

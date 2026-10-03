@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-10-02
-review_fingerprint: f6d444e5b1f4b115605a34dea95406f464ccd26c28ae724cb08c7a3c1bbd026a
-routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
+review_date: 2026-10-03
+review_fingerprint: cf234034db2487511e2d9c2b8adc17a45a5796b340a9fa2c2ff6fb5d40fffe2f
+routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 25
-- Selected: 16
+- Records: 24
+- Selected: 15
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 6
@@ -34,21 +34,6 @@ factual_fingerprint: fa3e4a08600fd7b03bc7027f0647856e642892d82ad6f06d0281851a495
 source: Teaching Vacancies
 source_job_id: administrative-assistant-newton-abbot-college
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-newton-abbot-college
----
-
----
-action: 
-SELECTED | Devon | Plymouth, South West, PL1 5QG | Full-time | Permanent | £28,469 per annum | Apprenticeship Onboarding Administrator
-employer: City College Plymouth
-closing_date: 2026-10-02T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 18f800daa121f10aba18f5b2f274e2d008ffc3c927fb9bed1bedae6db1e80456
-source: Teaching Vacancies
-source_job_id: apprenticeship-onboarding-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/apprenticeship-onboarding-administrator
 ---
 
 ---

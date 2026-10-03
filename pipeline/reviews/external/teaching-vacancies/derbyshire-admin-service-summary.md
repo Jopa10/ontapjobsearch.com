@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-10-02
-review_fingerprint: a40416e6e92ceabbf805726e2bf828d726b5c9b70e70d00a884c652809cd4306
-routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
+review_date: 2026-10-03
+review_fingerprint: 10e62ac669f2a5650c9f8b542eb67902b9c078a995cc4c1d7d2d564f436eeedc
+routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 2
+- Records: 7
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
@@ -49,6 +49,36 @@ factual_fingerprint: 4311c040f61280fdea9a3d483407db68e92ec116e994d2be955356e8edb
 source: Teaching Vacancies
 source_job_id: administrator-with-pastoral-focus
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-with-pastoral-focus
+---
+
+---
+action: 
+SELECTED | Derbyshire | Hope Valley, East Midlands, S33 6SD | £26,427.00 - £26,847.00 Annually (FTE) Actual Salary £13,823 - £14,043 | Receptionist
+employer: Hope Valley College
+closing_date: 2026-10-11T23:59:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: fd08f1ba56d04190ba6d812e961403d82e19b6616a9d63ef9103d4854cac0e4e
+source: Teaching Vacancies
+source_job_id: receptionist-ae06e435-9f90-46fa-8916-45549c221789
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-ae06e435-9f90-46fa-8916-45549c221789
+---
+
+---
+action: 
+SELECTED | Derbyshire | Buxton, East Midlands, SK17 9EA | £25,989.00 - £26,458.00 Annually (FTE) Grade 6 (Actual salary £9,022 | Receptionist / School Business Assistant
+employer: Buxton Community School
+closing_date: 2026-10-09T12:00:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: bbc821a52ff8d61fc781b25c2f7acde0a6bcbb065632c9c083663f1ebe6284df
+source: Teaching Vacancies
+source_job_id: receptionist-school-business-assistant-buxton-community-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-school-business-assistant-buxton-community-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

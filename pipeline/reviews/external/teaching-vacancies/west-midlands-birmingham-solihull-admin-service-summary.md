@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-10-02
-review_fingerprint: 860afdbe1471f4b0bf106df85b2946def7c7ddd51545eb708c67dbab496c7bcf
-routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
+review_date: 2026-10-03
+review_fingerprint: 58f6c0a9cfbd9cc7e3daca6c6f6dafe52bdeefc84f9b0da5569cee03ea83f5af
+routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 25
-- Selected: 10
+- Records: 24
+- Selected: 9
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 15
@@ -34,21 +34,6 @@ factual_fingerprint: 3092266b595083a7855745d81ec55ef2cafc9708e92ec365a066838ad02
 source: Teaching Vacancies
 source_job_id: admin-assistant-lift-lea-forest
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-lift-lea-forest
----
-
----
-action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B17 9LU | £25,614.00 - £29,071.00 Annually (FTE) Term time only | Administration Assistant
-employer: Harborne Primary School
-closing_date: 2026-10-02T23:59:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 678c6e8bcb2ffb43ec31f444dca49eb408fddc102938a47b0edd76380b1bdcfc
-source: Teaching Vacancies
-source_job_id: administration-assistant-harborne-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-harborne-primary-school
 ---
 
 ---
@@ -192,7 +177,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-adminis
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-erdington-hall-primary-school) — Manager title salary ceiling £43,149 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-greet-primary-school) — Manager title salary ceiling £34,434 is not below £28,000.
 - [PA to Executive Head](https://teaching-vacancies.service.gov.uk/jobs/pa-to-executive-head) — Missing salary or pay scale.
-- [School Administration Assistant/ Attendance](https://teaching-vacancies.service.gov.uk/jobs/school-administration-assistant-attendance) — Insufficient admin/service evidence.
+- [Regional Commercial Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/regional-commercial-procurement-manager-ormiston-academies-trust-birmingham-not-recorded) — Manager title salary ceiling £63,638 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-severne-junior-infant-and-nursery-school) — Manager title salary ceiling £55,224 is not below £28,000.
 - [School Finance Partner](https://teaching-vacancies.service.gov.uk/jobs/school-finance-partner-fioretti-trust) — Insufficient admin/service evidence.
 - [SENIOR ADMINISTRATOR – SEND ASSISTANT MANAGER](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-send-assistant-manager) — Manager title salary ceiling £32,554 is not below £28,000.

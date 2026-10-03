@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - East
 
-review_date: 2026-10-02
+review_date: 2026-10-03
 review_fingerprint: ab8f18043eebf309dd89bb6b6c80d9d5ccba68e540e9ca019d93d839a87d3b56
-routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
+routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
 ontap_region: Lancashire - East
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 5
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -62,6 +62,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ri
 ## HARD_PASS
 
 - [Administrative Officer - SEND Admin Support](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-send-admin-support) — Insufficient admin/service evidence.
+- [Attendance Improvement Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-improvement-manager-pendle-vale-college) — Manager title salary ceiling £30,907 is not below £28,000.
 - [Payroll and Pensions Manager](https://teaching-vacancies.service.gov.uk/jobs/payroll-and-pensions-manager-star-academies-blackburn-not-recorded) — Manager title salary ceiling £60,952 is not below £28,000.
 
 ## Safety boundary

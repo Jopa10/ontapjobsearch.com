@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-10-02
-review_fingerprint: 03b9f6d3d4597f875f1cc7a2a42fead218866d08a425bc6b586f92c30c2fa79f
-routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
+review_date: 2026-10-03
+review_fingerprint: 4d659c7b34227a4fb880db417d9ed1a942cea96e9ff77cb023bbe133eaf8b127
+routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 6
-- Selected: 3
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: fc8e0ae1302b76fba6b7f3357dd0e21bd030cadd25a20797128127a4198
 source: Teaching Vacancies
 source_job_id: admin-assistant-gordons-children-s-academy-junior
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-gordons-children-s-academy-junior
+---
+
+---
+action: 
+SELECTED | Kent | Tonbridge, South East, TN9 2HE | Actual Pro Rata Salary £23,599 | Administrative Assistant
+employer: Hillview School for Girls
+closing_date: 2026-10-30T23:59:59+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a714004cc2fe9582fb3ecb708ba2f52d2ee8d6ace98e9c81d9cddb2e6f9ce809
+source: Teaching Vacancies
+source_job_id: administrative-assistant-hillview-school-for-girls-tonbridge-kent
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-hillview-school-for-girls-tonbridge-kent
 ---
 
 ---
@@ -76,7 +91,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-records-adminis
 
 ## HARD_PASS
 
-- [Exams and Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-assistant-the-north-school) — Insufficient admin/service evidence.
 - [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-26e0bcfd-fd42-4fe6-bedf-503af84df187) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-staplehurst-school) — Manager title salary ceiling £29,020 is not below £28,000.
 

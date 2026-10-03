@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-10-02
-review_fingerprint: e060071a22f28e4be099c5467697a276697cbf82b2309a796f7229bdf655ace7
-routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
+review_date: 2026-10-03
+review_fingerprint: 07b90519a022002e84be9688aa1950e0d2151dd5c97c72ea1ae6fbf2e51fc6f1
+routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
+- Records: 12
 - Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
 
@@ -68,17 +68,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-send-a
 
 ---
 action: 
-SELECTED | Essex | Maldon, East of England, CM9 6NE | £27,709.00 - £29,071.00 Annually (Actual) | Lead Administrator
-employer: Limebrook Primary School and Nursery
-closing_date: 2026-10-02T23:59:00+01:00
-reason: Clear admin/service title: administrator
+SELECTED | Essex | Brentwood, East of England, CM14 4JF | £25,128.65 - £26,371.55 Annually (Actual) Plus Outer Fringe Allowance £661.42 per annum | Receptionist
+employer: Brentwood County High School
+closing_date: 2026-10-16T09:00:00+01:00
+reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 2079a9258689ef1c1326e6c2e3c0dac3ba716f9b95278c6ce6ac911fc1bbeea1
+factual_fingerprint: dc98390f89829bb5dc055700a7acfd392d22998c13e2c00ac52b612a6ab18c37
 source: Teaching Vacancies
-source_job_id: lead-administrator-limebrook-primary-school-and-nursery-maldon-essex
-source_url: https://teaching-vacancies.service.gov.uk/jobs/lead-administrator-limebrook-primary-school-and-nursery-maldon-essex
+source_job_id: receptionist-brentwood-county-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-brentwood-county-high-school
 ---
 
 ---
@@ -125,7 +125,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/people-operations-off
 - [Payroll, Contracts & Systems Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-contracts-systems-officer) — Insufficient admin/service evidence.
 - [Senior HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-8119a08e-351e-407b-8e55-7b302ed8a76f) — Insufficient admin/service evidence.
 - [STUDENT ATTENDANCE AND INCLUSION MANAGER](https://teaching-vacancies.service.gov.uk/jobs/student-attendance-and-inclusion-manager-dee93199-2550-4a54-8c93-9bcd03bba34f) — Manager title without salary evidence below £28,000.
-- [Work Placement Officer](https://teaching-vacancies.service.gov.uk/jobs/work-placement-officer) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

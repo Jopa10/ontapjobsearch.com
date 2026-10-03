@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-10-02
-review_fingerprint: 5bc2ef2d2be46942707b55614e435d954bced32b7c5b4f9470c4151c2f38b876
-routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
+review_date: 2026-10-03
+review_fingerprint: 3c045c0332f896469b86018370956d084738f33bcb6e1c5861976a5223b46f54
+routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -53,6 +53,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administra
 
 ---
 action: 
+SELECTED | Hertfordshire | Watford, East of England, WD18 0AE | £25,118.00 Annually (Actual) | Cover Administrator / Supervisor
+employer: Watford Grammar School for Girls
+closing_date: 2026-10-04T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 99e58c1b1ddcb198cf9e15201f009289810763c1247701ee26fa168bd2d9241e
+source: Teaching Vacancies
+source_job_id: cover-administrator-supervisor
+source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-administrator-supervisor
+---
+
+---
+action: 
 SELECTED | Hertfordshire | Hertford, East of England, SG13 8AJ | £23,939.00 - £25,947.00 Annually (Actual) H5 | Database and Admissions Administrator
 employer: Simon Balle All-Through School
 closing_date: 2026-10-05T09:00:00+01:00
@@ -79,21 +94,6 @@ factual_fingerprint: 763319401af5da63a688b4aeb741525e15e0a47a5e0792198150556961b
 source: Teaching Vacancies
 source_job_id: office-administrator-forres-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-forres-primary-academy
----
-
----
-action: 
-SELECTED | Hertfordshire | Stevenage, East of England, SG1 5BZ | £20,604.00 - £21,718.00 Annually (Actual) | Office Administrator
-employer: Larwood School
-closing_date: 2026-10-02T23:59:00+01:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 24f16235cf52ba7217dfc92fcb615a53bb335656ea5da5abf9d398ab0745515b
-source: Teaching Vacancies
-source_job_id: office-administrator-larwood-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-larwood-school
 ---
 
 ---

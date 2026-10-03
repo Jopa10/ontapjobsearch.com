@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-10-02
-review_fingerprint: 29fa5c66b22e9a6facfea989b777f95861c74fdb989efe5c30abea387c034234
-routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
+review_date: 2026-10-03
+review_fingerprint: 4fe939b0160c6d3b7275c2a26a0ed1dc8be9cbd8da6f818b0e08e2094f021a48
+routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 19
 - Selected: 9
-- POSS awaiting decision: 2
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 9
 
 ## SELECTED
 
@@ -160,21 +160,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/welfare-assistant-adm
 
 ---
 action: 
-POSS | Berkshire | Reading, South East, RG1 5SL | £18,327.00 Annually (Actual) Grade 3 SCP5 30 hours per week TTO plus 5 INSET days. £26,427 FTE | Administration Support Assistant
-employer: Maiden Erlegh School in Reading
-closing_date: 2026-10-02T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: df72a3c5ff1aa665d95eb405ad507777dde7661182f5bc2ca06e671e168aeddf
-source: Teaching Vacancies
-source_job_id: administration-support-assistant-maiden-erlegh-school-in-reading
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-support-assistant-maiden-erlegh-school-in-reading
----
-
----
-action: 
 POSS | Berkshire | Reading, South East, RG5 3EU | £26,176.00 - £28,395.00 Annually (Actual) Term time only plus 10 additional days | Senior Finance Assistant
 employer: The Bulmershe School
 closing_date: 2026-10-23T23:59:00+01:00
@@ -195,6 +180,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-finance-assist
 ## HARD_PASS
 
 - [Business Operations Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/business-operations-co-ordinator-arbour-vale-school) — Insufficient admin/service evidence.
+- [Casual Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/casual-lettings-assistant-maiden-erlegh-chiltern-edge-reading-berkshire) — Insufficient admin/service evidence.
 - [Full Time Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/full-time-administration-officer) — Insufficient admin/service evidence.
 - [HR & Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-officer-the-park-federation-academy-trust) — Insufficient admin/service evidence.
 - [Office Manager and Personal Assistant to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-personal-assistant-to-the-headteacher-new-town-primary-school) — Manager title salary ceiling £40,444 is not below £28,000.

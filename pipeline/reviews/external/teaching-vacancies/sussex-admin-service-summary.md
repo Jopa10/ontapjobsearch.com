@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-10-02
-review_fingerprint: ed5d11649ec4dd2d80f0b71af6e66e3733e934420bc176def1345b098d19780a
-routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
+review_date: 2026-10-03
+review_fingerprint: 43226444a5a63e1e031f4f177bbafd755b038dee0ad5c1a0ee68c1a161c01d30
+routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 8
 - Selected: 5
-- POSS awaiting decision: 2
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 0
 
@@ -111,6 +111,21 @@ factual_fingerprint: 5d19c60bd96f0537cbeff3a0b5e848650d9474e84a35b385d5dd43a4a32
 source: Teaching Vacancies
 source_job_id: administrative-assistant-91c2bb10-6af8-4419-845b-e5add4b37610
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-91c2bb10-6af8-4419-845b-e5add4b37610
+---
+
+---
+action: 
+POSS | Sussex | Bognor Regis, South East, PO22 8EL | £25,583 to £25,989 | Finance Administrator
+employer: Felpham Community College
+closing_date: 2026-10-19T09:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 903106ef13107b94b4dea4f3952ab55ef4523b23a94140be9547b26a2ebc7503
+source: Teaching Vacancies
+source_job_id: finance-administrator-felpham-community-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-felpham-community-college
 ---
 
 ---

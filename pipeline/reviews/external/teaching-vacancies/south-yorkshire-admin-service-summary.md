@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-10-02
-review_fingerprint: 5695df467b8b7763321edb798e1d2d37afd56da03c47dfe64db6c08abf7db6f9
-routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
+review_date: 2026-10-03
+review_fingerprint: 52cb8c42daf50186843e7dd84b9af9bfc395c1159a7e3cae09b7d6985d1f60b8
+routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 32
-- Selected: 13
+- Records: 29
+- Selected: 11
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 17
+- Hard pass: 16
 
 ## SELECTED
 
@@ -49,21 +49,6 @@ factual_fingerprint: 4cfda2565e1ee80dbdcad077714090391285922f9fa8b3d9e34279bfbc5
 source: Teaching Vacancies
 source_job_id: admin-assistant-owston-park-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-owston-park-primary-academy
----
-
----
-action: 
-SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S17 4AP | £11,175.00 - £11,352.00 Annually (Actual) Grade 3 SCP 5 -6 | Admin Assistant - Part Time - 18 hrs
-employer: Totley All Saints Church of England Voluntary Aided Primary School
-closing_date: 2026-10-02T23:59:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 636093461e80d6c5a908aca5ec2be52a7e78a850c18513573d2289868121ccd8
-source: Teaching Vacancies
-source_job_id: admin-assistant-part-time-18-hrs
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-part-time-18-hrs
 ---
 
 ---
@@ -201,21 +186,6 @@ source_job_id: scitt-administrator-chorus-education-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/scitt-administrator-chorus-education-trust
 ---
 
----
-action: 
-SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S26 6QP | £26,427.00 - £26,847.00 Annually (FTE) | Temporary Admin Assistant at Kiveton Park Infant School
-employer: Kiveton Park Infant School
-closing_date: 2026-10-02T23:59:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f49504da613b621ee0db923dd1c686dd88a53c329b3754ae0b99d9a0ef42ecf3
-source: Teaching Vacancies
-source_job_id: temporary-admin-assistant-at-kiveton-park-infant-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/temporary-admin-assistant-at-kiveton-park-infant-school
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -255,7 +225,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-maltby-a
 ## HARD_PASS
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-st-thomas-more-catholic-primary-a-voluntary-academy) — Insufficient admin/service evidence.
-- [Attendance and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-officer-sharrow-nursery-infant-and-junior-school) — Insufficient admin/service evidence.
 - [Business Support Manager](https://teaching-vacancies.service.gov.uk/jobs/business-support-manager-beck-primary-school-sheffield-south-yorkshire) — Manager title salary ceiling £40,921 is not below £28,000.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-st-clare-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-ridgewood-school) — Insufficient admin/service evidence.

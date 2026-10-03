@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-10-02
+review_date: 2026-10-03
 review_fingerprint: 81296e9620b8ffaf2c14b70790360ab0abdbbff5cd5aa384009f52210cade926
-routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
+routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 6
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -50,7 +50,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-attendance-
 - [HR Lead](https://teaching-vacancies.service.gov.uk/jobs/hr-lead-pool-academy) — Insufficient admin/service evidence.
 - [Minibus Driver](https://teaching-vacancies.service.gov.uk/jobs/minibus-driver-104babdb-863b-4900-8121-25129beb540f) — Insufficient admin/service evidence.
 - [People Lead](https://teaching-vacancies.service.gov.uk/jobs/people-lead-1946fc8a-54b9-4506-808b-a157f27767c8) — Insufficient admin/service evidence.
-- [SEND Access Arrangements Coordinator](https://teaching-vacancies.service.gov.uk/jobs/send-access-arrangements-coordinator) — Insufficient admin/service evidence.
 - [Specialist Administrator](https://teaching-vacancies.service.gov.uk/jobs/specialist-administrator-mounts-bay-academy) — Missing salary or pay scale.
 
 ## Safety boundary

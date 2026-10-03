@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-10-02
-review_fingerprint: 26ac669c4851434fbeacc04ec1d11281a748e48ef3a3cffbb3f2db928845d037
-routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
+review_date: 2026-10-03
+review_fingerprint: 3a6b9383ccce57bf4b1ff9bd20182e9b7a62f6913487b9f1b87101a957129388
+routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
+- Records: 14
 - Selected: 4
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 9
 
 ## SELECTED
-
----
-action: 
-SELECTED | Cambridgeshire | Peterborough, East Midlands, PE6 8NF | £27,524.00 - £30,024.00 Annually (FTE) Grade 5 Scale Point 12 – 15 (£18,813 - £20,725 Actual) | Administrator
-employer: The Deepings School
-closing_date: 2026-10-09T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 753b29df3a48799a663d190d0d42fc6fc5747a690a9dd2a3a5737c76d6c048c7
-source: Teaching Vacancies
-source_job_id: administrator-15d5f5a9-8506-4a81-9d7f-949f6c949c54
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-15d5f5a9-8506-4a81-9d7f-949f6c949c54
----
 
 ---
 action: 
@@ -49,6 +34,21 @@ factual_fingerprint: edc5f6d030631ffba51f05723fe1a264940075d46691b0981ac8f4b30ba
 source: Teaching Vacancies
 source_job_id: exams-officer-ernulf-academy-st-neots
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-ernulf-academy-st-neots
+---
+
+---
+action: 
+SELECTED | Cambridgeshire | St Neots, East of England, PE19 1LQ | £32,578.00 - £34,812.00 Annually (FTE) Term time plus 3 weeks. Pro rata salary £30,003 - £32,061 | Exams Officer
+employer: Longsands Academy
+closing_date: 2026-10-25T23:59:00+00:00
+reason: Clear admin/service title: exams officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ec25f427796278b70e3d6ffefb4a01e15b7ad58e3b597e37bc60cbd3287136a9
+source: Teaching Vacancies
+source_job_id: exams-officer-longsands-academy-st-neots-cambridgeshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-longsands-academy-st-neots-cambridgeshire
 ---
 
 ---
@@ -83,7 +83,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrative
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Cambridgeshire | Peterborough, East Midlands, PE6 8NF | £27,524.00 - £30,024.00 Annually (FTE) Grade 5 Scale Point 12 – 15 (£18,813 - £20,725 Actual) | Administrator
+employer: The Deepings School
+closing_date: 2026-10-09T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 753b29df3a48799a663d190d0d42fc6fc5747a690a9dd2a3a5737c76d6c048c7
+source: Teaching Vacancies
+source_job_id: administrator-15d5f5a9-8506-4a81-9d7f-949f6c949c54
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-15d5f5a9-8506-4a81-9d7f-949f6c949c54
+---
 
 ## EXCLUDED BY REVIEW
 

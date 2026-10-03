@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-10-02
-review_fingerprint: 0b990088cf17ec17262a3510b1df988c45d186fab6130908f8e63df6e9951f43
-routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
+review_date: 2026-10-03
+review_fingerprint: eb4f33d3a6f53e04f37a1ba0509fa6b864ecc497c8bc71bda49ff4f21f22f3fc
+routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 7
+- Records: 17
+- Selected: 8
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 8
@@ -64,6 +64,21 @@ factual_fingerprint: fdabaca2bd920573360bed69afcd3757112b0af68008bcb4dc6b69d1c43
 source: Teaching Vacancies
 source_job_id: attendance-officer-putteridge-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-putteridge-high-school
+---
+
+---
+action: 
+SELECTED | Bedfordshire | Leighton Buzzard, East of England, LU7 1EX | £12,055.00 - £12,244.00 Annually (Actual) NJC Level 2A pt 3-4 (£25,614 - £26,016 FTE) | Clerical and HR Administrator
+employer: Leighton Middle School
+closing_date: 2026-10-19T10:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: cb2e407add5b060a15553e119e1516b3d2f1bfb54e3a2c27f7595f394189bccd
+source: Teaching Vacancies
+source_job_id: clerical-and-hr-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-and-hr-administrator
 ---
 
 ---

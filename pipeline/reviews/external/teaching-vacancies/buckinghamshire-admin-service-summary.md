@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-10-02
-review_fingerprint: e5be673c6d4794544431f25a95a3eeab5efe7dcbb6db982989e7898286e8585e
-routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
+review_date: 2026-10-03
+review_fingerprint: 938ab267cc65e71851ee5aef853aa53a089dac3f3f382f5905d0b21a06e6522b
+routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 6
+- Records: 11
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
-
----
-action: 
-SELECTED | Buckinghamshire | High Wycombe, South East, HP12 4PR | £23,365.00 - £25,648.00 Annually (Actual) Bucks Pay Range 2-3 (dependent on experience). Salary is pro rata to hours and weeks worked. Actual estimated gross salary £23,365-£25,648 pro rata per annum | Academy Administrator
-employer: Chepping View Primary Academy
-closing_date: 2026-10-02T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 007957ee89c9c9ef838916ea5983db1549228ea90d79b3a98173b3d2bf80b494
-source: Teaching Vacancies
-source_job_id: academy-administrator-chepping-view-primary-academy-high-wycombe-buckinghamshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-chepping-view-primary-academy-high-wycombe-buckinghamshire
----
 
 ---
 action: 
@@ -53,17 +38,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-padbu
 
 ---
 action: 
-SELECTED | Buckinghamshire | Aylesbury, South East, HP21 7SX | £11,066.00 Annually (Actual) | Morning Receptionist Maternity Cover
-employer: Aylesbury High School
-closing_date: 2026-10-02T23:59:00+01:00
-reason: Clear admin/service title: receptionist
+SELECTED | Buckinghamshire | Aylesbury, South East, HP20 1DP | £21,218-£22,994 (FTE £26,522-£28,742) per annum | HR Administrative Assistant
+employer: Stocklake Park Community School
+closing_date: 2026-10-16T23:59:59+01:00
+reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 7083a3e840f99e3c29a57cc8f4a0eb1be9e616f6d2d53b67c733a2f36a0f918b
+factual_fingerprint: 47d27f47bd2ad3538feaae30a769db199a46650a28e41d87fa4ad199f37435cc
 source: Teaching Vacancies
-source_job_id: morning-receptionist-maternity-cover
-source_url: https://teaching-vacancies.service.gov.uk/jobs/morning-receptionist-maternity-cover
+source_job_id: hr-administrative-assistant-stocklake-park-community-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrative-assistant-stocklake-park-community-school
 ---
 
 ---
@@ -138,7 +123,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/arc-administrator
 - [Deputy Head's PA and Office Manager](https://teaching-vacancies.service.gov.uk/jobs/deputy-head-s-pa-and-office-manager) — Out-of-scope occupation: deputy head.
 - [Designated Safeguarding Lead](https://teaching-vacancies.service.gov.uk/jobs/designated-safeguarding-lead-brooklands-farm-primary-school) — Insufficient admin/service evidence.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-royal-grammar-school-high-wycombe) — Manager title salary ceiling £47,020 is not below £28,000.
-- [HR Officer Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-maternity-cover-aylesbury-high-school) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-winslow-church-of-england-school) — Manager title salary ceiling £41,272 is not below £28,000.
 
 ## Safety boundary

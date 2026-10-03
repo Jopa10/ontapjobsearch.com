@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-10-02
-review_fingerprint: 1b9194800ed92a39ed20915bd14b6a51a6d78a04ae5451fcd12cd0af78a6c4e7
-routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
+review_date: 2026-10-03
+review_fingerprint: e59b4123f888d30f3719c39ca3c9fa1a50af8d857b6556eedb456435a6ec277c
+routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 30
+- Records: 32
 - Selected: 9
-- POSS awaiting decision: 5
+- POSS awaiting decision: 6
 - Excluded: 0
-- Hard pass: 16
+- Hard pass: 17
 
 ## SELECTED
 
@@ -175,6 +175,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-office
 
 ---
 action: 
+POSS | Yorkshire - West | Halifax, Yorkshire and the Humber, HX2 0BA | £23,458.00 - £25,003.00 Annually (Actual) Scale 4, SCP 7-11 (FTE £26,403 - £28,142), Term Time Plus 10 Days, 37 Hours Per Week | Administrator
+employer: The Halifax Academy
+closing_date: 2026-10-19T09:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 61afa72141e7475d1600554b56582a917cb619f0480d24f08a86360cc3c0eee5
+source: Teaching Vacancies
+source_job_id: administrator-9760a2d7-68da-4bd7-a0dd-b900c803df34
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-9760a2d7-68da-4bd7-a0dd-b900c803df34
+---
+
+---
+action: 
 POSS | Yorkshire - West | Leeds, Yorkshire and the Humber, LS16 5AG | Grade C2 SCP 15-19, actual salary £25,823-£27,575 | Deputy Student Services Manager & Attendance Lead
 employer: Lawnswood School
 closing_date: 2026-10-05T09:00:00+01:00
@@ -241,6 +256,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-support-officer-7
 
 - [Administration Officer (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-maternity-cover-honley-high-school) — Missing salary or pay scale.
 - [Attendance and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-officer-st-michael-s-cofe-academy-wakefield-west-yorkshire) — Insufficient admin/service evidence.
+- [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-ethos-academy-trust) — Insufficient admin/service evidence.
 - [Compliance Officer (7364)](https://teaching-vacancies.service.gov.uk/jobs/compliance-officer-7364) — Insufficient admin/service evidence.
 - [Content Creator (7617)](https://teaching-vacancies.service.gov.uk/jobs/content-creator-7617-delta-academies-trust) — Insufficient admin/service evidence.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-buttershaw-business-enterprise-college-academy-bradford-west-yorkshire) — Manager title salary ceiling £37,655 is not below £28,000.

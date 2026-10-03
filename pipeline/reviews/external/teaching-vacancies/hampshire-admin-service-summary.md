@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-10-02
+review_date: 2026-10-03
 review_fingerprint: d3b0c253ca5d17f03972a5bf093af850e6ab2ace907a3e060e3f0d078d473825
-routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
+routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -62,8 +62,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-maternit
 ## HARD_PASS
 
 - [Apprentice Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/apprentice-admin-assistant-penbridge-junior-school) — Missing salary or pay scale.
-- [Business Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/business-administration-officer) — Insufficient admin/service evidence.
 - [Data Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-administration-assistant-cove-school) — Insufficient admin/service evidence.
+- [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-miltoncross-academy-portsmouth-hampshire) — Insufficient admin/service evidence.
 - [Exams Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-assistant-the-romsey-school) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-romsey-school) — Insufficient admin/service evidence.
 - [School Resources/Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-resources-administration-assistant) — Insufficient admin/service evidence.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-10-02
-review_fingerprint: 38d3a70fc9b8eb0e53753ba59c9ca55aeb21dcbf6e259d6977e2760c56e615b4
-routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
+review_date: 2026-10-03
+review_fingerprint: 7512c1f4bbd3ace958b650cc5aef930144b2d911888c85ef049c4ec7497cc839
+routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 11
-- Selected: 4
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 8
 
 ## SELECTED
 
@@ -53,21 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-welford
 
 ---
 action: 
-SELECTED | Northamptonshire | Wellingborough, East Midlands, NN29 7PH | NJC Grade D, points 3-4 | Front of House Receptionist
-employer: Wollaston School
-closing_date: 2026-10-09T12:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2c4d1147356825c6b01ffc1e734d7dbee8a9f11b41c659bc7a7094d4e42038a7
-source: Teaching Vacancies
-source_job_id: front-of-house-receptionist-wollaston-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/front-of-house-receptionist-wollaston-school
----
-
----
-action: 
 SELECTED | Northamptonshire | Northampton, East Midlands, NN6 8QE | £9,649.00 Annually (Actual) Grade E, Point 4. £25,185 FTE, Actual salary £9,649 £1,000 Welcome Bonus * *Terms and conditions apply | Receptionist
 employer: Guilsborough Academy
 closing_date: 2026-10-07T09:00:00+01:00
@@ -94,6 +79,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-guilsbor
 - [Academy Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/academy-operations-manager-malcolm-arnold-academy-northampton-northamptonshire) — Manager title salary ceiling £44,253 is not below £28,000.
 - [Business Partner](https://teaching-vacancies.service.gov.uk/jobs/business-partner-st-james-infant-school) — Insufficient admin/service evidence.
 - [Data Apprentice](https://teaching-vacancies.service.gov.uk/jobs/data-apprentice-dslv-e-act-academy) — Insufficient admin/service evidence.
+- [Finance and HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-and-hr-assistant-greenfields-specialist-school-for-communication) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-kingsthorpe-college) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-creating-tomorrow-multi-academy-trust) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-gloucester-nursery-school) — Manager title salary ceiling £38,510 is not below £28,000.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-10-02
-review_fingerprint: 0ab42d4c91b1a5c2156a5eb8c3cb7420f7211388d4bc64aaee67b568c59edf3b
-routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
+review_date: 2026-10-03
+review_fingerprint: 958737d95aaeca3c8d3656dee17b02af67f21987f5913856ec88f73367ba5ac7
+routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 5
+- Records: 15
+- Selected: 6
 - POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 5
@@ -49,6 +49,21 @@ factual_fingerprint: e3864591fa2c67b5d1f7962f4b790a36675271c163a973a50dbcbed326c
 source: Teaching Vacancies
 source_job_id: administration-assistant-stretton-church-of-england-academy-coventry-west-midlands
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-stretton-church-of-england-academy-coventry-west-midlands
+---
+
+---
+action: 
+SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV4 9WT | £26,016.00 - £27,274.00 Annually (FTE) Grade 3 , Actual Salary £21660- £22708 per annum | Administrative Assistant (Data)
+employer: Finham Park 2
+closing_date: 2026-10-15T09:00:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5e4580d7c593af95f3dc8e020c95fe8530cb842c706f5431b003b41a93247afc
+source: Teaching Vacancies
+source_job_id: administrative-assistant-data-finham-park-2
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-data-finham-park-2
 ---
 
 ---

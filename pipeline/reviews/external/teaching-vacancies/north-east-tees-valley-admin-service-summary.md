@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East - Tees Valley
 
-review_date: 2026-10-02
+review_date: 2026-10-03
 review_fingerprint: e14716a3db6f1df2ea2cdd819986226e5ab5a3ab3339a572c81e3670f2956f30
-routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
+routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED

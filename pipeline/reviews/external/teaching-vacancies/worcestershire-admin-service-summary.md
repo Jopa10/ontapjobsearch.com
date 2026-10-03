@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Worcestershire
 
-review_date: 2026-10-02
-review_fingerprint: d2ee65b4e8554ed6f993f19941bf0094e84f6dc6847d391c6a505c905821c87d
-routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
+review_date: 2026-10-03
+review_fingerprint: 75a86b6aa2d65870d7129490935c667c80e97991cb5fa171b4defb81c790416d
+routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 5
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 2
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Worcestershire | Tenbury Wells, West Midlands, WR15 8XA | £8,782.00 - £8,921.00 Annually (Actual) | Administrator (SEND Department)
+employer: Tenbury High Ormiston Academy
+closing_date: 2026-10-06T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3548af80b004f6fb452b34b3a04cb73c846c7ea0353965ccadd4d932131ae026
+source: Teaching Vacancies
+source_job_id: administrator-send-department-tenbury-high-ormiston-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-send-department-tenbury-high-ormiston-academy
+---
 
 ---
 action: 
@@ -34,21 +49,6 @@ factual_fingerprint: 24d99a332b86a4e9f640aecd299a904bb3cbcf159aca2bc991262502b0a
 source: Teaching Vacancies
 source_job_id: office-administrator-stourport-primary-academy-stourport-on-severn-worcestershire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-stourport-primary-academy-stourport-on-severn-worcestershire
----
-
----
-action: 
-SELECTED | Worcestershire | Kidderminster, West Midlands, DY10 2BX | £26,016.00 Annually (FTE) Actual pro rata salary approx £5,387 per annum for part time hours and term time only | Receptionist and Admin Assistant
-employer: St George's CofE School
-closing_date: 2026-10-09T23:59:00+01:00
-reason: Clear admin/service title: admin assistant, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 89ac2b640690266f046cbd79294849b3ef9eb80a0d3d4d11ab6e8d7108aab000
-source: Teaching Vacancies
-source_job_id: receptionist-and-admin-assistant-st-george-s-cofe-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admin-assistant-st-george-s-cofe-school
 ---
 
 ---
@@ -76,6 +76,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ## HARD_PASS
 
+- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-pinvin-cofe-academy) — Insufficient admin/service evidence.
 - [Invigilator](https://teaching-vacancies.service.gov.uk/jobs/invigilator-arrow-vale-high-school-redditch) — Insufficient admin/service evidence.
 
 ## Safety boundary

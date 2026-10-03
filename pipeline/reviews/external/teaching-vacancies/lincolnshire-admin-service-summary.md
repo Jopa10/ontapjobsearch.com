@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-10-02
-review_fingerprint: a26821f11c1a1c82c97bc53986d02ec200117ac4c6abe3f2c3f40c0ee6cc4b92
-routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
+review_date: 2026-10-03
+review_fingerprint: 9964493c110efef1e0909e461b87be01b72b42bb73ae490ce0dbd9a036e792d7
+routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 10
 - Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -100,12 +100,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-office-administrat
 action: 
 SELECTED | Lincolnshire | Brigg, Yorkshire and the Humber, DN20 8AR | £25,614.00 - £25,614.00 Annually (FTE) Grade B Points 3 (£25,614 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £21,561.31 | Receptionist (7569)
 employer: The Vale Academy
-closing_date: 2026-10-08T23:59:00+01:00
+closing_date: 2026-10-04T23:59:00+01:00
 reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 92bb652d1b2568113d4d6200716f8ec0c8457f27c35d9f2defa4e63147bcb3a3
+factual_fingerprint: 4d46d7fdf39cb730b75dc98a349bdd7ecf8d58d58ee73ecf0707921140789ab4
 source: Teaching Vacancies
 source_job_id: receptionist-7569
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-7569
@@ -149,7 +149,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-manager-the-s
 
 ## HARD_PASS
 
-- [Bursar](https://teaching-vacancies.service.gov.uk/jobs/bursar-cliffedale-primary-school) — Insufficient admin/service evidence.
 - [Governance & Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-compliance-officer-inspire-connected-communities-trust-louth-not-recorded) — Insufficient admin/service evidence.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-queen-elizabeth-s-high-school-gainsborough) — Manager title salary ceiling £42,839 is not below £28,000.
 

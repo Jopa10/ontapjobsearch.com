@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-10-02
-review_fingerprint: 323f66e072ed8002a856da8d51fe70fa7fb675f9ee6c5090005da589d6833cd8
-routing_manifest_sha256: 95bd5508b7e2f1cafc17d4bd73472588930bf9d22d65888174606d1130e3a74a
+review_date: 2026-10-03
+review_fingerprint: 27779c9500164c91058f72135b2e14f61ea1cebf7a2dc3283844ece3608d1fd0
+routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -34,6 +34,21 @@ factual_fingerprint: e48a23a54dd91777ee55e6dae005edbea7fb12d3e7804628080e22aa0e8
 source: Teaching Vacancies
 source_job_id: admin-assistant-castle-east-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-castle-east-school
+---
+
+---
+action: 
+SELECTED | Suffolk | Woodbridge, East of England, IP12 3RE | £25,614.00 Annually (FTE) Grade 2, Point 3 | Admin Assistant
+employer: Hollesley Primary School
+closing_date: 2026-10-09T23:59:00+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b1134e4c75df1df9f21e6aad7a8eadbfd7507b09caaa27396942a7076f0d5c70
+source: Teaching Vacancies
+source_job_id: admin-assistant-hollesley-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-hollesley-primary-school
 ---
 
 ---
@@ -79,21 +94,6 @@ factual_fingerprint: 31d3956dd75dc3fe64b7336882c7f9a8ba7b74f4e9aa98cd5729003167e
 source: Teaching Vacancies
 source_job_id: attendance-administrator-alde-valley-academy-leiston-suffolk
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-alde-valley-academy-leiston-suffolk
----
-
----
-action: 
-SELECTED | Suffolk | Lowestoft, East of England, NR32 2NX | £23,316.00 Annually (Actual) Grade 3, point 4-6 | Business Support Officer
-employer: Roman Hill Primary School
-closing_date: 2026-10-09T12:00:00+01:00
-reason: Clear admin/service title: business support officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 78591b9f313fbe8f154cb52d543b440005b06f731d5e2a4c86963c9d74b06286
-source: Teaching Vacancies
-source_job_id: business-support-officer-bbc7f993-e424-451f-bc18-fcb10089798b
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-bbc7f993-e424-451f-bc18-fcb10089798b
 ---
 
 ---
