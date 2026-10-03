@@ -4,7 +4,7 @@
 - Live route: `/bradford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
+- automatic include: 6
 - automatic review: 23
 - automatic exclude: 48
-- effective include: 8
+- effective include: 6
 - effective review: 23
 - effective exclude: 48
 
-## INCLUDE (8)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: New Otley Road Medical Practice - Hillside Bridge
-location: Bradford, BD3 0BS, BRADFORD, BD8 9DW
-source: NHS Jobs
-job_id: nhs-5486478
-reason: Approved Bradford catchment.
----
+## INCLUDE (6)
 
 ---
 action: 
@@ -88,18 +76,6 @@ reason: Approved Bradford catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Marketing Coordinator
-company: Equals One - Agency - Permanent
-location: Bradford
-source: JobG8
-job_id: jobg8-1986859
-reason: Approved Bradford catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: PA to the Principal (7519)
 company: Valley Academy
 location: Bradford
@@ -131,18 +107,6 @@ company: South Craven School
 location: Keighley
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-south-craven-school
-reason: No approved Bradford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Branch Administrator
-company: Reed - Agency - Permanent
-location: Wetherby
-source: JobG8
-job_id: jobg8-2051232
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -203,6 +167,18 @@ company: Nigel Wright Group - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-1957218
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Financial Advisor Administrator
+company: FindCore - Agency - Permanent
+location: Wetherby
+source: JobG8
+job_id: jobg8-2068113
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -275,18 +251,6 @@ company: Elevation Recruitment Group - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-1908696
-reason: No approved Bradford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Executive
-company: PRATAP PARTNERSHIP LTD - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-1857907
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -395,6 +359,18 @@ company: Elevation Recruitment Group - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-1908693
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2062150
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 

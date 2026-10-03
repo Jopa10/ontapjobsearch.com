@@ -90,6 +90,18 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Administrative Assistant
+company: Hillview School for Girls
+location: Tonbridge
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-hillview-school-for-girls-tonbridge-kent
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrator
 company: Kent and Medway Mental Health NHS Trust
 location: Gillingham, ME7 1AL
@@ -150,18 +162,6 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Billings coordinator
-company: Julie Rose Recruitment - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-2056739
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Bookkeeper
 company: Michael Page Finance - Agency - Permanent
 location: Kent
@@ -179,18 +179,6 @@ company: Aimee Willow Connex - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-2028629
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Support Assistant
-company: Oasis Restore - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-108044308
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -474,6 +462,18 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Logistics Coordinator - Operations & Quality
+company: Pearson Whiffin Recruitment Ltd - Agency - Permanent
+location: Maidstone
+source: JobG8
+job_id: jobg8-2064424
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Account Executive - Kent - To &;30K
 company: Jump IT Recruitment Solutions Ltd - Agency - Permanent
 location: Kent
@@ -666,11 +666,11 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Senior Administrator - Oasis Restore Secure School
-company: Central and North West London NHS Foundation Trust
-location: Rochester, ME1 3YB
-source: NHS Jobs
-job_id: nhs-5637080
+title: SAP Purchasing Administrator
+company: New Appointments Group - Agency - Contract
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225681004
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -678,11 +678,11 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Service advisor
-company: HTC - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-1855557
+title: Senior Administrator - Oasis Restore Secure School
+company: Central and North West London NHS Foundation Trust
+location: Rochester, ME1 3YB
+source: NHS Jobs
+job_id: nhs-5637080
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 

@@ -4,8 +4,8 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
-- Threshold currently met: yes
+- Effective included jobs: 5
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
+- automatic include: 5
 - automatic review: 5
-- automatic exclude: 4
-- effective include: 6
+- automatic exclude: 3
+- effective include: 5
 - effective review: 5
-- effective exclude: 4
+- effective exclude: 3
 
-## INCLUDE (6)
+## INCLUDE (5)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Thema Healthcare - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-1958886
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Male Support Worker
-company: Avenues Group - Company - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-455939784746781900837341
 reason: Approved Southampton catchment.
 ---
 
@@ -158,7 +146,7 @@ job_id: jobg8-635330054620761292837340
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
-## EXCLUDE (4)
+## EXCLUDE (3)
 
 ---
 action: 
@@ -181,18 +169,6 @@ company: Hampshire County Council - Company - Permanent
 location: Winchester
 source: JobG8
 job_id: jobg8-1401785482
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Male Support Worker
-company: Avenues Group - Company - Permanent
-location: Fareham
-source: JobG8
-job_id: jobg8-455939784746781900837340
 reason: Separate employment market.
 ---
 

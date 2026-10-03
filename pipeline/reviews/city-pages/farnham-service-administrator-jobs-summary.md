@@ -4,7 +4,7 @@
 - Live route: `/farnham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 65
+- automatic include: 3
+- automatic review: 62
 - automatic exclude: 0
-- effective include: 2
-- effective review: 65
+- effective include: 3
+- effective review: 62
 - effective exclude: 0
 
-## INCLUDE (2)
+## INCLUDE (3)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Legal Secretary
+company: Reed - Agency - Permanent
+location: Farnham
+source: JobG8
+job_id: jobg8-2064929
+reason: Exact approved Farnham workplace.
+---
 
 ---
 action: 
@@ -48,31 +60,7 @@ job_id: jobg8-1979310
 reason: Exact approved Farnham workplace.
 ---
 
-## REVIEW (65)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant, Up to 12 Months FTC
-company: Leightons Opticians & Hearing Care - Company - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-1402265683
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrative Assistant
-company: University of Surrey - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-415491
-reason: No exact Farnham workplace matched; local geographic review is required.
----
+## REVIEW (62)
 
 ---
 action: 
@@ -198,11 +186,11 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Business Development Executive
-company: 2i Recruit Ltd - Agency - Permanent
-location: Weybridge
+title: Business Management System Coordinator
+company: Gerrell & Hard - Agency - Permanent
+location: Surrey
 source: JobG8
-job_id: jobg8-2055422
+job_id: jobg8-108060385
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -287,6 +275,18 @@ company: Faith Recruitment - Agency - Permanent
 location: Guildford
 source: JobG8
 job_id: jobg8-1905561
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Experienced Family Paralegal
+company: Reed - Agency - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-2064917
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -402,23 +402,11 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Human Resources Administrator
-company: Rainbow Trust Children's Charity - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-2060983
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Investment Administrator
 company: 2i Recruit Ltd - Agency - Permanent
 location: Surrey
 source: JobG8
-job_id: jobg8-2055504
+job_id: jobg8-2062205
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -454,7 +442,7 @@ title: Legal Assistant
 company: 2i Recruit Ltd - Agency - Permanent
 location: Surrey
 source: JobG8
-job_id: jobg8-2055508
+job_id: jobg8-2062167
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -502,7 +490,7 @@ title: Legal Secretary
 company: 2i Recruit Ltd - Agency - Permanent
 location: Surrey
 source: JobG8
-job_id: jobg8-2055505
+job_id: jobg8-2062206
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -574,7 +562,7 @@ title: Paralegal
 company: 2i Recruit Ltd - Agency - Permanent
 location: Surrey
 source: JobG8
-job_id: jobg8-2055513
+job_id: jobg8-2062172
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -815,18 +803,6 @@ company: Office Angels - Agency - Permanent
 location: Leatherhead
 source: JobG8
 job_id: jobg8-2039175
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Website and Marketing Assistant
-company: Lloyd Recruitment Services Ltd - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-1957292
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 

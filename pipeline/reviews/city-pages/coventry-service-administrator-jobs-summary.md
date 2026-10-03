@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 3
+- automatic include: 5
+- automatic review: 2
 - automatic exclude: 19
-- effective include: 4
-- effective review: 3
+- effective include: 5
+- effective review: 2
 - effective exclude: 19
 
-## INCLUDE (4)
+## INCLUDE (5)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Stretton Church of England Academy
 location: Coventry
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-stretton-church-of-england-academy-coventry-west-midlands
+reason: Approved Coventry catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrative Assistant (Data)
+company: Finham Park 2
+location: Coventry
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-data-finham-park-2
 reason: Approved Coventry catchment.
 ---
 
@@ -72,19 +84,7 @@ job_id: nhs-5632425
 reason: Approved Coventry catchment.
 ---
 
-## REVIEW (3)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Clerk / Trainee Accounts Assistant
-company: T2P Recruitment Ltd - Agency - Permanent
-location: Kenilworth
-source: JobG8
-job_id: jobg8-2028358
-reason: No approved Coventry catchment rule matched; local review required.
----
+## REVIEW (2)
 
 ---
 action: 

@@ -114,6 +114,18 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: IVA Administrator
+company: Imperium Financial Recruitment - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-2066888
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Lettings Coordinator
 company: The People Pod - Agency - Permanent
 location: Stockport
@@ -131,18 +143,6 @@ company: Zachary Daniels - Agency - Permanent
 location: Cheshire
 source: JobG8
 job_id: jobg8-1977280
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: PERSONAL INJURY PARALEGAL - HYBRID
-company: Maze Recruitment Services Limited - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-2049253
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

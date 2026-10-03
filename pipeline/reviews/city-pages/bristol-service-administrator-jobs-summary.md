@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 27
-- automatic review: 6
+- automatic review: 5
 - automatic exclude: 6
 - effective include: 27
-- effective review: 6
+- effective review: 5
 - effective exclude: 6
 
 ## INCLUDE (27)
@@ -172,11 +172,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Litigation Paralegal
-company: Reed - Agency - Permanent
+title: Litigated EL/PL Claims Handler (Casualty)
+company: Keoghs LLP - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-1905970
+job_id: jobg8-2067696
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -184,11 +184,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Patent Paralegal - Bristol (c&;40,000 + benefits Hybrid)
-company: Dawn Ellmore Employment Agency - Agency - Permanent
+title: Litigation Paralegal
+company: Reed - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2044469
+job_id: jobg8-1905970
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -348,19 +348,7 @@ job_id: jobg8-1981180
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (6)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Communications Officer
-company: The Bridge Foundation - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-2060921
-reason: No approved Bristol catchment rule matched; local review required.
----
+## REVIEW (5)
 
 ---
 action: 
@@ -390,18 +378,6 @@ reason: No approved Bristol catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: E-Commerce Products Officer
-company: Walk Wheel Cycle Trust - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-2046575
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Interim Purchase & Sales Ledger Assistant
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Somerset
@@ -419,6 +395,18 @@ company: Signature Recruitment Limited - Agency - Permanent
 location: Somerset
 source: JobG8
 job_id: jobg8-1868291
+reason: No approved Bristol catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Somerset
+source: JobG8
+job_id: jobg8-2062144
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 

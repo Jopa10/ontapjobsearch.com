@@ -4,7 +4,7 @@
 - Live route: `/gloucester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 28
+- automatic include: 3
+- automatic review: 27
 - automatic exclude: 0
-- effective include: 2
-- effective review: 28
+- effective include: 3
+- effective review: 27
 - effective exclude: 0
 
-## INCLUDE (2)
+## INCLUDE (3)
 
 ---
 action: 
@@ -48,7 +48,19 @@ job_id: nhs-5600422
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (28)
+---
+action: 
+decision: include
+automatic_decision: include
+title: School Administrator
+company: St James' Church of England Junior School
+location: Gloucester
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-administrator-st-james-church-of-england-junior-school
+reason: Exact approved Gloucester workplace.
+---
+
+## REVIEW (27)
 
 ---
 action: 
@@ -90,11 +102,11 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Care Coordinator
-company: Leaders In Care Recruitment Ltd - Agency - Permanent
+title: Communications Officer
+company: Wildfowl and Wetlands Trust - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-108064327
+job_id: jobg8-2067777
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -131,18 +143,6 @@ company: Euro London - Agency - Permanent
 location: Cirencester
 source: JobG8
 job_id: jobg8-2022072
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR & Payroll Administrator
-company: Next Generation Ltd - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-107980548
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

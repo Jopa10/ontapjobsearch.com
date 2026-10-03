@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 27
+- automatic review: 28
 - automatic exclude: 0
 - effective include: 8
-- effective review: 27
+- effective review: 28
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -45,6 +45,18 @@ company: Switch - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-107875971
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Elysium Healthcare
+location: Exeter, EX1 3PZ
+source: NHS Jobs
+job_id: nhs-5635403
 reason: Exact approved Exeter workplace.
 ---
 
@@ -108,19 +120,7 @@ job_id: nhs-5525304
 reason: Exact approved Exeter workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Team Administrator
-company: Devon Partnership NHS Trust
-location: Exeter, EX2 5AF
-source: NHS Jobs
-job_id: nhs-5604784
-reason: Exact approved Exeter workplace.
----
-
-## REVIEW (27)
+## REVIEW (28)
 
 ---
 action: 
@@ -131,18 +131,6 @@ company: Newton Abbot College
 location: Newton Abbot
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-newton-abbot-college
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Apprenticeship Onboarding Administrator
-company: City College Plymouth
-location: Plymouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-apprenticeship-onboarding-administrator
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -191,18 +179,6 @@ company: G2 Legal Limited - Agency - Permanent
 location: Totnes
 source: JobG8
 job_id: jobg8-1911900
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Care Coordinator
-company: RGB Recruitment - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-1858672
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -270,6 +246,30 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: HR Assistant
+company: Premier Foods - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-108059822
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Coordinator
+company: Pertemps Plymouth Commercial - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-2062986
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Legal Assistant - Conveyancing
 company: RLS Legal Recruitment - Agency - Permanent
 location: Totnes
@@ -287,6 +287,18 @@ company: City College Plymouth
 location: Plymouth
 source: Teaching Vacancies
 job_id: teaching-vacancies-mis-administrator-maternity-cover
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: TQR - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-108060887
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

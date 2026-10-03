@@ -4,7 +4,7 @@
 - Live route: `/chelmsford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 15
+- Effective included jobs: 14
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
-- automatic review: 68
+- automatic include: 14
+- automatic review: 63
 - automatic exclude: 0
-- effective include: 15
-- effective review: 68
+- effective include: 14
+- effective review: 63
 - effective exclude: 0
 
-## INCLUDE (15)
+## INCLUDE (14)
 
 ---
 action: 
@@ -93,18 +93,6 @@ company: JS Legal Recruitment Ltd - Agency - Permanent
 location: Chelmsford
 source: JobG8
 job_id: jobg8-2048232
-reason: Exact approved Chelmsford workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: E-commerce Assistant
-company: Adecco - Agency - Permanent
-location: Chelmsford
-source: JobG8
-job_id: jobg8-1860176
 reason: Exact approved Chelmsford workplace.
 ---
 
@@ -204,7 +192,7 @@ job_id: jobg8-1956210
 reason: Exact approved Chelmsford workplace.
 ---
 
-## REVIEW (68)
+## REVIEW (63)
 
 ---
 action: 
@@ -275,18 +263,6 @@ company: East Suffolk and North Essex NHS Foundation Trust
 location: Colchester, CO4 5LJ
 source: NHS Jobs
 job_id: nhs-5623477
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administration Assistant
-company: Essex Partnership University NHS Foundation Trust
-location: Grays, Essex, RM16 2PX
-source: NHS Jobs
-job_id: nhs-5620717
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -618,18 +594,6 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Lead Administrator
-company: Limebrook Primary School and Nursery
-location: Maldon
-source: Teaching Vacancies
-job_id: teaching-vacancies-lead-administrator-limebrook-primary-school-and-nursery-maldon-essex
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Legal Secretary
 company: JS Legal Recruitment Ltd - Agency - Permanent
 location: Essex
@@ -690,18 +654,6 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Medical Receptionist/Care Navigator
-company: Primary Care Careers
-location: Brentwood, CM15 8AQ
-source: NHS Jobs
-job_id: nhs-5579637
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Paralegal
 company: Jonathan Lee Recruitment - Agency - Permanent
 location: Essex
@@ -731,30 +683,6 @@ company: REED - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-2051564
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Performance Marketing Manager
-company: Peregrine Livefoods Ltd - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-2019953
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Performance Marketing Manager
-company: Peregrine Livefoods Ltd - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-715286127875771596837340
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -827,6 +755,18 @@ company: Angel Lane Surgery
 location: Essex, CM6 1AQ
 source: NHS Jobs
 job_id: nhs-5288592
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Brentwood County High School
+location: Brentwood
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-brentwood-county-high-school
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -971,18 +911,6 @@ company: Office Angels - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-2039773
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary Recruitment & Training Coordinator
-company: Office Angels - Agency - Permanent
-location: Brentwood
-source: JobG8
-job_id: jobg8-2045881
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

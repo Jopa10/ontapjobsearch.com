@@ -114,6 +114,18 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Administrative Assistant (Data)
+company: Finham Park 2
+location: Coventry
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-data-finham-park-2
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Cash Allocation Administrator
 company: Manpower - Agency - Permanent
 location: Warwickshire
@@ -167,18 +179,6 @@ company: Barr's Hill School
 location: Coventry
 source: Teaching Vacancies
 job_id: teaching-vacancies-exams-officer-barr-s-hill-school
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Clerk / Trainee Accounts Assistant
-company: T2P Recruitment Ltd - Agency - Permanent
-location: Kenilworth
-source: JobG8
-job_id: jobg8-2028358
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

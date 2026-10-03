@@ -4,7 +4,7 @@
 - Live route: `/macclesfield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 1
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
+- automatic include: 2
 - automatic review: 13
 - automatic exclude: 0
-- effective include: 1
+- effective include: 2
 - effective review: 13
 - effective exclude: 0
 
-## INCLUDE (1)
+## INCLUDE (2)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Graduate Town Planner
+company: Penguin Recruitment Ltd - Agency - Permanent
+location: Macclesfield
+source: JobG8
+job_id: jobg8-2066069
+reason: Exact approved Macclesfield workplace.
+---
 
 ---
 action: 

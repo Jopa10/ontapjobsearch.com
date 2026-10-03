@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 4
+- automatic include: 6
+- automatic review: 5
 - automatic exclude: 0
-- effective include: 7
-- effective review: 4
+- effective include: 6
+- effective review: 5
 - effective exclude: 0
 
-## INCLUDE (7)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant
-company: City Health Care Partnership CIC
-location: Hull, HU7 4DW
-source: NHS Jobs
-job_id: nhs-5625163
-reason: Approved conservative Hull launch catchment.
----
+## INCLUDE (6)
 
 ---
 action: 
@@ -108,7 +96,7 @@ job_id: jobg8-1939826
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (4)
+## REVIEW (5)
 
 ---
 action: 
@@ -143,6 +131,18 @@ company: Howden Medical Centre
 location: Goole, DN14 7DD
 source: NHS Jobs
 job_id: nhs-5635521
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist & administrator
+company: Greengates Medical Group
+location: Beverley, HU16 5QJ, Cottingham, HU16 4AJ
+source: NHS Jobs
+job_id: nhs-5636328
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

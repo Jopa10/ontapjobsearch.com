@@ -4,7 +4,7 @@
 - Live route: `/southampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 35
-- automatic exclude: 17
-- effective include: 9
-- effective review: 35
-- effective exclude: 17
+- automatic include: 8
+- automatic review: 34
+- automatic exclude: 15
+- effective include: 8
+- effective review: 34
+- effective exclude: 15
 
-## INCLUDE (9)
+## INCLUDE (8)
 
 ---
 action: 
@@ -100,18 +100,6 @@ reason: Approved Southampton catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Patient Administrator
-company: University Hospital Southampton NHS Trust
-location: Southampton, SO16 5YA
-source: NHS Jobs
-job_id: nhs-5273675
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Purchase Ledger
 company: CMA Recruitment Group - Agency - Permanent
 location: Southampton
@@ -132,7 +120,7 @@ job_id: nhs-5624270
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (35)
+## REVIEW (34)
 
 ---
 action: 
@@ -222,18 +210,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: EHCP Coordinator
-company: Aspire People Limited - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-1858777
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Family Paralegal
 company: Reed - Agency - Permanent
 location: Hampshire
@@ -264,6 +240,18 @@ location: Havant
 source: JobG8
 job_id: jobg8-2045876
 reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Freight Sales Support Clerk
+company: Noble Recruiting - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2064051
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -336,18 +324,6 @@ location: Hampshire
 source: JobG8
 job_id: jobg8-2034581
 reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Legal Accounts Assistant
-company: SJC Partners - Agency - Permanent
-location: Southsea
-source: JobG8
-job_id: jobg8-1939784
-reason: No approved Southampton catchment rule matched; local review required.
 ---
 
 ---
@@ -554,7 +530,7 @@ job_id: jobg8-2044782
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (17)
+## EXCLUDE (15)
 
 ---
 action: 
@@ -584,35 +560,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Admin Assistant - Care Home
-company: Barchester Healthcare
-location: Fareham, PO14 2NF
-source: NHS Jobs
-job_id: nhs-5522934
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Administrative Assistant (Thursdays and Fridays)
 company: Court Lane Junior Academy
 location: Portsmouth
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-thursdays-and-fridays
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Practice Plus Group - Health in Justice
-location: Winchester, SO22 5DF
-source: NHS Jobs
-job_id: nhs-5608199
 reason: Separate employment market.
 ---
 
@@ -672,7 +624,7 @@ title: HR Assistant
 company: Reed - Agency - Permanent
 location: Portsmouth
 source: JobG8
-job_id: jobg8-2057207
+job_id: jobg8-2062579
 reason: Separate employment market.
 ---
 

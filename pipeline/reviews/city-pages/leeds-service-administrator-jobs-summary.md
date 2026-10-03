@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 36
 - automatic review: 21
-- automatic exclude: 22
+- automatic exclude: 20
 - effective include: 36
 - effective review: 21
-- effective exclude: 22
+- effective exclude: 20
 
 ## INCLUDE (36)
 
@@ -474,18 +474,6 @@ reason: No approved Leeds catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Branch Administrator
-company: Reed - Agency - Permanent
-location: Wetherby
-source: JobG8
-job_id: jobg8-2051232
-reason: No approved Leeds catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Conveyancing Assistant
 company: Edwards & Pearce - Doncaster - Agency - Permanent
 location: Yorkshire
@@ -546,6 +534,18 @@ reason: No approved Leeds catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Financial Advisor Administrator
+company: FindCore - Agency - Permanent
+location: Wetherby
+source: JobG8
+job_id: jobg8-2068113
+reason: No approved Leeds catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Administrator
 company: Crossroads Truck & Bus Limited - Agency - Permanent
 location: Batley
@@ -587,18 +587,6 @@ company: Elevation Recruitment Group - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-1908696
-reason: No approved Leeds catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Executive
-company: PRATAP PARTNERSHIP LTD - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-1857907
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
@@ -710,7 +698,19 @@ job_id: jobg8-1908693
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
-## EXCLUDE (22)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2062150
+reason: No approved Leeds catchment rule matched; local review required.
+---
+
+## EXCLUDE (20)
 
 ---
 action: 
@@ -745,18 +745,6 @@ company: The Mid Yorkshire Teaching NHS Trust
 location: Wakefield, WF1 4DG
 source: NHS Jobs
 job_id: nhs-5633528
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: New Otley Road Medical Practice - Hillside Bridge
-location: Bradford, BD3 0BS, BRADFORD, BD8 9DW
-source: NHS Jobs
-job_id: nhs-5486478
 reason: Separate employment market.
 ---
 
@@ -889,18 +877,6 @@ company: Moldgreen Community Primary School
 location: Huddersfield
 source: Teaching Vacancies
 job_id: teaching-vacancies-leadership-team-administrator-hybrid
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Marketing Coordinator
-company: Equals One - Agency - Permanent
-location: Bradford
-source: JobG8
-job_id: jobg8-1986859
 reason: Separate employment market.
 ---
 

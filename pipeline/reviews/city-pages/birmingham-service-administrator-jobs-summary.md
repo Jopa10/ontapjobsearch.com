@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 52
+- Effective included jobs: 51
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 52
+- automatic include: 51
 - automatic review: 7
 - automatic exclude: 7
-- effective include: 52
+- effective include: 51
 - effective review: 7
 - effective exclude: 7
 
-## INCLUDE (52)
+## INCLUDE (51)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Lift Lea Forest
 location: Birmingham
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-assistant-lift-lea-forest
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant
-company: Harborne Primary School
-location: Birmingham
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-harborne-primary-school
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -412,35 +400,11 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Marketing & Client Services Coordinator
-company: The Recruitment Experts - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-1859114
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Marketing Executive
 company: Reed - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-1959478
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Receptionist
-company: Church Road Surgery
-location: Birmingham, B6 5UP
-source: NHS Jobs
-job_id: nhs-5622570
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -604,6 +568,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Service Advisor
+company: Pembrook Resourcing - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2065554
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Shipping Administrator - interim - Hybrid
 company: Gleeson Recruitment Group - Agency - Permanent
 location: Birmingham
@@ -621,6 +597,18 @@ company: Katie Bard & Angela Mortimer Plc - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-2028830
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2062142
 reason: Approved conservative Birmingham launch catchment.
 ---
 

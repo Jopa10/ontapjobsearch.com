@@ -80,9 +80,9 @@ decision: review
 automatic_decision: review
 title: Administrator
 company: Midlands Partnership NHS Foundation Trust
-location: Burslem, Stoke-on-Trent, ST6 7AG
+location: Longton, Stoke on Trent, ST3 4QX
 source: NHS Jobs
-job_id: nhs-5609313
+job_id: nhs-5606228
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -119,18 +119,6 @@ company: Adjusting Appointments Limited - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-1906599
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customs Administrator
-company: Outsource - Agency - Contract
-location: Stafford
-source: JobG8
-job_id: jobg8-108061323
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -311,6 +299,18 @@ company: XPERT RECRUITMENT SOLUTIONS LIMITED - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-2043391
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Coordinator
+company: INSTARMAC GROUP - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-108062618
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 17
+- automatic review: 16
 - automatic exclude: 0
 - effective include: 6
-- effective review: 17
+- effective review: 16
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: teaching-vacancies-receptionist-guilsborough-academy
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (17)
+## REVIEW (16)
 
 ---
 action: 
@@ -191,18 +191,6 @@ company: Katie Bard & Angela Mortimer Plc - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-2060783
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Front of House Receptionist
-company: Wollaston School
-location: Wellingborough
-source: Teaching Vacancies
-job_id: teaching-vacancies-front-of-house-receptionist-wollaston-school
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

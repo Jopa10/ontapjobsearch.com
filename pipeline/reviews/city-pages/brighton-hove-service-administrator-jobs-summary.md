@@ -102,6 +102,18 @@ reason: No approved Brighton & Hove catchment rule matched; local review require
 action: 
 decision: review
 automatic_decision: review
+title: Accounts Assistant
+company: Dennis and Robinson T/A Paula Rosa Manhattan - Agency - Permanent
+location: Lancing
+source: JobG8
+job_id: jobg8-2063288
+reason: No approved Brighton & Hove catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Attendance & HR Admin Assistant
 company: Hollington Primary School
 location: St. Leonards-on-Sea
@@ -239,18 +251,6 @@ company: Harvey John - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2046336
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: First Recruitment Services - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2044272
 reason: Broad location; review before city inclusion.
 ---
 
@@ -464,6 +464,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Accounts Assistant
+company: Huntress - Agency - Permanent
+location: Horsham
+source: JobG8
+job_id: jobg8-2063701
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Administrator
 company: St Leonards Church of England Primary Academy
 location: St Leonards-on-Sea
@@ -529,18 +541,6 @@ company: Bishop Luffa School, Chichester
 location: Chichester
 source: Teaching Vacancies
 job_id: teaching-vacancies-personal-assistant-to-the-head-teacher-bishop-luffa-school-chichester
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales Executive
-company: Clover Talent Limited - Agency - Permanent
-location: Chichester
-source: JobG8
-job_id: jobg8-108024258
 reason: Separate employment market.
 ---
 

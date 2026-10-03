@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 41
+- automatic review: 43
 - automatic exclude: 0
 - effective include: 3
-- effective review: 41
+- effective review: 43
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: jobg8-1877352
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
-## REVIEW (41)
+## REVIEW (43)
 
 ---
 action: 
@@ -138,18 +138,6 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Brand Manager Ambrosia
-company: Premier Foods - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-1982840
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Brand Marketing Executive - 12 month FTC
 company: Think Specialist Recruitment - Agency - Permanent
 location: Hertfordshire
@@ -215,6 +203,18 @@ company: qed legal - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-2049385
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Cover Administrator / Supervisor
+company: Watford Grammar School for Girls
+location: Watford
+source: Teaching Vacancies
+job_id: teaching-vacancies-cover-administrator-supervisor
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -342,6 +342,18 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
+title: Investment Administrator
+company: Claims Recruitment Services - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-2058650
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Junior Accountant
 company: Reed - Agency - Permanent
 location: Hertford
@@ -371,6 +383,18 @@ company: Law Staff Limited - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-2049840
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Executive
+company: CTR Select - Agency - Permanent
+location: Watford
+source: JobG8
+job_id: jobg8-2065570
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -427,18 +451,6 @@ action:
 decision: review
 automatic_decision: review
 title: Office Administrator
-company: Larwood School
-location: Stevenage
-source: Teaching Vacancies
-job_id: teaching-vacancies-office-administrator-larwood-school
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Office Administrator
 company: Petersfield CofE Aided Primary School
 location: Royston
 source: Teaching Vacancies
@@ -467,6 +479,18 @@ company: Oxhey Wood Primary School
 location: Watford
 source: Teaching Vacancies
 job_id: teaching-vacancies-part-time-admin-assistant-oxhey-wood-primary-school
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part-Time Administrator
+company: Accountancy Action - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-2067432
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

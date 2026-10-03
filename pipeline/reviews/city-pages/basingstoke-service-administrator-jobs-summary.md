@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 59
+- automatic review: 55
 - automatic exclude: 0
 - effective include: 2
-- effective review: 59
+- effective review: 55
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: teaching-vacancies-receptionist-maternity-cover-the-blue-coat-school-bas
 reason: Exact approved Basingstoke workplace.
 ---
 
-## REVIEW (59)
+## REVIEW (55)
 
 ---
 action: 
@@ -138,35 +138,11 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Admin Assistant - Care Home
-company: Barchester Healthcare
-location: Fareham, PO14 2NF
-source: NHS Jobs
-job_id: nhs-5522934
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Administrative Assistant (Thursdays and Fridays)
 company: Court Lane Junior Academy
 location: Portsmouth
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-thursdays-and-fridays
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Practice Plus Group - Health in Justice
-location: Winchester, SO22 5DF
-source: NHS Jobs
-job_id: nhs-5608199
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -246,18 +222,6 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: EHCP Coordinator
-company: Aspire People Limited - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-1858777
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Export Coordinator
 company: Reed - Agency - Permanent
 location: Southampton
@@ -311,6 +275,18 @@ company: Dynamite Recruitment Solutions Ltd - Agency - Permanent
 location: Havant
 source: JobG8
 job_id: jobg8-2045876
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Freight Sales Support Clerk
+company: Noble Recruiting - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2064051
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -382,7 +358,7 @@ title: HR Assistant
 company: Reed - Agency - Permanent
 location: Portsmouth
 source: JobG8
-job_id: jobg8-2057207
+job_id: jobg8-2062579
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -431,18 +407,6 @@ company: Aspire Jobs Limited - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-107193862
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Legal Accounts Assistant
-company: SJC Partners - Agency - Permanent
-location: Southsea
-source: JobG8
-job_id: jobg8-1939784
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -503,18 +467,6 @@ company: Detail2 Limited - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-2056769
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Patient Administrator
-company: University Hospital Southampton NHS Trust
-location: Southampton, SO16 5YA
-source: NHS Jobs
-job_id: nhs-5273675
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 

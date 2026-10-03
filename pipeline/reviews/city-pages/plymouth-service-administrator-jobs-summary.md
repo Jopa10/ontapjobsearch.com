@@ -4,7 +4,7 @@
 - Live route: `/plymouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 27
+- automatic include: 7
+- automatic review: 29
 - automatic exclude: 0
-- effective include: 8
-- effective review: 27
+- effective include: 7
+- effective review: 29
 - effective exclude: 0
 
-## INCLUDE (8)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Apprenticeship Onboarding Administrator
-company: City College Plymouth
-location: Plymouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-apprenticeship-onboarding-administrator
-reason: Exact approved Plymouth workplace.
----
+## INCLUDE (7)
 
 ---
 action: 
@@ -120,7 +108,7 @@ job_id: teaching-vacancies-student-funding-administrator
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (27)
+## REVIEW (29)
 
 ---
 action: 
@@ -198,18 +186,6 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Customer Care Coordinator
-company: RGB Recruitment - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-1858672
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Service Advisor
 company: Countrywide HQ - Agency - Permanent
 location: Devon
@@ -258,6 +234,30 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: HR Assistant
+company: Premier Foods - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-108059822
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Coordinator
+company: Pertemps Plymouth Commercial - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-2062986
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Insurance Administrator
 company: Switch - Agency - Permanent
 location: Exeter
@@ -275,6 +275,18 @@ company: RLS Legal Recruitment - Agency - Permanent
 location: Totnes
 source: JobG8
 job_id: jobg8-1908676
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: TQR - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-108060887
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -335,6 +347,18 @@ company: College Surgery Partnership
 location: Cullompton, EX15 1FE
 source: NHS Jobs
 job_id: nhs-5628758
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Elysium Healthcare
+location: Exeter, EX1 3PZ
+source: NHS Jobs
+job_id: nhs-5635403
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -431,18 +455,6 @@ company: Devon Partnership NHS Trust
 location: Exeter, EX1 3QS, TIVERTON, EX16 6NT
 source: NHS Jobs
 job_id: nhs-5525304
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Team Administrator
-company: Devon Partnership NHS Trust
-location: Exeter, EX2 5AF
-source: NHS Jobs
-job_id: nhs-5604784
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

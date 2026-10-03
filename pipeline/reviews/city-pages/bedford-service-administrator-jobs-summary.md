@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 14
+- automatic review: 16
 - automatic exclude: 0
 - effective include: 7
-- effective review: 14
+- effective review: 16
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: nhs-5639310
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (14)
+## REVIEW (16)
 
 ---
 action: 
@@ -131,6 +131,18 @@ company: Putteridge High School
 location: Luton
 source: Teaching Vacancies
 job_id: teaching-vacancies-attendance-officer-putteridge-high-school
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Clerical and HR Administrator
+company: Leighton Middle School
+location: Leighton Buzzard
+source: Teaching Vacancies
+job_id: teaching-vacancies-clerical-and-hr-administrator
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -263,6 +275,18 @@ company: Parkfields Middle School
 location: Dunstable
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-administrative-assistant-parkfields-middle-school-dunstable-bedfordshire
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Shipping & Logistics Coordinator
+company: Response Personnel - Agency - Permanent
+location: Luton
+source: JobG8
+job_id: jobg8-2063915
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

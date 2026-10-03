@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 57
+- automatic review: 53
 - automatic exclude: 0
 - effective include: 4
-- effective review: 57
+- effective review: 53
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -56,7 +56,7 @@ title: HR Assistant
 company: Reed - Agency - Permanent
 location: Portsmouth
 source: JobG8
-job_id: jobg8-2057207
+job_id: jobg8-2062579
 reason: Exact approved Portsmouth workplace.
 ---
 
@@ -72,7 +72,7 @@ job_id: nhs-5627419
 reason: Exact approved Portsmouth workplace.
 ---
 
-## REVIEW (57)
+## REVIEW (53)
 
 ---
 action: 
@@ -174,30 +174,6 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Admin Assistant - Care Home
-company: Barchester Healthcare
-location: Fareham, PO14 2NF
-source: NHS Jobs
-job_id: nhs-5522934
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Practice Plus Group - Health in Justice
-location: Winchester, SO22 5DF
-source: NHS Jobs
-job_id: nhs-5608199
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Business Support Administrator
 company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 location: Southampton, SO14 0YG
@@ -270,18 +246,6 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: EHCP Coordinator
-company: Aspire People Limited - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-1858777
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Export Coordinator
 company: Reed - Agency - Permanent
 location: Southampton
@@ -323,6 +287,18 @@ company: Dynamite Recruitment Solutions Ltd - Agency - Permanent
 location: Havant
 source: JobG8
 job_id: jobg8-2045876
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Freight Sales Support Clerk
+company: Noble Recruiting - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2064051
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -438,18 +414,6 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Legal Accounts Assistant
-company: SJC Partners - Agency - Permanent
-location: Southsea
-source: JobG8
-job_id: jobg8-1939784
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Legal Administrator
 company: SJC Partners - Agency - Permanent
 location: Southsea
@@ -503,18 +467,6 @@ company: Detail2 Limited - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-2056769
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Patient Administrator
-company: University Hospital Southampton NHS Trust
-location: Southampton, SO16 5YA
-source: NHS Jobs
-job_id: nhs-5273675
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 

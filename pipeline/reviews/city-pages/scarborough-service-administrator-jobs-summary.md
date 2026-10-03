@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 31
+- automatic review: 36
 - automatic exclude: 0
 - effective include: 3
-- effective review: 31
+- effective review: 36
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: nhs-5624493
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (31)
+## REVIEW (36)
 
 ---
 action: 
@@ -83,18 +83,6 @@ company: Posterngate Surgery
 location: Selby, YO8 4QH
 source: NHS Jobs
 job_id: nhs-5635889
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Practice Plus Group - Health in Justice
-location: York, YO41 1FZ
-source: NHS Jobs
-job_id: nhs-5607825
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -166,6 +154,18 @@ title: Credit Controller
 company: Get Recruited (UK) Ltd - Agency - Permanent
 location: Catterick Garrison
 source: JobG8
+job_id: jobg8-108063151
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Get Recruited (UK) Ltd - Agency - Permanent
+location: Catterick Garrison
+source: JobG8
 job_id: jobg8-2053052
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
@@ -191,6 +191,30 @@ company: Ripon Farm Services - Agency - Permanent
 location: Ripon
 source: JobG8
 job_id: jobg8-2043051
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: SI Recruitment - Agency - Permanent
+location: Ripon
+source: JobG8
+job_id: jobg8-108060036
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: SI Recruitment - Agency - Permanent
+location: Catterick Garrison
+source: JobG8
+job_id: jobg8-108061850
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -239,6 +263,18 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Northallerton
 source: JobG8
 job_id: jobg8-1868898
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Age UK York - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-2067804
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -378,6 +414,18 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Patient Care Navigator (Medical Receptionist - Priory Medical Centre)
+company: Priory Medical Group
+location: YORK, YO24 3WX
+source: NHS Jobs
+job_id: nhs-5604935
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Probate & Wills Legal Secretary - Malton, Yorkshire
 company: qed legal - Agency - Permanent
 location: Malton
@@ -407,6 +455,18 @@ company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2055397
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Coordinator
+company: Interaction - Leeds - Agency - Permanent
+location: Malton
+source: JobG8
+job_id: jobg8-108059238
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

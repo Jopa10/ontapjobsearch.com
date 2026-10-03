@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 14
+- automatic include: 9
+- automatic review: 18
 - automatic exclude: 12
-- effective include: 8
-- effective review: 14
+- effective include: 9
+- effective review: 18
 - effective exclude: 12
 
-## INCLUDE (8)
+## INCLUDE (9)
 
 ---
 action: 
@@ -40,11 +40,11 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administrator
-company: Practice Plus Group - Health in Justice
-location: York, YO41 1FZ
-source: NHS Jobs
-job_id: nhs-5607825
+title: Corporate/Commercial Legal Secretary/Assistant - York
+company: qed legal - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-1911811
 reason: Approved York catchment.
 ---
 
@@ -52,11 +52,11 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Corporate/Commercial Legal Secretary/Assistant - York
-company: qed legal - Agency - Permanent
+title: Finance Assistant
+company: Age UK York - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-1911811
+job_id: jobg8-2067804
 reason: Approved York catchment.
 ---
 
@@ -112,6 +112,18 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Patient Care Navigator (Medical Receptionist - Priory Medical Centre)
+company: Priory Medical Group
+location: YORK, YO24 3WX
+source: NHS Jobs
+job_id: nhs-5604935
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Website Administrator
 company: Reed - Agency - Permanent
 location: York
@@ -120,7 +132,7 @@ job_id: jobg8-2021380
 reason: Approved York catchment.
 ---
 
-## REVIEW (14)
+## REVIEW (18)
 
 ---
 action: 
@@ -131,6 +143,18 @@ company: Tradewind Recruitment - Agency - Permanent
 location: Richmond
 source: JobG8
 job_id: jobg8-2050566
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Get Recruited (UK) Ltd - Agency - Permanent
+location: Catterick Garrison
+source: JobG8
+job_id: jobg8-108063151
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -167,6 +191,30 @@ company: Ripon Farm Services - Agency - Permanent
 location: Ripon
 source: JobG8
 job_id: jobg8-2043051
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: SI Recruitment - Agency - Permanent
+location: Ripon
+source: JobG8
+job_id: jobg8-108060036
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: SI Recruitment - Agency - Permanent
+location: Catterick Garrison
+source: JobG8
+job_id: jobg8-108061850
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -287,6 +335,18 @@ company: Ripon Spa Surgery
 location: Ripon, HG4 2BE
 source: NHS Jobs
 job_id: nhs-5611094
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Coordinator
+company: Interaction - Leeds - Agency - Permanent
+location: Malton
+source: JobG8
+job_id: jobg8-108059238
 reason: No approved York catchment rule matched; local review required.
 ---
 

@@ -17,12 +17,24 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 5
 - automatic review: 10
-- automatic exclude: 10
+- automatic exclude: 13
 - effective include: 5
 - effective review: 10
-- effective exclude: 10
+- effective exclude: 13
 
 ## INCLUDE (5)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Payable Clerk
+company: Page Group - Agency - Permanent
+location: Oxford
+source: JobG8
+job_id: jobg8-2049728
+reason: Approved conservative Oxford launch catchment.
+---
 
 ---
 action: 
@@ -57,18 +69,6 @@ company: Thompson & Terry - Agency - Permanent
 location: Oxford
 source: JobG8
 job_id: jobg8-2021409
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Lead Generation & Marketing Executive
-company: Pertemps Specialist Division - Agency - Permanent
-location: Oxford
-source: JobG8
-job_id: jobg8-2026596
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -206,7 +206,19 @@ job_id: teaching-vacancies-student-services-administrator-larkmead-school
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (10)
+## EXCLUDE (13)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Receivable Executive
+company: Butler Rose - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-2065837
+reason: Broad county location; not Oxford-city evidence.
+---
 
 ---
 action: 
@@ -253,6 +265,18 @@ company: Corriculo Ltd - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-1883696
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Administrator
+company: UCCF The Christian Unions - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-2046642
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -313,6 +337,18 @@ company: Portfolio Payroll - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-1886004
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Recruitment Marketing Specialist
+company: Michael Page Marketing - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-2062398
 reason: Broad county location; not Oxford-city evidence.
 ---
 

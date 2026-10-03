@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 14
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
-- automatic review: 4
-- automatic exclude: 7
-- effective include: 12
-- effective review: 4
-- effective exclude: 7
+- automatic include: 14
+- automatic review: 5
+- automatic exclude: 6
+- effective include: 14
+- effective review: 5
+- effective exclude: 6
 
-## INCLUDE (12)
+## INCLUDE (14)
 
 ---
 action: 
@@ -64,18 +64,6 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Digital Marketing Specialist
-company: Reed - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-1857177
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Events Coordinator
 company: Reed - Agency - Permanent
 location: Cambridge
@@ -88,11 +76,35 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: HR Administration Assistant
+company: EC Resourcing - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-2065820
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Administrator
+company: Pure Resourcing Solutions - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-2063039
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Interim HR Coordinator
 company: Pure Resourcing Solutions - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-2059342
+job_id: jobg8-2063078
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -160,6 +172,18 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Patient Services Administrator
+company: Red House Surgery
+location: Cambridge, CB4 1ER, Cambridge, CB1 1PT
+source: NHS Jobs
+job_id: nhs-5622126
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Service Advisor
 company: Perfect Placement Uk Ltd - Agency - Permanent
 location: Cambridge
@@ -168,7 +192,7 @@ job_id: jobg8-1875937
 reason: Approved conservative Cambridge launch catchment.
 ---
 
-## REVIEW (4)
+## REVIEW (5)
 
 ---
 action: 
@@ -179,6 +203,18 @@ company: Ernulf Academy
 location: St. Neots
 source: Teaching Vacancies
 job_id: teaching-vacancies-exams-officer-ernulf-academy-st-neots
+reason: No approved Cambridge catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Exams Officer
+company: Longsands Academy
+location: St Neots
+source: Teaching Vacancies
+job_id: teaching-vacancies-exams-officer-longsands-academy-st-neots-cambridgeshire
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
@@ -218,7 +254,7 @@ job_id: teaching-vacancies-school-administrative-receptionist
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (7)
+## EXCLUDE (6)
 
 ---
 action: 
@@ -236,11 +272,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administrator
-company: The Deepings School
+title: Commercial Insurance Claims Handler
+company: Infinity Recruitment Consultancy Ltd - Agency - Permanent
 location: Peterborough
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-15d5f5a9-8506-4a81-9d7f-949f6c949c54
+source: JobG8
+job_id: jobg8-1981536
 reason: Separate employment market.
 ---
 
@@ -248,11 +284,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Commercial Insurance Claims Handler
-company: Infinity Recruitment Consultancy Ltd - Agency - Permanent
+title: IT Helpdesk Advisor - Dutch Speaker
+company: Interaction - Peterborough - Agency - Contract
 location: Peterborough
 source: JobG8
-job_id: jobg8-1981536
+job_id: jobg8-108061988
 reason: Separate employment market.
 ---
 
@@ -277,18 +313,6 @@ company: The Recruitment Solution (London) Ltd - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-1870973
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Talent Acquisition Coordinator
-company: LHH Recruitment Solutions - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-1860755
 reason: Separate employment market.
 ---
 

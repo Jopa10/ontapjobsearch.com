@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 21
+- automatic include: 6
+- automatic review: 22
 - automatic exclude: 18
-- effective include: 8
-- effective review: 21
+- effective include: 6
+- effective review: 22
 - effective exclude: 18
 
-## INCLUDE (8)
+## INCLUDE (6)
 
 ---
 action: 
@@ -64,30 +64,6 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Credit Controller
-company: Tenth Revolution Group - Agency - Permanent
-location: Newcastle Upon Tyne
-source: JobG8
-job_id: jobg8-2021556
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Home Administrator
-company: Akari Care Limited
-location: Newcastle, NE5 5HQ
-source: NHS Jobs
-job_id: nhs-5610574
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Home Administrator
 company: Akari Care Limited
 location: Newcastle, NE5 5AY
@@ -120,7 +96,7 @@ job_id: jobg8-108026899
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (21)
+## REVIEW (22)
 
 ---
 action: 
@@ -144,6 +120,18 @@ location: Wallsend, NE28 8QU
 source: NHS Jobs
 job_id: nhs-5623047
 reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Document Controller
+company: Arup CWS - Agency - Contract
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-108070538
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -234,18 +222,6 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: HR & Payroll Administrator
-company: Emmanuel Schools Foundation
-location: Blyth
-source: Teaching Vacancies
-job_id: teaching-vacancies-hr-payroll-administrator-emmanuel-schools-foundation
-reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR Administrator
 company: Cameron James - Agency - Permanent
 location: Tyne And Wear
@@ -262,7 +238,7 @@ title: HR Assistant (part time)
 company: Lynn Bennett Resourcing - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-1991604
+job_id: jobg8-2063502
 reason: Broad location; review before city inclusion.
 ---
 
@@ -372,6 +348,18 @@ location: Wallsend
 source: Teaching Vacancies
 job_id: teaching-vacancies-school-support-roles-supervisory-assistant-administrative-assistant
 reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2062154
+reason: Broad location; review before city inclusion.
 ---
 
 ## EXCLUDE (18)

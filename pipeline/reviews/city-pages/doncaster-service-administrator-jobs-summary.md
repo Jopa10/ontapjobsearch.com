@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 10
 - automatic review: 0
-- automatic exclude: 22
+- automatic exclude: 20
 - effective include: 10
 - effective review: 0
-- effective exclude: 22
+- effective exclude: 20
 
 ## INCLUDE (10)
 
@@ -146,7 +146,7 @@ reason: Approved Doncaster catchment.
 
 ## REVIEW (0)
 
-## EXCLUDE (22)
+## EXCLUDE (20)
 
 ---
 action: 
@@ -169,18 +169,6 @@ company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S5 7AU
 source: NHS Jobs
 job_id: nhs-5639875
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Admin Assistant - Part Time - 18 hrs
-company: Totley All Saints Church of England Voluntary Aided Primary School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-assistant-part-time-18-hrs
 reason: Separate employment market.
 ---
 
@@ -397,17 +385,5 @@ company: Chorus Education Trust
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-scitt-administrator-chorus-education-trust
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Temporary Admin Assistant at Kiveton Park Infant School
-company: Kiveton Park Infant School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-temporary-admin-assistant-at-kiveton-park-infant-school
 reason: Separate employment market.
 ---

@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 47
+- automatic review: 46
 - automatic exclude: 0
 - effective include: 0
-- effective review: 47
+- effective review: 46
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (47)
+## REVIEW (46)
 
 ---
 action: 
@@ -186,6 +186,18 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
+title: Assistant Document Controller
+company: Arup CWS - Agency - Contract
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-108070538
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Bookkeeper
 company: Cameron James - Agency - Permanent
 location: Darlington
@@ -251,18 +263,6 @@ company: Nigel Wright Group - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-1885754
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Tenth Revolution Group - Agency - Permanent
-location: Newcastle Upon Tyne
-source: JobG8
-job_id: jobg8-2021556
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -344,18 +344,6 @@ decision: review
 automatic_decision: review
 title: Home Administrator
 company: Akari Care Limited
-location: Newcastle, NE5 5HQ
-source: NHS Jobs
-job_id: nhs-5610574
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Home Administrator
-company: Akari Care Limited
 location: Newcastle, NE5 5AY
 source: NHS Jobs
 job_id: nhs-5626649
@@ -371,18 +359,6 @@ company: TPP Recruitment - Agency - Permanent
 location: Newcastle Upon Tyne
 source: JobG8
 job_id: jobg8-1927962
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR & Payroll Administrator
-company: Emmanuel Schools Foundation
-location: Blyth
-source: Teaching Vacancies
-job_id: teaching-vacancies-hr-payroll-administrator-emmanuel-schools-foundation
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -406,7 +382,7 @@ title: HR Assistant (part time)
 company: Lynn Bennett Resourcing - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-1991604
+job_id: jobg8-2063502
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -587,6 +563,18 @@ company: Tees Esk and Wear Valleys NHS Foundation Trust
 location: Darlington, DL2 2TS
 source: NHS Jobs
 job_id: nhs-5637413
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2062154
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 

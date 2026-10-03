@@ -54,6 +54,18 @@ reason: Exact approved Worcester workplace.
 action: 
 decision: review
 automatic_decision: review
+title: Administrator (SEND Department)
+company: Tenbury High Ormiston Academy
+location: Tenbury Wells
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-send-department-tenbury-high-ormiston-academy
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Assistant
 company: SF Partners - Agency - Permanent
 location: Pershore
@@ -83,18 +95,6 @@ company: Stourport Primary Academy
 location: Stourport-on-Severn
 source: Teaching Vacancies
 job_id: teaching-vacancies-office-administrator-stourport-primary-academy-stourport-on-severn-worcestershire
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist and Admin Assistant
-company: St George's CofE School
-location: Kidderminster
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-and-admin-assistant-st-george-s-cofe-school
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

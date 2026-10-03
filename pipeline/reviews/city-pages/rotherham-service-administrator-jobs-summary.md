@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 31
+- automatic review: 29
 - automatic exclude: 0
 - effective include: 1
-- effective review: 31
+- effective review: 29
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: teaching-vacancies-attendance-and-attendance-officer
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (31)
+## REVIEW (29)
 
 ---
 action: 
@@ -71,18 +71,6 @@ company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S5 7AU
 source: NHS Jobs
 job_id: nhs-5639875
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin Assistant - Part Time - 18 hrs
-company: Totley All Saints Church of England Voluntary Aided Primary School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-assistant-part-time-18-hrs
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -395,18 +383,6 @@ company: Chorus Education Trust
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-scitt-administrator-chorus-education-trust
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary Admin Assistant at Kiveton Park Infant School
-company: Kiveton Park Infant School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-temporary-admin-assistant-at-kiveton-park-infant-school
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
