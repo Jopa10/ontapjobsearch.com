@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Brantridge School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-admissions-officer-the-cavendish-school",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Cavendish School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-personal-assistant-to-the-head-teacher-bishop-luffa-school-chichester",
@@ -69,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Bishop Luffa School, Chichester",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-attendance-hr-admin-assistant",
@@ -93,7 +105,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Hollington Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-administrator-st-leonards-church-of-england-primary-academy",
@@ -117,7 +133,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "St Leonards Church of England Primary Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "1894808",
@@ -920,6 +940,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107954542",
+    "title": "Horticulture Resource Coordinator",
+    "company": "Brinsbury College - Agency - Permanent",
+    "location": "Sussex",
+    "region": "Sussex",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "20000",
+    "salary_max": "20000",
+    "salary_text": "£20000 per year",
+    "posted_date": "",
+    "description": "Horticulture Resource Coordinator\nWhen registering to this job board you will be redirected to the online application form. Please ensure that this is completed in full in order that your application can be reviewed.\n\nHorticulture Resource Coordinator\n\nBrinsbury College is a unique land-based campus with outstanding facilities, commercial growing spaces and ambitious sustainability goals click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?G%2b5YiGNoEgqHxZ8iW2WwkvJ65jN30SNvn",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Brinsbury College",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5639730",
     "source": "NHS Jobs",
     "title": "Receptionist / Administrator",
@@ -935,7 +980,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4054-26-0014",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4054-26-0014",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5620851",
@@ -953,7 +1002,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0582-26-0017",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0582-26-0017",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5598736",
@@ -971,7 +1024,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0637-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0637-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5635694",
@@ -989,6 +1046,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1026-26-0016",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1026-26-0016",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

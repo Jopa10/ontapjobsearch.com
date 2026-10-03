@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Stourport Primary Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-administrator-send-department-tenbury-high-ormiston-academy",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Tenbury High Ormiston Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-receptionist-administrator-ipsley-cofe-middle-school-redditch",
@@ -69,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Ipsley CofE Middle School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "1980547",
@@ -122,6 +134,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "108053865",
+    "title": "Care Coordinator",
+    "company": "Agincare Group - Agency - Permanent",
+    "location": "Worcestershire",
+    "region": "Worcestershire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "26000",
+    "salary_max": "26000",
+    "salary_text": "£26000 per year",
+    "posted_date": "",
+    "description": "Package Description:\n\nPerhaps youre an experienced care professional ready for something new, or you have a background in workforce scheduling and would love to bring those skills into care.\n\nAt Agincare, we know great care starts with great coordination. Were looking for a Care Coordinator at our Stourport-on-Severn who enjoys organising, problem-solving, and connecting the right carers with the cli click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBYLeNz34XxIW11694E%2foOHmk",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Agincare Group",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "2055604",
     "title": "Wedding & Events Co-ordinator",
     "company": "Four Squared - Agency - Permanent",
@@ -162,6 +199,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0771-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0771-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

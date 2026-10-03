@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Court Lane Junior Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-receptionist-maternity-cover-the-blue-coat-school-basingstoke",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Blue Coat School Basingstoke",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "1881197",
@@ -1038,7 +1046,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9188-26-0862",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9188-26-0862",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5627419",
@@ -1056,7 +1068,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2111-26-0033",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2111-26-0033",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5626622",
@@ -1074,7 +1090,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-2080",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-2080",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5620952",
@@ -1092,7 +1112,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-2064",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-2064",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5612599",
@@ -1110,7 +1134,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3939",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3939",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5608574",
@@ -1128,6 +1156,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-2017",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-2017",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

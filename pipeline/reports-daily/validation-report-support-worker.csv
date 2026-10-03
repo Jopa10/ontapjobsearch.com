@@ -1,12 +1,12 @@
 ﻿metric,value
-total rows input,19774
-total rows included,75
-total rows dropped,19687
-title classification count - HIGH_CONFIDENCE,195
-title classification count - ELASTIC_FIT,41
-title classification count - REVIEW_CONTEXT_DEPENDENT,42
-title classification count - HARD_PASS,9660
-title classification count - OUT_OF_SCOPE,9836
+total rows input,20000
+total rows included,74
+total rows dropped,19914
+title classification count - HIGH_CONFIDENCE,197
+title classification count - ELASTIC_FIT,40
+title classification count - REVIEW_CONTEXT_DEPENDENT,41
+title classification count - HARD_PASS,9825
+title classification count - OUT_OF_SCOPE,9897
 selection scenario - Yorkshire - West,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Yorkshire - West,Yorkshire - West selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Yorkshire - West,1
@@ -40,13 +40,13 @@ other elastic count - Sussex,0
 total rows output - Sussex,6
 job_id included - Sussex,1908629; 108051488; 1959112; 108058320; 1990925; 108062155
 selection scenario - Cumbria - South,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Cumbria - South,Cumbria - South selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Cumbria - South,2
-high confidence count - Cumbria - South,2
+selection message - Cumbria - South,Cumbria - South selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Cumbria - South,3
+high confidence count - Cumbria - South,3
 anchor elastic count - Cumbria - South,0
 other elastic count - Cumbria - South,0
-total rows output - Cumbria - South,2
-job_id included - Cumbria - South,108057926; 108059082
+total rows output - Cumbria - South,3
+job_id included - Cumbria - South,108057926; 108059082; 108027430
 selection scenario - Hampshire,SCENARIO_3_MANUAL_SELECTION_APPLIED
 selection message - Hampshire,Hampshire manual_select applied additively: 1 row(s) prioritised; 13 selected.
 credible total - Hampshire,13
@@ -56,37 +56,37 @@ other elastic count - Hampshire,0
 total rows output - Hampshire,13
 job_id included - Hampshire,1932858; 1958886; 1898106; 559639887195039334437341; 2055937; 1401785578; 1980850; 1401785277; 1401785482; 1401785443; 108059180; 559639887195039334437340; 635330054620761292837340
 selection scenario - Kent,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC
-selection message - Kent,"Kent selection complete: 20 selected after HIGH_CONFIDENCE, Maidstone ELASTIC_FIT, and other ELASTIC_FIT roles."
-credible total - Kent,20
-high confidence count - Kent,14
+selection message - Kent,"Kent selection complete: 19 selected after HIGH_CONFIDENCE, Maidstone ELASTIC_FIT, and other ELASTIC_FIT roles."
+credible total - Kent,19
+high confidence count - Kent,13
 anchor elastic count - Kent,3
 other elastic count - Kent,3
-total rows output - Kent,20
-job_id included - Kent,1957967; 484455508861989683237341; 714426749587501875237341; 198615299190371123237341; 373127365825396736037341; 86461656567539302437341; 110063333364727808037341; 1877396; 1402265374; 1981559; 1996389; 484455508861989683237340; 198615299190371123237340; 1981486; 2055653; 714426749587501875237340; 8521015614033100837340; 373127365825396736037340; 86461656567539302437340; 110063333364727808037340
+total rows output - Kent,19
+job_id included - Kent,484455508861989683237341; 714426749587501875237341; 198615299190371123237341; 373127365825396736037341; 86461656567539302437341; 110063333364727808037341; 1877396; 1402265374; 1981559; 1996389; 484455508861989683237340; 198615299190371123237340; 1981486; 2055653; 714426749587501875237340; 8521015614033100837340; 373127365825396736037340; 86461656567539302437340; 110063333364727808037340
 selection scenario - London,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - London,London manual_select applied additively: 1 row(s) prioritised; 6 selected.
-credible total - London,6
-high confidence count - London,4
+selection message - London,London manual_select applied additively: 1 row(s) prioritised; 7 selected.
+credible total - London,7
+high confidence count - London,5
 anchor elastic count - London,1
 other elastic count - London,0
-total rows output - London,6
-job_id included - London,2022335; 1990764; 2049393; 2037495; 2041892; 2067783
-selection scenario - Oxfordshire,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Oxfordshire,Oxfordshire selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Oxfordshire,5
-high confidence count - Oxfordshire,5
+total rows output - London,7
+job_id included - London,2022335; 1990764; 2049393; 2037495; 107894305; 2041892; 2067783
+selection scenario - Oxfordshire,SCENARIO_1_COMPLETE_HC_ONLY
+selection message - Oxfordshire,Oxfordshire selection complete: HIGH_CONFIDENCE roles selected.
+credible total - Oxfordshire,6
+high confidence count - Oxfordshire,6
 anchor elastic count - Oxfordshire,0
 other elastic count - Oxfordshire,0
-total rows output - Oxfordshire,5
-job_id included - Oxfordshire,2055908; 107626591; 107626594; 107626596; 1957015
-selection scenario - Surrey,SCENARIO_2_COMPLETE_HC_PLUS_ANCHOR_ELASTIC
-selection message - Surrey,Surrey selection complete: HIGH_CONFIDENCE plus Guildford ELASTIC_FIT selected.
-credible total - Surrey,9
-high confidence count - Surrey,8
-anchor elastic count - Surrey,1
+total rows output - Oxfordshire,6
+job_id included - Oxfordshire,2055908; 107626591; 107626594; 108050902; 107626596; 1957015
+selection scenario - Surrey,SCENARIO_1_COMPLETE_HC_ONLY
+selection message - Surrey,Surrey selection complete: HIGH_CONFIDENCE roles selected.
+credible total - Surrey,6
+high confidence count - Surrey,6
+anchor elastic count - Surrey,0
 other elastic count - Surrey,0
-total rows output - Surrey,9
-job_id included - Surrey,185888891903515033637341; 108058876; 1996262; 108062488; 2021731; 314007065404532326437340; 185888891903515033637340; 108062509; 343400282262077440037340
+total rows output - Surrey,6
+job_id included - Surrey,185888891903515033637341; 1996262; 2021731; 314007065404532326437340; 185888891903515033637340; 108062509
 selection scenario - Wiltshire,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Wiltshire,Wiltshire selection below publish threshold: 1/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Wiltshire,1

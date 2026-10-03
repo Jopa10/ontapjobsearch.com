@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Loreto High School Chorlton",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-send-administrator-the-albion-academy",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Albion Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-level-2-academy-administrator-87638371-b844-4b56-8fc9-861f67e6ef3c",
@@ -69,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Dixons Newall Green Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-office-administrator-and-receptionist-salford-city-academy",
@@ -93,7 +105,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Salford City Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-trust-finance-and-systems-administrator",
@@ -117,7 +133,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Co Operative Academies Trust",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "1957040",
@@ -685,7 +705,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0973-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0973-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5631646",
@@ -703,7 +727,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/G9907-26-0120",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/G9907-26-0120",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5631127",
@@ -721,7 +749,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5615-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5615-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5627669",
@@ -739,7 +771,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1532-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1532-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5613139",
@@ -757,7 +793,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2593-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2593-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5597473",
@@ -775,6 +815,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0212-26-0038",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0212-26-0038",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

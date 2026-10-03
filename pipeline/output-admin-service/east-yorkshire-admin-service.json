@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Marvell College",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "1939826",
@@ -199,6 +203,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "108066397",
+    "title": "Temporary Bookkeeper",
+    "company": "KD Recruitment Limited - Agency - Temporary",
+    "location": "Bridlington",
+    "region": "Yorkshire - East",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "14",
+    "salary_max": "15",
+    "salary_text": "£14 - £15 per hour",
+    "posted_date": "",
+    "description": "Are you a detail-oriented and adaptable Bookkeeper looking for a hands-on role within a small business? Are you used to a stand alone position where you can support the finance function and look at ways to make efficiencies? Are you immediately available and able to work in a temporary contract for a well established business who need additional support to process a backlog of work in the first in click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?QHpHeWTcrP4EFAvzkjNGV1i2u42WUzZQy",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "KD Recruitment Limited",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "1893147",
     "title": "HR Operations Coordinator",
     "company": "Portfolio HR & Reward - Agency - Permanent",
@@ -239,7 +268,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4897-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4897-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5636328",
@@ -257,6 +290,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3002-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3002-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

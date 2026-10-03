@@ -2,11 +2,11 @@
 
 review_date: 2026-10-03
 
-- Open Administrative & Clerical rows reviewed: 2278
+- Open Administrative & Clerical rows reviewed: 2276
 - Auto/remembered selected: 398
 - Selected HC Tier A: 211
 - Selected HC Tier B: 187
-- POSS awaiting decision: 1768
+- POSS awaiting decision: 1766
 - Excluded: 0
 - HARD_PASS: 112
 
@@ -8206,18 +8206,6 @@ region: West Midlands - Birmingham & Solihull
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9436-26-0643
 factual_fingerprint: 35719b71f06de5f847bb5a544c2eaa7c92769665cc5c6f3cae206a015a736412
----
-
----
-action:
-POSS | NHS Jobs | Hertfordshire | Stevenage, SG1 1AB | £28392.00 to £31157.00 | Medical Secretary - Emergency Medicine
-source_job_id: 5630227
-title: Medical Secretary - Emergency Medicine
-employer: East and North Hertfordshire Teaching NHS Trust
-region: Hertfordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9361-26-0579
-factual_fingerprint: 695913d178c42a61a91abdea82b6f170f78c22050e7a1dea2eaf320d7ff0afd0
 ---
 
 ---
@@ -18562,18 +18550,6 @@ region: Hampshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3153-26-0002
 factual_fingerprint: a49103f7e9dab854e89cbce61067e892e145340443cb7a798e3dfe1a92670ad5
----
-
----
-action:
-POSS | NHS Jobs | Lancashire - Central | Preston, PR3 2JH | £39959.00 to £48117.00 | Health Safety and Security Officer
-source_job_id: 5609357
-title: Health Safety and Security Officer
-employer: Lancashire & South Cumbria NHS Foundation Trust
-region: Lancashire - Central
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9351-26-1085
-factual_fingerprint: 2e9758c30d0c868caa41952768d7fe9c30bfeb9461cd48b4197b6c3ca79e36fa
 ---
 
 ---

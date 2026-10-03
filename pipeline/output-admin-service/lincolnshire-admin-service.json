@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Vale Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-administrative-assistant-kesteven-and-grantham-girls-school",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Kesteven and Grantham Girls' School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-administrator-st-paul-s-community-primary-and-nursery-school-spalding",
@@ -69,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "St Paul's Community Primary and Nursery School, Spalding",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-data-exams-officer-thomas-middlecott-academy-boston-lincolnshire",
@@ -93,7 +105,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Thomas Middlecott Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-academy-administrator-35b6eb6f-c93e-4b6e-b5d9-62a3a5806607",
@@ -117,7 +133,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Thomas Middlecott Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-receptionist-admin-assistant-boston-endeavour-academy",
@@ -141,7 +161,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Boston Endeavour Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-hr-office-administrator",
@@ -165,7 +189,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Harbour Learning Trust",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "1934795",
@@ -368,6 +396,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "108070241",
+    "title": "Student Inclusion and Engagement Coordinator",
+    "company": "Inspire Education Group - Agency - Contract",
+    "location": "Lincolnshire",
+    "region": "Lincolnshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Contract",
+    "salary_min": "30000",
+    "salary_max": "30000",
+    "salary_text": "£30000 per year",
+    "posted_date": "",
+    "description": "Student Inclusion and Engagement Coordinator (Group Role)\n\nSalary: £31,493.00 per annum\n\nHours: 37 hours per week Monday to Friday\n\nContract: FTC (12 months)\n\nContract Type: All year round\n\nLocation: Stamford\n\nClosing Date: 7 th October 2026\n\nEmpower students to shape their college experience, create meaningful change, and build an inclusive community where every voice is heard click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Yic9job4bS8jcYKaQZfGS%2fQ0sRlzm%2fHLc",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Inspire Education Group",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5633689",
     "source": "NHS Jobs",
     "title": "Apprentice Clerical Assistant",
@@ -383,7 +436,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9814-26-186",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9814-26-186",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5610991",
@@ -401,7 +458,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9274-26-0368",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9274-26-0368",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5615073",
@@ -419,6 +480,32 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9274-26-0371",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9274-26-0371",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5562166",
+    "source": "NHS Jobs",
+    "title": "Receptionist",
+    "company": "Market Cross Surgery",
+    "advertiser_name": "Market Cross Surgery",
+    "location": "Grantham, NG33 4BB",
+    "region": "Lincolnshire",
+    "salary": "£12.71",
+    "employment_type": "Permanent",
+    "posted_date": "2026-08-26T09:49:41.534880421",
+    "closing_date": "2026-10-30",
+    "description": "The GP receptionist is responsible for undertaking a wide range of reception duties and providing support to the multidisciplinary team. Duties may include, but are not limited to, greeting and directing patients, effective use of the appointment system, booking appointments, processing of personal information and assisting patients as required. To act as a central point of contact for patients, the distribution of information, messages and enquiries for the clinical team, liaising with the multidisciplinary team member and external agencies such as secondary care and community service providers. The core responsibilities of the receptionist are as follows. On occasion, there may be a requirement to carry out tasks not listed below, that are within the reasonable scope of the role. Maintain and monitor practice appointment system Process personal, telephone and e-requests for appointments Answer incoming phone calls, dealing with the callers request appropriately Signpost patients to the correct service Initiating contact with and responding to, requests from patients, team members and external agencies Data entry of new and temporary registrations and relevant patient information as requested Input data as necessary onto patients healthcare records Direct requests for information to relevant team members i.e., SAR, DVLA forms, insurance/solicitors letters Manage all queries as necessary in an efficient manner Carry out system searches as requested Support all clinical staff with general tasks as required Photocopy documentation as required Maintain a clean, tidy and effective working area Monitor and maintain the reception area and notice boards In addition to the core responsibilities, the Receptionist may be requested to; 1. Action incoming emails and correspondence as necessary 2. Complete opening and closing procedures in accordance with the rota 3. Partake in audit as directed by the audit lead 4. Support admin team, providing cover during absences 5. Scan patient related documents and attach scanned documents to patients healthcare record We currently have 2 part time vacancies available allowing us to be flexible for the right candidate. All hours will be worked between 08:00 and 18:30, Monday to Friday",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3629-26-0013",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3629-26-0013",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
