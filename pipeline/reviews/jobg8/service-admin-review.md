@@ -1,6 +1,6 @@
 # Service-admin manual review
 
-feed_date: 2026-10-03
+feed_date: 2026-10-04
 
 Edit only the `action:` line in each block:
 
@@ -1349,12 +1349,6 @@ job_id: 2060172
 
 ---
 action:
-SELECTED | London | London | £15 per hour [JobG8 salary fields] | PT Experienced Accounts Administrator starting ASAP at £15/hour
-job_id: 465115401695107481637341
----
-
----
-action:
 SELECTED | London | London | £18.44 per hour [extracted from description] | Executive Assistant
 job_id: 2060937
 ---
@@ -1393,24 +1387,6 @@ job_id: 2063326
 action:
 SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Service Desk Team Leader
 job_id: 2068013
----
-
----
-action:
-SELECTED | London | London | £28,860 per year [extracted from description] | Events and Community Fundraising Coordinator (Virtual Products)
-job_id: 2067792
----
-
----
-action:
-SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Executive Assistant and Board Administrator
-job_id: 2067764
----
-
----
-action:
-SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Community and Volunteering Co-ordinator
-job_id: 2067754
 ---
 
 ---
@@ -1697,6 +1673,12 @@ job_id: 2064051
 action:
 SELECTED | Hampshire | Hampshire | no salary in JobG8 salary fields; no supported salary amount found in description | HR Assistant
 job_id: 2062579
+---
+
+---
+action:
+SELECTED | Hampshire | Hampshire | no salary in JobG8 salary fields; no supported salary amount found in description | Site Administrator
+job_id: 108065573
 ---
 
 ## HAMPSHIRE — POSSIBLES
@@ -2361,6 +2343,18 @@ SELECTED | Sussex | Sussex | £20000 per year | Horticulture Resource Coordinato
 job_id: 107954542
 ---
 
+---
+action:
+SELECTED | Sussex | Sussex |  | Client Service Administrator
+job_id: 2069694
+---
+
+---
+action:
+SELECTED | Sussex | Sussex |  | Office Administrator
+job_id: 714515638230659891237340
+---
+
 ## SUSSEX — POSSIBLES
 
 ---
@@ -2452,12 +2446,6 @@ job_id: 2049188
 action:
 SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire | £30000 per year | Accounts Assistant
 job_id: 2049443
----
-
----
-action:
-SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire |  | Fundraising & Supporter Care Co-ordinator
-job_id: 2053812
 ---
 
 ---
@@ -2785,6 +2773,12 @@ job_id: 1990949
 
 ---
 action:
+POSS - BERKSHIRE | Berkshire | Berkshire | £35000 - £40000 per year | Bookkeeper (Accountancy / Tax Advisory)
+job_id: 2065066
+---
+
+---
+action:
 POSS - BERKSHIRE | Berkshire | Berkshire | £45000 - £55000 per year | Technical Team Leader - 2nd and 3rd Line - MSP Service Desk - Hybrid Reading
 job_id: 2050196
 ---
@@ -2825,12 +2819,6 @@ job_id: 1908350
 action:
 SELECTED | Bristol & Bath | Bristol | £30000 per year | Personal Injury Paralegal
 job_id: 1895650
----
-
----
-action:
-SELECTED | Bristol & Bath | Bristol | £13.90 per hour | Temp - Front of House Administrator (Receptionist)
-job_id: 1981180
 ---
 
 ---
@@ -2927,6 +2915,12 @@ job_id: 2057330
 action:
 SELECTED | Bristol & Bath | Bristol |  | Litigated EL/PL Claims Handler (Casualty)
 job_id: 2067696
+---
+
+---
+action:
+SELECTED | Bristol & Bath | Bristol |  | Office Coordinator
+job_id: 28025_JR99
 ---
 
 ## BRISTOL & BATH — POSSIBLES
@@ -3749,12 +3743,6 @@ job_id: 2041792
 
 ---
 action:
-SELECTED | Dorset | Dorset | £12000 per year | Activities Coordinator
-job_id: 108024705
----
-
----
-action:
 SELECTED | Dorset | Dorset | £26000 per year | Care Coordinator
 job_id: 108069104
 ---
@@ -4007,18 +3995,6 @@ job_id: 2051564
 action:
 SELECTED | Essex | Essex |  | Conveyancing Paralegal/Fee Earner
 job_id: 2051553
----
-
----
-action:
-SELECTED | Essex | Essex |  | Sales Administrator
-job_id: 745249606439062732837341
----
-
----
-action:
-SELECTED | Essex | Essex |  | Sales Administrator
-job_id: 745249606439062732837340
 ---
 
 ---
@@ -5223,6 +5199,12 @@ SELECTED | Nottinghamshire | Nottinghamshire |  | Customer Service Administrator
 job_id: 107964483
 ---
 
+---
+action:
+SELECTED | Nottinghamshire | Nottingham | £28000 per year | Sales Customer Service Advisor
+job_id: 108072938
+---
+
 ## NOTTINGHAMSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -5647,12 +5629,6 @@ job_id: 2048211
 action:
 SELECTED | Scotland West - Glasgow | Glasgow |  | HR & Talent Coordinator
 job_id: 2056515
----
-
----
-action:
-SELECTED | Scotland West - Glasgow | Glasgow | £23,693 per annum | Clinical and Office Administrator
-job_id: 2067735
 ---
 
 ## SCOTLAND WEST - GLASGOW — POSSIBLES

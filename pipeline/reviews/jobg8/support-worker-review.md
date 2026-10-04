@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-10-03
+feed_date: 2026-10-04
 
 Edit only the `action:` line in each block:
 
@@ -303,36 +303,6 @@ job_id: 1996389
 
 ---
 action:
-SELECTED | Kent | Maidstone | £25,845 per annum | Female Support Worker - Waking Nights
-job_id: 484455508861989683237341
----
-
----
-action:
-SELECTED | Kent | Tunbridge Wells | £25,845 per annum | Female Support Worker - Waking Nights
-job_id: 484455508861989683237340
----
-
----
-action:
-SELECTED | Kent | Maidstone | £25,845 per annum | Male Support Worker
-job_id: 714426749587501875237341
----
-
----
-action:
-SELECTED | Kent | Tonbridge | £25,845 per annum | Male Support Worker
-job_id: 714426749587501875237340
----
-
----
-action:
-SELECTED | Kent | Tonbridge | £25,845 per year | Support Worker
-job_id: 8521015614033100837340
----
-
----
-action:
 SELECTED | Kent | Maidstone | £25,845 per year | Waking Night Support Worker
 job_id: 373127365825396736037341
 ---
@@ -431,12 +401,6 @@ SELECTED | London | Ilford | £15,412.00 per annum | Support Worker
 job_id: 2067783
 ---
 
----
-action:
-SELECTED | London | London | £13.1 per hour (+ Benefits) | Full Time / Part Time Care Worker
-job_id: 107894305
----
-
 ## LONDON — POSSIBLES
 
 ---
@@ -507,12 +471,6 @@ SELECTED | Oxfordshire | Kidlington | £85 - £110 per daily | Emotional Support
 job_id: 1957015
 ---
 
----
-action:
-SELECTED | Oxfordshire | Bicester | £26000 per year | Female Support Worker
-job_id: 108050902
----
-
 ## OXFORDSHIRE — POSSIBLES
 
 ---
@@ -551,12 +509,6 @@ job_id: 185888891903515033637341
 action:
 SELECTED | Surrey | Walton-on-thames | £25,845 per annum | Support Worker
 job_id: 185888891903515033637340
----
-
----
-action:
-SELECTED | Surrey | Leatherhead | £15 per hour | Male Healthcare Assistant - Leatherhead
-job_id: 108062509
 ---
 
 ## SURREY — POSSIBLES
