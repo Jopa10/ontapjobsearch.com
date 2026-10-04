@@ -125,6 +125,31 @@
     "posted_date_basis": "source"
   },
   {
+    "job_id": "teaching-vacancies-reception-administrator-first-aider",
+    "title": "Reception Administrator & First Aider",
+    "company": "Townsend Church of England School",
+    "location": "St Albans",
+    "region": "Hertfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£23,396.00 - £28,153.00 Annually (Actual) Fringe Allowance included",
+    "work_pattern": "",
+    "posted_date": "2026-10-04",
+    "closing_date": "2026-10-16",
+    "closing_datetime": "2026-10-16T07:00:00+01:00",
+    "summary": "Reception Administrator & First Aider with Townsend Church of England School in St Albans. ['full time']; £23,396.00 - £28,153.00 Annually (Actual) Fringe Allowance included.",
+    "description": "Townsend Church of England School is recruiting for this vacancy in St Albans.\n\nThe advertised position is Reception Administrator & First Aider.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £23,396.00 - £28,153.00 Annually (Actual) Fringe Allowance included.\n\nThe stated application deadline is 2026-10-16T07:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/reception-administrator-first-aider?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "teaching-vacancies-part-time-admin-assistant-oxhey-wood-primary-school",
     "title": "Part-Time Admin Assistant",
     "company": "Oxhey Wood Primary School",
@@ -791,6 +816,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9367-26-0939",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -810,6 +838,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0644-26-0008",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -829,6 +860,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0072",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -848,6 +882,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2171",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -867,6 +904,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9361-26-0561",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

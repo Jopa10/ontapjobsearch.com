@@ -750,6 +750,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "108065573",
+    "title": "Site Administrator",
+    "company": "Premier Foods - Agency - Permanent",
+    "location": "Andover",
+    "region": "Hampshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-10-04",
+    "description": "Job Title: Site Administrator - Maternity Cover (12-15 months)\n\nLocation: Andover, Hampshire\n\nHours of Work: Day Shift, Monday - Friday 09.00-17.00 (with flexibility)\n\nContracted Hours: 37.5hrs per week\n\nSalary: £28k per annum\nA great British food company\n\nPremier Foods is one of Britain's biggest listed food companies, employing over 4,000 colleagues at 15 manufacturingsites and offices up and down the click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?1tcg6Aj2zaxiRctlUvVMeCqLDWUhu69Yb",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Premier Foods",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "2043400",
     "title": "Shift Coordinator",
     "company": "Adecco - Agency - Permanent",
@@ -1041,6 +1066,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9188-26-0862",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1060,6 +1088,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2111-26-0033",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1079,6 +1110,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-2080",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1098,6 +1132,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-2064",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1117,6 +1154,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3939",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1136,6 +1176,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-2017",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

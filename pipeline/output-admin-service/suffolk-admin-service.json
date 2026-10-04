@@ -1,61 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-admin-assistant-hollesley-primary-school",
-    "title": "Admin Assistant",
-    "company": "Hollesley Primary School",
-    "location": "Woodbridge",
-    "region": "Suffolk",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£25,614.00 Annually (FTE) Grade 2, Point 3",
-    "work_pattern": "",
-    "posted_date": "2026-09-24",
-    "closing_date": "2026-10-09",
-    "closing_datetime": "2026-10-09T23:59:00+01:00",
-    "summary": "Admin Assistant with Hollesley Primary School in Woodbridge. ['part time']; £25,614.00 Annually (FTE) Grade 2, Point 3.",
-    "description": "Hollesley Primary School is recruiting for this vacancy in Woodbridge.\n\nThe advertised position is Admin Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £25,614.00 Annually (FTE) Grade 2, Point 3.\n\nThe stated application deadline is 2026-10-09T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-hollesley-primary-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Hollesley Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "teaching-vacancies-admin-assistant-waldringfield-primary-school",
-    "title": "Admin Assistant",
-    "company": "Waldringfield Primary School",
-    "location": "Woodbridge",
-    "region": "Suffolk",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£25,614.00 Annually (FTE) Grade 2, Point 3",
-    "work_pattern": "",
-    "posted_date": "2026-09-22",
-    "closing_date": "2026-10-09",
-    "closing_datetime": "2026-10-09T23:59:00+01:00",
-    "summary": "Admin Assistant with Waldringfield Primary School in Woodbridge. ['part time']; £25,614.00 Annually (FTE) Grade 2, Point 3.",
-    "description": "Waldringfield Primary School is recruiting for this vacancy in Woodbridge.\n\nThe advertised position is Admin Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £25,614.00 Annually (FTE) Grade 2, Point 3.\n\nThe stated application deadline is 2026-10-09T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-waldringfield-primary-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Waldringfield Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-admin-assistant-castle-east-school",
     "title": "Admin Assistant",
     "company": "Castle EAST School",
@@ -77,11 +21,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Castle EAST School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-administration-assistant-castle-east-school",
@@ -105,11 +45,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Castle EAST School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-attendance-administrator-alde-valley-academy-leiston-suffolk",
@@ -133,11 +69,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Alde Valley Academy",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "teaching-vacancies-receptionist-administration-assistant-ormiston-endeavour-academy-ipswich-suffolk",
@@ -161,11 +93,7 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Ormiston Endeavour Academy",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "working_arrangement_evidence": ""
   },
   {
     "job_id": "107952084",

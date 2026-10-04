@@ -125,6 +125,31 @@
     "posted_date_basis": "source"
   },
   {
+    "job_id": "108072938",
+    "title": "Sales Customer Service Advisor",
+    "company": "Metropolitan Thames Valley - Company - Contract",
+    "location": "Nottingham",
+    "region": "Nottinghamshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Contract",
+    "salary_min": "28000",
+    "salary_max": "28000",
+    "salary_text": "£28000 per year",
+    "posted_date": "2026-10-04",
+    "description": "Sales Customer Advisor (12 Month Fixed Term Contract)\n\nLocation: Beeston, Nottingham NG9 1 LA (Free on-site parking)\nSalary: £29,025 - £30,553 per annum\nContract: 12 Month Fixed Term Contract\nHours: 37.5 hours per week, Monday to Friday, 9:00am to 5:30pm\nWorking Pattern: Hybrid\n\nAbout the Role\n\nAt SO Resi, we're passionate about helping people achieve their home ownership ambitions through Shared Owners click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?kjuUUj3TFp4HnCnfAlIs4vHyIQ5dmLdvg",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "Sales Customer Service Advisor Sales Customer Advisor (12 Month Fixed Term Contract) Location: Beeston, Nottingham NG9 1 LA (Free on-site parking) Salary: £29,025 - £30,553 per annum Contract: 12 Month Fixed Term Contract Hours: 37.5 hours per week, Monday to Friday, 9:00am to 5:30pm Working Pattern: Hybrid About the Role At SO Resi, we're passionate about helping people achieve their home ownership ambitions through Shared Owners click apply for full job details Nottingham Nottinghamshire",
+    "advertiser_name": "Metropolitan Thames Valley",
+    "advertiser_type": "Company",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "1961154",
     "title": "HR Administrator",
     "company": "Macildowie Recruitment and Retention - Agency - Permanent",
@@ -391,6 +416,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0526",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -410,6 +438,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9826-PHCB-6568",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -429,6 +460,31 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0092",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5627502",
+    "source": "NHS Jobs",
+    "title": "Administration Assistant",
+    "company": "Nottingham University Hospitals NHS Trusts",
+    "advertiser_name": "Nottingham University Hospitals NHS Trusts",
+    "location": "Nottingham, NG5 1PB",
+    "region": "Nottinghamshire",
+    "salary": "£25272.00",
+    "employment_type": "Fixed-Term",
+    "posted_date": "2026-09-28T14:38:56.662481",
+    "closing_date": "2026-10-08",
+    "description": "This is an exciting opportunity to join the Haematology Administration team at city campus We are looking to recruit an enthusiastic and self-motivated individual. As Haematology Administration Assistant your role will be to support our teams to ensure that a comprehensive administrative and clerical service is delivered within Haematology Services, providing excellent service to both our staff and our patients. You will require strong communication skills as this role entails liaising with a wide range of individuals including patients, members of the public, managers, and clinical staff. This post will require you to work as part of a team at City campus, in a very busy and fast paced environment and to undertake the day to day administration duties , provision of reception service, general administration and creation of patient letters. It is expected that you will have strong IT skills and be confident in undertaking a range of computer based activities. This is an excellent opportunity for a person with sound communication, interpersonal and organisational skills. Provide efficient administrative and clerical support to the Haematology Outreach PA and clinical team, including completing patient outcomes. Prepare Outreach Visits to community settings, including completing patient assessments for first appointments. Telephone patients to confirm appointment times and provide relevant information. Cover reception and clinic preparation duties in the Outpatient Reception as required. Manage multiple tasks effectively, ensuring deadlines are met. Communicate clearly and professionally with staff, patients, and other departments. Maintain confidentiality and handle sensitive information appropriately. The post holder will work as an integral member of the team, providing comprehensive administrative and clerical support to the Haematology Outreach Department. Responsibilities include ensuring smooth day-to-day operations, managing correspondence, maintaining accurate records, and assisting clinical staff with documentation and other administrative tasks. Additionally, the post holder may be required to cover reception and clinic preparation duties in the Outpatient Reception during periods of annual leave or staff sickness, ensuring continuity of service. The successful candidate will be an enthusiastic and conscientious team player, able to multitask effectively in a busy environment. Strong written and verbal communication skills are essential, along with basic computer and keyboard proficiency and a willingness to train on departmental systems. The post holder must demonstrate a clear understanding of confidentiality, be reliable, well-motivated, and committed to supporting both the team and the departments objectives",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9164-26-0898",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9164-26-0898",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

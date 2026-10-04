@@ -450,6 +450,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "108062084",
+    "title": "Activities Coordinator",
+    "company": "Care UK - Company - Permanent",
+    "location": "Witney",
+    "region": "Oxfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "12.71",
+    "salary_max": "12.71",
+    "salary_text": "£12.71 per hour",
+    "posted_date": "2026-10-04",
+    "description": "Activities Coordinator - 30h per week\n\nMillers Grange Care Home - Witney, OX28 5 HR\n\nPay: £12.71 per hour\n\nPlease note: This role requires availability to work alternate weekends.\n\nAre you a passionate and caring individual looking for a rewarding career with excellent training and opportunities for development? Join Care UK, a multi award winning care provider as a Lifestyle Co-ordinator click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?kjuUUj3TFp4WQ6lLX655bN%2beyi%2bS%2f1wZg",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Care UK",
+    "advertiser_type": "Company",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "nhs-5623981",
     "source": "NHS Jobs",
     "title": "Administrative Assistant",
@@ -466,6 +491,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1731",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -485,25 +513,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1968-26-0013",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5577377",
-    "source": "NHS Jobs",
-    "title": "Receptionist",
-    "company": "The Key Medical Practice",
-    "advertiser_name": "The Key Medical Practice",
-    "location": "Kidlington, OX5 1AP",
-    "region": "Oxfordshire",
-    "salary": "£25000.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-09-14T13:41:01.366230726",
-    "closing_date": "2026-10-03",
-    "description": "The Key Medical Practice are looking for multiple Receptionists, candidates that are looking for both full and part time will be considered. Applications will be reviewed on a rolling basis as they are received. This vacancy will remain open until filled, so early applications are encouraged. Position Purpose To provide a welcoming, safe and efficient first point of contact for patients accessing clinical services. The Clinical Receptionist ensures smooth patient flow, accurate management of clinical information, and timely support to clinicians. This role contributes directly to patient experience, service quality, and the safe operation of the clinical environment. Job Responsibilities Patient Reception & Front-of-House Care Greets patients with professionalism, empathy and reassurance, recognising that many may be anxious, unwell or vulnerable. Provides clear information about check-in, waiting times, and processes Supports patients with accessibility needs (mobility, sensory needs, language barriers) and escalates concerns appropriately. Manages busy waiting areas calmly, maintaining a safe and respectful atmosphere Appointment & Clinical Workflow Coordination Books, amends and coordinates appointments following clinical priority protocols (training provided). Identifies urgent or same-day clinical requests and escalates according to triage guidelines. Helps maintain efficient clinical sessions by ensuring clinicians schedules run smoothly Supports handling of repeat prescription requests and directs clinical queries to appropriate staff. Confidentiality, Data Protection & Accurate Record-Keeping Handles confidential health information (e.g., medical notes, results, patient details) in line with GDPR and clinical governance standards. Updates patient records accurately and promptly using clinical systems (full training provided) Ensures correct patient identity verification to maintain patient safety. Processes clinical documents such as referrals, hospital letters, discharge summaries and results for action. Telephone & Digital Communication Handling Answers calls calmly and professionally, often under pressure and high call volumes. Uses clinical judgement boundaries (training given) to recognise urgent calls and escalate appropriately. Provides patients with accurate information about services, results handling, repeat prescriptions, and clinical pathways. Supports digital care navigation (e-consults, SMS messaging systems, online triage tools). Safety, Compliance & Clinical Environment Support Maintains a safe and clean reception and waiting area in line with infection control guidance. Follows safeguarding procedures and escalates concerns immediately. Supports emergency protocols, including contacting clinical staff if a patient deteriorates in the waiting room. Adheres to confidentiality, incident reporting and clinical governance procedures. Teamwork & Integrated Clinical Support Works collaboratively with clinicians, nurses, practice managers and administrative teams. Supports colleagues during busy clinics or staff shortages. Contributes to a positive, respectful, values-based team culture. Participates in mandatory training and role-specific development.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1968-26-0009",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1968-26-0009",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -523,6 +535,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1710",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

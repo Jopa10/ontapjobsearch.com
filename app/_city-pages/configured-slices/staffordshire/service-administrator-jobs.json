@@ -375,31 +375,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "108062618",
-    "title": "Sales Coordinator",
-    "company": "INSTARMAC GROUP - Agency - Permanent",
-    "location": "Staffordshire",
-    "region": "Staffordshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "2026-10-03",
-    "description": "Hours of Work\n\nMonday to Friday - 9:00am 5:30pm - On-site\n\nBenefits\n- Performance Profit Related Bonus (PPRP) target of 8% annually\n- Individual Target Bonus\n- Up to 29 days' holiday\n- 57.5% employer pension contribution\n- Private medical & dental cover\n- Life Assurance & Income Protection\n- Free use of holiday homes in Tenerife, Padstow & St Ives (with subsidised travel)\n- Employee Assistance Programme\n- Retail discounts & w click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?MQiKzVwZdh1MWidrj4H6yYrVut8N%2b%2fX%2fu",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "INSTARMAC GROUP",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "nhs-5632642",
     "source": "NHS Jobs",
     "title": "Receptionist",
@@ -416,6 +391,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9205-26-1903",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -435,6 +413,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9232-26-0255",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -454,25 +435,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0513",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5606228",
-    "source": "NHS Jobs",
-    "title": "Administrator",
-    "company": "Midlands Partnership NHS Foundation Trust",
-    "advertiser_name": "Midlands Partnership NHS Foundation Trust",
-    "location": "Longton, Stoke on Trent, ST3 4QX",
-    "region": "Staffordshire",
-    "salary": "£25760.00 to £27476.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-09-17T14:28:04.635295326",
-    "closing_date": "2026-10-04",
-    "description": "We are pleased to offer an exciting opportunity for an Administrator to join our Home First Team (Discharge to Access - D2A) based in North Staffordshire. If you're seeking a fresh challenge within an organisation committed to supporting your development and helping you reach your full potential, this could be the perfect role for you. In this position, you will provide confidential and effective administrative support to the Home First Team. You will need strong organisational skills and the ability to prioritise the demands of a busy team. We're looking for someone who is calm, motivated, and adaptable, with a positive and flexible approach to their work and the resilience to manage changing or challenging situations. There may be a requirement for you to travel between Trust locations in the Staffordshire area as well as other locations as required by the service. As administrator, you will be expected to work independently, showing initiative and a willingness to support colleagues as an integral member of the team. As part of this role, you will be required to: Prioritise tasks and meet deadlines to fulfil the requirements of the role, working with others to deliver a high-quality and seamless service. Have strong interpersonal and communication skills are essential, along with the ability to manage sensitive and challenging situations. Attend meetings, transcribe and distribute minutes, book venues and arrange hospitality as required. Be confident and knowledgeable in the use of computers, Microsoft office and IT systems. Ensure compliance with Trust policies, procedures and guidelines, taking action and alerting nurses/management if concerned about any aspect of patient care. Support and assist the Team Leader in recruitment and induction of new staff and associated duties This role isnoteligible for visa sponsorship. If it is identified that you require sponsorship to undertake this role your application may be withdrawn For further details about this diverse and engaging role, please refer to the full job description and person specification.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1358",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1358",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

@@ -325,6 +325,56 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "108026099",
+    "title": "Service Coordinator (UPS)",
+    "company": "Dale Power Solutions - Agency - Permanent",
+    "location": "Scarborough",
+    "region": "Yorkshire - North",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "2026-09-30",
+    "description": "Job Title: Service Coordinator (UPS)\n\nLocation: Scarborough\n\nSalary: Competitive\n\nJob type: Full Time - Temporary. This role is to cover maternity leave for approx. 15 months. Mon-Thurs 8.30am-16.50pm & Friday 8.30am-15.10pm.\n\nWe want all our colleagues to grow and build careers with Dale click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Yic9job4bS8Nk0Dv%2fXpYsjznSCz3oPvgc",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Dale Power Solutions",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "108067298",
+    "title": "Temporary Administrator",
+    "company": "KD Recruitment Limited - Agency - Temporary",
+    "location": "Scarborough",
+    "region": "Yorkshire - North",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "13",
+    "salary_max": "14",
+    "salary_text": "£13 - £14 per hour (depending on experience)",
+    "posted_date": "2026-10-04",
+    "description": "Are you an organised and confident Administrator who enjoys being at the heart of a busy organisation? Are you immediately available to start a temporary job in the Eastfield area for a lovely organisation who need support until the end of the year.\n\nDo you have administrative / coordination experience, with a self managed approach to your work? Would you like to make a difference in a small team click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbwWSIjRM26rjE87j4OHQfYrt",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "KD Recruitment Limited",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "2043051",
     "title": "Credit Controller",
     "company": "Ripon Farm Services - Agency - Permanent",
@@ -500,31 +550,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "108063151",
-    "title": "Credit Controller",
-    "company": "Get Recruited (UK) Ltd - Agency - Permanent",
-    "location": "Catterick Garrison",
-    "region": "Yorkshire - North",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "28000",
-    "salary_text": "£28000 per year",
-    "posted_date": "2026-10-03",
-    "description": "CREDIT CONTROLLER\n\nCATTERICK (AFTER PROBATION 1 DAY WORK FROM HOME)\n\nMON - THURS 8.30am to 5pm, FRI 8.30 to 2pm\n\n£27,000 to £29,500 + GREAT BENEFITS\n\nTHE OPPORTUNITY:\n\nWe're partnering with a well-established and growing business that is looking to recruit an experienced Credit Controller to join their finance team click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Yic9job4bS9%2fbfgwDsy57rkYNcIWeFeNc",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Get Recruited (UK) Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "2050566",
     "title": "Administrator",
     "company": "Tradewind Recruitment - Agency - Permanent",
@@ -616,6 +641,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1013-26-0011",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -635,6 +663,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5428-26-0006",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -654,6 +685,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3656-26-0002",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -673,6 +707,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4235-26-0037",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]
