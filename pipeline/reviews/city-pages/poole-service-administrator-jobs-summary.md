@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 17
+- automatic review: 16
 - automatic exclude: 0
 - effective include: 1
-- effective review: 17
+- effective review: 16
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: jobg8-2063324
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (17)
+## REVIEW (16)
 
 ---
 action: 
@@ -47,18 +47,6 @@ company: Agincare Group - Agency - Permanent
 location: Weymouth
 source: JobG8
 job_id: jobg8-107992811
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Activities Coordinator
-company: Agincare Group - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-108024705
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

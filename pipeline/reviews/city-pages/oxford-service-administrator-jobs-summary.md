@@ -90,6 +90,18 @@ reason: Approved conservative Oxford launch catchment.
 action: 
 decision: review
 automatic_decision: review
+title: Activities Coordinator
+company: Care UK - Company - Permanent
+location: Witney
+source: JobG8
+job_id: jobg8-108062084
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrative Assistant
 company: Bampton CofE Primary School
 location: Bampton
@@ -179,18 +191,6 @@ company: Faringdon Community College
 location: Faringdon
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-edf1f45d-c1c2-4efe-8319-033977840917
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: The Key Medical Practice
-location: Kidlington, OX5 1AP
-source: NHS Jobs
-job_id: nhs-5577377
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 

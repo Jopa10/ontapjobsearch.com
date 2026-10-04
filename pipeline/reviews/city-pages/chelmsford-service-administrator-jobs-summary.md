@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 14
-- automatic review: 63
+- automatic review: 61
 - automatic exclude: 0
 - effective include: 14
-- effective review: 63
+- effective review: 61
 - effective exclude: 0
 
 ## INCLUDE (14)
@@ -192,7 +192,7 @@ job_id: jobg8-1956210
 reason: Exact approved Chelmsford workplace.
 ---
 
-## REVIEW (63)
+## REVIEW (61)
 
 ---
 action: 
@@ -815,30 +815,6 @@ company: REED - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-1938377
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: Cibosano Ltd - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-745249606439062732837340
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: Cibosano Ltd - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-745249606439062732837341
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

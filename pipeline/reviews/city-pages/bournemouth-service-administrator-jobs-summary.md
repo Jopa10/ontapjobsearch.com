@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 14
+- automatic review: 13
 - automatic exclude: 0
 - effective include: 4
-- effective review: 14
+- effective review: 13
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: nhs-5625199
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (14)
+## REVIEW (13)
 
 ---
 action: 
@@ -83,18 +83,6 @@ company: Agincare Group - Agency - Permanent
 location: Weymouth
 source: JobG8
 job_id: jobg8-107992811
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Activities Coordinator
-company: Agincare Group - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-108024705
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

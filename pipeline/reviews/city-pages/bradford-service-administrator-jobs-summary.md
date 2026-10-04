@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 23
+- automatic review: 22
 - automatic exclude: 48
 - effective include: 6
-- effective review: 23
+- effective review: 22
 - effective exclude: 48
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: nhs-5611927
 reason: Approved Bradford catchment.
 ---
 
-## REVIEW (23)
+## REVIEW (22)
 
 ---
 action: 
@@ -359,18 +359,6 @@ company: Elevation Recruitment Group - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-1908693
-reason: No approved Bradford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2062150
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 

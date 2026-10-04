@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 27
+- automatic review: 26
 - automatic exclude: 0
 - effective include: 3
-- effective review: 27
+- effective review: 26
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: teaching-vacancies-school-administrator-st-james-church-of-england-junio
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (27)
+## REVIEW (26)
 
 ---
 action: 
@@ -95,18 +95,6 @@ company: Reed - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-2048160
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Communications Officer
-company: Wildfowl and Wetlands Trust - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-2067777
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

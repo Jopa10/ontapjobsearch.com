@@ -4,8 +4,8 @@
 - Live route: `/maidstone/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
-- Threshold currently met: no
+- Effective included jobs: 4
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 57
+- automatic include: 4
+- automatic review: 58
 - automatic exclude: 0
-- effective include: 3
-- effective review: 57
+- effective include: 4
+- effective review: 58
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (4)
 
 ---
 action: 
@@ -52,6 +52,18 @@ reason: Exact approved Maidstone workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Clinical Administrator
+company: Len Valley Practice
+location: Maidstone, ME17 2QF
+source: NHS Jobs
+job_id: nhs-5606943
+reason: Exact approved Maidstone workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Logistics Coordinator - Operations & Quality
 company: Pearson Whiffin Recruitment Ltd - Agency - Permanent
 location: Maidstone
@@ -60,7 +72,7 @@ job_id: jobg8-2064424
 reason: Exact approved Maidstone workplace.
 ---
 
-## REVIEW (57)
+## REVIEW (58)
 
 ---
 action: 
@@ -179,6 +191,18 @@ company: Aimee Willow Connex - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-2028629
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Support Assistant
+company: Oasis Restore - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-108044308
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 

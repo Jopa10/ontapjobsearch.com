@@ -9,7 +9,6 @@ include,jobg8-2046307,Paralegal - Family,Capital Outsourcing Group Ltd - Agency 
 include,nhs-5604935,Patient Care Navigator (Medical Receptionist - Priory Medical Centre),Priory Medical Group,"YORK, YO24 3WX",NHS Jobs,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,jobg8-2021380,Website Administrator,Reed - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 review,jobg8-2050566,Administrator,Tradewind Recruitment - Agency - Permanent,Richmond,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
-review,jobg8-108063151,Credit Controller,Get Recruited (UK) Ltd - Agency - Permanent,Catterick Garrison,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,jobg8-2053052,Credit Controller,Get Recruited (UK) Ltd - Agency - Permanent,Catterick Garrison,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,jobg8-2048426,Credit Controller,IMPRESSION RECRUITMENT LIMITED - Agency - Permanent,Ripon,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,jobg8-2043051,Credit Controller,Ripon Farm Services - Agency - Permanent,Ripon,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
@@ -32,9 +31,12 @@ exclude,jobg8-2048296,Bookkeeper,Si Recruitment - Agency - Permanent,Harrogate,J
 exclude,jobg8-1882087,Client Services Administrator,NJR Recruitment - Agency - Permanent,Scarborough,JobG8,exclude,exclude,Separate employment market.,scarborough,york-service-administrator-jobs
 exclude,jobg8-2045708,Content Creator,Greenfield I T Recruitment - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
 exclude,jobg8-1906113,Conveyancing Assistant,Janine Kot (JK) Recruitment Advisory Services Limited - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
+exclude,jobg8-108069176,Credit Control,Hays - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
 exclude,nhs-5624493,Data Administrator,Ayton & Snainton Medical Practice,"Scarborough, YO13 9JF",NHS Jobs,exclude,exclude,Separate employment market.,scarborough,york-service-administrator-jobs
 exclude,jobg8-1868898,Demand Planner - FMCG,Hays Specialist Recruitment Limited - Agency - Permanent,Northallerton,JobG8,exclude,exclude,Separate employment market.,northallerton,york-service-administrator-jobs
 exclude,jobg8-1882896,Finance Assistant,HW Finance - Agency - Permanent,Harrogate,JobG8,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs
 exclude,jobg8-1982430,Legal Secretary,IMPRESSION RECRUITMENT LIMITED - Agency - Permanent,Harrogate,JobG8,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs
 exclude,jobg8-2055397,Remote Conveyancing Paralegal,LEGAL TALENT PARTNERS LIMITED - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
+exclude,jobg8-108026099,Service Coordinator (UPS),Dale Power Solutions - Agency - Permanent,Scarborough,JobG8,exclude,exclude,Separate employment market.,scarborough,york-service-administrator-jobs
 exclude,jobg8-2060979,Supporter Engagement Assistant,Yorkshire Cancer Research - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
+exclude,jobg8-108067298,Temporary Administrator,KD Recruitment Limited - Agency - Temporary,Scarborough,JobG8,exclude,exclude,Separate employment market.,scarborough,york-service-administrator-jobs

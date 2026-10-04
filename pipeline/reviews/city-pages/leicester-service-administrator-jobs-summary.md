@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 8
+- automatic review: 9
 - automatic exclude: 0
 - effective include: 6
-- effective review: 8
+- effective review: 9
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225663833
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (8)
+## REVIEW (9)
 
 ---
 action: 
@@ -107,6 +107,18 @@ company: Cherry Professional - Relationship Led Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-2049700
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Activities Coordinator
+company: Care UK - Company - Permanent
+location: Market Harborough
+source: JobG8
+job_id: jobg8-108061254
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

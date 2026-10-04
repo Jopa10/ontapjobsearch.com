@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 18
-- automatic exclude: 12
+- automatic review: 17
+- automatic exclude: 15
 - effective include: 9
-- effective review: 18
-- effective exclude: 12
+- effective review: 17
+- effective exclude: 15
 
 ## INCLUDE (9)
 
@@ -132,7 +132,7 @@ job_id: jobg8-2021380
 reason: Approved York catchment.
 ---
 
-## REVIEW (18)
+## REVIEW (17)
 
 ---
 action: 
@@ -143,18 +143,6 @@ company: Tradewind Recruitment - Agency - Permanent
 location: Richmond
 source: JobG8
 job_id: jobg8-2050566
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Get Recruited (UK) Ltd - Agency - Permanent
-location: Catterick Garrison
-source: JobG8
-job_id: jobg8-108063151
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -350,7 +338,7 @@ job_id: jobg8-108059238
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (12)
+## EXCLUDE (15)
 
 ---
 action: 
@@ -428,6 +416,18 @@ reason: Broad regional label; not York-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Credit Control
+company: Hays - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-108069176
+reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Data Administrator
 company: Ayton & Snainton Medical Practice
 location: Scarborough, YO13 9JF
@@ -488,10 +488,34 @@ reason: Broad regional label; not York-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Service Coordinator (UPS)
+company: Dale Power Solutions - Agency - Permanent
+location: Scarborough
+source: JobG8
+job_id: jobg8-108026099
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Supporter Engagement Assistant
 company: Yorkshire Cancer Research - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2060979
 reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Temporary Administrator
+company: KD Recruitment Limited - Agency - Temporary
+location: Scarborough
+source: JobG8
+job_id: jobg8-108067298
+reason: Separate employment market.
 ---

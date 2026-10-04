@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 51
+- Effective included jobs: 49
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 51
+- automatic include: 49
 - automatic review: 7
 - automatic exclude: 7
-- effective include: 51
+- effective include: 49
 - effective review: 7
 - effective exclude: 7
 
-## INCLUDE (51)
+## INCLUDE (49)
 
 ---
 action: 
@@ -520,18 +520,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist/Administrator
-company: The Wand Medical Centre
-location: Birmingham, B12 0UF
-source: NHS Jobs
-job_id: nhs-5629570
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Sales Administrator
 company: Proprec - Agency - Permanent
 location: Birmingham
@@ -597,18 +585,6 @@ company: Katie Bard & Angela Mortimer Plc - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-2028830
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-2062142
 reason: Approved conservative Birmingham launch catchment.
 ---
 

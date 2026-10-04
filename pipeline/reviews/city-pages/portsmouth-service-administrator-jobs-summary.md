@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 53
+- automatic review: 54
 - automatic exclude: 0
 - effective include: 4
-- effective review: 53
+- effective review: 54
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: nhs-5627419
 reason: Exact approved Portsmouth workplace.
 ---
 
-## REVIEW (53)
+## REVIEW (54)
 
 ---
 action: 
@@ -671,6 +671,18 @@ company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 location: Fareham, PO17 6AR
 source: NHS Jobs
 job_id: nhs-5620952
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Site Administrator
+company: Premier Foods - Agency - Permanent
+location: Andover
+source: JobG8
+job_id: jobg8-108065573
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 

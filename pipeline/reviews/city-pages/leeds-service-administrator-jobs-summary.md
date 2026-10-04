@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 36
-- automatic review: 21
+- automatic review: 20
 - automatic exclude: 20
 - effective include: 36
-- effective review: 21
+- effective review: 20
 - effective exclude: 20
 
 ## INCLUDE (36)
@@ -456,7 +456,7 @@ job_id: jobg8-1956696
 reason: Approved Leeds catchment.
 ---
 
-## REVIEW (21)
+## REVIEW (20)
 
 ---
 action: 
@@ -695,18 +695,6 @@ company: Elevation Recruitment Group - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-1908693
-reason: No approved Leeds catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2062150
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 

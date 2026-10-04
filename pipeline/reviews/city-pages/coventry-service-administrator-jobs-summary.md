@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 5
 - automatic review: 2
-- automatic exclude: 19
+- automatic exclude: 18
 - effective include: 5
 - effective review: 2
-- effective exclude: 19
+- effective exclude: 18
 
 ## INCLUDE (5)
 
@@ -110,7 +110,7 @@ job_id: teaching-vacancies-receptionist-administrator-shipston-high-school
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (19)
+## EXCLUDE (18)
 
 ---
 action: 
@@ -217,18 +217,6 @@ company: Plus One Recruitment - Agency - Permanent
 location: Warwick
 source: JobG8
 job_id: jobg8-2056680
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Fundraising & Supporter Care Co-ordinator
-company: Third Solutions - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-2053812
 reason: Separate employment market.
 ---
 

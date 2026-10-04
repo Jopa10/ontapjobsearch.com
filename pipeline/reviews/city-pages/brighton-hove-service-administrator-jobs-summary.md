@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 30
+- automatic review: 32
 - automatic exclude: 11
 - effective include: 4
-- effective review: 30
+- effective review: 32
 - effective exclude: 11
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: nhs-5620851
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (30)
+## REVIEW (32)
 
 ---
 action: 
@@ -167,6 +167,18 @@ company: Farrer Barnes Limited - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2056867
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Client Service Administrator
+company: Financial Divisions - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2069694
 reason: Broad location; review before city inclusion.
 ---
 
@@ -282,6 +294,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Horticulture Resource Coordinator
+company: Brinsbury College - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-107954542
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Administrative Assistant
 company: Northbrook College - Agency - Temporary
 location: Sussex
@@ -342,6 +366,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Office Administrator
+company: PA Ark Project Ltd - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-714515638230659891237340
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll administrator
 company: Portfolio Payroll - Agency - Permanent
 location: Sussex
@@ -359,18 +395,6 @@ company: Seaford Medical Practice
 location: Seaford, BN25 1DH
 source: NHS Jobs
 job_id: nhs-5598736
-reason: No approved Brighton & Hove catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist / Administrator
-company: Brantridge School
-location: Haywards Heath
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-administrator-brantridge-school
 reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 

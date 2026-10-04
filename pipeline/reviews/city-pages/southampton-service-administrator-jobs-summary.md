@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 8
 - automatic review: 34
-- automatic exclude: 15
+- automatic exclude: 16
 - effective include: 8
 - effective review: 34
-- effective exclude: 15
+- effective exclude: 16
 
 ## INCLUDE (8)
 
@@ -530,7 +530,7 @@ job_id: jobg8-2044782
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (15)
+## EXCLUDE (16)
 
 ---
 action: 
@@ -685,6 +685,18 @@ company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 location: Fareham, PO17 6AR
 source: NHS Jobs
 job_id: nhs-5620952
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Site Administrator
+company: Premier Foods - Agency - Permanent
+location: Andover
+source: JobG8
+job_id: jobg8-108065573
 reason: Separate employment market.
 ---
 

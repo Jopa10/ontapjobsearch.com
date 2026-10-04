@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 23
+- automatic review: 22
 - automatic exclude: 0
 - effective include: 3
-- effective review: 23
+- effective review: 22
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: jobg8-2052561
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (23)
+## REVIEW (22)
 
 ---
 action: 
@@ -179,18 +179,6 @@ company: Barr's Hill School
 location: Coventry
 source: Teaching Vacancies
 job_id: teaching-vacancies-exams-officer-barr-s-hill-school
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Fundraising & Supporter Care Co-ordinator
-company: Third Solutions - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-2053812
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

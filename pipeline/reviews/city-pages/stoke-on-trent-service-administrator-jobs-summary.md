@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 25
+- automatic review: 22
 - automatic exclude: 0
 - effective include: 4
-- effective review: 25
+- effective review: 22
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,19 +72,7 @@ job_id: jobg8-1897879
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (25)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Midlands Partnership NHS Foundation Trust
-location: Longton, Stoke on Trent, ST3 4QX
-source: NHS Jobs
-job_id: nhs-5606228
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
+## REVIEW (22)
 
 ---
 action: 
@@ -306,35 +294,11 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: Sales Coordinator
-company: INSTARMAC GROUP - Agency - Permanent
-location: Staffordshire
-source: JobG8
-job_id: jobg8-108062618
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Senior Media Relations Exec
 company: SF Partners - Agency - Permanent
 location: Tamworth
 source: JobG8
 job_id: jobg8-1962053
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Senior Media Relations Executive
-company: Citrus Recruit Ltd - Agency - Permanent
-location: Staffordshire
-source: JobG8
-job_id: jobg8-107966198
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

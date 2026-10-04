@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 38
+- Effective included jobs: 37
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 38
+- automatic include: 37
 - automatic review: 31
 - automatic exclude: 2
-- effective include: 38
+- effective include: 37
 - effective review: 31
 - effective exclude: 2
 
-## INCLUDE (38)
+## INCLUDE (37)
 
 ---
 action: 
@@ -417,18 +417,6 @@ company: The Wilbraham Surgery
 location: Manchester, M21 0UF
 source: NHS Jobs
 job_id: nhs-5634614
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist and Marketing Administrator
-company: Loreto High School Chorlton
-location: Manchester
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-and-marketing-administrator
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -850,7 +838,7 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Lancashire
 source: JobG8
-job_id: jobg8-2062153
+job_id: jobg8-2068983
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 

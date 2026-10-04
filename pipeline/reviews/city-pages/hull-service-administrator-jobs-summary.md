@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 5
+- automatic review: 6
 - automatic exclude: 0
 - effective include: 6
-- effective review: 5
+- effective review: 6
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-1939826
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (5)
+## REVIEW (6)
 
 ---
 action: 
@@ -155,6 +155,18 @@ company: qed legal - Agency - Permanent
 location: Driffield
 source: JobG8
 job_id: jobg8-1905442
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Bookkeeper
+company: KD Recruitment Limited - Agency - Temporary
+location: Bridlington
+source: JobG8
+job_id: jobg8-108066397
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

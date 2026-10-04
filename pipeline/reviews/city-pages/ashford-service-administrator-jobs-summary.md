@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 58
+- automatic review: 60
 - automatic exclude: 0
 - effective include: 2
-- effective review: 58
+- effective review: 60
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: jobg8-2044937
 reason: Exact approved Ashford workplace.
 ---
 
-## REVIEW (58)
+## REVIEW (60)
 
 ---
 action: 
@@ -186,11 +186,35 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Business Support Assistant
+company: Oasis Restore - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-108044308
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Claims Handler
 company: Adjusting Appointments Limited - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-1906608
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Clinical Administrator
+company: Len Valley Practice
+location: Maidstone, ME17 2QF
+source: NHS Jobs
+job_id: nhs-5606943
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 55
+- automatic review: 56
 - automatic exclude: 0
 - effective include: 2
-- effective review: 55
+- effective review: 56
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: teaching-vacancies-receptionist-maternity-cover-the-blue-coat-school-bas
 reason: Exact approved Basingstoke workplace.
 ---
 
-## REVIEW (55)
+## REVIEW (56)
 
 ---
 action: 
@@ -671,6 +671,18 @@ company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 location: Fareham, PO17 6AR
 source: NHS Jobs
 job_id: nhs-5620952
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Site Administrator
+company: Premier Foods - Agency - Permanent
+location: Andover
+source: JobG8
+job_id: jobg8-108065573
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
