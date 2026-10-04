@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-10-03
-review_fingerprint: 6de19247d4ca17e448a49fd73391bd4655fccf30335d499f9fe320696b98d221
-routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
+review_date: 2026-10-04
+review_fingerprint: a36e729dfcd15fe5f9a1098375768959ff20ba46133bd17e2dbfb8b69ebd209e
+routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 10
 - Selected: 1
-- POSS awaiting decision: 2
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 8
 
@@ -37,21 +37,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/key-stage-administrat
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Leicestershire | Loughborough, East Midlands, LE12 6QN | £29,070.00 - £29,070.00 Annually (FTE) | Marketing and Communications Officer
-employer: East Leake Academy
-closing_date: 2026-10-03T23:59:00+01:00
-reason: Borderline school administration title: communications officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a1ca8398b5e4613b00cd53fd29745be109c4a40318e2f9253f3a4e6f0ad1ae7f
-source: Teaching Vacancies
-source_job_id: marketing-and-communications-officer-east-leake-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-and-communications-officer-east-leake-academy
----
 
 ---
 action: 

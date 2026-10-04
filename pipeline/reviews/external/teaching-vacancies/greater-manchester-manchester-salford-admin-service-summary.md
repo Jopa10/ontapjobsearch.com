@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-10-03
-review_fingerprint: d948631b5f39d71449eeeeee5709897e885f20abf58226228dcd790384d5d3ca
-routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
+review_date: 2026-10-04
+review_fingerprint: 9eacbb98ea15671ba591bccca501b027609cf1541734129f63b89985576e544e
+routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 5
+- Records: 10
+- Selected: 4
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 3
@@ -49,21 +49,6 @@ factual_fingerprint: 07db8ef6833c1939ae4b672bbff7739e0f68b4355e9f901a3f38947a3d4
 source: Teaching Vacancies
 source_job_id: office-administrator-and-receptionist-salford-city-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-and-receptionist-salford-city-academy
----
-
----
-action: 
-SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M21 7SW | £22,427 to £29,071 | Receptionist and Marketing Administrator
-employer: Loreto High School Chorlton
-closing_date: 2026-10-04T08:00:00+01:00
-reason: Clear admin/service title: administrator, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b173a63230cc008c534ff747e26e41c65c8218a40eec1ee0ba2d83fe7a0cc52a
-source: Teaching Vacancies
-source_job_id: receptionist-and-marketing-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-marketing-administrator
 ---
 
 ---

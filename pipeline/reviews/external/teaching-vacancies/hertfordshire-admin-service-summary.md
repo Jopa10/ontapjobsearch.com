@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-10-03
-review_fingerprint: 3c045c0332f896469b86018370956d084738f33bcb6e1c5861976a5223b46f54
-routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
+review_date: 2026-10-04
+review_fingerprint: 6806944d5be5ad862affc140fd55c8d3d3f2c91f9c7f2123f3419184276d7493
+routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 7
+- Records: 16
+- Selected: 8
 - POSS awaiting decision: 5
 - Excluded: 0
 - Hard pass: 3
@@ -124,6 +124,21 @@ factual_fingerprint: 494688c903e500d50d4301e6faeb4756358e9452adf554f080e7fa60658
 source: Teaching Vacancies
 source_job_id: part-time-admin-assistant-oxhey-wood-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-admin-assistant-oxhey-wood-primary-school
+---
+
+---
+action: 
+SELECTED | Hertfordshire | St Albans, East of England, AL3 6DR | £23,396.00 - £28,153.00 Annually (Actual) Fringe Allowance included | Reception Administrator & First Aider
+employer: Townsend Church of England School
+closing_date: 2026-10-16T07:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 04f4cfcbd8457a6ac1735186d9f31c12cd981e3575d61009469a1aec8ee3990d
+source: Teaching Vacancies
+source_job_id: reception-administrator-first-aider
+source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-administrator-first-aider
 ---
 
 ## POSS — choose SELECT or EXCLUDE

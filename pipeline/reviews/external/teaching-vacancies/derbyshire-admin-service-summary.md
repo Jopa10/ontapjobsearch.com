@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-10-03
-review_fingerprint: 10e62ac669f2a5650c9f8b542eb67902b9c078a995cc4c1d7d2d564f436eeedc
-routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
+review_date: 2026-10-04
+review_fingerprint: da87716a5a6c004836e59288a88a76f579a40dd6959e1988dd45f567e156f9b2
+routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 4
+- Records: 6
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
@@ -34,21 +34,6 @@ factual_fingerprint: 28f23e40f23db766155de3ddb86ff0c51231c0963346ff1518970030638
 source: Teaching Vacancies
 source_job_id: administrative-assistant-cover-administrator-the-bolsover-school-chesterfield-derbyshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-cover-administrator-the-bolsover-school-chesterfield-derbyshire
----
-
----
-action: 
-SELECTED | Derbyshire | Chesterfield, East Midlands, S43 4QG | Grade 2 £23,420 - £24,553 actual salary per annum (£26,016 - £27,274 FTE) | Administrator with Pastoral Focus
-employer: Heritage High School
-closing_date: 2026-10-04T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4311c040f61280fdea9a3d483407db68e92ec116e994d2be955356e8edb6f628
-source: Teaching Vacancies
-source_job_id: administrator-with-pastoral-focus
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-with-pastoral-focus
 ---
 
 ---

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-10-03
-review_fingerprint: 43226444a5a63e1e031f4f177bbafd755b038dee0ad5c1a0ee68c1a161c01d30
-routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
+review_date: 2026-10-04
+review_fingerprint: 2eb12a084b64458bec6a919df9cdae2c609c2a232c80385326521a0ddd6a4c89
+routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 5
+- Records: 7
+- Selected: 4
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 0
@@ -79,21 +79,6 @@ factual_fingerprint: 39de46b584fd455013eb8763ae991c136035dbcb98c28ecb867bd62f325
 source: Teaching Vacancies
 source_job_id: personal-assistant-to-the-head-teacher-bishop-luffa-school-chichester
 source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-head-teacher-bishop-luffa-school-chichester
----
-
----
-action: 
-SELECTED | Sussex | Haywards Heath, South East, RH17 6EQ | S3 £24,521.84-£26,103.42 (actual salary) - £28,637-£30,484 (FTE) SP (20.1 -23) | Receptionist / Administrator
-employer: Brantridge School
-closing_date: 2026-10-03T23:59:00+01:00
-reason: Clear admin/service title: administrator, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d1bb5d483a654868d540d2e335bc02ce95faace1f819472262b4ea16599293b2
-source: Teaching Vacancies
-source_job_id: receptionist-administrator-brantridge-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-brantridge-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

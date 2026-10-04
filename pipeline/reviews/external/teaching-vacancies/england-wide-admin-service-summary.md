@@ -12,14 +12,14 @@ Edit only the `action:` line in each unresolved block:
 
 ## TOTALS
 
-- All routed roles: **565**
-- REVIEW NOW (LIVE regions): **515**
-- EDITABLE NOW (no remembered action): **514**
+- All routed roles: **563**
+- REVIEW NOW (LIVE regions): **512**
+- EDITABLE NOW (no remembered action): **511**
 - REMEMBERED / RESOLVED: **1**
-- DEFERRED - REGION NOT LIVE: **50**
-- SELECTED: **205**
-- POSS: **51**
-- HARD PASS / EXCLUDED: **259**
+- DEFERRED - REGION NOT LIVE: **51**
+- SELECTED: **200**
+- POSS: **49**
+- HARD PASS / EXCLUDED: **263**
 
 ## BEDFORDSHIRE — SELECTED
 
@@ -471,17 +471,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action:
-SELECTED | Derbyshire | Chesterfield, East Midlands, S43 4QG | Grade 2 £23,420 - £24,553 actual salary per annum (£26,016 - £27,274 FTE) | Administrator with Pastoral Focus
-employer: Heritage High School
-closing_date: 2026-10-04T12:00:00+01:00
-reason: Clear admin/service title: administrator
-factual_fingerprint: 4311c040f61280fdea9a3d483407db68e92ec116e994d2be955356e8edb6f628
-source_job_id: administrator-with-pastoral-focus
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-with-pastoral-focus
----
-
----
-action:
 SELECTED | Derbyshire | Hope Valley, East Midlands, S33 6SD | £26,427.00 - £26,847.00 Annually (FTE) Actual Salary £13,823 - £14,043 | Receptionist
 employer: Hope Valley College
 closing_date: 2026-10-11T23:59:00+01:00
@@ -847,17 +836,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ---
 action:
-SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M21 7SW | £22,427 to £29,071 | Receptionist and Marketing Administrator
-employer: Loreto High School Chorlton
-closing_date: 2026-10-04T08:00:00+01:00
-reason: Clear admin/service title: administrator, receptionist
-factual_fingerprint: b173a63230cc008c534ff747e26e41c65c8218a40eec1ee0ba2d83fe7a0cc52a
-source_job_id: receptionist-and-marketing-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-marketing-administrator
----
-
----
-action:
 SELECTED | Greater Manchester - Manchester & Salford | Salford, North West, M6 6QT | £24,965.00 - £30,113.00 Annually (Actual) Additional payments for lunch duties | SEND Administrator
 employer: The Albion Academy
 closing_date: 2026-10-05T09:00:00+01:00
@@ -1072,6 +1050,17 @@ source_job_id: part-time-admin-assistant-oxhey-wood-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-admin-assistant-oxhey-wood-primary-school
 ---
 
+---
+action:
+SELECTED | Hertfordshire | St Albans, East of England, AL3 6DR | £23,396.00 - £28,153.00 Annually (Actual) Fringe Allowance included | Reception Administrator & First Aider
+employer: Townsend Church of England School
+closing_date: 2026-10-16T07:00:00+01:00
+reason: Clear admin/service title: administrator
+factual_fingerprint: 04f4cfcbd8457a6ac1735186d9f31c12cd981e3575d61009469a1aec8ee3990d
+source_job_id: reception-administrator-first-aider
+source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-administrator-first-aider
+---
+
 ## HERTFORDSHIRE — POSSIBLES
 
 ---
@@ -1193,17 +1182,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/key-stage-administrat
 ---
 
 ## LEICESTERSHIRE — POSSIBLES
-
----
-action:
-POSS | Leicestershire | Loughborough, East Midlands, LE12 6QN | £29,070.00 - £29,070.00 Annually (FTE) | Marketing and Communications Officer
-employer: East Leake Academy
-closing_date: 2026-10-03T23:59:00+01:00
-reason: Borderline school administration title: communications officer
-factual_fingerprint: a1ca8398b5e4613b00cd53fd29745be109c4a40318e2f9253f3a4e6f0ad1ae7f
-source_job_id: marketing-and-communications-officer-east-leake-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/marketing-and-communications-officer-east-leake-academy
----
 
 ---
 action:
@@ -1341,17 +1319,6 @@ reason: Clear admin/service title: administration assistant
 factual_fingerprint: cd08aac3b7776c6126ca32fea0512dd3ae4859453adf7bbb2a81da46eeaaa058
 source_job_id: administration-assistant-hawes-down-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-hawes-down-primary-school
----
-
----
-action:
-SELECTED | London | Orpington, London, BR5 3HS | £22,124 | Administrative Assistant
-employer: Riverside School
-closing_date: 2026-10-04T12:00:00+01:00
-reason: Clear admin/service title: administrative assistant
-factual_fingerprint: bcfc59be1def969cf37d4d1de1a707bcfbc301fbbc6b8965cd9738aba041032f
-source_job_id: administrative-assistant-riverside-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-riverside-school
 ---
 
 ---
@@ -1998,16 +1965,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-admi
 
 ## OXFORDSHIRE — POSSIBLES
 
----
-action:
-POSS | Oxfordshire | Oxford, South East, OX2 7WP | £26,824.00 - £29,065.00 Annually (FTE) Grade 6, term-time only + INSET days, 10.5 to 14 hours per week | Data Assistant
-employer: The Swan School
-closing_date: 2026-10-12T08:00:00+01:00
-reason: Administrative duties evidenced in description
-factual_fingerprint: e3cbb83628cf44c680fd71fec088735a492051d60e33f99cb521b9ac3735f4dc
-source_job_id: data-assistant-the-swan-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-assistant-the-swan-school
----
+_No jobs in this group._
 
 ## SHROPSHIRE — SELECTED
 
@@ -2107,9 +2065,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-a5af835
 action:
 SELECTED | Somerset | Bridgwater, South West, TA6 4QY | Support Staff Pay Scale Band3b Point 4 | Receptionist and Admin Assistant
 employer: Bridgwater College Academy
-closing_date: 2026-10-08T23:59:00+01:00
+closing_date: 2026-10-05T23:59:00+01:00
 reason: Clear admin/service title: admin assistant, receptionist
-factual_fingerprint: 8a6e1e18a88104176ea9119f1a4c3fe493d417b48ee0c650ca92f838db22941d
+factual_fingerprint: eeb2b1ff6191998495ccab05f9ec0829f7196abf649b28e15c1bda210ddbfb97
 source_job_id: receptionist-and-admin-assistant-bridgwater-college-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admin-assistant-bridgwater-college-academy
 ---
@@ -2168,28 +2126,6 @@ reason: Clear admin/service title: admin assistant
 factual_fingerprint: e48a23a54dd91777ee55e6dae005edbea7fb12d3e7804628080e22aa0e86df01
 source_job_id: admin-assistant-castle-east-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-castle-east-school
----
-
----
-action:
-SELECTED | Suffolk | Woodbridge, East of England, IP12 3RE | £25,614.00 Annually (FTE) Grade 2, Point 3 | Admin Assistant
-employer: Hollesley Primary School
-closing_date: 2026-10-09T23:59:00+01:00
-reason: Clear admin/service title: admin assistant
-factual_fingerprint: b1134e4c75df1df9f21e6aad7a8eadbfd7507b09caaa27396942a7076f0d5c70
-source_job_id: admin-assistant-hollesley-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-hollesley-primary-school
----
-
----
-action:
-SELECTED | Suffolk | Woodbridge, East of England, IP12 4QL | £25,614.00 Annually (FTE) Grade 2, Point 3 | Admin Assistant
-employer: Waldringfield Primary School
-closing_date: 2026-10-09T23:59:00+01:00
-reason: Clear admin/service title: admin assistant
-factual_fingerprint: 7ca249e18f059c9632d366584b38d805dceb3e3f4eb6ed738d2d33261d8ee5e7
-source_job_id: admin-assistant-waldringfield-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-waldringfield-primary-school
 ---
 
 ---
@@ -2312,17 +2248,6 @@ reason: Clear admin/service title: personal assistant
 factual_fingerprint: 39de46b584fd455013eb8763ae991c136035dbcb98c28ecb867bd62f325a0d97
 source_job_id: personal-assistant-to-the-head-teacher-bishop-luffa-school-chichester
 source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-head-teacher-bishop-luffa-school-chichester
----
-
----
-action:
-SELECTED | Sussex | Haywards Heath, South East, RH17 6EQ | S3 £24,521.84-£26,103.42 (actual salary) - £28,637-£30,484 (FTE) SP (20.1 -23) | Receptionist / Administrator
-employer: Brantridge School
-closing_date: 2026-10-03T23:59:00+01:00
-reason: Clear admin/service title: administrator, receptionist
-factual_fingerprint: d1bb5d483a654868d540d2e335bc02ce95faace1f819472262b4ea16599293b2
-source_job_id: receptionist-administrator-brantridge-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-brantridge-school
 ---
 
 ## SUSSEX — POSSIBLES
@@ -3048,12 +2973,12 @@ These roles remain visible in the CSV but are not individually marked until the 
 |---|---:|---:|---:|---:|
 | Cumbria - South / admin_service | 1 | 1 | 0 | 0 |
 | Cumbria - West / admin_service | 1 | 0 | 0 | 1 |
-| East Midlands / admin_service | 8 | 1 | 1 | 6 |
-| Greater Manchester - North / admin_service | 11 | 7 | 1 | 3 |
+| East Midlands / admin_service | 9 | 1 | 2 | 6 |
+| Greater Manchester - North / admin_service | 12 | 7 | 1 | 4 |
 | Lancashire - Central / admin_service | 4 | 2 | 0 | 2 |
 | Lancashire - East / admin_service | 5 | 2 | 0 | 3 |
 | Merseyside - St Helens & Knowsley / admin_service | 1 | 1 | 0 | 0 |
 | North East - Tees Valley / admin_service | 12 | 4 | 2 | 6 |
-| South West / admin_service | 4 | 2 | 0 | 2 |
+| South West / admin_service | 3 | 2 | 0 | 1 |
 | Wales South -gwent / admin_service | 1 | 0 | 0 | 1 |
 | West Midlands / admin_service | 2 | 1 | 0 | 1 |

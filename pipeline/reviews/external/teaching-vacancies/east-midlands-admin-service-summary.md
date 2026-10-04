@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-10-03
-review_fingerprint: 1889b639ec4c4f38b8e98b0f55f2bb1104b186718a2e41f379b48e161c06d3c6
-routing_manifest_sha256: 603d88528c60e2e5cd890f9b6ed18d46d6e9bfa46554a7b4a7de8f6d6c5f9c52
+review_date: 2026-10-04
+review_fingerprint: 8267ef0049d08b23d0cec5297ec5a83cf4c5c8d9af7861c25932db1efb8f77bd
+routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 9
 - Selected: 1
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 6
 
@@ -37,6 +37,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-offi
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | East Midlands | Derby, DE22 1GB | £18,000.00 Annually (Actual) | Business Administration Apprentice Level 3
+employer: Embark Multi Academy Trust
+closing_date: 2026-10-09T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 989ea8200fd98b456c27ff8bca1e912d02c03f0c1827ecb15b1fcb2d7c320c8d
+source: Teaching Vacancies
+source_job_id: business-administration-apprentice-level-3-embark-multi-academy-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprentice-level-3-embark-multi-academy-trust
+---
 
 ---
 action: 
