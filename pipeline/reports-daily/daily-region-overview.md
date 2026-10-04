@@ -1,6 +1,6 @@
 # Ontap daily regional overview
 
-Generated: 2026-10-04T09:17:44+01:00
+Generated: 2026-10-04T13:41:19+01:00
 
 [Download this overview as Excel](./daily-region-overview.xlsx)
 
@@ -8,16 +8,16 @@ Generated: 2026-10-04T09:17:44+01:00
 
 | Measure | Count |
 |---|---:|
-| Unique live jobs | 2,013 |
+| Unique live jobs | 2,011 |
 | Unique JobG8 jobs | 1,606 |
-| Unique non-JobG8 jobs | 407 |
-| Regional/category slice placements | 2,373 |
+| Unique non-JobG8 jobs | 405 |
+| Regional/category slice placements | 2,371 |
 | Jobs appearing on multiple slices | 360 |
 | Extra slice placements | 360 |
 | Unique jobs outside governed slices | 0 |
 | Jobs found in non-LIVE slices | 0 |
 
-**Reconciliation: 2,013 unique jobs + 360 extra slice placements = 2,373 regional/category slice placements.**
+**Reconciliation: 2,011 unique jobs + 360 extra slice placements = 2,371 regional/category slice placements.**
 
 Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-10-03.csv` — **STALE — CSV says 2,040 for 2026-10-03**.
 
@@ -27,7 +27,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-10-0
 |---|---:|---:|---:|
 | JobG8 | 1,606 | 360 | 360 |
 | NHS Jobs | 205 | 0 | 0 |
-| Teaching Vacancies | 202 | 0 | 0 |
+| Teaching Vacancies | 200 | 0 | 0 |
 
 ## JOBG8 FEED RECEIVED
 
@@ -282,7 +282,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-10-0
 
 ## CITY OPPORTUNITIES
 
-**353 mapped towns/localities with live jobs or an existing city page.** Counts use all 2,013 unique live Ontap jobs across every role and provider: 1,069 have an exact recognised town/locality and 944 have only broader or unrecognised location evidence. CREATE means 4+ current Service Admin jobs and no existing city page; London is held separately.
+**353 mapped towns/localities with live jobs or an existing city page.** Counts use all 2,011 unique live Ontap jobs across every role and provider: 1,067 have an exact recognised town/locality and 944 have only broader or unrecognised location evidence. CREATE means 4+ current Service Admin jobs and no existing city page; London is held separately.
 
 | Status | Town/city/locality | Region | All live jobs | Existing pages | Current routes | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre | Other / unclassified |
 |---|---|---|---:|---:|---||---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -301,7 +301,6 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-10-0
 | CREATE | Taunton | Somerset | 5 | 0 |  | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | CREATE | Widnes | Cheshire - Warrington & Halton | 5 | 0 |  | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | CREATE | Arbroath | Scotland Central - Tayside | 4 | 0 |  | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| CREATE | Chesterfield | Derbyshire | 4 | 0 |  | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | CREATE | Forfar | Scotland Central - Tayside | 4 | 0 |  | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | CREATE | Frodsham | Cheshire - West | 4 | 0 |  | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | CREATE | Hertford | Hertfordshire | 4 | 0 |  | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -375,8 +374,8 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-10-0
 | LIVE PAGE | Shrewsbury |  | 0 | 1 | /shrewsbury/service-administrator-jobs | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Wigston |  | 0 | 1 | /wigston/service-administrator-jobs | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | HOLD – LONDON | Croydon | London | 7 | 0 |  | 3 | 0 | 1 | 0 | 1 | 1 | 1 | 0 | 0 |
-| HOLD – LONDON | Orpington | London | 6 | 0 |  | 5 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
 | HOLD – LONDON | Bromley | London | 5 | 0 |  | 2 | 0 | 0 | 1 | 0 | 2 | 0 | 0 | 0 |
+| HOLD – LONDON | Orpington | London | 5 | 0 |  | 4 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
 | HOLD – LONDON | Uxbridge | London | 5 | 0 |  | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | HOLD – LONDON | Barnet | London | 4 | 0 |  | 2 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 |
 | HOLD – LONDON | Beckenham | London | 4 | 0 |  | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -428,6 +427,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-10-0
 | MONITOR | Alton | Hampshire | 3 | 0 |  | 0 | 2 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
 | MONITOR | Boston | Lincolnshire | 3 | 0 |  | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Cheltenham | Gloucestershire | 3 | 0 |  | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| MONITOR | Chesterfield | Derbyshire | 3 | 0 |  | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Chichester | Sussex | 3 | 0 |  | 1 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Crawley | Sussex | 3 | 0 |  | 0 | 0 | 0 | 0 | 0 | 3 | 0 | 0 | 0 |
 | MONITOR | Crewe | Cheshire - East | 3 | 0 |  | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -658,7 +658,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-10-0
 | Cumbria - North |  |  |  |  |  |  |  |  |
 | Cumbria - South |  | 2 |  |  |  |  |  |  |
 | Cumbria - West |  |  |  |  |  |  |  |  |
-| Derbyshire | 10 |  |  |  |  |  |  |  |
+| Derbyshire | 9 |  |  |  |  |  |  |  |
 | Devon | 36 |  | 1 |  |  | CHECK |  |  |
 | Dorset | 18 |  |  |  |  | CHECK |  |  |
 | Essex | 64 |  |  | 17 | 6 | 11 |  |  |
@@ -678,7 +678,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-10-0
 | Lancashire - West |  |  |  |  |  |  |  |  |
 | Leicestershire | 14 |  |  |  |  | CHECK |  |  |
 | Lincolnshire | 18 |  |  |  |  |  |  |  |
-| London | 245 | 6 | 16 | 74 | 112 | 46 | 39 | CHECK |
+| London | 244 | 6 | 16 | 74 | 112 | 46 | 39 | CHECK |
 | Merseyside - Liverpool | 16 |  |  | 5 | 6 |  |  |  |
 | Merseyside - Sefton |  |  |  |  |  |  |  |  |
 | Merseyside - St Helens & Knowsley |  |  |  |  |  |  |  |  |
@@ -815,6 +815,6 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-10-0
 | Measure | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Live regions | 52 / 78 | 11 / 78 | 14 / 78 | 13 / 78 | 22 / 78 | 36 / 78 | 9 / 78 | 6 / 78 |
-| Live slice placements | 1470 | 75 | 54 + 1 CHECK | 203 | 274 | 225 + 16 CHECK | 72 + 1 CHECK | 0 + 6 CHECK |
+| Live slice placements | 1468 | 75 | 54 + 1 CHECK | 203 | 274 | 225 + 16 CHECK | 72 + 1 CHECK | 0 + 6 CHECK |
 
 **Live slices: 163 / 624.**
