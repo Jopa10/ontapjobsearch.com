@@ -1,12 +1,12 @@
 ﻿metric,value
-total rows input,20000
-total rows included,1023
-total rows dropped,18909
+total rows input,19953
+total rows included,1018
+total rows dropped,18866
 title classification count - HIGH_CONFIDENCE,967
-title classification count - ELASTIC_FIT,312
+title classification count - ELASTIC_FIT,309
 title classification count - REVIEW_CONTEXT_DEPENDENT,1
-title classification count - HARD_PASS,11225
-title classification count - OUT_OF_SCOPE,7495
+title classification count - HARD_PASS,11213
+title classification count - OUT_OF_SCOPE,7463
 selection scenario - Yorkshire - West,SCENARIO_3_FULL_VALID_SELECTION
 selection message - Yorkshire - West,"Yorkshire - West selection complete: all 34 valid selected role(s) retained after HIGH_CONFIDENCE, Leeds ELASTIC_FIT and other ELASTIC_FIT ordering."
 credible total - Yorkshire - West,34
@@ -32,21 +32,21 @@ other elastic count - North East,6
 total rows output - North East,20
 job_id included - North East,1927962; 23643_225599266; 1937180; 1986474; 1882063; 2018008; 2017987; 2042404; 1888837; 2037066; 2039768; 23643_225656711; 2045387; 2044922; 1906595; 1897065; 108070538; 2063502; 2055201; 108026899
 selection scenario - London,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - London,London manual_select applied additively: 7 row(s) prioritised; 183 selected.
-credible total - London,183
-high confidence count - London,133
-anchor elastic count - London,38
+selection message - London,London manual_select applied additively: 7 row(s) prioritised; 179 selected.
+credible total - London,179
+high confidence count - London,131
+anchor elastic count - London,36
 other elastic count - London,10
-total rows output - London,183
-job_id included - London,1950111; 1870150; 1932860; 1928798; 1991832; 1875826; 1869765; 1866557; 1866551; 1877370; 1900094; 1900196; 1900195; 1916292; 1938869; 1945507; 1944954; 1943757; 1955978; 1958875; 1959570; 1957716; 1959326; 1957582; 1954983; 1949356; 1937736; 1916171; 1916099; 1912765; 1908347; 1906192; 1905111; 1905135; 1899875; 1985954; 1986167; 1983372; 1978191; 1975847; 1975846; 1892113; 1890968; 1890773; 1889004; 1882398; 1882394; 1882836; 1882895; 1881364; 1882162; 1882160; 1990933; 2018061; 2017648; 2021649; 2021465; 2022135; 2022318; 2021750; 2024856; 2024818; 2024706; 2028491; 2027897; 2028899; 2031679; 2036906; 2039917; 2039817; 2039815; 2039260; 2039256; 2043381; 2042120; 2042376; 2042271; 2040994; 2040993; 2041611; 2044958; 2045543; 2047627; 2050265; 2048946; 2048668; 2049622; 2051874; 2057230; 2056784; 2056869; 2056592; 2056432; 2056421; 2018652; 2057397; 2055694; 2050069; 2037341; 2060172; 465115401695107481637341; 2060937; 2063583; 2063172; 2067764; 1867034; 1883492; 1883635; 1893784; 1899979; 1945599; 1949620; 1907083; 1906621; 1906607; 1977528; 1889267; 1990424; 2024865; 2027893; 107862803; 2045914; 2045086; 2048185; 2058008; 1895876; 2058112; 2056852; 2052087; 2045895; 2045361; 2045242; 2039778; 2060328; 2060324; 2059678; 2068013; 2067792; 2067754; 2068501; 1891809; 1979293; 1870539; 2024385; 2037046; 1873546; 1869601; 2043513; 1869126; 1909993; 1912387; 1928419; 1996179; 2049218; 1914688; 2018013; 1905109; 2041002; 1980233; 2057479; 1976692; 1976427; 2021678; 2021751; 2026411; 2051266; 1896626; 2058524; 1954977; 2045956; 2063305; 2063293; 2063326; 1905302; 1961156; 2036367; 2049135; 1913442; 2057351; 2043156; 2045014; 2056474; 1991052
+total rows output - London,179
+job_id included - London,1950111; 1870150; 1932860; 1928798; 1991832; 1875826; 1869765; 1866557; 1866551; 1877370; 1900094; 1900196; 1900195; 1916292; 1938869; 1945507; 1944954; 1943757; 1955978; 1958875; 1959570; 1957716; 1959326; 1957582; 1954983; 1949356; 1937736; 1916171; 1916099; 1912765; 1908347; 1906192; 1905111; 1905135; 1899875; 1985954; 1986167; 1983372; 1978191; 1975847; 1975846; 1892113; 1890968; 1890773; 1889004; 1882398; 1882394; 1882836; 1882895; 1881364; 1882162; 1882160; 1990933; 2018061; 2017648; 2021649; 2021465; 2022135; 2022318; 2021750; 2024856; 2024818; 2024706; 2028491; 2027897; 2028899; 2031679; 2036906; 2039917; 2039817; 2039815; 2039260; 2039256; 2043381; 2042120; 2042376; 2042271; 2040994; 2040993; 2041611; 2044958; 2045543; 2047627; 2050265; 2048946; 2048668; 2049622; 2051874; 2057230; 2056784; 2056869; 2056592; 2056432; 2056421; 2018652; 2057397; 2055694; 2050069; 2037341; 2060172; 2060937; 2063583; 2063172; 1867034; 1883492; 1883635; 1893784; 1899979; 1945599; 1949620; 1907083; 1906621; 1906607; 1977528; 1889267; 1990424; 2024865; 2027893; 107862803; 2045914; 2045086; 2048185; 2058008; 1895876; 2058112; 2056852; 2052087; 2045895; 2045361; 2045242; 2039778; 2060328; 2060324; 2059678; 2068013; 2068501; 1891809; 1979293; 1870539; 2024385; 2037046; 1873546; 1869601; 2043513; 1869126; 1909993; 1912387; 1928419; 1996179; 2049218; 1914688; 2018013; 1905109; 2041002; 1980233; 2057479; 1976692; 1976427; 2021678; 2021751; 2026411; 2051266; 1896626; 2058524; 1954977; 2045956; 2063305; 2063293; 2063326; 1905302; 1961156; 2036367; 2049135; 1913442; 2057351; 2043156; 2045014; 2056474; 1991052
 selection scenario - Hampshire,SCENARIO_3_FULL_VALID_SELECTION
-selection message - Hampshire,"Hampshire selection complete: all 39 valid selected role(s) retained after HIGH_CONFIDENCE, Southampton ELASTIC_FIT and other ELASTIC_FIT ordering."
-credible total - Hampshire,39
-high confidence count - Hampshire,28
+selection message - Hampshire,"Hampshire selection complete: all 40 valid selected role(s) retained after HIGH_CONFIDENCE, Southampton ELASTIC_FIT and other ELASTIC_FIT ordering."
+credible total - Hampshire,40
+high confidence count - Hampshire,29
 anchor elastic count - Hampshire,0
 other elastic count - Hampshire,11
-total rows output - Hampshire,39
-job_id included - Hampshire,1881197; 1871498; 1905563; 1939433; 1937622; 1935606; 1916052; 1899341; 1893259; 1884468; 1881998; 1881715; 1882281; 2028253; 2034581; 108043893; 2036481; 2035911; 2042564; 2046127; 2046029; 2045918; 2045627; 2044543; 2050139; 2055352; 2014390; 2049995; 2043400; 2045880; 357999054771820953637341; 357999054771820953637340; 2059451; 2057274; 2056769; 2053237; 2044782; 2064051; 2062579
+total rows output - Hampshire,40
+job_id included - Hampshire,1881197; 1871498; 1905563; 1939433; 1937622; 1935606; 1916052; 1899341; 1893259; 1884468; 1881998; 1881715; 1882281; 2028253; 2034581; 108043893; 2036481; 2035911; 2042564; 2046127; 2046029; 2045918; 2045627; 2044543; 2050139; 2055352; 2014390; 2049995; 108065573; 2043400; 2045880; 357999054771820953637341; 357999054771820953637340; 2059451; 2057274; 2056769; 2053237; 2044782; 2064051; 2062579
 selection scenario - Surrey,SCENARIO_3_MANUAL_SELECTION_APPLIED
 selection message - Surrey,Surrey manual_select applied additively: 1 row(s) prioritised; 39 selected.
 credible total - Surrey,39
@@ -64,21 +64,21 @@ other elastic count - Kent,6
 total rows output - Kent,28
 job_id included - Kent,1875398; 1881213; 1909971; 1950202; 1957722; 1896084; 1976461; 1889334; 2013798; 2024535; 2028629; 2026057; 2043499; 2043028; 2046101; 2044937; 2045801; 2057135; 2055118; 2059657; 23643_225681004; 108044308; 1906608; 2044917; 2049013; 2052913; 2055597; 2064424
 selection scenario - Sussex,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - Sussex,Sussex manual_select applied additively: 1 row(s) prioritised; 33 selected.
-credible total - Sussex,33
-high confidence count - Sussex,26
+selection message - Sussex,Sussex manual_select applied additively: 1 row(s) prioritised; 35 selected.
+credible total - Sussex,35
+high confidence count - Sussex,28
 anchor elastic count - Sussex,0
 other elastic count - Sussex,6
-total rows output - Sussex,33
-job_id included - Sussex,1894808; 1883284; 107985976; 1934337; 1908468; 108005260; 1986831; 1892720; 1886080; 1881796; 1992013; 1996535; 2013599; 2021499; 2028278; 2027321; 2037053; 2036123; 2039380; 2043392; 2045548; 2044482; 2052067; 2056847; 2038040; 2063288; 2063701; 1910463; 1957536; 2034128; 2050401; 2056867; 107954542
+total rows output - Sussex,35
+job_id included - Sussex,1894808; 1883284; 107985976; 1934337; 1908468; 108005260; 1986831; 1892720; 1886080; 1881796; 1992013; 1996535; 2013599; 2021499; 2028278; 2027321; 2037053; 2036123; 2039380; 2043392; 2045548; 2044482; 2052067; 2056847; 2038040; 2063288; 2063701; 2069694; 714515638230659891237340; 1910463; 1957536; 2034128; 2050401; 2056867; 107954542
 selection scenario - West Midlands - Coventry & Warwickshire,SCENARIO_3_FULL_VALID_SELECTION
-selection message - West Midlands - Coventry & Warwickshire,"West Midlands - Coventry & Warwickshire selection complete: all 18 valid selected role(s) retained after HIGH_CONFIDENCE, Coventry ELASTIC_FIT and other ELASTIC_FIT ordering."
-credible total - West Midlands - Coventry & Warwickshire,18
+selection message - West Midlands - Coventry & Warwickshire,"West Midlands - Coventry & Warwickshire selection complete: all 17 valid selected role(s) retained after HIGH_CONFIDENCE, Coventry ELASTIC_FIT and other ELASTIC_FIT ordering."
+credible total - West Midlands - Coventry & Warwickshire,17
 high confidence count - West Midlands - Coventry & Warwickshire,14
 anchor elastic count - West Midlands - Coventry & Warwickshire,0
-other elastic count - West Midlands - Coventry & Warwickshire,4
-total rows output - West Midlands - Coventry & Warwickshire,18
-job_id included - West Midlands - Coventry & Warwickshire,1912273; 1916611; 1915624; 1915604; 1979923; 1881935; 2024649; 2046750; 2049188; 2049443; 2049448; 2049322; 2049236; 2059104; 1916346; 2053812; 2056680; 2052561
+other elastic count - West Midlands - Coventry & Warwickshire,3
+total rows output - West Midlands - Coventry & Warwickshire,17
+job_id included - West Midlands - Coventry & Warwickshire,1912273; 1916611; 1915624; 1915604; 1979923; 1881935; 2024649; 2046750; 2049188; 2049443; 2049448; 2049322; 2049236; 2059104; 1916346; 2056680; 2052561
 selection scenario - Bedfordshire,SCENARIO_3_FULL_VALID_SELECTION
 selection message - Bedfordshire,"Bedfordshire selection complete: all 13 valid selected role(s) retained after HIGH_CONFIDENCE, Bedford ELASTIC_FIT and other ELASTIC_FIT ordering."
 credible total - Bedfordshire,13
@@ -98,11 +98,11 @@ job_id included - Berkshire,1881192; 1915529; 1916338; 1916330; 1916328; 1947035
 selection scenario - Bristol & Bath,SCENARIO_3_MANUAL_SELECTION_APPLIED
 selection message - Bristol & Bath,Bristol & Bath manual_select applied additively: 1 row(s) prioritised; 23 selected.
 credible total - Bristol & Bath,23
-high confidence count - Bristol & Bath,18
-anchor elastic count - Bristol & Bath,5
+high confidence count - Bristol & Bath,17
+anchor elastic count - Bristol & Bath,6
 other elastic count - Bristol & Bath,0
 total rows output - Bristol & Bath,23
-job_id included - Bristol & Bath,1868067; 1928078; 1935128; 1895650; 1981180; 1884559; 1991466; 1990884; 2024392; 2028810; 2042684; 2045193; 2049001; 2048221; 2057330; 1960385; 1908350; 1976146; 2067696; 2020842; 2028381; 2027908; 2049154
+job_id included - Bristol & Bath,1868067; 1928078; 1935128; 1895650; 1884559; 1991466; 1990884; 2024392; 2028810; 2042684; 2045193; 2049001; 2048221; 2057330; 1960385; 1908350; 1976146; 2067696; 28025_JR99; 2020842; 2028381; 2027908; 2049154
 selection scenario - Buckinghamshire,SCENARIO_3_MANUAL_SELECTION_APPLIED
 selection message - Buckinghamshire,Buckinghamshire manual_select applied additively: 1 row(s) prioritised; 24 selected.
 credible total - Buckinghamshire,24
@@ -168,21 +168,21 @@ other elastic count - Devon,2
 total rows output - Devon,14
 job_id included - Devon,1881200; 1881199; 1908676; 1912271; 1911900; 1959379; 1990881; 1991665; 107875971; 2041166; 2045343; 108060887; 108059822; 2062986
 selection scenario - Dorset,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - Dorset,Dorset manual_select applied additively: 2 row(s) prioritised; 14 selected.
-credible total - Dorset,14
+selection message - Dorset,Dorset manual_select applied additively: 2 row(s) prioritised; 13 selected.
+credible total - Dorset,13
 high confidence count - Dorset,9
 anchor elastic count - Dorset,0
-other elastic count - Dorset,4
-total rows output - Dorset,14
-job_id included - Dorset,1957010; 23643_225649037; 1885467; 1881711; 2013522; 107765584; 108069104; 2062918; 2063324; 2064846; 107992811; 23643_225635774; 2041792; 108024705
+other elastic count - Dorset,3
+total rows output - Dorset,13
+job_id included - Dorset,1957010; 23643_225649037; 1885467; 1881711; 2013522; 107765584; 108069104; 2062918; 2063324; 2064846; 107992811; 23643_225635774; 2041792
 selection scenario - Essex,SCENARIO_3_FULL_VALID_SELECTION
-selection message - Essex,"Essex selection complete: all 48 valid selected role(s) retained after HIGH_CONFIDENCE, Chelmsford ELASTIC_FIT and other ELASTIC_FIT ordering."
-credible total - Essex,48
-high confidence count - Essex,35
+selection message - Essex,"Essex selection complete: all 46 valid selected role(s) retained after HIGH_CONFIDENCE, Chelmsford ELASTIC_FIT and other ELASTIC_FIT ordering."
+credible total - Essex,46
+high confidence count - Essex,33
 anchor elastic count - Essex,0
 other elastic count - Essex,13
-total rows output - Essex,48
-job_id included - Essex,1869539; 1874129; 1873301; 1867994; 1938449; 1938448; 1938384; 1938382; 1938381; 1938377; 1944877; 1949650; 1956210; 1912843; 1981046; 1977124; 1882257; 1882194; 2031869; 2039773; 2040153; 2043659; 2048232; 2053042; 2051899; 2051567; 2051565; 2051564; 2051553; 745249606439062732837341; 745249606439062732837340; 2057165; 2056732; 2056509; 2052023; 1870036; 1869162; 1894182; 1906606; 1889522; 2048936; 2048787; 2048782; 414872248919261184037341; 414872248919261184037340; 2055778; 2048720; 2045178
+total rows output - Essex,46
+job_id included - Essex,1869539; 1874129; 1873301; 1867994; 1938449; 1938448; 1938384; 1938382; 1938381; 1938377; 1944877; 1949650; 1956210; 1912843; 1981046; 1977124; 1882257; 1882194; 2031869; 2039773; 2040153; 2043659; 2048232; 2053042; 2051899; 2051567; 2051565; 2051564; 2051553; 2057165; 2056732; 2056509; 2052023; 1870036; 1869162; 1894182; 1906606; 1889522; 2048936; 2048787; 2048782; 414872248919261184037341; 414872248919261184037340; 2055778; 2048720; 2045178
 selection scenario - Gloucestershire,SCENARIO_3_FULL_VALID_SELECTION
 selection message - Gloucestershire,"Gloucestershire selection complete: all 18 valid selected role(s) retained after HIGH_CONFIDENCE, Gloucester ELASTIC_FIT and other ELASTIC_FIT ordering."
 credible total - Gloucestershire,18
@@ -280,13 +280,13 @@ other elastic count - Northern Ireland - East,0
 total rows output - Northern Ireland - East,9
 job_id included - Northern Ireland - East,1985619; 1985568; 1982785; 2045517; 2045513; 2059061; 107952610; 108056565; 1916549
 selection scenario - Nottinghamshire,SCENARIO_3_MANUAL_SELECTION_APPLIED
-selection message - Nottinghamshire,Nottinghamshire manual_select applied additively: 1 row(s) prioritised; 10 selected.
-credible total - Nottinghamshire,10
-high confidence count - Nottinghamshire,9
+selection message - Nottinghamshire,Nottinghamshire manual_select applied additively: 1 row(s) prioritised; 11 selected.
+credible total - Nottinghamshire,11
+high confidence count - Nottinghamshire,10
 anchor elastic count - Nottinghamshire,0
 other elastic count - Nottinghamshire,1
-total rows output - Nottinghamshire,10
-job_id included - Nottinghamshire,1961154; 1865237; 1869293; 1900221; 2028336; 2050281; 23643_225668106; 2056728; 107964483; 2021344
+total rows output - Nottinghamshire,11
+job_id included - Nottinghamshire,108072938; 1961154; 1865237; 1869293; 1900221; 2028336; 2050281; 23643_225668106; 2056728; 107964483; 2021344
 selection scenario - Oxfordshire,SCENARIO_3_MANUAL_SELECTION_APPLIED
 selection message - Oxfordshire,Oxfordshire manual_select applied additively: 2 row(s) prioritised; 14 selected.
 credible total - Oxfordshire,14
@@ -320,13 +320,13 @@ other elastic count - Scotland Central - Tayside,0
 total rows output - Scotland Central - Tayside,20
 job_id included - Scotland Central - Tayside,20279_62587-73862c8b83139033e4e4a8b6efca9a33; 20279_62587-89740a075c6163b74ea2c52702062e5d; 20279_62587-d24d3d6916a209e15b1680693740da2f; 20279_62587-153faf593eb64b88272f45adeaa28d87; 20279_62587-bfc8f1e6df89e3f82c401f5fd9bfa1f6; 20279_62587-66c703e3bd600def438c57a9957e4f6c; 20279_62587-cec6ad1c58e7d10254c15b1f63dc1f61; 20279_62587-8198db7b495b0167f0e25320a311b48c; 20279_62587-84ef7407a6e6c9814d3e8a213e3d352f; 20279_62587-85bda5f69968db009ec735a538b82aa3; 20279_62587-c71691d03ce30740b3ef4939f7f8240a; 20279_62587-e30d0db916659b1c87d6af5c544ebdc1; 20279_62587-66488da6cf6cbf418f6a1f59512162a2; 20279_62587-877ff895dbc10af556a038d2b7991c58; 20279_62587-104600f28dfa5a7196274b0564e9e1a5; 20279_62587-5b04a622d16faab24418c418c50f5cf9; 20279_62587-c101b319bc137225fafa61aeaba6dc30; 20279_62587-cf4f5be59d0aa6d4c0abf6ce35bb6463; 20279_62587-c98305d276b3c0d4f253880a905d8860; 20279_62587-22836ab78f967a50ab83122179a7cae7
 selection scenario - Scotland West - Glasgow,SCENARIO_3_FULL_VALID_SELECTION
-selection message - Scotland West - Glasgow,"Scotland West - Glasgow selection complete: all 14 valid selected role(s) retained after HIGH_CONFIDENCE, Glasgow ELASTIC_FIT and other ELASTIC_FIT ordering."
-credible total - Scotland West - Glasgow,14
-high confidence count - Scotland West - Glasgow,9
+selection message - Scotland West - Glasgow,"Scotland West - Glasgow selection complete: all 13 valid selected role(s) retained after HIGH_CONFIDENCE, Glasgow ELASTIC_FIT and other ELASTIC_FIT ordering."
+credible total - Scotland West - Glasgow,13
+high confidence count - Scotland West - Glasgow,8
 anchor elastic count - Scotland West - Glasgow,4
 other elastic count - Scotland West - Glasgow,1
-total rows output - Scotland West - Glasgow,14
-job_id included - Scotland West - Glasgow,1962298; 1962313; 20279_62718-d24d3d6916a209e15b1680693740da2f; 20279_62718-89740a075c6163b74ea2c52702062e5d; 20279_62718-153faf593eb64b88272f45adeaa28d87; 20279_62718-73862c8b83139033e4e4a8b6efca9a33; 2041188; 2048211; 2067735; 1884949; 1933955; 1906611; 2056515; 1906613
+total rows output - Scotland West - Glasgow,13
+job_id included - Scotland West - Glasgow,1962298; 1962313; 20279_62718-d24d3d6916a209e15b1680693740da2f; 20279_62718-89740a075c6163b74ea2c52702062e5d; 20279_62718-153faf593eb64b88272f45adeaa28d87; 20279_62718-73862c8b83139033e4e4a8b6efca9a33; 2041188; 2048211; 1884949; 1933955; 1906611; 2056515; 1906613
 selection scenario - Shropshire,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Shropshire,Shropshire selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Shropshire,4
