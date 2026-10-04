@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Bosworth Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225628775",
@@ -324,31 +328,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "108061254",
-    "title": "Activities Coordinator",
-    "company": "Care UK - Company - Permanent",
-    "location": "Leicestershire",
-    "region": "Leicestershire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "13.95",
-    "salary_max": "13.95",
-    "salary_text": "£13.95 per hour",
-    "posted_date": "",
-    "description": "Activities / Lifestyle Coordinator 24h per week\n\nOat Hill Mews Care Home - Market Harborough, LE16 7 BN\n\nPay - £13.95 per hour\n\nAre you a passionate and caring individual looking for a rewarding career with excellent training and opportunities for development? Join Care UK, a multi award winning care provider as a Lifestyle Co-ordinator click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Zg1fD7qgbpz%2favV%2bkMVNxadgnG4%2b94SLe",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Care UK",
-    "advertiser_type": "Company",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "nhs-5636423",
     "source": "NHS Jobs",
     "title": "Mental Health Act Administrator",
@@ -364,6 +343,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9313-26-0437",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9313-26-0437",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

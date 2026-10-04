@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Albion Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-level-2-academy-administrator-87638371-b844-4b56-8fc9-861f67e6ef3c",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Dixons Newall Green Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-office-administrator-and-receptionist-salford-city-academy",
@@ -69,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Salford City Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-trust-finance-and-systems-administrator",
@@ -93,7 +105,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Co Operative Academies Trust",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "1957040",
@@ -371,31 +387,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "2050447",
-    "title": "Accounts Assistant",
-    "company": "The Accountancy Recruitment Group Ltd - Agency - Permanent",
-    "location": "Manchester",
-    "region": "Greater Manchester - Manchester & Salford",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Accounts Assistant / Bookkeeper Irlam £28,000 - £30,000 (doe)\n\nThe Opportunity\n\nWell-established, growing, Irlam based retail and e-commerce business are looking for an Accounts Assistant/Bookkeeper to join their collaborative team as a result of continued growth and expansion.\n\nReporting directly to the Finance Manager, you will play an important role in supporting the day to day running of the finance function. The role offers a varied remit which would suit someone with solid bookkeeping or accounts experience who enjoys working in a busy environment and is keen to develop their career within finance.\n\nYou will become an integral part of the finance team, taking responsibility for a range of transactional accounting duties while also supporting month-end processes and wider financial activities.\n\nYour remit will include:\n- Processing purchase and sales invoices accurately and efficiently\n- Maintaining accurate accounting records and ledgers\n- Processing and reconciling bank transactions\n- Bank reconciliations\n- Managing accounts payable and accounts receivable\n- Preparing and sending customer invoices and statements\n- Monitoring outstanding customer balances and assisting with credit control\n- Processing supplier invoices and assisting with supplier statement reconciliations\n- Assisting with payment runs and supplier payments\n- Posting journals and maintaining the general ledger\n- Assisting with month-end processes and management accounts preparation\n- Supporting the Finance Manager with VAT returns and other statutory requirements\n- Investigating and resolving account queries\n- Assisting with cash flow monitoring and reporting\n- Maintaining organised and accurate financial records\n- Providing general administrative support to the finance department\n- Assisting with ad-hoc finance projects as required\n\nThe ideal candidate:\n\nWe're looking for an organised and detail-focused finance professional who takes pride in producing accurate work and can manage their workload effectively.\n\nYou will ideally have:\n- Previous experience in an Accounts Assistant, Bookkeeper or similar finance position\n- A good understanding of double-entry bookkeeping\n- Experience working with purchase ledger and/or sales ledger\n- Good working knowledge of Microsoft Excel\n- Strong attention to detail and a high level of accuracy\n- The ability to manage priorities and meet deadlines\n- Good written and verbal communication skills\n- A professional approach when dealing with customers and suppliers\n- The ability to work independently while contributing effectively as part of a team\n- A proactive approach, with the ability to take ownership and use initiative\n- AAT qualification or currently working towards AAT ideally\n- Previous experience working within an SME environment\n\nIf you're an experienced Accounts Assistant or Bookkeeper looking for a varied role where you can take ownership of your work and continue developing your finance career, we'd love to hear from you.\n\nApply now\n\nIf you would like to be considered for the Accounts Assistant/ Bookkeeper role in Irlam, please click 'apply now' or contact our team direct.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?eq2PR%2bX5ctwFqAFKc1pUXW4FxZu6mU1Gp",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "The Accountancy Recruitment Group Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "2048074",
     "title": "Finance Assistant",
     "company": "Robert Walters - Agency - Permanent",
@@ -661,7 +652,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0973-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0973-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5631646",
@@ -679,7 +674,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/G9907-26-0120",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/G9907-26-0120",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5631127",
@@ -697,7 +696,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5615-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5615-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5627669",
@@ -715,7 +718,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1532-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1532-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5613139",
@@ -733,7 +740,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2593-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2593-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5597473",
@@ -751,6 +762,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0212-26-0038",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0212-26-0038",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

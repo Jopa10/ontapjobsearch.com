@@ -2,11 +2,11 @@
 
 review_date: 2026-10-04
 
-- Open Administrative & Clerical rows reviewed: 2251
-- Auto/remembered selected: 392
+- Open Administrative & Clerical rows reviewed: 2250
+- Auto/remembered selected: 393
 - Selected HC Tier A: 208
-- Selected HC Tier B: 184
-- POSS awaiting decision: 1748
+- Selected HC Tier B: 185
+- POSS awaiting decision: 1746
 - Excluded: 0
 - HARD_PASS: 111
 
@@ -2434,18 +2434,6 @@ region: Essex
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9259-26-1718
 factual_fingerprint: 03f98c9b06b820d799d444c6185e5d9dcfcddf02bdb33637a28dbb4cd1f4c67d
----
-
----
-action:
-POSS | NHS Jobs | East Midlands | Derby, DE22 3NE | £25760.00 to £27476.00 | Medical Staffing Administrative Assistant
-source_job_id: 5636941
-title: Medical Staffing Administrative Assistant
-employer: University Hospitals of Derby and Burton NHS Foundation Trust
-region: East Midlands
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9320-26-0984
-factual_fingerprint: 501f7cb1dd0e3be7a8710ff568bfdbf97174db3c18b4fa02a372e9e243f28083
 ---
 
 ---
@@ -6298,18 +6286,6 @@ region:
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-1037
 factual_fingerprint: 0428e8b3f948896dd2c9cc4ca89a8d80e34056cced47db2e7dd51c075240b10f
----
-
----
-action:
-POSS | NHS Jobs | Berkshire | Reading, RG1 5AN | £25760.00 to £27476.00 | Assistant Patient Pathway Coordinator (CAT 7)
-source_job_id: 5632216
-title: Assistant Patient Pathway Coordinator (CAT 7)
-employer: Royal Berkshire NHS Foundation Trust
-region: Berkshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9193-26-0658
-factual_fingerprint: b93b4b579256b7774f32ddc3b04bd515cf17789a48c3f053461f978b7a5662f9
 ---
 
 ---

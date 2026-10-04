@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Larkmead School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-student-services-administrator-larkmead-school",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Larkmead School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-administrative-assistant-bampton-cofe-primary-school-bampton-oxfordshire",
@@ -69,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Bampton CofE Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-attendance-administrator-blessed-george-napier-catholic-school-and-sixth-form",
@@ -93,7 +105,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Blessed George Napier Catholic School and Sixth Form",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-receptionist-edf1f45d-c1c2-4efe-8319-033977840917",
@@ -117,7 +133,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Faringdon Community College",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "1939388",
@@ -445,6 +465,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "108072850",
+    "title": "Finance Assistant",
+    "company": "CBSbutler Holdings Limited - Agency - Contract",
+    "location": "Oxfordshire",
+    "region": "Oxfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Contract",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "Finance Assistant Brize Norton 12-Month Contract\n\nWe are recruiting for a Finance Assistant to join a major multinational organisation on an initial 12-month contract.\n\nWorking closely with the Finance Director and Financial Controller, you role will be of a support nature, supporting financial planning, forecasting and control across the business click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?iZmgAWfngDwjpwmPsDg5enwlwHTzcG1qf",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "CBSbutler Holdings Limited",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "108062084",
     "title": "Activities Coordinator",
     "company": "Care UK - Company - Permanent",
@@ -485,7 +530,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1731",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1731",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5615414",
@@ -503,7 +552,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1968-26-0013",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1968-26-0013",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5620012",
@@ -521,6 +574,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1710",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1710",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
