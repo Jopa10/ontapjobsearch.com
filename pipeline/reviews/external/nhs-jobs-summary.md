@@ -2,13 +2,13 @@
 
 review_date: 2026-10-04
 
-- Open Administrative & Clerical rows reviewed: 2258
+- Open Administrative & Clerical rows reviewed: 2251
 - Auto/remembered selected: 392
 - Selected HC Tier A: 208
 - Selected HC Tier B: 184
-- POSS awaiting decision: 1754
+- POSS awaiting decision: 1748
 - Excluded: 0
-- HARD_PASS: 112
+- HARD_PASS: 111
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
 
@@ -1677,7 +1677,7 @@ employer: The Newcastle upon Tyne Hospitals NHS Foundation Trust
 region: 
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9317-26-0821
-factual_fingerprint: 0a2bc4e01d3479250f986c016f135af5ad6ccace9ecbb6b56b7266ff544af234
+factual_fingerprint: 23a88837a80194e598554e76e1cd1977a8b5c86c2b58893f6ce24b09ccee12b4
 ---
 
 ---
@@ -3566,18 +3566,6 @@ factual_fingerprint: 21b1a547a78e40042ae1c8da2e15003066e892c9883216366024b7cebc0
 
 ---
 action:
-POSS | NHS Jobs | — | Aintree, L9 7AL | £32073.00 to £39043.00 | Learning, Development and Skills Facilitator
-source_job_id: 5635703
-title: Learning, Development and Skills Facilitator
-employer: Liverpool University Hospitals NHS Foundation Trust
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9287-26-1622
-factual_fingerprint: fe7fe4e238735949aa202ed4ab9ad8e9677e2e63e31b63dd49ca1b17296b8c66
----
-
----
-action:
 POSS | NHS Jobs | — | Aintree, L9 7AL | £49387.00 to £56515.00 | Learning Development and Skills Lead
 source_job_id: 5635711
 title: Learning Development and Skills Lead
@@ -4558,18 +4546,6 @@ region:
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9396-26-0413
 factual_fingerprint: d3fc3e1dac0d2f26b70f97037688ab745680d1329be1fe59436203486eddcf92
----
-
----
-action:
-POSS | NHS Jobs | Shropshire | Oswestry, SY10 7AG | £32073.00 to £39043.00 | Radiology Private Practice Junior Business Manager
-source_job_id: 5635080
-title: Radiology Private Practice Junior Business Manager
-employer: Robert Jones and Agnes Hunt Orthopaedic Hospital NHS Foundation Trust
-region: Shropshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9224-26-0356
-factual_fingerprint: 17e4d8d862146bd1d40985e008a3f8a8f608937aa57e9a63ae00b6aaf2ab2050
 ---
 
 ---
@@ -6082,18 +6058,6 @@ region: Wales South - Swansea Bay
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9110-26-1007
 factual_fingerprint: 062b2cc0771146dc6667a1e0aff8b9e2375cf65e6ed10b2ffcab5daf3a2c06d9
----
-
----
-action:
-POSS | NHS Jobs | West Midlands - Birmingham & Solihull | Birmingham, B31 2AP | £25272.00 | ADCU Receptionist
-source_job_id: 5632968
-title: ADCU Receptionist
-employer: The Royal Orthopaedic Hospital NHS Foundation Trust
-region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9303-26-0146
-factual_fingerprint: a7b8fe31b80867649f15ce9206a1fdb28767bec1fca7007f829da0d0a69d239f
 ---
 
 ---
@@ -8618,18 +8582,6 @@ factual_fingerprint: 0b24701c102952edc5c6c6627654d324c502ee305cdfa76bd253347ccd9
 
 ---
 action:
-POSS | NHS Jobs | Greater Manchester - Manchester & Salford | Manchester, M13 9WL | £28392.00 to £31157.00 | Nightingale Worker
-source_job_id: 5629530
-title: Nightingale Worker
-employer: Manchester University NHS Foundation Trust
-region: Greater Manchester - Manchester & Salford
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2858
-factual_fingerprint: b7fe6c786c6cf61d88fb70a76ade6123af56aed2681f9df69c91e378dc792840
----
-
----
-action:
 POSS | NHS Jobs | Surrey | Dorking, RH4 1SD, Walton-on-Thames , KT12 1RZ, Epsom, KT18 5AD, Woking, GU22 7HS, Guildford, GU1 4UQ | £38000.00 to £41000.00 | Talking Therapies Operational Manager
 source_job_id: 5623123
 title: Talking Therapies Operational Manager
@@ -10546,18 +10498,6 @@ region: Berkshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9151-26-1236
 factual_fingerprint: 8c6bba45c0f2ac31686550e30a0848411500da5c8e0d5f6136bcb405d18c9b24
----
-
----
-action:
-POSS | NHS Jobs | — | Frimley, GU16 7UJ | £16264.00 to £17310.00 | Elective Bookings Officer
-source_job_id: 5625492
-title: Elective Bookings Officer
-employer: Frimley Health NHS Foundation Trust
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9151-26-1237
-factual_fingerprint: d1627469309f5a4f605a6509d58c8e642468c0d0eea4b76c2f6af6e3cf93aafe
 ---
 
 ---
@@ -18730,18 +18670,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M0032-26-0038
 factual_fingerprint: 6709f6c4fb73fdc9a159b7893c59dcb5dab1ed2811eea5a8dc459f52efda1183
----
-
----
-action:
-POSS | NHS Jobs | Oxfordshire | Oxford, OX3 9DU | £25760.00 to £27476.00 | Cardiac Information Administration Assistant
-source_job_id: 5609170
-title: Cardiac Information Administration Assistant
-employer: Oxford University Hospitals NHS Foundation Trust
-region: Oxfordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1675
-factual_fingerprint: 00b5429e9bf1d941a403de329c4b9ea007dd8fcfd773b85ef6a7e0f67680da15
 ---
 
 ---
