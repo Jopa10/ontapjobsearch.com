@@ -1395,6 +1395,24 @@ SELECTED | London | London | no salary in JobG8 salary fields; no supported sala
 job_id: 2068501
 ---
 
+---
+action:
+SELECTED | London | Harrow | £35000 per year [JobG8 salary fields] | Calling All SJP Financial Administrators - SJP Practice Near Harrow, North West London
+job_id: 2069732
+---
+
+---
+action:
+SELECTED | London | London | £30000 per year [JobG8 salary fields] | Recruitment Co-Ordinator & Client Account Support (no sales)
+job_id: 108072953
+---
+
+---
+action:
+SELECTED | London | Uxbridge | no salary in JobG8 salary fields; no supported salary amount found in description | Bid Coordinator
+job_id: 107970959
+---
+
 ## LONDON — POSSIBLES
 
 ---
@@ -1673,12 +1691,6 @@ job_id: 2064051
 action:
 SELECTED | Hampshire | Hampshire | no salary in JobG8 salary fields; no supported salary amount found in description | HR Assistant
 job_id: 2062579
----
-
----
-action:
-SELECTED | Hampshire | Hampshire | no salary in JobG8 salary fields; no supported salary amount found in description | Site Administrator
-job_id: 108065573
 ---
 
 ## HAMPSHIRE — POSSIBLES
@@ -2949,12 +2961,6 @@ job_id: 1929321
 
 ---
 action:
-SELECTED | Buckinghamshire | Buckinghamshire |  | Administrative Officer
-job_id: 1956753
----
-
----
-action:
 SELECTED | Buckinghamshire | Buckinghamshire |  | Conveyancing Paralegal
 job_id: 1944303
 ---
@@ -3023,12 +3029,6 @@ job_id: 2044228
 action:
 SELECTED | Buckinghamshire | Buckinghamshire | £30000 - £32000 per year | HR Administrator
 job_id: 2049022
----
-
----
-action:
-SELECTED | Buckinghamshire | Buckinghamshire |  | Administrative Officer
-job_id: 604158583863718707237340
 ---
 
 ---
@@ -4281,12 +4281,6 @@ job_id: 107969282
 
 ---
 action:
-SELECTED | Greater Manchester - Manchester & Salford | Manchester |  | Accounts Assistant
-job_id: 2050447
----
-
----
-action:
 SELECTED | Greater Manchester - Manchester & Salford | Manchester |  | Finance Assistant
 job_id: 2048074
 ---
@@ -4655,12 +4649,6 @@ job_id: 2057903
 action:
 SELECTED | Leicestershire | Leicestershire | £13.33 per hour | Commercial Administrator
 job_id: 2049449
----
-
----
-action:
-SELECTED | Leicestershire | Leicestershire | £13.95 per hour | Activities Coordinator
-job_id: 108061254
 ---
 
 ## LEICESTERSHIRE — POSSIBLES
@@ -5141,12 +5129,6 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Nottinghamshire | Nottinghamshire |  | HR Administrator
-job_id: 1865237
----
-
----
-action:
 SELECTED | Nottinghamshire | Nottinghamshire |  | Employment Paralegal - Nottingham Unique Culture &;24,000 to &;28,000
 job_id: 1869293
 ---
@@ -5191,18 +5173,6 @@ job_id: 23643_225668106
 action:
 SELECTED | Nottinghamshire | Nottinghamshire | £14.00 - £16.00 per hour | HR Administrator
 job_id: 2056728
----
-
----
-action:
-SELECTED | Nottinghamshire | Nottinghamshire |  | Customer Service Administrator
-job_id: 107964483
----
-
----
-action:
-SELECTED | Nottinghamshire | Nottingham | £28000 per year | Sales Customer Service Advisor
-job_id: 108072938
 ---
 
 ## NOTTINGHAMSHIRE — POSSIBLES
@@ -5293,6 +5263,12 @@ job_id: 2049838
 action:
 SELECTED | Oxfordshire | Oxfordshire | £12.71 per hour | Activities Coordinator
 job_id: 108062084
+---
+
+---
+action:
+SELECTED | Oxfordshire | Oxfordshire |  | Finance Assistant
+job_id: 108072850
 ---
 
 ## OXFORDSHIRE — POSSIBLES
@@ -5710,13 +5686,13 @@ job_id: 2044538
 ---
 action:
 SELECTED | Somerset | Somerset | £12.71 per hour | Activities Coordinator
-job_id: 108068266
+job_id: 108068437
 ---
 
 ---
 action:
-SELECTED | Somerset | Somerset | £12.71 per hour | Activities Coordinator
-job_id: 108068437
+SELECTED | Somerset | Somerset | £14 - £16 per hour | Temp HR Administrator
+job_id: 108075321
 ---
 
 ## SOMERSET — POSSIBLES
@@ -5795,6 +5771,18 @@ job_id: 2050063
 action:
 SELECTED | Staffordshire | Staffordshire | £26244 - £27031 per year | Faculty Centre Administrator
 job_id: 2036473
+---
+
+---
+action:
+SELECTED | Staffordshire | Staffordshire |  | Service Coordinator
+job_id: 108074533
+---
+
+---
+action:
+SELECTED | Staffordshire | Staffordshire |  | Sales Coordinator
+job_id: 108062618
 ---
 
 ## STAFFORDSHIRE — POSSIBLES
@@ -6405,6 +6393,12 @@ job_id: 107919550
 action:
 SELECTED | Wiltshire | Wiltshire |  | Service Advisor
 job_id: 108062254
+---
+
+---
+action:
+SELECTED | Wiltshire | Wiltshire | £13.37 per hour (Grade K £41,777 - £43,149 pro rata (£33,873 - £34,985) | Finance Assistant - Fixed Term Maternity Cover
+job_id: 108056808
 ---
 
 ## WILTSHIRE — POSSIBLES

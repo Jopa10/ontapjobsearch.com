@@ -175,12 +175,6 @@ SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour | Support Work
 job_id: 108059082
 ---
 
----
-action:
-SELECTED | Cumbria - South | Ulverston | £12.85 per hour | Support Worker
-job_id: 108027430
----
-
 ## CUMBRIA SOUTH — POSSIBLES
 
 _No jobs in this group._
@@ -255,12 +249,6 @@ job_id: 559639887195039334437340
 
 ---
 action:
-SELECTED | Hampshire | Tadley | £25,845 per annum | Support Worker
-job_id: 635330054620761292837340
----
-
----
-action:
 SELECTED | Hampshire | Southampton | £13.45 Per Hour | Support worker
 job_id: 2055937
 ---
@@ -327,18 +315,6 @@ job_id: 86461656567539302437340
 
 ---
 action:
-SELECTED | Kent | Maidstone | £12.71 per hour | Bank Support Worker
-job_id: 110063333364727808037341
----
-
----
-action:
-SELECTED | Kent | Tonbridge | £12.71 per hour | Bank Support Worker
-job_id: 110063333364727808037340
----
-
----
-action:
 SELECTED | Kent | Maidstone | £25,845 per annum | Female Support Worker
 job_id: 198615299190371123237341
 ---
@@ -353,6 +329,12 @@ job_id: 198615299190371123237340
 action:
 SELECTED | Kent | Sevenoaks | £14.00 - £17.00 per hour | Healthcare Assistant
 job_id: 2055653
+---
+
+---
+action:
+SELECTED | Kent | New Romney | £13.45 per hour | Support Worker
+job_id: 107918496
 ---
 
 ## KENT — POSSIBLES
@@ -511,6 +493,12 @@ SELECTED | Surrey | Walton-on-thames | £25,845 per annum | Support Worker
 job_id: 185888891903515033637340
 ---
 
+---
+action:
+SELECTED | Surrey | Leatherhead | £30000 - £32000 per year | Legal Personal Assistant
+job_id: 2064951
+---
+
 ## SURREY — POSSIBLES
 
 _No jobs in this group._
@@ -519,8 +507,8 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Wiltshire | Swindon | £24000 per year | Healthcare Assistant
-job_id: 108068073
+SELECTED | Wiltshire | Swindon | £12000 per year | Female Care Support Worker - Swindon
+job_id: 108076103
 ---
 
 ## WILTSHIRE — POSSIBLES
