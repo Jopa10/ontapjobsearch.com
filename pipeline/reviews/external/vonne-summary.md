@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-10-04
-review_fingerprint: a9e6f287860a6a4cd98b46867d06a71285e50a00ca5b3e46260f7291c29a0f4d
+review_date: 2026-10-05
+review_fingerprint: fc541510c9a493e12985ebe91fa6217940a83eafee11566f59e20d3d6dfc433d
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,17 +10,17 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-10-04T13:45:44+01:00
+Run generated: 2026-10-05T16:09:32+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
 JobG8 comparison rows: 399
 Approved NEJobs comparison rows: 0
 
 ## Funnel
 - VONNE listings read: 15
-- Detail-page candidates: 2
-- Detail pages fetched successfully: 2
+- Detail-page candidates: 4
+- Detail pages fetched successfully: 4
 - Detail failures/listing fallbacks: 0
-- Obvious hard passes not detail-fetched: 13
+- Obvious hard passes not detail-fetched: 11
 - Tees Valley explicitly excluded: 0
 - Outside or unmapped geography excluded: 3
 - Generic/derived geography rows requiring review: 2
@@ -28,10 +28,10 @@ Approved NEJobs comparison rows: 0
 
 ## Outcomes
 - HC: 0
-- POSS: 4
-- HARD_PASS: 8
+- POSS: 7
+- HARD_PASS: 5
 - Final selected after remembered/manual actions: 0
-- Final POSS awaiting decision: 4
+- Final POSS awaiting decision: 7
 - Manually excluded: 0
 ## Detail diagnostics
 - No unresolved detail-page failures.
@@ -94,16 +94,52 @@ vacancy_fingerprint: e89ee63e825c9e69ed1079063e87337212bf17209237b827b80cf63d828
 source_job_id: 173475
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173475
 ---
+---
+action:
+POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £26,213 to 28,140 Pro Rata | Grant Holder Support Officer
+employer: North Tyneside VODA
+closing_date: Monday, October 26, 2026 - 17:00
+geography: CONFIRMED — location: approved location fallback
+reason: provisional transferable-office review
+source: VONNE
+tracking_key: vonne-173497
+vacancy_fingerprint: 5df75ff8fb6249af46013bae93fb50c40d2860016fac710d2204aa9af5e57ecd
+source_job_id: 173497
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173497
+---
+---
+action:
+POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £28,366 to 31,518 | Grant Holder Support Officer
+employer: Connected Voice
+closing_date: Monday, October 26, 2026 - 17:00
+geography: CONFIRMED — location: approved location fallback
+reason: annualised upper salary £31,518 exceeds North East review point £30,000
+source: VONNE
+tracking_key: vonne-173484
+vacancy_fingerprint: 6f0330ec533b1ccee002042bed35c89a38a11ceec9c15e072a25ca803f34aa41
+source_job_id: 173484
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173484
+---
+---
+action:
+POSS | North East - Tyneside, Wearside & Northumberland | South Tyneside | £15 Per Hour | Project Lead (STARCH)
+employer: Churches Together in South Tyneside
+closing_date: 30 October 2026
+geography: CONFIRMED — location: geography phrase: south tyneside
+reason: transferable title with specialist or borderline wording: lead
+source: VONNE
+tracking_key: vonne-173401
+vacancy_fingerprint: 4921c718296e6f405987f2a4bd1abab5f3d27cdad2440f10f086adf8ffd317fd
+source_job_id: 173401
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173401
+---
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
-- [Age Friendly Engagement Co-ordinator](https://www.vonne.org.uk/vonne-jobs-details?cid=173472) — insufficient service-admin evidence.
 - [Children and Young People’s Mental Health](https://www.vonne.org.uk/vonne-jobs-details?cid=173496) — insufficient service-admin evidence.
-- [Community Health Activator - Researcher (CHAR)](https://www.vonne.org.uk/vonne-jobs-details?cid=173467) — insufficient service-admin evidence.
-- [Grants and Funding Manager](https://www.vonne.org.uk/vonne-jobs-details?cid=173425) — out-of-scope VONNE occupation.
 - [Learning Disability Skills Specialist (Part Time)](https://www.vonne.org.uk/vonne-jobs-details?cid=172581) — insufficient service-admin evidence.
 - [Team Leader - All-Age Caregivers](https://www.vonne.org.uk/vonne-jobs-details?cid=173477) — insufficient service-admin evidence.
 - [Young Carer Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173481) — out-of-scope VONNE occupation.
