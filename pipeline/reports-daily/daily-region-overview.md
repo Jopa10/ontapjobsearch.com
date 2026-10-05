@@ -1,6 +1,6 @@
 # Ontap daily regional overview
 
-Generated: 2026-10-05T09:16:00+01:00
+Generated: 2026-10-05T16:06:15+01:00
 
 [Download this overview as Excel](./daily-region-overview.xlsx)
 
@@ -8,16 +8,16 @@ Generated: 2026-10-05T09:16:00+01:00
 
 | Measure | Count |
 |---|---:|
-| Unique live jobs | 1,972 |
+| Unique live jobs | 1,964 |
 | Unique JobG8 jobs | 1,600 |
-| Unique non-JobG8 jobs | 372 |
-| Regional/category slice placements | 2,330 |
+| Unique non-JobG8 jobs | 364 |
+| Regional/category slice placements | 2,322 |
 | Jobs appearing on multiple slices | 358 |
 | Extra slice placements | 358 |
 | Unique jobs outside governed slices | 0 |
 | Jobs found in non-LIVE slices | 0 |
 
-**Reconciliation: 1,972 unique jobs + 358 extra slice placements = 2,330 regional/category slice placements.**
+**Reconciliation: 1,964 unique jobs + 358 extra slice placements = 2,322 regional/category slice placements.**
 
 Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-10-04.csv` — **STALE — CSV says 2,010 for 2026-10-04**.
 
@@ -27,7 +27,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-10-0
 |---|---:|---:|---:|
 | JobG8 | 1,600 | 358 | 358 |
 | NHS Jobs | 195 | 0 | 0 |
-| Teaching Vacancies | 177 | 0 | 0 |
+| Teaching Vacancies | 169 | 0 | 0 |
 
 ## JOBG8 FEED RECEIVED
 
@@ -281,7 +281,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-10-0
 
 ## CITY OPPORTUNITIES
 
-**351 mapped towns/localities with live jobs or an existing city page.** Counts use all 1,972 unique live Ontap jobs across every role and provider: 1,040 have an exact recognised town/locality and 932 have only broader or unrecognised location evidence. CREATE means 4+ current Service Admin jobs and no existing city page; London is held separately.
+**349 mapped towns/localities with live jobs or an existing city page.** Counts use all 1,964 unique live Ontap jobs across every role and provider: 1,034 have an exact recognised town/locality and 930 have only broader or unrecognised location evidence. CREATE means 4+ current Service Admin jobs and no existing city page; London is held separately.
 
 | Status | Town/city/locality | Region | All live jobs | Existing pages | Current routes | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre | Other / unclassified |
 |---|---|---|---:|---:|---||---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -355,12 +355,12 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-10-0
 | LIVE PAGE | Basingstoke | Hampshire | 3 | 1 | /basingstoke/service-administrator-jobs | 2 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Edinburgh | Scotland Central - Edinburgh & Lothians | 3 | 1 | /edinburgh/service-administrator-jobs | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Farnham | Surrey | 3 | 1 | /farnham/service-administrator-jobs | 0 | 0 | 0 | 3 | 0 | 0 | 0 | 0 | 0 |
-| LIVE PAGE | Sunderland | North East - Tyneside, Wearside & Northumberland | 3 | 1 | /sunderland/service-administrator-jobs | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Warwick | West Midlands - Coventry & Warwickshire | 3 | 1 | /warwick/service-administrator-jobs | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Gloucester | Gloucestershire | 2 | 1 | /gloucester/service-administrator-jobs | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| LIVE PAGE | Macclesfield | Cheshire - East | 2 | 1 | /macclesfield/service-administrator-jobs | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| LIVE PAGE | Sunderland | North East - Tyneside, Wearside & Northumberland | 2 | 1 | /sunderland/service-administrator-jobs | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Worcester | Worcestershire | 2 | 1 | /worcester/service-administrator-jobs | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Durham | North East - County Durham & Darlington/Hartlepool | 1 | 1 | /durham/jobs | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| LIVE PAGE | Macclesfield | Cheshire - East | 1 | 1 | /macclesfield/service-administrator-jobs | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Northallerton | Yorkshire - North | 1 | 1 | /northallerton/jobs | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Poole | Dorset | 1 | 1 | /poole/service-administrator-jobs | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Rotherham | Yorkshire - South | 1 | 1 | /rotherham/service-administrator-jobs | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -405,7 +405,6 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-10-0
 | HOLD – LONDON | Twickenham | London | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | HOLD – LONDON | West Drayton | London | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | HOLD – LONDON | West Wickham | London | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| HOLD – LONDON | Woodford Green | London | 1 | 0 |  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Tunbridge Wells | Kent | 7 | 0 |  | 0 | 5 | 1 | 0 | 1 | 0 | 0 | 0 | 0 |
 | MONITOR | Guildford | Surrey | 6 | 0 |  | 1 | 1 | 1 | 1 | 2 | 0 | 0 | 0 | 0 |
 | MONITOR | Leatherhead | Surrey | 6 | 0 |  | 3 | 0 | 0 | 2 | 0 | 1 | 0 | 0 | 0 |
@@ -429,7 +428,6 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-10-0
 | MONITOR | Chichester | Sussex | 3 | 0 |  | 1 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Crawley | Sussex | 3 | 0 |  | 0 | 0 | 0 | 0 | 0 | 3 | 0 | 0 | 0 |
 | MONITOR | Crewe | Cheshire - East | 3 | 0 |  | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| MONITOR | Epsom | Surrey | 3 | 0 |  | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Fareham | Hampshire | 3 | 0 |  | 2 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
 | MONITOR | Goole | Yorkshire - East | 3 | 0 |  | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Harrogate | Yorkshire - North | 3 | 0 |  | 0 | 0 | 0 | 1 | 0 | 2 | 0 | 0 | 0 |
@@ -461,6 +459,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-10-0
 | MONITOR | Dereham | Norfolk | 2 | 0 |  | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
 | MONITOR | Dunmow | Essex | 2 | 0 |  | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
 | MONITOR | Eastleigh | Hampshire | 2 | 0 |  | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| MONITOR | Epsom | Surrey | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Gillingham | Kent | 2 | 0 |  | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Godalming | Surrey | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Grantham | Lincolnshire | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -487,7 +486,6 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-10-0
 | MONITOR | Totnes | Devon | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Wallsend | North East - Tyneside, Wearside & Northumberland | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Walton-on-thames | Surrey | 2 | 0 |  | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
-| MONITOR | Wellington | Shropshire | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Welwyn Garden City | Hertfordshire | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | West Bromwich | West Midlands - Black Country | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | MONITOR | Wigan | Greater Manchester - Wigan & Bolton | 2 | 0 |  | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -648,7 +646,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-10-0
 | Bristol & Bath | 32 |  | 7 | 3 | 4 | 7 |  |  |
 | Buckinghamshire | 40 |  |  |  | 8 | 11 |  | CHECK |
 | Cambridgeshire | 24 |  |  |  | 4 | CHECK |  |  |
-| Cheshire - East | 15 |  |  |  |  | CHECK |  |  |
+| Cheshire - East | 14 |  |  |  |  | CHECK |  |  |
 | Cheshire - Warrington & Halton | 27 |  |  |  |  | CHECK |  |  |
 | Cheshire - West | 14 |  |  |  | 4 | CHECK |  |  |
 | Cornwall | 5 |  |  |  |  |  |  |  |
@@ -675,13 +673,13 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-10-0
 | Lancashire - West |  |  |  |  |  |  |  |  |
 | Leicestershire | 15 |  |  |  |  | CHECK |  |  |
 | Lincolnshire | 19 |  |  |  |  |  |  |  |
-| London | 232 | 6 | 16 | 74 | 109 | 44 | 39 | CHECK |
+| London | 230 | 6 | 16 | 74 | 109 | 44 | 39 | CHECK |
 | Merseyside - Liverpool | 16 |  |  | 5 | 6 |  |  |  |
 | Merseyside - Sefton |  |  |  |  |  |  |  |  |
 | Merseyside - St Helens & Knowsley |  |  |  |  |  |  |  |  |
 | Merseyside - Wirral |  |  |  |  |  |  |  |  |
 | Norfolk | 31 |  |  | 8 | 10 | 8 |  |  |
-| North East | 34 | 7 | 4 |  | 9 | 9 |  | CHECK |
+| North East | 33 | 7 | 4 |  | 9 | 9 |  | CHECK |
 | North Scotland | 2 |  | CHECK |  |  |  |  |  |
 | North Wales - East |  |  |  |  |  |  |  |  |
 | North Wales - West |  |  |  |  |  |  |  |  |
@@ -700,11 +698,11 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-10-0
 | Scotland West - Glasgow | 13 |  | 2 |  |  |  |  |  |
 | Scotland West - Lanarkshire |  |  |  |  |  |  |  |  |
 | Scotland West - Renfrewshire & Inverclyde |  |  |  |  |  |  |  |  |
-| Shropshire | 7 |  |  |  |  | CHECK |  |  |
+| Shropshire | 5 |  |  |  |  | CHECK |  |  |
 | Somerset | 15 |  |  |  |  |  |  |  |
 | Staffordshire | 18 |  |  |  | 9 |  |  | CHECK |
 | Suffolk | 33 |  |  | 12 |  | CHECK |  |  |
-| Surrey | 49 | 5 | 1 | 14 | 11 | 8 |  | CHECK |
+| Surrey | 48 | 5 | 1 | 14 | 11 | 8 |  | CHECK |
 | Sussex | 43 | 6 | 2 |  |  | 18 | 4 |  |
 | Wales - Mid |  |  |  |  |  |  |  |  |
 | Wales - West |  |  |  |  |  |  |  |  |
@@ -720,7 +718,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-10-0
 | Yorkshire - East | 12 |  |  |  |  |  |  |  |
 | Yorkshire - North | 30 |  |  | 10 | 4 | 13 |  |  |
 | Yorkshire - South | 28 | 5 |  |  |  | CHECK |  |  |
-| Yorkshire - West | 59 | 1 | 2 | 15 | 11 | 6 | 6 |  |
+| Yorkshire - West | 58 | 1 | 2 | 15 | 11 | 6 | 6 |  |
 
 ## NOT LIVE
 
@@ -812,6 +810,6 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-10-0
 | Measure | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Live regions | 52 / 78 | 11 / 78 | 14 / 78 | 13 / 78 | 22 / 78 | 36 / 78 | 9 / 78 | 6 / 78 |
-| Live slice placements | 1439 | 66 | 61 + 1 CHECK | 204 | 265 + 1 CHECK | 223 + 16 CHECK | 72 + 1 CHECK | 0 + 6 CHECK |
+| Live slice placements | 1431 | 66 | 61 + 1 CHECK | 204 | 265 + 1 CHECK | 223 + 16 CHECK | 72 + 1 CHECK | 0 + 6 CHECK |
 
 **Live slices: 163 / 624.**
