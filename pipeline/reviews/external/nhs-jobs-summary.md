@@ -2,15 +2,111 @@
 
 review_date: 2026-10-05
 
-- Open Administrative & Clerical rows reviewed: 2242
-- Auto/remembered selected: 402
-- Selected HC Tier A: 209
-- Selected HC Tier B: 193
-- POSS awaiting decision: 1727
+- Open Administrative & Clerical rows reviewed: 2250
+- Auto/remembered selected: 404
+- Selected HC Tier A: 210
+- Selected HC Tier B: 194
+- POSS awaiting decision: 1733
 - Excluded: 0
 - HARD_PASS: 113
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | — | Reading & Bracknell, RG1 5AN | £25760.00 to £27476.00 | Radiotherapy Bookings Coordinator
+source_job_id: 5643345
+title: Radiotherapy Bookings Coordinator
+employer: Royal Berkshire NHS Foundation Trust
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9193-26-0668
+factual_fingerprint: 2465e6c93e37b999cf82da8a0b9f4b323ba819170b4369da110bc21db87a077e
+---
+
+---
+action:
+POSS | NHS Jobs | Lancashire - Blackpool & Fylde | Blackpool, FY3 9ES | Negotiable | Medical Secretary
+source_job_id: 5643327
+title: Medical Secretary
+employer: Marton Medical Practice
+region: Lancashire - Blackpool & Fylde
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2563-26-0006
+factual_fingerprint: f867e7caa2ef317992de9816e63516faf69711d70a73f423ecdf9f8d705eba45
+---
+
+---
+action:
+POSS | NHS Jobs | Greater Manchester - Manchester & Salford | Manchester, M13 9WL | £39959.00 to £48117.00 | Assistant HR Business Partner
+source_job_id: 5643265
+title: Assistant HR Business Partner
+employer: Manchester University NHS Foundation Trust
+region: Greater Manchester - Manchester & Salford
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-2930
+factual_fingerprint: 916a5b42c62c8b1a53d6781cf65540f09a7d039f58f44f7a5e9d1cd108b2b224
+---
+
+---
+action:
+POSS | NHS Jobs | Wiltshire | Chippenham, SN15 1BN | £28000.00 | Recruitment Advisor - Chippenham (FT, 12-month fixed-term contract)
+source_job_id: 5643334
+title: Recruitment Advisor - Chippenham (FT, 12-month fixed-term contract)
+employer: HealthHero Integrated Care
+region: Wiltshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0040-26-0029
+factual_fingerprint: d7f343428d7ef0eadaf0c9924404a409d3485481c48b6eb1c1f86679efe60c42
+---
+
+---
+action:
+POSS | NHS Jobs | West Midlands - Coventry & Warwickshire | Coventry, CV6 2FL, Coventry, CV7 8EQ, Coventry, CV7 8LA | £12.98 | Medical Notes Summariser (Park Leys)
+source_job_id: 5643329
+title: Medical Notes Summariser (Park Leys)
+employer: Coventry North Primary Care Network
+region: West Midlands - Coventry & Warwickshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/W0003-26-0010
+factual_fingerprint: 07bde8644e3f14860f7068da473e84999c7b53bcb812697a1648b334642517d1
+---
+
+---
+action:
+POSS | NHS Jobs | Nottinghamshire | Newark, NG24 4SW | £25760.00 | Medical Secretary
+source_job_id: 5643324
+title: Medical Secretary
+employer: Elysium Healthcare
+region: Nottinghamshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2281
+factual_fingerprint: 3bb73afe3640454b2fd721155a3bca8f242662f1ee33bff3579a3e4b726bb8db
+---
+
+---
+action:
+POSS | NHS Jobs | Hampshire | Southampton, SO16 4XE | £25272.00 to £25272.00 | Business Support Admin Assistant - 0-19 Public Health Service
+source_job_id: 5643307
+title: Business Support Admin Assistant - 0-19 Public Health Service
+employer: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+region: Hampshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-2160
+factual_fingerprint: 6674203e735086d368e2ba57c19d50005fde31acbccaa7469d07f77a956b56af
+---
+
+---
+action:
+POSS | NHS Jobs | London | HORNCHURCH, RM12 5HX | £50000.00 to £55000.00 | South Primary Care Network (PCN) Manager
+source_job_id: 5642870
+title: South Primary Care Network (PCN) Manager
+employer: Havering Health Ltd
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0167-26-0041
+factual_fingerprint: 777e3b4915957b601ea63483c0cb26a1287cb5c3f5d49a83dc6496154cb29eb5
+---
 
 ---
 action:
@@ -5362,18 +5458,6 @@ region: Wales South - Cardiff & Vale
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9028-26-0193
 factual_fingerprint: 96aeb05bf4ea9472b3299eab4b941657ee0803396a4fc7e08256e2e3d31f9127
----
-
----
-action:
-POSS | NHS Jobs | Yorkshire - South | Sheffield, S5 7AU | £25272.00 | Administration Officer
-source_job_id: 5636578
-title: Administration Officer
-employer: Sheffield Teaching Hospitals NHS Foundation Trust
-region: Yorkshire - South
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9190-26-0603
-factual_fingerprint: d88516d9ea89280ba26842b0309b818f5c20d47289ecb942624cb4a40527a6b8
 ---
 
 ---
@@ -19678,18 +19762,6 @@ region:
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9839-26-0349
 factual_fingerprint: e6677e990f873ba9766e88787ac4f6f2afc787cd4856bcfa038731caac6eb1f6
----
-
----
-action:
-POSS | NHS Jobs | Hertfordshire | Hertfordshire, AL9 6NN | £26500.00 | Medical Secretary
-source_job_id: 5603193
-title: Medical Secretary
-employer: Elysium Healthcare
-region: Hertfordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2093
-factual_fingerprint: 388b1bfca4f0c9ac66604cff32224153fd45102c207d8e5480292c69bcf8d60f
 ---
 
 ---
