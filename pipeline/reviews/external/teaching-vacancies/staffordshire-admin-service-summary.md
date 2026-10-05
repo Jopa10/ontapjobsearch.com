@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-10-04
-review_fingerprint: 0d5aedde63e612faafa9f8329dfb9fe2ee75b032d7bb075d85ab9f8af04e2fed
-routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
+review_date: 2026-10-05
+review_fingerprint: dc6e6fa18dd334319ce9e3422b13268ff9485c37c78b825d8fc68f6a21bcd202
+routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 5
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 2
 
 ## SELECTED
 
@@ -60,7 +60,7 @@ reason: Clear admin/service title: examinations officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: a9b968f32992a1bd296a92b459a250d82cd0b5565d911a948c7ee9323b33a006
+factual_fingerprint: 2c66aa9cd89c4a6b3e277ceebe0c5480941d2e9c1d66cbb55f18bfced64b5806
 source: Teaching Vacancies
 source_job_id: examinations-officer-blythe-bridge-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-blythe-bridge-high-school
@@ -77,8 +77,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-
 ## HARD_PASS
 
 - [Data and Insights Officer](https://teaching-vacancies.service.gov.uk/jobs/data-and-insights-officer) — Insufficient admin/service evidence.
-- [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-discovery-academy-stoke-on-trent-staffordshire) — Insufficient admin/service evidence.
-- [School Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-administration-assistant-westwood-college) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-5bedbe1d-eaea-4d84-a744-7318349a5687) — Manager title salary ceiling £39,152 is not below £28,000.
 
 ## Safety boundary

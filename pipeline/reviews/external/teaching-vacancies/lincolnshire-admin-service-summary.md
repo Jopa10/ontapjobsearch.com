@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-10-04
-review_fingerprint: 9964493c110efef1e0909e461b87be01b72b42bb73ae490ce0dbd9a036e792d7
-routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
+review_date: 2026-10-05
+review_fingerprint: 6ab99a6c740e33632f81bace4604baf4f73541c95ca171b2b3ab7442287d7c29
+routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 7
-- POSS awaiting decision: 1
+- Records: 8
+- Selected: 6
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
 
@@ -98,21 +98,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-office-administrat
 
 ---
 action: 
-SELECTED | Lincolnshire | Brigg, Yorkshire and the Humber, DN20 8AR | £25,614.00 - £25,614.00 Annually (FTE) Grade B Points 3 (£25,614 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £21,561.31 | Receptionist (7569)
-employer: The Vale Academy
-closing_date: 2026-10-04T23:59:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4d46d7fdf39cb730b75dc98a349bdd7ecf8d58d58ee73ecf0707921140789ab4
-source: Teaching Vacancies
-source_job_id: receptionist-7569
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-7569
----
-
----
-action: 
 SELECTED | Lincolnshire | Boston, East Midlands, PE21 0PX | £23,933.00 - £25,098.00 Annually (Actual) G4.9-12 £26,846 - £28,153 FTE | Receptionist/Admin Assistant
 employer: Boston Endeavour Academy
 closing_date: 2026-10-21T23:59:00+01:00
@@ -128,20 +113,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-as
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Lincolnshire | Spalding, East Midlands, PE11 1JQ | Approx £25,000.00 | Finance Manager
-employer: The Spalding St John the Baptist Church of England Primary School
-closing_date: 2026-10-05T12:00:00+01:00
-reason: Manager title below £28,000 salary ceiling requires review
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0c71885b5ce88f1ceb6e195aa1cdb19480225d1e06265b08c31145dab4efc5e9
-source: Teaching Vacancies
-source_job_id: finance-manager-the-spalding-st-john-the-baptist-church-of-england-primary-school-spalding-lincolnshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-manager-the-spalding-st-john-the-baptist-church-of-england-primary-school-spalding-lincolnshire
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

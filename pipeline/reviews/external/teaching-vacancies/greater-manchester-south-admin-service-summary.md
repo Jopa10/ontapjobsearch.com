@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - South
 
-review_date: 2026-10-04
-review_fingerprint: 2397e629ca8e78dd96f834471361bd8638ed420540d9a3113ac177593c700c94
-routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
+review_date: 2026-10-05
+review_fingerprint: e27722ecaeeaf70037fc1442cf47d87d1d799f75bdb70a7a16760294f1f4370f
+routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
 ontap_region: Greater Manchester - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 1
 - Selected: 1
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 0
 
 ## SELECTED
 
@@ -38,20 +38,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-hyde-hi
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Greater Manchester - South | Dukinfield, North West, SK16 5BJ | £26,847.00 - £29,071.00 Annually (FTE) | Attendance and Communications Officer
-employer: Cromwell High School
-closing_date: 2026-10-05T09:00:00+01:00
-reason: Borderline school administration title: communications officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0a41ccb94dd6e3a92befca1242cb492e11df3ce5f44290929175ce6e1c936453
-source: Teaching Vacancies
-source_job_id: attendance-and-communications-officer
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-communications-officer
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -59,7 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-commun
 
 ## HARD_PASS
 
-- [Casual Committee Clerk](https://teaching-vacancies.service.gov.uk/jobs/casual-committee-clerk-the-laurus-trust-cheadle-not-recorded) — Insufficient admin/service evidence.
+- None.
 
 ## Safety boundary
 

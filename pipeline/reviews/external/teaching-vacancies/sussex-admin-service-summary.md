@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-10-04
-review_fingerprint: 2eb12a084b64458bec6a919df9cdae2c609c2a232c80385326521a0ddd6a4c89
-routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
+review_date: 2026-10-05
+review_fingerprint: 10df12d74b01dc4dbefacc0910489749ab695e48b9df942718550689c752d7d3
+routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 4
-- POSS awaiting decision: 3
+- Records: 9
+- Selected: 7
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 0
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Sussex | Eastbourne, South East, BN22 9EE | FTE: £26,017.00 - £26,429.00 (actual salary: £21,167.55 to £21,502.76) | Administrative Assistant
+employer: Heron Park Primary Academy
+closing_date: 2026-10-16T00:00:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5d19c60bd96f0537cbeff3a0b5e848650d9474e84a35b385d5dd43a4a326fbda
+source: Teaching Vacancies
+source_job_id: administrative-assistant-91c2bb10-6af8-4419-845b-e5add4b37610
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-91c2bb10-6af8-4419-845b-e5add4b37610
+---
 
 ---
 action: 
@@ -34,6 +49,21 @@ factual_fingerprint: d6ee43fde02e53f6999b40a3c112b57586a79c255832a8fb1841a11528e
 source: Teaching Vacancies
 source_job_id: administrator-st-leonards-church-of-england-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-st-leonards-church-of-england-primary-academy
+---
+
+---
+action: 
+SELECTED | Sussex | Horsham, South East, RH12 1SR | Grade 4, Points 5 -6 (£26,427 - £26,847) pro rata pa | Admissions / Transition Assistant & Community Receptionist
+employer: Tanbridge House School
+closing_date: 2026-10-19T09:00:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0f27b51900d49ba0c403f5e20dd044e426b3358586c9c898cebcfe3b8380bd2d
+source: Teaching Vacancies
+source_job_id: admissions-transition-assistant-community-receptionist-tanbridge-house-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-transition-assistant-community-receptionist-tanbridge-house-school
 ---
 
 ---
@@ -68,6 +98,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-hr-admin-a
 
 ---
 action: 
+SELECTED | Sussex | Eastbourne, South East, BN22 0SS | FTE: £27,712.00 to £28,608.00 (actual salary: £13,214.15 to £13,641.39) | Attendance Officer
+employer: Oakwood Primary Academy
+closing_date: 2026-10-16T09:00:00+01:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e7c6b5799d99d50ee210f6b91cdbdf55cf752bf7fbed371c078ff8b80708f21b
+source: Teaching Vacancies
+source_job_id: attendance-officer-oakwood-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-oakwood-primary-academy
+---
+
+---
+action: 
 SELECTED | Sussex | Chichester, South East, PO19 3HP | £37,563 - £40,444 pro rata | Personal Assistant to the Head Teacher
 employer: Bishop Luffa School, Chichester
 closing_date: 2026-10-08T23:59:00+01:00
@@ -82,21 +127,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Sussex | Eastbourne, South East, BN22 9EE | FTE: £26,017.00 - £26,429.00 (actual salary: £21,167.55 to £21,502.76) | Administrative Assistant
-employer: Heron Park Primary Academy
-closing_date: 2026-10-16T00:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5d19c60bd96f0537cbeff3a0b5e848650d9474e84a35b385d5dd43a4a326fbda
-source: Teaching Vacancies
-source_job_id: administrative-assistant-91c2bb10-6af8-4419-845b-e5add4b37610
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-91c2bb10-6af8-4419-845b-e5add4b37610
----
 
 ---
 action: 

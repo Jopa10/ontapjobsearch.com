@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-10-04
-review_fingerprint: e59b4123f888d30f3719c39ca3c9fa1a50af8d857b6556eedb456435a6ec277c
-routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
+review_date: 2026-10-05
+review_fingerprint: c10cf322b2e8d09cc1efecdc76eb569ba9ebdced94bf57ff8383724884e3daed
+routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 33
-- Selected: 9
-- POSS awaiting decision: 6
+- Records: 31
+- Selected: 10
+- POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 18
+- Hard pass: 16
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Yorkshire - West | Bingley, Yorkshire and the Humber, BD16 1TZ | DAT Level 3, SCP 18 - 25 (Actual Salary £25,228 - £29,641) | Academy Administrator L3
+employer: Dixons Cottingley Academy
+closing_date: 2026-10-23T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 62301829bf51441f239ce55941b60ed64382b946b862de12b8aa4548d916f17c
+source: Teaching Vacancies
+source_job_id: academy-administrator-l3-dixons-cottingley-academy-bingley
+source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-l3-dixons-cottingley-academy-bingley
+---
 
 ---
 action: 
@@ -38,17 +53,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
-SELECTED | Yorkshire - West | Wakefield, WF1 2PF | £28,153 - £29,071 | Administrative Assistant
-employer: Outwood Grange Academies Trust
-closing_date: 2026-10-05T09:00:00+01:00
+SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS7 4AW | B3 | Administrative Assistant
+employer: Holy Rosary and St Anne's Catholic Primary School, a Voluntary Academy
+closing_date: 2026-10-20T12:00:00+01:00
 reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: NEW_REVIEW
-factual_fingerprint: 5fbe8994cb15982b545fa4d64210407a2384529611e0b226040a7a7681ae605d
+factual_fingerprint: 09df11e9e9a5b102aa80bdb989e08bdbf4dc35863a2b009575c8ebb4453e8c56
 source: Teaching Vacancies
-source_job_id: administrative-assistant-outwood-grange-academies-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-outwood-grange-academies-trust
+source_job_id: administrative-assistant-holy-rosary-and-st-anne-s-catholic-primary-school-a-voluntary-academy-leeds-west-yorkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-holy-rosary-and-st-anne-s-catholic-primary-school-a-voluntary-academy-leeds-west-yorkshire
 ---
 
 ---
@@ -143,17 +158,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-principal-7
 
 ---
 action: 
-SELECTED | Yorkshire - West | Knottingley, WF11 0EP | £26,847.00 - £27,709.00 Annually (FTE) Grade D Points 6 to 8 (£26,847 - £27,709) | Recruitment Administrator (7575)
-employer: Delta Academies Trust
-closing_date: 2026-10-05T12:00:00+01:00
+SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS12 1JZ | B3-C1 depending on experience | School Administrator
+employer: Castleton Primary School
+closing_date: 2026-10-29T15:00:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: NEW_REVIEW
-factual_fingerprint: 794cf9e3ab60266f480339a49d9e9d8bc066d6078f41e4ad6169c57cc7ddfab2
+factual_fingerprint: 31e383b781a20302e34e83d5157446caa92379778f8d3c79d3254bec73ddc3ee
 source: Teaching Vacancies
-source_job_id: recruitment-administrator-7575
-source_url: https://teaching-vacancies.service.gov.uk/jobs/recruitment-administrator-7575
+source_job_id: school-administrator-castleton-primary-school-leeds-west-yorkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-castleton-primary-school-leeds-west-yorkshire
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -186,21 +201,6 @@ factual_fingerprint: 61afa72141e7475d1600554b56582a917cb619f0480d24f08a86360cc3c
 source: Teaching Vacancies
 source_job_id: administrator-9760a2d7-68da-4bd7-a0dd-b900c803df34
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-9760a2d7-68da-4bd7-a0dd-b900c803df34
----
-
----
-action: 
-POSS | Yorkshire - West | Leeds, Yorkshire and the Humber, LS16 5AG | Grade C2 SCP 15-19, actual salary £25,823-£27,575 | Deputy Student Services Manager & Attendance Lead
-employer: Lawnswood School
-closing_date: 2026-10-05T09:00:00+01:00
-reason: Manager title below £28,000 salary ceiling requires review
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: c8bc02669244efbf99574156d89c8d60deb83ddaa0f451325393c3c03d04fbba
-source: Teaching Vacancies
-source_job_id: deputy-student-services-manager-attendance-lead
-source_url: https://teaching-vacancies.service.gov.uk/jobs/deputy-student-services-manager-attendance-lead
 ---
 
 ---
@@ -259,14 +259,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-support-officer-7
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-ethos-academy-trust) — Insufficient admin/service evidence.
 - [Compliance Officer (7364)](https://teaching-vacancies.service.gov.uk/jobs/compliance-officer-7364) — Insufficient admin/service evidence.
 - [Content Creator (7617)](https://teaching-vacancies.service.gov.uk/jobs/content-creator-7617-delta-academies-trust) — Insufficient admin/service evidence.
-- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-buttershaw-business-enterprise-college-academy-bradford-west-yorkshire) — Manager title salary ceiling £37,655 is not below £28,000.
 - [Data, MIS and Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/data-mis-and-admissions-manager-batley-grammar-school-batley-west-yorkshire) — Manager title salary ceiling £38,267 is not below £28,000.
 - [Exam invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-24f8eb7c-b19e-4030-be72-314dfd2ec557) — Insufficient admin/service evidence.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.
-- [Exam Invigilators](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilators-beckfoot-trust) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-ossett-academy-and-sixth-form-college) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-greengates-primary-academy-bradford-west-yorkshire) — Insufficient admin/service evidence.
-- [HR Advisor (Central Team)](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-central-team) — Insufficient admin/service evidence.
+- [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-ilkley-grammar-school) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-holy-name-catholic-voluntary-academy) — Manager title salary ceiling £32,046 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-weetwood-primary-school-leeds-west-yorkshire) — Manager title salary ceiling £42,123 is not below £28,000.
 - [SEND Administration and Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/send-administration-and-support-assistant) — Insufficient admin/service evidence.

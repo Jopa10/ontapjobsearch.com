@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-10-04
-review_fingerprint: 7820cf62a8499b96eb09ea9cd722deb7c4d49a80dd2a11abd3b61a5ae28e2225
-routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
+review_date: 2026-10-05
+review_fingerprint: 6b2146cbe2a3476529d2a195453d9c67dde66fa96b0aeab1cd347380192680e0
+routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 7
+- Records: 11
+- Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 4
@@ -34,21 +34,6 @@ factual_fingerprint: edb84ca06584fa16776d98b0b872a98fd1b6c9343fdcb9b37a02b5108db
 source: Teaching Vacancies
 source_job_id: administration-assistant-level-2-st-patrick-s-roman-catholic-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-level-2-st-patrick-s-roman-catholic-primary-school
----
-
----
-action: 
-SELECTED | Greater Manchester - North | Oldham, North West, OL8 3PH | £27,274 - £29,071 per annum | Business Administrator based at New Bridge Learning Centre
-employer: New Bridge School
-closing_date: 2026-10-05T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 22085a544a14adad5b29c58f36d437310999305f2e0fa415629913301b3748cf
-source: Teaching Vacancies
-source_job_id: business-administrator-based-at-new-bridge-learning-centre
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administrator-based-at-new-bridge-learning-centre
 ---
 
 ---
@@ -151,7 +136,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/mis-systems-and-data-
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-richmond-academy) — Insufficient admin/service evidence.
 - [Attendance Support Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-support-officer-st-gabriel-s-rc-high-school-a-voluntary-academy-bury-lancashire) — Insufficient admin/service evidence.
-- [Business Administrator based at New Bridge College](https://teaching-vacancies.service.gov.uk/jobs/business-administrator-based-at-new-bridge-college) — Missing salary or pay scale.
+- [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-bc9a8d56-95b2-402f-9fa6-ac718f8f9933) — Insufficient admin/service evidence.
 - [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-sacred-heart-roman-catholic-primary-school-a-voluntary-academy) — Manager title salary ceiling £36,581 is not below £28,000.
 
 ## Safety boundary

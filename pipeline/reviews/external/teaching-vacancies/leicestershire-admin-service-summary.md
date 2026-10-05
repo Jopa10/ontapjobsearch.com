@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-10-04
-review_fingerprint: a36e729dfcd15fe5f9a1098375768959ff20ba46133bd17e2dbfb8b69ebd209e
-routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
+review_date: 2026-10-05
+review_fingerprint: 269f87571a2ef1c9c844bee9f3fc2ea627f1559c702d6cd6ab2f9bbf364cb5fd
+routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 1
+- Records: 13
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 9
 
 ## SELECTED
 
@@ -34,6 +34,36 @@ factual_fingerprint: f5199f3754ba92c6508a6bededdd47f65a4e65014035bb89c338e137f0d
 source: Teaching Vacancies
 source_job_id: key-stage-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/key-stage-administrator
+---
+
+---
+action: 
+SELECTED | Leicestershire | Leicester, East Midlands, LE2 6UA | £31,537.00 - £33,699.00 Annually (FTE) Grade 2 Point 3-3 | PA to the Principal
+employer: Tudor Grange Samworth Academy, A church of England School
+closing_date: 2026-10-23T12:00:00+01:00
+reason: Clear admin/service title: pa to
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a1954c1661a64e8898ff42ff72a0d3256220fabe92d5a8dd0b160b4af9c7dd25
+source: Teaching Vacancies
+source_job_id: pa-to-the-principal-06799846-251b-4b2c-bb1a-eb129a5f5011
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-principal-06799846-251b-4b2c-bb1a-eb129a5f5011
+---
+
+---
+action: 
+SELECTED | Leicestershire | Leicester, East Midlands, LE2 6UA | £22,693.00 - £23,049.00 Annually (Actual) | Student Services Administrator
+employer: Tudor Grange Samworth Academy, A church of England School
+closing_date: 2026-10-23T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 93df43360332a61ca995161112b99ac7b1f0d15ecb1a21ef37a24f52d450bb1d
+source: Teaching Vacancies
+source_job_id: student-services-administrator-b483b3bc-5d81-42ee-be3a-16ed93deb17d
+source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-administrator-b483b3bc-5d81-42ee-be3a-16ed93deb17d
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -67,6 +97,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-pensions-and-
 - [People Admin Team Leader](https://teaching-vacancies.service.gov.uk/jobs/people-admin-team-leader) — Insufficient admin/service evidence.
 - [School Business Manager ( Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-maternity-cover-keyham-lodge-school) — Manager title salary ceiling £44,109 is not below £28,000.
 - [School Office and SENDO Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-office-and-sendo-administration-assistant) — Insufficient admin/service evidence.
+- [Student Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/student-recruitment-officer) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-10-04
-review_fingerprint: 366a60914da5176917dcfd6eef1ec5041e1c8841a5a85eeba30c4b961775f652
-routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
+review_date: 2026-10-05
+review_fingerprint: 0a0e7452a237c0ee73ca15e95ea4ebccad3ae2bb914ad77f28e866b82130c243
+routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 5
+- Records: 18
+- Selected: 6
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 10
 
 ## SELECTED
 
@@ -64,6 +64,21 @@ factual_fingerprint: b687e4f906bc5b72685c9d8ec975b67ca14db3036735161d97c18fd340c
 source: Teaching Vacancies
 source_job_id: administrative-assistant-stanhope-primary-and-nursery-school-nottingham-nottinghamshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-stanhope-primary-and-nursery-school-nottingham-nottinghamshire
+---
+
+---
+action: 
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG11 7AB | £25,614.00 - £26,427.00 Annually (FTE) Salary will be paid pro rate based on term time weeks and hours worked | Administrative Assistant in Wilford, Nottingham
+employer: St Patrick's Catholic Primary and Nursery School
+closing_date: 2026-10-11T23:59:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5920cb36d0e053aad73613d8a6e5ddf5555861a3172e80f0fc21b3e19577e123
+source: Teaching Vacancies
+source_job_id: administrative-assistant-in-wilford-nottingham
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-in-wilford-nottingham
 ---
 
 ---
@@ -134,13 +149,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-the-go
 
 ## HARD_PASS
 
+- [Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-king-edward-primary-school-nursery) — Insufficient admin/service evidence.
 - [Administrative Officer L3](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-l3-robert-shaw-primary-and-nursery-school) — Insufficient admin/service evidence.
+- [Data & MIS Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-mis-assistant) — Insufficient admin/service evidence.
 - [Data Protection Support Officer](https://teaching-vacancies.service.gov.uk/jobs/data-protection-support-officer) — Insufficient admin/service evidence.
-- [Finance Apprentice](https://teaching-vacancies.service.gov.uk/jobs/finance-apprentice-our-lady-of-lourdes-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [HR and Recruitment Team Leader](https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-team-leader) — Insufficient admin/service evidence.
 - [HR/People Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-people-operations-manager) — Manager title salary ceiling £57,358 is not below £28,000.
+- [Office Manager in Wilford, Nottingham](https://teaching-vacancies.service.gov.uk/jobs/office-manager-in-wilford-nottingham) — Manager title salary ceiling £31,022 is not below £28,000.
 - [Personal Assistant to the Principal and Office Manager](https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-principal-and-office-manager-6f027893-3df6-483b-bec0-beb9e8765ced) — Manager title salary ceiling £34,280 is not below £28,000.
-- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-blue-bell-hill-primary-and-nursery-school-nottingham-nottinghamshire) — Insufficient admin/service evidence.
 - [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-the-flying-high-academy) — Insufficient admin/service evidence.
 - [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-burntstump-seely-cofe-primary-academy) — Manager title salary ceiling £30,514 is not below £28,000.
 

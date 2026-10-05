@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-10-04
-review_fingerprint: ee2541657b7287b5c0d9f7d063aeb447229fd3f2b7fccc62112a09606590743f
-routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
+review_date: 2026-10-05
+review_fingerprint: 9625cce50f7c60d5d81c920e664fa01afc95c54c0e0c07b97769233d8e43cc58
+routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 6
-- Selected: 1
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: 6dfc0ff4523b32661698aef2f0509616c0df8d6941f8baa8037c6a55ab6
 source: Teaching Vacancies
 source_job_id: administration-assistant-gladstone-road-primary-school-scarborough-north-yorkshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-gladstone-road-primary-school-scarborough-north-yorkshire
+---
+
+---
+action: 
+SELECTED | Yorkshire - North | Harrogate, Yorkshire and the Humber, HG3 2TT | £21,079.00 - £21,752.00 Annually (Actual) Band 5, SCP 4 -6. FTE: £26,016 - £26,847 | School Administrator
+employer: Saltergate Junior School
+closing_date: 2026-10-30T12:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4b7dfb51ddb82394ea4dad299d75a4b3c3de042ca78c87280b672f465fb1f3fb
+source: Teaching Vacancies
+source_job_id: school-administrator-saltergate-junior-school-harrogate-north-yorkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-saltergate-junior-school-harrogate-north-yorkshire
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -60,7 +75,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-office
 ## HARD_PASS
 
 - [Administration Apprentice](https://teaching-vacancies.service.gov.uk/jobs/administration-apprentice-park-grove-primary-academy) — Insufficient admin/service evidence.
-- [Exams Officer, Data and Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-officer-data-and-cover-manager) — Manager title salary ceiling £30,390 is not below £28,000.
 - [Reception and Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/reception-and-administration-assistant-knavesmire-primary-school) — Insufficient admin/service evidence.
 - [Safeguarding Officer](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-officer-5ec4a7bd-4b3a-4070-92dc-4fd84807f54f) — Insufficient admin/service evidence.
 

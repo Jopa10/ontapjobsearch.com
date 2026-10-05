@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-10-04
-review_fingerprint: 43b46796a74b2b74c10633888ab19783bc0f2005df8f9d673114e919bb8d5d00
-routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
+review_date: 2026-10-05
+review_fingerprint: 949a65a93c4461a8cf78d48e49ad6ff144b31da5d0cf360f3809d0ffefd6966d
+routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 5
-- POSS awaiting decision: 0
+- Records: 11
+- Selected: 3
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 7
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: 53036fa163499f625b7e3a69b3b1f64ddedab60ecf2eccc21a4507523fb
 source: Teaching Vacancies
 source_job_id: administrative-assistant-bampton-cofe-primary-school-bampton-oxfordshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-bampton-cofe-primary-school-bampton-oxfordshire
----
-
----
-action: 
-SELECTED | Oxfordshire | Abingdon, South East, OX14 1RF | £26,427.00 - £27,274.00 Annually (Actual) NJC Support Grade 5, SCP 5 - 7. Actual salary £22,686.56 - £23,413.68 FTE 0.86 | Admissions Administrator
-employer: Larkmead School
-closing_date: 2026-10-04T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6ebfcb525df5dbd91d79317b1b3fe4c7e685cb171afb2b8835c6d77dbc3b7234
-source: Teaching Vacancies
-source_job_id: admissions-administrator-larkmead-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-administrator-larkmead-school
 ---
 
 ---
@@ -81,24 +66,22 @@ source_job_id: receptionist-edf1f45d-c1c2-4efe-8319-033977840917
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-edf1f45d-c1c2-4efe-8319-033977840917
 ---
 
+## POSS — choose SELECT or EXCLUDE
+
 ---
 action: 
-SELECTED | Oxfordshire | Abingdon, South East, OX14 1RF | £26,016.00 - £26,427.00 Annually (FTE) NJC Support Grade 4, SCP 4 - 5. Actual salary £19,617.47 - £19,927.39 FTE 0.75 | Student Services Administrator
-employer: Larkmead School
-closing_date: 2026-10-04T23:59:00+01:00
-reason: Clear admin/service title: administrator
+POSS | Oxfordshire | Oxford, South East, OX2 7WP | £26,824.00 - £29,065.00 Annually (FTE) Grade 6, term-time only + INSET days, 10.5 to 14 hours per week | Data Assistant
+employer: The Swan School
+closing_date: 2026-10-12T08:00:00+01:00
+reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 7434365a3dfabe1ea82873d31014720b22aea7aec9a5f5637a2954848dfbb642
+factual_fingerprint: e3cbb83628cf44c680fd71fec088735a492051d60e33f99cb521b9ac3735f4dc
 source: Teaching Vacancies
-source_job_id: student-services-administrator-larkmead-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-administrator-larkmead-school
+source_job_id: data-assistant-the-swan-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-assistant-the-swan-school
 ---
-
-## POSS — choose SELECT or EXCLUDE
-
-- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -107,10 +90,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-admi
 ## HARD_PASS
 
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-4f507139-5c20-454a-a4fe-5cdecd55a8b0) — Insufficient admin/service evidence.
+- [MAT Administrator](https://teaching-vacancies.service.gov.uk/jobs/mat-administrator) — Missing salary or pay scale.
 - [Procurement Contract Performance Manager *Hybrid Role*](https://teaching-vacancies.service.gov.uk/jobs/procurement-contract-performance-manager-hybrid-role) — Manager title salary ceiling £55,225 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-edward-feild-primary-school) — Manager title salary ceiling £39,482 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-madley-brook-community-primary-school) — Manager title salary ceiling £42,124 is not below £28,000.
 - [School Premises and Compliance Manager](https://teaching-vacancies.service.gov.uk/jobs/school-premises-and-compliance-manager) — Manager title salary ceiling £36,050 is not below £28,000.
+- [SEN Administrator](https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-kings-sutton-primary-academy) — Missing salary or pay scale.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — South West
 
-review_date: 2026-10-04
-review_fingerprint: a720af3c93b67fd7162e32187139bbcb6a248ba1575cc4241f9a4ffedbc64ae6
-routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
+review_date: 2026-10-05
+review_fingerprint: db5ea1147fd9424fc72ad14710838546bb8dc802188980b133e9cff06c108d29
+routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
 ontap_region: South West
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
-- Selected: 2
+- Records: 2
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
@@ -36,21 +36,6 @@ source_job_id: pastoral-administrator-the-wellington-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-the-wellington-academy
 ---
 
----
-action: 
-SELECTED | South West | Chipping Campden, South West, GL55 6HU | £25,583 - £25,989 p.a. FTE | Receptionist & Administrative Assistant
-employer: Chipping Campden School
-closing_date: 2026-10-05T12:00:00+01:00
-reason: Clear admin/service title: administrative assistant, receptionist
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 89de83f9bda1975419ba34bb3d9c6ebf0673463319e9a96addcf343420b5e597
-source: Teaching Vacancies
-source_job_id: receptionist-administrative-assistant-chipping-campden-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrative-assistant-chipping-campden-school
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -61,7 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ## HARD_PASS
 
-- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-chipping-campden-school) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-torpoint-community-college) — Manager title salary ceiling £56,293 is not below £28,000.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-10-04
-review_fingerprint: 80febee55d91cccca15d6863fbdcb5ea9d566098108464e8e45fd2e1c76c0ad0
-routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
+review_date: 2026-10-05
+review_fingerprint: 6314f9de52790ffe2e788e4c945eb1b07de9523f1eb25e845f9a9d11c146bfd3
+routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,43 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 3
+- Records: 6
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 5
 
 ## SELECTED
-
----
-action: 
-SELECTED | Surrey | Epsom, South East, KT19 9SE | Specialist - £28,009 FTE (Actual - £16,733.32) | Attendance and Admissions Officer
-employer: Danetree Primary School
-closing_date: 2026-10-05T09:30:59+01:00
-reason: Clear admin/service title: admissions officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9666f46c5f5115472682d1a7b3b8c56c30e7ff689b6b9a2b0edd4fca5bb049f4
-source: Teaching Vacancies
-source_job_id: attendance-and-admissions-officer-65b72427-5324-4164-8260-a853358c3381
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admissions-officer-65b72427-5324-4164-8260-a853358c3381
----
-
----
-action: 
-SELECTED | Surrey | Guildford, South East, GU2 4YD | £26,080.00 Annually (FTE) Pro rata £7,287 | Office Administrator
-employer: St Nicolas' Church of England Infant School
-closing_date: 2026-10-05T08:00:00+01:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9026b50f22657a806517812de7c0db2b8d7404228f885b8cf9353bf1ce8a0d3f
-source: Teaching Vacancies
-source_job_id: office-administrator-294d664c-6dae-452d-b27f-2e380c9b2c7b
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-294d664c-6dae-452d-b27f-2e380c9b2c7b
----
 
 ---
 action: 
@@ -81,8 +51,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-a73
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-fox-grove-school-leatherhead-surrey) — Manager title salary ceiling £37,002 is not below £28,000.
 - [Office Manager/PA to Principal](https://teaching-vacancies.service.gov.uk/jobs/office-manager-pa-to-principal-kenyngton-manor-primary-school-sunbury-on-thames-surrey) — Manager title salary ceiling £33,301 is not below £28,000.
 - [Regional Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/regional-finance-manager-06cafd15-1ee6-4d43-9137-043ba72063ed) — Manager title salary ceiling £28,167 is not below £28,000.
-- [Regional Finance Partner](https://teaching-vacancies.service.gov.uk/jobs/regional-finance-partner-the-beacon-school) — Insufficient admin/service evidence.
-- [School Business Partner](https://teaching-vacancies.service.gov.uk/jobs/school-business-partner-powell-corderoy-primary-school) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

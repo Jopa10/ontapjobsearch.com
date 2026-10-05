@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-10-04
-review_fingerprint: 81296e9620b8ffaf2c14b70790360ab0abdbbff5cd5aa384009f52210cade926
-routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
+review_date: 2026-10-05
+review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,15 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 1
+- Records: 6
+- Selected: 0
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 6
 
 ## SELECTED
 
----
-action: 
-SELECTED | Cornwall | Camelford, South West, PL32 9UJ | £11,844.00 - £12,224.00 Annually (Actual) | Part Time Attendance Administrator
-employer: Sir James Smith's School
-closing_date: 2026-10-09T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1788cd853602a1caba22ef277fcaba837705c29954d4e55de55d75317e8614a3
-source: Teaching Vacancies
-source_job_id: part-time-attendance-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-attendance-administrator
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-10-04
-review_fingerprint: 4fe939b0160c6d3b7275c2a26a0ed1dc8be9cbd8da6f818b0e08e2094f021a48
-routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
+review_date: 2026-10-05
+review_fingerprint: 400abb9d88ecf66659e8e3e022271ba14bb11f6f8ba8bd5739c177ab8446bff7
+routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
-- Selected: 9
+- Records: 16
+- Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 8
 
 ## SELECTED
 
@@ -55,15 +55,15 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-admissions
 action: 
 SELECTED | Berkshire | Reading, South East, RG1 5SL | £12,218.00 Annually (Actual) Grade 3 (SCP 3-5 ) working 20 hours per week Term Time Only plus 5 INSET days. FTE £26,427.00 | Attendance Administrative Assistant
 employer: Maiden Erlegh School in Reading
-closing_date: 2026-10-25T23:59:00+00:00
+closing_date: 2026-10-09T23:59:00+01:00
 reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 25025decb2e1706d158688cad29f328492d1f11b80bcfa80ee2127aee2f4544b
+factual_fingerprint: 6acbdb857bcbb62c68412b534030a25587a73726cad6cc049a90b0209bac312f
 source: Teaching Vacancies
-source_job_id: attendance-administrative-assistant-491e52ee-e6f5-45d1-a1d1-8677846dcf7e
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrative-assistant-491e52ee-e6f5-45d1-a1d1-8677846dcf7e
+source_job_id: attendance-administrative-assistant-ed4aafe5-fa98-48aa-9744-11731e99aea3
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrative-assistant-ed4aafe5-fa98-48aa-9744-11731e99aea3
 ---
 
 ---
@@ -113,36 +113,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to
 
 ---
 action: 
-SELECTED | Berkshire | Slough, South East, SL3 7EF | £26,744.00 - £27,407.00 Annually (FTE) £23,236 - £23,812 Actual | Receptionist
-employer: The Langley Academy Primary
-closing_date: 2026-10-05T09:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1e27f6a815da037ab1ab18a395905bb3041827b3f7c3285cc2a297031ff8d33d
-source: Teaching Vacancies
-source_job_id: receptionist-the-langley-academy-primary
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-langley-academy-primary
----
-
----
-action: 
-SELECTED | Berkshire | Reading, South East, RG6 5UZ | £25,583.00 - £25,583.00 Annually (FTE) | School Administrator
-employer: Radstock Primary School
-closing_date: 2026-10-09T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4db642820872c78e47fce37926ef71ca84398ab5b279e28f14c29915d4b0bee1
-source: Teaching Vacancies
-source_job_id: school-administrator-radstock-primary-school-reading-berkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-radstock-primary-school-reading-berkshire
----
-
----
-action: 
 SELECTED | Berkshire | Slough, South East, SL2 5BA | £22,274.00 - £22,957.00 Annually (Actual) | Welfare Assistant & Administrator
 employer: James Elliman Academy
 closing_date: 2026-12-31T23:59:00+00:00
@@ -181,7 +151,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-finance-assist
 
 - [Business Operations Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/business-operations-co-ordinator-arbour-vale-school) — Insufficient admin/service evidence.
 - [Casual Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/casual-lettings-assistant-maiden-erlegh-chiltern-edge-reading-berkshire) — Insufficient admin/service evidence.
-- [Full Time Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/full-time-administration-officer) — Insufficient admin/service evidence.
 - [HR & Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-officer-the-park-federation-academy-trust) — Insufficient admin/service evidence.
 - [Office Manager and Personal Assistant to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-personal-assistant-to-the-headteacher-new-town-primary-school) — Manager title salary ceiling £40,444 is not below £28,000.
 - [Receptionist & Admin Assistant - Katesgrove Primary School](https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-katesgrove-primary-school-katesgrove-primary-school) — Missing salary or pay scale.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-10-04
-review_fingerprint: d3b0c253ca5d17f03972a5bf093af850e6ab2ace907a3e060e3f0d078d473825
-routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
+review_date: 2026-10-05
+review_fingerprint: fc3911dc267187846d2cec971b8988b9280352bf161498afad5b36e02cac3f0c
+routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 7
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 5
 
 ## SELECTED
 
@@ -38,14 +38,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | Hampshire | Basingstoke, South East, RG22 6HA | £12,059.00 - £13,260.00 Monthly Actual salary £12,059-£13,260 (FTE £25,551-£28,096) | Receptionist (Maternity Cover)
+SELECTED | Hampshire | Basingstoke, South East, RG22 6HA | £12,059.00 - £13,260.00 Annually (Actual) Actual salary £12,059-£13,260 (FTE £25,551-£28,096) | Receptionist (Maternity Cover)
 employer: The Blue Coat School Basingstoke
 closing_date: 2026-10-11T23:59:00+01:00
 reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 829d11b9cecd62de226d2621366319ac14d7de72ecfc2e017fa9d1d7e45049ab
+factual_fingerprint: 2e3ea1519bda1eb12204f012d1bb64bbf85d2f74f78a29d172664b51bf014fd8
 source: Teaching Vacancies
 source_job_id: receptionist-maternity-cover-the-blue-coat-school-basingstoke
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-maternity-cover-the-blue-coat-school-basingstoke
@@ -62,10 +62,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-maternit
 ## HARD_PASS
 
 - [Apprentice Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/apprentice-admin-assistant-penbridge-junior-school) — Missing salary or pay scale.
-- [Data Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-administration-assistant-cove-school) — Insufficient admin/service evidence.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-miltoncross-academy-portsmouth-hampshire) — Insufficient admin/service evidence.
 - [Exams Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-assistant-the-romsey-school) — Insufficient admin/service evidence.
-- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-romsey-school) — Insufficient admin/service evidence.
 - [School Resources/Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-resources-administration-assistant) — Insufficient admin/service evidence.
 - [Staff Wellbeing, Engagement and Development Advisor](https://teaching-vacancies.service.gov.uk/jobs/staff-wellbeing-engagement-and-development-advisor) — Insufficient admin/service evidence.
 

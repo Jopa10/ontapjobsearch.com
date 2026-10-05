@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-10-04
-review_fingerprint: 584053ad22514993bf0aeeaec0d44edd48c9411479fa3c6018ec5741787f9158
-routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
+review_date: 2026-10-05
+review_fingerprint: 1192b0370674978a896d765aba42e314360d8a6bc16586f3ae625acc0ebcaf91
+routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 6
+- Records: 11
+- Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 3
@@ -94,6 +94,21 @@ factual_fingerprint: 8718bdfd908366630ba997073fb86db4a3a7e7042bbbd10104f7cb9b371
 source: Teaching Vacancies
 source_job_id: attendance-officer-0493d912-bc9a-4b94-82de-5beddc58546b
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-0493d912-bc9a-4b94-82de-5beddc58546b
+---
+
+---
+action: 
+SELECTED | Norfolk | Great Yarmouth, East of England, NR29 4QD | £24,827.05 - £26,060.00 Annually (Actual) OAT Grade 4, SCP 11 - 14 (Salary figure includes holiday pay) | Attendance Officer
+employer: Flegg High Ormiston Academy
+closing_date: 2026-10-11T23:59:00+01:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e557f2119d3edb765a1efeafa1b58253c8ef3f004379024865ca310840537748
+source: Teaching Vacancies
+source_job_id: attendance-officer-flegg-high-ormiston-academy-great-yarmouth-norfolk
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-flegg-high-ormiston-academy-great-yarmouth-norfolk
 ---
 
 ---

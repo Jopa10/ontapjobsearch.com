@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - Central
 
-review_date: 2026-10-04
-review_fingerprint: 757b23cf0c0e843fdcec3fd69bb1515f9c0c4a8d4861649a7dfb813e363ffd09
-routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
+review_date: 2026-10-05
+review_fingerprint: c9748c6fbc01a5ad8981f1599fed74a19937109762f5a0ac11a0cad018cb842f
+routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
 ontap_region: Lancashire - Central
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 2
+- Records: 3
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
 
 ## SELECTED
-
----
-action: 
-SELECTED | Lancashire - Central | Preston, North West, PR5 5SS | 29,542.00 - 33,119.00 | Administrator 4 - EHCP Annual Review Coordinator
-employer: Applebee Wood School
-closing_date: 2026-10-05T09:30:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 2be2c4c072520ccfc74e7e4157d5724f59aee8a2b1a8cfda9b49b65f9ec3ad1c
-source: Teaching Vacancies
-source_job_id: administrator-4-ehcp-annual-review-coordinator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-4-ehcp-annual-review-coordinator
----
 
 ---
 action: 
@@ -61,8 +46,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-suppo
 
 ## HARD_PASS
 
-- [Administrative and Operations Lead - Garstang Community Academy](https://teaching-vacancies.service.gov.uk/jobs/administrative-and-operations-lead-garstang-community-academy) — Insufficient admin/service evidence.
 - [Communications and Marketing Lead](https://teaching-vacancies.service.gov.uk/jobs/communications-and-marketing-lead) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-parklands-high-school) — Manager title salary ceiling £42,123 is not below £28,000.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-10-04
-review_fingerprint: 07b90519a022002e84be9688aa1950e0d2151dd5c97c72ea1ae6fbf2e51fc6f1
-routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
+review_date: 2026-10-05
+review_fingerprint: 4d8c8b1e74279e5ce7cb1579f80b91b07af3a6b4486c6a8d0981e66647a72ff9
+routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 5
+- Records: 14
+- Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 7
@@ -64,6 +64,21 @@ factual_fingerprint: ab3328140fa5c8684e82b78622add87aa9152bb8d0f24a82e01e2ff2f69
 source: Teaching Vacancies
 source_job_id: attendance-and-send-administrator-with-midday-assistant-role-included
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-send-administrator-with-midday-assistant-role-included
+---
+
+---
+action: 
+SELECTED | Essex | Rayleigh, East of England, SS6 7PE | £8,652.85 - £8,772.20 Annually (Actual) | Office Admin Assistant
+employer: Wyburns Primary School
+closing_date: 2026-10-16T12:00:00+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c499bedcccf2810eaed38ced638242de21e035e3a0183c403c8a7d813f1b2a7e
+source: Teaching Vacancies
+source_job_id: office-admin-assistant-wyburns-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-admin-assistant-wyburns-primary-school
 ---
 
 ---
@@ -123,9 +138,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/people-operations-off
 - [Deputy Head of Year](https://teaching-vacancies.service.gov.uk/jobs/deputy-head-of-year-chase-high-school) — Out-of-scope occupation: deputy head.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-mossbourne-port-side-academy) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-harlow-college) — Insufficient admin/service evidence.
-- [Payroll, Contracts & Systems Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-contracts-systems-officer) — Insufficient admin/service evidence.
-- [Senior HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-8119a08e-351e-407b-8e55-7b302ed8a76f) — Insufficient admin/service evidence.
+- [Senior HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-25bac6ce-5943-4c6e-9e63-670d8e460c1b) — Insufficient admin/service evidence.
 - [STUDENT ATTENDANCE AND INCLUSION MANAGER](https://teaching-vacancies.service.gov.uk/jobs/student-attendance-and-inclusion-manager-dee93199-2550-4a54-8c93-9bcd03bba34f) — Manager title without salary evidence below £28,000.
+- [Support Manager](https://teaching-vacancies.service.gov.uk/jobs/support-manager-little-thurrock-primary-school) — Manager title salary ceiling £33,495 is not below £28,000.
 
 ## Safety boundary
 

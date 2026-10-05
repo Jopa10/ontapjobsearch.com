@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-10-04
-review_fingerprint: 58f6c0a9cfbd9cc7e3daca6c6f6dafe52bdeefc84f9b0da5569cee03ea83f5af
-routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
+review_date: 2026-10-05
+review_fingerprint: d6218f35cf49e6c3863d1521a2b0c42a433dba8be55ac6e004b6917db3786a8f
+routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -53,21 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B11 3ND | £24,796.00 - £28,142.00 Annually (FTE) | Administrative Assistant
-employer: Greet Primary School
-closing_date: 2026-10-05T09:00:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: fc968faab5730af91ee89e6ef616340b0e94f6edf832956261a66e64abad16a6
-source: Teaching Vacancies
-source_job_id: administrative-assistant-greet-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-greet-primary-school
----
-
----
-action: 
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B43 7DH | £13.70 - £13.92 Hourly | Administrative Assistant
 employer: Pheasey Park Farm Primary School and Early Years Centre
 closing_date: 2026-10-09T09:00:00+01:00
@@ -98,17 +83,32 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B17 9LU | £26,514.00 - £29,071.00 Annually (FTE) | Administrative Assistant, Admissions & Attendance
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B17 9LU | £26,514.00 - £29,071.00 Annually (FTE) Term time only | Administrative Assistant, Admissions & Attendance
 employer: Harborne Primary School
 closing_date: 2026-10-12T12:00:00+01:00
 reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 9aa2156f0b152cb2aa0fa9b9216fd86874198a738441e87d1876e4cadc87191d
+factual_fingerprint: c90c618d9ad644708f49fe277298376399b4f05893fe0a837096423693b11668
 source: Teaching Vacancies
 source_job_id: administrative-assistant-admissions-attendance
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-admissions-attendance
+---
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B17 8QB | £28,153.00 - £31,015.00 Annually (FTE) Actual pro-rated salary based on term time plus two weeks, during the summer holidays, equates to £25,961 (Scale Point 9) per annum to £26,600 (scale point 15) | Attendance Officer
+employer: King Edward VI Lordswood School for Girls
+closing_date: 2026-10-12T23:59:00+01:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e40dee9ec13429260b0f4a5ddc95f0ad531001dad9f21b4bb037a7125b783119
+source: Teaching Vacancies
+source_job_id: attendance-officer-king-edward-vi-lordswood-school-for-girls
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-king-edward-vi-lordswood-school-for-girls
 ---
 
 ---
@@ -173,13 +173,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-adminis
 - [Governance Support Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-support-officer-eaa7a044-716c-471a-b1e0-33530ee7b932) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-st-john-paul-ii-multi-academy-company-birmingham-not-recorded) — Insufficient admin/service evidence.
 - [Office Administration](https://teaching-vacancies.service.gov.uk/jobs/office-administration) — Insufficient admin/service evidence.
+- [Office Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/office-co-ordinator-moor-green-primary-academy-birmingham) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-bloomsbury-nursery-school) — Manager title salary ceiling £34,434 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-erdington-hall-primary-school) — Manager title salary ceiling £43,149 is not below £28,000.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-greet-primary-school) — Manager title salary ceiling £34,434 is not below £28,000.
 - [PA to Executive Head](https://teaching-vacancies.service.gov.uk/jobs/pa-to-executive-head) — Missing salary or pay scale.
 - [Regional Commercial Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/regional-commercial-procurement-manager-ormiston-academies-trust-birmingham-not-recorded) — Manager title salary ceiling £63,638 is not below £28,000.
+- [Reprographics and Media Assistant](https://teaching-vacancies.service.gov.uk/jobs/reprographics-and-media-assistant) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-severne-junior-infant-and-nursery-school) — Manager title salary ceiling £55,224 is not below £28,000.
-- [School Finance Partner](https://teaching-vacancies.service.gov.uk/jobs/school-finance-partner-fioretti-trust) — Insufficient admin/service evidence.
 - [SENIOR ADMINISTRATOR – SEND ASSISTANT MANAGER](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-send-assistant-manager) — Manager title salary ceiling £32,554 is not below £28,000.
 
 ## Safety boundary

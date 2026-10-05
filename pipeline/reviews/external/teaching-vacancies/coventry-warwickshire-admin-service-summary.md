@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-10-04
-review_fingerprint: 958737d95aaeca3c8d3656dee17b02af67f21987f5913856ec88f73367ba5ac7
-routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
+review_date: 2026-10-05
+review_fingerprint: bdfec012a7bde9c9b6d530ed33a73a2153f2648548a2fef732e4ed5b3be0c2f4
+routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
+- Records: 10
 - Selected: 6
-- POSS awaiting decision: 4
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 2
 
 ## SELECTED
 
@@ -98,17 +98,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-the-q
 
 ---
 action: 
-SELECTED | West Midlands - Coventry & Warwickshire | Shipston-on-Stour, West Midlands, CV36 4DY | Grade D £13.28 per hour £25,614 to £26,016 pro rata (£21,908 to £22,252 actual salary) | Receptionist/Administrator
-employer: Shipston High School
-closing_date: 2026-10-05T09:00:00+01:00
-reason: Clear admin/service title: administrator, receptionist
+SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV2 5BD | Actual salary £22,576 – £23,667 | Receptionist and Administrative Assistant to the Deputy Headteachers
+employer: Caludon Castle School
+closing_date: 2026-10-11T21:00:59+01:00
+reason: Clear admin/service title: administrative assistant, receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: d4bcc6fbd136d69ab3ac9b036f165cf9f3430405a5290f5b8358b2e0e3aab19d
+factual_fingerprint: bc633ad4da0e49c9648df10948f861dbe623298ce1c6be01218857619cb1c109
 source: Teaching Vacancies
-source_job_id: receptionist-administrator-shipston-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-shipston-high-school
+source_job_id: receptionist-and-administrative-assistant-to-the-deputy-headteachers
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administrative-assistant-to-the-deputy-headteachers
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -143,36 +143,6 @@ source_job_id: mat-compliance-officer
 source_url: https://teaching-vacancies.service.gov.uk/jobs/mat-compliance-officer
 ---
 
----
-action: 
-POSS | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV2 5BD | Actual salary £22,576 – £23,667 | Reception and Administration Assistant
-employer: Caludon Castle School
-closing_date: 2026-10-11T21:00:59+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 48dca5d87b4c65af608f240ac3ae74399f4fabd6f66b8e514bfc4f9db5c6e2da
-source: Teaching Vacancies
-source_job_id: reception-and-administration-assistant-caludon-castle-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-administration-assistant-caludon-castle-school
----
-
----
-action: 
-POSS | West Midlands - Coventry & Warwickshire | Nuneaton, CV11 4QH | £27,274 to £29,071 | Trust Finance Officer
-employer: Central England Academy Trust
-closing_date: 2026-10-05T08:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a92775ee5b95846cf1f31e310093aee615b44c30759f8f14ea147b9f5887421b
-source: Teaching Vacancies
-source_job_id: trust-finance-officer-central-england-academy-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-central-england-academy-trust
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -181,9 +151,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer
 
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-triumph-learning-trust-rugby-not-recorded) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-etone-college) — Insufficient admin/service evidence.
-- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-finham-park-school-coventry-west-midlands) — Manager title salary ceiling £54,143 is not below £28,000.
-- [PE Sports and Personal Development Assistant](https://teaching-vacancies.service.gov.uk/jobs/pe-sports-and-personal-development-assistant) — Insufficient admin/service evidence.
-- [Technical Services Team Assistant](https://teaching-vacancies.service.gov.uk/jobs/technical-services-team-assistant) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

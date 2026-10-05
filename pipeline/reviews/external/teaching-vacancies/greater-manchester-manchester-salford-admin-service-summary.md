@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-10-04
-review_fingerprint: 9eacbb98ea15671ba591bccca501b027609cf1541734129f63b89985576e544e
-routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
+review_date: 2026-10-05
+review_fingerprint: 7a2e7be23a0e996c702ccece4a6127c9f73a5ded5397d10bf4011394895e9cb1
+routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
+- Records: 8
 - Selected: 4
-- POSS awaiting decision: 3
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -53,17 +53,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ---
 action: 
-SELECTED | Greater Manchester - Manchester & Salford | Salford, North West, M6 6QT | £24,965.00 - £30,113.00 Annually (Actual) Additional payments for lunch duties | SEND Administrator
-employer: The Albion Academy
-closing_date: 2026-10-05T09:00:00+01:00
-reason: Clear admin/service title: administrator
+SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M44 5ZR | £24,947.00 - £28,090.00 Annually (FTE) | Receptionist
+employer: Irlam and Cadishead Academy
+closing_date: 2026-10-16T12:00:00+01:00
+reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 9941e9856b058db66d6f82dc91968fd931dbb0c5db2830d6fc6be468218b1dd1
+factual_fingerprint: a792367ab5646c645b06cce1d4cbf468df21a679e383214d4cc0df1170e9b8f6
 source: Teaching Vacancies
-source_job_id: send-administrator-the-albion-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-the-albion-academy
+source_job_id: receptionist-irlam-and-cadishead-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-irlam-and-cadishead-academy
 ---
 
 ---
@@ -113,21 +113,6 @@ source_job_id: reception-and-administration-assistant-crown-street-primary-schoo
 source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-administration-assistant-crown-street-primary-school
 ---
 
----
-action: 
-POSS | Greater Manchester - Manchester & Salford | Manchester, North West, M40 9GJ | Grade 5 - £30,023 - £33,119 | School Administrator
-employer: Camberwell Park Specialist Support School
-closing_date: 2026-10-04T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 63085fe73ce468012414be44688e7e35d3960864db75ac63afc10b7462168e8d
-source: Teaching Vacancies
-source_job_id: school-administrator-camberwell-park-specialist-support-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-camberwell-park-specialist-support-school
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -135,7 +120,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 ## HARD_PASS
 
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/apprentice-finance-assistant-37) — Insufficient admin/service evidence.
-- [Governance and Compliance Professional](https://teaching-vacancies.service.gov.uk/jobs/governance-and-compliance-professional-greater-manchester-academies-trust) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-the-co-operative-academies-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary

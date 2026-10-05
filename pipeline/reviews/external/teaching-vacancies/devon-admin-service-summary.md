@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-10-04
-review_fingerprint: cf234034db2487511e2d9c2b8adc17a45a5796b340a9fa2c2ff6fb5d40fffe2f
-routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
+review_date: 2026-10-05
+review_fingerprint: 4247938d84a8c1fbd3599a460f64a85394df2bf04dd55ca24af847324a26e022
+routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 24
-- Selected: 15
+- Records: 23
+- Selected: 14
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 6
@@ -34,21 +34,6 @@ factual_fingerprint: fa3e4a08600fd7b03bc7027f0647856e642892d82ad6f06d0281851a495
 source: Teaching Vacancies
 source_job_id: administrative-assistant-newton-abbot-college
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-newton-abbot-college
----
-
----
-action: 
-SELECTED | Devon | Exeter, South West, EX2 6AP | £23,071.62 - £25,407.68 | Attendance Officer
-employer: Isca Academy
-closing_date: 2026-10-25T23:59:00+00:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7a9c7a64b3f34bd5056f712eba69c7e36f82919a1a4014a5b61bfbe1c787f70b
-source: Teaching Vacancies
-source_job_id: attendance-officer-4a095b88-91b4-4569-8b60-0007e7f44a59
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-4a095b88-91b4-4569-8b60-0007e7f44a59
 ---
 
 ---
@@ -220,12 +205,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 action: 
 SELECTED | Devon | Exeter, South West, EX2 7LB | £31,724 - £35,688 | Senior Administrator
 employer: Stansfield Academy
-closing_date: 2026-10-22T23:59:00+01:00
+closing_date: 2026-10-05T23:59:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 9553a9b88cb7d038d52cffa77f733aa2968fe3935c15ada1e04688dcfe48de38
+factual_fingerprint: f15e070093b3334fc66696a87d368b472234ab719d87bb645b6fe45c865e3501
 source: Teaching Vacancies
 source_job_id: senior-administrator-stansfield-academy-exeter-devon
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-stansfield-academy-exeter-devon
@@ -257,10 +242,10 @@ reason: Manager title below £28,000 salary ceiling requires review
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 32a71d322a91330128a9313e4c1d0c041facb089104f1d7483f14a376a6433e9
+factual_fingerprint: d06c2a590fb9c0288eb61b2205b44f188937bb7dbfbf9d6c24960bc17b6f423e
 source: Teaching Vacancies
-source_job_id: data-manager-1904630c-9a5e-4c61-a889-251c7e244c67
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-manager-1904630c-9a5e-4c61-a889-251c7e244c67
+source_job_id: data-manager-ede70353-55db-4cf7-a540-0e0c7cfc4b8a
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-manager-ede70353-55db-4cf7-a540-0e0c7cfc4b8a
 ---
 
 ---

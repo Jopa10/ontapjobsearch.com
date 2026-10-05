@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-10-04
-review_fingerprint: 86a5ceacf18242507732c8627b1015164235fcc13a24d5c1c29db80dc28bf2ce
-routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
+review_date: 2026-10-05
+review_fingerprint: 3f54d183c0e06e00363c7ee9a10820a5395ef6f81ce81e80a9695d1d854c3057
+routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -38,17 +38,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
-SELECTED | West Midlands - Black Country | Oldbury, West Midlands, B69 2HE | £24,206.00 - £25,408.00 Annually (FTE) OAT Grade 4, SCP 11-14 (£28,142 - £29,540 per annum FTE) Actual salary based on working term-time + 1 week of training days | Attendance Officer
-employer: Ormiston Sandwell Community Academy
-closing_date: 2026-10-05T09:00:00+01:00
-reason: Clear admin/service title: attendance officer
+SELECTED | West Midlands - Black Country | Wolverhampton, West Midlands, WV10 6NN | £13.70 - £13.92 Hourly | Receptionist
+employer: Elston Hall Primary School
+closing_date: 2026-10-19T09:00:00+01:00
+reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 877c52fb77fbb61c1bf31e766abb454c3672ed9dc361751e5bd429a45f26e1a8
+factual_fingerprint: df5be0223fe06b9c318caa115271a9a0f90493a52ede1070e18999535d5eaceb
 source: Teaching Vacancies
-source_job_id: attendance-officer-ormiston-sandwell-community-academy-oldbury-west-midlands
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-ormiston-sandwell-community-academy-oldbury-west-midlands
+source_job_id: receptionist-elston-hall-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-elston-hall-primary-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

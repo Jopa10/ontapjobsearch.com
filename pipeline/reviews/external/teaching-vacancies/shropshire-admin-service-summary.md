@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Shropshire
 
-review_date: 2026-10-04
-review_fingerprint: cf15bd717a6c2ea2e44d52dceaaf3766209af448d6ccb29e7ea4e6b0e4598f98
-routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
+review_date: 2026-10-05
+review_fingerprint: 73e3c224e585fd545d773f9fbcb9c2135b72fe8032ad2aba7ab09165ca1fe56e
+routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
 ontap_region: Shropshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,43 +13,15 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 2
+- Records: 2
+- Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
 
----
-action: 
-SELECTED | Shropshire | Wellington, South West, TA21 8NE | Between £25,989 and £28,142 | Finance & Admin Assistant
-employer: Beech Grove Primary School
-closing_date: 2026-10-05T12:00:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2681a69fb81b317c0905deb5ed55b11c71a14d102bf60e1fc5854e1b253d7877
-source: Teaching Vacancies
-source_job_id: finance-admin-assistant-beech-grove-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-admin-assistant-beech-grove-primary-school
----
-
----
-action: 
-SELECTED | Shropshire | Wellington, South West, TA21 8NE | Between £28,598 and £32,061 | SENCo and Safeguarding Admin Assistant - HLTA position
-employer: Beech Grove Primary School
-closing_date: 2026-10-05T12:00:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 342450e1e02375910378291c0987783af025fb9cb05855a0c5f12170655b052d
-source: Teaching Vacancies
-source_job_id: senco-and-safeguarding-admin-assistant-hlta-position
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senco-and-safeguarding-admin-assistant-hlta-position
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 

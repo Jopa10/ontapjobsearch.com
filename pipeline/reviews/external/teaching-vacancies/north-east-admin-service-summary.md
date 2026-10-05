@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-10-04
-review_fingerprint: e9c0d9e9353c3611460b5af76001855eaf911c257811f861576b515afc582f01
-routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
+review_date: 2026-10-05
+review_fingerprint: feb0cd3099a0af9bbecd12e203d76ef650efb7f77e9588603f945315d3472176
+routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
+- Records: 17
 - Selected: 7
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 8
 
 ## SELECTED
 
@@ -83,21 +83,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-management-admin
 
 ---
 action: 
-SELECTED | North East | Sunderland, North East, SR5 5JA | N5 SCP 13 - 17 FTE salary: £30,023 - £32,046 per annum £16,615 - £17,735 actual salary pro-rata (£15.56 - £16.61 hourly rate) | Lead Administrator
-employer: Harry Watts Academy
-closing_date: 2026-10-05T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 02235493379e4832a8638469601417d5b6e7baded4f518dcb9a94c0467a1d63a
-source: Teaching Vacancies
-source_job_id: lead-administrator-harry-watts-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/lead-administrator-harry-watts-academy
----
-
----
-action: 
 SELECTED | North East | Berwick-upon-Tweed, North East, TD15 1SP | £25,989 | School Administrator
 employer: Berwick St Mary's Church of England Primary School
 closing_date: 2026-10-12T09:00:00+01:00
@@ -109,6 +94,21 @@ factual_fingerprint: 15224eb3202ab3213a3695255ee17a2d96d67d203876f3cf67611dfb60a
 source: Teaching Vacancies
 source_job_id: school-administrator-4b89961d-cc62-4cfa-9732-a8929179b607
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-4b89961d-cc62-4cfa-9732-a8929179b607
+---
+
+---
+action: 
+SELECTED | North East | Sunderland, North East, SR5 5QL | £26,427.53 - £26,846.49 Annually (FTE) Grade C SCP 5-6 (£26,427.53 - £26,846.49) Pro Rata (£22,629.87 - £22,988.62) | School Office Administrator
+employer: Northern Saints Church of England Academy
+closing_date: 2026-10-16T12:00:00+01:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c326dc3cac87d3b4dd6242c275c7285015face4561caa078c3ab3ca2f9fadde1
+source: Teaching Vacancies
+source_job_id: school-office-administrator-northern-saints-church-of-england-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-administrator-northern-saints-church-of-england-academy
 ---
 
 ---
@@ -169,6 +169,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrati
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-st-anthony-s-girls-catholic-academy-sunderland-tyne-and-wear) — Manager title salary ceiling £42,123 is not below £28,000.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-bishop-chadwick-catholic-education-trust) — Insufficient admin/service evidence.
 - [Governance and Procurement Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-and-procurement-officer) — Insufficient admin/service evidence.
+- [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-the-ascent-academies-trust) — Insufficient admin/service evidence.
 - [HR Support Staff](https://teaching-vacancies.service.gov.uk/jobs/hr-support-staff) — Insufficient admin/service evidence.
 - [Marketing Assistant](https://teaching-vacancies.service.gov.uk/jobs/marketing-assistant-kings-priory-school) — Insufficient admin/service evidence.
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - East
 
-review_date: 2026-10-04
-review_fingerprint: ab8f18043eebf309dd89bb6b6c80d9d5ccba68e540e9ca019d93d839a87d3b56
-routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
+review_date: 2026-10-05
+review_fingerprint: 14428fe4020843d0db1dc9afe0dff24ba18b2dfeb7b043f0c0e1a15702bbdb02
+routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
 ontap_region: Lancashire - East
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 2
+- Records: 4
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
@@ -36,21 +36,6 @@ source_job_id: office-and-admissions-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-and-admissions-administrator
 ---
 
----
-action: 
-SELECTED | Lancashire - East | Clitheroe, North West, BB7 1EJ | APT&C Grade 4 | SEND Administrator
-employer: Ribblesdale School
-closing_date: 2026-10-05T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 02d3d2a79fc38a859e77c47ba78903d0f19e1f553d47acd0204d2f2fad670e69
-source: Teaching Vacancies
-source_job_id: send-administrator-ribblesdale-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ribblesdale-school
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -63,7 +48,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ri
 
 - [Administrative Officer - SEND Admin Support](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-send-admin-support) — Insufficient admin/service evidence.
 - [Attendance Improvement Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-improvement-manager-pendle-vale-college) — Manager title salary ceiling £30,907 is not below £28,000.
-- [Payroll and Pensions Manager](https://teaching-vacancies.service.gov.uk/jobs/payroll-and-pensions-manager-star-academies-blackburn-not-recorded) — Manager title salary ceiling £60,952 is not below £28,000.
+- [HR Operations & Systems Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-operations-systems-advisor) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

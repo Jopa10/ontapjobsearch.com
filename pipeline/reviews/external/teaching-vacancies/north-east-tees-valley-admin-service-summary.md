@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East - Tees Valley
 
-review_date: 2026-10-04
+review_date: 2026-10-05
 review_fingerprint: e14716a3db6f1df2ea2cdd819986226e5ab5a3ab3339a572c81e3670f2956f30
-routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
+routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 10
 - Selected: 4
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 4
 
 ## SELECTED
 
@@ -119,11 +119,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-hr-assistant-17
 
 ## HARD_PASS
 
-- [Administration Support Clerk](https://teaching-vacancies.service.gov.uk/jobs/administration-support-clerk-acklam-grange-school) — Insufficient admin/service evidence.
 - [Barley Fields Primary School – School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/barley-fields-primary-school-school-office-manager) — Manager title salary ceiling £39,124 is not below £28,000.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-outwood-academy-redcar) — Insufficient admin/service evidence.
 - [Office Manager and PA to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-pa-to-the-headteacher-our-lady-st-bede-catholic-academy-stockton-on-tees-cleveland) — Manager title salary ceiling £33,699 is not below £28,000.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-patrick-s-catholic-college-a-voluntary-catholic-academy) — Manager title salary ceiling £35,412 is not below £28,000.
 - [Trust Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-assistant-dc4109c3-10fb-4988-9b60-ca1acab51bc8) — Insufficient admin/service evidence.
 
 ## Safety boundary

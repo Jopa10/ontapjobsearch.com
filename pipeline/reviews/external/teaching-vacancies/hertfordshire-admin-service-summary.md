@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-10-04
-review_fingerprint: 6806944d5be5ad862affc140fd55c8d3d3f2c91f9c7f2123f3419184276d7493
-routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
+review_date: 2026-10-05
+review_fingerprint: a4c3a5dbbb834c834ee24ab4bc0a5319474f9e76842ead59c70c1b18d3d7d179
+routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 16
-- Selected: 8
+- Selected: 6
 - POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 5
 
 ## SELECTED
 
@@ -49,36 +49,6 @@ factual_fingerprint: f4948a796e5d4d65e9f8083c1c8fad9c27087de624c709c8f2e1edd06d7
 source: Teaching Vacancies
 source_job_id: attendance-administrator-the-astley-cooper-school-hemel-hempstead-hertfordshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-the-astley-cooper-school-hemel-hempstead-hertfordshire
----
-
----
-action: 
-SELECTED | Hertfordshire | Watford, East of England, WD18 0AE | £25,118.00 Annually (Actual) | Cover Administrator / Supervisor
-employer: Watford Grammar School for Girls
-closing_date: 2026-10-04T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 99e58c1b1ddcb198cf9e15201f009289810763c1247701ee26fa168bd2d9241e
-source: Teaching Vacancies
-source_job_id: cover-administrator-supervisor
-source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-administrator-supervisor
----
-
----
-action: 
-SELECTED | Hertfordshire | Hertford, East of England, SG13 8AJ | £23,939.00 - £25,947.00 Annually (Actual) H5 | Database and Admissions Administrator
-employer: Simon Balle All-Through School
-closing_date: 2026-10-05T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 04e627ebbf407ed87e881615e1bf00b89bee52e3076c91b6a059e967539fcb1b
-source: Teaching Vacancies
-source_job_id: database-and-admissions-administrator-simon-balle-all-through-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/database-and-admissions-administrator-simon-balle-all-through-school
 ---
 
 ---
@@ -190,21 +160,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-d40681c8-8
 
 ---
 action: 
-POSS | Hertfordshire | St Albans, East of England, AL4 0XB | £15,169.00 Annually (Actual) Plus fringe £425 | KS4 Pastoral and Administrative Support (H4)
-employer: Beaumont School
-closing_date: 2026-10-05T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a348dc86d7c9991fecb24590b0d163554146601723cbb4f4452bc34ea2378497
-source: Teaching Vacancies
-source_job_id: ks4-pastoral-and-administrative-support-h4
-source_url: https://teaching-vacancies.service.gov.uk/jobs/ks4-pastoral-and-administrative-support-h4
----
-
----
-action: 
 POSS | Hertfordshire | Hemel Hempstead, East of England, HP1 2JU | £25,390.00 Annually (Actual) H5/6 pro rata | Office Manager
 employer: Oakleaf Primary
 closing_date: 2026-10-07T09:00:00+01:00
@@ -218,6 +173,21 @@ source_job_id: office-manager-oakleaf-primary-hemel-hempstead-hertfordshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-oakleaf-primary-hemel-hempstead-hertfordshire
 ---
 
+---
+action: 
+POSS | Hertfordshire | Royston, East of England, SG8 6EF | £26,403.00 - £28,142.00 Annually (FTE) NJC Scale 4, point 7 to 11 . Actual salary £22,645.65 per annum on point 7. | Pastoral Support Assistant
+employer: Melbourn Village College
+closing_date: 2026-10-26T09:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: cb96a74f0f3c25a0ab14517ad2a3b658cf0aa1c0b4259dfe767a3c656e8ad917
+source: Teaching Vacancies
+source_job_id: pastoral-support-assistant-86b70375-dc6e-4bfd-89a7-4e3cc367dd50
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-support-assistant-86b70375-dc6e-4bfd-89a7-4e3cc367dd50
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -225,6 +195,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-oaklea
 ## HARD_PASS
 
 - [Assistant SENDCo](https://teaching-vacancies.service.gov.uk/jobs/assistant-sendco-69793fea-1d51-405a-a79e-55b4c58afc9c) — Insufficient admin/service evidence.
+- [Attendance & Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-administration-officer-hertford-heath-primary-and-nursery-school-hertford-hertfordshire) — Insufficient admin/service evidence.
+- [Development Director](https://teaching-vacancies.service.gov.uk/jobs/development-director-watford-grammar-school-for-boys-watford-hertfordshire) — Insufficient admin/service evidence.
 - [Director of Finance & Operations](https://teaching-vacancies.service.gov.uk/jobs/director-of-finance-operations-herts-essex-multi-academy-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-aa7f3068-bd4a-4f6c-a3c0-513cc79c39b8) — Manager title salary ceiling £33,119 is not below £28,000.
 

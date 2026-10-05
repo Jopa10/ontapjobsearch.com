@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-10-04
-review_fingerprint: 4d659c7b34227a4fb880db417d9ed1a942cea96e9ff77cb023bbe133eaf8b127
-routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
+review_date: 2026-10-05
+review_fingerprint: 111a146d255571f261be6fe14911a5512a3b778ca47cfcaea7e8bd74c44dc72b
+routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 4
+- Records: 7
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
@@ -64,6 +64,21 @@ factual_fingerprint: f8e158d9a688a919d13ba3265c5cb847279b168a917997eee666fa42fbb
 source: Teaching Vacancies
 source_job_id: curriculum-administrator-north-kent-college
 source_url: https://teaching-vacancies.service.gov.uk/jobs/curriculum-administrator-north-kent-college
+---
+
+---
+action: 
+SELECTED | Kent | Dartford, South East, DA2 6FY | £30,621.00 - £34,172.00 Annually (Actual) | PA to Headteacher
+employer: Stone Lodge School
+closing_date: 2026-10-19T09:00:00+01:00
+reason: Clear admin/service title: pa to
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ab4aa0a20aa4f2618c7e589803e9a6e89c53bd0f32c5d90fb74b809d0978b093
+source: Teaching Vacancies
+source_job_id: pa-to-headteacher-stone-lodge-school-dartford-kent
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-headteacher-stone-lodge-school-dartford-kent
 ---
 
 ---

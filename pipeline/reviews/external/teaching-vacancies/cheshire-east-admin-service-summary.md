@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - East
 
-review_date: 2026-10-04
-review_fingerprint: 402994003010c9ea3f5c31c4f99b574aab9742e89ad8cc2c19d6b01cb7c4e4cb
-routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
+review_date: 2026-10-05
+review_fingerprint: 7b296cd95362c4a00b628e28793b70739929bcc2c943d9beb49985e40c48411c
+routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
 ontap_region: Cheshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 2
+- Records: 3
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -36,21 +36,6 @@ source_job_id: school-office-administrator-highfields-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-administrator-highfields-academy
 ---
 
----
-action: 
-SELECTED | Cheshire - East | Macclesfield, North West, SK10 4AF | £20,059.00 - £21,381.00 Annually (Actual) NJC Grade 5, SCP 7-11 | Sixth Form Administrator
-employer: The Fallibroome Academy
-closing_date: 2026-10-05T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0ce132cb9b08ca74c387ad378c0dad0744e3e77e334702e71bf960cda7892e6d
-source: Teaching Vacancies
-source_job_id: sixth-form-administrator-the-fallibroome-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrator-the-fallibroome-academy
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -61,7 +46,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administra
 
 ## HARD_PASS
 
-- [Director of People](https://teaching-vacancies.service.gov.uk/jobs/director-of-people-the-learning-partnership-academies-trust-crewe-not-recorded) — Insufficient admin/service evidence.
 - [Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-manager-the-fallibroome-academy) — Manager title salary ceiling £29,745 is not below £28,000.
 - [Part Time Administration Assistant (Finance)](https://teaching-vacancies.service.gov.uk/jobs/part-time-administration-assistant-finance) — Insufficient admin/service evidence.
 

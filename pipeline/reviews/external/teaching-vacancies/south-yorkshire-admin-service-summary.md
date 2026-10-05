@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-10-04
-review_fingerprint: 52cb8c42daf50186843e7dd84b9af9bfc395c1159a7e3cae09b7d6985d1f60b8
-routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
+review_date: 2026-10-05
+review_fingerprint: b58275a6276d988df3b38d11feaf8399fe12df2c4a8315c645bdba806e30eec0
+routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 29
-- Selected: 11
-- POSS awaiting decision: 2
+- Records: 27
+- Selected: 9
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 16
+- Hard pass: 17
 
 ## SELECTED
 
@@ -64,36 +64,6 @@ factual_fingerprint: b9fb5860590355c01d1fd6e80c49fd69d0f5e75d2dfb27d9bbdf0248b3a
 source: Teaching Vacancies
 source_job_id: admin-support-receptionist-south-axholme-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-support-receptionist-south-axholme-academy
----
-
----
-action: 
-SELECTED | Yorkshire - South | Doncaster, Yorkshire and the Humber, DN2 5JG | £19,107.00 - £20,690.00 Annually (Actual) Grade 6 (Point 6-11) | Administration Assistant
-employer: Our Lady of Mount Carmel Catholic Primary School
-closing_date: 2026-10-05T09:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a2e902b45b5ab8490a721a2e7d195f2968986fb30169f599e205ffdd049a984c
-source: Teaching Vacancies
-source_job_id: administration-assistant-our-lady-of-mount-carmel-catholic-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-our-lady-of-mount-carmel-catholic-primary-school
----
-
----
-action: 
-SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S5 0SD | £21933 - £22629 per annum | Attendance Admin Assistant
-employer: Lift Firth Park
-closing_date: 2026-10-05T08:17:55+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 05d99f80e89db3abaa42926eca564d5566a7a2a3f8b09cf13cebe9022650af42
-source: Teaching Vacancies
-source_job_id: attendance-admin-assistant-lift-firth-park
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-admin-assistant-lift-firth-park
 ---
 
 ---
@@ -203,21 +173,6 @@ source_job_id: attendance-admin-officer-athelstan-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-admin-officer-athelstan-primary-school
 ---
 
----
-action: 
-POSS | Yorkshire - South | Rotherham, Yorkshire and the Humber, S66 8AB | Band E Point 7 to 11 £27,264 to £29,071 per annum Actual Salary £23,433 - £24,977 | Data Officer
-employer: Maltby Academy
-closing_date: 2026-10-05T09:00:00+01:00
-reason: Borderline school administration title: data officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c290a64c70c26ee413b68840e7c7968f68e51289b9e29a49fc4796bd10134b5d
-source: Teaching Vacancies
-source_job_id: data-officer-maltby-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-maltby-academy
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -225,6 +180,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-maltby-a
 ## HARD_PASS
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-st-thomas-more-catholic-primary-a-voluntary-academy) — Insufficient admin/service evidence.
+- [Attendance and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-officer-sharrow-nursery-infant-and-junior-school) — Insufficient admin/service evidence.
 - [Business Support Manager](https://teaching-vacancies.service.gov.uk/jobs/business-support-manager-beck-primary-school-sheffield-south-yorkshire) — Manager title salary ceiling £40,921 is not below £28,000.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-st-clare-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-ridgewood-school) — Insufficient admin/service evidence.

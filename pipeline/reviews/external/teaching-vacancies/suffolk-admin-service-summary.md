@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-10-04
-review_fingerprint: ddc1f30eec39a2110e36b508ca71723e36e3aeb4d2ac2ab0137fcd23f4e4e37a
-routing_manifest_sha256: 997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4
+review_date: 2026-10-05
+review_fingerprint: 474fee493de31f7a7e8bf2af8930b7a1b6edf675ffaa4d3866dbe9af8c559502
+routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 4
+- Records: 8
+- Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 2
 
 ## SELECTED
 
@@ -34,6 +34,36 @@ factual_fingerprint: e48a23a54dd91777ee55e6dae005edbea7fb12d3e7804628080e22aa0e8
 source: Teaching Vacancies
 source_job_id: admin-assistant-castle-east-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-castle-east-school
+---
+
+---
+action: 
+SELECTED | Suffolk | Woodbridge, East of England, IP12 3RE | £25,614.00 Annually (FTE) Grade 2, Point 3 | Admin Assistant
+employer: Hollesley Primary School
+closing_date: 2026-10-09T23:59:00+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b1134e4c75df1df9f21e6aad7a8eadbfd7507b09caaa27396942a7076f0d5c70
+source: Teaching Vacancies
+source_job_id: admin-assistant-hollesley-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-hollesley-primary-school
+---
+
+---
+action: 
+SELECTED | Suffolk | Woodbridge, East of England, IP12 4QL | £25,614.00 Annually (FTE) Grade 2, Point 3 | Admin Assistant
+employer: Waldringfield Primary School
+closing_date: 2026-10-09T23:59:00+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7ca249e18f059c9632d366584b38d805dceb3e3f4eb6ed738d2d33261d8ee5e7
+source: Teaching Vacancies
+source_job_id: admin-assistant-waldringfield-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-waldringfield-primary-school
 ---
 
 ---
@@ -55,12 +85,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 action: 
 SELECTED | Suffolk | Leiston, East of England, IP16 4BG | £21,567.00 - £22,256.00 Annually (Actual) Grade 3, points 4-6 (£25,185-£25,989 FTE) | Attendance Administrator
 employer: Alde Valley Academy
-closing_date: 2026-10-14T12:00:00+01:00
+closing_date: 2026-10-13T12:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 31d3956dd75dc3fe64b7336882c7f9a8ba7b74f4e9aa98cd5729003167e6425c
+factual_fingerprint: 72574526e8db799f83429c7aba133eab043245745f8f2c44024dc8b9078783ec
 source: Teaching Vacancies
 source_job_id: attendance-administrator-alde-valley-academy-leiston-suffolk
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-alde-valley-academy-leiston-suffolk
@@ -92,6 +122,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 ## HARD_PASS
 
 - [Attendance and Inclusion Support Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-inclusion-support-officer) — Insufficient admin/service evidence.
+- [Business Development Executive](https://teaching-vacancies.service.gov.uk/jobs/business-development-executive-eastern-education-group-trust-bury-st-edmunds-not-recorded) — Insufficient admin/service evidence.
 
 ## Safety boundary
 
