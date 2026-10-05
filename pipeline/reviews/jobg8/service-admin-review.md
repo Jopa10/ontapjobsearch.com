@@ -1,6 +1,6 @@
 # Service-admin manual review
 
-feed_date: 2026-10-04
+feed_date: 2026-10-05
 
 Edit only the `action:` line in each block:
 
@@ -1253,12 +1253,6 @@ job_id: 2052087
 
 ---
 action:
-SELECTED | London | Ilford | no salary in JobG8 salary fields; no supported salary amount found in description | Ocean Freight Coordinator
-job_id: 1991052
----
-
----
-action:
 SELECTED | London | Purley | £17.00 - £20.00 per hour [extracted from description] | Administrator
 job_id: 1954977
 ---
@@ -1403,8 +1397,8 @@ job_id: 2069732
 
 ---
 action:
-SELECTED | London | London | £30000 per year [JobG8 salary fields] | Recruitment Co-Ordinator & Client Account Support (no sales)
-job_id: 108072953
+SELECTED | London | London | £34500 - £34700 per year [JobG8 salary fields] | HR Coordinator
+job_id: 2065029
 ---
 
 ---
@@ -2133,6 +2127,12 @@ SELECTED | Kent | Kent | £26000 per year [JobG8 salary fields] | Business Suppo
 job_id: 108044308
 ---
 
+---
+action:
+SELECTED | Kent | Kent | no salary in JobG8 salary fields; no supported salary amount found in description | Paralegal
+job_id: 2070976
+---
+
 ## KENT — POSSIBLES
 
 ---
@@ -2197,12 +2197,6 @@ job_id: 1908468
 action:
 SELECTED | Sussex | Sussex | £38000 - £45000 per year | Client Services Administrator
 job_id: 1894808
----
-
----
-action:
-SELECTED | Sussex | Sussex | £26000 per year | HR Administrative Assistant
-job_id: 108005260
 ---
 
 ---
@@ -2496,6 +2490,12 @@ SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire |  | Private C
 job_id: 2059104
 ---
 
+---
+action:
+SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire |  | HR Assistant
+job_id: 2071082
+---
+
 ## COVENTRY & WARWICKSHIRE — POSSIBLES
 
 ---
@@ -2533,12 +2533,6 @@ job_id: 1946950
 action:
 SELECTED | Bedfordshire | Bedfordshire |  | Underwriting Support Administrator
 job_id: 1916041
----
-
----
-action:
-SELECTED | Bedfordshire | Bedfordshire | £27537 per year | Faculty Support Administrator
-job_id: 415441
 ---
 
 ---
@@ -2927,12 +2921,6 @@ job_id: 2057330
 action:
 SELECTED | Bristol & Bath | Bristol |  | Litigated EL/PL Claims Handler (Casualty)
 job_id: 2067696
----
-
----
-action:
-SELECTED | Bristol & Bath | Bristol |  | Office Coordinator
-job_id: 28025_JR99
 ---
 
 ## BRISTOL & BATH — POSSIBLES
@@ -4165,6 +4153,18 @@ SELECTED | Gloucestershire | Gloucestershire |  | Service Desk Analyst
 job_id: 2043219
 ---
 
+---
+action:
+SELECTED | Gloucestershire | Gloucestershire | £28000 per year | Product Support Coordinator (12 Fixed Term Contract)
+job_id: 108074035
+---
+
+---
+action:
+SELECTED | Gloucestershire | Gloucestershire | £30000 per year | HR & Payroll Administrator
+job_id: 107980548
+---
+
 ## GLOUCESTERSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -4295,6 +4295,18 @@ job_id: 2059975
 action:
 SELECTED | Greater Manchester - Manchester & Salford | Manchester |  | Asset Servicing Administrator (12 Month Fixed-Term Contract)
 job_id: 2063937
+---
+
+---
+action:
+SELECTED | Greater Manchester - Manchester & Salford | Manchester |  | Administrator - Academic Services
+job_id: 803898718023791411237341
+---
+
+---
+action:
+SELECTED | Greater Manchester - Manchester & Salford | Manchester | £14.65 per hour | Extra Care Support Coordinator
+job_id: 108063420
 ---
 
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — POSSIBLES
@@ -4481,12 +4493,6 @@ job_id: 2014253
 
 ---
 action:
-SELECTED | Hertfordshire | Hertfordshire |  | Accounts Assistant
-job_id: 2021393
----
-
----
-action:
 SELECTED | Hertfordshire | Hertfordshire | £35000 per year | Financial Administrator-Location- Hitchin-Salary-Up to &;35,000-Office-Based
 job_id: 2022155
 ---
@@ -4651,6 +4657,12 @@ SELECTED | Leicestershire | Leicestershire | £13.33 per hour | Commercial Admin
 job_id: 2049449
 ---
 
+---
+action:
+SELECTED | Leicestershire | Leicestershire | £13.95 per hour | Activities Coordinator
+job_id: 108061254
+---
+
 ## LEICESTERSHIRE — POSSIBLES
 
 ---
@@ -4713,12 +4725,6 @@ job_id: 2040169
 action:
 SELECTED | Lincolnshire | Lincolnshire |  | Emerging Talent and Resourcing Coordinator
 job_id: 2053803
----
-
----
-action:
-SELECTED | Lincolnshire | Lincolnshire | £30000 per year | Student Inclusion and Engagement Coordinator
-job_id: 108070241
 ---
 
 ## LINCOLNSHIRE — POSSIBLES
@@ -5263,12 +5269,6 @@ job_id: 2049838
 action:
 SELECTED | Oxfordshire | Oxfordshire | £12.71 per hour | Activities Coordinator
 job_id: 108062084
----
-
----
-action:
-SELECTED | Oxfordshire | Oxfordshire |  | Finance Assistant
-job_id: 108072850
 ---
 
 ## OXFORDSHIRE — POSSIBLES
@@ -6395,12 +6395,6 @@ SELECTED | Wiltshire | Wiltshire |  | Service Advisor
 job_id: 108062254
 ---
 
----
-action:
-SELECTED | Wiltshire | Wiltshire | £13.37 per hour (Grade K £41,777 - £43,149 pro rata (£33,873 - £34,985) | Finance Assistant - Fixed Term Maternity Cover
-job_id: 108056808
----
-
 ## WILTSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -6619,20 +6613,8 @@ job_id: 108060036
 
 ---
 action:
-SELECTED | Yorkshire - North | Catterick Garrison | £28000 per year | Credit Controller
-job_id: 108061850
----
-
----
-action:
 SELECTED | Yorkshire - North | York |  | Finance Assistant
 job_id: 2067804
----
-
----
-action:
-SELECTED | Yorkshire - North | Scarborough |  | Service Coordinator (UPS)
-job_id: 108026099
 ---
 
 ---

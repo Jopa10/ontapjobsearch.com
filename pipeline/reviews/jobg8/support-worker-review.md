@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-10-04
+feed_date: 2026-10-05
 
 Edit only the `action:` line in each block:
 
@@ -23,6 +23,12 @@ job_id: 2026985
 action:
 POSS - YORKSHIRE - WEST | Yorkshire - West | Huddersfield | £13.30-£16.25 per hour | Home Care Assistant
 job_id: 1986485
+---
+
+---
+action:
+POSS - YORKSHIRE - WEST | Yorkshire - West | Wakefield | £50 per hour | Behaviour Support Worker
+job_id: 2071005
 ---
 
 ## SOUTH YORKSHIRE — SELECTED
@@ -141,18 +147,6 @@ job_id: 1990925
 
 ---
 action:
-SELECTED | Sussex | Chichester | £27394 per year | Support Worker
-job_id: 108058320
----
-
----
-action:
-SELECTED | Sussex | Eastbourne | £13.79 - £14.31 per hour | Bank Care Assistant
-job_id: 108051488
----
-
----
-action:
 SELECTED | Sussex | Hailsham | £28000 per year | Residential Support Worker Childrens Care
 job_id: 108062155
 ---
@@ -173,6 +167,12 @@ job_id: 108057926
 action:
 SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour | Support Worker
 job_id: 108059082
+---
+
+---
+action:
+SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
+job_id: 108071061
 ---
 
 ## CUMBRIA SOUTH — POSSIBLES
@@ -253,6 +253,12 @@ SELECTED | Hampshire | Southampton | £13.45 Per Hour | Support worker
 job_id: 2055937
 ---
 
+---
+action:
+SELECTED | Hampshire | Winchester | £13.2 - £14.75 per hour | Specialist Care Support Worker Winchester
+job_id: 108004872
+---
+
 ## HAMPSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -329,12 +335,6 @@ job_id: 198615299190371123237340
 action:
 SELECTED | Kent | Sevenoaks | £14.00 - £17.00 per hour | Healthcare Assistant
 job_id: 2055653
----
-
----
-action:
-SELECTED | Kent | New Romney | £13.45 per hour | Support Worker
-job_id: 107918496
 ---
 
 ## KENT — POSSIBLES
@@ -505,11 +505,7 @@ _No jobs in this group._
 
 ## WILTSHIRE — SELECTED
 
----
-action:
-SELECTED | Wiltshire | Swindon | £12000 per year | Female Care Support Worker - Swindon
-job_id: 108076103
----
+_No jobs in this group._
 
 ## WILTSHIRE — POSSIBLES
 
