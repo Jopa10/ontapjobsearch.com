@@ -85,12 +85,6 @@ job_id: 2021488
 
 ---
 action:
-SELECTED | North East - County Durham & Darlington/Hartlepool | Durham | £26,436 per annum | Night Young People Support Worker
-job_id: 1939116
----
-
----
-action:
 SELECTED | North East - County Durham & Darlington/Hartlepool | Bishop Auckland | £13.15 per hour | Night Support Worker
 job_id: 2021670
 ---
@@ -109,8 +103,8 @@ job_id: 2021413
 
 ---
 action:
-SELECTED | North East - County Durham & Darlington/Hartlepool | Darlington | £13.15 per hour | Female Support Worker
-job_id: 2021360
+SELECTED | North East - County Durham & Darlington/Hartlepool | Spennymoor | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
+job_id: 108076021
 ---
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — POSSIBLES
@@ -149,6 +143,18 @@ job_id: 1990925
 action:
 SELECTED | Sussex | Hailsham | £28000 per year | Residential Support Worker Childrens Care
 job_id: 108062155
+---
+
+---
+action:
+SELECTED | Sussex | Horsham | £13.05 per hour | Residential Childcare Support Worker (Casual)
+job_id: 108068576
+---
+
+---
+action:
+SELECTED | Sussex | Horsham | £30000 per year | Residential Childcare Support Worker
+job_id: 108075844
 ---
 
 ## SUSSEX — POSSIBLES
@@ -237,18 +243,6 @@ job_id: 108059180
 
 ---
 action:
-SELECTED | Hampshire | Southampton | £25,845 per annum | Female Support Worker
-job_id: 559639887195039334437341
----
-
----
-action:
-SELECTED | Hampshire | Tadley | £25,845 per annum | Female Support Worker
-job_id: 559639887195039334437340
----
-
----
-action:
 SELECTED | Hampshire | Southampton | £13.45 Per Hour | Support worker
 job_id: 2055937
 ---
@@ -297,44 +291,14 @@ job_id: 1996389
 
 ---
 action:
-SELECTED | Kent | Maidstone | £25,845 per year | Waking Night Support Worker
-job_id: 373127365825396736037341
----
-
----
-action:
-SELECTED | Kent | Tunbridge Wells | £25,845 per year | Waking Night Support Worker
-job_id: 373127365825396736037340
----
-
----
-action:
-SELECTED | Kent | Maidstone | £25,845 per annum | Night Support Worker
-job_id: 86461656567539302437341
----
-
----
-action:
-SELECTED | Kent | Tonbridge | £25,845 per annum | Night Support Worker
-job_id: 86461656567539302437340
----
-
----
-action:
-SELECTED | Kent | Maidstone | £25,845 per annum | Female Support Worker
-job_id: 198615299190371123237341
----
-
----
-action:
-SELECTED | Kent | Tunbridge Wells | £25,845 per annum | Female Support Worker
-job_id: 198615299190371123237340
----
-
----
-action:
 SELECTED | Kent | Sevenoaks | £14.00 - £17.00 per hour | Healthcare Assistant
 job_id: 2055653
+---
+
+---
+action:
+SELECTED | Kent | Margate | £25,845 per annum | Support Worker
+job_id: 689944233409458995237340
 ---
 
 ## KENT — POSSIBLES
@@ -425,18 +389,6 @@ job_id: 2044609
 
 ---
 action:
-SELECTED | Oxfordshire | Witney | £14.4 per hour | Home Carer
-job_id: 107626591
----
-
----
-action:
-SELECTED | Oxfordshire | Bicester | £14.4 per hour | Home Carer
-job_id: 107626594
----
-
----
-action:
 SELECTED | Oxfordshire | Banbury | £14.4 per hour | Home Carer
 job_id: 107626596
 ---
@@ -477,26 +429,14 @@ job_id: 2021731
 
 ---
 action:
-SELECTED | Surrey | Woking | £25,845 per annum | Support Worker
-job_id: 314007065404532326437340
----
-
----
-action:
-SELECTED | Surrey | Guildford | £25,845 per annum | Support Worker
-job_id: 185888891903515033637341
----
-
----
-action:
-SELECTED | Surrey | Walton-on-thames | £25,845 per annum | Support Worker
-job_id: 185888891903515033637340
----
-
----
-action:
 SELECTED | Surrey | Leatherhead | £30000 - £32000 per year | Legal Personal Assistant
 job_id: 2064951
+---
+
+---
+action:
+SELECTED | Surrey | Tadworth | £15 per hour | Male Healthcare Assistant - Tadworth
+job_id: 108062488
 ---
 
 ## SURREY — POSSIBLES
