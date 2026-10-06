@@ -224,11 +224,10 @@ job_id: 2077373
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | £17 - £19 per hour [JobG8 salary fields] | Logistics / Freight Coordinator
 job_id: 2039689
 ---
-
 ## SOUTH YORKSHIRE — SELECTED
 
 ---
@@ -312,11 +311,10 @@ job_id: 2044207
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Doncaster | £40000 per year [JobG8 salary fields] | Payroll and Accounts Assistant
 job_id: 2028957
 ---
-
 ## NORTH EAST — SELECTED
 
 _No jobs in this group._
@@ -1368,71 +1366,60 @@ job_id: 2077036
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Management Accountant
 job_id: 1991394
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Accountant
 job_id: 2043654
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £28 per hour [JobG8 salary fields] | Legal Assistant
 job_id: 2049270
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Management Accountant (PQ)
 job_id: 2056596
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £43000 per year [JobG8 salary fields] | Client Services Administrator
 job_id: 2073306
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £43000 per year [JobG8 salary fields] | Financial Administrator
 job_id: 2076997
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | Southwark | £18 - £22 per hour [JobG8 salary fields] | Finance Assistant
 job_id: 2075758
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £166.00 per day [extracted from description] | HR Assistant
 job_id: 1885027
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £50000 per year [JobG8 salary fields] | Facilities Coordinator
 job_id: 2049365
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £20 - £25 per hour [JobG8 salary fields] | HR Data Coordinator
 job_id: 2076312
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | Croydon | £27 per hour [JobG8 salary fields] | Band 6 Care Co-ordinator
 job_id: 2028057
 ---
-
 ## HAMPSHIRE — SELECTED
 
 ---
@@ -1648,23 +1635,20 @@ job_id: 2076286
 ## HAMPSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - HAMPSHIRE | Hampshire | Hampshire | £40000 per year [JobG8 salary fields] | Financial Administrator
 job_id: 1971987
 ---
-
 ---
-action:
+action: select
 POSS - HAMPSHIRE | Hampshire | Hampshire | £30000 - £38000 per year [JobG8 salary fields] | Credit Controller
 job_id: 1886139
 ---
-
 ---
-action:
+action: select
 POSS - HAMPSHIRE | Hampshire | Hampshire | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Accountant
 job_id: 2033941
 ---
-
 ## SURREY — SELECTED
 
 ---
@@ -1892,17 +1876,15 @@ job_id: 2078873
 ## SURREY — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SURREY | Surrey | Surrey | £30000 - £35000 per year [JobG8 salary fields] | Assistant Management Accountant
 job_id: 1884853
 ---
-
 ---
-action:
+action: exclude
 POSS - SURREY | Surrey | Surrey | £30000 - £40000 per year [JobG8 salary fields] | Investment Administrator
 job_id: 2056622
 ---
-
 ## KENT — SELECTED
 
 ---
@@ -2094,17 +2076,15 @@ job_id: 107958419
 ## KENT — POSSIBLES
 
 ---
-action:
+action: select
 POSS - KENT | Kent | Kent | £41000 per year [JobG8 salary fields] | Service Advisor
 job_id: 1969739
 ---
-
 ---
-action:
+action: select
 POSS - KENT | Kent | Kent | £38000 per year [JobG8 salary fields] | Exhibition Logistics & Sales Coordinator
 job_id: 2036274
 ---
-
 ## SELECTOR ERRORS / UNRESOLVED
 
 _No selector errors or unresolved rows outside the normal possible groups._
@@ -2292,25 +2272,22 @@ job_id: 2076573
 ## SUSSEX — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SUSSEX | Sussex | Sussex |  | Finance Assistant - Assistant Accountant
 job_id: 2056498
 ---
-
 ---
-action:
+action: exclude
 POSS - SUSSEX | Sussex | Sussex | £40000 per year | Intelligent Office / Dynamic Planner Technology training officer
 job_id: 1987184
 ---
-
 ---
-action:
+action: select
 POSS - SUSSEX | Sussex | Sussex | £17.90 - £19.00 per hour | Activities Co-ordinator
 job_id: 2056552
 ---
-
 ---
-action:
+action: exclude
 POSS - SUSSEX | Sussex | Sussex | £40000 - £45000 per year | Import/Export Coordinator
 job_id: 2039633
 ---
@@ -2433,7 +2410,7 @@ job_id: 2074203
 ## COVENTRY & WARWICKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - COVENTRY & WARWICKSHIRE | West Midlands - Coventry & Warwickshire | Warwickshire | £30000 - £40000 per year | Remote Conveyancing Paralegal
 job_id: 2055387
 ---
@@ -2682,29 +2659,25 @@ job_id: 2074802
 ## BERKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BERKSHIRE | Berkshire | Berkshire | £17.00-£20.00 per hour | Credit Controller
 job_id: 2017919
 ---
-
 ---
-action:
+action: exclude
 POSS - BERKSHIRE | Berkshire | Berkshire | £40000 per year | Operations Coordinator
 job_id: 1990949
 ---
-
 ---
-action:
+action: select
 POSS - BERKSHIRE | Berkshire | Berkshire | £35000 - £40000 per year | Bookkeeper (Accountancy / Tax Advisory)
 job_id: 2065066
 ---
-
 ---
-action:
+action: exclude
 POSS - BERKSHIRE | Berkshire | Berkshire | £45000 - £55000 per year | Technical Team Leader - 2nd and 3rd Line - MSP Service Desk - Hybrid Reading
 job_id: 2050196
 ---
-
 ## BRISTOL & BATH — SELECTED
 
 ---
@@ -2962,29 +2935,25 @@ job_id: 2067383
 ## BUCKINGHAMSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BUCKINGHAMSHIRE | Buckinghamshire | Buckinghamshire |  | Assistant Accountant
 job_id: 2026365
 ---
-
 ---
-action:
+action: select
 POSS - BUCKINGHAMSHIRE | Buckinghamshire | Buckinghamshire | £30000 - £32000 per year | HR Administrator
 job_id: 2048207
 ---
-
 ---
-action:
+action: exclude
 POSS - BUCKINGHAMSHIRE | Buckinghamshire | Buckinghamshire | £36000 - £38000 per year | Rebates Administrator
 job_id: 2049607
 ---
-
 ---
-action:
+action: select
 POSS - BUCKINGHAMSHIRE | Buckinghamshire | Buckinghamshire | £30000 - £40000 per year | Remote Conveyancing Paralegal
 job_id: 2055401
 ---
-
 ## CAMBRIDGESHIRE — SELECTED
 
 ---
@@ -3062,17 +3031,15 @@ job_id: 2065820
 ## CAMBRIDGESHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - CAMBRIDGESHIRE | Cambridgeshire | Cambridge | £30000 - £40000 per year | Remote Conveyancing Paralegal
 job_id: 2055390
 ---
-
 ---
-action:
+action: select
 POSS - CAMBRIDGESHIRE | Cambridgeshire | St. Ives | £30000 - £40000 per year | Logistics Coordinator / Operations Coordinator
 job_id: 2046219
 ---
-
 ## CHESHIRE - EAST — SELECTED
 
 ---
@@ -3324,11 +3291,10 @@ job_id: 2075500
 ## CHESHIRE - WARRINGTON & HALTON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - CHESHIRE - WARRINGTON & HALTON | Cheshire - Warrington & Halton | Warrington |  | Assistant Accountant
 job_id: 2042291
 ---
-
 ## CHESHIRE - WEST — SELECTED
 
 ---
@@ -3466,17 +3432,15 @@ job_id: 23643_225689425
 ## DERBYSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - DERBYSHIRE | Derbyshire | Derbyshire | £37000 - £39000 per year | Project Operations Coordinator (Supply Chain / Inventory)
 job_id: 2059648
 ---
-
 ---
-action:
+action: exclude
 POSS - DERBYSHIRE | Derbyshire | Derbyshire | £37000 - £39000 per year | Projects Operations Implementation Coordinator
 job_id: 2059301
 ---
-
 ## DEVON — SELECTED
 
 ---
@@ -3560,17 +3524,15 @@ job_id: 108060887
 ## DEVON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - DEVON | Devon | Devon | £30000 - £40000 per year | Remote Conveyancing Paralegal
 job_id: 2055395
 ---
-
 ---
-action:
+action: select
 POSS - DEVON | Devon | Devon | £30000 - £40000 per year | Remote Conveyancing Paralegal
 job_id: 2055612
 ---
-
 ## DORSET — SELECTED
 
 ---
@@ -4188,11 +4150,10 @@ job_id: 2077885
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — POSSIBLES
 
 ---
-action:
+action: select
 POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester |  | Bookkeeper/Assistant Accountant
 job_id: 2063837
 ---
-
 ## GREATER MANCHESTER - SOUTH — SELECTED
 
 ---
@@ -4240,11 +4201,10 @@ job_id: 2066888
 ## GREATER MANCHESTER - SOUTH — POSSIBLES
 
 ---
-action:
+action: select
 POSS - GREATER MANCHESTER - SOUTH | Greater Manchester - South | Altrincham | £32000 - £35000 per year | RTR Assistant Accountant
 job_id: 2039520
 ---
-
 ## GREATER MANCHESTER - WIGAN & BOLTON — SELECTED
 
 ---
@@ -4454,17 +4414,15 @@ job_id: 2074917
 ## HERTFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - HERTFORDSHIRE | Hertfordshire | Hertfordshire | £35000 - £40000 per year | Bookkeeper
 job_id: 1885999
 ---
-
 ---
-action:
+action: select
 POSS - HERTFORDSHIRE | Hertfordshire | Hertfordshire | £37500 per year | Assistant Accountant
 job_id: 2050322
 ---
-
 ## LEICESTERSHIRE — SELECTED
 
 ---
@@ -4542,17 +4500,15 @@ job_id: 2074012
 ## LEICESTERSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - LEICESTERSHIRE | Leicestershire | Leicestershire |  | Assistant Accountant
 job_id: 2012728
 ---
-
 ---
-action:
+action: select
 POSS - LEICESTERSHIRE | Leicestershire | Leicestershire | £33000 per year | Assistant Accountant
 job_id: 2053152
 ---
-
 ## LINCOLNSHIRE — SELECTED
 
 ---
@@ -4606,17 +4562,15 @@ job_id: 2053803
 ## LINCOLNSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - LINCOLNSHIRE | Lincolnshire | Lincolnshire | £30000 - £33000 per year | Assistant Accountant
 job_id: 2024723
 ---
-
 ---
-action:
+action: select
 POSS - LINCOLNSHIRE | Lincolnshire | Lincolnshire | £35000 - £40000 per year | Assistant Management Accountant
 job_id: 2050226
 ---
-
 ## MERSEYSIDE - LIVERPOOL — SELECTED
 
 ---
@@ -4676,17 +4630,15 @@ job_id: 2074093
 ## MERSEYSIDE - LIVERPOOL — POSSIBLES
 
 ---
-action:
+action: select
 POSS - MERSEYSIDE - LIVERPOOL | Merseyside - Liverpool | Liverpool | £35000 per year | Assistant Management Accountant
 job_id: 2013304
 ---
-
 ---
-action:
+action: select
 POSS - MERSEYSIDE - LIVERPOOL | Merseyside - Liverpool | Liverpool | £150 per daily | Service Desk Analyst
 job_id: 2078827
 ---
-
 ## NORFOLK — SELECTED
 
 ---
@@ -4800,29 +4752,25 @@ job_id: 2074815
 ## NORFOLK — POSSIBLES
 
 ---
-action:
+action: select
 POSS - NORFOLK | Norfolk | Norfolk | £32500 per year | Assistant Accountant
 job_id: 2039238
 ---
-
 ---
-action:
+action: select
 POSS - NORFOLK | Norfolk | Norfolk |  | Assistant Accountant
 job_id: 2048485
 ---
-
 ---
-action:
+action: select
 POSS - NORFOLK | Norfolk | Norfolk | £30000 - £40000 per year | Remote Conveyancing Paralegal
 job_id: 2055392
 ---
-
 ---
-action:
+action: select
 POSS - NORFOLK | Norfolk | Norfolk |  | HR Administrator
 job_id: 2067305
 ---
-
 ## NORTH SCOTLAND — SELECTED
 
 ---
@@ -4918,29 +4866,25 @@ job_id: 2060783
 ## NORTHAMPTONSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - NORTHAMPTONSHIRE | Northamptonshire | Northamptonshire | £45000 per year | Assistant Accountant
 job_id: 1996420
 ---
-
 ---
-action:
+action: select
 POSS - NORTHAMPTONSHIRE | Northamptonshire | Northamptonshire |  | AAT Assistant Accountant
 job_id: 2021745
 ---
-
 ---
-action:
+action: select
 POSS - NORTHAMPTONSHIRE | Northamptonshire | Northamptonshire | £30000 - £40000 per year | Assistant Accountant
 job_id: 2045730
 ---
-
 ---
-action:
+action: select
 POSS - NORTHAMPTONSHIRE | Northamptonshire | Northamptonshire | £30000 - £40000 per year | Remote Conveyancing Paralegal
 job_id: 2055403
 ---
-
 ## NORTHERN IRELAND - EAST — SELECTED
 
 ---
@@ -5138,29 +5082,25 @@ job_id: 108063457
 ## OXFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire |  | AAT Assistant Accountant
 job_id: 1996500
 ---
-
 ---
-action:
+action: select
 POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £33000 - £38000 per year | Assistant Accountant
 job_id: 2048450
 ---
-
 ---
-action:
+action: select
 POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £30000 - £40000 per year | Remote Conveyancing Paralegal
 job_id: 2055389
 ---
-
 ---
-action:
+action: select
 POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £30000 - £38000 per year | Service Advisor
 job_id: 2074696
 ---
-
 ## SCOTLAND CENTRAL - EDINBURGH & LOTHIANS — SELECTED
 
 ---
@@ -5202,17 +5142,15 @@ job_id: 2063301
 ## SCOTLAND CENTRAL - EDINBURGH & LOTHIANS — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - SCOTLAND CENTRAL - EDINBURGH & LOTHIANS | Scotland Central - Edinburgh & Lothians | Edinburgh | £40000 - £45000 per year | Bookkeeper
 job_id: 2024278
 ---
-
 ---
-action:
+action: select
 POSS - SCOTLAND CENTRAL - EDINBURGH & LOTHIANS | Scotland Central - Edinburgh & Lothians | Edinburgh | £33000 - £40000 per year | Paralegal
 job_id: 2059086
 ---
-
 ## SCOTLAND CENTRAL - FIFE — SELECTED
 
 _No jobs in this group._
@@ -5220,11 +5158,10 @@ _No jobs in this group._
 ## SCOTLAND CENTRAL - FIFE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - SCOTLAND CENTRAL - FIFE | Scotland Central - Fife | Fife | £22.69 per hour | Campaign Coordinator (6 month temporary position)
 job_id: 2022319
 ---
-
 ## SCOTLAND CENTRAL - TAYSIDE — SELECTED
 
 _No jobs in this group._
@@ -5298,11 +5235,10 @@ job_id: 2074022
 ## SCOTLAND WEST - GLASGOW — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SCOTLAND WEST - GLASGOW | Scotland West - Glasgow | Glasgow | £32000 per year | Assistant Accountant
 job_id: 2049768
 ---
-
 ## SHROPSHIRE — SELECTED
 
 ---
@@ -5632,11 +5568,10 @@ job_id: 108073870
 ## SUFFOLK — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SUFFOLK | Suffolk | Suffolk | £30000 - £40000 per year | Remote Conveyancing Paralegal
 job_id: 2055404
 ---
-
 ## WALES SOUTH - CARDIFF & VALE — SELECTED
 
 ---
@@ -5690,11 +5625,10 @@ job_id: 2077381
 ## WALES SOUTH - CARDIFF & VALE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - WALES SOUTH - CARDIFF & VALE | Wales South - Cardiff & Vale | Cardiff | £30000 - £40000 per year | Remote Conveyancing Paralegal
 job_id: 2055386
 ---
-
 ## WALES SOUTH - VALLEYS — SELECTED
 
 ---
@@ -5940,23 +5874,20 @@ job_id: 2077004
 ## WEST MIDLANDS - BIRMINGHAM & SOLIHULL — POSSIBLES
 
 ---
-action:
+action: select
 POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Birmingham |  | AAT Assistant Accountant
 job_id: 2024671
 ---
-
 ---
-action:
+action: select
 POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Solihull |  | Assistant Management Accountant
 job_id: 2045091
 ---
-
 ---
-action:
+action: select
 POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Solihull | £30000 per year | HR Administrator
 job_id: 2077010
 ---
-
 ## WEST MIDLANDS - BLACK COUNTRY — SELECTED
 
 ---
@@ -5992,11 +5923,10 @@ job_id: 2074747
 ## WEST MIDLANDS - BLACK COUNTRY — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - WEST MIDLANDS - BLACK COUNTRY | West Midlands - Black Country | Halesowen | £30000 - £52000 per year | Demand Planner
 job_id: 2043520
 ---
-
 ## WILTSHIRE — SELECTED
 
 ---
@@ -6092,11 +6022,10 @@ job_id: 108062254
 ## WILTSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - WILTSHIRE | Wiltshire | Wiltshire | £40000 per year | Service Advisor
 job_id: 108056035
 ---
-
 ## WORCESTERSHIRE — SELECTED
 
 ---
@@ -6336,7 +6265,7 @@ job_id: 2078950
 ## YORKSHIRE - NORTH — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - NORTH | Yorkshire - North | York | £30000 - £40000 per year | Remote Conveyancing Paralegal
 job_id: 2055397
 ---
