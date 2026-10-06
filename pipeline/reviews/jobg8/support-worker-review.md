@@ -23,6 +23,12 @@ SELECTED | Yorkshire - West | Halifax | £13.15 per hour | Support Worker
 job_id: 2026985
 ---
 
+---
+action:
+SELECTED | Yorkshire - West | Bradford | £12.82 per hour | Mental Health Support Worker/Care Assistant
+job_id: 2058005
+---
+
 ## WEST YORKSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -127,12 +133,6 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Sussex | Eastbourne | £13.71 per hour | Care Assistant
-job_id: 1908629
----
-
----
-action:
 SELECTED | Sussex | Chichester | £14.28 per hour | Healthcare Assistant
 job_id: 1959112
 ---
@@ -145,20 +145,8 @@ job_id: 1990925
 
 ---
 action:
-SELECTED | Sussex | Hailsham | £28000 per year | Residential Support Worker Childrens Care
+SELECTED | Sussex | Hailsham | £29827 per year | Residential Support Worker - Children's Care
 job_id: 108062155
----
-
----
-action:
-SELECTED | Sussex | Horsham | £13.05 per hour | Residential Childcare Support Worker (Casual)
-job_id: 108068576
----
-
----
-action:
-SELECTED | Sussex | Horsham | £30000 per year | Residential Childcare Support Worker
-job_id: 108075844
 ---
 
 ## SUSSEX — POSSIBLES
@@ -171,12 +159,6 @@ _No jobs in this group._
 action:
 SELECTED | Cumbria - South | Barrow-in-furness | £15 per hour (dependent on experience) | Rehabilitation Support Worker
 job_id: 108057926
----
-
----
-action:
-SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour | Support Worker
-job_id: 108059082
 ---
 
 ---
@@ -201,12 +183,6 @@ job_id: 1932858
 action:
 SELECTED | Hampshire | Southampton | £14.28 per hour | Healthcare Assistant
 job_id: 1958886
----
-
----
-action:
-SELECTED | Hampshire | Southampton | £13.45 - £14.00 per hour | Support Worker (Days)
-job_id: 1898106
 ---
 
 ---
@@ -241,7 +217,7 @@ job_id: 1401785578
 
 ---
 action:
-SELECTED | Hampshire | Tadley | £24000 per year | Female Support Worker
+SELECTED | Hampshire | Tadley | £25740 per year | Female Support Worker
 job_id: 108059180
 ---
 
@@ -253,7 +229,13 @@ job_id: 2055937
 
 ---
 action:
-SELECTED | Hampshire | Winchester | £13.2 - £14.75 per hour | Specialist Care Support Worker Winchester
+SELECTED | Hampshire | Southampton | £13.45 - £14.00 per hour | Support Worker (Learning Disabilities)
+job_id: 2064396
+---
+
+---
+action:
+SELECTED | Hampshire | Winchester | £13.2 - £14.75 per hour | Specialist Care Support Worker - Winchester
 job_id: 108004872
 ---
 
@@ -281,17 +263,17 @@ SELECTED | Hampshire | Romsey | £26018 - £27111 per year () plus Market Supple
 job_id: 1401785693
 ---
 
+---
+action:
+SELECTED | Hampshire | Tadley | £25,845 per annum | Support Worker
+job_id: 264760722998480076837340
+---
+
 ## HAMPSHIRE — POSSIBLES
 
 _No jobs in this group._
 
 ## KENT — SELECTED
-
----
-action:
-SELECTED | Kent | Sittingbourne | £14.43 per hour | Care Support Worker
-job_id: 1877396
----
 
 ---
 action:
@@ -415,18 +397,6 @@ job_id: 689944233409458995237340
 
 ---
 action:
-SELECTED | Kent | New Romney | £13.45 per hour | Support Worker
-job_id: 107918496
----
-
----
-action:
-SELECTED | Kent | Tunbridge Wells | £25,845 per year | Waking Night Support Worker
-job_id: 920924908272641638437340
----
-
----
-action:
 SELECTED | Kent | Maidstone | £25,845 per annum | Night Support Worker
 job_id: 496179168416261734437341
 ---
@@ -517,8 +487,20 @@ job_id: 2037495
 
 ---
 action:
+SELECTED | London | Bromley | £14.25 per hour | Community Care Assistant
+job_id: 2063823
+---
+
+---
+action:
 SELECTED | London | Ilford | £15,412.00 per annum | Support Worker
 job_id: 2067783
+---
+
+---
+action:
+SELECTED | London | City | £26403 per year | Female Intern Safe House Support Worker
+job_id: 107909605
 ---
 
 ---
@@ -629,23 +611,31 @@ SELECTED | Surrey | Walton-on-thames | £25,845 per annum | Support Worker
 job_id: 152329336866524364837340
 ---
 
+---
+action:
+SELECTED | Surrey | Woking | £25,845 per year | Female Support Worker
+job_id: 166047448666053017637340
+---
+
+---
+action:
+SELECTED | Surrey | Caterham | £25,845 per annum | Female Support Worker
+job_id: 223985114380081561637340
+---
+
+---
+action:
+SELECTED | Surrey | Woking | £25,845 per annum | Support worker
+job_id: 667139317713338368037340
+---
+
 ## SURREY — POSSIBLES
 
 _No jobs in this group._
 
 ## WILTSHIRE — SELECTED
 
----
-action:
-SELECTED | Wiltshire | Salisbury | £20 per hour | Personal Assistant to an Adult at Home Salisbury
-job_id: 107964852
----
-
----
-action:
-SELECTED | Wiltshire | Salisbury | £20 per hour | Hourly Care Assistant for a Physically Disabled Adult- Salisbury
-job_id: 107983453
----
+_No jobs in this group._
 
 ## WILTSHIRE — POSSIBLES
 
