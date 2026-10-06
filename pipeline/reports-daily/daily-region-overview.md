@@ -1,6 +1,6 @@
 # Ontap daily regional overview
 
-Generated: 2026-10-06T12:32:24+01:00
+Generated: 2026-10-06T14:30:08+01:00
 
 [Download this overview as Excel](./daily-region-overview.xlsx)
 
@@ -8,16 +8,16 @@ Generated: 2026-10-06T12:32:24+01:00
 
 | Measure | Count |
 |---|---:|
-| Unique live jobs | 1,993 |
+| Unique live jobs | 1,992 |
 | Unique JobG8 jobs | 1,636 |
-| Unique non-JobG8 jobs | 357 |
-| Regional/category slice placements | 2,365 |
+| Unique non-JobG8 jobs | 356 |
+| Regional/category slice placements | 2,364 |
 | Jobs appearing on multiple slices | 372 |
 | Extra slice placements | 372 |
 | Unique jobs outside governed slices | 0 |
 | Jobs found in non-LIVE slices | 0 |
 
-**Reconciliation: 1,993 unique jobs + 372 extra slice placements = 2,365 regional/category slice placements.**
+**Reconciliation: 1,992 unique jobs + 372 extra slice placements = 2,364 regional/category slice placements.**
 
 Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-10-06.csv` — **STALE — CSV says 2,037 for 2026-10-06**.
 
@@ -27,7 +27,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-10-0
 |---|---:|---:|---:|
 | JobG8 | 1,636 | 372 | 372 |
 | NHS Jobs | 204 | 0 | 0 |
-| Teaching Vacancies | 153 | 0 | 0 |
+| Teaching Vacancies | 152 | 0 | 0 |
 
 ## JOBG8 FEED RECEIVED
 
@@ -281,7 +281,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-10-0
 
 ## CITY OPPORTUNITIES
 
-**352 mapped towns/localities with live jobs or an existing city page.** Counts use all 1,993 unique live Ontap jobs across every role and provider: 1,060 have an exact recognised town/locality and 933 have only broader or unrecognised location evidence. CREATE means 4+ current Service Admin jobs and no existing city page; London is held separately.
+**352 mapped towns/localities with live jobs or an existing city page.** Counts use all 1,992 unique live Ontap jobs across every role and provider: 1,059 have an exact recognised town/locality and 933 have only broader or unrecognised location evidence. CREATE means 4+ current Service Admin jobs and no existing city page; London is held separately.
 
 | Status | Town/city/locality | Region | All live jobs | Existing pages | Current routes | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre | Other / unclassified |
 |---|---|---|---:|---:|---||---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -302,7 +302,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-10-0
 | CREATE | Northwich | Cheshire - West | 4 | 0 |  | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | CREATE | Pontypridd | Wales South - Valleys | 4 | 0 |  | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | CREATE | Stafford | Staffordshire | 4 | 0 |  | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| LIVE PAGE | Birmingham | West Midlands - Birmingham & Solihull | 50 | 1 | /birmingham/service-administrator-jobs | 36 | 0 | 0 | 1 | 7 | 6 | 0 | 0 | 0 |
+| LIVE PAGE | Birmingham | West Midlands - Birmingham & Solihull | 49 | 1 | /birmingham/service-administrator-jobs | 35 | 0 | 0 | 1 | 7 | 6 | 0 | 0 | 0 |
 | LIVE PAGE | Manchester | Greater Manchester - Manchester & Salford | 40 | 1 | /manchester/service-administrator-jobs | 24 | 0 | 6 | 3 | 5 | 2 | 0 | 0 | 0 |
 | LIVE PAGE | Leeds | Yorkshire - West | 33 | 1 | /leeds/service-administrator-jobs | 19 | 0 | 1 | 7 | 4 | 1 | 1 | 0 | 0 |
 | LIVE PAGE | Bristol | Bristol & Bath | 30 | 1 | /bristol/service-administrator-jobs | 20 | 0 | 7 | 2 | 1 | 0 | 0 | 0 | 0 |
@@ -713,7 +713,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-10-0
 | Wales South - Gwent |  |  |  |  |  |  |  |  |
 | Wales South - Swansea Bay |  |  |  |  |  |  |  |  |
 | Wales South - Valleys | 9 |  |  |  |  |  |  |  |
-| West Midlands - Birmingham & Solihull | 62 |  |  | 5 | 10 | 12 | 7 |  |
+| West Midlands - Birmingham & Solihull | 61 |  |  | 5 | 10 | 12 | 7 |  |
 | West Midlands - Black Country | 6 |  |  |  |  |  |  |  |
 | West Midlands - Coventry & Warwickshire | 27 |  |  |  |  | CHECK | 2 |  |
 | Wiltshire | 19 | 2 |  |  |  | CHECK |  |  |
@@ -813,6 +813,6 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-10-0
 | Measure | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Live regions | 52 / 78 | 11 / 78 | 14 / 78 | 13 / 78 | 22 / 78 | 36 / 78 | 9 / 78 | 6 / 78 |
-| Live slice placements | 1431 + 2 CHECK | 95 | 69 + 1 CHECK | 191 | 279 | 224 + 16 CHECK | 75 + 1 CHECK | 1 + 5 CHECK |
+| Live slice placements | 1430 + 2 CHECK | 95 | 69 + 1 CHECK | 191 | 279 | 224 + 16 CHECK | 75 + 1 CHECK | 1 + 5 CHECK |
 
 **Live slices: 163 / 624.**
