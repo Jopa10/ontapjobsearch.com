@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-10-05
-review_fingerprint: 938ab267cc65e71851ee5aef853aa53a089dac3f3f382f5905d0b21a06e6522b
-routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
+review_date: 2026-10-06
+review_fingerprint: 0ffdfaf8a24f75b6f88290040a8c288f231a4228d186f9a403e311e712b11cb2
+routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 12
-- Selected: 5
-- POSS awaiting decision: 1
+- Selected: 6
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 6
 
@@ -83,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-stephens
 
 ---
 action: 
+SELECTED | Buckinghamshire | Aylesbury, South East, HP19 7QP | £26,522.00 - £28,742.00 Annually (FTE) | Receptionist/Admissions Officer
+employer: Bearbrook Combined School
+closing_date: 2026-10-19T23:59:00+01:00
+reason: Clear admin/service title: receptionist, admissions officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f5259fea177cd69103661b37af0b667eb0b92e1b55a0fb9ba3acf0d45c770886
+source: Teaching Vacancies
+source_job_id: receptionist-admissions-officer-bearbrook-combined-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admissions-officer-bearbrook-combined-school
+---
+
+---
+action: 
 SELECTED | Buckinghamshire | Aylesbury, HP22 6NL | £37,772.00 - £41,272.00 Annually (FTE) BPS Range 6. Actual salary will be pro rata, approx. £28,081 to £30,683 | SEN Administrator
 employer: Chiltern Way Academy Trust
 closing_date: 2026-10-09T23:59:00+01:00
@@ -98,20 +113,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-chi
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Buckinghamshire | Aylesbury, South East, HP22 7BR | £29,156.00 - £31,413.00 Annually (Actual) Bucks Pay Range 5 £29,156 to £31,413 (Full time equivalent to £34,319 to 36,975) | ARC Administrator
-employer: The Kingsbrook School
-closing_date: 2026-10-06T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f99444afc5d1849323ce2a57354d4923d694b96c02a452d398790b0d1c8f77d9
-source: Teaching Vacancies
-source_job_id: arc-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/arc-administrator
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

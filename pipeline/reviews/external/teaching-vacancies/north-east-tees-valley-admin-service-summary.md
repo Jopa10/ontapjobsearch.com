@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East - Tees Valley
 
-review_date: 2026-10-05
-review_fingerprint: e14716a3db6f1df2ea2cdd819986226e5ab5a3ab3339a572c81e3670f2956f30
-routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
+review_date: 2026-10-06
+review_fingerprint: ce8bf6c6b206b7d9b567dc073a2dab9e08f5be3d5496ca33c340253830973325
+routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 4
+- Records: 11
+- Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 4
@@ -34,6 +34,21 @@ factual_fingerprint: cbe371be327547ed6b8ef1850d860610f434d608cd788a602066a1d0719
 source: Teaching Vacancies
 source_job_id: administration-assistant-6d289c6b-155d-4735-affe-2840a052662f
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-6d289c6b-155d-4735-affe-2840a052662f
+---
+
+---
+action: 
+SELECTED | North East - Tees Valley | Billingham, North East, TS23 3LH | Grade D, SCP 4 | Administration Assistant
+employer: Bewley Primary School
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 7ad8e6e3614b561f46333ed4d73cb21cc0768af42eb9390089bf7514e0db559e
+source: Teaching Vacancies
+source_job_id: administration-assistant-bewley-primary-school-billingham-cleveland
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-bewley-primary-school-billingham-cleveland
 ---
 
 ---

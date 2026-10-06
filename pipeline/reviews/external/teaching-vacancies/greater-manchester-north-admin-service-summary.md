@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-10-05
-review_fingerprint: 6b2146cbe2a3476529d2a195453d9c67dde66fa96b0aeab1cd347380192680e0
-routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
+review_date: 2026-10-06
+review_fingerprint: a8f317bceb202a73d0b351e37bd889566d9fc150da8eaffb98055887f2205df6
+routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 12
 - Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -117,12 +117,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrato
 action: 
 POSS | Greater Manchester - North | Oldham, North West, OL9 0BN | 28,148.50 - 30,733.73 | MIS Systems and Data Officer
 employer: North Chadderton School
-closing_date: 2026-10-06T12:00:00+01:00
+closing_date: 2026-11-02T12:00:00+00:00
 reason: Borderline school administration title: data officer
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: 988e3107032a850463338fabc966b1c63a21799b99a2c03d216924ba54c1c58d
+factual_fingerprint: 4326965fe5c5175325553b1e34d0ab34ca4c575bdd201d31b65311a1bbb300bd
 source: Teaching Vacancies
 source_job_id: mis-systems-and-data-officer
 source_url: https://teaching-vacancies.service.gov.uk/jobs/mis-systems-and-data-officer
@@ -135,6 +135,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/mis-systems-and-data-
 ## HARD_PASS
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-richmond-academy) — Insufficient admin/service evidence.
+- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-the-blue-coat-cofe-school) — Insufficient admin/service evidence.
 - [Attendance Support Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-support-officer-st-gabriel-s-rc-high-school-a-voluntary-academy-bury-lancashire) — Insufficient admin/service evidence.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-bc9a8d56-95b2-402f-9fa6-ac718f8f9933) — Insufficient admin/service evidence.
 - [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-sacred-heart-roman-catholic-primary-school-a-voluntary-academy) — Manager title salary ceiling £36,581 is not below £28,000.

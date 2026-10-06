@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-10-05
-review_fingerprint: d6218f35cf49e6c3863d1521a2b0c42a433dba8be55ac6e004b6917db3786a8f
-routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
+review_date: 2026-10-06
+review_fingerprint: 49960093e1a8c79c98ff2c94333f5316752bf9a48a61b6b80f20757f0ad7d125
+routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -14,27 +14,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 24
-- Selected: 9
+- Selected: 10
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 15
+- Hard pass: 14
 
 ## SELECTED
-
----
-action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B33 9RD | £11856 - £12826 per annum | Admin Assistant
-employer: Lift Lea Forest
-closing_date: 2026-10-06T14:00:14+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3092266b595083a7855745d81ec55ef2cafc9708e92ec365a066838ad02f5f95
-source: Teaching Vacancies
-source_job_id: admin-assistant-lift-lea-forest
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-lift-lea-forest
----
 
 ---
 action: 
@@ -98,32 +83,32 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B17 8QB | £28,153.00 - £31,015.00 Annually (FTE) Actual pro-rated salary based on term time plus two weeks, during the summer holidays, equates to £25,961 (Scale Point 9) per annum to £26,600 (scale point 15) | Attendance Officer
-employer: King Edward VI Lordswood School for Girls
-closing_date: 2026-10-12T23:59:00+01:00
-reason: Clear admin/service title: attendance officer
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B29 4HE | £23,408.04 - £25,392.13 Annually (Actual) SCP 12-17 | Administrator
+employer: E-ACT Shenley Academy
+closing_date: 2026-10-19T09:00:00+01:00
+reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: e40dee9ec13429260b0f4a5ddc95f0ad531001dad9f21b4bb037a7125b783119
+factual_fingerprint: a253f9aaf14048b7de492c19c86b57a7cf884a044441596605b41a7e3ec47ad9
 source: Teaching Vacancies
-source_job_id: attendance-officer-king-edward-vi-lordswood-school-for-girls
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-king-edward-vi-lordswood-school-for-girls
+source_job_id: administrator-10e24a6d-ddcb-46b5-bc55-040dbc078abe
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-10e24a6d-ddcb-46b5-bc55-040dbc078abe
 ---
 
 ---
 action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B10 0EG | £27,709.00 to £29,071.00 per annum (pro rata £24,444.59 to £25,646.13 per annum) | Business Support Officer - Finance
-employer: The Olive School, Small Heath
-closing_date: 2026-10-05T23:59:00+01:00
-reason: Clear admin/service title: business support officer
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B17 8QB | £28,153.00 - £31,015.00 Annually (FTE) Actual pro-rated salary based on term time plus two weeks, during the summer holidays, equates to £25,961 (Scale Point 9) per annum to £26,600 (scale point 15) | Attendance Officer
+employer: King Edward VI Lordswood School for Girls
+closing_date: 2026-10-12T12:00:00+01:00
+reason: Clear admin/service title: attendance officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 5677eb708abf92958bdaac85e22fb393beaceae7a541de980d120c7d0ad7687e
+factual_fingerprint: 5ec89cf5ab3fe13bbaa6a8d2e712584ba094a3dcdaef64f80b997e14439df1e6
 source: Teaching Vacancies
-source_job_id: business-support-officer-finance-the-olive-school-small-heath
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-finance-the-olive-school-small-heath
+source_job_id: attendance-officer-king-edward-vi-lordswood-school-for-girls
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-king-edward-vi-lordswood-school-for-girls
 ---
 
 ---
@@ -143,6 +128,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ---
 action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B43 7SD | £25,614.00 - £26,016.00 Annually (Actual) Grade 2 SCP 3-4 (£25614 - £26016 FTE) | 52.14 Weeks Per year | Receptionist
+employer: Q3 Academy Great Barr
+closing_date: 2026-10-18T23:59:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c3666d871ddbcd37acbce458b9a6e4462fe75d70dffeab83d2ca8cceed515ad3
+source: Teaching Vacancies
+source_job_id: receptionist-43f0e0db-e751-4263-b554-d231b0475340
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-43f0e0db-e751-4263-b554-d231b0475340
+---
+
+---
+action: 
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B36 0HD | FTE - £ 25614.00 - £26427.00 Actual Salary - £ 20770.00 - £21909.00 | School Office Administrator
 employer: Castle Bromwich Junior School
 closing_date: 2026-10-14T09:00:00+01:00
@@ -154,6 +154,21 @@ factual_fingerprint: d0addec0efed820b1afcd6065021263dcb9c3c106035e1160e7086d2d96
 source: Teaching Vacancies
 source_job_id: school-office-administrator-castle-bromwich-junior-school-birmingham-west-midlands
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-administrator-castle-bromwich-junior-school-birmingham-west-midlands
+---
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B38 8XQ | £31,014.79 - £34,810.92 Annually (FTE) GLP Grade 4, SCP 12- 16 (pro-rata) | Senior Administrator
+employer: Fairway Primary Academy
+closing_date: 2026-10-22T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 506d63dead734c116f794b813ba5d8fd09a27e2d41c9a0242fb5c0acd429375d
+source: Teaching Vacancies
+source_job_id: senior-administrator-fairway-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-fairway-primary-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -176,7 +191,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-adminis
 - [Office Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/office-co-ordinator-moor-green-primary-academy-birmingham) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-bloomsbury-nursery-school) — Manager title salary ceiling £34,434 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-erdington-hall-primary-school) — Manager title salary ceiling £43,149 is not below £28,000.
-- [PA to Executive Head](https://teaching-vacancies.service.gov.uk/jobs/pa-to-executive-head) — Missing salary or pay scale.
 - [Regional Commercial Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/regional-commercial-procurement-manager-ormiston-academies-trust-birmingham-not-recorded) — Manager title salary ceiling £63,638 is not below £28,000.
 - [Reprographics and Media Assistant](https://teaching-vacancies.service.gov.uk/jobs/reprographics-and-media-assistant) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-severne-junior-infant-and-nursery-school) — Manager title salary ceiling £55,224 is not below £28,000.

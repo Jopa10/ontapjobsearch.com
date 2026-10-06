@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-10-05
-review_fingerprint: e346dba4c8c2d6bd221db10ae2717374c098d05f885cab143ba563f2d9499990
-routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
+review_date: 2026-10-06
+review_fingerprint: ef381fa68142ce4dc1ae47556aab189ae170464f662b319d33c99ddf2ba2e6ae
+routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 50
-- Selected: 19
-- POSS awaiting decision: 3
+- Records: 53
+- Selected: 23
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 28
 
@@ -143,6 +143,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/behaviour-support-adm
 
 ---
 action: 
+SELECTED | London | London, London, N9 8DR | £28,148.19 - £30,407.51 Annually (FTE) NSCT Pay Scales: 18-21 / Actual Salary: £26,855.53 - £27,930.11 / NSCT Health Cash Plan + Generous Pension | Business Support Assistant
+employer: Woodpecker Hall Primary Academy
+closing_date: 2026-10-27T23:59:00+00:00
+reason: Clear admin/service title: business support assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 12e1d8febc08066810db7d6614e7aa1e44f4d4c1d12dbc24a475128aafdb2828
+source: Teaching Vacancies
+source_job_id: business-support-assistant-a81bf6ae-e6d3-4234-a787-8db0968be919
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-assistant-a81bf6ae-e6d3-4234-a787-8db0968be919
+---
+
+---
+action: 
 SELECTED | London | Wallington, London, SM6 8NQ | Scale 4/5 £14,044.27 - £15,762.29 per annum inclusive of London Weighting Allowance (FTE £30,279 - £33,983 per annum). | Education and Health Care Plan (EHCP) Administrator
 employer: Carew Academy
 closing_date: 2026-10-12T23:59:00+01:00
@@ -154,6 +169,21 @@ factual_fingerprint: a8fbe42b3e26d8ee3d7656de3411fd6ab2bfde7129b8f12fde865564cf2
 source: Teaching Vacancies
 source_job_id: education-and-health-care-plan-ehcp-administrator-carew-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/education-and-health-care-plan-ehcp-administrator-carew-academy
+---
+
+---
+action: 
+SELECTED | London | Bromley, London, BR1 2NW | BR6 - £27,262 - £29,900 (Actual pro-rata salary £14,563) | Educational Visits and Enrichment Administrator
+employer: Bullers Wood School for Boys
+closing_date: 2026-10-23T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: de70f15d00af6eeb850e63d59404d575abcf9d7b71426a5ee78b29958a0b66a0
+source: Teaching Vacancies
+source_job_id: educational-visits-and-enrichment-administrator-bullers-wood-school-for-boys
+source_url: https://teaching-vacancies.service.gov.uk/jobs/educational-visits-and-enrichment-administrator-bullers-wood-school-for-boys
 ---
 
 ---
@@ -188,6 +218,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/general-administrator
 
 ---
 action: 
+SELECTED | London | Osterley, London, TW7 5PN | £29,739.00 - £31,486.00 | Graduate Intern - Pastoral Administrator
+employer: Nishkam School West London
+closing_date: 2026-10-07T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8070c00ee9cf2005d7528873ce709e08deb6b2ac4fe4e656af389bf93987ea46
+source: Teaching Vacancies
+source_job_id: graduate-intern-pastoral-administrator-nishkam-school-west-london
+source_url: https://teaching-vacancies.service.gov.uk/jobs/graduate-intern-pastoral-administrator-nishkam-school-west-london
+---
+
+---
+action: 
 SELECTED | London | New Malden, KT3 6NU | £28,521.00 - £33,987.00 Annually (FTE) | Human Resources Administrator
 employer: Helix Learning Trust
 closing_date: 2026-10-16T23:59:00+01:00
@@ -218,17 +263,32 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/learning-support-admi
 
 ---
 action: 
-SELECTED | London | New Malden, London, KT3 6NU | £28,026.00 - £29,436.00 Annually (FTE) Salary Scale C3 - C5 Actual £13,636 - £14,026pa (£28,617pa - £29,436 FTE) | Receptionist (Part-time)
-employer: Coombe Boys' School
-closing_date: 2026-10-06T10:00:00+01:00
+SELECTED | London | Dagenham, London, RM9 4UN | £10,415.94 - £10,706.91 Annually (Actual) £30,408 to £30,843 (FTE) | Music Admin Assistant
+employer: Jo Richardson Community School
+closing_date: 2026-10-12T08:00:00+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2e216f53aa2a7f6b0acd39c391eab2f7c71b86fa2750e4f4191a6d4067febbf4
+source: Teaching Vacancies
+source_job_id: music-admin-assistant-jo-richardson-community-school-dagenham-essex
+source_url: https://teaching-vacancies.service.gov.uk/jobs/music-admin-assistant-jo-richardson-community-school-dagenham-essex
+---
+
+---
+action: 
+SELECTED | London | Hayes, London, UB3 1JA | £23,878.00 - £24,220.00 Annually (Actual) | Receptionist & Administration Assistant
+employer: Lake Farm Park Academy
+closing_date: 2026-12-31T12:00:00+00:00
 reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: a0d625fb7b65f3fe8cc0be5a0d9cc35634ed39d50662e500588063d98d8a947a
+factual_fingerprint: 46c32748029bc430ecfee6330a82d9a04d3754370e2e706c4ef45654c8ca5b35
 source: Teaching Vacancies
-source_job_id: receptionist-part-time-coombe-boys-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-part-time-coombe-boys-school
+source_job_id: receptionist-administration-assistant-lake-farm-park-academy-hayes-middlesex
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administration-assistant-lake-farm-park-academy-hayes-middlesex
 ---
 
 ---
@@ -263,17 +323,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-admin-assistan
 
 ---
 action: 
-SELECTED | London | Chislehurst, London, BR7 5PS | £30,405.00 - £31,284.00 Annually (FTE) NJC Scale 3 Points 5-7 (FTE Salary: £30,405- £31,284 per annum) (Actual Salary: £29,545 - £30,399 per annum) | School Receptionist
-employer: Orion Coopers
-closing_date: 2026-10-05T23:59:00+01:00
-reason: Clear admin/service title: receptionist
+SELECTED | London | Isleworth, London, TW7 5DB | £33,129.00 - £35,109.00 Annually (FTE) NJC Scale 5 £33,129 to £35,109 (pro rata) Pro rata salary based on working 36 hours a week for 5 days a week, 39 weeks per annum (N.B. this is ‘term time’ i.e. 195 days) | SEND Administrator
+employer: Bolder Academy
+closing_date: 2026-10-12T12:00:00+01:00
+reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 30bd27166c508b2e8d2b2d37623d1855c0c2c5a1c65520fed09c5d23303aa572
+factual_fingerprint: 2aa6d12d4e8637b94171ac0d449be0bd9dcdeca6f5592140b687c125dbcec75b
 source: Teaching Vacancies
-source_job_id: school-receptionist-orion-coopers
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-orion-coopers
+source_job_id: send-administrator-bolder-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-bolder-academy
 ---
 
 ---
@@ -310,17 +370,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-data-administr
 
 ---
 action: 
-POSS | London | London, London, NW6 7BH | £29,856.00 Annually (FTE) GLPC SC3 SP6 - Actual starting salary 14378.10 | Admin with Reception Duties-for sixth form site at Harlesden Road NW10 3RN
-employer: The Avenue School
-closing_date: 2026-10-05T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
+POSS | London | Romford, London, RM3 8HN | £29,895.10 - £32,173.39 Annually (Actual) NJC Points 14v -19, 36 hours per week, 39 weeks per year (term time only plus inset) | EHCP Administrator
+employer: Lime Academy Ravensbourne
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 7855e2bc92cecd0f071f6b417b1fa94779d531001ffd5e83fc6b14f3814692dd
+factual_fingerprint: 31bd4ca73f29f52a5632b72ae002e9cefaf5af77737c350ae9348e269d27a02c
 source: Teaching Vacancies
-source_job_id: admin-with-reception-duties-for-sixth-form-site-at-harlesden-road-nw10-3rn
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-with-reception-duties-for-sixth-form-site-at-harlesden-road-nw10-3rn
+source_job_id: ehcp-administrator-lime-academy-ravensbourne-romford-essex
+source_url: https://teaching-vacancies.service.gov.uk/jobs/ehcp-administrator-lime-academy-ravensbourne-romford-essex
 ---
 
 ---
@@ -336,21 +396,6 @@ factual_fingerprint: 0cc991a582038e81423c8b5a6c275f4d96edbffadb70d78b5a775a2be0c
 source: Teaching Vacancies
 source_job_id: exams-and-data-officer-001df384-4611-4e33-97d4-7c89842c0e25
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-officer-001df384-4611-4e33-97d4-7c89842c0e25
----
-
----
-action: 
-POSS | London | Isleworth, London, TW7 5DB | £33,129.00 - £35,109.00 Annually (FTE) NJC Scale 5 £33,129 to £35,109 (pro rata) Pro rata salary based on working 36 hours a week for 5 days a week, 39 weeks per annum (N.B. this is ‘term time’ i.e. 195 days) | SEND Administrator
-employer: Bolder Academy
-closing_date: 2026-10-12T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2aa6d12d4e8637b94171ac0d449be0bd9dcdeca6f5592140b687c125dbcec75b
-source: Teaching Vacancies
-source_job_id: send-administrator-bolder-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-bolder-academy
 ---
 
 ## EXCLUDED BY REVIEW
@@ -374,9 +419,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-bo
 - [H3 Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/h3-admin-officer) — Insufficient admin/service evidence.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-anthem-schools-trust-london-not-recorded) — Insufficient admin/service evidence.
 - [Headteacher's PA](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-the-heathland-school-hounslow) — Out-of-scope occupation: teacher, headteacher.
+- [Human Resources Manager (Schools)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-manager-schools-netley-primary-school) — Manager title salary ceiling £41,000 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-chadwell-heath-academy-romford-essex) — Manager title without salary evidence below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-hawes-down-primary-school) — Manager title salary ceiling £28,146 is not below £28,000.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-the-st-thomas-the-apostle-college) — Manager title salary ceiling £38,021 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-victory-primary-school-london) — Manager title without salary evidence below £28,000.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-blackfen-school-for-girls) — Manager title salary ceiling £50,583 is not below £28,000.
 - [Part Time HR Officer](https://teaching-vacancies.service.gov.uk/jobs/part-time-hr-officer) — Insufficient admin/service evidence.

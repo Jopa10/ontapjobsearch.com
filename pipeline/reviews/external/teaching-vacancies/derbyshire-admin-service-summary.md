@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-10-05
+review_date: 2026-10-06
 review_fingerprint: da87716a5a6c004836e59288a88a76f579a40dd6959e1988dd45f567e156f9b2
-routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
+routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 4
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -76,7 +76,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-school-b
 
 ## HARD_PASS
 
-- [Careers Advisor](https://teaching-vacancies.service.gov.uk/jobs/careers-advisor-tupton-hall-school) — Insufficient admin/service evidence.
 - [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-baa22bb2-6d0c-44b2-88f2-02e91a0e297e) — Insufficient admin/service evidence.
 
 ## Safety boundary

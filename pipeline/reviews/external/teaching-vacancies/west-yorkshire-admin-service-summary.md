@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-10-05
-review_fingerprint: c10cf322b2e8d09cc1efecdc76eb569ba9ebdced94bf57ff8383724884e3daed
-routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
+review_date: 2026-10-06
+review_fingerprint: 98775f7bb04e72538b48e3c40d55ed0a9a5ca0fa640d1107058ab19805e6e2c1
+routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 31
+- Records: 32
 - Selected: 10
 - POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 16
+- Hard pass: 17
 
 ## SELECTED
 
@@ -143,21 +143,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/leadership-team-admin
 
 ---
 action: 
-SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD8 7DX | £30,515.00 - £33,119.00 Annually (FTE) Grade F Points 14 to 18 (£30, 515 to £33,119 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £26,362.80. | PA to the Principal (7519)
-employer: Valley Academy
-closing_date: 2026-10-05T23:59:00+01:00
-reason: Clear admin/service title: pa to
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 1ea7a8a06c883353aab42ee86d30a68ee0c4fcc4db5b089db817d19d311abd19
-source: Teaching Vacancies
-source_job_id: pa-to-the-principal-7519
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-principal-7519
----
-
----
-action: 
 SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS12 1JZ | B3-C1 depending on experience | School Administrator
 employer: Castleton Primary School
 closing_date: 2026-10-29T15:00:00+00:00
@@ -169,6 +154,21 @@ factual_fingerprint: 31e383b781a20302e34e83d5157446caa92379778f8d3c79d3254bec73d
 source: Teaching Vacancies
 source_job_id: school-administrator-castleton-primary-school-leeds-west-yorkshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-castleton-primary-school-leeds-west-yorkshire
+---
+
+---
+action: 
+SELECTED | Yorkshire - West | Bingley, Yorkshire and the Humber, BD16 1EE | £12,522.00 - £12,921.72 Annually (Actual) Band 5 SCP 4 - 6 | Work Experience Administrator
+employer: Beckfoot School
+closing_date: 2026-10-18T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: bbf5a67d1096c4293ad39878a7252ebcee0ada230d938882a832ba614fb17d39
+source: Teaching Vacancies
+source_job_id: work-experience-administrator-beckfoot-school-bingley-west-yorkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/work-experience-administrator-beckfoot-school-bingley-west-yorkshire
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -265,6 +265,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-support-officer-7
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-ossett-academy-and-sixth-form-college) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-greengates-primary-academy-bradford-west-yorkshire) — Insufficient admin/service evidence.
 - [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-ilkley-grammar-school) — Insufficient admin/service evidence.
+- [Learning Manager](https://teaching-vacancies.service.gov.uk/jobs/learning-manager-31a743da-8519-49fb-99c7-f5afb963c51c) — Manager title salary ceiling £36,581 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-holy-name-catholic-voluntary-academy) — Manager title salary ceiling £32,046 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-weetwood-primary-school-leeds-west-yorkshire) — Manager title salary ceiling £42,123 is not below £28,000.
 - [SEND Administration and Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/send-administration-and-support-assistant) — Insufficient admin/service evidence.

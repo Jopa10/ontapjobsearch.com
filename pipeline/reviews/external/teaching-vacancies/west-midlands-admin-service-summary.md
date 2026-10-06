@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands
 
-review_date: 2026-10-05
-review_fingerprint: 172c5c80123206d5da00f3f13222003b968b1fab46dd6336e3bfcf50a7195269
-routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
+review_date: 2026-10-06
+review_fingerprint: d67dbdf274dbce09d41e3e9879dae99dc753876d624b26471d1621674436f9c2
+routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
 ontap_region: West Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
-- Selected: 1
+- Records: 2
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 0
 
 ## SELECTED
+
+---
+action: 
+SELECTED | West Midlands | Newcastle Under Lyme, West Midlands, ST5 2QS | £23,174.00 Annually (Actual) Temporary contract until 31.8.27 | Administration Assistant for the Senior Leadership Team
+employer: Newcastle Academy
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 4fdae23db5a044c78d65652de10b356d2c2639a067614ce4d32894f5c03ffd45
+source: Teaching Vacancies
+source_job_id: administration-assistant-for-the-senior-leadership-team
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-for-the-senior-leadership-team
+---
 
 ---
 action: 

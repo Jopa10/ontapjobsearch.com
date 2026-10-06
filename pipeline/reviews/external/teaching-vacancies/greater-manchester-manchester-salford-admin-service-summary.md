@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-10-05
-review_fingerprint: 7a2e7be23a0e996c702ccece4a6127c9f73a5ded5397d10bf4011394895e9cb1
-routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
+review_date: 2026-10-06
+review_fingerprint: f85a0f02be3605ff86b8d9a028bc3ba0d11d0c9833750ac978e3dd787620f201
+routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 9
 - Selected: 4
-- POSS awaiting decision: 2
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 2
 
@@ -111,6 +111,21 @@ factual_fingerprint: 6d45efec73013b65b99186fda98deae23495bfc4249c2c32096b494e9ce
 source: Teaching Vacancies
 source_job_id: reception-and-administration-assistant-crown-street-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-administration-assistant-crown-street-primary-school
+---
+
+---
+action: 
+POSS | Greater Manchester - Manchester & Salford | Manchester, North West, M20 2ET | £18,491 - £19,395 (Actual salary) | Reception and Administration Assistant
+employer: Didsbury High School
+closing_date: 2026-10-19T09:00:59+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f9e3b5fe34693530b8d91041e647c1e238c4bb6b394dc03a1d5f23e0ad983e48
+source: Teaching Vacancies
+source_job_id: reception-and-administration-assistant-didsbury-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-administration-assistant-didsbury-high-school
 ---
 
 ## EXCLUDED BY REVIEW

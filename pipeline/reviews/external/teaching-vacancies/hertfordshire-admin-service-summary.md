@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-10-05
-review_fingerprint: a4c3a5dbbb834c834ee24ab4bc0a5319474f9e76842ead59c70c1b18d3d7d179
-routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
+review_date: 2026-10-06
+review_fingerprint: d4302d1670eb6767c8438a480599f4b603c1d93dba2fd0fbe054ee86a0ad4e9d
+routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
+- Records: 17
 - Selected: 6
-- POSS awaiting decision: 5
+- POSS awaiting decision: 6
 - Excluded: 0
 - Hard pass: 5
 
@@ -126,6 +126,21 @@ factual_fingerprint: 369574d46ae9a7c9572ada9413108a6361562d419e20ea7b6e3a2b99e18
 source: Teaching Vacancies
 source_job_id: finance-assistant-brighter-futures-educational-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-brighter-futures-educational-trust
+---
+
+---
+action: 
+POSS | Hertfordshire | Harpenden, East of England, AL5 5FH | £27,600.00 - £28,906.00 Annually (FTE) Actual salary: 30 hours, £20,128 - £21,080, 37 hours, £24,824 - £25,999 | Finance Assistant
+employer: Katherine Warington School
+closing_date: 2026-10-20T08:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4fda33049c7d667ff40676f0aee9a58939937750f9d0723ea9c3d75bde375038
+source: Teaching Vacancies
+source_job_id: finance-assistant-katherine-warington-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-katherine-warington-school
 ---
 
 ---

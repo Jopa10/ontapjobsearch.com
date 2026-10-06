@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-10-05
-review_fingerprint: 3f54d183c0e06e00363c7ee9a10820a5395ef6f81ce81e80a9695d1d854c3057
-routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
+review_date: 2026-10-06
+review_fingerprint: c9c4cd1733e2f4a03400f9e20188e6679ae9f694e361828e2e3ef538e44cc49c
+routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 12
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 10
 
 ## SELECTED
-
----
-action: 
-SELECTED | West Midlands - Black Country | West Bromwich, West Midlands, B70 7LE | £24,599 – £25,791 | Administration Assistant
-employer: West Bromwich Collegiate Academy
-closing_date: 2026-10-05T23:59:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 80a81a504ca68044566dc0f9e2d5ef2dbd8aa517893e5ef59bd47d4c1a3d537d
-source: Teaching Vacancies
-source_job_id: administration-assistant-west-bromwich-collegiate-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-west-bromwich-collegiate-academy
----
 
 ---
 action: 
@@ -51,6 +36,21 @@ source_job_id: receptionist-elston-hall-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-elston-hall-primary-school
 ---
 
+---
+action: 
+SELECTED | West Midlands - Black Country | Walsall, West Midlands, WV12 4EG | £21,924.00 - £22,623.00 Annually (Actual) Grade 3 SCP 4-6 | 36.25 Hours | 39 Weeks | School Receptionist
+employer: New Leaf School
+closing_date: 2026-10-20T09:00:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8f22bda167279bb3291b7b5ff565a0c73e734a5607b82575ebd6a8fd74370503
+source: Teaching Vacancies
+source_job_id: school-receptionist-new-leaf-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-new-leaf-school
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -65,6 +65,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-elston-h
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-ormiston-shelfield-community-academy-walsall-west-midlands) — Manager title salary ceiling £37,563 is not below £28,000.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-wolverhampton-girls-high-school) — Manager title salary ceiling £30,202 is not below £28,000.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-st-chad-s-academies-trust) — Manager title salary ceiling £65,035 is not below £28,000.
+- [Higher Level Teaching Assistant](https://teaching-vacancies.service.gov.uk/jobs/higher-level-teaching-assistant-windsor-high-school-and-sixth-form) — Out-of-scope occupation: teaching assistant.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-3c179d0b-a9c2-49dd-88f6-f3678f79fb20) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-5f4d4502-0d91-4091-b646-cbfc76dcdfb2) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-jesson-s-church-of-england-primary-school) — Manager title without salary evidence below £28,000.

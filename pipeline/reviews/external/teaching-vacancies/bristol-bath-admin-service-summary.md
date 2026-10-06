@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-10-05
-review_fingerprint: 444474056f7b46305805c7d6a42ff6c05a9db6b68ad9029408d6a0fdb420109f
-routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
+review_date: 2026-10-06
+review_fingerprint: b3e8608bb7ec1ceb7c0ab79563bcfffcad17c364c269389c829ceafba80e4b4c
+routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 2
+- Records: 3
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
-
----
-action: 
-SELECTED | Bristol & Bath | Bath, South West, BA3 3AL | £27,274.00 Annually (FTE) | Administrator
-employer: Fosse Way School
-closing_date: 2026-10-05T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ed6cb10c39793b08a5e671067469e9f4c97cef9e4eced86b92b3c7e2b0401706
-source: Teaching Vacancies
-source_job_id: administrator-fosse-way-school-bath-somerset
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-fosse-way-school-bath-somerset
----
 
 ---
 action: 
@@ -61,9 +46,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## HARD_PASS
 
-- [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-bridge-learning-campus-bristol) — Insufficient admin/service evidence.
+- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-chipping-sodbury-school) — Insufficient admin/service evidence.
 - [Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/lettings-assistant-oasis-academy-john-williams) — Insufficient admin/service evidence.
-- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-sgs-pegasus-school) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

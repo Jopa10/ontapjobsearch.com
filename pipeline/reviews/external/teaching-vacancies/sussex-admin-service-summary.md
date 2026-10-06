@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-10-05
-review_fingerprint: 10df12d74b01dc4dbefacc0910489749ab695e48b9df942718550689c752d7d3
-routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
+review_date: 2026-10-06
+review_fingerprint: a5fd0999ab93105e0a374f724839afb70a2337ae2bf1f2600145b99cb8d5f63e
+routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -68,21 +68,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-transition
 
 ---
 action: 
-SELECTED | Sussex | Eastbourne, South East, BN21 1UE | £20,252.00 - £20,574.00 Annually (Actual) | Admissions Officer
-employer: The Cavendish School
-closing_date: 2026-10-06T09:00:00+01:00
-reason: Clear admin/service title: admissions officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e6966028a92a3ef6d05888c6d597e2a22f024f9ed0b92a83493888b3aa9dad72
-source: Teaching Vacancies
-source_job_id: admissions-officer-the-cavendish-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-the-cavendish-school
----
-
----
-action: 
 SELECTED | Sussex | St. Leonards-on-Sea, South East, TN38 9DS | £17,254.02 - £18,385.78 Annually (Actual) TPA 8 / NJC 6 - 10 - £26,847 - £28,608pa FTE | Attendance & HR Admin Assistant
 employer: Hollington Primary School
 closing_date: 2026-10-09T23:59:00+01:00
@@ -124,6 +109,21 @@ factual_fingerprint: 39de46b584fd455013eb8763ae991c136035dbcb98c28ecb867bd62f325
 source: Teaching Vacancies
 source_job_id: personal-assistant-to-the-head-teacher-bishop-luffa-school-chichester
 source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-head-teacher-bishop-luffa-school-chichester
+---
+
+---
+action: 
+SELECTED | Sussex | Crawley, South East, RH10 3AG | £28,546.00 - £30,581.00 Annually (FTE) pro rata £13,643.30 based on 20 hours p/w | Senior Leadership Team Administrator
+employer: Milton Mount Primary School
+closing_date: 2026-10-15T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9425b5a9c0e544fbffc2af82c6b8deab33acca0de2b4a6866b84db454ac18cd1
+source: Teaching Vacancies
+source_job_id: senior-leadership-team-administrator-milton-mount-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-leadership-team-administrator-milton-mount-primary-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

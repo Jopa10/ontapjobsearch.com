@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-10-05
-review_fingerprint: feb0cd3099a0af9bbecd12e203d76ef650efb7f77e9588603f945315d3472176
-routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
+review_date: 2026-10-06
+review_fingerprint: e7abeb6c6442ac5c996e39a9debeb448fc2fb2b99a6e056534325792726d9e3a
+routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 7
+- Records: 18
+- Selected: 6
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 10
 
 ## SELECTED
-
----
-action: 
-SELECTED | North East | Stanley, North East, DH9 0TW | £17,994.00 - £18,372.00 Annually (Actual) (Pay award pending) | Administration Assistant
-employer: North Durham Academy
-closing_date: 2026-10-06T12:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f10b3b257ec73c61e62cde22c1f88d298d8726d13acd13f3013a7225f3229926
-source: Teaching Vacancies
-source_job_id: administration-assistant-north-durham-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-north-durham-academy
----
 
 ---
 action: 
@@ -168,7 +153,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrati
 - [Business Lead](https://teaching-vacancies.service.gov.uk/jobs/business-lead-st-leonard-s-catholic-primary-school-silksworth) — Insufficient admin/service evidence.
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-st-anthony-s-girls-catholic-academy-sunderland-tyne-and-wear) — Manager title salary ceiling £42,123 is not below £28,000.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-bishop-chadwick-catholic-education-trust) — Insufficient admin/service evidence.
+- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-bishop-hogarth-catholic-education-trust) — Insufficient admin/service evidence.
 - [Governance and Procurement Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-and-procurement-officer) — Insufficient admin/service evidence.
+- [Head of Governance, Risk & Compliance](https://teaching-vacancies.service.gov.uk/jobs/head-of-governance-risk-compliance) — Insufficient admin/service evidence.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-the-ascent-academies-trust) — Insufficient admin/service evidence.
 - [HR Support Staff](https://teaching-vacancies.service.gov.uk/jobs/hr-support-staff) — Insufficient admin/service evidence.
 - [Marketing Assistant](https://teaching-vacancies.service.gov.uk/jobs/marketing-assistant-kings-priory-school) — Insufficient admin/service evidence.

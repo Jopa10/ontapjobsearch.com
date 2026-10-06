@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-10-05
-review_fingerprint: 0a0e7452a237c0ee73ca15e95ea4ebccad3ae2bb914ad77f28e866b82130c243
-routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
+review_date: 2026-10-06
+review_fingerprint: b3517d6f65c0a594cdc840270d02793b53f94fe73a0e47b074e455b1ea6d89e4
+routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
-- Selected: 6
-- POSS awaiting decision: 2
+- Records: 21
+- Selected: 7
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 11
 
 ## SELECTED
 
@@ -83,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG5 8GX | Redhill Academy Trust Pay Scale Band 6, Scale Points 29 - 32 Actual salary: £25,467.74 - £27,004.53 | Administrator
+employer: Redhill Academy
+closing_date: 2026-10-11T15:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ee70b14363d67c22ed35100bac154992165bd01ec13de95243dc3869772f4e98
+source: Teaching Vacancies
+source_job_id: administrator-redhill-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-redhill-academy
+---
+
+---
+action: 
 SELECTED | Nottinghamshire | Nottingham, East Midlands, NG3 6DS | Pro Rata salary £19,082 - £21,244 (FTE salary £27,409 – £30,515) | Senior Administrator
 employer: Carlton Digby School
 closing_date: 2026-10-14T09:00:00+01:00
@@ -130,6 +145,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-the-bra
 
 ---
 action: 
+POSS | Nottinghamshire | Retford, DN22 7GR | £31,015.00 - £31,015.00 Annually (FTE) | Governance Professional
+employer: Diverse Academies Trust
+closing_date: 2026-10-18T23:59:00+01:00
+reason: Borderline school administration title: governance professional
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c764243bbc79bdaa3723dbf3af4581004ef436f0d948a9800756fa0b79a21b2c
+source: Teaching Vacancies
+source_job_id: governance-professional-diverse-academies-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-diverse-academies-trust
+---
+
+---
+action: 
 POSS | Nottinghamshire | Nottingham, East Midlands, NG5 4LT | £24,430.00 - £26,930.00 Annually (Actual) | Office Manager
 employer: The Good Shepherd Catholic Primary, Arnold
 closing_date: 2026-10-09T09:00:00+01:00
@@ -157,6 +187,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-the-go
 - [HR/People Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-people-operations-manager) — Manager title salary ceiling £57,358 is not below £28,000.
 - [Office Manager in Wilford, Nottingham](https://teaching-vacancies.service.gov.uk/jobs/office-manager-in-wilford-nottingham) — Manager title salary ceiling £31,022 is not below £28,000.
 - [Personal Assistant to the Principal and Office Manager](https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-principal-and-office-manager-6f027893-3df6-483b-bec0-beb9e8765ced) — Manager title salary ceiling £34,280 is not below £28,000.
+- [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-96d0e4ce-127e-44c5-84cd-fca1d087464c) — Insufficient admin/service evidence.
 - [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-the-flying-high-academy) — Insufficient admin/service evidence.
 - [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-burntstump-seely-cofe-primary-academy) — Manager title salary ceiling £30,514 is not below £28,000.
 

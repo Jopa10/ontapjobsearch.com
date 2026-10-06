@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-10-05
+review_date: 2026-10-06
 review_fingerprint: 4d8c8b1e74279e5ce7cb1579f80b91b07af3a6b4486c6a8d0981e66647a72ff9
-routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
+routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -136,10 +136,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/people-operations-off
 
 - [Business Administration Apprentice Level 3](https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprentice-level-3-doddinghurst-church-of-england-junior-school) — Insufficient admin/service evidence.
 - [Deputy Head of Year](https://teaching-vacancies.service.gov.uk/jobs/deputy-head-of-year-chase-high-school) — Out-of-scope occupation: deputy head.
+- [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-colne-community-school) — Insufficient admin/service evidence.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-mossbourne-port-side-academy) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-harlow-college) — Insufficient admin/service evidence.
 - [Senior HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-25bac6ce-5943-4c6e-9e63-670d8e460c1b) — Insufficient admin/service evidence.
-- [STUDENT ATTENDANCE AND INCLUSION MANAGER](https://teaching-vacancies.service.gov.uk/jobs/student-attendance-and-inclusion-manager-dee93199-2550-4a54-8c93-9bcd03bba34f) — Manager title without salary evidence below £28,000.
 - [Support Manager](https://teaching-vacancies.service.gov.uk/jobs/support-manager-little-thurrock-primary-school) — Manager title salary ceiling £33,495 is not below £28,000.
 
 ## Safety boundary

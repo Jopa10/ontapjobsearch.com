@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-10-05
-review_fingerprint: 4247938d84a8c1fbd3599a460f64a85394df2bf04dd55ca24af847324a26e022
-routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
+review_date: 2026-10-06
+review_fingerprint: c91d3453d46d7664bc8e5fd9dfc38ab0c7d4b26b2f297fd5215de4f670685b68
+routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 23
-- Selected: 14
-- POSS awaiting decision: 3
+- Records: 21
+- Selected: 13
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 6
 
@@ -38,17 +38,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | Devon | Okehampton, South West, EX20 1PW | £23,560.00 - £25,119.00 Annually (Actual) NJC Grade D. Range 8 to 12 | Attendance Officer
-employer: Okehampton College
-closing_date: 2026-10-05T23:59:00+01:00
-reason: Clear admin/service title: attendance officer
+SELECTED | Devon | Colyton, South West, EX24 6EQ | £13.92 - £14.36 Hourly Term Time Only | Administrator
+employer: Farway Church of England Primary School
+closing_date: 2026-10-16T12:00:00+01:00
+reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 6b169ff08d5d57063bc45f49130bf09a6b55a0571b2ae28da5749f33f213293a
+factual_fingerprint: 31bb5942f550a3e88cbf8ccfd116d0f3577a611c0a477e23adf3038f8e5f2ee5
 source: Teaching Vacancies
-source_job_id: attendance-officer-d0027772-8f3a-48b5-b0ae-06908bf9d607
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-d0027772-8f3a-48b5-b0ae-06908bf9d607
+source_job_id: administrator-farway-church-of-england-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-farway-church-of-england-primary-school
 ---
 
 ---
@@ -203,21 +203,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 
 ---
 action: 
-SELECTED | Devon | Exeter, South West, EX2 7LB | £31,724 - £35,688 | Senior Administrator
-employer: Stansfield Academy
-closing_date: 2026-10-05T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f15e070093b3334fc66696a87d368b472234ab719d87bb645b6fe45c865e3501
-source: Teaching Vacancies
-source_job_id: senior-administrator-stansfield-academy-exeter-devon
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-stansfield-academy-exeter-devon
----
-
----
-action: 
 SELECTED | Devon | Plymouth, South West, PL1 5QG | Part Time | Permanent | £21,437 Per Annum (Pro Rata of £26,440 Per Annum) | Student Funding Administrator
 employer: City College Plymouth
 closing_date: 2026-10-14T23:59:00+01:00
@@ -246,21 +231,6 @@ factual_fingerprint: d06c2a590fb9c0288eb61b2205b44f188937bb7dbfbf9d6c24960bc17b6
 source: Teaching Vacancies
 source_job_id: data-manager-ede70353-55db-4cf7-a540-0e0c7cfc4b8a
 source_url: https://teaching-vacancies.service.gov.uk/jobs/data-manager-ede70353-55db-4cf7-a540-0e0c7cfc4b8a
----
-
----
-action: 
-POSS | Devon | Exeter, South West, EX2 4NQ | £27,709.00 - £29,070.00 Annually (FTE) | Senior Pupil Services Officer
-employer: St Leonard's (CofE) Primary School
-closing_date: 2026-10-06T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d3b7c066f6b15675f449214cdad1f6e8dfeeab3d86aa29ab84ef7b90fc50f62a
-source: Teaching Vacancies
-source_job_id: senior-pupil-services-officer-st-leonard-s-cofe-primary-school-exeter-devon
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-st-leonard-s-cofe-primary-school-exeter-devon
 ---
 
 ---

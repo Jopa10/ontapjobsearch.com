@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-10-05
-review_fingerprint: 949a65a93c4461a8cf78d48e49ad6ff144b31da5d0cf360f3809d0ffefd6966d
-routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
+review_date: 2026-10-06
+review_fingerprint: 25a57c98980f306ae846139802d8ce600f97ce5bb0eac75fcbc66fc15f606426
+routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 3
+- Records: 12
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 7
@@ -49,6 +49,21 @@ factual_fingerprint: a2b731714d78b2b507d8904cbbd3bc877a13efd0a9ca01b05a26ebde8db
 source: Teaching Vacancies
 source_job_id: attendance-administrator-blessed-george-napier-catholic-school-and-sixth-form
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-blessed-george-napier-catholic-school-and-sixth-form
+---
+
+---
+action: 
+SELECTED | Oxfordshire | Faringdon, South East, SN7 7LB | £27,709.00 - £30,023.00 Annually (FTE) Support Staff NJC grade 6, SCP 8-13. 30 hours per week/38 weeks per year. Actual annual salary in the region of £18,837 to £20,410 | Inclusion Administrator
+employer: Faringdon Community College
+closing_date: 2026-11-02T12:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b16cdc0ec44185ae446003ac6a0b2ba6e171e5cbb2e19c8822d602fd06bde71f
+source: Teaching Vacancies
+source_job_id: inclusion-administrator-1d8857c6-4658-46bb-9bcc-5432cf1ee5cd
+source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrator-1d8857c6-4658-46bb-9bcc-5432cf1ee5cd
 ---
 
 ---

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-10-05
-review_fingerprint: 400abb9d88ecf66659e8e3e022271ba14bb11f6f8ba8bd5739c177ab8446bff7
-routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
+review_date: 2026-10-06
+review_fingerprint: 5fae96b0f5ce65fd491186017dd2764f302052b468d5665ee981f54dcda0185e
+routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,27 +14,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 16
-- Selected: 7
+- Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 9
 
 ## SELECTED
-
----
-action: 
-SELECTED | Berkshire | Newbury, South East, RG14 6JP | £26,018 to £27,709 per year | Administrative Assistant: Lettings & Estates
-employer: St Bartholomew's School
-closing_date: 2026-10-05T23:55:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3f5f35896165650a1494053ad6e3c1943937e7a595be79407dc2b88e18170c77
-source: Teaching Vacancies
-source_job_id: administrative-assistant-lettings-estates
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-lettings-estates
----
 
 ---
 action: 
@@ -151,6 +136,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-finance-assist
 
 - [Business Operations Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/business-operations-co-ordinator-arbour-vale-school) — Insufficient admin/service evidence.
 - [Casual Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/casual-lettings-assistant-maiden-erlegh-chiltern-edge-reading-berkshire) — Insufficient admin/service evidence.
+- [Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-assistant-4cb042fb-579e-4856-989b-a99368a75302) — Insufficient admin/service evidence.
 - [HR & Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-officer-the-park-federation-academy-trust) — Insufficient admin/service evidence.
 - [Office Manager and Personal Assistant to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-personal-assistant-to-the-headteacher-new-town-primary-school) — Manager title salary ceiling £40,444 is not below £28,000.
 - [Receptionist & Admin Assistant - Katesgrove Primary School](https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-katesgrove-primary-school-katesgrove-primary-school) — Missing salary or pay scale.

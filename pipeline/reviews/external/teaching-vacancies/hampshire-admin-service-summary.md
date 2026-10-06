@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-10-05
-review_fingerprint: fc3911dc267187846d2cec971b8988b9280352bf161498afad5b36e02cac3f0c
-routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
+review_date: 2026-10-06
+review_fingerprint: 394441d016ada32392c7dc5a05d31064b158a6e5c2e36c40f46641730598ce0c
+routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 2
+- Records: 6
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 5
 
 ## SELECTED
-
----
-action: 
-SELECTED | Hampshire | Portsmouth, South East, PO6 2PP | £8,682.22 - £9,103.20 Annually (Actual) | Administrative Assistant (Thursdays and Fridays)
-employer: Court Lane Junior Academy
-closing_date: 2026-10-05T23:59:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 738095b2c5e08afeb65a87b8a0131108cb3893ea57b6093f7e3555309954d3cb
-source: Teaching Vacancies
-source_job_id: administrative-assistant-thursdays-and-fridays
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-thursdays-and-fridays
----
 
 ---
 action: 

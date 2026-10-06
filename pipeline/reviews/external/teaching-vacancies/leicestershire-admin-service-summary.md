@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-10-05
-review_fingerprint: 269f87571a2ef1c9c844bee9f3fc2ea627f1559c702d6cd6ab2f9bbf364cb5fd
-routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
+review_date: 2026-10-06
+review_fingerprint: 61c1c3a8e562e3bd0f4b8b659d96078ae7b4e67d8d3cc960181292c77cfc573e
+routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 3
+- Records: 14
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 9
@@ -49,6 +49,21 @@ factual_fingerprint: a1954c1661a64e8898ff42ff72a0d3256220fabe92d5a8dd0b160b4af9c
 source: Teaching Vacancies
 source_job_id: pa-to-the-principal-06799846-251b-4b2c-bb1a-eb129a5f5011
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-principal-06799846-251b-4b2c-bb1a-eb129a5f5011
+---
+
+---
+action: 
+SELECTED | Leicestershire | Leicester, East Midlands, LE5 1FG | £26,022.00 - £26,436.00 Annually (FTE) Approximate starting salary of £ | Receptionist & Administration Assistant? (96BC)
+employer: Keyham Lodge School
+closing_date: 2026-10-11T17:00:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: bab413db65da2b164b1260c4526f3b0ea71af48a06869f9cc49dc6e6e5e15468
+source: Teaching Vacancies
+source_job_id: receptionist-administration-assistant-96bc
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administration-assistant-96bc
 ---
 
 ---

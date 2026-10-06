@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Worcestershire
 
-review_date: 2026-10-05
-review_fingerprint: 7b1b2836d4431d23f4ef8cfb36c53addfa08819df21daed6ebe39a5dc24f86ba
-routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
+review_date: 2026-10-06
+review_fingerprint: 4e1791a752d3c9c5f71b8e3ceebe8e4df2346876ef20c3b2de381dce83a6d4c2
+routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,27 +14,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 4
-- Selected: 2
-- POSS awaiting decision: 0
+- Selected: 1
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 2
 
 ## SELECTED
-
----
-action: 
-SELECTED | Worcestershire | Tenbury Wells, West Midlands, WR15 8XA | £8,782.00 - £8,921.00 Annually (Actual) | Administrator (SEND Department)
-employer: Tenbury High Ormiston Academy
-closing_date: 2026-10-06T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3548af80b004f6fb452b34b3a04cb73c846c7ea0353965ccadd4d932131ae026
-source: Teaching Vacancies
-source_job_id: administrator-send-department-tenbury-high-ormiston-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-send-department-tenbury-high-ormiston-academy
----
 
 ---
 action: 
@@ -53,7 +38,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Worcestershire | Worcester, West Midlands, WR4 9SG | £26,016.00 - £26,016.00 Annually (FTE) Actual pro rata salary for term time only and part time hours £21,710 per annum | Administrative Finance Assistant
+employer: Hollymount School
+closing_date: 2026-11-23T12:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f4402cdb09254c1212cfde47ef316bec6ea0e7db617e516c5567d74dbf0882e3
+source: Teaching Vacancies
+source_job_id: administrative-finance-assistant-hollymount-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-finance-assistant-hollymount-school
+---
 
 ## EXCLUDED BY REVIEW
 

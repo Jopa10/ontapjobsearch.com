@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-10-05
-review_fingerprint: 8267ef0049d08b23d0cec5297ec5a83cf4c5c8d9af7861c25932db1efb8f77bd
-routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
+review_date: 2026-10-06
+review_fingerprint: 7c4926fbe1349e7897c337814b9d80ace8e31ef82efbfc755e750d6fd27775e0
+routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 1
+- Records: 10
+- Selected: 2
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 6
 
 ## SELECTED
+
+---
+action: 
+SELECTED | East Midlands | Derby, East Midlands, DE21 4ET | NJC Grade 5 to 10 £22,901 - £24,789 | Administration Assistant (Fixed Term)
+employer: Da Vinci Academy
+closing_date: 2026-10-19T09:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 44ecfe9a214f1d667a4aef72d21e9a4b8f666615603a948b8380e45dcc02e243
+source: Teaching Vacancies
+source_job_id: administration-assistant-fixed-term-da-vinci-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-fixed-term-da-vinci-academy
+---
 
 ---
 action: 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-10-05
-review_fingerprint: 174b1cc73aebb360bcf585d833f680f84488ed2908c2da911dcf6328e0af3e87
-routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
+review_date: 2026-10-06
+review_fingerprint: b81912c048e62160deaae51db379b6b7cdbf181cb3e787de9c3a3ec60996da4e
+routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 6
+- Records: 14
+- Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 6
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Bedfordshire | Dunstable, East of England, LU6 3AG | £10,998.00 Annually (Actual) H3 pro rata | Admin Assistant (Pupil Responsibility) – Maternity Cover
+employer: Dunstable Icknield Lower School
+closing_date: 2026-10-19T09:00:00+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6fbae043bf8a12e8b025f0ab79479134111753f466e6c07b038b692138cfffd1
+source: Teaching Vacancies
+source_job_id: admin-assistant-pupil-responsibility-maternity-cover
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-pupil-responsibility-maternity-cover
+---
 
 ---
 action: 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-10-05
+review_date: 2026-10-06
 review_fingerprint: 9625cce50f7c60d5d81c920e664fa01afc95c54c0e0c07b97769233d8e43cc58
-routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
+routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 5
 - Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -74,7 +74,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-office
 
 ## HARD_PASS
 
-- [Administration Apprentice](https://teaching-vacancies.service.gov.uk/jobs/administration-apprentice-park-grove-primary-academy) — Insufficient admin/service evidence.
 - [Reception and Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/reception-and-administration-assistant-knavesmire-primary-school) — Insufficient admin/service evidence.
 - [Safeguarding Officer](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-officer-5ec4a7bd-4b3a-4070-92dc-4fd84807f54f) — Insufficient admin/service evidence.
 

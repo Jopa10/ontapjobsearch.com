@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-10-05
-review_fingerprint: 111a146d255571f261be6fe14911a5512a3b778ca47cfcaea7e8bd74c44dc72b
-routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
+review_date: 2026-10-06
+review_fingerprint: 6662c0255f0bf6d49258b282762490f6d1d120892ffdb54d3cffe8435f10ba48
+routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 5
+- Records: 6
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
@@ -49,21 +49,6 @@ factual_fingerprint: a714004cc2fe9582fb3ecb708ba2f52d2ee8d6ace98e9c81d9cddb2e6f9
 source: Teaching Vacancies
 source_job_id: administrative-assistant-hillview-school-for-girls-tonbridge-kent
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-hillview-school-for-girls-tonbridge-kent
----
-
----
-action: 
-SELECTED | Kent | Dartford, South East, DA1 2JT | £26,632 per annum | Curriculum Administrator
-employer: North Kent College
-closing_date: 2026-10-05T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f8e158d9a688a919d13ba3265c5cb847279b168a917997eee666fa42fbbe5502
-source: Teaching Vacancies
-source_job_id: curriculum-administrator-north-kent-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/curriculum-administrator-north-kent-college
 ---
 
 ---

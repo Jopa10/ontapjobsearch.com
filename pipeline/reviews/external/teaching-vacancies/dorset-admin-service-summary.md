@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-10-05
+review_date: 2026-10-06
 review_fingerprint: c6183e1c0c5a389b217807e11fc8927527a059839a9b85ff265ad0855b99a722
-routing_manifest_sha256: 960ed810dd8165fde3444ac725185128ca979fa6e11542a6c47592bd4aeaefce
+routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 5
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -46,6 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-leadership-team
 
 ## HARD_PASS
 
+- [Admin & Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-finance-assistant-southern-education-trust) — Insufficient admin/service evidence.
 - [Attendance Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/attendance-co-ordinator-the-bishop-of-winchester-academy) — Insufficient admin/service evidence.
 - [Exam Officer - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/exam-officer-maternity-cover-st-aldhelm-s-academy-poole-dorset) — Insufficient admin/service evidence.
 - [Finance Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-admin-officer-corfe-hills-school) — Insufficient admin/service evidence.
