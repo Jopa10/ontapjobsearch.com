@@ -6,9 +6,261 @@ The `excluded_on` date is the day the exclusion decision was made.
 To restore a job, edit only its `action:` line to `action: select`.
 On the next JobG8 run that exact job ID will be restored and removed from this list.
 
-remembered_exclusions: 383
+remembered_exclusions: 405
 
 ## SERVICE / ADMIN — EXCLUDED
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-06
+title: Technical Team Leader - 2nd and 3rd Line - MSP Service Desk - Hybrid Reading
+employer: Global Technology Solutions Ltd
+region: 
+town: Berkshire
+salary: 
+job_id: 2050196
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-06
+title: Service Advisor
+employer: Octane Recruitment
+region: 
+town: Wiltshire
+salary: 
+job_id: 108056035
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-06
+title: Rebates Administrator
+employer: Newton Maxwell Recruitment Ltd.
+region: 
+town: Buckinghamshire
+salary: 
+job_id: 2049607
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-06
+title: Projects Operations Implementation Coordinator
+employer: Hays Specialist Recruitment Limited
+region: 
+town: Derbyshire
+salary: 
+job_id: 2059301
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-06
+title: Project Operations Coordinator (Supply Chain / Inventory)
+employer: Hays Specialist Recruitment Limited
+region: 
+town: Derbyshire
+salary: 
+job_id: 2059648
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-06
+title: Payroll and Accounts Assistant
+employer: Elevation Recruitment Group
+region: 
+town: Yorkshire
+salary: 
+job_id: 2028957
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-06
+title: Operations Coordinator
+employer: Kevin Theobald Recruitment Agency
+region: 
+town: Berkshire
+salary: 
+job_id: 1990949
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-06
+title: Legal Assistant
+employer: VWA (Victoria Wall Associates)
+region: 
+town: London
+salary: 
+job_id: 2049270
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-06
+title: Investment Administrator
+employer: Mulberry Recruitment
+region: 
+town: Surrey
+salary: 
+job_id: 2056622
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-06
+title: Intelligent Office / Dynamic Planner Technology training officer
+employer: Astral Recruitment
+region: 
+town: Sussex
+salary: 
+job_id: 1987184
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-06
+title: Import/Export Coordinator
+employer: Michael Page Business Support
+region: 
+town: Sussex
+salary: 
+job_id: 2039633
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-06
+title: HR Data Coordinator
+employer: Robert Half
+region: 
+town: London
+salary: 
+job_id: 2076312
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-06
+title: Financial Administrator
+employer: Financial Divisions
+region: 
+town: London
+salary: 
+job_id: 2076997
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-06
+title: Financial Administrator
+employer: Financial Divisions
+region: 
+town: Hampshire
+salary: 
+job_id: 1971987
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-06
+title: Facilities Coordinator
+employer: VWA (Victoria Wall Associates)
+region: 
+town: London
+salary: 
+job_id: 2049365
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-06
+title: Demand Planner
+employer: Bright Executive
+region: 
+town: West Midlands
+salary: 
+job_id: 2043520
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-06
+title: Client Services Administrator
+employer: Financial Divisions
+region: 
+town: London
+salary: 
+job_id: 2073306
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-06
+title: Campaign Coordinator (6 month temporary position)
+employer: Morgan Hunt Recruitment
+region: 
+town: Fife
+salary: 
+job_id: 2022319
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-06
+title: Bookkeeper
+employer: Robert Half
+region: 
+town: Midlothian
+salary: 
+job_id: 2024278
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-06
+title: Band 6 Care Co-ordinator
+employer: Day Webster
+region: 
+town: Surrey
+salary: 
+job_id: 2028057
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-06
+title: Assistant Accountant
+employer: Reed
+region: 
+town: Northamptonshire
+salary: 
+job_id: 1996420
+---
 
 ---
 action:
@@ -4463,6 +4715,18 @@ job_id: 23643_225460911
 ---
 
 ## SUPPORT WORKER — EXCLUDED
+
+---
+action:
+category: support_worker
+excluded_on: 2026-10-06
+title: Behaviour Support Worker
+employer: Engage Education
+region: 
+town: Yorkshire
+salary: 
+job_id: 2071005
+---
 
 ---
 action:

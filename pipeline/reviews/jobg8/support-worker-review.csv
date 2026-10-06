@@ -1,7 +1,6 @@
 ﻿feed_date,decision,region,title,town,salary_text,manual_override,manual_select,job_id
+2026-10-06,SELECTED,Yorkshire - West,Home Care Assistant,Huddersfield,£13.30-£16.25 per hour,,,1986485
 2026-10-06,SELECTED,Yorkshire - West,Support Worker,Halifax,£13.15 per hour,,,2026985
-2026-10-06,POSS - YORKSHIRE - WEST,Yorkshire - West,Home Care Assistant,Huddersfield,£13.30-£16.25 per hour,,,1986485
-2026-10-06,POSS - YORKSHIRE - WEST,Yorkshire - West,Behaviour Support Worker,Wakefield,£50 per hour,,,2071005
 2026-10-06,SELECTED,Yorkshire - South,Night Support Worker,Sheffield,£13.15 Per Hour,,,1938182
 2026-10-06,SELECTED,Yorkshire - South,Rehabilitation Support Worker,Barnsley,£13.45 per hour,,,1978086
 2026-10-06,SELECTED,Yorkshire - South,Hybrid Rehabilitation Support Worker,Barnsley,£13.45 per hour,,,1978049
@@ -9,12 +8,12 @@
 2026-10-06,SELECTED,Yorkshire - South,Healthcare Support Worker,Mexborough,£13.15 Per Hour,,,2044232
 2026-10-06,SELECTED,"North East - Tyneside, Wearside & Northumberland",Care Home Support Worker - &;23p/h,Newcastle Upon Tyne,£23 per hour,,,1939256
 2026-10-06,SELECTED,"North East - Tyneside, Wearside & Northumberland",Support Worker,Hexham,£13.15 per hour,,,2021488
+2026-10-06,SELECTED,"North East - Tyneside, Wearside & Northumberland",Learning Support Assistant,South Shields,£14.91-£16.28 per hour,,,2055208
 2026-10-06,SELECTED,"North East - Tyneside, Wearside & Northumberland",Care Assistant,Whitley Bay,£13.84 per hour,,,107899564
 2026-10-06,SELECTED,"North East - Tyneside, Wearside & Northumberland",Care Assistant,Wallsend,£13.84 per hour,,,107899592
 2026-10-06,SELECTED,North East - County Durham & Darlington/Hartlepool,Night Support Worker,Bishop Auckland,£13.15 per hour,,,2021670
 2026-10-06,SELECTED,North East - County Durham & Darlington/Hartlepool,Support Worker,Bishop Auckland,£13.15 per hour,,,2021645
 2026-10-06,SELECTED,North East - County Durham & Darlington/Hartlepool,Female Bank Support Worker,Darlington,£13 per hour,,,2021413
-2026-10-06,POSS - NE - Tyneside/Wearside/N'land,"North East - Tyneside, Wearside & Northumberland",Learning Support Assistant,South Shields,£14.91-£16.28 per hour,,,2055208
 2026-10-06,SELECTED,Sussex,Care Assistant,Eastbourne,£13.71 per hour,,,1908629
 2026-10-06,SELECTED,Sussex,Healthcare Assistant,Chichester,£14.28 per hour,,,1959112
 2026-10-06,SELECTED,Sussex,Healthcare Assistant,Battle,£13.00 per hour,,,1990925
@@ -45,6 +44,7 @@
 2026-10-06,SELECTED,Kent,Care Assistant,Sevenoaks,£14.43 per hour,,,1981486
 2026-10-06,SELECTED,Kent,Brain Injury Support Worker,Tunbridge Wells,£15.77 per hour,,,1996389
 2026-10-06,SELECTED,Kent,Healthcare Assistant,Sevenoaks,£14.00 - £17.00 per hour,,,2055653
+2026-10-06,SELECTED,Kent,Learning Support Assistant,Cranbrook,£15.68 per hour,,,2048175
 2026-10-06,SELECTED,Kent,Support Worker,Birchington,"£25,845 per annum",,,366041741810833817637340
 2026-10-06,SELECTED,Kent,Female Support Worker,Margate,"£25,845 per annum",,,533258988600216780837340
 2026-10-06,SELECTED,Kent,Support Worker,Sevenoaks,"£25,845 per annum",,,431001328584491008037340
@@ -64,26 +64,25 @@
 2026-10-06,SELECTED,Kent,Night Support Worker,Maidstone,"£25,845 per annum",,,496179168416261734437341
 2026-10-06,SELECTED,Kent,Night Support Worker,Tonbridge,"£25,845 per annum",,,496179168416261734437340
 2026-10-06,SELECTED,Kent,Female Support Worker,Tunbridge Wells,"£25,845 per annum",,,842055619798315827237340
-2026-10-06,POSS - KENT,Kent,Learning Support Assistant,Cranbrook,£15.68 per hour,,,2048175
 2026-10-06,SELECTED,London,Care Assistant,London,£28860 per year,,,1990764
 2026-10-06,SELECTED,London,Relief Worker - Care Assistant,London,£16.95 per hour,,,2049393
+2026-10-06,SELECTED,London,Family Support Worker,London,£18 - £20 per hour,,,2041406
 2026-10-06,SELECTED,London,Learning Support Assistant,London,£125 per daily,,,2022335
+2026-10-06,SELECTED,London,Learning Support Assistant,Romford,£90 - £115 per daily,,,2048687
+2026-10-06,SELECTED,London,Pastoral Support Worker,Southall,£100 - £120 per daily,,,2045863
+2026-10-06,SELECTED,London,Learning Support Assistant,Uxbridge,£16.69 per hour,,,2044609
+2026-10-06,SELECTED,London,Learning Support Assistant,London,£93 - £115 per daily,,,2041628
+2026-10-06,SELECTED,London,Learning Support Assistant,London,£99 - £115 per daily,,,2044237
 2026-10-06,SELECTED,London,Autism Support Assistant,London,£110 per daily,,,2041892
 2026-10-06,SELECTED,London,Autism Support Worker,London,£100 - £105 per daily,,,2037495
 2026-10-06,SELECTED,London,Support Worker,Ilford,"£15,412.00 per annum",,,2067783
-2026-10-06,POSS - LONDON,London,Family Support Worker,London,£18 - £20 per hour,,,2041406
-2026-10-06,POSS - LONDON,London,Learning Support Assistant,London,£93 - £115 per daily,,,2041628
-2026-10-06,POSS - LONDON,London,Learning Support Assistant,London,£99 - £115 per daily,,,2044237
-2026-10-06,POSS - LONDON,London,Learning Support Assistant,London,£100 - £117 per daily,,,2075798
-2026-10-06,POSS - LONDON,London,Learning Support Assistant,Romford,£90 - £115 per daily,,,2048687
-2026-10-06,POSS - LONDON,London,Pastoral Support Worker,Southall,£100 - £120 per daily,,,2045863
-2026-10-06,POSS - LONDON,London,Learning Support Assistant,Uxbridge,£16.69 per hour,,,2044609
+2026-10-06,SELECTED,London,Learning Support Assistant,London,£100 - £117 per daily,,,2075798
 2026-10-06,SELECTED,Oxfordshire,Home Carer,Banbury,£14.4 per hour,,,107626596
+2026-10-06,SELECTED,Oxfordshire,Learning Support Assistant,Banbury,£26016 - £26847 per year,,,2058341
 2026-10-06,SELECTED,Oxfordshire,Autism Support Worker - Oxford,Oxford,£90 - £100 per daily,,,2055908
 2026-10-06,SELECTED,Oxfordshire,Emotional Support Worker - Kidlington,Kidlington,£85 - £110 per daily,,,1957015
 2026-10-06,SELECTED,Oxfordshire,Home Carer,Witney,£14.4 per hour,,,107626591
 2026-10-06,SELECTED,Oxfordshire,Home Carer,Bicester,£14.4 per hour,,,107626594
-2026-10-06,POSS - OXFORDSHIRE,Oxfordshire,Learning Support Assistant,Banbury,£26016 - £26847 per year,,,2058341
 2026-10-06,SELECTED,Surrey,Male Healthcare Assistant,Tadworth,£15.00 per hour,,,1996262
 2026-10-06,SELECTED,Surrey,Female Healthcare Assistant,Caterham,£14.50 per hour,,,2021731
 2026-10-06,SELECTED,Surrey,Legal Personal Assistant,Leatherhead,£30000 - £32000 per year,,,2064951
@@ -93,5 +92,5 @@
 2026-10-06,SELECTED,Surrey,Support Worker,Guildford,"£25,845 per year",,,863294666009739264037341
 2026-10-06,SELECTED,Surrey,Support Worker,Chertsey,"£25,845 per year",,,863294666009739264037340
 2026-10-06,SELECTED,Surrey,Support Worker,Walton-on-thames,"£25,845 per annum",,,152329336866524364837340
-2026-10-06,POSS - WILTSHIRE,Wiltshire,Personal Assistant to an Adult at Home Salisbury,Salisbury,£20 per hour,,,107964852
-2026-10-06,POSS - WILTSHIRE,Wiltshire,Hourly Care Assistant for a Physically Disabled Adult- Salisbury,Salisbury,£20 per hour,,,107983453
+2026-10-06,SELECTED,Wiltshire,Personal Assistant to an Adult at Home Salisbury,Salisbury,£20 per hour,,,107964852
+2026-10-06,SELECTED,Wiltshire,Hourly Care Assistant for a Physically Disabled Adult- Salisbury,Salisbury,£20 per hour,,,107983453
