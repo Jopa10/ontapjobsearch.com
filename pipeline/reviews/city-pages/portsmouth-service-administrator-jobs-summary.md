@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 54
+- automatic review: 52
 - automatic exclude: 0
 - effective include: 4
-- effective review: 54
+- effective review: 52
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -28,11 +28,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 action: 
 decision: include
 automatic_decision: include
-title: Administrative Assistant (Thursdays and Fridays)
-company: Court Lane Junior Academy
-location: Portsmouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-thursdays-and-fridays
+title: Business Support Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Portsmouth, PO2 0TA
+source: NHS Jobs
+job_id: nhs-5643304
 reason: Exact approved Portsmouth workplace.
 ---
 
@@ -72,7 +72,7 @@ job_id: nhs-5627419
 reason: Exact approved Portsmouth workplace.
 ---
 
-## REVIEW (54)
+## REVIEW (52)
 
 ---
 action: 
@@ -174,11 +174,11 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Business Support Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO14 0YG
+title: Administrator (Part Time)
+company: Practice Plus Group - Health in Justice
+location: Winchester, SO22 5DF
 source: NHS Jobs
-job_id: nhs-5608574
+job_id: nhs-5624017
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -186,11 +186,11 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Care Home Administrator
-company: Avery Healthcare Group Ltd.
-location: Winchester, SO22 5JH
+title: Administrator (Part Time)
+company: Practice Plus Group - Health in Justice
+location: Winchester, SO22 5DF
 source: NHS Jobs
-job_id: nhs-5612599
+job_id: nhs-5642872
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -198,23 +198,11 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Client Servicing Coordinator
-company: de Mellow & Co Financial Planning - Agency - Permanent
-location: Hampshire
+title: Assistant Accountant
+company: CMA Recruitment Group - Agency - Permanent
+location: Andover
 source: JobG8
-job_id: jobg8-357999054771820953637340
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Client Servicing Coordinator
-company: de Mellow & Co Financial Planning - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-357999054771820953637341
+job_id: jobg8-2033941
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -239,6 +227,18 @@ company: Michael Page Finance - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-2042564
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: We Do Group - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1886139
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -318,23 +318,11 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator
-company: 4Recruitment Services - Agency - Permanent
-location: Lyndhurst
+title: HR Administration Assistant
+company: Reed - Agency - Permanent
+location: Liphook
 source: JobG8
-job_id: jobg8-1871498
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrator
-company: HighPoint - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-1935606
+job_id: jobg8-2075403
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -414,11 +402,11 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Legal Administrator
-company: SJC Partners - Agency - Permanent
-location: Southsea
+title: Legal Assistant - Commercial Property
+company: Harwood Recruitment Solutions Limited - Agency - Permanent
+location: Hampshire
 source: JobG8
-job_id: jobg8-1939433
+job_id: jobg8-2044543
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -426,11 +414,11 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Legal Assistant - Commercial Property
-company: Harwood Recruitment Solutions Limited - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2044543
+title: Locality Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Southampton, SO14 0JY
+source: NHS Jobs
+job_id: nhs-5642963
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -450,11 +438,11 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Materials Scheduler
-company: Kingdom People - Agency - Permanent
-location: Hampshire
+title: New Enquiries & Customer Administrator
+company: Office Angels - Agency - Permanent
+location: Basingstoke
 source: JobG8
-job_id: jobg8-108043893
+job_id: jobg8-2076286
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -671,18 +659,6 @@ company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 location: Fareham, PO17 6AR
 source: NHS Jobs
 job_id: nhs-5620952
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Site Administrator
-company: Premier Foods - Agency - Permanent
-location: Andover
-source: JobG8
-job_id: jobg8-108065573
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 

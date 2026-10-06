@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 34
-- automatic exclude: 16
+- automatic review: 30
+- automatic exclude: 18
 - effective include: 8
-- effective review: 34
-- effective exclude: 16
+- effective review: 30
+- effective exclude: 18
 
 ## INCLUDE (8)
 
@@ -33,18 +33,6 @@ company: Michael Page Finance - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-2042236
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Support Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO14 0YG
-source: NHS Jobs
-job_id: nhs-5608574
 reason: Approved Southampton catchment.
 ---
 
@@ -100,6 +88,18 @@ reason: Approved Southampton catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Locality Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Southampton, SO14 0JY
+source: NHS Jobs
+job_id: nhs-5642963
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Purchase Ledger
 company: CMA Recruitment Group - Agency - Permanent
 location: Southampton
@@ -120,7 +120,7 @@ job_id: nhs-5624270
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (34)
+## REVIEW (30)
 
 ---
 action: 
@@ -186,23 +186,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Client Servicing Coordinator
-company: de Mellow & Co Financial Planning - Agency - Permanent
+title: Credit Controller
+company: We Do Group - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-357999054771820953637340
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Client Servicing Coordinator
-company: de Mellow & Co Financial Planning - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-357999054771820953637341
+job_id: jobg8-1886139
 reason: Broad location; review before city inclusion.
 ---
 
@@ -258,24 +246,12 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator
-company: 4Recruitment Services - Agency - Permanent
-location: Lyndhurst
+title: HR Administration Assistant
+company: Reed - Agency - Permanent
+location: Liphook
 source: JobG8
-job_id: jobg8-1871498
+job_id: jobg8-2075403
 reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrator
-company: HighPoint - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-1935606
-reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -330,18 +306,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Legal Administrator
-company: SJC Partners - Agency - Permanent
-location: Southsea
-source: JobG8
-job_id: jobg8-1939433
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Legal Assistant - Commercial Property
 company: Harwood Recruitment Solutions Limited - Agency - Permanent
 location: Hampshire
@@ -359,18 +323,6 @@ company: Adecco - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-2053237
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Materials Scheduler
-company: Kingdom People - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-108043893
 reason: Broad location; review before city inclusion.
 ---
 
@@ -530,7 +482,7 @@ job_id: jobg8-2044782
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (16)
+## EXCLUDE (18)
 
 ---
 action: 
@@ -560,11 +512,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administrative Assistant (Thursdays and Fridays)
-company: Court Lane Junior Academy
-location: Portsmouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-thursdays-and-fridays
+title: Administrator (Part Time)
+company: Practice Plus Group - Health in Justice
+location: Winchester, SO22 5DF
+source: NHS Jobs
+job_id: nhs-5624017
 reason: Separate employment market.
 ---
 
@@ -572,11 +524,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Care Home Administrator
-company: Avery Healthcare Group Ltd.
-location: Winchester, SO22 5JH
+title: Administrator (Part Time)
+company: Practice Plus Group - Health in Justice
+location: Winchester, SO22 5DF
 source: NHS Jobs
-job_id: nhs-5612599
+job_id: nhs-5642872
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Assistant Accountant
+company: CMA Recruitment Group - Agency - Permanent
+location: Andover
+source: JobG8
+job_id: jobg8-2033941
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Business Support Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Portsmouth, PO2 0TA
+source: NHS Jobs
+job_id: nhs-5643304
 reason: Separate employment market.
 ---
 
@@ -625,6 +601,18 @@ company: Reed - Agency - Permanent
 location: Portsmouth
 source: JobG8
 job_id: jobg8-2062579
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: New Enquiries & Customer Administrator
+company: Office Angels - Agency - Permanent
+location: Basingstoke
+source: JobG8
+job_id: jobg8-2076286
 reason: Separate employment market.
 ---
 
@@ -685,18 +673,6 @@ company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 location: Fareham, PO17 6AR
 source: NHS Jobs
 job_id: nhs-5620952
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Site Administrator
-company: Premier Foods - Agency - Permanent
-location: Andover
-source: JobG8
-job_id: jobg8-108065573
 reason: Separate employment market.
 ---
 

@@ -1,13 +1,12 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
+include,nhs-5641970,Receptionist,ID Medical,"Barnsley, s752ep",NHS Jobs,include,include,Approved Barnsley catchment.,barnsley,barnsley-service-administrator-jobs
 include,jobg8-1899397,Recruitment Account Coordinator,Staffline Recruitment Limited - Agency - Permanent,Barnsley,JobG8,include,include,Approved Barnsley catchment.,barnsley,barnsley-service-administrator-jobs
 exclude,teaching-vacancies-admin-clerical-officer-level-2-rowan-school-the-rowan-school,Admin & Clerical Officer Level 2 Rowan School,The Rowan School,Sheffield,Teaching Vacancies,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,teaching-vacancies-admin-assistant-owston-park-primary-academy,Admin Assistant,Owston Park Primary Academy,Doncaster,Teaching Vacancies,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
 exclude,nhs-5639875,Admin Assistant,Sheffield Teaching Hospitals NHS Foundation Trust,"Sheffield, S5 7AU",NHS Jobs,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,teaching-vacancies-admin-support-receptionist-south-axholme-academy,Admin Support - Receptionist,South Axholme Academy,Doncaster,Teaching Vacancies,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
-exclude,teaching-vacancies-administration-assistant-our-lady-of-mount-carmel-catholic-primary-school,Administration Assistant,Our Lady of Mount Carmel Catholic Primary School,Doncaster,Teaching Vacancies,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
 exclude,jobg8-2024835,Administrator,Reed - Agency - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
 exclude,jobg8-2044207,Assistant Management Accountant,Elevation Recruitment Group - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
-exclude,teaching-vacancies-attendance-admin-assistant-lift-firth-park,Attendance Admin Assistant,Lift Firth Park,Sheffield,Teaching Vacancies,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,teaching-vacancies-attendance-and-attendance-officer,Attendance and Attendance Officer,Newman School,Rotherham,Teaching Vacancies,exclude,exclude,Separate employment market.,rotherham,barnsley-service-administrator-jobs
 exclude,jobg8-2033599,Audience Development Coordinator - Local Authority - Libraries,Reed - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-20279_63174-89740a075c6163b74ea2c52702062e5d,Call Centre Agent,EE - Company - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
@@ -21,8 +20,6 @@ exclude,teaching-vacancies-hr-administrator-e50a9848-dea2-4828-a9a5-5745ea9a03ce
 exclude,jobg8-2046084,HR Assistant,Elevation Recruitment Group - Agency - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
 exclude,jobg8-1987373,HR Coordinator,Office Angels - Agency - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
 exclude,jobg8-2014257,Insolvency Case Administrator,GGT Insolvency Recruitment - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
-exclude,nhs-5615634,Receptionist,Avery Healthcare Group Ltd.,"Sheffield, S6 4TF",NHS Jobs,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
-exclude,nhs-5614236,Receptionist,Grenoside Surgery,"Sheffield, S35 8NX, Sheffield, S6 1LA",NHS Jobs,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,nhs-5634371,Receptionist,Sheffield Health Partnership University NHS Foundation Trust,"Sheffield, S11 9BJ",NHS Jobs,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,teaching-vacancies-receptionist-stocksbridge-junior-school,Receptionist,Stocksbridge Junior School,Sheffield,Teaching Vacancies,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,nhs-5625323,Receptionist Administrator,Richmond Medical Centre,"Sheffield, S13 8NA",NHS Jobs,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs

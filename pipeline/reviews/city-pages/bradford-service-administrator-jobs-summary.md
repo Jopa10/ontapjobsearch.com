@@ -4,8 +4,8 @@
 - Live route: `/bradford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
-- Threshold currently met: yes
+- Effective included jobs: 5
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 22
+- automatic include: 5
+- automatic review: 24
 - automatic exclude: 48
-- effective include: 6
-- effective review: 22
+- effective include: 5
+- effective review: 24
 - effective exclude: 48
 
-## INCLUDE (6)
+## INCLUDE (5)
 
 ---
 action: 
@@ -76,27 +76,15 @@ reason: Approved Bradford catchment.
 action: 
 decision: include
 automatic_decision: include
-title: PA to the Principal (7519)
-company: Valley Academy
-location: Bradford
-source: Teaching Vacancies
-job_id: teaching-vacancies-pa-to-the-principal-7519
-reason: Approved Bradford catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Project Administrator
-company: Trust Primary Care Ltd
-location: Bradford, BD7 3JX
+title: Medical Receptionist
+company: Low Moor Medical Practice
+location: Bradford, BD12 0TH
 source: NHS Jobs
-job_id: nhs-5611927
+job_id: nhs-5642373
 reason: Approved Bradford catchment.
 ---
 
-## REVIEW (22)
+## REVIEW (24)
 
 ---
 action: 
@@ -167,6 +155,18 @@ company: Nigel Wright Group - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-1957218
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Reed - Agency - Permanent
+location: Keighley
+source: JobG8
+job_id: jobg8-2077373
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -282,18 +282,6 @@ reason: No approved Bradford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Part Time Purchase Ledger
-company: IPS Group - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2039767
-reason: No approved Bradford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: People Officer
 company: Essential Employment - Agency - Permanent
 location: Yorkshire
@@ -318,11 +306,11 @@ reason: No approved Bradford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist / Administrator
-company: The Surgery, Stuart Road
-location: Pontefract, WF8 4PQ
-source: NHS Jobs
-job_id: nhs-5617512
+title: Purchase & Sales Ledger Clerk
+company: Lucy Walker Recruitment Ltd - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2076601
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -330,11 +318,11 @@ reason: No approved Bradford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Recruitment Administrator (7575)
-company: Delta Academies Trust
-location: Knottingley
-source: Teaching Vacancies
-job_id: teaching-vacancies-recruitment-administrator-7575
+title: Receptionist / Administrator
+company: The Surgery, Stuart Road
+location: Pontefract, WF8 4PQ
+source: NHS Jobs
+job_id: nhs-5617512
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -354,11 +342,35 @@ reason: No approved Bradford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Senior Paid Media Executive
+company: Elevation Recruitment Group - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2078500
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Social Media & Content Creator
 company: Elevation Recruitment Group - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-1908693
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2073480
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -385,30 +397,6 @@ company: Leeds Teaching Hospitals
 location: Leeds, LS9 7TF
 source: NHS Jobs
 job_id: nhs-5637209
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrative Assistant
-company: Outwood Grange Academies Trust
-location: Wakefield
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-outwood-grange-academies-trust
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrative Assistant
-company: The Mid Yorkshire Teaching NHS Trust
-location: Wakefield, WF1 4DG
-source: NHS Jobs
-job_id: nhs-5633528
 reason: Separate employment market.
 ---
 
@@ -480,7 +468,7 @@ title: Casualty Claims Handler
 company: Adjusting Appointments Limited - Agency - Permanent
 location: Leeds
 source: JobG8
-job_id: jobg8-1906594
+job_id: jobg8-2074008
 reason: Separate employment market.
 ---
 
@@ -764,6 +752,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Logistics / Freight Coordinator
+company: Manpower - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-2039689
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Marketing Executive
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Leeds
@@ -829,6 +829,18 @@ company: CRA Consulting - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-2042757
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Personal Assistant
+company: Leeds Teaching Hospitals
+location: Leeds, LS9 7TF
+source: NHS Jobs
+job_id: nhs-5642057
 reason: Separate employment market.
 ---
 

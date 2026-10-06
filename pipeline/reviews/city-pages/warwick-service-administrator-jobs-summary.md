@@ -4,8 +4,8 @@
 - Live route: `/warwick/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
-- Threshold currently met: no
+- Effective included jobs: 5
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
+- automatic include: 5
 - automatic review: 22
 - automatic exclude: 0
-- effective include: 3
+- effective include: 5
 - effective review: 22
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (5)
 
 ---
 action: 
@@ -52,11 +52,35 @@ reason: Exact approved Warwick workplace.
 action: 
 decision: include
 automatic_decision: include
+title: HR Assistant
+company: AUCTORO RECRUITMENT LIMITED - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-2071082
+reason: Exact approved Warwick workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: P2P Supply Chain Planner
 company: Gleeson Recruitment Group - Agency - Permanent
 location: Warwick
 source: JobG8
 job_id: jobg8-2052561
+reason: Exact approved Warwick workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Property Litigation Paralegal
+company: Michael Page Legal - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-2074203
 reason: Exact approved Warwick workplace.
 ---
 
@@ -83,6 +107,18 @@ company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-2049443
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin Assistant
+company: Coventry and Warwickshire Partnership Trust
+location: Rugby, CV21 2AW
+source: NHS Jobs
+job_id: nhs-5644459
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -186,18 +222,6 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: GP Surgery Receptionist
-company: Station Street Surgery
-location: Nuneaton, CV11 6HH
-source: NHS Jobs
-job_id: nhs-5602211
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR Administrator
 company: Reed Talent Solutions - Agency - Permanent
 location: Warwickshire
@@ -270,11 +294,11 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist/Administrator
-company: Shipston High School
-location: Shipston-on-Stour
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-administrator-shipston-high-school
+title: Remote Conveyancing Paralegal
+company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2055387
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

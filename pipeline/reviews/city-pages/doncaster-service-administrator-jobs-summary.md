@@ -4,7 +4,7 @@
 - Live route: `/doncaster/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
+- automatic include: 9
 - automatic review: 0
-- automatic exclude: 20
-- effective include: 10
+- automatic exclude: 18
+- effective include: 9
 - effective review: 0
-- effective exclude: 20
+- effective exclude: 18
 
-## INCLUDE (10)
+## INCLUDE (9)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: South Axholme Academy
 location: Doncaster
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-support-receptionist-south-axholme-academy
-reason: Approved Doncaster catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant
-company: Our Lady of Mount Carmel Catholic Primary School
-location: Doncaster
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-our-lady-of-mount-carmel-catholic-primary-school
 reason: Approved Doncaster catchment.
 ---
 
@@ -146,7 +134,7 @@ reason: Approved Doncaster catchment.
 
 ## REVIEW (0)
 
-## EXCLUDE (20)
+## EXCLUDE (18)
 
 ---
 action: 
@@ -181,18 +169,6 @@ company: Elevation Recruitment Group - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2044207
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Attendance Admin Assistant
-company: Lift Firth Park
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-admin-assistant-lift-firth-park
 reason: Separate employment market.
 ---
 
@@ -285,22 +261,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Receptionist
-company: Avery Healthcare Group Ltd.
-location: Sheffield, S6 4TF
+company: ID Medical
+location: Barnsley, s752ep
 source: NHS Jobs
-job_id: nhs-5615634
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Grenoside Surgery
-location: Sheffield, S35 8NX, Sheffield, S6 1LA
-source: NHS Jobs
-job_id: nhs-5614236
+job_id: nhs-5641970
 reason: Separate employment market.
 ---
 

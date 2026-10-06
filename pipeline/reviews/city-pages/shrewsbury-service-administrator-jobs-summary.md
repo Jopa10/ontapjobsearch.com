@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 7
+- automatic review: 5
 - automatic exclude: 0
 - effective include: 0
-- effective review: 7
+- effective review: 5
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (7)
+## REVIEW (5)
 
 ---
 action: 
@@ -35,30 +35,6 @@ company: Everywhen, part of the Ardonagh Group - Agency - Permanent
 location: Shropshire
 source: JobG8
 job_id: jobg8-1961524
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance & Admin Assistant
-company: Beech Grove Primary School
-location: Wellington
-source: Teaching Vacancies
-job_id: teaching-vacancies-finance-admin-assistant-beech-grove-primary-school
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: NET Recruit - Agency - Permanent
-location: Whitchurch
-source: JobG8
-job_id: jobg8-2039612
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -78,11 +54,11 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist/Administrator
-company: Knockin Medical Centre
-location: Oswestry, SY10 8HL
-source: NHS Jobs
-job_id: nhs-5631168
+title: Project Coordinator
+company: Consula Group LTD - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-2078865
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -90,11 +66,11 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: SENCo and Safeguarding Admin Assistant - HLTA position
-company: Beech Grove Primary School
-location: Wellington
-source: Teaching Vacancies
-job_id: teaching-vacancies-senco-and-safeguarding-admin-assistant-hlta-position
+title: Receptionist/Administrator
+company: Knockin Medical Centre
+location: Oswestry, SY10 8HL
+source: NHS Jobs
+job_id: nhs-5631168
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

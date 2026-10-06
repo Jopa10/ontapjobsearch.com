@@ -126,35 +126,23 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: Administrator
+company: Royal Devon University Healthcare NHS Foundation Trust
+location: Barnstaple, EX31 4JB
+source: NHS Jobs
+job_id: nhs-5643112
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Attendance Officer
 company: Isca Academy
 location: Exeter
 source: Teaching Vacancies
 job_id: teaching-vacancies-attendance-officer-4a095b88-91b4-4569-8b60-0007e7f44a59
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Attendance Officer
-company: Okehampton College
-location: Okehampton
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-d0027772-8f3a-48b5-b0ae-06908bf9d607
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Administrator
-company: Devon Partnership NHS Trust
-location: Newton Abbot, TQ12 4PH
-source: NHS Jobs
-job_id: nhs-5580080
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -227,18 +215,6 @@ company: Team Multi Academy Trust
 location: Barnstaple
 source: Teaching Vacancies
 job_id: teaching-vacancies-hr-administrative-assistant-team-multi-academy-trust
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Assistant
-company: Premier Foods - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-108059822
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -371,6 +347,30 @@ company: Acorn by Synergie - Agency - Permanent
 location: Tiverton
 source: JobG8
 job_id: jobg8-1990881
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Remote Conveyancing Paralegal
+company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-2055395
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Remote Conveyancing Paralegal
+company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-2055612
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 14
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
-- automatic review: 5
-- automatic exclude: 6
-- effective include: 14
-- effective review: 5
-- effective exclude: 6
+- automatic include: 17
+- automatic review: 6
+- automatic exclude: 4
+- effective include: 17
+- effective review: 6
+- effective exclude: 4
 
-## INCLUDE (14)
+## INCLUDE (17)
 
 ---
 action: 
@@ -30,9 +30,9 @@ decision: include
 automatic_decision: include
 title: Administrator
 company: Cambridgeshire and Peterborough NHS Foundation Trust
-location: Cambridge, CB4 1PR
+location: Fulbourn, Cambridge,, CB21 5EE
 source: NHS Jobs
-job_id: nhs-5611937
+job_id: nhs-5642204
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -176,7 +176,43 @@ title: Patient Services Administrator
 company: Red House Surgery
 location: Cambridge, CB4 1ER, Cambridge, CB1 1PT
 source: NHS Jobs
+job_id: nhs-5622094
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Patient Services Administrator
+company: Red House Surgery
+location: Cambridge, CB4 1ER, Cambridge, CB1 1PT
+source: NHS Jobs
 job_id: nhs-5622126
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Remote Conveyancing Paralegal
+company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-2055390
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Senior Communications Officer
+company: East Cambridgeshire District Council - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-2074616
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -192,7 +228,7 @@ job_id: jobg8-1875937
 reason: Approved conservative Cambridge launch catchment.
 ---
 
-## REVIEW (5)
+## REVIEW (6)
 
 ---
 action: 
@@ -234,6 +270,18 @@ reason: No approved Cambridge catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Logistics Coordinator / Operations Coordinator
+company: Elix Sourcing Solutions Limited - Agency - Permanent
+location: St. Ives
+source: JobG8
+job_id: jobg8-2046219
+reason: No approved Cambridge catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Executive
 company: Infinity Recruitment Consultancy Ltd - Agency - Permanent
 location: St. Neots
@@ -254,19 +302,7 @@ job_id: teaching-vacancies-school-administrative-receptionist
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (6)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Cambridgeshire and Peterborough NHS Foundation Trust
-location: Huntingdon, PE29 6FH
-source: NHS Jobs
-job_id: nhs-5611673
-reason: Separate employment market.
----
+## EXCLUDE (4)
 
 ---
 action: 
@@ -301,18 +337,6 @@ company: Abbeyview Surgery
 location: Peterborough, PE6 0AL
 source: NHS Jobs
 job_id: nhs-5636638
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Advisor
-company: The Recruitment Solution (London) Ltd - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-1870973
 reason: Separate employment market.
 ---
 

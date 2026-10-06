@@ -1,5 +1,7 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-2045461,Accounts Assistant,Axon Moore Group Ltd - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
+include,jobg8-2075500,Administrator,Flexible Solutionz - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
+include,jobg8-2042291,Assistant Accountant,Reed - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
 include,jobg8-20279_62648-22e23270f8ebd14d8abcf367c9b0bdc1,Call Centre Agent - Uncapped Commission,EE - Company - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
 include,jobg8-20279_62648-89740a075c6163b74ea2c52702062e5d,Call Centre Agent - Uncapped Commission,EE - Company - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
 include,jobg8-20279_62648-73862c8b83139033e4e4a8b6efca9a33,Call Centre Operator - Uncapped Commission,EE - Company - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs

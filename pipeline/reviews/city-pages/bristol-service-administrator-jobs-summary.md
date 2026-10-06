@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 28
+- Effective included jobs: 24
 - Threshold currently met: yes
 
 ## How to review
@@ -15,50 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 28
-- automatic review: 4
-- automatic exclude: 6
-- effective include: 28
-- effective review: 4
-- effective exclude: 6
+- automatic include: 24
+- automatic review: 6
+- automatic exclude: 5
+- effective include: 24
+- effective review: 6
+- effective exclude: 5
 
-## INCLUDE (28)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Sirona care & health CIC
-location: Bristol, BS6 6AU
-source: NHS Jobs
-job_id: nhs-5610700
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Antenatal Clinic Administrator
-company: Bristol NHS Foundation Trust
-location: Bristol, BS10 5NB
-source: NHS Jobs
-job_id: nhs-5621879
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Claims Handler
-company: Capio Recruitment Insurance - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-1868067
-reason: Approved conservative Bristol launch catchment.
----
+## INCLUDE (24)
 
 ---
 action: 
@@ -152,7 +116,7 @@ title: HR Administrator
 company: Reed - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2049001
+job_id: jobg8-2075961
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -184,11 +148,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Litigated EL/PL Claims Handler (Casualty)
-company: Keoghs LLP - Agency - Permanent
+title: Legal PA/Secretary - Corporate - Bristol
+company: qed legal - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2067696
+job_id: jobg8-2077996
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -208,11 +172,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Office Coordinator
-company: Forvis Mazars LLP - Company - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-28025_JR99
+title: Medical Secretary/Administrator
+company: Greenway Community Practice
+location: Bristol, BS10 6AF
+source: NHS Jobs
+job_id: nhs-5643222
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -244,18 +208,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Personal Injury Paralegal
-company: Yolk Recruitment Ltd - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-1895650
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Practice Receptionist
 company: West View Surgery
 location: Bristol, BS31 1BX
@@ -268,11 +220,35 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Reception and Appointment Clerk
+company: Bristol NHS Foundation Trust
+location: Bristol, BS2 8EL
+source: NHS Jobs
+job_id: nhs-5640113
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Reception and Appointment Clerk
+company: Bristol NHS Foundation Trust
+location: Bristol, BS2 8EL
+source: NHS Jobs
+job_id: nhs-5643626
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Recruitment Administrator
 company: Reed - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2057330
+job_id: jobg8-2075994
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -285,30 +261,6 @@ company: North Star 265°
 location: Bristol
 source: Teaching Vacancies
 job_id: teaching-vacancies-school-administrator-north-star-265
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Senior Administrator
-company: Sirona care & health CIC
-location: Henbury, Bristol, BS10 7EH
-source: NHS Jobs
-job_id: nhs-5593198
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Senior Administrator
-company: Sirona care & health CIC
-location: Bristol, BS15 4DA
-source: NHS Jobs
-job_id: nhs-5612954
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -360,7 +312,7 @@ job_id: jobg8-1960385
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (4)
+## REVIEW (6)
 
 ---
 action: 
@@ -402,15 +354,39 @@ reason: No approved Bristol catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Executive
-company: Signature Recruitment Limited - Agency - Permanent
+title: Part Time Finance Administrator
+company: Hays - Agency - Permanent
 location: Somerset
 source: JobG8
-job_id: jobg8-1868291
+job_id: jobg8-108074887
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
-## EXCLUDE (6)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Residential Property Assistant
+company: TSR Legal - South West - Agency - Permanent
+location: Somerset
+source: JobG8
+job_id: jobg8-107979097
+reason: No approved Bristol catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Somerset
+source: JobG8
+job_id: jobg8-2073474
+reason: No approved Bristol catchment rule matched; local review required.
+---
+
+## EXCLUDE (5)
 
 ---
 action: 
@@ -421,18 +397,6 @@ company: Reed - Agency - Permanent
 location: Bath
 source: JobG8
 job_id: jobg8-2020842
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Fosse Way School
-location: Bath
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-fosse-way-school-bath-somerset
 reason: Separate employment market.
 ---
 

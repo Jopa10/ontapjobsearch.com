@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 29
+- automatic review: 26
 - automatic exclude: 0
 - effective include: 1
-- effective review: 29
+- effective review: 26
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: teaching-vacancies-attendance-and-attendance-officer
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (29)
+## REVIEW (26)
 
 ---
 action: 
@@ -90,18 +90,6 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Administration Assistant
-company: Our Lady of Mount Carmel Catholic Primary School
-location: Doncaster
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-our-lady-of-mount-carmel-catholic-primary-school
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Administrator
 company: Reed - Agency - Permanent
 location: Doncaster
@@ -119,18 +107,6 @@ company: Elevation Recruitment Group - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2044207
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Attendance Admin Assistant
-company: Lift Firth Park
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-admin-assistant-lift-firth-park
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -283,22 +259,10 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
-company: Avery Healthcare Group Ltd.
-location: Sheffield, S6 4TF
+company: ID Medical
+location: Barnsley, s752ep
 source: NHS Jobs
-job_id: nhs-5615634
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Grenoside Surgery
-location: Sheffield, S35 8NX, Sheffield, S6 1LA
-source: NHS Jobs
-job_id: nhs-5614236
+job_id: nhs-5641970
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

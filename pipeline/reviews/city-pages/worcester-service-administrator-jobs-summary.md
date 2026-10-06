@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 6
+- automatic review: 4
 - automatic exclude: 0
 - effective include: 2
-- effective review: 6
+- effective review: 4
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -28,11 +28,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Spring Gardens Group Medical Practice
-location: Worcester, WR1 2BS
+title: Administrator
+company: Herefordshire and Worcestershire Health and Care NHS Trust
+location: Worcester, WR1 2AE
 source: NHS Jobs
-job_id: nhs-5633214
+job_id: nhs-5640865
 reason: Exact approved Worcester workplace.
 ---
 
@@ -44,23 +44,11 @@ title: Wedding & Events Co-ordinator
 company: Four Squared - Agency - Permanent
 location: Worcester
 source: JobG8
-job_id: jobg8-2055604
+job_id: jobg8-2074804
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (6)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator (SEND Department)
-company: Tenbury High Ormiston Academy
-location: Tenbury Wells
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-send-department-tenbury-high-ormiston-academy
-reason: No exact Worcester workplace matched; local geographic review is required.
----
+## REVIEW (4)
 
 ---
 action: 
@@ -95,18 +83,6 @@ company: Reed - Agency - Permanent
 location: Bromsgrove
 source: JobG8
 job_id: jobg8-1980547
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Office Administrator
-company: Stourport Primary Academy
-location: Stourport-on-Severn
-source: Teaching Vacancies
-job_id: teaching-vacancies-office-administrator-stourport-primary-academy-stourport-on-severn-worcestershire
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

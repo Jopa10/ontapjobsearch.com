@@ -1,30 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-administrative-assistant-thursdays-and-fridays",
-    "title": "Administrative Assistant (Thursdays and Fridays)",
-    "company": "Court Lane Junior Academy",
-    "location": "Portsmouth",
-    "region": "Hampshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£8,682.22 - £9,103.20 Annually (Actual)",
-    "work_pattern": "",
-    "posted_date": "2026-09-22",
-    "closing_date": "2026-10-05",
-    "closing_datetime": "2026-10-05T23:59:00+01:00",
-    "summary": "Administrative Assistant (Thursdays and Fridays) with Court Lane Junior Academy in Portsmouth. ['part time']; £8,682.22 - £9,103.20 Annually (Actual).",
-    "description": "Court Lane Junior Academy is recruiting for this vacancy in Portsmouth.\n\nThe advertised position is Administrative Assistant (Thursdays and Fridays).\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £8,682.22 - £9,103.20 Annually (Actual).\n\nThe stated application deadline is 2026-10-05T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-thursdays-and-fridays?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "2045918",
     "title": "Finance Assistant",
     "company": "CMA Recruitment Group - Agency - Permanent",
@@ -75,6 +50,28 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "nhs-5643304",
+    "source": "NHS Jobs",
+    "title": "Business Support Administrator",
+    "company": "Hampshire and Isle of Wight Healthcare NHS Foundation Trust",
+    "advertiser_name": "Hampshire and Isle of Wight Healthcare NHS Foundation Trust",
+    "location": "Portsmouth, PO2 0TA",
+    "region": "Hampshire",
+    "salary": "£25760.00 to £27476.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-05T17:01:23.846843579",
+    "closing_date": "2026-10-18",
+    "description": "We are currently looking for an administrator to join the Business Support Team at Hampshire and Isle of Wight Healthcare NHS Foundation Trust, primarily focusing on care for Looked After Children, Child Protection and children with Neuro Diverse conditions. We are looking for a capable, helpful and enthusiastic key player to provide support to the medical staff within the team, as well as outside agencies. This will include handling calls, making appointments, and typing reports (AI reformatting and audio dictations). For this role, you will need to be a competent typist and computer user, with experience of working in a busy office. You will have a good working knowledge of the collation of data to evidence outcomes. The successful candidate must have excellent time management skills and have a good knowledge and understanding of IT systems to enable you to work accurately to deadlines, sometimes under pressure, to use your own initiative, and be able to prioritize workloads. The role will be for 22.5 hours per week, working 3 full days per week, to include a Friday. Hours will be 09:00 am to 17:00pm, It is essential to the service that a 17:00pm finish is required due to our core hours. Use & accurately populate the electronic record system (SystmOne) with information to include referrals, scanning & uploading information from other services in a timely manner etc., taking responsibility for the quality of the data & taking note of the Health Records Standards & Procedures & Record Keeping Policy Follow agreed processes for dealing with emails on Outlook on a regular basis prioritising urgency & importance, signposting/dealing with queries (often sensitive) regarding issues arising Attend & participate in team/other meetings, ensuring any actions are completed by the required date Maintain current office policies & procedures, be actively involved in their development Ensure that waiting lists and spreadsheets are updated frequently to ensure good housekeeping Further information about the Trust and this role can be found on the Job Description and Person Specification document attached. It is important to us that we ensure our recruitment processes are accessible and inclusive to everyone - if as a potential candidate you are concerned a person specification may prevent or restrict your application for employment as a result of unintentional barriers on the grounds of your sex, race, age, sexual orientation, religion/belief or disability please initially contact the Trust's Recruitment team - detailed in the advert. The Trust will seek to resolve this issue wherever possible. We are happy to talk Flexible Working - all requests for flexible working options can be discussed as part of the interview process.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-2159",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-2159",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5627419",
     "source": "NHS Jobs",
     "title": "Receptionist - Kingston Crescent Surgery",
@@ -91,6 +88,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2111-26-0033",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

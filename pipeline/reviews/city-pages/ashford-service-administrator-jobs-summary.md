@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 60
+- automatic review: 64
 - automatic exclude: 0
 - effective include: 2
-- effective review: 60
+- effective review: 64
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: jobg8-2044937
 reason: Exact approved Ashford workplace.
 ---
 
-## REVIEW (60)
+## REVIEW (64)
 
 ---
 action: 
@@ -202,7 +202,7 @@ title: Claims Handler
 company: Adjusting Appointments Limited - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-1906608
+job_id: jobg8-2074019
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -270,18 +270,6 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Curriculum Administrator
-company: North Kent College
-location: Dartford
-source: Teaching Vacancies
-job_id: teaching-vacancies-curriculum-administrator-north-kent-college
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Digital Fundraising and Campaign Lead
 company: Mission Aviation Fellowship UK - Agency - Contract
 location: Kent
@@ -306,6 +294,18 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Exhibition Logistics & Sales Coordinator
+company: Detail2 Limited - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2036274
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Family Legal Assistant
 company: Recruitment Solutions - Agency - Permanent
 location: Kent
@@ -323,6 +323,18 @@ company: Marks Sattin - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-2046248
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance and Business Support Officer
+company: CharityJob - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2078986
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -498,6 +510,18 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: MAF in the Community (MiC) Resourcing Coordinator
+company: Mission Aviation Fellowship UK - Agency - Contract
+location: Kent
+source: JobG8
+job_id: jobg8-107958419
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Account Executive - Kent - To &;30K
 company: Jump IT Recruitment Solutions Ltd - Agency - Permanent
 location: Kent
@@ -582,11 +606,11 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Manager (Construction)
-company: Reed - Agency - Permanent
+title: Office Administrator
+company: Worth Recruiting - Property Industry Recruitment - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-1870521
+job_id: jobg8-1896084
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -594,11 +618,11 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Office Administrator
-company: Worth Recruiting - Property Industry Recruitment - Agency - Permanent
+title: Paralegal
+company: Birketts LLP - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-1896084
+job_id: jobg8-2070976
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -715,6 +739,18 @@ action:
 decision: review
 automatic_decision: review
 title: Service Advisor
+company: Hedin Automotive Mercedes-Benz - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-1969739
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
 company: Prima Hatfield Associates - Agency - Permanent
 location: Canterbury
 source: JobG8
@@ -755,6 +791,18 @@ company: Prima Hatfield Associates - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-2059657
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Social Media & Digital Executive
+company: Reed - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2077080
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 

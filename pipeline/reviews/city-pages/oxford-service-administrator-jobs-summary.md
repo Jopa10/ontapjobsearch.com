@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 5
 - automatic review: 10
-- automatic exclude: 13
+- automatic exclude: 16
 - effective include: 5
 - effective review: 10
-- effective exclude: 13
+- effective exclude: 16
 
 ## INCLUDE (5)
 
@@ -76,11 +76,11 @@ reason: Approved conservative Oxford launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Ward Clerk
-company: Oxford University Hospitals NHS Foundation Trust
-location: Oxford, OX3 9DU
-source: NHS Jobs
-job_id: nhs-5620012
+title: Service Advisor
+company: Pembrook Resourcing - Agency - Permanent
+location: Oxford
+source: JobG8
+job_id: jobg8-2074696
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -126,11 +126,11 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Admissions Administrator
-company: Larkmead School
-location: Abingdon
-source: Teaching Vacancies
-job_id: teaching-vacancies-admissions-administrator-larkmead-school
+title: Assistant Accountant
+company: BRELLIS RECRUITMENT LIMITED - Agency - Permanent
+location: Banbury
+source: JobG8
+job_id: jobg8-2048450
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -162,11 +162,11 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Clinic Coordinator
-company: DBCharles Recruitment Limited - Agency - Permanent
-location: Henley-On-Thames
+title: Finance Officer
+company: Robert Half Limited - Agency - Temporary
+location: Wantage
 source: JobG8
-job_id: jobg8-1871604
+job_id: jobg8-108072593
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -186,6 +186,18 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Medical Receptionist
+company: The Abingdon Surgery
+location: Abingdon, OX14 3LB
+source: NHS Jobs
+job_id: nhs-5643181
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist
 company: Faringdon Community College
 location: Faringdon
@@ -194,19 +206,19 @@ job_id: teaching-vacancies-receptionist-edf1f45d-c1c2-4efe-8319-033977840917
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
+## EXCLUDE (16)
+
 ---
 action: 
-decision: review
-automatic_decision: review
-title: Student Services Administrator
-company: Larkmead School
-location: Abingdon
-source: Teaching Vacancies
-job_id: teaching-vacancies-student-services-administrator-larkmead-school
-reason: No approved Oxford catchment rule matched; local review required.
+decision: exclude
+automatic_decision: exclude
+title: AAT Assistant Accountant
+company: Curtis Recruitment - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-1996500
+reason: Broad county location; not Oxford-city evidence.
 ---
-
-## EXCLUDE (13)
 
 ---
 action: 
@@ -265,18 +277,6 @@ company: Corriculo Ltd - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-1883696
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Finance Administrator
-company: UCCF The Christian Unions - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-2046642
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -344,6 +344,18 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Procurement Administrator
+company: Orion Electrotech Sales - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-108063457
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Recruitment Marketing Specialist
 company: Michael Page Marketing - Agency - Permanent
 location: Oxfordshire
@@ -356,10 +368,34 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Remote Conveyancing Paralegal
+company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-2055389
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Sales Administrator
 company: The Recruitment Group - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-107946842
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Temp to Perm Payroll Officer
+company: Wade Macdonald - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-2076880
 reason: Broad county location; not Oxford-city evidence.
 ---

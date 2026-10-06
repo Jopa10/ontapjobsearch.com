@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 17
-- automatic exclude: 15
-- effective include: 9
-- effective review: 17
-- effective exclude: 15
+- automatic include: 13
+- automatic review: 18
+- automatic exclude: 9
+- effective include: 13
+- effective review: 18
+- effective exclude: 9
 
-## INCLUDE (9)
+## INCLUDE (13)
 
 ---
 action: 
@@ -57,6 +57,18 @@ company: Age UK York - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-2067804
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Legal Administrator
+company: Venn Group - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-2076479
 reason: Approved York catchment.
 ---
 
@@ -112,11 +124,47 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Paralegal - Family
+company: Edwards & Pearce - Doncaster - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-2065406
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Patient Care Navigator (Medical Receptionist - Priory Medical Centre)
 company: Priory Medical Group
 location: YORK, YO24 3WX
 source: NHS Jobs
 job_id: nhs-5604935
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Programme & Team Administrator
+company: Church of England - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-2078950
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Remote Conveyancing Paralegal
+company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-2055397
 reason: Approved York catchment.
 ---
 
@@ -132,7 +180,7 @@ job_id: jobg8-2021380
 reason: Approved York catchment.
 ---
 
-## REVIEW (17)
+## REVIEW (18)
 
 ---
 action: 
@@ -143,6 +191,18 @@ company: Tradewind Recruitment - Agency - Permanent
 location: Richmond
 source: JobG8
 job_id: jobg8-2050566
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Conveyancing Assistant/Paralegal
+company: SJC Partners - Agency - Permanent
+location: Malton
+source: JobG8
+job_id: jobg8-2077875
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -338,7 +398,7 @@ job_id: jobg8-108059238
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (15)
+## EXCLUDE (9)
 
 ---
 action: 
@@ -416,35 +476,11 @@ reason: Broad regional label; not York-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Credit Control
-company: Hays - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-108069176
-reason: Broad regional label; not York-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Data Administrator
 company: Ayton & Snainton Medical Practice
 location: Scarborough, YO13 9JF
 source: NHS Jobs
 job_id: nhs-5624493
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Demand Planner - FMCG
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Northallerton
-source: JobG8
-job_id: jobg8-1868898
 reason: Separate employment market.
 ---
 
@@ -469,53 +505,5 @@ company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Harrogate
 source: JobG8
 job_id: jobg8-1982430
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Remote Conveyancing Paralegal
-company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2055397
-reason: Broad regional label; not York-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Coordinator (UPS)
-company: Dale Power Solutions - Agency - Permanent
-location: Scarborough
-source: JobG8
-job_id: jobg8-108026099
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Supporter Engagement Assistant
-company: Yorkshire Cancer Research - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2060979
-reason: Broad regional label; not York-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Temporary Administrator
-company: KD Recruitment Limited - Agency - Temporary
-location: Scarborough
-source: JobG8
-job_id: jobg8-108067298
 reason: Separate employment market.
 ---

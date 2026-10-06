@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 43
+- automatic review: 46
 - automatic exclude: 0
 - effective include: 4
-- effective review: 43
+- effective review: 46
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: teaching-vacancies-sen-administrator-chiltern-way-academy-trust
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (43)
+## REVIEW (46)
 
 ---
 action: 
@@ -126,23 +126,11 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Administrative Officer
-company: Foreign & Commonwealth Office - Agency - Permanent
+title: Assistant Accountant
+company: Parke Lane People - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
-job_id: jobg8-1956753
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrative Officer
-company: Foreign & Commonwealth Office - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-604158583863718707237340
+job_id: jobg8-2026365
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -179,6 +167,18 @@ company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-2052891
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Campaign Reporting Executive
+company: Journey recruitment - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-2065356
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -295,6 +295,18 @@ action:
 decision: review
 automatic_decision: review
 title: HR Administrator
+company: Altitude-Recruitment Limited - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-2048207
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Administrator
 company: Candidate Source Ltd - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
@@ -323,6 +335,18 @@ company: Reed - Agency - Permanent
 location: Gerrards Cross
 source: JobG8
 job_id: jobg8-1916446
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Assistant (PART TIME)
+company: Reed - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-2074985
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -539,6 +563,18 @@ company: Stephenson Academy
 location: Milton Keynes
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-stephenson-academy
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Remote Conveyancing Paralegal
+company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-2055401
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

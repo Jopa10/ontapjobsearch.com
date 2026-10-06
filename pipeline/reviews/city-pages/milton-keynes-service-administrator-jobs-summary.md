@@ -4,7 +4,7 @@
 - Live route: `/milton-keynes/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 13
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
-- automatic review: 34
+- automatic include: 15
+- automatic review: 35
 - automatic exclude: 0
-- effective include: 13
-- effective review: 34
+- effective include: 15
+- effective review: 35
 - effective exclude: 0
 
-## INCLUDE (13)
+## INCLUDE (15)
 
 ---
 action: 
@@ -101,10 +101,34 @@ action:
 decision: include
 automatic_decision: include
 title: HR Administrator
+company: Altitude-Recruitment Limited - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-2048207
+reason: Exact approved Milton Keynes workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Administrator
 company: wild recruitment - Agency - Permanent
 location: Milton Keynes
 source: JobG8
 job_id: jobg8-1929321
+reason: Exact approved Milton Keynes workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Marketing Assistant (PART TIME)
+company: Reed - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-2074985
 reason: Exact approved Milton Keynes workplace.
 ---
 
@@ -180,7 +204,7 @@ job_id: jobg8-2028313
 reason: Exact approved Milton Keynes workplace.
 ---
 
-## REVIEW (34)
+## REVIEW (35)
 
 ---
 action: 
@@ -222,23 +246,11 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Administrative Officer
-company: Foreign & Commonwealth Office - Agency - Permanent
+title: Assistant Accountant
+company: Parke Lane People - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
-job_id: jobg8-1956753
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrative Officer
-company: Foreign & Commonwealth Office - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-604158583863718707237340
+job_id: jobg8-2026365
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -263,6 +275,18 @@ company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-2052891
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Campaign Reporting Executive
+company: Journey recruitment - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-2065356
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -539,6 +563,18 @@ company: Riverside Surgery
 location: High Wycombe, HP11 2RZ
 source: NHS Jobs
 job_id: nhs-5607494
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Remote Conveyancing Paralegal
+company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-2055401
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

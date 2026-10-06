@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 16
+- automatic review: 17
 - automatic exclude: 0
 - effective include: 1
-- effective review: 16
+- effective review: 17
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: jobg8-2063324
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (16)
+## REVIEW (17)
 
 ---
 action: 
@@ -47,6 +47,18 @@ company: Agincare Group - Agency - Permanent
 location: Weymouth
 source: JobG8
 job_id: jobg8-107992811
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Agincare
+location: Dorchester, DT1 2EN
+source: NHS Jobs
+job_id: nhs-5589759
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -162,6 +174,18 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Assistant
+company: CMA Recruitment Group - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-2075751
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: People Administrator
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Dorset
@@ -203,18 +227,6 @@ company: Dorset HealthCare University NHS Foundation Trust
 location: Bournemouth, BH7 6JF
 source: NHS Jobs
 job_id: nhs-5632763
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment Administrator
-company: University Hospitals Dorset NHS Foundation Trust
-location: Bournemouth, BH8 0BJ
-source: NHS Jobs
-job_id: nhs-5625199
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

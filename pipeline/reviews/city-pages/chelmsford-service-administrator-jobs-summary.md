@@ -4,7 +4,7 @@
 - Live route: `/chelmsford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 14
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
+- automatic include: 12
 - automatic review: 61
 - automatic exclude: 0
-- effective include: 14
+- effective include: 12
 - effective review: 61
 - effective exclude: 0
 
-## INCLUDE (14)
+## INCLUDE (12)
 
 ---
 action: 
@@ -129,30 +129,6 @@ company: Penguin Recruitment Ltd - Agency - Permanent
 location: Chelmsford
 source: JobG8
 job_id: jobg8-2048787
-reason: Exact approved Chelmsford workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Property Inspections Team Coordinator
-company: BCT Resourcing - Agency - Permanent
-location: Chelmsford
-source: JobG8
-job_id: jobg8-1870036
-reason: Exact approved Chelmsford workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Property Inspections Team Coordinator
-company: Command Recruitment - Agency - Permanent
-location: Chelmsford
-source: JobG8
-job_id: jobg8-1869162
 reason: Exact approved Chelmsford workplace.
 ---
 
@@ -283,6 +259,18 @@ action:
 decision: review
 automatic_decision: review
 title: Administration Assistant
+company: Essex Partnership University NHS Foundation Trust
+location: Essex, CO1 1RB
+source: NHS Jobs
+job_id: nhs-5643963
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Assistant
 company: Great Totham Primary School
 location: Maldon
 source: Teaching Vacancies
@@ -310,7 +298,7 @@ title: Administrator
 company: Inclusion
 location: Grays, RM17 6NB
 source: NHS Jobs
-job_id: nhs-5614538
+job_id: nhs-5640402
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -342,18 +330,6 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Car Sales Administrator
-company: JLD Recruitment Ltd - Agency - Permanent
-location: Southend-On-Sea
-source: JobG8
-job_id: jobg8-1867994
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Claims & Customer Service Advisor
 company: Reed - Agency - Permanent
 location: Essex
@@ -370,7 +346,7 @@ title: Claims Handler
 company: Adjusting Appointments Limited - Agency - Permanent
 location: Essex
 source: JobG8
-job_id: jobg8-1906606
+job_id: jobg8-2074017
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -582,18 +558,6 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Insurance Claims and Service Advisor
-company: CKB Recruitment - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-1869539
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Legal Secretary
 company: JS Legal Recruitment Ltd - Agency - Permanent
 location: Essex
@@ -642,11 +606,11 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Medical Receptionist
-company: John Tasker House & Felsted Surgeries
-location: Dunmow, CM6 1BH
-source: NHS Jobs
-job_id: nhs-5605464
+title: Marketing Manager
+company: Evolution Sales Recruitment - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-2075764
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -779,6 +743,18 @@ company: Little Thurrock Primary School
 location: Grays
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-little-thurrock-primary-school
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Western Road Surgery
+location: Billericay, CM12 9DX
+source: NHS Jobs
+job_id: nhs-5644072
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

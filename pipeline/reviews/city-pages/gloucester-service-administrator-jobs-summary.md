@@ -4,7 +4,7 @@
 - Live route: `/gloucester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 26
+- automatic include: 2
+- automatic review: 28
 - automatic exclude: 0
-- effective include: 3
-- effective review: 26
+- effective include: 2
+- effective review: 28
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (2)
 
 ---
 action: 
@@ -40,18 +40,6 @@ reason: Exact approved Gloucester workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Personal Assistant
-company: Gloucestershire Health and Care NHS Foundation Trust
-location: Gloucester, GL1 3PX
-source: NHS Jobs
-job_id: nhs-5600422
-reason: Exact approved Gloucester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: School Administrator
 company: St James' Church of England Junior School
 location: Gloucester
@@ -60,7 +48,7 @@ job_id: teaching-vacancies-school-administrator-st-james-church-of-england-junio
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (26)
+## REVIEW (28)
 
 ---
 action: 
@@ -131,6 +119,18 @@ company: Euro London - Agency - Permanent
 location: Cirencester
 source: JobG8
 job_id: jobg8-2022072
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR & Payroll Administrator
+company: Next Generation Ltd - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-107980548
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -287,6 +287,18 @@ company: i2i Recruitment Consultancy - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-1979448
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Product Support Coordinator (12 Fixed Term Contract)
+company: Renishaw PLC - Agency - Temporary
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-108074035
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

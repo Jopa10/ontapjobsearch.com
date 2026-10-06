@@ -16,25 +16,13 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 5
-- automatic exclude: 3
+- automatic review: 6
+- automatic exclude: 4
 - effective include: 5
-- effective review: 5
-- effective exclude: 3
+- effective review: 6
+- effective exclude: 4
 
 ## INCLUDE (5)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Female Support Worker
-company: Avenues Group - Company - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-559639887195039334437341
-reason: Approved Southampton catchment.
----
 
 ---
 action: 
@@ -64,6 +52,18 @@ reason: Approved Southampton catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Support Worker
+company: Avenues Group - Company - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-307620840736397721637341
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Support worker
 company: Cygnet - Agency - Permanent
 location: Southampton
@@ -84,7 +84,7 @@ job_id: jobg8-1898106
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (5)
+## REVIEW (6)
 
 ---
 action: 
@@ -115,18 +115,6 @@ action:
 decision: review
 automatic_decision: review
 title: Female Support Worker
-company: Avenues Group - Company - Permanent
-location: Tadley
-source: JobG8
-job_id: jobg8-559639887195039334437340
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Female Support Worker
 company: SeeAbility - Agency - Permanent
 location: Tadley
 source: JobG8
@@ -140,13 +128,37 @@ decision: review
 automatic_decision: review
 title: Support Worker
 company: Avenues Group - Company - Permanent
-location: Tadley
+location: Liss
 source: JobG8
-job_id: jobg8-635330054620761292837340
+job_id: jobg8-307620840736397721637340
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
-## EXCLUDE (3)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Support Worker
+company: Avenues Group - Company - Permanent
+location: Gosport
+source: JobG8
+job_id: jobg8-343411153683297075237340
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Waking Night Childrens Home Support Worker
+company: Hampshire County Council - Company - Permanent
+location: Romsey
+source: JobG8
+job_id: jobg8-1401785693
+reason: Broad location; review before city inclusion.
+---
+
+## EXCLUDE (4)
 
 ---
 action: 
@@ -181,5 +193,17 @@ company: Hampshire County Council - Company - Permanent
 location: Eastleigh
 source: JobG8
 job_id: jobg8-1401785578
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Specialist Care Support Worker Winchester
+company: SCA Care - Agency - Permanent
+location: Winchester
+source: JobG8
+job_id: jobg8-108004872
 reason: Separate employment market.
 ---

@@ -4,7 +4,7 @@
 - Live route: `/cardiff/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
+- automatic include: 10
 - automatic review: 0
 - automatic exclude: 0
-- effective include: 8
+- effective include: 10
 - effective review: 0
 - effective exclude: 0
 
-## INCLUDE (8)
+## INCLUDE (10)
 
 ---
 action: 
@@ -100,6 +100,18 @@ reason: Approved conservative Cardiff launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: HR Coordinator
+company: Hoop Recruitment - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-2077381
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Planner and Scheduler - Taffs Well
 company: PHS Group Limited - Company - Permanent
 location: Cardiff
@@ -112,11 +124,23 @@ reason: Approved conservative Cardiff launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Danescourt & Greenmount Surgery
-location: Cardiff, CF52SH, Cardiff, CF5 5LQ
+title: Remote Conveyancing Paralegal
+company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-2055386
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Screening Pathway Administrator
+company: Public Health Wales
+location: Cardiff, CF11 9LJ
 source: NHS Jobs
-job_id: nhs-5612411
+job_id: nhs-5641910
 reason: Approved conservative Cardiff launch catchment.
 ---
 

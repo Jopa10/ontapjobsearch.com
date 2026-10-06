@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 2
-- automatic exclude: 18
+- automatic review: 1
+- automatic exclude: 21
 - effective include: 5
-- effective review: 2
-- effective exclude: 18
+- effective review: 1
+- effective exclude: 21
 
 ## INCLUDE (5)
 
@@ -84,7 +84,7 @@ job_id: nhs-5632425
 reason: Approved Coventry catchment.
 ---
 
-## REVIEW (2)
+## REVIEW (1)
 
 ---
 action: 
@@ -98,19 +98,7 @@ job_id: teaching-vacancies-pa-to-principal-the-queen-elizabeth-academy-atherston
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist/Administrator
-company: Shipston High School
-location: Shipston-on-Stour
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-administrator-shipston-high-school
-reason: No approved Coventry catchment rule matched; local review required.
----
-
-## EXCLUDE (18)
+## EXCLUDE (21)
 
 ---
 action: 
@@ -145,6 +133,18 @@ company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-2049443
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Admin Assistant
+company: Coventry and Warwickshire Partnership Trust
+location: Rugby, CV21 2AW
+source: NHS Jobs
+job_id: nhs-5644459
 reason: Separate employment market.
 ---
 
@@ -224,11 +224,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: GP Surgery Receptionist
-company: Station Street Surgery
-location: Nuneaton, CV11 6HH
-source: NHS Jobs
-job_id: nhs-5602211
+title: HR Administrator
+company: Reed Talent Solutions - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-1979923
 reason: Separate employment market.
 ---
 
@@ -236,11 +236,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: HR Administrator
-company: Reed Talent Solutions - Agency - Permanent
-location: Warwickshire
+title: HR Assistant
+company: AUCTORO RECRUITMENT LIMITED - Agency - Permanent
+location: Warwick
 source: JobG8
-job_id: jobg8-1979923
+job_id: jobg8-2071082
 reason: Separate employment market.
 ---
 
@@ -277,6 +277,30 @@ company: The Eventus Recruitment Group - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-2059104
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Property Litigation Paralegal
+company: Michael Page Legal - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-2074203
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Remote Conveyancing Paralegal
+company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2055387
 reason: Separate employment market.
 ---
 

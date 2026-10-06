@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 16
+- automatic review: 12
 - automatic exclude: 0
 - effective include: 7
-- effective review: 16
+- effective review: 12
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,19 +108,7 @@ job_id: nhs-5639310
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (16)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrative Assistant/Receptionist
-company: Shefford Lower School
-location: Shefford
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-receptionist-shefford-lower-school
-reason: No exact Bedford workplace matched; local geographic review is required.
----
+## REVIEW (12)
 
 ---
 action: 
@@ -174,18 +162,6 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Faculty Support Administrator
-company: Cranfield University - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-415441
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Family Law Paralegals (x2) - Luton
 company: Duncan Lewis Solictors - Agency - Permanent
 location: Bedfordshire
@@ -203,18 +179,6 @@ company: Chiltern Learning Trust
 location: Luton
 source: Teaching Vacancies
 job_id: teaching-vacancies-hr-administrator-d2f90df6-89af-4919-b35e-a47a1e5bf7df
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Legal Assistant
-company: Law Staff Limited - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-1987381
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -251,18 +215,6 @@ company: Portfolio Payroll - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-2046269
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Manshead Church of England Academy
-location: Luton
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-manshead-church-of-england-academy
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

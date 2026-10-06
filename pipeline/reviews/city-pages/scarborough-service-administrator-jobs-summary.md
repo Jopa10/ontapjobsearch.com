@@ -4,8 +4,8 @@
 - Live route: `/scarborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
-- Threshold currently met: yes
+- Effective included jobs: 3
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 36
+- automatic include: 3
+- automatic review: 37
 - automatic exclude: 0
-- effective include: 5
-- effective review: 36
+- effective include: 3
+- effective review: 37
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (3)
 
 ---
 action: 
@@ -60,31 +60,7 @@ job_id: nhs-5624493
 reason: Exact approved Scarborough workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Coordinator (UPS)
-company: Dale Power Solutions - Agency - Permanent
-location: Scarborough
-source: JobG8
-job_id: jobg8-108026099
-reason: Exact approved Scarborough workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Temporary Administrator
-company: KD Recruitment Limited - Agency - Temporary
-location: Scarborough
-source: JobG8
-job_id: jobg8-108067298
-reason: Exact approved Scarborough workplace.
----
-
-## REVIEW (36)
+## REVIEW (37)
 
 ---
 action: 
@@ -162,11 +138,11 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Corporate/Commercial Legal Secretary/Assistant - York
-company: qed legal - Agency - Permanent
-location: York
+title: Conveyancing Assistant/Paralegal
+company: SJC Partners - Agency - Permanent
+location: Malton
 source: JobG8
-job_id: jobg8-1911811
+job_id: jobg8-2077875
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -174,11 +150,11 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Credit Control
-company: Hays - Agency - Permanent
-location: Yorkshire
+title: Corporate/Commercial Legal Secretary/Assistant - York
+company: qed legal - Agency - Permanent
+location: York
 source: JobG8
-job_id: jobg8-108069176
+job_id: jobg8-1911811
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -282,18 +258,6 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Demand Planner - FMCG
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Northallerton
-source: JobG8
-job_id: jobg8-1868898
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Assistant
 company: Age UK York - Agency - Permanent
 location: York
@@ -335,6 +299,18 @@ company: Optimum Recruitment Group Limited - Agency - Permanent
 location: Ripon
 source: JobG8
 job_id: jobg8-107798375
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Administrator
+company: Venn Group - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-2076479
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -438,6 +414,18 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Paralegal - Family
+company: Edwards & Pearce - Doncaster - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-2065406
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Patient Care Navigator (Medical Receptionist - Priory Medical Centre)
 company: Priory Medical Group
 location: YORK, YO24 3WX
@@ -462,6 +450,18 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Programme & Team Administrator
+company: Church of England - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-2078950
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist/Administrator
 company: Ripon Spa Surgery
 location: Ripon, HG4 2BE
@@ -476,7 +476,7 @@ decision: review
 automatic_decision: review
 title: Remote Conveyancing Paralegal
 company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
-location: Yorkshire
+location: York
 source: JobG8
 job_id: jobg8-2055397
 reason: No exact Scarborough workplace matched; local geographic review is required.
@@ -491,18 +491,6 @@ company: Interaction - Leeds - Agency - Permanent
 location: Malton
 source: JobG8
 job_id: jobg8-108059238
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Supporter Engagement Assistant
-company: Yorkshire Cancer Research - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2060979
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

@@ -52,18 +52,6 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Legal Administrator
-company: Brook Street - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-1985619
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Paralegal - Team 6
 company: Keoghs LLP - Agency - Permanent
 location: Belfast
@@ -81,6 +69,18 @@ company: Keoghs LLP - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2045517
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2073471
 reason: Approved conservative Belfast launch catchment.
 ---
 

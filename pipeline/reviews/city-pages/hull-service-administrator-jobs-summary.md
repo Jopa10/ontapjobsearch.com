@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,38 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 6
+- automatic include: 8
+- automatic review: 3
 - automatic exclude: 0
-- effective include: 6
-- effective review: 6
+- effective include: 8
+- effective review: 3
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (8)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Hull University Teaching Hospitals NHS Trust
+location: Hull, HU3 2JZ
+source: NHS Jobs
+job_id: nhs-5642388
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Hull University Teaching Hospitals NHS Trust
+location: Hull, HU16 5JQ
+source: NHS Jobs
+job_id: nhs-5643505
+reason: Approved conservative Hull launch catchment.
+---
 
 ---
 action: 
@@ -96,19 +120,7 @@ job_id: jobg8-1939826
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (6)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrator
-company: Howdens Joinery - Company - Permanent
-location: Goole
-source: JobG8
-job_id: jobg8-2047165
-reason: No approved Hull catchment rule matched; local review required.
----
+## REVIEW (3)
 
 ---
 action: 
@@ -119,30 +131,6 @@ company: Portfolio HR & Reward - Agency - Permanent
 location: Goole
 source: JobG8
 job_id: jobg8-1893147
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: Howden Medical Centre
-location: Goole, DN14 7DD
-source: NHS Jobs
-job_id: nhs-5635521
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist & administrator
-company: Greengates Medical Group
-location: Beverley, HU16 5QJ, Cottingham, HU16 4AJ
-source: NHS Jobs
-job_id: nhs-5636328
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

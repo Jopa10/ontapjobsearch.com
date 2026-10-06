@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 18
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
+- automatic include: 15
 - automatic review: 0
 - automatic exclude: 12
-- effective include: 18
+- effective include: 15
 - effective review: 0
 - effective exclude: 12
 
-## INCLUDE (18)
+## INCLUDE (15)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: Elevation Recruitment Group - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2044207
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Attendance Admin Assistant
-company: Lift Firth Park
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-admin-assistant-lift-firth-park
 reason: Approved Sheffield catchment.
 ---
 
@@ -141,30 +129,6 @@ company: GGT Insolvency Recruitment - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2014257
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: Avery Healthcare Group Ltd.
-location: Sheffield, S6 4TF
-source: NHS Jobs
-job_id: nhs-5615634
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: Grenoside Surgery
-location: Sheffield, S35 8NX, Sheffield, S6 1LA
-source: NHS Jobs
-job_id: nhs-5614236
 reason: Approved Sheffield catchment.
 ---
 
@@ -272,18 +236,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administration Assistant
-company: Our Lady of Mount Carmel Catholic Primary School
-location: Doncaster
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-our-lady-of-mount-carmel-catholic-primary-school
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Administrator
 company: Reed - Agency - Permanent
 location: Doncaster
@@ -373,6 +325,18 @@ company: Office Angels - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-1987373
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: ID Medical
+location: Barnsley, s752ep
+source: NHS Jobs
+job_id: nhs-5641970
 reason: Separate employment market.
 ---
 

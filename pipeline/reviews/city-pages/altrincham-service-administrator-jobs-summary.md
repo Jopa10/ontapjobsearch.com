@@ -52,11 +52,11 @@ reason: Exact approved Altrincham workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Plot Sales Paralegal
-company: The Eventus Recruitment Group - Agency - Permanent
+title: RTR Assistant Accountant
+company: Robert Walters - Agency - Permanent
 location: Altrincham
 source: JobG8
-job_id: jobg8-1868509
+job_id: jobg8-2039520
 reason: Exact approved Altrincham workplace.
 ---
 
@@ -138,18 +138,6 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Paid Marketing Executive
-company: Zachary Daniels - Agency - Permanent
-location: Cheshire
-source: JobG8
-job_id: jobg8-1977280
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Property Coordinator
 company: The People Pod - Agency - Permanent
 location: Stockport
@@ -162,11 +150,23 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Reception/Administrator
-company: High Lane Medical Centre
-location: Stockport, SK6 8DR
+title: Social Media & Content Marketing Executive
+company: Michael Page Business Support - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-2064896
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Team Administrator
+company: Pennine Care NHS FT
+location: Ashton-Under-Lyne, OL6 7SR
 source: NHS Jobs
-job_id: nhs-5619136
+job_id: nhs-5643892
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

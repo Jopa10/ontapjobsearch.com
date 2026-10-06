@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 32
-- automatic exclude: 11
+- automatic review: 26
+- automatic exclude: 14
 - effective include: 4
-- effective review: 32
-- effective exclude: 11
+- effective review: 26
+- effective exclude: 14
 
 ## INCLUDE (4)
 
@@ -72,7 +72,7 @@ job_id: nhs-5620851
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (32)
+## REVIEW (26)
 
 ---
 action: 
@@ -114,11 +114,11 @@ reason: No approved Brighton & Hove catchment rule matched; local review require
 action: 
 decision: review
 automatic_decision: review
-title: Attendance & HR Admin Assistant
-company: Hollington Primary School
-location: St. Leonards-on-Sea
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-hr-admin-assistant
+title: Administrator (Part Time)
+company: Practice Plus Group - Health in Justice
+location: Lewes, BN7 1EA
+source: NHS Jobs
+job_id: nhs-5642135
 reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
@@ -126,24 +126,12 @@ reason: No approved Brighton & Hove catchment rule matched; local review require
 action: 
 decision: review
 automatic_decision: review
-title: Bookkeeper
-company: First Recruitment Services - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2039380
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper
-company: Michael Page Finance - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-1996535
-reason: Broad location; review before city inclusion.
+title: Attendance & HR Admin Assistant
+company: Hollington Primary School
+location: St. Leonards-on-Sea
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-hr-admin-assistant
+reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
 ---
@@ -246,6 +234,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Events Administrator
+company: First Recruitment Services - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2074281
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Executive Assistant
 company: Ellis James Partners Limited - Agency - Permanent
 location: Sussex
@@ -287,78 +287,6 @@ company: Terry Parris Associates Ltd - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2043392
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Horticulture Resource Coordinator
-company: Brinsbury College - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-107954542
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrative Assistant
-company: Northbrook College - Agency - Temporary
-location: Sussex
-source: JobG8
-job_id: jobg8-108005260
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrator
-company: Southdown - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-1986831
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Internal Sales Administrator Team Lead
-company: Trident - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2038040
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Co-ordinator
-company: A1 People - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-1910463
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Coordinator
-company: A1 People - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2034128
 reason: Broad location; review before city inclusion.
 ---
 
@@ -458,7 +386,7 @@ job_id: jobg8-1883284
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (11)
+## EXCLUDE (14)
 
 ---
 action: 
@@ -500,6 +428,30 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Accounts Payable
+company: CMA Recruitment Group - Agency - Permanent
+location: Chichester
+source: JobG8
+job_id: jobg8-2074351
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Activities Co-ordinator
+company: Avon Search & Selection Ltd - Agency - Permanent
+location: Worthing
+source: JobG8
+job_id: jobg8-2056552
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Administrator
 company: St Leonards Church of England Primary Academy
 location: St Leonards-on-Sea
@@ -512,11 +464,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Admissions Officer
-company: The Cavendish School
-location: Eastbourne
-source: Teaching Vacancies
-job_id: teaching-vacancies-admissions-officer-the-cavendish-school
+title: Finance Assistant
+company: Michael Page Finance - Agency - Permanent
+location: Worthing
+source: JobG8
+job_id: jobg8-1886080
 reason: Separate employment market.
 ---
 
@@ -524,11 +476,23 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Finance Assistant
-company: Michael Page Finance - Agency - Permanent
-location: Worthing
+title: Finance Assistant - Assistant Accountant
+company: Morgan McKinley - Agency - Permanent
+location: Horsham
 source: JobG8
-job_id: jobg8-1886080
+job_id: jobg8-2056498
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: HR Coordinator - Temp/FTC
+company: Reed - Agency - Permanent
+location: Crawley
+source: JobG8
+job_id: jobg8-2076573
 reason: Separate employment market.
 ---
 

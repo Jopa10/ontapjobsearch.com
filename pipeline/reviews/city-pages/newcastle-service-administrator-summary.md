@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 22
-- automatic exclude: 18
+- automatic review: 24
+- automatic exclude: 12
 - effective include: 6
-- effective review: 22
-- effective exclude: 18
+- effective review: 24
+- effective exclude: 12
 
 ## INCLUDE (6)
 
@@ -40,11 +40,11 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Business Development Executive
-company: Independent Utility Advice - Agency - Permanent
-location: Newcastle Upon Tyne
-source: JobG8
-job_id: jobg8-107967240
+title: Administrative Assistant
+company: Gateshead Health NHS Foundation Trust
+location: Gateshead, NE8 4YL
+source: NHS Jobs
+job_id: nhs-5644657
 reason: Approved Newcastle catchment.
 ---
 
@@ -96,7 +96,7 @@ job_id: jobg8-108026899
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (22)
+## REVIEW (24)
 
 ---
 action: 
@@ -107,6 +107,30 @@ company: KCR Solutions - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-2017987
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Nigel Wright Group - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2074204
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Reed - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2077376
 reason: Broad location; review before city inclusion.
 ---
 
@@ -126,11 +150,11 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Assistant Document Controller
-company: Arup CWS - Agency - Contract
+title: Casualty Claims Handler
+company: Adjusting Appointments Limited - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-108070538
+job_id: jobg8-1906595
 reason: Broad location; review before city inclusion.
 ---
 
@@ -142,7 +166,7 @@ title: Casualty Claims Handler
 company: Adjusting Appointments Limited - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-1906595
+job_id: jobg8-2074009
 reason: Broad location; review before city inclusion.
 ---
 
@@ -294,6 +318,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: PPC & SEO Account Executive
+company: Office Angels - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2077981
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Procurement & Logistics Coordinator
 company: Reed Specialist Recruitment - Agency - Permanent
 location: Tyne And Wear
@@ -311,18 +347,6 @@ company: Reed Specialist Recruitment - Agency - Permanent
 location: Seaham
 source: JobG8
 job_id: jobg8-23643_225656711
-reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Advisor - Part Time
-company: EE - Company - Permanent
-location: Cramlington
-source: JobG8
-job_id: jobg8-20279_61897-8a947d76c6803dd88116d68f668dce22
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
@@ -358,11 +382,11 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2068984
+job_id: jobg8-2073484
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (18)
+## EXCLUDE (12)
 
 ---
 action: 
@@ -429,18 +453,6 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Administration Assistant
-company: North Durham Academy
-location: Stanley
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-north-durham-academy
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administration Assistant
 company: St Anthony's Girls' Catholic Academy
 location: Sunderland
 source: Teaching Vacancies
@@ -457,18 +469,6 @@ company: St Leonard's Catholic Primary School, Silksworth
 location: Sunderland
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-st-leonard-s-catholic-primary-school-silksworth
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Moorlands Surgery
-location: Darlington, DL3 9JP
-source: NHS Jobs
-job_id: nhs-5614776
 reason: Separate employment market.
 ---
 
@@ -500,18 +500,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Business Development Executive
-company: Tina Lacey Recruitment Ltd - Agency - Permanent
-location: Darlington
-source: JobG8
-job_id: jobg8-107973178
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Data Management Administrator (2025/HM084)
 company: East Durham College
 location: Peterlee
@@ -524,47 +512,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Lead Administrator
-company: Harry Watts Academy
-location: Sunderland
-source: Teaching Vacancies
-job_id: teaching-vacancies-lead-administrator-harry-watts-academy
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Marketing Manager
-company: Ronald James - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-1869910
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Purchase Ledger Clerk
 company: Spear-heads - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-2036113
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Social Media Manager
-company: Ronald James - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-1869864
 reason: Separate employment market.
 ---
 

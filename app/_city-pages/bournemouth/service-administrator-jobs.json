@@ -22,6 +22,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "The Bishop of Winchester Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -41,6 +44,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-1039",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -60,25 +66,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0063-26-0018",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5625199",
-    "source": "NHS Jobs",
-    "title": "Recruitment Administrator",
-    "company": "University Hospitals Dorset NHS Foundation Trust",
-    "advertiser_name": "University Hospitals Dorset NHS Foundation Trust",
-    "location": "Bournemouth, BH8 0BJ",
-    "region": "Dorset",
-    "salary": "£25760.00 to £27476.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-09-28T08:10:13.773225234",
-    "closing_date": "2026-10-12",
-    "description": "If you're looking for an exciting new career opportunity and have experience in Recruitment, Human Resources, or a busy administrative role that requires excellent organisational skills and attention to detail, we'd love to hear from you! The Recruitment Team at University Hospitals Dorset is based in modern offices at Yeoman's House, with the flexibility to work from home for part of the week following your initial training period. As part of this fast-paced and supportive team, you will work closely with recruiting managers across our hospital sites, guiding them through the recruitment process and maintaining regular contact with candidates. We pride ourselves on working collaboratively, supporting one another to deliver an outstanding service to both managers and applicants. Whatever your background, you will share our values and be committed to providing a professional, efficient, and customer-focused recruitment service. Excellent communication and interpersonal skills are essential, enabling you to support managers with best practice recruitment processes and ensure candidates progress smoothly through recruitment and onboarding. Base Location: Yeoman's House (behind Castlepoint Shopping Centre), with occasional travel to Bournemouth and Poole Hospitals. Interview Date: Thursday 22nd October Home Working: Following a three-month training period, we offer partial home working, with the option to work from home for up to 40% of your contracted hours per week. Main duties of the job include: Work at pace to support recruiting managers and candidates throughout the recruitment journey, contributing to the Trust's 30-day time-to-hire target. Support candidates to understand pre-employment check requirements in line with NHS Employment Check Standards. Advise managers on recruitment policies, procedures and best practice. Prepare and issue conditional offer letters and employment contracts. Complete all pre-employment checks accurately and efficiently. Contribute to reducing vacancy levels and maintaining safe staffing across the Trust. Attend recruitment events on occasion to promote the Trust and support candidate attraction. Respond to telephone and email enquiries from managers and candidates in a timely and professional manner. To understand the role in more detail please read the full job description and person specification documents which are attached to this advert",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9153-26-0827",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9153-26-0827",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

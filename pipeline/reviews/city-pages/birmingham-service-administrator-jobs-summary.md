@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 49
+- Effective included jobs: 50
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,38 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 49
+- automatic include: 50
 - automatic review: 7
-- automatic exclude: 7
-- effective include: 49
+- automatic exclude: 9
+- effective include: 50
 - effective review: 7
-- effective exclude: 7
+- effective exclude: 9
 
-## INCLUDE (49)
+## INCLUDE (50)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: AAT Assistant Accountant
+company: Curtis Recruitment - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2024671
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Administrator
+company: Office Angels - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2077004
+reason: Approved conservative Birmingham launch catchment.
+---
 
 ---
 action: 
@@ -45,18 +69,6 @@ company: Lift Lea Forest
 location: Birmingham
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-assistant-lift-lea-forest
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrative Assistant
-company: Greet Primary School
-location: Birmingham
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-greet-primary-school
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -124,23 +136,11 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Business Support Officer - Finance
-company: The Olive School, Small Heath
-location: Birmingham
-source: Teaching Vacancies
-job_id: teaching-vacancies-business-support-officer-finance-the-olive-school-small-heath
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Casualty Claims Handler
 company: Adjusting Appointments Limited - Agency - Permanent
 location: Birmingham
 source: JobG8
-job_id: jobg8-1906597
+job_id: jobg8-2074011
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -213,18 +213,6 @@ company: Outline Recruitment - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-2061161
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Employment Paralegal, Birmingham, &;24,000 - &;28,000 DOE, Excellent training, Legal 500
-company: qed legal - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-1867433
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -448,18 +436,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Paralegal
-company: Kingsgate Recruitment Ltd - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-1957227
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Paralegal - Conveyancing
 company: Robert Walters - Agency - Permanent
 location: Birmingham
@@ -592,6 +568,42 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Trainee Digital Marketing Executive
+company: Netcom Online Learning - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2073882
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2073472
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Trainee Social Media Assistant
+company: Netcom Online Learning - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2073885
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Trust Finance Administrator
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Birmingham
@@ -698,7 +710,7 @@ job_id: jobg8-1986478
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
-## EXCLUDE (7)
+## EXCLUDE (9)
 
 ---
 action: 
@@ -728,6 +740,18 @@ reason: Separate exact-city market at launch.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Assistant Management Accountant
+company: Mitchell Adam - Agency - Permanent
+location: Solihull
+source: JobG8
+job_id: jobg8-2045091
+reason: Separate exact-city market at launch.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Fleet Administrator
 company: THE RECRUITMENT DUO - Agency - Permanent
 location: Solihull
@@ -745,6 +769,18 @@ company: Hobs Moat Medical Centre
 location: Solihull, B92 8ED
 source: NHS Jobs
 job_id: nhs-5631076
+reason: Separate exact-city market at launch.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: HR Administrator
+company: SF Partners - Agency - Permanent
+location: Solihull
+source: JobG8
+job_id: jobg8-2077010
 reason: Separate exact-city market at launch.
 ---
 

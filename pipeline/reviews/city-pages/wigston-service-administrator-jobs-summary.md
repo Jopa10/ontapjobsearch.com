@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 15
+- automatic review: 17
 - automatic exclude: 0
 - effective include: 0
-- effective review: 15
+- effective review: 17
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (15)
+## REVIEW (17)
 
 ---
 action: 
@@ -54,6 +54,30 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Assistant Accountant
+company: Macildowie Recruitment and Retention - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-2012728
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: Michael Page Finance - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-2053152
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: BMW Service Advisor
 company: Sytner Group - Agency - Permanent
 location: Leicestershire
@@ -70,7 +94,7 @@ title: Casualty Claims Handler
 company: Adjusting Appointments Limited - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-1906598
+job_id: jobg8-2074012
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -83,18 +107,6 @@ company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Leicester
 source: JobG8
 job_id: jobg8-2049449
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Commercial Property Secretary
-company: Allstaff Recruitment - Agency - Permanent
-location: Leicester
-source: JobG8
-job_id: jobg8-1869342
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -203,6 +215,18 @@ company: Seismic Recruitment - Agency - Contract
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225628775
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: InMind
+location: Leicester, LE2 9FS
+source: NHS Jobs
+job_id: nhs-5642838
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 13
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
+- automatic include: 15
 - automatic review: 9
 - automatic exclude: 5
-- effective include: 13
+- effective include: 15
 - effective review: 9
 - effective exclude: 5
 
-## INCLUDE (13)
+## INCLUDE (15)
 
 ---
 action: 
@@ -33,6 +33,30 @@ company: Axon Moore Group Ltd - Agency - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-2045461
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Flexible Solutionz - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-2075500
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Accountant
+company: Reed - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-2042291
 reason: Approved conservative Warrington launch catchment.
 ---
 

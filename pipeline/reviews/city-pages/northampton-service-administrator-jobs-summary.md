@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 16
+- automatic review: 17
 - automatic exclude: 0
 - effective include: 6
-- effective review: 16
+- effective review: 17
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,19 @@ job_id: teaching-vacancies-receptionist-guilsborough-academy
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (16)
+## REVIEW (17)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: AAT Assistant Accountant
+company: Curtis Recruitment - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-2021745
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -143,6 +155,18 @@ company: Rothwell & Desborough Healthcare Group
 location: Kettering, NN14 6JQ, Kettering, NN14 2NB
 source: NHS Jobs
 job_id: nhs-5617697
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: Macildowie Recruitment and Retention - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-2045730
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -210,30 +234,6 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator
-company: Lakeside Healthcare Group
-location: Corby, NN17 1TY
-source: NHS Jobs
-job_id: nhs-5614974
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Assistant
-company: HR Recruit - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-2029255
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Intervention Claims Handler - hybrid (2 days from home) following probation
 company: The Graduate - Agency - Permanent
 location: Northamptonshire
@@ -287,6 +287,18 @@ company: People Solutions Group Limited - Agency - Permanent
 location: Kettering
 source: JobG8
 job_id: jobg8-1939011
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Remote Conveyancing Paralegal
+company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-2055403
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
