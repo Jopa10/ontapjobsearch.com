@@ -2,15 +2,27 @@
 
 review_date: 2026-10-06
 
-- Open Administrative & Clerical rows reviewed: 2254
-- Auto/remembered selected: 412
-- Selected HC Tier A: 216
+- Open Administrative & Clerical rows reviewed: 2253
+- Auto/remembered selected: 413
+- Selected HC Tier A: 217
 - Selected HC Tier B: 196
-- POSS awaiting decision: 1727
+- POSS awaiting decision: 1725
 - Excluded: 0
 - HARD_PASS: 115
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Bristol & Bath | Bath, BA1 3NG | £25272.00 | Support Administrator - Rheumatology
+source_job_id: 5646170
+title: Support Administrator - Rheumatology
+employer: Royal United Hospitals Bath NHS Foundation Trust
+region: Bristol & Bath
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9427-26-0633
+factual_fingerprint: 8df41d8a4d14b18b2e4f997c88560434766c85f34a10c4a25cbbfe539a3c070a
+---
 
 ---
 action:
@@ -7058,18 +7070,6 @@ factual_fingerprint: 53f499d874ca8ece07de96be547c816877f5bea7c2a9af7410748b3f0a2
 
 ---
 action:
-POSS | NHS Jobs | West Midlands - Coventry & Warwickshire | Coventry, CV2 2DX | £57528.00 to £64750.00 | Digital Programme Manager
-source_job_id: 5636265
-title: Digital Programme Manager
-employer: University Hospitals Coventry and Warwickshire NHS Trust
-region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9218-26-1210
-factual_fingerprint: 0571c9401cf3ac435cc7f543a33a83e5e3ba3d23d41de9383cef2549a7d94b40
----
-
----
-action:
 POSS | NHS Jobs | Leicestershire | Market Harborough,, LE16 7BN | £25760.00 to £27476.00 | Community Hub Coordinator
 source_job_id: 5636551
 title: Community Hub Coordinator
@@ -8254,18 +8254,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4133-26-0000
 factual_fingerprint: eebaf92c11eeea7dc702a31e572255f88d786599a257c5be576c6d30042939a6
----
-
----
-action:
-POSS | NHS Jobs | Northamptonshire | Kettering, NN16 8UZ | £25760.00 to £27476.00 | Buyer
-source_job_id: 5635411
-title: Buyer
-employer: Kettering General Hospital NHS Foundation Trust
-region: Northamptonshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9264-26-0567
-factual_fingerprint: 04c0e4f6b5abf1efadf42a18975408e0ab445f83121f963be7ecf0bf069282d6
 ---
 
 ---
@@ -12322,18 +12310,6 @@ region: Bristol & Bath
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9202-26-0245
 factual_fingerprint: a38a27d2ffe6a73bbbe28a1e5aa6c42285943a30206659e2c847365973a425cc
----
-
----
-action:
-POSS | NHS Jobs | East Midlands | Derby, DE22 3LZ | £32073.00 to £39043.00 | People Experience Officer
-source_job_id: 5629131
-title: People Experience Officer
-employer: Derbyshire Healthcare NHS Foundation Trust
-region: East Midlands
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9383-26-0479
-factual_fingerprint: 90fd14313837e39680551fe74d3d31742585cce6f7449ec60047992b2caff6bf
 ---
 
 ---
