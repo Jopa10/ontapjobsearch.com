@@ -1,55 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-administration-assistant-our-lady-of-mount-carmel-catholic-primary-school",
-    "title": "Administration Assistant",
-    "company": "Our Lady of Mount Carmel Catholic Primary School",
-    "location": "Doncaster",
-    "region": "Yorkshire - South",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£19,107.00 - £20,690.00 Annually (Actual) Grade 6 (Point 6-11)",
-    "work_pattern": "",
-    "posted_date": "2026-09-23",
-    "closing_date": "2026-10-05",
-    "closing_datetime": "2026-10-05T09:00:00+01:00",
-    "summary": "Administration Assistant with Our Lady of Mount Carmel Catholic Primary School in Doncaster. ['part time']; £19,107.00 - £20,690.00 Annually (Actual) Grade 6 (Point 6-11).",
-    "description": "Our Lady of Mount Carmel Catholic Primary School is recruiting for this vacancy in Doncaster.\n\nThe advertised position is Administration Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £19,107.00 - £20,690.00 Annually (Actual) Grade 6 (Point 6-11).\n\nThe stated application deadline is 2026-10-05T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-our-lady-of-mount-carmel-catholic-primary-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "teaching-vacancies-attendance-admin-assistant-lift-firth-park",
-    "title": "Attendance Admin Assistant",
-    "company": "Lift Firth Park",
-    "location": "Sheffield",
-    "region": "Yorkshire - South",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£21933 - £22629 per annum",
-    "work_pattern": "",
-    "posted_date": "2026-09-21",
-    "closing_date": "2026-10-05",
-    "closing_datetime": "2026-10-05T08:17:55+01:00",
-    "summary": "Attendance Admin Assistant with Lift Firth Park in Sheffield. ['full time']; £21933 - £22629 per annum.",
-    "description": "Lift Firth Park is recruiting for this vacancy in Sheffield.\n\nThe advertised position is Attendance Admin Assistant.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £21933 - £22629 per annum.\n\nThe stated application deadline is 2026-10-05T08:17:55+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/attendance-admin-assistant-lift-firth-park?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-receptionist-and-administrator-52-or-42-weeks-considered",
     "title": "Receptionist and Administrator – (52 or 42 weeks considered)",
     "company": "Sheffield Park Academy",
@@ -72,6 +22,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Sheffield Park Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -97,6 +50,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Prince Edward Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -122,6 +78,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "South Axholme Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -147,6 +106,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Sheffield Park Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -172,6 +134,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Stocksbridge Junior School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -197,6 +162,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Owston Park Primary Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -222,6 +190,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Newman School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -247,6 +218,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Chorus Education Trust",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -272,6 +246,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "The Rowan School",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -600,6 +577,28 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "nhs-5641970",
+    "source": "NHS Jobs",
+    "title": "Receptionist",
+    "company": "ID Medical",
+    "advertiser_name": "ID Medical",
+    "location": "Barnsley, s752ep",
+    "region": "Yorkshire - South",
+    "salary": "£15.00",
+    "employment_type": "Bank",
+    "posted_date": "2026-10-05T15:12:45.406158205",
+    "closing_date": "2026-10-16",
+    "description": "About the role ID Medical is looking for a friendly, organised and professional Receptionist to support our Children & Young Peoples Autism Assessment Service. The service provides autism diagnostic assessments for children and young people from across Barnsley. Clinics are delivered at weekends. As the first point of contact for children, young people and their families attending the service, you will play an important role in creating a welcoming, calm and supportive environment. Welcome children, young people and their families to the clinic and complete arrival/check-in processes. Provide clear information and directions to families attending appointments. Liaise with clinicians and the wider clinic team to support the smooth running of the clinic. Monitor the reception and waiting areas throughout the day. Respond appropriately and sensitively to queries from parents and carers. Support clinicians with general administrative tasks where required. Maintain patient confidentiality and handle information in accordance with NHS information governance requirements. Escalate any concerns, incidents or safeguarding matters in accordance with agreed procedures. Support the team with appointment queries, delays, cancellations and non-attendance where required. Help ensure the clinic environment remains welcoming, organised and suitable for children and young people with a range of communication, sensory and additional needs. We are looking for someone who is: Friendly, approachable and confident communicating with children, young people and families. Calm and professional, particularly when supporting families who may be anxious or require additional assistance. Highly organised with good attention to detail. Comfortable working as part of a multidisciplinary clinical team. Confident using IT systems and completing administrative tasks. Reliable and able to work independently within a weekend clinic environment. The service provides autism diagnostic assessments for children and young people from across Barnsley. Clinics are delivered at weekends. Weekend availability is essential for this role. You will:",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0121-26-0000",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0121-26-0000",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5639875",
     "source": "NHS Jobs",
     "title": "Admin Assistant",
@@ -616,6 +615,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9190-26-0608",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -635,6 +637,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9190-26-0601",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -654,6 +659,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9457-26-0304",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -673,44 +681,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/U0093-26-0008",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5615634",
-    "source": "NHS Jobs",
-    "title": "Receptionist",
-    "company": "Avery Healthcare Group Ltd.",
-    "advertiser_name": "Avery Healthcare Group Ltd.",
-    "location": "Sheffield, S6 4TF",
-    "region": "Yorkshire - South",
-    "salary": "£12.72",
-    "employment_type": "Permanent",
-    "posted_date": "2026-09-22T14:01:54.754813997",
-    "closing_date": "2026-10-13",
-    "description": "At Avery Healthcare, we are all about supporting the people who care for our residents. We know how hard our teams work, and were here to celebrate and support you every step of the way. When you join us, youll be making a positive impact on residents lives every day your compassion and dedication truly make a difference. Were committed to helping you grow in a caring, supportive environment, with opportunities to learn and develop throughout your career. And as part of our close-knit team, youll experience a culture that values respect, compassion, and a shared commitment to exceptional care. Were now looking for a warm, enthusiastic, and dedicated individual to join our award-winning team as a Receptionist at Loxley Park Care Home in Sheffield. If this sounds like the place for you, wed love to hear from you! ABOUT THE ROLE Your focus as a receptionist will be to offer professional, high quality customer service as first point of contact within the home as well as providing a range of administrative services. Other responsibilities will include: Answering the telephone and responding to enquiries at recept Were now looking for a warm, enthusiastic, and dedicated individual to join our award-winning team as a Receptionist at Loxley Park Care Home in Sheffield. Your focus as a receptionist will be to offer professional, high quality customer service as first point of contact within the home as well as providing a range of administrative services. Other responsibilities will include answering the telephone and responding to enquiries at reception, redirecting calls to relevant staff and recording messages accordingly. Completing reception-related administration, maintaining databases, and providing administrative assistance as required by the General Manager. Maintaining the general tidiness of the reception area, liaising with Housekeeping to ensure standards are maintained. Package Description: At Avery Healthcare, we are all about supporting the people who care for our residents. We know how hard our teams work, and were here to celebrate and support you every step of the way.When you join us, youll be making a positive impact on residents lives every day your compassion and dedication truly make a difference. Were committed to helping you grow in a caring, supportive environment, with opportunities to learn and develop throughout your career. And as part of our close-knit team, youll experience a culture that values respect, compassion, and a shared commitment to exceptional care.Were now looking for a warm, enthusiastic, and dedicated individual to join our award-winning team as a Receptionist at Loxley Park Care Home in Sheffield. If this sounds like the place for you, wed love to hear from you! ABOUT THE ROLE Your focus as a receptionist will be to offer professional, high quality customer service as first point of contact within the home as well as providing a range of administrative services. Other responsibilitieswillinclude: Answering the telephone and responding to enquiries at reception, redirecting calls to relevant staff and recording messages accordingly. Completingreception-related administration,maintainingdatabases,and providing administrativeassistanceas required by the General Manager. Maintainingthe general tidiness of the reception area, liaising with Housekeeping to ensure standards aremaintained. ABOUT YOU To be successful in your application, you will live our values of caring, supportive, honest, respectful and accountable in all that you do. Our ideal candidatemust: Have excellent communication skills both verbal and written. Be confident in using computers. Have a positive,friendly,and welcoming attitude. Havepreviousexposure to problem-solving and client complaints. ABOUT AVERY Please note this role will require: ADBS Disclosure check, the cost of which will be met by Avery Healthcare. Proof of eligibility to work in the UK. This advert may be withdrawn prior to the advertised deadline depending on the volume of applications received and business needs.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3971",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-3971",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5614236",
-    "source": "NHS Jobs",
-    "title": "Receptionist",
-    "company": "Grenoside Surgery",
-    "advertiser_name": "Grenoside Surgery",
-    "location": "Sheffield, S35 8NX, Sheffield, S6 1LA",
-    "region": "Yorkshire - South",
-    "salary": "£13.17",
-    "employment_type": "Permanent",
-    "posted_date": "2026-09-22T09:23:39.026286778",
-    "closing_date": "2026-10-09",
-    "description": "Two reception roles required . This is in addition to the maternity post. Please specify which job you are applying for i.e. Role 1 or Role 2. Reception Role 1 Hours: Wednesday 12pm - 5.30pm Friday 8.30am - 7pm Reception Role 2 Hours: Monday 12pm - 6pm Tuesday 12pm - 5.30pm Friday 8am - 12.30pm The successful applicant will require good keyboard skills. Previous experience in a health environment is an advantage, but not essential as full training will be given. It is essential that you are able to cover for sickness and holidays above your contracted hours. Informal enquires welcome to Alison Leigh (Reception Lead) or Kara Eaves (Practice Manager), on 0114 240 3159. Open the premises. Receive and greet patients on arrival. Receive and direct incoming calls from Total Triage. EMIS clinical system, full training will be given. General enquiries, explain surgery procedures both at the reception desk and by telephone. Scan & file clinical correspondence onto patients medical records. Home Visit requests. Process repeat prescription requests. in Process messages and requests from many different sources, both internal and external. Liaise with other agencies, e.g. district nurses, social services, ambulance service on request. Check clinical fridges to ensure correct temperature is maintained. Open incoming mail. Ensure that the reception area is left tidy and ready for use by incoming colleagues, and that they are provided with information concerning any unresolved or urgent matters. Cover for reception colleagues on a rota basis, minimal. Secure the premises (late shift) - check windows before departure, tidy waiting room. Ensure that arrangements have been made for emergency telephone answering. Attend appropriate practice meetings and training courses/complete Blue Stream courses as appropriate. Main duties of the job",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4533-26-0926-2",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4533-26-0926-2",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

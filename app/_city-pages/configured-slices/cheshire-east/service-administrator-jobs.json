@@ -1,30 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-sixth-form-administrator-the-fallibroome-academy",
-    "title": "Sixth Form Administrator",
-    "company": "The Fallibroome Academy",
-    "location": "Macclesfield",
-    "region": "Cheshire - East",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£20,059.00 - £21,381.00 Annually (Actual) NJC Grade 5, SCP 7-11",
-    "work_pattern": "",
-    "posted_date": "2026-09-21",
-    "closing_date": "2026-10-05",
-    "closing_datetime": "2026-10-05T12:00:00+01:00",
-    "summary": "Sixth Form Administrator with The Fallibroome Academy in Macclesfield. ['part time']; £20,059.00 - £21,381.00 Annually (Actual) NJC Grade 5, SCP 7-11.",
-    "description": "The Fallibroome Academy is recruiting for this vacancy in Macclesfield.\n\nThe advertised position is Sixth Form Administrator.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £20,059.00 - £21,381.00 Annually (Actual) NJC Grade 5, SCP 7-11.\n\nThe stated application deadline is 2026-10-05T12:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrator-the-fallibroome-academy?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-school-office-administrator-highfields-academy",
     "title": "School Office Administrator",
     "company": "Highfields Academy",
@@ -47,6 +22,9 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
+    "advertiser_name": "Highfields Academy",
+    "advertiser_type": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -366,6 +344,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0233-26-2106",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]
