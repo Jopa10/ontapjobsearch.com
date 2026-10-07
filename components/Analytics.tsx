@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import { initializeSessionReferral, touchSessionReferral } from "@/lib/session-referral";
 import {
   ANALYTICS_MEASUREMENT_ID,
   ANALYTICS_READY_EVENT,
@@ -82,6 +83,8 @@ export default function Analytics() {
     if (typeof gtag !== "function") return;
     window.dispatchEvent(new Event(ANALYTICS_READY_EVENT));
 
+    initializeSessionReferral(sessionStorage, document.referrer, window.location.search);
+
     const now = Date.now();
     const firstSeen = readNumber(localStorage, FIRST_SEEN_KEY);
     const lastSeen = readNumber(localStorage, LAST_SEEN_KEY);
@@ -105,8 +108,17 @@ export default function Analytics() {
     }
 
     const events = ["pointerdown", "keydown", "touchstart", "scroll"] as const;
+    const refreshReferralActivity = (event: Event) => {
+      if (event.isTrusted) touchSessionReferral(sessionStorage);
+    };
+    events.forEach((eventName) =>
+      window.addEventListener(eventName, refreshReferralActivity, { capture: true, passive: true })
+    );
+
     const trackQualifiedVisit = (event: Event) => {
-      if (!event.isTrusted || hasStoredValue(sessionStorage, QUALIFIED_SESSION_KEY)) return;
+      if (!event.isTrusted) return;
+      touchSessionReferral(sessionStorage);
+      if (hasStoredValue(sessionStorage, QUALIFIED_SESSION_KEY)) return;
       writeValue(sessionStorage, QUALIFIED_SESSION_KEY, "tracked");
       gtag("event", "qualified_visit", {
         qualification_signal: event.type,
@@ -123,7 +135,10 @@ export default function Analytics() {
     events.forEach((eventName) => window.addEventListener(eventName, trackQualifiedVisit, { passive: true }));
 
     return () => {
-      events.forEach((eventName) => window.removeEventListener(eventName, trackQualifiedVisit));
+      events.forEach((eventName) => {
+        window.removeEventListener(eventName, refreshReferralActivity, true);
+        window.removeEventListener(eventName, trackQualifiedVisit);
+      });
     };
   }, []);
 

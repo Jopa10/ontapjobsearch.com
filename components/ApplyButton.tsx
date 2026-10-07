@@ -1,5 +1,6 @@
 "use client";
 
+import { sessionReferralForApplyClick } from "@/lib/session-referral";
 import {
   buildApplyClickParameters,
   type ApplyClickDetails,
@@ -24,19 +25,22 @@ export default function ApplyButton({
       gtag(
         "event",
         "apply_click",
-        buildApplyClickParameters(
-          {
-            apply_url,
-            job_id,
-            title,
-            employer,
-            location,
-            region,
-            source,
-            slice_path,
-          },
-          window.location.pathname
-        )
+        {
+          ...buildApplyClickParameters(
+            {
+              apply_url,
+              job_id,
+              title,
+              employer,
+              location,
+              region,
+              source,
+              slice_path,
+            },
+            window.location.pathname
+          ),
+          ...sessionReferralForApplyClick(sessionStorage, document.referrer, window.location.search),
+        }
       );
     }
   };
