@@ -2,13 +2,13 @@
 
 review_date: 2026-10-07
 
-- Open Administrative & Clerical rows reviewed: 2138
+- Open Administrative & Clerical rows reviewed: 2137
 - Auto/remembered selected: 397
 - Selected HC Tier A: 210
 - Selected HC Tier B: 187
 - POSS awaiting decision: 1627
 - Excluded: 0
-- HARD_PASS: 114
+- HARD_PASS: 113
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
 
@@ -2805,7 +2805,7 @@ employer: Wye Valley NHS Trust
 region: Herefordshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9229-26-0875
-factual_fingerprint: 378efea498affbc2987bb59ba0dd720194ce10ba9f471dab6f589b67d459e65a
+factual_fingerprint: de0549b64de96700a479fe063cd4939a140bec9420b5cb7f1078e67ab3d1086b
 ---
 
 ---
