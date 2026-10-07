@@ -248,11 +248,10 @@ job_id: 2077373
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - WEST | Yorkshire - West | Leeds | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Accountant
 job_id: 1961977
 ---
-
 ## SOUTH YORKSHIRE — SELECTED
 
 ---
@@ -330,11 +329,10 @@ job_id: 2055573
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £35000 per year [JobG8 salary fields] | Assistant Accountant
 job_id: 2078492
 ---
-
 ## NORTH EAST — SELECTED
 
 _No jobs in this group._
@@ -1416,53 +1414,45 @@ job_id: 2085253
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - LONDON | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Management Accountant
 job_id: 1961804
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £37000 - £45000 per year [JobG8 salary fields] | Finance Assistant / Bookkeeper
 job_id: 2060481
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £35000 - £45000 per year [JobG8 salary fields] | Accounts Assistant
 job_id: 2075402
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £50000 per year [JobG8 salary fields] | Bookkeeper & Payroll Assistant
 job_id: 2078600
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £50000 per year [JobG8 salary fields] | Service Advisor
 job_id: 2076068
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | Sutton | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Accountant
 job_id: 2057155
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | Sutton | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Accountant
 job_id: 2067385
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | Isleworth | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Accountant
 job_id: 2074914
 ---
-
 ## HAMPSHIRE — SELECTED
 
 ---
@@ -1666,35 +1656,30 @@ job_id: 2076286
 ## HAMPSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - HAMPSHIRE | Hampshire | Hampshire | £35000 - £40000 per year [JobG8 salary fields] | Assistant Accountant
 job_id: 2055478
 ---
-
 ---
-action:
+action: exclude
 POSS - HAMPSHIRE | Hampshire | Hampshire | £17.95-£20.51 per hour [extracted from description] | Bookkeeper
 job_id: 2064506
 ---
-
 ---
-action:
+action: select
 POSS - HAMPSHIRE | Hampshire | Hampshire | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Management Accountant
 job_id: 2075160
 ---
-
 ---
-action:
+action: select
 POSS - HAMPSHIRE | Hampshire | Hampshire | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Accountant
 job_id: 2074872
 ---
-
 ---
-action:
+action: select
 POSS - HAMPSHIRE | Hampshire | Hampshire | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Accountant
 job_id: 2076230
 ---
-
 ## SURREY — SELECTED
 
 ---
@@ -2138,11 +2123,10 @@ job_id: 102208923948076236837340
 ## KENT — POSSIBLES
 
 ---
-action:
+action: select
 POSS - KENT | Kent | Kent | £32000 - £38000 per year [JobG8 salary fields] | Accounts Assistant
 job_id: 2060301
 ---
-
 ## SELECTOR ERRORS / UNRESOLVED
 
 _No selector errors or unresolved rows outside the normal possible groups._
@@ -2336,13 +2320,12 @@ job_id: 2076573
 ## SUSSEX — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SUSSEX | Sussex | Sussex |  | Assistant Management Accountant
 job_id: 2060824
 ---
-
 ---
-action:
+action: exclude
 POSS - SUSSEX | Sussex | Sussex | £40000 per year | Financial Services Administrator
 job_id: 2062915
 ---
@@ -2572,17 +2555,15 @@ job_id: 2068147
 ## BEDFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BEDFORDSHIRE | Bedfordshire | Bedfordshire |  | Assistant Accountant - salary negotiable; well-established independent firm
 job_id: 2064411
 ---
-
 ---
-action:
+action: select
 POSS - BEDFORDSHIRE | Bedfordshire | Bedfordshire |  | Assistant Accountant - salary negotiable; well-established independent firm
 job_id: 2070624
 ---
-
 ## BERKSHIRE — SELECTED
 
 ---
@@ -2768,17 +2749,15 @@ job_id: 2074802
 ## BERKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BERKSHIRE | Berkshire | Berkshire | £15 - £16 per hour | Assistant Accountant
 job_id: 2065067
 ---
-
 ---
-action:
+action: exclude
 POSS - BERKSHIRE | Berkshire | Berkshire | £35000 - £40000 per year | Bookkeeper / Management Accountant (Tax Advisory)
 job_id: 2076277
 ---
-
 ## BRISTOL & BATH — SELECTED
 
 ---
@@ -3096,11 +3075,10 @@ job_id: 2067383
 ## BUCKINGHAMSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BUCKINGHAMSHIRE | Buckinghamshire | Buckinghamshire |  | Assistant Accountant
 job_id: 1979760
 ---
-
 ## CAMBRIDGESHIRE — SELECTED
 
 ---
@@ -3166,17 +3144,15 @@ job_id: 23643_225691674
 ## CAMBRIDGESHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - CAMBRIDGESHIRE | Cambridgeshire | St. Ives |  | Assistant Accountant - salary negotiable; well-established independent firm
 job_id: 2064410
 ---
-
 ---
-action:
+action: select
 POSS - CAMBRIDGESHIRE | Cambridgeshire | St. Neots |  | Assistant Accountant - salary negotiable; well-established independent firm
 job_id: 2070623
 ---
-
 ## CHESHIRE - EAST — SELECTED
 
 ---
@@ -3440,11 +3416,10 @@ job_id: 2077982
 ## CHESHIRE - WARRINGTON & HALTON — POSSIBLES
 
 ---
-action:
+action: select
 POSS - CHESHIRE - WARRINGTON & HALTON | Cheshire - Warrington & Halton | Warrington | £32000 - £40000 per year | Assistant Accountant
 job_id: 2060582
 ---
-
 ## CHESHIRE - WEST — SELECTED
 
 ---
@@ -3534,23 +3509,20 @@ job_id: 2077879
 ## CORNWALL — POSSIBLES
 
 ---
-action:
+action: select
 POSS - CORNWALL | Cornwall | Launceston | £15 - £20 per hour | Payroll Administrator
 job_id: 1977615
 ---
-
 ---
-action:
+action: select
 POSS - CORNWALL | Cornwall | Newquay |  | Assistant Accountant
 job_id: 2060190
 ---
-
 ---
-action:
+action: select
 POSS - CORNWALL | Cornwall | Newquay | £18.00 - £21.00 per hour | Finance Assistant
 job_id: 2067408
 ---
-
 ## DERBYSHIRE — SELECTED
 
 ---
@@ -3574,11 +3546,10 @@ job_id: 23643_225689425
 ## DERBYSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - DERBYSHIRE | Derbyshire | Derbyshire | £30000 - £32000 per year | Assistant Accountant
 job_id: 2055347
 ---
-
 ## DEVON — SELECTED
 
 ---
@@ -3794,11 +3765,10 @@ job_id: 108080615
 ## DORSET — POSSIBLES
 
 ---
-action:
+action: select
 POSS - DORSET | Dorset | Dorset |  | Assistant Accountant
 job_id: 2067497
 ---
-
 ## ESSEX — SELECTED
 
 ---
@@ -4182,17 +4152,15 @@ job_id: 107954174
 ## ESSEX — POSSIBLES
 
 ---
-action:
+action: select
 POSS - ESSEX | Essex | Essex | £32000 - £38000 per year | Conveyancing - Flexible Working - Fee Earner/Paralegal
 job_id: 2051522
 ---
-
 ---
-action:
+action: exclude
 POSS - ESSEX | Essex | Essex | £40000 - £55000 per year | Bookkeeper
 job_id: 2061124
 ---
-
 ## GLOUCESTERSHIRE — SELECTED
 
 ---
@@ -4492,17 +4460,15 @@ job_id: 2085283
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — POSSIBLES
 
 ---
-action:
+action: select
 POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester |  | Assistant Accountant
 job_id: 2067622
 ---
-
 ---
-action:
+action: select
 POSS - GREATER MANCHESTER - MANCHESTER & SALFORD | Greater Manchester - Manchester & Salford | Manchester |  | Assistant Accountant
 job_id: 2078166
 ---
-
 ## GREATER MANCHESTER - SOUTH — SELECTED
 
 ---
@@ -4856,11 +4822,10 @@ job_id: 2076178
 ## HERTFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - HERTFORDSHIRE | Hertfordshire | Hertfordshire |  | Assistant Accountant
 job_id: 2067329
 ---
-
 ## LEICESTERSHIRE — SELECTED
 
 ---
@@ -5016,17 +4981,15 @@ job_id: 107728855
 ## LINCOLNSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - LINCOLNSHIRE | Lincolnshire | Lincolnshire | £35000 - £45000 per year | Assistant Management Accountant
 job_id: 2057932
 ---
-
 ---
-action:
+action: select
 POSS - LINCOLNSHIRE | Lincolnshire | Lincolnshire | £35000 - £40000 per year | Assistant Accountant
 job_id: 2060479
 ---
-
 ## MERSEYSIDE - LIVERPOOL — SELECTED
 
 ---
@@ -5614,35 +5577,30 @@ job_id: 108061032
 ## OXFORDSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £32000 - £40000 per year | Practice Bookkeeper / Management Accountant
 job_id: 2052886
 ---
-
 ---
-action:
+action: select
 POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £35000 - £40000 per year | Bookkeeper (AAT Qualified or Equivalent)
 job_id: 2060274
 ---
-
 ---
-action:
+action: select
 POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £38000 - £40000 per year | Accounts Administrator - Part time
 job_id: 2062620
 ---
-
 ---
-action:
+action: select
 POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £38000 per year | Bookkeeper/ Management Accountant
 job_id: 2067155
 ---
-
 ---
-action:
+action: select
 POSS - OXFORDSHIRE | Oxfordshire | Oxfordshire | £40000 per year | Bookkeeper (AAT Qualified or Equivalent)
 job_id: 108070754
 ---
-
 ## SCOTLAND CENTRAL - EDINBURGH & LOTHIANS — SELECTED
 
 ---
@@ -5870,11 +5828,10 @@ job_id: 2078918
 ## SOMERSET — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SOMERSET | Somerset | Somerset | £30000 - £35000 per year | Assistant Management Accountant
 job_id: 1979571
 ---
-
 ## STAFFORDSHIRE — SELECTED
 
 ---
@@ -6534,11 +6491,10 @@ job_id: 2077004
 ## WEST MIDLANDS - BIRMINGHAM & SOLIHULL — POSSIBLES
 
 ---
-action:
+action: select
 POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Birmingham |  | Assistant Management Accountant
 job_id: 2067142
 ---
-
 ## WEST MIDLANDS - BLACK COUNTRY — SELECTED
 
 ---
@@ -6700,11 +6656,10 @@ job_id: 2074804
 ## WORCESTERSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - WORCESTERSHIRE | Worcestershire | Worcestershire | £50000 per year | Property Sales Coordinator (Sales Progression Team)
 job_id: 2077111
 ---
-
 ## YORKSHIRE - EAST — SELECTED
 
 ---
@@ -6770,11 +6725,10 @@ job_id: 2074255
 ## YORKSHIRE - EAST — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - EAST | Yorkshire - East | Hull |  | Assistant Management Accountant
 job_id: 2055348
 ---
-
 ## YORKSHIRE - NORTH — SELECTED
 
 ---
