@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-10-06
-review_fingerprint: 10a3ac62ec08ea3a66b2d744e6eeaf604f18f1b890a734c8896c3d395d4bc2d2
+review_date: 2026-10-07
+review_fingerprint: 285f98ecff941faff8f6d9576606364dd3eed64f62eae3b3f14ce448fc84970e
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,28 +10,28 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-10-06T14:31:33+01:00
+Run generated: 2026-10-07T14:44:42+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 372
+JobG8 comparison rows: 367
 Approved NEJobs comparison rows: 0
 
 ## Funnel
 - VONNE listings read: 15
-- Detail-page candidates: 3
-- Detail pages fetched successfully: 3
+- Detail-page candidates: 5
+- Detail pages fetched successfully: 5
 - Detail failures/listing fallbacks: 0
-- Obvious hard passes not detail-fetched: 12
+- Obvious hard passes not detail-fetched: 10
 - Tees Valley explicitly excluded: 0
-- Outside or unmapped geography excluded: 2
+- Outside or unmapped geography excluded: 3
 - Generic/derived geography rows requiring review: 2
-- Retained target candidates: 13
+- Retained target candidates: 12
 
 ## Outcomes
 - HC: 0
-- POSS: 8
-- HARD_PASS: 5
+- POSS: 9
+- HARD_PASS: 3
 - Final selected after remembered/manual actions: 0
-- Final POSS awaiting decision: 8
+- Final POSS awaiting decision: 9
 - Manually excluded: 0
 ## Detail diagnostics
 - No unresolved detail-page failures.
@@ -70,19 +70,6 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173489
 ---
 ---
 action:
-POSS | North East - County Durham & Darlington/Hartlepool | Darlington | £31,000 Per Annum | Shared Lives Carer in Darlington
-employer: St Annes Community Services
-closing_date: 01 November 2026
-geography: CONFIRMED — location: exact area
-reason: annualised upper salary £31,000 exceeds North East review point £30,000
-source: VONNE
-tracking_key: vonne-172562
-vacancy_fingerprint: eb8b793916af3ab9b99e3ea1b533e1e9d92fb19db6343aaff2e2319719a7dba1
-source_job_id: 172562
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=172562
----
----
-action:
 POSS | North East - Tyneside, Wearside & Northumberland | Gateshead | £33,323 Per Annum | Business Support Coach
 employer: Society Matters CIC
 closing_date: 02 November 2026
@@ -93,6 +80,32 @@ tracking_key: vonne-173500
 vacancy_fingerprint: e5d14a4bd7e6bcd346e2effe5bb567c7379d7782f9597b4e2a2cfc17e4639d77
 source_job_id: 173500
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173500
+---
+---
+action:
+POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £28,366 to 31,518 Pro Rata | Grant Holder Support Officer
+employer: Voluntary and Community Action Sunderland
+closing_date: Monday, October 26, 2026 - 17:00
+geography: CONFIRMED — location: approved location fallback
+reason: annualised upper salary £31,518 exceeds North East review point £30,000
+source: VONNE
+tracking_key: vonne-173508
+vacancy_fingerprint: 8299e3d1056736b8272504c0f62b20d222e5d414101af412de37dad17b8b5368
+source_job_id: 173508
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173508
+---
+---
+action:
+POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £28,366 to 31,518 Pro Rata | Grant Holder Support Officer
+employer: Inspire South Tyneside
+closing_date: Monday, October 26, 2026 - 17:00
+geography: CONFIRMED — location: approved location fallback
+reason: annualised upper salary £31,518 exceeds North East review point £30,000
+source: VONNE
+tracking_key: vonne-172176
+vacancy_fingerprint: 9e86bf11e8f53d9040f1830cca6e2ffd94d6c09c03bf3f929c00c3e644a1f406
+source_job_id: 172176
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=172176
 ---
 ---
 action:
@@ -153,9 +166,7 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173501
 ## HARD_PASS
 
 - [Children and Young People’s Mental Health](https://www.vonne.org.uk/vonne-jobs-details?cid=173496) — insufficient service-admin evidence.
-- [Learning Disability Skills Specialist (Part Time)](https://www.vonne.org.uk/vonne-jobs-details?cid=172581) — insufficient service-admin evidence.
-- [Team Leader - All-Age Caregivers](https://www.vonne.org.uk/vonne-jobs-details?cid=173477) — insufficient service-admin evidence.
-- [Young Carer Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173481) — out-of-scope VONNE occupation.
+- [Interim Chief Executive Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173518) — out-of-scope VONNE occupation.
 - [Youth Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173495) — out-of-scope VONNE occupation.
 
 ## Safety boundary
