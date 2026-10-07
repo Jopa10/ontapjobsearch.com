@@ -1,14 +1,13 @@
-Warning: truncated output (original token count: 22350)
-Total output lines: 372
-
 # Ontap System Overview
 
-**Last updated:** 24 September 2026
+**Last updated:** 7 October 2026
 **Status:** Canonical production state, reconciled on 24 September against the live slice register, city-page register and scheduled workflow definitions.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 7 October 2026 — **A beginner AI course reviews page is live in the site structure:** `/ai-course-reviews` reviews Elements of AI and OpenAI Academy AI Foundations. It is linked from the top of `/ai-tips` and included in the sitemap.
 
 - 24 September 2026 — **Four additional regional pages are LIVE:** Greater Manchester - North Finance / Accounts, Scotland Central - Fife Service Admin, Bristol & Bath Legal Assistant / Paralegal, and Staffordshire Marketing. The screenshot evidence was 12 / 5.4 / 6-of-14, 8 / 6.7 / 11-of-14, 6 / 6.9 / 11-of-14, and 7 / 6.9 / 11-of-14 respectively (today / 14-day average / days at 6+). They use the existing configured-slice catalog, central LIVE register, daily family pipelines and verified publisher.
 

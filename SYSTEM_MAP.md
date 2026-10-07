@@ -1,9 +1,6 @@
-Warning: truncated output (original token count: 30474)
-Total output lines: 522
-
 # Ontap System Map
 
-**Last updated:** 24 September 2026
+**Last updated:** 7 October 2026
 **Status:** Canonical production architecture, reconciled on 24 September against the active workflows, slice register, city-page register and current diagnostic contract.
 
 - 21 September 2026 — **Nearby-location analytics now explains incomplete location attempts and reliably measures restored preferences:** client events that occur before GA4 initialises wait for the shared analytics-ready signal instead of being dropped. Unsuccessful geolocation attempts now distinguish unsupported browsers, permission denial, unavailable positions, timeouts and nearby-API failures; manual-town attempts and saved-location refresh failures are measured separately. Existing `saved_location_return` and `saved_location_results_loaded` events remain the proof of remembered-location reuse.
@@ -11,6 +8,8 @@ Total output lines: 522
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
+
+- 7 October 2026 — **Beginner AI course reviews are now a crawlable content page:** `/ai-course-reviews` contains first-hand reviews of Elements of AI and OpenAI Academy AI Foundations, with links to the course providers. The page has a fixed canonical URL, appears in the sitemap and is linked directly from the `/ai-tips` introduction.
 
 - 24 September 2026 — **Four approved regional slices were activated:** Greater Manchester - North Finance / Accounts, Scotland Central - Fife Service Admin, Bristol & Bath Legal Assistant / Paralegal, and Staffordshire Marketing. The configured catalog supplies route metadata, the explicit LIVE register controls activation, and existing family generation plus verified publication workflows handle the pages.
 

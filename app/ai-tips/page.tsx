@@ -105,6 +105,14 @@ export default async function AiTipsPage({
             AI&apos;s immediate value is practical: useful work, less theatre. Think of it
             as a very fast, enthusiastic—but inexperienced—assistant.
           </p>
+          <p className="mt-4 text-sm font-semibold">
+            <Link
+              href="/ai-course-reviews"
+              className="text-blue-700 underline underline-offset-4 hover:text-blue-900"
+            >
+              Choosing a beginner AI course? Read our reviews →
+            </Link>
+          </p>
         </div>
         <Image
           src="/assets/ontap-ai-robot-animated.webp"
