@@ -108,6 +108,13 @@ export default function Analytics() {
     }
 
     const events = ["pointerdown", "keydown", "touchstart", "scroll"] as const;
+    const refreshReferralActivity = (event: Event) => {
+      if (event.isTrusted) touchSessionReferral(sessionStorage);
+    };
+    events.forEach((eventName) =>
+      window.addEventListener(eventName, refreshReferralActivity, { capture: true, passive: true })
+    );
+
     const trackQualifiedVisit = (event: Event) => {
       if (!event.isTrusted) return;
       touchSessionReferral(sessionStorage);
@@ -128,7 +135,10 @@ export default function Analytics() {
     events.forEach((eventName) => window.addEventListener(eventName, trackQualifiedVisit, { passive: true }));
 
     return () => {
-      events.forEach((eventName) => window.removeEventListener(eventName, trackQualifiedVisit));
+      events.forEach((eventName) => {
+        window.removeEventListener(eventName, refreshReferralActivity, true);
+        window.removeEventListener(eventName, trackQualifiedVisit);
+      });
     };
   }, []);
 
