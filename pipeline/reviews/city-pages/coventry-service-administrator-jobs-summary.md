@@ -4,8 +4,8 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
-- Threshold currently met: no
+- Effective included jobs: 7
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 1
-- automatic exclude: 21
-- effective include: 5
-- effective review: 1
-- effective exclude: 21
+- automatic include: 7
+- automatic review: 0
+- automatic exclude: 29
+- effective include: 7
+- effective review: 0
+- effective exclude: 29
 
-## INCLUDE (5)
+## INCLUDE (7)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Payable Assistant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-2062212
+reason: Approved Coventry catchment.
+---
 
 ---
 action: 
@@ -64,11 +76,23 @@ reason: Approved Coventry catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Part Time Website Content Coordinator
-company: THE RECRUITMENT DUO - Agency - Permanent
+title: Payroll Officer
+company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
 location: Coventry
 source: JobG8
-job_id: jobg8-1916346
+job_id: jobg8-2056891
+reason: Approved Coventry catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Purchase Ledger Clerk
+company: SF Partners - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-2076932
 reason: Approved Coventry catchment.
 ---
 
@@ -84,31 +108,31 @@ job_id: nhs-5632425
 reason: Approved Coventry catchment.
 ---
 
-## REVIEW (1)
+## REVIEW (0)
 
----
-action: 
-decision: review
-automatic_decision: review
-title: PA to Principal
-company: The Queen Elizabeth Academy
-location: Atherstone
-source: Teaching Vacancies
-job_id: teaching-vacancies-pa-to-principal-the-queen-elizabeth-academy-atherstone-warwickshire
-reason: No approved Coventry catchment rule matched; local review required.
----
-
-## EXCLUDE (21)
+## EXCLUDE (29)
 
 ---
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Accounts Administrator
-company: BRELLIS RECRUITMENT LIMITED - Agency - Permanent
-location: Warwick
+title: Accounts Assistant
+company: AD Finance - Agency - Permanent
+location: Warwickshire
 source: JobG8
-job_id: jobg8-1881935
+job_id: jobg8-2055969
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: Addington Ball Recruitment Ltd - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2065903
 reason: Separate employment market.
 ---
 
@@ -133,6 +157,18 @@ company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-2049443
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Activities & Coaching Operations Coordinator
+company: Riding for the Disabled Association (RDA) - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2085330
 reason: Separate employment market.
 ---
 
@@ -212,11 +248,47 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Credit Controller
+company: SF Partners - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2057919
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Customer Supply Coordinator
 company: Plus One Recruitment - Agency - Permanent
 location: Warwick
 source: JobG8
 job_id: jobg8-2056680
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant
+company: Seymour John - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2055814
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Graduate Paralegal - Public Family / Care
+company: Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent
+location: Leamington Spa
+source: JobG8
+job_id: jobg8-2065053
 reason: Separate employment market.
 ---
 
@@ -260,6 +332,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Part time Bookkeeper
+company: Four Squared - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2076444
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Private Client Paralegal
 company: G2 Legal Limited - Agency - Permanent
 location: Warwickshire
@@ -289,6 +373,18 @@ company: Michael Page Legal - Agency - Permanent
 location: Warwick
 source: JobG8
 job_id: jobg8-2074203
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Purchase Ledger Assistant
+company: Marc Daniels - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-1978377
 reason: Separate employment market.
 ---
 
@@ -349,5 +445,17 @@ company: Perfect Placement Uk Ltd - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-1912273
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Wills & Probate Paralegal
+company: The Eventus Recruitment Group - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2063048
 reason: Separate employment market.
 ---

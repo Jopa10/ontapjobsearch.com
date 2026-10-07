@@ -4,7 +4,7 @@
 - Live route: `/altrincham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 9
+- automatic include: 2
+- automatic review: 11
 - automatic exclude: 0
-- effective include: 3
-- effective review: 9
+- effective include: 2
+- effective review: 11
 - effective exclude: 0
 
-## INCLUDE (3)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Debt Recovery Paralegal
-company: G2 Legal Limited - Agency - Permanent
-location: Altrincham
-source: JobG8
-job_id: jobg8-1882120
-reason: Exact approved Altrincham workplace.
----
+## INCLUDE (2)
 
 ---
 action: 
@@ -60,7 +48,7 @@ job_id: jobg8-2039520
 reason: Exact approved Altrincham workplace.
 ---
 
-## REVIEW (9)
+## REVIEW (11)
 
 ---
 action: 
@@ -83,6 +71,18 @@ company: Pennine Care NHS FT
 location: Stockport, SK2 7JE
 source: NHS Jobs
 job_id: nhs-5635510
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Billings Co-ordinator
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Sale
+source: JobG8
+job_id: jobg8-1977896
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -143,6 +143,18 @@ company: The People Pod - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-2043192
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Support Executive
+company: VCG Technology Services Limited - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-108042377
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

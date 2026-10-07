@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 28
+- automatic review: 27
 - automatic exclude: 0
 - effective include: 8
-- effective review: 28
+- effective review: 27
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -45,6 +45,18 @@ company: Switch - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-107875971
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Integration Coordinator
+company: Capio Recruitment Financial Planning - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-2056703
 reason: Exact approved Exeter workplace.
 ---
 
@@ -100,18 +112,6 @@ reason: Exact approved Exeter workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Service Advisor
-company: Pembrook Resourcing - Agency - Permanent
-location: Exeter
-source: JobG8
-job_id: jobg8-1881200
-reason: Exact approved Exeter workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Team Administrator
 company: Devon Partnership NHS Trust
 location: Exeter, EX1 3QS, TIVERTON, EX16 6NT
@@ -120,7 +120,7 @@ job_id: nhs-5525304
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (28)
+## REVIEW (27)
 
 ---
 action: 
@@ -143,6 +143,18 @@ company: Royal Devon University Healthcare NHS Foundation Trust
 location: Barnstaple, EX31 4JB
 source: NHS Jobs
 job_id: nhs-5643112
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator - Financial Services
+company: mbf. - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-1934222
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -239,18 +251,6 @@ company: Pertemps Plymouth Commercial - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-2062986
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Legal Assistant - Conveyancing
-company: RLS Legal Recruitment - Agency - Permanent
-location: Totnes
-source: JobG8
-job_id: jobg8-1908676
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -419,18 +419,6 @@ company: St Paul's Roman Catholic Primary School
 location: Plymouth
 source: Teaching Vacancies
 job_id: teaching-vacancies-senior-administrator-st-paul-s-roman-catholic-primary-school
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Advisor
-company: Pembrook Resourcing - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-1881199
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

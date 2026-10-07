@@ -1,11 +1,12 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,nhs-5641970,Receptionist,ID Medical,"Barnsley, s752ep",NHS Jobs,include,include,Approved Barnsley catchment.,barnsley,barnsley-service-administrator-jobs
-include,jobg8-1899397,Recruitment Account Coordinator,Staffline Recruitment Limited - Agency - Permanent,Barnsley,JobG8,include,include,Approved Barnsley catchment.,barnsley,barnsley-service-administrator-jobs
 exclude,teaching-vacancies-admin-clerical-officer-level-2-rowan-school-the-rowan-school,Admin & Clerical Officer Level 2 Rowan School,The Rowan School,Sheffield,Teaching Vacancies,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,teaching-vacancies-admin-assistant-owston-park-primary-academy,Admin Assistant,Owston Park Primary Academy,Doncaster,Teaching Vacancies,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
 exclude,nhs-5639875,Admin Assistant,Sheffield Teaching Hospitals NHS Foundation Trust,"Sheffield, S5 7AU",NHS Jobs,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,teaching-vacancies-admin-support-receptionist-south-axholme-academy,Admin Support - Receptionist,South Axholme Academy,Doncaster,Teaching Vacancies,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
 exclude,jobg8-2024835,Administrator,Reed - Agency - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
+exclude,jobg8-2078492,Assistant Accountant,Elevation Recruitment Group - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
+exclude,jobg8-2055573,Assistant Accountant,Sharp Consultancy - Agency - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
 exclude,jobg8-2044207,Assistant Management Accountant,Elevation Recruitment Group - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,teaching-vacancies-attendance-and-attendance-officer,Attendance and Attendance Officer,Newman School,Rotherham,Teaching Vacancies,exclude,exclude,Separate employment market.,rotherham,barnsley-service-administrator-jobs
 exclude,jobg8-2033599,Audience Development Coordinator - Local Authority - Libraries,Reed - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
@@ -14,7 +15,6 @@ exclude,jobg8-20279_63174-73862c8b83139033e4e4a8b6efca9a33,Call Centre Operator,
 exclude,nhs-5634291,Clerical Officer/Receptionist,Sheffield Teaching Hospitals NHS Foundation Trust,"Sheffield, S5 7AU",NHS Jobs,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-20279_63174-d24d3d6916a209e15b1680693740da2f,Contact Centre Agent,EE - Company - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
 exclude,jobg8-2043404,Credit Controller,Sharp Consultancy - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
-exclude,jobg8-1881566,Credit Controller/Accounts Assistant,Shillito Group - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-20279_63174-153faf593eb64b88272f45adeaa28d87,Customer Service Advisor,EE - Company - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
 exclude,teaching-vacancies-hr-administrator-e50a9848-dea2-4828-a9a5-5745ea9a03ce,HR Administrator,Sheffield Park Academy,Sheffield,Teaching Vacancies,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,jobg8-2046084,HR Assistant,Elevation Recruitment Group - Agency - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,barnsley-service-administrator-jobs
@@ -24,5 +24,4 @@ exclude,nhs-5634371,Receptionist,Sheffield Health Partnership University NHS Fou
 exclude,teaching-vacancies-receptionist-stocksbridge-junior-school,Receptionist,Stocksbridge Junior School,Sheffield,Teaching Vacancies,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,nhs-5625323,Receptionist Administrator,Richmond Medical Centre,"Sheffield, S13 8NA",NHS Jobs,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,teaching-vacancies-receptionist-and-administrator-adcd5f34-cc20-45ec-9a96-1d35515bc466,Receptionist and Administrator,Prince Edward Primary School,Sheffield,Teaching Vacancies,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
-exclude,teaching-vacancies-receptionist-and-administrator-52-or-42-weeks-considered,Receptionist and Administrator – (52 or 42 weeks considered),Sheffield Park Academy,Sheffield,Teaching Vacancies,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs
 exclude,teaching-vacancies-scitt-administrator-chorus-education-trust,SCITT Administrator,Chorus Education Trust,Sheffield,Teaching Vacancies,exclude,exclude,Separate employment market.,sheffield,barnsley-service-administrator-jobs

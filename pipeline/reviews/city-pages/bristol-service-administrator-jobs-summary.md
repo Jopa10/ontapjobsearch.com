@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 24
+- Effective included jobs: 27
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,50 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 24
-- automatic review: 6
-- automatic exclude: 5
-- effective include: 24
-- effective review: 6
-- effective exclude: 5
+- automatic include: 27
+- automatic review: 4
+- automatic exclude: 7
+- effective include: 27
+- effective review: 4
+- effective exclude: 7
 
-## INCLUDE (24)
+## INCLUDE (27)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Artis Recruitment - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-2078337
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Robert Half - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-2057297
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Antenatal Clinic Administrator
+company: Bristol NHS Foundation Trust
+location: Bristol, BS10 5NB
+source: NHS Jobs
+job_id: nhs-5621879
+reason: Approved conservative Bristol launch catchment.
+---
 
 ---
 action: 
@@ -45,6 +81,18 @@ company: Kingsgate Recruitment Ltd - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-1935128
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Commercial Senior Paralegal
+company: Clear Legal & Financial Recruitment - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-2064747
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -88,11 +136,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Finance Assistant
-company: Artis Recruitment - Agency - Permanent
+title: Digital Marketing Executive
+company: Moxie and Mettle Limited - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2042684
+job_id: jobg8-2066943
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -100,11 +148,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Fuelcard Telesales Representative
-company: Ford Fuels - Agency - Permanent
+title: Finance Assistant
+company: Artis Recruitment - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-108070751
+job_id: jobg8-2042684
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -160,11 +208,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Litigation Paralegal
-company: Reed - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-1905970
+title: Medical Secretary/Administrator
+company: Greenway Community Practice
+location: Bristol, BS10 6AF
+source: NHS Jobs
+job_id: nhs-5643222
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -172,11 +220,23 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Medical Secretary/Administrator
-company: Greenway Community Practice
-location: Bristol, BS10 6AF
-source: NHS Jobs
-job_id: nhs-5643222
+title: Mortgage Administrator
+company: Clearview Recruitment - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-2057560
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Patent Paralegal - Bristol (c&;40,000 + benefits Hybrid)
+company: Dawn Ellmore Employment Agency - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-2063740
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -268,35 +328,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Service Advisor
-company: Perfect Placement Uk Ltd - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-1884559
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Social Media and Content Executive
 company: Moxie and Mettle Limited - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2053562
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Technical Claims Handler
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-1908350
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -312,7 +348,7 @@ job_id: jobg8-1960385
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (6)
+## REVIEW (4)
 
 ---
 action: 
@@ -362,31 +398,7 @@ job_id: jobg8-108074887
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Residential Property Assistant
-company: TSR Legal - South West - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-107979097
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-2073474
-reason: No approved Bristol catchment rule matched; local review required.
----
-
-## EXCLUDE (5)
+## EXCLUDE (7)
 
 ---
 action: 
@@ -428,11 +440,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Interim Finance Assistant - AP Focus
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Bath
+source: JobG8
+job_id: jobg8-2075399
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Medical Administrator
 company: Fairfield Park Health Centre
 location: Bath, BA1 6EA
 source: NHS Jobs
 job_id: nhs-5627314
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Part Time Accounts Administrator
+company: Juice Recruitment Ltd - Agency - Permanent
+location: Bath
+source: JobG8
+job_id: jobg8-2053456
 reason: Separate employment market.
 ---
 

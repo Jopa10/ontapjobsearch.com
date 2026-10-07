@@ -16,15 +16,27 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 5
+- automatic review: 6
 - automatic exclude: 0
 - effective include: 0
-- effective review: 5
+- effective review: 6
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (5)
+## REVIEW (6)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Cosgrove & Cosgrove Ltd - Agency - Permanent
+location: Telford
+source: JobG8
+job_id: jobg8-2057863
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
 
 ---
 action: 

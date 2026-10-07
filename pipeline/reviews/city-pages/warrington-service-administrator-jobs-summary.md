@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 15
+- Effective included jobs: 20
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
-- automatic review: 9
+- automatic include: 20
+- automatic review: 10
 - automatic exclude: 5
-- effective include: 15
-- effective review: 9
+- effective include: 20
+- effective review: 10
 - effective exclude: 5
 
-## INCLUDE (15)
+## INCLUDE (20)
 
 ---
 action: 
@@ -40,11 +40,35 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Accounts Assistant - Purchase Ledger
+company: Adele Carr Recruitment Limited - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-2077982
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Administrator
 company: Flexible Solutionz - Agency - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-2075500
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Accountant
+company: Michael Page Finance - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-2060582
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -136,6 +160,18 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Credit Controller
+company: Rubax - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-2063003
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Customer Service Advisor - Uncapped Commission
 company: EE - Company - Permanent
 location: Warrington
@@ -160,11 +196,35 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Disrepair Paralegal
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-2065240
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Finance Assistant
 company: Adecco - Agency - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-2039620
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant + AAT/CIMA Study Support
+company: Adele Carr Recruitment Limited - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-1962534
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -204,7 +264,19 @@ job_id: jobg8-1909662
 reason: Approved conservative Warrington launch catchment.
 ---
 
-## REVIEW (9)
+## REVIEW (10)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable Clerk
+company: Michael Page Finance - Agency - Permanent
+location: Widnes
+source: JobG8
+job_id: jobg8-2039766
+reason: No approved Warrington catchment rule matched; local review required.
+---
 
 ---
 action: 

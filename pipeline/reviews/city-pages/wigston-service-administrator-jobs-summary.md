@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 17
+- automatic review: 21
 - automatic exclude: 0
 - effective include: 0
-- effective review: 17
+- effective review: 21
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (17)
+## REVIEW (21)
 
 ---
 action: 
@@ -42,11 +42,35 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Activities Coordinator
-company: Care UK - Company - Permanent
-location: Market Harborough
+title: Accounts Payable Clerk
+company: Macildowie Recruitment and Retention - Agency - Permanent
+location: Leicestershire
 source: JobG8
-job_id: jobg8-108061254
+job_id: jobg8-2053385
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable Coordinator
+company: SF Partners - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-2060246
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Receivable Assistant
+company: Adecco - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-2026586
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -78,18 +102,6 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: BMW Service Advisor
-company: Sytner Group - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-1885227
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Casualty Claims Handler
 company: Adjusting Appointments Limited - Agency - Permanent
 location: Leicestershire
@@ -114,6 +126,30 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Credit Control
+company: Reed - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-2017641
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: SF Partners - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-2060220
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service & Planning Coordinator
 company: Reed - Agency - Permanent
 location: Shepshed
@@ -126,11 +162,11 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Depot Coordinator
-company: Whistl - Agency - Permanent
+title: Finance Administrator
+company: Trinity House Group - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-1882271
+job_id: jobg8-2055794
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -191,6 +227,18 @@ company: qed legal - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-2026724
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Clerk
+company: Michael Page Finance - Agency - Permanent
+location: Coalville
+source: JobG8
+job_id: jobg8-2067304
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 6
-- automatic exclude: 4
+- automatic review: 8
+- automatic exclude: 5
 - effective include: 5
-- effective review: 6
-- effective exclude: 4
+- effective review: 8
+- effective exclude: 5
 
 ## INCLUDE (5)
 
@@ -76,15 +76,15 @@ reason: Approved Southampton catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Support Worker (Days)
+title: Support Worker (Learning Disabilities)
 company: Cygnet - Agency - Permanent
 location: Southampton
 source: JobG8
-job_id: jobg8-1898106
+job_id: jobg8-2064396
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (6)
+## REVIEW (8)
 
 ---
 action: 
@@ -114,11 +114,35 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Children's Homes Support Worker
+company: Hampshire County Council - Company - Permanent
+location: Romsey
+source: JobG8
+job_id: jobg8-1401785691
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Female Support Worker
 company: SeeAbility - Agency - Permanent
 location: Tadley
 source: JobG8
 job_id: jobg8-108059180
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Support Worker
+company: Avenues Group - Company - Permanent
+location: Tadley
+source: JobG8
+job_id: jobg8-264760722998480076837340
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
@@ -158,7 +182,7 @@ job_id: jobg8-1401785693
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (4)
+## EXCLUDE (5)
 
 ---
 action: 
@@ -200,10 +224,22 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Specialist Care Support Worker Winchester
+title: Specialist Care Support Worker - Winchester
 company: SCA Care - Agency - Permanent
 location: Winchester
 source: JobG8
 job_id: jobg8-108004872
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Support Worker (Adults)
+company: Hampshire County Council - Company - Permanent
+location: Winchester
+source: JobG8
+job_id: jobg8-1401785731
 reason: Separate employment market.
 ---

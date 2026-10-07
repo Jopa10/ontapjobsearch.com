@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 9
+- automatic review: 8
 - automatic exclude: 0
 - effective include: 0
-- effective review: 9
+- effective review: 8
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (9)
+## REVIEW (8)
 
 ---
 action: 
@@ -79,7 +79,7 @@ action:
 decision: review
 automatic_decision: review
 title: Credit Controller
-company: Briggs Equipment Ltd - Agency - Contract
+company: Briggs Equipment Ltd - Agency - Permanent
 location: Lisburn
 source: JobG8
 job_id: jobg8-108056565
@@ -119,18 +119,6 @@ company: Keoghs LLP - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-2045517
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2073471
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 

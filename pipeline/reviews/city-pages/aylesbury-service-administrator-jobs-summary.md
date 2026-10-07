@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 46
+- automatic review: 48
 - automatic exclude: 0
 - effective include: 4
-- effective review: 46
+- effective review: 48
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: teaching-vacancies-sen-administrator-chiltern-way-academy-trust
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (46)
+## REVIEW (48)
 
 ---
 action: 
@@ -102,6 +102,30 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Accounts Assistant (maternity cover)
+company: Fortis Recruitment Solutions - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-2053673
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable
+company: Morgan McKinley - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-2057564
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Accounts Payable
 company: Orka Financial - Agency - Permanent
 location: Buckinghamshire
@@ -114,11 +138,35 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Accounts Receivable Clerk
+company: In2 Consult - Agency - Permanent
+location: High Wycombe
+source: JobG8
+job_id: jobg8-2074277
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Admin Assistant
 company: Padbury Church of England School
 location: Buckingham
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-assistant-padbury-church-of-england-school-buckingham-buckinghamshire
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: CMC Consulting Limited - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-1979760
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -186,11 +234,11 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Completions Support Administrator
-company: The Curve Group - Agency - Permanent
-location: Buckinghamshire
+title: Conveyancing Paralegal
+company: Capio Recruitment Legal - Agency - Permanent
+location: Amersham
 source: JobG8
-job_id: jobg8-1899364
+job_id: jobg8-2062287
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -239,6 +287,18 @@ company: In2 Consult - Agency - Permanent
 location: High Wycombe
 source: JobG8
 job_id: jobg8-2014306
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit controller
+company: Michael Page Finance - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-2067310
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -354,35 +414,11 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Automation Manager
-company: Nextech - Agency - Permanent
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-1877882
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Marketing Executive
 company: Adecco - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-2059155
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Executive
-company: FS1 Recruitment - Marketing, Creative, Digital, Finance, HR, Sales, Admin - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-1896236
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -462,11 +498,11 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Part Time Payroll & HR
-company: Michael Page Finance - Agency - Permanent
-location: Milton Keynes
+title: Part-time Finance Assistant - Education Sector
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Buckinghamshire
 source: JobG8
-job_id: jobg8-1991661
+job_id: jobg8-2063504
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -587,18 +623,6 @@ company: Quality Personnel Services Limited - Agency - Permanent
 location: Milton Keynes
 source: JobG8
 job_id: jobg8-2028313
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales ledger/billings
-company: Robert Walters - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-1882176
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

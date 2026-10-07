@@ -40,11 +40,11 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: HR Assistant
-company: ICONIC RESOURCING LTD - Agency - Permanent
+title: Finance Assistant
+company: Robert Half - Agency - Permanent
 location: Edinburgh
 source: JobG8
-job_id: jobg8-1933959
+job_id: jobg8-1977269
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -52,11 +52,11 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: IT Helpdesk Analyst (German Speaking)
-company: Adecco - Agency - Permanent
+title: HR Assistant
+company: ICONIC RESOURCING LTD - Agency - Permanent
 location: Edinburgh
 source: JobG8
-job_id: jobg8-2064402
+job_id: jobg8-1933959
 reason: Approved conservative Edinburgh launch catchment.
 ---
 

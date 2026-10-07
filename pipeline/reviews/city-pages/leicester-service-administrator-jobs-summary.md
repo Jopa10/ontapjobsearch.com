@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 10
+- automatic review: 14
 - automatic exclude: 0
 - effective include: 7
-- effective review: 10
+- effective review: 14
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: nhs-5642838
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (10)
+## REVIEW (14)
 
 ---
 action: 
@@ -126,11 +126,35 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Activities Coordinator
-company: Care UK - Company - Permanent
-location: Market Harborough
+title: Accounts Payable Clerk
+company: Macildowie Recruitment and Retention - Agency - Permanent
+location: Leicestershire
 source: JobG8
-job_id: jobg8-108061254
+job_id: jobg8-2053385
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable Coordinator
+company: SF Partners - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-2060246
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Receivable Assistant
+company: Adecco - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-2026586
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -150,11 +174,11 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: BMW Service Advisor
-company: Sytner Group - Agency - Permanent
+title: Casualty Claims Handler
+company: Adjusting Appointments Limited - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-1885227
+job_id: jobg8-2074012
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -162,11 +186,23 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Casualty Claims Handler
-company: Adjusting Appointments Limited - Agency - Permanent
+title: Credit Control
+company: Reed - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2074012
+job_id: jobg8-2017641
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: SF Partners - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-2060220
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -186,11 +222,11 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Depot Coordinator
-company: Whistl - Agency - Permanent
+title: Finance Administrator
+company: Trinity House Group - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-1882271
+job_id: jobg8-2055794
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -215,6 +251,18 @@ company: qed legal - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-2026724
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Clerk
+company: Michael Page Finance - Agency - Permanent
+location: Coalville
+source: JobG8
+job_id: jobg8-2067304
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

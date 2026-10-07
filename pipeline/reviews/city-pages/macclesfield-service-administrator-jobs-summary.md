@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 13
+- automatic review: 10
 - automatic exclude: 0
 - effective include: 1
-- effective review: 13
+- effective review: 10
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: jobg8-2066069
 reason: Exact approved Macclesfield workplace.
 ---
 
-## REVIEW (13)
+## REVIEW (10)
 
 ---
 action: 
@@ -90,35 +90,11 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Conveyancing Paralegal / Fee Earner
-company: qed legal - Agency - Permanent
-location: Wilmslow
-source: JobG8
-job_id: jobg8-1898376
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Service Advisor - Uncapped Commission
 company: EE - Company - Permanent
 location: Knutsford
 source: JobG8
 job_id: jobg8-20279_62648-5f053ed6bc220092db88c81c1fa679dd
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrator
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Crewe
-source: JobG8
-job_id: jobg8-1905063
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -167,18 +143,6 @@ company: Highfields Academy
 location: Nantwich
 source: Teaching Vacancies
 job_id: teaching-vacancies-school-office-administrator-highfields-academy
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Administrator
-company: Perfect Placement Uk Ltd - Agency - Permanent
-location: Knutsford
-source: JobG8
-job_id: jobg8-1875811
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

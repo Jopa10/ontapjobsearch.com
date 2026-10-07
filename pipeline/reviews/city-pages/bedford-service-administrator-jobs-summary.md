@@ -4,7 +4,7 @@
 - Live route: `/bedford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
+- automatic include: 8
 - automatic review: 12
 - automatic exclude: 0
-- effective include: 7
+- effective include: 8
 - effective review: 12
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (8)
 
 ---
 action: 
@@ -76,6 +76,18 @@ reason: Exact approved Bedford workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Finance Assistant
+company: Michael Page Finance - Agency - Permanent
+location: Bedford
+source: JobG8
+job_id: jobg8-2068147
+reason: Exact approved Bedford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Legal Assistant
 company: Reed - Agency - Permanent
 location: Bedford
@@ -109,6 +121,30 @@ reason: Exact approved Bedford workplace.
 ---
 
 ## REVIEW (12)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant - salary negotiable; well-established independent firm
+company: Reed - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-2064411
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant - salary negotiable; well-established independent firm
+company: Reed - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-2070624
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -150,30 +186,6 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Data Administrator (Guidance & Education System)
-company: Reed Talent Solutions - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-1981043
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Family Law Paralegals (x2) - Luton
-company: Duncan Lewis Solictors - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-1900194
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR Administrator
 company: Chiltern Learning Trust
 location: Luton
@@ -186,11 +198,11 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Paralegal
-company: BMA RECRUITMENT LTD - Agency - Permanent
-location: Luton
+title: Part Time Credit Controller
+company: SRM RECRUITMENT LIMITED - Agency - Permanent
+location: Dunstable
 source: JobG8
-job_id: jobg8-1908809
+job_id: jobg8-1979013
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

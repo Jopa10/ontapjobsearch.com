@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 13
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
-- automatic review: 18
+- automatic include: 9
+- automatic review: 12
 - automatic exclude: 9
-- effective include: 13
-- effective review: 18
+- effective include: 9
+- effective review: 12
 - effective exclude: 9
 
-## INCLUDE (13)
+## INCLUDE (9)
 
 ---
 action: 
@@ -76,42 +76,6 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Legal Secretary/Paralegal - Commercial Property
-company: Reed - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-1885750
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Legal Secretary/Paralegal - Private Client
-company: Reed - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-1885701
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Legal Secretary/Paralegal - Residential Conveyancing
-company: Reed - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-1885743
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Paralegal - Family
 company: Capital Outsourcing Group Ltd - Agency - Permanent
 location: York
@@ -148,18 +112,6 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Programme & Team Administrator
-company: Church of England - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-2078950
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Remote Conveyancing Paralegal
 company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
 location: York
@@ -180,7 +132,7 @@ job_id: jobg8-2021380
 reason: Approved York catchment.
 ---
 
-## REVIEW (18)
+## REVIEW (12)
 
 ---
 action: 
@@ -259,18 +211,6 @@ action:
 decision: review
 automatic_decision: review
 title: Credit Controller
-company: SI Recruitment - Agency - Permanent
-location: Catterick Garrison
-source: JobG8
-job_id: jobg8-108061850
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
 company: Si Recruitment - Agency - Permanent
 location: Catterick Garrison
 source: JobG8
@@ -294,71 +234,11 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Demand Planner
-company: MTrec Recruitment - Agency - Permanent
-location: Bedale
-source: JobG8
-job_id: jobg8-1888842
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Interim Finance Administrator
-company: KD Recruitment Limited - Agency - Temporary
-location: Filey
-source: JobG8
-job_id: jobg8-108001446
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Ledger Clerk
 company: Optimum Recruitment Group Limited - Agency - Permanent
 location: Ripon
 source: JobG8
 job_id: jobg8-107798375
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Legal Secretary/Paralegal - Private Client
-company: Reed - Agency - Permanent
-location: Malton
-source: JobG8
-job_id: jobg8-1885742
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Executive
-company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
-location: Knaresborough
-source: JobG8
-job_id: jobg8-1880492
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Manager
-company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
-location: Knaresborough
-source: JobG8
-job_id: jobg8-1880493
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -440,18 +320,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Client Services Administrator
-company: NJR Recruitment - Agency - Permanent
-location: Scarborough
-source: JobG8
-job_id: jobg8-1882087
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Content Creator
 company: Greenfield I T Recruitment - Agency - Permanent
 location: Yorkshire
@@ -464,11 +332,11 @@ reason: Broad regional label; not York-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Conveyancing Assistant
-company: Janine Kot (JK) Recruitment Advisory Services Limited - Agency - Permanent
+title: Credit Control
+company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-1906113
+job_id: jobg8-2057600
 reason: Broad regional label; not York-city evidence.
 ---
 
@@ -488,11 +356,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Finance Assistant
-company: HW Finance - Agency - Permanent
-location: Harrogate
+title: Legal Assistant
+company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
+location: Northallerton
 source: JobG8
-job_id: jobg8-1882896
+job_id: jobg8-2063467
 reason: Separate employment market.
 ---
 
@@ -500,10 +368,22 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Legal Secretary
-company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
-location: Harrogate
+title: Litigation Legal Assistant
+company: Clear Legal & Financial Recruitment - Agency - Permanent
+location: Northallerton
 source: JobG8
-job_id: jobg8-1982430
+job_id: jobg8-2075662
 reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Social Media Executive
+company: Greenfield I T Recruitment - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2057285
+reason: Broad regional label; not York-city evidence.
 ---

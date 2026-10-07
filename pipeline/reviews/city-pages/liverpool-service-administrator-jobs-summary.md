@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 17
+- Effective included jobs: 14
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
-- automatic review: 4
+- automatic include: 14
+- automatic review: 3
 - automatic exclude: 0
-- effective include: 17
-- effective review: 4
+- effective include: 14
+- effective review: 3
 - effective exclude: 0
 
-## INCLUDE (17)
+## INCLUDE (14)
 
 ---
 action: 
@@ -76,30 +76,6 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Credit Controller-6 FTC
-company: LJ Recruitment - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-2073843
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Employment Advisor/Paralegal
-company: Michael Page Legal - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-1885635
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Enforcement Paralegal - Debt Recovery
 company: Standard 8 - Agency - Permanent
 location: Liverpool
@@ -117,18 +93,6 @@ company: X1 Lettings - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-2027305
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Health Records Clerk
-company: Liverpool University Hospitals NHS Foundation Trust
-location: Liverpool, L14 3PE
-source: NHS Jobs
-job_id: nhs-5641089
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -172,11 +136,11 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Motor claims handler - Part time
-company: Spotlightjobs - Agency - Permanent
+title: Motor Claims Handler CH3
+company: Keoghs LLP - Agency - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-1884509
+job_id: jobg8-1984602
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -184,11 +148,11 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Motor Claims Handler CH3
-company: Keoghs LLP - Agency - Permanent
+title: Operations & Social Media Coordinator
+company: Adaptable Recruitment - Agency - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-1984602
+job_id: jobg8-2064408
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -228,19 +192,7 @@ job_id: jobg8-2078827
 reason: Approved conservative Liverpool launch catchment.
 ---
 
-## REVIEW (4)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Campaign Manager
-company: Roberts Webb Recruitment - Agency - Permanent
-location: Merseyside
-source: JobG8
-job_id: jobg8-1887932
-reason: Broad county location; review before Liverpool inclusion.
----
+## REVIEW (3)
 
 ---
 action: 
@@ -258,11 +210,11 @@ reason: Broad county location; review before Liverpool inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Trade Marketing Manager
-company: Zachary Daniels - Agency - Permanent
+title: Marketing Executive / Manager (part time)
+company: Ice and Easy - Agency - Permanent
 location: Merseyside
 source: JobG8
-job_id: jobg8-1935673
+job_id: jobg8-2060699
 reason: Broad county location; review before Liverpool inclusion.
 ---
 
@@ -270,11 +222,11 @@ reason: Broad county location; review before Liverpool inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
+title: Trade Marketing Manager
+company: Zachary Daniels - Agency - Permanent
 location: Merseyside
 source: JobG8
-job_id: jobg8-2073482
+job_id: jobg8-1935673
 reason: Broad county location; review before Liverpool inclusion.
 ---
 

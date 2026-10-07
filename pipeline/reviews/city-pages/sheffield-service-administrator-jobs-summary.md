@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 15
+- Effective included jobs: 14
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
+- automatic include: 14
 - automatic review: 0
 - automatic exclude: 12
-- effective include: 15
+- effective include: 14
 - effective review: 0
 - effective exclude: 12
 
-## INCLUDE (15)
+## INCLUDE (14)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S5 7AU
 source: NHS Jobs
 job_id: nhs-5639875
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Accountant
+company: Elevation Recruitment Group - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2078492
 reason: Approved Sheffield catchment.
 ---
 
@@ -93,18 +105,6 @@ company: Sharp Consultancy - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2043404
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Credit Controller/Accounts Assistant
-company: Shillito Group - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1881566
 reason: Approved Sheffield catchment.
 ---
 
@@ -184,18 +184,6 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist and Administrator – (52 or 42 weeks considered)
-company: Sheffield Park Academy
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-and-administrator-52-or-42-weeks-considered
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: SCITT Administrator
 company: Chorus Education Trust
 location: Sheffield
@@ -241,6 +229,18 @@ company: Reed - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-2024835
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Assistant Accountant
+company: Sharp Consultancy - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-2055573
 reason: Separate employment market.
 ---
 
@@ -337,17 +337,5 @@ company: ID Medical
 location: Barnsley, s752ep
 source: NHS Jobs
 job_id: nhs-5641970
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Recruitment Account Coordinator
-company: Staffline Recruitment Limited - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-1899397
 reason: Separate employment market.
 ---

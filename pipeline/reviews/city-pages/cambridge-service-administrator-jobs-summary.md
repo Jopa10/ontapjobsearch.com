@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 17
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
-- automatic review: 6
-- automatic exclude: 4
-- effective include: 17
-- effective review: 6
-- effective exclude: 4
+- automatic include: 11
+- automatic review: 8
+- automatic exclude: 8
+- effective include: 11
+- effective review: 8
+- effective exclude: 8
 
-## INCLUDE (17)
+## INCLUDE (11)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Reed - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-2066978
+reason: Approved conservative Cambridge launch catchment.
+---
 
 ---
 action: 
@@ -52,11 +64,11 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: CRM Officer
-company: Proactive Appointments - Agency - Permanent
+title: Communications Officer/ Senior Communications Officer
+company: CBM UK - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
-job_id: jobg8-1874671
+job_id: jobg8-2085343
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -64,11 +76,11 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Events Coordinator
-company: Reed - Agency - Permanent
+title: Credit Controller
+company: Robert Half - Agency - Permanent
 location: Cambridge
 source: JobG8
-job_id: jobg8-1882412
+job_id: jobg8-2056165
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -81,18 +93,6 @@ company: EC Resourcing - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-2065820
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: HR Administrator
-company: Pure Resourcing Solutions - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-2063039
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -124,71 +124,11 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: IP Paralegal (12-Month Contract) - Cambridge
-company: Dawn Ellmore Employment Agency - Agency - Permanent
-location: Cambridge
+title: Purchase Ledger Clerk (Temp)
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Cambridgeshire
 source: JobG8
-job_id: jobg8-1899565
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Legal Assistant
-company: Reed - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-1908938
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Lettings Administrator
-company: Property Personnel - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-1876189
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Patent Administrator
-company: The Law Support Group - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-1892204
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Patient Services Administrator
-company: Red House Surgery
-location: Cambridge, CB4 1ER, Cambridge, CB1 1PT
-source: NHS Jobs
-job_id: nhs-5622094
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Patient Services Administrator
-company: Red House Surgery
-location: Cambridge, CB4 1ER, Cambridge, CB1 1PT
-source: NHS Jobs
-job_id: nhs-5622126
+job_id: jobg8-2036998
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -216,19 +156,31 @@ job_id: jobg8-2074616
 reason: Approved conservative Cambridge launch catchment.
 ---
 
+## REVIEW (8)
+
 ---
 action: 
-decision: include
-automatic_decision: include
-title: Service Advisor
-company: Perfect Placement Uk Ltd - Agency - Permanent
-location: Cambridge
+decision: review
+automatic_decision: review
+title: Assistant Accountant - salary negotiable; well-established independent firm
+company: Reed - Agency - Permanent
+location: St. Ives
 source: JobG8
-job_id: jobg8-1875937
-reason: Approved conservative Cambridge launch catchment.
+job_id: jobg8-2064410
+reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## REVIEW (6)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant - salary negotiable; well-established independent firm
+company: Reed - Agency - Permanent
+location: St. Neots
+source: JobG8
+job_id: jobg8-2070623
+reason: No approved Cambridge catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -302,7 +254,19 @@ job_id: teaching-vacancies-school-administrative-receptionist
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (4)
+## EXCLUDE (8)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Receivable
+company: Reed - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-2078574
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -321,7 +285,7 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: IT Helpdesk Advisor - Dutch Speaker
-company: Interaction - Peterborough - Agency - Contract
+company: Interaction - Peterborough - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-108061988
@@ -337,6 +301,42 @@ company: Abbeyview Surgery
 location: Peterborough, PE6 0AL
 source: NHS Jobs
 job_id: nhs-5636638
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Purchase Ledger Clerk
+company: Reed - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-2078570
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Purchase Ledger Controller
+company: Reed - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-2062241
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Purchasing Assistant
+company: Huntress - Agency - Contract
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225691674
 reason: Separate employment market.
 ---
 

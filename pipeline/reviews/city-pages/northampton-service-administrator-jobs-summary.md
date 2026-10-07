@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 17
+- automatic review: 16
 - automatic exclude: 0
 - effective include: 6
-- effective review: 17
+- effective review: 16
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -88,15 +88,15 @@ reason: Exact approved Northampton workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Guilsborough Academy
-location: Northampton
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-guilsborough-academy
+title: Receptionist/Administrator
+company: Bugbrooke Medical Practice
+location: Northampton, NN7 3QN
+source: NHS Jobs
+job_id: nhs-5645538
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (17)
+## REVIEW (16)
 
 ---
 action: 
@@ -143,18 +143,6 @@ company: Avery Healthcare Group Ltd.
 location: Kettering, NN16 9JB
 source: NHS Jobs
 job_id: nhs-5624877
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrative Assistant
-company: Rothwell & Desborough Healthcare Group
-location: Kettering, NN14 6JQ, Kettering, NN14 2NB
-source: NHS Jobs
-job_id: nhs-5617697
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

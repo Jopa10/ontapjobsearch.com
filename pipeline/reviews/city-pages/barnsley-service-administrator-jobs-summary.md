@@ -4,7 +4,7 @@
 - Live route: `/barnsley/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 2
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
+- automatic include: 1
 - automatic review: 0
 - automatic exclude: 25
-- effective include: 2
+- effective include: 1
 - effective review: 0
 - effective exclude: 25
 
-## INCLUDE (2)
+## INCLUDE (1)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: ID Medical
 location: Barnsley, s752ep
 source: NHS Jobs
 job_id: nhs-5641970
-reason: Approved Barnsley catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Recruitment Account Coordinator
-company: Staffline Recruitment Limited - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-1899397
 reason: Approved Barnsley catchment.
 ---
 
@@ -109,6 +97,30 @@ company: Reed - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-2024835
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Assistant Accountant
+company: Elevation Recruitment Group - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2078492
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Assistant Accountant
+company: Sharp Consultancy - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-2055573
 reason: Separate employment market.
 ---
 
@@ -205,18 +217,6 @@ company: Sharp Consultancy - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2043404
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Credit Controller/Accounts Assistant
-company: Shillito Group - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1881566
 reason: Separate employment market.
 ---
 
@@ -325,18 +325,6 @@ company: Prince Edward Primary School
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-and-administrator-adcd5f34-cc20-45ec-9a96-1d35515bc466
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist and Administrator – (52 or 42 weeks considered)
-company: Sheffield Park Academy
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-and-administrator-52-or-42-weeks-considered
 reason: Separate employment market.
 ---
 

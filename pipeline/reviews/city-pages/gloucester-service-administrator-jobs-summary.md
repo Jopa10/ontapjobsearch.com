@@ -4,8 +4,8 @@
 - Live route: `/gloucester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
-- Threshold currently met: no
+- Effective included jobs: 5
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 28
+- automatic include: 5
+- automatic review: 27
 - automatic exclude: 0
-- effective include: 2
-- effective review: 28
+- effective include: 5
+- effective review: 27
 - effective exclude: 0
 
-## INCLUDE (2)
+## INCLUDE (5)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Morgan McKinley - Agency - Permanent
+location: Gloucester
+source: JobG8
+job_id: jobg8-2067302
+reason: Exact approved Gloucester workplace.
+---
 
 ---
 action: 
@@ -40,6 +52,30 @@ reason: Exact approved Gloucester workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Purchase Ledger
+company: SF Partners - Agency - Permanent
+location: Gloucester
+source: JobG8
+job_id: jobg8-2063393
+reason: Exact approved Gloucester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Salesforce Administrator
+company: UBT - Agency - Permanent
+location: Gloucester
+source: JobG8
+job_id: jobg8-2085791
+reason: Exact approved Gloucester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: School Administrator
 company: St James' Church of England Junior School
 location: Gloucester
@@ -48,7 +84,7 @@ job_id: teaching-vacancies-school-administrator-st-james-church-of-england-junio
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (28)
+## REVIEW (27)
 
 ---
 action: 
@@ -83,6 +119,54 @@ company: Reed - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-2048160
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Coordinator
+company: Leaders In Care Recruitment Ltd - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-108064325
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Coordinator
+company: Leaders In Care Recruitment Ltd - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-108064328
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: THOMAS Professional - Agency - Temporary
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225503952
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Fees Finance Assistant
+company: i2i Recruitment Consultancy - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-1961343
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -127,18 +211,6 @@ action:
 decision: review
 automatic_decision: review
 title: HR & Payroll Administrator
-company: Next Generation Ltd - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-107980548
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR & Payroll Administrator
 company: Pertemps Gloucester - Agency - Permanent
 location: Gloucestershire
 source: JobG8
@@ -174,59 +246,11 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: HR Co-Ordinator
-company: Cactus Search - Agency - Permanent
-location: Cheltenham
-source: JobG8
-job_id: jobg8-1881580
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Insurance Administrator
 company: i2i Recruitment Consultancy - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-1961373
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Insurance Administrator - Hybrid Working + Career Progression!
-company: Anderson Recruitment Ltd - Agency - Permanent
-location: Cheltenham
-source: JobG8
-job_id: jobg8-1906007
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Manager
-company: Juice Recruitment Ltd - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-1892075
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Office Administrator
-company: Adecco - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-1908383
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -246,11 +270,11 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: People Development Coordinator
-company: Juice Recruitment Ltd - Agency - Permanent
+title: Payroll Officer
+company: Marks Sattin - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-2037263
+job_id: jobg8-2065931
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -258,11 +282,11 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: PR Account Manager - inhouse or agency welcome!
-company: Moxie and Mettle Limited - Agency - Permanent
+title: People Development Coordinator
+company: Juice Recruitment Ltd - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-1883527
+job_id: jobg8-2037263
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -295,7 +319,7 @@ action:
 decision: review
 automatic_decision: review
 title: Product Support Coordinator (12 Fixed Term Contract)
-company: Renishaw PLC - Agency - Temporary
+company: Renishaw PLC - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-108074035

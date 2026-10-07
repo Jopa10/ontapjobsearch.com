@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 26
+- automatic review: 25
 - automatic exclude: 0
 - effective include: 1
-- effective review: 26
+- effective review: 25
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: teaching-vacancies-attendance-and-attendance-officer
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (26)
+## REVIEW (25)
 
 ---
 action: 
@@ -95,6 +95,30 @@ company: Reed - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-2024835
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: Elevation Recruitment Group - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2078492
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: Sharp Consultancy - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-2055573
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -179,18 +203,6 @@ company: Sharp Consultancy - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2043404
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller/Accounts Assistant
-company: Shillito Group - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1881566
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -311,30 +323,6 @@ company: Prince Edward Primary School
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-and-administrator-adcd5f34-cc20-45ec-9a96-1d35515bc466
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist and Administrator – (52 or 42 weeks considered)
-company: Sheffield Park Academy
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-and-administrator-52-or-42-weeks-considered
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment Account Coordinator
-company: Staffline Recruitment Limited - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-1899397
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

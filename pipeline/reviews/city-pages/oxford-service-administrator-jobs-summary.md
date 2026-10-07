@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 10
-- automatic exclude: 16
+- automatic review: 12
+- automatic exclude: 20
 - effective include: 5
-- effective review: 10
-- effective exclude: 16
+- effective review: 12
+- effective exclude: 20
 
 ## INCLUDE (5)
 
@@ -84,7 +84,31 @@ job_id: jobg8-2074696
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (10)
+## REVIEW (12)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Administrator - Part time
+company: PLANET RECRUITMENT SERVICES LTD - Agency - Permanent
+location: Witney
+source: JobG8
+job_id: jobg8-2062620
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Activities Coordinator
+company: Care UK - Company - Permanent
+location: Wantage
+source: JobG8
+job_id: jobg8-108061032
+reason: No approved Oxford catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -162,11 +186,11 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Finance Officer
-company: Robert Half Limited - Agency - Temporary
-location: Wantage
+title: Bookkeeper/ Management Accountant
+company: hireful. - Agency - Permanent
+location: Henley-On-Thames
 source: JobG8
-job_id: jobg8-108072593
+job_id: jobg8-2067155
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -174,11 +198,11 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Legal Assistant - Conveyancing
-company: Berry Recruitment - Agency - Permanent
+title: Finance Officer
+company: Robert Half - Agency - Permanent
 location: Wantage
 source: JobG8
-job_id: jobg8-1895931
+job_id: jobg8-2062741
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -206,7 +230,7 @@ job_id: teaching-vacancies-receptionist-edf1f45d-c1c2-4efe-8319-033977840917
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (16)
+## EXCLUDE (20)
 
 ---
 action: 
@@ -248,6 +272,30 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Bookkeeper (AAT Qualified or Equivalent)
+company: Ernest Gordon Recruitment - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-108070754
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Bookkeeper (AAT Qualified or Equivalent)
+company: Ernest Gordon Recruitment Limited - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-2060274
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Conveyancing Paralegal
 company: Reed - Agency - Permanent
 location: Oxfordshire
@@ -272,11 +320,47 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Digital Marketing Executive, Meta Ads, Google Ads, Oxford, COR7681
-company: Corriculo Ltd - Agency - Permanent
+title: Credit Controller
+company: Robert Half - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-1883696
+job_id: jobg8-2067685
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: E-Commerce Marketing Executive
+company: Robert Half - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-2059348
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Administrator
+company: The Employment Network - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-2074295
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant
+company: Robert Half - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-2067903
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -332,11 +416,11 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Payroll Administrator
-company: Portfolio Payroll - Agency - Permanent
+title: Nature Opportunities Engagement Associate
+company: Global Canopy - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-1886004
+job_id: jobg8-2085352
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -344,11 +428,11 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Procurement Administrator
-company: Orion Electrotech Sales - Agency - Permanent
+title: Payroll Officer (Part Time)
+company: Michael Page Finance - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-108063457
+job_id: jobg8-2060717
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -356,11 +440,11 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Recruitment Marketing Specialist
-company: Michael Page Marketing - Agency - Permanent
+title: Practice Bookkeeper / Management Accountant
+company: RD Financial Recruitment - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-2062398
+job_id: jobg8-2052886
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -373,18 +457,6 @@ company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-2055389
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales Administrator
-company: The Recruitment Group - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-107946842
 reason: Broad county location; not Oxford-city evidence.
 ---
 

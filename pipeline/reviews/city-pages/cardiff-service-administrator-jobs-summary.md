@@ -76,6 +76,18 @@ reason: Approved conservative Cardiff launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Credit Controller
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-2078303
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Customer Service Advisor
 company: EE - Company - Permanent
 location: Cardiff
@@ -88,11 +100,11 @@ reason: Approved conservative Cardiff launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Family Paralegal
-company: Acorn by Synergie - Agency - Permanent
+title: Finance Assistant
+company: Yolk Recruitment Ltd - Agency - Permanent
 location: Cardiff
 source: JobG8
-job_id: jobg8-1885929
+job_id: jobg8-2057385
 reason: Approved conservative Cardiff launch catchment.
 ---
 
@@ -105,18 +117,6 @@ company: Hoop Recruitment - Agency - Permanent
 location: Cardiff
 source: JobG8
 job_id: jobg8-2077381
-reason: Approved conservative Cardiff launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Planner and Scheduler - Taffs Well
-company: PHS Group Limited - Company - Permanent
-location: Cardiff
-source: JobG8
-job_id: jobg8-2045376
 reason: Approved conservative Cardiff launch catchment.
 ---
 

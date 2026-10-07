@@ -16,25 +16,13 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 22
+- automatic review: 31
 - automatic exclude: 0
 - effective include: 5
-- effective review: 22
+- effective review: 31
 - effective exclude: 0
 
 ## INCLUDE (5)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Administrator
-company: BRELLIS RECRUITMENT LIMITED - Agency - Permanent
-location: Warwick
-source: JobG8
-job_id: jobg8-1881935
-reason: Exact approved Warwick workplace.
----
 
 ---
 action: 
@@ -84,7 +72,43 @@ job_id: jobg8-2074203
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (22)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Purchase Ledger Assistant
+company: Marc Daniels - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-1978377
+reason: Exact approved Warwick workplace.
+---
+
+## REVIEW (31)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: AD Finance - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2055969
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Addington Ball Recruitment Ltd - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2065903
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -107,6 +131,30 @@ company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-2049443
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable Assistant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-2062212
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Activities & Coaching Operations Coordinator
+company: Riding for the Disabled Association (RDA) - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2085330
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -210,11 +258,47 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Credit Controller
+company: SF Partners - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2057919
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: EXAMS OFFICER, BARR’S HILL SCHOOL
 company: Barr's Hill School
 location: Coventry
 source: Teaching Vacancies
 job_id: teaching-vacancies-exams-officer-barr-s-hill-school
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Seymour John - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2055814
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Graduate Paralegal - Public Family / Care
+company: Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent
+location: Leamington Spa
+source: JobG8
+job_id: jobg8-2065053
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -234,11 +318,11 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: PA to Principal
-company: The Queen Elizabeth Academy
-location: Atherstone
-source: Teaching Vacancies
-job_id: teaching-vacancies-pa-to-principal-the-queen-elizabeth-academy-atherstone-warwickshire
+title: Part time Bookkeeper
+company: Four Squared - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2076444
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -246,11 +330,11 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Part Time Website Content Coordinator
-company: THE RECRUITMENT DUO - Agency - Permanent
+title: Payroll Officer
+company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
 location: Coventry
 source: JobG8
-job_id: jobg8-1916346
+job_id: jobg8-2056891
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -275,6 +359,18 @@ company: The Eventus Recruitment Group - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-2059104
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Clerk
+company: SF Partners - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-2076932
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -347,6 +443,18 @@ company: Perfect Placement Uk Ltd - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-1912273
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Wills & Probate Paralegal
+company: The Eventus Recruitment Group - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2063048
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
