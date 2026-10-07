@@ -1,6 +1,6 @@
 # Service-admin manual review
 
-feed_date: 2026-10-06
+feed_date: 2026-10-07
 
 Edit only the `action:` line in each block:
 
@@ -1067,12 +1067,6 @@ job_id: 2051266
 
 ---
 action:
-SELECTED | London | Southall | £100 - £120 per daily [JobG8 salary fields] | Administrator
-job_id: 2045956
----
-
----
-action:
 SELECTED | London | London | £35000 - £42000 per year [JobG8 salary fields] | Air Freight Coordinator
 job_id: 2045895
 ---
@@ -1207,12 +1201,6 @@ job_id: 2067651
 action:
 SELECTED | London | London | £37000 per year [JobG8 salary fields] | Training Contract Paralegal (12 Month FTC)
 job_id: 2067519
----
-
----
-action:
-SELECTED | London | London | £30000 - £35000 per year [JobG8 salary fields] | Bookkeeper
-job_id: 2067472
 ---
 
 ---
@@ -1411,6 +1399,18 @@ job_id: 2077083
 action:
 SELECTED | London | London | £32000 - £36000 per year [JobG8 salary fields] | Assistant Financial Administrator
 job_id: 2077036
+---
+
+---
+action:
+SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Qualifications Administrator
+job_id: 2085292
+---
+
+---
+action:
+SELECTED | London | London | £32,888 per annum [extracted from description] | Rape Survivors Independent Legal Advice - Paralegal
+job_id: 2085253
 ---
 
 ## LONDON — POSSIBLES
@@ -2119,12 +2119,6 @@ job_id: 2074019
 
 ---
 action:
-SELECTED | Kent | Kent | no salary in JobG8 salary fields; no supported salary amount found in description | Finance and Business Support Officer
-job_id: 2078986
----
-
----
-action:
 SELECTED | Kent | Kent | £28701 per year [JobG8 salary fields] | MAF in the Community (MiC) Resourcing Coordinator
 job_id: 107958419
 ---
@@ -2368,12 +2362,6 @@ job_id: 1916611
 
 ---
 action:
-SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire |  | Part Time Website Content Coordinator
-job_id: 1916346
----
-
----
-action:
 SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire |  | Conveyancing Paralegal
 job_id: 1915624
 ---
@@ -2510,6 +2498,12 @@ SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire | £30000 per 
 job_id: 2076444
 ---
 
+---
+action:
+SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire |  | Activities & Coaching Operations Coordinator
+job_id: 2085330
+---
+
 ## COVENTRY & WARWICKSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -2537,12 +2531,6 @@ job_id: 1916041
 action:
 SELECTED | Bedfordshire | Bedfordshire |  | Partnership Coordinator
 job_id: 1981044
----
-
----
-action:
-SELECTED | Bedfordshire | Bedfordshire |  | Data Administrator (Guidance & Education System)
-job_id: 1981043
 ---
 
 ---
@@ -3815,12 +3803,6 @@ job_id: 2067497
 
 ---
 action:
-SELECTED | Essex | Essex | £14 per hour | Payroll Administrator
-job_id: 107954174
----
-
----
-action:
 SELECTED | Essex | Essex |  | Private Client Fee Earner/ Paralegal - Flexible Working
 job_id: 1938449
 ---
@@ -4191,6 +4173,12 @@ SELECTED | Essex | Essex |  | Procurement Assistant
 job_id: 23643_225692166
 ---
 
+---
+action:
+SELECTED | Essex | Essex | £14 per hour | Payroll Administrator
+job_id: 107954174
+---
+
 ## ESSEX — POSSIBLES
 
 ---
@@ -4315,6 +4303,30 @@ SELECTED | Gloucestershire | Gloucestershire | £28000 per year | Product Suppor
 job_id: 108074035
 ---
 
+---
+action:
+SELECTED | Gloucestershire | Gloucestershire | £26000 per year | Care Coordinator
+job_id: 108064325
+---
+
+---
+action:
+SELECTED | Gloucestershire | Gloucestershire | £26000 per year | Care Coordinator
+job_id: 108064328
+---
+
+---
+action:
+SELECTED | Gloucestershire | Gloucestershire | £12.71 per hour | Customer Service Advisor
+job_id: 23643_225503952
+---
+
+---
+action:
+SELECTED | Gloucestershire | Gloucestershire | £32000 per year | Salesforce Administrator
+job_id: 2085791
+---
+
 ## GLOUCESTERSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -4355,6 +4367,12 @@ job_id: 1948428
 action:
 SELECTED | Greater Manchester - Manchester & Salford | Manchester | £35000 per year | Personal Injury Claims Handler - EL/PL
 job_id: 1981999
+---
+
+---
+action:
+SELECTED | Greater Manchester - Manchester & Salford | Manchester | £17.00 per hour | Bookkeeper -Temp to Perm - Manchester
+job_id: 1980791
 ---
 
 ---
@@ -4463,6 +4481,12 @@ job_id: 2077885
 action:
 SELECTED | Greater Manchester - Manchester & Salford | Manchester | £105 - £115 per daily | Finance Assistant - Sale
 job_id: 2082676
+---
+
+---
+action:
+SELECTED | Greater Manchester - Manchester & Salford | Manchester |  | Governance and Administration Coordinator
+job_id: 2085283
 ---
 
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — POSSIBLES
@@ -4623,6 +4647,12 @@ job_id: 1946264
 action:
 SELECTED | Hertfordshire | Hertfordshire |  | BMW Service Advisor
 job_id: 1915618
+---
+
+---
+action:
+SELECTED | Hertfordshire | Hertfordshire | £45000 per year | Service Advisor
+job_id: 1909843
 ---
 
 ---
@@ -4949,12 +4979,6 @@ job_id: 2024723
 
 ---
 action:
-SELECTED | Lincolnshire | Sleaford | £14.13 per hour | Activities Coordinator
-job_id: 107728855
----
-
----
-action:
 SELECTED | Lincolnshire | Lincolnshire |  | Community Administrator - Oasis Hub South Grimsby
 job_id: 2028819
 ---
@@ -4981,6 +5005,12 @@ job_id: 2050226
 action:
 SELECTED | Lincolnshire | Lincolnshire |  | Bookkeeper - Practice
 job_id: 2060743
+---
+
+---
+action:
+SELECTED | Lincolnshire | Sleaford | £14.13 per hour | Activities Coordinator
+job_id: 107728855
 ---
 
 ## LINCOLNSHIRE — POSSIBLES
@@ -5251,6 +5281,12 @@ SELECTED | North Scotland | Inverness |  | Bookkeeper
 job_id: 2063984
 ---
 
+---
+action:
+SELECTED | North Scotland | Inverness |  | Bookkeeper
+job_id: 108073904
+---
+
 ## NORTH SCOTLAND — POSSIBLES
 
 _No jobs in this group._
@@ -5461,6 +5497,12 @@ SELECTED | Nottinghamshire | Nottinghamshire |  | Recruitment Coordinator
 job_id: 2079188
 ---
 
+---
+action:
+SELECTED | Nottinghamshire | Nottinghamshire | £32,578 per annum | Financial Administrator
+job_id: 2085332
+---
+
 ## NOTTINGHAMSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -5561,12 +5603,6 @@ job_id: 108062084
 action:
 SELECTED | Oxfordshire | Oxfordshire | £30000 - £38000 per year | Service Advisor
 job_id: 2074696
----
-
----
-action:
-SELECTED | Oxfordshire | Oxfordshire | £34999 per year | Procurement Administrator
-job_id: 108063457
 ---
 
 ---
@@ -5823,12 +5859,6 @@ job_id: 2055734
 action:
 SELECTED | Somerset | Somerset | £14 - £16 per hour | Temp HR Administrator
 job_id: 108075321
----
-
----
-action:
-SELECTED | Somerset | Somerset | £17.16 per hour | Materials Procurement Coordinator
-job_id: 108061932
 ---
 
 ---
@@ -6561,12 +6591,6 @@ job_id: 107921669
 
 ---
 action:
-SELECTED | Wiltshire | Wiltshire | £30000 per year | HR Administrator
-job_id: 1961301
----
-
----
-action:
 SELECTED | Wiltshire | Wiltshire |  | Sales Administrator/Negotiator
 job_id: 1959445
 ---
@@ -6851,12 +6875,6 @@ job_id: 2065406
 
 ---
 action:
-SELECTED | Yorkshire - North | Catterick Garrison | £29000 per year | Credit Controller
-job_id: 108061850
----
-
----
-action:
 SELECTED | Yorkshire - North | Northallerton |  | Litigation Legal Assistant
 job_id: 2075662
 ---
@@ -6871,12 +6889,6 @@ job_id: 2077875
 action:
 SELECTED | Yorkshire - North | York | £12.71 - £14.00 per hour | Legal Administrator
 job_id: 2076479
----
-
----
-action:
-SELECTED | Yorkshire - North | York |  | Programme & Team Administrator
-job_id: 2078950
 ---
 
 ## YORKSHIRE - NORTH — POSSIBLES

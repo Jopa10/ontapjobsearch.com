@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-10-06
+feed_date: 2026-10-07
 
 Edit only the `action:` line in each block:
 
@@ -267,6 +267,18 @@ job_id: 1401785693
 action:
 SELECTED | Hampshire | Tadley | £25,845 per annum | Support Worker
 job_id: 264760722998480076837340
+---
+
+---
+action:
+SELECTED | Hampshire | Winchester | £28697 - £31573 per year | Support Worker (Adults)
+job_id: 1401785731
+---
+
+---
+action:
+SELECTED | Hampshire | Romsey | £28697 - £31573 per year (), plus Market Supplement of £3,000 pro-rata, per annum) | Children's Homes Support Worker
+job_id: 1401785691
 ---
 
 ## HAMPSHIRE — POSSIBLES
@@ -627,6 +639,12 @@ job_id: 223985114380081561637340
 action:
 SELECTED | Surrey | Woking | £25,845 per annum | Support worker
 job_id: 667139317713338368037340
+---
+
+---
+action:
+SELECTED | Surrey | Woking | £28,325 per annum | Crisis Prevention Support Worker
+job_id: 2085364
 ---
 
 ## SURREY — POSSIBLES
