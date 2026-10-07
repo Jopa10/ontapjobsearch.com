@@ -2,11 +2,11 @@
 
 review_date: 2026-10-07
 
-- Open Administrative & Clerical rows reviewed: 2282
+- Open Administrative & Clerical rows reviewed: 2281
 - Auto/remembered selected: 418
 - Selected HC Tier A: 222
 - Selected HC Tier B: 196
-- POSS awaiting decision: 1749
+- POSS awaiting decision: 1748
 - Excluded: 0
 - HARD_PASS: 115
 
@@ -12682,18 +12682,6 @@ region: Lancashire - Central
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1003-26-0007
 factual_fingerprint: 505d8c3c6674a16bc88b184ecc9b62383c7353600398ba9517b792738e8a7480
----
-
----
-action:
-POSS | NHS Jobs | West Midlands - Birmingham & Solihull | Birmingham, B13 8JL | £25272.00 | Band 2 Ward Clerk
-source_job_id: 5630430
-title: Band 2 Ward Clerk
-employer: Birmingham Community Healthcare NHS FT
-region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9820-26-0681
-factual_fingerprint: e7bb1568113cec1f817afd9ae87eaf6aa3ccfd356a4f30c9f92a510653533851
 ---
 
 ---
