@@ -4,7 +4,7 @@
 > Do not start reviewing yet. Rebuild this review after those source refreshes complete.
 
 review_date: 2026-10-07
-generated_at: 2026-10-07T08:17:14+00:00
+generated_at: 2026-10-07T09:09:27+00:00
 
 **48 job(s) need a human decision.**
 
@@ -266,7 +266,7 @@ hub_fingerprint: 6d616c977068f617bde76e9b16e8f0ed461ce6b4455a0143cc74cb9a49529d5
 ---
 
 ---
-action exclude
+action:
 POSS | JobG8 | Essex | Essex | £40000 - £55000 per year | Bookkeeper
 source_key: jobg8
 source: JobG8
@@ -410,7 +410,7 @@ hub_fingerprint: 665dbebf87bd079a13fe555ea923f91d5592e034d8bc96947196cdc0d0d530e
 ---
 
 ---
-action select
+action:
 POSS | JobG8 | Hampshire | Hampshire | £17.95-£20.51 per hour | Bookkeeper
 source_key: jobg8
 source: JobG8
