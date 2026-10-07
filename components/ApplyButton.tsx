@@ -1,5 +1,6 @@
 "use client";
 
+import { sessionReferralForApplyClick } from "@/lib/session-referral";
 import {
   buildApplyClickParameters,
   type ApplyClickDetails,
@@ -36,7 +37,8 @@ export default function ApplyButton({
             slice_path,
           },
           window.location.pathname
-        )
+        ),
+        sessionReferralForApplyClick(sessionStorage, document.referrer, window.location.search)
       );
     }
   };
