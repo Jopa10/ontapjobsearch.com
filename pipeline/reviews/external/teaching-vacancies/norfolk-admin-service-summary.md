@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-10-06
-review_fingerprint: 1192b0370674978a896d765aba42e314360d8a6bc16586f3ae625acc0ebcaf91
-routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
+review_date: 2026-10-07
+review_fingerprint: 01ebd3d7ee51c84896f6484c96dc823e57eb53b068fc06567b0f27faeacf6ddb
+routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 7
-- POSS awaiting decision: 1
+- Records: 8
+- Selected: 5
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
 
@@ -49,21 +49,6 @@ factual_fingerprint: 31f5ed28fcb06609b37aee84cb345475fdb2b91e3da42ea0bc15dc8607a
 source: Teaching Vacancies
 source_job_id: administration-assistant-great-yarmouth-primary-academy-and-nursery
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-great-yarmouth-primary-academy-and-nursery
----
-
----
-action: 
-SELECTED | Norfolk | Thetford, East of England, IP24 1EB | £24,854 to £26,492 actual pa | Administration Assistant with Attendance Officer responsibilities
-employer: The Bishop's Church of England Primary Academy
-closing_date: 2026-10-07T01:00:00+01:00
-reason: Clear admin/service title: attendance officer, administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 76e90675e5128c776b7d4dcc8463c2af89718c32437a1e3c02771dd24e87e378
-source: Teaching Vacancies
-source_job_id: administration-assistant-with-attendance-officer-responsibilities
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-with-attendance-officer-responsibilities
 ---
 
 ---
@@ -111,37 +96,9 @@ source_job_id: attendance-officer-flegg-high-ormiston-academy-great-yarmouth-nor
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-flegg-high-ormiston-academy-great-yarmouth-norfolk
 ---
 
----
-action: 
-SELECTED | Norfolk | Thetford, East of England, IP24 1EB | £18,974 to £19,271 actual pa | School Secretary
-employer: The Bishop's Church of England Primary Academy
-closing_date: 2026-10-07T01:00:00+01:00
-reason: Clear admin/service title: school secretary, secretary
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 33aeb0b294a385e49f987a331fffbbb2b9fdaf61f66bbd3237b9d55ce3acd67a
-source: Teaching Vacancies
-source_job_id: school-secretary-the-bishop-s-church-of-england-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-secretary-the-bishop-s-church-of-england-primary-academy
----
-
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Norfolk | Norwich, East of England, NR10 3PX | £13.69 per hour | Clerical Assistant
-employer: Spixworth Infant School
-closing_date: 2026-10-07T01:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 43ea3c295a7d620f5774983f72539c48b6f10b10ffc2373385a3da6ffa19c3df
-source: Teaching Vacancies
-source_job_id: clerical-assistant-spixworth-infant-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-spixworth-infant-school
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

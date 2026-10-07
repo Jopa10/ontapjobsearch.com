@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Gloucestershire
 
-review_date: 2026-10-06
-review_fingerprint: e250e11754ccfc0439eb59de14ca2cee5f6f75300f32a0ad812f7675ca192dbc
-routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
+review_date: 2026-10-07
+review_fingerprint: 5e7766cd3a1a10c3fe34b11049c448064d1b2f9df7ec0cd5b13fab7315adccb2
+routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
 ontap_region: Gloucestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
-- Selected: 1
+- Records: 3
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 0
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Gloucestershire | Gloucester, South West, GL4 6RN | £28,608.00 - £31,525.00 Annually (FTE) | Lead Administrator with Reception Duties
+employer: Gloucester Academy
+closing_date: 2026-10-20T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ca11eeef85b87e24010a66b29cfc6cb75ecddaf43468db1b91d6af5fdef7a4b3
+source: Teaching Vacancies
+source_job_id: lead-administrator-with-reception-duties
+source_url: https://teaching-vacancies.service.gov.uk/jobs/lead-administrator-with-reception-duties
+---
 
 ---
 action: 

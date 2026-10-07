@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - East
 
-review_date: 2026-10-06
-review_fingerprint: 14428fe4020843d0db1dc9afe0dff24ba18b2dfeb7b043f0c0e1a15702bbdb02
-routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
+review_date: 2026-10-07
+review_fingerprint: d718dd00611f80214c30cbc72a845abc96ae5ee879a0c018ba13db2f76fe894f
+routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
 ontap_region: Lancashire - East
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 5
 - Selected: 1
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 3
 
@@ -38,7 +38,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-and-admissions
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Lancashire - East | Nelson, North West, BB9 0PR | £29,130.00 Annually (Actual) | Operations Officer
+employer: Marsden Heights Community College
+closing_date: 2026-10-18T23:59:00+01:00
+reason: Borderline school administration title: operations officer
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 1310e15883e093a301dd8ababc47a4358c873c9843754b3fb4c5882861967176
+source: Teaching Vacancies
+source_job_id: operations-officer-marsden-heights-community-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-marsden-heights-community-college
+---
 
 ## EXCLUDED BY REVIEW
 

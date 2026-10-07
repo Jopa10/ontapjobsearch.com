@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — South West
 
-review_date: 2026-10-06
-review_fingerprint: c96a2045b24ca68b8ee8ae61741144b92fca65e0d61e2f54c2f350114f817e77
-routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
+review_date: 2026-10-07
+review_fingerprint: b458fa36783ca8237639207fef6f28edf2f16d6b85f12fbd2171d812a84156cd
+routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
 ontap_region: South West
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
-- Selected: 1
+- Records: 5
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
+
+---
+action: 
+SELECTED | South West | Berkeley, South West, GL13 9FB | Up to £26,427 FTE | Receptionist and Administration Assistant
+employer: SGS Berkeley Green UTC
+closing_date: 2026-10-30T09:00:00+00:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: ac3891d608d3d52241ae28b7fc58019985c17fb427818c6de339920e747505a9
+source: Teaching Vacancies
+source_job_id: receptionist-and-administration-assistant-sgs-berkeley-green-utc-berkeley-gloucestershire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administration-assistant-sgs-berkeley-green-utc-berkeley-gloucestershire
+---
 
 ---
 action: 
@@ -46,6 +61,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## HARD_PASS
 
+- [Family Liaison Worker](https://teaching-vacancies.service.gov.uk/jobs/family-liaison-worker-doubletrees-school) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-torpoint-community-college) — Manager title salary ceiling £56,293 is not below £28,000.
 - [Year Leader ( Non Teaching)](https://teaching-vacancies.service.gov.uk/jobs/year-leader-non-teaching-the-wellington-academy) — Insufficient admin/service evidence.
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-10-06
+review_date: 2026-10-07
 review_fingerprint: b3e8608bb7ec1ceb7c0ab79563bcfffcad17c364c269389c829ceafba80e4b4c
-routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
+routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 4
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -48,6 +48,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-chipping-sodbury-school) — Insufficient admin/service evidence.
 - [Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/lettings-assistant-oasis-academy-john-williams) — Insufficient admin/service evidence.
+- [Systems Developer](https://teaching-vacancies.service.gov.uk/jobs/systems-developer-cabot-learning-federation) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-10-06
-review_fingerprint: 61c1c3a8e562e3bd0f4b8b659d96078ae7b4e67d8d3cc960181292c77cfc573e
-routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
+review_date: 2026-10-07
+review_fingerprint: 72685601e17aab507c27c7d2aedbc504fee24f4d26a131f3c2a39440853f0c9b
+routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 4
+- Records: 15
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 9
@@ -68,6 +68,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ---
 action: 
+SELECTED | Leicestershire | Loughborough, East Midlands, LE11 3BY | £21,068.00 - £21,883.00 Annually (Actual) | School Administrator
+employer: Loughborough Church of England Primary School
+closing_date: 2026-10-26T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 87f4dc9aee150ca3426087da06ec88f61a3e502562ead91187d2f0be1314938d
+source: Teaching Vacancies
+source_job_id: school-administrator-loughborough-church-of-england-primary-school-loughborough-leicestershire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-loughborough-church-of-england-primary-school-loughborough-leicestershire
+---
+
+---
+action: 
 SELECTED | Leicestershire | Leicester, East Midlands, LE2 6UA | £22,693.00 - £23,049.00 Annually (Actual) | Student Services Administrator
 employer: Tudor Grange Samworth Academy, A church of England School
 closing_date: 2026-10-23T12:00:00+01:00
@@ -110,8 +125,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-pensions-and-
 - [Office Manager (BAD31BC)](https://teaching-vacancies.service.gov.uk/jobs/office-manager-bad31bc) — Manager title salary ceiling £35,493 is not below £28,000.
 - [Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-discovery-schools-academies-trust-ltd) — Insufficient admin/service evidence.
 - [People Admin Team Leader](https://teaching-vacancies.service.gov.uk/jobs/people-admin-team-leader) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-sutton-bonington-primary-school) — Manager title salary ceiling £34,811 is not below £28,000.
 - [School Business Manager ( Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-maternity-cover-keyham-lodge-school) — Manager title salary ceiling £44,109 is not below £28,000.
-- [School Office and SENDO Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-office-and-sendo-administration-assistant) — Insufficient admin/service evidence.
 - [Student Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/student-recruitment-officer) — Insufficient admin/service evidence.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-10-06
-review_fingerprint: 474fee493de31f7a7e8bf2af8930b7a1b6edf675ffaa4d3866dbe9af8c559502
-routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
+review_date: 2026-10-07
+review_fingerprint: b9b0a620ccea2b1babe95ca6948eb05aa40ad70759f6d29bf2fb1d3323d016ec
+routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 6
+- Records: 11
+- Selected: 9
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
@@ -53,6 +53,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-holle
 
 ---
 action: 
+SELECTED | Suffolk | Ipswich, East of England, IP1 6EF | £26,016.00 - £26,847.00 Annually (FTE) | Admin Assistant
+employer: St Pancras Catholic Primary School
+closing_date: 2026-10-20T23:59:00+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: df1b4757f312826262350ff9a2181d94acdcd6f52027ef8a539c0dfed98603fc
+source: Teaching Vacancies
+source_job_id: admin-assistant-st-pancras-catholic-primary-school-ipswich-suffolk
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-st-pancras-catholic-primary-school-ipswich-suffolk
+---
+
+---
+action: 
 SELECTED | Suffolk | Woodbridge, East of England, IP12 4QL | £25,614.00 Annually (FTE) Grade 2, Point 3 | Admin Assistant
 employer: Waldringfield Primary School
 closing_date: 2026-10-09T23:59:00+01:00
@@ -64,6 +79,21 @@ factual_fingerprint: 7ca249e18f059c9632d366584b38d805dceb3e3f4eb6ed738d2d33261d8
 source: Teaching Vacancies
 source_job_id: admin-assistant-waldringfield-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-waldringfield-primary-school
+---
+
+---
+action: 
+SELECTED | Suffolk | Bungay, East of England, NR35 1RW | £10,518.00 - £13,147.00 Annually (Actual) | Administration Assistant
+employer: Bungay High School
+closing_date: 2026-10-19T09:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 35835deb87a7ea003206d25dcd58de5deed312d3646c43e74893c30816adcc5f
+source: Teaching Vacancies
+source_job_id: administration-assistant-bungay-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-bungay-high-school
 ---
 
 ---
@@ -94,6 +124,21 @@ factual_fingerprint: 72574526e8db799f83429c7aba133eab043245745f8f2c44024dc8b9078
 source: Teaching Vacancies
 source_job_id: attendance-administrator-alde-valley-academy-leiston-suffolk
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-alde-valley-academy-leiston-suffolk
+---
+
+---
+action: 
+SELECTED | Suffolk | Ipswich, East of England, IP2 8PL | £25,646.00 - £26,920.00 Annually (Actual) | Finance, HR Administrator
+employer: Stoke High School - Ormiston Academy
+closing_date: 2026-10-12T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2cc8ba2ba473fc227094a496912984d81d7f55ba6c084ae5dbf6a3fbc60ea02d
+source: Teaching Vacancies
+source_job_id: finance-hr-administrator-stoke-high-school-ormiston-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-hr-administrator-stoke-high-school-ormiston-academy
 ---
 
 ---

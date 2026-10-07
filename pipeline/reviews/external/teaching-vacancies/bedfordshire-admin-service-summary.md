@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-10-06
-review_fingerprint: b81912c048e62160deaae51db379b6b7cdbf181cb3e787de9c3a3ec60996da4e
-routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
+review_date: 2026-10-07
+review_fingerprint: c0ad323cbf6e46910e328582f28e7a14990d970dd0c347588deefc5f272c7fe4
+routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 7
+- Records: 15
+- Selected: 8
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 6
@@ -124,6 +124,21 @@ factual_fingerprint: b50e6f9223289befb6b68d8cf21fff3c273b505eb7985264511e107c77b
 source: Teaching Vacancies
 source_job_id: receptionist-administrative-assistant-parkfields-middle-school-dunstable-bedfordshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrative-assistant-parkfields-middle-school-dunstable-bedfordshire
+---
+
+---
+action: 
+SELECTED | Bedfordshire | Leighton Buzzard, East of England, LU7 3FU | £23,335.00 - £24,085.00 Annually (Actual) | Reprographics & Admin Assistant
+employer: Gilbert Inglefield Academy
+closing_date: 2026-10-08T09:00:00+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ec911bd305d0498f75f51c2aaea52eb5780466f935c0f5f476cbd7fc7d9598dd
+source: Teaching Vacancies
+source_job_id: reprographics-admin-assistant-gilbert-inglefield-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/reprographics-admin-assistant-gilbert-inglefield-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE

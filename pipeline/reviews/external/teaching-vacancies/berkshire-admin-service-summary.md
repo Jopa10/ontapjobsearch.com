@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-10-06
-review_fingerprint: 5fae96b0f5ce65fd491186017dd2764f302052b468d5665ee981f54dcda0185e
-routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
+review_date: 2026-10-07
+review_fingerprint: 870bb53e2631fd51ecf2baec07eea54d23e34963b810c24ef0c0179634de2f4a
+routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 16
-- Selected: 6
+- Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 8
 
 ## SELECTED
 
@@ -68,21 +68,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-administrator-k
 
 ---
 action: 
-SELECTED | Berkshire | Maidenhead, South East, SL6 7NQ | £16,473.00 - £16,735.00 Annually (Actual) Actual salary based on 25 hours per week | Medical Office Assistant
-employer: Furze Platt Senior School
-closing_date: 2026-10-12T09:00:00+01:00
-reason: Clear admin/service title: office assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 49a51f904dcbe93ff1ca6417bd35cfbc4962190adb1151855e530d76e024d740
-source: Teaching Vacancies
-source_job_id: medical-office-assistant
-source_url: https://teaching-vacancies.service.gov.uk/jobs/medical-office-assistant
----
-
----
-action: 
 SELECTED | Berkshire | Reading, South East, RG7 3XJ | Between £29,071 and £33,119 | Personal Assistant to the Headteacher
 employer: The Willink School
 closing_date: 2026-10-16T12:00:00+01:00
@@ -94,6 +79,36 @@ factual_fingerprint: 1f7fa1443f5f5cbcd20d0d523cd952e67a0ea7afea83acafb6bdd1ffeff
 source: Teaching Vacancies
 source_job_id: personal-assistant-to-the-headteacher-the-willink-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-headteacher-the-willink-school
+---
+
+---
+action: 
+SELECTED | Berkshire | Thatcham, South East, RG19 4LL | £22,105.00 - £22,808.00 Annually (Actual) | School Administrator
+employer: Kennet School
+closing_date: 2026-10-30T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f4d4bb9a6bbd5f4561306644f5a9392377833e80519dd731e1f89f424411d82f
+source: Teaching Vacancies
+source_job_id: school-administrator-kennet-school-thatcham-berkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-kennet-school-thatcham-berkshire
+---
+
+---
+action: 
+SELECTED | Berkshire | Thatcham, South East, RG19 4LL | £19,417.00 - £20,034.00 Annually (Actual) | School Administrator (Cover)
+employer: Kennet School
+closing_date: 2026-10-30T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2126c2b596cbbeadccc53503bc4947665426f9a15e3132b7d9422ed67f7bb17c
+source: Teaching Vacancies
+source_job_id: school-administrator-cover
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-cover
 ---
 
 ---
@@ -142,7 +157,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-finance-assist
 - [Receptionist & Admin Assistant - Katesgrove Primary School](https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-katesgrove-primary-school-katesgrove-primary-school) — Missing salary or pay scale.
 - [School Development Officer](https://teaching-vacancies.service.gov.uk/jobs/school-development-officer) — Insufficient admin/service evidence.
 - [School Solicitor](https://teaching-vacancies.service.gov.uk/jobs/school-solicitor) — Insufficient admin/service evidence.
-- [Supportive UCAS Manager](https://teaching-vacancies.service.gov.uk/jobs/supportive-ucas-manager) — Manager title salary ceiling £29,542 is not below £28,000.
 
 ## Safety boundary
 

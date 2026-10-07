@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-10-06
-review_fingerprint: da87716a5a6c004836e59288a88a76f579a40dd6959e1988dd45f567e156f9b2
-routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
+review_date: 2026-10-07
+review_fingerprint: bf28c0bb042de0830cb37b1f696857ff58e4f3be73c2fc65c11128f7e900313b
+routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 3
+- Records: 6
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 2
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Derbyshire | Swadlincote, East Midlands, DE11 0QA | £26,427.00 - £27,274.00 Annually (FTE) Actual Salary: £22,832 - £23,563 | Administration Assistant (Full and Part time post available)
+employer: The Pingle Academy
+closing_date: 2026-10-16T09:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c1f4a969706ca531758499d2c57dcd5bc1c409114bda4f634b36a9a4ca9e1c08
+source: Teaching Vacancies
+source_job_id: administration-assistant-full-and-part-time-post-available
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-full-and-part-time-post-available
+---
 
 ---
 action: 
@@ -76,6 +91,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-school-b
 
 ## HARD_PASS
 
+- [Exams and Assessment Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-and-assessment-officer-outwood-academy-hasland-hall) — Insufficient admin/service evidence.
 - [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-baa22bb2-6d0c-44b2-88f2-02e91a0e297e) — Insufficient admin/service evidence.
 
 ## Safety boundary

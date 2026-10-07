@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-10-06
-review_fingerprint: 98775f7bb04e72538b48e3c40d55ed0a9a5ca0fa640d1107058ab19805e6e2c1
-routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
+review_date: 2026-10-07
+review_fingerprint: 3ae3989e27b33ee14eaaf0dfad7c682442ea00861bd818c613b7c84c50652b5c
+routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 32
-- Selected: 10
+- Records: 37
+- Selected: 13
 - POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 17
+- Hard pass: 19
 
 ## SELECTED
 
@@ -83,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+SELECTED | Yorkshire - West | Halifax, Yorkshire and the Humber, HX2 9SU | £22,111.00 - £22,462.00 Annually (Actual) NJC Scale3 Points 5-6 (3.3% pay award pending) | Apprentice Business Support Administrator
+employer: The North Halifax Grammar School
+closing_date: 2026-10-30T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 27e84ecae8f97fe46f9f971042256c54223e378679aafbc7af2fbbea87863dc4
+source: Teaching Vacancies
+source_job_id: apprentice-business-support-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-business-support-administrator
+---
+
+---
+action: 
 SELECTED | Yorkshire - West | Halifax, Yorkshire and the Humber, HX2 9SU | £25,578.00 - £30,141.00 Annually (Actual) Term time plus 10 days (to be worked over the exam results period) | Data Administrator
 employer: The North Halifax Grammar School
 closing_date: 2026-10-07T23:59:00+01:00
@@ -128,6 +143,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-bradfor
 
 ---
 action: 
+SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS13 1DQ | £26,016.00 - £26,846.00 Annually (Actual) | General Administrator
+employer: Leeds West Academy
+closing_date: 2026-10-19T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 9ed1fa866b39baefd55a4314f8249bcb5b7be271ca3f7a3c8c3dca022bbd0911
+source: Teaching Vacancies
+source_job_id: general-administrator-leeds-west-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/general-administrator-leeds-west-academy
+---
+
+---
+action: 
 SELECTED | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD5 8AE | £30,574 to £32,108 | Leadership Team Administrator (Hybrid)
 employer: Moldgreen Community Primary School
 closing_date: 2026-10-14T12:00:00+01:00
@@ -154,6 +184,21 @@ factual_fingerprint: 31e383b781a20302e34e83d5157446caa92379778f8d3c79d3254bec73d
 source: Teaching Vacancies
 source_job_id: school-administrator-castleton-primary-school-leeds-west-yorkshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-castleton-primary-school-leeds-west-yorkshire
+---
+
+---
+action: 
+SELECTED | Yorkshire - West | Halifax, Yorkshire and the Humber, HX2 9SU | £28,912.00 - £30,894.00 Annually (Actual) NJC Scale 6 Points 18 - 22 (3.3 % pay award pending) | Senior Business Support Administrator
+employer: The North Halifax Grammar School
+closing_date: 2026-10-30T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 8349b0893524a3700e9838e60568edbe416599e7629ffe4e176df5f9541a6674
+source: Teaching Vacancies
+source_job_id: senior-business-support-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-business-support-administrator
 ---
 
 ---
@@ -254,6 +299,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-support-officer-7
 
 ## HARD_PASS
 
+- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-wakefield-snapethorpe-primary-school-wakefield) — Insufficient admin/service evidence.
 - [Administration Officer (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-maternity-cover-honley-high-school) — Missing salary or pay scale.
 - [Attendance and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-officer-st-michael-s-cofe-academy-wakefield-west-yorkshire) — Insufficient admin/service evidence.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-ethos-academy-trust) — Insufficient admin/service evidence.
@@ -263,11 +309,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-support-officer-7
 - [Exam invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-24f8eb7c-b19e-4030-be72-314dfd2ec557) — Insufficient admin/service evidence.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-ossett-academy-and-sixth-form-college) — Insufficient admin/service evidence.
-- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-greengates-primary-academy-bradford-west-yorkshire) — Insufficient admin/service evidence.
+- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the-north-halifax-grammar-school) — Insufficient admin/service evidence.
 - [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-ilkley-grammar-school) — Insufficient admin/service evidence.
 - [Learning Manager](https://teaching-vacancies.service.gov.uk/jobs/learning-manager-31a743da-8519-49fb-99c7-f5afb963c51c) — Manager title salary ceiling £36,581 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-holy-name-catholic-voluntary-academy) — Manager title salary ceiling £32,046 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-weetwood-primary-school-leeds-west-yorkshire) — Manager title salary ceiling £42,123 is not below £28,000.
+- [School Operations Manager - West Yorkshire](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-west-yorkshire) — Manager title salary ceiling £38,221 is not below £28,000.
 - [SEND Administration and Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/send-administration-and-support-assistant) — Insufficient admin/service evidence.
 - [Senior Admin and Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-admin-and-operations-manager) — Manager title salary ceiling £40,444 is not below £28,000.
 - [Senior Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-altofts-junior-academy) — Insufficient admin/service evidence.

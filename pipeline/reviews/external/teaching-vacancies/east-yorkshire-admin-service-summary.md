@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - East
 
-review_date: 2026-10-06
-review_fingerprint: a03a18b5cbc62927996c646d799863c8310ad750a0ce8d9134153e8068e91d6f
-routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
+review_date: 2026-10-07
+review_fingerprint: a4145483b5a7dbb54bd2df9126ae9ac3d23c0b0428697a0242cadf826e469f50
+routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
 ontap_region: Yorkshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -40,17 +40,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ---
 action: 
-POSS | Yorkshire - East | Hull, Yorkshire and the Humber, HU3 1UP | £30,515.00 - £33,119.00 Annually (FTE) Grade F Points 14 to 19 (£30,515 to £33,119 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary for this role starts at £26,362.80 | Data Officer (7483)
-employer: Hull Trinity House Academy
-closing_date: 2026-10-06T23:59:00+01:00
-reason: Borderline school administration title: data officer
+POSS | Yorkshire - East | Hull, HU7 4EY | £26,248 - £27,274 FTE £18,322 - £19,038 Actual | Administration Officer
+employer: Humber Education Trust
+closing_date: 2026-10-19T08:00:59+01:00
+reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 7b590933e8102ca5373320828c0921803d0e7c58c84faf3794819c9f38826ca1
+factual_fingerprint: 5595be49284fdfdbd160ec913a8f08f88d6d855e3182cdac64063e04723067be
 source: Teaching Vacancies
-source_job_id: data-officer-7483
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-7483
+source_job_id: administration-officer-humber-education-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-humber-education-trust
 ---
 
 ## EXCLUDED BY REVIEW

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-10-06
-review_fingerprint: b3517d6f65c0a594cdc840270d02793b53f94fe73a0e47b074e455b1ea6d89e4
-routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
+review_date: 2026-10-07
+review_fingerprint: 8e7e0640ff1691e0e2906a4e1404715ff294ccd84a2484fd90f3d88fed11461b
+routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 21
-- Selected: 7
+- Records: 22
+- Selected: 8
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 11
 
 ## SELECTED
-
----
-action: 
-SELECTED | Nottinghamshire | Mansfield, East Midlands, NG19 7AP | £22,569.72 - £22,569.72 Annually (Actual) pro-rata'd | Administration Assistant
-employer: Queen Elizabeth's Academy
-closing_date: 2026-10-23T23:59:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: cea55e72128e947e7f0806aea8ffac0e3bde3ebc2f3d4565d5b5e732b726a4cb
-source: Teaching Vacancies
-source_job_id: administration-assistant-queen-elizabeth-s-academy-mansfield-nottinghamshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-queen-elizabeth-s-academy-mansfield-nottinghamshire
----
 
 ---
 action: 
@@ -53,17 +38,32 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG4 4JD | £22,631.57 - £23,356.04 Annually (Actual) TTO | Administrative Assistant
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG4 4JD | £22,631.57 - £23,356.04 Annually (FTE) TTO | Administrative Assistant
 employer: Stanhope Primary and Nursery School
-closing_date: 2026-10-21T23:59:00+01:00
+closing_date: 2026-10-21T09:00:00+01:00
 reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: b687e4f906bc5b72685c9d8ec975b67ca14db3036735161d97c18fd340ce285c
+factual_fingerprint: a0cb84988153b51e9a05b98f8f82734454f5aa656c605598158a6bd9430cbf03
 source: Teaching Vacancies
 source_job_id: administrative-assistant-stanhope-primary-and-nursery-school-nottingham-nottinghamshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-stanhope-primary-and-nursery-school-nottingham-nottinghamshire
+---
+
+---
+action: 
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG3 2LE | £21,907.96 - £22,610.16 Annually (Actual) Grade 3, Points 5 to 7 (37 hours / 5 days per week) | Administrative Assistant and Attendance Officer
+employer: Blue Bell Hill Primary and Nursery School
+closing_date: 2026-10-12T09:00:00+01:00
+reason: Clear admin/service title: administrative assistant, attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: feb1b65c3de5987bcd0dfbb3d782cd1e0ed2f37550b7d96e8005d8ab0b54f81d
+source: Teaching Vacancies
+source_job_id: administrative-assistant-and-attendance-officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-and-attendance-officer
 ---
 
 ---
@@ -94,6 +94,21 @@ factual_fingerprint: ee70b14363d67c22ed35100bac154992165bd01ec13de95243dc3869772
 source: Teaching Vacancies
 source_job_id: administrator-redhill-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-redhill-academy
+---
+
+---
+action: 
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG13 0GL | £26,022.00 - £26,436.00 Annually (FTE) Actual Salary £15650-£15899 | School Administrator
+employer: Redmile Church of England Primary School
+closing_date: 2026-10-23T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a26903677f9bcbfd877d59e8b9b4481eac082dc21b24248081a09411858b4730
+source: Teaching Vacancies
+source_job_id: school-administrator-redmile-church-of-england-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-redmile-church-of-england-primary-school
 ---
 
 ---
@@ -181,12 +196,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-the-go
 
 - [Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-king-edward-primary-school-nursery) — Insufficient admin/service evidence.
 - [Administrative Officer L3](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-l3-robert-shaw-primary-and-nursery-school) — Insufficient admin/service evidence.
+- [Communications & Marketing Assistant](https://teaching-vacancies.service.gov.uk/jobs/communications-marketing-assistant) — Insufficient admin/service evidence.
 - [Data & MIS Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-mis-assistant) — Insufficient admin/service evidence.
 - [Data Protection Support Officer](https://teaching-vacancies.service.gov.uk/jobs/data-protection-support-officer) — Insufficient admin/service evidence.
 - [HR and Recruitment Team Leader](https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-team-leader) — Insufficient admin/service evidence.
 - [HR/People Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-people-operations-manager) — Manager title salary ceiling £57,358 is not below £28,000.
 - [Office Manager in Wilford, Nottingham](https://teaching-vacancies.service.gov.uk/jobs/office-manager-in-wilford-nottingham) — Manager title salary ceiling £31,022 is not below £28,000.
-- [Personal Assistant to the Principal and Office Manager](https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-principal-and-office-manager-6f027893-3df6-483b-bec0-beb9e8765ced) — Manager title salary ceiling £34,280 is not below £28,000.
 - [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-96d0e4ce-127e-44c5-84cd-fca1d087464c) — Insufficient admin/service evidence.
 - [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-the-flying-high-academy) — Insufficient admin/service evidence.
 - [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-burntstump-seely-cofe-primary-academy) — Manager title salary ceiling £30,514 is not below £28,000.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-10-06
-review_fingerprint: e7abeb6c6442ac5c996e39a9debeb448fc2fb2b99a6e056534325792726d9e3a
-routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
+review_date: 2026-10-07
+review_fingerprint: f52bb4ec70e9950fd22a563d4f181a2c0df78f2bcabeb334ab7010fd75d6f665
+routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -38,17 +38,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
-SELECTED | North East | Sunderland, North East, SR3 2BB | £11,752.00 Annually (Actual) Scale 1 SCP 3. Pending the outcome of Job Evaluation | Administration Assistant
-employer: St Leonard's Catholic Primary School, Silksworth
-closing_date: 2026-10-07T12:00:00+01:00
-reason: Clear admin/service title: administration assistant
+SELECTED | North East | Newcastle-upon-Tyne, North East, NE7 7PE | BBO4 | Administrator- Student Reception
+employer: St Mary's Catholic School
+closing_date: 2026-10-21T09:00:59+01:00
+reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: a43e984290e6157cd14e234b947be8f19698a009fe207c0ebff6d307ae705e73
+factual_fingerprint: 9aba66ee765c45445a85d1537e100e86af3f7d05f5e701ed72090cead4c441f8
 source: Teaching Vacancies
-source_job_id: administration-assistant-st-leonard-s-catholic-primary-school-silksworth
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-st-leonard-s-catholic-primary-school-silksworth
+source_job_id: administrator-student-reception
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-student-reception
 ---
 
 ---
@@ -150,15 +150,15 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrati
 ## HARD_PASS
 
 - [Assistant Principal - Personal Development & Wellbeing](https://teaching-vacancies.service.gov.uk/jobs/assistant-principal-personal-development-wellbeing) — Out-of-scope occupation: principal.
-- [Business Lead](https://teaching-vacancies.service.gov.uk/jobs/business-lead-st-leonard-s-catholic-primary-school-silksworth) — Insufficient admin/service evidence.
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-st-anthony-s-girls-catholic-academy-sunderland-tyne-and-wear) — Manager title salary ceiling £42,123 is not below £28,000.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-bishop-chadwick-catholic-education-trust) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-bishop-hogarth-catholic-education-trust) — Insufficient admin/service evidence.
-- [Governance and Procurement Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-and-procurement-officer) — Insufficient admin/service evidence.
 - [Head of Governance, Risk & Compliance](https://teaching-vacancies.service.gov.uk/jobs/head-of-governance-risk-compliance) — Insufficient admin/service evidence.
+- [Head of People](https://teaching-vacancies.service.gov.uk/jobs/head-of-people-northern-lights-learning-trust) — Insufficient admin/service evidence.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-the-ascent-academies-trust) — Insufficient admin/service evidence.
 - [HR Support Staff](https://teaching-vacancies.service.gov.uk/jobs/hr-support-staff) — Insufficient admin/service evidence.
 - [Marketing Assistant](https://teaching-vacancies.service.gov.uk/jobs/marketing-assistant-kings-priory-school) — Insufficient admin/service evidence.
+- [People Officer](https://teaching-vacancies.service.gov.uk/jobs/people-officer-northern-lights-learning-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

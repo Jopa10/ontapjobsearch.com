@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-10-06
-review_fingerprint: 1949bd787be04c3008d2bee8edcce02ba0a815d60e27e7711ee66579ba363d5a
-routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
+review_date: 2026-10-07
+review_fingerprint: edf247d5835deb1ef9319c2c45a7bb92789c180217f30c6f310eb17d90809c70
+routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 3
+- Records: 7
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
@@ -34,6 +34,21 @@ factual_fingerprint: 2853696b3c397aba372c81583fd33d29b5f06b1714957932a66cdb9cd86
 source: Teaching Vacancies
 source_job_id: administration-assistant-winterstoke-hundred-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-winterstoke-hundred-academy
+---
+
+---
+action: 
+SELECTED | Somerset | Weston-super-Mare, South West, BS23 3QP | £13,954 - £15,209 | Administration Assistant Level 1 - Receptionist
+employer: Hans Price Academy
+closing_date: 2026-10-20T11:59:59+01:00
+reason: Clear admin/service title: receptionist, administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f1966079f93cfa0eb1c80856844e055347da701a9150b53fc7abdef885acb32c
+source: Teaching Vacancies
+source_job_id: administration-assistant-level-1-receptionist-bd6b7366-4beb-4cdb-99ce-85259000741f
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-level-1-receptionist-bd6b7366-4beb-4cdb-99ce-85259000741f
 ---
 
 ---

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-10-06
-review_fingerprint: bdfec012a7bde9c9b6d530ed33a73a2153f2648548a2fef732e4ed5b3be0c2f4
-routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
+review_date: 2026-10-07
+review_fingerprint: 39ce89a2e8c1097527108faf9c096df63a2f4a4ab0b2f978b3200f322bc85315
+routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 6
+- Records: 10
+- Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 3
@@ -79,21 +79,6 @@ factual_fingerprint: a768b2cb731d0e969dc722beddd6222f9f56274fda74e2773f13c5cc3aa
 source: Teaching Vacancies
 source_job_id: exams-officer-barr-s-hill-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-barr-s-hill-school
----
-
----
-action: 
-SELECTED | West Midlands - Coventry & Warwickshire | Atherstone, West Midlands, CV9 1LZ | £27,576.00 - £28,984.00 Annually (Actual) Pending pay award | PA to Principal
-employer: The Queen Elizabeth Academy
-closing_date: 2026-10-07T09:00:00+01:00
-reason: Clear admin/service title: pa to
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e86c1f86619dfde93ebce74b4329fa408f9f9860a6ddf242d5aaa33c9d3e5fc6
-source: Teaching Vacancies
-source_job_id: pa-to-principal-the-queen-elizabeth-academy-atherstone-warwickshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-principal-the-queen-elizabeth-academy-atherstone-warwickshire
 ---
 
 ---

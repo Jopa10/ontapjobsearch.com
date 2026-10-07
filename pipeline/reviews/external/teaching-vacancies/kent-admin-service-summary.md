@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-10-06
-review_fingerprint: 6662c0255f0bf6d49258b282762490f6d1d120892ffdb54d3cffe8435f10ba48
-routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
+review_date: 2026-10-07
+review_fingerprint: 325656214ed1de6861db275393014d7d04f471855a454b18e220aa30e385721a
+routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 4
+- Records: 7
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
@@ -79,6 +79,21 @@ factual_fingerprint: 5259f89f5a9eeb45b862b60752747457432995ced5fa6892a8a84bb6f2c
 source: Teaching Vacancies
 source_job_id: pupil-records-administrator-parkwood-hall-academy-trust-swanley-kent
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-records-administrator-parkwood-hall-academy-trust-swanley-kent
+---
+
+---
+action: 
+SELECTED | Kent | Tonbridge, South East, TN9 2DQ | £14,412.00 - £14,988.00 Annually (Actual) KSD (£27,904 - £29,020 FTE) | Senior Administrator
+employer: Royal Rise Primary School
+closing_date: 2026-10-30T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ad35c594ab555cf2be1ebd34f1cbcf789f3724c701ca9860a1508bd24dc97360
+source: Teaching Vacancies
+source_job_id: senior-administrator-royal-rise-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-royal-rise-primary-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

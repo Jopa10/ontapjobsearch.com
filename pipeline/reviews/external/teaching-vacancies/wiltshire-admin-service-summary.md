@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-10-06
-review_fingerprint: 411f1c38642372b9196e63ddfa85d2cfe46acfc1cdc3344ef01abbe97677722b
-routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
+review_date: 2026-10-07
+review_fingerprint: cb1e57c987a467df300cd04d2220fc795ae7ccd2b0ec6c27fe0e9873f910bcfd
+routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 4
+- Records: 12
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 6
@@ -68,17 +68,32 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrato
 
 ---
 action: 
-SELECTED | Wiltshire | Swindon, South West, SN3 6EX | £26,428.00 - £26,847.00 Annually (FTE) SCP 5 - 6 (£8,013.50 - £8,140.55 Actual) | School & Nursery Administrator
+SELECTED | Wiltshire | Swindon, South West, SN3 6EX | £9,215.09 - £9,361.55 Annually (Actual) NJC 5 - 6 (£26,427 - £26,847 FTE) | School & Nursery Administrator
 employer: Liden Academy
 closing_date: 2026-10-28T23:59:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 7f3df97b86d4f8c896dd5493746bd1f953ae602d9457f03e34919693a8a7eeec
+factual_fingerprint: 9c1ee1ef8e89155000d8a6c1e48e804d67ecaab86e7b5af5a744ca32a3a7642f
 source: Teaching Vacancies
 source_job_id: school-nursery-administrator-liden-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-nursery-administrator-liden-academy
+---
+
+---
+action: 
+SELECTED | Wiltshire | Swindon, South West, SN5 4AT | £18,844.41 - £19,787.16 Annually (Actual) | SEND Administrator
+employer: Bradon Forest School
+closing_date: 2026-10-13T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: fbbc349ace4ea1504dc98335d0bbb4f8c6cbb62966d8a5e34b31473561836c1c
+source: Teaching Vacancies
+source_job_id: send-administrator-bradon-forest-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-bradon-forest-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-10-06
-review_fingerprint: 0ffdfaf8a24f75b6f88290040a8c288f231a4228d186f9a403e311e712b11cb2
-routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
+review_date: 2026-10-07
+review_fingerprint: 45961a88c9d0539ca3327cd2b7bf9611bd2afd99d005dcd0eb757a0783528120
+routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 16
 - Selected: 6
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 9
 
 ## SELECTED
 
@@ -113,7 +113,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-chi
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Buckinghamshire | Milton Keynes, South East, MK17 7AA | £23,130.12 Annually (Actual) Grade C1, £25, 989 Full time equivalent | Business Support (Level 1)
+employer: St Mary's Wavendon CofE Primary
+closing_date: 2026-10-20T09:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 59a8db5768695e5e2d44837c2e6a8f05bd44cef532ba943fbefcaefa14ae6800
+source: Teaching Vacancies
+source_job_id: business-support-level-1-b4e89671-af8b-4563-bce3-fee0f7ec4d1e
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-level-1-b4e89671-af8b-4563-bce3-fee0f7ec4d1e
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -124,9 +137,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-chi
 - [Business Support L3](https://teaching-vacancies.service.gov.uk/jobs/business-support-l3-brooklands-farm-primary-school) — Insufficient admin/service evidence.
 - [Deputy Head's PA and Office Manager](https://teaching-vacancies.service.gov.uk/jobs/deputy-head-s-pa-and-office-manager) — Out-of-scope occupation: deputy head.
 - [Designated Safeguarding Lead](https://teaching-vacancies.service.gov.uk/jobs/designated-safeguarding-lead-brooklands-farm-primary-school) — Insufficient admin/service evidence.
+- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-f25e46f2-769c-4cd5-9bd8-4e71725c3655) — Insufficient admin/service evidence.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-royal-grammar-school-high-wycombe) — Manager title salary ceiling £47,020 is not below £28,000.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-aa5bd69a-1e68-49ee-bfe8-c4153301fa94) — Manager title salary ceiling £48,738 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-winslow-church-of-england-school) — Manager title salary ceiling £41,272 is not below £28,000.
 - [Senior Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-business-partner-creative-education-trust) — Insufficient admin/service evidence.
+- [Trust Finance officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-stephenson-mk-trust-milton-keynes-not-recorded) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

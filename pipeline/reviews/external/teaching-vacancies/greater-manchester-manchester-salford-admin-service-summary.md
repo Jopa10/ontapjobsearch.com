@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-10-06
-review_fingerprint: f85a0f02be3605ff86b8d9a028bc3ba0d11d0c9833750ac978e3dd787620f201
-routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
+review_date: 2026-10-07
+review_fingerprint: dc06b6cf29f3cdee82bd7d2d1ce61404daa7c6307187be9d225c488a4ee23910
+routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 7
 - Selected: 4
-- POSS awaiting decision: 3
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -85,21 +85,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-and-sys
 
 ---
 action: 
-POSS | Greater Manchester - Manchester & Salford | Manchester, North West, M19 1FS | £27,274.00 - £29,071.00 Annually (Actual) NJC Grade 4, Points 7-11 | Administrative Support Assistant
-employer: Levenshulme High School
-closing_date: 2026-10-07T08:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f97310b9a2c98f4805408fbb308cb06372ac0060729a58ceff5836faa3e9f857
-source: Teaching Vacancies
-source_job_id: administrative-support-assistant-levenshulme-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-support-assistant-levenshulme-high-school
----
-
----
-action: 
 POSS | Greater Manchester - Manchester & Salford | Manchester, North West, M15 4ZB | £14.14 per hour | Reception and Administration Assistant
 employer: Crown Street Primary School
 closing_date: 2026-10-17T09:00:59+01:00
@@ -134,8 +119,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-adminis
 
 ## HARD_PASS
 
-- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/apprentice-finance-assistant-37) — Insufficient admin/service evidence.
-- [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-the-co-operative-academies-trust) — Insufficient admin/service evidence.
+- [Apprentice Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/apprentice-finance-assistant-37) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

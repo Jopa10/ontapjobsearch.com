@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-10-06
-review_fingerprint: 49960093e1a8c79c98ff2c94333f5316752bf9a48a61b6b80f20757f0ad7d125
-routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
+review_date: 2026-10-07
+review_fingerprint: 3c68489617834ba0d79602882442b6a37bcad3a3043b825ebd7896df5fda0db2
+routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 24
-- Selected: 10
-- POSS awaiting decision: 0
+- Selected: 11
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 14
+- Hard pass: 12
 
 ## SELECTED
 
@@ -98,6 +98,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-10e24a6
 
 ---
 action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B46 3LL | £29,070.00 - £32,046.00 Annually (FTE) | Attendance Officer
+employer: Coleshill Church of England Primary School
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2997e49c3e148aaca03fe65c9e9746c14facb1693057a7c5d0dae772a3eb1e3d
+source: Teaching Vacancies
+source_job_id: attendance-officer-coleshill-church-of-england-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-coleshill-church-of-england-primary-school
+---
+
+---
+action: 
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B17 8QB | £28,153.00 - £31,015.00 Annually (FTE) Actual pro-rated salary based on term time plus two weeks, during the summer holidays, equates to £25,961 (Scale Point 9) per annum to £26,600 (scale point 15) | Attendance Officer
 employer: King Edward VI Lordswood School for Girls
 closing_date: 2026-10-12T12:00:00+01:00
@@ -113,17 +128,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-ki
 
 ---
 action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B44 0JL | Birmingham Pay scale Grade 3, points 9 - 22 depending on experience | Office Administrator
-employer: Kings Rise Academy
-closing_date: 2026-10-19T15:00:00+01:00
-reason: Clear admin/service title: administrator, office administrator
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B10 9BT | £26,847.00 to £27,274.00 per annum (pro rata £9,601.68 - £9,754.39 per annum) | Business Support Assistant
+employer: Starbank School
+closing_date: 2026-10-18T23:59:00+01:00
+reason: Clear admin/service title: business support assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 1f546d20f95f975ea0c67e078e38157f97c7d0abab10b622c5469f7b9851d600
+factual_fingerprint: 3566045bafbd5dc258ddbd5f661def164fd1d9f4cdd4e8db53c82512245f4929
 source: Teaching Vacancies
-source_job_id: office-administrator-kings-rise-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-kings-rise-academy
+source_job_id: business-support-assistant-087bd7f2-00c8-4216-9f63-98fee8083d04
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-assistant-087bd7f2-00c8-4216-9f63-98fee8083d04
 ---
 
 ---
@@ -173,7 +188,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B44 0JL | Birmingham Pay scale Grade 3, points 9 - 22 depending on experience | Office Administrator
+employer: Kings Rise Academy
+closing_date: 2026-10-19T15:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1f546d20f95f975ea0c67e078e38157f97c7d0abab10b622c5469f7b9851d600
+source: Teaching Vacancies
+source_job_id: office-administrator-kings-rise-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-kings-rise-academy
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -183,8 +211,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 
 - [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-the-deanery-church-of-england-primary-school) — Missing salary or pay scale.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-fioretti-trust) — Insufficient admin/service evidence.
-- [Data Apprentice](https://teaching-vacancies.service.gov.uk/jobs/data-apprentice-academy-transformation-trust) — Insufficient admin/service evidence.
-- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-swanshurst-school) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Governance Support Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-support-officer-eaa7a044-716c-471a-b1e0-33530ee7b932) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-st-john-paul-ii-multi-academy-company-birmingham-not-recorded) — Insufficient admin/service evidence.
 - [Office Administration](https://teaching-vacancies.service.gov.uk/jobs/office-administration) — Insufficient admin/service evidence.

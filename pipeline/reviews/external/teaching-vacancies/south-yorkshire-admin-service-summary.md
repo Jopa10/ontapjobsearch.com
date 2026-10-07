@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-10-06
-review_fingerprint: b58275a6276d988df3b38d11feaf8399fe12df2c4a8315c645bdba806e30eec0
-routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
+review_date: 2026-10-07
+review_fingerprint: 0066748a9a28fc217ce2e912e3583e3cae5a03765bb8fac62fd09cf2cb1da45c
+routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 27
-- Selected: 9
+- Selected: 8
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 17
+- Hard pass: 18
 
 ## SELECTED
 
@@ -83,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-attend
 
 ---
 action: 
+SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S3 9BE | £32,046.00 - £34,237.00 Annually (FTE) Pro rata salary: £27,652 - £29,543 | Attendance Officer
+employer: Astrea Academy Sheffield
+closing_date: 2026-10-18T23:59:00+01:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 648d27c0a7911c3e5d91dbea21749111cadffe72579ab9a194735a4b3d85cfde
+source: Teaching Vacancies
+source_job_id: attendance-officer-astrea-academy-sheffield
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-astrea-academy-sheffield
+---
+
+---
+action: 
 SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S2 1SN | £32,043 gross per annum | HR Administrator
 employer: Sheffield Park Academy
 closing_date: 2026-10-08T23:59:00+01:00
@@ -109,36 +124,6 @@ factual_fingerprint: 0b85e09644f78827f39ff29d0c6f48cd04c14fa7af8d8692a47e6ad5157
 source: Teaching Vacancies
 source_job_id: receptionist-stocksbridge-junior-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-stocksbridge-junior-school
----
-
----
-action: 
-SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S2 1EE | Grade 4 £26403 - £28,598 pro rata - pay award pending | Receptionist and Administrator
-employer: Prince Edward Primary School
-closing_date: 2026-10-07T12:00:00+01:00
-reason: Clear admin/service title: administrator, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7b64043b846e02d8eb062cf08150a44b70e78d04245db32f8b46772a9c385fb3
-source: Teaching Vacancies
-source_job_id: receptionist-and-administrator-adcd5f34-cc20-45ec-9a96-1d35515bc466
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administrator-adcd5f34-cc20-45ec-9a96-1d35515bc466
----
-
----
-action: 
-SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S2 1SN | £24,978.00 gross per annum – if 52w or £23,210.33 gross per annum if 42w | Receptionist and Administrator – (52 or 42 weeks considered)
-employer: Sheffield Park Academy
-closing_date: 2026-10-06T23:59:00+01:00
-reason: Clear admin/service title: administrator, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0d56cee29f760f057613063e41e54356cf262d661df1b1bd6efe5768745becb4
-source: Teaching Vacancies
-source_job_id: receptionist-and-administrator-52-or-42-weeks-considered
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administrator-52-or-42-weeks-considered
 ---
 
 ---
@@ -182,19 +167,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-admin-offi
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-st-thomas-more-catholic-primary-a-voluntary-academy) — Insufficient admin/service evidence.
 - [Attendance and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-officer-sharrow-nursery-infant-and-junior-school) — Insufficient admin/service evidence.
 - [Business Support Manager](https://teaching-vacancies.service.gov.uk/jobs/business-support-manager-beck-primary-school-sheffield-south-yorkshire) — Manager title salary ceiling £40,921 is not below £28,000.
-- [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-st-clare-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-ridgewood-school) — Insufficient admin/service evidence.
 - [Finance & Admin Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-admin-manager-171240df-359e-4c34-b77f-8c67e1ee2d06) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-800b81f8-109d-4857-8ee1-281e2de5e328) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-minerva-learning-trust-sheffield-not-recorded) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-sheffield-park-academy-sheffield-south-yorkshire) — Manager title salary ceiling £53,500 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-99fb8e49-5fcd-4f2c-851e-e3b3f1e72d55) — Insufficient admin/service evidence.
+- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-gooseacre-primary-academy) — Manager title salary ceiling £39,773 is not below £28,000.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-42e231a7-dcef-4bf5-a3d7-0eb145f4ac02) — Insufficient admin/service evidence.
 - [Safeguarding and Welfare Officer](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-and-welfare-officer-newman-school) — Insufficient admin/service evidence.
 - [Senior Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-kings-oak-primary) — Insufficient admin/service evidence.
 - [Senior Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-st-francis-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [Senior Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-manager-minerva-learning-trust) — Manager title salary ceiling £58,557 is not below £28,000.
 - [Senior Management Account / Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/senior-management-account-head-of-finance) — Insufficient admin/service evidence.
+- [Sports Centre and Lettings Supervior](https://teaching-vacancies.service.gov.uk/jobs/sports-centre-and-lettings-supervior) — Insufficient admin/service evidence.
 - [Transactional Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/transactional-finance-manager) — Manager title salary ceiling £53,051 is not below £28,000.
 
 ## Safety boundary

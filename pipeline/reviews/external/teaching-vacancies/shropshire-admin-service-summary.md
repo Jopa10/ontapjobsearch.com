@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Shropshire
 
-review_date: 2026-10-06
+review_date: 2026-10-07
 review_fingerprint: 73e3c224e585fd545d773f9fbcb9c2135b72fe8032ad2aba7ab09165ca1fe56e
-routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
+routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
 ontap_region: Shropshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
+- Records: 1
 - Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 0
 
 ## SELECTED
 
@@ -46,7 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exam-and-data-manager
 
 ## HARD_PASS
 
-- [Assistant Headteacher (Personal Development & Culture)](https://teaching-vacancies.service.gov.uk/jobs/assistant-headteacher-personal-development-culture) — Out-of-scope occupation: teacher, headteacher.
+- None.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-10-06
-review_fingerprint: c91d3453d46d7664bc8e5fd9dfc38ab0c7d4b26b2f297fd5215de4f670685b68
-routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
+review_date: 2026-10-07
+review_fingerprint: 8cf9008eed3d25049a645c023bfe770d218ee19c6f16854eff874ce784a2afff
+routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 21
-- Selected: 13
-- POSS awaiting decision: 2
+- Records: 20
+- Selected: 12
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -143,21 +143,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/post-16-administrator
 
 ---
 action: 
-SELECTED | Devon | Plymouth, South West, PL5 2DW | £26,847 - 27,274 FTE | School Administrator
-employer: St Budeaux CofE Primary Academy
-closing_date: 2026-10-07T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5a71e08be1502b2c4affca117d66bd0dc6411f5c67b9a25b5b0e9d591fa169ce
-source: Teaching Vacancies
-source_job_id: school-administrator-st-budeaux-cofe-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-st-budeaux-cofe-primary-academy
----
-
----
-action: 
 SELECTED | Devon | Exeter, EX5 3JG | FTE £25660 | School Hub Administrator
 employer: Cornerstone Academy Trust
 closing_date: 2026-10-11T23:59:59+01:00
@@ -235,6 +220,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-manager-ede70353
 
 ---
 action: 
+POSS | Devon | Axminster, South West, EX13 7LX | £27,709.00 - £29,070.00 Annually (FTE) | Senior Pupil Services Officer
+employer: All Saints Church of England Primary School
+closing_date: 2026-10-16T09:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 85927a9f1fcc9e89f070d99e09faefbaf425eac3ff69b3aae67a790b4f66e885
+source: Teaching Vacancies
+source_job_id: senior-pupil-services-officer-all-saints-church-of-england-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-all-saints-church-of-england-primary-school
+---
+
+---
+action: 
 POSS | Devon | Exeter, South West, EX1 2SN | £27,709.00 - £29,070.00 Annually (FTE) | Senior Pupil Services officer - 2 days/week
 employer: St Michael's Church of England Primary Academy
 closing_date: 2026-10-16T09:00:00+01:00
@@ -254,7 +254,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 
 ## HARD_PASS
 
-- [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-torquay-boys-grammar-school-torquay-devon) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-dartmoor-multi-academy-trust) — Insufficient admin/service evidence.
 - [Finance Business Partner - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-maternity-cover) — Insufficient admin/service evidence.
 - [People Advisor ( Devon Cluster)](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-devon-cluster) — Insufficient admin/service evidence.

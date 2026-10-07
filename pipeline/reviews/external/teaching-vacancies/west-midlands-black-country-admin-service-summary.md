@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-10-06
-review_fingerprint: c9c4cd1733e2f4a03400f9e20188e6679ae9f694e361828e2e3ef538e44cc49c
-routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
+review_date: 2026-10-07
+review_fingerprint: 64d09883b58b35c711e6df36df70c6e46e536b54612294ffc035611b0e72713a
+routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 11
 - Selected: 2
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 8
 
 ## SELECTED
 
@@ -53,7 +53,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-n
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | West Midlands - Black Country | Walsall, West Midlands, WS2 7NR | £28,523.00 - £28,523.00 Annually (Actual) Actual Starting Salary: £25,162.69 (FTE £28,523) | Head of House PA
+employer: Bloxwich Academy
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ebe4e8dcae6d9e62baf140ba8ce8ec2aee86543525f32550ae5588778f9ff86b
+source: Teaching Vacancies
+source_job_id: head-of-house-pa-b63da4ba-19ba-4c61-9d9c-22c58869178c
+source_url: https://teaching-vacancies.service.gov.uk/jobs/head-of-house-pa-b63da4ba-19ba-4c61-9d9c-22c58869178c
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -61,11 +74,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-n
 
 ## HARD_PASS
 
-- [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-joseph-leckie-academy-walsall-west-midlands) — Manager title salary ceiling £51,928 is not below £28,000.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-ormiston-shelfield-community-academy-walsall-west-midlands) — Manager title salary ceiling £37,563 is not below £28,000.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-wolverhampton-girls-high-school) — Manager title salary ceiling £30,202 is not below £28,000.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-st-chad-s-academies-trust) — Manager title salary ceiling £65,035 is not below £28,000.
-- [Higher Level Teaching Assistant](https://teaching-vacancies.service.gov.uk/jobs/higher-level-teaching-assistant-windsor-high-school-and-sixth-form) — Out-of-scope occupation: teaching assistant.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-3c179d0b-a9c2-49dd-88f6-f3678f79fb20) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-5f4d4502-0d91-4091-b646-cbfc76dcdfb2) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-jesson-s-church-of-england-primary-school) — Manager title without salary evidence below £28,000.

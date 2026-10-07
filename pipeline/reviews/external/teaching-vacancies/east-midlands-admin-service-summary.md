@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-10-06
-review_fingerprint: 7c4926fbe1349e7897c337814b9d80ace8e31ef82efbfc755e750d6fd27775e0
-routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
+review_date: 2026-10-07
+review_fingerprint: eb2817477f723344944d899441389dd4ed00b439e8e2ade6d411be6988065afa
+routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 10
 - Selected: 2
-- POSS awaiting decision: 2
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -83,6 +83,21 @@ source_job_id: finance-assistant-queen-elizabeth-s-grammar-school-ashbourne-derb
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-queen-elizabeth-s-grammar-school-ashbourne-derbyshire
 ---
 
+---
+action: 
+POSS | East Midlands | Burton-on-Trent, West Midlands, DE13 0LL | £29,071.00 - £31,015.00 Annually (FTE) Actual salary for hours advertised £26,527 - £28,300 - ALP Grade 4 | HR and Executive Leadership Support Officer
+employer: The de Ferrers Academy
+closing_date: 2026-10-20T09:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 33f71f003fdd6346da92d1237a02796fdca6acc4905536d289f47f4a2ac874a9
+source: Teaching Vacancies
+source_job_id: hr-and-executive-leadership-support-officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-and-executive-leadership-support-officer
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -93,7 +108,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-que
 - [Human Resources Advisor](https://teaching-vacancies.service.gov.uk/jobs/human-resources-advisor-st-ralph-sherwin-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [Management Information System (MIS) Administrator & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/management-information-system-mis-administrator-cover-manager-85783a14-bff5-44f3-9d32-6556a2a69f08) — Manager title salary ceiling £32,488 is not below £28,000.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-e0eaef47-630a-49c5-9a3f-032436c1b906) — Insufficient admin/service evidence.
-- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-sherard-primary-school) — Insufficient admin/service evidence.
 - [Receptionist](https://teaching-vacancies.service.gov.uk/jobs/receptionist-hastings-high-school) — Missing salary or pay scale.
 
 ## Safety boundary

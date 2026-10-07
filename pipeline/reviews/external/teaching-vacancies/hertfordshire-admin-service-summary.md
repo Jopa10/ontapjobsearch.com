@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-10-06
-review_fingerprint: d4302d1670eb6767c8438a480599f4b603c1d93dba2fd0fbe054ee86a0ad4e9d
-routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
+review_date: 2026-10-07
+review_fingerprint: 12abdd7a278c9a4696e014cd54eae5f056e718488dbec9cbb1c3cddf496ad651
+routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 17
 - Selected: 6
-- POSS awaiting decision: 6
+- POSS awaiting decision: 5
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -98,14 +98,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-admin-assis
 
 ---
 action: 
-SELECTED | Hertfordshire | St Albans, East of England, AL3 6DR | £23,396.00 - £28,153.00 Annually (Actual) Fringe Allowance included | Reception Administrator & First Aider
+SELECTED | Hertfordshire | St Albans, East of England, AL3 6DR | £23,396.00 - £28,153.00 Annually (Actual) H4.6 + Fringe Allowance included | Reception Administrator & First Aider
 employer: Townsend Church of England School
 closing_date: 2026-10-16T07:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 04f4cfcbd8457a6ac1735186d9f31c12cd981e3575d61009469a1aec8ee3990d
+factual_fingerprint: 9134ae6fe2b5a8fee5f9356cac7c5427bb6e16acc89ae31bdee69e1ea100a1d9
 source: Teaching Vacancies
 source_job_id: reception-administrator-first-aider
 source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-administrator-first-aider
@@ -118,8 +118,8 @@ action:
 POSS | Hertfordshire | Stevenage, SG1 5BZ | £12,521.00 - £13,197.00 Annually (Actual) | Finance Assistant
 employer: Brighter Futures Educational Trust
 closing_date: 2026-10-09T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: 369574d46ae9a7c9572ada9413108a6361562d419e20ea7b6e3a2b99e1837db9
@@ -133,8 +133,8 @@ action:
 POSS | Hertfordshire | Harpenden, East of England, AL5 5FH | £27,600.00 - £28,906.00 Annually (FTE) Actual salary: 30 hours, £20,128 - £21,080, 37 hours, £24,824 - £25,999 | Finance Assistant
 employer: Katherine Warington School
 closing_date: 2026-10-20T08:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: 4fda33049c7d667ff40676f0aee9a58939937750f9d0723ea9c3d75bde375038
@@ -175,21 +175,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-d40681c8-8
 
 ---
 action: 
-POSS | Hertfordshire | Hemel Hempstead, East of England, HP1 2JU | £25,390.00 Annually (Actual) H5/6 pro rata | Office Manager
-employer: Oakleaf Primary
-closing_date: 2026-10-07T09:00:00+01:00
-reason: Manager title below £28,000 salary ceiling requires review
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2def495bec21b0c455923775fbb0929e5872f82dd927cf35e95e70d8327c73e4
-source: Teaching Vacancies
-source_job_id: office-manager-oakleaf-primary-hemel-hempstead-hertfordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-oakleaf-primary-hemel-hempstead-hertfordshire
----
-
----
-action: 
 POSS | Hertfordshire | Royston, East of England, SG8 6EF | £26,403.00 - £28,142.00 Annually (FTE) NJC Scale 4, point 7 to 11 . Actual salary £22,645.65 per annum on point 7. | Pastoral Support Assistant
 employer: Melbourn Village College
 closing_date: 2026-10-26T09:00:00+00:00
@@ -214,6 +199,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-support-assi
 - [Development Director](https://teaching-vacancies.service.gov.uk/jobs/development-director-watford-grammar-school-for-boys-watford-hertfordshire) — Insufficient admin/service evidence.
 - [Director of Finance & Operations](https://teaching-vacancies.service.gov.uk/jobs/director-of-finance-operations-herts-essex-multi-academy-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-aa7f3068-bd4a-4f6c-a3c0-513cc79c39b8) — Manager title salary ceiling £33,119 is not below £28,000.
+- [Teaching Assistant including personal care: Part Time / Full Time (H3)](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-including-personal-care-part-time-full-time-h3-41775b5d-ef37-4c4b-84c0-3a1ab141114d) — Out-of-scope occupation: teaching assistant.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Wigan & Bolton
 
-review_date: 2026-10-06
-review_fingerprint: f453fd1b9a953f755002494ddbabf7fd80f8e55a5ae030ad2eb12673dd372495
-routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
+review_date: 2026-10-07
+review_fingerprint: 9b033ee7511a3a66e4fa6cb81b05dbd40dfa5ca55233dd1f6dbbd9b9f264cb7c
+routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
 ontap_region: Greater Manchester - Wigan & Bolton
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 1
-- POSS awaiting decision: 1
+- Records: 9
+- Selected: 2
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Greater Manchester - Wigan & Bolton | Leigh, North West, WN7 5NL | G6 SCP 20-24, £28,153-£31,015 - FTE | Administrative Assistant (with Marketing)
+employer: The Westleigh School
+closing_date: 2026-10-23T12:00:59+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 19b59b838920e0b7d7d6b18bcba971146a99ff0dd93dcf156fa19e5e0953a1fd
+source: Teaching Vacancies
+source_job_id: administrative-assistant-with-marketing
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-with-marketing
+---
 
 ---
 action: 
@@ -38,20 +53,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-admin-assist
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Greater Manchester - Wigan & Bolton | Bolton, North West, BL3 1NG | £26,847.00 - £29,071.00 Annually (Actual) 25 hours per week 9.30am to 2.30pm actual salary is between £15,533.19 to £16,552.07 | Senior Clerical Assistant (Maternity Cover)
-employer: Ladywood School
-closing_date: 2026-11-08T23:59:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 615c531eed1b6be6ee36a865989683c95ef9efcad58176e9f1c548f055aaf208
-source: Teaching Vacancies
-source_job_id: senior-clerical-assistant-maternity-cover
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-clerical-assistant-maternity-cover
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -59,6 +61,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-clerical-assis
 
 ## HARD_PASS
 
+- [Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-the-westleigh-school) — Insufficient admin/service evidence.
 - [Business Support Manager](https://teaching-vacancies.service.gov.uk/jobs/business-support-manager-up-holland-high-school) — Manager title without salary evidence below £28,000.
 - [Director of Finance/ Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/director-of-finance-chief-financial-officer-the-quill-c-of-e-trust) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-mary-s-rc-primary-school) — Manager title salary ceiling £37,900 is not below £28,000.

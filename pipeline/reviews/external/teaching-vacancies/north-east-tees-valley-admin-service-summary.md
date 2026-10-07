@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East - Tees Valley
 
-review_date: 2026-10-06
+review_date: 2026-10-07
 review_fingerprint: ce8bf6c6b206b7d9b567dc073a2dab9e08f5be3d5496ca33c340253830973325
-routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
+routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 10
 - Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -135,7 +135,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-hr-assistant-17
 ## HARD_PASS
 
 - [Barley Fields Primary School – School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/barley-fields-primary-school-school-office-manager) — Manager title salary ceiling £39,124 is not below £28,000.
-- [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-outwood-academy-redcar) — Insufficient admin/service evidence.
 - [Office Manager and PA to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-pa-to-the-headteacher-our-lady-st-bede-catholic-academy-stockton-on-tees-cleveland) — Manager title salary ceiling £33,699 is not below £28,000.
 - [Trust Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-assistant-dc4109c3-10fb-4988-9b60-ca1acab51bc8) — Insufficient admin/service evidence.
 

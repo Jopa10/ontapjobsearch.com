@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Worcestershire
 
-review_date: 2026-10-06
-review_fingerprint: 4e1791a752d3c9c5f71b8e3ceebe8e4df2346876ef20c3b2de381dce83a6d4c2
-routing_manifest_sha256: 7d546cfb2b69da11a3654e208c5b3480aec4df8237d9096ae9384e6db4114a5e
+review_date: 2026-10-07
+review_fingerprint: 8e449f724115240cf45bf08e6732d43455a6a17668bac2ba0359143476a3636e
+routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 1
+- Records: 5
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 2
@@ -34,6 +34,21 @@ factual_fingerprint: 571907f4dad9a24a753128770b9587166d08333a4253d2312e1cc528819
 source: Teaching Vacancies
 source_job_id: receptionist-administrator-ipsley-cofe-middle-school-redditch
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-ipsley-cofe-middle-school-redditch
+---
+
+---
+action: 
+SELECTED | Worcestershire | Bromsgrove, West Midlands, B60 3NL | £4,061.34 Annually (Actual) Scale 2 (SCP 3-4) | Student Receptionist/Main Receptionist
+employer: South Bromsgrove High
+closing_date: 2026-10-16T09:00:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7ddd8e34b63906cf1cb3836eed848e7ef04f186afcae1b42038b96d04ec1a56c
+source: Teaching Vacancies
+source_job_id: student-receptionist-main-receptionist
+source_url: https://teaching-vacancies.service.gov.uk/jobs/student-receptionist-main-receptionist
 ---
 
 ## POSS — choose SELECT or EXCLUDE
