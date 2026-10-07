@@ -6,9 +6,129 @@ The `excluded_on` date is the day the exclusion decision was made.
 To restore a job, edit only its `action:` line to `action: select`.
 On the next JobG8 run that exact job ID will be restored and removed from this list.
 
-remembered_exclusions: 405
+remembered_exclusions: 415
 
 ## SERVICE / ADMIN — EXCLUDED
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-07
+title: Service Advisor
+employer: Hedin Automotive
+region: 
+town: London
+salary: 
+job_id: 2076068
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-07
+title: Property Sales Coordinator (Sales Progression Team)
+employer: Anderson Recruitment Ltd
+region: 
+town: Worcestershire
+salary: 
+job_id: 2077111
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-07
+title: Financial Services Administrator
+employer: Antony George Recruitment
+region: 
+town: Sussex
+salary: 
+job_id: 2062915
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-07
+title: Finance Assistant / Bookkeeper
+employer: Hays Specialist Recruitment Limited
+region: 
+town: London
+salary: 
+job_id: 2060481
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-07
+title: Bookkeeper / Management Accountant (Tax Advisory)
+employer: Ernest Gordon Recruitment Limited
+region: 
+town: Berkshire
+salary: 
+job_id: 2076277
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-07
+title: Bookkeeper & Payroll Assistant
+employer: Handpicked Recruitment Limited
+region: 
+town: London
+salary: 
+job_id: 2078600
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-07
+title: Bookkeeper
+employer: Howett Thorpe
+region: 
+town: Hampshire
+salary: 
+job_id: 2064506
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-07
+title: Bookkeeper
+employer: Reed
+region: 
+town: Essex
+salary: 
+job_id: 2061124
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-07
+title: Assistant Management Accountant
+employer: Reed
+region: 
+town: Lincolnshire
+salary: 
+job_id: 2057932
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-07
+title: Accounts Assistant
+employer: Marks Sattin
+region: 
+town: London
+salary: 
+job_id: 2075402
+---
 
 ---
 action:
