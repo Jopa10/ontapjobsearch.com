@@ -11,23 +11,7 @@ Edit only the `action:` line in each block:
 
 ## WEST YORKSHIRE — SELECTED
 
----
-action:
-SELECTED | Yorkshire - West | Huddersfield | £13.30-£16.25 per hour | Home Care Assistant
-job_id: 1986485
----
-
----
-action:
-SELECTED | Yorkshire - West | Halifax | £13.15 per hour | Support Worker
-job_id: 2026985
----
-
----
-action:
-SELECTED | Yorkshire - West | Bradford | £12.82 per hour | Mental Health Support Worker/Care Assistant
-job_id: 2058005
----
+_No jobs in this group._
 
 ## WEST YORKSHIRE — POSSIBLES
 
@@ -35,35 +19,7 @@ _No jobs in this group._
 
 ## SOUTH YORKSHIRE — SELECTED
 
----
-action:
-SELECTED | Yorkshire - South | Sheffield | £13.15 Per Hour | Night Support Worker
-job_id: 1938182
----
-
----
-action:
-SELECTED | Yorkshire - South | Barnsley | £13.45 per hour | Rehabilitation Support Worker
-job_id: 1978086
----
-
----
-action:
-SELECTED | Yorkshire - South | Barnsley | £13.45 per hour | Hybrid Rehabilitation Support Worker
-job_id: 1978049
----
-
----
-action:
-SELECTED | Yorkshire - South | Sheffield | £13.45 per hour | Outreach Rehabilitation Support Worker
-job_id: 1978160
----
-
----
-action:
-SELECTED | Yorkshire - South | Mexborough | £13.15 Per Hour | Healthcare Support Worker
-job_id: 2044232
----
+_No jobs in this group._
 
 ## SOUTH YORKSHIRE — POSSIBLES
 
@@ -73,52 +29,22 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Newcastle Upon Tyne | £23 per hour | Care Home Support Worker - &;23p/h
-job_id: 1939256
----
-
----
-action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Hexham | £13.15 per hour | Support Worker
-job_id: 2021488
----
-
----
-action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | South Shields | £14.91-£16.28 per hour | Learning Support Assistant
-job_id: 2055208
----
-
----
-action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | Whitley Bay | £13.84 per hour | Care Assistant
 job_id: 107899564
----
-
----
-action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Wallsend | £13.84 per hour | Care Assistant
-job_id: 107899592
 ---
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
 
 ---
 action:
-SELECTED | North East - County Durham & Darlington/Hartlepool | Bishop Auckland | £13.15 per hour | Night Support Worker
-job_id: 2021670
+SELECTED | North East - County Durham & Darlington/Hartlepool | Spennymoor | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
+job_id: 108076021
 ---
 
 ---
 action:
-SELECTED | North East - County Durham & Darlington/Hartlepool | Bishop Auckland | £13.15 per hour | Support Worker
-job_id: 2021645
----
-
----
-action:
-SELECTED | North East - County Durham & Darlington/Hartlepool | Darlington | £13 per hour | Female Bank Support Worker
-job_id: 2021413
+SELECTED | North East - County Durham & Darlington/Hartlepool | Spennymoor | £12.85 per hour | Support Worker
+job_id: 108059072
 ---
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — POSSIBLES
@@ -130,18 +56,6 @@ _No jobs in this group._
 _No jobs in this group._
 
 ## SUSSEX — SELECTED
-
----
-action:
-SELECTED | Sussex | Chichester | £14.28 per hour | Healthcare Assistant
-job_id: 1959112
----
-
----
-action:
-SELECTED | Sussex | Battle | £13.00 per hour | Healthcare Assistant
-job_id: 1990925
----
 
 ---
 action:
@@ -175,24 +89,6 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Hampshire | Southampton | £13.45 - £14.00 per hour | Part-Time Support Worker
-job_id: 1932858
----
-
----
-action:
-SELECTED | Hampshire | Southampton | £14.28 per hour | Healthcare Assistant
-job_id: 1958886
----
-
----
-action:
-SELECTED | Hampshire | Alton | £14.43 per hour | Care Assistant
-job_id: 1980850
----
-
----
-action:
 SELECTED | Hampshire | Winchester | £28697 - £31573 per year | Children's Homes Support Worker
 job_id: 1401785482
 ---
@@ -219,24 +115,6 @@ job_id: 1401785578
 action:
 SELECTED | Hampshire | Tadley | £25740 per year | Female Support Worker
 job_id: 108059180
----
-
----
-action:
-SELECTED | Hampshire | Southampton | £13.45 Per Hour | Support worker
-job_id: 2055937
----
-
----
-action:
-SELECTED | Hampshire | Southampton | £13.45 - £14.00 per hour | Support Worker (Learning Disabilities)
-job_id: 2064396
----
-
----
-action:
-SELECTED | Hampshire | Winchester | £13.2 - £14.75 per hour | Specialist Care Support Worker - Winchester
-job_id: 108004872
 ---
 
 ---
@@ -291,36 +169,6 @@ _No jobs in this group._
 action:
 SELECTED | Kent | Tunbridge Wells | competitive + benefits | Qualified Hearing Care Assistant
 job_id: 1402265374
----
-
----
-action:
-SELECTED | Kent | Tunbridge Wells | £14.43 per hour | Care Assistant
-job_id: 1981559
----
-
----
-action:
-SELECTED | Kent | Sevenoaks | £14.43 per hour | Care Assistant
-job_id: 1981486
----
-
----
-action:
-SELECTED | Kent | Tunbridge Wells | £15.77 per hour | Brain Injury Support Worker
-job_id: 1996389
----
-
----
-action:
-SELECTED | Kent | Sevenoaks | £14.00 - £17.00 per hour | Healthcare Assistant
-job_id: 2055653
----
-
----
-action:
-SELECTED | Kent | Cranbrook | £15.68 per hour | Learning Support Assistant
-job_id: 2048175
 ---
 
 ---
@@ -425,83 +273,17 @@ SELECTED | Kent | Tunbridge Wells | £25,845 per annum | Female Support Worker
 job_id: 842055619798315827237340
 ---
 
+---
+action:
+SELECTED | Kent | Tunbridge Wells | £25,845 per year | Waking Night Support Worker
+job_id: 920924908272641638437340
+---
+
 ## KENT — POSSIBLES
 
 _No jobs in this group._
 
 ## LONDON — SELECTED
-
----
-action:
-SELECTED | London | London | £28860 per year | Care Assistant
-job_id: 1990764
----
-
----
-action:
-SELECTED | London | London | £16.95 per hour | Relief Worker - Care Assistant
-job_id: 2049393
----
-
----
-action:
-SELECTED | London | London | £18 - £20 per hour | Family Support Worker
-job_id: 2041406
----
-
----
-action:
-SELECTED | London | London | £125 per daily | Learning Support Assistant
-job_id: 2022335
----
-
----
-action:
-SELECTED | London | Romford | £90 - £115 per daily | Learning Support Assistant
-job_id: 2048687
----
-
----
-action:
-SELECTED | London | Southall | £100 - £120 per daily | Pastoral Support Worker
-job_id: 2045863
----
-
----
-action:
-SELECTED | London | Uxbridge | £16.69 per hour | Learning Support Assistant
-job_id: 2044609
----
-
----
-action:
-SELECTED | London | London | £93 - £115 per daily | Learning Support Assistant
-job_id: 2041628
----
-
----
-action:
-SELECTED | London | London | £99 - £115 per daily | Learning Support Assistant
-job_id: 2044237
----
-
----
-action:
-SELECTED | London | London | £110 per daily | Autism Support Assistant
-job_id: 2041892
----
-
----
-action:
-SELECTED | London | London | £100 - £105 per daily | Autism Support Worker
-job_id: 2037495
----
-
----
-action:
-SELECTED | London | Bromley | £14.25 per hour | Community Care Assistant
-job_id: 2063823
----
 
 ---
 action:
@@ -515,12 +297,6 @@ SELECTED | London | City | £26403 per year | Female Intern Safe House Support W
 job_id: 107909605
 ---
 
----
-action:
-SELECTED | London | London | £100 - £117 per daily | Learning Support Assistant
-job_id: 2075798
----
-
 ## LONDON — POSSIBLES
 
 _No jobs in this group._
@@ -531,24 +307,6 @@ _No jobs in this group._
 action:
 SELECTED | Oxfordshire | Banbury | £14.4 per hour | Home Carer
 job_id: 107626596
----
-
----
-action:
-SELECTED | Oxfordshire | Banbury | £26016 - £26847 per year | Learning Support Assistant
-job_id: 2058341
----
-
----
-action:
-SELECTED | Oxfordshire | Oxford | £90 - £100 per daily | Autism Support Worker - Oxford
-job_id: 2055908
----
-
----
-action:
-SELECTED | Oxfordshire | Kidlington | £85 - £110 per daily | Emotional Support Worker - Kidlington
-job_id: 1957015
 ---
 
 ---
@@ -568,18 +326,6 @@ job_id: 107626594
 _No jobs in this group._
 
 ## SURREY — SELECTED
-
----
-action:
-SELECTED | Surrey | Tadworth | £15.00 per hour | Male Healthcare Assistant
-job_id: 1996262
----
-
----
-action:
-SELECTED | Surrey | Caterham | £14.50 per hour | Female Healthcare Assistant
-job_id: 2021731
----
 
 ---
 action:
