@@ -2,15 +2,27 @@
 
 review_date: 2026-10-08
 
-- Open Administrative & Clerical rows reviewed: 2342
+- Open Administrative & Clerical rows reviewed: 2343
 - Auto/remembered selected: 426
 - Selected HC Tier A: 225
 - Selected HC Tier B: 201
-- POSS awaiting decision: 1803
+- POSS awaiting decision: 1804
 - Excluded: 0
 - HARD_PASS: 113
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Kent | Whitstable, CT5 1BZ | £28392.00 to £31157.00 | LAC Admin Coordinator
+source_job_id: 5652507
+title: LAC Admin Coordinator
+employer: Kent Community Health NHS Foundation Trust
+region: Kent
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9846-26-0611
+factual_fingerprint: d07d26454680dd0af7553c0ac20cc185d3c2266fdd8f4a3768a7e864026b3799
+---
 
 ---
 action:
