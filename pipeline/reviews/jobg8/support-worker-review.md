@@ -27,19 +27,11 @@ _No jobs in this group._
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — SELECTED
 
----
-action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Whitley Bay | £13.84 per hour | Care Assistant
-job_id: 107899564
----
+_No jobs in this group._
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
 
----
-action:
-SELECTED | North East - County Durham & Darlington/Hartlepool | Spennymoor | £12.85 per hour | Support Worker
-job_id: 108059072
----
+_No jobs in this group._
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — POSSIBLES
 
@@ -51,11 +43,7 @@ _No jobs in this group._
 
 ## SUSSEX — SELECTED
 
----
-action:
-SELECTED | Sussex | Hailsham | £29827 per year | Residential Support Worker - Children's Care
-job_id: 108062155
----
+_No jobs in this group._
 
 ## SUSSEX — POSSIBLES
 
@@ -63,17 +51,7 @@ _No jobs in this group._
 
 ## CUMBRIA SOUTH — SELECTED
 
----
-action:
-SELECTED | Cumbria - South | Barrow-in-furness | £15 per hour (dependent on experience) | Rehabilitation Support Worker
-job_id: 108057926
----
-
----
-action:
-SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
-job_id: 108071061
----
+_No jobs in this group._
 
 ## CUMBRIA SOUTH — POSSIBLES
 
@@ -103,12 +81,6 @@ job_id: 1401785277
 action:
 SELECTED | Hampshire | Eastleigh | £32780 - £35564 per year (Market Supplement, plus Enhancements) | Secure Children's Home Support Worker
 job_id: 1401785578
----
-
----
-action:
-SELECTED | Hampshire | Tadley | £25740 per year | Female Support Worker
-job_id: 108059180
 ---
 
 ---
@@ -291,35 +263,13 @@ SELECTED | London | Ilford | £15,412.00 per annum | Support Worker
 job_id: 2067783
 ---
 
----
-action:
-SELECTED | London | City | £26403 per year | Female Intern Safe House Support Worker
-job_id: 107909605
----
-
 ## LONDON — POSSIBLES
 
 _No jobs in this group._
 
 ## OXFORDSHIRE — SELECTED
 
----
-action:
-SELECTED | Oxfordshire | Banbury | £14.4 per hour | Home Carer
-job_id: 107626596
----
-
----
-action:
-SELECTED | Oxfordshire | Witney | £14.4 per hour | Home Carer
-job_id: 107626591
----
-
----
-action:
-SELECTED | Oxfordshire | Bicester | £14.4 per hour | Home Carer
-job_id: 107626594
----
+_No jobs in this group._
 
 ## OXFORDSHIRE — POSSIBLES
 
