@@ -180,11 +180,10 @@ job_id: 918625004825241190437340
 ## HAMPSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - HAMPSHIRE | Hampshire | Gosport | £34273 - £37570 per year | Fostering Support Worker
 job_id: 1401785747
 ---
-
 ## KENT — SELECTED
 
 ---
