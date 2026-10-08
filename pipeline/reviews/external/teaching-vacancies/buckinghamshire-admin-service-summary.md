@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-10-07
-review_fingerprint: 45961a88c9d0539ca3327cd2b7bf9611bd2afd99d005dcd0eb757a0783528120
-routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
+review_date: 2026-10-08
+review_fingerprint: e646b95d311b97de013151678746c7b61c591534b9cf5f37d1a632ad7e3e8174
+routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 6
+- Records: 15
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 10
 
 ## SELECTED
 
@@ -49,36 +49,6 @@ factual_fingerprint: 47d27f47bd2ad3538feaae30a769db199a46650a28e41d87fa4ad199f37
 source: Teaching Vacancies
 source_job_id: hr-administrative-assistant-stocklake-park-community-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrative-assistant-stocklake-park-community-school
----
-
----
-action: 
-SELECTED | Buckinghamshire | High Wycombe, South East, HP15 7UB | £21,628.00 - £23,200.00 Annually (Actual) Salary – Bucks Pay Range 3 £21,628 - £23,200 (full time equivalent £29,114 - £31,230) | Office Administrator
-employer: Sir William Ramsay School
-closing_date: 2026-10-07T23:59:00+01:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6056cf129b2c60b1e35ecef1f6c8b1cfbca770cf4c3d483384b02a91311ec878
-source: Teaching Vacancies
-source_job_id: office-administrator-cf621f03-1b81-4970-86af-5e6e0d675eec
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-cf621f03-1b81-4970-86af-5e6e0d675eec
----
-
----
-action: 
-SELECTED | Buckinghamshire | Milton Keynes, South East, MK14 6AX | £29,070.00 - £33,672.00 Annually (Actual) Point 11 -20 £29,070 - £33,672 FTE, Pro rata accordingly | Receptionist
-employer: Stephenson Academy
-closing_date: 2026-10-07T23:59:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a14f127d9bcc6aa9507d835fbfb122eb9dfcf60b5328d02ac787e496776cc050
-source: Teaching Vacancies
-source_job_id: receptionist-stephenson-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-stephenson-academy
 ---
 
 ---
@@ -137,7 +107,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-leve
 - [Business Support L3](https://teaching-vacancies.service.gov.uk/jobs/business-support-l3-brooklands-farm-primary-school) — Insufficient admin/service evidence.
 - [Deputy Head's PA and Office Manager](https://teaching-vacancies.service.gov.uk/jobs/deputy-head-s-pa-and-office-manager) — Out-of-scope occupation: deputy head.
 - [Designated Safeguarding Lead](https://teaching-vacancies.service.gov.uk/jobs/designated-safeguarding-lead-brooklands-farm-primary-school) — Insufficient admin/service evidence.
-- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-f25e46f2-769c-4cd5-9bd8-4e71725c3655) — Insufficient admin/service evidence.
+- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-8f6cfa11-ce79-4846-bec1-d44a416c2c86) — Manager title salary ceiling £53,051 is not below £28,000.
+- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-56c55376-78b3-4ad8-a27c-1fdc31ec9895) — Insufficient admin/service evidence.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-royal-grammar-school-high-wycombe) — Manager title salary ceiling £47,020 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-aa5bd69a-1e68-49ee-bfe8-c4153301fa94) — Manager title salary ceiling £48,738 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-winslow-church-of-england-school) — Manager title salary ceiling £41,272 is not below £28,000.

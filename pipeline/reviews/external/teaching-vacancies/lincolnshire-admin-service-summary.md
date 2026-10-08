@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-10-07
-review_fingerprint: 6ab99a6c740e33632f81bace4604baf4f73541c95ca171b2b3ab7442287d7c29
-routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
+review_date: 2026-10-08
+review_fingerprint: 1bd54a8c4759dde2d2a9d2e489478240dbee2d1ec8d02ae8a3485ffcc9f11a1b
+routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 6
-- POSS awaiting decision: 0
+- Records: 11
+- Selected: 7
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 3
 
@@ -111,9 +111,37 @@ source_job_id: receptionist-admin-assistant-boston-endeavour-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-boston-endeavour-academy
 ---
 
+---
+action: 
+SELECTED | Lincolnshire | Boston, East Midlands, PE22 9HR | £22,958.49 - £24,076.23 Annually (Actual) Associate Pay Scale - G4 | School Administrator
+employer: Old Leake Primary Academy
+closing_date: 2026-10-18T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6e82f768b86413e338dfad3ec96a81047c207b2fa43ccc4fd76a77a6e939ce0b
+source: Teaching Vacancies
+source_job_id: school-administrator-old-leake-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-old-leake-primary-academy
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Lincolnshire | Grimsby, Yorkshire and the Humber, DN37 9EH | £26,016.00 - £26,847.00 Annually (FTE) Grade C Points 4 to 6 (£26,016 to £26,847 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary for this role is £22,475.98 | Administration Officer (7666)
+employer: John Whitgift Academy
+closing_date: 2026-10-14T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d268dac5da80fe0ed139892c9073c7d87a8deb30baa71cb23331d083f1033d0d
+source: Teaching Vacancies
+source_job_id: administration-officer-7666
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-7666
+---
 
 ## EXCLUDED BY REVIEW
 

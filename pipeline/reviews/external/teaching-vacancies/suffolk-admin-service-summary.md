@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-10-07
-review_fingerprint: b9b0a620ccea2b1babe95ca6948eb05aa40ad70759f6d29bf2fb1d3323d016ec
-routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
+review_date: 2026-10-08
+review_fingerprint: 49f10b4fc22a68a44b63eca059866b540f14bc1c5b5947b61af86cb4bcbe06bc
+routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 11
-- Selected: 9
-- POSS awaiting decision: 0
+- Selected: 8
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 2
 
@@ -128,21 +128,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administra
 
 ---
 action: 
-SELECTED | Suffolk | Ipswich, East of England, IP2 8PL | £25,646.00 - £26,920.00 Annually (Actual) | Finance, HR Administrator
-employer: Stoke High School - Ormiston Academy
-closing_date: 2026-10-12T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2cc8ba2ba473fc227094a496912984d81d7f55ba6c084ae5dbf6a3fbc60ea02d
-source: Teaching Vacancies
-source_job_id: finance-hr-administrator-stoke-high-school-ormiston-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-hr-administrator-stoke-high-school-ormiston-academy
----
-
----
-action: 
 SELECTED | Suffolk | Ipswich, East of England, IP1 6SG | £25,646.00 Annually (Actual) | Receptionist/Administration Assistant
 employer: Ormiston Endeavour Academy
 closing_date: 2026-10-18T23:59:00+01:00
@@ -158,7 +143,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Suffolk | Ipswich, East of England, IP2 8PL | £25,646.00 - £26,920.00 Annually (Actual) | Finance, HR Administrator
+employer: Stoke High School - Ormiston Academy
+closing_date: 2026-10-12T12:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2cc8ba2ba473fc227094a496912984d81d7f55ba6c084ae5dbf6a3fbc60ea02d
+source: Teaching Vacancies
+source_job_id: finance-hr-administrator-stoke-high-school-ormiston-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-hr-administrator-stoke-high-school-ormiston-academy
+---
 
 ## EXCLUDED BY REVIEW
 

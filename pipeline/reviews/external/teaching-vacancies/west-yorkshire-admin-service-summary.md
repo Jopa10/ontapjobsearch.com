@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-10-07
-review_fingerprint: 3ae3989e27b33ee14eaaf0dfad7c682442ea00861bd818c613b7c84c50652b5c
-routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
+review_date: 2026-10-08
+review_fingerprint: a007a2fc35ebce53d42b38a330315e95370e68c2dae27fc54413dd9f34024ce0
+routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 37
-- Selected: 13
-- POSS awaiting decision: 5
+- Selected: 15
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 19
 
@@ -53,6 +53,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
+SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD6 3PX | £21,978.00 - £22,506.00 Annually (Actual) Band 5 SCP 5-6 (£21,978 - £22,506 actual salary) pay award pending. 37 hours per week term time only plus two training days | Administration Assistant
+employer: Buttershaw Business & Enterprise College Academy
+closing_date: 2026-10-11T17:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 0845fdd000ed8a085e616bfeaf7862c49a0387fcc0715f52cb57648e5bb290e9
+source: Teaching Vacancies
+source_job_id: administration-assistant-buttershaw-business-enterprise-college-academy-bradford-west-yorkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-buttershaw-business-enterprise-college-academy-bradford-west-yorkshire
+---
+
+---
+action: 
 SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS7 4AW | B3 | Administrative Assistant
 employer: Holy Rosary and St Anne's Catholic Primary School, a Voluntary Academy
 closing_date: 2026-10-20T12:00:00+01:00
@@ -83,6 +98,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+SELECTED | Yorkshire - West | Halifax, Yorkshire and the Humber, HX2 0BA | £23,458.00 - £25,003.00 Annually (Actual) Scale 4, SCP 7-11 (FTE £26,403 - £28,142), Term Time Plus 10 Days, 37 Hours Per Week | Administrator
+employer: The Halifax Academy
+closing_date: 2026-10-19T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 61afa72141e7475d1600554b56582a917cb619f0480d24f08a86360cc3c0eee5
+source: Teaching Vacancies
+source_job_id: administrator-9760a2d7-68da-4bd7-a0dd-b900c803df34
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-9760a2d7-68da-4bd7-a0dd-b900c803df34
+---
+
+---
+action: 
 SELECTED | Yorkshire - West | Halifax, Yorkshire and the Humber, HX2 9SU | £22,111.00 - £22,462.00 Annually (Actual) NJC Scale3 Points 5-6 (3.3% pay award pending) | Apprentice Business Support Administrator
 employer: The North Halifax Grammar School
 closing_date: 2026-10-30T23:59:00+00:00
@@ -90,25 +120,10 @@ reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: NEW_REVIEW
-factual_fingerprint: 27e84ecae8f97fe46f9f971042256c54223e378679aafbc7af2fbbea87863dc4
+factual_fingerprint: 95f412b0455cd82a324134e6b3d75c176a30ddd812ecbbda5957ced6a29e456e
 source: Teaching Vacancies
 source_job_id: apprentice-business-support-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-business-support-administrator
----
-
----
-action: 
-SELECTED | Yorkshire - West | Halifax, Yorkshire and the Humber, HX2 9SU | £25,578.00 - £30,141.00 Annually (Actual) Term time plus 10 days (to be worked over the exam results period) | Data Administrator
-employer: The North Halifax Grammar School
-closing_date: 2026-10-07T23:59:00+01:00
-reason: Clear admin/service title: administrator, data administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 257ab7ffc89119f94fdfc7cfdd4150f1fcf8028c4e7fdfb8b96c45d74aeed43a
-source: Teaching Vacancies
-source_job_id: data-administrator-the-north-halifax-grammar-school-halifax-west-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-administrator-the-north-halifax-grammar-school-halifax-west-yorkshire
 ---
 
 ---
@@ -169,6 +184,21 @@ factual_fingerprint: f9cda97ec15a105cc1a00e3ff901d8a62fa9d8b7818ade4f1e96fca1b9b
 source: Teaching Vacancies
 source_job_id: leadership-team-administrator-hybrid
 source_url: https://teaching-vacancies.service.gov.uk/jobs/leadership-team-administrator-hybrid
+---
+
+---
+action: 
+SELECTED | Yorkshire - West | Wetherby, Yorkshire and the Humber, LS23 6DX | £25,185-£25,989 | Office Administrator
+employer: Primrose Lane Primary School
+closing_date: 2026-11-06T12:00:00+00:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: f22604bc3563e4361c632b9cb1a1cce54fa268cfdb030b8d12501376f85b8364
+source: Teaching Vacancies
+source_job_id: office-administrator-primrose-lane-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-primrose-lane-primary-school
 ---
 
 ---
@@ -235,21 +265,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-office
 
 ---
 action: 
-POSS | Yorkshire - West | Halifax, Yorkshire and the Humber, HX2 0BA | £23,458.00 - £25,003.00 Annually (Actual) Scale 4, SCP 7-11 (FTE £26,403 - £28,142), Term Time Plus 10 Days, 37 Hours Per Week | Administrator
-employer: The Halifax Academy
-closing_date: 2026-10-19T09:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 61afa72141e7475d1600554b56582a917cb619f0480d24f08a86360cc3c0eee5
-source: Teaching Vacancies
-source_job_id: administrator-9760a2d7-68da-4bd7-a0dd-b900c803df34
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-9760a2d7-68da-4bd7-a0dd-b900c803df34
----
-
----
-action: 
 POSS | Yorkshire - West | Leeds, Yorkshire and the Humber, LS16 5EA | £35,837.00 - £37,629.00 Annually (Actual) | Exams and Data Officer
 employer: Abbey Grange Church of England Academy
 closing_date: 2026-10-12T09:00:00+01:00
@@ -276,21 +291,6 @@ factual_fingerprint: 4bf01274b15814861596092b9df57521c3a60e32c4ae190e755545e4024
 source: Teaching Vacancies
 source_job_id: operations-officer-bradford-alternative-provision-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-bradford-alternative-provision-academy
----
-
----
-action: 
-POSS | Yorkshire - West | Knottingley, Yorkshire and the Humber, WF11 0PJ | £30,515.00 - £33,119.00 Annually (FTE) Grade F Points 14 to 19 (£30,515 to £33,119 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £13,893.91. | SEN Support Officer (7557)
-employer: Simpson's Lane Academy
-closing_date: 2026-10-07T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: f39a8610da98a912cf8b3010e76a5935a918d882eb755ea3528bfae3e361c744
-source: Teaching Vacancies
-source_job_id: sen-support-officer-7557
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-support-officer-7557
 ---
 
 ## EXCLUDED BY REVIEW

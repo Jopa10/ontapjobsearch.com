@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-10-07
-review_fingerprint: 325656214ed1de6861db275393014d7d04f471855a454b18e220aa30e385721a
-routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
+review_date: 2026-10-08
+review_fingerprint: 2b061d03297e5b6aa0bb585b3d4323458f49c207c17ea79895dc8800f332a5ee
+routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 5
+- Records: 10
+- Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 4
 
 ## SELECTED
 
@@ -49,6 +49,21 @@ factual_fingerprint: a714004cc2fe9582fb3ecb708ba2f52d2ee8d6ace98e9c81d9cddb2e6f9
 source: Teaching Vacancies
 source_job_id: administrative-assistant-hillview-school-for-girls-tonbridge-kent
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-hillview-school-for-girls-tonbridge-kent
+---
+
+---
+action: 
+SELECTED | Kent | Chatham, South East, ME5 0LE | £26,016.00 - £29,071.00 Annually (Actual) Actual Salary Between £11,758 - £13,139 | Administrative Assistant
+employer: Walderslade School
+closing_date: 2026-10-13T09:00:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 45889b0ec06a9e589ca6c0c1ddc8803c13b34332a62131db16f184b3d17baa06
+source: Teaching Vacancies
+source_job_id: administrative-assistant-walderslade-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-walderslade-school
 ---
 
 ---
@@ -106,6 +121,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 
 ## HARD_PASS
 
+- [Deputy Attendance Improvement Coordinator](https://teaching-vacancies.service.gov.uk/jobs/deputy-attendance-improvement-coordinator-maritime-academy) — Insufficient admin/service evidence.
+- [Finance Officer Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-maternity-cover-the-diocese-of-canterbury-academies-trust) — Insufficient admin/service evidence.
 - [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-26e0bcfd-fd42-4fe6-bedf-503af84df187) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-staplehurst-school) — Manager title salary ceiling £29,020 is not below £28,000.
 

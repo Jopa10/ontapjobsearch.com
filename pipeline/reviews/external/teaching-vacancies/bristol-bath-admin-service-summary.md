@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-10-07
-review_fingerprint: b3e8608bb7ec1ceb7c0ab79563bcfffcad17c364c269389c829ceafba80e4b4c
-routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
+review_date: 2026-10-08
+review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,15 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 1
+- Records: 3
+- Selected: 0
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
 
 ## SELECTED
 
----
-action: 
-SELECTED | Bristol & Bath | Bristol, South West, BS9 2NT | £26,824.00 - £28,142.00 Annually (Actual) Actual salary £22,677 - £23,791 per annum | School Administrator
-employer: North Star 265°
-closing_date: 2026-10-07T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 281e8ed0eec7c8a79a76716221b5e8d08cd07ef5275e9a986ec97c83f168b664
-source: Teaching Vacancies
-source_job_id: school-administrator-north-star-265
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-north-star-265
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 

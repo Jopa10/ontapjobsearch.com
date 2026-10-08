@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-10-07
-review_fingerprint: 60f2075aedcb37c422f7d75e6b71998a18ab1d8456aad6db0e1ce59d8dce3238
-routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
+review_date: 2026-10-08
+review_fingerprint: 774a6cdece2ea77716aa9875bff05f5942c9a56367ac38dffe37cbf474e242f4
+routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 3
+- Records: 12
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 8
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Cornwall | Penzance, South West, TR19 7JU | 15,886.74 | Administrator
+employer: St Just Primary School
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b088dfea4e8ccc6bc75a5da35eab46262950a0386a764214cff1a278944d2ba2
+source: Teaching Vacancies
+source_job_id: administrator-st-just-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-st-just-primary-school
+---
 
 ---
 action: 
@@ -79,6 +94,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/year-team-administrat
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-saltash-community-school) — Insufficient admin/service evidence.
 - [HR Lead](https://teaching-vacancies.service.gov.uk/jobs/hr-lead-pool-academy) — Insufficient admin/service evidence.
 - [Minibus Driver](https://teaching-vacancies.service.gov.uk/jobs/minibus-driver-104babdb-863b-4900-8121-25129beb540f) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-camelford-community-primary-school) — Manager title salary ceiling £33,673 is not below £28,000.
 - [People Lead](https://teaching-vacancies.service.gov.uk/jobs/people-lead-1946fc8a-54b9-4506-808b-a157f27767c8) — Insufficient admin/service evidence.
 - [SEND Access Arrangements Coordinator](https://teaching-vacancies.service.gov.uk/jobs/send-access-arrangements-coordinator) — Insufficient admin/service evidence.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-cornwall-education-learning-trust) — Insufficient admin/service evidence.

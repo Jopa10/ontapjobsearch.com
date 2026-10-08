@@ -1,9 +1,9 @@
-# Teaching Vacancies regional review — Cumbria - South
+# Teaching Vacancies regional review — Merseyside - Wirral
 
 review_date: 2026-10-08
-review_fingerprint: eef9abe3aee90aecb81b9dc91b8ad923ad2b35fd3ebdda8938b25c07ebbb73dc
+review_fingerprint: 216a74d6507fd70a89d9132ed4f59f126cd12a1043ce394b4a64942b777f18c7
 routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
-ontap_region: Cumbria - South
+ontap_region: Merseyside - Wirral
 slice_category: admin_service
 slice_status: UNREGISTERED
 
@@ -23,17 +23,17 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Cumbria - South | Barrow-in-Furness, North West, LA13 9LE | £25,614.00 - £26,016.00 Annually (FTE) Pro rata salary £22496 to £22849 | Receptionist/Admin Assistant
-employer: St Bernards Catholic High School, Barrow
-closing_date: 2026-10-09T23:59:00+01:00
-reason: Clear admin/service title: admin assistant, receptionist
+SELECTED | Merseyside - Wirral | Wirral, North West, CH62 5EF | £25,185.00 Annually (FTE) | Office Administrator
+employer: Church Drive Primary School
+closing_date: 2026-10-19T16:00:00+01:00
+reason: Clear admin/service title: administrator, office administrator
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: 294f97d5b13059c469669b95ffa9c672541b9067bf210e81b60bd32245c340cd
+factual_fingerprint: 8e04b98823547a17b47762449385f3985ca98efefbd0f32a731bf34462f3e73f
 source: Teaching Vacancies
-source_job_id: receptionist-admin-assistant-st-bernards-catholic-high-school-barrow
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-st-bernards-catholic-high-school-barrow
+source_job_id: office-administrator-church-drive-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-church-drive-primary-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

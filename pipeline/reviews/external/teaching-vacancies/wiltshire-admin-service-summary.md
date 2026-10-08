@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-10-07
-review_fingerprint: cb1e57c987a467df300cd04d2220fc795ae7ccd2b0ec6c27fe0e9873f910bcfd
-routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
+review_date: 2026-10-08
+review_fingerprint: e7b4a23d12550440d303cf4bd8f30b394a56596f0af4acfeba22b33700853111
+routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -20,6 +20,21 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 - Hard pass: 6
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Wiltshire | Swindon, South West, SN3 6EX | £19,965.60 - £20,282.91 Annually (Actual) NJC 5-6 (£26,427 - £26,847 FTE) | Administrative Assistant
+employer: Liden Academy
+closing_date: 2026-10-28T23:59:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 221b8a504c521ab08c43987467895a4dc33232c04c6acc66072850a103468e96
+source: Teaching Vacancies
+source_job_id: administrative-assistant-181abc61-ea48-424a-9686-308bb273394d
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-181abc61-ea48-424a-9686-308bb273394d
+---
 
 ---
 action: 
@@ -49,21 +64,6 @@ factual_fingerprint: e2324e5b9916bcfce1767014abc30a0e937cdf88aa554c3beaf223bc6f2
 source: Teaching Vacancies
 source_job_id: office-administrator-5725eac8-39d6-4276-82f4-79f7dd232e3d
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-5725eac8-39d6-4276-82f4-79f7dd232e3d
----
-
----
-action: 
-SELECTED | Wiltshire | Melksham, South West, SN12 6QZ | £18,143.00 - £19,021.00 Annually (Actual) WHFNJC K Grade | Pastoral Administrator
-employer: Melksham Oak Community School
-closing_date: 2026-10-18T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 48c93243bc3b0d1913b9fc601d5cc63b206c3876bcff4cf9247eaa1ed03c8732
-source: Teaching Vacancies
-source_job_id: pastoral-administrator-melksham-oak-community-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-melksham-oak-community-school
 ---
 
 ---

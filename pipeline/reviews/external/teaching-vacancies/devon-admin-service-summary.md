@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-10-07
-review_fingerprint: 8cf9008eed3d25049a645c023bfe770d218ee19c6f16854eff874ce784a2afff
-routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
+review_date: 2026-10-08
+review_fingerprint: 30b18eeabe52b61672d5f5e86a9d1884785475c6ad583848c8600067461e5b95
+routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
-- Selected: 12
+- Records: 21
+- Selected: 13
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 5
@@ -79,6 +79,21 @@ factual_fingerprint: 0401b31c28232de05b1465ed4b8e6efe746f1ec56831aa03e1a6267ddee
 source: Teaching Vacancies
 source_job_id: exams-and-admissions-officer
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-and-admissions-officer
+---
+
+---
+action: 
+SELECTED | Devon | Plymouth, South West, PL1 5QG | Full Time | Permanent | £26,440 Per Annum | General Support Administrator
+employer: City College Plymouth
+closing_date: 2026-10-21T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 03d68b705a85dcc8f8908d88676d3b4c87ed5fa17c23961818366089c9b69651
+source: Teaching Vacancies
+source_job_id: general-support-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/general-support-administrator
 ---
 
 ---
@@ -254,7 +269,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 
 ## HARD_PASS
 
-- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-dartmoor-multi-academy-trust) — Insufficient admin/service evidence.
+- [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-ea477c9c-8845-4838-bec8-625cc8839ab7) — Insufficient admin/service evidence.
 - [Finance Business Partner - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-maternity-cover) — Insufficient admin/service evidence.
 - [People Advisor ( Devon Cluster)](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-devon-cluster) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-8814e3e0-1c77-47a4-8dae-d06f210769fa) — Insufficient admin/service evidence.

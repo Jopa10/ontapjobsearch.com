@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-10-07
-review_fingerprint: 25a57c98980f306ae846139802d8ce600f97ce5bb0eac75fcbc66fc15f606426
-routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
+review_date: 2026-10-08
+review_fingerprint: f1125f2ce0a05ab255bcaf661d7133bb4bebb88318560edb7a930b9f8ca66d3f
+routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 4
+- Records: 11
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 7
 
 ## SELECTED
-
----
-action: 
-SELECTED | Oxfordshire | Bampton, South East, OX18 2NJ | £26,016.00 - £26,428.00 Annually (FTE) Pro rata 21,126 - £21,461 | Administrative Assistant
-employer: Bampton CofE Primary School
-closing_date: 2026-10-07T23:59:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 53036fa163499f625b7e3a69b3b1f64ddedab60ecf2eccc21a4507523fb665b6
-source: Teaching Vacancies
-source_job_id: administrative-assistant-bampton-cofe-primary-school-bampton-oxfordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-bampton-cofe-primary-school-bampton-oxfordshire
----
 
 ---
 action: 

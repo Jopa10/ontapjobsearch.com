@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-10-07
-review_fingerprint: 8e7e0640ff1691e0e2906a4e1404715ff294ccd84a2484fd90f3d88fed11461b
-routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
+review_date: 2026-10-08
+review_fingerprint: b336925617dc34ae9764eacc3c7a2f98b3166ae4895ccfbc78fa1a754ddcbc85
+routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 22
-- Selected: 8
-- POSS awaiting decision: 3
+- Records: 23
+- Selected: 10
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 11
 
 ## SELECTED
-
----
-action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG4 2LR | £22,753 Actual Salary (£26,016 FTE) | Administrative Assistant
-employer: Netherfield Primary School
-closing_date: 2026-10-08T12:00:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0888ff7afe13720fbe1f299afee1d1b7d497feff1c048014608af77b237af55d
-source: Teaching Vacancies
-source_job_id: administrative-assistant-netherfield-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-netherfield-primary-school
----
 
 ---
 action: 
@@ -98,6 +83,51 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-redhill
 
 ---
 action: 
+SELECTED | Nottinghamshire | Mansfield, East Midlands, NG19 8DF | £22,229.00 - £22,578.00 Annually (Actual) GAT 3, 37 hours per week, Monday - Friday, Term Time only | Administrator
+employer: The Bramble Academy
+closing_date: 2026-10-18T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 20644841fa29fef276144443be18aea76012d45ee3c5eb9964edf6880f2235fa
+source: Teaching Vacancies
+source_job_id: administrator-the-bramble-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-the-bramble-academy
+---
+
+---
+action: 
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG12 2FS | Grade 3 | Office Administrator and Receptionist
+employer: Radcliffe-on-Trent Junior School
+closing_date: 2026-10-30T15:00:00+00:00
+reason: Clear admin/service title: administrator, office administrator, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6200db354466abed7e59a6cbec9bd5b2bbfc9a0447f1090310af6a8145f33ea6
+source: Teaching Vacancies
+source_job_id: office-administrator-and-receptionist-radcliffe-on-trent-junior-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-and-receptionist-radcliffe-on-trent-junior-school
+---
+
+---
+action: 
+SELECTED | Nottinghamshire | Nottingham, NG9 6RZ | £16,719.00 - £17,824.00 Annually (Actual) Part time, Term time only, NJC 8-12 (26 hours) | SALT Administrator
+employer: The Spencer Academies Trust
+closing_date: 2026-10-23T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d134d4df5c798b4bb686de80c1464d6b9cedb33de18584b55ac5934623bf89c6
+source: Teaching Vacancies
+source_job_id: salt-administrator-the-spencer-academies-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/salt-administrator-the-spencer-academies-trust
+---
+
+---
+action: 
 SELECTED | Nottinghamshire | Nottingham, East Midlands, NG13 0GL | £26,022.00 - £26,436.00 Annually (FTE) Actual Salary £15650-£15899 | School Administrator
 employer: Redmile Church of England Primary School
 closing_date: 2026-10-23T23:59:00+01:00
@@ -145,21 +175,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administra
 
 ---
 action: 
-POSS | Nottinghamshire | Mansfield, East Midlands, NG19 8DF | £22,229.00 - £22,578.00 Annually (Actual) GAT 3, 37 hours per week, Monday - Friday, Term Time only | Administrator
-employer: The Bramble Academy
-closing_date: 2026-10-18T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 20644841fa29fef276144443be18aea76012d45ee3c5eb9964edf6880f2235fa
-source: Teaching Vacancies
-source_job_id: administrator-the-bramble-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-the-bramble-academy
----
-
----
-action: 
 POSS | Nottinghamshire | Retford, DN22 7GR | £31,015.00 - £31,015.00 Annually (FTE) | Governance Professional
 employer: Diverse Academies Trust
 closing_date: 2026-10-18T23:59:00+01:00
@@ -199,9 +214,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-the-go
 - [Communications & Marketing Assistant](https://teaching-vacancies.service.gov.uk/jobs/communications-marketing-assistant) — Insufficient admin/service evidence.
 - [Data & MIS Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-mis-assistant) — Insufficient admin/service evidence.
 - [Data Protection Support Officer](https://teaching-vacancies.service.gov.uk/jobs/data-protection-support-officer) — Insufficient admin/service evidence.
-- [HR and Recruitment Team Leader](https://teaching-vacancies.service.gov.uk/jobs/hr-and-recruitment-team-leader) — Insufficient admin/service evidence.
 - [HR/People Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-people-operations-manager) — Manager title salary ceiling £57,358 is not below £28,000.
 - [Office Manager in Wilford, Nottingham](https://teaching-vacancies.service.gov.uk/jobs/office-manager-in-wilford-nottingham) — Manager title salary ceiling £31,022 is not below £28,000.
+- [People & Culture Business Partner](https://teaching-vacancies.service.gov.uk/jobs/people-culture-business-partner-tapestry-learning-partnership-nottingham-not-recorded) — Insufficient admin/service evidence.
 - [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-96d0e4ce-127e-44c5-84cd-fca1d087464c) — Insufficient admin/service evidence.
 - [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-the-flying-high-academy) — Insufficient admin/service evidence.
 - [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-burntstump-seely-cofe-primary-academy) — Manager title salary ceiling £30,514 is not below £28,000.

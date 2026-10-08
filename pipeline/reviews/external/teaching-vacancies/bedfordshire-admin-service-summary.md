@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-10-07
-review_fingerprint: c0ad323cbf6e46910e328582f28e7a14990d970dd0c347588deefc5f272c7fe4
-routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
+review_date: 2026-10-08
+review_fingerprint: 75a01ee8c53ad110b1b54cf25ef1d5d0964a103e16fd9e8c7cc635ef6b322e66
+routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 8
+- Records: 12
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 6
@@ -68,21 +68,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-pu
 
 ---
 action: 
-SELECTED | Bedfordshire | Leighton Buzzard, East of England, LU7 1EX | £12,055.00 - £12,244.00 Annually (Actual) NJC Level 2A pt 3-4 (£25,614 - £26,016 FTE) | Clerical and HR Administrator
-employer: Leighton Middle School
-closing_date: 2026-10-19T10:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: cb2e407add5b060a15553e119e1516b3d2f1bfb54e3a2c27f7595f394189bccd
-source: Teaching Vacancies
-source_job_id: clerical-and-hr-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-and-hr-administrator
----
-
----
-action: 
 SELECTED | Bedfordshire | Luton, LU3 3QN | £16,006.00 - £17,349.00 Annually (Actual) L4 pts 9 - 14 pro rata'd | HR Administrator
 employer: Chiltern Learning Trust
 closing_date: 2026-10-12T09:00:00+01:00
@@ -111,36 +96,6 @@ source_job_id: pa-to-slt-and-admissions-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-slt-and-admissions-administrator
 ---
 
----
-action: 
-SELECTED | Bedfordshire | Dunstable, East of England, LU5 6AB | £20,086.00 - £20,727.00 Annually (Actual) | Receptionist & Administrative Assistant
-employer: Parkfields Middle School
-closing_date: 2026-10-08T09:00:00+01:00
-reason: Clear admin/service title: administrative assistant, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b50e6f9223289befb6b68d8cf21fff3c273b505eb7985264511e107c77bd1868
-source: Teaching Vacancies
-source_job_id: receptionist-administrative-assistant-parkfields-middle-school-dunstable-bedfordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrative-assistant-parkfields-middle-school-dunstable-bedfordshire
----
-
----
-action: 
-SELECTED | Bedfordshire | Leighton Buzzard, East of England, LU7 3FU | £23,335.00 - £24,085.00 Annually (Actual) | Reprographics & Admin Assistant
-employer: Gilbert Inglefield Academy
-closing_date: 2026-10-08T09:00:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ec911bd305d0498f75f51c2aaea52eb5780466f935c0f5f476cbd7fc7d9598dd
-source: Teaching Vacancies
-source_job_id: reprographics-admin-assistant-gilbert-inglefield-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/reprographics-admin-assistant-gilbert-inglefield-academy
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -167,7 +122,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-manager-all-sain
 - [Admin & Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-finance-assistant-mark-rutherford-school) — Insufficient admin/service evidence.
 - [Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/facilities-manager-denbigh-primary-school) — Manager title salary ceiling £43,149 is not below £28,000.
 - [Financial Controller](https://teaching-vacancies.service.gov.uk/jobs/financial-controller-c66a5ec1-0bf4-4c91-a1e1-d206dac91d10) — Insufficient admin/service evidence.
-- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-97452e32-6da2-48ef-a3a1-63cdaec5f186) — Insufficient admin/service evidence.
+- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-27327254-91ed-4388-982d-a24ff7b17cb0) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-greys-education-centre) — Manager title salary ceiling £34,811 is not below £28,000.
 - [SCHOOL BUSINESS MANAGER](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-putteridge-primary-school) — Manager title salary ceiling £49,282 is not below £28,000.
 

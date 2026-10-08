@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-10-07
-review_fingerprint: 1213f47def60c7ac8064ac2f3ffba24dd7dcc5e641170ceb9ab68e414618eb53
-routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
+review_date: 2026-10-08
+review_fingerprint: 25f819549112bf1c29206b5da16d318954e6447d6279d46bb388355174b48694
+routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 61
-- Selected: 26
-- POSS awaiting decision: 2
+- Records: 64
+- Selected: 28
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 33
 
@@ -64,6 +64,21 @@ factual_fingerprint: 838a21efaefc6b81f9698c9b0da0407eb0f07ea3e73cbcf3dc6ab66ab16
 source: Teaching Vacancies
 source_job_id: administrative-assistant-welfare-part-time
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-welfare-part-time
+---
+
+---
+action: 
+SELECTED | London | Orpington, London, BR6 9SA | £24,717.00 Annually (Actual) £24,717 Actual Salary, FTE £28,645 | Administrator - Full Time
+employer: Newstead Wood School
+closing_date: 2026-10-11T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c4a1107d4edc0b5787866789638908fa951ae9dc72de24081e3545d3a7e70eab
+source: Teaching Vacancies
+source_job_id: administrator-full-time-newstead-wood-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-full-time-newstead-wood-school
 ---
 
 ---
@@ -203,6 +218,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-assi
 
 ---
 action: 
+SELECTED | London | London, London, E14 0AF | £33,700-£35,500 per annum | CTEC Administrator
+employer: New City College
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 13a56cbe0e517a1a17f992f83cc7ff8541c27a95f83df947b2f0405b075878ae
+source: Teaching Vacancies
+source_job_id: ctec-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/ctec-administrator
+---
+
+---
+action: 
 SELECTED | London | Wallington, London, SM6 8NQ | Scale 4/5 £14,044.27 - £15,762.29 per annum inclusive of London Weighting Allowance (FTE £30,279 - £33,983 per annum). | Education and Health Care Plan (EHCP) Administrator
 employer: Carew Academy
 closing_date: 2026-10-12T23:59:00+01:00
@@ -338,17 +368,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ---
 action: 
-SELECTED | London | London, London, NW8 0NW | £31,639.00 - £33,044.00 Annually (Actual) OAT Grade 4 Inner London, SCP 11 - 14 | Receptionist at OBA Satellite Provision at Avondale Park Primary School
-employer: Ormiston Beachcroft Academy
-closing_date: 2026-10-08T12:00:00+01:00
-reason: Clear admin/service title: receptionist
+SELECTED | London | Barking, London, IG11 9AG | £24,710.00 - £25,063.00 Annually (Actual) Scale 3 (Pt 5-6, £30,408-£30,843 full time) Prorated salary range is likely to be approx. £24,710 - £25,063, (dependant on experience, weeks per year and continuous service). Based on working 35 hours per week, Term time only | Receptionist/Administrative Assistant
+employer: Barking Abbey School, A Specialist Sports and Humanities College
+closing_date: 2026-11-02T08:00:00+00:00
+reason: Clear admin/service title: administrative assistant, receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 91ca9009d6a75bfea4d7e27c3e868191c67309c2d93e63287b28e01a286e42e4
+factual_fingerprint: 4f452880b1bebb674b19673f95f1d3d529352bd6442947706cfe43dc2d6d0d55
 source: Teaching Vacancies
-source_job_id: receptionist-at-oba-satellite-provision-at-avondale-park-primary-school-ormiston-beachcroft-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-at-oba-satellite-provision-at-avondale-park-primary-school-ormiston-beachcroft-academy
+source_job_id: receptionist-administrative-assistant-7e8356f9-db59-4ab1-ade5-977261759017
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrative-assistant-7e8356f9-db59-4ab1-ade5-977261759017
 ---
 
 ---
@@ -443,6 +473,21 @@ source_job_id: exams-and-data-officer-001df384-4611-4e33-97d4-7c89842c0e25
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-officer-001df384-4611-4e33-97d4-7c89842c0e25
 ---
 
+---
+action: 
+POSS | London | Loughton, IG10 3HE | £22,841.00 - £27,511.00 Annually (Actual) | Governance Manager
+employer: Epping Forest Schools Partnership Trust
+closing_date: 2026-11-02T12:00:00+00:00
+reason: Manager title below £28,000 salary ceiling requires review
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3ed5028a1ad55ac64085488fd3884cd21ec25f525e88214bf27e1e393514448d
+source: Teaching Vacancies
+source_job_id: governance-manager-epping-forest-schools-partnership-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-manager-epping-forest-schools-partnership-trust
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -462,6 +507,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-office
 - [Data Manager / Support ICT Officer](https://teaching-vacancies.service.gov.uk/jobs/data-manager-support-ict-officer-chadwell-heath-academy) — Manager title without salary evidence below £28,000.
 - [Deputy Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/deputy-chief-financial-officer-connect-education-trust) — Insufficient admin/service evidence.
 - [Director of HR](https://teaching-vacancies.service.gov.uk/jobs/director-of-hr-orion-education-chislehurst-not-recorded) — Insufficient admin/service evidence.
+- [EA to the Principal](https://teaching-vacancies.service.gov.uk/jobs/ea-to-the-principal) — Out-of-scope occupation: principal.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-blackfen-school-for-girls) — Manager title salary ceiling £58,347 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-breakspear-school) — Insufficient admin/service evidence.
 - [H3 Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/h3-admin-officer) — Insufficient admin/service evidence.
@@ -469,14 +515,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-office
 - [Headteacher's PA](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-the-heathland-school-hounslow) — Out-of-scope occupation: teacher, headteacher.
 - [Human Resources Manager (Schools)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-manager-schools-netley-primary-school) — Manager title salary ceiling £41,000 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-chadwell-heath-academy-romford-essex) — Manager title without salary evidence below £28,000.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-hawes-down-primary-school) — Manager title salary ceiling £28,146 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-victory-primary-school-london) — Manager title without salary evidence below £28,000.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-blackfen-school-for-girls) — Manager title salary ceiling £50,583 is not below £28,000.
 - [Part Time HR Officer](https://teaching-vacancies.service.gov.uk/jobs/part-time-hr-officer) — Insufficient admin/service evidence.
 - [Pupil Support Lead (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/pupil-support-lead-maternity-cover) — Insufficient admin/service evidence.
 - [Regional HR Partner](https://teaching-vacancies.service.gov.uk/jobs/regional-hr-partner-36023a7d-c903-4173-b385-43f854d87e14) — Insufficient admin/service evidence.
+- [Reprographics Technician](https://teaching-vacancies.service.gov.uk/jobs/reprographics-technician-robert-clack-school-dagenham-essex) — Out-of-scope occupation: technician.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-bousfield-primary-school-london) — Manager title salary ceiling £59,394 is not below £28,000.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-grange-primary-school-london) — Manager title without salary evidence below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-handsworth-primary-school) — Manager title without salary evidence below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-sacred-heart-roman-catholic-primary-school) — Manager title salary ceiling £48,519 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-wells-primary-school) — Manager title without salary evidence below £28,000.

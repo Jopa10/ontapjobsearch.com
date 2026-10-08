@@ -1,11 +1,11 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-10-07
-review_fingerprint: a8f317bceb202a73d0b351e37bd889566d9fc150da8eaffb98055887f2205df6
-routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
+review_date: 2026-10-08
+review_fingerprint: 55955e3d3e4b2c15cf5673e9c01dd97f368254ab901f023b3468d376f6016483
+routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
 ontap_region: Greater Manchester - North
 slice_category: admin_service
-slice_status: UNREGISTERED
+slice_status: LIVE
 
 Edit only the `action:` line in each editable block.
 Blank POSS decisions remain unpublished.
@@ -28,7 +28,7 @@ employer: St Patrick's Roman Catholic Primary School
 closing_date: 2026-10-14T23:59:00+01:00
 reason: Clear admin/service title: administration assistant
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: edb84ca06584fa16776d98b0b872a98fd1b6c9343fdcb9b37a02b5108db015f4
 source: Teaching Vacancies
@@ -43,7 +43,7 @@ employer: Oulder Hill Leadership Academy
 closing_date: 2026-10-18T23:59:00+01:00
 reason: Clear admin/service title: business support officer
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 24553a06e4d5c3ee320e53c2905a5bb875657ef38eaa662acb62dcf7878eef42
 source: Teaching Vacancies
@@ -58,7 +58,7 @@ employer: Star Radcliffe Academy
 closing_date: 2026-10-11T23:59:00+01:00
 reason: Clear admin/service title: business support officer
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 9c09279201e1e4b28c135de68da5ec9a94dda6fef76c304db0b0e9a0046d4fb9
 source: Teaching Vacancies
@@ -73,7 +73,7 @@ employer: Star Radcliffe Academy
 closing_date: 2026-10-18T23:59:00+01:00
 reason: Clear admin/service title: business support officer
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: da2c5f67b67f6cd0dd1330581ee681a050f312ea7ea23648598185a8bf638448
 source: Teaching Vacancies
@@ -88,7 +88,7 @@ employer: Kingfisher Special School
 closing_date: 2026-10-19T08:00:00+01:00
 reason: Clear admin/service title: administrator, office administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: d91cb21b94eaabc2df9733689181ffc1bb911c9980c9a66dfd2dae629a0c210d
 source: Teaching Vacancies
@@ -103,7 +103,7 @@ employer: E-ACT the Oldham Academy North
 closing_date: 2026-10-12T09:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 8e4ed9d92a746c27254cc67e68e38b22e8ebd9b47ad02ce5fe360d6decdb4c83
 source: Teaching Vacancies
@@ -120,7 +120,7 @@ employer: North Chadderton School
 closing_date: 2026-11-02T12:00:00+00:00
 reason: Borderline school administration title: data officer
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 4326965fe5c5175325553b1e34d0ab34ca4c575bdd201d31b65311a1bbb300bd
 source: Teaching Vacancies

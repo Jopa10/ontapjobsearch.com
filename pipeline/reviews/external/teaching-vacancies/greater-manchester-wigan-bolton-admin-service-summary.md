@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Wigan & Bolton
 
-review_date: 2026-10-07
+review_date: 2026-10-08
 review_fingerprint: 9b033ee7511a3a66e4fa6cb81b05dbd40dfa5ca55233dd1f6dbbd9b9f264cb7c
-routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
+routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
 ontap_region: Greater Manchester - Wigan & Bolton
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 10
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 8
 
 ## SELECTED
 
@@ -64,6 +64,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-admin-assist
 - [Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-the-westleigh-school) — Insufficient admin/service evidence.
 - [Business Support Manager](https://teaching-vacancies.service.gov.uk/jobs/business-support-manager-up-holland-high-school) — Manager title without salary evidence below £28,000.
 - [Director of Finance/ Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/director-of-finance-chief-financial-officer-the-quill-c-of-e-trust) — Insufficient admin/service evidence.
+- [Exams and MIS Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-and-mis-officer) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-mary-s-rc-primary-school) — Manager title salary ceiling £37,900 is not below £28,000.
 - [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-king-s-leadership-academy-bolton) — Manager title salary ceiling £32,046 is not below £28,000.
 - [Senior Administration Officer (Fixed Term)](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-fixed-term) — Insufficient admin/service evidence.

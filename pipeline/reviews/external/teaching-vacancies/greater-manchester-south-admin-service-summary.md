@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - South
 
-review_date: 2026-10-07
+review_date: 2026-10-08
 review_fingerprint: e27722ecaeeaf70037fc1442cf47d87d1d799f75bdb70a7a16760294f1f4370f
-routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
+routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
 ontap_region: Greater Manchester - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
+- Records: 2
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 0
+- Hard pass: 1
 
 ## SELECTED
 
@@ -46,7 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-hyde-hi
 
 ## HARD_PASS
 
-- None.
+- [Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-manager-achieve-and-learn-trust) — Manager title salary ceiling £40,991 is not below £28,000.
 
 ## Safety boundary
 

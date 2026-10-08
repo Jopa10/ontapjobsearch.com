@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-10-07
-review_fingerprint: eb2817477f723344944d899441389dd4ed00b439e8e2ade6d411be6988065afa
-routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
+review_date: 2026-10-08
+review_fingerprint: faaf01f6c77bba70e3411a51670b7f7de68a4e21de851815b235bf62564ffcb0
+routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
+- Records: 11
 - Selected: 2
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -57,12 +57,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-offi
 action: 
 POSS | East Midlands | Derby, DE22 1GB | £18,000.00 Annually (Actual) | Business Administration Apprentice Level 3
 employer: Embark Multi Academy Trust
-closing_date: 2026-10-09T23:59:00+01:00
+closing_date: 2026-11-01T23:59:00+00:00
 reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: 989ea8200fd98b456c27ff8bca1e912d02c03f0c1827ecb15b1fcb2d7c320c8d
+factual_fingerprint: 8496090449e3db74532680f9c367ebc1685b64bedcad4f728f829213474b291b
 source: Teaching Vacancies
 source_job_id: business-administration-apprentice-level-3-embark-multi-academy-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprentice-level-3-embark-multi-academy-trust
@@ -109,6 +109,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-and-executive-lead
 - [Management Information System (MIS) Administrator & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/management-information-system-mis-administrator-cover-manager-85783a14-bff5-44f3-9d32-6556a2a69f08) — Manager title salary ceiling £32,488 is not below £28,000.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-e0eaef47-630a-49c5-9a3f-032436c1b906) — Insufficient admin/service evidence.
 - [Receptionist](https://teaching-vacancies.service.gov.uk/jobs/receptionist-hastings-high-school) — Missing salary or pay scale.
+- [SEND Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/send-administration-assistant-alvaston-junior-academy-derby-derbyshire) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

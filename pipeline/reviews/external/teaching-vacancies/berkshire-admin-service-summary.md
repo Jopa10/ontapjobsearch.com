@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-10-07
-review_fingerprint: 870bb53e2631fd51ecf2baec07eea54d23e34963b810c24ef0c0179634de2f4a
-routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
+review_date: 2026-10-08
+review_fingerprint: 6b2ff06808d9cf0a13bbd44019a1d8475af2d5f6866d3a63dff6d6bf61c149b0
+routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
+- Records: 18
 - Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 10
 
 ## SELECTED
 
@@ -38,21 +38,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-admissions
 
 ---
 action: 
-SELECTED | Berkshire | Reading, South East, RG1 5SL | £12,218.00 Annually (Actual) Grade 3 (SCP 3-5 ) working 20 hours per week Term Time Only plus 5 INSET days. FTE £26,427.00 | Attendance Administrative Assistant
-employer: Maiden Erlegh School in Reading
-closing_date: 2026-10-09T23:59:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6acbdb857bcbb62c68412b534030a25587a73726cad6cc049a90b0209bac312f
-source: Teaching Vacancies
-source_job_id: attendance-administrative-assistant-ed4aafe5-fa98-48aa-9744-11731e99aea3
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrative-assistant-ed4aafe5-fa98-48aa-9744-11731e99aea3
----
-
----
-action: 
 SELECTED | Berkshire | Bracknell, South East, RG42 4FS | £26,084.00 Annually (FTE) Actual gross salary including Outer London Fringe is £17,977pa. Term time only plus 2 days. | Exams Administrator
 employer: King's Academy Binfield
 closing_date: 2026-10-14T09:00:00+01:00
@@ -64,6 +49,21 @@ factual_fingerprint: dd6bfe64dec042520ebfc65e5d1e5e138ee47068e03fc1a8deaa7213c03
 source: Teaching Vacancies
 source_job_id: exams-administrator-king-s-academy-binfield
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-administrator-king-s-academy-binfield
+---
+
+---
+action: 
+SELECTED | Berkshire | Maidenhead, South East, SL6 7NQ | £16,473.00 - £16,735.00 Annually (Actual) Actual salary based on 25 hours per week | Medical Office Assistant
+employer: Furze Platt Senior School
+closing_date: 2026-10-12T09:00:00+01:00
+reason: Clear admin/service title: office assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 49a51f904dcbe93ff1ca6417bd35cfbc4962190adb1151855e530d76e024d740
+source: Teaching Vacancies
+source_job_id: medical-office-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/medical-office-assistant
 ---
 
 ---
@@ -83,21 +83,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to
 
 ---
 action: 
-SELECTED | Berkshire | Thatcham, South East, RG19 4LL | £22,105.00 - £22,808.00 Annually (Actual) | School Administrator
-employer: Kennet School
-closing_date: 2026-10-30T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f4d4bb9a6bbd5f4561306644f5a9392377833e80519dd731e1f89f424411d82f
-source: Teaching Vacancies
-source_job_id: school-administrator-kennet-school-thatcham-berkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-kennet-school-thatcham-berkshire
----
-
----
-action: 
 SELECTED | Berkshire | Thatcham, South East, RG19 4LL | £19,417.00 - £20,034.00 Annually (Actual) | School Administrator (Cover)
 employer: Kennet School
 closing_date: 2026-10-30T23:59:00+00:00
@@ -109,6 +94,21 @@ factual_fingerprint: 2126c2b596cbbeadccc53503bc4947665426f9a15e3132b7d9422ed67f7
 source: Teaching Vacancies
 source_job_id: school-administrator-cover
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-cover
+---
+
+---
+action: 
+SELECTED | Berkshire | Thatcham, South East, RG19 4LL | £22,105.00 - £22,808.00 Annually (Actual) | School Administrator (Pupil Reception)
+employer: Kennet School
+closing_date: 2026-10-30T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7aeb1a6abe1c12d9aca7d32b4dfdc76d03ef22ba9cb2d74aa116d2fb337d9cb3
+source: Teaching Vacancies
+source_job_id: school-administrator-pupil-reception
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-pupil-reception
 ---
 
 ---
@@ -153,8 +153,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-finance-assist
 - [Casual Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/casual-lettings-assistant-maiden-erlegh-chiltern-edge-reading-berkshire) — Insufficient admin/service evidence.
 - [Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-assistant-4cb042fb-579e-4856-989b-a99368a75302) — Insufficient admin/service evidence.
 - [HR & Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-officer-the-park-federation-academy-trust) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-joseph-s-catholic-high-school) — Manager title salary ceiling £34,249 is not below £28,000.
 - [Office Manager and Personal Assistant to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-personal-assistant-to-the-headteacher-new-town-primary-school) — Manager title salary ceiling £40,444 is not below £28,000.
 - [Receptionist & Admin Assistant - Katesgrove Primary School](https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-katesgrove-primary-school-katesgrove-primary-school) — Missing salary or pay scale.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-da5c7b12-e7a7-4b6e-aede-5ff7cf56267d) — Manager title without salary evidence below £28,000.
 - [School Development Officer](https://teaching-vacancies.service.gov.uk/jobs/school-development-officer) — Insufficient admin/service evidence.
 - [School Solicitor](https://teaching-vacancies.service.gov.uk/jobs/school-solicitor) — Insufficient admin/service evidence.
 

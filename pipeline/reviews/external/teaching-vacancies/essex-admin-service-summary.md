@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-10-07
-review_fingerprint: 4d8c8b1e74279e5ce7cb1579f80b91b07af3a6b4486c6a8d0981e66647a72ff9
-routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
+review_date: 2026-10-08
+review_fingerprint: 727eeb2c4cf56d4b9153468369b2a4f78450ab1242c6a0015a53b1449c17afd9
+routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 6
+- Records: 14
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 8
@@ -96,21 +96,6 @@ source_job_id: receptionist-brentwood-county-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-brentwood-county-high-school
 ---
 
----
-action: 
-SELECTED | Essex | Grays, East of England, RM17 5SW | £20,497.00 - £21,940.00 Annually (Actual) Thurrock Band A - Point 1-6 | Receptionist
-employer: Little Thurrock Primary School
-closing_date: 2026-10-08T12:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6707fad5fccf627dc32f1720dc41553edddc39f2b8d0e6fc57132ebae647f3bb
-source: Teaching Vacancies
-source_job_id: receptionist-little-thurrock-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-little-thurrock-primary-school
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -135,8 +120,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/people-operations-off
 ## HARD_PASS
 
 - [Business Administration Apprentice Level 3](https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprentice-level-3-doddinghurst-church-of-england-junior-school) — Insufficient admin/service evidence.
-- [Deputy Head of Year](https://teaching-vacancies.service.gov.uk/jobs/deputy-head-of-year-chase-high-school) — Out-of-scope occupation: deputy head.
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-colne-community-school) — Insufficient admin/service evidence.
+- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-88731512-4f32-446c-b927-3ff9b578aae5) — Insufficient admin/service evidence.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-mossbourne-port-side-academy) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-harlow-college) — Insufficient admin/service evidence.
 - [Senior HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-25bac6ce-5943-4c6e-9e63-670d8e460c1b) — Insufficient admin/service evidence.

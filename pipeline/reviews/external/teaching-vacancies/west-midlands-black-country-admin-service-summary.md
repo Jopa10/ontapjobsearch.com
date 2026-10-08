@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-10-07
-review_fingerprint: 64d09883b58b35c711e6df36df70c6e46e536b54612294ffc035611b0e72713a
-routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
+review_date: 2026-10-08
+review_fingerprint: deb9c6ccdf3e0ef25cd929323c88a1b8a42a780ad03bf9955dcd08a14af7f670
+routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 2
-- POSS awaiting decision: 1
+- Records: 13
+- Selected: 3
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 8
 
 ## SELECTED
+
+---
+action: 
+SELECTED | West Midlands - Black Country | Walsall, West Midlands, WS1 2PG | £13,510.00 - £13,942.00 Annually (Actual) NJC SCP 4 - 6 | Term time plus 1 week | Part Time, 3 days per week. | Reception Secretary
+employer: Queen Mary's Grammar School
+closing_date: 2026-10-21T09:00:00+01:00
+reason: Clear admin/service title: secretary
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 67d749b302fc7781a82639118be48d4702e742b9ae4fd7a4a53e2396ae7ac928
+source: Teaching Vacancies
+source_job_id: reception-secretary-ec1c05c3-72a7-428c-9317-7e034cf6f8cf
+source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-secretary-ec1c05c3-72a7-428c-9317-7e034cf6f8cf
+---
 
 ---
 action: 
@@ -52,6 +67,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-n
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | West Midlands - Black Country | Wednesbury, West Midlands, WS10 9AR | £21,500.00 Annually (Actual) Sandwell Grade B pt 5 | Clerical Assistant- School Office
+employer: St John's Church of England Primary Academy
+closing_date: 2026-10-14T23:59:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3616c369f9fec8efb332e6da9c586b577bd86bd9165b7166b59d65425c384502
+source: Teaching Vacancies
+source_job_id: clerical-assistant-school-office
+source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-school-office
+---
 
 ---
 action: 

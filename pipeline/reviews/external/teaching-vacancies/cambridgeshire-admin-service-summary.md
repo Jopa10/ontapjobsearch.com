@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-10-07
-review_fingerprint: acbdeb12ea8ecf68cbcbd25954cc66dc12e23f8cbaa48e55a2cf29504e76fabd
-routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
+review_date: 2026-10-08
+review_fingerprint: 6c10184fecfe6cf7dc6beb689930696831004af93431f92f40a71032f5ec7dd8
+routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 6
+- Records: 16
+- Selected: 7
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 9
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Cambridgeshire | Cambridge, East of England, CB23 7RE | £11,977.00 Annually (Actual) | Administration Assistant
+employer: Hardwick and Cambourne Community Primary School
+closing_date: 2026-11-06T12:00:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 254c295a8e854dfc9bf5b8495c6c80a86cf361513434d550b3cd3396593a8b4b
+source: Teaching Vacancies
+source_job_id: administration-assistant-hardwick-and-cambourne-community-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-hardwick-and-cambourne-community-primary-school
+---
 
 ---
 action: 

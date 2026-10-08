@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-10-07
-review_fingerprint: 9625cce50f7c60d5d81c920e664fa01afc95c54c0e0c07b97769233d8e43cc58
-routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
+review_date: 2026-10-08
+review_fingerprint: 175b79af4efcd96961b8eae1f77fef9a61c3a317e41b5e0f72a228b71088fa6b
+routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 2
+- Records: 9
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 5
 
 ## SELECTED
 
@@ -51,6 +51,21 @@ source_job_id: school-administrator-saltergate-junior-school-harrogate-north-yor
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-saltergate-junior-school-harrogate-north-yorkshire
 ---
 
+---
+action: 
+SELECTED | Yorkshire - North | Scarborough, Yorkshire and the Humber, YO11 3LG | £27,790.00 - £29,542.00 Annually (FTE) Please note this role is part year, working term time only for 39 weeks per year. The salary will be pro-rata to reflect hours / weeks worked | Senior Administrator
+employer: Braeburn Primary and Nursery Academy
+closing_date: 2026-10-30T12:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 852b454c538931a64f1c281b628df343315882b4e7b12a5f3fc5f034e9c10009
+source: Teaching Vacancies
+source_job_id: senior-administrator-a7025ffa-8f1a-4ca4-8107-74ae6341f075
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-a7025ffa-8f1a-4ca4-8107-74ae6341f075
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -74,6 +89,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-office
 
 ## HARD_PASS
 
+- [Exams Officer & Data Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-officer-data-manager-nidderdale-high-school) — Manager title salary ceiling £28,440 is not below £28,000.
+- [Multi-Site School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/multi-site-school-business-manager) — Manager title salary ceiling £41,177 is not below £28,000.
+- [PA and Office Manager (7676)](https://teaching-vacancies.service.gov.uk/jobs/pa-and-office-manager-7676) — Manager title salary ceiling £33,119 is not below £28,000.
 - [Reception and Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/reception-and-administration-assistant-knavesmire-primary-school) — Insufficient admin/service evidence.
 - [Safeguarding Officer](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-officer-5ec4a7bd-4b3a-4070-92dc-4fd84807f54f) — Insufficient admin/service evidence.
 

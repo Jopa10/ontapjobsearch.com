@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - East
 
-review_date: 2026-10-07
-review_fingerprint: a4145483b5a7dbb54bd2df9126ae9ac3d23c0b0428697a0242cadf826e469f50
-routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
+review_date: 2026-10-08
+review_fingerprint: e9d886f82f7d58dcf713775ea94478cfc1a3bae7eb9c1560997fbcd6e8c6f5b1
+routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
 ontap_region: Yorkshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
-- Selected: 1
+- Records: 4
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
@@ -34,6 +34,21 @@ factual_fingerprint: 9ee1b76751c7dfbaa1a56d2d74721b54a4e520a0ba21e352adca892bb06
 source: Teaching Vacancies
 source_job_id: office-administrator-student-services-reprographics
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-student-services-reprographics
+---
+
+---
+action: 
+SELECTED | Yorkshire - East | Hull, Yorkshire and the Humber, HU6 9BP | £30,515.00 - £33,119.00 Annually (FTE) | Receptionist/Cover Coordinator
+employer: Sirius Academy North
+closing_date: 2026-10-23T23:59:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: be59dd72e01e93d9c3b23f44df6627e9e89b4bda34822a4f79ff5d5636d0a7a8
+source: Teaching Vacancies
+source_job_id: receptionist-cover-coordinator-sirius-academy-north
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-cover-coordinator-sirius-academy-north
 ---
 
 ## POSS — choose SELECT or EXCLUDE

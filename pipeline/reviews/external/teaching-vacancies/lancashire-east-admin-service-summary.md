@@ -1,11 +1,11 @@
 # Teaching Vacancies regional review — Lancashire - East
 
-review_date: 2026-10-07
-review_fingerprint: d718dd00611f80214c30cbc72a845abc96ae5ee879a0c018ba13db2f76fe894f
-routing_manifest_sha256: 25155bbccdbbcc634f6b7b0f23ddf3b3b8973beada9ce4b180134de630044a9f
+review_date: 2026-10-08
+review_fingerprint: 698aa078e452f3e9a370b6865d27cf9a98509a18b4c7459d1cde11cebd14eac8
+routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
 ontap_region: Lancashire - East
 slice_category: admin_service
-slice_status: UNREGISTERED
+slice_status: LIVE
 
 Edit only the `action:` line in each editable block.
 Blank POSS decisions remain unpublished.
@@ -28,7 +28,7 @@ employer: St Wilfrid's Church of England Academy
 closing_date: 2026-10-19T09:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 6eede7fac909e181378c5f5d59910b8dbe39fc3a2c644690ae8c4b94e3350ac1
 source: Teaching Vacancies
@@ -45,7 +45,7 @@ employer: Marsden Heights Community College
 closing_date: 2026-10-18T23:59:00+01:00
 reason: Borderline school administration title: operations officer
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 1310e15883e093a301dd8ababc47a4358c873c9843754b3fb4c5882861967176
 source: Teaching Vacancies
