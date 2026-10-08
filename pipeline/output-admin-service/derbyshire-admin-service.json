@@ -109,31 +109,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "1977446",
-    "title": "Credit Controller",
-    "company": "Elevation Recruitment Group - Agency - Permanent",
-    "location": "Derbyshire",
-    "region": "Derbyshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Credit Controller (Temporary - Ongoing)\nChesterfield, Derbyshire (Hybrid Working)\n\nWe're currently recruiting for a temporary ongoing Credit Controller to join a busy and supportive finance team based in Chesterfield. This is a fantastic opportunity for an experienced credit professional who enjoys working in a fast-paced environment and building strong customer relationships.\n\nThe Role\n\nAs a Credit Controller, you'll play a key role in managing customer accounts, ensuring payments are received in line with agreed terms, and reducing outstanding debt. You'll work closely with both customers and internal teams to maintain accurate records and resolve queries efficiently.\n\nKey Responsibilities\n- Conduct credit checks for new and existing customers\n- Manage the aged debtor ledger and collect outstanding balances against targets\n- Maintain regular contact with customers via phone and email\n- Investigate and resolve account queries in a timely manner\n- Liaise with internal teams to ensure accurate customer records and billing information\n- Raise invoices and credit notes, including any necessary adjustments\n- Upload invoices to customer portals and resolve portal-related issues\n- Support customers with payment processes (bank details, payment links, card payments)\n- Post and allocate receipts within the finance system and assist with refunds\n- Identify and escalate high-risk accounts where necessary\n- Support wider finance tasks on an ad hoc basis\n\nAbout You\n- Experienced in credit control or accounts receivable\n- Comfortable working in a high-volume, fast-paced environment\n- Strong communicator with a professional and approachable manner\n- Highly organised with a methodical approach to problem-solving\n- Confident managing multiple customer portals and systems\n- Proactive and solutions-focused, with strong reconciliation skills\n\nWhat's On Offer\n- Hybrid working\n- Flexible working hours\n- Medical cover\n- Company pension\n\nIf this looks like a role of interest then please get in touch or apply now!",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?ju9emE%2fz0VIEAU%2fK4t4EK5mg5BTPqMJaw",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "Credit Controller Credit Controller (Temporary - Ongoing) Chesterfield, Derbyshire (Hybrid Working) We're currently recruiting for a temporary ongoing Credit Controller to join a busy and supportive finance team based in Chesterfield.",
-    "advertiser_name": "Elevation Recruitment Group",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225689425",
     "title": "Planning Administrator",
     "company": "Eurocell PLC - Agency - Permanent",
@@ -159,31 +134,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "1940932",
-    "title": "Marketing Coordinator",
-    "company": "Reed - Agency - Permanent",
-    "location": "Derbyshire",
-    "region": "Derbyshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "This is an exciting opportunity for a creative and organised marketing professional looking to develop their career within a varied and hands-on role. Whether you're seeking a full-time position or a part-time opportunity that fits around other commitments, our client is open to finding the right arrangement for the successful candidate.\n\nWorking closely with key stakeholders, you will support the planning and delivery of marketing campaigns, manage digital content, and help drive brand awareness across a range of channels.\n\nKey Responsibilities\n- Support the planning and execution of marketing campaigns across digital and traditional channels.\n- Create engaging content for social media, websites, email campaigns, blogs, and promotional materials.\n- Manage and update social media platforms, ensuring consistent brand messaging.\n- Assist with website content updates and basic SEO activities.\n- Coordinate email marketing campaigns and monitor engagement metrics.\n- Design and produce marketing collateral, presentations, and promotional materials.\n- Support the organisation of events, exhibitions, and networking activities.\n\nWhat We're Looking For\n- Previous experience in a marketing, communications, or digital marketing role.\n- Strong written and verbal communication skills.\n- Excellent organisational skills with the ability to manage multiple tasks and deadlines.\n- Experience using social media platforms for business purposes.\n- Proficiency in Microsoft Office applications.\n- Working knowledge of tools such as Canva, Mailchimp, WordPress, Google Analytics, or similar marketing platforms would be advantageous.\n- A proactive attitude with a willingness to learn and contribute new ideas.\n\nWhat's on Offer?\n- Full-time or part-time hours available.\n- Opportunity to work within a supportive and collaborative team.\n- Varied role with scope for development and progression.\n- Training and professional development opportunities.\n- Competitive salary and benefits package.\n\nApply Today\n\nIf you're a creative and organised marketing professional looking for a new challenge with flexibility around hours, we'd love to hear from you.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?eq2PR%2bX5ctzkryPkz%2f%2fnMcaypmApzx1up",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Reed",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "nhs-5634154",
     "source": "NHS Jobs",
     "title": "Receptionist",
@@ -199,6 +149,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2479-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2479-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
