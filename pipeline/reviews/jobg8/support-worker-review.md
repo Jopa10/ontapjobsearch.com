@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-10-07
+feed_date: 2026-10-08
 
 Edit only the `action:` line in each block:
 
@@ -34,12 +34,6 @@ job_id: 107899564
 ---
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
-
----
-action:
-SELECTED | North East - County Durham & Darlington/Hartlepool | Spennymoor | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
-job_id: 108076021
----
 
 ---
 action:
@@ -159,9 +153,37 @@ SELECTED | Hampshire | Romsey | £28697 - £31573 per year (), plus Market Suppl
 job_id: 1401785691
 ---
 
+---
+action:
+SELECTED | Hampshire | Southampton | £25,845 per annum | Support Worker - Waking Nights
+job_id: 384603642135366860837341
+---
+
+---
+action:
+SELECTED | Hampshire | Gosport | £25,845 per annum | Support Worker - Waking Nights
+job_id: 384603642135366860837340
+---
+
+---
+action:
+SELECTED | Hampshire | Southampton | £25,845 per annum | Male Support Worker
+job_id: 918625004825241190437341
+---
+
+---
+action:
+SELECTED | Hampshire | Fareham | £25,845 per annum | Male Support Worker
+job_id: 918625004825241190437340
+---
+
 ## HAMPSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - HAMPSHIRE | Hampshire | Gosport | £34273 - £37570 per year | Fostering Support Worker
+job_id: 1401785747
+---
 
 ## KENT — SELECTED
 
@@ -173,20 +195,8 @@ job_id: 1402265374
 
 ---
 action:
-SELECTED | Kent | Birchington | £25,845 per annum | Support Worker
-job_id: 366041741810833817637340
----
-
----
-action:
 SELECTED | Kent | Margate | £25,845 per annum | Female Support Worker
 job_id: 533258988600216780837340
----
-
----
-action:
-SELECTED | Kent | Sevenoaks | £25,845 per annum | Support Worker
-job_id: 431001328584491008037340
 ---
 
 ---
@@ -271,12 +281,6 @@ job_id: 496179168416261734437340
 action:
 SELECTED | Kent | Tunbridge Wells | £25,845 per annum | Female Support Worker
 job_id: 842055619798315827237340
----
-
----
-action:
-SELECTED | Kent | Tunbridge Wells | £25,845 per year | Waking Night Support Worker
-job_id: 920924908272641638437340
 ---
 
 ## KENT — POSSIBLES
@@ -365,7 +369,7 @@ job_id: 863294666009739264037340
 
 ---
 action:
-SELECTED | Surrey | Walton-on-thames | £25,845 per annum | Support Worker
+SELECTED | Surrey | Walton-on-thames | £25,845 per annum | Female Support Worker
 job_id: 152329336866524364837340
 ---
 
@@ -391,6 +395,18 @@ job_id: 667139317713338368037340
 action:
 SELECTED | Surrey | Woking | £28,325 per annum | Crisis Prevention Support Worker
 job_id: 2085364
+---
+
+---
+action:
+SELECTED | Surrey | Guildford | £25,845 per year | Male Support Worker
+job_id: 142686454964184678437341
+---
+
+---
+action:
+SELECTED | Surrey | Chertsey | £25,845 per year | Male Support Worker
+job_id: 142686454964184678437340
 ---
 
 ## SURREY — POSSIBLES
