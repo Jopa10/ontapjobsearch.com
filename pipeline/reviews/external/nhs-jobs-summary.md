@@ -2,15 +2,51 @@
 
 review_date: 2026-10-08
 
-- Open Administrative & Clerical rows reviewed: 2173
-- Auto/remembered selected: 405
-- Selected HC Tier A: 215
+- Open Administrative & Clerical rows reviewed: 2176
+- Auto/remembered selected: 406
+- Selected HC Tier A: 216
 - Selected HC Tier B: 190
-- POSS awaiting decision: 1659
+- POSS awaiting decision: 1661
 - Excluded: 0
 - HARD_PASS: 109
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Somerset | Yeovil, BA21 4AT | £25760.00 to £27476.00 | Booking Officer Paediatrics
+source_job_id: 5647780
+title: Booking Officer Paediatrics
+employer: Somerset NHS Foundation Trust
+region: Somerset
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1445
+factual_fingerprint: 254695f94861c65abb627ceec99629adc2077e74fb0e84103c1e1b4389e935e7
+---
+
+---
+action:
+POSS | NHS Jobs | Hertfordshire | Hertfordshire, CM21 0HH | £26564.50 | Finance Assistant
+source_job_id: 5646193
+title: Finance Assistant
+employer: Elysium Healthcare
+region: Hertfordshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2299
+factual_fingerprint: eaa5cc7b77673c192b3948cdabe700e04d6703c6557e8bb98866e7570dc70ea9
+---
+
+---
+action:
+POSS | NHS Jobs | Yorkshire - West | Pontefract, WF8 1SU | Negotiable | Medical Secretary
+source_job_id: 5649961
+title: Medical Secretary
+employer: Friarwood Surgery
+region: Yorkshire - West
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4013-26-0004
+factual_fingerprint: ce8bace52be621c0aa694bed7539682c79792b58efe8061b1c30588e576eadf9
+---
 
 ---
 action:
@@ -16522,18 +16558,6 @@ region: Cumbria - South
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0554-26-0101
 factual_fingerprint: 3229e82f7423358b9faef04d8d2e0a62bb375f5f0b14342a462e66bdbe669f4e
----
-
----
-action:
-POSS | NHS Jobs | London | Sutton in Ashfield, NG17 4JL | £25272.00 | Therapy Administrator
-source_job_id: 5623213
-title: Therapy Administrator
-employer: Sherwood Forest Hospitals NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9214-26-0850
-factual_fingerprint: 04dbcdcece15fb481dcb6ad2a057e212919b13c4b55d9d5b6b65dd3259c199b5
 ---
 
 ---
