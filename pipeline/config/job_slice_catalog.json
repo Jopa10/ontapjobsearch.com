@@ -66,6 +66,7 @@
     "London": { "slug": "london", "anchor_town": "London" },
     "Northern Ireland - East": { "slug": "northern-ireland-east", "anchor_town": "Belfast" },
     "Hampshire": { "slug": "hampshire", "anchor_town": "Southampton" },
+    "Herefordshire": { "slug": "herefordshire", "anchor_town": "Hereford" },
     "Surrey": { "slug": "surrey", "anchor_town": "Guildford" },
     "Kent": { "slug": "kent", "anchor_town": "Maidstone" },
     "Sussex": { "slug": "sussex", "anchor_town": "Brighton" },
@@ -111,6 +112,7 @@
     "Scotland Central - Fife": { "slug": "fife", "anchor_town": "Dunfermline" },
     "Scotland West - Glasgow": { "slug": "glasgow", "anchor_town": "Glasgow" },
     "Wales South - Cardiff & Vale": { "slug": "cardiff-vale", "anchor_town": "Cardiff" },
+    "Wales South - Swansea Bay": { "slug": "swansea-bay", "anchor_town": "Swansea" },
     "North Scotland": { "slug": "north-scotland", "anchor_town": "Aberdeen" },
     "Scotland Central - Tayside": { "slug": "tayside", "anchor_town": "Dundee" },
     "Wales South - Valleys": { "slug": "south-wales-valleys", "anchor_town": "Merthyr Tydfil" }
