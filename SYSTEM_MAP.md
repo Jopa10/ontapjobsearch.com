@@ -1,13 +1,15 @@
 # Ontap System Map
 
-**Last updated:** 7 October 2026
-**Status:** Canonical production architecture, reconciled on 24 September against the active workflows, slice register, city-page register and current diagnostic contract.
+**Last updated:** 8 October 2026
+**Status:** Canonical production architecture, reconciled on 8 October against active workflows, Vercel project records, slice register, city-page register and current diagnostic contract.
 
 - 21 September 2026 — **Nearby-location analytics now explains incomplete location attempts and reliably measures restored preferences:** client events that occur before GA4 initialises wait for the shared analytics-ready signal instead of being dropped. Unsuccessful geolocation attempts now distinguish unsupported browsers, permission denial, unavailable positions, timeouts and nearby-API failures; manual-town attempts and saved-location refresh failures are measured separately. Existing `saved_location_return` and `saved_location_results_loaded` events remain the proof of remembered-location reuse.
 
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
+
+- 8 October 2026 — **Vercel builds are triggered by successful verified-page publication instead of every Git push:** root `vercel.json` disables automatic Git deployments, and the post-publish workflow deploys current `main` through the CLI, passing and verifying the expected SHA. This prevents scraper, feed-review and report commits from each creating production builds while the prior ready deployment stays live during a replacement build.
 
 - 7 October 2026 — **Beginner AI course reviews are now a crawlable content page:** `/ai-course-reviews` contains first-hand reviews of Elements of AI and OpenAI Academy AI Foundations, with links to the course providers. The page has a fixed canonical URL, appears in the sitemap and is linked directly from the `/ai-tips` introduction.
 
@@ -118,7 +120,7 @@ Source freshness is owned upstream of the apply/publish orchestrator. If an acti
 
 The England-wide Teaching Vacancies Markdown is a pending-edit queue, not the full decision register. It shows only LIVE, non-hard-pass rows with a blank `manual_action`; previously resolved `select` / `exclude` rows remain in the master CSV and regional approval state and continue to carry forward only while their stable ID and factual fingerprint still match. During cross-day regeneration, obsolete Markdown blocks that are already resolved in the CSV or no longer reviewable are ignored; strict block/fact validation still applies when owner edits are applied.
 
-`publish-verified-pages.yml` is the final bridge from reviewed/composed outputs into user-facing `app/**.json`, live-job reports and city-page outputs. On successful completion, GitHub automatically starts `.github/workflows/deploy-vercel-after-publish.yml`. That guard checks out current `main`, records the expected SHA and waits for the normal Vercel Git integration deployment to reach that commit or a newer descendant. Automatic runs do not invoke Vercel CLI recovery.
+`publish-verified-pages.yml` is the final bridge from reviewed/composed outputs into user-facing `app/**.json`, live-job reports and city-page outputs. On successful completion, GitHub automatically starts `.github/workflows/deploy-vercel-after-publish.yml`. Vercel Git deployments are disabled by the root `vercel.json`; this workflow deploys the current `main` revision to the fixed production project with the Vercel CLI and verifies its live SHA. Scraper, feed-review and report commits therefore do not each start a Vercel build.
 
 ### City-page derivation and launch governance
 
@@ -317,30 +319,15 @@ The owner-facing publication entry point is `apply-publish-ontap-daily-review.ym
 
 ### Post-publish production deployment
 
-`.github/workflows/deploy-vercel-after-publish.yml` is the canonical production-deployment guard. It starts automatically after a successful `Publish verified pages` workflow and also supports manual dispatch for recovery/testing.
+`.github/workflows/deploy-vercel-after-publish.yml` is the canonical production-deployment workflow. It starts after a successful `Publish verified pages` run and also supports manual dispatch.
 
-Automatic post-publish behaviour:
+- Root `vercel.json` sets `git.deploymentEnabled` to `false`, so commits to any connected branch do not trigger Vercel Git builds.
+- After a successful verified-page publish, the workflow checks out current `main`, records the expected SHA, and deploys that revision to the fixed production project using the existing `VERCEL_TOKEN` secret.
+- It passes the expected SHA as the deployment-scoped runtime variable `VERCEL_DEPLOYMENT_SHA` and verifies `/api/deployment-version`; the endpoint prefers Vercel's Git SHA when available and otherwise returns this CLI-provided SHA. A failed deploy or SHA check raises/updates the GitHub Issue `Ontap production deployment is stale`.
+- The current production deployment remains assigned to the site while the new deployment builds. Vercel switches production only when the new deployment is ready.
+- Manual dispatch remains available for a deliberate deployment or recovery. The old Vercel Deploy Hook has been revoked and `VERCEL_DEPLOY_HOOK_URL` removed.
 
-1. check out current `main` and record its expected SHA;
-2. wait up to three minutes for normal Vercel Git integration to deploy that SHA or a newer descendant commit on `main`;
-3. verify the live SHA through `/api/deployment-version`;
-4. if Git deployment catches up, finish successfully and skip every CLI recovery step;
-5. if production does not catch up, fail the automatic run and raise/update the GitHub Issue `Ontap production deployment is stale`;
-6. do **not** invoke a second automatic deployment.
-
-Manual recovery behaviour:
-
-1. manually dispatch `Deploy Ontap production after publish`;
-2. require the repository secret `VERCEL_TOKEN`;
-3. deploy current `main` directly with the Vercel CLI to the fixed Ontap production project;
-4. verify production through the same live-SHA endpoint;
-5. close the stale-production issue after a healthy recovery.
-
-The normal Git path was confirmed end-to-end in production on 20 August 2026: `Wait for normal Git deployment` succeeded, the stale flag was skipped, and all `VERCEL_TOKEN`/CLI recovery steps were skipped. The Vercel Deploy Hook used during the 19 August incident has been revoked and the `VERCEL_DEPLOY_HOOK_URL` GitHub secret removed. Deploy Hooks are no longer part of the production architecture.
-
-On 21 August 2026 the Vercel account was upgraded from Hobby to Pro after the Hobby build-rate limit prevented a valid `main` commit from starting a build. After upgrade, the same normal Git integration successfully deployed the pending search fix. This is a capacity/plan change only; it does not introduce another deployment path.
-
-This leaves one automatic route — `main` → Vercel Git integration — plus one explicit manual recovery route. The recovery route cannot create routine duplicate deployments because it does not run automatically.
+This changes the trigger from every `main` push to a successful verified-page publish. Source reviews, feed updates and report commits no longer each create Vercel builds.
 
 ### Google Indexing API
 
@@ -350,7 +337,7 @@ This leaves one automatic route — `main` → Vercel Git integration — plus o
 
 As reconciled from `pipeline/registers/region_category_slice_register.csv` on 24 September 2026, the register contains **163 LIVE rows**: Service Admin 52, Marketing 22, Customer Sales 14, Finance / Accounts 36, Support Worker 11, HR / Recruitment 9, Customer Service / Contact Centre 6 and Legal Assistant / Paralegal 13. A further 12 rows are CANDIDATE. The register is authoritative for current activation state.
 
-The full JobG8 workflow enforces the current **78 markets × eight families = 624 rows** diagnostic contract and up to 14 feed-date snapshots. `city-page-register.json` contains **54 active permanent routes (53 Admin and office, one Support Worker)**. NHS feed isolation, the 20% Service Admin ceiling, the 4+1 display rhythm, Teaching Vacancies source isolation, deployment-built search/static live vacancy pages and normal Git-to-Vercel deployment with manual-only CLI recovery remain the verified production architecture.
+The full JobG8 workflow enforces the current **78 markets × eight families = 624 rows** diagnostic contract and up to 14 feed-date snapshots. `city-page-register.json` contains **54 active permanent routes (53 Admin and office, one Support Worker)**. NHS feed isolation, the 20% Service Admin ceiling, the 4+1 display rhythm, Teaching Vacancies source isolation, deployment-built search/static live vacancy pages and publish-triggered Vercel CLI deployment with live-SHA verification remains the verified production architecture.
 
 ## Documentation rule
 

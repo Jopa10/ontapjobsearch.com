@@ -1,11 +1,13 @@
 # Ontap System Overview
 
-**Last updated:** 7 October 2026
-**Status:** Canonical production state, reconciled on 24 September against the live slice register, city-page register and scheduled workflow definitions.
+**Last updated:** 8 October 2026
+**Status:** Canonical production state, reconciled on 8 October against active workflow definitions and Vercel project records.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 8 October 2026 — **Scraper and feed pushes no longer each trigger Vercel builds:** automatic Git deployments are disabled. A successful verified-page publish deploys the current main revision once through the Vercel CLI and verifies its SHA. Production continues serving the previous ready deployment while the replacement builds.
 
 - 7 October 2026 — **A beginner AI course reviews page is live in the site structure:** `/ai-course-reviews` reviews Elements of AI and OpenAI Academy AI Foundations. It is linked from the top of `/ai-tips` and included in the sitemap.
 
@@ -285,8 +287,8 @@ Core controls are:
 - one owner-facing **Ontap daily status** workflow on the Actions page, combining morning source/review readiness with the final manual-or-automatic publication and deployment receipt;
 - source-specific publishers, including NHS, with the reviewed NHS publisher using the same transactional composer as the normal daily run;
 - final verified-page publishing including city-page derivation/maintenance and configured Customer Sales slices;
-- normal Vercel Git deployment from `main`, with explicit live-SHA verification;
-- manual-only Vercel CLI recovery using `VERCEL_TOKEN` if Git deployment fails;
+- Vercel automatic Git builds disabled; one Vercel CLI production deployment after a successful verified-page publish, with live-SHA verification;
+- manual dispatch of the same Vercel deployment workflow for deliberate recovery;
 - Google indexing and operational monitoring.
 
 The JobG8 discovery coverage audit now uses the exact current Europe/London feed date rather than a fixed monthly archive. If that day’s raw feed is unavailable, or the selected feed date differs from the audit date, it stops without publishing a report. This keeps the published JobG8 total, JobG8-supplied category breakdown and genuine published-but-absent exceptions on one same-day basis.
@@ -301,15 +303,11 @@ Teaching Vacancies regional/master review uses one complete audited discovery pa
 
 Every `npm run build` now regenerates the published-job search index before `prisma generate` and `next build`. That generated index contains both the current result-card fields and the precomputed `_search` metadata needed for matching, while omitting the raw description/full-description payload from the runtime search bundle. Search therefore uses the exact published inventory captured by that deployment without rebuilding inventory or normalised/tokenised field structures on individual search requests.
 
-A successful `Publish verified pages` run automatically triggers `.github/workflows/deploy-vercel-after-publish.yml`. That workflow checks out current `main`, captures the expected SHA, and waits up to three minutes for normal Vercel Git integration to deploy that commit or a newer descendant. It verifies production through `https://www.ontapjobsearch.com/api/deployment-version`.
+Vercel automatic Git deployments are disabled for connected branches by the root `vercel.json`. A successful `Publish verified pages` run starts `.github/workflows/deploy-vercel-after-publish.yml`, which checks out current `main`, captures its expected SHA, and deploys that revision to the fixed `.com` production project with the Vercel CLI and repository secret `VERCEL_TOKEN`. It passes the expected SHA as the deployment-scoped runtime variable `VERCEL_DEPLOYMENT_SHA` and verifies production through `https://www.ontapjobsearch.com/api/deployment-version`.
 
-If normal Git deployment succeeds, the workflow finishes green and all CLI recovery steps are skipped. This behaviour was confirmed in production on 20 August 2026 and again after the recovered 22 August reviewed publication. If production does not catch up within the wait window, the automatic workflow fails and raises/updates the GitHub Issue **Ontap production deployment is stale**; it does **not** automatically perform a second deployment.
+Scraper reviews, feed uploads and generated report commits can continue updating `main` without each triggering a Vercel build. The normal route is one Vercel deployment after the successful verified-page publish. The workflow raises or updates **Ontap production deployment is stale** if deployment or live-SHA verification fails. Production continues serving its prior ready deployment until Vercel assigns a ready replacement.
 
-Manual dispatch of `Deploy Ontap production after publish` is the recovery route. Only a manually dispatched run may use the `VERCEL_TOKEN` repository secret to call the Vercel CLI and deploy current `main` directly, followed by the same live-SHA verification. The old Vercel Deploy Hook has been revoked and `VERCEL_DEPLOY_HOOK_URL` removed; Deploy Hooks are no longer part of production publication.
-
-Vercel is now on **Pro**. The upgrade was made on 21 August after the Hobby build-rate ceiling refused to start a valid deployment; once upgraded, the pending `main` search fix deployed successfully through the same Git integration. This changes capacity, not architecture.
-
-This makes normal Git→Vercel deployment the single automatic production route, while retaining an explicit manual fallback without creating routine duplicate deployments.
+Manual dispatch of `Deploy Ontap production after publish` remains available for a deliberate production deployment or recovery. The old Vercel Deploy Hook has been revoked and `VERCEL_DEPLOY_HOOK_URL` removed. Vercel is on **Pro** after the 21 August upgrade; the plan is unchanged by this deployment-trigger change.
 
 The Google Indexing API retains its 200-notification safety limit and GitHub Issue alerting. The selection policy is JobG8-first: after the 20-notification deletion allowance, eligible JobG8 URLs use available capacity before non-JobG8 URLs. Non-paying sources have a hard ceiling of 20 submissions per Pacific day (10% of quota), and unused JobG8 capacity is not released to them. Each run reports live inventory, candidate and selected counts by source so feed-to-publication-to-indexing gaps are visible.
 
@@ -321,5 +319,5 @@ The Google Indexing API retains its 200-notification safety limit and GitHub Iss
 
 The 18 September documentation reported 126 LIVE rows; the 24 September register recount found 159 before today’s four activations. The current register contains **163 LIVE rows**: Service Admin 52, Marketing 22, Customer Sales 14, Finance / Accounts 36, Support Worker 11, HR / Recruitment 9, Customer Service / Contact Centre 6 and Legal Assistant / Paralegal 13. Another 12 rows are CANDIDATE. The live register remains authoritative after this snapshot.
 
-The full JobG8 workflow assesses all eight families across all 78 UK markets (624 rows) and retains up to 14 feed-date snapshots. The shared city mechanism owns 54 active permanent routes (53 Admin and office, one Support Worker). Production deployment uses normal Vercel Git integration automatically, with CLI recovery manual-only. NHS Administrative & Clerical inventory is isolated safely on feed failure, remains capped at 20% per Service Admin page and uses the 4+1 display order. Live vacancy pages and search use deployment-built static/current inventory; expired-job recovery remains separate. Teaching Vacancies retains the source-isolation and concurrent-write safeguards described above.
+The full JobG8 workflow assesses all eight families across all 78 UK markets (624 rows) and retains up to 14 feed-date snapshots. The shared city mechanism owns 54 active permanent routes (53 Admin and office, one Support Worker). Production deployment uses a Vercel CLI deployment after successful verified-page publishing; automatic Git builds are disabled. NHS Administrative & Clerical inventory is isolated safely on feed failure, remains capped at 20% per Service Admin page and uses the 4+1 display order. Live vacancy pages and search use deployment-built static/current inventory; expired-job recovery remains separate. Teaching Vacancies retains the source-isolation and concurrent-write safeguards described above.
 - 21 September 2026 — **Google indexing now gives JobG8 first claim on the daily allowance:** after the fixed deletion allowance, every available eligible JobG8 URL is selected before any non-JobG8 URL. Non-paying sources are capped at **20 of 200 submissions (10%)**; unused JobG8 capacity is never released to them. Workflow summaries now show live inventory, indexing candidates and selected submissions by source.
