@@ -32,7 +32,7 @@ Edit only each `action:` line:
 ## JobG8 — 41 to review
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Berkshire | Berkshire | £35000 - £38000 per year | Air Export Co-ordinator
 source_key: jobg8
 source: JobG8
@@ -50,7 +50,7 @@ hub_fingerprint: 7ef3f7b421f34a242c34a950e551ed5c4b7d16cb3442941e5924b5a17974ebc
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Berkshire | Berkshire | £32000 - £38000 per year | Freight Forwarding Coordinator
 source_key: jobg8
 source: JobG8
@@ -68,7 +68,7 @@ hub_fingerprint: 5368ca0b6a88623274d33479dd337b023bd0c819a355dc3b32c3f140b92fd99
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Buckinghamshire | Buckinghamshire | £38000 per year | Bookkeeper - Accountancy Practice
 source_key: jobg8
 source: JobG8
@@ -86,7 +86,7 @@ hub_fingerprint: 6e734432be3c7da12f14f41881d6025f452e43dd861ad6bbe04a0de1fb4a76e
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Cambridgeshire | Cambridge | £30000 - £35000 per year | Assistant Accountant
 source_key: jobg8
 source: JobG8
@@ -104,7 +104,7 @@ hub_fingerprint: 197ae162f5100c513a390c1c61bd2926abed3ce966fbe5871ee4ec801a7bae1
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Cambridgeshire | Cambridge | £35000 - £38000 per year | Italian speaking Credit Controller
 source_key: jobg8
 source: JobG8
@@ -122,7 +122,7 @@ hub_fingerprint: 53b19110f808fa2f3afcc03352df976369fe409cf0a6d8f3af1aac3fa581ec9
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Cornwall | Truro | £30000 - £45000 per year | Town Planner
 source_key: jobg8
 source: JobG8
@@ -140,7 +140,7 @@ hub_fingerprint: fb60826f908cdb82d51b643f180a41107b793aeb6265a7516bed076f60fda7f
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Dorset | Dorset | £35000 per year | Assistant Accountant
 source_key: jobg8
 source: JobG8
@@ -158,7 +158,7 @@ hub_fingerprint: 8999b7d149d327b58381c048014c35a83f2c7393083f41bddc36a76289494b1
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Dorset | Dorset | — | Assistant Accountant
 source_key: jobg8
 source: JobG8
@@ -176,7 +176,7 @@ hub_fingerprint: c6472e94877d995ded9bfd938ddad4610c1f89221915e0e4f9310dc04462d91
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Essex | Essex | £32000 - £40000 per year | Accounts Assistant / Finance Assistant - Multi Entity
 source_key: jobg8
 source: JobG8
@@ -194,7 +194,7 @@ hub_fingerprint: 28d19c05f1a72b758c2ea97dd25ac82fd3c00d496ab0025aa5ecf59f080f290
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Essex | Essex | £40000 per year | Liability Claims Handler
 source_key: jobg8
 source: JobG8
@@ -212,7 +212,7 @@ hub_fingerprint: 8c8575dc7cb0e3eaf5163a5d2e35e6642d22f0046ac20ab2ae39e364c5422cd
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £32000 - £42000 per year | Freight Forwarding Coordinator (Air & Ocean)
 source_key: jobg8
 source: JobG8
@@ -230,7 +230,7 @@ hub_fingerprint: b3aee3bc5b2754aa64d9e3217b5f26be75e296907327cf854e4cc4b266ac65e
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Hampshire | Gosport | £34273 - £37570 per year | Fostering Support Worker
 source_key: jobg8
 source: JobG8
@@ -248,7 +248,7 @@ hub_fingerprint: fb952ca1234d4a80bc9fe3a56508b5bd55f8c0d06e5802b74a4d198ea924ce6
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Hampshire | Hampshire | — | Assistant Accountant
 source_key: jobg8
 source: JobG8
@@ -266,7 +266,7 @@ hub_fingerprint: 36be809a4d768a79dc9ef3f090d0de29a4505fcaec0a40331b55bf111ab8af7
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Hampshire | Hampshire | £35000 - £40000 per year | Assistant Accountant
 source_key: jobg8
 source: JobG8
@@ -284,7 +284,7 @@ hub_fingerprint: 597101ae01b39756d3595d39ba4551aab6c2e518fff1ec7f324e0fc295bbc28
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Hertfordshire | Hertfordshire | £32000 - £35000 per year | Assistant Accountant
 source_key: jobg8
 source: JobG8
@@ -302,7 +302,7 @@ hub_fingerprint: 0ab444d4c392b2131b6efde26e0974a646a6d21a4af52dd26698dc7e805d1dc
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Hertfordshire | Hertfordshire | £45000 per year | Logistics Operations Coordinator
 source_key: jobg8
 source: JobG8
@@ -320,7 +320,7 @@ hub_fingerprint: 756a0928a687a0edfef3733edfbc06676178734e6eb68289d35b755d85ecede
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Kent | Kent | £33000 - £38000 per year | Town Planner
 source_key: jobg8
 source: JobG8
@@ -338,7 +338,7 @@ hub_fingerprint: 890d1b078f2127b8a41b14abd38212725e94afac9d099dbd7417fc5b11a75e0
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | Feltham | £45000 per year | Export Co-ordinator
 source_key: jobg8
 source: JobG8
@@ -356,7 +356,7 @@ hub_fingerprint: 202d77b4a2a3ec5ca7d7f1b0d07ff15ef0590449eee0b16027bee70ac023666
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | Kingston Upon Thames | £38000 - £45000 per year | Assistant Management Accountant
 source_key: jobg8
 source: JobG8
@@ -374,7 +374,7 @@ hub_fingerprint: dfcf7585c04c6675603ae5f7c1cb0b94c0b497d64a761cef194afb1b3a306f0
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | London | — | Assistant Accountant
 source_key: jobg8
 source: JobG8
@@ -392,7 +392,7 @@ hub_fingerprint: bf92acfde5c4e20e9fcfd59d74fd25d982999f812d9eb3a401b33f6cf5e89a6
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | London | — | Assistant Accountant - 6 Month FTC
 source_key: jobg8
 source: JobG8
@@ -410,7 +410,7 @@ hub_fingerprint: f77d1cbf1600bc9436202a06048a20436078a713f5ec0f86c9f2c0704a6478c
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | London | £38000 - £45000 per year (Benefits) | Assistant Management Accountant
 source_key: jobg8
 source: JobG8
@@ -428,7 +428,7 @@ hub_fingerprint: e92746c72225614851e1e031782fafc6d17b13742b5617e85b440f06b209a2e
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | London | £24.72 per hour | Executive Assistant and Board Administrator
 source_key: jobg8
 source: JobG8
@@ -446,7 +446,7 @@ hub_fingerprint: 8a29ad9ab6d1c53a76bc42d09c4bc5626745268912f82df657ea570c2bff4ad
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | London | £38000 - £43000 per year | Ocean Import Operator & Pricing Coordinator
 source_key: jobg8
 source: JobG8
@@ -464,7 +464,7 @@ hub_fingerprint: 781dc50219eddb9b45e88d78a3d116b4ffe7831ac140a7796661a8f4d5ad345
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | London | £38000 - £50000 per year | Project Coordinator
 source_key: jobg8
 source: JobG8
@@ -482,7 +482,7 @@ hub_fingerprint: 5a9ade20231fd19f23283608b1eb90a308d690525ca8d478814fcbcef7460e5
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | London | £42000 - £49000 per year | Treasury & Finance Assistant
 source_key: jobg8
 source: JobG8
@@ -500,7 +500,7 @@ hub_fingerprint: 8d45ea27b02e55f87bb804967ec7ea7dbdb993867ad9011f2a8d0cafad6d9f4
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | Loughton | — | Assistant Accountant
 source_key: jobg8
 source: JobG8
@@ -518,7 +518,7 @@ hub_fingerprint: 628f3ba255063aa2bb4d87a9e48950866e2d610551b063742c93373d8fd3e7c
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | London | South Croydon | £40000 - £45000 per year | PMO & Delivery Coordinator
 source_key: jobg8
 source: JobG8
@@ -536,7 +536,7 @@ hub_fingerprint: f61dd40fdba80a2e99cf07c9d22f16f4c2f670d399cb1e6cc3d2d0ce67f3add
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | London | Uxbridge | £30000 - £35000 per year | Assistant Accountant
 source_key: jobg8
 source: JobG8
@@ -554,7 +554,7 @@ hub_fingerprint: 384cdee3875eb0153eac6a9eb886d5fdfaa7c273420c04cf2d22dc50a1fae0d
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Merseyside - Liverpool | Liverpool | £30000 - £35000 per year | Assistant Accountant
 source_key: jobg8
 source: JobG8
@@ -572,7 +572,7 @@ hub_fingerprint: 50275ed2eab14bde711ef00c1d23592f430858210a74432668778a377311d3b
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Norfolk | Norfolk | £30000 - £32000 per year | Assistant Management Accountant
 source_key: jobg8
 source: JobG8
@@ -590,7 +590,7 @@ hub_fingerprint: e43950db4681029ac4b8a58104ad46a9b61c213d6c0730648a407f5223aa9c1
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | North East - County Durham & Darlington/Hartlepool | County Durham | — | Assistant Accountant
 source_key: jobg8
 source: JobG8
@@ -608,7 +608,7 @@ hub_fingerprint: 63476f6459bd8e8a776b15edee0e29f0ee211466c6b7206f1464fe4847b196d
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Northamptonshire | Northamptonshire | £40000 per year | Bookkeeper
 source_key: jobg8
 source: JobG8
@@ -626,7 +626,7 @@ hub_fingerprint: db3b153ac5518d770102d721db66428fecf3be310c188ca71499ad555d96968
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Shropshire | Shropshire | £175 - £200 per daily | Interim Credit Controller
 source_key: jobg8
 source: JobG8
@@ -644,7 +644,7 @@ hub_fingerprint: b3d0d529ff1a27d74f365eeb518a7c7ccc611e3688823c8f2a8e7bff19abd9f
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Suffolk | Suffolk | £35000 - £40000 per year | Project Delivery Coordinator
 source_key: jobg8
 source: JobG8
@@ -662,7 +662,7 @@ hub_fingerprint: 21d1dbdebc179d8f226d0792c1024039599ca045b41490f6c806cf71830dcff
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Surrey | Surrey | £35000 - £42000 per year | Digital Marketing Coordinator
 source_key: jobg8
 source: JobG8
@@ -680,7 +680,7 @@ hub_fingerprint: 322dcb0634754854dd805551eaceb3dcbc7e3dcc9bb623f4ed4b339040d4cdf
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Wales South - Cardiff & Vale | Cardiff | — | Assistant Accountant
 source_key: jobg8
 source: JobG8
@@ -698,7 +698,7 @@ hub_fingerprint: bfa80640fb375bec8fc54aea9eff5932ecc9c5858cab9bed0bf2a539a717589
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Wales South - Cardiff & Vale | Cardiff | £180 per daily | Service Desk Analyst
 source_key: jobg8
 source: JobG8
@@ -716,7 +716,7 @@ hub_fingerprint: 4c6d0578b22e50fe6048f822ea2cf11968864cdcaab7a359e63ab58fe1f174b
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | West Midlands - Birmingham & Solihull | Birmingham | £38486 per year | Assistant Accountant (Financial Accounts)
 source_key: jobg8
 source: JobG8
@@ -734,7 +734,7 @@ hub_fingerprint: 7f5124813747233803d0b9875b171f861b54d7f0b796ec63b01209cdd36c5a3
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Yorkshire - West | Batley | £33000 - £35000 per year | Assistant Accountant
 source_key: jobg8
 source: JobG8
@@ -752,7 +752,7 @@ hub_fingerprint: f9e6d08e4b7078528e8f48e28f057473bc0a142fd2451846bf26eb105d18982
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Yorkshire - West | Leeds | — | Part Time Assistant Management Accountant
 source_key: jobg8
 source: JobG8
