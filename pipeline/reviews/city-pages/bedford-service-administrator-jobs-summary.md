@@ -4,7 +4,7 @@
 - Live route: `/bedford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 12
+- automatic include: 7
+- automatic review: 15
 - automatic exclude: 0
-- effective include: 8
-- effective review: 12
+- effective include: 7
+- effective review: 15
 - effective exclude: 0
 
-## INCLUDE (8)
+## INCLUDE (7)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: East of England Community Health and Care NHS Trust (Cambridge)
 location: Bedford, MK42 0AH
 source: NHS Jobs
 job_id: nhs-5620192
-reason: Exact approved Bedford workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator (Learning & Development)
-company: Tate Milton Keynes - Agency - Permanent
-location: Bedford
-source: JobG8
-job_id: jobg8-1946950
 reason: Exact approved Bedford workplace.
 ---
 
@@ -120,7 +108,19 @@ job_id: nhs-5639310
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (12)
+## REVIEW (15)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Reed - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-1944217
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -186,11 +186,59 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Family Law Paralegal
+company: GEMINI RECRUITMENT SERVICES LTD - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-2087521
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Family Law Paralegals (x2) - Luton
+company: Duncan Lewis Solictors - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-1900194
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Administrator
 company: Chiltern Learning Trust
 location: Luton
 source: Teaching Vacancies
 job_id: teaching-vacancies-hr-administrator-d2f90df6-89af-4919-b35e-a47a1e5bf7df
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Immigration Paralegal - IAAS Accredited
+company: GEMINI RECRUITMENT SERVICES LTD - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-2087363
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Paralegal
+company: BMA RECRUITMENT LTD - Agency - Permanent
+location: Luton
+source: JobG8
+job_id: jobg8-1908809
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -210,35 +258,11 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Partnership Coordinator
-company: Reed Talent Solutions - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-1981044
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Payroll Administrator
 company: Portfolio Payroll - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-2046269
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist & Administrative Assistant
-company: Parkfields Middle School
-location: Dunstable
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-administrative-assistant-parkfields-middle-school-dunstable-bedfordshire
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

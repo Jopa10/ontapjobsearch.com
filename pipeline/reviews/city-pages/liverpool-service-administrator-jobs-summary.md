@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 14
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
-- automatic review: 3
+- automatic include: 16
+- automatic review: 6
 - automatic exclude: 0
-- effective include: 14
-- effective review: 3
+- effective include: 16
+- effective review: 6
 - effective exclude: 0
 
-## INCLUDE (14)
+## INCLUDE (16)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant / Bookkeeper
+company: Beam Recruit - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-1909830
+reason: Approved conservative Liverpool launch catchment.
+---
 
 ---
 action: 
@@ -45,6 +57,18 @@ company: Practice Plus Group - Health in Justice
 location: Liverpool, L9 7LH
 source: NHS Jobs
 job_id: nhs-5635802
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Accountant
+company: Reed - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-1982055
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -100,11 +124,11 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: HR Administrator
-company: Adele Carr Recruitment Limited - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-1936795
+title: Health Records Clerk
+company: Liverpool University Hospitals NHS Foundation Trust
+location: Liverpool, L14 3PE
+source: NHS Jobs
+job_id: nhs-5641089
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -192,7 +216,19 @@ job_id: jobg8-2078827
 reason: Approved conservative Liverpool launch catchment.
 ---
 
-## REVIEW (3)
+## REVIEW (6)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Campaign Manager
+company: Roberts Webb Recruitment - Agency - Permanent
+location: Merseyside
+source: JobG8
+job_id: jobg8-1887932
+reason: Broad county location; review before Liverpool inclusion.
+---
 
 ---
 action: 
@@ -222,11 +258,35 @@ reason: Broad county location; review before Liverpool inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Marketing Manager (B2B) - Freight Forwarding / Tech - Liverpool (Hybrid)
+company: Corrigan Bentley - Agency - Permanent
+location: Merseyside
+source: JobG8
+job_id: jobg8-2024037
+reason: Broad county location; review before Liverpool inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Trade Marketing Manager
 company: Zachary Daniels - Agency - Permanent
 location: Merseyside
 source: JobG8
 job_id: jobg8-1935673
+reason: Broad county location; review before Liverpool inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Merseyside
+source: JobG8
+job_id: jobg8-2086702
 reason: Broad county location; review before Liverpool inclusion.
 ---
 

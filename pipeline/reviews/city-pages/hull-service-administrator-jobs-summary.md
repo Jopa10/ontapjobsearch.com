@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 11
-- automatic review: 4
+- automatic review: 6
 - automatic exclude: 0
 - effective include: 11
-- effective review: 4
+- effective review: 6
 - effective exclude: 0
 
 ## INCLUDE (11)
@@ -156,7 +156,7 @@ job_id: jobg8-1939826
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (4)
+## REVIEW (6)
 
 ---
 action: 
@@ -179,6 +179,30 @@ company: Hull University Teaching Hospitals NHS Trust
 location: Cottingham, HU16 5JQ
 source: NHS Jobs
 job_id: nhs-5641720
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part-time Credit Controller - MK108
+company: Adecco - Agency - Permanent
+location: Goole
+source: JobG8
+job_id: jobg8-1899369
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Private Client Paralegal Wills & LPAs Whitby / Driffield
+company: qed legal - Agency - Permanent
+location: Driffield
+source: JobG8
+job_id: jobg8-1905442
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

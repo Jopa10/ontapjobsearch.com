@@ -4,8 +4,8 @@
 - Live route: `/edinburgh/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
-- Threshold currently met: no
+- Effective included jobs: 6
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,24 +15,48 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
+- automatic include: 6
 - automatic review: 3
 - automatic exclude: 0
-- effective include: 4
+- effective include: 6
 - effective review: 3
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (6)
 
 ---
 action: 
 decision: include
 automatic_decision: include
-title: Administrator Reception
-company: Reed - Agency - Permanent
+title: Company Secretary
+company: G2 Company Secretarial - Agency - Permanent
 location: Edinburgh
 source: JobG8
-job_id: jobg8-2063301
+job_id: jobg8-2087160
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Company Secretary
+company: G2 Legal Limited - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-2087159
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
+company: Robert Half - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-1950171
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -52,11 +76,11 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: HR Assistant
-company: ICONIC RESOURCING LTD - Agency - Permanent
+title: Language Speaking Credit Controller - Fully remote
+company: CWC Recruitment Ltd - Agency - Permanent
 location: Edinburgh
 source: JobG8
-job_id: jobg8-1933959
+job_id: jobg8-1910106
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -78,11 +102,11 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: review
 automatic_decision: review
-title: HR Assistant
-company: ICONIC RESOURCING LTD - Agency - Permanent
-location: Tranent
+title: L1 Service Desk Analyst
+company: THE CHANNEL RECRUITER LTD - Agency - Permanent
+location: Livingston
 source: JobG8
-job_id: jobg8-1950430
+job_id: jobg8-2077151
 reason: No approved Edinburgh catchment rule matched; local review required.
 ---
 

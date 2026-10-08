@@ -4,7 +4,7 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 27
-- automatic exclude: 13
-- effective include: 4
-- effective review: 27
-- effective exclude: 13
+- automatic include: 5
+- automatic review: 32
+- automatic exclude: 17
+- effective include: 5
+- effective review: 32
+- effective exclude: 17
 
-## INCLUDE (4)
+## INCLUDE (5)
 
 ---
 action: 
@@ -64,6 +64,18 @@ reason: Approved Brighton & Hove catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist / Administrator
+company: Integrated Care 24 Ltd
+location: Brighton, BN1 7GF
+source: NHS Jobs
+job_id: nhs-5649373
+reason: Approved Brighton & Hove catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Service Administrator
 company: Brighton and Hove Federation
 location: Hove, BN3 7GS
@@ -72,7 +84,7 @@ job_id: nhs-5620851
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (27)
+## REVIEW (32)
 
 ---
 action: 
@@ -84,6 +96,18 @@ location: Sussex
 source: JobG8
 job_id: jobg8-107985976
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Administrator
+company: Travail Employment Group - Burgess Hill - Agency - Permanent
+location: East Grinstead
+source: JobG8
+job_id: jobg8-1981815
+reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
 ---
@@ -163,6 +187,18 @@ action:
 decision: review
 automatic_decision: review
 title: Bookkeeper
+company: Dynamite Recruitment Solutions Ltd - Agency - Permanent
+location: East Grinstead
+source: JobG8
+job_id: jobg8-1961294
+reason: No approved Brighton & Hove catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Bookkeeper
 company: First Recruitment Services - Agency - Permanent
 location: Sussex
 source: JobG8
@@ -198,11 +234,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Business Operations and HR Coordinator
-company: Farrer Barnes Limited - Agency - Permanent
+title: Business Centre Coordinator / Administrator
+company: Additional Resources Ltd - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2056867
+job_id: jobg8-2029067
 reason: Broad location; review before city inclusion.
 ---
 
@@ -210,11 +246,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Client Service Administrator
-company: Financial Divisions - Agency - Permanent
+title: Client Bookkeeper
+company: Pro Talent - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2069694
+job_id: jobg8-1983385
 reason: Broad location; review before city inclusion.
 ---
 
@@ -239,6 +275,18 @@ company: TN Recruits - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-1934337
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Reed - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2092483
 reason: Broad location; review before city inclusion.
 ---
 
@@ -319,10 +367,10 @@ action:
 decision: review
 automatic_decision: review
 title: Finance Assistant
-company: First Recruitment Services - Agency - Permanent
+company: Terry Parris Associates Ltd - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2063905
+job_id: jobg8-2043392
 reason: Broad location; review before city inclusion.
 ---
 
@@ -330,11 +378,35 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: Terry Parris Associates Ltd - Agency - Permanent
+title: Finance Assistant - Construction
+company: Henley Chase Limited - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2043392
+job_id: jobg8-2089635
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Junior Finance Assistant
+company: Harvey John - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-1960769
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part-time Bookkeeper
+company: Accountancy Expertise Ltd - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-1945554
 reason: Broad location; review before city inclusion.
 ---
 
@@ -378,6 +450,18 @@ reason: No approved Brighton & Hove catchment rule matched; local review require
 action: 
 decision: review
 automatic_decision: review
+title: Route Planner
+company: Amour Recruitment - Agency - Permanent
+location: Lancing
+source: JobG8
+job_id: jobg8-2086974
+reason: No approved Brighton & Hove catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Service Advisor
 company: Pembrook Resourcing - Agency - Permanent
 location: Sussex
@@ -386,19 +470,7 @@ job_id: jobg8-2036123
 reason: Broad location; review before city inclusion.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary Senior HR Administrator
-company: Michael Page Business Support - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-1912157
-reason: Broad location; review before city inclusion.
----
-
-## EXCLUDE (13)
+## EXCLUDE (17)
 
 ---
 action: 
@@ -420,7 +492,31 @@ title: Accounts Assistant
 company: CMA Recruitment Group - Agency - Permanent
 location: Bognor Regis
 source: JobG8
+job_id: jobg8-1890329
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: CMA Recruitment Group - Agency - Permanent
+location: Bognor Regis
+source: JobG8
 job_id: jobg8-2037053
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: HR GO Recruitment - Agency - Permanent
+location: Eastbourne
+source: JobG8
+job_id: jobg8-2088338
 reason: Separate employment market.
 ---
 
@@ -464,18 +560,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Activities Co-ordinator
-company: Avon Search & Selection Ltd - Agency - Permanent
-location: Worthing
-source: JobG8
-job_id: jobg8-2056552
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Administrator
 company: St Leonards Church of England Primary Academy
 location: St Leonards-on-Sea
@@ -488,11 +572,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Finance Assistant - Assistant Accountant
-company: Morgan McKinley - Agency - Permanent
+title: Bookkeeper
+company: Bennett & Game Recruitment - Agency - Permanent
 location: Horsham
 source: JobG8
-job_id: jobg8-2056498
+job_id: jobg8-1981972
 reason: Separate employment market.
 ---
 
@@ -500,11 +584,47 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: HR Coordinator - Temp/FTC
-company: Reed - Agency - Permanent
+title: Credit Controller
+company: Michael Page Finance - Agency - Permanent
 location: Crawley
 source: JobG8
-job_id: jobg8-2076573
+job_id: jobg8-1945011
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Credit Controller
+company: Michael Page Finance - Agency - Permanent
+location: Eastbourne
+source: JobG8
+job_id: jobg8-1960766
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Credit Controller
+company: Morgan McKinley - Agency - Permanent
+location: Eastbourne
+source: JobG8
+job_id: jobg8-1935620
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant - Assistant Accountant
+company: Morgan McKinley - Agency - Permanent
+location: Horsham
+source: JobG8
+job_id: jobg8-2056498
 reason: Separate employment market.
 ---
 

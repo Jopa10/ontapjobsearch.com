@@ -4,7 +4,7 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,36 +15,24 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
+- automatic include: 3
 - automatic review: 8
 - automatic exclude: 5
-- effective include: 5
+- effective include: 3
 - effective review: 8
 - effective exclude: 5
 
-## INCLUDE (5)
+## INCLUDE (3)
 
 ---
 action: 
 decision: include
 automatic_decision: include
-title: Healthcare Assistant
-company: Thema Healthcare - Agency - Permanent
+title: Male Support Worker
+company: Avenues Group - Company - Permanent
 location: Southampton
 source: JobG8
-job_id: jobg8-1958886
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Part-Time Support Worker
-company: Cygnet - Agency - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-1932858
+job_id: jobg8-918625004825241190437341
 reason: Approved Southampton catchment.
 ---
 
@@ -64,23 +52,11 @@ reason: Approved Southampton catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Support worker
-company: Cygnet - Agency - Permanent
+title: Support Worker - Waking Nights
+company: Avenues Group - Company - Permanent
 location: Southampton
 source: JobG8
-job_id: jobg8-2055937
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Support Worker (Learning Disabilities)
-company: Cygnet - Agency - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-2064396
+job_id: jobg8-384603642135366860837341
 reason: Approved Southampton catchment.
 ---
 
@@ -96,18 +72,6 @@ location: Alton
 source: JobG8
 job_id: jobg8-1401785277
 reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Assistant
-company: TRIDENT HEALTHCARE SOLUTIONS LIMITED - Agency - Permanent
-location: Alton
-source: JobG8
-job_id: jobg8-1980850
-reason: No approved Southampton catchment rule matched; local review required.
 ---
 
 ---
@@ -174,6 +138,18 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Support Worker - Waking Nights
+company: Avenues Group - Company - Permanent
+location: Gosport
+source: JobG8
+job_id: jobg8-384603642135366860837340
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Waking Night Childrens Home Support Worker
 company: Hampshire County Council - Company - Permanent
 location: Romsey
@@ -212,11 +188,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Secure Children's Home Support Worker
-company: Hampshire County Council - Company - Permanent
-location: Eastleigh
+title: Male Support Worker
+company: Avenues Group - Company - Permanent
+location: Fareham
 source: JobG8
-job_id: jobg8-1401785578
+job_id: jobg8-918625004825241190437340
 reason: Separate employment market.
 ---
 
@@ -224,11 +200,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Specialist Care Support Worker - Winchester
-company: SCA Care - Agency - Permanent
-location: Winchester
+title: Secure Children's Home Support Worker
+company: Hampshire County Council - Company - Permanent
+location: Eastleigh
 source: JobG8
-job_id: jobg8-108004872
+job_id: jobg8-1401785578
 reason: Separate employment market.
 ---
 

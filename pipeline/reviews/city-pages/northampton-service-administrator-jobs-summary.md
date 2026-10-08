@@ -4,7 +4,7 @@
 - Live route: `/northampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
+- automatic include: 7
 - automatic review: 16
 - automatic exclude: 0
-- effective include: 6
+- effective include: 7
 - effective review: 16
 - effective exclude: 0
 
-## INCLUDE (6)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Caroline Chisholm School
-location: Northampton
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-caroline-chisholm-school-northampton-northamptonshire
-reason: Exact approved Northampton workplace.
----
+## INCLUDE (7)
 
 ---
 action: 
@@ -45,6 +33,18 @@ company: Welford Sibbertoft and Sulby Endowed School
 location: Northampton
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrator-welford-sibbertoft-and-sulby-endowed-school-northampton-northamptonshire
+reason: Exact approved Northampton workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Bookkeeper
+company: Reed - Agency - Permanent
+location: Northampton
+source: JobG8
+job_id: jobg8-2088477
 reason: Exact approved Northampton workplace.
 ---
 
@@ -76,6 +76,18 @@ reason: Exact approved Northampton workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Payroll Administrator
+company: Infinity Recruitment Consultancy Ltd - Agency - Permanent
+location: Northampton
+source: JobG8
+job_id: jobg8-1899049
+reason: Exact approved Northampton workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist
 company: County Surgery
 location: Northampton, NN1 4QA
@@ -97,6 +109,18 @@ reason: Exact approved Northampton workplace.
 ---
 
 ## REVIEW (16)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: AAT Assistant Accountant
+company: Cripps Recruitment - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-1892751
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -186,11 +210,11 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Depot Coordinator
-company: Whistl - Agency - Permanent
+title: Events Administrator in Motorsport
+company: Katie Bard & Angela Mortimer Plc - Agency - Permanent
 location: Northamptonshire
 source: JobG8
-job_id: jobg8-2039628
+job_id: jobg8-2060783
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -198,11 +222,11 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Events Administrator in Motorsport
-company: Katie Bard & Angela Mortimer Plc - Agency - Permanent
+title: Finance/Accounts Assistant - Credit Control, Sales Ledger & Purchase Ledger
+company: Oasis Business Personnel Ltd - Agency - Permanent
 location: Northamptonshire
 source: JobG8
-job_id: jobg8-2060783
+job_id: jobg8-1916093
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -234,18 +258,6 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Network HR Assistant
-company: GXO Logistics - Company - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-1935850
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Part-time Payroll Administrator
 company: Cole Connections Ltd - Agency - Permanent
 location: Wellingborough
@@ -258,35 +270,35 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Officer
-company: Loom Talent Limited - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-1934420
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment Account Coordinator
-company: People Solutions Group Limited - Agency - Permanent
-location: Kettering
-source: JobG8
-job_id: jobg8-1939011
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Remote Conveyancing Paralegal
 company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-2055403
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Single Point of Access Administrator
+company: Northamptonshire Healthcare Foundation Trust
+location: Wellingborough, NN8 1LT
+source: NHS Jobs
+job_id: nhs-5648061
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Supply Chain Coordinator
+company: SF Partners - Agency - Permanent
+location: Corby
+source: JobG8
+job_id: jobg8-2080427
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

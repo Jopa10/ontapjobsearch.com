@@ -4,7 +4,7 @@
 - Live route: `/leicester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 14
+- automatic include: 6
+- automatic review: 20
 - automatic exclude: 0
-- effective include: 7
-- effective review: 14
+- effective include: 6
+- effective review: 20
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (6)
 
 ---
 action: 
@@ -52,11 +52,11 @@ reason: Exact approved Leicester workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Financial Services Administrator
-company: North Oak Recruitment Ltd - Agency - Permanent
+title: Finance Assistant
+company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Leicester
 source: JobG8
-job_id: jobg8-1975876
+job_id: jobg8-1909307
 reason: Exact approved Leicester workplace.
 ---
 
@@ -69,18 +69,6 @@ company: Bosworth Academy
 location: Leicester
 source: Teaching Vacancies
 job_id: teaching-vacancies-key-stage-administrator
-reason: Exact approved Leicester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Mental Health Act Administrator
-company: Leicestershire Partnership NHS Trust
-location: Leicester, LE3 9EJ
-source: NHS Jobs
-job_id: nhs-5636423
 reason: Exact approved Leicester workplace.
 ---
 
@@ -108,7 +96,7 @@ job_id: nhs-5642838
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (14)
+## REVIEW (20)
 
 ---
 action: 
@@ -119,6 +107,18 @@ company: Cherry Professional - Relationship Led Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-2049700
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable
+company: SF Partners - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1936737
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -138,11 +138,23 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Payable Coordinator
-company: SF Partners - Agency - Permanent
+title: Accounts Receivable / Credit Control Clerk
+company: Distinct Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2060246
+job_id: jobg8-1890004
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Receivable Administrator
+company: Investigo - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1986389
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -198,6 +210,18 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Credit Control - interim
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1907829
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Credit Controller
 company: SF Partners - Agency - Permanent
 location: Leicestershire
@@ -234,11 +258,23 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator
-company: Aspire People Limited - Agency - Permanent
+title: Interim Accounts Payable Assistant - Hybrid
+company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-1979613
+job_id: jobg8-2067276
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Interim Finance Assistant (Purchase Ledger)
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-2067389
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -270,11 +306,35 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Purchase Ledger Clerk
+company: SF Partners - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-2092155
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Purchasing Assistant
 company: Seismic Recruitment - Agency - Contract
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225628775
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: The Solution Auto - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-2087367
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

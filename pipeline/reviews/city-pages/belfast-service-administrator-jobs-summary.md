@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 4
+- automatic review: 6
 - automatic exclude: 0
 - effective include: 4
-- effective review: 4
+- effective review: 6
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -28,11 +28,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 action: 
 decision: include
 automatic_decision: include
-title: Band 3 Clerical Officer
-company: Brook Street - Agency - Permanent
+title: Accounts Assistant
+company: Reed - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-1982785
+job_id: jobg8-1906961
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -40,11 +40,11 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Financial Services Administrator
-company: Brook Street - Agency - Permanent
+title: Accounts Clerk
+company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-1985568
+job_id: jobg8-2057342
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -52,11 +52,11 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Paralegal - Team 6
-company: Keoghs LLP - Agency - Permanent
+title: Finance Assistant
+company: Reed - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2045513
+job_id: jobg8-1956441
 reason: Approved conservative Belfast launch catchment.
 ---
 
@@ -64,15 +64,15 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Paralegal - Team 9
-company: Keoghs LLP - Agency - Permanent
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2045517
+job_id: jobg8-2086691
 reason: Approved conservative Belfast launch catchment.
 ---
 
-## REVIEW (4)
+## REVIEW (6)
 
 ---
 action: 
@@ -90,11 +90,11 @@ reason: No approved Belfast catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Commercial Vehicles Administrator
-company: Briggs Equipment Ltd - Agency - Permanent
+title: Accounts Assistant
+company: Reed - Agency - Permanent
 location: Lisburn
 source: JobG8
-job_id: jobg8-107952610
+job_id: jobg8-1897859
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 
@@ -102,11 +102,35 @@ reason: No approved Belfast catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Contract Administrator
-company: Manpower - Agency - Permanent
-location: Ballyclare
+title: Accounts Assistant
+company: Reed - Agency - Permanent
+location: Lisburn
 source: JobG8
-job_id: jobg8-1916549
+job_id: jobg8-2089155
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Bookkeeper
+company: Reed - Agency - Permanent
+location: Carryduff
+source: JobG8
+job_id: jobg8-2091543
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Commercial Vehicles Administrator
+company: Briggs Equipment Ltd - Agency - Permanent
+location: Lisburn
+source: JobG8
+job_id: jobg8-107952610
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 

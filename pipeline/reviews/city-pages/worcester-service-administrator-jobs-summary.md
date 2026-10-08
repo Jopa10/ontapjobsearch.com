@@ -4,7 +4,7 @@
 - Live route: `/worcester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 7
+- automatic include: 2
+- automatic review: 8
 - automatic exclude: 0
-- effective include: 3
-- effective review: 7
+- effective include: 2
+- effective review: 8
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (2)
 
 ---
 action: 
@@ -40,18 +40,6 @@ reason: Exact approved Worcester workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Spring Gardens Group Medical Practice
-location: Worcester, WR1 2BS
-source: NHS Jobs
-job_id: nhs-5633214
-reason: Exact approved Worcester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Wedding & Events Co-ordinator
 company: Four Squared - Agency - Permanent
 location: Worcester
@@ -60,7 +48,7 @@ job_id: jobg8-2074804
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (7)
+## REVIEW (8)
 
 ---
 action: 
@@ -83,6 +71,18 @@ company: Agincare Group - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-108053865
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Four Squared - Agency - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-1907859
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -114,11 +114,11 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Mortgage Administrator
-company: Reed - Agency - Permanent
-location: Bromsgrove
+title: Paralegal - Commercial Litigation
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Worcestershire
 source: JobG8
-job_id: jobg8-1980547
+job_id: jobg8-2061864
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -126,11 +126,11 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Paralegal - Commercial Litigation
-company: Gleeson Recruitment Group - Agency - Permanent
-location: Worcestershire
-source: JobG8
-job_id: jobg8-2061864
+title: Receptionist/Admin
+company: Crabbs Cross Surgery
+location: Redditch, B97 5JX
+source: NHS Jobs
+job_id: nhs-5648429
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

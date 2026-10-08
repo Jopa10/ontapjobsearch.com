@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 22
-- automatic exclude: 18
-- effective include: 8
-- effective review: 22
-- effective exclude: 18
+- automatic include: 10
+- automatic review: 34
+- automatic exclude: 21
+- effective include: 10
+- effective review: 34
+- effective exclude: 21
 
-## INCLUDE (8)
+## INCLUDE (10)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Consult KA Ltd - Agency - Permanent
+location: Newcastle
+source: JobG8
+job_id: jobg8-1899187
+reason: Approved Newcastle catchment.
+---
 
 ---
 action: 
@@ -52,23 +64,11 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Assistant Document Controller
-company: Arup CWS - Agency - Permanent
-location: Newcastle Upon Tyne
-source: JobG8
-job_id: jobg8-108070538
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Client Administrator
-company: IDEX Consulting Ltd - Agency - Permanent
+title: Assistant Accountant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Newcastle
 source: JobG8
-job_id: jobg8-1986474
+job_id: jobg8-1944301
 reason: Approved Newcastle catchment.
 ---
 
@@ -81,6 +81,30 @@ company: Tenth Revolution Group - Agency - Permanent
 location: Newcastle Upon Tyne
 source: JobG8
 job_id: jobg8-2063397
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Home Administrator
+company: Akari Care Limited
+location: Newcastle, NE5 5HQ
+source: NHS Jobs
+job_id: nhs-5541887
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Home Administrator
+company: Akari Care Limited
+location: Gateshead, NE8 1QU
+source: NHS Jobs
+job_id: nhs-5577937
 reason: Approved Newcastle catchment.
 ---
 
@@ -120,7 +144,19 @@ job_id: jobg8-2074752
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (22)
+## REVIEW (34)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: 1st Line Service Desk Agent
+company: Cap Resourcing Ltd - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2024355
+reason: Broad location; review before city inclusion.
+---
 
 ---
 action: 
@@ -186,12 +222,60 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Accounts Payable Assistant
+company: Nigel Wright Group - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1948440
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrative Assistant
 company: Northumbria Healthcare NHS Foundation Trust
 location: Wallsend, NE28 8QU
 source: NHS Jobs
 job_id: nhs-5623047
 reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1986866
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: Nigel Wright Group - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1946149
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Management Accountant
+company: KCR Solutions - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1895961
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -234,11 +318,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Financial Services Administrator - IMMEDIATE START
-company: Reed - Agency - Permanent
+title: Finance Assistant
+company: Nigel Wright Group - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2018008
+job_id: jobg8-1981752
 reason: Broad location; review before city inclusion.
 ---
 
@@ -258,23 +342,11 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator
-company: Cameron James - Agency - Permanent
+title: Import Export Coordinator
+company: Nigel Wright Group - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-1937180
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Assistant (part time)
-company: Lynn Bennett Resourcing - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-2063502
+job_id: jobg8-2078004
 reason: Broad location; review before city inclusion.
 ---
 
@@ -294,12 +366,36 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Marketing & Communications Manager
-company: Tynedale Hospice at Home - Agency - Permanent
-location: Northumberland
+title: Marketing Planner
+company: Nigel Wright Group - Agency - Permanent
+location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2021816
-reason: No approved Newcastle catchment rule matched; local review required.
+job_id: jobg8-1897065
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: Sopra Steria - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1897045
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Assistant
+company: Portfolio Payroll - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1958584
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -311,6 +407,18 @@ company: Portfolio Payroll - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2078665
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Executive
+company: Achieve Professionals - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2089390
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
@@ -354,6 +462,54 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Purchase Ledger
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2089759
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Clerk
+company: Adecco - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-1916042
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Retirement Living Coordinator
+company: Riverside Group - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2066124
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales, Finance & Marketing Administrator
+company: Executive Compass - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2092051
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: School Administrator
 company: Berwick St Mary's Church of England Primary School
 location: Berwick-upon-Tweed
@@ -386,7 +542,19 @@ job_id: jobg8-2063669
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (18)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2086704
+reason: Broad location; review before city inclusion.
+---
+
+## EXCLUDE (21)
 
 ---
 action: 
@@ -420,7 +588,31 @@ title: Accounts Assistant
 company: Reed - Agency - Permanent
 location: Durham
 source: JobG8
+job_id: jobg8-1888837
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: Reed - Agency - Permanent
+location: Durham
+source: JobG8
 job_id: jobg8-2037066
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Receivable Assistant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-1981954
 reason: Separate employment market.
 ---
 
@@ -440,35 +632,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Activity Co-ordinator
-company: Cygnet - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-2055201
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Administration Assistant
 company: St Anthony's Girls' Catholic Academy
 location: Sunderland
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-st-anthony-s-girls-catholic-academy
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administration Assistant
-company: St Leonard's Catholic Primary School, Silksworth
-location: Sunderland
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-st-leonard-s-catholic-primary-school-silksworth
 reason: Separate employment market.
 ---
 
@@ -536,11 +704,47 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Finance and Payroll Assistant
+company: MTrec Recruitment - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-2087201
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant
+company: Ernest Gordon Recruitment Limited - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-1950247
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Marketing Manager
 company: Reed - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-2053979
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Materials and Supply Chain Coordinator
+company: Jackson Hogg - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-2082487
 reason: Separate employment market.
 ---
 

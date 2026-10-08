@@ -4,7 +4,7 @@
 - Live route: `/glasgow/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
+- automatic include: 10
 - automatic review: 1
 - automatic exclude: 0
-- effective include: 11
+- effective include: 10
 - effective review: 1
 - effective exclude: 0
 
-## INCLUDE (11)
+## INCLUDE (10)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: ICONIC RESOURCING LTD - Agency - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-2055742
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Assistant Accountant
-company: Pertemps Scotland Perms - Agency - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-2049768
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -88,6 +76,18 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Conveyancing Paralegal
+company: Reed - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-2088101
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Conveyancing Paralegal / Conveyancer
 company: Additional Resources Ltd - Agency - Permanent
 location: Glasgow
@@ -112,30 +112,6 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: HR & Talent Coordinator
-company: ICONIC RESOURCING LTD - Agency - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-2056515
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: HR Assistant
-company: ICONIC RESOURCING LTD - Agency - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-1933955
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Lettings Administrator
 company: Additional Resources Ltd - Agency - Permanent
 location: Glasgow
@@ -153,6 +129,18 @@ company: Mission Aviation Fellowship UK - Agency - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-1884949
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Service Desk Analyst - Telephony, Avaya
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-2080644
 reason: Approved conservative Glasgow launch catchment.
 ---
 

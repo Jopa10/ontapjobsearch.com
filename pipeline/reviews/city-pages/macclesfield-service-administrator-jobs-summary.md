@@ -4,7 +4,7 @@
 - Live route: `/macclesfield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 1
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
-- automatic review: 10
+- automatic include: 2
+- automatic review: 15
 - automatic exclude: 0
-- effective include: 1
-- effective review: 10
+- effective include: 2
+- effective review: 15
 - effective exclude: 0
 
-## INCLUDE (1)
+## INCLUDE (2)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Graduate Town Planner
+company: Penguin Recruitment Ltd - Agency - Permanent
+location: Macclesfield
+source: JobG8
+job_id: jobg8-2064949
+reason: Exact approved Macclesfield workplace.
+---
 
 ---
 action: 
@@ -36,7 +48,19 @@ job_id: jobg8-2066069
 reason: Exact approved Macclesfield workplace.
 ---
 
-## REVIEW (10)
+## REVIEW (15)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable Adminsitrator
+company: Adele Carr Recruitment Limited - Agency - Permanent
+location: Nantwich
+source: JobG8
+job_id: jobg8-1892725
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -90,6 +114,18 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
+title: Conveyancing Paralegal / Fee Earner
+company: qed legal - Agency - Permanent
+location: Wilmslow
+source: JobG8
+job_id: jobg8-1898376
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Advisor - Uncapped Commission
 company: EE - Company - Permanent
 location: Knutsford
@@ -102,11 +138,23 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator
-company: Michael Page Business Support - Agency - Permanent
+title: Finance Assistant
+company: Acorn by Synergie - Agency - Permanent
+location: Crewe
+source: JobG8
+job_id: jobg8-1914754
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Payroll Administrator
+company: JANE GORSE RECRUITMENT LIMITED - Agency - Permanent
 location: Knutsford
 source: JobG8
-job_id: jobg8-2045459
+job_id: jobg8-1958866
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -126,11 +174,23 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Recruitment Account Coordinator
-company: Staffline Recruitment Limited - Agency - Permanent
+title: Purchase Ledger
+company: Time Recruitment - Agency - Permanent
+location: Cheshire
+source: JobG8
+job_id: jobg8-1914758
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Clerk
+company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Crewe
 source: JobG8
-job_id: jobg8-1976693
+job_id: jobg8-1980795
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -155,6 +215,18 @@ company: Adullam Homes - Agency - Permanent
 location: Congleton
 source: JobG8
 job_id: jobg8-107933798
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Supply Chain Coordinator
+company: Shorterm Group - Agency - Permanent
+location: Crewe
+source: JobG8
+job_id: jobg8-2065127
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

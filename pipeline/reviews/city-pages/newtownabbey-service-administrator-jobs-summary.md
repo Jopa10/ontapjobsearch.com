@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 8
+- automatic review: 10
 - automatic exclude: 0
 - effective include: 0
-- effective review: 8
+- effective review: 10
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (8)
+## REVIEW (10)
 
 ---
 action: 
@@ -42,11 +42,59 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Band 3 Clerical Officer
-company: Brook Street - Agency - Permanent
+title: Accounts Assistant
+company: Reed - Agency - Permanent
+location: Lisburn
+source: JobG8
+job_id: jobg8-1897859
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Reed - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-1982785
+job_id: jobg8-1906961
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Reed - Agency - Permanent
+location: Lisburn
+source: JobG8
+job_id: jobg8-2089155
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Clerk
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2057342
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Bookkeeper
+company: Reed - Agency - Permanent
+location: Carryduff
+source: JobG8
+job_id: jobg8-2091543
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -66,18 +114,6 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Contract Administrator
-company: Manpower - Agency - Permanent
-location: Ballyclare
-source: JobG8
-job_id: jobg8-1916549
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Credit Controller
 company: Briggs Equipment Ltd - Agency - Permanent
 location: Lisburn
@@ -90,11 +126,11 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Financial Services Administrator
-company: Brook Street - Agency - Permanent
+title: Finance Assistant
+company: Reed - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-1985568
+job_id: jobg8-1956441
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 
@@ -102,23 +138,11 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Paralegal - Team 6
-company: Keoghs LLP - Agency - Permanent
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2045513
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Paralegal - Team 9
-company: Keoghs LLP - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2045517
+job_id: jobg8-2086691
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 

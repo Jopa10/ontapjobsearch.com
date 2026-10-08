@@ -4,7 +4,7 @@
 - Live route: `/plymouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,24 +15,36 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 28
+- automatic include: 8
+- automatic review: 31
 - automatic exclude: 0
-- effective include: 7
-- effective review: 28
+- effective include: 8
+- effective review: 31
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (8)
 
 ---
 action: 
 decision: include
 automatic_decision: include
-title: HR Administrator - Employee Relations
-company: Acorn by Synergie - Agency - Permanent
+title: Administrator
+company: Sentinel Healthcare South West CIC
+location: Plymouth, PL6 8BT
+source: NHS Jobs
+job_id: nhs-5645618
+reason: Exact approved Plymouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
+company: Butler Rose - Agency - Permanent
 location: Plymouth
 source: JobG8
-job_id: jobg8-2041166
+job_id: jobg8-1895753
 reason: Exact approved Plymouth workplace.
 ---
 
@@ -52,11 +64,11 @@ reason: Exact approved Plymouth workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Post 16 Administrator and Study Supervisor
-company: Hele's School
+title: Payroll Executive
+company: Butler Rose - Agency - Permanent
 location: Plymouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-post-16-administrator-and-study-supervisor
+source: JobG8
+job_id: jobg8-1895696
 reason: Exact approved Plymouth workplace.
 ---
 
@@ -64,11 +76,11 @@ reason: Exact approved Plymouth workplace.
 action: 
 decision: include
 automatic_decision: include
-title: School Administrator
-company: St Budeaux CofE Primary Academy
+title: Post 16 Administrator and Study Supervisor
+company: Hele's School
 location: Plymouth
 source: Teaching Vacancies
-job_id: teaching-vacancies-school-administrator-st-budeaux-cofe-primary-academy
+job_id: teaching-vacancies-post-16-administrator-and-study-supervisor
 reason: Exact approved Plymouth workplace.
 ---
 
@@ -108,7 +120,19 @@ job_id: teaching-vacancies-student-funding-administrator
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (28)
+## REVIEW (31)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Administrator
+company: Isca Recruitment Ltd - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-1928846
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -131,18 +155,6 @@ company: Royal Devon University Healthcare NHS Foundation Trust
 location: Barnstaple, EX31 4JB
 source: NHS Jobs
 job_id: nhs-5643112
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator - Financial Services
-company: mbf. - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-1934222
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -210,6 +222,18 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: Finance Administrator
+company: Isca Recruitment Ltd - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-1963322
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance and Bursary Administrator
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Devon
@@ -234,18 +258,6 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: HR Coordinator
-company: Pertemps Plymouth Commercial - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-2062986
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Insurance Administrator
 company: Switch - Agency - Permanent
 location: Exeter
@@ -258,11 +270,11 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Integration Coordinator
-company: Capio Recruitment Financial Planning - Agency - Permanent
-location: Exeter
+title: Legal Assistant - Conveyancing
+company: RLS Legal Recruitment - Agency - Permanent
+location: Totnes
 source: JobG8
-job_id: jobg8-2056703
+job_id: jobg8-1908676
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -275,6 +287,18 @@ company: TQR - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-108060887
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Assistant (Part Time - Temp)
+company: Butler Rose - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-1895856
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -299,6 +323,30 @@ company: Pertemps Plymouth Commercial - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-1959379
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Clerk (Temp)
+company: Lloyd Barnes Recruitment - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-1987805
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchasing Assistant
+company: Reed - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-1905927
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -343,10 +391,10 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
-company: Elysium Healthcare
-location: Exeter, EX1 3PZ
-source: NHS Jobs
-job_id: nhs-5635403
+company: Premier Foods - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-108090699
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 21
+- automatic review: 26
 - automatic exclude: 0
 - effective include: 0
-- effective review: 21
+- effective review: 26
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (21)
+## REVIEW (26)
 
 ---
 action: 
@@ -35,6 +35,18 @@ company: Cherry Professional - Relationship Led Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-2049700
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable
+company: SF Partners - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1936737
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -54,11 +66,23 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Payable Coordinator
-company: SF Partners - Agency - Permanent
+title: Accounts Receivable / Credit Control Clerk
+company: Distinct Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2060246
+job_id: jobg8-1890004
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Receivable Administrator
+company: Investigo - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1986389
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -138,6 +162,18 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Credit Control - interim
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1907829
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Credit Controller
 company: SF Partners - Agency - Permanent
 location: Leicestershire
@@ -174,11 +210,11 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Financial Services Administrator
-company: North Oak Recruitment Ltd - Agency - Permanent
+title: Finance Assistant
+company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Leicester
 source: JobG8
-job_id: jobg8-1975876
+job_id: jobg8-1909307
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -186,11 +222,23 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator
-company: Aspire People Limited - Agency - Permanent
+title: Interim Accounts Payable Assistant - Hybrid
+company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-1979613
+job_id: jobg8-2067276
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Interim Finance Assistant (Purchase Ledger)
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-2067389
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -203,18 +251,6 @@ company: Bosworth Academy
 location: Leicester
 source: Teaching Vacancies
 job_id: teaching-vacancies-key-stage-administrator
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Mental Health Act Administrator
-company: Leicestershire Partnership NHS Trust
-location: Leicester, LE3 9EJ
-source: NHS Jobs
-job_id: nhs-5636423
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -239,6 +275,18 @@ company: Michael Page Finance - Agency - Permanent
 location: Coalville
 source: JobG8
 job_id: jobg8-2067304
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Clerk
+company: SF Partners - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-2092155
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -275,6 +323,18 @@ company: InMind
 location: Leicester, LE2 9FS
 source: NHS Jobs
 job_id: nhs-5642838
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: The Solution Auto - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-2087367
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

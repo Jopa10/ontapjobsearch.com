@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,24 +15,24 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 12
-- automatic exclude: 9
-- effective include: 9
-- effective review: 12
-- effective exclude: 9
+- automatic include: 10
+- automatic review: 13
+- automatic exclude: 14
+- effective include: 10
+- effective review: 13
+- effective exclude: 14
 
-## INCLUDE (9)
+## INCLUDE (10)
 
 ---
 action: 
 decision: include
 automatic_decision: include
-title: 2x People Services Administrator
-company: Brook Street - Agency - Permanent
+title: Accounts Administrator
+company: Capital Outsourcing Group Ltd - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-1986354
+job_id: jobg8-1907580
 reason: Approved York catchment.
 ---
 
@@ -76,6 +76,18 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Paralegal
+company: LSL Property Services plc - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-2093053
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Paralegal - Family
 company: Capital Outsourcing Group Ltd - Agency - Permanent
 location: York
@@ -100,11 +112,11 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Patient Care Navigator (Medical Receptionist - Priory Medical Centre)
-company: Priory Medical Group
-location: YORK, YO24 3WX
-source: NHS Jobs
-job_id: nhs-5604935
+title: Part Time Finance Assistant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-2087398
 reason: Approved York catchment.
 ---
 
@@ -132,19 +144,7 @@ job_id: jobg8-2021380
 reason: Approved York catchment.
 ---
 
-## REVIEW (12)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Tradewind Recruitment - Agency - Permanent
-location: Richmond
-source: JobG8
-job_id: jobg8-2050566
-reason: No approved York catchment rule matched; local review required.
----
+## REVIEW (13)
 
 ---
 action: 
@@ -179,6 +179,18 @@ company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Ripon
 source: JobG8
 job_id: jobg8-2048426
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Michael Page Finance - Agency - Permanent
+location: Richmond
+source: JobG8
+job_id: jobg8-1939806
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -234,6 +246,30 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Demand Planner
+company: MTrec Recruitment - Agency - Permanent
+location: Bedale
+source: JobG8
+job_id: jobg8-1888842
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Interim Finance Administrator
+company: KD Recruitment Limited - Agency - Permanent
+location: Filey
+source: JobG8
+job_id: jobg8-1950790
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Ledger Clerk
 company: Optimum Recruitment Group Limited - Agency - Permanent
 location: Ripon
@@ -258,18 +294,6 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist/Administrator
-company: Ripon Spa Surgery
-location: Ripon, HG4 2BE
-source: NHS Jobs
-job_id: nhs-5611094
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Service Coordinator
 company: Interaction - Leeds - Agency - Permanent
 location: Malton
@@ -278,7 +302,7 @@ job_id: jobg8-108059238
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (9)
+## EXCLUDE (14)
 
 ---
 action: 
@@ -332,6 +356,30 @@ reason: Broad regional label; not York-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Conveyancing Assistant
+company: Janine Kot (JK) Recruitment Advisory Services Limited - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1906113
+reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Credit Control
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1987959
+reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Credit Control
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Yorkshire
@@ -356,6 +404,30 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Finance Administrator
+company: Marks Sattin - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1945785
+reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant
+company: IPS Group - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-1910220
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Legal Assistant
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Northallerton
@@ -373,6 +445,18 @@ company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Northallerton
 source: JobG8
 job_id: jobg8-2075662
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Marketing Assistant
+company: Technical Prospects - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-2089709
 reason: Separate employment market.
 ---
 

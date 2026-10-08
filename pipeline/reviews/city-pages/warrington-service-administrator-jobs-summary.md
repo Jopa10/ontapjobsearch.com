@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 20
+- Effective included jobs: 25
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 20
+- automatic include: 25
 - automatic review: 10
 - automatic exclude: 5
-- effective include: 20
+- effective include: 25
 - effective review: 10
 - effective exclude: 5
 
-## INCLUDE (20)
+## INCLUDE (25)
 
 ---
 action: 
@@ -33,6 +33,30 @@ company: Axon Moore Group Ltd - Agency - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-2045461
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Bis Henderson - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-1906561
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Reed - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-1936736
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -220,6 +244,18 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Finance Assistant
+company: Reed - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-1944948
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Finance Assistant + AAT/CIMA Study Support
 company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Warrington
@@ -256,11 +292,35 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Planning Administrator
+company: PHS Group Limited - Company - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-2037904
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Service Advisor
 company: The Solution Auto - Agency - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-1909662
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Service Desk Analyst - AV Division
+company: Clarify Consultancy Ltd - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-2063198
 reason: Approved conservative Warrington launch catchment.
 ---
 

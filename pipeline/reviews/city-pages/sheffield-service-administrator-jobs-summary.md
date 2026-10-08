@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 14
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
-- automatic review: 0
-- automatic exclude: 12
-- effective include: 14
-- effective review: 0
-- effective exclude: 12
+- automatic include: 19
+- automatic review: 3
+- automatic exclude: 15
+- effective include: 19
+- effective review: 3
+- effective exclude: 15
 
-## INCLUDE (14)
+## INCLUDE (19)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Sharp Consultancy - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-1959767
+reason: Approved Sheffield catchment.
+---
 
 ---
 action: 
@@ -57,6 +69,18 @@ company: Elevation Recruitment Group - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2078492
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Accountant
+company: IPS Group - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-1960387
 reason: Approved Sheffield catchment.
 ---
 
@@ -100,6 +124,18 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Credit Control / Accounts Assistant
+company: Shillito Group - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-1905225
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Credit Controller
 company: Sharp Consultancy - Agency - Permanent
 location: Sheffield
@@ -129,6 +165,42 @@ company: GGT Insolvency Recruitment - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2014257
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Paralegal
+company: CRA Consulting - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2087031
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Purchase Ledger Clerk
+company: Elevation Recruitment Group - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-1939350
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Purchase Ledger Clerk
+company: PRATAP PARTNERSHIP LTD - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2063431
 reason: Approved Sheffield catchment.
 ---
 
@@ -172,18 +244,6 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist and Administrator
-company: Prince Edward Primary School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-and-administrator-adcd5f34-cc20-45ec-9a96-1d35515bc466
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: SCITT Administrator
 company: Chorus Education Trust
 location: Sheffield
@@ -192,9 +252,45 @@ job_id: teaching-vacancies-scitt-administrator-chorus-education-trust
 reason: Approved Sheffield catchment.
 ---
 
-## REVIEW (0)
+## REVIEW (3)
 
-## EXCLUDE (12)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Officer
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2052996
+reason: No approved Sheffield catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Income Assistant / Finance Administrator - Local Authority
+company: Reed - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2067582
+reason: No approved Sheffield catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Officer
+company: Marks Sattin - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1948871
+reason: No approved Sheffield catchment rule matched; local review required.
+---
+
+## EXCLUDE (15)
 
 ---
 action: 
@@ -229,6 +325,18 @@ company: Reed - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-2024835
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Assistant Accountant
+company: Elevation Recruitment Group - Agency - Permanent
+location: Rotherham
+source: JobG8
+job_id: jobg8-1949982
 reason: Separate employment market.
 ---
 
@@ -308,11 +416,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: HR Assistant
-company: Elevation Recruitment Group - Agency - Permanent
+title: Part-time Payroll Assistant
+company: Portfolio Payroll - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-2046084
+job_id: jobg8-1907486
 reason: Separate employment market.
 ---
 
@@ -320,11 +428,23 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: HR Coordinator
-company: Office Angels - Agency - Permanent
+title: Payroll and Accounts Assistant
+company: Elevation Recruitment Group - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-1987373
+job_id: jobg8-2028957
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Purchase Ledger Clerk
+company: PRATAP PARTNERSHIP LTD - Agency - Permanent
+location: Rotherham
+source: JobG8
+job_id: jobg8-2087559
 reason: Separate employment market.
 ---
 
@@ -337,5 +457,17 @@ company: ID Medical
 location: Barnsley, s752ep
 source: NHS Jobs
 job_id: nhs-5641970
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: White House Farm Medical Centre
+location: Doncaster, DN3 3AH
+source: NHS Jobs
+job_id: nhs-5647395
 reason: Separate employment market.
 ---

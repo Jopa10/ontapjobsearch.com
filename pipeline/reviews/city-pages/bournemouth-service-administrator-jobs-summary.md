@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 23
+- automatic review: 27
 - automatic exclude: 0
 - effective include: 4
-- effective review: 23
+- effective review: 27
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: nhs-5632763
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (23)
+## REVIEW (27)
 
 ---
 action: 
@@ -139,6 +139,30 @@ action:
 decision: review
 automatic_decision: review
 title: Assistant Accountant
+company: CMA Recruitment Group - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-1982458
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: CMA Recruitment Group - Agency - Permanent
+location: Poole
+source: JobG8
+job_id: jobg8-1986873
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
 company: Michael Page Finance - Agency - Permanent
 location: Poole
 source: JobG8
@@ -167,18 +191,6 @@ company: Michael Page Finance - Agency - Permanent
 location: Sherborne
 source: JobG8
 job_id: jobg8-2058934
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Coordinator
-company: Agincare Group - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-108080615
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -258,23 +270,11 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator
-company: Resource Recruitment - Agency - Permanent
-location: Ferndown
-source: JobG8
-job_id: jobg8-1957010
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Coordinator
-company: Dovetail Recruitment Ltd - Agency - Permanent
+title: Finance Assistant - Temporary
+company: Office Angels - Agency - Permanent
 location: Dorset
 source: JobG8
-job_id: jobg8-2041792
+job_id: jobg8-2092371
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -299,6 +299,18 @@ company: CMA Recruitment Group - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-2075751
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Officer
+company: Sheridan Maine - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-1896663
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -335,6 +347,42 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225649037
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Ledger
+company: Reed - Agency - Permanent
+location: Poole
+source: JobG8
+job_id: jobg8-1898195
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Supply Chain Planner
+company: Reed - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-2088652
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Purchase Ledger
+company: CMA Recruitment Group - Agency - Permanent
+location: Poole
+source: JobG8
+job_id: jobg8-1986688
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

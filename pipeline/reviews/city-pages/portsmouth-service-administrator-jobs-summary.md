@@ -4,7 +4,7 @@
 - Live route: `/portsmouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 54
+- automatic include: 7
+- automatic review: 68
 - automatic exclude: 0
-- effective include: 5
-- effective review: 54
+- effective include: 7
+- effective review: 68
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (7)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Accountant
+company: CMA Recruitment Group - Agency - Permanent
+location: Portsmouth
+source: JobG8
+job_id: jobg8-1889978
+reason: Exact approved Portsmouth workplace.
+---
 
 ---
 action: 
@@ -64,11 +76,23 @@ reason: Exact approved Portsmouth workplace.
 action: 
 decision: include
 automatic_decision: include
-title: HR Assistant
-company: Reed - Agency - Permanent
+title: IT Service Desk Analyst (1st line)
+company: Randstad Delivery (GBS) - Agency - Permanent
 location: Portsmouth
 source: JobG8
-job_id: jobg8-2062579
+job_id: jobg8-2065862
+reason: Exact approved Portsmouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Executive
+company: Michael Page Finance - Agency - Permanent
+location: Portsmouth
+source: JobG8
+job_id: jobg8-1959286
 reason: Exact approved Portsmouth workplace.
 ---
 
@@ -84,7 +108,7 @@ job_id: nhs-5627419
 reason: Exact approved Portsmouth workplace.
 ---
 
-## REVIEW (54)
+## REVIEW (68)
 
 ---
 action: 
@@ -162,11 +186,23 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Payable and Purchasing Administrator
-company: Sheridan Maine - Agency - Permanent
-location: Basingstoke
+title: Accounts Payable Assistant
+company: CMA Recruitment Group - Agency - Permanent
+location: Fareham
 source: JobG8
-job_id: jobg8-2028253
+job_id: jobg8-2089401
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable Clerk
+company: Michael Page Finance - Agency - Permanent
+location: Ringwood
+source: JobG8
+job_id: jobg8-1945557
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -179,6 +215,18 @@ company: Executive Talent Solutions - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-2057340
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Mulberry Recruitment - Agency - Permanent
+location: Farnborough
+source: JobG8
+job_id: jobg8-2089361
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -246,11 +294,59 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Assistant Accountant
+company: Michael Page Finance - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-2087359
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: The Niche Partnership - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1957224
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Management Accountant
+company: CMA Recruitment Group - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1949566
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Assistant Management Accountant
 company: The Niche Partnership - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-2075160
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Bookkeeper
+company: Accountancy Expertise Ltd - Agency - Permanent
+location: Fareham
+source: JobG8
+job_id: jobg8-1914877
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -270,6 +366,18 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Claims Handler
+company: Everywhen, part of the Ardonagh Group - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2092327
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Commercial Property Legal Assistant
 company: Workshop Recruitment - Agency - Permanent
 location: Hampshire
@@ -282,11 +390,47 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Company Secretary - 12 month FTC
+company: Michael Page Legal - Agency - Permanent
+location: Farnborough
+source: JobG8
+job_id: jobg8-1899341
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Credit Controller
 company: Michael Page Finance - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-2042564
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Neoci Ltd - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1889913
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: The Niche Partnership - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2092163
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -343,6 +487,18 @@ action:
 decision: review
 automatic_decision: review
 title: Finance Assistant
+company: CMA Recruitment Group - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1947243
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
 company: The Niche Partnership - Agency - Permanent
 location: Hampshire
 source: JobG8
@@ -390,11 +546,11 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: HR Administration Assistant
+title: Import Coordinator
 company: Reed - Agency - Permanent
-location: Liphook
+location: Southampton
 source: JobG8
-job_id: jobg8-2075403
+job_id: jobg8-2073501
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -402,35 +558,11 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator
-company: Reed - Agency - Permanent
-location: Hampshire
+title: Import Seafreight Coordinator
+company: Freightserve - Agency - Permanent
+location: Southampton
 source: JobG8
-job_id: jobg8-2055352
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrator
-company: Trusted Technology Partnership - Agency - Permanent
-location: Ringwood
-source: JobG8
-job_id: jobg8-1937622
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Coordinator
-company: Howett Thorpe - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2045880
+job_id: jobg8-2028545
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -450,18 +582,6 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Insolvency Administrator
-company: FRP Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2034581
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Insurance Account Executive
 company: Aspire Jobs Limited - Agency - Permanent
 location: Fareham
@@ -474,11 +594,47 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Legal Assistant
+company: Brook Street - Agency - Permanent
+location: Emsworth
+source: JobG8
+job_id: jobg8-2089106
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Assistant
+company: Chalk Hill Group - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2089703
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Legal Assistant - Commercial Property
 company: Harwood Recruitment Solutions Limited - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-2044543
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Assistant - Wills Trust & Probate Team
+company: 360 Recruitment - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2089171
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -606,6 +762,42 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Project Co-ordinator
+company: Searchability - Agency - Permanent
+location: Fareham
+source: JobG8
+job_id: jobg8-2024263
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Property Finance Paralegal
+company: G2 Legal Limited - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1905563
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger
+company: CMA Recruitment Group - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1988017
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Purchase Ledger
 company: CMA Recruitment Group - Agency - Permanent
 location: Southampton
@@ -678,11 +870,11 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Shift Coordinator
-company: Adecco - Agency - Permanent
+title: Shipping Administrator
+company: Matchtech - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2043400
+job_id: jobg8-2049995
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -690,11 +882,11 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Shipping Administrator
-company: Matchtech - Agency - Permanent
-location: Hampshire
+title: Shipping Coordinator
+company: Elliot Marsh Head Hunting Partners - Agency - Permanent
+location: Southampton
 source: JobG8
-job_id: jobg8-2049995
+job_id: jobg8-2066863
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
