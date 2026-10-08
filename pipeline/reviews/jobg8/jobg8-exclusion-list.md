@@ -6,9 +6,153 @@ The `excluded_on` date is the day the exclusion decision was made.
 To restore a job, edit only its `action:` line to `action: select`.
 On the next JobG8 run that exact job ID will be restored and removed from this list.
 
-remembered_exclusions: 415
+remembered_exclusions: 428
 
 ## SERVICE / ADMIN — EXCLUDED
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-08
+title: Treasury & Finance Assistant
+employer: Alexander Lloyd
+region: 
+town: London
+salary: 
+job_id: 1980599
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-08
+title: Town Planner
+employer: Penguin Recruitment Ltd
+region: 
+town: Cornwall
+salary: 
+job_id: 2087019
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-08
+title: Town Planner
+employer: Penguin Recruitment Ltd
+region: 
+town: Kent
+salary: 
+job_id: 2077494
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-08
+title: Service Desk Analyst
+employer: Identify Solutions
+region: 
+town: South Glamorgan
+salary: 
+job_id: 2027206
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-08
+title: Project Delivery Coordinator
+employer: Bristow Holland
+region: 
+town: Suffolk
+salary: 
+job_id: 2065373
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-08
+title: PMO & Delivery Coordinator
+employer: Gold Group Ltd
+region: 
+town: Surrey
+salary: 
+job_id: 2063119
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-08
+title: Logistics Operations Coordinator
+employer: Alban Recruitment Solutions
+region: 
+town: Hertfordshire
+salary: 
+job_id: 2084538
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-08
+title: Interim Credit Controller
+employer: Cedar
+region: 
+town: Shropshire
+salary: 
+job_id: 1893013
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-08
+title: Freight Forwarding Coordinator
+employer: Streamline Search Ltd
+region: 
+town: Berkshire
+salary: 
+job_id: 2080747
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-08
+title: Export Co-ordinator
+employer: Red Recruit Ltd
+region: 
+town: Middlesex
+salary: 
+job_id: 2035562
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-08
+title: Bookkeeper
+employer: Reed
+region: 
+town: Northamptonshire
+salary: 
+job_id: 2088477
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-08
+title: Air Export Co-ordinator
+employer: First Choice Staff
+region: 
+town: Berkshire
+salary: 
+job_id: 2037873
+---
 
 ---
 action:
@@ -4835,6 +4979,18 @@ job_id: 23643_225460911
 ---
 
 ## SUPPORT WORKER — EXCLUDED
+
+---
+action:
+category: support_worker
+excluded_on: 2026-10-08
+title: Fostering Support Worker
+employer: Hampshire County Council
+region: 
+town: Hampshire
+salary: 
+job_id: 1401785747
+---
 
 ---
 action:
