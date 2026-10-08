@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-10-07
-review_fingerprint: 285f98ecff941faff8f6d9576606364dd3eed64f62eae3b3f14ce448fc84970e
+review_date: 2026-10-08
+review_fingerprint: 2865cf9225be2259b7e06c33a7be7bbd443e5100fc379570190306c0afa6ae1a
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,27 +10,27 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-10-07T14:44:42+01:00
+Run generated: 2026-10-08T14:52:50+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 367
+JobG8 comparison rows: 274
 Approved NEJobs comparison rows: 0
 
 ## Funnel
 - VONNE listings read: 15
-- Detail-page candidates: 5
-- Detail pages fetched successfully: 5
+- Detail-page candidates: 7
+- Detail pages fetched successfully: 7
 - Detail failures/listing fallbacks: 0
-- Obvious hard passes not detail-fetched: 10
+- Obvious hard passes not detail-fetched: 8
 - Tees Valley explicitly excluded: 0
-- Outside or unmapped geography excluded: 3
-- Generic/derived geography rows requiring review: 2
-- Retained target candidates: 12
+- Outside or unmapped geography excluded: 2
+- Generic/derived geography rows requiring review: 1
+- Retained target candidates: 13
 
 ## Outcomes
-- HC: 0
+- HC: 1
 - POSS: 9
 - HARD_PASS: 3
-- Final selected after remembered/manual actions: 0
+- Final selected after remembered/manual actions: 1
 - Final POSS awaiting decision: 9
 - Manually excluded: 0
 ## Detail diagnostics
@@ -38,8 +38,19 @@ Approved NEJobs comparison rows: 0
 
 ## SELECTED
 
-- None.
-
+---
+action:
+SELECTED | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £24,796 to 28,153 Per Annum | Administrator (VAWG TEAM)
+employer: The Angelou Centre
+closing_date: Saturday, October 31, 2026 - 05:00
+geography: CONFIRMED — location: approved location fallback
+reason: clear transferable title: administrator
+source: VONNE
+tracking_key: vonne-173521
+vacancy_fingerprint: 6bde09698b989e1267db4b77ce6013d78818bfcbc18d48a2533b8d50c9d4eef6
+source_job_id: 173521
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173521
+---
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -54,19 +65,6 @@ tracking_key: vonne-173468
 vacancy_fingerprint: 473cc7b424b8ffe7e0574bf796b773b5212da99c870656e1ac126920e92d4405
 source_job_id: 173468
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173468
----
----
-action:
-POSS | North East | Hybrid | £24,480 Per Annum | Project Assistant
-employer: North East Chamber of Commerce
-closing_date: 27 October 2026
-geography: GENERIC_REVIEW — generic VONNE location requires manual North East check
-reason: North East geography is generic or derived and requires review
-source: VONNE
-tracking_key: vonne-173489
-vacancy_fingerprint: 614f3aa276c1067c98c18edf1a0144b16bb8bf36311bd7826b4c62486ff7f4ba
-source_job_id: 173489
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173489
 ---
 ---
 action:
@@ -135,6 +133,19 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173484
 ---
 ---
 action:
+POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £30,303 to 35,781 Per Annum | Housing Coordinator
+employer: The Angelou Centre
+closing_date: Saturday, October 31, 2026 - 05:00
+geography: CONFIRMED — location: approved location fallback
+reason: possible cross-source duplicate requires review
+source: VONNE
+tracking_key: vonne-173522
+vacancy_fingerprint: 61c24dc341e1a13672ae87098d2c61e64cb2480c2d25c2dd52f8d24aa08c9c73
+source_job_id: 173522
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173522
+---
+---
+action:
 POSS | North East - Tyneside, Wearside & Northumberland | South Tyneside | £15 Per Hour | Project Lead (STARCH)
 employer: Churches Together in South Tyneside
 closing_date: 30 October 2026
@@ -152,10 +163,10 @@ POSS | North East - Tyneside, Wearside & Northumberland | Gateshead | £50,565 P
 employer: Citizens Advice Gateshead
 closing_date: 30 October 2026
 geography: CONFIRMED — location: exact area
-reason: annualised upper salary £50,565 exceeds North East review point £30,000
+reason: possible cross-source duplicate requires review
 source: VONNE
 tracking_key: vonne-173501
-vacancy_fingerprint: 4d00ed2155f640268193e0ee1605ec4cc0efe1b8e02e611794da864f457f3446
+vacancy_fingerprint: a88d73601f7b6d5f1dbbeabde86760e2454307e9b03d45a1b838d07686248076
 source_job_id: 173501
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173501
 ---
