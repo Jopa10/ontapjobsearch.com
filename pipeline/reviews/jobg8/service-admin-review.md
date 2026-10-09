@@ -1384,11 +1384,10 @@ job_id: 2099956
 ## KENT — POSSIBLES
 
 ---
-action:
+action: select
 POSS - KENT | Kent | Kent | £21 - £24 per hour [JobG8 salary fields] | Interim Part time Finance Assistant
 job_id: 2093129
 ---
-
 ## SELECTOR ERRORS / UNRESOLVED
 
 _No selector errors or unresolved rows outside the normal possible groups._
@@ -1784,11 +1783,10 @@ job_id: 2092729
 ## BERKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - BERKSHIRE | Berkshire | Berkshire |  | Assistant Management Accountant
 job_id: 2089676
 ---
-
 ## BRISTOL & BATH — SELECTED
 
 ---
@@ -2868,11 +2866,10 @@ job_id: 2067457
 ## GREATER MANCHESTER - NORTH — POSSIBLES
 
 ---
-action:
+action: select
 POSS - GREATER MANCHESTER - NORTH | Greater Manchester - North | Oldham |  | Assistant Accountant
 job_id: 2075771
 ---
-
 ## GREATER MANCHESTER - SOUTH — SELECTED
 
 ---
@@ -3232,17 +3229,15 @@ job_id: 2091875
 ## LANCASHIRE - EAST — POSSIBLES
 
 ---
-action:
+action: select
 POSS - LANCASHIRE - EAST | Lancashire - East | Blackburn | £27463 - £29947 per year | Assistant Accountant
 job_id: 2075598
 ---
-
 ---
-action:
+action: exclude
 POSS - LANCASHIRE - EAST | Lancashire - East | Blackburn | £35000 - £40000 per year | Credit Controllers
 job_id: 2089047
 ---
-
 ## LEICESTERSHIRE — SELECTED
 
 ---
@@ -3948,11 +3943,10 @@ job_id: 2092928
 ## SOMERSET — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SOMERSET | Somerset | Somerset |  | Assistant Management Accountant
 job_id: 2092599
 ---
-
 ## STAFFORDSHIRE — SELECTED
 
 ---
