@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-10-08
-review_fingerprint: 18d37d8cd4755b8e98b10ff7b14d4897ddf558ba96418fca6285ae6a3b188ab9
-routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
+review_date: 2026-10-09
+review_fingerprint: 656753ad785e12630981e3e830b12ea5982046069331de84437047230e1eb2ba
+routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 26
+- Records: 25
 - Selected: 8
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 17
+- Hard pass: 15
 
 ## SELECTED
 
@@ -83,21 +83,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-as
 
 ---
 action: 
-SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S2 1SN | £32,043 gross per annum | HR Administrator
-employer: Sheffield Park Academy
-closing_date: 2026-10-08T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0f7d5f78d7a1536f6b7bc0b83313907d0d525466cebf958a39f5567973f7291f
-source: Teaching Vacancies
-source_job_id: hr-administrator-e50a9848-dea2-4828-a9a5-5745ea9a03ce
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-e50a9848-dea2-4828-a9a5-5745ea9a03ce
----
-
----
-action: 
 SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S35 0AE | Grade 6 Point 21 - 26 | Personal Assistant
 employer: Bradfield Secondary School
 closing_date: 2026-10-20T09:00:59+01:00
@@ -124,6 +109,21 @@ factual_fingerprint: 0b85e09644f78827f39ff29d0c6f48cd04c14fa7af8d8692a47e6ad5157
 source: Teaching Vacancies
 source_job_id: receptionist-stocksbridge-junior-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-stocksbridge-junior-school
+---
+
+---
+action: 
+SELECTED | Yorkshire - South | Rotherham, S65 2JW | £22,971.00 - £23,336.00 Annually (Actual) Temporary with a view to Permanent | Receptionist & Admin Assistant
+employer: Willow Tree Academy
+closing_date: 2026-11-06T12:00:00+00:00
+reason: Clear admin/service title: admin assistant, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0dee8d6ee0d8ebaf7f50fbb7d643e618a740c12e670a806ba33d5fee60542212
+source: Teaching Vacancies
+source_job_id: receptionist-admin-assistant-willow-tree-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-willow-tree-academy
 ---
 
 ---
@@ -158,6 +158,21 @@ source_job_id: attendance-admin-officer-athelstan-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-admin-officer-athelstan-primary-school
 ---
 
+---
+action: 
+POSS | Yorkshire - South | Rotherham, Yorkshire and the Humber, S60 5EJ | £26,427 to £26,847 | Pastoral Admin Support
+employer: Brinsworth Academy
+closing_date: 2026-10-21T09:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c2a101fd9a3c1bb941d4c7de43c083d09423020c0fdfb6dcf05f0923b7df57e1
+source: Teaching Vacancies
+source_job_id: pastoral-admin-support-brinsworth-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-admin-support-brinsworth-academy
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -167,7 +182,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-admin-offi
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-st-thomas-more-catholic-primary-a-voluntary-academy) — Insufficient admin/service evidence.
 - [Attendance and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-officer-sharrow-nursery-infant-and-junior-school) — Insufficient admin/service evidence.
 - [Business Support Manager](https://teaching-vacancies.service.gov.uk/jobs/business-support-manager-beck-primary-school-sheffield-south-yorkshire) — Manager title salary ceiling £40,921 is not below £28,000.
-- [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-ridgewood-school) — Insufficient admin/service evidence.
 - [Finance & Admin Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-admin-manager-171240df-359e-4c34-b77f-8c67e1ee2d06) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-800b81f8-109d-4857-8ee1-281e2de5e328) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-minerva-learning-trust-sheffield-not-recorded) — Insufficient admin/service evidence.
@@ -175,7 +189,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-admin-offi
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-gooseacre-primary-academy) — Manager title salary ceiling £39,773 is not below £28,000.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-42e231a7-dcef-4bf5-a3d7-0eb145f4ac02) — Insufficient admin/service evidence.
 - [Safeguarding and Welfare Officer](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-and-welfare-officer-newman-school) — Insufficient admin/service evidence.
-- [Senior Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-kings-oak-primary) — Insufficient admin/service evidence.
 - [Senior Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-st-francis-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [Senior Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-manager-minerva-learning-trust) — Manager title salary ceiling £58,557 is not below £28,000.
 - [Senior Management Account / Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/senior-management-account-head-of-finance) — Insufficient admin/service evidence.

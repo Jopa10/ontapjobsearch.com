@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - South
 
-review_date: 2026-10-08
-review_fingerprint: e27722ecaeeaf70037fc1442cf47d87d1d799f75bdb70a7a16760294f1f4370f
-routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
+review_date: 2026-10-09
+review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
 ontap_region: Greater Manchester - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,15 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
-- Selected: 1
+- Records: 1
+- Selected: 0
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
 
----
-action: 
-SELECTED | Greater Manchester - South | Hyde, North West, SK14 4SP | Support Staff Pay Scale Grade D | Administrator
-employer: Hyde High School
-closing_date: 2026-10-09T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8e27db3f3da65d449ae4159ba29b372ae52aa6b62c863fdbf72af2fbc298a93e
-source: Teaching Vacancies
-source_job_id: administrator-hyde-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-hyde-high-school
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 

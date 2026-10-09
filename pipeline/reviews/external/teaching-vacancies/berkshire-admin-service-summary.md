@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-10-08
+review_date: 2026-10-09
 review_fingerprint: 6b2ff06808d9cf0a13bbd44019a1d8475af2d5f6866d3a63dff6d6bf61c149b0
-routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
+routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -149,10 +149,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-finance-assist
 
 ## HARD_PASS
 
-- [Business Operations Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/business-operations-co-ordinator-arbour-vale-school) — Insufficient admin/service evidence.
 - [Casual Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/casual-lettings-assistant-maiden-erlegh-chiltern-edge-reading-berkshire) — Insufficient admin/service evidence.
 - [Data Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-assistant-4cb042fb-579e-4856-989b-a99368a75302) — Insufficient admin/service evidence.
 - [HR & Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-officer-the-park-federation-academy-trust) — Insufficient admin/service evidence.
+- [HR Coordinator (part-time)](https://teaching-vacancies.service.gov.uk/jobs/hr-coordinator-part-time) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-joseph-s-catholic-high-school) — Manager title salary ceiling £34,249 is not below £28,000.
 - [Office Manager and Personal Assistant to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-personal-assistant-to-the-headteacher-new-town-primary-school) — Manager title salary ceiling £40,444 is not below £28,000.
 - [Receptionist & Admin Assistant - Katesgrove Primary School](https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-katesgrove-primary-school-katesgrove-primary-school) — Missing salary or pay scale.

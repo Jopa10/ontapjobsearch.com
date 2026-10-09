@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-10-08
-review_fingerprint: 2f6bd9a0819eedfc32ab5d006b6be9e7efd93321e977e4bdd79b9bb647315d73
-routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
+review_date: 2026-10-09
+review_fingerprint: aed5b058aac9d6b81a984daaddfc8551041d0737a5dd9e98f5a954889b0e4e65
+routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,43 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 1
+- Records: 8
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 4
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Surrey | Godalming, South East, GU7 1RS | £39,075.00 - £40,238.00 Annually (Actual) The salary for this role is based on Scale SS7 of the Godalming College Support Staff pay scale which is currently £39,075 – £40,238 per annum inclusive of fringe | Deputy Examinations Officer
+employer: Godalming College
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Clear admin/service title: examinations officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0a54390cc6b10c4efa15a757836c0a836be66304b179dcd34af198d25c826526
+source: Teaching Vacancies
+source_job_id: deputy-examinations-officer-godalming-college-godalming-surrey
+source_url: https://teaching-vacancies.service.gov.uk/jobs/deputy-examinations-officer-godalming-college-godalming-surrey
+---
+
+---
+action: 
+SELECTED | Surrey | Leatherhead, South East, KT23 3PP | £25,940.00 - £28,220.00 Annually (FTE) P4 - £12337 - £13422pa (actual) | Safeguarding and SEND Administrative Assistant
+employer: Eastwick Infant School
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 52e6a1b91d2aee27329b9d2271a599dd824c9d67b4354503ffe4c1ae2cc02067
+source: Teaching Vacancies
+source_job_id: safeguarding-and-send-administrative-assistant-eastwick-infant-school-leatherhead-surrey
+source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-and-send-administrative-assistant-eastwick-infant-school-leatherhead-surrey
+---
 
 ---
 action: 

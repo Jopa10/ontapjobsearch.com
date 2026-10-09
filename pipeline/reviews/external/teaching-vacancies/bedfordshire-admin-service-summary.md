@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-10-08
-review_fingerprint: 75a01ee8c53ad110b1b54cf25ef1d5d0964a103e16fd9e8c7cc635ef6b322e66
-routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
+review_date: 2026-10-09
+review_fingerprint: e01bd3f12b3f54b6f5f2910f92983f6506cb30b1c54f502db2651a829daf8d72
+routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 5
+- Records: 14
+- Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -53,21 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-5c
 
 ---
 action: 
-SELECTED | Bedfordshire | Luton, East of England, LU2 8HJ | £24,470.00 - £26,523.00 Annually (Actual) L4 (actual starting salary £24,470 pa) | Attendance Officer
-employer: Putteridge High School
-closing_date: 2026-10-09T09:00:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: fdabaca2bd920573360bed69afcd3757112b0af68008bcb4dc6b69d1c4300356
-source: Teaching Vacancies
-source_job_id: attendance-officer-putteridge-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-putteridge-high-school
----
-
----
-action: 
 SELECTED | Bedfordshire | Luton, LU3 3QN | £16,006.00 - £17,349.00 Annually (Actual) L4 pts 9 - 14 pro rata'd | HR Administrator
 employer: Chiltern Learning Trust
 closing_date: 2026-10-12T09:00:00+01:00
@@ -96,6 +81,36 @@ source_job_id: pa-to-slt-and-admissions-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-slt-and-admissions-administrator
 ---
 
+---
+action: 
+SELECTED | Bedfordshire | Leighton Buzzard, East of England, LU7 2PA | £23,232.00 - £23,978.00 Annually (Actual) NJC Level 3 Point 6-8 | Reprographics and Admin Assistant
+employer: Linslade School
+closing_date: 2026-10-19T12:00:00+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 658ccf343e06bcd5f3e7faca9aba39c9956c4937e9d09cdfc16b80b6415d8c16
+source: Teaching Vacancies
+source_job_id: reprographics-and-admin-assistant-linslade-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/reprographics-and-admin-assistant-linslade-school
+---
+
+---
+action: 
+SELECTED | Bedfordshire | Biggleswade, East of England, SG18 0EJ | £21,419.72 - £22,118.88 Annually (Actual) NJC Level 2D (pnts4-6) (£13.48 - 13.92 p/h) | School Administrator (Term time only + Inset Days)
+employer: Edward Peake CofE VC School
+closing_date: 2026-10-19T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 53ff4339f5d6de25acae5ae3b2561e2405941c5b3a26e0c33e7b32e5f1106f51
+source: Teaching Vacancies
+source_job_id: school-administrator-term-time-only-inset-days
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-term-time-only-inset-days
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -120,6 +135,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-manager-all-sain
 ## HARD_PASS
 
 - [Admin & Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-finance-assistant-mark-rutherford-school) — Insufficient admin/service evidence.
+- [Data & Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-exams-manager-queensbury-academy) — Manager title salary ceiling £39,481 is not below £28,000.
 - [Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/facilities-manager-denbigh-primary-school) — Manager title salary ceiling £43,149 is not below £28,000.
 - [Financial Controller](https://teaching-vacancies.service.gov.uk/jobs/financial-controller-c66a5ec1-0bf4-4c91-a1e1-d206dac91d10) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-27327254-91ed-4388-982d-a24ff7b17cb0) — Insufficient admin/service evidence.

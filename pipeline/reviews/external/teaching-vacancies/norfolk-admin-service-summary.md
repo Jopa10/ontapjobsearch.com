@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-10-08
-review_fingerprint: 01ebd3d7ee51c84896f6484c96dc823e57eb53b068fc06567b0f27faeacf6ddb
-routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
+review_date: 2026-10-09
+review_fingerprint: 653d6b9af80ce5742ce006fcd6be3b76f5f2cf1f72a1dfc62cbfc615d599b6a8
+routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -20,21 +20,6 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 - Hard pass: 4
 
 ## SELECTED
-
----
-action: 
-SELECTED | Norfolk | Norwich, East of England, NR3 1DD | Salary: Support Staff Pay Scale D: £23,112 to £23,479 pro-rata per annum (Actual) (£26,427 - £26,847 full time/full year equivalent) | Administration Assistant
-employer: Jane Austen College
-closing_date: 2026-10-09T01:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6b55b836500bebd52e8bc94e860006debfe91ce7b8230665196a2405302e324e
-source: Teaching Vacancies
-source_job_id: administration-assistant-8b4b0d9f-5aef-4920-bca2-851d2222cd88
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-8b4b0d9f-5aef-4920-bca2-851d2222cd88
----
 
 ---
 action: 
@@ -96,6 +81,21 @@ source_job_id: attendance-officer-flegg-high-ormiston-academy-great-yarmouth-nor
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-flegg-high-ormiston-academy-great-yarmouth-norfolk
 ---
 
+---
+action: 
+SELECTED | Norfolk | Great Yarmouth, East of England, NR30 5LS | Scale E, points 7-11, £27,274 - £29,071 (Actual £24,060 - £25,646) | Senior Academy Administrator
+employer: Caister Academy
+closing_date: 2026-10-19T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ebd1398992fd5102905fe05b0b36ed6c7af1ba3117e1af34b48569023718a64a
+source: Teaching Vacancies
+source_job_id: senior-academy-administrator-caister-academy-great-yarmouth-norfolk
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-academy-administrator-caister-academy-great-yarmouth-norfolk
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -106,8 +106,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-fl
 
 ## HARD_PASS
 
+- [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-browick-road-primary-and-nursery-school-wymondham-norfolk) — Insufficient admin/service evidence.
 - [HR Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-administration-assistant-inspiration-trust) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-poringland-primary-school) — Manager title salary ceiling £33,119 is not below £28,000.
 - [Procurement manager](https://teaching-vacancies.service.gov.uk/jobs/procurement-manager-st-john-the-baptist-catholic-multi-academy-trust) — Manager title salary ceiling £49,816 is not below £28,000.
 - [Transport Assistant](https://teaching-vacancies.service.gov.uk/jobs/transport-assistant) — Insufficient admin/service evidence.
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-10-08
-review_fingerprint: 49f10b4fc22a68a44b63eca059866b540f14bc1c5b5947b61af86cb4bcbe06bc
-routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
+review_date: 2026-10-09
+review_fingerprint: cac3bffbad62c454006e361e7b1db5c426c61fa81e4620f9e1b219927c8961ac
+routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 9
 - Selected: 8
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -120,36 +120,19 @@ reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 72574526e8db799f83429c7aba133eab043245745f8f2c44024dc8b9078783ec
+factual_fingerprint: 7432cf61730f4a7be889cd420401c55acdf99bd7213f0128160480f6d5524d98
 source: Teaching Vacancies
-source_job_id: attendance-administrator-alde-valley-academy-leiston-suffolk
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-alde-valley-academy-leiston-suffolk
+source_job_id: attendance-administrator-4960249f-e370-447a-b360-bc70f95f677b
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-4960249f-e370-447a-b360-bc70f95f677b
 ---
 
 ---
 action: 
-SELECTED | Suffolk | Ipswich, East of England, IP1 6SG | £25,646.00 Annually (Actual) | Receptionist/Administration Assistant
-employer: Ormiston Endeavour Academy
-closing_date: 2026-10-18T23:59:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7685e4348c549f1824d66d2bb2ab237579996d9aa61567ad8c1c752027d0b06b
-source: Teaching Vacancies
-source_job_id: receptionist-administration-assistant-ormiston-endeavour-academy-ipswich-suffolk
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administration-assistant-ormiston-endeavour-academy-ipswich-suffolk
----
-
-## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Suffolk | Ipswich, East of England, IP2 8PL | £25,646.00 - £26,920.00 Annually (Actual) | Finance, HR Administrator
+SELECTED | Suffolk | Ipswich, East of England, IP2 8PL | £25,646.00 - £26,920.00 Annually (Actual) | Finance, HR Administrator
 employer: Stoke High School - Ormiston Academy
 closing_date: 2026-10-12T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: 2cc8ba2ba473fc227094a496912984d81d7f55ba6c084ae5dbf6a3fbc60ea02d
@@ -158,6 +141,10 @@ source_job_id: finance-hr-administrator-stoke-high-school-ormiston-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-hr-administrator-stoke-high-school-ormiston-academy
 ---
 
+## POSS — choose SELECT or EXCLUDE
+
+- None.
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -165,7 +152,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-hr-administra
 ## HARD_PASS
 
 - [Attendance and Inclusion Support Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-inclusion-support-officer) — Insufficient admin/service evidence.
-- [Business Development Executive](https://teaching-vacancies.service.gov.uk/jobs/business-development-executive-eastern-education-group-trust-bury-st-edmunds-not-recorded) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

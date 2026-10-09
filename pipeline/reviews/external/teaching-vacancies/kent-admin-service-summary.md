@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-10-08
-review_fingerprint: 2b061d03297e5b6aa0bb585b3d4323458f49c207c17ea79895dc8800f332a5ee
-routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
+review_date: 2026-10-09
+review_fingerprint: c2e6a06b2020272dc89b6d00cf5f5e956372dd2e9ebcb5d8a68177c40b08b763
+routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 6
+- Records: 8
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -83,29 +83,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-headteacher-sto
 
 ---
 action: 
-SELECTED | Kent | Swanley, London, BR8 8DR | Scale 4 (£24,950 to £26,539) | Pupil Records Administrator
-employer: Parkwood Hall Academy Trust
-closing_date: 2026-10-09T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5259f89f5a9eeb45b862b60752747457432995ced5fa6892a8a84bb6f2cca6c5
-source: Teaching Vacancies
-source_job_id: pupil-records-administrator-parkwood-hall-academy-trust-swanley-kent
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-records-administrator-parkwood-hall-academy-trust-swanley-kent
----
-
----
-action: 
-SELECTED | Kent | Tonbridge, South East, TN9 2DQ | £14,412.00 - £14,988.00 Annually (Actual) KSD (£27,904 - £29,020 FTE) | Senior Administrator
+SELECTED | Kent | Tonbridge, South East, TN9 2DQ | £14,858.00 - £15,452.00 Annually (Actual) KSD (£27,904 - £29,020 FTE) | Senior Administrator
 employer: Royal Rise Primary School
 closing_date: 2026-10-30T23:59:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: ad35c594ab555cf2be1ebd34f1cbcf789f3724c701ca9860a1508bd24dc97360
+factual_fingerprint: 1c9e823a1b2ba0be9c084334962ff664a0a624bb3bf52e9a6e38ca205e13aa42
 source: Teaching Vacancies
 source_job_id: senior-administrator-royal-rise-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-royal-rise-primary-school
@@ -124,7 +109,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 - [Deputy Attendance Improvement Coordinator](https://teaching-vacancies.service.gov.uk/jobs/deputy-attendance-improvement-coordinator-maritime-academy) — Insufficient admin/service evidence.
 - [Finance Officer Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-maternity-cover-the-diocese-of-canterbury-academies-trust) — Insufficient admin/service evidence.
 - [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-26e0bcfd-fd42-4fe6-bedf-503af84df187) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-staplehurst-school) — Manager title salary ceiling £29,020 is not below £28,000.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-10-08
-review_fingerprint: edf247d5835deb1ef9319c2c45a7bb92789c180217f30c6f310eb17d90809c70
-routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
+review_date: 2026-10-09
+review_fingerprint: 2c518e0926d66827da77bcf0ba4e626ff912136174d64dd3d94844a4723353c4
+routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 10
 - Selected: 4
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -83,7 +83,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-a5af835
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Somerset | Cheddar, South West, BS27 3AQ | Grade 14 £26016 - £26846 | Finance Assistant
+employer: The Kings of Wessex Academy
+closing_date: 2026-10-19T08:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3d204cd7a42c8ea61e04ed95a0927ae2e71475d09dcbd15184b9df77cc7922c0
+source: Teaching Vacancies
+source_job_id: finance-assistant-the-kings-of-wessex-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the-kings-of-wessex-academy
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -94,6 +107,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-a5af835
 - [Customer Service Representative](https://teaching-vacancies.service.gov.uk/jobs/customer-service-representative) — Insufficient admin/service evidence.
 - [Exams, Data Insights and Systems Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-data-insights-and-systems-manager-bridgwater-college-academy) — Manager title salary ceiling £34,582 is not below £28,000.
 - [Finance Business Partner - Projects and Costings](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-projects-and-costings) — Insufficient admin/service evidence.
+- [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-yeovil-college) — Insufficient admin/service evidence.
 - [Operations Lead](https://teaching-vacancies.service.gov.uk/jobs/operations-lead-bishops-hull-primary-school) — Insufficient admin/service evidence.
 
 ## Safety boundary

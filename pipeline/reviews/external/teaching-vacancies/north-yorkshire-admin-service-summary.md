@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-10-08
+review_date: 2026-10-09
 review_fingerprint: 175b79af4efcd96961b8eae1f77fef9a61c3a317e41b5e0f72a228b71088fa6b
-routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
+routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 10
 - Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -90,6 +90,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-office
 ## HARD_PASS
 
 - [Exams Officer & Data Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-officer-data-manager-nidderdale-high-school) — Manager title salary ceiling £28,440 is not below £28,000.
+- [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-outwood-academy-easingwold) — Insufficient admin/service evidence.
 - [Multi-Site School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/multi-site-school-business-manager) — Manager title salary ceiling £41,177 is not below £28,000.
 - [PA and Office Manager (7676)](https://teaching-vacancies.service.gov.uk/jobs/pa-and-office-manager-7676) — Manager title salary ceiling £33,119 is not below £28,000.
 - [Reception and Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/reception-and-administration-assistant-knavesmire-primary-school) — Insufficient admin/service evidence.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-10-08
-review_fingerprint: deb9c6ccdf3e0ef25cd929323c88a1b8a42a780ad03bf9955dcd08a14af7f670
-routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
+review_date: 2026-10-09
+review_fingerprint: f0231c9ec57a5476bab22be460fa7d230346d8d99e6c0ce9e7fcab4996f7d7b3
+routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
+- Records: 15
 - Selected: 3
-- POSS awaiting decision: 2
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 9
 
 ## SELECTED
 
@@ -85,6 +85,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-sc
 
 ---
 action: 
+POSS | West Midlands - Black Country | Walsall, West Midlands, WS9 0RF | £28,523.00 - £28,523.00 Annually (FTE) Starting Salary: £25,162.69 (FTE £28,523.00) | Head of House PA
+employer: Barr Beacon School
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c001182029ed330155d8e361fddc07a18c5e6dd40971971e663fa001f4add104
+source: Teaching Vacancies
+source_job_id: head-of-house-pa-8bc41336-6d4d-41f2-ab57-9bedabaa8422
+source_url: https://teaching-vacancies.service.gov.uk/jobs/head-of-house-pa-8bc41336-6d4d-41f2-ab57-9bedabaa8422
+---
+
+---
+action: 
 POSS | West Midlands - Black Country | Walsall, West Midlands, WS2 7NR | £28,523.00 - £28,523.00 Annually (Actual) Actual Starting Salary: £25,162.69 (FTE £28,523) | Head of House PA
 employer: Bloxwich Academy
 closing_date: 2026-11-01T23:59:00+00:00
@@ -104,14 +119,15 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/head-of-house-pa-b63d
 
 ## HARD_PASS
 
+- [Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/cover-manager-perryfields-academy) — Manager title salary ceiling £34,812 is not below £28,000.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-ormiston-shelfield-community-academy-walsall-west-midlands) — Manager title salary ceiling £37,563 is not below £28,000.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-wolverhampton-girls-high-school) — Manager title salary ceiling £30,202 is not below £28,000.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-st-chad-s-academies-trust) — Manager title salary ceiling £65,035 is not below £28,000.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-3c179d0b-a9c2-49dd-88f6-f3678f79fb20) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-5f4d4502-0d91-4091-b646-cbfc76dcdfb2) — Insufficient admin/service evidence.
+- [Human Resources Assistant](https://teaching-vacancies.service.gov.uk/jobs/human-resources-assistant-highfields-school) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-jesson-s-church-of-england-primary-school) — Manager title without salary evidence below £28,000.
 - [Site Assistant](https://teaching-vacancies.service.gov.uk/jobs/site-assistant-09678cb0-aa80-498a-9526-d1d6da59db60) — Insufficient admin/service evidence.
-- [Teaching Assistant (Level 2)](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-level-2-manor-way-primary-academy) — Out-of-scope occupation: teaching assistant.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - Liverpool
 
-review_date: 2026-10-08
+review_date: 2026-10-09
 review_fingerprint: d734e2b55c610319ba8f78568a39c264f0cfd6299c94a3af70f60fafb2bb75ba
-routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
+routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
 ontap_region: Merseyside - Liverpool
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 6
 - Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -75,7 +75,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-pastoral-senior-
 ## HARD_PASS
 
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-the-laetare-catholic-multi-academy-trust) — Insufficient admin/service evidence.
-- [Data and Exams Admin Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-admin-support-assistant) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-pope-francis-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [People Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-lydiate-learning-trust) — Insufficient admin/service evidence.
 

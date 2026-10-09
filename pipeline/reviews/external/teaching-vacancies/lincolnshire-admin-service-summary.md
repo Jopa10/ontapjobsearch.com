@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-10-08
-review_fingerprint: 1bd54a8c4759dde2d2a9d2e489478240dbee2d1ec8d02ae8a3485ffcc9f11a1b
-routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
+review_date: 2026-10-09
+review_fingerprint: 2097c2674a8f0ae6c60be5fb3afb434d6bf83694a374d72dc5716ad605feabff
+routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 7
-- POSS awaiting decision: 1
+- Records: 13
+- Selected: 8
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 5
 
 ## SELECTED
 
@@ -38,17 +38,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator
 
 ---
 action: 
-SELECTED | Lincolnshire | Grantham, East Midlands, NG31 9AU | £25,614.00 - £26,846.00 Annually (FTE) | Administrative Assistant
-employer: Kesteven and Grantham Girls' School
-closing_date: 2026-10-09T09:00:00+01:00
+SELECTED | Lincolnshire | Cleethorpes, Yorkshire and the Humber, DN35 9NX | £27,892.00 Annually (FTE) Actual Salary: LGAT 7 - £23,847.66 | Administrative Assistant
+employer: Cleethorpes Academy
+closing_date: 2026-10-30T12:00:00+00:00
 reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 7f8ba4a11749a5d581059d347251457485badf053763e1105aa4a5a09c7ae4fc
+factual_fingerprint: 2febb77862161236be707092792a59de6d36c0df2aa3020c89dd465d58c1898e
 source: Teaching Vacancies
-source_job_id: administrative-assistant-kesteven-and-grantham-girls-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-kesteven-and-grantham-girls-school
+source_job_id: administrative-assistant-cleethorpes-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-cleethorpes-academy
 ---
 
 ---
@@ -98,6 +98,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-office-administrat
 
 ---
 action: 
+SELECTED | Lincolnshire | Lincoln, East Midlands, LN6 0EP | PPS4, £26,016 per annum, pro rata to £23,484 per annum | Receptionist / Administrative Assistant
+employer: The Priory City of Lincoln Academy
+closing_date: 2026-10-25T23:59:00+00:00
+reason: Clear admin/service title: administrative assistant, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 10fb410411a319e353ee2f2dc5e407e7688d542d7d18dcbe39a8322291b03353
+source: Teaching Vacancies
+source_job_id: receptionist-administrative-assistant-the-priory-city-of-lincoln-academy-lincoln-lincolnshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrative-assistant-the-priory-city-of-lincoln-academy-lincoln-lincolnshire
+---
+
+---
+action: 
 SELECTED | Lincolnshire | Boston, East Midlands, PE21 0PX | £23,933.00 - £25,098.00 Annually (Actual) G4.9-12 £26,846 - £28,153 FTE | Receptionist/Admin Assistant
 employer: Boston Endeavour Academy
 closing_date: 2026-10-21T23:59:00+01:00
@@ -128,20 +143,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Lincolnshire | Grimsby, Yorkshire and the Humber, DN37 9EH | £26,016.00 - £26,847.00 Annually (FTE) Grade C Points 4 to 6 (£26,016 to £26,847 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary for this role is £22,475.98 | Administration Officer (7666)
-employer: John Whitgift Academy
-closing_date: 2026-10-14T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d268dac5da80fe0ed139892c9073c7d87a8deb30baa71cb23331d083f1033d0d
-source: Teaching Vacancies
-source_job_id: administration-officer-7666
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-7666
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -150,7 +152,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-office
 ## HARD_PASS
 
 - [Governance & Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-compliance-officer-inspire-connected-communities-trust-louth-not-recorded) — Insufficient admin/service evidence.
-- [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-queen-elizabeth-s-high-school-gainsborough) — Manager title salary ceiling £42,839 is not below £28,000.
+- [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-voyage-education-partnership) — Insufficient admin/service evidence.
+- [Operational Delivery Lead](https://teaching-vacancies.service.gov.uk/jobs/operational-delivery-lead) — Insufficient admin/service evidence.
+- [Senior Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-the-gainsborough-parish-church-primary-school) — Insufficient admin/service evidence.
 - [Trust HR Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-hr-manager-keystone-academy-trust-bourne-not-recorded) — Manager title salary ceiling £40,444 is not below £28,000.
 
 ## Safety boundary

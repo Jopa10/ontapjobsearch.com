@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Worcestershire
 
-review_date: 2026-10-08
-review_fingerprint: 8e449f724115240cf45bf08e6732d43455a6a17668bac2ba0359143476a3636e
-routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
+review_date: 2026-10-09
+review_fingerprint: a9945270e25983c313a9ba9918cd17543c4930f75e597235ef54b031ab667139
+routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -23,6 +23,21 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
+SELECTED | Worcestershire | Bromsgrove, West Midlands, B60 3NL | £4,061.34 Annually (Actual) Scale 2 (SCP 3-4) | Part-Time Student Receptionist/Main Receptionist
+employer: South Bromsgrove High
+closing_date: 2026-10-16T09:00:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c55d46948109ab5d290362945013eb492d480e3dd7992799131aa24e8c5325ce
+source: Teaching Vacancies
+source_job_id: part-time-student-receptionist-main-receptionist
+source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-student-receptionist-main-receptionist
+---
+
+---
+action: 
 SELECTED | Worcestershire | Redditch, West Midlands, B98 0UB | £21,874.00 - £22,217.00 Annually (Actual) | Receptionist/Administrator
 employer: Ipsley CofE Middle School
 closing_date: 2026-10-12T09:00:00+01:00
@@ -34,21 +49,6 @@ factual_fingerprint: 571907f4dad9a24a753128770b9587166d08333a4253d2312e1cc528819
 source: Teaching Vacancies
 source_job_id: receptionist-administrator-ipsley-cofe-middle-school-redditch
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-ipsley-cofe-middle-school-redditch
----
-
----
-action: 
-SELECTED | Worcestershire | Bromsgrove, West Midlands, B60 3NL | £4,061.34 Annually (Actual) Scale 2 (SCP 3-4) | Student Receptionist/Main Receptionist
-employer: South Bromsgrove High
-closing_date: 2026-10-16T09:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7ddd8e34b63906cf1cb3836eed848e7ef04f186afcae1b42038b96d04ec1a56c
-source: Teaching Vacancies
-source_job_id: student-receptionist-main-receptionist
-source_url: https://teaching-vacancies.service.gov.uk/jobs/student-receptionist-main-receptionist
 ---
 
 ## POSS — choose SELECT or EXCLUDE

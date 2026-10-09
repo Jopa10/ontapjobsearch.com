@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-10-08
-review_fingerprint: 30b18eeabe52b61672d5f5e86a9d1884785475c6ad583848c8600067461e5b95
-routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
+review_date: 2026-10-09
+review_fingerprint: 06459fa924bea5f809557ea168696d1af48b939e2d91e7a8fe2da24a1a321567
+routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 21
+- Records: 22
 - Selected: 13
-- POSS awaiting decision: 3
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 7
 
 ## SELECTED
 
@@ -49,6 +49,21 @@ factual_fingerprint: 31bb5942f550a3e88cbf8ccfd116d0f3577a611c0a477e23adf3038f8e5
 source: Teaching Vacancies
 source_job_id: administrator-farway-church-of-england-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-farway-church-of-england-primary-school
+---
+
+---
+action: 
+SELECTED | Devon | Kingsbridge, TQ7 1PL | £15,470.00 - £16,493.00 Annually (Actual) 22.5 hours per week, 42 weeks per year: Grade D8-D12 Full time equivalent - £27,709 - £29,542 Prorated D8-D12 - £15,470 - £16,493 Hourly rate (excluding ‘holiday pay’ uplift) £14.36 - £15.31 | Administrator (Devon Research School and SWIFT Teacher Training)
+employer: Education South West
+closing_date: 2026-10-21T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 936593f993acf01a6a6c8786f8d44d8532e4045256f6b7c8221b4e32ad7c0220
+source: Teaching Vacancies
+source_job_id: administrator-devon-research-school-and-swift-teacher-training
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-devon-research-school-and-swift-teacher-training
 ---
 
 ---
@@ -173,21 +188,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-hub-administra
 
 ---
 action: 
-SELECTED | Devon | Plymouth, South West, PL6 6DX | £26,427.00 - £27,274.00 Annually (FTE) Grade C, £13.70-£14.14, Actual Salary £15,349.24 | School Office Administrator
-employer: Beechwood Primary Academy
-closing_date: 2026-10-12T09:00:00+01:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5008107f28021204fc48613d5567a040177b5aa7dd8f1ccd4d0784917616b2aa
-source: Teaching Vacancies
-source_job_id: school-office-administrator-beechwood-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-administrator-beechwood-primary-academy
----
-
----
-action: 
 SELECTED | Devon | Plymouth, South West, PL5 1NE | Actual Pro-rata salary E11 £19,388 to E14 £20,352 | Senior Administrator
 employer: St Paul's Roman Catholic Primary School
 closing_date: 2026-10-11T00:00:00+01:00
@@ -235,21 +235,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-manager-ede70353
 
 ---
 action: 
-POSS | Devon | Axminster, South West, EX13 7LX | £27,709.00 - £29,070.00 Annually (FTE) | Senior Pupil Services Officer
-employer: All Saints Church of England Primary School
-closing_date: 2026-10-16T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 85927a9f1fcc9e89f070d99e09faefbaf425eac3ff69b3aae67a790b4f66e885
-source: Teaching Vacancies
-source_job_id: senior-pupil-services-officer-all-saints-church-of-england-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-all-saints-church-of-england-primary-school
----
-
----
-action: 
 POSS | Devon | Exeter, South West, EX1 2SN | £27,709.00 - £29,070.00 Annually (FTE) | Senior Pupil Services officer - 2 days/week
 employer: St Michael's Church of England Primary Academy
 closing_date: 2026-10-16T09:00:00+01:00
@@ -257,7 +242,7 @@ reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: be27b750952f6c45ecb0747822ce9f610ec9df837586f6d397d843545b50e3d9
+factual_fingerprint: 9760f5bd5514390a509dc85717525998dd5e887e7d71e1e93880bee9801c3eca
 source: Teaching Vacancies
 source_job_id: senior-pupil-services-officer-2-days-week-st-michael-s-church-of-england-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-2-days-week-st-michael-s-church-of-england-primary-academy
@@ -269,8 +254,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 
 ## HARD_PASS
 
+- [Assistant Principal (Attendance, Personal Development and Wellbeing)](https://teaching-vacancies.service.gov.uk/jobs/assistant-principal-attendance-personal-development-and-wellbeing) — Out-of-scope occupation: principal.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-ea477c9c-8845-4838-bec8-625cc8839ab7) — Insufficient admin/service evidence.
 - [Finance Business Partner - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-maternity-cover) — Insufficient admin/service evidence.
+- [Marketing and Communications Lead](https://teaching-vacancies.service.gov.uk/jobs/marketing-and-communications-lead-learning-academies-trust) — Insufficient admin/service evidence.
 - [People Advisor ( Devon Cluster)](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-devon-cluster) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-8814e3e0-1c77-47a4-8dae-d06f210769fa) — Insufficient admin/service evidence.
 - [Resources Assistant](https://teaching-vacancies.service.gov.uk/jobs/resources-assistant-torquay-girls-grammar-school) — Insufficient admin/service evidence.

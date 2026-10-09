@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-10-08
-review_fingerprint: bf28c0bb042de0830cb37b1f696857ff58e4f3be73c2fc65c11128f7e900313b
-routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
+review_date: 2026-10-09
+review_fingerprint: efb1394c66472482c96fc771f09cb43109aa7a6edf49bef971887dc34c5d89fb
+routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 4
+- Records: 4
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
 
 ## SELECTED
-
----
-action: 
-SELECTED | Derbyshire | Swadlincote, East Midlands, DE11 0QA | £26,427.00 - £27,274.00 Annually (FTE) Actual Salary: £22,832 - £23,563 | Administration Assistant (Full and Part time post available)
-employer: The Pingle Academy
-closing_date: 2026-10-16T09:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c1f4a969706ca531758499d2c57dcd5bc1c409114bda4f634b36a9a4ca9e1c08
-source: Teaching Vacancies
-source_job_id: administration-assistant-full-and-part-time-post-available
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-full-and-part-time-post-available
----
 
 ---
 action: 
@@ -64,21 +49,6 @@ factual_fingerprint: fd08f1ba56d04190ba6d812e961403d82e19b6616a9d63ef9103d4854ca
 source: Teaching Vacancies
 source_job_id: receptionist-ae06e435-9f90-46fa-8916-45549c221789
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-ae06e435-9f90-46fa-8916-45549c221789
----
-
----
-action: 
-SELECTED | Derbyshire | Buxton, East Midlands, SK17 9EA | £25,989.00 - £26,458.00 Annually (FTE) Grade 6 (Actual salary £9,022 | Receptionist / School Business Assistant
-employer: Buxton Community School
-closing_date: 2026-10-09T12:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: bbc821a52ff8d61fc781b25c2f7acde0a6bcbb065632c9c083663f1ebe6284df
-source: Teaching Vacancies
-source_job_id: receptionist-school-business-assistant-buxton-community-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-school-business-assistant-buxton-community-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

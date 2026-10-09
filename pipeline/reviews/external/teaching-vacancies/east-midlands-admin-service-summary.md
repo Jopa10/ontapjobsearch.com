@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-10-08
-review_fingerprint: faaf01f6c77bba70e3411a51670b7f7de68a4e21de851815b235bf62564ffcb0
-routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
+review_date: 2026-10-09
+review_fingerprint: b627cc7303fc4e80659a32bb98eda7f3de42b86adc32afaea310fb2d3c13407b
+routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 2
+- Records: 12
+- Selected: 3
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 6
@@ -34,6 +34,21 @@ factual_fingerprint: 44ecfe9a214f1d667a4aef72d21e9a4b8f666615603a948b8380e45dcc0
 source: Teaching Vacancies
 source_job_id: administration-assistant-fixed-term-da-vinci-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-fixed-term-da-vinci-academy
+---
+
+---
+action: 
+SELECTED | East Midlands | Burton-on-Trent, West Midlands, DE15 9RT | £26,847.00 - £27,274.00 Annually (FTE) Actual salary: Grade 4 (SCP 6-7) £23,313 - £23,684 per annum | Administrative Assistant
+employer: Paulet High School
+closing_date: 2026-11-06T09:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 845f76cdb40abbddc87e65cd127bc7ae5c2525550974886308a4111d09af017c
+source: Teaching Vacancies
+source_job_id: administrative-assistant-paulet-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-paulet-high-school
 ---
 
 ---

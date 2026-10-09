@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East - Tees Valley
 
-review_date: 2026-10-08
-review_fingerprint: ce8bf6c6b206b7d9b567dc073a2dab9e08f5be3d5496ca33c340253830973325
-routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
+review_date: 2026-10-09
+review_fingerprint: 2eb40b9907f28ded0f7adfab0eced7a9454cf96f9c57c8b82f1b67d100178ff2
+routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 5
+- Records: 10
+- Selected: 6
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 2
@@ -94,6 +94,21 @@ factual_fingerprint: 64903b019f3332944046ba1ec2aa71f1572fb2b01b2457ae633d99428e4
 source: Teaching Vacancies
 source_job_id: receptionist-huntcliff-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-huntcliff-school
+---
+
+---
+action: 
+SELECTED | North East - Tees Valley | Middlesbrough, North East, TS3 7EA | £25,410.00 - £26,677.00 Annually (Actual) | School Business Support Officer
+employer: River Tees Hospital School
+closing_date: 2026-10-22T23:59:00+01:00
+reason: Clear admin/service title: business support officer
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: cb7f18d07065edd5857cc39463dcef8e21fc20bcd13f0f38c861c8bd90cd40d5
+source: Teaching Vacancies
+source_job_id: school-business-support-officer-river-tees-hospital-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-support-officer-river-tees-hospital-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-10-08
-review_fingerprint: 12abdd7a278c9a4696e014cd54eae5f056e718488dbec9cbb1c3cddf496ad651
-routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
+review_date: 2026-10-09
+review_fingerprint: a7224dbe6fc30731732554bf98eb83ba07ee39eb78b38943c32fbb9ab55fa3c9
+routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
+- Records: 16
 - Selected: 6
-- POSS awaiting decision: 5
+- POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 6
 
@@ -53,6 +53,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administra
 
 ---
 action: 
+SELECTED | Hertfordshire | Hatfield, East of England, AL9 7BN | £40,444.00 - £43,149.00 Annually (FTE) H9.28 to 31 (Fringe) Actual Salary including fringe allowance £36,503.16 | Headteacher's Personal Assistant
+employer: Chancellor's School
+closing_date: 2026-10-19T09:00:00+01:00
+reason: Clear admin/service title: personal assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 108695ea2f578ae5f7a2ea166248b58c0a9454b232eb0e244faf3fb969185e03
+source: Teaching Vacancies
+source_job_id: headteacher-s-personal-assistant-chancellor-s-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-personal-assistant-chancellor-s-school
+---
+
+---
+action: 
 SELECTED | Hertfordshire | Hoddesdon, East of England, EN11 0RW | £23,144.62 Annually (Actual) | Office Administrator
 employer: Forres Primary Academy
 closing_date: 2026-10-13T23:59:00+01:00
@@ -79,21 +94,6 @@ factual_fingerprint: 633ee9623f2877bdc5fa75718934b7de2b66ca74d38a9b11754bc9dfb7d
 source: Teaching Vacancies
 source_job_id: office-administrator-petersfield-cofe-aided-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-petersfield-cofe-aided-primary-school
----
-
----
-action: 
-SELECTED | Hertfordshire | Watford, East of England, WD19 7SL | £27,180.00 Annually (FTE) PART TIME (MORNINGS), TERM TIME ONLY | Part-Time Admin Assistant
-employer: Oxhey Wood Primary School
-closing_date: 2026-10-18T23:59:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 494688c903e500d50d4301e6faeb4756358e9452adf554f080e7fa60658e6744
-source: Teaching Vacancies
-source_job_id: part-time-admin-assistant-oxhey-wood-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-admin-assistant-oxhey-wood-primary-school
 ---
 
 ---
@@ -145,21 +145,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-kat
 
 ---
 action: 
-POSS | Hertfordshire | Harpenden, East of England, AL5 3AE | £17.15 Hourly Grade H5. £14.98 plus £2.17 holiday pay. Total £17.15 per hour | Governance Professional/Clerk to the Governing Board
-employer: Roundwood Park School
-closing_date: 2026-10-09T07:00:00+01:00
-reason: Borderline school administration title: governance professional
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b67aac90523c6d904bd7fe1688d07fe7b45cb91aa867f5d16f5df32b3889b7f0
-source: Teaching Vacancies
-source_job_id: governance-professional-clerk-to-the-governing-board-roundwood-park-school-harpenden-hertfordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-clerk-to-the-governing-board-roundwood-park-school-harpenden-hertfordshire
----
-
----
-action: 
 POSS | Hertfordshire | Chorleywood, WD3 6EW | £30,515.00 Annually (FTE) | HR Advisor
 employer: Danes Educational Trust
 closing_date: 2026-10-12T09:00:00+01:00
@@ -195,9 +180,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-support-assi
 ## HARD_PASS
 
 - [Assistant SENDCo](https://teaching-vacancies.service.gov.uk/jobs/assistant-sendco-69793fea-1d51-405a-a79e-55b4c58afc9c) — Insufficient admin/service evidence.
-- [Attendance & Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-administration-officer-hertford-heath-primary-and-nursery-school-hertford-hertfordshire) — Insufficient admin/service evidence.
 - [Development Director](https://teaching-vacancies.service.gov.uk/jobs/development-director-watford-grammar-school-for-boys-watford-hertfordshire) — Insufficient admin/service evidence.
 - [Director of Finance & Operations](https://teaching-vacancies.service.gov.uk/jobs/director-of-finance-operations-herts-essex-multi-academy-trust) — Insufficient admin/service evidence.
+- [Federation School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/federation-school-business-manager-hurst-drive-primary-school) — Manager title salary ceiling £49,817 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-aa7f3068-bd4a-4f6c-a3c0-513cc79c39b8) — Manager title salary ceiling £33,119 is not below £28,000.
 - [Teaching Assistant including personal care: Part Time / Full Time (H3)](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-including-personal-care-part-time-full-time-h3-41775b5d-ef37-4c4b-84c0-3a1ab141114d) — Out-of-scope occupation: teaching assistant.
 

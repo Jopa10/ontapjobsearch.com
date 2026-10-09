@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-10-08
-review_fingerprint: dc6e6fa18dd334319ce9e3422b13268ff9485c37c78b825d8fc68f6a21bcd202
-routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
+review_date: 2026-10-09
+review_fingerprint: c32e221deac12ea9633e4d53992757707e4d62180db3869ecf49dd985d797be9
+routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,27 +14,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 5
-- Selected: 3
-- POSS awaiting decision: 0
+- Selected: 2
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 2
 
 ## SELECTED
-
----
-action: 
-SELECTED | Staffordshire | Cannock, West Midlands, WS11 1PD | £25,185.00 - £26,403.00 Annually (FTE) Monday to Friday (3 Hours per day) - pro rata, term time | Attendance Officer - Level 4
-employer: Longford Primary Academy
-closing_date: 2026-10-08T23:59:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6f08d5e7a292e06e10c2be0378b60c47fcd7924ece170c196cfc86e9120f4721
-source: Teaching Vacancies
-source_job_id: attendance-officer-level-4-longford-primary-academy-cannock-staffordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-level-4-longford-primary-academy-cannock-staffordshire
----
 
 ---
 action: 
@@ -68,7 +53,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Staffordshire | Stoke-on-Trent, West Midlands, ST12 9DB | £25,614 | Clerical Assistant
+employer: Barlaston CofE (VC) First School
+closing_date: 2026-10-23T09:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1eab63916ba3bef7210d2d227016ee172b9f1e894e8657da75d557333beb34e2
+source: Teaching Vacancies
+source_job_id: clerical-assistant-barlaston-cofe-vc-first-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-barlaston-cofe-vc-first-school
+---
 
 ## EXCLUDED BY REVIEW
 

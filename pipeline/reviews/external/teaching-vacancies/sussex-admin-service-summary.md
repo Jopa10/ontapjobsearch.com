@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-10-08
-review_fingerprint: a5fd0999ab93105e0a374f724839afb70a2337ae2bf1f2600145b99cb8d5f63e
-routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
+review_date: 2026-10-09
+review_fingerprint: a0fe3d4face262edd608b5f1e7c9b163af70b352429f3581389e3faf7e35e145
+routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 7
+- Records: 8
+- Selected: 6
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 0
@@ -94,21 +94,6 @@ factual_fingerprint: e7c6b5799d99d50ee210f6b91cdbdf55cf752bf7fbed371c078ff8b8070
 source: Teaching Vacancies
 source_job_id: attendance-officer-oakwood-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-oakwood-primary-academy
----
-
----
-action: 
-SELECTED | Sussex | Chichester, South East, PO19 3HP | £37,563 - £40,444 pro rata | Personal Assistant to the Head Teacher
-employer: Bishop Luffa School, Chichester
-closing_date: 2026-10-08T23:59:00+01:00
-reason: Clear admin/service title: personal assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 39de46b584fd455013eb8763ae991c136035dbcb98c28ecb867bd62f325a0d97
-source: Teaching Vacancies
-source_job_id: personal-assistant-to-the-head-teacher-bishop-luffa-school-chichester
-source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-head-teacher-bishop-luffa-school-chichester
 ---
 
 ---

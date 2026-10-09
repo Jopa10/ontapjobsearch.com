@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-10-08
-review_fingerprint: 727eeb2c4cf56d4b9153468369b2a4f78450ab1242c6a0015a53b1449c17afd9
-routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
+review_date: 2026-10-09
+review_fingerprint: 8ee73be64fd51c4e35f6c7a497c39d188e6619fd9821ac819b1d78746d906a4e
+routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 5
+- Records: 13
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 8
@@ -53,36 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
-SELECTED | Essex | Colchester, East of England, CO4 3QJ | £25,614.00 - £26,847.00 Annually (FTE) Attendance and SEND Administrator NJC SCP 3-6 27.5 hours per week, Midday Assistant 2.5 hours per week NJC SCP 3 | Attendance and SEND Administrator, with Midday assistant role included
-employer: Unity Primary Academy
-closing_date: 2026-10-09T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ab3328140fa5c8684e82b78622add87aa9152bb8d0f24a82e01e2ff2f69caa55
-source: Teaching Vacancies
-source_job_id: attendance-and-send-administrator-with-midday-assistant-role-included
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-send-administrator-with-midday-assistant-role-included
----
-
----
-action: 
-SELECTED | Essex | Rayleigh, East of England, SS6 7PE | £8,652.85 - £8,772.20 Annually (Actual) | Office Admin Assistant
-employer: Wyburns Primary School
-closing_date: 2026-10-16T12:00:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c499bedcccf2810eaed38ced638242de21e035e3a0183c403c8a7d813f1b2a7e
-source: Teaching Vacancies
-source_job_id: office-admin-assistant-wyburns-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-admin-assistant-wyburns-primary-school
----
-
----
-action: 
 SELECTED | Essex | Brentwood, East of England, CM14 4JF | £25,128.65 - £26,371.55 Annually (Actual) Plus Outer Fringe Allowance £661.42 per annum | Receptionist
 employer: Brentwood County High School
 closing_date: 2026-10-16T09:00:00+01:00
@@ -94,6 +64,21 @@ factual_fingerprint: dc98390f89829bb5dc055700a7acfd392d22998c13e2c00ac52b612a6ab
 source: Teaching Vacancies
 source_job_id: receptionist-brentwood-county-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-brentwood-county-high-school
+---
+
+---
+action: 
+SELECTED | Essex | Southend-on-Sea, East of England, SS1 3BS | £34,237 | SEND Administrative Assistant
+employer: Greenways Primary School
+closing_date: 2026-10-28T23:59:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 064f78272efb44d64d3138d1842e364ef7df67792f7512abc7388aa96110c9a9
+source: Teaching Vacancies
+source_job_id: send-administrative-assistant-greenways-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrative-assistant-greenways-primary-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -120,13 +105,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/people-operations-off
 ## HARD_PASS
 
 - [Business Administration Apprentice Level 3](https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprentice-level-3-doddinghurst-church-of-england-junior-school) — Insufficient admin/service evidence.
-- [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-colne-community-school) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-88731512-4f32-446c-b927-3ff9b578aae5) — Insufficient admin/service evidence.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-mossbourne-port-side-academy) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-harlow-college) — Insufficient admin/service evidence.
 - [Senior HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-25bac6ce-5943-4c6e-9e63-670d8e460c1b) — Insufficient admin/service evidence.
 - [STUDENT ATTENDANCE AND INCLUSION MANAGER](https://teaching-vacancies.service.gov.uk/jobs/student-attendance-and-inclusion-manager-503e1cdc-f886-497b-8b9a-ca3c1f6b7938) — Manager title without salary evidence below £28,000.
 - [Support Manager](https://teaching-vacancies.service.gov.uk/jobs/support-manager-little-thurrock-primary-school) — Manager title salary ceiling £33,495 is not below £28,000.
+- [Trust Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-discovery-educational-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

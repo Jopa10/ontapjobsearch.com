@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-10-08
-review_fingerprint: e646b95d311b97de013151678746c7b61c591534b9cf5f37d1a632ad7e3e8174
-routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
+review_date: 2026-10-09
+review_fingerprint: d923568b6bf775c8671f72eea6bda673b994dd1eee43dd4bef522f9a9ced4ccd
+routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 15
-- Selected: 4
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 9
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: 78796568646d6527c55c8803de1c331b2e45e941becb831e1e7f2bfefe0
 source: Teaching Vacancies
 source_job_id: admin-assistant-padbury-church-of-england-school-buckingham-buckinghamshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-padbury-church-of-england-school-buckingham-buckinghamshire
+---
+
+---
+action: 
+SELECTED | Buckinghamshire | Newport Pagnell, South East, MK16 0BJ | £19,253.34 - £20,526.99 Annually (Actual) NJC 8-12 | Administrator
+employer: E-Act Ousedale School
+closing_date: 2026-10-19T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5a75c0e7507930467bdfaf700f3642ccac7a7e1ef1968e2610191848568cde7e
+source: Teaching Vacancies
+source_job_id: administrator-e-act-ousedale-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-e-act-ousedale-school
 ---
 
 ---
@@ -111,7 +126,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-leve
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-56c55376-78b3-4ad8-a27c-1fdc31ec9895) — Insufficient admin/service evidence.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-royal-grammar-school-high-wycombe) — Manager title salary ceiling £47,020 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-aa5bd69a-1e68-49ee-bfe8-c4153301fa94) — Manager title salary ceiling £48,738 is not below £28,000.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-winslow-church-of-england-school) — Manager title salary ceiling £41,272 is not below £28,000.
 - [Senior Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-business-partner-creative-education-trust) — Insufficient admin/service evidence.
 - [Trust Finance officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-stephenson-mk-trust-milton-keynes-not-recorded) — Insufficient admin/service evidence.
 

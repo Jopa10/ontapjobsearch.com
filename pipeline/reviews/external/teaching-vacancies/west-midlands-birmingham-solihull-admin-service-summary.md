@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-10-08
-review_fingerprint: 3c68489617834ba0d79602882442b6a37bcad3a3043b825ebd7896df5fda0db2
-routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
+review_date: 2026-10-09
+review_fingerprint: 803dc24d78da320e4b862fa76a384128eab4700e0c75d845a1fbd101b31fd1b7
+routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 24
+- Records: 21
 - Selected: 11
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 12
+- Hard pass: 9
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: 22f47690c02ae58ce5a3e6f9253d6f59d9078eeffb839e46aa157af3fdb
 source: Teaching Vacancies
 source_job_id: administration-assistant-the-royal-sutton-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-the-royal-sutton-school
----
-
----
-action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B43 7DH | £13.70 - £13.92 Hourly | Administrative Assistant
-employer: Pheasey Park Farm Primary School and Early Years Centre
-closing_date: 2026-10-09T09:00:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ddc4f313446625085d52cc1877105ee6d660d9bee81decae05c377617762d4c3
-source: Teaching Vacancies
-source_job_id: administrative-assistant-pheasey-park-farm-primary-school-and-early-years-centre
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-pheasey-park-farm-primary-school-and-early-years-centre
 ---
 
 ---
@@ -158,6 +143,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-43f0e0db
 
 ---
 action: 
+SELECTED | West Midlands - Birmingham & Solihull | Sutton Coldfield, West Midlands, B73 6UE | £21,775.00 - £23,933.00 Annually (Actual) | School Administrator
+employer: Sutton Park Primary
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f0ada65026945e7e1421022b5f817712656cf3b1b8b5a81e1474836b35da4b50
+source: Teaching Vacancies
+source_job_id: school-administrator-395dae48-626d-47cd-88b7-92b46f8c8d1e
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-395dae48-626d-47cd-88b7-92b46f8c8d1e
+---
+
+---
+action: 
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B36 0HD | FTE - £ 25614.00 - £26427.00 Actual Salary - £ 20770.00 - £21909.00 | School Office Administrator
 employer: Castle Bromwich Junior School
 closing_date: 2026-10-14T09:00:00+01:00
@@ -209,9 +209,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ## HARD_PASS
 
-- [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-the-deanery-church-of-england-primary-school) — Missing salary or pay scale.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-fioretti-trust) — Insufficient admin/service evidence.
-- [Governance Support Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-support-officer-eaa7a044-716c-471a-b1e0-33530ee7b932) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-st-john-paul-ii-multi-academy-company-birmingham-not-recorded) — Insufficient admin/service evidence.
 - [Office Administration](https://teaching-vacancies.service.gov.uk/jobs/office-administration) — Insufficient admin/service evidence.
 - [Office Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/office-co-ordinator-moor-green-primary-academy-birmingham) — Insufficient admin/service evidence.
@@ -220,7 +218,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 - [Regional Commercial Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/regional-commercial-procurement-manager-ormiston-academies-trust-birmingham-not-recorded) — Manager title salary ceiling £63,638 is not below £28,000.
 - [Reprographics and Media Assistant](https://teaching-vacancies.service.gov.uk/jobs/reprographics-and-media-assistant) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-severne-junior-infant-and-nursery-school) — Manager title salary ceiling £55,224 is not below £28,000.
-- [SENIOR ADMINISTRATOR – SEND ASSISTANT MANAGER](https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-send-assistant-manager) — Manager title salary ceiling £32,554 is not below £28,000.
 
 ## Safety boundary
 

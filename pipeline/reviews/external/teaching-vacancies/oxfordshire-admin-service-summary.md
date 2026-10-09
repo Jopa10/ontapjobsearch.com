@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-10-08
-review_fingerprint: f1125f2ce0a05ab255bcaf661d7133bb4bebb88318560edb7a930b9f8ca66d3f
-routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
+review_date: 2026-10-09
+review_fingerprint: 35fdf8549f5db72d1ec02b96650279a9db89d35be963b51a4900f67a72718ac4
+routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 3
+- Records: 10
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 7
 
 ## SELECTED
-
----
-action: 
-SELECTED | Oxfordshire | Banbury, South East, OX16 9DG | Grade 4, commencing point 4, actual ‘term time only’ salary equates to £7,074 per annum | Attendance Administrator
-employer: Blessed George Napier Catholic School and Sixth Form
-closing_date: 2026-10-09T08:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a2b731714d78b2b507d8904cbbd3bc877a13efd0a9ca01b05a26ebde8dbf369f
-source: Teaching Vacancies
-source_job_id: attendance-administrator-blessed-george-napier-catholic-school-and-sixth-form
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-blessed-george-napier-catholic-school-and-sixth-form
----
 
 ---
 action: 

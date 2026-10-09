@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-10-08
-review_fingerprint: f6cdf7f58c88024b7ae259ae1cb32a49a8eed5eb66108f03b448db68811855f4
-routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
+review_date: 2026-10-09
+review_fingerprint: 4e096e99595c1c818c2d760e0c57e79cc49b427051a595eb31df15888a8cee8e
+routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 3
+- Records: 15
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 10
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Northamptonshire | Corby, East Midlands, NN17 2JH | £26,016.00 - £26,016.00 Annually (FTE) | Academy Administrator
+employer: Lodge Park Academy
+closing_date: 2026-11-06T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 58722d8582492b0566c1c99bf1e8afcf053089764c46760358e2ec6604a99c9e
+source: Teaching Vacancies
+source_job_id: academy-administrator-lodge-park-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-lodge-park-academy
+---
 
 ---
 action: 
@@ -64,6 +79,21 @@ factual_fingerprint: b42f3e788c64f39951941067e61b7013784956b510d1ac4f11f8cfcbb54
 source: Teaching Vacancies
 source_job_id: operations-administrator-f863f96d-ca5a-492a-8206-7a0736f466c1
 source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-administrator-f863f96d-ca5a-492a-8206-7a0736f466c1
+---
+
+---
+action: 
+SELECTED | Northamptonshire | Northampton, East Midlands, NN2 7RR | £24,796.00 Annually (FTE) | Receptionist/Administrator
+employer: Green Oaks Primary Academy
+closing_date: 2026-10-12T23:59:00+01:00
+reason: Clear admin/service title: administrator, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7e70e0336ed3c46fa3b75856b470a978266908a25665bf7914415769a083ba99
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-green-oaks-primary-academy-northampton-northamptonshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-green-oaks-primary-academy-northampton-northamptonshire
 ---
 
 ## POSS — choose SELECT or EXCLUDE

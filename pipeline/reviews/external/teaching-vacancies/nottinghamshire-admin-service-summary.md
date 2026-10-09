@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-10-08
-review_fingerprint: b336925617dc34ae9764eacc3c7a2f98b3166ae4895ccfbc78fa1a754ddcbc85
-routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
+review_date: 2026-10-09
+review_fingerprint: bc6771d665b7019625df6cdaf223bea3d17df257fcda06c88aa975eacf7ebeeb
+routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 23
-- Selected: 10
-- POSS awaiting decision: 2
+- Records: 17
+- Selected: 9
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 8
 
 ## SELECTED
 
@@ -156,52 +156,9 @@ source_job_id: senior-administrator-carlton-digby-school-nottingham-nottinghamsh
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-carlton-digby-school-nottingham-nottinghamshire
 ---
 
----
-action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG5 8GX | Redhill Academy Trust Pay Scale, Band 6, Scale point 29 - 32 | Sixth Form Administrator
-employer: Redhill Academy
-closing_date: 2026-10-09T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 12e482cd8c01a33497e1a388f6b8fdc3c6c8432b0e6d0b90e2151d77c993ccb3
-source: Teaching Vacancies
-source_job_id: sixth-form-administrator-redhill-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrator-redhill-academy
----
-
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Nottinghamshire | Retford, DN22 7GR | £31,015.00 - £31,015.00 Annually (FTE) | Governance Professional
-employer: Diverse Academies Trust
-closing_date: 2026-10-18T23:59:00+01:00
-reason: Borderline school administration title: governance professional
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c764243bbc79bdaa3723dbf3af4581004ef436f0d948a9800756fa0b79a21b2c
-source: Teaching Vacancies
-source_job_id: governance-professional-diverse-academies-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-diverse-academies-trust
----
-
----
-action: 
-POSS | Nottinghamshire | Nottingham, East Midlands, NG5 4LT | £24,430.00 - £26,930.00 Annually (Actual) | Office Manager
-employer: The Good Shepherd Catholic Primary, Arnold
-closing_date: 2026-10-09T09:00:00+01:00
-reason: Manager title below £28,000 salary ceiling requires review
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 02b098dfb25e93de44860eb1183a2a7e2f1fbec63befb4239fb8a575ee1e7219
-source: Teaching Vacancies
-source_job_id: office-manager-the-good-shepherd-catholic-primary-arnold
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-the-good-shepherd-catholic-primary-arnold
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -210,14 +167,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-the-go
 ## HARD_PASS
 
 - [Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-king-edward-primary-school-nursery) — Insufficient admin/service evidence.
-- [Administrative Officer L3](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-l3-robert-shaw-primary-and-nursery-school) — Insufficient admin/service evidence.
 - [Communications & Marketing Assistant](https://teaching-vacancies.service.gov.uk/jobs/communications-marketing-assistant) — Insufficient admin/service evidence.
 - [Data & MIS Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-mis-assistant) — Insufficient admin/service evidence.
 - [Data Protection Support Officer](https://teaching-vacancies.service.gov.uk/jobs/data-protection-support-officer) — Insufficient admin/service evidence.
-- [HR/People Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-people-operations-manager) — Manager title salary ceiling £57,358 is not below £28,000.
 - [Office Manager in Wilford, Nottingham](https://teaching-vacancies.service.gov.uk/jobs/office-manager-in-wilford-nottingham) — Manager title salary ceiling £31,022 is not below £28,000.
 - [People & Culture Business Partner](https://teaching-vacancies.service.gov.uk/jobs/people-culture-business-partner-tapestry-learning-partnership-nottingham-not-recorded) — Insufficient admin/service evidence.
-- [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-96d0e4ce-127e-44c5-84cd-fca1d087464c) — Insufficient admin/service evidence.
 - [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-the-flying-high-academy) — Insufficient admin/service evidence.
 - [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-burntstump-seely-cofe-primary-academy) — Manager title salary ceiling £30,514 is not below £28,000.
 

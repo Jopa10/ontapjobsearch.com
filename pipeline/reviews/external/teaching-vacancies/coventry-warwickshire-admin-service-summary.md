@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-10-08
-review_fingerprint: 39ce89a2e8c1097527108faf9c096df63a2f4a4ab0b2f978b3200f322bc85315
-routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
+review_date: 2026-10-09
+review_fingerprint: 24a3bc98cb879ebf4e606011722ab987d209630f4e3d562efa78e39b4b3772da
+routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 5
+- Records: 9
+- Selected: 4
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 3
@@ -23,32 +23,17 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | West Midlands - Coventry & Warwickshire | Nuneaton, West Midlands, CV11 4QH | £21,407 - £22,233 | Administration Assistant
-employer: Oak Wood Primary School
-closing_date: 2026-10-09T09:00:00+01:00
-reason: Clear admin/service title: administration assistant
+SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV4 9WT | £26,016.00 - £27,274.00 Annually (FTE) GRADE 3 , Actual Salary £22575- £23667 | Administrative Assistant
+employer: Finham Park 2
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: da77d5ce4ecb6bf97159ab1557cdae45a240fc351176098d60874a946392ab02
+factual_fingerprint: cc5400c0e0c8c825803062a2014512695c5bc17ce21c0ccf680e919a3f8b502c
 source: Teaching Vacancies
-source_job_id: administration-assistant-oak-wood-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-oak-wood-primary-school
----
-
----
-action: 
-SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV3 3AE | £25,583.00 Annually (FTE) Monday to Friday 8.30am to 11.30am | Administration Assistant
-employer: Stretton Church of England Academy
-closing_date: 2026-10-08T23:59:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e3864591fa2c67b5d1f7962f4b790a36675271c163a973a50dbcbed326c9afa7
-source: Teaching Vacancies
-source_job_id: administration-assistant-stretton-church-of-england-academy-coventry-west-midlands
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-stretton-church-of-england-academy-coventry-west-midlands
+source_job_id: administrative-assistant-finham-park-2
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-finham-park-2
 ---
 
 ---
@@ -134,8 +119,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/mat-compliance-office
 
 ## HARD_PASS
 
-- [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-triumph-learning-trust-rugby-not-recorded) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-etone-college) — Insufficient admin/service evidence.
+- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-5cc43304-a3a7-4b85-bf77-5aec67ba4d85) — Manager title salary ceiling £54,143 is not below £28,000.
 - [Technical Services Team Assistant](https://teaching-vacancies.service.gov.uk/jobs/technical-services-team-assistant-finham-park-school) — Insufficient admin/service evidence.
 
 ## Safety boundary

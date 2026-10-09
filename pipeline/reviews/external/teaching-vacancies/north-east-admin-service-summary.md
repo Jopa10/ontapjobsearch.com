@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-10-08
-review_fingerprint: f52bb4ec70e9950fd22a563d4f181a2c0df78f2bcabeb334ab7010fd75d6f665
-routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
+review_date: 2026-10-09
+review_fingerprint: b544a7b34927899c6979d03f3c7535313dbb2e752df3a924e553f30adebdadf7
+routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
-- Selected: 6
+- Records: 20
+- Selected: 7
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 11
 
 ## SELECTED
 
@@ -34,6 +34,36 @@ factual_fingerprint: e448cf527177d900e9f47fa7a9165d97fcab438d7e9691003b47a3d8fa4
 source: Teaching Vacancies
 source_job_id: administration-assistant-st-anthony-s-girls-catholic-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-st-anthony-s-girls-catholic-academy
+---
+
+---
+action: 
+SELECTED | North East | Sunderland, North East, SR5 4JW | £11,938.98 - £12,398.69 Annually (Actual) This is pending outcome of Job Evaluation | Administration Assistant
+employer: St John Bosco Catholic Primary School, Town End Farm, Sunderland
+closing_date: 2026-10-20T09:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4fa260ad0223a6a130dbe90852cd58d5407f07418bf89827340ac9e0c69eae05
+source: Teaching Vacancies
+source_job_id: administration-assistant-st-john-bosco-catholic-primary-school-town-end-farm-sunderland
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-st-john-bosco-catholic-primary-school-town-end-farm-sunderland
+---
+
+---
+action: 
+SELECTED | North East | Newcastle-upon-Tyne, North East, NE13 6EJ | £27,274 - £28,153 FTE [Actual Salary £24,231.90 - £25,012.86] | Administrative Assistant Level 3
+employer: North Gosforth Academy
+closing_date: 2026-10-23T08:00:00+01:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 84d6af86883fcef69e2eb9148cc01c831cb2c25341faef8a9cc5466f5ac94779
+source: Teaching Vacancies
+source_job_id: administrative-assistant-level-3-north-gosforth-academy-newcastle-upon-tyne-tyne-and-wear
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-level-3-north-gosforth-academy-newcastle-upon-tyne-tyne-and-wear
 ---
 
 ---
@@ -96,21 +126,6 @@ source_job_id: school-office-administrator-northern-saints-church-of-england-aca
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-administrator-northern-saints-church-of-england-academy
 ---
 
----
-action: 
-SELECTED | North East | Wallsend, North East, NE28 6PY | Grade 5 £27,274 - £28,153 per annum pro rata, pay award pending (actual salary £6,312 - £6,516). Grade 2 £25,614 per annum pro rata (actual salary £866 per annum). | School Support Roles - Supervisory Assistant & Administrative Assistant
-employer: St Peter's Church of England Primary School
-closing_date: 2026-10-08T23:59:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5d23f32ef1261f46c135fc4dae01439a12b5a25065ecd91b0896f95483303390
-source: Teaching Vacancies
-source_job_id: school-support-roles-supervisory-assistant-administrative-assistant
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-support-roles-supervisory-assistant-administrative-assistant
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -150,6 +165,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrati
 ## HARD_PASS
 
 - [Assistant Principal - Personal Development & Wellbeing](https://teaching-vacancies.service.gov.uk/jobs/assistant-principal-personal-development-wellbeing) — Out-of-scope occupation: principal.
+- [Business Lead](https://teaching-vacancies.service.gov.uk/jobs/business-lead-st-gregory-s-catholic-primary-school-south-shields-south-shields-tyne-and-wear) — Insufficient admin/service evidence.
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-st-anthony-s-girls-catholic-academy-sunderland-tyne-and-wear) — Manager title salary ceiling £42,123 is not below £28,000.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-bishop-chadwick-catholic-education-trust) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-bishop-hogarth-catholic-education-trust) — Insufficient admin/service evidence.

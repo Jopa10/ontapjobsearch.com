@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-10-08
-review_fingerprint: 6c10184fecfe6cf7dc6beb689930696831004af93431f92f40a71032f5ec7dd8
-routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
+review_date: 2026-10-09
+review_fingerprint: 30459cd5c4aca46f5c8ff60419da806bedb319fb94272f148aabba049cc15bd3
+routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 7
+- Records: 12
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 7
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: 254c295a8e854dfc9bf5b8495c6c80a86cf361513434d550b3cd3396593
 source: Teaching Vacancies
 source_job_id: administration-assistant-hardwick-and-cambourne-community-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-hardwick-and-cambourne-community-primary-school
----
-
----
-action: 
-SELECTED | Cambridgeshire | Peterborough, East Midlands, PE6 8NF | £27,524.00 - £30,024.00 Annually (FTE) Grade 5 Scale Point 12 – 15 (£18,813 - £20,725 Actual) | Administrator
-employer: The Deepings School
-closing_date: 2026-10-09T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 753b29df3a48799a663d190d0d42fc6fc5747a690a9dd2a3a5737c76d6c048c7
-source: Teaching Vacancies
-source_job_id: administrator-15d5f5a9-8506-4a81-9d7f-949f6c949c54
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-15d5f5a9-8506-4a81-9d7f-949f6c949c54
 ---
 
 ---
@@ -111,21 +96,6 @@ source_job_id: finance-admin-assistant-priory-junior-school-st-neots-cambridgesh
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-admin-assistant-priory-junior-school-st-neots-cambridgeshire
 ---
 
----
-action: 
-SELECTED | Cambridgeshire | St Neots, East of England, PE19 5TT | £29,542.00 - £32,046.00 Annually (FTE) Mon - Fri 08.30am - 12.15pm | School Administrative Receptionist
-employer: Buckden CofE Primary School
-closing_date: 2026-10-09T12:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0c9e1c53eee863da2bbbbdfdd7ce65615b7d253ba9e9ab07672cf5bbca3a73e4
-source: Teaching Vacancies
-source_job_id: school-administrative-receptionist
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrative-receptionist
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -138,13 +108,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrative
 
 - [Head of HR Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-operations-meridian-trust-huntingdon-not-recorded) — Insufficient admin/service evidence.
 - [MAT Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/mat-finance-officer-d8a95cad-c0d6-4162-8e48-a6074dda2712) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-buckden-cofe-primary-school) — Manager title salary ceiling £34,811 is not below £28,000.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-5a3dff01-79b6-4729-902c-d66d0a984b7a) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-7ec77d3b-774d-4b4b-973d-4d3362c0e641) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-e275b9ec-d6f9-48ae-95a1-399e4246da3d) — Insufficient admin/service evidence.
 - [School Business Leader](https://teaching-vacancies.service.gov.uk/jobs/school-business-leader-university-of-cambridge-primary-school) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-beaupre-community-primary-school) — Manager title salary ceiling £29,542 is not below £28,000.
-- [Senior HR Adviser (Field based Cambridge and Ely area primarily)](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-field-based-cambridge-and-ely-area-primarily-northstowe-learning-community) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

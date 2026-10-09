@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cumbria - West
 
-review_date: 2026-10-08
-review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: a39af9f708aad8da4d7b4dbbfdad4990e212e79c2a3698a08be464c95c7fb5e2
+review_date: 2026-10-09
+review_fingerprint: 57e7351118c113e3c18725956dc8f2925a453449cdbb4193163540331a3dd3b5
+routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
 ontap_region: Cumbria - West
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,15 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
-- Selected: 0
+- Records: 2
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Cumbria - West | Cockermouth, North West, CA13 9BH | Grade 6, SCP 7-8 | School Administrator
+employer: All Saints' CofE School
+closing_date: 2026-10-22T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 1736285ca85ffe5e7e401e84a570e6ea08ecb6bc95a2784a56fb5cf7dc75bdf8
+source: Teaching Vacancies
+source_job_id: school-administrator-all-saints-cofe-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-all-saints-cofe-school
+---
 
 ## POSS — choose SELECT or EXCLUDE
 
