@@ -43,7 +43,23 @@ _No jobs in this group._
 
 ## SUSSEX — SELECTED
 
-_No jobs in this group._
+---
+action:
+SELECTED | Sussex | Hailsham | £29827 per year | Residential Support Worker - Children's Care
+job_id: 108062155
+---
+
+---
+action:
+SELECTED | Sussex | Crawley | £14.06 per hour | Care Assistant
+job_id: 108053298
+---
+
+---
+action:
+SELECTED | Sussex | Crawley | £14.06 per hour | Night Care Assistant
+job_id: 108053317
+---
 
 ## SUSSEX — POSSIBLES
 
@@ -51,7 +67,23 @@ _No jobs in this group._
 
 ## CUMBRIA SOUTH — SELECTED
 
-_No jobs in this group._
+---
+action:
+SELECTED | Cumbria - South | Barrow-in-furness | £15 per hour (dependent on experience) | Rehabilitation Support Worker
+job_id: 108057926
+---
+
+---
+action:
+SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
+job_id: 108071061
+---
+
+---
+action:
+SELECTED | Cumbria - South | Kendal | £3,840 per year | Children's Residential Support Worker
+job_id: 25362_JR105208
+---
 
 ## CUMBRIA SOUTH — POSSIBLES
 
@@ -85,32 +117,14 @@ job_id: 1401785578
 
 ---
 action:
-SELECTED | Hampshire | Gosport | £25,845 per year | Support Worker
-job_id: 343411153683297075237340
----
-
----
-action:
-SELECTED | Hampshire | Southampton | £25,845 per year | Support Worker
-job_id: 307620840736397721637341
----
-
----
-action:
-SELECTED | Hampshire | Liss | £25,845 per year | Support Worker
-job_id: 307620840736397721637340
+SELECTED | Hampshire | Tadley | £25740 per year | Female Support Worker
+job_id: 108059180
 ---
 
 ---
 action:
 SELECTED | Hampshire | Romsey | £26018 - £27111 per year () plus Market Supplement of £3,000 pro-rata, per annum) | Waking Night Childrens Home Support Worker
 job_id: 1401785693
----
-
----
-action:
-SELECTED | Hampshire | Tadley | £25,845 per annum | Support Worker
-job_id: 264760722998480076837340
 ---
 
 ---
@@ -127,26 +141,8 @@ job_id: 1401785691
 
 ---
 action:
-SELECTED | Hampshire | Southampton | £25,845 per annum | Support Worker - Waking Nights
-job_id: 384603642135366860837341
----
-
----
-action:
-SELECTED | Hampshire | Gosport | £25,845 per annum | Support Worker - Waking Nights
-job_id: 384603642135366860837340
----
-
----
-action:
-SELECTED | Hampshire | Southampton | £25,845 per annum | Male Support Worker
-job_id: 918625004825241190437341
----
-
----
-action:
-SELECTED | Hampshire | Fareham | £25,845 per annum | Male Support Worker
-job_id: 918625004825241190437340
+SELECTED | Hampshire | Ryde | £17485 per year | Care and Support Worker
+job_id: 108088501
 ---
 
 ## HAMPSHIRE — POSSIBLES
@@ -163,74 +159,8 @@ job_id: 1402265374
 
 ---
 action:
-SELECTED | Kent | Margate | £25,845 per annum | Female Support Worker
-job_id: 533258988600216780837340
----
-
----
-action:
-SELECTED | Kent | Tonbridge | £25,845 per year | Support Worker
-job_id: 48213502199857152037340
----
-
----
-action:
-SELECTED | Kent | Maidstone | £25,845 per annum | Waking Nights Female Support Worker
-job_id: 96810156928951910437341
----
-
----
-action:
-SELECTED | Kent | Sevenoaks | £25,845 per annum | Waking Nights Female Support Worker
-job_id: 96810156928951910437340
----
-
----
-action:
-SELECTED | Kent | Canterbury | £25,845 per year | Support Worker
-job_id: 358982987111674675237340
----
-
----
-action:
-SELECTED | Kent | Tonbridge | £25,845 per annum | Female Support Worker
-job_id: 744322999886702182437340
----
-
----
-action:
-SELECTED | Kent | Maidstone | £25,845 per annum | Female Support Worker
-job_id: 603071819698877235237341
----
-
----
-action:
-SELECTED | Kent | West Malling | £25,845 per annum | Female Support Worker
-job_id: 603071819698877235237340
----
-
----
-action:
-SELECTED | Kent | Maidstone | £25,845 per annum | Male Support Worker
-job_id: 443203268824897945637341
----
-
----
-action:
-SELECTED | Kent | Tonbridge | £25,845 per annum | Male Support Worker
-job_id: 443203268824897945637340
----
-
----
-action:
-SELECTED | Kent | Maidstone | £25,845 per annum | Night Support Worker
-job_id: 496179168416261734437341
----
-
----
-action:
-SELECTED | Kent | Tonbridge | £25,845 per annum | Night Support Worker
-job_id: 496179168416261734437340
+SELECTED | Kent | Dartford | £14 per hour | Female Lifestyle Personal Assistant
+job_id: 108091635
 ---
 
 ## KENT — POSSIBLES
@@ -251,7 +181,35 @@ _No jobs in this group._
 
 ## OXFORDSHIRE — SELECTED
 
-_No jobs in this group._
+---
+action:
+SELECTED | Oxfordshire | Banbury | £14.4 per hour | Home Carer
+job_id: 107626596
+---
+
+---
+action:
+SELECTED | Oxfordshire | Witney | £14.4 per hour | Home Carer
+job_id: 107626591
+---
+
+---
+action:
+SELECTED | Oxfordshire | Bicester | £14.4 per hour | Home Carer
+job_id: 107626594
+---
+
+---
+action:
+SELECTED | Oxfordshire | Abingdon | £27417 per year | Female Support Worker
+job_id: 108090914
+---
+
+---
+action:
+SELECTED | Oxfordshire | Abingdon | £26696 per year | Support Worker
+job_id: 108090984
+---
 
 ## OXFORDSHIRE — POSSIBLES
 
@@ -267,68 +225,8 @@ job_id: 2064951
 
 ---
 action:
-SELECTED | Surrey | Guildford | £25,845 per annum | Female Support Worker
-job_id: 483079037127124582437341
----
-
----
-action:
-SELECTED | Surrey | Chertsey | £25,845 per annum | Female Support Worker
-job_id: 483079037127124582437340
----
-
----
-action:
-SELECTED | Surrey | Addlestone | £25,845 per year | Support Worker
-job_id: 543436508031562547237340
----
-
----
-action:
-SELECTED | Surrey | Guildford | £25,845 per year | Support Worker
-job_id: 863294666009739264037341
----
-
----
-action:
-SELECTED | Surrey | Chertsey | £25,845 per year | Support Worker
-job_id: 863294666009739264037340
----
-
----
-action:
-SELECTED | Surrey | Woking | £25,845 per year | Female Support Worker
-job_id: 166047448666053017637340
----
-
----
-action:
-SELECTED | Surrey | Caterham | £25,845 per annum | Female Support Worker
-job_id: 223985114380081561637340
----
-
----
-action:
-SELECTED | Surrey | Woking | £25,845 per annum | Support worker
-job_id: 667139317713338368037340
----
-
----
-action:
 SELECTED | Surrey | Woking | £28,325 per annum | Crisis Prevention Support Worker
 job_id: 2085364
----
-
----
-action:
-SELECTED | Surrey | Guildford | £25,845 per year | Male Support Worker
-job_id: 142686454964184678437341
----
-
----
-action:
-SELECTED | Surrey | Chertsey | £25,845 per year | Male Support Worker
-job_id: 142686454964184678437340
 ---
 
 ## SURREY — POSSIBLES
