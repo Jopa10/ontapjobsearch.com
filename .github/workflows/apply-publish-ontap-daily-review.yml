@@ -390,8 +390,8 @@ jobs:
 
           if [ "$shared_publish" = "true" ]; then
             dispatch_one "shared verified pages" "publish-verified-pages.yml" "false"
-          fi
             dispatch_one "production deployment" "deploy-vercel-after-publish.yml" "false"
+          fi
           fi
 
       - name: Publish summary
