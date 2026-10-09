@@ -1,13 +1,13 @@
 # Ontap System Overview
 
-**Last updated:** 8 October 2026
-**Status:** Canonical production state, reconciled on 8 October against active workflow definitions and Vercel project records.
+**Last updated:** 9 October 2026
+**Status:** Canonical production state, reconciled on 9 October against active workflow definitions and Vercel project records.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
 
-- 8 October 2026 — **Scraper and feed pushes no longer each trigger Vercel builds:** automatic Git deployments are disabled. A successful verified-page publish deploys the current main revision once through the Vercel CLI and verifies its SHA. Production continues serving the previous ready deployment while the replacement builds.
+- 9 October 2026 — **Daily publish now explicitly starts the Vercel deployment:** scraper/feed pushes no longer each trigger builds. After verified pages publish successfully, the daily orchestrator starts and waits for the deployment workflow. This fixes the missed trigger from the 9 October run; the current site stays live while a replacement builds.
 
 - 7 October 2026 — **A beginner AI course reviews page is live in the site structure:** `/ai-course-reviews` reviews Elements of AI and OpenAI Academy AI Foundations. It is linked from the top of `/ai-tips` and included in the sitemap.
 
@@ -287,7 +287,7 @@ Core controls are:
 - one owner-facing **Ontap daily status** workflow on the Actions page, combining morning source/review readiness with the final manual-or-automatic publication and deployment receipt;
 - source-specific publishers, including NHS, with the reviewed NHS publisher using the same transactional composer as the normal daily run;
 - final verified-page publishing including city-page derivation/maintenance and configured Customer Sales slices;
-- Vercel automatic Git builds disabled; one Vercel CLI production deployment after a successful verified-page publish, with live-SHA verification;
+- Vercel automatic Git builds disabled; the daily orchestrator dispatches one Vercel CLI production deployment after verified-page publishing, then waits for live-SHA verification;
 - manual dispatch of the same Vercel deployment workflow for deliberate recovery;
 - Google indexing and operational monitoring.
 
@@ -303,7 +303,7 @@ Teaching Vacancies regional/master review uses one complete audited discovery pa
 
 Every `npm run build` now regenerates the published-job search index before `prisma generate` and `next build`. That generated index contains both the current result-card fields and the precomputed `_search` metadata needed for matching, while omitting the raw description/full-description payload from the runtime search bundle. Search therefore uses the exact published inventory captured by that deployment without rebuilding inventory or normalised/tokenised field structures on individual search requests.
 
-Vercel automatic Git deployments are disabled for connected branches by the root `vercel.json`. A successful `Publish verified pages` run starts `.github/workflows/deploy-vercel-after-publish.yml`, which checks out current `main`, captures its expected SHA, and deploys that revision to the fixed `.com` production project with the Vercel CLI and repository secret `VERCEL_TOKEN`. It passes the expected SHA as the deployment-scoped runtime variable `VERCEL_DEPLOYMENT_SHA` and verifies production through `https://www.ontapjobsearch.com/api/deployment-version`.
+Vercel automatic Git deployments are disabled for connected branches by the root `vercel.json`. After `Publish verified pages` finishes successfully, `.github/workflows/apply-publish-ontap-daily-review.yml` explicitly starts `.github/workflows/deploy-vercel-after-publish.yml` with `workflow_dispatch` and waits for it to finish. That deploy workflow checks out current `main`, captures its expected SHA, and deploys it to the fixed `.com` production project with the Vercel CLI and repository secret `VERCEL_TOKEN`. It passes the expected SHA as `VERCEL_DEPLOYMENT_SHA` and verifies production through `https://www.ontapjobsearch.com/api/deployment-version`. The former `workflow_run` trigger failed to start after the token-dispatched publisher, so it was removed. Manual deployment remains available for recovery.
 
 Scraper reviews, feed uploads and generated report commits can continue updating `main` without each triggering a Vercel build. The normal route is one Vercel deployment after the successful verified-page publish. The workflow raises or updates **Ontap production deployment is stale** if deployment or live-SHA verification fails. Production continues serving its prior ready deployment until Vercel assigns a ready replacement.
 
