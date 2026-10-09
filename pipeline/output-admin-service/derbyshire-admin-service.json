@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-receptionist-school-business-assistant-buxton-community-school",
-    "title": "Receptionist / School Business Assistant",
-    "company": "Buxton Community School",
-    "location": "Buxton",
-    "region": "Derbyshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£25,989.00 - £26,458.00 Annually (FTE) Grade 6 (Actual salary £9,022",
-    "work_pattern": "",
-    "posted_date": "2026-10-02",
-    "closing_date": "2026-10-09",
-    "closing_datetime": "2026-10-09T12:00:00+01:00",
-    "summary": "Receptionist / School Business Assistant with Buxton Community School in Buxton. ['part time']; £25,989.00 - £26,458.00 Annually (FTE) Grade 6 (Actual salary £9,022.",
-    "description": "Buxton Community School is recruiting for this vacancy in Buxton.\n\nThe advertised position is Receptionist / School Business Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £25,989.00 - £26,458.00 Annually (FTE) Grade 6 (Actual salary £9,022.\n\nThe stated application deadline is 2026-10-09T12:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/receptionist-school-business-assistant-buxton-community-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Buxton Community School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-receptionist-ae06e435-9f90-46fa-8916-45549c221789",
     "title": "Receptionist",
     "company": "Hope Valley College",
@@ -149,6 +121,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2479-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2479-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

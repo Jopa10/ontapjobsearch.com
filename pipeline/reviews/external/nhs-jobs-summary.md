@@ -2,15 +2,63 @@
 
 review_date: 2026-10-09
 
-- Open Administrative & Clerical rows reviewed: 2396
+- Open Administrative & Clerical rows reviewed: 2397
 - Auto/remembered selected: 429
 - Selected HC Tier A: 230
 - Selected HC Tier B: 199
-- POSS awaiting decision: 1849
+- POSS awaiting decision: 1850
 - Excluded: 0
 - HARD_PASS: 118
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Lancashire - East | Accrington, BB5 3DD, Blackburn, BB1 2HR | Negotiable | Care Navigator Team Leader (Reception)
+source_job_id: 5655056
+title: Care Navigator Team Leader (Reception)
+employer: Cornerstone
+region: Lancashire - East
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3282-26-0018
+factual_fingerprint: 201435e307342ada6e37d21fbe3f35a1f4c152eb5bb6cf7ed685d85c4964ad2f
+---
+
+---
+action:
+POSS | NHS Jobs | London | Harrow, HA1 3UJ | Negotiable | Deputy Chief Operating Officer and Managing Director (VSM)
+source_job_id: 5655656
+title: Deputy Chief Operating Officer and Managing Director (VSM)
+employer: London North West University Healthcare NHS Trust
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9337-26-0824
+factual_fingerprint: cf866fd00adc6971eb907d01588826eb9b4b3355112ea6d8697e018ec518c821
+---
+
+---
+action:
+POSS | NHS Jobs | — | Community sites across Kent and Medway, TN25 4AZ | £28392.00 to £31157.00 | WorkWell Coach
+source_job_id: 5655484
+title: WorkWell Coach
+employer: Kent Community Health NHS Foundation Trust
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9846-26-0613
+factual_fingerprint: 2be92864803b111f80767cab93444c5268ab918ee8171a5967385fc48d99af8c
+---
+
+---
+action:
+POSS | NHS Jobs | Wiltshire | Salisbury, SP2 7FD | £14.74 | Rota Co-ordinator
+source_job_id: 5655176
+title: Rota Co-ordinator
+employer: Salisbury Medical Practice
+region: Wiltshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2320-26-0008
+factual_fingerprint: dffe87d02e58786d79e0b9786fdccae6867e2328bd79d4ba933decd68be638e0
+---
 
 ---
 action:
@@ -22,18 +70,6 @@ region:
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9418-26-1039
 factual_fingerprint: fc11cc2d3dd906039bb9aa8b7ac21665e58163666b970f0241b56b95ef4c787e
----
-
----
-action:
-POSS | NHS Jobs | London | London, NW3 2QG | £34186.00 to £37389.00 | Band 4 Clinical Pathway Administrator - Renal
-source_job_id: 5655264
-title: Band 4 Clinical Pathway Administrator - Renal
-employer: Royal Free London NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9391-26-1768
-factual_fingerprint: ba4bd8b775e833aad6d4c5bd176bd397b3cadaa73ec43504fe94aaddd9af62e2
 ---
 
 ---
@@ -1209,7 +1245,7 @@ employer: York and Scarborough Teaching Hospitals NHS Foundation Trust
 region: Yorkshire - North
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9419-26-0836
-factual_fingerprint: f3f7dddef61f1a99c4f14eda2c2ae78d205f3c030383aef0603b3a331f84c5b5
+factual_fingerprint: 42cca915abdee3d7bb323ef872b3c03c1abef32fd8d9dd42ebfb024c07c151a7
 ---
 
 ---
@@ -5714,18 +5750,6 @@ factual_fingerprint: c7d206004920a75563d54adeaa73c9063f522fbcc8d31d933494162a606
 
 ---
 action:
-POSS | NHS Jobs | Hertfordshire | Stevenage, SG1 4AB | £25760.00 to £27476.00 | Administration Officer (Car parking)
-source_job_id: 5647868
-title: Administration Officer (Car parking)
-employer: East and North Hertfordshire Teaching NHS Trust
-region: Hertfordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9361-26-0598
-factual_fingerprint: 0ece65aca5e7245215e0efc131431152fed0e37fa930b070d612207ccf57fb0f
----
-
----
-action:
 POSS | NHS Jobs | London | London, NW7 2HX | Negotiable | Workflow processor and coder
 source_job_id: 5648650
 title: Workflow processor and coder
@@ -7966,18 +7990,6 @@ region: Berkshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9193-26-0666
 factual_fingerprint: e0fbe7f1ab39bb16b4a269e5a8cbb9bc3644601bca291ed2c2d821b4de9550d0
----
-
----
-action:
-POSS | NHS Jobs | Greater Manchester - South | Ashton Under Lyne, OL6 9RW | £28392.00 to £31157.00 | Booking & Scheduling Coordinator
-source_job_id: 5644409
-title: Booking & Scheduling Coordinator
-employer: Tameside and Glossop Integrated Care NHS Foundation Trust
-region: Greater Manchester - South
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9245-26-0383
-factual_fingerprint: d1ef2f72288c057f29cd8af3b6b11f45abb1858bb6707ce90ec8a1a2dc2b05f7
 ---
 
 ---

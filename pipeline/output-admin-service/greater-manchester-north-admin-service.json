@@ -1,5 +1,30 @@
 [
   {
+    "job_id": "107969282",
+    "title": "Care Coordinator",
+    "company": "Complex Care Professionals Limited - Agency - Permanent",
+    "location": "Rochdale",
+    "region": "Greater Manchester - North",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "26500",
+    "salary_max": "26500",
+    "salary_text": "£26500 per year",
+    "posted_date": "",
+    "description": "About Us\n\nComplex Care Professionals Ltd is a growing, forward-thinking organisation with branches across the North West. We are committed to putting people first-both our clients and our staff.\n\nThe Role\n\nWe're looking for an organised and proactive Care Coordinator to support the delivery of high-quality, person-centred care while helping to grow and develop our services click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aziU08XVyREagiDWidt3H%2boswtEZ9Q9yd",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Complex Care Professionals Limited",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "2067457",
     "title": "Credit Controller",
     "company": "Michael Page Finance - Agency - Permanent",
@@ -73,5 +98,27 @@
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": ""
+  },
+  {
+    "job_id": "nhs-5646769",
+    "source": "NHS Jobs",
+    "title": "Administrator",
+    "company": "Northern Care Alliance NHS Foundation Trust",
+    "advertiser_name": "Northern Care Alliance NHS Foundation Trust",
+    "location": "Bury, BL9 0DG",
+    "region": "Greater Manchester - North",
+    "salary": "£25760.00 to £27476.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-07T08:49:35.015802813",
+    "closing_date": "2026-10-20",
+    "description": "You will work within the Urgent Community Response team, working closely with other team members across the Intermediate Tier, supporting the service model for people requiring a timely response when in crisis relating to their health or social care across Bury. You will provide clerical support to the team where appropriate and may be asked to work across the Tier at other venues within Bury. You will have direct telephone contact with patients and referrers on a daily basis. o Support the Urgent Community Response team in ensuring home visits are arranged in a timely and appropriate manner in accordance with the service criteria and targets. o Liaise with other community service providers to collate relevant patient information adhering to information governance requirements. Collate all appropriate documentation to support the home visits booked with the clinical team. o Accurately complete and action documentation as requested by the clinical team members. o To create and modify documents using advanced Microsoft Office packages o Organise the administration aspects of coordinating meetings and events. o To attend meetings and take minutes where necessary. o To provide word processing support as required, including letters, reports and e-mails o To maintain confidentiality and monitor computerised and manual records o To collate and provide statistical information/reports as required e.g. performance management, FOI requests etc. o Maintain a staff/team record to support the maintenance of an up to date duty rota and other service cover as necessary. To read more information about the advertised role, and the main job duties/responsibilities please open the Job Description and Person Specification located under the supporting documents heading. You can also read more information about working at the Northern Care Alliance within the attached Candidate Information Pack or by visiting our careers website: www.careers.northerncarealliance.nhs.uk",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9236-26-1149",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9236-26-1149",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
