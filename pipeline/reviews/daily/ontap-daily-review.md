@@ -32,7 +32,7 @@ Edit only each `action:` line:
 ## JobG8 — 6 to review
 
 ---
-action:
+action: select
 POSS | JobG8 | Berkshire | Berkshire | — | Assistant Management Accountant
 source_key: jobg8
 source: JobG8
@@ -50,7 +50,7 @@ hub_fingerprint: 783bc9ebbd2b766fba5f4ed6a6961ea9575f4015e6e99e9c05672763e0c9698
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Greater Manchester - North | Oldham | — | Assistant Accountant
 source_key: jobg8
 source: JobG8
@@ -68,7 +68,7 @@ hub_fingerprint: 084d95b7923807af06d9100292629875f182ce0c5a8e300815d02061c05b15a
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Kent | Kent | £21 - £24 per hour | Interim Part time Finance Assistant
 source_key: jobg8
 source: JobG8
@@ -86,7 +86,7 @@ hub_fingerprint: fa4dfcb0f6e6ec922bcbf9e4312825561c40ac2ccf0958011ef913d08072856
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Lancashire - East | Blackburn | £27463 - £29947 per year | Assistant Accountant
 source_key: jobg8
 source: JobG8
@@ -104,7 +104,7 @@ hub_fingerprint: baccc93524bc97dab9cdeb7b4723d1a2653230304e7293eeccb829ca635dd77
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Lancashire - East | Blackburn | £35000 - £40000 per year | Credit Controllers
 source_key: jobg8
 source: JobG8
@@ -122,7 +122,7 @@ hub_fingerprint: 5f07aeea688fdf7ece5b88fdfd8891c9c1e35c40e2552e515a26acca45b2ba8
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Somerset | Somerset | — | Assistant Management Accountant
 source_key: jobg8
 source: JobG8
