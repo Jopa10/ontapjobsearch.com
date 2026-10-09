@@ -1,7 +1,7 @@
 # Ontap System Map
 
-**Last updated:** 8 October 2026
-**Status:** Canonical production architecture, reconciled on 8 October against active workflows, Vercel project records, slice register, city-page register and current diagnostic contract.
+**Last updated:** 9 October 2026
+**Status:** Canonical production architecture, reconciled on 9 October against active workflows, Vercel project records, slice register, city-page register and current diagnostic contract.
 
 - 21 September 2026 — **Nearby-location analytics now explains incomplete location attempts and reliably measures restored preferences:** client events that occur before GA4 initialises wait for the shared analytics-ready signal instead of being dropped. Unsuccessful geolocation attempts now distinguish unsupported browsers, permission denial, unavailable positions, timeouts and nearby-API failures; manual-town attempts and saved-location refresh failures are measured separately. Existing `saved_location_return` and `saved_location_results_loaded` events remain the proof of remembered-location reuse.
 
@@ -9,7 +9,7 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
-- 8 October 2026 — **Vercel builds are triggered by successful verified-page publication instead of every Git push:** root `vercel.json` disables automatic Git deployments, and the post-publish workflow deploys current `main` through the CLI, passing and verifying the expected SHA. This prevents scraper, feed-review and report commits from each creating production builds while the prior ready deployment stays live during a replacement build.
+- 9 October 2026 — **Production deployment now starts directly from the daily publish orchestrator:** root `vercel.json` disables automatic Git deployments. After the verified-page publisher succeeds, `apply-publish-ontap-daily-review.yml` explicitly dispatches `deploy-vercel-after-publish.yml` and waits for deployment and live-SHA verification. A `workflow_run` completion trigger did not run for this token-dispatched publisher, leaving production stale after the 9 October publish; the trigger was replaced with explicit `workflow_dispatch`. Manual dispatch remains available for recovery, and the existing ready site stays live while Vercel builds.
 
 - 7 October 2026 — **Beginner AI course reviews are now a crawlable content page:** `/ai-course-reviews` contains first-hand reviews of Elements of AI and OpenAI Academy AI Foundations, with links to the course providers. The page has a fixed canonical URL, appears in the sitemap and is linked directly from the `/ai-tips` introduction.
 
