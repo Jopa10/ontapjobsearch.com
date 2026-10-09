@@ -1,6 +1,6 @@
 # Service-admin manual review
 
-feed_date: 2026-10-08
+feed_date: 2026-10-09
 
 Edit only the `action:` line in each block:
 
@@ -151,6 +151,12 @@ _No jobs in this group._
 
 ---
 action:
+SELECTED | Yorkshire - South | Doncaster | £27000 per year [JobG8 salary fields] | Administrator
+job_id: 2024835
+---
+
+---
+action:
 SELECTED | Yorkshire - South | Sheffield | no salary in JobG8 salary fields; no supported salary amount found in description | Audience Development Coordinator - Local Authority - Libraries
 job_id: 2033599
 ---
@@ -215,6 +221,12 @@ SELECTED | Yorkshire - South | Doncaster | no salary in JobG8 salary fields; no 
 job_id: 2092531
 ---
 
+---
+action:
+SELECTED | Yorkshire - South | Sheffield | £25,081.00 per annum [extracted from description] | Income and Engagement Operations Administrator
+job_id: 2099961
+---
+
 ## SOUTH YORKSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -228,6 +240,18 @@ _No jobs in this group._
 _No jobs in this group._
 
 ## LONDON — SELECTED
+
+---
+action:
+SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Accounts Assistant
+job_id: 2024856
+---
+
+---
+action:
+SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Payroll Coordinator (Part time 3 days a week)
+job_id: 2024706
+---
 
 ---
 action:
@@ -383,12 +407,6 @@ job_id: 2049622
 action:
 SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Finance Procurement Coordinator
 job_id: 2048185
----
-
----
-action:
-SELECTED | London | London | £30000 per year [JobG8 salary fields] | Court of Protection Paralegal
-job_id: 2053225
 ---
 
 ---
@@ -819,14 +837,32 @@ job_id: 23643_225698401
 
 ---
 action:
-SELECTED | London | Harrow | £17.26 per hour [extracted from description] | Legal Assistant - Commercial
-job_id: 2092276
+SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Accountant - 6 Month FTC
+job_id: 2091651
 ---
 
 ---
 action:
-SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Accountant - 6 Month FTC
-job_id: 2091651
+SELECTED | London | London | £38,060 per annum [extracted from description] | Volunteer Coordinator
+job_id: 2099934
+---
+
+---
+action:
+SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Floating Support Coordinator
+job_id: 2099921
+---
+
+---
+action:
+SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Operations Coordinator
+job_id: 2099919
+---
+
+---
+action:
+SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Volunteer Project Coordinator
+job_id: 2099914
 ---
 
 ## LONDON — POSSIBLES
@@ -905,12 +941,6 @@ job_id: 2056614
 action:
 SELECTED | Hampshire | Hampshire | £35000 - £40000 per year [JobG8 salary fields] | Assistant Accountant
 job_id: 2055478
----
-
----
-action:
-SELECTED | Hampshire | Hampshire | no salary in JobG8 salary fields; no supported salary amount found in description | Export Coordinator
-job_id: 2057274
 ---
 
 ---
@@ -1299,12 +1329,6 @@ job_id: 2080652
 
 ---
 action:
-SELECTED | Kent | Kent | no salary in JobG8 salary fields; no supported salary amount found in description | Supply Chain Co-Ordinator
-job_id: 102208923948076236837340
----
-
----
-action:
 SELECTED | Kent | Kent | £15.00 - £16.00 per hour [extracted from description] | Part-Time Accounts Assistant Dartford Temp to Perm
 job_id: 2089004
 ---
@@ -1341,8 +1365,20 @@ job_id: 2063842
 
 ---
 action:
-SELECTED | Kent | Kent | no salary in JobG8 salary fields; no supported salary amount found in description | Youth Engagement Coordinator
-job_id: 2092977
+SELECTED | Kent | Kent | no salary in JobG8 salary fields; no supported salary amount found in description | Activities Co-ordinator - Strode Park House
+job_id: 661285270416942694437341
+---
+
+---
+action:
+SELECTED | Kent | Kent | no salary in JobG8 salary fields; no supported salary amount found in description | Activities Co-ordinator - Strode Park House
+job_id: 661285270416942694437340
+---
+
+---
+action:
+SELECTED | Kent | Kent | no salary in JobG8 salary fields; no supported salary amount found in description | Team Administrator
+job_id: 2099956
 ---
 
 ## KENT — POSSIBLES
@@ -1675,12 +1711,6 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Berkshire | Berkshire |  | Entry level Law / Paralegal
-job_id: 2026593
----
-
----
-action:
 SELECTED | Berkshire | Berkshire |  | Finance Administration Assistant
 job_id: 2048189
 ---
@@ -1901,6 +1931,12 @@ job_id: 2055938
 
 ---
 action:
+SELECTED | Buckinghamshire | Buckinghamshire | £26000 - £32000 per year | Technical Helpdesk Support
+job_id: 2052926
+---
+
+---
+action:
 SELECTED | Buckinghamshire | Buckinghamshire |  | PARALEGAL - CRIMINAL
 job_id: 2060472
 ---
@@ -2039,30 +2075,6 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Cheshire - East | Knutsford |  | Contact Centre Agent - Uncapped Commission
-job_id: 20279_62648-bce180f9075237062f9ba04857f8e0b6
----
-
----
-action:
-SELECTED | Cheshire - East | Knutsford |  | Call Centre Operator - Uncapped Commission
-job_id: 20279_62648-d1c6bd5673f826e43797e1c92de24d69
----
-
----
-action:
-SELECTED | Cheshire - East | Knutsford |  | Call Centre Agent - Uncapped Commission
-job_id: 20279_62648-ca303eac9d601a8b4b3e2629f842f6a8
----
-
----
-action:
-SELECTED | Cheshire - East | Knutsford |  | Customer Service Advisor - Uncapped Commission
-job_id: 20279_62648-5f053ed6bc220092db88c81c1fa679dd
----
-
----
-action:
 SELECTED | Cheshire - East | Wilmslow |  | Part-Time Payroll Assistant
 job_id: 2039760
 ---
@@ -2090,126 +2102,6 @@ job_id: 2065127
 _No jobs in this group._
 
 ## CHESHIRE - WARRINGTON & HALTON — SELECTED
-
----
-action:
-SELECTED | Cheshire - Warrington & Halton | Warrington |  | Customer Service Advisor - Uncapped Commission
-job_id: 20279_62648-153faf593eb64b88272f45adeaa28d87
----
-
----
-action:
-SELECTED | Cheshire - Warrington & Halton | Widnes |  | Customer Service Advisor - Uncapped Commission
-job_id: 20279_62648-74576f7712f4d2665711d742594a5e6e
----
-
----
-action:
-SELECTED | Cheshire - Warrington & Halton | Warrington |  | Call Centre Operator - Uncapped Commission
-job_id: 20279_62648-73862c8b83139033e4e4a8b6efca9a33
----
-
----
-action:
-SELECTED | Cheshire - Warrington & Halton | Lymm |  | Contact Centre Agent - Uncapped Commission
-job_id: 20279_62648-497d591f62e546863483312dd53dfef9
----
-
----
-action:
-SELECTED | Cheshire - Warrington & Halton | Warrington |  | Customer Service Advisor - Uncapped Commission
-job_id: 20279_62648-ecde51dab00e54d27ce575427a4ba514
----
-
----
-action:
-SELECTED | Cheshire - Warrington & Halton | Runcorn |  | Customer Service Advisor - Uncapped Commission
-job_id: 20279_62648-fe97affcb7eb2cdceb67019e12eb7199
----
-
----
-action:
-SELECTED | Cheshire - Warrington & Halton | Warrington |  | Call Centre Operator - Uncapped Commission
-job_id: 20279_62648-e22242ba84bf98abd1c8488521625d74
----
-
----
-action:
-SELECTED | Cheshire - Warrington & Halton | Runcorn |  | Call Centre Agent - Uncapped Commission
-job_id: 20279_62648-f95fb0abe95ec1d699d270ffff941d6f
----
-
----
-action:
-SELECTED | Cheshire - Warrington & Halton | Widnes |  | Call Centre Agent - Uncapped Commission
-job_id: 20279_62648-97868bcab5ea2ebd43f55cf59028e39c
----
-
----
-action:
-SELECTED | Cheshire - Warrington & Halton | Lymm |  | Call Centre Operator - Uncapped Commission
-job_id: 20279_62648-bebd6b72712070dd058ae6bc358e899c
----
-
----
-action:
-SELECTED | Cheshire - Warrington & Halton | Lymm |  | Call Centre Agent - Uncapped Commission
-job_id: 20279_62648-acae1f6c5bc74101c4f7e20ffb81ad67
----
-
----
-action:
-SELECTED | Cheshire - Warrington & Halton | Lymm |  | Customer Service Advisor - Uncapped Commission
-job_id: 20279_62648-872ae37268a541755e97df9c9ced56fa
----
-
----
-action:
-SELECTED | Cheshire - Warrington & Halton | Warrington |  | Contact Centre Agent - Uncapped Commission
-job_id: 20279_62648-637fc511e4eb560482b6812cdcd0d531
----
-
----
-action:
-SELECTED | Cheshire - Warrington & Halton | Runcorn |  | Contact Centre Agent - Uncapped Commission
-job_id: 20279_62648-3e92b47ad3dbb60c9078d91c7601c50b
----
-
----
-action:
-SELECTED | Cheshire - Warrington & Halton | Widnes |  | Call Centre Operator - Uncapped Commission
-job_id: 20279_62648-2848878a98147df0051e7d135d2d5210
----
-
----
-action:
-SELECTED | Cheshire - Warrington & Halton | Widnes |  | Contact Centre Agent - Uncapped Commission
-job_id: 20279_62648-e821632b595e066f84bc5bc2227491aa
----
-
----
-action:
-SELECTED | Cheshire - Warrington & Halton | Warrington |  | Contact Centre Agent - Uncapped Commission
-job_id: 20279_62648-d24d3d6916a209e15b1680693740da2f
----
-
----
-action:
-SELECTED | Cheshire - Warrington & Halton | Warrington |  | Call Centre Agent - Uncapped Commission
-job_id: 20279_62648-22e23270f8ebd14d8abcf367c9b0bdc1
----
-
----
-action:
-SELECTED | Cheshire - Warrington & Halton | Warrington |  | Call Centre Agent - Uncapped Commission
-job_id: 20279_62648-89740a075c6163b74ea2c52702062e5d
----
-
----
-action:
-SELECTED | Cheshire - Warrington & Halton | Runcorn |  | Call Centre Operator - Uncapped Commission
-job_id: 20279_62648-00a9a6350da241ecc876a19e242c605c
----
 
 ---
 action:
@@ -2276,30 +2168,6 @@ job_id: 2063198
 _No jobs in this group._
 
 ## CHESHIRE - WEST — SELECTED
-
----
-action:
-SELECTED | Cheshire - West | Frodsham |  | Call Centre Operator - Uncapped Commission
-job_id: 20279_62648-df37f60d32f252fe49c310f2c35d688a
----
-
----
-action:
-SELECTED | Cheshire - West | Frodsham |  | Contact Centre Agent - Uncapped Commission
-job_id: 20279_62648-c52bb760dc41c0ee3f43349313e28f01
----
-
----
-action:
-SELECTED | Cheshire - West | Frodsham |  | Call Centre Agent - Uncapped Commission
-job_id: 20279_62648-fb5fb9f58e831eea55d967facf062f17
----
-
----
-action:
-SELECTED | Cheshire - West | Frodsham |  | Customer Service Advisor - Uncapped Commission
-job_id: 20279_62648-5faf5267f18c7c093af86f2f69e76ee3
----
 
 ---
 action:
@@ -2805,6 +2673,18 @@ SELECTED | Essex | Essex |  | Product Support Analyst - Helpdesk
 job_id: 2092864
 ---
 
+---
+action:
+SELECTED | Essex | Essex |  | Property Inspections Team Coordinator
+job_id: 562663695354272153637341
+---
+
+---
+action:
+SELECTED | Essex | Essex |  | Property Inspections Team Coordinator
+job_id: 562663695354272153637340
+---
+
 ## ESSEX — POSSIBLES
 
 _No jobs in this group._
@@ -2825,6 +2705,12 @@ job_id: 2050223
 
 ---
 action:
+SELECTED | Gloucestershire | Gloucestershire | £15 - £17 per hour | Administrator
+job_id: 2053465
+---
+
+---
+action:
 SELECTED | Gloucestershire | Gloucestershire |  | Accounts Assistant
 job_id: 2067302
 ---
@@ -2837,13 +2723,7 @@ job_id: 2085791
 
 ---
 action:
-SELECTED | Gloucestershire | Gloucestershire | £14.34 per hour | Administrative Assistant
-job_id: 2092959
----
-
----
-action:
-SELECTED | Gloucestershire | Gloucestershire | £14.34 per hour | Administrative Assistant
+SELECTED | Gloucestershire | Cheltenham | £14.34 per hour | Administrative Assistant
 job_id: 2092958
 ---
 
@@ -2961,6 +2841,12 @@ SELECTED | Greater Manchester - Manchester & Salford | Salford |  | Repairs Admi
 job_id: 2068121
 ---
 
+---
+action:
+SELECTED | Greater Manchester - Manchester & Salford | Manchester |  | Tutoring Plus Coordinator (Part-time)
+job_id: 2099972
+---
+
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — POSSIBLES
 
 _No jobs in this group._
@@ -3039,42 +2925,6 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Greater Manchester - Wigan & Bolton | Leigh |  | Call Centre Operator - Uncapped Commission
-job_id: 20279_62648-febc62af56f2024bba2b7d7e4822beac
----
-
----
-action:
-SELECTED | Greater Manchester - Wigan & Bolton | Leigh |  | Contact Centre Agent - Uncapped Commission
-job_id: 20279_62648-ff99aaa433b07ac45aacb2d328e68571
----
-
----
-action:
-SELECTED | Greater Manchester - Wigan & Bolton | Leigh |  | Call Centre Agent - Uncapped Commission
-job_id: 20279_62648-0e98839ddf36da8e64c34fe5ef0cda20
----
-
----
-action:
-SELECTED | Greater Manchester - Wigan & Bolton | Leigh |  | Customer Service Advisor - Uncapped Commission
-job_id: 20279_62648-be0da432b3a040b9318b55b27aa49c2a
----
-
----
-action:
-SELECTED | Greater Manchester - Wigan & Bolton | Bolton |  | Claims Handler - Household
-job_id: 2047338
----
-
----
-action:
-SELECTED | Greater Manchester - Wigan & Bolton | Bolton |  | Claims Handler - Third Party Motor
-job_id: 2047593
----
-
----
-action:
 SELECTED | Greater Manchester - Wigan & Bolton | Bolton |  | FNOL Motor Claims Handler
 job_id: 2074928
 ---
@@ -3101,6 +2951,12 @@ _No jobs in this group._
 action:
 SELECTED | Herefordshire | Hereford |  | IT Coordinator
 job_id: 2021800
+---
+
+---
+action:
+SELECTED | Herefordshire | Ledbury | £30000 per year | Payroll Administrator
+job_id: 2027350
 ---
 
 ---
@@ -3457,6 +3313,12 @@ _No jobs in this group._
 
 ---
 action:
+SELECTED | Lincolnshire | Lincolnshire | £30000 - £33000 per year | Assistant Accountant
+job_id: 2024723
+---
+
+---
+action:
 SELECTED | Lincolnshire | Lincolnshire |  | Finance Assistant/Accounts Payable
 job_id: 2028887
 ---
@@ -3497,11 +3359,29 @@ SELECTED | Lincolnshire | Lincolnshire |  | Demand Planner
 job_id: 2089149
 ---
 
+---
+action:
+SELECTED | Lincolnshire | Lincolnshire | £13.45 per hour | Flexible Administrator/Crisis Worker-Lincoln
+job_id: 427724591519183667237341
+---
+
+---
+action:
+SELECTED | Lincolnshire | Lincolnshire | £13.45 per hour | Flexible Administrator/Crisis Worker-Lincoln
+job_id: 427724591519183667237340
+---
+
 ## LINCOLNSHIRE — POSSIBLES
 
 _No jobs in this group._
 
 ## MERSEYSIDE - LIVERPOOL — SELECTED
+
+---
+action:
+SELECTED | Merseyside - Liverpool | Liverpool |  | Finance Assistant
+job_id: 2027305
+---
 
 ---
 action:
@@ -3621,12 +3501,6 @@ job_id: 2051532
 action:
 SELECTED | Norfolk | Norfolk |  | Conveyancing Paralegal/Fee Earner
 job_id: 2051501
----
-
----
-action:
-SELECTED | Norfolk | Norfolk |  | Site Administrator
-job_id: 480609135438174617637340
 ---
 
 ---
@@ -3853,12 +3727,6 @@ job_id: 2060274
 
 ---
 action:
-SELECTED | Oxfordshire | Oxfordshire | £38000 - £40000 per year | Accounts Administrator - Part time
-job_id: 2062620
----
-
----
-action:
 SELECTED | Oxfordshire | Oxfordshire | £35000 per year | Credit Controller
 job_id: 2067685
 ---
@@ -3885,12 +3753,6 @@ job_id: 2074696
 action:
 SELECTED | Oxfordshire | Oxfordshire |  | Accounts Payable Coordinator
 job_id: 2087522
----
-
----
-action:
-SELECTED | Oxfordshire | Oxfordshire |  | Finance Assistant - Sales Ledger
-job_id: 2088521
 ---
 
 ---
@@ -4541,12 +4403,6 @@ job_id: 2045091
 action:
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham |  | Internal Sales Administrator
 job_id: 2044276
----
-
----
-action:
-SELECTED | West Midlands - Birmingham & Solihull | Solihull |  | Accounts Assistant
-job_id: 2044201
 ---
 
 ---

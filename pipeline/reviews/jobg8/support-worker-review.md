@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-10-08
+feed_date: 2026-10-09
 
 Edit only the `action:` line in each block:
 
@@ -223,18 +223,6 @@ job_id: 443203268824897945637340
 
 ---
 action:
-SELECTED | Kent | Maidstone | £25,845 per annum | Support Worker
-job_id: 689944233409458995237341
----
-
----
-action:
-SELECTED | Kent | Margate | £25,845 per annum | Support Worker
-job_id: 689944233409458995237340
----
-
----
-action:
 SELECTED | Kent | Maidstone | £25,845 per annum | Night Support Worker
 job_id: 496179168416261734437341
 ---
@@ -243,12 +231,6 @@ job_id: 496179168416261734437341
 action:
 SELECTED | Kent | Tonbridge | £25,845 per annum | Night Support Worker
 job_id: 496179168416261734437340
----
-
----
-action:
-SELECTED | Kent | Tunbridge Wells | £25,845 per annum | Female Support Worker
-job_id: 842055619798315827237340
 ---
 
 ## KENT — POSSIBLES
@@ -311,12 +293,6 @@ job_id: 863294666009739264037341
 action:
 SELECTED | Surrey | Chertsey | £25,845 per year | Support Worker
 job_id: 863294666009739264037340
----
-
----
-action:
-SELECTED | Surrey | Walton-on-thames | £25,845 per annum | Female Support Worker
-job_id: 152329336866524364837340
 ---
 
 ---
