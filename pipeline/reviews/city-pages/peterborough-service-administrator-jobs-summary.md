@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 8
-- automatic exclude: 15
-- effective include: 10
-- effective review: 8
-- effective exclude: 15
+- automatic include: 7
+- automatic review: 6
+- automatic exclude: 11
+- effective include: 7
+- effective review: 6
+- effective exclude: 11
 
-## INCLUDE (10)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Reed - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-1939236
-reason: Approved conservative Peterborough launch catchment.
----
+## INCLUDE (7)
 
 ---
 action: 
@@ -57,30 +45,6 @@ company: Cambridgeshire and Peterborough NHS Foundation Trust
 location: Peterborough, PE78FZ
 source: NHS Jobs
 job_id: nhs-5647546
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Commercial Insurance Claims Handler
-company: Infinity Recruitment Consultancy Ltd - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-1981536
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: IT Helpdesk Advisor - Dutch Speaker
-company: Interaction - Peterborough - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-108061988
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -144,7 +108,7 @@ job_id: jobg8-23643_225691674
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (8)
+## REVIEW (6)
 
 ---
 action: 
@@ -210,30 +174,6 @@ reason: No approved Peterborough catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Logistics Coordinator / Operations Coordinator
-company: Elix Sourcing Solutions Limited - Agency - Permanent
-location: St. Ives
-source: JobG8
-job_id: jobg8-2046219
-reason: No approved Peterborough catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Executive
-company: Infinity Recruitment Consultancy Ltd - Agency - Permanent
-location: St. Neots
-source: JobG8
-job_id: jobg8-1981557
-reason: No approved Peterborough catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: School Administrative Receptionist
 company: Buckden CofE Primary School
 location: St Neots
@@ -242,7 +182,7 @@ job_id: teaching-vacancies-school-administrative-receptionist
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (15)
+## EXCLUDE (11)
 
 ---
 action: 
@@ -296,18 +236,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Contract Credit Controller
-company: Reed - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-1898131
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Credit Controller
 company: Robert Half - Agency - Permanent
 location: Cambridge
@@ -320,23 +248,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Internal Communications (REMOTE)
-company: Reed - Agency - Permanent
+title: CRM Manager
+company: Zachary Daniels Recruitment - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
-job_id: jobg8-1933672
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: IP Paralegal (12-Month Contract) - Cambridge
-company: Dawn Ellmore Employment Agency - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-1899565
+job_id: jobg8-23643_225593763
 reason: Separate employment market.
 ---
 
@@ -349,30 +265,6 @@ company: The Language Business - Language Recruitment Specialists - Agency - Per
 location: Cambridge
 source: JobG8
 job_id: jobg8-2087322
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Legal Assistant
-company: Reed - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-1908938
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Patent Administrator
-company: The Law Support Group - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-1892204
 reason: Separate employment market.
 ---
 

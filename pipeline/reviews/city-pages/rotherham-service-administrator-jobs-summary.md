@@ -4,7 +4,7 @@
 - Live route: `/rotherham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 34
+- automatic include: 2
+- automatic review: 25
 - automatic exclude: 0
-- effective include: 3
-- effective review: 34
+- effective include: 2
+- effective review: 25
 - effective exclude: 0
 
-## INCLUDE (3)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Assistant Accountant
-company: Elevation Recruitment Group - Agency - Permanent
-location: Rotherham
-source: JobG8
-job_id: jobg8-1949982
-reason: Exact approved Rotherham workplace.
----
+## INCLUDE (2)
 
 ---
 action: 
@@ -60,19 +48,7 @@ job_id: jobg8-2087559
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (34)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Sharp Consultancy - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1959767
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
+## REVIEW (25)
 
 ---
 action: 
@@ -114,18 +90,6 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Admin Support - Receptionist
-company: South Axholme Academy
-location: Doncaster
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-support-receptionist-south-axholme-academy
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Administrator
 company: Reed - Agency - Permanent
 location: Doncaster
@@ -143,18 +107,6 @@ company: Elevation Recruitment Group - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2078492
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: IPS Group - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1960387
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -246,18 +198,6 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Credit Control / Accounts Assistant
-company: Shillito Group - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1905225
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Credit Controller
 company: Sharp Consultancy - Agency - Permanent
 location: Sheffield
@@ -294,11 +234,11 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator
-company: Sheffield Park Academy
+title: Income and Engagement Operations Administrator
+company: Arthritis UK - Agency - Permanent
 location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-hr-administrator-e50a9848-dea2-4828-a9a5-5745ea9a03ce
+source: JobG8
+job_id: jobg8-2099961
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -318,18 +258,6 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Insolvency Case Administrator
-company: GGT Insolvency Recruitment - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2014257
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Paralegal
 company: CRA Consulting - Agency - Permanent
 location: Sheffield
@@ -342,11 +270,11 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Part-time Payroll Assistant
-company: Portfolio Payroll - Agency - Permanent
+title: Payroll Administrator
+company: Marks Sattin - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-1907486
+job_id: jobg8-2092531
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -359,30 +287,6 @@ company: Elevation Recruitment Group - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-2028957
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Officer
-company: Marks Sattin - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-1948871
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Clerk
-company: Elevation Recruitment Group - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1939350
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -415,18 +319,6 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
-company: Sheffield Health Partnership University NHS Foundation Trust
-location: Sheffield, S11 9BJ
-source: NHS Jobs
-job_id: nhs-5634371
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
 company: Stocksbridge Junior School
 location: Sheffield
 source: Teaching Vacancies
@@ -443,18 +335,6 @@ company: White House Farm Medical Centre
 location: Doncaster, DN3 3AH
 source: NHS Jobs
 job_id: nhs-5647395
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist Administrator
-company: Richmond Medical Centre
-location: Sheffield, S13 8NA
-source: NHS Jobs
-job_id: nhs-5625323
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

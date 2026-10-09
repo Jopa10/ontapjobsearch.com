@@ -1,10 +1,6 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-2087160,Company Secretary,G2 Company Secretarial - Agency - Permanent,Edinburgh,JobG8,include,include,Approved conservative Edinburgh launch catchment.,edinburgh,edinburgh-service-administrator-jobs
 include,jobg8-2087159,Company Secretary,G2 Legal Limited - Agency - Permanent,Edinburgh,JobG8,include,include,Approved conservative Edinburgh launch catchment.,edinburgh,edinburgh-service-administrator-jobs
-include,jobg8-1950171,Credit Controller,Robert Half - Agency - Permanent,Edinburgh,JobG8,include,include,Approved conservative Edinburgh launch catchment.,edinburgh,edinburgh-service-administrator-jobs
-include,jobg8-1977269,Finance Assistant,Robert Half - Agency - Permanent,Edinburgh,JobG8,include,include,Approved conservative Edinburgh launch catchment.,edinburgh,edinburgh-service-administrator-jobs
-include,jobg8-1910106,Language Speaking Credit Controller - Fully remote,CWC Recruitment Ltd - Agency - Permanent,Edinburgh,JobG8,include,include,Approved conservative Edinburgh launch catchment.,edinburgh,edinburgh-service-administrator-jobs
 include,jobg8-2059086,Paralegal,AWD online - Agency - Permanent,Edinburgh,JobG8,include,include,Approved conservative Edinburgh launch catchment.,edinburgh,edinburgh-service-administrator-jobs
 review,jobg8-2077151,L1 Service Desk Analyst,THE CHANNEL RECRUITER LTD - Agency - Permanent,Livingston,JobG8,review,review,No approved Edinburgh catchment rule matched; local review required.,fallback,edinburgh-service-administrator-jobs
-review,jobg8-2051830,Logistics Coordinator,Owen Daniels - Agency - Permanent,Livingston,JobG8,review,review,No approved Edinburgh catchment rule matched; local review required.,fallback,edinburgh-service-administrator-jobs
 review,jobg8-2027323,Residential Conveyancing Paralegal,Reed - Agency - Permanent,North Berwick,JobG8,review,review,No approved Edinburgh catchment rule matched; local review required.,fallback,edinburgh-service-administrator-jobs

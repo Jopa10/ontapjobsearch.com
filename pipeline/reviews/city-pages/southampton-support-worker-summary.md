@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 8
+- automatic review: 7
 - automatic exclude: 5
 - effective include: 3
-- effective review: 8
+- effective review: 7
 - effective exclude: 5
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: jobg8-384603642135366860837341
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (8)
+## REVIEW (7)
 
 ---
 action: 
@@ -84,18 +84,6 @@ location: Romsey
 source: JobG8
 job_id: jobg8-1401785691
 reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Female Support Worker
-company: SeeAbility - Agency - Permanent
-location: Tadley
-source: JobG8
-job_id: jobg8-108059180
-reason: No approved Southampton catchment rule matched; local review required.
 ---
 
 ---

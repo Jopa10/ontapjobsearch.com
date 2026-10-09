@@ -4,7 +4,7 @@
 - Live route: `/cardiff/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
-- automatic review: 3
+- automatic include: 11
+- automatic review: 2
 - automatic exclude: 0
-- effective include: 12
-- effective review: 3
+- effective include: 11
+- effective review: 2
 - effective exclude: 0
 
-## INCLUDE (12)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Adecco - Agency - Permanent
-location: Cardiff
-source: JobG8
-job_id: jobg8-1941677
-reason: Approved conservative Cardiff launch catchment.
----
+## INCLUDE (11)
 
 ---
 action: 
@@ -57,18 +45,6 @@ company: Robert Half - Agency - Permanent
 location: Cardiff
 source: JobG8
 job_id: jobg8-2092062
-reason: Approved conservative Cardiff launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Assistant Accountant
-company: Yolk Recruitment Ltd - Agency - Permanent
-location: Cardiff
-source: JobG8
-job_id: jobg8-1986313
 reason: Approved conservative Cardiff launch catchment.
 ---
 
@@ -148,6 +124,18 @@ reason: Approved conservative Cardiff launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist/Care Navigator
+company: Birchgrove Surgery
+location: Cardiff, CF14 4QJ
+source: NHS Jobs
+job_id: nhs-5650137
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Remote Conveyancing Paralegal
 company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
 location: Cardiff
@@ -168,7 +156,7 @@ job_id: nhs-5641910
 reason: Approved conservative Cardiff launch catchment.
 ---
 
-## REVIEW (3)
+## REVIEW (2)
 
 ---
 action: 
@@ -179,18 +167,6 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: South Glamorgan
 source: JobG8
 job_id: jobg8-2067478
-reason: No approved Cardiff catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Officer
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: South Glamorgan
-source: JobG8
-job_id: jobg8-1959397
 reason: No approved Cardiff catchment rule matched; local review required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/belfast/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,50 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 6
+- automatic include: 1
+- automatic review: 3
 - automatic exclude: 0
-- effective include: 4
-- effective review: 6
+- effective include: 1
+- effective review: 3
 - effective exclude: 0
 
-## INCLUDE (4)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Reed - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-1906961
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Clerk
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-2057342
-reason: Approved conservative Belfast launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Assistant
-company: Reed - Agency - Permanent
-location: Belfast
-source: JobG8
-job_id: jobg8-1956441
-reason: Approved conservative Belfast launch catchment.
----
+## INCLUDE (1)
 
 ---
 action: 
@@ -68,11 +32,11 @@ title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
 company: Qualify Nation Recruitment - Agency - Permanent
 location: Belfast
 source: JobG8
-job_id: jobg8-2086691
+job_id: jobg8-2094376
 reason: Approved conservative Belfast launch catchment.
 ---
 
-## REVIEW (6)
+## REVIEW (3)
 
 ---
 action: 
@@ -83,18 +47,6 @@ company: Reed - Agency - Permanent
 location: Lisburn
 source: JobG8
 job_id: jobg8-2059061
-reason: No approved Belfast catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Reed - Agency - Permanent
-location: Lisburn
-source: JobG8
-job_id: jobg8-1897859
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 
@@ -119,30 +71,6 @@ company: Reed - Agency - Permanent
 location: Carryduff
 source: JobG8
 job_id: jobg8-2091543
-reason: No approved Belfast catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Commercial Vehicles Administrator
-company: Briggs Equipment Ltd - Agency - Permanent
-location: Lisburn
-source: JobG8
-job_id: jobg8-107952610
-reason: No approved Belfast catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Briggs Equipment Ltd - Agency - Permanent
-location: Lisburn
-source: JobG8
-job_id: jobg8-108056565
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 12
+- automatic review: 8
 - automatic exclude: 0
 - effective include: 2
-- effective review: 12
+- effective review: 8
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,19 @@ job_id: jobg8-2039520
 reason: Exact approved Altrincham workplace.
 ---
 
-## REVIEW (12)
+## REVIEW (8)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant (Study Support)
+company: RG Consultancy Ltd - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-2092522
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -78,47 +90,11 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Assistant Management Accountant
-company: Dot Partners - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-1949350
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Billings Co-ordinator
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Sale
-source: JobG8
-job_id: jobg8-1977896
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Credit Controller
 company: Michael Page Finance - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-2052516
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Import Coordinator
-company: Reed - Agency - Permanent
-location: Trafford
-source: JobG8
-job_id: jobg8-2050130
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -155,30 +131,6 @@ company: The People Pod - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-2043192
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Support Executive
-company: VCG Technology Services Limited - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-108042377
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Social Media & Content Marketing Executive
-company: Michael Page Business Support - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-2064896
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

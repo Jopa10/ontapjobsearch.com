@@ -4,8 +4,8 @@
 - Live route: `/leicester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
-- Threshold currently met: yes
+- Effective included jobs: 3
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,50 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 20
+- automatic include: 3
+- automatic review: 15
 - automatic exclude: 0
-- effective include: 6
-- effective review: 20
+- effective include: 3
+- effective review: 15
 - effective exclude: 0
 
-## INCLUDE (6)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Assistant Accountant
-company: Macildowie Recruitment and Retention - Agency - Permanent
-location: Leicester
-source: JobG8
-job_id: jobg8-2012728
-reason: Exact approved Leicester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Commercial Administrator
-company: Macildowie Recruitment and Retention - Agency - Permanent
-location: Leicester
-source: JobG8
-job_id: jobg8-2049449
-reason: Exact approved Leicester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Assistant
-company: Macildowie Recruitment and Retention - Agency - Permanent
-location: Leicester
-source: JobG8
-job_id: jobg8-1909307
-reason: Exact approved Leicester workplace.
----
+## INCLUDE (3)
 
 ---
 action: 
@@ -96,7 +60,7 @@ job_id: nhs-5642838
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (20)
+## REVIEW (15)
 
 ---
 action: 
@@ -114,47 +78,11 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Payable
-company: SF Partners - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-1936737
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Accounts Payable Clerk
 company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-2053385
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Receivable / Credit Control Clerk
-company: Distinct Recruitment - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-1890004
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Receivable Administrator
-company: Investigo - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-1986389
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -191,30 +119,6 @@ company: Adjusting Appointments Limited - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-2074012
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Control
-company: Reed - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-2017641
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Control - interim
-company: Gleeson Recruitment Group - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-1907829
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

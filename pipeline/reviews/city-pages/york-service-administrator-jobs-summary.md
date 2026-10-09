@@ -4,8 +4,8 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
-- Threshold currently met: yes
+- Effective included jobs: 5
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,50 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 13
-- automatic exclude: 14
-- effective include: 10
-- effective review: 13
-- effective exclude: 14
+- automatic include: 5
+- automatic review: 8
+- automatic exclude: 10
+- effective include: 5
+- effective review: 8
+- effective exclude: 10
 
-## INCLUDE (10)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Administrator
-company: Capital Outsourcing Group Ltd - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-1907580
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Corporate/Commercial Legal Secretary/Assistant - York
-company: qed legal - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-1911811
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Assistant
-company: Age UK York - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-2067804
-reason: Approved York catchment.
----
+## INCLUDE (5)
 
 ---
 action: 
@@ -81,18 +45,6 @@ company: LSL Property Services plc - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-2093053
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Paralegal - Family
-company: Capital Outsourcing Group Ltd - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-2046307
 reason: Approved York catchment.
 ---
 
@@ -132,19 +84,7 @@ job_id: jobg8-2055397
 reason: Approved York catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Website Administrator
-company: Reed - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-2021380
-reason: Approved York catchment.
----
-
-## REVIEW (13)
+## REVIEW (8)
 
 ---
 action: 
@@ -187,34 +127,10 @@ action:
 decision: review
 automatic_decision: review
 title: Credit Controller
-company: Michael Page Finance - Agency - Permanent
-location: Richmond
-source: JobG8
-job_id: jobg8-1939806
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
 company: Ripon Farm Services - Agency - Permanent
 location: Ripon
 source: JobG8
 job_id: jobg8-2043051
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: SI Recruitment - Agency - Permanent
-location: Ripon
-source: JobG8
-job_id: jobg8-108060036
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -246,35 +162,11 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Demand Planner
-company: MTrec Recruitment - Agency - Permanent
-location: Bedale
-source: JobG8
-job_id: jobg8-1888842
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Interim Finance Administrator
-company: KD Recruitment Limited - Agency - Permanent
-location: Filey
-source: JobG8
-job_id: jobg8-1950790
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Ledger Clerk
-company: Optimum Recruitment Group Limited - Agency - Permanent
-location: Ripon
-source: JobG8
-job_id: jobg8-107798375
+title: Patient Services Administrator
+company: Filey Surgery
+location: Filey, YO14 9AE
+source: NHS Jobs
+job_id: nhs-5651232
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -290,19 +182,7 @@ job_id: jobg8-2050560
 reason: No approved York catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Coordinator
-company: Interaction - Leeds - Agency - Permanent
-location: Malton
-source: JobG8
-job_id: jobg8-108059238
-reason: No approved York catchment rule matched; local review required.
----
-
-## EXCLUDE (14)
+## EXCLUDE (10)
 
 ---
 action: 
@@ -344,35 +224,23 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Clinical Team Administrator
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Harrogate, HG1 5QE
+source: NHS Jobs
+job_id: nhs-5649706
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Content Creator
 company: Greenfield I T Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2045708
-reason: Broad regional label; not York-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Conveyancing Assistant
-company: Janine Kot (JK) Recruitment Advisory Services Limited - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-1906113
-reason: Broad regional label; not York-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Credit Control
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-1987959
 reason: Broad regional label; not York-city evidence.
 ---
 
@@ -386,42 +254,6 @@ location: Yorkshire
 source: JobG8
 job_id: jobg8-2057600
 reason: Broad regional label; not York-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Data Administrator
-company: Ayton & Snainton Medical Practice
-location: Scarborough, YO13 9JF
-source: NHS Jobs
-job_id: nhs-5624493
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Finance Administrator
-company: Marks Sattin - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-1945785
-reason: Broad regional label; not York-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Finance Assistant
-company: IPS Group - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-1910220
-reason: Separate employment market.
 ---
 
 ---

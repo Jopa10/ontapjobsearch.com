@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 32
-- automatic exclude: 17
+- automatic review: 28
+- automatic exclude: 10
 - effective include: 5
-- effective review: 32
-- effective exclude: 17
+- effective review: 28
+- effective exclude: 10
 
 ## INCLUDE (5)
 
@@ -84,31 +84,7 @@ job_id: nhs-5620851
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (32)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accommodation & International Admissions Administrative Assistant
-company: Chichester College Group - Company - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-107985976
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Administrator
-company: Travail Employment Group - Burgess Hill - Agency - Permanent
-location: East Grinstead
-source: JobG8
-job_id: jobg8-1981815
-reason: No approved Brighton & Hove catchment rule matched; local review required.
----
+## REVIEW (28)
 
 ---
 action: 
@@ -187,34 +163,10 @@ action:
 decision: review
 automatic_decision: review
 title: Bookkeeper
-company: Dynamite Recruitment Solutions Ltd - Agency - Permanent
-location: East Grinstead
-source: JobG8
-job_id: jobg8-1961294
-reason: No approved Brighton & Hove catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper
 company: First Recruitment Services - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2074292
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper
-company: Reed - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2013599
 reason: Broad location; review before city inclusion.
 ---
 
@@ -234,11 +186,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Business Centre Coordinator / Administrator
-company: Additional Resources Ltd - Agency - Permanent
+title: Campaign Marketing Executive
+company: Lloyd Recruitment Services Ltd - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2029067
+job_id: jobg8-2060276
 reason: Broad location; review before city inclusion.
 ---
 
@@ -246,35 +198,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Client Bookkeeper
-company: Pro Talent - Agency - Permanent
+title: Content Marketing Executive
+company: Crystal People Ltd - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-1983385
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Commercial Content Coordinator
-company: William Reed - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-1957536
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Commercial Property Paralegal
-company: TN Recruits - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-1934337
+job_id: jobg8-2068921
 reason: Broad location; review before city inclusion.
 ---
 
@@ -299,6 +227,18 @@ company: Morgan McKinley - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2056847
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Digital Warehouse Assistant
+company: Grove Group - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2082290
 reason: Broad location; review before city inclusion.
 ---
 
@@ -390,35 +330,35 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Junior Finance Assistant
-company: Harvey John - Agency - Permanent
-location: Sussex
+title: Marketing Executive
+company: Reed - Agency - Permanent
+location: Burgess Hill
 source: JobG8
-job_id: jobg8-1960769
-reason: Broad location; review before city inclusion.
+job_id: jobg8-2053373
+reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Part-time Bookkeeper
-company: Accountancy Expertise Ltd - Agency - Permanent
-location: Sussex
+title: Marketing Executive (12 month FTC)
+company: Morgan McKinley - Agency - Permanent
+location: East Grinstead
 source: JobG8
-job_id: jobg8-1945554
-reason: Broad location; review before city inclusion.
+job_id: jobg8-2059612
+reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Payroll administrator
-company: Portfolio Payroll - Agency - Permanent
+title: Marketing Manager
+company: Michael Page Marketing - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2021499
+job_id: jobg8-2067963
 reason: Broad location; review before city inclusion.
 ---
 
@@ -470,31 +410,19 @@ job_id: jobg8-2036123
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (17)
-
 ---
 action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Assistant
-company: Alexander Lloyd - Agency - Permanent
-location: Crawley
+decision: review
+automatic_decision: review
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Sussex
 source: JobG8
-job_id: jobg8-1992013
-reason: Separate employment market.
+job_id: jobg8-2094378
+reason: Broad location; review before city inclusion.
 ---
 
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Bognor Regis
-source: JobG8
-job_id: jobg8-1890329
-reason: Separate employment market.
----
+## EXCLUDE (10)
 
 ---
 action: 
@@ -572,71 +500,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Bookkeeper
-company: Bennett & Game Recruitment - Agency - Permanent
-location: Horsham
-source: JobG8
-job_id: jobg8-1981972
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Credit Controller
-company: Michael Page Finance - Agency - Permanent
-location: Crawley
-source: JobG8
-job_id: jobg8-1945011
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Credit Controller
-company: Michael Page Finance - Agency - Permanent
-location: Eastbourne
-source: JobG8
-job_id: jobg8-1960766
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Credit Controller
-company: Morgan McKinley - Agency - Permanent
-location: Eastbourne
-source: JobG8
-job_id: jobg8-1935620
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Finance Assistant - Assistant Accountant
 company: Morgan McKinley - Agency - Permanent
 location: Horsham
 source: JobG8
 job_id: jobg8-2056498
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Personal Assistant to the Head Teacher
-company: Bishop Luffa School, Chichester
-location: Chichester
-source: Teaching Vacancies
-job_id: teaching-vacancies-personal-assistant-to-the-head-teacher-bishop-luffa-school-chichester
 reason: Separate employment market.
 ---
 

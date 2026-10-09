@@ -4,7 +4,7 @@
 - Live route: `/doncaster/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 3
-- automatic exclude: 23
-- effective include: 11
-- effective review: 3
-- effective exclude: 23
+- automatic include: 10
+- automatic review: 2
+- automatic exclude: 15
+- effective include: 10
+- effective review: 2
+- effective exclude: 15
 
-## INCLUDE (11)
+## INCLUDE (10)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Owston Park Primary Academy
 location: Doncaster
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-assistant-owston-park-primary-academy
-reason: Approved Doncaster catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Admin Support - Receptionist
-company: South Axholme Academy
-location: Doncaster
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-support-receptionist-south-axholme-academy
 reason: Approved Doncaster catchment.
 ---
 
@@ -124,11 +112,11 @@ reason: Approved Doncaster catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Part-time Payroll Assistant
-company: Portfolio Payroll - Agency - Permanent
+title: Payroll Administrator
+company: Marks Sattin - Agency - Permanent
 location: Doncaster
 source: JobG8
-job_id: jobg8-1907486
+job_id: jobg8-2092531
 reason: Approved Doncaster catchment.
 ---
 
@@ -156,7 +144,7 @@ job_id: nhs-5647395
 reason: Approved Doncaster catchment.
 ---
 
-## REVIEW (3)
+## REVIEW (2)
 
 ---
 action: 
@@ -182,31 +170,7 @@ job_id: jobg8-2067582
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Officer
-company: Marks Sattin - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-1948871
-reason: No approved Doncaster catchment rule matched; local review required.
----
-
-## EXCLUDE (23)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Assistant
-company: Sharp Consultancy - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1959767
-reason: Separate employment market.
----
+## EXCLUDE (15)
 
 ---
 action: 
@@ -238,33 +202,9 @@ decision: exclude
 automatic_decision: exclude
 title: Assistant Accountant
 company: Elevation Recruitment Group - Agency - Permanent
-location: Rotherham
-source: JobG8
-job_id: jobg8-1949982
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Assistant Accountant
-company: Elevation Recruitment Group - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2078492
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Assistant Accountant
-company: IPS Group - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1960387
 reason: Separate employment market.
 ---
 
@@ -320,18 +260,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Credit Control / Accounts Assistant
-company: Shillito Group - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1905225
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Credit Controller
 company: Sharp Consultancy - Agency - Permanent
 location: Sheffield
@@ -344,23 +272,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: HR Administrator
-company: Sheffield Park Academy
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-hr-administrator-e50a9848-dea2-4828-a9a5-5745ea9a03ce
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Insolvency Case Administrator
-company: GGT Insolvency Recruitment - Agency - Permanent
+title: Income and Engagement Operations Administrator
+company: Arthritis UK - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-2014257
+job_id: jobg8-2099961
 reason: Separate employment market.
 ---
 
@@ -373,18 +289,6 @@ company: CRA Consulting - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2087031
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Purchase Ledger Clerk
-company: Elevation Recruitment Group - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-1939350
 reason: Separate employment market.
 ---
 
@@ -429,34 +333,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Receptionist
-company: Sheffield Health Partnership University NHS Foundation Trust
-location: Sheffield, S11 9BJ
-source: NHS Jobs
-job_id: nhs-5634371
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
 company: Stocksbridge Junior School
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-stocksbridge-junior-school
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist Administrator
-company: Richmond Medical Centre
-location: Sheffield, S13 8NA
-source: NHS Jobs
-job_id: nhs-5625323
 reason: Separate employment market.
 ---
 

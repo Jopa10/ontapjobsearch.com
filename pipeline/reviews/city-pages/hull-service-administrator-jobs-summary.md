@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 6
+- automatic include: 8
+- automatic review: 2
 - automatic exclude: 0
-- effective include: 11
-- effective review: 6
+- effective include: 8
+- effective review: 2
 - effective exclude: 0
 
-## INCLUDE (11)
+## INCLUDE (8)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Edwards & Pearce - Doncaster - Agency - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-2060366
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Michael Page Finance - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-1977957
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -81,18 +69,6 @@ company: Edwards & Pearce - Doncaster - Agency - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-2055348
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Bookkeeper & Payroll Administrator
-company: Equals One - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-2022226
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -144,19 +120,7 @@ job_id: teaching-vacancies-office-administrator-student-services-reprographics
 reason: Approved conservative Hull launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Warranties Administrator - Automotive
-company: Office Angels - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-1939826
-reason: Approved conservative Hull launch catchment.
----
-
-## REVIEW (6)
+## REVIEW (2)
 
 ---
 action: 
@@ -167,54 +131,6 @@ company: Si Recruitment - Agency - Permanent
 location: Goole
 source: JobG8
 job_id: jobg8-2074255
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Hull University Teaching Hospitals NHS Trust
-location: Cottingham, HU16 5JQ
-source: NHS Jobs
-job_id: nhs-5641720
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part-time Credit Controller - MK108
-company: Adecco - Agency - Permanent
-location: Goole
-source: JobG8
-job_id: jobg8-1899369
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Private Client Paralegal Wills & LPAs Whitby / Driffield
-company: qed legal - Agency - Permanent
-location: Driffield
-source: JobG8
-job_id: jobg8-1905442
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary Bookkeeper
-company: KD Recruitment Limited - Agency - Permanent
-location: Bridlington
-source: JobG8
-job_id: jobg8-108066397
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

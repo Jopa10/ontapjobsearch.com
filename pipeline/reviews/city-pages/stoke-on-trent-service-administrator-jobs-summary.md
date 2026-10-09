@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 21
+- automatic review: 7
 - automatic exclude: 0
 - effective include: 2
-- effective review: 21
+- effective review: 7
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: teaching-vacancies-examinations-officer-blythe-bridge-high-school
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (21)
+## REVIEW (7)
 
 ---
 action: 
@@ -59,30 +59,6 @@ company: Ashdown Group - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-2063366
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Staffordshire
-source: JobG8
-job_id: jobg8-1950276
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Attendance Officer - Level 4
-company: Longford Primary Academy
-location: Cannock
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-level-4-longford-primary-academy-cannock-staffordshire
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -114,47 +90,11 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: Credit Controller
-company: Astute Recruitment Ltd - Agency - Permanent
-location: Staffordshire
-source: JobG8
-job_id: jobg8-1986796
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Credit controller
 company: Robert Walters - Agency - Permanent
 location: Cannock
 source: JobG8
 job_id: jobg8-2067150
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller FTC 6 months
-company: Adecco - Agency - Permanent
-location: Stafford
-source: JobG8
-job_id: jobg8-2057169
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Digital Marketing Manager (Manufacturing / B2B)
-company: Ernest Gordon Recruitment Limited - Agency - Permanent
-location: Staffordshire
-source: JobG8
-job_id: jobg8-1981874
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -174,66 +114,6 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: Learning and Engagement Coordinator
-company: Adullam Homes - Agency - Permanent
-location: Staffordshire
-source: JobG8
-job_id: jobg8-107961085
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Events Executive
-company: Workstreet - Agency - Permanent
-location: Staffordshire
-source: JobG8
-job_id: jobg8-1946289
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Executive
-company: Forward Role - Agency - Permanent
-location: Staffordshire
-source: JobG8
-job_id: jobg8-1704748
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Manager
-company: Workstreet - Agency - Permanent
-location: Tamworth
-source: JobG8
-job_id: jobg8-1944014
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Manager (B2B)
-company: Jonathan Lee Recruitment - Agency - Permanent
-location: Staffordshire
-source: JobG8
-job_id: jobg8-1891841
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Marketing Manager (Engineering / Renewables)
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Staffordshire
@@ -246,59 +126,11 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: Medical receptionist
-company: Glebedale Medical Practice
-location: Stoke on Trent, ST4 3AQ, Stoke-on-trent, ST3 1LG
-source: NHS Jobs
-job_id: nhs-5615221
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Payroll Administrator
 company: XPERT RECRUITMENT SOLUTIONS LIMITED - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-2078268
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Assistant
-company: Kate+Co - Agency - Permanent
-location: Lichfield
-source: JobG8
-job_id: jobg8-1905742
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Coordinator
-company: INSTARMAC GROUP - Agency - Permanent
-location: Staffordshire
-source: JobG8
-job_id: jobg8-108062618
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Senior Media Relations Exec
-company: SF Partners - Agency - Permanent
-location: Tamworth
-source: JobG8
-job_id: jobg8-1962053
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
