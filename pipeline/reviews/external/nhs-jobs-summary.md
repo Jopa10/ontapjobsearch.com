@@ -2,15 +2,51 @@
 
 review_date: 2026-10-09
 
-- Open Administrative & Clerical rows reviewed: 2181
+- Open Administrative & Clerical rows reviewed: 2182
 - Auto/remembered selected: 405
 - Selected HC Tier A: 215
 - Selected HC Tier B: 190
-- POSS awaiting decision: 1666
+- POSS awaiting decision: 1667
 - Excluded: 0
 - HARD_PASS: 110
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | London | Croydon, CR7 7YE | £30630.00 to £32346.00 | Receptionist - Sexual Health & HIV Services
+source_job_id: 5652298
+title: Receptionist - Sexual Health & HIV Services
+employer: Croydon Health Services NHS Trust
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9199-8318047-NA
+factual_fingerprint: 30fb3417c7c4c18bdc2445ae6d3ac54b9d37a8a2eb9ffff409a603ca9977e1d9
+---
+
+---
+action:
+POSS | NHS Jobs | Shropshire | Telford, TF1 6TF | £25272.00 | Ward 7 - Ward Clerk
+source_job_id: 5652654
+title: Ward 7 - Ward Clerk
+employer: The Shrewsbury and Telford Hospital NHS Trust
+region: Shropshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9223-26-0985
+factual_fingerprint: 613513ee22db9fca14c3b339da604a35fe1212ce2d6ee4c4862520efdf35810c
+---
+
+---
+action:
+POSS | NHS Jobs | — | North Cumbria, CA3 0HA | £49387.00 to £56515.00 | EPR Digital Transformation and Clinical Safety Practitioner *Internal*
+source_job_id: 5652671
+title: EPR Digital Transformation and Clinical Safety Practitioner *Internal*
+employer: North Cumbria Integrated Care NHS Foundation Trust
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9262-26-1588
+factual_fingerprint: 5401de178ba788f619c13ac9bca9834d99fcf9e5d97eb759c84b2ec4215d49b7
+---
 
 ---
 action:
@@ -2566,18 +2602,6 @@ region: Lancashire - Central
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9435-26-0576
 factual_fingerprint: 31167ee7292e6645937cc8aa0bb0f7ff3cc20d3222d83d1c0a78eb513f9cba79
----
-
----
-action:
-POSS | NHS Jobs | East Midlands | Derby, DE23 8RJ, DERBY, DE24 8NH, DERBY, DE21 2HT, DERBY, DE73 6SW | Negotiable | Operations & Finance Assistant
-source_job_id: 5649393
-title: Operations & Finance Assistant
-employer: Lister House Surgery
-region: East Midlands
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5287-26-0038
-factual_fingerprint: db74e7341d9a9c69e7390111e53420a50a2d061394d62ca043632b6b108f221d
 ---
 
 ---
@@ -17722,18 +17746,6 @@ region: Buckinghamshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2210-26-0003
 factual_fingerprint: 023442e7ec2b74987e191bc6e922c8f0b3442fe3011349d10e25b9451ebe0cf4
----
-
----
-action:
-POSS | NHS Jobs | Herefordshire | Hereford, HR1 2ER | £28392.00 to £31157.00 | Cancer Pathway Navigator
-source_job_id: 5622761
-title: Cancer Pathway Navigator
-employer: Wye Valley NHS Trust
-region: Herefordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9229-26-0841
-factual_fingerprint: 2e87908c4268c795884b80af1983bc5e0261a92ca960a392553b585a057a915c
 ---
 
 ---
