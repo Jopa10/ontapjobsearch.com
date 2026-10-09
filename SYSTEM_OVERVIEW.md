@@ -9,6 +9,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 - 9 October 2026 — **Daily publish now explicitly starts the Vercel deployment:** scraper/feed pushes no longer each trigger builds. After verified pages publish successfully, the daily orchestrator starts and waits for the deployment workflow. This fixes the missed trigger from the 9 October run; the current site stays live while a replacement builds.
 
+- 9 October 2026 — **Automatic site publication now follows the successful morning JobG8 run:** the morning process starts Apply and publish when its work and output commit finish. The evening feed does not publish; the 11:45am schedule remains as a recovery fallback, with a same-day check to prevent duplicate publication.
+
 - 7 October 2026 — **A beginner AI course reviews page is live in the site structure:** `/ai-course-reviews` reviews Elements of AI and OpenAI Academy AI Foundations. It is linked from the top of `/ai-tips` and included in the sitemap.
 
 - 24 September 2026 — **Four additional regional pages are LIVE:** Greater Manchester - North Finance / Accounts, Scotland Central - Fife Service Admin, Bristol & Bath Legal Assistant / Paralegal, and Staffordshire Marketing. The screenshot evidence was 12 / 5.4 / 6-of-14, 8 / 6.7 / 11-of-14, 6 / 6.9 / 11-of-14, and 7 / 6.9 / 11-of-14 respectively (today / 14-day average / days at 6+). They use the existing configured-slice catalog, central LIVE register, daily family pipelines and verified publisher.
@@ -283,7 +285,7 @@ Core controls are:
 - scheduled source refresh/reviews, including NEJobs, VONNE, Teaching Vacancies regional/master review and the NHS Administrative & Clerical review refresh at 10:05 UTC;
 - the twice-daily full JobG8 process, which refreshes and composes NHS transactionally, generates every approved registered family slice, persists the current **78-market × eight-family (624-row)** diagnostic snapshot, and records/replaces that feed date in the rolling 14-date family coverage history;
 - one master daily owner review;
-- one owner-facing apply/publish orchestrator, with manual `PUBLISH` control and an 11:45 Europe/London no-edit safety net;
+- one owner-facing apply/publish orchestrator, started after a successful morning JobG8 process, with manual `PUBLISH` control and an 11:45 Europe/London no-edit recovery safety net;
 - one owner-facing **Ontap daily status** workflow on the Actions page, combining morning source/review readiness with the final manual-or-automatic publication and deployment receipt;
 - source-specific publishers, including NHS, with the reviewed NHS publisher using the same transactional composer as the normal daily run;
 - final verified-page publishing including city-page derivation/maintenance and configured Customer Sales slices;
@@ -295,7 +297,7 @@ The JobG8 discovery coverage audit now uses the exact current Europe/London feed
 
 After every successful coverage-audit run, the daily regional overview workflow is triggered directly and rebuilds both the Markdown report and Excel download. This direct workflow-completion link avoids GitHub's restriction that prevents a workflow-token commit from triggering another workflow through a normal `push` event.
 
-The 11:45 safety net checks for a successful Apply and publish dispatch on the current London date. If found, it exits without a second publication. Otherwise it uses the same publisher chain in automatic-withhold mode: unresolved review jobs are omitted without becoming remembered exclusions, regardless of queue size, while valid existing decisions and automatically eligible jobs continue. An authenticated external fallback can invoke this same path with `AUTOMATIC_FALLBACK`; it cannot enter manual quarantine mode. Freshness, fingerprint, source-publisher and combined-publication integrity controls are unchanged.
+The 11:45 safety net checks for a successful Apply and publish run on the current London date, whether that run was scheduled or dispatched. If found, it exits without a second publication. Otherwise it uses the same publisher chain in automatic-withhold mode: unresolved review jobs are omitted without becoming remembered exclusions, regardless of queue size, while valid existing decisions and automatically eligible jobs continue. An authenticated external fallback can invoke this same path with `AUTOMATIC_FALLBACK`; it cannot enter manual quarantine mode. Freshness, fingerprint, source-publisher and combined-publication integrity controls are unchanged.
 
 `Ontap daily status` is the normal owner check. It runs when the daily master review finishes and when the production deployment guard finishes, plus 09:15 and 12:15 UK-time fallback snapshots. Before publication, a green result means every named source has same-day review state and the master edit file is current. After publication, green means every source publisher, verified-page build, same-day live-source report and Vercel deployment completed; the summary explicitly says **MANUAL** or **AUTOMATIC**. If a source was retained fail-soft, the site may still have updated, but the status check fails visibly and names that source rather than presenting the day as wholly green.
 
