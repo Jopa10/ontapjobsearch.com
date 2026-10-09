@@ -1,11 +1,6 @@
 name: Deploy Ontap production after publish
 
 on:
-  workflow_run:
-    workflows:
-      - Publish verified pages
-    types:
-      - completed
   workflow_dispatch:
 
 permissions:
@@ -18,9 +13,6 @@ env:
 jobs:
   deploy-production:
     name: Deploy and verify production
-    if: >-
-      github.event_name == 'workflow_dispatch' ||
-      github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
 
     steps:
