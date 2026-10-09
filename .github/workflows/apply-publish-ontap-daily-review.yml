@@ -58,7 +58,6 @@ jobs:
           runs_json="$(gh run list \
             --workflow apply-publish-ontap-daily-review.yml \
             --branch main \
-            --event workflow_dispatch \
             --limit 50 \
             --json databaseId,createdAt,status,conclusion,url)"
           successful_run="$(RUNS_JSON="$runs_json" python - <<'PY'
