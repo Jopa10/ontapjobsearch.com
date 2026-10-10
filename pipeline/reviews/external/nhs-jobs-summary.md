@@ -2,15 +2,63 @@
 
 review_date: 2026-10-10
 
-- Open Administrative & Clerical rows reviewed: 2266
+- Open Administrative & Clerical rows reviewed: 2263
 - Auto/remembered selected: 394
 - Selected HC Tier A: 207
 - Selected HC Tier B: 187
-- POSS awaiting decision: 1768
+- POSS awaiting decision: 1765
 - Excluded: 0
 - HARD_PASS: 104
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Devon | Cullompton, EX15 1FE | Negotiable | Operations Lead
+source_job_id: 5655716
+title: Operations Lead
+employer: College Surgery Partnership
+region: Devon
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3497-26-0002
+factual_fingerprint: 935ba8ffc6516e436d67f1c7bda284f5fa7ede8e0bbeffd4d54302895a7dd1ad
+---
+
+---
+action:
+POSS | NHS Jobs | London | London, E3 3FF, London, E3 3BT, London, E14 7LJ | £15.67 | Recall Administrator
+source_job_id: 5655712
+title: Recall Administrator
+employer: Bromley by Bow Health Partnership
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3595-26-0053
+factual_fingerprint: 02e1af5b2daa8bfd157f410d2682f72b29c5a22aaf988ad0173bcfe1504754ef
+---
+
+---
+action:
+POSS | NHS Jobs | Suffolk | Newmarket, CB8 7JG | Negotiable | Care Navigator
+source_job_id: 5655713
+title: Care Navigator
+employer: Oakfield Surgery
+region: Suffolk
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A5844-CareNav101026
+factual_fingerprint: 035bb929b22579b1914a126869d9abc841a10b4023e9c04d8cc298890e61543e
+---
+
+---
+action:
+POSS | NHS Jobs | Cambridgeshire | St. Neots, PE19 1DZ | £12.71 | GP Assistant Administrator
+source_job_id: 5655709
+title: GP Assistant Administrator
+employer: Almond Road Surgery
+region: Cambridgeshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1025-26-0006
+factual_fingerprint: 1f432ef14634b5009e87f5ac7ef64f6a161b092b379880c3b8bf48d815822d11
+---
 
 ---
 action:
@@ -214,18 +262,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9309-26-0989
 factual_fingerprint: bcb29c0a6a97cd359e506b436308fd1be5432458c30d6f6081000625a1c3868b
----
-
----
-action:
-POSS | NHS Jobs | London | London, NW1 2BU | £34186.00 to £37389.00 | Administration Coordinator
-source_job_id: 5655367
-title: Administration Coordinator
-employer: University College London Hospitals NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9309-26-0996
-factual_fingerprint: 6227d94d6a930b607c922de9005a566d2975ef66c6053027131971358f00cfc4
 ---
 
 ---
@@ -1042,18 +1078,6 @@ region: Berkshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9151-26-1309
 factual_fingerprint: f911b1c839aa0c7dabfc7dfc829a03a1dce89346403e9e14f080433654627c50
----
-
----
-action:
-POSS | NHS Jobs | Surrey | Camberley, GU16 7UJ | £33677.00 to £40996.00 | Patient Pathway Coordinator
-source_job_id: 5653471
-title: Patient Pathway Coordinator
-employer: Frimley Health NHS Foundation Trust
-region: Surrey
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9151-26-1314
-factual_fingerprint: 367b04a2c167484b1072bd73d2361f59822fc8c958079f64a2a835de84dd091c
 ---
 
 ---
@@ -2102,18 +2126,6 @@ factual_fingerprint: f7f00a85a5c62875802a2ea04230f321edb505c6404f787af274dc9ab37
 
 ---
 action:
-POSS | NHS Jobs | London | London, EC1A 7BE | £34186.00 to £37389.00 | Patient Pathway Co-ordinator
-source_job_id: 5653450
-title: Patient Pathway Co-ordinator
-employer: Barts Health NHS Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9259-26-1762
-factual_fingerprint: cef42d456d6d0885c49c6bc205163a371d63425929c8d04766035001c1c0370a
----
-
----
-action:
 POSS | NHS Jobs | Greater Manchester - North | Bury, BL9 7TD | £28392.00 to £31157.00 | Medical Personal Assistant
 source_job_id: 5652967
 title: Medical Personal Assistant
@@ -2554,18 +2566,6 @@ region: Yorkshire - South
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9272-26-0559
 factual_fingerprint: 98427c764b9a83220f1add248f76b990a82cd09bca9ee4cedd1132a7e7a62ffb
----
-
----
-action:
-POSS | NHS Jobs | London | London, E2 9AG | £18145.76 | Business Support Reception Apprentice
-source_job_id: 5652000
-title: Business Support Reception Apprentice
-employer: East London NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9363-26-1174
-factual_fingerprint: 209595d067060e064caf3379edf3c0c515734b4e2f5a40dc75e00619602d9330
 ---
 
 ---
@@ -4918,18 +4918,6 @@ region: North East
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3263-26-0001
 factual_fingerprint: 51f4be7c58a9b994d020397b6873f9b898bb6ecd8649e2db3c00dd382bd8a7f7
----
-
----
-action:
-POSS | NHS Jobs | — | Burton, DE13 0RB | £25760.00 to £27476.00 | Pathway Co-ordinator (Waiting list)
-source_job_id: 5649643
-title: Pathway Co-ordinator (Waiting list)
-employer: University Hospitals of Derby and Burton NHS Foundation Trust
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9320-26-1022
-factual_fingerprint: 4278c2fde1fc61d58a1c9461bfd07efd14deb396e8c2f0f5fb956e2ce9d7b80d
 ---
 
 ---
@@ -11990,18 +11978,6 @@ factual_fingerprint: 0f4bc78eb31b52c0290d9983fbdfd8ab235710d2e86d4fd7d2e1f5b8945
 
 ---
 action:
-POSS | NHS Jobs | Sussex | Crawley, RH11 7DH | £28392.00 to £31157.00 | Admin Lead - Urgent Treatment Centre
-source_job_id: 5639051
-title: Admin Lead - Urgent Treatment Centre
-employer: Sussex Community NHS Foundation Trust
-region: Sussex
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9150-26-0581
-factual_fingerprint: 8427591ee52aea65d81b6a6a705ce9d43eb9959cc0f22816d38e3fb7d971b97c
----
-
----
-action:
 POSS | NHS Jobs | — | Bodelwyddan, LL18 5UJ | £28819.00 to £31626.00 | PA to SACC and Vascular Network Manager
 source_job_id: 5638196
 title: PA to SACC and Vascular Network Manager
@@ -12850,18 +12826,6 @@ region: Oxfordshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1793
 factual_fingerprint: bf7879340a3d92be9809a335f3a4fbb9ad0f96f397c12d86d722df224dbb3c75
----
-
----
-action:
-POSS | NHS Jobs | Oxfordshire | Oxford, OX4 2PG | £25760.00 to £27476.00 | Patient Contact Centre Agent
-source_job_id: 5637270
-title: Patient Contact Centre Agent
-employer: Oxford University Hospitals NHS Foundation Trust
-region: Oxfordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1792
-factual_fingerprint: 9ff8668cb09bf666ca5fcb04310551b400c0d35bd2b1b9e98ec0854b4519e0a5
 ---
 
 ---
@@ -17337,7 +17301,7 @@ employer: BrisDoc Healthcare Services
 region: Bristol & Bath
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0019-26-0089
-factual_fingerprint: 2e3ca8a7bcae976c3a9eb875ede9258dcb928829bf79bed28d1d63ebc9956ccd
+factual_fingerprint: 4eddb6949d490fb89b15159afa7cd1cde531eca5aca9581b445d899cec42fc6a
 ---
 
 ---
