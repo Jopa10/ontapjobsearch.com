@@ -25,7 +25,6 @@ concurrency:
 permissions:
   contents: write
   id-token: write
-  actions: write
 
 jobs:
   resolve-jobg8-daily-cycle:
@@ -529,16 +528,3 @@ jobs:
           if-no-files-found: warn
           retention-days: 7
 
-      - name: Start automatic publish after successful morning JobG8 process
-        if: success() && needs.resolve-jobg8-daily-cycle.outputs.cycle == 'morning'
-        continue-on-error: true
-        env:
-          GH_TOKEN: ${{ github.token }}
-          GH_REPO: ${{ github.repository }}
-        run: |
-          set -euo pipefail
-          if gh workflow run apply-publish-ontap-daily-review.yml --ref main -f approval=AUTOMATIC_FALLBACK; then
-            echo "Dispatched automatic publication after the successful morning JobG8 process."
-          else
-            echo "::warning::Could not dispatch automatic publication; the scheduled 11:45 safety net remains available."
-          fi
