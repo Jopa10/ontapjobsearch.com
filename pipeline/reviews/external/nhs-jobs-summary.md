@@ -2,11 +2,11 @@
 
 review_date: 2026-10-10
 
-- Open Administrative & Clerical rows reviewed: 2270
+- Open Administrative & Clerical rows reviewed: 2266
 - Auto/remembered selected: 394
 - Selected HC Tier A: 207
 - Selected HC Tier B: 187
-- POSS awaiting decision: 1772
+- POSS awaiting decision: 1768
 - Excluded: 0
 - HARD_PASS: 104
 
@@ -1066,18 +1066,6 @@ region: Berkshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9151-26-1313
 factual_fingerprint: fb836ae440e3fc0605697e3545fde912174572247a39f4f0767dd3b4e3946f03
----
-
----
-action:
-POSS | NHS Jobs | Berkshire | Slough, SL2 4HL | £33677.00 to £40996.00 | Patient Pathway Coordinator
-source_job_id: 5653394
-title: Patient Pathway Coordinator
-employer: Frimley Health NHS Foundation Trust
-region: Berkshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9151-26-1312
-factual_fingerprint: a044b549936d462e83a1da7f9970ce92975f75f8596c8a78d83e516558a3082f
 ---
 
 ---
@@ -2606,18 +2594,6 @@ factual_fingerprint: 157d73dc331e1f3a0a4413a9899129ceeb4d04779fb1592166caaece355
 
 ---
 action:
-POSS | NHS Jobs | London | Croydon, CR7 7YE | £30630.00 to £32346.00 | Receptionist - Sexual Health & HIV Services
-source_job_id: 5652298
-title: Receptionist - Sexual Health & HIV Services
-employer: Croydon Health Services NHS Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9199-8318047-NA
-factual_fingerprint: 30fb3417c7c4c18bdc2445ae6d3ac54b9d37a8a2eb9ffff409a603ca9977e1d9
----
-
----
-action:
 POSS | NHS Jobs | Shropshire | Telford, TF1 6TF | £25272.00 | Ward 7 - Ward Clerk
 source_job_id: 5652654
 title: Ward 7 - Ward Clerk
@@ -2662,18 +2638,6 @@ region: Cornwall
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9156-26-0547
 factual_fingerprint: b292678989c8102286c957c9bc6fe6c2756c89186bd337ddd4c411b9fa05de31
----
-
----
-action:
-POSS | NHS Jobs | London | London, E9 6SR | £34186.00 to £37389.00 | Endoscopy Booking and Referral Coordinator
-source_job_id: 5652839
-title: Endoscopy Booking and Referral Coordinator
-employer: Homerton Healthcare NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9293-26-0523
-factual_fingerprint: be7c4c650fe7373dae7872383a9483f3df5a48c695574c83fdbe762d729fb26f
 ---
 
 ---
@@ -17386,18 +17350,6 @@ region:
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1797-26-0203
 factual_fingerprint: bca5ee8ff4290eec7a024ff2d0851713d011a6ba56139f2af6962bf5764e811f
----
-
----
-action:
-POSS | NHS Jobs | Bristol & Bath | Bath, BA1 3NG | £25760.00 to £27476.00 | Patient Pathway Coordinator - Breast Unit
-source_job_id: 5625272
-title: Patient Pathway Coordinator - Breast Unit
-employer: Royal United Hospitals Bath NHS Foundation Trust
-region: Bristol & Bath
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9427-26-0615
-factual_fingerprint: c983778feb75712789d1a62b333701697ceab5b3810dbefcf041e5b301a87fe9
 ---
 
 ---
