@@ -1,7 +1,7 @@
 # Ontap System Overview
 
-**Last updated:** 9 October 2026
-**Status:** Canonical production state, reconciled on 9 October against active workflow definitions and Vercel project records.
+**Last updated:** 10 October 2026
+**Status:** Canonical production state, reconciled on 10 October against active workflow definitions and Vercel project records.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
@@ -9,7 +9,7 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 - 9 October 2026 — **Daily publish now explicitly starts the Vercel deployment:** scraper/feed pushes no longer each trigger builds. After verified pages publish successfully, the daily orchestrator starts and waits for the deployment workflow. This fixes the missed trigger from the 9 October run; the current site stays live while a replacement builds.
 
-- 9 October 2026 — **Automatic site publication now follows the successful morning JobG8 run:** the morning process starts Apply and publish when its work and output commit finish. The evening feed does not publish; the 11:45am schedule remains as a recovery fallback, with a same-day check to prevent duplicate publication.
+- 10 October 2026 — **Morning auto-publish now waits for the daily review to finish:** the review is saved and emailed first, then the successful morning cycle starts Apply and publish. The evening feed does not publish; the 11:45am schedule remains a recovery fallback.
 
 - 7 October 2026 — **A beginner AI course reviews page is live in the site structure:** `/ai-course-reviews` reviews Elements of AI and OpenAI Academy AI Foundations. It is linked from the top of `/ai-tips` and included in the sitemap.
 
@@ -285,7 +285,7 @@ Core controls are:
 - scheduled source refresh/reviews, including NEJobs, VONNE, Teaching Vacancies regional/master review and the NHS Administrative & Clerical review refresh at 10:05 UTC;
 - the twice-daily full JobG8 process, which refreshes and composes NHS transactionally, generates every approved registered family slice, persists the current **78-market × eight-family (624-row)** diagnostic snapshot, and records/replaces that feed date in the rolling 14-date family coverage history;
 - one master daily owner review;
-- one owner-facing apply/publish orchestrator, started after a successful morning JobG8 process, with manual `PUBLISH` control and an 11:45 Europe/London no-edit recovery safety net;
+- one owner-facing apply/publish orchestrator, started after the morning review has been saved and emailed, with manual `PUBLISH` control and an 11:45 Europe/London no-edit recovery safety net;
 - one owner-facing **Ontap daily status** workflow on the Actions page, combining morning source/review readiness with the final manual-or-automatic publication and deployment receipt;
 - source-specific publishers, including NHS, with the reviewed NHS publisher using the same transactional composer as the normal daily run;
 - final verified-page publishing including city-page derivation/maintenance and configured Customer Sales slices;
