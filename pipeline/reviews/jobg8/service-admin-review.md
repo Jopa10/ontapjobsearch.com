@@ -1,6 +1,6 @@
 # Service-admin manual review
 
-feed_date: 2026-10-09
+feed_date: 2026-10-10
 
 Edit only the `action:` line in each block:
 
@@ -243,6 +243,18 @@ _No jobs in this group._
 
 ---
 action:
+SELECTED | London | London | £30000 - £33000 per year [JobG8 salary fields] | Payroll Administrator
+job_id: 2021649
+---
+
+---
+action:
+SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Accounts Assistant
+job_id: 2021465
+---
+
+---
+action:
 SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Client Payroll Administrator / Accounts Assistant
 job_id: 2022318
 ---
@@ -317,12 +329,6 @@ job_id: 2039815
 action:
 SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Bookkeeper - Music Industry
 job_id: 2039260
----
-
----
-action:
-SELECTED | London | London | £12.71 per hour (and increasing for exceptional candidates.) [JobG8 salary fields] | Activities Coordinator
-job_id: 107862803
 ---
 
 ---
@@ -515,6 +521,12 @@ job_id: 2057397
 action:
 SELECTED | London | London | £19 per hour [JobG8 salary fields] | Temporary Document Controller
 job_id: 2056852
+---
+
+---
+action:
+SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Customer Supply Coordinator
+job_id: 2052087
 ---
 
 ---
@@ -855,20 +867,56 @@ job_id: 2091651
 
 ---
 action:
-SELECTED | London | London | £38,060 per annum [extracted from description] | Volunteer Coordinator
-job_id: 2099934
----
-
----
-action:
-SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Floating Support Coordinator
-job_id: 2099921
+SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Facilities & Operations Administrator
+job_id: 2101543
 ---
 
 ---
 action:
 SELECTED | London | London | Salary depending on experience [JobG8 salary fields] | Data Administrator (12 Month Maternity Cover)
 job_id: 20091_327232
+---
+
+---
+action:
+SELECTED | London | Uxbridge | no salary in JobG8 salary fields; no supported salary amount found in description | Bid Coordinator
+job_id: 107970959
+---
+
+---
+action:
+SELECTED | London | London | £14.80 per hour [extracted from description] | Business Administrator
+job_id: 2106856
+---
+
+---
+action:
+SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Executive Assistant and Board Secretary
+job_id: 2106853
+---
+
+---
+action:
+SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Finance and Resources Administrator
+job_id: 2106850
+---
+
+---
+action:
+SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Front Line Service Administrator
+job_id: 2106836
+---
+
+---
+action:
+SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | HR Administrator (Maternity Cover)
+job_id: 2106796
+---
+
+---
+action:
+SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Business Support Assistant
+job_id: 2106789
 ---
 
 ## LONDON — POSSIBLES
@@ -1065,12 +1113,6 @@ job_id: 2092785
 
 ---
 action:
-SELECTED | Hampshire | Hampshire | no salary in JobG8 salary fields; no supported salary amount found in description | Claims Handler
-job_id: 2092327
----
-
----
-action:
 SELECTED | Hampshire | Hampshire | no salary in JobG8 salary fields; no supported salary amount found in description | Credit Controller
 job_id: 2092163
 ---
@@ -1081,11 +1123,23 @@ SELECTED | Hampshire | Hampshire | no salary in JobG8 salary fields; no supporte
 job_id: 2089703
 ---
 
+---
+action:
+SELECTED | Hampshire | Hampshire | £27500 - £30000 per year [JobG8 salary fields] | Purchasing & Finance Assistant
+job_id: 23643_225600472
+---
+
 ## HAMPSHIRE — POSSIBLES
 
 _No jobs in this group._
 
 ## SURREY — SELECTED
+
+---
+action:
+SELECTED | Surrey | Surrey | no salary in JobG8 salary fields; no supported salary amount found in description | Legal Assistant / Paralegal
+job_id: 2021647
+---
 
 ---
 action:
@@ -1245,12 +1299,6 @@ job_id: 2044937
 
 ---
 action:
-SELECTED | Kent | Kent | no salary in JobG8 salary fields; no supported salary amount found in description | Administrator Accountancy firm Xero essential
-job_id: 2045801
----
-
----
-action:
 SELECTED | Kent | Kent | £30000 per year [JobG8 salary fields] | Insurance Claims Coordinator
 job_id: 2044917
 ---
@@ -1341,12 +1389,6 @@ job_id: 2074019
 
 ---
 action:
-SELECTED | Kent | Kent | £28701 per year [JobG8 salary fields] | MAF in the Community (MiC) Resourcing Coordinator
-job_id: 107958419
----
-
----
-action:
 SELECTED | Kent | Kent | £32000 - £35000 per year [JobG8 salary fields] | Supply Chain Co-Ordinator
 job_id: 2080652
 ---
@@ -1417,6 +1459,12 @@ _No selector errors or unresolved rows outside the normal possible groups._
 action:
 SELECTED | Sussex | Sussex | £17839 per year | Accommodation & International Admissions Administrative Assistant
 job_id: 107985976
+---
+
+---
+action:
+SELECTED | Sussex | Sussex |  | Payroll administrator
+job_id: 2021499
 ---
 
 ---
@@ -1795,6 +1843,12 @@ SELECTED | Berkshire | Berkshire |  | Assistant Management Accountant
 job_id: 2089676
 ---
 
+---
+action:
+SELECTED | Berkshire | Berkshire |  | Casework Administrator
+job_id: 2106913
+---
+
 ## BERKSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -1895,12 +1949,6 @@ _No jobs in this group._
 action:
 SELECTED | Buckinghamshire | Buckinghamshire | £27500 - £37500 per year (Hybrid Working + Training) | Purchasing Coordinator (MRP)
 job_id: 23643_225648958
----
-
----
-action:
-SELECTED | Buckinghamshire | Buckinghamshire |  | Residential Conveyancing Paralegal
-job_id: 2028313
 ---
 
 ---
@@ -2221,12 +2269,6 @@ SELECTED | Cheshire - West | Tarporley | £32000 per year | Sales Support / Impo
 job_id: 2089677
 ---
 
----
-action:
-SELECTED | Cheshire - West | Ellesmere Port | £29000 per year | Payroll Coordinator
-job_id: 108088273
----
-
 ## CHESHIRE - WEST — POSSIBLES
 
 _No jobs in this group._
@@ -2517,12 +2559,6 @@ job_id: 2053216
 
 ---
 action:
-SELECTED | Essex | Essex |  | Claims & Customer Service Advisor
-job_id: 2053042
----
-
----
-action:
 SELECTED | Essex | Essex |  | Accounts Assistant
 job_id: 2051899
 ---
@@ -2781,6 +2817,12 @@ _No jobs in this group._
 
 ---
 action:
+SELECTED | Gloucestershire | Gloucestershire | £35000 per year | Finance & Payroll Accounts Assistant - TEMP TO PERM
+job_id: 2021493
+---
+
+---
+action:
 SELECTED | Gloucestershire | Gloucestershire |  | Sales Support Executive
 job_id: 108006035
 ---
@@ -2839,6 +2881,12 @@ SELECTED | Gloucestershire | Cheltenham | £14.34 per hour | Administrative Assi
 job_id: 2092958
 ---
 
+---
+action:
+SELECTED | Gloucestershire | Gloucestershire | £12.71 per hour | Customer Service Advisor
+job_id: 23643_225503952
+---
+
 ## GLOUCESTERSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -2867,18 +2915,6 @@ job_id: 2048074
 action:
 SELECTED | Greater Manchester - Manchester & Salford | Manchester |  | Payroll Administrator
 job_id: 2063303
----
-
----
-action:
-SELECTED | Greater Manchester - Manchester & Salford | Manchester |  | Bookkeeper/Assistant Accountant
-job_id: 2063837
----
-
----
-action:
-SELECTED | Greater Manchester - Manchester & Salford | Manchester |  | Assistant Accountant
-job_id: 2067622
 ---
 
 ---
@@ -2955,8 +2991,8 @@ job_id: 2068121
 
 ---
 action:
-SELECTED | Greater Manchester - Manchester & Salford | Manchester |  | Tutoring Plus Coordinator (Part-time)
-job_id: 2099972
+SELECTED | Greater Manchester - Manchester & Salford | Manchester | PAYE rates | Asset Planner
+job_id: 108091476
 ---
 
 ## GREATER MANCHESTER - MANCHESTER & SALFORD — POSSIBLES
@@ -3031,12 +3067,6 @@ SELECTED | Greater Manchester - South | Stockport |  | IVA Administrator
 job_id: 2066888
 ---
 
----
-action:
-SELECTED | Greater Manchester - South | Stockport |  | Accounts Assistant (Study Support)
-job_id: 2092522
----
-
 ## GREATER MANCHESTER - SOUTH — POSSIBLES
 
 _No jobs in this group._
@@ -3066,12 +3096,6 @@ job_id: 2087360
 _No jobs in this group._
 
 ## HEREFORDSHIRE — SELECTED
-
----
-action:
-SELECTED | Herefordshire | Hereford |  | IT Coordinator
-job_id: 2021800
----
 
 ---
 action:
@@ -3301,6 +3325,12 @@ SELECTED | Hertfordshire | Hertfordshire | £35000 per year | Family Paralegal
 job_id: 2092784
 ---
 
+---
+action:
+SELECTED | Hertfordshire | Hertfordshire | £3,757 per annum | Mental Health Support Coordinator (Children and Young People) - Herts Haven Cafe
+job_id: 2106847
+---
+
 ## HERTFORDSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -3353,6 +3383,12 @@ job_id: 2089039
 action:
 SELECTED | Lancashire - East | Colne |  | Customer Service & Sales Administrator
 job_id: 2091875
+---
+
+---
+action:
+SELECTED | Lancashire - East | Clitheroe | £34999 per year | Raw Materials Coordinator
+job_id: 108093747
 ---
 
 ## LANCASHIRE - EAST — POSSIBLES
@@ -3675,9 +3711,19 @@ job_id: 108073904
 
 ## NORTH SCOTLAND — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - NORTH SCOTLAND | North Scotland | Inverness | £18 - £20 per hour | Executive Assistant
+job_id: 108093450
+---
 
 ## NORTHAMPTONSHIRE — SELECTED
+
+---
+action:
+SELECTED | Northamptonshire | Northamptonshire |  | AAT Assistant Accountant
+job_id: 2021745
+---
 
 ---
 action:
@@ -4023,12 +4069,6 @@ job_id: 2080644
 
 ---
 action:
-SELECTED | Scotland West - Glasgow | Glasgow | £28,701.28 per annum | Resourcing Coordinator (Maternity Cover)
-job_id: 1884949
----
-
----
-action:
 SELECTED | Scotland West - Glasgow | Glasgow |  | Payroll Administrator
 job_id: 2091438
 ---
@@ -4119,12 +4159,6 @@ job_id: 2092599
 
 ---
 action:
-SELECTED | Somerset | Somerset |  | IT Service Desk Coordinator
-job_id: 108114031
----
-
----
-action:
 SELECTED | Somerset | Somerset | £12.71 per hour | Activities Coordinator
 job_id: 108102508
 ---
@@ -4173,14 +4207,14 @@ job_id: 2078268
 
 ---
 action:
-SELECTED | Staffordshire | Staffordshire |  | Sales Coordinator
-job_id: 108062618
+SELECTED | Staffordshire | Staffordshire |  | Service Coordinator
+job_id: 108074533
 ---
 
 ---
 action:
-SELECTED | Staffordshire | Staffordshire |  | Service Coordinator
-job_id: 108074533
+SELECTED | Staffordshire | Staffordshire | £32000 per year | Purchasing Coordinator (Construction)
+job_id: 108111116
 ---
 
 ## STAFFORDSHIRE — POSSIBLES

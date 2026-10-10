@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-10-09
+feed_date: 2026-10-10
 
 Edit only the `action:` line in each block:
 
@@ -66,12 +66,6 @@ job_id: 108053317
 _No jobs in this group._
 
 ## CUMBRIA SOUTH — SELECTED
-
----
-action:
-SELECTED | Cumbria - South | Barrow-in-furness | £15 per hour (dependent on experience) | Rehabilitation Support Worker
-job_id: 108057926
----
 
 ---
 action:
@@ -175,6 +169,12 @@ SELECTED | London | Ilford | £15,412.00 per annum | Support Worker
 job_id: 2067783
 ---
 
+---
+action:
+SELECTED | London | London | £30,784.00 per annum | support worker
+job_id: 2106809
+---
+
 ## LONDON — POSSIBLES
 
 _No jobs in this group._
@@ -205,12 +205,6 @@ SELECTED | Oxfordshire | Abingdon | £27417 per year | Female Support Worker
 job_id: 108090914
 ---
 
----
-action:
-SELECTED | Oxfordshire | Abingdon | £26696 per year | Support Worker
-job_id: 108090984
----
-
 ## OXFORDSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -225,8 +219,8 @@ job_id: 2064951
 
 ---
 action:
-SELECTED | Surrey | Woking | £28,325 per annum | Crisis Prevention Support Worker
-job_id: 2085364
+SELECTED | Surrey | Reigate | £13.75 - £14.75 per hour | Twilight Care Assistant
+job_id: 108111931
 ---
 
 ## SURREY — POSSIBLES
