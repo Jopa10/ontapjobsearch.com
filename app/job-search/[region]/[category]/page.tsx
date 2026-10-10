@@ -76,6 +76,11 @@ export default async function Page({ params }: PageProps) {
       latestUpdate={latestUpdate}
       anchorTown={slice.anchorTown}
       introText={`Updated daily • Latest update: ${latestUpdate} • Roles across ${slice.region} • Apply on employer sites`}
+      pageIntro={
+        slice.regionSlug === "london" && slice.categorySlug === "paralegal-jobs"
+          ? "Browse London paralegal and legal assistant jobs. Listings can include roles in property, litigation, immigration, employment and family law. Use the search controls to narrow the results, then apply on the employer’s site."
+          : undefined
+      }
       {...(isSupport
         ? {}
         : {
