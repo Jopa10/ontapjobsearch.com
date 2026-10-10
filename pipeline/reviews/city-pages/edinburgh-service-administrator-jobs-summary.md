@@ -4,7 +4,7 @@
 - Live route: `/edinburgh/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
+- Effective included jobs: 4
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
+- automatic include: 4
 - automatic review: 2
 - automatic exclude: 0
-- effective include: 3
+- effective include: 4
 - effective review: 2
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (4)
 
 ---
 action: 
@@ -57,6 +57,18 @@ company: AWD online - Agency - Permanent
 location: Edinburgh
 source: JobG8
 job_id: jobg8-2059086
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Russian Customer Service Advisor
+company: Oyster Consultant - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-107916313
 reason: Approved conservative Edinburgh launch catchment.
 ---
 

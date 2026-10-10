@@ -162,18 +162,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Receivable Assistant
-company: Executive Talent Solutions - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2057340
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Assistant Accountant
 company: CMA Recruitment Group - Agency - Permanent
 location: Romsey
@@ -210,23 +198,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Bookkeeper
-company: Howett Thorpe - Agency - Permanent
-location: Fleet
-source: JobG8
-job_id: jobg8-2064506
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Claims Handler
-company: Everywhen, part of the Ardonagh Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2092327
+title: Care Navigator (Receptionist)
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Gosport, PO12 1BA, Gosport, PO12 1PA, Gosport, PO13 0EW, Gosport, PO12 3AQ, Gosport, PO12 3JP
+source: NHS Jobs
+job_id: nhs-5654889
 reason: Broad location; review before city inclusion.
 ---
 
@@ -378,6 +354,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Logistics Coordinator
+company: Adecco - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2053237
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Ocean Import Coordinator
 company: Detail2 Limited - Agency - Permanent
 location: Hampshire
@@ -443,6 +431,18 @@ company: Reed - Agency - Permanent
 location: Alton
 source: JobG8
 job_id: jobg8-2049521
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchasing & Finance Assistant
+company: entrust IT - Agency - Permanent
+location: Ringwood
+source: JobG8
+job_id: jobg8-23643_225600472
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
@@ -572,6 +572,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Insurance Account Executive
+company: Aspire Jobs Limited - Agency - Permanent
+location: Fareham
+source: JobG8
+job_id: jobg8-107193862
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: IT Service Desk Analyst (1st line)
 company: Randstad Delivery (GBS) - Agency - Permanent
 location: Portsmouth
@@ -625,17 +637,5 @@ company: Portsdown Group Practice
 location: Portsmouth, PO2 8AL
 source: NHS Jobs
 job_id: nhs-5627419
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Ward Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Fareham, PO17 5NA
-source: NHS Jobs
-job_id: nhs-5626622
 reason: Separate employment market.
 ---

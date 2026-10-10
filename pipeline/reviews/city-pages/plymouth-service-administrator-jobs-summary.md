@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 14
+- automatic review: 19
 - automatic exclude: 0
 - effective include: 6
-- effective review: 14
+- effective review: 19
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,19 @@ job_id: teaching-vacancies-student-funding-administrator
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (14)
+## REVIEW (19)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin Assistant
+company: Switch - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-107719278
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -119,6 +131,18 @@ company: Royal Devon University Healthcare NHS Foundation Trust
 location: Barnstaple, EX31 4JB
 source: NHS Jobs
 job_id: nhs-5643112
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Switch - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-107919719
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -186,6 +210,30 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: Insurance Administrator
+company: Switch - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-107875971
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: TQR - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-108060887
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: People Administrator
 company: Dartmoor Multi Academy Trust
 location: Okehampton
@@ -211,10 +259,22 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
-company: College Surgery Partnership
-location: Cullompton, EX15 1FE
+company: Elysium Healthcare
+location: Exeter, EX1 3PZ
 source: NHS Jobs
-job_id: nhs-5628758
+job_id: nhs-5654609
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist/Administrator
+company: Croft Hall Medical Practice
+location: Torquay, TQ2 5UA
+source: NHS Jobs
+job_id: nhs-5552054
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

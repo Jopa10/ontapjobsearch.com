@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 6
-- automatic exclude: 11
-- effective include: 7
-- effective review: 6
-- effective exclude: 11
+- automatic include: 8
+- automatic review: 5
+- automatic exclude: 10
+- effective include: 8
+- effective review: 5
+- effective exclude: 10
 
-## INCLUDE (7)
+## INCLUDE (8)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Cambridgeshire and Peterborough NHS Foundation Trust
 location: Peterborough, PE78FZ
 source: NHS Jobs
 job_id: nhs-5647546
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: IT Helpdesk Advisor - Dutch Speaker
+company: Interaction - Peterborough - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-108061988
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -108,7 +120,7 @@ job_id: jobg8-23643_225691674
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (6)
+## REVIEW (5)
 
 ---
 action: 
@@ -170,19 +182,7 @@ job_id: teaching-vacancies-finance-admin-assistant-priory-junior-school-st-neots
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: School Administrative Receptionist
-company: Buckden CofE Primary School
-location: St Neots
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-administrative-receptionist
-reason: No approved Peterborough catchment rule matched; local review required.
----
-
-## EXCLUDE (11)
+## EXCLUDE (10)
 
 ---
 action: 
@@ -241,18 +241,6 @@ company: Robert Half - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-2056165
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: CRM Manager
-company: Zachary Daniels Recruitment - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-23643_225593763
 reason: Separate employment market.
 ---
 

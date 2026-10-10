@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 16
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
-- automatic review: 20
-- automatic exclude: 14
-- effective include: 16
-- effective review: 20
-- effective exclude: 14
+- automatic include: 18
+- automatic review: 19
+- automatic exclude: 13
+- effective include: 18
+- effective review: 19
+- effective exclude: 13
 
-## INCLUDE (16)
+## INCLUDE (18)
 
 ---
 action: 
@@ -93,6 +93,18 @@ company: IPS Group - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-2092609
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Clerical Officer/ Receptionist
+company: Leeds Teaching Hospitals
+location: Leeds, LS9 7TF
+source: NHS Jobs
+job_id: nhs-5653711
 reason: Approved Leeds catchment.
 ---
 
@@ -208,6 +220,18 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Senior Marketing Executive
+company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-2022022
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Temporary Credit Controller
 company: Synergem Recruitment - Agency - Permanent
 location: Leeds
@@ -216,7 +240,7 @@ job_id: jobg8-2028584
 reason: Approved Leeds catchment.
 ---
 
-## REVIEW (20)
+## REVIEW (19)
 
 ---
 action: 
@@ -446,19 +470,7 @@ job_id: jobg8-2078500
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2094386
-reason: No approved Leeds catchment rule matched; local review required.
----
-
-## EXCLUDE (14)
+## EXCLUDE (13)
 
 ---
 action: 
@@ -565,18 +577,6 @@ company: Reed - Agency - Permanent
 location: Wakefield
 source: JobG8
 job_id: jobg8-2064618
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Patient Safety Administrator
-company: The Mid Yorkshire Teaching NHS Trust
-location: Wakefield, WF1 4DG
-source: NHS Jobs
-job_id: nhs-5648762
 reason: Separate employment market.
 ---
 

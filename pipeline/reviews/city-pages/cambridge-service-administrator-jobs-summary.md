@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 6
-- automatic exclude: 7
-- effective include: 11
-- effective review: 6
-- effective exclude: 7
+- automatic include: 10
+- automatic review: 5
+- automatic exclude: 8
+- effective include: 10
+- effective review: 5
+- effective exclude: 8
 
-## INCLUDE (11)
+## INCLUDE (10)
 
 ---
 action: 
@@ -88,18 +88,6 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: CRM Manager
-company: Zachary Daniels Recruitment - Agency - Permanent
-location: Cambridgeshire
-source: JobG8
-job_id: jobg8-23643_225593763
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Italian speaking Credit Controller
 company: The Language Business - Language Recruitment Specialists - Agency - Permanent
 location: Cambridge
@@ -156,7 +144,7 @@ job_id: jobg8-2087007
 reason: Approved conservative Cambridge launch catchment.
 ---
 
-## REVIEW (6)
+## REVIEW (5)
 
 ---
 action: 
@@ -218,19 +206,7 @@ job_id: teaching-vacancies-finance-admin-assistant-priory-junior-school-st-neots
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: School Administrative Receptionist
-company: Buckden CofE Primary School
-location: St Neots
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-administrative-receptionist
-reason: No approved Cambridge catchment rule matched; local review required.
----
-
-## EXCLUDE (7)
+## EXCLUDE (8)
 
 ---
 action: 
@@ -253,6 +229,18 @@ company: Cambridgeshire and Peterborough NHS Foundation Trust
 location: Peterborough, PE78FZ
 source: NHS Jobs
 job_id: nhs-5647546
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: IT Helpdesk Advisor - Dutch Speaker
+company: Interaction - Peterborough - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-108061988
 reason: Separate employment market.
 ---
 

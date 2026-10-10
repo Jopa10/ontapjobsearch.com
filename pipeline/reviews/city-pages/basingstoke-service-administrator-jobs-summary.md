@@ -126,18 +126,6 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Receivable Assistant
-company: Executive Talent Solutions - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2057340
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Administrator
 company: Mulberry Recruitment - Agency - Permanent
 location: Farnborough
@@ -258,18 +246,6 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Bookkeeper
-company: Howett Thorpe - Agency - Permanent
-location: Fleet
-source: JobG8
-job_id: jobg8-2064506
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Business Support Administrator
 company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 location: Portsmouth, PO2 0TA
@@ -282,11 +258,11 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Claims Handler
-company: Everywhen, part of the Ardonagh Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2092327
+title: Care Navigator (Receptionist)
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Gosport, PO12 1BA, Gosport, PO12 1PA, Gosport, PO13 0EW, Gosport, PO12 3AQ, Gosport, PO12 3JP
+source: NHS Jobs
+job_id: nhs-5654889
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -426,6 +402,18 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Insurance Account Executive
+company: Aspire Jobs Limited - Agency - Permanent
+location: Fareham
+source: JobG8
+job_id: jobg8-107193862
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: IT Service Desk Analyst (1st line)
 company: Randstad Delivery (GBS) - Agency - Permanent
 location: Portsmouth
@@ -491,6 +479,18 @@ company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 location: Southampton, SO14 0JY
 source: NHS Jobs
 job_id: nhs-5642963
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Logistics Coordinator
+company: Adecco - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2053237
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -582,6 +582,18 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Purchasing & Finance Assistant
+company: entrust IT - Agency - Permanent
+location: Ringwood
+source: JobG8
+job_id: jobg8-23643_225600472
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist - Kingston Crescent Surgery
 company: Portsdown Group Practice
 location: Portsmouth, PO2 8AL
@@ -623,18 +635,6 @@ company: Elliot Marsh Head Hunting Partners - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-2066863
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Ward Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Fareham, PO17 5NA
-source: NHS Jobs
-job_id: nhs-5626622
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 22
+- automatic review: 25
 - automatic exclude: 0
 - effective include: 1
-- effective review: 22
+- effective review: 25
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: teaching-vacancies-administration-assistant-gladstone-road-primary-schoo
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (22)
+## REVIEW (25)
 
 ---
 action: 
@@ -143,6 +143,18 @@ company: Ripon Farm Services - Agency - Permanent
 location: Ripon
 source: JobG8
 job_id: jobg8-2043051
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: SI Recruitment - Agency - Permanent
+location: Ripon
+source: JobG8
+job_id: jobg8-108060036
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -270,6 +282,18 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Patient Services Advisor (Receptionist)
+company: Haxby Group
+location: York, YO32 2LL, York, YO24 3BU, Huntington, YO32 9RU, York, YO32 4AG, York, YO26 6EQ
+source: NHS Jobs
+job_id: nhs-5655371
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Probate & Wills Legal Secretary - Malton, Yorkshire
 company: qed legal - Agency - Permanent
 location: Malton
@@ -287,6 +311,18 @@ company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-2055397
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Coordinator
+company: Interaction - Leeds - Agency - Permanent
+location: Malton
+source: JobG8
+job_id: jobg8-108059238
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

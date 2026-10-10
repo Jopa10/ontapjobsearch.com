@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 18
+- automatic review: 22
 - automatic exclude: 0
 - effective include: 3
-- effective review: 18
+- effective review: 22
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: jobg8-2066041
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (18)
+## REVIEW (22)
 
 ---
 action: 
@@ -71,6 +71,18 @@ company: Michael Page Finance - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-2055800
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Activities Coordinator
+company: Agincare Group - Agency - Permanent
+location: Weymouth
+source: JobG8
+job_id: jobg8-107992811
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -94,7 +106,19 @@ title: Administrator
 company: Agincare
 location: Dorchester, DT1 2EN
 source: NHS Jobs
-job_id: nhs-5589759
+job_id: nhs-5655572
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Dorset HealthCare University NHS Foundation Trust
+location: Weymouth, DT4 7TB
+source: NHS Jobs
+job_id: nhs-5655240
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -131,6 +155,18 @@ company: Michael Page Finance - Agency - Permanent
 location: Sherborne
 source: JobG8
 job_id: jobg8-2058934
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Coordinator
+company: Leaders In Care Recruitment Ltd - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-108069104
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -275,6 +311,18 @@ company: Reed - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-2088652
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trust Administrator
+company: Aspire Jobs Limited - Agency - Permanent
+location: Beaminster
+source: JobG8
+job_id: jobg8-107765584
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

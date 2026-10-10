@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 17
+- automatic review: 16
 - automatic exclude: 15
 - effective include: 5
-- effective review: 17
+- effective review: 16
 - effective exclude: 15
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-2074752
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (17)
+## REVIEW (16)
 
 ---
 action: 
@@ -126,12 +126,12 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Administrative Assistant
-company: Northumbria Healthcare NHS Foundation Trust
-location: Wallsend, NE28 8QU
+title: Administration Assistant
+company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
+location: Ashington, NE63 0EY
 source: NHS Jobs
-job_id: nhs-5623047
-reason: No approved Newcastle catchment rule matched; local review required.
+job_id: nhs-5655486
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -275,18 +275,6 @@ company: Office Angels - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-2063669
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-2094390
 reason: Broad location; review before city inclusion.
 ---
 

@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 20
-- automatic exclude: 27
+- automatic review: 19
+- automatic exclude: 28
 - effective include: 3
-- effective review: 20
-- effective exclude: 27
+- effective review: 19
+- effective exclude: 28
 
 ## INCLUDE (3)
 
@@ -60,7 +60,7 @@ job_id: jobg8-2062847
 reason: Approved Bradford catchment.
 ---
 
-## REVIEW (20)
+## REVIEW (19)
 
 ---
 action: 
@@ -290,19 +290,7 @@ job_id: jobg8-2078500
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2094386
-reason: No approved Bradford catchment rule matched; local review required.
----
-
-## EXCLUDE (27)
+## EXCLUDE (28)
 
 ---
 action: 
@@ -404,6 +392,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Clerical Officer/ Receptionist
+company: Leeds Teaching Hospitals
+location: Leeds, LS9 7TF
+source: NHS Jobs
+job_id: nhs-5653711
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Commercial Property Paralegal
 company: G2 Legal Limited - Agency - Permanent
 location: Leeds
@@ -481,18 +481,6 @@ company: Reed - Agency - Permanent
 location: Wakefield
 source: JobG8
 job_id: jobg8-2064618
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Patient Safety Administrator
-company: The Mid Yorkshire Teaching NHS Trust
-location: Wakefield, WF1 4DG
-source: NHS Jobs
-job_id: nhs-5648762
 reason: Separate employment market.
 ---
 
@@ -601,6 +589,18 @@ company: Reed - Agency - Permanent
 location: Wakefield
 source: JobG8
 job_id: jobg8-2057106
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Senior Marketing Executive
+company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-2022022
 reason: Separate employment market.
 ---
 

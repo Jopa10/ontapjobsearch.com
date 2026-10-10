@@ -50,5 +50,27 @@
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "nhs-5654236",
+    "source": "NHS Jobs",
+    "title": "Administrative Assistant",
+    "company": "The Rotherham NHS Foundation Trust",
+    "advertiser_name": "The Rotherham NHS Foundation Trust",
+    "location": "Rotherham, S60 2UD",
+    "region": "Yorkshire - South",
+    "salary": "£25272.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-09T14:03:51.060762",
+    "closing_date": "2026-10-19",
+    "description": "An exciting opportunity has arisen for an Admin Assistant on Ward B6 (Day Case Unit) that will provide administrative support to ensure the smooth running of the ward. This role has a wide variety of administrative tasks that need to be completed. The role is ideal for someone who has willingness to learn new skills and can work in a busy environment. A successful candidate will be privy to sensitive patient information and will be expected to maintain confidentially at all times. The position is for 30 hours per week, Monday to Friday To provide clerical support to the ward staff and nurses. To ensure the availability of accurate patient records and documentation as per Trust policies and procedures. To deal with patients, relatives and other members of the public politely and efficiently and ensure confidentiality and security of patient information as per Trust policy. Please see attached the job description and person specification for the full details about the role and the responsibilities",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9165-26-09-089",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9165-26-09-089",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

@@ -4,7 +4,7 @@
 - Live route: `/aylesbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 36
+- automatic include: 4
+- automatic review: 35
 - automatic exclude: 0
-- effective include: 5
-- effective review: 36
+- effective include: 4
+- effective review: 35
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (4)
 
 ---
 action: 
@@ -64,18 +64,6 @@ reason: Exact approved Aylesbury workplace.
 action: 
 decision: include
 automatic_decision: include
-title: SEN Administrator
-company: Chiltern Way Academy Trust
-location: Aylesbury
-source: Teaching Vacancies
-job_id: teaching-vacancies-sen-administrator-chiltern-way-academy-trust
-reason: Exact approved Aylesbury workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Team Administrator
 company: Oxford Health NHS Trust
 location: Aylesbury, HP20 1EG
@@ -84,7 +72,7 @@ job_id: nhs-5648388
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (36)
+## REVIEW (35)
 
 ---
 action: 
@@ -402,18 +390,6 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Part-time Receptionist
-company: Practice Plus Group
-location: High Wycombe, HP12 3QL
-source: NHS Jobs
-job_id: nhs-5619603
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Purchasing Coordinator (MRP)
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Buckinghamshire
@@ -450,35 +426,11 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Riverside Surgery
-location: High Wycombe, HP11 2RZ
-source: NHS Jobs
-job_id: nhs-5607494
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Remote Conveyancing Paralegal
 company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-2055401
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Residential Conveyancing Paralegal
-company: Quality Personnel Services Limited - Agency - Permanent
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-2028313
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -503,6 +455,30 @@ company: GXO Logistics - Company - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-2052926
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trustee - Communications, Marketing and PR
+company: Hope After Harm - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-2106884
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Ward Clerk
+company: Milton Keynes University Hospital NHS Foundation Trust
+location: Milton Keynes, MK6 5LD
+source: NHS Jobs
+job_id: nhs-5647765
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

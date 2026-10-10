@@ -4,7 +4,7 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 28
-- automatic exclude: 10
-- effective include: 5
-- effective review: 28
-- effective exclude: 10
+- automatic include: 4
+- automatic review: 23
+- automatic exclude: 11
+- effective include: 4
+- effective review: 23
+- effective exclude: 11
 
-## INCLUDE (5)
+## INCLUDE (4)
 
 ---
 action: 
@@ -72,30 +72,18 @@ job_id: nhs-5649373
 reason: Approved Brighton & Hove catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Administrator
-company: Brighton and Hove Federation
-location: Hove, BN3 7GS
-source: NHS Jobs
-job_id: nhs-5620851
-reason: Approved Brighton & Hove catchment.
----
-
-## REVIEW (28)
+## REVIEW (23)
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Administrator
-company: Travail Employment Group - Burgess Hill - Agency - Permanent
-location: East Grinstead
+title: Accommodation & International Admissions Administrative Assistant
+company: Chichester College Group - Company - Permanent
+location: Sussex
 source: JobG8
-job_id: jobg8-2027321
-reason: No approved Brighton & Hove catchment rule matched; local review required.
+job_id: jobg8-107985976
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -132,18 +120,6 @@ location: Sussex
 source: JobG8
 job_id: jobg8-2060824
 reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Attendance & HR Admin Assistant
-company: Hollington Primary School
-location: St. Leonards-on-Sea
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-hr-admin-assistant
-reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
 ---
@@ -258,18 +234,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Events Administrator
-company: First Recruitment Services - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2074281
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Administrator
 company: Harvey John - Agency - Permanent
 location: Sussex
@@ -299,18 +263,6 @@ company: First Recruitment Services - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2044482
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: Terry Parris Associates Ltd - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2043392
 reason: Broad location; review before city inclusion.
 ---
 
@@ -366,24 +318,12 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Seaford Medical Practice
-location: Seaford, BN25 1DH
-source: NHS Jobs
-job_id: nhs-5598736
-reason: No approved Brighton & Hove catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist / Administrator
-company: Foundry Healthcare Lewes
-location: Lewes, BN7 2LU, Lewes, BN7 2RD, Lewes, BN8 5QN, Lewes, BN7 1US
-source: NHS Jobs
-job_id: nhs-5639730
-reason: No approved Brighton & Hove catchment rule matched; local review required.
+title: Payroll administrator
+company: Portfolio Payroll - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2021499
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -410,19 +350,7 @@ job_id: jobg8-2036123
 reason: Broad location; review before city inclusion.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2094378
-reason: Broad location; review before city inclusion.
----
-
-## EXCLUDE (10)
+## EXCLUDE (11)
 
 ---
 action: 
@@ -541,5 +469,17 @@ company: First Recruitment Services - Agency - Permanent
 location: Eastbourne
 source: JobG8
 job_id: jobg8-2052067
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Team Administrator
+company: Sussex Community NHS Foundation Trust
+location: Horsham, RH12 2DR
+source: NHS Jobs
+job_id: nhs-5655598
 reason: Separate employment market.
 ---

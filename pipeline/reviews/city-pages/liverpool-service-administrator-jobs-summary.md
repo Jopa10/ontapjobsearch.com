@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 2
+- automatic include: 7
+- automatic review: 1
 - automatic exclude: 0
-- effective include: 8
-- effective review: 2
+- effective include: 7
+- effective review: 1
 - effective exclude: 0
 
-## INCLUDE (8)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrative Assistant
-company: Bishop Martin Church of England Primary School, Woolton
-location: Liverpool
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-bishop-martin-church-of-england-primary-school-woolton-liverpool-merseyside
-reason: Approved conservative Liverpool launch catchment.
----
+## INCLUDE (7)
 
 ---
 action: 
@@ -120,7 +108,7 @@ job_id: jobg8-2078827
 reason: Approved conservative Liverpool launch catchment.
 ---
 
-## REVIEW (2)
+## REVIEW (1)
 
 ---
 action: 
@@ -131,18 +119,6 @@ company: Ice and Easy - Agency - Permanent
 location: Merseyside
 source: JobG8
 job_id: jobg8-2060699
-reason: Broad county location; review before Liverpool inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Merseyside
-source: JobG8
-job_id: jobg8-2094388
 reason: Broad county location; review before Liverpool inclusion.
 ---
 

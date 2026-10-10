@@ -1,6 +1,5 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,teaching-vacancies-admin-clerical-officer-level-2-rowan-school-the-rowan-school,Admin & Clerical Officer Level 2 Rowan School,The Rowan School,Sheffield,Teaching Vacancies,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
-include,nhs-5639875,Admin Assistant,Sheffield Teaching Hospitals NHS Foundation Trust,"Sheffield, S5 7AU",NHS Jobs,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,jobg8-2078492,Assistant Accountant,Elevation Recruitment Group - Agency - Permanent,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,jobg8-2044207,Assistant Management Accountant,Elevation Recruitment Group - Agency - Permanent,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,jobg8-2033599,Audience Development Coordinator - Local Authority - Libraries,Reed - Agency - Permanent,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
@@ -11,9 +10,9 @@ include,jobg8-2087031,Paralegal,CRA Consulting - Agency - Permanent,Sheffield,Jo
 include,jobg8-2063431,Purchase Ledger Clerk,PRATAP PARTNERSHIP LTD - Agency - Permanent,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,teaching-vacancies-receptionist-stocksbridge-junior-school,Receptionist,Stocksbridge Junior School,Sheffield,Teaching Vacancies,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,teaching-vacancies-scitt-administrator-chorus-education-trust,SCITT Administrator,Chorus Education Trust,Sheffield,Teaching Vacancies,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
-review,jobg8-2052996,Finance Officer,Hays Specialist Recruitment Limited - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Sheffield catchment rule matched; local review required.,fallback,sheffield-service-administrator-jobs
 review,jobg8-2067582,Income Assistant / Finance Administrator - Local Authority,Reed - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Sheffield catchment rule matched; local review required.,fallback,sheffield-service-administrator-jobs
 exclude,teaching-vacancies-admin-assistant-owston-park-primary-academy,Admin Assistant,Owston Park Primary Academy,Doncaster,Teaching Vacancies,exclude,exclude,Separate employment market.,doncaster,sheffield-service-administrator-jobs
+exclude,nhs-5654236,Administrative Assistant,The Rotherham NHS Foundation Trust,"Rotherham, S60 2UD",NHS Jobs,exclude,exclude,Separate employment market.,rotherham,sheffield-service-administrator-jobs
 exclude,jobg8-2024835,Administrator,Reed - Agency - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,sheffield-service-administrator-jobs
 exclude,jobg8-2055573,Assistant Accountant,Sharp Consultancy - Agency - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,sheffield-service-administrator-jobs
 exclude,teaching-vacancies-attendance-and-attendance-officer,Attendance and Attendance Officer,Newman School,Rotherham,Teaching Vacancies,exclude,exclude,Separate employment market.,rotherham,sheffield-service-administrator-jobs

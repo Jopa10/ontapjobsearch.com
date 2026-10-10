@@ -1,5 +1,4 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
-include,teaching-vacancies-administrative-assistant-bishop-martin-church-of-england-primary-school-woolton-liverpool-merseyside,Administrative Assistant,"Bishop Martin Church of England Primary School, Woolton",Liverpool,Teaching Vacancies,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs
 include,jobg8-2027305,Finance Assistant,X1 Lettings - Agency - Permanent,Liverpool,JobG8,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs
 include,jobg8-2074093,Legal Assistant - Damage Claims Portal Team,Bond Turner - Agency - Permanent,Liverpool,JobG8,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs
 include,jobg8-2064408,Operations & Social Media Coordinator,Adaptable Recruitment - Agency - Permanent,Liverpool,JobG8,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs
@@ -8,4 +7,3 @@ include,nhs-5642457,Receptionist/Admin,Eastview Surgery,"Liverpool, L22 4QD",NHS
 include,jobg8-23643_225704895,Senior CRM Executive,Zachary Daniels Recruitment - Agency - Permanent,Liverpool,JobG8,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs
 include,jobg8-2078827,Service Desk Analyst,Reed - Agency - Permanent,Liverpool,JobG8,include,include,Approved conservative Liverpool launch catchment.,liverpool,liverpool-service-administrator-jobs
 review,jobg8-2060699,Marketing Executive / Manager (part time),Ice and Easy - Agency - Permanent,Merseyside,JobG8,review,review,Broad county location; review before Liverpool inclusion.,merseyside,liverpool-service-administrator-jobs
-review,jobg8-2094388,Trainee Digital Marketing Manager No experience needed (Ref: 6901),Qualify Nation Recruitment - Agency - Permanent,Merseyside,JobG8,review,review,Broad county location; review before Liverpool inclusion.,merseyside,liverpool-service-administrator-jobs

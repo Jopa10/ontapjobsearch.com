@@ -4,8 +4,8 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
-- Threshold currently met: no
+- Effective included jobs: 6
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 8
+- automatic include: 6
+- automatic review: 10
 - automatic exclude: 10
-- effective include: 5
-- effective review: 8
+- effective include: 6
+- effective review: 10
 - effective exclude: 10
 
-## INCLUDE (5)
+## INCLUDE (6)
 
 ---
 action: 
@@ -76,6 +76,18 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Patient Services Advisor (Receptionist)
+company: Haxby Group
+location: York, YO32 2LL, York, YO24 3BU, Huntington, YO32 9RU, York, YO32 4AG, York, YO26 6EQ
+source: NHS Jobs
+job_id: nhs-5655371
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Remote Conveyancing Paralegal
 company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
 location: York
@@ -84,7 +96,7 @@ job_id: jobg8-2055397
 reason: Approved York catchment.
 ---
 
-## REVIEW (8)
+## REVIEW (10)
 
 ---
 action: 
@@ -139,6 +151,18 @@ action:
 decision: review
 automatic_decision: review
 title: Credit Controller
+company: SI Recruitment - Agency - Permanent
+location: Ripon
+source: JobG8
+job_id: jobg8-108060036
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
 company: Si Recruitment - Agency - Permanent
 location: Catterick Garrison
 source: JobG8
@@ -179,6 +203,18 @@ company: qed legal - Agency - Permanent
 location: Malton
 source: JobG8
 job_id: jobg8-2050560
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Coordinator
+company: Interaction - Leeds - Agency - Permanent
+location: Malton
+source: JobG8
+job_id: jobg8-108059238
 reason: No approved York catchment rule matched; local review required.
 ---
 

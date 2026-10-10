@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 7
-- automatic exclude: 12
+- automatic review: 11
+- automatic exclude: 13
 - effective include: 5
-- effective review: 7
-- effective exclude: 12
+- effective review: 11
+- effective exclude: 13
 
 ## INCLUDE (5)
 
@@ -52,11 +52,11 @@ reason: Approved conservative Oxford launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administrative Assistant
-company: Oxford University Hospitals NHS Foundation Trust
-location: Headington, Oxford, OX3 9DU
+title: Administrator
+company: Oxford Health NHS Trust
+location: Abingdon, Oxford, OX14 1AG
 source: NHS Jobs
-job_id: nhs-5623981
+job_id: nhs-5653386
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -84,7 +84,19 @@ job_id: nhs-5640615
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (7)
+## REVIEW (11)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Activities Coordinator
+company: Care UK - Company - Permanent
+location: Witney
+source: JobG8
+job_id: jobg8-108062084
+reason: No approved Oxford catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -138,11 +150,47 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Finance Administrator
+company: The Recruitment Group - Agency - Permanent
+location: Witney
+source: JobG8
+job_id: jobg8-107994102
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Officer
 company: Robert Half - Agency - Permanent
 location: Wantage
 source: JobG8
 job_id: jobg8-2062741
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Officer
+company: Robert Half Limited - Agency - Permanent
+location: Wantage
+source: JobG8
+job_id: jobg8-108072593
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist
+company: The Abingdon Surgery
+location: Abingdon, OX14 3LB
+source: NHS Jobs
+job_id: nhs-5643181
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -170,7 +218,7 @@ job_id: teaching-vacancies-receptionist-edf1f45d-c1c2-4efe-8319-033977840917
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (12)
+## EXCLUDE (13)
 
 ---
 action: 
@@ -181,6 +229,18 @@ company: Butler Rose - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-2065837
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Bid Portal Administrator
+company: Ridge & Partners LLP - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-108079592
 reason: Broad county location; not Oxford-city evidence.
 ---
 

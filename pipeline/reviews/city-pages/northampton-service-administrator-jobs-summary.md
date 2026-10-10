@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 8
+- automatic review: 10
 - automatic exclude: 0
 - effective include: 5
-- effective review: 8
+- effective review: 10
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,19 @@ job_id: nhs-5645538
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (8)
+## REVIEW (10)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: AAT Assistant Accountant
+company: Curtis Recruitment - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-2021745
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -95,6 +107,18 @@ company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-2028507
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Receivable Assistant
+company: Michael Page Finance - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-2021866
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

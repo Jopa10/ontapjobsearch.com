@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 7
+- automatic review: 11
 - automatic exclude: 0
 - effective include: 2
-- effective review: 7
+- effective review: 11
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: teaching-vacancies-examinations-officer-blythe-bridge-high-school
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (7)
+## REVIEW (11)
 
 ---
 action: 
@@ -114,6 +114,18 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
+title: Learning and Engagement Coordinator
+company: Adullam Homes - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-107961085
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Manager (Engineering / Renewables)
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Staffordshire
@@ -131,6 +143,42 @@ company: XPERT RECRUITMENT SOLUTIONS LIMITED - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-2078268
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Practice Receptionist
+company: Horsefair Practice Group
+location: Rugeley, WS15 2LB, Rugeley, WS15 2FH, Rugeley, WS15 4UZ
+source: NHS Jobs
+job_id: nhs-5652964
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchasing Coordinator (Construction)
+company: Ernest Gordon Recruitment - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-108111116
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Coordinator
+company: Adullam Homes - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-108074533
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

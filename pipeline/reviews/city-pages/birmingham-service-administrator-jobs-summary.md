@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 33
+- Effective included jobs: 35
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 33
-- automatic review: 6
+- automatic include: 35
+- automatic review: 5
 - automatic exclude: 5
-- effective include: 33
-- effective review: 6
+- effective include: 35
+- effective review: 5
 - effective exclude: 5
 
-## INCLUDE (33)
+## INCLUDE (35)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: AAT Assistant Accountant
+company: Curtis Recruitment - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2024671
+reason: Approved conservative Birmingham launch catchment.
+---
 
 ---
 action: 
@@ -340,6 +352,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Post-Completion Administrator
+company: Reed - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2024287
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Purchase Ledger
 company: TAILORED SEARCH RECRUITMENT LIMITED - Agency - Permanent
 location: Birmingham
@@ -400,11 +424,11 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-2094377
+title: Ward Clerk
+company: St Andrew’s Healthcare
+location: Birmingham, B30 2XR
+source: NHS Jobs
+job_id: nhs-5653910
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -420,7 +444,7 @@ job_id: jobg8-2039482
 reason: Approved conservative Birmingham launch catchment.
 ---
 
-## REVIEW (6)
+## REVIEW (5)
 
 ---
 action: 
@@ -443,18 +467,6 @@ company: Avery Healthcare Group Ltd.
 location: Knowle, B93 9LQ
 source: NHS Jobs
 job_id: nhs-5638487
-reason: No approved Birmingham catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Digital Communications Officer
-company: Birmingham Mind - Agency - Permanent
-location: Staffordshire
-source: JobG8
-job_id: jobg8-2099959
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 

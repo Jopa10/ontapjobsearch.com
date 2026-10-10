@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 48
+- automatic review: 51
 - automatic exclude: 0
 - effective include: 2
-- effective review: 48
+- effective review: 51
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: jobg8-2051739
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
-## REVIEW (48)
+## REVIEW (51)
 
 ---
 action: 
@@ -71,6 +71,18 @@ company: Reed - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-2044300
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Central London Community Health Trust
+location: Watford, WD25 9XX
+source: NHS Jobs
+job_id: nhs-5646824
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -366,6 +378,18 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
+title: Mental Health Support Coordinator (Children and Young People) - Herts Haven Cafe
+company: Hertfordshire Mind - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-2106847
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Office Administrator
 company: Forres Primary Academy
 location: Hoddesdon
@@ -539,6 +563,18 @@ company: Townsend Church of England School
 location: St Albans
 source: Teaching Vacancies
 job_id: teaching-vacancies-reception-administrator-first-aider
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Hertfordshire Partnership University NHS Foundation Trust
+location: Watford, WD17 3XE
+source: NHS Jobs
+job_id: nhs-5653585
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

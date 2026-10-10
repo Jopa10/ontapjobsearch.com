@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 31
+- automatic review: 29
 - automatic exclude: 0
 - effective include: 10
-- effective review: 31
+- effective review: 29
 - effective exclude: 0
 
 ## INCLUDE (10)
@@ -112,18 +112,6 @@ reason: Exact approved Milton Keynes workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Residential Conveyancing Paralegal
-company: Quality Personnel Services Limited - Agency - Permanent
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-2028313
-reason: Exact approved Milton Keynes workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Stock Administrator
 company: Adecco - Agency - Permanent
 location: Milton Keynes
@@ -140,11 +128,23 @@ title: Ward Clerk
 company: Milton Keynes University Hospital NHS Foundation Trust
 location: Milton Keynes, MK6 5LD
 source: NHS Jobs
+job_id: nhs-5647765
+reason: Exact approved Milton Keynes workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Ward Clerk
+company: Milton Keynes University Hospital NHS Foundation Trust
+location: Milton Keynes, MK6 5LD
+source: NHS Jobs
 job_id: nhs-5652428
 reason: Exact approved Milton Keynes workplace.
 ---
 
-## REVIEW (31)
+## REVIEW (29)
 
 ---
 action: 
@@ -426,18 +426,6 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Part-time Receptionist
-company: Practice Plus Group
-location: High Wycombe, HP12 3QL
-source: NHS Jobs
-job_id: nhs-5619603
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Purchasing Coordinator (MRP)
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Buckinghamshire
@@ -462,35 +450,11 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Riverside Surgery
-location: High Wycombe, HP11 2RZ
-source: NHS Jobs
-job_id: nhs-5607494
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Remote Conveyancing Paralegal
 company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-2055401
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: SEN Administrator
-company: Chiltern Way Academy Trust
-location: Aylesbury
-source: Teaching Vacancies
-job_id: teaching-vacancies-sen-administrator-chiltern-way-academy-trust
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -515,6 +479,18 @@ company: GXO Logistics - Company - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-2052926
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trustee - Communications, Marketing and PR
+company: Hope After Harm - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-2106884
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

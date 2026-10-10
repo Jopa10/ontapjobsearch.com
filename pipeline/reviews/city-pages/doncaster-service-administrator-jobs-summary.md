@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 2
+- automatic review: 1
 - automatic exclude: 15
 - effective include: 10
-- effective review: 2
+- effective review: 1
 - effective exclude: 15
 
 ## INCLUDE (10)
@@ -144,19 +144,7 @@ job_id: nhs-5647395
 reason: Approved Doncaster catchment.
 ---
 
-## REVIEW (2)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Officer
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2052996
-reason: No approved Doncaster catchment rule matched; local review required.
----
+## REVIEW (1)
 
 ---
 action: 
@@ -188,11 +176,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Admin Assistant
-company: Sheffield Teaching Hospitals NHS Foundation Trust
-location: Sheffield, S5 7AU
+title: Administrative Assistant
+company: The Rotherham NHS Foundation Trust
+location: Rotherham, S60 2UD
 source: NHS Jobs
-job_id: nhs-5639875
+job_id: nhs-5654236
 reason: Separate employment market.
 ---
 

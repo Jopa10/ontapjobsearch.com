@@ -4,8 +4,8 @@
 - Live route: `/exeter/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
-- Threshold currently met: no
+- Effective included jobs: 7
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,38 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 17
+- automatic include: 7
+- automatic review: 18
 - automatic exclude: 0
-- effective include: 3
-- effective review: 17
+- effective include: 7
+- effective review: 18
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (7)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Admin Assistant
+company: Switch - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-107719278
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Switch - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-107919719
+reason: Exact approved Exeter workplace.
+---
 
 ---
 action: 
@@ -33,6 +57,30 @@ company: Isca Academy
 location: Exeter
 source: Teaching Vacancies
 job_id: teaching-vacancies-attendance-officer-4a095b88-91b4-4569-8b60-0007e7f44a59
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Insurance Administrator
+company: Switch - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-107875971
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Elysium Healthcare
+location: Exeter, EX1 3PZ
+source: NHS Jobs
+job_id: nhs-5654609
 reason: Exact approved Exeter workplace.
 ---
 
@@ -60,7 +108,7 @@ job_id: teaching-vacancies-senior-administrator-stansfield-academy-exeter-devon
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (17)
+## REVIEW (18)
 
 ---
 action: 
@@ -162,6 +210,18 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Administrator
+company: TQR - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-108060887
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: People Administrator
 company: Dartmoor Multi Academy Trust
 location: Okehampton
@@ -198,11 +258,11 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: College Surgery Partnership
-location: Cullompton, EX15 1FE
+title: Receptionist/Administrator
+company: Croft Hall Medical Practice
+location: Torquay, TQ2 5UA
 source: NHS Jobs
-job_id: nhs-5628758
+job_id: nhs-5552054
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

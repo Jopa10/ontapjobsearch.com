@@ -16,13 +16,25 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 47
+- automatic review: 44
 - automatic exclude: 0
 - effective include: 6
-- effective review: 47
+- effective review: 44
 - effective exclude: 0
 
 ## INCLUDE (6)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrative Assistant
+company: Kent and Medway Mental Health NHS Trust
+location: Maidstone, ME16 9PH
+source: NHS Jobs
+job_id: nhs-5653607
+reason: Exact approved Maidstone workplace.
+---
 
 ---
 action: 
@@ -45,18 +57,6 @@ company: Penguin Recruitment Ltd - Agency - Permanent
 location: Maidstone
 source: JobG8
 job_id: jobg8-2052913
-reason: Exact approved Maidstone workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Clinical Administrator
-company: Len Valley Practice
-location: Maidstone, ME17 2QF
-source: NHS Jobs
-job_id: nhs-5606943
 reason: Exact approved Maidstone workplace.
 ---
 
@@ -96,7 +96,7 @@ job_id: jobg8-2087968
 reason: Exact approved Maidstone workplace.
 ---
 
-## REVIEW (47)
+## REVIEW (44)
 
 ---
 action: 
@@ -126,23 +126,11 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Activities Co-ordinator - Strode Park House
-company: occy - Agency - Permanent
-location: Kent
+title: Accounts Assistant
+company: Reed - Agency - Permanent
+location: Ashford
 source: JobG8
-job_id: jobg8-661285270416942694437340
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Activities Co-ordinator - Strode Park House
-company: occy - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-661285270416942694437341
+job_id: jobg8-2024535
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -186,11 +174,11 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Administrator Accountancy firm Xero essential
-company: Office Angels - Agency - Permanent
+title: Bookkeeper
+company: Michael Page Finance - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2045801
+job_id: jobg8-2026057
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -198,11 +186,11 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Bookkeeper
-company: Michael Page Finance - Agency - Permanent
+title: Business Support Assistant
+company: Oasis Restore - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-2026057
+job_id: jobg8-108044308
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -319,10 +307,10 @@ action:
 decision: review
 automatic_decision: review
 title: GP Receptionist
-company: Pilgrims Way Surgery
-location: Dartford, DA1 1QY
+company: Sandgate Road Surgery
+location: Folkestone, CT20 2HN
 source: NHS Jobs
-job_id: nhs-5635318
+job_id: nhs-5653560
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -438,18 +426,6 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Paralegal
-company: Birketts LLP - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-2070976
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Part-Time Accounts Assistant Dartford Temp to Perm
 company: Office Angels - Agency - Permanent
 location: Dartford
@@ -523,6 +499,18 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
+company: Practice Plus Group
+location: Ashford, TW153AA
+source: NHS Jobs
+job_id: nhs-5653187
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
 company: The Meads Medical Practice Limited
 location: Sittingbourne, ME10 5AA
 source: NHS Jobs
@@ -551,18 +539,6 @@ company: New Appointments Group - Agency - Contract
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225681004
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Senior Administrator - Oasis Restore Secure School
-company: Central and North West London NHS Foundation Trust
-location: Rochester, ME1 3YB
-source: NHS Jobs
-job_id: nhs-5637080
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -647,18 +623,6 @@ company: Penguin Recruitment Ltd - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-2049013
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Billings coordinator
-company: Julie Rose Recruitment - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-2066595
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 

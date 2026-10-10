@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
-- automatic review: 2
-- automatic exclude: 13
-- effective include: 12
-- effective review: 2
-- effective exclude: 13
+- automatic include: 11
+- automatic review: 1
+- automatic exclude: 14
+- effective include: 11
+- effective review: 1
+- effective exclude: 14
 
-## INCLUDE (12)
+## INCLUDE (11)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: The Rowan School
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-clerical-officer-level-2-rowan-school-the-rowan-school
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Admin Assistant
-company: Sheffield Teaching Hospitals NHS Foundation Trust
-location: Sheffield, S5 7AU
-source: NHS Jobs
-job_id: nhs-5639875
 reason: Approved Sheffield catchment.
 ---
 
@@ -168,19 +156,7 @@ job_id: teaching-vacancies-scitt-administrator-chorus-education-trust
 reason: Approved Sheffield catchment.
 ---
 
-## REVIEW (2)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Officer
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2052996
-reason: No approved Sheffield catchment rule matched; local review required.
----
+## REVIEW (1)
 
 ---
 action: 
@@ -194,7 +170,7 @@ job_id: jobg8-2067582
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (13)
+## EXCLUDE (14)
 
 ---
 action: 
@@ -205,6 +181,18 @@ company: Owston Park Primary Academy
 location: Doncaster
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-assistant-owston-park-primary-academy
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrative Assistant
+company: The Rotherham NHS Foundation Trust
+location: Rotherham, S60 2UD
+source: NHS Jobs
+job_id: nhs-5654236
 reason: Separate employment market.
 ---
 

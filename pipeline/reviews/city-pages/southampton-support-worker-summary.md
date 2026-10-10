@@ -4,7 +4,7 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
+- Effective included jobs: 0
 - Threshold currently met: no
 
 ## How to review
@@ -15,52 +15,28 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 7
-- automatic exclude: 5
-- effective include: 3
-- effective review: 7
-- effective exclude: 5
+- automatic include: 0
+- automatic review: 5
+- automatic exclude: 4
+- effective include: 0
+- effective review: 5
+- effective exclude: 4
 
-## INCLUDE (3)
+## INCLUDE (0)
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Male Support Worker
-company: Avenues Group - Company - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-918625004825241190437341
-reason: Approved Southampton catchment.
----
+## REVIEW (5)
 
 ---
 action: 
-decision: include
-automatic_decision: include
-title: Support Worker
-company: Avenues Group - Company - Permanent
-location: Southampton
+decision: review
+automatic_decision: review
+title: Care and Support Worker
+company: Southern Housing - Agency - Permanent
+location: Ryde
 source: JobG8
-job_id: jobg8-307620840736397721637341
-reason: Approved Southampton catchment.
+job_id: jobg8-108088501
+reason: No approved Southampton catchment rule matched; local review required.
 ---
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Support Worker - Waking Nights
-company: Avenues Group - Company - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-384603642135366860837341
-reason: Approved Southampton catchment.
----
-
-## REVIEW (7)
 
 ---
 action: 
@@ -90,47 +66,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Support Worker
-company: Avenues Group - Company - Permanent
+title: Female Support Worker
+company: SeeAbility - Agency - Permanent
 location: Tadley
 source: JobG8
-job_id: jobg8-264760722998480076837340
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Support Worker
-company: Avenues Group - Company - Permanent
-location: Liss
-source: JobG8
-job_id: jobg8-307620840736397721637340
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Support Worker
-company: Avenues Group - Company - Permanent
-location: Gosport
-source: JobG8
-job_id: jobg8-343411153683297075237340
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Support Worker - Waking Nights
-company: Avenues Group - Company - Permanent
-location: Gosport
-source: JobG8
-job_id: jobg8-384603642135366860837340
+job_id: jobg8-108059180
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
@@ -146,7 +86,7 @@ job_id: jobg8-1401785693
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (5)
+## EXCLUDE (4)
 
 ---
 action: 
@@ -169,18 +109,6 @@ company: Hampshire County Council - Company - Permanent
 location: Winchester
 source: JobG8
 job_id: jobg8-1401785482
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Male Support Worker
-company: Avenues Group - Company - Permanent
-location: Fareham
-source: JobG8
-job_id: jobg8-918625004825241190437340
 reason: Separate employment market.
 ---
 

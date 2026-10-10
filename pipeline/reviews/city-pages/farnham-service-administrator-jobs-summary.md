@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 33
+- automatic review: 37
 - automatic exclude: 0
 - effective include: 2
-- effective review: 33
+- effective review: 37
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: jobg8-2064929
 reason: Exact approved Farnham workplace.
 ---
 
-## REVIEW (33)
+## REVIEW (37)
 
 ---
 action: 
@@ -107,6 +107,18 @@ company: Office Angels - Agency - Permanent
 location: Leatherhead
 source: JobG8
 job_id: jobg8-2043356
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Billing & Payables Coordinator
+company: Oakley Hill - Agency - Permanent
+location: Camberley
+source: JobG8
+job_id: jobg8-2022342
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -246,11 +258,35 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Legal Assistant / Paralegal
+company: Faith Recruitment - Agency - Permanent
+location: Guildford
+source: JobG8
+job_id: jobg8-2021647
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Legal Personal Assistant
 company: Reed - Agency - Permanent
 location: Leatherhead
 source: JobG8
 job_id: jobg8-2064951
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing and Communications Manager
+company: Rainbow Trust Children's Charity - Agency - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-2106865
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -355,10 +391,10 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
-company: Chaldon Road Surgery
-location: Caterham, CR3 5PG
+company: Frimley Health NHS Foundation Trust
+location: Camberley, GU16 7UJ
 source: NHS Jobs
-job_id: nhs-5628925
+job_id: nhs-5648597
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -367,10 +403,22 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
-company: Frimley Health NHS Foundation Trust
-location: Camberley, GU16 7UJ
+company: Practice Plus Group
+location: Haslemere, GU272BJ
 source: NHS Jobs
-job_id: nhs-5648597
+job_id: nhs-5653490
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Practice Plus Group
+location: Haslemere, GU2 7XX
+source: NHS Jobs
+job_id: nhs-5653539
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 

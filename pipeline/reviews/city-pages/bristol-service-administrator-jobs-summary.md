@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 17
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
-- automatic review: 2
+- automatic include: 18
+- automatic review: 1
 - automatic exclude: 4
-- effective include: 17
-- effective review: 2
+- effective include: 18
+- effective review: 1
 - effective exclude: 4
 
-## INCLUDE (17)
+## INCLUDE (18)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Robert Half - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2057297
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Admin Assistant
-company: Bristol NHS Foundation Trust
-location: Bristol, BS10 5NB
-source: NHS Jobs
-job_id: nhs-5650450
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -148,6 +136,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Junior Accountant
+company: Ashley Rees Associates - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-2024392
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Legal PA/Secretary - Corporate - Bristol
 company: qed legal - Agency - Permanent
 location: Bristol
@@ -177,6 +177,18 @@ company: Dawn Ellmore Employment Agency - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2063740
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Reception and Appointment Clerk
+company: Bristol NHS Foundation Trust
+location: Bristol, BS2 8EL
+source: NHS Jobs
+job_id: nhs-5640113
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -228,7 +240,7 @@ job_id: jobg8-2076582
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (2)
+## REVIEW (1)
 
 ---
 action: 
@@ -239,18 +251,6 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Somerset
 source: JobG8
 job_id: jobg8-2091440
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-2094379
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 

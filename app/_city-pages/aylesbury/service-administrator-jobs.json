@@ -78,34 +78,6 @@
     "posted_date_basis": "source"
   },
   {
-    "job_id": "teaching-vacancies-sen-administrator-chiltern-way-academy-trust",
-    "title": "SEN Administrator",
-    "company": "Chiltern Way Academy Trust",
-    "location": "Aylesbury",
-    "region": "Buckinghamshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£37,772.00 - £41,272.00 Annually (FTE) BPS Range 6. Actual salary will be pro rata, approx. £28,081 to £30,683",
-    "work_pattern": "",
-    "posted_date": "2026-09-24",
-    "closing_date": "2026-10-09",
-    "closing_datetime": "2026-10-09T23:59:00+01:00",
-    "summary": "SEN Administrator with Chiltern Way Academy Trust in Aylesbury. ['part time']; £37,772.00 - £41,272.00 Annually (FTE) BPS Range 6. Actual salary will be pro rata, approx. £28,081 to £30,683.",
-    "description": "Chiltern Way Academy Trust is recruiting for this vacancy in Aylesbury.\n\nThe advertised position is SEN Administrator.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £37,772.00 - £41,272.00 Annually (FTE) BPS Range 6. Actual salary will be pro rata, approx. £28,081 to £30,683.\n\nThe stated application deadline is 2026-10-09T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-chiltern-way-academy-trust?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Chiltern Way Academy Trust",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "nhs-5648388",
     "source": "NHS Jobs",
     "title": "Team Administrator",
@@ -122,6 +94,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1194",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

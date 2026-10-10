@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 64
+- automatic review: 62
 - automatic exclude: 0
 - effective include: 9
-- effective review: 64
+- effective review: 62
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -132,7 +132,7 @@ job_id: jobg8-2087231
 reason: Exact approved Chelmsford workplace.
 ---
 
-## REVIEW (64)
+## REVIEW (62)
 
 ---
 action: 
@@ -275,30 +275,6 @@ company: Inclusion
 location: Grays, RM17 6NB
 source: NHS Jobs
 job_id: nhs-5640402
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Attendance and SEND Administrator, with Midday assistant role included
-company: Unity Primary Academy
-location: Colchester
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-and-send-administrator-with-midday-assistant-role-included
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Claims & Customer Service Advisor
-company: Reed - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-2053042
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -678,6 +654,18 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Administrator
+company: CDL Personnel Ltd - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-107954174
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Private Client Fee Earner/ Paralegal
 company: Reed - Agency - Permanent
 location: Essex
@@ -815,18 +803,6 @@ company: Reed - Agency - Permanent
 location: Brentwood
 source: JobG8
 job_id: jobg8-2089179
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Desk Support Analyst
-company: FRP Group - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-2068530
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

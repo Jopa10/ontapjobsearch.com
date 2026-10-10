@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 37
+- automatic review: 36
 - automatic exclude: 0
 - effective include: 0
-- effective review: 37
+- effective review: 36
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (37)
+## REVIEW (36)
 
 ---
 action: 
@@ -115,6 +115,18 @@ action:
 decision: review
 automatic_decision: review
 title: Administration Assistant
+company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
+location: Ashington, NE63 0EY
+source: NHS Jobs
+job_id: nhs-5655486
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Assistant
 company: St Anthony's Girls' Catholic Academy
 location: Sunderland
 source: Teaching Vacancies
@@ -131,18 +143,6 @@ company: Gateshead Health NHS Foundation Trust
 location: Gateshead, NE8 4YL
 source: NHS Jobs
 job_id: nhs-5644657
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrative Assistant
-company: Northumbria Healthcare NHS Foundation Trust
-location: Wallsend, NE28 8QU
-source: NHS Jobs
-job_id: nhs-5623047
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -455,18 +455,6 @@ company: Office Angels - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-2063669
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-2094390
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 

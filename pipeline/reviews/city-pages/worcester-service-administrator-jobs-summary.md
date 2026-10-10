@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 6
+- automatic review: 7
 - automatic exclude: 0
 - effective include: 1
-- effective review: 6
+- effective review: 7
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: jobg8-2074804
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (6)
+## REVIEW (7)
 
 ---
 action: 
@@ -59,6 +59,18 @@ company: Herefordshire and Worcestershire Health and Care NHS Trust
 location: Kidderminster, DY10 1PG
 source: NHS Jobs
 job_id: nhs-5650754
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Coordinator
+company: Agincare Group - Agency - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-108053865
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

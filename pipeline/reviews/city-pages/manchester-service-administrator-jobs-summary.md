@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 28
+- Effective included jobs: 26
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 28
+- automatic include: 26
 - automatic review: 18
-- automatic exclude: 4
-- effective include: 28
+- automatic exclude: 3
+- effective include: 26
 - effective review: 18
-- effective exclude: 4
+- effective exclude: 3
 
-## INCLUDE (28)
+## INCLUDE (26)
 
 ---
 action: 
@@ -64,6 +64,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Asset Planner
+company: NES Fircroft Engineering Services Limited - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-108091476
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Asset Planner - Supply Chain
 company: Inventum Group - Agency - Permanent
 location: Manchester
@@ -77,34 +89,10 @@ action:
 decision: include
 automatic_decision: include
 title: Assistant Accountant
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-2067622
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Assistant Accountant
 company: RG Consultancy Ltd - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-2078166
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Bookkeeper/Assistant Accountant
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-2063837
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -317,10 +305,10 @@ action:
 decision: include
 automatic_decision: include
 title: Receptionist
-company: Cherry Medical Practice
-location: Manchester, M28 0BB
+company: The Wilbraham Surgery
+location: Manchester, M21 0UF
 source: NHS Jobs
-job_id: nhs-5631127
+job_id: nhs-5634614
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -328,11 +316,11 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: The Wilbraham Surgery
-location: Manchester, M21 0UF
+title: Team Administrator
+company: Greater Manchester Mental Health NHS Foundation Trust
+location: Manchester, M40 5BP
 source: NHS Jobs
-job_id: nhs-5634614
+job_id: nhs-5652896
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -345,18 +333,6 @@ company: The Co Operative Academies Trust
 location: Manchester
 source: Teaching Vacancies
 job_id: teaching-vacancies-trust-finance-and-systems-administrator
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Tutoring Plus Coordinator (Part-time)
-company: The Tutor Trust - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-2099972
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -419,6 +395,18 @@ company: Express Solicitors - Agency - Permanent
 location: Lancashire
 source: JobG8
 job_id: jobg8-2062787
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: CRM Automation Manager
+company: Anonymous - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-2024541
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -566,31 +554,7 @@ job_id: jobg8-2065821
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Lancashire
-source: JobG8
-job_id: jobg8-2094389
-reason: No approved Manchester catchment rule matched; local review required.
----
-
-## EXCLUDE (4)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Clinical Team Administrator
-company: Greater Manchester Mental Health NHS Foundation Trust
-location: Salford, M28 0FE
-source: NHS Jobs
-job_id: nhs-5641457
-reason: Separate exact-city market at launch.
----
+## EXCLUDE (3)
 
 ---
 action: 

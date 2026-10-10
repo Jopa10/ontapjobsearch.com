@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
+- automatic include: 6
 - automatic review: 0
-- automatic exclude: 23
-- effective include: 7
+- automatic exclude: 22
+- effective include: 6
 - effective review: 0
-- effective exclude: 23
+- effective exclude: 22
 
-## INCLUDE (7)
+## INCLUDE (6)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Finham Park 2
 location: Coventry
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-data-finham-park-2
-reason: Approved Coventry catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: EXAMS OFFICER, BARR’S HILL SCHOOL
-company: Barr's Hill School
-location: Coventry
-source: Teaching Vacancies
-job_id: teaching-vacancies-exams-officer-barr-s-hill-school
 reason: Approved Coventry catchment.
 ---
 
@@ -110,7 +98,7 @@ reason: Approved Coventry catchment.
 
 ## REVIEW (0)
 
-## EXCLUDE (23)
+## EXCLUDE (22)
 
 ---
 action: 
@@ -152,18 +140,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Accounts Assistant
-company: Macildowie Recruitment and Retention - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-2049443
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Activities & Coaching Operations Coordinator
 company: Riding for the Disabled Association (RDA) - Agency - Permanent
 location: Warwickshire
@@ -193,6 +169,18 @@ company: The Myton Hospices
 location: Coventry, CV2 2HJ, WARWICK, CV34 6PX, RUGBY, CV22 5PY
 source: NHS Jobs
 job_id: nhs-5647678
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Conveyancing Legal Assistant
+company: G2 Legal Limited - Agency - Permanent
+location: Leamington Spa
+source: JobG8
+job_id: jobg8-2024649
 reason: Separate employment market.
 ---
 
@@ -361,18 +349,6 @@ company: Reed - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-2054035
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
-company: Qualify Nation Recruitment - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-2094381
 reason: Separate employment market.
 ---
 
