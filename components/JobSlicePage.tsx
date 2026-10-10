@@ -91,6 +91,7 @@ type JobSlicePageProps = {
   latestUpdate: string;
   anchorTown?: string;
   introText?: string;
+  pageIntro?: string;
   trainingHeading?: string;
   trainingSubheading?: string;
   trainingItems?: TrainingItem[];
@@ -380,6 +381,7 @@ export default function JobSlicePage({
   latestUpdate,
   anchorTown,
   introText,
+  pageIntro,
   trainingHeading,
   trainingSubheading,
   trainingItems,
@@ -494,6 +496,11 @@ export default function JobSlicePage({
             >
               {listingIntro}
             </p>
+            {pageIntro ? (
+              <p style={{ fontSize: 14, lineHeight: 1.5, margin: "8px 0 0" }}>
+                {pageIntro}
+              </p>
+            ) : null}
           </div>
 
           <SavedLocationJobs />
