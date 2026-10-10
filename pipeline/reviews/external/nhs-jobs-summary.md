@@ -2,11 +2,11 @@
 
 review_date: 2026-10-10
 
-- Open Administrative & Clerical rows reviewed: 2263
+- Open Administrative & Clerical rows reviewed: 2260
 - Auto/remembered selected: 394
 - Selected HC Tier A: 207
 - Selected HC Tier B: 187
-- POSS awaiting decision: 1765
+- POSS awaiting decision: 1762
 - Excluded: 0
 - HARD_PASS: 104
 
@@ -574,18 +574,6 @@ region: North East
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9439-2627-548-2
 factual_fingerprint: 9457e849e4999cf1b98c653b97842df5cfde8a73526be0671f98441d563e0bd1
----
-
----
-action:
-POSS | NHS Jobs | Wiltshire | Swindon, SN3 6BB | £39959.00 to £48117.00 | Information Analyst
-source_job_id: 5654934
-title: Information Analyst
-employer: Great Western Hospitals NHS Foundation Trust
-region: Wiltshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9249-26-0626
-factual_fingerprint: 83102abc1ad6d782821fd0322dab3fa2910d48d3d282f5e3370242d9a08c4c2e
 ---
 
 ---
@@ -2098,18 +2086,6 @@ region: Hertfordshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9367-26-0950
 factual_fingerprint: 43dd5879c4b9b55d299fd55c74261fc6c63488fb25a786ca79223770bb420130
----
-
----
-action:
-POSS | NHS Jobs | Lincolnshire | Lincoln, LN2 5QY | £25272.00 | Ward Clerk / Receptionist Band 2
-source_job_id: 5652908
-title: Ward Clerk / Receptionist Band 2
-employer: United Lincolnshire Hospitals NHS Trust
-region: Lincolnshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9357-26-0446
-factual_fingerprint: 17bb1220014a999ffed0b619648347107d6c63f240865f76b3e4151422a29af9
 ---
 
 ---
@@ -7954,18 +7930,6 @@ region: Yorkshire - West
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9174-26-0177
 factual_fingerprint: 39075e9dd69f9bd724d06a28721d98e823466f0decd19468cbd7ef13be8d43d8
----
-
----
-action:
-POSS | NHS Jobs | Berkshire | Reading, RG1 5AN | £32073.00 to £39043.00 | Paediatric MDT Coordinator
-source_job_id: 5641649
-title: Paediatric MDT Coordinator
-employer: Royal Berkshire NHS Foundation Trust
-region: Berkshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9193-26-0666
-factual_fingerprint: e0fbe7f1ab39bb16b4a269e5a8cbb9bc3644601bca291ed2c2d821b4de9550d0
 ---
 
 ---

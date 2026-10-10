@@ -2,11 +2,11 @@
 Yorkshire - West,,0,0,0,0,0,,0,Leeds,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Yorkshire - West selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
 Yorkshire - South,,0,0,0,0,0,,0,Sheffield,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Yorkshire - South selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
 North East,,0,0,0,0,0,,0,Newcastle Upon Tyne,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,North East selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
-Sussex,,3,2,0,1,0,,3,Brighton,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Sussex selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
-Cumbria - South,,2,0,1,1,0,,2,Barrow-in-Furness,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Cumbria - South selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
+Sussex,,4,2,0,2,0,,4,Brighton,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Sussex selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
+Cumbria - South,,6,1,2,3,0,,6,Barrow-in-Furness,SCENARIO_3_COMPLETE_WITH_OTHER_ELASTIC,"Cumbria - South selection complete: 6 selected after HIGH_CONFIDENCE, Barrow-in-Furness ELASTIC_FIT, and other ELASTIC_FIT roles."
 Hampshire,,9,9,0,0,0,,9,Southampton,SCENARIO_3_MANUAL_SELECTION_APPLIED,Hampshire manual_select applied additively: 1 row(s) prioritised; 9 selected.
-Kent,,2,2,0,0,0,,2,Maidstone,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Kent selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
+Kent,,3,3,0,0,0,,3,Maidstone,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Kent selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
 London,,2,2,0,0,0,,2,London,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,London selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
-Oxfordshire,,4,4,0,0,0,,4,Oxford,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Oxfordshire selection below publish threshold: 4/6 credible roles. Do not publish/refresh this slice from this run.
+Oxfordshire,,3,3,0,0,0,,3,Oxford,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Oxfordshire selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
 Surrey,,2,2,0,0,0,,2,Guildford,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Surrey selection below publish threshold: 2/6 credible roles. Do not publish/refresh this slice from this run.
 Wiltshire,,0,0,0,0,0,,0,Swindon,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Wiltshire selection below publish threshold: 0/6 credible roles. Do not publish/refresh this slice from this run.
