@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-10-09
-review_fingerprint: e01bd3f12b3f54b6f5f2910f92983f6506cb30b1c54f502db2651a829daf8d72
-routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
+review_date: 2026-10-10
+review_fingerprint: 587a6d815c12ba17a2a33b4944c5564d48f06f5ebe45f8a158b17c3309e549a6
+routing_manifest_sha256: 65d7d4d14fb4fa650e185d2ca969b1c92a0ae301cc786bb616160011a28b524f
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 14
-- Selected: 6
+- Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
 
@@ -83,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-slt-and-admissi
 
 ---
 action: 
+SELECTED | Bedfordshire | Bedford, East of England, MK42 7LJ | £14,269.00 - £14,495.00 Annually (Actual) NJC L2 pt 4 - 5 | Receptionist/Admin Assistant
+employer: Springfield Primary School
+closing_date: 2026-10-15T09:00:00+01:00
+reason: Clear admin/service title: admin assistant, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7f10e5b2b9a8cef0f18d12a14b80ec349280f4330b849b70d8786714e6ca7cf4
+source: Teaching Vacancies
+source_job_id: receptionist-admin-assistant-springfield-primary-school-bedford-bedfordshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-springfield-primary-school-bedford-bedfordshire
+---
+
+---
+action: 
 SELECTED | Bedfordshire | Leighton Buzzard, East of England, LU7 2PA | £23,232.00 - £23,978.00 Annually (Actual) NJC Level 3 Point 6-8 | Reprographics and Admin Assistant
 employer: Linslade School
 closing_date: 2026-10-19T12:00:00+01:00
@@ -139,7 +154,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-manager-all-sain
 - [Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/facilities-manager-denbigh-primary-school) — Manager title salary ceiling £43,149 is not below £28,000.
 - [Financial Controller](https://teaching-vacancies.service.gov.uk/jobs/financial-controller-c66a5ec1-0bf4-4c91-a1e1-d206dac91d10) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-27327254-91ed-4388-982d-a24ff7b17cb0) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-greys-education-centre) — Manager title salary ceiling £34,811 is not below £28,000.
 - [SCHOOL BUSINESS MANAGER](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-putteridge-primary-school) — Manager title salary ceiling £49,282 is not below £28,000.
 
 ## Safety boundary

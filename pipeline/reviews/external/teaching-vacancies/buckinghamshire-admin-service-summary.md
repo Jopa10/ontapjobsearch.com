@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-10-09
-review_fingerprint: d923568b6bf775c8671f72eea6bda673b994dd1eee43dd4bef522f9a9ced4ccd
-routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
+review_date: 2026-10-10
+review_fingerprint: 0cd4e08a8547ebc94ccbb978eda615c13604ccb08dfb0274ec71a95f13f9ecd6
+routing_manifest_sha256: 65d7d4d14fb4fa650e185d2ca969b1c92a0ae301cc786bb616160011a28b524f
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 15
-- Selected: 5
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 10
 
 ## SELECTED
 
@@ -81,21 +81,6 @@ source_job_id: receptionist-admissions-officer-bearbrook-combined-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admissions-officer-bearbrook-combined-school
 ---
 
----
-action: 
-SELECTED | Buckinghamshire | Aylesbury, HP22 6NL | £37,772.00 - £41,272.00 Annually (FTE) BPS Range 6. Actual salary will be pro rata, approx. £28,081 to £30,683 | SEN Administrator
-employer: Chiltern Way Academy Trust
-closing_date: 2026-10-09T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 169755cca07c5281a60f843dfd7dd9fac613db9353a043224d5de7d51a91e373
-source: Teaching Vacancies
-source_job_id: sen-administrator-chiltern-way-academy-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-chiltern-way-academy-trust
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -126,6 +111,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-leve
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-56c55376-78b3-4ad8-a27c-1fdc31ec9895) — Insufficient admin/service evidence.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-royal-grammar-school-high-wycombe) — Manager title salary ceiling £47,020 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-aa5bd69a-1e68-49ee-bfe8-c4153301fa94) — Manager title salary ceiling £48,738 is not below £28,000.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-winslow-church-of-england-school) — Manager title salary ceiling £41,272 is not below £28,000.
 - [Senior Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-business-partner-creative-education-trust) — Insufficient admin/service evidence.
 - [Trust Finance officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-stephenson-mk-trust-milton-keynes-not-recorded) — Insufficient admin/service evidence.
 

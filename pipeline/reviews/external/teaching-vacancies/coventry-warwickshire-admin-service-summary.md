@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-10-09
-review_fingerprint: 24a3bc98cb879ebf4e606011722ab987d209630f4e3d562efa78e39b4b3772da
-routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
+review_date: 2026-10-10
+review_fingerprint: 51a1b099653b71b15524ac95aa89782cb7651831512915fed45c263b5e98aa2b
+routing_manifest_sha256: 65d7d4d14fb4fa650e185d2ca969b1c92a0ae301cc786bb616160011a28b524f
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 4
+- Records: 8
+- Selected: 3
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 3
@@ -49,21 +49,6 @@ factual_fingerprint: 5e4580d7c593af95f3dc8e020c95fe8530cb842c706f5431b003b41a932
 source: Teaching Vacancies
 source_job_id: administrative-assistant-data-finham-park-2
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-data-finham-park-2
----
-
----
-action: 
-SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV1 4BU | Grade 5, £29,837 - £35,940 per annum (£27,219 - £35,940 per annum pro-rata) | EXAMS OFFICER, BARR’S HILL SCHOOL
-employer: Barr's Hill School
-closing_date: 2026-10-09T23:59:00+01:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a768b2cb731d0e969dc722beddd6222f9f56274fda74e2773f13c5cc3aa380f7
-source: Teaching Vacancies
-source_job_id: exams-officer-barr-s-hill-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-barr-s-hill-school
 ---
 
 ---

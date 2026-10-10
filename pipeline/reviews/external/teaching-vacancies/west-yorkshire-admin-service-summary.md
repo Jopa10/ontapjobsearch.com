@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-10-09
-review_fingerprint: e4807a6d69195a84288d94eb859423c3cb7b00ddb88a8b519c1fb4d7919b6d57
-routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
+review_date: 2026-10-10
+review_fingerprint: 1a662cf3ce8a52bc2a53c8f71dcc62573f7524372bb35c40bc6f282068038cc2
+routing_manifest_sha256: 65d7d4d14fb4fa650e185d2ca969b1c92a0ae301cc786bb616160011a28b524f
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 42
-- Selected: 16
+- Records: 45
+- Selected: 18
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 22
+- Hard pass: 23
 
 ## SELECTED
 
@@ -94,6 +94,21 @@ factual_fingerprint: e2dad36c2beee843fef7bbe75ebf3d6fb137aa2b163294ba19ea20cb75e
 source: Teaching Vacancies
 source_job_id: administrative-assistant-south-craven-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-south-craven-school
+---
+
+---
+action: 
+SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS9 0JY | £20,305.00 - £22,026.00 Annually (Actual) Band C1, SCP 12 - 17. FTE: £29,542-£32,046. | Administrator
+employer: Meadowfield Primary School
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: a15c688a6ab491ae3ab6b0cac25cc09e702ee85461a78564b021ac460e86c6e3
+source: Teaching Vacancies
+source_job_id: administrator-meadowfield-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-meadowfield-primary-school
 ---
 
 ---
@@ -214,6 +229,21 @@ factual_fingerprint: f22604bc3563e4361c632b9cb1a1cce54fa268cfdb030b8d12501376f85
 source: Teaching Vacancies
 source_job_id: office-administrator-primrose-lane-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-primrose-lane-primary-school
+---
+
+---
+action: 
+SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS9 0JY | £11,273.00 - £11,634.00 Annually (Actual) Band B1, SCP 4-6. FTE: £26,016 - £ 26,847 | Receptionist/Administrator
+employer: Meadowfield Primary School
+closing_date: 2026-11-12T12:00:00+00:00
+reason: Clear admin/service title: administrator, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 9b434f4f33f0e03777d78d10c4b7f80f632132bd2a4cd96bcdd140e4dcb95012
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-439c869e-070b-4131-a153-da2276feb411
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-439c869e-070b-4131-a153-da2276feb411
 ---
 
 ---
@@ -350,6 +380,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-br
 - [SEND Administration and Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/send-administration-and-support-assistant) — Insufficient admin/service evidence.
 - [Senior Admin and Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-admin-and-operations-manager) — Manager title salary ceiling £40,444 is not below £28,000.
 - [Senior Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-altofts-junior-academy) — Insufficient admin/service evidence.
+- [Sixth Form and Careers Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-and-careers-administration-officer) — Insufficient admin/service evidence.
 - [Trust Business Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-business-manager-enhance-academy-trust-bradford-not-recorded) — Manager title salary ceiling £47,665 is not below £28,000.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-10-09
-review_fingerprint: 986a31074cc4b4f97e866f174766ef933da497d21dbdca726bdfe144adcba384
-routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
+review_date: 2026-10-10
+review_fingerprint: ea19de4813306a527621bd0bddbad8e23f9bdacda490e9cf273147528d15671c
+routing_manifest_sha256: 65d7d4d14fb4fa650e185d2ca969b1c92a0ae301cc786bb616160011a28b524f
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 3
+- Records: 7
+- Selected: 4
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M8 8DT | £32,578.00 to £35,570.00 per annum (pro rata £30,176.96 to £32,948.45 per annum) | Data and Examinations Officer
+employer: Eden Girls' Leadership Academy, Manchester
+closing_date: 2026-10-21T23:59:00+01:00
+reason: Clear admin/service title: examinations officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1252c4bb41c5836ce1ffd71dd8ddc9fbb3a0a083c3546c3375413f01cf056d6d
+source: Teaching Vacancies
+source_job_id: data-and-examinations-officer-eden-girls-leadership-academy-manchester
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-and-examinations-officer-eden-girls-leadership-academy-manchester
+---
 
 ---
 action: 

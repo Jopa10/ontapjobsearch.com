@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-10-09
-review_fingerprint: a0fe3d4face262edd608b5f1e7c9b163af70b352429f3581389e3faf7e35e145
-routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
+review_date: 2026-10-10
+review_fingerprint: e943d1ff956a408a954795b0ebc1e834b53111e2ed6f8b340eb6cd0181760e84
+routing_manifest_sha256: 65d7d4d14fb4fa650e185d2ca969b1c92a0ae301cc786bb616160011a28b524f
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 6
+- Records: 7
+- Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 0
@@ -64,21 +64,6 @@ factual_fingerprint: 0f27b51900d49ba0c403f5e20dd044e426b3358586c9c898cebcfe3b838
 source: Teaching Vacancies
 source_job_id: admissions-transition-assistant-community-receptionist-tanbridge-house-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-transition-assistant-community-receptionist-tanbridge-house-school
----
-
----
-action: 
-SELECTED | Sussex | St. Leonards-on-Sea, South East, TN38 9DS | £17,254.02 - £18,385.78 Annually (Actual) TPA 8 / NJC 6 - 10 - £26,847 - £28,608pa FTE | Attendance & HR Admin Assistant
-employer: Hollington Primary School
-closing_date: 2026-10-09T23:59:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5e352118eb0748be3fc493f9ca56c6b033ca73c47e29cabff48971e71379163c
-source: Teaching Vacancies
-source_job_id: attendance-hr-admin-assistant
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-hr-admin-assistant
 ---
 
 ---

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-10-09
-review_fingerprint: bc6771d665b7019625df6cdaf223bea3d17df257fcda06c88aa975eacf7ebeeb
-routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
+review_date: 2026-10-10
+review_fingerprint: 9636e10a73915f60e7e67487d54e952755e1d5381a66c2779d2fd06b23d10c0a
+routing_manifest_sha256: 65d7d4d14fb4fa650e185d2ca969b1c92a0ae301cc786bb616160011a28b524f
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 9
-- POSS awaiting decision: 0
+- Records: 21
+- Selected: 10
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 10
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG2 1FX | £25,614 to £26,16 pro-rata (pro-rata, £21,993 - £22,338 actual per year) | Administration Assistant
+employer: Victoria Primary School
+closing_date: 2026-10-23T09:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c661c6f5166de11c4df24458d1a9244549dc7f23f4545ce884d57d12d5edcf3b
+source: Teaching Vacancies
+source_job_id: administration-assistant-victoria-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-victoria-primary-school
+---
 
 ---
 action: 
@@ -158,7 +173,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Nottinghamshire | Retford, DN22 7GR | £31,015.00 - £31,015.00 Annually (FTE) | Governance Professional
+employer: Diverse Academies Trust
+closing_date: 2026-10-18T23:59:00+01:00
+reason: Borderline school administration title: governance professional
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c764243bbc79bdaa3723dbf3af4581004ef436f0d948a9800756fa0b79a21b2c
+source: Teaching Vacancies
+source_job_id: governance-professional-diverse-academies-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-diverse-academies-trust
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -170,8 +198,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 - [Communications & Marketing Assistant](https://teaching-vacancies.service.gov.uk/jobs/communications-marketing-assistant) — Insufficient admin/service evidence.
 - [Data & MIS Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-mis-assistant) — Insufficient admin/service evidence.
 - [Data Protection Support Officer](https://teaching-vacancies.service.gov.uk/jobs/data-protection-support-officer) — Insufficient admin/service evidence.
+- [Marketing Apprentice](https://teaching-vacancies.service.gov.uk/jobs/marketing-apprentice-carlton-academy) — Insufficient admin/service evidence.
 - [Office Manager in Wilford, Nottingham](https://teaching-vacancies.service.gov.uk/jobs/office-manager-in-wilford-nottingham) — Manager title salary ceiling £31,022 is not below £28,000.
 - [People & Culture Business Partner](https://teaching-vacancies.service.gov.uk/jobs/people-culture-business-partner-tapestry-learning-partnership-nottingham-not-recorded) — Insufficient admin/service evidence.
+- [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-96d0e4ce-127e-44c5-84cd-fca1d087464c) — Insufficient admin/service evidence.
 - [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-the-flying-high-academy) — Insufficient admin/service evidence.
 - [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-burntstump-seely-cofe-primary-academy) — Manager title salary ceiling £30,514 is not below £28,000.
 

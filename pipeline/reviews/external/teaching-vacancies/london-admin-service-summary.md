@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-10-09
-review_fingerprint: a3dad105c6302313ebf10f6c40e0b2d564cc42c76646b2bfc88205efcbf147d2
-routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
+review_date: 2026-10-10
+review_fingerprint: 0641af29134c0681e9a9648e7eb633d826e8f2a1962a7f2966cf4829d08fa9da
+routing_manifest_sha256: 65d7d4d14fb4fa650e185d2ca969b1c92a0ae301cc786bb616160011a28b524f
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 58
-- Selected: 25
-- POSS awaiting decision: 2
+- Records: 56
+- Selected: 22
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 31
 
@@ -158,36 +158,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-th
 
 ---
 action: 
-SELECTED | London | Uxbridge, London, UB10 8QY | Scale 3, Point dependent on experience (£26454.96 - £26833.41 pro rata) | Behaviour Support Administrator
-employer: The Douay Martyrs Catholic School
-closing_date: 2026-10-09T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7abac383422ecab3d9d84e5ce660d569721244be7db755e45dd24e8a79942a0c
-source: Teaching Vacancies
-source_job_id: behaviour-support-administrator-the-douay-martyrs-catholic-school-uxbridge-middlesex
-source_url: https://teaching-vacancies.service.gov.uk/jobs/behaviour-support-administrator-the-douay-martyrs-catholic-school-uxbridge-middlesex
----
-
----
-action: 
-SELECTED | London | London, London, N9 8DR | £28,148.19 - £30,407.51 Annually (FTE) NSCT Pay Scales: 18-21 / Actual Salary: £26,855.53 - £27,930.11 / NSCT Health Cash Plan + Generous Pension | Business Support Assistant
-employer: Woodpecker Hall Primary Academy
-closing_date: 2026-10-27T23:59:00+00:00
-reason: Clear admin/service title: business support assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 12e1d8febc08066810db7d6614e7aa1e44f4d4c1d12dbc24a475128aafdb2828
-source: Teaching Vacancies
-source_job_id: business-support-assistant-a81bf6ae-e6d3-4234-a787-8db0968be919
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-assistant-a81bf6ae-e6d3-4234-a787-8db0968be919
----
-
----
-action: 
 SELECTED | London | London, London, E14 0AF | £33,700-£35,500 per annum | CTEC Administrator
 employer: New City College
 closing_date: 2026-11-01T23:59:00+00:00
@@ -274,21 +244,6 @@ factual_fingerprint: 859905b72480f6f09b10d8d157fe74e6e93d5c197b8c465c48c97abb85d
 source: Teaching Vacancies
 source_job_id: exams-officer-orion-eden-park
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-orion-eden-park
----
-
----
-action: 
-SELECTED | London | Hayes, London, UB4 9LE | £25,099.00 Annually (Actual) | General Administrator
-employer: Barnhill Community High School
-closing_date: 2026-10-09T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 026523f38daa505722cdd06ae1757274b83e447f7f25301fb06960c2572e3282
-source: Teaching Vacancies
-source_job_id: general-administrator-38fde377-10ba-4d36-87df-9496dab66650
-source_url: https://teaching-vacancies.service.gov.uk/jobs/general-administrator-38fde377-10ba-4d36-87df-9496dab66650
 ---
 
 ---
@@ -400,6 +355,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ea
 
 ---
 action: 
+POSS | London | London, London, N9 8DR | £28,148.19 - £30,407.51 Annually (FTE) NSCT Pay Scales: 18-21 / Actual Salary: £26,855.53 - £27,930.11 / NSCT Health Cash Plan + Generous Pension | Business Support Assistant
+employer: Woodpecker Hall Primary Academy
+closing_date: 2026-10-27T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 12e1d8febc08066810db7d6614e7aa1e44f4d4c1d12dbc24a475128aafdb2828
+source: Teaching Vacancies
+source_job_id: business-support-assistant-a81bf6ae-e6d3-4234-a787-8db0968be919
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-assistant-a81bf6ae-e6d3-4234-a787-8db0968be919
+---
+
+---
+action: 
 POSS | London | Barking, London, IG11 9AG | £32,372.00 - £33,343.00 Annually (Actual) Scale 6 (Point 18 – £36,693 to Point 20 – £37,794 Full time) Prorated salary range is likely to be approx: £32,372 – £33,343, (dependant on experience, week per year and continuous service). Based on working 35 hours per week, Term time plus 10 days. | Exams and Data Officer
 employer: Barking Abbey School, A Specialist Sports and Humanities College
 closing_date: 2026-10-16T09:00:00+01:00
@@ -439,13 +409,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-manager-ep
 - [Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-manager-harris-lowe-academy-willesden) — Manager title salary ceiling £37,134 is not below £28,000.
 - [Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-manager-the-totteridge-academy) — Manager title without salary evidence below £28,000.
 - [Attendance Manager & Deputy Designated Safeguarding Lead (DDSL)](https://teaching-vacancies.service.gov.uk/jobs/attendance-manager-deputy-designated-safeguarding-lead-ddsl) — Manager title salary ceiling £44,231 is not below £28,000.
-- [Careers Advisor](https://teaching-vacancies.service.gov.uk/jobs/careers-advisor-adc96ad5-4177-4d7f-9893-1125998e829c) — Insufficient admin/service evidence.
 - [Careers Progression & Work Experience Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/careers-progression-work-experience-co-ordinator-davenant-foundation-school-loughton-essex) — Insufficient admin/service evidence.
 - [Chief Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-finance-officer-newham-community-learning) — Insufficient admin/service evidence.
 - [Clerk](https://teaching-vacancies.service.gov.uk/jobs/clerk-fa200dc5-f631-4c94-82eb-9b7a7dc9e643) — Insufficient admin/service evidence.
 - [Communications and Collaboration Lead](https://teaching-vacancies.service.gov.uk/jobs/communications-and-collaboration-lead) — Insufficient admin/service evidence.
 - [Data Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-administration-assistant-lilian-baylis-technology-school) — Insufficient admin/service evidence.
-- [Data Manager / Support ICT Officer](https://teaching-vacancies.service.gov.uk/jobs/data-manager-support-ict-officer-chadwell-heath-academy) — Manager title without salary evidence below £28,000.
 - [Deputy Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/deputy-chief-financial-officer-connect-education-trust) — Insufficient admin/service evidence.
 - [Director of HR](https://teaching-vacancies.service.gov.uk/jobs/director-of-hr-orion-education-chislehurst-not-recorded) — Insufficient admin/service evidence.
 - [EA to the Principal](https://teaching-vacancies.service.gov.uk/jobs/ea-to-the-principal) — Out-of-scope occupation: principal.
@@ -455,15 +423,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-manager-ep
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-anthem-schools-trust-london-not-recorded) — Insufficient admin/service evidence.
 - [Human Resources Manager (Schools)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-manager-schools-netley-primary-school) — Manager title salary ceiling £41,000 is not below £28,000.
 - [Invigilators / Readers & Scribes](https://teaching-vacancies.service.gov.uk/jobs/invigilators-readers-scribes) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-chadwell-heath-academy-romford-essex) — Manager title without salary evidence below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-victory-primary-school-london) — Manager title without salary evidence below £28,000.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-blackfen-school-for-girls) — Manager title salary ceiling £50,583 is not below £28,000.
+- [People Officer](https://teaching-vacancies.service.gov.uk/jobs/people-officer-newbridge-school) — Insufficient admin/service evidence.
 - [Pupil Support Lead (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/pupil-support-lead-maternity-cover) — Insufficient admin/service evidence.
 - [Regional HR Partner](https://teaching-vacancies.service.gov.uk/jobs/regional-hr-partner-36023a7d-c903-4173-b385-43f854d87e14) — Insufficient admin/service evidence.
 - [Reprographics Technician](https://teaching-vacancies.service.gov.uk/jobs/reprographics-technician-robert-clack-school-dagenham-essex) — Out-of-scope occupation: technician.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-bousfield-primary-school-london) — Manager title salary ceiling £59,394 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-handsworth-primary-school) — Manager title without salary evidence below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-sacred-heart-roman-catholic-primary-school) — Manager title salary ceiling £48,519 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-wells-primary-school) — Manager title without salary evidence below £28,000.
+- [Senior Project Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-project-officer) — Insufficient admin/service evidence.
 - [Site Manager](https://teaching-vacancies.service.gov.uk/jobs/site-manager-hereward-primary-school-loughton-essex) — Out-of-scope occupation: site manager.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East - Tees Valley
 
-review_date: 2026-10-09
+review_date: 2026-10-10
 review_fingerprint: 2eb40b9907f28ded0f7adfab0eced7a9454cf96f9c57c8b82f1b67d100178ff2
-routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
+routing_manifest_sha256: 65d7d4d14fb4fa650e185d2ca969b1c92a0ae301cc786bb616160011a28b524f
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
+- Records: 9
 - Selected: 6
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -149,7 +149,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-hr-assistant-17
 
 ## HARD_PASS
 
-- [Barley Fields Primary School – School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/barley-fields-primary-school-school-office-manager) — Manager title salary ceiling £39,124 is not below £28,000.
 - [Trust Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-assistant-dc4109c3-10fb-4988-9b60-ca1acab51bc8) — Insufficient admin/service evidence.
 
 ## Safety boundary

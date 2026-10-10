@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-10-09
-review_fingerprint: cac3bffbad62c454006e361e7b1db5c426c61fa81e4620f9e1b219927c8961ac
-routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
+review_date: 2026-10-10
+review_fingerprint: 729307760e311f47c1a444e4d3ca0a6146a565c337b182aea5a458da42a86e07
+routing_manifest_sha256: 65d7d4d14fb4fa650e185d2ca969b1c92a0ae301cc786bb616160011a28b524f
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 8
+- Records: 8
+- Selected: 7
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
@@ -38,21 +38,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-castl
 
 ---
 action: 
-SELECTED | Suffolk | Woodbridge, East of England, IP12 3RE | £25,614.00 Annually (FTE) Grade 2, Point 3 | Admin Assistant
-employer: Hollesley Primary School
-closing_date: 2026-10-09T23:59:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b1134e4c75df1df9f21e6aad7a8eadbfd7507b09caaa27396942a7076f0d5c70
-source: Teaching Vacancies
-source_job_id: admin-assistant-hollesley-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-hollesley-primary-school
----
-
----
-action: 
 SELECTED | Suffolk | Ipswich, East of England, IP1 6EF | £26,016.00 - £26,847.00 Annually (FTE) | Admin Assistant
 employer: St Pancras Catholic Primary School
 closing_date: 2026-10-20T23:59:00+01:00
@@ -64,21 +49,6 @@ factual_fingerprint: df1b4757f312826262350ff9a2181d94acdcd6f52027ef8a539c0dfed98
 source: Teaching Vacancies
 source_job_id: admin-assistant-st-pancras-catholic-primary-school-ipswich-suffolk
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-st-pancras-catholic-primary-school-ipswich-suffolk
----
-
----
-action: 
-SELECTED | Suffolk | Woodbridge, East of England, IP12 4QL | £25,614.00 Annually (FTE) Grade 2, Point 3 | Admin Assistant
-employer: Waldringfield Primary School
-closing_date: 2026-10-09T23:59:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7ca249e18f059c9632d366584b38d805dceb3e3f4eb6ed738d2d33261d8ee5e7
-source: Teaching Vacancies
-source_job_id: admin-assistant-waldringfield-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-waldringfield-primary-school
 ---
 
 ---
@@ -124,6 +94,21 @@ factual_fingerprint: 7432cf61730f4a7be889cd420401c55acdf99bd7213f0128160480f6d55
 source: Teaching Vacancies
 source_job_id: attendance-administrator-4960249f-e370-447a-b360-bc70f95f677b
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-4960249f-e370-447a-b360-bc70f95f677b
+---
+
+---
+action: 
+SELECTED | Suffolk | Lowestoft, East of England, NR32 2NX | £21,075.00 - £21,748.00 Annually (Actual) Grade 3, point 4 (£26,016-£26,847FTE) | Business Support Officer
+employer: Roman Hill Primary School
+closing_date: 2026-10-30T12:00:00+00:00
+reason: Clear admin/service title: business support officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 251ec2983258e64fa5ba4673e5ae04855f3c6981d74156fa011019cef3195047
+source: Teaching Vacancies
+source_job_id: business-support-officer-6ff5eec8-bd79-4e5b-8713-4278b56ffa70
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-6ff5eec8-bd79-4e5b-8713-4278b56ffa70
 ---
 
 ---

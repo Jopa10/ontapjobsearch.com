@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-10-09
-review_fingerprint: 2097c2674a8f0ae6c60be5fb3afb434d6bf83694a374d72dc5716ad605feabff
-routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
+review_date: 2026-10-10
+review_fingerprint: 0907d20f70a83e934a0b31645d03275184c56847d3fe2e82e30c48aa7c159ac4
+routing_manifest_sha256: 65d7d4d14fb4fa650e185d2ca969b1c92a0ae301cc786bb616160011a28b524f
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 13
-- Selected: 8
+- Selected: 9
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -141,6 +141,21 @@ source_job_id: school-administrator-old-leake-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-old-leake-primary-academy
 ---
 
+---
+action: 
+SELECTED | Lincolnshire | Lincoln, LN5 8RE | PPS3 £25,614 per annum, pro rata £1,448 per annum | Sports Centre Receptionist
+employer: The Priory Federation Of Academies
+closing_date: 2026-10-18T23:59:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e32a0a7cabeab3fd0768694df4df2e31ebfec30897c447a62f5e9039059891a2
+source: Teaching Vacancies
+source_job_id: sports-centre-receptionist-the-priory-federation-of-academies
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sports-centre-receptionist-the-priory-federation-of-academies
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -151,7 +166,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## HARD_PASS
 
-- [Governance & Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/governance-compliance-officer-inspire-connected-communities-trust-louth-not-recorded) — Insufficient admin/service evidence.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-voyage-education-partnership) — Insufficient admin/service evidence.
 - [Operational Delivery Lead](https://teaching-vacancies.service.gov.uk/jobs/operational-delivery-lead) — Insufficient admin/service evidence.
 - [Senior Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-the-gainsborough-parish-church-primary-school) — Insufficient admin/service evidence.

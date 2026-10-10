@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - East
 
-review_date: 2026-10-09
+review_date: 2026-10-10
 review_fingerprint: 698aa078e452f3e9a370b6865d27cf9a98509a18b4c7459d1cde11cebd14eac8
-routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
+routing_manifest_sha256: 65d7d4d14fb4fa650e185d2ca969b1c92a0ae301cc786bb616160011a28b524f
 ontap_region: Lancashire - East
 slice_category: admin_service
 slice_status: LIVE

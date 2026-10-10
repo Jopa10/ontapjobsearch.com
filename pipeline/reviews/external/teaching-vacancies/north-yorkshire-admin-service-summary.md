@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-10-09
-review_fingerprint: 175b79af4efcd96961b8eae1f77fef9a61c3a317e41b5e0f72a228b71088fa6b
-routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
+review_date: 2026-10-10
+review_fingerprint: cb39c1fcead19730dc6a50aa198760f08ca873f863168da5d6b1f5138d93b4a1
+routing_manifest_sha256: 65d7d4d14fb4fa650e185d2ca969b1c92a0ae301cc786bb616160011a28b524f
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 3
+- Records: 12
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 6
@@ -34,6 +34,36 @@ factual_fingerprint: 6dfc0ff4523b32661698aef2f0509616c0df8d6941f8baa8037c6a55ab6
 source: Teaching Vacancies
 source_job_id: administration-assistant-gladstone-road-primary-school-scarborough-north-yorkshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-gladstone-road-primary-school-scarborough-north-yorkshire
+---
+
+---
+action: 
+SELECTED | Yorkshire - North | York, Yorkshire and the Humber, YO42 2LL | NJC SCP6 (£26,847 pro rata for term time working) | Assistant Exams Officer & Cover Administrator
+employer: Woldgate School and Sixth Form College
+closing_date: 2026-10-23T09:00:00+01:00
+reason: Clear admin/service title: administrator, exams officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 926bbbb9b7de4a5f4790f04cc7799c345a12fc710b4dc21b39097852d59d8091
+source: Teaching Vacancies
+source_job_id: assistant-exams-officer-cover-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/assistant-exams-officer-cover-administrator
+---
+
+---
+action: 
+SELECTED | Yorkshire - North | Scarborough, Yorkshire and the Humber, YO11 3LG | £25,614.00 - £26,427.00 Annually (FTE) | Receptionist Administrator
+employer: Braeburn Primary and Nursery Academy
+closing_date: 2026-10-30T12:00:00+00:00
+reason: Clear admin/service title: administrator, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 47eebabcf22c10aab8bf91110ae729bd49ad58f8e21e170b4853e48453ed824e
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire
 ---
 
 ---

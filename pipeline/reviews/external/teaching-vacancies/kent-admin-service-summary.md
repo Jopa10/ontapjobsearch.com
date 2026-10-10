@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-10-09
-review_fingerprint: c2e6a06b2020272dc89b6d00cf5f5e956372dd2e9ebcb5d8a68177c40b08b763
-routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
+review_date: 2026-10-10
+review_fingerprint: 3ad6f07ea3b6ab0a601f54231fab9619c223bc004fe7c101690f9aa97285c2b2
+routing_manifest_sha256: 65d7d4d14fb4fa650e185d2ca969b1c92a0ae301cc786bb616160011a28b524f
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 5
+- Records: 9
+- Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
@@ -34,6 +34,21 @@ factual_fingerprint: fc8e0ae1302b76fba6b7f3357dd0e21bd030cadd25a20797128127a4198
 source: Teaching Vacancies
 source_job_id: admin-assistant-gordons-children-s-academy-junior
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-gordons-children-s-academy-junior
+---
+
+---
+action: 
+SELECTED | Kent | Gillingham, South East, ME7 2JG | £26,016.00 - £29,071.00 Annually (FTE) Medway D2 4 - 11 £22,047.56 - £25,024.19 Actual Salary | Administration Assistant
+employer: Barnsole Primary School
+closing_date: 2026-11-02T23:59:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3cdb6b950e89ea725edd69286d6b8647005a28d0bb1e14d9f3d6c6b561d680bc
+source: Teaching Vacancies
+source_job_id: administration-assistant-barnsole-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-barnsole-primary-school
 ---
 
 ---

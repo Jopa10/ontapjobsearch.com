@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-10-09
+review_date: 2026-10-10
 review_fingerprint: 774a6cdece2ea77716aa9875bff05f5942c9a56367ac38dffe37cbf474e242f4
-routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
+routing_manifest_sha256: 65d7d4d14fb4fa650e185d2ca969b1c92a0ae301cc786bb616160011a28b524f
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 12
 - Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 8
 
 ## SELECTED
 
@@ -97,6 +97,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/year-team-administrat
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-camelford-community-primary-school) — Manager title salary ceiling £33,673 is not below £28,000.
 - [People Lead](https://teaching-vacancies.service.gov.uk/jobs/people-lead-1946fc8a-54b9-4506-808b-a157f27767c8) — Insufficient admin/service evidence.
 - [SEND Access Arrangements Coordinator](https://teaching-vacancies.service.gov.uk/jobs/send-access-arrangements-coordinator) — Insufficient admin/service evidence.
+- [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-cornwall-education-learning-trust) — Insufficient admin/service evidence.
 - [Specialist Administrator](https://teaching-vacancies.service.gov.uk/jobs/specialist-administrator-mounts-bay-academy) — Missing salary or pay scale.
 
 ## Safety boundary

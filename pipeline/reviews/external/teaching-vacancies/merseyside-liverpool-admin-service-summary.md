@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - Liverpool
 
-review_date: 2026-10-09
-review_fingerprint: d734e2b55c610319ba8f78568a39c264f0cfd6299c94a3af70f60fafb2bb75ba
-routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
+review_date: 2026-10-10
+review_fingerprint: 54d63a3e24e033f27896ed5c6ec2d607ee194dc93fcfa9f261bb8ff8be6b6a2d
+routing_manifest_sha256: 65d7d4d14fb4fa650e185d2ca969b1c92a0ae301cc786bb616160011a28b524f
 ontap_region: Merseyside - Liverpool
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 2
+- Records: 5
+- Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 3
 
 ## SELECTED
-
----
-action: 
-SELECTED | Merseyside - Liverpool | Liverpool, North West, L25 5JF | £15,348.41 Annually (FTE) | Administrative Assistant
-employer: Bishop Martin Church of England Primary School, Woolton
-closing_date: 2026-10-09T23:59:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 785f1254cb44c6218ddcc273973ab01c2140f335ae3d07828511f2c06cb62f29
-source: Teaching Vacancies
-source_job_id: administrative-assistant-bishop-martin-church-of-england-primary-school-woolton-liverpool-merseyside
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-bishop-martin-church-of-england-primary-school-woolton-liverpool-merseyside
----
 
 ---
 action: 

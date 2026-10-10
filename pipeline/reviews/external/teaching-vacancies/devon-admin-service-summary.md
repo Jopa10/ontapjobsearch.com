@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-10-09
-review_fingerprint: 06459fa924bea5f809557ea168696d1af48b939e2d91e7a8fe2da24a1a321567
-routing_manifest_sha256: 215d4050fb1c583b518f41680532403e3925dccaa0cd0000abb73fcd35af0cb2
+review_date: 2026-10-10
+review_fingerprint: f0bf3130fc5457db255d2616086125676e845d9cffb5b690a855f1a55fbd716e
+routing_manifest_sha256: 65d7d4d14fb4fa650e185d2ca969b1c92a0ae301cc786bb616160011a28b524f
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 22
-- Selected: 13
-- POSS awaiting decision: 2
+- Records: 24
+- Selected: 12
+- POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 8
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: fa3e4a08600fd7b03bc7027f0647856e642892d82ad6f06d0281851a495
 source: Teaching Vacancies
 source_job_id: administrative-assistant-newton-abbot-college
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-newton-abbot-college
----
-
----
-action: 
-SELECTED | Devon | Colyton, South West, EX24 6EQ | £13.92 - £14.36 Hourly Term Time Only | Administrator
-employer: Farway Church of England Primary School
-closing_date: 2026-10-16T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 31bb5942f550a3e88cbf8ccfd116d0f3577a611c0a477e23adf3038f8e5f2ee5
-source: Teaching Vacancies
-source_job_id: administrator-farway-church-of-england-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-farway-church-of-england-primary-school
 ---
 
 ---
@@ -220,6 +205,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-funding-admin
 
 ---
 action: 
+POSS | Devon | Colyton, South West, EX24 6EQ | £13.92 - £14.36 Hourly Term Time Only | Administrator
+employer: Farway Church of England Primary School
+closing_date: 2026-10-16T12:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 31bb5942f550a3e88cbf8ccfd116d0f3577a611c0a477e23adf3038f8e5f2ee5
+source: Teaching Vacancies
+source_job_id: administrator-farway-church-of-england-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-farway-church-of-england-primary-school
+---
+
+---
+action: 
 POSS | Devon | Okehampton, South West, EX20 1PW | £24,400.00 - £26,014.00 Annually (Actual) NJC Grade D - Scale Point 8 to 12 | Data Manager
 employer: Okehampton College
 closing_date: 2026-10-13T23:59:00+01:00
@@ -231,6 +231,21 @@ factual_fingerprint: d06c2a590fb9c0288eb61b2205b44f188937bb7dbfbf9d6c24960bc17b6
 source: Teaching Vacancies
 source_job_id: data-manager-ede70353-55db-4cf7-a540-0e0c7cfc4b8a
 source_url: https://teaching-vacancies.service.gov.uk/jobs/data-manager-ede70353-55db-4cf7-a540-0e0c7cfc4b8a
+---
+
+---
+action: 
+POSS | Devon | Axminster, South West, EX13 7LX | £27,709.00 - £29,070.00 Annually (FTE) | Senior Pupil Services Officer
+employer: All Saints Church of England Primary School
+closing_date: 2026-10-16T09:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5be19a2da44e51cffad1ba88593a7745ea6c633e6ba75475c8a5fd52ee5a8606
+source: Teaching Vacancies
+source_job_id: senior-pupil-services-officer-all-saints-church-of-england-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-all-saints-church-of-england-primary-school
 ---
 
 ---
@@ -255,7 +270,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 ## HARD_PASS
 
 - [Assistant Principal (Attendance, Personal Development and Wellbeing)](https://teaching-vacancies.service.gov.uk/jobs/assistant-principal-attendance-personal-development-and-wellbeing) — Out-of-scope occupation: principal.
-- [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-ea477c9c-8845-4838-bec8-625cc8839ab7) — Insufficient admin/service evidence.
+- [Behaviour Mentor](https://teaching-vacancies.service.gov.uk/jobs/behaviour-mentor-c0b5a4c8-a0a6-4637-b443-318248416339) — Insufficient admin/service evidence.
+- [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-78c3b3d0-c36c-40c6-bd99-f09dc92f1c31) — Insufficient admin/service evidence.
 - [Finance Business Partner - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-maternity-cover) — Insufficient admin/service evidence.
 - [Marketing and Communications Lead](https://teaching-vacancies.service.gov.uk/jobs/marketing-and-communications-lead-learning-academies-trust) — Insufficient admin/service evidence.
 - [People Advisor ( Devon Cluster)](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-devon-cluster) — Insufficient admin/service evidence.
