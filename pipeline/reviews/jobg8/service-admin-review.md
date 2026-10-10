@@ -229,7 +229,11 @@ job_id: 2099961
 
 ## SOUTH YORKSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £50000 per year [JobG8 salary fields] | HR Administrator Placement Programme - No Experience Needed
+job_id: 108092642
+---
 
 ## NORTH EAST — SELECTED
 
@@ -885,38 +889,14 @@ job_id: 107970959
 
 ---
 action:
-SELECTED | London | London | £14.80 per hour [extracted from description] | Business Administrator
-job_id: 2106856
----
-
----
-action:
 SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Executive Assistant and Board Secretary
 job_id: 2106853
 ---
 
 ---
 action:
-SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Finance and Resources Administrator
-job_id: 2106850
----
-
----
-action:
-SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Front Line Service Administrator
-job_id: 2106836
----
-
----
-action:
 SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | HR Administrator (Maternity Cover)
 job_id: 2106796
----
-
----
-action:
-SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Business Support Assistant
-job_id: 2106789
 ---
 
 ## LONDON — POSSIBLES
@@ -1121,12 +1101,6 @@ job_id: 2092163
 action:
 SELECTED | Hampshire | Hampshire | no salary in JobG8 salary fields; no supported salary amount found in description | Legal Assistant
 job_id: 2089703
----
-
----
-action:
-SELECTED | Hampshire | Hampshire | £27500 - £30000 per year [JobG8 salary fields] | Purchasing & Finance Assistant
-job_id: 23643_225600472
 ---
 
 ## HAMPSHIRE — POSSIBLES
@@ -1939,9 +1913,19 @@ SELECTED | Bristol & Bath | Bath |  | Part time Finance Assistant - 22. 5 hours 
 job_id: 2070922
 ---
 
+---
+action:
+SELECTED | Bristol & Bath | Bristol |  | Helpdesk Consultant
+job_id: 108091504
+---
+
 ## BRISTOL & BATH — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - BRISTOL & BATH | Bristol & Bath | Bristol | £50000 per year | HR Administrator Placement Programme - No Experience Needed
+job_id: 108092639
+---
 
 ## BUCKINGHAMSHIRE — SELECTED
 
@@ -2495,6 +2479,12 @@ job_id: 2088652
 action:
 SELECTED | Dorset | Dorset | £14.93 per hour | Finance Assistant - Temporary
 job_id: 2092371
+---
+
+---
+action:
+SELECTED | Dorset | Dorset | £27999 per year | Care Coordinator
+job_id: 108080615
 ---
 
 ## DORSET — POSSIBLES
@@ -3331,6 +3321,12 @@ SELECTED | Hertfordshire | Hertfordshire | £3,757 per annum | Mental Health Sup
 job_id: 2106847
 ---
 
+---
+action:
+SELECTED | Hertfordshire | Hertfordshire |  | Assistant Company Secretary
+job_id: 108090697
+---
+
 ## HERTFORDSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -3549,7 +3545,11 @@ job_id: 2078827
 
 ## MERSEYSIDE - LIVERPOOL — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - MERSEYSIDE - LIVERPOOL | Merseyside - Liverpool | Liverpool | £50000 per year | HR Administrator Placement Programme - No Experience Needed
+job_id: 108092604
+---
 
 ## NORFOLK — SELECTED
 
@@ -3699,6 +3699,12 @@ _No jobs in this group._
 
 ---
 action:
+SELECTED | North Scotland | Inverness |  | Private Client Paralegal
+job_id: 2020857
+---
+
+---
+action:
 SELECTED | North Scotland | Inverness |  | Bookkeeper
 job_id: 2063984
 ---
@@ -3845,6 +3851,12 @@ SELECTED | Nottinghamshire | Nottinghamshire |  | Repair Coordinator
 job_id: 2092298
 ---
 
+---
+action:
+SELECTED | Nottinghamshire | Nottinghamshire | £ | Medical Secretary
+job_id: 108083309
+---
+
 ## NOTTINGHAMSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -3939,6 +3951,12 @@ job_id: 2087203
 action:
 SELECTED | Oxfordshire | Oxfordshire |  | Bid Portal Administrator
 job_id: 108079592
+---
+
+---
+action:
+SELECTED | Oxfordshire | Oxfordshire | £13.1 per hour | Activities Coordinator
+job_id: 108061032
 ---
 
 ## OXFORDSHIRE — POSSIBLES
@@ -4163,6 +4181,12 @@ SELECTED | Somerset | Somerset | £12.71 per hour | Activities Coordinator
 job_id: 108102508
 ---
 
+---
+action:
+SELECTED | Somerset | Somerset |  | IT Service Desk Coordinator
+job_id: 108114031
+---
+
 ## SOMERSET — POSSIBLES
 
 _No jobs in this group._
@@ -4215,6 +4239,12 @@ job_id: 108074533
 action:
 SELECTED | Staffordshire | Staffordshire | £32000 per year | Purchasing Coordinator (Construction)
 job_id: 108111116
+---
+
+---
+action:
+SELECTED | Staffordshire | Staffordshire |  | Sales Coordinator
+job_id: 108062618
 ---
 
 ## STAFFORDSHIRE — POSSIBLES
@@ -4437,6 +4467,12 @@ job_id: 2088520
 action:
 SELECTED | Suffolk | Suffolk |  | Customer Service Coordinator - Shipping & Logistics
 job_id: 2081348
+---
+
+---
+action:
+SELECTED | Suffolk | Suffolk |  | Fleet Coordinator
+job_id: 108073870
 ---
 
 ## SUFFOLK — POSSIBLES
@@ -4803,12 +4839,6 @@ SELECTED | Wiltshire | Wiltshire |  | Team Coordinator
 job_id: 2068542
 ---
 
----
-action:
-SELECTED | Wiltshire | Wiltshire | £13.76 per hour | Customer Service Assistant
-job_id: 108055232
----
-
 ## WILTSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -5070,12 +5100,6 @@ job_id: 2077494
 action:
 DROPPED | London | South Croydon | £40000 - £45000 per year | PMO & Delivery Coordinator
 job_id: 2063119
----
-
----
-action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Tyne And Wear | £35000 - £45000 per year | Procurement & Logistics Coordinator
-job_id: 23643_225599266
 ---
 
 <!-- ONTAP_PERSISTENT_DECISIONS_V1

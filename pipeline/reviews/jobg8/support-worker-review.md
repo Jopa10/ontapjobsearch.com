@@ -61,6 +61,12 @@ SELECTED | Sussex | Crawley | £14.06 per hour | Night Care Assistant
 job_id: 108053317
 ---
 
+---
+action:
+SELECTED | Sussex | Hove | £13.45 per hour | Bank Support Worker
+job_id: 108114146
+---
+
 ## SUSSEX — POSSIBLES
 
 _No jobs in this group._
@@ -77,6 +83,30 @@ job_id: 108071061
 action:
 SELECTED | Cumbria - South | Kendal | £3,840 per year | Children's Residential Support Worker
 job_id: 25362_JR105208
+---
+
+---
+action:
+SELECTED | Cumbria - South | Ulverston | £12.85 per hour | Support Worker
+job_id: 108093204
+---
+
+---
+action:
+SELECTED | Cumbria - South | Kirkby Stephen | £ | Childrens Residential Support Worker
+job_id: 108113710
+---
+
+---
+action:
+SELECTED | Cumbria - South | Appleby-in-westmorland | £ | Childrens Residential Support Worker
+job_id: 108113712
+---
+
+---
+action:
+SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour | Waking Night Extra Care Support Worker
+job_id: 108115073
 ---
 
 ## CUMBRIA SOUTH — POSSIBLES
@@ -157,6 +187,12 @@ SELECTED | Kent | Dartford | £14 per hour | Female Lifestyle Personal Assistant
 job_id: 108091635
 ---
 
+---
+action:
+SELECTED | Kent | Margate | £13.01 - £13.42 per hour | Complex Needs Support Worker (Day Resource Services)
+job_id: 108113450
+---
+
 ## KENT — POSSIBLES
 
 _No jobs in this group._
@@ -183,12 +219,6 @@ _No jobs in this group._
 
 ---
 action:
-SELECTED | Oxfordshire | Banbury | £14.4 per hour | Home Carer
-job_id: 107626596
----
-
----
-action:
 SELECTED | Oxfordshire | Witney | £14.4 per hour | Home Carer
 job_id: 107626591
 ---
@@ -201,8 +231,8 @@ job_id: 107626594
 
 ---
 action:
-SELECTED | Oxfordshire | Abingdon | £27417 per year | Female Support Worker
-job_id: 108090914
+SELECTED | Oxfordshire | Didcot | £13.75 - £14.05 per hour | Support Worker - Supported Living - FEMALE ONLY
+job_id: 108091380
 ---
 
 ## OXFORDSHIRE — POSSIBLES
