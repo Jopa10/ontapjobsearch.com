@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import {
+  createDeletionCandidate,
   pacificDate,
   selectIndexingCandidates,
   type IndexingCandidate,
@@ -25,6 +26,32 @@ const config = {
   newNonJobg8Reserve: 20,
   deletionReserve: 20,
 };
+
+test('keeps deletion notifications queued until Google accepts them', () => {
+  const url = 'https://www.ontapjobsearch.com/jobs/jobg8-queued-deletion';
+  const submitted = { source: 'jobg8' as const, hasValidThrough: false };
+  const observation = {
+    fingerprint: 'old-fingerprint',
+    source: 'jobg8' as const,
+    firstObservedDate: '2026-10-01',
+  };
+
+  const firstDay = createDeletionCandidate(url, submitted, observation, '2026-10-09');
+  assert.equal(firstDay.observed.missingSinceDate, '2026-10-09');
+  assert.equal(firstDay.candidate.type, 'URL_DELETED');
+
+  const nextDay = createDeletionCandidate(
+    url,
+    submitted,
+    firstDay.observed,
+    '2026-10-10'
+  );
+  assert.equal(nextDay.observed.missingSinceDate, '2026-10-09');
+  assert.equal(nextDay.candidate.type, 'URL_DELETED');
+  assert.deepEqual(selectIndexingCandidates([nextDay.candidate], [], config), [
+    nextDay.candidate,
+  ]);
+});
 
 test('uses JobG8 capacity first and caps non-JobG8 jobs at 20', () => {
   const selected = selectIndexingCandidates(
