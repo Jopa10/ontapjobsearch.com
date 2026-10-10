@@ -128,6 +128,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "108053865",
+    "title": "Care Coordinator",
+    "company": "Agincare Group - Agency - Permanent",
+    "location": "Worcestershire",
+    "region": "Worcestershire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£",
+    "posted_date": "2026-10-04",
+    "description": "Package Description:\n\nPerhaps you're an experienced care professional ready for something new, or you have a background in workforce scheduling and would love to bring those skills into care.\n\nAt Agincare, we know great care starts with great coordination. We're looking for a Care Coordinator at our Stourport-on-Severn who enjoys organising, problem-solving, and connecting the right carers with the c click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBYLeNz34XxIW11694E%2foOHmk",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Agincare Group",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "2074804",
     "title": "Wedding & Events Co-ordinator",
     "company": "Four Squared - Agency - Permanent",
@@ -169,6 +194,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9798-26-0096",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

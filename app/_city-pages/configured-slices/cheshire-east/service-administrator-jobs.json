@@ -78,6 +78,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "107933798",
+    "title": "Service Coordinator",
+    "company": "Adullam Homes - Agency - Permanent",
+    "location": "Congleton",
+    "region": "Cheshire - East",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£26,890.50 per annum",
+    "posted_date": "2026-09-06",
+    "description": "Service Coordinator\n\nLocation: Cheshire East North\n\nSalary: £26,890.50 per annum\n\nJob title: Service Coordinator\n\nA fulfilling and exciting opportunity available for a Service Coordinator to join our Association click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBZKG7Z8lMxc0iKiJh%2faEt12k",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Adullam Homes",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "2066069",
     "title": "Graduate Town Planner",
     "company": "Penguin Recruitment Ltd - Agency - Permanent",
@@ -144,6 +169,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0233-26-2106",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]
