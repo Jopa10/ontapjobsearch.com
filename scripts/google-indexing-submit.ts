@@ -6,6 +6,7 @@ import { buildJobPostingSchema } from '../lib/job-posting-schema';
 import { getPublishedJobs, type PublishedJob } from '../lib/published-jobs';
 import {
   attemptKey,
+  createDeletionCandidate,
   daysAgo,
   pacificDate,
   selectIndexingCandidates,
@@ -322,22 +323,9 @@ function buildCandidates(
       source: state.submitted[url].source,
       firstObservedDate: daysAgo(date, 1),
     };
-    if (!observed.missingSinceDate) observed.missingSinceDate = date;
-    state.observed[url] = observed;
-    if (observed.missingSinceDate !== date) {
-      delete state.submitted[url];
-      delete state.observed[url];
-      continue;
-    }
-    candidates.push({
-      url,
-      type: 'URL_DELETED',
-      source: state.submitted[url].source,
-      lane: 'deletion',
-      postedDate: '',
-      qualityScore: 0,
-      deletionRisk: state.submitted[url].hasValidThrough ? 1 : 3,
-    });
+    const deletion = createDeletionCandidate(url, state.submitted[url], observed, date);
+    state.observed[url] = deletion.observed;
+    candidates.push(deletion.candidate);
   }
   for (const [url, item] of current) {
     const observed = state.observed[url];

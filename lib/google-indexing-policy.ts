@@ -25,6 +25,36 @@ export type AttemptSummary = {
   source?: IndexingSource;
 };
 
+export function createDeletionCandidate(
+  url: string,
+  submitted: { source: IndexingSource; hasValidThrough: boolean },
+  observed: {
+    fingerprint: string;
+    source: IndexingSource;
+    firstObservedDate: string;
+    missingSinceDate?: string;
+  },
+  date: string
+) {
+  const retainedObservation = {
+    ...observed,
+    missingSinceDate: observed.missingSinceDate ?? date,
+  };
+
+  return {
+    observed: retainedObservation,
+    candidate: {
+      url,
+      type: 'URL_DELETED' as const,
+      source: submitted.source,
+      lane: 'deletion' as const,
+      postedDate: '',
+      qualityScore: 0,
+      deletionRisk: submitted.hasValidThrough ? 1 : 3,
+    },
+  };
+}
+
 export type SelectionConfig = {
   dailyQuota: number;
   newNonJobg8Reserve: number;
