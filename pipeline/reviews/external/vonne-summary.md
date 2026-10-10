@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-10-09
-review_fingerprint: b813af2622a1fe7621e01cea41277c04fb2e6bc79089c35da35e342806db254a
+review_date: 2026-10-10
+review_fingerprint: 925bcfcd755e2bc43637285a31947d29f87d05b34bf72b64400a7d371e967757
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,20 +10,20 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-10-09T14:38:22+01:00
+Run generated: 2026-10-10T13:54:10+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 265
+JobG8 comparison rows: 269
 Approved NEJobs comparison rows: 0
 
 ## Funnel
 - VONNE listings read: 15
-- Detail-page candidates: 7
-- Detail pages fetched successfully: 7
+- Detail-page candidates: 6
+- Detail pages fetched successfully: 6
 - Detail failures/listing fallbacks: 0
-- Obvious hard passes not detail-fetched: 8
+- Obvious hard passes not detail-fetched: 9
 - Tees Valley explicitly excluded: 0
 - Outside or unmapped geography excluded: 2
-- Generic/derived geography rows requiring review: 1
+- Generic/derived geography rows requiring review: 2
 - Retained target candidates: 13
 
 ## Outcomes
@@ -53,6 +53,19 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173521
 ---
 ## POSS — choose SELECT or EXCLUDE
 
+---
+action:
+POSS | North East | Hybrid | £51,928 Per Annum | Could you lead the next chapter of Community Action Northumberland?
+employer: Chief Executive
+closing_date: 02 November 2026
+geography: GENERIC_REVIEW — generic VONNE location requires manual North East check
+reason: North East geography is generic or derived and requires review
+source: VONNE
+tracking_key: vonne-173526
+vacancy_fingerprint: 4fcc153ec86848d32ff2901cf66ca179190c941e10f722c0db25bdaf508ae482
+source_job_id: 173526
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173526
+---
 ---
 action:
 POSS | North East | Regionwide | £29,542 to 30,515 Pro Rata | Going Green Together Project Officer (Maternity Cover)
@@ -117,19 +130,6 @@ tracking_key: vonne-173497
 vacancy_fingerprint: 75468d164acfac9275b9bfbe745f8d272212d8fb197101a8c7a81b3e1fa2f7a8
 source_job_id: 173497
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173497
----
----
-action:
-POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £28,366 to 31,518 Per Annum | Grant Holder Support Officer
-employer: Connected Voice
-closing_date: Monday, October 26, 2026 - 17:00
-geography: CONFIRMED — location: approved location fallback
-reason: annualised upper salary £31,518 exceeds North East review point £30,000
-source: VONNE
-tracking_key: vonne-173484
-vacancy_fingerprint: 15891c6b102ec572bf3f7dbd5cee39bf27e8826c46768d20565728c755378952
-source_job_id: 173484
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173484
 ---
 ---
 action:
