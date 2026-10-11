@@ -25,6 +25,7 @@ CATALOG = PIPELINE_ROOT / "config" / "uk_assessable_regions.json"
 REGISTER = PIPELINE_ROOT / "registers" / "region_category_slice_register.csv"
 OUTPUT = PIPELINE_ROOT / "reports-daily" / "daily-region-overview.md"
 JOBG8_CATEGORY_PROFILE = PIPELINE_ROOT / "reports-daily" / "jobg8-feed-category-profile.csv"
+JOBG8_HISTORY = PIPELINE_ROOT / "reports-daily" / "jobg8-feed-history.csv"
 GEO_LOOKUP = PIPELINE_ROOT / "geo" / "geo_lookup.xlsx"
 CITY_PAGE_REGISTER = PIPELINE_ROOT / "city_pages" / "city-page-register.json"
 BROAD_CITY_PAGE_REGISTER = PIPELINE_ROOT / "city_pages" / "broad-city-page-register.json"
@@ -199,7 +200,32 @@ class JobG8CategoryProfile:
     feed_date: str
     total_jobs: int
     published_jobs: int | None
+    category_total: int
     counts: tuple[tuple[str, int, int | None], ...]
+
+    @property
+    def received_difference(self) -> int:
+        return self.category_total - self.total_jobs
+
+    @property
+    def received_reconciles(self) -> bool:
+        return self.received_difference == 0
+
+
+@dataclass(frozen=True)
+class JobG8HistoryDay:
+    feed_date: str
+    total_jobs: int
+    published_jobs: int | None
+    counts: tuple[tuple[str, int, int | None], ...]
+
+    @property
+    def category_total(self) -> int:
+        return sum(received for _category, received, _published in self.counts)
+
+    @property
+    def received_difference(self) -> int:
+        return self.category_total - self.total_jobs
 
 
 @dataclass(frozen=True)
@@ -379,12 +405,101 @@ def _load_jobg8_category_profile() -> JobG8CategoryProfile | None:
         for row in rows
     )
     total = totals.pop()
-    if sum(count for _category, count, _published in counts) != total:
-        raise RuntimeError("JobG8 category profile does not reconcile to its stated total")
+    category_total = sum(count for _category, count, _published in counts)
     published_total = published_totals.pop() if has_published_counts else None
     if published_total is not None and sum(count or 0 for _category, _received, count in counts) != published_total:
         raise RuntimeError("JobG8 category profile does not reconcile to its published total")
-    return JobG8CategoryProfile(feed_dates.pop(), total, published_total, counts)
+    return JobG8CategoryProfile(feed_dates.pop(), total, published_total, category_total, counts)
+
+
+JOBG8_HISTORY_FIELDS = (
+    "feed_date",
+    "total_jobs",
+    "published_jobg8_jobs",
+    "jobg8_category",
+    "count",
+    "published_count",
+)
+
+
+def _upsert_jobg8_history(profile: JobG8CategoryProfile | None) -> None:
+    """Record the post-deployment profile once per feed date, retaining ten dates."""
+    if profile is None:
+        return
+
+    history_rows: list[dict[str, str]] = []
+    if JOBG8_HISTORY.is_file():
+        with JOBG8_HISTORY.open("r", encoding="utf-8-sig", newline="") as handle:
+            reader = csv.DictReader(handle)
+            if not reader.fieldnames or not set(JOBG8_HISTORY_FIELDS).issubset(reader.fieldnames):
+                raise RuntimeError(f"Unexpected JobG8 history schema: {JOBG8_HISTORY}")
+            history_rows = [dict(row) for row in reader]
+
+    # A rerun for the same London feed date replaces its previous snapshot.
+    history_rows = [row for row in history_rows if row.get("feed_date") != profile.feed_date]
+    history_rows.extend(
+        {
+            "feed_date": profile.feed_date,
+            "total_jobs": str(profile.total_jobs),
+            "published_jobg8_jobs": "" if profile.published_jobs is None else str(profile.published_jobs),
+            "jobg8_category": category,
+            "count": str(received),
+            "published_count": "" if published is None else str(published),
+        }
+        for category, received, published in profile.counts
+    )
+
+    dates = sorted({row.get("feed_date", "") for row in history_rows if row.get("feed_date")}, reverse=True)[:10]
+    keep = set(dates)
+    history_rows = [row for row in history_rows if row.get("feed_date") in keep]
+    history_rows.sort(key=lambda row: (row["feed_date"], row["jobg8_category"].casefold()))
+
+    JOBG8_HISTORY.parent.mkdir(parents=True, exist_ok=True)
+    with JOBG8_HISTORY.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=JOBG8_HISTORY_FIELDS)
+        writer.writeheader()
+        writer.writerows(history_rows)
+
+
+def _load_jobg8_history() -> list[JobG8HistoryDay]:
+    if not JOBG8_HISTORY.is_file():
+        return []
+    grouped: dict[str, list[dict[str, str]]] = defaultdict(list)
+    with JOBG8_HISTORY.open("r", encoding="utf-8-sig", newline="") as handle:
+        reader = csv.DictReader(handle)
+        if not reader.fieldnames or not set(JOBG8_HISTORY_FIELDS).issubset(reader.fieldnames):
+            raise RuntimeError(f"Unexpected JobG8 history schema: {JOBG8_HISTORY}")
+        for row in reader:
+            feed_date = (row.get("feed_date") or "").strip()
+            if feed_date:
+                grouped[feed_date].append(row)
+
+    days: list[JobG8HistoryDay] = []
+    for feed_date, rows in grouped.items():
+        totals = {int(row["total_jobs"]) for row in rows}
+        published_totals = {
+            int(row["published_jobg8_jobs"])
+            for row in rows if (row.get("published_jobg8_jobs") or "").strip()
+        }
+        if len(totals) != 1 or len(published_totals) > 1:
+            raise RuntimeError(f"JobG8 history contains inconsistent totals for {feed_date}")
+        counts = tuple(
+            (
+                (row.get("jobg8_category") or "(blank)").strip(),
+                int((row.get("count") or "0").strip()),
+                int(row["published_count"]) if (row.get("published_count") or "").strip() else None,
+            )
+            for row in rows
+        )
+        days.append(
+            JobG8HistoryDay(
+                feed_date,
+                totals.pop(),
+                published_totals.pop() if published_totals else None,
+                counts,
+            )
+        )
+    return sorted(days, key=lambda day: day.feed_date, reverse=True)[:10]
 
 
 def _load_family_coverage_date() -> str:
@@ -563,29 +678,29 @@ def _published_page_inventory() -> tuple[list[list[object]], dict[str, int]]:
     return [*summary, *details], dict(counts)
 
 
-def _git_show_main(repo_path: str) -> str:
+def _git_show_report_ref(repo_path: str) -> str:
     try:
-        return subprocess.check_output(["git", "show", f"origin/main:{repo_path}"], cwd=REPO_ROOT, text=True)
+        return subprocess.check_output(["git", "show", f"HEAD:{repo_path}"], cwd=REPO_ROOT, text=True)
     except subprocess.CalledProcessError as exc:
-        raise RuntimeError(f"Could not read {repo_path} from origin/main") from exc
+        raise RuntimeError(f"Could not read {repo_path} from the report source commit") from exc
 
 
-def _main_tree_names(folder: str) -> list[str]:
+def _report_tree_names(folder: str) -> list[str]:
     try:
-        return subprocess.check_output(["git", "ls-tree", "-r", "--name-only", "origin/main", folder], cwd=REPO_ROOT, text=True).splitlines()
+        return subprocess.check_output(["git", "ls-tree", "-r", "--name-only", "HEAD", folder], cwd=REPO_ROOT, text=True).splitlines()
     except subprocess.CalledProcessError as exc:
-        raise RuntimeError(f"Could not inspect origin/main/{folder}") from exc
+        raise RuntimeError(f"Could not inspect {folder} in the report source commit") from exc
 
 
 def _latest_live_source_report() -> tuple[str, str]:
     candidates = sorted(
-        name for name in _main_tree_names("pipeline/reports-daily")
+        name for name in _report_tree_names("pipeline/reports-daily")
         if name.startswith("pipeline/reports-daily/live-job-source-count-") and name.endswith(".csv")
     )
     if not candidates:
-        raise RuntimeError("No live-job-source-count report found on origin/main")
+        raise RuntimeError("No live-job-source-count report found in the report source commit")
     report_path = candidates[-1]
-    return report_path, _git_show_main(report_path)
+    return report_path, _git_show_report_ref(report_path)
 
 
 def _load_source_report_summary() -> SourceReportSummary:
@@ -692,7 +807,7 @@ def _live_count_for_market(
 
 
 def _load_selected_counts(repo_path: str) -> dict[str, int]:
-    text = _git_show_main(repo_path)
+    text = _git_show_report_ref(repo_path)
     reader = csv.DictReader(io.StringIO(text.lstrip("\ufeff")))
     if not reader.fieldnames or "region" not in reader.fieldnames:
         raise RuntimeError(f"Unexpected decision report header in {repo_path}")
@@ -717,13 +832,13 @@ def _load_selected_counts(repo_path: str) -> dict[str, int]:
 
 def _load_latest_profile_counts() -> tuple[str, str, dict[tuple[str, str], int]]:
     candidates = sorted(
-        name for name in _main_tree_names("pipeline/reports-module2")
+        name for name in _report_tree_names("pipeline/reports-module2")
         if name.startswith("pipeline/reports-module2/") and name.endswith("-module2-daily-counts.csv")
     )
     if not candidates:
         return "", "", {}
     report_path = candidates[-1]
-    text = _git_show_main(report_path)
+    text = _git_show_report_ref(report_path)
     reader = csv.DictReader(io.StringIO(text.lstrip("\ufeff")))
     required = {"date", "region", "region_scope", "category", "daily_job_count"}
     if not reader.fieldnames or not required.issubset(reader.fieldnames):
@@ -746,13 +861,13 @@ def _load_latest_profile_counts() -> tuple[str, str, dict[tuple[str, str], int]]
 
 def _load_teaching_vacancies_counts(regions: list[tuple[str, str]]) -> dict[str, int]:
     folder = "pipeline/output-external/teaching-vacancies-regional"
-    available = set(_main_tree_names(folder))
+    available = set(_report_tree_names(folder))
     counts: dict[str, int] = {}
     for region_name, slug in regions:
         path = f"{folder}/{slug}-admin-service.json"
         if path not in available:
             continue
-        data = json.loads(_git_show_main(path).lstrip("\ufeff"))
+        data = json.loads(_git_show_report_ref(path).lstrip("\ufeff"))
         counts[region_name] = _count_json_data(data)
     return counts
 
@@ -765,6 +880,7 @@ def build() -> str:
     statuses = _load_statuses()
     source_report = _load_source_report_summary()
     jobg8_profile = _load_jobg8_category_profile()
+    jobg8_history = _load_jobg8_history()
     family_coverage_date = _load_family_coverage_date()
     if jobg8_profile and jobg8_profile.feed_date != family_coverage_date:
         raise RuntimeError(
@@ -908,12 +1024,13 @@ def build() -> str:
     ]
 
     if jobg8_profile:
+        received_status = "PASS" if jobg8_profile.received_reconciles else "FAIL"
         lines.extend([
             "## JOBG8 FEED RECEIVED",
             "",
             f"**JobG8 jobs received: {jobg8_profile.total_jobs:,}** (feed date: {jobg8_profile.feed_date})",
             "",
-            "| JobG8 classification | Jobs received | Ontap jobs |",
+            "| JobG8 classification | Jobs received | Ontap jobs classified/published |",
             "|---|---:|---:|",
             *(
                 (
@@ -923,13 +1040,66 @@ def build() -> str:
                 for category, received, published in jobg8_profile.counts
             ),
             (
-                f"| Total Ontap JobG8 jobs published today | {jobg8_profile.total_jobs:,} | "
+                f"| Total across classifications | {jobg8_profile.category_total:,} | "
                 f"{jobg8_profile.published_jobs:,} |"
                 if jobg8_profile.published_jobs is not None else
-                f"| Total JobG8 jobs received | {jobg8_profile.total_jobs:,} |  |"
+                f"| Total across classifications | {jobg8_profile.category_total:,} |  |"
             ),
             "",
+            "## JOBG8 XML RECONCILIATION",
+            "",
+            "| Check | XML feed total | Sum of ‘Jobs received’ | Difference (sum − XML) | Result |",
+            "|---|---:|---:|---:|---|",
+            f"| JobG8 feed categories | {jobg8_profile.total_jobs:,} | {jobg8_profile.category_total:,} | {jobg8_profile.received_difference:,} | **{received_status}** |",
+            "",
+            (
+                f"**JobG8 feed reconciliation: {received_status}.** Difference is "
+                f"{jobg8_profile.received_difference:,} jobs (summed categories minus XML total)."
+            ),
+            "",
+            "## JOBG8 LAST 10 FEED DATES — TOTALS ONLY",
+            "",
+            (
+                f"Saved history contains {len(jobg8_history)} of the latest 10 feed dates. "
+                "Older feed totals were not saved and are not backfilled."
+            ),
+            "",
+            "| Feed date | JobG8 jobs received | Ontap jobs classified/published |",
+            "|---|---:|---:|",
+            *(
+                f"| {day.feed_date} | {day.total_jobs:,} | {day.published_jobs:,} |"
+                if day.published_jobs is not None else
+                f"| {day.feed_date} | {day.total_jobs:,} |  |"
+                for day in jobg8_history
+            ),
+            "",
+            "## JOBG8 LAST 10 FEED DATES — SELECTED JOBS BY CLASSIFICATION",
+            "",
+            "Each dated column shows Ontap jobs classified/published in that JobG8 classification.",
+            "",
         ])
+        if jobg8_history:
+            category_order: list[str] = []
+            for day in jobg8_history:
+                for category, _received, _published in day.counts:
+                    if category not in category_order:
+                        category_order.append(category)
+            lines.extend([
+                "| JobG8 classification | " + " | ".join(day.feed_date for day in jobg8_history) + " |",
+                "|---|" + "---:|" * len(jobg8_history),
+                *(
+                    "| " + category + " | " + " | ".join(
+                        str(next((published for name, _received, published in day.counts if name == category), 0))
+                        if any(name == category and published is not None for name, _received, published in day.counts)
+                        else "—"
+                        for day in jobg8_history
+                    ) + " |"
+                    for category in category_order
+                ),
+            ])
+        else:
+            lines.append("No dated JobG8 category history is available yet.")
+        lines.append("")
 
     lines.extend([
         "## PAGES",
@@ -1045,6 +1215,7 @@ def build() -> str:
 
 def main() -> None:
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    _upsert_jobg8_history(_load_jobg8_category_profile())
     OUTPUT.write_text(build(), encoding="utf-8")
     print(f"Wrote {OUTPUT}")
 

@@ -5,9 +5,12 @@ from unittest.mock import patch
 
 from scripts.build_daily_region_overview import (
     FAMILIES,
+    JobG8CategoryProfile,
     _live_count_for_market,
     _city_opportunity_rows,
     _load_jobg8_category_profile,
+    _load_jobg8_history,
+    _upsert_jobg8_history,
     _load_family_coverage_date,
     _published_page_inventory,
     _site_inventory_summary,
@@ -100,7 +103,64 @@ class LiveRegionalRollupTests(unittest.TestCase):
                 loaded = _load_jobg8_category_profile()
         self.assertEqual(loaded.total_jobs, 5354)
         self.assertEqual(loaded.published_jobs, 1308)
+        self.assertEqual(loaded.category_total, 5354)
+        self.assertEqual(loaded.received_difference, 0)
+        self.assertTrue(loaded.received_reconciles)
         self.assertEqual(loaded.counts[0], ("I.T. & Communications", 2547, 684))
+
+    def test_jobg8_profile_reports_a_feed_total_difference_instead_of_hiding_it(self) -> None:
+        from pathlib import Path
+        import tempfile
+        with tempfile.TemporaryDirectory() as directory:
+            profile = Path(directory) / "profile.csv"
+            profile.write_text(
+                "feed_date,total_jobs,published_jobg8_jobs,jobg8_category,count,published_count\n"
+                "2026-09-01,5355,1308,I.T. & Communications,2547,684\n"
+                "2026-09-01,5355,1308,Administration,2807,624\n",
+                encoding="utf-8",
+            )
+            with patch("scripts.build_daily_region_overview.JOBG8_CATEGORY_PROFILE", profile):
+                loaded = _load_jobg8_category_profile()
+        self.assertEqual(loaded.total_jobs, 5355)
+        self.assertEqual(loaded.category_total, 5354)
+        self.assertEqual(loaded.received_difference, -1)
+        self.assertFalse(loaded.received_reconciles)
+
+    def test_jobg8_history_replaces_same_date_and_keeps_only_ten_feed_dates(self) -> None:
+        from pathlib import Path
+        import tempfile
+        with tempfile.TemporaryDirectory() as directory:
+            history_path = Path(directory) / "history.csv"
+            with patch("scripts.build_daily_region_overview.JOBG8_HISTORY", history_path):
+                for day in range(1, 12):
+                    profile = JobG8CategoryProfile(
+                        f"2026-09-{day:02d}", 100 + day, 10 + day, 100 + day,
+                        (("Administration", 100 + day, 10 + day),),
+                    )
+                    _upsert_jobg8_history(profile)
+                replacement = JobG8CategoryProfile(
+                    "2026-09-11", 211, 21, 211, (("Administration", 211, 21),)
+                )
+                _upsert_jobg8_history(replacement)
+                history = _load_jobg8_history()
+                saved = history_path.read_text(encoding="utf-8")
+        self.assertEqual(len(history), 10)
+        self.assertEqual(history[0].feed_date, "2026-09-11")
+        self.assertEqual(history[0].total_jobs, 211)
+        self.assertEqual(history[0].published_jobs, 21)
+        self.assertNotIn("2026-09-01", saved)
+        self.assertEqual(saved.count("2026-09-11,211,21,Administration,211,21"), 1)
+
+    def test_daily_overview_workflow_waits_for_a_successful_production_deploy(self) -> None:
+        from pathlib import Path
+        workflow = Path("../.github/workflows/build-daily-region-overview.yml").read_text(encoding="utf-8")
+        self.assertIn("Deploy Ontap production after publish", workflow)
+        self.assertIn("github.event.workflow_run.conclusion == 'success'", workflow)
+        self.assertIn("github.event.workflow_run.head_branch == 'main'", workflow)
+        self.assertNotIn("      - Run full JobG8 daily process", workflow)
+        self.assertNotIn("      - Apply JobG8 review decisions", workflow)
+        self.assertNotIn("      - Apply and publish Ontap daily review", workflow)
+        self.assertNotIn("\n  push:\n", workflow)
 
     def test_overview_includes_all_eight_governed_families(self) -> None:
         self.assertEqual(

@@ -68,6 +68,7 @@ jobs:
           fi
 
       - name: Verify production deployment SHA
+        id: verified
         env:
           EXPECTED_SHA: ${{ steps.expected.outputs.sha }}
         run: |
@@ -89,12 +90,14 @@ jobs:
               git fetch origin main --quiet
 
               if [ "$deployed_sha" = "$EXPECTED_SHA" ]; then
+                echo "sha=$deployed_sha" >> "$GITHUB_OUTPUT"
                 echo "Production reached expected commit $deployed_sha." >> "$GITHUB_STEP_SUMMARY"
                 exit 0
               fi
 
               if git cat-file -e "${deployed_sha}^{commit}" 2>/dev/null && \
                  git merge-base --is-ancestor "$EXPECTED_SHA" "$deployed_sha"; then
+                echo "sha=$deployed_sha" >> "$GITHUB_OUTPUT"
                 echo "Production reached newer main commit $deployed_sha." >> "$GITHUB_STEP_SUMMARY"
                 exit 0
               fi
@@ -106,6 +109,20 @@ jobs:
 
           echo "::error::Production did not reach expected commit $EXPECTED_SHA within 6 minutes. Last reported version: ${deployed_sha:-unavailable}."
           exit 1
+
+      - name: Record verified live production SHA for reports
+        env:
+          VERIFIED_SHA: ${{ steps.verified.outputs.sha }}
+        run: |
+          set -euo pipefail
+          printf '%s\n' "$VERIFIED_SHA" > "$RUNNER_TEMP/verified-production-sha.txt"
+
+      - name: Upload verified production SHA
+        uses: actions/upload-artifact@v4
+        with:
+          name: verified-production-sha
+          path: ${{ runner.temp }}/verified-production-sha.txt
+          retention-days: 7
 
       - name: Open or update stale-production issue
         if: failure()

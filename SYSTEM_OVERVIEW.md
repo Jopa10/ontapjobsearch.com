@@ -1,11 +1,13 @@
 # Ontap System Overview
 
-**Last updated:** 10 October 2026
-**Status:** Canonical production state, reconciled on 10 October against active workflow definitions and Vercel project records.
+**Last updated:** 11 October 2026
+**Status:** Canonical production state, reconciled on 11 October against active workflow definitions and Vercel project records.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 11 October 2026 — **The daily regional overview now runs after verified production deployment:** it uses the exact deployed commit, checks the JobG8 XML total against the summed category counts, and shows PASS/FAIL with the difference. Its two 10-date views show daily received/published totals and selected jobs by classification. Saved history starts on 11 October because earlier feed/category totals were not saved; none are guessed. Report updates do not start Vercel builds.
 
 - 9 October 2026 — **Daily publish now explicitly starts the Vercel deployment:** scraper/feed pushes no longer each trigger builds. After verified pages publish successfully, the daily orchestrator starts and waits for the deployment workflow. This fixes the missed trigger from the 9 October run; the current site stays live while a replacement builds.
 
@@ -77,7 +79,7 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 - 2 September 2026 — **Twelve more regional slices are LIVE:** Wales South – Cardiff & Vale Service Admin; Berkshire, Hertfordshire, Kent, Glasgow, Surrey and Sussex Sales Advisor; and Bristol & Bath, Gloucestershire, Hertfordshire, Kent and Oxfordshire Marketing. Their most recent governed counts are respectively **9**; **8, 9, 9, 7, 6, 7**; and **8, 7, 9, 7, 9**. No other slice changes.
 
-- 3 September 2026 — **Post-review category reconciliation completes end to end:** applying JobG8 review decisions refreshes the same-feed category profile, and completion of that workflow directly triggers the daily regional overview rebuild. The direct completion trigger is required because GitHub does not emit a follow-on `push` workflow from a commit made with its workflow token.
+- 3 September 2026 — **Historical trigger design (superseded 11 October 2026):** applying JobG8 review decisions refreshed the same-feed category profile and directly triggered the overview. The current workflow waits for a successful production deployment so the report matches the published site.
 - 2 September 2026 — **All four daily regional overview sheets now use one JobG8 feed date:** the daily JobG8 run refreshes the JobG8 category sheet from its own feed and prepared published outputs, while the overview blocks any mixed-date workbook. Sitewide, JobG8 categories, LIVE and NOT LIVE therefore represent the same most recent successful JobG8 run.
 
 - 2 September 2026 — **The homepage's four recent vacancies now show breadth:** cards come from genuine jobs in the newest 48-hour window only when they include a clear numeric salary, and the automatic choice prefers different roles, regions and titles instead of repeating one vacancy type from a source burst.
@@ -213,6 +215,8 @@ The daily regional overview is backed by same-feed **Service Admin, Support Work
 
 `pipeline/reports-daily/daily-family-coverage.csv` contains 624 rows (78 markets × eight families). `pipeline/reports-daily/daily-family-coverage-history.json` is the rolling evidence store: one snapshot per feed date, same-date reruns replace the existing date, all current counts are retained within each snapshot, and only the latest 14 feed dates are kept. Older snapshots contribute only to families present in them; later families are not backfilled artificially. In `daily-region-overview.md`, rolling metrics are shown only for NOT LIVE slices as **today / 14d average / days at 6+**. The 6+ count is deliberately a watch signal rather than an activation rule.
 
+`pipeline/reports-daily/jobg8-feed-history.csv` separately stores the JobG8 XML feed total, its per-classification received counts and Ontap's classified/published counts. It replaces a same-date rerun and retains 10 saved feed dates. The first saved date is 11 October 2026; earlier category totals are unavailable and are not backfilled. The overview shows the latest available daily totals without a category breakdown, plus a classification-by-date selected-jobs table.
+
 The overview's sitewide section reads the current published job JSON directly using the same canonical identity rules as the live-source counter. It distinguishes unique jobs from slice placements, reports jobs appearing on multiple slices and extra placements, and verifies that every unique live job belongs to a governed regional/category slice. Provider rows are dynamic, so a new source such as WhatJobs is included automatically. The latest dated live-source CSV remains visible as a cross-check and is marked stale if it no longer matches the current published site.
 
 Its `CITY OPPORTUNITIES` section uses that same unique live inventory across all roles and providers. Exact recognised town/locality evidence is grouped through the canonical geo lookup, existing permanent city routes are identified from the city-page register, non-London places at 4+ current **Service Admin** jobs are marked `CREATE`, and lower counts remain `MONITOR`. Each locality also has reconciled columns for all eight governed role families plus `Other / unclassified`, so the owner can distinguish office-led candidates from support-worker-led candidates. London rows are retained as `HOLD – LONDON`; broader or unrecognised locations are counted in the reconciliation summary rather than forced into a city. The table is decision support and never publishes a page by itself.
@@ -295,7 +299,7 @@ Core controls are:
 
 The JobG8 discovery coverage audit now uses the exact current Europe/London feed date rather than a fixed monthly archive. If that day’s raw feed is unavailable, or the selected feed date differs from the audit date, it stops without publishing a report. This keeps the published JobG8 total, JobG8-supplied category breakdown and genuine published-but-absent exceptions on one same-day basis.
 
-After every successful coverage-audit run, the daily regional overview workflow is triggered directly and rebuilds both the Markdown report and Excel download. This direct workflow-completion link avoids GitHub's restriction that prevents a workflow-token commit from triggering another workflow through a normal `push` event.
+Only a successful `Deploy Ontap production after publish` completion on `main` starts the daily regional overview workflow. The deployment run carries a verified production-SHA artifact; the report checks out that exact commit before reading published jobs. It rebuilds the Markdown report and Excel download, and commits only report/history outputs. Earlier scrape, review, audit, app-file-push and report-code-push triggers have been removed. Report commits do not start Vercel builds.
 
 The 11:45 safety net checks for a successful Apply and publish run on the current London date, whether that run was scheduled or dispatched. If found, it exits without a second publication. Otherwise it uses the same publisher chain in automatic-withhold mode: unresolved review jobs are omitted without becoming remembered exclusions, regardless of queue size, while valid existing decisions and automatically eligible jobs continue. An authenticated external fallback can invoke this same path with `AUTOMATIC_FALLBACK`; it cannot enter manual quarantine mode. Freshness, fingerprint, source-publisher and combined-publication integrity controls are unchanged.
 

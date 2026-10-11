@@ -53,8 +53,32 @@ def extract_tables(markdown: str) -> dict[str, list[list[object]]]:
     return {sheet: _first_table_after(lines, heading) for heading, sheet in SECTION_SHEETS}
 
 
+def _optional_table_after(lines: list[str], heading: str) -> list[list[object]] | None:
+    if heading not in lines:
+        return None
+    return _first_table_after(lines, heading)
+
+
+def _jobg8_sheet_tables(markdown: str) -> tuple[
+    list[list[object]],
+    list[list[object]] | None,
+    list[list[object]] | None,
+    list[list[object]] | None,
+]:
+    lines = markdown.splitlines()
+    categories = _first_table_after(lines, "## JOBG8 FEED RECEIVED")
+    reconciliation = _optional_table_after(lines, "## JOBG8 XML RECONCILIATION")
+    history_totals = _optional_table_after(lines, "## JOBG8 LAST 10 FEED DATES — TOTALS ONLY")
+    history_categories = _optional_table_after(
+        lines, "## JOBG8 LAST 10 FEED DATES — SELECTED JOBS BY CLASSIFICATION"
+    )
+    return categories, reconciliation, history_totals, history_categories
+
+
 def export(markdown_path: Path, output_path: Path) -> None:
-    tables = extract_tables(markdown_path.read_text(encoding="utf-8"))
+    markdown = markdown_path.read_text(encoding="utf-8")
+    tables = extract_tables(markdown)
+    jobg8_categories, jobg8_reconciliation, jobg8_history_totals, jobg8_history_categories = _jobg8_sheet_tables(markdown)
     workbook = Workbook()
     workbook.remove(workbook.active)
 
@@ -67,8 +91,58 @@ def export(markdown_path: Path, output_path: Path) -> None:
         sheet = workbook.create_sheet(sheet_name)
         sheet.sheet_view.showGridLines = False
         sheet.freeze_panes = "A2"
-        for row in rows:
-            sheet.append(row)
+        if sheet_name == "JobG8 categories":
+            current_by_category = {
+                str(row[0]): row[1:]
+                for row in jobg8_categories[1:]
+                if row and not str(row[0]).casefold().startswith("total ")
+            }
+            history_by_category: dict[str, list[object]] = {}
+            history_dates: list[object] = []
+            if jobg8_history_categories:
+                history_dates = jobg8_history_categories[0][1:]
+                history_by_category = {
+                    str(row[0]): row[1:]
+                    for row in jobg8_history_categories[1:]
+                    if row
+                }
+            category_order = list(current_by_category)
+            category_order.extend(
+                category for category in history_by_category if category not in current_by_category
+            )
+            sheet.append(jobg8_categories[0] + history_dates)
+            for category in category_order:
+                current = current_by_category.get(category, [None, None])
+                history = history_by_category.get(category, [None] * len(history_dates))
+                sheet.append([category, *current, *history])
+            current_total = next(
+                (row[1:] for row in jobg8_categories[1:] if row and str(row[0]).casefold().startswith("total ")),
+                [None, None],
+            )
+            total_history: list[object] = [None] * len(history_dates)
+            if jobg8_history_totals:
+                totals_by_date = {
+                    str(row[0]): row[2] for row in jobg8_history_totals[1:] if row
+                }
+                total_history = [totals_by_date.get(str(date)) for date in history_dates]
+            sheet.append(["Total across classifications", *current_total, *total_history])
+
+            next_row = sheet.max_row + 3
+            for title, table in (
+                ("JobG8 XML reconciliation", jobg8_reconciliation),
+                ("Last 10 feed dates — totals only", jobg8_history_totals),
+            ):
+                if table:
+                    sheet.cell(next_row, 1, title).font = Font(bold=True)
+                    next_row += 1
+                    for row in table:
+                        for column, value in enumerate(row, start=1):
+                            sheet.cell(next_row, column, value)
+                        next_row += 1
+                    next_row += 2
+        else:
+            for row in rows:
+                sheet.append(row)
 
         for cell in sheet[1]:
             cell.fill = header_fill
@@ -76,6 +150,17 @@ def export(markdown_path: Path, output_path: Path) -> None:
             cell.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
         sheet.row_dimensions[1].height = 32
         sheet.auto_filter.ref = sheet.dimensions
+
+        if sheet_name == "JobG8 categories":
+            # The reconciliation and dated totals are compact tables below the
+            # current/category matrix; style their header rows as headers too.
+            for row_number in range(sheet.max_row, 1, -1):
+                if sheet.cell(row_number, 1).value in {"Check", "Feed date"}:
+                    for cell in sheet[row_number]:
+                        if cell.value is not None:
+                            cell.fill = header_fill
+                            cell.font = header_font
+                            cell.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
 
         for row_number in range(2, sheet.max_row + 1):
             if row_number % 2 == 0:

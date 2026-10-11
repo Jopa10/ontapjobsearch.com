@@ -71,6 +71,51 @@ class DailyOverviewXlsxTests(unittest.TestCase):
             self.assertEqual(workbook["NOT LIVE"].row_dimensions[2].height, 20)
             workbook.close()
 
+    def test_exports_the_two_jobg8_history_views_beside_the_current_breakdown(self) -> None:
+        markdown_text = SAMPLE.replace(
+            "## PAGES",
+            """## JOBG8 XML RECONCILIATION
+| Check | XML feed total | Sum of ‘Jobs received’ | Difference (sum − XML) | Result |
+|---|---:|---:|---:|---|
+| JobG8 feed categories | 920 | 920 | 0 | **PASS** |
+
+## JOBG8 LAST 10 FEED DATES — TOTALS ONLY
+Saved history contains 1 of the latest 10 feed dates.
+| Feed date | JobG8 jobs received | Ontap jobs classified/published |
+|---|---:|---:|
+| 2026-10-11 | 920 | 548 |
+
+## JOBG8 LAST 10 FEED DATES — SELECTED JOBS BY CLASSIFICATION
+Each dated column shows the selected count.
+| JobG8 classification | 2026-10-11 |
+|---|---:|
+| Administration | 548 |
+
+## PAGES""",
+        )
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            markdown = root / "overview.md"
+            output = root / "overview.xlsx"
+            markdown.write_text(markdown_text, encoding="utf-8")
+            export(markdown, output)
+            workbook = load_workbook(output, data_only=True)
+            sheet = workbook["JobG8 categories"]
+            self.assertEqual(sheet["A1"].value, "JobG8 classification")
+            self.assertEqual(sheet["D1"].value, "2026-10-11")
+            self.assertEqual(sheet["A2"].value, "Administration")
+            self.assertEqual(sheet["D2"].value, 548)
+            self.assertIn("JobG8 XML reconciliation", [sheet.cell(row, 1).value for row in range(1, sheet.max_row + 1)])
+            self.assertIn("Last 10 feed dates — totals only", [sheet.cell(row, 1).value for row in range(1, sheet.max_row + 1)])
+            total_header_row = next(
+                row for row in range(1, sheet.max_row + 1)
+                if sheet.cell(row, 1).value == "Feed date"
+            )
+            self.assertEqual(sheet.cell(total_header_row + 1, 1).value, "2026-10-11")
+            self.assertEqual(sheet.cell(total_header_row + 1, 2).value, 920)
+            self.assertEqual(sheet.cell(total_header_row + 1, 3).value, 548)
+            workbook.close()
+
 
 if __name__ == "__main__":
     unittest.main()
