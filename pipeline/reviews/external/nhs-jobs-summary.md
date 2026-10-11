@@ -2,15 +2,63 @@
 
 review_date: 2026-10-11
 
-- Open Administrative & Clerical rows reviewed: 2247
+- Open Administrative & Clerical rows reviewed: 2248
 - Auto/remembered selected: 391
-- Selected HC Tier A: 204
-- Selected HC Tier B: 187
+- Selected HC Tier A: 202
+- Selected HC Tier B: 189
 - POSS awaiting decision: 1752
 - Excluded: 0
-- HARD_PASS: 104
+- HARD_PASS: 105
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Greater Manchester - North | Rochdale, OL11 5AQ | Negotiable | Medical Secretary GP Practice
+source_job_id: 5655788
+title: Medical Secretary GP Practice
+employer: Edenfield Road Surgery
+region: Greater Manchester - North
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1505-26-0009
+factual_fingerprint: f3a66a21c7bd40454d00f402c9a05ffc949303c9d93bdd0ff82ab2f8f5aee91b
+---
+
+---
+action:
+POSS | NHS Jobs | Kent | Ashford, TW15 2TU | Negotiable | Pharmacy Technician or Dispenser
+source_job_id: 5655773
+title: Pharmacy Technician or Dispenser
+employer: Studholme Medical Centre
+region: Kent
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3452-26-0000
+factual_fingerprint: bd25f9be24bfeed157df586687e92bfa451d57ec454a4af9abd7963d5140a9cf
+---
+
+---
+action:
+POSS | NHS Jobs | Yorkshire - West | Leeds, LS9 7TF | £28392.00 to £31157.00 | Information Governance Coordinator
+source_job_id: 5655774
+title: Information Governance Coordinator
+employer: Leeds Teaching Hospitals
+region: Yorkshire - West
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-1106
+factual_fingerprint: 6168628ca8945afedc842a42787ce24d8722151e0993746caf27fd258baac5b3
+---
+
+---
+action:
+POSS | NHS Jobs | — | Blackpool/Preston, FY3 8NR | £28392.00 to £31157.00 | Recruitment Lead
+source_job_id: 5655760
+title: Recruitment Lead
+employer: East Lancashire Hospitals NHS Trust
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9435-26-0583
+factual_fingerprint: f7134aa7ccded2694e668e40780e9b4f56b605931664cce776ca1d54cfadbb7e
+---
 
 ---
 action:
@@ -958,18 +1006,6 @@ region: Leicestershire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9313-26-0454
 factual_fingerprint: e83de4093ab23cd727b6f9d93bbcb262051d9b8ff200c58b07340a66c5af292c
----
-
----
-action:
-POSS | NHS Jobs | London | London, W6 8RF | £34186.00 to £37389.00 | Pathway Co-ordinator
-source_job_id: 5645925
-title: Pathway Co-ordinator
-employer: Imperial College Healthcare NHS Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9290-26-1160
-factual_fingerprint: fbd006dbf921a6cb6bca8ef60fd6de8daac7df5dceb20d3ab17c45f2aa226529
 ---
 
 ---
@@ -2518,18 +2554,6 @@ region: Yorkshire - South
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9272-26-0559
 factual_fingerprint: 98427c764b9a83220f1add248f76b990a82cd09bca9ee4cedd1132a7e7a62ffb
----
-
----
-action:
-POSS | NHS Jobs | Bedfordshire | Bedford, MK41 2NT | £25760.00 to £27476.00 | Community Mental Health Team Band 3 Administrative Assistant
-source_job_id: 5651645
-title: Community Mental Health Team Band 3 Administrative Assistant
-employer: East London NHS Foundation Trust
-region: Bedfordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9363-26-1173
-factual_fingerprint: b73a3ebf7ced577158460dc2d185eda3a94c6b8d46f4f51cf50c672a7dda3e0a
 ---
 
 ---
@@ -4754,18 +4778,6 @@ factual_fingerprint: de3d96d4c55c86a383c921c51bcfbf6ca657e26f4d3fe4eaf547e3d9810
 
 ---
 action:
-POSS | NHS Jobs | Bristol & Bath | Bristol, BS2 8HW | £25760.00 to £27476.00 | Admin Support
-source_job_id: 5649910
-title: Admin Support
-employer: Bristol NHS Foundation Trust
-region: Bristol & Bath
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-2076
-factual_fingerprint: 75c493c96631dc441d4f0d9286fa6c641de3bddbe9f369ef1e09c10ee0d446ca
----
-
----
-action:
 POSS | NHS Jobs | Leicestershire | Leicester, LE3 6RJ | £25760.00 to £27476.00 | Service Coordinator
 source_job_id: 5649874
 title: Service Coordinator
@@ -5626,18 +5638,6 @@ region:
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2247-26-0004s
 factual_fingerprint: f7bde4c63faa9c716ef1e1447d8e4e5ca55691cdbd14b327916ca517aeab0b57
----
-
----
-action:
-POSS | NHS Jobs | Bedfordshire | Luton, LU4 0DZ | £25760.00 to £27476.00 | Facilities Helpdesk Co-ordinator
-source_job_id: 5648698
-title: Facilities Helpdesk Co-ordinator
-employer: Bedfordshire Hospitals NHS Foundation Trust
-region: Bedfordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9418-26-1032
-factual_fingerprint: ede5864f133ac67dc2c2a124cd9c61cd236bb9dde24242695130812d7fc9e433
 ---
 
 ---
