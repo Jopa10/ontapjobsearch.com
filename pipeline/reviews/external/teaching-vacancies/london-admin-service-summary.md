@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-10-10
-review_fingerprint: 0641af29134c0681e9a9648e7eb633d826e8f2a1962a7f2966cf4829d08fa9da
-routing_manifest_sha256: 65d7d4d14fb4fa650e185d2ca969b1c92a0ae301cc786bb616160011a28b524f
+review_date: 2026-10-11
+review_fingerprint: 154f69b06900e6101e81839fb52f4b77f47bf2c2ca75eab69868ce5c826e8852
+routing_manifest_sha256: ec7fa9ba90a904fff39585a63b4821958bbb1769f50e8974421041c21e8eeb24
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 56
-- Selected: 22
-- POSS awaiting decision: 3
+- Selected: 23
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 31
 
@@ -154,6 +154,21 @@ factual_fingerprint: efb9ec5f0330d580f3beb933aafbe20a250fab471abf75ffb3da417b27b
 source: Teaching Vacancies
 source_job_id: attendance-officer-the-totteridge-academy-london
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-the-totteridge-academy-london
+---
+
+---
+action: 
+SELECTED | London | London, London, N9 8DR | £28,148.19 - £30,407.51 Annually (FTE) NSCT Pay Scales: 18-21 / Actual Salary: £26,855.53 - £27,930.11 / NSCT Health Cash Plan + Generous Pension | Business Support Assistant
+employer: Woodpecker Hall Primary Academy
+closing_date: 2026-10-27T23:59:00+00:00
+reason: Clear admin/service title: business support assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 12e1d8febc08066810db7d6614e7aa1e44f4d4c1d12dbc24a475128aafdb2828
+source: Teaching Vacancies
+source_job_id: business-support-assistant-a81bf6ae-e6d3-4234-a787-8db0968be919
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-assistant-a81bf6ae-e6d3-4234-a787-8db0968be919
 ---
 
 ---
@@ -352,21 +367,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ea
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | London | London, London, N9 8DR | £28,148.19 - £30,407.51 Annually (FTE) NSCT Pay Scales: 18-21 / Actual Salary: £26,855.53 - £27,930.11 / NSCT Health Cash Plan + Generous Pension | Business Support Assistant
-employer: Woodpecker Hall Primary Academy
-closing_date: 2026-10-27T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 12e1d8febc08066810db7d6614e7aa1e44f4d4c1d12dbc24a475128aafdb2828
-source: Teaching Vacancies
-source_job_id: business-support-assistant-a81bf6ae-e6d3-4234-a787-8db0968be919
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-assistant-a81bf6ae-e6d3-4234-a787-8db0968be919
----
 
 ---
 action: 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Worcestershire
 
-review_date: 2026-10-10
-review_fingerprint: a9945270e25983c313a9ba9918cd17543c4930f75e597235ef54b031ab667139
-routing_manifest_sha256: 65d7d4d14fb4fa650e185d2ca969b1c92a0ae301cc786bb616160011a28b524f
+review_date: 2026-10-11
+review_fingerprint: 51254ce92e7a4ac667489224fdece370857c80c8a43a02d3b1b9a43ebe33b08c
+routing_manifest_sha256: ec7fa9ba90a904fff39585a63b4821958bbb1769f50e8974421041c21e8eeb24
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 2
+- Records: 6
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 2
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Worcestershire | Evesham, West Midlands, WR11 3EU | Scale 3 Points 5 to 6 | Office Administrator (Burford Road site)
+employer: Bengeworth CE Academy
+closing_date: 2026-10-23T09:00:00+01:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1f65be78602ccedc718d32225accd13d281bf23b0550cc977e271e8759742123
+source: Teaching Vacancies
+source_job_id: office-administrator-burford-road-site
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-burford-road-site
+---
 
 ---
 action: 

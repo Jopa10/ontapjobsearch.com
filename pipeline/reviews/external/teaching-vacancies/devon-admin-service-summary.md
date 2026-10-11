@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-10-10
-review_fingerprint: f0bf3130fc5457db255d2616086125676e845d9cffb5b690a855f1a55fbd716e
-routing_manifest_sha256: 65d7d4d14fb4fa650e185d2ca969b1c92a0ae301cc786bb616160011a28b524f
+review_date: 2026-10-11
+review_fingerprint: 862c6e2cd2f0cef05ed800f6373be3672f387609fc5d3ffb6781d0f8b11322c0
+routing_manifest_sha256: ec7fa9ba90a904fff39585a63b4821958bbb1769f50e8974421041c21e8eeb24
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 24
-- Selected: 12
+- Records: 23
+- Selected: 11
 - POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 8
@@ -169,21 +169,6 @@ factual_fingerprint: cba78843b31d017695c0778f96b53e5bde1c20bd49241631acd860039fa
 source: Teaching Vacancies
 source_job_id: school-hub-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-hub-administrator
----
-
----
-action: 
-SELECTED | Devon | Plymouth, South West, PL5 1NE | Actual Pro-rata salary E11 £19,388 to E14 £20,352 | Senior Administrator
-employer: St Paul's Roman Catholic Primary School
-closing_date: 2026-10-11T00:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 761824456e28f49da9f8632ede9189ae05d72349e75dee376493b86a5eab2df1
-source: Teaching Vacancies
-source_job_id: senior-administrator-st-paul-s-roman-catholic-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-st-paul-s-roman-catholic-primary-school
 ---
 
 ---

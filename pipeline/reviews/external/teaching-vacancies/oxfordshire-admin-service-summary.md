@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-10-10
+review_date: 2026-10-11
 review_fingerprint: 35fdf8549f5db72d1ec02b96650279a9db89d35be963b51a4900f67a72718ac4
-routing_manifest_sha256: 65d7d4d14fb4fa650e185d2ca969b1c92a0ae301cc786bb616160011a28b524f
+routing_manifest_sha256: ec7fa9ba90a904fff39585a63b4821958bbb1769f50e8974421041c21e8eeb24
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE

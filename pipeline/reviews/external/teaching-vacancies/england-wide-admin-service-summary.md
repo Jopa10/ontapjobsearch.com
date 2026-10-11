@@ -12,14 +12,14 @@ Edit only the `action:` line in each unresolved block:
 
 ## TOTALS
 
-- All routed roles: **590**
-- REVIEW NOW (LIVE regions): **554**
-- EDITABLE NOW (no remembered action): **553**
+- All routed roles: **587**
+- REVIEW NOW (LIVE regions): **553**
+- EDITABLE NOW (no remembered action): **552**
 - REMEMBERED / RESOLVED: **1**
-- DEFERRED - REGION NOT LIVE: **36**
-- SELECTED: **221**
-- POSS: **45**
-- HARD PASS / EXCLUDED: **288**
+- DEFERRED - REGION NOT LIVE: **34**
+- SELECTED: **222**
+- POSS: **44**
+- HARD PASS / EXCLUDED: **287**
 
 ## BEDFORDSHIRE — SELECTED
 
@@ -576,17 +576,6 @@ reason: Clear admin/service title: administrator
 factual_fingerprint: cba78843b31d017695c0778f96b53e5bde1c20bd49241631acd860039fa25c4a
 source_job_id: school-hub-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-hub-administrator
----
-
----
-action:
-SELECTED | Devon | Plymouth, South West, PL5 1NE | Actual Pro-rata salary E11 £19,388 to E14 £20,352 | Senior Administrator
-employer: St Paul's Roman Catholic Primary School
-closing_date: 2026-10-11T00:00:00+01:00
-reason: Clear admin/service title: administrator
-factual_fingerprint: 761824456e28f49da9f8632ede9189ae05d72349e75dee376493b86a5eab2df1
-source_job_id: senior-administrator-st-paul-s-roman-catholic-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-st-paul-s-roman-catholic-primary-school
 ---
 
 ---
@@ -1431,6 +1420,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-th
 
 ---
 action:
+SELECTED | London | London, London, N9 8DR | £28,148.19 - £30,407.51 Annually (FTE) NSCT Pay Scales: 18-21 / Actual Salary: £26,855.53 - £27,930.11 / NSCT Health Cash Plan + Generous Pension | Business Support Assistant
+employer: Woodpecker Hall Primary Academy
+closing_date: 2026-10-27T23:59:00+00:00
+reason: Clear admin/service title: business support assistant
+factual_fingerprint: 12e1d8febc08066810db7d6614e7aa1e44f4d4c1d12dbc24a475128aafdb2828
+source_job_id: business-support-assistant-a81bf6ae-e6d3-4234-a787-8db0968be919
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-assistant-a81bf6ae-e6d3-4234-a787-8db0968be919
+---
+
+---
+action:
 SELECTED | London | London, London, E14 0AF | £33,700-£35,500 per annum | CTEC Administrator
 employer: New City College
 closing_date: 2026-11-01T23:59:00+00:00
@@ -1573,17 +1573,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ea
 ---
 
 ## LONDON — POSSIBLES
-
----
-action:
-POSS | London | London, London, N9 8DR | £28,148.19 - £30,407.51 Annually (FTE) NSCT Pay Scales: 18-21 / Actual Salary: £26,855.53 - £27,930.11 / NSCT Health Cash Plan + Generous Pension | Business Support Assistant
-employer: Woodpecker Hall Primary Academy
-closing_date: 2026-10-27T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-factual_fingerprint: 12e1d8febc08066810db7d6614e7aa1e44f4d4c1d12dbc24a475128aafdb2828
-source_job_id: business-support-assistant-a81bf6ae-e6d3-4234-a787-8db0968be919
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-assistant-a81bf6ae-e6d3-4234-a787-8db0968be919
----
 
 ---
 action:
@@ -2664,6 +2653,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-gr
 
 ---
 action:
+SELECTED | Worcestershire | Evesham, West Midlands, WR11 3EU | Scale 3 Points 5 to 6 | Office Administrator (Burford Road site)
+employer: Bengeworth CE Academy
+closing_date: 2026-10-23T09:00:00+01:00
+reason: Clear admin/service title: administrator, office administrator
+factual_fingerprint: 1f65be78602ccedc718d32225accd13d281bf23b0550cc977e271e8759742123
+source_job_id: office-administrator-burford-road-site
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-burford-road-site
+---
+
+---
+action:
 SELECTED | Worcestershire | Bromsgrove, West Midlands, B60 3NL | £4,061.34 Annually (Actual) Scale 2 (SCP 3-4) | Part-Time Student Receptionist/Main Receptionist
 employer: South Bromsgrove High
 closing_date: 2026-10-16T09:00:00+01:00
@@ -3171,11 +3171,10 @@ These roles remain visible in the CSV but are not individually marked until the 
 | Region | Total | Selected | POSS | Hard pass / excluded |
 |---|---:|---:|---:|---:|
 | Cumbria - West / admin_service | 2 | 1 | 0 | 1 |
-| East Midlands / admin_service | 11 | 3 | 3 | 5 |
+| East Midlands / admin_service | 10 | 3 | 3 | 4 |
 | Lancashire - Central / admin_service | 4 | 2 | 0 | 2 |
 | Merseyside - St Helens & Knowsley / admin_service | 1 | 1 | 0 | 0 |
 | Merseyside - Wirral / admin_service | 1 | 1 | 0 | 0 |
 | North East - Tees Valley / admin_service | 9 | 6 | 2 | 1 |
 | South West / admin_service | 5 | 2 | 0 | 3 |
-| Wales South -gwent / admin_service | 1 | 0 | 0 | 1 |
 | West Midlands / admin_service | 2 | 2 | 0 | 0 |

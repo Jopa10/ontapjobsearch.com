@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-10-10
+review_date: 2026-10-11
 review_fingerprint: 656753ad785e12630981e3e830b12ea5982046069331de84437047230e1eb2ba
-routing_manifest_sha256: 65d7d4d14fb4fa650e185d2ca969b1c92a0ae301cc786bb616160011a28b524f
+routing_manifest_sha256: ec7fa9ba90a904fff39585a63b4821958bbb1769f50e8974421041c21e8eeb24
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
