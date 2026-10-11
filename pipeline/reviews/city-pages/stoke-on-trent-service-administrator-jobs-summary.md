@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 11
+- automatic review: 12
 - automatic exclude: 0
 - effective include: 2
-- effective review: 11
+- effective review: 12
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: teaching-vacancies-examinations-officer-blythe-bridge-high-school
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (11)
+## REVIEW (12)
 
 ---
 action: 
@@ -167,6 +167,18 @@ company: Ernest Gordon Recruitment - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-108111116
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Coordinator
+company: INSTARMAC GROUP - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-108062618
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 44
+- automatic review: 41
 - automatic exclude: 0
 - effective include: 6
-- effective review: 44
+- effective review: 41
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-2087968
 reason: Exact approved Maidstone workplace.
 ---
 
-## REVIEW (44)
+## REVIEW (41)
 
 ---
 action: 
@@ -179,18 +179,6 @@ company: Michael Page Finance - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-2026057
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Support Assistant
-company: Oasis Restore - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-108044308
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -414,18 +402,6 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Medical Receptionist/Care Navigator
-company: Ashford Medical Partnership
-location: Ashford, TN24 0HZ, Ashford , TN23 5AQ, Ashford, TN23 5GR
-source: NHS Jobs
-job_id: nhs-5651302
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Part-Time Accounts Assistant Dartford Temp to Perm
 company: Office Angels - Agency - Permanent
 location: Dartford
@@ -587,18 +563,6 @@ company: Construction Industry - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-2080652
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Team Administrator
-company: Church of England - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-2099956
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 

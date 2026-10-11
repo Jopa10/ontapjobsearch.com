@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 5
 - automatic review: 11
-- automatic exclude: 13
+- automatic exclude: 14
 - effective include: 5
 - effective review: 11
-- effective exclude: 13
+- effective exclude: 14
 
 ## INCLUDE (5)
 
@@ -218,7 +218,7 @@ job_id: teaching-vacancies-receptionist-edf1f45d-c1c2-4efe-8319-033977840917
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (13)
+## EXCLUDE (14)
 
 ---
 action: 
@@ -325,6 +325,18 @@ company: Ambition Europe Limited - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-2049838
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Materials / Stock Administrator
+company: Vibe Recruit Limited - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-108123401
 reason: Broad county location; not Oxford-city evidence.
 ---
 

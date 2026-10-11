@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 21
+- automatic review: 22
 - automatic exclude: 0
 - effective include: 4
-- effective review: 21
+- effective review: 22
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: nhs-5632763
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (21)
+## REVIEW (22)
 
 ---
 action: 
@@ -167,6 +167,18 @@ company: Michael Page Finance - Agency - Permanent
 location: Sherborne
 source: JobG8
 job_id: jobg8-2058934
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Coordinator
+company: Agincare Group - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-108080615
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

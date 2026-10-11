@@ -66,11 +66,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Female Support Worker
-company: SeeAbility - Agency - Permanent
-location: Tadley
+title: Extra Care Support Worker - Gore Grange
+company: SCA Care - Agency - Permanent
+location: New Milton
 source: JobG8
-job_id: jobg8-108059180
+job_id: jobg8-108121734
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 

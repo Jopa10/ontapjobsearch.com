@@ -40,6 +40,18 @@ reason: Exact approved Plymouth workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Configuration Control Coordinator
+company: BAM UK & Ireland - Agency - Permanent
+location: Plymouth
+source: JobG8
+job_id: jobg8-108092427
+reason: Exact approved Plymouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: MIS Administrator (Maternity Cover)
 company: City College Plymouth
 location: Plymouth
@@ -69,18 +81,6 @@ company: Beechwood Primary Academy
 location: Plymouth
 source: Teaching Vacancies
 job_id: teaching-vacancies-school-office-administrator-beechwood-primary-academy
-reason: Exact approved Plymouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Senior Administrator
-company: St Paul's Roman Catholic Primary School
-location: Plymouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-senior-administrator-st-paul-s-roman-catholic-primary-school
 reason: Exact approved Plymouth workplace.
 ---
 

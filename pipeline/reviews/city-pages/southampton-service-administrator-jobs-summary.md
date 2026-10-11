@@ -4,7 +4,7 @@
 - Live route: `/southampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 29
-- automatic exclude: 15
-- effective include: 7
-- effective review: 29
-- effective exclude: 15
+- automatic include: 6
+- automatic review: 28
+- automatic exclude: 16
+- effective include: 6
+- effective review: 28
+- effective exclude: 16
 
-## INCLUDE (7)
+## INCLUDE (6)
 
 ---
 action: 
@@ -88,18 +88,6 @@ reason: Approved Southampton catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Recruitment Administrator
-company: University Hospital Southampton NHS Trust
-location: Southampton, SO16 6YD
-source: NHS Jobs
-job_id: nhs-5624270
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Shipping Coordinator
 company: Elliot Marsh Head Hunting Partners - Agency - Permanent
 location: Southampton
@@ -108,7 +96,7 @@ job_id: jobg8-2066863
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (29)
+## REVIEW (28)
 
 ---
 action: 
@@ -438,18 +426,6 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Purchasing & Finance Assistant
-company: entrust IT - Agency - Permanent
-location: Ringwood
-source: JobG8
-job_id: jobg8-23643_225600472
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Service Receptionist
 company: Silcom Recruitment Limited - Agency - Permanent
 location: Petersfield
@@ -458,7 +434,7 @@ job_id: jobg8-2046029
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
-## EXCLUDE (15)
+## EXCLUDE (16)
 
 ---
 action: 
@@ -637,5 +613,17 @@ company: Portsdown Group Practice
 location: Portsmouth, PO2 8AL
 source: NHS Jobs
 job_id: nhs-5627419
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Ward Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Fareham, PO17 5NA
+source: NHS Jobs
+job_id: nhs-5626622
 reason: Separate employment market.
 ---

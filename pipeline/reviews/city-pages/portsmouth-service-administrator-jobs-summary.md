@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 46
+- automatic review: 45
 - automatic exclude: 0
 - effective include: 5
-- effective review: 46
+- effective review: 45
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: nhs-5627419
 reason: Exact approved Portsmouth workplace.
 ---
 
-## REVIEW (46)
+## REVIEW (45)
 
 ---
 action: 
@@ -582,35 +582,11 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Purchasing & Finance Assistant
-company: entrust IT - Agency - Permanent
-location: Ringwood
-source: JobG8
-job_id: jobg8-23643_225600472
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Receptionist (Maternity Cover)
 company: The Blue Coat School Basingstoke
 location: Basingstoke
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-maternity-cover-the-blue-coat-school-basingstoke
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment Administrator
-company: University Hospital Southampton NHS Trust
-location: Southampton, SO16 6YD
-source: NHS Jobs
-job_id: nhs-5624270
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -635,6 +611,18 @@ company: Elliot Marsh Head Hunting Partners - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-2066863
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Ward Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Fareham, PO17 5NA
+source: NHS Jobs
+job_id: nhs-5626622
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 

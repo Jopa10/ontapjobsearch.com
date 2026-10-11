@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 49
+- automatic review: 48
 - automatic exclude: 0
 - effective include: 2
-- effective review: 49
+- effective review: 48
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: teaching-vacancies-receptionist-maternity-cover-the-blue-coat-school-bas
 reason: Exact approved Basingstoke workplace.
 ---
 
-## REVIEW (49)
+## REVIEW (48)
 
 ---
 action: 
@@ -582,35 +582,11 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Purchasing & Finance Assistant
-company: entrust IT - Agency - Permanent
-location: Ringwood
-source: JobG8
-job_id: jobg8-23643_225600472
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Receptionist - Kingston Crescent Surgery
 company: Portsdown Group Practice
 location: Portsmouth, PO2 8AL
 source: NHS Jobs
 job_id: nhs-5627419
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment Administrator
-company: University Hospital Southampton NHS Trust
-location: Southampton, SO16 6YD
-source: NHS Jobs
-job_id: nhs-5624270
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -635,6 +611,18 @@ company: Elliot Marsh Head Hunting Partners - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-2066863
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Ward Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Fareham, PO17 5NA
+source: NHS Jobs
+job_id: nhs-5626622
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 

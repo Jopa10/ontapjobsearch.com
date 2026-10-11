@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 18
+- Effective included jobs: 20
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
-- automatic review: 1
-- automatic exclude: 4
-- effective include: 18
-- effective review: 1
-- effective exclude: 4
+- automatic include: 20
+- automatic review: 2
+- automatic exclude: 5
+- effective include: 20
+- effective review: 2
+- effective exclude: 5
 
-## INCLUDE (18)
+## INCLUDE (20)
 
 ---
 action: 
@@ -124,6 +124,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Helpdesk Consultant
+company: Hargreaves Lansdown - Company - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-108091504
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Italian Speaking Insurance Administrator
 company: Neon Talent Solutions - Agency - Permanent
 location: Bristol
@@ -165,6 +177,18 @@ company: Reed - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2087524
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Office Coordinator
+company: Forvis Mazars LLP - Company - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-28025_JR99
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -240,7 +264,7 @@ job_id: jobg8-2076582
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (1)
+## REVIEW (2)
 
 ---
 action: 
@@ -254,7 +278,31 @@ job_id: jobg8-2091440
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
-## EXCLUDE (4)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist / Administrator
+company: St Augustine’s Medical Practice
+location: Keynsham, BS31 2GN
+source: NHS Jobs
+job_id: nhs-5652485
+reason: No approved Bristol catchment rule matched; local review required.
+---
+
+## EXCLUDE (5)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: Reed - Agency - Permanent
+location: Bath
+source: JobG8
+job_id: jobg8-2020842
+reason: Separate employment market.
+---
 
 ---
 action: 

@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 36
+- automatic review: 35
 - automatic exclude: 0
 - effective include: 0
-- effective review: 36
+- effective review: 35
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (36)
+## REVIEW (35)
 
 ---
 action: 
@@ -359,18 +359,6 @@ company: Office Angels - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-2077981
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Procurement & Logistics Coordinator
-company: Reed Specialist Recruitment - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225599266
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 

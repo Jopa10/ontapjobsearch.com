@@ -4,7 +4,7 @@
 - Live route: `/warwick/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
+- automatic include: 3
 - automatic review: 26
 - automatic exclude: 0
-- effective include: 2
+- effective include: 3
 - effective review: 26
 - effective exclude: 0
 
-## INCLUDE (2)
+## INCLUDE (3)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Plus One Recruitment - Agency - Permanent
 location: Warwick
 source: JobG8
 job_id: jobg8-2056680
+reason: Exact approved Warwick workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: P2P Supply Chain Planner
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-2052561
 reason: Exact approved Warwick workplace.
 ---
 

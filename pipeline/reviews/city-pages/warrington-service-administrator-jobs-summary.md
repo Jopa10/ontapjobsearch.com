@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 3
+- automatic include: 9
+- automatic review: 2
 - automatic exclude: 1
-- effective include: 10
-- effective review: 3
+- effective include: 9
+- effective review: 2
 - effective exclude: 1
 
-## INCLUDE (10)
+## INCLUDE (9)
 
 ---
 action: 
@@ -112,18 +112,6 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Payroll Assistant
-company: Michael Page Finance - Agency - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-2039790
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Presenter and Content Creator
 company: Reed - Agency - Permanent
 location: Warrington
@@ -144,19 +132,7 @@ job_id: jobg8-2063198
 reason: Approved conservative Warrington launch catchment.
 ---
 
-## REVIEW (3)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable Clerk
-company: Michael Page Finance - Agency - Permanent
-location: Widnes
-source: JobG8
-job_id: jobg8-2039766
-reason: No approved Warrington catchment rule matched; local review required.
----
+## REVIEW (2)
 
 ---
 action: 

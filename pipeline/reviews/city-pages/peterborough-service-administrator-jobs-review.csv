@@ -1,6 +1,7 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-2078574,Accounts Receivable,Reed - Agency - Permanent,Peterborough,JobG8,include,include,Approved conservative Peterborough launch catchment.,peterborough,peterborough-service-administrator-jobs
 include,nhs-5647546,Administrator,Cambridgeshire and Peterborough NHS Foundation Trust,"Peterborough, PE78FZ",NHS Jobs,include,include,Approved conservative Peterborough launch catchment.,peterborough,peterborough-service-administrator-jobs
+include,jobg8-108123858,HR Assistant,Inspire Education Group - Agency - Permanent,Peterborough,JobG8,include,include,Approved conservative Peterborough launch catchment.,peterborough,peterborough-service-administrator-jobs
 include,jobg8-108061988,IT Helpdesk Advisor - Dutch Speaker,Interaction - Peterborough - Agency - Permanent,Peterborough,JobG8,include,include,Approved conservative Peterborough launch catchment.,peterborough,peterborough-service-administrator-jobs
 include,nhs-5636638,Medical Receptionist / Administrator,Abbeyview Surgery,"Peterborough, PE6 0AL",NHS Jobs,include,include,Approved conservative Peterborough launch catchment.,peterborough,peterborough-service-administrator-jobs
 include,jobg8-2078570,Purchase Ledger Clerk,Reed - Agency - Permanent,Peterborough,JobG8,include,include,Approved conservative Peterborough launch catchment.,peterborough,peterborough-service-administrator-jobs

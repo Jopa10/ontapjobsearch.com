@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 19
+- automatic review: 20
 - automatic exclude: 28
 - effective include: 3
-- effective review: 19
+- effective review: 20
 - effective exclude: 28
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: teaching-vacancies-leadership-team-administrator-hybrid
 reason: Approved Huddersfield catchment.
 ---
 
-## REVIEW (19)
+## REVIEW (20)
 
 ---
 action: 
@@ -287,6 +287,18 @@ company: Elevation Recruitment Group - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2078500
+reason: No approved Huddersfield catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temp to Perm Purchase Ledger
+company: IPS Group - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-108121674
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 

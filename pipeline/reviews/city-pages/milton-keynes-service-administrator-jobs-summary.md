@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 29
+- automatic review: 30
 - automatic exclude: 0
 - effective include: 10
-- effective review: 29
+- effective review: 30
 - effective exclude: 0
 
 ## INCLUDE (10)
@@ -144,7 +144,7 @@ job_id: nhs-5652428
 reason: Exact approved Milton Keynes workplace.
 ---
 
-## REVIEW (29)
+## REVIEW (30)
 
 ---
 action: 
@@ -299,6 +299,18 @@ company: GEMINI RECRUITMENT SERVICES LTD - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-2087528
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Fremaux Delorme Co Ltd - Agency - Permanent
+location: Aylesbury
+source: JobG8
+job_id: jobg8-23643_225711333
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

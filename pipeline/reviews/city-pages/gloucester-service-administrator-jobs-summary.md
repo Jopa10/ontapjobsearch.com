@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 15
+- automatic review: 16
 - automatic exclude: 0
 - effective include: 4
-- effective review: 15
+- effective review: 16
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-2085791
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (15)
+## REVIEW (16)
 
 ---
 action: 
@@ -119,6 +119,18 @@ company: Leaders In Care Recruitment Ltd - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-108064325
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Coordinator
+company: Leaders In Care Recruitment Ltd - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-108064327
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

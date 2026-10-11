@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 4
+- automatic review: 5
 - automatic exclude: 0
 - effective include: 0
-- effective review: 4
+- effective review: 5
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (4)
+## REVIEW (5)
 
 ---
 action: 
@@ -71,6 +71,18 @@ company: Briggs Equipment Ltd - Agency - Permanent
 location: Lisburn
 source: JobG8
 job_id: jobg8-107952610
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Briggs Equipment Ltd - Agency - Permanent
+location: Lisburn
+source: JobG8
+job_id: jobg8-108056565
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 

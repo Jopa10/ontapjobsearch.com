@@ -162,6 +162,18 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Configuration Control Coordinator
+company: BAM UK & Ireland - Agency - Permanent
+location: Plymouth
+source: JobG8
+job_id: jobg8-108092427
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Exams and Admissions Officer
 company: Brixham College
 location: Brixham
@@ -299,18 +311,6 @@ company: Beechwood Primary Academy
 location: Plymouth
 source: Teaching Vacancies
 job_id: teaching-vacancies-school-office-administrator-beechwood-primary-academy
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Senior Administrator
-company: St Paul's Roman Catholic Primary School
-location: Plymouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-senior-administrator-st-paul-s-roman-catholic-primary-school
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

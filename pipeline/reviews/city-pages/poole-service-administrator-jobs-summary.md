@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 22
+- automatic review: 23
 - automatic exclude: 0
 - effective include: 3
-- effective review: 22
+- effective review: 23
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: jobg8-2066041
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (22)
+## REVIEW (23)
 
 ---
 action: 
@@ -155,6 +155,18 @@ company: Michael Page Finance - Agency - Permanent
 location: Sherborne
 source: JobG8
 job_id: jobg8-2058934
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Coordinator
+company: Agincare Group - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-108080615
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

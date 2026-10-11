@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 6
 - automatic review: 0
-- automatic exclude: 22
+- automatic exclude: 23
 - effective include: 6
 - effective review: 0
-- effective exclude: 22
+- effective exclude: 23
 
 ## INCLUDE (6)
 
@@ -98,7 +98,7 @@ reason: Approved Coventry catchment.
 
 ## REVIEW (0)
 
-## EXCLUDE (22)
+## EXCLUDE (23)
 
 ---
 action: 
@@ -241,6 +241,18 @@ company: TalentTech Recruitment - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-2056868
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: P2P Supply Chain Planner
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-2052561
 reason: Separate employment market.
 ---
 

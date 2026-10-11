@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 16
+- automatic review: 15
 - automatic exclude: 15
 - effective include: 5
-- effective review: 16
+- effective review: 15
 - effective exclude: 15
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-2074752
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (16)
+## REVIEW (15)
 
 ---
 action: 
@@ -203,18 +203,6 @@ company: Office Angels - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-2077981
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Procurement & Logistics Coordinator
-company: Reed Specialist Recruitment - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225599266
 reason: Broad location; review before city inclusion.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/ashford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 45
+- automatic include: 4
+- automatic review: 43
 - automatic exclude: 0
-- effective include: 5
-- effective review: 45
+- effective include: 4
+- effective review: 43
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (4)
 
 ---
 action: 
@@ -52,18 +52,6 @@ reason: Exact approved Ashford workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Medical Receptionist/Care Navigator
-company: Ashford Medical Partnership
-location: Ashford, TN24 0HZ, Ashford , TN23 5AQ, Ashford, TN23 5GR
-source: NHS Jobs
-job_id: nhs-5651302
-reason: Exact approved Ashford workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Practice Bookkeeper
 company: Farrer Barnes Limited - Agency - Permanent
 location: Ashford
@@ -84,7 +72,7 @@ job_id: nhs-5653187
 reason: Exact approved Ashford workplace.
 ---
 
-## REVIEW (45)
+## REVIEW (43)
 
 ---
 action: 
@@ -191,18 +179,6 @@ company: Michael Page Finance - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-2026057
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Support Assistant
-company: Oasis Restore - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-108044308
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -587,18 +563,6 @@ company: Michael Page Finance - Agency - Permanent
 location: Maidstone
 source: JobG8
 job_id: jobg8-2087968
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Team Administrator
-company: Church of England - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-2099956
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 

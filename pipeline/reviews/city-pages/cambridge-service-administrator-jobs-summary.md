@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 10
 - automatic review: 5
-- automatic exclude: 8
+- automatic exclude: 9
 - effective include: 10
 - effective review: 5
-- effective exclude: 8
+- effective exclude: 9
 
 ## INCLUDE (10)
 
@@ -206,7 +206,7 @@ job_id: teaching-vacancies-finance-admin-assistant-priory-junior-school-st-neots
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (8)
+## EXCLUDE (9)
 
 ---
 action: 
@@ -229,6 +229,18 @@ company: Cambridgeshire and Peterborough NHS Foundation Trust
 location: Peterborough, PE78FZ
 source: NHS Jobs
 job_id: nhs-5647546
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: HR Assistant
+company: Inspire Education Group - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-108123858
 reason: Separate employment market.
 ---
 
