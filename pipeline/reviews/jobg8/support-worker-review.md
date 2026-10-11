@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-10-10
+feed_date: 2026-10-11
 
 Edit only the `action:` line in each block:
 
@@ -59,12 +59,6 @@ job_id: 108053298
 action:
 SELECTED | Sussex | Crawley | £14.06 per hour | Night Care Assistant
 job_id: 108053317
----
-
----
-action:
-SELECTED | Sussex | Hove | £13.45 per hour | Bank Support Worker
-job_id: 108114146
 ---
 
 ## SUSSEX — POSSIBLES
@@ -141,12 +135,6 @@ job_id: 1401785578
 
 ---
 action:
-SELECTED | Hampshire | Tadley | £25740 per year | Female Support Worker
-job_id: 108059180
----
-
----
-action:
 SELECTED | Hampshire | Romsey | £26018 - £27111 per year () plus Market Supplement of £3,000 pro-rata, per annum) | Waking Night Childrens Home Support Worker
 job_id: 1401785693
 ---
@@ -167,6 +155,12 @@ job_id: 1401785691
 action:
 SELECTED | Hampshire | Ryde | £17485 per year | Care and Support Worker
 job_id: 108088501
+---
+
+---
+action:
+SELECTED | Hampshire | New Milton | £12.8 - £15.75 per hour | Extra Care Support Worker - Gore Grange
+job_id: 108121734
 ---
 
 ## HAMPSHIRE — POSSIBLES
@@ -231,8 +225,8 @@ job_id: 107626594
 
 ---
 action:
-SELECTED | Oxfordshire | Didcot | £13.75 - £14.05 per hour | Support Worker - Supported Living - FEMALE ONLY
-job_id: 108091380
+SELECTED | Oxfordshire | Abingdon | £26696 per year | Support Worker
+job_id: 108090984
 ---
 
 ## OXFORDSHIRE — POSSIBLES
@@ -245,12 +239,6 @@ _No jobs in this group._
 action:
 SELECTED | Surrey | Leatherhead | £30000 - £32000 per year | Legal Personal Assistant
 job_id: 2064951
----
-
----
-action:
-SELECTED | Surrey | Reigate | £13.75 - £14.75 per hour | Twilight Care Assistant
-job_id: 108111931
 ---
 
 ## SURREY — POSSIBLES

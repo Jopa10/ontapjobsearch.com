@@ -1,6 +1,6 @@
 # Service-admin manual review
 
-feed_date: 2026-10-10
+feed_date: 2026-10-11
 
 Edit only the `action:` line in each block:
 
@@ -893,12 +893,6 @@ SELECTED | London | London | no salary in JobG8 salary fields; no supported sala
 job_id: 2106853
 ---
 
----
-action:
-SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | HR Administrator (Maternity Cover)
-job_id: 2106796
----
-
 ## LONDON — POSSIBLES
 
 _No jobs in this group._
@@ -1345,12 +1339,6 @@ job_id: 23643_225681004
 
 ---
 action:
-SELECTED | Kent | Kent | £27999 per year [JobG8 salary fields] | Business Support Assistant
-job_id: 108044308
----
-
----
-action:
 SELECTED | Kent | Kent | no salary in JobG8 salary fields; no supported salary amount found in description | Credit Controller (12-Month Fixed-Term Contract) - Kent
 job_id: 2066146
 ---
@@ -1407,12 +1395,6 @@ job_id: 2063842
 action:
 SELECTED | Kent | Kent | £21 - £24 per hour [JobG8 salary fields] | Interim Part time Finance Assistant
 job_id: 2093129
----
-
----
-action:
-SELECTED | Kent | Kent | no salary in JobG8 salary fields; no supported salary amount found in description | Team Administrator
-job_id: 2099956
 ---
 
 ## KENT — POSSIBLES
@@ -1612,6 +1594,12 @@ job_id: 2055387
 action:
 SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire |  | Customer Supply Coordinator
 job_id: 2056680
+---
+
+---
+action:
+SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire | £30000 - £33000 per year | P2P Supply Chain Planner
+job_id: 2052561
 ---
 
 ---
@@ -1831,6 +1819,12 @@ _No jobs in this group._
 
 ---
 action:
+SELECTED | Bristol & Bath | Bath | £30000 per year | Accounts Assistant
+job_id: 2020842
+---
+
+---
+action:
 SELECTED | Bristol & Bath | Bristol |  | Junior Accountant
 job_id: 2024392
 ---
@@ -1917,6 +1911,12 @@ job_id: 2070922
 action:
 SELECTED | Bristol & Bath | Bristol |  | Helpdesk Consultant
 job_id: 108091504
+---
+
+---
+action:
+SELECTED | Bristol & Bath | Bristol |  | Office Coordinator
+job_id: 28025_JR99
 ---
 
 ## BRISTOL & BATH — POSSIBLES
@@ -2057,7 +2057,11 @@ job_id: 2076024
 
 ## BUCKINGHAMSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - BUCKINGHAMSHIRE | Buckinghamshire | Buckinghamshire | £35000 - £38000 per year (22 days? annual leave. Contributory) | Finance Assistant
+job_id: 23643_225711333
+---
 
 ## CAMBRIDGESHIRE — SELECTED
 
@@ -2121,6 +2125,12 @@ SELECTED | Cambridgeshire | Peterborough | £14.22 per hour | IT Helpdesk Adviso
 job_id: 108061988
 ---
 
+---
+action:
+SELECTED | Cambridgeshire | Peterborough | £24686 per year | HR Assistant
+job_id: 108123858
+---
+
 ## CAMBRIDGESHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -2162,12 +2172,6 @@ job_id: 2065127
 _No jobs in this group._
 
 ## CHESHIRE - WARRINGTON & HALTON — SELECTED
-
----
-action:
-SELECTED | Cheshire - Warrington & Halton | Warrington |  | Payroll Assistant
-job_id: 2039790
----
 
 ---
 action:
@@ -2359,6 +2363,12 @@ job_id: 107719278
 action:
 SELECTED | Devon | Devon |  | Administrator
 job_id: 107919719
+---
+
+---
+action:
+SELECTED | Devon | Devon |  | Configuration Control Coordinator
+job_id: 108092427
 ---
 
 ## DEVON — POSSIBLES
@@ -2877,6 +2887,12 @@ SELECTED | Gloucestershire | Gloucestershire | £12.71 per hour | Customer Servi
 job_id: 23643_225503952
 ---
 
+---
+action:
+SELECTED | Gloucestershire | Gloucestershire | £26000 per year | Care Coordinator
+job_id: 108064327
+---
+
 ## GLOUCESTERSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -3359,12 +3375,6 @@ job_id: 2065471
 
 ---
 action:
-SELECTED | Lancashire - East | Blackburn | £27463 - £29947 per year | Assistant Accountant
-job_id: 2075598
----
-
----
-action:
 SELECTED | Lancashire - East | Blackburn | £35000 per year | Finance Assistant
 job_id: 2089360
 ---
@@ -3515,7 +3525,11 @@ job_id: 108070241
 
 ## LINCOLNSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - LINCOLNSHIRE | Lincolnshire | Lincolnshire | £42000 per year | Sales Coordinator (Electrical Wholesale)
+job_id: 108089628
+---
 
 ## MERSEYSIDE - LIVERPOOL — SELECTED
 
@@ -3815,6 +3829,12 @@ SELECTED | Northern Ireland - East | Belfast | £34000 per year | Bookkeeper
 job_id: 2091543
 ---
 
+---
+action:
+SELECTED | Northern Ireland - East | Lisburn |  | Credit Controller
+job_id: 108056565
+---
+
 ## NORTHERN IRELAND - EAST — POSSIBLES
 
 _No jobs in this group._
@@ -3955,8 +3975,8 @@ job_id: 108079592
 
 ---
 action:
-SELECTED | Oxfordshire | Oxfordshire | £13.1 per hour | Activities Coordinator
-job_id: 108061032
+SELECTED | Oxfordshire | Oxfordshire | £14 per hour | Materials / Stock Administrator
+job_id: 108123401
 ---
 
 ## OXFORDSHIRE — POSSIBLES
@@ -4475,6 +4495,12 @@ SELECTED | Suffolk | Suffolk |  | Fleet Coordinator
 job_id: 108073870
 ---
 
+---
+action:
+SELECTED | Suffolk | Suffolk |  | LTQR Records Coordinator
+job_id: 108081373
+---
+
 ## SUFFOLK — POSSIBLES
 
 ---
@@ -4787,7 +4813,11 @@ job_id: 2091231
 
 ## WEST MIDLANDS - BIRMINGHAM & SOLIHULL — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Birmingham | £45000 per year | Solar PV Coordinator (In-Roof Systems)
+job_id: 108089617
+---
 
 ## WEST MIDLANDS - BLACK COUNTRY — SELECTED
 
@@ -4825,12 +4855,6 @@ _No jobs in this group._
 action:
 SELECTED | Wiltshire | Wiltshire | £36000 per year | Service Advisor
 job_id: 107921669
----
-
----
-action:
-SELECTED | Wiltshire | Wiltshire | £13.50 per hour | Collections Analyst / Credit Controller
-job_id: 2033907
 ---
 
 ---
