@@ -2,7 +2,7 @@
   "threshold": 6,
   "near_threshold": 4,
   "published_slices_scanned": 16,
-  "jobs_scanned": 424,
+  "jobs_scanned": 417,
   "regional_markets_defined": 65,
   "market_rows_monitored": 97,
   "opportunities": [
@@ -10,7 +10,7 @@
       "region": "west-yorkshire",
       "slice": "service-administrator-jobs",
       "locality": "Leeds",
-      "jobs": 16,
+      "jobs": 18,
       "threshold": 6,
       "status": "LIVE",
       "basis": "configured-catchment",
@@ -23,7 +23,7 @@
       "region": "south-yorkshire",
       "slice": "service-administrator-jobs",
       "locality": "Sheffield",
-      "jobs": 12,
+      "jobs": 11,
       "threshold": 6,
       "status": "LIVE",
       "basis": "configured-catchment",
@@ -46,19 +46,6 @@
       "registered_market": true
     },
     {
-      "region": "coventry-warwickshire",
-      "slice": "service-administrator-jobs",
-      "locality": "Coventry",
-      "jobs": 7,
-      "threshold": 6,
-      "status": "LIVE",
-      "basis": "configured-catchment",
-      "parent_json": "app/coventry-warwickshire/service-administrator-jobs.json",
-      "existing_route": "/coventry/service-administrator-jobs",
-      "active": true,
-      "registered_market": true
-    },
-    {
       "region": "hampshire",
       "slice": "service-administrator-jobs",
       "locality": "Southampton",
@@ -68,6 +55,19 @@
       "basis": "configured-catchment",
       "parent_json": "app/hampshire/service-administrator-jobs.json",
       "existing_route": "/southampton/service-administrator-jobs",
+      "active": true,
+      "registered_market": true
+    },
+    {
+      "region": "coventry-warwickshire",
+      "slice": "service-administrator-jobs",
+      "locality": "Coventry",
+      "jobs": 6,
+      "threshold": 6,
+      "status": "LIVE",
+      "basis": "configured-catchment",
+      "parent_json": "app/coventry-warwickshire/service-administrator-jobs.json",
+      "existing_route": "/coventry/service-administrator-jobs",
       "active": true,
       "registered_market": true
     },
@@ -85,6 +85,19 @@
       "registered_market": true
     },
     {
+      "region": "north-yorkshire",
+      "slice": "service-administrator-jobs",
+      "locality": "York",
+      "jobs": 6,
+      "threshold": 6,
+      "status": "LIVE",
+      "basis": "configured-catchment",
+      "parent_json": "app/north-yorkshire/service-administrator-jobs.json",
+      "existing_route": "/york/service-administrator-jobs",
+      "active": true,
+      "registered_market": true
+    },
+    {
       "region": "hampshire",
       "slice": "service-administrator-jobs",
       "locality": "Portsmouth",
@@ -94,6 +107,19 @@
       "basis": "configured-catchment",
       "parent_json": "app/hampshire/service-administrator-jobs.json",
       "existing_route": "/portsmouth/service-administrator-jobs",
+      "active": true,
+      "registered_market": true
+    },
+    {
+      "region": "kent",
+      "slice": "service-administrator-jobs",
+      "locality": "Ashford",
+      "jobs": 5,
+      "threshold": 6,
+      "status": "LIVE",
+      "basis": "configured-catchment",
+      "parent_json": "app/kent/service-administrator-jobs.json",
+      "existing_route": "/ashford/service-administrator-jobs",
       "active": true,
       "registered_market": true
     },
@@ -111,23 +137,10 @@
       "registered_market": true
     },
     {
-      "region": "north-yorkshire",
-      "slice": "service-administrator-jobs",
-      "locality": "York",
-      "jobs": 5,
-      "threshold": 6,
-      "status": "LIVE",
-      "basis": "configured-catchment",
-      "parent_json": "app/north-yorkshire/service-administrator-jobs.json",
-      "existing_route": "/york/service-administrator-jobs",
-      "active": true,
-      "registered_market": true
-    },
-    {
       "region": "sussex",
       "slice": "service-administrator-jobs",
       "locality": "Brighton & Hove",
-      "jobs": 5,
+      "jobs": 4,
       "threshold": 6,
       "status": "LIVE",
       "basis": "configured-catchment",
@@ -137,28 +150,15 @@
       "registered_market": true
     },
     {
-      "region": "hampshire",
-      "slice": "support-worker",
-      "locality": "Southampton",
-      "jobs": 3,
-      "threshold": 6,
-      "status": "LIVE",
-      "basis": "configured-catchment",
-      "parent_json": "app/hampshire/support-worker.json",
-      "existing_route": "/southampton/support-worker",
-      "active": true,
-      "registered_market": true
-    },
-    {
-      "region": "kent",
+      "region": "south-yorkshire",
       "slice": "service-administrator-jobs",
-      "locality": "Ashford",
+      "locality": "Rotherham",
       "jobs": 3,
       "threshold": 6,
       "status": "LIVE",
       "basis": "configured-catchment",
-      "parent_json": "app/kent/service-administrator-jobs.json",
-      "existing_route": "/ashford/service-administrator-jobs",
+      "parent_json": "app/south-yorkshire/service-administrator-jobs.json",
+      "existing_route": "/rotherham/service-administrator-jobs",
       "active": true,
       "registered_market": true
     },
@@ -228,19 +228,6 @@
       "registered_market": true
     },
     {
-      "region": "south-yorkshire",
-      "slice": "service-administrator-jobs",
-      "locality": "Rotherham",
-      "jobs": 2,
-      "threshold": 6,
-      "status": "LIVE",
-      "basis": "configured-catchment",
-      "parent_json": "app/south-yorkshire/service-administrator-jobs.json",
-      "existing_route": "/rotherham/service-administrator-jobs",
-      "active": true,
-      "registered_market": true
-    },
-    {
       "region": "surrey",
       "slice": "service-administrator-jobs",
       "locality": "Farnham",
@@ -280,6 +267,19 @@
       "registered_market": true
     },
     {
+      "region": "hampshire",
+      "slice": "support-worker",
+      "locality": "Southampton",
+      "jobs": 0,
+      "threshold": 6,
+      "status": "LIVE",
+      "basis": "configured-catchment",
+      "parent_json": "app/hampshire/support-worker.json",
+      "existing_route": "/southampton/support-worker",
+      "active": true,
+      "registered_market": true
+    },
+    {
       "region": "north-east",
       "slice": "service-administrator-jobs",
       "locality": "Chester Le Street",
@@ -306,10 +306,23 @@
       "registered_market": false
     },
     {
+      "region": "coventry-warwickshire",
+      "slice": "service-administrator-jobs",
+      "locality": "Warwick & Leamington",
+      "jobs": 6,
+      "threshold": 6,
+      "status": "QUALIFIES",
+      "basis": "regional-market",
+      "parent_json": "app/coventry-warwickshire/service-administrator-jobs.json",
+      "existing_route": "",
+      "active": false,
+      "registered_market": true
+    },
+    {
       "region": "north-east",
       "slice": "service-administrator-jobs",
       "locality": "Tyne And Wear",
-      "jobs": 7,
+      "jobs": 6,
       "threshold": 6,
       "status": "QUALIFIES",
       "basis": "exact-location-unregistered",
@@ -317,19 +330,6 @@
       "existing_route": "",
       "active": false,
       "registered_market": false
-    },
-    {
-      "region": "coventry-warwickshire",
-      "slice": "service-administrator-jobs",
-      "locality": "Warwick & Leamington",
-      "jobs": 5,
-      "threshold": 6,
-      "status": "NEAR",
-      "basis": "regional-market",
-      "parent_json": "app/coventry-warwickshire/service-administrator-jobs.json",
-      "existing_route": "",
-      "active": false,
-      "registered_market": true
     },
     {
       "region": "coventry-warwickshire",
@@ -444,6 +444,19 @@
       "status": "BUILDING",
       "basis": "regional-market",
       "parent_json": "app/kent/service-administrator-jobs.json",
+      "existing_route": "",
+      "active": false,
+      "registered_market": true
+    },
+    {
+      "region": "cumbria-south",
+      "slice": "support-worker",
+      "locality": "Barrow-in-Furness",
+      "jobs": 2,
+      "threshold": 6,
+      "status": "BUILDING",
+      "basis": "regional-market",
+      "parent_json": "app/cumbria-south/support-worker.json",
       "existing_route": "",
       "active": false,
       "registered_market": true
@@ -568,7 +581,7 @@
     {
       "region": "cumbria-south",
       "slice": "support-worker",
-      "locality": "Barrow-in-Furness",
+      "locality": "Kendal",
       "jobs": 1,
       "threshold": 6,
       "status": "BUILDING",
@@ -581,7 +594,7 @@
     {
       "region": "cumbria-south",
       "slice": "support-worker",
-      "locality": "Kendal",
+      "locality": "Ulverston",
       "jobs": 1,
       "threshold": 6,
       "status": "BUILDING",
@@ -621,6 +634,19 @@
       "region": "hampshire",
       "slice": "service-administrator-jobs",
       "locality": "Eastleigh",
+      "jobs": 1,
+      "threshold": 6,
+      "status": "BUILDING",
+      "basis": "regional-market",
+      "parent_json": "app/hampshire/service-administrator-jobs.json",
+      "existing_route": "",
+      "active": false,
+      "registered_market": true
+    },
+    {
+      "region": "hampshire",
+      "slice": "service-administrator-jobs",
+      "locality": "Fareham",
       "jobs": 1,
       "threshold": 6,
       "status": "BUILDING",
@@ -808,32 +834,6 @@
       "status": "BELOW",
       "basis": "regional-market",
       "parent_json": "app/coventry-warwickshire/service-administrator-jobs.json",
-      "existing_route": "",
-      "active": false,
-      "registered_market": true
-    },
-    {
-      "region": "cumbria-south",
-      "slice": "support-worker",
-      "locality": "Ulverston",
-      "jobs": 0,
-      "threshold": 6,
-      "status": "BELOW",
-      "basis": "regional-market",
-      "parent_json": "app/cumbria-south/support-worker.json",
-      "existing_route": "",
-      "active": false,
-      "registered_market": true
-    },
-    {
-      "region": "hampshire",
-      "slice": "service-administrator-jobs",
-      "locality": "Fareham",
-      "jobs": 0,
-      "threshold": 6,
-      "status": "BELOW",
-      "basis": "regional-market",
-      "parent_json": "app/hampshire/service-administrator-jobs.json",
       "existing_route": "",
       "active": false,
       "registered_market": true
