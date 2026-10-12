@@ -289,6 +289,18 @@ HARD_PASS_PATTERNS = [
     "freedom of information", "foi ",
 ]
 
+# Owner-directed absolute hard fails. These rules run before exact title-register
+# decisions so a prior include cannot admit a role the owner has ruled out.
+# The planner patterns target town planning and specialist operational planning;
+# they deliberately do not match Planning Administrator or planning coordinators.
+ABSOLUTE_HARD_FAIL_PATTERNS = [
+    "town planner", "town planning",
+    "supply chain planner", "supply planner", "demand planner", "asset planner", "traffic planner",
+    "linux",
+    "helpdesk", "help desk", "service desk analyst", "product support analyst",
+    "claims handler",
+]
+
 # Clear office/admin/service-support roles.
 HIGH_CONFIDENCE_PATTERNS = [
     "administrator", "admin assistant", "administration assistant", "administrative assistant",
@@ -1617,6 +1629,20 @@ def assess_practical_role_qualifications(title: str, description: Any) -> tuple[
     return "review", "qualification wording is present but not confidently interpretable"
 
 
+def absolute_hard_fail_hits(title_key: str) -> list[str]:
+    """Return owner-directed hard-fail patterns, preserving the FNOL exception."""
+    hits = [
+        pattern
+        for pattern in ABSOLUTE_HARD_FAIL_PATTERNS
+        if contains_pattern(title_key, pattern)
+    ]
+    if contains_pattern(title_key, "fnol") or contains_pattern(
+        title_key, "first notification of loss"
+    ):
+        hits = [pattern for pattern in hits if pattern != "claims handler"]
+    return hits
+
+
 def classify_title(title: str, title_register: dict[str, dict[str, str]] | None = None) -> tuple[str, str, int, str]:
     """
     Classify admin/service-office slice title intent.
@@ -1632,6 +1658,16 @@ def classify_title(title: str, title_register: dict[str, dict[str, str]] | None 
     """
     title_key = normalise_title_for_register(title)
     title_register = title_register or {}
+
+    absolute_hard_hits = absolute_hard_fail_hits(title_key)
+    if absolute_hard_hits:
+        classification = "HARD_PASS"
+        return (
+            classification,
+            "absolute hard-fail title pattern: " + ", ".join(absolute_hard_hits),
+            CLASSIFICATION_PRIORITY[classification],
+            "STABLE",
+        )
 
     exact = title_register.get(title_key)
     # Owner-agreed exact refinements are deliberately narrower than the stable
