@@ -1,16 +1,16 @@
 report_date,level,source,region,category,count
-2026-10-12,total,All,,,1403
-2026-10-12,source_summary,JobG8,,,1165
+2026-10-12,total,All,,,1397
+2026-10-12,source_summary,JobG8,,,1159
 2026-10-12,source_summary,External,,,238
-2026-10-12,provider,JobG8,,,1165
-2026-10-12,provider,NHS Jobs,,,169
-2026-10-12,provider,Teaching Vacancies,,,69
+2026-10-12,provider,JobG8,,,1159
+2026-10-12,provider,NHS Jobs,,,175
+2026-10-12,provider,Teaching Vacancies,,,63
 2026-10-12,region_category,JobG8,Bedfordshire,Admin/Service – Office Support,9
 2026-10-12,region_category,JobG8,Berkshire,Admin/Service – Office Support,10
 2026-10-12,region_category,JobG8,Berkshire,Finance / Accounts,8
 2026-10-12,region_category,JobG8,Berkshire,Legal Assistant / Paralegal,2
 2026-10-12,region_category,JobG8,Berkshire,Marketing,5
-2026-10-12,region_category,JobG8,Bristol & Bath,Admin/Service – Office Support,13
+2026-10-12,region_category,JobG8,Bristol & Bath,Admin/Service – Office Support,11
 2026-10-12,region_category,JobG8,Bristol & Bath,Customer Sales / Sales Advisor,4
 2026-10-12,region_category,JobG8,Bristol & Bath,Finance / Accounts,4
 2026-10-12,region_category,JobG8,Bristol & Bath,Legal Assistant / Paralegal,3
@@ -19,7 +19,7 @@ report_date,level,source,region,category,count
 2026-10-12,region_category,JobG8,Buckinghamshire,Finance / Accounts,10
 2026-10-12,region_category,JobG8,Buckinghamshire,Legal Assistant / Paralegal,6
 2026-10-12,region_category,JobG8,Buckinghamshire,Marketing,8
-2026-10-12,region_category,JobG8,Cambridgeshire,Admin/Service – Office Support,11
+2026-10-12,region_category,JobG8,Cambridgeshire,Admin/Service – Office Support,10
 2026-10-12,region_category,JobG8,Cambridgeshire,Finance / Accounts,5
 2026-10-12,region_category,JobG8,Cambridgeshire,Marketing,2
 2026-10-12,region_category,JobG8,Cheshire - East,Admin/Service – Office Support,5
@@ -30,7 +30,7 @@ report_date,level,source,region,category,count
 2026-10-12,region_category,JobG8,Cornwall,Admin/Service – Office Support,6
 2026-10-12,region_category,JobG8,Cumbria - South,Support Worker – Wide,6
 2026-10-12,region_category,JobG8,Derbyshire,Admin/Service – Office Support,2
-2026-10-12,region_category,JobG8,Devon,Admin/Service – Office Support,8
+2026-10-12,region_category,JobG8,Devon,Admin/Service – Office Support,7
 2026-10-12,region_category,JobG8,Devon,Customer Sales / Sales Advisor,2
 2026-10-12,region_category,JobG8,Dorset,Admin/Service – Office Support,9
 2026-10-12,region_category,JobG8,Dorset,Finance / Accounts,10
@@ -103,7 +103,7 @@ report_date,level,source,region,category,count
 2026-10-12,region_category,JobG8,Oxfordshire,Legal Assistant / Paralegal,1
 2026-10-12,region_category,JobG8,Oxfordshire,Marketing,1
 2026-10-12,region_category,JobG8,Oxfordshire,Support Worker – Wide,4
-2026-10-12,region_category,JobG8,Scotland Central - Edinburgh & Lothians,Admin/Service – Office Support,6
+2026-10-12,region_category,JobG8,Scotland Central - Edinburgh & Lothians,Admin/Service – Office Support,5
 2026-10-12,region_category,JobG8,Scotland Central - Fife,Admin/Service – Office Support,1
 2026-10-12,region_category,JobG8,Scotland Central - Tayside,Admin/Service – Office Support,2
 2026-10-12,region_category,JobG8,Scotland West - Glasgow,Admin/Service – Office Support,9
@@ -143,7 +143,7 @@ report_date,level,source,region,category,count
 2026-10-12,region_category,JobG8,Yorkshire - North,Finance / Accounts,9
 2026-10-12,region_category,JobG8,Yorkshire - North,Legal Assistant / Paralegal,8
 2026-10-12,region_category,JobG8,Yorkshire - North,Marketing,3
-2026-10-12,region_category,JobG8,Yorkshire - South,Admin/Service – Office Support,11
+2026-10-12,region_category,JobG8,Yorkshire - South,Admin/Service – Office Support,10
 2026-10-12,region_category,JobG8,Yorkshire - South,Finance / Accounts,6
 2026-10-12,region_category,JobG8,Yorkshire - West,Admin/Service – Office Support,9
 2026-10-12,region_category,JobG8,Yorkshire - West,Finance / Accounts,17
@@ -151,7 +151,7 @@ report_date,level,source,region,category,count
 2026-10-12,region_category,JobG8,Yorkshire - West,Marketing,7
 2026-10-12,region_category,JobG8,Yorkshire - West,Support Worker – Wide,1
 2026-10-12,region_category,NHS Jobs,Bedfordshire,Unspecified,1
-2026-10-12,region_category,NHS Jobs,Bristol & Bath,Unspecified,3
+2026-10-12,region_category,NHS Jobs,Bristol & Bath,Unspecified,4
 2026-10-12,region_category,NHS Jobs,Buckinghamshire,Unspecified,5
 2026-10-12,region_category,NHS Jobs,Cambridgeshire,Unspecified,3
 2026-10-12,region_category,NHS Jobs,Cheshire - East,Unspecified,1
@@ -165,7 +165,7 @@ report_date,level,source,region,category,count
 2026-10-12,region_category,NHS Jobs,Greater Manchester - Manchester & Salford,Unspecified,5
 2026-10-12,region_category,NHS Jobs,Greater Manchester - North,Unspecified,1
 2026-10-12,region_category,NHS Jobs,Greater Manchester - South,Unspecified,1
-2026-10-12,region_category,NHS Jobs,Hampshire,Unspecified,8
+2026-10-12,region_category,NHS Jobs,Hampshire,Unspecified,11
 2026-10-12,region_category,NHS Jobs,Herefordshire,Unspecified,1
 2026-10-12,region_category,NHS Jobs,Hertfordshire,Unspecified,7
 2026-10-12,region_category,NHS Jobs,Kent,Unspecified,7
@@ -175,7 +175,7 @@ report_date,level,source,region,category,count
 2026-10-12,region_category,NHS Jobs,London,Unspecified,28
 2026-10-12,region_category,NHS Jobs,Merseyside - Liverpool,Unspecified,1
 2026-10-12,region_category,NHS Jobs,Norfolk,Unspecified,6
-2026-10-12,region_category,NHS Jobs,North East,Unspecified,5
+2026-10-12,region_category,NHS Jobs,North East,Unspecified,4
 2026-10-12,region_category,NHS Jobs,Northamptonshire,Unspecified,3
 2026-10-12,region_category,NHS Jobs,Nottinghamshire,Unspecified,2
 2026-10-12,region_category,NHS Jobs,Oxfordshire,Unspecified,4
@@ -184,7 +184,7 @@ report_date,level,source,region,category,count
 2026-10-12,region_category,NHS Jobs,Staffordshire,Unspecified,3
 2026-10-12,region_category,NHS Jobs,Suffolk,Unspecified,5
 2026-10-12,region_category,NHS Jobs,Surrey,Unspecified,5
-2026-10-12,region_category,NHS Jobs,Sussex,Unspecified,4
+2026-10-12,region_category,NHS Jobs,Sussex,Unspecified,5
 2026-10-12,region_category,NHS Jobs,Wales South - Cardiff & Vale,Unspecified,1
 2026-10-12,region_category,NHS Jobs,Wales South - Swansea Bay,Unspecified,2
 2026-10-12,region_category,NHS Jobs,West Midlands - Birmingham & Solihull,Unspecified,6
@@ -194,15 +194,14 @@ report_date,level,source,region,category,count
 2026-10-12,region_category,NHS Jobs,Worcestershire,Unspecified,1
 2026-10-12,region_category,NHS Jobs,Yorkshire - East,Unspecified,2
 2026-10-12,region_category,NHS Jobs,Yorkshire - North,Unspecified,3
-2026-10-12,region_category,NHS Jobs,Yorkshire - South,Unspecified,3
-2026-10-12,region_category,NHS Jobs,Yorkshire - West,Unspecified,6
+2026-10-12,region_category,NHS Jobs,Yorkshire - South,Unspecified,4
+2026-10-12,region_category,NHS Jobs,Yorkshire - West,Unspecified,7
 2026-10-12,region_category,Teaching Vacancies,Bedfordshire,Admin/Service – Office Support,2
 2026-10-12,region_category,Teaching Vacancies,Berkshire,Admin/Service – Office Support,5
 2026-10-12,region_category,Teaching Vacancies,Buckinghamshire,Admin/Service – Office Support,1
 2026-10-12,region_category,Teaching Vacancies,Cambridgeshire,Admin/Service – Office Support,2
 2026-10-12,region_category,Teaching Vacancies,Cheshire - East,Admin/Service – Office Support,1
-2026-10-12,region_category,Teaching Vacancies,Derbyshire,Admin/Service – Office Support,1
-2026-10-12,region_category,Teaching Vacancies,Devon,Admin/Service – Office Support,7
+2026-10-12,region_category,Teaching Vacancies,Devon,Admin/Service – Office Support,6
 2026-10-12,region_category,Teaching Vacancies,Dorset,Admin/Service – Office Support,1
 2026-10-12,region_category,Teaching Vacancies,Essex,Admin/Service – Office Support,3
 2026-10-12,region_category,Teaching Vacancies,Hertfordshire,Admin/Service – Office Support,4
@@ -214,12 +213,11 @@ report_date,level,source,region,category,count
 2026-10-12,region_category,Teaching Vacancies,Norfolk,Admin/Service – Office Support,3
 2026-10-12,region_category,Teaching Vacancies,Northamptonshire,Admin/Service – Office Support,1
 2026-10-12,region_category,Teaching Vacancies,Nottinghamshire,Admin/Service – Office Support,3
-2026-10-12,region_category,Teaching Vacancies,Oxfordshire,Admin/Service – Office Support,1
 2026-10-12,region_category,Teaching Vacancies,Somerset,Admin/Service – Office Support,3
-2026-10-12,region_category,Teaching Vacancies,Staffordshire,Admin/Service – Office Support,2
-2026-10-12,region_category,Teaching Vacancies,Suffolk,Admin/Service – Office Support,3
+2026-10-12,region_category,Teaching Vacancies,Staffordshire,Admin/Service – Office Support,1
+2026-10-12,region_category,Teaching Vacancies,Suffolk,Admin/Service – Office Support,2
 2026-10-12,region_category,Teaching Vacancies,Sussex,Admin/Service – Office Support,1
-2026-10-12,region_category,Teaching Vacancies,West Midlands - Birmingham & Solihull,Admin/Service – Office Support,4
+2026-10-12,region_category,Teaching Vacancies,West Midlands - Birmingham & Solihull,Admin/Service – Office Support,3
 2026-10-12,region_category,Teaching Vacancies,West Midlands - Coventry & Warwickshire,Admin/Service – Office Support,1
 2026-10-12,region_category,Teaching Vacancies,Wiltshire,Admin/Service – Office Support,1
 2026-10-12,region_category,Teaching Vacancies,Yorkshire - North,Admin/Service – Office Support,1
