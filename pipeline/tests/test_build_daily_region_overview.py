@@ -154,13 +154,18 @@ class LiveRegionalRollupTests(unittest.TestCase):
     def test_daily_overview_workflow_waits_for_a_successful_production_deploy(self) -> None:
         from pathlib import Path
         workflow = Path("../.github/workflows/build-daily-region-overview.yml").read_text(encoding="utf-8")
+        publisher = Path("../.github/workflows/apply-publish-ontap-daily-review.yml").read_text(encoding="utf-8")
         self.assertIn("Deploy Ontap production after publish", workflow)
-        self.assertIn("github.event.workflow_run.conclusion == 'success'", workflow)
-        self.assertIn("github.event.workflow_run.head_branch == 'main'", workflow)
-        self.assertNotIn("      - Run full JobG8 daily process", workflow)
-        self.assertNotIn("      - Apply JobG8 review decisions", workflow)
-        self.assertNotIn("      - Apply and publish Ontap daily review", workflow)
-        self.assertNotIn("\n  push:\n", workflow)
+        self.assertIn("workflow_dispatch:", workflow)
+        self.assertIn("deployment_run_id", workflow)
+        self.assertIn('run.get("conclusion") != "success"', workflow)
+        self.assertIn('run.get("headBranch") != "main"', workflow)
+        self.assertNotIn("workflow_run:", workflow)
+        deployment_dispatch = publisher.index('dispatch_one "production deployment"')
+        report_dispatch = publisher.index("gh workflow run build-daily-region-overview.yml")
+        self.assertGreater(report_dispatch, deployment_dispatch)
+        self.assertIn('deployment_run_id="$LAST_RUN_ID"', publisher)
+        self.assertIn('wait_for_dispatched_run "build-daily-region-overview.yml"', publisher)
 
     def test_overview_includes_all_eight_governed_families(self) -> None:
         self.assertEqual(

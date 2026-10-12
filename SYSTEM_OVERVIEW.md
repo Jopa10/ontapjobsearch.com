@@ -1,11 +1,13 @@
 # Ontap System Overview
 
-**Last updated:** 11 October 2026
-**Status:** Canonical production state, reconciled on 11 October against active workflow definitions and Vercel project records.
+**Last updated:** 12 October 2026
+**Status:** Canonical production state, reconciled on 12 October against active workflow definitions, deployment runs and current report data.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 12 October 2026 — **Today’s overview now dispatches after the publisher confirms the production deployment succeeded:** GitHub did not start it from the `workflow_run` event in the token-dispatched publishing chain. The publisher now passes the successful deployment run ID to the report, which verifies the run and reads the exact deployed SHA. Today’s report was rebuilt; Vercel was not redeployed.
 
 - 11 October 2026 — **The daily regional overview now runs after verified production deployment:** it uses the exact deployed commit, checks the JobG8 XML total against the summed category counts, and shows PASS/FAIL with the difference. Its two 10-date views show daily received/published totals and selected jobs by classification. Saved history starts on 11 October because earlier feed/category totals were not saved; none are guessed. Report updates do not start Vercel builds.
 
@@ -299,7 +301,7 @@ Core controls are:
 
 The JobG8 discovery coverage audit now uses the exact current Europe/London feed date rather than a fixed monthly archive. If that day’s raw feed is unavailable, or the selected feed date differs from the audit date, it stops without publishing a report. This keeps the published JobG8 total, JobG8-supplied category breakdown and genuine published-but-absent exceptions on one same-day basis.
 
-Only a successful `Deploy Ontap production after publish` completion on `main` starts the daily regional overview workflow. The deployment run carries a verified production-SHA artifact; the report checks out that exact commit before reading published jobs. It rebuilds the Markdown report and Excel download, and commits only report/history outputs. Earlier scrape, review, audit, app-file-push and report-code-push triggers have been removed. Report commits do not start Vercel builds.
+After the daily publisher has watched `Deploy Ontap production after publish` succeed on `main`, it explicitly dispatches the daily regional overview with that deployment run ID and waits for completion. The report verifies the run, downloads its verified production-SHA artifact, and checks out that exact commit before reading published jobs. It rebuilds the Markdown report and Excel download, and commits only report/history outputs. Scrape, review, audit, app-file-push and report-code-push events cannot start the report. Report commits do not start Vercel builds.
 
 The 11:45 safety net checks for a successful Apply and publish run on the current London date, whether that run was scheduled or dispatched. If found, it exits without a second publication. Otherwise it uses the same publisher chain in automatic-withhold mode: unresolved review jobs are omitted without becoming remembered exclusions, regardless of queue size, while valid existing decisions and automatically eligible jobs continue. An authenticated external fallback can invoke this same path with `AUTOMATIC_FALLBACK`; it cannot enter manual quarantine mode. Freshness, fingerprint, source-publisher and combined-publication integrity controls are unchanged.
 

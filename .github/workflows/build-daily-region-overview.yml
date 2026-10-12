@@ -1,13 +1,12 @@
 name: Build daily regional overview
 
 on:
-  workflow_run:
-    workflows:
-      - Deploy Ontap production after publish
-    types:
-      - completed
-    branches:
-      - main
+  workflow_dispatch:
+    inputs:
+      deployment_run_id:
+        description: Successful Deploy Ontap production after publish run ID
+        required: true
+        type: string
 
 concurrency:
   group: build-daily-regional-overview
@@ -19,13 +18,28 @@ permissions:
 
 jobs:
   build-overview:
-    if: >-
-      github.event.workflow_run.name == 'Deploy Ontap production after publish' &&
-      github.event.workflow_run.conclusion == 'success' &&
-      github.event.workflow_run.head_branch == 'main'
     runs-on: ubuntu-latest
 
     steps:
+      - name: Verify the referenced production deployment succeeded
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DEPLOYMENT_RUN_ID: ${{ inputs.deployment_run_id }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          gh run view "$DEPLOYMENT_RUN_ID" --repo "$GH_REPO" --json name,headBranch,conclusion > "$RUNNER_TEMP/deployment-run.json"
+          python - "$RUNNER_TEMP/deployment-run.json" <<'PY'
+          import json
+          import sys
+
+          run = json.load(open(sys.argv[1], encoding="utf-8"))
+          if run.get("name") != "Deploy Ontap production after publish":
+              raise SystemExit("The supplied run is not Deploy Ontap production after publish.")
+          if run.get("headBranch") != "main" or run.get("conclusion") != "success":
+              raise SystemExit("The supplied production deployment did not succeed on main.")
+          PY
+
       - name: Check out main to retrieve the deployment receipt
         uses: actions/checkout@v4
         with:
@@ -36,7 +50,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: verified-production-sha
-          run-id: ${{ github.event.workflow_run.id }}
+          run-id: ${{ inputs.deployment_run_id }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
           path: ${{ runner.temp }}/deployment
 

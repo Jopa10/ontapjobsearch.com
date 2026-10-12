@@ -390,6 +390,23 @@ jobs:
           if [ "$shared_publish" = "true" ]; then
             dispatch_one "shared verified pages" "publish-verified-pages.yml" "false"
             dispatch_one "production deployment" "deploy-vercel-after-publish.yml" "false"
+            deployment_run_id="$LAST_RUN_ID"
+            report_started_epoch="$(date -u +%s)"
+
+            if gh workflow run build-daily-region-overview.yml \
+              --ref main \
+              -f "deployment_run_id=$deployment_run_id"; then
+              echo "Dispatched the daily regional overview after successful production deployment $deployment_run_id."
+              if wait_for_dispatched_run "build-daily-region-overview.yml" "$report_started_epoch"; then
+                echo "Daily regional overview completed successfully."
+              else
+                echo "::warning::The production deployment succeeded, but the daily regional overview workflow failed."
+                echo "- Daily regional overview failed after production deployment $deployment_run_id; inspect the Build daily regional overview run." >> "$GITHUB_STEP_SUMMARY"
+              fi
+            else
+              echo "::warning::The production deployment succeeded, but the daily regional overview could not be dispatched."
+              echo "- Daily regional overview could not be dispatched after production deployment $deployment_run_id." >> "$GITHUB_STEP_SUMMARY"
+            fi
           fi
 
       - name: Publish summary

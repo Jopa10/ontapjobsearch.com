@@ -456,7 +456,7 @@ def _upsert_jobg8_history(profile: JobG8CategoryProfile | None) -> None:
 
     JOBG8_HISTORY.parent.mkdir(parents=True, exist_ok=True)
     with JOBG8_HISTORY.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=JOBG8_HISTORY_FIELDS)
+        writer = csv.DictWriter(handle, fieldnames=JOBG8_HISTORY_FIELDS, lineterminator="\n")
         writer.writeheader()
         writer.writerows(history_rows)
 
