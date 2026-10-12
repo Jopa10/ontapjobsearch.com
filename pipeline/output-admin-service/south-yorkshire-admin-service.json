@@ -159,31 +159,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "2087031",
-    "title": "Paralegal",
-    "company": "CRA Consulting - Agency - Permanent",
-    "location": "Sheffield",
-    "region": "Yorkshire - South",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Role: Paralegal\n\nLocation: Sheffield, South Yorkshire\n\nContract: Full time, permanent, hybrid\n\nSalary: £25,000 - £27,000\n\nAs a Litigation Paralegal within this established in-house legal team, you will play a vital role in managing legal recovery claims relating to commercial property and infrastructure damage. Working within a structured, high-volume environment, your duties will include:\n- Monitoring Incoming Claims: Regularly review and assess new damage claims submitted by external stakeholders, contractors, or third parties, ensuring accuracy and completeness of information.\n- Case Management: Handle a personal caseload of legal recovery files from initial instruction through to final resolution. Use internal systems to track progress, maintain documentation, and ensure compliance with service level agreements.\n- Claim Evaluation & Qualification: Conduct early-stage analysis of claims to determine liability, legal merit, and potential recovery value. Ensure cases meet the required thresholds for progressing to litigation where necessary.\n- Negotiation & Settlement: Engage with third parties, insurers, and legal representatives to negotiate out-of-court settlements wherever possible, while protecting the organisation's commercial interests.\n- Litigation Support: Where disputes cannot be resolved through negotiation, prepare case files for formal legal proceedings. This includes drafting pleadings, witness statements, and other relevant legal documents.\n- Evidence Gathering: Undertake detailed investigative work by analysing technical documents, reviewing planning maps and diagrams, and liaising with internal operational teams to gather essential case facts.\n- Client Liaison & Stakeholder Communication: Maintain regular contact with internal departments and external parties, including engineers, surveyors, contractors, and claims specialists, to ensure consistent information flow throughout the claims process.\n- Compliance & Risk Awareness: Ensure that all casework is conducted in line with relevant legislation, regulatory standards, and internal policy. Proactively flag potential legal risks or anomalies to supervising solicitors.\n- Use of Case Management Systems: Utilise specialist case management software to manage documentation, record actions, and produce reports. Contribute to data accuracy and overall operational efficiency.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?6WDmO0cNttovqjNiQ%2b%2bodHeB%2fflsI616a",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "Paralegal Role: Paralegal Location: Sheffield, South Yorkshire Contract: Full time, permanent, hybrid Salary: £25,000 - £27,000 As a Litigation Paralegal within this established in-house legal team, you will play a vital role in managing legal recovery claims relating to commercial property and infrastructure damage.",
-    "advertiser_name": "CRA Consulting",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "2033599",
     "title": "Audience Development Coordinator - Local Authority - Libraries",
     "company": "Reed - Agency - Permanent",
@@ -399,7 +374,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9190-26-0633",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9190-26-0633",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5654236",
@@ -417,7 +396,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9165-26-09-089",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9165-26-09-089",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5647395",
@@ -435,6 +418,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3742-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3742-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

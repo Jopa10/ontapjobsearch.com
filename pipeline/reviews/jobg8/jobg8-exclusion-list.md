@@ -6,9 +6,105 @@ The `excluded_on` date is the day the exclusion decision was made.
 To restore a job, edit only its `action:` line to `action: select`.
 On the next JobG8 run that exact job ID will be restored and removed from this list.
 
-remembered_exclusions: 429
+remembered_exclusions: 437
 
 ## SERVICE / ADMIN — EXCLUDED
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-12
+title: Sales Coordinator (Electrical Wholesale)
+employer: Ernest Gordon Recruitment
+region: 
+town: Lincolnshire
+salary: 
+job_id: 108089628
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-12
+title: Learning Coordinator
+employer: Morson Edge
+region: 
+town: Suffolk
+salary: 
+job_id: 108067034
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-12
+title: HR Administrator Placement Programme - No Experience Needed
+employer: IT Online Learning
+region: 
+town: Glasgow
+salary: 
+job_id: 108092644
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-12
+title: HR Administrator Placement Programme - No Experience Needed
+employer: IT Online Learning
+region: 
+town: Yorkshire
+salary: 
+job_id: 108092642
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-12
+title: HR Administrator Placement Programme - No Experience Needed
+employer: IT Online Learning
+region: 
+town: Bristol
+salary: 
+job_id: 108092639
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-12
+title: HR Administrator Placement Programme - No Experience Needed
+employer: IT Online Learning
+region: 
+town: Liverpool
+salary: 
+job_id: 108092604
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-12
+title: Finance Assistant
+employer: Fremaux Delorme Co Ltd
+region: 
+town: Buckinghamshire
+salary: 
+job_id: 23643_225711333
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-12
+title: Executive Assistant
+employer: Hays
+region: 
+town: Highland
+salary: 
+job_id: 108093450
+---
 
 ---
 action:
