@@ -2,15 +2,87 @@
 
 review_date: 2026-10-12
 
-- Open Administrative & Clerical rows reviewed: 2105
+- Open Administrative & Clerical rows reviewed: 2111
 - Auto/remembered selected: 370
 - Selected HC Tier A: 195
 - Selected HC Tier B: 175
-- POSS awaiting decision: 1637
+- POSS awaiting decision: 1642
 - Excluded: 0
-- HARD_PASS: 98
+- HARD_PASS: 99
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Oxfordshire | Oxford, OX3 8RZ | Negotiable | Regional General Manager (Central London)
+source_job_id: 5656594
+title: Regional General Manager (Central London)
+employer: MSI Reproductive Choices
+region: Oxfordshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0539-26-0230
+factual_fingerprint: 1b81d424b1ba005a57ed46f2be36b77a697cf7389559b00a7c5fcd93224f44db
+---
+
+---
+action:
+POSS | NHS Jobs | Yorkshire - West | BRADFORD, BD1 4AS | £57528.00 to £64750.00 | Lead Data Engineer
+source_job_id: 5656524
+title: Lead Data Engineer
+employer: NHS West Yorkshire Integrated Care Board
+region: Yorkshire - West
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9475-ICB-675
+factual_fingerprint: 2ad70a470e7a4dfc47b1af98dfd9398b0de9f40640afa1181debb374701edde6
+---
+
+---
+action:
+POSS | NHS Jobs | Somerset | Yeovil, BA21 4AT | £25760.00 to £27476.00 | SSNAP Stroke Data Administrator
+source_job_id: 5636453
+title: SSNAP Stroke Data Administrator
+employer: Somerset NHS Foundation Trust
+region: Somerset
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9184-26-1409
+factual_fingerprint: 267cec76bb1732e0a83d9a19e974025bccebfb763bd50944721e42808535e705
+---
+
+---
+action:
+POSS | NHS Jobs | Greater Manchester - South | Stockport, SK1 1PN | £28392.00 to £31157.00 | Social Prescriber Link Worker (Band 4)
+source_job_id: 5656564
+title: Social Prescriber Link Worker (Band 4)
+employer: Viaduct Care
+region: Greater Manchester - South
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0463-26-0006
+factual_fingerprint: fd3757299d48256b27fe7a40e67505eccb18f84ace0264538752a10cce28f41f
+---
+
+---
+action:
+POSS | NHS Jobs | Cambridgeshire | Ely, CB74EA | £66582.00 to £77368.00 | Contract Relationship Lead
+source_job_id: 5656413
+title: Contract Relationship Lead
+employer: NHS Central East ICB
+region: Cambridgeshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9644-26-0073
+factual_fingerprint: f4061c7a17982dee02fdac39def52a0e2f82237156fea73651b0afdd54543afc
+---
+
+---
+action:
+POSS | NHS Jobs | North East | Durham, DH1 5RD | £25760.00 to £27476.00 | Ward Team Administrator
+source_job_id: 5655883
+title: Ward Team Administrator
+employer: Tees Esk and Wear Valleys NHS Foundation Trust
+region: North East
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1249
+factual_fingerprint: 3821921bf83c22cce073e4e85dcf3b9a8fb856ecffb654f8b07b0203fcc5d398
+---
 
 ---
 action:
@@ -6237,7 +6309,7 @@ employer: UK Health Security Agency
 region: Gloucestershire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/K9919-26-0300
-factual_fingerprint: c49e86315f2e9c3f913c1e6c91f935bc4baa0557ade224bbadb33873c5b46bdb
+factual_fingerprint: 28a5ab823c8c3a16098b42c9ae718d5bd2f5d56e354fb746708743a78e9b9b90
 ---
 
 ---
@@ -13690,18 +13762,6 @@ region:
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0093
 factual_fingerprint: c309379713a5e5d3dba461ea25c7659f27ad70a5f4ba106b4431c871aa0b58b1
----
-
----
-action:
-POSS | NHS Jobs | — | East Twickenham, TW1 2AR | £28648.00 to £31747.00 | Admin Assistant - 26 hours
-source_job_id: 5630840
-title: Admin Assistant - 26 hours
-employer: British Pregnancy Advisory Service (BPAS)
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0201-TELRIC-AA-26
-factual_fingerprint: 66cdddadbd34d01fbda60f8546e35482a556b73d6346a1d667ace4184b3fc622
 ---
 
 ---
