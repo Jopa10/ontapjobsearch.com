@@ -280,7 +280,7 @@ HARD_PASS_PATTERNS = [
     "business development", "account manager", "sales consultant", "telesales", "estate agent",
 
     # Agreed specialist-function and seniority barriers.
-    "senior", "manager", "legal", "pensions", "pension ", "ifa ", "wealth",
+    "senior", "manager", "legal", "paralegal", "solicitor", "fee earner", "fee-earner", "pensions", "pension ", "ifa ", "wealth",
     "financial planning", "financial planner", "finance administrator", "credit administrator", "loan administrator",
     "paraplanner", "paraplanning", "para-planner", "para-planning", "para planner", "para planning",
     "billing administrator", "employee benefits", "payroll", "compliance", "regulatory affairs",
@@ -302,7 +302,7 @@ HIGH_CONFIDENCE_PATTERNS = [
     "assistant accountant", "assistant management accountant", "management accountant assistant", "accounting assistant", "accountancy assistant", "accounts assistant",
     "finance assistant", "junior accountant", "junior bookkeeper", "bookkeeper", "credit controller",
     "payroll administrator", "payroll assistant", "payroll clerk", "payroll coordinator",
-    "legal administrator", "legal assistant", "paralegal",
+    "legal administrator", "legal assistant",
 ]
 
 # Adjacent credible admin/service roles; useful for filling a thin slice but should not outrank HC.
@@ -314,16 +314,15 @@ ELASTIC_FIT_PATTERNS = [
     "case administrator", "document controller", "compliance administrator",
 ]
 
-# Practical finance, payroll and legal-office roles are valid office-work
-# candidates even though their titles contain words that historically sat in
-# the specialist hard-pass list.  Keep this list deliberately title-specific:
-# it does not weaken exclusions for senior, managerial or specialist roles.
+# Practical finance, payroll and legal-administration roles are valid
+# office-work candidates even though their titles contain words that
+# historically sat in the specialist hard-pass list. Legal practitioner titles
+# remain excluded. Keep this list deliberately title-specific.
 PRACTICAL_ROLE_PATTERNS = [
     "assistant accountant", "assistant management accountant", "management accountant assistant", "accounting assistant", "accountancy assistant",
     "accounts assistant", "finance assistant", "junior accountant", "junior bookkeeper",
     "bookkeeper", "credit controller", "payroll administrator", "payroll assistant",
     "payroll clerk", "payroll coordinator", "legal administrator", "legal assistant",
-    "paralegal",
 ]
 
 ACCOUNTANT_ASSISTANT_TITLE_RE = re.compile(
