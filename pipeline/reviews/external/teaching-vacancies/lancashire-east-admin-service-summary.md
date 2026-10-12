@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - East
 
-review_date: 2026-10-11
+review_date: 2026-10-12
 review_fingerprint: 698aa078e452f3e9a370b6865d27cf9a98509a18b4c7459d1cde11cebd14eac8
-routing_manifest_sha256: ec7fa9ba90a904fff39585a63b4821958bbb1769f50e8974421041c21e8eeb24
+routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
 ontap_region: Lancashire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 4
 - Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -59,7 +59,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-ma
 
 ## HARD_PASS
 
-- [Administrative Officer - SEND Admin Support](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-send-admin-support) — Insufficient admin/service evidence.
 - [Attendance Improvement Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-improvement-manager-pendle-vale-college) — Manager title salary ceiling £30,907 is not below £28,000.
 - [HR Operations & Systems Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-operations-systems-advisor) — Insufficient admin/service evidence.
 

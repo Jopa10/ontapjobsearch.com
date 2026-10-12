@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-10-11
-review_fingerprint: 2c518e0926d66827da77bcf0ba4e626ff912136174d64dd3d94844a4723353c4
-routing_manifest_sha256: ec7fa9ba90a904fff39585a63b4821958bbb1769f50e8974421041c21e8eeb24
+review_date: 2026-10-12
+review_fingerprint: 729f0d6f92ffc0aa682d72a4dc2de711bfcca3ed39b6e03b4b180bd95bc56445
+routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 4
+- Records: 12
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -81,6 +81,21 @@ source_job_id: exams-officer-a5af8350-c1ba-4da1-923b-fd1382b67fde
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-a5af8350-c1ba-4da1-923b-fd1382b67fde
 ---
 
+---
+action: 
+SELECTED | Somerset | Weston-Super-Mare, South West, BS24 8BB | £25,835.02 | Senior Administrator
+employer: Locking Primary School
+closing_date: 2026-11-02T23:59:59+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e0e62db06ad9b4aa929d4c94589063806734b2171cb363fb028690152f764fdd
+source: Teaching Vacancies
+source_job_id: senior-administrator-locking-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-locking-primary-school
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -109,6 +124,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the
 - [Finance Business Partner - Projects and Costings](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-projects-and-costings) — Insufficient admin/service evidence.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-yeovil-college) — Insufficient admin/service evidence.
 - [Operations Lead](https://teaching-vacancies.service.gov.uk/jobs/operations-lead-bishops-hull-primary-school) — Insufficient admin/service evidence.
+- [Receptionist](https://teaching-vacancies.service.gov.uk/jobs/receptionist-midsomer-norton-schools-partnership) — Missing salary or pay scale.
 
 ## Safety boundary
 

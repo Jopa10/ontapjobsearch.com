@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — South West
 
-review_date: 2026-10-11
-review_fingerprint: b458fa36783ca8237639207fef6f28edf2f16d6b85f12fbd2171d812a84156cd
-routing_manifest_sha256: ec7fa9ba90a904fff39585a63b4821958bbb1769f50e8974421041c21e8eeb24
+review_date: 2026-10-12
+review_fingerprint: 8f2deeb269fb4029b10baa022d2d9011f54cb7bc0b380d10986f0127133969ca
+routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
 ontap_region: South West
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -14,12 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 5
-- Selected: 2
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
+
+---
+action: 
+SELECTED | South West | Sherford, South West, PL9 8FA | £26,427.00 - £27,274.00 Annually (FTE) | Administrative Assistant
+employer: Sherford Vale School & Nursery
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: aeaec1fd569e54976325caf841331d6284dcd11f444d1cf2ff2ed0ec51d65a2e
+source: Teaching Vacancies
+source_job_id: administrative-assistant-sherford-vale-school-nursery-sherford
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-sherford-vale-school-nursery-sherford
+---
 
 ---
 action: 
@@ -62,7 +77,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 ## HARD_PASS
 
 - [Family Liaison Worker](https://teaching-vacancies.service.gov.uk/jobs/family-liaison-worker-doubletrees-school) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-torpoint-community-college) — Manager title salary ceiling £56,293 is not below £28,000.
 - [Year Leader ( Non Teaching)](https://teaching-vacancies.service.gov.uk/jobs/year-leader-non-teaching-the-wellington-academy) — Insufficient admin/service evidence.
 
 ## Safety boundary

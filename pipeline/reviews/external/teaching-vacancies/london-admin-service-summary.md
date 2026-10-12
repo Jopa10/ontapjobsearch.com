@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-10-11
-review_fingerprint: 154f69b06900e6101e81839fb52f4b77f47bf2c2ca75eab69868ce5c826e8852
-routing_manifest_sha256: ec7fa9ba90a904fff39585a63b4821958bbb1769f50e8974421041c21e8eeb24
+review_date: 2026-10-12
+review_fingerprint: ab97137337cef7f03928e1a36ded2e3aa1376eef8fe948bea5692faea4039442
+routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 56
-- Selected: 23
+- Records: 58
+- Selected: 22
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 31
+- Hard pass: 34
 
 ## SELECTED
-
----
-action: 
-SELECTED | London | London, London, SE16 3PB | £32,164.00 - £34,084.00 Annually (Actual) Term Time + 2 Weeks | Academy Administrator
-employer: Galleywall Primary, City of London Academy
-closing_date: 2026-10-12T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2d201e74fe1c303adadd98595f980b645c74c6287c43f809dffb3174f0ee733b
-source: Teaching Vacancies
-source_job_id: academy-administrator-galleywall-primary-city-of-london-academy-london
-source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-galleywall-primary-city-of-london-academy-london
----
 
 ---
 action: 
@@ -49,21 +34,6 @@ factual_fingerprint: cd08aac3b7776c6126ca32fea0512dd3ae4859453adf7bbb2a81da46eea
 source: Teaching Vacancies
 source_job_id: administration-assistant-hawes-down-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-hawes-down-primary-school
----
-
----
-action: 
-SELECTED | London | Orpington, London, BR6 9SA | £24,717.00 Annually (Actual) £24,717 Actual Salary, FTE £28,645 | Administrator - Full Time
-employer: Newstead Wood School
-closing_date: 2026-10-11T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c4a1107d4edc0b5787866789638908fa951ae9dc72de24081e3545d3a7e70eab
-source: Teaching Vacancies
-source_job_id: administrator-full-time-newstead-wood-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-full-time-newstead-wood-school
 ---
 
 ---
@@ -98,21 +68,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-2a
 
 ---
 action: 
-SELECTED | London | London, SE14 5SF | £30,899.00 - £33,212.00 Annually (FTE) S13 - S16 | ASPIRE Project Administrator
-employer: Haberdashers' Aske's Federation Trust
-closing_date: 2026-10-12T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 81ca48fbf5413732c044f1ce5c41bc9e00179608a0fe913d3b3730cc47db2de5
-source: Teaching Vacancies
-source_job_id: aspire-project-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/aspire-project-administrator
----
-
----
-action: 
 SELECTED | London | London, London, SE22 0NR | £34,359-£36,423 | Attendance and Admissions Officer
 employer: Harris Girls' Academy East Dulwich
 closing_date: 2026-11-02T23:59:00+00:00
@@ -139,6 +94,21 @@ factual_fingerprint: 614caf75a5d8eeeb528f321e00f430232ff32ccd356b8cef6878affaeca
 source: Teaching Vacancies
 source_job_id: attendance-officer-coombe-girls-school-new-malden-surrey
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-coombe-girls-school-new-malden-surrey
+---
+
+---
+action: 
+SELECTED | London | Harrow, London, HA3 6NR | £30,467.00 - £32,320.00 Annually (Actual) | Attendance Officer
+employer: Hatch End High School
+closing_date: 2026-10-19T09:00:00+01:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f622ff10bc0fc3ff7b9c84db5f6448e76c617640f198b4e36eb7ac5ace1a1932
+source: Teaching Vacancies
+source_job_id: attendance-officer-hatch-end-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-hatch-end-high-school
 ---
 
 ---
@@ -248,6 +218,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-bobby-m
 
 ---
 action: 
+SELECTED | London | London, London, N17 9LN | £34,998 - £37,134 | Exams Officer
+employer: Harris Academy Tottenham
+closing_date: 2026-10-26T23:59:00+00:00
+reason: Clear admin/service title: exams officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 42d051a3a6536686eb484b25d8c3705d560171744b6a914d1340efe83764d381
+source: Teaching Vacancies
+source_job_id: exams-officer-harris-academy-tottenham-london
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-harris-academy-tottenham-london
+---
+
+---
+action: 
 SELECTED | London | Beckenham, London, BR3 3RD | £38,359.00 - £40,572.00 Annually (FTE) NJC Scale 7 points 21 – 25 (FTE £38,359 – £40,572 per annum, Actual £36,490 - £38,595 per annum) | Exams Officer
 employer: Orion Eden Park
 closing_date: 2026-10-16T23:59:00+01:00
@@ -278,17 +263,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/human-resources-admin
 
 ---
 action: 
-SELECTED | London | Dagenham, London, RM9 4UN | £10,415.94 - £10,706.91 Annually (Actual) £30,408 to £30,843 (FTE) | Music Admin Assistant
-employer: Jo Richardson Community School
-closing_date: 2026-10-12T08:00:00+01:00
-reason: Clear admin/service title: admin assistant
+SELECTED | London | London, London, SE11 4AX | £33,036.00 Annually (FTE) | Office Administrator
+employer: Evolve Academy
+closing_date: 2026-10-31T23:59:00+00:00
+reason: Clear admin/service title: administrator, office administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 2e216f53aa2a7f6b0acd39c391eab2f7c71b86fa2750e4f4191a6d4067febbf4
+factual_fingerprint: 5e1eb327bd961432b5781af0cf896f1f8fe16c1d67346d97a84b98bb3cbb2804
 source: Teaching Vacancies
-source_job_id: music-admin-assistant-jo-richardson-community-school-dagenham-essex
-source_url: https://teaching-vacancies.service.gov.uk/jobs/music-admin-assistant-jo-richardson-community-school-dagenham-essex
+source_job_id: office-administrator-evolve-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-evolve-academy
 ---
 
 ---
@@ -338,21 +323,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-admin-assistan
 
 ---
 action: 
-SELECTED | London | Isleworth, London, TW7 5DB | £33,129.00 - £35,109.00 Annually (FTE) NJC Scale 5 £33,129 to £35,109 (pro rata) Pro rata salary based on working 36 hours a week for 5 days a week, 39 weeks per annum (N.B. this is ‘term time’ i.e. 195 days) | SEND Administrator
-employer: Bolder Academy
-closing_date: 2026-10-12T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2aa6d12d4e8637b94171ac0d449be0bd9dcdeca6f5592140b687c125dbcec75b
-source: Teaching Vacancies
-source_job_id: send-administrator-bolder-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-bolder-academy
----
-
----
-action: 
 SELECTED | London | Dagenham, London, RM10 7UR | £28,909.00 - £30,200.00 Annually (Actual) Salary Scale: Scale 5 (Pt12-15, £33,609 - £35,109) Prorated salary range is likely to be approx. £28,909 - £30,200 (also dependant on experience, weeks per year and continuous service) Based on working 35 hours per week, Term time only. (Subject to job evaluation) | SEND Administrator
 employer: Eastbrook School
 closing_date: 2026-11-02T08:00:00+00:00
@@ -364,6 +334,21 @@ factual_fingerprint: 38cf8cb831a469601a8d1e48cc7c73d53a397f6fa461341aec9d033423e
 source: Teaching Vacancies
 source_job_id: send-administrator-eastbrook-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-eastbrook-school
+---
+
+---
+action: 
+SELECTED | London | London, London, SE9 5EE | £30,963.00 Annually (Actual) | SEND Administrator
+employer: Eltham Hill School
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0596b76937c79d5420bf7ba5f9b391f5afd5e69cc1d0bbbf706718580a3ad4a1
+source: Teaching Vacancies
+source_job_id: send-administrator-eltham-hill-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-eltham-hill-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -411,12 +396,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-manager-ep
 - [Attendance Manager & Deputy Designated Safeguarding Lead (DDSL)](https://teaching-vacancies.service.gov.uk/jobs/attendance-manager-deputy-designated-safeguarding-lead-ddsl) — Manager title salary ceiling £44,231 is not below £28,000.
 - [Careers Progression & Work Experience Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/careers-progression-work-experience-co-ordinator-davenant-foundation-school-loughton-essex) — Insufficient admin/service evidence.
 - [Chief Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-finance-officer-newham-community-learning) — Insufficient admin/service evidence.
-- [Clerk](https://teaching-vacancies.service.gov.uk/jobs/clerk-fa200dc5-f631-4c94-82eb-9b7a7dc9e643) — Insufficient admin/service evidence.
+- [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-willow-dene-school) — Insufficient admin/service evidence.
 - [Communications and Collaboration Lead](https://teaching-vacancies.service.gov.uk/jobs/communications-and-collaboration-lead) — Insufficient admin/service evidence.
 - [Data Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-administration-assistant-lilian-baylis-technology-school) — Insufficient admin/service evidence.
 - [Deputy Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/deputy-chief-financial-officer-connect-education-trust) — Insufficient admin/service evidence.
 - [Director of HR](https://teaching-vacancies.service.gov.uk/jobs/director-of-hr-orion-education-chislehurst-not-recorded) — Insufficient admin/service evidence.
 - [EA to the Principal](https://teaching-vacancies.service.gov.uk/jobs/ea-to-the-principal) — Out-of-scope occupation: principal.
+- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-feec0708-8cac-454f-8890-7daafb1d5429) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-blackfen-school-for-girls) — Manager title salary ceiling £58,347 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-breakspear-school) — Insufficient admin/service evidence.
 - [H3 Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/h3-admin-officer) — Insufficient admin/service evidence.
@@ -433,8 +419,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-manager-ep
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-handsworth-primary-school) — Manager title without salary evidence below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-sacred-heart-roman-catholic-primary-school) — Manager title salary ceiling £48,519 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-wells-primary-school) — Manager title without salary evidence below £28,000.
+- [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-whitehall-park-school) — Manager title salary ceiling £43,696 is not below £28,000.
 - [Senior Project Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-project-officer) — Insufficient admin/service evidence.
 - [Site Manager](https://teaching-vacancies.service.gov.uk/jobs/site-manager-hereward-primary-school-loughton-essex) — Out-of-scope occupation: site manager.
+- [Specialist Cover Coordinator](https://teaching-vacancies.service.gov.uk/jobs/specialist-cover-coordinator) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

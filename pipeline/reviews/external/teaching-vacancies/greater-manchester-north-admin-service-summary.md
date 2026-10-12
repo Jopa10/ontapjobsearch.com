@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-10-11
-review_fingerprint: 55955e3d3e4b2c15cf5673e9c01dd97f368254ab901f023b3468d376f6016483
-routing_manifest_sha256: ec7fa9ba90a904fff39585a63b4821958bbb1769f50e8974421041c21e8eeb24
+review_date: 2026-10-12
+review_fingerprint: 704f496d020c93b164d7d43175b9a2870a29ad30bd5bdd9ae210794fc5692fed
+routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 10
-- Selected: 6
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 5
 
 ## SELECTED
 
@@ -53,21 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-offi
 
 ---
 action: 
-SELECTED | Greater Manchester - North | Radcliffe, North West, M26 2SZ | £27,709.00 to £29,071.00 per annum (pro rata £24,444.59 to £25,646.13 per annum) | Business Support Officer - Attendance and Admissions
-employer: Star Radcliffe Academy
-closing_date: 2026-10-11T23:59:00+01:00
-reason: Clear admin/service title: business support officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9c09279201e1e4b28c135de68da5ec9a94dda6fef76c304db0b0e9a0046d4fb9
-source: Teaching Vacancies
-source_job_id: business-support-officer-attendance-and-admissions-star-radcliffe-academy-radcliffe
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-attendance-and-admissions-star-radcliffe-academy-radcliffe
----
-
----
-action: 
 SELECTED | Greater Manchester - North | Radcliffe, North West, M26 2SZ | £27,709.00 to £29,071.00 per annum (pro rata £24,444.59 to £25,646.13 per annum) | Business Support Officer SEND
 employer: Star Radcliffe Academy
 closing_date: 2026-10-18T23:59:00+01:00
@@ -96,21 +81,6 @@ source_job_id: office-administrator-c5d744ea-573f-4ae3-a99f-6ef11866ee72
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-c5d744ea-573f-4ae3-a99f-6ef11866ee72
 ---
 
----
-action: 
-SELECTED | Greater Manchester - North | Oldham, North West, OL2 5BF | £28,437.98 - £30,375.64 Annually (Actual) SCP 16-20 | Pastoral Administrator
-employer: E-ACT the Oldham Academy North
-closing_date: 2026-10-12T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8e4ed9d92a746c27254cc67e68e38b22e8ebd9b47ad02ce5fe360d6decdb4c83
-source: Teaching Vacancies
-source_job_id: pastoral-administrator-e-act-the-oldham-academy-north
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-e-act-the-oldham-academy-north
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -137,6 +107,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/mis-systems-and-data-
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-the-blue-coat-cofe-school) — Insufficient admin/service evidence.
 - [Attendance Support Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-support-officer-st-gabriel-s-rc-high-school-a-voluntary-academy-bury-lancashire) — Insufficient admin/service evidence.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-bc9a8d56-95b2-402f-9fa6-ac718f8f9933) — Insufficient admin/service evidence.
+- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-new-bridge-school-oldham-lancashire) — Insufficient admin/service evidence.
+- [Personal Care Assistant based at New Bridge Learning Centre](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-based-at-new-bridge-learning-centre-new-bridge-school-oldham-lancashire) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

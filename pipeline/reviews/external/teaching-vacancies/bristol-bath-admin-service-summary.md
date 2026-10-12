@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-10-11
-review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: ec7fa9ba90a904fff39585a63b4821958bbb1769f50e8974421041c21e8eeb24
+review_date: 2026-10-12
+review_fingerprint: 439941bb2c29b2254aaccfd6f58e4f22a86d55e808773f52cd38a41611647c58
+routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -13,15 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 0
+- Records: 6
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Bristol & Bath | Bristol, South West, BS16 6XA | PATH 6 £29,542 FTE. £25,931 prorated | Exams Officer
+employer: Downend School
+closing_date: 2026-11-02T09:00:59+00:00
+reason: Clear admin/service title: exams officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4d9d928cf344872612461109944637729dca0aedbf91bb790155f671dd458760
+source: Teaching Vacancies
+source_job_id: exams-officer-downend-school-bristol
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-downend-school-bristol
+---
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -34,6 +47,7 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## HARD_PASS
 
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-chipping-sodbury-school) — Insufficient admin/service evidence.
+- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-st-bede-s-catholic-college) — Insufficient admin/service evidence.
 - [First Aid Lead & Admissions Coordinator](https://teaching-vacancies.service.gov.uk/jobs/first-aid-lead-admissions-coordinator) — Insufficient admin/service evidence.
 - [Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/lettings-assistant-oasis-academy-john-williams) — Insufficient admin/service evidence.
 - [Systems Developer](https://teaching-vacancies.service.gov.uk/jobs/systems-developer-cabot-learning-federation) — Insufficient admin/service evidence.

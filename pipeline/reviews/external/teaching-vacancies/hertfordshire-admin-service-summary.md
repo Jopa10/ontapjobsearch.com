@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-10-11
-review_fingerprint: 7445ba3733364c2976d39c1e55cc94977322013616ebbd1c92bd6d887e06fcee
-routing_manifest_sha256: ec7fa9ba90a904fff39585a63b4821958bbb1769f50e8974421041c21e8eeb24
+review_date: 2026-10-12
+review_fingerprint: 5aa7943e69db67d61ea633e52822765f54da57d7a6c52e2f12c08cc87e36c41b
+routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 7
-- POSS awaiting decision: 3
+- Records: 14
+- Selected: 6
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
-
----
-action: 
-SELECTED | Hertfordshire | Welwyn Garden City, East of England, AL7 3RP | £9,768.00 - £9,768.00 Annually (Actual) TTO | Administrator
-employer: Ludwick Nursery School
-closing_date: 2026-10-11T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: bfc84c2cd7e92246f082fede79acbc98da2a33a19dcec7b1a988e626f11d317a
-source: Teaching Vacancies
-source_job_id: administrator-ludwick-nursery-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-ludwick-nursery-school
----
 
 ---
 action: 
@@ -49,6 +34,21 @@ factual_fingerprint: f4948a796e5d4d65e9f8083c1c8fad9c27087de624c709c8f2e1edd06d7
 source: Teaching Vacancies
 source_job_id: attendance-administrator-the-astley-cooper-school-hemel-hempstead-hertfordshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-the-astley-cooper-school-hemel-hempstead-hertfordshire
+---
+
+---
+action: 
+SELECTED | Hertfordshire | Radlett, East of England, WD7 7LQ | £7,737.00 - £7,737.00 Annually (Actual) | Finance and Reception Administrator – Part Time
+employer: Hertsmere Jewish Primary School
+closing_date: 2026-10-16T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: fa76feff52ab42fe92a88c65de9bb0023ef2763522cdce5ab3c4c02900c46bb7
+source: Teaching Vacancies
+source_job_id: finance-and-reception-administrator-part-time
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-and-reception-administrator-part-time
 ---
 
 ---
@@ -79,21 +79,6 @@ factual_fingerprint: 763319401af5da63a688b4aeb741525e15e0a47a5e0792198150556961b
 source: Teaching Vacancies
 source_job_id: office-administrator-forres-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-forres-primary-academy
----
-
----
-action: 
-SELECTED | Hertfordshire | Royston, East of England, SG8 5QG | Salary to be paid on the Pay Spine for Professional, Administrative and Clerical Job Family Scale 2. | Office Administrator
-employer: Petersfield CofE Aided Primary School
-closing_date: 2026-10-12T09:00:00+01:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 633ee9623f2877bdc5fa75718934b7de2b66ca74d38a9b11754bc9dfb7d02c56
-source: Teaching Vacancies
-source_job_id: office-administrator-petersfield-cofe-aided-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-petersfield-cofe-aided-primary-school
 ---
 
 ---
@@ -145,21 +130,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-kat
 
 ---
 action: 
-POSS | Hertfordshire | Chorleywood, WD3 6EW | £30,515.00 Annually (FTE) | HR Advisor
-employer: Danes Educational Trust
-closing_date: 2026-10-12T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 392979f7fa2c6594ee206c98dbac419d69e816af72af5d581b8bbd38ae9a55af
-source: Teaching Vacancies
-source_job_id: hr-advisor-d40681c8-89e4-43bc-8af3-fdfdebca5b15
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-d40681c8-89e4-43bc-8af3-fdfdebca5b15
----
-
----
-action: 
 POSS | Hertfordshire | Royston, East of England, SG8 6EF | £26,403.00 - £28,142.00 Annually (FTE) NJC Scale 4, point 7 to 11 . Actual salary £22,645.65 per annum on point 7. | Pastoral Support Assistant
 employer: Melbourn Village College
 closing_date: 2026-10-26T09:00:00+00:00
@@ -182,7 +152,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-support-assi
 - [Assistant SENDCo](https://teaching-vacancies.service.gov.uk/jobs/assistant-sendco-69793fea-1d51-405a-a79e-55b4c58afc9c) — Insufficient admin/service evidence.
 - [Attendance & Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-administration-officer-hertford-heath-primary-and-nursery-school-hertford-hertfordshire) — Insufficient admin/service evidence.
 - [Development Director](https://teaching-vacancies.service.gov.uk/jobs/development-director-watford-grammar-school-for-boys-watford-hertfordshire) — Insufficient admin/service evidence.
-- [Director of Finance & Operations](https://teaching-vacancies.service.gov.uk/jobs/director-of-finance-operations-herts-essex-multi-academy-trust) — Insufficient admin/service evidence.
 - [Federation School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/federation-school-business-manager-hurst-drive-primary-school) — Manager title salary ceiling £49,817 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-aa7f3068-bd4a-4f6c-a3c0-513cc79c39b8) — Manager title salary ceiling £33,119 is not below £28,000.
 - [Teaching Assistant including personal care: Part Time / Full Time (H3)](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-including-personal-care-part-time-full-time-h3-41775b5d-ef37-4c4b-84c0-3a1ab141114d) — Out-of-scope occupation: teaching assistant.

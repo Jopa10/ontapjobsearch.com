@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-10-11
-review_fingerprint: 729307760e311f47c1a444e4d3ca0a6146a565c337b182aea5a458da42a86e07
-routing_manifest_sha256: ec7fa9ba90a904fff39585a63b4821958bbb1769f50e8974421041c21e8eeb24
+review_date: 2026-10-12
+review_fingerprint: 771e6374ebe469ee593ee662360f1e4e61db36114ad07683495f8c5fbf8dc8e5
+routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 7
+- Records: 6
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
-
----
-action: 
-SELECTED | Suffolk | Bungay, East of England, NR35 1JS | £13,488 to 14,366 per annum | Admin Assistant
-employer: Castle EAST School
-closing_date: 2026-10-12T01:00:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e48a23a54dd91777ee55e6dae005edbea7fb12d3e7804628080e22aa0e86df01
-source: Teaching Vacancies
-source_job_id: admin-assistant-castle-east-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-castle-east-school
----
 
 ---
 action: 
@@ -68,21 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
-SELECTED | Suffolk | Bungay, East of England, NR35 1JS | £13,488.00 - £14,366.00 Annually (Actual) | Administration Assistant
-employer: Castle EAST School
-closing_date: 2026-10-12T12:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2c1c7316a67719aceffeb794c7e35fbcf65ad068dd303b61fce5e6d7515d3651
-source: Teaching Vacancies
-source_job_id: administration-assistant-castle-east-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-castle-east-school
----
-
----
-action: 
 SELECTED | Suffolk | Leiston, East of England, IP16 4BG | £21,567.00 - £22,256.00 Annually (Actual) Grade 3, points 4-6 (£25,185-£25,989 FTE) | Attendance Administrator
 employer: Alde Valley Academy
 closing_date: 2026-10-13T12:00:00+01:00
@@ -98,29 +68,29 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administra
 
 ---
 action: 
-SELECTED | Suffolk | Lowestoft, East of England, NR32 2NX | £21,075.00 - £21,748.00 Annually (Actual) Grade 3, point 4 (£26,016-£26,847FTE) | Business Support Officer
+SELECTED | Suffolk | Lowestoft, East of England, NR32 2NX | £24,086.00 - £24,855.00 Annually (Actual) Grade 3, point 4 (£26,016-£26,847FTE) | Business Support Officer
 employer: Roman Hill Primary School
 closing_date: 2026-10-30T12:00:00+00:00
 reason: Clear admin/service title: business support officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 251ec2983258e64fa5ba4673e5ae04855f3c6981d74156fa011019cef3195047
+factual_fingerprint: 04e90297d8c607d969a35430ad34cc44fe4bf2ee66627c4431bb33320bceca4e
 source: Teaching Vacancies
-source_job_id: business-support-officer-6ff5eec8-bd79-4e5b-8713-4278b56ffa70
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-6ff5eec8-bd79-4e5b-8713-4278b56ffa70
+source_job_id: business-support-officer-f0962e42-0c78-4fbd-92d4-e8439e71285e
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-f0962e42-0c78-4fbd-92d4-e8439e71285e
 ---
 
 ---
 action: 
 SELECTED | Suffolk | Ipswich, East of England, IP2 8PL | £25,646.00 - £26,920.00 Annually (Actual) | Finance, HR Administrator
 employer: Stoke High School - Ormiston Academy
-closing_date: 2026-10-12T12:00:00+01:00
+closing_date: 2026-10-16T15:00:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 2cc8ba2ba473fc227094a496912984d81d7f55ba6c084ae5dbf6a3fbc60ea02d
+factual_fingerprint: ba5d3557632feb5dcbf8aee0cf4ad40c7a3a983368e2780fc5d0896e97878258
 source: Teaching Vacancies
 source_job_id: finance-hr-administrator-stoke-high-school-ormiston-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-hr-administrator-stoke-high-school-ormiston-academy

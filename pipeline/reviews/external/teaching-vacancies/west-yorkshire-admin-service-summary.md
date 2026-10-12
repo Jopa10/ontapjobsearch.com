@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-10-11
-review_fingerprint: 1a662cf3ce8a52bc2a53c8f71dcc62573f7524372bb35c40bc6f282068038cc2
-routing_manifest_sha256: ec7fa9ba90a904fff39585a63b4821958bbb1769f50e8974421041c21e8eeb24
+review_date: 2026-10-12
+review_fingerprint: 49cb62a81679b796d8885e6dd9b111a1fbd4a81ef10be4483667dae6f264080c
+routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 44
-- Selected: 18
+- Records: 40
+- Selected: 17
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 22
+- Hard pass: 19
 
 ## SELECTED
 
@@ -38,32 +38,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator
 
 ---
 action: 
-SELECTED | Yorkshire - West | Wakefield, Yorkshire and the Humber, WF3 1JQ | £22,418.00 - £23,133.00 Annually (Actual) | Administration Assistant
-employer: Woodkirk Academy
-closing_date: 2026-10-12T09:00:00+01:00
-reason: Clear admin/service title: administration assistant
+SELECTED | Yorkshire - West | Castleford, Yorkshire and the Humber, WF10 3SN | £26,427.00 - £26,847.00 Annually (FTE) Grade 4 (SCP 5-6), 35 hours per week Mon-Fri (hours negotiable), term time only plus 5 Inset days, £21,478.12 - £22,306.51 -Actual Salary | Admin Assistant
+employer: Oyster Park Primary Academy
+closing_date: 2026-10-30T08:00:00+00:00
+reason: Clear admin/service title: admin assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: NEW_REVIEW
-factual_fingerprint: 80761e9ccfe3aef36b298e2ae558fa953598796e1c053411d551cbdbbb47126c
+factual_fingerprint: 5534fe63c6d4c7fa47caefa3c72105ac42640390b837290c4a2bbc56eb5b2d98
 source: Teaching Vacancies
-source_job_id: administration-assistant-993064c2-8d4e-49cd-a144-d8b71360ac51
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-993064c2-8d4e-49cd-a144-d8b71360ac51
----
-
----
-action: 
-SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD6 3PX | £21,978.00 - £22,506.00 Annually (Actual) Band 5 SCP 5-6 (£21,978 - £22,506 actual salary) pay award pending. 37 hours per week term time only plus two training days | Administration Assistant
-employer: Buttershaw Business & Enterprise College Academy
-closing_date: 2026-10-11T17:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 0845fdd000ed8a085e616bfeaf7862c49a0387fcc0715f52cb57648e5bb290e9
-source: Teaching Vacancies
-source_job_id: administration-assistant-buttershaw-business-enterprise-college-academy-bradford-west-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-buttershaw-business-enterprise-college-academy-bradford-west-yorkshire
+source_job_id: admin-assistant-oyster-park-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-oyster-park-primary-academy
 ---
 
 ---
@@ -113,6 +98,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-meadowf
 
 ---
 action: 
+SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD5 9ET | 25,584.00 - 25,989.00 | Administrator - 37
+employer: Co-op Academy Grange
+closing_date: 2026-10-23T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 22351c844f27f8e74e156cf2801ba651081d6f647c822930f4c6b7fdbb272f13
+source: Teaching Vacancies
+source_job_id: administrator-37
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-37
+---
+
+---
+action: 
 SELECTED | Yorkshire - West | Halifax, Yorkshire and the Humber, HX2 9SU | £22,111.00 - £22,462.00 Annually (Actual) NJC Scale3 Points 5-6 (3.3% pay award pending) | Apprentice Business Support Administrator
 employer: The North Halifax Grammar School
 closing_date: 2026-10-30T23:59:00+00:00
@@ -128,21 +128,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-business-s
 
 ---
 action: 
-SELECTED | Yorkshire - West | Bradford, BD10 9TQ | £26,024.00 - £28,608.00 Annually (Actual) | Deputy PA / Receptionist
-employer: Bradford Diocesan Academies Trust
-closing_date: 2026-10-12T09:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: f1b0844a28131a10ab21be47cf3ae5c67b7949f815359a6ea5c531521056cb09
-source: Teaching Vacancies
-source_job_id: deputy-pa-receptionist-bradford-diocesan-academies-trust-bradford-not-recorded
-source_url: https://teaching-vacancies.service.gov.uk/jobs/deputy-pa-receptionist-bradford-diocesan-academies-trust-bradford-not-recorded
----
-
----
-action: 
 SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD4 7QS | £31,088.00 Annually (Actual) | Exams Officer
 employer: Bradford Academy
 closing_date: 2026-11-01T23:59:00+00:00
@@ -154,21 +139,6 @@ factual_fingerprint: 1f2b01b08a6bbb8d38e236236d8827da657cfab6c9610a0e97076e1fd72
 source: Teaching Vacancies
 source_job_id: exams-officer-bradford-academy-bradford
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-bradford-academy-bradford
----
-
----
-action: 
-SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD4 8RG | Band 7, SCP 7-11 Actual Salary £18,487 - £19,705 | Exams Officer
-employer: Bradford Forster Academy
-closing_date: 2026-10-12T09:00:00+01:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 9860be3c6d0945ddb1514492a9c6e46b24561796e3afc37591250fa802232baa
-source: Teaching Vacancies
-source_job_id: exams-officer-bradford-forster-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-bradford-forster-academy
 ---
 
 ---
@@ -199,6 +169,21 @@ factual_fingerprint: ee10b5b97df36a28c109f2b8b108c00e5fcbf7dd54511bb188fe96a3a78
 source: Teaching Vacancies
 source_job_id: hr-administrative-assistant-outwood-grange-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrative-assistant-outwood-grange-academy
+---
+
+---
+action: 
+SELECTED | Yorkshire - West | Halifax, Yorkshire and the Humber, HX3 9LG | £28,693.00 - £30,660.00 Annually (Actual) Grade 6, SCP 18-22. Term Time plus 5 days. | Inclusion Officer & Administrator
+employer: Park Lane Academy
+closing_date: 2026-10-19T09:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: f8a37639d11be5ff954de27a4b44b2c399b9c6525308d3984543801dac9591db
+source: Teaching Vacancies
+source_job_id: inclusion-officer-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-officer-administrator
 ---
 
 ---
@@ -360,15 +345,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-br
 ## HARD_PASS
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-wakefield-snapethorpe-primary-school-wakefield) — Insufficient admin/service evidence.
-- [Administration Officer (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-maternity-cover-honley-high-school) — Missing salary or pay scale.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-ethos-academy-trust) — Insufficient admin/service evidence.
 - [Compliance Officer (7364)](https://teaching-vacancies.service.gov.uk/jobs/compliance-officer-7364) — Insufficient admin/service evidence.
 - [Content Creator (7617)](https://teaching-vacancies.service.gov.uk/jobs/content-creator-7617-delta-academies-trust) — Insufficient admin/service evidence.
 - [Data and Exams Assistant (7698)](https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-assistant-7698) — Insufficient admin/service evidence.
 - [Data, MIS and Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/data-mis-and-admissions-manager-batley-grammar-school-batley-west-yorkshire) — Manager title salary ceiling £38,267 is not below £28,000.
-- [Exam invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-24f8eb7c-b19e-4030-be72-314dfd2ec557) — Insufficient admin/service evidence.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.
-- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-ossett-academy-and-sixth-form-college) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the-north-halifax-grammar-school) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-the-william-henry-smith-school-and-sixth-form) — Manager title salary ceiling £50,908 is not below £28,000.
 - [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-ilkley-grammar-school) — Insufficient admin/service evidence.

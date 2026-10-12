@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - East
 
-review_date: 2026-10-11
-review_fingerprint: e9d886f82f7d58dcf713775ea94478cfc1a3bae7eb9c1560997fbcd6e8c6f5b1
-routing_manifest_sha256: ec7fa9ba90a904fff39585a63b4821958bbb1769f50e8974421041c21e8eeb24
+review_date: 2026-10-12
+review_fingerprint: bd6a25294b11908ae41fcd23136c430c9a9ea172bff2acb4f90a4285bcd21100
+routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
 ontap_region: Yorkshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 2
+- Records: 3
+- Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
-
----
-action: 
-SELECTED | Yorkshire - East | Hull, Yorkshire and the Humber, HU9 4EE | £23,132.00 Annually (Actual) Term time only plus 15 days | Office Administrator (Student Services/Reprographics)
-employer: The Marvell College
-closing_date: 2026-10-11T23:59:00+01:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9ee1b76751c7dfbaa1a56d2d74721b54a4e520a0ba21e352adca892bb06dc1d7
-source: Teaching Vacancies
-source_job_id: office-administrator-student-services-reprographics
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-student-services-reprographics
----
 
 ---
 action: 

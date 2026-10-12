@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-10-11
-review_fingerprint: 0cd4e08a8547ebc94ccbb978eda615c13604ccb08dfb0274ec71a95f13f9ecd6
-routing_manifest_sha256: ec7fa9ba90a904fff39585a63b4821958bbb1769f50e8974421041c21e8eeb24
+review_date: 2026-10-12
+review_fingerprint: 2b659bafa9041fe50aa80c5c352075602945b8bb6b9ba1a9e43ae52ddffd1566
+routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
+- Records: 13
 - Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 8
 
 ## SELECTED
-
----
-action: 
-SELECTED | Buckinghamshire | Buckingham, South East, MK18 2AP | £26,522.00 - £28,742.00 Annually (FTE) | Admin Assistant
-employer: Padbury Church of England School
-closing_date: 2026-10-11T23:59:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 78796568646d6527c55c8803de1c331b2e45e941becb831e1e7f2bfefe0c2d58
-source: Teaching Vacancies
-source_job_id: admin-assistant-padbury-church-of-england-school-buckingham-buckinghamshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-padbury-church-of-england-school-buckingham-buckinghamshire
----
 
 ---
 action: 
@@ -49,6 +34,21 @@ factual_fingerprint: 5a75c0e7507930467bdfaf700f3642ccac7a7e1ef1968e2610191848568
 source: Teaching Vacancies
 source_job_id: administrator-e-act-ousedale-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-e-act-ousedale-school
+---
+
+---
+action: 
+SELECTED | Buckinghamshire | Milton Keynes, South East, MK6 5LP | Up to. £25,844 Per Annum (Subject to experience) | Administrator - Prison Education - HMP Bullingdon
+employer: Milton Keynes College
+closing_date: 2026-10-19T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 927823d923692db34c1175444f846127c6aab8cc04ac34d04d9d9e6b5ac16976
+source: Teaching Vacancies
+source_job_id: administrator-prison-education-hmp-bullingdon
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-prison-education-hmp-bullingdon
 ---
 
 ---
@@ -105,14 +105,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-leve
 ## HARD_PASS
 
 - [Business Support L3](https://teaching-vacancies.service.gov.uk/jobs/business-support-l3-brooklands-farm-primary-school) — Insufficient admin/service evidence.
-- [Deputy Head's PA and Office Manager](https://teaching-vacancies.service.gov.uk/jobs/deputy-head-s-pa-and-office-manager) — Out-of-scope occupation: deputy head.
 - [Designated Safeguarding Lead](https://teaching-vacancies.service.gov.uk/jobs/designated-safeguarding-lead-brooklands-farm-primary-school) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-8f6cfa11-ce79-4846-bec1-d44a416c2c86) — Manager title salary ceiling £53,051 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-56c55376-78b3-4ad8-a27c-1fdc31ec9895) — Insufficient admin/service evidence.
-- [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-royal-grammar-school-high-wycombe) — Manager title salary ceiling £47,020 is not below £28,000.
+- [Marketing Officer](https://teaching-vacancies.service.gov.uk/jobs/marketing-officer-7e5d89f3-aa30-4103-8e70-a83b509a9118) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-aa5bd69a-1e68-49ee-bfe8-c4153301fa94) — Manager title salary ceiling £48,738 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-winslow-church-of-england-school) — Manager title salary ceiling £41,272 is not below £28,000.
-- [Senior Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-business-partner-creative-education-trust) — Insufficient admin/service evidence.
 - [Trust Finance officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-stephenson-mk-trust-milton-keynes-not-recorded) — Insufficient admin/service evidence.
 
 ## Safety boundary

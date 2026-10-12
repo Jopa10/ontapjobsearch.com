@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-10-11
-review_fingerprint: 3ad6f07ea3b6ab0a601f54231fab9619c223bc004fe7c101690f9aa97285c2b2
-routing_manifest_sha256: ec7fa9ba90a904fff39585a63b4821958bbb1769f50e8974421041c21e8eeb24
+review_date: 2026-10-12
+review_fingerprint: 8596bcc5c3f97b5725610b07c7b8ae06f83763e6c60b06c3cb8e042b59d437df
+routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 8
 - Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
-
----
-action: 
-SELECTED | Kent | Rochester, South East, ME2 3HQ | TSAT Pay Group 2 pro rata to £20,179 - £22,532 for hours and weeks stated (£25,077 - £28,001 FTE) | Admin Assistant
-employer: Gordons Children's Academy, Junior
-closing_date: 2026-10-11T23:59:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: fc8e0ae1302b76fba6b7f3357dd0e21bd030cadd25a20797128127a41986ad77
-source: Teaching Vacancies
-source_job_id: admin-assistant-gordons-children-s-academy-junior
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-gordons-children-s-academy-junior
----
 
 ---
 action: 
@@ -83,6 +68,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+SELECTED | Kent | Chatham, South East, ME4 4FQ | £24,553.00 - £26,171.00 Annually (Actual) NJC D2 point 7-11 | Examinations & Admissions Officer
+employer: Waterfront UTC
+closing_date: 2026-10-31T23:59:00+00:00
+reason: Clear admin/service title: admissions officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d94ca71aeaebccecde6a91562d845a86806bea94e56793967492410e6fee9ae5
+source: Teaching Vacancies
+source_job_id: examinations-admissions-officer-waterfront-utc
+source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-admissions-officer-waterfront-utc
+---
+
+---
+action: 
 SELECTED | Kent | Dartford, South East, DA2 6FY | £30,621.00 - £34,172.00 Annually (Actual) | PA to Headteacher
 employer: Stone Lodge School
 closing_date: 2026-10-19T09:00:00+01:00
@@ -123,7 +123,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 
 - [Deputy Attendance Improvement Coordinator](https://teaching-vacancies.service.gov.uk/jobs/deputy-attendance-improvement-coordinator-maritime-academy) — Insufficient admin/service evidence.
 - [Finance Officer Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-maternity-cover-the-diocese-of-canterbury-academies-trust) — Insufficient admin/service evidence.
-- [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-26e0bcfd-fd42-4fe6-bedf-503af84df187) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

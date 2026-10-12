@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-10-11
-review_fingerprint: ea19de4813306a527621bd0bddbad8e23f9bdacda490e9cf273147528d15671c
-routing_manifest_sha256: ec7fa9ba90a904fff39585a63b4821958bbb1769f50e8974421041c21e8eeb24
+review_date: 2026-10-12
+review_fingerprint: 8ff0edeabb6d975c855b19dd4362abb8e0740ad9e9eb7863ac601d8a6825b0ba
+routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 8
 - Selected: 4
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 2
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: 1252c4bb41c5836ce1ffd71dd8ddc9fbb3a0a083c3546c3375413f01cf0
 source: Teaching Vacancies
 source_job_id: data-and-examinations-officer-eden-girls-leadership-academy-manchester
 source_url: https://teaching-vacancies.service.gov.uk/jobs/data-and-examinations-officer-eden-girls-leadership-academy-manchester
+---
+
+---
+action: 
+SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M21 7SL | The pro-rata salary is £30,958 and the full-time equivalent is £34,237 - Grade 6 | Exams Officer
+employer: Chorlton High School
+closing_date: 2026-10-30T23:59:00+00:00
+reason: Clear admin/service title: exams officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 904ec2abd8e6eaa4072f105db10cd14cd0d775e55dce020e4e606bcd6db1e810
+source: Teaching Vacancies
+source_job_id: exams-officer-chorlton-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-chorlton-high-school
 ---
 
 ---
@@ -64,21 +79,6 @@ factual_fingerprint: 8bf63fffb58fb2d12e2a071d7255171169b2a64f9c26758677a34038114
 source: Teaching Vacancies
 source_job_id: send-administrator-abraham-moss-community-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-abraham-moss-community-school
----
-
----
-action: 
-SELECTED | Greater Manchester - Manchester & Salford | Manchester, M60 0AG | NJC SCP12 - SCP19 £28,598 - £32,062 | Trust Finance and Systems Administrator
-employer: The Co Operative Academies Trust
-closing_date: 2026-10-12T00:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f58fcb8ca4d33990b2a966c308d9e7c3cc9322d7bc237e5db50a3fa68e898f4d
-source: Teaching Vacancies
-source_job_id: trust-finance-and-systems-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-finance-and-systems-administrator
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -120,6 +120,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-adminis
 ## HARD_PASS
 
 - [Apprentice Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/apprentice-finance-assistant-37) — Insufficient admin/service evidence.
+- [First Aid, Medical and Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/first-aid-medical-and-administration-assistant) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

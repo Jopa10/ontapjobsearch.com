@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-10-11
-review_fingerprint: 587a6d815c12ba17a2a33b4944c5564d48f06f5ebe45f8a158b17c3309e549a6
-routing_manifest_sha256: ec7fa9ba90a904fff39585a63b4821958bbb1769f50e8974421041c21e8eeb24
+review_date: 2026-10-12
+review_fingerprint: 73d45848217054bf6ad0c04f769cd7d489939d1b95f88345216831e64e77537e
+routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 7
+- Records: 11
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -34,36 +34,6 @@ factual_fingerprint: 6fbae043bf8a12e8b025f0ab79479134111753f466e6c07b038b692138c
 source: Teaching Vacancies
 source_job_id: admin-assistant-pupil-responsibility-maternity-cover
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-pupil-responsibility-maternity-cover
----
-
----
-action: 
-SELECTED | Bedfordshire | Bedford, East of England, MK45 2NU | £22,859.00 - £23,594.00 Annually (Actual) | Attendance Officer
-employer: Redborne Upper School and Community College
-closing_date: 2026-10-11T23:59:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 21d1a910cfeff6fe3750646ac51d304a3081ccc8d97225c741d476f6eec186dd
-source: Teaching Vacancies
-source_job_id: attendance-officer-5c4746af-e5b9-4134-b7ab-8d54523d4fae
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-5c4746af-e5b9-4134-b7ab-8d54523d4fae
----
-
----
-action: 
-SELECTED | Bedfordshire | Luton, LU3 3QN | £16,006.00 - £17,349.00 Annually (Actual) L4 pts 9 - 14 pro rata'd | HR Administrator
-employer: Chiltern Learning Trust
-closing_date: 2026-10-12T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f8e702b9295c8a3d290cc378d095d8a10ef3dcad1aca508fa4829bc15854e61a
-source: Teaching Vacancies
-source_job_id: hr-administrator-d2f90df6-89af-4919-b35e-a47a1e5bf7df
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-d2f90df6-89af-4919-b35e-a47a1e5bf7df
 ---
 
 ---
@@ -149,11 +119,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-manager-all-sain
 
 ## HARD_PASS
 
-- [Admin & Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/admin-finance-assistant-mark-rutherford-school) — Insufficient admin/service evidence.
 - [Data & Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-exams-manager-queensbury-academy) — Manager title salary ceiling £39,481 is not below £28,000.
 - [Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/facilities-manager-denbigh-primary-school) — Manager title salary ceiling £43,149 is not below £28,000.
 - [Financial Controller](https://teaching-vacancies.service.gov.uk/jobs/financial-controller-c66a5ec1-0bf4-4c91-a1e1-d206dac91d10) — Insufficient admin/service evidence.
-- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-27327254-91ed-4388-982d-a24ff7b17cb0) — Insufficient admin/service evidence.
+- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-4b6f9115-a169-4905-a2ec-9176b857a603) — Insufficient admin/service evidence.
 - [SCHOOL BUSINESS MANAGER](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-putteridge-primary-school) — Manager title salary ceiling £49,282 is not below £28,000.
 
 ## Safety boundary

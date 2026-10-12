@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-10-11
-review_fingerprint: f0f620d73c7945808ffa3f851f424e98fa4b45904cedd3a21773736e26955596
-routing_manifest_sha256: ec7fa9ba90a904fff39585a63b4821958bbb1769f50e8974421041c21e8eeb24
+review_date: 2026-10-12
+review_fingerprint: 3ea128a4c3a4dcd40fa82de033026ba006ee24d21cf154227bf547f2034dd63c
+routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 5
+- Records: 13
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 8
 
 ## SELECTED
 
@@ -49,21 +49,6 @@ factual_fingerprint: a1954c1661a64e8898ff42ff72a0d3256220fabe92d5a8dd0b160b4af9c
 source: Teaching Vacancies
 source_job_id: pa-to-the-principal-06799846-251b-4b2c-bb1a-eb129a5f5011
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-the-principal-06799846-251b-4b2c-bb1a-eb129a5f5011
----
-
----
-action: 
-SELECTED | Leicestershire | Leicester, East Midlands, LE5 1FG | £26,022.00 - £26,436.00 Annually (FTE) Actual salary is based on working 37 hours and 40 weeks per year | Receptionist & Administration Assistant (96BC)
-employer: Keyham Lodge School
-closing_date: 2026-10-11T17:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4df41d4553728c588e3c2f665304ce0b8109b0630e423a854ef45ee45313fc35
-source: Teaching Vacancies
-source_job_id: receptionist-administration-assistant-96bc
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administration-assistant-96bc
 ---
 
 ---
@@ -121,7 +106,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-pensions-and-
 
 - [Executive Assistant to the Trust Leader (CEO) and Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-to-the-trust-leader-ceo-and-compliance-officer) — Insufficient admin/service evidence.
 - [Extended Services Club Manager (EXS031BC)](https://teaching-vacancies.service.gov.uk/jobs/extended-services-club-manager-exs031bc-sileby-redlands-community-primary-school) — Manager title salary ceiling £28,146 is not below £28,000.
-- [Finance and Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-and-operations-manager-learn-academies-trust) — Manager title salary ceiling £57,234 is not below £28,000.
 - [Office Manager (BAD31BC)](https://teaching-vacancies.service.gov.uk/jobs/office-manager-bad31bc) — Manager title salary ceiling £35,493 is not below £28,000.
 - [Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-discovery-schools-academies-trust-ltd) — Insufficient admin/service evidence.
 - [People Admin Team Leader](https://teaching-vacancies.service.gov.uk/jobs/people-admin-team-leader) — Insufficient admin/service evidence.

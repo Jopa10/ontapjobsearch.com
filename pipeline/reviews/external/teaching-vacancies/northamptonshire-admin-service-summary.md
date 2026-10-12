@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-10-11
-review_fingerprint: 4e096e99595c1c818c2d760e0c57e79cc49b427051a595eb31df15888a8cee8e
-routing_manifest_sha256: ec7fa9ba90a904fff39585a63b4821958bbb1769f50e8974421041c21e8eeb24
+review_date: 2026-10-12
+review_fingerprint: d0d250e905cb9c3c32f64b3239c9bd4cb772cb4e00e7a4be34d6a88c9ee699ec
+routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 5
+- Records: 14
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 10
@@ -53,17 +53,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-welford
 
 ---
 action: 
-SELECTED | Northamptonshire | Northampton, East Midlands, NN3 7SD | £10,501.00 - £10,667.00 Annually (Actual) | Designated Specialist Provision (DSP) Admin Assistant
+SELECTED | Northamptonshire | Northampton, East Midlands, NN3 7SD | £22,203.00 - £22,554.00 Annually (Actual) | Designated Specialist Provision (DSP) Admin Assistant
 employer: Moulton School and Science College
 closing_date: 2026-10-19T09:00:00+01:00
 reason: Clear admin/service title: admin assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: ee03e7cf0371b6c4fc2f2d552802d733f1f9eb4b8c51bcba92e44ddcad311225
+factual_fingerprint: 7a06b83dada55e0b1ffd5b9be4a278a23efa257fdb003cc6233992bc1f050e21
 source: Teaching Vacancies
-source_job_id: designated-specialist-provision-dsp-admin-assistant-moulton-school-and-science-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/designated-specialist-provision-dsp-admin-assistant-moulton-school-and-science-college
+source_job_id: designated-specialist-provision-dsp-admin-assistant-moulton-school-and-science-college-northampton-northamptonshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/designated-specialist-provision-dsp-admin-assistant-moulton-school-and-science-college-northampton-northamptonshire
 ---
 
 ---
@@ -79,21 +79,6 @@ factual_fingerprint: b42f3e788c64f39951941067e61b7013784956b510d1ac4f11f8cfcbb54
 source: Teaching Vacancies
 source_job_id: operations-administrator-f863f96d-ca5a-492a-8206-7a0736f466c1
 source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-administrator-f863f96d-ca5a-492a-8206-7a0736f466c1
----
-
----
-action: 
-SELECTED | Northamptonshire | Northampton, East Midlands, NN2 7RR | £24,796.00 Annually (FTE) | Receptionist/Administrator
-employer: Green Oaks Primary Academy
-closing_date: 2026-10-12T23:59:00+01:00
-reason: Clear admin/service title: administrator, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7e70e0336ed3c46fa3b75856b470a978266908a25665bf7914415769a083ba99
-source: Teaching Vacancies
-source_job_id: receptionist-administrator-green-oaks-primary-academy-northampton-northamptonshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-green-oaks-primary-academy-northampton-northamptonshire
 ---
 
 ## POSS — choose SELECT or EXCLUDE

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-10-11
-review_fingerprint: 394441d016ada32392c7dc5a05d31064b158a6e5c2e36c40f46641730598ce0c
-routing_manifest_sha256: ec7fa9ba90a904fff39585a63b4821958bbb1769f50e8974421041c21e8eeb24
+review_date: 2026-10-12
+review_fingerprint: 934c26b02a280838e9365828bb7361c5a43e5dd6a308d4b946b2c64c0e347715
+routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,32 +13,32 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 1
-- POSS awaiting decision: 0
+- Records: 7
+- Selected: 0
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
----
-action: 
-SELECTED | Hampshire | Basingstoke, South East, RG22 6HA | £12,059.00 - £13,260.00 Annually (Actual) Actual salary £12,059-£13,260 (FTE £25,551-£28,096) | Receptionist (Maternity Cover)
-employer: The Blue Coat School Basingstoke
-closing_date: 2026-10-11T23:59:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2e3ea1519bda1eb12204f012d1bb64bbf85d2f74f78a29d172664b51bf014fd8
-source: Teaching Vacancies
-source_job_id: receptionist-maternity-cover-the-blue-coat-school-basingstoke
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-maternity-cover-the-blue-coat-school-basingstoke
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Hampshire | Portsmouth, South East, PO1 1FG | £22,814.00 - £24,728.00 Annually (Actual) | Administrative Officer
+employer: Arundel Court Primary Academy and Nursery
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f1288050d008cfa0c1bac949fbfa80f3200bff82347a1e289da70e2d63996625
+source: Teaching Vacancies
+source_job_id: administrative-officer-105487cf-80e2-4f7a-a8ea-cac5b40a9e6d
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-105487cf-80e2-4f7a-a8ea-cac5b40a9e6d
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -51,6 +51,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-maternit
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-miltoncross-academy-portsmouth-hampshire) — Insufficient admin/service evidence.
 - [Exams Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-assistant-the-romsey-school) — Insufficient admin/service evidence.
 - [HR Advisor (Fixed Term)](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-fixed-term-king-s-group-academies) — Insufficient admin/service evidence.
+- [School Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-administration-assistant-ced21b12-b7e9-4e93-8597-2177e96b09c9) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

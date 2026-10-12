@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-10-11
-review_fingerprint: 9636e10a73915f60e7e67487d54e952755e1d5381a66c2779d2fd06b23d10c0a
-routing_manifest_sha256: ec7fa9ba90a904fff39585a63b4821958bbb1769f50e8974421041c21e8eeb24
+review_date: 2026-10-12
+review_fingerprint: 8c4c03643f3192523bc3d9e4202e23108391dc9317102e9e93b7dc2c2929efa2
+routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 21
-- Selected: 10
-- POSS awaiting decision: 1
+- Records: 20
+- Selected: 8
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 10
 
@@ -38,62 +38,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG4 4JD | £22,631.57 - £23,356.04 Annually (FTE) TTO | Administrative Assistant
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG4 4JD | £22,631.57 - £23,356.04 Annually (Actual) TTO | Administrative Assistant
 employer: Stanhope Primary and Nursery School
 closing_date: 2026-10-21T09:00:00+01:00
 reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: a0cb84988153b51e9a05b98f8f82734454f5aa656c605598158a6bd9430cbf03
+factual_fingerprint: dee9a6bc4e6eae9c58317f0f2151ccd9c0dec507a6075ba6a93439965ee841b3
 source: Teaching Vacancies
 source_job_id: administrative-assistant-stanhope-primary-and-nursery-school-nottingham-nottinghamshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-stanhope-primary-and-nursery-school-nottingham-nottinghamshire
----
-
----
-action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG3 2LE | £21,907.96 - £22,610.16 Annually (Actual) Grade 3, Points 5 to 7 (37 hours / 5 days per week) | Administrative Assistant and Attendance Officer
-employer: Blue Bell Hill Primary and Nursery School
-closing_date: 2026-10-12T09:00:00+01:00
-reason: Clear admin/service title: administrative assistant, attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: feb1b65c3de5987bcd0dfbb3d782cd1e0ed2f37550b7d96e8005d8ab0b54f81d
-source: Teaching Vacancies
-source_job_id: administrative-assistant-and-attendance-officer
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-and-attendance-officer
----
-
----
-action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG11 7AB | £25,614.00 - £26,427.00 Annually (FTE) Salary will be paid pro rate based on term time weeks and hours worked | Administrative Assistant in Wilford, Nottingham
-employer: St Patrick's Catholic Primary and Nursery School
-closing_date: 2026-10-11T23:59:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5920cb36d0e053aad73613d8a6e5ddf5555861a3172e80f0fc21b3e19577e123
-source: Teaching Vacancies
-source_job_id: administrative-assistant-in-wilford-nottingham
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-in-wilford-nottingham
----
-
----
-action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG5 8GX | Redhill Academy Trust Pay Scale Band 6, Scale Points 29 - 32 Actual salary: £25,467.74 - £27,004.53 | Administrator
-employer: Redhill Academy
-closing_date: 2026-10-11T15:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ee70b14363d67c22ed35100bac154992165bd01ec13de95243dc3869772f4e98
-source: Teaching Vacancies
-source_job_id: administrator-redhill-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-redhill-academy
 ---
 
 ---
@@ -109,6 +64,21 @@ factual_fingerprint: 20644841fa29fef276144443be18aea76012d45ee3c5eb9964edf6880f2
 source: Teaching Vacancies
 source_job_id: administrator-the-bramble-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-the-bramble-academy
+---
+
+---
+action: 
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG17 7DH | 25,583 | Inclusion Administrator
+employer: Outwood Academy Kirkby
+closing_date: 2026-10-26T12:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ad7273005b193c41a4e48c2df4a7de82c5b5bcc9a6ee58035a9dec2bf71fe4b7
+source: Teaching Vacancies
+source_job_id: inclusion-administrator-outwood-academy-kirkby
+source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrator-outwood-academy-kirkby
 ---
 
 ---
@@ -175,6 +145,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 
 ---
 action: 
+POSS | Nottinghamshire | Nottingham, East Midlands, NG9 3DU | £22,630.72 - £23,356.04 Annually (Actual) NJE Grade 3, Pts 5 to 7 £26,427 - £27,274 (FTE) | Attendance and Inclusion Administration Officer
+employer: Alderman White School
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8f79478ea8d173f36235be510f78f26796c8713487052268b83ef6bae0128ce5
+source: Teaching Vacancies
+source_job_id: attendance-and-inclusion-administration-officer-alderman-white-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-inclusion-administration-officer-alderman-white-school
+---
+
+---
+action: 
 POSS | Nottinghamshire | Retford, DN22 7GR | £31,015.00 - £31,015.00 Annually (FTE) | Governance Professional
 employer: Diverse Academies Trust
 closing_date: 2026-10-18T23:59:00+01:00
@@ -198,8 +183,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 - [Communications & Marketing Assistant](https://teaching-vacancies.service.gov.uk/jobs/communications-marketing-assistant) — Insufficient admin/service evidence.
 - [Data & MIS Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-mis-assistant) — Insufficient admin/service evidence.
 - [Data Protection Support Officer](https://teaching-vacancies.service.gov.uk/jobs/data-protection-support-officer) — Insufficient admin/service evidence.
+- [Exams and Assessment Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-and-assessment-officer-outwood-academy-kirkby) — Insufficient admin/service evidence.
 - [Marketing Apprentice](https://teaching-vacancies.service.gov.uk/jobs/marketing-apprentice-carlton-academy) — Insufficient admin/service evidence.
-- [Office Manager in Wilford, Nottingham](https://teaching-vacancies.service.gov.uk/jobs/office-manager-in-wilford-nottingham) — Manager title salary ceiling £31,022 is not below £28,000.
 - [People & Culture Business Partner](https://teaching-vacancies.service.gov.uk/jobs/people-culture-business-partner-tapestry-learning-partnership-nottingham-not-recorded) — Insufficient admin/service evidence.
 - [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-96d0e4ce-127e-44c5-84cd-fca1d087464c) — Insufficient admin/service evidence.
 - [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-the-flying-high-academy) — Insufficient admin/service evidence.

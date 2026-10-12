@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-10-11
-review_fingerprint: 16945f3592e0edb8b3dfd5524fe23f78e97e491a121bace2e17b3058f42273d2
-routing_manifest_sha256: ec7fa9ba90a904fff39585a63b4821958bbb1769f50e8974421041c21e8eeb24
+review_date: 2026-10-12
+review_fingerprint: 4a0b2c18ab75c0a17a144c9c502e75733a3cbb599cfd5c6b6b69fb8dde44ca45
+routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 4
+- Records: 4
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
@@ -38,21 +38,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
-SELECTED | Derbyshire | Chesterfield, East Midlands, S44 6XA | Redhill Academy Trust Pay Scale Band 7, Scale Points 32 - 36 Actual salary: £22,824 - £24,713 per annum (FTE: £27,004 - £29,239) | Administrative Assistant/Cover Administrator
-employer: The Bolsover School
-closing_date: 2026-10-12T12:00:00+01:00
-reason: Clear admin/service title: administrator, administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 28f23e40f23db766155de3ddb86ff0c51231c0963346ff1518970030638118c8
-source: Teaching Vacancies
-source_job_id: administrative-assistant-cover-administrator-the-bolsover-school-chesterfield-derbyshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-cover-administrator-the-bolsover-school-chesterfield-derbyshire
----
-
----
-action: 
 SELECTED | Derbyshire | Chesterfield, East Midlands, S43 4QG | £22,278.00 - £23,356.00 Annually (Actual) 2 posts available, 37 hrs/ 39 weeks, 37hrs / 41 weeks. Grade 2 £26,016 - £27,274 FTE per annum | Administrator
 employer: Heritage High School
 closing_date: 2026-10-26T12:00:00+00:00
@@ -64,21 +49,6 @@ factual_fingerprint: fc6997b7628aa082ac781c5357f00f3cae589fc91246471098862b524eb
 source: Teaching Vacancies
 source_job_id: administrator-heritage-high-school-chesterfield-derbyshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-heritage-high-school-chesterfield-derbyshire
----
-
----
-action: 
-SELECTED | Derbyshire | Hope Valley, East Midlands, S33 6SD | £26,427.00 - £26,847.00 Annually (FTE) Actual Salary £13,823 - £14,043 | Receptionist
-employer: Hope Valley College
-closing_date: 2026-10-11T23:59:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: fd08f1ba56d04190ba6d812e961403d82e19b6616a9d63ef9103d4854cac0e4e
-source: Teaching Vacancies
-source_job_id: receptionist-ae06e435-9f90-46fa-8916-45549c221789
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-ae06e435-9f90-46fa-8916-45549c221789
 ---
 
 ## POSS — choose SELECT or EXCLUDE

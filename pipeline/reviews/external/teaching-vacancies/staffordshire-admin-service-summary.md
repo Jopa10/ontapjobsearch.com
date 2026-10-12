@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-10-11
-review_fingerprint: c32e221deac12ea9633e4d53992757707e4d62180db3869ecf49dd985d797be9
-routing_manifest_sha256: ec7fa9ba90a904fff39585a63b4821958bbb1769f50e8974421041c21e8eeb24
+review_date: 2026-10-12
+review_fingerprint: 19e8efc2ef999f422efdce784dec11c260935b54689ab5085c2c6aa17d981195
+routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 2
+- Records: 2
+- Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 0
 
 ## SELECTED
-
----
-action: 
-SELECTED | Staffordshire | Stoke-on-Trent, West Midlands, ST6 6LZ | £27,122.00 Annually (Actual) | Curriculum/Data Administrator
-employer: St Margaret Ward Catholic Academy
-closing_date: 2026-10-12T12:00:00+01:00
-reason: Clear admin/service title: administrator, data administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7d4de3e8c7591bc777a9f9498bbb68ff93b35fa56d4e1e9fa0547b10d66c0fc4
-source: Teaching Vacancies
-source_job_id: curriculum-data-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/curriculum-data-administrator
----
 
 ---
 action: 
@@ -74,8 +59,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-ba
 
 ## HARD_PASS
 
-- [Data and Insights Officer](https://teaching-vacancies.service.gov.uk/jobs/data-and-insights-officer) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-5bedbe1d-eaea-4d84-a744-7318349a5687) — Manager title salary ceiling £39,152 is not below £28,000.
+- None.
 
 ## Safety boundary
 

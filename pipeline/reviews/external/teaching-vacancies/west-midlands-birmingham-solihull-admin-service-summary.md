@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-10-11
-review_fingerprint: 803dc24d78da320e4b862fa76a384128eab4700e0c75d845a1fbd101b31fd1b7
-routing_manifest_sha256: ec7fa9ba90a904fff39585a63b4821958bbb1769f50e8974421041c21e8eeb24
+review_date: 2026-10-12
+review_fingerprint: c2b331109734b75c8ac72c7002a6f7eb0fcc6e461a1433bbc46a3ae6cae6dabe
+routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 23
-- Selected: 11
+- Records: 18
+- Selected: 9
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 8
 
 ## SELECTED
 
@@ -34,36 +34,6 @@ factual_fingerprint: 22f47690c02ae58ce5a3e6f9253d6f59d9078eeffb839e46aa157af3fdb
 source: Teaching Vacancies
 source_job_id: administration-assistant-the-royal-sutton-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-the-royal-sutton-school
----
-
----
-action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B27 7BT | Grade 2 (Pt 3 - 8) FTE £25,614 - £27,709 – Actual Salary £22,645 - £24,498 | Administrative Assistant
-employer: The Oaklands Primary School
-closing_date: 2026-10-11T23:59:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7fbda42ad597e4801c4e7de78eb122c99bd5aa5d98264d9a316ab23780ab5940
-source: Teaching Vacancies
-source_job_id: administrative-assistant-the-oaklands-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-the-oaklands-primary-school
----
-
----
-action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B17 9LU | £26,514.00 - £29,071.00 Annually (FTE) Term time only | Administrative Assistant, Admissions & Attendance
-employer: Harborne Primary School
-closing_date: 2026-10-12T12:00:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c90c618d9ad644708f49fe277298376399b4f05893fe0a837096423693b11668
-source: Teaching Vacancies
-source_job_id: administrative-assistant-admissions-attendance
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-admissions-attendance
 ---
 
 ---
@@ -98,21 +68,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-co
 
 ---
 action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B17 8QB | £28,153.00 - £31,015.00 Annually (FTE) Actual pro-rated salary based on term time plus two weeks, during the summer holidays, equates to £25,961 (Scale Point 9) per annum to £26,600 (scale point 15) | Attendance Officer
-employer: King Edward VI Lordswood School for Girls
-closing_date: 2026-10-12T12:00:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5ec89cf5ab3fe13bbaa6a8d2e712584ba094a3dcdaef64f80b997e14439df1e6
-source: Teaching Vacancies
-source_job_id: attendance-officer-king-edward-vi-lordswood-school-for-girls
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-king-edward-vi-lordswood-school-for-girls
----
-
----
-action: 
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B10 9BT | £26,847.00 to £27,274.00 per annum (pro rata £9,601.68 - £9,754.39 per annum) | Business Support Assistant
 employer: Starbank School
 closing_date: 2026-10-18T23:59:00+01:00
@@ -124,6 +79,21 @@ factual_fingerprint: 3566045bafbd5dc258ddbd5f661def164fd1d9f4cdd4e8db53c82512245
 source: Teaching Vacancies
 source_job_id: business-support-assistant-087bd7f2-00c8-4216-9f63-98fee8083d04
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-assistant-087bd7f2-00c8-4216-9f63-98fee8083d04
+---
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B7 4QR | £11,923.86 Annually (Actual) Apprentice Rate 1 | Pastoral Support and Administrator Apprentice
+employer: E-ACT Heartlands Academy
+closing_date: 2026-10-13T15:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 03a5b72a50df3a4fbc0e8c2bdbf7a4f747b57ad381453b47bb345d259a0b83ca
+source: Teaching Vacancies
+source_job_id: pastoral-support-and-administrator-apprentice-e-act-heartlands-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-support-and-administrator-apprentice-e-act-heartlands-academy
 ---
 
 ---
@@ -216,10 +186,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 - [Office Administration](https://teaching-vacancies.service.gov.uk/jobs/office-administration) — Insufficient admin/service evidence.
 - [Office Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/office-co-ordinator-moor-green-primary-academy-birmingham) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-bloomsbury-nursery-school) — Manager title salary ceiling £34,434 is not below £28,000.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-erdington-hall-primary-school) — Manager title salary ceiling £43,149 is not below £28,000.
 - [Regional Commercial Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/regional-commercial-procurement-manager-ormiston-academies-trust-birmingham-not-recorded) — Manager title salary ceiling £63,638 is not below £28,000.
-- [Reprographics and Media Assistant](https://teaching-vacancies.service.gov.uk/jobs/reprographics-and-media-assistant) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-severne-junior-infant-and-nursery-school) — Manager title salary ceiling £55,224 is not below £28,000.
 
 ## Safety boundary
 

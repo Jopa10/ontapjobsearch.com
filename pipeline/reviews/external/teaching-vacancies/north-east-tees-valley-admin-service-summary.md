@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East - Tees Valley
 
-review_date: 2026-10-11
-review_fingerprint: 2eb40b9907f28ded0f7adfab0eced7a9454cf96f9c57c8b82f1b67d100178ff2
-routing_manifest_sha256: ec7fa9ba90a904fff39585a63b4821958bbb1769f50e8974421041c21e8eeb24
+review_date: 2026-10-12
+review_fingerprint: 18bea26cb95d0308f80b594948d16ef7fb4bf78ac4ce77581bec31638be8d5af
+routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 6
-- POSS awaiting decision: 2
+- Records: 4
+- Selected: 3
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 0
 
 ## SELECTED
-
----
-action: 
-SELECTED | North East - Tees Valley | Yarm, North East, TS15 9ET | £23,564 to £24,481, pending job evaluation | Administration Assistant
-employer: Conyers School
-closing_date: 2026-10-12T12:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: cbe371be327547ed6b8ef1850d860610f434d608cd788a602066a1d0719c3023
-source: Teaching Vacancies
-source_job_id: administration-assistant-6d289c6b-155d-4735-affe-2840a052662f
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-6d289c6b-155d-4735-affe-2840a052662f
----
 
 ---
 action: 
@@ -64,36 +49,6 @@ factual_fingerprint: 6e2da1be2b6002e408999a56bf5b3a87473e83d03815f8cc875c0ce8fad
 source: Teaching Vacancies
 source_job_id: business-support-assistant-st-patrick-s-catholic-college-a-voluntary-catholic-academy-stockton-on-tees-teesside
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-assistant-st-patrick-s-catholic-college-a-voluntary-catholic-academy-stockton-on-tees-teesside
----
-
----
-action: 
-SELECTED | North East - Tees Valley | Middlesbrough, North East, TS3 6PX | £25,989 - £28,142 (actual salary: £22,455 - £24,315) | Business Support Officer
-employer: St Alphonsus' Catholic Primary School
-closing_date: 2026-10-12T09:00:00+01:00
-reason: Clear admin/service title: business support officer
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: a72afc6c066831a4501434a36187ce8aacf8ad9d6bb16a709c0724c0ad0fdfac
-source: Teaching Vacancies
-source_job_id: business-support-officer-st-alphonsus-catholic-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-st-alphonsus-catholic-primary-school
----
-
----
-action: 
-SELECTED | North East - Tees Valley | Saltburn By the Sea, North East, TS12 1HJ | Grade C, SCP 3 | Receptionist
-employer: Huntcliff School
-closing_date: 2026-10-12T09:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 64903b019f3332944046ba1ec2aa71f1572fb2b01b2457ae633d99428e43dc2f
-source: Teaching Vacancies
-source_job_id: receptionist-huntcliff-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-huntcliff-school
 ---
 
 ---
@@ -128,28 +83,13 @@ source_job_id: admin-and-reprographics-assistant-maternity-cover
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-and-reprographics-assistant-maternity-cover
 ---
 
----
-action: 
-POSS | North East - Tees Valley | Stockton-On-Tees, TS17 0RJ | Actual salary £24,165 to £25,108 | Trust HR Assistant
-employer: Spark Education Trust
-closing_date: 2026-10-12T12:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 5f780d6b9c668281c1bd8032e1f0a171d52598d4def5783db9cde24d56db4e0a
-source: Teaching Vacancies
-source_job_id: trust-hr-assistant-175589f5-53ea-4b6b-937b-0cd777bc83f2
-source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-hr-assistant-175589f5-53ea-4b6b-937b-0cd777bc83f2
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
-- [Trust Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-assistant-dc4109c3-10fb-4988-9b60-ca1acab51bc8) — Insufficient admin/service evidence.
+- None.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-10-11
-review_fingerprint: 0907d20f70a83e934a0b31645d03275184c56847d3fe2e82e30c48aa7c159ac4
-routing_manifest_sha256: ec7fa9ba90a904fff39585a63b4821958bbb1769f50e8974421041c21e8eeb24
+review_date: 2026-10-12
+review_fingerprint: 9312c7fe9a8811b106c663a5e2fe04d2c151b7a16e5c3d18129d6839e69cde1d
+routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 9
+- Records: 14
+- Selected: 8
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 6
 
 ## SELECTED
 
@@ -49,21 +49,6 @@ factual_fingerprint: 2febb77862161236be707092792a59de6d36c0df2aa3020c89dd465d58c
 source: Teaching Vacancies
 source_job_id: administrative-assistant-cleethorpes-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-cleethorpes-academy
----
-
----
-action: 
-SELECTED | Lincolnshire | Spalding, East Midlands, PE11 2JQ | £14,002.00 - £14,684.00 Annually (Actual) Grade 4 SCP 9-12, Part time - Monday to Friday 8.30am - 1pm | Administrator
-employer: St Paul's Community Primary and Nursery School, Spalding
-closing_date: 2026-10-11T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e89114c3189703aa75664217c3b75a43f772efed7384b0fa2441d633b65cb948
-source: Teaching Vacancies
-source_job_id: administrator-st-paul-s-community-primary-and-nursery-school-spalding
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-st-paul-s-community-primary-and-nursery-school-spalding
 ---
 
 ---
@@ -143,17 +128,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ---
 action: 
-SELECTED | Lincolnshire | Lincoln, LN5 8RE | PPS3 £25,614 per annum, pro rata £1,448 per annum | Sports Centre Receptionist
-employer: The Priory Federation Of Academies
-closing_date: 2026-10-18T23:59:00+01:00
-reason: Clear admin/service title: receptionist
+SELECTED | Lincolnshire | Stamford, East Midlands, PE9 1HE | £19,129.00 - £25,372.00 Annually (Actual) | SEND Administrator
+employer: Stamford Welland Academy
+closing_date: 2026-11-06T12:00:00+00:00
+reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: e32a0a7cabeab3fd0768694df4df2e31ebfec30897c447a62f5e9039059891a2
+factual_fingerprint: e6f58bfa4e977961443206431f80d9230be15ec908ca8f86482e542d2ea8af5b
 source: Teaching Vacancies
-source_job_id: sports-centre-receptionist-the-priory-federation-of-academies
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sports-centre-receptionist-the-priory-federation-of-academies
+source_job_id: send-administrator-stamford-welland-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-stamford-welland-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -166,6 +151,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sports-centre-recepti
 
 ## HARD_PASS
 
+- [Bursar](https://teaching-vacancies.service.gov.uk/jobs/bursar-cliffedale-primary-school-grantham-lincolnshire) — Insufficient admin/service evidence.
+- [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-lincoln-carlton-academy) — Insufficient admin/service evidence.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-voyage-education-partnership) — Insufficient admin/service evidence.
 - [Operational Delivery Lead](https://teaching-vacancies.service.gov.uk/jobs/operational-delivery-lead) — Insufficient admin/service evidence.
 - [Senior Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-the-gainsborough-parish-church-primary-school) — Insufficient admin/service evidence.

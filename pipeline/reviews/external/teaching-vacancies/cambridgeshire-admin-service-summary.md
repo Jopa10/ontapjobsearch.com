@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-10-11
-review_fingerprint: 30459cd5c4aca46f5c8ff60419da806bedb319fb94272f148aabba049cc15bd3
-routing_manifest_sha256: ec7fa9ba90a904fff39585a63b4821958bbb1769f50e8974421041c21e8eeb24
+review_date: 2026-10-12
+review_fingerprint: 0021f694df2828500e644eedc2c4195efb40171324ec787a20b6b104d5a224bc
+routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 5
+- Records: 10
+- Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 4
 
 ## SELECTED
 
@@ -38,6 +38,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
+SELECTED | Cambridgeshire | Cambridge, East of England, CB1 3RL | £26,427.00 - £26,847.00 Annually (FTE) NJC 5-6 - salary advertised is FTE, salary paid will be pro rata based on hours/weeks worked | Administrator
+employer: Ridgefield Primary School
+closing_date: 2026-10-21T12:00:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b4b3f01a592fa0b461cdb31ea84daf12d71cd3a5b0d518591ec912c7d21f9b3b
+source: Teaching Vacancies
+source_job_id: administrator-ridgefield-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-ridgefield-primary-school
+---
+
+---
+action: 
 SELECTED | Cambridgeshire | Wisbech, East of England, PE14 7HA | Scale D, Pt 6-7, £13.91 - £14.13/hour. Approx £22,989 - £23,354/year (FTE £26,847 - £27,274 per year, based on a 37hr week) Please note this salary will be paid pro rata | Administrator (SEN and Careers)
 employer: Marshland High School
 closing_date: 2026-10-19T01:00:00+01:00
@@ -49,21 +64,6 @@ factual_fingerprint: a67fec0346d191895272189bc223cbc638e905f8e731856a3d10e6cddd7
 source: Teaching Vacancies
 source_job_id: administrator-sen-and-careers
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-sen-and-careers
----
-
----
-action: 
-SELECTED | Cambridgeshire | St. Neots, East of England, PE19 2SH | £32,578.00 - £34,812.00 Annually (FTE) Pro rata salary - £30,003 - £32,061 | Exams Officer
-employer: Ernulf Academy
-closing_date: 2026-10-11T23:59:00+01:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: edc5f6d030631ffba51f05723fe1a264940075d46691b0981ac8f4b30ba6f828
-source: Teaching Vacancies
-source_job_id: exams-officer-ernulf-academy-st-neots
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-ernulf-academy-st-neots
 ---
 
 ---
@@ -96,6 +96,21 @@ source_job_id: finance-admin-assistant-priory-junior-school-st-neots-cambridgesh
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-admin-assistant-priory-junior-school-st-neots-cambridgeshire
 ---
 
+---
+action: 
+SELECTED | Cambridgeshire | Cambridge, East of England, CB24 3DS | Point 4-5, £26,016 - £26,427 FTE | Senior Office Administrator
+employer: Pathfinder CofE Primary School
+closing_date: 2026-10-26T12:00:00+00:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a95d42caa583cf453e7892da86f6671454300258b2b6e0a7ddfee9b7c360c69d
+source: Teaching Vacancies
+source_job_id: senior-office-administrator-3a5f781d-04a4-440d-b3a1-75326476e3e9
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrator-3a5f781d-04a4-440d-b3a1-75326476e3e9
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -106,13 +121,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-admin-assista
 
 ## HARD_PASS
 
-- [Head of HR Operations](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-operations-meridian-trust-huntingdon-not-recorded) — Insufficient admin/service evidence.
-- [MAT Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/mat-finance-officer-d8a95cad-c0d6-4162-8e48-a6074dda2712) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-5a3dff01-79b6-4729-902c-d66d0a984b7a) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-7ec77d3b-774d-4b4b-973d-4d3362c0e641) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-e275b9ec-d6f9-48ae-95a1-399e4246da3d) — Insufficient admin/service evidence.
 - [School Business Leader](https://teaching-vacancies.service.gov.uk/jobs/school-business-leader-university-of-cambridge-primary-school) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-beaupre-community-primary-school) — Manager title salary ceiling £29,542 is not below £28,000.
 
 ## Safety boundary
 

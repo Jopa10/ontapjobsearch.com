@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-10-11
-review_fingerprint: b544a7b34927899c6979d03f3c7535313dbb2e752df3a924e553f30adebdadf7
-routing_manifest_sha256: ec7fa9ba90a904fff39585a63b4821958bbb1769f50e8974421041c21e8eeb24
+review_date: 2026-10-12
+review_fingerprint: 4588d165a4174f5bb7bf5e501b4f365e6e933597bbfa8af2444fd6b838ba6620
+routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
-- Selected: 7
-- POSS awaiting decision: 2
+- Records: 18
+- Selected: 5
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 10
 
 ## SELECTED
-
----
-action: 
-SELECTED | North East | Sunderland, North East, SR2 7JN | £26,427.00 - £26,847.00 Annually (Actual) | Administration Assistant
-employer: St Anthony's Girls' Catholic Academy
-closing_date: 2026-10-12T09:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e448cf527177d900e9f47fa7a9165d97fcab438d7e9691003b47a3d8fa4582b6
-source: Teaching Vacancies
-source_job_id: administration-assistant-st-anthony-s-girls-catholic-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-st-anthony-s-girls-catholic-academy
----
 
 ---
 action: 
@@ -49,6 +34,21 @@ factual_fingerprint: 4fa260ad0223a6a130dbe90852cd58d5407f07418bf89827340ac9e0c69
 source: Teaching Vacancies
 source_job_id: administration-assistant-st-john-bosco-catholic-primary-school-town-end-farm-sunderland
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-st-john-bosco-catholic-primary-school-town-end-farm-sunderland
+---
+
+---
+action: 
+SELECTED | North East | Sunderland, North East, SR5 3NF | £27,274.00 - £28,153.00 Annually (FTE) | Administration Assistant
+employer: Trinity Academy New Bridge
+closing_date: 2026-10-26T12:00:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: fbcf4398d24e123a218b8b68896cc94c4cac3262c6314f54935dd6606e0708eb
+source: Teaching Vacancies
+source_job_id: administration-assistant-trinity-academy-new-bridge-sunderland
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-trinity-academy-new-bridge-sunderland
 ---
 
 ---
@@ -79,36 +79,6 @@ factual_fingerprint: 9aba66ee765c45445a85d1537e100e86af3f7d05f5e701ed72090cead4c
 source: Teaching Vacancies
 source_job_id: administrator-student-reception
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-student-reception
----
-
----
-action: 
-SELECTED | North East | Peterlee, North East, SR8 2RN | £25,125 | Data Management Administrator (2025/HM084)
-employer: East Durham College
-closing_date: 2026-10-11T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: bdeeb8867fca89842312e5ff5818735800e47e004def50a6c4dc216d7f3f918a
-source: Teaching Vacancies
-source_job_id: data-management-administrator-2025-hm084
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-management-administrator-2025-hm084
----
-
----
-action: 
-SELECTED | North East | Berwick-upon-Tweed, North East, TD15 1SP | £25,989 | School Administrator
-employer: Berwick St Mary's Church of England Primary School
-closing_date: 2026-10-12T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 15224eb3202ab3213a3695255ee17a2d96d67d203876f3cf67611dfb60a4ba81
-source: Teaching Vacancies
-source_job_id: school-administrator-4b89961d-cc62-4cfa-9732-a8929179b607
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-4b89961d-cc62-4cfa-9732-a8929179b607
 ---
 
 ---
@@ -158,6 +128,21 @@ source_job_id: pastoral-administration-assistant-st-wilfrid-s-rc-college
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administration-assistant-st-wilfrid-s-rc-college
 ---
 
+---
+action: 
+POSS | North East | Darlington, DL3 7AU | NJC Band 5 (SCP 7-8), £27,274 – £27,709 per annum | People Support Assistant
+employer: Northern Arch Learning Partnership
+closing_date: 2026-10-27T12:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 88d18dba3a43c043d23e66ccf85ff8322768bd6c70b8835ff1a10bd87ae5d883
+source: Teaching Vacancies
+source_job_id: people-support-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/people-support-assistant
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -167,13 +152,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrati
 - [Assistant Principal - Personal Development & Wellbeing](https://teaching-vacancies.service.gov.uk/jobs/assistant-principal-personal-development-wellbeing) — Out-of-scope occupation: principal.
 - [Business Lead](https://teaching-vacancies.service.gov.uk/jobs/business-lead-st-gregory-s-catholic-primary-school-south-shields-south-shields-tyne-and-wear) — Insufficient admin/service evidence.
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-st-anthony-s-girls-catholic-academy-sunderland-tyne-and-wear) — Manager title salary ceiling £42,123 is not below £28,000.
-- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-bishop-chadwick-catholic-education-trust) — Insufficient admin/service evidence.
+- [Exams Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-assistant-park-view-school) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-bishop-hogarth-catholic-education-trust) — Insufficient admin/service evidence.
 - [Head of Governance, Risk & Compliance](https://teaching-vacancies.service.gov.uk/jobs/head-of-governance-risk-compliance) — Insufficient admin/service evidence.
 - [Head of People](https://teaching-vacancies.service.gov.uk/jobs/head-of-people-northern-lights-learning-trust) — Insufficient admin/service evidence.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-the-ascent-academies-trust) — Insufficient admin/service evidence.
 - [HR Support Staff](https://teaching-vacancies.service.gov.uk/jobs/hr-support-staff) — Insufficient admin/service evidence.
-- [Marketing Assistant](https://teaching-vacancies.service.gov.uk/jobs/marketing-assistant-kings-priory-school) — Insufficient admin/service evidence.
 - [People Officer](https://teaching-vacancies.service.gov.uk/jobs/people-officer-northern-lights-learning-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary

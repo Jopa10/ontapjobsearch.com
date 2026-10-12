@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-10-11
-review_fingerprint: 862c6e2cd2f0cef05ed800f6373be3672f387609fc5d3ffb6781d0f8b11322c0
-routing_manifest_sha256: ec7fa9ba90a904fff39585a63b4821958bbb1769f50e8974421041c21e8eeb24
+review_date: 2026-10-12
+review_fingerprint: a3e7cd9f10f1df098fff8b90ba85792112ad3c64a54b76e42b7579f5af3c1139
+routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 23
-- Selected: 11
+- Records: 18
+- Selected: 6
 - POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 8
@@ -53,36 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-devon-r
 
 ---
 action: 
-SELECTED | Devon | Ivybridge, South West, PL21 0JA | £14,575.00 - £15,381.00 Annually (Actual) WeST grade C SCP 5-7 | College Receptionist
-employer: Ivybridge Community College
-closing_date: 2026-10-12T09:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9ba42db837afa5b7e7c5fcf1ecf193595ff837153fc073c2c9da8478194372b0
-source: Teaching Vacancies
-source_job_id: college-receptionist-ivybridge-community-college-ivybridge-devon
-source_url: https://teaching-vacancies.service.gov.uk/jobs/college-receptionist-ivybridge-community-college-ivybridge-devon
----
-
----
-action: 
-SELECTED | Devon | Brixham, South West, TQ5 9HF | TSAT Pay Group 5 pro rata to £33,736 - £39,997 for hours and weeks stated (£33,899 - £40,190 FTE) | Exams and Admissions Officer
-employer: Brixham College
-closing_date: 2026-10-11T23:59:00+01:00
-reason: Clear admin/service title: admissions officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0401b31c28232de05b1465ed4b8e6efe746f1ec56831aa03e1a6267ddee1a69c
-source: Teaching Vacancies
-source_job_id: exams-and-admissions-officer
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-and-admissions-officer
----
-
----
-action: 
 SELECTED | Devon | Plymouth, South West, PL1 5QG | Full Time | Permanent | £26,440 Per Annum | General Support Administrator
 employer: City College Plymouth
 closing_date: 2026-10-21T23:59:00+01:00
@@ -94,21 +64,6 @@ factual_fingerprint: 03d68b705a85dcc8f8908d88676d3b4c87ed5fa17c23961818366089c9b
 source: Teaching Vacancies
 source_job_id: general-support-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/general-support-administrator
----
-
----
-action: 
-SELECTED | Devon | Barnstaple, EX31 1JU | £13.91 Hourly 08:45am – 03:15pm Monday to Friday including 30 minutes unpaid lunch | HR Administrative Assistant
-employer: Team Multi Academy Trust
-closing_date: 2026-10-12T12:00:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 74cab42962aa3ecec5290acc06beca73aec1c20e241c9e5643de4466eda48956
-source: Teaching Vacancies
-source_job_id: hr-administrative-assistant-team-multi-academy-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrative-assistant-team-multi-academy-trust
 ---
 
 ---
@@ -139,36 +94,6 @@ factual_fingerprint: b8c30f63380f5f8e84f09ffd420b65364263862b7b27a8303afcab06724
 source: Teaching Vacancies
 source_job_id: people-administrator-dartmoor-multi-academy-trust-okehampton-not-recorded
 source_url: https://teaching-vacancies.service.gov.uk/jobs/people-administrator-dartmoor-multi-academy-trust-okehampton-not-recorded
----
-
----
-action: 
-SELECTED | Devon | Plymouth, South West, PL7 4LT | £26,427.00 - £27,274.00 Annually (FTE) WeST Grade C (scp 5-7) £26,427 – £27,274 FTE, actual salary from £21,410.99 per annum | Post 16 Administrator and Study Supervisor
-employer: Hele's School
-closing_date: 2026-10-12T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: aad4a13f621b5caea47ee9ee1056e667fec2da0d61329d12c6f00862f837f35a
-source: Teaching Vacancies
-source_job_id: post-16-administrator-and-study-supervisor
-source_url: https://teaching-vacancies.service.gov.uk/jobs/post-16-administrator-and-study-supervisor
----
-
----
-action: 
-SELECTED | Devon | Exeter, EX5 3JG | FTE £25660 | School Hub Administrator
-employer: Cornerstone Academy Trust
-closing_date: 2026-10-11T23:59:59+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: cba78843b31d017695c0778f96b53e5bde1c20bd49241631acd860039fa25c4a
-source: Teaching Vacancies
-source_job_id: school-hub-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-hub-administrator
 ---
 
 ---

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-10-11
-review_fingerprint: aed5b058aac9d6b81a984daaddfc8551041d0737a5dd9e98f5a954889b0e4e65
-routing_manifest_sha256: ec7fa9ba90a904fff39585a63b4821958bbb1769f50e8974421041c21e8eeb24
+review_date: 2026-10-12
+review_fingerprint: be394899cefb0b2b29da36cfa3c82f0240e28096a886dd033db312fd7313dace
+routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 3
+- Records: 6
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -30,7 +30,7 @@ reason: Clear admin/service title: examinations officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 0a54390cc6b10c4efa15a757836c0a836be66304b179dcd34af198d25c826526
+factual_fingerprint: 1f56404cdfacfb19297173edf8a8e6defd4ee02207257e20385e99ebef0c8a81
 source: Teaching Vacancies
 source_job_id: deputy-examinations-officer-godalming-college-godalming-surrey
 source_url: https://teaching-vacancies.service.gov.uk/jobs/deputy-examinations-officer-godalming-college-godalming-surrey
@@ -49,21 +49,6 @@ factual_fingerprint: 52e6a1b91d2aee27329b9d2271a599dd824c9d67b4354503ffe4c1ae2cc
 source: Teaching Vacancies
 source_job_id: safeguarding-and-send-administrative-assistant-eastwick-infant-school-leatherhead-surrey
 source_url: https://teaching-vacancies.service.gov.uk/jobs/safeguarding-and-send-administrative-assistant-eastwick-infant-school-leatherhead-surrey
----
-
----
-action: 
-SELECTED | Surrey | Godalming, South East, GU8 4DX | S3, scale points 20.1 – 23, depending on experience. FTE: £28,637 - £30,484; Actual: £23,840.67 - £25,378.32 | SEN Administrator
-employer: St Dominic's School
-closing_date: 2026-10-11T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3cec59438802a50c87440ad40eeef4c93d914a6680f9d7ac0b30afceb86b1849
-source: Teaching Vacancies
-source_job_id: sen-administrator-a73e2173-5c60-48da-8b9b-ca0b2be7c7a6
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-a73e2173-5c60-48da-8b9b-ca0b2be7c7a6
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -91,7 +76,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-oxted-sc
 
 - [Admissions Advisor](https://teaching-vacancies.service.gov.uk/jobs/admissions-advisor) — Insufficient admin/service evidence.
 - [Chief Operating Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-operating-officer-the-howard-partnership-trust) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-fox-grove-school-leatherhead-surrey) — Manager title salary ceiling £37,002 is not below £28,000.
 - [Office Manager/PA to Principal](https://teaching-vacancies.service.gov.uk/jobs/office-manager-pa-to-principal-kenyngton-manor-primary-school-sunbury-on-thames-surrey) — Manager title salary ceiling £33,301 is not below £28,000.
 
 ## Safety boundary

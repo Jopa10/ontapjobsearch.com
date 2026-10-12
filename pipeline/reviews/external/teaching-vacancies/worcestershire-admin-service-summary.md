@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Worcestershire
 
-review_date: 2026-10-11
-review_fingerprint: 51254ce92e7a4ac667489224fdece370857c80c8a43a02d3b1b9a43ebe33b08c
-routing_manifest_sha256: ec7fa9ba90a904fff39585a63b4821958bbb1769f50e8974421041c21e8eeb24
+review_date: 2026-10-12
+review_fingerprint: f9c49a37923aba218c67bb76b59ecdf3a1a5a5ebe765681a46715963e523e80d
+routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 3
+- Records: 4
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -51,21 +51,6 @@ source_job_id: part-time-student-receptionist-main-receptionist
 source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-student-receptionist-main-receptionist
 ---
 
----
-action: 
-SELECTED | Worcestershire | Redditch, West Midlands, B98 0UB | £21,874.00 - £22,217.00 Annually (Actual) | Receptionist/Administrator
-employer: Ipsley CofE Middle School
-closing_date: 2026-10-12T09:00:00+01:00
-reason: Clear admin/service title: administrator, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 571907f4dad9a24a753128770b9587166d08333a4253d2312e1cc52881962973
-source: Teaching Vacancies
-source_job_id: receptionist-administrator-ipsley-cofe-middle-school-redditch
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-ipsley-cofe-middle-school-redditch
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -90,7 +75,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-financ
 ## HARD_PASS
 
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-pinvin-cofe-academy) — Insufficient admin/service evidence.
-- [Invigilator](https://teaching-vacancies.service.gov.uk/jobs/invigilator-arrow-vale-high-school-redditch) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

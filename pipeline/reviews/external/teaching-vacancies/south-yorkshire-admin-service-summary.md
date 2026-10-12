@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-10-11
-review_fingerprint: 656753ad785e12630981e3e830b12ea5982046069331de84437047230e1eb2ba
-routing_manifest_sha256: ec7fa9ba90a904fff39585a63b4821958bbb1769f50e8974421041c21e8eeb24
+review_date: 2026-10-12
+review_fingerprint: 1be61ad3132c85323cd5c419c13964b27c31eec56c66271e63ecb33f6d4a3c7e
+routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 25
-- Selected: 8
+- Records: 24
+- Selected: 6
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 15
+- Hard pass: 16
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: 956dfe297433d55e402f7a0686a00c275a1393470d518b5732670935f16
 source: Teaching Vacancies
 source_job_id: admin-clerical-officer-level-2-rowan-school-the-rowan-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-clerical-officer-level-2-rowan-school-the-rowan-school
----
-
----
-action: 
-SELECTED | Yorkshire - South | Doncaster, Yorkshire and the Humber, DN6 8PU | £8,074.00 - £8,332.00 Annually (Actual) Pay Award Pending | Admin Assistant
-employer: Owston Park Primary Academy
-closing_date: 2026-10-12T09:00:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4cfda2565e1ee80dbdcad077714090391285922f9fa8b3d9e34279bfbc581371
-source: Teaching Vacancies
-source_job_id: admin-assistant-owston-park-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-owston-park-primary-academy
 ---
 
 ---
@@ -94,21 +79,6 @@ factual_fingerprint: 243b8f7e8a16c885b567d56f68a6761bc0ec0c6ba657da455200b260c78
 source: Teaching Vacancies
 source_job_id: personal-assistant-bradfield-secondary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-bradfield-secondary-school
----
-
----
-action: 
-SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S36 1AS | £15,359.00 - £15,603.00 Annually (Actual) Grade 3 SCP 5 to 6 | Receptionist
-employer: Stocksbridge Junior School
-closing_date: 2026-10-11T23:59:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0b85e09644f78827f39ff29d0c6f48cd04c14fa7af8d8692a47e6ad515794150
-source: Teaching Vacancies
-source_job_id: receptionist-stocksbridge-junior-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-stocksbridge-junior-school
 ---
 
 ---
@@ -183,13 +153,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-admin-suppor
 - [Business Support Manager](https://teaching-vacancies.service.gov.uk/jobs/business-support-manager-beck-primary-school-sheffield-south-yorkshire) — Manager title salary ceiling £40,921 is not below £28,000.
 - [Finance & Admin Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-admin-manager-171240df-359e-4c34-b77f-8c67e1ee2d06) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-800b81f8-109d-4857-8ee1-281e2de5e328) — Insufficient admin/service evidence.
+- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-minerva-learning-trust) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-minerva-learning-trust-sheffield-not-recorded) — Insufficient admin/service evidence.
+- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-ce12e672-834a-4926-ac88-d9b1ed0235b4) — Manager title salary ceiling £53,500 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-99fb8e49-5fcd-4f2c-851e-e3b3f1e72d55) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-misson-primary-school) — Manager title salary ceiling £33,699 is not below £28,000.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-gooseacre-primary-academy) — Manager title salary ceiling £39,773 is not below £28,000.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-42e231a7-dcef-4bf5-a3d7-0eb145f4ac02) — Insufficient admin/service evidence.
 - [Safeguarding and Welfare Officer](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-and-welfare-officer-newman-school) — Insufficient admin/service evidence.
-- [Senior Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-st-francis-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [Senior Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-manager-minerva-learning-trust) — Manager title salary ceiling £58,557 is not below £28,000.
 - [Senior Management Account / Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/senior-management-account-head-of-finance) — Insufficient admin/service evidence.
 - [Sports Centre and Lettings Supervisor](https://teaching-vacancies.service.gov.uk/jobs/sports-centre-and-lettings-supervisor) — Insufficient admin/service evidence.

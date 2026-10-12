@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-10-11
-review_fingerprint: 51a1b099653b71b15524ac95aa89782cb7651831512915fed45c263b5e98aa2b
-routing_manifest_sha256: ec7fa9ba90a904fff39585a63b4821958bbb1769f50e8974421041c21e8eeb24
+review_date: 2026-10-12
+review_fingerprint: 4b645da0043fc44acc1fc11b1ba519056f04892f4dcb87ccbb8844b535fdbfc7
+routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 8
-- Selected: 3
+- Selected: 2
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -49,21 +49,6 @@ factual_fingerprint: 5e4580d7c593af95f3dc8e020c95fe8530cb842c706f5431b003b41a932
 source: Teaching Vacancies
 source_job_id: administrative-assistant-data-finham-park-2
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-data-finham-park-2
----
-
----
-action: 
-SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV2 5BD | Actual salary £22,576 – £23,667 | Receptionist and Administrative Assistant to the Deputy Headteachers
-employer: Caludon Castle School
-closing_date: 2026-10-11T21:00:59+01:00
-reason: Clear admin/service title: administrative assistant, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: bc633ad4da0e49c9648df10948f861dbe623298ce1c6be01218857619cb1c109
-source: Teaching Vacancies
-source_job_id: receptionist-and-administrative-assistant-to-the-deputy-headteachers
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administrative-assistant-to-the-deputy-headteachers
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -106,6 +91,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/mat-compliance-office
 
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-etone-college) — Insufficient admin/service evidence.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-5cc43304-a3a7-4b85-bf77-5aec67ba4d85) — Manager title salary ceiling £54,143 is not below £28,000.
+- [Senior Leisure & Lettings Coordinator](https://teaching-vacancies.service.gov.uk/jobs/senior-leisure-lettings-coordinator-kenilworth-multi-academy-trust) — Insufficient admin/service evidence.
 - [Technical Services Team Assistant](https://teaching-vacancies.service.gov.uk/jobs/technical-services-team-assistant-finham-park-school) — Insufficient admin/service evidence.
 
 ## Safety boundary
