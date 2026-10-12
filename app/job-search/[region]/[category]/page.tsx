@@ -38,6 +38,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { region, category } = await params;
   const slice = getPublishedDynamicSlice(region, category);
   if (!slice) return {};
+  const seoRegion = slice.region === "North East" ? "the North East" : slice.region;
   const canonical = `${siteUrl}${slice.route}`;
   return {
     title: slice.categorySlug === "service-administrator-jobs"
