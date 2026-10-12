@@ -3,8 +3,8 @@
 > **NOT READY TO REVIEW — waiting for: NEJobs, VONNE, Teaching Vacancies**
 > Do not start reviewing yet. Rebuild this review after those source refreshes complete.
 
-review_date: 2026-10-11
-generated_at: 2026-10-11T13:13:37+00:00
+review_date: 2026-10-12
+generated_at: 2026-10-12T10:01:56+00:00
 
 **8 job(s) need a human decision.**
 
@@ -21,11 +21,11 @@ Edit only each `action:` line:
 
 | Source | Status | Review date | Needs review | Note |
 |---|---|---|---:|---|
-| JobG8 | OK | 2026-10-11 | 8 | — |
+| JobG8 | OK | 2026-10-12 | 8 | — |
 | NEJobs | STALE | 2026-09-18 | 0 | — |
-| VONNE | STALE | 2026-10-10 | 0 | — |
-| Teaching Vacancies | STALE | 2026-10-10 | 0 | — |
-| NHS Jobs | OK | 2026-10-11 | 0 | automatic Tier A/B publish; NHS POSS stays in the NHS-specific review and is optional |
+| VONNE | STALE | 2026-10-11 | 0 | — |
+| Teaching Vacancies | STALE | 2026-10-11 | 0 | — |
+| NHS Jobs | OK | 2026-10-12 | 0 | automatic Tier A/B publish; NHS POSS stays in the NHS-specific review and is optional |
 
 > **Attention:** one or more active source reviews are stale or missing. Those sources contribute no jobs to this file and must not be treated as zero inventory.
 
@@ -123,6 +123,24 @@ hub_fingerprint: 33ecad3ec3e82420e4d8af98b5de3f3fa7116cba371539b400a1a8908a9c830
 
 ---
 action:
+POSS | JobG8 | Scotland West - Glasgow | Glasgow | £50000 per year | HR Administrator Placement Programme - No Experience Needed
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 108092644
+title: HR Administrator Placement Programme - No Experience Needed
+employer: 
+location: Glasgow
+region: Scotland West - Glasgow
+salary: £50000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 488c3b7c0db17f8026e04067379e16f36eb125676022a9f7079e0aa1936493d8
+---
+
+---
+action:
 POSS | JobG8 | Suffolk | Suffolk | £190 - £195 per daily (+ None) | Learning Coordinator
 source_key: jobg8
 source: JobG8
@@ -137,24 +155,6 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: c4780b2f955606109b2aa3f60322222fb6415f1f9f99a116c86d1b9877376b04
----
-
----
-action:
-POSS | JobG8 | West Midlands - Birmingham & Solihull | Birmingham | £45000 per year | Solar PV Coordinator (In-Roof Systems)
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 108089617
-title: Solar PV Coordinator (In-Roof Systems)
-employer: 
-location: Birmingham
-region: West Midlands - Birmingham & Solihull
-salary: £45000 per year
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 2d8ecf0df6707d6773b88ed5f14a2dad085873ec3e81afe98a0117eebfb86ba5
 ---
 
 ---
