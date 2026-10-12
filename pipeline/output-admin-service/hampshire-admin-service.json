@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-receptionist-maternity-cover-the-blue-coat-school-basingstoke",
-    "title": "Receptionist (Maternity Cover)",
-    "company": "The Blue Coat School Basingstoke",
-    "location": "Basingstoke",
-    "region": "Hampshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£12,059.00 - £13,260.00 Monthly Actual salary £12,059-£13,260 (FTE £25,551-£28,096)",
-    "work_pattern": "",
-    "posted_date": "2026-10-02",
-    "closing_date": "2026-10-11",
-    "closing_datetime": "2026-10-11T23:59:00+01:00",
-    "summary": "Receptionist (Maternity Cover) with The Blue Coat School Basingstoke in Basingstoke. ['part time']; £12,059.00 - £13,260.00 Monthly Actual salary £12,059-£13,260 (FTE £25,551-£28,096).",
-    "description": "The Blue Coat School Basingstoke is recruiting for this vacancy in Basingstoke.\n\nThe advertised position is Receptionist (Maternity Cover).\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £12,059.00 - £13,260.00 Monthly Actual salary £12,059-£13,260 (FTE £25,551-£28,096).\n\nThe stated application deadline is 2026-10-11T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/receptionist-maternity-cover-the-blue-coat-school-basingstoke?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "The Blue Coat School Basingstoke",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "2033941",
     "title": "Assistant Accountant",
     "company": "CMA Recruitment Group - Agency - Permanent",
@@ -853,6 +825,28 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "nhs-5656044",
+    "source": "NHS Jobs",
+    "title": "Receptionist",
+    "company": "Tadley Medical Partnership",
+    "advertiser_name": "Tadley Medical Partnership",
+    "location": "Tadley, RG26 4ER, Tadley , RG26 4AN",
+    "region": "Hampshire",
+    "salary": "£12.71",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-12T08:32:03.158011",
+    "closing_date": "2026-11-01",
+    "description": "As a GP Receptionist, you will be the first point of contact for patients, handling appointments, queries, and providing a range of administrative support to our clinical team. You will be responsible for managing phone calls, greeting patients, processing patient information, and assisting with the smooth running of the practice. Key Responsibilities: Answering phone calls and booking appointments for patients. Greeting and checking-in patients as they arrive at the practice. Handling patient queries and ensuring a positive experience. Updating and maintaining patient records accurately. Managing patient flow and ensuring appointments run on time. Assisting with the preparation of medical records and documents. Handling sensitive information confidentially in line with GDPR regulations. Supporting the clinical team with general administrative tasks as needed. We are seeking a friendly, professional, and well-organised Receptionist to join our busy General Practice team. You will be the first point of contact for patients and play a vital role in supporting clinicians and administrative staff to deliver high-quality patient care. Shifts will include 8am starts and 6.30pm finishes on some of your working days. This is an essential requirement. Interviews will take place on Tuesday 17 November 2026 at Holmwood Health Centre.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2237-26-0010",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2237-26-0010",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5650314",
     "source": "NHS Jobs",
     "title": "Administrator",
@@ -868,7 +862,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9384-26-0897",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9384-26-0897",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5624017",
@@ -886,7 +884,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0558",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0558",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5642872",
@@ -904,7 +906,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0675",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0675",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5654889",
@@ -922,7 +928,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-2190",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-2190",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5643304",
@@ -940,7 +950,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-2159",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-2159",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5642963",
@@ -958,7 +972,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-2152",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-2152",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5627419",
@@ -976,24 +994,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2111-26-0033",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2111-26-0033",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
-  },
-  {
-    "job_id": "nhs-5626622",
-    "source": "NHS Jobs",
-    "title": "Ward Administrator",
-    "company": "Hampshire and Isle of Wight Healthcare NHS Foundation Trust",
-    "advertiser_name": "Hampshire and Isle of Wight Healthcare NHS Foundation Trust",
-    "location": "Fareham, PO17 5NA",
-    "region": "Hampshire",
-    "salary": "£25760.00 to £27476.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-09-28T13:13:28.910726101",
-    "closing_date": "2026-10-11",
-    "description": "Are you well organised? Do you want to join a busy and unique team? Then we would love to hear from you An opportunity has arisen for a full time Ward Administrator to work at Ravenswood House, medium secure unit. This role is an integral part of our established multi-disciplinary team which includes; Doctors, Nurses, Health Care Support Workers, Psychologists and Occupational Therapists. The successful applicant will work as a member of our existing administration team to provide full secretarial and administrative support to the ward clinical team. We are looking for an enthusiastic, proactive and well-motivated individual, you will need excellent verbal and written communication skills. You will need to be IT literate, able to work with different computer systems confidently and demonstrate expertise in the full range of administrative skills. The role will include a wide variety of admin tasks such as admissions, discharges, ordering, word processing, minute taking and coordinating meetings. To support your development we provide a robust and supportive induction programme for all staff. You will receive regular supervision as well as a number of training opportunities to ensure continuing professional development. For an informal conversation about this role, feel free to get in touch with Megan Moore, Ward Administration Coordinator, 01329227180 Responsible for the patients Care Programme Approach, report compilation, minute taking and Section 117 meetings Act as IT co-ordinator and Rio champion for the ward Arrange admissions, transfers and discharges of patients as instructed by clinical ward manager whilst liaising with Medical Records and external agencies. Complete maintenance requests for the ward, chase up outstanding works on a regular basis to ensure completion of tasks is carried out. Dealing with telephone enquiries, documenting messages and ensuring that they are passed on to appropriate staff member accordingly for action.Telephone enquiries can sometimes be of a distressing or sensitive nature and require a high level of discretion and diplomacy at all times. Ensure cover is provided for other wards in times of holidays and sickness Keep ward diary up to date with inclusion of CPA dates, physical health investigations, Mental Health Review Tribunals, Managers meetings and arrangement for service user activities. Liaising with all services, internal and external to the Trust as well as patients relatives whilst maintaining confidentiality. Setting up emails and Rio accounts and smartcards etc for new staff members To attend team meetings, supervision sessions and take part in the appraisal system. Update Patient Lists - to be updated with current details re MHA spreadsheet sent weekly along with Progress Review Timetables Order supplies for your ward including stationery Further information about the Trust and this role can be found on the Job Description and Person Specification document attached. It is important to us that we ensure our recruitment processes are accessible and inclusive to everyone - if as a potential candidate you are concerned a person specification may prevent or restrict your application for employment as a result of unintentional barriers on the grounds of your sex, race, age, sexual orientation, religion/belief or disability please initially contact the Trust's Recruitment team - detailed in the advert. The Trust will seek to resolve this issue wherever possible. We are happy to talk Flexible Working - all requests for flexible working options can be discussed as part of the interview process.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-2080",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-2080",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

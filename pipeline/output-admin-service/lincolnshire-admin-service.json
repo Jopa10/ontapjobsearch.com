@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-administrator-st-paul-s-community-primary-and-nursery-school-spalding",
-    "title": "Administrator",
-    "company": "St Paul's Community Primary and Nursery School, Spalding",
-    "location": "Spalding",
-    "region": "Lincolnshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£14,002.00 - £14,684.00 Annually (Actual) Grade 4 SCP 9-12, Part time - Monday to Friday 8.30am - 1pm",
-    "work_pattern": "",
-    "posted_date": "2026-09-25",
-    "closing_date": "2026-10-11",
-    "closing_datetime": "2026-10-11T23:59:00+01:00",
-    "summary": "Administrator with St Paul's Community Primary and Nursery School, Spalding in Spalding. ['part time']; £14,002.00 - £14,684.00 Annually (Actual) Grade 4 SCP 9-12, Part time - Monday to Friday 8.30am - 1pm.",
-    "description": "St Paul's Community Primary and Nursery School, Spalding is recruiting for this vacancy in Spalding.\n\nThe advertised position is Administrator.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £14,002.00 - £14,684.00 Annually (Actual) Grade 4 SCP 9-12, Part time - Monday to Friday 8.30am - 1pm.\n\nThe stated application deadline is 2026-10-11T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administrator-st-paul-s-community-primary-and-nursery-school-spalding?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "St Paul's Community Primary and Nursery School, Spalding",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-data-exams-officer-thomas-middlecott-academy-boston-lincolnshire",
     "title": "Data & Exams Officer",
     "company": "Thomas Middlecott Academy",
@@ -340,31 +312,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "108070241",
-    "title": "Student Inclusion and Engagement Coordinator",
-    "company": "Inspire Education Group - Agency - Permanent",
-    "location": "Stamford",
-    "region": "Lincolnshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "31493",
-    "salary_max": "31493",
-    "salary_text": "£31493 per year",
-    "posted_date": "",
-    "description": "Student Inclusion and Engagement Coordinator (Group Role)\n\nSalary: £31,493.00 per annum\n\nHours: 37 hours per week - Monday to Friday\n\nContract: FTC (12 months)\n\nContract Type: All year round\n\nLocation: Stamford\n\nClosing Date: 7 th October 2026\n\nEmpower students to shape their college experience, create meaningful change, and build an inclusive community where every voice is heard click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?ju9emE%2fz0VJrlAnPizh8Ld8uL1lOwoDQw",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Inspire Education Group",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "nhs-5633689",
     "source": "NHS Jobs",
     "title": "Apprentice Clerical Assistant",
@@ -380,7 +327,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9814-26-186",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9814-26-186",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5562166",
@@ -398,7 +349,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3629-26-0013",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3629-26-0013",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5653018",
@@ -416,6 +371,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3333-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3333-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

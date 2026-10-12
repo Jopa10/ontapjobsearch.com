@@ -240,24 +240,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5856-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5856-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
-  },
-  {
-    "job_id": "nhs-5641910",
-    "source": "NHS Jobs",
-    "title": "Screening Pathway Administrator",
-    "company": "Public Health Wales",
-    "advertiser_name": "Public Health Wales",
-    "location": "Cardiff, CF11 9LJ",
-    "region": "Wales South - Cardiff & Vale",
-    "salary": "£26813.00 to £27890.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-10-05T12:18:01.378786",
-    "closing_date": "2026-10-11",
-    "description": "Support the delivery of national screening programmes in Wales by providing essential pathway administration functions, including scheduling, processing data, extracting, and analysing information for participant screening records and handle participant communications. Maintain high standards of accuracy and confidentiality when managing participant information and programme data. Collaborate with team members and other health professionals to ensure the smooth operation of screening pathways. As part of the Screening Pathway function the postholder will be asked to work across screening programmes as required Our organisational values of Working Together, with Trust and Respect, to Make a Difference , underpinned by our Being Our Best Framework set out how we are expected to undertake our roles. The Being Our Best colleague group which applies to this role is Colleague Please see included Job description for full information/details on the main duties of the job/role attached. The ability to speak Welsh is essential for this post. Please see included Job description for full information / details on the main duties of the job / role",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9028-26-0197",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9028-26-0197",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

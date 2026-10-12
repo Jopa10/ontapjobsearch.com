@@ -181,6 +181,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "108122126",
+    "title": "Payroll Administrator",
+    "company": "Steelite International - Agency - Permanent",
+    "location": "Staffordshire",
+    "region": "Staffordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "23999",
+    "salary_max": "23999",
+    "salary_text": "£23999 per year",
+    "posted_date": "",
+    "description": "Join Our Team\n\nWe're looking for a Payroll Administrator to join our People & Culture team. This is a key administrative role where you'll help ensure our employees are paid accurately and on time, while providing excellent support and maintaining high standards of payroll compliance and confidentiality.\n\nIf you enjoy working with numbers, have great attention to detail and take pride in delivering ac click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aziU08XVyRGYlE6q3y51IkKmf25sMYGXd",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Steelite International",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "107961085",
     "title": "Learning and Engagement Coordinator",
     "company": "Adullam Homes - Agency - Permanent",
@@ -296,7 +321,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0712-26-0019",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0712-26-0019",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5618829",
@@ -314,6 +343,32 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1393",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9301-26-1393",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5615221",
+    "source": "NHS Jobs",
+    "title": "Medical receptionist",
+    "company": "Glebedale Medical Practice",
+    "advertiser_name": "Glebedale Medical Practice",
+    "location": "Stoke on Trent, ST4 3AQ, Stoke-on-trent, ST3 1LG",
+    "region": "Staffordshire",
+    "salary": "£12.71",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-22T11:44:25.943450996",
+    "closing_date": "2026-10-16",
+    "description": "This is a fast paced role in a constantly busy environment. You will work as part of a large team under the guidance of a Lead Receptionist. Our reception team manage many day to day tasks to give admin support to our clinical team and management. Meeting and greeting of patients who are consulting with members of the Practice team Ensuring a professional and timely service for patients and visitors Ensure that the reception area is tidy and welcoming Appointment system making appointments for patients Generate prescriptions from patients requests in accordance with Practice Protocol. Inputting patients requests for home visits and printing summary Taking queries from patients and ensuring the information in relayed to the relevant team member for any actions Retrieve and re-file records as required. Answering telephones, divert calls and take messages, ensuring the accuracy of detail and prompt appropriate delivery. Taking post photocopying as requested. Preparing Doctors rooms. Receive deliveries into the Practice and deal with appropriately Dealing appropriately with patients enquiries at reception or via the telephone. Maintenance of patients notes including starting a new wallet when required and dividing the contents in chronological order if a new record. Editing data into patients records accurately. Responsibilities The medical receptionist should be able to have: Excellent communication skills are essential in order to communicate with patients and the wider team Understand the importance of confidentiality within the Practice. Understand the use the information technology equipment in the Practice. Liaise with hospitals and other outside organizations in order to provide service for the patients in a professional manner. Work under the guidance of others and also using own initiative.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1195-26-0001",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1195-26-0001",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

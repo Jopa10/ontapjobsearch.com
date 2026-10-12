@@ -175,31 +175,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "108093747",
-    "title": "Raw Materials Coordinator",
-    "company": "Compleat Food Group - Agency - Permanent",
-    "location": "Clitheroe",
-    "region": "Lancashire - East",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "34999",
-    "salary_max": "34999",
-    "salary_text": "£34999 per year",
-    "posted_date": "",
-    "description": "Raw Materials Coordinator\n\nWe're looking for a Raw Materials Coordinator to join our team at our Clitheroe site, playing a key role in ensuring the highest standards of food safety, quality, legality, and customer compliance are maintained.\n\nAbout The Compleat Food Group\n\nAt The Compleat Food Group, we're proud to be a food business built on purpose and passion click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX4t%2bMK8UMcOXib0nFEGDKUgz",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Compleat Food Group",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "nhs-5640157",
     "source": "NHS Jobs",
     "title": "Medical receptionist/Care Navigator",
@@ -215,24 +190,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2060-26-0013",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2060-26-0013",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
-  },
-  {
-    "job_id": "nhs-5629022",
-    "source": "NHS Jobs",
-    "title": "HR Administrator",
-    "company": "East Lancashire Alliance",
-    "advertiser_name": "East Lancashire Alliance",
-    "location": "Burnley, BB12 6HH",
-    "region": "Lancashire - East",
-    "salary": "Negotiable",
-    "employment_type": "Permanent",
-    "posted_date": "2026-09-30T12:55:51.198105795",
-    "closing_date": "2026-10-14",
-    "description": "The East Lancashire Alliance is currently looking to recruit a HR assistant on a permanent basis to help support both the HR department and the PCNs. To provide an efficient and responsive administrative, organisational service to the PCNs who are part of the Alliances recruitment and management service. Alongside this you are also responsible for collating information for the zero hours and locum workforce for various contracts that the Alliance holds. This is a role established to support the HR department and PCNs in carrying out day-to-day activities and to provide an element of cover or source of advice in the event of their absence. Supporting the HR Department. Collating information for personnel files, ensuring all are CQC compliant Coordinating the recruitment process for the PCNs from start to finish Ensuring PCNs are kept up to date on information relating to the ARRS roles and pay scales/reimbursement rates Answering queries from both internal staff and external staff Working autonomously within your capabilities Coordinating interviews and inductions for all new starters Ensuring all IT equipment is tracked and coordinated, ordering ARRS IT kit when required Keeping the Bright HR system up to date with employee details, adding new starters and terminating employees upon official resignation acceptance Calculating the correct leave and salary for new starters based on their agreed hours and working patterns Diary management of probation/appraisal meetings and others when required Sitting on the interview panel for ARRS and PCN to provide support and advice for the PCN Coordinating the internal birthday calendar Liaising with workforce in relation to the individual documents that are required for the various services that the Alliance undertakes Providing cover within the team when necessary Answering the phones and other general administrative duties Coordinating the set up of all new starters IT equipment and smartcards Ensuring that the Rota Master system is up to date with all workforce information Ensuring all jobs to be advertised follow the correct process and are kept up to date on NHS Jobs Providing all required payroll information of new, existing and Zero hours staff to the HR department. Requesting DBS checks through the Alliances provider. Any other ad hoc duties as required by the HR department and management team. For a further information please see the attached job description",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0467-26-0033",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0467-26-0033",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-admin-assistant-castle-east-school",
-    "title": "Admin Assistant",
-    "company": "Castle EAST School",
-    "location": "Bungay",
-    "region": "Suffolk",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£13,488 to 14,366 per annum",
-    "work_pattern": "",
-    "posted_date": "2026-09-18",
-    "closing_date": "2026-10-12",
-    "closing_datetime": "2026-10-12T01:00:00+01:00",
-    "summary": "Admin Assistant with Castle EAST School in Bungay. ['part time']; £13,488 to 14,366 per annum.",
-    "description": "Castle EAST School is recruiting for this vacancy in Bungay.\n\nThe advertised position is Admin Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £13,488 to 14,366 per annum.\n\nThe stated application deadline is 2026-10-12T01:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-castle-east-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Castle EAST School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-administration-assistant-castle-east-school",
     "title": "Administration Assistant",
     "company": "Castle EAST School",
@@ -937,6 +909,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "108118706",
+    "title": "Service Administrator (Machinery Hire)",
+    "company": "Ernest Gordon Recruitment - Agency - Permanent",
+    "location": "Suffolk",
+    "region": "Suffolk",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "34000",
+    "salary_max": "34000",
+    "salary_text": "£34000 per year",
+    "posted_date": "",
+    "description": "Service Administrator (Machinery Hire)\n\n£32,000 - £34,000 + Training + Progression + Free Parking + Company Benefits\n\nBury St Edmunds\n\nAre you an experienced Service Administrator, Parts Administrator or Service Coordinator looking to join a growing engineering business where you'll play a key role supporting engineers, customers and the aftersales operation?\n\nDo you want to join a well-established machin click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakMat1cMay%2fbsK9%2bIjwzQdm%2br",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Ernest Gordon Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "108051759",
     "title": "Material Logistics Coordinator",
     "company": "Scientific Products - Agency - Permanent",
@@ -1050,7 +1047,7 @@
     "salary_text": "",
     "posted_date": "",
     "description": "Help Shape the UK's Energy Future\n\nLTQR Records Coordinator Opportunity with the Civil Works Alliance (CWA), Supporting Sizewell C\n\nAs part of the CWA (Civil Works Alliance), you will support the building of Sizewell C. Sizewell C will be a 3.2-gigawatt power station generating low-carbon electricity for around 6 million homes and will play a key role in our energy future, supplying reliable, clean click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakPa6fg46EMWoz4diEutInSGr",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Yic9job4bS84amdLy8UNuxYTfHyFo9wQc",
     "source": "JobG8",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
@@ -1077,7 +1074,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9179-26-0654",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9179-26-0654",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5645897",
@@ -1095,25 +1096,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9179-26-0649",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9179-26-0649",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
-  },
-  {
-    "job_id": "nhs-5639089",
-    "source": "NHS Jobs",
-    "title": "Receptionist / Administrator",
-    "company": "East Suffolk and North Essex NHS Foundation Trust",
-    "advertiser_name": "East Suffolk and North Essex NHS Foundation Trust",
-    "location": "Ipswich, IP4 5PD",
-    "region": "Suffolk",
-    "salary": "£25272.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-10-05T13:46:57.509161700",
-    "closing_date": "2026-10-11",
-    "description": "Would you like to use your skills to help make a difference to our patients? If so, we are looking for a receptionist/administrator to join our team and work in our oncology and haematology outpatients and Woolverstone dayunit at Ipswich Hospital. You will join an existing, supportive and established team of receptionists/administrators. This post will be worked:Monday - Friday, 9am - 5pm, which may be subject to change upon needs of the service. You will need to be flexible toprovide cover for other team members. You will be the first point of contact for our patients visiting the department therefore you will play an integral part of making a difference to our patients by providing a friendly, welcoming face. Consistent provision of administration support to the team. To ensure high standard of administrative service is consistently delivered by undertaking all required tasks and activities on a daily basis. Ensure queries are dealt with in an appropriate timely manner Managing patient waiting lists to ensure that RTT and Cancer Performance wait times are achieved. Escalate potential breach dates before booking to appropriate person Completion of the department appointment report ensuring that clinic outcomes are acted upon Process oncology and haematology department appointment reports for clinics held elsewhere or remote clinics Providing an efficient and polite service to callers by answering the telephone in a prompt and courteous manner in accordance with trust guidelines Ensure clinic outcomes are acted upon in timely manner Ensure department appointment reports are processed For full details of the responsibilities and duties of this role please see the attached job description.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9432-26-0770",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9432-26-0770",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5605467",
@@ -1131,7 +1118,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0250-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0250-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5653700",
@@ -1149,7 +1140,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2466-26-0014",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2466-26-0014",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5639815",
@@ -1167,6 +1162,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0128-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0128-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

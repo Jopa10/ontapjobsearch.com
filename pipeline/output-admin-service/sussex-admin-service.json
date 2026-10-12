@@ -78,31 +78,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "107985976",
-    "title": "Accommodation & International Admissions Administrative Assistant",
-    "company": "Chichester College Group - Company - Permanent",
-    "location": "Sussex",
-    "region": "Sussex",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "17839",
-    "salary_max": "17839",
-    "salary_text": "£17839 per year",
-    "posted_date": "",
-    "description": "Accommodation & International Admissions Administrative Assistant\nWhen registering to this job board you will be redirected to the online application form. Please ensure that this is completed in full in order that your application can be reviewed.\n\nThe Accommodation & International Admissions Administrative Assistant plays a key role in supporting the College's international students and accommodati click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?MQiKzVwZdh3aWh1e5DPspL%2b2mi9AYrsMu",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Chichester College Group",
-    "advertiser_type": "Company",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "2021499",
     "title": "Payroll administrator",
     "company": "Portfolio Payroll - Agency - Permanent",
@@ -603,6 +578,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107954542",
+    "title": "Horticulture Resource Coordinator",
+    "company": "Brinsbury College - Agency - Permanent",
+    "location": "Sussex",
+    "region": "Sussex",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "21578",
+    "salary_max": "21578",
+    "salary_text": "£21578 per year",
+    "posted_date": "",
+    "description": "Horticulture Resource Coordinator\nWhen registering to this job board you will be redirected to the online application form. Please ensure that this is completed in full in order that your application can be reviewed.\n\nHorticulture Resource Coordinator\n\nBrinsbury College is a unique land-based campus with outstanding facilities, commercial growing spaces and ambitious sustainability goals click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?iZmgAWfngDyeC%2buIioA7oDckov%2fzey6df",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Brinsbury College",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5655598",
     "source": "NHS Jobs",
     "title": "Team Administrator",
@@ -618,7 +618,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9150-26-0592",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9150-26-0592",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5649373",
@@ -636,7 +640,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0214-26-0146",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0214-26-0146",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5642135",
@@ -654,7 +662,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0673",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0673",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5635694",
@@ -672,6 +684,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1026-26-0016",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1026-26-0016",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

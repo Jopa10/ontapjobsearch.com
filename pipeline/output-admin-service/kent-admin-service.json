@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-admin-assistant-gordons-children-s-academy-junior",
-    "title": "Admin Assistant",
-    "company": "Gordons Children's Academy, Junior",
-    "location": "Rochester",
-    "region": "Kent",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "TSAT Pay Group 2 pro rata to £20,179 - £22,532 for hours and weeks stated (£25,077 - £28,001 FTE)",
-    "work_pattern": "",
-    "posted_date": "2026-09-28",
-    "closing_date": "2026-10-11",
-    "closing_datetime": "2026-10-11T23:59:00+01:00",
-    "summary": "Admin Assistant with Gordons Children's Academy, Junior in Rochester. ['part time']; TSAT Pay Group 2 pro rata to £20,179 - £22,532 for hours and weeks stated (£25,077 - £28,001 FTE).",
-    "description": "Gordons Children's Academy, Junior is recruiting for this vacancy in Rochester.\n\nThe advertised position is Admin Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is TSAT Pay Group 2 pro rata to £20,179 - £22,532 for hours and weeks stated (£25,077 - £28,001 FTE).\n\nThe stated application deadline is 2026-10-11T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-gordons-children-s-academy-junior?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Gordons Children's Academy, Junior",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-administrative-assistant-hillview-school-for-girls-tonbridge-kent",
     "title": "Administrative Assistant",
     "company": "Hillview School for Girls",
@@ -756,6 +728,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107958419",
+    "title": "MAF in the Community (MiC) Resourcing Coordinator",
+    "company": "Mission Aviation Fellowship UK - Agency - Permanent",
+    "location": "Kent",
+    "region": "Kent",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "28701",
+    "salary_max": "28701",
+    "salary_text": "£28701 per year",
+    "posted_date": "",
+    "description": "MAF in the Community (MiC) Resourcing Coordinator\nMission Aviation Fellowship (MAF) is seeking an organised and creative MAF in the Community (MiC) Resourcing Coordinator to support our vital resourcing and community fundraising work across the UK.\nThis is a rewarding opportunity for a dedicated administrator to use their skills to equip our staff, volunteers and church representatives, helping them click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakOHHxx22jbsrM0Thx1xfYzrr",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Mission Aviation Fellowship UK",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5653607",
     "source": "NHS Jobs",
     "title": "Administrative Assistant",
@@ -771,7 +768,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0825",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0825",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5653187",
@@ -789,7 +790,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2939",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2939",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5651293",
@@ -807,7 +812,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3323-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3323-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5635869",
@@ -825,7 +834,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0797",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0797",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5612839",
@@ -843,7 +856,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0461-26-0014",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0461-26-0014",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5653560",
@@ -861,7 +878,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2847-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2847-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5651409",
@@ -879,6 +900,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1340-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1340-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

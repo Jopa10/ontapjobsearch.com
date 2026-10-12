@@ -253,6 +253,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "108120982",
+    "title": "HR and Payroll Administrator",
+    "company": "Candidate Source - Agency - Permanent",
+    "location": "Northamptonshire",
+    "region": "Northamptonshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "24000",
+    "salary_max": "24000",
+    "salary_text": "£24000 per year",
+    "posted_date": "",
+    "description": "Getting people paid correctly and keeping everything running smoothly behind the scenes makes a real difference to any business. As an HR and Payroll Administrator, you'll take ownership of weekly and monthly pay runs, support employees across office and site-based teams, and help improve the systems that keep everything organised click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?kjuUUj3TFp6m3yBa9Hr%2fG9dp6qqostd8g",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Candidate Source",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "2080427",
     "title": "Supply Chain Coordinator",
     "company": "SF Partners - Agency - Permanent",
@@ -293,7 +318,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4145-26-0018",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4145-26-0018",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5632294",
@@ -311,6 +340,32 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1556-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1556-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5648061",
+    "source": "NHS Jobs",
+    "title": "Single Point of Access Administrator",
+    "company": "Northamptonshire Healthcare Foundation Trust",
+    "advertiser_name": "Northamptonshire Healthcare Foundation Trust",
+    "location": "Wellingborough, NN8 1LT",
+    "region": "Northamptonshire",
+    "salary": "£25760.00 to £27476.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-07T12:12:10.317913",
+    "closing_date": "2026-10-16",
+    "description": "The Community Nursing Single Point of Access is a contact centre for Community Nursing Services within NHFT including District Nursing, Urgent Response Care, Specialist Nursing and Specialist Palliative Care. The post holder will be working in an integrated skill mix team of administrative staff and will work closely with the Community Nursing teams.This is an important,customer focusedrole involving acting as an interface with patients and their families as well as healthcare professionals and external stakeholders who wish to refer to NHFT Community Nursing Services.This is completed by using SystemOne and referral pathways to record patient's demographics and basic clinical information, as provided by the referrer, you will ensure patients are directed to the mostappropriate healthcareprofessional or end disposition.Referral routes include telephony,emailand electronic health systems such as System One. This role workscollaboratively with colleagues across the service to ensure an excellent level of service is provided to patients. The post holder will be part of the single point of contact for service users and will be required to promptly answer telephone calls, resolve routine and non-routinequeriesand provide a high level of customer service, which will include signposting to relevant servicesprioritisingurgent assessment when required. Handle all incoming calls to the SPOA, receive, record and relay confidential and sensitive information ensuring all information isaccurateand compliant with Information Governance. For further information on the advertised role, please refer to the job description located under the Supporting Documents heading. The full person specification can be accessed under the About You Section of the document.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9270-26-0576",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9270-26-0576",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
