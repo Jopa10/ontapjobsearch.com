@@ -2,15 +2,63 @@
 
 review_date: 2026-10-12
 
-- Open Administrative & Clerical rows reviewed: 2257
-- Auto/remembered selected: 385
-- Selected HC Tier A: 204
+- Open Administrative & Clerical rows reviewed: 2263
+- Auto/remembered selected: 386
+- Selected HC Tier A: 205
 - Selected HC Tier B: 181
-- POSS awaiting decision: 1768
+- POSS awaiting decision: 1772
 - Excluded: 0
-- HARD_PASS: 104
+- HARD_PASS: 105
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | — | Nationally, SE1 8UG | £57528.00 to £64750.00 | Operational Finance Manager
+source_job_id: 5658855
+title: Operational Finance Manager
+employer: NHS England
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9990-26-0767
+factual_fingerprint: b9356f92d0c5c61c08ea4a011dabd1a116bc3f592a27c31e029f754f8e34dd41
+---
+
+---
+action:
+POSS | NHS Jobs | Lincolnshire | Scunthorpe, DN15 7BH | £25760.00 to £27476.00 | Senior Administrator - Patient Services SAT 5 Oral Surgery
+source_job_id: 5658864
+title: Senior Administrator - Patient Services SAT 5 Oral Surgery
+employer: Northern Lincolnshire and Goole NHS Foundation Trust
+region: Lincolnshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9208-26-0611
+factual_fingerprint: 624150a5beb476a9908453e72fa59c74106d6ac6dc595e5f80ebf8f4475c698e
+---
+
+---
+action:
+POSS | NHS Jobs | — | 317 Regent Point, NE3 3HD | £28392.00 to £31157.00 | Project Coordinator
+source_job_id: 5658421
+title: Project Coordinator
+employer: The Newcastle upon Tyne Hospitals NHS Foundation Trust
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9317-26-0847
+factual_fingerprint: 523d440ffcfc73e612ce50ad931d56838e48ebdca798a7bc757a963581e1716c
+---
+
+---
+action:
+POSS | NHS Jobs | Yorkshire - West | Leeds, London, Exeter, LS1 4PL | £99380.00 to £111485.00 | Principal Systems Engineer
+source_job_id: 5658823
+title: Principal Systems Engineer
+employer: NHS England
+region: Yorkshire - West
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M9990-26-0766
+factual_fingerprint: 0c7c2c07cc80d98a2f286f3c853a6162a5865391b5c481ab642e0663bc92a3ee
+---
 
 ---
 action:
