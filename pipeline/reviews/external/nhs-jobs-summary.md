@@ -2,15 +2,87 @@
 
 review_date: 2026-10-12
 
-- Open Administrative & Clerical rows reviewed: 2263
+- Open Administrative & Clerical rows reviewed: 2267
 - Auto/remembered selected: 386
-- Selected HC Tier A: 205
-- Selected HC Tier B: 181
-- POSS awaiting decision: 1772
+- Selected HC Tier A: 204
+- Selected HC Tier B: 182
+- POSS awaiting decision: 1776
 - Excluded: 0
 - HARD_PASS: 105
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Kent | Maidstone, ME14 5NZ | £28392.00 to £31157.00 | Administrative Coordinator
+source_job_id: 5658972
+title: Administrative Coordinator
+employer: Kent and Medway Mental Health NHS Trust
+region: Kent
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0832
+factual_fingerprint: d0700950e41aa344185e42fa273894466a99b5f21ae375c3f97803d5557fdc71
+---
+
+---
+action:
+POSS | NHS Jobs | London | London, E14 5HJ | £121528.00 to £138529.00 | Clinical Director of Primary Care
+source_job_id: 5658949
+title: Clinical Director of Primary Care
+employer: NHS North East London
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9161-26-0012
+factual_fingerprint: 81577a2d8fd0aa6034420be43f1efa3631a8b4fcb1215e8628cc616a05352647
+---
+
+---
+action:
+POSS | NHS Jobs | West Midlands - Birmingham & Solihull | Birmingham, B37 7TP | £28000.00 to £30000.00 | Finance & Operations Accountant
+source_job_id: 5658874
+title: Finance & Operations Accountant
+employer: Auxilio Care Limited
+region: West Midlands - Birmingham & Solihull
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/L0127-26-0001
+factual_fingerprint: e160768eecc45a544196fc3be2f86a6c3a50af3db18abfad781fdc3ab8713790
+---
+
+---
+action:
+POSS | NHS Jobs | Suffolk | Haverhill, CB9 8LU | £55690.00 to £62682.00 | Practice Manager (Multi-Site)
+source_job_id: 5648569
+title: Practice Manager (Multi-Site)
+employer: Primary Care Careers
+region: Suffolk
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0954
+factual_fingerprint: 88682f296cff8fbcf715a3e7eb95ef62dbeb61c771b599de45f22f9bcc2bd61b
+---
+
+---
+action:
+POSS | NHS Jobs | — | Walton, L9 2AF | £32073.00 to £39043.00 | Employment Specialist
+source_job_id: 5658888
+title: Employment Specialist
+employer: Mersey Care NHS Foundation Trust
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9350-26-0967
+factual_fingerprint: 354f61acd73bd8b603792d7a287d257f8a2915f283986fe021f6c630d5059a03
+---
+
+---
+action:
+POSS | NHS Jobs | Worcestershire | Worcester, WR5 1JR | £39959.00 to £48117.00 | Deputy People Partner
+source_job_id: 5658904
+title: Deputy People Partner
+employer: Herefordshire and Worcestershire Health and Care NHS Trust
+region: Worcestershire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9798-26-0101
+factual_fingerprint: 2f03a90d64ab6085b825290e4dd0c63fd80080d97440454815697bc6a8dd273d
+---
 
 ---
 action:
@@ -1557,7 +1629,7 @@ employer: The Royal Wolverhampton NHS Trust
 region: West Midlands - Birmingham & Solihull
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9225-26-0736
-factual_fingerprint: f972fbec4fae3d4c821788e9ac6ee5438820997af9770ae7cbcd788f42da468b
+factual_fingerprint: 5fddc4ab978f1693e0ea0af45738d631507e25c30f2ceb2604dce73d2d1bc619
 ---
 
 ---
@@ -3266,18 +3338,6 @@ factual_fingerprint: 8a66aea29ae24e2c1f139c9ff097a27c26724323b52f5d4de8f1747c5d5
 
 ---
 action:
-POSS | NHS Jobs | Devon | Plymouth, PL6 8DH | £66582.00 to £77368.00 | Head of Employee Relations
-source_job_id: 5655319
-title: Head of Employee Relations
-employer: University Hospitals Plymouth NHS Trust
-region: Devon
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9216-26-1550
-factual_fingerprint: e3c01b32d02434a89aed2d8a7e864fb56b658388c9f8d1e638d0a64df106c31f
----
-
----
-action:
 POSS | NHS Jobs | London | Westminster, London, SW1P 3HZ, Leeds, LS2 7JU | £26043.00 | Member Insights and Operations Officer
 source_job_id: 5655297
 title: Member Insights and Operations Officer
@@ -4150,18 +4210,6 @@ region: Gloucestershire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0855
 factual_fingerprint: 3eac617029385ea030fad426372330f9fd89786a464453fda12ed1afebbe0509
----
-
----
-action:
-POSS | NHS Jobs | Worcestershire | Worcester, WR5 1DD, KIDDERMINSTER, DY11 6RJ | £25760.00 to £27476.00 | Urogynaecology Booking Coordinator Obs&Gynae
-source_job_id: 5654221
-title: Urogynaecology Booking Coordinator Obs&Gynae
-employer: Worcestershire Acute Hospitals NHS Trust
-region: Worcestershire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9365-26-0704-2
-factual_fingerprint: bfa86f9a5db150b8450efb1f13f1344b30690ba3670fe747e11df38fcd987984
 ---
 
 ---

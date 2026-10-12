@@ -453,31 +453,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "2088652",
-    "title": "Supply Chain Planner",
-    "company": "Reed - Agency - Permanent",
-    "location": "Dorset",
-    "region": "Dorset",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Supply Chain Planner\n\nWe are currently partnering with a fast-paced and growing organisation to recruit a Supply Chain planner. This role will take ownership of the end-to-end fulfilment process across a designated supplier category, ensuring supplier data is accurately maintained and operational processes run smoothly across internal systems.\n\nKey Responsibilities\n- Take full ownership of fulfilment activities for an assigned supplier category, ensuring accuracy and efficiency across all processes\n- Provide key documentation and information to support inbound purchase orders, including:\n- Import clearance coordination\n- Management of manufacturing order tolerances\n- Supporting supplier payments in line with agreed terms\n- Plan, schedule and coordinate inbound container shipments with suppliers and 3 PL warehouse partners\n- Forecast replenishment requirements for 3 PL locations based on historical demand trends and upcoming business activity\n- Generate reporting and trend analysis to support inventory planning and operational decision-making\n- Raise and manage purchase orders in line with departmental targets and system-driven requirements\n- Ensure timely supplier acknowledgement of purchase orders, challenging discrepancies and escalating issues where required\n- Maintain accurate and up-to-date records across business systems, communicating any changes to relevant stakeholders\n- Monitor purchase order progress and proactively expedite deliveries to maintain high service levels\n- Manage supplier non-conformance reports (NCRs), ensuring issues are recorded, investigated and resolved promptly\n- Track and report on supplier and product performance, including ensuring all applicable rebates are captured\n- Prepare data, insights and reports to support supplier reviews and commercial negotiations\n- Support wider team activities and undertake additional duties as required\n\nRequired Background & Experience\n- Previous experience within supply chain, logistics or warehouse/distribution environments\n- Experience working with multiple systems, ideally including warehouse management and ERP systems\n- Strong background in data management, reporting and analysis\n- Experience managing relationships with multiple suppliers and third-party logistics providers\n\nSkills & Attributes\n- Strong analytical capability, with experience in forecasting and data-driven decision making\n- Advanced Excel skills, with the ability to manipulate and manage complex data sets\n- Highly detail-oriented, with a focus on accuracy across supply chain processes\n- Excellent communication skills, with the ability to engage effectively across suppliers and internal stakeholders\n- Process-driven and disciplined approach to work\n- Highly organised, with the ability to manage competing priorities and meet deadlines\n- Genuine interest in product, supplier performance and supply chain operations\n\nFor more information call the Southampton Branch or if you fit the above Apply Now.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?eq2PR%2bX5ctxWY4yIxZ9OiLen5u%2bRLTV%2bp",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Reed",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "nhs-5655572",
     "source": "NHS Jobs",
     "title": "Administrator",
@@ -493,7 +468,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0014-26-1920",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0014-26-1920",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5645280",
@@ -511,7 +490,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-1060",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-1060",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5632763",
@@ -529,7 +512,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-1039",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-1039",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5596490",
@@ -547,6 +534,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0063-26-0018",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0063-26-0018",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

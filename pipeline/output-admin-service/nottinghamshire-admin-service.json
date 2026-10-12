@@ -209,31 +209,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "2084959",
-    "title": "Inventory Coordinator - SAP S/4HANA",
-    "company": "Rise Technical Recruitment Limited - Agency - Permanent",
-    "location": "Nottinghamshire",
-    "region": "Nottinghamshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Inventory Coordinator - SAP S/4 HANA\n\nNottingham £28,000 - £30,000 Pro Rata 3 Month Temporary Contract Immediate Start\n\nImmediate requirement for an experienced Inventory Coordinator to support inventory and logistics operations for a busy engineering business in Nottingham.\n\nThis is a hands-on role focused on SAP S/4 HANA inventory administration, stock control, reporting and data accuracy, working across multiple departments to ensure inventory is available, accurate and managed efficiently.\n\nThe Role\n- Manage inventory levels, replenishment and stock data across multiple locations\n- Complete SAP S/4 HANA ERP administration, including inventory transactions, item master data, BOMs and production orders\n- Produce inventory and shipping reports, analyse stock data and support invoicing processes\n- Investigate and resolve inventory, shipping and invoice queries with internal teams\n- Support stock counts, inventory checks and continuous improvement across systems and processes\n\nThe Person\n- Previous SAP S/4 HANA Inventory experience is essential\n- Experience in inventory, stock control, logistics or supply chain administration\n- Strong Microsoft Excel and general IT skills\n- Confident communicating with multiple departments and stakeholders\n- Full UK Driving Licence\n- Available for an immediate start\n\nReference Number: BBBH280613\n\nTo apply for this role or to be considered for further roles, please click \"Apply Now\" or contact Ed Douglass at Rise Technical Recruitment.\n\nRise Technical Recruitment Ltd acts as an employment agency for permanent roles and an employment business for temporary roles.\n\nThe salary advertised is the bracket available for this position. The actual salary paid will be dependent on your level of experience, qualifications and skill set.\n\nWe are an equal opportunities employer and welcome applications from all suitable candidates.\n\nKey Locations: Nottingham, Colwick, Beeston, Carlton, Arnold, Hucknall, West Bridgford, Stapleford, Long Eaton, Ilkeston, Newark-on-Trent, Mansfield\n\nRise Technical Recruitment Ltd acts an employment agency for permanent roles and an employment business for temporary roles.\n\nThe salary advertised is the bracket available for this position. The actual salary paid will be dependent on your level of experience, qualifications and skill set and will be decided by our client, the employer. Rise are not responsible or liable for any hiring decisions made by the end client.\n\nWe are an equal opportunities company and welcome applications from all suitable candidates.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Yic9job4bS8AW2x0DS2mG%2fzmr2aAtgSDc",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Rise Technical Recruitment Limited",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "2092298",
     "title": "Repair Coordinator",
     "company": "MPJ Recruitment Ltd - Agency - Permanent",
@@ -274,7 +249,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9186-26-0732",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9186-26-0732",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5652756",
@@ -292,6 +271,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9335-26-0140",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9335-26-0140",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
