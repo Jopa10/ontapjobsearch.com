@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-10-11
-review_fingerprint: 925bcfcd755e2bc43637285a31947d29f87d05b34bf72b64400a7d371e967757
+review_date: 2026-10-12
+review_fingerprint: 8b2f8bd614d9da734e0b526915008f466419c54b326aa4d6c2f4a94a7c56e815
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,9 +10,9 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-10-11T14:18:06+01:00
+Run generated: 2026-10-12T16:55:22+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 293
+JobG8 comparison rows: 290
 Approved NEJobs comparison rows: 0
 
 ## Funnel
@@ -27,10 +27,10 @@ Approved NEJobs comparison rows: 0
 - Retained target candidates: 13
 
 ## Outcomes
-- HC: 1
+- HC: 2
 - POSS: 9
-- HARD_PASS: 3
-- Final selected after remembered/manual actions: 1
+- HARD_PASS: 2
+- Final selected after remembered/manual actions: 2
 - Final POSS awaiting decision: 9
 - Manually excluded: 0
 ## Detail diagnostics
@@ -51,8 +51,34 @@ vacancy_fingerprint: 6bde09698b989e1267db4b77ce6013d78818bfcbc18d48a2533b8d50c9d
 source_job_id: 173521
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173521
 ---
+---
+action:
+SELECTED | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £25,880 Per Annum | Contact Centre Adviser - Consumer
+employer: Citizens Advice Gateshead
+closing_date: Friday, October 23, 2026 - 09:00
+geography: CONFIRMED — location: approved location fallback
+reason: clear transferable title: contact centre
+source: VONNE
+tracking_key: vonne-173530
+vacancy_fingerprint: 48a133cf6dd62ccaf528f1e4c9ae33813dd3f80af77a8f77feab91e62a7f965a
+source_job_id: 173530
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173530
+---
 ## POSS — choose SELECT or EXCLUDE
 
+---
+action:
+POSS | North East | Hybrid | £ | Are you an excellent communicator with a passion for helping others? We have the perfect opportunity !
+employer: Social Welfare Adviser
+closing_date: 23 October 2026
+geography: GENERIC_REVIEW — generic VONNE location requires manual North East check
+reason: North East geography is generic or derived and requires review
+source: VONNE
+tracking_key: vonne-173531
+vacancy_fingerprint: b07b5d977c969bd85ed2e92be19e6bd5627a46bb321866006adf1e8eb17ea0a0
+source_job_id: 173531
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173531
+---
 ---
 action:
 POSS | North East | Hybrid | £51,928 Per Annum | Could you lead the next chapter of Community Action Northumberland?
@@ -65,19 +91,6 @@ tracking_key: vonne-173526
 vacancy_fingerprint: 4fcc153ec86848d32ff2901cf66ca179190c941e10f722c0db25bdaf508ae482
 source_job_id: 173526
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173526
----
----
-action:
-POSS | North East | Regionwide | £29,542 to 30,515 Pro Rata | Going Green Together Project Officer (Maternity Cover)
-employer: VONNE
-closing_date: Monday, October 12, 2026 - 11:59
-geography: GENERIC_REVIEW — generic VONNE location requires manual North East check
-reason: North East geography is generic or derived and requires review
-source: VONNE
-tracking_key: vonne-173468
-vacancy_fingerprint: 473cc7b424b8ffe7e0574bf796b773b5212da99c870656e1ac126920e92d4405
-source_job_id: 173468
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173468
 ---
 ---
 action:
@@ -178,7 +191,6 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173501
 
 - [Children and Young People’s Mental Health](https://www.vonne.org.uk/vonne-jobs-details?cid=173496) — insufficient service-admin evidence.
 - [Interim Chief Executive Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173518) — out-of-scope VONNE occupation.
-- [Youth Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173495) — out-of-scope VONNE occupation.
 
 ## Safety boundary
 - The script writes CSV and Markdown review outputs only.
