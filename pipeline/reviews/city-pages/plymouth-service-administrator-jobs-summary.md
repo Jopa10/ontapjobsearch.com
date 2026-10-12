@@ -4,7 +4,7 @@
 - Live route: `/plymouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 4
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 19
+- automatic include: 4
+- automatic review: 13
 - automatic exclude: 0
-- effective include: 6
-- effective review: 19
+- effective include: 4
+- effective review: 13
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (4)
 
 ---
 action: 
@@ -64,30 +64,6 @@ reason: Exact approved Plymouth workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Post 16 Administrator and Study Supervisor
-company: Hele's School
-location: Plymouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-post-16-administrator-and-study-supervisor
-reason: Exact approved Plymouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: School Office Administrator
-company: Beechwood Primary Academy
-location: Plymouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-office-administrator-beechwood-primary-academy
-reason: Exact approved Plymouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Student Funding Administrator
 company: City College Plymouth
 location: Plymouth
@@ -96,19 +72,7 @@ job_id: teaching-vacancies-student-funding-administrator
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (19)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin Assistant
-company: Switch - Agency - Permanent
-location: Exeter
-source: JobG8
-job_id: jobg8-107719278
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
+## REVIEW (13)
 
 ---
 action: 
@@ -155,30 +119,6 @@ company: Isca Academy
 location: Exeter
 source: Teaching Vacancies
 job_id: teaching-vacancies-attendance-officer-4a095b88-91b4-4569-8b60-0007e7f44a59
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: College Receptionist
-company: Ivybridge Community College
-location: Ivybridge
-source: Teaching Vacancies
-job_id: teaching-vacancies-college-receptionist-ivybridge-community-college-ivybridge-devon
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Exams and Admissions Officer
-company: Brixham College
-location: Brixham
-source: Teaching Vacancies
-job_id: teaching-vacancies-exams-and-admissions-officer
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -246,35 +186,11 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Reception/Administrator
-company: Litchdon Medical Centre
-location: Barnstaple, EX32 9LL
-source: NHS Jobs
-job_id: nhs-5616652
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Receptionist
 company: Elysium Healthcare
 location: Exeter, EX1 3PZ
 source: NHS Jobs
 job_id: nhs-5654609
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist/Administrator
-company: Croft Hall Medical Practice
-location: Torquay, TQ2 5UA
-source: NHS Jobs
-job_id: nhs-5552054
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -299,18 +215,6 @@ company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-2055612
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: School Hub Administrator
-company: Cornerstone Academy Trust
-location: Exeter
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-hub-administrator
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

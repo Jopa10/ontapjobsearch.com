@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 26
+- automatic review: 27
 - automatic exclude: 0
 - effective include: 3
-- effective review: 26
+- effective review: 27
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: jobg8-2074203
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (26)
+## REVIEW (27)
 
 ---
 action: 
@@ -191,6 +191,18 @@ company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
 location: Rugby
 source: JobG8
 job_id: jobg8-2093212
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: GP Surgery Receptionist
+company: Station Street Surgery
+location: Nuneaton, CV11 6HH
+source: NHS Jobs
+job_id: nhs-5656280
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

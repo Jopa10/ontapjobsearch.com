@@ -78,18 +78,6 @@ reason: Approved Brighton & Hove catchment.
 action: 
 decision: review
 automatic_decision: review
-title: Accommodation & International Admissions Administrative Assistant
-company: Chichester College Group - Company - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-107985976
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Accounts Assistant
 company: Lloyd Recruitment Services Ltd - Agency - Permanent
 location: Sussex
@@ -275,6 +263,18 @@ company: Henley Chase Limited - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2089635
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Horticulture Resource Coordinator
+company: Brinsbury College - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-107954542
 reason: Broad location; review before city inclusion.
 ---
 

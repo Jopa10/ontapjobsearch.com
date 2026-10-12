@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 6
 - automatic review: 10
-- automatic exclude: 10
+- automatic exclude: 9
 - effective include: 6
 - effective review: 10
-- effective exclude: 10
+- effective exclude: 9
 
 ## INCLUDE (6)
 
@@ -218,7 +218,7 @@ job_id: jobg8-108059238
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (10)
+## EXCLUDE (9)
 
 ---
 action: 
@@ -229,18 +229,6 @@ company: Gladstone Road Primary School
 location: Scarborough
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-gladstone-road-primary-school-scarborough-north-yorkshire
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administration assistant
-company: Posterngate Surgery
-location: Selby, YO8 4QH
-source: NHS Jobs
-job_id: nhs-5635889
 reason: Separate employment market.
 ---
 

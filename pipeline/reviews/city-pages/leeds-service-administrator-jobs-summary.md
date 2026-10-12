@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 18
-- automatic review: 20
-- automatic exclude: 13
+- automatic review: 19
+- automatic exclude: 10
 - effective include: 18
-- effective review: 20
-- effective exclude: 13
+- effective review: 19
+- effective exclude: 10
 
 ## INCLUDE (18)
 
@@ -240,7 +240,7 @@ job_id: jobg8-2028584
 reason: Approved Leeds catchment.
 ---
 
-## REVIEW (20)
+## REVIEW (19)
 
 ---
 action: 
@@ -470,31 +470,7 @@ job_id: jobg8-2078500
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Temp to Perm Purchase Ledger
-company: IPS Group - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-108121674
-reason: No approved Leeds catchment rule matched; local review required.
----
-
-## EXCLUDE (13)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administration Assistant
-company: Woodkirk Academy
-location: Wakefield
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-993064c2-8d4e-49cd-a144-d8b71360ac51
-reason: Separate employment market.
----
+## EXCLUDE (10)
 
 ---
 action: 
@@ -505,30 +481,6 @@ company: Reed - Agency - Permanent
 location: Halifax
 source: JobG8
 job_id: jobg8-2026795
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Deputy PA / Receptionist
-company: Bradford Diocesan Academies Trust
-location: Bradford
-source: Teaching Vacancies
-job_id: teaching-vacancies-deputy-pa-receptionist-bradford-diocesan-academies-trust-bradford-not-recorded
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Exams Officer
-company: Bradford Forster Academy
-location: Bradford
-source: Teaching Vacancies
-job_id: teaching-vacancies-exams-officer-bradford-forster-academy
 reason: Separate employment market.
 ---
 

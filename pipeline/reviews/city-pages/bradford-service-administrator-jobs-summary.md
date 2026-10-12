@@ -4,7 +4,7 @@
 - Live route: `/bradford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,38 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 20
-- automatic exclude: 28
-- effective include: 3
-- effective review: 20
-- effective exclude: 28
+- automatic include: 1
+- automatic review: 19
+- automatic exclude: 27
+- effective include: 1
+- effective review: 19
+- effective exclude: 27
 
-## INCLUDE (3)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Deputy PA / Receptionist
-company: Bradford Diocesan Academies Trust
-location: Bradford
-source: Teaching Vacancies
-job_id: teaching-vacancies-deputy-pa-receptionist-bradford-diocesan-academies-trust-bradford-not-recorded
-reason: Approved Bradford catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Exams Officer
-company: Bradford Forster Academy
-location: Bradford
-source: Teaching Vacancies
-job_id: teaching-vacancies-exams-officer-bradford-forster-academy
-reason: Approved Bradford catchment.
----
+## INCLUDE (1)
 
 ---
 action: 
@@ -60,7 +36,7 @@ job_id: jobg8-2062847
 reason: Approved Bradford catchment.
 ---
 
-## REVIEW (20)
+## REVIEW (19)
 
 ---
 action: 
@@ -290,31 +266,7 @@ job_id: jobg8-2078500
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Temp to Perm Purchase Ledger
-company: IPS Group - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-108121674
-reason: No approved Bradford catchment rule matched; local review required.
----
-
-## EXCLUDE (28)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administration Assistant
-company: Woodkirk Academy
-location: Wakefield
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-993064c2-8d4e-49cd-a144-d8b71360ac51
-reason: Separate employment market.
----
+## EXCLUDE (27)
 
 ---
 action: 

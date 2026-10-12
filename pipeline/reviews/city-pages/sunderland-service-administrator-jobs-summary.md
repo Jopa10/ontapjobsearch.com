@@ -4,7 +4,7 @@
 - Live route: `/sunderland/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 33
+- automatic include: 1
+- automatic review: 31
 - automatic exclude: 0
-- effective include: 2
-- effective review: 33
+- effective include: 1
+- effective review: 31
 - effective exclude: 0
 
-## INCLUDE (2)
+## INCLUDE (1)
 
 ---
 action: 
@@ -36,19 +36,7 @@ job_id: jobg8-2042404
 reason: Exact approved Sunderland workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant
-company: St Anthony's Girls' Catholic Academy
-location: Sunderland
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-st-anthony-s-girls-catholic-academy
-reason: Exact approved Sunderland workplace.
----
-
-## REVIEW (33)
+## REVIEW (31)
 
 ---
 action: 
@@ -59,6 +47,18 @@ company: Austin Rose - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-2039768
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: KCR Solutions - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2017987
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -107,18 +107,6 @@ company: MTrec Recruitment - Agency - Permanent
 location: Northumberland
 source: JobG8
 job_id: jobg8-2075393
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin/receptionist
-company: Stephenson Park Health Group
-location: Newcastle Upon Tyne, NE12 9BQ
-source: NHS Jobs
-job_id: nhs-5628810
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -203,18 +191,6 @@ company: Tenth Revolution Group - Agency - Permanent
 location: Newcastle Upon Tyne
 source: JobG8
 job_id: jobg8-2063397
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Data Management Administrator (2025/HM084)
-company: East Durham College
-location: Peterlee
-source: Teaching Vacancies
-job_id: teaching-vacancies-data-management-administrator-2025-hm084
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -407,18 +383,6 @@ company: Riverside Group - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-2066124
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: School Administrator
-company: Berwick St Mary's Church of England Primary School
-location: Berwick-upon-Tweed
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-administrator-4b89961d-cc62-4cfa-9732-a8929179b607
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 

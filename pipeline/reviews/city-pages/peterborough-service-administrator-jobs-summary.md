@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 5
+- automatic include: 8
+- automatic review: 4
 - automatic exclude: 10
-- effective include: 9
-- effective review: 5
+- effective include: 8
+- effective review: 4
 - effective exclude: 10
 
-## INCLUDE (9)
+## INCLUDE (8)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Cambridgeshire and Peterborough NHS Foundation Trust
 location: Peterborough, PE78FZ
 source: NHS Jobs
 job_id: nhs-5647546
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: HR Assistant
-company: Inspire Education Group - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-108123858
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -132,7 +120,7 @@ job_id: jobg8-23643_225691674
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (5)
+## REVIEW (4)
 
 ---
 action: 
@@ -155,18 +143,6 @@ company: Reed - Agency - Permanent
 location: St. Neots
 source: JobG8
 job_id: jobg8-2070623
-reason: No approved Peterborough catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Exams Officer
-company: Ernulf Academy
-location: St. Neots
-source: Teaching Vacancies
-job_id: teaching-vacancies-exams-officer-ernulf-academy-st-neots
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 

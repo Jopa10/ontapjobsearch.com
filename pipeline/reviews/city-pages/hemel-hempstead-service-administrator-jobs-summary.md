@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 52
+- automatic review: 48
 - automatic exclude: 0
 - effective include: 2
-- effective review: 52
+- effective review: 48
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: jobg8-2051739
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
-## REVIEW (52)
+## REVIEW (48)
 
 ---
 action: 
@@ -83,18 +83,6 @@ company: Central London Community Health Trust
 location: Watford, WD25 9XX
 source: NHS Jobs
 job_id: nhs-5646824
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Ludwick Nursery School
-location: Welwyn Garden City
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-ludwick-nursery-school
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -155,18 +143,6 @@ company: Success Talent - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-2050322
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Company Secretary
-company: Premier Foods - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-108090697
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -306,6 +282,18 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
+title: HR Service Coordinator
+company: VolkerWessels Uk - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-108117718
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Investment Administrator
 company: Claims Recruitment Services - Agency - Permanent
 location: Hertfordshire
@@ -390,35 +378,11 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Mental Health Support Coordinator (Children and Young People) - Herts Haven Cafe
-company: Hertfordshire Mind - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-2106847
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Office Administrator
 company: Forres Primary Academy
 location: Hoddesdon
 source: Teaching Vacancies
 job_id: teaching-vacancies-office-administrator-forres-primary-academy
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Office Administrator
-company: Petersfield CofE Aided Primary School
-location: Royston
-source: Teaching Vacancies
-job_id: teaching-vacancies-office-administrator-petersfield-cofe-aided-primary-school
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -647,18 +611,6 @@ company: Robert Walters - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-2082484
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Team Administrator
-company: Hertfordshire Partnership University NHS Foundation Trust
-location: Stevenage, SG1 4AB
-source: NHS Jobs
-job_id: nhs-5637279
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 28
-- automatic exclude: 16
+- automatic review: 29
+- automatic exclude: 13
 - effective include: 6
-- effective review: 28
-- effective exclude: 16
+- effective review: 29
+- effective exclude: 13
 
 ## INCLUDE (6)
 
@@ -96,7 +96,7 @@ job_id: jobg8-2066863
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (28)
+## REVIEW (29)
 
 ---
 action: 
@@ -426,6 +426,18 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist
+company: Tadley Medical Partnership
+location: Tadley, RG26 4ER, Tadley , RG26 4AN
+source: NHS Jobs
+job_id: nhs-5656044
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Service Receptionist
 company: Silcom Recruitment Limited - Agency - Permanent
 location: Petersfield
@@ -434,7 +446,7 @@ job_id: jobg8-2046029
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
-## EXCLUDE (16)
+## EXCLUDE (13)
 
 ---
 action: 
@@ -548,18 +560,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Insurance Account Executive
-company: Aspire Jobs Limited - Agency - Permanent
-location: Fareham
-source: JobG8
-job_id: jobg8-107193862
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: IT Service Desk Analyst (1st line)
 company: Randstad Delivery (GBS) - Agency - Permanent
 location: Portsmouth
@@ -596,34 +596,10 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist (Maternity Cover)
-company: The Blue Coat School Basingstoke
-location: Basingstoke
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-maternity-cover-the-blue-coat-school-basingstoke
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Receptionist - Kingston Crescent Surgery
 company: Portsdown Group Practice
 location: Portsmouth, PO2 8AL
 source: NHS Jobs
 job_id: nhs-5627419
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Ward Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Fareham, PO17 5NA
-source: NHS Jobs
-job_id: nhs-5626622
 reason: Separate employment market.
 ---

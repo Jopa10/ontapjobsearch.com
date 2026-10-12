@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 12
+- automatic review: 15
 - automatic exclude: 0
 - effective include: 2
-- effective review: 12
+- effective review: 15
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: teaching-vacancies-examinations-officer-blythe-bridge-high-school
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (12)
+## REVIEW (15)
 
 ---
 action: 
@@ -138,6 +138,30 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
+title: Medical receptionist
+company: Glebedale Medical Practice
+location: Stoke on Trent, ST4 3AQ, Stoke-on-trent, ST3 1LG
+source: NHS Jobs
+job_id: nhs-5615221
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: Steelite International - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-108122126
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Administrator
 company: XPERT RECRUITMENT SOLUTIONS LIMITED - Agency - Permanent
 location: Staffordshire
@@ -155,6 +179,18 @@ company: Horsefair Practice Group
 location: Rugeley, WS15 2LB, Rugeley, WS15 2FH, Rugeley, WS15 4UZ
 source: NHS Jobs
 job_id: nhs-5652964
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Controller - Stoke-on-Trent - &;32,000 + Hybrid Working
+company: Ashdown Group - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-2063096
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

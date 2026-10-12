@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 37
+- automatic review: 36
 - automatic exclude: 0
 - effective include: 2
-- effective review: 37
+- effective review: 36
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: jobg8-2064929
 reason: Exact approved Farnham workplace.
 ---
 
-## REVIEW (37)
+## REVIEW (36)
 
 ---
 action: 
@@ -155,6 +155,18 @@ company: Right Now Group - Agency - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-2092078
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Development Executive
+company: Industrial Connected Talent - Agency - Permanent
+location: Woking
+source: JobG8
+job_id: jobg8-108051896
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -275,18 +287,6 @@ company: Reed - Agency - Permanent
 location: Leatherhead
 source: JobG8
 job_id: jobg8-2064951
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing and Communications Manager
-company: Rainbow Trust Children's Charity - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-2106865
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -431,18 +431,6 @@ company: Reed - Agency - Permanent
 location: Cranleigh
 source: JobG8
 job_id: jobg8-2075805
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: SEN Administrator
-company: St Dominic's School
-location: Godalming
-source: Teaching Vacancies
-job_id: teaching-vacancies-sen-administrator-a73e2173-5c60-48da-8b9b-ca0b2be7c7a6
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 

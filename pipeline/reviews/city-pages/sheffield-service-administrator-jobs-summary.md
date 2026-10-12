@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
+- automatic include: 8
 - automatic review: 1
-- automatic exclude: 14
-- effective include: 11
+- automatic exclude: 13
+- effective include: 8
 - effective review: 1
-- effective exclude: 14
+- effective exclude: 13
 
-## INCLUDE (11)
+## INCLUDE (8)
 
 ---
 action: 
@@ -76,35 +76,11 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Clerical Officer/Receptionist
-company: Sheffield Teaching Hospitals NHS Foundation Trust
-location: Sheffield, S5 7AU
-source: NHS Jobs
-job_id: nhs-5634291
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Credit Controller
 company: Sharp Consultancy - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2043404
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Income and Engagement Operations Administrator
-company: Arthritis UK - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2099961
 reason: Approved Sheffield catchment.
 ---
 
@@ -136,18 +112,6 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Stocksbridge Junior School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-stocksbridge-junior-school
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: SCITT Administrator
 company: Chorus Education Trust
 location: Sheffield
@@ -170,19 +134,7 @@ job_id: jobg8-2067582
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (14)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Admin Assistant
-company: Owston Park Primary Academy
-location: Doncaster
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-assistant-owston-park-primary-academy
-reason: Separate employment market.
----
+## EXCLUDE (13)
 
 ---
 action: 

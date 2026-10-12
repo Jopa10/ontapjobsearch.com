@@ -4,7 +4,7 @@
 - Live route: `/doncaster/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
+- automatic include: 9
 - automatic review: 1
-- automatic exclude: 15
-- effective include: 10
+- automatic exclude: 12
+- effective include: 9
 - effective review: 1
-- effective exclude: 15
+- effective exclude: 12
 
-## INCLUDE (10)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Admin Assistant
-company: Owston Park Primary Academy
-location: Doncaster
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-assistant-owston-park-primary-academy
-reason: Approved Doncaster catchment.
----
+## INCLUDE (9)
 
 ---
 action: 
@@ -158,7 +146,7 @@ job_id: jobg8-2067582
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (15)
+## EXCLUDE (12)
 
 ---
 action: 
@@ -236,35 +224,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Clerical Officer/Receptionist
-company: Sheffield Teaching Hospitals NHS Foundation Trust
-location: Sheffield, S5 7AU
-source: NHS Jobs
-job_id: nhs-5634291
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Credit Controller
 company: Sharp Consultancy - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2043404
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Income and Engagement Operations Administrator
-company: Arthritis UK - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2099961
 reason: Separate employment market.
 ---
 
@@ -313,18 +277,6 @@ company: ID Medical
 location: Barnsley, s752ep
 source: NHS Jobs
 job_id: nhs-5641970
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Stocksbridge Junior School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-stocksbridge-junior-school
 reason: Separate employment market.
 ---
 

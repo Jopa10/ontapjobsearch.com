@@ -4,7 +4,7 @@
 - Live route: `/basingstoke/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 48
+- automatic include: 1
+- automatic review: 47
 - automatic exclude: 0
-- effective include: 2
-- effective review: 48
+- effective include: 1
+- effective review: 47
 - effective exclude: 0
 
-## INCLUDE (2)
+## INCLUDE (1)
 
 ---
 action: 
@@ -36,19 +36,7 @@ job_id: jobg8-2076286
 reason: Exact approved Basingstoke workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist (Maternity Cover)
-company: The Blue Coat School Basingstoke
-location: Basingstoke
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-maternity-cover-the-blue-coat-school-basingstoke
-reason: Exact approved Basingstoke workplace.
----
-
-## REVIEW (48)
+## REVIEW (47)
 
 ---
 action: 
@@ -402,18 +390,6 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Insurance Account Executive
-company: Aspire Jobs Limited - Agency - Permanent
-location: Fareham
-source: JobG8
-job_id: jobg8-107193862
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: IT Service Desk Analyst (1st line)
 company: Randstad Delivery (GBS) - Agency - Permanent
 location: Portsmouth
@@ -582,6 +558,18 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist
+company: Tadley Medical Partnership
+location: Tadley, RG26 4ER, Tadley , RG26 4AN
+source: NHS Jobs
+job_id: nhs-5656044
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist - Kingston Crescent Surgery
 company: Portsdown Group Practice
 location: Portsmouth, PO2 8AL
@@ -611,18 +599,6 @@ company: Elliot Marsh Head Hunting Partners - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-2066863
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Ward Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Fareham, PO17 5NA
-source: NHS Jobs
-job_id: nhs-5626622
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 

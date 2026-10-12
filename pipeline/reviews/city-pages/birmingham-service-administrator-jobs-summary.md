@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 35
+- Effective included jobs: 36
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 35
+- automatic include: 36
 - automatic review: 5
-- automatic exclude: 5
-- effective include: 35
+- automatic exclude: 4
+- effective include: 36
 - effective review: 5
-- effective exclude: 5
+- effective exclude: 4
 
-## INCLUDE (35)
+## INCLUDE (36)
 
 ---
 action: 
@@ -100,18 +100,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administrative Assistant
-company: The Oaklands Primary School
-location: Birmingham
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-the-oaklands-primary-school
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Administrative Assistant, Admissions & Attendance
 company: Harborne Primary School
 location: Birmingham
@@ -141,6 +129,18 @@ company: Mitchell Adam - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-2067142
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Band 3 Administrator
+company: University Hospitals Birmingham NHS Foundation Trust
+location: Birmingham, B9 5SS
+source: NHS Jobs
+job_id: nhs-5655839
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -400,6 +400,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Sales Administrator
+company: Proprec - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2021377
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: School Office Administrator
 company: Castle Bromwich Junior School
 location: Birmingham
@@ -506,7 +518,7 @@ job_id: nhs-5646101
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
-## EXCLUDE (5)
+## EXCLUDE (4)
 
 ---
 action: 
@@ -541,18 +553,6 @@ company: Mitchell Adam - Agency - Permanent
 location: Solihull
 source: JobG8
 job_id: jobg8-2087335
-reason: Separate exact-city market at launch.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: GP Practice Receptionist
-company: Hobs Moat Medical Centre
-location: Solihull, B92 8ED
-source: NHS Jobs
-job_id: nhs-5631076
 reason: Separate exact-city market at launch.
 ---
 

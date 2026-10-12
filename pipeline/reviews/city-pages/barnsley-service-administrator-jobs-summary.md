@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 1
 - automatic review: 1
-- automatic exclude: 24
+- automatic exclude: 20
 - effective include: 1
 - effective review: 1
-- effective exclude: 24
+- effective exclude: 20
 
 ## INCLUDE (1)
 
@@ -50,7 +50,7 @@ job_id: jobg8-2067582
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (24)
+## EXCLUDE (20)
 
 ---
 action: 
@@ -61,18 +61,6 @@ company: The Rowan School
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-clerical-officer-level-2-rowan-school-the-rowan-school
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Admin Assistant
-company: Owston Park Primary Academy
-location: Doncaster
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-assistant-owston-park-primary-academy
 reason: Separate employment market.
 ---
 
@@ -188,18 +176,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Clerical Officer/Receptionist
-company: Sheffield Teaching Hospitals NHS Foundation Trust
-location: Sheffield, S5 7AU
-source: NHS Jobs
-job_id: nhs-5634291
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Contact Centre Agent
 company: EE - Company - Permanent
 location: Doncaster
@@ -229,18 +205,6 @@ company: EE - Company - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-20279_63174-153faf593eb64b88272f45adeaa28d87
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Income and Engagement Operations Administrator
-company: Arthritis UK - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2099961
 reason: Separate employment market.
 ---
 
@@ -301,18 +265,6 @@ company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Rotherham
 source: JobG8
 job_id: jobg8-2087559
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Stocksbridge Junior School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-stocksbridge-junior-school
 reason: Separate employment market.
 ---
 

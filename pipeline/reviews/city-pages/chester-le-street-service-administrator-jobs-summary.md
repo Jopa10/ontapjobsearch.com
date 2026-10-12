@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 35
+- automatic review: 32
 - automatic exclude: 0
 - effective include: 0
-- effective review: 35
+- effective review: 32
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (35)
+## REVIEW (32)
 
 ---
 action: 
@@ -47,6 +47,18 @@ company: BMC Recruitment Group - Agency - Permanent
 location: Sunderland
 source: JobG8
 job_id: jobg8-2042404
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: KCR Solutions - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2017987
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -102,35 +114,11 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Admin/receptionist
-company: Stephenson Park Health Group
-location: Newcastle Upon Tyne, NE12 9BQ
-source: NHS Jobs
-job_id: nhs-5628810
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Administration Assistant
 company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
 location: Ashington, NE63 0EY
 source: NHS Jobs
 job_id: nhs-5655486
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administration Assistant
-company: St Anthony's Girls' Catholic Academy
-location: Sunderland
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-st-anthony-s-girls-catholic-academy
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -203,18 +191,6 @@ company: Tenth Revolution Group - Agency - Permanent
 location: Newcastle Upon Tyne
 source: JobG8
 job_id: jobg8-2063397
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Data Management Administrator (2025/HM084)
-company: East Durham College
-location: Peterlee
-source: Teaching Vacancies
-job_id: teaching-vacancies-data-management-administrator-2025-hm084
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -407,18 +383,6 @@ company: Riverside Group - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-2066124
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: School Administrator
-company: Berwick St Mary's Church of England Primary School
-location: Berwick-upon-Tweed
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-administrator-4b89961d-cc62-4cfa-9732-a8929179b607
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 

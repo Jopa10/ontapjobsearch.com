@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 25
+- automatic review: 24
 - automatic exclude: 0
 - effective include: 1
-- effective review: 25
+- effective review: 24
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,19 +36,7 @@ job_id: teaching-vacancies-administration-assistant-gladstone-road-primary-schoo
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (25)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administration assistant
-company: Posterngate Surgery
-location: Selby, YO8 4QH
-source: NHS Jobs
-job_id: nhs-5635889
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
+## REVIEW (24)
 
 ---
 action: 

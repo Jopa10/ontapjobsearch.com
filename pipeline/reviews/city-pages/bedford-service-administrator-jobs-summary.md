@@ -4,7 +4,7 @@
 - Live route: `/bedford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 4
 - Threshold currently met: yes
 
 ## How to review
@@ -15,38 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 9
+- automatic include: 4
+- automatic review: 8
 - automatic exclude: 0
-- effective include: 6
-- effective review: 9
+- effective include: 4
+- effective review: 8
 - effective exclude: 0
 
-## INCLUDE (6)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant
-company: East of England Community Health and Care NHS Trust (Cambridge)
-location: Bedford, MK42 0AH
-source: NHS Jobs
-job_id: nhs-5620192
-reason: Exact approved Bedford workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Attendance Officer
-company: Redborne Upper School and Community College
-location: Bedford
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-5c4746af-e5b9-4134-b7ab-8d54523d4fae
-reason: Exact approved Bedford workplace.
----
+## INCLUDE (4)
 
 ---
 action: 
@@ -96,7 +72,7 @@ job_id: nhs-5639310
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (9)
+## REVIEW (8)
 
 ---
 action: 
@@ -155,18 +131,6 @@ company: GEMINI RECRUITMENT SERVICES LTD - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-2087521
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrator
-company: Chiltern Learning Trust
-location: Luton
-source: Teaching Vacancies
-job_id: teaching-vacancies-hr-administrator-d2f90df6-89af-4919-b35e-a47a1e5bf7df
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

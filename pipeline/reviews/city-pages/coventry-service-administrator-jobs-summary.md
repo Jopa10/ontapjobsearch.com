@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 6
 - automatic review: 0
-- automatic exclude: 23
+- automatic exclude: 24
 - effective include: 6
 - effective review: 0
-- effective exclude: 23
+- effective exclude: 24
 
 ## INCLUDE (6)
 
@@ -98,7 +98,7 @@ reason: Approved Coventry catchment.
 
 ## REVIEW (0)
 
-## EXCLUDE (23)
+## EXCLUDE (24)
 
 ---
 action: 
@@ -217,6 +217,18 @@ company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
 location: Rugby
 source: JobG8
 job_id: jobg8-2093212
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: GP Surgery Receptionist
+company: Station Street Surgery
+location: Nuneaton, CV11 6HH
+source: NHS Jobs
+job_id: nhs-5656280
 reason: Separate employment market.
 ---
 

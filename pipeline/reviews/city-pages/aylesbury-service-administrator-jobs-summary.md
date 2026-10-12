@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 35
+- automatic review: 34
 - automatic exclude: 0
 - effective include: 5
-- effective review: 35
+- effective review: 34
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: nhs-5648388
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (35)
+## REVIEW (34)
 
 ---
 action: 
@@ -167,18 +167,6 @@ company: In2 Consult - Agency - Permanent
 location: High Wycombe
 source: JobG8
 job_id: jobg8-2074277
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin Assistant
-company: Padbury Church of England School
-location: Buckingham
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-assistant-padbury-church-of-england-school-buckingham-buckinghamshire
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

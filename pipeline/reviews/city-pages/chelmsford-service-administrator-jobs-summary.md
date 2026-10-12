@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 62
+- automatic review: 59
 - automatic exclude: 0
 - effective include: 9
-- effective review: 62
+- effective review: 59
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -132,7 +132,7 @@ job_id: jobg8-2087231
 reason: Exact approved Chelmsford workplace.
 ---
 
-## REVIEW (62)
+## REVIEW (59)
 
 ---
 action: 
@@ -714,30 +714,6 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Property Inspections Team Coordinator
-company: Recruitment Solutions for Business (UK) Ltd - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-562663695354272153637340
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Property Inspections Team Coordinator
-company: Recruitment Solutions for Business (UK) Ltd - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-562663695354272153637341
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Purchase Ledger Clerk
 company: Huntress - Agency - Permanent
 location: Basildon
@@ -851,18 +827,6 @@ company: Penguin Recruitment Ltd - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-2082763
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Vehicle Administrator
-company: Reed - Agency - Permanent
-location: Stansted
-source: JobG8
-job_id: jobg8-2057165
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

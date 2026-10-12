@@ -102,18 +102,6 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Admin Assistant
-company: Gordons Children's Academy, Junior
-location: Rochester
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-assistant-gordons-children-s-academy-junior
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Administration Assistant
 company: Northgate Medical Practice
 location: Canterbury, CT1 1WL
@@ -383,6 +371,18 @@ company: Four Jays Group - Agency - Permanent
 location: Maidstone
 source: JobG8
 job_id: jobg8-2087887
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: MAF in the Community (MiC) Resourcing Coordinator
+company: Mission Aviation Fellowship UK - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-107958419
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 

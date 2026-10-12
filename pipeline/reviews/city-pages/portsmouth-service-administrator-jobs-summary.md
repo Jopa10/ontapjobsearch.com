@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 45
+- automatic review: 43
 - automatic exclude: 0
 - effective include: 5
-- effective review: 45
+- effective review: 43
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: nhs-5627419
 reason: Exact approved Portsmouth workplace.
 ---
 
-## REVIEW (45)
+## REVIEW (43)
 
 ---
 action: 
@@ -402,18 +402,6 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Insurance Account Executive
-company: Aspire Jobs Limited - Agency - Permanent
-location: Fareham
-source: JobG8
-job_id: jobg8-107193862
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Legal Assistant
 company: Brook Street - Agency - Permanent
 location: Emsworth
@@ -582,11 +570,11 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist (Maternity Cover)
-company: The Blue Coat School Basingstoke
-location: Basingstoke
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-maternity-cover-the-blue-coat-school-basingstoke
+title: Receptionist
+company: Tadley Medical Partnership
+location: Tadley, RG26 4ER, Tadley , RG26 4AN
+source: NHS Jobs
+job_id: nhs-5656044
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -611,18 +599,6 @@ company: Elliot Marsh Head Hunting Partners - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-2066863
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Ward Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Fareham, PO17 5NA
-source: NHS Jobs
-job_id: nhs-5626622
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 

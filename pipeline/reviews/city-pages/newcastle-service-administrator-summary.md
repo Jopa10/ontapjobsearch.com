@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: no
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
+- automatic include: 4
 - automatic review: 15
-- automatic exclude: 15
-- effective include: 5
+- automatic exclude: 13
+- effective include: 4
 - effective review: 15
-- effective exclude: 15
+- effective exclude: 13
 
-## INCLUDE (5)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Admin/receptionist
-company: Stephenson Park Health Group
-location: Newcastle Upon Tyne, NE12 9BQ
-source: NHS Jobs
-job_id: nhs-5628810
-reason: Approved Newcastle catchment.
----
+## INCLUDE (4)
 
 ---
 action: 
@@ -85,6 +73,18 @@ reason: Approved Newcastle catchment.
 ---
 
 ## REVIEW (15)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: KCR Solutions - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2017987
+reason: Broad location; review before city inclusion.
+---
 
 ---
 action: 
@@ -246,18 +246,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: School Administrator
-company: Berwick St Mary's Church of England Primary School
-location: Berwick-upon-Tweed
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-administrator-4b89961d-cc62-4cfa-9732-a8929179b607
-reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Temporary Accounts Assistant Boldon
 company: Office Angels - Agency - Permanent
 location: Tyne And Wear
@@ -266,7 +254,7 @@ job_id: jobg8-2063669
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (15)
+## EXCLUDE (13)
 
 ---
 action: 
@@ -308,18 +296,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administration Assistant
-company: St Anthony's Girls' Catholic Academy
-location: Sunderland
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-st-anthony-s-girls-catholic-academy
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Administrator
 company: Seaton Surgery
 location: Hartlepool, TS25 1AX
@@ -349,18 +325,6 @@ company: Reed - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-2053988
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Data Management Administrator (2025/HM084)
-company: East Durham College
-location: Peterlee
-source: Teaching Vacancies
-job_id: teaching-vacancies-data-management-administrator-2025-hm084
 reason: Separate employment market.
 ---
 

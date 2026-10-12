@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 23
+- automatic review: 19
 - automatic exclude: 0
 - effective include: 3
-- effective review: 23
+- effective review: 19
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: jobg8-2087559
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (23)
+## REVIEW (19)
 
 ---
 action: 
@@ -71,18 +71,6 @@ company: The Rowan School
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-admin-clerical-officer-level-2-rowan-school-the-rowan-school
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin Assistant
-company: Owston Park Primary Academy
-location: Doncaster
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-assistant-owston-park-primary-academy
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -174,18 +162,6 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Clerical Officer/Receptionist
-company: Sheffield Teaching Hospitals NHS Foundation Trust
-location: Sheffield, S5 7AU
-source: NHS Jobs
-job_id: nhs-5634291
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Contact Centre Agent
 company: EE - Company - Permanent
 location: Doncaster
@@ -215,18 +191,6 @@ company: EE - Company - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-20279_63174-153faf593eb64b88272f45adeaa28d87
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Income and Engagement Operations Administrator
-company: Arthritis UK - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2099961
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -299,18 +263,6 @@ company: ID Medical
 location: Barnsley, s752ep
 source: NHS Jobs
 job_id: nhs-5641970
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Stocksbridge Junior School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-stocksbridge-junior-school
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

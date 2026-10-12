@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 16
+- automatic review: 17
 - automatic exclude: 0
 - effective include: 4
-- effective review: 16
+- effective review: 17
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-2085791
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (16)
+## REVIEW (17)
 
 ---
 action: 
@@ -155,6 +155,18 @@ company: THOMAS Professional - Agency - Temporary
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225503952
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: Two Rivers Housing - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-108114606
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

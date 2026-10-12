@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 7
+- automatic review: 6
 - automatic exclude: 0
 - effective include: 1
-- effective review: 7
+- effective review: 6
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: jobg8-2074804
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (7)
+## REVIEW (6)
 
 ---
 action: 
@@ -107,18 +107,6 @@ company: Gleeson Recruitment Group - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-2061864
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist/Administrator
-company: Ipsley CofE Middle School
-location: Redditch
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-administrator-ipsley-cofe-middle-school-redditch
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

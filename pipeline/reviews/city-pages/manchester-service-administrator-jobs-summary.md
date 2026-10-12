@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 26
+- Effective included jobs: 25
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 26
+- automatic include: 25
 - automatic review: 18
-- automatic exclude: 3
-- effective include: 26
+- automatic exclude: 4
+- effective include: 25
 - effective review: 18
-- effective exclude: 3
+- effective exclude: 4
 
-## INCLUDE (26)
+## INCLUDE (25)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: The Accountancy Recruitment Group Ltd - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-2070390
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: NICE – The National Institute for Health and Care Excellence
-location: Manchester, M1 3BN
-source: NHS Jobs
-job_id: nhs-5631646
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -268,6 +256,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Medical Receptionist / Administrator
+company: Victoria Mill Medical Practice
+location: Manchester, M40 7LH
+source: NHS Jobs
+job_id: nhs-5613139
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Payroll Administrator
 company: Portfolio Payroll - Agency - Permanent
 location: Manchester
@@ -316,23 +316,11 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Team Administrator
-company: Greater Manchester Mental Health NHS Foundation Trust
-location: Manchester, M40 5BP
-source: NHS Jobs
-job_id: nhs-5652896
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Trust Finance and Systems Administrator
-company: The Co Operative Academies Trust
+title: Resident Engagement Manager
+company: Cobalt Recruitment. - Agency - Permanent
 location: Manchester
-source: Teaching Vacancies
-job_id: teaching-vacancies-trust-finance-and-systems-administrator
+source: JobG8
+job_id: jobg8-108081589
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -554,7 +542,19 @@ job_id: jobg8-2065821
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
-## EXCLUDE (3)
+## EXCLUDE (4)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Clinical Team Administrator
+company: Greater Manchester Mental Health NHS Foundation Trust
+location: Salford, M28 0FE
+source: NHS Jobs
+job_id: nhs-5641457
+reason: Separate exact-city market at launch.
+---
 
 ---
 action: 

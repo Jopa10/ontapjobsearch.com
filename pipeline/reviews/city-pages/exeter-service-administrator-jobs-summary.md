@@ -4,7 +4,7 @@
 - Live route: `/exeter/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 18
+- automatic include: 5
+- automatic review: 12
 - automatic exclude: 0
-- effective include: 7
-- effective review: 18
+- effective include: 5
+- effective review: 12
 - effective exclude: 0
 
-## INCLUDE (7)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Admin Assistant
-company: Switch - Agency - Permanent
-location: Exeter
-source: JobG8
-job_id: jobg8-107719278
-reason: Exact approved Exeter workplace.
----
+## INCLUDE (5)
 
 ---
 action: 
@@ -88,18 +76,6 @@ reason: Exact approved Exeter workplace.
 action: 
 decision: include
 automatic_decision: include
-title: School Hub Administrator
-company: Cornerstone Academy Trust
-location: Exeter
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-hub-administrator
-reason: Exact approved Exeter workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Senior Administrator
 company: Stansfield Academy
 location: Exeter
@@ -108,7 +84,7 @@ job_id: teaching-vacancies-senior-administrator-stansfield-academy-exeter-devon
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (18)
+## REVIEW (12)
 
 ---
 action: 
@@ -150,35 +126,11 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: College Receptionist
-company: Ivybridge Community College
-location: Ivybridge
-source: Teaching Vacancies
-job_id: teaching-vacancies-college-receptionist-ivybridge-community-college-ivybridge-devon
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Configuration Control Coordinator
 company: BAM UK & Ireland - Agency - Permanent
 location: Plymouth
 source: JobG8
 job_id: jobg8-108092427
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Exams and Admissions Officer
-company: Brixham College
-location: Brixham
-source: Teaching Vacancies
-job_id: teaching-vacancies-exams-and-admissions-officer
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -246,42 +198,6 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Post 16 Administrator and Study Supervisor
-company: Hele's School
-location: Plymouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-post-16-administrator-and-study-supervisor
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Reception/Administrator
-company: Litchdon Medical Centre
-location: Barnstaple, EX32 9LL
-source: NHS Jobs
-job_id: nhs-5616652
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist/Administrator
-company: Croft Hall Medical Practice
-location: Torquay, TQ2 5UA
-source: NHS Jobs
-job_id: nhs-5552054
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Remote Conveyancing Paralegal
 company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
 location: Devon
@@ -299,18 +215,6 @@ company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-2055612
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: School Office Administrator
-company: Beechwood Primary Academy
-location: Plymouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-office-administrator-beechwood-primary-academy
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

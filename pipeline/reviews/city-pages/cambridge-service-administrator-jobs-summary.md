@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 5
-- automatic exclude: 9
+- automatic review: 4
+- automatic exclude: 8
 - effective include: 10
-- effective review: 5
-- effective exclude: 9
+- effective review: 4
+- effective exclude: 8
 
 ## INCLUDE (10)
 
@@ -144,7 +144,7 @@ job_id: jobg8-2087007
 reason: Approved conservative Cambridge launch catchment.
 ---
 
-## REVIEW (5)
+## REVIEW (4)
 
 ---
 action: 
@@ -175,18 +175,6 @@ action:
 decision: review
 automatic_decision: review
 title: Exams Officer
-company: Ernulf Academy
-location: St. Neots
-source: Teaching Vacancies
-job_id: teaching-vacancies-exams-officer-ernulf-academy-st-neots
-reason: No approved Cambridge catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Exams Officer
 company: Longsands Academy
 location: St Neots
 source: Teaching Vacancies
@@ -206,7 +194,7 @@ job_id: teaching-vacancies-finance-admin-assistant-priory-junior-school-st-neots
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (9)
+## EXCLUDE (8)
 
 ---
 action: 
@@ -229,18 +217,6 @@ company: Cambridgeshire and Peterborough NHS Foundation Trust
 location: Peterborough, PE78FZ
 source: NHS Jobs
 job_id: nhs-5647546
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: HR Assistant
-company: Inspire Education Group - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-108123858
 reason: Separate employment market.
 ---
 
