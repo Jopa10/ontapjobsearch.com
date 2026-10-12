@@ -236,7 +236,7 @@ class AgreedTitleRuleTests(unittest.TestCase):
             "Junior Accountant",
             "Junior Bookkeeper",
             "Legal Administrator",
-            "Paralegal",
+            "Legal Assistant",
             "Management Accountant Assistant",
         )
         for title in practical_titles:
@@ -245,6 +245,23 @@ class AgreedTitleRuleTests(unittest.TestCase):
                     title, self.admin_register
                 )
                 self.assertEqual("HIGH_CONFIDENCE", classification)
+
+    def test_legal_practitioner_titles_are_hard_passed(self) -> None:
+        titles = (
+            "Paralegal",
+            "Family Law Paralegal",
+            "Conveyancing Assistant/Paralegal",
+            "Solicitor",
+            "Commercial Property Solicitor",
+            "Housing Disrepair Fee Earner",
+            "Conveyancing Fee-earner",
+        )
+        for title in titles:
+            with self.subTest(title=title):
+                classification, _reason, _priority, _stability = admin.classify_title(
+                    title, self.admin_register
+                )
+                self.assertEqual("HARD_PASS", classification)
 
     def test_qualification_policy_excludes_only_mandatory_acca_aca_or_cima(self) -> None:
         self.assertEqual(
