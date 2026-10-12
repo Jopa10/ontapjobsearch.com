@@ -73,15 +73,25 @@ class JobG8CategoryProfileTests(unittest.TestCase):
             2,
         )
 
-    def test_overview_rebuilds_after_successful_production_deploy(self) -> None:
+    def test_overview_rebuild_uses_verified_production_deployment(self) -> None:
         repo_root = Path(__file__).resolve().parents[2]
         workflow = (
             repo_root / ".github/workflows/build-daily-region-overview.yml"
         ).read_text(encoding="utf-8")
 
-        self.assertIn("- Deploy Ontap production after publish", workflow)
+        # The overview is now manually dispatched with a successful deployment
+        # run ID; it no longer listens directly for a workflow_run event.
+        self.assertIn("deployment_run_id:", workflow)
         self.assertIn(
-            "github.event.workflow_run.conclusion == 'success'",
+            "description: Successful Deploy Ontap production after publish run ID",
+            workflow,
+        )
+        self.assertIn(
+            'run.get("name") != "Deploy Ontap production after publish"',
+            workflow,
+        )
+        self.assertIn(
+            'run.get("headBranch") != "main" or run.get("conclusion") != "success"',
             workflow,
         )
         self.assertIn("name: Download verified production SHA", workflow)
