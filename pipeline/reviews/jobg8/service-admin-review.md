@@ -13,6 +13,12 @@ Edit only the `action:` line in each block:
 
 ---
 action:
+SELECTED | Yorkshire - West | Leeds | no salary in JobG8 salary fields; no supported salary amount found in description | Insolvency Case Administrator
+job_id: 2014271
+---
+
+---
+action:
 SELECTED | Yorkshire - West | Leeds | no salary in JobG8 salary fields; no supported salary amount found in description | Temporary Credit Controller
 job_id: 2028584
 ---
@@ -109,12 +115,6 @@ job_id: 2087152
 
 ---
 action:
-SELECTED | Yorkshire - West | Huddersfield | no salary in JobG8 salary fields; no supported salary amount found in description | Gas & Bitumen Planner
-job_id: 2078631
----
-
----
-action:
 SELECTED | Yorkshire - West | Wetherby | no salary in JobG8 salary fields; no supported salary amount found in description | Branch Administrator
 job_id: 2062402
 ---
@@ -130,6 +130,12 @@ job_id: 2092609
 _No jobs in this group._
 
 ## SOUTH YORKSHIRE — SELECTED
+
+---
+action:
+SELECTED | Yorkshire - South | Sheffield | no salary in JobG8 salary fields; no supported salary amount found in description | Insolvency Case Administrator
+job_id: 2014257
+---
 
 ---
 action:
@@ -411,32 +417,14 @@ job_id: 2056421
 
 ---
 action:
-SELECTED | London | Borehamwood | £14.42 per hour [extracted from description] | Supplies Coordinator
-job_id: 2057351
----
-
----
-action:
-SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Logistics Coordinator
-job_id: 2058112
----
-
----
-action:
-SELECTED | London | London | £14.27 per hour [extracted from description] | Vehicle Administrator
-job_id: 2057397
----
-
----
-action:
 SELECTED | London | London | £19 per hour [JobG8 salary fields] | Temporary Document Controller
 job_id: 2056852
 ---
 
 ---
 action:
-SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Customer Supply Coordinator
-job_id: 2052087
+SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Graduate Planner + - Town Planner
+job_id: 2039778
 ---
 
 ---
@@ -555,12 +543,6 @@ job_id: 2078594
 
 ---
 action:
-SELECTED | London | London | £35000 - £40000 per year [JobG8 salary fields] | Finance Assistant
-job_id: 2076237
----
-
----
-action:
 SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | General Office Assistant
 job_id: 2076863
 ---
@@ -633,26 +615,8 @@ job_id: 2087635
 
 ---
 action:
-SELECTED | London | Ilford | no salary in JobG8 salary fields; no supported salary amount found in description | Credit Controller
-job_id: 2087042
----
-
----
-action:
 SELECTED | London | Harrow | £35000 - £40000 per year [JobG8 salary fields] | Company Secretary Administrator
 job_id: 2088500
----
-
----
-action:
-SELECTED | London | London | £38000 - £43000 per year [JobG8 salary fields] | Ocean Import Operator & Pricing Coordinator
-job_id: 2087799
----
-
----
-action:
-SELECTED | London | London | £38000 - £50000 per year [JobG8 salary fields] | Project Coordinator
-job_id: 2087798
 ---
 
 ---
@@ -669,20 +633,8 @@ job_id: 2078602
 
 ---
 action:
-SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Shipping Coordinator
-job_id: 2075153
----
-
----
-action:
 SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Facilities Coordinator
 job_id: 2074840
----
-
----
-action:
-SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Stock Administration Assistant
-job_id: 2073665
 ---
 
 ---
@@ -695,12 +647,6 @@ job_id: 23643_225698401
 action:
 SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Assistant Accountant - 6 Month FTC
 job_id: 2091651
----
-
----
-action:
-SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Facilities & Operations Administrator
-job_id: 2101543
 ---
 
 ---
@@ -719,6 +665,18 @@ job_id: 107970959
 action:
 SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Executive Assistant and Board Secretary
 job_id: 2106853
+---
+
+---
+action:
+SELECTED | London | London | £30,000 to £34,000 per annum [extracted from description] | Professional Development Coordinator
+job_id: 2111745
+---
+
+---
+action:
+SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Family Support Coordinator
+job_id: 2111739
 ---
 
 ## LONDON — POSSIBLES
@@ -783,12 +741,6 @@ job_id: 2044543
 
 ---
 action:
-SELECTED | Hampshire | Hampshire | no salary in JobG8 salary fields; no supported salary amount found in description | Accounts Payable Administrator
-job_id: 2050139
----
-
----
-action:
 SELECTED | Hampshire | Hampshire | no salary in JobG8 salary fields; no supported salary amount found in description | Accounts Assistant Bookkeeper
 job_id: 2056614
 ---
@@ -797,24 +749,6 @@ job_id: 2056614
 action:
 SELECTED | Hampshire | Hampshire | £35000 - £40000 per year [JobG8 salary fields] | Assistant Accountant
 job_id: 2055478
----
-
----
-action:
-SELECTED | Hampshire | Hampshire | £35000 per year [JobG8 salary fields] | Ocean Import Coordinator
-job_id: 2056769
----
-
----
-action:
-SELECTED | Hampshire | Hampshire | no salary in JobG8 salary fields; no supported salary amount found in description | Logistics Coordinator
-job_id: 2053237
----
-
----
-action:
-SELECTED | Hampshire | Hampshire | £27000 - £30000 per year [JobG8 salary fields] | Freight Sales Support Clerk
-job_id: 2064051
 ---
 
 ---
@@ -885,18 +819,6 @@ job_id: 2087359
 
 ---
 action:
-SELECTED | Hampshire | Hampshire | no salary in JobG8 salary fields; no supported salary amount found in description | Import Coordinator
-job_id: 2073501
----
-
----
-action:
-SELECTED | Hampshire | Hampshire | £30000 per year [JobG8 salary fields] | Shipping Coordinator
-job_id: 2066863
----
-
----
-action:
 SELECTED | Hampshire | Hampshire | £17.00 per hour [extracted from description] | IT Service Desk Analyst (1st line)
 job_id: 2065862
 ---
@@ -917,6 +839,12 @@ job_id: 2092163
 action:
 SELECTED | Hampshire | Hampshire | no salary in JobG8 salary fields; no supported salary amount found in description | Legal Assistant
 job_id: 2089703
+---
+
+---
+action:
+SELECTED | Hampshire | Hampshire | no salary in JobG8 salary fields; no supported salary amount found in description | Delivery Team Security Lead (Security Assurance Coordinator)
+job_id: 108145958
 ---
 
 ## HAMPSHIRE — POSSIBLES
@@ -1005,18 +933,6 @@ job_id: 2088376
 
 ---
 action:
-SELECTED | Surrey | Surrey | £36000 per year [JobG8 salary fields] | Service Advisor
-job_id: 2088298
----
-
----
-action:
-SELECTED | Surrey | Surrey | no salary in JobG8 salary fields; no supported salary amount found in description | Procurement Assistant
-job_id: 2074169
----
-
----
-action:
 SELECTED | Surrey | Surrey | no salary in JobG8 salary fields; no supported salary amount found in description | Payroll Assistant - Part time
 job_id: 2089890
 ---
@@ -1095,12 +1011,6 @@ job_id: 2055597
 
 ---
 action:
-SELECTED | Kent | Kent | £30000 - £34000 per year [JobG8 salary fields] | German Logistics Administrator &;34k 3:30pm Friday finish
-job_id: 2055118
----
-
----
-action:
 SELECTED | Kent | Kent | £32000 - £38000 per year [JobG8 salary fields] | Accounts Assistant
 job_id: 2060301
 ---
@@ -1157,30 +1067,6 @@ job_id: 2080652
 action:
 SELECTED | Kent | Kent | £15.00 - £16.00 per hour [extracted from description] | Part-Time Accounts Assistant Dartford Temp to Perm
 job_id: 2089004
----
-
----
-action:
-SELECTED | Kent | Gillingham | no salary in JobG8 salary fields; no supported salary amount found in description | Credit Controller
-job_id: 2087651
----
-
----
-action:
-SELECTED | Kent | Kent | no salary in JobG8 salary fields; no supported salary amount found in description | Supply Chain Coordinator
-job_id: 2087968
----
-
----
-action:
-SELECTED | Kent | Kent | no salary in JobG8 salary fields; no supported salary amount found in description | Logistics Planner
-job_id: 2087887
----
-
----
-action:
-SELECTED | Kent | Kent | no salary in JobG8 salary fields; no supported salary amount found in description | Logistics Administrator
-job_id: 2064758
 ---
 
 ---
@@ -1319,20 +1205,8 @@ job_id: 2066607
 
 ---
 action:
-SELECTED | Sussex | Sussex | £5 per day | Bookkeeper
-job_id: 2074292
----
-
----
-action:
 SELECTED | Sussex | Sussex | £31000 per year | Accounts Assistant
 job_id: 2088338
----
-
----
-action:
-SELECTED | Sussex | Sussex | £33000 per year | Route Planner
-job_id: 2086974
 ---
 
 ---
@@ -1384,18 +1258,6 @@ job_id: 2055969
 
 ---
 action:
-SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire |  | Customer Supply Coordinator
-job_id: 2056680
----
-
----
-action:
-SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire | £30000 - £33000 per year | P2P Supply Chain Planner
-job_id: 2052561
----
-
----
-action:
 SELECTED | West Midlands - Coventry & Warwickshire | Warwickshire | £30000 per year | Accounts Assistant
 job_id: 2065903
 ---
@@ -1443,12 +1305,6 @@ job_id: 2046269
 
 ---
 action:
-SELECTED | Bedfordshire | Bedfordshire |  | Customer Service Advisor
-job_id: 2057133
----
-
----
-action:
 SELECTED | Bedfordshire | Bedfordshire |  | Assistant Accountant - salary negotiable; well-established independent firm
 job_id: 2064411
 ---
@@ -1457,12 +1313,6 @@ job_id: 2064411
 action:
 SELECTED | Bedfordshire | Bedfordshire | £15 per hour | Shipping & Logistics Coordinator
 job_id: 2063915
----
-
----
-action:
-SELECTED | Bedfordshire | Bedfordshire |  | Finance Assistant
-job_id: 2068147
 ---
 
 ---
@@ -1545,12 +1395,6 @@ job_id: 2088258
 
 ---
 action:
-SELECTED | Berkshire | Berkshire | £13.88 per hour | Inventory and Stock Coordinator
-job_id: 2083041
----
-
----
-action:
 SELECTED | Berkshire | Berkshire | £26000 per year | Facilities Administrator
 job_id: 2092729
 ---
@@ -1559,12 +1403,6 @@ job_id: 2092729
 action:
 SELECTED | Berkshire | Berkshire |  | Assistant Management Accountant
 job_id: 2089676
----
-
----
-action:
-SELECTED | Berkshire | Berkshire |  | Casework Administrator
-job_id: 2106913
 ---
 
 ## BERKSHIRE — POSSIBLES
@@ -1641,14 +1479,14 @@ job_id: 2088889
 
 ---
 action:
-SELECTED | Bristol & Bath | Bristol | £30000 - £35000 per year | Supply Chain Coordinator
-job_id: 2076582
+SELECTED | Bristol & Bath | Bath |  | Part time Finance Assistant - 22. 5 hours per week
+job_id: 2070922
 ---
 
 ---
 action:
-SELECTED | Bristol & Bath | Bath |  | Part time Finance Assistant - 22. 5 hours per week
-job_id: 2070922
+SELECTED | Bristol & Bath | Bristol | £16.70 per hour | Marketing Coordinator
+job_id: 2111734
 ---
 
 ## BRISTOL & BATH — POSSIBLES
@@ -1656,6 +1494,12 @@ job_id: 2070922
 _No jobs in this group._
 
 ## BUCKINGHAMSHIRE — SELECTED
+
+---
+action:
+SELECTED | Buckinghamshire | Buckinghamshire | £32000 per year | Credit Controller
+job_id: 2014306
+---
 
 ---
 action:
@@ -1733,18 +1577,6 @@ job_id: 2089145
 action:
 SELECTED | Buckinghamshire | Buckinghamshire |  | Accounts Assistant
 job_id: 2087232
----
-
----
-action:
-SELECTED | Buckinghamshire | Buckinghamshire |  | Stock Administrator
-job_id: 2087508
----
-
----
-action:
-SELECTED | Buckinghamshire | Buckinghamshire |  | Customs Import & Export Coordinator
-job_id: 2076024
 ---
 
 ## BUCKINGHAMSHIRE — POSSIBLES
@@ -1839,8 +1671,8 @@ job_id: 2064949
 
 ---
 action:
-SELECTED | Cheshire - East | Crewe |  | Supply Chain Coordinator
-job_id: 2065127
+SELECTED | Cheshire - East | Wilmslow | £27000 per year | Motor Claims Handler - Wilmslow
+job_id: 108123837
 ---
 
 ## CHESHIRE - EAST — POSSIBLES
@@ -1875,18 +1707,6 @@ job_id: 2060582
 
 ---
 action:
-SELECTED | Cheshire - Warrington & Halton | Warrington |  | Credit Controller
-job_id: 2063003
----
-
----
-action:
-SELECTED | Cheshire - Warrington & Halton | Warrington | £27000 - £29000 per year | Administrator
-job_id: 2075500
----
-
----
-action:
 SELECTED | Cheshire - Warrington & Halton | Warrington |  | Accounts Assistant - Purchase Ledger
 job_id: 2077982
 ---
@@ -1911,6 +1731,12 @@ job_id: 2052993
 
 ---
 action:
+SELECTED | Cheshire - West | Chester |  | Service Desk Analyst - German & English
+job_id: 2052407
+---
+
+---
+action:
 SELECTED | Cheshire - West | Northwich |  | Casualty Claims Handler
 job_id: 2074075
 ---
@@ -1919,12 +1745,6 @@ job_id: 2074075
 action:
 SELECTED | Cheshire - West | Chester | £30000 per year | Service Advisor
 job_id: 2089231
----
-
----
-action:
-SELECTED | Cheshire - West | Tarporley | £32000 per year | Sales Support / Import Documentation Controller
-job_id: 2089677
 ---
 
 ## CHESHIRE - WEST — POSSIBLES
@@ -2121,12 +1941,6 @@ job_id: 2075751
 
 ---
 action:
-SELECTED | Dorset | Dorset |  | Supply Chain Planner
-job_id: 2088652
----
-
----
-action:
 SELECTED | Dorset | Dorset | £14.93 per hour | Finance Assistant - Temporary
 job_id: 2092371
 ---
@@ -2193,12 +2007,6 @@ job_id: 2053216
 
 ---
 action:
-SELECTED | Essex | Essex |  | Accounts Assistant
-job_id: 2051899
----
-
----
-action:
 SELECTED | Essex | Essex | £15 - £18 per hour | Temporary Cashier / Credit Controller - Immediate Start
 job_id: 2057679
 ---
@@ -2225,6 +2033,12 @@ job_id: 2056509
 action:
 SELECTED | Essex | Essex |  | Graduate Town Planner
 job_id: 2055778
+---
+
+---
+action:
+SELECTED | Essex | Essex | £32000 - £34000 per year | Facilities Coordinator
+job_id: 2045178
 ---
 
 ---
@@ -2287,6 +2101,18 @@ SELECTED | Essex | Essex |  | Product Support Analyst - Helpdesk
 job_id: 2092864
 ---
 
+---
+action:
+SELECTED | Essex | Essex |  | Property Inspections Team Coordinator
+job_id: 562663695354272153637341
+---
+
+---
+action:
+SELECTED | Essex | Essex |  | Property Inspections Team Coordinator
+job_id: 562663695354272153637340
+---
+
 ## ESSEX — POSSIBLES
 
 _No jobs in this group._
@@ -2319,8 +2145,14 @@ job_id: 2050223
 
 ---
 action:
-SELECTED | Gloucestershire | Gloucestershire | £15 - £17 per hour | Administrator
-job_id: 2053465
+SELECTED | Gloucestershire | Gloucestershire | £18 per hour | Bookkeeper
+job_id: 2048160
+---
+
+---
+action:
+SELECTED | Gloucestershire | Gloucestershire |  | Service Desk Analyst
+job_id: 2043219
 ---
 
 ---
@@ -2409,12 +2241,6 @@ job_id: 2063303
 
 ---
 action:
-SELECTED | Greater Manchester - Manchester & Salford | Manchester |  | Accounts Assistant
-job_id: 2070390
----
-
----
-action:
 SELECTED | Greater Manchester - Manchester & Salford | Manchester |  | Finance Assistant
 job_id: 2065432
 ---
@@ -2453,18 +2279,6 @@ job_id: 2075693
 action:
 SELECTED | Greater Manchester - Manchester & Salford | Manchester |  | Claims Handler
 job_id: 2088517
----
-
----
-action:
-SELECTED | Greater Manchester - Manchester & Salford | Manchester | £32000 - £42000 per year | Freight Forwarding Coordinator (Air & Ocean)
-job_id: 2089378
----
-
----
-action:
-SELECTED | Greater Manchester - Manchester & Salford | Manchester |  | Asset Planner - Supply Chain
-job_id: 2088344
 ---
 
 ---
@@ -2519,12 +2333,6 @@ _No jobs in this group._
 action:
 SELECTED | Greater Manchester - South | Stockport | £30000 per year | Sales Support Executive
 job_id: 108042377
----
-
----
-action:
-SELECTED | Greater Manchester - South | Stockport | £30000 per year | Lettings Coordinator
-job_id: 2035890
 ---
 
 ---
@@ -2673,6 +2481,18 @@ job_id: 2055885
 
 ---
 action:
+SELECTED | Hertfordshire | Hertfordshire |  | Service Desk Coordinator
+job_id: 2041623
+---
+
+---
+action:
+SELECTED | Hertfordshire | Hertfordshire | £28000 - £30000 per year | Commercial Administrator
+job_id: 2039272
+---
+
+---
+action:
 SELECTED | Hertfordshire | Hertfordshire |  | Finance Assistant - Part time
 job_id: 2060294
 ---
@@ -2745,32 +2565,8 @@ job_id: 2088448
 
 ---
 action:
-SELECTED | Hertfordshire | Hertfordshire |  | Supply Planner
-job_id: 2082484
----
-
----
-action:
-SELECTED | Hertfordshire | Hertfordshire | £26000 - £28000 per year | Warehouse Admin
-job_id: 2082709
----
-
----
-action:
 SELECTED | Hertfordshire | Hertfordshire | £27000 - £30000 per year | Facilities Administrator - 14 Month FTC
 job_id: 2076989
----
-
----
-action:
-SELECTED | Hertfordshire | Hertfordshire | £33000 - £35000 per year | Logistics Co-ordinator
-job_id: 2065962
----
-
----
-action:
-SELECTED | Hertfordshire | Hertfordshire | £30000 - £35000 per year | Supply Chain Coordinator
-job_id: 2065188
 ---
 
 ---
@@ -2799,12 +2595,6 @@ job_id: 23643_225671197
 
 ---
 action:
-SELECTED | Lancashire - East | Accrington |  | Export & Sales Administrator
-job_id: 2059088
----
-
----
-action:
 SELECTED | Lancashire - East | Rossendale |  | Sales Coordinator
 job_id: 2066846
 ---
@@ -2813,24 +2603,6 @@ job_id: 2066846
 action:
 SELECTED | Lancashire - East | Accrington | £30000 - £33000 per year | Finance Billing Co-Ordinator
 job_id: 2065471
----
-
----
-action:
-SELECTED | Lancashire - East | Blackburn | £35000 per year | Finance Assistant
-job_id: 2089360
----
-
----
-action:
-SELECTED | Lancashire - East | Blackburn | £35000 per year | Accounts Assistants
-job_id: 2089039
----
-
----
-action:
-SELECTED | Lancashire - East | Colne |  | Customer Service & Sales Administrator
-job_id: 2091875
 ---
 
 ## LANCASHIRE - EAST — POSSIBLES
@@ -2853,20 +2625,14 @@ job_id: 23643_225663833
 
 ---
 action:
-SELECTED | Leicestershire | Leicestershire |  | Accounts Assistant
-job_id: 2049700
----
-
----
-action:
 SELECTED | Leicestershire | Leicestershire | £33000 per year | Assistant Accountant
 job_id: 2053152
 ---
 
 ---
 action:
-SELECTED | Leicestershire | Leicestershire |  | Customer Service & Planning Coordinator
-job_id: 2057903
+SELECTED | Leicestershire | Leicestershire | £13.33 per hour | Commercial Administrator
+job_id: 2049449
 ---
 
 ---
@@ -2898,6 +2664,12 @@ job_id: 2067389
 _No jobs in this group._
 
 ## LINCOLNSHIRE — SELECTED
+
+---
+action:
+SELECTED | Lincolnshire | Lincolnshire |  | Accounts Assistant
+job_id: 2014296
+---
 
 ---
 action:
@@ -2939,12 +2711,6 @@ job_id: 2060479
 action:
 SELECTED | Lincolnshire | Lincolnshire |  | Accounts Assistant
 job_id: 2089307
----
-
----
-action:
-SELECTED | Lincolnshire | Lincolnshire |  | Demand Planner
-job_id: 2089149
 ---
 
 ## LINCOLNSHIRE — POSSIBLES
@@ -3087,6 +2853,18 @@ _No jobs in this group._
 
 ---
 action:
+SELECTED | Northamptonshire | Northamptonshire |  | Intervention Claims Handler - hybrid (2 days from home) following probation
+job_id: 2017832
+---
+
+---
+action:
+SELECTED | Northamptonshire | Northamptonshire | £200 per month | Claims Handler - insurance/property - hybrid following probation
+job_id: 2017813
+---
+
+---
+action:
 SELECTED | Northamptonshire | Northamptonshire |  | AAT Assistant Accountant
 job_id: 2021745
 ---
@@ -3131,12 +2909,6 @@ job_id: 2054088
 action:
 SELECTED | Northamptonshire | Northamptonshire | £14 - £15 per hour | Events Administrator in Motorsport
 job_id: 2060783
----
-
----
-action:
-SELECTED | Northamptonshire | Northamptonshire | £30000 - £32000 per year | Supply Chain Coordinator
-job_id: 2080427
 ---
 
 ---
@@ -3209,12 +2981,6 @@ job_id: 23643_225668106
 action:
 SELECTED | Nottinghamshire | Nottinghamshire |  | Finance Assistant
 job_id: 2061085
----
-
----
-action:
-SELECTED | Nottinghamshire | Nottinghamshire |  | Inventory Coordinator - SAP S/4HANA
-job_id: 2084959
 ---
 
 ---
@@ -3321,8 +3087,8 @@ job_id: 108079592
 
 ---
 action:
-SELECTED | Oxfordshire | Oxfordshire | £14 per hour | Materials / Stock Administrator
-job_id: 108123401
+SELECTED | Oxfordshire | Oxfordshire | £14,714 per annum | Mental Health and Wellbeing Partnerships Coordinator
+job_id: 108123305
 ---
 
 ## OXFORDSHIRE — POSSIBLES
@@ -3361,6 +3127,54 @@ SELECTED | Scotland Central - Fife | Fife |  | Sales Support Administrator
 job_id: 108082396
 ---
 
+---
+action:
+SELECTED | Scotland Central - Fife | Fife |  | Contact Centre Agent - Uncapped Commission
+job_id: 20279_62587-fe894c51f636dc624ee1b6b724f155fd
+---
+
+---
+action:
+SELECTED | Scotland Central - Fife | Fife |  | Call Centre Operator - Uncapped Commission
+job_id: 20279_62587-622e05dc0a3ef11dd20e889d3e7be357
+---
+
+---
+action:
+SELECTED | Scotland Central - Fife | Fife |  | Customer Service Advisor - Uncapped Commission
+job_id: 20279_62587-94b6a52ac48a89b812f668d756efc5fc
+---
+
+---
+action:
+SELECTED | Scotland Central - Fife | Fife |  | Contact Centre Agent - Uncapped Commission
+job_id: 20279_62587-fe4296972d1f5d1bd752129033370943
+---
+
+---
+action:
+SELECTED | Scotland Central - Fife | Fife |  | Call Centre Agent - Uncapped Commission
+job_id: 20279_62587-df1ef0f173cc3416ac9034d3711e128d
+---
+
+---
+action:
+SELECTED | Scotland Central - Fife | Fife |  | Call Centre Operator - Uncapped Commission
+job_id: 20279_62587-3667c2419ce53bcfc0b1ee36d6113fc7
+---
+
+---
+action:
+SELECTED | Scotland Central - Fife | Fife |  | Customer Service Advisor - Uncapped Commission
+job_id: 20279_62587-797164b7f2b371478eaa939418dccad8
+---
+
+---
+action:
+SELECTED | Scotland Central - Fife | Fife |  | Call Centre Agent - Uncapped Commission
+job_id: 20279_62587-13a1a275fde8e29ed03de08c3cac5658
+---
+
 ## SCOTLAND CENTRAL - FIFE — POSSIBLES
 
 _No jobs in this group._
@@ -3377,6 +3191,126 @@ job_id: 107922956
 action:
 SELECTED | Scotland Central - Tayside | Forfar | £35000 per year | Sales Coordinator (Agricultural)
 job_id: 107965670
+---
+
+---
+action:
+SELECTED | Scotland Central - Tayside | Dundee |  | Call Centre Agent - Uncapped Commission
+job_id: 20279_62587-89740a075c6163b74ea2c52702062e5d
+---
+
+---
+action:
+SELECTED | Scotland Central - Tayside | Dundee |  | Call Centre Operator - Uncapped Commission
+job_id: 20279_62587-73862c8b83139033e4e4a8b6efca9a33
+---
+
+---
+action:
+SELECTED | Scotland Central - Tayside | Forfar |  | Call Centre Agent - Uncapped Commission
+job_id: 20279_62587-bfc8f1e6df89e3f82c401f5fd9bfa1f6
+---
+
+---
+action:
+SELECTED | Scotland Central - Tayside | Forfar |  | Call Centre Operator - Uncapped Commission
+job_id: 20279_62587-cec6ad1c58e7d10254c15b1f63dc1f61
+---
+
+---
+action:
+SELECTED | Scotland Central - Tayside | Forfar |  | Contact Centre Agent - Uncapped Commission
+job_id: 20279_62587-66c703e3bd600def438c57a9957e4f6c
+---
+
+---
+action:
+SELECTED | Scotland Central - Tayside | Perth |  | Call Centre Operator - Uncapped Commission
+job_id: 20279_62587-66488da6cf6cbf418f6a1f59512162a2
+---
+
+---
+action:
+SELECTED | Scotland Central - Tayside | Newport-on-tay |  | Customer Service Advisor - Uncapped Commission
+job_id: 20279_62587-84ef7407a6e6c9814d3e8a213e3d352f
+---
+
+---
+action:
+SELECTED | Scotland Central - Tayside | Newport-on-tay |  | Call Centre Agent - Uncapped Commission
+job_id: 20279_62587-85bda5f69968db009ec735a538b82aa3
+---
+
+---
+action:
+SELECTED | Scotland Central - Tayside | Arbroath |  | Customer Service Advisor - Uncapped Commission
+job_id: 20279_62587-cf4f5be59d0aa6d4c0abf6ce35bb6463
+---
+
+---
+action:
+SELECTED | Scotland Central - Tayside | Arbroath |  | Call Centre Agent - Uncapped Commission
+job_id: 20279_62587-c101b319bc137225fafa61aeaba6dc30
+---
+
+---
+action:
+SELECTED | Scotland Central - Tayside | Dundee |  | Contact Centre Agent - Uncapped Commission
+job_id: 20279_62587-d24d3d6916a209e15b1680693740da2f
+---
+
+---
+action:
+SELECTED | Scotland Central - Tayside | Perth |  | Call Centre Agent - Uncapped Commission
+job_id: 20279_62587-877ff895dbc10af556a038d2b7991c58
+---
+
+---
+action:
+SELECTED | Scotland Central - Tayside | Newport-on-tay |  | Contact Centre Agent - Uncapped Commission
+job_id: 20279_62587-c71691d03ce30740b3ef4939f7f8240a
+---
+
+---
+action:
+SELECTED | Scotland Central - Tayside | Forfar |  | Customer Service Advisor - Uncapped Commission
+job_id: 20279_62587-8198db7b495b0167f0e25320a311b48c
+---
+
+---
+action:
+SELECTED | Scotland Central - Tayside | Arbroath |  | Contact Centre Agent - Uncapped Commission
+job_id: 20279_62587-c98305d276b3c0d4f253880a905d8860
+---
+
+---
+action:
+SELECTED | Scotland Central - Tayside | Newport-on-tay |  | Call Centre Operator - Uncapped Commission
+job_id: 20279_62587-e30d0db916659b1c87d6af5c544ebdc1
+---
+
+---
+action:
+SELECTED | Scotland Central - Tayside | Dundee |  | Customer Service Advisor - Uncapped Commission
+job_id: 20279_62587-153faf593eb64b88272f45adeaa28d87
+---
+
+---
+action:
+SELECTED | Scotland Central - Tayside | Perth |  | Customer Service Advisor - Uncapped Commission
+job_id: 20279_62587-104600f28dfa5a7196274b0564e9e1a5
+---
+
+---
+action:
+SELECTED | Scotland Central - Tayside | Perth |  | Contact Centre Agent - Uncapped Commission
+job_id: 20279_62587-5b04a622d16faab24418c418c50f5cf9
+---
+
+---
+action:
+SELECTED | Scotland Central - Tayside | Arbroath |  | Call Centre Operator - Uncapped Commission
+job_id: 20279_62587-22836ab78f967a50ab83122179a7cae7
 ---
 
 ## SCOTLAND CENTRAL - TAYSIDE — POSSIBLES
@@ -3603,6 +3537,12 @@ job_id: 108051759
 
 ---
 action:
+SELECTED | Suffolk | Suffolk | £30000 - £35000 per year | Town Planner - Tentatively Good CVS
+job_id: 2046226
+---
+
+---
+action:
 SELECTED | Suffolk | Suffolk |  | Traffic Planner
 job_id: 108059584
 ---
@@ -3623,12 +3563,6 @@ job_id: 23643_225691931
 action:
 SELECTED | Suffolk | Suffolk | £29500 per year | Credit Controller
 job_id: 2088520
----
-
----
-action:
-SELECTED | Suffolk | Suffolk |  | Customer Service Coordinator - Shipping & Logistics
-job_id: 2081348
 ---
 
 ---
@@ -3909,12 +3843,6 @@ job_id: 2067142
 
 ---
 action:
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham | £32000 per year | Service Advisor
-job_id: 2065554
----
-
----
-action:
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham | £140 per daily | Accounts Assistant
 job_id: 2069736
 ---
@@ -3985,6 +3913,12 @@ SELECTED | West Midlands - Black Country | Wolverhampton | £18 per hour | Credi
 job_id: 2089714
 ---
 
+---
+action:
+SELECTED | West Midlands - Black Country | West Bromwich | £34999 per year | Sales Support Specialist
+job_id: 108085695
+---
+
 ## WEST MIDLANDS - BLACK COUNTRY — POSSIBLES
 
 _No jobs in this group._
@@ -3995,6 +3929,12 @@ _No jobs in this group._
 action:
 SELECTED | Wiltshire | Wiltshire | £36000 per year | Service Advisor
 job_id: 107921669
+---
+
+---
+action:
+SELECTED | Wiltshire | Wiltshire |  | Legal Administrator
+job_id: 2017838
 ---
 
 ---
@@ -4196,8 +4136,8 @@ job_id: 107919550
 
 ---
 action:
-DROPPED | London | London | £28 per hour | Legal Assistant
-job_id: 2049270
+DROPPED | London | London | £50000 per year | Facilities Coordinator
+job_id: 2049365
 ---
 
 ---
