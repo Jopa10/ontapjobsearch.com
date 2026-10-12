@@ -1,6 +1,6 @@
 # Service-admin manual review
 
-feed_date: 2026-10-11
+feed_date: 2026-10-12
 
 Edit only the `action:` line in each block:
 
@@ -221,12 +221,6 @@ SELECTED | Yorkshire - South | Doncaster | no salary in JobG8 salary fields; no 
 job_id: 2092531
 ---
 
----
-action:
-SELECTED | Yorkshire - South | Sheffield | £25,081.00 per annum [extracted from description] | Income and Engagement Operations Administrator
-job_id: 2099961
----
-
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
@@ -247,6 +241,12 @@ _No jobs in this group._
 
 ---
 action:
+SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Junior Accounts Assistant
+job_id: 2018061
+---
+
+---
+action:
 SELECTED | London | London | £30000 - £33000 per year [JobG8 salary fields] | Payroll Administrator
 job_id: 2021649
 ---
@@ -255,12 +255,6 @@ job_id: 2021649
 action:
 SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Accounts Assistant
 job_id: 2021465
----
-
----
-action:
-SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Client Payroll Administrator / Accounts Assistant
-job_id: 2022318
 ---
 
 ---
@@ -1397,6 +1391,12 @@ SELECTED | Kent | Kent | £21 - £24 per hour [JobG8 salary fields] | Interim Pa
 job_id: 2093129
 ---
 
+---
+action:
+SELECTED | Kent | Kent | £28701 per year [JobG8 salary fields] | MAF in the Community (MiC) Resourcing Coordinator
+job_id: 107958419
+---
+
 ## KENT — POSSIBLES
 
 _No jobs in this group._
@@ -1410,12 +1410,6 @@ _No selector errors or unresolved rows outside the normal possible groups._
 _No selector errors or unresolved rows outside the normal possible groups._
 
 ## SUSSEX — SELECTED
-
----
-action:
-SELECTED | Sussex | Sussex | £17839 per year | Accommodation & International Admissions Administrative Assistant
-job_id: 107985976
----
 
 ---
 action:
@@ -1547,6 +1541,12 @@ job_id: 2092483
 action:
 SELECTED | Sussex | Sussex |  | Finance Assistant - Construction
 job_id: 2089635
+---
+
+---
+action:
+SELECTED | Sussex | Sussex | £21578 per year | Horticulture Resource Coordinator
+job_id: 107954542
 ---
 
 ## SUSSEX — POSSIBLES
@@ -1720,6 +1720,12 @@ job_id: 2087363
 _No jobs in this group._
 
 ## BERKSHIRE — SELECTED
+
+---
+action:
+SELECTED | Berkshire | Berkshire | £17.00-£20.00 per hour | Credit Controller
+job_id: 2017919
+---
 
 ---
 action:
@@ -1905,18 +1911,6 @@ job_id: 2076582
 action:
 SELECTED | Bristol & Bath | Bath |  | Part time Finance Assistant - 22. 5 hours per week
 job_id: 2070922
----
-
----
-action:
-SELECTED | Bristol & Bath | Bristol |  | Helpdesk Consultant
-job_id: 108091504
----
-
----
-action:
-SELECTED | Bristol & Bath | Bristol |  | Office Coordinator
-job_id: 28025_JR99
 ---
 
 ## BRISTOL & BATH — POSSIBLES
@@ -2123,12 +2117,6 @@ job_id: 2087007
 action:
 SELECTED | Cambridgeshire | Peterborough | £14.22 per hour | IT Helpdesk Advisor - Dutch Speaker
 job_id: 108061988
----
-
----
-action:
-SELECTED | Cambridgeshire | Peterborough | £24686 per year | HR Assistant
-job_id: 108123858
 ---
 
 ## CAMBRIDGESHIRE — POSSIBLES
@@ -2355,12 +2343,6 @@ job_id: 108060887
 
 ---
 action:
-SELECTED | Devon | Devon | £24866 per year | Admin Assistant
-job_id: 107719278
----
-
----
-action:
 SELECTED | Devon | Devon |  | Administrator
 job_id: 107919719
 ---
@@ -2376,12 +2358,6 @@ job_id: 108092427
 _No jobs in this group._
 
 ## DORSET — SELECTED
-
----
-action:
-SELECTED | Dorset | Dorset | £13999 per year | Activities Coordinator
-job_id: 107992811
----
 
 ---
 action:
@@ -2709,12 +2685,6 @@ job_id: 2057679
 
 ---
 action:
-SELECTED | Essex | Essex | £14.95 per hour | Vehicle Administrator
-job_id: 2057165
----
-
----
-action:
 SELECTED | Essex | Essex | £16480 per year | Part-Time Bookkeeper
 job_id: 2057206
 ---
@@ -2795,18 +2765,6 @@ job_id: 2089705
 action:
 SELECTED | Essex | Essex |  | Product Support Analyst - Helpdesk
 job_id: 2092864
----
-
----
-action:
-SELECTED | Essex | Essex |  | Property Inspections Team Coordinator
-job_id: 562663695354272153637341
----
-
----
-action:
-SELECTED | Essex | Essex |  | Property Inspections Team Coordinator
-job_id: 562663695354272153637340
 ---
 
 ## ESSEX — POSSIBLES
@@ -2891,6 +2849,12 @@ job_id: 23643_225503952
 action:
 SELECTED | Gloucestershire | Gloucestershire | £26000 per year | Care Coordinator
 job_id: 108064327
+---
+
+---
+action:
+SELECTED | Gloucestershire | Gloucestershire | £26658 per year | Customer Service Advisor
+job_id: 108114606
 ---
 
 ## GLOUCESTERSHIRE — POSSIBLES
@@ -3333,14 +3297,8 @@ job_id: 2092784
 
 ---
 action:
-SELECTED | Hertfordshire | Hertfordshire | £3,757 per annum | Mental Health Support Coordinator (Children and Young People) - Herts Haven Cafe
-job_id: 2106847
----
-
----
-action:
-SELECTED | Hertfordshire | Hertfordshire |  | Assistant Company Secretary
-job_id: 108090697
+SELECTED | Hertfordshire | Hertfordshire |  | HR Service Coordinator
+job_id: 108117718
 ---
 
 ## HERTFORDSHIRE — POSSIBLES
@@ -3389,12 +3347,6 @@ job_id: 2089039
 action:
 SELECTED | Lancashire - East | Colne |  | Customer Service & Sales Administrator
 job_id: 2091875
----
-
----
-action:
-SELECTED | Lancashire - East | Clitheroe | £34999 per year | Raw Materials Coordinator
-job_id: 108093747
 ---
 
 ## LANCASHIRE - EAST — POSSIBLES
@@ -3515,12 +3467,6 @@ job_id: 2089307
 action:
 SELECTED | Lincolnshire | Lincolnshire |  | Demand Planner
 job_id: 2089149
----
-
----
-action:
-SELECTED | Lincolnshire | Stamford | £31493 per year | Student Inclusion and Engagement Coordinator
-job_id: 108070241
 ---
 
 ## LINCOLNSHIRE — POSSIBLES
@@ -3713,6 +3659,12 @@ _No jobs in this group._
 
 ---
 action:
+SELECTED | North Scotland | Aberdeen | £33000 - £35000 per year | Finance Assistant (with Payroll)
+job_id: 2017882
+---
+
+---
+action:
 SELECTED | North Scotland | Inverness |  | Private Client Paralegal
 job_id: 2020857
 ---
@@ -3721,12 +3673,6 @@ job_id: 2020857
 action:
 SELECTED | North Scotland | Inverness |  | Bookkeeper
 job_id: 2063984
----
-
----
-action:
-SELECTED | North Scotland | Inverness |  | Bookkeeper
-job_id: 108073904
 ---
 
 ## NORTH SCOTLAND — POSSIBLES
@@ -3799,17 +3745,17 @@ SELECTED | Northamptonshire | Northamptonshire | £30000 - £32000 per year | Su
 job_id: 2080427
 ---
 
+---
+action:
+SELECTED | Northamptonshire | Northamptonshire | £24000 per year | HR and Payroll Administrator
+job_id: 108120982
+---
+
 ## NORTHAMPTONSHIRE — POSSIBLES
 
 _No jobs in this group._
 
 ## NORTHERN IRELAND - EAST — SELECTED
-
----
-action:
-SELECTED | Northern Ireland - East | Lisburn |  | Commercial Vehicles Administrator
-job_id: 107952610
----
 
 ---
 action:
@@ -3835,11 +3781,23 @@ SELECTED | Northern Ireland - East | Lisburn |  | Credit Controller
 job_id: 108056565
 ---
 
+---
+action:
+SELECTED | Northern Ireland - East | Lisburn |  | Commercial Vehicles Administrator
+job_id: 107952610
+---
+
 ## NORTHERN IRELAND - EAST — POSSIBLES
 
 _No jobs in this group._
 
 ## NOTTINGHAMSHIRE — SELECTED
+
+---
+action:
+SELECTED | Nottinghamshire | Nottinghamshire | £30000 per year | Subsidence Claims Handler
+job_id: 2021344
+---
 
 ---
 action:
@@ -4015,12 +3973,6 @@ SELECTED | Scotland Central - Edinburgh & Lothians | Livingston | £25000 per ye
 job_id: 2077151
 ---
 
----
-action:
-SELECTED | Scotland Central - Edinburgh & Lothians | Edinburgh | £26800 per year | Russian Customer Service Advisor
-job_id: 107916313
----
-
 ## SCOTLAND CENTRAL - EDINBURGH & LOTHIANS — POSSIBLES
 
 _No jobs in this group._
@@ -4113,7 +4065,11 @@ job_id: 2091438
 
 ## SCOTLAND WEST - GLASGOW — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - SCOTLAND WEST - GLASGOW | Scotland West - Glasgow | Glasgow | £50000 per year | HR Administrator Placement Programme - No Experience Needed
+job_id: 108092644
+---
 
 ## SHROPSHIRE — SELECTED
 
@@ -4265,6 +4221,12 @@ job_id: 108111116
 action:
 SELECTED | Staffordshire | Staffordshire |  | Sales Coordinator
 job_id: 108062618
+---
+
+---
+action:
+SELECTED | Staffordshire | Staffordshire | £23999 per year | Payroll Administrator
+job_id: 108122126
 ---
 
 ## STAFFORDSHIRE — POSSIBLES
@@ -4501,6 +4463,12 @@ SELECTED | Suffolk | Suffolk |  | LTQR Records Coordinator
 job_id: 108081373
 ---
 
+---
+action:
+SELECTED | Suffolk | Suffolk | £34000 per year | Service Administrator (Machinery Hire)
+job_id: 108118706
+---
+
 ## SUFFOLK — POSSIBLES
 
 ---
@@ -4631,6 +4599,12 @@ SELECTED | Wales South - Swansea Bay | Swansea | £30000 - £32000 per year | Ac
 job_id: 2067966
 ---
 
+---
+action:
+SELECTED | Wales South - Swansea Bay | Swansea |  | Trainee HR Administrator
+job_id: 2101939
+---
+
 ## WALES SOUTH - SWANSEA BAY — POSSIBLES
 
 _No jobs in this group._
@@ -4690,6 +4664,12 @@ job_id: 20279_62802-d24d3d6916a209e15b1680693740da2f
 _No jobs in this group._
 
 ## WEST MIDLANDS - BIRMINGHAM & SOLIHULL — SELECTED
+
+---
+action:
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham |  | Sales Administrator
+job_id: 2021377
+---
 
 ---
 action:
@@ -4813,11 +4793,7 @@ job_id: 2091231
 
 ## WEST MIDLANDS - BIRMINGHAM & SOLIHULL — POSSIBLES
 
----
-action:
-POSS - WEST MIDLANDS - BIRMINGHAM & SOLIHULL | West Midlands - Birmingham & Solihull | Birmingham | £45000 per year | Solar PV Coordinator (In-Roof Systems)
-job_id: 108089617
----
+_No jobs in this group._
 
 ## WEST MIDLANDS - BLACK COUNTRY — SELECTED
 
@@ -4861,6 +4837,12 @@ job_id: 107921669
 action:
 SELECTED | Wiltshire | Wiltshire |  | Team Coordinator
 job_id: 2068542
+---
+
+---
+action:
+SELECTED | Wiltshire | Wiltshire |  | Full Time Receptionist
+job_id: 108121017
 ---
 
 ## WILTSHIRE — POSSIBLES

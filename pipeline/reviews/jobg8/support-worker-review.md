@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-10-11
+feed_date: 2026-10-12
 
 Edit only the `action:` line in each block:
 
@@ -11,7 +11,11 @@ Edit only the `action:` line in each block:
 
 ## WEST YORKSHIRE — SELECTED
 
-_No jobs in this group._
+---
+action:
+SELECTED | Yorkshire - West | Castleford | £3,840 per year | Children's Residential Support Worker
+job_id: 25362_JR105248-1
+---
 
 ## WEST YORKSHIRE — POSSIBLES
 
@@ -27,7 +31,11 @@ _No jobs in this group._
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — SELECTED
 
-_No jobs in this group._
+---
+action:
+SELECTED | North East - Tyneside, Wearside & Northumberland | Whitley Bay | £12.85 per hour (plus rolled up holiday pay) | Female Relief Support Worker
+job_id: 108123659
+---
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
 
@@ -47,18 +55,6 @@ _No jobs in this group._
 action:
 SELECTED | Sussex | Hailsham | £29827 per year | Residential Support Worker - Children's Care
 job_id: 108062155
----
-
----
-action:
-SELECTED | Sussex | Crawley | £14.06 per hour | Care Assistant
-job_id: 108053298
----
-
----
-action:
-SELECTED | Sussex | Crawley | £14.06 per hour | Night Care Assistant
-job_id: 108053317
 ---
 
 ## SUSSEX — POSSIBLES
@@ -99,8 +95,8 @@ job_id: 108113712
 
 ---
 action:
-SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour | Waking Night Extra Care Support Worker
-job_id: 108115073
+SELECTED | Cumbria - South | Kendal | £26425 per year | Support Worker
+job_id: 108116662
 ---
 
 ## CUMBRIA SOUTH — POSSIBLES
@@ -108,12 +104,6 @@ job_id: 108115073
 _No jobs in this group._
 
 ## HAMPSHIRE — SELECTED
-
----
-action:
-SELECTED | Hampshire | Winchester | £28697 - £31573 per year | Children's Homes Support Worker
-job_id: 1401785482
----
 
 ---
 action:
@@ -153,14 +143,20 @@ job_id: 1401785691
 
 ---
 action:
-SELECTED | Hampshire | Ryde | £17485 per year | Care and Support Worker
-job_id: 108088501
+SELECTED | Hampshire | New Milton | £12.8 - £15.75 per hour | Extra Care Support Worker - Gore Grange
+job_id: 108121734
 ---
 
 ---
 action:
-SELECTED | Hampshire | New Milton | £12.8 - £15.75 per hour | Extra Care Support Worker - Gore Grange
-job_id: 108121734
+SELECTED | Hampshire | Hayling Island | £28697 - £31573 per year | Support Worker (Adults)
+job_id: 1401785799
+---
+
+---
+action:
+SELECTED | Hampshire | Tadley | £27456 per year | Female Waking Night Support Worker
+job_id: 107941132
 ---
 
 ## HAMPSHIRE — POSSIBLES
@@ -179,12 +175,6 @@ job_id: 1402265374
 action:
 SELECTED | Kent | Dartford | £14 per hour | Female Lifestyle Personal Assistant
 job_id: 108091635
----
-
----
-action:
-SELECTED | Kent | Margate | £13.01 - £13.42 per hour | Complex Needs Support Worker (Day Resource Services)
-job_id: 108113450
 ---
 
 ## KENT — POSSIBLES
@@ -227,6 +217,12 @@ job_id: 107626594
 action:
 SELECTED | Oxfordshire | Abingdon | £26696 per year | Support Worker
 job_id: 108090984
+---
+
+---
+action:
+SELECTED | Oxfordshire | Abingdon | £27417 per year | Female Support Worker
+job_id: 108090914
 ---
 
 ## OXFORDSHIRE — POSSIBLES
