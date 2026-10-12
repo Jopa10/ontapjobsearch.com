@@ -8,7 +8,7 @@ const routeKey = "london/service-administrator-jobs";
 const canonicalUrl = "https://www.ontapjobsearch.com/london/service-administrator-jobs";
 
 export const metadata: Metadata = {
-  title: "London Admin & Customer Service Jobs | Ontap Job Search",
+  title: "Admin and Office Jobs in London | Ontap",
   description:
     "Browse service administrator, customer service administrator and office support jobs across London, with optional Central, North, East, South and West London views.",
   alternates: {
@@ -55,9 +55,9 @@ export default function Page() {
     <JobSlicePage
       jsonPath={["app", "london", "service-administrator-jobs.json"]}
       region="London"
-      title="London Admin & Customer Service Jobs"
+      title="Admin, Office, Reception and Customer Service Jobs in London"
       latestUpdate={latestUpdate}
-      introText={`Updated daily • Latest update: ${latestUpdate} • Roles across London • Apply on employer sites`}
+      introText={`Browse current administration, office support, reception and customer service jobs across London, plus accounts and finance support roles with a substantial administrative element. Jobs are checked and updated daily. Latest update: ${latestUpdate} • Apply on employer sites`}
       anchorTown="London"
       jobFilter={isLondonJob}
       sectorFilterEnabled

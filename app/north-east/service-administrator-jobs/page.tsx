@@ -11,7 +11,7 @@ const routeKey = "north-east/service-administrator-jobs";
 const canonicalUrl = "https://www.ontapjobsearch.com/north-east/service-administrator-jobs";
 
 export const metadata: Metadata = {
-  title: "Admin and Office Jobs in the North East | Ontap",
+  title: "Admin and Office Jobs in North East | Ontap",
   description:
     "Browse service administrator, customer service administrator and office support jobs across Newcastle and the North East.",
   alternates: {
@@ -57,9 +57,9 @@ export default function Page() {
     <JobSlicePage
       jsonPath={["app", "north-east", "service-administrator-jobs.json"]}
       region="North East"
-      title="Admin, Office, Reception and Customer Service Jobs in the North East"
+      title="Admin, Office, Reception and Customer Service Jobs in North East"
       latestUpdate={latestUpdate}
-      introText={`Browse current administration, office support, reception and customer service jobs across the North East, plus accounts and finance support roles with a substantial administrative element. Jobs are checked and updated daily. Latest update: ${latestUpdate} • Apply on employer sites`}
+      introText={`Browse current administration, office support, reception and customer service jobs across North East, plus accounts and finance support roles with a substantial administrative element. Jobs are checked and updated daily. Latest update: ${latestUpdate} • Apply on employer sites`}
       anchorTown="Newcastle"
       trainingHeading="Boost your admin applications"
       trainingSubheading="Useful online learning commonly requested for service-administrator and office support roles"

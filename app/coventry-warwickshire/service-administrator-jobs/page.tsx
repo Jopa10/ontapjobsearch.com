@@ -7,7 +7,7 @@ const canonicalUrl =
   "https://www.ontapjobsearch.com/coventry-warwickshire/service-administrator-jobs";
 
 export const metadata: Metadata = {
-  title: "Coventry & Warwickshire Service Administrator Jobs | Ontap Job Search",
+  title: "Admin and Office Jobs in Coventry & Warwickshire | Ontap",
   description:
     "Browse service administrator, customer service administrator and office support jobs across Coventry and Warwickshire.",
   alternates: {
@@ -40,12 +40,14 @@ const adminTraining = [
 ];
 
 export default function Page() {
+  const latestUpdate = getJobPageStatus(routeKey);
   return (
     <JobSlicePage
       jsonPath={["app", "coventry-warwickshire", "service-administrator-jobs.json"]}
       region="Coventry & Warwickshire"
-      title="Coventry & Warwickshire Service Administrator Jobs"
-      latestUpdate={getJobPageStatus(routeKey)}
+      title="Admin, Office, Reception and Customer Service Jobs in Coventry & Warwickshire"
+      latestUpdate={latestUpdate}
+      introText={`Browse current administration, office support, reception and customer service jobs across Coventry & Warwickshire, plus accounts and finance support roles with a substantial administrative element. Jobs are checked and updated daily. Latest update: ${latestUpdate} • Apply on employer sites`}
       anchorTown="Coventry"
       trainingHeading="Boost your admin applications"
       trainingSubheading="Useful online learning commonly requested for service-administrator and office support roles"

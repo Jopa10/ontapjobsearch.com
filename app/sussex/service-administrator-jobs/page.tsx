@@ -6,7 +6,7 @@ const routeKey = "sussex/service-administrator-jobs";
 const canonicalUrl = "https://www.ontapjobsearch.com/sussex/service-administrator-jobs";
 
 export const metadata: Metadata = {
-  title: "Sussex Service Administrator Jobs | Ontap Job Search",
+  title: "Admin and Office Jobs in Sussex | Ontap",
   description:
     "Browse service administrator, customer service administrator and office support jobs across Brighton and Sussex.",
   alternates: {
@@ -39,12 +39,14 @@ const adminTraining = [
 ];
 
 export default function Page() {
+  const latestUpdate = getJobPageStatus(routeKey);
   return (
     <JobSlicePage
       jsonPath={["app", "sussex", "service-administrator-jobs.json"]}
       region="Sussex"
-      title="Sussex Service Administrator Jobs"
-      latestUpdate={getJobPageStatus(routeKey)}
+      title="Admin, Office, Reception and Customer Service Jobs in Sussex"
+      latestUpdate={latestUpdate}
+      introText={`Browse current administration, office support, reception and customer service jobs across Sussex, plus accounts and finance support roles with a substantial administrative element. Jobs are checked and updated daily. Latest update: ${latestUpdate} • Apply on employer sites`}
       anchorTown="Brighton"
       trainingHeading="Boost your admin applications"
       trainingSubheading="Useful online learning commonly requested for service-administrator and office support roles"

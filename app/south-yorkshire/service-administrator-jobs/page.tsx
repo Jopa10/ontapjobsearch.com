@@ -5,7 +5,7 @@ import { getJobPageStatus } from "@/config/job-page-status";
 const canonicalUrl = "https://www.ontapjobsearch.com/south-yorkshire/service-administrator-jobs";
 
 export const metadata: Metadata = {
-  title: "South Yorkshire Service Administrator Jobs | Ontap Job Search",
+  title: "Admin and Office Jobs in South Yorkshire | Ontap",
   description:
     "Browse service administrator, customer service administrator and office support jobs across Sheffield and South Yorkshire.",
   alternates: {
@@ -46,7 +46,7 @@ export default function Page() {
     <JobSlicePage
       jsonPath={["app", "south-yorkshire", "service-administrator-jobs.json"]}
       region="South Yorkshire"
-      title="Service administrator jobs in South Yorkshire"
+      title="Admin, Office, Reception and Customer Service Jobs in South Yorkshire"
       latestUpdate={latestUpdate}
       anchorTown="Sheffield"
       relatedPage={{
@@ -54,7 +54,7 @@ export default function Page() {
         prompt: "Also searching around West Yorkshire?",
         label: "View West Yorkshire admin & customer-service jobs",
       }}
-      introText={`Current admin, office-support and customer-service jobs across South Yorkshire. Jobs are checked and updated daily. Latest update: ${latestUpdate} • Apply on employer sites`}
+      introText={`Browse current administration, office support, reception and customer service jobs across South Yorkshire, plus accounts and finance support roles with a substantial administrative element. Jobs are checked and updated daily. Latest update: ${latestUpdate} • Apply on employer sites`}
       trainingHeading="Boost your admin applications"
       trainingSubheading="Useful online learning commonly requested for service-administrator and office support roles"
       trainingItems={adminTraining}

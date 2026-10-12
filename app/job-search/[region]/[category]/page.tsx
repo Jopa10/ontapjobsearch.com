@@ -40,7 +40,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!slice) return {};
   const canonical = `${siteUrl}${slice.route}`;
   return {
-    title: `${slice.title} | Ontap Job Search`,
+    title: slice.categorySlug === "service-administrator-jobs"
+      ? `Admin and Office Jobs in ${slice.region} | Ontap`
+      : `${slice.title} | Ontap Job Search`,
     description: `Browse current ${slice.displayLabel.toLowerCase()} jobs across ${slice.region}. Apply on employer sites.`,
     alternates: { canonical },
   };
@@ -72,10 +74,14 @@ export default async function Page({ params }: PageProps) {
         `${slice.categorySlug}.json`,
       ]}
       region={slice.region}
-      title={slice.title}
+      title={slice.categorySlug === "service-administrator-jobs"
+        ? `Admin, Office, Reception and Customer Service Jobs in ${slice.region}`
+        : slice.title}
       latestUpdate={latestUpdate}
       anchorTown={slice.anchorTown}
-      introText={`Updated daily • Latest update: ${latestUpdate} • Roles across ${slice.region} • Apply on employer sites`}
+      introText={slice.categorySlug === "service-administrator-jobs"
+        ? `Browse current administration, office support, reception and customer service jobs across ${slice.region}, plus accounts and finance support roles with a substantial administrative element. Jobs are checked and updated daily. Latest update: ${latestUpdate} • Apply on employer sites`
+        : `Updated daily • Latest update: ${latestUpdate} • Roles across ${slice.region} • Apply on employer sites`}
       pageIntro={
         slice.regionSlug === "london" && slice.categorySlug === "paralegal-jobs"
           ? "Browse London paralegal and legal assistant jobs. Listings can include roles in property, litigation, immigration, employment and family law. Use the search controls to narrow the results, then apply on the employer’s site."

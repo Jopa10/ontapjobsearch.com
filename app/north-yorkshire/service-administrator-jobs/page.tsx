@@ -7,7 +7,7 @@ const canonicalUrl =
   "https://www.ontapjobsearch.com/north-yorkshire/service-administrator-jobs";
 
 export const metadata: Metadata = {
-  title: "North Yorkshire Service Administrator Jobs | Ontap Job Search",
+  title: "Admin and Office Jobs in North Yorkshire | Ontap",
   description:
     "Browse service administrator, customer service administrator and office support jobs across York and North Yorkshire.",
   alternates: {
@@ -40,12 +40,14 @@ const adminTraining = [
 ];
 
 export default function Page() {
+  const latestUpdate = getJobPageStatus(routeKey);
   return (
     <JobSlicePage
       jsonPath={["app", "north-yorkshire", "service-administrator-jobs.json"]}
       region="North Yorkshire"
-      title="North Yorkshire Service Administrator Jobs"
-      latestUpdate={getJobPageStatus(routeKey)}
+      title="Admin, Office, Reception and Customer Service Jobs in North Yorkshire"
+      latestUpdate={latestUpdate}
+      introText={`Browse current administration, office support, reception and customer service jobs across North Yorkshire, plus accounts and finance support roles with a substantial administrative element. Jobs are checked and updated daily. Latest update: ${latestUpdate} • Apply on employer sites`}
       anchorTown="York"
       trainingHeading="Boost your admin applications"
       trainingSubheading="Useful online learning commonly requested for service-administrator and office support roles"

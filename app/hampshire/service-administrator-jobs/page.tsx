@@ -6,7 +6,7 @@ const routeKey = "hampshire/service-administrator-jobs";
 const canonicalUrl = "https://www.ontapjobsearch.com/hampshire/service-administrator-jobs";
 
 export const metadata: Metadata = {
-  title: "Hampshire Service Administrator Jobs | Ontap Job Search",
+  title: "Admin and Office Jobs in Hampshire | Ontap",
   description:
     "Browse service administrator, customer service administrator and office support jobs across Hampshire.",
   alternates: {
@@ -39,12 +39,14 @@ const adminTraining = [
 ];
 
 export default function Page() {
+  const latestUpdate = getJobPageStatus(routeKey);
   return (
     <JobSlicePage
       jsonPath={["app", "hampshire", "service-administrator-jobs.json"]}
       region="Hampshire"
-      title="Hampshire Service Administrator Jobs"
-      latestUpdate={getJobPageStatus(routeKey)}
+      title="Admin, Office, Reception and Customer Service Jobs in Hampshire"
+      latestUpdate={latestUpdate}
+      introText={`Browse current administration, office support, reception and customer service jobs across Hampshire, plus accounts and finance support roles with a substantial administrative element. Jobs are checked and updated daily. Latest update: ${latestUpdate} • Apply on employer sites`}
       anchorTown="Southampton"
       trainingHeading="Boost your admin applications"
       trainingSubheading="Useful online learning commonly requested for service-administrator and office support roles"
