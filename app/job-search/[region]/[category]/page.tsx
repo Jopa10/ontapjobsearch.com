@@ -41,7 +41,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const canonical = `${siteUrl}${slice.route}`;
   return {
     title: slice.categorySlug === "service-administrator-jobs"
-      ? `Admin and Office Jobs in ${slice.region} | Ontap`
+      ? `Admin and Office Jobs in ${seoRegion} | Ontap`
       : `${slice.title} | Ontap Job Search`,
     description: `Browse current ${slice.displayLabel.toLowerCase()} jobs across ${slice.region}. Apply on employer sites.`,
     alternates: { canonical },
@@ -55,6 +55,7 @@ export default async function Page({ params }: PageProps) {
 
   const routeKey = `job-search/${slice.regionSlug}/${slice.categorySlug}`;
   const latestUpdate = getJobPageStatus(routeKey);
+  const seoRegion = slice.region === "North East" ? "the North East" : slice.region;
   const isSupport = slice.category === "support_worker";
   const aiTipsSource = getAiTipsSourceForJsonPath([
     "app",
@@ -75,12 +76,12 @@ export default async function Page({ params }: PageProps) {
       ]}
       region={slice.region}
       title={slice.categorySlug === "service-administrator-jobs"
-        ? `Admin, Office, Reception and Customer Service Jobs in ${slice.region}`
+        ? `Admin, Office, Reception and Customer Service Jobs in ${seoRegion}`
         : slice.title}
       latestUpdate={latestUpdate}
       anchorTown={slice.anchorTown}
       introText={slice.categorySlug === "service-administrator-jobs"
-        ? `Browse current administration, office support, reception and customer service jobs across ${slice.region}, plus accounts and finance support roles with a substantial administrative element. Jobs are checked and updated daily. Latest update: ${latestUpdate} • Apply on employer sites`
+        ? `Browse current administration, office support, reception and customer service jobs across ${seoRegion}, plus accounts and finance support roles with a substantial administrative element. Jobs are checked and updated daily. Latest update: ${latestUpdate} • Apply on employer sites`
         : `Updated daily • Latest update: ${latestUpdate} • Roles across ${slice.region} • Apply on employer sites`}
       pageIntro={
         slice.regionSlug === "london" && slice.categorySlug === "paralegal-jobs"
