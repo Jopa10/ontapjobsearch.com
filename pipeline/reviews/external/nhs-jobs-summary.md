@@ -2,15 +2,63 @@
 
 review_date: 2026-10-12
 
-- Open Administrative & Clerical rows reviewed: 2111
+- Open Administrative & Clerical rows reviewed: 2113
 - Auto/remembered selected: 370
 - Selected HC Tier A: 195
 - Selected HC Tier B: 175
-- POSS awaiting decision: 1642
+- POSS awaiting decision: 1644
 - Excluded: 0
 - HARD_PASS: 99
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Berkshire | Reading, RG1 5AN | £57528.00 to £64750.00 | Digital Test Lead
+source_job_id: 5656659
+title: Digital Test Lead
+employer: Royal Berkshire NHS Foundation Trust
+region: Berkshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9193-26-0684
+factual_fingerprint: 8084603e0e33ad111bb2362780babdd576c57c27b6c79b40de09438ba525165a
+---
+
+---
+action:
+POSS | NHS Jobs | Berkshire | Reading, RG1 5AN | £25272.00 | Emergency Department Data Quality Support
+source_job_id: 5656816
+title: Emergency Department Data Quality Support
+employer: Royal Berkshire NHS Foundation Trust
+region: Berkshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9193-26-0686
+factual_fingerprint: 69f3183a10b7458c77c8d42b516f897651e7f06edb45d92ce12f23fc2f68f812
+---
+
+---
+action:
+POSS | NHS Jobs | Devon | Exeter, EX5 1NZ | £25571.00 to £26390.00 | Admin Team Leader
+source_job_id: 5656602
+title: Admin Team Leader
+employer: Woodbury Surgery
+region: Devon
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0570-26-0006
+factual_fingerprint: 92a0fd902f47bbc91d91a17059fb74e0c9788dce463e62237a0051178cf01fb6
+---
+
+---
+action:
+POSS | NHS Jobs | Berkshire | Reading, RG1 5AN | £39959.00 to £48117.00 | Junior Digital Test Engineer
+source_job_id: 5656606
+title: Junior Digital Test Engineer
+employer: Royal Berkshire NHS Foundation Trust
+region: Berkshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9193-26-0683
+factual_fingerprint: 456b3fc56e4edf1d3bf6550d48e3b51cfa150b3742026378570578179059c3a9
+---
 
 ---
 action:
@@ -2805,7 +2853,7 @@ employer: GP Practice in Wales
 region: 
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M0044-26-0348
-factual_fingerprint: 527d3a3b0dd3e86e1a961452e49a50f5bed8fab9107dca52dd7456a2cb856c0e
+factual_fingerprint: 82132815f12498619497431039a785bf9b4352c83d1a8b8c3b11211f6ab26b8b
 ---
 
 ---
@@ -4846,18 +4894,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1561-26-0002
 factual_fingerprint: b61b5c4922330915a4db5aa3780f95727db2f0fb804296c6314a2f018ece328f
----
-
----
-action:
-POSS | NHS Jobs | Wales - West | Haverfordwest, SA61 2PZ | £26300.00 to £27890.00 | Fracture Liaison Service (FLS) Administrator
-source_job_id: 5650766
-title: Fracture Liaison Service (FLS) Administrator
-employer: Hywel Dda University Health Board
-region: Wales - West
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9100-26-1166
-factual_fingerprint: 897a244a9ac96a497e07462af3459d8ba909a51f6b46eb1fa98aa61f32ae828f
 ---
 
 ---
@@ -7054,18 +7090,6 @@ region: West Midlands - Coventry & Warwickshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9203-26-0619
 factual_fingerprint: ecb07e3a9799ae6017c1323c2db33fc5bde3627278b57493688fff45ce7d7433
----
-
----
-action:
-POSS | NHS Jobs | Yorkshire - North | Harrogate, HG2 7SX | £25760.00 to £27476.00 | Patient Liaison Lead for Orthopaedic Frailty **Internal Apps Only**
-source_job_id: 5647285
-title: Patient Liaison Lead for Orthopaedic Frailty **Internal Apps Only**
-employer: Harrogate and District NHS Foundation Trust
-region: Yorkshire - North
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9421-26-0505
-factual_fingerprint: d926437f5293066544337a30374695e68e7748726a6896c39bebf8858b78809e
 ---
 
 ---
