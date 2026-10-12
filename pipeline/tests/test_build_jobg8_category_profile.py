@@ -73,13 +73,19 @@ class JobG8CategoryProfileTests(unittest.TestCase):
             2,
         )
 
-    def test_overview_rebuilds_after_review_apply_completes(self) -> None:
+    def test_overview_rebuilds_after_successful_production_deploy(self) -> None:
         repo_root = Path(__file__).resolve().parents[2]
         workflow = (
             repo_root / ".github/workflows/build-daily-region-overview.yml"
         ).read_text(encoding="utf-8")
 
-        self.assertIn("- Apply JobG8 review decisions", workflow)
+        self.assertIn("- Deploy Ontap production after publish", workflow)
+        self.assertIn(
+            "github.event.workflow_run.conclusion == 'success'",
+            workflow,
+        )
+        self.assertIn("name: Download verified production SHA", workflow)
+        self.assertIn("name: Check out the exact deployed source commit", workflow)
 
 
 if __name__ == "__main__":
