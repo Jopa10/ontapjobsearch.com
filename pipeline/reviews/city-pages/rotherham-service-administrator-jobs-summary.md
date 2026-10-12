@@ -162,6 +162,18 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Clerical Officer
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S10 2JF
+source: NHS Jobs
+job_id: nhs-5657398
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Contact Centre Agent
 company: EE - Company - Permanent
 location: Doncaster
@@ -251,18 +263,6 @@ company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2063431
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: ID Medical
-location: Barnsley, s752ep
-source: NHS Jobs
-job_id: nhs-5641970
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 23
+- automatic review: 24
 - automatic exclude: 11
 - effective include: 4
-- effective review: 23
+- effective review: 24
 - effective exclude: 11
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: nhs-5649373
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (23)
+## REVIEW (24)
 
 ---
 action: 
@@ -324,6 +324,18 @@ location: Sussex
 source: JobG8
 job_id: jobg8-2021499
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Bird In Eye Surgery
+location: Uckfield, TN22 5AW
+source: NHS Jobs
+job_id: nhs-5657299
+reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
 ---

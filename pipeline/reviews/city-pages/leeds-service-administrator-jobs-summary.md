@@ -64,6 +64,18 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Care Navigator/Receptionist
+company: Ireland Wood & Horsforth Medical Practice
+location: Leeds, LS16 6FR
+source: NHS Jobs
+job_id: nhs-5656950
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Casualty Claims Handler
 company: Adjusting Appointments Limited - Agency - Permanent
 location: Leeds
@@ -117,18 +129,6 @@ company: G2 Legal Limited - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-2043136
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Administrator
-company: Oakwood Lane Medical Practice
-location: Leeds, LS8 3BZ
-source: NHS Jobs
-job_id: nhs-5648147
 reason: Approved Leeds catchment.
 ---
 

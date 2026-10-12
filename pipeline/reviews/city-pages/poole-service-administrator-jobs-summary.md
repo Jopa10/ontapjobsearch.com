@@ -103,18 +103,6 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Dorset HealthCare University NHS Foundation Trust
-location: Weymouth, DT4 7TB
-source: NHS Jobs
-job_id: nhs-5655240
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
 company: Regent's Park Healthcare
 location: Bournemouth, BH7 7DW
 source: NHS Jobs
@@ -287,6 +275,18 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225649037
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Beaufort Road Surgery
+location: Bournemouth, BH6 5AJ
+source: NHS Jobs
+job_id: nhs-5586731
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

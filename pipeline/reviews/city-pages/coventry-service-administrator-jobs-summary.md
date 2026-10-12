@@ -164,18 +164,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Clinical Administrator
-company: The Myton Hospices
-location: Coventry, CV2 2HJ, WARWICK, CV34 6PX, RUGBY, CV22 5PY
-source: NHS Jobs
-job_id: nhs-5647678
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Conveyancing Legal Assistant
 company: G2 Legal Limited - Agency - Permanent
 location: Leamington Spa
@@ -253,6 +241,18 @@ company: TalentTech Recruitment - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-2056868
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Medical Receptionist
+company: Rother House Medical Centre
+location: Stratford-upon-avon, CV37 6PP
+source: NHS Jobs
+job_id: nhs-5657937
 reason: Separate employment market.
 ---
 

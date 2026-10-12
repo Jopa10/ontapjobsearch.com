@@ -4,7 +4,7 @@
 - Live route: `/southampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
+- automatic include: 8
 - automatic review: 29
-- automatic exclude: 13
-- effective include: 6
+- automatic exclude: 11
+- effective include: 8
 - effective review: 29
-- effective exclude: 13
+- effective exclude: 11
 
-## INCLUDE (6)
+## INCLUDE (8)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Michael Page Finance - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-2042236
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administration Assistant
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Southampton, SO16 4XE
+source: NHS Jobs
+job_id: nhs-5657473
 reason: Approved Southampton catchment.
 ---
 
@@ -76,11 +88,11 @@ reason: Approved Southampton catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Locality Administrator
+title: Personal Assistant
 company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO14 0JY
+location: Southampton, SO14 0YG
 source: NHS Jobs
-job_id: nhs-5642963
+job_id: nhs-5657296
 reason: Approved Southampton catchment.
 ---
 
@@ -93,6 +105,18 @@ company: Elliot Marsh Head Hunting Partners - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-2066863
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Team Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Southampton, SO16 4GX
+source: NHS Jobs
+job_id: nhs-5657467
 reason: Approved Southampton catchment.
 ---
 
@@ -446,7 +470,7 @@ job_id: jobg8-2046029
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
-## EXCLUDE (13)
+## EXCLUDE (11)
 
 ---
 action: 
@@ -536,18 +560,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Business Support Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Portsmouth, PO2 0TA
-source: NHS Jobs
-job_id: nhs-5643304
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Finance Assistant
 company: CMA Recruitment Group - Agency - Permanent
 location: Portsmouth
@@ -589,17 +601,5 @@ company: TPF Recruitment - Agency - Permanent
 location: Eastleigh
 source: JobG8
 job_id: jobg8-2064740
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist - Kingston Crescent Surgery
-company: Portsdown Group Practice
-location: Portsmouth, PO2 8AL
-source: NHS Jobs
-job_id: nhs-5627419
 reason: Separate employment market.
 ---

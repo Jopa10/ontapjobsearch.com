@@ -91,18 +91,6 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Royal Devon University Healthcare NHS Foundation Trust
-location: Barnstaple, EX31 4JB
-source: NHS Jobs
-job_id: nhs-5643112
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
 company: Switch - Agency - Permanent
 location: Exeter
 source: JobG8
@@ -227,6 +215,18 @@ company: Stansfield Academy
 location: Exeter
 source: Teaching Vacancies
 job_id: teaching-vacancies-senior-administrator-stansfield-academy-exeter-devon
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Administrator
+company: Royal Devon University Healthcare NHS Foundation Trust
+location: Exeter, EX2 5DW
+source: NHS Jobs
+job_id: nhs-5657703
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

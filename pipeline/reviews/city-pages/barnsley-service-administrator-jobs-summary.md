@@ -4,7 +4,7 @@
 - Live route: `/barnsley/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 1
+- Effective included jobs: 0
 - Threshold currently met: no
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
+- automatic include: 0
 - automatic review: 1
-- automatic exclude: 20
-- effective include: 1
+- automatic exclude: 21
+- effective include: 0
 - effective review: 1
-- effective exclude: 20
+- effective exclude: 21
 
-## INCLUDE (1)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: ID Medical
-location: Barnsley, s752ep
-source: NHS Jobs
-job_id: nhs-5641970
-reason: Approved Barnsley catchment.
----
+## INCLUDE (0)
 
 ## REVIEW (1)
 
@@ -50,7 +38,7 @@ job_id: jobg8-2067582
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (20)
+## EXCLUDE (21)
 
 ---
 action: 
@@ -169,6 +157,18 @@ company: EE - Company - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-20279_63174-73862c8b83139033e4e4a8b6efca9a33
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Clerical Officer
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S10 2JF
+source: NHS Jobs
+job_id: nhs-5657398
 reason: Separate employment market.
 ---
 

@@ -203,5 +203,24 @@
     "advertiser_type": "",
     "salary_period": "",
     "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5657398",
+    "source": "NHS Jobs",
+    "title": "Clerical Officer",
+    "company": "Sheffield Teaching Hospitals NHS Foundation Trust",
+    "advertiser_name": "Sheffield Teaching Hospitals NHS Foundation Trust",
+    "location": "Sheffield, S10 2JF",
+    "region": "Yorkshire - South",
+    "salary": "£25272.00",
+    "employment_type": "Fixed-Term",
+    "posted_date": "2026-10-12T11:31:23.264709928",
+    "closing_date": "2026-10-21",
+    "description": "An exciting opportunity has arisen for a motivated and enthusiastic individual to join our dynamic and supportive Musculoskeletal (MSK) Service. The successful applicant will provide reception and administrative support to the MSK Outpatients Department, delivering a high-quality service to patients and working closely as part of a multidisciplinary team. The post will be primarily based at the Royal Hallamshire Hospital; however, there may also be a requirement to work at the Northern General Hospital, so flexibility is essential. Applicants should have experience of working with the public and within a team environment. You will be an effective communicator with the ability to organise your workload efficiently, manage your time well, and work using your own initiative. Basic keyboard skills and a working knowledge of computers are essential. Full training will be provided, along with ongoing support and regular development sessions. To contribute to the delivery of an efficient and effective administrative service within the Department. The NHS administrative workforce are focused on the ultimate outcome of quality hospital and patient care and have high standards when it comes to liaising with any person the service comes into contact with. They thrive on the busy nature of the role and remain positive, dedicated and determined to produce quality work for themselves and the team around them. This vacancy is advertised on a fixed term contract basis for a period of twelve (12) months due to the post being recruited as part of a limited term project within the Trust. The fixed term contract status of the post holder will be reviewed in accordance with the Trust's legal obligations regarding fixed term contracts taking into consideration the requirement for the post to be maintained as a part of the project's implementation and the timescales associated with this. Please note all existing NHS staff will only be considered on a secondment basis. This must first be agreed with your current line manager. Please view the attached Job Description and Person Specification documents for full details regarding this post. When completing your application please ensure that you clearly demonstrate how you meet the role criteria.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9190-26-0633",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9190-26-0633",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "posted_date_basis": "source"
   }
 ]

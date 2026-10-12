@@ -256,18 +256,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Medical Receptionist / Administrator
-company: Victoria Mill Medical Practice
-location: Manchester, M40 7LH
-source: NHS Jobs
-job_id: nhs-5613139
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Payroll Administrator
 company: Portfolio Payroll - Agency - Permanent
 location: Manchester
@@ -309,6 +297,18 @@ company: The Wilbraham Surgery
 location: Manchester, M21 0UF
 source: NHS Jobs
 job_id: nhs-5634614
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist/Administrator
+company: The Gill Medical Centre
+location: Manchester, M28 3DR
+source: NHS Jobs
+job_id: nhs-5656661
 reason: Approved conservative Manchester launch catchment.
 ---
 

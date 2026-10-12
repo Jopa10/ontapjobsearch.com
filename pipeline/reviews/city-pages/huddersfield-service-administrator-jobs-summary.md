@@ -344,6 +344,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Care Navigator/Receptionist
+company: Ireland Wood & Horsforth Medical Practice
+location: Leeds, LS16 6FR
+source: NHS Jobs
+job_id: nhs-5656950
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Casualty Claims Handler
 company: Adjusting Appointments Limited - Agency - Permanent
 location: Leeds
@@ -409,18 +421,6 @@ company: Equals One - Agency - Permanent
 location: Bradford
 source: JobG8
 job_id: jobg8-2062847
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Medical Administrator
-company: Oakwood Lane Medical Practice
-location: Leeds, LS8 3BZ
-source: NHS Jobs
-job_id: nhs-5648147
 reason: Separate employment market.
 ---
 

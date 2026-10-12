@@ -4,7 +4,7 @@
 - Live route: `/bournemouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 21
+- automatic include: 5
+- automatic review: 20
 - automatic exclude: 0
-- effective include: 4
-- effective review: 21
+- effective include: 5
+- effective review: 20
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (5)
 
 ---
 action: 
@@ -65,6 +65,18 @@ action:
 decision: include
 automatic_decision: include
 title: Receptionist
+company: Beaufort Road Surgery
+location: Bournemouth, BH6 5AJ
+source: NHS Jobs
+job_id: nhs-5586731
+reason: Exact approved Bournemouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
 company: Dorset HealthCare University NHS Foundation Trust
 location: Bournemouth, BH7 6JF
 source: NHS Jobs
@@ -72,7 +84,7 @@ job_id: nhs-5632763
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (21)
+## REVIEW (20)
 
 ---
 action: 
@@ -107,18 +119,6 @@ company: Agincare
 location: Dorchester, DT1 2EN
 source: NHS Jobs
 job_id: nhs-5655572
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Dorset HealthCare University NHS Foundation Trust
-location: Weymouth, DT4 7TB
-source: NHS Jobs
-job_id: nhs-5655240
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

@@ -64,6 +64,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Administrator
+company: Sirona care & health CIC
+location: Bristol, BS13 8QA
+source: NHS Jobs
+job_id: nhs-5656080
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Commercial Senior Paralegal
 company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Bristol
@@ -177,18 +189,6 @@ company: Dawn Ellmore Employment Agency - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2063740
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Reception and Appointment Clerk
-company: Bristol NHS Foundation Trust
-location: Bristol, BS2 8EL
-source: NHS Jobs
-job_id: nhs-5640113
 reason: Approved conservative Bristol launch catchment.
 ---
 

@@ -320,6 +320,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Care Navigator/Receptionist
+company: Ireland Wood & Horsforth Medical Practice
+location: Leeds, LS16 6FR
+source: NHS Jobs
+job_id: nhs-5656950
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Casualty Claims Handler
 company: Adjusting Appointments Limited - Agency - Permanent
 location: Leeds
@@ -409,18 +421,6 @@ company: Moldgreen Community Primary School
 location: Huddersfield
 source: Teaching Vacancies
 job_id: teaching-vacancies-leadership-team-administrator-hybrid
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Medical Administrator
-company: Oakwood Lane Medical Practice
-location: Leeds, LS8 3BZ
-source: NHS Jobs
-job_id: nhs-5648147
 reason: Separate employment market.
 ---
 

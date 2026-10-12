@@ -4,8 +4,8 @@
 - Live route: `/portsmouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
-- Threshold currently met: yes
+- Effective included jobs: 3
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 43
+- automatic include: 3
+- automatic review: 45
 - automatic exclude: 0
-- effective include: 5
-- effective review: 43
+- effective include: 3
+- effective review: 45
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (3)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Michael Page Finance - Agency - Permanent
 location: Portsmouth
 source: JobG8
 job_id: jobg8-2055478
-reason: Exact approved Portsmouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Support Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Portsmouth, PO2 0TA
-source: NHS Jobs
-job_id: nhs-5643304
 reason: Exact approved Portsmouth workplace.
 ---
 
@@ -72,19 +60,7 @@ job_id: jobg8-2065862
 reason: Exact approved Portsmouth workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist - Kingston Crescent Surgery
-company: Portsdown Group Practice
-location: Portsmouth, PO2 8AL
-source: NHS Jobs
-job_id: nhs-5627419
-reason: Exact approved Portsmouth workplace.
----
-
-## REVIEW (43)
+## REVIEW (45)
 
 ---
 action: 
@@ -155,6 +131,18 @@ company: CMA Recruitment Group - Agency - Permanent
 location: Fareham
 source: JobG8
 job_id: jobg8-2089401
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Assistant
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Southampton, SO16 4XE
+source: NHS Jobs
+job_id: nhs-5657473
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -450,18 +438,6 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Locality Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO14 0JY
-source: NHS Jobs
-job_id: nhs-5642963
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Logistics Coordinator
 company: Adecco - Agency - Permanent
 location: Hampshire
@@ -546,6 +522,18 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Personal Assistant
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Southampton, SO14 0YG
+source: NHS Jobs
+job_id: nhs-5657296
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Private Client Legal Assistant / Paralegal
 company: Workshop Recruitment - Agency - Permanent
 location: Petersfield
@@ -599,6 +587,18 @@ company: Elliot Marsh Head Hunting Partners - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-2066863
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Team Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Southampton, SO16 4GX
+source: NHS Jobs
+job_id: nhs-5657467
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 

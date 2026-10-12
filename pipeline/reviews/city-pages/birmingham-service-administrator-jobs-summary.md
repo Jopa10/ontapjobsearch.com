@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 36
+- Effective included jobs: 37
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 36
-- automatic review: 5
+- automatic include: 37
+- automatic review: 4
 - automatic exclude: 4
-- effective include: 36
-- effective review: 5
+- effective include: 37
+- effective review: 4
 - effective exclude: 4
 
-## INCLUDE (36)
+## INCLUDE (37)
 
 ---
 action: 
@@ -328,6 +328,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Medical Receptionist
+company: Great Barr Medical Centre
+location: Birmingham, B43 7HB
+source: NHS Jobs
+job_id: nhs-5656906
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Office Administrator
 company: Kings Rise Academy
 location: Birmingham
@@ -456,7 +468,7 @@ job_id: jobg8-2039482
 reason: Approved conservative Birmingham launch catchment.
 ---
 
-## REVIEW (5)
+## REVIEW (4)
 
 ---
 action: 
@@ -467,18 +479,6 @@ company: The Royal Sutton School
 location: Sutton Coldfield
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-the-royal-sutton-school
-reason: No approved Birmingham catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Home Administrator
-company: Avery Healthcare Group Ltd.
-location: Knowle, B93 9LQ
-source: NHS Jobs
-job_id: nhs-5638487
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
