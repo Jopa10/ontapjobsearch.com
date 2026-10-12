@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 18
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
-- automatic review: 1
+- automatic include: 16
+- automatic review: 3
 - automatic exclude: 5
-- effective include: 18
-- effective review: 1
+- effective include: 16
+- effective review: 3
 - effective exclude: 5
 
-## INCLUDE (18)
+## INCLUDE (16)
 
 ---
 action: 
@@ -81,18 +81,6 @@ company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2064747
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Complex Crime Paralegal
-company: Clear Legal & Financial Recruitment - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-2087320
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -184,18 +172,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Patent Paralegal - Bristol (c&;40,000 + benefits Hybrid)
-company: Dawn Ellmore Employment Agency - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-2063740
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Reception and Appointment Clerk
 company: Bristol NHS Foundation Trust
 location: Bristol, BS2 8EL
@@ -240,7 +216,7 @@ job_id: jobg8-2076582
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (1)
+## REVIEW (3)
 
 ---
 action: 
@@ -251,6 +227,30 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Somerset
 source: JobG8
 job_id: jobg8-2091440
+reason: No approved Bristol catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Complex Crime Paralegal
+company: Clear Legal & Financial Recruitment - Agency - Permanent
+location: Somerset
+source: JobG8
+job_id: jobg8-2087320
+reason: No approved Bristol catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Patent Paralegal - Bristol (c&;40,000 + benefits Hybrid)
+company: Dawn Ellmore Employment Agency - Agency - Permanent
+location: Somerset
+source: JobG8
+job_id: jobg8-2063740
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 

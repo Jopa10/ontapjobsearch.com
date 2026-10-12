@@ -4,8 +4,8 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
-- Threshold currently met: yes
+- Effective included jobs: 4
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 10
-- automatic exclude: 9
-- effective include: 6
-- effective review: 10
-- effective exclude: 9
+- automatic include: 4
+- automatic review: 8
+- automatic exclude: 13
+- effective include: 4
+- effective review: 8
+- effective exclude: 13
 
-## INCLUDE (6)
+## INCLUDE (4)
 
 ---
 action: 
@@ -52,18 +52,6 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Paralegal - Family
-company: Edwards & Pearce - Doncaster - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-2065406
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Part Time Finance Assistant
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: York
@@ -84,31 +72,7 @@ job_id: nhs-5655371
 reason: Approved York catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Remote Conveyancing Paralegal
-company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-2055397
-reason: Approved York catchment.
----
-
-## REVIEW (10)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Conveyancing Assistant/Paralegal
-company: SJC Partners - Agency - Permanent
-location: Malton
-source: JobG8
-job_id: jobg8-2077875
-reason: No approved York catchment rule matched; local review required.
----
+## REVIEW (8)
 
 ---
 action: 
@@ -186,18 +150,6 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Patient Services Administrator
-company: Filey Surgery
-location: Filey, YO14 9AE
-source: NHS Jobs
-job_id: nhs-5651232
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Probate & Wills Legal Secretary - Malton, Yorkshire
 company: qed legal - Agency - Permanent
 location: Malton
@@ -218,7 +170,7 @@ job_id: jobg8-108059238
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (9)
+## EXCLUDE (13)
 
 ---
 action: 
@@ -260,11 +212,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Clinical Team Administrator
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Northallerton, DL6 2FG
+source: NHS Jobs
+job_id: nhs-5655930
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Content Creator
 company: Greenfield I T Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2045708
+reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Conveyancing Assistant/Paralegal
+company: SJC Partners - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2077875
 reason: Broad regional label; not York-city evidence.
 ---
 
@@ -314,6 +290,30 @@ location: Harrogate
 source: JobG8
 job_id: jobg8-2089709
 reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Paralegal - Family
+company: Edwards & Pearce - Doncaster - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2065406
+reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Remote Conveyancing Paralegal
+company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2055397
+reason: Broad regional label; not York-city evidence.
 ---
 
 ---

@@ -17,6 +17,7 @@ review,jobg8-2062673,Marketing Executive,Lucy Walker Recruitment Ltd - Agency - 
 review,jobg8-2042141,Marketing Executive,pyramid8 - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Huddersfield catchment rule matched; local review required.,fallback,huddersfield-service-administrator-jobs
 review,jobg8-2045800,Marketing Executive (Luxury Spa & Sauna's),Ernest Gordon Recruitment Limited - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Huddersfield catchment rule matched; local review required.,fallback,huddersfield-service-administrator-jobs
 review,jobg8-2057961,Part-Time Accounts Clerk,Equals One - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Huddersfield catchment rule matched; local review required.,fallback,huddersfield-service-administrator-jobs
+review,jobg8-2075306,Personal Injury Paralegal,CRA Consulting - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Huddersfield catchment rule matched; local review required.,fallback,huddersfield-service-administrator-jobs
 review,jobg8-2067539,Purchase & Sales Ledger Administrator,IPS Group - Agency - Permanent,Brighouse,JobG8,review,review,No approved Huddersfield catchment rule matched; local review required.,fallback,huddersfield-service-administrator-jobs
 review,jobg8-2076601,Purchase & Sales Ledger Clerk,Lucy Walker Recruitment Ltd - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Huddersfield catchment rule matched; local review required.,fallback,huddersfield-service-administrator-jobs
 review,jobg8-2087326,Purchase Ledger Clerk,Reed - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Huddersfield catchment rule matched; local review required.,fallback,huddersfield-service-administrator-jobs
@@ -25,7 +26,6 @@ exclude,nhs-5637209,Administrative Assistant,Leeds Teaching Hospitals,"Leeds, LS
 exclude,jobg8-2076475,Bookkeeper,PRATAP PARTNERSHIP LTD - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-2026795,Bookkeeper,Reed - Agency - Permanent,Halifax,JobG8,exclude,exclude,Separate employment market.,halifax,huddersfield-service-administrator-jobs
 exclude,jobg8-2056878,Brand Manager,Reed - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
-exclude,nhs-5656950,Care Navigator/Receptionist,Ireland Wood & Horsforth Medical Practice,"Leeds, LS16 6FR",NHS Jobs,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-2074008,Casualty Claims Handler,Adjusting Appointments Limited - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-2039200,Claims Handler,Avencia Consulting - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-2092609,Claims Handler - Property/Liability Claims,IPS Group - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
@@ -36,7 +36,6 @@ exclude,jobg8-2042757,Paralegal - Real Estate & Projects - Hybrid working,CRA Co
 exclude,jobg8-2064618,Part- Time Accounts Administrator,Reed - Agency - Permanent,Wakefield,JobG8,exclude,exclude,Separate employment market.,wakefield,huddersfield-service-administrator-jobs
 exclude,jobg8-2053116,Payroll Assistant,Michael Page Finance - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-2087152,Payroll Coordinator,IMPRESSION RECRUITMENT LIMITED - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
-exclude,jobg8-2075306,Personal Injury Paralegal,CRA Consulting - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-2059627,PPC Manager,Robert Walters - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-2075400,Purchase Ledger Clerk,Sharp Consultancy - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,nhs-5623216,Receptionist,Beechwood Medical Centre,"Halifax, HX2 8AL",NHS Jobs,exclude,exclude,Separate employment market.,halifax,huddersfield-service-administrator-jobs

@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 25
+- Effective included jobs: 24
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 25
-- automatic review: 18
+- automatic include: 24
+- automatic review: 19
 - automatic exclude: 4
-- effective include: 25
-- effective review: 18
+- effective include: 24
+- effective review: 19
 - effective exclude: 4
 
-## INCLUDE (25)
+## INCLUDE (24)
 
 ---
 action: 
@@ -141,18 +141,6 @@ company: Zachary Daniels Recruitment - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225643073
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Data Claims Caseworker Paralegal
-company: GEMINI RECRUITMENT SERVICES LTD - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-2088058
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -324,7 +312,7 @@ job_id: jobg8-108081589
 reason: Approved conservative Manchester launch catchment.
 ---
 
-## REVIEW (18)
+## REVIEW (19)
 
 ---
 action: 
@@ -395,6 +383,18 @@ company: Anonymous - Agency - Permanent
 location: Lancashire
 source: JobG8
 job_id: jobg8-2024541
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Data Claims Caseworker Paralegal
+company: GEMINI RECRUITMENT SERVICES LTD - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-2088058
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 

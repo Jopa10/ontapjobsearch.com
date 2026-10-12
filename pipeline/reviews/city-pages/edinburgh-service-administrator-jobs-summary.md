@@ -4,7 +4,7 @@
 - Live route: `/edinburgh/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 2
+- automatic include: 2
+- automatic review: 1
 - automatic exclude: 0
-- effective include: 3
-- effective review: 2
+- effective include: 2
+- effective review: 1
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (2)
 
 ---
 action: 
@@ -48,19 +48,7 @@ job_id: jobg8-2087159
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Paralegal
-company: AWD online - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-2059086
-reason: Approved conservative Edinburgh launch catchment.
----
-
-## REVIEW (2)
+## REVIEW (1)
 
 ---
 action: 
@@ -71,18 +59,6 @@ company: THE CHANNEL RECRUITER LTD - Agency - Permanent
 location: Livingston
 source: JobG8
 job_id: jobg8-2077151
-reason: No approved Edinburgh catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Residential Conveyancing Paralegal
-company: Reed - Agency - Permanent
-location: North Berwick
-source: JobG8
-job_id: jobg8-2027323
 reason: No approved Edinburgh catchment rule matched; local review required.
 ---
 

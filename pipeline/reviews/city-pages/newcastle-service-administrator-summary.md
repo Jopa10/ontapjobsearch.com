@@ -32,7 +32,7 @@ title: Administrative Assistant
 company: Gateshead Health NHS Foundation Trust
 location: Gateshead, NE8 4YL
 source: NHS Jobs
-job_id: nhs-5644657
+job_id: nhs-5658600
 reason: Approved Newcastle catchment.
 ---
 
@@ -406,8 +406,8 @@ decision: exclude
 automatic_decision: exclude
 title: Team Administrator
 company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Darlington, DL2 2TS
+location: Durham, DH1 4LW
 source: NHS Jobs
-job_id: nhs-5637413
+job_id: nhs-5656729
 reason: Separate employment market.
 ---

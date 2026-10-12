@@ -4,7 +4,7 @@
 - Live route: `/bournemouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 20
+- automatic include: 4
+- automatic review: 19
 - automatic exclude: 0
-- effective include: 5
-- effective review: 20
+- effective include: 4
+- effective review: 19
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (4)
 
 ---
 action: 
@@ -65,18 +65,6 @@ action:
 decision: include
 automatic_decision: include
 title: Receptionist
-company: Beaufort Road Surgery
-location: Bournemouth, BH6 5AJ
-source: NHS Jobs
-job_id: nhs-5586731
-reason: Exact approved Bournemouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
 company: Dorset HealthCare University NHS Foundation Trust
 location: Bournemouth, BH7 6JF
 source: NHS Jobs
@@ -84,7 +72,7 @@ job_id: nhs-5632763
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (20)
+## REVIEW (19)
 
 ---
 action: 
@@ -179,18 +167,6 @@ company: Leaders In Care Recruitment Ltd - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-108069104
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Commercial Property Paralegal
-company: SJC Partners - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2053578
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

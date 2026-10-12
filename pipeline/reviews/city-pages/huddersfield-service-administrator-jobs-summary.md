@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 19
-- automatic exclude: 25
+- automatic review: 20
+- automatic exclude: 23
 - effective include: 3
-- effective review: 19
-- effective exclude: 25
+- effective review: 20
+- effective exclude: 23
 
 ## INCLUDE (3)
 
@@ -60,7 +60,7 @@ job_id: teaching-vacancies-leadership-team-administrator-hybrid
 reason: Approved Huddersfield catchment.
 ---
 
-## REVIEW (19)
+## REVIEW (20)
 
 ---
 action: 
@@ -246,6 +246,18 @@ reason: No approved Huddersfield catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Personal Injury Paralegal
+company: CRA Consulting - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2075306
+reason: No approved Huddersfield catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Purchase & Sales Ledger Administrator
 company: IPS Group - Agency - Permanent
 location: Brighouse
@@ -290,7 +302,7 @@ job_id: jobg8-2078500
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (25)
+## EXCLUDE (23)
 
 ---
 action: 
@@ -337,18 +349,6 @@ company: Reed - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-2056878
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Care Navigator/Receptionist
-company: Ireland Wood & Horsforth Medical Practice
-location: Leeds, LS16 6FR
-source: NHS Jobs
-job_id: nhs-5656950
 reason: Separate employment market.
 ---
 
@@ -469,18 +469,6 @@ company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-2087152
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Personal Injury Paralegal
-company: CRA Consulting - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-2075306
 reason: Separate employment market.
 ---
 

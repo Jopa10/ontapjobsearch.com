@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 18
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
-- automatic review: 19
+- automatic include: 16
+- automatic review: 20
 - automatic exclude: 10
-- effective include: 18
-- effective review: 19
+- effective include: 16
+- effective review: 20
 - effective exclude: 10
 
-## INCLUDE (18)
+## INCLUDE (16)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: Reed - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-2056878
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Care Navigator/Receptionist
-company: Ireland Wood & Horsforth Medical Practice
-location: Leeds, LS16 6FR
-source: NHS Jobs
-job_id: nhs-5656950
 reason: Approved Leeds catchment.
 ---
 
@@ -172,18 +160,6 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Personal Injury Paralegal
-company: CRA Consulting - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-2075306
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: PPC Manager
 company: Robert Walters - Agency - Permanent
 location: Leeds
@@ -240,7 +216,7 @@ job_id: jobg8-2028584
 reason: Approved Leeds catchment.
 ---
 
-## REVIEW (19)
+## REVIEW (20)
 
 ---
 action: 
@@ -419,6 +395,18 @@ company: Equals One - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2057961
+reason: No approved Leeds catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Personal Injury Paralegal
+company: CRA Consulting - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2075306
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 

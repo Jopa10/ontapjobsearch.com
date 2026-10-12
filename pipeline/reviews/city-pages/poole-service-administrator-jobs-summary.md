@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 22
+- automatic review: 20
 - automatic exclude: 0
 - effective include: 3
-- effective review: 22
+- effective review: 20
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: jobg8-2066041
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (22)
+## REVIEW (20)
 
 ---
 action: 
@@ -155,18 +155,6 @@ company: Leaders In Care Recruitment Ltd - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-108069104
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Commercial Property Paralegal
-company: SJC Partners - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2053578
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -275,18 +263,6 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225649037
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Beaufort Road Surgery
-location: Bournemouth, BH6 5AJ
-source: NHS Jobs
-job_id: nhs-5586731
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

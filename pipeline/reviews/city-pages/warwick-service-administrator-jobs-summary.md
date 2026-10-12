@@ -4,7 +4,7 @@
 - Live route: `/warwick/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 27
+- automatic include: 2
+- automatic review: 21
 - automatic exclude: 0
-- effective include: 3
-- effective review: 27
+- effective include: 2
+- effective review: 21
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (2)
 
 ---
 action: 
@@ -48,19 +48,7 @@ job_id: jobg8-2052561
 reason: Exact approved Warwick workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Property Litigation Paralegal
-company: Michael Page Legal - Agency - Permanent
-location: Warwick
-source: JobG8
-job_id: jobg8-2074203
-reason: Exact approved Warwick workplace.
----
-
-## REVIEW (27)
+## REVIEW (21)
 
 ---
 action: 
@@ -198,18 +186,6 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Graduate Paralegal - Public Family / Care
-company: Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent
-location: Leamington Spa
-source: JobG8
-job_id: jobg8-2065053
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Marketing Executive
 company: TalentTech Recruitment - Agency - Permanent
 location: Warwickshire
@@ -227,18 +203,6 @@ company: Workstreet - Agency - Permanent
 location: Coventry
 source: JobG8
 job_id: jobg8-2067815
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: Rother House Medical Centre
-location: Stratford-upon-avon, CV37 6PP
-source: NHS Jobs
-job_id: nhs-5657937
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -294,30 +258,6 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Private Client Paralegal
-company: G2 Legal Limited - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-2049188
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Private Client Paralegal
-company: The Eventus Recruitment Group - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-2059104
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Purchase Ledger Clerk
 company: SF Partners - Agency - Permanent
 location: Coventry
@@ -342,18 +282,6 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Remote Conveyancing Paralegal
-company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-2055387
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Senior Marketing Executive
 company: TalentTech Recruitment - Agency - Permanent
 location: Warwickshire
@@ -371,18 +299,6 @@ company: Reed - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-2054035
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Wills & Probate Paralegal
-company: The Eventus Recruitment Group - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-2063048
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 11
+- automatic review: 7
 - automatic exclude: 0
 - effective include: 6
-- effective review: 11
+- effective review: 7
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: nhs-5657703
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (11)
+## REVIEW (7)
 
 ---
 action: 
@@ -107,18 +107,6 @@ company: Newton Abbot College
 location: Newton Abbot
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-newton-abbot-college
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Sentinel Healthcare South West CIC
-location: Plymouth, PL6 8BT
-source: NHS Jobs
-job_id: nhs-5645618
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -143,18 +131,6 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-2045343
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrative Assistant
-company: Team Multi Academy Trust
-location: Barnstaple
-source: Teaching Vacancies
-job_id: teaching-vacancies-hr-administrative-assistant-team-multi-academy-trust
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -191,30 +167,6 @@ company: Dartmoor Multi Academy Trust
 location: Okehampton
 source: Teaching Vacancies
 job_id: teaching-vacancies-people-administrator-dartmoor-multi-academy-trust-okehampton-not-recorded
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Remote Conveyancing Paralegal
-company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-2055395
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Remote Conveyancing Paralegal
-company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-2055612
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

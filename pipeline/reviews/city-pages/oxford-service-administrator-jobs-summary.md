@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 11
+- automatic review: 9
 - automatic exclude: 14
 - effective include: 5
-- effective review: 11
+- effective review: 9
 - effective exclude: 14
 
 ## INCLUDE (5)
@@ -52,6 +52,18 @@ reason: Approved conservative Oxford launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Administrative Assistant
+company: Oxford University Hospitals NHS Foundation Trust
+location: Headington, Oxford, OX3 9DU
+source: NHS Jobs
+job_id: nhs-5652789
+reason: Approved conservative Oxford launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Administrator
 company: Oxford Health NHS Trust
 location: Abingdon, Oxford, OX14 1AG
@@ -72,19 +84,7 @@ job_id: jobg8-2074696
 reason: Approved conservative Oxford launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Team Administrator
-company: Oxford Health NHS Trust
-location: Oxford, OX4 1XE
-source: NHS Jobs
-job_id: nhs-5640615
-reason: Approved conservative Oxford launch catchment.
----
-
-## REVIEW (11)
+## REVIEW (9)
 
 ---
 action: 
@@ -186,35 +186,11 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Medical Receptionist
-company: The Abingdon Surgery
-location: Abingdon, OX14 3LB
-source: NHS Jobs
-job_id: nhs-5643181
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Procurement Administrator
 company: Xact Placements Limited - Agency - Permanent
 location: Witney
 source: JobG8
 job_id: jobg8-2087203
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Faringdon Community College
-location: Faringdon
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-edf1f45d-c1c2-4efe-8319-033977840917
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/worcester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 1
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
-- automatic review: 6
+- automatic include: 2
+- automatic review: 4
 - automatic exclude: 0
-- effective include: 1
-- effective review: 6
+- effective include: 2
+- effective review: 4
 - effective exclude: 0
 
-## INCLUDE (1)
+## INCLUDE (2)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Herefordshire and Worcestershire Health and Care NHS Trust
+location: Worcester, WR1 1AE
+source: NHS Jobs
+job_id: nhs-5656799
+reason: Exact approved Worcester workplace.
+---
 
 ---
 action: 
@@ -36,7 +48,7 @@ job_id: jobg8-2074804
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (6)
+## REVIEW (4)
 
 ---
 action: 
@@ -47,18 +59,6 @@ company: Michael Page Finance - Agency - Permanent
 location: Redditch
 source: JobG8
 job_id: jobg8-2055240
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Herefordshire and Worcestershire Health and Care NHS Trust
-location: Kidderminster, DY10 1PG
-source: NHS Jobs
-job_id: nhs-5650754
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -95,18 +95,6 @@ company: SF Partners - Agency - Permanent
 location: Redditch
 source: JobG8
 job_id: jobg8-2057910
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Paralegal - Commercial Litigation
-company: Gleeson Recruitment Group - Agency - Permanent
-location: Worcestershire
-source: JobG8
-job_id: jobg8-2061864
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

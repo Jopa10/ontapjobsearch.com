@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 15
+- automatic review: 14
 - automatic exclude: 0
 - effective include: 3
-- effective review: 15
+- effective review: 14
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: nhs-5642838
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (15)
+## REVIEW (14)
 
 ---
 action: 
@@ -179,18 +179,6 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-2067389
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Private Client Paralegal, Excellent Progression, Market Harborough, Leicestershire - Hybrid Working
-company: qed legal - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-2026724
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

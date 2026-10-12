@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 37
+- Effective included jobs: 36
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 37
+- automatic include: 36
 - automatic review: 4
 - automatic exclude: 4
-- effective include: 37
+- effective include: 36
 - effective review: 4
 - effective exclude: 4
 
-## INCLUDE (37)
+## INCLUDE (36)
 
 ---
 action: 
@@ -93,18 +93,6 @@ company: Mitchell Adam - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-2041334
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrative Assistant, Admissions & Attendance
-company: Harborne Primary School
-location: Birmingham
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-admissions-attendance
 reason: Approved conservative Birmingham launch catchment.
 ---
 

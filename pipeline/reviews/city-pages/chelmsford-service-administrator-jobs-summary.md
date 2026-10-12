@@ -4,7 +4,7 @@
 - Live route: `/chelmsford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 59
+- automatic include: 8
+- automatic review: 52
 - automatic exclude: 0
-- effective include: 9
-- effective review: 59
+- effective include: 8
+- effective review: 52
 - effective exclude: 0
 
-## INCLUDE (9)
+## INCLUDE (8)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Countrywide HQ - Agency - Permanent
 location: Chelmsford
 source: JobG8
 job_id: jobg8-2028623
-reason: Exact approved Chelmsford workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator - Chelmsford
-company: Vaccination UK
-location: Chelmsford, CM144LN
-source: NHS Jobs
-job_id: nhs-5446642
 reason: Exact approved Chelmsford workplace.
 ---
 
@@ -132,7 +120,7 @@ job_id: jobg8-2087231
 reason: Exact approved Chelmsford workplace.
 ---
 
-## REVIEW (59)
+## REVIEW (52)
 
 ---
 action: 
@@ -294,66 +282,6 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Commercial Property Solicitor / Paralegal
-company: REED - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-2051529
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Commercial Property Solicitor / Paralegal
-company: Reed - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-2051565
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Commercial Property Solicitor / Paralegal
-company: Reed - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-2051567
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Conveyancing - Fee Earner/Paralegal
-company: REED - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-2051507
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Conveyancing - Fee Earner/Paralegal
-company: REED - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-2051514
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Conveyancing - Fee Earner/Paralegal
 company: REED - Agency - Permanent
 location: Essex
@@ -407,18 +335,6 @@ company: REED - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-2051519
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Conveyancing - Solicitor/Paralegal - Flexible Working
-company: REED - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-2051516
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -575,18 +491,6 @@ company: Evolution Sales Recruitment - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-2075764
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: John Tasker House & Felsted Surgeries
-location: Dunmow, CM6 1BH
-source: NHS Jobs
-job_id: nhs-5605464
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

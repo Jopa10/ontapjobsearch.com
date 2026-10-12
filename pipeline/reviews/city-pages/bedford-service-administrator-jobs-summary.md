@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 8
+- automatic review: 6
 - automatic exclude: 0
 - effective include: 4
-- effective review: 8
+- effective review: 6
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: nhs-5639310
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (8)
+## REVIEW (6)
 
 ---
 action: 
@@ -119,30 +119,6 @@ company: Response Personnel - Agency - Permanent
 location: Sandy
 source: JobG8
 job_id: jobg8-2036003
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Family Law Paralegal
-company: GEMINI RECRUITMENT SERVICES LTD - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-2087521
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Immigration Paralegal - IAAS Accredited
-company: GEMINI RECRUITMENT SERVICES LTD - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-2087363
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

@@ -16,25 +16,13 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 15
+- automatic review: 13
 - automatic exclude: 0
 - effective include: 2
-- effective review: 15
+- effective review: 13
 - effective exclude: 0
 
 ## INCLUDE (2)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Curriculum/Data Administrator
-company: St Margaret Ward Catholic Academy
-location: Stoke-on-Trent
-source: Teaching Vacancies
-job_id: teaching-vacancies-curriculum-data-administrator
-reason: Exact approved Stoke-on-trent workplace.
----
 
 ---
 action: 
@@ -48,7 +36,19 @@ job_id: teaching-vacancies-examinations-officer-blythe-bridge-high-school
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (15)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Team Administrator
+company: North Staffordshire Combined Healthcare Trust
+location: Stoke-on-Trent, ST4 6TH
+source: NHS Jobs
+job_id: nhs-5657920
+reason: Exact approved Stoke-on-trent workplace.
+---
+
+## REVIEW (13)
 
 ---
 action: 
@@ -59,18 +59,6 @@ company: Ashdown Group - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-2063366
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Support Assistant
-company: Midlands Partnership NHS Foundation Trust
-location: Stafford, ST16 3SR
-source: NHS Jobs
-job_id: nhs-5618829
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -131,18 +119,6 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-2076970
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical receptionist
-company: Glebedale Medical Practice
-location: Stoke on Trent, ST4 3AQ, Stoke-on-trent, ST3 1LG
-source: NHS Jobs
-job_id: nhs-5615221
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

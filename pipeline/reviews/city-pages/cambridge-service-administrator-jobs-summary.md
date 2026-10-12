@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
+- automatic include: 9
 - automatic review: 4
-- automatic exclude: 8
-- effective include: 10
+- automatic exclude: 7
+- effective include: 9
 - effective review: 4
-- effective exclude: 8
+- effective exclude: 7
 
-## INCLUDE (10)
+## INCLUDE (9)
 
 ---
 action: 
@@ -112,18 +112,6 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Remote Conveyancing Paralegal
-company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-2055390
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Senior Communications Officer
 company: East Cambridgeshire District Council - Agency - Permanent
 location: Cambridgeshire
@@ -194,7 +182,7 @@ job_id: teaching-vacancies-finance-admin-assistant-priory-junior-school-st-neots
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (8)
+## EXCLUDE (7)
 
 ---
 action: 
@@ -229,18 +217,6 @@ company: Interaction - Peterborough - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-108061988
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Medical Receptionist / Administrator
-company: Abbeyview Surgery
-location: Peterborough, PE6 0AL
-source: NHS Jobs
-job_id: nhs-5636638
 reason: Separate employment market.
 ---
 

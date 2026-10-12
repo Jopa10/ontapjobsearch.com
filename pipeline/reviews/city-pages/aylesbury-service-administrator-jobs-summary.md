@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 34
+- automatic review: 33
 - automatic exclude: 0
 - effective include: 5
-- effective review: 34
+- effective review: 33
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: nhs-5648388
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (34)
+## REVIEW (33)
 
 ---
 action: 
@@ -467,18 +467,6 @@ company: Hope After Harm - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-2106884
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Ward Clerk
-company: Milton Keynes University Hospital NHS Foundation Trust
-location: Milton Keynes, MK6 5LD
-source: NHS Jobs
-job_id: nhs-5647765
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

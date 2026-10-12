@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 6
 - automatic review: 0
-- automatic exclude: 24
+- automatic exclude: 17
 - effective include: 6
 - effective review: 0
-- effective exclude: 24
+- effective exclude: 17
 
 ## INCLUDE (6)
 
@@ -98,7 +98,7 @@ reason: Approved Coventry catchment.
 
 ## REVIEW (0)
 
-## EXCLUDE (24)
+## EXCLUDE (17)
 
 ---
 action: 
@@ -224,35 +224,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Graduate Paralegal - Public Family / Care
-company: Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent
-location: Leamington Spa
-source: JobG8
-job_id: jobg8-2065053
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Marketing Executive
 company: TalentTech Recruitment - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-2056868
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Medical Receptionist
-company: Rother House Medical Centre
-location: Stratford-upon-avon, CV37 6PP
-source: NHS Jobs
-job_id: nhs-5657937
 reason: Separate employment market.
 ---
 
@@ -308,54 +284,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Private Client Paralegal
-company: G2 Legal Limited - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-2049188
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Private Client Paralegal
-company: The Eventus Recruitment Group - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-2059104
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Property Litigation Paralegal
-company: Michael Page Legal - Agency - Permanent
-location: Warwick
-source: JobG8
-job_id: jobg8-2074203
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Remote Conveyancing Paralegal
-company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-2055387
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Senior Marketing Executive
 company: TalentTech Recruitment - Agency - Permanent
 location: Warwickshire
@@ -373,17 +301,5 @@ company: Reed - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-2054035
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Wills & Probate Paralegal
-company: The Eventus Recruitment Group - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-2063048
 reason: Separate employment market.
 ---

@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
+- automatic include: 7
 - automatic review: 2
 - automatic exclude: 0
-- effective include: 9
+- effective include: 7
 - effective review: 2
 - effective exclude: 0
 
-## INCLUDE (9)
+## INCLUDE (7)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Edwards & Pearce - Doncaster - Agency - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-2060366
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Hull University Teaching Hospitals NHS Trust
-location: Hull, HU3 2JZ
-source: NHS Jobs
-job_id: nhs-5642388
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -93,18 +81,6 @@ company: Edwards & Pearce - Doncaster - Agency - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-2041225
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Family Law Paralegal in Hull
-company: The Ten Percent Group - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-2028710
 reason: Approved conservative Hull launch catchment.
 ---
 

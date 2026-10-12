@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 12
+- automatic review: 11
 - automatic exclude: 0
 - effective include: 4
-- effective review: 12
+- effective review: 11
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: nhs-5632294
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (12)
+## REVIEW (11)
 
 ---
 action: 
@@ -179,18 +179,6 @@ company: Cole Connections Ltd - Agency - Permanent
 location: Wellingborough
 source: JobG8
 job_id: jobg8-2039797
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Remote Conveyancing Paralegal
-company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-2055403
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

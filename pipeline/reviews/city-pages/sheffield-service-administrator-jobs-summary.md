@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
+- automatic include: 8
 - automatic review: 1
 - automatic exclude: 12
-- effective include: 9
+- effective include: 8
 - effective review: 1
 - effective exclude: 12
 
-## INCLUDE (9)
+## INCLUDE (8)
 
 ---
 action: 
@@ -93,18 +93,6 @@ company: Sharp Consultancy - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2043404
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Paralegal
-company: CRA Consulting - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2087031
 reason: Approved Sheffield catchment.
 ---
 

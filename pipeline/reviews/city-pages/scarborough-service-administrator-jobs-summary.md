@@ -66,6 +66,18 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Clinical Team Administrator
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Northallerton, DL6 2FG
+source: NHS Jobs
+job_id: nhs-5655930
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Content Creator
 company: Greenfield I T Recruitment - Agency - Permanent
 location: Yorkshire
@@ -80,7 +92,7 @@ decision: review
 automatic_decision: review
 title: Conveyancing Assistant/Paralegal
 company: SJC Partners - Agency - Permanent
-location: Malton
+location: Yorkshire
 source: JobG8
 job_id: jobg8-2077875
 reason: No exact Scarborough workplace matched; local geographic review is required.
@@ -236,7 +248,7 @@ decision: review
 automatic_decision: review
 title: Paralegal - Family
 company: Edwards & Pearce - Doncaster - Agency - Permanent
-location: York
+location: Yorkshire
 source: JobG8
 job_id: jobg8-2065406
 reason: No exact Scarborough workplace matched; local geographic review is required.
@@ -251,18 +263,6 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-2087398
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Patient Services Administrator
-company: Filey Surgery
-location: Filey, YO14 9AE
-source: NHS Jobs
-job_id: nhs-5651232
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -296,7 +296,7 @@ decision: review
 automatic_decision: review
 title: Remote Conveyancing Paralegal
 company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
-location: York
+location: Yorkshire
 source: JobG8
 job_id: jobg8-2055397
 reason: No exact Scarborough workplace matched; local geographic review is required.

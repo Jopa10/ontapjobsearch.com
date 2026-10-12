@@ -4,8 +4,8 @@
 - Live route: `/plymouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
-- Threshold currently met: yes
+- Effective included jobs: 3
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 13
+- automatic include: 3
+- automatic review: 10
 - automatic exclude: 0
-- effective include: 4
-- effective review: 13
+- effective include: 3
+- effective review: 10
 - effective exclude: 0
 
-## INCLUDE (4)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Sentinel Healthcare South West CIC
-location: Plymouth, PL6 8BT
-source: NHS Jobs
-job_id: nhs-5645618
-reason: Exact approved Plymouth workplace.
----
+## INCLUDE (3)
 
 ---
 action: 
@@ -72,7 +60,7 @@ job_id: teaching-vacancies-student-funding-administrator
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (13)
+## REVIEW (10)
 
 ---
 action: 
@@ -126,18 +114,6 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrative Assistant
-company: Team Multi Academy Trust
-location: Barnstaple
-source: Teaching Vacancies
-job_id: teaching-vacancies-hr-administrative-assistant-team-multi-academy-trust
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Insurance Administrator
 company: Switch - Agency - Permanent
 location: Exeter
@@ -179,30 +155,6 @@ company: Elysium Healthcare
 location: Exeter, EX1 3PZ
 source: NHS Jobs
 job_id: nhs-5654609
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Remote Conveyancing Paralegal
-company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-2055395
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Remote Conveyancing Paralegal
-company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-2055612
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
