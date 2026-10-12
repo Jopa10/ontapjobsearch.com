@@ -224,11 +224,10 @@ job_id: 2092531
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £50000 per year [JobG8 salary fields] | HR Administrator Placement Programme - No Experience Needed
 job_id: 108092642
 ---
-
 ## NORTH EAST — SELECTED
 
 _No jobs in this group._
@@ -1916,11 +1915,10 @@ job_id: 2070922
 ## BRISTOL & BATH — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - BRISTOL & BATH | Bristol & Bath | Bristol | £50000 per year | HR Administrator Placement Programme - No Experience Needed
 job_id: 108092639
 ---
-
 ## BUCKINGHAMSHIRE — SELECTED
 
 ---
@@ -2052,11 +2050,10 @@ job_id: 2076024
 ## BUCKINGHAMSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - BUCKINGHAMSHIRE | Buckinghamshire | Buckinghamshire | £35000 - £38000 per year (22 days? annual leave. Contributory) | Finance Assistant
 job_id: 23643_225711333
 ---
-
 ## CAMBRIDGESHIRE — SELECTED
 
 ---
@@ -3472,11 +3469,10 @@ job_id: 2089149
 ## LINCOLNSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - LINCOLNSHIRE | Lincolnshire | Lincolnshire | £42000 per year | Sales Coordinator (Electrical Wholesale)
 job_id: 108089628
 ---
-
 ## MERSEYSIDE - LIVERPOOL — SELECTED
 
 ---
@@ -3506,11 +3502,10 @@ job_id: 2078827
 ## MERSEYSIDE - LIVERPOOL — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - MERSEYSIDE - LIVERPOOL | Merseyside - Liverpool | Liverpool | £50000 per year | HR Administrator Placement Programme - No Experience Needed
 job_id: 108092604
 ---
-
 ## NORFOLK — SELECTED
 
 ---
@@ -3678,11 +3673,10 @@ job_id: 2063984
 ## NORTH SCOTLAND — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - NORTH SCOTLAND | North Scotland | Inverness | £18 - £20 per hour | Executive Assistant
 job_id: 108093450
 ---
-
 ## NORTHAMPTONSHIRE — SELECTED
 
 ---
@@ -4066,11 +4060,10 @@ job_id: 2091438
 ## SCOTLAND WEST - GLASGOW — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - SCOTLAND WEST - GLASGOW | Scotland West - Glasgow | Glasgow | £50000 per year | HR Administrator Placement Programme - No Experience Needed
 job_id: 108092644
 ---
-
 ## SHROPSHIRE — SELECTED
 
 ---
@@ -4472,11 +4465,10 @@ job_id: 108118706
 ## SUFFOLK — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - SUFFOLK | Suffolk | Suffolk | £190 - £195 per daily (+ None) | Learning Coordinator
 job_id: 108067034
 ---
-
 ## WALES SOUTH - CARDIFF & VALE — SELECTED
 
 ---
