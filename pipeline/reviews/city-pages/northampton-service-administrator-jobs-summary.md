@@ -4,7 +4,7 @@
 - Live route: `/northampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 9
+- automatic include: 13
+- automatic review: 35
 - automatic exclude: 0
-- effective include: 4
-- effective review: 9
+- effective include: 13
+- effective review: 35
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (13)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: JT Recruit - Agency - Temporary
+location: Northampton
+source: JobG8
+job_id: jobg8-23643_225696736
+reason: Exact approved Northampton workplace.
+---
 
 ---
 action: 
@@ -33,6 +45,18 @@ company: Welford Sibbertoft and Sulby Endowed School
 location: Northampton
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrator-welford-sibbertoft-and-sulby-endowed-school-northampton-northamptonshire
+reason: Exact approved Northampton workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Attendance Administrator
+company: TimePlan Education - Agency - Contract
+location: Northampton
+source: JobG8
+job_id: jobg8-23643_225709213
 reason: Exact approved Northampton workplace.
 ---
 
@@ -64,6 +88,66 @@ reason: Exact approved Northampton workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Customer Service Advisor
+company: Impact Recruitment Services - Agency - Permanent
+location: Northampton
+source: JobG8
+job_id: jobg8-23643_225652290
+reason: Exact approved Northampton workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Examination Administration Assistant
+company: Impact Recruitment Services - Agency - Permanent
+location: Northampton
+source: JobG8
+job_id: jobg8-23643_225656807
+reason: Exact approved Northampton workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Fleet Administrator
+company: Perfect Placement - Agency - Permanent
+location: Northampton
+source: JobG8
+job_id: jobg8-23643_225716110
+reason: Exact approved Northampton workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Part Time Administrator
+company: The National Allotment Society - Agency - Permanent
+location: Northampton
+source: JobG8
+job_id: jobg8-23643_225699859
+reason: Exact approved Northampton workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Administrator
+company: Infinity Recruitment Consultancy Limited - Agency - Permanent
+location: Northampton
+source: JobG8
+job_id: jobg8-23643_225600194
+reason: Exact approved Northampton workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist
 company: County Surgery
 location: Northampton, NN1 4QA
@@ -72,7 +156,31 @@ job_id: nhs-5632294
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (9)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Sales Support
+company: Osborne Appointments - Agency - Permanent
+location: Northampton
+source: JobG8
+job_id: jobg8-23643_225713679
+reason: Exact approved Northampton workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Vetting Administrator
+company: Search Consultancy Ltd - Agency - Contract
+location: Northampton
+source: JobG8
+job_id: jobg8-23643_225641855
+reason: Exact approved Northampton workplace.
+---
+
+## REVIEW (35)
 
 ---
 action: 
@@ -114,6 +222,42 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Administrator
+company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225697797
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Siamo Recruitment a division of Siamo Group - Agency - Temporary
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225647713
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator - Northampton
+company: Blue Arrow - Agency - Temporary
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225688288
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Assistant Accountant
 company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Northamptonshire
@@ -126,11 +270,83 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Branch Administrator
+company: Adecco - Agency - Contract
+location: Kettering
+source: JobG8
+job_id: jobg8-23643_225705300
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Credit Controller
 company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-2042669
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Administrator
+company: Hawk 3 Talent Solutions - Agency - Permanent
+location: Rushden
+source: JobG8
+job_id: jobg8-23643_225654528
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Administrator
+company: Impact Recruitment Services - Agency - Temporary
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225652889
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: Interaction Recruitment - Agency - Temporary
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225675059
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Depot Coordinator
+company: Whistl - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225659123
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Events Administrator
+company: K2 Recruitment - Agency - Temporary
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225696885
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -162,6 +378,90 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: M&E Administrator
+company: March - Company - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225646778
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Office Administrator
+company: CBSbutler Holdings Limited trading as CBSbutler - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225634900
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Office Administrator - Entry Level
+company: Impact Recruitment Services - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225608324
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Operations Administrator
+company: Provit Recruitment - Agency - Permanent
+location: Rushden
+source: JobG8
+job_id: jobg8-23643_225669422
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Order Processing Administrator
+company: ACS Staffing Solutions - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225647167
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Finance Assistant
+company: Adapro Talent Partners - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225706886
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part-time Accounts Assistant
+company: Abacus Consulting - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225531645
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part-time Payroll Administrator
 company: Cole Connections Ltd - Agency - Permanent
 location: Wellingborough
@@ -174,11 +474,131 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Personal Assistant
+company: Miller Homes - Agency - Contract
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225646341
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Project Administrator - CAD Experience
+company: ACS Staffing Solutions - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225636122
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment Operations Coordinator
+company: R&V Recruitment Ltd - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225448713
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment Resourcer / Administrator
+company: HG Recruitment Solutions - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225615919
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Safeguarding Administrator
+company: Simply Education Ltd - Agency - Contract
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225673908
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
+company: RETAIND Ltd - Agency - Permanent
+location: Corby
+source: JobG8
+job_id: jobg8-23643_225625074
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Single Point of Access Administrator
 company: Northamptonshire Healthcare Foundation Trust
 location: Wellingborough, NN8 1LT
 source: NHS Jobs
 job_id: nhs-5648061
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Stock Administrator
+company: Interaction Recruitment - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225661543
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Administrator - Immediate Start
+company: Interaction Recruitment - Agency - Temporary
+location: Corby
+source: JobG8
+job_id: jobg8-23643_225617945
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Vehicle Bodyshop Advisor/administrator
+company: Gardiner Motors Ltd - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225469707
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Yard Administrator
+company: Adecco - Agency - Temporary
+location: Corby
+source: JobG8
+job_id: jobg8-23643_225611388
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

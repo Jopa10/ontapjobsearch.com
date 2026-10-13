@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 5
-- automatic exclude: 3
+- automatic review: 6
+- automatic exclude: 5
 - effective include: 0
-- effective review: 5
-- effective exclude: 3
+- effective review: 6
+- effective exclude: 5
 
 ## INCLUDE (0)
 
-## REVIEW (5)
+## REVIEW (6)
 
 ---
 action: 
@@ -54,11 +54,11 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Female Waking Night Support Worker
+title: Female Support Worker
 company: SeeAbility - Agency - Permanent
 location: Tadley
 source: JobG8
-job_id: jobg8-107941132
+job_id: jobg8-107989086
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
@@ -78,6 +78,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Therapeutic Children's Support Worker
+company: The Tiger Group Consultancy Ltd - Agency - Permanent
+location: Colden Common
+source: JobG8
+job_id: jobg8-23643_225653471
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Waking Night Childrens Home Support Worker
 company: Hampshire County Council - Company - Permanent
 location: Romsey
@@ -86,7 +98,7 @@ job_id: jobg8-1401785693
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (3)
+## EXCLUDE (5)
 
 ---
 action: 
@@ -104,11 +116,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Care Assistant - Bank - Care Home
+company: Barchester Healthcare - Company - Permanent
+location: Basingstoke
+source: JobG8
+job_id: jobg8-23643_225716746
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Secure Children's Home Support Worker
 company: Hampshire County Council - Company - Permanent
 location: Eastleigh
 source: JobG8
 job_id: jobg8-1401785578
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Student Support Worker
+company: Academics - Agency - Contract
+location: Basingstoke
+source: JobG8
+job_id: jobg8-23643_225712958
 reason: Separate employment market.
 ---
 

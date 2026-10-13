@@ -4,8 +4,8 @@
 - Live route: `/scarborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 1
-- Threshold currently met: no
+- Effective included jobs: 5
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,28 +15,148 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
-- automatic review: 24
+- automatic include: 5
+- automatic review: 52
 - automatic exclude: 0
-- effective include: 1
-- effective review: 24
+- effective include: 5
+- effective review: 52
 - effective exclude: 0
 
-## INCLUDE (1)
+## INCLUDE (5)
 
 ---
 action: 
 decision: include
 automatic_decision: include
-title: Administration Assistant
-company: Gladstone Road Primary School
+title: Administration Assistant Part Time
+company: Adecco - Agency - Permanent
 location: Scarborough
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-gladstone-road-primary-school-scarborough-north-yorkshire
+source: JobG8
+job_id: jobg8-23643_225673626
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (24)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: ABL Health - Agency - Permanent
+location: Scarborough
+source: JobG8
+job_id: jobg8-23643_225626086
+reason: Exact approved Scarborough workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Project Coordinator
+company: KD Recruitment - Agency - Permanent
+location: Scarborough
+source: JobG8
+job_id: jobg8-23643_225625778
+reason: Exact approved Scarborough workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Service Co-ordinator
+company: KD Recruitment - Agency - Permanent
+location: Scarborough
+source: JobG8
+job_id: jobg8-23643_225622354
+reason: Exact approved Scarborough workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Service Coordinator (UPS)
+company: Dale Power Solutions - Agency - Permanent
+location: Scarborough
+source: JobG8
+job_id: jobg8-23643_225641309
+reason: Exact approved Scarborough workplace.
+---
+
+## REVIEW (52)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Assistant
+company: Clear Legal & Financial Recruitment - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-23643_225702033
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Capital Outsourcing Group Ltd - Agency - Permanent
+location: Pickering
+source: JobG8
+job_id: jobg8-23643_225499251
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Travail Employment Group - Agency - Temporary
+location: Harrogate
+source: JobG8
+job_id: jobg8-23643_225702451
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator - HR Department
+company: Hays Business Support - Agency - Permanent
+location: Northallerton
+source: JobG8
+job_id: jobg8-23643_225714249
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator / Coordinator
+company: KD Recruitment - Agency - Permanent
+location: Ripon
+source: JobG8
+job_id: jobg8-23643_225631397
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Buyer/Purchasing Assistant
+company: PPM Recruitment - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-23643_225652103
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -71,6 +191,54 @@ company: Tees Esk and Wear Valleys NHS Foundation Trust
 location: Northallerton, DL6 2FG
 source: NHS Jobs
 job_id: nhs-5655930
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Commercial & Residential Property Legal Secretary
+company: Search Consultancy Ltd - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-23643_225656965
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Commercial and Residential Property Secretary
+company: Unity Resourcing Ltd - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-23643_225626163
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Commercial Property Paralegal
+company: Clear Legal & Financial Recruitment - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-23643_225708921
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Commercial Property Paralegal
+company: Search Consultancy Ltd - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-23643_225706656
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -186,6 +354,54 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Administrator
+company: Unity Resourcing Ltd - Agency - Permanent
+location: Ripon
+source: JobG8
+job_id: jobg8-23643_225657349
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Document Controller
+company: CV Technical - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-23643_225617615
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: IPS Finance - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-23643_225607215
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Assistant
+company: Sewell Wallis Ltd - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-23643_225694595
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Legal Administrator
 company: Venn Group - Agency - Permanent
 location: York
@@ -203,6 +419,42 @@ company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Northallerton
 source: JobG8
 job_id: jobg8-2063467
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Secretary
+company: Sewell Wallis Ltd - Agency - Permanent
+location: Malton
+source: JobG8
+job_id: jobg8-23643_225694644
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Secretary - Property
+company: Sewell Wallis Ltd - Agency - Permanent
+location: Malton
+source: JobG8
+job_id: jobg8-23643_225694697
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Lettings Co-ordinator
+company: Office Angels - Agency - Permanent
+location: Richmond
+source: JobG8
+job_id: jobg8-23643_225682758
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -234,11 +486,35 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Onboarding Administrator
+company: Sewell Wallis Ltd - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-23643_225686566
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Paralegal
 company: LSL Property Services plc - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-2093053
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Paralegal
+company: Unity Resourcing Ltd - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-23643_225700091
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -259,10 +535,34 @@ action:
 decision: review
 automatic_decision: review
 title: Part Time Finance Assistant
+company: Hays Accounts and Finance - Agency - Temporary
+location: York
+source: JobG8
+job_id: jobg8-23643_225696188
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Finance Assistant
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-2087398
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Patient Services Administrator
+company: Filey Surgery
+location: Filey, YO14 9AE
+source: NHS Jobs
+job_id: nhs-5651232
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -282,6 +582,18 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Private Client Legal Secretary
+company: Search Consultancy Ltd - Agency - Permanent
+location: Malton
+source: JobG8
+job_id: jobg8-23643_225661285
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Probate & Wills Legal Secretary - Malton, Yorkshire
 company: qed legal - Agency - Permanent
 location: Malton
@@ -294,11 +606,59 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Purchase Ledger Assistant
+company: Travail Employment Group - Agency - Temporary
+location: Harrogate
+source: JobG8
+job_id: jobg8-23643_225698949
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Reception Administrator
+company: Travail Employment Group - Agency - Permanent
+location: Knaresborough
+source: JobG8
+job_id: jobg8-23643_225661252
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Capital Outsourcing Group Ltd - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-23643_225655354
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Remote Conveyancing Paralegal
 company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2055397
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Residential Property Paralegal
+company: Search Consultancy Ltd - Agency - Permanent
+location: Malton
+source: JobG8
+job_id: jobg8-23643_225661358
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -323,6 +683,30 @@ company: Greenfield I T Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2057285
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Technical & Quality Support Administrator
+company: Unity Resourcing Ltd - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-23643_225691482
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Payout Coordinator
+company: Michael Page - Agency - Temporary
+location: Richmond
+source: JobG8
+job_id: jobg8-23643_225666115
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

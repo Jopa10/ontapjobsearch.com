@@ -4,7 +4,7 @@
 - Live route: `/shrewsbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 1
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
-- automatic review: 4
+- automatic include: 3
+- automatic review: 12
 - automatic exclude: 0
-- effective include: 1
-- effective review: 4
+- effective include: 3
+- effective review: 12
 - effective exclude: 0
 
-## INCLUDE (1)
+## INCLUDE (3)
 
 ---
 action: 
@@ -36,7 +36,31 @@ job_id: jobg8-2073994
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (4)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Support Administrator
+company: Amour Recruitment - Agency - Permanent
+location: Shrewsbury
+source: JobG8
+job_id: jobg8-23643_225710675
+reason: Exact approved Shrewsbury workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Service Advisor
+company: Auto Skills UK - Agency - Permanent
+location: Shrewsbury
+source: JobG8
+job_id: jobg8-23643_225715945
+reason: Exact approved Shrewsbury workplace.
+---
+
+## REVIEW (12)
 
 ---
 action: 
@@ -47,6 +71,90 @@ company: Cosgrove & Cosgrove Ltd - Agency - Permanent
 location: Telford
 source: JobG8
 job_id: jobg8-2057863
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Activities Coordinator - Care Home
+company: Barchester Healthcare - Company - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-23643_225710199
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: MPI Limited - Agency - Contract
+location: Shropshire
+source: JobG8
+job_id: jobg8-23643_225707286
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Administrator
+company: Prince Personnel Limited - Agency - Temporary
+location: Shropshire
+source: JobG8
+job_id: jobg8-23643_225625621
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist
+company: EJ Connect - Agency - Temporary
+location: Shropshire
+source: JobG8
+job_id: jobg8-23643_225635286
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: KPA Recruitment Ltd - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-23643_225700135
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Assistant
+company: Huntress - Maidstone - Agency - Temporary
+location: Shropshire
+source: JobG8
+job_id: jobg8-23643_225714724
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Assistant
+company: Sellick Partnership - Agency - Contract
+location: Shropshire
+source: JobG8
+job_id: jobg8-23643_225700653
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -83,6 +191,18 @@ company: Knockin Medical Centre
 location: Oswestry, SY10 8HL
 source: NHS Jobs
 job_id: nhs-5631168
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
+company: Adecco - Agency - Contract
+location: Shropshire
+source: JobG8
+job_id: jobg8-23643_225626801
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

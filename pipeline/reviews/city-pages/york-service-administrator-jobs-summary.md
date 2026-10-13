@@ -4,8 +4,8 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
-- Threshold currently met: no
+- Effective included jobs: 11
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,62 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 8
-- automatic exclude: 13
-- effective include: 4
-- effective review: 8
-- effective exclude: 13
+- automatic include: 11
+- automatic review: 19
+- automatic exclude: 27
+- effective include: 11
+- effective review: 19
+- effective exclude: 27
 
-## INCLUDE (4)
+## INCLUDE (11)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administration Assistant
+company: Clear Legal & Financial Recruitment - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-23643_225702033
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Buyer/Purchasing Assistant
+company: PPM Recruitment - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-23643_225652103
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Document Controller
+company: CV Technical - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-23643_225617615
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Assistant
+company: Sewell Wallis Ltd - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-23643_225694595
+reason: Approved York catchment.
+---
 
 ---
 action: 
@@ -40,11 +88,35 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Onboarding Administrator
+company: Sewell Wallis Ltd - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-23643_225686566
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Paralegal
 company: LSL Property Services plc - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-2093053
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Part Time Finance Assistant
+company: Hays Accounts and Finance - Agency - Temporary
+location: York
+source: JobG8
+job_id: jobg8-23643_225696188
 reason: Approved York catchment.
 ---
 
@@ -72,7 +144,43 @@ job_id: nhs-5655371
 reason: Approved York catchment.
 ---
 
-## REVIEW (8)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Capital Outsourcing Group Ltd - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-23643_225655354
+reason: Approved York catchment.
+---
+
+## REVIEW (19)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Capital Outsourcing Group Ltd - Agency - Permanent
+location: Pickering
+source: JobG8
+job_id: jobg8-23643_225499251
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator / Coordinator
+company: KD Recruitment - Agency - Permanent
+location: Ripon
+source: JobG8
+job_id: jobg8-23643_225631397
+reason: No approved York catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -150,11 +258,107 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Administrator
+company: Unity Resourcing Ltd - Agency - Permanent
+location: Ripon
+source: JobG8
+job_id: jobg8-23643_225657349
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Secretary
+company: Sewell Wallis Ltd - Agency - Permanent
+location: Malton
+source: JobG8
+job_id: jobg8-23643_225694644
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Secretary - Property
+company: Sewell Wallis Ltd - Agency - Permanent
+location: Malton
+source: JobG8
+job_id: jobg8-23643_225694697
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Lettings Co-ordinator
+company: Office Angels - Agency - Permanent
+location: Richmond
+source: JobG8
+job_id: jobg8-23643_225682758
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Patient Services Administrator
+company: Filey Surgery
+location: Filey, YO14 9AE
+source: NHS Jobs
+job_id: nhs-5651232
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Private Client Legal Secretary
+company: Search Consultancy Ltd - Agency - Permanent
+location: Malton
+source: JobG8
+job_id: jobg8-23643_225661285
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Probate & Wills Legal Secretary - Malton, Yorkshire
 company: qed legal - Agency - Permanent
 location: Malton
 source: JobG8
 job_id: jobg8-2050560
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Reception Administrator
+company: Travail Employment Group - Agency - Permanent
+location: Knaresborough
+source: JobG8
+job_id: jobg8-23643_225661252
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Residential Property Paralegal
+company: Search Consultancy Ltd - Agency - Permanent
+location: Malton
+source: JobG8
+job_id: jobg8-23643_225661358
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -170,17 +374,65 @@ job_id: jobg8-108059238
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (13)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Payout Coordinator
+company: Michael Page - Agency - Temporary
+location: Richmond
+source: JobG8
+job_id: jobg8-23643_225666115
+reason: No approved York catchment rule matched; local review required.
+---
+
+## EXCLUDE (27)
 
 ---
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administration Assistant
-company: Gladstone Road Primary School
+title: Administration Assistant Part Time
+company: Adecco - Agency - Permanent
 location: Scarborough
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-gladstone-road-primary-school-scarborough-north-yorkshire
+source: JobG8
+job_id: jobg8-23643_225673626
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: ABL Health - Agency - Permanent
+location: Scarborough
+source: JobG8
+job_id: jobg8-23643_225626086
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: Travail Employment Group - Agency - Temporary
+location: Harrogate
+source: JobG8
+job_id: jobg8-23643_225702451
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator - HR Department
+company: Hays Business Support - Agency - Permanent
+location: Northallerton
+source: JobG8
+job_id: jobg8-23643_225714249
 reason: Separate employment market.
 ---
 
@@ -224,6 +476,54 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Commercial & Residential Property Legal Secretary
+company: Search Consultancy Ltd - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-23643_225656965
+reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Commercial and Residential Property Secretary
+company: Unity Resourcing Ltd - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-23643_225626163
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Commercial Property Paralegal
+company: Clear Legal & Financial Recruitment - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-23643_225708921
+reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Commercial Property Paralegal
+company: Search Consultancy Ltd - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-23643_225706656
+reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Content Creator
 company: Greenfield I T Recruitment - Agency - Permanent
 location: Yorkshire
@@ -254,6 +554,18 @@ location: Yorkshire
 source: JobG8
 job_id: jobg8-2057600
 reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant
+company: IPS Finance - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-23643_225607215
+reason: Separate employment market.
 ---
 
 ---
@@ -296,12 +608,48 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Paralegal
+company: Unity Resourcing Ltd - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-23643_225700091
+reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Paralegal - Family
 company: Edwards & Pearce - Doncaster - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2065406
 reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Project Coordinator
+company: KD Recruitment - Agency - Permanent
+location: Scarborough
+source: JobG8
+job_id: jobg8-23643_225625778
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Purchase Ledger Assistant
+company: Travail Employment Group - Agency - Temporary
+location: Harrogate
+source: JobG8
+job_id: jobg8-23643_225698949
+reason: Separate employment market.
 ---
 
 ---
@@ -320,10 +668,46 @@ reason: Broad regional label; not York-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Service Co-ordinator
+company: KD Recruitment - Agency - Permanent
+location: Scarborough
+source: JobG8
+job_id: jobg8-23643_225622354
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Service Coordinator (UPS)
+company: Dale Power Solutions - Agency - Permanent
+location: Scarborough
+source: JobG8
+job_id: jobg8-23643_225641309
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Social Media Executive
 company: Greenfield I T Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2057285
 reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Technical & Quality Support Administrator
+company: Unity Resourcing Ltd - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-23643_225691482
+reason: Separate employment market.
 ---
