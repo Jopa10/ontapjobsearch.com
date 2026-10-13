@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-10-12
-review_fingerprint: 8b2f8bd614d9da734e0b526915008f466419c54b326aa4d6c2f4a94a7c56e815
+review_date: 2026-10-13
+review_fingerprint: aa072c42f0011146e78a2be2a12e12268ec0e0e10ea99a96df5e966fcd89aee3
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,9 +10,9 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-10-12T16:55:22+01:00
+Run generated: 2026-10-13T15:29:44+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 290
+JobG8 comparison rows: 427
 Approved NEJobs comparison rows: 0
 
 ## Funnel
@@ -28,10 +28,10 @@ Approved NEJobs comparison rows: 0
 
 ## Outcomes
 - HC: 2
-- POSS: 9
-- HARD_PASS: 2
+- POSS: 8
+- HARD_PASS: 3
 - Final selected after remembered/manual actions: 2
-- Final POSS awaiting decision: 9
+- Final POSS awaiting decision: 8
 - Manually excluded: 0
 ## Detail diagnostics
 - No unresolved detail-page failures.
@@ -66,32 +66,6 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173530
 ---
 ## POSS — choose SELECT or EXCLUDE
 
----
-action:
-POSS | North East | Hybrid | £ | Are you an excellent communicator with a passion for helping others? We have the perfect opportunity !
-employer: Social Welfare Adviser
-closing_date: 23 October 2026
-geography: GENERIC_REVIEW — generic VONNE location requires manual North East check
-reason: North East geography is generic or derived and requires review
-source: VONNE
-tracking_key: vonne-173531
-vacancy_fingerprint: b07b5d977c969bd85ed2e92be19e6bd5627a46bb321866006adf1e8eb17ea0a0
-source_job_id: 173531
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173531
----
----
-action:
-POSS | North East | Hybrid | £51,928 Per Annum | Could you lead the next chapter of Community Action Northumberland?
-employer: Chief Executive
-closing_date: 02 November 2026
-geography: GENERIC_REVIEW — generic VONNE location requires manual North East check
-reason: North East geography is generic or derived and requires review
-source: VONNE
-tracking_key: vonne-173526
-vacancy_fingerprint: 4fcc153ec86848d32ff2901cf66ca179190c941e10f722c0db25bdaf508ae482
-source_job_id: 173526
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173526
----
 ---
 action:
 POSS | North East - Tyneside, Wearside & Northumberland | Gateshead | £33,323 Per Annum | Business Support Coach
@@ -172,6 +146,19 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173401
 ---
 ---
 action:
+POSS | North East - Tyneside, Wearside & Northumberland | Hybrid | £ | Social Welfare Adviser
+employer: Citizens Advice Gateshead
+closing_date: 23 October 2026
+geography: DERIVED_REVIEW — employer-derived geography: area found in address: gateshead
+reason: North East geography is generic or derived and requires review
+source: VONNE
+tracking_key: vonne-173531
+vacancy_fingerprint: f66ce826443620503db801f7cc0a1c849b114fa6d8758b2c2a30486161b27452
+source_job_id: 173531
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173531
+---
+---
+action:
 POSS | North East - Tyneside, Wearside & Northumberland | Gateshead | £50,565 Per Annum | Solicitor
 employer: Citizens Advice Gateshead
 closing_date: 30 October 2026
@@ -189,6 +176,7 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173501
 
 ## HARD_PASS
 
+- [Chief Executive](https://www.vonne.org.uk/vonne-jobs-details?cid=173526) — out-of-scope VONNE occupation.
 - [Children and Young People’s Mental Health](https://www.vonne.org.uk/vonne-jobs-details?cid=173496) — insufficient service-admin evidence.
 - [Interim Chief Executive Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173518) — out-of-scope VONNE occupation.
 
