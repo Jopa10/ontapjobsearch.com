@@ -990,11 +990,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0840",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0840",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5633613",
@@ -1012,10 +1008,24 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0343-26-0030abl670e",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0343-26-0030abl670e",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
+  },
+  {
+    "job_id": "nhs-5662096",
+    "source": "NHS Jobs",
+    "title": "Patient Care Advisor (Receptionist)",
+    "company": "Leckhampton Surgery",
+    "advertiser_name": "Leckhampton Surgery",
+    "location": "Cheltenham, GL53 0LA",
+    "region": "Gloucestershire",
+    "salary": "£13.11",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-13T16:10:50.707696057",
+    "closing_date": "2026-11-10",
+    "description": "We are looking for someone to represent the practice face to face, on the telephone and through our online services. Assisting and care navigating patients in accessing the appropriate service or healthcare professional in a courteous, efficient and effective manner, in line with appropriate training. Provide general assistance to the patients, visitors and practice team in a positive and friendly manner, either in person or via the telephone or electronically. Carry out administrative duties including scanning, filing and clinical coding. Hours required- Full and Part Time considered. Working week 37.5hrs. Shift patterns in advance between 0745am and 1845pm at present. Some potential for enhanced hours. Rotational Saturday morning shift, shared amongst the team, on current average, no more than x3 per year. Interviews will be held as soon as possible following closing date, we may also welcome you in to do a shadowing session if you are successful to meet the team. We reserve the right to close early due to high application volume. Job Responsibilities: Reception Welcome patients and any other visitors to the practice, ensuring a professional effective and efficient reception service is provided Initiating contact with and responding to requests from patients, other members of the practice team and other healthcare professionals Deal professionally, calmly and efficiently with emergency situations Handling repeat prescription requests online, by email or in person. Deal with all general enquiries, explaining procedures where necessary Explain practice arrangements and formal requirements to new patients and temporary residents, ensuring relevant forms are completed and procedures followed Assist patients to register for access to online services Make appointments and guide patients to the correct medical professional Scanning, filing and coding of correspondence Dealing with correspondence from different sources including emails, post and other online services. Open & closing building Assist patients to register for access to on-line services Direct specimens as per practice protocol Advise patients of relevant charges for non NHS services, accept payment and issue receipts. Appointments Processing in person, online and by telephone, requests for appointments, ensuring callers are directed to the appropriate health care professional in line with care navigation training Book in, amend and cancel patients in line with the practice appointments procedures ensuring optimum efficiency of the appointment system directing to online services as appropriate. Action all tasks allocated by the reception team ledger in a timely and efficient manner. Deal with requests for home visits in accordance with practice protocols or as directed. Monitor the practice appointment system and ensure patients are notified if a Clinician is running late or unable to fulfil a booked surgery. Telephone Respond to calls from patients in a supportive, courteous and professional manner Ensure all calls are answered in a timely manner Transfer calls to the relevant members of the practice team as required Deal with appointment and repeat prescription queries over the telephone/email/dashboard Receive and make telephone calls as required, documenting when necessary, ensuring accuracy of detail Booking interpreters for patients when requested Administration To have a thorough knowledge of all Practice procedures To work in accordance with written protocols Open internal and External Mail Sort and date stamp all incoming patient related mail Scan patient related documents onto the patient medical notes Retrieving/filing notes for surgeries and update as necessary Scanning and Filing post in medical records, assigning to other members of staff as required Photocopy/scan and laminate documents as requested Monitor and respond to all website queries to the reception team Computer Registrations of patients as and when required Process patients change of address computer data and medical records Action repeat prescription requests and ensure that they are processed within surgery policy timeframe whether paper or electronic Check incoming e-mails on a regular daily basis Undertake administration tasks and enter patient information on to the computer as required Use the clinical and other surgery IT systems as required for the purpose of this post. Please note: as per policy, if you are successful in the role and currently a patient of the surgery, you will be required to register elsewhere.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0618-26-0005",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0618-26-0005",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B"
   }
 ]

@@ -225,6 +225,24 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "nhs-5569798",
+    "source": "NHS Jobs",
+    "title": "Receptionist",
+    "company": "Sabden & Whalley Medical Group",
+    "advertiser_name": "Sabden & Whalley Medical Group",
+    "location": "Clitheroe, BB7 9SL",
+    "region": "Lancashire - East",
+    "salary": "Negotiable",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-13T16:52:18.986959439",
+    "closing_date": "2026-10-30",
+    "description": "We are looking to find the perfect fit to join the reception team at our GP Practice. The role of the GP Receptionist is fast-paced, and can at times be very demanding, so we are looking for an individual who is confident and resilient; with a professional attitude and an empathetic manner. Excellent communication and IT skills are essential, and candidates must be highly organised and also good at multi-tasking. Previous experience in a General Practice or healthcare setting is desirable, but not essential as training will be provided. The position is part time, working 27.75 hours over three days Processing in person, telephone and online requests for appointments, visits and telephone consultations and ensuring patients are directed to the appropriate healthcare professional. Computer data entry/data allocation and collation; processing and recording information in accordance with practice procedures. Providing clerical assistance to practice staff, including word/data processing, filing, photocopying and scanning. To act on patient requests with respect, sympathy and confidentiality. To deal with frustrated or upset patients in a professional manner, and to respond to any unpredictable situation that may arise. The Receptionist will be responsible for undertaking a wide range of reception duties and the provision of general support to the multidisciplinary team. Duties can include, but are not limited to, greeting and directing patients, the effective use of the appointment system, booking appointments, the processing of information (electronic and hard copy) in a timely manner and in accordance with current policies, assisting patients as required and supporting the administration team with patient registration. The post-holder will act as the central point of contact for patients, be responsible for the distribution of information, messages and enquiries for the clinical team, liaise with multi-disciplinary team members and external agencies such as secondary care and community service providers. The Receptionist will support staff with the distribution of information, messages and enquiries for the clinical team, liaising with multidisciplinary team members and external agencies such as secondary care and community service providers. The post-holder will be an integral part of the general practice team. Please see the attached job description for further detail.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0046-26-0004",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0046-26-0004",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A"
+  },
+  {
     "job_id": "nhs-5640157",
     "source": "NHS Jobs",
     "title": "Medical receptionist/Care Navigator",
@@ -240,32 +258,6 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2060-26-0013",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2060-26-0013",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5629022",
-    "source": "NHS Jobs",
-    "title": "HR Administrator",
-    "company": "East Lancashire Alliance",
-    "advertiser_name": "East Lancashire Alliance",
-    "location": "Burnley, BB12 6HH",
-    "region": "Lancashire - East",
-    "salary": "Negotiable",
-    "employment_type": "Permanent",
-    "posted_date": "2026-09-30T12:55:51.198105795",
-    "closing_date": "2026-10-14",
-    "description": "The East Lancashire Alliance is currently looking to recruit a HR assistant on a permanent basis to help support both the HR department and the PCNs. To provide an efficient and responsive administrative, organisational service to the PCNs who are part of the Alliances recruitment and management service. Alongside this you are also responsible for collating information for the zero hours and locum workforce for various contracts that the Alliance holds. This is a role established to support the HR department and PCNs in carrying out day-to-day activities and to provide an element of cover or source of advice in the event of their absence. Supporting the HR Department. Collating information for personnel files, ensuring all are CQC compliant Coordinating the recruitment process for the PCNs from start to finish Ensuring PCNs are kept up to date on information relating to the ARRS roles and pay scales/reimbursement rates Answering queries from both internal staff and external staff Working autonomously within your capabilities Coordinating interviews and inductions for all new starters Ensuring all IT equipment is tracked and coordinated, ordering ARRS IT kit when required Keeping the Bright HR system up to date with employee details, adding new starters and terminating employees upon official resignation acceptance Calculating the correct leave and salary for new starters based on their agreed hours and working patterns Diary management of probation/appraisal meetings and others when required Sitting on the interview panel for ARRS and PCN to provide support and advice for the PCN Coordinating the internal birthday calendar Liaising with workforce in relation to the individual documents that are required for the various services that the Alliance undertakes Providing cover within the team when necessary Answering the phones and other general administrative duties Coordinating the set up of all new starters IT equipment and smartcards Ensuring that the Rota Master system is up to date with all workforce information Ensuring all jobs to be advertised follow the correct process and are kept up to date on NHS Jobs Providing all required payroll information of new, existing and Zero hours staff to the HR department. Requesting DBS checks through the Alliances provider. Any other ad hoc duties as required by the HR department and management team. For a further information please see the attached job description",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0467-26-0033",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0467-26-0033",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   }
 ]

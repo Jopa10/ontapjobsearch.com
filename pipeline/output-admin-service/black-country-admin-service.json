@@ -950,6 +950,24 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "nhs-5657426",
+    "source": "NHS Jobs",
+    "title": "Receptionist",
+    "company": "Newbridge Surgery",
+    "advertiser_name": "Newbridge Surgery",
+    "location": "Wolverhampton, WV6 0DE",
+    "region": "West Midlands - Black Country",
+    "salary": "Negotiable",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-13T14:03:19.665085866",
+    "closing_date": "2026-10-25",
+    "description": "GP Receptionist Shifts: Monday 1:00 pm - 6:30 pm, Tuesday 8 am - 1 pm and Thursday 1:00 pm - 6:30 pm shifts plus cover (approx 16 hours per week). Reception Rota includes additional shifts; early mornings / late finishes until 6:30 pm and Saturday working on a regular rota basis. Please note we may close the vacancy earlier than the closing date if there are high number of applications. We currently have a receptionist vacancy; this is a busy and varied role, dealing with patients both face to face and on the telephone. Duties will also include general practice administration. You will need to ensure that you are organised and be patient focused. Ideally, you will have previously gained experience in Care Navigation within a General Practice environment. The successful candidate will be required to provide excellent customer service skills and provide administration support to the Practice. You must be flexible and able to work additional hours as and when required to cover annual leave and other periods of absence to ensure the efficient and smooth running of the Practice. Previous experience in General Practice is essential. You must have excellent communication skills; the ability to cope with change, be adaptable, accurate and ability to work alone or as part of a team are essential. You must also be IT literate and have gained experience of EMIS web. This post is subject to a Disclosure Barring Service check. Please note the job vacancy may close earlier pending the number of applications.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0471-26-0004",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0471-26-0004",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A"
+  },
+  {
     "job_id": "nhs-5655260",
     "source": "NHS Jobs",
     "title": "Receptionist",
@@ -965,11 +983,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A6058-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A6058-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5658734",
@@ -987,11 +1001,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1659-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1659-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5645658",
@@ -1009,11 +1019,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9285-26-0673",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9285-26-0673",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5641631",
@@ -1031,11 +1037,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9407-26-0383",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9407-26-0383",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5639905",
@@ -1053,11 +1055,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0692-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0692-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5637410",
@@ -1075,11 +1073,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9285-26-0650",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9285-26-0650",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5629029",
@@ -1097,10 +1091,6 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9285-26-0635",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9285-26-0635",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   }
 ]

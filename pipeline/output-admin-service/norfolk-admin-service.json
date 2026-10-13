@@ -1024,11 +1024,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4266-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4266-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5635640",
@@ -1046,33 +1042,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0977-011026",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0977-011026",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5640742",
-    "source": "NHS Jobs",
-    "title": "Ward Clerk",
-    "company": "James Paget University Hospitals NHS Foundation Trust",
-    "advertiser_name": "James Paget University Hospitals NHS Foundation Trust",
-    "location": "Great Yarmouth, NR31 6LA",
-    "region": "Norfolk",
-    "salary": "£25272.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-10-05T08:45:56.986477",
-    "closing_date": "2026-10-18",
-    "description": "We are looking for a motivated and organised Ward Clerk to join our Maternity Administration Team. Based primarily within Maternity Triage and Maternity Assessment Unit (MAU), you will provide a welcoming reception service, support patient flow and act as the first point of contact for women, families and healthcare professionals. This is a varied and rewarding role where you will play an important part in supporting safe, effective maternity care and ensuring patients receive a positive experience from the moment they arrive. Provide a welcoming and professional reception service for women and families attending Maternity Triage and Maternity Assessment Unit (MAU). Act as the first point of contact for patients, visitors and healthcare professionals in person and by telephone. Register patient attendances and maintain accurate electronic patient records. Support patient flow by communicating effectively with clinical staff and escalating concerns where appropriate. Maintain a visible presence within the reception area and support the safe monitoring of patients awaiting assessment. Manage patient documentation, correspondence, shared inboxes and routine administrative tasks. Liaise with multidisciplinary teams to support the smooth and efficient running of the service. Ensure confidentiality is maintained and information is handled in accordance with Trust policies. Provide administrative support across maternity services as required to meet service needs. We are looking for someone with excellent communication and IT skills, strong organisational abilities, attention to detail and the ability to remain calm and professional in a busy environment. Please see attached Job Description and Person Specification for full details of the role and responsibilities.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9177-26-0409",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9177-26-0409",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5631108",
@@ -1090,11 +1060,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4737-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4737-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5572899",
@@ -1112,10 +1078,6 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0782",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0782",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   }
 ]

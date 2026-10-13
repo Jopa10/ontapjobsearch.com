@@ -1193,11 +1193,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1194",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1194",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5638681",
@@ -1215,11 +1211,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0789-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0789-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5543958",
@@ -1237,11 +1229,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3962-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3962-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5652428",
@@ -1259,33 +1247,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9430-26-0559",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9430-26-0559",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5647765",
-    "source": "NHS Jobs",
-    "title": "Ward Clerk",
-    "company": "Milton Keynes University Hospital NHS Foundation Trust",
-    "advertiser_name": "Milton Keynes University Hospital NHS Foundation Trust",
-    "location": "Milton Keynes, MK6 5LD",
-    "region": "Buckinghamshire",
-    "salary": "£25272.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-10-07T12:28:32.468532073",
-    "closing_date": "2026-10-14",
-    "description": "Ward Clerk Department: Ward 3 Band 2 pro rata if part-time Hours: 15 hours per week, Monday and Tuesday - all MKUH roles will be considered for flexible working Ward 3 is a 24 bedded medical ward, predominantly Care of the Elderly We have a large team of doctors, Nurses, and therapy team, and work closely with other multi-disciplinary teams. We are friendly, approachable, and supportive, and looking for a ward clerk to add to our team. Please note that this post is subject to an initial probationary period of six months, extendable up to a period of 12 months. A DBS check may be required for new employees. MKUH promotes an inclusive workforce and proactively welcomes applications from underrepresented groups in our community. We are unable to offer sponsorship for this role Interview date: Week commencing 2 November 2026 We care We communicate We collaborate We contribute \"- NHS Survey, 2024'' They feel supported in their employers making reasonable adjustments to help them carry out their work, rating an 82.9% Deal with personal effects and documentation relating to lost property and property belonging to patients who have died on the unit. Provide cover as required in the event of another ward clerk within the medical directorate being absent. Liaise with all other departments as needed regarding day-to-day unit communication. Greet all visitors to the unit in a friendly, helpful and courteous manner. The undertaking of general organisation of paperwork and notes within the Unit to ensure an organized department. To answer the telephone, taking and delivering messages in an appropriate and helpful manner. Manage Out-patients diary. To liaise with staff from other departments in an effective manner to include the bed manager/medical records/divisional bleep holders as requested. Deal with and distribute incoming mail, checking and replying to ward emails. Ensure all patients notes on the unit are maintained in good order with test results promptly and correctly filed. Arrange out patients appointments as required. Carry out procedures via the Trusts computer system for the admission, transfer and discharge of patients. Organise hospital transport as requested. Undertake computer-training courses as required, and ensure up to date bed states daily. Please refer to the job description for further details.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9430-26-0557",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9430-26-0557",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5619604",
@@ -1303,11 +1265,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0123TMP",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0123TMP",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5618527",
@@ -1325,10 +1283,6 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0121CHMC",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0121CHMC",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   }
 ]

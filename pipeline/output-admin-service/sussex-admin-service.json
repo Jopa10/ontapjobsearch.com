@@ -1678,6 +1678,24 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "nhs-5661992",
+    "source": "NHS Jobs",
+    "title": "Administrator (Part Time)",
+    "company": "Practice Plus Group - Health in Justice",
+    "advertiser_name": "Practice Plus Group - Health in Justice",
+    "location": "Lewes, BN7 1EA",
+    "region": "Sussex",
+    "salary": "£25821.00 to £28574.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-13T15:32:47.778233973",
+    "closing_date": "2026-10-23",
+    "description": "UNLOCK YOUR BEST WORK LIFE + MAKE A DIFFERENCE TO EVERY LIFE We have an exciting opportunity for an Administrator to join the team at HMP Lewes, a busy Category B male prison with capacity of around 627. Practice Plus Group provides healthcare services across the wings, clinic areas, inpatient facilities, and reception services. Bespoke induction, including our Introducing Health in Justice training course Competency framework Regional and national career development opportunities Our bespoke Learning Management System to address your learning needs Support from the wider team Candidates are required to have a Legal right to work in the UK and due to the nature of the role, offers of employment will be subject to additional vetting and security checks As our new Administrator, your responsibilities will include: As the first point of contact for the healthcare team, you will actively speak to hospitals, GP surgeries, solicitors and others, arranging external appointments for patients, requesting discharge summaries and patient summaries etc Use multiple systems (including SystemOne), as well as manage separate email inboxes Work closely with the wider prison team to arrange hospital appointments Process E Referrals Update trackers, systems and spreadsheets for hospital appointments, admissions, consent forms etc General admin duties such as scanning, post, minute taking and stock check If you are interested in career development, we have a wide range of opportunities for you to develop your skills and experience, which include both internal and external options for development and learning. It doesnt stop there we also offer: Company pension scheme 25 days annual leave increasing with service up to 28 days per year, plus public bank holidays An extensive range of wellbeing and lifestyle benefits Discounts on shopping and leisure activities Support to grow in your role and continue your professional development Excellent long-term career prospects 24/7 employee assistance helpline and financial assistance when you need it",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0759",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0759",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A"
+  },
+  {
     "job_id": "nhs-5661046",
     "source": "NHS Jobs",
     "title": "Receptionist",
@@ -1693,11 +1711,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4180-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4180-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5659948",
@@ -1715,11 +1729,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9150-26-0598",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9150-26-0598",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5657299",
@@ -1737,11 +1747,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2958-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2958-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5655598",
@@ -1759,11 +1765,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9150-26-0592",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9150-26-0592",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5649373",
@@ -1781,11 +1783,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0214-26-0146",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0214-26-0146",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5642135",
@@ -1803,10 +1801,6 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0673",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0673",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   }
 ]

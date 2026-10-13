@@ -2,15 +2,27 @@
 
 review_date: 2026-10-13
 
-- Open Administrative & Clerical rows reviewed: 2292
-- Auto/remembered selected: 404
+- Open Administrative & Clerical rows reviewed: 2290
+- Auto/remembered selected: 403
 - Selected HC Tier A: 215
-- Selected HC Tier B: 189
-- POSS awaiting decision: 1785
+- Selected HC Tier B: 188
+- POSS awaiting decision: 1784
 - Excluded: 0
 - HARD_PASS: 103
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | East Midlands | Burton on Trent, DE15 9AW | £13.01 | Care Coordinator
+source_job_id: 5662180
+title: Care Coordinator
+employer: Bridge Surgery
+region: East Midlands
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1408-26-0006
+factual_fingerprint: 0348bfdbde06c058a5c3a56af0a7ed5a11018104e02b934b8879c1168de2670c
+---
 
 ---
 action:
@@ -2270,18 +2282,6 @@ factual_fingerprint: e831687ef41033dd2bf9dcab89d44e0f29f410ae629c6af5fca4f5e73b7
 
 ---
 action:
-POSS | NHS Jobs | Greater Manchester - Manchester & Salford | Salford, M6 7DU | £26013.00 | Medical Secretary/Receptionist
-source_job_id: 5658661
-title: Medical Secretary/Receptionist
-employer: Elysium Healthcare
-region: Greater Manchester - Manchester & Salford
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2345
-factual_fingerprint: ee740bfbcee1acf99625a67c334a0c63716a92eb36fd4c4e7985e4f82470484f
----
-
----
-action:
 POSS | NHS Jobs | Kent | Maidstone, ME15 6NB | £28392.00 to £31157.00 | Medicines Commissioning and Contracting Support officer
 source_job_id: 5658989
 title: Medicines Commissioning and Contracting Support officer
@@ -3393,7 +3393,7 @@ employer: Lewisham and Greenwich NHS Trust
 region: 
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9197-26-0913
-factual_fingerprint: 4b72c6bcffca2533b5369eac0b05367c370497e48a99462313327b98df59a613
+factual_fingerprint: a6db976d595b515b87ae2251f022e1ff908289c43bb2b3ee3285a59bf3ee13e2
 ---
 
 ---
@@ -5434,18 +5434,6 @@ region: Buckinghamshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9434-26-0696
 factual_fingerprint: ddb64b19544b074f0f03bf5f181bd14abc071358503a6671f35ee7954aa3f88e
----
-
----
-action:
-POSS | NHS Jobs | Kent | Maidstone, ME16 9PL | £25760.00 to £27476.00 | Security Receptionist
-source_job_id: 5654256
-title: Security Receptionist
-employer: Kent and Medway Mental Health NHS Trust
-region: Kent
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0827
-factual_fingerprint: 8a66aea29ae24e2c1f139c9ff097a27c26724323b52f5d4de8f1747c5d5ffb9b
 ---
 
 ---

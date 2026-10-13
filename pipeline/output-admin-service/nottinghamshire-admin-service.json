@@ -924,11 +924,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9186-26-0732",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9186-26-0732",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5652756",
@@ -946,11 +942,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9335-26-0140",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9335-26-0140",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5645581",
@@ -968,11 +960,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1310-26-0024",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1310-26-0024",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5633951",
@@ -990,11 +978,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0526",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0526",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5633171",
@@ -1012,11 +996,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9826-PHCB-6568",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9826-PHCB-6568",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5630537",
@@ -1034,33 +1014,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0092",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0092",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5603348",
-    "source": "NHS Jobs",
-    "title": "Receptionist",
-    "company": "Bilsthorpe Surgery",
-    "advertiser_name": "Bilsthorpe Surgery",
-    "location": "Newark, NG22 8QB",
-    "region": "Nottinghamshire",
-    "salary": "Negotiable",
-    "employment_type": "Permanent",
-    "posted_date": "2026-09-28T13:21:53.487902221",
-    "closing_date": "2026-11-01",
-    "description": "We are seeking an experienced and highly organised GP Receptionist to join our busy and friendly practice team. The successful candidate will have previous experience in a GP practice or NHS healthcare setting and demonstrate excellent administrative, communication, and organisational skills. Experience handling referrals, managing clinical systems, and working within NHS pathways is essential. The post holder will be primarily responsible for carrying out reception duties, including: Managing incoming calls and patient enquiries Booking GP appointments and signposting patients appropriately Front-of-house reception cover Processing registrations and general administrative tasks Prescription management Managing waiting lists Liaising with GPs and other healthcare staff Supporting data collection, reporting, and audit requirements Supporting management when required Please see attached job description. If you need any further information, please feel free to contact the Practice Manager (Jessica Morris).",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1902-26-0004",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1902-26-0004",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5610460",
@@ -1078,11 +1032,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0497",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0497",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5652609",
@@ -1100,10 +1050,24 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2064-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2064-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
+  },
+  {
+    "job_id": "nhs-5640257",
+    "source": "NHS Jobs",
+    "title": "Part-Time Receptionist (Care Coordinator)",
+    "company": "Jubilee Park Medical Partnership",
+    "advertiser_name": "Jubilee Park Medical Partnership",
+    "location": "Nottingham, NG4 3DQ, Nottingham, NG14 7BG",
+    "region": "Nottinghamshire",
+    "salary": "£12.71",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-05T08:13:24.606169196",
+    "closing_date": "2026-10-25",
+    "description": "Join Our Friendly Team at Jubilee Park Medical Partnership Are you a people person with a passion for helping others? Do you thrive in a fast-paced, supportive environment? We would love to have you on board! Jubilee Park Medical Partnership is a welcoming GP practice serving 12,300 patients across two sites in Carlton and Lowdham. Were looking for an enthusiastic, flexible, and friendly team member to join our Care Coordination Team. What's in it for you: A caring, supportive, and fun team A role where no two days are the same Training to help you feel confident The chance to make a real difference Available Positions: 25 Hours/Week Monday : 8:00 AM 1:00 PM(Every 3rd week 3:00 PM 8:00 PM) Tuesday :8:00 AM 1:00 PM Wednesday : 8:00 AM 1:00 PM Thursday : 1:30 PM 6:30 PM Friday :8:00 AM 1:00 PM You will be required to work across both of our sites. Some weekend work may also be required Why Join Us: Be part of a supportive and fun team Make a difference every day Comprehensive training A fulfilling and rewarding role Apply today and become part of the Jubilee Park family! Interviews are provisionally planned to be held on Thursday 5th November 2026. Join Our Front Desk Team as a Care Coordinator As the first point of contact for our patients, youll be the friendly face and reassuring voice they rely on. Youll be at the heart of our practice, ensuring everything runs smoothly by: Welcoming patients with warmth and assisting them in person or over the phone Handling reception and administrative duties with ease and professionalism Collaborating with healthcare professionals to provide seamless care Managing patient appointments and directing them to the appropriate services Offering exceptional customer service with a positive, problem-solving mindset Working across 2 sites - Carlton and Lowdham This role is perfect for someone who loves helping others, thrives in a fast-paced environment, and enjoys being part of a dynamic team! Flexibility to work across sites is essential. To be responsible for undertaking a wide range of reception duties and the provision of general support to the multidisciplinary team. Duties can include but are not limited to, greeting and directing patients, effective use of the appointment system, booking appointments, processing of information and assisting patients as required. To act as the central point of contact for patients, the distribution of information, messages and enquiries for the clinical team, liaising with multidisciplinary team members and external agencies such as secondary care and community service providers. Please read the attached Job Description and Person Specification. Interviews are planned for 5th November 2026",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0567-26-1234",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0567-26-1234",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B"
   }
 ]
