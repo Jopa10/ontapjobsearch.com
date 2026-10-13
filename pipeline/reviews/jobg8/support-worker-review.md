@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-10-12
+feed_date: 2026-10-13
 
 Edit only the `action:` line in each block:
 
@@ -11,11 +11,7 @@ Edit only the `action:` line in each block:
 
 ## WEST YORKSHIRE — SELECTED
 
----
-action:
-SELECTED | Yorkshire - West | Castleford | £3,840 per year | Children's Residential Support Worker
-job_id: 25362_JR105248-1
----
+_No jobs in this group._
 
 ## WEST YORKSHIRE — POSSIBLES
 
@@ -31,11 +27,7 @@ _No jobs in this group._
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — SELECTED
 
----
-action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Whitley Bay | £12.85 per hour (plus rolled up holiday pay) | Female Relief Support Worker
-job_id: 108123659
----
+_No jobs in this group._
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
 
@@ -71,12 +63,6 @@ job_id: 108071061
 
 ---
 action:
-SELECTED | Cumbria - South | Kendal | £3,840 per year | Children's Residential Support Worker
-job_id: 25362_JR105208
----
-
----
-action:
 SELECTED | Cumbria - South | Ulverston | £12.85 per hour | Support Worker
 job_id: 108093204
 ---
@@ -95,8 +81,8 @@ job_id: 108113712
 
 ---
 action:
-SELECTED | Cumbria - South | Kendal | £26425 per year | Support Worker
-job_id: 108116662
+SELECTED | Cumbria - South | Ulverston | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
+job_id: 108054044
 ---
 
 ## CUMBRIA SOUTH — POSSIBLES
@@ -109,12 +95,6 @@ _No jobs in this group._
 action:
 SELECTED | Hampshire | Winchester | £26018 - £27111 per year | Care Assistant
 job_id: 1401785443
----
-
----
-action:
-SELECTED | Hampshire | Alton | £26018 - £27111 per year | Care Assistant
-job_id: 1401785277
 ---
 
 ---
@@ -191,8 +171,14 @@ job_id: 2067783
 
 ---
 action:
-SELECTED | London | London | £30,784.00 per annum | support worker
-job_id: 2106809
+SELECTED | London | Croydon | £30,784.00 per annum | Support Worker
+job_id: 2116763
+---
+
+---
+action:
+SELECTED | London | London | £13 per hour | Home Care Worker
+job_id: 107939127
 ---
 
 ## LONDON — POSSIBLES
@@ -223,6 +209,12 @@ job_id: 108090984
 action:
 SELECTED | Oxfordshire | Abingdon | £27417 per year | Female Support Worker
 job_id: 108090914
+---
+
+---
+action:
+SELECTED | Oxfordshire | Thame | £29999 per year | Care Assistant
+job_id: 108066010
 ---
 
 ## OXFORDSHIRE — POSSIBLES
