@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 10
+- automatic review: 9
 - automatic exclude: 0
 - effective include: 3
-- effective review: 10
+- effective review: 9
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,19 @@ job_id: teaching-vacancies-student-funding-administrator
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (10)
+## REVIEW (9)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin Assistant
+company: Switch - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-107719278
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -71,18 +83,6 @@ company: Newton Abbot College
 location: Newton Abbot
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-newton-abbot-college
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Switch - Agency - Permanent
-location: Exeter
-source: JobG8
-job_id: jobg8-107919719
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -119,18 +119,6 @@ company: Switch - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-107875971
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Administrator
-company: TQR - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-108060887
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

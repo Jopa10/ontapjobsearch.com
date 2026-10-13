@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 43
+- automatic review: 44
 - automatic exclude: 0
 - effective include: 2
-- effective review: 43
+- effective review: 44
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: jobg8-2051739
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
-## REVIEW (43)
+## REVIEW (44)
 
 ---
 action: 
@@ -162,6 +162,30 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
+title: Business Development Executive
+company: Fortrade - Agency - Permanent
+location: Watford
+source: JobG8
+job_id: jobg8-108062197
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Commercial Administrator
+company: Howells Recruitment - Agency - Permanent
+location: Hertford
+source: JobG8
+job_id: jobg8-2039272
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Content and Social Media Executive
 company: Brand Recruitment - Agency - Permanent
 location: Hertfordshire
@@ -258,6 +282,18 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
+title: Inside Sales - Telesales
+company: Transcomm Recruitment - Agency - Permanent
+location: Berkhamsted
+source: JobG8
+job_id: jobg8-108112089
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Investment Administrator
 company: Claims Recruitment Services - Agency - Permanent
 location: Hertfordshire
@@ -282,11 +318,11 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Legal Assistant
-company: Law Staff Limited - Agency - Permanent
+title: Junior CRM Analyst
+company: Harnham - Data & Analytics Recruitment - Agency - Permanent
 location: Hertfordshire
 source: JobG8
-job_id: jobg8-2049840
+job_id: jobg8-2044310
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -294,11 +330,11 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Logistics Co-ordinator
-company: Reed - Agency - Permanent
+title: Legal Assistant
+company: Law Staff Limited - Agency - Permanent
 location: Hertfordshire
 source: JobG8
-job_id: jobg8-2065962
+job_id: jobg8-2049840
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -522,7 +558,7 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Senior Brand Manager Mr Kipling All Year Round
+title: Senior Brand Manager Mr Kipling
 company: Premier Foods - Agency - Permanent
 location: Hertfordshire
 source: JobG8
@@ -534,35 +570,11 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Supply Chain Coordinator
-company: CTR Select - Agency - Permanent
-location: Watford
+title: Service Desk Coordinator
+company: Proactive Appointments - Agency - Permanent
+location: Hertford
 source: JobG8
-job_id: jobg8-2065188
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Supply Planner
-company: Robert Walters - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-2082484
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Warehouse Admin
-company: Adecco - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-2082709
+job_id: jobg8-2041623
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

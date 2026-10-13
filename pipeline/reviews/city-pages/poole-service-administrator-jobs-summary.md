@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 20
+- automatic review: 18
 - automatic exclude: 0
 - effective include: 3
-- effective review: 20
+- effective review: 18
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: jobg8-2066041
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (20)
+## REVIEW (18)
 
 ---
 action: 
@@ -198,18 +198,6 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: PA to Leadership Team
-company: The Bishop of Winchester Academy
-location: Bournemouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-pa-to-leadership-team-83fa491b-26bc-45d1-a318-ca6280f814e2
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Part Time Accounts Assistant
 company: CMA Recruitment Group - Agency - Permanent
 location: Dorset
@@ -275,18 +263,6 @@ company: Dorset HealthCare University NHS Foundation Trust
 location: Bournemouth, BH7 6JF
 source: NHS Jobs
 job_id: nhs-5632763
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Supply Chain Planner
-company: Reed - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2088652
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

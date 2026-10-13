@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 9
-- automatic exclude: 14
+- automatic review: 10
+- automatic exclude: 13
 - effective include: 5
-- effective review: 9
-- effective exclude: 14
+- effective review: 10
+- effective exclude: 13
 
 ## INCLUDE (5)
 
@@ -84,7 +84,7 @@ job_id: jobg8-2074696
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (9)
+## REVIEW (10)
 
 ---
 action: 
@@ -186,6 +186,18 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Mental Health and Wellbeing Partnerships Coordinator
+company: Abingdon School - Agency - Permanent
+location: Abingdon
+source: JobG8
+job_id: jobg8-108123305
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Procurement Administrator
 company: Xact Placements Limited - Agency - Permanent
 location: Witney
@@ -194,7 +206,7 @@ job_id: jobg8-2087203
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (14)
+## EXCLUDE (13)
 
 ---
 action: 
@@ -301,18 +313,6 @@ company: Ambition Europe Limited - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-2049838
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Materials / Stock Administrator
-company: Vibe Recruit Limited - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-108123401
 reason: Broad county location; not Oxford-city evidence.
 ---
 

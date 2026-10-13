@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 0
 - automatic review: 1
-- automatic exclude: 20
+- automatic exclude: 21
 - effective include: 0
 - effective review: 1
-- effective exclude: 20
+- effective exclude: 21
 
 ## INCLUDE (0)
 
@@ -38,7 +38,7 @@ job_id: jobg8-2067582
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (20)
+## EXCLUDE (21)
 
 ---
 action: 
@@ -205,6 +205,18 @@ company: EE - Company - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-20279_63174-153faf593eb64b88272f45adeaa28d87
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Insolvency Case Administrator
+company: GGT Insolvency Recruitment - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2014257
 reason: Separate employment market.
 ---
 

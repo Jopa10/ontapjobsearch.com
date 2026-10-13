@@ -28,6 +28,18 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 action: 
 decision: include
 automatic_decision: include
+title: Assistant Management Accountant
+company: Accountable Recruitment - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-2013304
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Finance Assistant
 company: X1 Lettings - Agency - Permanent
 location: Liverpool
@@ -93,18 +105,6 @@ company: Zachary Daniels Recruitment - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-23643_225704895
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Desk Analyst
-company: Reed - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-2078827
 reason: Approved conservative Liverpool launch catchment.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/milton-keynes/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 29
+- automatic include: 6
+- automatic review: 28
 - automatic exclude: 0
-- effective include: 9
-- effective review: 29
+- effective include: 6
+- effective review: 28
 - effective exclude: 0
 
-## INCLUDE (9)
+## INCLUDE (6)
 
 ---
 action: 
@@ -88,18 +88,6 @@ reason: Exact approved Milton Keynes workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Marketing Assistant (PART TIME)
-company: Reed - Agency - Permanent
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-2074985
-reason: Exact approved Milton Keynes workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist
 company: Purbeck Health Centre
 location: Milton Keynes, MK14 6BL
@@ -108,31 +96,7 @@ job_id: nhs-5543958
 reason: Exact approved Milton Keynes workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Stock Administrator
-company: Adecco - Agency - Permanent
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-2087508
-reason: Exact approved Milton Keynes workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Ward Clerk
-company: Milton Keynes University Hospital NHS Foundation Trust
-location: Milton Keynes, MK6 5LD
-source: NHS Jobs
-job_id: nhs-5652428
-reason: Exact approved Milton Keynes workplace.
----
-
-## REVIEW (29)
+## REVIEW (28)
 
 ---
 action: 
@@ -258,11 +222,11 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Customs Import & Export Coordinator
-company: Mobile People Powered Logistics - Agency - Permanent
-location: Buckinghamshire
+title: Credit Controller
+company: In2 Consult - Agency - Permanent
+location: High Wycombe
 source: JobG8
-job_id: jobg8-2076024
+job_id: jobg8-2014306
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -282,11 +246,11 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: Fremaux Delorme Co Ltd - Agency - Permanent
-location: Aylesbury
+title: Fundraising Coordinator
+company: Lymphoma Action - Agency - Permanent
+location: Buckinghamshire
 source: JobG8
-job_id: jobg8-23643_225711333
+job_id: jobg8-2116776
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -455,18 +419,6 @@ company: Oxford Health NHS Trust
 location: Aylesbury, HP20 1EG
 source: NHS Jobs
 job_id: nhs-5648388
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Technical Helpdesk Support
-company: GXO Logistics - Company - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-2052926
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

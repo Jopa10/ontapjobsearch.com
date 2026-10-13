@@ -172,6 +172,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Marketing Coordinator
+company: Share Bristol Library of Things - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-2111734
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Reception and Appointment Clerk
 company: Bristol NHS Foundation Trust
 location: Bristol, BS2 8EL
@@ -201,18 +213,6 @@ company: Moxie and Mettle Limited - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2053562
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Supply Chain Coordinator
-company: Morgan Sindall Property Services - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-2076582
 reason: Approved conservative Bristol launch catchment.
 ---
 

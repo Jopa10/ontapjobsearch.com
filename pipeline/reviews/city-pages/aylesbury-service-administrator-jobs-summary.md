@@ -4,7 +4,7 @@
 - Live route: `/aylesbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 33
+- automatic include: 4
+- automatic review: 30
 - automatic exclude: 0
-- effective include: 5
-- effective review: 33
+- effective include: 4
+- effective review: 30
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (4)
 
 ---
 action: 
@@ -52,18 +52,6 @@ reason: Exact approved Aylesbury workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Finance Assistant
-company: Fremaux Delorme Co Ltd - Agency - Permanent
-location: Aylesbury
-source: JobG8
-job_id: jobg8-23643_225711333
-reason: Exact approved Aylesbury workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: HR Administrative Assistant
 company: Stocklake Park Community School
 location: Aylesbury
@@ -84,7 +72,7 @@ job_id: nhs-5648388
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (33)
+## REVIEW (30)
 
 ---
 action: 
@@ -246,11 +234,11 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Customs Import & Export Coordinator
-company: Mobile People Powered Logistics - Agency - Permanent
-location: Buckinghamshire
+title: Credit Controller
+company: In2 Consult - Agency - Permanent
+location: High Wycombe
 source: JobG8
-job_id: jobg8-2076024
+job_id: jobg8-2014306
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -270,11 +258,11 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Immigration Paralegal
-company: GEMINI RECRUITMENT SERVICES LTD - Agency - Permanent
+title: Fundraising Coordinator
+company: Lymphoma Action - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
-job_id: jobg8-2088088
+job_id: jobg8-2116776
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -282,11 +270,11 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Assistant (PART TIME)
-company: Reed - Agency - Permanent
-location: Milton Keynes
+title: Immigration Paralegal
+company: GEMINI RECRUITMENT SERVICES LTD - Agency - Permanent
+location: Buckinghamshire
 source: JobG8
-job_id: jobg8-2074985
+job_id: jobg8-2088088
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -438,47 +426,11 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Stock Administrator
-company: Adecco - Agency - Permanent
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-2087508
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Technical Helpdesk Support
-company: GXO Logistics - Company - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-2052926
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Trustee - Communications, Marketing and PR
 company: Hope After Harm - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-2106884
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Ward Clerk
-company: Milton Keynes University Hospital NHS Foundation Trust
-location: Milton Keynes, MK6 5LD
-source: NHS Jobs
-job_id: nhs-5652428
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

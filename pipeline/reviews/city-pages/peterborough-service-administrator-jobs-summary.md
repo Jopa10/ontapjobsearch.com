@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
+- automatic include: 6
 - automatic review: 4
 - automatic exclude: 9
-- effective include: 7
+- effective include: 6
 - effective review: 4
 - effective exclude: 9
 
-## INCLUDE (7)
+## INCLUDE (6)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Cambridgeshire and Peterborough NHS Foundation Trust
 location: Peterborough, PE78FZ
 source: NHS Jobs
 job_id: nhs-5647546
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: IT Helpdesk Advisor - Dutch Speaker
-company: Interaction - Peterborough - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-108061988
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -236,6 +224,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Marketing Analytics Manager
+company: Alzheimer's Research UK - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-2116781
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Purchase Ledger Clerk (Temp)
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Cambridgeshire
@@ -253,17 +253,5 @@ company: East Cambridgeshire District Council - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-2074616
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Town Planner
-company: Penguin Recruitment Ltd - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-2087007
 reason: Separate employment market.
 ---

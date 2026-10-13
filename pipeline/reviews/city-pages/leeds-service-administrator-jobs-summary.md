@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 16
+- Effective included jobs: 14
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
+- automatic include: 14
 - automatic review: 20
-- automatic exclude: 10
-- effective include: 16
+- automatic exclude: 7
+- effective include: 14
 - effective review: 20
-- effective exclude: 10
+- effective exclude: 7
 
-## INCLUDE (16)
+## INCLUDE (14)
 
 ---
 action: 
@@ -64,42 +64,6 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Casualty Claims Handler
-company: Adjusting Appointments Limited - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-2074008
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Claims Handler
-company: Avencia Consulting - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-2039200
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Claims Handler - Property/Liability Claims
-company: IPS Group - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-2092609
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Clerical Officer/ Receptionist
 company: Leeds Teaching Hospitals
 location: Leeds, LS9 7TF
@@ -117,6 +81,18 @@ company: G2 Legal Limited - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-2043136
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Insolvency Case Administrator
+company: GGT Insolvency Recruitment - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-2014271
 reason: Approved Leeds catchment.
 ---
 
@@ -458,7 +434,7 @@ job_id: jobg8-2078500
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
-## EXCLUDE (10)
+## EXCLUDE (7)
 
 ---
 action: 
@@ -469,30 +445,6 @@ company: Reed - Agency - Permanent
 location: Halifax
 source: JobG8
 job_id: jobg8-2026795
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Gas & Bitumen Planner
-company: Cast UK Limited - Agency - Permanent
-location: Huddersfield
-source: JobG8
-job_id: jobg8-2078631
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: IT Service Desk Analyst - 1st Line - Huddersfield
-company: Circle Recruitment - Agency - Permanent
-location: Huddersfield
-source: JobG8
-job_id: jobg8-2058358
 reason: Separate employment market.
 ---
 
@@ -529,18 +481,6 @@ company: Reed - Agency - Permanent
 location: Wakefield
 source: JobG8
 job_id: jobg8-2064618
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Beechwood Medical Centre
-location: Halifax, HX2 8AL
-source: NHS Jobs
-job_id: nhs-5623216
 reason: Separate employment market.
 ---
 

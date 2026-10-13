@@ -8,8 +8,6 @@ review,jobg8-2074204,Accounts Assistant,Nigel Wright Group - Agency - Permanent,
 review,jobg8-2077376,Accounts Assistant,Reed - Agency - Permanent,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
 review,jobg8-2075393,Accounts Payable Administrator,MTrec Recruitment - Agency - Permanent,Northumberland,JobG8,review,review,No approved Newcastle catchment rule matched; local review required.,fallback,newcastle-service-administrator
 review,nhs-5655486,Administration Assistant,"Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust","Ashington, NE63 0EY",NHS Jobs,review,review,Broad location; review before city inclusion.,context:tyne and wear,newcastle-service-administrator
-review,jobg8-2074009,Casualty Claims Handler,Adjusting Appointments Limited - Agency - Permanent,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
-review,jobg8-2078004,Import Export Coordinator,Nigel Wright Group - Agency - Permanent,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
 review,jobg8-2063469,Interim Marketing Manager,Jackson Hogg - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Newcastle catchment rule matched; local review required.,fallback,newcastle-service-administrator
 review,jobg8-2078665,Payroll Clerk,Portfolio Payroll - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Newcastle catchment rule matched; local review required.,fallback,newcastle-service-administrator
 review,jobg8-2089390,Payroll Executive,Achieve Professionals - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Newcastle catchment rule matched; local review required.,fallback,newcastle-service-administrator
@@ -27,7 +25,6 @@ exclude,jobg8-2053988,Brand Marketing Manager,Reed - Agency - Permanent,County D
 exclude,jobg8-2087201,Finance and Payroll Assistant,MTrec Recruitment - Agency - Permanent,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,jobg8-2093164,Finance Assistant (Hybrid),Ernest Gordon Recruitment Limited - Agency - Permanent,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,jobg8-2053979,Marketing Manager,Reed - Agency - Permanent,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
-exclude,jobg8-2082487,Materials and Supply Chain Coordinator,Jackson Hogg - Agency - Permanent,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
-exclude,jobg8-2075341,Part-Time Credit Controller,Si Recruitment - Agency - Permanent,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
+exclude,jobg8-23643_225712467,Procurement Assistant,Taryn Hall Recruitment - Agency - Permanent,Sunderland,JobG8,exclude,exclude,Separate employment market.,sunderland,newcastle-service-administrator
 exclude,jobg8-2036113,Purchase Ledger Clerk,Spear-heads - Agency - Permanent,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,nhs-5656729,Team Administrator,Tees Esk and Wear Valleys NHS Foundation Trust,"Durham, DH1 4LW",NHS Jobs,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator

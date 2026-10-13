@@ -4,7 +4,7 @@
 - Live route: `/warwick/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
+- Effective included jobs: 0
 - Threshold currently met: no
 
 ## How to review
@@ -15,40 +15,16 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 21
+- automatic include: 0
+- automatic review: 20
 - automatic exclude: 0
-- effective include: 2
-- effective review: 21
+- effective include: 0
+- effective review: 20
 - effective exclude: 0
 
-## INCLUDE (2)
+## INCLUDE (0)
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Supply Coordinator
-company: Plus One Recruitment - Agency - Permanent
-location: Warwick
-source: JobG8
-job_id: jobg8-2056680
-reason: Exact approved Warwick workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: P2P Supply Chain Planner
-company: Gleeson Recruitment Group - Agency - Permanent
-location: Warwick
-source: JobG8
-job_id: jobg8-2052561
-reason: Exact approved Warwick workplace.
----
-
-## REVIEW (21)
+## REVIEW (20)
 
 ---
 action: 
@@ -167,18 +143,6 @@ company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
 location: Rugby
 source: JobG8
 job_id: jobg8-2093212
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: GP Surgery Receptionist
-company: Station Street Surgery
-location: Nuneaton, CV11 6HH
-source: NHS Jobs
-job_id: nhs-5656280
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

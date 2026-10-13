@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 6
 - automatic review: 0
-- automatic exclude: 17
+- automatic exclude: 14
 - effective include: 6
 - effective review: 0
-- effective exclude: 17
+- effective exclude: 14
 
 ## INCLUDE (6)
 
@@ -98,7 +98,7 @@ reason: Approved Coventry catchment.
 
 ## REVIEW (0)
 
-## EXCLUDE (17)
+## EXCLUDE (14)
 
 ---
 action: 
@@ -188,18 +188,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Customer Supply Coordinator
-company: Plus One Recruitment - Agency - Permanent
-location: Warwick
-source: JobG8
-job_id: jobg8-2056680
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Finance Assistant
 company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
 location: Rugby
@@ -212,35 +200,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: GP Surgery Receptionist
-company: Station Street Surgery
-location: Nuneaton, CV11 6HH
-source: NHS Jobs
-job_id: nhs-5656280
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Marketing Executive
 company: TalentTech Recruitment - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-2056868
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: P2P Supply Chain Planner
-company: Gleeson Recruitment Group - Agency - Permanent
-location: Warwick
-source: JobG8
-job_id: jobg8-2052561
 reason: Separate employment market.
 ---
 

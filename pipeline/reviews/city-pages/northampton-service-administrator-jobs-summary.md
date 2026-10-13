@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 11
+- automatic review: 9
 - automatic exclude: 0
 - effective include: 4
-- effective review: 11
+- effective review: 9
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: nhs-5632294
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (11)
+## REVIEW (9)
 
 ---
 action: 
@@ -162,18 +162,6 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: HR and Payroll Administrator
-company: Candidate Source - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-108120982
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Part-time Payroll Administrator
 company: Cole Connections Ltd - Agency - Permanent
 location: Wellingborough
@@ -191,18 +179,6 @@ company: Northamptonshire Healthcare Foundation Trust
 location: Wellingborough, NN8 1LT
 source: NHS Jobs
 job_id: nhs-5648061
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Supply Chain Coordinator
-company: SF Partners - Agency - Permanent
-location: Corby
-source: JobG8
-job_id: jobg8-2080427
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

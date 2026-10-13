@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 24
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 24
+- automatic include: 16
 - automatic review: 19
-- automatic exclude: 4
-- effective include: 24
+- automatic exclude: 3
+- effective include: 16
 - effective review: 19
-- effective exclude: 4
+- effective exclude: 3
 
-## INCLUDE (24)
+## INCLUDE (16)
 
 ---
 action: 
@@ -33,42 +33,6 @@ company: Robert Walters - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-2074951
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: The Accountancy Recruitment Group Ltd - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-2070390
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Asset Planner
-company: NES Fircroft Engineering Services Limited - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-108091476
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Asset Planner - Supply Chain
-company: Inventum Group - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-2088344
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -88,47 +52,11 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Casualty Claims Handler
-company: Adjusting Appointments Limited - Agency - Permanent
+title: Buying Admin Assistant
+company: Zachary Daniels Recruitment - Agency - Permanent
 location: Manchester
 source: JobG8
-job_id: jobg8-2074010
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Casualty Claims Handler
-company: Exchange Street Claims & Financial Services - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-2045220
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Claims Handler
-company: Adjusting Appointments Limited - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-2088517
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Credit Hire Claims Handler
-company: IPS Group - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-2065345
+job_id: jobg8-23643_225603473
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -189,18 +117,6 @@ company: MPJ Recruitment Ltd - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-2075693
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Freight Forwarding Coordinator (Air & Ocean)
-company: Ernest Gordon Recruitment Limited - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-2089378
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -280,18 +196,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: The Wilbraham Surgery
-location: Manchester, M21 0UF
-source: NHS Jobs
-job_id: nhs-5634614
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist/Administrator
 company: The Gill Medical Centre
 location: Manchester, M28 3DR
@@ -342,18 +246,6 @@ reason: No approved Manchester catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Carers Manchester Content Creator
-company: Gaddum - Agency - Permanent
-location: Lancashire
-source: JobG8
-job_id: jobg8-2099967
-reason: No approved Manchester catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Communications Executive
 company: Inventum Group - Agency - Permanent
 location: Lancashire
@@ -383,6 +275,18 @@ company: Anonymous - Agency - Permanent
 location: Lancashire
 source: JobG8
 job_id: jobg8-2024541
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Data Claims Caseworker Paralegal
+company: Duncan Lewis Solictors - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-2013968
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
@@ -542,19 +446,7 @@ job_id: jobg8-2065821
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
-## EXCLUDE (4)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Clinical Team Administrator
-company: Greater Manchester Mental Health NHS Foundation Trust
-location: Salford, M28 0FE
-source: NHS Jobs
-job_id: nhs-5641457
-reason: Separate exact-city market at launch.
----
+## EXCLUDE (3)
 
 ---
 action: 

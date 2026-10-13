@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 9
 - automatic review: 1
-- automatic exclude: 11
+- automatic exclude: 12
 - effective include: 9
 - effective review: 1
-- effective exclude: 11
+- effective exclude: 12
 
 ## INCLUDE (9)
 
@@ -146,7 +146,7 @@ job_id: jobg8-2067582
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (11)
+## EXCLUDE (12)
 
 ---
 action: 
@@ -241,6 +241,18 @@ company: Sharp Consultancy - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2043404
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Insolvency Case Administrator
+company: GGT Insolvency Recruitment - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2014257
 reason: Separate employment market.
 ---
 

@@ -1,12 +1,8 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-2077982,Accounts Assistant - Purchase Ledger,Adele Carr Recruitment Limited - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
-include,jobg8-2075500,Administrator,Flexible Solutionz - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
 include,jobg8-2060582,Assistant Accountant,Michael Page Finance - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
 include,jobg8-2042291,Assistant Accountant,Reed - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
-include,jobg8-2063003,Credit Controller,Rubax - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
 include,jobg8-2039620,Finance Assistant,Adecco - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
 include,jobg8-2048770,Presenter and Content Creator,Reed - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
-include,jobg8-2063198,Service Desk Analyst - AV Division,Clarify Consultancy Ltd - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
-review,jobg8-2048730,Content Creator Lead,Reed - Agency - Permanent,Cheshire,JobG8,review,review,No approved Warrington catchment rule matched; local review required.,fallback,warrington-service-administrator-jobs
 review,nhs-5651037,Medical Receptionist/Administrator,Newtown Surgery,"Widnes, WA8 7GD",NHS Jobs,review,review,No approved Warrington catchment rule matched; local review required.,fallback,warrington-service-administrator-jobs
 exclude,jobg8-2039669,Payroll Administrator,Portfolio Payroll - Agency - Permanent,Runcorn,JobG8,exclude,exclude,Separate employment market.,runcorn,warrington-service-administrator-jobs

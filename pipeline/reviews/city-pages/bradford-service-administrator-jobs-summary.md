@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 1
 - automatic review: 20
-- automatic exclude: 25
+- automatic exclude: 20
 - effective include: 1
 - effective review: 20
-- effective exclude: 25
+- effective exclude: 20
 
 ## INCLUDE (1)
 
@@ -278,7 +278,7 @@ job_id: jobg8-2078500
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (25)
+## EXCLUDE (20)
 
 ---
 action: 
@@ -332,42 +332,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Casualty Claims Handler
-company: Adjusting Appointments Limited - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-2074008
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Claims Handler
-company: Avencia Consulting - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-2039200
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Claims Handler - Property/Liability Claims
-company: IPS Group - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-2092609
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Clerical Officer/ Receptionist
 company: Leeds Teaching Hospitals
 location: Leeds, LS9 7TF
@@ -392,23 +356,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Gas & Bitumen Planner
-company: Cast UK Limited - Agency - Permanent
-location: Huddersfield
+title: Insolvency Case Administrator
+company: GGT Insolvency Recruitment - Agency - Permanent
+location: Leeds
 source: JobG8
-job_id: jobg8-2078631
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: IT Service Desk Analyst - 1st Line - Huddersfield
-company: Circle Recruitment - Agency - Permanent
-location: Huddersfield
-source: JobG8
-job_id: jobg8-2058358
+job_id: jobg8-2014271
 reason: Separate employment market.
 ---
 
@@ -493,18 +445,6 @@ company: Sharp Consultancy - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-2075400
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: Beechwood Medical Centre
-location: Halifax, HX2 8AL
-source: NHS Jobs
-job_id: nhs-5623216
 reason: Separate employment market.
 ---
 

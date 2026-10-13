@@ -4,8 +4,8 @@
 - Live route: `/leicester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
-- Threshold currently met: no
+- Effective included jobs: 4
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 14
+- automatic include: 4
+- automatic review: 11
 - automatic exclude: 0
-- effective include: 3
-- effective review: 14
+- effective include: 4
+- effective review: 11
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (4)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Commercial Administrator
+company: Macildowie Recruitment and Retention - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-2049449
+reason: Exact approved Leicester workplace.
+---
 
 ---
 action: 
@@ -60,19 +72,7 @@ job_id: nhs-5642838
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (14)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Cherry Professional - Relationship Led Recruitment - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-2049700
-reason: No exact Leicester workplace matched; local geographic review is required.
----
+## REVIEW (11)
 
 ---
 action: 
@@ -102,23 +102,11 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Assistant Accountant
-company: Michael Page Finance - Agency - Permanent
+title: Credit Control
+company: Reed - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2053152
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Casualty Claims Handler
-company: Adjusting Appointments Limited - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-2074012
+job_id: jobg8-2017641
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -131,18 +119,6 @@ company: SF Partners - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-2060220
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service & Planning Coordinator
-company: Reed - Agency - Permanent
-location: Shepshed
-source: JobG8
-job_id: jobg8-2057903
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

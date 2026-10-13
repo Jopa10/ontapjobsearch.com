@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 15
-- automatic exclude: 13
+- automatic review: 13
+- automatic exclude: 12
 - effective include: 4
-- effective review: 15
-- effective exclude: 13
+- effective review: 13
+- effective exclude: 12
 
 ## INCLUDE (4)
 
@@ -72,7 +72,7 @@ job_id: jobg8-2074752
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (15)
+## REVIEW (13)
 
 ---
 action: 
@@ -131,30 +131,6 @@ company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
 location: Ashington, NE63 0EY
 source: NHS Jobs
 job_id: nhs-5655486
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Casualty Claims Handler
-company: Adjusting Appointments Limited - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-2074009
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Import Export Coordinator
-company: Nigel Wright Group - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-2078004
 reason: Broad location; review before city inclusion.
 ---
 
@@ -254,7 +230,7 @@ job_id: jobg8-2063669
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (13)
+## EXCLUDE (12)
 
 ---
 action: 
@@ -368,23 +344,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Materials and Supply Chain Coordinator
-company: Jackson Hogg - Agency - Permanent
-location: County Durham
+title: Procurement Assistant
+company: Taryn Hall Recruitment - Agency - Permanent
+location: Sunderland
 source: JobG8
-job_id: jobg8-2082487
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Part-Time Credit Controller
-company: Si Recruitment - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-2075341
+job_id: jobg8-23643_225712467
 reason: Separate employment market.
 ---
 

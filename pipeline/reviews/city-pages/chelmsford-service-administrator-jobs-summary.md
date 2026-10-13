@@ -4,7 +4,7 @@
 - Live route: `/chelmsford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 4
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 52
+- automatic include: 4
+- automatic review: 50
 - automatic exclude: 0
-- effective include: 8
-- effective review: 52
+- effective include: 4
+- effective review: 50
 - effective exclude: 0
 
-## INCLUDE (8)
+## INCLUDE (4)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Countrywide HQ - Agency - Permanent
 location: Chelmsford
 source: JobG8
 job_id: jobg8-2028623
-reason: Exact approved Chelmsford workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Associate Town Planner / Associate Partner
-company: Penguin Recruitment Ltd - Agency - Permanent
-location: Chelmsford
-source: JobG8
-job_id: jobg8-2048936
 reason: Exact approved Chelmsford workplace.
 ---
 
@@ -76,42 +64,6 @@ reason: Exact approved Chelmsford workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Graduate Town Planner
-company: Penguin Recruitment Ltd - Agency - Permanent
-location: Chelmsford
-source: JobG8
-job_id: jobg8-2048782
-reason: Exact approved Chelmsford workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Graduate Town Planner
-company: Penguin Recruitment Ltd - Agency - Permanent
-location: Chelmsford
-source: JobG8
-job_id: jobg8-2048787
-reason: Exact approved Chelmsford workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Product Support Analyst - Helpdesk
-company: First City Recruitment Ltd - Agency - Permanent
-location: Chelmsford
-source: JobG8
-job_id: jobg8-2092864
-reason: Exact approved Chelmsford workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Property Inspections Team Coordinator
 company: Worth Recruiting - Property Industry Recruitment - Agency - Permanent
 location: Chelmsford
@@ -120,7 +72,7 @@ job_id: jobg8-2087231
 reason: Exact approved Chelmsford workplace.
 ---
 
-## REVIEW (52)
+## REVIEW (50)
 
 ---
 action: 
@@ -131,18 +83,6 @@ company: Reed - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-2056509
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Michael Page Finance - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-2051899
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -263,18 +203,6 @@ company: Inclusion
 location: Grays, RM17 6NB
 source: NHS Jobs
 job_id: nhs-5640402
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Claims Handler
-company: Adjusting Appointments Limited - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-2074017
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -450,11 +378,11 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Graduate Town Planner
-company: Penguin Recruitment Ltd - Agency - Permanent
-location: Essex
+title: Facilities Coordinator
+company: Adore Recruitment - Agency - Permanent
+location: Basildon
 source: JobG8
-job_id: jobg8-2055778
+job_id: jobg8-2045178
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -467,18 +395,6 @@ company: Reed - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-2051716
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Liability Claims Handler
-company: MPL Claims Management - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-2088843
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -618,11 +534,11 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Purchase Ledger Clerk
-company: Huntress - Agency - Permanent
-location: Basildon
+title: Property Inspections Team Coordinator
+company: Recruitment Solutions for Business (UK) Ltd - Agency - Permanent
+location: Essex
 source: JobG8
-job_id: jobg8-2087415
+job_id: jobg8-562663695354272153637340
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -630,11 +546,23 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Angel Lane Surgery
-location: Essex, CM6 1AQ
-source: NHS Jobs
-job_id: nhs-5288592
+title: Property Inspections Team Coordinator
+company: Recruitment Solutions for Business (UK) Ltd - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-562663695354272153637341
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Clerk
+company: Huntress - Agency - Permanent
+location: Basildon
+source: JobG8
+job_id: jobg8-2087415
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -671,6 +599,18 @@ company: Church Langley Medical Practice
 location: Harlow, CM17 9TG
 source: NHS Jobs
 job_id: nhs-5651277
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Ledger Clerk
+company: Huntress - Agency - Permanent
+location: Basildon
+source: JobG8
+job_id: jobg8-2017846
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -719,18 +659,6 @@ company: Office Angels - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-2057679
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Town Planner
-company: Penguin Recruitment Ltd - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-2082763
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

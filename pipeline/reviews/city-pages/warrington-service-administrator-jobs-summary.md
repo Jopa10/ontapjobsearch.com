@@ -4,8 +4,8 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
-- Threshold currently met: yes
+- Effective included jobs: 5
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 2
+- automatic include: 5
+- automatic review: 1
 - automatic exclude: 1
-- effective include: 8
-- effective review: 2
+- effective include: 5
+- effective review: 1
 - effective exclude: 1
 
-## INCLUDE (8)
+## INCLUDE (5)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-2077982
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Flexible Solutionz - Agency - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-2075500
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -76,18 +64,6 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Credit Controller
-company: Rubax - Agency - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-2063003
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Finance Assistant
 company: Adecco - Agency - Permanent
 location: Warrington
@@ -108,31 +84,7 @@ job_id: jobg8-2048770
 reason: Approved conservative Warrington launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Desk Analyst - AV Division
-company: Clarify Consultancy Ltd - Agency - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-2063198
-reason: Approved conservative Warrington launch catchment.
----
-
-## REVIEW (2)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Content Creator Lead
-company: Reed - Agency - Permanent
-location: Cheshire
-source: JobG8
-job_id: jobg8-2048730
-reason: No approved Warrington catchment rule matched; local review required.
----
+## REVIEW (1)
 
 ---
 action: 

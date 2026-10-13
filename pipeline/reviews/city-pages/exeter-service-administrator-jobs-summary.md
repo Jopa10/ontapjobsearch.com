@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 7
+- automatic review: 6
 - automatic exclude: 0
 - effective include: 6
-- effective review: 7
+- effective review: 6
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -28,11 +28,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 action: 
 decision: include
 automatic_decision: include
-title: Administrator
+title: Admin Assistant
 company: Switch - Agency - Permanent
 location: Exeter
 source: JobG8
-job_id: jobg8-107919719
+job_id: jobg8-107719278
 reason: Exact approved Exeter workplace.
 ---
 
@@ -96,7 +96,7 @@ job_id: nhs-5657703
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (7)
+## REVIEW (6)
 
 ---
 action: 
@@ -143,18 +143,6 @@ company: City College Plymouth
 location: Plymouth
 source: Teaching Vacancies
 job_id: teaching-vacancies-mis-administrator-maternity-cover
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Administrator
-company: TQR - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-108060887
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

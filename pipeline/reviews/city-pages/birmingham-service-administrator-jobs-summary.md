@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 36
+- Effective included jobs: 34
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 36
+- automatic include: 34
 - automatic review: 4
-- automatic exclude: 4
-- effective include: 36
+- automatic exclude: 3
+- effective include: 34
 - effective review: 4
-- effective exclude: 4
+- effective exclude: 3
 
-## INCLUDE (36)
+## INCLUDE (34)
 
 ---
 action: 
@@ -141,18 +141,6 @@ company: Trinity House Group - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-2046783
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Casualty Claims Handler
-company: Adjusting Appointments Limited - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-2074011
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -304,11 +292,11 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Medical Administrator
-company: West Heath Surgery
-location: Birmingham, B31 3HB
+title: Medical Receptionist
+company: Great Barr Medical Centre
+location: Birmingham, B43 7HB
 source: NHS Jobs
-job_id: nhs-5649387
+job_id: nhs-5656906
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -317,10 +305,10 @@ action:
 decision: include
 automatic_decision: include
 title: Medical Receptionist
-company: Great Barr Medical Centre
-location: Birmingham, B43 7HB
+company: Scott Arms Medical Centre
+location: Birmingham, B43 6EE
 source: NHS Jobs
-job_id: nhs-5656906
+job_id: nhs-5658996
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -424,18 +412,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Service Advisor
-company: Pembrook Resourcing - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-2065554
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Ward Clerk
 company: St Andrew’s Healthcare
 location: Birmingham, B30 2XR
@@ -506,7 +482,7 @@ job_id: nhs-5646101
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
-## EXCLUDE (4)
+## EXCLUDE (3)
 
 ---
 action: 
@@ -541,17 +517,5 @@ company: Mitchell Adam - Agency - Permanent
 location: Solihull
 source: JobG8
 job_id: jobg8-2087335
-reason: Separate exact-city market at launch.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Part Time Receptionist
-company: Richmond Medical Centre
-location: Solihull, B92 7SA
-source: NHS Jobs
-job_id: nhs-5623766
 reason: Separate exact-city market at launch.
 ---

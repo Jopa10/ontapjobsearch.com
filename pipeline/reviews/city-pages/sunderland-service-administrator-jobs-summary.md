@@ -4,7 +4,7 @@
 - Live route: `/sunderland/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 1
+- Effective included jobs: 2
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 1
-- automatic review: 31
+- automatic include: 2
+- automatic review: 27
 - automatic exclude: 0
-- effective include: 1
-- effective review: 31
+- effective include: 2
+- effective review: 27
 - effective exclude: 0
 
-## INCLUDE (1)
+## INCLUDE (2)
 
 ---
 action: 
@@ -36,7 +36,19 @@ job_id: jobg8-2042404
 reason: Exact approved Sunderland workplace.
 ---
 
-## REVIEW (31)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Procurement Assistant
+company: Taryn Hall Recruitment - Agency - Permanent
+location: Sunderland
+source: JobG8
+job_id: jobg8-23643_225712467
+reason: Exact approved Sunderland workplace.
+---
+
+## REVIEW (27)
 
 ---
 action: 
@@ -174,18 +186,6 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Casualty Claims Handler
-company: Adjusting Appointments Limited - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-2074009
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Credit Controller
 company: Tenth Revolution Group - Agency - Permanent
 location: Newcastle Upon Tyne
@@ -234,18 +234,6 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Import Export Coordinator
-company: Nigel Wright Group - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-2078004
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Interim Marketing Manager
 company: Jackson Hogg - Agency - Permanent
 location: Yorkshire
@@ -270,35 +258,11 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Materials and Supply Chain Coordinator
-company: Jackson Hogg - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-2082487
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Part Time Accounts Assistant
 company: Nigel Wright Group - Agency - Permanent
 location: Gateshead
 source: JobG8
 job_id: jobg8-2074752
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part-Time Credit Controller
-company: Si Recruitment - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-2075341
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 

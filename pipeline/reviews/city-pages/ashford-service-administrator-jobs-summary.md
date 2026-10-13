@@ -4,8 +4,8 @@
 - Live route: `/ashford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
-- Threshold currently met: yes
+- Effective included jobs: 3
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 43
+- automatic include: 3
+- automatic review: 32
 - automatic exclude: 0
-- effective include: 4
-- effective review: 43
+- effective include: 3
+- effective review: 32
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (3)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Reed - Agency - Permanent
 location: Ashford
 source: JobG8
 job_id: jobg8-2024535
-reason: Exact approved Ashford workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Receptionist (Care Navigator)
-company: Kingsnorth Medical Practice
-location: Ashford, TN23 3ED
-source: NHS Jobs
-job_id: nhs-5651409
 reason: Exact approved Ashford workplace.
 ---
 
@@ -72,7 +60,7 @@ job_id: nhs-5653187
 reason: Exact approved Ashford workplace.
 ---
 
-## REVIEW (43)
+## REVIEW (32)
 
 ---
 action: 
@@ -95,18 +83,6 @@ company: Pearson Whiffin Recruitment Ltd - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-2060301
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administration Assistant
-company: Northgate Medical Practice
-location: Canterbury, CT1 1WL
-source: NHS Jobs
-job_id: nhs-5612839
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -150,35 +126,11 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Assistant Town Planner
-company: Penguin Recruitment Ltd - Agency - Permanent
-location: Maidstone
-source: JobG8
-job_id: jobg8-2052913
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Bookkeeper
 company: Michael Page Finance - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-2026057
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Claims Handler
-company: Adjusting Appointments Limited - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-2074019
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -203,18 +155,6 @@ company: Michael Page Finance - Agency - Permanent
 location: Canterbury
 source: JobG8
 job_id: jobg8-2059344
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: NET Recruit - Agency - Permanent
-location: Gillingham
-source: JobG8
-job_id: jobg8-2087651
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -270,59 +210,11 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: German Logistics Administrator &;34k 3:30pm Friday finish
-company: Office Angels - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-2055118
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: GP Receptionist
-company: Sandgate Road Surgery
-location: Folkestone, CT20 2HN
-source: NHS Jobs
-job_id: nhs-5653560
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Graduate Town Planner
-company: Penguin Recruitment Ltd - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-2055597
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Insurance Claims Coordinator
 company: Huntress - Agency - Permanent
 location: Chatham
 source: JobG8
 job_id: jobg8-2044917
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Interim Part time Finance Assistant
-company: Robertson Bell - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-2093129
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -342,47 +234,11 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Logistics Administrator
-company: Pearson Whiffin Recruitment Ltd - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-2064758
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Logistics Coordinator - Operations & Quality
 company: Pearson Whiffin Recruitment Ltd - Agency - Permanent
 location: Maidstone
 source: JobG8
 job_id: jobg8-2064424
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Logistics Planner
-company: Four Jays Group - Agency - Permanent
-location: Maidstone
-source: JobG8
-job_id: jobg8-2087887
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: MAF in the Community (MiC) Resourcing Coordinator
-company: Mission Aviation Fellowship UK - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-107958419
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -414,6 +270,18 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Operations Administrator
+company: Canterbury Medical Practice
+location: Canterbury, CT1 3NR, CANTERBURY, CT3 1TX, CANTERBURY, CT4 5BL
+source: NHS Jobs
+job_id: nhs-5659048
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part-Time Accounts Assistant Dartford Temp to Perm
 company: Office Angels - Agency - Permanent
 location: Dartford
@@ -431,6 +299,18 @@ company: Office Angels - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-2057778
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Assistant
+company: JMF Associates - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-2013798
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -558,35 +438,11 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Supply Chain Coordinator
-company: Michael Page Finance - Agency - Permanent
-location: Maidstone
-source: JobG8
-job_id: jobg8-2087968
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Temporary Bid Writer/Document Controller
 company: Office Angels - Agency - Permanent
 location: West Malling
 source: JobG8
 job_id: jobg8-2063842
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Town Planner
-company: Penguin Recruitment Ltd - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-2049013
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 

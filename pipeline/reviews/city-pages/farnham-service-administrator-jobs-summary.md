@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 35
+- automatic review: 31
 - automatic exclude: 0
 - effective include: 2
-- effective review: 35
+- effective review: 31
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: jobg8-2064929
 reason: Exact approved Farnham workplace.
 ---
 
-## REVIEW (35)
+## REVIEW (31)
 
 ---
 action: 
@@ -71,30 +71,6 @@ company: Practice Plus Group
 location: Dorking, RH41HJ
 source: NHS Jobs
 job_id: nhs-5650956
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Royal Surrey NHS Foundation Trust
-location: Caterham, Surrey, CR3 5RA
-source: NHS Jobs
-job_id: nhs-5649025
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Town Planner
-company: Penguin Recruitment Ltd - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-2045680
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -246,6 +222,18 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: HR Administrator
+company: Faith Recruitment - Agency - Permanent
+location: Surrey
+source: JobG8
+job_id: jobg8-23643_225716529
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Junior Project Manager (Ecommerce / Retail) - Chertsey, UK
 company: Randstad Technologies - Agency - Permanent
 location: Chertsey
@@ -366,30 +354,6 @@ reason: No exact Farnham workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Officer
-company: Portfolio Payroll - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-2078346
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Procurement Assistant
-company: Give a Grad a Go - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-2074169
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Receptionist
 company: Practice Plus Group
 location: Haslemere, GU272BJ
@@ -431,18 +395,6 @@ company: National Trust - Company - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-2071183
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Advisor
-company: Source4 Personnel Solutions - Agency - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-2088298
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 

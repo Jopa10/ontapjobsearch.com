@@ -4,7 +4,7 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 24
+- automatic include: 3
+- automatic review: 25
 - automatic exclude: 11
-- effective include: 4
-- effective review: 24
+- effective include: 3
+- effective review: 25
 - effective exclude: 11
 
-## INCLUDE (4)
+## INCLUDE (3)
 
 ---
 action: 
@@ -52,18 +52,6 @@ reason: Approved Brighton & Hove catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Patient Care Advisor - Receptionist
-company: St Peter’s Medical Centre
-location: Brighton, BN1 4LA
-source: NHS Jobs
-job_id: nhs-5635694
-reason: Approved Brighton & Hove catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist / Administrator
 company: Integrated Care 24 Ltd
 location: Brighton, BN1 7GF
@@ -72,7 +60,7 @@ job_id: nhs-5649373
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (24)
+## REVIEW (25)
 
 ---
 action: 
@@ -127,10 +115,10 @@ action:
 decision: review
 automatic_decision: review
 title: Bookkeeper
-company: First Recruitment Services - Agency - Permanent
+company: Reed - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2074292
+job_id: jobg8-2013599
 reason: Broad location; review before city inclusion.
 ---
 
@@ -143,6 +131,18 @@ company: Marks Sattin - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2066607
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Centre Coordinator / Administrator
+company: Additional Resources Ltd - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2029067
 reason: Broad location; review before city inclusion.
 ---
 
@@ -191,18 +191,6 @@ company: Morgan McKinley - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2056847
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Digital Warehouse Assistant
-company: Grove Group - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2082290
 reason: Broad location; review before city inclusion.
 ---
 
@@ -282,6 +270,30 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Marketing & Engagement Manager
+company: Brighton Chamber - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2116746
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing and Communications Manager
+company: Dance Professionals Fund - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2116750
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Executive
 company: Reed - Agency - Permanent
 location: Burgess Hill
@@ -335,18 +347,6 @@ company: Bird In Eye Surgery
 location: Uckfield, TN22 5AW
 source: NHS Jobs
 job_id: nhs-5657299
-reason: No approved Brighton & Hove catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Route Planner
-company: Amour Recruitment - Agency - Permanent
-location: Lancing
-source: JobG8
-job_id: jobg8-2086974
 reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 

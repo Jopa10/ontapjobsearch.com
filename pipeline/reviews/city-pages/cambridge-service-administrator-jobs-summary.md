@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 9
 - automatic review: 4
-- automatic exclude: 7
+- automatic exclude: 6
 - effective include: 9
 - effective review: 4
-- effective exclude: 7
+- effective exclude: 6
 
 ## INCLUDE (9)
 
@@ -100,6 +100,18 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Marketing Analytics Manager
+company: Alzheimer's Research UK - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-2116781
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Purchase Ledger Clerk (Temp)
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Cambridgeshire
@@ -117,18 +129,6 @@ company: East Cambridgeshire District Council - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-2074616
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Town Planner
-company: Penguin Recruitment Ltd - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-2087007
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -182,7 +182,7 @@ job_id: teaching-vacancies-finance-admin-assistant-priory-junior-school-st-neots
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (7)
+## EXCLUDE (6)
 
 ---
 action: 
@@ -205,18 +205,6 @@ company: Cambridgeshire and Peterborough NHS Foundation Trust
 location: Peterborough, PE78FZ
 source: NHS Jobs
 job_id: nhs-5647546
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: IT Helpdesk Advisor - Dutch Speaker
-company: Interaction - Peterborough - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-108061988
 reason: Separate employment market.
 ---
 

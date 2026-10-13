@@ -16,27 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 6
+- automatic review: 5
 - automatic exclude: 3
 - effective include: 0
-- effective review: 6
+- effective review: 5
 - effective exclude: 3
 
 ## INCLUDE (0)
 
-## REVIEW (6)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Assistant
-company: Hampshire County Council - Company - Permanent
-location: Alton
-source: JobG8
-job_id: jobg8-1401785277
-reason: Broad location; review before city inclusion.
----
+## REVIEW (5)
 
 ---
 action: 

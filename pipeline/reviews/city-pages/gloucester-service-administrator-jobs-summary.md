@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 17
+- automatic review: 15
 - automatic exclude: 0
 - effective include: 4
-- effective review: 17
+- effective review: 15
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-2085791
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (17)
+## REVIEW (15)
 
 ---
 action: 
@@ -102,11 +102,11 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: Right Now Group - Agency - Permanent
+title: Bookkeeper
+company: Reed - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-2053465
+job_id: jobg8-2048160
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -222,18 +222,6 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Officer
-company: Marks Sattin - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-2065931
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Product Support Coordinator (12 Fixed Term Contract)
 company: Renishaw PLC - Agency - Permanent
 location: Gloucestershire
@@ -251,18 +239,6 @@ company: Alexander Mae (HR) Ltd - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-108044139
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Support Executive
-company: Usay Compare - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-108006035
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

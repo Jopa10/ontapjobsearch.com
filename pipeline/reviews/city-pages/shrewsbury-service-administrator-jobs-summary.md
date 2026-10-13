@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 1
-- automatic review: 5
+- automatic review: 4
 - automatic exclude: 0
 - effective include: 1
-- effective review: 5
+- effective review: 4
 - effective exclude: 0
 
 ## INCLUDE (1)
@@ -36,7 +36,7 @@ job_id: jobg8-2073994
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (5)
+## REVIEW (4)
 
 ---
 action: 
@@ -47,18 +47,6 @@ company: Cosgrove & Cosgrove Ltd - Agency - Permanent
 location: Telford
 source: JobG8
 job_id: jobg8-2057863
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: In-House Recruitment Coordinator
-company: Bethphage - Agency - Permanent
-location: Shropshire
-source: JobG8
-job_id: jobg8-108012415
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
