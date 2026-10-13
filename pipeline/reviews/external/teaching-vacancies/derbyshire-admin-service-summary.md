@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-10-12
-review_fingerprint: 4a0b2c18ab75c0a17a144c9c502e75733a3cbb599cfd5c6b6b69fb8dde44ca45
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+review_date: 2026-10-13
+review_fingerprint: 6562b577b97b57ea787b41ac83f9d98e993f81fa4933462c1fd5a168bb2e2a0a
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 4
-- Selected: 2
-- POSS awaiting decision: 0
+- Selected: 1
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 2
 
@@ -36,13 +36,15 @@ source_job_id: administration-assistant-full-and-part-time-post-available
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-full-and-part-time-post-available
 ---
 
+## POSS — choose SELECT or EXCLUDE
+
 ---
 action: 
-SELECTED | Derbyshire | Chesterfield, East Midlands, S43 4QG | £22,278.00 - £23,356.00 Annually (Actual) 2 posts available, 37 hrs/ 39 weeks, 37hrs / 41 weeks. Grade 2 £26,016 - £27,274 FTE per annum | Administrator
+POSS | Derbyshire | Chesterfield, East Midlands, S43 4QG | £22,278.00 - £23,356.00 Annually (Actual) 2 posts available, 37 hrs/ 39 weeks, 37hrs / 41 weeks. Grade 2 £26,016 - £27,274 FTE per annum | Administrator
 employer: Heritage High School
 closing_date: 2026-10-26T12:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: fc6997b7628aa082ac781c5357f00f3cae589fc91246471098862b524ebc102f
@@ -50,10 +52,6 @@ source: Teaching Vacancies
 source_job_id: administrator-heritage-high-school-chesterfield-derbyshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-heritage-high-school-chesterfield-derbyshire
 ---
-
-## POSS — choose SELECT or EXCLUDE
-
-- None.
 
 ## EXCLUDED BY REVIEW
 

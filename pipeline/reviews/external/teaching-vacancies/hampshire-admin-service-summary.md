@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-10-12
+review_date: 2026-10-13
 review_fingerprint: 934c26b02a280838e9365828bb7361c5a43e5dd6a308d4b946b2c64c0e347715
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 9
 - Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 8
 
 ## SELECTED
 
@@ -51,6 +51,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-office
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-miltoncross-academy-portsmouth-hampshire) — Insufficient admin/service evidence.
 - [Exams Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-assistant-the-romsey-school) — Insufficient admin/service evidence.
 - [HR Advisor (Fixed Term)](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-fixed-term-king-s-group-academies) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-king-s-academy-college-park-junior) — Manager title salary ceiling £37,562 is not below £28,000.
+- [People Operations Lead](https://teaching-vacancies.service.gov.uk/jobs/people-operations-lead-king-s-group-academies) — Insufficient admin/service evidence.
 - [School Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-administration-assistant-ced21b12-b7e9-4e93-8597-2177e96b09c9) — Insufficient admin/service evidence.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-10-12
-review_fingerprint: e7b4a23d12550440d303cf4bd8f30b394a56596f0af4acfeba22b33700853111
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+review_date: 2026-10-13
+review_fingerprint: 298ddb57719ec5501fccaea5ec5ffd926fdc3e4e1ca68f5a0f1d899e28c243ff
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 5
+- Records: 10
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 5
@@ -79,21 +79,6 @@ factual_fingerprint: 9c1ee1ef8e89155000d8a6c1e48e804d67ecaab86e7b5af5a744ca32a3a
 source: Teaching Vacancies
 source_job_id: school-nursery-administrator-liden-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-nursery-administrator-liden-academy
----
-
----
-action: 
-SELECTED | Wiltshire | Swindon, South West, SN5 4AT | £18,844.41 - £19,787.16 Annually (Actual) | SEND Administrator
-employer: Bradon Forest School
-closing_date: 2026-10-13T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: fbbc349ace4ea1504dc98335d0bbb4f8c6cbb62966d8a5e34b31473561836c1c
-source: Teaching Vacancies
-source_job_id: send-administrator-bradon-forest-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-bradon-forest-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

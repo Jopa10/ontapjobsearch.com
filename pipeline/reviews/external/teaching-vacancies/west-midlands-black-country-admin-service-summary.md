@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-10-12
-review_fingerprint: f0231c9ec57a5476bab22be460fa7d230346d8d99e6c0ce9e7fcab4996f7d7b3
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+review_date: 2026-10-13
+review_fingerprint: c891594dc044a6fd7602e632e207e3b526df623e869d7062e9f0b2131ea3ac1c
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 3
-- POSS awaiting decision: 3
+- Records: 13
+- Selected: 2
+- POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 7
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: 67d749b302fc7781a82639118be48d4702e742b9ae4fd7a4a53e2396ae7
 source: Teaching Vacancies
 source_job_id: reception-secretary-ec1c05c3-72a7-428c-9317-7e034cf6f8cf
 source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-secretary-ec1c05c3-72a7-428c-9317-7e034cf6f8cf
----
-
----
-action: 
-SELECTED | West Midlands - Black Country | Wolverhampton, West Midlands, WV10 6NN | £13.70 - £13.92 Hourly | Receptionist
-employer: Elston Hall Primary School
-closing_date: 2026-10-19T09:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: df5be0223fe06b9c318caa115271a9a0f90493a52ede1070e18999535d5eaceb
-source: Teaching Vacancies
-source_job_id: receptionist-elston-hall-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-elston-hall-primary-school
 ---
 
 ---
@@ -113,6 +98,21 @@ source_job_id: head-of-house-pa-b63da4ba-19ba-4c61-9d9c-22c58869178c
 source_url: https://teaching-vacancies.service.gov.uk/jobs/head-of-house-pa-b63da4ba-19ba-4c61-9d9c-22c58869178c
 ---
 
+---
+action: 
+POSS | West Midlands - Black Country | Wolverhampton, West Midlands, WV10 6NN | £13.70 - £13.92 Hourly | Receptionist
+employer: Elston Hall Primary School
+closing_date: 2026-10-19T09:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: df5be0223fe06b9c318caa115271a9a0f90493a52ede1070e18999535d5eaceb
+source: Teaching Vacancies
+source_job_id: receptionist-elston-hall-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-elston-hall-primary-school
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -122,7 +122,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/head-of-house-pa-b63d
 - [Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/cover-manager-perryfields-academy) — Manager title salary ceiling £34,812 is not below £28,000.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-ormiston-shelfield-community-academy-walsall-west-midlands) — Manager title salary ceiling £37,563 is not below £28,000.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-st-chad-s-academies-trust) — Manager title salary ceiling £65,035 is not below £28,000.
-- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-3c179d0b-a9c2-49dd-88f6-f3678f79fb20) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-5f4d4502-0d91-4091-b646-cbfc76dcdfb2) — Insufficient admin/service evidence.
 - [Human Resources Assistant](https://teaching-vacancies.service.gov.uk/jobs/human-resources-assistant-highfields-school) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-jesson-s-church-of-england-primary-school) — Manager title without salary evidence below £28,000.

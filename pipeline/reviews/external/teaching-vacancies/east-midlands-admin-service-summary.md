@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-10-12
-review_fingerprint: b627cc7303fc4e80659a32bb98eda7f3de42b86adc32afaea310fb2d3c13407b
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+review_date: 2026-10-13
+review_fingerprint: 8db6624cd1f39acc4d7401450e489c0f6d6f1d37d1f7d54aee9e3e76901306b5
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 12
 - Selected: 3
-- POSS awaiting decision: 3
+- POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 5
 
@@ -81,6 +81,21 @@ factual_fingerprint: 8496090449e3db74532680f9c367ebc1685b64bedcad4f728f829213474
 source: Teaching Vacancies
 source_job_id: business-administration-apprentice-level-3-embark-multi-academy-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprentice-level-3-embark-multi-academy-trust
+---
+
+---
+action: 
+POSS | East Midlands | Burton On Trent, DE13 7JE | £4,182.00 Annually (Actual) | Clerical Assistant
+employer: The Staffordshire Schools Multi Academy Trust
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: d0cac9c9b5f0350b61d039ec8f31101297e3db02a0a5f164b55b1737cfcf15f6
+source: Teaching Vacancies
+source_job_id: clerical-assistant-the-staffordshire-schools-multi-academy-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-the-staffordshire-schools-multi-academy-trust
 ---
 
 ---

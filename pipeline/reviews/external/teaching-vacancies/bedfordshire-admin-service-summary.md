@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-10-12
-review_fingerprint: 73d45848217054bf6ad0c04f769cd7d489939d1b95f88345216831e64e77537e
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+review_date: 2026-10-13
+review_fingerprint: 35811e0ea7197d780060eab0c0b582cc57cb508be857362e87fa50db23db896d
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 10
 - Selected: 5
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 5
 
@@ -98,20 +98,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Bedfordshire | Dunstable, East of England, LU5 5AB | £24,792.00 - £26,425.00 Annually (Actual) | Data Manager
-employer: All Saints Academy Dunstable
-closing_date: 2026-10-13T09:00:00+01:00
-reason: Manager title below £28,000 salary ceiling requires review
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0a4e01dfab5ee028e14466eb3eaf08a52cadd0b1d6960b0640081d889404d198
-source: Teaching Vacancies
-source_job_id: data-manager-all-saints-academy-dunstable
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-manager-all-saints-academy-dunstable
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

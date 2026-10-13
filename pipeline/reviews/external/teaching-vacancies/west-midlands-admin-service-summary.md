@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands
 
-review_date: 2026-10-12
-review_fingerprint: d67dbdf274dbce09d41e3e9879dae99dc753876d624b26471d1621674436f9c2
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+review_date: 2026-10-13
+review_fingerprint: 92a6244f63ce6d0187d30d5552cd30e0f74391a465d7b9e487b94663ad68e260
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: West Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
-- Selected: 2
+- Records: 1
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 0
@@ -34,21 +34,6 @@ factual_fingerprint: 4fdae23db5a044c78d65652de10b356d2c2639a067614ce4d32894f5c03
 source: Teaching Vacancies
 source_job_id: administration-assistant-for-the-senior-leadership-team
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-for-the-senior-leadership-team
----
-
----
-action: 
-SELECTED | West Midlands | Burton-upon-Trent, West Midlands, DE13 0UF | £25,614.00 - £26,847.00 Annually (FTE) NJC England & Wales, SCP 3 - 6 | Office Administrator
-employer: Scientia Academy
-closing_date: 2026-10-13T12:00:00+01:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 8e5cb5750cffafa3d975f0087b624c01acb3521ba8702771b1d29504d40263b3
-source: Teaching Vacancies
-source_job_id: office-administrator-scientia-academy-burton-upon-trent
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-scientia-academy-burton-upon-trent
 ---
 
 ## POSS — choose SELECT or EXCLUDE

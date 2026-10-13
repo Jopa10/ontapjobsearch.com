@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-10-12
-review_fingerprint: 750953c2d7db7026d5e85cf462fed361d9d09c7cb1243b7d34a773ce48d26b7c
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+review_date: 2026-10-13
+review_fingerprint: f11f666a8ec4a64ac186e08440371d89526a1365d4ec9cfb9c1a836dcc09604a
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 7
+- Records: 18
+- Selected: 8
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 9
@@ -34,6 +34,21 @@ factual_fingerprint: 695c2e7898f7f3b1edb675e7c368e8236e10b8d22b9cb7258e5d59b239d
 source: Teaching Vacancies
 source_job_id: attendance-admissions-administrator-maternity-cover
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-admissions-administrator-maternity-cover
+---
+
+---
+action: 
+SELECTED | Berkshire | Reading, South East, RG4 8LR | GLF Associate 3.1-3.9 salary: £19,502 - £20,891 | Behaviour Administrative Assistant
+employer: Highdown School and Sixth Form Centre
+closing_date: 2026-10-27T09:30:59+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a5e334107c9014d1b4c687910ad206810ff11c490b91debfb6e61434ff19d8f8
+source: Teaching Vacancies
+source_job_id: behaviour-administrative-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/behaviour-administrative-assistant
 ---
 
 ---

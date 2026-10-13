@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - Liverpool
 
-review_date: 2026-10-12
-review_fingerprint: 54d63a3e24e033f27896ed5c6ec2d607ee194dc93fcfa9f261bb8ff8be6b6a2d
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+review_date: 2026-10-13
+review_fingerprint: 685019455cd067cf62113efc0d3435cec22501c9bcd51060a0019987da34b779
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: Merseyside - Liverpool
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 6
 - Selected: 1
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 3
 
@@ -23,11 +23,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Merseyside - Liverpool | Liverpool, North West, L13 1HD | £22,300.00 - £22,654.00 Annually (Actual) Please see recruitment pack for further details | Receptionist
+SELECTED | Merseyside - Liverpool | Liverpool, North West, L5 3QG | £15,854.76 - £15,854.76 Annually (Actual) | Administrative Assistant
+employer: The Beacon Church of England Primary School
+closing_date: 2026-11-02T11:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5d290b728ede4a39d721c8f3a7189da425565c82c5481087da0b699db759f2f4
+source: Teaching Vacancies
+source_job_id: administrative-assistant-ab978b6d-c1dd-4b20-b920-253425188e5b
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-ab978b6d-c1dd-4b20-b920-253425188e5b
+---
+
+## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Merseyside - Liverpool | Liverpool, North West, L13 1HD | £22,300.00 - £22,654.00 Annually (Actual) Please see recruitment pack for further details | Receptionist
 employer: King's Leadership Academy Wavertree
 closing_date: 2026-10-14T23:59:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: 3b051b0df591c4c13e9273d0e08d11b48e2a009cc3cfd57458d0a798521d7267
@@ -35,8 +52,6 @@ source: Teaching Vacancies
 source_job_id: receptionist-6daa74e9-7381-4a23-93df-9b2577545b8a
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-6daa74e9-7381-4a23-93df-9b2577545b8a
 ---
-
-## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 

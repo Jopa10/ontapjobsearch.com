@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-10-12
-review_fingerprint: 49cb62a81679b796d8885e6dd9b111a1fbd4a81ef10be4483667dae6f264080c
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+review_date: 2026-10-13
+review_fingerprint: ad50d92a32d42c9b1eeb7e2919b2a80cce6bb5e0f1b96aba845ecf3dc94b7095
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 40
-- Selected: 17
-- POSS awaiting decision: 4
+- Records: 44
+- Selected: 16
+- POSS awaiting decision: 8
 - Excluded: 0
-- Hard pass: 19
+- Hard pass: 20
 
 ## SELECTED
 
@@ -53,6 +53,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-oyste
 
 ---
 action: 
+SELECTED | Yorkshire - West | Mirfield, Yorkshire and the Humber, WF14 9EZ | £23,632.00 - £24,778.00 Annually (Actual) Grade 5, Scale Point 5-8. FTE - £26,427 - £27,709) | Administration Assistant
+employer: The Mirfield Free Grammar
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: e66ce8127782172ac9595d451a2540aa130398ce1d535a46ac60ec7f05fcdbea
+source: Teaching Vacancies
+source_job_id: administration-assistant-the-mirfield-free-grammar-mirfield-west-yorkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-the-mirfield-free-grammar-mirfield-west-yorkshire
+---
+
+---
+action: 
 SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS7 4AW | B3 | Administrative Assistant
 employer: Holy Rosary and St Anne's Catholic Primary School, a Voluntary Academy
 closing_date: 2026-10-20T12:00:00+01:00
@@ -83,36 +98,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS9 0JY | £20,305.00 - £22,026.00 Annually (Actual) Band C1, SCP 12 - 17. FTE: £29,542-£32,046. | Administrator
-employer: Meadowfield Primary School
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: a15c688a6ab491ae3ab6b0cac25cc09e702ee85461a78564b021ac460e86c6e3
-source: Teaching Vacancies
-source_job_id: administrator-meadowfield-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-meadowfield-primary-school
----
-
----
-action: 
-SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD5 9ET | 25,584.00 - 25,989.00 | Administrator - 37
-employer: Co-op Academy Grange
-closing_date: 2026-10-23T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 22351c844f27f8e74e156cf2801ba651081d6f647c822930f4c6b7fdbb272f13
-source: Teaching Vacancies
-source_job_id: administrator-37
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-37
----
-
----
-action: 
 SELECTED | Yorkshire - West | Halifax, Yorkshire and the Humber, HX2 9SU | £22,111.00 - £22,462.00 Annually (Actual) NJC Scale3 Points 5-6 (3.3% pay award pending) | Apprentice Business Support Administrator
 employer: The North Halifax Grammar School
 closing_date: 2026-10-30T23:59:00+00:00
@@ -124,6 +109,36 @@ factual_fingerprint: 95f412b0455cd82a324134e6b3d75c176a30ddd812ecbbda5957ced6a29
 source: Teaching Vacancies
 source_job_id: apprentice-business-support-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-business-support-administrator
+---
+
+---
+action: 
+SELECTED | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD2 2JT | £25,583.00 - £25,989.00 Annually (FTE) Kirklees Grade 5 | Business Support Officer
+employer: All Saints Catholic College
+closing_date: 2026-11-03T09:00:00+00:00
+reason: Clear admin/service title: business support officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 48b7d80023caaf1296d470a5bb1829efdf0f8d35fd8139f52e9eaa2f0ff53848
+source: Teaching Vacancies
+source_job_id: business-support-officer-854eb79b-4156-4a90-8232-676cdd7ff0a7
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-854eb79b-4156-4a90-8232-676cdd7ff0a7
+---
+
+---
+action: 
+SELECTED | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD4 5JA | £26,583.26 Annually (Actual) Grade 7 SCP14-17 | Data and Exams Administrator
+employer: Moor End Academy
+closing_date: 2026-11-04T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 7b19a9222eaae1ab200137ee462c88c3dae2a4668d7aaf5fa9584bf520afbab3
+source: Teaching Vacancies
+source_job_id: data-and-exams-administrator-moor-end-academy-huddersfield-west-yorkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-administrator-moor-end-academy-huddersfield-west-yorkshire
 ---
 
 ---
@@ -203,47 +218,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/leadership-team-admin
 
 ---
 action: 
-SELECTED | Yorkshire - West | Wetherby, Yorkshire and the Humber, LS23 6DX | £25,185-£25,989 | Office Administrator
-employer: Primrose Lane Primary School
-closing_date: 2026-11-06T12:00:00+00:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: f22604bc3563e4361c632b9cb1a1cce54fa268cfdb030b8d12501376f85b8364
-source: Teaching Vacancies
-source_job_id: office-administrator-primrose-lane-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-primrose-lane-primary-school
----
-
----
-action: 
 SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS9 0JY | £11,273.00 - £11,634.00 Annually (Actual) Band B1, SCP 4-6. FTE: £26,016 - £ 26,847 | Receptionist/Administrator
 employer: Meadowfield Primary School
-closing_date: 2026-11-12T12:00:00+00:00
+closing_date: 2026-11-12T09:00:00+00:00
 reason: Clear admin/service title: administrator, receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: NEW_REVIEW
-factual_fingerprint: 9b434f4f33f0e03777d78d10c4b7f80f632132bd2a4cd96bcdd140e4dcb95012
+factual_fingerprint: fd0db2c9357fe5cdf866ad38d8913095a74ff1d5d56a3cf321d7b93fe1e5f9c7
 source: Teaching Vacancies
-source_job_id: receptionist-administrator-439c869e-070b-4131-a153-da2276feb411
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-439c869e-070b-4131-a153-da2276feb411
----
-
----
-action: 
-SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS12 1JZ | B3-C1 depending on experience | School Administrator
-employer: Castleton Primary School
-closing_date: 2026-10-29T15:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 31e383b781a20302e34e83d5157446caa92379778f8d3c79d3254bec73ddc3ee
-source: Teaching Vacancies
-source_job_id: school-administrator-castleton-primary-school-leeds-west-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-castleton-primary-school-leeds-west-yorkshire
+source_job_id: receptionist-administrator-ca52dc57-0aa2-4583-be92-409ff21aea72
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-ca52dc57-0aa2-4583-be92-409ff21aea72
 ---
 
 ---
@@ -295,17 +280,32 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-office
 
 ---
 action: 
-POSS | Yorkshire - West | Leeds, Yorkshire and the Humber, LS16 5EA | £35,837.00 - £37,629.00 Annually (Actual) | Exams and Data Officer
-employer: Abbey Grange Church of England Academy
-closing_date: 2026-10-13T08:00:00+01:00
-reason: Borderline school administration title: data officer
-jobg8_check: NO_MATCH
+POSS | Yorkshire - West | Leeds, Yorkshire and the Humber, LS9 0JY | £20,305.00 - £22,026.00 Annually (Actual) Band C1, SCP 12 - 17. FTE: £29,542-£32,046. | Administrator
+employer: Meadowfield Primary School
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: NEW_REVIEW
-factual_fingerprint: bea79238014a8a60cf7235693ccca96edc7227a8d8b89b4db179b00033f0d6e8
+factual_fingerprint: a15c688a6ab491ae3ab6b0cac25cc09e702ee85461a78564b021ac460e86c6e3
 source: Teaching Vacancies
-source_job_id: exams-and-data-officer-abbey-grange-church-of-england-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-officer-abbey-grange-church-of-england-academy
+source_job_id: administrator-meadowfield-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-meadowfield-primary-school
+---
+
+---
+action: 
+POSS | Yorkshire - West | Bradford, Yorkshire and the Humber, BD5 9ET | 25,584.00 - 25,989.00 | Administrator - 37
+employer: Co-op Academy Grange
+closing_date: 2026-10-23T09:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 22351c844f27f8e74e156cf2801ba651081d6f647c822930f4c6b7fdbb272f13
+source: Teaching Vacancies
+source_job_id: administrator-37
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-37
 ---
 
 ---
@@ -325,6 +325,36 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-50e
 
 ---
 action: 
+POSS | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD1 4ES | £25,951.00 to £27,733.00 per annum FTE | HR Administrator
+employer: Greenhead College
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: b75ea3ca87766fb6e62cac87ca8616e2994d3fc8541660cea6fdc4add3af5c2c
+source: Teaching Vacancies
+source_job_id: hr-administrator-greenhead-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-greenhead-college
+---
+
+---
+action: 
+POSS | Yorkshire - West | Wetherby, Yorkshire and the Humber, LS23 6DX | £25,185-£25,989 | Office Administrator
+employer: Primrose Lane Primary School
+closing_date: 2026-11-06T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: f22604bc3563e4361c632b9cb1a1cce54fa268cfdb030b8d12501376f85b8364
+source: Teaching Vacancies
+source_job_id: office-administrator-primrose-lane-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-primrose-lane-primary-school
+---
+
+---
+action: 
 POSS | Yorkshire - West | Shipley, Yorkshire and the Humber, BD18 3JE | £35,570.00 - £40,444.00 Annually (FTE) Band S01 - S02, SCP 17 to SCP 28 (Actual salary £30,732 - £35,267), 37 hours per week, TTO+5 days | Operations Officer
 employer: Bradford Alternative Provision Academy
 closing_date: 2026-10-21T09:00:00+01:00
@@ -336,6 +366,21 @@ factual_fingerprint: 4bf01274b15814861596092b9df57521c3a60e32c4ae190e755545e4024
 source: Teaching Vacancies
 source_job_id: operations-officer-bradford-alternative-provision-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-bradford-alternative-provision-academy
+---
+
+---
+action: 
+POSS | Yorkshire - West | Leeds, Yorkshire and the Humber, LS12 1JZ | B3-C1 depending on experience | School Administrator
+employer: Castleton Primary School
+closing_date: 2026-10-29T15:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 31e383b781a20302e34e83d5157446caa92379778f8d3c79d3254bec73ddc3ee
+source: Teaching Vacancies
+source_job_id: school-administrator-castleton-primary-school-leeds-west-yorkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-castleton-primary-school-leeds-west-yorkshire
 ---
 
 ## EXCLUDED BY REVIEW
@@ -353,12 +398,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-br
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the-north-halifax-grammar-school) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-the-william-henry-smith-school-and-sixth-form) — Manager title salary ceiling £50,908 is not below £28,000.
+- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-greenhead-college) — Insufficient admin/service evidence.
 - [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-ilkley-grammar-school) — Insufficient admin/service evidence.
 - [Learning Manager](https://teaching-vacancies.service.gov.uk/jobs/learning-manager-31a743da-8519-49fb-99c7-f5afb963c51c) — Manager title salary ceiling £36,581 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-holy-name-catholic-voluntary-academy) — Manager title salary ceiling £32,046 is not below £28,000.
+- [Operations Support Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/operations-support-co-ordinator) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-weetwood-primary-school-leeds-west-yorkshire) — Manager title salary ceiling £42,123 is not below £28,000.
 - [School Operations Manager - West Yorkshire](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-west-yorkshire) — Manager title salary ceiling £38,221 is not below £28,000.
-- [SEND Administration and Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/send-administration-and-support-assistant) — Insufficient admin/service evidence.
 - [Senior Admin and Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-admin-and-operations-manager) — Manager title salary ceiling £40,444 is not below £28,000.
 - [Senior Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-altofts-junior-academy) — Insufficient admin/service evidence.
 - [Sixth Form and Careers Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-and-careers-administration-officer) — Insufficient admin/service evidence.

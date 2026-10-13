@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-10-12
-review_fingerprint: 2b659bafa9041fe50aa80c5c352075602945b8bb6b9ba1a9e43ae52ddffd1566
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+review_date: 2026-10-13
+review_fingerprint: 0a09368420d8c9054b870759542145bb0ef37700fa8df14b51ac51909d3f7790
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,27 +14,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 13
-- Selected: 4
-- POSS awaiting decision: 1
+- Selected: 2
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 8
 
 ## SELECTED
-
----
-action: 
-SELECTED | Buckinghamshire | Newport Pagnell, South East, MK16 0BJ | £19,253.34 - £20,526.99 Annually (Actual) NJC 8-12 | Administrator
-employer: E-Act Ousedale School
-closing_date: 2026-10-19T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5a75c0e7507930467bdfaf700f3642ccac7a7e1ef1968e2610191848568cde7e
-source: Teaching Vacancies
-source_job_id: administrator-e-act-ousedale-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-e-act-ousedale-school
----
 
 ---
 action: 
@@ -49,21 +34,6 @@ factual_fingerprint: 927823d923692db34c1175444f846127c6aab8cc04ac34d04d9d9e6b5ac
 source: Teaching Vacancies
 source_job_id: administrator-prison-education-hmp-bullingdon
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-prison-education-hmp-bullingdon
----
-
----
-action: 
-SELECTED | Buckinghamshire | Aylesbury, South East, HP20 1DP | £21,218-£22,994 (FTE £26,522-£28,742) per annum | HR Administrative Assistant
-employer: Stocklake Park Community School
-closing_date: 2026-10-16T23:59:59+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 47d27f47bd2ad3538feaae30a769db199a46650a28e41d87fa4ad199f37435cc
-source: Teaching Vacancies
-source_job_id: hr-administrative-assistant-stocklake-park-community-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrative-assistant-stocklake-park-community-school
 ---
 
 ---
@@ -85,6 +55,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admissio
 
 ---
 action: 
+POSS | Buckinghamshire | Newport Pagnell, South East, MK16 0BJ | £19,253.34 - £20,526.99 Annually (Actual) NJC 8-12 | Administrator
+employer: E-Act Ousedale School
+closing_date: 2026-10-19T09:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5a75c0e7507930467bdfaf700f3642ccac7a7e1ef1968e2610191848568cde7e
+source: Teaching Vacancies
+source_job_id: administrator-e-act-ousedale-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-e-act-ousedale-school
+---
+
+---
+action: 
 POSS | Buckinghamshire | Milton Keynes, South East, MK17 7AA | £23,130.12 Annually (Actual) Grade C1, £25, 989 Full time equivalent | Business Support (Level 1)
 employer: St Mary's Wavendon CofE Primary
 closing_date: 2026-10-20T09:00:00+01:00
@@ -96,6 +81,21 @@ factual_fingerprint: 59a8db5768695e5e2d44837c2e6a8f05bd44cef532ba943fbefcaefa14a
 source: Teaching Vacancies
 source_job_id: business-support-level-1-b4e89671-af8b-4563-bce3-fee0f7ec4d1e
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-level-1-b4e89671-af8b-4563-bce3-fee0f7ec4d1e
+---
+
+---
+action: 
+POSS | Buckinghamshire | Aylesbury, South East, HP20 1DP | £21,218-£22,994 (FTE £26,522-£28,742) per annum | HR Administrative Assistant
+employer: Stocklake Park Community School
+closing_date: 2026-10-16T23:59:59+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 47d27f47bd2ad3538feaae30a769db199a46650a28e41d87fa4ad199f37435cc
+source: Teaching Vacancies
+source_job_id: hr-administrative-assistant-stocklake-park-community-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrative-assistant-stocklake-park-community-school
 ---
 
 ## EXCLUDED BY REVIEW

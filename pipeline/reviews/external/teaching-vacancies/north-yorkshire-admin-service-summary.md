@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-10-12
-review_fingerprint: f13abfdb6ea42a3a6f709f9817d1df930c8a5b92daed0be1422a11abe69c7acd
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+review_date: 2026-10-13
+review_fingerprint: 2f20611a05dbed9e3738dc829f53e14a98d7419fba2f78c053778b0c45c50ddd
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 6
-- POSS awaiting decision: 1
+- Records: 12
+- Selected: 4
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 6
 
 ## SELECTED
-
----
-action: 
-SELECTED | Yorkshire - North | Scarborough, Yorkshire and the Humber, YO12 7DD | Grade CD | Administration Assistant
-employer: Gladstone Road Primary School
-closing_date: 2026-10-13T12:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6dfc0ff4523b32661698aef2f0509616c0df8d6941f8baa8037c6a55ab623902
-source: Teaching Vacancies
-source_job_id: administration-assistant-gladstone-road-primary-school-scarborough-north-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-gladstone-road-primary-school-scarborough-north-yorkshire
----
 
 ---
 action: 
@@ -49,21 +34,6 @@ factual_fingerprint: 926bbbb9b7de4a5f4790f04cc7799c345a12fc710b4dc21b39097852d59
 source: Teaching Vacancies
 source_job_id: assistant-exams-officer-cover-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/assistant-exams-officer-cover-administrator
----
-
----
-action: 
-SELECTED | Yorkshire - North | Scarborough, Yorkshire and the Humber, YO11 3LG | £25,614.00 - £26,427.00 Annually (FTE) | Receptionist Administrator
-employer: Braeburn Primary and Nursery Academy
-closing_date: 2026-10-30T12:00:00+00:00
-reason: Clear admin/service title: administrator, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 47eebabcf22c10aab8bf91110ae729bd49ad58f8e21e170b4853e48453ed824e
-source: Teaching Vacancies
-source_job_id: receptionist-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire
 ---
 
 ---
@@ -126,6 +96,21 @@ factual_fingerprint: 46202bac75bb16de9d7531ce60d282308059dfcd6b6a44cfb479794b8bb
 source: Teaching Vacancies
 source_job_id: administration-officer-7631
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-7631
+---
+
+---
+action: 
+POSS | Yorkshire - North | Scarborough, Yorkshire and the Humber, YO11 3LG | £25,614.00 - £26,427.00 Annually (FTE) | Receptionist Administrator
+employer: Braeburn Primary and Nursery Academy
+closing_date: 2026-10-30T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 47eebabcf22c10aab8bf91110ae729bd49ad58f8e21e170b4853e48453ed824e
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire
 ---
 
 ## EXCLUDED BY REVIEW

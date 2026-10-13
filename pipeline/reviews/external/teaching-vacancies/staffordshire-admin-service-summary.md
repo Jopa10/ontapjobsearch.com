@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-10-12
+review_date: 2026-10-13
 review_fingerprint: 19e8efc2ef999f422efdce784dec11c260935b54689ab5085c2c6aa17d981195
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
+- Records: 3
 - Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 0
+- Hard pass: 1
 
 ## SELECTED
 
@@ -59,7 +59,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-ba
 
 ## HARD_PASS
 
-- None.
+- [Senior Administration and Finance Assistant - Level 5](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-and-finance-assistant-level-5-abbey-hill-academy-college) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

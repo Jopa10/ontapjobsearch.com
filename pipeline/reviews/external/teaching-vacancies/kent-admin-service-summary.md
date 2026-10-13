@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-10-12
-review_fingerprint: 8596bcc5c3f97b5725610b07c7b8ae06f83763e6c60b06c3cb8e042b59d437df
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+review_date: 2026-10-13
+review_fingerprint: 4ff264f5785cb8435d2e25af638d7e843033f72ad043cf7575e4c5c84d5ab762
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,58 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 6
-- POSS awaiting decision: 0
+- Records: 7
+- Selected: 3
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 2
 
 ## SELECTED
-
----
-action: 
-SELECTED | Kent | Gillingham, South East, ME7 2JG | £26,016.00 - £29,071.00 Annually (FTE) Medway D2 4 - 11 £22,047.56 - £25,024.19 Actual Salary | Administration Assistant
-employer: Barnsole Primary School
-closing_date: 2026-11-02T23:59:00+00:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3cdb6b950e89ea725edd69286d6b8647005a28d0bb1e14d9f3d6c6b561d680bc
-source: Teaching Vacancies
-source_job_id: administration-assistant-barnsole-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-barnsole-primary-school
----
-
----
-action: 
-SELECTED | Kent | Tonbridge, South East, TN9 2HE | Actual Pro Rata Salary £23,599 | Administrative Assistant
-employer: Hillview School for Girls
-closing_date: 2026-10-30T23:59:59+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a714004cc2fe9582fb3ecb708ba2f52d2ee8d6ace98e9c81d9cddb2e6f9ce809
-source: Teaching Vacancies
-source_job_id: administrative-assistant-hillview-school-for-girls-tonbridge-kent
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-hillview-school-for-girls-tonbridge-kent
----
-
----
-action: 
-SELECTED | Kent | Chatham, South East, ME5 0LE | £26,016.00 - £29,071.00 Annually (Actual) Actual Salary Between £11,758 - £13,139 | Administrative Assistant
-employer: Walderslade School
-closing_date: 2026-10-13T09:00:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 45889b0ec06a9e589ca6c0c1ddc8803c13b34332a62131db16f184b3d17baa06
-source: Teaching Vacancies
-source_job_id: administrative-assistant-walderslade-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-walderslade-school
----
 
 ---
 action: 
@@ -113,7 +68,35 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Kent | Gillingham, South East, ME7 2JG | £26,016.00 - £29,071.00 Annually (FTE) Medway D2 4 - 11 £22,047.56 - £25,024.19 Actual Salary | Administration Assistant
+employer: Barnsole Primary School
+closing_date: 2026-11-02T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3cdb6b950e89ea725edd69286d6b8647005a28d0bb1e14d9f3d6c6b561d680bc
+source: Teaching Vacancies
+source_job_id: administration-assistant-barnsole-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-barnsole-primary-school
+---
+
+---
+action: 
+POSS | Kent | Tonbridge, South East, TN9 2HE | Actual Pro Rata Salary £23,599 | Administrative Assistant
+employer: Hillview School for Girls
+closing_date: 2026-10-30T23:59:59+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a714004cc2fe9582fb3ecb708ba2f52d2ee8d6ace98e9c81d9cddb2e6f9ce809
+source: Teaching Vacancies
+source_job_id: administrative-assistant-hillview-school-for-girls-tonbridge-kent
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-hillview-school-for-girls-tonbridge-kent
+---
 
 ## EXCLUDED BY REVIEW
 

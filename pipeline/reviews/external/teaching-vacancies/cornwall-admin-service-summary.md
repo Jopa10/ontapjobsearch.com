@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-10-12
-review_fingerprint: 54a0991445456bf1a6db960d69a32770f88f26962596a35ebb9e2e2d5ea0795c
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+review_date: 2026-10-13
+review_fingerprint: ee856e8dba62ba5a6043acd94335cfb74a4b92c39170d9bdeaa9be8c032862ec
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 4
+- Records: 8
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -49,21 +49,6 @@ factual_fingerprint: 04322909202992b02d48f5f119c394f0737a9879f76878d50a9691007b0
 source: Teaching Vacancies
 source_job_id: first-aid-administrator-newquay-tretherras
 source_url: https://teaching-vacancies.service.gov.uk/jobs/first-aid-administrator-newquay-tretherras
----
-
----
-action: 
-SELECTED | Cornwall | St Austell, South West, PL25 4BZ | £21,690.42 - £24,496.80 Annually (Actual) | Receptionist
-employer: Poltair School
-closing_date: 2026-10-12T23:59:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7f04cf111af05fbbabbb2bbb448df7c6871ba46430c9e560e46d29c0932c8ee8
-source: Teaching Vacancies
-source_job_id: receptionist-poltair-school-st-austell-cornwall
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-poltair-school-st-austell-cornwall
 ---
 
 ---
@@ -104,7 +89,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 
 ## HARD_PASS
 
-- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-saltash-community-school) — Insufficient admin/service evidence.
 - [Minibus Driver](https://teaching-vacancies.service.gov.uk/jobs/minibus-driver-104babdb-863b-4900-8121-25129beb540f) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-camelford-community-primary-school) — Manager title salary ceiling £33,673 is not below £28,000.
 - [People Lead](https://teaching-vacancies.service.gov.uk/jobs/people-lead-1946fc8a-54b9-4506-808b-a157f27767c8) — Insufficient admin/service evidence.

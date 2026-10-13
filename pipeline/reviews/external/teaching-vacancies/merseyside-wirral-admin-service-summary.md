@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - Wirral
 
-review_date: 2026-10-12
-review_fingerprint: 216a74d6507fd70a89d9132ed4f59f126cd12a1043ce394b4a64942b777f18c7
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+review_date: 2026-10-13
+review_fingerprint: 91f2e655a39470af3906ef8a5b6285c0ef1dc454e955edccbee268100d5e6c13
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: Merseyside - Wirral
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
-- Selected: 1
+- Records: 2
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 0
@@ -34,6 +34,21 @@ factual_fingerprint: 8e04b98823547a17b47762449385f3985ca98efefbd0f32a731bf34462f
 source: Teaching Vacancies
 source_job_id: office-administrator-church-drive-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-church-drive-primary-school
+---
+
+---
+action: 
+SELECTED | Merseyside - Wirral | Birkenhead, North West, CH43 4UY | Grade 5 , SCP 9 – 11 - £22,296 - £23,023 actual (£28,153 - £29,071 FTE) | PA to Senior Leadership Team
+employer: Birkenhead Park School
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Clear admin/service title: pa to
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: fd7eb7fcb0873c8a4338843f0a883388a088b01b49afc71ca7dd9a2b74db5d12
+source: Teaching Vacancies
+source_job_id: pa-to-senior-leadership-team-birkenhead-park-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-senior-leadership-team-birkenhead-park-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

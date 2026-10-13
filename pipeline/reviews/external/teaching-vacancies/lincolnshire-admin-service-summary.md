@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-10-12
+review_date: 2026-10-13
 review_fingerprint: 9312c7fe9a8811b106c663a5e2fe04d2c151b7a16e5c3d18129d6839e69cde1d
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE

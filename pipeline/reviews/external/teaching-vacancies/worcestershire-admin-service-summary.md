@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Worcestershire
 
-review_date: 2026-10-12
-review_fingerprint: f9c49a37923aba218c67bb76b59ecdf3a1a5a5ebe765681a46715963e523e80d
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+review_date: 2026-10-13
+review_fingerprint: c1eb78904c3b0d9ce68973e85e6b7d07e2b4c47c2b5bc9f6701264f7ad3e4439
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 2
+- Records: 5
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Worcestershire | Malvern, West Midlands, WR14 1QS | £13.70 - £13.92 Hourly | Office Administrator
+employer: Northleigh CofE Primary School
+closing_date: 2026-11-05T12:00:00+00:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d1a2619483e8e6164e8835d5fee630be07de444decfe9bf60c6cf0f4c07ebba2
+source: Teaching Vacancies
+source_job_id: office-administrator-northleigh-cofe-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-northleigh-cofe-primary-school
+---
 
 ---
 action: 

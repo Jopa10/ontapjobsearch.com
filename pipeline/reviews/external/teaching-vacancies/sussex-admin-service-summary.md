@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-10-12
-review_fingerprint: e943d1ff956a408a954795b0ebc1e834b53111e2ed6f8b340eb6cd0181760e84
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+review_date: 2026-10-13
+review_fingerprint: d76a6fd30c457abc2deb9a8b9d41975b1a590ed89443812e140fa2e1ec70d2b9
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 7
-- Selected: 5
-- POSS awaiting decision: 2
+- Selected: 4
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 0
 
@@ -34,21 +34,6 @@ factual_fingerprint: 5d19c60bd96f0537cbeff3a0b5e848650d9474e84a35b385d5dd43a4a32
 source: Teaching Vacancies
 source_job_id: administrative-assistant-91c2bb10-6af8-4419-845b-e5add4b37610
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-91c2bb10-6af8-4419-845b-e5add4b37610
----
-
----
-action: 
-SELECTED | Sussex | St Leonards-on-Sea, South East, TN38 0NX | Grade 4, Scale point 9-10 £26,016 - £26,247 pro-rata (Actual salary £23,050 - £23,255) | Administrator
-employer: St Leonards Church of England Primary Academy
-closing_date: 2026-10-16T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d6ee43fde02e53f6999b40a3c112b57586a79c255832a8fb1841a11528ecef50
-source: Teaching Vacancies
-source_job_id: administrator-st-leonards-church-of-england-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-st-leonards-church-of-england-primary-academy
 ---
 
 ---
@@ -97,6 +82,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-leadership-tea
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Sussex | St Leonards-on-Sea, South East, TN38 0NX | Grade 4, Scale point 9-10 £26,016 - £26,247 pro-rata (Actual salary £23,050 - £23,255) | Administrator
+employer: St Leonards Church of England Primary Academy
+closing_date: 2026-10-16T09:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d6ee43fde02e53f6999b40a3c112b57586a79c255832a8fb1841a11528ecef50
+source: Teaching Vacancies
+source_job_id: administrator-st-leonards-church-of-england-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-st-leonards-church-of-england-primary-academy
+---
 
 ---
 action: 

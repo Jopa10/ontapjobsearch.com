@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-10-12
-review_fingerprint: be394899cefb0b2b29da36cfa3c82f0240e28096a886dd033db312fd7313dace
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+review_date: 2026-10-13
+review_fingerprint: 8947a28eed5a05a720c4c770a715a37877523a533f186af2bfae36856403be66
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 2
+- Records: 7
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 3
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Surrey | Epsom, South East, KT19 9SE | Specialist - £28,009 FTE (Actual - £16,733.32) | Attendance and Admissions Officer
+employer: Danetree Primary School
+closing_date: 2026-11-01T23:59:59+00:00
+reason: Clear admin/service title: admissions officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 691ef51dcd433205dc96f3d8426dab2b2d760632ce0f728f508da1efbf0bfb84
+source: Teaching Vacancies
+source_job_id: attendance-and-admissions-officer-99fe5e07-7ceb-4f8e-990c-280021c94b74
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admissions-officer-99fe5e07-7ceb-4f8e-990c-280021c94b74
+---
 
 ---
 action: 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-10-12
-review_fingerprint: 5aa7943e69db67d61ea633e52822765f54da57d7a6c52e2f12c08cc87e36c41b
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+review_date: 2026-10-13
+review_fingerprint: 89e56b4ee4770e45b1c45591122fff342f54e2515237af4d06d97972ba403409
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 6
+- Records: 13
+- Selected: 4
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
-
----
-action: 
-SELECTED | Hertfordshire | Hemel Hempstead, East of England, HP2 7HL | £24,728.00 - £26,748.00 Annually (Actual) | Attendance Administrator
-employer: The Astley Cooper School
-closing_date: 2026-10-23T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f4948a796e5d4d65e9f8083c1c8fad9c27087de624c709c8f2e1edd06d74113a
-source: Teaching Vacancies
-source_job_id: attendance-administrator-the-astley-cooper-school-hemel-hempstead-hertfordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-the-astley-cooper-school-hemel-hempstead-hertfordshire
----
 
 ---
 action: 
@@ -96,21 +81,6 @@ source_job_id: part-time-admin-assistant-oxhey-wood-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-admin-assistant-oxhey-wood-primary-school
 ---
 
----
-action: 
-SELECTED | Hertfordshire | St Albans, East of England, AL3 6DR | £23,396.00 - £28,153.00 Annually (Actual) H4.6 + Fringe Allowance included | Reception Administrator & First Aider
-employer: Townsend Church of England School
-closing_date: 2026-10-16T07:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9134ae6fe2b5a8fee5f9356cac7c5427bb6e16acc89ae31bdee69e1ea100a1d9
-source: Teaching Vacancies
-source_job_id: reception-administrator-first-aider
-source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-administrator-first-aider
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -154,6 +124,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-support-assi
 - [Development Director](https://teaching-vacancies.service.gov.uk/jobs/development-director-watford-grammar-school-for-boys-watford-hertfordshire) — Insufficient admin/service evidence.
 - [Federation School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/federation-school-business-manager-hurst-drive-primary-school) — Manager title salary ceiling £49,817 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-aa7f3068-bd4a-4f6c-a3c0-513cc79c39b8) — Manager title salary ceiling £33,119 is not below £28,000.
+- [Procurement, Data and Compliance Lead](https://teaching-vacancies.service.gov.uk/jobs/procurement-data-and-compliance-lead) — Insufficient admin/service evidence.
 - [Teaching Assistant including personal care: Part Time / Full Time (H3)](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-including-personal-care-part-time-full-time-h3-41775b5d-ef37-4c4b-84c0-3a1ab141114d) — Out-of-scope occupation: teaching assistant.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-10-12
-review_fingerprint: a4f9daff086f3a92f547a9898c2f1c8917d682e605853f98eb235bd54381ed4a
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+review_date: 2026-10-13
+review_fingerprint: 7a55546a96a4a6d51a2c72298e2840e8714843c6ea709d565296a60cca2728e3
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 13
 - Selected: 4
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 8
 
 ## SELECTED
 
@@ -38,17 +38,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
-SELECTED | Norfolk | King's Lynn, East of England, PE30 4QJ | £22,731-£23,092 per annum actual | Administrator
-employer: Parkway Academy
-closing_date: 2026-10-16T23:59:00+01:00
+SELECTED | Norfolk | Downham Market, East of England, PE38 9LL | £27,275-£29,071 FTE £14.18- £15.11 per hour | Attendance Administrator
+employer: Downham Market Academy
+closing_date: 2026-11-02T09:00:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 6ccdd80b9381fa5ce26404101668c6c5e57eb2852b1f3ba9a396eb4bc1fadd03
+factual_fingerprint: 43dc1723442a6f33cfc81b6207a4c5a3bddb36797b6bd705f13da39413c01698
 source: Teaching Vacancies
-source_job_id: administrator-parkway-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-parkway-academy
+source_job_id: attendance-administrator-downham-market-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-downham-market-academy
 ---
 
 ---
@@ -83,7 +83,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-academy-admini
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Norfolk | King's Lynn, East of England, PE30 4QJ | £22,731-£23,092 per annum actual | Administrator
+employer: Parkway Academy
+closing_date: 2026-10-16T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6ccdd80b9381fa5ce26404101668c6c5e57eb2852b1f3ba9a396eb4bc1fadd03
+source: Teaching Vacancies
+source_job_id: administrator-parkway-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-parkway-academy
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -91,10 +104,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-academy-admini
 
 ## HARD_PASS
 
+- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-queen-s-hill-primary-school) — Insufficient admin/service evidence.
 - [Admissions and Outreach Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-outreach-coordinator-university-technical-college-norfolk) — Insufficient admin/service evidence.
+- [Admissions and Outreach Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-outreach-coordinator-university-technical-college-norfolk-norwich-norfolk) — Insufficient admin/service evidence.
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-browick-road-primary-and-nursery-school-wymondham-norfolk) — Insufficient admin/service evidence.
+- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-queen-s-hill-primary-school) — Insufficient admin/service evidence.
 - [HR Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-administration-assistant-inspiration-trust) — Insufficient admin/service evidence.
-- [Procurement manager](https://teaching-vacancies.service.gov.uk/jobs/procurement-manager-st-john-the-baptist-catholic-multi-academy-trust) — Manager title salary ceiling £49,816 is not below £28,000.
+- [Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/procurement-manager-st-john-the-baptist-catholic-multi-academy-trust) — Manager title salary ceiling £49,816 is not below £28,000.
 - [Transport Assistant](https://teaching-vacancies.service.gov.uk/jobs/transport-assistant) — Insufficient admin/service evidence.
 
 ## Safety boundary

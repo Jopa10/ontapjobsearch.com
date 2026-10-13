@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-10-12
-review_fingerprint: 729f0d6f92ffc0aa682d72a4dc2de711bfcca3ed39b6e03b4b180bd95bc56445
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+review_date: 2026-10-13
+review_fingerprint: 5aa7a13d1e8d3c2e1b91e81b7d85a715fdb9625dc8bd407d82d025e5df7a603c
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -68,17 +68,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | Somerset | Minehead, South West, TA24 6AY | BTCT Band 6, Points 10-12 | Exams Officer
-employer: West Somerset College
-closing_date: 2026-10-12T23:59:00+01:00
-reason: Clear admin/service title: exams officer
+SELECTED | Somerset | Bridgwater, South West, TA6 6JB | BTCT Band 4 | SEND Administrator and Librarian
+employer: Hamp Academy
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 3d4fb6936a5a8e82f4e2db6be99d6765b069c97e944c3c82af559dafd0589532
+factual_fingerprint: 43a5de8d7d16c5e9d1938a032f94c764d4443b5ff46059c9dc0dd60d6d85a6e7
 source: Teaching Vacancies
-source_job_id: exams-officer-a5af8350-c1ba-4da1-923b-fd1382b67fde
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-a5af8350-c1ba-4da1-923b-fd1382b67fde
+source_job_id: send-administrator-and-librarian
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-and-librarian
 ---
 
 ---
@@ -103,8 +103,8 @@ action:
 POSS | Somerset | Cheddar, South West, BS27 3AQ | Grade 14 £26016 - £26846 | Finance Assistant
 employer: The Kings of Wessex Academy
 closing_date: 2026-10-19T08:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: 3d204cd7a42c8ea61e04ed95a0927ae2e71475d09dcbd15184b9df77cc7922c0

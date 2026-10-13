@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-10-12
+review_date: 2026-10-13
 review_fingerprint: 4b645da0043fc44acc1fc11b1ba519056f04892f4dcb87ccbb8844b535fdbfc7
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 9
 - Selected: 2
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -91,6 +91,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/mat-compliance-office
 
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-etone-college) — Insufficient admin/service evidence.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-5cc43304-a3a7-4b85-bf77-5aec67ba4d85) — Manager title salary ceiling £54,143 is not below £28,000.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-john-henry-newman-catholic-school) — Manager title salary ceiling £62,348 is not below £28,000.
 - [Senior Leisure & Lettings Coordinator](https://teaching-vacancies.service.gov.uk/jobs/senior-leisure-lettings-coordinator-kenilworth-multi-academy-trust) — Insufficient admin/service evidence.
 - [Technical Services Team Assistant](https://teaching-vacancies.service.gov.uk/jobs/technical-services-team-assistant-finham-park-school) — Insufficient admin/service evidence.
 

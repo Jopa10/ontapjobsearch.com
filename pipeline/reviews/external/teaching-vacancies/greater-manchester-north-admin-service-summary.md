@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-10-12
+review_date: 2026-10-13
 review_fingerprint: 704f496d020c93b164d7d43175b9a2870a29ad30bd5bdd9ae210794fc5692fed
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
+- Records: 9
 - Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -105,7 +105,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/mis-systems-and-data-
 ## HARD_PASS
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-the-blue-coat-cofe-school) — Insufficient admin/service evidence.
-- [Attendance Support Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-support-officer-st-gabriel-s-rc-high-school-a-voluntary-academy-bury-lancashire) — Insufficient admin/service evidence.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-bc9a8d56-95b2-402f-9fa6-ac718f8f9933) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-new-bridge-school-oldham-lancashire) — Insufficient admin/service evidence.
 - [Personal Care Assistant based at New Bridge Learning Centre](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-based-at-new-bridge-learning-centre-new-bridge-school-oldham-lancashire) — Insufficient admin/service evidence.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Wigan & Bolton
 
-review_date: 2026-10-12
-review_fingerprint: 28cf4be9eff8ae1f6dc505e849f2e9e5f839f79e152abf6f9044a4e66582da52
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+review_date: 2026-10-13
+review_fingerprint: cfab57b5e3f3c9ffa2f0c235722295faa38b29b5cc2cd4c0a3808917bfda0886
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: Greater Manchester - Wigan & Bolton
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 1
+- Records: 7
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 5
@@ -34,6 +34,21 @@ factual_fingerprint: 19b59b838920e0b7d7d6b18bcba971146a99ff0dd93dcf156fa19e5e095
 source: Teaching Vacancies
 source_job_id: administrative-assistant-with-marketing
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-with-marketing
+---
+
+---
+action: 
+SELECTED | Greater Manchester - Wigan & Bolton | Wigan, North West, WN3 6BL | £25,185.00 - £25,583.00 Annually (FTE) | School Office Administrative Assistant
+employer: Highfield St Matthew's Church of England Primary School
+closing_date: 2026-11-05T23:59:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e7edfd23e1a4a4242a9f49de5f5e0390453cbf0aebf5379606c3fd61d5b44071
+source: Teaching Vacancies
+source_job_id: school-office-administrative-assistant-highfield-st-matthew-s-church-of-england-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-administrative-assistant-highfield-st-matthew-s-church-of-england-primary-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

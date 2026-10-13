@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - East
 
-review_date: 2026-10-12
+review_date: 2026-10-13
 review_fingerprint: bd6a25294b11908ae41fcd23136c430c9a9ea172bff2acb4f90a4285bcd21100
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: Yorkshire - East
 slice_category: admin_service
 slice_status: LIVE

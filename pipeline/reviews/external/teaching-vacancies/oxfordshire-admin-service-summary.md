@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-10-12
-review_fingerprint: 74185652719aa0f55140d498e43323ed9682bcd5f5720543334435e0270e7341
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+review_date: 2026-10-13
+review_fingerprint: cd7c0eef8e38e2fe714385b6e6fd549418cdfe3d9b2e16666de6100d9fabab4a
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 7
-- Selected: 1
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -36,6 +36,21 @@ source_job_id: inclusion-administrator-1d8857c6-4658-46bb-9bcc-5432cf1ee5cd
 source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrator-1d8857c6-4658-46bb-9bcc-5432cf1ee5cd
 ---
 
+---
+action: 
+SELECTED | Oxfordshire | Oxford, South East, OX3 7QH | £23,446.92 - £25,405.77 Annually (Actual) (FTE £27,710- £30,025) | Student Receptionist and Pastoral Assistant
+employer: Cheney School
+closing_date: 2026-10-27T08:00:00+00:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7ba1345965e9e4a944a7a8632861baec002e14e310b7251e8089138217daa67e
+source: Teaching Vacancies
+source_job_id: student-receptionist-and-pastoral-assistant-cheney-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/student-receptionist-and-pastoral-assistant-cheney-school
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -49,7 +64,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrat
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-4f507139-5c20-454a-a4fe-5cdecd55a8b0) — Insufficient admin/service evidence.
 - [MAT Administrator](https://teaching-vacancies.service.gov.uk/jobs/mat-administrator) — Missing salary or pay scale.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-edward-feild-primary-school) — Manager title salary ceiling £39,482 is not below £28,000.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-madley-brook-community-primary-school) — Manager title salary ceiling £42,124 is not below £28,000.
 - [School Premises and Compliance Manager](https://teaching-vacancies.service.gov.uk/jobs/school-premises-and-compliance-manager) — Manager title salary ceiling £36,050 is not below £28,000.
 - [SEN Administrator](https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-kings-sutton-primary-academy) — Missing salary or pay scale.
 

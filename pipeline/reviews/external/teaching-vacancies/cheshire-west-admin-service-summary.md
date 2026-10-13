@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - West
 
-review_date: 2026-10-12
-review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+review_date: 2026-10-13
+review_fingerprint: 8864a508bad4b8fd449d37a72b4c38366e9c653d0140d489fa7c5616ef1e565a
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: Cheshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -14,14 +14,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 7
-- Selected: 0
+- Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Cheshire - West | Frodsham, North West, WA6 0HY | £11,822.00 - £12,475.00 Annually (Actual) Grade 4 | Finance Administrator
+employer: Helsby High School
+closing_date: 2026-10-23T09:00:00+01:00
+reason: Clear admin/service title: administrator, finance administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: af949caa9ef92b38d389660e7d9aa344071a91fe6cca27439b56795cf1c51e6e
+source: Teaching Vacancies
+source_job_id: finance-administrator-helsby-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-helsby-high-school
+---
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -39,7 +52,6 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-4995d185-9e33-4fc5-bcfb-92eea964e047) — Insufficient admin/service evidence.
 - [FINANCE OFFICER](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-sandstone-trust-tarporley-not-recorded) — Insufficient admin/service evidence.
 - [Procurement Officer](https://teaching-vacancies.service.gov.uk/jobs/procurement-officer-the-learning-trust) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-kelsall-primary-and-nursery-school) — Manager title salary ceiling £40,444 is not below £28,000.
 
 ## Safety boundary
 

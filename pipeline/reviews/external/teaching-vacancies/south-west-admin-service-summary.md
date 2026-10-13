@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — South West
 
-review_date: 2026-10-12
+review_date: 2026-10-13
 review_fingerprint: 8f2deeb269fb4029b10baa022d2d9011f54cb7bc0b380d10986f0127133969ca
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: South West
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 6
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -76,6 +76,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## HARD_PASS
 
+- [Admissions and Marketing Officer](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-marketing-officer-69c1e54a-5b35-4901-a222-0e20faca55c8) — Insufficient admin/service evidence.
 - [Family Liaison Worker](https://teaching-vacancies.service.gov.uk/jobs/family-liaison-worker-doubletrees-school) — Insufficient admin/service evidence.
 - [Year Leader ( Non Teaching)](https://teaching-vacancies.service.gov.uk/jobs/year-leader-non-teaching-the-wellington-academy) — Insufficient admin/service evidence.
 

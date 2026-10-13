@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-10-12
-review_fingerprint: 1be61ad3132c85323cd5c419c13964b27c31eec56c66271e63ecb33f6d4a3c7e
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+review_date: 2026-10-13
+review_fingerprint: 54b8c8bc9fe766b0db2038f267ccca803c1c95aa3213afb54168ec17a715fac2
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 24
-- Selected: 6
+- Records: 23
+- Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 16
@@ -34,21 +34,6 @@ factual_fingerprint: 956dfe297433d55e402f7a0686a00c275a1393470d518b5732670935f16
 source: Teaching Vacancies
 source_job_id: admin-clerical-officer-level-2-rowan-school-the-rowan-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-clerical-officer-level-2-rowan-school-the-rowan-school
----
-
----
-action: 
-SELECTED | Yorkshire - South | Rotherham, Yorkshire and the Humber, S60 3LX | £27,274.00 - £28,153.00 Annually (FTE) TTO plus 5 training days - actual salary £23,459 - £23,442 | Attendance and Attendance Officer
-employer: Newman School
-closing_date: 2026-10-13T09:00:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 667345ad47ec8c73600b47dca6317475ce525aec797fa28ba8d74cb5104aa33d
-source: Teaching Vacancies
-source_job_id: attendance-and-attendance-officer
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-attendance-officer
 ---
 
 ---
@@ -149,8 +134,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-admin-suppor
 
 ## HARD_PASS
 
-- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-st-thomas-more-catholic-primary-a-voluntary-academy) — Insufficient admin/service evidence.
+- [Administrative Office Manager](https://teaching-vacancies.service.gov.uk/jobs/administrative-office-manager-hcat) — Manager title salary ceiling £33,699 is not below £28,000.
 - [Business Support Manager](https://teaching-vacancies.service.gov.uk/jobs/business-support-manager-beck-primary-school-sheffield-south-yorkshire) — Manager title salary ceiling £40,921 is not below £28,000.
+- [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-peak-edge-sheffield-not-recorded) — Insufficient admin/service evidence.
 - [Finance & Admin Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-admin-manager-171240df-359e-4c34-b77f-8c67e1ee2d06) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-800b81f8-109d-4857-8ee1-281e2de5e328) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-minerva-learning-trust) — Insufficient admin/service evidence.
@@ -160,7 +146,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-admin-suppor
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-misson-primary-school) — Manager title salary ceiling £33,699 is not below £28,000.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-gooseacre-primary-academy) — Manager title salary ceiling £39,773 is not below £28,000.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-42e231a7-dcef-4bf5-a3d7-0eb145f4ac02) — Insufficient admin/service evidence.
-- [Safeguarding and Welfare Officer](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-and-welfare-officer-newman-school) — Insufficient admin/service evidence.
 - [Senior Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-manager-minerva-learning-trust) — Manager title salary ceiling £58,557 is not below £28,000.
 - [Senior Management Account / Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/senior-management-account-head-of-finance) — Insufficient admin/service evidence.
 - [Sports Centre and Lettings Supervisor](https://teaching-vacancies.service.gov.uk/jobs/sports-centre-and-lettings-supervisor) — Insufficient admin/service evidence.

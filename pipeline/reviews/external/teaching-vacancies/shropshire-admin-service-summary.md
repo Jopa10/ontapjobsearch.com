@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Shropshire
 
-review_date: 2026-10-12
-review_fingerprint: 0b39079ed1382fe57d56157b565d07cc15a54f711bf5946571d6b65315b8b9cf
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+review_date: 2026-10-13
+review_fingerprint: f444900ea47c322ec9f4e1f1e484c2fb5142ba0abde5ced5c4662712b2b3998a
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: Shropshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 2
+- Records: 5
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
@@ -49,6 +49,21 @@ factual_fingerprint: 3f3de6b78548a4751ddb49f44f2298fe4cadd703eb8544cbb16417a2b55
 source: Teaching Vacancies
 source_job_id: administrative-assistant-reprographics-student-services
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-reprographics-student-services
+---
+
+---
+action: 
+SELECTED | Shropshire | Telford, West Midlands, TF3 1LG | £17,488.00 - £17,722.00 Annually (Actual) Term time plus PD Days | Reception Administrator
+employer: Windmill Primary School
+closing_date: 2026-11-04T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: dd43b9c0715fd8dce346da963b80b8239301e57420cbd8c21a9b7a7d9a7741b0
+source: Teaching Vacancies
+source_job_id: reception-administrator-windmill-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-administrator-windmill-primary-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

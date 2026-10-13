@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-10-12
-review_fingerprint: 4588d165a4174f5bb7bf5e501b4f365e6e933597bbfa8af2444fd6b838ba6620
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+review_date: 2026-10-13
+review_fingerprint: 7b56acad187d64b63dbc38faf73dd3b0de4dbd5e6a665457a60271c45b3ad25d
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
+- Records: 17
 - Selected: 5
-- POSS awaiting decision: 3
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 10
 
@@ -111,21 +111,6 @@ factual_fingerprint: fc084c4162b08eed2b4c8d16ea3fbdf2724d8a3d62be53a33da8a0b749b
 source: Teaching Vacancies
 source_job_id: hr-assistant-east-durham-college
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-east-durham-college
----
-
----
-action: 
-POSS | North East | South Shields, North East, NE34 0QA | £22,768.00 Annually (Actual) Band 4 SCP 6 (pending the outcome of Job Evaluation) | Pastoral Administration Assistant
-employer: St Wilfrid's RC College
-closing_date: 2026-10-12T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b83a086215ad4bc74e1cc839eb8bd5dc6c64b9be10c084ffaebe27f1d8c2ef5a
-source: Teaching Vacancies
-source_job_id: pastoral-administration-assistant-st-wilfrid-s-rc-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administration-assistant-st-wilfrid-s-rc-college
 ---
 
 ---

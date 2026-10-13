@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-10-12
-review_fingerprint: 654fa716950d3772fc3ecb81b30610d5d766a2fd8a824daa174d4590d391d4b4
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+review_date: 2026-10-13
+review_fingerprint: 6b93011948b7c15ee80a519b4012200c82c9ae307e0c0515ad6657097207f2a0
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 4
+- Records: 11
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 6
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Essex | Buckhurst Hill, East of England, IG9 6DS | £22,646.00 Annually (Actual) | Admin Assistant
+employer: Buckhurst Hill Community Primary School
+closing_date: 2026-11-02T23:59:00+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: fa55814e94e2cd7588fa129cc1457f86713a7c645fe5df39f2390cb7e26dd782
+source: Teaching Vacancies
+source_job_id: admin-assistant-buckhurst-hill-community-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-buckhurst-hill-community-primary-school
+---
 
 ---
 action: 
@@ -94,8 +109,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrative-a
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-colne-community-school) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-88731512-4f32-446c-b927-3ff9b578aae5) — Insufficient admin/service evidence.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-mossbourne-port-side-academy) — Insufficient admin/service evidence.
-- [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-harlow-college) — Insufficient admin/service evidence.
-- [Senior HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-25bac6ce-5943-4c6e-9e63-670d8e460c1b) — Insufficient admin/service evidence.
 - [STUDENT ATTENDANCE AND INCLUSION MANAGER](https://teaching-vacancies.service.gov.uk/jobs/student-attendance-and-inclusion-manager-503e1cdc-f886-497b-8b9a-ca3c1f6b7938) — Manager title without salary evidence below £28,000.
 - [Support Manager](https://teaching-vacancies.service.gov.uk/jobs/support-manager-little-thurrock-primary-school) — Manager title salary ceiling £33,495 is not below £28,000.
 - [Trust Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-discovery-educational-trust) — Insufficient admin/service evidence.

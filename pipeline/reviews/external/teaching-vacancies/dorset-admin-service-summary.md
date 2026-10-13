@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-10-12
-review_fingerprint: c6183e1c0c5a389b217807e11fc8927527a059839a9b85ff265ad0855b99a722
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+review_date: 2026-10-13
+review_fingerprint: 85ddd02be912564d0ca30ea67bc084eff39f533ad641590881cd428a2735f0db
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: LIVE
@@ -23,17 +23,17 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Dorset | Bournemouth, South West, BH8 9PW | Full time, Term Time Only plus two weeks contract (41 weeks per annum) . Actual - £26,466.48 (The Full Time Equivalent is £30,078). | PA to Leadership Team
-employer: The Bishop of Winchester Academy
-closing_date: 2026-10-12T23:59:00+01:00
-reason: Clear admin/service title: pa to
+SELECTED | Dorset | Ferndown, South West, BH22 9UP | £26,427 per annum | Receptionist & Admin Assistant
+employer: Ferndown Middle School
+closing_date: 2026-11-01T09:00:00+00:00
+reason: Clear admin/service title: admin assistant, receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: b2ce24b087b5a67ee66b3371b036f445024df066864c2fb5f98827786ac1d178
+factual_fingerprint: 1d50084ed9c7497880b40ee3ff058bf4a37e48a0cd934b5705d2524bcbb6a863
 source: Teaching Vacancies
-source_job_id: pa-to-leadership-team-83fa491b-26bc-45d1-a318-ca6280f814e2
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-leadership-team-83fa491b-26bc-45d1-a318-ca6280f814e2
+source_job_id: receptionist-admin-assistant-ferndown-middle-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-ferndown-middle-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-10-12
-review_fingerprint: 8ff0edeabb6d975c855b19dd4362abb8e0740ad9e9eb7863ac601d8a6825b0ba
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+review_date: 2026-10-13
+review_fingerprint: 4ed019ee4359aefcca483c42a6647c0160d9096ea3780eb60473b8a295ad5610
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 4
-- POSS awaiting decision: 2
+- Records: 9
+- Selected: 3
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -49,21 +49,6 @@ factual_fingerprint: 904ec2abd8e6eaa4072f105db10cd14cd0d775e55dce020e4e606bcd6db
 source: Teaching Vacancies
 source_job_id: exams-officer-chorlton-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-chorlton-high-school
----
-
----
-action: 
-SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M44 5ZR | £24,947.00 - £28,090.00 Annually (FTE) | Receptionist
-employer: Irlam and Cadishead Academy
-closing_date: 2026-10-16T12:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a792367ab5646c645b06cce1d4cbf468df21a679e383214d4cc0df1170e9b8f6
-source: Teaching Vacancies
-source_job_id: receptionist-irlam-and-cadishead-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-irlam-and-cadishead-academy
 ---
 
 ---
@@ -113,6 +98,21 @@ source_job_id: reception-and-administration-assistant-didsbury-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-administration-assistant-didsbury-high-school
 ---
 
+---
+action: 
+POSS | Greater Manchester - Manchester & Salford | Manchester, North West, M44 5ZR | £24,947.00 - £28,090.00 Annually (FTE) | Receptionist
+employer: Irlam and Cadishead Academy
+closing_date: 2026-10-15T12:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c87578d0c2925c48ca7ba716864524b01c37a9e7c88b9579b5e8330621c94e2b
+source: Teaching Vacancies
+source_job_id: receptionist-irlam-and-cadishead-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-irlam-and-cadishead-academy
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -121,6 +121,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-adminis
 
 - [Apprentice Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/apprentice-finance-assistant-37) — Insufficient admin/service evidence.
 - [First Aid, Medical and Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/first-aid-medical-and-administration-assistant) — Insufficient admin/service evidence.
+- [HR Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-operations-manager-levenshulme-high-school) — Manager title salary ceiling £42,123 is not below £28,000.
 
 ## Safety boundary
 

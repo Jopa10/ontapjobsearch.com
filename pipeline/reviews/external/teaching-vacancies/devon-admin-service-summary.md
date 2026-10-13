@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-10-12
-review_fingerprint: a3e7cd9f10f1df098fff8b90ba85792112ad3c64a54b76e42b7579f5af3c1139
-routing_manifest_sha256: d7555011eade5f82839e78f6a126ae8a0bd6ebed901b4a3827a984999d8b08d5
+review_date: 2026-10-13
+review_fingerprint: d0b64cc189bf0ddca52344e60a16ed22cea6c26b1913798b94184b3f49a8aed4
+routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
-- Selected: 6
-- POSS awaiting decision: 4
+- Records: 17
+- Selected: 4
+- POSS awaiting decision: 5
 - Excluded: 0
 - Hard pass: 8
 
 ## SELECTED
-
----
-action: 
-SELECTED | Devon | Newton Abbot, South West, TQ12 2NF | £26,847.00 - £27,274.00 Annually (FTE) Actual salary: £12,715 salary p.a. Working hours: 09:30 – 14:00 Monday to Friday inclusive with a half hour unpaid break for lunch on each day. | Administrative Assistant
-employer: Newton Abbot College
-closing_date: 2026-10-13T09:00:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: fa3e4a08600fd7b03bc7027f0647856e642892d82ad6f06d0281851a49517aeb
-source: Teaching Vacancies
-source_job_id: administrative-assistant-newton-abbot-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-newton-abbot-college
----
 
 ---
 action: 
@@ -96,21 +81,6 @@ source_job_id: people-administrator-dartmoor-multi-academy-trust-okehampton-not-
 source_url: https://teaching-vacancies.service.gov.uk/jobs/people-administrator-dartmoor-multi-academy-trust-okehampton-not-recorded
 ---
 
----
-action: 
-SELECTED | Devon | Plymouth, South West, PL1 5QG | Part Time | Permanent | £21,437 Per Annum (Pro Rata of £26,440 Per Annum) | Student Funding Administrator
-employer: City College Plymouth
-closing_date: 2026-10-14T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f2a1d181a0c11b29013950b5a04f356c5bb258344804305c4aca1d91b129d365
-source: Teaching Vacancies
-source_job_id: student-funding-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/student-funding-administrator
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -156,6 +126,21 @@ factual_fingerprint: 5be19a2da44e51cffad1ba88593a7745ea6c633e6ba75475c8a5fd52ee5
 source: Teaching Vacancies
 source_job_id: senior-pupil-services-officer-all-saints-church-of-england-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-all-saints-church-of-england-primary-school
+---
+
+---
+action: 
+POSS | Devon | Exeter, South West, EX2 4NQ | £27,709.00 - £29,070.00 Annually (FTE) | Senior Pupil Services Officer
+employer: St Leonard's (CofE) Primary School
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 866de006dccaa5c4efed64edbe5238dcb3dd8fa022469e7ea0701fb14cf2fa75
+source: Teaching Vacancies
+source_job_id: senior-pupil-services-officer-d836b97e-d543-4359-8f2f-78b5b637bc06
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-d836b97e-d543-4359-8f2f-78b5b637bc06
 ---
 
 ---
