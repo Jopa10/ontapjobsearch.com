@@ -67,7 +67,7 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173530
 ## POSS — choose SELECT or EXCLUDE
 
 ---
-action:
+action: exclude
 POSS | North East - Tyneside, Wearside & Northumberland | Gateshead | £33,323 Per Annum | Business Support Coach
 employer: Society Matters CIC
 closing_date: 02 November 2026
@@ -80,7 +80,7 @@ source_job_id: 173500
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173500
 ---
 ---
-action:
+action: exclude
 POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £28,366 to 31,518 Pro Rata | Grant Holder Support Officer
 employer: Voluntary and Community Action Sunderland
 closing_date: Monday, October 26, 2026 - 17:00
@@ -93,7 +93,7 @@ source_job_id: 173508
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173508
 ---
 ---
-action:
+action: exclude
 POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £28,366 to 31,518 Pro Rata | Grant Holder Support Officer
 employer: Inspire South Tyneside
 closing_date: Monday, October 26, 2026 - 17:00
@@ -106,7 +106,7 @@ source_job_id: 172176
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=172176
 ---
 ---
-action:
+action: exclude
 POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £28,366 to 31,518 Pro Rata | Grant Holder Support Officer
 employer: North Tyneside VODA
 closing_date: Monday, October 26, 2026 - 17:00
@@ -119,7 +119,7 @@ source_job_id: 173497
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173497
 ---
 ---
-action:
+action: exclude
 POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £30,303 to 35,781 Per Annum | Housing Coordinator
 employer: The Angelou Centre
 closing_date: Saturday, October 31, 2026 - 05:00
@@ -132,7 +132,7 @@ source_job_id: 173522
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173522
 ---
 ---
-action:
+action: exclude
 POSS | North East - Tyneside, Wearside & Northumberland | South Tyneside | £15 Per Hour | Project Lead (STARCH)
 employer: Churches Together in South Tyneside
 closing_date: 30 October 2026
@@ -145,7 +145,7 @@ source_job_id: 173401
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173401
 ---
 ---
-action:
+action: exclude
 POSS | North East - Tyneside, Wearside & Northumberland | Hybrid | £ | Social Welfare Adviser
 employer: Citizens Advice Gateshead
 closing_date: 23 October 2026
@@ -158,7 +158,7 @@ source_job_id: 173531
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173531
 ---
 ---
-action:
+action: exclude
 POSS | North East - Tyneside, Wearside & Northumberland | Gateshead | £50,565 Per Annum | Solicitor
 employer: Citizens Advice Gateshead
 closing_date: 30 October 2026
