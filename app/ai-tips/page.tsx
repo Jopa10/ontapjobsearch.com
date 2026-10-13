@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import AiTipsReturnLink from "@/components/AiTipsReturnLink";
-import { getAiTipsSourceBySlug } from "@/lib/ai-tips-sources";
 
 const canonicalUrl = "https://www.ontapjobsearch.com/ai-tips";
 
@@ -59,14 +58,7 @@ const tips = [
   },
 ];
 
-export default async function AiTipsPage({
-  searchParams,
-}: {
-  searchParams: Promise<{ from?: string | string[] }>;
-}) {
-  const params = await searchParams;
-  const from = typeof params.from === "string" ? params.from : undefined;
-  const source = from ? getAiTipsSourceBySlug(from) : undefined;
+export default function AiTipsPage() {
 
   return (
     <main className="mx-auto max-w-5xl px-5 py-10 sm:px-6 sm:py-14">
@@ -84,10 +76,10 @@ export default async function AiTipsPage({
         </ol>
       </nav>
       <AiTipsReturnLink
-        href={source?.href ?? "/browse-jobs"}
-        label={source ? `← Back to ${source.label} jobs` : "Browse current jobs"}
-        sourceRegion={source?.regionSlug ?? "direct"}
-        destinationRegion={source?.regionSlug ?? "browse-jobs"}
+        href="/browse-jobs"
+        label="Browse current jobs"
+        sourceRegion="direct"
+        destinationRegion="browse-jobs"
       />
       <script
         type="application/ld+json"
