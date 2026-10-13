@@ -50,6 +50,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "108123691",
+    "title": "Credit controller - German Speaking",
+    "company": "Robert Walters - Agency - Permanent",
+    "location": "Bolton",
+    "region": "Greater Manchester - Wigan & Bolton",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "32000",
+    "salary_max": "32000",
+    "salary_text": "£32000 per year",
+    "posted_date": "2026-10-13",
+    "description": "German-Speaking Credit Controller\n\nLocation: Bolton - Hybrid Working\nContract: Full-Time, Permanent\n\nAbout the Company\n\nAn established, growing international business is looking for a motivated and ambitious individual to join its finance team. This is an excellent opportunity to work within a supportive environment that values teamwork, professional development and continuous improvement click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?6WDmO0cNttoxqAwoQZft6uaC88zWChXta",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "Credit controller - German Speaking German-Speaking Credit Controller Location: Bolton - Hybrid Working Contract: Full-Time, Permanent About the Company An established, growing international business is looking for a motivated and ambitious individual to join its finance team.",
+    "advertiser_name": "Robert Walters",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "2074928",
     "title": "FNOL Motor Claims Handler",
     "company": "MPJ Recruitment Ltd - Agency - Permanent",
@@ -73,5 +98,24 @@
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "nhs-5625936",
+    "source": "NHS Jobs",
+    "title": "Receptionist",
+    "company": "SSP Health",
+    "advertiser_name": "SSP Health",
+    "location": "Bolton, BL3 3PH",
+    "region": "Greater Manchester - Wigan & Bolton",
+    "salary": "£12.21",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-28T10:20:08.869151953",
+    "closing_date": "2026-10-15",
+    "description": "We are looking an experienced receptionist to join our friendly team In Bolton. As a member of frontline staff you will be the first point of contact for our service users and visitors. You will need to be non-judgemental with excellent communication and listening skills. Experience of working in General Practice is desirable. You will be working collaboratively and across sites where required with Bolton Medical Centre, Bolton General Practice, Shanti Medical Centre & 3D Medical Centre You must be able to deal objectively and professionally in a calm and approachable manner when liaising with patients, staff, healthcare professionals and outside agencies. Prioritising a busy workload, being a good team player and possessing the ability to deal with a wide range of clerical and administration duties in a busy environment is also required. Knowledge of the EMIS web system would be an advantage; full training and support would be offered to the successful applicant.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5035-26-0078",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5035-26-0078",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "posted_date_basis": "source"
   }
 ]

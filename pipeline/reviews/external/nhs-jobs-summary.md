@@ -2,15 +2,27 @@
 
 review_date: 2026-10-13
 
-- Open Administrative & Clerical rows reviewed: 2118
+- Open Administrative & Clerical rows reviewed: 2119
 - Auto/remembered selected: 367
 - Selected HC Tier A: 195
 - Selected HC Tier B: 172
-- POSS awaiting decision: 1652
+- POSS awaiting decision: 1653
 - Excluded: 0
 - HARD_PASS: 99
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Yorkshire - West | Leeds, LS1 3EX | £49387.00 to £56515.00 | Senior Network Engineer
+source_job_id: 5659106
+title: Senior Network Engineer
+employer: Leeds Teaching Hospitals
+region: Yorkshire - West
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-1111
+factual_fingerprint: 86f22b2207dc114686e2c0b7f8322faf89498353985938366e9c586b4c444416
+---
 
 ---
 action:
