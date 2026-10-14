@@ -486,11 +486,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9236-26-1149",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9236-26-1149",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5631270",
@@ -508,11 +504,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2664-30092026",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2664-30092026",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5655786",
@@ -530,10 +522,24 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1505-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1505-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
+  },
+  {
+    "job_id": "nhs-5640698",
+    "source": "NHS Jobs",
+    "title": "Medical Receptionist",
+    "company": "Hope Citadel Healthcare CIC",
+    "advertiser_name": "Hope Citadel Healthcare CIC",
+    "location": "Oldham, OL8 3TR",
+    "region": "Greater Manchester - North",
+    "salary": "£26227.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-05T08:59:16.221279217",
+    "closing_date": "2026-11-05",
+    "description": "We have a 30hour part time permanent position available. Working hours between Monday-Friday 8am-6:30pm. Do you want to have a job that helps people, and work with great colleagues? Then come and be part of our team. As a medical receptionist, and you will work as part of a team that complete the day to day tasks. You will complete daily, weekly, and monthly tasks and will multitask and prioritise to get this work done. You will support clinical staff and problem solve for patients and displace exceptional communication skills. The ideal candidate will have a positive and calm manner, be compassionate, patient and understanding, be well organised and able to work systematically and be able to follow procedures and protocols closely. They will have good IT skills and be brilliant with people. They will need to be able to work in a busy environment, being helpful and efficient when communicating with other staff and patients. Experience in a similar role is preferred. Manage a busy reception, handling patient face to face queries and dealing with incoming phone calls. To use the e-Referral system for referrals to hospitals and other care providers. To scan and file all correspondence into patients medical records using the docman system. To triage all clinical correspondence and workflow necessary documents to clinicians. Code all relevant clinical information into patients medical records. To make, cancel and amend appointments. To establish an effective recall system for patients to include QOF recalls, childhood immunisations, smears and flu vaccinations. To process all insurance and solicitor reports in a timely manner. To process copies of medical requests for patients and insurance companies in a timely manner. To complete all tasks in workflow manager to include deductions, GP2GP etc. To efficiently deal with tasks from GPs, nurses and other staff. Work safely at all times in accordance with Legislative requirements and Practice Policy and Procedures. To promote the ethos and vision of Hope Citadel Healthcare within the practice include staff, visitors and patients; through the provision of quality whole person healthcare. To attend and participate in any meetings required by the company, including practice meetings, and any applicable training.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0212-26-0048",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0212-26-0048",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B"
   }
 ]

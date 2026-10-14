@@ -1035,11 +1035,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9839-26-0400",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9839-26-0400",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5642277",
@@ -1057,11 +1053,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4266-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4266-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5635640",
@@ -1079,11 +1071,25 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0977-011026",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0977-011026",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
+  },
+  {
+    "job_id": "nhs-5665007",
+    "source": "NHS Jobs",
+    "title": "Business Support Officer",
+    "company": "James Paget University Hospitals NHS Foundation Trust",
+    "advertiser_name": "James Paget University Hospitals NHS Foundation Trust",
+    "location": "Gorleston, Great Yarmouth, NR31 6LA",
+    "region": "Norfolk",
+    "salary": "£28392.00 to £31157.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-14T15:49:42.465098332",
+    "closing_date": "2026-10-28",
+    "description": "The post holder will, in conjunction with the Business Support Manager, be responsible for the creation of medical departmental rotas within the Division of Medicine, Diagnostics and Clinical Support Services. This will involve close liaison with key stakeholders and understanding the demands and complexities of each service in order to support the provision of cost-efficient medical rotas. The post holder will play a pivotal role in ensuring appropriate internal locum cover and reducing the reliance on external medical agency usage. It will be an expectation of the role that the post holder will provide additional administrative duties for the Division on an ad hoc basis. Liaising with senior medical staff within the Trust and Division to plan rotas in advance, creating rotas and allocating the doctors to the appropriate slots to ensure all clinical areas have safe and efficient levels of medical cover. Ensuring rotas are maintained accurately and are consistently up to date. Liaising with junior and senior medical staff on a regular basis to facilitate the smooth and efficient running of all rotas. Liaising with Medical Staffing to be aware of the incoming junior medical staff which are rotating into the Division. Assessing leave requests to enable rotas to be developed in a timely way. Ensuring that contact details for each doctor taking part in the rotas are up to date and accurate. Keeping an overall record of all Junior Doctors and their programmed activities. Ensuring that the rotas and any subsequent changes remain compliant and that doctors do not breach the 2016 Terms and Conditions for Junior Doctors and European Working Time Directive Regulations. Ensuring rotas are circulated in a timely manner to key staff throughout the Trust with changes to any published rota being effectively communicated to the necessary staff. Consistently working in close partnership with the Medical HR Officers aligned to the Division to ensure transparency of issues and robust solutions through recruitment. Identifying gaps in the rotas where cover is necessary e.g. for sickness absence, arranging locum cover, in the first instance, internally with other doctors on the rota and the relevant Consultants, to ensure cover is provided to maintain clinical safety to patients. Where internal cover is not forthcoming, liaising directly with the Temporary Staffing to book an external locum. Keeping a track of all gaps and who has covered them, and managing locum claim forms as necessary. Familiarise yourself with the 2016 Junior Doctor Contract Terms and Conditions and continually prevent exception reports. Keep fully up to date with all rules and regulation of the New Deal and Working Time Directive. Support on-going projects concerning junior doctors hours of work, research new developments and provide information for managers and specialities where required.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9177-26-0424",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9177-26-0424",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5631108",
@@ -1101,11 +1107,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4737-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4737-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5572899",
@@ -1123,10 +1125,6 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0782",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0782",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   }
 ]

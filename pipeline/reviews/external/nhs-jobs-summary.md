@@ -2,15 +2,51 @@
 
 review_date: 2026-10-14
 
-- Open Administrative & Clerical rows reviewed: 2379
-- Auto/remembered selected: 414
+- Open Administrative & Clerical rows reviewed: 2382
+- Auto/remembered selected: 415
 - Selected HC Tier A: 218
-- Selected HC Tier B: 196
-- POSS awaiting decision: 1861
+- Selected HC Tier B: 197
+- POSS awaiting decision: 1863
 - Excluded: 0
 - HARD_PASS: 104
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Worcestershire | Redditch, B97 5JX, REDDITCH, B98 7UB, WORCESTER, WR5 1DD | £31011.64 | Out Of Hours Team Leader
+source_job_id: 5664963
+title: Out Of Hours Team Leader
+employer: Vertis Health
+region: Worcestershire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0158-26-0132
+factual_fingerprint: 16c110fe3e727cabc7bb419edb39f89aa9cd03eebff19662c7abd8dbbb206f8f
+---
+
+---
+action:
+POSS | NHS Jobs | North East - Tees Valley | Stockton-on-Tees, TS19 8PE | £25760.00 to £27476.00 | Endoscopy Booking/Clerical Officer
+source_job_id: 5665020
+title: Endoscopy Booking/Clerical Officer
+employer: North Tees & Hartlepool NHS Foundation Trust
+region: North East - Tees Valley
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9345-26-0417
+factual_fingerprint: cfddca1fa2788087c95053c0380f7e0c2859211a961ca0273594b334c4d20bbd
+---
+
+---
+action:
+POSS | NHS Jobs | Bristol & Bath | Bristol, BS10 6NL | £32073.00 to £39043.00 | Community Nursing Administration Support Manager
+source_job_id: 5665019
+title: Community Nursing Administration Support Manager
+employer: St Peter’s Hospice
+region: Bristol & Bath
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0163-26-0025
+factual_fingerprint: 61509a6732df3a5e1222b901f4e0dcf78da3149441edd944c3093cedeb2ced3f
+---
 
 ---
 action:
@@ -19534,18 +19570,6 @@ region: West Midlands - Black Country
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0138-26-0001
 factual_fingerprint: 85ecca444325a5b69ffdc15840ab44ea829b0211c57b681026c5b2fd761ae568
----
-
----
-action:
-POSS | NHS Jobs | Bedfordshire | Bedford, MK42 9DJ | £25272.00 | Stores Porter
-source_job_id: 5631298
-title: Stores Porter
-employer: Bedfordshire Hospitals NHS Foundation Trust
-region: Bedfordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9418-26-0997
-factual_fingerprint: 9a6fa142f3b750d75d5c6ece987e0b64835dd25a987f4afd804c68488b478ba3
 ---
 
 ---
