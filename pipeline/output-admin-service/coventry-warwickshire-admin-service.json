@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Finham Park 2",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-administrative-assistant-finham-park-2",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Finham Park 2",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-receptionist-and-administrator-2-days-per-week",
@@ -69,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Kenilworth School and Sixth Form",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225702322",
@@ -1187,7 +1199,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5997-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5997-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5656280",
@@ -1205,7 +1221,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5837-26-0013",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5837-26-0013",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5657937",
@@ -1223,7 +1243,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1546-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1546-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5647678",
@@ -1241,6 +1265,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0268-26-0030",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0268-26-0030",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

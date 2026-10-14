@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Woldgate School and Sixth Form College",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-school-administrator-saltergate-junior-school-harrogate-north-yorkshire",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Saltergate Junior School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-senior-administrator-a7025ffa-8f1a-4ca4-8107-74ae6341f075",
@@ -69,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Braeburn Primary and Nursery Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-send-administrator-george-pindar-school-scarborough",
@@ -93,7 +105,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "George Pindar School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "2076479",
@@ -971,6 +987,28 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "nhs-5665026",
+    "source": "NHS Jobs",
+    "title": "Ward Clerk",
+    "company": "York and Scarborough Teaching Hospitals NHS Foundation Trust",
+    "advertiser_name": "York and Scarborough Teaching Hospitals NHS Foundation Trust",
+    "location": "York, YO31 8HE",
+    "region": "Yorkshire - North",
+    "salary": "£25272.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-14T15:53:58.543384287",
+    "closing_date": "2026-10-28",
+    "description": "We have an exciting opportunity to join our dynamic team as a Ward Clerk on Ward 36, supporting Gastroenterology and Hepatology within the Medicine Care Group. You will a play vital role in ensuring the smooth operation of our ward. As a key member of the administrative team, you'll be responsible for managing patient records, coordinating appointments and providing essential support to healthcare professionals. This position requires excellent organisational skills, attention to detail and the ability to work efficiently in a fast paced environment. This vacancy is part time - 15 hours per week, working Monday and Tuesday, 08:30 - 16:30. If you are a compassionate individual with strong communication skills and a commitment to patient care, we'd love to hear from you! Interested applicants must have excellent communication skills, be a good team player and enjoy meeting and working with the public. Basic computer skills are also a requirement for the job and NHS experience would be an advantage, however, full training will be given to the successful applicant on use of the hospital computer systems. The successful applicant will be expected to cover all admin support for the wards and units. Previous applicants need not apply. A full description of the role is available in the attachment: job description. Please note that if a high number of applications are received this advert may close early. You are advised to submit your application at the earliest opportunity. Working for the Trust Across our organisation, people are guided by values that were co-developed with staff: we are kind; we are open; and we pursue excellence. Our values play into our ambition to develop a more diverse workforce, truly representative of our communities. We welcome applications from everyone, while working with our Staff Networks - including our Race Equality, LGBTQ+, Disability and Carers Networks - to increase the number of applications we receive from different backgrounds. If there is anything we can do to make our application process more accessible to you, please contact: yhs-tr.recruitment@nhs.net. As part of seeking to become more inclusive, we will consider requests for flexible working from the start of your employment. It may not be suitable for every role, but we will try and be supportive where we can. We would encourage you to speak to the recruiting manager named within this advert to discuss any requirements you may have. Armed Forces Friendly Employer We are holders of the Gold Award from the Defence Employer Recognition Scheme, which is helping actively promote SaBRE - Supporting Britains Reservists and Employers. This means that we have made a statement of intent to support all Defence personnel, including with applications for employment.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9419-26-0849",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9419-26-0849",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5655930",
     "source": "NHS Jobs",
     "title": "Clinical Team Administrator",
@@ -986,7 +1024,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1251",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1251",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5655371",
@@ -1004,7 +1046,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3172-26-0024",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3172-26-0024",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5649706",
@@ -1022,7 +1068,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1230",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1230",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5651232",
@@ -1040,6 +1090,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4014-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4014-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

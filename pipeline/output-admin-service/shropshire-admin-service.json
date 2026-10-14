@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Marches School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-reception-administrator-windmill-primary-school",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Windmill Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-administrative-assistant-radbrook-primary-school",
@@ -69,7 +77,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Radbrook Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225626801",
@@ -422,6 +434,56 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "108113495",
+    "title": "Credit Controller",
+    "company": "Prince Personnel Limited - Agency - Permanent",
+    "location": "Shropshire",
+    "region": "Shropshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "13.85",
+    "salary_max": "13.85",
+    "salary_text": "£13.85 per hour",
+    "posted_date": "",
+    "description": "Credit Controller\n\nTelford\n\nTemp to Perm\n\nWorking hours - 9am - 5:30pm\n\nSalary - £13.85 per hour\n\nPrince Personnel is working with a well-established Telford business seeking a Credit Controller on a temp to perm basis. It is working in a very busy fast paced team.\n\nYou will be responsible for:\n- Liaising with customers via telephone and email to resolve overdue accounts\n- Work with an assigned account base to maxi click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBYPEea%2fMgW%2btTakGTwWNwm0k",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Prince Personnel Limited",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225724224",
+    "title": "BMW Sales Administrator",
+    "company": "Sytner - Company - Permanent",
+    "location": "Shropshire",
+    "region": "Shropshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "",
+    "posted_date": "",
+    "description": "About the role\n\nSytner Shrewsbury is looking for a highly motivated and hardworking Sales Administrator to join their fantastic team.\n\nAs a Sytner Sales Administrator, you will provide exceptional administrative support to our sales team by assisting with file auditing, trade transfers and other ad-hoc duties. In this role, you will work closely with the Dealership Accountant, Sales Department and many members of the management team. You will be responsible for delivering excellent customer service whilst dealing with incoming enquiries from our customers in a prompt manner.\n\nSytner Sales Administrators work a variety of flexible patterns which can typically include weekends to ensure we provide our customers with the highest possible levels of service.\n\nAbout you\n\nPrevious experience in an administrative role is advantageous along with proficient IT skills; however, no specific industry experience is required.\n\nWe are looking for an individual who is committed to providing excellent customer service and thrive in a busy, high pressurised environment.\n\nIdeally, you will be extremely organised, confident, have great attention to detail and be willing to go that extra mile. The passion to prioritise customer satisfaction at all times is crucial in this role.\n\nWhy Sytner?\n\nSytner Group are delighted to provide an industry-leading benefits package.\n\nWe are passionate about continuous improvement and building an environment where everyone feels valued, appreciated and able to reach their full potential.\n- Enhanced Holiday Entitlement 33 days inc. bank holidays\n- Industry-leading Maternity, Paternity and Adoption Pay\n- Career Development\n- Recognition of Long Service every 5 years\n- Discounted Car Schemes\n- High Street Discounts\n- Discounted Gym memberships\n- Cycle to work scheme\n- One day a year paid voluntary / community work\n\nAt Sytner, our values and the way we behave are important to us. We are committed to creating an equitable working environment where we value and respect every individual's unique contribution, supporting our colleagues to thrive and achieve their full potential.\n\nAs part of our commitment to Diversity and Inclusion, you have the right to ask for changes / adjustments to job interviews and the recruitment process. For more information around reasonable adjustments and the recruitment process please click here.\n\nUnsure? Read on\n\nWe represent over 23 of the world's most prestige vehicle brands, across our 140 UK dealerships.\n\nWe pride ourselves on Developing Talent and Building Careers and our colleagues recently scored Sytner Group an outstanding 89% on our colleague engagement survey.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX5u3EdVzBGA6Qcm1CitWD5Tz",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Sytner",
+    "advertiser_type": "Company",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "2078865",
     "title": "Project Coordinator",
     "company": "Consula Group LTD - Agency - Permanent",
@@ -487,6 +549,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1149-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1149-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

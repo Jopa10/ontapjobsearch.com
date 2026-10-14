@@ -2,15 +2,111 @@
 
 review_date: 2026-10-14
 
-- Open Administrative & Clerical rows reviewed: 2382
-- Auto/remembered selected: 415
-- Selected HC Tier A: 218
-- Selected HC Tier B: 197
-- POSS awaiting decision: 1863
+- Open Administrative & Clerical rows reviewed: 2390
+- Auto/remembered selected: 416
+- Selected HC Tier A: 217
+- Selected HC Tier B: 199
+- POSS awaiting decision: 1870
 - Excluded: 0
 - HARD_PASS: 104
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Gloucestershire | Tewkesbury, GL20 5GJ | £13.00 to £14.00 | PCN Business Support Assistant
+source_job_id: 5665035
+title: PCN Business Support Assistant
+employer: TWNS PCN
+region: Gloucestershire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4304-26-0003
+factual_fingerprint: c4241439c028092abf88d93a50c133fafd9075e58eb339cb5281cfc6eda2ac36
+---
+
+---
+action:
+POSS | NHS Jobs | Hampshire | Southampton, SO30 2UN | £39959.00 to £48117.00 | Study Support Service Facilitator
+source_job_id: 5659994
+title: Study Support Service Facilitator
+employer: University Hospital Southampton NHS Trust
+region: Hampshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9188-26-0920
+factual_fingerprint: f1cd3a214c9ed4ff551c87d2734546a30dbf09806ab9ae9b1f1cb0d4c0135bb9
+---
+
+---
+action:
+POSS | NHS Jobs | London | Romford, RM1 3LS | Negotiable | Care Coordinator - Marshall PCN
+source_job_id: 5665122
+title: Care Coordinator - Marshall PCN
+employer: Healthbridge Direct
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0285-26-0036
+factual_fingerprint: 8bc562e65a4b71c5802cbb872a20169f8afafb669bd8dd8681b852d80356ee4d
+---
+
+---
+action:
+POSS | NHS Jobs | Wiltshire | Salisbury, SP2 8BJ | £25760.00 to £27476.00 | Booking Coordinator
+source_job_id: 5665051
+title: Booking Coordinator
+employer: Salisbury NHS Foundation Trust
+region: Wiltshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9269-26-0376
+factual_fingerprint: 2a7a7dab0fb26029382c91699e1cb0be7aec8888a750fe57b6780b8d3b6727ad
+---
+
+---
+action:
+POSS | NHS Jobs | London | Brixton, SW9 8DG | £38488.00 to £46852.00 | Data Administrator/Analyst
+source_job_id: 5665084
+title: Data Administrator/Analyst
+employer: South London and Maudsley NHS Foundation Trust
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9334-26-0997
+factual_fingerprint: d21d82e90737b9bcd2bad9287b36ba416209c98989a00a59e1006960d54d7423
+---
+
+---
+action:
+POSS | NHS Jobs | Wiltshire | Salisbury, SP2 8BJ | £25272.00 | Support Booking Coordinator - Central Booking
+source_job_id: 5664976
+title: Support Booking Coordinator - Central Booking
+employer: Salisbury NHS Foundation Trust
+region: Wiltshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9269-26-0369
+factual_fingerprint: e1941c325fa440ba83e53d079b225be32b12326b2b220c7da5f3932fc9df0e53
+---
+
+---
+action:
+POSS | NHS Jobs | — | Huyton, L36 3SD | £49387.00 to £56515.00 | Management Accountant
+source_job_id: 5664797
+title: Management Accountant
+employer: Mersey and West Lancashire Teaching Hospitals NHS Trust
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9409-26-1043
+factual_fingerprint: a33539125d3e9a2701bf74c2b71acb1e12b2233ebb0df897f0a4385c12a829b6
+---
+
+---
+action:
+POSS | NHS Jobs | Merseyside - Liverpool | Liverpool, L8 7SS | £25760.00 to £27476.00 | Sub-Specialty Appointment Co-Ordinator
+source_job_id: 5665047
+title: Sub-Specialty Appointment Co-Ordinator
+employer: Liverpool Women's NHS Foundation Trust
+region: Merseyside - Liverpool
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9159-26-0172
+factual_fingerprint: 989266b922349e05bafd012f1d78a3eb6409d96d8f80670df845ef7a5bcebcee
+---
 
 ---
 action:
@@ -2145,7 +2241,7 @@ employer: South West London and St Georges Mental Health NHS Trust
 region: 
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9294-26-0326
-factual_fingerprint: 238a5a913392a1bc075188b2de4b1cb256e702ecd586c35c4f6c44f198d51dfb
+factual_fingerprint: 21c9d33287273e03a2d6f2bbb27d89e93a65c7bd39c9e8b53b4d1d2d44f7d42d
 ---
 
 ---
@@ -4694,18 +4790,6 @@ factual_fingerprint: 8355626e123d2e8563e820a1d69cb6bac0fb19eee601be9c30eb9139280
 
 ---
 action:
-POSS | NHS Jobs | Kent | Maidstone, ME14 5NZ | £28392.00 to £31157.00 | Administrative Coordinator
-source_job_id: 5658972
-title: Administrative Coordinator
-employer: Kent and Medway Mental Health NHS Trust
-region: Kent
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0832
-factual_fingerprint: d0700950e41aa344185e42fa273894466a99b5f21ae375c3f97803d5557fdc71
----
-
----
-action:
 POSS | NHS Jobs | London | London, E14 5HJ | £121528.00 to £138529.00 | Clinical Director of Primary Care
 source_job_id: 5658949
 title: Clinical Director of Primary Care
@@ -6789,7 +6873,7 @@ employer: Chesterfield Royal Hospital NHS Foundation Trust
 region: Derbyshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9166-26-0372
-factual_fingerprint: 5d19759572d3a8dc38b39c228b1a137b7a0dc8d9d8b0387f6958b69a14b58b2e
+factual_fingerprint: 1a8b933cfb7c5aaaba258aa105d3b0eec7e65aee39e8f1d803cbcac1dc2d4016
 ---
 
 ---
@@ -12669,7 +12753,7 @@ employer: Acorns Children’s Hospice Trust
 region: West Midlands - Birmingham & Solihull
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0025-26-0059
-factual_fingerprint: c6d2086500d3ba79e1c719cd5a5fb7bd26855ea80e4a3a1d3fb9144fcbd95d22
+factual_fingerprint: d3958f8b5270600c3ae5c08fd0ddbe6a60b7244b58c86a8336419237c182224e
 ---
 
 ---

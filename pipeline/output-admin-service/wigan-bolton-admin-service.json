@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Westleigh School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-school-office-administrative-assistant-highfield-st-matthew-s-church-of-england-primary-school",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Highfield St Matthew's Church of England Primary School",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225616993",
@@ -248,31 +256,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225609677",
-    "title": "Service Advisor",
-    "company": "Auto Skills UK - Agency - Permanent",
-    "location": "Bolton",
-    "region": "Greater Manchester - Wigan & Bolton",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "36000",
-    "salary_text": "£28000 - £36000 per year",
-    "posted_date": "",
-    "description": "SERVICE ADVISOR\nLocation: Bolton\nSalary: Up to £28,000 Basic Salary OTE £36,000 Uncapped\nJob Type: Full-Time, Permanent\n\nLooking for a role where your customer service skills are recognised, your earning potential is rewarded, and your work-life balance is respected?\n\nThis is an excellent opportunity for an experienced Service Advisor to join a busy and successful dealership environment where customer satisfaction is at the heart of everything they do. With uncapped bonus potential, a supportive team culture, and a reduced Saturday rota following training, this role offers both financial reward and long-term career stability.\nIf you enjoy building customer relationships, managing a fast-paced workload, and being rewarded for delivering exceptional service, this could be the perfect next step in your automotive aftersales career.\n\nWHAT'S IN IT FOR YOU?\nUp to £28,000 Basic Salary\nUncapped OTE of £36,000\nMonday to Friday Working Hours\n1 in 2 Saturday Mornings, Reducing to 1 in 3 Following Training\nFull-Time, Permanent Position\nEstablished and Supportive Team Environment\nOngoing Training & Development\nCareer Progression Opportunities\nLong-Term Job Stability\n\nTHE ROLE\nAs a Service Advisor, you will be the key point of contact between customers and the workshop, ensuring every customer receives a professional and seamless service experience from booking through to vehicle collection.\n\nKey responsibilities include:\nManaging service and repair bookings efficiently\nCoordinating workshop loading to maximise productivity\nKeeping customers updated throughout the repair process\nIdentifying and upselling additional work where appropriate\nPromoting service plans, maintenance packages and special offers\nLiaising closely with technicians and the workshop team\nEnsuring all customer requirements are handled to a high standard\nDelivering exceptional customer service at every stage of the journey\n\nABOUT YOU\nWe're keen to hear from candidates who can demonstrate:\nPrevious experience as a Service Advisor within the automotive industry\nStrong customer service and communication skills\nProven experience upselling products, services or additional work\nExperience using Kerridge, 1 Link, Pinnacle or a similar Dealer Management System (DMS)\nThe ability to work effectively in a busy, fast-paced environment\nExcellent organisational and administrative skills\nA positive, professional and customer-focused attitude\nFull UK Manual Driving Licence (subject to licence checks)\n\nAlternative job titles may include: Service Advisor, Senior Service Advisor, Aftersales Advisor, Service Receptionist or Automotive Service Advisor.\n\nAPPLY TODAY\nThis is an excellent opportunity to join a successful automotive business that values its employees, rewards performance, and offers genuine opportunities for career development.\n\nIf you're an experienced Service Advisor looking for your next challenge, we'd love to hear from you.\n\nInterested in finding out more? Apply today or contact Howard at Auto Skills for a confidential discussion about this Service Advisor opportunity, quoting job reference 54039.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?31Q%2fsvDzOVZSXsvYmmAONK6Ss0dxZe9aj",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Auto Skills UK",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225645353",
     "title": "Installation Coordinator",
     "company": "The People Pod - Agency - Permanent",
@@ -463,7 +446,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5035-26-0078",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5035-26-0078",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5656125",
@@ -481,7 +468,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4671-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4671-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5645316",
@@ -499,7 +490,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2123-26-0015",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2123-26-0015",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5641488",
@@ -517,6 +512,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4253-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4253-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

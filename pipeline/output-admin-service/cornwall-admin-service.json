@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Camborne Science and International Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "teaching-vacancies-first-aid-administrator-newquay-tretherras",
@@ -45,7 +49,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Newquay Tretherras",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225717855",
@@ -248,31 +256,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225612671",
-    "title": "Operations Coordinator (Graduate/Junior)",
-    "company": "Ernest Gordon Recruitment Limited - Agency - Permanent",
-    "location": "Wadebridge",
-    "region": "Cornwall",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "26000",
-    "salary_max": "30000",
-    "salary_text": "£26000 - £30000 per year (flexi, bonus, progression)",
-    "posted_date": "",
-    "description": "Operations Coordinator (Graduate/Junior)\n26,000 - 30,000 + Progression + Training + Company Benefits\nWadebridge\nDo you have a background in Operations, Maintenance Coordination or a similar field and are looking to kickstart your career with a sustainable, growing business? Are you looking for a varied role that will develop your operational management skills, broaden your experience across multiple functions and offer clear opportunities for internal progression?\nOn offer is the opportunity to join a company at the forefront of delivering environmentally sustainable engineering solutions across the UK. This entry-level role will allow you to build on your existing knowledge, develop new skills and grow alongside an expanding business.\nIn this office based role you will support the day-to-day operation and maintenance of renewable energy sites, coordinating planned and reactive works, contractors and customer queries. Maintain asset records, monitor site performance and faults, manage maintenance projects and turbine inspections, and support operational control activities across the portfolio.\nThis role would suit someone with a background in Operations, Maintenance or similar looking for a new role within an expanding company offering great company benefits and a stable future.\nThe Role\n- Coordinate planned and reactive maintenance.\n- Monitor sites, assets and faults.\n- Manage inspections and maintenance projects.\n- Liaise with contractors, suppliers and customers.\n\nThe Person\n- Background in Operations, Maintenance or similar\n- Commutable to Wadebridge\n\nReference: BBBH27309\nOperations admin, Administration, Solar, Office Manager, Maintenance manager, Asset manager, Coordinator, Entry-level, Junior, Grad, Graduate, Renewable Energy, Wadebridge, Newquay, Bodmin, Padstow, Admin, Operations Assistant\nIf you are interested in this role, click 'apply now' to forward an up-to-date copy of your CV.\nWe are an equal opportunities employer and welcome applications from all suitable candidates. The salary advertised is a guideline for this position. The offered renumeration will be dependent on the extent of your experience, qualifications, and skill set.\nErnest Gordon Recruitment Limited acts as an employment agency for permanent recruitment and employment business for the supply of temporary workers. By applying for this job, you accept the T&C's, Privacy Policy and Disclaimers which can be found at our website",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBYohjjm9FFifgdicpA9hq4gk",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Ernest Gordon Recruitment Limited",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "nhs-5662848",
     "source": "NHS Jobs",
     "title": "Receptionist/Admin Assistant",
@@ -288,7 +271,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9201-26-1290",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9201-26-1290",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5656298",
@@ -306,6 +293,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1654-26-0019",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1654-26-0019",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

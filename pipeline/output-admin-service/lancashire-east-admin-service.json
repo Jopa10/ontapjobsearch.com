@@ -21,7 +21,11 @@
     "source": "Teaching Vacancies",
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
-    "working_arrangement_evidence": ""
+    "working_arrangement_evidence": "",
+    "advertiser_name": "St Wilfrid's Church of England Academy",
+    "advertiser_type": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225668274",
@@ -93,31 +97,6 @@
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
     "advertiser_name": "EVO Personnel Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "23643_225611463",
-    "title": "Business Support Officer",
-    "company": "Rotherwood Education - Agency - Permanent",
-    "location": "Burnley",
-    "region": "Lancashire - East",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "32000",
-    "salary_max": "37000",
-    "salary_text": "£32000 - £37000 per year",
-    "posted_date": "",
-    "description": "Rotherwood Education are currently recruiting for an enthusiastic School Business Support Officer to join a well-established and supportive school in the heart of Burnley.\n\nThis is a full-time role, due to start ASAP, offering a fantastic opportunity to make a meaningful impact in a thriving educational setting.\n\nPosition Details\n\nJob Title: School Business Support Officer\nLocation: Burnley\nStart Date: ASAP\nContract Type: Full-time, Permanent\nGrade: Grade 7\n\nResponsibilities of the School Business Support Officer Role\n- Undertake all business and financial management transactions relating to school resources and prepare reports for the Headteacher as required.\n- Manage the school's administrative function through planning, developing, designing and monitoring administrative systems and procedures.\n- Manage a small team of support staff, including actioning appraisals and recruitment and selection, where applicable.\n- Assist the Headteacher and Governing Body with income generation activities and in promoting and marketing the school, including lettings, where applicable.\n- Arrange the provision, analysis and evaluation of data, detailed reports and information for the Senior Leadership Team, Governing Body and outside agencies.\n- Manage the administration of human resources processes.\n- Assist in the procurement process, including securing appropriate service contracts, licences and insurance.\n- Support the implementation of the school's health and safety policies as directed.\n- Manage and reconcile bank accounts, including the School Fund.\n\nIndividuals in This Role May Also\n- Monitor and administer a whole-school budget of approximately 1,000,000.\n- Undertake a PA role to the Headteacher or another senior member of staff.\n- Coordinate staff cover arrangements.\n\nThe Ideal School Business Support Officer Will Have\n- Experience working in an office environment.\n- Experience working with a wide range of stakeholders, including Headteachers, school staff, parents, governors, school finance offices and children.\n- Experience of a range of financial responsibilities, including managing and monitoring budgets, processing invoices, procurement, accounting for cash and preparing accounts.\n- Experience maintaining computerised records.\n- Experience using Microsoft applications, including Word, Excel, Publisher and Teams.\n- Excellent time management and communication skills.\n- A commitment to safeguarding and protecting the welfare of children and young people.\n\nApply Today\n\nApply today or contact Megan at Rotherwood Education for more information.\n\nThis post is being advertised on behalf of Rotherwood Education, who are acting as an employment agency. All applicants will be subject to relevant safeguarding checks, including an enhanced DBS check and references, in line with Keeping Children Safe in Education (KCSIE).",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?31Q%2fsvDzOVYCuKH5Ml9F5eUKji1IHNquj",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Rotherwood Education",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
@@ -289,7 +268,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0046-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0046-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5640157",
@@ -307,6 +290,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2060-26-0013",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2060-26-0013",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
