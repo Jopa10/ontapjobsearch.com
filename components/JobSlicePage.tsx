@@ -13,7 +13,7 @@ import { normaliseJobTitle } from "@/lib/job-title";
 import TrainingLink from "@/components/traininglink";
 import styles from "@/components/JobSlicePage.module.css";
 import { classifyJobSector } from "@/lib/job-sector";
-import { getCanonicalPublishedJobId } from "@/lib/published-jobs";
+import { getCanonicalPublishedJobId } from "@/lib/published-job-canonical-ids";
 import {
   getActiveCityLinksForParentJsonPath,
   getCityPageBreadcrumb,
