@@ -14,8 +14,7 @@ import { sourceLabel } from "@/lib/job-facts";
 import { buildJobPostingSchema } from "@/lib/job-posting-schema";
 import {
   getCanonicalPublishedJobId,
-  getJobPath,
-  getPublishedJob,
+   getPublishedJob,
   getPublishedJobs,
   type PublishedJob,
 } from "@/lib/published-jobs";
