@@ -1,16 +1,24 @@
 name: Build daily regional overview
 
 on:
+  schedule:
+    - cron: '17 * * * *'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/build-daily-region-overview.yml'
+      - 'pipeline/scripts/verify_overview_production.py'
+      - 'pipeline/scripts/build_verified_region_overview.py'
   workflow_dispatch:
     inputs:
       deployment_run_id:
         description: Successful Deploy Ontap production after publish run ID
-        required: true
+        required: false
         type: string
 
 concurrency:
   group: build-daily-regional-overview
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 permissions:
   actions: read
@@ -22,6 +30,7 @@ jobs:
 
     steps:
       - name: Verify the referenced production deployment succeeded
+        if: inputs.deployment_run_id != ''
         env:
           GH_TOKEN: ${{ github.token }}
           DEPLOYMENT_RUN_ID: ${{ inputs.deployment_run_id }}
@@ -47,6 +56,7 @@ jobs:
           fetch-depth: 0
 
       - name: Download verified production SHA
+        if: inputs.deployment_run_id != ''
         uses: actions/download-artifact@v4
         with:
           name: verified-production-sha
@@ -54,50 +64,93 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           path: ${{ runner.temp }}/deployment
 
-      - name: Read deployed source commit
+      - name: Test report controls on current main
+        working-directory: pipeline
+        run: |
+          python -m pip install pandas openpyxl
+          python -m unittest tests.test_verify_overview_production tests.test_build_daily_region_overview tests.test_export_daily_region_overview_xlsx -v
+
+      - name: Verify live production and detect a missing overview
         id: deployed
+        env:
+          DEPLOYMENT_RUN_ID: ${{ inputs.deployment_run_id }}
         run: |
           set -euo pipefail
-          sha="$(cat "$RUNNER_TEMP/deployment/verified-production-sha.txt")"
-          if ! [[ "$sha" =~ ^[0-9a-f]{40}$ ]]; then
-            echo "::error::Deployment receipt does not contain a valid commit SHA."
-            exit 1
+          cp pipeline/scripts/verify_overview_production.py "$RUNNER_TEMP/verify-overview-production.py"
+          cp pipeline/scripts/build_verified_region_overview.py "$RUNNER_TEMP/build-verified-region-overview.py"
+          args=()
+          if [ -n "$DEPLOYMENT_RUN_ID" ]; then
+            args+=(--receipt "$RUNNER_TEMP/deployment/verified-production-sha.txt")
           fi
-          echo "sha=$sha" >> "$GITHUB_OUTPUT"
-          echo "Report source commit: $sha" >> "$GITHUB_STEP_SUMMARY"
+          python "$RUNNER_TEMP/verify-overview-production.py" "${args[@]}" --output "$GITHUB_OUTPUT"
 
       - name: Check out the exact deployed source commit
+        if: steps.deployed.outputs.rebuild == 'true'
         uses: actions/checkout@v4
         with:
           ref: ${{ steps.deployed.outputs.sha }}
           fetch-depth: 0
 
+      - name: Preserve latest saved report history
+        if: steps.deployed.outputs.rebuild == 'true'
+        run: |
+          set -euo pipefail
+          for path in pipeline/reports-daily/jobg8-feed-history.csv pipeline/reports-daily/daily-family-coverage-history.json; do
+            git show "origin/main:$path" > "$path"
+          done
+
       - name: Set up Python
+        if: steps.deployed.outputs.rebuild == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
       - name: Install overview dependencies
+        if: steps.deployed.outputs.rebuild == 'true'
         run: python -m pip install --upgrade pip pandas openpyxl
 
-      - name: Test regional overview and history exports
-        working-directory: pipeline
-        run: python -m unittest tests.test_build_daily_region_overview tests.test_export_daily_region_overview_xlsx -v
+      - name: Set up Node for the public inventory generator
+        if: steps.deployed.outputs.rebuild == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Generate the exact website inventory from the deployed source
+        if: steps.deployed.outputs.rebuild == 'true'
+        run: npm exec --yes --package=tsx -- tsx scripts/generate-search-index.ts
 
       - name: Build daily regional overview and record JobG8 history
-        run: python pipeline/scripts/build_daily_region_overview.py
+        if: steps.deployed.outputs.rebuild == 'true'
+        run: python "$RUNNER_TEMP/build-verified-region-overview.py"
 
       - name: Apply same-feed 78-market family coverage
+        if: steps.deployed.outputs.rebuild == 'true'
         working-directory: pipeline
         run: python -m scripts.assess_daily_family_coverage --apply-existing
 
+      - name: Record verified production provenance
+        if: steps.deployed.outputs.rebuild == 'true'
+        env:
+          VERIFIED_SHA: ${{ steps.deployed.outputs.sha }}
+        run: |
+          python - <<'PYCODE'
+          import os
+          from pathlib import Path
+          report = Path("pipeline/reports-daily/daily-region-overview.md")
+          text = report.read_text(encoding="utf-8")
+          text = text.replace("# Ontap daily regional overview\n", "# Ontap daily regional overview\n\nProduction source commit: `" + os.environ["VERIFIED_SHA"] + "`\n", 1)
+          report.write_text(text, encoding="utf-8")
+          PYCODE
+
       - name: Export final daily regional overview workbook
+        if: steps.deployed.outputs.rebuild == 'true'
         run: |
           python pipeline/scripts/export_daily_region_overview_xlsx.py \
             --markdown pipeline/reports-daily/daily-region-overview.md \
             --output pipeline/reports-daily/daily-region-overview.xlsx
 
       - name: Verify overview isolation and reconciliation
+        if: steps.deployed.outputs.rebuild == 'true'
         run: |
           set -euo pipefail
           test -s pipeline/reports-daily/daily-region-overview.md
@@ -105,6 +158,7 @@ jobs:
           test -s pipeline/reports-daily/daily-family-coverage.csv
           test -s pipeline/reports-daily/jobg8-feed-history.csv
           grep -Eq 'JobG8 feed reconciliation: (PASS|FAIL)' pipeline/reports-daily/daily-region-overview.md
+          git restore -- generated/published-jobs-search.json
           unexpected="$(git diff --name-only | grep -Ev '^pipeline/reports-daily/(daily-region-overview\.(md|xlsx)|jobg8-feed-history\.csv|daily-family-coverage-history\.json|daily-family-coverage\.csv)$' || true)"
           if [ -n "$unexpected" ]; then
             echo "::error::Overview builder changed unexpected files:"
@@ -113,8 +167,18 @@ jobs:
           fi
 
       - name: Commit overview to main
+        if: steps.deployed.outputs.rebuild == 'true'
         run: |
           set -euo pipefail
+          git fetch origin main --quiet
+          python "$RUNNER_TEMP/verify-overview-production.py" --check-sha "${{ steps.deployed.outputs.sha }}"
+          # Put only generated outputs onto current main; never rebase old website data.
+          mkdir -p "$RUNNER_TEMP/overview-output"
+          for path in pipeline/reports-daily/daily-region-overview.md pipeline/reports-daily/daily-region-overview.xlsx pipeline/reports-daily/jobg8-feed-history.csv pipeline/reports-daily/daily-family-coverage.csv pipeline/reports-daily/daily-family-coverage-history.json; do
+            cp "$path" "$RUNNER_TEMP/overview-output/$(basename "$path")"
+          done
+          git reset --hard origin/main
+          cp "$RUNNER_TEMP/overview-output/"* pipeline/reports-daily/
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add \
@@ -132,6 +196,7 @@ jobs:
           git push origin HEAD:main
 
       - name: Fail the run if the JobG8 feed did not reconcile
+        if: steps.deployed.outputs.rebuild == 'true'
         run: |
           if grep -q 'JobG8 feed reconciliation: FAIL' pipeline/reports-daily/daily-region-overview.md; then
             echo "::error::JobG8 XML total does not match the summed Jobs received categories."

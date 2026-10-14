@@ -1,6 +1,6 @@
 # Ontap System Map
 
-**Last updated:** 12 October 2026
+**Last updated:** 14 October 2026
 **Status:** Canonical production architecture, reconciled on 12 October against active workflows, deployment runs, report history, slice register and current diagnostic contract.
 
 - 21 September 2026 — **Nearby-location analytics now explains incomplete location attempts and reliably measures restored preferences:** client events that occur before GA4 initialises wait for the shared analytics-ready signal instead of being dropped. Unsuccessful geolocation attempts now distinguish unsupported browsers, permission denial, unavailable positions, timeouts and nearby-API failures; manual-town attempts and saved-location refresh failures are measured separately. Existing `saved_location_return` and `saved_location_results_loaded` events remain the proof of remembered-location reuse.
@@ -8,6 +8,8 @@
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
+
+- 14 October 2026 — **Overview recovery covers direct production deployments:** the existing report workflow checks the live version hourly and after report-control changes. It rebuilds only when the verified live commit is absent from report provenance, uses that exact deployed snapshot and the website’s own canonical job generator to reconcile its headline, preserves saved history and checks production again before committing. The normal post-publish dispatch and deployment receipt validation remain. Report-only updates do not deploy the website.
 
 - 12 October 2026 — **Overview dispatch now follows the deployment the daily publisher actually waits for:** GitHub did not start the report from the `workflow_run` event after the token-dispatched production workflow. The publisher now dispatches the report only after `gh run watch` confirms the production run succeeded, passes that run ID, and waits for the report. The report validates the successful `main` deployment and downloads its exact verified-SHA artifact. Today's report was rebuilt from production commit `b2849bdaea7b4d051636259057227f14f3e8a153`; no site files or Vercel deployment were changed by the report fix.
 
@@ -317,7 +319,7 @@ Core scheduled workflows include:
 - `refresh-nhs-admin-service-review.yml` — 10:05 UTC daily;
 - `ontap-daily-review.yml` — 08:45 Europe/London;
 - `ontap-daily-status.yml` — the single owner-facing daily health check. It runs after `Ontap daily review`, after `Deploy Ontap production after publish`, and at 09:15/12:15 Europe/London as fallback snapshots. The morning result proves whether every source and the master file are ready to edit; the post-publish result proves whether the cycle was manual or automatic and whether every source publisher, verified-page build, live-source report and production deployment completed;
-- `build-daily-region-overview.yml` — requires a deployment run ID and rejects anything other than a successful **Deploy Ontap production after publish** run on `main`. The daily publisher dispatches it only after watching that deployment succeed, then waits for report completion. It downloads the deployment's verified production-SHA artifact and checks out that exact commit, so sitewide LIVE counts and page inventory match deployed job data. It records one JobG8 feed/category snapshot per feed date, replaces same-date reruns and retains the latest 10 feed dates; its XML/category reconciliation shows PASS/FAIL and the difference. Report-only commits do not start Vercel builds;
+- `build-daily-region-overview.yml` — normal publisher dispatch validates the successful production run and receipt; an hourly `17 * * * *` recovery check and report-control push trigger resolve the live `/api/deployment-version` SHA directly. Both paths require a valid commit on main, check out that exact live snapshot, preserve current saved history and recheck the live SHA before committing. A matching production-source marker skips recovery rebuilds. Saves Markdown/Excel and 10-feed-date history without deploying website files;
 - `google-indexing-api.yml` — 19:30 UTC daily.
 
 The manually run JobG8 discovery coverage audit is date-locked to the current Europe/London day. It derives the month dynamically, requires that exact daily raw feed to exist, and passes the expected date into the final selection-audit export. A missing or mismatched feed fails the workflow before any report commit. Consequently, the sitewide published JobG8 total, the JobG8-category published counts, and any “published ID absent from current feed” exception are all interpreted against the same dated feed; the category counts must reconcile to the published JobG8 total.
