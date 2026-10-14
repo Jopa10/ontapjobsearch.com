@@ -276,6 +276,11 @@ export function getPublishedJobs(): PublishedJob[] {
   return cachedJobs;
 }
 
+export function getPublishedCanonicalIds(): Record<string, string> {
+  getPublishedJobs();
+  return Object.fromEntries(cachedCanonicalIds ?? []);
+}
+
 export function decodePublishedJobId(jobId: string): string {
   try {
     return decodeURIComponent(jobId);
