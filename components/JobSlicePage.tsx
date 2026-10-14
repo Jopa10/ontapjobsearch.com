@@ -422,7 +422,7 @@ export default function JobSlicePage({
     ? `${adminLocation} and nearby areas`
     : adminLocation;
   const listingIntro = isAdminServicePage
-    ? `Browse administration, office support, reception, customer service, accounts and finance jobs with a substantial administrative element across ${adminCoverage}.`
+    ? `Also includes accounts and finance roles with a substantial administrative element. Covers ${adminCoverage}.`
     : getListingIntro(introText, latestUpdate);
   const mobileAiTips = () => (
     <div className={styles.mobileAiTips}>

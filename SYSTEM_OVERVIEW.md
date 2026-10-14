@@ -239,7 +239,7 @@ Compiler Modules 1/2/3 remain legitimate analysis tools.
 
 ## 3. Website / UX
 
-Service Admin city and regional pages now have a shorter introduction, with the update date on its own line. City pages with wider approved catchments say `and nearby areas`.
+Service Admin city and regional pages use the same supporting introduction on desktop and mobile: it adds accounts/finance coverage and geography without repeating the main roles in the H1. The update date remains on its own line. City pages with wider approved catchments say `and nearby areas`.
 
 Saved-location discovery is a progressive enhancement across mobile and desktop. It does not change canonical URLs, server-rendered inventory, sitemap membership or indexing. The browser asks for geolocation only after a user presses the control. Coordinates are used in a JSON POST only long enough to resolve the nearest approved canonical town and are not saved or included in analytics; `localStorage` retains the resulting town, region and last displayed nearby-job count. Returning visitors see those saved details immediately while Ontap refreshes the count silently, and Change, Clear and manual-town controls keep it user-controlled. The separate `Suitable jobs nearby` panel on a vacancy remains anchored on that vacancy's governed role, sector, locality and 15-mile rules; a saved visitor location never replaces it.
 
