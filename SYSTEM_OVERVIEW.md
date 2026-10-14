@@ -239,6 +239,8 @@ Compiler Modules 1/2/3 remain legitimate analysis tools.
 
 ## 3. Website / UX
 
+On Service Admin mobile pages, the nearby-jobs panel follows the vacancy list and the role/location search remains at the top in a smaller button. Both search options remain available; desktop keeps its existing layout.
+
 On mobile, Service Admin headings are smaller and city breadcrumbs fit a single Home > region > city line. Desktop retains the full breadcrumbs and existing heading size.
 
 Service Admin city and regional pages use the same supporting introduction on desktop and mobile: it adds accounts/finance coverage and geography without repeating the main roles in the H1. The update date remains on its own line. City pages with wider approved catchments say `and nearby areas`.

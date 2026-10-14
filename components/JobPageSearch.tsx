@@ -3,11 +3,11 @@
 import { useState } from "react";
 import styles from "@/components/JobPageSearch.module.css";
 
-export default function JobPageSearch() {
+export default function JobPageSearch({ compactMobile = false }: { compactMobile?: boolean }) {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <section className={styles.search} aria-label="Search other jobs">
+    <section className={`${styles.search} ${compactMobile ? styles.compactMobile : ""}`} aria-label="Search other jobs">
       <button
         type="button"
         className={styles.mobileToggle}

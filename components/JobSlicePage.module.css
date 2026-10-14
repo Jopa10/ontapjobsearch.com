@@ -360,3 +360,15 @@
     text-overflow: ellipsis;
   }
 }
+
+@media (max-width: 700px) {
+  .mobileJobsFirst {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mobileLocationAfterJobs {
+    order: 1;
+    margin-top: 14px;
+  }
+}

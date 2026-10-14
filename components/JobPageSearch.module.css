@@ -147,3 +147,22 @@
     transition: background-color 150ms ease, border-color 150ms ease;
   }
 }
+
+@media (max-width: 700px) {
+  .compactMobile {
+    margin-bottom: 10px;
+  }
+
+  .compactMobile .mobileToggle {
+    min-height: 44px;
+    padding: 4px 10px;
+    font-size: 14px;
+    gap: 6px;
+  }
+
+  .compactMobile .icon {
+    width: 22px;
+    height: 22px;
+    flex-basis: 22px;
+  }
+}

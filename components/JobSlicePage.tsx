@@ -482,7 +482,7 @@ export default function JobSlicePage({
           )}
         </aside>
 
-        <div className={styles.content}>
+        <div className={`${styles.content} ${isAdminServicePage ? styles.mobileJobsFirst : ""}`}>
           {cityBreadcrumb ? <CityBreadcrumbs breadcrumb={cityBreadcrumb} /> : null}
           <div style={{ marginBottom: compactPageSpacing ? 8 : 14 }}>
             <h1
@@ -518,8 +518,10 @@ export default function JobSlicePage({
             ) : null}
           </div>
 
-          <SavedLocationJobs />
-          <JobPageSearch />
+          <div className={isAdminServicePage ? styles.mobileLocationAfterJobs : undefined}>
+            <SavedLocationJobs />
+          </div>
+          <JobPageSearch compactMobile={isAdminServicePage} />
 
           {childCityLinks.length ? (
             <div style={{ marginBottom: 8 }}>

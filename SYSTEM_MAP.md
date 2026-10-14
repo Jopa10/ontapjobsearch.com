@@ -250,6 +250,8 @@ Report lifecycle is recurring operational reporting / deliberate specialist anal
 
 ## 3. Website / UX
 
+At widths up to 700px, Service Admin `JobSlicePage` uses a flex column to place its single `SavedLocationJobs` instance after the listing content, avoiding duplicated location state/listeners. `JobPageSearch` receives `compactMobile` for a 44px minimum-height toggle and 22px icon above the vacancies. Desktop order and other job families are unchanged.
+
 At widths up to 700px, Service Admin H1s use 22px type with 1.2 line height. Admin city breadcrumbs show Home > region > city on one line; the role segment is hidden visually at this breakpoint and long labels ellipsize without changing link text, destinations or full breadcrumb schema. Desktop keeps the full breadcrumb and existing heading size.
 
 Service Admin listings use the shared `JobSlicePage` supporting intro on desktop and mobile: `Also includes accounts and finance roles with a substantial administrative element. Covers [location].` The main role list remains in the H1 without repetition in the intro. City pages with approved catchments retain `and nearby areas`; `latestUpdate` renders in a separate paragraph. Other families retain their existing intro presentation.
