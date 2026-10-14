@@ -317,7 +317,7 @@ function CityBreadcrumbs({ breadcrumb }: { breadcrumb: CityPageBreadcrumb }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, "\\u003c") }}
       />
-      <nav className={styles.breadcrumbs} aria-label="Breadcrumb">
+      <nav className={`${styles.breadcrumbs} ${breadcrumb.roleLabel === "Admin and office jobs" ? styles.compactMobileBreadcrumbs : ""}`} aria-label="Breadcrumb">
         <ol>
           <li><Link href="/">Home</Link></li>
           <li aria-hidden="true">›</li>
@@ -486,6 +486,7 @@ export default function JobSlicePage({
           {cityBreadcrumb ? <CityBreadcrumbs breadcrumb={cityBreadcrumb} /> : null}
           <div style={{ marginBottom: compactPageSpacing ? 8 : 14 }}>
             <h1
+              className={isAdminServicePage ? styles.adminTitle : undefined}
               style={{
                 fontSize: compactPageSpacing ? 26 : 28,
                 fontWeight: 800,

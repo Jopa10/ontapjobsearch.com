@@ -308,3 +308,55 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* Keep Service Admin headings and city navigation compact on phones. */
+@media (max-width: 700px) {
+  .adminTitle {
+    font-size: 22px !important;
+    line-height: 1.2;
+  }
+
+  .compactMobileBreadcrumbs {
+    font-size: 12px;
+  }
+
+  .compactMobileBreadcrumbs ol {
+    flex-wrap: nowrap;
+    gap: 4px;
+    min-width: 0;
+  }
+
+  .compactMobileBreadcrumbs li {
+    flex: 0 0 auto;
+    white-space: nowrap;
+  }
+
+  .compactMobileBreadcrumbs li:nth-child(3),
+  .compactMobileBreadcrumbs li:nth-child(4) {
+    display: none;
+  }
+
+  .compactMobileBreadcrumbs li:nth-child(5) {
+    flex: 1 1 auto;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .compactMobileBreadcrumbs li:last-child {
+    flex: 0 1 auto;
+    min-width: 0;
+    max-width: 45%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .compactMobileBreadcrumbs a {
+    display: inline-block;
+    max-width: 100%;
+    padding: 6px 0;
+    vertical-align: middle;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
