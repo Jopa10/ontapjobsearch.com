@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-10-13
-review_fingerprint: aa072c42f0011146e78a2be2a12e12268ec0e0e10ea99a96df5e966fcd89aee3
+review_date: 2026-10-14
+review_fingerprint: 3fea56d845406a2e90fd5bb3d73a5a9ec094f99bf0cdeac8de28079a9b5021cf
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,9 +10,9 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-10-13T15:29:44+01:00
+Run generated: 2026-10-14T13:15:05+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 427
+JobG8 comparison rows: 388
 Approved NEJobs comparison rows: 0
 
 ## Funnel
@@ -23,16 +23,16 @@ Approved NEJobs comparison rows: 0
 - Obvious hard passes not detail-fetched: 9
 - Tees Valley explicitly excluded: 0
 - Outside or unmapped geography excluded: 2
-- Generic/derived geography rows requiring review: 2
+- Generic/derived geography rows requiring review: 3
 - Retained target candidates: 13
 
 ## Outcomes
 - HC: 2
-- POSS: 8
-- HARD_PASS: 3
+- POSS: 9
+- HARD_PASS: 2
 - Final selected after remembered/manual actions: 2
-- Final POSS awaiting decision: 8
-- Manually excluded: 0
+- Final POSS awaiting decision: 1
+- Manually excluded: 8
 ## Detail diagnostics
 - No unresolved detail-page failures.
 
@@ -66,6 +66,19 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173530
 ---
 ## POSS — choose SELECT or EXCLUDE
 
+---
+action:
+POSS | North East | Hybrid | £ Pro Rata | Payroll and People Systems Assistant
+employer: National Energy Action
+closing_date: 27 October 2026
+geography: GENERIC_REVIEW — generic VONNE location requires manual North East check
+reason: North East geography is generic or derived and requires review
+source: VONNE
+tracking_key: vonne-173536
+vacancy_fingerprint: 39bbcedd8cd9ba8da0d7036ea75f4a86f459d3ea9f3c418311b96d292d8e7189
+source_job_id: 173536
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173536
+---
 ---
 action: exclude
 POSS | North East - Tyneside, Wearside & Northumberland | Gateshead | £33,323 Per Annum | Business Support Coach
@@ -177,7 +190,6 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173501
 ## HARD_PASS
 
 - [Chief Executive](https://www.vonne.org.uk/vonne-jobs-details?cid=173526) — out-of-scope VONNE occupation.
-- [Children and Young People’s Mental Health](https://www.vonne.org.uk/vonne-jobs-details?cid=173496) — insufficient service-admin evidence.
 - [Interim Chief Executive Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173518) — out-of-scope VONNE occupation.
 
 ## Safety boundary
