@@ -4,7 +4,7 @@
 - Live route: `/scarborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 52
+- automatic include: 7
+- automatic review: 54
 - automatic exclude: 0
-- effective include: 5
-- effective review: 52
+- effective include: 7
+- effective review: 54
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (7)
 
 ---
 action: 
@@ -64,6 +64,30 @@ reason: Exact approved Scarborough workplace.
 action: 
 decision: include
 automatic_decision: include
+title: SEND Administrator
+company: George Pindar School
+location: Scarborough
+source: Teaching Vacancies
+job_id: teaching-vacancies-send-administrator-george-pindar-school-scarborough
+reason: Exact approved Scarborough workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Senior Administrator
+company: Braeburn Primary and Nursery Academy
+location: Scarborough
+source: Teaching Vacancies
+job_id: teaching-vacancies-senior-administrator-a7025ffa-8f1a-4ca4-8107-74ae6341f075
+reason: Exact approved Scarborough workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Service Co-ordinator
 company: KD Recruitment - Agency - Permanent
 location: Scarborough
@@ -84,7 +108,7 @@ job_id: jobg8-23643_225641309
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (52)
+## REVIEW (54)
 
 ---
 action: 
@@ -167,6 +191,18 @@ company: PPM Recruitment - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-23643_225652103
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Exams Officer & Cover Administrator
+company: Woldgate School and Sixth Form College
+location: York
+source: Teaching Vacancies
+job_id: teaching-vacancies-assistant-exams-officer-cover-administrator
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -659,6 +695,18 @@ company: Search Consultancy Ltd - Agency - Permanent
 location: Malton
 source: JobG8
 job_id: jobg8-23643_225661358
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: School Administrator
+company: Saltergate Junior School
+location: Harrogate
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-administrator-saltergate-junior-school-harrogate-north-yorkshire
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

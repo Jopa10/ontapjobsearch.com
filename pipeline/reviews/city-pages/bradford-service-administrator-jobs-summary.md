@@ -4,7 +4,7 @@
 - Live route: `/bradford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
-- automatic review: 29
-- automatic exclude: 86
-- effective include: 12
-- effective review: 29
-- effective exclude: 86
+- automatic include: 13
+- automatic review: 34
+- automatic exclude: 94
+- effective include: 13
+- effective review: 34
+- effective exclude: 94
 
-## INCLUDE (12)
+## INCLUDE (13)
 
 ---
 action: 
@@ -57,6 +57,18 @@ company: Search Consultancy Ltd - Agency - Permanent
 location: Bradford
 source: JobG8
 job_id: jobg8-23643_225713094
+reason: Approved Bradford catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Exams Officer
+company: Bradford Academy
+location: Bradford
+source: Teaching Vacancies
+job_id: teaching-vacancies-exams-officer-bradford-academy-bradford
 reason: Approved Bradford catchment.
 ---
 
@@ -168,7 +180,19 @@ job_id: jobg8-23643_225645421
 reason: Approved Bradford catchment.
 ---
 
-## REVIEW (29)
+## REVIEW (34)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Academy Administrator L3
+company: Dixons Cottingley Academy
+location: Bingley
+source: Teaching Vacancies
+job_id: teaching-vacancies-academy-administrator-l3-dixons-cottingley-academy-bingley
+reason: No approved Bradford catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -191,6 +215,30 @@ company: Lucy Walker Recruitment Ltd - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2062634
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin Assistant
+company: Oyster Park Primary Academy
+location: Castleford
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-assistant-oyster-park-primary-academy
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Assistant
+company: The Mirfield Free Grammar
+location: Mirfield
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-the-mirfield-free-grammar-mirfield-west-yorkshire
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -263,6 +311,18 @@ company: Reed - Agency - Permanent
 location: Wetherby
 source: JobG8
 job_id: jobg8-2062402
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Clinical Administrator
+company: Locala Health and Wellbeing
+location: Holmfirth, HD1 4EW
+source: NHS Jobs
+job_id: nhs-5664888
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -518,7 +578,31 @@ job_id: jobg8-23643_225664255
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (86)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Work Experience Administrator
+company: Beckfoot School
+location: Bingley
+source: Teaching Vacancies
+job_id: teaching-vacancies-work-experience-administrator-beckfoot-school-bingley-west-yorkshire
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+## EXCLUDE (94)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrative Assistant
+company: Holy Rosary and St Anne's Catholic Primary School, a Voluntary Academy
+location: Leeds
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-holy-rosary-and-st-anne-s-catholic-primary-school-a-voluntary-academy-leeds-west-yorkshire
+reason: Separate employment market.
+---
 
 ---
 action: 
@@ -553,6 +637,18 @@ company: Search Consultancy Ltd - Agency - Contract
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225645333
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Apprentice Business Support Administrator
+company: The North Halifax Grammar School
+location: Halifax
+source: Teaching Vacancies
+job_id: teaching-vacancies-apprentice-business-support-administrator
 reason: Separate employment market.
 ---
 
@@ -625,6 +721,18 @@ company: Reed - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-2056878
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Business Support Officer
+company: All Saints Catholic College
+location: Huddersfield
+source: Teaching Vacancies
+job_id: teaching-vacancies-business-support-officer-854eb79b-4156-4a90-8232-676cdd7ff0a7
 reason: Separate employment market.
 ---
 
@@ -824,6 +932,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Data and Exams Administrator
+company: Moor End Academy
+location: Huddersfield
+source: Teaching Vacancies
+job_id: teaching-vacancies-data-and-exams-administrator-moor-end-academy-huddersfield-west-yorkshire
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Debt Recovery Customer Service Advisor
 company: Michael Page - Agency - Permanent
 location: Leeds
@@ -896,11 +1016,35 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: General Administrator
+company: Leeds West Academy
+location: Leeds
+source: Teaching Vacancies
+job_id: teaching-vacancies-general-administrator-leeds-west-academy
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Graduate Design & Project Coordinator (Luxury Spa & Sauna)
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225663662
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: HR Administrative Assistant
+company: Outwood Grange Academy
+location: Wakefield
+source: Teaching Vacancies
+job_id: teaching-vacancies-hr-administrative-assistant-outwood-grange-academy
 reason: Separate employment market.
 ---
 
@@ -925,6 +1069,18 @@ company: Hays Business Support - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225709267
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Inclusion Officer & Administrator
+company: Park Lane Academy
+location: Halifax
+source: Teaching Vacancies
+job_id: teaching-vacancies-inclusion-officer-administrator
 reason: Separate employment market.
 ---
 
@@ -973,18 +1129,6 @@ company: TDRS - Agency - Permanent
 location: Huddersfield
 source: JobG8
 job_id: jobg8-23643_225710102
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Leadership Team Administrator (Hybrid)
-company: Moldgreen Community Primary School
-location: Huddersfield
-source: Teaching Vacancies
-job_id: teaching-vacancies-leadership-team-administrator-hybrid
 reason: Separate employment market.
 ---
 
@@ -1352,6 +1496,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Receptionist/Administrator
+company: Meadowfield Primary School
+location: Leeds
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-administrator-ca52dc57-0aa2-4583-be92-409ff21aea72
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Recruitment Coordinator
 company: Lucy Walker Recruitment - Agency - Temporary
 location: Leeds
@@ -1417,6 +1573,18 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Wakefield
 source: JobG8
 job_id: jobg8-2059161
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Senior Business Support Administrator
+company: The North Halifax Grammar School
+location: Halifax
+source: Teaching Vacancies
+job_id: teaching-vacancies-senior-business-support-administrator
 reason: Separate employment market.
 ---
 

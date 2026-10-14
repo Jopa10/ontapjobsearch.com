@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 13
-- automatic review: 94
+- automatic review: 97
 - automatic exclude: 0
 - effective include: 13
-- effective review: 94
+- effective review: 97
 - effective exclude: 0
 
 ## INCLUDE (13)
@@ -180,7 +180,7 @@ job_id: jobg8-23643_225694242
 reason: Exact approved Chelmsford workplace.
 ---
 
-## REVIEW (94)
+## REVIEW (97)
 
 ---
 action: 
@@ -282,6 +282,18 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Admin Assistant
+company: Buckhurst Hill Community Primary School
+location: Buckhurst Hill
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-assistant-buckhurst-hill-community-primary-school
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administration Assistant
 company: Essex Partnership University NHS Foundation Trust
 location: Essex, CM7 9AE
@@ -323,6 +335,18 @@ company: St Nicholas School
 location: Southend-on-Sea
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-d4c71f58-82f8-447e-966b-f065379eaa99
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrative Assistant
+company: Essex Partnership University NHS Foundation Trust
+location: Maldon, CM9 6EG
+source: NHS Jobs
+job_id: nhs-5661871
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -1075,10 +1099,10 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
-company: Brentwood County High School
-location: Brentwood
+company: The Eastwood Academy
+location: Leigh-on-Sea
 source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-brentwood-county-high-school
+job_id: teaching-vacancies-receptionist-the-eastwood-academy
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -1199,6 +1223,18 @@ company: Reed - Agency - Permanent
 location: Brentwood
 source: JobG8
 job_id: jobg8-2089179
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: SEND Administrative Assistant
+company: Greenways Primary School
+location: Southend-on-Sea
+source: Teaching Vacancies
+job_id: teaching-vacancies-send-administrative-assistant-greenways-primary-school
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

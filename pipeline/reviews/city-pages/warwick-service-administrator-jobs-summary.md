@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 57
+- automatic review: 59
 - automatic exclude: 0
 - effective include: 5
-- effective review: 57
+- effective review: 59
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-23643_225673829
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (57)
+## REVIEW (59)
 
 ---
 action: 
@@ -179,6 +179,18 @@ company: Accord Appointments Ltd - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225704336
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrative Assistant
+company: Finham Park 2
+location: Coventry
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-finham-park-2
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -671,6 +683,18 @@ company: Willenhall Primary Care Centre 1
 location: Coventry, CV3 3DG
 source: NHS Jobs
 job_id: nhs-5632425
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist and Administrator (2 days per week)
+company: Kenilworth School and Sixth Form
+location: Kenilworth
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-and-administrator-2-days-per-week
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/hemel-hempstead/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 83
+- automatic include: 6
+- automatic review: 84
 - automatic exclude: 0
-- effective include: 7
-- effective review: 83
+- effective include: 6
+- effective review: 84
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (6)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: SolviT Recruitment Ltd - Agency - Temporary
 location: Hemel Hempstead
 source: JobG8
 job_id: jobg8-23643_225626116
-reason: Exact approved Hemel Hempstead workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Attendance Administrator
-company: The Astley Cooper School
-location: Hemel Hempstead
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-administrator-the-astley-cooper-school-hemel-hempstead-hertfordshire
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
@@ -108,7 +96,7 @@ job_id: jobg8-23643_225694409
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
-## REVIEW (83)
+## REVIEW (84)
 
 ---
 action: 
@@ -510,6 +498,18 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
+title: Finance and Reception Administrator – Part Time
+company: Hertsmere Jewish Primary School
+location: Radlett
+source: Teaching Vacancies
+job_id: teaching-vacancies-finance-and-reception-administrator-part-time
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Assistant
 company: Bennett and Game Recruitment LTD - Agency - Permanent
 location: Hertfordshire
@@ -563,6 +563,18 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-23643_225625869
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Headteacher's Personal Assistant
+company: Chancellor's School
+location: Hatfield
+source: Teaching Vacancies
+job_id: teaching-vacancies-headteacher-s-personal-assistant-chancellor-s-school
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -947,18 +959,6 @@ company: Sterling Recruitment Solutions Ltd - Agency - Permanent
 location: Bishop'S Stortford
 source: JobG8
 job_id: jobg8-2087281
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Reception Administrator & First Aider
-company: Townsend Church of England School
-location: St Albans
-source: Teaching Vacancies
-job_id: teaching-vacancies-reception-administrator-first-aider
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/sunderland/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 81
+- automatic include: 8
+- automatic review: 84
 - automatic exclude: 0
-- effective include: 5
-- effective review: 81
+- effective include: 8
+- effective review: 84
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (8)
 
 ---
 action: 
@@ -33,6 +33,30 @@ company: BMC Recruitment Group - Agency - Permanent
 location: Sunderland
 source: JobG8
 job_id: jobg8-2042404
+reason: Exact approved Sunderland workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administration Assistant
+company: St John Bosco Catholic Primary School, Town End Farm, Sunderland
+location: Sunderland
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-st-john-bosco-catholic-primary-school-town-end-farm-sunderland
+reason: Exact approved Sunderland workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administration Assistant
+company: Trinity Academy New Bridge
+location: Sunderland
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-trinity-academy-new-bridge-sunderland
 reason: Exact approved Sunderland workplace.
 ---
 
@@ -76,6 +100,18 @@ reason: Exact approved Sunderland workplace.
 action: 
 decision: include
 automatic_decision: include
+title: School Office Administrator
+company: Northern Saints Church of England Academy
+location: Sunderland
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-office-administrator-northern-saints-church-of-england-academy
+reason: Exact approved Sunderland workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Site Administrator
 company: Linear Recruitment Ltd - Agency - Contract
 location: Sunderland
@@ -84,7 +120,7 @@ job_id: jobg8-23643_225674171
 reason: Exact approved Sunderland workplace.
 ---
 
-## REVIEW (81)
+## REVIEW (84)
 
 ---
 action: 
@@ -246,6 +282,18 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Administrative Assistant Level 3
+company: North Gosforth Academy
+location: Newcastle-upon-Tyne
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-level-3-north-gosforth-academy-newcastle-upon-tyne-tyne-and-wear
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrator
 company: Adecco - Agency - Temporary
 location: Blyth
@@ -275,6 +323,18 @@ company: Seaton Surgery
 location: Hartlepool, TS25 1AX
 source: NHS Jobs
 job_id: nhs-5637587
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator- Student Reception
+company: St Mary's Catholic School
+location: Newcastle-upon-Tyne
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-student-reception
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -611,6 +671,18 @@ company: Westbourne Medical Group
 location: Houghton Le Spring, DH4 4RW
 source: NHS Jobs
 job_id: nhs-5656347
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist
+company: Hartlepool & Stockton Health [H&SH]
+location: HARTLEPOOL, TS25 1QU
+source: NHS Jobs
+job_id: nhs-5639684
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 

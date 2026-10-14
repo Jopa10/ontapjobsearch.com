@@ -4,7 +4,7 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 20
+- automatic include: 10
+- automatic review: 22
 - automatic exclude: 40
-- effective include: 9
-- effective review: 20
+- effective include: 10
+- effective review: 22
 - effective exclude: 40
 
-## INCLUDE (9)
+## INCLUDE (10)
 
 ---
 action: 
@@ -124,6 +124,18 @@ reason: Approved conservative Oxford launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Student Receptionist and Pastoral Assistant
+company: Cheney School
+location: Oxford
+source: Teaching Vacancies
+job_id: teaching-vacancies-student-receptionist-and-pastoral-assistant-cheney-school
+reason: Approved conservative Oxford launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Team Administrator
 company: Oxford Health NHS Trust
 location: Oxford, OX4 1XE
@@ -132,7 +144,7 @@ job_id: nhs-5640615
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (20)
+## REVIEW (22)
 
 ---
 action: 
@@ -270,6 +282,18 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Inclusion Administrator
+company: Faringdon Community College
+location: Faringdon
+source: Teaching Vacancies
+job_id: teaching-vacancies-inclusion-administrator-1d8857c6-4658-46bb-9bcc-5432cf1ee5cd
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Assistant
 company: Berry Recruitment - Agency - Permanent
 location: Didcot
@@ -371,6 +395,18 @@ company: Cameo Consultancy - Agency - Permanent
 location: Banbury
 source: JobG8
 job_id: jobg8-23643_225664457
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Ward Clerk
+company: Oxford University Hospitals NHS Foundation Trust
+location: Banbury, OX16 9AL
+source: NHS Jobs
+job_id: nhs-5664768
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 

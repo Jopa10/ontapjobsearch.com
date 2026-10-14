@@ -4,7 +4,7 @@
 - Live route: `/leicester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 12
+- Effective included jobs: 14
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
-- automatic review: 39
+- automatic include: 14
+- automatic review: 40
 - automatic exclude: 0
-- effective include: 12
-- effective review: 39
+- effective include: 14
+- effective review: 40
 - effective exclude: 0
 
-## INCLUDE (12)
+## INCLUDE (14)
 
 ---
 action: 
@@ -112,6 +112,18 @@ reason: Exact approved Leicester workplace.
 action: 
 decision: include
 automatic_decision: include
+title: PA to the Principal
+company: Tudor Grange Samworth Academy, A church of England School
+location: Leicester
+source: Teaching Vacancies
+job_id: teaching-vacancies-pa-to-the-principal-06799846-251b-4b2c-bb1a-eb129a5f5011
+reason: Exact approved Leicester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Parts Administrator
 company: Otis - Company - Permanent
 location: Leicester
@@ -168,7 +180,19 @@ job_id: jobg8-23643_225638400
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (39)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Student Services Administrator
+company: Tudor Grange Samworth Academy, A church of England School
+location: Leicester
+source: Teaching Vacancies
+job_id: teaching-vacancies-student-services-administrator-b483b3bc-5d81-42ee-be3a-16ed93deb17d
+reason: Exact approved Leicester workplace.
+---
+
+## REVIEW (40)
 
 ---
 action: 
@@ -587,6 +611,18 @@ company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
 location: Coalville
 source: JobG8
 job_id: jobg8-23643_225694630
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: School Administrator
+company: Loughborough Church of England Primary School
+location: Loughborough
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-administrator-loughborough-church-of-england-primary-school-loughborough-leicestershire
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

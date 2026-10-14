@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
+- automatic include: 11
 - automatic review: 21
-- automatic exclude: 26
-- effective include: 10
+- automatic exclude: 29
+- effective include: 11
 - effective review: 21
-- effective exclude: 26
+- effective exclude: 29
 
-## INCLUDE (10)
+## INCLUDE (11)
 
 ---
 action: 
@@ -57,6 +57,18 @@ company: PPM Recruitment - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-23643_225652103
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Exams Officer & Cover Administrator
+company: Woldgate School and Sixth Form College
+location: York
+source: Teaching Vacancies
+job_id: teaching-vacancies-assistant-exams-officer-cover-administrator
 reason: Approved York catchment.
 ---
 
@@ -398,7 +410,7 @@ job_id: jobg8-23643_225666115
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (26)
+## EXCLUDE (29)
 
 ---
 action: 
@@ -662,6 +674,42 @@ location: Yorkshire
 source: JobG8
 job_id: jobg8-2055397
 reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: School Administrator
+company: Saltergate Junior School
+location: Harrogate
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-administrator-saltergate-junior-school-harrogate-north-yorkshire
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: SEND Administrator
+company: George Pindar School
+location: Scarborough
+source: Teaching Vacancies
+job_id: teaching-vacancies-send-administrator-george-pindar-school-scarborough
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Senior Administrator
+company: Braeburn Primary and Nursery Academy
+location: Scarborough
+source: Teaching Vacancies
+job_id: teaching-vacancies-senior-administrator-a7025ffa-8f1a-4ca4-8107-74ae6341f075
+reason: Separate employment market.
 ---
 
 ---

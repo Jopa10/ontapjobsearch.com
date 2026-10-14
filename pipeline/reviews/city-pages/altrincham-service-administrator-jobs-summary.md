@@ -114,18 +114,6 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Clerical Officer
-company: Tameside and Glossop Integrated Care NHS Foundation Trust
-location: Denton, M34 2AJ
-source: NHS Jobs
-job_id: nhs-5649765
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Commercial Coordinator
 company: Jobwise Ltd - Agency - Permanent
 location: Stockport
@@ -299,6 +287,18 @@ company: VCG Technology Services Limited - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-108042377
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Team Administrator
+company: Pennine Care NHS FT
+location: Ashton-Under-Lyne, OL6 7SR
+source: NHS Jobs
+job_id: nhs-5643892
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

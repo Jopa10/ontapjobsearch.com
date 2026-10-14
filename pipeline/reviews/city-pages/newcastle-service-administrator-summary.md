@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 20
+- Effective included jobs: 22
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 20
+- automatic include: 22
 - automatic review: 40
-- automatic exclude: 26
-- effective include: 20
+- automatic exclude: 30
+- effective include: 22
 - effective review: 40
-- effective exclude: 26
+- effective exclude: 30
 
-## INCLUDE (20)
+## INCLUDE (22)
 
 ---
 action: 
@@ -57,6 +57,30 @@ company: Gateshead Health NHS Foundation Trust
 location: Gateshead, NE8 4YL
 source: NHS Jobs
 job_id: nhs-5658600
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrative Assistant Level 3
+company: North Gosforth Academy
+location: Newcastle-upon-Tyne
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-level-3-north-gosforth-academy-newcastle-upon-tyne-tyne-and-wear
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator- Student Reception
+company: St Mary's Catholic School
+location: Newcastle-upon-Tyne
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-student-reception
 reason: Approved Newcastle catchment.
 ---
 
@@ -746,7 +770,7 @@ job_id: jobg8-23643_225658559
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (26)
+## EXCLUDE (30)
 
 ---
 action: 
@@ -793,6 +817,30 @@ company: Travail Employment Group - Agency - Temporary
 location: County Durham
 source: JobG8
 job_id: jobg8-23643_225703713
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administration Assistant
+company: St John Bosco Catholic Primary School, Town End Farm, Sunderland
+location: Sunderland
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-st-john-bosco-catholic-primary-school-town-end-farm-sunderland
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administration Assistant
+company: Trinity Academy New Bridge
+location: Sunderland
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-trinity-academy-new-bridge-sunderland
 reason: Separate employment market.
 ---
 
@@ -944,6 +992,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Medical Receptionist
+company: Hartlepool & Stockton Health [H&SH]
+location: HARTLEPOOL, TS25 1QU
+source: NHS Jobs
+job_id: nhs-5639684
+reason: Outside Newcastle catchment.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Part-Time Administrator - Temporary - Durham
 company: Office Angels - Agency - Temporary
 location: Durham
@@ -997,6 +1057,18 @@ company: Hays Business Support - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-23643_225672369
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: School Office Administrator
+company: Northern Saints Church of England Academy
+location: Sunderland
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-office-administrator-northern-saints-church-of-england-academy
 reason: Separate employment market.
 ---
 

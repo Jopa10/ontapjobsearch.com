@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 17
-- automatic review: 41
+- automatic review: 43
 - automatic exclude: 0
 - effective include: 17
-- effective review: 41
+- effective review: 43
 - effective exclude: 0
 
 ## INCLUDE (17)
@@ -64,11 +64,11 @@ reason: Exact approved Exeter workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Attendance Officer
-company: Isca Academy
-location: Exeter
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-4a095b88-91b4-4569-8b60-0007e7f44a59
+title: Business Administrator
+company: Devon Partnership NHS Trust
+location: Exeter, EX2 5AF
+source: NHS Jobs
+job_id: nhs-5662336
 reason: Exact approved Exeter workplace.
 ---
 
@@ -124,6 +124,18 @@ reason: Exact approved Exeter workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Nursery Administrator
+company: Alphington Primary School
+location: Exeter
+source: Teaching Vacancies
+job_id: teaching-vacancies-nursery-administrator-alphington-primary-school-exeter-devon
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Operations Administrator
 company: Office Angels - Agency - Permanent
 location: Exeter
@@ -153,18 +165,6 @@ company: Huntress - Maidstone - Agency - Temporary
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225680752
-reason: Exact approved Exeter workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Senior Administrator
-company: Stansfield Academy
-location: Exeter
-source: Teaching Vacancies
-job_id: teaching-vacancies-senior-administrator-stansfield-academy-exeter-devon
 reason: Exact approved Exeter workplace.
 ---
 
@@ -228,7 +228,7 @@ job_id: nhs-5641361
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (41)
+## REVIEW (43)
 
 ---
 action: 
@@ -318,6 +318,18 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Administrator (Devon Research School and SWIFT Teacher Training)
+company: Education South West
+location: Kingsbridge
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-devon-research-school-and-swift-teacher-training
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrator - 6 months
 company: Hays Business Support - Agency - Temporary
 location: Exmouth
@@ -335,6 +347,18 @@ company: Hays Business Support - Agency - Contract
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225663628
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Support Administrator
+company: Devon Partnership NHS Trust
+location: Newton Abbot, TQ12 2PF
+source: NHS Jobs
+job_id: nhs-5656155
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -443,6 +467,18 @@ company: Build Recruitment - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225691719
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: General Support Administrator
+company: City College Plymouth
+location: Plymouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-general-support-administrator
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -659,18 +695,6 @@ company: Servara Ltd - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225678801
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Student Funding Administrator
-company: City College Plymouth
-location: Plymouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-student-funding-administrator
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

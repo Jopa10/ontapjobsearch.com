@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 14
-- automatic review: 35
+- automatic review: 36
 - automatic exclude: 0
 - effective include: 14
-- effective review: 35
+- effective review: 36
 - effective exclude: 0
 
 ## INCLUDE (14)
@@ -33,18 +33,6 @@ company: JT Recruit - Agency - Temporary
 location: Northampton
 source: JobG8
 job_id: jobg8-23643_225696736
-reason: Exact approved Northampton workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Welford Sibbertoft and Sulby Endowed School
-location: Northampton
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-welford-sibbertoft-and-sulby-endowed-school-northampton-northamptonshire
 reason: Exact approved Northampton workplace.
 ---
 
@@ -105,6 +93,18 @@ company: Impact Recruitment Services - Agency - Permanent
 location: Northampton
 source: JobG8
 job_id: jobg8-23643_225652290
+reason: Exact approved Northampton workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Designated Specialist Provision (DSP) Admin Assistant
+company: Moulton School and Science College
+location: Northampton
+source: Teaching Vacancies
+job_id: teaching-vacancies-designated-specialist-provision-dsp-admin-assistant-moulton-school-and-science-college-northampton-northamptonshire
 reason: Exact approved Northampton workplace.
 ---
 
@@ -192,7 +192,7 @@ job_id: jobg8-23643_225641855
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (35)
+## REVIEW (36)
 
 ---
 action: 
@@ -203,6 +203,18 @@ company: Curtis Recruitment - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-2021745
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Academy Administrator
+company: Lodge Park Academy
+location: Corby
+source: Teaching Vacancies
+job_id: teaching-vacancies-academy-administrator-lodge-park-academy
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

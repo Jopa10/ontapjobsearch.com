@@ -4,7 +4,7 @@
 - Live route: `/bedford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 26
+- automatic include: 6
+- automatic review: 30
 - automatic exclude: 0
-- effective include: 5
-- effective review: 26
+- effective include: 6
+- effective review: 30
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (6)
 
 ---
 action: 
@@ -84,7 +84,19 @@ job_id: teaching-vacancies-pa-to-slt-and-admissions-administrator
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (26)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist/Admin Assistant
+company: Springfield Primary School
+location: Bedford
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-admin-assistant-springfield-primary-school-bedford-bedfordshire
+reason: Exact approved Bedford workplace.
+---
+
+## REVIEW (30)
 
 ---
 action: 
@@ -95,6 +107,30 @@ company: Abacus Consulting - Agency - Temporary
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225714047
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin Assistant (Pupil Responsibility) – Maternity Cover
+company: Dunstable Icknield Lower School
+location: Dunstable
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-assistant-pupil-responsibility-maternity-cover
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Assistant / Receptionist
+company: Lancot School
+location: Dunstable
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-receptionist-b0a5cdce-cd8a-492e-a23a-4838c9fd2813
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -179,18 +215,6 @@ company: Advancing People - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225699982
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Clerical and HR Administrator
-company: Leighton Middle School
-location: Leighton Buzzard
-source: Teaching Vacancies
-job_id: teaching-vacancies-clerical-and-hr-administrator
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -323,6 +347,42 @@ company: Gilmartins - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225678153
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Reprographics and Admin Assistant
+company: Linslade School
+location: Leighton Buzzard
+source: Teaching Vacancies
+job_id: teaching-vacancies-reprographics-and-admin-assistant-linslade-school
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: School Administrator (Term time only + Inset Days)
+company: Edward Peake CofE VC School
+location: Biggleswade
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-administrator-term-time-only-inset-days
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: SEN Inclusion Administrator
+company: Beechwood Primary School
+location: Luton
+source: Teaching Vacancies
+job_id: teaching-vacancies-sen-inclusion-administrator
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

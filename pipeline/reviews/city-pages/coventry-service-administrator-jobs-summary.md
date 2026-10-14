@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 13
+- Effective included jobs: 14
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
-- automatic review: 3
+- automatic include: 14
+- automatic review: 4
 - automatic exclude: 46
-- effective include: 13
-- effective review: 3
+- effective include: 14
+- effective review: 4
 - effective exclude: 46
 
-## INCLUDE (13)
+## INCLUDE (14)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Coventry
 source: JobG8
 job_id: jobg8-2062212
+reason: Approved Coventry catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrative Assistant
+company: Finham Park 2
+location: Coventry
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-finham-park-2
 reason: Approved Coventry catchment.
 ---
 
@@ -180,7 +192,7 @@ job_id: jobg8-23643_225701362
 reason: Approved Coventry catchment.
 ---
 
-## REVIEW (3)
+## REVIEW (4)
 
 ---
 action: 
@@ -191,6 +203,18 @@ company: Options Resourcing Ltd - Agency - Permanent
 location: Southam
 source: JobG8
 job_id: jobg8-23643_225631423
+reason: No approved Coventry catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist and Administrator (2 days per week)
+company: Kenilworth School and Sixth Form
+location: Kenilworth
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-and-administrator-2-days-per-week
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 

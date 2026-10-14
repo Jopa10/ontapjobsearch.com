@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 117
+- automatic review: 120
 - automatic exclude: 0
 - effective include: 4
-- effective review: 117
+- effective review: 120
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225654686
 reason: Exact approved Farnham workplace.
 ---
 
-## REVIEW (117)
+## REVIEW (120)
 
 ---
 action: 
@@ -179,6 +179,18 @@ company: Surrey County Council - Company - Permanent
 location: Leatherhead
 source: JobG8
 job_id: jobg8-23643_225618414
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Attendance and Admissions Officer
+company: Danetree Primary School
+location: Epsom
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-and-admissions-officer-99fe5e07-7ceb-4f8e-990c-280021c94b74
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -479,6 +491,18 @@ company: Faith Recruitment - Agency - Permanent
 location: Esher
 source: JobG8
 job_id: jobg8-23643_225674329
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Deputy Examinations Officer
+company: Godalming College
+location: Godalming
+source: Teaching Vacancies
+job_id: teaching-vacancies-deputy-examinations-officer-godalming-college-godalming-surrey
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 
@@ -1151,6 +1175,18 @@ company: Reed - Agency - Permanent
 location: Cranleigh
 source: JobG8
 job_id: jobg8-2075805
+reason: No exact Farnham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Safeguarding and SEND Administrative Assistant
+company: Eastwick Infant School
+location: Leatherhead
+source: Teaching Vacancies
+job_id: teaching-vacancies-safeguarding-and-send-administrative-assistant-eastwick-infant-school-leatherhead-surrey
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 

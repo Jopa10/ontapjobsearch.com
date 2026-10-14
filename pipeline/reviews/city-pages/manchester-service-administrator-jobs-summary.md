@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 87
+- Effective included jobs: 91
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 87
+- automatic include: 91
 - automatic review: 20
 - automatic exclude: 10
-- effective include: 87
+- effective include: 91
 - effective review: 20
 - effective exclude: 10
 
-## INCLUDE (87)
+## INCLUDE (91)
 
 ---
 action: 
@@ -328,6 +328,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Data and Examinations Officer
+company: Eden Girls' Leadership Academy, Manchester
+location: Manchester
+source: Teaching Vacancies
+job_id: teaching-vacancies-data-and-examinations-officer-eden-girls-leadership-academy-manchester
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Digital Experience Manager
 company: Domino&;s Pizza - Agency - Permanent
 location: Manchester
@@ -369,6 +381,18 @@ company: Optimise Talent Ltd - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225124951
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Exams Officer
+company: Chorlton High School
+location: Manchester
+source: Teaching Vacancies
+job_id: teaching-vacancies-exams-officer-chorlton-high-school
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -856,6 +880,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist & Admin
+company: The Vallance Brunswick Group
+location: Manchester, M13 9UJ
+source: NHS Jobs
+job_id: nhs-5664083
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist / Administrator
 company: TeacherActive - Agency - Temporary
 location: Manchester
@@ -969,6 +1005,18 @@ company: Search Consultancy Ltd - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225709014
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: SEND Administrator
+company: Abraham Moss Community School
+location: Manchester
+source: Teaching Vacancies
+job_id: teaching-vacancies-send-administrator-abraham-moss-community-school
 reason: Approved conservative Manchester launch catchment.
 ---
 

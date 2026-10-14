@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 21
+- Effective included jobs: 24
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 21
+- automatic include: 24
 - automatic review: 3
-- automatic exclude: 27
-- effective include: 21
+- automatic exclude: 28
+- effective include: 24
 - effective review: 3
-- effective exclude: 27
+- effective exclude: 28
 
-## INCLUDE (21)
+## INCLUDE (24)
 
 ---
 action: 
@@ -88,6 +88,18 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Attendance Officer
+company: Astrea Academy Sheffield
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-officer-astrea-academy-sheffield
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Audience Development Coordinator - Local Authority - Libraries
 company: Reed - Agency - Permanent
 location: Sheffield
@@ -117,6 +129,18 @@ company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S10 2JF
 source: NHS Jobs
 job_id: nhs-5657398
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Clerical Officer/Receptionist
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S10 2JF
+source: NHS Jobs
+job_id: nhs-5662272
 reason: Approved Sheffield catchment.
 ---
 
@@ -232,6 +256,18 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Personal Assistant
+company: Bradfield Secondary School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-personal-assistant-bradfield-secondary-school
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Purchase Ledger Clerk
 company: Albion Search - Agency - Permanent
 location: Sheffield
@@ -268,11 +304,11 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: SCITT Administrator
-company: Chorus Education Trust
+title: SEND Administrator
+company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
-job_id: teaching-vacancies-scitt-administrator-chorus-education-trust
+job_id: teaching-vacancies-send-administrator-adcabd9c-b940-45d0-a8f0-52fec00f63a2
 reason: Approved Sheffield catchment.
 ---
 
@@ -314,7 +350,7 @@ job_id: jobg8-23643_225712413
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (27)
+## EXCLUDE (28)
 
 ---
 action: 
@@ -625,6 +661,18 @@ company: White House Farm Medical Centre
 location: Doncaster, DN3 3AH
 source: NHS Jobs
 job_id: nhs-5647395
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist & Admin Assistant
+company: Willow Tree Academy
+location: Rotherham
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-admin-assistant-willow-tree-academy
 reason: Separate employment market.
 ---
 

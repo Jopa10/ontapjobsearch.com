@@ -4,8 +4,8 @@
 - Live route: `/shrewsbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
-- Threshold currently met: no
+- Effective included jobs: 4
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 14
+- automatic include: 4
+- automatic review: 16
 - automatic exclude: 0
-- effective include: 3
-- effective review: 14
+- effective include: 4
+- effective review: 16
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (4)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrative Assistant
+company: Radbrook Primary School
+location: Shrewsbury
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-radbrook-primary-school
+reason: Exact approved Shrewsbury workplace.
+---
 
 ---
 action: 
@@ -60,7 +72,7 @@ job_id: jobg8-23643_225715945
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (14)
+## REVIEW (16)
 
 ---
 action: 
@@ -83,6 +95,18 @@ company: Barchester Healthcare - Company - Permanent
 location: Shropshire
 source: JobG8
 job_id: jobg8-23643_225710199
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrative Assistant - Reprographics/Student Services
+company: The Marches School
+location: Oswestry
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-reprographics-student-services
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -203,6 +227,18 @@ company: Consula Group LTD - Agency - Permanent
 location: Shropshire
 source: JobG8
 job_id: jobg8-2078865
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Reception Administrator
+company: Windmill Primary School
+location: Telford
+source: Teaching Vacancies
+job_id: teaching-vacancies-reception-administrator-windmill-primary-school
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

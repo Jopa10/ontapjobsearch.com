@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 7
 - automatic review: 58
-- automatic exclude: 26
+- automatic exclude: 28
 - effective include: 7
 - effective review: 58
-- effective exclude: 26
+- effective exclude: 28
 
 ## INCLUDE (7)
 
@@ -806,7 +806,7 @@ job_id: jobg8-23643_225699794
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (26)
+## EXCLUDE (28)
 
 ---
 action: 
@@ -896,6 +896,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Administrative Assistant
+company: Heron Park Primary Academy
+location: Eastbourne
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-91c2bb10-6af8-4419-845b-e5add4b37610
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Administrator
 company: Harris Lord Recruitment - Agency - Temporary
 location: Horsham
@@ -908,11 +920,23 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administrator
-company: St Leonards Church of England Primary Academy
-location: St Leonards-on-Sea
+title: Admissions / Transition Assistant & Community Receptionist
+company: Tanbridge House School
+location: Horsham
 source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-st-leonards-church-of-england-primary-academy
+job_id: teaching-vacancies-admissions-transition-assistant-community-receptionist-tanbridge-house-school
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Attendance Officer
+company: Oakwood Primary Academy
+location: Eastbourne
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-officer-oakwood-primary-academy
 reason: Separate employment market.
 ---
 
@@ -1016,18 +1040,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist / Administrator
-company: Sussex Community NHS Foundation Trust
-location: Bognor Regis, PO22 9PP
-source: NHS Jobs
-job_id: nhs-5659948
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Residential Conveyancing Legal Assistant (Hybrid)
 company: SJC Partners - Agency - Permanent
 location: Chichester
@@ -1069,6 +1081,18 @@ company: Pavilion Recruitment Solutions - Agency - Permanent
 location: Crawley
 source: JobG8
 job_id: jobg8-2048366
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Senior Leadership Team Administrator
+company: Milton Mount Primary School
+location: Crawley
+source: Teaching Vacancies
+job_id: teaching-vacancies-senior-leadership-team-administrator-milton-mount-primary-school
 reason: Separate employment market.
 ---
 

@@ -4,8 +4,8 @@
 - Live route: `/worcester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
-- Threshold currently met: no
+- Effective included jobs: 4
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 19
+- automatic include: 4
+- automatic review: 22
 - automatic exclude: 0
-- effective include: 3
-- effective review: 19
+- effective include: 4
+- effective review: 22
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (4)
 
 ---
 action: 
@@ -52,6 +52,18 @@ reason: Exact approved Worcester workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist
+company: Spring Gardens Group Medical Practice
+location: Worcester, WR1 2BS
+source: NHS Jobs
+job_id: nhs-5633214
+reason: Exact approved Worcester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Wedding & Events Co-ordinator
 company: Four Squared - Agency - Permanent
 location: Worcester
@@ -60,7 +72,7 @@ job_id: jobg8-2074804
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (19)
+## REVIEW (22)
 
 ---
 action: 
@@ -263,6 +275,42 @@ company: Adecco - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-23643_225630625
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Office Administrator
+company: Northleigh CofE Primary School
+location: Malvern
+source: Teaching Vacancies
+job_id: teaching-vacancies-office-administrator-northleigh-cofe-primary-school
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Office Administrator (Burford Road site)
+company: Bengeworth CE Academy
+location: Evesham
+source: Teaching Vacancies
+job_id: teaching-vacancies-office-administrator-burford-road-site
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part-Time Student Receptionist/Main Receptionist
+company: South Bromsgrove High
+location: Bromsgrove
+source: Teaching Vacancies
+job_id: teaching-vacancies-part-time-student-receptionist-main-receptionist
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

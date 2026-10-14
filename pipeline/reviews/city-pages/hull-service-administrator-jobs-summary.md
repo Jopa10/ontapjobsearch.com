@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 22
+- Effective included jobs: 23
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 22
-- automatic review: 8
+- automatic include: 23
+- automatic review: 9
 - automatic exclude: 0
-- effective include: 22
-- effective review: 8
+- effective include: 23
+- effective review: 9
 - effective exclude: 0
 
-## INCLUDE (22)
+## INCLUDE (23)
 
 ---
 action: 
@@ -244,6 +244,18 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist/Cover Coordinator
+company: Sirius Academy North
+location: Hull
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-cover-coordinator-sirius-academy-north
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Sales Administrator
 company: Prestige Recruitment Specialists - Agency - Permanent
 location: Hull
@@ -288,7 +300,7 @@ job_id: jobg8-23643_225617740
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (8)
+## REVIEW (9)
 
 ---
 action: 
@@ -299,6 +311,18 @@ company: Si Recruitment - Agency - Permanent
 location: Goole
 source: JobG8
 job_id: jobg8-2074255
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Hull University Teaching Hospitals NHS Trust
+location: Cottingham, HU16 5JQ
+source: NHS Jobs
+job_id: nhs-5641720
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

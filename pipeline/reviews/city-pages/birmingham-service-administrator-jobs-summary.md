@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 82
+- Effective included jobs: 85
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 82
-- automatic review: 16
+- automatic include: 85
+- automatic review: 17
 - automatic exclude: 6
-- effective include: 82
-- effective review: 16
+- effective include: 85
+- effective review: 17
 - effective exclude: 6
 
-## INCLUDE (82)
+## INCLUDE (85)
 
 ---
 action: 
@@ -172,6 +172,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Attendance Officer
+company: Coleshill Church of England Primary School
+location: Birmingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-officer-coleshill-church-of-england-primary-school
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Band 3 Administrator
 company: University Hospitals Birmingham NHS Foundation Trust
 location: Birmingham, B9 5SS
@@ -208,6 +220,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Business Support Assistant
+company: Starbank School
+location: Birmingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-business-support-assistant-087bd7f2-00c8-4216-9f63-98fee8083d04
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Business Support Coordinator (Part time)
 company: Four Squared Recruitment Ltd - Agency - Permanent
 location: Birmingham
@@ -237,6 +261,18 @@ company: GreenSquareAccord - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225635349
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Cover Administrator (including reprographics) - TTO + 2 Weeks
+company: Tudor Grange Academy Kingshurst
+location: Birmingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-cover-administrator-including-reprographics-tto-2-weeks-tudor-grange-academy-kingshurst-birmingham
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -712,18 +748,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Office Administrator
-company: Kings Rise Academy
-location: Birmingham
-source: Teaching Vacancies
-job_id: teaching-vacancies-office-administrator-kings-rise-academy
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Office Assistant
 company: Affinity People - Agency - Permanent
 location: Birmingham
@@ -832,6 +856,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist
+company: Q3 Academy Great Barr
+location: Birmingham
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-43f0e0db-e751-4263-b554-d231b0475340
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Sales & Marketing Executive
 company: Four Squared Recruitment Ltd - Agency - Permanent
 location: Birmingham
@@ -892,11 +928,11 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: School Office Administrator
-company: Castle Bromwich Junior School
+title: Senior Administrator
+company: Fairway Primary Academy
 location: Birmingham
 source: Teaching Vacancies
-job_id: teaching-vacancies-school-office-administrator-castle-bromwich-junior-school-birmingham-west-midlands
+job_id: teaching-vacancies-senior-administrator-fairway-primary-academy
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1008,7 +1044,7 @@ job_id: jobg8-2039482
 reason: Approved conservative Birmingham launch catchment.
 ---
 
-## REVIEW (16)
+## REVIEW (17)
 
 ---
 action: 
@@ -1187,6 +1223,18 @@ company: Alma Personnel - Agency - Permanent
 location: Sutton Coldfield
 source: JobG8
 job_id: jobg8-23643_225622480
+reason: No approved Birmingham catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: School Administrator
+company: Sutton Park Primary
+location: Sutton Coldfield
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-administrator-395dae48-626d-47cd-88b7-92b46f8c8d1e
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 

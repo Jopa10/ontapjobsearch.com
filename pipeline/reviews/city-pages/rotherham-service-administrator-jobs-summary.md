@@ -4,7 +4,7 @@
 - Live route: `/rotherham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 2
+- Effective included jobs: 3
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 2
-- automatic review: 49
+- automatic include: 3
+- automatic review: 52
 - automatic exclude: 0
-- effective include: 2
-- effective review: 49
+- effective include: 3
+- effective review: 52
 - effective exclude: 0
 
-## INCLUDE (2)
+## INCLUDE (3)
 
 ---
 action: 
@@ -48,7 +48,19 @@ job_id: jobg8-2087559
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (49)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist & Admin Assistant
+company: Willow Tree Academy
+location: Rotherham
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-admin-assistant-willow-tree-academy
+reason: Exact approved Rotherham workplace.
+---
+
+## REVIEW (52)
 
 ---
 action: 
@@ -186,6 +198,18 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Attendance Officer
+company: Astrea Academy Sheffield
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-officer-astrea-academy-sheffield
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Audience Development Coordinator - Local Authority - Libraries
 company: Reed - Agency - Permanent
 location: Sheffield
@@ -251,6 +275,18 @@ company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S10 2JF
 source: NHS Jobs
 job_id: nhs-5657398
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Clerical Officer/Receptionist
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S10 2JF
+source: NHS Jobs
+job_id: nhs-5662272
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -546,6 +582,18 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Personal Assistant
+company: Bradfield Secondary School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-personal-assistant-bradfield-secondary-school
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Procurement Administrator -Temporary
 company: Hays Business Support - Agency - Temporary
 location: Doncaster
@@ -618,11 +666,11 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: SCITT Administrator
-company: Chorus Education Trust
+title: SEND Administrator
+company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
-job_id: teaching-vacancies-scitt-administrator-chorus-education-trust
+job_id: teaching-vacancies-send-administrator-adcabd9c-b940-45d0-a8f0-52fec00f63a2
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

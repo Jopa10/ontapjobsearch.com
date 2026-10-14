@@ -4,7 +4,7 @@
 - Live route: `/poole/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 11
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 37
+- automatic include: 12
+- automatic review: 40
 - automatic exclude: 0
-- effective include: 11
-- effective review: 37
+- effective include: 12
+- effective review: 40
 - effective exclude: 0
 
-## INCLUDE (11)
+## INCLUDE (12)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Admin Assistant
+company: Southern Education Trust
+location: Poole
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-assistant-southern-education-trust
+reason: Exact approved Poole workplace.
+---
 
 ---
 action: 
@@ -156,7 +168,7 @@ job_id: nhs-5655858
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (37)
+## REVIEW (40)
 
 ---
 action: 
@@ -359,6 +371,18 @@ company: Connect2Dorset - Agency - Temporary
 location: Dorchester
 source: JobG8
 job_id: jobg8-23643_225646313
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: English Department Administrator & Librarian
+company: The Bishop of Winchester Academy
+location: Bournemouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-english-department-administrator-librarian
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -570,6 +594,18 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist & Admin Assistant
+company: Ferndown Middle School
+location: Ferndown
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-admin-assistant-ferndown-middle-school
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist / Practice Administrator
 company: The Panton Practice
 location: Bournemouth, BH1 3EG, BOURNEMOUTH, BH8 8QN
@@ -587,6 +623,18 @@ company: Team Jobs - Strategic Accounts - Agency - Contract
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225684577
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Team Administrator
+company: Dorset HealthCare University NHS Foundation Trust
+location: Dorchester, DT1 2FD
+source: NHS Jobs
+job_id: nhs-5664520
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

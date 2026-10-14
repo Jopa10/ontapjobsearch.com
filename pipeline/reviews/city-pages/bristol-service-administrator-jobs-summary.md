@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 38
+- Effective included jobs: 40
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 38
+- automatic include: 40
 - automatic review: 6
 - automatic exclude: 8
-- effective include: 38
+- effective include: 40
 - effective review: 6
 - effective exclude: 8
 
-## INCLUDE (38)
+## INCLUDE (40)
 
 ---
 action: 
@@ -220,6 +220,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Exams Officer
+company: Downend School
+location: Bristol
+source: Teaching Vacancies
+job_id: teaching-vacancies-exams-officer-downend-school-bristol
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Finance Assistant
 company: Artis Recruitment - Agency - Permanent
 location: Bristol
@@ -357,6 +369,18 @@ company: Menlo Park - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225678230
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Practice Receptionist
+company: West View Surgery
+location: Bristol, BS31 1BX
+source: NHS Jobs
+job_id: nhs-5635693
 reason: Approved conservative Bristol launch catchment.
 ---
 

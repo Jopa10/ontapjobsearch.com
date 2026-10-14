@@ -4,7 +4,7 @@
 - Live route: `/gloucester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
+- automatic include: 6
 - automatic review: 45
 - automatic exclude: 0
-- effective include: 5
+- effective include: 6
 - effective review: 45
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (6)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: ABL Health Ltd
 location: Gloucester, GL1 1PX
 source: NHS Jobs
 job_id: nhs-5633613
+reason: Exact approved Gloucester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Lead Administrator with Reception Duties
+company: Gloucester Academy
+location: Gloucester
+source: Teaching Vacancies
+job_id: teaching-vacancies-lead-administrator-with-reception-duties
 reason: Exact approved Gloucester workplace.
 ---
 

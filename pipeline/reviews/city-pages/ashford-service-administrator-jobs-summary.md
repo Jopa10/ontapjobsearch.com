@@ -4,7 +4,7 @@
 - Live route: `/ashford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 91
+- automatic include: 7
+- automatic review: 93
 - automatic exclude: 0
-- effective include: 6
-- effective review: 91
+- effective include: 7
+- effective review: 93
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (7)
 
 ---
 action: 
@@ -76,6 +76,18 @@ reason: Exact approved Ashford workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Outpatient Receptionist
+company: East Kent Hospitals University NHS Foundation Trust
+location: Ashford, TN24 0LZ
+source: NHS Jobs
+job_id: nhs-5658663
+reason: Exact approved Ashford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Practice Bookkeeper
 company: Farrer Barnes Limited - Agency - Permanent
 location: Ashford
@@ -96,7 +108,7 @@ job_id: nhs-5653187
 reason: Exact approved Ashford workplace.
 ---
 
-## REVIEW (91)
+## REVIEW (93)
 
 ---
 action: 
@@ -143,18 +155,6 @@ company: Northgate Medical Practice
 location: Canterbury, CT1 1WL
 source: NHS Jobs
 job_id: nhs-5612839
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrative Assistant
-company: Hillview School for Girls
-location: Tonbridge
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-hillview-school-for-girls-tonbridge-kent
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -462,6 +462,18 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Examinations & Admissions Officer
+company: Waterfront UTC
+location: Chatham
+source: Teaching Vacancies
+job_id: teaching-vacancies-examinations-admissions-officer-waterfront-utc
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Family Legal Assistant
 company: Recruitment Solutions - Agency - Permanent
 location: Kent
@@ -695,6 +707,18 @@ company: Canterbury Medical Practice
 location: Canterbury, CT1 3NR, CANTERBURY, CT3 1TX, CANTERBURY, CT4 5BL
 source: NHS Jobs
 job_id: nhs-5659048
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: PA to Headteacher
+company: Stone Lodge School
+location: Dartford
+source: Teaching Vacancies
+job_id: teaching-vacancies-pa-to-headteacher-stone-lodge-school-dartford-kent
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -971,6 +995,18 @@ company: Office Angels - Agency - Temporary
 location: Dartford
 source: JobG8
 job_id: jobg8-23643_225709764
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Senior Administrator
+company: Royal Rise Primary School
+location: Tonbridge
+source: Teaching Vacancies
+job_id: teaching-vacancies-senior-administrator-royal-rise-primary-school
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 

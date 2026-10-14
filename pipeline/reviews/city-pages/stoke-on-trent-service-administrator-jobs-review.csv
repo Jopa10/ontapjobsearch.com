@@ -1,5 +1,4 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
-include,teaching-vacancies-examinations-officer-blythe-bridge-high-school,Examinations Officer,Blythe Bridge High School,Stoke-on-Trent,Teaching Vacancies,include,include,Exact approved Stoke-on-trent workplace.,exact:stoke-on-trent,stoke-on-trent-service-administrator-jobs
 include,jobg8-23643_225686383,Marketing Executive,Work Lyf Group Ltd - Agency - Permanent,Stoke-On-Trent,JobG8,include,include,Exact approved Stoke-on-trent workplace.,exact:stoke-on-trent,stoke-on-trent-service-administrator-jobs
 include,jobg8-23643_225694683,Recruitment Administrator,Meridian Business Support - Agency - Permanent,Stoke-On-Trent,JobG8,include,include,Exact approved Stoke-on-trent workplace.,exact:stoke-on-trent,stoke-on-trent-service-administrator-jobs
 include,jobg8-23643_225711477,Sales Support Administrator (Part Time),Digital Appointments - Agency - Permanent,Stoke-On-Trent,JobG8,include,include,Exact approved Stoke-on-trent workplace.,exact:stoke-on-trent,stoke-on-trent-service-administrator-jobs

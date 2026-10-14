@@ -40,6 +40,18 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Administrative Assistant
+company: The Beacon Church of England Primary School
+location: Liverpool
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-ab978b6d-c1dd-4b20-b920-253425188e5b
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Administrator
 company: Search Consultancy Ltd - Agency - Permanent
 location: Liverpool
@@ -112,11 +124,11 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Graphic Design Coordinator
-company: John Moores Students' Union - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-2124717
+title: GP Receptionist/Administrator
+company: 30 Kingsway Surgery
+location: Liverpool, L22 4RQ
+source: NHS Jobs
+job_id: nhs-5662247
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -124,11 +136,11 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Health Records Clerk
-company: Liverpool University Hospitals NHS Foundation Trust
-location: Liverpool, L14 3PE
-source: NHS Jobs
-job_id: nhs-5641089
+title: Graphic Design Coordinator
+company: John Moores Students' Union - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-2124717
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -177,18 +189,6 @@ company: Stafforce Ports - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-23643_225691969
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: King's Leadership Academy Wavertree
-location: Liverpool
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-6daa74e9-7381-4a23-93df-9b2577545b8a
 reason: Approved conservative Liverpool launch catchment.
 ---
 

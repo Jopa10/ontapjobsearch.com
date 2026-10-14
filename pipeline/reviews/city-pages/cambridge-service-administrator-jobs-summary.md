@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 19
+- Effective included jobs: 22
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 19
-- automatic review: 9
-- automatic exclude: 13
-- effective include: 19
-- effective review: 9
-- effective exclude: 13
+- automatic include: 22
+- automatic review: 12
+- automatic exclude: 14
+- effective include: 22
+- effective review: 12
+- effective exclude: 14
 
-## INCLUDE (19)
+## INCLUDE (22)
 
 ---
 action: 
@@ -57,6 +57,30 @@ company: Pure Resourcing Solutions Limited - Agency - Temporary
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-23643_225701703
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administration Assistant
+company: Hardwick and Cambourne Community Primary School
+location: Cambridge
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-hardwick-and-cambourne-community-primary-school
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrative Assistant (International and Community Projects)
+company: North Cambridge Academy
+location: Cambridge
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-international-and-community-projects-north-cambridge-academy
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -252,7 +276,31 @@ job_id: jobg8-2074616
 reason: Approved conservative Cambridge launch catchment.
 ---
 
-## REVIEW (9)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Senior Office Administrator
+company: Pathfinder CofE Primary School
+location: Cambridge
+source: Teaching Vacancies
+job_id: teaching-vacancies-senior-office-administrator-3a5f781d-04a4-440d-b3a1-75326476e3e9
+reason: Approved conservative Cambridge launch catchment.
+---
+
+## REVIEW (12)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator (SEN and Careers)
+company: Marshland High School
+location: Wisbech
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-sen-and-careers
+reason: No approved Cambridge catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -275,6 +323,30 @@ company: Reed - Agency - Permanent
 location: St. Neots
 source: JobG8
 job_id: jobg8-2070623
+reason: No approved Cambridge catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Attendance Administrator
+company: Vista Academy Littleport
+location: Ely
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-administrator-vista-academy-littleport
+reason: No approved Cambridge catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Attendance Administrator
+company: Witchford Village College
+location: Ely
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-administrator-witchford-village-college
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
@@ -362,7 +434,7 @@ job_id: jobg8-23643_225691104
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (13)
+## EXCLUDE (14)
 
 ---
 action: 
@@ -421,6 +493,18 @@ company: Cambridgeshire and Peterborough NHS Foundation Trust
 location: Peterborough, PE3 6DB
 source: NHS Jobs
 job_id: nhs-5659339
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Business Administrator Apprentice
+company: Greater Peterborough UTC
+location: Peterborough
+source: Teaching Vacancies
+job_id: teaching-vacancies-business-administrator-apprentice-greater-peterborough-utc
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/southampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 13
+- Effective included jobs: 14
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
+- automatic include: 14
 - automatic review: 73
-- automatic exclude: 34
-- effective include: 13
+- automatic exclude: 35
+- effective include: 14
 - effective review: 73
-- effective exclude: 34
+- effective exclude: 35
 
-## INCLUDE (13)
+## INCLUDE (14)
 
 ---
 action: 
@@ -69,6 +69,18 @@ company: NHS Professionals - Company - Temporary
 location: Southampton
 source: JobG8
 job_id: jobg8-23643_225637909
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: University Hospital Southampton NHS Trust
+location: Southampton, SO16 6YD
+source: NHS Jobs
+job_id: nhs-5663473
 reason: Approved Southampton catchment.
 ---
 
@@ -1058,7 +1070,7 @@ job_id: jobg8-23643_225665585
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (34)
+## EXCLUDE (35)
 
 ---
 action: 
@@ -1429,6 +1441,18 @@ company: TPF Recruitment - Agency - Permanent
 location: Eastleigh
 source: JobG8
 job_id: jobg8-2064740
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Reception Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Portsmouth, PO3 6AD
+source: NHS Jobs
+job_id: nhs-5663646
 reason: Separate employment market.
 ---
 

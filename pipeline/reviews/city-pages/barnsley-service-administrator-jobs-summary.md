@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 8
 - automatic review: 3
-- automatic exclude: 40
+- automatic exclude: 44
 - effective include: 8
 - effective review: 3
-- effective exclude: 40
+- effective exclude: 44
 
 ## INCLUDE (8)
 
@@ -158,7 +158,7 @@ job_id: jobg8-23643_225712413
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (40)
+## EXCLUDE (44)
 
 ---
 action: 
@@ -272,6 +272,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Attendance Officer
+company: Astrea Academy Sheffield
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-attendance-officer-astrea-academy-sheffield
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Audience Development Coordinator - Local Authority - Libraries
 company: Reed - Agency - Permanent
 location: Sheffield
@@ -337,6 +349,18 @@ company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S10 2JF
 source: NHS Jobs
 job_id: nhs-5657398
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Clerical Officer/Receptionist
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S10 2JF
+source: NHS Jobs
+job_id: nhs-5662272
 reason: Separate employment market.
 ---
 
@@ -548,6 +572,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Personal Assistant
+company: Bradfield Secondary School
+location: Sheffield
+source: Teaching Vacancies
+job_id: teaching-vacancies-personal-assistant-bradfield-secondary-school
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Procurement Administrator -Temporary
 company: Hays Business Support - Agency - Temporary
 location: Doncaster
@@ -632,10 +668,22 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: SCITT Administrator
-company: Chorus Education Trust
+title: Receptionist & Admin Assistant
+company: Willow Tree Academy
+location: Rotherham
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-admin-assistant-willow-tree-academy
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: SEND Administrator
+company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
-job_id: teaching-vacancies-scitt-administrator-chorus-education-trust
+job_id: teaching-vacancies-send-administrator-adcabd9c-b940-45d0-a8f0-52fec00f63a2
 reason: Separate employment market.
 ---

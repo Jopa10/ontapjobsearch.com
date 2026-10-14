@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 52
+- automatic review: 54
 - automatic exclude: 0
 - effective include: 6
-- effective review: 52
+- effective review: 54
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -64,6 +64,18 @@ reason: Exact approved Plymouth workplace.
 action: 
 decision: include
 automatic_decision: include
+title: General Support Administrator
+company: City College Plymouth
+location: Plymouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-general-support-administrator
+reason: Exact approved Plymouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: HR Administrator - Employee Relations
 company: Acorn by Synergie - Agency - Temporary
 location: Plymouth
@@ -84,19 +96,7 @@ job_id: teaching-vacancies-mis-administrator-maternity-cover
 reason: Exact approved Plymouth workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Student Funding Administrator
-company: City College Plymouth
-location: Plymouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-student-funding-administrator
-reason: Exact approved Plymouth workplace.
----
-
-## REVIEW (52)
+## REVIEW (54)
 
 ---
 action: 
@@ -210,6 +210,18 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: Administrator (Devon Research School and SWIFT Teacher Training)
+company: Education South West
+location: Kingsbridge
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-devon-research-school-and-swift-teacher-training
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrator - 6 months
 company: Hays Business Support - Agency - Temporary
 location: Exmouth
@@ -234,11 +246,23 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Attendance Officer
-company: Isca Academy
-location: Exeter
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-4a095b88-91b4-4569-8b60-0007e7f44a59
+title: Business Administrator
+company: Devon Partnership NHS Trust
+location: Exeter, EX2 5AF
+source: NHS Jobs
+job_id: nhs-5662336
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Support Administrator
+company: Devon Partnership NHS Trust
+location: Newton Abbot, TQ12 2PF
+source: NHS Jobs
+job_id: nhs-5656155
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -426,6 +450,18 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: Nursery Administrator
+company: Alphington Primary School
+location: Exeter
+source: Teaching Vacancies
+job_id: teaching-vacancies-nursery-administrator-alphington-primary-school-exeter-devon
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Office & Operations Administrator
 company: Acorn by Synergie - Agency - Permanent
 location: Devon
@@ -599,18 +635,6 @@ company: Servara Ltd - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225678801
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Senior Administrator
-company: Stansfield Academy
-location: Exeter
-source: Teaching Vacancies
-job_id: teaching-vacancies-senior-administrator-stansfield-academy-exeter-devon
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

@@ -1,6 +1,7 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-2067302,Accounts Assistant,Morgan McKinley - Agency - Permanent,Gloucester,JobG8,include,include,Exact approved Gloucester workplace.,exact:gloucester,gloucester-service-administrator-jobs
 include,nhs-5633613,Administrator,ABL Health Ltd,"Gloucester, GL1 1PX",NHS Jobs,include,include,Exact approved Gloucester workplace.,exact:gloucester,gloucester-service-administrator-jobs
+include,teaching-vacancies-lead-administrator-with-reception-duties,Lead Administrator with Reception Duties,Gloucester Academy,Gloucester,Teaching Vacancies,include,include,Exact approved Gloucester workplace.,exact:gloucester,gloucester-service-administrator-jobs
 include,jobg8-2063393,Purchase Ledger,SF Partners - Agency - Permanent,Gloucester,JobG8,include,include,Exact approved Gloucester workplace.,exact:gloucester,gloucester-service-administrator-jobs
 include,jobg8-23643_225690247,Receptionist,Travail Employment Group - Agency - Temporary,Gloucester,JobG8,include,include,Exact approved Gloucester workplace.,exact:gloucester,gloucester-service-administrator-jobs
 include,jobg8-2085791,Salesforce Administrator,UBT - Agency - Permanent,Gloucester,JobG8,include,include,Exact approved Gloucester workplace.,exact:gloucester,gloucester-service-administrator-jobs

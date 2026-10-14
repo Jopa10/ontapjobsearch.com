@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 115
+- automatic review: 117
 - automatic exclude: 0
 - effective include: 5
-- effective review: 115
+- effective review: 117
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-23643_225686728
 reason: Exact approved Basingstoke workplace.
 ---
 
-## REVIEW (115)
+## REVIEW (117)
 
 ---
 action: 
@@ -371,6 +371,18 @@ company: Royal Surrey NHS Foundation Trust
 location: Aldershot, Hampshire, GU11 1AY
 source: NHS Jobs
 job_id: nhs-5650314
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: University Hospital Southampton NHS Trust
+location: Southampton, SO16 6YD
+source: NHS Jobs
+job_id: nhs-5663473
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -1223,6 +1235,18 @@ company: Tate - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225616571
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Reception Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Portsmouth, PO3 6AD
+source: NHS Jobs
+job_id: nhs-5663646
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 

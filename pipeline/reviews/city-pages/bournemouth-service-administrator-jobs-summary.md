@@ -4,7 +4,7 @@
 - Live route: `/bournemouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 40
+- automatic include: 9
+- automatic review: 43
 - automatic exclude: 0
-- effective include: 8
-- effective review: 40
+- effective include: 9
+- effective review: 43
 - effective exclude: 0
 
-## INCLUDE (8)
+## INCLUDE (9)
 
 ---
 action: 
@@ -57,6 +57,18 @@ company: Tru Talent - Agency - Permanent
 location: Bournemouth
 source: JobG8
 job_id: jobg8-23643_225696513
+reason: Exact approved Bournemouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: English Department Administrator & Librarian
+company: The Bishop of Winchester Academy
+location: Bournemouth
+source: Teaching Vacancies
+job_id: teaching-vacancies-english-department-administrator-librarian
 reason: Exact approved Bournemouth workplace.
 ---
 
@@ -120,7 +132,7 @@ job_id: nhs-5651442
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (40)
+## REVIEW (43)
 
 ---
 action: 
@@ -143,6 +155,18 @@ company: Barchester Healthcare - Company - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225673518
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin Assistant
+company: Southern Education Trust
+location: Poole
+source: Teaching Vacancies
+job_id: teaching-vacancies-admin-assistant-southern-education-trust
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -582,11 +606,35 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist & Admin Assistant
+company: Ferndown Middle School
+location: Ferndown
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-admin-assistant-ferndown-middle-school
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Shipping Administrator
 company: Team Jobs - Strategic Accounts - Agency - Contract
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225684577
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Team Administrator
+company: Dorset HealthCare University NHS Foundation Trust
+location: Dorchester, DT1 2FD
+source: NHS Jobs
+job_id: nhs-5664520
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

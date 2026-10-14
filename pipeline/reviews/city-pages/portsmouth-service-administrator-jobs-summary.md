@@ -4,7 +4,7 @@
 - Live route: `/portsmouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 113
+- automatic include: 8
+- automatic review: 114
 - automatic exclude: 0
-- effective include: 7
-- effective review: 113
+- effective include: 8
+- effective review: 114
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (8)
 
 ---
 action: 
@@ -100,6 +100,18 @@ reason: Exact approved Portsmouth workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Reception Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Portsmouth, PO3 6AD
+source: NHS Jobs
+job_id: nhs-5663646
+reason: Exact approved Portsmouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Residential Conveyancing Assistant - Post Completions
 company: Harwood Recruitment Solutions Ltd - Agency - Permanent
 location: Portsmouth
@@ -108,7 +120,7 @@ job_id: jobg8-23643_225684953
 reason: Exact approved Portsmouth workplace.
 ---
 
-## REVIEW (113)
+## REVIEW (114)
 
 ---
 action: 
@@ -383,6 +395,18 @@ company: Royal Surrey NHS Foundation Trust
 location: Aldershot, Hampshire, GU11 1AY
 source: NHS Jobs
 job_id: nhs-5650314
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: University Hospital Southampton NHS Trust
+location: Southampton, SO16 6YD
+source: NHS Jobs
+job_id: nhs-5663473
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 

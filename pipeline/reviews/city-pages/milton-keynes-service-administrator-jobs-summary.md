@@ -4,7 +4,7 @@
 - Live route: `/milton-keynes/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 16
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
-- automatic review: 56
+- automatic include: 18
+- automatic review: 57
 - automatic exclude: 0
-- effective include: 16
-- effective review: 56
+- effective include: 18
+- effective review: 57
 - effective exclude: 0
 
-## INCLUDE (16)
+## INCLUDE (18)
 
 ---
 action: 
@@ -57,6 +57,18 @@ company: Morgan McKinley - Agency - Permanent
 location: Milton Keynes
 source: JobG8
 job_id: jobg8-2057564
+reason: Exact approved Milton Keynes workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator - Prison Education - HMP Bullingdon
+company: Milton Keynes College
+location: Milton Keynes
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-prison-education-hmp-bullingdon
 reason: Exact approved Milton Keynes workplace.
 ---
 
@@ -160,6 +172,18 @@ reason: Exact approved Milton Keynes workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Payroll and HR Support Administrator
+company: The Woodlands School
+location: Milton Keynes
+source: Teaching Vacancies
+job_id: teaching-vacancies-payroll-and-hr-support-administrator
+reason: Exact approved Milton Keynes workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist
 company: Osborne Appointments - Agency - Temporary
 location: Milton Keynes
@@ -216,7 +240,7 @@ job_id: nhs-5652428
 reason: Exact approved Milton Keynes workplace.
 ---
 
-## REVIEW (56)
+## REVIEW (57)
 
 ---
 action: 
@@ -558,6 +582,18 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
+title: Development Administrator
+company: Chesham Grammar School
+location: Chesham
+source: Teaching Vacancies
+job_id: teaching-vacancies-development-administrator
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Family Law Paralegal
 company: GEMINI RECRUITMENT SERVICES LTD - Agency - Permanent
 location: Buckinghamshire
@@ -599,18 +635,6 @@ company: NHS Professionals - Company - Temporary
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225650775
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrative Assistant
-company: Stocklake Park Community School
-location: Aylesbury
-source: Teaching Vacancies
-job_id: teaching-vacancies-hr-administrative-assistant-stocklake-park-community-school
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -839,6 +863,18 @@ company: NHS Professionals - Company - Temporary
 location: Buckingham
 source: JobG8
 job_id: jobg8-23643_225718008
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist/Admissions Officer
+company: Bearbrook Combined School
+location: Aylesbury
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-admissions-officer-bearbrook-combined-school
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

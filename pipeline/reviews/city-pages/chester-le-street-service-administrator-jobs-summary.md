@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 86
+- automatic review: 92
 - automatic exclude: 0
 - effective include: 0
-- effective review: 86
+- effective review: 92
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (86)
+## REVIEW (92)
 
 ---
 action: 
@@ -174,6 +174,30 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
+title: Administration Assistant
+company: St John Bosco Catholic Primary School, Town End Farm, Sunderland
+location: Sunderland
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-st-john-bosco-catholic-primary-school-town-end-farm-sunderland
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Assistant
+company: Trinity Academy New Bridge
+location: Sunderland
+source: Teaching Vacancies
+job_id: teaching-vacancies-administration-assistant-trinity-academy-new-bridge-sunderland
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrative & Procurement Assistant
 company: Recruitment Helpline - Agency - Permanent
 location: Gateshead
@@ -191,6 +215,18 @@ company: Gateshead Health NHS Foundation Trust
 location: Gateshead, NE8 4YL
 source: NHS Jobs
 job_id: nhs-5658600
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrative Assistant Level 3
+company: North Gosforth Academy
+location: Newcastle-upon-Tyne
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrative-assistant-level-3-north-gosforth-academy-newcastle-upon-tyne-tyne-and-wear
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -227,6 +263,18 @@ company: Seaton Surgery
 location: Hartlepool, TS25 1AX
 source: NHS Jobs
 job_id: nhs-5637587
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator- Student Reception
+company: St Mary's Catholic School
+location: Newcastle-upon-Tyne
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-student-reception
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -595,6 +643,18 @@ action:
 decision: review
 automatic_decision: review
 title: Medical Receptionist
+company: Hartlepool & Stockton Health [H&SH]
+location: HARTLEPOOL, TS25 1QU
+source: NHS Jobs
+job_id: nhs-5639684
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist
 company: Holmside Medical Group
 location: Newcastle upon Tyne, NE4 8QB, Newcastle Upon Tyne, NE5 1LJ
 source: NHS Jobs
@@ -899,6 +959,18 @@ company: Hays Business Support - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-23643_225672369
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: School Office Administrator
+company: Northern Saints Church of England Academy
+location: Sunderland
+source: Teaching Vacancies
+job_id: teaching-vacancies-school-office-administrator-northern-saints-church-of-england-academy
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 

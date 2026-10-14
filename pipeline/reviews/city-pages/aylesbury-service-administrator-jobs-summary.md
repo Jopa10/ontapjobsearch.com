@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 63
+- automatic review: 66
 - automatic exclude: 0
 - effective include: 9
-- effective review: 63
+- effective review: 66
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -100,11 +100,11 @@ reason: Exact approved Aylesbury workplace.
 action: 
 decision: include
 automatic_decision: include
-title: HR Administrative Assistant
-company: Stocklake Park Community School
-location: Aylesbury
-source: Teaching Vacancies
-job_id: teaching-vacancies-hr-administrative-assistant-stocklake-park-community-school
+title: Medical Receptionist
+company: Primary Care Management Solutions Ltd
+location: Aylesbury, HP21 8TR
+source: NHS Jobs
+job_id: nhs-5619604
 reason: Exact approved Aylesbury workplace.
 ---
 
@@ -112,11 +112,11 @@ reason: Exact approved Aylesbury workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Medical Receptionist
-company: Primary Care Management Solutions Ltd
-location: Aylesbury, HP21 8TR
-source: NHS Jobs
-job_id: nhs-5619604
+title: Receptionist/Admissions Officer
+company: Bearbrook Combined School
+location: Aylesbury
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-admissions-officer-bearbrook-combined-school
 reason: Exact approved Aylesbury workplace.
 ---
 
@@ -132,7 +132,7 @@ job_id: nhs-5648388
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (63)
+## REVIEW (66)
 
 ---
 action: 
@@ -287,6 +287,18 @@ company: Future Engineering Recruitment Ltd - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225698486
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator - Prison Education - HMP Bullingdon
+company: Milton Keynes College
+location: Milton Keynes
+source: Teaching Vacancies
+job_id: teaching-vacancies-administrator-prison-education-hmp-bullingdon
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -503,6 +515,18 @@ company: ASL - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225534216
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Development Administrator
+company: Chesham Grammar School
+location: Chesham
+source: Teaching Vacancies
+job_id: teaching-vacancies-development-administrator
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -743,6 +767,18 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-2063504
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll and HR Support Administrator
+company: The Woodlands School
+location: Milton Keynes
+source: Teaching Vacancies
+job_id: teaching-vacancies-payroll-and-hr-support-administrator
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
