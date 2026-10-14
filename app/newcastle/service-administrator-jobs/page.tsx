@@ -12,7 +12,7 @@ const canonicalUrl =
   "https://www.ontapjobsearch.com/newcastle/service-administrator-jobs";
 
 export const metadata: Metadata = {
-  title: "Admin and office jobs in Newcastle | Ontap Job Search",
+  title: "Admin and Office Jobs in Newcastle | Ontap",
   description:
     "Browse current admin, office support and customer-service jobs across Newcastle and its normal commuting catchment.",
   alternates: {
@@ -53,9 +53,9 @@ export default function Page() {
     <JobSlicePage
       jsonPath={[...newcastleServiceAdministratorPage.jsonPath]}
       region="Newcastle"
-      title="Admin and office jobs in Newcastle"
+      title="Admin, Office, Reception and Customer Service Jobs in Newcastle"
       latestUpdate={latestUpdate}
-      introText={`Current admin, office-support and customer-service jobs across Newcastle and its normal commuting catchment. Jobs are checked and updated daily. Latest update: ${latestUpdate} • Apply on employer sites`}
+      introText={`Browse current administration, office support, reception and customer service jobs across Newcastle and its normal commuting catchment, plus accounts and finance support roles with a substantial administrative element. Jobs are checked and updated daily. Latest update: ${latestUpdate} • Apply on employer sites`}
       anchorTown="Newcastle"
       trainingHeading="Boost your admin applications"
       trainingSubheading="Useful online learning commonly requested for service-administrator and office support roles"

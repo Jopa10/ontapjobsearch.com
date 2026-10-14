@@ -31,7 +31,7 @@ const adminTraining = [
 ];
 
 export const metadata: Metadata = {
-  title: "Admin and office jobs in Gloucester | Ontap Job Search",
+  title: "Admin and Office Jobs in Gloucester | Ontap",
   description: "Browse current admin and office jobs across Gloucester and its approved local employment market.",
   alternates: { canonical: canonicalUrl },
 };
@@ -44,9 +44,9 @@ export default function Page() {
     <JobSlicePage
       jsonPath={[...definition.jsonPath]}
       region="Gloucester"
-      title="Admin and office jobs in Gloucester"
+      title="Admin, Office, Reception and Customer Service Jobs in Gloucester"
       latestUpdate={latestUpdate}
-      introText={`Current admin and office jobs across Gloucester and its approved local employment market. Jobs are checked and updated daily. Latest update: ${latestUpdate} • Apply on employer sites`}
+      introText={`Browse current administration, office support, reception and customer service jobs across Gloucester and its approved local employment market, plus accounts and finance support roles with a substantial administrative element. Jobs are checked and updated daily. Latest update: ${latestUpdate} • Apply on employer sites`}
       anchorTown="Gloucester"
       trainingHeading="Boost your admin applications"
       trainingSubheading="Useful online learning commonly requested for service-administrator and office support roles"
