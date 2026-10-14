@@ -9,7 +9,7 @@ import {
   getBroadCityJobs,
   getRegionSearchPath,
 } from '@/lib/broad-city-pages';
-import { getJobPath } from '@/lib/published-jobs';
+import { getJobPath } from '@/lib/job-path';
 
 const siteUrl = 'https://www.ontapjobsearch.com';
 

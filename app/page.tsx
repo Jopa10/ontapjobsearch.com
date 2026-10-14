@@ -8,8 +8,8 @@ import {
 } from '@/lib/city-page-data';
 import { getPublishedDynamicSlices } from '@/lib/configured-job-slices';
 import { broadCityDefinitions, getBroadCityJobs } from '@/lib/broad-city-pages';
+import { getJobPath } from '@/lib/job-path';
 import {
-  getJobPath,
   getPublishedJobs,
   type PublishedJob,
 } from '@/lib/published-jobs';

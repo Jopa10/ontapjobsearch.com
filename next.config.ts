@@ -1,7 +1,18 @@
 import type { NextConfig } from "next";
 
-// Deployment touch: rebuild production from the latest city homepage visibility state.
+// Keep pipeline-only archives and reports out of deployed route traces. These
+// files are consumed by GitHub Actions workflows, not by the site's runtime.
 const nextConfig: NextConfig = {
+  outputFileTracingExcludes: {
+    "/*": [
+      "./pipeline/input-jobg8-archive/**/*",
+      "./pipeline/manifests/external/**/*",
+      "./pipeline/reviews/external/**/*",
+      "./pipeline/reports-daily/decision-report-admin-service.csv",
+      "./pipeline/reports-daily/decision-report-support-worker.csv",
+    ],
+  },
+
   async redirects() {
     return [
       {

@@ -1,5 +1,6 @@
 import ExpiredJobRecovery from "@/components/ExpiredJobRecovery";
-import { getJobPath, getPublishedJobs } from "@/lib/published-jobs";
+import { getJobPath } from "@/lib/job-path";
+import { getPublishedJobs } from "@/lib/published-jobs";
 
 export default function JobNotFound() {
   const currentJobs = getPublishedJobs();
