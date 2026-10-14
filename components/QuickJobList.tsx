@@ -3,7 +3,7 @@ import {
   employerFactLabel,
   formatSalary,
 } from "@/lib/job-facts";
-import { getJobPath } from "@/lib/published-jobs";
+import { getJobPath } from "@/lib/job-path";
 import { classifyJobSector, findNthJobSectorIndex } from "@/lib/job-sector";
 import SectorBadge from "@/components/SectorBadge";
 import SectorSwitchBanner from "@/components/SectorSwitchBanner";
