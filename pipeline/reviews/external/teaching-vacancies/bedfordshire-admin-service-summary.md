@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-10-13
-review_fingerprint: 35811e0ea7197d780060eab0c0b582cc57cb508be857362e87fa50db23db896d
-routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
+review_date: 2026-10-14
+review_fingerprint: c6c9c8be4f087b3fc3117e326184e4b19711a0047af8129912e1154509d9397f
+routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 5
+- Records: 11
+- Selected: 7
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: 6fbae043bf8a12e8b025f0ab79479134111753f466e6c07b038b692138c
 source: Teaching Vacancies
 source_job_id: admin-assistant-pupil-responsibility-maternity-cover
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-pupil-responsibility-maternity-cover
+---
+
+---
+action: 
+SELECTED | Bedfordshire | Dunstable, East of England, LU6 2AP | £17,109.00 Annually (Actual) | Administration Assistant / Receptionist
+employer: Lancot School
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Clear admin/service title: receptionist, administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a56b56cfba5bed03321c2a07a30eaa17affef6ba6c80b503beed29c7f699d229
+source: Teaching Vacancies
+source_job_id: administration-assistant-receptionist-b0a5cdce-cd8a-492e-a23a-4838c9fd2813
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-receptionist-b0a5cdce-cd8a-492e-a23a-4838c9fd2813
 ---
 
 ---
@@ -96,6 +111,21 @@ source_job_id: school-administrator-term-time-only-inset-days
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-term-time-only-inset-days
 ---
 
+---
+action: 
+SELECTED | Bedfordshire | Luton, East of England, LU4 9RD | £8,790.00 - £9,073.00 Annually (Actual) | SEN Inclusion Administrator
+employer: Beechwood Primary School
+closing_date: 2026-11-19T12:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4bdb77a616dfe5c44437015277d3dc530270de13f6337d997bcc7d7f7a4b7bd8
+source: Teaching Vacancies
+source_job_id: sen-inclusion-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-inclusion-administrator
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -110,7 +140,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/facilities-manager-denbigh-primary-school) — Manager title salary ceiling £43,149 is not below £28,000.
 - [Financial Controller](https://teaching-vacancies.service.gov.uk/jobs/financial-controller-c66a5ec1-0bf4-4c91-a1e1-d206dac91d10) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-4b6f9115-a169-4905-a2ec-9176b857a603) — Insufficient admin/service evidence.
-- [SCHOOL BUSINESS MANAGER](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-putteridge-primary-school) — Manager title salary ceiling £49,282 is not below £28,000.
 
 ## Safety boundary
 

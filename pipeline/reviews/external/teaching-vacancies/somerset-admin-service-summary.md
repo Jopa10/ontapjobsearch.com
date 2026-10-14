@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-10-13
-review_fingerprint: 5aa7a13d1e8d3c2e1b91e81b7d85a715fdb9625dc8bd407d82d025e5df7a603c
-routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
+review_date: 2026-10-14
+review_fingerprint: a0b5f04bf39e8de4e8aa4b52ed5fc932b0b00562cc3b065a2bf45bdc5341a8cd
+routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 5
-- POSS awaiting decision: 1
+- Records: 15
+- Selected: 6
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -68,6 +68,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+SELECTED | Somerset | Cheddar, South West, BS27 3AQ | Grade 11 £33575 - £37454 per annum pro rata, Actual Starting Salary £30150 | HR Officer/PA to Headteacher
+employer: The Kings of Wessex Academy
+closing_date: 2026-11-02T08:00:00+00:00
+reason: Clear admin/service title: pa to
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6d4b8a20004d0deec0c14d63ff34c4df1c2b835ecd3339c9b84f7eef0b89f503
+source: Teaching Vacancies
+source_job_id: hr-officer-pa-to-headteacher-261ac892-e231-41ed-959b-147cc74c6cdb
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-officer-pa-to-headteacher-261ac892-e231-41ed-959b-147cc74c6cdb
+---
+
+---
+action: 
 SELECTED | Somerset | Bridgwater, South West, TA6 6JB | BTCT Band 4 | SEND Administrator and Librarian
 employer: Hamp Academy
 closing_date: 2026-11-01T23:59:00+00:00
@@ -113,6 +128,21 @@ source_job_id: finance-assistant-the-kings-of-wessex-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the-kings-of-wessex-academy
 ---
 
+---
+action: 
+POSS | Somerset | Taunton, TA2 7EG | FTE= £26,847, Actual= £12,427 | HR Administrator
+employer: The Oak Partnership Trust
+closing_date: 2026-11-03T23:59:59+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: eba1dd84550ce000a14ec7ea962baf711fc3a45c4b4e7cb863f1f6ec4aa3feb0
+source: Teaching Vacancies
+source_job_id: hr-administrator-the-oak-partnership-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-oak-partnership-trust
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -123,6 +153,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the
 - [Exams, Data Insights and Systems Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-data-insights-and-systems-manager-bridgwater-college-academy) — Manager title salary ceiling £34,582 is not below £28,000.
 - [Finance Business Partner - Projects and Costings](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-projects-and-costings) — Insufficient admin/service evidence.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-yeovil-college) — Insufficient admin/service evidence.
+- [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-oak-partnership-trust) — Manager title without salary evidence below £28,000.
 - [Operations Lead](https://teaching-vacancies.service.gov.uk/jobs/operations-lead-bishops-hull-primary-school) — Insufficient admin/service evidence.
 - [Receptionist](https://teaching-vacancies.service.gov.uk/jobs/receptionist-midsomer-norton-schools-partnership) — Missing salary or pay scale.
 

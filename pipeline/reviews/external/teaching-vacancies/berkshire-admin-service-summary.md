@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-10-13
-review_fingerprint: f11f666a8ec4a64ac186e08440371d89526a1365d4ec9cfb9c1a836dcc09604a
-routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
+review_date: 2026-10-14
+review_fingerprint: a4dc8aff2d6e93cb507e9a04a7e5ef78de5af0b005ed269c57e28557f212065b
+routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -53,21 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/behaviour-administrat
 
 ---
 action: 
-SELECTED | Berkshire | Bracknell, South East, RG42 4FS | £26,084.00 Annually (FTE) Actual gross salary including Outer London Fringe is £17,977pa. Term time only plus 2 days. | Exams Administrator
-employer: King's Academy Binfield
-closing_date: 2026-10-14T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: dd6bfe64dec042520ebfc65e5d1e5e138ee47068e03fc1a8deaa7213c037752f
-source: Teaching Vacancies
-source_job_id: exams-administrator-king-s-academy-binfield
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-administrator-king-s-academy-binfield
----
-
----
-action: 
 SELECTED | Berkshire | Reading, South East, RG7 3XJ | Between £29,071 and £33,119 | Personal Assistant to the Headteacher
 employer: The Willink School
 closing_date: 2026-10-16T12:00:00+01:00
@@ -109,6 +94,21 @@ factual_fingerprint: 7aeb1a6abe1c12d9aca7d32b4dfdc76d03ef22ba9cb2d74aa116d2fb337
 source: Teaching Vacancies
 source_job_id: school-administrator-pupil-reception
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-pupil-reception
+---
+
+---
+action: 
+SELECTED | Berkshire | Reading, South East, RG1 8EQ | £27,274.00 Annually (FTE) Grade 4 SCP 7 - £27,274.00 FTE - 37 hours per week - TTO plus 5 INSET days - Permanent | SEN/Pastoral Administrator with Office Responsibilities
+employer: River Academy
+closing_date: 2026-10-31T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 831a43149c4c9f59cf80852e0728a3a2d6b10186968f724e33ef321838606728
+source: Teaching Vacancies
+source_job_id: sen-pastoral-administrator-with-office-responsibilities
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-pastoral-administrator-with-office-responsibilities
 ---
 
 ---
@@ -164,10 +164,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-finance-assist
 
 ## HARD_PASS
 
+- [Deputy Designated Safeguarding Lead](https://teaching-vacancies.service.gov.uk/jobs/deputy-designated-safeguarding-lead-maiden-erlegh-school) — Insufficient admin/service evidence.
 - [HR & Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-officer-the-park-federation-academy-trust) — Insufficient admin/service evidence.
 - [HR Coordinator (part-time)](https://teaching-vacancies.service.gov.uk/jobs/hr-coordinator-part-time) — Insufficient admin/service evidence.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-littledown-school) — Manager title salary ceiling £38,053 is not below £28,000.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-joseph-s-catholic-high-school) — Manager title salary ceiling £34,249 is not below £28,000.
 - [Office Manager and Personal Assistant to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-personal-assistant-to-the-headteacher-new-town-primary-school) — Manager title salary ceiling £40,444 is not below £28,000.
 - [Receptionist & Admin Assistant - Katesgrove Primary School](https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-katesgrove-primary-school-katesgrove-primary-school) — Missing salary or pay scale.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-da5c7b12-e7a7-4b6e-aede-5ff7cf56267d) — Manager title without salary evidence below £28,000.

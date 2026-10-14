@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-10-13
+review_date: 2026-10-14
 review_fingerprint: 2f20611a05dbed9e3738dc829f53e14a98d7419fba2f78c053778b0c45c50ddd
-routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
+routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 13
 - Selected: 4
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -122,6 +122,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 - [Clerk to School Governing Body](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-school-governing-body-sherburn-church-of-england-primary-academy) — Insufficient admin/service evidence.
 - [Exams Officer & Data Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-officer-data-manager-nidderdale-high-school) — Manager title salary ceiling £28,440 is not below £28,000.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-outwood-academy-easingwold) — Insufficient admin/service evidence.
+- [Hub Business Leader (Craven Hub)](https://teaching-vacancies.service.gov.uk/jobs/hub-business-leader-craven-hub) — Insufficient admin/service evidence.
 - [Multi-Site School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/multi-site-school-business-manager) — Manager title salary ceiling £41,177 is not below £28,000.
 - [PA and Office Manager (7676)](https://teaching-vacancies.service.gov.uk/jobs/pa-and-office-manager-7676) — Manager title salary ceiling £33,119 is not below £28,000.
 - [Reception and Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/reception-and-administration-assistant-knavesmire-primary-school) — Insufficient admin/service evidence.

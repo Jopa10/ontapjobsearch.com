@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-10-13
-review_fingerprint: ee856e8dba62ba5a6043acd94335cfb74a4b92c39170d9bdeaa9be8c032862ec
-routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
+review_date: 2026-10-14
+review_fingerprint: 5d4ea87414d9a923019b22610666fa8160b221c1752c4cb60e427818aa3141a9
+routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 3
-- POSS awaiting decision: 1
+- Records: 9
+- Selected: 2
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
-
----
-action: 
-SELECTED | Cornwall | Penzance, South West, TR19 7JU | 15,886.74 | Administrator
-employer: St Just Primary School
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b088dfea4e8ccc6bc75a5da35eab46262950a0386a764214cff1a278944d2ba2
-source: Teaching Vacancies
-source_job_id: administrator-st-just-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-st-just-primary-school
----
 
 ---
 action: 
@@ -70,6 +55,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/year-team-administrat
 
 ---
 action: 
+POSS | Cornwall | Penzance, South West, TR19 7JU | 15,886.74 | Administrator
+employer: St Just Primary School
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b088dfea4e8ccc6bc75a5da35eab46262950a0386a764214cff1a278944d2ba2
+source: Teaching Vacancies
+source_job_id: administrator-st-just-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-st-just-primary-school
+---
+
+---
+action: 
 POSS | Cornwall | Liskeard, PL14 3EA | £32,046.00 - £34,811.00 Annually (FTE) Actual salary approx. £21,727 - £23,602 per annum | Governance Professional to Trust Board and Local Governing Committees
 employer: South East Cornwall Multi Academy Regional Trust
 closing_date: 2026-11-06T09:00:00+00:00
@@ -89,6 +89,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 
 ## HARD_PASS
 
+- [Behaviour Mentor](https://teaching-vacancies.service.gov.uk/jobs/behaviour-mentor-98013a7b-abcb-49b9-bc24-0e68d6997ce9) — Insufficient admin/service evidence.
 - [Minibus Driver](https://teaching-vacancies.service.gov.uk/jobs/minibus-driver-104babdb-863b-4900-8121-25129beb540f) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-camelford-community-primary-school) — Manager title salary ceiling £33,673 is not below £28,000.
 - [People Lead](https://teaching-vacancies.service.gov.uk/jobs/people-lead-1946fc8a-54b9-4506-808b-a157f27767c8) — Insufficient admin/service evidence.

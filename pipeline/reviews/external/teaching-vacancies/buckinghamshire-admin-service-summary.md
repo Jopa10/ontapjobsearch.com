@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-10-13
-review_fingerprint: 0a09368420d8c9054b870759542145bb0ef37700fa8df14b51ac51909d3f7790
-routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
+review_date: 2026-10-14
+review_fingerprint: 724ff740c5340201ef49df50633239879cc5bf101b1e1d63d87273c7c0fc91e1
+routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 2
+- Records: 16
+- Selected: 4
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 9
 
 ## SELECTED
 
@@ -34,6 +34,36 @@ factual_fingerprint: 927823d923692db34c1175444f846127c6aab8cc04ac34d04d9d9e6b5ac
 source: Teaching Vacancies
 source_job_id: administrator-prison-education-hmp-bullingdon
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-prison-education-hmp-bullingdon
+---
+
+---
+action: 
+SELECTED | Buckinghamshire | Chesham, South East, HP5 1BA | £29,114.00 - £31,230.00 Annually (FTE) FTE £29,114 - £31,230 / pro rata £4,880 - £5,234 | Development Administrator
+employer: Chesham Grammar School
+closing_date: 2026-11-02T12:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2e085c2fab448729576ef6497ee937e9250416ab2cae19046aa69d4e9feb2478
+source: Teaching Vacancies
+source_job_id: development-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/development-administrator
+---
+
+---
+action: 
+SELECTED | Buckinghamshire | Milton Keynes, South East, MK8 0PU | £9,700.00 Annually (Actual) | Payroll and HR Support Administrator
+employer: The Woodlands School
+closing_date: 2026-11-06T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 14ad43f2019a8e4778e71b32ecd76a7db9f570d451ec48fc1e4b05c3bce8c94e
+source: Teaching Vacancies
+source_job_id: payroll-and-hr-support-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-and-hr-support-administrator
 ---
 
 ---
@@ -106,6 +136,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrative-ass
 
 - [Business Support L3](https://teaching-vacancies.service.gov.uk/jobs/business-support-l3-brooklands-farm-primary-school) — Insufficient admin/service evidence.
 - [Designated Safeguarding Lead](https://teaching-vacancies.service.gov.uk/jobs/designated-safeguarding-lead-brooklands-farm-primary-school) — Insufficient admin/service evidence.
+- [Executive Assistant to the Headteacher and Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-to-the-headteacher-and-operations-manager) — Out-of-scope occupation: teacher, headteacher.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-8f6cfa11-ce79-4846-bec1-d44a416c2c86) — Manager title salary ceiling £53,051 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-56c55376-78b3-4ad8-a27c-1fdc31ec9895) — Insufficient admin/service evidence.
 - [Marketing Officer](https://teaching-vacancies.service.gov.uk/jobs/marketing-officer-7e5d89f3-aa30-4103-8e70-a83b509a9118) — Insufficient admin/service evidence.

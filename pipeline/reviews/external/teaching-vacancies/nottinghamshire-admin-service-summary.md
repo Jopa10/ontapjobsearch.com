@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-10-13
-review_fingerprint: f03b24905632cbc5cd40806de253504dd6a6fb943d2d384d44cc66159537a85f
-routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
+review_date: 2026-10-14
+review_fingerprint: 11a2c84a06c87d1e631249d0c0fd4feb8ecf9a9f33f86440c80e8a454653aff7
+routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 20
-- Selected: 4
+- Selected: 3
 - POSS awaiting decision: 6
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 11
 
 ## SELECTED
 
@@ -64,21 +64,6 @@ factual_fingerprint: a26903677f9bcbfd877d59e8b9b4481eac082dc21b24248081a09411858
 source: Teaching Vacancies
 source_job_id: school-administrator-redmile-church-of-england-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-redmile-church-of-england-primary-school
----
-
----
-action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG3 6DS | Pro Rata salary £19,082 - £21,244 (FTE salary £27,409 – £30,515) | Senior Administrator
-employer: Carlton Digby School
-closing_date: 2026-10-14T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a4eba9cd3cf8d11e8adb4a938b29e44e929e8bcb3dee68c73e7c78bb4d5f4a27
-source: Teaching Vacancies
-source_job_id: senior-administrator-carlton-digby-school-nottingham-nottinghamshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-carlton-digby-school-nottingham-nottinghamshire
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -186,6 +171,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/salt-administrator-th
 - [Exams and Assessment Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-and-assessment-officer-outwood-academy-kirkby) — Insufficient admin/service evidence.
 - [Marketing Apprentice](https://teaching-vacancies.service.gov.uk/jobs/marketing-apprentice-carlton-academy) — Insufficient admin/service evidence.
 - [People & Culture Business Partner](https://teaching-vacancies.service.gov.uk/jobs/people-culture-business-partner-tapestry-learning-partnership-nottingham-not-recorded) — Insufficient admin/service evidence.
+- [Safeguarding Adviser](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-adviser-greenwood-academies-trust) — Insufficient admin/service evidence.
 - [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-96d0e4ce-127e-44c5-84cd-fca1d087464c) — Insufficient admin/service evidence.
 - [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-the-flying-high-academy) — Insufficient admin/service evidence.
 - [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-burntstump-seely-cofe-primary-academy) — Manager title salary ceiling £30,514 is not below £28,000.

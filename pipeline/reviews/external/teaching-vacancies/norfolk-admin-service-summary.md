@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-10-13
-review_fingerprint: 7a55546a96a4a6d51a2c72298e2840e8714843c6ea709d565296a60cca2728e3
-routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
+review_date: 2026-10-14
+review_fingerprint: aa6e9a27ca6009b3ab177a861db291799f9ae55f023d890de8b0f4bb305afacc
+routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 4
+- Records: 14
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 8
@@ -68,6 +68,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-04
 
 ---
 action: 
+SELECTED | Norfolk | Attleborough, East of England, NR17 1RL | £28,028 - £30,470 actual pa | Personal Assistant to the Headteacher
+employer: Old Buckenham High School
+closing_date: 2026-11-09T00:00:00+00:00
+reason: Clear admin/service title: personal assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 892ce1979380155f9c52ab0a7d00406f9a1e6880366e433eb5228e5c3631cc1b
+source: Teaching Vacancies
+source_job_id: personal-assistant-to-the-headteacher-old-buckenham-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to-the-headteacher-old-buckenham-high-school
+---
+
+---
+action: 
 SELECTED | Norfolk | Great Yarmouth, East of England, NR30 5LS | Scale E, points 7-11, £27,274 - £29,071 (Actual £24,060 - £25,646) | Senior Academy Administrator
 employer: Caister Academy
 closing_date: 2026-10-19T23:59:00+01:00
@@ -105,11 +120,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-parkway
 ## HARD_PASS
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-queen-s-hill-primary-school) — Insufficient admin/service evidence.
+- [Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-diss-infant-academy-and-nursery) — Insufficient admin/service evidence.
 - [Admissions and Outreach Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-outreach-coordinator-university-technical-college-norfolk) — Insufficient admin/service evidence.
 - [Admissions and Outreach Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-outreach-coordinator-university-technical-college-norfolk-norwich-norfolk) — Insufficient admin/service evidence.
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-browick-road-primary-and-nursery-school-wymondham-norfolk) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-queen-s-hill-primary-school) — Insufficient admin/service evidence.
-- [HR Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-administration-assistant-inspiration-trust) — Insufficient admin/service evidence.
 - [Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/procurement-manager-st-john-the-baptist-catholic-multi-academy-trust) — Manager title salary ceiling £49,816 is not below £28,000.
 - [Transport Assistant](https://teaching-vacancies.service.gov.uk/jobs/transport-assistant) — Insufficient admin/service evidence.
 

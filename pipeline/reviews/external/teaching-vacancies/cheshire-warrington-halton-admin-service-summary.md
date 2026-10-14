@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - Warrington & Halton
 
-review_date: 2026-10-13
-review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
+review_date: 2026-10-14
+review_fingerprint: ae9076d5b05e5ca005050baba199940d3f39edfd867898be5cdf4bda7c1d5fc5
+routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
 ontap_region: Cheshire - Warrington & Halton
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
+- Records: 2
 - Selected: 0
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
 
@@ -25,7 +25,20 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Cheshire - Warrington & Halton | Warrington, North West, WA2 0LN | £16,899.00 - £17,556.00 Annually (Actual) Grade 4: NJC SCP 6 to SCP 7 (Full year salary range £26,847 to £27,274; Actual Salary: £16,899 to £17,282 per annum) | Administrative Support Officer
+employer: Padgate Academy
+closing_date: 2026-11-09T12:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0d5373673fe80cb99e360811186580adf7885c19ef5f55ce7ebd3c00d8b75e85
+source: Teaching Vacancies
+source_job_id: administrative-support-officer-padgate-academy-warrington
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-support-officer-padgate-academy-warrington
+---
 
 ## EXCLUDED BY REVIEW
 

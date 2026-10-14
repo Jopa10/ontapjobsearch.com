@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - Liverpool
 
-review_date: 2026-10-13
-review_fingerprint: 685019455cd067cf62113efc0d3435cec22501c9bcd51060a0019987da34b779
-routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
+review_date: 2026-10-14
+review_fingerprint: edd73140fd84696144db0d09aa3baa11dec47b54c55bd62ba0169c5b6e5b0fae
+routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
 ontap_region: Merseyside - Liverpool
 slice_category: admin_service
 slice_status: LIVE
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 6
 - Selected: 1
-- POSS awaiting decision: 2
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -37,6 +37,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Merseyside - Liverpool | Liverpool, North West, L14 5NX | £27,274.00 - £29,071.00 Annually (FTE) NJC SCP 7-11 | Pro Rata Salary £15,992 - £17,045 per annum | Administration Officer – Attendance & Family Liaison
+employer: Knotty Ash Primary School
+closing_date: 2026-10-23T12:00:00+01:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8af43c8b035b7b6b08d53ddd54fcef49b0e98816250db4ebfe72d426eb33f17e
+source: Teaching Vacancies
+source_job_id: administration-officer-attendance-family-liaison
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-attendance-family-liaison
+---
 
 ---
 action: 
@@ -75,7 +90,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-pastoral-senior-
 ## HARD_PASS
 
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-the-laetare-catholic-multi-academy-trust) — Insufficient admin/service evidence.
-- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-pope-francis-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [People Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-lydiate-learning-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary

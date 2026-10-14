@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-10-13
-review_fingerprint: 9312c7fe9a8811b106c663a5e2fe04d2c151b7a16e5c3d18129d6839e69cde1d
-routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
+review_date: 2026-10-14
+review_fingerprint: e04588e72bd64f227f9c6366a60dc0801eda7807319c8c0f7a86ebedff50edab
+routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 8
+- Records: 16
+- Selected: 9
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
-
----
-action: 
-SELECTED | Lincolnshire | Boston, East Midlands, PE20 1JS | £26,016.00 Annually (FTE) NJC4: FTE £26,016 pro rata £22,851.89 per annum | Academy Administrator
-employer: Thomas Middlecott Academy
-closing_date: 2026-10-20T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 58e4045c9b23f9c650d1b2b7cfe78970ecd68e8d6943aab73fef0575ed5801e7
-source: Teaching Vacancies
-source_job_id: academy-administrator-35b6eb6f-c93e-4b6e-b5d9-62a3a5806607
-source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-35b6eb6f-c93e-4b6e-b5d9-62a3a5806607
----
 
 ---
 action: 
@@ -79,6 +64,21 @@ factual_fingerprint: b94d957a97a2110f3441ec108223a0b8f505b7462e7962731fbb0e3d852
 source: Teaching Vacancies
 source_job_id: hr-office-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-office-administrator
+---
+
+---
+action: 
+SELECTED | Lincolnshire | Lincoln, East Midlands, LN6 9AF | Grade 3 £23,490 - £24620 | Receptionist
+employer: Sir Robert Pattinson Academy
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0c8ea0631a409a88a3c1a778698ef7570935cbdfef5289842cd9333eb9ed4e51
+source: Teaching Vacancies
+source_job_id: receptionist-sir-robert-pattinson-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-sir-robert-pattinson-academy
 ---
 
 ---
@@ -141,6 +141,21 @@ source_job_id: send-administrator-stamford-welland-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-stamford-welland-academy
 ---
 
+---
+action: 
+SELECTED | Lincolnshire | Lincoln, LN5 8RE | PPS3 £25,614 per annum, pro rata £1,448 per annum | Sports Centre Receptionist
+employer: The Priory Federation Of Academies
+closing_date: 2026-10-18T23:59:00+01:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e32a0a7cabeab3fd0768694df4df2e31ebfec30897c447a62f5e9039059891a2
+source: Teaching Vacancies
+source_job_id: sports-centre-receptionist-the-priory-federation-of-academies
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sports-centre-receptionist-the-priory-federation-of-academies
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -151,6 +166,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-st
 
 ## HARD_PASS
 
+- [Attendance Information Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-information-officer-havelock-academy) — Insufficient admin/service evidence.
 - [Bursar](https://teaching-vacancies.service.gov.uk/jobs/bursar-cliffedale-primary-school-grantham-lincolnshire) — Insufficient admin/service evidence.
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-lincoln-carlton-academy) — Insufficient admin/service evidence.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-voyage-education-partnership) — Insufficient admin/service evidence.

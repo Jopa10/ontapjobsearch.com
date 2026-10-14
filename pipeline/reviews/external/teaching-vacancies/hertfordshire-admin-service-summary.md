@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-10-13
-review_fingerprint: 89e56b4ee4770e45b1c45591122fff342f54e2515237af4d06d97972ba403409
-routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
+review_date: 2026-10-14
+review_fingerprint: caa66f5b0b451eb744591c9e8a90b13a3ff7a6e7fc7aca59718aa7a084c71465
+routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 13
-- Selected: 4
-- POSS awaiting decision: 2
+- Selected: 3
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 7
 
@@ -53,21 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-persona
 
 ---
 action: 
-SELECTED | Hertfordshire | Hoddesdon, East of England, EN11 0RW | £23,144.62 Annually (Actual) | Office Administrator
-employer: Forres Primary Academy
-closing_date: 2026-10-13T23:59:00+01:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 763319401af5da63a688b4aeb741525e15e0a47a5e0792198150556961b0d557
-source: Teaching Vacancies
-source_job_id: office-administrator-forres-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-forres-primary-academy
----
-
----
-action: 
 SELECTED | Hertfordshire | Watford, East of England, WD19 7SL | £27,180.00 Annually (FTE) PART TIME (MORNINGS), TERM TIME ONLY | Part-Time Admin Assistant
 employer: Oxhey Wood Primary School
 closing_date: 2026-10-18T23:59:00+01:00
@@ -82,6 +67,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-admin-assis
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Hertfordshire | Hoddesdon, East of England, EN11 8JY | £26,900.00 Annually (Actual) H6 + Fringe | Deputy Office Manager
+employer: Robert Barclay Academy
+closing_date: 2026-10-20T09:00:00+01:00
+reason: Manager title below £28,000 salary ceiling requires review
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1d6c28c72b290cf288749680e1ba41a5263e3fa3fed615e012c14b482dd1a0f1
+source: Teaching Vacancies
+source_job_id: deputy-office-manager-robert-barclay-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/deputy-office-manager-robert-barclay-academy
+---
 
 ---
 action: 

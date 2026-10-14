@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-10-13
-review_fingerprint: 4b645da0043fc44acc1fc11b1ba519056f04892f4dcb87ccbb8844b535fdbfc7
-routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
+review_date: 2026-10-14
+review_fingerprint: a0031ed9e92b00355752f88a3116f8c438dc96229e51446e337b5dea02ac2780
+routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 2
+- Records: 10
+- Selected: 3
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 5
@@ -49,6 +49,21 @@ factual_fingerprint: 5e4580d7c593af95f3dc8e020c95fe8530cb842c706f5431b003b41a932
 source: Teaching Vacancies
 source_job_id: administrative-assistant-data-finham-park-2
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-data-finham-park-2
+---
+
+---
+action: 
+SELECTED | West Midlands - Coventry & Warwickshire | Kenilworth, West Midlands, CV8 2AL | £8,672.00 - £8,809.00 Annually (Actual) Band E points 5-6 | Receptionist and Administrator (2 days per week)
+employer: Kenilworth School and Sixth Form
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Clear admin/service title: administrator, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ad645e54a16b0fbb752888297acf04c8bc6fafd33fec40a5ce0ef97dbf98d63c
+source: Teaching Vacancies
+source_job_id: receptionist-and-administrator-2-days-per-week
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administrator-2-days-per-week
 ---
 
 ## POSS — choose SELECT or EXCLUDE

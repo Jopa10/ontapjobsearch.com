@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-10-13
-review_fingerprint: 45546fa61776d51f16f8a897b99b33cd25f34e78df15bbc28e674ecced77f53f
-routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
+review_date: 2026-10-14
+review_fingerprint: 348ac6728470083efe898e10c613fe3761ffdcbe2e4072e218ead2adb54c2d19
+routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 7
+- Records: 14
+- Selected: 9
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 4
@@ -34,6 +34,21 @@ factual_fingerprint: 254c295a8e854dfc9bf5b8495c6c80a86cf361513434d550b3cd3396593
 source: Teaching Vacancies
 source_job_id: administration-assistant-hardwick-and-cambourne-community-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-hardwick-and-cambourne-community-primary-school
+---
+
+---
+action: 
+SELECTED | Cambridgeshire | Cambridge, East of England, CB4 2JF | £6,965.00 Annually (Actual) Pro Rata | Administrative Assistant (International and Community Projects)
+employer: North Cambridge Academy
+closing_date: 2026-10-26T09:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 46d6065d75038109225bb6df9bb5b3051dde3b3e7d54be47b36a7d4a82077e4c
+source: Teaching Vacancies
+source_job_id: administrative-assistant-international-and-community-projects-north-cambridge-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-international-and-community-projects-north-cambridge-academy
 ---
 
 ---
@@ -79,6 +94,21 @@ factual_fingerprint: 9c6ebe44b2e91d52bd0916aa351991b1e4ce7e80cbacc33e14d26f4bc0c
 source: Teaching Vacancies
 source_job_id: attendance-administrator-witchford-village-college
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-witchford-village-college
+---
+
+---
+action: 
+SELECTED | Cambridgeshire | Peterborough, East of England, PE1 4DZ | £13,714.00 - £13,714.00 Annually (Actual) Salary increases to national minimum wage in the second year | Business Administrator Apprentice
+employer: Greater Peterborough UTC
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: cef3589294fa8142fa442beef11ef0bbbfa15ad2171a52c7aaf2aa6366dd8f8f
+source: Teaching Vacancies
+source_job_id: business-administrator-apprentice-greater-peterborough-utc
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administrator-apprentice-greater-peterborough-utc
 ---
 
 ---

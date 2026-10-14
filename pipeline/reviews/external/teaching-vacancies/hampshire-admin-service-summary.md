@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-10-13
-review_fingerprint: 934c26b02a280838e9365828bb7361c5a43e5dd6a308d4b946b2c64c0e347715
-routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
+review_date: 2026-10-14
+review_fingerprint: 293e5a7fa7dfde2cfdaa5cfc37631cdac0b153edf193556b0e6fac53118c080f
+routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -30,8 +30,8 @@ action:
 POSS | Hampshire | Portsmouth, South East, PO1 1FG | £22,814.00 - £24,728.00 Annually (Actual) | Administrative Officer
 employer: Arundel Court Primary Academy and Nursery
 closing_date: 2026-11-01T23:59:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: f1288050d008cfa0c1bac949fbfa80f3200bff82347a1e289da70e2d63996625

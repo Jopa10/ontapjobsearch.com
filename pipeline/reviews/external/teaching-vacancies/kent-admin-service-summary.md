@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-10-13
-review_fingerprint: 4ff264f5785cb8435d2e25af638d7e843033f72ad043cf7575e4c5c84d5ab762
-routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
+review_date: 2026-10-14
+review_fingerprint: c35638b42d08af4e2f864f48854f75a2629727e32c27d0297115a2db91b5208b
+routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 8
 - Selected: 3
-- POSS awaiting decision: 2
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 2
 
@@ -81,6 +81,21 @@ factual_fingerprint: 3cdb6b950e89ea725edd69286d6b8647005a28d0bb1e14d9f3d6c6b561d
 source: Teaching Vacancies
 source_job_id: administration-assistant-barnsole-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-barnsole-primary-school
+---
+
+---
+action: 
+POSS | Kent | Sevenoaks, South East, TN13 3LE | £12,757.00 Annually (Actual) | Administration Assistant
+employer: Knole Academy
+closing_date: 2026-11-06T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: bc2d2588f6cd9c24c8d10a8ecc5986c713ee3a6f64c2d6a815f9b7af6e1ccdac
+source: Teaching Vacancies
+source_job_id: administration-assistant-knole-academy-sevenoaks-kent
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-knole-academy-sevenoaks-kent
 ---
 
 ---

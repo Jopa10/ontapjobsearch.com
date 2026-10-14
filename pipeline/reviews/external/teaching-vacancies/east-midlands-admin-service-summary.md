@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-10-13
-review_fingerprint: 8db6624cd1f39acc4d7401450e489c0f6d6f1d37d1f7d54aee9e3e76901306b5
-routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
+review_date: 2026-10-14
+review_fingerprint: 403051b3db1ccf485f118e1468f3abefe669c86ce29c60e51167b89d638483ee
+routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 10
 - Selected: 3
-- POSS awaiting decision: 4
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -38,6 +38,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
+SELECTED | East Midlands | Burton-on-Trent, West Midlands, DE13 0LL | £26,427.00 - £27,274.00 Annually (FTE) Pro-rata for the hours advertised (£22,948 - £23,684) | Administration Assistant (Maternity Cover)
+employer: The de Ferrers Academy
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: 4cc2b2ee9e22e9fe4cf6c19723c92403139fd01c8ff878ae928e9ad469308861
+source: Teaching Vacancies
+source_job_id: administration-assistant-maternity-cover-the-de-ferrers-academy-burton-on-trent-staffordshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-maternity-cover-the-de-ferrers-academy-burton-on-trent-staffordshire
+---
+
+---
+action: 
 SELECTED | East Midlands | Burton-on-Trent, West Midlands, DE15 9RT | £26,847.00 - £27,274.00 Annually (FTE) Actual salary: Grade 4 (SCP 6-7) £23,313 - £23,684 per annum | Administrative Assistant
 employer: Paulet High School
 closing_date: 2026-11-06T09:00:00+00:00
@@ -49,21 +64,6 @@ factual_fingerprint: 845f76cdb40abbddc87e65cd127bc7ae5c2525550974886308a4111d09a
 source: Teaching Vacancies
 source_job_id: administrative-assistant-paulet-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-paulet-high-school
----
-
----
-action: 
-SELECTED | East Midlands | Derby, East Midlands, DE24 8FT | £14,860.00 - £15,575.00 Annually (Actual) NJC 3-6. 25 hours per week, 11:00 - 4:00 Monday to Friday | Receptionist and Office Administrator
-employer: Ashwood Spencer Academy
-closing_date: 2026-10-13T23:59:00+01:00
-reason: Clear admin/service title: administrator, office administrator, receptionist
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: efb7193140efb4099bd2ed447dd03bbeb74fdad2db03fef46a0c2d2c56d1de0a
-source: Teaching Vacancies
-source_job_id: receptionist-and-office-administrator-ashwood-spencer-academy-derby-derbyshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-office-administrator-ashwood-spencer-academy-derby-derbyshire
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -100,21 +100,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-th
 
 ---
 action: 
-POSS | East Midlands | Ashbourne, East Midlands, DE6 1EP | £27,618.00 - £29,414.00 Annually (FTE) Pay Scale 4: £16,118 - £17,167 pro rata | Finance Assistant
-employer: Queen Elizabeth's Grammar School
-closing_date: 2026-10-13T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 7fdc5ee2ecd6ad143006a51224049df6494167322da3dcf3f8b9e33705a8fd70
-source: Teaching Vacancies
-source_job_id: finance-assistant-queen-elizabeth-s-grammar-school-ashbourne-derbyshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-queen-elizabeth-s-grammar-school-ashbourne-derbyshire
----
-
----
-action: 
 POSS | East Midlands | Burton-on-Trent, West Midlands, DE13 0LL | £29,071.00 - £31,015.00 Annually (FTE) Actual salary for hours advertised £26,527 - £28,300 - ALP Grade 4 | HR and Executive Leadership Support Officer
 employer: The de Ferrers Academy
 closing_date: 2026-10-20T09:00:00+01:00
@@ -134,7 +119,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-and-executive-lead
 
 ## HARD_PASS
 
-- [Administrative Officer L1](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-l1) — Insufficient admin/service evidence.
 - [Human Resources Advisor](https://teaching-vacancies.service.gov.uk/jobs/human-resources-advisor-st-ralph-sherwin-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [Management Information System (MIS) Administrator & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/management-information-system-mis-administrator-cover-manager-85783a14-bff5-44f3-9d32-6556a2a69f08) — Manager title salary ceiling £32,488 is not below £28,000.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-e0eaef47-630a-49c5-9a3f-032436c1b906) — Insufficient admin/service evidence.

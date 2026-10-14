@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-10-13
-review_fingerprint: b5821561f3c97b49cbb57a7dd2ff690a468b37743801cc06f7b3b2a504b0b19c
-routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
+review_date: 2026-10-14
+review_fingerprint: 813faa96a50ea2beda2450c071a849a98a71049038fb8f48547acde05f9b26c6
+routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
+- Records: 11
 - Selected: 2
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 7
 
 ## SELECTED
 
@@ -25,12 +25,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 action: 
 SELECTED | Northamptonshire | Corby, East Midlands, NN17 2JH | £26,016.00 - £26,016.00 Annually (FTE) | Academy Administrator
 employer: Lodge Park Academy
-closing_date: 2026-11-06T23:59:00+00:00
+closing_date: 2026-10-15T23:59:00+01:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 58722d8582492b0566c1c99bf1e8afcf053089764c46760358e2ec6604a99c9e
+factual_fingerprint: f96548cfae5a29129b2a8602e27bc820197d771295db2c320b9d02e46c590f41
 source: Teaching Vacancies
 source_job_id: academy-administrator-lodge-park-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-lodge-park-academy
@@ -90,15 +90,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-administra
 ## HARD_PASS
 
 - [Academy Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/academy-operations-manager-malcolm-arnold-academy-northampton-northamptonshire) — Manager title salary ceiling £44,253 is not below £28,000.
-- [Annual Review Facilitator](https://teaching-vacancies.service.gov.uk/jobs/annual-review-facilitator-friars-academy) — Insufficient admin/service evidence.
 - [Data Apprentice](https://teaching-vacancies.service.gov.uk/jobs/data-apprentice-dslv-e-act-academy) — Insufficient admin/service evidence.
-- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-kingsthorpe-college) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-bishop-stopford-school) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-creating-tomorrow-multi-academy-trust) — Insufficient admin/service evidence.
 - [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-creating-tomorrow-multi-academy-trust-kettering-not-recorded) — Insufficient admin/service evidence.
 - [Reprographics and Resource Assistant (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/reprographics-and-resource-assistant-maternity-cover) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-gloucester-nursery-school) — Manager title salary ceiling £38,510 is not below £28,000.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-south-end-infant-school-rushden-northamptonshire) — Manager title salary ceiling £37,280 is not below £28,000.
 
 ## Safety boundary
 

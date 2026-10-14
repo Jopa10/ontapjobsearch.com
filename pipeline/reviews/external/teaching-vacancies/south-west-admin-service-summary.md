@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — South West
 
-review_date: 2026-10-13
+review_date: 2026-10-14
 review_fingerprint: 8f2deeb269fb4029b10baa022d2d9011f54cb7bc0b380d10986f0127133969ca
-routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
+routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
 ontap_region: South West
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -78,7 +78,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 - [Admissions and Marketing Officer](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-marketing-officer-69c1e54a-5b35-4901-a222-0e20faca55c8) — Insufficient admin/service evidence.
 - [Family Liaison Worker](https://teaching-vacancies.service.gov.uk/jobs/family-liaison-worker-doubletrees-school) — Insufficient admin/service evidence.
-- [Year Leader ( Non Teaching)](https://teaching-vacancies.service.gov.uk/jobs/year-leader-non-teaching-the-wellington-academy) — Insufficient admin/service evidence.
+- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-sexey-s-school) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

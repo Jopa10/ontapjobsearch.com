@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Wigan & Bolton
 
-review_date: 2026-10-13
+review_date: 2026-10-14
 review_fingerprint: cfab57b5e3f3c9ffa2f0c235722295faa38b29b5cc2cd4c0a3808917bfda0886
-routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
+routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
 ontap_region: Greater Manchester - Wigan & Bolton
 slice_category: admin_service
 slice_status: LIVE

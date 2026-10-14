@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-10-13
-review_fingerprint: 08ddef1d888810964c27d42d27bd577a61153049a3161c2b49a48286aa15dc6e
-routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
+review_date: 2026-10-14
+review_fingerprint: 07c02866e4a8eb4efbdcc8378ed7f4af9dece20a05078d7656f567cb903a39c1
+routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 2
-- POSS awaiting decision: 2
+- Records: 8
+- Selected: 3
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 2
 
 ## SELECTED
-
----
-action: 
-SELECTED | Suffolk | Ipswich, East of England, IP1 6EF | £26,016.00 - £26,847.00 Annually (FTE) | Admin Assistant
-employer: St Pancras Catholic Primary School
-closing_date: 2026-10-20T23:59:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: df1b4757f312826262350ff9a2181d94acdcd6f52027ef8a539c0dfed98603fc
-source: Teaching Vacancies
-source_job_id: admin-assistant-st-pancras-catholic-primary-school-ipswich-suffolk
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-st-pancras-catholic-primary-school-ipswich-suffolk
----
 
 ---
 action: 
@@ -49,6 +34,36 @@ factual_fingerprint: 04e90297d8c607d969a35430ad34cc44fe4bf2ee66627c4431bb33320bc
 source: Teaching Vacancies
 source_job_id: business-support-officer-f0962e42-0c78-4fbd-92d4-e8439e71285e
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-f0962e42-0c78-4fbd-92d4-e8439e71285e
+---
+
+---
+action: 
+SELECTED | Suffolk | Lowestoft, East of England, NR33 0UQ | Salary: Support Staff Pay Scale F: £27,083 to £29,378 pro-rata per annum (Actual) (£29,542 - £32,046 full time/full year equivalent) | Exams Officer
+employer: East Point Academy
+closing_date: 2026-10-21T01:00:00+01:00
+reason: Clear admin/service title: exams officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: fa58985d46ea71eb8cd65eb87b87762b11a7bb8a203c1c0a6f569c9b6efd2630
+source: Teaching Vacancies
+source_job_id: exams-officer-8ae5f406-e651-4f9e-b401-8ed53b38f543
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-8ae5f406-e651-4f9e-b401-8ed53b38f543
+---
+
+---
+action: 
+SELECTED | Suffolk | Sudbury, East of England, CO10 1NW | £15,724.00 Annually (Actual) Actual salary based on working 26 hours per week | Receptionist/Administrator
+employer: Ormiston Sudbury Academy
+closing_date: 2026-10-23T09:00:00+01:00
+reason: Clear admin/service title: administrator, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 36709ca01806883746c23ab561f4bda6517dd5938408537a7e82ff3cfaacb84f
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-ormiston-sudbury-academy-sudbury-suffolk
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-ormiston-sudbury-academy-sudbury-suffolk
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -66,6 +81,21 @@ factual_fingerprint: 35835deb87a7ea003206d25dcd58de5deed312d3646c43e74893c30816a
 source: Teaching Vacancies
 source_job_id: administration-assistant-bungay-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-bungay-high-school
+---
+
+---
+action: 
+POSS | Suffolk | Bungay, East of England, NR35 1RW | £10,518 for 20 hours or £13,147 for 25 hours actual pa | Administration Assistant
+employer: Bungay High School
+closing_date: 2026-10-19T01:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 83e320fdb10372ed0194d3b1923d97c691169f0dc8772d606cf8b39671ff04b3
+source: Teaching Vacancies
+source_job_id: administration-assistant-bungay-high-school-bungay-suffolk
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-bungay-high-school-bungay-suffolk
 ---
 
 ---
@@ -89,6 +119,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-hr-administra
 
 ## HARD_PASS
 
+- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-stradbroke-high-school-eye-suffolk) — Insufficient admin/service evidence.
 - [Attendance and Inclusion Support Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-inclusion-support-officer) — Insufficient admin/service evidence.
 
 ## Safety boundary

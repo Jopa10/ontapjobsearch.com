@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-10-13
-review_fingerprint: d0b64cc189bf0ddca52344e60a16ed22cea6c26b1913798b94184b3f49a8aed4
-routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
+review_date: 2026-10-14
+review_fingerprint: aa434faad328b83a36dedf68930a222a93d2d17e27d87ca83fcb3238ecd661cd
+routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 17
-- Selected: 4
-- POSS awaiting decision: 5
+- Selected: 5
+- POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 8
 
@@ -68,6 +68,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/mis-administrator-mat
 
 ---
 action: 
+SELECTED | Devon | Exeter, South West, EX2 8RQ | £26,847 - £27,274 per annum FTE | Nursery Administrator
+employer: Alphington Primary School
+closing_date: 2026-11-11T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1b563ca81f5a9e7c97807c08879347185a502da4074bd87c3c7e74b6df12d3c6
+source: Teaching Vacancies
+source_job_id: nursery-administrator-alphington-primary-school-exeter-devon
+source_url: https://teaching-vacancies.service.gov.uk/jobs/nursery-administrator-alphington-primary-school-exeter-devon
+---
+
+---
+action: 
 SELECTED | Devon | Okehampton, EX20 1PU | £21,072.00 - £21,407.00 Annually (Actual) NJC Grade C. Range 6 to 7 | People Administrator
 employer: Dartmoor Multi Academy Trust
 closing_date: 2026-10-21T12:00:00+01:00
@@ -96,21 +111,6 @@ factual_fingerprint: 31bb5942f550a3e88cbf8ccfd116d0f3577a611c0a477e23adf3038f8e5
 source: Teaching Vacancies
 source_job_id: administrator-farway-church-of-england-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-farway-church-of-england-primary-school
----
-
----
-action: 
-POSS | Devon | Okehampton, South West, EX20 1PW | £24,400.00 - £26,014.00 Annually (Actual) NJC Grade D - Scale Point 8 to 12 | Data Manager
-employer: Okehampton College
-closing_date: 2026-10-13T23:59:00+01:00
-reason: Manager title below £28,000 salary ceiling requires review
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d06c2a590fb9c0288eb61b2205b44f188937bb7dbfbf9d6c24960bc17b6f423e
-source: Teaching Vacancies
-source_job_id: data-manager-ede70353-55db-4cf7-a540-0e0c7cfc4b8a
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-manager-ede70353-55db-4cf7-a540-0e0c7cfc4b8a
 ---
 
 ---

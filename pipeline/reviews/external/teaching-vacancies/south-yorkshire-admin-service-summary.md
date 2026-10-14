@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-10-13
-review_fingerprint: 54b8c8bc9fe766b0db2038f267ccca803c1c95aa3213afb54168ec17a715fac2
-routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
+review_date: 2026-10-14
+review_fingerprint: 9ff113c2ad00224a727785c45dac8858dd65998c6b488e8beabfc6ad9753b05a
+routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 23
+- Records: 24
 - Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 16
+- Hard pass: 17
 
 ## SELECTED
 
@@ -83,17 +83,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-as
 
 ---
 action: 
-SELECTED | Yorkshire - South | Sheffield, S9 4LR | £31,015.00 - £33,673.00 Annually (Actual) Grade 5 SCP 15 to 20 | SCITT Administrator
-employer: Chorus Education Trust
-closing_date: 2026-10-18T23:59:00+01:00
+SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S26 4SF | £23,199.00 - £23,315.00 Annually (Actual) Band D Points 6 - 7. Based on full time salary of £26,340 - £26,472 - pay award pending. (plus an additional 1 week of pay if the appointee has 5 years or more continuous service with the Local Authority) | SEND Administrator
+employer: Aston Academy
+closing_date: 2026-11-16T23:59:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 752946d2d9d36048839b7d8e837c895a995e02806a18c010de56edc080fd1f14
+factual_fingerprint: 415aa88f20672fe5afcb591ee833153fdc92efb50ec153318f620490a8992e1b
 source: Teaching Vacancies
-source_job_id: scitt-administrator-chorus-education-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/scitt-administrator-chorus-education-trust
+source_job_id: send-administrator-adcabd9c-b940-45d0-a8f0-52fec00f63a2
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-adcabd9c-b940-45d0-a8f0-52fec00f63a2
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -146,6 +146,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-admin-suppor
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-misson-primary-school) — Manager title salary ceiling £33,699 is not below £28,000.
 - [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-gooseacre-primary-academy) — Manager title salary ceiling £39,773 is not below £28,000.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-42e231a7-dcef-4bf5-a3d7-0eb145f4ac02) — Insufficient admin/service evidence.
+- [School Resource Business Partner](https://teaching-vacancies.service.gov.uk/jobs/school-resource-business-partner) — Insufficient admin/service evidence.
 - [Senior Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-manager-minerva-learning-trust) — Manager title salary ceiling £58,557 is not below £28,000.
 - [Senior Management Account / Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/senior-management-account-head-of-finance) — Insufficient admin/service evidence.
 - [Sports Centre and Lettings Supervisor](https://teaching-vacancies.service.gov.uk/jobs/sports-centre-and-lettings-supervisor) — Insufficient admin/service evidence.

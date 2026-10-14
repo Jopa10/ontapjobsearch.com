@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-10-13
-review_fingerprint: 6b93011948b7c15ee80a519b4012200c82c9ae307e0c0515ad6657097207f2a0
-routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
+review_date: 2026-10-14
+review_fingerprint: 7adb2f12f139fdef914a841611d58662bb55e659924ef4d03745e2ba097886a0
+routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 14
 - Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 9
 
 ## SELECTED
 
@@ -68,17 +68,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
-SELECTED | Essex | Brentwood, East of England, CM14 4JF | £25,128.65 - £26,371.55 Annually (Actual) Plus Outer Fringe Allowance £661.42 per annum | Receptionist
-employer: Brentwood County High School
-closing_date: 2026-10-16T09:00:00+01:00
+SELECTED | Essex | Leigh-on-Sea, East of England, SS9 5UU | £26,248.00 Annually (FTE) | Receptionist
+employer: The Eastwood Academy
+closing_date: 2026-10-26T12:00:00+00:00
 reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: dc98390f89829bb5dc055700a7acfd392d22998c13e2c00ac52b612a6ab18c37
+factual_fingerprint: b63fc0d436dfe985a9d3d49affbbf9abf5d79c3cd0d07a1e12a20d55f846e69f
 source: Teaching Vacancies
-source_job_id: receptionist-brentwood-county-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-brentwood-county-high-school
+source_job_id: receptionist-the-eastwood-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-eastwood-academy
 ---
 
 ---
@@ -109,6 +109,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrative-a
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-colne-community-school) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-88731512-4f32-446c-b927-3ff9b578aae5) — Insufficient admin/service evidence.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-mossbourne-port-side-academy) — Insufficient admin/service evidence.
+- [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-discovery-educational-trust-brentwood-not-recorded) — Insufficient admin/service evidence.
+- [SEND Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/send-administration-assistant-colne-community-school) — Insufficient admin/service evidence.
+- [Senior HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-7fdfdda1-d192-4d5b-97af-7b3fd8dab45b) — Insufficient admin/service evidence.
 - [STUDENT ATTENDANCE AND INCLUSION MANAGER](https://teaching-vacancies.service.gov.uk/jobs/student-attendance-and-inclusion-manager-503e1cdc-f886-497b-8b9a-ca3c1f6b7938) — Manager title without salary evidence below £28,000.
 - [Support Manager](https://teaching-vacancies.service.gov.uk/jobs/support-manager-little-thurrock-primary-school) — Manager title salary ceiling £33,495 is not below £28,000.
 - [Trust Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-discovery-educational-trust) — Insufficient admin/service evidence.

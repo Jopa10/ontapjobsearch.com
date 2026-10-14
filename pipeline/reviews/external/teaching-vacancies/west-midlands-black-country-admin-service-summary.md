@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-10-13
-review_fingerprint: c891594dc044a6fd7602e632e207e3b526df623e869d7062e9f0b2131ea3ac1c
-routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
+review_date: 2026-10-14
+review_fingerprint: 67d708d731efbaed89a91928b433a0e5c61ed44b347fa99fef53c10b2c790b1a
+routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 2
-- POSS awaiting decision: 4
+- Records: 15
+- Selected: 3
+- POSS awaiting decision: 5
 - Excluded: 0
 - Hard pass: 7
 
 ## SELECTED
+
+---
+action: 
+SELECTED | West Midlands - Black Country | Wolverhampton, West Midlands, WV1 2BS | £26,427.00 - £26,847.00 Annually (FTE) Pro rata actual salary £19,283.98-£19,590.45 | Administration Assistant
+employer: Holy Rosary Catholic Primary Academy
+closing_date: 2026-11-04T12:00:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f3b595cbfcc358aaada7b3c2b35d1d412b4b7368096c534af16efb24a62b1888
+source: Teaching Vacancies
+source_job_id: administration-assistant-5668d12d-a90d-4f94-85ad-7747c1489e75
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-5668d12d-a90d-4f94-85ad-7747c1489e75
+---
 
 ---
 action: 
@@ -96,6 +111,21 @@ factual_fingerprint: ebe4e8dcae6d9e62baf140ba8ce8ec2aee86543525f32550ae5588778f9
 source: Teaching Vacancies
 source_job_id: head-of-house-pa-b63da4ba-19ba-4c61-9d9c-22c58869178c
 source_url: https://teaching-vacancies.service.gov.uk/jobs/head-of-house-pa-b63da4ba-19ba-4c61-9d9c-22c58869178c
+---
+
+---
+action: 
+POSS | West Midlands - Black Country | Wolverhampton, West Midlands, WV11 3ES | £25,162.69 - £25,162.69 Annually (Actual) Starting Salary £25,162.69 (FTE £28,523) | Head of House PA
+employer: Wednesfield Academy
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 409e6c8ca593c840b97d824478ac39084f6ae75dc3db7ee4172969ef26f0e715
+source: Teaching Vacancies
+source_job_id: head-of-house-pa-wednesfield-academy-wolverhampton-west-midlands
+source_url: https://teaching-vacancies.service.gov.uk/jobs/head-of-house-pa-wednesfield-academy-wolverhampton-west-midlands
 ---
 
 ---

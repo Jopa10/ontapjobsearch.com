@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-10-13
+review_date: 2026-10-14
 review_fingerprint: 298ddb57719ec5501fccaea5ec5ffd926fdc3e4e1ca68f5a0f1d899e28c243ff
-routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
+routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
+- Records: 11
 - Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -108,6 +108,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-gr
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-magna-learning-partnership-salisbury-not-recorded) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-great-western-academy-swindon) — Insufficient admin/service evidence.
 - [Local Governance Committee Clerks](https://teaching-vacancies.service.gov.uk/jobs/local-governance-committee-clerks) — Insufficient admin/service evidence.
+- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-4c722adb-c7a9-4af5-b8d5-bf00527c02c0) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-william-morris-primary-school) — Manager title salary ceiling £46,185 is not below £28,000.
 
 ## Safety boundary

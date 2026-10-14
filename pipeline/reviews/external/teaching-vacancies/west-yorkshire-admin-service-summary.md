@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-10-13
-review_fingerprint: ad50d92a32d42c9b1eeb7e2919b2a80cce6bb5e0f1b96aba845ecf3dc94b7095
-routing_manifest_sha256: aaa41d5cd168d6f98125ebcba45b653c99f3eb9bd24c679510d3a9e3ba939091
+review_date: 2026-10-14
+review_fingerprint: 53e33af3bad08f369710b7fdee1497fb3bced101cd9bc965b173d4df664361e5
+routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 44
-- Selected: 16
+- Records: 40
+- Selected: 15
 - POSS awaiting decision: 8
 - Excluded: 0
-- Hard pass: 20
+- Hard pass: 17
 
 ## SELECTED
 
@@ -203,21 +203,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-officer-adm
 
 ---
 action: 
-SELECTED | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD5 8AE | £30,574 to £32,108 | Leadership Team Administrator (Hybrid)
-employer: Moldgreen Community Primary School
-closing_date: 2026-10-14T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: f9cda97ec15a105cc1a00e3ff901d8a62fa9d8b7818ade4f1e96fca1b9b38b3e
-source: Teaching Vacancies
-source_job_id: leadership-team-administrator-hybrid
-source_url: https://teaching-vacancies.service.gov.uk/jobs/leadership-team-administrator-hybrid
----
-
----
-action: 
 SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS9 0JY | £11,273.00 - £11,634.00 Annually (Actual) Band B1, SCP 4-6. FTE: £26,016 - £ 26,847 | Receptionist/Administrator
 employer: Meadowfield Primary School
 closing_date: 2026-11-12T09:00:00+00:00
@@ -391,21 +376,18 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-wakefield-snapethorpe-primary-school-wakefield) — Insufficient admin/service evidence.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-ethos-academy-trust) — Insufficient admin/service evidence.
-- [Compliance Officer (7364)](https://teaching-vacancies.service.gov.uk/jobs/compliance-officer-7364) — Insufficient admin/service evidence.
 - [Content Creator (7617)](https://teaching-vacancies.service.gov.uk/jobs/content-creator-7617-delta-academies-trust) — Insufficient admin/service evidence.
 - [Data and Exams Assistant (7698)](https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-assistant-7698) — Insufficient admin/service evidence.
-- [Data, MIS and Admissions Manager](https://teaching-vacancies.service.gov.uk/jobs/data-mis-and-admissions-manager-batley-grammar-school-batley-west-yorkshire) — Manager title salary ceiling £38,267 is not below £28,000.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the-north-halifax-grammar-school) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-the-william-henry-smith-school-and-sixth-form) — Manager title salary ceiling £50,908 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-greenhead-college) — Insufficient admin/service evidence.
+- [Human Resources Business Partner (Central HR Team)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-central-hr-team-935af2eb-24ce-4cd3-ac6d-3868ceb4711e) — Insufficient admin/service evidence.
 - [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-ilkley-grammar-school) — Insufficient admin/service evidence.
 - [Learning Manager](https://teaching-vacancies.service.gov.uk/jobs/learning-manager-31a743da-8519-49fb-99c7-f5afb963c51c) — Manager title salary ceiling £36,581 is not below £28,000.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-holy-name-catholic-voluntary-academy) — Manager title salary ceiling £32,046 is not below £28,000.
 - [Operations Support Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/operations-support-co-ordinator) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-weetwood-primary-school-leeds-west-yorkshire) — Manager title salary ceiling £42,123 is not below £28,000.
 - [School Operations Manager - West Yorkshire](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-west-yorkshire) — Manager title salary ceiling £38,221 is not below £28,000.
-- [Senior Admin and Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-admin-and-operations-manager) — Manager title salary ceiling £40,444 is not below £28,000.
 - [Senior Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-altofts-junior-academy) — Insufficient admin/service evidence.
 - [Sixth Form and Careers Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-and-careers-administration-officer) — Insufficient admin/service evidence.
 - [Trust Business Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-business-manager-enhance-academy-trust-bradford-not-recorded) — Manager title salary ceiling £47,665 is not below £28,000.
