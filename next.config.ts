@@ -19,6 +19,13 @@ const nextConfig: NextConfig = {
       "./pipeline/reports-daily/decision-report-admin-service.csv",
       "./pipeline/reports-daily/decision-report-support-worker.csv",
     ],
+    "/job-search/*/*": [
+      "./pipeline/input-jobg8-archive/**/*",
+      "./pipeline/manifests/external/**/*",
+      "./pipeline/reviews/external/**/*",
+      "./pipeline/reports-daily/decision-report-admin-service.csv",
+      "./pipeline/reports-daily/decision-report-support-worker.csv",
+    ],
   },
 
   async redirects() {
