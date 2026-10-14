@@ -306,11 +306,11 @@ reason: No approved Huddersfield catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: Reed - Agency - Permanent
-location: Keighley
+title: HR Administrator
+company: E3 Recruitment - Agency - Permanent
+location: Brighouse
 source: JobG8
-job_id: jobg8-2077373
+job_id: jobg8-23643_225720816
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
@@ -477,6 +477,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Administrator
+company: Huntress - Leeds - Agency - Contract
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225717635
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
 company: Search Consultancy Ltd - Agency - Contract
 location: Leeds
 source: JobG8
@@ -625,6 +637,18 @@ company: G2 Legal Limited - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-2043136
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Compliance Administrator- Leading Recruitment Company
+company: Prospero Group - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225717515
 reason: Separate employment market.
 ---
 
@@ -824,6 +848,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Front of House
+company: Lucy Walker Recruitment - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225719462
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Graduate Design & Project Coordinator (Luxury Spa & Sauna)
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Leeds
@@ -889,6 +925,18 @@ company: Hamilton Woods - Agency - Temporary
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225703687
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Internal Sales / New Business Executive
+company: Streamline Search Ltd - Agency - Permanent
+location: Bradford
+source: JobG8
+job_id: jobg8-1996503
 reason: Separate employment market.
 ---
 
@@ -1244,6 +1292,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Receptionist / Administrator
+company: Ossett Surgery
+location: Wakefield, WF5 8DF
+source: NHS Jobs
+job_id: nhs-5662186
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Recruitment Account Coordinator
 company: Nexus People - Agency - Temporary
 location: Bradford
@@ -1328,18 +1388,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Sales Ledger Clerk
-company: Reed - Agency - Permanent
-location: Wakefield
-source: JobG8
-job_id: jobg8-2057106
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: School Administrator
 company: PK Education - Agency - Temporary
 location: Bradford
@@ -1390,45 +1438,9 @@ decision: exclude
 automatic_decision: exclude
 title: Service Advisor
 company: Auto Skills UK - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225609669
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Advisor
-company: Auto Skills UK - Agency - Permanent
 location: Bradford
 source: JobG8
 job_id: jobg8-23643_225609682
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Advisor
-company: Auto Skills UK - Agency - Permanent
-location: Wakefield
-source: JobG8
-job_id: jobg8-23643_225609683
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Advisor (Automotive)
-company: Next Level Talent Group - Agency - Permanent
-location: Wakefield
-source: JobG8
-job_id: jobg8-23643_225609589
 reason: Separate employment market.
 ---
 
@@ -1489,18 +1501,6 @@ company: Blue Moon Recruitment - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225688225
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Telesales Closer
-company: Marmon Lift Recruitment - Agency - Permanent
-location: Bradford
-source: JobG8
-job_id: jobg8-23643_225696958
 reason: Separate employment market.
 ---
 

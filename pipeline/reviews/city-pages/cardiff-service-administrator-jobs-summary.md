@@ -100,18 +100,6 @@ reason: Approved conservative Cardiff launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Contact Centre Advisor - Working from Home
-company: Adecco - Agency - Temporary
-location: Cardiff
-source: JobG8
-job_id: jobg8-23643_225704399
-reason: Approved conservative Cardiff launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Contact Centre Agent
 company: EE - Company - Permanent
 location: Cardiff
@@ -141,6 +129,18 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Cardiff
 source: JobG8
 job_id: jobg8-2078303
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Adviser
+company: Yolk Recruitment - Agency - Temporary
+location: Cardiff
+source: JobG8
+job_id: jobg8-23643_225716856
 reason: Approved conservative Cardiff launch catchment.
 ---
 

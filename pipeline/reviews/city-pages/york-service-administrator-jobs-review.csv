@@ -1,15 +1,14 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-23643_225702033,Administration Assistant,Clear Legal & Financial Recruitment - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
+include,jobg8-23643_225718615,Administrator,Search Consultancy Ltd - Agency - Contract,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,jobg8-23643_225652103,Assistant Buyer/Purchasing Assistant,PPM Recruitment - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,jobg8-23643_225617615,Document Controller,CV Technical - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
-include,jobg8-23643_225694595,HR Assistant,Sewell Wallis Ltd - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
+include,jobg8-23643_225713571,HR Administrator,Sewell Wallis Ltd - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,jobg8-2076479,Legal Administrator,Venn Group - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
-include,jobg8-23643_225686566,Onboarding Administrator,Sewell Wallis Ltd - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,jobg8-2093053,Paralegal,LSL Property Services plc - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,jobg8-23643_225696188,Part Time Finance Assistant,Hays Accounts and Finance - Agency - Temporary,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,jobg8-2087398,Part Time Finance Assistant,Hays Specialist Recruitment Limited - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,nhs-5655371,Patient Services Advisor (Receptionist),Haxby Group,"York, YO32 2LL, York, YO24 3BU, Huntington, YO32 9RU, York, YO32 4AG, York, YO26 6EQ",NHS Jobs,include,include,Approved York catchment.,york,york-service-administrator-jobs
-include,jobg8-23643_225655354,Receptionist,Capital Outsourcing Group Ltd - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 review,jobg8-23643_225499251,Administrator,Capital Outsourcing Group Ltd - Agency - Permanent,Pickering,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,jobg8-23643_225631397,Administrator / Coordinator,KD Recruitment - Agency - Permanent,Ripon,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,jobg8-2053052,Credit Controller,Get Recruited (UK) Ltd - Agency - Permanent,Catterick Garrison,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
@@ -19,13 +18,15 @@ review,jobg8-108060036,Credit Controller,SI Recruitment - Agency - Permanent,Rip
 review,jobg8-2051167,Credit Controller,Si Recruitment - Agency - Permanent,Catterick Garrison,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,jobg8-2048214,"Credit Controller, Ripon",Si Recruitment - Agency - Permanent,Ripon,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,jobg8-23643_225657349,Customer Service Administrator,Unity Resourcing Ltd - Agency - Permanent,Ripon,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
-review,jobg8-23643_225694644,Legal Secretary,Sewell Wallis Ltd - Agency - Permanent,Malton,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
-review,jobg8-23643_225694697,Legal Secretary - Property,Sewell Wallis Ltd - Agency - Permanent,Malton,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
+review,jobg8-23643_225719942,Legal Secretary,Sewell Wallis Ltd - Agency - Permanent,Malton,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,jobg8-23643_225682758,Lettings Co-ordinator,Office Angels - Agency - Permanent,Richmond,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,nhs-5651232,Patient Services Administrator,Filey Surgery,"Filey, YO14 9AE",NHS Jobs,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
+review,jobg8-23643_225719224,Practice Administrator,Magpie Recruitment - Agency - Permanent,Richmond,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,jobg8-23643_225661285,Private Client Legal Secretary,Search Consultancy Ltd - Agency - Permanent,Malton,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,jobg8-2050560,"Probate & Wills Legal Secretary - Malton, Yorkshire",qed legal - Agency - Permanent,Malton,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,jobg8-23643_225661252,Reception Administrator,Travail Employment Group - Agency - Permanent,Knaresborough,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
+review,jobg8-23643_225655354,Receptionist,Capital Outsourcing Group Ltd - Agency - Permanent,Ripon,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
+review,jobg8-23643_225717661,Residential Property Legal Secretary,Search Consultancy Ltd - Agency - Permanent,Malton,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,jobg8-23643_225661358,Residential Property Paralegal,Search Consultancy Ltd - Agency - Permanent,Malton,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,jobg8-108059238,Service Coordinator,Interaction - Leeds - Agency - Permanent,Malton,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
 review,jobg8-23643_225666115,Temporary Payout Coordinator,Michael Page - Agency - Temporary,Richmond,JobG8,review,review,No approved York catchment rule matched; local review required.,fallback,york-service-administrator-jobs
@@ -43,7 +44,6 @@ exclude,jobg8-23643_225706656,Commercial Property Paralegal,Search Consultancy L
 exclude,jobg8-2045708,Content Creator,Greenfield I T Recruitment - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
 exclude,jobg8-2077875,Conveyancing Assistant/Paralegal,SJC Partners - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
 exclude,jobg8-2057600,Credit Control,Hays Specialist Recruitment Limited - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
-exclude,jobg8-23643_225607215,Finance Assistant,IPS Finance - Agency - Permanent,Harrogate,JobG8,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs
 exclude,jobg8-2063467,Legal Assistant,IMPRESSION RECRUITMENT LIMITED - Agency - Permanent,Northallerton,JobG8,exclude,exclude,Separate employment market.,northallerton,york-service-administrator-jobs
 exclude,jobg8-2075662,Litigation Legal Assistant,Clear Legal & Financial Recruitment - Agency - Permanent,Northallerton,JobG8,exclude,exclude,Separate employment market.,northallerton,york-service-administrator-jobs
 exclude,jobg8-2089709,Marketing Assistant,Technical Prospects - Agency - Permanent,Harrogate,JobG8,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs

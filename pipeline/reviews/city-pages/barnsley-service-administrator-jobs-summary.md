@@ -4,7 +4,7 @@
 - Live route: `/barnsley/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
+- automatic include: 8
 - automatic review: 3
-- automatic exclude: 42
-- effective include: 10
+- automatic exclude: 40
+- effective include: 8
 - effective review: 3
-- effective exclude: 42
+- effective exclude: 40
 
-## INCLUDE (10)
+## INCLUDE (8)
 
 ---
 action: 
@@ -112,30 +112,6 @@ reason: Approved Barnsley catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: ID Medical
-location: Barnsley, s752ep
-source: NHS Jobs
-job_id: nhs-5641970
-reason: Approved Barnsley catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist / Administrator
-company: Edwards & Pearce - Agency - Temporary
-location: Barnsley
-source: JobG8
-job_id: jobg8-23643_225713272
-reason: Approved Barnsley catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Technical Administrator
 company: IMH Recruitment - Agency - Permanent
 location: Barnsley
@@ -182,7 +158,7 @@ job_id: jobg8-23643_225712413
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (42)
+## EXCLUDE (40)
 
 ---
 action: 
@@ -368,18 +344,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Clinical Receptionist & Booking Clerk
-company: NHS Professionals - Company - Temporary
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225684806
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: COMMERCIAL ADMINISTRATOR
 company: Resolve Personnel - Agency - Contract
 location: Sheffield
@@ -493,18 +457,6 @@ company: Venatu Consulting Ltd - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225668765
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: HR Assistant
-company: Andy File Associates Ltd - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225657869
 reason: Separate employment market.
 ---
 

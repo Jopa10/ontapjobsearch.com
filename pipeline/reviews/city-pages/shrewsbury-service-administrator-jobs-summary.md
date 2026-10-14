@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 12
+- automatic review: 14
 - automatic exclude: 0
 - effective include: 3
-- effective review: 12
+- effective review: 14
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: jobg8-23643_225715945
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (12)
+## REVIEW (14)
 
 ---
 action: 
@@ -95,6 +95,30 @@ company: MPI Limited - Agency - Contract
 location: Shropshire
 source: JobG8
 job_id: jobg8-23643_225707286
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator - Data Entry Project
+company: Think Specialist Recruitment - Agency - Contract
+location: Telford
+source: JobG8
+job_id: jobg8-23643_225717318
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Housing Repairs Administrator
+company: Thorngate Churcher Trust - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-23643_225698170
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

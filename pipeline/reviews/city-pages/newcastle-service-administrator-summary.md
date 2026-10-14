@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 21
+- Effective included jobs: 20
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 21
-- automatic review: 38
-- automatic exclude: 25
-- effective include: 21
-- effective review: 38
-- effective exclude: 25
+- automatic include: 20
+- automatic review: 40
+- automatic exclude: 26
+- effective include: 20
+- effective review: 40
+- effective exclude: 26
 
-## INCLUDE (21)
+## INCLUDE (20)
 
 ---
 action: 
@@ -93,18 +93,6 @@ company: Office Angels - Agency - Permanent
 location: Gateshead
 source: JobG8
 job_id: jobg8-23643_225676547
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Commercial Administrator
-company: Elvet Recruitment - Agency - Permanent
-location: Newcastle
-source: JobG8
-job_id: jobg8-23643_225615201
 reason: Approved Newcastle catchment.
 ---
 
@@ -276,7 +264,7 @@ job_id: jobg8-23643_225677749
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (38)
+## REVIEW (40)
 
 ---
 action: 
@@ -522,6 +510,18 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Onboarding Support Administrator - Temp to Perm
+company: Office Angels - Agency - Temporary
+location: Houghton Le Spring
+source: JobG8
+job_id: jobg8-23643_225718647
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part time Administrator/ Receptionist
 company: Berry Recruitment - Agency - Temporary
 location: Ferryhill
@@ -600,6 +600,18 @@ location: Yorkshire
 source: JobG8
 job_id: jobg8-2089759
 reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Clerk
+company: Adecco - Agency - Temporary
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225610690
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -734,7 +746,7 @@ job_id: jobg8-23643_225658559
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (25)
+## EXCLUDE (26)
 
 ---
 action: 
@@ -961,6 +973,18 @@ company: Spear-heads - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-2036113
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Sales Administrator
+company: Paisley Recruitement Group - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-23643_225682964
 reason: Separate employment market.
 ---
 

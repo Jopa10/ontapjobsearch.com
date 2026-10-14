@@ -76,6 +76,18 @@ reason: Approved Bradford catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Internal Sales / New Business Executive
+company: Streamline Search Ltd - Agency - Permanent
+location: Bradford
+source: JobG8
+job_id: jobg8-1996503
+reason: Approved Bradford catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Marketing Coordinator
 company: Equals One - Agency - Permanent
 location: Bradford
@@ -153,18 +165,6 @@ company: Headway Recruitment - Agency - Contract
 location: Bradford
 source: JobG8
 job_id: jobg8-23643_225645421
-reason: Approved Bradford catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Telesales Closer
-company: Marmon Lift Recruitment - Agency - Permanent
-location: Bradford
-source: JobG8
-job_id: jobg8-23643_225696958
 reason: Approved Bradford catchment.
 ---
 
@@ -366,11 +366,11 @@ reason: No approved Bradford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: Reed - Agency - Permanent
-location: Keighley
+title: HR Administrator
+company: E3 Recruitment - Agency - Permanent
+location: Brighouse
 source: JobG8
-job_id: jobg8-2077373
+job_id: jobg8-23643_225720816
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -537,6 +537,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Administrator
+company: Huntress - Leeds - Agency - Contract
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225717635
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
 company: Search Consultancy Ltd - Agency - Contract
 location: Leeds
 source: JobG8
@@ -685,6 +697,18 @@ company: G2 Legal Limited - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-2043136
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Compliance Administrator- Leading Recruitment Company
+company: Prospero Group - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225717515
 reason: Separate employment market.
 ---
 
@@ -853,6 +877,18 @@ company: Michael Page - Agency - Contract
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225710931
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Front of House
+company: Lucy Walker Recruitment - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225719462
 reason: Separate employment market.
 ---
 
@@ -1304,6 +1340,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Receptionist / Administrator
+company: Ossett Surgery
+location: Wakefield, WF5 8DF
+source: NHS Jobs
+job_id: nhs-5662186
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Recruitment Coordinator
 company: Lucy Walker Recruitment - Agency - Temporary
 location: Leeds
@@ -1376,18 +1424,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Sales Ledger Clerk
-company: Reed - Agency - Permanent
-location: Wakefield
-source: JobG8
-job_id: jobg8-2057106
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Senior Marketing Executive
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Leeds
@@ -1417,42 +1453,6 @@ company: Working Solutions Recruitment - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225715854
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Advisor
-company: Auto Skills UK - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225609669
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Advisor
-company: Auto Skills UK - Agency - Permanent
-location: Wakefield
-source: JobG8
-job_id: jobg8-23643_225609683
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Advisor (Automotive)
-company: Next Level Talent Group - Agency - Permanent
-location: Wakefield
-source: JobG8
-job_id: jobg8-23643_225609589
 reason: Separate employment market.
 ---
 

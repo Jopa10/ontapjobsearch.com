@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 21
+- automatic review: 19
 - automatic exclude: 0
 - effective include: 5
-- effective review: 21
+- effective review: 19
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-2039520
 reason: Exact approved Altrincham workplace.
 ---
 
-## REVIEW (21)
+## REVIEW (19)
 
 ---
 action: 
@@ -131,18 +131,6 @@ company: Jobwise Ltd - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225620060
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Corporate Sales Administrator
-company: ACS Automotive Recruitment - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225610419
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -283,10 +271,10 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
-company: People Group Limited - Agency - Permanent
-location: Cheadle
+company: Winsearch - Agency - Temporary
+location: Stockport
 source: JobG8
-job_id: jobg8-23643_225699480
+job_id: jobg8-23643_225720848
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -311,18 +299,6 @@ company: VCG Technology Services Limited - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-108042377
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Team Administrator
-company: Pennine Care NHS FT
-location: Ashton-Under-Lyne, OL6 7SR
-source: NHS Jobs
-job_id: nhs-5643892
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

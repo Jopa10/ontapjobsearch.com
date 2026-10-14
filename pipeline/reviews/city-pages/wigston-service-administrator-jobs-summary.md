@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 48
+- automatic review: 51
 - automatic exclude: 0
 - effective include: 0
-- effective review: 48
+- effective review: 51
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (48)
+## REVIEW (51)
 
 ---
 action: 
@@ -42,11 +42,11 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Payable Administrator
-company: SolviT Recruitment Ltd - Agency - Permanent
+title: Accounts Payable Clerk
+company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-23643_225712972
+job_id: jobg8-2053385
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -54,11 +54,11 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Payable Clerk
-company: Macildowie Recruitment and Retention - Agency - Permanent
+title: Accounts Payable Coordinator
+company: SolviT Recruitment Ltd - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2053385
+job_id: jobg8-23643_225712972
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -143,6 +143,18 @@ company: Interaction Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225629801
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: Macildowie Recruitment and Retention - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-2012728
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -426,6 +438,18 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Parts Administrator
+company: Otis - Company - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225687246
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Planning Administrator / Equipment Controller
 company: Geary's Bakeries Ltd - Agency - Permanent
 location: Glenfield
@@ -503,6 +527,18 @@ company: Sytner - Company - Permanent
 location: Leicester
 source: JobG8
 job_id: jobg8-23643_225703381
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist - LE4
+company: Office Angels - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225721480
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

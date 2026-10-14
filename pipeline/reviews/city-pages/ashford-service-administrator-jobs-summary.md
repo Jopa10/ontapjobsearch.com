@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 90
+- automatic review: 91
 - automatic exclude: 0
 - effective include: 6
-- effective review: 90
+- effective review: 91
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: nhs-5653187
 reason: Exact approved Ashford workplace.
 ---
 
-## REVIEW (90)
+## REVIEW (91)
 
 ---
 action: 
@@ -222,6 +222,18 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Administrator
+company: R9 Recruitment Ltd - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225716152
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Bookkeeper
 company: AMR Bookeeping Services - Agency - Permanent
 location: Tonbridge
@@ -270,18 +282,6 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Credit controller
-company: Michael Page Finance - Agency - Permanent
-location: Canterbury
-source: JobG8
-job_id: jobg8-2059344
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Credit Controller (12-Month Fixed-Term Contract) - Kent
 company: Marks Sattin - Agency - Permanent
 location: Kent
@@ -299,6 +299,18 @@ company: Cygnet - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-2063033
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Account Coordinator
+company: Morgan Jones Recruitment Consultants - Agency - Contract
+location: Whitstable
+source: JobG8
+job_id: jobg8-23643_225720486
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -443,18 +455,6 @@ company: Aureos Group - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225684874
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: External Communications Officer
-company: South East Water - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225704285
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -611,6 +611,18 @@ company: Pearson Whiffin Recruitment Ltd - Agency - Permanent
 location: Maidstone
 source: JobG8
 job_id: jobg8-2064424
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: MAF in the Community (MiC) Resourcing Coordinator
+company: Mission Aviation Fellowship UK - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-107958419
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -815,18 +827,6 @@ company: Netbox Recruitment - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225698386
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Clerk
-company: Michael Page Finance - Agency - Permanent
-location: West Malling
-source: JobG8
-job_id: jobg8-2046488
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -1151,6 +1151,18 @@ company: Office Angels - Agency - Permanent
 location: West Malling
 source: JobG8
 job_id: jobg8-2063842
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Training Coordinator
+company: Rubicon Recruitment - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225718683
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 

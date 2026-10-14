@@ -124,11 +124,11 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Contact Centre Advisor - Working from Home - Part Time
-company: Adecco - Agency - Temporary
+title: Client Services Administrator
+company: Realise Recruitment - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-23643_225705492
+job_id: jobg8-23643_225720686
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -189,18 +189,6 @@ company: Recruitment Helpline - Agency - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-23643_225631819
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: Red Recruitment - Agency - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225681925
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -321,6 +309,18 @@ company: Office Angels - Agency - Temporary
 location: Glasgow
 source: JobG8
 job_id: jobg8-23643_225637405
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Temporary Office Administrator
+company: Office Angels - Agency - Temporary
+location: Glasgow
+source: JobG8
+job_id: jobg8-23643_225719474
 reason: Approved conservative Glasgow launch catchment.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 19
-- automatic exclude: 27
-- effective include: 11
-- effective review: 19
-- effective exclude: 27
+- automatic include: 10
+- automatic review: 21
+- automatic exclude: 26
+- effective include: 10
+- effective review: 21
+- effective exclude: 26
 
-## INCLUDE (11)
+## INCLUDE (10)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-23643_225702033
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Search Consultancy Ltd - Agency - Contract
+location: York
+source: JobG8
+job_id: jobg8-23643_225718615
 reason: Approved York catchment.
 ---
 
@@ -64,11 +76,11 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
-title: HR Assistant
+title: HR Administrator
 company: Sewell Wallis Ltd - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-23643_225694595
+job_id: jobg8-23643_225713571
 reason: Approved York catchment.
 ---
 
@@ -81,18 +93,6 @@ company: Venn Group - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-2076479
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Onboarding Administrator
-company: Sewell Wallis Ltd - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-23643_225686566
 reason: Approved York catchment.
 ---
 
@@ -144,19 +144,7 @@ job_id: nhs-5655371
 reason: Approved York catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: Capital Outsourcing Group Ltd - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-23643_225655354
-reason: Approved York catchment.
----
-
-## REVIEW (19)
+## REVIEW (21)
 
 ---
 action: 
@@ -274,19 +262,7 @@ title: Legal Secretary
 company: Sewell Wallis Ltd - Agency - Permanent
 location: Malton
 source: JobG8
-job_id: jobg8-23643_225694644
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Legal Secretary - Property
-company: Sewell Wallis Ltd - Agency - Permanent
-location: Malton
-source: JobG8
-job_id: jobg8-23643_225694697
+job_id: jobg8-23643_225719942
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -311,6 +287,18 @@ company: Filey Surgery
 location: Filey, YO14 9AE
 source: NHS Jobs
 job_id: nhs-5651232
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Practice Administrator
+company: Magpie Recruitment - Agency - Permanent
+location: Richmond
+source: JobG8
+job_id: jobg8-23643_225719224
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -354,6 +342,30 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist
+company: Capital Outsourcing Group Ltd - Agency - Permanent
+location: Ripon
+source: JobG8
+job_id: jobg8-23643_225655354
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Residential Property Legal Secretary
+company: Search Consultancy Ltd - Agency - Permanent
+location: Malton
+source: JobG8
+job_id: jobg8-23643_225717661
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Residential Property Paralegal
 company: Search Consultancy Ltd - Agency - Permanent
 location: Malton
@@ -386,7 +398,7 @@ job_id: jobg8-23643_225666115
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (27)
+## EXCLUDE (26)
 
 ---
 action: 
@@ -554,18 +566,6 @@ location: Yorkshire
 source: JobG8
 job_id: jobg8-2057600
 reason: Broad regional label; not York-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Finance Assistant
-company: IPS Finance - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-23643_225607215
-reason: Separate employment market.
 ---
 
 ---

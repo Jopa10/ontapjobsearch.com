@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 0
 - automatic review: 6
-- automatic exclude: 5
+- automatic exclude: 6
 - effective include: 0
 - effective review: 6
-- effective exclude: 5
+- effective exclude: 6
 
 ## INCLUDE (0)
 
@@ -54,11 +54,11 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Female Support Worker
+title: Female Waking Night Support Worker
 company: SeeAbility - Agency - Permanent
 location: Tadley
 source: JobG8
-job_id: jobg8-107989086
+job_id: jobg8-107941132
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
@@ -98,7 +98,7 @@ job_id: jobg8-1401785693
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (5)
+## EXCLUDE (6)
 
 ---
 action: 
@@ -121,6 +121,18 @@ company: Barchester Healthcare - Company - Permanent
 location: Basingstoke
 source: JobG8
 job_id: jobg8-23643_225716746
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Residential Support Worker
+company: SCR - Agency - Temporary
+location: Aldershot
+source: JobG8
+job_id: jobg8-23643_225505280
 reason: Separate employment market.
 ---
 

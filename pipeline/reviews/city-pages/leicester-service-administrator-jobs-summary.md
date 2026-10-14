@@ -4,7 +4,7 @@
 - Live route: `/leicester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 10
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 38
+- automatic include: 12
+- automatic review: 39
 - automatic exclude: 0
-- effective include: 10
-- effective review: 38
+- effective include: 12
+- effective review: 39
 - effective exclude: 0
 
-## INCLUDE (10)
+## INCLUDE (12)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: SF Partners - Agency - Permanent
 location: Leicester
 source: JobG8
 job_id: jobg8-23643_225687426
+reason: Exact approved Leicester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Accountant
+company: Macildowie Recruitment and Retention - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-2012728
 reason: Exact approved Leicester workplace.
 ---
 
@@ -100,6 +112,18 @@ reason: Exact approved Leicester workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Parts Administrator
+company: Otis - Company - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225687246
+reason: Exact approved Leicester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Purchasing Administrator - with Parking
 company: Office Angels - Agency - Permanent
 location: Leicester
@@ -144,7 +168,7 @@ job_id: jobg8-23643_225638400
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (38)
+## REVIEW (39)
 
 ---
 action: 
@@ -162,11 +186,11 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Payable Administrator
-company: SolviT Recruitment Ltd - Agency - Permanent
+title: Accounts Payable Clerk
+company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-23643_225712972
+job_id: jobg8-2053385
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -174,11 +198,11 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Payable Clerk
-company: Macildowie Recruitment and Retention - Agency - Permanent
+title: Accounts Payable Coordinator
+company: SolviT Recruitment Ltd - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2053385
+job_id: jobg8-23643_225712972
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -515,6 +539,18 @@ company: Seismic Recruitment - Agency - Contract
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225628775
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist - LE4
+company: Office Angels - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225721480
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 41
+- automatic review: 45
 - automatic exclude: 0
 - effective include: 5
-- effective review: 41
+- effective review: 45
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-2085791
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (41)
+## REVIEW (45)
 
 ---
 action: 
@@ -131,6 +131,18 @@ company: Morgan McKinley (South West) - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225696934
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin Assistant
+company: ITS (Cheltenham) Ltd - Agency - Contract
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225721488
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -263,6 +275,30 @@ company: Leaders In Care Recruitment Ltd - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-108064328
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Control
+company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225691687
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Artis Recruitment - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225718824
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -450,7 +486,7 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Product Support Coordinator (12 Fixed Term Contract)
+title: Product Support Coordinator - 12 Fixed Term Contract
 company: Renishaw PLC - Agency - Permanent
 location: Gloucestershire
 source: JobG8
@@ -551,6 +587,18 @@ company: Workforce Staffing Ltd - Agency - Permanent
 location: Cheltenham
 source: JobG8
 job_id: jobg8-23643_225687742
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trainee Finance Assistant
+company: i2i Recruitment - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225690579
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 36
+- Effective included jobs: 38
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 36
+- automatic include: 38
 - automatic review: 6
 - automatic exclude: 8
-- effective include: 36
+- effective include: 38
 - effective review: 6
 - effective exclude: 8
 
-## INCLUDE (36)
+## INCLUDE (38)
 
 ---
 action: 
@@ -101,6 +101,18 @@ action:
 decision: include
 automatic_decision: include
 title: Administrator
+company: Fawkes & Reece London - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225718043
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
 company: MSRec Ltd - Agency - Permanent
 location: Bristol
 source: JobG8
@@ -153,18 +165,6 @@ company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2064747
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Contact Centre Advisor - Working from Home - Part Time
-company: Adecco - Agency - Temporary
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225705462
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -340,11 +340,35 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Operations Coordinator
+company: MDE Consultants Ltd - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225717098
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Patient Co-ordinator, Patchway
 company: Menlo Park - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225678230
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Project Coordinator
+company: ReQuire Consultancy LTD - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225703813
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -436,11 +460,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Service Coordinator - Mental Health
-company: Milestones Trust - Agency - Permanent
+title: Social Media and Content Executive
+company: Moxie and Mettle Limited - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2028810
+job_id: jobg8-2053562
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -448,11 +472,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Social Media and Content Executive
-company: Moxie and Mettle Limited - Agency - Permanent
+title: Trainee Accounts Assistant
+company: Lancer Scott Holdings Ltd - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2053562
+job_id: jobg8-23643_225608374
 reason: Approved conservative Bristol launch catchment.
 ---
 

@@ -115,6 +115,18 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
+company: Search Consultancy Ltd - Agency - Contract
+location: York
+source: JobG8
+job_id: jobg8-23643_225718615
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
 company: Travail Employment Group - Agency - Temporary
 location: Harrogate
 source: JobG8
@@ -378,23 +390,11 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: IPS Finance - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-23643_225607215
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Assistant
+title: HR Administrator
 company: Sewell Wallis Ltd - Agency - Permanent
 location: York
 source: JobG8
-job_id: jobg8-23643_225694595
+job_id: jobg8-23643_225713571
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -430,19 +430,7 @@ title: Legal Secretary
 company: Sewell Wallis Ltd - Agency - Permanent
 location: Malton
 source: JobG8
-job_id: jobg8-23643_225694644
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Legal Secretary - Property
-company: Sewell Wallis Ltd - Agency - Permanent
-location: Malton
-source: JobG8
-job_id: jobg8-23643_225694697
+job_id: jobg8-23643_225719942
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -479,18 +467,6 @@ company: Technical Prospects - Agency - Permanent
 location: Harrogate
 source: JobG8
 job_id: jobg8-2089709
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Onboarding Administrator
-company: Sewell Wallis Ltd - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-23643_225686566
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -582,6 +558,18 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Practice Administrator
+company: Magpie Recruitment - Agency - Permanent
+location: Richmond
+source: JobG8
+job_id: jobg8-23643_225719224
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Private Client Legal Secretary
 company: Search Consultancy Ltd - Agency - Permanent
 location: Malton
@@ -632,7 +620,7 @@ decision: review
 automatic_decision: review
 title: Receptionist
 company: Capital Outsourcing Group Ltd - Agency - Permanent
-location: York
+location: Ripon
 source: JobG8
 job_id: jobg8-23643_225655354
 reason: No exact Scarborough workplace matched; local geographic review is required.
@@ -647,6 +635,18 @@ company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2055397
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Residential Property Legal Secretary
+company: Search Consultancy Ltd - Agency - Permanent
+location: Malton
+source: JobG8
+job_id: jobg8-23643_225717661
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

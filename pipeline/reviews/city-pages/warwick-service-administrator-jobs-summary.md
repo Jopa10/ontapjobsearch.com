@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 58
+- automatic review: 57
 - automatic exclude: 0
 - effective include: 5
-- effective review: 58
+- effective review: 57
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-23643_225673829
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (58)
+## REVIEW (57)
 
 ---
 action: 
@@ -179,18 +179,6 @@ company: Accord Appointments Ltd - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225704336
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin Assistant
-company: Coventry and Warwickshire Partnership Trust
-location: Rugby, CV21 2AW
-source: NHS Jobs
-job_id: nhs-5644459
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -342,18 +330,6 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Administrator
-company: Provit Recruitment - Agency - Temporary
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225635269
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Service Coordinator
 company: Approach Personnel Ltd - Agency - Permanent
 location: Warwickshire
@@ -383,6 +359,18 @@ company: Stepnell Ltd - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225640022
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Facilities and Maintenance Administrator
+company: EA First - Agency - Temporary
+location: Coventry
+source: JobG8
+job_id: jobg8-23643_225717657
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

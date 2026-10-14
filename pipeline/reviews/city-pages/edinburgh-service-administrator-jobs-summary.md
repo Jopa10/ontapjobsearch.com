@@ -124,18 +124,6 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Contact Centre Advisor - Working from Home - Edinburgh
-company: Adecco - Agency - Temporary
-location: Edinburgh
-source: JobG8
-job_id: jobg8-23643_225706740
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Customer Service Advisor
 company: Godwin Recruitment - Agency - Permanent
 location: Edinburgh
@@ -201,18 +189,6 @@ company: Into Film - Agency - Permanent
 location: Edinburgh
 source: JobG8
 job_id: jobg8-23643_225633409
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance & Office Administrator
-company: Caledonian Heating & Plumbing Ltd - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-23643_225655550
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -388,6 +364,30 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Temporary Receptionist & Administrator
+company: Office Angels - Agency - Temporary
+location: Edinburgh
+source: JobG8
+job_id: jobg8-23643_225718730
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Temporary Receptionist - Ongoing
+company: Office Angels - Agency - Temporary
+location: Edinburgh
+source: JobG8
+job_id: jobg8-23643_225718450
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Theatre Administrator
 company: Spire Healthcare - Company - Permanent
 location: Edinburgh
@@ -414,11 +414,11 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Questech Recruitment Ltd - Agency - Temporary
-location: Dalkeith
+title: Service Advisor
+company: Auto Skills UK - Agency - Permanent
+location: Livingston
 source: JobG8
-job_id: jobg8-23643_225554671
+job_id: jobg8-23643_225717067
 reason: No approved Edinburgh catchment rule matched; local review required.
 ---
 

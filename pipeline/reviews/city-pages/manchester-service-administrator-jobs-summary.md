@@ -100,18 +100,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administrator/ Secretary
-company: Michael Page - Agency - Contract
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225665887
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Assistant Accountant
 company: RG Consultancy Ltd - Agency - Permanent
 location: Manchester
@@ -172,18 +160,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Contact Centre Advisor - Working from Home
-company: Adecco - Agency - Temporary
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225704287
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Credit Controller (12-Month FTC)
 company: Hays Accounts and Finance - Agency - Contract
 location: Manchester
@@ -213,6 +189,18 @@ company: Coburg Banks Limited - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225685153
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: Contechs Consulting - Company - Contract
+location: Manchester
+source: JobG8
+job_id: jobg8-23643_225715131
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -376,6 +364,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Events Administrator
+company: Optimise Talent Ltd - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-23643_225124951
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Facilities Coordinator
 company: Office Angels - Agency - Permanent
 location: Manchester
@@ -501,6 +501,18 @@ company: Forrest Recruitment - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225710631
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HubSpot Funnel & Conversion Marketing Manager - Travel Franchise
+company: RecruitmentRevolution.com - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-23643_225717712
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -761,6 +773,18 @@ action:
 decision: include
 automatic_decision: include
 title: Purchasing Assistant
+company: EDM Limited - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-23643_225611637
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Purchasing Assistant
 company: Hays Business Support - Agency - Permanent
 location: Manchester
 source: JobG8
@@ -892,18 +916,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Resident Engagement Manager
-company: Cobalt Recruitment. - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-108081589
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Sales Administrator
 company: Tagged Resources Ltd - Agency - Permanent
 location: Manchester
@@ -981,18 +993,6 @@ company: Uplands Medical Practice
 location: Whitefield, Manchester, M45 8GH
 source: NHS Jobs
 job_id: nhs-5569272
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Co-ordinator
-company: Search Consultancy Ltd - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225607946
 reason: Approved conservative Manchester launch catchment.
 ---
 

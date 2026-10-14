@@ -4,7 +4,7 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 57
+- automatic include: 7
+- automatic review: 58
 - automatic exclude: 26
-- effective include: 8
-- effective review: 57
+- effective include: 7
+- effective review: 58
 - effective exclude: 26
 
-## INCLUDE (8)
+## INCLUDE (7)
 
 ---
 action: 
@@ -108,19 +108,7 @@ job_id: nhs-5649373
 reason: Approved Brighton & Hove catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Advisor
-company: Auto Skills UK - Agency - Permanent
-location: Brighton
-source: JobG8
-job_id: jobg8-23643_225609645
-reason: Approved Brighton & Hove catchment.
----
-
-## REVIEW (57)
+## REVIEW (58)
 
 ---
 action: 
@@ -143,6 +131,18 @@ company: Lloyd Recruitment Services Ltd - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2059988
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Activities Coordinator
+company: Operations Resources Limited - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-107921098
 reason: Broad location; review before city inclusion.
 ---
 
@@ -354,11 +354,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Content Marketing Executive
-company: Crystal People Ltd - Agency - Permanent
+title: Credit Controller
+company: Paula Rosa Manhattan - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2068921
+job_id: jobg8-23643_225694517
 reason: Broad location; review before city inclusion.
 ---
 
@@ -539,18 +539,6 @@ company: Brighton Chamber - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2116746
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing and Communications Manager
-company: Dance Professionals Fund - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2116750
 reason: Broad location; review before city inclusion.
 ---
 
@@ -750,6 +738,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: SEO Manager
+company: Kairos Recruitment - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225721980
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Service Advisor
 company: Pembrook Resourcing - Agency - Permanent
 location: Sussex
@@ -774,23 +774,23 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Temporary Customer Service Advisor
-company: Huntress - Crawley - Agency - Temporary
-location: Sussex
+title: Telesales Executive
+company: Travail Employment Group - Agency - Permanent
+location: Not Specified
 source: JobG8
-job_id: jobg8-23643_225691543
-reason: Broad location; review before city inclusion.
+job_id: jobg8-23643_225609898
+reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Trainee Administrator
-company: Lloyd Recruitment - East Grinstead - Agency - Permanent
+title: Temporary Customer Service Advisor
+company: Huntress - Crawley - Agency - Temporary
 location: Sussex
 source: JobG8
-job_id: jobg8-23643_225608683
+job_id: jobg8-23643_225691543
 reason: Broad location; review before city inclusion.
 ---
 

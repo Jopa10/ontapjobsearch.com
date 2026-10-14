@@ -4,7 +4,7 @@
 - Live route: `/milton-keynes/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 15
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
-- automatic review: 57
+- automatic include: 16
+- automatic review: 56
 - automatic exclude: 0
-- effective include: 15
-- effective review: 57
+- effective include: 16
+- effective review: 56
 - effective exclude: 0
 
-## INCLUDE (15)
+## INCLUDE (16)
 
 ---
 action: 
@@ -161,6 +161,18 @@ action:
 decision: include
 automatic_decision: include
 title: Receptionist
+company: Osborne Appointments - Agency - Temporary
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-23643_225719288
+reason: Exact approved Milton Keynes workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
 company: Purbeck Health Centre
 location: Milton Keynes, MK14 6BL
 source: NHS Jobs
@@ -204,7 +216,7 @@ job_id: nhs-5652428
 reason: Exact approved Milton Keynes workplace.
 ---
 
-## REVIEW (57)
+## REVIEW (56)
 
 ---
 action: 
@@ -335,18 +347,6 @@ company: Future Engineering Recruitment Ltd - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225698486
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: NHS Professionals - Company - Temporary
-location: Amersham
-source: JobG8
-job_id: jobg8-23643_225563994
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -551,18 +551,6 @@ company: ASL - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225534216
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Facilities Administrator
-company: Medical Detection Dogs - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225693270
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -839,6 +827,18 @@ company: Gladstone Road Surgery
 location: Chesham, HP5 3EZ
 source: NHS Jobs
 job_id: nhs-5638681
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: NHS Professionals - Company - Temporary
+location: Buckingham
+source: JobG8
+job_id: jobg8-23643_225718008
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

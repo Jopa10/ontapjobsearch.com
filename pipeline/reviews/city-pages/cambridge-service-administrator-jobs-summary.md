@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 20
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 20
+- automatic include: 19
 - automatic review: 9
-- automatic exclude: 11
-- effective include: 20
+- automatic exclude: 13
+- effective include: 19
 - effective review: 9
-- effective exclude: 11
+- effective exclude: 13
 
-## INCLUDE (20)
+## INCLUDE (19)
 
 ---
 action: 
@@ -105,18 +105,6 @@ company: UBT - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-2045452
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Commercial Administrator
-company: Apple Technical Recruitment (UK) Limited - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225646065
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -374,7 +362,7 @@ job_id: jobg8-23643_225691104
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (11)
+## EXCLUDE (13)
 
 ---
 action: 
@@ -397,6 +385,18 @@ company: Anne Corder Recruitment - Agency - Contract
 location: Huntingdon
 source: JobG8
 job_id: jobg8-23643_225637156
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: Barker Ross - Agency - Temporary
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225719523
 reason: Separate employment market.
 ---
 
@@ -433,6 +433,18 @@ company: French Selection - Agency - Permanent
 location: Huntingdon
 source: JobG8
 job_id: jobg8-23643_225716483
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: HR Assistant
+company: Vero Hr - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225659039
 reason: Separate employment market.
 ---
 

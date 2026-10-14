@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 80
+- Effective included jobs: 82
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 80
-- automatic review: 14
-- automatic exclude: 7
-- effective include: 80
-- effective review: 14
-- effective exclude: 7
+- automatic include: 82
+- automatic review: 16
+- automatic exclude: 6
+- effective include: 82
+- effective review: 16
+- effective exclude: 6
 
-## INCLUDE (80)
+## INCLUDE (82)
 
 ---
 action: 
@@ -136,6 +136,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Admissions Avoidance Coordinator
+company: Birmingham Mind - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225615588
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Assistant Accountant (Financial Accounts)
 company: Sellick Partnership - Agency - Permanent
 location: Birmingham
@@ -213,18 +225,6 @@ company: Hays Specialist Recruitment - Education - Agency - Temporary
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225687401
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Contact Centre Advisor - Working from Home
-company: Adecco - Agency - Temporary
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225704281
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -400,6 +400,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Document Controller
+company: Red King Resourcing - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225721340
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Document Controller - Hybrid (9-Month Maternity Cover)
 company: MDE Consultants Ltd - Agency - Permanent
 location: Birmingham
@@ -429,6 +441,18 @@ company: Matchtech - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225647962
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Document Controller HS2
+company: Charlton Recruitment - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225721856
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -604,30 +628,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: International Sales Support Administrator
-company: Office Angels - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225610130
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Legal PA
-company: Bell Cornwall Recruitment - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225607285
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Legal Secretary
 company: Talk Staff Group Limited - Agency - Permanent
 location: Birmingham
@@ -693,6 +693,18 @@ company: Alliance Personnel - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225518765
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Office Administrator
+company: Bell Cornwall Recruitment - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225719103
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -952,6 +964,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Temporary Administrative Assistant
+company: Pertemps Birmingham Industrial - Agency - Temporary
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225720658
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Training Administrator (Construction)
 company: Nicholas Associates - Agency - Contract
 location: Birmingham
@@ -984,7 +1008,7 @@ job_id: jobg8-2039482
 reason: Approved conservative Birmingham launch catchment.
 ---
 
-## REVIEW (14)
+## REVIEW (16)
 
 ---
 action: 
@@ -1014,6 +1038,18 @@ reason: No approved Birmingham catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: BMW Trainee Service Advisor / Bookings Advisor
+company: Sytner - Company - Permanent
+location: Shirley
+source: JobG8
+job_id: jobg8-23643_225718356
+reason: No approved Birmingham catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Care Home Administrator
 company: Avery Healthcare Group Ltd.
 location: Knowle, B93 9LQ
@@ -1031,6 +1067,18 @@ company: CCA Recruitment Group - Agency - Permanent
 location: Shirley
 source: JobG8
 job_id: jobg8-23643_225682283
+reason: No approved Birmingham catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Experienced Bookkeeper / Accounts Professional
+company: Workforce Staffing Ltd - Agency - Permanent
+location: Sutton Coldfield
+source: JobG8
+job_id: jobg8-23643_225690795
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
@@ -1154,7 +1202,7 @@ job_id: jobg8-23643_225633473
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
-## EXCLUDE (7)
+## EXCLUDE (6)
 
 ---
 action: 
@@ -1201,18 +1249,6 @@ company: Hobs Moat Medical Centre
 location: Solihull, B92 8ED
 source: NHS Jobs
 job_id: nhs-5631076
-reason: Separate exact-city market at launch.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: HR Administrator
-company: SF Partners - Agency - Contract
-location: Solihull
-source: JobG8
-job_id: jobg8-23643_225687323
 reason: Separate exact-city market at launch.
 ---
 

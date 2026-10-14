@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 21
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 21
+- automatic include: 19
 - automatic review: 1
 - automatic exclude: 0
-- effective include: 21
+- effective include: 19
 - effective review: 1
 - effective exclude: 0
 
-## INCLUDE (21)
+## INCLUDE (19)
 
 ---
 action: 
@@ -88,30 +88,6 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Call Centre Advisor - Working from Home
-company: Adecco - Agency - Temporary
-location: Liverpool
-source: JobG8
-job_id: jobg8-23643_225706678
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Contact Centre Advisor - Working from Home - Part Time
-company: Adecco - Agency - Temporary
-location: Liverpool
-source: JobG8
-job_id: jobg8-23643_225705474
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Customer Service Administrator
 company: Search Consultancy Ltd - Agency - Permanent
 location: Liverpool
@@ -129,6 +105,18 @@ company: X1 Lettings - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-2027305
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Graphic Design Coordinator
+company: John Moores Students' Union - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-2124717
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -165,18 +153,6 @@ company: Aspion - Agency - Temporary
 location: Liverpool
 source: JobG8
 job_id: jobg8-23643_225653652
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Receptionist
-company: Dunstan Village Group Practice
-location: Liverpool, L7 6HD
-source: NHS Jobs
-job_id: nhs-5620107
 reason: Approved conservative Liverpool launch catchment.
 ---
 

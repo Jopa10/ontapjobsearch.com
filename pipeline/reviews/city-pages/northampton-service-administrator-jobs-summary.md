@@ -4,7 +4,7 @@
 - Live route: `/northampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 13
+- Effective included jobs: 14
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
+- automatic include: 14
 - automatic review: 35
 - automatic exclude: 0
-- effective include: 13
+- effective include: 14
 - effective review: 35
 - effective exclude: 0
 
-## INCLUDE (13)
+## INCLUDE (14)
 
 ---
 action: 
@@ -69,6 +69,18 @@ company: Reed - Agency - Permanent
 location: Northampton
 source: JobG8
 job_id: jobg8-2088477
+reason: Exact approved Northampton workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: CAD Project Administrator
+company: Travail Employment Group - Agency - Permanent
+location: Northampton
+source: JobG8
+job_id: jobg8-23643_225610517
 reason: Exact approved Northampton workplace.
 ---
 
@@ -378,11 +390,11 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: M&E Administrator
-company: March - Company - Permanent
-location: Northamptonshire
+title: Hire Controller/Administrator
+company: Advanced Access Platforms - Agency - Permanent
+location: Corby
 source: JobG8
-job_id: jobg8-23643_225646778
+job_id: jobg8-23643_225718945
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -390,11 +402,11 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Office Administrator
-company: CBSbutler Holdings Limited trading as CBSbutler - Agency - Permanent
+title: M&E Administrator
+company: March - Company - Permanent
 location: Northamptonshire
 source: JobG8
-job_id: jobg8-23643_225634900
+job_id: jobg8-23643_225646778
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

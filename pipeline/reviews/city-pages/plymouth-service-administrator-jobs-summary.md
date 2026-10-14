@@ -4,7 +4,7 @@
 - Live route: `/plymouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 48
+- automatic include: 6
+- automatic review: 52
 - automatic exclude: 0
-- effective include: 5
-- effective review: 48
+- effective include: 6
+- effective review: 52
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (6)
 
 ---
 action: 
@@ -64,6 +64,18 @@ reason: Exact approved Plymouth workplace.
 action: 
 decision: include
 automatic_decision: include
+title: HR Administrator - Employee Relations
+company: Acorn by Synergie - Agency - Temporary
+location: Plymouth
+source: JobG8
+job_id: jobg8-23643_225659817
+reason: Exact approved Plymouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: MIS Administrator (Maternity Cover)
 company: City College Plymouth
 location: Plymouth
@@ -84,7 +96,7 @@ job_id: teaching-vacancies-student-funding-administrator
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (48)
+## REVIEW (52)
 
 ---
 action: 
@@ -167,6 +179,30 @@ company: Royal Devon University Healthcare NHS Foundation Trust
 location: Barnstaple, EX31 4JB
 source: NHS Jobs
 job_id: nhs-5643112
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Switch - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-107919719
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Veolia - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-23643_225718193
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -282,11 +318,35 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: Finance Assistant
+company: Build Recruitment - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225691719
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Fleet Distribution Administrator
 company: Switch - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-107939734
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Administrator
+company: 4Recruitment Services - Agency - Contract
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225720286
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 66
+- Effective included jobs: 68
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 66
+- automatic include: 68
 - automatic review: 30
-- automatic exclude: 31
-- effective include: 66
+- automatic exclude: 29
+- effective include: 68
 - effective review: 30
-- effective exclude: 31
+- effective exclude: 29
 
-## INCLUDE (66)
+## INCLUDE (68)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Leeds Teaching Hospitals
 location: Leeds, LS9 7TF
 source: NHS Jobs
 job_id: nhs-5637209
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Huntress - Leeds - Agency - Contract
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225717635
 reason: Approved Leeds catchment.
 ---
 
@@ -160,6 +172,18 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Compliance Administrator- Leading Recruitment Company
+company: Prospero Group - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225717515
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Contact Centre Advisor
 company: Michael Page - Agency - Permanent
 location: Leeds
@@ -273,6 +297,18 @@ company: Michael Page - Agency - Contract
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225710931
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Front of House
+company: Lucy Walker Recruitment - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225719462
 reason: Approved Leeds catchment.
 ---
 
@@ -724,18 +760,6 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Service Advisor
-company: Auto Skills UK - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225609669
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Service Coordinator
 company: SF Partners - Agency - Permanent
 location: Leeds
@@ -1026,11 +1050,11 @@ reason: No approved Leeds catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: Reed - Agency - Permanent
-location: Keighley
+title: HR Administrator
+company: E3 Recruitment - Agency - Permanent
+location: Brighouse
 source: JobG8
-job_id: jobg8-2077373
+job_id: jobg8-23643_225720816
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
@@ -1178,7 +1202,7 @@ job_id: jobg8-23643_225664255
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
-## EXCLUDE (31)
+## EXCLUDE (29)
 
 ---
 action: 
@@ -1304,6 +1328,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Internal Sales / New Business Executive
+company: Streamline Search Ltd - Agency - Permanent
+location: Bradford
+source: JobG8
+job_id: jobg8-1996503
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Internal Sales Executive
 company: TDRS - Agency - Permanent
 location: Huddersfield
@@ -1412,6 +1448,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Receptionist / Administrator
+company: Ossett Surgery
+location: Wakefield, WF5 8DF
+source: NHS Jobs
+job_id: nhs-5662186
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Recruitment Account Coordinator
 company: Nexus People - Agency - Temporary
 location: Bradford
@@ -1429,18 +1477,6 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Wakefield
 source: JobG8
 job_id: jobg8-2059161
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales Ledger Clerk
-company: Reed - Agency - Permanent
-location: Wakefield
-source: JobG8
-job_id: jobg8-2057106
 reason: Separate employment market.
 ---
 
@@ -1484,30 +1520,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Service Advisor
-company: Auto Skills UK - Agency - Permanent
-location: Wakefield
-source: JobG8
-job_id: jobg8-23643_225609683
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Advisor (Automotive)
-company: Next Level Talent Group - Agency - Permanent
-location: Wakefield
-source: JobG8
-job_id: jobg8-23643_225609589
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Service Coordinator
 company: Headway Recruitment - Agency - Contract
 location: Bradford
@@ -1537,17 +1549,5 @@ company: West Riding Recruitment - Agency - Permanent
 location: Huddersfield
 source: JobG8
 job_id: jobg8-23643_225638565
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Telesales Closer
-company: Marmon Lift Recruitment - Agency - Permanent
-location: Bradford
-source: JobG8
-job_id: jobg8-23643_225696958
 reason: Separate employment market.
 ---

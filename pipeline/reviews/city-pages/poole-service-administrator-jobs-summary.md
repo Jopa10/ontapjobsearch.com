@@ -4,7 +4,7 @@
 - Live route: `/poole/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 13
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
+- automatic include: 11
 - automatic review: 37
 - automatic exclude: 0
-- effective include: 13
+- effective include: 11
 - effective review: 37
 - effective exclude: 0
 
-## INCLUDE (13)
+## INCLUDE (11)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Resource Recruitment - Agency - Contract
 location: Poole
 source: JobG8
 job_id: jobg8-23643_225680211
-reason: Exact approved Poole workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Team Jobs - Commercial - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-23643_225662556
 reason: Exact approved Poole workplace.
 ---
 
@@ -117,18 +105,6 @@ company: Dorset HealthCare University NHS Foundation Trust
 location: Poole, BH17 0RB
 source: NHS Jobs
 job_id: nhs-5645667
-reason: Exact approved Poole workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Maintenance Administrator
-company: Team Jobs - Commercial - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-23643_225650716
 reason: Exact approved Poole workplace.
 ---
 
@@ -390,6 +366,18 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Finance Assistant
+company: Reed - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-2013522
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Assistant - Temporary
 company: Office Angels - Agency - Permanent
 location: Dorset
@@ -419,18 +407,6 @@ company: Fischer Panda UK Limited - Agency - Permanent
 location: Verwood
 source: JobG8
 job_id: jobg8-23643_225667761
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Operations Assistant
-company: Team Jobs - Commercial - Agency - Temporary
-location: Bournemouth
-source: JobG8
-job_id: jobg8-23643_225662677
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -479,6 +455,18 @@ company: 1st Step - Agency - Contract
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225607938
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: Auto Skills UK - Agency - Permanent
+location: Bournemouth
+source: JobG8
+job_id: jobg8-23643_225607593
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -611,18 +599,6 @@ company: Aspire Jobs Limited - Agency - Permanent
 location: Beaminster
 source: JobG8
 job_id: jobg8-107765584
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Ward Clerk
-company: Dorset HealthCare University NHS Foundation Trust
-location: Weymouth, DT4 0QE
-source: NHS Jobs
-job_id: nhs-5639068
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

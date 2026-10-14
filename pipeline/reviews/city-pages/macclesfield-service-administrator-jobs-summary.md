@@ -126,6 +126,18 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
+title: Facilities Coordinator
+company: RG Setsquare - Agency - Permanent
+location: Crewe
+source: JobG8
+job_id: jobg8-23643_225718706
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Administrator
 company: Michael Page - Agency - Temporary
 location: Knutsford
@@ -179,18 +191,6 @@ company: Auto Skills UK - Agency - Permanent
 location: Crewe
 source: JobG8
 job_id: jobg8-23643_225699918
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Coordinator
-company: Adullam Homes - Agency - Permanent
-location: Congleton
-source: JobG8
-job_id: jobg8-107933798
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

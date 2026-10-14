@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 84
+- automatic review: 86
 - automatic exclude: 0
 - effective include: 0
-- effective review: 84
+- effective review: 86
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (84)
+## REVIEW (86)
 
 ---
 action: 
@@ -323,18 +323,6 @@ company: Tees Esk and Wear Valleys NHS Foundation Trust
 location: Durham, DH1 5YA
 source: NHS Jobs
 job_id: nhs-5649713
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Commercial Administrator
-company: Elvet Recruitment - Agency - Permanent
-location: Newcastle
-source: JobG8
-job_id: jobg8-23643_225615201
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -654,6 +642,18 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
+title: Onboarding Support Administrator - Temp to Perm
+company: Office Angels - Agency - Temporary
+location: Houghton Le Spring
+source: JobG8
+job_id: jobg8-23643_225718647
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part Time Accounts Assistant
 company: Nigel Wright Group - Agency - Permanent
 location: Gateshead
@@ -799,6 +799,18 @@ action:
 decision: review
 automatic_decision: review
 title: Purchase Ledger Clerk
+company: Adecco - Agency - Temporary
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225610690
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger Clerk
 company: Spear-heads - Agency - Permanent
 location: County Durham
 source: JobG8
@@ -851,6 +863,18 @@ company: Riverside Group - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-2066124
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
+company: Paisley Recruitement Group - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-23643_225682964
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 

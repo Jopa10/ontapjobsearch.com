@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 13
-- automatic review: 97
+- automatic review: 94
 - automatic exclude: 0
 - effective include: 13
-- effective review: 97
+- effective review: 94
 - effective exclude: 0
 
 ## INCLUDE (13)
@@ -180,7 +180,7 @@ job_id: jobg8-23643_225694242
 reason: Exact approved Chelmsford workplace.
 ---
 
-## REVIEW (97)
+## REVIEW (94)
 
 ---
 action: 
@@ -750,6 +750,18 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Logistics Co-ordinator - Vehicle Leasing
+company: ACS Automotive Recruitment - Agency - Permanent
+location: Basildon
+source: JobG8
+job_id: jobg8-23643_225718876
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Manager
 company: Evolution Sales Recruitment - Agency - Permanent
 location: Essex
@@ -803,18 +815,6 @@ company: Premises Recruitment Ltd - Agency - Permanent
 location: Maldon
 source: JobG8
 job_id: jobg8-23643_225679814
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Office Administrator
-company: Prime Appointments - Agency - Temporary
-location: Essex
-source: JobG8
-job_id: jobg8-23643_225660504
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -1002,30 +1002,6 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Property Inspections Team Coordinator
-company: Recruitment Solutions for Business (UK) Ltd - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-562663695354272153637340
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Property Inspections Team Coordinator
-company: Recruitment Solutions for Business (UK) Ltd - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-562663695354272153637341
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Purchase Ledger Assistant
 company: Runwood Homes Ltd - Agency - Permanent
 location: Essex
@@ -1163,18 +1139,6 @@ company: Berry Recruitment - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-23643_225714216
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: Hays Technology - Agency - Temporary
-location: Waltham Abbey
-source: JobG8
-job_id: jobg8-23643_225610666
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

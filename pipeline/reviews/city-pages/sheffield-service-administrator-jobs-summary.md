@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 21
 - automatic review: 3
-- automatic exclude: 31
+- automatic exclude: 27
 - effective include: 21
 - effective review: 3
-- effective exclude: 31
+- effective exclude: 27
 
 ## INCLUDE (21)
 
@@ -314,7 +314,7 @@ job_id: jobg8-23643_225712413
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (31)
+## EXCLUDE (27)
 
 ---
 action: 
@@ -440,18 +440,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Clinical Receptionist & Booking Clerk
-company: NHS Professionals - Company - Temporary
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225684806
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Contact Centre Agent
 company: EE - Company - Permanent
 location: Doncaster
@@ -505,18 +493,6 @@ company: Venatu Consulting Ltd - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225668765
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: HR Assistant
-company: Andy File Associates Ltd - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225657869
 reason: Separate employment market.
 ---
 
@@ -645,34 +621,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Receptionist
-company: ID Medical
-location: Barnsley, s752ep
-source: NHS Jobs
-job_id: nhs-5641970
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
 company: White House Farm Medical Centre
 location: Doncaster, DN3 3AH
 source: NHS Jobs
 job_id: nhs-5647395
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist / Administrator
-company: Edwards & Pearce - Agency - Temporary
-location: Barnsley
-source: JobG8
-job_id: jobg8-23643_225713272
 reason: Separate employment market.
 ---
 

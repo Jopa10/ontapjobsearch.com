@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 2
-- automatic review: 53
+- automatic review: 49
 - automatic exclude: 0
 - effective include: 2
-- effective review: 53
+- effective review: 49
 - effective exclude: 0
 
 ## INCLUDE (2)
@@ -48,7 +48,7 @@ job_id: jobg8-2087559
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (53)
+## REVIEW (49)
 
 ---
 action: 
@@ -258,18 +258,6 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Clinical Receptionist & Booking Clerk
-company: NHS Professionals - Company - Temporary
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225684806
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: COMMERCIAL ADMINISTRATOR
 company: Resolve Personnel - Agency - Contract
 location: Sheffield
@@ -395,18 +383,6 @@ company: Venatu Consulting Ltd - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225668765
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Assistant
-company: Andy File Associates Ltd - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225657869
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -619,18 +595,6 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
-company: ID Medical
-location: Barnsley, s752ep
-source: NHS Jobs
-job_id: nhs-5641970
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
 company: Sue Ross Recruitment Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
@@ -647,18 +611,6 @@ company: White House Farm Medical Centre
 location: Doncaster, DN3 3AH
 source: NHS Jobs
 job_id: nhs-5647395
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist / Administrator
-company: Edwards & Pearce - Agency - Temporary
-location: Barnsley
-source: JobG8
-job_id: jobg8-23643_225713272
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 22
-- automatic review: 7
+- automatic review: 8
 - automatic exclude: 0
 - effective include: 22
-- effective review: 7
+- effective review: 8
 - effective exclude: 0
 
 ## INCLUDE (22)
@@ -45,6 +45,18 @@ company: Edwards & Pearce - Doncaster - Agency - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-2060366
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Edwards & Pearce - Agency - Permanent
+location: Hull
+source: JobG8
+job_id: jobg8-23643_225717011
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -244,18 +256,6 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Shipping Planner
-company: Hays Business Support - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-23643_225689342
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Theatre Administrator
 company: Spire Healthcare - Company - Permanent
 location: Hull
@@ -288,7 +288,7 @@ job_id: jobg8-23643_225617740
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (7)
+## REVIEW (8)
 
 ---
 action: 
@@ -311,6 +311,18 @@ company: SaB Consulting Yorkshire Limited - Agency - Permanent
 location: Beverley
 source: JobG8
 job_id: jobg8-23643_225705236
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: SI Recruitment - Agency - Permanent
+location: Goole
+source: JobG8
+job_id: jobg8-107919887
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

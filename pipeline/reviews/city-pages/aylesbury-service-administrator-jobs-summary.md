@@ -294,18 +294,6 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: NHS Professionals - Company - Temporary
-location: Amersham
-source: JobG8
-job_id: jobg8-23643_225563994
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Assistant Accountant
 company: Parke Lane People - Agency - Permanent
 location: Buckinghamshire
@@ -515,18 +503,6 @@ company: ASL - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225534216
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Facilities Administrator
-company: Medical Detection Dogs - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225693270
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -803,6 +779,30 @@ company: Gladstone Road Surgery
 location: Chesham, HP5 3EZ
 source: NHS Jobs
 job_id: nhs-5638681
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: NHS Professionals - Company - Temporary
+location: Buckingham
+source: JobG8
+job_id: jobg8-23643_225718008
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Osborne Appointments - Agency - Temporary
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-23643_225719288
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

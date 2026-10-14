@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
+- automatic include: 13
 - automatic review: 3
-- automatic exclude: 48
-- effective include: 12
+- automatic exclude: 46
+- effective include: 13
 - effective review: 3
-- effective exclude: 48
+- effective exclude: 46
 
-## INCLUDE (12)
+## INCLUDE (13)
 
 ---
 action: 
@@ -69,6 +69,18 @@ company: Bennett and Game Recruitment LTD - Agency - Permanent
 location: Coventry
 source: JobG8
 job_id: jobg8-23643_225702322
+reason: Approved Coventry catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Facilities and Maintenance Administrator
+company: EA First - Agency - Temporary
+location: Coventry
+source: JobG8
+job_id: jobg8-23643_225717657
 reason: Approved Coventry catchment.
 ---
 
@@ -206,7 +218,7 @@ job_id: jobg8-23643_225656636
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (48)
+## EXCLUDE (46)
 
 ---
 action: 
@@ -277,18 +289,6 @@ company: Accord Appointments Ltd - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225704336
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Admin Assistant
-company: Coventry and Warwickshire Partnership Trust
-location: Rugby, CV21 2AW
-source: NHS Jobs
-job_id: nhs-5644459
 reason: Separate employment market.
 ---
 
@@ -409,18 +409,6 @@ company: Made Employment Ltd - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225679834
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Administrator
-company: Provit Recruitment - Agency - Temporary
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225635269
 reason: Separate employment market.
 ---
 

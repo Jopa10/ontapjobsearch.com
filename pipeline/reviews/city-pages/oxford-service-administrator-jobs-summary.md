@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 19
-- automatic exclude: 37
+- automatic review: 20
+- automatic exclude: 40
 - effective include: 9
-- effective review: 19
-- effective exclude: 37
+- effective review: 20
+- effective exclude: 40
 
 ## INCLUDE (9)
 
@@ -132,7 +132,7 @@ job_id: nhs-5640615
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (19)
+## REVIEW (20)
 
 ---
 action: 
@@ -155,18 +155,6 @@ company: Your Recruiters - Agency - Permanent
 location: Banbury
 source: JobG8
 job_id: jobg8-23643_225707883
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Oxford Health NHS Trust
-location: Banbury, OX16 9AL
-source: NHS Jobs
-job_id: nhs-5645835
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -234,18 +222,6 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Finance Administrator
-company: The Recruitment Group - Agency - Permanent
-location: Witney
-source: JobG8
-job_id: jobg8-107994102
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Assistant - Part-time
 company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
 location: Witney
@@ -294,6 +270,30 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Marketing Assistant
+company: Berry Recruitment - Agency - Permanent
+location: Didcot
+source: JobG8
+job_id: jobg8-23643_225718509
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Assistant
+company: Planet Recruitment - Agency - Permanent
+location: Didcot
+source: JobG8
+job_id: jobg8-23643_225718255
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Medical Receptionist
 company: The Abingdon Surgery
 location: Abingdon, OX14 3LB
@@ -323,6 +323,18 @@ company: Abingdon School - Agency - Permanent
 location: Abingdon
 source: JobG8
 job_id: jobg8-108123305
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Procurement Administrator
+company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
+location: Witney
+source: JobG8
+job_id: jobg8-23643_225721688
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -362,7 +374,7 @@ job_id: jobg8-23643_225664457
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (37)
+## EXCLUDE (40)
 
 ---
 action: 
@@ -409,6 +421,18 @@ company: Gigaclear - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225636456
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Assistant Accountant
+company: Performance Resourcing - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225718595
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -656,6 +680,18 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Operations & Logistics Co-Ordinator
+company: Tech Professionals - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225658856
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Payroll Officer (Part Time)
 company: Michael Page Finance - Agency - Permanent
 location: Oxfordshire
@@ -697,6 +733,18 @@ company: Orion Electrotech - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225669209
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Production Administrator
+company: Tech Connect Group - Agency - Contract
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225721330
 reason: Broad county location; not Oxford-city evidence.
 ---
 

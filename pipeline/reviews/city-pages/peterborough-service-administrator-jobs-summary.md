@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
+- automatic include: 11
 - automatic review: 9
-- automatic exclude: 22
-- effective include: 9
+- automatic exclude: 21
+- effective include: 11
 - effective review: 9
-- effective exclude: 22
+- effective exclude: 21
 
-## INCLUDE (9)
+## INCLUDE (11)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Reed - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-2078574
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Barker Ross - Agency - Temporary
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225719523
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -57,6 +69,18 @@ company: Cambridgeshire and Peterborough NHS Foundation Trust
 location: Peterborough, PE3 6DB
 source: NHS Jobs
 job_id: nhs-5659339
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Assistant
+company: Vero Hr - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225659039
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -242,7 +266,7 @@ job_id: jobg8-23643_225691104
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (22)
+## EXCLUDE (21)
 
 ---
 action: 
@@ -337,18 +361,6 @@ company: UBT - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-2045452
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Commercial Administrator
-company: Apple Technical Recruitment (UK) Limited - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225646065
 reason: Separate employment market.
 ---
 

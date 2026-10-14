@@ -4,7 +4,7 @@
 - Live route: `/doncaster/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 19
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 19
+- automatic include: 17
 - automatic review: 3
-- automatic exclude: 33
-- effective include: 19
+- automatic exclude: 31
+- effective include: 17
 - effective review: 3
-- effective exclude: 33
+- effective exclude: 31
 
-## INCLUDE (19)
+## INCLUDE (17)
 
 ---
 action: 
@@ -100,18 +100,6 @@ reason: Approved Doncaster catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Clinical Receptionist & Booking Clerk
-company: NHS Professionals - Company - Temporary
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225684806
-reason: Approved Doncaster catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Contact Centre Agent
 company: EE - Company - Permanent
 location: Doncaster
@@ -165,18 +153,6 @@ company: Venatu Consulting Ltd - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225668765
-reason: Approved Doncaster catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: HR Assistant
-company: Andy File Associates Ltd - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225657869
 reason: Approved Doncaster catchment.
 ---
 
@@ -290,7 +266,7 @@ job_id: jobg8-23643_225712413
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (33)
+## EXCLUDE (31)
 
 ---
 action: 
@@ -633,34 +609,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Receptionist
-company: ID Medical
-location: Barnsley, s752ep
-source: NHS Jobs
-job_id: nhs-5641970
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
 company: Sue Ross Recruitment Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225666843
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist / Administrator
-company: Edwards & Pearce - Agency - Temporary
-location: Barnsley
-source: JobG8
-job_id: jobg8-23643_225713272
 reason: Separate employment market.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 47
+- automatic review: 44
 - automatic exclude: 0
 - effective include: 5
-- effective review: 47
+- effective review: 44
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: nhs-5657920
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (47)
+## REVIEW (44)
 
 ---
 action: 
@@ -174,59 +174,11 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: Business Administrator
-company: Rise Technical Recruitment - Agency - Permanent
-location: Uttoxeter
-source: JobG8
-job_id: jobg8-23643_225648713
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Support Assistant
-company: Midlands Partnership NHS Foundation Trust
-location: Stafford, ST16 3SR
-source: NHS Jobs
-job_id: nhs-5618829
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Support Officer
-company: Opus People Solutions Ltd - Agency - Temporary
+title: Contact Centre Agent
+company: Safer Hand Solutions - Agency - Permanent
 location: Staffordshire
 source: JobG8
-job_id: jobg8-23643_225716519
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Contact Centre Advisor - Working from Home
-company: Adecco - Agency - Temporary
-location: Staffordshire
-source: JobG8
-job_id: jobg8-23643_225704293
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Contact Centre Advisor - Working from Home - Part Time
-company: Adecco - Agency - Temporary
-location: Staffordshire
-source: JobG8
-job_id: jobg8-23643_225705468
+job_id: jobg8-23643_225718112
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -342,11 +294,35 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
+title: HR Administrator
+company: SF Partners - Agency - Contract
+location: Staffordshire
+source: JobG8
+job_id: jobg8-23643_225716817
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Coordinator
 company: SF Partners - Agency - Permanent
 location: Tamworth
 source: JobG8
 job_id: jobg8-23643_225701397
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Invoicing Administrator
+company: Think Accountancy and Finance - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-23643_225607723
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -451,18 +427,6 @@ action:
 decision: review
 automatic_decision: review
 title: Payroll Administrator
-company: Steelite International - Agency - Permanent
-location: Staffordshire
-source: JobG8
-job_id: jobg8-108122126
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Administrator
 company: Winsearch - Agency - Temporary
 location: Stafford
 source: JobG8
@@ -535,18 +499,6 @@ action:
 decision: review
 automatic_decision: review
 title: Purchasing Coordinator (Construction)
-company: Ernest Gordon Recruitment - Agency - Permanent
-location: Staffordshire
-source: JobG8
-job_id: jobg8-108111116
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchasing Coordinator (Construction)
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Staffordshire
 source: JobG8
@@ -587,6 +539,18 @@ company: Visum Recruitment - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225685106
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment Administrator
+company: AM2PM Group - Agency - Temporary
+location: Lichfield
+source: JobG8
+job_id: jobg8-23643_225658876
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
