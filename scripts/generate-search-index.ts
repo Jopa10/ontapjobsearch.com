@@ -1,9 +1,10 @@
 import fs from "node:fs";
 import path from "node:path";
 import { buildPublishedJobSearchData } from "../lib/job-search";
-import { getPublishedJobs } from "../lib/published-jobs";
+import { getPublishedCanonicalIds, getPublishedJobs } from "../lib/published-jobs";
 
 const target = path.join(process.cwd(), "generated", "published-jobs-search.json");
+const canonicalIdsTarget = path.join(process.cwd(), "generated", "published-job-canonical-ids.json");
 
 const jobs = getPublishedJobs().map((job) => {
   const searchData = buildPublishedJobSearchData(job);
@@ -21,4 +22,5 @@ const jobs = getPublishedJobs().map((job) => {
 
 fs.mkdirSync(path.dirname(target), { recursive: true });
 fs.writeFileSync(target, `${JSON.stringify(jobs)}\n`, "utf8");
+fs.writeFileSync(canonicalIdsTarget, `${JSON.stringify(getPublishedCanonicalIds())}\n`, "utf8");
 console.log(`Generated indexed search data with ${jobs.length} published jobs.`);
