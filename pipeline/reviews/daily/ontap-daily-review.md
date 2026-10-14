@@ -4,9 +4,9 @@
 > Do not start reviewing yet. Rebuild this review after those source refreshes complete.
 
 review_date: 2026-10-14
-generated_at: 2026-10-14T15:30:41+00:00
+generated_at: 2026-10-14T17:27:34+00:00
 
-**290 job(s) need a human decision.**
+**298 job(s) need a human decision.**
 
 Edit only each `action:` line:
 - `action: select` = include the vacancy.
@@ -21,7 +21,7 @@ Edit only each `action:` line:
 
 | Source | Status | Review date | Needs review | Note |
 |---|---|---|---:|---|
-| JobG8 | OK | 2026-10-14 | 206 | — |
+| JobG8 | OK | 2026-10-14 | 214 | — |
 | NEJobs | STALE | 2026-09-18 | 0 | — |
 | VONNE | OK | 2026-10-14 | 1 | — |
 | Teaching Vacancies | OK | 2026-10-14 | 83 | — |
@@ -29,7 +29,7 @@ Edit only each `action:` line:
 
 > **Attention:** one or more active source reviews are stale or missing. Those sources contribute no jobs to this file and must not be treated as zero inventory.
 
-## JobG8 — 206 to review
+## JobG8 — 214 to review
 
 ---
 action:
@@ -83,6 +83,24 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: 6cf605201127ac336268e83ecfa13e158b3ae107163075a5042030fca33218fd
+---
+
+---
+action:
+POSS | JobG8 | Berkshire | Berkshire | £26.25 per hour | Domestic Abuse Coordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225720996
+title: Domestic Abuse Coordinator
+employer: 
+location: Berkshire
+region: Berkshire
+salary: £26.25 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 76b2e67865304c379c79d6a00a45ac54be6babd4d7b5efc4cd00a2a661b54869
 ---
 
 ---
@@ -375,6 +393,24 @@ hub_fingerprint: 3d73c55b4fbe7d96d84b6b3444af4960e74fbd6f3acafed2eea1ecf2d3f62b3
 
 ---
 action:
+POSS | JobG8 | Derbyshire | Derbyshire | £35000 - £45000 per year | Learning and Development Coordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225721929
+title: Learning and Development Coordinator
+employer: 
+location: Derbyshire
+region: Derbyshire
+salary: £35000 - £45000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: f7161fc69e2eea2bf0d1620372b6cb09467b224a9c85ae21c1c03fb60a413b93
+---
+
+---
+action:
 POSS | JobG8 | Derbyshire | Derbyshire | £32000 - £39000 per year (£32,000 - £39,000 + car allowance) | Operations Coordinator
 source_key: jobg8
 source: JobG8
@@ -411,24 +447,6 @@ hub_fingerprint: bf466923aacd59d296ca217aa5eaa7d34fe4bffae76d7f3175e370cf7f189a8
 
 ---
 action:
-POSS | JobG8 | Derbyshire | Derbyshire | £37000 - £39000 per year (£37,0000 £39,000) | Projects Implementation Coordinator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225607895
-title: Projects Implementation Coordinator
-employer: 
-location: Derbyshire
-region: Derbyshire
-salary: £37000 - £39000 per year (£37,0000 £39,000)
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: af5e130478b68b6d59976c1e61780f58a0b0a7e25c5b65798e922164c22f2c81
----
-
----
-action:
 POSS | JobG8 | Dorset | Dorset | £40000 per year | Personal Assistant
 source_key: jobg8
 source: JobG8
@@ -443,24 +461,6 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: 6fb2f0e94a57372566bd008675af2645707e919893a2832eb066cf9eaff5b726
----
-
----
-action:
-POSS | JobG8 | Dorset | Dorset | £15 - £20.53 per hour | WIP Administrator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225695430
-title: WIP Administrator
-employer: 
-location: Dorset
-region: Dorset
-salary: £15 - £20.53 per hour
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 8379a49edb233dd8de782a337e3fe9d76d9eabd3d14ab22b41a3e995d33b0565
 ---
 
 ---
@@ -573,38 +573,38 @@ hub_fingerprint: f98c7ca00598f7414ea6342391134fdf73e91a65eada2d330e58ae7aeb74fe4
 
 ---
 action:
-POSS | JobG8 | Essex | Essex | £31000 - £38000 per year | Service Advisor
+POSS | JobG8 | Essex | Essex | £18 - £20 per hour | Repairs Planner
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 23643_225508991
-title: Service Advisor
+source_job_id: 23643_225670869
+title: Repairs Planner
 employer: 
 location: Essex
 region: Essex
-salary: £31000 - £38000 per year
+salary: £18 - £20 per hour
 closing_date: 
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
-hub_fingerprint: 25c12a964fca80e463ccff300fd507fcbe1447dd74fb0e930ebf53ba764041b7
+hub_fingerprint: 967c70107f983dcba2afdd25fbb8cda222fa40c8a39e0b3336808b7c784c29db
 ---
 
 ---
 action:
-POSS | JobG8 | Essex | Essex | £30000 - £38000 per year | Service Advisor
+POSS | JobG8 | Essex | Essex | £35000 - £50000 per year (leave, medical and pension) | Supply Chain Coordinator
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 23643_225609412
-title: Service Advisor
+source_job_id: 23643_225506255
+title: Supply Chain Coordinator
 employer: 
 location: Essex
 region: Essex
-salary: £30000 - £38000 per year
+salary: £35000 - £50000 per year (leave, medical and pension)
 closing_date: 
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
-hub_fingerprint: 389b5b4d09bd3f86efa879a04f1bcae641c9dc6aebc98fb484706a0a6f09888e
+hub_fingerprint: 52bf7fd63ae1f1049476d7d2d02373ee1de7ccaf962d5a92a7738e1cddaf87d7
 ---
 
 ---
@@ -1059,20 +1059,20 @@ hub_fingerprint: fc3c09190439bc87476a214e8d715b5360c5dd88eed7d02735d59a71edcb678
 
 ---
 action:
-POSS | JobG8 | Hampshire | Hampshire | £20 per hour | Support Worker Saturday SO41
+POSS | JobG8 | Hampshire | Hook | £28697 - £31573 per year | Children's Home Support Worker
 source_key: jobg8
 source: JobG8
 category: support_worker
-source_job_id: 23643_225496022
-title: Support Worker Saturday SO41
+source_job_id: 1401785773
+title: Children's Home Support Worker
 employer: 
-location: Hampshire
+location: Hook
 region: Hampshire
-salary: £20 per hour
+salary: £28697 - £31573 per year
 closing_date: 
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
-hub_fingerprint: c1127f8c6f28b2eef2f7bf880303a48d0fc69e36e705340adaa5fe5efe7b7d6d
+hub_fingerprint: d84c48e0dd69dcfac870766630cda03d654a6ee8f59fc2046759d4df995a9cf0
 ---
 
 ---
@@ -1127,42 +1127,6 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: cc1f77a1d4f0a9045f2e9e9b72852e85658a410a233ab582bbcb5b0862870dec
----
-
----
-action:
-POSS | JobG8 | Hertfordshire | Hertfordshire | £28000 - £37500 per year (Training + Progression) | Project Administrator (High-End projects/Progression
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225607634
-title: Project Administrator (High-End projects/Progression
-employer: 
-location: Hertfordshire
-region: Hertfordshire
-salary: £28000 - £37500 per year (Training + Progression)
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 09804b7132cc9bf3b10b651b26f3252f16a7405b93f103eca7d9b16171b36cf0
----
-
----
-action:
-POSS | JobG8 | Hertfordshire | Hertfordshire | £30000 - £40000 per year (Bonus) | Sales & Customer Support Coordinator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225641231
-title: Sales & Customer Support Coordinator
-employer: 
-location: Hertfordshire
-region: Hertfordshire
-salary: £30000 - £40000 per year (Bonus)
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 4d9cad5aef0227d1e516a0fd7cce5a252b09212c0df908ecfd3672a6ea4b0db9
 ---
 
 ---
@@ -1293,20 +1257,20 @@ hub_fingerprint: c07b04d30bbf1b77f444d1827a8e82270076b966e14b3d245051e44306aabbf
 
 ---
 action:
-POSS | JobG8 | Kent | Kent | £38400 per year (£48,000 FTE) | Part time Company Secretary Hybrid £38.4k
+POSS | JobG8 | Kent | Kent | £30000 - £41000 per year | Prestige Service Advisor
 source_key: jobg8
 source: JobG8
 category: admin_service
-source_job_id: 23643_225612657
-title: Part time Company Secretary Hybrid £38.4k
+source_job_id: 23643_225719501
+title: Prestige Service Advisor
 employer: 
 location: Kent
 region: Kent
-salary: £38400 per year (£48,000 FTE)
+salary: £30000 - £41000 per year
 closing_date: 
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
-hub_fingerprint: eca248b73fcd9d6d23554cdcceb657996c0887a10c290b64e5cb50c712d2504b
+hub_fingerprint: b2e72b8a200dc42c3bf82233fc6eadf0a44c5349a4e82d06708e1debf88ea387
 ---
 
 ---
@@ -1527,6 +1491,24 @@ hub_fingerprint: c8e1a93fdec4d6a6c6398adc75d821b977ea17b54a271d9f92d0dbe64a96383
 
 ---
 action:
+POSS | JobG8 | London | City | £22 - £23 per hour | Recovery Worker
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 23643_225720631
+title: Recovery Worker
+employer: 
+location: City
+region: London
+salary: £22 - £23 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 7a8abaa6334a3446757c925d008bef97a88faf9495248a1f89f1dae8ac4d7d6f
+---
+
+---
+action:
 POSS | JobG8 | London | London | £40000 - £50000 per year | Assistant Planner / Planner
 source_key: jobg8
 source: JobG8
@@ -1653,6 +1635,24 @@ hub_fingerprint: f8643c5ee169305ebc226e37647fbac1474842f5a6301bf8bab213977d43832
 
 ---
 action:
+POSS | JobG8 | London | London | £40000 - £45000 per year | Document Controller
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225722164
+title: Document Controller
+employer: 
+location: London
+region: London
+salary: £40000 - £45000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: ac925108c13bc2fb913f189e2a73fe41d41d5d9fa8e041ba188bfc05345d1c68
+---
+
+---
+action:
 POSS | JobG8 | London | London | £18 - £20 per hour | Family Support Worker
 source_key: jobg8
 source: JobG8
@@ -1689,6 +1689,24 @@ hub_fingerprint: 3d0dfecef2961f961f70ae51d84f5b9af24daf24ed6074b112ba10df9afdca4
 
 ---
 action:
+POSS | JobG8 | London | London | £38000 - £48000 per year | Financial Accounts Assistant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225719494
+title: Financial Accounts Assistant
+employer: 
+location: London
+region: London
+salary: £38000 - £48000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 672fdbfe309813e69c44f8389c6060612922f0f0bb6fdbf92933c6bfcd3469c4
+---
+
+---
+action:
 POSS | JobG8 | London | London | £21.13 - £23.26 per hour | Higher Education Administrator
 source_key: jobg8
 source: JobG8
@@ -1721,6 +1739,42 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: c38e5339c7227b5deb210efd096013db5a8927f0b2a89d416a2a3fb8f67ee0b7
+---
+
+---
+action:
+POSS | JobG8 | London | London | £17 - £22 per hour | Interim HR Officer / HR Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225646435
+title: Interim HR Officer / HR Administrator
+employer: 
+location: London
+region: London
+salary: £17 - £22 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 73fd1a1db8b85352bbaf3eed91cb57aa99080bd63819b7c68fac6cbbc175e5ec
+---
+
+---
+action:
+POSS | JobG8 | London | London | £150 - £170 per daily | Interim Recruitment Coordinator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225656737
+title: Interim Recruitment Coordinator
+employer: 
+location: London
+region: London
+salary: £150 - £170 per daily
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 7c51472fce69c793e8441a019d1bda2c41605b1212b12f4893e471a31301c25b
 ---
 
 ---
@@ -1793,24 +1847,6 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: 4dc1cd6d797c4777740d2d4155107000fa0a6a6ab3e782b905274bce92831542
----
-
----
-action:
-POSS | JobG8 | London | London | £40000 - £50000 per year (Dependent on experience) | NetSuite Administrator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_218433217
-title: NetSuite Administrator
-employer: 
-location: London
-region: London
-salary: £40000 - £50000 per year (Dependent on experience)
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 2dee1a085f9b4a767a9cae29f3c1222eb71a68a13dfbdde7cb26ffdba2219cc8
 ---
 
 ---
@@ -1941,6 +1977,42 @@ hub_fingerprint: c4eaad215b6fc3f7b87c757f0f1158dbeaaf98e8af9d0fa1a9545257c8038e2
 
 ---
 action:
+POSS | JobG8 | London | Ruislip | £40000 - £50000 per year | Document Controller
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225722344
+title: Document Controller
+employer: 
+location: Ruislip
+region: London
+salary: £40000 - £50000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: bea061a1337551014b4d14f42d17ccffac2af490a93e3321a9fa851136270eff
+---
+
+---
+action:
+POSS | JobG8 | London | Sutton-in-ashfield | £22 - £23 per hour | Recovery Worker
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 23643_225720618
+title: Recovery Worker
+employer: 
+location: Sutton-in-ashfield
+region: London
+salary: £22 - £23 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: dc54fc8dca72075723fd875d0ceccf55fd073f06932cec497ac295b91524f840
+---
+
+---
+action:
 POSS | JobG8 | Merseyside - Liverpool | Liverpool | £32000 - £40000 per year | Document Controller
 source_key: jobg8
 source: JobG8
@@ -2009,24 +2081,6 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: 97a381cb55083411990e5bd30f5cb84bd9499e18fab70349ae12d5b3404d2ae4
----
-
----
-action:
-POSS | JobG8 | North East - County Durham & Darlington/Hartlepool | Peterlee | £13.6 - £17.55 per hour | Housing Support Worker
-source_key: jobg8
-source: JobG8
-category: support_worker
-source_job_id: 23643_225611014
-title: Housing Support Worker
-employer: 
-location: Peterlee
-region: North East - County Durham & Darlington/Hartlepool
-salary: £13.6 - £17.55 per hour
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 583a79a59718c55a878b7a1f9d74e10f1a22a988f1cd1a990df2cf123c17b14b
 ---
 
 ---
@@ -2211,6 +2265,24 @@ hub_fingerprint: c9644e0fccc09a8ed9e680001c2468e7d2b401106a77aea6e64fcc38e3dccc4
 
 ---
 action:
+POSS | JobG8 | Nottinghamshire | Nottinghamshire | £16 - £19 per hour (free parking and hybrid working) | Finance Assistant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225720200
+title: Finance Assistant
+employer: 
+location: Nottinghamshire
+region: Nottinghamshire
+salary: £16 - £19 per hour (free parking and hybrid working)
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 516cbf5954bb06be1180c00a977e14f4df64b69905e89a1f052d0d5450709f36
+---
+
+---
+action:
 POSS | JobG8 | Nottinghamshire | Nottinghamshire | £17.35 - £19.49 per hour (PAYE) | Recruitment Coordinator
 source_key: jobg8
 source: JobG8
@@ -2243,24 +2315,6 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: d275f7b5dbd7e503926b5aa084c0f3ef6fdd4e25bfeaf06e15c0237789c4b095
----
-
----
-action:
-POSS | JobG8 | Oxfordshire | Oxfordshire | £20 - £25 per hour | Administrator - Damp and Mould
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225612782
-title: Administrator - Damp and Mould
-employer: 
-location: Oxfordshire
-region: Oxfordshire
-salary: £20 - £25 per hour
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: a45fda836defb727f944f615dda20a177d956a7fc2ea1549d1a7454e499912a7
 ---
 
 ---
@@ -2315,42 +2369,6 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: 0a9e4850d79cb100c15b12510a24cbee5be09471db5223f04670aba2b6eafa12
----
-
----
-action:
-POSS | JobG8 | Oxfordshire | Oxfordshire | £36000 - £41500 per year | PA To Director
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225612804
-title: PA To Director
-employer: 
-location: Oxfordshire
-region: Oxfordshire
-salary: £36000 - £41500 per year
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: ec463a2acd2511529e52384e35287f3239174d3c7450bb8dbb2a27341bb0bdc9
----
-
----
-action:
-POSS | JobG8 | Oxfordshire | Oxfordshire | £30000 - £35000 per year (+ Company Benefits + 33 Days Holiday) | Procurement Administrator
-source_key: jobg8
-source: JobG8
-category: admin_service
-source_job_id: 23643_225612344
-title: Procurement Administrator
-employer: 
-location: Oxfordshire
-region: Oxfordshire
-salary: £30000 - £35000 per year (+ Company Benefits + 33 Days Holiday)
-closing_date: 
-reason: JobG8 selector marked this vacancy POSS
-source_url: 
-hub_fingerprint: 528a3b09209174e9f876da708a09596344f8e37d6f1fe1890746f751fdccef4c
 ---
 
 ---
@@ -2607,6 +2625,24 @@ hub_fingerprint: 714e5f1e5d97030b3a49227895f6a4c0d27f5033caec6d9a812a4a8c1f90972
 
 ---
 action:
+POSS | JobG8 | Staffordshire | Staffordshire | £13.5 - £14.3 per hour | HR Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225721610
+title: HR Administrator
+employer: 
+location: Staffordshire
+region: Staffordshire
+salary: £13.5 - £14.3 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 6e96b8f5680f55ff735161441515f20c05d9b7541c2348e8d28ffb62cf6c09b5
+---
+
+---
+action:
 POSS | JobG8 | Suffolk | Suffolk | £180 - £210 per daily | Document Controller
 source_key: jobg8
 source: JobG8
@@ -2715,6 +2751,24 @@ hub_fingerprint: d84e21d327354616713ef8f09ea5936b88dc47b2e46d5b6d1986d3a7a90b448
 
 ---
 action:
+POSS | JobG8 | Surrey | Surrey | £35000 - £40000 per year | Bookkeeper (Accounts Payable)
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225721552
+title: Bookkeeper (Accounts Payable)
+employer: 
+location: Surrey
+region: Surrey
+salary: £35000 - £40000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 7c46082725f825172d26f9ad4cdfe021274d251766c09b7060eb5a7e94485c85
+---
+
+---
+action:
 POSS | JobG8 | Surrey | Surrey | £38000 per year | Business Administrator
 source_key: jobg8
 source: JobG8
@@ -2805,6 +2859,24 @@ hub_fingerprint: 4e870080939a8bd60c1c23ee82e3e8401a2f86e7d9096edab5ae0eddde60fe2
 
 ---
 action:
+POSS | JobG8 | Surrey | Surrey | £20 - £23 per hour | Payroll Coordinator Immediate Start Temp to Perm
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225721284
+title: Payroll Coordinator Immediate Start Temp to Perm
+employer: 
+location: Surrey
+region: Surrey
+salary: £20 - £23 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: fbd8a9abdaa1c029ae955b404aa90517b7da029c3e125258f947ca8f662fb6b2
+---
+
+---
+action:
 POSS | JobG8 | Surrey | Surrey | £28000 - £38500 per year | Prestige Service Advisor
 source_key: jobg8
 source: JobG8
@@ -2877,6 +2949,24 @@ hub_fingerprint: 0376b95b9fb315bd05499017006f8d1ee3f8af54bd03f415abcdd883331aa18
 
 ---
 action:
+POSS | JobG8 | Surrey | Surrey | £34000 - £40000 per year | Service Advisor
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225720316
+title: Service Advisor
+employer: 
+location: Surrey
+region: Surrey
+salary: £34000 - £40000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 8ca82a4c47683758e98169714c0febb2ff55730b682df3a024d3ac26ceb7c7c6
+---
+
+---
+action:
 POSS | JobG8 | Sussex | Brighton | £30000 - £40000 per year | 6 Month FTC Personal Assistant
 source_key: jobg8
 source: JobG8
@@ -2895,20 +2985,20 @@ hub_fingerprint: cfbbc41c6c1540a8dfcd19688b126d23a2f60490f41f571ddaed2a59a383748
 
 ---
 action:
-POSS | JobG8 | Sussex | Crawley | £20 - £30 per hour | Mental Health Support Worker Care Assistant
+POSS | JobG8 | Sussex | Eastbourne | £12.85 - £18.4 per hour | Support Worker
 source_key: jobg8
 source: JobG8
 category: support_worker
-source_job_id: 23643_225611296
-title: Mental Health Support Worker Care Assistant
+source_job_id: 23643_225724515
+title: Support Worker
 employer: 
-location: Crawley
+location: Eastbourne
 region: Sussex
-salary: £20 - £30 per hour
+salary: £12.85 - £18.4 per hour
 closing_date: 
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
-hub_fingerprint: 996546fe754608ae44a55fcf8bf43946e8b0e90c40c8a7f0d1753a9c043455e2
+hub_fingerprint: 8938f778295dcf2734b697bf3cd4e127f4e9eb66d408feaca2a953cc86840abd
 ---
 
 ---
@@ -2999,6 +3089,24 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: e45d5a33705ada38aed59dc57eef67ede05efb59eca051df7abe4beb436183b9
+---
+
+---
+action:
+POSS | JobG8 | Sussex | Sussex | £17 - £19 per hour | HR & Payroll Administrator - Immediate Start
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225718910
+title: HR & Payroll Administrator - Immediate Start
+employer: 
+location: Sussex
+region: Sussex
+salary: £17 - £19 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 43aadb970851b18bfb3ec12a13d83fda6a3f14fcad01e3c518e5dfdac16c9c2a
 ---
 
 ---
@@ -3435,6 +3543,24 @@ hub_fingerprint: d94201883679db58f1a6e71e58b3189a2333492db761c9e45d81fdfea69f2b4
 
 ---
 action:
+POSS | JobG8 | Wiltshire | Wiltshire | £14.25 - £15.5 per hour | Learning Support Assistant
+source_key: jobg8
+source: JobG8
+category: support_worker
+source_job_id: 23643_225660582
+title: Learning Support Assistant
+employer: 
+location: Wiltshire
+region: Wiltshire
+salary: £14.25 - £15.5 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 9281784040e8672111471d8b2f863a7d2ccb375fa1833ab1d5007c8878b4a4df
+---
+
+---
+action:
 POSS | JobG8 | Worcestershire | Worcestershire | £35000 - £40000 per year | Executive Assistant
 source_key: jobg8
 source: JobG8
@@ -3593,6 +3719,24 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: d09e90a8347f00c24167db60e7b988706185a3ecec45950152ae3c512996f028
+---
+
+---
+action:
+POSS | JobG8 | Yorkshire - West | Halifax | £35000 - £40000 per year | Automotive Service Advisor
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225719520
+title: Automotive Service Advisor
+employer: 
+location: Halifax
+region: Yorkshire - West
+salary: £35000 - £40000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 97528224f51e470769b7340639803f6989a743bed6c93b7ef6a22f558dcbe180
 ---
 
 ---
