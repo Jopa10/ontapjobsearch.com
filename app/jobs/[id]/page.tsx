@@ -12,9 +12,10 @@ import TransferableFitCard from "@/components/TransferableFitCard";
 import { getActiveCityPageForJob } from "@/lib/city-page-data";
 import { sourceLabel } from "@/lib/job-facts";
 import { buildJobPostingSchema } from "@/lib/job-posting-schema";
+import { getJobPath } from "@/lib/job-path";
 import {
   getCanonicalPublishedJobId,
-   getPublishedJob,
+  getPublishedJob,
   getPublishedJobs,
   type PublishedJob,
 } from "@/lib/published-jobs";
