@@ -1718,7 +1718,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0624-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0624-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5659620",
@@ -1736,7 +1740,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5072-26-0009",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5072-26-0009",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5659048",
@@ -1754,7 +1762,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1309-26-0014",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1309-26-0014",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5653607",
@@ -1772,7 +1784,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0825",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0825",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5653187",
@@ -1790,7 +1806,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2939",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2939",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5651293",
@@ -1808,7 +1828,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3323-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3323-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5635869",
@@ -1826,7 +1850,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0797",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0797",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5612839",
@@ -1844,7 +1872,33 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0461-26-0014",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0461-26-0014",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5658663",
+    "source": "NHS Jobs",
+    "title": "Outpatient Receptionist",
+    "company": "East Kent Hospitals University NHS Foundation Trust",
+    "advertiser_name": "East Kent Hospitals University NHS Foundation Trust",
+    "location": "Ashford, TN24 0LZ",
+    "region": "Kent",
+    "salary": "£25272.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-14T14:40:34.827727435",
+    "closing_date": "2026-10-19",
+    "description": "An exciting opportunity has arisen within the Outpatient Reception team to be based at William Harvey Hospital, Ashford. Our team are focused on service delivery and patient care and we are looking for an individual who is self motivated with a genuine desire to give gold standard care at every level. The successful applicants will be joining a highly motivated and effective team who strive to ensure patient care is at the forefront of our service. This post may support one or more team(s) (these could be Medical or non Medical staff). The focus of this role will include front line contact with members of the public, keyboard skills, data inputting and frequent use of display screen equipment. Please scroll down to access the full Job Description and Person Specification located in Documents to download. If you have any further queries please dont hesitate to contact the line manager using the contact details below.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9344-26-0545",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9344-26-0545",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5660781",
@@ -1862,7 +1916,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9344-26-0550",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9344-26-0550",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5653560",
@@ -1880,7 +1938,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2847-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2847-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5651409",
@@ -1898,7 +1960,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1340-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1340-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5651302",
@@ -1916,7 +1982,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1686-26-0014",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1686-26-0014",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5635318",
@@ -1934,7 +2004,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5072-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5072-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5637080",
@@ -1952,7 +2026,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9333-26-1297",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9333-26-1297",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5606943",
@@ -1970,6 +2048,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0525-26-0013",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0525-26-0013",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

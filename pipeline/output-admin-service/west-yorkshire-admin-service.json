@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-leadership-team-administrator-hybrid",
-    "title": "Leadership Team Administrator (Hybrid)",
-    "company": "Moldgreen Community Primary School",
-    "location": "Huddersfield",
-    "region": "Yorkshire - West",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time', 'temporary']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£30,574 to £32,108",
-    "work_pattern": "",
-    "posted_date": "2026-09-30",
-    "closing_date": "2026-10-14",
-    "closing_datetime": "2026-10-14T12:00:00+01:00",
-    "summary": "Leadership Team Administrator (Hybrid) with Moldgreen Community Primary School in Huddersfield. ['part time', 'temporary']; £30,574 to £32,108.",
-    "description": "Moldgreen Community Primary School is recruiting for this vacancy in Huddersfield.\n\nThe advertised position is Leadership Team Administrator (Hybrid).\n\nThe source lists the employment type as ['part time', 'temporary'].\n\nThe advertised salary or pay scale is £30,574 to £32,108.\n\nThe stated application deadline is 2026-10-14T12:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/leadership-team-administrator-hybrid?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Moldgreen Community Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-administrative-assistant-south-craven-school",
     "title": "Administrative Assistant",
     "company": "South Craven School",
@@ -1971,7 +1943,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3394-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3394-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5653711",
@@ -1989,7 +1965,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-1103",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-1103",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5651764",
@@ -2007,7 +1987,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5315-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5315-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5642303",
@@ -2025,7 +2009,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0677-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0677-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5637209",
@@ -2043,7 +2031,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-1058",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-1058",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5623216",
@@ -2061,7 +2053,33 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3961-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3961-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5664888",
+    "source": "NHS Jobs",
+    "title": "Clinical Administrator",
+    "company": "Locala Health and Wellbeing",
+    "advertiser_name": "Locala Health and Wellbeing",
+    "location": "Holmfirth, HD1 4EW",
+    "region": "Yorkshire - West",
+    "salary": "Negotiable",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-14T15:20:57.293416",
+    "closing_date": "2026-11-06",
+    "description": "An exciting opportunity has arisen for an enthusiastic, self-motivated and flexible individual to join our established Living Well 18-Week Admin Hub , based in the Huddersfield area. You will play a vital role in supporting clinicians within a busy service, helping ensure patients receive a professional, responsive and positive experience throughout their care journey. We're looking for someone who: Puts people first providing caring, professional and compassionate customer service to patients, colleagues and visitors. Thrives in a busy environment staying organised, prioritising tasks and supporting the smooth running of the service. Takes a proactive approach using initiative, embracing a can-do attitude and finding practical solutions. Works as part of a team communicating effectively and working flexibly to meet the needs of the service. You will join a well-established team where you will be supported in your role and have the opportunity to contribute to a service that makes a real difference to local people. Please refer to the attached job description and person specification which can be found on a link with the job detail content/ Please refer to the job description and person specification document or link found on Locala's website",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0534-2026-2032",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0534-2026-2032",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5656950",
@@ -2079,7 +2097,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3457-26-0013",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3457-26-0013",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5659053",
@@ -2097,7 +2119,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4132-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4132-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5648147",
@@ -2115,7 +2141,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1168-26-10-07",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1168-26-10-07",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5642057",
@@ -2133,7 +2163,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-1080",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9298-26-1080",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5634925",
@@ -2151,7 +2185,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3218-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3218-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5630977",
@@ -2169,7 +2207,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0058-26-0009",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0058-26-0009",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5603161",
@@ -2187,6 +2229,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0721-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0721-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

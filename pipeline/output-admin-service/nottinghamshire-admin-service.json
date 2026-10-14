@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-senior-administrator-carlton-digby-school-nottingham-nottinghamshire",
-    "title": "Senior Administrator",
-    "company": "Carlton Digby School",
-    "location": "Nottingham",
-    "region": "Nottinghamshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "Pro Rata salary £19,082 - £21,244 (FTE salary £27,409 – £30,515)",
-    "work_pattern": "",
-    "posted_date": "2026-10-02",
-    "closing_date": "2026-10-14",
-    "closing_datetime": "2026-10-14T09:00:00+01:00",
-    "summary": "Senior Administrator with Carlton Digby School in Nottingham. ['part time']; Pro Rata salary £19,082 - £21,244 (FTE salary £27,409 – £30,515).",
-    "description": "Carlton Digby School is recruiting for this vacancy in Nottingham.\n\nThe advertised position is Senior Administrator.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is Pro Rata salary £19,082 - £21,244 (FTE salary £27,409 – £30,515).\n\nThe stated application deadline is 2026-10-14T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-carlton-digby-school-nottingham-nottinghamshire?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Carlton Digby School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-administrative-assistant-stanhope-primary-and-nursery-school-nottingham-nottinghamshire",
     "title": "Administrative Assistant",
     "company": "Stanhope Primary and Nursery School",
@@ -974,7 +946,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9186-26-0732",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9186-26-0732",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5652756",
@@ -992,7 +968,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9335-26-0140",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9335-26-0140",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5645581",
@@ -1010,7 +990,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1310-26-0024",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1310-26-0024",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5633951",
@@ -1028,7 +1012,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0526",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0526",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5633171",
@@ -1046,7 +1034,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9826-PHCB-6568",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9826-PHCB-6568",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5630537",
@@ -1064,7 +1056,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0092",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0092",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5610460",
@@ -1082,7 +1078,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0497",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0497",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5652609",
@@ -1100,7 +1100,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2064-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2064-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5640257",
@@ -1118,6 +1122,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0567-26-1234",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0567-26-1234",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

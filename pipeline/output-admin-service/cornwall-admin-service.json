@@ -225,6 +225,28 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "nhs-5662848",
+    "source": "NHS Jobs",
+    "title": "Receptionist/Admin Assistant",
+    "company": "Cornwall Partnership NHS Foundation Trust",
+    "advertiser_name": "Cornwall Partnership NHS Foundation Trust",
+    "location": "Penzance, TR18 4NY",
+    "region": "Cornwall",
+    "salary": "£25760.00 to £27476.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-14T09:31:05.115859448",
+    "closing_date": "2026-10-28",
+    "description": "We have an exciting opportunity for a cheerful, friendly and patient focused individual to join our team of experienced and efficient Receptionist/Admin Assistants and the wider administrative and clerical team at Bolitho House, Penzance supporting the Penwith Community Mental Health Team and Dementia in Older People's Mental Health Service.The post holder should demonstrate a caring and sensitive approach to their work and be able to communicate clearly and professionally with colleagues, patients, carers, the general public and representatives from other hospitals and organisations.This is a full-time post working 37.5 hours per week, Monday to Friday 08:45 to 17:00 The post holder will be required to provide a comprehensive service as part of the administration team, the Receptionist/Admin Assistant will provide the public face of the Integrated Community Mental Health Team (ICMHT) and Dementia in Older People's Mental Health Service (DOPMH) assisting service users, their families and carers, and all other professionals, as well as providing general reception duties, taking telephone calls, and using electronic systems, with a high degree of accuracy, always ensuring efficient and effective levels of service, on a daily basis. There will be extensive liaison with service users, GP's, clinical staff within the service and the general public, providing an excellent customer service to facilitate efficient and sensitive communication. Information received may be of a confidential or sensitive nature and will require courteous and diplomatic handling. To view a detailed job description and person specification including the main responsibilities of this role please see supporting documents.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9201-26-1290",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9201-26-1290",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5656298",
     "source": "NHS Jobs",
     "title": "Medical Receptionist",
@@ -240,24 +262,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1654-26-0019",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1654-26-0019",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
-  },
-  {
-    "job_id": "nhs-5653125",
-    "source": "NHS Jobs",
-    "title": "Ward Administrator",
-    "company": "Royal Cornwall Hospitals Trust",
-    "advertiser_name": "Royal Cornwall Hospitals Trust",
-    "location": "St Austell, PL26 6AA",
-    "region": "Cornwall",
-    "salary": "£25760.00 to £27476.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-10-09T09:01:36.518386",
-    "closing_date": "2026-10-25",
-    "description": "Clinical administration is changing, and we're leading the way. Do you enjoy helping people, keeping things organised and being at the heart of a busy team? As a Ward Administrator at the St Austell Surgical Hub, you'll play an important role in supporting patients, visitors and clinical teams within a modern surgical environment. You'll be a key point of contact for patients throughout their healthcare journey, helping to create a welcoming and positive experience while ensuring the day-to-day administration of the ward runs smoothly and efficiently. If you're organised, approachable and passionate about helping people, we'd love to hear from you. Transforming services. Reimagining careers. Join us and help shape the future of healthcare administration. Working closely with healthcare professionals, you'll help coordinate a wide range of activities that support the delivery of planned surgical care. From welcoming patients and supporting admissions and discharges, to managing information, coordinating communications and helping services run effectively behind the scenes, you'll be a valued member of a team that makes a real difference every day. Our recruitment process To give candidates the opportunity to explore the full range of opportunities available, we are recruiting all Clinical Administration roles through a single recruitment process. If shortlisted, you'll be invited to attend our Talent Assessment Centre where we'll discuss your preferred locations, working pattern and the roles you'd like to be considered for, helping us find the opportunity that's right for you. When you apply, you will be applying to the Clinical Administration Talent Pool rather than a specific vacancy. If shortlisted, you will be invited to attend an Assessment Centre at The Knowledge Spa, Truro, on Saturday 31 October 2026. The assessment centre will provide an opportunity for you to demonstrate your skills, experience and strengths through a variety of activities, while also learning more about our new Clinical Administration Service and the roles available. During the day, we'll discuss your experience, interests and career aspirations with you and identify which of the available opportunities you would like to be considered for. This allows us to match talented individuals to the roles that best suit their skills, strengths and future ambitions. We encourage you to apply regardless of your preferred working pattern, and if shortlisted, we'll discuss the opportunities available and the options that best suit your circumstances at the Assessment Centre. Please reserve Saturday 31 October 2026 in your diary should you be shortlisted, as attendance at the Assessment Centre will be required. If you're looking for a career where your skills can make a genuine difference, we'd love to hear from you.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9156-8346998",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9156-8346998",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

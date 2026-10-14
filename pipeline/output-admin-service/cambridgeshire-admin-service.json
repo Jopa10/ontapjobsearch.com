@@ -671,7 +671,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9310-26-0649",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9310-26-0649",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5659435",
@@ -689,7 +693,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0063-26-0020",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0063-26-0020",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5647546",
@@ -701,13 +709,17 @@
     "region": "Cambridgeshire",
     "salary": "£25760.00 to £27476.00",
     "employment_type": "Permanent",
-    "posted_date": "2026-10-07T13:24:12.627177417",
+    "posted_date": "2026-10-07T13:24:12.627177",
     "closing_date": "2026-10-21",
     "description": "OPAC Administration Services are recruiting a enthusiastic and motivated Administrators to support the Diabetes Service. The successful candidate will be providing patient focused administration support to a countywide service covering Cambridge, Fenland, Peterborough & Huntingdon liaising with our Nurses and services users to ensure an effective, efficient & streamlined service. The role will be based at our Admin hubs in Huntingdon, Cambourne, Peterborough or Doddington. We currently have 1 full time vacancy, 37.5hrs per week. Please do make contact if you would like to discuss the role further. Please note for this role you will be required to travel independently around the county meeting strict time deadlines The role involves providing comprehensive administrative support to our Diabetes Service. Responsibilities include processing referrals, managing waiting and triage lists, maintaining accurate service user records, and handling correspondence and data across multiple IT systems. The postholder will communicate professionally with referrers, clinicians, and service users, deliver an effective telephone service, coordinate interpreters, and support team operations through scanning, record management, and training of new staff. Please refer to the attached job description and person specification for full details of responsibilities Management and coordination of inbound and outbound communications and correspondence across multiple formats and channels. Responsible for the efficient coordination of appointment scheduling and proactive management of waiting lists to ensure timely access and optimal service delivery. Inputting and updating service user information and service user/team activity on computerised information systems, creating service user notes where necessary and according to policy. Maintain filing in both paper and electronic records, ensuring that it is kept up to date at all times. In accordance with Trust procedures, track and receive notes in a timely manner. Process and triage referrals across multiple pathways, applying specialist knowledge to ensure accurate prioritisation and appropriate allocation in line with service protocols. Effectively manage a high volume of incoming calls while navigating multiple systems and applying specialist knowledge to deliver a professional, responsive, and solution-focused service. Utilise both internal and external partner systems to efficiently manage workload, ensuring tasks are completed accurately, collaboratively, and in line with service standards. Handle telephone-based electronic payments and banking transactions with accuracy and security, ensuring compliance with financial procedures while delivering a professional and customer-focused service. Collect patient feedback to support continuous improvement and ensure the delivery of high-quality, patient-centred services. Manage and process incoming and outgoing mail in accordance with various established postal protocols and organisational procedures, ensuring secure and timely handling of all correspondence. Provide operational support, supervision, training, mentorship and cover to/of colleagues as directed by line manager. Providing a high level of administrative support to our clinical teams, building good professional relationships whilst setting & ensuring remit boundaries.",
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9310-26-0642",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9310-26-0642",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5642204",
@@ -725,7 +737,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9310-26-0641",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9310-26-0641",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5636638",
@@ -743,6 +759,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5532-26-0017",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5532-26-0017",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

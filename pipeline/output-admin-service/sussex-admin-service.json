@@ -1693,7 +1693,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0759",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0759",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5661046",
@@ -1711,25 +1715,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4180-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4180-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
-  },
-  {
-    "job_id": "nhs-5659948",
-    "source": "NHS Jobs",
-    "title": "Receptionist / Administrator",
-    "company": "Sussex Community NHS Foundation Trust",
-    "advertiser_name": "Sussex Community NHS Foundation Trust",
-    "location": "Bognor Regis, PO22 9PP",
-    "region": "Sussex",
-    "salary": "£25760.00 to £27476.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-10-13T10:08:51.713708480",
-    "closing_date": "2026-10-25",
-    "description": "Are you organised, proactive and passionate about delivering excellent service? Sussex MSK Health is looking for a motivated individual to join our friendly reception / administrative team at our Bognor Hospital, Centenary Wing unit, helping us provide outstanding support to patients and clinicians across our service. In this vital role, you'll be the welcoming face of our department, ensuring the smooth running of all administrative tasks and supporting the day-to-day operations of our reception team. From managing documentation to coordinating communication between colleagues, clinicians and IT support, you'll play a key part in keeping our service efficient and patient-focused. We're looking for someone who brings: Strong organisation skills and the confidence to work independently Excellent attention to detail and the ability to use their own initiative A proactive, team-focused attitude with great problem-solving abilities Clear, professional communication and interpersonal skills Proficiency -- or the ability to quickly learn -- a variety of IT systems and applications Confident, accurate use of the English language Join a team that values initiative, accuracy and great communication -- and play a key part in delivering a smooth, reliable experience for patients and colleagues. Reception duties -- Provide a professional, welcoming first point of contact for patients, visitors and staff, managing face-to-face enquiries and ensuring individuals are directed appropriately within the service. Call handling -- Answer and route incoming calls promptly, take accurate messages, manage voicemail inboxes and support patients with appointment-related queries. Appointment coordination -- Book, amend and confirm appointments across services, ensuring information is recorded accurately and communicated clearly to both patients and clinicians. Documentation management -- Process referrals, scan and upload documents, maintain electronic patient records, and ensure all paperwork is filed, stored and updated correctly. Administrative support -- Support clinicians and the wider team with day-to-day administrative tasks, including preparing clinic lists, updating spreadsheets, generating letters and maintaining service logs. IT system use Use a range of clinical and administrative systems to input data, retrieve information, run reports and support the smooth flow of patient information across the service. Problemsolving Resolve routine issues independently, escalate more complex problems appropriately, and contribute to improving processes within the reception and admin team. Communication and liaison Work closely with colleagues, clinicians, managers and IT support, ensuring information is shared accurately and professionally at all times. Service organisation Help maintain an organised reception environment, monitor stock levels, order supplies, and ensure equipment and resources are available for daily operations. Confidentiality and accuracy - Handle sensitive patient information with discretion, ensuring all data is recorded accurately and in line with service and NHS informationgovernance standards Please see the attached Job Description and Person Specification for further details on the role. Please note: Due to recent changes in UK immigration and visa rules, this role is unlikely to be eligible for Skilled Worker visa sponsorship. Applicants who do not currently have the right to work in the UK may not be considered. Candidates requiring sponsorship should review the eligibility criteria on the gov.uk website before applying to assess their eligibility for a Certificate of Sponsorship for this role.\"",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9150-26-0598",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9150-26-0598",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5657299",
@@ -1747,7 +1737,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2958-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2958-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5655598",
@@ -1765,7 +1759,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9150-26-0592",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9150-26-0592",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5649373",
@@ -1783,7 +1781,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0214-26-0146",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0214-26-0146",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5642135",
@@ -1801,6 +1803,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0673",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0673",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

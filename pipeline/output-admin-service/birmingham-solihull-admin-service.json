@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-school-office-administrator-castle-bromwich-junior-school-birmingham-west-midlands",
-    "title": "School Office Administrator",
-    "company": "Castle Bromwich Junior School",
-    "location": "Birmingham",
-    "region": "West Midlands - Birmingham & Solihull",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "FTE - £ 25614.00 - £26427.00 Actual Salary - £ 20770.00 - £21909.00",
-    "work_pattern": "",
-    "posted_date": "2026-09-25",
-    "closing_date": "2026-10-14",
-    "closing_datetime": "2026-10-14T09:00:00+01:00",
-    "summary": "School Office Administrator with Castle Bromwich Junior School in Birmingham. ['full time']; FTE - £ 25614.00 - £26427.00 Actual Salary - £ 20770.00 - £21909.00.",
-    "description": "Castle Bromwich Junior School is recruiting for this vacancy in Birmingham.\n\nThe advertised position is School Office Administrator.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is FTE - £ 25614.00 - £26427.00 Actual Salary - £ 20770.00 - £21909.00.\n\nThe stated application deadline is 2026-10-14T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/school-office-administrator-castle-bromwich-junior-school-birmingham-west-midlands?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Castle Bromwich Junior School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-office-administrator-kings-rise-academy",
     "title": "Office Administrator",
     "company": "Kings Rise Academy",
@@ -1796,7 +1768,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0020-26-1558",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0020-26-1558",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5646101",
@@ -1814,7 +1790,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-4206",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-4206",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5658996",
@@ -1832,7 +1812,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4532-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4532-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5656906",
@@ -1850,7 +1834,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4072-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4072-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5653910",
@@ -1868,7 +1856,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0354-REQ000245",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0354-REQ000245",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5649387",
@@ -1886,7 +1878,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3718-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3718-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5638487",
@@ -1904,7 +1900,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-4141",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0034-26-4141",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5631076",
@@ -1922,7 +1922,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0705-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0705-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5626936",
@@ -1940,7 +1944,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3763-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3763-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5600185",
@@ -1958,6 +1966,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2119-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2119-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

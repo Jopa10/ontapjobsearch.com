@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-attendance-administrator-alde-valley-academy-leiston-suffolk",
-    "title": "Attendance Administrator",
-    "company": "Alde Valley Academy",
-    "location": "Leiston",
-    "region": "Suffolk",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£21,567.00 - £22,256.00 Annually (Actual) Grade 3, points 4-6 (£25,185-£25,989 FTE)",
-    "work_pattern": "",
-    "posted_date": "2026-09-30",
-    "closing_date": "2026-10-14",
-    "closing_datetime": "2026-10-14T12:00:00+01:00",
-    "summary": "Attendance Administrator with Alde Valley Academy in Leiston. ['part time']; £21,567.00 - £22,256.00 Annually (Actual) Grade 3, points 4-6 (£25,185-£25,989 FTE).",
-    "description": "Alde Valley Academy is recruiting for this vacancy in Leiston.\n\nThe advertised position is Attendance Administrator.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £21,567.00 - £22,256.00 Annually (Actual) Grade 3, points 4-6 (£25,185-£25,989 FTE).\n\nThe stated application deadline is 2026-10-14T12:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-alde-valley-academy-leiston-suffolk?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Alde Valley Academy",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-receptionist-administration-assistant-ormiston-endeavour-academy-ipswich-suffolk",
     "title": "Receptionist/Administration Assistant",
     "company": "Ormiston Endeavour Academy",
@@ -846,7 +818,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9179-26-0654",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9179-26-0654",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5645897",
@@ -864,7 +840,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9179-26-0649",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9179-26-0649",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5605467",
@@ -882,7 +862,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0250-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0250-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5660727",
@@ -900,7 +884,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9246-26-1174",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9246-26-1174",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5653700",
@@ -918,7 +906,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2466-26-0014",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2466-26-0014",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5639815",
@@ -936,6 +928,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0128-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0128-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

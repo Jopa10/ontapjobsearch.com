@@ -1265,7 +1265,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1835",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1835",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5653386",
@@ -1283,7 +1287,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1208",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1208",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5640615",
@@ -1301,7 +1309,33 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1178",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1178",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5664768",
+    "source": "NHS Jobs",
+    "title": "Ward Clerk",
+    "company": "Oxford University Hospitals NHS Foundation Trust",
+    "advertiser_name": "Oxford University Hospitals NHS Foundation Trust",
+    "location": "Banbury, OX16 9AL",
+    "region": "Oxfordshire",
+    "salary": "£25760.00 to £27476.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-14T14:53:35.611250694",
+    "closing_date": "2026-11-04",
+    "description": "A vacancy has arisen within the wards at the Horton General Hospital for a motivated individual who would enjoy working in a challenging busy environment providing a comprehensive administrative service. The post holder will work closely with the ward manager and all relevant staff members. The applicant must have excellent interpersonal skills and communication skills to effectively deal with a diverse range of people in a sensitive and confidential manner. Good organisational and IT skills are essential and experience of EPR (Electronic Patient Records) would be an advantage. To provide comprehensive and confidential administrative and clerical support to the ward team in accordance with the departmental and Trust standards. To keep a well organised ward and ensure all relevant systems and processes are kept up to date to ensure smooth patient care from admission to discharge. To provide support and guidance to all colleagues internally and externally in a professional and informed manner. Detailed job description, main responsibilities and person specification are available in the attached job description.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1874",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9321-26-1874",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5643181",
@@ -1319,6 +1353,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0699-26-0010",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0699-26-0010",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
