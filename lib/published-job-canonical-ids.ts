@@ -1,5 +1,7 @@
 import generatedCanonicalIds from "@/generated/published-job-canonical-ids.json";
 
+const canonicalIds = generatedCanonicalIds as Record<string, string>;
+
 function decodePublishedJobId(jobId: string): string {
   try {
     return decodeURIComponent(jobId);
@@ -10,5 +12,5 @@ function decodePublishedJobId(jobId: string): string {
 
 export function getCanonicalPublishedJobId(jobId: string): string {
   const decodedJobId = decodePublishedJobId(jobId);
-  return generatedCanonicalIds[decodedJobId] ?? decodedJobId;
+  return canonicalIds[decodedJobId] ?? decodedJobId;
 }
