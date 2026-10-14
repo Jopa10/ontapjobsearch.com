@@ -2,15 +2,51 @@
 
 review_date: 2026-10-14
 
-- Open Administrative & Clerical rows reviewed: 2197
+- Open Administrative & Clerical rows reviewed: 2199
 - Auto/remembered selected: 392
 - Selected HC Tier A: 207
 - Selected HC Tier B: 185
-- POSS awaiting decision: 1705
+- POSS awaiting decision: 1707
 - Excluded: 0
 - HARD_PASS: 100
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Greater Manchester - South | Ashton-Under-Lyne, OL6 7SR | £39959.00 to £48117.00 | Oliver McGowan Facilitating Trainer
+source_job_id: 5661603
+title: Oliver McGowan Facilitating Trainer
+employer: Pennine Care NHS FT
+region: Greater Manchester - South
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9311-26-0685
+factual_fingerprint: 842948a174cdc0d4503ec78a202d8aa969fb2a2bb581c92e334f7bc9744999da
+---
+
+---
+action:
+POSS | NHS Jobs | Greater Manchester - South | Ashton-Under-Lyne, OL6 7SR | £25760.00 to £27476.00 | Oliver McGowan - Administrator
+source_job_id: 5661582
+title: Oliver McGowan - Administrator
+employer: Pennine Care NHS FT
+region: Greater Manchester - South
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9311-26-0684
+factual_fingerprint: f78a042d5e17f892aedb43ba2de001df5327c5e66e29d8c12f15dbe9fdc2c159
+---
+
+---
+action:
+POSS | NHS Jobs | Essex | Westcliff-on-Sea, SS0 0RY | £25272.00 | Patient Pathway Assistant - Cardiology
+source_job_id: 5661928
+title: Patient Pathway Assistant - Cardiology
+employer: Mid and South Essex NHS Foundation Trust
+region: Essex
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-2416
+factual_fingerprint: 0039556426303285b1041c0b96ac6a14a27e53ee9718017e3503e48d97b3cf12
+---
 
 ---
 action:
@@ -12225,7 +12261,7 @@ employer: St Joseph’s Hospital
 region: Wales South -gwent
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0014-26-0031
-factual_fingerprint: 91eeb288bac7b5b7caf9baa8c3d82787ea3a6b431b428d8e8bc735b560a418f2
+factual_fingerprint: a0f4e2da3d0ddee182db91fb4a9f313e703e0c0025e487188fc04a17313cac61
 ---
 
 ---
@@ -14926,18 +14962,6 @@ region: Yorkshire - South
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0243-26-0054
 factual_fingerprint: efc37d9b8d13412b1dcaf76c43dd1077ba15cd89db1b06747b800fa2ae6488df
----
-
----
-action:
-POSS | NHS Jobs | Cambridgeshire | Huntingdon, PE29 6NT | £100000.00 to £200000.00 | Programme Director
-source_job_id: 5639562
-title: Programme Director
-employer: North West Anglia NHS Foundation Trust
-region: Cambridgeshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9176-26-0561
-factual_fingerprint: 531269cfdefca8da6aeb1fae5cf2b2a4afb09ca900ade6aade25247a52f7f3e5
 ---
 
 ---
