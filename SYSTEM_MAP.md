@@ -250,6 +250,8 @@ Report lifecycle is recurring operational reporting / deliberate specialist anal
 
 ## 3. Website / UX
 
+Service Admin listings use the shared `JobSlicePage` compact intro: administration, office support, reception, customer service, accounts and finance jobs with a substantial administrative element, followed by the page location. City pages with approved catchments retain `and nearby areas`; `latestUpdate` renders in a separate paragraph. Other families retain their existing intro presentation.
+
 Every non-London `JobSlicePage` listing uses a consistent desktop promotion rail with three role-appropriate course cards and the practical AI-help card beneath them. Office-based dynamic and generated city pages resolve to the shared office set; support-worker pages resolve to three care courses; explicitly configured legacy pages keep their established three-card set. At mobile widths up to 700 px the whole rail is hidden. London retains its separately configured layout. The job-view switcher defaults first-time mobile visitors to Quick View and desktop visitors to Detailed View; a visitor's saved choice takes priority on later visits. The AI card links to `/ai-tips` with a validated regional/category source key; the page returns visitors to that exact approved listing, while direct or invalid visits see `Browse current jobs`. The canonical URL and breadcrumb schema stay fixed, and GA4 records AI-tip visits and return-link clicks.
 
 Purpose: user-facing job search, job pages, navigation and presentation.

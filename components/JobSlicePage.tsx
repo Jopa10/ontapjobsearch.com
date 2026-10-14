@@ -414,7 +414,16 @@ export default function JobSlicePage({
   const aiTipsSource = getAiTipsSourceForJsonPath(jsonPath);
   const cityBreadcrumb = getCityPageBreadcrumb(jsonPath);
   const childCityLinks = getActiveCityLinksForParentJsonPath(jsonPath);
-  const listingIntro = getListingIntro(introText, latestUpdate);
+  const isAdminServicePage = jsonPath.some((part) =>
+    /(?:^|-)service-administrator-jobs\.json$/.test(part)
+  );
+  const adminLocation = title.split(" Jobs in ")[1] || region;
+  const adminCoverage = cityBreadcrumb && /catchment|local employment market/i.test(introText || "")
+    ? `${adminLocation} and nearby areas`
+    : adminLocation;
+  const listingIntro = isAdminServicePage
+    ? `Browse administration, office support, reception, customer service, accounts and finance jobs with a substantial administrative element across ${adminCoverage}.`
+    : getListingIntro(introText, latestUpdate);
   const mobileAiTips = () => (
     <div className={styles.mobileAiTips}>
       <AiTipsCard regionSlug={aiTipsSource?.regionSlug} sourceSlug={aiTipsSource?.slug} compact />
@@ -496,6 +505,11 @@ export default function JobSlicePage({
             >
               {listingIntro}
             </p>
+            {isAdminServicePage ? (
+              <p style={{ color: "#6b7280", fontSize: 13, lineHeight: 1.35, margin: "4px 0 0" }}>
+                {latestUpdate}
+              </p>
+            ) : null}
             {pageIntro ? (
               <p style={{ fontSize: 14, lineHeight: 1.5, margin: "8px 0 0" }}>
                 {pageIntro}
