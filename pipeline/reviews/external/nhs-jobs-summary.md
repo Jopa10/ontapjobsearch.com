@@ -2,15 +2,27 @@
 
 review_date: 2026-10-14
 
-- Open Administrative & Clerical rows reviewed: 2199
+- Open Administrative & Clerical rows reviewed: 2200
 - Auto/remembered selected: 392
 - Selected HC Tier A: 207
 - Selected HC Tier B: 185
-- POSS awaiting decision: 1707
+- POSS awaiting decision: 1708
 - Excluded: 0
 - HARD_PASS: 100
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Greater Manchester - South | Ashton under Lyne, OL6 9RW | £28392.00 to £31157.00 | ICT Primary Care Remote Support Officer
+source_job_id: 5662029
+title: ICT Primary Care Remote Support Officer
+employer: Tameside and Glossop Integrated Care NHS Foundation Trust
+region: Greater Manchester - South
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9245-26-0407
+factual_fingerprint: 92fa9e4b6b5b3e5bcbad1fbdcaff4089c2d6bb7f3271f800774a0dab7a0a0d8d
+---
 
 ---
 action:
