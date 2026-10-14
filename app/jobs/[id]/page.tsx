@@ -129,7 +129,12 @@ export default async function JobPage({ params }: PageProps) {
   const transferableFit = getTransferableFit(job.job_id);
   const publishedJobs = getPublishedJobs();
   const cityPage = getActiveCityPageForJob(job.job_id);
-  const discoveryJobs = getDiscoveryRecommendations(job, publishedJobs);
+  const sameRegionJobs = publishedJobs.filter(
+    (candidate) =>
+      candidate.region.trim().toLocaleLowerCase("en-GB") ===
+      job.region.trim().toLocaleLowerCase("en-GB")
+  );
+  const discoveryJobs = getDiscoveryRecommendations(job, sameRegionJobs);
   const hasDiscoveryJobs = discoveryJobs.length > 0;
   const regionalFallbackHref = `/jobs/search?location=${encodeURIComponent(job.region)}`;
   const regionalFallbackTitle = regionalFallbackLabel(job.region);
