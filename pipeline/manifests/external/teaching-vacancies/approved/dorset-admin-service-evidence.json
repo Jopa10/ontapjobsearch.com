@@ -1,18 +1,20 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-04T16:48:31+01:00",
+  "generated_at": "2026-10-14T16:50:08+01:00",
   "source": "Teaching Vacancies",
   "region": "Dorset",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-04",
-  "review_fingerprint": "c6183e1c0c5a389b217807e11fc8927527a059839a9b85ff265ad0855b99a722",
-  "routing_manifest_sha256": "997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4",
-  "review_csv_sha256": "4264b3bf86d441b46e3ad2f031924f626f30f78e61c482cfea6f0c8e8b5b6011",
-  "summary_md_sha256": "5cfd504ed69e0c6c20d232b56d5ef78433a0be4249b77e90fcec2db898cd5024",
-  "approved_snapshot_sha256": "c36943c62d14710aa6b2862d0fadedbc98396ba9abefb90e17d1c18671012839",
-  "approved_rows": 1,
+  "review_date": "2026-10-14",
+  "review_fingerprint": "509ff386722af1f5db353ef3431032ef8fc7f3087b169083085a636e2f6edd00",
+  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
+  "review_csv_sha256": "75d3f3a32a0dcc307611f9dc4562c3966fb6f60b7bd0e2add84b77f6e5af64d3",
+  "summary_md_sha256": "da8ba878192f8b916f1b879066e3b5abce5069ca9a69c1da5341122857b4ed37",
+  "approved_snapshot_sha256": "b8475c42f6463cdf3aa5ca7d11fd7c4ad0aa9f7f08f497a2524715b9a4beda83",
+  "approved_rows": 3,
   "approved_job_ids": [
-    "teaching-vacancies-pa-to-leadership-team-83fa491b-26bc-45d1-a318-ca6280f814e2"
+    "teaching-vacancies-english-department-administrator-librarian",
+    "teaching-vacancies-receptionist-admin-assistant-ferndown-middle-school",
+    "teaching-vacancies-admin-assistant-southern-education-trust"
   ]
 }

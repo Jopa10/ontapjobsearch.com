@@ -1,20 +1,20 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-04T16:48:36+01:00",
+  "generated_at": "2026-10-14T16:50:13+01:00",
   "source": "Teaching Vacancies",
   "region": "Worcestershire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-04",
-  "review_fingerprint": "75a86b6aa2d65870d7129490935c667c80e97991cb5fa171b4defb81c790416d",
-  "routing_manifest_sha256": "997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4",
-  "review_csv_sha256": "46c8932bc355bf4c1bd3691202698a04674b8d0ce55096db945c895451b45f38",
-  "summary_md_sha256": "3ba2e9452540768558185dce7d04c02ad6b3bb80bd2f8b90aa7caf779205979c",
-  "approved_snapshot_sha256": "44c833ff6f9e57f2adf3af00b042233e1114bcef7009f882e6efccaf723f7dbd",
+  "review_date": "2026-10-14",
+  "review_fingerprint": "c1eb78904c3b0d9ce68973e85e6b7d07e2b4c47c2b5bc9f6701264f7ad3e4439",
+  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
+  "review_csv_sha256": "2d7150b45c5802b3610b7c175ad5294bf8147b7f6bea72389e7d6211f62bb3ab",
+  "summary_md_sha256": "8e667d8c21c080a367fd71f439f6a0754c512b9be2d2998bdf58999a3d886775",
+  "approved_snapshot_sha256": "0d4bf12fadcd70175a89ecf6e40b1d67a6f23a94b4f03250a223e7a0f7a21013",
   "approved_rows": 3,
   "approved_job_ids": [
-    "teaching-vacancies-office-administrator-stourport-primary-academy-stourport-on-severn-worcestershire",
-    "teaching-vacancies-administrator-send-department-tenbury-high-ormiston-academy",
-    "teaching-vacancies-receptionist-administrator-ipsley-cofe-middle-school-redditch"
+    "teaching-vacancies-part-time-student-receptionist-main-receptionist",
+    "teaching-vacancies-office-administrator-burford-road-site",
+    "teaching-vacancies-office-administrator-northleigh-cofe-primary-school"
   ]
 }

@@ -1,18 +1,16 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-04T16:48:32+01:00",
+  "generated_at": "2026-10-14T16:50:09+01:00",
   "source": "Teaching Vacancies",
   "region": "Greater Manchester - South",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-04",
-  "review_fingerprint": "2397e629ca8e78dd96f834471361bd8638ed420540d9a3113ac177593c700c94",
-  "routing_manifest_sha256": "997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4",
-  "review_csv_sha256": "de64a2c3f0818f07a9697c7a8a76d5dad87970d6f03f0694c92e67f708dee776",
-  "summary_md_sha256": "d4e6ac456180da6f3baa963e16e78cbf02cbd66b396531cef80a4ea56888c380",
-  "approved_snapshot_sha256": "aad20011919d416f24b1bd6604431b5aca47c378bfdd2e416c8fea4b5755406a",
-  "approved_rows": 1,
-  "approved_job_ids": [
-    "teaching-vacancies-administrator-hyde-high-school"
-  ]
+  "review_date": "2026-10-14",
+  "review_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
+  "review_csv_sha256": "317ecce2b5235a48cf9cf58901bd010b88ed6d346c83de64895b9a968eb239f1",
+  "summary_md_sha256": "77bacfa2ac8562b67f9d46d69a7e3471b4f8696e85ca8cbb7984386a7c2997d8",
+  "approved_snapshot_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "approved_rows": 0,
+  "approved_job_ids": []
 }

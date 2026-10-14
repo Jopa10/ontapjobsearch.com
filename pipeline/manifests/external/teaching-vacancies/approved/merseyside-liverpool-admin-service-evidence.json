@@ -1,19 +1,18 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-04T16:48:33+01:00",
+  "generated_at": "2026-10-14T16:50:10+01:00",
   "source": "Teaching Vacancies",
   "region": "Merseyside - Liverpool",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-04",
-  "review_fingerprint": "d734e2b55c610319ba8f78568a39c264f0cfd6299c94a3af70f60fafb2bb75ba",
-  "routing_manifest_sha256": "997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4",
-  "review_csv_sha256": "0b3cf763eec0fadc7f19d4b868d960531a2bbec8bd53a032a1e937de5f4ed107",
-  "summary_md_sha256": "2eb09e5d700cb152ddab69ffdf2b47e21bab4df5b0c133585e0ffb525e1e73c1",
-  "approved_snapshot_sha256": "6cbbd01d47be220e6c517937e549e5f510a4d68047a5445e49c505572459cfd3",
-  "approved_rows": 2,
+  "review_date": "2026-10-14",
+  "review_fingerprint": "edd73140fd84696144db0d09aa3baa11dec47b54c55bd62ba0169c5b6e5b0fae",
+  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
+  "review_csv_sha256": "2abf223682f845fd387e8601ca61c6095aaf56f4aff9e14c038d34b6d25e9cd1",
+  "summary_md_sha256": "2b39f47b2adbf7ebd20876fdf2de2ce6443f2cbb64fe0d1e23f43edd8f1e605e",
+  "approved_snapshot_sha256": "0d7b641761168847cd620feb37472345b59d7390c4b0dc768a4d15b2b9072764",
+  "approved_rows": 1,
   "approved_job_ids": [
-    "teaching-vacancies-administrative-assistant-bishop-martin-church-of-england-primary-school-woolton-liverpool-merseyside",
-    "teaching-vacancies-receptionist-6daa74e9-7381-4a23-93df-9b2577545b8a"
+    "teaching-vacancies-administrative-assistant-ab978b6d-c1dd-4b20-b920-253425188e5b"
   ]
 }

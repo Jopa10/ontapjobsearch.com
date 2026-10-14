@@ -1,24 +1,22 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-04T16:48:34+01:00",
+  "generated_at": "2026-10-14T16:50:10+01:00",
   "source": "Teaching Vacancies",
   "region": "North East",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-04",
-  "review_fingerprint": "e9c0d9e9353c3611460b5af76001855eaf911c257811f861576b515afc582f01",
-  "routing_manifest_sha256": "997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4",
-  "review_csv_sha256": "71f835ec7e55be6607aa4317ec9fd637af874e6f8987d6374c1f2d1ad4561cc9",
-  "summary_md_sha256": "895cfc9ac291113451aa1eb232e38c5d5a799e558a971cb81b046fe4a0d07ffe",
-  "approved_snapshot_sha256": "86420aad0051276436c2868bf5c8371eb12943e3cf1b4bde4b59fda3787ad0f7",
-  "approved_rows": 7,
+  "review_date": "2026-10-14",
+  "review_fingerprint": "7b56acad187d64b63dbc38faf73dd3b0de4dbd5e6a665457a60271c45b3ad25d",
+  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
+  "review_csv_sha256": "168ea0b191ffefe0ae3b53e70813add87035f0f8d25ef1033f728278d5767e6c",
+  "summary_md_sha256": "e08def7f1b6358d6f2aa6a5b4b63ad0c7e04e2473478d99e8997799aa3bada55",
+  "approved_snapshot_sha256": "2a084954db084886a2cd15c95f348c9459d5b917bd42fae150cafdc92c9f2303",
+  "approved_rows": 5,
   "approved_job_ids": [
-    "teaching-vacancies-lead-administrator-harry-watts-academy",
-    "teaching-vacancies-administration-assistant-north-durham-academy",
-    "teaching-vacancies-administration-assistant-st-leonard-s-catholic-primary-school-silksworth",
-    "teaching-vacancies-school-support-roles-supervisory-assistant-administrative-assistant",
-    "teaching-vacancies-data-management-administrator-2025-hm084",
-    "teaching-vacancies-administration-assistant-st-anthony-s-girls-catholic-academy",
-    "teaching-vacancies-school-administrator-4b89961d-cc62-4cfa-9732-a8929179b607"
+    "teaching-vacancies-school-office-administrator-northern-saints-church-of-england-academy",
+    "teaching-vacancies-administration-assistant-st-john-bosco-catholic-primary-school-town-end-farm-sunderland",
+    "teaching-vacancies-administrator-student-reception",
+    "teaching-vacancies-administrative-assistant-level-3-north-gosforth-academy-newcastle-upon-tyne-tyne-and-wear",
+    "teaching-vacancies-administration-assistant-trinity-academy-new-bridge-sunderland"
   ]
 }

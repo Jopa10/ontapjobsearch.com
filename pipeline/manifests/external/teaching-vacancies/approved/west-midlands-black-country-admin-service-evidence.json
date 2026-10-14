@@ -1,19 +1,20 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-04T16:48:36+01:00",
+  "generated_at": "2026-10-14T16:50:12+01:00",
   "source": "Teaching Vacancies",
   "region": "West Midlands - Black Country",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-04",
-  "review_fingerprint": "86a5ceacf18242507732c8627b1015164235fcc13a24d5c1c29db80dc28bf2ce",
-  "routing_manifest_sha256": "997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4",
-  "review_csv_sha256": "8d23ef1c9a94e119be7ae530dab24a0a930220344f7017e0fd4bf8b0c034b79a",
-  "summary_md_sha256": "1c455e2b7ec64be7d0b64689af002a78cedbca9fb483165002bcc098d0c603c2",
-  "approved_snapshot_sha256": "87e4eaaf0db2febd0966e713591b55f8958927a1bddb5b8134f6f20bd75f54f7",
-  "approved_rows": 2,
+  "review_date": "2026-10-14",
+  "review_fingerprint": "67d708d731efbaed89a91928b433a0e5c61ed44b347fa99fef53c10b2c790b1a",
+  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
+  "review_csv_sha256": "61d885fdb42f87b1d0bbff8cd0491846cd0a79bc66d3cfc18e82936d29d199e6",
+  "summary_md_sha256": "0979c76559237359738a7503552e1e5aa1a6f03173c40e03f7b1e30e52a5caa4",
+  "approved_snapshot_sha256": "4c7e7256885f162c1e9cbfca850239220217b5702981e79b5d9ddc4b12009e83",
+  "approved_rows": 3,
   "approved_job_ids": [
-    "teaching-vacancies-administration-assistant-west-bromwich-collegiate-academy",
-    "teaching-vacancies-attendance-officer-ormiston-sandwell-community-academy-oldbury-west-midlands"
+    "teaching-vacancies-school-receptionist-new-leaf-school",
+    "teaching-vacancies-reception-secretary-ec1c05c3-72a7-428c-9317-7e034cf6f8cf",
+    "teaching-vacancies-administration-assistant-5668d12d-a90d-4f94-85ad-7747c1489e75"
   ]
 }

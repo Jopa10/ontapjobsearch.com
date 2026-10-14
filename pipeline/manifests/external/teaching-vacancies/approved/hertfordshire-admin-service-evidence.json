@@ -1,25 +1,20 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-04T16:48:33+01:00",
+  "generated_at": "2026-10-14T16:50:09+01:00",
   "source": "Teaching Vacancies",
   "region": "Hertfordshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-04",
-  "review_fingerprint": "6806944d5be5ad862affc140fd55c8d3d3f2c91f9c7f2123f3419184276d7493",
-  "routing_manifest_sha256": "997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4",
-  "review_csv_sha256": "189199be80177aa0ee8c2e978b33474fba4c26e83871689162af60e626544c0f",
-  "summary_md_sha256": "058c99feb9d834a0a5c822e9a89949643f8adf477cc36443caa2da0175341114",
-  "approved_snapshot_sha256": "e2c6ce8dc480d204638513daa785d8126b1b845a4cf44301615a8efc719a8724",
-  "approved_rows": 8,
+  "review_date": "2026-10-14",
+  "review_fingerprint": "caa66f5b0b451eb744591c9e8a90b13a3ff7a6e7fc7aca59718aa7a084c71465",
+  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
+  "review_csv_sha256": "074524933a8b64e157544f3eec88cfe95b7b47a8d05a49e12e486340b710ec42",
+  "summary_md_sha256": "47fb5d9fe425bebee9bc269eb5f4a886028a2350eef042dd187a4f90a87b73fc",
+  "approved_snapshot_sha256": "ee97b05608a9a21f842bbd264990568b4ed580c2cd27c8b6641acd6d31c6f7f0",
+  "approved_rows": 3,
   "approved_job_ids": [
-    "teaching-vacancies-cover-administrator-supervisor",
-    "teaching-vacancies-database-and-admissions-administrator-simon-balle-all-through-school",
-    "teaching-vacancies-administrator-ludwick-nursery-school",
-    "teaching-vacancies-office-administrator-petersfield-cofe-aided-primary-school",
-    "teaching-vacancies-office-administrator-forres-primary-academy",
-    "teaching-vacancies-reception-administrator-first-aider",
+    "teaching-vacancies-finance-and-reception-administrator-part-time",
     "teaching-vacancies-part-time-admin-assistant-oxhey-wood-primary-school",
-    "teaching-vacancies-attendance-administrator-the-astley-cooper-school-hemel-hempstead-hertfordshire"
+    "teaching-vacancies-headteacher-s-personal-assistant-chancellor-s-school"
   ]
 }

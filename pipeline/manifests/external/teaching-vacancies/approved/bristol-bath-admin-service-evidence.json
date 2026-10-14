@@ -1,19 +1,18 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-04T16:48:30+01:00",
+  "generated_at": "2026-10-14T16:50:07+01:00",
   "source": "Teaching Vacancies",
   "region": "Bristol & Bath",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-04",
-  "review_fingerprint": "444474056f7b46305805c7d6a42ff6c05a9db6b68ad9029408d6a0fdb420109f",
-  "routing_manifest_sha256": "997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4",
-  "review_csv_sha256": "0c50eaf02e36d9b59a3fccdcf92c13bdeb89b2a452f2a6181ec8cd444383c9a3",
-  "summary_md_sha256": "06ca7f357c37fb9474689b1ed198417f8f82c2054cdc214cc6dd6a8d97cd83ab",
-  "approved_snapshot_sha256": "c99954d932988faa5ac01e2fdc4f508825b9c3a26af54775ffba28be1bd78aee",
-  "approved_rows": 2,
+  "review_date": "2026-10-14",
+  "review_fingerprint": "439941bb2c29b2254aaccfd6f58e4f22a86d55e808773f52cd38a41611647c58",
+  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
+  "review_csv_sha256": "cf468e763be63d07b7a8d6562acc2f78fcef88c318ec22affa07c9dbef53f1d6",
+  "summary_md_sha256": "57f4699b119f59b86f5e5a76a627a37a3d259e986af353d385e36a959f3f5b9a",
+  "approved_snapshot_sha256": "aa05f46d4823b2a612d95fb7196d30cb0bcf83788b5790e5f71a078ab0b7af02",
+  "approved_rows": 1,
   "approved_job_ids": [
-    "teaching-vacancies-administrator-fosse-way-school-bath-somerset",
-    "teaching-vacancies-school-administrator-north-star-265"
+    "teaching-vacancies-exams-officer-downend-school-bristol"
   ]
 }

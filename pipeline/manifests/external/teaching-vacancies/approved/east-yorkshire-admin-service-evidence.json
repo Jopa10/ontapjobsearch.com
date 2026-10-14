@@ -1,18 +1,18 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-04T16:48:36+01:00",
+  "generated_at": "2026-10-14T16:50:13+01:00",
   "source": "Teaching Vacancies",
   "region": "Yorkshire - East",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-04",
-  "review_fingerprint": "a03a18b5cbc62927996c646d799863c8310ad750a0ce8d9134153e8068e91d6f",
-  "routing_manifest_sha256": "997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4",
-  "review_csv_sha256": "fe9b459703e001f08fd5111f28070028ce889e24da0add49d31d20bb85297925",
-  "summary_md_sha256": "b04382a71200ce619e9a1f603d2069404309bb3a8e7850fdbbad940248c8447f",
-  "approved_snapshot_sha256": "d7efee0a602f5ae96f77e458c56e174ed7cabfac672f6a0cf276a70aad9e2c45",
+  "review_date": "2026-10-14",
+  "review_fingerprint": "bd6a25294b11908ae41fcd23136c430c9a9ea172bff2acb4f90a4285bcd21100",
+  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
+  "review_csv_sha256": "6e4710bc7306837681bc5b4072bcded2ac1b83904463256ed0316af721382614",
+  "summary_md_sha256": "12f0f6a3b8ade71c04f1ea072234e282dcf97f3f2561e5fb4bc3c6a5c25dcc59",
+  "approved_snapshot_sha256": "89356f8ba4f7431bcee6a6030c971886e9333b394063906b036e057b28ce8e09",
   "approved_rows": 1,
   "approved_job_ids": [
-    "teaching-vacancies-office-administrator-student-services-reprographics"
+    "teaching-vacancies-receptionist-cover-coordinator-sirius-academy-north"
   ]
 }

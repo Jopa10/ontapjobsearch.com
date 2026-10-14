@@ -1,19 +1,21 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-04T16:48:36+01:00",
+  "generated_at": "2026-10-14T16:50:13+01:00",
   "source": "Teaching Vacancies",
   "region": "Wiltshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-04",
-  "review_fingerprint": "fa43e516d45381ee1ba40656f9c778b0eb50c53ac51fb8add74a002098e82c8e",
-  "routing_manifest_sha256": "997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4",
-  "review_csv_sha256": "640d25273175cf6a55ae187af0c005c5792e0d535e5503c06c0d02290eb1dba0",
-  "summary_md_sha256": "f8847cefe15692aa5338b07aed2c1ade71fb4eefe30e88ab49c30e00cd6c320e",
-  "approved_snapshot_sha256": "a2d3dda61ec30f22d7442acb44cb3ff604e53892436d29b38bd7c85e9e80bcd7",
-  "approved_rows": 2,
+  "review_date": "2026-10-14",
+  "review_fingerprint": "298ddb57719ec5501fccaea5ec5ffd926fdc3e4e1ca68f5a0f1d899e28c243ff",
+  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
+  "review_csv_sha256": "54a9f064f5c9e794dbf9b5548d4fea836c9094445e9865e39a06912e677b974b",
+  "summary_md_sha256": "06431a9609885c3ad8e993fe337575e423b744735dd9e203aa97ff81dbca124b",
+  "approved_snapshot_sha256": "75ee33b75baf7a33aee0fb7e229ee0deaf8bc586fc3d59b0cc90c05cae25250a",
+  "approved_rows": 4,
   "approved_job_ids": [
-    "teaching-vacancies-admin-assistant-and-teachers-personal-assistant",
-    "teaching-vacancies-pastoral-administrator-melksham-oak-community-school"
+    "teaching-vacancies-attendance-officer-686fafdf-6fc7-4a4c-ab8f-87001b20de78",
+    "teaching-vacancies-office-administrator-5725eac8-39d6-4276-82f4-79f7dd232e3d",
+    "teaching-vacancies-administrative-assistant-181abc61-ea48-424a-9686-308bb273394d",
+    "teaching-vacancies-school-nursery-administrator-liden-academy"
   ]
 }

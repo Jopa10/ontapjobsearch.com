@@ -1,20 +1,19 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-04T16:48:34+01:00",
+  "generated_at": "2026-10-14T16:50:11+01:00",
   "source": "Teaching Vacancies",
   "region": "Northamptonshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-04",
-  "review_fingerprint": "7512c1f4bbd3ace958b650cc5aef930144b2d911888c85ef049c4ec7497cc839",
-  "routing_manifest_sha256": "997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4",
-  "review_csv_sha256": "51421cc2c270c2f79ae014beac71189d17eda857fa47a21247d9d8feafc40817",
-  "summary_md_sha256": "04acde97ff5a9bd1fac11acac5aa21ffc34c66c232bede5f01dc060630be9357",
-  "approved_snapshot_sha256": "7afee789d69bc886df97856aff1aa02afca475bbdc34a6aba9a23950c379c3d8",
-  "approved_rows": 3,
+  "review_date": "2026-10-14",
+  "review_fingerprint": "813faa96a50ea2beda2450c071a849a98a71049038fb8f48547acde05f9b26c6",
+  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
+  "review_csv_sha256": "fb8fdc4809460e87a5ee107f73e5316884d326c33a4bf0002d37d462d1e2d326",
+  "summary_md_sha256": "da94f2d92531d4c1b625d285c8e071d99d1d38407d5d3ca0f9e0b3d29c747a93",
+  "approved_snapshot_sha256": "ad903c1e1d33cd4b408af477d1498d1dca0bc1566daec1e19987cef2ba8d873d",
+  "approved_rows": 2,
   "approved_job_ids": [
-    "teaching-vacancies-administrator-caroline-chisholm-school-northampton-northamptonshire",
-    "teaching-vacancies-receptionist-guilsborough-academy",
-    "teaching-vacancies-administrator-welford-sibbertoft-and-sulby-endowed-school-northampton-northamptonshire"
+    "teaching-vacancies-academy-administrator-lodge-park-academy",
+    "teaching-vacancies-designated-specialist-provision-dsp-admin-assistant-moulton-school-and-science-college-northampton-northamptonshire"
   ]
 }

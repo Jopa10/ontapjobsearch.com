@@ -22,9 +22,56 @@
     "working_arrangement": "onsite_or_not_stated",
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
-    "advertiser_name": "Finham Park 2",
-    "advertiser_type": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-administrative-assistant-finham-park-2",
+    "title": "Administrative Assistant",
+    "company": "Finham Park 2",
+    "location": "Coventry",
+    "region": "West Midlands - Coventry & Warwickshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£26,016.00 - £27,274.00 Annually (FTE) GRADE 3 , Actual Salary £22575- £23667",
+    "work_pattern": "",
+    "posted_date": "2026-10-09",
+    "closing_date": "2026-11-02",
+    "closing_datetime": "2026-11-02T09:00:00+00:00",
+    "summary": "Administrative Assistant with Finham Park 2 in Coventry. ['full time']; £26,016.00 - £27,274.00 Annually (FTE) GRADE 3 , Actual Salary £22575- £23667.",
+    "description": "Finham Park 2 is recruiting for this vacancy in Coventry.\n\nThe advertised position is Administrative Assistant.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £26,016.00 - £27,274.00 Annually (FTE) GRADE 3 , Actual Salary £22575- £23667.\n\nThe stated application deadline is 2026-11-02T09:00:00+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-finham-park-2?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-receptionist-and-administrator-2-days-per-week",
+    "title": "Receptionist and Administrator (2 days per week)",
+    "company": "Kenilworth School and Sixth Form",
+    "location": "Kenilworth",
+    "region": "West Midlands - Coventry & Warwickshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['part time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£8,672.00 - £8,809.00 Annually (Actual) Band E points 5-6",
+    "work_pattern": "",
+    "posted_date": "2026-10-13",
+    "closing_date": "2026-11-02",
+    "closing_datetime": "2026-11-02T09:00:00+00:00",
+    "summary": "Receptionist and Administrator (2 days per week) with Kenilworth School and Sixth Form in Kenilworth. ['part time']; £8,672.00 - £8,809.00 Annually (Actual) Band E points 5-6.",
+    "description": "Kenilworth School and Sixth Form is recruiting for this vacancy in Kenilworth.\n\nThe advertised position is Receptionist and Administrator (2 days per week).\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £8,672.00 - £8,809.00 Annually (Actual) Band E points 5-6.\n\nThe stated application deadline is 2026-11-02T09:00:00+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administrator-2-days-per-week?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
     "posted_date_basis": "source"
   },
   {
@@ -1144,6 +1191,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5997-26-0002",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1163,6 +1213,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5837-26-0013",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1182,6 +1235,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1546-26-0004",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1201,6 +1257,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0268-26-0030",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

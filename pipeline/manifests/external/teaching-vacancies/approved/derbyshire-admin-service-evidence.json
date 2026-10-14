@@ -1,20 +1,18 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-04T16:48:31+01:00",
+  "generated_at": "2026-10-14T16:50:08+01:00",
   "source": "Teaching Vacancies",
   "region": "Derbyshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-04",
-  "review_fingerprint": "da87716a5a6c004836e59288a88a76f579a40dd6959e1988dd45f567e156f9b2",
-  "routing_manifest_sha256": "997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4",
-  "review_csv_sha256": "af704a4182fa9d358a77d7fd1da7b9797418579fcdfa96a1d88d133a2e13d8cd",
-  "summary_md_sha256": "442891afe976b515b795ac9774689b7ffed8be90bee08a71d29b632e6b4304ba",
-  "approved_snapshot_sha256": "e7ad8a32ddc1b8e0df77f3567d8d3d51bc5b499a0039af7df96445b8614d4704",
-  "approved_rows": 3,
+  "review_date": "2026-10-14",
+  "review_fingerprint": "6562b577b97b57ea787b41ac83f9d98e993f81fa4933462c1fd5a168bb2e2a0a",
+  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
+  "review_csv_sha256": "54dfde1819bb4499a3f6811d06fed5cb3dc64add2bdab84893f174f27a842871",
+  "summary_md_sha256": "46e389111335a2f8845ced77b39e4392c0b3d57b52485ae99c74230cec9a871b",
+  "approved_snapshot_sha256": "a9eef70058208fa54f0030f8217f31ff3b8153b87caa0a2b8ae64ef48fbfd73b",
+  "approved_rows": 1,
   "approved_job_ids": [
-    "teaching-vacancies-receptionist-school-business-assistant-buxton-community-school",
-    "teaching-vacancies-receptionist-ae06e435-9f90-46fa-8916-45549c221789",
-    "teaching-vacancies-administrative-assistant-cover-administrator-the-bolsover-school-chesterfield-derbyshire"
+    "teaching-vacancies-administration-assistant-full-and-part-time-post-available"
   ]
 }

@@ -1,18 +1,21 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-04T16:48:36+01:00",
+  "generated_at": "2026-10-14T16:50:13+01:00",
   "source": "Teaching Vacancies",
   "region": "Yorkshire - North",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-04",
-  "review_fingerprint": "ee2541657b7287b5c0d9f7d063aeb447229fd3f2b7fccc62112a09606590743f",
-  "routing_manifest_sha256": "997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4",
-  "review_csv_sha256": "c1841542603ef71ba2d55665861e974d16c06bfb4cc26343afba8ac6e9d04263",
-  "summary_md_sha256": "907c1a86e40cb73088a7b1089a0bf35e798d426469dcfd6ed93ded372b045eaf",
-  "approved_snapshot_sha256": "916449a612a0ff664cf25147d91936290971f7e508e7887f4646598349d8dc6f",
-  "approved_rows": 1,
+  "review_date": "2026-10-14",
+  "review_fingerprint": "2f20611a05dbed9e3738dc829f53e14a98d7419fba2f78c053778b0c45c50ddd",
+  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
+  "review_csv_sha256": "263c001ceda1edeb4347ad4af79c33ae517ffb6c1b81938c9a4bc634a76e6862",
+  "summary_md_sha256": "96a531c35011e249e13ce002b7eb690a862d102e6aced6f64c49093770e4d3b9",
+  "approved_snapshot_sha256": "310a93f40ac166b04dec73231a1634e6891e82a4aeafb092e25014fe64b87a87",
+  "approved_rows": 4,
   "approved_job_ids": [
-    "teaching-vacancies-administration-assistant-gladstone-road-primary-school-scarborough-north-yorkshire"
+    "teaching-vacancies-assistant-exams-officer-cover-administrator",
+    "teaching-vacancies-school-administrator-saltergate-junior-school-harrogate-north-yorkshire",
+    "teaching-vacancies-senior-administrator-a7025ffa-8f1a-4ca4-8107-74ae6341f075",
+    "teaching-vacancies-send-administrator-george-pindar-school-scarborough"
   ]
 }

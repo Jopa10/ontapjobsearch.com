@@ -1,22 +1,19 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-04T16:48:34+01:00",
+  "generated_at": "2026-10-14T16:50:11+01:00",
   "source": "Teaching Vacancies",
   "region": "Oxfordshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-04",
-  "review_fingerprint": "43b46796a74b2b74c10633888ab19783bc0f2005df8f9d673114e919bb8d5d00",
-  "routing_manifest_sha256": "997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4",
-  "review_csv_sha256": "66d51b0cb17c115f115460aa6be13108b876fe2aae63256392a02067b324b11a",
-  "summary_md_sha256": "568dd454cbe717b1a7b247141323df09fc44fedb32ae08bde228dd85bf55ad03",
-  "approved_snapshot_sha256": "15ac0136969e046dc201797de7ddeada8d8ceb4d08049ae53fd8a4dbbdae22a6",
-  "approved_rows": 5,
+  "review_date": "2026-10-14",
+  "review_fingerprint": "cd7c0eef8e38e2fe714385b6e6fd549418cdfe3d9b2e16666de6100d9fabab4a",
+  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
+  "review_csv_sha256": "54ed67e07fc8c2d0d93f6f094fa9aa3f224e6e3c1dd71a46b138944139fbba36",
+  "summary_md_sha256": "7e3ac9f35e2978d4c6083b317134563e3c55fdc029bffc57a8c3ac5a82241131",
+  "approved_snapshot_sha256": "cfb55bdcf8e63a1d4cf50be6686efdc4cde7cf6d14e0092f716fe45d7bde588f",
+  "approved_rows": 2,
   "approved_job_ids": [
-    "teaching-vacancies-admissions-administrator-larkmead-school",
-    "teaching-vacancies-student-services-administrator-larkmead-school",
-    "teaching-vacancies-administrative-assistant-bampton-cofe-primary-school-bampton-oxfordshire",
-    "teaching-vacancies-attendance-administrator-blessed-george-napier-catholic-school-and-sixth-form",
-    "teaching-vacancies-receptionist-edf1f45d-c1c2-4efe-8319-033977840917"
+    "teaching-vacancies-student-receptionist-and-pastoral-assistant-cheney-school",
+    "teaching-vacancies-inclusion-administrator-1d8857c6-4658-46bb-9bcc-5432cf1ee5cd"
   ]
 }

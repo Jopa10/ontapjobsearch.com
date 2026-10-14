@@ -1,20 +1,20 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-04T16:48:35+01:00",
+  "generated_at": "2026-10-14T16:50:12+01:00",
   "source": "Teaching Vacancies",
   "region": "Surrey",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-04",
-  "review_fingerprint": "80febee55d91cccca15d6863fbdcb5ea9d566098108464e8e45fd2e1c76c0ad0",
-  "routing_manifest_sha256": "997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4",
-  "review_csv_sha256": "504669685377db5c7a1c54540c6332493c24c0a7fbd259837fe3944047017867",
-  "summary_md_sha256": "597d109a8d266ab19a1ba1bea967485d76e31e6c52dc5e69bcdb5fb4c1cc0873",
-  "approved_snapshot_sha256": "b58b4d8da72567e7d50f6a36a8a82a10f1497d47cf47e7603e89fc8dd42786b5",
+  "review_date": "2026-10-14",
+  "review_fingerprint": "8947a28eed5a05a720c4c770a715a37877523a533f186af2bfae36856403be66",
+  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
+  "review_csv_sha256": "7990e4dbaaf887f0d7ffe6be28e80080425d8010a944576066f6663cb78e0d2a",
+  "summary_md_sha256": "debb6b8bbe2870e63f3e77a1d322d8248a3d2bf6351277f9221aa8f8534a0cb6",
+  "approved_snapshot_sha256": "84ce2b8d427efa54590e026f91e66873d518da180dcc1dee16d0eb8c338c1387",
   "approved_rows": 3,
   "approved_job_ids": [
-    "teaching-vacancies-attendance-and-admissions-officer-65b72427-5324-4164-8260-a853358c3381",
-    "teaching-vacancies-office-administrator-294d664c-6dae-452d-b27f-2e380c9b2c7b",
-    "teaching-vacancies-sen-administrator-a73e2173-5c60-48da-8b9b-ca0b2be7c7a6"
+    "teaching-vacancies-attendance-and-admissions-officer-99fe5e07-7ceb-4f8e-990c-280021c94b74",
+    "teaching-vacancies-safeguarding-and-send-administrative-assistant-eastwick-infant-school-leatherhead-surrey",
+    "teaching-vacancies-deputy-examinations-officer-godalming-college-godalming-surrey"
   ]
 }

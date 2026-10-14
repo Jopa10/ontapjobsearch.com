@@ -1,18 +1,19 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-04T16:48:31+01:00",
+  "generated_at": "2026-10-14T16:50:08+01:00",
   "source": "Teaching Vacancies",
   "region": "Cornwall",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-04",
-  "review_fingerprint": "81296e9620b8ffaf2c14b70790360ab0abdbbff5cd5aa384009f52210cade926",
-  "routing_manifest_sha256": "997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4",
-  "review_csv_sha256": "e63d2ec6b56f5ca748ea3a67fef54d4bab0ce2e8a45ae02acc1cf35d16fca1e2",
-  "summary_md_sha256": "1c6edde16da4b0a862a946a7f3320bf2ffac8f6915ad51e2307f79fea4c81fbf",
-  "approved_snapshot_sha256": "079f45d4e484ffe30a212c3fbcbf6241ae0435ca2e0d7bc36ee28cd3ad7135dc",
-  "approved_rows": 1,
+  "review_date": "2026-10-14",
+  "review_fingerprint": "5d4ea87414d9a923019b22610666fa8160b221c1752c4cb60e427818aa3141a9",
+  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
+  "review_csv_sha256": "626041abbac7bf2831be0411d52bbbd926fbc38b4eb3a810fe40e7ae4796ab04",
+  "summary_md_sha256": "2443673aa95a514c9b5d3e1d88f978363f8ceafd390e4021b30ba2d3034d1824",
+  "approved_snapshot_sha256": "dd13afac2f01a88201db90aa24279079075f77d6375358ccdd3cbd97d3fc61d7",
+  "approved_rows": 2,
   "approved_job_ids": [
-    "teaching-vacancies-part-time-attendance-administrator"
+    "teaching-vacancies-year-team-administrator-camborne-science-and-international-academy",
+    "teaching-vacancies-first-aid-administrator-newquay-tretherras"
   ]
 }

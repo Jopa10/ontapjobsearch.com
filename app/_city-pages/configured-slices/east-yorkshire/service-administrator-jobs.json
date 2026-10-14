@@ -1,5 +1,30 @@
 [
   {
+    "job_id": "teaching-vacancies-receptionist-cover-coordinator-sirius-academy-north",
+    "title": "Receptionist/Cover Coordinator",
+    "company": "Sirius Academy North",
+    "location": "Hull",
+    "region": "Yorkshire - East",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£30,515.00 - £33,119.00 Annually (FTE)",
+    "work_pattern": "",
+    "posted_date": "2026-10-08",
+    "closing_date": "2026-10-23",
+    "closing_datetime": "2026-10-23T23:59:00+01:00",
+    "summary": "Receptionist/Cover Coordinator with Sirius Academy North in Hull. ['full time']; £30,515.00 - £33,119.00 Annually (FTE).",
+    "description": "Sirius Academy North is recruiting for this vacancy in Hull.\n\nThe advertised position is Receptionist/Cover Coordinator.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £30,515.00 - £33,119.00 Annually (FTE).\n\nThe stated application deadline is 2026-10-23T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/receptionist-cover-coordinator-sirius-academy-north?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "2055348",
     "title": "Assistant Management Accountant",
     "company": "Edwards & Pearce - Doncaster - Agency - Permanent",
@@ -591,6 +616,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9356-26-0665",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -610,6 +638,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9356-26-0664",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -629,6 +660,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9356-26-0666",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -648,6 +682,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9356-26-0655",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -667,6 +704,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9356-26-0651",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

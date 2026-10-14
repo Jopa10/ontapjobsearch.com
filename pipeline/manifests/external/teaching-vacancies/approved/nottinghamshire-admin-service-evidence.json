@@ -1,22 +1,20 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-04T16:48:34+01:00",
+  "generated_at": "2026-10-14T16:50:11+01:00",
   "source": "Teaching Vacancies",
   "region": "Nottinghamshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-04",
-  "review_fingerprint": "366a60914da5176917dcfd6eef1ec5041e1c8841a5a85eeba30c4b961775f652",
-  "routing_manifest_sha256": "997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4",
-  "review_csv_sha256": "dcc8fca23c4be1451438dda74c91bd2bcb17f78e77b7d6e71a6b76cc91a72b86",
-  "summary_md_sha256": "e46c46deda065a1a5fb285ee6b1c21efb13254c27483a79706f3e37f08782aef",
-  "approved_snapshot_sha256": "7cc9873d96f7eab026326ad92bfac2f823de5b75c0371f94c023cbc7b196c590",
-  "approved_rows": 5,
+  "review_date": "2026-10-14",
+  "review_fingerprint": "11a2c84a06c87d1e631249d0c0fd4feb8ecf9a9f33f86440c80e8a454653aff7",
+  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
+  "review_csv_sha256": "cb623799a378ac39d1ea23747a314a4728202632b6cb33d7818fc414939a78d2",
+  "summary_md_sha256": "e517334dfd1fbcafd476d242ab102626bbb938a0e79b1db28e504edb1b0caf15",
+  "approved_snapshot_sha256": "50032358b4a347e9d5cb2d92d4c4cc24e1044bc105f52be8de346514c707ccf1",
+  "approved_rows": 3,
   "approved_job_ids": [
-    "teaching-vacancies-administrative-assistant-netherfield-primary-school",
-    "teaching-vacancies-sixth-form-administrator-redhill-academy",
-    "teaching-vacancies-senior-administrator-carlton-digby-school-nottingham-nottinghamshire",
-    "teaching-vacancies-administrative-assistant-stanhope-primary-and-nursery-school-nottingham-nottinghamshire",
-    "teaching-vacancies-administration-assistant-queen-elizabeth-s-academy-mansfield-nottinghamshire"
+    "teaching-vacancies-school-administrator-redmile-church-of-england-primary-school",
+    "teaching-vacancies-inclusion-administrator-outwood-academy-kirkby",
+    "teaching-vacancies-office-administrator-and-receptionist-radcliffe-on-trent-junior-school"
   ]
 }

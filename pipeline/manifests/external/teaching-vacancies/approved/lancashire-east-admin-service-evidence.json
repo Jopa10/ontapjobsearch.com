@@ -1,0 +1,18 @@
+{
+  "contract_version": "teaching-vacancies-regional-approved-v1",
+  "generated_at": "2026-10-14T16:50:10+01:00",
+  "source": "Teaching Vacancies",
+  "region": "Lancashire - East",
+  "category": "admin_service",
+  "slice_status": "LIVE",
+  "review_date": "2026-10-14",
+  "review_fingerprint": "698aa078e452f3e9a370b6865d27cf9a98509a18b4c7459d1cde11cebd14eac8",
+  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
+  "review_csv_sha256": "9a02ee727d1ac5c3da5bc69a018be59488c9d5cfe82153c749b7dc4d8370830b",
+  "summary_md_sha256": "ba4439b4c03c57620edd2ace5de1f06797fa87a6eb849bcf733bcaef1855a86c",
+  "approved_snapshot_sha256": "bbd073513b4bc9e494ff769207e0f5ac81babbc8743daaaeb0ee9020d7a0ea33",
+  "approved_rows": 1,
+  "approved_job_ids": [
+    "teaching-vacancies-office-and-admissions-administrator"
+  ]
+}

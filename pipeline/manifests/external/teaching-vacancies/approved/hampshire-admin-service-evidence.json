@@ -1,19 +1,16 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-04T16:48:32+01:00",
+  "generated_at": "2026-10-14T16:50:09+01:00",
   "source": "Teaching Vacancies",
   "region": "Hampshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-04",
-  "review_fingerprint": "d3b0c253ca5d17f03972a5bf093af850e6ab2ace907a3e060e3f0d078d473825",
-  "routing_manifest_sha256": "997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4",
-  "review_csv_sha256": "56c5d9f370f93cb13910788c683edbfcf10474fd651cdc10c97baafe500bc8d4",
-  "summary_md_sha256": "6200cc28a732eb007b48f8ab148843dd07413a09c331f7e5e8382f5244c0cf66",
-  "approved_snapshot_sha256": "a2c4df944094c59f47fbf3fa244a09ef5a9337e06162bdf0f5c9ac4187fdb251",
-  "approved_rows": 2,
-  "approved_job_ids": [
-    "teaching-vacancies-administrative-assistant-thursdays-and-fridays",
-    "teaching-vacancies-receptionist-maternity-cover-the-blue-coat-school-basingstoke"
-  ]
+  "review_date": "2026-10-14",
+  "review_fingerprint": "293e5a7fa7dfde2cfdaa5cfc37631cdac0b153edf193556b0e6fac53118c080f",
+  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
+  "review_csv_sha256": "58a7e531a7076c3a4e76ae7c9c5d39ac575a63b59318460e6d4d5fb155a21a24",
+  "summary_md_sha256": "3733761e6bb096326c52cb23537a599edc3c6cf1f941848efffc937091e7c7a9",
+  "approved_snapshot_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "approved_rows": 0,
+  "approved_job_ids": []
 }

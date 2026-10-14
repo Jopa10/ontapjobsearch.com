@@ -1,22 +1,22 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-04T16:48:31+01:00",
+  "generated_at": "2026-10-14T16:50:08+01:00",
   "source": "Teaching Vacancies",
   "region": "Essex",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-04",
-  "review_fingerprint": "07b90519a022002e84be9688aa1950e0d2151dd5c97c72ea1ae6fbf2e51fc6f1",
-  "routing_manifest_sha256": "997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4",
-  "review_csv_sha256": "cb994ce17ad95d0aa1d578e1f89f1e84f48f8ba9c12e770e18fe09ebca8670c3",
-  "summary_md_sha256": "081b73acc46a984976c12e91a2f0e3afff5b71822a0ccdb40a7d3c43e81821ea",
-  "approved_snapshot_sha256": "213d298fd2687e970fdb30e054aabaf0969a1c966b6d966dc67017c38c305fe9",
+  "review_date": "2026-10-14",
+  "review_fingerprint": "7adb2f12f139fdef914a841611d58662bb55e659924ef4d03745e2ba097886a0",
+  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
+  "review_csv_sha256": "6172ad3223d7d73fc040b7787837601c0c0bb20f5df661c6331575f3d0c2fe86",
+  "summary_md_sha256": "f1aeae53e586813115337e42629497053e315e130cd9eb24146f3c6c60863c1f",
+  "approved_snapshot_sha256": "017dc6444496e762ff870d21272fc1eca2f1f9b5b2bf0d4f86caec68a1742eed",
   "approved_rows": 5,
   "approved_job_ids": [
-    "teaching-vacancies-receptionist-little-thurrock-primary-school",
-    "teaching-vacancies-attendance-and-send-administrator-with-midday-assistant-role-included",
     "teaching-vacancies-administration-assistant-great-totham-primary-school",
-    "teaching-vacancies-receptionist-brentwood-county-high-school",
-    "teaching-vacancies-administration-assistant-d4c71f58-82f8-447e-966b-f065379eaa99"
+    "teaching-vacancies-receptionist-the-eastwood-academy",
+    "teaching-vacancies-send-administrative-assistant-greenways-primary-school",
+    "teaching-vacancies-administration-assistant-d4c71f58-82f8-447e-966b-f065379eaa99",
+    "teaching-vacancies-admin-assistant-buckhurst-hill-community-primary-school"
   ]
 }

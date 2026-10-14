@@ -1,23 +1,22 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-04T16:48:33+01:00",
+  "generated_at": "2026-10-14T16:50:10+01:00",
   "source": "Teaching Vacancies",
   "region": "Norfolk",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-04",
-  "review_fingerprint": "584053ad22514993bf0aeeaec0d44edd48c9411479fa3c6018ec5741787f9158",
-  "routing_manifest_sha256": "997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4",
-  "review_csv_sha256": "452cac6f7b107a052d2941c4e8d133b9809139efb5c2c70a390bb39e5c63c445",
-  "summary_md_sha256": "539403986b31b87b59cdc74eccddbd26bbf15aba76d2ee46ee30cca2916d7282",
-  "approved_snapshot_sha256": "a928121f6718d4cae7bf9f2c15139f4eabd57f298e056f863406c595ebf2b8ef",
-  "approved_rows": 6,
+  "review_date": "2026-10-14",
+  "review_fingerprint": "aa6e9a27ca6009b3ab177a861db291799f9ae55f023d890de8b0f4bb305afacc",
+  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
+  "review_csv_sha256": "4d20bf91ad051802124fd5aa7ca2ad7bbf355ec73ad2ffdf667367b6348bdffb",
+  "summary_md_sha256": "400b364a4520568c3e70e81fef57b801a507353531c77327055fde76b5949d20",
+  "approved_snapshot_sha256": "8e1afae540ea34ba0502b122818dc34607d91339110553b6c60d7a336bbdfb3b",
+  "approved_rows": 5,
   "approved_job_ids": [
-    "teaching-vacancies-administration-assistant-with-attendance-officer-responsibilities",
-    "teaching-vacancies-school-secretary-the-bishop-s-church-of-england-primary-academy",
-    "teaching-vacancies-administration-assistant-8b4b0d9f-5aef-4920-bca2-851d2222cd88",
     "teaching-vacancies-administration-assistant-great-yarmouth-primary-academy-and-nursery",
-    "teaching-vacancies-administrator-parkway-academy",
-    "teaching-vacancies-attendance-officer-0493d912-bc9a-4b94-82de-5beddc58546b"
+    "teaching-vacancies-attendance-officer-0493d912-bc9a-4b94-82de-5beddc58546b",
+    "teaching-vacancies-senior-academy-administrator-caister-academy-great-yarmouth-norfolk",
+    "teaching-vacancies-attendance-administrator-downham-market-academy",
+    "teaching-vacancies-personal-assistant-to-the-headteacher-old-buckenham-high-school"
   ]
 }

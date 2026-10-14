@@ -1,0 +1,21 @@
+{
+  "contract_version": "teaching-vacancies-regional-approved-v1",
+  "generated_at": "2026-10-14T16:50:09+01:00",
+  "source": "Teaching Vacancies",
+  "region": "Greater Manchester - North",
+  "category": "admin_service",
+  "slice_status": "LIVE",
+  "review_date": "2026-10-14",
+  "review_fingerprint": "704f496d020c93b164d7d43175b9a2870a29ad30bd5bdd9ae210794fc5692fed",
+  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
+  "review_csv_sha256": "e89d05f3c09ee1d8e86ecb7f6f0c997a786bf45eb48a2f744fb4d316cc3a570c",
+  "summary_md_sha256": "00fe386540e9e637eb788f7c6ba770ae9f8123af441c0bd2252a1ef0aa0c50ca",
+  "approved_snapshot_sha256": "8860bca81b13dd79c9eb71c914e93271d69699ba228b840f77b3e2a0e9a27b76",
+  "approved_rows": 4,
+  "approved_job_ids": [
+    "teaching-vacancies-administration-assistant-level-2-st-patrick-s-roman-catholic-primary-school",
+    "teaching-vacancies-business-support-officer-oulder-hill-leadership-academy-rochdale-lancashire",
+    "teaching-vacancies-business-support-officer-send",
+    "teaching-vacancies-office-administrator-c5d744ea-573f-4ae3-a99f-6ef11866ee72"
+  ]
+}

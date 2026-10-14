@@ -1,19 +1,20 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-04T16:48:34+01:00",
+  "generated_at": "2026-10-14T16:50:11+01:00",
   "source": "Teaching Vacancies",
   "region": "Shropshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-04",
-  "review_fingerprint": "cf15bd717a6c2ea2e44d52dceaaf3766209af448d6ccb29e7ea4e6b0e4598f98",
-  "routing_manifest_sha256": "997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4",
-  "review_csv_sha256": "70c81a5fb37d703aadf4a754858522caca28b4e11ef1e97c04528da460793b78",
-  "summary_md_sha256": "c151118df2ad4eb9ad22bda94970575230799d3111b0551bc1251e65cd2e9b0b",
-  "approved_snapshot_sha256": "5b5a27815739fb64fbcf5ac787ccdea619a2711f5546c31c19d4e0dfbcaa09d7",
-  "approved_rows": 2,
+  "review_date": "2026-10-14",
+  "review_fingerprint": "f444900ea47c322ec9f4e1f1e484c2fb5142ba0abde5ced5c4662712b2b3998a",
+  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
+  "review_csv_sha256": "0f6f0abea3cfa9f9570dd4816c7b5bb1dc4fc0535a17c8fe33ce0d8b2808339d",
+  "summary_md_sha256": "4a9da9c3aa89a5e6ef3bc5c96cee4669cdf357eefb527f362251d13a0b3d0c8d",
+  "approved_snapshot_sha256": "58a4025b74aa3cebfe445b8ad126426d83827a8cef477a72f9fec5d49243949d",
+  "approved_rows": 3,
   "approved_job_ids": [
-    "teaching-vacancies-finance-admin-assistant-beech-grove-primary-school",
-    "teaching-vacancies-senco-and-safeguarding-admin-assistant-hlta-position"
+    "teaching-vacancies-administrative-assistant-reprographics-student-services",
+    "teaching-vacancies-reception-administrator-windmill-primary-school",
+    "teaching-vacancies-administrative-assistant-radbrook-primary-school"
   ]
 }

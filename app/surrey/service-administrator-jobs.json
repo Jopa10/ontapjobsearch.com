@@ -1,5 +1,80 @@
 [
   {
+    "job_id": "teaching-vacancies-attendance-and-admissions-officer-99fe5e07-7ceb-4f8e-990c-280021c94b74",
+    "title": "Attendance and Admissions Officer",
+    "company": "Danetree Primary School",
+    "location": "Epsom",
+    "region": "Surrey",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time', 'part time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "Specialist - £28,009 FTE (Actual - £16,733.32)",
+    "work_pattern": "",
+    "posted_date": "2026-10-13",
+    "closing_date": "2026-11-01",
+    "closing_datetime": "2026-11-01T23:59:59+00:00",
+    "summary": "Attendance and Admissions Officer with Danetree Primary School in Epsom. ['full time', 'part time']; Specialist - £28,009 FTE (Actual - £16,733.32).",
+    "description": "Danetree Primary School is recruiting for this vacancy in Epsom.\n\nThe advertised position is Attendance and Admissions Officer.\n\nThe source lists the employment type as ['full time', 'part time'].\n\nThe advertised salary or pay scale is Specialist - £28,009 FTE (Actual - £16,733.32).\n\nThe stated application deadline is 2026-11-01T23:59:59+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admissions-officer-99fe5e07-7ceb-4f8e-990c-280021c94b74?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-safeguarding-and-send-administrative-assistant-eastwick-infant-school-leatherhead-surrey",
+    "title": "Safeguarding and SEND Administrative Assistant",
+    "company": "Eastwick Infant School",
+    "location": "Leatherhead",
+    "region": "Surrey",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['part time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£25,940.00 - £28,220.00 Annually (FTE) P4 - £12337 - £13422pa (actual)",
+    "work_pattern": "",
+    "posted_date": "2026-07-02",
+    "closing_date": "2026-11-01",
+    "closing_datetime": "2026-11-01T23:59:00+00:00",
+    "summary": "Safeguarding and SEND Administrative Assistant with Eastwick Infant School in Leatherhead. ['part time']; £25,940.00 - £28,220.00 Annually (FTE) P4 - £12337 - £13422pa (actual).",
+    "description": "Eastwick Infant School is recruiting for this vacancy in Leatherhead.\n\nThe advertised position is Safeguarding and SEND Administrative Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £25,940.00 - £28,220.00 Annually (FTE) P4 - £12337 - £13422pa (actual).\n\nThe stated application deadline is 2026-11-01T23:59:00+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/safeguarding-and-send-administrative-assistant-eastwick-infant-school-leatherhead-surrey?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "teaching-vacancies-deputy-examinations-officer-godalming-college-godalming-surrey",
+    "title": "Deputy Examinations Officer",
+    "company": "Godalming College",
+    "location": "Godalming",
+    "region": "Surrey",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "['full time']",
+    "salary_min": "",
+    "salary_max": "",
+    "salary_text": "£39,075.00 - £40,238.00 Annually (Actual) The salary for this role is based on Scale SS7 of the Godalming College Support Staff pay scale which is currently £39,075 – £40,238 per annum inclusive of fringe",
+    "work_pattern": "",
+    "posted_date": "2026-10-09",
+    "closing_date": "2026-11-02",
+    "closing_datetime": "2026-11-02T09:00:00+00:00",
+    "summary": "Deputy Examinations Officer with Godalming College in Godalming. ['full time']; £39,075.00 - £40,238.00 Annually (Actual) The salary for this role is based on Scale SS7 of the Godalming College Support Staff pay scale which is currently £39,075 – £40,238 per annum inclusive of fringe.",
+    "description": "Godalming College is recruiting for this vacancy in Godalming.\n\nThe advertised position is Deputy Examinations Officer.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £39,075.00 - £40,238.00 Annually (Actual) The salary for this role is based on Scale SS7 of the Godalming College Support Staff pay scale which is currently £39,075 – £40,238 per annum inclusive of fringe.\n\nThe stated application deadline is 2026-11-02T09:00:00+00:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
+    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/deputy-examinations-officer-godalming-college-godalming-surrey?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
+    "source": "Teaching Vacancies",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "2088376",
     "title": "Digital Marketing Coordinator",
     "company": "VIA MATCH LIMITED - Agency - Permanent",
@@ -2041,6 +2116,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2942",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2060,6 +2138,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2941",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2079,6 +2160,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2935",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2098,6 +2182,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9151-26-1287",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2117,6 +2204,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5632-26-0001",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2136,6 +2226,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3024-26-0002",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2155,6 +2248,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5057-26-0011",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

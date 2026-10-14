@@ -1,21 +1,20 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-04T16:48:33+01:00",
+  "generated_at": "2026-10-14T16:50:09+01:00",
   "source": "Teaching Vacancies",
   "region": "Kent",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-04",
-  "review_fingerprint": "4d659c7b34227a4fb880db417d9ed1a942cea96e9ff77cb023bbe133eaf8b127",
-  "routing_manifest_sha256": "997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4",
-  "review_csv_sha256": "b50551fabc4e7c714841e7d2162fe6d5feb890128de11fef814ee0f28cbebba2",
-  "summary_md_sha256": "ac62eed79c1b96580560ee4f44e84fc0d95a4f3c71c53be9852b895ed630d76f",
-  "approved_snapshot_sha256": "fda05a02e936e45074f568653544ae3472cd19d3f792069d0dcda840f26e7134",
-  "approved_rows": 4,
+  "review_date": "2026-10-14",
+  "review_fingerprint": "c35638b42d08af4e2f864f48854f75a2629727e32c27d0297115a2db91b5208b",
+  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
+  "review_csv_sha256": "fb0b33205605605149ebeb4846641d1bd7b38656c99085a398b94ca354c6d8e1",
+  "summary_md_sha256": "fccda14223d65d9c895bdcaa4c1b4338a404a88bc0662975d8d2af2935576620",
+  "approved_snapshot_sha256": "b9ad85ed28702aa31c9b490ece98997075f8ae1d99b0cbf49c9a99c19d27c645",
+  "approved_rows": 3,
   "approved_job_ids": [
-    "teaching-vacancies-curriculum-administrator-north-kent-college",
-    "teaching-vacancies-pupil-records-administrator-parkwood-hall-academy-trust-swanley-kent",
-    "teaching-vacancies-admin-assistant-gordons-children-s-academy-junior",
-    "teaching-vacancies-administrative-assistant-hillview-school-for-girls-tonbridge-kent"
+    "teaching-vacancies-pa-to-headteacher-stone-lodge-school-dartford-kent",
+    "teaching-vacancies-senior-administrator-royal-rise-primary-school",
+    "teaching-vacancies-examinations-admissions-officer-waterfront-utc"
   ]
 }

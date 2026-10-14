@@ -1,18 +1,21 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-04T16:48:33+01:00",
+  "generated_at": "2026-10-14T16:50:10+01:00",
   "source": "Teaching Vacancies",
   "region": "Leicestershire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-04",
-  "review_fingerprint": "a36e729dfcd15fe5f9a1098375768959ff20ba46133bd17e2dbfb8b69ebd209e",
-  "routing_manifest_sha256": "997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4",
-  "review_csv_sha256": "bb86f75247475866ca3715fb5800e61ab9853e2ce457145038703c0fa03c8c2c",
-  "summary_md_sha256": "8d29d29167eb5f349112c4b966714a4382036c4101161d906700fbabf23b695b",
-  "approved_snapshot_sha256": "164693dd95a8124ea48d2fbbadebaa17601d147c677d0e7f3dcec11aefc97bdf",
-  "approved_rows": 1,
+  "review_date": "2026-10-14",
+  "review_fingerprint": "3ea128a4c3a4dcd40fa82de033026ba006ee24d21cf154227bf547f2034dd63c",
+  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
+  "review_csv_sha256": "82110f6ad7573c1b92f8ecde391fea74c50e07ff44842a92c3a7b7bc331b5f45",
+  "summary_md_sha256": "c4ebb0355f8ddeeacd5dbede55c50d855b74e59f205ee7b5eb64eb5684e30d89",
+  "approved_snapshot_sha256": "13577857e0d200a2cb873ea0140f985073c03fa97939f46e68d8457484651b86",
+  "approved_rows": 4,
   "approved_job_ids": [
-    "teaching-vacancies-key-stage-administrator"
+    "teaching-vacancies-key-stage-administrator",
+    "teaching-vacancies-pa-to-the-principal-06799846-251b-4b2c-bb1a-eb129a5f5011",
+    "teaching-vacancies-student-services-administrator-b483b3bc-5d81-42ee-be3a-16ed93deb17d",
+    "teaching-vacancies-school-administrator-loughborough-church-of-england-primary-school-loughborough-leicestershire"
   ]
 }

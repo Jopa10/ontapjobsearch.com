@@ -1,23 +1,20 @@
 {
   "contract_version": "teaching-vacancies-regional-approved-v1",
-  "generated_at": "2026-10-04T16:48:36+01:00",
+  "generated_at": "2026-10-14T16:50:13+01:00",
   "source": "Teaching Vacancies",
   "region": "West Midlands - Coventry & Warwickshire",
   "category": "admin_service",
   "slice_status": "LIVE",
-  "review_date": "2026-10-04",
-  "review_fingerprint": "958737d95aaeca3c8d3656dee17b02af67f21987f5913856ec88f73367ba5ac7",
-  "routing_manifest_sha256": "997468eb9b1558af4f7fd6ac62b9fc1d949c87dc5035aab145e75234eebce9d4",
-  "review_csv_sha256": "5cf6944c63a7952749879c70b3fcb2a533ce7917487a7113617e19cc3f9335ec",
-  "summary_md_sha256": "37bf5138d685f7f3e393c792e1ccdb38d193690cb96363f5f0b72b2a92ddd753",
-  "approved_snapshot_sha256": "089d614ee04abedb991ca057945604b50f425c1799a7cbc0cfad65e42f571885",
-  "approved_rows": 6,
+  "review_date": "2026-10-14",
+  "review_fingerprint": "a0031ed9e92b00355752f88a3116f8c438dc96229e51446e337b5dea02ac2780",
+  "routing_manifest_sha256": "980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d",
+  "review_csv_sha256": "5463a1f1b83ed30b450626abaf59387fa8e76d2eee8da44d08a2eb8ccc171238",
+  "summary_md_sha256": "0412425cfaf69d5680d36cb14f4518c17470289a0bd639f0d0cf0a09dd1c903f",
+  "approved_snapshot_sha256": "37b2c8c3247d1ea4355549eeda05b37117b62716ec568e120671f66b88ac9dd4",
+  "approved_rows": 3,
   "approved_job_ids": [
-    "teaching-vacancies-receptionist-administrator-shipston-high-school",
-    "teaching-vacancies-pa-to-principal-the-queen-elizabeth-academy-atherstone-warwickshire",
-    "teaching-vacancies-administration-assistant-stretton-church-of-england-academy-coventry-west-midlands",
-    "teaching-vacancies-administration-assistant-oak-wood-primary-school",
-    "teaching-vacancies-exams-officer-barr-s-hill-school",
-    "teaching-vacancies-administrative-assistant-data-finham-park-2"
+    "teaching-vacancies-administrative-assistant-data-finham-park-2",
+    "teaching-vacancies-administrative-assistant-finham-park-2",
+    "teaching-vacancies-receptionist-and-administrator-2-days-per-week"
   ]
 }
