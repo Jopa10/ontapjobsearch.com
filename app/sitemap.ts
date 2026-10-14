@@ -4,7 +4,8 @@ import {
   getCityPageJobs,
   isCityPageActive,
 } from '@/lib/city-page-data'
-import { getJobPath, getPublishedJobs } from '@/lib/published-jobs'
+import { getJobPath } from '@/lib/job-path'
+import { getPublishedJobs } from '@/lib/published-jobs'
 import { getPublishedDynamicSlices } from '@/lib/configured-job-slices'
 import { broadCityDefinitions, getBroadCityJobs } from '@/lib/broad-city-pages'
 
