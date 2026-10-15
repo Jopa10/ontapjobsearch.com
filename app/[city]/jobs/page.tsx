@@ -10,6 +10,7 @@ import {
   getRegionSearchPath,
 } from '@/lib/broad-city-pages';
 import { getJobPath } from '@/lib/job-path';
+import { getJobPageStatus } from '@/config/job-page-status';
 
 const siteUrl = 'https://www.ontapjobsearch.com';
 
@@ -25,8 +26,8 @@ export async function generateMetadata({ params }: { params: Promise<{ city: str
   if (!city) return {};
   const canonical = `${siteUrl}${city.route}`;
   return {
-    title: `${city.display_name} Jobs | Current Vacancies | Ontap Job Search`,
-    description: `Browse current jobs in ${city.display_name} across all live Ontap job categories, with direct employer application links.`,
+    title: `Jobs in ${city.display_name} | Current Vacancies | Ontap`,
+    description: `Browse current jobs in ${city.display_name}.`,
     alternates: { canonical },
   };
 }
@@ -37,6 +38,7 @@ export default async function BroadCityPage({ params }: { params: Promise<{ city
   if (!city) notFound();
   const { exact, nearby } = getBroadCityJobs(city);
   const regionPath = getRegionSearchPath(city.region);
+  const latestUpdate = getJobPageStatus(city.route.slice(1));
   const breadcrumbs = [
     { name: 'Home', item: `${siteUrl}/` },
     { name: 'Jobs', item: `${siteUrl}/browse-jobs` },
@@ -53,9 +55,9 @@ export default async function BroadCityPage({ params }: { params: Promise<{ city
     {
       '@context': 'https://schema.org',
       '@type': 'CollectionPage',
-      name: `${city.display_name} Jobs`,
+      name: `Jobs in ${city.display_name}`,
       url: `${siteUrl}${city.route}`,
-      description: `Current vacancies in ${city.display_name} across all live Ontap job categories.`,
+      description: `Browse current jobs in ${city.display_name}.`,
       isPartOf: { '@type': 'WebSite', name: 'Ontap Job Search', url: siteUrl },
     },
     {
@@ -80,8 +82,10 @@ export default async function BroadCityPage({ params }: { params: Promise<{ city
 
       <h1 className="text-3xl font-bold tracking-tight text-gray-950 sm:text-4xl">Jobs in {city.display_name}</h1>
       <p className="mt-3 max-w-3xl text-base leading-7 text-gray-600">
-        Current vacancies in {city.display_name} across all live job categories and providers. Jobs are refreshed daily and applications go to the employer site.
+        Browse current jobs in {city.display_name}.
       </p>
+
+      <p className="mt-2 text-sm text-gray-500">{latestUpdate}</p>
 
       <div className="mt-5"><SavedLocationJobs /></div>
 
