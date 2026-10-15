@@ -2,15 +2,51 @@
 
 review_date: 2026-10-15
 
-- Open Administrative & Clerical rows reviewed: 2247
+- Open Administrative & Clerical rows reviewed: 2249
 - Auto/remembered selected: 389
 - Selected HC Tier A: 206
 - Selected HC Tier B: 183
-- POSS awaiting decision: 1758
+- POSS awaiting decision: 1760
 - Excluded: 0
 - HARD_PASS: 100
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | West Midlands - Birmingham & Solihull | Birmingham, B9 5PU | £25272.00 to £25272.00 | Band 2 Administrator/ Coordinator- Appointment Centre
+source_job_id: 5665222
+title: Band 2 Administrator/ Coordinator- Appointment Centre
+employer: University Hospitals Birmingham NHS Foundation Trust
+region: West Midlands - Birmingham & Solihull
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C0020-26-1583
+factual_fingerprint: 88b2840bffcb1c61736698859596b531b34687c1d879ab5e957f3e0fdf07cf4e
+---
+
+---
+action:
+POSS | NHS Jobs | Somerset | Shepton Mallet, BA4 4LP | £34000.00 | Patient Pathway Lead
+source_job_id: 5664707
+title: Patient Pathway Lead
+employer: Practice Plus Group
+region: Somerset
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2951
+factual_fingerprint: 4dd5092ff77c7486abddc777343ff3793e7e2e3d8f5d65acc9ec5b640648151e
+---
+
+---
+action:
+POSS | NHS Jobs | Gloucestershire | Gloucester, GL1 3NF | £25760.00 to £27476.00 | Team Administrator - MHICT
+source_job_id: 5665069
+title: Team Administrator - MHICT
+employer: Gloucestershire Health and Care NHS Foundation Trust
+region: Gloucestershire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9327-26-0870
+factual_fingerprint: 9972b32fcd7f3eddd5b930797b2afdcbcb926806a3d520ce33dbc845b0abdf6c
+---
 
 ---
 action:
@@ -6826,18 +6862,6 @@ region: Berkshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9193-26-0681
 factual_fingerprint: 7fb61e77954739b79ff3346d2baaa2c4a563bb8633f1b581fb50928f8a1fa14b
----
-
----
-action:
-POSS | NHS Jobs | Merseyside - Liverpool | Liverpool, L25 2XE | Negotiable | Patient Care Co-ordinator
-source_job_id: 5656213
-title: Patient Care Co-ordinator
-employer: Belle Vale Medical Practice
-region: Merseyside - Liverpool
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1449-26-0000
-factual_fingerprint: 2e4e13c474088f601928c54fa425b4657655d6719bf7646489b5b54b5081801e
 ---
 
 ---
