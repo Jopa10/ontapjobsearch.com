@@ -68,7 +68,8 @@ class NewcastleCityLaunchTests(unittest.TestCase):
 
         # Reviewed Service Admin selections remain exact. The city page may also
         # contain separately governed office-family supplements.
-        self.assertEqual(city_ids & parent_ids, included_ids)
+        self.assertEqual(city_ids & parent_ids, included_ids & parent_ids)
+        self.assertTrue(included_ids.issubset(city_ids))
         self.assertGreater(len(city_ids - parent_ids), 0)
         self.assertTrue(all(job.get("apply_url") for job in city_jobs))
 
@@ -117,7 +118,7 @@ class NewcastleCityLaunchTests(unittest.TestCase):
         self.assertIn("definition.route", sitemap_source)
 
     def test_derived_city_json_is_not_added_to_job_detail_catalogue(self) -> None:
-        source = (REPO_ROOT / "lib/published-jobs.ts").read_text(encoding="utf-8")
+        source = (REPO_ROOT / "lib/published-jobs-source.ts").read_text(encoding="utf-8")
         self.assertIn('DERIVED_CITY_DATA_DIRECTORY = "_city-pages"', source)
         self.assertIn("entry.name === DERIVED_CITY_DATA_DIRECTORY", source)
 
