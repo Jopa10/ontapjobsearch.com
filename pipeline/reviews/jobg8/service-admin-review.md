@@ -12943,8 +12943,26 @@ job_id: 23643_225632867
 
 ---
 action:
+SELECTED | Wales South - Gwent | Newport | £15.31 per hour | Contact Centre Advisors
+job_id: 23643_225163286
+---
+
+---
+action:
 SELECTED | Wales South - Gwent | Abergavenny | £28000 per year | Payroll Administrator
 job_id: 2052979
+---
+
+---
+action:
+SELECTED | Wales South - Gwent | Newport | £13.81 per hour | Operations and Maintenance Administrator
+job_id: 23643_224129737
+---
+
+---
+action:
+SELECTED | Wales South - Gwent | Newport |  | Facilities Co-ordinator
+job_id: 23643_225693898
 ---
 
 ---
@@ -12953,9 +12971,25 @@ SELECTED | Wales South - Gwent | Tredegar | £30000 - £30001 per year | HR Assi
 job_id: 23643_225663430
 ---
 
+---
+action:
+SELECTED | Wales South - Gwent | Newport | £12.71 - £16.54 per hour | Receptionist
+job_id: 23643_225613234
+---
+
 ## WALES SOUTH - GWENT — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - WALES SOUTH - GWENT | Wales South - Gwent | Newport | £30000 - £35000 per year | Assistant Accountant
+job_id: 2013784
+---
+
+---
+action:
+POSS - WALES SOUTH - GWENT | Wales South - Gwent | Usk | £28 per hour | Procurement Administrator
+job_id: 23643_225713975
+---
 
 ## WALES SOUTH - SWANSEA BAY — SELECTED
 

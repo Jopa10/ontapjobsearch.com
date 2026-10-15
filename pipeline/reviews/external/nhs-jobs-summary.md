@@ -2,15 +2,75 @@
 
 review_date: 2026-10-15
 
-- Open Administrative & Clerical rows reviewed: 2326
+- Open Administrative & Clerical rows reviewed: 2331
 - Auto/remembered selected: 401
 - Selected HC Tier A: 210
 - Selected HC Tier B: 191
-- POSS awaiting decision: 1822
+- POSS awaiting decision: 1827
 - Excluded: 0
 - HARD_PASS: 103
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Devon | Ottery St. Mary, EX11 1EQ | Negotiable | Care Co-Ordinator / Medical Administrator
+source_job_id: 5666640
+title: Care Co-Ordinator / Medical Administrator
+employer: Fuller and Forbes Partnership
+region: Devon
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2381-26-0018-CMC
+factual_fingerprint: c0588f2be558195cc989360d8c8d190358edc9a92150f2f71116d3c514695a8a
+---
+
+---
+action:
+POSS | NHS Jobs | Sussex | Lewes, BN7 2FZ | £28392.00 to £31157.00 | Finance Assistant - Mental Health
+source_job_id: 5666633
+title: Finance Assistant - Mental Health
+employer: Surrey and Sussex ICB
+region: Sussex
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9256-26-0031
+factual_fingerprint: 9e4152c5ca417da9332c5f29e2b6f26298acf0502cca0c72fd2c3c5ba5b17f9b
+---
+
+---
+action:
+POSS | NHS Jobs | — | TBC, LL57 2PW | £50129.00 to £57365.00 | Lead Server and Cloud Infrastructure Engineer
+source_job_id: 5666537
+title: Lead Server and Cloud Infrastructure Engineer
+employer: Betsi Cadwaladr University Health Board
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/H9050-26-2395
+factual_fingerprint: d76253720ef8afddca773c2a2d024a0028f161c6716dde600b3c6f308bbfbe49
+---
+
+---
+action:
+POSS | NHS Jobs | London | Harrow, HA1 3UJ | £45953.00 to £54254.00 | Divisional Assistant Service Manager
+source_job_id: 5665903
+title: Divisional Assistant Service Manager
+employer: London North West University Healthcare NHS Trust
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9337-26-0838
+factual_fingerprint: f3f97c0f7de2f0e22a4663838c5aa5460a6f4027f53d428d55003724ba4c9bf8
+---
+
+---
+action:
+POSS | NHS Jobs | Kent | Maidstone, ME15 6NB | £112782.00 to £129783.00 | Director of Communications and Involvement
+source_job_id: 5665495
+title: Director of Communications and Involvement
+employer: NHS Kent and Medway Integrated Care Board
+region: Kent
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9095-26-0087
+factual_fingerprint: 75f4af152c9e6a95c029e31ccee5256febabb138c24edd21aa732a987699702d
+---
 
 ---
 action:
@@ -1437,7 +1497,7 @@ employer: East Kent Hospitals University NHS Foundation Trust
 region: Kent
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9344-26-0526
-factual_fingerprint: 937504e0d6b20d770c44d0068279dcf755da986aa7c2302a2d25cc0ef4549fd2
+factual_fingerprint: 74a6482a413f5a90651abb9207d5b71e3f3e1514a755551fb29bcb0028c4aecb
 ---
 
 ---
@@ -3129,7 +3189,7 @@ employer: Pennine Care NHS FT
 region: Greater Manchester - South
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9311-26-0686
-factual_fingerprint: 3d92ea7d419506e7f7cfc5b9da7610203e76f72b6280d9b6ef366e9bf771f691
+factual_fingerprint: 108926ca8a139d202262e3654113efce8d932b6b2e91f881b4838ff2d22bd4d0
 ---
 
 ---
@@ -3465,7 +3525,7 @@ employer: Pennine Care NHS FT
 region: Greater Manchester - South
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9311-26-0685
-factual_fingerprint: 842948a174cdc0d4503ec78a202d8aa969fb2a2bb581c92e334f7bc9744999da
+factual_fingerprint: 0057c6ea8748b1ff301fdf6cb2982ef025c0320d3fd3f8d8554924805e07abba
 ---
 
 ---
@@ -3477,7 +3537,7 @@ employer: Pennine Care NHS FT
 region: Greater Manchester - South
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9311-26-0684
-factual_fingerprint: 2764bb6c590666e7558f96c5c79f293c88508b3bee320548f83d5867d4e4ae7e
+factual_fingerprint: ac8160b5738245329d5dbda544bf9ba4e667f3e655fb29f708e0e2d703ea9d15
 ---
 
 ---
@@ -7065,7 +7125,7 @@ employer: Northamptonshire Healthcare Foundation Trust
 region: Northamptonshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9270-26-0821
-factual_fingerprint: 2832d1043f0663d767f0c324023cef8ca444c104dba4b9ad0be24f0e364d57ce
+factual_fingerprint: 8769da60058988d5f32d5dc330b4c18dd884dc04cf71799f2dc0cd569d6a5f94
 ---
 
 ---
@@ -13557,7 +13617,7 @@ employer: Stockport NHS Foundation Trust
 region: Greater Manchester - South
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9362-26-0748
-factual_fingerprint: dfd78d737b007afc58891b838b18adb75331e71fe7ec940af8c4d03be8622c57
+factual_fingerprint: 66a88a313eaffdb5ae468460d61e0adf2e5830d27ea07bc24780b98b1adfdbcd
 ---
 
 ---

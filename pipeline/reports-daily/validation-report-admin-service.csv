@@ -1,7 +1,7 @@
 ﻿metric,value
 total rows input,20000
-total rows included,2240
-total rows dropped,17562
+total rows included,2244
+total rows dropped,17556
 title classification count - HIGH_CONFIDENCE,2253
 title classification count - ELASTIC_FIT,498
 title classification count - REVIEW_CONTEXT_DEPENDENT,5
@@ -423,14 +423,14 @@ anchor elastic count - Wales South - Cardiff & Vale,3
 other elastic count - Wales South - Cardiff & Vale,0
 total rows output - Wales South - Cardiff & Vale,20
 job_id included - Wales South - Cardiff & Vale,23643_225624576; 23643_225630492; 2057385; 23643_225671270; 2059106; 23643_225677206; 23643_225675600; 2078303; 23643_225691400; 23643_225690422; 2092062; 23643_225716856; 20279_62802-15fe4c84181266b2a56e090b8736c75e; 20279_62802-d7c6b8836d8aad88b024254f869d65a8; 20279_62802-f8145293a99ee8a5fe099e7dc9419d9b; 20279_62802-85269a08ed0b6ec178c60afb43d9fa54; 23643_225723768; 23643_225678380; 23643_225690978; 23643_225692612
-selection scenario - Wales South - Gwent,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
-selection message - Wales South - Gwent,Wales South - Gwent selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
-credible total - Wales South - Gwent,3
-high confidence count - Wales South - Gwent,2
-anchor elastic count - Wales South - Gwent,0
+selection scenario - Wales South - Gwent,SCENARIO_3_FULL_VALID_SELECTION
+selection message - Wales South - Gwent,"Wales South - Gwent selection complete: all 7 valid selected role(s) retained after HIGH_CONFIDENCE, Newport ELASTIC_FIT and other ELASTIC_FIT ordering."
+credible total - Wales South - Gwent,7
+high confidence count - Wales South - Gwent,5
+anchor elastic count - Wales South - Gwent,1
 other elastic count - Wales South - Gwent,1
-total rows output - Wales South - Gwent,3
-job_id included - Wales South - Gwent,23643_225632867; 2052979; 23643_225663430
+total rows output - Wales South - Gwent,7
+job_id included - Wales South - Gwent,23643_225163286; 23643_224129737; 23643_225613234; 23643_225693898; 23643_225632867; 2052979; 23643_225663430
 selection scenario - Wales South - Swansea Bay,SCENARIO_3_FULL_VALID_SELECTION
 selection message - Wales South - Swansea Bay,"Wales South - Swansea Bay selection complete: all 18 valid selected role(s) retained after HIGH_CONFIDENCE, Swansea ELASTIC_FIT and other ELASTIC_FIT ordering."
 credible total - Wales South - Swansea Bay,18
