@@ -25,11 +25,10 @@ class EnglandAssessableRegionTests(unittest.TestCase):
     def test_configured_england_markets_must_be_inside_assessable_universe(self) -> None:
         assessable = set(json.loads(ASSESSABLE.read_text(encoding="utf-8"))["regions"])
         operational = json.loads(OPERATIONAL.read_text(encoding="utf-8"))["regions"]
-        approved_non_england = {
-            "Northern Ireland - East",
-            "Scotland Central - Edinburgh & Lothians",
-            "Scotland West - Glasgow",
-        }
+        uk_regions = set(json.loads(
+            (PIPELINE_ROOT / "config" / "uk_assessable_regions.json").read_text(encoding="utf-8")
+        )["regions"])
+        approved_non_england = uk_regions - assessable
         configured_england = set(operational) - approved_non_england
         self.assertTrue(configured_england <= assessable)
 
