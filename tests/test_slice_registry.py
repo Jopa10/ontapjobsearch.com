@@ -15,6 +15,15 @@ from slice_registry import candidate_slices, load_slice_register, live_slices
 
 
 class SliceRegistryTests(unittest.TestCase):
+    def test_live_gwent_uses_the_same_detail_rollups_as_the_overview(self):
+        from scripts import service_admin_pipeline_live_config as admin_config
+
+        for lookup_cluster in ("Wales South -gwent", "Monmouthshire"):
+            self.assertEqual(
+                admin_config.core._clean_cluster(lookup_cluster),
+                "Wales South - Gwent",
+            )
+
     def test_24_september_owner_approved_region_slices_are_live_and_routable(self):
         approved = {
             ("Greater Manchester - North", "finance_accounts"): "/job-search/greater-manchester-north/finance-accounts-jobs",

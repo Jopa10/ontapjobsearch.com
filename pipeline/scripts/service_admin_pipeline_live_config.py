@@ -28,6 +28,14 @@ for region in EXTRA_REGIONS:
     core.OUTPUT_FILES[region] = output_filename(region, CATEGORY)
     core.PUBLISH_THRESHOLDS[region] = 6
 
+# Match the existing assessable-market rollups when Gwent is approved LIVE.
+# The lookup contains both the legacy Newport spelling and Monmouthshire detail.
+if "Wales South - Gwent" in LIVE_REGIONS:
+    core.COMBINED_OUTPUT_REGION_MAP.update({
+        "Wales South -gwent": "Wales South - Gwent",
+        "Monmouthshire": "Wales South - Gwent",
+    })
+
 # Retain the common North Yorkshire aliases previously supplied by the dedicated wrapper.
 if "Yorkshire - North" in LIVE_REGIONS:
     core.REGION_MAP.update({"yorkshire - north": "Yorkshire - North", "yorkshire north": "Yorkshire - North", "north yorkshire": "Yorkshire - North"})
