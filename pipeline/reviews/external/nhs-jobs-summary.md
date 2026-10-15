@@ -2,15 +2,27 @@
 
 review_date: 2026-10-15
 
-- Open Administrative & Clerical rows reviewed: 2249
-- Auto/remembered selected: 389
+- Open Administrative & Clerical rows reviewed: 2251
+- Auto/remembered selected: 390
 - Selected HC Tier A: 206
-- Selected HC Tier B: 183
-- POSS awaiting decision: 1760
+- Selected HC Tier B: 184
+- POSS awaiting decision: 1761
 - Excluded: 0
 - HARD_PASS: 100
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | London | London, SE4 1JN | Negotiable | Patient Services Facilitator
+source_job_id: 5662499
+title: Patient Services Facilitator
+employer: The Lewisham Care Partnership
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/U0101-26-0018
+factual_fingerprint: 991b51cd4238afef20f198ed68be081996dbe8eae010df20088b61612580bec3
+---
 
 ---
 action:
