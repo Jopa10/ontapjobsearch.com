@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-10-14
+feed_date: 2026-10-15
 
 Edit only the `action:` line in each block:
 
@@ -27,12 +27,6 @@ job_id: 107919199
 
 ---
 action:
-SELECTED | Yorkshire - South | Rotherham | £14.08 per hour | Waking Night Support Worker
-job_id: 107919237
----
-
----
-action:
 SELECTED | Yorkshire - South | Doncaster | £15 per hour | Childrens Residential Support Worker
 job_id: 107919212
 ---
@@ -53,12 +47,6 @@ job_id: 23643_225715797
 action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | Bedlington | £13.21 per hour | Care Assistant - Care Home
 job_id: 23643_225715617
----
-
----
-action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Hexham | £ | Childrens Residential Support Worker (Bank)
-job_id: 108149592
 ---
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
@@ -119,6 +107,30 @@ SELECTED | Sussex | Brighton | £15 - £17 per hour | Personal Assistant - Immed
 job_id: 23643_225715425
 ---
 
+---
+action:
+SELECTED | Sussex | Sussex | £14.5 per hour | Night Care Assistant
+job_id: 23643_225440444
+---
+
+---
+action:
+SELECTED | Sussex | Sussex | £12.21 - £13.5 per hour | Support Worker
+job_id: 23643_225725381
+---
+
+---
+action:
+SELECTED | Sussex | Crawley | £93 - £105 per daily (Depending on experience) | Behaviour Support Assistant
+job_id: 23643_225725872
+---
+
+---
+action:
+SELECTED | Sussex | East Grinstead | £93 - £105 per daily (Depending on experience) | Behaviour Support Assistant
+job_id: 23643_225725915
+---
+
 ## SUSSEX — POSSIBLES
 
 ---
@@ -141,6 +153,12 @@ job_id: 23643_225678003
 
 ---
 action:
+POSS - SUSSEX | Sussex | Hastings | £14 - £18 per hour | Homecare Support Worker (Domiciliary Care)
+job_id: 23643_225046457
+---
+
+---
+action:
 POSS - SUSSEX | Sussex | Eastbourne | £12.85 - £18.4 per hour | Support Worker
 job_id: 23643_225724515
 ---
@@ -157,18 +175,6 @@ job_id: 23643_225639600
 action:
 SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
 job_id: 108071061
----
-
----
-action:
-SELECTED | Cumbria - South | Kirkby Stephen | £ | Childrens Residential Support Worker
-job_id: 108113710
----
-
----
-action:
-SELECTED | Cumbria - South | Appleby-in-westmorland | £ | Childrens Residential Support Worker
-job_id: 108113712
 ---
 
 ## CUMBRIA SOUTH — POSSIBLES
@@ -215,12 +221,6 @@ job_id: 1401785691
 
 ---
 action:
-SELECTED | Hampshire | New Milton | £12.8 - £15.75 per hour | Extra Care Support Worker - Gore Grange
-job_id: 108121734
----
-
----
-action:
 SELECTED | Hampshire | Hayling Island | £28697 - £31573 per year | Support Worker (Adults)
 job_id: 1401785799
 ---
@@ -258,12 +258,6 @@ job_id: 1401785773
 ---
 
 ## KENT — SELECTED
-
----
-action:
-SELECTED | Kent | Tunbridge Wells | competitive + benefits | Qualified Hearing Care Assistant
-job_id: 1402265374
----
 
 ---
 action:
@@ -357,12 +351,6 @@ job_id: 23643_225712760
 
 ---
 action:
-SELECTED | London | London | £13 per hour | Home Care Worker
-job_id: 107939127
----
-
----
-action:
 SELECTED | London | London | £28808 per year | Family Support Worker
 job_id: 23643_225718180
 ---
@@ -395,6 +383,12 @@ job_id: 2124736
 action:
 SELECTED | London | London | £31,748.77 per annum | Specialist Support Worker
 job_id: 2125984
+---
+
+---
+action:
+SELECTED | London | City | £13.45 per hour | Support Worker
+job_id: 23643_225725141
 ---
 
 ## LONDON — POSSIBLES
@@ -505,12 +499,6 @@ job_id: 23643_225715909
 
 ---
 action:
-SELECTED | Surrey | Surrey | £14.5 per hour | Night Care Assistant
-job_id: 23643_225440444
----
-
----
-action:
 SELECTED | Surrey | Cobham | £12.75 - £13.5 per hour | Residential Support Worker
 job_id: 23643_225505322
 ---
@@ -573,12 +561,6 @@ job_id: 23643_225710192
 action:
 POSS - WILTSHIRE | Wiltshire | Wiltshire | £16.03 per hour | Care Assistant - Bank - Care Home
 job_id: 23643_225713768
----
-
----
-action:
-POSS - WILTSHIRE | Wiltshire | Wiltshire | £14.25 - £15.5 per hour | Learning Support Assistant
-job_id: 23643_225660582
 ---
 
 <!-- ONTAP_PERSISTENT_DECISIONS_V1
