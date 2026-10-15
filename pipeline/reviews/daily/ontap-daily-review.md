@@ -4,9 +4,9 @@
 > Do not start reviewing yet. Rebuild this review after those source refreshes complete.
 
 review_date: 2026-10-15
-generated_at: 2026-10-15T07:08:46+00:00
+generated_at: 2026-10-15T11:52:09+00:00
 
-**216 job(s) need a human decision.**
+**223 job(s) need a human decision.**
 
 Edit only each `action:` line:
 - `action: select` = include the vacancy.
@@ -21,7 +21,7 @@ Edit only each `action:` line:
 
 | Source | Status | Review date | Needs review | Note |
 |---|---|---|---:|---|
-| JobG8 | OK | 2026-10-15 | 216 | — |
+| JobG8 | OK | 2026-10-15 | 223 | — |
 | NEJobs | STALE | 2026-09-18 | 0 | — |
 | VONNE | STALE | 2026-10-14 | 0 | — |
 | Teaching Vacancies | STALE | 2026-10-14 | 0 | — |
@@ -29,7 +29,7 @@ Edit only each `action:` line:
 
 > **Attention:** one or more active source reviews are stale or missing. Those sources contribute no jobs to this file and must not be treated as zero inventory.
 
-## JobG8 — 216 to review
+## JobG8 — 223 to review
 
 ---
 action:
@@ -371,6 +371,24 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: c8e24845d53219e8a828464a526368872d5554fe9178d58910a3a59a13f0656e
+---
+
+---
+action:
+POSS | JobG8 | Cumbria - North | Carlisle | £40000 - £42000 per year (Benefits) | Service Advisor
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225709872
+title: Service Advisor
+employer: 
+location: Carlisle
+region: Cumbria - North
+salary: £40000 - £42000 per year (Benefits)
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 27b0c5d47d87b66ed18171598059e5c67fcfd6bebfa6ff65717b4615318e22a2
 ---
 
 ---
@@ -1311,6 +1329,42 @@ hub_fingerprint: 90cc215697e0418d5a52d230292e13fb6847cc9c7dce2b00311bd6621473761
 
 ---
 action:
+POSS | JobG8 | Lancashire - Central | Chorley | — | Assistant Management Accountant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2056884
+title: Assistant Management Accountant
+employer: 
+location: Chorley
+region: Lancashire - Central
+salary: 
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 93d000ac5b4977308e70c7224f4fffa8a9fcf0b51a3f05597a7b15c9ffd2e5ec
+---
+
+---
+action:
+POSS | JobG8 | Lancashire - Central | Preston | £30000 - £32000 per year | Assistant Accountant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2039386
+title: Assistant Accountant
+employer: 
+location: Preston
+region: Lancashire - Central
+salary: £30000 - £32000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: b03e739b343e6ff41fd1bad9526fcad46311789beac0d54dac5d9c1012a27685
+---
+
+---
+action:
 POSS | JobG8 | Leicestershire | Leicestershire | £19 - £23 per hour | Contracts Administrator
 source_key: jobg8
 source: JobG8
@@ -2175,6 +2229,24 @@ hub_fingerprint: b6fea7c880da527d29337db453ae7f5f863465ea28bc732a571e819b801ac54
 
 ---
 action:
+POSS | JobG8 | North Wales - East | Wrexham | £30500 - £37500 per year | Interim Assistant Accountant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225715447
+title: Interim Assistant Accountant
+employer: 
+location: Wrexham
+region: North Wales - East
+salary: £30500 - £37500 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 5d91dede5f9fa57a0458a97231d4e05f2cd2151cb9092b68f83ac7bfd14b5210
+---
+
+---
+action:
 POSS | JobG8 | Northamptonshire | Northamptonshire | £20 - £25 per hour | Document Controller
 source_key: jobg8
 source: JobG8
@@ -2441,6 +2513,24 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: ac42f6738894310f0927acbd27a26760685ebb8e2a650e3591fcd42b71840640
+---
+
+---
+action:
+POSS | JobG8 | Scotland Central - Falkirk & Stirling | Stirling | £38406 per year | Service Advisor - CUPRA, SEAT & Škoda
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225648611
+title: Service Advisor - CUPRA, SEAT & Škoda
+employer: 
+location: Stirling
+region: Scotland Central - Falkirk & Stirling
+salary: £38406 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 7ef3a7e02264c4c2f8c1e77e29576d5967e119328a5d8483ff982340aab2ecb7
 ---
 
 ---
@@ -3215,6 +3305,42 @@ closing_date:
 reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: c91f3c38f113e5664b0b43f8a41ff21769208c421972b827d765ab5981a15dcc
+---
+
+---
+action:
+POSS | JobG8 | Wales South - Gwent | Newport | £30000 - £35000 per year | Assistant Accountant
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 2013784
+title: Assistant Accountant
+employer: 
+location: Newport
+region: Wales South - Gwent
+salary: £30000 - £35000 per year
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: c963e7d3d078642147f9cba7a4438247bd4bdd2f714d63bf1a4218e919d85307
+---
+
+---
+action:
+POSS | JobG8 | Wales South - Gwent | Usk | £28 per hour | Procurement Administrator
+source_key: jobg8
+source: JobG8
+category: admin_service
+source_job_id: 23643_225713975
+title: Procurement Administrator
+employer: 
+location: Usk
+region: Wales South - Gwent
+salary: £28 per hour
+closing_date: 
+reason: JobG8 selector marked this vacancy POSS
+source_url: 
+hub_fingerprint: 8d1642c6fd2e2d4bd1eeba2843dbf0f05b52490319db571aba59109e83bcf764
 ---
 
 ---
