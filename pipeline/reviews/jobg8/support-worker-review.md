@@ -91,8 +91,8 @@ job_id: 23643_225693409
 
 ---
 action:
-SELECTED | Sussex | Sussex | £14.8 per hour | Night Care Assistant - Bank
-job_id: 23643_225619999
+SELECTED | Sussex | Sussex | £14.79 per hour | Part Time Care Assistant
+job_id: 23643_225710203
 ---
 
 ---
@@ -249,6 +249,18 @@ SELECTED | Hampshire | Aldershot | £12.75 - £13 per hour | Residential Support
 job_id: 23643_225505280
 ---
 
+---
+action:
+SELECTED | Hampshire | Fordingbridge | £17 per hour | Mental Healthcare Assistant
+job_id: 108072729
+---
+
+---
+action:
+SELECTED | Hampshire | Ventnor | £11190 per year | Care Worker
+job_id: 108160212
+---
+
 ## HAMPSHIRE — POSSIBLES
 
 ---
@@ -287,6 +299,12 @@ job_id: 23643_225505291
 action:
 SELECTED | Kent | Canterbury | £12.75 - £13 per hour | Residential Support Worker
 job_id: 23643_225505282
+---
+
+---
+action:
+SELECTED | Kent | Tunbridge Wells | competitive + benefits | Qualified Hearing Care Assistant
+job_id: 1402266727
 ---
 
 ## KENT — POSSIBLES
@@ -507,6 +525,12 @@ job_id: 23643_225505322
 action:
 SELECTED | Surrey | Redhill | £31000 - £35000 per year | Residential Support Worker
 job_id: 23643_225505302
+---
+
+---
+action:
+SELECTED | Surrey | Guildford | £17 per hour | Support Worker Healthcare
+job_id: 108122188
 ---
 
 ## SURREY — POSSIBLES
