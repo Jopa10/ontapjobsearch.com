@@ -1,11 +1,13 @@
 # Ontap System Overview
 
-**Last updated:** 14 October 2026
+**Last updated:** 15 October 2026
 **Status:** Canonical production state, reconciled on 12 October against active workflow definitions, deployment runs and current report data.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 15 October 2026 — **Ten owner-approved Service Admin city pages added:** Dartford, Stockport, Swansea, Walsall, Bath, Eastleigh, Harrogate, Watford, Crawley and Swindon. Each met the four-current-Service-Admin-job launch gate on 15 October. They use exact named-city locations at launch, the existing office-family supplements, permanent active-city maintenance, regional breadcrumbs/links, sitemap/homepage discovery and the agreed Admin/Office H1 and supporting intro. The launch approval is recorded in the city-page register; no broad all-jobs pages were added.
 
 - 14 October 2026 — **Overview recovery covers direct production deployments:** the existing report workflow checks the live version hourly and after report-control changes. It rebuilds only when the verified live commit is absent from report provenance, uses that exact deployed snapshot and the website’s own canonical job generator to reconcile its headline, preserves saved history and checks production again before committing. The normal post-publish dispatch and deployment receipt validation remain. Report-only updates do not deploy the website.
 

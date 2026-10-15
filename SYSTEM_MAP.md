@@ -1,6 +1,6 @@
 # Ontap System Map
 
-**Last updated:** 14 October 2026
+**Last updated:** 15 October 2026
 **Status:** Canonical production architecture, reconciled on 12 October against active workflows, deployment runs, report history, slice register and current diagnostic contract.
 
 - 21 September 2026 — **Nearby-location analytics now explains incomplete location attempts and reliably measures restored preferences:** client events that occur before GA4 initialises wait for the shared analytics-ready signal instead of being dropped. Unsuccessful geolocation attempts now distinguish unsupported browsers, permission denial, unavailable positions, timeouts and nearby-API failures; manual-town attempts and saved-location refresh failures are measured separately. Existing `saved_location_return` and `saved_location_results_loaded` events remain the proof of remembered-location reuse.
@@ -8,6 +8,8 @@
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
+
+- 15 October 2026 — **Ten owner-approved Service Admin city pages added:** Dartford, Stockport, Swansea, Walsall, Bath, Eastleigh, Harrogate, Watford, Crawley and Swindon. Each met the four-current-Service-Admin-job launch gate on 15 October. They use exact named-city locations at launch, the existing office-family supplements, permanent active-city maintenance, regional breadcrumbs/links, sitemap/homepage discovery and the agreed Admin/Office H1 and supporting intro. The launch approval is recorded in the city-page register; no broad all-jobs pages were added.
 
 - 14 October 2026 — **Overview recovery covers direct production deployments:** the existing report workflow checks the live version hourly and after report-control changes. It rebuilds only when the verified live commit is absent from report provenance, uses that exact deployed snapshot and the website’s own canonical job generator to reconcile its headline, preserves saved history and checks production again before committing. The normal post-publish dispatch and deployment receipt validation remain. Report-only updates do not deploy the website.
 

@@ -1,0 +1,317 @@
+# Stockport admin and office jobs city-page review
+
+- Parent regional page: `app/_city-pages/configured-slices/greater-manchester-south/service-administrator-jobs.json`
+- Live route: `/stockport/service-administrator-jobs`
+- Mode: `publish`
+- Minimum live-job threshold: 4
+- Effective included jobs: 12
+- Threshold currently met: yes
+
+## How to review
+Edit only the `action:` line inside a job block.
+Use `action: exclude` to remove a current include, or `action: select` to include a review/exclude job.
+Leave `action:` blank to accept the automatic decision. A blank review remains omitted from the live page.
+Jobs are grouped include first, review second and exclude last, then alphabetically by title.
+JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
+
+## Counts
+- automatic include: 12
+- automatic review: 12
+- automatic exclude: 0
+- effective include: 12
+- effective review: 12
+- effective exclude: 0
+
+## INCLUDE (12)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrative Assistant
+company: Pennine Care NHS FT
+location: Stockport, SK1 3QD
+source: NHS Jobs
+job_id: nhs-5652816
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Commercial Coordinator
+company: Jobwise Ltd - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225620060
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: CMR Jobs Limited - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225692979
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: Jobwise Ltd - Agency - Temporary
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225695945
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: Kinaxia Logistics Limited - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225656961
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR and Office Coordinator
+company: Hays Business Support - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225682665
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: IVA Administrator
+company: Imperium Financial Recruitment - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-2066888
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Pallet Network & Customer Service Coordinator
+company: Kinaxia Logistics Limited - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225656920
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Coordinator
+company: CMR Jobs Limited - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225693186
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Property Coordinator
+company: The People Pod - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-2043192
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Jobwise Ltd - Agency - Temporary
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225692733
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: Winsearch - Agency - Temporary
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225720848
+reason: Exact approved Stockport workplace.
+---
+
+## REVIEW (12)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Account Manager - Digital Marketing
+company: Dark Horse - Agency - Permanent
+location: Altrincham
+source: JobG8
+job_id: jobg8-23643_225703710
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Jobwise Ltd - Agency - Temporary
+location: Altrincham
+source: JobG8
+job_id: jobg8-23643_225649058
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Bank Receptionist
+company: Moya Cole Hospice
+location: Cheadle, SK8 3SZ, MANCHESTER, M28 0AB
+source: NHS Jobs
+job_id: nhs-5653698
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Michael Page - Agency - Permanent
+location: Trafford
+source: JobG8
+job_id: jobg8-23643_225691554
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance assistant - R2R
+company: Robert Walters - Agency - Permanent
+location: Altrincham
+source: JobG8
+job_id: jobg8-2045948
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Financial Administration Assistant
+company: Hays Business Support - Agency - Permanent
+location: Altrincham
+source: JobG8
+job_id: jobg8-23643_225700535
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchasing Administrator
+company: Bayman Atkinson Smythe - Agency - Permanent
+location: Trafford
+source: JobG8
+job_id: jobg8-23643_225695106
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Moya Cole Hospice
+location: Cheadle, SK8 3SZ, MANCHESTER, M28 0FE
+source: NHS Jobs
+job_id: nhs-5655179
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: RTR Assistant Accountant
+company: Robert Walters - Agency - Permanent
+location: Altrincham
+source: JobG8
+job_id: jobg8-2039520
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales & Operations Administrator
+company: Pickles Recruitment - Agency - Permanent
+location: Denton
+source: JobG8
+job_id: jobg8-23643_225680857
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Team Administrator
+company: Pennine Care NHS FT
+location: Ashton-Under-Lyne, OL6 7SR
+source: NHS Jobs
+job_id: nhs-5643892
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary HR Administrator
+company: Office Angels - Agency - Temporary
+location: Trafford
+source: JobG8
+job_id: jobg8-23643_225696497
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+## EXCLUDE (0)

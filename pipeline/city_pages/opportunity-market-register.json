@@ -63,5 +63,11 @@
   {"region_key":"northern-ireland-east","market_key":"belfast","display_name":"Belfast","include_patterns":["belfast"]},
   {"region_key":"glasgow","market_key":"glasgow","display_name":"Glasgow","include_patterns":["glasgow"]},
   {"region_key":"edinburgh-lothians","market_key":"edinburgh","display_name":"Edinburgh","include_patterns":["edinburgh"]},
-  {"region_key":"cardiff-vale","market_key":"cardiff","display_name":"Cardiff","include_patterns":["cardiff"]}
+  {"region_key":"cardiff-vale","market_key":"cardiff","display_name":"Cardiff","include_patterns":["cardiff"]},
+  {"region_key":"greater-manchester-south","market_key":"stockport","display_name":"Stockport","include_patterns":["stockport"]},
+  {"region_key":"swansea-bay","market_key":"swansea","display_name":"Swansea","include_patterns":["swansea"]},
+  {"region_key":"black-country","market_key":"walsall","display_name":"Walsall","include_patterns":["walsall"]},
+  {"region_key":"bristol-bath","market_key":"bath","display_name":"Bath","include_patterns":["bath"]},
+  {"region_key":"hertfordshire","market_key":"watford","display_name":"Watford","include_patterns":["watford"]},
+  {"region_key":"wiltshire","market_key":"swindon","display_name":"Swindon","include_patterns":["swindon"]}
 ]
