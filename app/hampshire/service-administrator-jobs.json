@@ -2466,6 +2466,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9188-26-0934",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2485,6 +2488,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-2235",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2504,6 +2510,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-2208",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2523,6 +2532,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2237-26-0010",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2542,25 +2554,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-2206",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5650314",
-    "source": "NHS Jobs",
-    "title": "Administrator",
-    "company": "Royal Surrey NHS Foundation Trust",
-    "advertiser_name": "Royal Surrey NHS Foundation Trust",
-    "location": "Aldershot, Hampshire, GU11 1AY",
-    "region": "Hampshire",
-    "salary": "£16.73",
-    "employment_type": "Bank",
-    "posted_date": "2026-10-08T09:40:43.215420",
-    "closing_date": "2026-10-15",
-    "description": "Important Information for Applicants : This vacancy is for Surrey and Borders Partnership NHS Foundation Trust (SaBP). This role is offered through Flexi-Bank, a collaborative temporary staffing service delivered in partnership between Surrey and Borders Partnership NHS Foundation Trust and Royal Surrey NHS Foundation Trust. Royal Surrey NHS Foundation Trust acts as the host provider and manages the recruitment, onboarding and administrative processes on behalf of Surrey and Borders. Please note that although Royal Surrey NHS Foundation Trust branding may appear on this advert and within the recruitment system, successful applicants for this vacancy will undertake bank shifts for Surrey and Borders Partnership NHS Foundation Trust. Work Location: Aldershot Centre for Health, Hospital Hill, Aldershot, Hampshire, GU11 1AY Why join Flexi -Bank? Work flexibly - choose shifts that suit your lifestyle and availability Access more opportunities - pick up shifts across mental health and community Get paid fairly and on time - competitive rates and fast access to earnings through Stream Stay supported - benefit from training, development and guidance from our dedicated Temporary Staffing Team Surrey and Borders is looking for someone To act as the admin lead for the team ensuring day to day supervision of band 2 and 3 administrators workload. Providing supervision and development to other members of the administration team in conjunction with Band 5 administrators, where appropriate. Working Pattern: Monday to Friday from 9AM to 5 PM To hold a leadership role with supporting the GPimhs/MHICS leadership team in representing administrators views To be a nominated champion user for the Interim Tactical Solution (ITS)/EMIS/SystmOne clinical record systems To conduct administrator system audits for the local PCNs and provide data as required. Provide cover for other colleagues in the admin team as required for short absences due to annual leave or sickness. Take and transcribe a wide range of meeting minutes in an accurate and timely manner Receive and process referrals to the relevant clinician and ITS/EMIS/SystmOne Update case notes on patient record ITS/EMIS/SystmOne as required Monitor annual leave requests and sickness absence for manager, as required Extract data from data warehouses i.e., DART Type up reports incorporating graphics and tables as required Type all letters dictated or provided by the team and nearby PCNs Book appointments on the patient record system for clinics and individual consultations Answer telephone calls and relay any messages in a timely manner Creating bespoke documents for the team, such as leaflets etc. Arrange team events, as required Monitor data quality of administrative input",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9384-26-0897",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9384-26-0897",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2580,6 +2576,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0558",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2599,6 +2598,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0675",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2618,6 +2620,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9188-26-0918",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2637,6 +2642,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-2203",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2656,6 +2664,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-2190",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2675,6 +2686,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-2159",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2694,6 +2708,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-2152",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]
