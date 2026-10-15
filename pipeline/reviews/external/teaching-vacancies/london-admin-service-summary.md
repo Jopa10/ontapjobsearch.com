@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-10-14
-review_fingerprint: 8071534f2ef987c550252ed7d741bba9bc26966a2366e070abe024cf5f781b2c
-routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
+review_date: 2026-10-15
+review_fingerprint: 24e8fa9047189f9f8044df07c81a1943fe463ffbf36914329de4407c1515c95f
+routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 63
-- Selected: 17
-- POSS awaiting decision: 10
+- Selected: 18
+- POSS awaiting decision: 11
 - Excluded: 0
-- Hard pass: 36
+- Hard pass: 34
 
 ## SELECTED
 
@@ -276,7 +276,37 @@ source_job_id: school-admin-assistant-receptionist-belmont-junior-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-admin-assistant-receptionist-belmont-junior-school
 ---
 
+---
+action: 
+SELECTED | London | Uxbridge, London, UB10 8AB | £10,772.00 - £10,926.00 Annually (Actual) | School Administrator (Reception, School Office, WRL, HR)
+employer: Vyners School
+closing_date: 2026-11-09T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 321309487256349bbc5cf53534cb7d11dad4402e56ddc6b333af4f24531bcc2f
+source: Teaching Vacancies
+source_job_id: school-administrator-reception-school-office-wrl-hr
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-reception-school-office-wrl-hr
+---
+
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | London | Beckenham, London, BR3 1RF | £30,843.00 - £32,655.00 Annually (FTE) | Administration Officer
+employer: Worsley Bridge Primary School
+closing_date: 2026-11-05T12:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f4c11333622b994e86adf0252b8142e05357200cd7dca57cea29f20574ada861
+source: Teaching Vacancies
+source_job_id: administration-officer-1d8ea2cf-23c2-491e-9778-888fe22529fb
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-1d8ea2cf-23c2-491e-9778-888fe22529fb
+---
 
 ---
 action: 
@@ -417,12 +447,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ea
 action: 
 POSS | London | London, London, SE9 5EE | £30,963.00 Annually (Actual) | SEND Administrator
 employer: Eltham Hill School
-closing_date: 2026-11-01T23:59:00+00:00
+closing_date: 2026-10-18T23:59:00+01:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 0596b76937c79d5420bf7ba5f9b391f5afd5e69cc1d0bbbf706718580a3ad4a1
+factual_fingerprint: ee782075bcbb74e7b377930c352324a072987078b9feafa6560b39f96e9b217b
 source: Teaching Vacancies
 source_job_id: send-administrator-eltham-hill-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-eltham-hill-school
@@ -440,29 +470,26 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-el
 - [Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-manager-harris-lowe-academy-willesden) — Manager title salary ceiling £37,134 is not below £28,000.
 - [Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-manager-the-totteridge-academy) — Manager title without salary evidence below £28,000.
 - [Attendance Manager & Deputy Designated Safeguarding Lead (DDSL)](https://teaching-vacancies.service.gov.uk/jobs/attendance-manager-deputy-designated-safeguarding-lead-ddsl) — Manager title salary ceiling £44,231 is not below £28,000.
-- [Chief Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-finance-officer-newham-community-learning) — Insufficient admin/service evidence.
 - [Clerk](https://teaching-vacancies.service.gov.uk/jobs/clerk-8fed6825-7dee-4d92-8be5-0aa42efc1710) — Insufficient admin/service evidence.
 - [Communications and Collaboration Lead](https://teaching-vacancies.service.gov.uk/jobs/communications-and-collaboration-lead) — Insufficient admin/service evidence.
 - [Data Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-administration-assistant-lilian-baylis-technology-school) — Insufficient admin/service evidence.
-- [Deputy Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/deputy-chief-financial-officer-connect-education-trust) — Insufficient admin/service evidence.
 - [EA to the Principal](https://teaching-vacancies.service.gov.uk/jobs/ea-to-the-principal) — Out-of-scope occupation: principal.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-feec0708-8cac-454f-8890-7daafb1d5429) — Insufficient admin/service evidence.
-- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-blackfen-school-for-girls) — Manager title salary ceiling £58,347 is not below £28,000.
-- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-breakspear-school) — Insufficient admin/service evidence.
 - [H3 Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/h3-admin-officer) — Insufficient admin/service evidence.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-anthem-schools-trust-london-not-recorded) — Insufficient admin/service evidence.
+- [Headteacher's PA](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-north-brent-school) — Out-of-scope occupation: teacher, headteacher.
 - [HR Officer, Office Manager & PA to Headteacher (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-office-manager-pa-to-headteacher-maternity-cover) — Manager title salary ceiling £49,212 is not below £28,000.
 - [HR, People and Culture Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-people-and-culture-manager) — Manager title salary ceiling £52,800 is not below £28,000.
+- [Human Resources Business Partner](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-new-city-college) — Insufficient admin/service evidence.
 - [Human Resources Manager (Schools)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-manager-schools-netley-primary-school) — Manager title salary ceiling £41,000 is not below £28,000.
 - [Invigilators / Readers & Scribes](https://teaching-vacancies.service.gov.uk/jobs/invigilators-readers-scribes) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-iqra-primary-school) — Manager title salary ceiling £38,637 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-victory-primary-school-london) — Manager title without salary evidence below £28,000.
-- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-blackfen-school-for-girls) — Manager title salary ceiling £50,583 is not below £28,000.
 - [Operations Manager - Havering Secondary Hub](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-havering-secondary-hub) — Manager title salary ceiling £60,390 is not below £28,000.
 - [People Officer](https://teaching-vacancies.service.gov.uk/jobs/people-officer-newbridge-school) — Insufficient admin/service evidence.
+- [Pupil Support Lead (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/pupil-support-lead-maternity-cover-st-mary-cray-primary-academy) — Insufficient admin/service evidence.
 - [Regional HR Partner](https://teaching-vacancies.service.gov.uk/jobs/regional-hr-partner-36023a7d-c903-4173-b385-43f854d87e14) — Insufficient admin/service evidence.
-- [Reprographics Technician](https://teaching-vacancies.service.gov.uk/jobs/reprographics-technician-robert-clack-school-dagenham-essex) — Out-of-scope occupation: technician.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-bousfield-primary-school-london) — Manager title salary ceiling £59,394 is not below £28,000.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-acton-gardens-primary-school) — Manager title salary ceiling £51,961 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-handsworth-primary-school) — Manager title without salary evidence below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-sacred-heart-roman-catholic-primary-school) — Manager title salary ceiling £48,519 is not below £28,000.
 - [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-whitehall-park-school) — Manager title salary ceiling £43,696 is not below £28,000.
@@ -470,6 +497,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-el
 - [Senior Project Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-project-officer) — Insufficient admin/service evidence.
 - [Site Manager](https://teaching-vacancies.service.gov.uk/jobs/site-manager-hereward-primary-school-loughton-essex) — Out-of-scope occupation: site manager.
 - [Specialist Cover Coordinator](https://teaching-vacancies.service.gov.uk/jobs/specialist-cover-coordinator) — Insufficient admin/service evidence.
+- [Student Attendance & Reporting Officer](https://teaching-vacancies.service.gov.uk/jobs/student-attendance-reporting-officer-davenant-foundation-school) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

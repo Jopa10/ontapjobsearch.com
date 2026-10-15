@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - St Helens & Knowsley
 
-review_date: 2026-10-14
+review_date: 2026-10-15
 review_fingerprint: b4171938523e35ddf92acf3741f9dc6eb825945ae75bd865dce39d70c7c3c3f2
-routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
+routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
 ontap_region: Merseyside - St Helens & Knowsley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
+- Records: 2
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 0
+- Hard pass: 1
 
 ## SELECTED
 
@@ -46,7 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-hope-aca
 
 ## HARD_PASS
 
-- None.
+- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the-sutton-academy-st-helens-merseyside) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

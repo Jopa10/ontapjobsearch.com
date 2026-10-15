@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-10-14
-review_fingerprint: a0b5f04bf39e8de4e8aa4b52ed5fc932b0b00562cc3b065a2bf45bdc5341a8cd
-routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
+review_date: 2026-10-15
+review_fingerprint: 7dd82ecd97e7d96bb769749169dcc1bbf6339eade7df68c290c2510e041f0eff
+routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 15
-- Selected: 6
+- Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 8
 
 ## SELECTED
 
@@ -49,21 +49,6 @@ factual_fingerprint: f1966079f93cfa0eb1c80856844e055347da701a9150b53fc7abdef885a
 source: Teaching Vacancies
 source_job_id: administration-assistant-level-1-receptionist-bd6b7366-4beb-4cdb-99ce-85259000741f
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-level-1-receptionist-bd6b7366-4beb-4cdb-99ce-85259000741f
----
-
----
-action: 
-SELECTED | Somerset | Taunton, South West, TA4 2NE | £9,542 - £10,400 | Administrative Assistant
-employer: Kingsmead Academy
-closing_date: 2026-10-14T23:59:59+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4d6e2f7849d0fcdc45e3d57fe15be0087bcb19f7ca048e94472bbd53cd4960bc
-source: Teaching Vacancies
-source_job_id: administrative-assistant-kingsmead-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-kingsmead-academy
 ---
 
 ---
@@ -150,6 +135,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-
 ## HARD_PASS
 
 - [Customer Service Representative](https://teaching-vacancies.service.gov.uk/jobs/customer-service-representative) — Insufficient admin/service evidence.
+- [Data Administrator & System Management Support](https://teaching-vacancies.service.gov.uk/jobs/data-administrator-system-management-support) — Missing salary or pay scale.
 - [Exams, Data Insights and Systems Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-data-insights-and-systems-manager-bridgwater-college-academy) — Manager title salary ceiling £34,582 is not below £28,000.
 - [Finance Business Partner - Projects and Costings](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-projects-and-costings) — Insufficient admin/service evidence.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-yeovil-college) — Insufficient admin/service evidence.

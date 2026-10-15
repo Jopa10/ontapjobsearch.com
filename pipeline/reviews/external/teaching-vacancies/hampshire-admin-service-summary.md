@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-10-14
+review_date: 2026-10-15
 review_fingerprint: 293e5a7fa7dfde2cfdaa5cfc37631cdac0b153edf193556b0e6fac53118c080f
-routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
+routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
+- Records: 10
 - Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 9
 
 ## SELECTED
 
@@ -47,6 +47,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-office
 ## HARD_PASS
 
 - [Access Arrangements Co-ordinator/Assessor](https://teaching-vacancies.service.gov.uk/jobs/access-arrangements-co-ordinator-assessor) — Insufficient admin/service evidence.
+- [Administration & Reception Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-reception-assistant-cove-school-farnborough-hampshire) — Missing salary or pay scale.
 - [Apprentice Admin Assistant](https://teaching-vacancies.service.gov.uk/jobs/apprentice-admin-assistant-penbridge-junior-school) — Missing salary or pay scale.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-miltoncross-academy-portsmouth-hampshire) — Insufficient admin/service evidence.
 - [Exams Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-assistant-the-romsey-school) — Insufficient admin/service evidence.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-10-14
-review_fingerprint: a4dc8aff2d6e93cb507e9a04a7e5ef78de5af0b005ed269c57e28557f212065b
-routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
+review_date: 2026-10-15
+review_fingerprint: 926944aa211925cf20348e514791c3b673ef7f5d753240a9cfc2f74773277083
+routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
+- Records: 20
 - Selected: 8
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 10
 
 ## SELECTED
 
@@ -145,6 +145,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/welfare-assistant-adm
 
 ---
 action: 
+POSS | Berkshire | Bracknell, South East, RG12 9DA | £15,347.00 - £22,545.00 Annually (Actual) BG-H 15-24 – depending on experience | Exams Manager (part time)
+employer: Ranelagh School
+closing_date: 2026-11-01T12:00:00+00:00
+reason: Manager title below £28,000 salary ceiling requires review
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9283a2cfa1879ccec3594baefe14995caaf12bbfcde6f54546e7f43974ce8732
+source: Teaching Vacancies
+source_job_id: exams-manager-part-time
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-manager-part-time
+---
+
+---
+action: 
 POSS | Berkshire | Reading, South East, RG5 3EU | £26,176.00 - £28,395.00 Annually (Actual) Term time only plus 10 additional days | Senior Finance Assistant
 employer: The Bulmershe School
 closing_date: 2026-10-23T23:59:00+01:00
@@ -164,13 +179,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-finance-assist
 
 ## HARD_PASS
 
+- [Casual Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/casual-lettings-assistant-7471be4d-6ccd-4ad2-a01e-6d444552a95a) — Insufficient admin/service evidence.
 - [Deputy Designated Safeguarding Lead](https://teaching-vacancies.service.gov.uk/jobs/deputy-designated-safeguarding-lead-maiden-erlegh-school) — Insufficient admin/service evidence.
 - [HR & Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-officer-the-park-federation-academy-trust) — Insufficient admin/service evidence.
 - [HR Coordinator (part-time)](https://teaching-vacancies.service.gov.uk/jobs/hr-coordinator-part-time) — Insufficient admin/service evidence.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-littledown-school) — Manager title salary ceiling £38,053 is not below £28,000.
 - [Office Manager and Personal Assistant to the Headteacher](https://teaching-vacancies.service.gov.uk/jobs/office-manager-and-personal-assistant-to-the-headteacher-new-town-primary-school) — Manager title salary ceiling £40,444 is not below £28,000.
-- [Receptionist & Admin Assistant - Katesgrove Primary School](https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-katesgrove-primary-school-katesgrove-primary-school) — Missing salary or pay scale.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-da5c7b12-e7a7-4b6e-aede-5ff7cf56267d) — Manager title without salary evidence below £28,000.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-shefford-c-e-primary-school) — Manager title salary ceiling £41,177 is not below £28,000.
 - [School Development Officer](https://teaching-vacancies.service.gov.uk/jobs/school-development-officer) — Insufficient admin/service evidence.
 - [School Solicitor](https://teaching-vacancies.service.gov.uk/jobs/school-solicitor) — Insufficient admin/service evidence.
 

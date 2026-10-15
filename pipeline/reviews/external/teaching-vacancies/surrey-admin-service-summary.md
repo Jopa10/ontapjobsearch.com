@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-10-14
-review_fingerprint: 8947a28eed5a05a720c4c770a715a37877523a533f186af2bfae36856403be66
-routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
+review_date: 2026-10-15
+review_fingerprint: 1965509e810fd07e5e76f4a446ef26ec755cb3c504309441874dc9d207e5d119
+routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 8
 - Selected: 3
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 3
 
@@ -73,14 +73,29 @@ action:
 POSS | Surrey | Oxted, South East, RH8 0AB | £25,940.00 - £31,224.00 Annually (FTE) P4.1 to P5.6 | HR Assistant
 employer: Oxted School
 closing_date: 2026-10-26T12:00:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: cd9dc259ada4a0e57e99af222b9d20aaea582b9c1a71d4b2fe50edffe6af8e72
 source: Teaching Vacancies
 source_job_id: hr-assistant-oxted-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-oxted-school
+---
+
+---
+action: 
+POSS | Surrey | Sunbury-on-Thames, South East, TW16 6LF | £24,570.00 - £26,730.00 Annually (Actual) P5 (FTE £28,700 to £31,224pa) | SEND Adminstrator
+employer: Sunbury Manor School
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f241a6c1b7930d298bacae43f1e69441d63eaacbe1af868f713a812f501c4352
+source: Teaching Vacancies
+source_job_id: send-adminstrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-adminstrator
 ---
 
 ## EXCLUDED BY REVIEW

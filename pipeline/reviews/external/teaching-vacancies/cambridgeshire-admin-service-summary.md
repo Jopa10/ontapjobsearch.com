@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-10-14
-review_fingerprint: 348ac6728470083efe898e10c613fe3761ffdcbe2e4072e218ead2adb54c2d19
-routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
+review_date: 2026-10-15
+review_fingerprint: 1ee06934aff05580cb2cfda8d59360e530c5cbb66527d953f66954216a39b1b3
+routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 9
-- POSS awaiting decision: 1
+- Records: 21
+- Selected: 10
+- POSS awaiting decision: 6
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -64,6 +64,21 @@ factual_fingerprint: a67fec0346d191895272189bc223cbc638e905f8e731856a3d10e6cddd7
 source: Teaching Vacancies
 source_job_id: administrator-sen-and-careers
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-sen-and-careers
+---
+
+---
+action: 
+SELECTED | Cambridgeshire | Peterborough, PE3 6SB | £25,000.00 - £30,000.00 Annually (FTE) | Admission Administrator
+employer: United Learning Trust
+closing_date: 2026-11-05T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4bfea114e84a762c0033b39b3f09fee730f9fadd9735608f534c8113a232a340
+source: Teaching Vacancies
+source_job_id: admission-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admission-administrator
 ---
 
 ---
@@ -173,12 +188,88 @@ source_job_id: administrator-ridgefield-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-ridgefield-primary-school
 ---
 
+---
+action: 
+POSS | Cambridgeshire | Cambridge, East of England, CB2 0SZ | £30,000.00 - £35,000.00 Annually (FTE) | Finance Officer
+employer: Cambridge Academy for Science and Technology
+closing_date: 2026-10-26T09:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1783e53233c5ccc39f88847bfc66cf18d0852d4738e3d9def79254d88b582141
+source: Teaching Vacancies
+source_job_id: finance-officer-cambridge-academy-for-science-and-technology-cambridge-cambridgeshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-cambridge-academy-for-science-and-technology-cambridge-cambridgeshire
+---
+
+---
+action: 
+POSS | Cambridgeshire | Cambridge, East of England, CB1 3RJ | £30,000.00 - £35,000.00 Annually (FTE) | Finance Officer
+employer: Coleridge Community College
+closing_date: 2026-10-26T09:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c9f19cbb2caec283c9ea245a08ee135ef9ea54cbd35ed1cbb66bec9670856ae7
+source: Teaching Vacancies
+source_job_id: finance-officer-coleridge-community-college-cambridge-cambridgeshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-coleridge-community-college-cambridge-cambridgeshire
+---
+
+---
+action: 
+POSS | Cambridgeshire | Cambridge, East of England, CB1 1EH | £30,000.00 - £35,000.00 Annually (FTE) | Finance Officer
+employer: Parkside Community College
+closing_date: 2026-10-26T09:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c98f8b189c5254b814fcc7459fa7a4669c3d222be752d443d760b844d19f5bd7
+source: Teaching Vacancies
+source_job_id: finance-officer-parkside-community-college-cambridge-cambridgeshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-parkside-community-college-cambridge-cambridgeshire
+---
+
+---
+action: 
+POSS | Cambridgeshire | Cambridge, East of England, CB5 8ND | £30,000.00 - £35,000.00 Annually (FTE) | Finance Officer
+employer: The Galfrid School
+closing_date: 2026-10-26T09:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8d9b9b4c5e13dfb075abbf0bd2d7837b476f4858d27e998d4ea6a5b2fb254b1d
+source: Teaching Vacancies
+source_job_id: finance-officer-the-galfrid-school-cambridge-cambridgeshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-galfrid-school-cambridge-cambridgeshire
+---
+
+---
+action: 
+POSS | Cambridgeshire | Cambridge, East of England, CB2 9FD | £30,000.00 - £35,000.00 Annually (FTE) | Finance Officer
+employer: Trumpington Community College
+closing_date: 2026-10-26T09:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 103b275d34c37ce3ebcba8e70a3a0f657d80bea96c923c6d1d8a1b290920cefd
+source: Teaching Vacancies
+source_job_id: finance-officer-trumpington-community-college-cambridge-cambridgeshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-trumpington-community-college-cambridge-cambridgeshire
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
+- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-swavesey-village-college) — Manager title salary ceiling £35,412 is not below £28,000.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-5a3dff01-79b6-4729-902c-d66d0a984b7a) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-7ec77d3b-774d-4b4b-973d-4d3362c0e641) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-e275b9ec-d6f9-48ae-95a1-399e4246da3d) — Insufficient admin/service evidence.

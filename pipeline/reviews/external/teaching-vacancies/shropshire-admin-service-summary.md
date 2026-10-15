@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Shropshire
 
-review_date: 2026-10-14
-review_fingerprint: f444900ea47c322ec9f4e1f1e484c2fb5142ba0abde5ced5c4662712b2b3998a
-routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
+review_date: 2026-10-15
+review_fingerprint: 6aeb899d762f61fee6a07607f0ed1d0e4b44cf444a4c6c0f4a2c3dfc936b9455
+routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
 ontap_region: Shropshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 3
+- Records: 6
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Shropshire | Bridgnorth, West Midlands, WV16 4ER | £25,890.00 Annually (Actual) Grade 7 Point 12–17 | Admin, Finance & Admissions Officer
+employer: Bridgnorth Endowed School
+closing_date: 2026-11-06T12:00:00+00:00
+reason: Clear admin/service title: admissions officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0e9eeb1440324d65647daec319f4c379ab247e49f37555c18361936baa131df0
+source: Teaching Vacancies
+source_job_id: admin-finance-admissions-officer
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-finance-admissions-officer
+---
 
 ---
 action: 

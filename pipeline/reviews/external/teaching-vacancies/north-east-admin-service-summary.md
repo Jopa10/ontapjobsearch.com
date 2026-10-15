@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-10-14
-review_fingerprint: 7b56acad187d64b63dbc38faf73dd3b0de4dbd5e6a665457a60271c45b3ad25d
-routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
+review_date: 2026-10-15
+review_fingerprint: 3223a03205d7b3e5ba72010e94370c14e8bbbb9d92004960eac65a08108f7d84
+routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 17
-- Selected: 5
+- Selected: 6
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 9
 
 ## SELECTED
 
@@ -83,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-student
 
 ---
 action: 
+SELECTED | North East | Blyth, North East, NE24 2SY | £24,829.00 Annually (Actual) SCP10 | Attendance Officer & Administrator
+employer: Bede Academy
+closing_date: 2026-11-03T09:00:00+00:00
+reason: Clear admin/service title: administrator, attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f3f78d2125f86856b2a866a23954746eea0c32fca3498ec003c0b1df40a5e311
+source: Teaching Vacancies
+source_job_id: attendance-officer-administrator-06cb042d-aa85-4097-86df-523d555d3707
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-administrator-06cb042d-aa85-4097-86df-523d555d3707
+---
+
+---
+action: 
 SELECTED | North East | Sunderland, North East, SR5 5QL | £26,427.53 - £26,846.49 Annually (FTE) Grade C SCP 5-6 (£26,427.53 - £26,846.49) Pro Rata (£22,629.87 - £22,988.62) | School Office Administrator
 employer: Northern Saints Church of England Academy
 closing_date: 2026-10-16T12:00:00+01:00
@@ -134,7 +149,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/people-support-assist
 
 ## HARD_PASS
 
-- [Assistant Principal - Personal Development & Wellbeing](https://teaching-vacancies.service.gov.uk/jobs/assistant-principal-personal-development-wellbeing) — Out-of-scope occupation: principal.
 - [Business Lead](https://teaching-vacancies.service.gov.uk/jobs/business-lead-st-gregory-s-catholic-primary-school-south-shields-south-shields-tyne-and-wear) — Insufficient admin/service evidence.
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-st-anthony-s-girls-catholic-academy-sunderland-tyne-and-wear) — Manager title salary ceiling £42,123 is not below £28,000.
 - [Exams Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-assistant-park-view-school) — Insufficient admin/service evidence.

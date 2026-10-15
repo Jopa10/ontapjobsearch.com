@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-10-14
+review_date: 2026-10-15
 review_fingerprint: 3ea128a4c3a4dcd40fa82de033026ba006ee24d21cf154227bf547f2034dd63c
-routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
+routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
+- Records: 12
 - Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 7
 
 ## SELECTED
 
@@ -111,7 +111,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-pensions-and-
 - [People Admin Team Leader](https://teaching-vacancies.service.gov.uk/jobs/people-admin-team-leader) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-sutton-bonington-primary-school) — Manager title salary ceiling £34,811 is not below £28,000.
 - [School Business Manager ( Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-maternity-cover-keyham-lodge-school) — Manager title salary ceiling £44,109 is not below £28,000.
-- [Student Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/student-recruitment-officer) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

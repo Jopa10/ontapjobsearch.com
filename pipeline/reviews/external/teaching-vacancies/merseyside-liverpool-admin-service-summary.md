@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - Liverpool
 
-review_date: 2026-10-14
-review_fingerprint: edd73140fd84696144db0d09aa3baa11dec47b54c55bd62ba0169c5b6e5b0fae
-routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
+review_date: 2026-10-15
+review_fingerprint: bc74fb1b31a4c16a0825496074afc1fca623aa86e451b49e58adb96b49989b39
+routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
 ontap_region: Merseyside - Liverpool
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 4
 - Selected: 1
-- POSS awaiting decision: 3
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -55,21 +55,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-office
 
 ---
 action: 
-POSS | Merseyside - Liverpool | Liverpool, North West, L13 1HD | £22,300.00 - £22,654.00 Annually (Actual) Please see recruitment pack for further details | Receptionist
-employer: King's Leadership Academy Wavertree
-closing_date: 2026-10-14T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3b051b0df591c4c13e9273d0e08d11b48e2a009cc3cfd57458d0a798521d7267
-source: Teaching Vacancies
-source_job_id: receptionist-6daa74e9-7381-4a23-93df-9b2577545b8a
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-6daa74e9-7381-4a23-93df-9b2577545b8a
----
-
----
-action: 
 POSS | Merseyside - Liverpool | Liverpool, North West, L26 0TY | £28,153.00 - £31,015.00 Annually (FTE) | SEND / Pastoral Senior Administration Officer
 employer: Finch Woods Academy
 closing_date: 2026-10-22T23:59:00+01:00
@@ -89,7 +74,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-pastoral-senior-
 
 ## HARD_PASS
 
-- [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-the-laetare-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [People Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-lydiate-learning-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary

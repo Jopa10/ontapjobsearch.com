@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-10-14
-review_fingerprint: 6b326a790f583e864a25d15c5a3b8c7f6397c96828d4ee1f0ffdeae3172ab74d
-routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
+review_date: 2026-10-15
+review_fingerprint: 0e88583948777c25dac57328a187b6bbe13a0298f9c0352d61c0c6801761d3e8
+routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 15
-- Selected: 6
+- Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 7
 
 ## SELECTED
 
@@ -49,6 +49,21 @@ factual_fingerprint: 3566045bafbd5dc258ddbd5f661def164fd1d9f4cdd4e8db53c82512245
 source: Teaching Vacancies
 source_job_id: business-support-assistant-087bd7f2-00c8-4216-9f63-98fee8083d04
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-assistant-087bd7f2-00c8-4216-9f63-98fee8083d04
+---
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B37 6NU | £26,428.00 - £26,847.00 Annually (FTE) Term Time + 2 Weeks - Salary will be prorated based on weeks and hours worked | College Administrator (Term Time + 2 weeks) 12 month fixed term contract
+employer: Tudor Grange Academy Kingshurst
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5732dc6a5cab149d5b810604408da052d5ada0dcad81a7d5a3d4ddff961ffc3b
+source: Teaching Vacancies
+source_job_id: college-administrator-term-time-2-weeks-12-month-fixed-term-contract
+source_url: https://teaching-vacancies.service.gov.uk/jobs/college-administrator-term-time-2-weeks-12-month-fixed-term-contract
 ---
 
 ---
@@ -135,7 +150,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 ## HARD_PASS
 
 - [Administration](https://teaching-vacancies.service.gov.uk/jobs/administration) — Insufficient admin/service evidence.
-- [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-the-deanery-church-of-england-primary-school) — Missing salary or pay scale.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-fioretti-trust) — Insufficient admin/service evidence.
 - [Exams Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exams-invigilator-80585298-5967-4a4f-893a-2aa215609f82) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-central-region-schools-trust) — Insufficient admin/service evidence.

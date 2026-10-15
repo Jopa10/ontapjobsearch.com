@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-10-14
-review_fingerprint: 704f496d020c93b164d7d43175b9a2870a29ad30bd5bdd9ae210794fc5692fed
-routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
+review_date: 2026-10-15
+review_fingerprint: 6f2dc139c4ff378f6ea833df922986ee3749cee484ad9953df1c5e3056564c82
+routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 4
+- Records: 8
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 4
 
 ## SELECTED
-
----
-action: 
-SELECTED | Greater Manchester - North | Rochdale, North West, OL12 0ET | Grade 3, Scp 5-6, £10,787.97-£11,043.00 (£26,427-£26,847 FTE) | Administration Assistant - Level 2
-employer: St Patrick's Roman Catholic Primary School
-closing_date: 2026-10-14T23:59:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: edb84ca06584fa16776d98b0b872a98fd1b6c9343fdcb9b37a02b5108db015f4
-source: Teaching Vacancies
-source_job_id: administration-assistant-level-2-st-patrick-s-roman-catholic-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-level-2-st-patrick-s-roman-catholic-primary-school
----
 
 ---
 action: 

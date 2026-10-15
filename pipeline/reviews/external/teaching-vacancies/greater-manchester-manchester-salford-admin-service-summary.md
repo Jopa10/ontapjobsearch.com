@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-10-14
-review_fingerprint: 4ed019ee4359aefcca483c42a6647c0160d9096ea3780eb60473b8a295ad5610
-routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
+review_date: 2026-10-15
+review_fingerprint: e080935f35610628c065a9b645d4f1564f09790074222b3b64e265a7ef8cbad6
+routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -70,14 +70,29 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ab
 
 ---
 action: 
+POSS | Greater Manchester - Manchester & Salford | Manchester, North West, M16 8GW | £16,364.00 - £17,442.00 Annually (Actual) NJC Grade 4, Points 7 - 11 | HR Administrator
+employer: Whalley Range 11-18 High School
+closing_date: 2026-11-02T08:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5b9e62b407a8a67e9fdf322a3941be62d48720d1b2039bfa250631f130c9493d
+source: Teaching Vacancies
+source_job_id: hr-administrator-whalley-range-11-18-high-school-manchester-greater-manchester
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-whalley-range-11-18-high-school-manchester-greater-manchester
+---
+
+---
+action: 
 POSS | Greater Manchester - Manchester & Salford | Manchester, North West, M15 4ZB | £14.14 per hour | Reception and Administration Assistant
 employer: Crown Street Primary School
-closing_date: 2026-10-17T09:00:59+01:00
+closing_date: 2026-10-19T09:00:59+01:00
 reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 6d45efec73013b65b99186fda98deae23495bfc4249c2c32096b494e9cec72c5
+factual_fingerprint: 422afec19880be13f4e3419da5d17fa9bd6899d71e78ec4fa24935aa2b511f8c
 source: Teaching Vacancies
 source_job_id: reception-and-administration-assistant-crown-street-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-administration-assistant-crown-street-primary-school
@@ -96,21 +111,6 @@ factual_fingerprint: f9e3b5fe34693530b8d91041e647c1e238c4bb6b394dc03a1d5f23e0ad9
 source: Teaching Vacancies
 source_job_id: reception-and-administration-assistant-didsbury-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-administration-assistant-didsbury-high-school
----
-
----
-action: 
-POSS | Greater Manchester - Manchester & Salford | Manchester, North West, M44 5ZR | £24,947.00 - £28,090.00 Annually (FTE) | Receptionist
-employer: Irlam and Cadishead Academy
-closing_date: 2026-10-15T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c87578d0c2925c48ca7ba716864524b01c37a9e7c88b9579b5e8330621c94e2b
-source: Teaching Vacancies
-source_job_id: receptionist-irlam-and-cadishead-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-irlam-and-cadishead-academy
 ---
 
 ## EXCLUDED BY REVIEW

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-10-14
+review_date: 2026-10-15
 review_fingerprint: 724ff740c5340201ef49df50633239879cc5bf101b1e1d63d87273c7c0fc91e1
-routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
+routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
+- Records: 15
 - Selected: 4
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 8
 
 ## SELECTED
 
@@ -140,7 +140,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrative-ass
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-8f6cfa11-ce79-4846-bec1-d44a416c2c86) — Manager title salary ceiling £53,051 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-56c55376-78b3-4ad8-a27c-1fdc31ec9895) — Insufficient admin/service evidence.
 - [Marketing Officer](https://teaching-vacancies.service.gov.uk/jobs/marketing-officer-7e5d89f3-aa30-4103-8e70-a83b509a9118) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-aa5bd69a-1e68-49ee-bfe8-c4153301fa94) — Manager title salary ceiling £48,738 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-winslow-church-of-england-school) — Manager title salary ceiling £41,272 is not below £28,000.
 - [Trust Finance officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-stephenson-mk-trust-milton-keynes-not-recorded) — Insufficient admin/service evidence.
 

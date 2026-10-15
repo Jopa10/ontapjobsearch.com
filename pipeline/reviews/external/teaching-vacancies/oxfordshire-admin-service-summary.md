@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-10-14
-review_fingerprint: cd7c0eef8e38e2fe714385b6e6fd549418cdfe3d9b2e16666de6100d9fabab4a
-routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
+review_date: 2026-10-15
+review_fingerprint: 6e8050db906848126fdf06df2a07d53ba3f1ba5944a339c884bbc03ea20923b8
+routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 2
+- Records: 8
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 5
@@ -49,6 +49,21 @@ factual_fingerprint: 7ba1345965e9e4a944a7a8632861baec002e14e310b7251e8089138217d
 source: Teaching Vacancies
 source_job_id: student-receptionist-and-pastoral-assistant-cheney-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/student-receptionist-and-pastoral-assistant-cheney-school
+---
+
+---
+action: 
+SELECTED | Oxfordshire | Faringdon, South East, SN7 7LB | £26,016.00 - £26,427.00 Annually (FTE) Support Staff NJC grade 4, SCP 4-5. 30 hours per week/38 weeks per year. Actual annual salary in the region of £17,686 to £17,965 | Student Services Administrator
+employer: Faringdon Community College
+closing_date: 2026-11-09T12:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 308966495f1155bbacf8b672e74f562b3de8a50fda6c554da41b03c4fca94360
+source: Teaching Vacancies
+source_job_id: student-services-administrator-faringdon-community-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-administrator-faringdon-community-college
 ---
 
 ## POSS — choose SELECT or EXCLUDE

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Gloucestershire
 
-review_date: 2026-10-14
-review_fingerprint: fb3ded938b04db0a6415b6541e91ab07bbe9ac03010530f23e155a32f1b1c1cf
-routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
+review_date: 2026-10-15
+review_fingerprint: adf412a9c1823e5c9d2621505e0132305df55d0aef4048f5f151423f6e182c8f
+routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
 ontap_region: Gloucestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
-- Selected: 1
+- Records: 4
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 0
+- Hard pass: 1
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: ca11eeef85b87e24010a66b29cfc6cb75ecddaf43468db1b91d6af5fdef
 source: Teaching Vacancies
 source_job_id: lead-administrator-with-reception-duties
 source_url: https://teaching-vacancies.service.gov.uk/jobs/lead-administrator-with-reception-duties
+---
+
+---
+action: 
+SELECTED | Gloucestershire | Gloucester, South West, GL3 4QF | £8,464.32 - £8,871.56 Annually (Actual) | Part Time Receptionist
+employer: Henley Bank High School
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: aaf7d06777ef858d96aa17af082ef3495a4d0c0201fb1e86c9c42362437826de
+source: Teaching Vacancies
+source_job_id: part-time-receptionist-henley-bank-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-receptionist-henley-bank-high-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -59,7 +74,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 
 ## HARD_PASS
 
-- None.
+- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-chosen-hill-school) — Manager title without salary evidence below £28,000.
 
 ## Safety boundary
 

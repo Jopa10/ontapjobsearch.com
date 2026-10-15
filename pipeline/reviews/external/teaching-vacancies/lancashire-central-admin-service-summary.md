@@ -1,11 +1,11 @@
 # Teaching Vacancies regional review — Lancashire - Central
 
-review_date: 2026-10-14
-review_fingerprint: d5dc4e94403f99cab9effc32b7b3832e6e8289f43ee4b3a3b951f582c58b3b46
-routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
+review_date: 2026-10-15
+review_fingerprint: ce7ae2058e86e623a533d20b3de31ae41bc7e71f26e04a0bf33301153495db83
+routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
 ontap_region: Lancashire - Central
 slice_category: admin_service
-slice_status: UNREGISTERED
+slice_status: LIVE
 
 Edit only the `action:` line in each editable block.
 Blank POSS decisions remain unpublished.
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 5
 - Selected: 2
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 2
 
@@ -28,7 +28,7 @@ employer: Christ The King Catholic High School
 closing_date: 2026-10-23T15:00:00+01:00
 reason: Clear admin/service title: exams officer
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 2c6766e9dc8d9f9efa1011661666ec226f654c1b2bfc426d9a42068d34a6e214
 source: Teaching Vacancies
@@ -43,7 +43,7 @@ employer: St Ignatius' Catholic Primary School, Preston
 closing_date: 2026-10-16T12:00:00+01:00
 reason: Clear admin/service title: business support assistant
 jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
+slice_status: LIVE
 migration_status: 
 factual_fingerprint: 9e8537a3f7b6655b7d6745033b30376cccd5a19036c7025b2ebd3f6e591ed0bc
 source: Teaching Vacancies
@@ -53,7 +53,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-suppo
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Lancashire - Central | Preston, North West, PR4 6AQ | £23,155.61 - £23,895.24 Annually (Actual) FTE £26,016 - £26,847 | Receptionist
+employer: Tarleton Academy
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a9f182e9c87f4b7e25ab4846a57b7bf379ba87438fee1f90c5f6d0b636d4f5da
+source: Teaching Vacancies
+source_job_id: receptionist-tarleton-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-tarleton-academy
+---
 
 ## EXCLUDED BY REVIEW
 

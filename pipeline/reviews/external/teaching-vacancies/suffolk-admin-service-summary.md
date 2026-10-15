@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-10-14
-review_fingerprint: 07c02866e4a8eb4efbdcc8378ed7f4af9dece20a05078d7656f567cb903a39c1
-routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
+review_date: 2026-10-15
+review_fingerprint: 18b809a25ff7f6fc710dc3789138212ee69bafc368dd947201614f8da643a087
+routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -14,12 +14,42 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 8
-- Selected: 3
-- POSS awaiting decision: 3
+- Selected: 5
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 2
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Suffolk | Bungay, East of England, NR35 1RW | £10,518.00 - £13,147.00 Annually (Actual) | Administration Assistant
+employer: Bungay High School
+closing_date: 2026-10-19T09:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 35835deb87a7ea003206d25dcd58de5deed312d3646c43e74893c30816adcc5f
+source: Teaching Vacancies
+source_job_id: administration-assistant-bungay-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-bungay-high-school
+---
+
+---
+action: 
+SELECTED | Suffolk | Bungay, East of England, NR35 1RW | £10,518 for 20 hours or £13,147 for 25 hours actual pa | Administration Assistant
+employer: Bungay High School
+closing_date: 2026-10-19T01:00:00+01:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 83e320fdb10372ed0194d3b1923d97c691169f0dc8772d606cf8b39671ff04b3
+source: Teaching Vacancies
+source_job_id: administration-assistant-bungay-high-school-bungay-suffolk
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-bungay-high-school-bungay-suffolk
+---
 
 ---
 action: 
@@ -67,36 +97,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Suffolk | Bungay, East of England, NR35 1RW | £10,518.00 - £13,147.00 Annually (Actual) | Administration Assistant
-employer: Bungay High School
-closing_date: 2026-10-19T09:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 35835deb87a7ea003206d25dcd58de5deed312d3646c43e74893c30816adcc5f
-source: Teaching Vacancies
-source_job_id: administration-assistant-bungay-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-bungay-high-school
----
-
----
-action: 
-POSS | Suffolk | Bungay, East of England, NR35 1RW | £10,518 for 20 hours or £13,147 for 25 hours actual pa | Administration Assistant
-employer: Bungay High School
-closing_date: 2026-10-19T01:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 83e320fdb10372ed0194d3b1923d97c691169f0dc8772d606cf8b39671ff04b3
-source: Teaching Vacancies
-source_job_id: administration-assistant-bungay-high-school-bungay-suffolk
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-bungay-high-school-bungay-suffolk
----
 
 ---
 action: 

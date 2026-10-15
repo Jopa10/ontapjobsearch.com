@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-10-14
+review_date: 2026-10-15
 review_fingerprint: 6562b577b97b57ea787b41ac83f9d98e993f81fa4933462c1fd5a168bb2e2a0a
-routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
+routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 3
 - Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -60,7 +60,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-heritag
 ## HARD_PASS
 
 - [Exams and Assessment Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-and-assessment-officer-outwood-academy-hasland-hall) — Insufficient admin/service evidence.
-- [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-baa22bb2-6d0c-44b2-88f2-02e91a0e297e) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

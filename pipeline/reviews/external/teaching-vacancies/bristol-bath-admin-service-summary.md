@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-10-14
+review_date: 2026-10-15
 review_fingerprint: 439941bb2c29b2254aaccfd6f58e4f22a86d55e808773f52cd38a41611647c58
-routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
+routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -49,7 +49,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-downend
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-chipping-sodbury-school) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-st-bede-s-catholic-college) — Insufficient admin/service evidence.
 - [First Aid Lead & Admissions Coordinator](https://teaching-vacancies.service.gov.uk/jobs/first-aid-lead-admissions-coordinator) — Insufficient admin/service evidence.
-- [Lettings Assistant](https://teaching-vacancies.service.gov.uk/jobs/lettings-assistant-oasis-academy-john-williams) — Insufficient admin/service evidence.
+- [PA to Headteacher](https://teaching-vacancies.service.gov.uk/jobs/pa-to-headteacher-wellsway-school) — Missing salary or pay scale.
 - [Systems Developer](https://teaching-vacancies.service.gov.uk/jobs/systems-developer-cabot-learning-federation) — Insufficient admin/service evidence.
 
 ## Safety boundary

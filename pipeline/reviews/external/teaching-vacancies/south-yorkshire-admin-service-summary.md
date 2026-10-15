@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-10-14
-review_fingerprint: 9ff113c2ad00224a727785c45dac8858dd65998c6b488e8beabfc6ad9753b05a
-routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
+review_date: 2026-10-15
+review_fingerprint: aca229c4dc5a382ef94db37cf82014c7a0ef7b8a569db8e0fc445f992f8a8e7c
+routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 24
-- Selected: 5
+- Records: 28
+- Selected: 9
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 17
@@ -38,6 +38,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-clerical-office
 
 ---
 action: 
+SELECTED | Yorkshire - South | Rotherham, Yorkshire and the Humber, S63 0NU | £26,017.00 - £26,847.00 Annually (FTE) scp 4-6 Pro rata £20,660 - £21,319 | Administration Assistant
+employer: Gooseacre Primary Academy
+closing_date: 2026-10-26T23:59:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 05287e7d56ed2b3260cb1a1b557f0d7afaba96bd74bb1ae263c8a80c0b5ee21c
+source: Teaching Vacancies
+source_job_id: administration-assistant-d66559f6-ab8e-4349-b8d0-10f235e89384
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-d66559f6-ab8e-4349-b8d0-10f235e89384
+---
+
+---
+action: 
 SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S3 9BE | £32,046.00 - £34,237.00 Annually (FTE) Pro rata salary: £27,652 - £29,543 | Attendance Officer
 employer: Astrea Academy Sheffield
 closing_date: 2026-10-18T23:59:00+01:00
@@ -49,6 +64,21 @@ factual_fingerprint: 648d27c0a7911c3e5d91dbea21749111cadffe72579ab9a194735a4b3d8
 source: Teaching Vacancies
 source_job_id: attendance-officer-astrea-academy-sheffield
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-astrea-academy-sheffield
+---
+
+---
+action: 
+SELECTED | Yorkshire - South | Rotherham, S66 8AA | Band D, Point 5 to 6, £26,427 to £26,847 per annum | Estates Compliance and Administrative Assistant
+employer: Place Partnership A Multi Academy Trust
+closing_date: 2026-11-01T15:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a04a81a0550bcd24e6121ad483dc08b88caac67e8ff586db292d1a6fdd719979
+source: Teaching Vacancies
+source_job_id: estates-compliance-and-administrative-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/estates-compliance-and-administrative-assistant
 ---
 
 ---
@@ -83,6 +113,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-as
 
 ---
 action: 
+SELECTED | Yorkshire - South | Sheffield, S9 4LR | £31,015.00 - £33,673.00 Annually (Actual) Grade 5 SCP 15 to 20 | SCITT Administrator
+employer: Chorus Education Trust
+closing_date: 2026-10-18T23:59:00+01:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 752946d2d9d36048839b7d8e837c895a995e02806a18c010de56edc080fd1f14
+source: Teaching Vacancies
+source_job_id: scitt-administrator-chorus-education-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/scitt-administrator-chorus-education-trust
+---
+
+---
+action: 
 SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S26 4SF | £23,199.00 - £23,315.00 Annually (Actual) Band D Points 6 - 7. Based on full time salary of £26,340 - £26,472 - pay award pending. (plus an additional 1 week of pay if the appointee has 5 years or more continuous service with the Local Authority) | SEND Administrator
 employer: Aston Academy
 closing_date: 2026-11-16T23:59:00+00:00
@@ -94,6 +139,21 @@ factual_fingerprint: 415aa88f20672fe5afcb591ee833153fdc92efb50ec153318f620490a89
 source: Teaching Vacancies
 source_job_id: send-administrator-adcabd9c-b940-45d0-a8f0-52fec00f63a2
 source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-adcabd9c-b940-45d0-a8f0-52fec00f63a2
+---
+
+---
+action: 
+SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S26 6QP | £26,427.00 - £26,847.00 Annually (FTE) | Temporary Admin Assistant at Kiveton Park Infant School
+employer: Kiveton Park Infant School
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 490b5a7d39846bc198e7859e7ce801a3a5ae016356b4630d59bd175502315e54
+source: Teaching Vacancies
+source_job_id: temporary-admin-assistant-at-kiveton-park-infant-school-kiveton-park-infant-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/temporary-admin-assistant-at-kiveton-park-infant-school-kiveton-park-infant-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -135,8 +195,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-admin-suppor
 ## HARD_PASS
 
 - [Administrative Office Manager](https://teaching-vacancies.service.gov.uk/jobs/administrative-office-manager-hcat) — Manager title salary ceiling £33,699 is not below £28,000.
-- [Business Support Manager](https://teaching-vacancies.service.gov.uk/jobs/business-support-manager-beck-primary-school-sheffield-south-yorkshire) — Manager title salary ceiling £40,921 is not below £28,000.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-peak-edge-sheffield-not-recorded) — Insufficient admin/service evidence.
+- [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-ridgewood-school-doncaster-south-yorkshire) — Insufficient admin/service evidence.
 - [Finance & Admin Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-admin-manager-171240df-359e-4c34-b77f-8c67e1ee2d06) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-800b81f8-109d-4857-8ee1-281e2de5e328) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-minerva-learning-trust) — Insufficient admin/service evidence.
@@ -144,8 +204,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-admin-suppor
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-ce12e672-834a-4926-ac88-d9b1ed0235b4) — Manager title salary ceiling £53,500 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-99fb8e49-5fcd-4f2c-851e-e3b3f1e72d55) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-misson-primary-school) — Manager title salary ceiling £33,699 is not below £28,000.
-- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-gooseacre-primary-academy) — Manager title salary ceiling £39,773 is not below £28,000.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-42e231a7-dcef-4bf5-a3d7-0eb145f4ac02) — Insufficient admin/service evidence.
+- [School Business Manager at Wath Victoria Primary School](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-at-wath-victoria-primary-school) — Manager title salary ceiling £35,570 is not below £28,000.
 - [School Resource Business Partner](https://teaching-vacancies.service.gov.uk/jobs/school-resource-business-partner) — Insufficient admin/service evidence.
 - [Senior Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-manager-minerva-learning-trust) — Manager title salary ceiling £58,557 is not below £28,000.
 - [Senior Management Account / Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/senior-management-account-head-of-finance) — Insufficient admin/service evidence.

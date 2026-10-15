@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-10-14
-review_fingerprint: c6c9c8be4f087b3fc3117e326184e4b19711a0047af8129912e1154509d9397f
-routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
+review_date: 2026-10-15
+review_fingerprint: b9eafe2cabad45014aa0e0754331bddfe89d8043f675c6e3ab5733408d6974a6
+routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 7
+- Records: 9
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 4
@@ -45,40 +45,10 @@ reason: Clear admin/service title: receptionist, administration assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: a56b56cfba5bed03321c2a07a30eaa17affef6ba6c80b503beed29c7f699d229
+factual_fingerprint: 6bb5d5fbdc17b3fbb865e5ddfc7588f7810f7977e177faa13509e64e0e32585e
 source: Teaching Vacancies
-source_job_id: administration-assistant-receptionist-b0a5cdce-cd8a-492e-a23a-4838c9fd2813
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-receptionist-b0a5cdce-cd8a-492e-a23a-4838c9fd2813
----
-
----
-action: 
-SELECTED | Bedfordshire | Bedford, MK43 9HT | £32,046.00 - £34,811.00 Annually (Actual) (Actual £27248 - £29599) | PA to SLT and Admissions Administrator
-employer: Wootton Academy Trust
-closing_date: 2026-10-14T23:59:00+01:00
-reason: Clear admin/service title: administrator, pa to
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 38c456e9b62cb155b950644378f7c81a8e7dea05b7df6b67e92cb8bf4023f2f0
-source: Teaching Vacancies
-source_job_id: pa-to-slt-and-admissions-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-slt-and-admissions-administrator
----
-
----
-action: 
-SELECTED | Bedfordshire | Bedford, East of England, MK42 7LJ | £14,269.00 - £14,495.00 Annually (Actual) NJC L2 pt 4 - 5 | Receptionist/Admin Assistant
-employer: Springfield Primary School
-closing_date: 2026-10-15T09:00:00+01:00
-reason: Clear admin/service title: admin assistant, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 7f10e5b2b9a8cef0f18d12a14b80ec349280f4330b849b70d8786714e6ca7cf4
-source: Teaching Vacancies
-source_job_id: receptionist-admin-assistant-springfield-primary-school-bedford-bedfordshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-springfield-primary-school-bedford-bedfordshire
+source_job_id: administration-assistant-receptionist-c822ff8b-c75d-4a91-a4a3-0b0ba42c70f9
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-receptionist-c822ff8b-c75d-4a91-a4a3-0b0ba42c70f9
 ---
 
 ---

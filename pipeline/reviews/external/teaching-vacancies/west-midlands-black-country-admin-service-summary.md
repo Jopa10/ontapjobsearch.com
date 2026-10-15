@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-10-14
-review_fingerprint: 67d708d731efbaed89a91928b433a0e5c61ed44b347fa99fef53c10b2c790b1a
-routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
+review_date: 2026-10-15
+review_fingerprint: 3061b74b524d60d46dbe90a4db3a191cb4600ad85edd1793dc264e25f378d6ac
+routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
+- Records: 16
 - Selected: 3
-- POSS awaiting decision: 5
+- POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 9
 
 ## SELECTED
 
@@ -67,21 +67,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-n
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | West Midlands - Black Country | Wednesbury, West Midlands, WS10 9AR | £21,500.00 Annually (Actual) Sandwell Grade B pt 5 | Clerical Assistant- School Office
-employer: St John's Church of England Primary Academy
-closing_date: 2026-10-14T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3616c369f9fec8efb332e6da9c586b577bd86bd9165b7166b59d65425c384502
-source: Teaching Vacancies
-source_job_id: clerical-assistant-school-office
-source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-school-office
----
 
 ---
 action: 
@@ -151,7 +136,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-elston-h
 
 - [Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/cover-manager-perryfields-academy) — Manager title salary ceiling £34,812 is not below £28,000.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-ormiston-shelfield-community-academy-walsall-west-midlands) — Manager title salary ceiling £37,563 is not below £28,000.
+- [Exam Invigilators](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilators-ecfad9cd-e181-4168-a518-c94807aa906f) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-st-chad-s-academies-trust) — Manager title salary ceiling £65,035 is not below £28,000.
+- [Head of Estates and Capital Strategy](https://teaching-vacancies.service.gov.uk/jobs/head-of-estates-and-capital-strategy) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-5f4d4502-0d91-4091-b646-cbfc76dcdfb2) — Insufficient admin/service evidence.
 - [Human Resources Assistant](https://teaching-vacancies.service.gov.uk/jobs/human-resources-assistant-highfields-school) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-jesson-s-church-of-england-primary-school) — Manager title without salary evidence below £28,000.

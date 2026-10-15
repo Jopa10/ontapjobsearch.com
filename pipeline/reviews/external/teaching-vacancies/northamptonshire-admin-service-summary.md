@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-10-14
-review_fingerprint: 813faa96a50ea2beda2450c071a849a98a71049038fb8f48547acde05f9b26c6
-routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
+review_date: 2026-10-15
+review_fingerprint: 7f291bd67e36a4b368f9026fbb5c2ebbe1ab9dd0106e2778d6a2841c04da2db9
+routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 2
-- POSS awaiting decision: 2
+- Records: 12
+- Selected: 3
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 8
 
 ## SELECTED
 
@@ -51,22 +51,22 @@ source_job_id: designated-specialist-provision-dsp-admin-assistant-moulton-schoo
 source_url: https://teaching-vacancies.service.gov.uk/jobs/designated-specialist-provision-dsp-admin-assistant-moulton-school-and-science-college-northampton-northamptonshire
 ---
 
-## POSS — choose SELECT or EXCLUDE
-
 ---
 action: 
-POSS | Northamptonshire | Northampton, East Midlands, NN6 6HU | £26,846.00 - £27,274.00 Annually (FTE) £18702.88 Actual Salary | Administrator
-employer: Welford Sibbertoft and Sulby Endowed School
-closing_date: 2026-10-15T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
+SELECTED | Northamptonshire | Northampton, East Midlands, NN3 6HT | £26,016.00 Annually (FTE) Grade E Scale point 4 | School Administrator - SLT Support
+employer: St Thomas Becket Catholic School
+closing_date: 2026-10-27T12:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: b5862d4c7d669e082bfb20f6a8500220add860c986216d75820b2fe0cb6cca2a
+factual_fingerprint: 020aebc015b31f2026d69cec69ac89bda3fd5115a4b146951a942d673aef481c
 source: Teaching Vacancies
-source_job_id: administrator-welford-sibbertoft-and-sulby-endowed-school-northampton-northamptonshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-welford-sibbertoft-and-sulby-endowed-school-northampton-northamptonshire
+source_job_id: school-administrator-slt-support
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-slt-support
 ---
+
+## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 
@@ -91,8 +91,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-administra
 
 - [Academy Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/academy-operations-manager-malcolm-arnold-academy-northampton-northamptonshire) — Manager title salary ceiling £44,253 is not below £28,000.
 - [Data Apprentice](https://teaching-vacancies.service.gov.uk/jobs/data-apprentice-dslv-e-act-academy) — Insufficient admin/service evidence.
+- [Finance and HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-and-hr-assistant-greenfields-specialist-school-for-communication-northampton-northamptonshire) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-bishop-stopford-school) — Insufficient admin/service evidence.
-- [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-creating-tomorrow-multi-academy-trust) — Insufficient admin/service evidence.
+- [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-weavers-academy) — Insufficient admin/service evidence.
 - [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-creating-tomorrow-multi-academy-trust-kettering-not-recorded) — Insufficient admin/service evidence.
 - [Reprographics and Resource Assistant (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/reprographics-and-resource-assistant-maternity-cover) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-gloucester-nursery-school) — Manager title salary ceiling £38,510 is not below £28,000.

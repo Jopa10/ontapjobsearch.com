@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands
 
-review_date: 2026-10-14
+review_date: 2026-10-15
 review_fingerprint: 92a6244f63ce6d0187d30d5552cd30e0f74391a465d7b9e487b94663ad68e260
-routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
+routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
 ontap_region: West Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
+- Records: 2
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 0
+- Hard pass: 1
 
 ## SELECTED
 
@@ -46,7 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ## HARD_PASS
 
-- None.
+- [Clerical Assistant - General Level 2](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-general-level-2-james-bateman-middle-school-biddulph-staffordshire) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

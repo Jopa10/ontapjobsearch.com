@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-10-14
-review_fingerprint: 7adb2f12f139fdef914a841611d58662bb55e659924ef4d03745e2ba097886a0
-routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
+review_date: 2026-10-15
+review_fingerprint: e2a51f1bbf490a18c4dd45aff4c9f8cc016d8ffbfa3e0946dd2144f8759a4a6a
+routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 5
+- Records: 15
+- Selected: 6
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 9
@@ -53,17 +53,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
-SELECTED | Essex | Maldon, East of England, CM9 8PN | Pay: Scale 3 (Point 6 - 7) (£26,847 - £27,274) pro rata. | Administration Assistant
-employer: Great Totham Primary School
-closing_date: 2026-10-15T12:00:00+01:00
-reason: Clear admin/service title: administration assistant
+SELECTED | Essex | Stanford-le-Hope, East of England, SS17 8JT | £22,687 | Administrator: Reprographics
+employer: Mossbourne Fobbing Academy
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 533519c4f5e2861351e3d8bc5c1d22798545a8b6c0dbcd9b9018c62771d181dc
+factual_fingerprint: 8ec4c4542c5bcbea1feff64c5d2fc7cac4ae861ed4cd8533d9968ebdcb376e70
 source: Teaching Vacancies
-source_job_id: administration-assistant-great-totham-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-great-totham-primary-school
+source_job_id: administrator-reprographics-mossbourne-fobbing-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-reprographics-mossbourne-fobbing-academy
 ---
 
 ---
@@ -79,6 +79,21 @@ factual_fingerprint: b63fc0d436dfe985a9d3d49affbbf9abf5d79c3cd0d07a1e12a20d55f84
 source: Teaching Vacancies
 source_job_id: receptionist-the-eastwood-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-the-eastwood-academy
+---
+
+---
+action: 
+SELECTED | Essex | Witham, East of England, CM8 1EP | £8299 - £8562 per annum | Receptionist (Student Services)
+employer: Lift Maltings
+closing_date: 2026-10-29T07:55:52+00:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9ac128511b2a1b731b9648fdcf93b7c71d6c3c0f4d0f575286080f0aabfe781f
+source: Teaching Vacancies
+source_job_id: receptionist-student-services
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-student-services
 ---
 
 ---
@@ -111,7 +126,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrative-a
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-mossbourne-port-side-academy) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-discovery-educational-trust-brentwood-not-recorded) — Insufficient admin/service evidence.
 - [SEND Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/send-administration-assistant-colne-community-school) — Insufficient admin/service evidence.
-- [Senior HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-7fdfdda1-d192-4d5b-97af-7b3fd8dab45b) — Insufficient admin/service evidence.
+- [Senior HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-350f15ec-6ca7-47eb-90e2-1629046cf441) — Insufficient admin/service evidence.
 - [STUDENT ATTENDANCE AND INCLUSION MANAGER](https://teaching-vacancies.service.gov.uk/jobs/student-attendance-and-inclusion-manager-503e1cdc-f886-497b-8b9a-ca3c1f6b7938) — Manager title without salary evidence below £28,000.
 - [Support Manager](https://teaching-vacancies.service.gov.uk/jobs/support-manager-little-thurrock-primary-school) — Manager title salary ceiling £33,495 is not below £28,000.
 - [Trust Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-discovery-educational-trust) — Insufficient admin/service evidence.

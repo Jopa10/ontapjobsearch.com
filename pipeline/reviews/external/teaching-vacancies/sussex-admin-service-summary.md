@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-10-14
-review_fingerprint: d76a6fd30c457abc2deb9a8b9d41975b1a590ed89443812e140fa2e1ec70d2b9
-routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
+review_date: 2026-10-15
+review_fingerprint: 3ffb7848182fdf836c563128fbc5d8d66cd331e7d2aa5e65dfde7536b3fc99a4
+routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 4
+- Records: 6
+- Selected: 3
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 0
@@ -66,21 +66,6 @@ source_job_id: attendance-officer-oakwood-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-oakwood-primary-academy
 ---
 
----
-action: 
-SELECTED | Sussex | Crawley, South East, RH10 3AG | £28,546.00 - £30,581.00 Annually (FTE) pro rata £13,643.30 based on 20 hours p/w | Senior Leadership Team Administrator
-employer: Milton Mount Primary School
-closing_date: 2026-10-15T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9425b5a9c0e544fbffc2af82c6b8deab33acca0de2b4a6866b84db454ac18cd1
-source: Teaching Vacancies
-source_job_id: senior-leadership-team-administrator-milton-mount-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-leadership-team-administrator-milton-mount-primary-school
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -100,6 +85,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-st-leon
 
 ---
 action: 
+POSS | Sussex | Lewes, South East, BN7 3AE | Between £25,729 - £28,796 per annum | EAG Advisor
+employer: Plumpton College
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 214d78cb3e2069424c697a57ac61e9b654b91a3c18b3b498d35ba67ebb396096
+source: Teaching Vacancies
+source_job_id: eag-advisor
+source_url: https://teaching-vacancies.service.gov.uk/jobs/eag-advisor
+---
+
+---
+action: 
 POSS | Sussex | Bognor Regis, South East, PO22 8EL | £25,583 to £25,989 | Finance Administrator
 employer: Felpham Community College
 closing_date: 2026-10-19T09:00:00+01:00
@@ -111,21 +111,6 @@ factual_fingerprint: 903106ef13107b94b4dea4f3952ab55ef4523b23a94140be9547b26a2eb
 source: Teaching Vacancies
 source_job_id: finance-administrator-felpham-community-college
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-felpham-community-college
----
-
----
-action: 
-POSS | Sussex | Crawley, South East, RH10 6DG | Associate 3 Actual Salary - £21,643.44 to £23,380. | Office Manager
-employer: Southgate Primary
-closing_date: 2026-10-14T23:59:59+01:00
-reason: Manager title below £28,000 salary ceiling requires review
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 38aa431f36df9d158d1de52563f0f46b852796672497a2da9f460542843396fc
-source: Teaching Vacancies
-source_job_id: office-manager-southgate-primary-crawley-west-sussex
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-southgate-primary-crawley-west-sussex
 ---
 
 ## EXCLUDED BY REVIEW

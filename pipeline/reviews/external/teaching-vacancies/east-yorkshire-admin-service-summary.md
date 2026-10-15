@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - East
 
-review_date: 2026-10-14
+review_date: 2026-10-15
 review_fingerprint: bd6a25294b11908ae41fcd23136c430c9a9ea172bff2acb4f90a4285bcd21100
-routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
+routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
 ontap_region: Yorkshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 2
 - Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 0
 
 ## SELECTED
 
@@ -59,7 +59,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-office
 
 ## HARD_PASS
 
-- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-maybury-primary-school) — Insufficient admin/service evidence.
+- None.
 
 ## Safety boundary
 

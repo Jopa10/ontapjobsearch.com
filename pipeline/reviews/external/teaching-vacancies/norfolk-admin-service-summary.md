@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-10-14
+review_date: 2026-10-15
 review_fingerprint: aa6e9a27ca6009b3ab177a861db291799f9ae55f023d890de8b0f4bb305afacc
-routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
+routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -121,12 +121,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-parkway
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-queen-s-hill-primary-school) — Insufficient admin/service evidence.
 - [Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-diss-infant-academy-and-nursery) — Insufficient admin/service evidence.
-- [Admissions and Outreach Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-outreach-coordinator-university-technical-college-norfolk) — Insufficient admin/service evidence.
+- [Admissions and Marketing Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-marketing-coordinator-university-technical-college-norfolk) — Insufficient admin/service evidence.
 - [Admissions and Outreach Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-outreach-coordinator-university-technical-college-norfolk-norwich-norfolk) — Insufficient admin/service evidence.
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-browick-road-primary-and-nursery-school-wymondham-norfolk) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-queen-s-hill-primary-school) — Insufficient admin/service evidence.
 - [Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/procurement-manager-st-john-the-baptist-catholic-multi-academy-trust) — Manager title salary ceiling £49,816 is not below £28,000.
-- [Transport Assistant](https://teaching-vacancies.service.gov.uk/jobs/transport-assistant) — Insufficient admin/service evidence.
+- [Trust Data Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-data-manager-wymondham-college) — Manager title salary ceiling £48,738 is not below £28,000.
 
 ## Safety boundary
 

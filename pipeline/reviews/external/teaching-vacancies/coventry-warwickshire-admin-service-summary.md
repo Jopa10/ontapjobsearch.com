@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-10-14
-review_fingerprint: a0031ed9e92b00355752f88a3116f8c438dc96229e51446e337b5dea02ac2780
-routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
+review_date: 2026-10-15
+review_fingerprint: 31d5a58a51adce42f94912791ffcefb764c476f6910601aed888146ce0c2bbb7
+routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -38,17 +38,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV4 9WT | £26,016.00 - £27,274.00 Annually (FTE) Grade 3 , Actual Salary £21660- £22708 per annum | Administrative Assistant (Data)
-employer: Finham Park 2
-closing_date: 2026-10-15T09:00:00+01:00
-reason: Clear admin/service title: administrative assistant
+SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV1 4BU | Grade 5, £29,837 - £35,940 per annum (£27,219 - £35,940 per annum pro-rata) | EXAMS OFFICER, BARR’S HILL SCHOOL
+employer: Barr's Hill School
+closing_date: 2026-10-30T23:59:00+00:00
+reason: Clear admin/service title: exams officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 5e4580d7c593af95f3dc8e020c95fe8530cb842c706f5431b003b41a93247afc
+factual_fingerprint: 8eb160cb6d5b266d2fdfd2e11ae427754091c83bd3f3ef6e82d05e0f3a79e044
 source: Teaching Vacancies
-source_job_id: administrative-assistant-data-finham-park-2
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-data-finham-park-2
+source_job_id: exams-officer-barr-s-hill-school-barr-s-hill-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-barr-s-hill-school-barr-s-hill-school
 ---
 
 ---

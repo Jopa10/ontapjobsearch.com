@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-10-14
-review_fingerprint: aa434faad328b83a36dedf68930a222a93d2d17e27d87ca83fcb3238ecd661cd
-routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
+review_date: 2026-10-15
+review_fingerprint: 0f9209cad04a2b7f99c71b2bbdf8513b41370faffd4502e500872291de3f71df
+routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
+- Records: 18
 - Selected: 5
 - POSS awaiting decision: 4
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 9
 
 ## SELECTED
 
@@ -53,21 +53,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/general-support-admin
 
 ---
 action: 
-SELECTED | Devon | Plymouth, South West, PL1 5QG | Full time | Fixed Term Maternity | £27,432 per annum | MIS Administrator (Maternity Cover)
-employer: City College Plymouth
-closing_date: 2026-10-14T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 92e02ea4bfa2301e58a8b1f7d5318e02108ea0107737c7d80868a6f77b27ca00
-source: Teaching Vacancies
-source_job_id: mis-administrator-maternity-cover
-source_url: https://teaching-vacancies.service.gov.uk/jobs/mis-administrator-maternity-cover
----
-
----
-action: 
 SELECTED | Devon | Exeter, South West, EX2 8RQ | £26,847 - £27,274 per annum FTE | Nursery Administrator
 employer: Alphington Primary School
 closing_date: 2026-11-11T09:00:00+00:00
@@ -94,6 +79,21 @@ factual_fingerprint: b8c30f63380f5f8e84f09ffd420b65364263862b7b27a8303afcab06724
 source: Teaching Vacancies
 source_job_id: people-administrator-dartmoor-multi-academy-trust-okehampton-not-recorded
 source_url: https://teaching-vacancies.service.gov.uk/jobs/people-administrator-dartmoor-multi-academy-trust-okehampton-not-recorded
+---
+
+---
+action: 
+SELECTED | Devon | Plymouth, South West, PL6 5ES | Grade C, Point 5-7 | Receptionist and Administrative Assistant
+employer: Woodlands School
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Clear admin/service title: administrative assistant, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5952cf5a92b4e4cab324540c1a6d33c3076e703ffcaea9b2ceb0a3631b1791a3
+source: Teaching Vacancies
+source_job_id: receptionist-and-administrative-assistant-woodlands-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administrative-assistant-woodlands-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -167,6 +167,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 - [Assistant Principal (Attendance, Personal Development and Wellbeing)](https://teaching-vacancies.service.gov.uk/jobs/assistant-principal-attendance-personal-development-and-wellbeing) — Out-of-scope occupation: principal.
 - [Behaviour Mentor](https://teaching-vacancies.service.gov.uk/jobs/behaviour-mentor-c0b5a4c8-a0a6-4637-b443-318248416339) — Insufficient admin/service evidence.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-78c3b3d0-c36c-40c6-bd99-f09dc92f1c31) — Insufficient admin/service evidence.
+- [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-chulmleigh-community-college-chulmleigh-devon) — Missing salary or pay scale.
 - [Finance Business Partner - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-maternity-cover) — Insufficient admin/service evidence.
 - [Marketing and Communications Lead](https://teaching-vacancies.service.gov.uk/jobs/marketing-and-communications-lead-learning-academies-trust) — Insufficient admin/service evidence.
 - [People Advisor ( Devon Cluster)](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-devon-cluster) — Insufficient admin/service evidence.

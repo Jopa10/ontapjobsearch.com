@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-10-14
-review_fingerprint: 11a2c84a06c87d1e631249d0c0fd4feb8ecf9a9f33f86440c80e8a454653aff7
-routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
+review_date: 2026-10-15
+review_fingerprint: 6277d18579abc13c196a4766956cdeffcab7573828e09cdfb833ab8d3c93eb89
+routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,43 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
-- Selected: 3
-- POSS awaiting decision: 6
+- Records: 26
+- Selected: 7
+- POSS awaiting decision: 7
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 12
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG9 1AE | £22,611 Actual Salary (£26,016 FTE) | Administrative Assistant
+employer: Round Hill Primary School
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5249ac1ff6f3cd2364ed55ea066f7ba075713515808cbe6492679f4a051f3f4b
+source: Teaching Vacancies
+source_job_id: administrative-assistant-round-hill-primary-school-nottingham-nottinghamshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-round-hill-primary-school-nottingham-nottinghamshire
+---
+
+---
+action: 
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG5 6NZ | £24,234.00 - £25,823.00 Annually (Actual) NJC6 - NJC10 | Finance Administrator - Including Trips and Visits
+employer: Arnold Hill Spencer Academy
+closing_date: 2026-11-03T23:59:00+00:00
+reason: Clear admin/service title: administrator, finance administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a43e63f549f59ce3d035a3c97619c1f4a7d6fa5451b904f3f7f8e19dc1a04239
+source: Teaching Vacancies
+source_job_id: finance-administrator-including-trips-and-visits
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-including-trips-and-visits
+---
 
 ---
 action: 
@@ -34,6 +64,21 @@ factual_fingerprint: ad7273005b193c41a4e48c2df4a7de82c5b5bcc9a6ee58035a9dec2bf71
 source: Teaching Vacancies
 source_job_id: inclusion-administrator-outwood-academy-kirkby
 source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrator-outwood-academy-kirkby
+---
+
+---
+action: 
+SELECTED | Nottinghamshire | Nottingham, NG9 6RZ | £16,719.00 - £17,824.00 Annually (Actual) Part time, Term time only, NJC 8-12 (26 hours) | Office Administrator - SALT Team
+employer: The Spencer Academies Trust
+closing_date: 2026-10-23T12:00:00+01:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8281906ab2abc99cf6a63de61f88493ee31ddce89c76509da364572597de7c44
+source: Teaching Vacancies
+source_job_id: office-administrator-salt-team
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-salt-team
 ---
 
 ---
@@ -66,6 +111,21 @@ source_job_id: school-administrator-redmile-church-of-england-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-redmile-church-of-england-primary-school
 ---
 
+---
+action: 
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG17 8EE | Grade 4 | Senior Office Administrative Assistant
+employer: The West Park Academy
+closing_date: 2026-11-02T23:59:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b43f05e980f35493bcbd49fe4177f85daeccb1d210d5cf0d3e78876673a9ef80
+source: Teaching Vacancies
+source_job_id: senior-office-administrative-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrative-assistant
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -96,6 +156,21 @@ factual_fingerprint: dee9a6bc4e6eae9c58317f0f2151ccd9c0dec507a6075ba6a93439965ee
 source: Teaching Vacancies
 source_job_id: administrative-assistant-stanhope-primary-and-nursery-school-nottingham-nottinghamshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-stanhope-primary-and-nursery-school-nottingham-nottinghamshire
+---
+
+---
+action: 
+POSS | Nottinghamshire | Nottingham, NG3 5LR | £26,403.00 Annually (FTE) GAT 5/6 | Administrator
+employer: Greenwood Academies Trust
+closing_date: 2026-10-21T23:59:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a5b6fadf7d0db4853508ce2bb9a0e3feff11345028c014b4f985a80cad07a49b
+source: Teaching Vacancies
+source_job_id: administrator-greenwood-academies-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-greenwood-academies-trust
 ---
 
 ---
@@ -145,17 +220,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 
 ---
 action: 
-POSS | Nottinghamshire | Nottingham, NG9 6RZ | £16,719.00 - £17,824.00 Annually (Actual) Part time, Term time only, NJC 8-12 (26 hours) | SALT Administrator
-employer: The Spencer Academies Trust
-closing_date: 2026-10-23T12:00:00+01:00
+POSS | Nottinghamshire | Nottingham, East Midlands, NG4 3SH | Redhill Academy Trust pay scale BAND 6 | Receptionist Administrator
+employer: Carlton Academy
+closing_date: 2026-10-30T12:00:00+00:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: d134d4df5c798b4bb686de80c1464d6b9cedb33de18584b55ac5934623bf89c6
+factual_fingerprint: e2ecd36e881d792b9bb4ed90e1fa98a828884ecfc966c0cc91fa1a29b0ef47e4
 source: Teaching Vacancies
-source_job_id: salt-administrator-the-spencer-academies-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/salt-administrator-the-spencer-academies-trust
+source_job_id: receptionist-administrator-carlton-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-carlton-academy
 ---
 
 ## EXCLUDED BY REVIEW
@@ -168,6 +243,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/salt-administrator-th
 - [Communications & Marketing Assistant](https://teaching-vacancies.service.gov.uk/jobs/communications-marketing-assistant) — Insufficient admin/service evidence.
 - [Data & MIS Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-mis-assistant) — Insufficient admin/service evidence.
 - [Data Protection Support Officer](https://teaching-vacancies.service.gov.uk/jobs/data-protection-support-officer) — Insufficient admin/service evidence.
+- [Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/examinations-manager-rushcliffe-spencer-academy) — Manager title salary ceiling £35,096 is not below £28,000.
 - [Exams and Assessment Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-and-assessment-officer-outwood-academy-kirkby) — Insufficient admin/service evidence.
 - [Marketing Apprentice](https://teaching-vacancies.service.gov.uk/jobs/marketing-apprentice-carlton-academy) — Insufficient admin/service evidence.
 - [People & Culture Business Partner](https://teaching-vacancies.service.gov.uk/jobs/people-culture-business-partner-tapestry-learning-partnership-nottingham-not-recorded) — Insufficient admin/service evidence.

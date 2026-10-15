@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - East
 
-review_date: 2026-10-14
+review_date: 2026-10-15
 review_fingerprint: 6d436e63dd4c2f3a61d97e93aa8d2a2c01a06727b669ae5a203cded9c03effea
-routing_manifest_sha256: 980187f6ff90de667a56b121d1c57d88c8c6abe14df2ef0854c5c4fd4ad4a98d
+routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
 ontap_region: Cheshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 2
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 0
 
 ## SELECTED
 
@@ -61,8 +61,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administra
 
 ## HARD_PASS
 
-- [Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-manager-the-fallibroome-academy) — Manager title salary ceiling £29,745 is not below £28,000.
-- [Part Time Administration Assistant (Finance)](https://teaching-vacancies.service.gov.uk/jobs/part-time-administration-assistant-finance) — Insufficient admin/service evidence.
+- None.
 
 ## Safety boundary
 
