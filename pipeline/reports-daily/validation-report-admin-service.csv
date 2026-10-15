@@ -1,7 +1,7 @@
 ﻿metric,value
 total rows input,20000
-total rows included,2200
-total rows dropped,17607
+total rows included,2240
+total rows dropped,17562
 title classification count - HIGH_CONFIDENCE,2253
 title classification count - ELASTIC_FIT,498
 title classification count - REVIEW_CONTEXT_DEPENDENT,5
@@ -151,6 +151,14 @@ anchor elastic count - Cornwall,0
 other elastic count - Cornwall,1
 total rows output - Cornwall,9
 job_id included - Cornwall,23643_225717855; 23643_225615506; 2060190; 2067408; 2024650; 2048675; 2057224; 23643_225713063; 108063079
+selection scenario - Cumbria - North,SCENARIO_2_COMPLETE_HC_PLUS_ANCHOR_ELASTIC
+selection message - Cumbria - North,Cumbria - North selection complete: all 12 selected role(s) are HIGH_CONFIDENCE plus Carlisle ELASTIC_FIT roles.
+credible total - Cumbria - North,12
+high confidence count - Cumbria - North,11
+anchor elastic count - Cumbria - North,1
+other elastic count - Cumbria - North,0
+total rows output - Cumbria - North,12
+job_id included - Cumbria - North,23643_225633252; 2040185; 2041885; 23643_225662905; 2044914; 108058213; 23643_225713337; 23643_225714756; 23643_225615424; 23643_225708854; 2027354; 23643_225695506
 selection scenario - Derbyshire,SCENARIO_3_MANUAL_SELECTION_APPLIED
 selection message - Derbyshire,Derbyshire manual_select applied additively: 1 row(s) prioritised; 28 selected.
 credible total - Derbyshire,28
@@ -239,6 +247,14 @@ anchor elastic count - Hertfordshire,0
 other elastic count - Hertfordshire,15
 total rows output - Hertfordshire,71
 job_id included - Hertfordshire,2067329; 2088448; 23643_225626116; 23643_225629447; 23643_225513800; 23643_225637970; 23643_225539295; 2013461; 23643_225639347; 23643_225647159; 23643_225647054; 23643_225651420; 23643_225645817; 23643_225658823; 2040204; 2044300; 2049840; 2047782; 2052117; 2051739; 2055885; 23643_225671455; 2060294; 23643_225674659; 23643_225676899; 2058650; 2063439; 2062414; 2067432; 23643_225680463; 23643_225683492; 2074917; 2077881; 2076568; 2076178; 23643_225687259; 23643_225688361; 23643_225692179; 23643_225691436; 23643_225694409; 2076989; 23643_225553115; 23643_225698178; 23643_225697596; 23643_225700035; 23643_225707283; 23643_225710283; 23643_225714630; 23643_225714273; 23643_225717547; 23643_225718737; 23643_225720250; 23643_225721220; 23643_225721826; 23643_225724232; 23643_225725073; 23643_225624206; 23643_225625869; 23643_225626635; 23643_225631874; 2013521; 23643_225647356; 23643_225645917; 23643_225657503; 23643_225680684; 23643_225690021; 2064628; 23643_225702637; 23643_225705419; 23643_225716140; 23643_225716356
+selection scenario - Lancashire - Central,SCENARIO_2_COMPLETE_HC_PLUS_ANCHOR_ELASTIC
+selection message - Lancashire - Central,Lancashire - Central selection complete: all 10 selected role(s) are HIGH_CONFIDENCE plus Preston ELASTIC_FIT roles.
+credible total - Lancashire - Central,10
+high confidence count - Lancashire - Central,9
+anchor elastic count - Lancashire - Central,1
+other elastic count - Lancashire - Central,0
+total rows output - Lancashire - Central,10
+job_id included - Lancashire - Central,2017921; 23643_225659216; 2041652; 23643_225681042; 23643_225692893; 23643_225612550; 23643_225684959; 2046060; 23643_225714194; 23643_225716967
 selection scenario - Lancashire - East,SCENARIO_3_FULL_VALID_SELECTION
 selection message - Lancashire - East,"Lancashire - East selection complete: all 9 valid selected role(s) retained after HIGH_CONFIDENCE, Blackburn ELASTIC_FIT and other ELASTIC_FIT ordering."
 credible total - Lancashire - East,9
@@ -287,6 +303,14 @@ anchor elastic count - North Scotland,1
 other elastic count - North Scotland,2
 total rows output - North Scotland,12
 job_id included - North Scotland,23643_225628171; 2017882; 23643_225715981; 23643_225616644; 23643_225543269; 2063984; 23643_225686466; 23643_225723757; 23643_225615311; 23643_225614866; 23643_225625911; 23643_225711224
+selection scenario - North Wales - East,SCENARIO_3_FULL_VALID_SELECTION
+selection message - North Wales - East,"North Wales - East selection complete: all 7 valid selected role(s) retained after HIGH_CONFIDENCE, Wrexham ELASTIC_FIT and other ELASTIC_FIT ordering."
+credible total - North Wales - East,7
+high confidence count - North Wales - East,5
+anchor elastic count - North Wales - East,1
+other elastic count - North Wales - East,1
+total rows output - North Wales - East,7
+job_id included - North Wales - East,2028569; 23643_225672332; 23643_225678347; 23643_225624582; 23643_225705105; 23643_225717820; 23643_225682550
 selection scenario - Northamptonshire,SCENARIO_3_MANUAL_SELECTION_APPLIED
 selection message - Northamptonshire,Northamptonshire manual_select applied additively: 2 row(s) prioritised; 46 selected.
 credible total - Northamptonshire,46
@@ -327,6 +351,14 @@ anchor elastic count - Scotland Central - Edinburgh & Lothians,4
 other elastic count - Scotland Central - Edinburgh & Lothians,0
 total rows output - Scotland Central - Edinburgh & Lothians,32
 job_id included - Scotland Central - Edinburgh & Lothians,23643_225620197; 23643_225626555; 23643_225630841; 23643_225636683; 23643_225638905; 23643_225646040; 23643_225647038; 23643_225645865; 23643_225647939; 23643_225650324; 23643_225655590; 23643_225671486; 23643_225694844; 23643_225694186; 23643_225696402; 23643_225708327; 23643_225708655; 107916313; 23643_225259697; 23643_225645966; 23643_225660472; 23643_225718730; 23643_225718450; 23643_225719385; 23643_225613219; 23643_225614535; 23643_225615039; 23643_225633409; 23643_225666579; 23643_225694101; 23643_225697241; 23643_225717067
+selection scenario - Scotland Central - Falkirk & Stirling,SCENARIO_1_COMPLETE_HC_ONLY
+selection message - Scotland Central - Falkirk & Stirling,Scotland Central - Falkirk & Stirling selection complete: all 8 selected role(s) are HIGH_CONFIDENCE or FORCE_INCLUDE; Stirling HC roles protected in ordering.
+credible total - Scotland Central - Falkirk & Stirling,8
+high confidence count - Scotland Central - Falkirk & Stirling,8
+anchor elastic count - Scotland Central - Falkirk & Stirling,0
+other elastic count - Scotland Central - Falkirk & Stirling,0
+total rows output - Scotland Central - Falkirk & Stirling,8
+job_id included - Scotland Central - Falkirk & Stirling,2057368; 23643_225680443; 2074901; 23643_225696195; 23643_225616589; 23643_225616569; 23643_225724844; 23643_225725787
 selection scenario - Scotland Central - Fife,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
 selection message - Scotland Central - Fife,Scotland Central - Fife selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
 credible total - Scotland Central - Fife,5
@@ -391,6 +423,14 @@ anchor elastic count - Wales South - Cardiff & Vale,3
 other elastic count - Wales South - Cardiff & Vale,0
 total rows output - Wales South - Cardiff & Vale,20
 job_id included - Wales South - Cardiff & Vale,23643_225624576; 23643_225630492; 2057385; 23643_225671270; 2059106; 23643_225677206; 23643_225675600; 2078303; 23643_225691400; 23643_225690422; 2092062; 23643_225716856; 20279_62802-15fe4c84181266b2a56e090b8736c75e; 20279_62802-d7c6b8836d8aad88b024254f869d65a8; 20279_62802-f8145293a99ee8a5fe099e7dc9419d9b; 20279_62802-85269a08ed0b6ec178c60afb43d9fa54; 23643_225723768; 23643_225678380; 23643_225690978; 23643_225692612
+selection scenario - Wales South - Gwent,SCENARIO_4_BELOW_PUBLISH_THRESHOLD
+selection message - Wales South - Gwent,Wales South - Gwent selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
+credible total - Wales South - Gwent,3
+high confidence count - Wales South - Gwent,2
+anchor elastic count - Wales South - Gwent,0
+other elastic count - Wales South - Gwent,1
+total rows output - Wales South - Gwent,3
+job_id included - Wales South - Gwent,23643_225632867; 2052979; 23643_225663430
 selection scenario - Wales South - Swansea Bay,SCENARIO_3_FULL_VALID_SELECTION
 selection message - Wales South - Swansea Bay,"Wales South - Swansea Bay selection complete: all 18 valid selected role(s) retained after HIGH_CONFIDENCE, Swansea ELASTIC_FIT and other ELASTIC_FIT ordering."
 credible total - Wales South - Swansea Bay,18

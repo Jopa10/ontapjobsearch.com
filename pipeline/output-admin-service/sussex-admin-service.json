@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-senior-leadership-team-administrator-milton-mount-primary-school",
-    "title": "Senior Leadership Team Administrator",
-    "company": "Milton Mount Primary School",
-    "location": "Crawley",
-    "region": "Sussex",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£28,546.00 - £30,581.00 Annually (FTE) pro rata £13,643.30 based on 20 hours p/w",
-    "work_pattern": "",
-    "posted_date": "2026-10-06",
-    "closing_date": "2026-10-15",
-    "closing_datetime": "2026-10-15T09:00:00+01:00",
-    "summary": "Senior Leadership Team Administrator with Milton Mount Primary School in Crawley. ['part time']; £28,546.00 - £30,581.00 Annually (FTE) pro rata £13,643.30 based on 20 hours p/w.",
-    "description": "Milton Mount Primary School is recruiting for this vacancy in Crawley.\n\nThe advertised position is Senior Leadership Team Administrator.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £28,546.00 - £30,581.00 Annually (FTE) pro rata £13,643.30 based on 20 hours p/w.\n\nThe stated application deadline is 2026-10-15T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/senior-leadership-team-administrator-milton-mount-primary-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Milton Mount Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-administrative-assistant-91c2bb10-6af8-4419-845b-e5add4b37610",
     "title": "Administrative Assistant",
     "company": "Heron Park Primary Academy",
@@ -1777,7 +1749,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0759",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0759",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5661046",
@@ -1795,7 +1771,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4180-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4180-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5657299",
@@ -1813,7 +1793,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2958-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2958-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5655598",
@@ -1831,7 +1815,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9150-26-0592",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9150-26-0592",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5649373",
@@ -1849,6 +1837,32 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0214-26-0146",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0214-26-0146",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5660033",
+    "source": "NHS Jobs",
+    "title": "MSK Therapies - Booking Clerk",
+    "company": "East Sussex Healthcare NHS Trust",
+    "advertiser_name": "East Sussex Healthcare NHS Trust",
+    "location": "Hastings, TN37 7RD",
+    "region": "Sussex",
+    "salary": "£25272.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-15T09:27:39.304980778",
+    "closing_date": "2026-10-27",
+    "description": "An exciting opportunity has arisen to be part of the MSK Therapies service. The post will be based at Conquest Hospital however there may be opportunities to support other sites across the community. You will be part of a highly motivated, supportive and friendly team, and will interact with a wide range of organisations and clients. This is a part time post, for 21 hours per week. The role will involve the provision of administrative support to the MSK Triage Team, ensuring patient administration systems are kept up to date, booking appointments and being a first point of contact for patients via phone or email. We are looking for a dynamic, motivated individual who has previous experience of working within a busy office environment, or similar. Please refer to the job description attached. If you have any questions about this position please do not hesitate to contact us.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9374-26-0907",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9374-26-0907",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

@@ -6641,6 +6641,88 @@ job_id: 23643_225615506
 
 _No jobs in this group._
 
+## CUMBRIA - NORTH — SELECTED
+
+---
+action:
+SELECTED | Cumbria - North | Carlisle |  | Administrator
+job_id: 23643_225633252
+---
+
+---
+action:
+SELECTED | Cumbria - North | Penrith |  | Accounts Assistant
+job_id: 2027354
+---
+
+---
+action:
+SELECTED | Cumbria - North | Carlisle | £14.00 - £15.00 per hour | Accounts Assistant
+job_id: 2040185
+---
+
+---
+action:
+SELECTED | Cumbria - North | Carlisle |  | Finance Assistant
+job_id: 2041885
+---
+
+---
+action:
+SELECTED | Cumbria - North | Carlisle | £30000 - £35000 per year (Basic from £29,879, plus bonus) | Service Advisor
+job_id: 23643_225662905
+---
+
+---
+action:
+SELECTED | Cumbria - North | Carlisle |  | Service Advisor
+job_id: 2044914
+---
+
+---
+action:
+SELECTED | Cumbria - North | Carlisle | £35000 per year | Service Advisor
+job_id: 108058213
+---
+
+---
+action:
+SELECTED | Cumbria - North | Brampton |  | Receptionist - Bank
+job_id: 23643_225695506
+---
+
+---
+action:
+SELECTED | Cumbria - North | Carlisle | £28000 - £31000 per year | Sales Co-ordinator
+job_id: 23643_225708854
+---
+
+---
+action:
+SELECTED | Cumbria - North | Carlisle | £28000 - £30000 per year (Up to £30,000) | Payroll Assistant
+job_id: 23643_225713337
+---
+
+---
+action:
+SELECTED | Cumbria - North | Carlisle | £13.95 per hour (Adecco Benefits Package) | Data Migration Administrator
+job_id: 23643_225714756
+---
+
+---
+action:
+SELECTED | Cumbria - North | Carlisle | £27000 - £27200 per year | Customer Service Advisor
+job_id: 23643_225615424
+---
+
+## CUMBRIA - NORTH — POSSIBLES
+
+---
+action:
+POSS - CUMBRIA - NORTH | Cumbria - North | Carlisle | £40000 - £42000 per year (Benefits) | Service Advisor
+job_id: 23643_225709872
+---
+
 ## DERBYSHIRE — SELECTED
 
 ---
@@ -9299,6 +9381,82 @@ POSS - HERTFORDSHIRE | Hertfordshire | Hertfordshire | £35000 - £40000 per yea
 job_id: 23643_225713009
 ---
 
+## LANCASHIRE - CENTRAL — SELECTED
+
+---
+action:
+SELECTED | Lancashire - Central | Preston |  | Finance Assistant
+job_id: 2017921
+---
+
+---
+action:
+SELECTED | Lancashire - Central | Preston | £16.35 per hour | Administrator
+job_id: 23643_225659216
+---
+
+---
+action:
+SELECTED | Lancashire - Central | Preston |  | Service Receptionist (Automotive / Workshop)
+job_id: 2041652
+---
+
+---
+action:
+SELECTED | Lancashire - Central | Chorley |  | Accounts Assistant
+job_id: 2046060
+---
+
+---
+action:
+SELECTED | Lancashire - Central | Preston | £28000 - £30000 per year | Customer Service Advisor
+job_id: 23643_225681042
+---
+
+---
+action:
+SELECTED | Lancashire - Central | Preston | £13.45 per hour (Immediate Start) | Work Coordinator / Admin
+job_id: 23643_225684959
+---
+
+---
+action:
+SELECTED | Lancashire - Central | Preston | £15.5 - £16.9 per hour | Customer Service Scheduler
+job_id: 23643_225692893
+---
+
+---
+action:
+SELECTED | Lancashire - Central | Chorley | £24000 - £27000 per year (with excellent benefits) | Receptionist
+job_id: 23643_225714194
+---
+
+---
+action:
+SELECTED | Lancashire - Central | Chorley | £25000 - £30000 per year | Sales Ledger Administrator / Service Administrator
+job_id: 23643_225716967
+---
+
+---
+action:
+SELECTED | Lancashire - Central | Preston | £28000 - £32000 per year (Full time or Part time) | Payroll Assistant
+job_id: 23643_225612550
+---
+
+## LANCASHIRE - CENTRAL — POSSIBLES
+
+---
+action:
+POSS - LANCASHIRE - CENTRAL | Lancashire - Central | Preston | £30000 - £32000 per year | Assistant Accountant
+job_id: 2039386
+---
+
+---
+action:
+POSS - LANCASHIRE - CENTRAL | Lancashire - Central | Chorley |  | Assistant Management Accountant
+job_id: 2056884
+---
+
 ## LANCASHIRE - EAST — SELECTED
 
 ---
@@ -10277,6 +10435,58 @@ job_id: 23643_225698530
 action:
 POSS - NORTH SCOTLAND | North Scotland | Peterhead | £35000 - £40000 per year | Document Controller
 job_id: 23643_225696478
+---
+
+## NORTH WALES - EAST — SELECTED
+
+---
+action:
+SELECTED | North Wales - East | Conwy | £12.71 per hour | Contact Centre Agent - Welsh Speaking and Writing
+job_id: 23643_225624582
+---
+
+---
+action:
+SELECTED | North Wales - East | Wrexham | £32000 per year | Credit Controller
+job_id: 2028569
+---
+
+---
+action:
+SELECTED | North Wales - East | Wrexham | £13.5 per hour (benefits) | Engagement and Liaison Administrator
+job_id: 23643_225672332
+---
+
+---
+action:
+SELECTED | North Wales - East | Wrexham | £13.5 per hour (benefits) | Outreach & Access Coordinator
+job_id: 23643_225678347
+---
+
+---
+action:
+SELECTED | North Wales - East | Flint | £15.25 per hour (+ Benefits + Career) | Operations & Fulfilment Coordinator (Part Time)
+job_id: 23643_225682550
+---
+
+---
+action:
+SELECTED | North Wales - East | Conwy | £13.3 per hour (benefits) | Part-Time Medical Receptionist
+job_id: 23643_225705105
+---
+
+---
+action:
+SELECTED | North Wales - East | Colwyn Bay | £14.1 per hour | Unison Branch Administrator
+job_id: 23643_225717820
+---
+
+## NORTH WALES - EAST — POSSIBLES
+
+---
+action:
+POSS - NORTH WALES - EAST | North Wales - East | Wrexham | £30500 - £37500 per year | Interim Assistant Accountant
+job_id: 23643_225715447
 ---
 
 ## NORTHAMPTONSHIRE — SELECTED
@@ -11436,6 +11646,64 @@ job_id: 23643_225615039
 ## SCOTLAND CENTRAL - EDINBURGH & LOTHIANS — POSSIBLES
 
 _No jobs in this group._
+
+## SCOTLAND CENTRAL - FALKIRK & STIRLING — SELECTED
+
+---
+action:
+SELECTED | Scotland Central - Falkirk & Stirling | Stirling |  | Payroll Coordinator
+job_id: 2057368
+---
+
+---
+action:
+SELECTED | Scotland Central - Falkirk & Stirling | Stirling | £16 per hour | Temporary Administration Assistant
+job_id: 23643_225680443
+---
+
+---
+action:
+SELECTED | Scotland Central - Falkirk & Stirling | Stirling | £33150 per year | Service Advisor
+job_id: 2074901
+---
+
+---
+action:
+SELECTED | Scotland Central - Falkirk & Stirling | Stirling | £33000 - £35000 per year (Flexible Working) | Part Time Payroll Administrator
+job_id: 23643_225696195
+---
+
+---
+action:
+SELECTED | Scotland Central - Falkirk & Stirling | Stirling | £13 - £13.5 per hour | Temporary Receptionist / Front of House
+job_id: 23643_225616589
+---
+
+---
+action:
+SELECTED | Scotland Central - Falkirk & Stirling | Stirling | £13.5 per hour | Temporary Business Support Administrator
+job_id: 23643_225616569
+---
+
+---
+action:
+SELECTED | Scotland Central - Falkirk & Stirling | Grangemouth | £13.5 - £14.5 per hour (33 days leave pa pro rata) | Administrator
+job_id: 23643_225724844
+---
+
+---
+action:
+SELECTED | Scotland Central - Falkirk & Stirling | Falkirk | £28000 - £30000 per year | Office Administrator
+job_id: 23643_225725787
+---
+
+## SCOTLAND CENTRAL - FALKIRK & STIRLING — POSSIBLES
+
+---
+action:
+POSS - SCOTLAND CENTRAL - FALKIRK & STIRLING | Scotland Central - Falkirk & Stirling | Stirling | £38406 per year | Service Advisor - CUPRA, SEAT & Škoda
+job_id: 23643_225648611
+---
 
 ## SCOTLAND CENTRAL - FIFE — SELECTED
 
@@ -12664,6 +12932,30 @@ action:
 POSS - WALES SOUTH - CARDIFF & VALE | Wales South - Cardiff & Vale | Cardiff | £30000 - £32000 per year (bonus + hybrid working) | Assistant Accountant
 job_id: 23643_225713536
 ---
+
+## WALES SOUTH - GWENT — SELECTED
+
+---
+action:
+SELECTED | Wales South - Gwent | Tredegar | £27000 per year (flexitime (3.30pm finish), bonus, pension) | QC Administrator
+job_id: 23643_225632867
+---
+
+---
+action:
+SELECTED | Wales South - Gwent | Abergavenny | £28000 per year | Payroll Administrator
+job_id: 2052979
+---
+
+---
+action:
+SELECTED | Wales South - Gwent | Tredegar | £30000 - £30001 per year | HR Assistant
+job_id: 23643_225663430
+---
+
+## WALES SOUTH - GWENT — POSSIBLES
+
+_No jobs in this group._
 
 ## WALES SOUTH - SWANSEA BAY — SELECTED
 

@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-administration-assistant-great-totham-primary-school",
-    "title": "Administration Assistant",
-    "company": "Great Totham Primary School",
-    "location": "Maldon",
-    "region": "Essex",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "Pay: Scale 3 (Point 6 - 7) (£26,847 - £27,274) pro rata.",
-    "work_pattern": "",
-    "posted_date": "2026-09-24",
-    "closing_date": "2026-10-15",
-    "closing_datetime": "2026-10-15T12:00:00+01:00",
-    "summary": "Administration Assistant with Great Totham Primary School in Maldon. ['part time']; Pay: Scale 3 (Point 6 - 7) (£26,847 - £27,274) pro rata..",
-    "description": "Great Totham Primary School is recruiting for this vacancy in Maldon.\n\nThe advertised position is Administration Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is Pay: Scale 3 (Point 6 - 7) (£26,847 - £27,274) pro rata..\n\nThe stated application deadline is 2026-10-15T12:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-great-totham-primary-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Great Totham Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-receptionist-the-eastwood-academy",
     "title": "Receptionist",
     "company": "The Eastwood Academy",
@@ -1630,7 +1602,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0563",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0563",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5665092",
@@ -1648,7 +1624,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0559",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0559",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5661871",
@@ -1666,7 +1646,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-0989",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-0989",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5651277",
@@ -1684,7 +1668,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5696-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5696-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5644072",
@@ -1702,7 +1690,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0820-26-0010",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0820-26-0010",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5640402",
@@ -1720,7 +1712,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M9301-26-0244",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M9301-26-0244",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5634409",
@@ -1738,7 +1734,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-0932",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-0932",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5288592",
@@ -1756,7 +1756,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5897-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5897-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5446642",
@@ -1774,24 +1778,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0084",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0084",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
-  },
-  {
-    "job_id": "nhs-5605464",
-    "source": "NHS Jobs",
-    "title": "Medical Receptionist",
-    "company": "John Tasker House & Felsted Surgeries",
-    "advertiser_name": "John Tasker House & Felsted Surgeries",
-    "location": "Dunmow, CM6 1BH",
-    "region": "Essex",
-    "salary": "£12.71",
-    "employment_type": "Permanent",
-    "posted_date": "2026-09-17T10:00:02.046067858",
-    "closing_date": "2026-10-15",
-    "description": "We reserve the right to close the advertisement before the closing date, if we so choose. We have a vacancy within our medical reception team. We are looking for a candidate who has some experience with administration or reception duties, preferably in a healthcare setting, although we will consider applicants from other backgrounds. The job entails greeting patients at reception in person, over the phone, supporting GPs in care navigation, booking and cancelling appointments and a range of other administrative duties. We are looking for somebody with a friendly and approachable personality whilst ensuring professionalism at all times. We want our practice to be a welcoming place for patients and our reception team are key in providing our front of house services. Previous GP practice experience is not essential as training will be given, however, we are looking for a can-do approach and somebody who will fit in to friendly and likeable team. Patient care is at the heart of what we do and we want to provide the best possible service for them. Being a 'people' person and ability to work in a fast-paced environment is essential. Politeness, care and compassion are essential attributes to be successful within the role. Medical Receptionist duties include ability to learn our clinical system, answering telephones, booking appointments via the online rota, being IT literate, treating people with dignity and respect. Successful candidates will also be provided with further training on clinical correspondence (workflow) and there will be an expectation that some of this work forms part of the role.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5923-26-0005",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5923-26-0005",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

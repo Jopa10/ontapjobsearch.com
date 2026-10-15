@@ -17,6 +17,7 @@ Cheshire - East,12,8,2,2,0,,12,Crewe,SCENARIO_3_FULL_VALID_SELECTION,"Cheshire -
 Cheshire - Warrington & Halton,17,13,3,1,2,,17,Warrington,SCENARIO_3_MANUAL_SELECTION_APPLIED,Cheshire - Warrington & Halton manual_select applied additively: 1 row(s) prioritised; 17 selected.
 Cheshire - West,13,12,0,1,1,,13,Chester,SCENARIO_3_FULL_VALID_SELECTION,"Cheshire - West selection complete: all 13 valid selected role(s) retained after HIGH_CONFIDENCE, Chester ELASTIC_FIT and other ELASTIC_FIT ordering."
 Cornwall,9,8,0,1,0,,9,Truro,SCENARIO_3_MANUAL_SELECTION_APPLIED,Cornwall manual_select applied additively: 2 row(s) prioritised; 9 selected.
+Cumbria - North,12,11,1,0,1,,12,Carlisle,SCENARIO_2_COMPLETE_HC_PLUS_ANCHOR_ELASTIC,Cumbria - North selection complete: all 12 selected role(s) are HIGH_CONFIDENCE plus Carlisle ELASTIC_FIT roles.
 Derbyshire,28,24,0,4,4,,28,Derby,SCENARIO_3_MANUAL_SELECTION_APPLIED,Derbyshire manual_select applied additively: 1 row(s) prioritised; 28 selected.
 Devon,44,39,0,5,0,,44,Exeter,SCENARIO_3_FULL_VALID_SELECTION,"Devon selection complete: all 44 valid selected role(s) retained after HIGH_CONFIDENCE, Exeter ELASTIC_FIT and other ELASTIC_FIT ordering."
 Dorset,37,31,0,6,1,,37,Bournemouth,SCENARIO_3_MANUAL_SELECTION_APPLIED,Dorset manual_select applied additively: 2 row(s) prioritised; 37 selected.
@@ -28,17 +29,20 @@ Greater Manchester - South,19,16,3,0,0,,19,Stockport,SCENARIO_3_MANUAL_SELECTION
 Greater Manchester - Wigan & Bolton,15,12,2,1,0,,15,Bolton,SCENARIO_3_FULL_VALID_SELECTION,"Greater Manchester - Wigan & Bolton selection complete: all 15 valid selected role(s) retained after HIGH_CONFIDENCE, Bolton ELASTIC_FIT and other ELASTIC_FIT ordering."
 Herefordshire,11,11,0,0,0,,11,Hereford,SCENARIO_1_COMPLETE_HC_ONLY,Herefordshire selection complete: all 11 selected role(s) are HIGH_CONFIDENCE or FORCE_INCLUDE; Hereford HC roles protected in ordering.
 Hertfordshire,71,56,0,15,4,,71,Watford,SCENARIO_3_MANUAL_SELECTION_APPLIED,Hertfordshire manual_select applied additively: 2 row(s) prioritised; 71 selected.
+Lancashire - Central,10,9,1,0,2,,10,Preston,SCENARIO_2_COMPLETE_HC_PLUS_ANCHOR_ELASTIC,Lancashire - Central selection complete: all 10 selected role(s) are HIGH_CONFIDENCE plus Preston ELASTIC_FIT roles.
 Lancashire - East,9,7,0,2,0,,9,Blackburn,SCENARIO_3_FULL_VALID_SELECTION,"Lancashire - East selection complete: all 9 valid selected role(s) retained after HIGH_CONFIDENCE, Blackburn ELASTIC_FIT and other ELASTIC_FIT ordering."
 Leicestershire,45,35,0,10,2,,45,Leicester,SCENARIO_3_MANUAL_SELECTION_APPLIED,Leicestershire manual_select applied additively: 2 row(s) prioritised; 45 selected.
 Lincolnshire,25,20,0,5,5,,25,Lincoln,SCENARIO_3_MANUAL_SELECTION_APPLIED,Lincolnshire manual_select applied additively: 3 row(s) prioritised; 25 selected.
 Merseyside - Liverpool,17,13,4,0,2,,17,Liverpool,SCENARIO_3_MANUAL_SELECTION_APPLIED,Merseyside - Liverpool manual_select applied additively: 1 row(s) prioritised; 17 selected.
 Norfolk,38,33,0,5,1,,38,Norwich,SCENARIO_3_MANUAL_SELECTION_APPLIED,Norfolk manual_select applied additively: 2 row(s) prioritised; 38 selected.
 North Scotland,12,9,1,2,3,,12,Aberdeen,SCENARIO_3_FULL_VALID_SELECTION,"North Scotland selection complete: all 12 valid selected role(s) retained after HIGH_CONFIDENCE, Aberdeen ELASTIC_FIT and other ELASTIC_FIT ordering."
+North Wales - East,7,5,1,1,1,,7,Wrexham,SCENARIO_3_FULL_VALID_SELECTION,"North Wales - East selection complete: all 7 valid selected role(s) retained after HIGH_CONFIDENCE, Wrexham ELASTIC_FIT and other ELASTIC_FIT ordering."
 Northamptonshire,46,41,0,5,4,,46,Northampton,SCENARIO_3_MANUAL_SELECTION_APPLIED,Northamptonshire manual_select applied additively: 2 row(s) prioritised; 46 selected.
 Northern Ireland - East,5,5,0,0,0,,5,Belfast,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Northern Ireland - East selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
 Nottinghamshire,35,31,0,4,5,,35,Nottingham,SCENARIO_3_FULL_VALID_SELECTION,"Nottinghamshire selection complete: all 35 valid selected role(s) retained after HIGH_CONFIDENCE, Nottingham ELASTIC_FIT and other ELASTIC_FIT ordering."
 Oxfordshire,56,49,0,7,6,,56,Oxford,SCENARIO_3_MANUAL_SELECTION_APPLIED,Oxfordshire manual_select applied additively: 6 row(s) prioritised; 56 selected.
 Scotland Central - Edinburgh & Lothians,32,28,4,0,0,,32,Edinburgh,SCENARIO_2_COMPLETE_HC_PLUS_ANCHOR_ELASTIC,Scotland Central - Edinburgh & Lothians selection complete: all 32 selected role(s) are HIGH_CONFIDENCE plus Edinburgh ELASTIC_FIT roles.
+Scotland Central - Falkirk & Stirling,8,8,0,0,1,,8,Stirling,SCENARIO_1_COMPLETE_HC_ONLY,Scotland Central - Falkirk & Stirling selection complete: all 8 selected role(s) are HIGH_CONFIDENCE or FORCE_INCLUDE; Stirling HC roles protected in ordering.
 Scotland Central - Fife,5,5,0,0,0,,5,Dunfermline,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Scotland Central - Fife selection below publish threshold: 5/6 credible roles. Do not publish/refresh this slice from this run.
 Scotland Central - Tayside,11,10,0,1,2,,11,Dundee,SCENARIO_3_MANUAL_SELECTION_APPLIED,Scotland Central - Tayside manual_select applied additively: 1 row(s) prioritised; 11 selected.
 Scotland West - Glasgow,29,25,4,0,2,,29,Glasgow,SCENARIO_2_COMPLETE_HC_PLUS_ANCHOR_ELASTIC,Scotland West - Glasgow selection complete: all 29 selected role(s) are HIGH_CONFIDENCE plus Glasgow ELASTIC_FIT roles.
@@ -47,6 +51,7 @@ Somerset,28,18,0,10,3,,28,Taunton,SCENARIO_3_MANUAL_SELECTION_APPLIED,Somerset m
 Staffordshire,40,34,0,6,4,,40,Stafford,SCENARIO_3_FULL_VALID_SELECTION,"Staffordshire selection complete: all 40 valid selected role(s) retained after HIGH_CONFIDENCE, Stafford ELASTIC_FIT and other ELASTIC_FIT ordering."
 Suffolk,32,24,0,8,4,,32,Ipswich,SCENARIO_3_FULL_VALID_SELECTION,"Suffolk selection complete: all 32 valid selected role(s) retained after HIGH_CONFIDENCE, Ipswich ELASTIC_FIT and other ELASTIC_FIT ordering."
 Wales South - Cardiff & Vale,20,17,3,0,2,,20,Cardiff,SCENARIO_2_COMPLETE_HC_PLUS_ANCHOR_ELASTIC,Wales South - Cardiff & Vale selection complete: all 20 selected role(s) are HIGH_CONFIDENCE plus Cardiff ELASTIC_FIT roles.
+Wales South - Gwent,3,2,0,1,0,,3,Newport,SCENARIO_4_BELOW_PUBLISH_THRESHOLD,Wales South - Gwent selection below publish threshold: 3/6 credible roles. Do not publish/refresh this slice from this run.
 Wales South - Swansea Bay,18,17,0,1,1,,18,Swansea,SCENARIO_3_FULL_VALID_SELECTION,"Wales South - Swansea Bay selection complete: all 18 valid selected role(s) retained after HIGH_CONFIDENCE, Swansea ELASTIC_FIT and other ELASTIC_FIT ordering."
 Wales South - Valleys,12,12,0,0,0,,12,Merthyr Tydfil,SCENARIO_1_COMPLETE_HC_ONLY,Wales South - Valleys selection complete: all 12 selected role(s) are HIGH_CONFIDENCE or FORCE_INCLUDE; Merthyr Tydfil HC roles protected in ordering.
 West Midlands - Birmingham & Solihull,76,51,22,3,8,,76,Birmingham,SCENARIO_3_MANUAL_SELECTION_APPLIED,West Midlands - Birmingham & Solihull manual_select applied additively: 5 row(s) prioritised; 76 selected.
