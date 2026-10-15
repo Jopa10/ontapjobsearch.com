@@ -121,6 +121,11 @@ class SliceRegistryTests(unittest.TestCase):
                 "Scotland West - Glasgow",
                 "Surrey",
                 "Sussex",
+                "Essex",
+                "Dorset",
+                "Northamptonshire",
+                "Oxfordshire",
+                "Suffolk",
             },
         )
 
@@ -141,6 +146,9 @@ class SliceRegistryTests(unittest.TestCase):
                 "North East",
                 "Staffordshire",
                 "Surrey",
+                "Greater Manchester - Manchester & Salford",
+                "Sussex",
+                "Yorkshire - West",
             },
         )
         self.assertEqual(customer_service.LIVE_PUBLISH_FLOOR, 1)
@@ -185,6 +193,10 @@ class SliceRegistryTests(unittest.TestCase):
                 "Staffordshire",
                 "Yorkshire - North",
                 "Yorkshire - West",
+                "Nottinghamshire",
+                "Cheshire - Warrington & Halton",
+                "Sussex",
+                "West Midlands - Coventry & Warwickshire",
             },
         )
         self.assertIn(("Kent", "marketing"), live_slices())
@@ -246,6 +258,12 @@ class SliceRegistryTests(unittest.TestCase):
                 "West Midlands - Coventry & Warwickshire",
                 "Wiltshire",
                 "Yorkshire - South",
+                "Somerset",
+                "Yorkshire - East",
+                "Staffordshire",
+                "Lincolnshire",
+                "Worcestershire",
+                "Merseyside - Liverpool",
             },
         )
         self.assertNotIn(("London", "finance_accounts"), candidate_slices())
@@ -266,9 +284,12 @@ class SliceRegistryTests(unittest.TestCase):
                 "West Midlands - Birmingham & Solihull",
                 "West Midlands - Coventry & Warwickshire",
                 "Northern Ireland - East",
+                "Gloucestershire",
+                "Hampshire",
+                "Essex",
             },
         )
-        reserves = {"Bristol & Bath", "Essex"}
+        reserves = {"Bristol & Bath"}
         self.assertTrue(
             {(region, "hr_recruitment") for region in reserves}.issubset(candidate_slices())
         )
@@ -279,8 +300,6 @@ class SliceRegistryTests(unittest.TestCase):
     def test_close_and_deferred_slices_are_candidates_not_live(self):
         candidates = candidate_slices()
         expected = {
-            ("Greater Manchester - Manchester & Salford", "customer_service_contact_centre"),
-            ("Hampshire", "hr_recruitment"),
             ("Somerset", "support_worker"),
         }
         self.assertTrue(expected.issubset(candidates))
