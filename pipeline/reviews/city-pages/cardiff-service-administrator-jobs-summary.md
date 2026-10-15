@@ -4,7 +4,7 @@
 - Live route: `/cardiff/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 17
+- Effective included jobs: 21
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
+- automatic include: 21
 - automatic review: 2
 - automatic exclude: 0
-- effective include: 17
+- effective include: 21
 - effective review: 2
 - effective exclude: 0
 
-## INCLUDE (17)
+## INCLUDE (21)
 
 ---
 action: 
@@ -173,10 +173,46 @@ action:
 decision: include
 automatic_decision: include
 title: Finance Assistant
+company: Adecco - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-23643_225691400
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
+company: Yolk Recruitment - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-23643_225690422
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
 company: Yolk Recruitment Ltd - Agency - Permanent
 location: Cardiff
 source: JobG8
 job_id: jobg8-2057385
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Front of House / Facilities Assistant
+company: CBRE Local UK - Company - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-23643_225671270
 reason: Approved conservative Cardiff launch catchment.
 ---
 
@@ -201,6 +237,18 @@ company: Birchgrove Surgery
 location: Cardiff, CF14 4QJ
 source: NHS Jobs
 job_id: nhs-5650137
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Sales Administrator
+company: Perfect Placement - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-23643_225723768
 reason: Approved conservative Cardiff launch catchment.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/leicester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 14
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
-- automatic review: 40
+- automatic include: 13
+- automatic review: 46
 - automatic exclude: 0
-- effective include: 14
-- effective review: 40
+- effective include: 13
+- effective review: 46
 - effective exclude: 0
 
-## INCLUDE (14)
+## INCLUDE (13)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Leicester
 source: JobG8
 job_id: jobg8-2012728
-reason: Exact approved Leicester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Commercial Administrator
-company: Macildowie Recruitment and Retention - Agency - Permanent
-location: Leicester
-source: JobG8
-job_id: jobg8-2049449
 reason: Exact approved Leicester workplace.
 ---
 
@@ -192,7 +180,7 @@ job_id: teaching-vacancies-student-services-administrator-b483b3bc-5d81-42ee-be3
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (40)
+## REVIEW (46)
 
 ---
 action: 
@@ -203,6 +191,18 @@ company: Proftech Talent - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225633721
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Administrator
+company: RECfinancial - Agency - Contract
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225690794
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -259,10 +259,34 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
+company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225724494
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
 company: JR Personnel - Agency - Temporary
 location: Loughborough
 source: JobG8
 job_id: jobg8-23643_225511737
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Regional Recruitment - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225725112
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -522,11 +546,35 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Officer
+company: Transaction Recruitment - Agency - Permanent
+location: Coalville
+source: JobG8
+job_id: jobg8-23643_225616749
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Planning Administrator / Equipment Controller
 company: Geary's Bakeries Ltd - Agency - Permanent
 location: Glenfield
 source: JobG8
 job_id: jobg8-23643_221715860
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger
+company: RECfinancial - Agency - Temporary
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225726432
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -671,6 +719,18 @@ company: Full Circle Technical Recruitment - Agency - Contract
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225701621
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Training Coordinator
+company: Vectis Recruitment - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225617256
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/chelmsford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 13
+- Effective included jobs: 14
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
-- automatic review: 97
+- automatic include: 14
+- automatic review: 101
 - automatic exclude: 0
-- effective include: 13
-- effective review: 97
+- effective include: 14
+- effective review: 101
 - effective exclude: 0
 
-## INCLUDE (13)
+## INCLUDE (14)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: Vaccination UK
 location: Chelmsford, CM144LN
 source: NHS Jobs
 job_id: nhs-5446642
-reason: Exact approved Chelmsford workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Commercial Administrator
-company: Howells Solutions Limited - Agency - Permanent
-location: Chelmsford
-source: JobG8
-job_id: jobg8-23643_225611317
 reason: Exact approved Chelmsford workplace.
 ---
 
@@ -124,6 +112,18 @@ reason: Exact approved Chelmsford workplace.
 action: 
 decision: include
 automatic_decision: include
+title: HR & Training Coordinator
+company: Pure Resourcing Solutions Limited - Agency - Permanent
+location: Chelmsford
+source: JobG8
+job_id: jobg8-23643_225719568
+reason: Exact approved Chelmsford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: HR Coordinator
 company: Pure Resourcing Solutions Limited - Agency - Contract
 location: Chelmsford
@@ -160,6 +160,18 @@ reason: Exact approved Chelmsford workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist/Administrator
+company: Operose Health
+location: Chelmsford, CM2 7PY
+source: NHS Jobs
+job_id: nhs-5665092
+reason: Exact approved Chelmsford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Sales Account Executive
 company: THE PLUMBING DISTRIBUTION COMPANY LTD - Agency - Permanent
 location: Chelmsford
@@ -180,7 +192,7 @@ job_id: jobg8-23643_225694242
 reason: Exact approved Chelmsford workplace.
 ---
 
-## REVIEW (97)
+## REVIEW (101)
 
 ---
 action: 
@@ -299,18 +311,6 @@ company: Essex Partnership University NHS Foundation Trust
 location: Essex, CM7 9AE
 source: NHS Jobs
 job_id: nhs-5634409
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administration Assistant
-company: Essex Partnership University NHS Foundation Trust
-location: Essex, CO1 1RB
-source: NHS Jobs
-job_id: nhs-5643963
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -606,6 +606,18 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Administrator
+company: Prime Appointments - Agency - Temporary
+location: Maldon
+source: JobG8
+job_id: jobg8-23643_225726165
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Advisor
 company: Huntress - Agency - Temporary
 location: Essex
@@ -690,11 +702,11 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Experienced Scheduling Coordinator
+title: Experienced Scheduling / Technical coordinator
 company: Adecco - Agency - Permanent
 location: Dunmow
 source: JobG8
-job_id: jobg8-23643_225668364
+job_id: jobg8-23643_225723494
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -702,11 +714,11 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Facilities Coordinator
-company: Adore Recruitment - Agency - Permanent
-location: Basildon
+title: Experienced Scheduling Coordinator
+company: Adecco - Agency - Permanent
+location: Dunmow
 source: JobG8
-job_id: jobg8-2045178
+job_id: jobg8-23643_225668364
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -779,6 +791,18 @@ company: ACS Automotive Recruitment - Agency - Permanent
 location: Basildon
 source: JobG8
 job_id: jobg8-23643_225718876
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Executive
+company: Time Appointments - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-23643_225724258
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -947,6 +971,18 @@ company: Nuco Solutions Ltd - Agency - Permanent
 location: Brentwood
 source: JobG8
 job_id: jobg8-23643_225684711
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Print Order Processor / Installation Coordinator
+company: M TWO Search Ltd - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-23643_225723078
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -1135,6 +1171,18 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist/Administrator
+company: Operose Health
+location: Essex, SS4 1TU
+source: NHS Jobs
+job_id: nhs-5665206
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist/Administrator
 company: Prime Appointments - Agency - Permanent
 location: Clacton-On-Sea
 source: JobG8
@@ -1175,6 +1223,18 @@ company: Noble Recruiting - Agency - Permanent
 location: Billericay
 source: JobG8
 job_id: jobg8-23643_225708861
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
+company: Pure Resourcing Solutions Limited - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-23643_225719698
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

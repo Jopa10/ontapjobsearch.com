@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
+- automatic include: 12
 - automatic review: 21
-- automatic exclude: 29
-- effective include: 11
+- automatic exclude: 31
+- effective include: 12
 - effective review: 21
-- effective exclude: 29
+- effective exclude: 31
 
-## INCLUDE (11)
+## INCLUDE (12)
 
 ---
 action: 
@@ -156,19 +156,19 @@ job_id: nhs-5655371
 reason: Approved York catchment.
 ---
 
-## REVIEW (21)
-
 ---
 action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Capital Outsourcing Group Ltd - Agency - Permanent
-location: Pickering
-source: JobG8
-job_id: jobg8-23643_225499251
-reason: No approved York catchment rule matched; local review required.
+decision: include
+automatic_decision: include
+title: Ward Clerk
+company: York and Scarborough Teaching Hospitals NHS Foundation Trust
+location: York, YO31 8HE
+source: NHS Jobs
+job_id: nhs-5665026
+reason: Approved York catchment.
 ---
+
+## REVIEW (21)
 
 ---
 action: 
@@ -294,6 +294,18 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Medical Receptionist
+company: Beech House Surgery
+location: Knaresborough, HG5 0UB
+source: NHS Jobs
+job_id: nhs-5635501
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Patient Services Administrator
 company: Filey Surgery
 location: Filey, YO14 9AE
@@ -410,7 +422,7 @@ job_id: jobg8-23643_225666115
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (29)
+## EXCLUDE (31)
 
 ---
 action: 
@@ -584,6 +596,18 @@ reason: Broad regional label; not York-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Digital Marketing Manager
+company: North Yorkshire Hospice Care - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-2131084
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Legal Assistant
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Northallerton
@@ -613,6 +637,18 @@ company: Technical Prospects - Agency - Permanent
 location: Harrogate
 source: JobG8
 job_id: jobg8-2089709
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Marketing Manager (Fundraising Appeals and Propositions)
+company: North Yorkshire Hospice Care - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-2131085
 reason: Separate employment market.
 ---
 

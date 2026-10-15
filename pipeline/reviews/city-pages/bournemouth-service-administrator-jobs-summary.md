@@ -4,7 +4,7 @@
 - Live route: `/bournemouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
+- automatic include: 6
 - automatic review: 43
 - automatic exclude: 0
-- effective include: 9
+- effective include: 6
 - effective review: 43
 - effective exclude: 0
 
-## INCLUDE (9)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Regent's Park Healthcare
-location: Bournemouth, BH7 7DW
-source: NHS Jobs
-job_id: nhs-5596490
-reason: Exact approved Bournemouth workplace.
----
+## INCLUDE (6)
 
 ---
 action: 
@@ -88,35 +76,11 @@ reason: Exact approved Bournemouth workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Payroll Administrator
-company: Auto Skills UK - Agency - Permanent
-location: Bournemouth
-source: JobG8
-job_id: jobg8-23643_225607593
-reason: Exact approved Bournemouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist
 company: Beaufort Road Surgery
 location: Bournemouth, BH6 5AJ
 source: NHS Jobs
 job_id: nhs-5586731
-reason: Exact approved Bournemouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: Dorset HealthCare University NHS Foundation Trust
-location: Bournemouth, BH7 6JF
-source: NHS Jobs
-job_id: nhs-5632763
 reason: Exact approved Bournemouth workplace.
 ---
 
@@ -330,6 +294,18 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Customer Account Coordinator
+company: Team Jobs - Commercial - Agency - Permanent
+location: Poole
+source: JobG8
+job_id: jobg8-23643_225726239
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Administrator
 company: Collaborate Recruitment - Agency - Permanent
 location: Dorset
@@ -474,18 +450,6 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Part Time Accounts Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2078581
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Part time Office & HR Administrator
 company: Holt Engineering - Agency - Permanent
 location: Wimborne
@@ -502,7 +466,7 @@ title: Part-Time Project Administrator/Document Controller
 company: 1st Step - Agency - Contract
 location: Dorset
 source: JobG8
-job_id: jobg8-23643_225607938
+job_id: jobg8-23643_225722380
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -539,18 +503,6 @@ company: CMA Recruitment Group - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-2075751
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Project Administrator
-company: Ipsum - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225674087
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -647,6 +599,18 @@ company: Aspire Jobs Limited - Agency - Permanent
 location: Beaminster
 source: JobG8
 job_id: jobg8-107765584
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Ward Clerk
+company: Dorset HealthCare University NHS Foundation Trust
+location: Weymouth, DT4 0QE
+source: NHS Jobs
+job_id: nhs-5639068
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

@@ -16,25 +16,13 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 17
-- automatic review: 3
+- automatic review: 4
 - automatic exclude: 35
 - effective include: 17
-- effective review: 3
+- effective review: 4
 - effective exclude: 35
 
 ## INCLUDE (17)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: NHS Professionals - Company - Temporary
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225703071
-reason: Approved Doncaster catchment.
----
 
 ---
 action: 
@@ -81,18 +69,6 @@ company: EE - Company - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-20279_63174-73862c8b83139033e4e4a8b6efca9a33
-reason: Approved Doncaster catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Care Navigator & Administrator
-company: Bentley Surgery
-location: Doncaster, DN5 0AT, Doncaster, DN5 8DA
-source: NHS Jobs
-job_id: nhs-5632062
 reason: Approved Doncaster catchment.
 ---
 
@@ -160,11 +136,35 @@ reason: Approved Doncaster catchment.
 action: 
 decision: include
 automatic_decision: include
+title: HR & Operations Coordinator
+company: Carrington West - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225726094
+reason: Approved Doncaster catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: HR Assistant
 company: Talent-UK Ltd - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225673478
+reason: Approved Doncaster catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Administrator
+company: Edwards & Pearce - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225720547
 reason: Approved Doncaster catchment.
 ---
 
@@ -228,7 +228,7 @@ job_id: nhs-5647395
 reason: Approved Doncaster catchment.
 ---
 
-## REVIEW (3)
+## REVIEW (4)
 
 ---
 action: 
@@ -251,6 +251,18 @@ company: Reed - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2067582
+reason: No approved Doncaster catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Officer
+company: Portfolio Payroll Limited - Agency - Contract
+location: Yorkshire
+source: JobG8
+job_id: jobg8-23643_225718956
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
@@ -645,6 +657,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Receptionist
+company: Red Sector Recruitment Limited - Agency - Temporary
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225726240
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
 company: Sue Ross Recruitment Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
@@ -673,17 +697,5 @@ company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-adcabd9c-b940-45d0-a8f0-52fec00f63a2
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Technical Administrator
-company: IMH Recruitment - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-23643_225608755
 reason: Separate employment market.
 ---

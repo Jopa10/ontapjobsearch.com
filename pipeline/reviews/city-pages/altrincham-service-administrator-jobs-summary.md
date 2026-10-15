@@ -126,6 +126,18 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Credit Controller
+company: Michael Page - Agency - Permanent
+location: Trafford
+source: JobG8
+job_id: jobg8-23643_225691554
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Advisor
 company: CMR Jobs Limited - Agency - Permanent
 location: Stockport
@@ -198,6 +210,18 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Coordinator
+company: CMR Jobs Limited - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225693186
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Property Coordinator
 company: The People Pod - Agency - Permanent
 location: Stockport
@@ -215,18 +239,6 @@ company: Bayman Atkinson Smythe - Agency - Permanent
 location: Trafford
 source: JobG8
 job_id: jobg8-23643_225695106
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Jobwise Ltd - Agency - Temporary
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225617116
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -275,18 +287,6 @@ company: Pickles Recruitment - Agency - Permanent
 location: Denton
 source: JobG8
 job_id: jobg8-23643_225680857
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Support Executive
-company: VCG Technology Services Limited - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-108042377
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

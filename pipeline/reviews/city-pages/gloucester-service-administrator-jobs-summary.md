@@ -4,7 +4,7 @@
 - Live route: `/gloucester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 45
+- automatic include: 5
+- automatic review: 46
 - automatic exclude: 0
-- effective include: 6
-- effective review: 45
+- effective include: 5
+- effective review: 46
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (5)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Morgan McKinley - Agency - Permanent
 location: Gloucester
 source: JobG8
 job_id: jobg8-2067302
-reason: Exact approved Gloucester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: ABL Health Ltd
-location: Gloucester, GL1 1PX
-source: NHS Jobs
-job_id: nhs-5633613
 reason: Exact approved Gloucester workplace.
 ---
 
@@ -96,7 +84,7 @@ job_id: jobg8-2085791
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (45)
+## REVIEW (46)
 
 ---
 action: 
@@ -155,18 +143,6 @@ company: ITS (Cheltenham) Ltd - Agency - Contract
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225721488
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrative Assistant
-company: Prospectus - Agency - Permanent
-location: Cheltenham
-source: JobG8
-job_id: jobg8-2092958
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -235,10 +211,10 @@ action:
 decision: review
 automatic_decision: review
 title: Bookkeeper
-company: Reed - Agency - Permanent
+company: Autograph Specialist Recruitment - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-2048160
+job_id: jobg8-23643_225513570
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -323,18 +299,6 @@ company: RE Recruitment - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225710263
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
-company: Enmase Group - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-23643_225611880
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -498,6 +462,18 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Procurement Support Administrator
+company: Expert Employment - Agency - Temporary
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225723573
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Product Support Coordinator - 12 Fixed Term Contract
 company: Renishaw PLC - Agency - Permanent
 location: Gloucestershire
@@ -546,6 +522,18 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Sales Administrator
+company: Travail Employment Group - Agency - Temporary
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225722494
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Secretary
 company: CBSbutler Holdings Limited trading as CBSbutler - Agency - Permanent
 location: Cirencester
@@ -575,6 +563,18 @@ company: Pembrook Resourcing - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225626843
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Supply Chain Administrator
+company: Expert Employment - Agency - Temporary
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225723698
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

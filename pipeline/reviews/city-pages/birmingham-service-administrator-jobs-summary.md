@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 85
+- Effective included jobs: 93
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 85
+- automatic include: 93
 - automatic review: 17
-- automatic exclude: 6
-- effective include: 85
+- automatic exclude: 5
+- effective include: 93
 - effective review: 17
-- effective exclude: 6
+- effective exclude: 5
 
-## INCLUDE (85)
+## INCLUDE (93)
 
 ---
 action: 
@@ -256,6 +256,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Client Care Administrator
+company: SF Partners - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225726719
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Contact Centre Team Leader
 company: GreenSquareAccord - Agency - Permanent
 location: Birmingham
@@ -333,6 +345,18 @@ company: Think Recruitment - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225692581
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Assistant
+company: Ritz Recruitment - Agency - Temporary
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225724641
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -429,6 +453,18 @@ company: Conrad Consulting Ltd - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225652561
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Document Controller
+company: FERROVIAL CONSTRUCTION (UK) LIMITED - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_224853142
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -592,6 +628,30 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: HR Administrator
+company: Gleeson Recruitment Group - Agency - Contract
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225639102
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Coordinator
+company: Ashley Kate HR & Finance - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225726369
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: HR Shared Services Administrator
 company: Gleeson Recruitment Group - Agency - Temporary
 location: Birmingham
@@ -748,6 +808,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Office Administrator
+company: Rise Technical Recruitment - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225724906
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Office Assistant
 company: Affinity People - Agency - Permanent
 location: Birmingham
@@ -765,6 +837,18 @@ company: FS1 Recruitment - Marketing, Creative, Digital, Finance, HR, Sales, Adm
 location: Birmingham
 source: JobG8
 job_id: jobg8-2060283
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Part Time PA & Executive Coordinator
+company: Katie Bard - Agency - Contract
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225599693
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -921,6 +1005,18 @@ company: Four Squared Recruitment Ltd - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225708948
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: School Finance Assistant
+company: A Star Education Recruitment - Agency - Temporary
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_221043054
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1250,7 +1346,7 @@ job_id: jobg8-23643_225633473
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
-## EXCLUDE (6)
+## EXCLUDE (5)
 
 ---
 action: 
@@ -1285,18 +1381,6 @@ company: Mitchell Adam - Agency - Permanent
 location: Solihull
 source: JobG8
 job_id: jobg8-2087335
-reason: Separate exact-city market at launch.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: GP Practice Receptionist
-company: Hobs Moat Medical Centre
-location: Solihull, B92 8ED
-source: NHS Jobs
-job_id: nhs-5631076
 reason: Separate exact-city market at launch.
 ---
 

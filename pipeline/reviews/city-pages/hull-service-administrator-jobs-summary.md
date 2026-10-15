@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 23
+- Effective included jobs: 21
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 23
+- automatic include: 21
 - automatic review: 9
 - automatic exclude: 0
-- effective include: 23
+- effective include: 21
 - effective review: 9
 - effective exclude: 0
 
-## INCLUDE (23)
+## INCLUDE (21)
 
 ---
 action: 
@@ -148,18 +148,6 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Assistant Management Accountant
-company: Edwards & Pearce - Doncaster - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-2055348
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Bookkeeper & Payroll Administrator
 company: Equals One - Agency - Permanent
 location: Hull
@@ -177,18 +165,6 @@ company: Vizion Network - Agency - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-23643_225702790
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Family Support Coordinator
-company: Coram - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-1982338
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -318,18 +294,6 @@ reason: No approved Hull catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: Hull University Teaching Hospitals NHS Trust
-location: Cottingham, HU16 5JQ
-source: NHS Jobs
-job_id: nhs-5641720
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR, Training & Office Support Administrator
 company: SaB Consulting Yorkshire Limited - Agency - Permanent
 location: Beverley
@@ -347,6 +311,18 @@ company: SI Recruitment - Agency - Permanent
 location: Goole
 source: JobG8
 job_id: jobg8-107919887
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Clerk
+company: Castle Employment - Agency - Permanent
+location: Bridlington
+source: JobG8
+job_id: jobg8-23643_225709012
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

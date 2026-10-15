@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 84
+- automatic review: 85
 - automatic exclude: 0
 - effective include: 6
-- effective review: 84
+- effective review: 85
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,31 @@ job_id: jobg8-23643_225694409
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
-## REVIEW (84)
+## REVIEW (85)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Berry Recruitment - Agency - Permanent
+location: Hertford
+source: JobG8
+job_id: jobg8-23643_225720250
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Jacob Grey Recruitment - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-23643_225721826
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -222,18 +246,6 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Assistant Accountant
-company: Success Talent - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-2050322
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: BMW Trainee Service Advisor
 company: Sytner - Company - Permanent
 location: Hertfordshire
@@ -287,18 +299,6 @@ company: Pure Resourcing Solutions Limited - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-23643_225657503
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Commercial Administrator
-company: Howells Recruitment - Agency - Permanent
-location: Hertford
-source: JobG8
-job_id: jobg8-2039272
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -654,18 +654,6 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Junior CRM Analyst
-company: Harnham - Data & Analytics Recruitment - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-2044310
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Kitchen Showroom Administrator
 company: Braverman Kitchens - Agency - Permanent
 location: Hertford
@@ -883,6 +871,18 @@ action:
 decision: review
 automatic_decision: review
 title: Payroll Administrator
+company: Portfolio Payroll Limited - Agency - Temporary
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-23643_225721220
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
 company: Sheridan Maine - Agency - Permanent
 location: Hertford
 source: JobG8
@@ -959,6 +959,18 @@ company: Sterling Recruitment Solutions Ltd - Agency - Permanent
 location: Bishop'S Stortford
 source: JobG8
 job_id: jobg8-2087281
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Quality Administrator
+company: Hales Group - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-23643_225725073
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -1050,11 +1062,11 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Service Desk Coordinator
-company: Proactive Appointments - Agency - Permanent
-location: Hertford
+title: Site Administrator
+company: DT Source Limited - Agency - Temporary
+location: Hertfordshire
 source: JobG8
-job_id: jobg8-2041623
+job_id: jobg8-23643_225724232
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

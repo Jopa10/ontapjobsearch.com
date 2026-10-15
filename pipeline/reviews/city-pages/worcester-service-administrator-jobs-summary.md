@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 22
+- automatic review: 24
 - automatic exclude: 0
 - effective include: 4
-- effective review: 22
+- effective review: 24
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,19 @@ job_id: jobg8-2074804
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (22)
+## REVIEW (24)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Four Squared Recruitment Ltd - Agency - Permanent
+location: Redditch
+source: JobG8
+job_id: jobg8-23643_225691083
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -263,6 +275,18 @@ company: SF Partners - Agency - Permanent
 location: Redditch
 source: JobG8
 job_id: jobg8-2057910
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Vibe Recruit - Agency - Permanent
+location: Malvern
+source: JobG8
+job_id: jobg8-23643_225722826
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

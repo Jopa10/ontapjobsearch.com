@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 66
+- automatic review: 70
 - automatic exclude: 0
 - effective include: 9
-- effective review: 66
+- effective review: 70
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -132,7 +132,7 @@ job_id: nhs-5648388
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (66)
+## REVIEW (70)
 
 ---
 action: 
@@ -258,11 +258,35 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Administration & Finance Assistant
+company: Quality Personnel - Agency - Contract
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225640299
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrative Assistant
 company: Top Tier Recruitment LTD - Agency - Contract
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225671158
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Connect Recruitment - Agency - Temporary
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225723455
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -299,6 +323,18 @@ company: Milton Keynes College
 location: Milton Keynes
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrator-prison-education-hmp-bullingdon
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Amazon PPC Executive
+company: FS1 Recruitment - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-23643_225609420
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -359,6 +395,18 @@ company: Brayson Consulting Ltd - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225715039
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Coordinator
+company: CityWorx - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225395997
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -690,18 +738,6 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: PA
-company: Wild Recruitment - Agency - Temporary
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225616169
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: PARALEGAL - CRIMINAL
 company: Maze Recruitment Services Limited - Agency - Permanent
 location: Buckinghamshire
@@ -755,18 +791,6 @@ company: Osborne Appointments - Agency - Temporary
 location: Milton Keynes
 source: JobG8
 job_id: jobg8-23643_225701778
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part-time Finance Assistant - Education Sector
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-2063504
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -863,6 +887,30 @@ company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-2055401
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales & Office Administrator
+company: JR Recruitment - Agency - Permanent
+location: Chesham
+source: JobG8
+job_id: jobg8-23643_225704137
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Coordinator
+company: Reevr Talent Ltd - Agency - Permanent
+location: High Wycombe
+source: JobG8
+job_id: jobg8-23643_225617836
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 22
-- automatic exclude: 40
+- automatic review: 23
+- automatic exclude: 46
 - effective include: 10
-- effective review: 22
-- effective exclude: 40
+- effective review: 23
+- effective exclude: 46
 
 ## INCLUDE (10)
 
@@ -144,7 +144,7 @@ job_id: nhs-5640615
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (22)
+## REVIEW (23)
 
 ---
 action: 
@@ -342,18 +342,6 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Mental Health and Wellbeing Partnerships Coordinator
-company: Abingdon School - Agency - Permanent
-location: Abingdon
-source: JobG8
-job_id: jobg8-108123305
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Procurement Administrator
 company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
 location: Witney
@@ -378,11 +366,35 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Purchase Ledger Assistant
+company: Language Business - Agency - Contract
+location: Bicester
+source: JobG8
+job_id: jobg8-23643_225721957
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist / Office Administrator (Temporary)
 company: Planet Recruitment - Agency - Temporary
 location: Didcot
 source: JobG8
 job_id: jobg8-23643_225698887
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
+company: MP Jobs Ltd t/a MP Recruitment Group - Agency - Permanent
+location: Abingdon
+source: JobG8
+job_id: jobg8-23643_225724950
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -410,7 +422,19 @@ job_id: nhs-5664768
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (40)
+## EXCLUDE (46)
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: AAT Assistant Accountant
+company: Curtis Recruitment - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-1996500
+reason: Broad county location; not Oxford-city evidence.
+---
 
 ---
 action: 
@@ -445,6 +469,18 @@ company: Huntress - Maidstone - Agency - Temporary
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225662441
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: Tech Professionals - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225004376
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -572,6 +608,18 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Customer Support Administrator
+company: Focus Resourcing - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225722258
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: E-Commerce Marketing Executive
 company: Robert Half - Agency - Permanent
 location: Oxfordshire
@@ -656,11 +704,35 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: HR Administrator
+company: Preservica - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225649855
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Immunisation Administrator
 company: NHS Professionals - Company - Temporary
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225680257
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Logistics Planning Administrator
+company: Gi Group - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225615023
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -853,6 +925,18 @@ company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-2055389
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Sales Operations Administrator
+company: Glen Callum Associates Ltd - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225724962
 reason: Broad county location; not Oxford-city evidence.
 ---
 

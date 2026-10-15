@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 22
+- Effective included jobs: 26
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,38 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 22
-- automatic review: 40
-- automatic exclude: 30
-- effective include: 22
-- effective review: 40
-- effective exclude: 30
+- automatic include: 26
+- automatic review: 44
+- automatic exclude: 31
+- effective include: 26
+- effective review: 44
+- effective exclude: 31
 
-## INCLUDE (22)
+## INCLUDE (26)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Get-Recruited (UK) Ltd - Agency - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-23643_225721307
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Admin Assistant
+company: Branta Recruitment Ltd - Agency - Permanent
+location: Gateshead
+source: JobG8
+job_id: jobg8-23643_225723936
+reason: Approved Newcastle catchment.
+---
 
 ---
 action: 
@@ -172,6 +196,18 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Graduate Accounts Assistant
+company: Get-Recruited (UK) Ltd - Agency - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-23643_225721329
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Home Administrator
 company: Akari Care Limited
 location: Newcastle, NE5 5HQ
@@ -268,6 +304,18 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Sales Executive
+company: RecruitedUK - Agency - Permanent
+location: Newcastle Upon Tyne
+source: JobG8
+job_id: jobg8-23643_225439351
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Temporary Customer Service Administrator - Gateshead
 company: Office Angels - Agency - Temporary
 location: Gateshead
@@ -288,7 +336,7 @@ job_id: jobg8-23643_225677749
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (40)
+## REVIEW (44)
 
 ---
 action: 
@@ -426,6 +474,30 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Call Centre Customer Enabling Services Advocate
+company: Executive Connect LTD - Agency - Contract
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_223850779
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Community Engagement & Events Fundraiser
+company: HospiceCare North Northumberland - Agency - Permanent
+location: Northumberland
+source: JobG8
+job_id: jobg8-2124750
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Credit Controller
 company: Paul Card Recruitment - Agency - Temporary
 location: Yorkshire
@@ -456,6 +528,18 @@ location: Northumberland
 source: JobG8
 job_id: jobg8-23643_225630974
 reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Electrical Service Administrator
+company: Coleman James - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225724955
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -515,6 +599,18 @@ company: Staff Partners Business - Agency - Temporary
 location: South Shields
 source: JobG8
 job_id: jobg8-23643_225656747
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist / Administrator
+company: Houghton Medical Group
+location: Houghton le Spring, DH4 4DN
+source: NHS Jobs
+job_id: nhs-5635120
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
@@ -624,18 +720,6 @@ location: Yorkshire
 source: JobG8
 job_id: jobg8-2089759
 reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Clerk
-company: Adecco - Agency - Temporary
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225610690
-reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -770,7 +854,19 @@ job_id: jobg8-23643_225658559
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (30)
+---
+action: 
+decision: review
+automatic_decision: review
+title: Volunteer Coordinator
+company: Waythrough - Agency - Permanent
+location: Northumberland
+source: JobG8
+job_id: jobg8-23643_225617035
+reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+## EXCLUDE (31)
 
 ---
 action: 
@@ -1004,6 +1100,18 @@ reason: Outside Newcastle catchment.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Mental Health Act Administrator
+company: Cygnet Health Care
+location: Darlington , DL1 2LJ
+source: NHS Jobs
+job_id: nhs-5636455
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Part-Time Administrator - Temporary - Durham
 company: Office Angels - Agency - Temporary
 location: Durham
@@ -1033,6 +1141,18 @@ company: Spear-heads - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-2036113
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Recruitment Administrator
+company: SRG - Agency - Temporary
+location: County Durham
+source: JobG8
+job_id: jobg8-23643_225723153
 reason: Separate employment market.
 ---
 
@@ -1093,18 +1213,6 @@ company: Linear Recruitment Ltd - Agency - Contract
 location: Durham
 source: JobG8
 job_id: jobg8-23643_225674179
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: SRA Administrator
-company: Guidant Global - Agency - Contract
-location: Darlington
-source: JobG8
-job_id: jobg8-23643_225612166
 reason: Separate employment market.
 ---
 

@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 6
+- automatic review: 5
 - automatic exclude: 6
 - effective include: 0
-- effective review: 6
+- effective review: 5
 - effective exclude: 6
 
 ## INCLUDE (0)
 
-## REVIEW (6)
+## REVIEW (5)
 
 ---
 action: 
@@ -36,18 +36,6 @@ location: Romsey
 source: JobG8
 job_id: jobg8-1401785691
 reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Extra Care Support Worker - Gore Grange
-company: SCA Care - Agency - Permanent
-location: New Milton
-source: JobG8
-job_id: jobg8-108121734
-reason: No approved Southampton catchment rule matched; local review required.
 ---
 
 ---

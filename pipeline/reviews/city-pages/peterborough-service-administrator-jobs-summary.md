@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
-- automatic review: 12
-- automatic exclude: 24
-- effective include: 12
-- effective review: 12
-- effective exclude: 24
+- automatic include: 11
+- automatic review: 13
+- automatic exclude: 25
+- effective include: 11
+- effective review: 13
+- effective exclude: 25
 
-## INCLUDE (12)
+## INCLUDE (11)
 
 ---
 action: 
@@ -148,18 +148,6 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Purchase Ledger Controller
-company: Reed - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-2062241
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Purchasing Assistant
 company: Huntress - Agency - Contract
 location: Peterborough
@@ -168,7 +156,7 @@ job_id: jobg8-23643_225691674
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (12)
+## REVIEW (13)
 
 ---
 action: 
@@ -282,6 +270,18 @@ reason: No approved Peterborough catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Project Administrator
+company: Astute People - Agency - Permanent
+location: Wisbech
+source: JobG8
+job_id: jobg8-23643_225616701
+reason: No approved Peterborough catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Project Administrator - Wisbech
 company: Adecco - Agency - Permanent
 location: Wisbech
@@ -314,7 +314,7 @@ job_id: jobg8-23643_225691104
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (24)
+## EXCLUDE (25)
 
 ---
 action: 
@@ -500,18 +500,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Front of House Porter/Security
-company: Select Recruitment Specialists Ltd - Agency - Contract
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225611689
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Italian speaking Credit Controller
 company: Language Business - Agency - Permanent
 location: Cambridgeshire
@@ -584,6 +572,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Receptionist / Front of House
+company: Adecco - Agency - Temporary
+location: Cambridge
+source: JobG8
+job_id: jobg8-23643_225724493
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Senior Communications Officer
 company: East Cambridgeshire District Council - Agency - Permanent
 location: Cambridgeshire
@@ -601,5 +601,17 @@ company: Pathfinder CofE Primary School
 location: Cambridge
 source: Teaching Vacancies
 job_id: teaching-vacancies-senior-office-administrator-3a5f781d-04a4-440d-b3a1-75326476e3e9
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Temporary Accounts Assistant
+company: Eclectic Recruitment - Agency - Temporary
+location: Cambridge
+source: JobG8
+job_id: jobg8-23643_225721995
 reason: Separate employment market.
 ---

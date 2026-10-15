@@ -4,7 +4,7 @@
 - Live route: `/exeter/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 17
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
-- automatic review: 43
+- automatic include: 16
+- automatic review: 44
 - automatic exclude: 0
-- effective include: 17
-- effective review: 43
+- effective include: 16
+- effective review: 44
 - effective exclude: 0
 
-## INCLUDE (17)
+## INCLUDE (16)
 
 ---
 action: 
@@ -105,18 +105,6 @@ company: Adecco - Agency - Temporary
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225702212
-reason: Exact approved Exeter workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Insurance Administrator
-company: Switch - Agency - Permanent
-location: Exeter
-source: JobG8
-job_id: jobg8-107875971
 reason: Exact approved Exeter workplace.
 ---
 
@@ -228,7 +216,7 @@ job_id: nhs-5641361
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (43)
+## REVIEW (44)
 
 ---
 action: 
@@ -415,6 +403,30 @@ action:
 decision: review
 automatic_decision: review
 title: Customer Service Advisor
+company: Countrywide HQ - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-1991665
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: Motofix Accident Repair Centres - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225726466
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
 company: Pivotal Partnerships - Agency - Permanent
 location: Devon
 source: JobG8
@@ -510,11 +522,11 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator - Employee Relations
-company: Acorn by Synergie - Agency - Temporary
-location: Plymouth
+title: HR Administrator
+company: Whiteland Engineering Ltd - Agency - Permanent
+location: Bideford
 source: JobG8
-job_id: jobg8-23643_225659817
+job_id: jobg8-23643_225616634
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -539,18 +551,6 @@ company: Pertemps Plymouth - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225698382
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: MIS Administrator (Maternity Cover)
-company: City College Plymouth
-location: Plymouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-mis-administrator-maternity-cover
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

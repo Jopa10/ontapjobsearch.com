@@ -4,7 +4,7 @@
 - Live route: `/milton-keynes/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 18
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
-- automatic review: 57
+- automatic include: 19
+- automatic review: 60
 - automatic exclude: 0
-- effective include: 18
-- effective review: 57
+- effective include: 19
+- effective review: 60
 - effective exclude: 0
 
-## INCLUDE (18)
+## INCLUDE (19)
 
 ---
 action: 
@@ -69,6 +69,18 @@ company: Milton Keynes College
 location: Milton Keynes
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrator-prison-education-hmp-bullingdon
+reason: Exact approved Milton Keynes workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Amazon PPC Executive
+company: FS1 Recruitment - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-23643_225609420
 reason: Exact approved Milton Keynes workplace.
 ---
 
@@ -240,7 +252,7 @@ job_id: nhs-5652428
 reason: Exact approved Milton Keynes workplace.
 ---
 
-## REVIEW (57)
+## REVIEW (60)
 
 ---
 action: 
@@ -342,11 +354,35 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
+title: Administration & Finance Assistant
+company: Quality Personnel - Agency - Contract
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225640299
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrative Assistant
 company: Top Tier Recruitment LTD - Agency - Contract
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225671158
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Connect Recruitment - Agency - Temporary
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225723455
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -455,6 +491,18 @@ company: Brayson Consulting Ltd - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225715039
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Coordinator
+company: CityWorx - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225395997
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -750,18 +798,6 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: PA
-company: Wild Recruitment - Agency - Temporary
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225616169
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: PARALEGAL - CRIMINAL
 company: Maze Recruitment Services Limited - Agency - Permanent
 location: Buckinghamshire
@@ -803,18 +839,6 @@ company: Platinum Resourcing - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-2028229
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part-time Finance Assistant - Education Sector
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-2063504
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -887,6 +911,30 @@ company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-2055401
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales & Office Administrator
+company: JR Recruitment - Agency - Permanent
+location: Chesham
+source: JobG8
+job_id: jobg8-23643_225704137
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Coordinator
+company: Reevr Talent Ltd - Agency - Permanent
+location: High Wycombe
+source: JobG8
+job_id: jobg8-23643_225617836
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

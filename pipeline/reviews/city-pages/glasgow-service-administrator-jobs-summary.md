@@ -4,7 +4,7 @@
 - Live route: `/glasgow/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 30
+- Effective included jobs: 31
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 30
+- automatic include: 31
 - automatic review: 3
 - automatic exclude: 0
-- effective include: 30
+- effective include: 31
 - effective review: 3
 - effective exclude: 0
 
-## INCLUDE (30)
+## INCLUDE (31)
 
 ---
 action: 
@@ -196,6 +196,18 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Customer Service Advisor
+company: Red Recruitment - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-23643_225721667
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Customer Service Coordinator
 company: Adecco - Agency - Permanent
 location: Glasgow
@@ -256,11 +268,11 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Gildeas Solicitors - Agency - Permanent
+title: Receptionist/Administrator (Temporary - 6 months)
+company: Search Consultancy Ltd - Agency - Contract
 location: Glasgow
 source: JobG8
-job_id: jobg8-23643_225672067
+job_id: jobg8-23643_225677200
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -268,11 +280,11 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist/Administrator (Temporary - 6 months)
-company: Search Consultancy Ltd - Agency - Contract
+title: Recruitment Coordinator
+company: Pertemps Glasgow Perms - Agency - Temporary
 location: Glasgow
 source: JobG8
-job_id: jobg8-23643_225677200
+job_id: jobg8-23643_225724778
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -316,6 +328,18 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Temporary Facilities Coordinator
+company: Office Angels - Agency - Temporary
+location: Glasgow
+source: JobG8
+job_id: jobg8-23643_225721009
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Temporary Office Administrator
 company: Office Angels - Agency - Temporary
 location: Glasgow
@@ -345,18 +369,6 @@ company: Office Angels - Agency - Temporary
 location: Glasgow
 source: JobG8
 job_id: jobg8-23643_225616441
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Temporary Support Administrator
-company: Office Angels - Agency - Temporary
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225616529
 reason: Approved conservative Glasgow launch catchment.
 ---
 

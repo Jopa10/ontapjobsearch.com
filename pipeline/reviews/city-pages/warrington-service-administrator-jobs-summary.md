@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 16
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
-- automatic review: 3
+- automatic include: 18
+- automatic review: 4
 - automatic exclude: 4
-- effective include: 16
-- effective review: 3
+- effective include: 18
+- effective review: 4
 - effective exclude: 4
 
-## INCLUDE (16)
+## INCLUDE (18)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Axon Moore - Agency - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-23643_225714999
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Activities Coordinator
+company: Exemplar Health Care - Company - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-108149320
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -112,6 +124,18 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Customer Care Coordinator
+company: Fawkes & Reece London - Agency - Temporary
+location: Warrington
+source: JobG8
+job_id: jobg8-23643_225721355
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Customer Service Administrator
 company: Source 4 - Agency - Temporary
 location: Warrington
@@ -141,6 +165,18 @@ company: Adecco - Agency - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-2039620
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: FTC Administrator
+company: Zachary Daniels Recruitment - Agency - Contract
+location: Warrington
+source: JobG8
+job_id: jobg8-23643_225724405
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -204,19 +240,7 @@ job_id: jobg8-23643_225401887
 reason: Approved conservative Warrington launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Coordinator
-company: Westwood Recruitment - Agency - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-23643_225609646
-reason: Approved conservative Warrington launch catchment.
----
-
-## REVIEW (3)
+## REVIEW (4)
 
 ---
 action: 
@@ -251,6 +275,18 @@ company: System Recruitment - Agency - Permanent
 location: Widnes
 source: JobG8
 job_id: jobg8-23643_225626812
+reason: No approved Warrington catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: School Finance assistant - Runcorn
+company: The Supply Register - Agency - Contract
+location: Cheshire
+source: JobG8
+job_id: jobg8-23643_225615777
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 

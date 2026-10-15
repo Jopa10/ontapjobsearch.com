@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 58
-- automatic exclude: 28
+- automatic review: 56
+- automatic exclude: 29
 - effective include: 7
-- effective review: 58
-- effective exclude: 28
+- effective review: 56
+- effective exclude: 29
 
 ## INCLUDE (7)
 
@@ -108,7 +108,7 @@ job_id: nhs-5649373
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (58)
+## REVIEW (56)
 
 ---
 action: 
@@ -179,18 +179,6 @@ company: Travail Employment Group - Agency - Permanent
 location: Burgess Hill
 source: JobG8
 job_id: jobg8-23643_225614915
-reason: No approved Brighton & Hove catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator (Part Time)
-company: Practice Plus Group - Health in Justice
-location: Lewes, BN7 1EA
-source: NHS Jobs
-job_id: nhs-5642135
 reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
@@ -299,18 +287,6 @@ company: Additional Resources - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225654206
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Centre Coordinator / Administrator
-company: Additional Resources Ltd - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2029067
 reason: Broad location; review before city inclusion.
 ---
 
@@ -522,24 +498,24 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Mandarin Speaking Office Administrator
-company: Michael Page - Agency - Permanent
-location: Burgess Hill
+title: HR Administrator (Maternity Contract)
+company: Arco Recruitment Ltd - Agency - Permanent
+location: Sussex
 source: JobG8
-job_id: jobg8-23643_225634413
-reason: No approved Brighton & Hove catchment rule matched; local review required.
+job_id: jobg8-23643_225658603
+reason: Broad location; review before city inclusion.
 ---
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Marketing & Engagement Manager
-company: Brighton Chamber - Agency - Permanent
-location: Sussex
+title: Mandarin Speaking Office Administrator
+company: Michael Page - Agency - Permanent
+location: Burgess Hill
 source: JobG8
-job_id: jobg8-2116746
-reason: Broad location; review before city inclusion.
+job_id: jobg8-23643_225634413
+reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
 ---
@@ -623,6 +599,18 @@ company: Portfolio Payroll - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2021499
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: PR Account Manager
+company: Alexander James Recruitment ltd - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225617611
 reason: Broad location; review before city inclusion.
 ---
 
@@ -774,18 +762,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Telesales Executive
-company: Travail Employment Group - Agency - Permanent
-location: Not Specified
-source: JobG8
-job_id: jobg8-23643_225609898
-reason: No approved Brighton & Hove catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Temporary Customer Service Advisor
 company: Huntress - Crawley - Agency - Temporary
 location: Sussex
@@ -806,7 +782,7 @@ job_id: jobg8-23643_225699794
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (28)
+## EXCLUDE (29)
 
 ---
 action: 
@@ -1009,6 +985,18 @@ company: Morgan McKinley - Agency - Permanent
 location: Horsham
 source: JobG8
 job_id: jobg8-2056498
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: HR & Payroll Administrator - Immediate Start
+company: Office Angels - Agency - Temporary
+location: Crawley
+source: JobG8
+job_id: jobg8-23643_225718910
 reason: Separate employment market.
 ---
 

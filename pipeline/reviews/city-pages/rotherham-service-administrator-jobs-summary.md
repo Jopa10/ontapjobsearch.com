@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 52
+- automatic review: 53
 - automatic exclude: 0
 - effective include: 3
-- effective review: 52
+- effective review: 53
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: teaching-vacancies-receptionist-admin-assistant-willow-tree-academy
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (52)
+## REVIEW (53)
 
 ---
 action: 
@@ -107,18 +107,6 @@ company: Caval Limited - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225704747
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: NHS Professionals - Company - Temporary
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225703071
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -251,18 +239,6 @@ company: EE - Company - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-20279_63174-73862c8b83139033e4e4a8b6efca9a33
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Navigator & Administrator
-company: Bentley Surgery
-location: Doncaster, DN5 0AT, Doncaster, DN5 8DA
-source: NHS Jobs
-job_id: nhs-5632062
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -426,6 +402,18 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: HR & Operations Coordinator
+company: Carrington West - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225726094
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Assistant
 company: Talent-UK Ltd - Agency - Permanent
 location: Doncaster
@@ -547,6 +535,18 @@ action:
 decision: review
 automatic_decision: review
 title: Payroll Administrator
+company: Edwards & Pearce - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225720547
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
 company: Marks Sattin - Agency - Permanent
 location: Doncaster
 source: JobG8
@@ -563,6 +563,18 @@ company: Elevation Recruitment Group - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-2028957
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Officer
+company: Portfolio Payroll Limited - Agency - Contract
+location: Yorkshire
+source: JobG8
+job_id: jobg8-23643_225718956
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -643,6 +655,18 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
+company: Red Sector Recruitment Limited - Agency - Temporary
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225726240
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
 company: Sue Ross Recruitment Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
@@ -671,18 +695,6 @@ company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-adcabd9c-b940-45d0-a8f0-52fec00f63a2
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Technical Administrator
-company: IMH Recruitment - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-23643_225608755
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

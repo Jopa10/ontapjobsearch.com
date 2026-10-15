@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 54
+- automatic review: 57
 - automatic exclude: 0
 - effective include: 7
-- effective review: 54
+- effective review: 57
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: jobg8-23643_225641309
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (54)
+## REVIEW (57)
 
 ---
 action: 
@@ -119,18 +119,6 @@ company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-23643_225702033
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Capital Outsourcing Group Ltd - Agency - Permanent
-location: Pickering
-source: JobG8
-job_id: jobg8-23643_225499251
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -414,6 +402,18 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Digital Marketing Manager
+company: North Yorkshire Hospice Care - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-2131084
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Document Controller
 company: CV Technical - Agency - Permanent
 location: York
@@ -503,6 +503,30 @@ company: Technical Prospects - Agency - Permanent
 location: Harrogate
 source: JobG8
 job_id: jobg8-2089709
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Manager (Fundraising Appeals and Propositions)
+company: North Yorkshire Hospice Care - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-2131085
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist
+company: Beech House Surgery
+location: Knaresborough, HG5 0UB
+source: NHS Jobs
+job_id: nhs-5635501
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -755,6 +779,18 @@ company: Michael Page - Agency - Temporary
 location: Richmond
 source: JobG8
 job_id: jobg8-23643_225666115
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Ward Clerk
+company: York and Scarborough Teaching Hospitals NHS Foundation Trust
+location: York, YO31 8HE
+source: NHS Jobs
+job_id: nhs-5665026
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

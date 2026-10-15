@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 44
+- automatic review: 46
 - automatic exclude: 0
 - effective include: 4
-- effective review: 44
+- effective review: 46
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,17 +72,17 @@ job_id: nhs-5657920
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (44)
+## REVIEW (46)
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Assistant - Stoke-on-Trent - &;30,000 + Hybrid Working
-company: Ashdown Group - Agency - Permanent
+title: Account Based Marketing Executive
+company: Veolia - Agency - Permanent
 location: Staffordshire
 source: JobG8
-job_id: jobg8-2063366
+job_id: jobg8-23643_225720563
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -126,11 +126,11 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: Administrator (Sales)
-company: Ernest Gordon Recruitment Limited - Agency - Permanent
+title: Administrator
+company: Veolia - Agency - Permanent
 location: Staffordshire
 source: JobG8
-job_id: jobg8-23643_225693717
+job_id: jobg8-23643_225725986
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -282,6 +282,18 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
+title: Hire Administrator
+company: Global Recruitment Services Ltd - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-23643_225725469
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Administrator
 company: SF Partners - Agency - Contract
 location: Staffordshire
@@ -306,11 +318,11 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: Invoicing Administrator
-company: Think Accountancy and Finance - Agency - Permanent
+title: HR Coordinator (human Resources Coordinator)
+company: The Supply Register - Agency - Permanent
 location: Staffordshire
 source: JobG8
-job_id: jobg8-23643_225607723
+job_id: jobg8-23643_225640429
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -318,11 +330,11 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: Learning and Engagement Coordinator
-company: Adullam Homes - Agency - Permanent
-location: Staffordshire
+title: Marketing Executive
+company: Universal Business Team - Agency - Permanent
+location: Stafford
 source: JobG8
-job_id: jobg8-107961085
+job_id: jobg8-23643_225614344
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -414,6 +426,30 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
+title: Part Time Credit Controller
+company: Astute Recruitment - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-23643_225617668
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: Steelite International - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-108122126
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Administrator
 company: Winsearch - Agency - Temporary
 location: Stafford
@@ -467,18 +503,6 @@ company: Ethero - Agency - Temporary
 location: Uttoxeter
 source: JobG8
 job_id: jobg8-23643_225660400
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Controller - Stoke-on-Trent - &;32,000 + Hybrid Working
-company: Ashdown Group - Agency - Permanent
-location: Staffordshire
-source: JobG8
-job_id: jobg8-2063096
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

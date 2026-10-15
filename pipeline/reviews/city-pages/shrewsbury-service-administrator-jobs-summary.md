@@ -138,11 +138,11 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Housing Repairs Administrator
-company: Thorngate Churcher Trust - Agency - Permanent
+title: BMW Sales Administrator
+company: Sytner - Company - Permanent
 location: Shropshire
 source: JobG8
-job_id: jobg8-23643_225698170
+job_id: jobg8-23643_225724224
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

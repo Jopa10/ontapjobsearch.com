@@ -4,7 +4,7 @@
 - Live route: `/poole/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 12
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
-- automatic review: 40
+- automatic include: 13
+- automatic review: 36
 - automatic exclude: 0
-- effective include: 12
-- effective review: 40
+- effective include: 13
+- effective review: 36
 - effective exclude: 0
 
-## INCLUDE (12)
+## INCLUDE (13)
 
 ---
 action: 
@@ -81,6 +81,18 @@ company: Resource Recruitment - Agency - Permanent
 location: Poole
 source: JobG8
 job_id: jobg8-2066041
+reason: Exact approved Poole workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Account Coordinator
+company: Team Jobs - Commercial - Agency - Permanent
+location: Poole
+source: JobG8
+job_id: jobg8-23643_225726239
 reason: Exact approved Poole workplace.
 ---
 
@@ -168,7 +180,7 @@ job_id: nhs-5655858
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (40)
+## REVIEW (36)
 
 ---
 action: 
@@ -215,18 +227,6 @@ company: Agincare
 location: Dorchester, DT1 2EN
 source: NHS Jobs
 job_id: nhs-5655572
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Regent's Park Healthcare
-location: Bournemouth, BH7 7DW
-source: NHS Jobs
-job_id: nhs-5596490
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -450,18 +450,6 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Part Time Accounts Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2078581
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Part time Office & HR Administrator
 company: Holt Engineering - Agency - Permanent
 location: Wimborne
@@ -478,19 +466,7 @@ title: Part-Time Project Administrator/Document Controller
 company: 1st Step - Agency - Contract
 location: Dorset
 source: JobG8
-job_id: jobg8-23643_225607938
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Administrator
-company: Auto Skills UK - Agency - Permanent
-location: Bournemouth
-source: JobG8
-job_id: jobg8-23643_225607593
+job_id: jobg8-23643_225722380
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -503,18 +479,6 @@ company: CMA Recruitment Group - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-2075751
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Project Administrator
-company: Ipsum - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225674087
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -582,18 +546,6 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Dorset HealthCare University NHS Foundation Trust
-location: Bournemouth, BH7 6JF
-source: NHS Jobs
-job_id: nhs-5632763
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Receptionist & Admin Assistant
 company: Ferndown Middle School
 location: Ferndown
@@ -647,6 +599,18 @@ company: Aspire Jobs Limited - Agency - Permanent
 location: Beaminster
 source: JobG8
 job_id: jobg8-107765584
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Ward Clerk
+company: Dorset HealthCare University NHS Foundation Trust
+location: Weymouth, DT4 0QE
+source: NHS Jobs
+job_id: nhs-5639068
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/plymouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 4
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 54
+- automatic include: 4
+- automatic review: 56
 - automatic exclude: 0
-- effective include: 6
-- effective review: 54
+- effective include: 4
+- effective review: 56
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (4)
 
 ---
 action: 
@@ -72,31 +72,7 @@ job_id: teaching-vacancies-general-support-administrator
 reason: Exact approved Plymouth workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: HR Administrator - Employee Relations
-company: Acorn by Synergie - Agency - Temporary
-location: Plymouth
-source: JobG8
-job_id: jobg8-23643_225659817
-reason: Exact approved Plymouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: MIS Administrator (Maternity Cover)
-company: City College Plymouth
-location: Plymouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-mis-administrator-maternity-cover
-reason: Exact approved Plymouth workplace.
----
-
-## REVIEW (54)
+## REVIEW (56)
 
 ---
 action: 
@@ -307,6 +283,30 @@ action:
 decision: review
 automatic_decision: review
 title: Customer Service Advisor
+company: Countrywide HQ - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-1991665
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: Motofix Accident Repair Centres - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225726466
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
 company: Pivotal Partnerships - Agency - Permanent
 location: Devon
 source: JobG8
@@ -390,6 +390,18 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: HR Administrator
+company: Whiteland Engineering Ltd - Agency - Permanent
+location: Bideford
+source: JobG8
+job_id: jobg8-23643_225616634
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Administrator/ Assistant
 company: Hays Business Support - Agency - Permanent
 location: Devon
@@ -431,18 +443,6 @@ company: Adecco - Agency - Temporary
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225702212
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Insurance Administrator
-company: Switch - Agency - Permanent
-location: Exeter
-source: JobG8
-job_id: jobg8-107875971
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

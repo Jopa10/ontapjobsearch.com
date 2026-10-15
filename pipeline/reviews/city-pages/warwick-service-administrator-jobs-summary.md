@@ -4,7 +4,7 @@
 - Live route: `/warwick/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 59
+- automatic include: 6
+- automatic review: 60
 - automatic exclude: 0
-- effective include: 5
-- effective review: 59
+- effective include: 6
+- effective review: 60
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (6)
 
 ---
 action: 
@@ -76,6 +76,18 @@ reason: Exact approved Warwick workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Purchase Ledger Clerk
+company: SF Partners - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-23643_225618000
+reason: Exact approved Warwick workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist
 company: Plum Personnel - Agency - Permanent
 location: Warwick
@@ -84,7 +96,7 @@ job_id: jobg8-23643_225673829
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (59)
+## REVIEW (60)
 
 ---
 action: 
@@ -143,6 +155,18 @@ company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
 location: Rugby
 source: JobG8
 job_id: jobg8-23643_225700132
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable
+company: SF Partners - Agency - Contract
+location: Coventry
+source: JobG8
+job_id: jobg8-23643_225722424
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -678,11 +702,11 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Willenhall Primary Care Centre 1
-location: Coventry, CV3 3DG
-source: NHS Jobs
-job_id: nhs-5632425
+title: Receptionist and Administrator (2 days per week)
+company: Kenilworth School and Sixth Form
+location: Kenilworth
+source: Teaching Vacancies
+job_id: teaching-vacancies-receptionist-and-administrator-2-days-per-week
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -690,11 +714,11 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist and Administrator (2 days per week)
-company: Kenilworth School and Sixth Form
-location: Kenilworth
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-and-administrator-2-days-per-week
+title: Receptionist/Administrator
+company: Operose Health
+location: Coventry, CV1 5FX
+source: NHS Jobs
+job_id: nhs-5665205
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

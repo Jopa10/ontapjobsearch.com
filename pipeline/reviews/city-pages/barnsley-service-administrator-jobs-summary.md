@@ -4,7 +4,7 @@
 - Live route: `/barnsley/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 3
-- automatic exclude: 44
-- effective include: 8
-- effective review: 3
-- effective exclude: 44
+- automatic include: 7
+- automatic review: 4
+- automatic exclude: 45
+- effective include: 7
+- effective review: 4
+- effective exclude: 45
 
-## INCLUDE (8)
+## INCLUDE (7)
 
 ---
 action: 
@@ -108,19 +108,7 @@ job_id: jobg8-23643_225691295
 reason: Approved Barnsley catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Technical Administrator
-company: IMH Recruitment - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-23643_225608755
-reason: Approved Barnsley catchment.
----
-
-## REVIEW (3)
+## REVIEW (4)
 
 ---
 action: 
@@ -151,6 +139,18 @@ action:
 decision: review
 automatic_decision: review
 title: Payroll Officer
+company: Portfolio Payroll Limited - Agency - Contract
+location: Yorkshire
+source: JobG8
+job_id: jobg8-23643_225718956
+reason: No approved Barnsley catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Officer
 company: W Talent - Agency - Permanent
 location: Yorkshire
 source: JobG8
@@ -158,7 +158,7 @@ job_id: jobg8-23643_225712413
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (44)
+## EXCLUDE (45)
 
 ---
 action: 
@@ -205,18 +205,6 @@ company: The Rotherham NHS Foundation Trust
 location: Rotherham, S60 2UD
 source: NHS Jobs
 job_id: nhs-5654236
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: NHS Professionals - Company - Temporary
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225703071
 reason: Separate employment market.
 ---
 
@@ -325,18 +313,6 @@ company: EE - Company - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-20279_63174-73862c8b83139033e4e4a8b6efca9a33
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Care Navigator & Administrator
-company: Bentley Surgery
-location: Doncaster, DN5 0AT, Doncaster, DN5 8DA
-source: NHS Jobs
-job_id: nhs-5632062
 reason: Separate employment market.
 ---
 
@@ -488,6 +464,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: HR & Operations Coordinator
+company: Carrington West - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225726094
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: HR Assistant
 company: Talent-UK Ltd - Agency - Permanent
 location: Doncaster
@@ -541,6 +529,18 @@ company: Norwood Medical Centre
 location: Sheffield, S5 7HD
 source: NHS Jobs
 job_id: nhs-5630483
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Payroll Administrator
+company: Edwards & Pearce - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225720547
 reason: Separate employment market.
 ---
 
@@ -637,6 +637,18 @@ company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Rotherham
 source: JobG8
 job_id: jobg8-2087559
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Red Sector Recruitment Limited - Agency - Temporary
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225726240
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/southampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 14
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
-- automatic review: 73
-- automatic exclude: 35
-- effective include: 14
-- effective review: 73
-- effective exclude: 35
+- automatic include: 16
+- automatic review: 79
+- automatic exclude: 36
+- effective include: 16
+- effective review: 79
+- effective exclude: 36
 
-## INCLUDE (14)
+## INCLUDE (16)
 
 ---
 action: 
@@ -160,6 +160,18 @@ reason: Approved Southampton catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Purchase Ledger
+company: CMA Recruitment Group - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-1996561
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist & Administrator
 company: Dynamite Recruitment - Agency - Temporary
 location: Southampton
@@ -184,6 +196,18 @@ reason: Approved Southampton catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Temporary Accounts Payable Assistant
+company: Michael Page - Agency - Temporary
+location: Southampton
+source: JobG8
+job_id: jobg8-23643_225719604
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Warranty Administrator
 company: Amour Recruitment - Agency - Permanent
 location: Southampton
@@ -192,7 +216,7 @@ job_id: jobg8-23643_225636161
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (73)
+## REVIEW (79)
 
 ---
 action: 
@@ -306,18 +330,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Admin Assistant
-company: Mark Berryman - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225611527
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Administrative Officer
 company: Connect2Hampshire - Agency - Contract
 location: Gosport
@@ -347,18 +359,6 @@ company: Huntress - Maidstone - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225650389
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Wild Recruitment - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225705442
 reason: Broad location; review before city inclusion.
 ---
 
@@ -462,12 +462,48 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Contractor Support Administrator
+company: Insignis - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225724165
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Control
+company: CMA Recruitment Group - Agency - Temporary
+location: Havant
+source: JobG8
+job_id: jobg8-23643_225718828
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Credit Controller
 company: CMA Recruitment Group - Agency - Permanent
 location: Waterlooville
 source: JobG8
 job_id: jobg8-23643_225713816
 reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Administrator
+company: Planet Recruitment - Agency - Temporary
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225719311
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -582,6 +618,18 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Fleet / Lease Administrator
+company: Rise Technical Recruitment - Agency - Contract
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225722385
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Front Of House - Southampton
 company: Catch 22 - Agency - Temporary
 location: Hampshire
@@ -648,6 +696,30 @@ location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225714938
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Housing Repairs Administrator
+company: Thorngate Churcher Trust - Agency - Permanent
+location: Gosport
+source: JobG8
+job_id: jobg8-23643_225698170
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Assistant
+company: CMA Recruitment Group - Agency - Permanent
+location: Havant
+source: JobG8
+job_id: jobg8-23643_225657286
+reason: No approved Southampton catchment rule matched; local review required.
 ---
 
 ---
@@ -786,12 +858,12 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Operations Assistant
-company: Team Jobs - Commercial - Agency - Permanent
-location: Ringwood
+title: Operations Administrator
+company: Wild Recruitment - Agency - Permanent
+location: Hampshire
 source: JobG8
-job_id: jobg8-23643_225679619
-reason: No approved Southampton catchment rule matched; local review required.
+job_id: jobg8-23643_225724159
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -858,6 +930,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Private Client Legal Assistant
+company: Workshop Recruitment - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225722852
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Private Client Legal Assistant / Paralegal
 company: Workshop Recruitment - Agency - Permanent
 location: Petersfield
@@ -870,12 +954,24 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Purchase Ledger
-company: Reed - Agency - Permanent
-location: Alton
+title: Programme Support Administrator
+company: Berry Recruitment - Agency - Contract
+location: Hampshire
 source: JobG8
-job_id: jobg8-2049521
-reason: No approved Southampton catchment rule matched; local review required.
+job_id: jobg8-23643_225616187
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Project Coordinator / Administrator
+company: Artisan Recruitment Group Ltd - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225725711
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -1070,7 +1166,7 @@ job_id: jobg8-23643_225665585
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (35)
+## EXCLUDE (36)
 
 ---
 action: 
@@ -1280,18 +1376,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Customer Service Advisor
-company: Red Snapper Recruitment Limited - Agency - Contract
-location: Fareham
-source: JobG8
-job_id: jobg8-23643_225679991
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Customer Service Coordinator
 company: Dynamite Recruitment - Agency - Temporary
 location: Eastleigh
@@ -1333,6 +1417,30 @@ company: CMA Recruitment Group - Agency - Permanent
 location: Portsmouth
 source: JobG8
 job_id: jobg8-2045918
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Fundraising Administrator
+company: Hays - Agency - Permanent
+location: Winchester
+source: JobG8
+job_id: jobg8-108161094
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Fundraising Administrator
+company: Hays Business Support - Agency - Temporary
+location: Winchester
+source: JobG8
+job_id: jobg8-23643_225721323
 reason: Separate employment market.
 ---
 

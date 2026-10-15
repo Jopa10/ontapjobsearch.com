@@ -4,7 +4,7 @@
 - Live route: `/macclesfield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 4
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 12
+- automatic include: 4
+- automatic review: 11
 - automatic exclude: 0
-- effective include: 6
-- effective review: 12
+- effective include: 4
+- effective review: 11
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (4)
 
 ---
 action: 
@@ -64,30 +64,6 @@ reason: Exact approved Macclesfield workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Sales and Customer Service Administrator
-company: Adecco - Agency - Permanent
-location: Macclesfield
-source: JobG8
-job_id: jobg8-23643_225612074
-reason: Exact approved Macclesfield workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Desk Customer Liaison
-company: Belcan - Agency - Permanent
-location: Macclesfield
-source: JobG8
-job_id: jobg8-23643_225610441
-reason: Exact approved Macclesfield workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Sixth Form Administrator
 company: The Fallibroome Academy
 location: Macclesfield
@@ -96,7 +72,7 @@ job_id: teaching-vacancies-sixth-form-administrator-the-fallibroome-academy-macc
 reason: Exact approved Macclesfield workplace.
 ---
 
-## REVIEW (12)
+## REVIEW (11)
 
 ---
 action: 
@@ -227,18 +203,6 @@ company: Adecco - Agency - Temporary
 location: Crewe
 source: JobG8
 job_id: jobg8-23643_225622101
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary Plant Administrator
-company: Aureos Group - Agency - Permanent
-location: Crewe
-source: JobG8
-job_id: jobg8-23643_225700919
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 14
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
+- automatic include: 15
 - automatic review: 4
-- automatic exclude: 46
-- effective include: 14
+- automatic exclude: 47
+- effective include: 15
 - effective review: 4
-- effective exclude: 46
+- effective exclude: 47
 
-## INCLUDE (14)
+## INCLUDE (15)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Gi Group - Agency - Permanent
 location: Coventry
 source: JobG8
 job_id: jobg8-23643_225692101
+reason: Approved Coventry catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Payable
+company: SF Partners - Agency - Contract
+location: Coventry
+source: JobG8
+job_id: jobg8-23643_225722424
 reason: Approved Coventry catchment.
 ---
 
@@ -172,11 +184,11 @@ reason: Approved Coventry catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Willenhall Primary Care Centre 1
-location: Coventry, CV3 3DG
+title: Receptionist/Administrator
+company: Operose Health
+location: Coventry, CV1 5FX
 source: NHS Jobs
-job_id: nhs-5632425
+job_id: nhs-5665205
 reason: Approved Coventry catchment.
 ---
 
@@ -242,7 +254,7 @@ job_id: jobg8-23643_225656636
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (46)
+## EXCLUDE (47)
 
 ---
 action: 
@@ -721,6 +733,18 @@ company: Valpak Limited - Agency - Permanent
 location: Stratford-Upon-Avon
 source: JobG8
 job_id: jobg8-23643_225707679
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Purchase Ledger Clerk
+company: SF Partners - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-23643_225618000
 reason: Separate employment market.
 ---
 

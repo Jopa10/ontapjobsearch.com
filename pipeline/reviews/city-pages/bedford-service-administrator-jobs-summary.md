@@ -4,7 +4,7 @@
 - Live route: `/bedford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 30
+- automatic include: 5
+- automatic review: 31
 - automatic exclude: 0
-- effective include: 6
-- effective review: 30
+- effective include: 5
+- effective review: 31
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (5)
 
 ---
 action: 
@@ -52,18 +52,6 @@ reason: Exact approved Bedford workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Account Coordinator
-company: Osborne Appointments - Agency - Permanent
-location: Bedford
-source: JobG8
-job_id: jobg8-23643_225647452
-reason: Exact approved Bedford workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Customer Service Advisor
 company: 1st Choice Staff Recruitment - Agency - Temporary
 location: Bedford
@@ -76,11 +64,11 @@ reason: Exact approved Bedford workplace.
 action: 
 decision: include
 automatic_decision: include
-title: PA to SLT and Admissions Administrator
-company: Wootton Academy Trust
+title: Lettings & Property Coordinator
+company: Allstaff - Agency - Permanent
 location: Bedford
-source: Teaching Vacancies
-job_id: teaching-vacancies-pa-to-slt-and-admissions-administrator
+source: JobG8
+job_id: jobg8-23643_225724509
 reason: Exact approved Bedford workplace.
 ---
 
@@ -96,7 +84,7 @@ job_id: teaching-vacancies-receptionist-admin-assistant-springfield-primary-scho
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (30)
+## REVIEW (31)
 
 ---
 action: 
@@ -191,6 +179,18 @@ company: Reed - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-2070624
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: BMW Service Advisor
+company: Sytner - Company - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225725305
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -366,6 +366,18 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Sales Support Executive
+company: Resolve Recruitment - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225678625
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: School Administrator (Term time only + Inset Days)
 company: Edward Peake CofE VC School
 location: Biggleswade
@@ -395,18 +407,6 @@ company: Luton Bennett - Agency - Contract
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225667743
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Coordinator
-company: Path Recruitment - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225612429
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

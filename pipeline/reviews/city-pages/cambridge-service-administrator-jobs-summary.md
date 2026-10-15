@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 22
+- Effective included jobs: 23
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 22
-- automatic review: 12
-- automatic exclude: 14
-- effective include: 22
-- effective review: 12
-- effective exclude: 14
+- automatic include: 23
+- automatic review: 13
+- automatic exclude: 13
+- effective include: 23
+- effective review: 13
+- effective exclude: 13
 
-## INCLUDE (22)
+## INCLUDE (23)
 
 ---
 action: 
@@ -184,18 +184,6 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Front of House Porter/Security
-company: Select Recruitment Specialists Ltd - Agency - Contract
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225611689
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Italian speaking Credit Controller
 company: Language Business - Agency - Permanent
 location: Cambridgeshire
@@ -268,6 +256,18 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist / Front of House
+company: Adecco - Agency - Temporary
+location: Cambridge
+source: JobG8
+job_id: jobg8-23643_225724493
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Senior Communications Officer
 company: East Cambridgeshire District Council - Agency - Permanent
 location: Cambridgeshire
@@ -288,7 +288,19 @@ job_id: teaching-vacancies-senior-office-administrator-3a5f781d-04a4-440d-b3a1-7
 reason: Approved conservative Cambridge launch catchment.
 ---
 
-## REVIEW (12)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Temporary Accounts Assistant
+company: Eclectic Recruitment - Agency - Temporary
+location: Cambridge
+source: JobG8
+job_id: jobg8-23643_225721995
+reason: Approved conservative Cambridge launch catchment.
+---
+
+## REVIEW (13)
 
 ---
 action: 
@@ -402,6 +414,18 @@ reason: No approved Cambridge catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Project Administrator
+company: Astute People - Agency - Permanent
+location: Wisbech
+source: JobG8
+job_id: jobg8-23643_225616701
+reason: No approved Cambridge catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Project Administrator - Wisbech
 company: Adecco - Agency - Permanent
 location: Wisbech
@@ -434,7 +458,7 @@ job_id: jobg8-23643_225691104
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (14)
+## EXCLUDE (13)
 
 ---
 action: 
@@ -577,18 +601,6 @@ company: The One Group - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-2089913
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Purchase Ledger Controller
-company: Reed - Agency - Permanent
-location: Peterborough
-source: JobG8
-job_id: jobg8-2062241
 reason: Separate employment market.
 ---
 

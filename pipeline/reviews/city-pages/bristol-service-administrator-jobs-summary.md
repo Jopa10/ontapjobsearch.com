@@ -196,11 +196,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Advisor - Parts
-company: hireful - Company - Permanent
+title: Customer Service Advisor
+company: Tate - Agency - Temporary
 location: Bristol
 source: JobG8
-job_id: jobg8-23643_225608116
+job_id: jobg8-23643_225723001
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -473,6 +473,18 @@ action:
 decision: include
 automatic_decision: include
 title: Service Advisor
+company: Perfect Placement - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225726289
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Service Advisor
 company: The Solution Auto - Agency - Permanent
 location: Bristol
 source: JobG8
@@ -489,18 +501,6 @@ company: Moxie and Mettle Limited - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2053562
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Trainee Accounts Assistant
-company: Lancer Scott Holdings Ltd - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225608374
 reason: Approved conservative Bristol launch catchment.
 ---
 
