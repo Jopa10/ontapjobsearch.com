@@ -7,6 +7,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 15 October 2026 — **Homepage job-count correction:** Each family, region and family-city homepage count now reflects the jobs displayed on its linked page, counting cross-family vacancies correctly and removing within-page duplicates.
+
 - 15 October 2026 — **Gwent launch geography reconciled:** the LIVE Service Admin selector now rolls the existing Newport lookup label `Wales South -gwent` and Monmouthshire detail into Wales South - Gwent, matching the existing assessable-market overview. This fixes jobs omitted by the operational label mismatch; title and qualification rules remain unchanged.
 
 - 15 October 2026 — **Seventeen owner-approved regional/family pairs activated:** Service Admin in Cumbria North, Lancashire Central, North Wales East, Falkirk & Stirling and Gwent; Customer Sales in Dorset, Northamptonshire, Oxfordshire and Suffolk; Legal Assistant/Paralegal in Hertfordshire, Nottinghamshire and Coventry & Warwickshire; HR/Recruitment in Essex and Hampshire; Customer Service/Contact Centre in Manchester & Salford, Sussex and West Yorkshire. The owner explicitly approved these named pairs from the 15 October same-feed overview, including the Service Admin pairs at seven/eight jobs. Activation uses the central slice register, existing governed selectors, configured regional routes and verified publisher; classifier boundaries and recurring schedules are unchanged.
@@ -244,6 +246,8 @@ Dated one-off recovery/failure reports are not part of the permanent working tre
 Compiler Modules 1/2/3 remain legitimate analysis tools.
 
 ## 3. Website / UX
+
+Homepage job counts now match each linked page's displayed vacancies, including jobs that qualify for multiple families. Duplicate adverts count once within each page, and city cards use that corrected count for the existing four-job visibility rule. The overall site total still counts unique jobs.
 
 On Service Admin mobile pages, the nearby-jobs panel follows the vacancy list and the role/location search remains at the top in a smaller button. Both search options remain available; desktop keeps its existing layout.
 

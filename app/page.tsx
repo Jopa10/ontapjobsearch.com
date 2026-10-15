@@ -3,12 +3,13 @@ import Link from 'next/link';
 import SavedLocationJobs from '@/components/SavedLocationJobs';
 import {
   cityPageDefinitions,
-  getCityPageJobs,
   isCityPageActive,
 } from '@/lib/city-page-data';
 import { getPublishedDynamicSlices } from '@/lib/configured-job-slices';
 import { broadCityDefinitions, getBroadCityJobs } from '@/lib/broad-city-pages';
 import { getJobPath } from '@/lib/job-path';
+import { getJobSliceJobs } from '@/lib/job-slice-jobs';
+import { isLondonJob } from '@/lib/london-job-area';
 import {
   getPublishedJobs,
   type PublishedJob,
@@ -45,7 +46,7 @@ const adminRegionRoutes = [
 ];
 
 const supportWorkerRoutes = [
-  { label: 'North East', href: '/north-east/support-worker' },
+  { label: 'North East', href: '/north-east/support-worker', jsonPath: ['app', 'north-east', 'support-worker-jobs.json'] },
   { label: 'Hampshire', href: '/hampshire/support-worker' },
   { label: 'Sussex', href: '/sussex/support-worker' },
   { label: 'West Yorkshire', href: '/west-yorkshire/support-worker' },
@@ -59,74 +60,88 @@ const customerSalesHomepageLabels: Record<string, string> = {
   'Yorkshire - West': 'West Yorkshire',
 };
 
-function countBySlice(jobs: PublishedJob[], slicePath: string): number {
-  return jobs.reduce((count, job) => count + (job.slice_path === slicePath ? 1 : 0), 0);
-}
-
 function withCounts(
-  jobs: PublishedJob[],
-  routes: Array<{ label: string; href: string }>
+  routes: Array<{ label: string; href: string; jsonPath?: string[] }>
 ): RegionLink[] {
   return routes
-    .map((route) => ({ ...route, count: countBySlice(jobs, route.href) }))
+    .map((route) => ({ ...route, count: getJobSliceJobs(
+      route.jsonPath ?? ['app', ...route.href.slice(1).split('/').slice(0, -1), `${route.href.split('/').at(-1)}.json`],
+      route.label,
+      route.href === '/london/service-administrator-jobs' ? isLondonJob : undefined
+    ).length }))
     .filter((route) => route.count > 0);
 }
 
-function publishedDynamicAdminLinks(jobs: PublishedJob[]): RegionLink[] {
+function publishedDynamicAdminLinks(): RegionLink[] {
   return getPublishedDynamicSlices()
     .filter((slice) => slice.category === 'admin_service')
     .map((slice) => ({
       label: slice.region,
       href: slice.route,
-      count: countBySlice(jobs, slice.route),
+      count: getJobSliceJobs(
+        ['app', '_city-pages', 'configured-slices', slice.regionSlug, `${slice.categorySlug}.json`],
+        slice.region
+      ).length,
     }))
     .filter((route) => route.count > 0)
     .sort((left, right) => left.label.localeCompare(right.label, 'en-GB'));
 }
 
-function publishedDynamicCustomerSalesLinks(jobs: PublishedJob[]): RegionLink[] {
+function publishedDynamicCustomerSalesLinks(): RegionLink[] {
   return getPublishedDynamicSlices()
     .filter((slice) => slice.category === 'customer_sales')
     .map((slice) => ({
       label: customerSalesHomepageLabels[slice.region] ?? slice.region,
       href: slice.route,
-      count: countBySlice(jobs, slice.route),
+      count: getJobSliceJobs(
+        ['app', '_city-pages', 'configured-slices', slice.regionSlug, `${slice.categorySlug}.json`],
+        slice.region
+      ).length,
     }))
     .filter((route) => route.count > 0)
     .sort((left, right) => left.label.localeCompare(right.label, 'en-GB'));
 }
 
-function publishedDynamicLegalLinks(jobs: PublishedJob[]): RegionLink[] {
+function publishedDynamicLegalLinks(): RegionLink[] {
   return getPublishedDynamicSlices()
     .filter((slice) => slice.category === 'legal_assistant_paralegal')
     .map((slice) => ({
       label: slice.region,
       href: slice.route,
-      count: countBySlice(jobs, slice.route),
+      count: getJobSliceJobs(
+        ['app', '_city-pages', 'configured-slices', slice.regionSlug, `${slice.categorySlug}.json`],
+        slice.region
+      ).length,
     }))
     .filter((route) => route.count > 0)
     .sort((left, right) => left.label.localeCompare(right.label, 'en-GB'));
 }
 
-function publishedDynamicMarketingLinks(jobs: PublishedJob[]): RegionLink[] {
+function publishedDynamicMarketingLinks(): RegionLink[] {
   return getPublishedDynamicSlices()
     .filter((slice) => slice.category === 'marketing')
     .map((slice) => ({
       label: slice.region,
       href: slice.route,
-      count: countBySlice(jobs, slice.route),
+      count: getJobSliceJobs(
+        ['app', '_city-pages', 'configured-slices', slice.regionSlug, `${slice.categorySlug}.json`],
+        slice.region
+      ).length,
     }))
     .filter((route) => route.count > 0)
     .sort((left, right) => left.label.localeCompare(right.label, 'en-GB'));
 }
 
-function publishedDynamicHrRecruitmentLinks(jobs: PublishedJob[]): RegionLink[] {
+function publishedDynamicHrRecruitmentLinks(): RegionLink[] {
   return getPublishedDynamicSlices()
     .filter((slice) => slice.category === 'hr_recruitment')
     .map((slice) => ({
       label: slice.region,
       href: slice.route,
-      count: countBySlice(jobs, slice.route),
+      count: getJobSliceJobs(
+        ['app', '_city-pages', 'configured-slices', slice.regionSlug, `${slice.categorySlug}.json`],
+        slice.region
+      ).length,
     }))
     .filter((route) => route.count > 0)
     .sort((left, right) => left.label.localeCompare(right.label, 'en-GB'));
@@ -143,7 +158,7 @@ function activeCityLinks(kind: 'admin' | 'support'): RegionLink[] {
     .map((definition) => ({
       label: definition.displayName,
       href: definition.route,
-      count: getCityPageJobs(definition).length,
+      count: getJobSliceJobs(definition.jsonPath, definition.displayName).length,
     }))
     .filter((route) => route.count >= homepageCityMinimumJobs)
     .sort((left, right) => left.label.localeCompare(right.label, 'en-GB'));
@@ -315,16 +330,16 @@ function RecentJobCard({ job }: { job: PublishedJob }) {
 export default function Page() {
   const jobs = getPublishedJobs();
   const adminRegions = [
-    ...withCounts(jobs, adminRegionRoutes),
-    ...publishedDynamicAdminLinks(jobs),
+    ...withCounts(adminRegionRoutes),
+    ...publishedDynamicAdminLinks(),
     ...activeCityLinks('admin'),
   ];
-  const customerSalesRegions = publishedDynamicCustomerSalesLinks(jobs);
-  const legalRegions = publishedDynamicLegalLinks(jobs);
-  const marketingRegions = publishedDynamicMarketingLinks(jobs);
-  const hrRecruitmentRegions = publishedDynamicHrRecruitmentLinks(jobs);
+  const customerSalesRegions = publishedDynamicCustomerSalesLinks();
+  const legalRegions = publishedDynamicLegalLinks();
+  const marketingRegions = publishedDynamicMarketingLinks();
+  const hrRecruitmentRegions = publishedDynamicHrRecruitmentLinks();
   const supportWorkerRegions = [
-    ...withCounts(jobs, supportWorkerRoutes),
+    ...withCounts(supportWorkerRoutes),
     ...activeCityLinks('support'),
   ];
   const currentJobs = selectHomepageRecentJobs(jobs, 4);

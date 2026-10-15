@@ -9,6 +9,8 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 15 October 2026 — **Homepage job-count correction:** Family/region and family-city counts now share page-level JSON membership and canonical-ID deduplication with `JobSlicePage` instead of using primary `slice_path` assignments or raw city row counts.
+
 - 15 October 2026 — **Gwent launch geography reconciled:** the LIVE Service Admin selector now rolls the existing Newport lookup label `Wales South -gwent` and Monmouthshire detail into Wales South - Gwent, matching the existing assessable-market overview. This fixes jobs omitted by the operational label mismatch; title and qualification rules remain unchanged.
 
 - 15 October 2026 — **Seventeen owner-approved regional/family pairs activated:** Service Admin in Cumbria North, Lancashire Central, North Wales East, Falkirk & Stirling and Gwent; Customer Sales in Dorset, Northamptonshire, Oxfordshire and Suffolk; Legal Assistant/Paralegal in Hertfordshire, Nottinghamshire and Coventry & Warwickshire; HR/Recruitment in Essex and Hampshire; Customer Service/Contact Centre in Manchester & Salford, Sussex and West Yorkshire. The owner explicitly approved these named pairs from the 15 October same-feed overview, including the Service Admin pairs at seven/eight jobs. Activation uses the central slice register, existing governed selectors, configured regional routes and verified publisher; classifier boundaries and recurring schedules are unchanged.
@@ -255,6 +257,8 @@ Compiler Modules 1, 2 and 3 remain legitimate specialist/manual analysis workflo
 Report lifecycle is recurring operational reporting / deliberate specialist analysis / one-off diagnostics in Actions artifacts or Git history.
 
 ## 3. Website / UX
+
+Homepage regional and family-city counts use `lib/job-slice-jobs.ts`, shared with `JobSlicePage`, to read each linked page's own JSON, resolve canonical job IDs and deduplicate within that page. London Admin retains its London filter. Counts never infer membership from a job's single `slice_path`: a vacancy may count once on each qualifying family page. City visibility applies the existing four-job floor after page deduplication; the sitewide unique-job total and broad-city counts retain their existing published-inventory mechanisms.
 
 At widths up to 700px, Service Admin `JobSlicePage` uses a flex column to place its single `SavedLocationJobs` instance after the listing content, avoiding duplicated location state/listeners. `JobPageSearch` receives `compactMobile` for a 44px minimum-height toggle and 22px icon above the vacancies. Desktop order and other job families are unchanged.
 
