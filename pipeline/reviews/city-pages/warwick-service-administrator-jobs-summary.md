@@ -4,7 +4,7 @@
 - Live route: `/warwick/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 60
+- automatic include: 7
+- automatic review: 65
 - automatic exclude: 0
-- effective include: 6
-- effective review: 60
+- effective include: 7
+- effective review: 65
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (7)
 
 ---
 action: 
@@ -76,6 +76,18 @@ reason: Exact approved Warwick workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Property Litigation Paralegal
+company: Michael Page Legal - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-2074203
+reason: Exact approved Warwick workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Purchase Ledger Clerk
 company: SF Partners - Agency - Permanent
 location: Warwick
@@ -96,7 +108,7 @@ job_id: jobg8-23643_225673829
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (60)
+## REVIEW (65)
 
 ---
 action: 
@@ -215,18 +227,6 @@ company: Finham Park 2
 location: Coventry
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-finham-park-2
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrative Assistant (Data)
-company: Finham Park 2
-location: Coventry
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-data-finham-park-2
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -402,6 +402,18 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Employment Law Secretary or Paralegal
+company: Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent
+location: Leamington Spa
+source: JobG8
+job_id: jobg8-23643_225709181
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Facilities and Maintenance Administrator
 company: EA First - Agency - Temporary
 location: Coventry
@@ -455,6 +467,18 @@ company: Station Street Surgery
 location: Nuneaton, CV11 6HH
 source: NHS Jobs
 job_id: nhs-5656280
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Graduate Paralegal - Public Family Law (Care)
+company: Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent
+location: Leamington Spa
+source: JobG8
+job_id: jobg8-23643_225677746
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -654,6 +678,30 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Private Client Paralegal
+company: G2 Legal Limited - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2049188
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Private Client Paralegal
+company: The Eventus Recruitment Group - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2059104
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Project Administrator
 company: Red Rock Consultants Ltd - Agency - Permanent
 location: Coventry
@@ -738,6 +786,18 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Remote Conveyancing Paralegal
+company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2055387
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Administrator
 company: Options Resourcing Ltd - Agency - Permanent
 location: Southam
@@ -815,6 +875,18 @@ company: Brellis Recruitment - Agency - Permanent
 location: Southam
 source: JobG8
 job_id: jobg8-23643_225656636
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Wills & Probate Paralegal
+company: The Eventus Recruitment Group - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2063048
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

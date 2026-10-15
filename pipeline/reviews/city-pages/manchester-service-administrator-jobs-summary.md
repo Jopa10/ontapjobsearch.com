@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 94
+- Effective included jobs: 98
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 94
-- automatic review: 20
-- automatic exclude: 10
-- effective include: 94
-- effective review: 20
-- effective exclude: 10
+- automatic include: 98
+- automatic review: 21
+- automatic exclude: 11
+- effective include: 98
+- effective review: 21
+- effective exclude: 11
 
-## INCLUDE (94)
+## INCLUDE (98)
 
 ---
 action: 
@@ -184,6 +184,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Customer Care Advisor
+company: Zachary Daniels Recruitment - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-23643_225666858
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Customer Service Administrator
 company: Adecco - Agency - Permanent
 location: Manchester
@@ -249,6 +261,18 @@ company: Interaction Recruitment - Agency - Temporary
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225684454
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: Jobwise Ltd - Agency - Temporary
+location: Manchester
+source: JobG8
+job_id: jobg8-23643_225695945
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -676,6 +700,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Mental Health Act Administrator
+company: Greater Manchester Mental Health NHS Foundation Trust
+location: Manchester, M8 5RB
+source: NHS Jobs
+job_id: nhs-5665284
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Motor Claims Handler - FNOL & Accidental Damage
 company: Red Dot Search UK Limited - Agency - Permanent
 location: Manchester
@@ -1060,6 +1096,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Senior Administrator
+company: Greater Manchester Mental Health NHS Foundation Trust
+location: Manchester, M13 9EP
+source: NHS Jobs
+job_id: nhs-5656635
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Senior HR Administrator
 company: The Guinness Partnership - Agency - Permanent
 location: Manchester
@@ -1152,7 +1200,7 @@ job_id: jobg8-23643_225688135
 reason: Approved conservative Manchester launch catchment.
 ---
 
-## REVIEW (20)
+## REVIEW (21)
 
 ---
 action: 
@@ -1176,6 +1224,18 @@ location: Lancashire
 source: JobG8
 job_id: jobg8-2053585
 reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Clinical Team Administrator
+company: Greater Manchester Mental Health NHS Foundation Trust
+location: Eccles, M30 0GT
+source: NHS Jobs
+job_id: nhs-5658418
+reason: Broad regional location; review before Manchester inclusion.
 ---
 
 ---
@@ -1394,7 +1454,7 @@ job_id: jobg8-2065821
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 
-## EXCLUDE (10)
+## EXCLUDE (11)
 
 ---
 action: 
@@ -1501,6 +1561,18 @@ company: Greater Manchester Mental Health NHS Foundation Trust
 location: Salford, M27 6AD
 source: NHS Jobs
 job_id: nhs-5637750
+reason: Separate exact-city market at launch.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Team Administrator
+company: Greater Manchester Mental Health NHS Foundation Trust
+location: Salford, M27 6AD
+source: NHS Jobs
+job_id: nhs-5665288
 reason: Separate exact-city market at launch.
 ---
 

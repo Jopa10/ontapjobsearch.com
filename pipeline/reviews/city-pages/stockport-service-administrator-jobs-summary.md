@@ -186,6 +186,18 @@ reason: No approved Stockport employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
+title: Administrative assistant
+company: Tameside and Glossop Integrated Care NHS Foundation Trust
+location: Ashton Under Lyne, OL6 6NG
+source: NHS Jobs
+job_id: nhs-5656329
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrator
 company: Jobwise Ltd - Agency - Temporary
 location: Altrincham
@@ -287,18 +299,6 @@ company: Pickles Recruitment - Agency - Permanent
 location: Denton
 source: JobG8
 job_id: jobg8-23643_225680857
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Team Administrator
-company: Pennine Care NHS FT
-location: Ashton-Under-Lyne, OL6 7SR
-source: NHS Jobs
-job_id: nhs-5643892
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 

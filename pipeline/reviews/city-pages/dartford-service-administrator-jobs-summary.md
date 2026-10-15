@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 13
-- automatic review: 56
+- automatic review: 55
 - automatic exclude: 36
 - effective include: 12
-- effective review: 56
+- effective review: 55
 - effective exclude: 37
 
 ## INCLUDE (12)
@@ -168,7 +168,7 @@ job_id: jobg8-23643_225632206
 reason: Exact approved Dartford workplace.
 ---
 
-## REVIEW (56)
+## REVIEW (55)
 
 ---
 action: 
@@ -479,18 +479,6 @@ company: Recruitment Solutions - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-2040044
-reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Education Administrator
-company: East Kent Hospitals University NHS Foundation Trust
-location: Margate, CT9 4AN
-source: NHS Jobs
-job_id: nhs-5660781
 reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
 ---
 

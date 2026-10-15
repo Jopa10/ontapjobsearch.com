@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 15
+- Effective included jobs: 14
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
+- automatic include: 14
 - automatic review: 4
-- automatic exclude: 47
-- effective include: 15
+- automatic exclude: 54
+- effective include: 14
 - effective review: 4
-- effective exclude: 47
+- effective exclude: 54
 
-## INCLUDE (15)
+## INCLUDE (14)
 
 ---
 action: 
@@ -69,18 +69,6 @@ company: Finham Park 2
 location: Coventry
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-finham-park-2
-reason: Approved Coventry catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrative Assistant (Data)
-company: Finham Park 2
-location: Coventry
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-data-finham-park-2
 reason: Approved Coventry catchment.
 ---
 
@@ -254,7 +242,7 @@ job_id: jobg8-23643_225656636
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (47)
+## EXCLUDE (54)
 
 ---
 action: 
@@ -512,6 +500,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Employment Law Secretary or Paralegal
+company: Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent
+location: Leamington Spa
+source: JobG8
+job_id: jobg8-23643_225709181
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Finance Assistant
 company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
 location: Rugby
@@ -553,6 +553,18 @@ company: Station Street Surgery
 location: Nuneaton, CV11 6HH
 source: NHS Jobs
 job_id: nhs-5656280
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Graduate Paralegal - Public Family Law (Care)
+company: Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent
+location: Leamington Spa
+source: JobG8
+job_id: jobg8-23643_225677746
 reason: Separate employment market.
 ---
 
@@ -728,6 +740,42 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Private Client Paralegal
+company: G2 Legal Limited - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2049188
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Private Client Paralegal
+company: The Eventus Recruitment Group - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2059104
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Property Litigation Paralegal
+company: Michael Page Legal - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-2074203
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Purchase Ledger Administrator
 company: Valpak Limited - Agency - Permanent
 location: Stratford-Upon-Avon
@@ -776,6 +824,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Remote Conveyancing Paralegal
+company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2055387
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Sales Support Specialist
 company: Arden Personnel - Agency - Permanent
 location: Warwickshire
@@ -817,5 +877,17 @@ company: Reed Specialist Recruitment - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225685303
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Wills & Probate Paralegal
+company: The Eventus Recruitment Group - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2063048
 reason: Separate employment market.
 ---

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 85
+- automatic review: 94
 - automatic exclude: 0
 - effective include: 6
-- effective review: 85
+- effective review: 94
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225694409
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
-## REVIEW (85)
+## REVIEW (94)
 
 ---
 action: 
@@ -330,11 +330,35 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
+title: Commercial Paralegal
+company: G2 Legal Limited - Agency - Permanent
+location: Watford
+source: JobG8
+job_id: jobg8-2077823
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Content and Social Media Executive
 company: Brand Recruitment - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-2033914
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Conveyancing Paralegal
+company: qed legal - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-2049385
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -491,6 +515,18 @@ company: Think Specialist Recruitment - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-2076989
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Family Paralegal
+company: Reed - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-2051692
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -678,6 +714,30 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
+title: Legal Secretary - Commercial Property
+company: Think Specialist Recruitment - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-2059286
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Secretary - Commercial Property
+company: Think Specialist Recruitment - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-23643_225675241
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Lettings & Operations Coordinator
 company: TLTP Education - Agency - Permanent
 location: Hertfordshire
@@ -810,6 +870,30 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
+title: Paralegal Children's Law
+company: Hab Law - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-23643_225676512
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Paralegal Family Law
+company: Reed - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-2051669
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part Time Accounts Payable Administrator
 company: Think Accountancy and Finance - Agency - Permanent
 location: Hertfordshire
@@ -930,6 +1014,18 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
+title: Private Client Paralegal
+company: Reed - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-2051626
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Procurement Administrator
 company: Rise Technical Recruitment - Agency - Permanent
 location: Hertfordshire
@@ -947,6 +1043,18 @@ company: GSCI Consultants Ltd - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-2064628
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Property Paralegal
+company: Labrums - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-23643_225667598
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

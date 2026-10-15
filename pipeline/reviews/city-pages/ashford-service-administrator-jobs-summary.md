@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 97
+- automatic review: 96
 - automatic exclude: 0
 - effective include: 8
-- effective review: 97
+- effective review: 96
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: nhs-5653187
 reason: Exact approved Ashford workplace.
 ---
 
-## REVIEW (97)
+## REVIEW (96)
 
 ---
 action: 
@@ -731,18 +731,6 @@ company: Recruitment Solutions - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-2040044
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Education Administrator
-company: East Kent Hospitals University NHS Foundation Trust
-location: Margate, CT9 4AN
-source: NHS Jobs
-job_id: nhs-5660781
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 

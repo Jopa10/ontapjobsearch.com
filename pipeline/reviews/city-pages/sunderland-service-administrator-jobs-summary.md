@@ -4,7 +4,7 @@
 - Live route: `/sunderland/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 93
+- automatic include: 9
+- automatic review: 92
 - automatic exclude: 0
-- effective include: 8
-- effective review: 93
+- effective include: 9
+- effective review: 92
 - effective exclude: 0
 
-## INCLUDE (8)
+## INCLUDE (9)
 
 ---
 action: 
@@ -100,6 +100,18 @@ reason: Exact approved Sunderland workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist
+company: South Tyneside and Sunderland NHS Foundation Trust
+location: SUNDERLAND, SR1 3AE
+source: NHS Jobs
+job_id: nhs-5666221
+reason: Exact approved Sunderland workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: School Office Administrator
 company: Northern Saints Church of England Academy
 location: Sunderland
@@ -120,7 +132,7 @@ job_id: jobg8-23643_225674171
 reason: Exact approved Sunderland workplace.
 ---
 
-## REVIEW (93)
+## REVIEW (92)
 
 ---
 action: 
@@ -803,18 +815,6 @@ company: Houghton Medical Group
 location: Houghton le Spring, DH4 4DN
 source: NHS Jobs
 job_id: nhs-5635120
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Mental Health Act Administrator
-company: Cygnet Health Care
-location: Darlington , DL1 2LJ
-source: NHS Jobs
-job_id: nhs-5636455
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 

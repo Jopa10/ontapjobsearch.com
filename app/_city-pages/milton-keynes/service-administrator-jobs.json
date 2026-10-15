@@ -444,25 +444,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3962-26-0008",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5652428",
-    "source": "NHS Jobs",
-    "title": "Ward Clerk",
-    "company": "Milton Keynes University Hospital NHS Foundation Trust",
-    "advertiser_name": "Milton Keynes University Hospital NHS Foundation Trust",
-    "location": "Milton Keynes, MK6 5LD",
-    "region": "Buckinghamshire",
-    "salary": "£25272.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-10-08T16:22:36.368916913",
-    "closing_date": "2026-10-22",
-    "description": "Ward Clerk Department Ward 16 Band 2 £25,272 per annum pro rata Hours: 30 per week, (potential to extend to 37.50), all MKUH roles will be considered for flexible working Ward 16 is a respiratory ward. We have a large team of doctors, Nurses, and therapy team, and work closely with other multi-disciplinary teams. We are friendly, approachable, and supportive, and looking for a ward clerk to add to our team. 'We care We communicate We collaborate We contribute' Please note that we are not able to offer sponsorship for this role. Interview w/c 26 October 2026 The role of the ward clerk is to support the nursing team in the delivery of safe effective care to the patient to be achieved by performing administrative tasks in a diligent, professional way in order to assist with the smooth running of the service. Be able to admit, transfer, discharge patients using the electronic patient record. Greet all visitors to the unit in a friendly, helpful and courteous manner. The undertaking of general organisation of paperwork and notes within the Unit to ensure an organized department. To admit, transfer and discharge patients from the system using the electronic patient record. To answer the telephone, taking and delivering messages in an appropriate and helpful manner. Manage Out-patients diary. To liaise with staff from other departments in an effective manner to include the bed manager/medical records/divisional bleep holders as requested. Please refer to the Job Description for further details",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9430-26-0559",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9430-26-0559",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

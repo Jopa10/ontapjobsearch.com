@@ -4,7 +4,7 @@
 - Live route: `/watford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 83
+- automatic include: 9
+- automatic review: 91
 - automatic exclude: 0
-- effective include: 8
-- effective review: 83
+- effective include: 9
+- effective review: 91
 - effective exclude: 0
 
-## INCLUDE (8)
+## INCLUDE (9)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Fortrade - Agency - Permanent
 location: Watford
 source: JobG8
 job_id: jobg8-108062197
+reason: Exact approved Watford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Commercial Paralegal
+company: G2 Legal Limited - Agency - Permanent
+location: Watford
+source: JobG8
+job_id: jobg8-2077823
 reason: Exact approved Watford workplace.
 ---
 
@@ -120,7 +132,7 @@ job_id: nhs-5653585
 reason: Exact approved Watford workplace.
 ---
 
-## REVIEW (83)
+## REVIEW (91)
 
 ---
 action: 
@@ -366,6 +378,18 @@ reason: No approved Watford employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
+title: Conveyancing Paralegal
+company: qed legal - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-2049385
+reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Credit Controller
 company: Michael Page Finance - Agency - Permanent
 location: Hertfordshire
@@ -527,6 +551,18 @@ company: Think Specialist Recruitment - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-2076989
+reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Family Paralegal
+company: Reed - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-2051692
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
 ---
 
@@ -702,6 +738,30 @@ reason: The stated location is broader or less specific than the approved Watfor
 action: 
 decision: review
 automatic_decision: review
+title: Legal Secretary - Commercial Property
+company: Think Specialist Recruitment - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-2059286
+reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Secretary - Commercial Property
+company: Think Specialist Recruitment - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-23643_225675241
+reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Lettings & Operations Coordinator
 company: TLTP Education - Agency - Permanent
 location: Hertfordshire
@@ -803,6 +863,30 @@ company: Think Specialist Recruitment - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-23643_225631874
+reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Paralegal Children's Law
+company: Hab Law - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-23643_225676512
+reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Paralegal Family Law
+company: Reed - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-2051669
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
 ---
 
@@ -918,6 +1002,18 @@ reason: The stated location is broader or less specific than the approved Watfor
 action: 
 decision: review
 automatic_decision: review
+title: Private Client Paralegal
+company: Reed - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-2051626
+reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Procurement Administrator
 company: Rise Technical Recruitment - Agency - Permanent
 location: Hertfordshire
@@ -935,6 +1031,18 @@ company: GSCI Consultants Ltd - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-2064628
+reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Property Paralegal
+company: Labrums - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-23643_225667598
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
 ---
 

@@ -146,33 +146,5 @@
     "work_pattern": "Not Specified",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "teaching-vacancies-senior-leadership-team-administrator-milton-mount-primary-school",
-    "title": "Senior Leadership Team Administrator",
-    "company": "Milton Mount Primary School",
-    "location": "Crawley",
-    "region": "Sussex",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£28,546.00 - £30,581.00 Annually (FTE) pro rata £13,643.30 based on 20 hours p/w",
-    "work_pattern": "",
-    "posted_date": "2026-10-06",
-    "closing_date": "2026-10-15",
-    "closing_datetime": "2026-10-15T09:00:00+01:00",
-    "summary": "Senior Leadership Team Administrator with Milton Mount Primary School in Crawley. ['part time']; £28,546.00 - £30,581.00 Annually (FTE) pro rata £13,643.30 based on 20 hours p/w.",
-    "description": "Milton Mount Primary School is recruiting for this vacancy in Crawley.\n\nThe advertised position is Senior Leadership Team Administrator.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £28,546.00 - £30,581.00 Annually (FTE) pro rata £13,643.30 based on 20 hours p/w.\n\nThe stated application deadline is 2026-10-15T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/senior-leadership-team-administrator-milton-mount-primary-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Milton Mount Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
   }
 ]

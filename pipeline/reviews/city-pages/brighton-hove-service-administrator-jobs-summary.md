@@ -4,7 +4,7 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 56
-- automatic exclude: 29
-- effective include: 7
-- effective review: 56
-- effective exclude: 29
+- automatic include: 8
+- automatic review: 58
+- automatic exclude: 30
+- effective include: 8
+- effective review: 58
+- effective exclude: 30
 
-## INCLUDE (7)
+## INCLUDE (8)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Michael Page Finance - Agency - Permanent
 location: Brighton
 source: JobG8
 job_id: jobg8-2045548
+reason: Approved Brighton & Hove catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Representative
+company: Red Recruitment - Agency - Temporary
+location: Brighton
+source: JobG8
+job_id: jobg8-23643_225653814
 reason: Approved Brighton & Hove catchment.
 ---
 
@@ -108,7 +120,7 @@ job_id: nhs-5649373
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (56)
+## REVIEW (58)
 
 ---
 action: 
@@ -408,6 +420,30 @@ location: Sussex
 source: JobG8
 job_id: jobg8-23643_225653676
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Representative
+company: Gi Group - Agency - Permanent
+location: East Grinstead
+source: JobG8
+job_id: jobg8-23643_225653638
+reason: No approved Brighton & Hove catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Support Specialist Long Term Temp
+company: Office Angels - Agency - Contract
+location: Burgess Hill
+source: JobG8
+job_id: jobg8-23643_225635139
+reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
 ---
@@ -782,7 +818,7 @@ job_id: jobg8-23643_225699794
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (29)
+## EXCLUDE (30)
 
 ---
 action: 
@@ -956,6 +992,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Customer Service Executive
+company: Morgan Mckinley (Crawley) - Agency - Permanent
+location: East Grinstead
+source: JobG8
+job_id: jobg8-23643_225653566
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Document Controller (Construction)
 company: Skilled Careers - Agency - Permanent
 location: Worthing
@@ -997,6 +1045,18 @@ company: Office Angels - Agency - Temporary
 location: Crawley
 source: JobG8
 job_id: jobg8-23643_225718910
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: MSK Therapies - Booking Clerk
+company: East Sussex Healthcare NHS Trust
+location: Hastings, TN37 7RD
+source: NHS Jobs
+job_id: nhs-5660033
 reason: Separate employment market.
 ---
 
@@ -1069,18 +1129,6 @@ company: Pavilion Recruitment Solutions - Agency - Permanent
 location: Crawley
 source: JobG8
 job_id: jobg8-2048366
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Senior Leadership Team Administrator
-company: Milton Mount Primary School
-location: Crawley
-source: Teaching Vacancies
-job_id: teaching-vacancies-senior-leadership-team-administrator-milton-mount-primary-school
 reason: Separate employment market.
 ---
 

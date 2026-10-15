@@ -4,7 +4,7 @@
 - Live route: `/northampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 14
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
-- automatic review: 41
+- automatic include: 18
+- automatic review: 43
 - automatic exclude: 0
-- effective include: 14
-- effective review: 41
+- effective include: 18
+- effective review: 43
 - effective exclude: 0
 
-## INCLUDE (14)
+## INCLUDE (18)
 
 ---
 action: 
@@ -57,6 +57,18 @@ company: Reed - Agency - Permanent
 location: Northampton
 source: JobG8
 job_id: jobg8-2088477
+reason: Exact approved Northampton workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Business Development Executive (Office Based)
+company: Ernest Gordon Recruitment Limited - Agency - Permanent
+location: Northampton
+source: JobG8
+job_id: jobg8-23643_225717010
 reason: Exact approved Northampton workplace.
 ---
 
@@ -136,6 +148,30 @@ reason: Exact approved Northampton workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Internal Sales
+company: Kingscroft Professional Resources - Agency - Permanent
+location: Northampton
+source: JobG8
+job_id: jobg8-2091383
+reason: Exact approved Northampton workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Italian Customer Service
+company: Impact Recruitment Services - Agency - Permanent
+location: Northampton
+source: JobG8
+job_id: jobg8-23643_225631440
+reason: Exact approved Northampton workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Part Time Administrator
 company: The National Allotment Society - Agency - Permanent
 location: Northampton
@@ -172,6 +208,18 @@ reason: Exact approved Northampton workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Sales Executive (Office Based)
+company: Ernest Gordon Recruitment Limited - Agency - Permanent
+location: Northampton
+source: JobG8
+job_id: jobg8-23643_225687685
+reason: Exact approved Northampton workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Sales Support
 company: Osborne Appointments - Agency - Permanent
 location: Northampton
@@ -192,7 +240,7 @@ job_id: jobg8-23643_225641855
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (41)
+## REVIEW (43)
 
 ---
 action: 
@@ -287,6 +335,18 @@ company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-2045730
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: B2b Telesales Executive
+company: SolviT Recruitment Ltd - Agency - Temporary
+location: Daventry
+source: JobG8
+job_id: jobg8-23643_225718197
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -479,6 +539,18 @@ company: Adapro Talent Partners - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-23643_225706886
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Telesales
+company: SolviT Recruitment Ltd - Agency - Temporary
+location: Daventry
+source: JobG8
+job_id: jobg8-23643_225685520
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

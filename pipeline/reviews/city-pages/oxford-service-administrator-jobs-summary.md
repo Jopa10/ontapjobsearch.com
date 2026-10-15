@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 23
+- automatic review: 25
 - automatic exclude: 46
 - effective include: 10
-- effective review: 23
+- effective review: 25
 - effective exclude: 46
 
 ## INCLUDE (10)
@@ -144,7 +144,7 @@ job_id: nhs-5640615
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (23)
+## REVIEW (25)
 
 ---
 action: 
@@ -342,6 +342,18 @@ reason: No approved Oxford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Procurement Account Manager
+company: Xact Placements Limited - Agency - Permanent
+location: Witney
+source: JobG8
+job_id: jobg8-2087202
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Procurement Administrator
 company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
 location: Witney
@@ -395,6 +407,18 @@ company: MP Jobs Ltd t/a MP Recruitment Group - Agency - Permanent
 location: Abingdon
 source: JobG8
 job_id: jobg8-23643_225724950
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Advisor
+company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
+location: Hook Norton
+source: JobG8
+job_id: jobg8-23643_225678384
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 

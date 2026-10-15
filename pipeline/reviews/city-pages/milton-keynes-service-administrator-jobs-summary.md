@@ -4,7 +4,7 @@
 - Live route: `/milton-keynes/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 19
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 19
+- automatic include: 18
 - automatic review: 60
 - automatic exclude: 0
-- effective include: 19
+- effective include: 18
 - effective review: 60
 - effective exclude: 0
 
-## INCLUDE (19)
+## INCLUDE (18)
 
 ---
 action: 
@@ -237,18 +237,6 @@ company: Working Solutions Recruitment - Agency - Permanent
 location: Milton Keynes
 source: JobG8
 job_id: jobg8-23643_225635978
-reason: Exact approved Milton Keynes workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Ward Clerk
-company: Milton Keynes University Hospital NHS Foundation Trust
-location: Milton Keynes, MK6 5LD
-source: NHS Jobs
-job_id: nhs-5652428
 reason: Exact approved Milton Keynes workplace.
 ---
 

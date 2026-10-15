@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 78
+- Effective included jobs: 82
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 78
-- automatic review: 35
+- automatic include: 82
+- automatic review: 36
 - automatic exclude: 35
-- effective include: 78
-- effective review: 35
+- effective include: 82
+- effective review: 36
 - effective exclude: 35
 
-## INCLUDE (78)
+## INCLUDE (82)
 
 ---
 action: 
@@ -256,6 +256,42 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Customer Experience Advisor
+company: Leeds Federated Housing Association Ltd - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225631321
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Experience Advisor
+company: Michael Page - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225684006
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service
+company: Search Consultancy Ltd - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225718050
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Customer Service Administrator
 company: Michael Page - Agency - Permanent
 location: Leeds
@@ -405,6 +441,18 @@ company: Leeds West Academy
 location: Leeds
 source: Teaching Vacancies
 job_id: teaching-vacancies-general-administrator-leeds-west-academy
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: GP Receptionist / Care Navigator
+company: Robin Lane Health & Wellbeing Centre
+location: Pudsey, LS28 7DE
+source: NHS Jobs
+job_id: nhs-5665844
 reason: Approved Leeds catchment.
 ---
 
@@ -960,7 +1008,7 @@ job_id: jobg8-23643_225706935
 reason: Approved Leeds catchment.
 ---
 
-## REVIEW (35)
+## REVIEW (36)
 
 ---
 action: 
@@ -1175,6 +1223,18 @@ company: Talent-UK Ltd - Agency - Permanent
 location: Brighouse
 source: JobG8
 job_id: jobg8-23643_225708430
+reason: No approved Leeds catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Representative
+company: Kingdom People - Agency - Permanent
+location: Batley
+source: JobG8
+job_id: jobg8-23643_225634196
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 

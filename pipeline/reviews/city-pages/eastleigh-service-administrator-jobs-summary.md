@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 79
-- automatic exclude: 45
+- automatic review: 85
+- automatic exclude: 44
 - effective include: 7
-- effective review: 79
-- effective exclude: 45
+- effective review: 85
+- effective exclude: 44
 
 ## INCLUDE (7)
 
@@ -108,7 +108,7 @@ job_id: jobg8-2064740
 reason: Exact approved Eastleigh workplace.
 ---
 
-## REVIEW (79)
+## REVIEW (85)
 
 ---
 action: 
@@ -347,6 +347,18 @@ company: Workshop Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225679909
+reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Compliance Administrator - Leading Recruitment Company
+company: Prospero Group - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225672490
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
@@ -631,6 +643,18 @@ action:
 decision: review
 automatic_decision: review
 title: HR Coordinator
+company: Connect It Utility Services Limited - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225686270
+reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Coordinator
 company: Howett Thorpe - Agency - Permanent
 location: Hampshire
 source: JobG8
@@ -647,6 +671,18 @@ company: Connect It Utility Services Limited - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225698267
+reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Internal Recruiter
+company: CV-Library Ltd - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225667520
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
@@ -918,6 +954,42 @@ reason: The stated location is broader or less specific than the approved Eastle
 action: 
 decision: review
 automatic_decision: review
+title: Recruitment Resourcer
+company: Prospero Group - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225720582
+reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Resourcer
+company: Find Recruitment Group LTD - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225719215
+reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Resourcer / Delivery Consultant
+company: Advance TRS - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225661420
+reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales & Operations Coordinator
 company: Rubicon Recruitment - Agency - Permanent
 location: Hampshire
@@ -1058,7 +1130,7 @@ job_id: jobg8-23643_225665585
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
-## EXCLUDE (45)
+## EXCLUDE (44)
 
 ---
 action: 
@@ -1165,18 +1237,6 @@ company: NHS Professionals - Company - Temporary
 location: Southampton
 source: JobG8
 job_id: jobg8-23643_225637909
-reason: The stated workplace belongs outside the approved Eastleigh employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Royal Surrey NHS Foundation Trust
-location: Aldershot, Hampshire, GU11 1AY
-source: NHS Jobs
-job_id: nhs-5650314
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---
 

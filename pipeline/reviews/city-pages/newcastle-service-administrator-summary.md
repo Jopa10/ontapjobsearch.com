@@ -1100,18 +1100,6 @@ reason: Outside Newcastle catchment.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Mental Health Act Administrator
-company: Cygnet Health Care
-location: Darlington , DL1 2LJ
-source: NHS Jobs
-job_id: nhs-5636455
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Part-Time Administrator - Temporary - Durham
 company: Office Angels - Agency - Temporary
 location: Durham
@@ -1141,6 +1129,18 @@ company: Spear-heads - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-2036113
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: South Tyneside and Sunderland NHS Foundation Trust
+location: SUNDERLAND, SR1 3AE
+source: NHS Jobs
+job_id: nhs-5666221
 reason: Separate employment market.
 ---
 

@@ -184,6 +184,28 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "nhs-5666221",
+    "source": "NHS Jobs",
+    "title": "Receptionist",
+    "company": "South Tyneside and Sunderland NHS Foundation Trust",
+    "advertiser_name": "South Tyneside and Sunderland NHS Foundation Trust",
+    "location": "SUNDERLAND, SR1 3AE",
+    "region": "North East",
+    "salary": "£25272.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-15T10:37:34.388880489",
+    "closing_date": "2026-10-29",
+    "description": "There are so many reasons to join our team at Sunderland Specialist Eye Hospital. Aside from our fantastic staff, we have lots of exciting things going on. We have recently moved into our new Eye Hospital in Sunderland. The new hospital means Sunderland will remain home to the regions only dedicated standalone eye hospital. It will strengthen our excellent reputation across the NHS, both regionally and nationally as a centre of excellence for ophthalmology care. We also never stay still when it comes to discovering new and better treatments. As one of the few specialist eye hospitals in the country, research and using developing technology is a key part of our work. We encourage innovation and research in everything we do. There is always something to get involved in. If you share our vision for ' excellence in all that we do' , wed love you to join us! We invite you to submit an application for an ED Receptionist at Sunderland Eye Infirmary, working with multiple different staff groups, completing a variety of administration tasks and contributing to our fantastic service within our reception and medical records teams. This is an extremely busy and demanding role based in our Emergency Department Reception, working as part of a team of 3 ED receptionists covering a variety of shifts between 08:00 20:00 Monday-Sunday. To be responsible for registering attendances and updating patient demographic details in the patient administration system. To work on our NetCall system and manage our eye emergency telephone queue. To be first point of contact for all patients attending Sunderland Specialist Eye Hospital Emergency Department both face to face and on the phone. To support in the triage of patients. To complete scanning of documentation onto our patient systems. To work flexibily across other reception areas when required. Please note the Trust are not able to offer Skilled Worker Sponsorship for this role as it does not meet the UKVI threshold requirements. Applicants are requested to consider this when making their applic ation. Please visit Gov.UK for further information. PLEASE REFER TO THE ATTACHED JOB DESCRIPTION FOR FULL DUTIES OF THE ROLE. To provide a high quality reception service and care to patients attending the outpatients and Eye Emergency departments. To comply with the Trusts vision, values and behavioural compact.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9155-OPAC-1026-28",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9155-OPAC-1026-28",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5644182",
     "source": "NHS Jobs",
     "title": "Medical Administrator",
@@ -200,6 +222,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1086-26-0002",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

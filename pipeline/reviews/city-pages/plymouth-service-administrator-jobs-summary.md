@@ -234,6 +234,18 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: Business Administrator
+company: Devon Partnership NHS Trust
+location: Newton Abbot, TQ12 4PH
+source: NHS Jobs
+job_id: nhs-5665958
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Business Support Administrator
 company: Devon Partnership NHS Trust
 location: Newton Abbot, TQ12 2PF
@@ -719,18 +731,6 @@ company: Devon Partnership NHS Trust
 location: Exeter, EX2 5AF
 source: NHS Jobs
 job_id: nhs-5615165
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Ward Administrator
-company: Royal Devon University Healthcare NHS Foundation Trust
-location: Exeter, EX2 5DW
-source: NHS Jobs
-job_id: nhs-5641361
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

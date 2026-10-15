@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 126
+- automatic review: 131
 - automatic exclude: 0
 - effective include: 5
-- effective review: 126
+- effective review: 131
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-23643_225686728
 reason: Exact approved Basingstoke workplace.
 ---
 
-## REVIEW (126)
+## REVIEW (131)
 
 ---
 action: 
@@ -355,18 +355,6 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Royal Surrey NHS Foundation Trust
-location: Aldershot, Hampshire, GU11 1AY
-source: NHS Jobs
-job_id: nhs-5650314
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
 company: University Hospital Southampton NHS Trust
 location: Southampton, SO16 6YD
 source: NHS Jobs
@@ -563,6 +551,18 @@ company: Dynamite Recruitment - Agency - Temporary
 location: Eastleigh
 source: JobG8
 job_id: jobg8-23643_225695198
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Compliance Administrator - Leading Recruitment Company
+company: Prospero Group - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225672490
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -955,6 +955,18 @@ action:
 decision: review
 automatic_decision: review
 title: HR Coordinator
+company: Connect It Utility Services Limited - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225686270
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Coordinator
 company: Howett Thorpe - Agency - Permanent
 location: Hampshire
 source: JobG8
@@ -971,6 +983,18 @@ company: Connect It Utility Services Limited - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225698267
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Internal Recruiter
+company: CV-Library Ltd - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225667520
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -1386,11 +1410,47 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Recruitment Resourcer
+company: Prospero Group - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225720582
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Residential Conveyancing Assistant - Post Completions
 company: Harwood Recruitment Solutions Ltd - Agency - Permanent
 location: Portsmouth
 source: JobG8
 job_id: jobg8-23643_225684953
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Resourcer
+company: Find Recruitment Group LTD - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225719215
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Resourcer / Delivery Consultant
+company: Advance TRS - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225661420
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 

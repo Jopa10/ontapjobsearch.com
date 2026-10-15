@@ -4,7 +4,7 @@
 - Live route: `/poole/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 13
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
-- automatic review: 36
+- automatic include: 15
+- automatic review: 37
 - automatic exclude: 0
-- effective include: 13
-- effective review: 36
+- effective include: 15
+- effective review: 37
 - effective exclude: 0
 
-## INCLUDE (13)
+## INCLUDE (15)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Account Manager
+company: Team Jobs - Commercial - Agency - Permanent
+location: Poole
+source: JobG8
+job_id: jobg8-23643_225704186
+reason: Exact approved Poole workplace.
+---
 
 ---
 action: 
@@ -136,6 +148,18 @@ reason: Exact approved Poole workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Internal Sales & Customer Service
+company: Bridgewater Resources UK - Agency - Permanent
+location: Poole
+source: JobG8
+job_id: jobg8-23643_225630051
+reason: Exact approved Poole workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Maintenance Administrator
 company: Vent Group - Agency - Permanent
 location: Poole
@@ -180,7 +204,7 @@ job_id: nhs-5655858
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (36)
+## REVIEW (37)
 
 ---
 action: 
@@ -323,6 +347,18 @@ company: Reed - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-2064846
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Account Manager
+company: Rise Technical Recruitment - Agency - Permanent
+location: Bournemouth
+source: JobG8
+job_id: jobg8-23643_225679186
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

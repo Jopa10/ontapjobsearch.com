@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 14
-- automatic review: 33
-- automatic exclude: 101
+- automatic review: 35
+- automatic exclude: 104
 - effective include: 14
-- effective review: 33
-- effective exclude: 101
+- effective review: 35
+- effective exclude: 104
 
 ## INCLUDE (14)
 
@@ -192,7 +192,7 @@ job_id: jobg8-23643_225645421
 reason: Approved Bradford catchment.
 ---
 
-## REVIEW (33)
+## REVIEW (35)
 
 ---
 action: 
@@ -402,6 +402,18 @@ reason: No approved Bradford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Representative
+company: Kingdom People - Agency - Permanent
+location: Batley
+source: JobG8
+job_id: jobg8-23643_225634196
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Administrator
 company: Unity Resourcing Ltd - Agency - Permanent
 location: Yorkshire
@@ -431,6 +443,18 @@ company: Loom Talent - Agency - Permanent
 location: Normanton
 source: JobG8
 job_id: jobg8-23643_225721454
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: GP Receptionist / Care Navigator
+company: Robin Lane Health & Wellbeing Centre
+location: Pudsey, LS28 7DE
+source: NHS Jobs
+job_id: nhs-5665844
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -590,7 +614,7 @@ job_id: teaching-vacancies-work-experience-administrator-beckfoot-school-bingley
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (101)
+## EXCLUDE (104)
 
 ---
 action: 
@@ -901,6 +925,42 @@ company: Sharp Consultancy - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-1996572
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Experience Advisor
+company: Leeds Federated Housing Association Ltd - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225631321
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Experience Advisor
+company: Michael Page - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225684006
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Service
+company: Search Consultancy Ltd - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225718050
 reason: Separate employment market.
 ---
 

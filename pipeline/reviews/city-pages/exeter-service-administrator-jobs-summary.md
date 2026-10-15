@@ -4,7 +4,7 @@
 - Live route: `/exeter/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 16
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
-- automatic review: 44
+- automatic include: 15
+- automatic review: 45
 - automatic exclude: 0
-- effective include: 16
-- effective review: 44
+- effective include: 15
+- effective review: 45
 - effective exclude: 0
 
-## INCLUDE (16)
+## INCLUDE (15)
 
 ---
 action: 
@@ -204,19 +204,7 @@ job_id: nhs-5615165
 reason: Exact approved Exeter workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Ward Administrator
-company: Royal Devon University Healthcare NHS Foundation Trust
-location: Exeter, EX2 5DW
-source: NHS Jobs
-job_id: nhs-5641361
-reason: Exact approved Exeter workplace.
----
-
-## REVIEW (44)
+## REVIEW (45)
 
 ---
 action: 
@@ -335,6 +323,18 @@ company: Hays Business Support - Agency - Contract
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225663628
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Administrator
+company: Devon Partnership NHS Trust
+location: Newton Abbot, TQ12 4PH
+source: NHS Jobs
+job_id: nhs-5665958
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

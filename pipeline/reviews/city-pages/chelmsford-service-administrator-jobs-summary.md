@@ -4,7 +4,7 @@
 - Live route: `/chelmsford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 14
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
-- automatic review: 101
+- automatic include: 15
+- automatic review: 103
 - automatic exclude: 0
-- effective include: 14
-- effective review: 101
+- effective include: 15
+- effective review: 103
 - effective exclude: 0
 
-## INCLUDE (14)
+## INCLUDE (15)
 
 ---
 action: 
@@ -124,6 +124,18 @@ reason: Exact approved Chelmsford workplace.
 action: 
 decision: include
 automatic_decision: include
+title: HR Administrator
+company: Adecco - Agency - Contract
+location: Chelmsford
+source: JobG8
+job_id: jobg8-23643_225699848
+reason: Exact approved Chelmsford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: HR Coordinator
 company: Pure Resourcing Solutions Limited - Agency - Contract
 location: Chelmsford
@@ -192,7 +204,7 @@ job_id: jobg8-23643_225694242
 reason: Exact approved Chelmsford workplace.
 ---
 
-## REVIEW (101)
+## REVIEW (103)
 
 ---
 action: 
@@ -319,18 +331,6 @@ action:
 decision: review
 automatic_decision: review
 title: Administration Assistant
-company: Great Totham Primary School
-location: Maldon
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-great-totham-primary-school
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administration Assistant
 company: St Nicholas School
 location: Southend-on-Sea
 source: Teaching Vacancies
@@ -395,6 +395,18 @@ company: Focus Resourcing - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-23643_225672692
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Compliance Administrator - Leading Recruitment Company
+company: Prospero Group - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-23643_225623936
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -750,6 +762,18 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: HR & Systems Administrator
+company: Delta Housing - Agency - Temporary
+location: Essex
+source: JobG8
+job_id: jobg8-23643_225651182
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Insurance Claims Coordinator
 company: Time Appointments - Agency - Permanent
 location: Essex
@@ -839,18 +863,6 @@ company: Pure Resourcing Solutions Limited - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-23643_225713652
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: John Tasker House & Felsted Surgeries
-location: Dunmow, CM6 1BH
-source: NHS Jobs
-job_id: nhs-5605464
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -1218,6 +1230,18 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Recruitment Executive
+company: Pure Resourcing Solutions Limited - Agency - Contract
+location: Essex
+source: JobG8
+job_id: jobg8-23643_225660009
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Administrator
 company: Noble Recruiting - Agency - Permanent
 location: Billericay
@@ -1319,6 +1343,18 @@ company: Adecco - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-23643_225617408
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Talent Acquisition Advisor
+company: Waddington Brown - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-107965330
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

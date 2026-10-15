@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 23
 - automatic review: 13
-- automatic exclude: 13
+- automatic exclude: 14
 - effective include: 23
 - effective review: 13
-- effective exclude: 13
+- effective exclude: 14
 
 ## INCLUDE (23)
 
@@ -458,7 +458,7 @@ job_id: jobg8-23643_225691104
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (13)
+## EXCLUDE (14)
 
 ---
 action: 
@@ -613,5 +613,17 @@ company: Huntress - Agency - Contract
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_225691674
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Old Fletton Surgery
+location: Peterborough, PE2 8AY
+source: NHS Jobs
+job_id: nhs-5665914
 reason: Separate employment market.
 ---

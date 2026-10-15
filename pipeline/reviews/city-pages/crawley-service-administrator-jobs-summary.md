@@ -4,7 +4,7 @@
 - Live route: `/crawley/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 56
-- automatic exclude: 29
-- effective include: 7
-- effective review: 56
-- effective exclude: 29
+- automatic include: 6
+- automatic review: 59
+- automatic exclude: 31
+- effective include: 6
+- effective review: 59
+- effective exclude: 31
 
-## INCLUDE (7)
+## INCLUDE (6)
 
 ---
 action: 
@@ -96,19 +96,7 @@ job_id: jobg8-2048366
 reason: Exact approved Crawley workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Senior Leadership Team Administrator
-company: Milton Mount Primary School
-location: Crawley
-source: Teaching Vacancies
-job_id: teaching-vacancies-senior-leadership-team-administrator-milton-mount-primary-school
-reason: Exact approved Crawley workplace.
----
-
-## REVIEW (56)
+## REVIEW (59)
 
 ---
 action: 
@@ -408,6 +396,42 @@ location: Sussex
 source: JobG8
 job_id: jobg8-23643_225653676
 reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Executive
+company: Morgan Mckinley (Crawley) - Agency - Permanent
+location: East Grinstead
+source: JobG8
+job_id: jobg8-23643_225653566
+reason: No approved Crawley employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Representative
+company: Gi Group - Agency - Permanent
+location: East Grinstead
+source: JobG8
+job_id: jobg8-23643_225653638
+reason: No approved Crawley employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Support Specialist Long Term Temp
+company: Office Angels - Agency - Contract
+location: Burgess Hill
+source: JobG8
+job_id: jobg8-23643_225635139
+reason: No approved Crawley employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -782,7 +806,7 @@ job_id: jobg8-23643_225699794
 reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
-## EXCLUDE (29)
+## EXCLUDE (31)
 
 ---
 action: 
@@ -956,6 +980,18 @@ reason: The stated workplace belongs outside the approved Crawley employment mar
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Customer Service Representative
+company: Red Recruitment - Agency - Temporary
+location: Brighton
+source: JobG8
+job_id: jobg8-23643_225653814
+reason: The stated workplace belongs outside the approved Crawley employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Document Controller
 company: Tradeline Recruitment - Agency - Permanent
 location: Brighton
@@ -1021,6 +1057,18 @@ company: BDS (Northern) Limited - Agency - Permanent
 location: Brighton
 source: JobG8
 job_id: jobg8-23643_225707578
+reason: The stated workplace belongs outside the approved Crawley employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: MSK Therapies - Booking Clerk
+company: East Sussex Healthcare NHS Trust
+location: Hastings, TN37 7RD
+source: NHS Jobs
+job_id: nhs-5660033
 reason: The stated workplace belongs outside the approved Crawley employment market.
 ---
 

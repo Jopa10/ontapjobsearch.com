@@ -4,7 +4,7 @@
 - Live route: `/bedford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
+- automatic include: 4
 - automatic review: 31
 - automatic exclude: 0
-- effective include: 5
+- effective include: 4
 - effective review: 31
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (4)
 
 ---
 action: 
@@ -69,18 +69,6 @@ company: Allstaff - Agency - Permanent
 location: Bedford
 source: JobG8
 job_id: jobg8-23643_225724509
-reason: Exact approved Bedford workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist/Admin Assistant
-company: Springfield Primary School
-location: Bedford
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-admin-assistant-springfield-primary-school-bedford-bedfordshire
 reason: Exact approved Bedford workplace.
 ---
 

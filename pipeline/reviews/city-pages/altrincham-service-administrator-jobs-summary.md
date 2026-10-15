@@ -102,6 +102,18 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Administrative assistant
+company: Tameside and Glossop Integrated Care NHS Foundation Trust
+location: Ashton Under Lyne, OL6 6NG
+source: NHS Jobs
+job_id: nhs-5656329
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Bank Receptionist
 company: Moya Cole Hospice
 location: Cheadle, SK8 3SZ, MANCHESTER, M28 0AB
@@ -287,18 +299,6 @@ company: Pickles Recruitment - Agency - Permanent
 location: Denton
 source: JobG8
 job_id: jobg8-23643_225680857
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Team Administrator
-company: Pennine Care NHS FT
-location: Ashton-Under-Lyne, OL6 7SR
-source: NHS Jobs
-job_id: nhs-5643892
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

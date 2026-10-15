@@ -200,6 +200,28 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "nhs-5665914",
+    "source": "NHS Jobs",
+    "title": "Receptionist",
+    "company": "Old Fletton Surgery",
+    "advertiser_name": "Old Fletton Surgery",
+    "location": "Peterborough, PE2 8AY",
+    "region": "Cambridgeshire",
+    "salary": "Negotiable",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-15T09:29:40.297401798",
+    "closing_date": "2026-10-19",
+    "description": "The role is that of a receptionist working within a busy GP surgery. The practice offer in house training to develop those with less experience of working within a primary care setting. The working hours will be 13.5 hours per week: Tuesday 2.00pm - 6.30pm Wednesday 2.00pm - 6.30pm Friday 2.00pm - 6.30pm Our first priority is to look after our patients, by assisting them at the reception desk and on the telephone. Other administrative duties are also included in the role Greet patients and visitors to the practice. Book in patients and visitors in line with practice appointments and visitors procedures. Respond and/or redirect all patient and visitor requests accordingly. Ensure computerised appointment system is up-to-date. Booking, amending and cancelling patient appointments. Completing E-lite questionnaire for patients over the telephone Distribution of completed prescriptions/medications Answering incoming telephone calls, ensuring calls are documented and redirected accordingly. Ensure up-to-date maintenance of both computerised and manual filing systems (i.e. patient notes). Obtaining medical records from the records room as and when requested Chaperoning when requested to do so Stocking up of consulting rooms Scanning letters received into patients computerized medical records Photocopying Loading/emptying the dishwasher This job description is not exhaustive and may be adjusted periodically after review and consultation. You will also be expected to carry out any reasonable duties which may be requested from time-to-time. Work safely at all times in accordance with Legislative requirements and Practice Policy and Procedures",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1157-26-0006",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1157-26-0006",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5659339",
     "source": "NHS Jobs",
     "title": "Administrator",
@@ -216,6 +238,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9310-26-0649",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -235,6 +260,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5532-26-0017",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -254,6 +282,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9310-26-0642",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]
