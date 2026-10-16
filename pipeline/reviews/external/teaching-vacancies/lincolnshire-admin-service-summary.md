@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-10-15
-review_fingerprint: f18cba0e688f6a3ff5757cb4483263fb98ec84a7e84b05c348031f8ccb8de1fb
-routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
+review_date: 2026-10-16
+review_fingerprint: 8b5b2da6a527ff51375b3dffa35c6ff96e79766c110f5e56f9fc821f51982993
+routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 17
-- Selected: 8
-- POSS awaiting decision: 2
+- Selected: 9
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 7
 
@@ -64,6 +64,21 @@ factual_fingerprint: b94d957a97a2110f3441ec108223a0b8f505b7462e7962731fbb0e3d852
 source: Teaching Vacancies
 source_job_id: hr-office-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-office-administrator
+---
+
+---
+action: 
+SELECTED | Lincolnshire | Lincoln, East Midlands, LN6 9AF | Grade 3 £23,490 - £24620 | Receptionist
+employer: Sir Robert Pattinson Academy
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0c8ea0631a409a88a3c1a778698ef7570935cbdfef5289842cd9333eb9ed4e51
+source: Teaching Vacancies
+source_job_id: receptionist-sir-robert-pattinson-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-sir-robert-pattinson-academy
 ---
 
 ---
@@ -156,21 +171,6 @@ factual_fingerprint: 7ef092f284d4d355b95fe13ae13df8de9075b1641b54dde8dde3f94aaac
 source: Teaching Vacancies
 source_job_id: administration-officer-7752
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-7752
----
-
----
-action: 
-POSS | Lincolnshire | Lincoln, East Midlands, LN6 9AF | Grade 3 £23,490 - £24620 | Receptionist
-employer: Sir Robert Pattinson Academy
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0c8ea0631a409a88a3c1a778698ef7570935cbdfef5289842cd9333eb9ed4e51
-source: Teaching Vacancies
-source_job_id: receptionist-sir-robert-pattinson-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-sir-robert-pattinson-academy
 ---
 
 ## EXCLUDED BY REVIEW

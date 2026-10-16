@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-10-15
-review_fingerprint: 2eb17b4a66ac619cb449a54aeb82ba37af2f60f65a7b28dc580cd1a5484a5323
-routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
+review_date: 2026-10-16
+review_fingerprint: 1db33ab569ca7cd286860e33af959f145acfa8f772990b5c7ba76d147f5890ed
+routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,17 +13,32 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 5
 - Selected: 0
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
 - None.
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Staffordshire | Rugeley, WS15 1FY | £115,000.00 - £125,000.00 Annually (FTE) Salary points: £115,000 - £120,000 - £125,000 per annum (progression based on performance) | Chief Finance & Operations Officer
+employer: John Taylor Mat
+closing_date: 2026-11-16T09:00:00+00:00
+reason: Borderline school administration title: operations officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9a73493dc26b786a69cf52a9e2b1db326e10fadb13c47433f3e177b00728c19a
+source: Teaching Vacancies
+source_job_id: chief-finance-operations-officer-john-taylor-mat
+source_url: https://teaching-vacancies.service.gov.uk/jobs/chief-finance-operations-officer-john-taylor-mat
+---
 
 ---
 action: 
@@ -47,6 +62,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-ba
 ## HARD_PASS
 
 - [Administration Support](https://teaching-vacancies.service.gov.uk/jobs/administration-support-st-thomas-more-catholic-academy-stoke-on-trent-staffordshire) — Insufficient admin/service evidence.
+- [Deputy Chief Executive Officer - Finance & Operations](https://teaching-vacancies.service.gov.uk/jobs/deputy-chief-executive-officer-finance-operations) — Insufficient admin/service evidence.
 - [Senior Administration and Finance Assistant - Level 5](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-and-finance-assistant-level-5-abbey-hill-academy-college) — Insufficient admin/service evidence.
 
 ## Safety boundary

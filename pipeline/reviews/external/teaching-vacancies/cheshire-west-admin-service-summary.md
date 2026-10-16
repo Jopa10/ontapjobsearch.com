@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - West
 
-review_date: 2026-10-15
+review_date: 2026-10-16
 review_fingerprint: 8864a508bad4b8fd449d37a72b4c38366e9c653d0140d489fa7c5616ef1e565a
-routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
+routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
 ontap_region: Cheshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 5
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 4
 
 ## SELECTED
 
@@ -46,8 +46,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator
 
 ## HARD_PASS
 
-- [Administration Officer (Attendance)](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-attendance-helsby-high-school) — Insufficient admin/service evidence.
-- [Attendance Welfare Officer / EVC Co-Ordinator](https://teaching-vacancies.service.gov.uk/jobs/attendance-welfare-officer-evc-co-ordinator) — Insufficient admin/service evidence.
 - [Data Officer](https://teaching-vacancies.service.gov.uk/jobs/data-officer-ellesmere-port-catholic-high-school-a-voluntary-academy) — Missing salary or pay scale.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-4995d185-9e33-4fc5-bcfb-92eea964e047) — Insufficient admin/service evidence.
 - [FINANCE OFFICER](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-sandstone-trust-tarporley-not-recorded) — Insufficient admin/service evidence.

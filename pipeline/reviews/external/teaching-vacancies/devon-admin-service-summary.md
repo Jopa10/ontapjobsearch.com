@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-10-15
-review_fingerprint: 0f9209cad04a2b7f99c71b2bbdf8513b41370faffd4502e500872291de3f71df
-routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
+review_date: 2026-10-16
+review_fingerprint: e6a7e3adf2f7b73b5d96e31b27cd6238c653177f2ea03183e2513da1cb5c707f
+routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
+- Records: 15
 - Selected: 5
-- POSS awaiting decision: 4
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 9
 
@@ -100,36 +100,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admi
 
 ---
 action: 
-POSS | Devon | Colyton, South West, EX24 6EQ | £13.92 - £14.36 Hourly Term Time Only | Administrator
-employer: Farway Church of England Primary School
-closing_date: 2026-10-16T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 31bb5942f550a3e88cbf8ccfd116d0f3577a611c0a477e23adf3038f8e5f2ee5
-source: Teaching Vacancies
-source_job_id: administrator-farway-church-of-england-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-farway-church-of-england-primary-school
----
-
----
-action: 
-POSS | Devon | Axminster, South West, EX13 7LX | £27,709.00 - £29,070.00 Annually (FTE) | Senior Pupil Services Officer
-employer: All Saints Church of England Primary School
-closing_date: 2026-10-16T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5be19a2da44e51cffad1ba88593a7745ea6c633e6ba75475c8a5fd52ee5a8606
-source: Teaching Vacancies
-source_job_id: senior-pupil-services-officer-all-saints-church-of-england-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-all-saints-church-of-england-primary-school
----
-
----
-action: 
 POSS | Devon | Exeter, South West, EX2 4NQ | £27,709.00 - £29,070.00 Annually (FTE) | Senior Pupil Services Officer
 employer: St Leonard's (CofE) Primary School
 closing_date: 2026-11-02T09:00:00+00:00
@@ -143,21 +113,6 @@ source_job_id: senior-pupil-services-officer-d836b97e-d543-4359-8f2f-78b5b637bc0
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-d836b97e-d543-4359-8f2f-78b5b637bc06
 ---
 
----
-action: 
-POSS | Devon | Exeter, South West, EX1 2SN | £27,709.00 - £29,070.00 Annually (FTE) | Senior Pupil Services officer - 2 days/week
-employer: St Michael's Church of England Primary Academy
-closing_date: 2026-10-16T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9760f5bd5514390a509dc85717525998dd5e887e7d71e1e93880bee9801c3eca
-source: Teaching Vacancies
-source_job_id: senior-pupil-services-officer-2-days-week-st-michael-s-church-of-england-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services-officer-2-days-week-st-michael-s-church-of-england-primary-academy
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -167,12 +122,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 - [Assistant Principal (Attendance, Personal Development and Wellbeing)](https://teaching-vacancies.service.gov.uk/jobs/assistant-principal-attendance-personal-development-and-wellbeing) — Out-of-scope occupation: principal.
 - [Behaviour Mentor](https://teaching-vacancies.service.gov.uk/jobs/behaviour-mentor-c0b5a4c8-a0a6-4637-b443-318248416339) — Insufficient admin/service evidence.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-78c3b3d0-c36c-40c6-bd99-f09dc92f1c31) — Insufficient admin/service evidence.
+- [DTEC Curriculum & Quality Outreach Lead](https://teaching-vacancies.service.gov.uk/jobs/dtec-curriculum-quality-outreach-lead-city-college-plymouth) — Insufficient admin/service evidence.
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-chulmleigh-community-college-chulmleigh-devon) — Missing salary or pay scale.
 - [Finance Business Partner - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-maternity-cover) — Insufficient admin/service evidence.
 - [Marketing and Communications Lead](https://teaching-vacancies.service.gov.uk/jobs/marketing-and-communications-lead-learning-academies-trust) — Insufficient admin/service evidence.
 - [People Advisor ( Devon Cluster)](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-devon-cluster) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-8814e3e0-1c77-47a4-8dae-d06f210769fa) — Insufficient admin/service evidence.
-- [Resources Assistant](https://teaching-vacancies.service.gov.uk/jobs/resources-assistant-torquay-girls-grammar-school) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-10-15
-review_fingerprint: aa6e9a27ca6009b3ab177a861db291799f9ae55f023d890de8b0f4bb305afacc
-routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
+review_date: 2026-10-16
+review_fingerprint: 39bce29dc56df6e0c4475d7ce810f9bd05a7014e46c64686acfdda44dba1ba78
+routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -14,27 +14,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 14
-- Selected: 5
+- Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 10
 
 ## SELECTED
-
----
-action: 
-SELECTED | Norfolk | Great Yarmouth, East of England, NR30 3DT | Salary: Support Staff Pay Scale D: £23,112 to £23,479 pro-rata per annum (Actual) (£26,427- £26,847 full time/full year equivalent) | Administration Assistant
-employer: Great Yarmouth Primary Academy and Nursery
-closing_date: 2026-10-16T01:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 31f5ed28fcb06609b37aee84cb345475fdb2b91e3da42ea0bc15dc8607a21411
-source: Teaching Vacancies
-source_job_id: administration-assistant-great-yarmouth-primary-academy-and-nursery
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-great-yarmouth-primary-academy-and-nursery
----
 
 ---
 action: 
@@ -49,21 +34,6 @@ factual_fingerprint: 43dc1723442a6f33cfc81b6207a4c5a3bddb36797b6bd705f13da39413c
 source: Teaching Vacancies
 source_job_id: attendance-administrator-downham-market-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-downham-market-academy
----
-
----
-action: 
-SELECTED | Norfolk | Norwich, East of England, NR7 9DL | £25,302 to £27,447 actual pa | Attendance Officer
-employer: The Open Academy
-closing_date: 2026-10-16T01:00:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8718bdfd908366630ba997073fb86db4a3a7e7042bbbd10104f7cb9b37162f04
-source: Teaching Vacancies
-source_job_id: attendance-officer-0493d912-bc9a-4b94-82de-5beddc58546b
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-0493d912-bc9a-4b94-82de-5beddc58546b
 ---
 
 ---
@@ -124,8 +94,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-parkway
 - [Admissions and Marketing Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-marketing-coordinator-university-technical-college-norfolk) — Insufficient admin/service evidence.
 - [Admissions and Outreach Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-outreach-coordinator-university-technical-college-norfolk-norwich-norfolk) — Insufficient admin/service evidence.
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-browick-road-primary-and-nursery-school-wymondham-norfolk) — Insufficient admin/service evidence.
+- [Data Manager (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/data-manager-maternity-cover-great-yarmouth-charter-academy-great-yarmouth) — Manager title salary ceiling £34,811 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-queen-s-hill-primary-school) — Insufficient admin/service evidence.
 - [Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/procurement-manager-st-john-the-baptist-catholic-multi-academy-trust) — Manager title salary ceiling £49,816 is not below £28,000.
+- [Transport Assistant](https://teaching-vacancies.service.gov.uk/jobs/transport-assistant-reepham-primary-school) — Insufficient admin/service evidence.
 - [Trust Data Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-data-manager-wymondham-college) — Manager title salary ceiling £48,738 is not below £28,000.
 
 ## Safety boundary

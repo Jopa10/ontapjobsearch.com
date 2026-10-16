@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-10-15
+review_date: 2026-10-16
 review_fingerprint: 1965509e810fd07e5e76f4a446ef26ec755cb3c504309441874dc9d207e5d119
-routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
+routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -106,7 +106,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-adminstrator
 
 - [Admissions Advisor](https://teaching-vacancies.service.gov.uk/jobs/admissions-advisor) — Insufficient admin/service evidence.
 - [Chief Operating Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-operating-officer-the-howard-partnership-trust) — Insufficient admin/service evidence.
-- [Office Manager/PA to Principal](https://teaching-vacancies.service.gov.uk/jobs/office-manager-pa-to-principal-kenyngton-manor-primary-school-sunbury-on-thames-surrey) — Manager title salary ceiling £33,301 is not below £28,000.
+- [HR Project Lead](https://teaching-vacancies.service.gov.uk/jobs/hr-project-lead) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

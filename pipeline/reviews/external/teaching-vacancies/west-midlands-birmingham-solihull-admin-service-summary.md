@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-10-15
-review_fingerprint: 0e88583948777c25dac57328a187b6bbe13a0298f9c0352d61c0c6801761d3e8
-routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
+review_date: 2026-10-16
+review_fingerprint: 605c0658775cc7fd618f352f644c6a70e377109bc038c504b77b974cf1b2dfd7
+routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 7
+- Records: 18
+- Selected: 8
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 9
 
 ## SELECTED
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Solihull, West Midlands, B91 1SN | £27,709.00 - £30,515.00 Annually (FTE) Band C £27,709 - £30,515 (pro rata) Starting salary £23,753 | Attendance Administrator
+employer: Alderbrook School
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: adbf799b8f463529e8dd9611f8bba3f23cb57deb2a59aa6e130b589ad57aa720
+source: Teaching Vacancies
+source_job_id: attendance-administrator-alderbrook-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-alderbrook-school
+---
 
 ---
 action: 
@@ -153,8 +168,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-fioretti-trust) — Insufficient admin/service evidence.
 - [Exams Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exams-invigilator-80585298-5967-4a4f-893a-2aa215609f82) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-central-region-schools-trust) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-the-heights-academy) — Manager title salary ceiling £34,955 is not below £28,000.
 - [Regional Commercial Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/regional-commercial-procurement-manager-ormiston-academies-trust-birmingham-not-recorded) — Manager title salary ceiling £63,638 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-severne-junior-infant-and-nursery-school-birmingham-west-midlands) — Manager title salary ceiling £55,224 is not below £28,000.
+- [Senior Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-business-partner-forward-education-trust) — Insufficient admin/service evidence.
 - [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-central-region-schools-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary

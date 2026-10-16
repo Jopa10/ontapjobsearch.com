@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-10-15
-review_fingerprint: 7ba8ae42fc026c6cbe19be61bd5aece083e8723f85ea42accb39f64624b438ea
-routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
+review_date: 2026-10-16
+review_fingerprint: 12ad5705499c9ed4e888b126311871d725f307e5ab11a299d0c4355809cf8d36
+routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 44
-- Selected: 16
-- POSS awaiting decision: 7
+- Records: 48
+- Selected: 17
+- POSS awaiting decision: 8
 - Excluded: 0
-- Hard pass: 21
+- Hard pass: 23
 
 ## SELECTED
 
@@ -79,21 +79,6 @@ factual_fingerprint: 09df11e9e9a5b102aa80bdb989e08bdbf4dc35863a2b009575c8ebb4453
 source: Teaching Vacancies
 source_job_id: administrative-assistant-holy-rosary-and-st-anne-s-catholic-primary-school-a-voluntary-academy-leeds-west-yorkshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-holy-rosary-and-st-anne-s-catholic-primary-school-a-voluntary-academy-leeds-west-yorkshire
----
-
----
-action: 
-SELECTED | Yorkshire - West | Keighley, Yorkshire and the Humber, BD20 7RL | £22,452.00 - £23,168.00 Annually (Actual) | Administrative Assistant
-employer: South Craven School
-closing_date: 2026-10-16T12:00:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: e2dad36c2beee843fef7bbe75ebf3d6fb137aa2b163294ba19ea20cb75ea45ae
-source: Teaching Vacancies
-source_job_id: administrative-assistant-south-craven-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-south-craven-school
 ---
 
 ---
@@ -203,6 +188,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-officer-adm
 
 ---
 action: 
+SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD4 7QS | £22,192.00 - £23,098.00 Annually (Actual) SCP 4 - 5 | Primary Receptionist
+employer: Bradford Academy
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 80f1fb10a495352da1451ca57ad52205b5d1cc446e4810a054a292d1de3bdea0
+source: Teaching Vacancies
+source_job_id: primary-receptionist-bradford-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/primary-receptionist-bradford-academy
+---
+
+---
+action: 
 SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS9 0JY | £11,273.00 - £11,634.00 Annually (Actual) Band B1, SCP 4-6. FTE: £26,016 - £ 26,847 | Receptionist/Administrator
 employer: Meadowfield Primary School
 closing_date: 2026-11-12T09:00:00+00:00
@@ -244,6 +244,21 @@ factual_fingerprint: 8349b0893524a3700e9838e60568edbe416599e7629ffe4e176df5f9541
 source: Teaching Vacancies
 source_job_id: senior-business-support-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-business-support-administrator
+---
+
+---
+action: 
+SELECTED | Yorkshire - West | Ilkley, LS29 8TR | £23,455.00 - £25,466.00 Annually (Actual) Term time only plus 5 days | Trust HR Administrator
+employer: Moorlands Learning Trust
+closing_date: 2026-11-02T08:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 001c82e8e476bad1a839273b10ecd44c92328077447fbb1d2a89d308ad1bf3de
+source: Teaching Vacancies
+source_job_id: trust-hr-administrator-moorlands-learning-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-hr-administrator-moorlands-learning-trust
 ---
 
 ---
@@ -355,6 +370,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-br
 
 ---
 action: 
+POSS | Yorkshire - West | Elland, HX5 0RY | £32,578.00 - £34,811.00 Annually (Actual) | Operations Officer
+employer: Great Heights Academy Trust
+closing_date: 2026-11-02T12:00:00+00:00
+reason: Borderline school administration title: operations officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: dc6a407918505b2c9507a204c6991a9747b9810a516a6d4f2653a5a7a9f6709b
+source: Teaching Vacancies
+source_job_id: operations-officer-great-heights-academy-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-great-heights-academy-trust
+---
+
+---
+action: 
 POSS | Yorkshire - West | Leeds, Yorkshire and the Humber, LS12 1JZ | B3-C1 depending on experience | School Administrator
 employer: Castleton Primary School
 closing_date: 2026-10-29T15:00:00+00:00
@@ -378,7 +408,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-ethos-academy-trust) — Insufficient admin/service evidence.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-leeds-diocesan-learning-trust) — Insufficient admin/service evidence.
 - [Content Creator (7617)](https://teaching-vacancies.service.gov.uk/jobs/content-creator-7617-delta-academies-trust) — Insufficient admin/service evidence.
+- [Customer Experience Team Leader](https://teaching-vacancies.service.gov.uk/jobs/customer-experience-team-leader) — Insufficient admin/service evidence.
 - [Data and Exams Assistant (7698)](https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-assistant-7698) — Insufficient admin/service evidence.
+- [Digital/Lens Counter Technician - Creative Arts](https://teaching-vacancies.service.gov.uk/jobs/digital-lens-counter-technician-creative-arts) — Out-of-scope occupation: technician.
+- [Enrichment & Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/enrichment-finance-officer) — Insufficient admin/service evidence.
 - [Estates Manager](https://teaching-vacancies.service.gov.uk/jobs/estates-manager-the-bishop-wheeler-catholic-academy-trust) — Manager title salary ceiling £44,253 is not below £28,000.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the-north-halifax-grammar-school) — Insufficient admin/service evidence.
@@ -390,7 +423,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Learning Manager](https://teaching-vacancies.service.gov.uk/jobs/learning-manager-31a743da-8519-49fb-99c7-f5afb963c51c) — Manager title salary ceiling £36,581 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-holy-name-catholic-voluntary-academy) — Manager title salary ceiling £32,046 is not below £28,000.
 - [Operations Support Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/operations-support-co-ordinator) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-weetwood-primary-school-leeds-west-yorkshire) — Manager title salary ceiling £42,123 is not below £28,000.
 - [School Operations Manager - West Yorkshire](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-west-yorkshire) — Manager title salary ceiling £38,221 is not below £28,000.
 - [Senior Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-altofts-junior-academy) — Insufficient admin/service evidence.
 - [Sixth Form and Careers Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-and-careers-administration-officer) — Insufficient admin/service evidence.

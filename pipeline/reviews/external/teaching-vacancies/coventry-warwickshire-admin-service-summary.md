@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-10-15
-review_fingerprint: 31d5a58a51adce42f94912791ffcefb764c476f6910601aed888146ce0c2bbb7
-routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
+review_date: 2026-10-16
+review_fingerprint: 167cb932b0c69ce9b85b57c6071121099f8d3f46366feb66de05a66d28c93c5a
+routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 3
+- Records: 11
+- Selected: 4
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 5
 
 ## SELECTED
+
+---
+action: 
+SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV2 2LH | £22,314.00 - £23,393.00 Annually (Actual) Grade 3 - £22,314- £23,393 pro rata, per annum | Admin Assistant
+employer: Whittle Academy
+closing_date: 2026-10-23T09:00:00+01:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: cb9cdd2e956dc8b4a5b765f44df1144721c24e73414e4cbf3b3f4d2b7bea483e
+source: Teaching Vacancies
+source_job_id: admin-assistant-whittle-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-whittle-academy
+---
 
 ---
 action: 

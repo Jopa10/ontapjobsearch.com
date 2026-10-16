@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-10-15
-review_fingerprint: 2f20611a05dbed9e3738dc829f53e14a98d7419fba2f78c053778b0c45c50ddd
-routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
+review_date: 2026-10-16
+review_fingerprint: 2996ff7c1a922ecc83dfb35b981a12b82cef8548a4a8fa705401a50221912c52
+routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
+- Records: 12
 - Selected: 4
-- POSS awaiting decision: 2
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 7
 
@@ -82,21 +82,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Yorkshire - North | Scarborough, Yorkshire and the Humber, YO11 1HS | £26,016.00 - £26,847.00 Annually (FTE) Grade C Points 4 to 6 (£26,016 to £26,847 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £12,149.18 | Administration Officer (7631)
-employer: Friarage Community Academy
-closing_date: 2026-10-15T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 46202bac75bb16de9d7531ce60d282308059dfcd6b6a44cfb479794b8bb357f0
-source: Teaching Vacancies
-source_job_id: administration-officer-7631
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-7631
----
 
 ---
 action: 

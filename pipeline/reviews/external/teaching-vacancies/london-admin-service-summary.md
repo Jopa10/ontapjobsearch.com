@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-10-15
-review_fingerprint: 24e8fa9047189f9f8044df07c81a1943fe463ffbf36914329de4407c1515c95f
-routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
+review_date: 2026-10-16
+review_fingerprint: 6782d6bf2aae3146c9dacbe986490e1d428cc9d66b4d7dc01a0e08502e134fd8
+routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,43 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 63
+- Records: 66
 - Selected: 18
-- POSS awaiting decision: 11
+- POSS awaiting decision: 10
 - Excluded: 0
-- Hard pass: 34
+- Hard pass: 38
 
 ## SELECTED
-
----
-action: 
-SELECTED | London | London, London, E9 7HD | £29,929.00 - £35,332.00 Annually (FTE) | Administrator with Additional Responsibilities
-employer: Mossbourne Victoria Park Academy
-closing_date: 2026-10-15T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6d46dcdb4023a575630fc176b2460f5732e5cd5add684e1b170bfc15691f0765
-source: Teaching Vacancies
-source_job_id: administrator-with-additional-responsibilities-mossbourne-victoria-park-academy-london
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-with-additional-responsibilities-mossbourne-victoria-park-academy-london
----
-
----
-action: 
-SELECTED | London | London, London, SE1 0EX | £25,492.00 - £27,400.00 Annually (Actual) Band 5 S13 to S16 for 42.9 weeks (£25,492 - £ 27,400) on the Trust Support Scale for 2025-2026 Including Inner London allowance | Admissions Officer
-employer: Haberdashers' Borough Academy
-closing_date: 2026-10-15T23:59:00+01:00
-reason: Clear admin/service title: admissions officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a798117aa5ef04a582b7295b3978a27d7f521c379a814b7e26050e5bb25790a6
-source: Teaching Vacancies
-source_job_id: admissions-officer-2a56ae6f-8af2-4ee4-b22d-97edf23115d4
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-2a56ae6f-8af2-4ee4-b22d-97edf23115d4
----
 
 ---
 action: 
@@ -79,6 +49,21 @@ factual_fingerprint: 162046f8f8de027037fdc25df23c73cfe95e8d7669e365b6877fc627bd6
 source: Teaching Vacancies
 source_job_id: attendance-and-admissions-officer-harris-girls-academy-east-dulwich
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admissions-officer-harris-girls-academy-east-dulwich
+---
+
+---
+action: 
+SELECTED | London | London, London, E15 4LP | Scale 6 | Attendance and Admissions Officer
+employer: Sarah Bonnell School
+closing_date: 2026-10-30T23:59:00+00:00
+reason: Clear admin/service title: admissions officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 465a7b4c7d01bcb7bcb33adee24b75f2cf299f03bdec6f5025d9b3d849d3d807
+source: Teaching Vacancies
+source_job_id: attendance-and-admissions-officer-sarah-bonnell-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admissions-officer-sarah-bonnell-school
 ---
 
 ---
@@ -113,14 +98,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-ha
 
 ---
 action: 
-SELECTED | London | London, London, N20 8AZ | United Learning Pay Scales, G2 Vocational | Attendance Officer
+SELECTED | London | London, London, N20 8AZ | £32,000.00 Annually (FTE) United Learning Pay Scales, G2 Vocational (negotiable depending on qualifications and experience) | Attendance Officer
 employer: The Totteridge Academy
 closing_date: 2026-10-20T23:59:00+01:00
 reason: Clear admin/service title: attendance officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: efb9ec5f0330d580f3beb933aafbe20a250fab471abf75ffb3da417b27b8bc6d
+factual_fingerprint: dab7653696f9dc85ac5d53d2ec267cfcdf2fd47c5f87ffce78c2609bc6f3d853
 source: Teaching Vacancies
 source_job_id: attendance-officer-the-totteridge-academy-london
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-the-totteridge-academy-london
@@ -291,6 +276,21 @@ source_job_id: school-administrator-reception-school-office-wrl-hr
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-reception-school-office-wrl-hr
 ---
 
+---
+action: 
+SELECTED | London | London, London, NW7 1JF | £22,966.00 - £23,967.00 Annually (Actual) FTE Salary: £31,290-£32,655; SCP 7-10 | School office administrator
+employer: Millbrook Park Primary School
+closing_date: 2026-11-02T12:00:00+00:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 033cc8aca91533ad64826e7778fbd3662c0eec3674917b4f073231abff96f9eb
+source: Teaching Vacancies
+source_job_id: school-office-administrator-millbrook-park-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-administrator-millbrook-park-primary-school
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -336,21 +336,6 @@ factual_fingerprint: 31bd4ca73f29f52a5632b72ae002e9cefaf5af77737c350ae9348e269d2
 source: Teaching Vacancies
 source_job_id: ehcp-administrator-lime-academy-ravensbourne-romford-essex
 source_url: https://teaching-vacancies.service.gov.uk/jobs/ehcp-administrator-lime-academy-ravensbourne-romford-essex
----
-
----
-action: 
-POSS | London | Barking, London, IG11 9AG | £32,372.00 - £33,343.00 Annually (Actual) Scale 6 (Point 18 – £36,693 to Point 20 – £37,794 Full time) Prorated salary range is likely to be approx: £32,372 – £33,343, (dependant on experience, week per year and continuous service). Based on working 35 hours per week, Term time plus 10 days. | Exams and Data Officer
-employer: Barking Abbey School, A Specialist Sports and Humanities College
-closing_date: 2026-10-16T09:00:00+01:00
-reason: Borderline school administration title: data officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 0cc991a582038e81423c8b5a6c275f4d96edbffadb70d78b5a775a2be0c6f1ae
-source: Teaching Vacancies
-source_job_id: exams-and-data-officer-001df384-4611-4e33-97d4-7c89842c0e25
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-and-data-officer-001df384-4611-4e33-97d4-7c89842c0e25
 ---
 
 ---
@@ -468,16 +453,18 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-el
 - [Assistant Librarian](https://teaching-vacancies.service.gov.uk/jobs/assistant-librarian-davenant-foundation-school) — Insufficient admin/service evidence.
 - [Attendance and Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admin-officer-hertswood-academy) — Insufficient admin/service evidence.
 - [Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-manager-harris-lowe-academy-willesden) — Manager title salary ceiling £37,134 is not below £28,000.
-- [Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-manager-the-totteridge-academy) — Manager title without salary evidence below £28,000.
-- [Attendance Manager & Deputy Designated Safeguarding Lead (DDSL)](https://teaching-vacancies.service.gov.uk/jobs/attendance-manager-deputy-designated-safeguarding-lead-ddsl) — Manager title salary ceiling £44,231 is not below £28,000.
-- [Clerk](https://teaching-vacancies.service.gov.uk/jobs/clerk-8fed6825-7dee-4d92-8be5-0aa42efc1710) — Insufficient admin/service evidence.
+- [Attendance Manager](https://teaching-vacancies.service.gov.uk/jobs/attendance-manager-the-totteridge-academy) — Manager title salary ceiling £40,000 is not below £28,000.
+- [Business Analyst](https://teaching-vacancies.service.gov.uk/jobs/business-analyst-new-city-college) — Insufficient admin/service evidence.
+- [Chief Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-finance-officer-newham-community-learning-london-not-recorded) — Insufficient admin/service evidence.
+- [Clerk](https://teaching-vacancies.service.gov.uk/jobs/clerk-3c160b52-7e72-4e61-ad20-18c3b7f99817) — Insufficient admin/service evidence.
 - [Communications and Collaboration Lead](https://teaching-vacancies.service.gov.uk/jobs/communications-and-collaboration-lead) — Insufficient admin/service evidence.
 - [Data Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-administration-assistant-lilian-baylis-technology-school) — Insufficient admin/service evidence.
 - [EA to the Principal](https://teaching-vacancies.service.gov.uk/jobs/ea-to-the-principal) — Out-of-scope occupation: principal.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-feec0708-8cac-454f-8890-7daafb1d5429) — Insufficient admin/service evidence.
-- [H3 Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/h3-admin-officer) — Insufficient admin/service evidence.
+- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-middlesex-learning-partnership) — Insufficient admin/service evidence.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-anthem-schools-trust-london-not-recorded) — Insufficient admin/service evidence.
 - [Headteacher's PA](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-north-brent-school) — Out-of-scope occupation: teacher, headteacher.
+- [HR Lead](https://teaching-vacancies.service.gov.uk/jobs/hr-lead-royal-docks-academy-london) — Insufficient admin/service evidence.
 - [HR Officer, Office Manager & PA to Headteacher (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-office-manager-pa-to-headteacher-maternity-cover) — Manager title salary ceiling £49,212 is not below £28,000.
 - [HR, People and Culture Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-people-and-culture-manager) — Manager title salary ceiling £52,800 is not below £28,000.
 - [Human Resources Business Partner](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-new-city-college) — Insufficient admin/service evidence.
@@ -489,15 +476,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-el
 - [People Officer](https://teaching-vacancies.service.gov.uk/jobs/people-officer-newbridge-school) — Insufficient admin/service evidence.
 - [Pupil Support Lead (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/pupil-support-lead-maternity-cover-st-mary-cray-primary-academy) — Insufficient admin/service evidence.
 - [Regional HR Partner](https://teaching-vacancies.service.gov.uk/jobs/regional-hr-partner-36023a7d-c903-4173-b385-43f854d87e14) — Insufficient admin/service evidence.
+- [Reprographics Assistant](https://teaching-vacancies.service.gov.uk/jobs/reprographics-assistant-langley-park-school-for-boys-beckenham-kent) — Insufficient admin/service evidence.
+- [Reprographics Technician](https://teaching-vacancies.service.gov.uk/jobs/reprographics-technician-9ea74161-d55b-4b39-943d-187d640b5e5d) — Out-of-scope occupation: technician.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-acton-gardens-primary-school) — Manager title salary ceiling £51,961 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-handsworth-primary-school) — Manager title without salary evidence below £28,000.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-sacred-heart-roman-catholic-primary-school) — Manager title salary ceiling £48,519 is not below £28,000.
 - [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-whitehall-park-school) — Manager title salary ceiling £43,696 is not below £28,000.
 - [SENDCo Assistant](https://teaching-vacancies.service.gov.uk/jobs/sendco-assistant-9fa464f8-e6a5-4f60-bac9-8d1c457a584c) — Insufficient admin/service evidence.
 - [Senior Project Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-project-officer) — Insufficient admin/service evidence.
 - [Site Manager](https://teaching-vacancies.service.gov.uk/jobs/site-manager-hereward-primary-school-loughton-essex) — Out-of-scope occupation: site manager.
 - [Specialist Cover Coordinator](https://teaching-vacancies.service.gov.uk/jobs/specialist-cover-coordinator) — Insufficient admin/service evidence.
 - [Student Attendance & Reporting Officer](https://teaching-vacancies.service.gov.uk/jobs/student-attendance-reporting-officer-davenant-foundation-school) — Insufficient admin/service evidence.
+- [Whole School Admissions and Transitions Coordinator](https://teaching-vacancies.service.gov.uk/jobs/whole-school-admissions-and-transitions-coordinator) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

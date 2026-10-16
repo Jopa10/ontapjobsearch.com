@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-10-15
-review_fingerprint: 7dd82ecd97e7d96bb769749169dcc1bbf6339eade7df68c290c2510e041f0eff
-routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
+review_date: 2026-10-16
+review_fingerprint: 66266c3f121edad42dda82260da47590184785d142191b1193ad954b819b5d4e
+routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 15
-- Selected: 5
+- Selected: 4
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 9
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: 2853696b3c397aba372c81583fd33d29b5f06b1714957932a66cdb9cd86
 source: Teaching Vacancies
 source_job_id: administration-assistant-winterstoke-hundred-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-winterstoke-hundred-academy
----
-
----
-action: 
-SELECTED | Somerset | Weston-super-Mare, South West, BS23 3QP | £13,954 - £15,209 | Administration Assistant Level 1 - Receptionist
-employer: Hans Price Academy
-closing_date: 2026-10-20T11:59:59+01:00
-reason: Clear admin/service title: receptionist, administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f1966079f93cfa0eb1c80856844e055347da701a9150b53fc7abdef885acb32c
-source: Teaching Vacancies
-source_job_id: administration-assistant-level-1-receptionist-bd6b7366-4beb-4cdb-99ce-85259000741f
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-level-1-receptionist-bd6b7366-4beb-4cdb-99ce-85259000741f
 ---
 
 ---
@@ -140,6 +125,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-
 - [Finance Business Partner - Projects and Costings](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-projects-and-costings) — Insufficient admin/service evidence.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-yeovil-college) — Insufficient admin/service evidence.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-oak-partnership-trust) — Manager title without salary evidence below £28,000.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-robert-blake-academy) — Manager title salary ceiling £30,868 is not below £28,000.
 - [Operations Lead](https://teaching-vacancies.service.gov.uk/jobs/operations-lead-bishops-hull-primary-school) — Insufficient admin/service evidence.
 - [Receptionist](https://teaching-vacancies.service.gov.uk/jobs/receptionist-midsomer-norton-schools-partnership) — Missing salary or pay scale.
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-10-15
-review_fingerprint: 724ff740c5340201ef49df50633239879cc5bf101b1e1d63d87273c7c0fc91e1
-routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
+review_date: 2026-10-16
+review_fingerprint: b4e2bd04897566bed817f1a62db29d3787a6622c9d0ce0bf2f7294e539ad60d4
+routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 4
+- Records: 16
+- Selected: 5
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 8
@@ -81,21 +81,36 @@ source_job_id: receptionist-admissions-officer-bearbrook-combined-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admissions-officer-bearbrook-combined-school
 ---
 
+---
+action: 
+SELECTED | Buckinghamshire | Buckingham, South East, MK18 1AX | £15,025.00 Annually (Actual) 38.6 weeks per year (includes 3 INSET training days) | Reprographics & Administrative Assistant
+employer: Royal Latin School
+closing_date: 2026-11-03T10:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 86825223ab3a3787b02fe252b9cc3e6d2674af2e82e685a0c532dd7d282f5ae0
+source: Teaching Vacancies
+source_job_id: reprographics-administrative-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/reprographics-administrative-assistant
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 
-POSS | Buckinghamshire | Newport Pagnell, South East, MK16 0BJ | £19,253.34 - £20,526.99 Annually (Actual) NJC 8-12 | Administrator
-employer: E-Act Ousedale School
-closing_date: 2026-10-19T09:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
+POSS | Buckinghamshire | Milton Keynes, South East, MK17 8XY | £26,824.00 Annually (FTE) | Business Support
+employer: Glebe Farm School
+closing_date: 2026-10-28T23:59:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 5a75c0e7507930467bdfaf700f3642ccac7a7e1ef1968e2610191848568cde7e
+factual_fingerprint: ad47331eb0c0e2e2a63c5640f0e6d18c3428890ee85867c7925e936a4743e428
 source: Teaching Vacancies
-source_job_id: administrator-e-act-ousedale-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-e-act-ousedale-school
+source_job_id: business-support-glebe-farm-school-milton-keynes-buckinghamshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-glebe-farm-school-milton-keynes-buckinghamshire
 ---
 
 ---

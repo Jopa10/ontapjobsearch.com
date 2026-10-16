@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-10-15
-review_fingerprint: 3ea128a4c3a4dcd40fa82de033026ba006ee24d21cf154227bf547f2034dd63c
-routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
+review_date: 2026-10-16
+review_fingerprint: e8aeece5adeaa689722084b054926bd607d5aa903e6b3e3968718460336d5b44
+routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 11
 - Selected: 4
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 7
 
@@ -83,20 +83,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-admi
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Leicestershire | Wigston, LE18 2AH | £24,741.00 - £27,334.00 Annually (Actual) Grade 10 | Payroll, Pensions and People Data Manager
-employer: Learn Academies Trust
-closing_date: 2026-10-16T09:00:00+01:00
-reason: Manager title below £28,000 salary ceiling requires review
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 79e52ade2e0a3e45e0e8e3fe17aa91e1f0eab0fcca1163fa1292a72171b08882
-source: Teaching Vacancies
-source_job_id: payroll-pensions-and-people-data-manager
-source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-pensions-and-people-data-manager
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

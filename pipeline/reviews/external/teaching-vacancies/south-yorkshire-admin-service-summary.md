@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-10-15
-review_fingerprint: aca229c4dc5a382ef94db37cf82014c7a0ef7b8a569db8e0fc445f992f8a8e7c
-routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
+review_date: 2026-10-16
+review_fingerprint: 2355de1397a638c9177514c1d840f1fda3a98a016e471c5ba12cdac3576ae92c
+routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 28
-- Selected: 9
-- POSS awaiting decision: 2
+- Records: 30
+- Selected: 10
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 17
 
@@ -75,7 +75,7 @@ reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: a04a81a0550bcd24e6121ad483dc08b88caac67e8ff586db292d1a6fdd719979
+factual_fingerprint: 3989e470bad13d287ddf9882b532a2557d6f6a3300e75803dd9fbd8903a2cb72
 source: Teaching Vacancies
 source_job_id: estates-compliance-and-administrative-assistant
 source_url: https://teaching-vacancies.service.gov.uk/jobs/estates-compliance-and-administrative-assistant
@@ -109,6 +109,21 @@ factual_fingerprint: 0dee8d6ee0d8ebaf7f50fbb7d643e618a740c12e670a806ba33d5fee605
 source: Teaching Vacancies
 source_job_id: receptionist-admin-assistant-willow-tree-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-willow-tree-academy
+---
+
+---
+action: 
+SELECTED | Yorkshire - South | Mexborough, Yorkshire and the Humber, S64 8QG | £26,427.00 - £27,274.00 Annually (Actual) | Receptionist and Communication Assistant
+employer: Milton School
+closing_date: 2026-10-30T12:00:00+00:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b894c431a4eae6fdd4edce6ff3b60301dd909bc6542519b16f42f0e9fb34f1f8
+source: Teaching Vacancies
+source_job_id: receptionist-and-communication-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-communication-assistant
 ---
 
 ---
@@ -188,6 +203,21 @@ source_job_id: pastoral-admin-support-brinsworth-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-admin-support-brinsworth-academy
 ---
 
+---
+action: 
+POSS | Yorkshire - South | Rotherham, Yorkshire and the Humber, S60 5EJ | £26,427 to £26,847 | SEND Admin Support Assistant
+employer: Brinsworth Academy
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3e7e3c372c8c92a4a4603cc07c89c78e365ac1d95fbcedf52254fe3757dab685
+source: Teaching Vacancies
+source_job_id: send-admin-support-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-admin-support-assistant
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -203,12 +233,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-admin-suppor
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-minerva-learning-trust-sheffield-not-recorded) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-ce12e672-834a-4926-ac88-d9b1ed0235b4) — Manager title salary ceiling £53,500 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-99fb8e49-5fcd-4f2c-851e-e3b3f1e72d55) — Insufficient admin/service evidence.
+- [Inclusion Officer (Alternative Provision)](https://teaching-vacancies.service.gov.uk/jobs/inclusion-officer-alternative-provision-sir-thomas-wharton-academy) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-misson-primary-school) — Manager title salary ceiling £33,699 is not below £28,000.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-42e231a7-dcef-4bf5-a3d7-0eb145f4ac02) — Insufficient admin/service evidence.
 - [School Business Manager at Wath Victoria Primary School](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-at-wath-victoria-primary-school) — Manager title salary ceiling £35,570 is not below £28,000.
 - [School Resource Business Partner](https://teaching-vacancies.service.gov.uk/jobs/school-resource-business-partner) — Insufficient admin/service evidence.
 - [Senior Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-manager-minerva-learning-trust) — Manager title salary ceiling £58,557 is not below £28,000.
-- [Senior Management Account / Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/senior-management-account-head-of-finance) — Insufficient admin/service evidence.
 - [Sports Centre and Lettings Supervisor](https://teaching-vacancies.service.gov.uk/jobs/sports-centre-and-lettings-supervisor) — Insufficient admin/service evidence.
 - [Transactional Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/transactional-finance-manager) — Manager title salary ceiling £53,051 is not below £28,000.
 

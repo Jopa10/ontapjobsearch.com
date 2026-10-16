@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — South West
 
-review_date: 2026-10-15
-review_fingerprint: 8f2deeb269fb4029b10baa022d2d9011f54cb7bc0b380d10986f0127133969ca
-routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
+review_date: 2026-10-16
+review_fingerprint: 17fd6fbc44c32c8445189f78d219983ccdaa2a069309ca4d0e7568b0061f2708
+routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
 ontap_region: South West
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -53,17 +53,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admi
 
 ---
 action: 
-SELECTED | South West | Looe, South West, PL13 2JJ | £25,948.96 Annually (FTE) Actual Salary £11,461.15 per annum | School Administrator
-employer: Polperro Primary Academy
-closing_date: 2026-10-15T23:59:00+01:00
-reason: Clear admin/service title: administrator
+SELECTED | South West | CALLINGTON, South West, PL17 8ND | £25,948 | School Secretary
+employer: Stoke Climsland School
+closing_date: 2026-11-12T23:59:00+00:00
+reason: Clear admin/service title: school secretary, secretary
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: a2f2f241bb4d87de9c15fb416ef8d0494bacac23819f1f55dd31a9e1678ba895
+factual_fingerprint: 86af0acd4a4f58efd1f6a7ece5e9e5a6f90b8d45e60b673bc32ac0504eb638d3
 source: Teaching Vacancies
-source_job_id: school-administrator-3047e52d-ed72-490f-a0fa-13bf8b5592c3
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-3047e52d-ed72-490f-a0fa-13bf8b5592c3
+source_job_id: school-secretary-stoke-climsland-school-callington-cornwall
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-secretary-stoke-climsland-school-callington-cornwall
 ---
 
 ## POSS — choose SELECT or EXCLUDE

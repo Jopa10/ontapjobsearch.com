@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - Central
 
-review_date: 2026-10-15
-review_fingerprint: ce7ae2058e86e623a533d20b3de31ae41bc7e71f26e04a0bf33301153495db83
-routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
+review_date: 2026-10-16
+review_fingerprint: bc8adb15666fb9a0abbca8cb995a3c2e29c2c75338fee0873b3b374e2e9a6f58
+routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
 ontap_region: Lancashire - Central
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 2
+- Records: 4
+- Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 2
@@ -34,21 +34,6 @@ factual_fingerprint: 2c6766e9dc8d9f9efa1011661666ec226f654c1b2bfc426d9a42068d34a
 source: Teaching Vacancies
 source_job_id: data-exams-officer-c5864539-d46c-41a4-aff9-c3262986ebad
 source_url: https://teaching-vacancies.service.gov.uk/jobs/data-exams-officer-c5864539-d46c-41a4-aff9-c3262986ebad
----
-
----
-action: 
-SELECTED | Lancashire - Central | Preston, North West, PR1 1TT | £26,016.00 - £26,847.00 Annually (FTE) | School Business Support Assistant (Part-Time)
-employer: St Ignatius' Catholic Primary School, Preston
-closing_date: 2026-10-16T12:00:00+01:00
-reason: Clear admin/service title: business support assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9e8537a3f7b6655b7d6745033b30376cccd5a19036c7025b2ebd3f6e591ed0bc
-source: Teaching Vacancies
-source_job_id: school-business-support-assistant-part-time
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-support-assistant-part-time
 ---
 
 ## POSS — choose SELECT or EXCLUDE

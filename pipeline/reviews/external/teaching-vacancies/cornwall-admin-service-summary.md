@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-10-15
-review_fingerprint: 5d4ea87414d9a923019b22610666fa8160b221c1752c4cb60e427818aa3141a9
-routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
+review_date: 2026-10-16
+review_fingerprint: 201cbf64d5962dc81e55d176f78e8414a9dcd44e0b79f5313b87edec7b622e29
+routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 2
+- Records: 8
+- Selected: 1
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 5
@@ -34,21 +34,6 @@ factual_fingerprint: 04322909202992b02d48f5f119c394f0737a9879f76878d50a9691007b0
 source: Teaching Vacancies
 source_job_id: first-aid-administrator-newquay-tretherras
 source_url: https://teaching-vacancies.service.gov.uk/jobs/first-aid-administrator-newquay-tretherras
----
-
----
-action: 
-SELECTED | Cornwall | Camborne, South West, TR14 7PP | £25,947.47 Annually (FTE) | Year Team Administrator
-employer: Camborne Science and International Academy
-closing_date: 2026-10-16T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4b16f23264233b34d65441e3c3b84835f9195edebc7f1246f3fd905c86b569ef
-source: Teaching Vacancies
-source_job_id: year-team-administrator-camborne-science-and-international-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/year-team-administrator-camborne-science-and-international-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE

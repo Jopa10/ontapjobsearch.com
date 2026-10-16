@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Worcestershire
 
-review_date: 2026-10-15
-review_fingerprint: c1eb78904c3b0d9ce68973e85e6b7d07e2b4c47c2b5bc9f6701264f7ad3e4439
-routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
+review_date: 2026-10-16
+review_fingerprint: 7f2c02f0c134d4ce54705cd97efc2934d3189e127ff85d6509b866a46ef2067e
+routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 3
+- Records: 4
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
@@ -49,21 +49,6 @@ factual_fingerprint: 1f65be78602ccedc718d32225accd13d281bf23b0550cc977e271e87597
 source: Teaching Vacancies
 source_job_id: office-administrator-burford-road-site
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-burford-road-site
----
-
----
-action: 
-SELECTED | Worcestershire | Bromsgrove, West Midlands, B60 3NL | £4,061.34 Annually (Actual) Scale 2 (SCP 3-4) | Part-Time Student Receptionist/Main Receptionist
-employer: South Bromsgrove High
-closing_date: 2026-10-16T09:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c55d46948109ab5d290362945013eb492d480e3dd7992799131aa24e8c5325ce
-source: Teaching Vacancies
-source_job_id: part-time-student-receptionist-main-receptionist
-source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-student-receptionist-main-receptionist
 ---
 
 ## POSS — choose SELECT or EXCLUDE

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East - Tees Valley
 
-review_date: 2026-10-15
+review_date: 2026-10-16
 review_fingerprint: 7508409455c0cfbc2ac80c45288b2ddeffb9d7aa652ba214c958e94269df61e3
-routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
+routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 5
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 2
 
 ## SELECTED
 
@@ -77,6 +77,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-suppo
 ## HARD_PASS
 
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-9169c182-8090-4a33-85b8-e9004b9ea0d1) — Insufficient admin/service evidence.
+- [School Operations Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-operations-assistant) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

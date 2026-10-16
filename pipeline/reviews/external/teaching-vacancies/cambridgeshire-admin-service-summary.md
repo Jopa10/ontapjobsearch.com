@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-10-15
-review_fingerprint: 1ee06934aff05580cb2cfda8d59360e530c5cbb66527d953f66954216a39b1b3
-routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
+review_date: 2026-10-16
+review_fingerprint: faae5052bf5804918ed9e9b97e8450630dd4ea8b8328fff806e75ce7fcb49b98
+routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 21
+- Records: 22
 - Selected: 10
-- POSS awaiting decision: 6
+- POSS awaiting decision: 7
 - Excluded: 0
 - Hard pass: 5
 
@@ -261,6 +261,21 @@ factual_fingerprint: 103b275d34c37ce3ebcba8e70a3a0f657d80bea96c923c6d1d8a1b29092
 source: Teaching Vacancies
 source_job_id: finance-officer-trumpington-community-college-cambridge-cambridgeshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-trumpington-community-college-cambridge-cambridgeshire
+---
+
+---
+action: 
+POSS | Cambridgeshire | Cambridge, East of England, CB23 7DU | £25,185.00 - £25,583.00 Annually (FTE) NJC Scale 2, Points 5 to 6. Actual salary £21,600.98 per annum (based on 37 hrs per week) on point 12 (pay award pending). | Receptionist
+employer: Comberton Village College
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 86ff71720431237a5097f920240e9efc5bbb73d4d4426966af2f795053997d71
+source: Teaching Vacancies
+source_job_id: receptionist-comberton-village-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-comberton-village-college
 ---
 
 ## EXCLUDED BY REVIEW

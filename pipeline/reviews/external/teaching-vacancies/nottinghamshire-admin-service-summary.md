@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-10-15
-review_fingerprint: 6277d18579abc13c196a4766956cdeffcab7573828e09cdfb833ab8d3c93eb89
-routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
+review_date: 2026-10-16
+review_fingerprint: e480120923e794d41f365c73415f3a0090f9542ba4d9ad56e326088dd1314a4a
+routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 26
-- Selected: 7
+- Records: 27
+- Selected: 9
 - POSS awaiting decision: 7
 - Excluded: 0
-- Hard pass: 12
+- Hard pass: 11
 
 ## SELECTED
 
@@ -49,6 +49,21 @@ factual_fingerprint: a43e63f549f59ce3d035a3c97619c1f4a7d6fa5451b904f3f7f8e19dc1a
 source: Teaching Vacancies
 source_job_id: finance-administrator-including-trips-and-visits
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-including-trips-and-visits
+---
+
+---
+action: 
+SELECTED | Nottinghamshire | Retford, DN22 7GR | £21,472.00 - £26,482.00 Annually (Actual) This role offers a flexible and agile approach to working, with time spent at our Head Office, within academies and working from home | Governance Professional (Senior Administrator)
+employer: Diverse Academies Trust
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0aef854acdac4b8a6c7e22de399f1b6d4fe13deb5d77696828cf67c22b49e35e
+source: Teaching Vacancies
+source_job_id: governance-professional-senior-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-senior-administrator
 ---
 
 ---
@@ -113,6 +128,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ---
 action: 
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG8 2FT | £22,507.00 - £24,527.00 Annually (Actual) The salary advertised reflects the pro rata salary for this role, based on 45.6 weeks per year. The full-time equivalent FTE salary for this position is £25,666 - 27,970 per annum. | SEND Administrator
+employer: Fernwood School
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8ba44e2eb3a71c045dbc8a133d3f916deb67aaffe6c702713554e436164b73f4
+source: Teaching Vacancies
+source_job_id: send-administrator-fernwood-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-fernwood-school
+---
+
+---
+action: 
 SELECTED | Nottinghamshire | Nottingham, East Midlands, NG17 8EE | Grade 4 | Senior Office Administrative Assistant
 employer: The West Park Academy
 closing_date: 2026-11-02T23:59:00+00:00
@@ -141,6 +171,21 @@ factual_fingerprint: c661c6f5166de11c4df24458d1a9244549dc7f23f4545ce884d57d12d5e
 source: Teaching Vacancies
 source_job_id: administration-assistant-victoria-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-victoria-primary-school
+---
+
+---
+action: 
+POSS | Nottinghamshire | Nottingham, East Midlands, NG4 2LR | £22,753 Actual Salary (£26,016 FTE) | Administrative Assistant
+employer: Netherfield Primary School
+closing_date: 2026-11-08T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9588c2b250bf0ebf1de834821ffb1460f1cfe185c955d0151a9ec5e8e937f923
+source: Teaching Vacancies
+source_job_id: administrative-assistant-netherfield-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-netherfield-primary-school
 ---
 
 ---
@@ -205,21 +250,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-inclus
 
 ---
 action: 
-POSS | Nottinghamshire | Retford, DN22 7GR | £31,015.00 - £31,015.00 Annually (FTE) | Governance Professional
-employer: Diverse Academies Trust
-closing_date: 2026-10-18T23:59:00+01:00
-reason: Borderline school administration title: governance professional
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c764243bbc79bdaa3723dbf3af4581004ef436f0d948a9800756fa0b79a21b2c
-source: Teaching Vacancies
-source_job_id: governance-professional-diverse-academies-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-diverse-academies-trust
----
-
----
-action: 
 POSS | Nottinghamshire | Nottingham, East Midlands, NG4 3SH | Redhill Academy Trust pay scale BAND 6 | Receptionist Administrator
 employer: Carlton Academy
 closing_date: 2026-10-30T12:00:00+00:00
@@ -247,10 +277,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 - [Exams and Assessment Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-and-assessment-officer-outwood-academy-kirkby) — Insufficient admin/service evidence.
 - [Marketing Apprentice](https://teaching-vacancies.service.gov.uk/jobs/marketing-apprentice-carlton-academy) — Insufficient admin/service evidence.
 - [People & Culture Business Partner](https://teaching-vacancies.service.gov.uk/jobs/people-culture-business-partner-tapestry-learning-partnership-nottingham-not-recorded) — Insufficient admin/service evidence.
+- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-c46abdbf-b851-4f98-b51c-c939f0fd7919) — Insufficient admin/service evidence.
 - [Safeguarding Adviser](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-adviser-greenwood-academies-trust) — Insufficient admin/service evidence.
-- [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-96d0e4ce-127e-44c5-84cd-fca1d087464c) — Insufficient admin/service evidence.
 - [School Business Lead](https://teaching-vacancies.service.gov.uk/jobs/school-business-lead-the-flying-high-academy) — Insufficient admin/service evidence.
-- [School Office Manager](https://teaching-vacancies.service.gov.uk/jobs/school-office-manager-burntstump-seely-cofe-primary-academy) — Manager title salary ceiling £30,514 is not below £28,000.
 
 ## Safety boundary
 

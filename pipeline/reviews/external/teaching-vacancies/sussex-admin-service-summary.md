@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-10-15
-review_fingerprint: 3ffb7848182fdf836c563128fbc5d8d66cd331e7d2aa5e65dfde7536b3fc99a4
-routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
+review_date: 2026-10-16
+review_fingerprint: c17011c6f30c3d6ef7f6dfec1036245d9bf74d4832c1064d7671f31ffc42ce33
+routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 3
-- POSS awaiting decision: 3
+- Records: 3
+- Selected: 1
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 0
 
 ## SELECTED
-
----
-action: 
-SELECTED | Sussex | Eastbourne, South East, BN22 9EE | FTE: £26,017.00 - £26,429.00 (actual salary: £21,167.55 to £21,502.76) | Administrative Assistant
-employer: Heron Park Primary Academy
-closing_date: 2026-10-16T00:00:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5d19c60bd96f0537cbeff3a0b5e848650d9474e84a35b385d5dd43a4a326fbda
-source: Teaching Vacancies
-source_job_id: administrative-assistant-91c2bb10-6af8-4419-845b-e5add4b37610
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-91c2bb10-6af8-4419-845b-e5add4b37610
----
 
 ---
 action: 
@@ -51,37 +36,7 @@ source_job_id: admissions-transition-assistant-community-receptionist-tanbridge-
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-transition-assistant-community-receptionist-tanbridge-house-school
 ---
 
----
-action: 
-SELECTED | Sussex | Eastbourne, South East, BN22 0SS | FTE: £27,712.00 to £28,608.00 (actual salary: £13,214.15 to £13,641.39) | Attendance Officer
-employer: Oakwood Primary Academy
-closing_date: 2026-10-16T09:00:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e7c6b5799d99d50ee210f6b91cdbdf55cf752bf7fbed371c078ff8b80708f21b
-source: Teaching Vacancies
-source_job_id: attendance-officer-oakwood-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-oakwood-primary-academy
----
-
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Sussex | St Leonards-on-Sea, South East, TN38 0NX | Grade 4, Scale point 9-10 £26,016 - £26,247 pro-rata (Actual salary £23,050 - £23,255) | Administrator
-employer: St Leonards Church of England Primary Academy
-closing_date: 2026-10-16T09:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d6ee43fde02e53f6999b40a3c112b57586a79c255832a8fb1841a11528ecef50
-source: Teaching Vacancies
-source_job_id: administrator-st-leonards-church-of-england-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-st-leonards-church-of-england-primary-academy
----
 
 ---
 action: 

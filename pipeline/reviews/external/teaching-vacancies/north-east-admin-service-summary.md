@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-10-15
-review_fingerprint: 3223a03205d7b3e5ba72010e94370c14e8bbbb9d92004960eac65a08108f7d84
-routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
+review_date: 2026-10-16
+review_fingerprint: 93f5fd48c8dca969ab27e9646b6c485b488178e1ab9f51dc642a1a92efedbb75
+routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 17
-- Selected: 6
+- Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 10
 
 ## SELECTED
 
@@ -96,21 +96,6 @@ source_job_id: attendance-officer-administrator-06cb042d-aa85-4097-86df-523d555d
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-administrator-06cb042d-aa85-4097-86df-523d555d3707
 ---
 
----
-action: 
-SELECTED | North East | Sunderland, North East, SR5 5QL | £26,427.53 - £26,846.49 Annually (FTE) Grade C SCP 5-6 (£26,427.53 - £26,846.49) Pro Rata (£22,629.87 - £22,988.62) | School Office Administrator
-employer: Northern Saints Church of England Academy
-closing_date: 2026-10-16T12:00:00+01:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c326dc3cac87d3b4dd6242c275c7285015face4561caa078c3ab3ca2f9fadde1
-source: Teaching Vacancies
-source_job_id: school-office-administrator-northern-saints-church-of-england-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-administrator-northern-saints-church-of-england-academy
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -150,6 +135,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/people-support-assist
 ## HARD_PASS
 
 - [Business Lead](https://teaching-vacancies.service.gov.uk/jobs/business-lead-st-gregory-s-catholic-primary-school-south-shields-south-shields-tyne-and-wear) — Insufficient admin/service evidence.
+- [Business Lead](https://teaching-vacancies.service.gov.uk/jobs/business-lead-st-leonard-s-catholic-primary-school-silksworth-sunderland) — Insufficient admin/service evidence.
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-st-anthony-s-girls-catholic-academy-sunderland-tyne-and-wear) — Manager title salary ceiling £42,123 is not below £28,000.
 - [Exams Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-assistant-park-view-school) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-bishop-hogarth-catholic-education-trust) — Insufficient admin/service evidence.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-10-15
-review_fingerprint: 7f291bd67e36a4b368f9026fbb5c2ebbe1ab9dd0106e2778d6a2841c04da2db9
-routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
+review_date: 2026-10-16
+review_fingerprint: 0480a279a866345fa935d65a5c29ac9c9bd83359a4abd8bdda5b5b7e913d1819
+routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 3
+- Records: 11
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 8
 
 ## SELECTED
-
----
-action: 
-SELECTED | Northamptonshire | Corby, East Midlands, NN17 2JH | £26,016.00 - £26,016.00 Annually (FTE) | Academy Administrator
-employer: Lodge Park Academy
-closing_date: 2026-10-15T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f96548cfae5a29129b2a8602e27bc820197d771295db2c320b9d02e46c590f41
-source: Teaching Vacancies
-source_job_id: academy-administrator-lodge-park-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-lodge-park-academy
----
 
 ---
 action: 
@@ -60,10 +45,10 @@ reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 020aebc015b31f2026d69cec69ac89bda3fd5115a4b146951a942d673aef481c
+factual_fingerprint: 69708f665ee875abe6d6cd6597a53dc35d0f8631a03d8bfde88cc82bed08c1ba
 source: Teaching Vacancies
-source_job_id: school-administrator-slt-support
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-slt-support
+source_job_id: school-administrator-slt-support-st-thomas-becket-catholic-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-slt-support-st-thomas-becket-catholic-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

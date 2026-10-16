@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-10-15
-review_fingerprint: a1d4edebdf429a506c04d993b1e3220ffa72e24fbef160362c46d6e4ebc98c67
-routing_manifest_sha256: 6ea02f7c99b7efddd0b261b141e5d840bf34722c19dff39801f5e5ba5d68a0b0
+review_date: 2026-10-16
+review_fingerprint: 78e9bf63d8dc54eb3422c7f07188f12e3794453abdbd20012be4f25e7fafc9ca
+routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 5
+- Records: 14
+- Selected: 4
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 7
@@ -34,21 +34,6 @@ factual_fingerprint: 247560e2264d02fdda0f49fa9a47e416bbcf17bb817e0b54f74ad19f41a
 source: Teaching Vacancies
 source_job_id: admin-officer-receptionist
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-officer-receptionist
----
-
----
-action: 
-SELECTED | Hertfordshire | Radlett, East of England, WD7 7LQ | £7,737.00 - £7,737.00 Annually (Actual) | Finance and Reception Administrator – Part Time
-employer: Hertsmere Jewish Primary School
-closing_date: 2026-10-16T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: fa76feff52ab42fe92a88c65de9bb0023ef2763522cdce5ab3c4c02900c46bb7
-source: Teaching Vacancies
-source_job_id: finance-and-reception-administrator-part-time
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-and-reception-administrator-part-time
 ---
 
 ---
@@ -100,14 +85,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-admin-assis
 
 ---
 action: 
-POSS | Hertfordshire | Hoddesdon, East of England, EN11 8JY | £26,900.00 Annually (Actual) H6 + Fringe | Deputy Office Manager
+POSS | Hertfordshire | Hoddesdon, East of England, EN11 8JY | £27,000.00 Annually (Actual) H6 + Fringe | Deputy Office Manager
 employer: Robert Barclay Academy
 closing_date: 2026-10-20T09:00:00+01:00
 reason: Manager title below £28,000 salary ceiling requires review
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 1d6c28c72b290cf288749680e1ba41a5263e3fa3fed615e012c14b482dd1a0f1
+factual_fingerprint: 64ce3ae6fb7fbd0cf78d477f79eecb796c52f788d57f499ce86add29499cff4f
 source: Teaching Vacancies
 source_job_id: deputy-office-manager-robert-barclay-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/deputy-office-manager-robert-barclay-academy
