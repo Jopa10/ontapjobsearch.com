@@ -442,11 +442,16 @@ async function main() {
     prepared.migrationFresh,
     prepared.migratedFromV1
   );
-  const selected = selectIndexingCandidates(built.candidates, state.day.attempts, {
+  const planned = selectIndexingCandidates(built.candidates, state.day.attempts, {
     dailyQuota: DAILY_QUOTA,
     newNonJobg8Reserve: NEW_NON_JOBG8_RESERVE,
     deletionReserve: DELETION_RESERVE,
   });
+  // Manual smoke tests use the same eligibility, priority and daily ledger,
+  // but send at most five updates rather than spending the deletion allowance.
+  const selected = process.env.GOOGLE_INDEXING_SMOKE_TEST === 'true'
+    ? planned.filter((candidate) => candidate.type === 'URL_UPDATED').slice(0, 5)
+    : planned;
   const attemptsBeforeRun = state.day.attempts.length;
   const quotaInvariantViolation = attemptsBeforeRun + selected.length > DAILY_QUOTA;
   if (quotaInvariantViolation)

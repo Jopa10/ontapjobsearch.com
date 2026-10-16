@@ -9,6 +9,8 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 16 October 2026 — **Google indexing preparation repaired:** every run now generates its published-job indexes before submission. Manual smoke tests can send at most five eligible job URL updates using the same persisted daily quota ledger; normal automatic runs retain the 200-notification Pacific-day limit and existing schedule.
+
 - 16 October 2026 — **AI at work hub added:** `/ai-at-work` groups the existing practical tips and first-hand course reviews, with AI Job Advert Watch explicitly marked as a planned series. Existing content URLs and listing-to-tips attribution remain unchanged. The hub is linked from the site footer, child-page breadcrumbs and sitemap; no report findings are published yet.
 
 - 15 October 2026 — **Homepage job-count correction:** Family/region and family-city counts now share page-level JSON membership and canonical-ID deduplication with `JobSlicePage` instead of using primary `slice_path` assignments or raw city row counts.
