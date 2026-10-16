@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-10-15
-review_fingerprint: 47f4d9618bba47b587f1936a0a307902e9e5901203b641638d0a755d6fff243f
+review_date: 2026-10-16
+review_fingerprint: 0657071379a2c50ee89f3a5cf6713d63fc29e9c7c4060d510464a901f1c0183f
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,47 +10,34 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-10-15T12:57:00+01:00
+Run generated: 2026-10-16T12:47:24+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 409
+JobG8 comparison rows: 413
 Approved NEJobs comparison rows: 0
 
 ## Funnel
 - VONNE listings read: 15
-- Detail-page candidates: 7
-- Detail pages fetched successfully: 7
+- Detail-page candidates: 5
+- Detail pages fetched successfully: 5
 - Detail failures/listing fallbacks: 0
-- Obvious hard passes not detail-fetched: 8
+- Obvious hard passes not detail-fetched: 10
 - Tees Valley explicitly excluded: 0
 - Outside or unmapped geography excluded: 3
 - Generic/derived geography rows requiring review: 3
 - Retained target candidates: 12
 
 ## Outcomes
-- HC: 2
-- POSS: 7
-- HARD_PASS: 3
-- Final selected after remembered/manual actions: 2
-- Final POSS awaiting decision: 3
-- Manually excluded: 4
+- HC: 1
+- POSS: 6
+- HARD_PASS: 5
+- Final selected after remembered/manual actions: 1
+- Final POSS awaiting decision: 4
+- Manually excluded: 2
 ## Detail diagnostics
 - No unresolved detail-page failures.
 
 ## SELECTED
 
----
-action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £24,796 to 28,153 Per Annum | Administrator (VAWG TEAM)
-employer: The Angelou Centre
-closing_date: Saturday, October 31, 2026 - 05:00
-geography: CONFIRMED — location: approved location fallback
-reason: clear transferable title: administrator
-source: VONNE
-tracking_key: vonne-173521
-vacancy_fingerprint: 6bde09698b989e1267db4b77ce6013d78818bfcbc18d48a2533b8d50c9d4eef6
-source_job_id: 173521
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173521
----
 ---
 action:
 SELECTED | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £25,880 Per Annum | Contact Centre Adviser - Consumer
@@ -93,30 +80,17 @@ source_job_id: 173457
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173457
 ---
 ---
-action: exclude
-POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £28,366 to 31,518 Pro Rata | Grant Holder Support Officer
-employer: Voluntary and Community Action Sunderland
-closing_date: Monday, October 26, 2026 - 17:00
+action:
+POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £24,796 to 28,153 Per Annum | Administrator (VAWG TEAM)
+employer: The Angelou Centre
+closing_date: Saturday, October 31, 2026 - 05:00
 geography: CONFIRMED — location: approved location fallback
-reason: annualised upper salary £31,518 exceeds North East review point £30,000
+reason: possible cross-source duplicate requires review
 source: VONNE
-tracking_key: vonne-173508
-vacancy_fingerprint: 8299e3d1056736b8272504c0f62b20d222e5d414101af412de37dad17b8b5368
-source_job_id: 173508
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173508
----
----
-action: exclude
-POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £28,366 to 31,518 Pro Rata | Grant Holder Support Officer
-employer: Inspire South Tyneside
-closing_date: Monday, October 26, 2026 - 17:00
-geography: CONFIRMED — location: approved location fallback
-reason: annualised upper salary £31,518 exceeds North East review point £30,000
-source: VONNE
-tracking_key: vonne-172176
-vacancy_fingerprint: 9e86bf11e8f53d9040f1830cca6e2ffd94d6c09c03bf3f929c00c3e644a1f406
-source_job_id: 172176
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=172176
+tracking_key: vonne-173521
+vacancy_fingerprint: 1b881bdff0978f7131882da6166feea86cc94020d825071b96d436091c31b1c4
+source_job_id: 173521
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173521
 ---
 ---
 action: exclude
@@ -164,6 +138,8 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173537
 ## HARD_PASS
 
 - [Chief Executive](https://www.vonne.org.uk/vonne-jobs-details?cid=173526) — out-of-scope VONNE occupation.
+- [COMMUNITY LINK WORKER](https://www.vonne.org.uk/vonne-jobs-details?cid=173544) — out-of-scope VONNE occupation.
+- [Employability and Skills Mentor](https://www.vonne.org.uk/vonne-jobs-details?cid=173545) — insufficient service-admin evidence.
 - [Independent Advocate](https://www.vonne.org.uk/vonne-jobs-details?cid=173539) — insufficient service-admin evidence.
 - [Interim Chief Executive Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173518) — out-of-scope VONNE occupation.
 
