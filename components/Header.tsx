@@ -44,6 +44,12 @@ export default function Header() {
 
                     {/* Navigation */}
                     <nav className="ml-auto flex shrink-0 items-center gap-6 pl-4">
+                        <Link
+                            href="/ai-at-work"
+                            className={`text-gray-700 hover:text-blue-600 font-medium transition-colors ${isHome ? '' : 'hidden sm:inline'}`}
+                        >
+                            AI at work
+                        </Link>
                         {!isHome && (
                             <Link
                                href="/"
