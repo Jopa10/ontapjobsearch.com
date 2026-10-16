@@ -5,7 +5,7 @@ const canonicalUrl = "https://www.ontapjobsearch.com/ai-at-work";
 
 export const metadata: Metadata = {
   title: "AI at Work: Practical Tips and Course Reviews | Ontap",
-  description: "Practical AI help for everyday office work: example prompts, first-hand beginner course reviews and a planned look at AI skills in job adverts.",
+  description: "Practical AI help for everyday office work: example prompts, first-hand beginner course reviews and reports on AI in job adverts.",
   alternates: { canonical: canonicalUrl },
 };
 
@@ -67,9 +67,10 @@ export default function AiAtWorkPage() {
       </div>
 
       <section aria-labelledby="ai-job-advert-watch" className="mt-8 border-b border-slate-200 py-6">
-        <p className="mb-3 inline-block rounded-md border border-slate-200 px-2 py-1 text-xs font-medium text-slate-600">Planned series</p>
-        <h2 id="ai-job-advert-watch" className="mb-3 text-2xl font-bold text-slate-950">AI Job Advert Watch</h2>
-        <p className="max-w-3xl leading-7 text-slate-700">What are employers actually asking for? A forthcoming look at AI skills mentioned in office-job adverts—and what they mean for you.</p>
+        <p className="mb-3 text-sm font-semibold text-blue-700">AI Job Advert Watch · October 2026</p>
+        <h2 id="ai-job-advert-watch" className="mb-3 text-2xl font-bold text-slate-950">AI in office jobs: what employers are actually asking for</h2>
+        <p className="mb-5 max-w-3xl leading-7 text-slate-700">We reviewed 3,500+ office-family adverts. Just 4% mentioned AI or a named tool, with marketing showing the clearest signal.</p>
+        <Link href="/ai-at-work/ai-job-advert-watch/october-2026" className="font-bold text-blue-700 underline underline-offset-4 hover:text-blue-900">Read the October report →</Link>
       </section>
 
       <aside className="mt-6 flex flex-wrap items-center justify-between gap-4">
