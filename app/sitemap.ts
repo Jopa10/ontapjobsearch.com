@@ -15,6 +15,7 @@ const baseRoutes = [
   '/',
   '/browse-jobs',
   '/about',
+  '/ai-at-work',
   '/ai-tips',
   '/ai-course-reviews',
   '/contact',

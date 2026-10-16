@@ -26,6 +26,8 @@ export default function AiCourseReviewsPage() {
         <ol className="flex flex-wrap items-center gap-2">
           <li><Link href="/" className="underline-offset-4 hover:underline">Home</Link></li>
           <li aria-hidden="true">&gt;</li>
+          <li><Link href="/ai-at-work" className="underline-offset-4 hover:underline">AI at work</Link></li>
+          <li aria-hidden="true">&gt;</li>
           <li aria-current="page" className="font-medium text-slate-900">AI course reviews</li>
         </ol>
       </nav>

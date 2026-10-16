@@ -25,6 +25,12 @@ const breadcrumbSchema = {
     {
       "@type": "ListItem",
       position: 2,
+      name: "AI at work",
+      item: "https://www.ontapjobsearch.com/ai-at-work",
+    },
+    {
+      "@type": "ListItem",
+      position: 3,
       name: "AI tips",
       item: canonicalUrl,
     },
@@ -69,6 +75,8 @@ export default function AiTipsPage() {
               Home
             </Link>
           </li>
+          <li aria-hidden="true">&gt;</li>
+          <li><Link href="/ai-at-work" className="underline-offset-4 hover:underline">AI at work</Link></li>
           <li aria-hidden="true">&gt;</li>
           <li aria-current="page" className="font-medium text-slate-900">
             AI tips

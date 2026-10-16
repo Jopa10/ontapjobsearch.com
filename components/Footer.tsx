@@ -42,6 +42,11 @@ export default function Footer() {
                                 </Link>
                             </li>
                             <li>
+                                <Link href="/ai-at-work" className="text-sm hover:text-white transition-colors">
+                                    AI at work
+                                </Link>
+                            </li>
+                            <li>
                                 <Link href="/about" className="text-sm hover:text-white transition-colors">
                                     About Ontap
                                 </Link>
