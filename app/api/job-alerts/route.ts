@@ -16,6 +16,9 @@ function shortText(value: unknown, maxLength = 120): string {
 }
 
 export async function POST(request: NextRequest) {
+  if (process.env.CPC_JOB_ALERTS_ENABLED !== "true") {
+    return NextResponse.json({ error: "Job alerts are not available just yet." }, { status: 503 });
+  }
   const origin = request.headers.get("origin");
   if (!origin || origin !== new URL(request.url).origin) {
     return NextResponse.json({ error: "Request could not be verified." }, { status: 403 });
