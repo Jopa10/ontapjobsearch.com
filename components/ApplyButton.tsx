@@ -28,7 +28,10 @@ export default function ApplyButton({
   useEffect(() => {
     if (!open) return;
     const handleEscape = (event: KeyboardEvent) => {
-      if (event.key === "Escape") closeDialog();
+      if (event.key !== "Escape") return;
+      if (applyWindow.current && !applyWindow.current.closed) applyWindow.current.close();
+      applyWindow.current = null;
+      setOpen(false);
     };
     window.addEventListener("keydown", handleEscape);
     return () => window.removeEventListener("keydown", handleEscape);
