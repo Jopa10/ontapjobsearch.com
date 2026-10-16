@@ -130,7 +130,7 @@ export default function ApplyButton({
                 <h2 id="job-alert-title" style={{ margin: "8px 42px 8px 0", fontSize: 25, lineHeight: 1.25 }}>Get alerts for similar jobs</h2>
                 <p style={{ margin: "0 0 18px", color: "#475569" }}>Leave your email and we’ll tell you when similar jobs are added.</p>
                 <label htmlFor="job-alert-email" style={{ display: "block", margin: "12px 0 5px", fontSize: 14, fontWeight: 600 }}>Email address</label>
-                <input ref={emailRef} id="job-alert-email" type="email" autoComplete="email" required maxLength={254} value={email} onChange={event => setEmail(event.target.value)} placeholder="you@example.com"
+                <input ref={emailRef} id="job-alert-email" type="email" autoComplete="email" required disabled={state === "saving"} maxLength={254} value={email} onChange={event => setEmail(event.target.value)} placeholder="you@example.com"
                   style={{ width: "100%", height: 42, padding: "9px 11px", border: "1px solid #cbd5e1", borderRadius: 6, background: "#fff", color: "#171717", font: "inherit" }} />
                 <div style={{ margin: "16px 0", padding: "14px 16px", background: "#f8fafc", border: "1px solid #dbe3ee", borderRadius: 8 }}>
                   <div style={{ marginBottom: 6, fontSize: 14, fontWeight: 600 }}>We’ll save these preferences for your alerts</div>
@@ -139,7 +139,7 @@ export default function ApplyButton({
                     {([["Role", role, setRole], ["Location", alertLocation, setAlertLocation], ["Salary", salary, setSalary]] as const).map(([label, value, setValue]) => (
                       <label key={label} style={{ display: "block", margin: "4px 0", color: "#475569", fontSize: 14 }}>
                         {label}
-                        <input type="text" required={label === "Role" || label === "Location"} maxLength={120} value={value} onChange={event => setValue(event.target.value)}
+                        <input type="text" required={label === "Role" || label === "Location"} disabled={state === "saving"} maxLength={120} value={value} onChange={event => setValue(event.target.value)}
                           style={{ display: "block", width: "100%", height: 38, marginTop: 3, padding: "8px 10px", border: "1px solid #cbd5e1", borderRadius: 6, background: "#fff", color: "#171717", font: "inherit" }} />
                       </label>
                     ))}
@@ -148,7 +148,7 @@ export default function ApplyButton({
                 <button type="submit" disabled={state === "saving"} style={{ width: "100%", border: 0, borderRadius: 7, padding: "12px 15px", background: state === "saving" ? "#94a3b8" : "#1d4ed8", color: "#fff", font: "inherit", fontWeight: 700, cursor: state === "saving" ? "wait" : "pointer" }}>
                   {state === "saving" ? "Saving your alert…" : "Yes — save my alert and continue to apply"}
                 </button>
-                <button type="button" onClick={continueToEmployer} style={{ display: "block", marginTop: 9, padding: "3px 0", border: 0, background: "transparent", color: "#1d4ed8", font: "inherit", textDecoration: "underline", cursor: "pointer" }}>No thanks — continue to apply without alerts</button>
+                <button type="button" disabled={state === "saving"} onClick={continueToEmployer} style={{ display: "block", marginTop: 9, padding: "3px 0", border: 0, background: "transparent", color: "#1d4ed8", font: "inherit", textDecoration: "underline", cursor: "pointer" }}>No thanks — continue to apply without alerts</button>
                 <p style={{ margin: "10px 0 0", color: "#64748b", fontSize: 12, lineHeight: 1.4 }}>Choosing Yes signs you up for job alert emails matching these preferences. Unsubscribe at any time.</p>
                 <label aria-hidden="true" style={{ position: "absolute", left: -10000, width: 1, height: 1, overflow: "hidden" }}>Leave this field empty<input tabIndex={-1} autoComplete="off" name="website" value={website} onChange={event => setWebsite(event.target.value)} /></label>
               </form>
