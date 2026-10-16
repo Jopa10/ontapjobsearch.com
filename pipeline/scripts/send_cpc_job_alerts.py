@@ -148,6 +148,7 @@ def new_cpc_jobs(report_path: Path, app_dir: Path, report_date: str) -> list[dic
                 continue
             if not is_cpc_job(str(row.get("source") or ""), str(row.get("apply_url") or "")):
                 continue
+            row["ontap_url"] = "https://www.ontapjobsearch.com/jobs/" + urllib.parse.quote(job_id, safe="")
             jobs[job_id] = row
     return sorted(jobs.values(), key=lambda job: (str(job.get("title") or "").casefold(), str(job.get("job_id") or "")))
 
