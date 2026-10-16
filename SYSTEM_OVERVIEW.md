@@ -7,6 +7,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 16 October 2026 — **CPC job-alert prototype is branch-only:** it can capture consent and preferences in Brevo, but it is not live and does not yet send alerts. It stays disabled until sending and unsubscribe handling are ready.
+
 - 16 October 2026 — **First AI Job Advert Watch report published:** the AI hub links to the approved October snapshot, with an index for dated reports, full breadcrumbs, fixed canonicals, Article metadata and sitemap discovery. No recurring analysis, job-pipeline or indexing-API schedule was added.
 
 - 16 October 2026 — **Daily overview city-count test repaired:** the pre-build check now reconciles exact city routes and their count against the active family-city and broad-city registers, instead of assuming 64 pages. Yesterday's ten launches had blocked both post-deployment and hourly report runs. Test changes also trigger the existing recovery workflow; production-SHA verification and report-only publication remain unchanged.
@@ -255,6 +257,8 @@ Compiler Modules 1/2/3 remain legitimate analysis tools.
 
 ## 3. Website / UX
 
+A CPC job-alert prompt is being prototyped on a feature branch. It appears only on verified JobG8 CPC Apply links, asks for one email, and offers the role, location and salary from that job for the user to edit. It is not active on the live site and does not send email yet.
+
 Homepage job counts now match each linked page's displayed vacancies, including jobs that qualify for multiple families. Duplicate adverts count once within each page, and city cards use that corrected count for the existing four-job visibility rule. The overall site total still counts unique jobs.
 
 On Service Admin mobile pages, the nearby-jobs panel follows the vacancy list and the role/location search remains at the top in a smaller button. Both search options remain available; desktop keeps its existing layout.
@@ -313,6 +317,8 @@ Ontap remains positioned around useful job discovery for ordinary workers in an 
 NHS/public-sector inventory is an advantage for switchers and existing sector workers, but it must remain subordinate to the overall Ontap proposition. Generic regional discovery should not be swamped by NHS: the hard 20% source ceiling and the 4+1 display rhythm both enforce that principle. The London sector-view trial surfaces explicit NHS/public/charity interest without changing the underlying generic-page source ceiling, canonical URL or server-rendered inventory.
 
 ## 5. Operations / infrastructure
+
+A CPC alert prototype is being built on a feature branch. Keep it disabled until the Brevo account is configured and the daily alert delivery plus unsubscribe flow are complete and tested.
 
 Core controls are:
 
