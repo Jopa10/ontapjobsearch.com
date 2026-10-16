@@ -33,7 +33,10 @@ function htmlResponse(message: string, status = 200) {
 export async function POST(request: NextRequest) {
   const secret = process.env.JOB_ALERTS_UNSUBSCRIBE_SECRET;
   const apiKey = process.env.BREVO_API_KEY;
-  if (!secret || !apiKey) return htmlResponse("Unsubscribe is temporarily unavailable. Please try again later.", 503);
+  const listId = Number(process.env.BREVO_JOB_ALERTS_LIST_ID);
+  if (!secret || !apiKey || !Number.isInteger(listId) || listId <= 0) {
+    return htmlResponse("Unsubscribe is temporarily unavailable. Please try again later.", 503);
+  }
 
   let token = "";
   try {
@@ -50,7 +53,7 @@ export async function POST(request: NextRequest) {
     const response = await fetch(`https://api.brevo.com/v3/contacts/${encodeURIComponent(email)}`, {
       method: "PUT",
       headers: { "api-key": apiKey, "content-type": "application/json", accept: "application/json" },
-      body: JSON.stringify({ emailBlacklisted: true }),
+      body: JSON.stringify({ unlinkListIds: [listId] }),
       signal: AbortSignal.timeout(8_000),
       cache: "no-store",
     });
