@@ -1,11 +1,13 @@
 # Ontap System Overview
 
-**Last updated:** 15 October 2026
+**Last updated:** 16 October 2026
 **Status:** Canonical production state, reconciled on 12 October against active workflow definitions, deployment runs and current report data.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 16 October 2026 — **AI at work hub added:** `/ai-at-work` groups the existing practical tips and first-hand course reviews, with AI Job Advert Watch explicitly marked as a planned series. Existing content URLs and listing-to-tips attribution remain unchanged. The hub is linked from the site footer, child-page breadcrumbs and sitemap; no report findings are published yet.
 
 - 15 October 2026 — **Homepage job-count correction:** Each family, region and family-city homepage count now reflects the jobs displayed on its linked page, counting cross-family vacancies correctly and removing within-page duplicates.
 
@@ -297,6 +299,8 @@ At the 18 September audit, `city-page-register.json` contains **54 active perman
 Existing established public routes remain stable unless there is a concrete business reason to change them.
 
 ## 4. Content / positioning
+
+The `/ai-at-work` hub groups `/ai-tips` and `/ai-course-reviews` under a crawlable editorial entrance. AI Job Advert Watch is planned only; no analysis or report exists on the hub yet. Existing tips source/return tracking stays intact.
 
 Ontap remains positioned around useful job discovery for ordinary workers in an AI workplace, with sector-switching as an additional route rather than the whole identity.
 
