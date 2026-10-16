@@ -50,7 +50,11 @@ jobs:
         run: npm ci
 
       - name: Generate published job indexes
-        run: npx tsx scripts/generate-search-index.ts
+        run: |
+          npx tsx scripts/generate-search-index.ts
+          # Indexing needs the two runtime inventories, not a search-index writeback.
+          # Keep tracked build output clean so state-only rebases remain safe.
+          git restore -- generated/published-jobs-search.json
 
       - name: Resolve run mode
         id: mode
