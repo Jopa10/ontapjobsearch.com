@@ -338,7 +338,7 @@ def main() -> int:
                 unsubscribe_secret=secret,
             ):
                 sent += 1
-                time.sleep(0.15)
+                time.sleep(0.5)
         except DeliveryError as error:
             errors += 1
             print(f"Alert send failed: {error}")
