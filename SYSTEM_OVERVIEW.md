@@ -7,7 +7,7 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
-- 16 October 2026 — **CPC job-alert prototype is branch-only:** it can capture consent and preferences in Brevo, but it is not live and does not yet send alerts. It stays disabled until sending and unsubscribe handling are ready.
+- 16 October 2026 — **CPC job-alert flow implemented on a feature branch:** it captures preferences in Brevo, matches new JobG8 CPC listings, sends a daily digest and supports unsubscribe. It is not live and remains disabled until account settings and end-to-end tests are completed.
 
 - 16 October 2026 — **First AI Job Advert Watch report published:** the AI hub links to the approved October snapshot, with an index for dated reports, full breadcrumbs, fixed canonicals, Article metadata and sitemap discovery. No recurring analysis, job-pipeline or indexing-API schedule was added.
 
@@ -257,7 +257,7 @@ Compiler Modules 1/2/3 remain legitimate analysis tools.
 
 ## 3. Website / UX
 
-A CPC job-alert prompt is being prototyped on a feature branch. It appears only on verified JobG8 CPC Apply links, asks for one email, and offers the role, location and salary from that job for the user to edit. It is not active on the live site and does not send email yet.
+A CPC job-alert flow is ready on a feature branch. It appears only on verified JobG8 CPC Apply links, asks for one email, and offers the role, location and salary from that job for the user to edit. Its daily sender matches first-seen CPC listings, includes an unsubscribe link, and remains disabled and off the live site until Brevo is configured and the full flow is tested.
 
 Homepage job counts now match each linked page's displayed vacancies, including jobs that qualify for multiple families. Duplicate adverts count once within each page, and city cards use that corrected count for the existing four-job visibility rule. The overall site total still counts unique jobs.
 
@@ -318,7 +318,7 @@ NHS/public-sector inventory is an advantage for switchers and existing sector wo
 
 ## 5. Operations / infrastructure
 
-A CPC alert prototype is being built on a feature branch. Keep it disabled until the Brevo account is configured and the daily alert delivery plus unsubscribe flow are complete and tested.
+The CPC alert workflow is branch-only and stays disabled until the Brevo API key, list, sender and contact fields are configured in Vercel/GitHub, and end-to-end signup, delivery and unsubscribe tests pass.
 
 Core controls are:
 
