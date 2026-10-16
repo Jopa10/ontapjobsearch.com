@@ -161,13 +161,20 @@ def _brevo_request(method: str, endpoint: str, api_key: str, payload: dict[str, 
         method=method,
         headers={"api-key": api_key, "accept": "application/json", "content-type": "application/json"},
     )
-    try:
-        with urllib.request.urlopen(request, timeout=20) as response:
-            raw = response.read()
-    except urllib.error.HTTPError as error:
-        raise DeliveryError(f"Brevo returned HTTP {error.code} for {method} {endpoint.split('?')[0]}") from error
-    except (urllib.error.URLError, TimeoutError) as error:
-        raise DeliveryError(f"Brevo request failed for {method} {endpoint.split('?')[0]}") from error
+    for attempt in range(4):
+        try:
+            with urllib.request.urlopen(request, timeout=20) as response:
+                raw = response.read()
+            break
+        except urllib.error.HTTPError as error:
+            retryable = error.code == 429 or (method != "POST" and error.code in {500, 502, 503, 504})
+            if not retryable or attempt == 3:
+                raise DeliveryError(f"Brevo returned HTTP {error.code} for {method} {endpoint.split('?')[0]}") from error
+            retry_after = error.headers.get("Retry-After", "")
+            delay = int(retry_after) if retry_after.isdigit() else 2 ** attempt
+            time.sleep(min(delay, 30))
+        except (urllib.error.URLError, TimeoutError) as error:
+            raise DeliveryError(f"Brevo request failed for {method} {endpoint.split('?')[0]}") from error
     if not raw:
         return {}
     try:
@@ -191,7 +198,10 @@ def _contacts(api_key: str, list_id: int) -> list[dict[str, Any]]:
             raise DeliveryError("Brevo returned an invalid contact page")
         contacts.extend(contact for contact in page if isinstance(contact, dict))
         if len(page) < PAGE_SIZE:
-            return contacts
+            return [
+                contact for contact in contacts
+                if list_id not in (contact.get("listUnsubscribed") or [])
+            ]
         offset += len(page)
 
 
@@ -211,7 +221,14 @@ def _email_html(jobs: list[dict[str, Any]], unsubscribe_url: str) -> tuple[str, 
         title = html.escape(str(job.get("title") or "CPC job"))
         location = html.escape(str(job.get("location") or job.get("region") or "Location not listed"))
         employer = html.escape(str(job.get("company") or job.get("advertiser_name") or ""))
-        salary = html.escape(str(job.get("salary_text") or ""))
+        salary_value = str(job.get("salary_text") or "").strip()
+        if not salary_value:
+            low, high = str(job.get("salary_min") or "").strip(), str(job.get("salary_max") or "").strip()
+            period = str(job.get("salary_period") or "").strip()
+            if low or high:
+                salary_value = " - ".join(value for value in (low, high) if value)
+                salary_value = " ".join(value for value in (salary_value, period) if value)
+        salary = html.escape(salary_value)
         url = html.escape(str(job.get("ontap_url") or ""), quote=True)
         detail = " · ".join(item for item in (employer, location, salary) if item)
         rows_html.append(
