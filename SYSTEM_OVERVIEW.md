@@ -7,6 +7,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 16 October 2026 — **First AI Job Advert Watch report published:** the AI hub links to the approved October snapshot, with an index for dated reports, full breadcrumbs, fixed canonicals, Article metadata and sitemap discovery. No recurring analysis, job-pipeline or indexing-API schedule was added.
+
 - 16 October 2026 — **Daily overview city-count test repaired:** the pre-build check now reconciles exact city routes and their count against the active family-city and broad-city registers, instead of assuming 64 pages. Yesterday's ten launches had blocked both post-deployment and hourly report runs. Test changes also trigger the existing recovery workflow; production-SHA verification and report-only publication remain unchanged.
 
 - 16 October 2026 — **Google indexing preparation repaired:** every run now generates its published-job indexes before submission. Manual smoke tests can send at most five eligible job URL updates using the same persisted daily quota ledger; normal automatic runs retain the 200-notification Pacific-day limit and existing schedule.
@@ -304,7 +306,7 @@ Existing established public routes remain stable unless there is a concrete busi
 
 ## 4. Content / positioning
 
-The `/ai-at-work` hub groups `/ai-tips` and `/ai-course-reviews` under a crawlable editorial entrance. AI Job Advert Watch is planned only; no analysis or report exists on the hub yet. Existing tips source/return tracking stays intact.
+The `/ai-at-work` hub groups `/ai-tips` and `/ai-course-reviews` under a crawlable editorial entrance. AI Job Advert Watch has an index at `/ai-at-work/ai-job-advert-watch` and its first fixed snapshot at `/ai-at-work/ai-job-advert-watch/october-2026`. The October report uses the owner-approved text, whole percentages and italic qualifications; it records the 16 October sample rather than reading changing live job data. Existing tips source/return tracking stays intact.
 
 Ontap remains positioned around useful job discovery for ordinary workers in an AI workplace, with sector-switching as an additional route rather than the whole identity.
 
