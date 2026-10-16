@@ -2,15 +2,27 @@
 
 review_date: 2026-10-16
 
-- Open Administrative & Clerical rows reviewed: 2286
+- Open Administrative & Clerical rows reviewed: 2287
 - Auto/remembered selected: 402
 - Selected HC Tier A: 212
 - Selected HC Tier B: 190
-- POSS awaiting decision: 1784
+- POSS awaiting decision: 1785
 - Excluded: 0
 - HARD_PASS: 100
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | — | Runwell, SS11 7XX | £57528.00 to £64750.00 | Senior Response Lead - Lampard Inquiry
+source_job_id: 5668178
+title: Senior Response Lead - Lampard Inquiry
+employer: Essex Partnership University NHS Foundation Trust
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-1001
+factual_fingerprint: aab6470e066082130428df52a7999c600625a8bc63cdc11a9734997ccef4cf37
+---
 
 ---
 action:
