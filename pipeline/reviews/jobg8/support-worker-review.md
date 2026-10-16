@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-10-15
+feed_date: 2026-10-16
 
 Edit only the `action:` line in each block:
 
@@ -91,26 +91,8 @@ job_id: 23643_225693409
 
 ---
 action:
-SELECTED | Sussex | Sussex | £14.79 per hour | Part Time Care Assistant
-job_id: 23643_225710203
----
-
----
-action:
-SELECTED | Sussex | Uckfield | £13.82 - £17.29 per hour | Residential Support Worker - Children's Home
-job_id: 23643_225712965
----
-
----
-action:
 SELECTED | Sussex | Brighton | £15 - £17 per hour | Personal Assistant - Immediate Start
 job_id: 23643_225715425
----
-
----
-action:
-SELECTED | Sussex | Sussex | £14.5 per hour | Night Care Assistant
-job_id: 23643_225440444
 ---
 
 ---
@@ -131,6 +113,12 @@ SELECTED | Sussex | East Grinstead | £93 - £105 per daily (Depending on experi
 job_id: 23643_225725915
 ---
 
+---
+action:
+SELECTED | Sussex | Sussex | £17.15 per hour | Care Assistant - Bank - Care Home
+job_id: 23643_225718800
+---
+
 ## SUSSEX — POSSIBLES
 
 ---
@@ -143,12 +131,6 @@ job_id: 23643_225665294
 action:
 POSS - SUSSEX | Sussex | Sussex | £12.85 - £18.4 per hour | Children's Support Worker
 job_id: 23643_225655669
----
-
----
-action:
-POSS - SUSSEX | Sussex | Sussex | £12.85 - £18.4 per hour | Healthcare Assistant
-job_id: 23643_225678003
 ---
 
 ---
@@ -175,6 +157,12 @@ job_id: 23643_225639600
 action:
 SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
 job_id: 108071061
+---
+
+---
+action:
+SELECTED | Cumbria - South | Ulverston | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
+job_id: 108149702
 ---
 
 ## CUMBRIA SOUTH — POSSIBLES
@@ -253,12 +241,6 @@ job_id: 23643_225505280
 action:
 SELECTED | Hampshire | Fordingbridge | £17 per hour | Mental Healthcare Assistant
 job_id: 108072729
----
-
----
-action:
-SELECTED | Hampshire | Ventnor | £11190 per year | Care Worker
-job_id: 108160212
 ---
 
 ## HAMPSHIRE — POSSIBLES
@@ -409,6 +391,12 @@ SELECTED | London | City | £13.45 per hour | Support Worker
 job_id: 23643_225725141
 ---
 
+---
+action:
+SELECTED | London | London | £100 - £120 per daily | Calling all Youth Workers, Sports Coaches, Support Workers
+job_id: 23643_225728170
+---
+
 ## LONDON — POSSIBLES
 
 ---
@@ -439,6 +427,12 @@ job_id: 23643_221016439
 action:
 POSS - LONDON | London | City | £14 - £18 per hour | Complex Care Support Worker - Child
 job_id: 23643_225686112
+---
+
+---
+action:
+POSS - LONDON | London | Woodford Green | £60000 per year | Private Personal Assistant
+job_id: 107953010
 ---
 
 ---
@@ -533,13 +527,15 @@ SELECTED | Surrey | Guildford | £17 per hour | Support Worker Healthcare
 job_id: 108122188
 ---
 
-## SURREY — POSSIBLES
-
 ---
 action:
-POSS - SURREY | Surrey | Reigate | £29999 per year | Housing and Support Officer
-job_id: 108112096
+SELECTED | Surrey | Surrey | £14.5 per hour | Night Care Assistant
+job_id: 23643_225440444
 ---
+
+## SURREY — POSSIBLES
+
+_No jobs in this group._
 
 ## WILTSHIRE — SELECTED
 
@@ -585,6 +581,12 @@ job_id: 23643_225710192
 action:
 POSS - WILTSHIRE | Wiltshire | Wiltshire | £16.03 per hour | Care Assistant - Bank - Care Home
 job_id: 23643_225713768
+---
+
+---
+action:
+POSS - WILTSHIRE | Wiltshire | Wiltshire | £14.25 - £15.5 per hour | Learning Support Assistant
+job_id: 23643_225660582
 ---
 
 <!-- ONTAP_PERSISTENT_DECISIONS_V1
