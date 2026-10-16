@@ -6,6 +6,7 @@ export const runtime = "nodejs";
 
 const BREVO_CONTACTS_URL = "https://api.brevo.com/v3/contacts";
 const CONSENT_VERSION = "cpc-job-alert-v1";
+const MAX_BODY_BYTES = 8_000;
 
 function isRecord(value: unknown): value is Record<string, unknown> {
   return Boolean(value && typeof value === "object" && !Array.isArray(value));
@@ -22,6 +23,9 @@ export async function POST(request: NextRequest) {
   const origin = request.headers.get("origin");
   if (!origin || origin !== new URL(request.url).origin) {
     return NextResponse.json({ error: "Request could not be verified." }, { status: 403 });
+  }
+  if (Number(request.headers.get("content-length") || 0) > MAX_BODY_BYTES) {
+    return NextResponse.json({ error: "Request is too large." }, { status: 413 });
   }
 
   let body: unknown;
