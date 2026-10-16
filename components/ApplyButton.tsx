@@ -4,7 +4,6 @@ import { useEffect, useRef, useState, type FormEvent, type MouseEvent } from "re
 import { sessionReferralForApplyClick } from "@/lib/session-referral";
 import { buildApplyClickParameters, type ApplyClickDetails } from "@/lib/apply-click-tracking";
 import { isCpcJobAlertEligible } from "@/lib/cpc-job-alerts";
-import styles from "./ApplyButton.module.css";
 
 type AlertState = "editing" | "saving" | "saved" | "failed";
 
@@ -108,8 +107,8 @@ export default function ApplyButton({
         Apply Now
       </a>
       {open ? (
-        <div className={styles.backdrop} onMouseDown={event => { if (event.target === event.currentTarget) closeDialog(); }}>
-          <section className={styles.dialog} role="dialog" aria-modal="true"
+        <div className="cpc-job-alert-backdrop" onMouseDown={event => { if (event.target === event.currentTarget) closeDialog(); }}>
+          <section className="cpc-job-alert-dialog" role="dialog" aria-modal="true"
             aria-labelledby={state === "editing" || state === "saving" ? "job-alert-title" : "job-alert-result"}>
             <button type="button" aria-label="Close alert signup" onClick={closeDialog}
               style={{ position: "absolute", right: 17, top: 13, width: 36, height: 36, border: 0, borderRadius: "50%", background: "#f1f5f9", color: "#475569", fontSize: 23, cursor: "pointer" }}>×</button>
@@ -135,7 +134,7 @@ export default function ApplyButton({
                 <div style={{ margin: "16px 0", padding: "14px 16px", background: "#f8fafc", border: "1px solid #dbe3ee", borderRadius: 8 }}>
                   <div style={{ marginBottom: 6, fontSize: 14, fontWeight: 600 }}>We’ll save these preferences for your alerts</div>
                   <p style={{ margin: "0 0 9px", color: "#64748b", fontSize: 13 }}>Taken from this job. Change anything you don’t want included.</p>
-                  <div className={styles.preferences}>
+                  <div className="cpc-job-alert-preferences">
                     {([["Role", role, setRole], ["Location", alertLocation, setAlertLocation], ["Salary", salary, setSalary]] as const).map(([label, value, setValue]) => (
                       <label key={label} style={{ display: "block", margin: "4px 0", color: "#475569", fontSize: 14 }}>
                         {label}
