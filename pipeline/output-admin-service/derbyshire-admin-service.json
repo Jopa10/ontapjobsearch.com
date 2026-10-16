@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-administration-assistant-full-and-part-time-post-available",
-    "title": "Administration Assistant (Full and Part time post available)",
-    "company": "The Pingle Academy",
-    "location": "Swadlincote",
-    "region": "Derbyshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£26,427.00 - £27,274.00 Annually (FTE) Actual Salary: £22,832 - £23,563",
-    "work_pattern": "",
-    "posted_date": "2026-10-02",
-    "closing_date": "2026-10-16",
-    "closing_datetime": "2026-10-16T09:00:00+01:00",
-    "summary": "Administration Assistant (Full and Part time post available) with The Pingle Academy in Swadlincote. ['full time']; £26,427.00 - £27,274.00 Annually (FTE) Actual Salary: £22,832 - £23,563.",
-    "description": "The Pingle Academy is recruiting for this vacancy in Swadlincote.\n\nThe advertised position is Administration Assistant (Full and Part time post available).\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £26,427.00 - £27,274.00 Annually (FTE) Actual Salary: £22,832 - £23,563.\n\nThe stated application deadline is 2026-10-16T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-full-and-part-time-post-available?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "The Pingle Academy",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "2055347",
     "title": "Assistant Accountant",
     "company": "Eaton Syalon - Agency - Permanent",
@@ -653,31 +625,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225621956",
-    "title": "Administrator",
-    "company": "SF Partners - Agency - Permanent",
-    "location": "Derbyshire",
-    "region": "Derbyshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "26000",
-    "salary_max": "28000",
-    "salary_text": "£26000 - £28000 per year",
-    "posted_date": "",
-    "description": "Safety Administrator\nSalary: Up to £28,000\nFull-time Permanent Office Based\n\nSF Recruitment are working with a well-established business to recruit a Safety Administrator to join their Safety team.\n\nThe business has a strong focus on safety across the organisation, with a number of projects and initiatives underway and significant support from the senior leadership team. With much of the practical activity already taking place, they are now looking for a strong Administrator who can bring structure to the team and ensure actions, information and documentation are properly followed through.\n\nThis role doesn't require previous Health & Safety experience. We're looking for someone who is organised, proactive and confident chasing actions and working with different people across a business.\n\nThe role\n\nProviding day-to-day administrative support to the Safety team\nKeeping track of actions and following up with relevant teams to ensure these are completed\nUpdating reports, spreadsheets and internal documentation\nInputting and maintaining accurate safety-related data\nAttending Safety meetings and taking notes/actions\nFollowing up on outstanding actions after meetings\nSupporting the preparation of reports and management information\nMaintaining accurate records and ensuring documentation is kept up to date\nWorking closely with the Project Manager and wider Safety team\nCoordinating information from different departments across the business\nProviding general administration and project support as required\n\nAbout you\n\nStrong administration experience\nHighly organised with excellent attention to detail\nConfident following up and chasing outstanding actions\nComfortable working with data, reports and spreadsheets\nGood working knowledge of Microsoft Office, particularly Excel\nConfident communicating with people at different levels of a business\nAble to manage multiple tasks and priorities\nProactive and happy to take ownership of your workload\nPrevious Health & Safety experience would be beneficial but is not essential\n\nThis could be a great opportunity for an experienced Administrator, Project Administrator, Compliance Administrator or Coordinator who enjoys keeping things organised and wants the opportunity to develop their experience within a Safety-focused environment.\n\nIf this role is of interest, get in touch today.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?UzhMt9n%2bTsTYhqMrs7xFwWzV3SZYwwH5m",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "SF Partners",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225689275",
     "title": "Sales Support Admin",
     "company": "SF Partners - Agency - Temporary",
@@ -793,6 +740,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9166-26-0377",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9166-26-0377",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
