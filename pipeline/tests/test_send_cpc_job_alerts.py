@@ -1,9 +1,14 @@
+import base64
 import csv
+import hashlib
+import hmac
+import json
 import tempfile
 import unittest
 from pathlib import Path
 
 from scripts.send_cpc_job_alerts import (
+    _unsubscribe_token,
     is_cpc_job,
     matches_alert,
     new_cpc_jobs,
@@ -62,6 +67,15 @@ class CpcJobAlertMatchingTests(unittest.TestCase):
             "ALERT_LOCATION": "Bristol",
             "ALERT_SALARY": "£14 - £16 per hour",
         }, job))
+
+    def test_unsubscribe_token_is_signed_and_contains_only_email_identity(self):
+        token = _unsubscribe_token("Person@example.com", "test-secret")
+        payload, signature = token.split(".")
+        expected = hmac.new(b"test-secret", payload.encode("ascii"), hashlib.sha256).digest()
+        actual = base64.urlsafe_b64decode(signature + "=" * (-len(signature) % 4))
+        self.assertTrue(hmac.compare_digest(expected, actual))
+        decoded = base64.urlsafe_b64decode(payload + "=" * (-len(payload) % 4))
+        self.assertEqual(json.loads(decoded), {"email": "person@example.com", "version": 1})
 
     def test_daily_report_and_published_data_gate_the_candidates(self):
         with tempfile.TemporaryDirectory() as tmp:
