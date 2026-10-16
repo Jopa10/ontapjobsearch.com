@@ -1,8 +1,8 @@
 # Ontap daily regional overview
 
-Production source commit: `aaeb2f840dd50b6fe0d3185e6e6cc4f402ce66d3`
+Production source commit: `ecc716b2483c81b9134254dc3398ec056064e9a9`
 
-Generated: 2026-10-16T09:07:28+01:00
+Generated: 2026-10-16T12:20:03+01:00
 
 [Download this overview as Excel](./daily-region-overview.xlsx)
 
@@ -101,19 +101,21 @@ Each dated column shows Ontap jobs classified/published in that JobG8 classifica
 
 ## PAGES
 
-**Published/indexable URLs: 3,945** — 3,669 individual job pages, 194 regional/category pages, 74 city pages and 8 core pages.
+**Published/indexable URLs: 3,947** — 3,669 individual job pages, 196 regional/category pages, 74 city pages and 8 core pages.
 
 | Level | Page type | Area | Family | URL | Page count | Live jobs | In sitemap |
 |---|---|---|---|---|---:|---:|---|
-| Summary | All published/indexable URLs | Sitewide |  |  | 3,945 |  | Yes |
+| Summary | All published/indexable URLs | Sitewide |  |  | 3,947 |  | Yes |
 | Summary | Individual job | Sitewide |  | /jobs/[id] | 3,669 | 3,669 | Yes |
-| Summary | Regional/category | Sitewide |  | Multiple | 194 |  | Yes |
+| Summary | Regional/category | Sitewide |  | Multiple | 196 |  | Yes |
 | Summary | City | Sitewide |  | Multiple | 74 |  | Yes |
 | Summary | Core | Sitewide |  | Multiple | 8 |  | Yes |
 | Detail | Core | Sitewide |  | / | 1 |  | Yes |
 | Detail | Core | Sitewide |  | /browse-jobs | 1 |  | Yes |
 | Detail | Core | Sitewide |  | /about | 1 |  | Yes |
 | Detail | Regional/category | Ai At Work | Ai At Work | /ai-at-work | 1 |  | Yes |
+| Detail | Regional/category | Ai At Work | Ai Job Advert Watch | /ai-at-work/ai-job-advert-watch | 1 |  | Yes |
+| Detail | Regional/category | Ai At Work | October 2026 | /ai-at-work/ai-job-advert-watch/october-2026 | 1 |  | Yes |
 | Detail | Core | Sitewide |  | /ai-tips | 1 |  | Yes |
 | Detail | Regional/category | Ai Course Reviews | Ai Course Reviews | /ai-course-reviews | 1 |  | Yes |
 | Detail | Core | Sitewide |  | /contact | 1 |  | Yes |
