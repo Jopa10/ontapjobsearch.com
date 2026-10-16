@@ -4,6 +4,7 @@ import { useEffect, useRef, useState, type FormEvent, type MouseEvent } from "re
 import { sessionReferralForApplyClick } from "@/lib/session-referral";
 import { buildApplyClickParameters, type ApplyClickDetails } from "@/lib/apply-click-tracking";
 import { isCpcJobAlertEligible } from "@/lib/cpc-job-alerts";
+import styles from "./ApplyButton.module.css";
 
 type AlertState = "editing" | "saving" | "saved" | "failed";
 
@@ -17,6 +18,7 @@ export default function ApplyButton({
   const [alertLocation, setAlertLocation] = useState(location);
   const [salary, setSalary] = useState(salary_text);
   const [errorMessage, setErrorMessage] = useState("");
+  const [website, setWebsite] = useState("");
   const emailRef = useRef<HTMLInputElement>(null);
   const applyWindow = useRef<Window | null>(null);
   const eligible = isCpcJobAlertEligible(source, apply_url);
@@ -74,7 +76,7 @@ export default function ApplyButton({
       const response = await fetch("/api/job-alerts", {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({ email, jobId: job_id, role, location: alertLocation, salary, website: "" }),
+        body: JSON.stringify({ email, jobId: job_id, role, location: alertLocation, salary, website }),
       });
       if (!response.ok) {
         const result = (await response.json().catch(() => null)) as { error?: string } | null;
@@ -94,11 +96,9 @@ export default function ApplyButton({
         Apply Now
       </a>
       {open ? (
-        <div onMouseDown={event => { if (event.target === event.currentTarget) closeDialog(); }}
-          style={{ position: "fixed", inset: 0, zIndex: 1000, display: "flex", alignItems: "center", justifyContent: "center", padding: 20, background: "rgba(15,23,42,.5)" }}>
-          <section role="dialog" aria-modal="true"
-            aria-labelledby={state === "editing" || state === "saving" ? "job-alert-title" : "job-alert-result"}
-            style={{ position: "relative", width: "min(60vw, 760px)", height: "min(64vh, 590px)", minHeight: 480, overflowY: "auto", border: "1px solid #dbe3ee", borderRadius: 12, background: "#fff", padding: "32px 38px", boxShadow: "0 22px 70px rgba(0,0,0,.32)", color: "#171717" }}>
+        <div className={styles.backdrop} onMouseDown={event => { if (event.target === event.currentTarget) closeDialog(); }}>
+          <section className={styles.dialog} role="dialog" aria-modal="true"
+            aria-labelledby={state === "editing" || state === "saving" ? "job-alert-title" : "job-alert-result"}>
             <button type="button" aria-label="Close alert signup" onClick={closeDialog}
               style={{ position: "absolute", right: 17, top: 13, width: 36, height: 36, border: 0, borderRadius: "50%", background: "#f1f5f9", color: "#475569", fontSize: 23, cursor: "pointer" }}>×</button>
             {state === "saved" || state === "failed" ? (
@@ -123,11 +123,11 @@ export default function ApplyButton({
                 <div style={{ margin: "16px 0", padding: "14px 16px", background: "#f8fafc", border: "1px solid #dbe3ee", borderRadius: 8 }}>
                   <div style={{ marginBottom: 6, fontSize: 14, fontWeight: 600 }}>We’ll save these preferences for your alerts</div>
                   <p style={{ margin: "0 0 9px", color: "#64748b", fontSize: 13 }}>Taken from this job. Change anything you don’t want included.</p>
-                  <div className="job-alert-preferences" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "6px 18px" }}>
+                  <div className={styles.preferences}>
                     {([["Role", role, setRole], ["Location", alertLocation, setAlertLocation], ["Salary", salary, setSalary]] as const).map(([label, value, setValue]) => (
                       <label key={label} style={{ display: "block", margin: "4px 0", color: "#475569", fontSize: 14 }}>
                         {label}
-                        <input type="text" maxLength={120} value={value} onChange={event => setValue(event.target.value)}
+                        <input type="text" required={label === "Role" || label === "Location"} maxLength={120} value={value} onChange={event => setValue(event.target.value)}
                           style={{ display: "block", width: "100%", height: 38, marginTop: 3, padding: "8px 10px", border: "1px solid #cbd5e1", borderRadius: 6, background: "#fff", color: "#171717", font: "inherit" }} />
                       </label>
                     ))}
@@ -138,7 +138,7 @@ export default function ApplyButton({
                 </button>
                 <button type="button" onClick={continueToEmployer} style={{ display: "block", marginTop: 9, padding: "3px 0", border: 0, background: "transparent", color: "#1d4ed8", font: "inherit", textDecoration: "underline", cursor: "pointer" }}>No thanks — continue to apply without alerts</button>
                 <p style={{ margin: "10px 0 0", color: "#64748b", fontSize: 12, lineHeight: 1.4 }}>Choosing Yes signs you up for job alert emails matching these preferences. Unsubscribe at any time.</p>
-                <label aria-hidden="true" style={{ position: "absolute", left: -10000, width: 1, height: 1, overflow: "hidden" }}>Leave this field empty<input tabIndex={-1} autoComplete="off" name="website" /></label>
+                <label aria-hidden="true" style={{ position: "absolute", left: -10000, width: 1, height: 1, overflow: "hidden" }}>Leave this field empty<input tabIndex={-1} autoComplete="off" name="website" value={website} onChange={event => setWebsite(event.target.value)} /></label>
               </form>
             )}
           </section>
