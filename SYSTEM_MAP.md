@@ -1,6 +1,6 @@
 # Ontap System Map
 
-**Last updated:** 15 October 2026
+**Last updated:** 16 October 2026
 **Status:** Canonical production architecture, reconciled on 12 October against active workflows, deployment runs, report history, slice register and current diagnostic contract.
 
 - 21 September 2026 — **Nearby-location analytics now explains incomplete location attempts and reliably measures restored preferences:** client events that occur before GA4 initialises wait for the shared analytics-ready signal instead of being dropped. Unsuccessful geolocation attempts now distinguish unsupported browsers, permission denial, unavailable positions, timeouts and nearby-API failures; manual-town attempts and saved-location refresh failures are measured separately. Existing `saved_location_return` and `saved_location_results_loaded` events remain the proof of remembered-location reuse.
@@ -8,6 +8,8 @@
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
+
+- 16 October 2026 — **AI at work hub added:** `/ai-at-work` groups the existing practical tips and first-hand course reviews, with AI Job Advert Watch explicitly marked as a planned series. Existing content URLs and listing-to-tips attribution remain unchanged. The hub is linked from the site footer, child-page breadcrumbs and sitemap; no report findings are published yet.
 
 - 15 October 2026 — **Homepage job-count correction:** Family/region and family-city counts now share page-level JSON membership and canonical-ID deduplication with `JobSlicePage` instead of using primary `slice_path` assignments or raw city row counts.
 
@@ -319,6 +321,8 @@ Performance is part of the governed search behaviour: expensive inventory loadin
 Public URLs remain stable unless a concrete business benefit or defect justifies change. Existing indexing/SEO behaviour should be preserved unless the change is intentionally improving it.
 
 ## 4. Content / positioning
+
+The `/ai-at-work` hub groups `/ai-tips` and `/ai-course-reviews` under a crawlable editorial entrance. AI Job Advert Watch is planned only; no analysis or report exists on the hub yet. Existing tips source/return tracking stays intact.
 
 Persistent product content belongs here when it changes product behaviour. Ontap's broad direction remains a job site for ordinary workers in an AI workplace, with sector-switching as an additional route rather than the entire identity.
 
