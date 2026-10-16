@@ -1,4 +1,5 @@
 ﻿feed_date,decision,region,title,town,salary_text,manual_override,manual_select,job_id
+2026-10-16,SELECTED,Yorkshire - West,Children's Residential Support Worker,Castleford,"£3,840 per year",,,25362_JR105248-1
 2026-10-16,SELECTED,Yorkshire - South,Waking Night Support Worker,Doncaster,£14.08 per hour,,,107919199
 2026-10-16,SELECTED,Yorkshire - South,Childrens Residential Support Worker,Doncaster,£15 per hour,,,107919212
 2026-10-16,SELECTED,"North East - Tyneside, Wearside & Northumberland",Healthcare Assistant,Corbridge,£14.27 per hour,,,23643_225715797
@@ -12,14 +13,17 @@
 2026-10-16,SELECTED,Sussex,Support Worker,Sussex,£12.21 - £13.5 per hour,,,23643_225725381
 2026-10-16,SELECTED,Sussex,Behaviour Support Assistant,Crawley,£93 - £105 per daily (Depending on experience),,,23643_225725872
 2026-10-16,SELECTED,Sussex,Behaviour Support Assistant,East Grinstead,£93 - £105 per daily (Depending on experience),,,23643_225725915
-2026-10-16,SELECTED,Sussex,Care Assistant - Bank - Care Home,Sussex,£17.15 per hour,,,23643_225718800
+2026-10-16,SELECTED,Sussex,Night Care Assistant - Bank,Horsham,£14.8 per hour,,,23643_225619999
 2026-10-16,POSS - SUSSEX,Sussex,6 Month FTC Personal Assistant,Brighton,£30000 - £40000 per year,,,23643_225665294
 2026-10-16,POSS - SUSSEX,Sussex,Children's Support Worker,Sussex,£12.85 - £18.4 per hour,,,23643_225655669
+2026-10-16,POSS - SUSSEX,Sussex,Healthcare Assistant,Sussex,£12.85 - £18.4 per hour,,,23643_225678003
 2026-10-16,POSS - SUSSEX,Sussex,Homecare Support Worker (Domiciliary Care),Hastings,£14 - £18 per hour,,,23643_225046457
 2026-10-16,POSS - SUSSEX,Sussex,Support Worker,Eastbourne,£12.85 - £18.4 per hour,,,23643_225724515
 2026-10-16,POSS - SUSSEX,Sussex,Recovery Worker,Worthing,£22 - £23 per hour,,,23643_225639600
 2026-10-16,SELECTED,Cumbria - South,Relief Support Worker,Barrow-in-furness,£12.85 per hour (plus rolled up holiday pay),,,108071061
 2026-10-16,SELECTED,Cumbria - South,Relief Support Worker,Ulverston,£12.85 per hour (plus rolled up holiday pay),,,108149702
+2026-10-16,SELECTED,Cumbria - South,Children's Residential Support Worker,Kendal,"£3,840 per year",,,25362_JR105208
+2026-10-16,SELECTED,Cumbria - South,Children's Residential Support Worker,Grange-over-sands,"£3,840 per year",,,25362_JR105293
 2026-10-16,SELECTED,Hampshire,Therapeutic Children's Support Worker,Colden Common,£27500 per year,,,23643_225653471
 2026-10-16,SELECTED,Hampshire,Care Assistant,Winchester,£26018 - £27111 per year,,,1401785443
 2026-10-16,SELECTED,Hampshire,Secure Children's Home Support Worker,Eastleigh,"£32780 - £35564 per year (Market Supplement, plus Enhancements)",,,1401785578
@@ -38,7 +42,6 @@
 2026-10-16,SELECTED,Kent,Residential Support Worker,Maidstone,£12.75 - £13 per hour,,,23643_225505330
 2026-10-16,SELECTED,Kent,Residential Support Worker,New Romney,£12.75 - £13 per hour,,,23643_225505291
 2026-10-16,SELECTED,Kent,Residential Support Worker,Canterbury,£12.75 - £13 per hour,,,23643_225505282
-2026-10-16,SELECTED,Kent,Qualified Hearing Care Assistant,Tunbridge Wells,competitive + benefits,,,1402266727
 2026-10-16,SELECTED,London,Family Support Worker,Newham,£23200 per year,,,23643_225636263
 2026-10-16,SELECTED,London,Family & Community Support Worker,City,£14.1 - £14.2 per hour,,,23643_225650968
 2026-10-16,SELECTED,London,Floating Support Worker,Hillingdon,£28531 per year,,,23643_222879156
@@ -69,6 +72,7 @@
 2026-10-16,POSS - LONDON,London,Learning Support Assistant,London,£15.5 - £17.25 per hour,,,23643_225715163
 2026-10-16,SELECTED,Oxfordshire,Home Carer,Witney,£14.4 per hour,,,107626591
 2026-10-16,SELECTED,Oxfordshire,Female Support Worker,Abingdon,£27417 per year,,,108090914
+2026-10-16,SELECTED,Oxfordshire,Children's Residential Support Worker,Burford,"£3,840 per year",,,25362_JR105340
 2026-10-16,SELECTED,Surrey,Legal Personal Assistant,Leatherhead,£30000 - £32000 per year,,,2064951
 2026-10-16,SELECTED,Surrey,Family Support Worker EDT,Fetcham,"£17330 - £18471 per year (pro rata to £34,660 FTE)",,,23643_225708916
 2026-10-16,SELECTED,Surrey,Care Assistant - Care Home,Surrey,£15.17 per hour,,,23643_225713776
@@ -80,6 +84,7 @@
 2026-10-16,SELECTED,Wiltshire,Care Assistant - Care Home,Trowbridge,£14.46 per hour,,,23643_225710191
 2026-10-16,SELECTED,Wiltshire,Care Assistant - Care Home,Wiltshire,£14.31 per hour,,,23643_225713769
 2026-10-16,SELECTED,Wiltshire,Support Worker - Clouds House,Salisbury,£28479 per year,,,23643_225712887
+2026-10-16,SELECTED,Wiltshire,Children's Residential Support Worker,Westbury,"£3,840 per year",,,25362_JR105322
 2026-10-16,POSS - WILTSHIRE,Wiltshire,Care Assistant,Trowbridge,£14.25 - £16.35 per hour,,,23643_225550225
 2026-10-16,POSS - WILTSHIRE,Wiltshire,Support Worker,Trowbridge,£14.25 - £16.35 per hour,,,23643_225550189
 2026-10-16,POSS - WILTSHIRE,Wiltshire,Care Assistant - Bank - Care Home,Trowbridge,£16.2 per hour,,,23643_225710192

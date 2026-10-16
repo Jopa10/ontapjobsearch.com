@@ -11,7 +11,11 @@ Edit only the `action:` line in each block:
 
 ## WEST YORKSHIRE — SELECTED
 
-_No jobs in this group._
+---
+action:
+SELECTED | Yorkshire - West | Castleford | £3,840 per year | Children's Residential Support Worker
+job_id: 25362_JR105248-1
+---
 
 ## WEST YORKSHIRE — POSSIBLES
 
@@ -115,8 +119,8 @@ job_id: 23643_225725915
 
 ---
 action:
-SELECTED | Sussex | Sussex | £17.15 per hour | Care Assistant - Bank - Care Home
-job_id: 23643_225718800
+SELECTED | Sussex | Horsham | £14.8 per hour | Night Care Assistant - Bank
+job_id: 23643_225619999
 ---
 
 ## SUSSEX — POSSIBLES
@@ -131,6 +135,12 @@ job_id: 23643_225665294
 action:
 POSS - SUSSEX | Sussex | Sussex | £12.85 - £18.4 per hour | Children's Support Worker
 job_id: 23643_225655669
+---
+
+---
+action:
+POSS - SUSSEX | Sussex | Sussex | £12.85 - £18.4 per hour | Healthcare Assistant
+job_id: 23643_225678003
 ---
 
 ---
@@ -163,6 +173,18 @@ job_id: 108071061
 action:
 SELECTED | Cumbria - South | Ulverston | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
 job_id: 108149702
+---
+
+---
+action:
+SELECTED | Cumbria - South | Kendal | £3,840 per year | Children's Residential Support Worker
+job_id: 25362_JR105208
+---
+
+---
+action:
+SELECTED | Cumbria - South | Grange-over-sands | £3,840 per year | Children's Residential Support Worker
+job_id: 25362_JR105293
 ---
 
 ## CUMBRIA SOUTH — POSSIBLES
@@ -281,12 +303,6 @@ job_id: 23643_225505291
 action:
 SELECTED | Kent | Canterbury | £12.75 - £13 per hour | Residential Support Worker
 job_id: 23643_225505282
----
-
----
-action:
-SELECTED | Kent | Tunbridge Wells | competitive + benefits | Qualified Hearing Care Assistant
-job_id: 1402266727
 ---
 
 ## KENT — POSSIBLES
@@ -479,6 +495,12 @@ SELECTED | Oxfordshire | Abingdon | £27417 per year | Female Support Worker
 job_id: 108090914
 ---
 
+---
+action:
+SELECTED | Oxfordshire | Burford | £3,840 per year | Children's Residential Support Worker
+job_id: 25362_JR105340
+---
+
 ## OXFORDSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -555,6 +577,12 @@ job_id: 23643_225713769
 action:
 SELECTED | Wiltshire | Salisbury | £28479 per year | Support Worker - Clouds House
 job_id: 23643_225712887
+---
+
+---
+action:
+SELECTED | Wiltshire | Westbury | £3,840 per year | Children's Residential Support Worker
+job_id: 25362_JR105322
 ---
 
 ## WILTSHIRE — POSSIBLES
