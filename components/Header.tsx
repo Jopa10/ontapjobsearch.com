@@ -2,7 +2,6 @@
 'use client';
 
 import Link from 'next/link';
-import Image from 'next/image';
 import { useSession } from 'next-auth/react';
 
 import { usePathname } from 'next/navigation';
@@ -22,38 +21,31 @@ export default function Header() {
     return (
         <header className="bg-white shadow-sm border-b border-gray-200">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex justify-between items-center h-16">
+                <div className="flex min-h-16 items-center justify-between gap-3 py-3">
                     {/* Logo */}
-                    <Link href={homeLink} className="flex items-center gap-2">
-                        <Image
-                            src="/assets/ontap-icon-v2.svg"
-                            alt="Ontap"
-                            width={32}
-                            height={32}
-                            className="w-8 h-8"
-                        />
+                    <Link href={homeLink} className="shrink-0">
                         <div className="leading-tight">
-  <div className="text-xl font-bold text-gray-900">
+  <div className="text-[19px] font-medium tracking-tight text-gray-900">
     Ontap Job Search
   </div>
-  <div className="text-xs text-gray-500">
+  <div className="mt-1 text-[11px] text-slate-500">
     Updated daily • No sign-up
   </div>
 </div>
                     </Link>
 
                     {/* Navigation */}
-                    <nav className="ml-auto flex shrink-0 items-center gap-6 pl-4">
+                    <nav className="ml-auto flex flex-wrap items-center justify-end gap-x-4 gap-y-1 text-sm sm:gap-x-6">
                         <Link
                             href="/ai-at-work"
-                            className={`text-gray-700 hover:text-blue-600 font-medium transition-colors ${isHome ? '' : 'hidden sm:inline'}`}
+                            className={`text-gray-700 hover:text-blue-600 font-normal transition-colors ${isHome ? '' : 'hidden sm:inline'}`}
                         >
                             AI at work
                         </Link>
                         {!isHome && (
                             <Link
                                href="/"
-                                className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+                                className="text-gray-700 hover:text-blue-600 font-normal transition-colors"
                             >
                                 Home
                             </Link>
@@ -61,7 +53,7 @@ export default function Header() {
                         {!isHome && !isAdmin && (
                             <Link
                                 href="/browse-jobs"
-                                className="hidden text-gray-700 hover:text-blue-600 font-medium transition-colors sm:inline"
+                                className="hidden text-gray-700 hover:text-blue-600 font-normal transition-colors sm:inline"
                             >
                                 Browse Jobs
                             </Link>
@@ -69,7 +61,7 @@ export default function Header() {
                         {session && !isHome && !isAdmin && (
                             <Link
                                 href="/admin/jobs"
-                                className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+                                className="text-gray-700 hover:text-blue-600 font-normal transition-colors"
                             >
                                 Admin
                             </Link>
