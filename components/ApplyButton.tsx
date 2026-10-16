@@ -21,9 +21,18 @@ export default function ApplyButton({
   const [website, setWebsite] = useState("");
   const emailRef = useRef<HTMLInputElement>(null);
   const applyWindow = useRef<Window | null>(null);
-  const eligible = isCpcJobAlertEligible(source, apply_url);
+  const eligible = process.env.NEXT_PUBLIC_CPC_JOB_ALERTS_ENABLED === "true" && isCpcJobAlertEligible(source, apply_url);
 
   useEffect(() => { if (open) emailRef.current?.focus(); }, [open]);
+
+  useEffect(() => {
+    if (!open) return;
+    const handleEscape = (event: KeyboardEvent) => {
+      if (event.key === "Escape") closeDialog();
+    };
+    window.addEventListener("keydown", handleEscape);
+    return () => window.removeEventListener("keydown", handleEscape);
+  }, [open]);
 
   const trackClick = () => {
     const gtag = (window as Window & { gtag?: (...args: unknown[]) => void }).gtag;
