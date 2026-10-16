@@ -4,7 +4,7 @@
 - Live route: `/bournemouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 45
+- automatic include: 6
+- automatic review: 47
 - automatic exclude: 0
-- effective include: 7
-- effective review: 45
+- effective include: 6
+- effective review: 47
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (6)
 
 ---
 action: 
@@ -64,18 +64,6 @@ reason: Exact approved Bournemouth workplace.
 action: 
 decision: include
 automatic_decision: include
-title: English Department Administrator & Librarian
-company: The Bishop of Winchester Academy
-location: Bournemouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-english-department-administrator-librarian
-reason: Exact approved Bournemouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Management Accounts Assistant
 company: Michael Page Finance - Agency - Permanent
 location: Bournemouth
@@ -108,7 +96,7 @@ job_id: nhs-5651442
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (45)
+## REVIEW (47)
 
 ---
 action: 
@@ -486,6 +474,18 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Part Time Accounts Assistant
+company: CMA Recruitment Group - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225689189
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part time Office & HR Administrator
 company: Holt Engineering - Agency - Permanent
 location: Wimborne
@@ -599,6 +599,18 @@ company: Ferndown Middle School
 location: Ferndown
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-admin-assistant-ferndown-middle-school
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment Coordinator
+company: Rubicon Recruitment - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225728966
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

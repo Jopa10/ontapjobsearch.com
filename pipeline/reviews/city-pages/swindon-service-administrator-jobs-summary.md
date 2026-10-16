@@ -4,7 +4,7 @@
 - Live route: `/swindon/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 21
+- automatic include: 8
+- automatic review: 20
 - automatic exclude: 0
-- effective include: 9
-- effective review: 21
+- effective include: 8
+- effective review: 20
 - effective exclude: 0
 
-## INCLUDE (9)
+## INCLUDE (8)
 
 ---
 action: 
@@ -76,18 +76,6 @@ reason: Exact approved Swindon workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Legal Assistant Conveyancing (Swindon)
-company: Thrive Group - Agency - Permanent
-location: Swindon
-source: JobG8
-job_id: jobg8-23643_225703959
-reason: Exact approved Swindon workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Office Administrator
 company: Shrivenham Church of England School
 location: Swindon
@@ -132,7 +120,7 @@ job_id: jobg8-23643_225653482
 reason: Exact approved Swindon workplace.
 ---
 
-## REVIEW (21)
+## REVIEW (20)
 
 ---
 action: 
@@ -210,18 +198,6 @@ reason: The stated location is broader or less specific than the approved Swindo
 action: 
 decision: review
 automatic_decision: review
-title: Education Administrator
-company: Dovetail and Slate - Agency - Permanent
-location: Wiltshire
-source: JobG8
-job_id: jobg8-23643_225617140
-reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Financial Services Administrator
 company: Siamo Recruitment a division of Siamo Group - Agency - Permanent
 location: Wiltshire
@@ -270,11 +246,11 @@ reason: No approved Swindon employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Secretary (part-time)
-company: Thrive Group - Agency - Permanent
-location: Melksham
+title: Sales Administrator
+company: Consult2Recruit - Agency - Permanent
+location: Devizes
 source: JobG8
-job_id: jobg8-23643_225703401
+job_id: jobg8-23643_225672054
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 

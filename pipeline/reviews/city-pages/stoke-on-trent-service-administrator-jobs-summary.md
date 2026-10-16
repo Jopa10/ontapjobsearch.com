@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 46
+- automatic review: 47
 - automatic exclude: 0
 - effective include: 4
-- effective review: 46
+- effective review: 47
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: nhs-5657920
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (46)
+## REVIEW (47)
 
 ---
 action: 
@@ -83,6 +83,18 @@ company: Veolia - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225720563
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Assistant
+company: Rubicon Consulting - Agency - Temporary
+location: Stafford
+source: JobG8
+job_id: jobg8-23643_225731044
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -234,11 +246,11 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: Customs Administrator
-company: Gi Group - Agency - Temporary
-location: Stafford
+title: Data Entry
+company: Pertemps Wolverhampton and Walsall - Agency - Temporary
+location: Staffordshire
 source: JobG8
-job_id: jobg8-23643_225615025
+job_id: jobg8-23643_225641936
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -246,11 +258,11 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: Data Entry
-company: Pertemps Wolverhampton and Walsall - Agency - Temporary
+title: Depot Administrator- Noons
+company: Adecco - Agency - Temporary
 location: Staffordshire
 source: JobG8
-job_id: jobg8-23643_225641936
+job_id: jobg8-23643_225621506
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -323,18 +335,6 @@ company: The Supply Register - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225640429
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Executive
-company: Universal Business Team - Agency - Permanent
-location: Stafford
-source: JobG8
-job_id: jobg8-23643_225614344
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -426,11 +426,11 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: Part Time Credit Controller
-company: Astute Recruitment - Agency - Permanent
-location: Staffordshire
+title: Payroll Administrator
+company: SF Partners - Agency - Permanent
+location: Lichfield
 source: JobG8
-job_id: jobg8-23643_225617668
+job_id: jobg8-23643_225729364
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -535,10 +535,10 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
-company: North Staffordshire Combined Healthcare Trust
-location: Stoke on Trent, ST6 5UD
+company: Avery Healthcare Group Ltd.
+location: Stafford, ST16 1LD
 source: NHS Jobs
-job_id: nhs-5659989
+job_id: nhs-5666559
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -551,6 +551,18 @@ company: Visum Recruitment - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225685106
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist - Bank
+company: Avery Healthcare Group Ltd.
+location: Rugeley, WS15 2EJ
+source: NHS Jobs
+job_id: nhs-5666554
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 57
+- automatic review: 55
 - automatic exclude: 0
 - effective include: 7
-- effective review: 57
+- effective review: 55
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,19 +108,7 @@ job_id: jobg8-23643_225641309
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (57)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administration Assistant
-company: Clear Legal & Financial Recruitment - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-23643_225702033
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
+## REVIEW (55)
 
 ---
 action: 
@@ -366,18 +354,6 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Credit Controller
-company: Si Recruitment - Agency - Permanent
-location: Catterick Garrison
-source: JobG8
-job_id: jobg8-2051167
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Credit Controller, Ripon
 company: Si Recruitment - Agency - Permanent
 location: Ripon
@@ -407,18 +383,6 @@ company: North Yorkshire Hospice Care - Agency - Permanent
 location: Harrogate
 source: JobG8
 job_id: jobg8-2131084
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Document Controller
-company: CV Technical - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-23643_225617615
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -731,6 +695,18 @@ company: Saltergate Junior School
 location: Harrogate
 source: Teaching Vacancies
 job_id: teaching-vacancies-school-administrator-saltergate-junior-school-harrogate-north-yorkshire
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: Auto Skills UK - Agency - Permanent
+location: Richmond
+source: JobG8
+job_id: jobg8-23643_225729465
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

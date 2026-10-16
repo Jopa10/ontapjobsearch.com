@@ -75,34 +75,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "teaching-vacancies-english-department-administrator-librarian",
-    "title": "English Department Administrator & Librarian",
-    "company": "The Bishop of Winchester Academy",
-    "location": "Bournemouth",
-    "region": "Dorset",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "Actual Salary - £18,794 (FTE Salary - £27,696)",
-    "work_pattern": "",
-    "posted_date": "2026-10-09",
-    "closing_date": "2026-10-16",
-    "closing_datetime": "2026-10-16T08:00:00+01:00",
-    "summary": "English Department Administrator & Librarian with The Bishop of Winchester Academy in Bournemouth. ['part time']; Actual Salary - £18,794 (FTE Salary - £27,696).",
-    "description": "The Bishop of Winchester Academy is recruiting for this vacancy in Bournemouth.\n\nThe advertised position is English Department Administrator & Librarian.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is Actual Salary - £18,794 (FTE Salary - £27,696).\n\nThe stated application deadline is 2026-10-16T08:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/english-department-administrator-librarian?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "The Bishop of Winchester Academy",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "2067261",
     "title": "Management Accounts Assistant",
     "company": "Michael Page Finance - Agency - Permanent",
@@ -144,9 +116,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2314-26-0016",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -166,9 +135,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1525-26-0017",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

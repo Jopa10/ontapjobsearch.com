@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 24
+- automatic review: 28
 - automatic exclude: 0
 - effective include: 4
-- effective review: 24
+- effective review: 28
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-2074804
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (24)
+## REVIEW (28)
 
 ---
 action: 
@@ -151,6 +151,18 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
+company: Herefordshire and Worcestershire Health and Care NHS Trust
+location: Droitwich, WR9 8QU
+source: NHS Jobs
+job_id: nhs-5666365
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
 company: Opus People Solutions Ltd - Agency - Temporary
 location: Redditch
 source: JobG8
@@ -162,11 +174,11 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Administrator - Safeguarding & Quality Assurance
-company: Diamond Blaque HR Solutions - Agency - Contract
+title: Administrator / Data Entry & Planner
+company: Industrial Recruitment Solutions Ltd - Agency - Permanent
 location: Worcestershire
 source: JobG8
-job_id: jobg8-23643_225617456
+job_id: jobg8-23643_225729147
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -306,6 +318,18 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Junior Finance Assistant
+company: Four Squared Recruitment Ltd - Agency - Temporary
+location: Redditch
+source: JobG8
+job_id: jobg8-23643_225726156
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Office Administrator
 company: Northleigh CofE Primary School
 location: Malvern
@@ -342,11 +366,35 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Administrator
+company: Four Squared Recruitment Ltd - Agency - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-23643_225728367
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist/Admin
 company: Crabbs Cross Surgery
 location: Redditch, B97 5JX
 source: NHS Jobs
 job_id: nhs-5648429
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Supply Chain Administrator (Part Time)
+company: Talent Guardian - Agency - Permanent
+location: Redditch
+source: JobG8
+job_id: jobg8-23643_225727958
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

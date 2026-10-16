@@ -4,7 +4,7 @@
 - Live route: `/bedford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 31
+- automatic include: 5
+- automatic review: 32
 - automatic exclude: 0
-- effective include: 4
-- effective review: 31
+- effective include: 5
+- effective review: 32
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (5)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator (Learning & Development)
+company: Tate - Agency - Permanent
+location: Bedford
+source: JobG8
+job_id: jobg8-23643_225620116
+reason: Exact approved Bedford workplace.
+---
 
 ---
 action: 
@@ -33,18 +45,6 @@ company: Watton Recruitment Ltd - Agency - Temporary
 location: Bedford
 source: JobG8
 job_id: jobg8-23643_225685492
-reason: Exact approved Bedford workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Commercial Property Legal Assistant
-company: ACS Staffing Solutions - Agency - Permanent
-location: Bedford
-source: JobG8
-job_id: jobg8-23643_225615471
 reason: Exact approved Bedford workplace.
 ---
 
@@ -64,6 +64,18 @@ reason: Exact approved Bedford workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Customer Service Coordinator
+company: Osborne Appointments - Agency - Permanent
+location: Bedford
+source: JobG8
+job_id: jobg8-23643_225729306
+reason: Exact approved Bedford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Lettings & Property Coordinator
 company: Allstaff - Agency - Permanent
 location: Bedford
@@ -72,7 +84,7 @@ job_id: jobg8-23643_225724509
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (31)
+## REVIEW (32)
 
 ---
 action: 
@@ -203,6 +215,18 @@ company: Advancing People - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225699982
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Abacus Consulting - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225724069
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

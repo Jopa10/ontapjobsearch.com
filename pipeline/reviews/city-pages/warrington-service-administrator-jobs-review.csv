@@ -1,7 +1,6 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-2077982,Accounts Assistant - Purchase Ledger,Adele Carr Recruitment Limited - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
 include,jobg8-23643_225714999,Accounts Payable Assistant,Axon Moore - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
-include,jobg8-108149320,Activities Coordinator,Exemplar Health Care - Company - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
 include,jobg8-23643_225635428,Administrator,Integra Resourcing - Agency - Temporary,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
 include,jobg8-2042291,Assistant Accountant,Reed - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
 include,jobg8-1996341,B2B & International Marketing Manager,Axon Moore Group Ltd - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
@@ -12,6 +11,7 @@ include,jobg8-23643_225652264,Customer Service Administrator,Source 4 - Agency -
 include,jobg8-23643_225653301,Customer Service Coordinator,Source 4 - Agency - Temporary,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
 include,jobg8-2039620,Finance Assistant,Adecco - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
 include,jobg8-23643_225724405,FTC Administrator,Zachary Daniels Recruitment - Agency - Contract,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
+include,jobg8-23643_225675166,Performance Marketing Manager,Nova Recruitment - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
 include,jobg8-2048770,Presenter and Content Creator,Reed - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
 include,jobg8-23643_225696648,Purchase Ledger Assistant,Michael Page - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
 include,jobg8-23643_225620100,Receptionist/Construction Secretary,Fawkes & Reece London - Agency - Permanent,Warrington,JobG8,include,include,Approved conservative Warrington launch catchment.,warrington,warrington-service-administrator-jobs
@@ -20,7 +20,6 @@ include,jobg8-23643_225401887,Resource Planner (Field Service),Longreach Recruit
 review,nhs-5659960,Medical Receptionist,Lakeside Surgery,"Lymm, WA13 0QE",NHS Jobs,review,review,No approved Warrington catchment rule matched; local review required.,fallback,warrington-service-administrator-jobs
 review,nhs-5651037,Medical Receptionist/Administrator,Newtown Surgery,"Widnes, WA8 7GD",NHS Jobs,review,review,No approved Warrington catchment rule matched; local review required.,fallback,warrington-service-administrator-jobs
 review,jobg8-23643_225626812,Sales Administrator,System Recruitment - Agency - Permanent,Widnes,JobG8,review,review,No approved Warrington catchment rule matched; local review required.,fallback,warrington-service-administrator-jobs
-review,jobg8-23643_225615777,School Finance assistant - Runcorn,The Supply Register - Agency - Contract,Cheshire,JobG8,review,review,No approved Warrington catchment rule matched; local review required.,fallback,warrington-service-administrator-jobs
 exclude,nhs-5661628,Administrator,North Cheshire and Mersey NHS Foundation Trust (BCH),"Runcorn, WA7 1HB",NHS Jobs,exclude,exclude,Separate employment market.,runcorn,warrington-service-administrator-jobs
 exclude,jobg8-23643_225633216,Contribution Co-Ordinator,Adecco - Agency - Temporary,Runcorn,JobG8,exclude,exclude,Separate employment market.,runcorn,warrington-service-administrator-jobs
 exclude,jobg8-23643_225704826,Finance Assistant - Cost Control,Halecroft Recruitment - Agency - Permanent,Runcorn,JobG8,exclude,exclude,Separate employment market.,runcorn,warrington-service-administrator-jobs

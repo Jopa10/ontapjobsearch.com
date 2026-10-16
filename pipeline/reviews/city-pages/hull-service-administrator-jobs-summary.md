@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 21
+- Effective included jobs: 20
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 21
-- automatic review: 9
+- automatic include: 20
+- automatic review: 13
 - automatic exclude: 0
-- effective include: 21
-- effective review: 9
+- effective include: 20
+- effective review: 13
 - effective exclude: 0
 
-## INCLUDE (21)
+## INCLUDE (20)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Prestige Recruitment Specialists - Agency - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-23643_225629140
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Account Coordinator
+company: Stafforce Recruitment - Agency - Permanent
+location: Hull
+source: JobG8
+job_id: jobg8-23643_225730083
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -244,18 +256,6 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Theatre Administrator
-company: Spire Healthcare - Company - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-23643_225713565
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Treasury Administrator
 company: GlobalData UK Ltd - Company - Permanent
 location: Hull
@@ -264,19 +264,7 @@ job_id: jobg8-23643_225626632
 reason: Approved conservative Hull launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Warranties Administrator - Automotive
-company: Office Angels - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-23643_225617740
-reason: Approved conservative Hull launch catchment.
----
-
-## REVIEW (9)
+## REVIEW (13)
 
 ---
 action: 
@@ -287,6 +275,42 @@ company: Si Recruitment - Agency - Permanent
 location: Goole
 source: JobG8
 job_id: jobg8-2074255
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Hull University Teaching Hospitals NHS Trust
+location: Cottingham, HU16 5JQ
+source: NHS Jobs
+job_id: nhs-5641720
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: BOM Administrator
+company: Consortium Professional Recruitment Ltd - Agency - Permanent
+location: Hessle
+source: JobG8
+job_id: jobg8-23643_225653759
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Support Administrator
+company: SaB Consulting Yorkshire Limited - Agency - Permanent
+location: Beverley
+source: JobG8
+job_id: jobg8-23643_225731702
 reason: No approved Hull catchment rule matched; local review required.
 ---
 
@@ -335,6 +359,18 @@ company: Townends Accountants LLP - Agency - Permanent
 location: North Humberside
 source: JobG8
 job_id: jobg8-23643_225702204
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Project Administrator
+company: Consortium Professional Recruitment Ltd - Agency - Permanent
+location: Hessle
+source: JobG8
+job_id: jobg8-23643_225623318
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

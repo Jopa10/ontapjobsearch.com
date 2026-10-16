@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 94
+- automatic review: 99
 - automatic exclude: 0
 - effective include: 6
-- effective review: 94
+- effective review: 99
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225694409
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
-## REVIEW (94)
+## REVIEW (99)
 
 ---
 action: 
@@ -258,6 +258,18 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
+title: Brand Activation Manager
+company: Michael Page - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-23643_225620206
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Brand Marketing Executive - 12 month FTC
 company: Think Specialist Recruitment - Agency - Permanent
 location: Hertfordshire
@@ -407,18 +419,6 @@ company: Mission 4 Recruitment - Agency - Contract
 location: Stevenage
 source: JobG8
 job_id: jobg8-23643_225553115
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
-company: Osborne Appointments - Agency - Permanent
-location: Potters Bar
-source: JobG8
-job_id: jobg8-23643_225645817
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -762,6 +762,18 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
+title: Marketing Executive
+company: Reed - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-1987810
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Medical Receptionist
 company: Midway Surgery
 location: St. Albans, AL2 3JX
@@ -906,6 +918,18 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
+title: Part Time Credit Controller
+company: HR GO Recruitment - Agency - Contract
+location: Bishop'S Stortford
+source: JobG8
+job_id: jobg8-23643_225728945
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part Time Receptionist
 company: Kings Langley Surgery
 location: Kings Langley, WD4 8ET, Hemel Hempstead, HP3 0HG
@@ -955,6 +979,18 @@ action:
 decision: review
 automatic_decision: review
 title: Payroll Administrator
+company: Eclectic Recruitment - Agency - Contract
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-23643_225689918
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
 company: Portfolio Payroll Limited - Agency - Temporary
 location: Hertfordshire
 source: JobG8
@@ -971,6 +1007,18 @@ company: Sheridan Maine - Agency - Permanent
 location: Hertford
 source: JobG8
 job_id: jobg8-2063439
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: Vitae Financial Recruitment - Agency - Contract
+location: Royston
+source: JobG8
+job_id: jobg8-23643_225686962
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -1127,6 +1175,18 @@ company: Crystal Clear Recruitment - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-2074917
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator - Customer Excellence Associate
+company: Tate - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-23643_225677222
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

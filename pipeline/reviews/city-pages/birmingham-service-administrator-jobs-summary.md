@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 93
+- Effective included jobs: 95
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 93
-- automatic review: 17
+- automatic include: 95
+- automatic review: 18
 - automatic exclude: 5
-- effective include: 93
-- effective review: 17
+- effective include: 95
+- effective review: 18
 - effective exclude: 5
 
-## INCLUDE (93)
+## INCLUDE (95)
 
 ---
 action: 
@@ -57,6 +57,18 @@ company: Office Angels - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-2077004
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Administrator
+company: Office Angels - Agency - Temporary
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225687305
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -117,30 +129,6 @@ company: Search Consultancy Ltd - Agency - Temporary
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225638169
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Elite People Ltd - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225615225
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Admissions Avoidance Coordinator
-company: Birmingham Mind - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225615588
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -285,6 +273,18 @@ company: Tudor Grange Academy Kingshurst
 location: Birmingham
 source: Teaching Vacancies
 job_id: teaching-vacancies-cover-administrator-including-reprographics-tto-2-weeks-tudor-grange-academy-kingshurst-birmingham
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Control
+company: Consula Group LTD - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-1992585
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -544,6 +544,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Ferrari Receptionist / Host
+company: Sytner - Company - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225729438
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Finance Admin - Immediate Start
 company: Mitchell Adam - Agency - Permanent
 location: Birmingham
@@ -688,6 +700,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Interim Finance Assistant
+company: Michael Page Finance - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-1992038
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Internal Recruiter
 company: Ashley Kate HR & Finance - Agency - Permanent
 location: Birmingham
@@ -717,18 +741,6 @@ company: Morgan Parkes Recruitment Limited - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-2044276
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Legal Secretary
-company: Talk Staff Group Limited - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225619118
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1096,6 +1108,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Team Administrator
+company: Birmingham and Solihull Mental Health NHS Foundation Trust
+location: Birmingham, B19 1HS
+source: NHS Jobs
+job_id: nhs-5663335
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Temporary Administrative Assistant
 company: Pertemps Birmingham Industrial - Agency - Temporary
 location: Birmingham
@@ -1140,7 +1164,7 @@ job_id: jobg8-2039482
 reason: Approved conservative Birmingham launch catchment.
 ---
 
-## REVIEW (17)
+## REVIEW (18)
 
 ---
 action: 
@@ -1290,6 +1314,18 @@ reason: No approved Birmingham catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Planning Administrator
+company: RG Setsquare - Agency - Temporary
+location: Shirley
+source: JobG8
+job_id: jobg8-23643_225730525
+reason: No approved Birmingham catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist - Bank
 company: Avery Healthcare Group Ltd.
 location: Knowle, B93 9LQ
@@ -1314,18 +1350,6 @@ reason: No approved Birmingham catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Sales Support Administrator
-company: Alma Personnel - Agency - Permanent
-location: Sutton Coldfield
-source: JobG8
-job_id: jobg8-23643_225622480
-reason: No approved Birmingham catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: School Administrator
 company: Sutton Park Primary
 location: Sutton Coldfield
@@ -1343,6 +1367,18 @@ company: Adecco - Agency - Temporary
 location: Sutton Coldfield
 source: JobG8
 job_id: jobg8-23643_225633473
+reason: No approved Birmingham catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: VOR Administrator (Vehicle Off Road)
+company: Pertemps Birmingham Industrial - Agency - Temporary
+location: Chelmsley Wood
+source: JobG8
+job_id: jobg8-23643_225731801
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 

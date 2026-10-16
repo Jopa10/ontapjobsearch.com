@@ -4,7 +4,7 @@
 - Live route: `/cardiff/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 21
+- Effective included jobs: 23
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 21
+- automatic include: 23
 - automatic review: 2
 - automatic exclude: 0
-- effective include: 21
+- effective include: 23
 - effective review: 2
 - effective exclude: 0
 
-## INCLUDE (21)
+## INCLUDE (23)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Robert Half - Agency - Permanent
 location: Cardiff
 source: JobG8
 job_id: jobg8-2092062
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Ad Hoc Corporate Receptionist
+company: Search Consultancy Ltd - Agency - Temporary
+location: Cardiff
+source: JobG8
+job_id: jobg8-23643_225731668
 reason: Approved conservative Cardiff launch catchment.
 ---
 
@@ -136,18 +148,6 @@ reason: Approved conservative Cardiff launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Adviser
-company: Yolk Recruitment - Agency - Temporary
-location: Cardiff
-source: JobG8
-job_id: jobg8-23643_225716856
-reason: Approved conservative Cardiff launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Customer Service Advisor
 company: EE - Company - Permanent
 location: Cardiff
@@ -165,6 +165,18 @@ company: Pontoon - Agency - Temporary
 location: Cardiff
 source: JobG8
 job_id: jobg8-23643_225630492
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Data Administrator
+company: Amey Ltd - Company - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-23643_225728348
 reason: Approved conservative Cardiff launch catchment.
 ---
 
@@ -213,6 +225,18 @@ company: CBRE Local UK - Company - Permanent
 location: Cardiff
 source: JobG8
 job_id: jobg8-23643_225671270
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Internal Sales Coordinator
+company: Yolk Recruitment - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-23643_225674786
 reason: Approved conservative Cardiff launch catchment.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 15
-- automatic review: 45
+- automatic review: 43
 - automatic exclude: 0
 - effective include: 15
-- effective review: 45
+- effective review: 43
 - effective exclude: 0
 
 ## INCLUDE (15)
@@ -172,6 +172,18 @@ reason: Exact approved Exeter workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Service Advisor
+company: Tru Talent - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-23643_225730206
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Temporary Receptionist
 company: Hamilton Woods - Agency - Temporary
 location: Exeter
@@ -192,19 +204,7 @@ job_id: jobg8-23643_225684864
 reason: Exact approved Exeter workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Ward Administrator
-company: Devon Partnership NHS Trust
-location: Exeter, EX2 5AF
-source: NHS Jobs
-job_id: nhs-5615165
-reason: Exact approved Exeter workplace.
----
-
-## REVIEW (45)
+## REVIEW (43)
 
 ---
 action: 
@@ -462,18 +462,6 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Finance and Bursary Administrator
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-2045343
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Assistant
 company: Build Recruitment - Agency - Permanent
 location: Devon
@@ -510,23 +498,11 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Hr Administrator
-company: KAT Recruitment - Agency - Permanent
-location: Barnstaple
-source: JobG8
-job_id: jobg8-23643_225661524
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR Administrator
-company: Whiteland Engineering Ltd - Agency - Permanent
-location: Bideford
+company: Artis Recruitment - Agency - Contract
+location: Newton Abbot
 source: JobG8
-job_id: jobg8-23643_225616634
+job_id: jobg8-23643_225618875
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 46
+- automatic review: 50
 - automatic exclude: 0
 - effective include: 8
-- effective review: 46
+- effective review: 50
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: jobg8-23643_225653411
 reason: Exact approved Bath workplace.
 ---
 
-## REVIEW (46)
+## REVIEW (50)
 
 ---
 action: 
@@ -330,6 +330,18 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
+title: Customer Relations Officer and Complaints Handler
+company: Kings Court Trust - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225729676
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Advisor
 company: Tate - Agency - Temporary
 location: Bristol
@@ -390,6 +402,18 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
+title: Fuelcard Telesales Representative
+company: Ford Fuels - Agency - Permanent
+location: Yate
+source: JobG8
+job_id: jobg8-108070751
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: GP Receptionist
 company: Portishead Medical Group
 location: Bristol, BS20 6AQ
@@ -407,6 +431,18 @@ company: Tate - Agency - Temporary
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225674536
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Administrator (Policy and Ops)
+company: Adecco - Agency - Contract
+location: Yate
+source: JobG8
+job_id: jobg8-23643_225730843
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -539,6 +575,18 @@ company: West View Surgery
 location: Bristol, BS31 1BX
 source: NHS Jobs
 job_id: nhs-5635693
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Project Administrator
+company: Employment Solutions Ltd - Agency - Contract
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225618230
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 

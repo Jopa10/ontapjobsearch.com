@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
-- automatic review: 13
+- automatic include: 11
+- automatic review: 11
 - automatic exclude: 25
-- effective include: 12
-- effective review: 13
+- effective include: 11
+- effective review: 11
 - effective exclude: 25
 
-## INCLUDE (12)
+## INCLUDE (11)
 
 ---
 action: 
@@ -148,18 +148,6 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Purchasing Assistant
-company: Huntress - Agency - Contract
-location: Peterborough
-source: JobG8
-job_id: jobg8-23643_225691674
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist
 company: Old Fletton Surgery
 location: Peterborough, PE2 8AY
@@ -168,7 +156,7 @@ job_id: nhs-5665914
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (13)
+## REVIEW (11)
 
 ---
 action: 
@@ -282,35 +270,11 @@ reason: No approved Peterborough catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Project Administrator
-company: Astute People - Agency - Permanent
-location: Wisbech
-source: JobG8
-job_id: jobg8-23643_225616701
-reason: No approved Peterborough catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Project Administrator - Wisbech
 company: Adecco - Agency - Permanent
 location: Wisbech
 source: JobG8
 job_id: jobg8-23643_225642540
-reason: No approved Peterborough catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Your Recruitment Coach - Agency - Permanent
-location: Wisbech
-source: JobG8
-job_id: jobg8-23643_225614678
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
@@ -536,11 +500,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Marketing Analytics Manager
-company: Alzheimer's Research UK - Agency - Permanent
+title: Marketing Executive - B2B Professional Services
+company: Henderson Brown Recruitment - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
-job_id: jobg8-2116781
+job_id: jobg8-23643_225674624
 reason: Separate employment market.
 ---
 

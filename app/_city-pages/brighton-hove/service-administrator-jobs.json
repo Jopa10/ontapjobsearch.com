@@ -188,9 +188,25 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0214-26-0146",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5667013",
+    "source": "NHS Jobs",
+    "title": "Team Administrator",
+    "company": "Sussex Partnership NHS Foundation Trust",
+    "advertiser_name": "Sussex Partnership NHS Foundation Trust",
+    "location": "Brighton, BN2 3EW",
+    "region": "Sussex",
+    "salary": "£25760.00 to £27476.00",
+    "employment_type": "Fixed-Term",
+    "posted_date": "2026-10-15T12:52:19.196280112",
+    "closing_date": "2026-10-29",
+    "description": "Please note that this role is being offered as a Fixed Term Contract for 12 months or as an internal secondment opportunity. We are looking for an organised and proactive Team Administrator to join our busy East Neighbourhood Mental Health Team. This is an important role within the team, providing the day-to-day administrative support that enables our multidisciplinary staff to deliver safe, effective and timely care to people using our service. You will work closely with clinicians and other members of the team, helping to keep the service running smoothly. No two days will be the same, and you will need to be comfortable managing a range of competing priorities while maintaining a high level of accuracy and attention to detail in a fast paced environment. You will provide a comprehensive administrative service to the team, including supporting referrals and appointments, maintaining accurate patient and waiting-list information, processing correspondence and clinical documentation, arranging meetings and providing general administrative support to the multidisciplinary team. The role involves working with confidential and sometimes sensitive information, so accuracy, discretion and good communication skills are essential. You will use a range of electronic systems and will need to be confident with IT and able to learn new systems quickly. We are looking for motivated and enthusiastic person who is: Organised; Knowledge of System 1 desirable Have sound IT/administration skills (Word, Excel, PPT); Work well in a team; Have excellent communication skills; Have good interpersonal skills and is able to work in a confidential and sensitive manner. You will be offered opportunities for training and professional development. We would be very happy to discuss any questions or queries with prospective candidates. The Team Administrator will provide a full administrative service, having daily liaison with a wide range of staff at all levels and regular contact with people who use services and their carers, who may at times be distressed or angry. The Team Administrator will be responsible for ensuring the effectiveness of the office environment for the team.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9354-26-1221",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9354-26-1221",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
     "posted_date_basis": "source"
   }
 ]

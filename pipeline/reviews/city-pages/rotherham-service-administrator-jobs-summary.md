@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 53
+- automatic review: 55
 - automatic exclude: 0
 - effective include: 3
-- effective review: 53
+- effective review: 55
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: teaching-vacancies-receptionist-admin-assistant-willow-tree-academy
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (53)
+## REVIEW (55)
 
 ---
 action: 
@@ -95,6 +95,18 @@ company: Sue Ross Recruitment Ltd - Agency - Contract
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225613243
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Adecco - Agency - Temporary
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225731356
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -143,6 +155,18 @@ company: TSR Recruitment Limited - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225685872
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Venatu Consulting Ltd - Agency - Temporary
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225731038
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -318,18 +342,6 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Credit Controller/Accounts Assistant
-company: Shillito Group - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225702030
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Service Administrator
 company: Office Angels - Agency - Permanent
 location: Doncaster
@@ -383,18 +395,6 @@ company: Elm Lane & Chapeltown Surgery
 location: Sheffield, S5 7TW, SHEFFIELD, S35 1TD
 source: NHS Jobs
 job_id: nhs-5627333
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Graduate Administrator
-company: Venatu Consulting Ltd - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225668765
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -547,6 +547,18 @@ action:
 decision: review
 automatic_decision: review
 title: Payroll Administrator
+company: JGA Recruitment - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225690014
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
 company: Marks Sattin - Agency - Permanent
 location: Doncaster
 source: JobG8
@@ -667,10 +679,10 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
-company: Sue Ross Recruitment Ltd - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225666843
+company: White House Farm Medical Centre
+location: Doncaster, DN3 3AH
+source: NHS Jobs
+job_id: nhs-5647395
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -678,11 +690,11 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: White House Farm Medical Centre
-location: Doncaster, DN3 3AH
-source: NHS Jobs
-job_id: nhs-5647395
+title: Recruitment Account Coordinator
+company: Nexus People - Agency - Temporary
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225639569
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -695,6 +707,18 @@ company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-adcabd9c-b940-45d0-a8f0-52fec00f63a2
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Volunteer Coordinator
+company: Rotherham Hospice - Agency - Permanent
+location: Brinsworth
+source: JobG8
+job_id: jobg8-23643_225728023
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

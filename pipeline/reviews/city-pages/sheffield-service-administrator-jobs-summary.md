@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 25
+- Effective included jobs: 24
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 25
+- automatic include: 24
 - automatic review: 4
-- automatic exclude: 27
-- effective include: 25
+- automatic exclude: 30
+- effective include: 24
 - effective review: 4
-- effective exclude: 27
+- effective exclude: 30
 
-## INCLUDE (25)
+## INCLUDE (24)
 
 ---
 action: 
@@ -57,6 +57,18 @@ company: Sue Ross Recruitment Ltd - Agency - Contract
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225613243
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Adecco - Agency - Temporary
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225731356
 reason: Approved Sheffield catchment.
 ---
 
@@ -184,18 +196,6 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Credit Controller/Accounts Assistant
-company: Shillito Group - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225702030
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: GP Receptionist
 company: Elm Lane & Chapeltown Surgery
 location: Sheffield, S5 7TW, SHEFFIELD, S35 1TD
@@ -304,18 +304,6 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Sue Ross Recruitment Ltd - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225666843
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: SEND Administrator
 company: Aston Academy
 location: Sheffield
@@ -374,7 +362,7 @@ job_id: jobg8-23643_225712413
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (27)
+## EXCLUDE (30)
 
 ---
 action: 
@@ -433,6 +421,18 @@ company: TSR Recruitment Limited - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225685872
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: Venatu Consulting Ltd - Agency - Temporary
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225731038
 reason: Separate employment market.
 ---
 
@@ -517,18 +517,6 @@ company: EE - Company - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-20279_63174-153faf593eb64b88272f45adeaa28d87
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Graduate Administrator
-company: Venatu Consulting Ltd - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225668765
 reason: Separate employment market.
 ---
 
@@ -621,6 +609,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Payroll Administrator
+company: JGA Recruitment - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225690014
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Payroll Administrator
 company: Marks Sattin - Agency - Permanent
 location: Doncaster
 source: JobG8
@@ -697,5 +697,29 @@ company: Willow Tree Academy
 location: Rotherham
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-admin-assistant-willow-tree-academy
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Recruitment Account Coordinator
+company: Nexus People - Agency - Temporary
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225639569
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Volunteer Coordinator
+company: Rotherham Hospice - Agency - Permanent
+location: Brinsworth
+source: JobG8
+job_id: jobg8-23643_225728023
 reason: Separate employment market.
 ---

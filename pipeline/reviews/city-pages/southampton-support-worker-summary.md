@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 5
+- automatic review: 6
 - automatic exclude: 6
 - effective include: 0
-- effective review: 5
+- effective review: 6
 - effective exclude: 6
 
 ## INCLUDE (0)
 
-## REVIEW (5)
+## REVIEW (6)
 
 ---
 action: 
@@ -47,6 +47,18 @@ company: SeeAbility - Agency - Permanent
 location: Tadley
 source: JobG8
 job_id: jobg8-107941132
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Mental Healthcare Assistant
+company: MCS Healthcare - Agency - Permanent
+location: Fordingbridge
+source: JobG8
+job_id: jobg8-108072729
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 

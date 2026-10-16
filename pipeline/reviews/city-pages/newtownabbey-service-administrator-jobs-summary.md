@@ -16,15 +16,27 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 5
+- automatic review: 7
 - automatic exclude: 0
 - effective include: 0
-- effective review: 5
+- effective review: 7
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (5)
+## REVIEW (7)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts & Payroll Administrator
+company: Hays Accounts and Finance - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-23643_225726032
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -47,6 +59,18 @@ company: Reed - Agency - Permanent
 location: Lisburn
 source: JobG8
 job_id: jobg8-2089155
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Clerk
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2057342
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 

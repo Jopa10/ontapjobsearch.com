@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 59
+- automatic review: 56
 - automatic exclude: 0
 - effective include: 0
-- effective review: 59
+- effective review: 56
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (59)
+## REVIEW (56)
 
 ---
 action: 
@@ -163,6 +163,18 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
+company: Siamo Recruitment a division of Siamo Group - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225728707
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
 company: Vantage Recruitment - Agency - Contract
 location: Leicestershire
 source: JobG8
@@ -234,18 +246,6 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Administrator
-company: FlipFix - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225616837
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Service Advisor
 company: 365 People - Agency - Permanent
 location: Leicester
@@ -263,18 +263,6 @@ company: Pall-ex - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225697663
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
-company: Pertemps Leicester - Agency - Temporary
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225613985
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -354,6 +342,18 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: HR Coordinator
+company: The Portfolio Group - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225729803
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Interim Accounts Payable Assistant - Hybrid
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Leicestershire
@@ -426,6 +426,18 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Office Administrator
+company: JT Recruit - Agency - Temporary
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_224540405
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Operations Administrator
 company: Regional Recruitment - Agency - Permanent
 location: Leicestershire
@@ -479,18 +491,6 @@ company: Otis - Company - Permanent
 location: Leicester
 source: JobG8
 job_id: jobg8-23643_225687246
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Officer
-company: Transaction Recruitment - Agency - Permanent
-location: Coalville
-source: JobG8
-job_id: jobg8-23643_225616749
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -558,18 +558,6 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Purchasing Assistant
-company: Seismic Recruitment - Agency - Contract
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225628775
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Receptionist
 company: InMind
 location: Leicester, LE2 9FS
@@ -623,18 +611,6 @@ company: Adecco - Agency - Temporary
 location: Leicester
 source: JobG8
 job_id: jobg8-23643_225638400
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Support Coordinator
-company: Interaction Recruitment - Agency - Permanent
-location: Coalville
-source: JobG8
-job_id: jobg8-23643_225622361
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -719,18 +695,6 @@ company: Tudor Grange Samworth Academy, A church of England School
 location: Leicester
 source: Teaching Vacancies
 job_id: teaching-vacancies-student-services-administrator-b483b3bc-5d81-42ee-be3a-16ed93deb17d
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Training Coordinator
-company: Vectis Recruitment - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225617256
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

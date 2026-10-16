@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 11
-- automatic review: 36
+- automatic review: 37
 - automatic exclude: 0
 - effective include: 11
-- effective review: 36
+- effective review: 37
 - effective exclude: 0
 
 ## INCLUDE (11)
@@ -156,7 +156,7 @@ job_id: nhs-5664251
 reason: Exact approved Walsall workplace.
 ---
 
-## REVIEW (36)
+## REVIEW (37)
 
 ---
 action: 
@@ -251,18 +251,6 @@ company: Connect2Dudley - Agency - Temporary
 location: Dudley
 source: JobG8
 job_id: jobg8-23643_225647283
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: BMW Service Advisor
-company: Sytner - Company - Permanent
-location: Wolverhampton
-source: JobG8
-job_id: jobg8-23643_225692526
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -426,6 +414,18 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
+title: Medical Receptionist/ Administrator
+company: Showell Park Health Centre
+location: Wolverhampton, WV10 9ST
+source: NHS Jobs
+job_id: nhs-5667281
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part Time Administrator
 company: Industrial Recruitment Solutions Ltd - Agency - Temporary
 location: Wolverhampton
@@ -443,6 +443,18 @@ company: Doocey Group - Agency - Permanent
 location: Tipton
 source: JobG8
 job_id: jobg8-23643_225347190
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Project Coordinator
+company: MET Recruitment UK LTD - Agency - Contract
+location: Kingswinford
+source: JobG8
+job_id: jobg8-23643_225731258
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 

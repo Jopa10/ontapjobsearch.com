@@ -4,7 +4,7 @@
 - Live route: `/leicester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 13
+- Effective included jobs: 14
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
-- automatic review: 46
+- automatic include: 14
+- automatic review: 42
 - automatic exclude: 0
-- effective include: 13
-- effective review: 46
+- effective include: 14
+- effective review: 42
 - effective exclude: 0
 
-## INCLUDE (13)
+## INCLUDE (14)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: SF Partners - Agency - Permanent
 location: Leicester
 source: JobG8
 job_id: jobg8-23643_225687426
+reason: Exact approved Leicester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Siamo Recruitment a division of Siamo Group - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225728707
 reason: Exact approved Leicester workplace.
 ---
 
@@ -180,7 +192,7 @@ job_id: teaching-vacancies-student-services-administrator-b483b3bc-5d81-42ee-be3
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (46)
+## REVIEW (42)
 
 ---
 action: 
@@ -366,35 +378,11 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Administrator
-company: FlipFix - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225616837
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Service Advisor
 company: Pall-ex - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225697663
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
-company: Pertemps Leicester - Agency - Temporary
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225613985
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -462,6 +450,18 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: HR Coordinator
+company: The Portfolio Group - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225729803
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Interim Accounts Payable Assistant - Hybrid
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Leicestershire
@@ -510,6 +510,18 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Office Administrator
+company: JT Recruit - Agency - Temporary
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_224540405
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Operations Administrator
 company: Regional Recruitment - Agency - Permanent
 location: Leicestershire
@@ -539,18 +551,6 @@ company: Gi Group - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225711327
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Officer
-company: Transaction Recruitment - Agency - Permanent
-location: Coalville
-source: JobG8
-job_id: jobg8-23643_225616749
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -606,18 +606,6 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Purchasing Assistant
-company: Seismic Recruitment - Agency - Contract
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225628775
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Receptionist - LE4
 company: Office Angels - Agency - Permanent
 location: Leicestershire
@@ -635,18 +623,6 @@ company: Interaction Recruitment - Agency - Temporary
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225642990
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Support Coordinator
-company: Interaction Recruitment - Agency - Permanent
-location: Coalville
-source: JobG8
-job_id: jobg8-23643_225622361
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -719,18 +695,6 @@ company: Full Circle Technical Recruitment - Agency - Contract
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225701621
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Training Coordinator
-company: Vectis Recruitment - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225617256
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

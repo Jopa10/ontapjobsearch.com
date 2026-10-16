@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 18
-- automatic review: 4
+- automatic review: 3
 - automatic exclude: 4
 - effective include: 18
-- effective review: 4
+- effective review: 3
 - effective exclude: 4
 
 ## INCLUDE (18)
@@ -45,18 +45,6 @@ company: Axon Moore - Agency - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-23643_225714999
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Activities Coordinator
-company: Exemplar Health Care - Company - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-108149320
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -184,6 +172,18 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Performance Marketing Manager
+company: Nova Recruitment - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-23643_225675166
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Presenter and Content Creator
 company: Reed - Agency - Permanent
 location: Warrington
@@ -240,7 +240,7 @@ job_id: jobg8-23643_225401887
 reason: Approved conservative Warrington launch catchment.
 ---
 
-## REVIEW (4)
+## REVIEW (3)
 
 ---
 action: 
@@ -275,18 +275,6 @@ company: System Recruitment - Agency - Permanent
 location: Widnes
 source: JobG8
 job_id: jobg8-23643_225626812
-reason: No approved Warrington catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: School Finance assistant - Runcorn
-company: The Supply Register - Agency - Contract
-location: Cheshire
-source: JobG8
-job_id: jobg8-23643_225615777
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 

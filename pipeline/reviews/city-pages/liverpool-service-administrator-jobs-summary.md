@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 23
+- Effective included jobs: 24
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 23
-- automatic review: 1
+- automatic include: 24
+- automatic review: 3
 - automatic exclude: 0
-- effective include: 23
-- effective review: 1
+- effective include: 24
+- effective review: 3
 - effective exclude: 0
 
-## INCLUDE (23)
+## INCLUDE (24)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: The Solution Auto - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-23643_225709284
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Receivable Clerk
+company: Adele Carr Recruitment Limited - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-2043235
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -100,11 +112,11 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Administrator
-company: Search Consultancy Ltd - Agency - Permanent
+title: Credit Control
+company: Consula Group LTD - Agency - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-23643_225631282
+job_id: jobg8-1992591
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -112,11 +124,11 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Document Controller
-company: Involve Recruitment - Agency - Permanent
+title: Customer Service Administrator
+company: Search Consultancy Ltd - Agency - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-23643_225617980
+job_id: jobg8-23643_225631282
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -141,30 +153,6 @@ company: hireful - Company - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-23643_225722720
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: GP Receptionist/Administrator
-company: 30 Kingsway Surgery
-location: Liverpool, L22 4RQ
-source: NHS Jobs
-job_id: nhs-5662247
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Graphic Design Coordinator
-company: John Moores Students' Union - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-2124717
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -197,10 +185,10 @@ action:
 decision: include
 automatic_decision: include
 title: Medical Receptionist
-company: Dunstan Village Group Practice
-location: Liverpool, L7 6HD
+company: Brownlow Group Practice
+location: Liverpool, L69 3GF
 source: NHS Jobs
-job_id: nhs-5620107
+job_id: nhs-5667460
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -225,6 +213,30 @@ company: Stafforce Ports - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-23643_225691969
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll & Benefits Administrator
+company: Michael Page - Agency - Temporary
+location: Liverpool
+source: JobG8
+job_id: jobg8-23643_225634458
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist
+company: The Blundellsands Surgery
+location: Liverpool, L23 6TZ
+source: NHS Jobs
+job_id: nhs-5667822
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -300,7 +312,19 @@ job_id: jobg8-23643_225635378
 reason: Approved conservative Liverpool launch catchment.
 ---
 
-## REVIEW (1)
+## REVIEW (3)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable Assistant
+company: Adaptable Recruitment - Agency - Permanent
+location: Merseyside
+source: JobG8
+job_id: jobg8-2057420
+reason: Broad county location; review before Liverpool inclusion.
+---
 
 ---
 action: 
@@ -311,6 +335,18 @@ company: Ice and Easy - Agency - Permanent
 location: Merseyside
 source: JobG8
 job_id: jobg8-2060699
+reason: Broad county location; review before Liverpool inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase ledger clerk
+company: Adele Carr Recruitment Limited - Agency - Permanent
+location: Merseyside
+source: JobG8
+job_id: jobg8-2067038
 reason: Broad county location; review before Liverpool inclusion.
 ---
 

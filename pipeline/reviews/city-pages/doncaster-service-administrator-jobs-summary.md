@@ -4,7 +4,7 @@
 - Live route: `/doncaster/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 17
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
+- automatic include: 19
 - automatic review: 4
 - automatic exclude: 35
-- effective include: 17
+- effective include: 19
 - effective review: 4
 - effective exclude: 35
 
-## INCLUDE (17)
+## INCLUDE (19)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Reed - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-2024835
+reason: Approved Doncaster catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Venatu Consulting Ltd - Agency - Temporary
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225731038
 reason: Approved Doncaster catchment.
 ---
 
@@ -124,18 +136,6 @@ reason: Approved Doncaster catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Graduate Administrator
-company: Venatu Consulting Ltd - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225668765
-reason: Approved Doncaster catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: HR & Operations Coordinator
 company: Carrington West - Agency - Permanent
 location: Doncaster
@@ -165,6 +165,18 @@ company: Edwards & Pearce - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225720547
+reason: Approved Doncaster catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Administrator
+company: JGA Recruitment - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225690014
 reason: Approved Doncaster catchment.
 ---
 
@@ -225,6 +237,18 @@ company: White House Farm Medical Centre
 location: Doncaster, DN3 3AH
 source: NHS Jobs
 job_id: nhs-5647395
+reason: Approved Doncaster catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Recruitment Account Coordinator
+company: Nexus People - Agency - Temporary
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225639569
 reason: Approved Doncaster catchment.
 ---
 
@@ -325,6 +349,18 @@ company: The Rotherham NHS Foundation Trust
 location: Rotherham, S60 2UD
 source: NHS Jobs
 job_id: nhs-5654236
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: Adecco - Agency - Temporary
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225731356
 reason: Separate employment market.
 ---
 
@@ -481,18 +517,6 @@ company: Sharp Consultancy - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2043404
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Credit Controller/Accounts Assistant
-company: Shillito Group - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225702030
 reason: Separate employment market.
 ---
 
@@ -668,18 +692,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist
-company: Sue Ross Recruitment Ltd - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225666843
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Receptionist & Admin Assistant
 company: Willow Tree Academy
 location: Rotherham
@@ -697,5 +709,17 @@ company: Aston Academy
 location: Sheffield
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-adcabd9c-b940-45d0-a8f0-52fec00f63a2
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Volunteer Coordinator
+company: Rotherham Hospice - Agency - Permanent
+location: Brinsworth
+source: JobG8
+job_id: jobg8-23643_225728023
 reason: Separate employment market.
 ---

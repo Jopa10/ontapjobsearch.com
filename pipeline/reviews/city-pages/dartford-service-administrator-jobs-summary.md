@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 13
-- automatic review: 55
-- automatic exclude: 36
+- automatic review: 61
+- automatic exclude: 35
 - effective include: 12
-- effective review: 55
-- effective exclude: 37
+- effective review: 61
+- effective exclude: 36
 
 ## INCLUDE (12)
 
@@ -168,7 +168,7 @@ job_id: jobg8-23643_225632206
 reason: Exact approved Dartford workplace.
 ---
 
-## REVIEW (55)
+## REVIEW (61)
 
 ---
 action: 
@@ -222,6 +222,30 @@ reason: The stated location is broader or less specific than the approved Dartfo
 action: 
 decision: review
 automatic_decision: review
+title: Administrator
+company: R9 Recruitment Ltd - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225716152
+reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Trapeze Recruitment Services Ltd - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225729788
+reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Bookkeeper
 company: AMR Bookeeping Services - Agency - Permanent
 location: Tonbridge
@@ -251,6 +275,18 @@ company: TN Recruits - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-2088186
+reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Conveyancing Legal Assistant
+company: Diamond Search Recruitment Ltd - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225730521
 reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
 ---
 
@@ -486,6 +522,18 @@ reason: The stated location is broader or less specific than the approved Dartfo
 action: 
 decision: review
 automatic_decision: review
+title: Marketing Executive
+company: Reed - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-1987806
+reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Membership Coordinator
 company: MemberWise - Agency - Permanent
 location: Swanley
@@ -503,6 +551,18 @@ company: Berry Recruitment - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225723174
+reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Administrator
+company: Staines Search Ltd - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225728308
 reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
 ---
 
@@ -611,6 +671,18 @@ company: The Meads Medical Practice Limited
 location: Sittingbourne, ME10 5AA
 source: NHS Jobs
 job_id: nhs-5651293
+reason: No approved Dartford employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist / Administrator
+company: The Grovehurst Surgery
+location: Sittingbourne, ME10 2ST
+source: NHS Jobs
+job_id: nhs-5668256
 reason: No approved Dartford employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -830,7 +902,7 @@ job_id: jobg8-23643_225623144
 reason: No approved Dartford employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (37)
+## EXCLUDE (36)
 
 ---
 action: 
@@ -874,9 +946,9 @@ decision: exclude
 automatic_decision: exclude
 title: Administrator
 company: Kent and Medway Mental Health NHS Trust
-location: Maidstone, ME16 9QQ
+location: Maidstone, ME14 5NZ
 source: NHS Jobs
-job_id: nhs-5635869
+job_id: nhs-5668064
 reason: The stated workplace belongs outside the approved Dartford employment market.
 ---
 
@@ -889,6 +961,18 @@ company: Pearson Whiffin Recruitment Ltd - Agency - Contract
 location: Gillingham
 source: JobG8
 job_id: jobg8-23643_225699710
+reason: The stated workplace belongs outside the approved Dartford employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Automotive Service Administrator / Receptionist
+company: Vibe Recruit - Agency - Permanent
+location: Sevenoaks
+source: JobG8
+job_id: jobg8-23643_225731577
 reason: The stated workplace belongs outside the approved Dartford employment market.
 ---
 
@@ -1124,18 +1208,6 @@ reason: The stated workplace belongs outside the approved Dartford employment ma
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Outpatient Receptionist
-company: East Kent Hospitals University NHS Foundation Trust
-location: Ashford, TN24 0LZ
-source: NHS Jobs
-job_id: nhs-5658663
-reason: The stated workplace belongs outside the approved Dartford employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Part Time Administrator
 company: Hill McGlynn Recruitment Limited - Agency - Permanent
 location: Maidstone
@@ -1214,18 +1286,6 @@ location: Dartford
 source: JobG8
 job_id: jobg8-23643_225709764
 reason: Exact approved Dartford workplace.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Senior Administrator - Oasis Restore Secure School
-company: Central and North West London NHS Foundation Trust
-location: Rochester, ME1 3YB
-source: NHS Jobs
-job_id: nhs-5637080
-reason: The stated workplace belongs outside the approved Dartford employment market.
 ---
 
 ---

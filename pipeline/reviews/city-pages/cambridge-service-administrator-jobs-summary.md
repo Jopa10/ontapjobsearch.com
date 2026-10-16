@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 23
-- automatic review: 13
-- automatic exclude: 14
+- automatic review: 11
+- automatic exclude: 13
 - effective include: 23
-- effective review: 13
-- effective exclude: 14
+- effective review: 11
+- effective exclude: 13
 
 ## INCLUDE (23)
 
@@ -208,11 +208,11 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Marketing Analytics Manager
-company: Alzheimer's Research UK - Agency - Permanent
+title: Marketing Executive - B2B Professional Services
+company: Henderson Brown Recruitment - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
-job_id: jobg8-2116781
+job_id: jobg8-23643_225674624
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -300,7 +300,7 @@ job_id: jobg8-23643_225721995
 reason: Approved conservative Cambridge launch catchment.
 ---
 
-## REVIEW (13)
+## REVIEW (11)
 
 ---
 action: 
@@ -414,35 +414,11 @@ reason: No approved Cambridge catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Project Administrator
-company: Astute People - Agency - Permanent
-location: Wisbech
-source: JobG8
-job_id: jobg8-23643_225616701
-reason: No approved Cambridge catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Project Administrator - Wisbech
 company: Adecco - Agency - Permanent
 location: Wisbech
 source: JobG8
 job_id: jobg8-23643_225642540
-reason: No approved Cambridge catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Your Recruitment Coach - Agency - Permanent
-location: Wisbech
-source: JobG8
-job_id: jobg8-23643_225614678
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
@@ -458,7 +434,7 @@ job_id: jobg8-23643_225691104
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (14)
+## EXCLUDE (13)
 
 ---
 action: 
@@ -601,18 +577,6 @@ company: The One Group - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-2089913
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Purchasing Assistant
-company: Huntress - Agency - Contract
-location: Peterborough
-source: JobG8
-job_id: jobg8-23643_225691674
 reason: Separate employment market.
 ---
 

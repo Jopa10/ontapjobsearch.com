@@ -4,7 +4,7 @@
 - Live route: `/northampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 18
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
-- automatic review: 43
+- automatic include: 17
+- automatic review: 41
 - automatic exclude: 0
-- effective include: 18
-- effective review: 43
+- effective include: 17
+- effective review: 41
 - effective exclude: 0
 
-## INCLUDE (18)
+## INCLUDE (17)
 
 ---
 action: 
@@ -184,18 +184,6 @@ reason: Exact approved Northampton workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Payroll Administrator
-company: Infinity Recruitment Consultancy Limited - Agency - Permanent
-location: Northampton
-source: JobG8
-job_id: jobg8-23643_225600194
-reason: Exact approved Northampton workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist
 company: County Surgery
 location: Northampton, NN1 4QA
@@ -240,7 +228,7 @@ job_id: jobg8-23643_225641855
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (43)
+## REVIEW (41)
 
 ---
 action: 
@@ -258,11 +246,11 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Academy Administrator
-company: Lodge Park Academy
-location: Corby
-source: Teaching Vacancies
-job_id: teaching-vacancies-academy-administrator-lodge-park-academy
+title: Accounts Assistant
+company: Impact Recruitment Services - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225722683
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -463,6 +451,18 @@ action:
 decision: review
 automatic_decision: review
 title: Finance Assistant
+company: Abacus Consulting - Agency - Temporary
+location: Wellingborough
+source: JobG8
+job_id: jobg8-23643_225728175
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
 company: Provit Recruitment - Agency - Permanent
 location: Northamptonshire
 source: JobG8
@@ -606,18 +606,6 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Project Administrator - CAD Experience
-company: ACS Staffing Solutions - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-23643_225636122
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Recruitment Administrator
 company: Ideal Recruit Ltd - Agency - Permanent
 location: Kettering
@@ -635,18 +623,6 @@ company: R&V Recruitment Ltd - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-23643_225448713
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment Resourcer / Administrator
-company: HG Recruitment Solutions - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-23643_225615919
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -719,18 +695,6 @@ company: Apex Resource Management - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-23643_225651423
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary Administrator - Immediate Start
-company: Interaction Recruitment - Agency - Temporary
-location: Corby
-source: JobG8
-job_id: jobg8-23643_225617945
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/edinburgh/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 31
+- Effective included jobs: 26
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 31
-- automatic review: 1
+- automatic include: 26
+- automatic review: 2
 - automatic exclude: 0
-- effective include: 31
-- effective review: 1
+- effective include: 26
+- effective review: 2
 - effective exclude: 0
 
-## INCLUDE (31)
+## INCLUDE (26)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant (Part-time 30 hrs)
+company: Michael Page - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-23643_225723903
+reason: Approved conservative Edinburgh launch catchment.
+---
 
 ---
 action: 
@@ -160,18 +172,6 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Evaluation and Impact Coordinator
-company: Into Film - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-23643_225633409
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: French Speaking Customer Service Advisor Edinburgh
 company: Trip.com - Agency - Permanent
 location: Edinburgh
@@ -220,18 +220,6 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Office Administrator / Finance Assistant
-company: Gondolin Land & Water Ltd - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-23643_225615039
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Part Time Administrator
 company: Office Angels - Agency - Permanent
 location: Edinburgh
@@ -261,18 +249,6 @@ company: Trip.com - Agency - Permanent
 location: Edinburgh
 source: JobG8
 job_id: jobg8-23643_225646040
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: Spire Healthcare - Company - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-23643_225613219
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -328,18 +304,6 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Temporary Administrator
-company: Escape - Agency - Temporary
-location: Edinburgh
-source: JobG8
-job_id: jobg8-23643_225614535
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Temporary HR Administrator
 company: Creideas - Agency - Temporary
 location: Edinburgh
@@ -372,31 +336,19 @@ job_id: jobg8-23643_225718450
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Theatre Administrator
-company: Spire Healthcare - Company - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-23643_225708327
-reason: Approved conservative Edinburgh launch catchment.
----
+## REVIEW (2)
 
 ---
 action: 
-decision: include
-automatic_decision: include
-title: Wholesale Service Desk (Part Time - 19 hours)
-company: Lorien - Agency - Contract
-location: Edinburgh
+decision: review
+automatic_decision: review
+title: Administrator
+company: The Channel Recruiter - Agency - Permanent
+location: Livingston
 source: JobG8
-job_id: jobg8-23643_225697241
-reason: Approved conservative Edinburgh launch catchment.
+job_id: jobg8-23643_225728259
+reason: No approved Edinburgh catchment rule matched; local review required.
 ---
-
-## REVIEW (1)
 
 ---
 action: 

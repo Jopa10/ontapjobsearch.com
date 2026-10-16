@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 56
+- automatic review: 54
 - automatic exclude: 0
 - effective include: 4
-- effective review: 56
+- effective review: 54
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: teaching-vacancies-general-support-administrator
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (56)
+## REVIEW (54)
 
 ---
 action: 
@@ -342,18 +342,6 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Finance and Bursary Administrator
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-2045343
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Assistant
 company: Build Recruitment - Agency - Permanent
 location: Devon
@@ -390,23 +378,11 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Hr Administrator
-company: KAT Recruitment - Agency - Permanent
-location: Barnstaple
-source: JobG8
-job_id: jobg8-23643_225661524
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR Administrator
-company: Whiteland Engineering Ltd - Agency - Permanent
-location: Bideford
+company: Artis Recruitment - Agency - Contract
+location: Newton Abbot
 source: JobG8
-job_id: jobg8-23643_225616634
+job_id: jobg8-23643_225618875
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -666,6 +642,18 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: Service Advisor
+company: Tru Talent - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-23643_225730206
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sustainability Coordinator
 company: Baker Snell - Agency - Contract
 location: Devon
@@ -719,18 +707,6 @@ company: Aureos Group - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225684864
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Ward Administrator
-company: Devon Partnership NHS Trust
-location: Exeter, EX2 5AF
-source: NHS Jobs
-job_id: nhs-5615165
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

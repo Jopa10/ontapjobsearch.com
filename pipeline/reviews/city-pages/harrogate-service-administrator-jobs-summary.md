@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 10
 - automatic review: 21
-- automatic exclude: 33
+- automatic exclude: 31
 - effective include: 10
 - effective review: 21
-- effective exclude: 33
+- effective exclude: 31
 
 ## INCLUDE (10)
 
@@ -210,18 +210,6 @@ reason: No approved Harrogate employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
-title: Credit Controller
-company: Si Recruitment - Agency - Permanent
-location: Catterick Garrison
-source: JobG8
-job_id: jobg8-2051167
-reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Credit Controller, Ripon
 company: Si Recruitment - Agency - Permanent
 location: Ripon
@@ -378,6 +366,18 @@ reason: No approved Harrogate employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
+title: Service Advisor
+company: Auto Skills UK - Agency - Permanent
+location: Richmond
+source: JobG8
+job_id: jobg8-23643_225729465
+reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Service Coordinator
 company: Interaction - Leeds - Agency - Permanent
 location: Malton
@@ -398,19 +398,7 @@ job_id: jobg8-23643_225666115
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (33)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administration Assistant
-company: Clear Legal & Financial Recruitment - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-23643_225702033
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
+## EXCLUDE (31)
 
 ---
 action: 
@@ -565,18 +553,6 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2057600
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Document Controller
-company: CV Technical - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-23643_225617615
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 

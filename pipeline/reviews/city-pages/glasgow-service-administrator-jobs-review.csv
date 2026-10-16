@@ -1,6 +1,5 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-2055742,Accounts Administrator,ICONIC RESOURCING LTD - Agency - Permanent,Glasgow,JobG8,include,include,Approved conservative Glasgow launch catchment.,glasgow,glasgow-service-administrator-jobs
-include,jobg8-23643_225623719,Administrator,Blue Arrow - Agency - Permanent,Glasgow,JobG8,include,include,Approved conservative Glasgow launch catchment.,glasgow,glasgow-service-administrator-jobs
 include,jobg8-23643_225641768,Administrator,VolkerWessels UK Ltd - Company - Permanent,Glasgow,JobG8,include,include,Approved conservative Glasgow launch catchment.,glasgow,glasgow-service-administrator-jobs
 include,jobg8-23643_225689338,Administrator Assistant - Immediate Start,Search Consultancy Ltd - Agency - Contract,Glasgow,JobG8,include,include,Approved conservative Glasgow launch catchment.,glasgow,glasgow-service-administrator-jobs
 include,jobg8-23643_225585982,Advertising Sales Executive,Choice Consultants - Agency - Permanent,Glasgow,JobG8,include,include,Approved conservative Glasgow launch catchment.,glasgow,glasgow-service-administrator-jobs
@@ -22,12 +21,9 @@ include,jobg8-2091438,Payroll Administrator,Reed - Agency - Permanent,Glasgow,Jo
 include,jobg8-23643_225677200,Receptionist/Administrator (Temporary - 6 months),Search Consultancy Ltd - Agency - Contract,Glasgow,JobG8,include,include,Approved conservative Glasgow launch catchment.,glasgow,glasgow-service-administrator-jobs
 include,jobg8-23643_225724778,Recruitment Coordinator,Pertemps Glasgow Perms - Agency - Temporary,Glasgow,JobG8,include,include,Approved conservative Glasgow launch catchment.,glasgow,glasgow-service-administrator-jobs
 include,jobg8-23643_225626525,Sales Coordinator,Marmon Lift Recruitment - Agency - Permanent,Glasgow,JobG8,include,include,Approved conservative Glasgow launch catchment.,glasgow,glasgow-service-administrator-jobs
-include,jobg8-23643_225616470,Temporary Administrator,Office Angels - Agency - Temporary,Glasgow,JobG8,include,include,Approved conservative Glasgow launch catchment.,glasgow,glasgow-service-administrator-jobs
 include,jobg8-23643_225637405,Temporary Customer Service Administrator,Office Angels - Agency - Temporary,Glasgow,JobG8,include,include,Approved conservative Glasgow launch catchment.,glasgow,glasgow-service-administrator-jobs
 include,jobg8-23643_225721009,Temporary Facilities Coordinator,Office Angels - Agency - Temporary,Glasgow,JobG8,include,include,Approved conservative Glasgow launch catchment.,glasgow,glasgow-service-administrator-jobs
 include,jobg8-23643_225719474,Temporary Office Administrator,Office Angels - Agency - Temporary,Glasgow,JobG8,include,include,Approved conservative Glasgow launch catchment.,glasgow,glasgow-service-administrator-jobs
-include,jobg8-23643_225617828,Temporary Receptionist / Administrator,Office Angels - Agency - Temporary,Glasgow,JobG8,include,include,Approved conservative Glasgow launch catchment.,glasgow,glasgow-service-administrator-jobs
-include,jobg8-23643_225616441,Temporary Receptionist / Front of House Administrator,Office Angels - Agency - Temporary,Glasgow,JobG8,include,include,Approved conservative Glasgow launch catchment.,glasgow,glasgow-service-administrator-jobs
 include,jobg8-23643_225673377,Temporary Support Administrator,Office Angels - Agency - Temporary,Glasgow,JobG8,include,include,Approved conservative Glasgow launch catchment.,glasgow,glasgow-service-administrator-jobs
 include,jobg8-23643_225660265,Temporary Technical Administrator,Office Angels - Agency - Temporary,Glasgow,JobG8,include,include,Approved conservative Glasgow launch catchment.,glasgow,glasgow-service-administrator-jobs
 review,jobg8-20279_63578,Sales Advisor,EE - Company - Permanent,Not Specified,JobG8,review,review,No approved Glasgow catchment rule matched; local review required.,fallback,glasgow-service-administrator-jobs

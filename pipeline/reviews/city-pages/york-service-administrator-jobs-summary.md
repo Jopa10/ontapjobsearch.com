@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
+- automatic include: 10
 - automatic review: 21
 - automatic exclude: 31
-- effective include: 12
+- effective include: 10
 - effective review: 21
 - effective exclude: 31
 
-## INCLUDE (12)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Assistant
-company: Clear Legal & Financial Recruitment - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-23643_225702033
-reason: Approved York catchment.
----
+## INCLUDE (10)
 
 ---
 action: 
@@ -69,18 +57,6 @@ company: Woldgate School and Sixth Form College
 location: York
 source: Teaching Vacancies
 job_id: teaching-vacancies-assistant-exams-officer-cover-administrator
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Document Controller
-company: CV Technical - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-23643_225617615
 reason: Approved York catchment.
 ---
 
@@ -227,18 +203,6 @@ company: SI Recruitment - Agency - Permanent
 location: Ripon
 source: JobG8
 job_id: jobg8-108060036
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Si Recruitment - Agency - Permanent
-location: Catterick Garrison
-source: JobG8
-job_id: jobg8-2051167
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -395,6 +359,18 @@ company: Search Consultancy Ltd - Agency - Permanent
 location: Malton
 source: JobG8
 job_id: jobg8-23643_225661358
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: Auto Skills UK - Agency - Permanent
+location: Richmond
+source: JobG8
+job_id: jobg8-23643_225729465
 reason: No approved York catchment rule matched; local review required.
 ---
 

@@ -1,6 +1,7 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 review,jobg8-1401785691,Children's Homes Support Worker,Hampshire County Council - Company - Permanent,Romsey,JobG8,review,review,Broad location; review before city inclusion.,context:hampshire,southampton-support-worker
 review,jobg8-107941132,Female Waking Night Support Worker,SeeAbility - Agency - Permanent,Tadley,JobG8,review,review,No approved Southampton catchment rule matched; local review required.,fallback,southampton-support-worker
+review,jobg8-108072729,Mental Healthcare Assistant,MCS Healthcare - Agency - Permanent,Fordingbridge,JobG8,review,review,No approved Southampton catchment rule matched; local review required.,fallback,southampton-support-worker
 review,jobg8-1401785799,Support Worker (Adults),Hampshire County Council - Company - Permanent,Hayling Island,JobG8,review,review,Broad location; review before city inclusion.,context:hampshire,southampton-support-worker
 review,jobg8-23643_225653471,Therapeutic Children's Support Worker,The Tiger Group Consultancy Ltd - Agency - Permanent,Colden Common,JobG8,review,review,No approved Southampton catchment rule matched; local review required.,fallback,southampton-support-worker
 review,jobg8-1401785693,Waking Night Childrens Home Support Worker,Hampshire County Council - Company - Permanent,Romsey,JobG8,review,review,Broad location; review before city inclusion.,context:hampshire,southampton-support-worker

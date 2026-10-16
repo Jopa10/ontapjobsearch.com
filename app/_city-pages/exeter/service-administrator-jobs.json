@@ -228,6 +228,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "23643_225730206",
+    "title": "Service Advisor",
+    "company": "Tru Talent - Agency - Permanent",
+    "location": "Exeter",
+    "region": "Devon",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "32600",
+    "salary_max": "32600",
+    "salary_text": "£32600 per year",
+    "posted_date": "2026-10-16",
+    "description": "Service Advisor\n\nLocation: Exeter\n\nSalary: £32,600 per annum\n\nHours: Monday-Friday, 7:00am-4:00pm or later shift options available, plus Saturdays mornings on rota\n\nJoin a busy commercial vehicle dealership as a Service Advisor, delivering excellent customer service while coordinating workshop bookings, repairs and vehicle handovers.\n\nKey Responsibilities of a Service Advisor:\n- Booking customers and accurately recording vehicle faults\n- Managing workshop loading and raising job cards\n- Keeping customers updated on repair progress and completion times\n- Explaining repairs, service requirements and warranty information\n- Arranging payments, vehicle handovers and MOT inspections\n- Promoting aftersales services and service contracts\n\nSkills and Qualifications for a Service Advisor\n\nEssential\n- Excellent customer service and communication skills\n- Strong organisation and attention to detail\n- Ability to manage bookings and prioritise workloads\n- Professional approach to handling customer queries and payments\n\nDesirable\n- Experience in a commercial vehicle dealership or workshop environment\n- Knowledge of vehicle servicing, repairs and MOT requirements\n\nClick 'Apply Now' to take the next step in your career.\n\nINDBS",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?1tcg6Aj2zaxDYAK3wYuwhjdZbsAVFKVzb",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Tru Talent",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "23643_225699564",
     "title": "Temporary Receptionist",
     "company": "Hamilton Woods - Agency - Temporary",
@@ -294,9 +319,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2325",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -316,31 +338,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0821",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5615165",
-    "source": "NHS Jobs",
-    "title": "Ward Administrator",
-    "company": "Devon Partnership NHS Trust",
-    "advertiser_name": "Devon Partnership NHS Trust",
-    "location": "Exeter, EX2 5AF",
-    "region": "Devon",
-    "salary": "£25760.00 to £27476.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-10-06T15:43:51.970547",
-    "closing_date": "2026-10-20",
-    "description": "An exciting opportunity has arisen for a Ward Administrator to join our Adult Mental Health Wards in Exeter, Wonford Site. We are looking to recruit a motivated and enthusiastic individual to join our busy team who has a flexible approach to supporting the ward team. You will need an understanding of confidentiality, possess strong communication skills and be able to work with both clinical and administration staff, members of the public, patients and electronic systems. This is a hugely rewarding and unique administration role which will give you an excellent insight into adult mental health conditions and the range of therapies and interventions that we offer. The post is permanent, up to 37.5 hours per week. Please not that this vacancy does not meet the requirement for certificate of sponsorship. The post-holder's role will be to work in partnership with the Ward Manager and MDT as Ward Administrator in the team ensuring high quality administrative support that will enable the provision of the best possible care to service-users. This role is interesting and varied, some of the main duties include: Provide support to Ward Manager and MDT Minute taking of MDTs and Business Meetings Rotas - escalate unfilled shifts and update staff working hours Ordering of ward supplies Uploading to patient and staff records Please refer to the full Job Description and Person specification attached to this advert which will provide further information on this role.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0735",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0735",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -360,9 +357,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1244",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

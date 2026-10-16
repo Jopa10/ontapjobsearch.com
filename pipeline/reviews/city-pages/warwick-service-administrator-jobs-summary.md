@@ -4,7 +4,7 @@
 - Live route: `/warwick/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,38 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 65
+- automatic include: 9
+- automatic review: 66
 - automatic exclude: 0
-- effective include: 7
-- effective review: 65
+- effective include: 9
+- effective review: 66
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (9)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant / Purchase Ledger (Manufacturing)
+company: Marc Daniels - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-23643_225726651
+reason: Exact approved Warwick workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator - GAP Claims Assessment
+company: SVB Solutions - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-23643_225731383
+reason: Exact approved Warwick workplace.
+---
 
 ---
 action: 
@@ -76,11 +100,11 @@ reason: Exact approved Warwick workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Property Litigation Paralegal
-company: Michael Page Legal - Agency - Permanent
+title: HR Officer
+company: Recruitable Staffing Solutions - Agency - Temporary
 location: Warwick
 source: JobG8
-job_id: jobg8-2074203
+job_id: jobg8-23643_225730367
 reason: Exact approved Warwick workplace.
 ---
 
@@ -88,11 +112,11 @@ reason: Exact approved Warwick workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Purchase Ledger Clerk
-company: SF Partners - Agency - Permanent
+title: Property Litigation Paralegal
+company: Michael Page Legal - Agency - Permanent
 location: Warwick
 source: JobG8
-job_id: jobg8-23643_225618000
+job_id: jobg8-2074203
 reason: Exact approved Warwick workplace.
 ---
 
@@ -108,7 +132,7 @@ job_id: jobg8-23643_225673829
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (65)
+## REVIEW (66)
 
 ---
 action: 
@@ -131,18 +155,6 @@ company: Smile Digital - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225654935
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Addington Ball Recruitment Ltd - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-2065903
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -259,10 +271,10 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Pertemps Warwickshire County Council - Agency - Temporary
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225617477
+company: Practice Plus Group - Health in Justice
+location: Rugby, CV23 8AP
+source: NHS Jobs
+job_id: nhs-5667538
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -486,6 +498,18 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Installations Coordinator
+company: Arden Personnel - Agency - Permanent
+location: Alcester
+source: JobG8
+job_id: jobg8-23643_225727031
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Jaguar Land Rover Service Advisor
 company: Sytner - Company - Permanent
 location: Warwickshire
@@ -515,6 +539,18 @@ company: TalentTech Recruitment - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-2056868
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Executive
+company: TalentTech Recruitment Ltd - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225672914
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -563,18 +599,6 @@ company: Four Squared - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-2076444
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part-time Administrator
-company: Pertemps Warwickshire County Council - Agency - Temporary
-location: Leamington Spa
-source: JobG8
-job_id: jobg8-23643_225617314
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -738,11 +762,11 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Purchase Ledger Clerk
-company: SF Partners - Agency - Permanent
+title: Quality Administrator
+company: Sustainable Building Services - Agency - Permanent
 location: Coventry
 source: JobG8
-job_id: jobg8-2076932
+job_id: jobg8-23643_225730944
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -839,6 +863,18 @@ company: TalentTech Recruitment - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-2056727
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Senior Marketing Executive
+company: TalentTech Recruitment Ltd - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225672723
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

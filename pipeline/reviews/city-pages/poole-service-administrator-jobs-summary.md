@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 15
-- automatic review: 37
+- automatic review: 38
 - automatic exclude: 0
 - effective include: 15
-- effective review: 37
+- effective review: 38
 - effective exclude: 0
 
 ## INCLUDE (15)
@@ -204,7 +204,7 @@ job_id: nhs-5655858
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (37)
+## REVIEW (38)
 
 ---
 action: 
@@ -414,18 +414,6 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: English Department Administrator & Librarian
-company: The Bishop of Winchester Academy
-location: Bournemouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-english-department-administrator-librarian
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Assistant
 company: Reed - Agency - Permanent
 location: Dorset
@@ -479,6 +467,18 @@ company: Dovetail Recruitment Ltd - Agency - Permanent
 location: Christchurch
 source: JobG8
 job_id: jobg8-23643_225663991
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Accounts Assistant
+company: CMA Recruitment Group - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225689189
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -599,6 +599,18 @@ company: The Panton Practice
 location: Bournemouth, BH1 3EG, BOURNEMOUTH, BH8 8QN
 source: NHS Jobs
 job_id: nhs-5651442
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment Coordinator
+company: Rubicon Recruitment - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225728966
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

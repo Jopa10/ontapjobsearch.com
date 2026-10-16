@@ -4,7 +4,7 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 8
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 58
+- automatic include: 9
+- automatic review: 57
 - automatic exclude: 30
-- effective include: 8
-- effective review: 58
+- effective include: 9
+- effective review: 57
 - effective exclude: 30
 
-## INCLUDE (8)
+## INCLUDE (9)
 
 ---
 action: 
@@ -120,7 +120,19 @@ job_id: nhs-5649373
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (58)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Team Administrator
+company: Sussex Partnership NHS Foundation Trust
+location: Brighton, BN2 3EW
+source: NHS Jobs
+job_id: nhs-5667013
+reason: Approved Brighton & Hove catchment.
+---
+
+## REVIEW (57)
 
 ---
 action: 
@@ -187,11 +199,11 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Travail Employment Group - Agency - Permanent
-location: Burgess Hill
+company: Morgan Mckinley (Crawley) - Agency - Contract
+location: Sussex
 source: JobG8
-job_id: jobg8-23643_225614915
-reason: No approved Brighton & Hove catchment rule matched; local review required.
+job_id: jobg8-23643_225731906
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -235,10 +247,10 @@ action:
 decision: review
 automatic_decision: review
 title: Bookkeeper
-company: First Recruitment Services - Agency - Permanent
+company: Lloyd Recruitment - East Grinstead - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-23643_225593170
+job_id: jobg8-23643_225722548
 reason: Broad location; review before city inclusion.
 ---
 
@@ -330,18 +342,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Care Administrator - Immediate Start
-company: Office Angels - Agency - Temporary
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225617117
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Credit Controller
 company: Paula Rosa Manhattan - Agency - Permanent
 location: Sussex
@@ -372,6 +372,18 @@ location: Sussex
 source: JobG8
 job_id: jobg8-2056847
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Sales Executive
+company: Office Angels - Agency - Permanent
+location: Burgess Hill
+source: JobG8
+job_id: jobg8-23643_225673926
+reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
 ---
@@ -450,35 +462,11 @@ reason: No approved Brighton & Hove catchment rule matched; local review require
 action: 
 decision: review
 automatic_decision: review
-title: Delivery Team Security Lead (Security Assurance Coordinator)
-company: Carbon 60 - Agency - Contract
-location: Southwick
-source: JobG8
-job_id: jobg8-23643_225712271
-reason: No approved Brighton & Hove catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: E-commerce Coordinator
 company: Pineapple Careers - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2050401
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Administrator
-company: Harvey John - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2046336
 reason: Broad location; review before city inclusion.
 ---
 
@@ -540,6 +528,18 @@ location: Sussex
 source: JobG8
 job_id: jobg8-23643_225658603
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Internal Sales Account Manager - Print Industry
+company: Kairos Recruitment - Agency - Permanent
+location: Newhaven
+source: JobG8
+job_id: jobg8-23643_225674649
+reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
 ---
@@ -642,18 +642,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: PR Account Manager
-company: Alexander James Recruitment ltd - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225617611
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Reception / Administrator - Immediate Start
 company: Office Angels - Agency - Contract
 location: Sussex
@@ -683,6 +671,18 @@ company: Grafters Recruitment Consultants Ltd - Agency - Temporary
 location: Sussex
 source: JobG8
 job_id: jobg8-23643_225448794
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment Officer
+company: Tate - Agency - Temporary
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225726103
 reason: Broad location; review before city inclusion.
 ---
 
@@ -837,6 +837,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Accounts Assistant
+company: Alexander Lloyd - Agency - Permanent
+location: Crawley
+source: JobG8
+job_id: jobg8-1992013
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
 company: CMA Recruitment Group - Agency - Permanent
 location: Bognor Regis
 source: JobG8
@@ -908,11 +920,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administrative Assistant
-company: Heron Park Primary Academy
-location: Eastbourne
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-91c2bb10-6af8-4419-845b-e5add4b37610
+title: Admin Assistant
+company: Sussex Partnership NHS Foundation Trust
+location: Eastbourne, BN21 3UU
+source: NHS Jobs
+job_id: nhs-5667249
 reason: Separate employment market.
 ---
 
@@ -1100,18 +1112,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Sales Administrator
-company: Adecco - Agency - Temporary
-location: Bognor Regis
-source: JobG8
-job_id: jobg8-23643_225617329
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Sales Executive
 company: Hays Collections Ltd - Agency - Permanent
 location: Crawley
@@ -1172,10 +1172,10 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Team Administrator
-company: Sussex Community NHS Foundation Trust
-location: Horsham, RH12 2DR
+title: Ward Administrator
+company: Sussex Partnership NHS Foundation Trust
+location: Chichester, PO196GS
 source: NHS Jobs
-job_id: nhs-5655598
+job_id: nhs-5667423
 reason: Separate employment market.
 ---

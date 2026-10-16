@@ -4,7 +4,7 @@
 - Live route: `/milton-keynes/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 18
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
-- automatic review: 60
+- automatic include: 16
+- automatic review: 55
 - automatic exclude: 0
-- effective include: 18
-- effective review: 60
+- effective include: 16
+- effective review: 55
 - effective exclude: 0
 
-## INCLUDE (18)
+## INCLUDE (16)
 
 ---
 action: 
@@ -136,18 +136,6 @@ reason: Exact approved Milton Keynes workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Advisor
-company: Pro Staff Recruitment Ltd - Agency - Temporary
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-23643_225640517
-reason: Exact approved Milton Keynes workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Import & Export Administrator
 company: Insight Employment - Agency - Permanent
 location: Milton Keynes
@@ -197,18 +185,6 @@ action:
 decision: include
 automatic_decision: include
 title: Receptionist
-company: Osborne Appointments - Agency - Temporary
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-23643_225719288
-reason: Exact approved Milton Keynes workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
 company: Purbeck Health Centre
 location: Milton Keynes, MK14 6BL
 source: NHS Jobs
@@ -240,7 +216,7 @@ job_id: jobg8-23643_225635978
 reason: Exact approved Milton Keynes workplace.
 ---
 
-## REVIEW (60)
+## REVIEW (55)
 
 ---
 action: 
@@ -486,18 +462,6 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Care Coordinator
-company: CityWorx - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225395997
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Client Care Co-Ordinator
 company: 2i Recruit Ltd - Agency - Permanent
 location: Beaconsfield
@@ -570,18 +534,6 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Administrator / Telephone Operator
-company: Pertemps Milton Keynes - Agency - Temporary
-location: Aylesbury
-source: JobG8
-job_id: jobg8-23643_225614412
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Service Advisor
 company: Agria Pet Insurance - Agency - Permanent
 location: Buckinghamshire
@@ -630,18 +582,6 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Family Law Paralegal
-company: GEMINI RECRUITMENT SERVICES LTD - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-2087528
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Assistant
 company: Fremaux Delorme Co Ltd - Agency - Permanent
 location: Aylesbury
@@ -654,35 +594,11 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Fundraising Coordinator
-company: Lymphoma Action - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-2116776
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Health Records Clerical Assistant
 company: NHS Professionals - Company - Temporary
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225650775
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Immigration Paralegal
-company: GEMINI RECRUITMENT SERVICES LTD - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-2088088
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -834,11 +750,11 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Project Co-ordinator
-company: Pertemps Milton Keynes - Agency - Temporary
-location: Buckinghamshire
+title: Procurement Coordinator
+company: Matchtech - Agency - Permanent
+location: Buckingham
 source: JobG8
-job_id: jobg8-23643_225617440
+job_id: jobg8-23643_225621100
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -918,11 +834,11 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Sales Coordinator
-company: Reevr Talent Ltd - Agency - Permanent
-location: High Wycombe
+title: Sales Administrator (12 month FTC) - Milton Keynes
+company: Guidant Global - Agency - Contract
+location: Buckinghamshire
 source: JobG8
-job_id: jobg8-23643_225617836
+job_id: jobg8-23643_225722698
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

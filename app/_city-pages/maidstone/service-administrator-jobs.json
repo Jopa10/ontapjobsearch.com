@@ -125,6 +125,25 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "nhs-5668064",
+    "source": "NHS Jobs",
+    "title": "Administrator",
+    "company": "Kent and Medway Mental Health NHS Trust",
+    "advertiser_name": "Kent and Medway Mental Health NHS Trust",
+    "location": "Maidstone, ME14 5NZ",
+    "region": "Kent",
+    "salary": "£25760.00 to £27476.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-15T15:16:42.793944371",
+    "closing_date": "2026-10-29",
+    "description": "We are looking for dynamic, self-motivated, forward-thinking Administrators. The position will be with Kent and Medway Mental Health Support Teams (Schools) posts are full-time post (37.5 hours per week). You will provide full secretarial and administrative support to the service. These posts are due to service expansion and investment and we are excited to see innovation in our service. Our Admin base is within Maidstone Studios, Vinters Business Park, New Cut Road ME14 5NZ We are a School based service working to support Children and Young People in Schools with Emotional Wellbeing and Mental Health. Please see our website for overview of the service. Kent Emotional Wellbeing Teams and Medway Emotional Support Teams - Kent and Medway Mental Health NHS Trust Ideally, you'll be educated to GCSE in Maths and English or equivalent and NVQ Level 2/RSA2 or equivalent. You'll either have past customer service experience, or, a brilliant understanding of what makes a great service experience. Confident, professional, organised and with a keen eye for detail. With experience in MS Office, you'll know your way around Outlook, Excel, Word & MS Teams, and understanding of Co-Piolet and SharePoint is a bonus . Our Admin team need to stay calm and professional at all times, and make sure that you put the needs of our patients at the forefront. Process confidential information. Open referrals. Write letters. Management of shared emails. Booking of appointments. Minute taking. Arranging meetings and events. Ordering of stationery and other supplies. Managing calls and oversight of rotas. Please see the attached job description for full details of the main duties and responsibilities of the role. Please also give us a call to find out more about the service and the role. Please kindly note that the MHST office at Maidstone Studios is not wheelchair accessible.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0852",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0852",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5653607",
     "source": "NHS Jobs",
     "title": "Administrative Assistant",
@@ -141,31 +160,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0825",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5635869",
-    "source": "NHS Jobs",
-    "title": "Administrator",
-    "company": "Kent and Medway Mental Health NHS Trust",
-    "advertiser_name": "Kent and Medway Mental Health NHS Trust",
-    "location": "Maidstone, ME16 9QQ",
-    "region": "Kent",
-    "salary": "£24625.00 to £25674.00",
-    "employment_type": "Fixed-Term",
-    "posted_date": "2026-10-01T14:38:36.992306943",
-    "closing_date": "2026-10-15",
-    "description": "This office-based role provides a high level of administration support to the Maidstone and Pembury Liaison Psychiatry Service in its 24-hour provision of mental health assessments for individuals who attend the Emergency Department or are admitted on medical/surgical wards and have mental health needs. The post may provide back-up support to the other West Kent hospital site, which may require very occasional travel to Tunbridge Wells Hospital - most of this support can be provided remotely from Maidstone Hospital. Provide comprehensive admin support to the team/service. Support the team manager with staffing levels, covering shifts and booking NHSP bank/agency staff. Answer telephone calls and take messages or divert to the relevant person. Provide support with caseload management using Rio, including monitoring to ensure all mandatory documentation has been completed. Monitor various data sources to ensure accuracy. Monitor Business Intelligence reports for performance compliance and highlight and rectify any errors. Ensure resources (such as forms, leaflets, documents) and supplies for the team are replenished and ordered in a timely manner. Keep accurate and up-to-date service data records. Send invites and produce meeting agendas, minutes other meeting papers. Maintain and update information resources in the office. Please refer to the attached job description for the full details on the responsibilities and person specification.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0797",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9380-26-0797",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -185,9 +179,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0525-26-0013",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

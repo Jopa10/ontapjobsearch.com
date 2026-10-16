@@ -1,5 +1,6 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-2024835,Administrator,Reed - Agency - Permanent,Doncaster,JobG8,include,include,Approved Doncaster catchment.,doncaster,doncaster-service-administrator-jobs
+include,jobg8-23643_225731038,Administrator,Venatu Consulting Ltd - Agency - Temporary,Doncaster,JobG8,include,include,Approved Doncaster catchment.,doncaster,doncaster-service-administrator-jobs
 include,jobg8-2055573,Assistant Accountant,Sharp Consultancy - Agency - Permanent,Doncaster,JobG8,include,include,Approved Doncaster catchment.,doncaster,doncaster-service-administrator-jobs
 include,jobg8-20279_63174-89740a075c6163b74ea2c52702062e5d,Call Centre Agent,EE - Company - Permanent,Doncaster,JobG8,include,include,Approved Doncaster catchment.,doncaster,doncaster-service-administrator-jobs
 include,jobg8-20279_63174-73862c8b83139033e4e4a8b6efca9a33,Call Centre Operator,EE - Company - Permanent,Doncaster,JobG8,include,include,Approved Doncaster catchment.,doncaster,doncaster-service-administrator-jobs
@@ -7,15 +8,16 @@ include,jobg8-20279_63174-d24d3d6916a209e15b1680693740da2f,Contact Centre Agent,
 include,jobg8-23643_225686056,Customer Service Administrator,Office Angels - Agency - Permanent,Doncaster,JobG8,include,include,Approved Doncaster catchment.,doncaster,doncaster-service-administrator-jobs
 include,jobg8-23643_225691891,Customer Service Adviser,Unipart - Agency - Permanent,Doncaster,JobG8,include,include,Approved Doncaster catchment.,doncaster,doncaster-service-administrator-jobs
 include,jobg8-20279_63174-153faf593eb64b88272f45adeaa28d87,Customer Service Advisor,EE - Company - Permanent,Doncaster,JobG8,include,include,Approved Doncaster catchment.,doncaster,doncaster-service-administrator-jobs
-include,jobg8-23643_225668765,Graduate Administrator,Venatu Consulting Ltd - Agency - Permanent,Doncaster,JobG8,include,include,Approved Doncaster catchment.,doncaster,doncaster-service-administrator-jobs
 include,jobg8-23643_225726094,HR & Operations Coordinator,Carrington West - Agency - Permanent,Doncaster,JobG8,include,include,Approved Doncaster catchment.,doncaster,doncaster-service-administrator-jobs
 include,jobg8-23643_225673478,HR Assistant,Talent-UK Ltd - Agency - Permanent,Doncaster,JobG8,include,include,Approved Doncaster catchment.,doncaster,doncaster-service-administrator-jobs
 include,jobg8-23643_225720547,Payroll Administrator,Edwards & Pearce - Agency - Permanent,Doncaster,JobG8,include,include,Approved Doncaster catchment.,doncaster,doncaster-service-administrator-jobs
+include,jobg8-23643_225690014,Payroll Administrator,JGA Recruitment - Agency - Permanent,Doncaster,JobG8,include,include,Approved Doncaster catchment.,doncaster,doncaster-service-administrator-jobs
 include,jobg8-2092531,Payroll Administrator,Marks Sattin - Agency - Permanent,Doncaster,JobG8,include,include,Approved Doncaster catchment.,doncaster,doncaster-service-administrator-jobs
 include,jobg8-2028957,Payroll and Accounts Assistant,Elevation Recruitment Group - Agency - Permanent,Doncaster,JobG8,include,include,Approved Doncaster catchment.,doncaster,doncaster-service-administrator-jobs
 include,jobg8-23643_225660075,Procurement Administrator -Temporary,Hays Business Support - Agency - Temporary,Doncaster,JobG8,include,include,Approved Doncaster catchment.,doncaster,doncaster-service-administrator-jobs
 include,jobg8-23643_225706715,Production Administrator,Chesterfield Poultry - Agency - Permanent,Doncaster,JobG8,include,include,Approved Doncaster catchment.,doncaster,doncaster-service-administrator-jobs
 include,nhs-5647395,Receptionist,White House Farm Medical Centre,"Doncaster, DN3 3AH",NHS Jobs,include,include,Approved Doncaster catchment.,doncaster,doncaster-service-administrator-jobs
+include,jobg8-23643_225639569,Recruitment Account Coordinator,Nexus People - Agency - Temporary,Doncaster,JobG8,include,include,Approved Doncaster catchment.,doncaster,doncaster-service-administrator-jobs
 review,jobg8-23643_225700713,Factory Administrator,E3 Recruitment - Agency - Permanent,Brinsworth,JobG8,review,review,No approved Doncaster catchment rule matched; local review required.,fallback,doncaster-service-administrator-jobs
 review,jobg8-2067582,Income Assistant / Finance Administrator - Local Authority,Reed - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Doncaster catchment rule matched; local review required.,fallback,doncaster-service-administrator-jobs
 review,jobg8-23643_225718956,Payroll Officer,Portfolio Payroll Limited - Agency - Contract,Yorkshire,JobG8,review,review,No approved Doncaster catchment rule matched; local review required.,fallback,doncaster-service-administrator-jobs
@@ -24,6 +26,7 @@ exclude,jobg8-23643_225635569,Accounts Payable Interim,Michael Page - Agency - T
 exclude,teaching-vacancies-admin-clerical-officer-level-2-rowan-school-the-rowan-school,Admin & Clerical Officer Level 2 Rowan School,The Rowan School,Sheffield,Teaching Vacancies,exclude,exclude,Separate employment market.,sheffield,doncaster-service-administrator-jobs
 exclude,jobg8-23643_225613243,Administration Co-ordinator,Sue Ross Recruitment Ltd - Agency - Contract,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,doncaster-service-administrator-jobs
 exclude,nhs-5654236,Administrative Assistant,The Rotherham NHS Foundation Trust,"Rotherham, S60 2UD",NHS Jobs,exclude,exclude,Separate employment market.,rotherham,doncaster-service-administrator-jobs
+exclude,jobg8-23643_225731356,Administrator,Adecco - Agency - Temporary,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,doncaster-service-administrator-jobs
 exclude,jobg8-23643_225704747,Administrator,Caval Limited - Agency - Permanent,Barnsley,JobG8,exclude,exclude,Separate employment market.,barnsley,doncaster-service-administrator-jobs
 exclude,jobg8-23643_225653889,Administrator,Rullion - Eon - Agency - Temporary,Barnsley,JobG8,exclude,exclude,Separate employment market.,barnsley,doncaster-service-administrator-jobs
 exclude,jobg8-23643_225685872,Administrator,TSR Recruitment Limited - Agency - Permanent,Barnsley,JobG8,exclude,exclude,Separate employment market.,barnsley,doncaster-service-administrator-jobs
@@ -37,7 +40,6 @@ exclude,nhs-5662272,Clerical Officer/Receptionist,Sheffield Teaching Hospitals N
 exclude,jobg8-23643_225627138,COMMERCIAL ADMINISTRATOR,Resolve Personnel - Agency - Contract,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,doncaster-service-administrator-jobs
 exclude,jobg8-23643_225679767,Counter - Customer Service Assistant,Lynx Employment Services Ltd - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,doncaster-service-administrator-jobs
 exclude,jobg8-2043404,Credit Controller,Sharp Consultancy - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,doncaster-service-administrator-jobs
-exclude,jobg8-23643_225702030,Credit Controller/Accounts Assistant,Shillito Group - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,doncaster-service-administrator-jobs
 exclude,nhs-5627333,GP Receptionist,Elm Lane & Chapeltown Surgery,"Sheffield, S5 7TW, SHEFFIELD, S35 1TD",NHS Jobs,exclude,exclude,Separate employment market.,sheffield,doncaster-service-administrator-jobs
 exclude,jobg8-23643_225707290,Hr Coordinator,Connected Search Group - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,doncaster-service-administrator-jobs
 exclude,jobg8-2014257,Insolvency Case Administrator,GGT Insolvency Recruitment - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,doncaster-service-administrator-jobs
@@ -52,6 +54,6 @@ exclude,jobg8-23643_225694244,Purchase Ledger Clerk,Albion Search - Agency - Per
 exclude,jobg8-2063431,Purchase Ledger Clerk,PRATAP PARTNERSHIP LTD - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,doncaster-service-administrator-jobs
 exclude,jobg8-2087559,Purchase Ledger Clerk,PRATAP PARTNERSHIP LTD - Agency - Permanent,Rotherham,JobG8,exclude,exclude,Separate employment market.,rotherham,doncaster-service-administrator-jobs
 exclude,jobg8-23643_225726240,Receptionist,Red Sector Recruitment Limited - Agency - Temporary,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,doncaster-service-administrator-jobs
-exclude,jobg8-23643_225666843,Receptionist,Sue Ross Recruitment Ltd - Agency - Permanent,Sheffield,JobG8,exclude,exclude,Separate employment market.,sheffield,doncaster-service-administrator-jobs
 exclude,teaching-vacancies-receptionist-admin-assistant-willow-tree-academy,Receptionist & Admin Assistant,Willow Tree Academy,Rotherham,Teaching Vacancies,exclude,exclude,Separate employment market.,rotherham,doncaster-service-administrator-jobs
 exclude,teaching-vacancies-send-administrator-adcabd9c-b940-45d0-a8f0-52fec00f63a2,SEND Administrator,Aston Academy,Sheffield,Teaching Vacancies,exclude,exclude,Separate employment market.,sheffield,doncaster-service-administrator-jobs
+exclude,jobg8-23643_225728023,Volunteer Coordinator,Rotherham Hospice - Agency - Permanent,Brinsworth,JobG8,exclude,exclude,Separate employment market.,context:rotherham,doncaster-service-administrator-jobs
