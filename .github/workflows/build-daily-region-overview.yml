@@ -7,6 +7,7 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/build-daily-region-overview.yml'
+      - 'pipeline/tests/test_build_daily_region_overview.py'
       - 'pipeline/scripts/verify_overview_production.py'
       - 'pipeline/scripts/build_verified_region_overview.py'
   workflow_dispatch:

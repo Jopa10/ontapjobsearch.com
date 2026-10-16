@@ -71,7 +71,25 @@ class LiveRegionalRollupTests(unittest.TestCase):
         }
         self.assertTrue(london_admin_routes.issubset(routes))
         self.assertTrue({"/nottingham/jobs", "/wakefield/jobs", "/salford/jobs"}.issubset(routes))
-        self.assertEqual(counts["City"], 64)
+        # Reconcile to governed active routes; launches must not break reporting.
+        import json
+        from pathlib import Path
+
+        registers = Path(__file__).resolve().parents[1] / "city_pages"
+        family_pages = json.loads((registers / "city-page-register.json").read_text())
+        broad_pages = json.loads((registers / "broad-city-page-register.json").read_text())
+        expected_city_routes = {
+            row["route"].strip() for row in family_pages
+            if row.get("lifecycle_state") == "active"
+            and row.get("mode") == "publish" and row.get("route")
+        } | {
+            row["route"].strip() for row in broad_pages
+            if row.get("lifecycle_state") == "active" and row.get("route")
+        }
+        city_routes = [row[4] for row in rows if row[0] == "Detail" and row[1] == "City"]
+        self.assertSetEqual(set(city_routes), expected_city_routes)
+        self.assertEqual(len(city_routes), len(expected_city_routes))
+        self.assertEqual(counts["City"], len(expected_city_routes))
 
     def test_family_coverage_requires_one_feed_date(self) -> None:
         from pathlib import Path
