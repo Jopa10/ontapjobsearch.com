@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-10-16
-review_fingerprint: 0657071379a2c50ee89f3a5cf6713d63fc29e9c7c4060d510464a901f1c0183f
+review_date: 2026-10-17
+review_fingerprint: ceb61b246dc9139233084cb2646fb14f2833f4164769bcb7c4e74211e82fa924
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,9 +10,9 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-10-16T12:47:24+01:00
+Run generated: 2026-10-17T12:04:17+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 413
+JobG8 comparison rows: 432
 Approved NEJobs comparison rows: 0
 
 ## Funnel
@@ -31,8 +31,8 @@ Approved NEJobs comparison rows: 0
 - POSS: 6
 - HARD_PASS: 5
 - Final selected after remembered/manual actions: 1
-- Final POSS awaiting decision: 4
-- Manually excluded: 2
+- Final POSS awaiting decision: 5
+- Manually excluded: 1
 ## Detail diagnostics
 - No unresolved detail-page failures.
 
@@ -93,15 +93,15 @@ source_job_id: 173521
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173521
 ---
 ---
-action: exclude
+action:
 POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £30,303 to 35,781 Per Annum | Housing Coordinator
 employer: The Angelou Centre
 closing_date: Saturday, October 31, 2026 - 05:00
 geography: CONFIRMED — location: approved location fallback
-reason: possible cross-source duplicate requires review
+reason: transferable title with specialist or borderline wording: housing
 source: VONNE
 tracking_key: vonne-173522
-vacancy_fingerprint: 61c24dc341e1a13672ae87098d2c61e64cb2480c2d25c2dd52f8d24aa08c9c73
+vacancy_fingerprint: 5cff7a254c5e2857818e5d08eba57442fdd870b1ae43512b72aca1e745557b98
 source_job_id: 173522
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173522
 ---
@@ -138,7 +138,7 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173537
 ## HARD_PASS
 
 - [Chief Executive](https://www.vonne.org.uk/vonne-jobs-details?cid=173526) — out-of-scope VONNE occupation.
-- [COMMUNITY LINK WORKER](https://www.vonne.org.uk/vonne-jobs-details?cid=173544) — out-of-scope VONNE occupation.
+- [Community Link Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173544) — out-of-scope VONNE occupation.
 - [Employability and Skills Mentor](https://www.vonne.org.uk/vonne-jobs-details?cid=173545) — insufficient service-admin evidence.
 - [Independent Advocate](https://www.vonne.org.uk/vonne-jobs-details?cid=173539) — insufficient service-admin evidence.
 - [Interim Chief Executive Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173518) — out-of-scope VONNE occupation.
