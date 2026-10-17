@@ -390,31 +390,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225627138",
-    "title": "COMMERCIAL ADMINISTRATOR",
-    "company": "Resolve Personnel - Agency - Contract",
-    "location": "Sheffield",
-    "region": "Yorkshire - South",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Contract",
-    "salary_min": "13.33",
-    "salary_max": "14.42",
-    "salary_text": "£13.33 - £14.42 per hour",
-    "posted_date": "",
-    "description": "We are currently recruiting for a Commercial Administrator for a well known Utility Company based in Sheffield. The duties would be to support the teams with raising purchase orders, invoicing, updating job statuses, client liaison and general Administration duties as below: - Maintain supplier and subcontractor databases, including contact information, qualifications, and performance records. - Coordinate with procurement and logistics teams to ensure timely delivery of materials and equipment to construction sites - Organize and maintain documents and records, including contracts, purchase orders, invoices and correspondence. - Prepare and distribute reports and other documents for internal and external stakeholders. - Assist in data entry, database management, Excel spreadsheet management and information retrieval using software and tools. The hours are Monday to Friday from 7am to 4pm and the rate is 13.33 - 14.42 per hour, dependant on experience. This is an ongoing temporary role.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBZXDousBbFAtXOOwof5VDQ2k",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Resolve Personnel",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "2033599",
     "title": "Audience Development Coordinator - Local Authority - Libraries",
     "company": "Reed - Agency - Permanent",
@@ -486,6 +461,31 @@
     "advertiser_name": "Sue Ross Recruitment Ltd",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225727950",
+    "title": "Reablement Care Coordinator",
+    "company": "Belmont Recruitment - Agency - Contract",
+    "location": "Sheffield",
+    "region": "Yorkshire - South",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Contract",
+    "salary_min": "17.18",
+    "salary_max": "17.18",
+    "salary_text": "£17.18 per hour",
+    "posted_date": "",
+    "description": "Belmont Recruitment are currently looking for an experienced Adult Social Care Practitioner to join Sheffield City Council's Reablement Team on an initial 6 month temporary contract. This is a full-time role working 37 hours per week, Monday to Friday.\n\nYou will be responsible for assessing the needs of adults requiring social care support, developing individual care and support plans, and completing reviews to promote independence, wellbeing and positive outcomes. You will work collaboratively with individuals, carers, health professionals and community organisations, ensuring support is delivered in line with the Care Act 2014.\n\nKey Responsibilities\n- Complete Care Act 2014 assessments to identify eligible care and support needs.\n- Develop person-centred care and support plans in partnership with individuals and their carers.\n- Conduct reviews of care and support arrangements, ensuring needs are being met effectively.\n- Carry out risk assessments and identify appropriate measures to reduce risks.\n- Promote independence, choice, recovery and wellbeing through a strengths-based approach.\n- Identify and respond to safeguarding concerns, following relevant policies and procedures.\n- Provide information, advice and signposting to housing, welfare benefits and other relevant support services.\n- Undertake home visits across Sheffield to assess needs and provide support.\n\nRequirements\n- NVQ Level 3 or equivalent relevant qualification, or the ability to demonstrate competence at this level.\n- Experience working with adults with physical disabilities, mental health conditions or other social care needs.\n- Knowledge of the Care Act 2014, Mental Capacity Act 2005 and safeguarding procedures.\n- Experience completing assessments, care planning and risk assessments.\n\nPlease apply with an up to date CV ASAP if this role would be of interest to you!",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?ju9emE%2fz0VK9fjWigjWMwUqE9NyUobufw",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Belmont Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
     "salary_period": "Hourly",
     "posted_date_basis": ""
   },
@@ -1180,7 +1180,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1206-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1206-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5662272",
@@ -1198,7 +1202,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9190-26-0638",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9190-26-0638",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5657398",
@@ -1216,7 +1224,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9190-26-0633",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9190-26-0633",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5647395",
@@ -1234,7 +1246,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3742-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3742-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5630483",
@@ -1252,7 +1268,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5192-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5192-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5627333",
@@ -1270,6 +1290,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1111-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1111-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

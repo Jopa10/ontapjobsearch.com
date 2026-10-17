@@ -984,56 +984,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "108171163",
-    "title": "Credit Controller",
-    "company": "RECfinancial - Agency - Permanent",
-    "location": "Norfolk",
-    "region": "Norfolk",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "29999",
-    "salary_max": "29999",
-    "salary_text": "£29999 per year",
-    "posted_date": "",
-    "description": "Our client a successful growing organisation that's going through a period of change is looking to recruit an experienced Credit Controller, based at their offices in Norwich.\n\nWe're looking for an experienced Credit Controller to manage a portfolio of accounts ensuring debt is collected in a timely fashion, queries are resolved and that credit limits are maximised to enable additional sales click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBb2%2fL9VJKkSLUW8tesTHYljk",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "RECfinancial",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "23643_225623176",
-    "title": "M&E Estimating Administrator",
-    "company": "Curve Recruitment - Agency - Permanent",
-    "location": "Norfolk",
-    "region": "Norfolk",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "30000",
-    "salary_text": "£28000 - £30000 per year",
-    "posted_date": "",
-    "description": "Job Title: Estimating Administrator (M&E)\n\nLocation: Norwich, Norfolk\n\nSalary: 28,000 - 30,000\n\nBenefits: 25 days holiday + Bank Holidays, Company Pension, Healthcare\n\nA reputable regional M&E Contractor is looking for an Estimating Administrator to join their established team in Norwich. The company provides M&E services to a wide range of clients across a variety of sectors including Commercial, Education, Research & Technology, Healthcare and Leisure. These projects are typically valued between 2m and 6m.\n\nThis is an excellent opportunity for an organised and proactive administrator who is looking to develop their career within the M&E / Building Services sector, working closely with experienced Estimators, Project Managers, clients, suppliers and subcontractors.\n\nAs the M&E Estimating Administrator, you will provide essential administrative and coordination support throughout the tender process, helping to ensure enquiries are accurately recorded, information is issued on time and tenders are completed within deadlines.\n\nAs the Estimating Administrator, you will have the following responsibilities:\n- Providing day-to-day administrative support to the M&E estimating team.\n- Logging and managing incoming tender enquiries and maintaining accurate records.\n- Preparing and issuing tender enquiries to suppliers and subcontractors.\n- Collating quotations, returns and supporting documentation for Estimators.\n- Following up suppliers and subcontractors to ensure quotations are received within required timescales.\n- Maintaining tender trackers and monitoring key deadlines.\n- Assisting with the preparation and submission of tender documentation.\n- Organising drawings, specifications, schedules and other tender information.\n- Uploading and downloading tender information through relevant client and procurement portals.\n- Liaising with Estimators, Project Managers, suppliers, subcontractors and clients as required.\n- Maintaining accurate cost and supplier databases.\n- Supporting the Estimating team with general administration and document control.\n\nSuccessful applicants will have the following qualifications and experience:\n- Previous experience within an administrative, coordination or document control role, ideally within M&E, building services or construction.\n- Excellent organisational and time-management skills.\n- Strong attention to detail and accuracy.\n- Good knowledge of Microsoft Office particularly Excel, Word and Outlook.\n- Confident communication skills and the ability to liaise with suppliers, subcontractors and internal teams.\n- The ability to manage multiple tasks and deadlines effectively.\n- A proactive approach with the ability to work independently and as part of a team.\n- The ability to plan, co-ordinate and prioritise tenders.\n\nPlease contact Adam Brown on (phone number removed) / (phone number removed) for more information about this role or if you are interested in a new opportunity within the Building Services sector (M&E Estimating Administrator, Estimating Assistant, Pre-Construction Administrator, M&E Administrator, Construction Administrator or Document Controller)",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbyE385lUZfeDYiKuvRGzALVt",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Curve Recruitment",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225735943",
     "title": "Service Advisor",
     "company": "Perfect Placement - Agency - Permanent",
@@ -1224,7 +1174,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9448-26-0379",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9448-26-0379",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5663281",
@@ -1242,7 +1196,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9839-26-0400",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9839-26-0400",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5642277",
@@ -1260,7 +1218,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4266-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4266-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5668486",
@@ -1278,7 +1240,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9426-26-0373",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9426-26-0373",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5665007",
@@ -1296,7 +1262,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9177-26-0424",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9177-26-0424",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5572899",
@@ -1314,6 +1284,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0782",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0782",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

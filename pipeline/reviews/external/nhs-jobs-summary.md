@@ -2,11 +2,11 @@
 
 review_date: 2026-10-17
 
-- Open Administrative & Clerical rows reviewed: 2357
+- Open Administrative & Clerical rows reviewed: 2356
 - Auto/remembered selected: 397
 - Selected HC Tier A: 206
 - Selected HC Tier B: 191
-- POSS awaiting decision: 1853
+- POSS awaiting decision: 1852
 - Excluded: 0
 - HARD_PASS: 107
 
@@ -1102,18 +1102,6 @@ region: Essex
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-2502
 factual_fingerprint: c4e27476a4cb1f707522a01ab2662585982a9608e12727a642ca1d7a47ee7752
----
-
----
-action:
-POSS | NHS Jobs | — | Basildon Essex, SS16 5NL | £25272.00 | (**) Medical Ward Clerk - Surgical Same Day Emergency Care (SSDEC)
-source_job_id: 5669977
-title: (**) Medical Ward Clerk - Surgical Same Day Emergency Care (SSDEC)
-employer: Mid and South Essex NHS Foundation Trust
-region: 
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-2498
-factual_fingerprint: 563508f6ab725c5962b6cad2939bb8949a355b4bdf5d814ab4f0f59356ef3b04
 ---
 
 ---

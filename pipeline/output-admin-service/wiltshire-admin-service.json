@@ -612,31 +612,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "108114128",
-    "title": "Financial Services Administrator",
-    "company": "Burgh Recruitment Limited - Agency - Permanent",
-    "location": "Wiltshire",
-    "region": "Wiltshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Financial Services Administrator\nLocation: Corsham (SN13)\nSalary: Highly Competitive + Bonus\nHours: Full time in office (9-5, Monday - Friday)\nAn excellent opportunity has arisen for a professional Financial Services Administrator to join this friendly and proactive St click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?vAYWCB8ag%2fj1ME06ketqwg8CwMPqXNPgi",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Burgh Recruitment Limited",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225667496",
     "title": "Accounts Administrator",
     "company": "911 Staffing Ltd - Agency - Temporary",
@@ -827,6 +802,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3442-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3442-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
