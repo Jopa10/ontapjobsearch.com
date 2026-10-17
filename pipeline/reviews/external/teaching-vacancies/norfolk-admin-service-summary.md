@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-10-16
-review_fingerprint: 39bce29dc56df6e0c4475d7ce810f9bd05a7014e46c64686acfdda44dba1ba78
-routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
+review_date: 2026-10-17
+review_fingerprint: cb925bfb967c93545273eb97f6420515e64c47c4cc87621fcdd7e69e7ce2e6d1
+routing_manifest_sha256: 70ba1e2abc5cbcea3bda56af4f4807368df0db0b99f18d37d3b09b46f7e46011
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
+- Records: 13
 - Selected: 3
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 10
 
@@ -68,20 +68,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-academy-admini
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Norfolk | King's Lynn, East of England, PE30 4QJ | £22,731-£23,092 per annum actual | Administrator
-employer: Parkway Academy
-closing_date: 2026-10-16T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6ccdd80b9381fa5ce26404101668c6c5e57eb2852b1f3ba9a396eb4bc1fadd03
-source: Teaching Vacancies
-source_job_id: administrator-parkway-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-parkway-academy
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

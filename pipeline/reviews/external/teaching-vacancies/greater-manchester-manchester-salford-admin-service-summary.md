@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-10-16
-review_fingerprint: e080935f35610628c065a9b645d4f1564f09790074222b3b64e265a7ef8cbad6
-routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
+review_date: 2026-10-17
+review_fingerprint: f7f18932b0f683db1a9d1e6b3c1cba83a27757c8a6b091bf0ad9469626d673d1
+routing_manifest_sha256: 70ba1e2abc5cbcea3bda56af4f4807368df0db0b99f18d37d3b09b46f7e46011
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 3
-- POSS awaiting decision: 3
+- Records: 10
+- Selected: 4
+- POSS awaiting decision: 4
 - Excluded: 0
 - Hard pass: 2
 
@@ -53,6 +53,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-chorlto
 
 ---
 action: 
+SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M30 7PQ | £24,947.00 - £28,090.00 Annually (Actual) Band 2 Professional, Point 1 – 6 (24,947 – 28,090 pro-rata) Cost of living increase to be added upon confirmation of award. | Office Administrator and Receptionist.
+employer: Salford City Academy
+closing_date: 2026-10-30T09:00:00+00:00
+reason: Clear admin/service title: administrator, office administrator, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2d711d40c0b3394995660c7ecfc9cee2f81cddc05f0dd27d4ba4bcb8641c3534
+source: Teaching Vacancies
+source_job_id: office-administrator-and-receptionist-salford-city-academy-manchester
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-and-receptionist-salford-city-academy-manchester
+---
+
+---
+action: 
 SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M8 5UF | £27,274.00 - £29,071.00 | SEND Administrator
 employer: Abraham Moss Community School
 closing_date: 2026-10-21T09:00:00+01:00
@@ -67,6 +82,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ab
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Greater Manchester - Manchester & Salford | Manchester, North West, M28 0SY | £25,820.00 - £28,323.00 Annually (FTE) United Learning Band 2 Vocational Payscale points 1 - 5 | Business Admin Apprentice - Data & Exams
+employer: The Lowry Academy
+closing_date: 2026-11-01T08:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b1f906e32fde5154ce1c680a149e3779c29bc536806fef8cc51a723e33759989
+source: Teaching Vacancies
+source_job_id: business-admin-apprentice-data-exams
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-admin-apprentice-data-exams
+---
 
 ---
 action: 

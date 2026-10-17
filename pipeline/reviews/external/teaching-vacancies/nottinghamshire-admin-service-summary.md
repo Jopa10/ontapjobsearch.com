@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-10-16
-review_fingerprint: e480120923e794d41f365c73415f3a0090f9542ba4d9ad56e326088dd1314a4a
-routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
+review_date: 2026-10-17
+review_fingerprint: 3e76722f6a43c2172d77fbaf59f47b996e2f03f549ab4445923452182f6d7881
+routing_manifest_sha256: 70ba1e2abc5cbcea3bda56af4f4807368df0db0b99f18d37d3b09b46f7e46011
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 27
-- Selected: 9
+- Records: 28
+- Selected: 10
 - POSS awaiting decision: 7
 - Excluded: 0
 - Hard pass: 11
@@ -34,6 +34,21 @@ factual_fingerprint: 5249ac1ff6f3cd2364ed55ea066f7ba075713515808cbe6492679f4a051
 source: Teaching Vacancies
 source_job_id: administrative-assistant-round-hill-primary-school-nottingham-nottinghamshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-round-hill-primary-school-nottingham-nottinghamshire
+---
+
+---
+action: 
+SELECTED | Nottinghamshire | Nottingham, East Midlands, NG12 5FF | Scale 6, Point 18 - 22, £32,578 - £34,811 (Actual Salary: £29,610.12 - £31,639.69) | Examinations Officer
+employer: The South Wolds Academy & Sixth Form
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Clear admin/service title: examinations officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4461a30cf53ca5cc1f8b2b95e377662fa566204e647c4211a144eeb45b9e1833
+source: Teaching Vacancies
+source_job_id: examinations-officer-the-south-wolds-academy-sixth-form
+source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-the-south-wolds-academy-sixth-form
 ---
 
 ---

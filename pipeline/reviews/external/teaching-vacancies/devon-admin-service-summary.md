@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-10-16
-review_fingerprint: e6a7e3adf2f7b73b5d96e31b27cd6238c653177f2ea03183e2513da1cb5c707f
-routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
+review_date: 2026-10-17
+review_fingerprint: 265e55e482013d2611540b4d295e74bb80781dc5ffd3cc69106c894455d63d61
+routing_manifest_sha256: 70ba1e2abc5cbcea3bda56af4f4807368df0db0b99f18d37d3b09b46f7e46011
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 5
+- Records: 18
+- Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 11
 
 ## SELECTED
 
@@ -96,6 +96,21 @@ source_job_id: receptionist-and-administrative-assistant-woodlands-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administrative-assistant-woodlands-school
 ---
 
+---
+action: 
+SELECTED | Devon | Plymouth, South West, PL4 6HT | TSAT Pay Group 3 pro rata to £12,946 - £15,024 for hours and weeks stated (£26,866 - £31,179 FTE ) | SEN Medical Administrator
+employer: Plymouth High School for Girls
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 75e50ef159e0f59b69b3e17ebb9592ce3a65111d2ae27bba904a34143ef14d75
+source: Teaching Vacancies
+source_job_id: sen-medical-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-medical-administrator
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -119,8 +134,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 
 ## HARD_PASS
 
+- [[261016] Office Manager](https://teaching-vacancies.service.gov.uk/jobs/261016-office-manager) — Manager title salary ceiling £33,673 is not below £28,000.
 - [Assistant Principal (Attendance, Personal Development and Wellbeing)](https://teaching-vacancies.service.gov.uk/jobs/assistant-principal-attendance-personal-development-and-wellbeing) — Out-of-scope occupation: principal.
 - [Behaviour Mentor](https://teaching-vacancies.service.gov.uk/jobs/behaviour-mentor-c0b5a4c8-a0a6-4637-b443-318248416339) — Insufficient admin/service evidence.
+- [Casual Reprographics Assistant](https://teaching-vacancies.service.gov.uk/jobs/casual-reprographics-assistant) — Insufficient admin/service evidence.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-78c3b3d0-c36c-40c6-bd99-f09dc92f1c31) — Insufficient admin/service evidence.
 - [DTEC Curriculum & Quality Outreach Lead](https://teaching-vacancies.service.gov.uk/jobs/dtec-curriculum-quality-outreach-lead-city-college-plymouth) — Insufficient admin/service evidence.
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-chulmleigh-community-college-chulmleigh-devon) — Missing salary or pay scale.

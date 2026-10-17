@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-10-16
-review_fingerprint: c35638b42d08af4e2f864f48854f75a2629727e32c27d0297115a2db91b5208b
-routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
+review_date: 2026-10-17
+review_fingerprint: 373f7fd57d369f7e5a8f1880cd5f6581a7d1a29c93f0455fd15809143cb9b624
+routing_manifest_sha256: 70ba1e2abc5cbcea3bda56af4f4807368df0db0b99f18d37d3b09b46f7e46011
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -38,14 +38,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-admissio
 
 ---
 action: 
-SELECTED | Kent | Dartford, South East, DA2 6FY | £30,621.00 - £34,172.00 Annually (Actual) | PA to Headteacher
+SELECTED | Kent | Dartford, South East, DA2 6FY | £30,621.00 - £34,172.00 Annually (FTE) | PA to Headteacher
 employer: Stone Lodge School
 closing_date: 2026-10-19T09:00:00+01:00
 reason: Clear admin/service title: pa to
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: ab4aa0a20aa4f2618c7e589803e9a6e89c53bd0f32c5d90fb74b809d0978b093
+factual_fingerprint: 92c00c90c899af36a72e1a55038fd24c505461db3fc0cecd162b38fd57ef88a2
 source: Teaching Vacancies
 source_job_id: pa-to-headteacher-stone-lodge-school-dartford-kent
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-headteacher-stone-lodge-school-dartford-kent

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-10-16
-review_fingerprint: 66266c3f121edad42dda82260da47590184785d142191b1193ad954b819b5d4e
-routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
+review_date: 2026-10-17
+review_fingerprint: dbfa1567fc9a6b59f09f862a88be1b2acbdaa2eeb0f72df4e22b77bb0bc90171
+routing_manifest_sha256: 70ba1e2abc5cbcea3bda56af4f4807368df0db0b99f18d37d3b09b46f7e46011
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -14,27 +14,12 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 15
-- Selected: 4
+- Selected: 3
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 10
 
 ## SELECTED
-
----
-action: 
-SELECTED | Somerset | Weston-Super-Mare, South West, BS24 8EE | £22,947 - £25,010 | Administration Assistant
-employer: Winterstoke Hundred Academy
-closing_date: 2026-10-16T23:59:59+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 2853696b3c397aba372c81583fd33d29b5f06b1714957932a66cdb9cd86acf1a
-source: Teaching Vacancies
-source_job_id: administration-assistant-winterstoke-hundred-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-winterstoke-hundred-academy
----
 
 ---
 action: 
@@ -88,8 +73,8 @@ action:
 POSS | Somerset | Cheddar, South West, BS27 3AQ | Grade 14 £26016 - £26846 | Finance Assistant
 employer: The Kings of Wessex Academy
 closing_date: 2026-10-19T08:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: 3d204cd7a42c8ea61e04ed95a0927ae2e71475d09dcbd15184b9df77cc7922c0
@@ -128,6 +113,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-robert-blake-academy) — Manager title salary ceiling £30,868 is not below £28,000.
 - [Operations Lead](https://teaching-vacancies.service.gov.uk/jobs/operations-lead-bishops-hull-primary-school) — Insufficient admin/service evidence.
 - [Receptionist](https://teaching-vacancies.service.gov.uk/jobs/receptionist-midsomer-norton-schools-partnership) — Missing salary or pay scale.
+- [Trust Clerk](https://teaching-vacancies.service.gov.uk/jobs/trust-clerk-c394aee1-d7ed-4c84-85d4-9c9175bf52c7) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-10-16
-review_fingerprint: 18b809a25ff7f6fc710dc3789138212ee69bafc368dd947201614f8da643a087
-routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
+review_date: 2026-10-17
+review_fingerprint: 46661af41439591d0df796b6049bb395ef07cba3aea0fd3f878d4331a559ad11
+routing_manifest_sha256: 70ba1e2abc5cbcea3bda56af4f4807368df0db0b99f18d37d3b09b46f7e46011
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 8
 - Selected: 5
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -98,20 +98,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Suffolk | Ipswich, East of England, IP2 8PL | £25,646.00 - £26,920.00 Annually (Actual) | Finance, HR Administrator
-employer: Stoke High School - Ormiston Academy
-closing_date: 2026-10-16T15:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ba5d3557632feb5dcbf8aee0cf4ad40c7a3a983368e2780fc5d0896e97878258
-source: Teaching Vacancies
-source_job_id: finance-hr-administrator-stoke-high-school-ormiston-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-hr-administrator-stoke-high-school-ormiston-academy
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -120,7 +107,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-hr-administra
 ## HARD_PASS
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-stradbroke-high-school-eye-suffolk) — Insufficient admin/service evidence.
-- [Attendance and Inclusion Support Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-inclusion-support-officer) — Insufficient admin/service evidence.
+- [Office Manager/Business Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-business-manager) — Manager title salary ceiling £37,563 is not below £28,000.
+- [Trust Attendance Lead](https://teaching-vacancies.service.gov.uk/jobs/trust-attendance-lead-unity-schools-partnership-haverhill-not-recorded) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-10-16
-review_fingerprint: 8b5b2da6a527ff51375b3dffa35c6ff96e79766c110f5e56f9fc821f51982993
-routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
+review_date: 2026-10-17
+review_fingerprint: a448ee1d1126d03c589dd039153fc6b3c361a596b5b490c677a2f3c91eef2131
+routing_manifest_sha256: 70ba1e2abc5cbcea3bda56af4f4807368df0db0b99f18d37d3b09b46f7e46011
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
+- Records: 18
 - Selected: 9
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 7
 
@@ -38,6 +38,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+SELECTED | Lincolnshire | Grimsby, Yorkshire and the Humber, DN37 9AT | £26,847.00 - £27,709.00 Annually (FTE) Grade D Points 06 to 08 (£26,847 to £27,709 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary per annum for this job starts at £10,688.82. | Attendance Officer - Temporary (7764)
+employer: Willows Academy
+closing_date: 2026-10-31T23:59:00+00:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5dd67c09618150fea2702956c2c4e411399b62229334514ed96ab47bc321ed2c
+source: Teaching Vacancies
+source_job_id: attendance-officer-temporary-7764
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-temporary-7764
+---
+
+---
+action: 
 SELECTED | Lincolnshire | Boston, East Midlands, PE20 1JS | £30,023.00 - £30,023.00 Annually (FTE) NJC13 £30,023 FTE (£27,723.95 pro rata) | Data & Exams Officer
 employer: Thomas Middlecott Academy
 closing_date: 2026-10-18T23:59:00+01:00
@@ -49,21 +64,6 @@ factual_fingerprint: e21874fdc87a0270efaa642a3500822a10a3d8637c25902f0ddd3b573aa
 source: Teaching Vacancies
 source_job_id: data-exams-officer-thomas-middlecott-academy-boston-lincolnshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/data-exams-officer-thomas-middlecott-academy-boston-lincolnshire
----
-
----
-action: 
-SELECTED | Lincolnshire | Grimsby, DN41 7QD | £29,542.00 - £32,046.00 Annually (Actual) Actual salary: £14,069 - £15,261 | HR & Office Administrator
-employer: Harbour Learning Trust
-closing_date: 2026-10-23T12:00:00+01:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b94d957a97a2110f3441ec108223a0b8f505b7462e7962731fbb0e3d85253a35
-source: Teaching Vacancies
-source_job_id: hr-office-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-office-administrator
 ---
 
 ---
@@ -171,6 +171,21 @@ factual_fingerprint: 7ef092f284d4d355b95fe13ae13df8de9075b1641b54dde8dde3f94aaac
 source: Teaching Vacancies
 source_job_id: administration-officer-7752
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-7752
+---
+
+---
+action: 
+POSS | Lincolnshire | Grimsby, DN41 7QD | £29,542.00 - £32,046.00 Annually (Actual) Actual salary: £14,069 - £15,261 | HR & Office Administrator
+employer: Harbour Learning Trust
+closing_date: 2026-10-23T12:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b94d957a97a2110f3441ec108223a0b8f505b7462e7962731fbb0e3d85253a35
+source: Teaching Vacancies
+source_job_id: hr-office-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-office-administrator
 ---
 
 ## EXCLUDED BY REVIEW

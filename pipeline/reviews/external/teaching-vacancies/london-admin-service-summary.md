@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-10-16
-review_fingerprint: 6782d6bf2aae3146c9dacbe986490e1d428cc9d66b4d7dc01a0e08502e134fd8
-routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
+review_date: 2026-10-17
+review_fingerprint: cbb156b24bd353b9f25b35ffcc21ade672f5d26cbd33f5f5d827f91fadc4bf3a
+routing_manifest_sha256: 70ba1e2abc5cbcea3bda56af4f4807368df0db0b99f18d37d3b09b46f7e46011
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 66
-- Selected: 18
-- POSS awaiting decision: 10
+- Selected: 17
+- POSS awaiting decision: 11
 - Excluded: 0
 - Hard pass: 38
 
@@ -60,25 +60,10 @@ reason: Clear admin/service title: admissions officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 465a7b4c7d01bcb7bcb33adee24b75f2cf299f03bdec6f5025d9b3d849d3d807
+factual_fingerprint: 166c16093f29bcfdda35a3113b88775f970340e905e3d3b86e31e3701b258731
 source: Teaching Vacancies
 source_job_id: attendance-and-admissions-officer-sarah-bonnell-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admissions-officer-sarah-bonnell-school
----
-
----
-action: 
-SELECTED | London | New Malden, London, KT3 3TU | £22,792.00 - £24,126.00 Annually (Actual) Outer London Grade D5-9 | Attendance Officer
-employer: Coombe Girls' School
-closing_date: 2026-10-16T23:59:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 614caf75a5d8eeeb528f321e00f430232ff32ccd356b8cef6878affaeca4f98c
-source: Teaching Vacancies
-source_job_id: attendance-officer-coombe-girls-school-new-malden-surrey
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-coombe-girls-school-new-malden-surrey
 ---
 
 ---
@@ -173,36 +158,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-harris-
 
 ---
 action: 
-SELECTED | London | Beckenham, London, BR3 3RD | £38,359.00 - £40,572.00 Annually (FTE) NJC Scale 7 points 21 – 25 (FTE £38,359 – £40,572 per annum, Actual £36,490 - £38,595 per annum) | Exams Officer
-employer: Orion Eden Park
-closing_date: 2026-10-16T23:59:00+01:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 859905b72480f6f09b10d8d157fe74e6e93d5c197b8c465c48c97abb85d1956d
-source: Teaching Vacancies
-source_job_id: exams-officer-orion-eden-park
-source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-orion-eden-park
----
-
----
-action: 
-SELECTED | London | New Malden, KT3 6NU | £29,436.00 - £33,987.00 Annually (FTE) | Human Resources Administrator
-employer: Helix Learning Trust
-closing_date: 2026-10-16T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ce4efaafbca7d6f990b16f77c88f17019ca4e3f8798da54c763f16cd56431e64
-source: Teaching Vacancies
-source_job_id: human-resources-administrator-helix-learning-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/human-resources-administrator-helix-learning-trust
----
-
----
-action: 
 SELECTED | London | Hayes, London, UB3 1JA | £23,878.00 - £24,220.00 Annually (Actual) | Receptionist & Administration Assistant
 employer: Lake Farm Park Academy
 closing_date: 2026-12-31T12:00:00+00:00
@@ -291,6 +246,36 @@ source_job_id: school-office-administrator-millbrook-park-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-administrator-millbrook-park-primary-school
 ---
 
+---
+action: 
+SELECTED | London | Isleworth, London, TW7 5DB | £33,129.00 - £35,109.00 Annually (FTE) NJC Scale 5 £33,129 to £35,109 (pro rata) Pro rata salary based on working 36 hours a week for 5 days a week, 39 weeks per annum (N.B. this is ‘term time’ i.e. 195 days) | SEND Administrator
+employer: Bolder Academy
+closing_date: 2026-11-09T12:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 93a9b0192e34b865d2a51c0c30b256ec0bd24f09732468603525b84aef843a8e
+source: Teaching Vacancies
+source_job_id: send-administrator-bolder-academy-isleworth
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-bolder-academy-isleworth
+---
+
+---
+action: 
+SELECTED | London | Uxbridge, London, UB10 9HT | £15,502.00 - £15,865.00 Annually (Actual) | Welfare Administrator
+employer: Oak Wood School
+closing_date: 2026-10-30T12:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ac9a7de184c002ab851718a1f86699425bd955f50d111bc43d2184dbd839b89a
+source: Teaching Vacancies
+source_job_id: welfare-administrator-oak-wood-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/welfare-administrator-oak-wood-school
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -306,6 +291,21 @@ factual_fingerprint: f4c11333622b994e86adf0252b8142e05357200cd7dca57cea29f20574a
 source: Teaching Vacancies
 source_job_id: administration-officer-1d8ea2cf-23c2-491e-9778-888fe22529fb
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-1d8ea2cf-23c2-491e-9778-888fe22529fb
+---
+
+---
+action: 
+POSS | London | London, London, E15 4LP | Scale 5 | Administrator
+employer: Sarah Bonnell School
+closing_date: 2026-10-30T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7a86df79701cd933e088d7e80e539c6c5c70a26db6c642ad581e39d30a0c1775
+source: Teaching Vacancies
+source_job_id: administrator-sarah-bonnell-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-sarah-bonnell-school
 ---
 
 ---
@@ -468,10 +468,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-el
 - [HR Officer, Office Manager & PA to Headteacher (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-office-manager-pa-to-headteacher-maternity-cover) — Manager title salary ceiling £49,212 is not below £28,000.
 - [HR, People and Culture Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-people-and-culture-manager) — Manager title salary ceiling £52,800 is not below £28,000.
 - [Human Resources Business Partner](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-new-city-college) — Insufficient admin/service evidence.
+- [Human Resources Lead](https://teaching-vacancies.service.gov.uk/jobs/human-resources-lead) — Insufficient admin/service evidence.
 - [Human Resources Manager (Schools)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-manager-schools-netley-primary-school) — Manager title salary ceiling £41,000 is not below £28,000.
 - [Invigilators / Readers & Scribes](https://teaching-vacancies.service.gov.uk/jobs/invigilators-readers-scribes) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-iqra-primary-school) — Manager title salary ceiling £38,637 is not below £28,000.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-victory-primary-school-london) — Manager title without salary evidence below £28,000.
 - [Operations Manager - Havering Secondary Hub](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-havering-secondary-hub) — Manager title salary ceiling £60,390 is not below £28,000.
 - [People Officer](https://teaching-vacancies.service.gov.uk/jobs/people-officer-newbridge-school) — Insufficient admin/service evidence.
 - [Pupil Support Lead (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/pupil-support-lead-maternity-cover-st-mary-cray-primary-academy) — Insufficient admin/service evidence.

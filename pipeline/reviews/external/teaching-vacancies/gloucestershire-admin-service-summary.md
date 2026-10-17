@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Gloucestershire
 
-review_date: 2026-10-16
-review_fingerprint: adf412a9c1823e5c9d2621505e0132305df55d0aef4048f5f151423f6e182c8f
-routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
+review_date: 2026-10-17
+review_fingerprint: c70c8d9844e7dac3552cd170715f9a68c46f40ba48eb79ecefc69d0bc5b1523e
+routing_manifest_sha256: 70ba1e2abc5cbcea3bda56af4f4807368df0db0b99f18d37d3b09b46f7e46011
 ontap_region: Gloucestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -55,14 +55,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-receptionis
 
 ---
 action: 
-POSS | Gloucestershire | Tewkesbury, South West, GL20 5SW | £18.00 - £25.00 Hourly Estimated total hours of 130 annually. Hourly rates depending on experience, invoiced for work undertaken | Governance Professional / Clerk to the Trust Board
+POSS | Gloucestershire | Tewkesbury, South West, GL20 5SW | £20.00 - £30.00 Hourly Estimated total hours of 130 annually. Hourly rates depending on experience, invoiced for work undertaken | Governance Professional / Clerk to the Trust Board
 employer: Abbey View
-closing_date: 2026-10-16T23:59:00+01:00
+closing_date: 2026-10-30T23:59:00+00:00
 reason: Borderline school administration title: governance professional
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: f2c61f58da776d03ff101040f72aaca0798f0cded0fd03189c3929f62b4131ad
+factual_fingerprint: 089cd234dca5c6be7ea2454ed3a249d4bfa8a39deb6a9ca5ec8b9d2cf529056b
 source: Teaching Vacancies
 source_job_id: governance-professional-clerk-to-the-trust-board
 source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-professional-clerk-to-the-trust-board

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-10-16
+review_date: 2026-10-17
 review_fingerprint: 1db33ab569ca7cd286860e33af959f145acfa8f772990b5c7ba76d147f5890ed
-routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
+routing_manifest_sha256: 70ba1e2abc5cbcea3bda56af4f4807368df0db0b99f18d37d3b09b46f7e46011
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 6
 - Selected: 0
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -63,6 +63,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-ba
 
 - [Administration Support](https://teaching-vacancies.service.gov.uk/jobs/administration-support-st-thomas-more-catholic-academy-stoke-on-trent-staffordshire) — Insufficient admin/service evidence.
 - [Deputy Chief Executive Officer - Finance & Operations](https://teaching-vacancies.service.gov.uk/jobs/deputy-chief-executive-officer-finance-operations) — Insufficient admin/service evidence.
+- [School Transport Coordinator](https://teaching-vacancies.service.gov.uk/jobs/school-transport-coordinator) — Insufficient admin/service evidence.
 - [Senior Administration and Finance Assistant - Level 5](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-and-finance-assistant-level-5-abbey-hill-academy-college) — Insufficient admin/service evidence.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-10-16
-review_fingerprint: 93f5fd48c8dca969ab27e9646b6c485b488178e1ab9f51dc642a1a92efedbb75
-routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
+review_date: 2026-10-17
+review_fingerprint: 406dbca608b3d640d09a4f3330e7f24e35a0dda284b0290194453b0c4cafa143
+routing_manifest_sha256: 70ba1e2abc5cbcea3bda56af4f4807368df0db0b99f18d37d3b09b46f7e46011
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 5
+- Records: 18
+- Selected: 6
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 10
@@ -94,6 +94,21 @@ factual_fingerprint: f3f78d2125f86856b2a866a23954746eea0c32fca3498ec003c0b1df40a
 source: Teaching Vacancies
 source_job_id: attendance-officer-administrator-06cb042d-aa85-4097-86df-523d555d3707
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-administrator-06cb042d-aa85-4097-86df-523d555d3707
+---
+
+---
+action: 
+SELECTED | North East | Sunderland, North East, SR2 7JN | £8,016.00 - £8,142.00 Annually (Actual) £25,614 - £26,016 FTE. 2 days a week, Thursday and Friday. Pending outcome of job evaluation | Receptionist
+employer: St Anthony's Girls' Catholic Academy
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5c6b613cb254f141bf0fcd92d417f358256c70f79c644cf11f0ac4f79c9b5e41
+source: Teaching Vacancies
+source_job_id: receptionist-st-anthony-s-girls-catholic-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-st-anthony-s-girls-catholic-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE

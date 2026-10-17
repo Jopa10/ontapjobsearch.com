@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-10-16
+review_date: 2026-10-17
 review_fingerprint: 6f2dc139c4ff378f6ea833df922986ee3749cee484ad9953df1c5e3056564c82
-routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
+routing_manifest_sha256: 70ba1e2abc5cbcea3bda56af4f4807368df0db0b99f18d37d3b09b46f7e46011
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 9
 - Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -93,6 +93,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/mis-systems-and-data-
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-bc9a8d56-95b2-402f-9fa6-ac718f8f9933) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-new-bridge-school-oldham-lancashire) — Insufficient admin/service evidence.
 - [Personal Care Assistant based at New Bridge Learning Centre](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-based-at-new-bridge-learning-centre-new-bridge-school-oldham-lancashire) — Insufficient admin/service evidence.
+- [School Business Manager (Level 3)](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-level-3-sandbrook-community-primary-school-rochdale-lancashire) — Manager title without salary evidence below £28,000.
 
 ## Safety boundary
 

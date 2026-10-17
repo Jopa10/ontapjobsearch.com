@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-10-16
+review_date: 2026-10-17
 review_fingerprint: 448dfd62b6046676879bfa2919f408c59aab059bca47c4cb15fd5b2495fa8294
-routing_manifest_sha256: 05c00d2c986663da4a9452fc61c6d7cae422e0643016e70fe060ae7038669428
+routing_manifest_sha256: 70ba1e2abc5cbcea3bda56af4f4807368df0db0b99f18d37d3b09b46f7e46011
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -172,8 +172,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-finance-assist
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-da5c7b12-e7a7-4b6e-aede-5ff7cf56267d) — Manager title without salary evidence below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-shefford-c-e-primary-school) — Manager title salary ceiling £41,177 is not below £28,000.
 - [School Development Officer](https://teaching-vacancies.service.gov.uk/jobs/school-development-officer) — Insufficient admin/service evidence.
-- [School Solicitor](https://teaching-vacancies.service.gov.uk/jobs/school-solicitor) — Insufficient admin/service evidence.
 - [Site Controller](https://teaching-vacancies.service.gov.uk/jobs/site-controller-reading-school) — Insufficient admin/service evidence.
+- [Trust Solicitor](https://teaching-vacancies.service.gov.uk/jobs/trust-solicitor) — Insufficient admin/service evidence.
 
 ## Safety boundary
 
