@@ -4,7 +4,7 @@
 - Live route: `/southampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 17
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
-- automatic review: 86
-- automatic exclude: 38
-- effective include: 17
-- effective review: 86
-- effective exclude: 38
+- automatic include: 18
+- automatic review: 100
+- automatic exclude: 40
+- effective include: 18
+- effective review: 100
+- effective exclude: 40
 
-## INCLUDE (17)
+## INCLUDE (18)
 
 ---
 action: 
@@ -117,6 +117,18 @@ company: Michael Page Finance - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-2042564
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Document Controller
+company: Fawkes & Reece London - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-23643_225624331
 reason: Approved Southampton catchment.
 ---
 
@@ -228,7 +240,7 @@ job_id: jobg8-23643_225636161
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (86)
+## REVIEW (100)
 
 ---
 action: 
@@ -294,12 +306,12 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Assistant - Leading Law Firm! Hybrid
-company: Office Angels - Agency - Permanent
-location: Emsworth
+title: Accounts Assistant Bookkeeper
+company: CMA Recruitment Group - Agency - Permanent
+location: Hampshire
 source: JobG8
-job_id: jobg8-23643_225622127
-reason: No approved Southampton catchment rule matched; local review required.
+job_id: jobg8-2056614
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -310,7 +322,31 @@ title: Accounts Assistant Bookkeeper
 company: CMA Recruitment Group - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-2056614
+job_id: jobg8-23643_225672542
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant £28k-£32k -Growing company
+company: Office Angels - Agency - Permanent
+location: Ringwood
+source: JobG8
+job_id: jobg8-23643_225673024
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable
+company: Attega Group Ltd - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225624546
 reason: Broad location; review before city inclusion.
 ---
 
@@ -570,6 +606,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Data Entry Clerk
+company: Connect2Hampshire - Agency - Contract
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225734087
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Divisional HR Assistant
 company: Denholm Industrial Services Ltd - Agency - Permanent
 location: Hampshire
@@ -630,6 +678,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Finance and Projects Coordinator
+company: Howett Thorpe - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225673903
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Assistant
 company: CMA Recruitment Group - Agency - Permanent
 location: Hampshire
@@ -672,6 +732,18 @@ location: Havant
 source: JobG8
 job_id: jobg8-2045876
 reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Officer
+company: Fawkes & Reece London - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225624898
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -810,6 +882,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: HR Coordinator
+company: Reality HR - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225736059
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Interim Commercial Administrator (12m FTC)
 company: Connect It Utility Services Limited - Agency - Permanent
 location: Hampshire
@@ -900,6 +984,18 @@ location: Hampshire
 source: JobG8
 job_id: jobg8-2089171
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Secretary - £27k-£30k - ASAP Start
+company: Office Angels - Agency - Permanent
+location: Emsworth
+source: JobG8
+job_id: jobg8-23643_225736689
+reason: No approved Southampton catchment rule matched; local review required.
 ---
 
 ---
@@ -1002,6 +1098,30 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: People & Culture (HR) Coordinator
+company: The Society of St James - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2145620
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: People & Culture Coordinator
+company: The Society of St James - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2145621
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Private Client Legal Assistant
 company: Workshop Recruitment - Agency - Permanent
 location: Hampshire
@@ -1031,6 +1151,18 @@ company: Artisan Recruitment Group Ltd - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225725711
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchase Ledger
+company: CMA Recruitment Group - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-1988017
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1146,11 +1278,59 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Sales Advisor - Fire and Security
+company: Team Jobs - Commercial - Agency - Permanent
+location: Not Specified
+source: JobG8
+job_id: jobg8-23643_225732465
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Ledger Assistant
+company: DOMO TACTICAL COMMUNICATIONS - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225671135
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Administrator
+company: Odin Careers Ltd - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225719002
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Service Co-ordinator
 company: Complete Security Recruitment - Agency - Permanent
 location: Hook
 source: JobG8
 job_id: jobg8-23643_225663666
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Coordinator
+company: Bennett and Game Recruitment LTD - Agency - Permanent
+location: Emsworth
+source: JobG8
+job_id: jobg8-23643_225734429
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
@@ -1262,7 +1442,7 @@ job_id: jobg8-23643_225665585
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (38)
+## EXCLUDE (40)
 
 ---
 action: 
@@ -1357,30 +1537,6 @@ company: Mulberry Recruitment - Agency - Permanent
 location: Farnborough
 source: JobG8
 job_id: jobg8-23643_225698459
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator (Part Time)
-company: Practice Plus Group - Health in Justice
-location: Winchester, SO22 5DF
-source: NHS Jobs
-job_id: nhs-5624017
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator (Part Time)
-company: Practice Plus Group - Health in Justice
-location: Winchester, SO22 5DF
-source: NHS Jobs
-job_id: nhs-5642872
 reason: Separate employment market.
 ---
 
@@ -1532,6 +1688,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Facilities Co-ordinator
+company: Office Angels - Agency - Permanent
+location: Basingstoke
+source: JobG8
+job_id: jobg8-23643_225736731
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Finance Assistant
 company: CMA Recruitment Group - Agency - Permanent
 location: Portsmouth
@@ -1676,6 +1844,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Payroll and Accounts Officer
+company: CMA Recruitment Group - Agency - Permanent
+location: Portsmouth
+source: JobG8
+job_id: jobg8-23643_225687519
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Reception Administrator
 company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 location: Portsmouth, PO3 6AD
@@ -1700,6 +1880,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Sales Development Representative
+company: ECS Resource Group Ltd - Agency - Permanent
+location: Aldershot
+source: JobG8
+job_id: jobg8-23643_225661253
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Service Administrator
 company: Shorterm Group - Agency - Permanent
 location: Winchester
@@ -1717,5 +1909,17 @@ company: Adecco - Agency - Temporary
 location: Andover
 source: JobG8
 job_id: jobg8-23643_225691945
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Trainee Sales Consultant
+company: Cowell Recruitment - Agency - Permanent
+location: Fareham
+source: JobG8
+job_id: jobg8-23643_225656452
 reason: Separate employment market.
 ---

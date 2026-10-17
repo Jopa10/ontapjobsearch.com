@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 11
-- automatic exclude: 25
-- effective include: 11
-- effective review: 11
-- effective exclude: 25
+- automatic include: 13
+- automatic review: 12
+- automatic exclude: 27
+- effective include: 13
+- effective review: 12
+- effective exclude: 27
 
-## INCLUDE (11)
+## INCLUDE (13)
 
 ---
 action: 
@@ -88,6 +88,30 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Customer Order Administrator
+company: New Appointments Group - Agency - Temporary
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225736019
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Enterprise Sales Administrator
+company: CRG TEC - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225667230
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: HR Assistant
 company: Vero Hr - Agency - Permanent
 location: Peterborough
@@ -112,11 +136,11 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Medical Receptionist / Administrator
-company: Abbeyview Surgery
-location: Peterborough, PE6 0AL
+title: Medical Receptionist/ Administrator
+company: Dr Laliwala and Partners
+location: Peterborough, PE1 4FS
 source: NHS Jobs
-job_id: nhs-5636638
+job_id: nhs-5668718
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -156,7 +180,7 @@ job_id: nhs-5665914
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (11)
+## REVIEW (12)
 
 ---
 action: 
@@ -270,6 +294,18 @@ reason: No approved Peterborough catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Office Administrator
+company: Interaction Recruitment - Agency - Permanent
+location: Wisbech
+source: JobG8
+job_id: jobg8-23643_225625249
+reason: No approved Peterborough catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Project Administrator - Wisbech
 company: Adecco - Agency - Permanent
 location: Wisbech
@@ -290,7 +326,7 @@ job_id: jobg8-23643_225691104
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (25)
+## EXCLUDE (27)
 
 ---
 action: 
@@ -416,6 +452,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Brand & Marketing Executive
+company: Universal Business Team - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-23643_225662551
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Credit Controller
 company: Robert Half - Agency - Permanent
 location: Cambridge
@@ -469,6 +517,18 @@ company: French Selection - Agency - Permanent
 location: Huntingdon
 source: JobG8
 job_id: jobg8-23643_225716483
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Front of House Porter/Security
+company: Select Recruitment Specialists Ltd - Agency - Contract
+location: Cambridge
+source: JobG8
+job_id: jobg8-23643_225733234
 reason: Separate employment market.
 ---
 

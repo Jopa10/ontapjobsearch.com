@@ -1,10 +1,12 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-2067966,Accounts Assistant,Brook Street - Agency - Permanent,Swansea,JobG8,include,include,Exact approved Swansea workplace.,exact:swansea,swansea-service-administrator-jobs
+include,jobg8-23643_225679881,Accounts Assistant,Hays Accounts and Finance - Agency - Permanent,Swansea,JobG8,include,include,Exact approved Swansea workplace.,exact:swansea,swansea-service-administrator-jobs
 include,jobg8-2063956,Accounts Assistant,Hays Specialist Recruitment Limited - Agency - Permanent,Swansea,JobG8,include,include,Exact approved Swansea workplace.,exact:swansea,swansea-service-administrator-jobs
 include,jobg8-20279_62802-995fd547f623ddd8dd98283875fd8ae3,Call Centre Agent,EE - Company - Permanent,Swansea,JobG8,include,include,Exact approved Swansea workplace.,exact:swansea,swansea-service-administrator-jobs
 include,jobg8-20279_62802-f02302d2c05f9e182b4e1de5b50bb5ce,Call Centre Operator,EE - Company - Permanent,Swansea,JobG8,include,include,Exact approved Swansea workplace.,exact:swansea,swansea-service-administrator-jobs
 include,jobg8-20279_62802-570151172d960a82452921a3fe3612f5,Contact Centre Agent,EE - Company - Permanent,Swansea,JobG8,include,include,Exact approved Swansea workplace.,exact:swansea,swansea-service-administrator-jobs
 include,jobg8-20279_62802-744c64d1a62f8e2f11c6d66dea1f4fa0,Customer Service Advisor,EE - Company - Permanent,Swansea,JobG8,include,include,Exact approved Swansea workplace.,exact:swansea,swansea-service-administrator-jobs
+include,jobg8-23643_225730827,Customer Service Advisor - Welsh Speaking/Written,Adecco - Agency - Contract,Swansea,JobG8,include,include,Exact approved Swansea workplace.,exact:swansea,swansea-service-administrator-jobs
 include,nhs-5623771,Receptionist,NHS Wales Shared Services Partnership,"Swansea, SA6 8BX",NHS Jobs,include,include,Exact approved Swansea workplace.,exact:swansea,swansea-service-administrator-jobs
 include,jobg8-23643_225681180,Spares & Service Administrator,Hays Business Support - Agency - Permanent,Swansea,JobG8,include,include,Exact approved Swansea workplace.,exact:swansea,swansea-service-administrator-jobs
 include,jobg8-2101939,Trainee HR Administrator,ITOL Recruit - Agency - Permanent,Swansea,JobG8,include,include,Exact approved Swansea workplace.,exact:swansea,swansea-service-administrator-jobs

@@ -4,7 +4,7 @@
 - Live route: `/swindon/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 20
+- automatic include: 11
+- automatic review: 22
 - automatic exclude: 0
-- effective include: 8
-- effective review: 20
+- effective include: 11
+- effective review: 22
 - effective exclude: 0
 
-## INCLUDE (8)
+## INCLUDE (11)
 
 ---
 action: 
@@ -33,6 +33,30 @@ company: Liden Academy
 location: Swindon
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-181abc61-ea48-424a-9686-308bb273394d
+reason: Exact approved Swindon workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Bookkeeper
+company: CMD Recruitment - Agency - Permanent
+location: Swindon
+source: JobG8
+job_id: jobg8-23643_225674289
+reason: Exact approved Swindon workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: Search Consultancy Ltd - Agency - Contract
+location: Swindon
+source: JobG8
+job_id: jobg8-23643_225733645
 reason: Exact approved Swindon workplace.
 ---
 
@@ -57,6 +81,18 @@ company: Adecco - Agency - Contract
 location: Swindon
 source: JobG8
 job_id: jobg8-23643_225680115
+reason: Exact approved Swindon workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: IT & MI Coordinator
+company: Siamo Recruitment a division of Siamo Group - Agency - Permanent
+location: Swindon
+source: JobG8
+job_id: jobg8-23643_225736419
 reason: Exact approved Swindon workplace.
 ---
 
@@ -120,7 +156,19 @@ job_id: jobg8-23643_225653482
 reason: Exact approved Swindon workplace.
 ---
 
-## REVIEW (20)
+## REVIEW (22)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Administrator
+company: 911 Staffing Ltd - Agency - Temporary
+location: Wiltshire
+source: JobG8
+job_id: jobg8-23643_225667496
+reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
+---
 
 ---
 action: 
@@ -162,6 +210,18 @@ reason: The stated location is broader or less specific than the approved Swindo
 action: 
 decision: review
 automatic_decision: review
+title: Customer & Sales Coordinator
+company: CMD Recruitment - Agency - Permanent
+location: Melksham
+source: JobG8
+job_id: jobg8-23643_225665666
+reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Administrator
 company: 911 Staffing Ltd - Agency - Permanent
 location: Wiltshire
@@ -192,6 +252,18 @@ location: Wiltshire
 source: JobG8
 job_id: jobg8-23643_225636930
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Financial Services Administrator
+company: Burgh Recruitment Limited - Agency - Permanent
+location: Corsham
+source: JobG8
+job_id: jobg8-108114128
+reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -299,18 +371,6 @@ company: Thrive Group - Agency - Permanent
 location: Trowbridge
 source: JobG8
 job_id: jobg8-23643_225720495
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Advisor (Motor)
-company: Thrive Group - Agency - Permanent
-location: Melksham
-source: JobG8
-job_id: jobg8-108160199
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 

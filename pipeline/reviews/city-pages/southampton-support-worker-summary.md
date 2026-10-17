@@ -4,7 +4,7 @@
 - Live route: `/southampton/support-worker`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 0
+- Effective included jobs: 1
 - Threshold currently met: no
 
 ## How to review
@@ -15,16 +15,28 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 0
-- automatic review: 6
+- automatic include: 1
+- automatic review: 4
 - automatic exclude: 6
-- effective include: 0
-- effective review: 6
+- effective include: 1
+- effective review: 4
 - effective exclude: 6
 
-## INCLUDE (0)
+## INCLUDE (1)
 
-## REVIEW (6)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Healthcare Assistant
+company: Thema Healthcare - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-23643_225625430
+reason: Approved Southampton catchment.
+---
+
+## REVIEW (4)
 
 ---
 action: 
@@ -36,30 +48,6 @@ location: Romsey
 source: JobG8
 job_id: jobg8-1401785691
 reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Female Waking Night Support Worker
-company: SeeAbility - Agency - Permanent
-location: Tadley
-source: JobG8
-job_id: jobg8-107941132
-reason: No approved Southampton catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Mental Healthcare Assistant
-company: MCS Healthcare - Agency - Permanent
-location: Fordingbridge
-source: JobG8
-job_id: jobg8-108072729
-reason: No approved Southampton catchment rule matched; local review required.
 ---
 
 ---

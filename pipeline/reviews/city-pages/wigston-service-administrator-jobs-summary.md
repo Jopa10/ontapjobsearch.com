@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 56
+- automatic review: 69
 - automatic exclude: 0
 - effective include: 0
-- effective review: 56
+- effective review: 69
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (56)
+## REVIEW (69)
 
 ---
 action: 
@@ -43,10 +43,34 @@ action:
 decision: review
 automatic_decision: review
 title: Accounts Administrator
+company: Eileen Richards Recruitment - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225735720
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Administrator
 company: RECfinancial - Agency - Contract
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225690794
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Blusource Professional Services Ltd - Agency - Temporary
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225731478
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -67,10 +91,34 @@ action:
 decision: review
 automatic_decision: review
 title: Accounts Payable Coordinator
+company: SF Partners - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225676664
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable Coordinator
 company: SolviT Recruitment Ltd - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225712972
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Receivable Administrator
+company: Investigo - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-1986389
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -222,6 +270,18 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Bookkeeper - Part Time
+company: Redline Group Ltd - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225671448
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Credit Control
 company: Reed - Agency - Permanent
 location: Leicestershire
@@ -235,10 +295,34 @@ action:
 decision: review
 automatic_decision: review
 title: Credit Controller
+company: RECfinancial - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225735417
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
 company: SF Partners - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-2060220
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: SF Partners - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225676614
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -318,11 +402,35 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Finance Administrator
+company: Trinity House Group Ltd - Agency - Temporary
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225671422
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Assistant
 company: Optima UK Inc Ltd - Agency - Permanent
 location: Leicester
 source: JobG8
 job_id: jobg8-23643_225706585
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: SF Partners - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225730191
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -355,10 +463,22 @@ action:
 decision: review
 automatic_decision: review
 title: Interim Accounts Payable Assistant - Hybrid
-company: Hays Specialist Recruitment Limited - Agency - Permanent
+company: Hays Accounts and Finance - Agency - Temporary
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2067276
+job_id: jobg8-23643_225682351
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Interim Finance Assistant (Purchase Ledger)
+company: Hays Accounts and Finance - Agency - Temporary
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225682385
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -611,6 +731,42 @@ company: Adecco - Agency - Temporary
 location: Leicester
 source: JobG8
 job_id: jobg8-23643_225638400
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
+company: Office Angels - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225659626
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Support Coordinator
+company: Interaction Recruitment - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225664258
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Support Coordinator
+company: Interaction Recruitment - Agency - Permanent
+location: Coalville
+source: JobG8
+job_id: jobg8-23643_225736401
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

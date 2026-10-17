@@ -4,7 +4,7 @@
 - Live route: `/harrogate/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 10
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 21
-- automatic exclude: 31
-- effective include: 10
-- effective review: 21
-- effective exclude: 31
+- automatic include: 12
+- automatic review: 19
+- automatic exclude: 34
+- effective include: 12
+- effective review: 19
+- effective exclude: 34
 
-## INCLUDE (10)
+## INCLUDE (12)
 
 ---
 action: 
@@ -112,11 +112,35 @@ reason: Exact approved Harrogate workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Payroll/Finance Administrator
+company: Ventrolla - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-23643_225536401
+reason: Exact approved Harrogate workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Purchase Ledger Assistant
 company: Travail Employment Group - Agency - Temporary
 location: Harrogate
 source: JobG8
 job_id: jobg8-23643_225698949
+reason: Exact approved Harrogate workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Sales Ledger Administrator
+company: Technical Prospects Ltd - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-23643_225675199
 reason: Exact approved Harrogate workplace.
 ---
 
@@ -144,7 +168,7 @@ job_id: jobg8-23643_225691482
 reason: Exact approved Harrogate workplace.
 ---
 
-## REVIEW (21)
+## REVIEW (19)
 
 ---
 action: 
@@ -191,18 +215,6 @@ company: Ripon Farm Services - Agency - Permanent
 location: Ripon
 source: JobG8
 job_id: jobg8-2043051
-reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: SI Recruitment - Agency - Permanent
-location: Ripon
-source: JobG8
-job_id: jobg8-108060036
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -378,18 +390,6 @@ reason: No approved Harrogate employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
-title: Service Coordinator
-company: Interaction - Leeds - Agency - Permanent
-location: Malton
-source: JobG8
-job_id: jobg8-108059238
-reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Temporary Payout Coordinator
 company: Michael Page - Agency - Temporary
 location: Richmond
@@ -398,7 +398,7 @@ job_id: jobg8-23643_225666115
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (31)
+## EXCLUDE (34)
 
 ---
 action: 
@@ -488,6 +488,18 @@ reason: The stated workplace belongs outside the approved Harrogate employment m
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Clinical Team Administrator
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Selby, YO8 9BX
+source: NHS Jobs
+job_id: nhs-5669774
+reason: The stated workplace belongs outside the approved Harrogate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Commercial & Residential Property Legal Secretary
 company: Search Consultancy Ltd - Agency - Permanent
 location: Yorkshire
@@ -552,6 +564,18 @@ title: Credit Control
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Yorkshire
 source: JobG8
+job_id: jobg8-1987959
+reason: The stated workplace belongs outside the approved Harrogate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Credit Control
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Yorkshire
+source: JobG8
 job_id: jobg8-2057600
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
@@ -601,6 +625,18 @@ company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Northallerton
 source: JobG8
 job_id: jobg8-2075662
+reason: The stated workplace belongs outside the approved Harrogate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Marketing Partnership Executive
+company: Matchtech - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-23643_225658052
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 
@@ -704,6 +740,18 @@ reason: The stated workplace belongs outside the approved Harrogate employment m
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Residential Property Legal Assistant
+company: Clear Legal & Financial Recruitment - Agency - Permanent
+location: Selby
+source: JobG8
+job_id: jobg8-23643_225733131
+reason: The stated workplace belongs outside the approved Harrogate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: SEND Administrator
 company: George Pindar School
 location: Scarborough
@@ -721,18 +769,6 @@ company: Braeburn Primary and Nursery Academy
 location: Scarborough
 source: Teaching Vacancies
 job_id: teaching-vacancies-senior-administrator-a7025ffa-8f1a-4ca4-8107-74ae6341f075
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Co-ordinator
-company: KD Recruitment - Agency - Permanent
-location: Scarborough
-source: JobG8
-job_id: jobg8-23643_225622354
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 

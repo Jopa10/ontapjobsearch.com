@@ -4,7 +4,7 @@
 - Live route: `/plymouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 54
+- automatic include: 6
+- automatic review: 57
 - automatic exclude: 0
-- effective include: 4
-- effective review: 54
+- effective include: 6
+- effective review: 57
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (6)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: First Light - Agency - Permanent
+location: Plymouth
+source: JobG8
+job_id: jobg8-23643_225732826
+reason: Exact approved Plymouth workplace.
+---
 
 ---
 action: 
@@ -40,11 +52,11 @@ reason: Exact approved Plymouth workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Configuration Control Coordinator
-company: BAM UK & Ireland - Agency - Permanent
+title: Call Centre Advisor
+company: DK Recruitment - Agency - Permanent
 location: Plymouth
 source: JobG8
-job_id: jobg8-108092427
+job_id: jobg8-23643_225730951
 reason: Exact approved Plymouth workplace.
 ---
 
@@ -72,7 +84,19 @@ job_id: teaching-vacancies-general-support-administrator
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (54)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Resource Management Planner
+company: Adecco - Agency - Temporary
+location: Plymouth
+source: JobG8
+job_id: jobg8-23643_225736541
+reason: Exact approved Plymouth workplace.
+---
+
+## REVIEW (57)
 
 ---
 action: 
@@ -95,18 +119,6 @@ company: NHS Professionals - Company - Temporary
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225672975
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin Assistant
-company: Switch - Agency - Permanent
-location: Exeter
-source: JobG8
-job_id: jobg8-107719278
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -163,18 +175,6 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Switch - Agency - Permanent
-location: Exeter
-source: JobG8
-job_id: jobg8-107919719
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
 company: Veolia - Agency - Permanent
 location: Exeter
 source: JobG8
@@ -191,18 +191,6 @@ company: Education South West
 location: Kingsbridge
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrator-devon-research-school-and-swift-teacher-training
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator - 6 months
-company: Hays Business Support - Agency - Temporary
-location: Exmouth
-source: JobG8
-job_id: jobg8-23643_225618865
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -239,6 +227,30 @@ company: Devon Partnership NHS Trust
 location: Newton Abbot, TQ12 4PH
 source: NHS Jobs
 job_id: nhs-5665958
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Development Executive
+company: Ten Recruit Limited - Agency - Permanent
+location: Bideford
+source: JobG8
+job_id: jobg8-23643_224726426
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Support Administrator
+company: Devon Partnership NHS Trust
+location: Torquay, TQ2 7AA
+source: NHS Jobs
+job_id: nhs-5606099
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -342,11 +354,11 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: Build Recruitment - Agency - Permanent
+title: Customer Service Coordinator
+company: untypical - Agency - Permanent
 location: Devon
 source: JobG8
-job_id: jobg8-23643_225691719
+job_id: jobg8-23643_225720303
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -354,11 +366,23 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Fleet Distribution Administrator
-company: Switch - Agency - Permanent
-location: Exeter
+title: Customer Service/Call Centre On line Chat Advisor
+company: Acorn by Synergie - Agency - Temporary
+location: Newton Abbot
 source: JobG8
-job_id: jobg8-107939734
+job_id: jobg8-23643_225731716
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Build Recruitment - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225691719
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -378,11 +402,11 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator
-company: Artis Recruitment - Agency - Contract
-location: Newton Abbot
+title: HR Administrator/ Assistant
+company: Hays Business Support - Agency - Permanent
+location: Devon
 source: JobG8
-job_id: jobg8-23643_225618875
+job_id: jobg8-23643_225691304
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -390,11 +414,23 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator/ Assistant
-company: Hays Business Support - Agency - Permanent
-location: Devon
+title: HR Administrator/Assistant
+company: Adecco - Agency - Permanent
+location: Exeter
 source: JobG8
-job_id: jobg8-23643_225691304
+job_id: jobg8-23643_225734169
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Assistant 12 month Maternity cover
+company: Hays Business Support - Agency - Temporary
+location: Barnstaple
+source: JobG8
+job_id: jobg8-23643_225732426
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -535,10 +571,10 @@ action:
 decision: review
 automatic_decision: review
 title: Reception/Administrator
-company: Litchdon Medical Centre
-location: Barnstaple, EX32 9LL
-source: NHS Jobs
-job_id: nhs-5616652
+company: Pertemps Plymouth - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225734510
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -599,6 +635,30 @@ company: Croft Hall Medical Practice
 location: Torquay, TQ2 5UA
 source: NHS Jobs
 job_id: nhs-5552054
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Resource Management Planner
+company: Adecco - Agency - Temporary
+location: Exeter
+source: JobG8
+job_id: jobg8-23643_225736532
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator - Housebuilding
+company: untypical - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225734603
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -670,18 +730,6 @@ title: Technical Administrator
 company: Manucomm Recruitment Ltd - Agency - Permanent
 location: Devon
 source: JobG8
-job_id: jobg8-23643_225625043
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Technical Administrator
-company: Manucomm Recruitment Ltd - Agency - Permanent
-location: Devon
-source: JobG8
 job_id: jobg8-23643_225656433
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
@@ -707,6 +755,18 @@ company: Aureos Group - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225684864
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Ward Administrator
+company: Devon Partnership NHS Trust
+location: Exeter, EX2 5AF
+source: NHS Jobs
+job_id: nhs-5615165
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

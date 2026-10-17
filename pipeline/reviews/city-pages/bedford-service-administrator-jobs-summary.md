@@ -4,7 +4,7 @@
 - Live route: `/bedford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 32
+- automatic include: 4
+- automatic review: 34
 - automatic exclude: 0
-- effective include: 5
-- effective review: 32
+- effective include: 4
+- effective review: 34
 - effective exclude: 0
 
-## INCLUDE (5)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator (Learning & Development)
-company: Tate - Agency - Permanent
-location: Bedford
-source: JobG8
-job_id: jobg8-23643_225620116
-reason: Exact approved Bedford workplace.
----
+## INCLUDE (4)
 
 ---
 action: 
@@ -84,7 +72,7 @@ job_id: jobg8-23643_225724509
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (32)
+## REVIEW (34)
 
 ---
 action: 
@@ -222,6 +210,18 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Community Care Coordinator - Luton
+company: Blue Arrow - Agency - Temporary
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225627207
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Credit Controller
 company: Abacus Consulting - Agency - Permanent
 location: Bedfordshire
@@ -323,6 +323,18 @@ company: Portfolio Payroll - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-2046269
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: The Disability Resource Centre - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225734218
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

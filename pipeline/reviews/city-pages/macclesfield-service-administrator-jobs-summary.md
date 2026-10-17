@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 12
+- automatic review: 11
 - automatic exclude: 0
 - effective include: 4
-- effective review: 12
+- effective review: 11
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,19 @@ job_id: teaching-vacancies-sixth-form-administrator-the-fallibroome-academy-macc
 reason: Exact approved Macclesfield workplace.
 ---
 
-## REVIEW (12)
+## REVIEW (11)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Acorn by Synergie - Agency - Permanent
+location: Crewe
+source: JobG8
+job_id: jobg8-23643_225731276
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -83,18 +95,6 @@ company: Cygnet Health Care
 location: Crewe, CW1 4QW
 source: NHS Jobs
 job_id: nhs-5637351
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: ctrg - Agency - Permanent
-location: Crewe
-source: JobG8
-job_id: jobg8-23643_225621246
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -203,18 +203,6 @@ company: Perfect Placement - Agency - Permanent
 location: Knutsford
 source: JobG8
 job_id: jobg8-23643_225639227
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Team Coordinator
-company: Adecco - Agency - Temporary
-location: Crewe
-source: JobG8
-job_id: jobg8-23643_225622101
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

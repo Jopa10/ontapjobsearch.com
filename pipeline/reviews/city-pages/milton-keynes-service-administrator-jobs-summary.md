@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 16
-- automatic review: 55
+- automatic review: 59
 - automatic exclude: 0
 - effective include: 16
-- effective review: 55
+- effective review: 59
 - effective exclude: 0
 
 ## INCLUDE (16)
@@ -89,6 +89,18 @@ action:
 decision: include
 automatic_decision: include
 title: BD & Marketing Executive
+company: Allstaff - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-23643_225667651
+reason: Exact approved Milton Keynes workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: BD & Marketing Executive
 company: Allstaff Recruitment - Agency - Permanent
 location: Milton Keynes
 source: JobG8
@@ -112,23 +124,11 @@ reason: Exact approved Milton Keynes workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Credit Controller - Temp to Perm
+title: Credit Controller - Temp 8 - 12 weeks
 company: Quality Personnel - Agency - Temporary
 location: Milton Keynes
 source: JobG8
 job_id: jobg8-23643_225703692
-reason: Exact approved Milton Keynes workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Account Coordinator
-company: Chiltern Park Recruitment - Agency - Permanent
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-23643_225621666
 reason: Exact approved Milton Keynes workplace.
 ---
 
@@ -148,11 +148,11 @@ reason: Exact approved Milton Keynes workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Order Administrator Coordinator
-company: Chiltern Park Recruitment - Agency - Permanent
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-23643_225622705
+title: Medical Receptionist
+company: Ashfield Medical Centre
+location: Milton Keynes, MK6 4NE
+source: NHS Jobs
+job_id: nhs-5670144
 reason: Exact approved Milton Keynes workplace.
 ---
 
@@ -216,7 +216,7 @@ job_id: jobg8-23643_225635978
 reason: Exact approved Milton Keynes workplace.
 ---
 
-## REVIEW (55)
+## REVIEW (59)
 
 ---
 action: 
@@ -246,6 +246,18 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
+title: Accounts Assistant
+company: Adecco - Agency - Permanent
+location: Aylesbury
+source: JobG8
+job_id: jobg8-23643_225674900
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Accounts Assistant (maternity cover)
 company: Fortis Recruitment Solutions - Agency - Permanent
 location: Buckinghamshire
@@ -263,6 +275,18 @@ company: Orka Financial - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-2041612
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable - Temp to Perm
+company: Marc Daniels - Agency - Temporary
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225729763
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -335,6 +359,18 @@ company: Top Tier Recruitment LTD - Agency - Contract
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225671158
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Carmichael UK - Agency - Contract
+location: Aylesbury
+source: JobG8
+job_id: jobg8-23643_225732937
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -750,18 +786,6 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Procurement Coordinator
-company: Matchtech - Agency - Permanent
-location: Buckingham
-source: JobG8
-job_id: jobg8-23643_225621100
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Purchasing Coordinator (MRP)
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Buckinghamshire
@@ -834,6 +858,18 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
+title: Sales Administrator
+company: Elizabeth Michael Associates LTD - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225731641
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Administrator (12 month FTC) - Milton Keynes
 company: Guidant Global - Agency - Contract
 location: Buckinghamshire
@@ -875,6 +911,18 @@ company: Hope After Harm - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-2106884
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Vehicle Sales Administrator
+company: Monday Matters Recruitment Ltd - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225667454
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

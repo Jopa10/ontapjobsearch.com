@@ -4,7 +4,7 @@
 - Live route: `/edinburgh/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 26
+- Effective included jobs: 24
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 26
+- automatic include: 24
 - automatic review: 2
 - automatic exclude: 0
-- effective include: 26
+- effective include: 24
 - effective review: 2
 - effective exclude: 0
 
-## INCLUDE (26)
+## INCLUDE (24)
 
 ---
 action: 
@@ -221,18 +221,6 @@ action:
 decision: include
 automatic_decision: include
 title: Part Time Administrator
-company: Office Angels - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-23643_225694186
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Part Time Administrator
 company: Search Consultancy Ltd - Agency - Contract
 location: Edinburgh
 source: JobG8
@@ -249,18 +237,6 @@ company: Trip.com - Agency - Permanent
 location: Edinburgh
 source: JobG8
 job_id: jobg8-23643_225646040
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Russian Customer Service Advisor
-company: Oyster Consultant - Agency - Permanent
-location: Edinburgh
-source: JobG8
-job_id: jobg8-107916313
 reason: Approved conservative Edinburgh launch catchment.
 ---
 

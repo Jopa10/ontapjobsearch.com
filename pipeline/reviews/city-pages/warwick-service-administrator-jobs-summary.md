@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 66
+- automatic review: 73
 - automatic exclude: 0
 - effective include: 9
-- effective review: 66
+- effective review: 73
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -132,7 +132,7 @@ job_id: jobg8-23643_225673829
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (66)
+## REVIEW (73)
 
 ---
 action: 
@@ -155,6 +155,30 @@ company: Smile Digital - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225654935
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Addington Ball - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225681487
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Brellis Recruitment - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225681366
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -191,6 +215,18 @@ company: SF Partners - Agency - Contract
 location: Coventry
 source: JobG8
 job_id: jobg8-23643_225722424
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable Assistant
+company: Hays Accounts and Finance - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-23643_225677617
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -439,6 +475,18 @@ action:
 decision: review
 automatic_decision: review
 title: Finance Assistant
+company: Opus People Solutions Ltd - Agency - Temporary
+location: Rugby
+source: JobG8
+job_id: jobg8-23643_225674948
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
 company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
 location: Rugby
 source: JobG8
@@ -606,6 +654,18 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Part time Bookkeeper
+company: Four Squared Recruitment Ltd - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225686816
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part-Time Serviced Apartment Receptionist
 company: thefutureworks - Agency - Contract
 location: Warwickshire
@@ -702,6 +762,18 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Officer
+company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-23643_225684915
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Private Client Paralegal
 company: G2 Legal Limited - Agency - Permanent
 location: Warwickshire
@@ -791,6 +863,18 @@ company: Operose Health
 location: Coventry, CV1 5FX
 source: NHS Jobs
 job_id: nhs-5665205
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment Partner
+company: Vectis Recruitment - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225736964
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 21
-- automatic exclude: 31
+- automatic review: 19
+- automatic exclude: 36
 - effective include: 10
-- effective review: 21
-- effective exclude: 31
+- effective review: 19
+- effective exclude: 36
 
 ## INCLUDE (10)
 
@@ -144,7 +144,7 @@ job_id: nhs-5665026
 reason: Approved York catchment.
 ---
 
-## REVIEW (21)
+## REVIEW (19)
 
 ---
 action: 
@@ -191,18 +191,6 @@ company: Ripon Farm Services - Agency - Permanent
 location: Ripon
 source: JobG8
 job_id: jobg8-2043051
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: SI Recruitment - Agency - Permanent
-location: Ripon
-source: JobG8
-job_id: jobg8-108060036
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -378,18 +366,6 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Service Coordinator
-company: Interaction - Leeds - Agency - Permanent
-location: Malton
-source: JobG8
-job_id: jobg8-108059238
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Temporary Payout Coordinator
 company: Michael Page - Agency - Temporary
 location: Richmond
@@ -398,7 +374,7 @@ job_id: jobg8-23643_225666115
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (31)
+## EXCLUDE (36)
 
 ---
 action: 
@@ -488,6 +464,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Clinical Team Administrator
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Selby, YO8 9BX
+source: NHS Jobs
+job_id: nhs-5669774
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Commercial & Residential Property Legal Secretary
 company: Search Consultancy Ltd - Agency - Permanent
 location: Yorkshire
@@ -553,6 +541,18 @@ company: SJC Partners - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2077875
+reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Credit Control
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-1987959
 reason: Broad regional label; not York-city evidence.
 ---
 
@@ -632,6 +632,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Marketing Partnership Executive
+company: Matchtech - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-23643_225658052
+reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Paralegal
 company: Unity Resourcing Ltd - Agency - Permanent
 location: Yorkshire
@@ -650,6 +662,18 @@ location: Yorkshire
 source: JobG8
 job_id: jobg8-2065406
 reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Payroll/Finance Administrator
+company: Ventrolla - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-23643_225536401
+reason: Separate employment market.
 ---
 
 ---
@@ -692,6 +716,30 @@ reason: Broad regional label; not York-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Residential Property Legal Assistant
+company: Clear Legal & Financial Recruitment - Agency - Permanent
+location: Selby
+source: JobG8
+job_id: jobg8-23643_225733131
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Sales Ledger Administrator
+company: Technical Prospects Ltd - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-23643_225675199
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: School Administrator
 company: Saltergate Junior School
 location: Harrogate
@@ -721,18 +769,6 @@ company: Braeburn Primary and Nursery Academy
 location: Scarborough
 source: Teaching Vacancies
 job_id: teaching-vacancies-senior-administrator-a7025ffa-8f1a-4ca4-8107-74ae6341f075
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Co-ordinator
-company: KD Recruitment - Agency - Permanent
-location: Scarborough
-source: JobG8
-job_id: jobg8-23643_225622354
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/swansea/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
+- automatic include: 13
 - automatic review: 9
 - automatic exclude: 0
-- effective include: 9
+- effective include: 11
 - effective review: 9
 - effective exclude: 2
 
-## INCLUDE (9)
+## INCLUDE (11)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Brook Street - Agency - Permanent
 location: Swansea
 source: JobG8
 job_id: jobg8-2067966
+reason: Exact approved Swansea workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Hays Accounts and Finance - Agency - Permanent
+location: Swansea
+source: JobG8
+job_id: jobg8-23643_225679881
 reason: Exact approved Swansea workplace.
 ---
 
@@ -93,6 +105,18 @@ company: EE - Company - Permanent
 location: Swansea
 source: JobG8
 job_id: jobg8-20279_62802-744c64d1a62f8e2f11c6d66dea1f4fa0
+reason: Exact approved Swansea workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor - Welsh Speaking/Written
+company: Adecco - Agency - Contract
+location: Swansea
+source: JobG8
+job_id: jobg8-23643_225730827
 reason: Exact approved Swansea workplace.
 ---
 

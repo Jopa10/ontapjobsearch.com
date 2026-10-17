@@ -4,7 +4,7 @@
 - Live route: `/northampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 17
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
-- automatic review: 41
+- automatic include: 19
+- automatic review: 48
 - automatic exclude: 0
-- effective include: 17
-- effective review: 41
+- effective include: 19
+- effective review: 48
 - effective exclude: 0
 
-## INCLUDE (17)
+## INCLUDE (19)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: ACS Staffing Solutions - Agency - Temporary
+location: Northampton
+source: JobG8
+job_id: jobg8-23643_225736933
+reason: Exact approved Northampton workplace.
+---
 
 ---
 action: 
@@ -69,6 +81,18 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Northampton
 source: JobG8
 job_id: jobg8-23643_225717010
+reason: Exact approved Northampton workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
+company: Michael Page - Agency - Permanent
+location: Northampton
+source: JobG8
+job_id: jobg8-23643_225669530
 reason: Exact approved Northampton workplace.
 ---
 
@@ -228,17 +252,17 @@ job_id: jobg8-23643_225641855
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (41)
+## REVIEW (48)
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: AAT Assistant Accountant
-company: Curtis Recruitment - Agency - Permanent
+title: Accounts Administrator
+company: Provit Recruitment - Agency - Permanent
 location: Northamptonshire
 source: JobG8
-job_id: jobg8-2021745
+job_id: jobg8-23643_225730499
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -402,6 +426,18 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Dealership Service Advisor
+company: KPI People Ltd - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225736485
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Depot Coordinator
 company: Whistl - Agency - Permanent
 location: Northamptonshire
@@ -474,6 +510,18 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Fleet Administrator
+company: SF Partners - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225624142
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Group Accounts Assistant
 company: Impact HR - Agency - Permanent
 location: Northamptonshire
@@ -534,11 +582,35 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Outbound Telesales
+company: SolviT Recruitment Ltd - Agency - Temporary
+location: Daventry
+source: JobG8
+job_id: jobg8-23643_225732666
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Part Time Finance Assistant
 company: Adapro Talent Partners - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-23643_225706886
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Finance Assistant (Temp to Perm)
+company: Interaction Recruitment - Agency - Temporary
+location: Corby
+source: JobG8
+job_id: jobg8-23643_225625559
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -606,11 +678,47 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Project Administrator - CAD Experience
+company: ACS Staffing Solutions - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225636122
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Meridian Business Support - Agency - Contract
+location: Corby
+source: JobG8
+job_id: jobg8-23643_225734145
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Recruitment Administrator
 company: Ideal Recruit Ltd - Agency - Permanent
 location: Kettering
 source: JobG8
 job_id: jobg8-23643_225642014
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment Operations Coordinator
+company: R&V Group Ltd - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-108069317
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -666,18 +774,6 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Single Point of Access Administrator
-company: Northamptonshire Healthcare Foundation Trust
-location: Wellingborough, NN8 1LT
-source: NHS Jobs
-job_id: nhs-5648061
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Stock Administrator
 company: Interaction Recruitment - Agency - Permanent
 location: Northamptonshire
@@ -695,6 +791,18 @@ company: Apex Resource Management - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-23643_225651423
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Technical Internal Sales Executive
+company: Stafforce Recruitment - Agency - Permanent
+location: Daventry
+source: JobG8
+job_id: jobg8-23643_225735573
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

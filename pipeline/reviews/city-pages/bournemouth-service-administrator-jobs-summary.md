@@ -4,7 +4,7 @@
 - Live route: `/bournemouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 47
+- automatic include: 8
+- automatic review: 51
 - automatic exclude: 0
-- effective include: 6
-- effective review: 47
+- effective include: 8
+- effective review: 51
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (8)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Regent's Park Healthcare
+location: Bournemouth, BH7 7DW
+source: NHS Jobs
+job_id: nhs-5671343
+reason: Exact approved Bournemouth workplace.
+---
 
 ---
 action: 
@@ -64,11 +76,23 @@ reason: Exact approved Bournemouth workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Management Accounts Assistant
-company: Michael Page Finance - Agency - Permanent
+title: Customer Service Advisor
+company: The Work Shop Resourcing Ltd - Agency - Temporary
 location: Bournemouth
 source: JobG8
-job_id: jobg8-2067261
+job_id: jobg8-23643_225729918
+reason: Exact approved Bournemouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Administrator
+company: Auto Skills UK - Agency - Permanent
+location: Bournemouth
+source: JobG8
+job_id: jobg8-23643_225730020
 reason: Exact approved Bournemouth workplace.
 ---
 
@@ -96,7 +120,7 @@ job_id: nhs-5651442
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (47)
+## REVIEW (51)
 
 ---
 action: 
@@ -119,18 +143,6 @@ company: Michael Page Finance - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-2055800
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Activities Coordinator - Care Home
-company: Barchester Healthcare - Company - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225673518
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -175,6 +187,18 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
+company: Connect2Dorset - Agency - Temporary
+location: Shaftesbury
+source: JobG8
+job_id: jobg8-23643_225733619
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
 company: Resource Recruitment - Agency - Contract
 location: Poole
 source: JobG8
@@ -191,6 +215,18 @@ company: Rubicon Recruitment - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225695828
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: CMA Recruitment Group - Agency - Permanent
+location: Poole
+source: JobG8
+job_id: jobg8-1986873
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -227,18 +263,6 @@ company: Michael Page Finance - Agency - Permanent
 location: Sherborne
 source: JobG8
 job_id: jobg8-2058934
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Coordinator
-company: Agincare Group - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-108080615
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -306,6 +330,18 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Credit Controller
+company: Team Jobs - Commercial - Agency - Permanent
+location: Poole
+source: JobG8
+job_id: jobg8-23643_225680475
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Account Coordinator
 company: Team Jobs - Commercial - Agency - Permanent
 location: Poole
@@ -335,6 +371,18 @@ company: Holt Engineering - Agency - Permanent
 location: Poole
 source: JobG8
 job_id: jobg8-23643_225705497
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: Simply Automotive Ltd - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225721880
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -426,11 +474,11 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Maintenance Administrator
-company: Vent Group - Agency - Permanent
-location: Poole
+title: Internal Sales Executive
+company: The Work Shop Resourcing Ltd - Agency - Permanent
+location: Ferndown
 source: JobG8
-job_id: jobg8-23643_225674884
+job_id: jobg8-23643_224829412
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -546,6 +594,18 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Assistant
+company: CMA Recruitment Group - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225686145
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Purchase Ledger Administrator
 company: Reed - Agency - Permanent
 location: Dorset
@@ -618,6 +678,18 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Sales Account Manager
+company: Talent Guardian - Agency - Permanent
+location: Broadstone
+source: JobG8
+job_id: jobg8-23643_225736076
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Shipping Administrator
 company: Team Jobs - Strategic Accounts - Agency - Contract
 location: Dorset
@@ -642,11 +714,11 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Trust Administrator
-company: Aspire Jobs Limited - Agency - Permanent
-location: Beaminster
+title: Temporary Purchase Ledger
+company: CMA Recruitment Group - Agency - Permanent
+location: Poole
 source: JobG8
-job_id: jobg8-107765584
+job_id: jobg8-1986688
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

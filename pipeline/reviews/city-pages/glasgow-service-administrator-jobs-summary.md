@@ -4,7 +4,7 @@
 - Live route: `/glasgow/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 27
+- Effective included jobs: 30
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 27
+- automatic include: 30
 - automatic review: 3
 - automatic exclude: 0
-- effective include: 27
+- effective include: 30
 - effective review: 3
 - effective exclude: 0
 
-## INCLUDE (27)
+## INCLUDE (30)
 
 ---
 action: 
@@ -173,6 +173,18 @@ action:
 decision: include
 automatic_decision: include
 title: Customer Service Advisor
+company: Pertemps Warwickshire County Council - Agency - Temporary
+location: Glasgow
+source: JobG8
+job_id: jobg8-23643_225734998
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
 company: Recruitment Helpline - Agency - Permanent
 location: Glasgow
 source: JobG8
@@ -201,6 +213,18 @@ company: Adecco - Agency - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-23643_225627617
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Ferrari Receptionist / Host
+company: Sytner - Company - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-23643_225735732
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -249,6 +273,18 @@ company: Reed - Agency - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-2091438
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Administrator
+company: Stafffinders - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-23643_225735910
 reason: Approved conservative Glasgow launch catchment.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/stoke-on-trent/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
+- automatic include: 5
 - automatic review: 47
 - automatic exclude: 0
-- effective include: 4
+- effective include: 5
 - effective review: 47
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (5)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Work Lyf Group Ltd - Agency - Permanent
 location: Stoke-On-Trent
 source: JobG8
 job_id: jobg8-23643_225686383
+reason: Exact approved Stoke-on-trent workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Project Coordinator
+company: Kairos Recruitment - Agency - Permanent
+location: Stoke-On-Trent
+source: JobG8
+job_id: jobg8-23643_225735865
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
@@ -119,18 +131,6 @@ company: Adecco - Agency - Temporary
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225707300
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: ST Selection - Agency - Permanent
-location: Tamworth
-source: JobG8
-job_id: jobg8-23643_225054691
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -258,18 +258,6 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: Depot Administrator- Noons
-company: Adecco - Agency - Temporary
-location: Staffordshire
-source: JobG8
-job_id: jobg8-23643_225621506
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Assistant
 company: Dutton Recruitment - Agency - Contract
 location: Staffordshire
@@ -287,6 +275,18 @@ company: SF Partners - Agency - Permanent
 location: Tamworth
 source: JobG8
 job_id: jobg8-2051869
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: SF Partners - Agency - Permanent
+location: Tamworth
+source: JobG8
+job_id: jobg8-23643_225667620
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -366,11 +366,11 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: Medical receptionist
-company: Glebedale Medical Practice
-location: Stoke on Trent, ST4 3AQ, Stoke-on-trent, ST3 1LG
-source: NHS Jobs
-job_id: nhs-5615221
+title: Mortgage Service Administrator
+company: Vivo Talent - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-23643_225736995
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -431,18 +431,6 @@ company: SF Partners - Agency - Permanent
 location: Lichfield
 source: JobG8
 job_id: jobg8-23643_225729364
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Administrator
-company: Steelite International - Agency - Permanent
-location: Staffordshire
-source: JobG8
-job_id: jobg8-108122126
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -599,6 +587,30 @@ company: Direct Recruitment (Midlands) Ltd - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225417337
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Senior Media Relations Exec
+company: SF Partners - Agency - Permanent
+location: Tamworth
+source: JobG8
+job_id: jobg8-23643_225627319
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Stock Administrator
+company: Culina Group Limited - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-23643_225666458
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

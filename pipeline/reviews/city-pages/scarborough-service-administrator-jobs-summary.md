@@ -4,7 +4,7 @@
 - Live route: `/scarborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 55
+- automatic include: 6
+- automatic review: 59
 - automatic exclude: 0
-- effective include: 7
-- effective review: 55
+- effective include: 6
+- effective review: 59
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (6)
 
 ---
 action: 
@@ -88,18 +88,6 @@ reason: Exact approved Scarborough workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Service Co-ordinator
-company: KD Recruitment - Agency - Permanent
-location: Scarborough
-source: JobG8
-job_id: jobg8-23643_225622354
-reason: Exact approved Scarborough workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Service Coordinator (UPS)
 company: Dale Power Solutions - Agency - Permanent
 location: Scarborough
@@ -108,7 +96,7 @@ job_id: jobg8-23643_225641309
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (55)
+## REVIEW (59)
 
 ---
 action: 
@@ -222,6 +210,18 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Clinical Team Administrator
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Selby, YO8 9BX
+source: NHS Jobs
+job_id: nhs-5669774
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Commercial & Residential Property Legal Secretary
 company: Search Consultancy Ltd - Agency - Permanent
 location: Yorkshire
@@ -298,6 +298,18 @@ title: Credit Control
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Yorkshire
 source: JobG8
+job_id: jobg8-1987959
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Control
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Yorkshire
+source: JobG8
 job_id: jobg8-2057600
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
@@ -335,18 +347,6 @@ company: Ripon Farm Services - Agency - Permanent
 location: Ripon
 source: JobG8
 job_id: jobg8-2043051
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: SI Recruitment - Agency - Permanent
-location: Ripon
-source: JobG8
-job_id: jobg8-108060036
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -486,6 +486,18 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Marketing Partnership Executive
+company: Matchtech - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-23643_225658052
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Medical Receptionist
 company: Beech House Surgery
 location: Knaresborough, HG5 0UB
@@ -582,6 +594,18 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Payroll/Finance Administrator
+company: Ventrolla - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-23643_225536401
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Practice Administrator
 company: Magpie Recruitment - Agency - Permanent
 location: Richmond
@@ -666,6 +690,18 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Residential Property Legal Assistant
+company: Clear Legal & Financial Recruitment - Agency - Permanent
+location: Selby
+source: JobG8
+job_id: jobg8-23643_225733131
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Residential Property Legal Secretary
 company: Search Consultancy Ltd - Agency - Permanent
 location: Malton
@@ -690,6 +726,18 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Sales Ledger Administrator
+company: Technical Prospects Ltd - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-23643_225675199
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: School Administrator
 company: Saltergate Junior School
 location: Harrogate
@@ -707,18 +755,6 @@ company: Auto Skills UK - Agency - Permanent
 location: Richmond
 source: JobG8
 job_id: jobg8-23643_225729465
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Coordinator
-company: Interaction - Leeds - Agency - Permanent
-location: Malton
-source: JobG8
-job_id: jobg8-108059238
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

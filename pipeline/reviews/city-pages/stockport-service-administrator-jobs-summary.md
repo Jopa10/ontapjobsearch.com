@@ -4,7 +4,7 @@
 - Live route: `/stockport/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 13
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
-- automatic review: 14
+- automatic include: 16
+- automatic review: 17
 - automatic exclude: 0
-- effective include: 13
-- effective review: 14
+- effective include: 16
+- effective review: 17
 - effective exclude: 0
 
-## INCLUDE (13)
+## INCLUDE (16)
 
 ---
 action: 
@@ -40,11 +40,11 @@ reason: Exact approved Stockport workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Administrative Assistant
-company: Pennine Care NHS FT
-location: Stockport, SK1 3QD
-source: NHS Jobs
-job_id: nhs-5652816
+title: Admin/Contact Centre
+company: Alliance Personnel - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225732366
 reason: Exact approved Stockport workplace.
 ---
 
@@ -52,11 +52,11 @@ reason: Exact approved Stockport workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Commercial Coordinator
-company: Jobwise Ltd - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225620060
+title: Administrative Assistant
+company: Pennine Care NHS FT
+location: Stockport, SK1 3QD
+source: NHS Jobs
+job_id: nhs-5652816
 reason: Exact approved Stockport workplace.
 ---
 
@@ -124,6 +124,18 @@ reason: Exact approved Stockport workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Lettings Coordinator
+company: The People Pod - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225656217
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Pallet Network & Customer Service Coordinator
 company: Kinaxia Logistics Limited - Agency - Permanent
 location: Stockport
@@ -160,6 +172,18 @@ reason: Exact approved Stockport workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Property Coordinator
+company: The People Pod - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225661623
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist
 company: Jobwise Ltd - Agency - Temporary
 location: Stockport
@@ -180,7 +204,19 @@ job_id: jobg8-23643_225720848
 reason: Exact approved Stockport workplace.
 ---
 
-## REVIEW (14)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Sales Support Administrator
+company: Forrest Recruitment - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225671741
+reason: Exact approved Stockport workplace.
+---
+
+## REVIEW (17)
 
 ---
 action: 
@@ -282,6 +318,18 @@ reason: No approved Stockport employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
+title: GP Receptionist / Administrator
+company: Barrington Medical Centre Partnership
+location: Altrincham, WA14 1PF
+source: NHS Jobs
+job_id: nhs-5660746
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Purchasing Administrator
 company: Bayman Atkinson Smythe - Agency - Permanent
 location: Trafford
@@ -306,6 +354,18 @@ reason: No approved Stockport employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
+title: Recruitment & HR Administrator
+company: Halecroft Recruitment - Agency - Temporary
+location: Altrincham
+source: JobG8
+job_id: jobg8-23643_225733574
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: RTR Assistant Accountant
 company: Robert Walters - Agency - Permanent
 location: Altrincham
@@ -323,6 +383,18 @@ company: Pickles Recruitment - Agency - Permanent
 location: Denton
 source: JobG8
 job_id: jobg8-23643_225680857
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
+company: Bayman Atkinson Smythe - Agency - Permanent
+location: Trafford
+source: JobG8
+job_id: jobg8-23643_225735521
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 

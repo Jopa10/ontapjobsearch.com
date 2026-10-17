@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 95
+- Effective included jobs: 98
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 95
-- automatic review: 18
+- automatic include: 98
+- automatic review: 19
 - automatic exclude: 5
-- effective include: 95
-- effective review: 18
+- effective include: 98
+- effective review: 19
 - effective exclude: 5
 
-## INCLUDE (95)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: AAT Assistant Accountant
-company: Curtis Recruitment - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-2024671
-reason: Approved conservative Birmingham launch catchment.
----
+## INCLUDE (98)
 
 ---
 action: 
@@ -305,6 +293,18 @@ action:
 decision: include
 automatic_decision: include
 title: Credit Controller
+company: Michael Page - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225689410
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
 company: Michael Page Finance - Agency - Permanent
 location: Birmingham
 source: JobG8
@@ -465,6 +465,18 @@ company: FERROVIAL CONSTRUCTION (UK) LIMITED - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_224853142
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Document Controller
+company: PSR Solutions - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225734548
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -760,6 +772,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Marketing Executive
+company: Reed Specialist Recruitment - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225625802
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Medical Administrator
 company: West Heath Surgery
 location: Birmingham, B31 3HB
@@ -1024,6 +1048,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Sales Support Assistant
+company: Adecco - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225660098
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: School Finance Assistant
 company: A Star Education Recruitment - Agency - Temporary
 location: Birmingham
@@ -1164,7 +1200,7 @@ job_id: jobg8-2039482
 reason: Approved conservative Birmingham launch catchment.
 ---
 
-## REVIEW (18)
+## REVIEW (19)
 
 ---
 action: 
@@ -1235,6 +1271,18 @@ company: Workforce Staffing Ltd - Agency - Permanent
 location: Sutton Coldfield
 source: JobG8
 job_id: jobg8-23643_225690795
+reason: No approved Birmingham catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Hire Administrator
+company: Flannery Plant - Agency - Permanent
+location: Sutton Coldfield
+source: JobG8
+job_id: jobg8-23643_225629635
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 

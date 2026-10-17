@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 14
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
+- automatic include: 16
 - automatic review: 5
-- automatic exclude: 56
-- effective include: 14
+- automatic exclude: 61
+- effective include: 16
 - effective review: 5
-- effective exclude: 56
+- effective exclude: 61
 
-## INCLUDE (14)
+## INCLUDE (16)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: SF Partners - Agency - Contract
 location: Coventry
 source: JobG8
 job_id: jobg8-23643_225722424
+reason: Approved Coventry catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Payable Assistant
+company: Hays Accounts and Finance - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-23643_225677617
 reason: Approved Coventry catchment.
 ---
 
@@ -129,6 +141,18 @@ company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
 location: Coventry
 source: JobG8
 job_id: jobg8-2056891
+reason: Approved Coventry catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Officer
+company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-23643_225684915
 reason: Approved Coventry catchment.
 ---
 
@@ -254,7 +278,7 @@ job_id: jobg8-23643_225656636
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (56)
+## EXCLUDE (61)
 
 ---
 action: 
@@ -265,6 +289,30 @@ company: Smile Digital - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225654935
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: Addington Ball - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225681487
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: Brellis Recruitment - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225681366
 reason: Separate employment market.
 ---
 
@@ -537,6 +585,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Finance Assistant
+company: Opus People Solutions Ltd - Agency - Temporary
+location: Rugby
+source: JobG8
+job_id: jobg8-23643_225674948
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant
 company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
 location: Rugby
 source: JobG8
@@ -704,6 +764,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Part time Bookkeeper
+company: Four Squared Recruitment Ltd - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225686816
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Part-Time Serviced Apartment Receptionist
 company: thefutureworks - Agency - Contract
 location: Warwickshire
@@ -829,6 +901,18 @@ company: Plum Personnel - Agency - Permanent
 location: Warwick
 source: JobG8
 job_id: jobg8-23643_225673829
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Recruitment Partner
+company: Vectis Recruitment - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225736964
 reason: Separate employment market.
 ---
 

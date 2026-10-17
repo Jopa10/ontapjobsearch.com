@@ -4,7 +4,7 @@
 - Live route: `/cardiff/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 23
+- Effective included jobs: 27
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 23
+- automatic include: 27
 - automatic review: 2
 - automatic exclude: 0
-- effective include: 23
+- effective include: 27
 - effective review: 2
 - effective exclude: 0
 
-## INCLUDE (23)
+## INCLUDE (27)
 
 ---
 action: 
@@ -69,6 +69,18 @@ company: Future Select Recruitment - Agency - Permanent
 location: Cardiff
 source: JobG8
 job_id: jobg8-23643_225675600
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Accountant
+company: Yolk Recruitment Ltd - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-1986313
 reason: Approved conservative Cardiff launch catchment.
 ---
 
@@ -172,6 +184,18 @@ reason: Approved conservative Cardiff launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Customer Service Advisor - Welsh Speaking/Written
+company: Adecco - Agency - Contract
+location: Cardiff
+source: JobG8
+job_id: jobg8-23643_225730800
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Data Administrator
 company: Amey Ltd - Company - Permanent
 location: Cardiff
@@ -189,6 +213,18 @@ company: Adecco - Agency - Permanent
 location: Cardiff
 source: JobG8
 job_id: jobg8-23643_225691400
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
+company: Yolk Recruitment - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-23643_225673629
 reason: Approved conservative Cardiff launch catchment.
 ---
 
@@ -237,6 +273,18 @@ company: Yolk Recruitment - Agency - Permanent
 location: Cardiff
 source: JobG8
 job_id: jobg8-23643_225674786
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Purchasing Assistant
+company: Work Wales - Agency - Permanent
+location: Cardiff
+source: JobG8
+job_id: jobg8-23643_225732879
 reason: Approved conservative Cardiff launch catchment.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 42
+- Effective included jobs: 45
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 42
+- automatic include: 45
 - automatic review: 8
-- automatic exclude: 8
-- effective include: 42
+- automatic exclude: 9
+- effective include: 45
 - effective review: 8
-- effective exclude: 8
+- effective exclude: 9
 
-## INCLUDE (42)
+## INCLUDE (45)
 
 ---
 action: 
@@ -292,6 +292,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Internal Sales
+company: Travail Employment Group - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225657710
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Internal Sales Account Manager
 company: CCA Recruitment Group - Agency - Permanent
 location: Bristol
@@ -364,6 +376,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Office Administrator
+company: Lancer Scott Holdings Ltd - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225625657
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Operations Coordinator
 company: MDE Consultants Ltd - Agency - Permanent
 location: Bristol
@@ -400,35 +424,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Project Administrator
-company: Employment Solutions Ltd - Agency - Contract
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225618230
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Project Coordinator
 company: ReQuire Consultancy LTD - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225703813
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Reception and Appointment Clerk
-company: Bristol NHS Foundation Trust
-location: Bristol, BS2 8EL
-source: NHS Jobs
-job_id: nhs-5640113
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -465,6 +465,18 @@ company: Travail Employment Group - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225698115
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Sales administrator
+company: Travail Employment Group - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225733324
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -520,11 +532,35 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Shipping Coordinator
+company: Elliot Marsh - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225626803
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Social Media and Content Executive
 company: Moxie and Mettle Limited - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2053562
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Team Administrator
+company: Devon Partnership NHS Trust
+location: Bristol, BS2 9RU
+source: NHS Jobs
+job_id: nhs-5636801
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -570,11 +606,11 @@ reason: No approved Bristol catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Fuelcard Telesales Representative
-company: Ford Fuels - Agency - Permanent
+title: HR Administrator (Policy and Ops)
+company: Adecco - Agency - Contract
 location: Yate
 source: JobG8
-job_id: jobg8-108070751
+job_id: jobg8-23643_225730843
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
@@ -582,11 +618,11 @@ reason: No approved Bristol catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator (Policy and Ops)
-company: Adecco - Agency - Contract
-location: Yate
+title: Interim Accounts Payable
+company: Hays Accounts and Finance - Agency - Temporary
+location: Gloucestershire
 source: JobG8
-job_id: jobg8-23643_225730843
+job_id: jobg8-23643_225732724
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
@@ -626,7 +662,7 @@ job_id: jobg8-23643_225702996
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
-## EXCLUDE (8)
+## EXCLUDE (9)
 
 ---
 action: 
@@ -661,6 +697,18 @@ company: Crest Recruitment - Agency - Contract
 location: Bath
 source: JobG8
 job_id: jobg8-23643_225671269
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Service Advisor
+company: Red Recruitment - Agency - Temporary
+location: Bath
+source: JobG8
+job_id: jobg8-23643_225732800
 reason: Separate employment market.
 ---
 

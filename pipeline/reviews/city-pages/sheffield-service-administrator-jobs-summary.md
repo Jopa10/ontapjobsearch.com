@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 24
+- Effective included jobs: 27
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 24
-- automatic review: 4
-- automatic exclude: 30
-- effective include: 24
-- effective review: 4
-- effective exclude: 30
+- automatic include: 27
+- automatic review: 6
+- automatic exclude: 29
+- effective include: 27
+- effective review: 6
+- effective exclude: 29
 
-## INCLUDE (24)
+## INCLUDE (27)
 
 ---
 action: 
@@ -196,6 +196,18 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Customer Care Co-ordinator
+company: Sue Ross Recruitment Ltd - Agency - Contract
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225597891
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: GP Receptionist
 company: Elm Lane & Chapeltown Surgery
 location: Sheffield, S5 7TW, SHEFFIELD, S35 1TD
@@ -237,6 +249,18 @@ company: Sytner - Company - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225651604
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Marketing Co-ordinator
+company: Sue Ross Recruitment Ltd - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225731215
 reason: Approved Sheffield catchment.
 ---
 
@@ -312,7 +336,31 @@ job_id: teaching-vacancies-send-administrator-adcabd9c-b940-45d0-a8f0-52fec00f63
 reason: Approved Sheffield catchment.
 ---
 
-## REVIEW (4)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Service Administrator
+company: Sue Ross Recruitment Ltd - Agency - Contract
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225736471
+reason: Approved Sheffield catchment.
+---
+
+## REVIEW (6)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Activities Coordinator
+company: Runwood Homes - Company - Permanent
+location: Bentley
+source: JobG8
+job_id: jobg8-23643_225736679
+reason: No approved Sheffield catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -362,19 +410,19 @@ job_id: jobg8-23643_225712413
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (30)
-
 ---
 action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrative Assistant
-company: The Rotherham NHS Foundation Trust
-location: Rotherham, S60 2UD
-source: NHS Jobs
-job_id: nhs-5654236
-reason: Separate employment market.
+decision: review
+automatic_decision: review
+title: Purchase Ledger Clerk
+company: Travail Employment Group - Agency - Contract
+location: Yorkshire
+source: JobG8
+job_id: jobg8-23643_225681456
+reason: No approved Sheffield catchment rule matched; local review required.
 ---
+
+## EXCLUDE (29)
 
 ---
 action: 
@@ -421,18 +469,6 @@ company: TSR Recruitment Limited - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225685872
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Venatu Consulting Ltd - Agency - Temporary
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225731038
 reason: Separate employment market.
 ---
 
@@ -560,18 +596,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Medical Receptionist
-company: The Kakoty Practice
-location: Barnsley, S70 4NW, Barnsley, S705NZ
-source: NHS Jobs
-job_id: nhs-5640242
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Next Day Tracking Coordinators
 company: TRC Yorkshire - Agency - Permanent
 location: Barnsley
@@ -632,6 +656,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Payroll Administrator
+company: SARIA - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225684316
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Payroll and Accounts Assistant
 company: Elevation Recruitment Group - Agency - Permanent
 location: Doncaster
@@ -673,6 +709,18 @@ company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Rotherham
 source: JobG8
 job_id: jobg8-2087559
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist
+company: Hollygreen Practice
+location: Rotherham, S63 9EH, Thurnscoe, s63 0LT, BARNSLEY, S72 0EJ
+source: NHS Jobs
+job_id: nhs-5670531
 reason: Separate employment market.
 ---
 

@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 7
+- automatic review: 6
 - automatic exclude: 0
 - effective include: 0
-- effective review: 7
+- effective review: 6
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (7)
+## REVIEW (6)
 
 ---
 action: 
@@ -90,23 +90,11 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Commercial Vehicles Administrator
-company: Briggs Equipment Ltd - Agency - Permanent
-location: Lisburn
+title: Payroll Officer
+company: Hays Accounts and Finance - Agency - Permanent
+location: Belfast
 source: JobG8
-job_id: jobg8-107952610
-reason: No exact Newtownabbey workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Briggs Equipment Ltd - Agency - Permanent
-location: Lisburn
-source: JobG8
-job_id: jobg8-108056565
+job_id: jobg8-23643_225679035
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 

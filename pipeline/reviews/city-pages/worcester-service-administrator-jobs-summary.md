@@ -4,7 +4,7 @@
 - Live route: `/worcester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 28
+- automatic include: 5
+- automatic review: 34
 - automatic exclude: 0
-- effective include: 4
-- effective review: 28
+- effective include: 5
+- effective review: 34
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (5)
 
 ---
 action: 
@@ -52,6 +52,18 @@ reason: Exact approved Worcester workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Digital Marketing Coordinator
+company: Henderson Brown Recruitment - Agency - Permanent
+location: Worcester
+source: JobG8
+job_id: jobg8-23643_225669131
+reason: Exact approved Worcester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist
 company: Spring Gardens Group Medical Practice
 location: Worcester, WR1 2BS
@@ -72,7 +84,19 @@ job_id: jobg8-2074804
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (28)
+## REVIEW (34)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: CY Executive Resourcing - Agency - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-23643_225686542
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -95,6 +119,30 @@ company: Michael Page Finance - Agency - Permanent
 location: Redditch
 source: JobG8
 job_id: jobg8-2055240
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Transaction Recruitment - Agency - Permanent
+location: Redditch
+source: JobG8
+job_id: jobg8-23643_225677223
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Transaction Recruitment - Agency - Temporary
+location: Droitwich
+source: JobG8
+job_id: jobg8-23643_225669335
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -186,6 +234,18 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Bookkeeper
+company: Bell Cornwall Recruitment - Agency - Permanent
+location: Droitwich
+source: JobG8
+job_id: jobg8-23643_225732789
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Business Support Assistant
 company: Opus People Solutions Ltd - Agency - Temporary
 location: Redditch
@@ -203,18 +263,6 @@ company: VolkerWessels UK Ltd - Company - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-23643_225681223
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Care Coordinator
-company: Agincare Group - Agency - Permanent
-location: Worcestershire
-source: JobG8
-job_id: jobg8-108053865
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -306,6 +354,18 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Finance Assistant
+company: Vibe Recruit Limited - Agency - Permanent
+location: Malvern
+source: JobG8
+job_id: jobg8-108167424
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Imports Coordinator
 company: Adecco - Agency - Permanent
 location: Worcestershire
@@ -354,18 +414,6 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Part-Time Student Receptionist/Main Receptionist
-company: South Bromsgrove High
-location: Bromsgrove
-source: Teaching Vacancies
-job_id: teaching-vacancies-part-time-student-receptionist-main-receptionist
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Payroll Administrator
 company: Four Squared Recruitment Ltd - Agency - Permanent
 location: Worcestershire
@@ -378,11 +426,35 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist Administrator
+company: Crabbs Cross Medical Centre
+location: Redditch, B97 5JX
+source: NHS Jobs
+job_id: nhs-5618246
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist/Admin
 company: Crabbs Cross Surgery
 location: Redditch, B97 5JX
 source: NHS Jobs
 job_id: nhs-5648429
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
+company: Jonathan Lee Recruitment Ltd - Agency - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-23643_225730839
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -407,6 +479,18 @@ company: Michael Page Finance - Agency - Permanent
 location: Redditch
 source: JobG8
 job_id: jobg8-2027458
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Youth Programme Coordinator
+company: Rees Foundation - Agency - Permanent
+location: Droitwich
+source: JobG8
+job_id: jobg8-2138560
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

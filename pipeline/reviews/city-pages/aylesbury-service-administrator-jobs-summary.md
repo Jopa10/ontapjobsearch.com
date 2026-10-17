@@ -4,7 +4,7 @@
 - Live route: `/aylesbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 63
+- automatic include: 10
+- automatic review: 65
 - automatic exclude: 0
-- effective include: 8
-- effective review: 63
+- effective include: 10
+- effective review: 65
 - effective exclude: 0
 
-## INCLUDE (8)
+## INCLUDE (10)
 
 ---
 action: 
@@ -33,6 +33,30 @@ company: Adecco - Agency - Permanent
 location: Aylesbury
 source: JobG8
 job_id: jobg8-2058901
+reason: Exact approved Aylesbury workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Adecco - Agency - Permanent
+location: Aylesbury
+source: JobG8
+job_id: jobg8-23643_225674900
+reason: Exact approved Aylesbury workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Carmichael UK - Agency - Contract
+location: Aylesbury
+source: JobG8
+job_id: jobg8-23643_225732937
 reason: Exact approved Aylesbury workplace.
 ---
 
@@ -120,7 +144,7 @@ job_id: nhs-5648388
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (63)
+## REVIEW (65)
 
 ---
 action: 
@@ -191,6 +215,18 @@ company: Orka Financial - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-2041612
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable - Temp to Perm
+company: Marc Daniels - Agency - Temporary
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225729763
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -343,6 +379,18 @@ action:
 decision: review
 automatic_decision: review
 title: BD & Marketing Executive
+company: Allstaff - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-23643_225667651
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: BD & Marketing Executive
 company: Allstaff Recruitment - Agency - Permanent
 location: Milton Keynes
 source: JobG8
@@ -462,23 +510,11 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Credit Controller - Temp to Perm
+title: Credit Controller - Temp 8 - 12 weeks
 company: Quality Personnel - Agency - Temporary
 location: Milton Keynes
 source: JobG8
 job_id: jobg8-23643_225703692
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Account Coordinator
-company: Chiltern Park Recruitment - Agency - Permanent
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-23643_225621666
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -619,6 +655,18 @@ action:
 decision: review
 automatic_decision: review
 title: Medical Receptionist
+company: Ashfield Medical Centre
+location: Milton Keynes, MK6 4NE
+source: NHS Jobs
+job_id: nhs-5670144
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist
 company: Primary Care Management Solutions Ltd
 location: High Wycombe, HP135DN
 source: NHS Jobs
@@ -647,18 +695,6 @@ company: Adecco - Agency - Temporary
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225715853
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Order Administrator Coordinator
-company: Chiltern Park Recruitment - Agency - Permanent
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-23643_225622705
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -738,18 +774,6 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Procurement Coordinator
-company: Matchtech - Agency - Permanent
-location: Buckingham
-source: JobG8
-job_id: jobg8-23643_225621100
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Purchasing Coordinator (MRP)
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Buckinghamshire
@@ -822,6 +846,18 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Sales Administrator
+company: Elizabeth Michael Associates LTD - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225731641
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Administrator (12 month FTC) - Milton Keynes
 company: Guidant Global - Agency - Contract
 location: Buckinghamshire
@@ -875,6 +911,18 @@ company: Hope After Harm - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-2106884
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Vehicle Sales Administrator
+company: Monday Matters Recruitment Ltd - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225667454
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

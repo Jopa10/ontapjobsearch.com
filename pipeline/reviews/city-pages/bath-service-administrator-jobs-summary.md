@@ -4,7 +4,7 @@
 - Live route: `/bath/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 50
+- automatic include: 9
+- automatic review: 53
 - automatic exclude: 0
-- effective include: 8
-- effective review: 50
+- effective include: 9
+- effective review: 53
 - effective exclude: 0
 
-## INCLUDE (8)
+## INCLUDE (9)
 
 ---
 action: 
@@ -57,6 +57,18 @@ company: Crest Recruitment - Agency - Contract
 location: Bath
 source: JobG8
 job_id: jobg8-23643_225671269
+reason: Exact approved Bath workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: Red Recruitment - Agency - Temporary
+location: Bath
+source: JobG8
+job_id: jobg8-23643_225732800
 reason: Exact approved Bath workplace.
 ---
 
@@ -120,7 +132,7 @@ job_id: jobg8-23643_225653411
 reason: Exact approved Bath workplace.
 ---
 
-## REVIEW (50)
+## REVIEW (53)
 
 ---
 action: 
@@ -402,18 +414,6 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
-title: Fuelcard Telesales Representative
-company: Ford Fuels - Agency - Permanent
-location: Yate
-source: JobG8
-job_id: jobg8-108070751
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: GP Receptionist
 company: Portishead Medical Group
 location: Bristol, BS20 6AQ
@@ -443,6 +443,30 @@ company: Adecco - Agency - Contract
 location: Yate
 source: JobG8
 job_id: jobg8-23643_225730843
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Interim Accounts Payable
+company: Hays Accounts and Finance - Agency - Temporary
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225732724
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Internal Sales
+company: Travail Employment Group - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225657710
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -534,6 +558,18 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
+title: Office Administrator
+company: Lancer Scott Holdings Ltd - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225625657
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Operations Coordinator
 company: MDE Consultants Ltd - Agency - Permanent
 location: Bristol
@@ -582,18 +618,6 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
-title: Project Administrator
-company: Employment Solutions Ltd - Agency - Contract
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225618230
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Project Coordinator
 company: ReQuire Consultancy LTD - Agency - Permanent
 location: Bristol
@@ -611,18 +635,6 @@ company: Adecco - Agency - Temporary
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225702996
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Reception and Appointment Clerk
-company: Bristol NHS Foundation Trust
-location: Bristol, BS2 8EL
-source: NHS Jobs
-job_id: nhs-5640113
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -659,6 +671,18 @@ company: Travail Employment Group - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225698115
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales administrator
+company: Travail Employment Group - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225733324
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -714,11 +738,35 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
+title: Shipping Coordinator
+company: Elliot Marsh - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225626803
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Social Media and Content Executive
 company: Moxie and Mettle Limited - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2053562
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Team Administrator
+company: Devon Partnership NHS Trust
+location: Bristol, BS2 9RU
+source: NHS Jobs
+job_id: nhs-5636801
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 

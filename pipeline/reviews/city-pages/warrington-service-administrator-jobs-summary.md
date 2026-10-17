@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 18
+- Effective included jobs: 21
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
-- automatic review: 3
+- automatic include: 21
+- automatic review: 6
 - automatic exclude: 4
-- effective include: 18
-- effective review: 3
+- effective include: 21
+- effective review: 6
 - effective exclude: 4
 
-## INCLUDE (18)
+## INCLUDE (21)
 
 ---
 action: 
@@ -160,11 +160,35 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Fleet Coordinator
+company: Jobwise Ltd - Agency - Temporary
+location: Warrington
+source: JobG8
+job_id: jobg8-23643_225732768
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: FTC Administrator
 company: Zachary Daniels Recruitment - Agency - Contract
 location: Warrington
 source: JobG8
 job_id: jobg8-23643_225724405
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR / Payroll Assistant
+company: hireful - Company - Contract
+location: Warrington
+source: JobG8
+job_id: jobg8-23643_225730928
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -208,18 +232,6 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist/Construction Secretary
-company: Fawkes & Reece London - Agency - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-23643_225620100
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Records Administrator
 company: Meridian Business Support - Agency - Temporary
 location: Warrington
@@ -240,7 +252,55 @@ job_id: jobg8-23643_225401887
 reason: Approved conservative Warrington launch catchment.
 ---
 
-## REVIEW (3)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Sales Administrator
+company: Envipco - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-23643_225736171
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Ward Clerk
+company: North Cheshire and Mersey NHS Foundation Trust (WHH)
+location: Warrington, WA51QG
+source: NHS Jobs
+job_id: nhs-5669955
+reason: Approved conservative Warrington launch catchment.
+---
+
+## REVIEW (6)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Communications and Media Relations Manager
+company: MCS - Agency - Permanent
+location: Cheshire
+source: JobG8
+job_id: jobg8-2145631
+reason: No approved Warrington catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Administrator
+company: Atrium Associates Ltd - Agency - Contract
+location: Cheshire
+source: JobG8
+job_id: jobg8-23643_225677068
+reason: No approved Warrington catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -275,6 +335,18 @@ company: System Recruitment - Agency - Permanent
 location: Widnes
 source: JobG8
 job_id: jobg8-23643_225626812
+reason: No approved Warrington catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator - Pharmaceuticals
+company: Smart4Sciences - Agency - Permanent
+location: Widnes
+source: JobG8
+job_id: jobg8-23643_225626952
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
