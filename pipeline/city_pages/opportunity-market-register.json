@@ -70,4 +70,6 @@
   {"region_key":"bristol-bath","market_key":"bath","display_name":"Bath","include_patterns":["bath"]},
   {"region_key":"hertfordshire","market_key":"watford","display_name":"Watford","include_patterns":["watford"]},
   {"region_key":"wiltshire","market_key":"swindon","display_name":"Swindon","include_patterns":["swindon"]}
+,
+  {"region_key":"lincolnshire","market_key":"lincoln","display_name":"Lincoln","include_patterns":["lincoln"]}
 ]

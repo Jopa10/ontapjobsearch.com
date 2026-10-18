@@ -8,7 +8,7 @@ Use `action: approve` to launch that city page, or leave `action:` blank to hold
 Do not edit the technical city-page register; it is generated from this approval.
 A city appears here only after the opportunity process marks it READY FOR APPROVAL.
 
-## READY FOR APPROVAL (6)
+## READY FOR APPROVAL (7)
 
 ---
 action: 
@@ -44,7 +44,7 @@ last_pipeline_runs: 2, 2, 4, 4, 6, 6, 6
 ---
 
 ---
-action: 
+action: approve
 status: READY FOR APPROVAL
 city: Horsham
 region: sussex
@@ -74,4 +74,15 @@ slice: service-administrator-jobs
 current_jobs: 6
 qualifying_runs: 4/3
 last_pipeline_runs: 1, 1, 6, 5, 6, 6, 6
+---
+
+---
+action: approve
+status: READY FOR APPROVAL
+city: Lincoln
+region: lincolnshire
+slice: service-administrator-jobs
+current_jobs: 8
+qualifying_runs: 4/3
+last_pipeline_runs: 7, 7, 8, 8
 ---

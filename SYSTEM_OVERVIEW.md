@@ -1,11 +1,13 @@
 # Ontap System Overview
 
-**Last updated:** 16 October 2026
+**Last updated:** 18 October 2026
 **Status:** Canonical production state, reconciled on 12 October against active workflow definitions, deployment runs and current report data.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 18 October 2026 — **Two owner-approved Service Admin city pages added:** Horsham and Lincoln use exact-town catchments and the existing permanent city-page workflow, with Lincoln added to the local-market register.
 
 - 16 October 2026 — **First AI Job Advert Watch report published:** the AI hub links to the approved October snapshot, with an index for dated reports, full breadcrumbs, fixed canonicals, Article metadata and sitemap discovery. No recurring analysis, job-pipeline or indexing-API schedule was added.
 

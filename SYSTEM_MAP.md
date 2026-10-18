@@ -1,6 +1,6 @@
 # Ontap System Map
 
-**Last updated:** 16 October 2026
+**Last updated:** 18 October 2026
 **Status:** Canonical production architecture, reconciled on 12 October against active workflows, deployment runs, report history, slice register and current diagnostic contract.
 
 - 21 September 2026 — **Nearby-location analytics now explains incomplete location attempts and reliably measures restored preferences:** client events that occur before GA4 initialises wait for the shared analytics-ready signal instead of being dropped. Unsuccessful geolocation attempts now distinguish unsupported browsers, permission denial, unavailable positions, timeouts and nearby-API failures; manual-town attempts and saved-location refresh failures are measured separately. Existing `saved_location_return` and `saved_location_results_loaded` events remain the proof of remembered-location reuse.
@@ -8,6 +8,8 @@
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
+
+- 18 October 2026 — **Horsham and Lincoln Service Admin city pages approved:** both use exact-town catchments and the existing permanent city-page derivation/maintenance workflow. Lincoln is added as a registered local market; the owner approval is based on the four-day city counts.
 
 - 16 October 2026 — **First AI Job Advert Watch report published:** the AI hub links to the approved October snapshot, with an index for dated reports, full breadcrumbs, fixed canonicals, Article metadata and sitemap discovery. No recurring analysis, job-pipeline or indexing-API schedule was added.
 
