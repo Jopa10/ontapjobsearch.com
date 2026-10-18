@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-10-17
-review_fingerprint: 9a20482ebba9b0440fb1a0ab92e2afe693434e7ba5ae1027718fbef3cccf59a8
-routing_manifest_sha256: 70ba1e2abc5cbcea3bda56af4f4807368df0db0b99f18d37d3b09b46f7e46011
+review_date: 2026-10-18
+review_fingerprint: f1d18508f7daf91517b4c6f05c196010ae29cd9ade902bc216f3a7939cc5294a
+routing_manifest_sha256: 1bb154e7c14e0bb43ab94c1a3d54011da7c18cd33c418df61de6d7f2a9c876d7
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,27 +14,14 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 11
-- Selected: 1
-- POSS awaiting decision: 1
+- Selected: 0
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 9
 
 ## SELECTED
 
----
-action: 
-SELECTED | Hampshire | Portsmouth, South East, PO1 1RX | £26,033-£29,170 | SEN Administrator
-employer: St Edmund's Catholic School
-closing_date: 2026-11-02T15:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6243a6aabf6db67ddbf8988459fe85eb0177f5165ca2ae6240276a4e8665b4c4
-source: Teaching Vacancies
-source_job_id: sen-administrator-st-edmund-s-catholic-school-portsmouth-hampshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-st-edmund-s-catholic-school-portsmouth-hampshire
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -51,6 +38,21 @@ factual_fingerprint: f1288050d008cfa0c1bac949fbfa80f3200bff82347a1e289da70e2d639
 source: Teaching Vacancies
 source_job_id: administrative-officer-105487cf-80e2-4f7a-a8ea-cac5b40a9e6d
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-105487cf-80e2-4f7a-a8ea-cac5b40a9e6d
+---
+
+---
+action: 
+POSS | Hampshire | Portsmouth, South East, PO1 1RX | £26,033-£29,170 | SEN Administrator
+employer: St Edmund's Catholic School
+closing_date: 2026-11-02T15:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6243a6aabf6db67ddbf8988459fe85eb0177f5165ca2ae6240276a4e8665b4c4
+source: Teaching Vacancies
+source_job_id: sen-administrator-st-edmund-s-catholic-school-portsmouth-hampshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-st-edmund-s-catholic-school-portsmouth-hampshire
 ---
 
 ## EXCLUDED BY REVIEW

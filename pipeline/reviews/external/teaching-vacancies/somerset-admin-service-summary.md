@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-10-17
-review_fingerprint: dbfa1567fc9a6b59f09f862a88be1b2acbdaa2eeb0f72df4e22b77bb0bc90171
-routing_manifest_sha256: 70ba1e2abc5cbcea3bda56af4f4807368df0db0b99f18d37d3b09b46f7e46011
+review_date: 2026-10-18
+review_fingerprint: 8d1e2df116bed4b68c631c5b4ec677d585b1c16cec14f715bd4d2665a5e72391
+routing_manifest_sha256: 1bb154e7c14e0bb43ab94c1a3d54011da7c18cd33c418df61de6d7f2a9c876d7
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
+- Records: 14
 - Selected: 3
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 9
 
 ## SELECTED
 
@@ -73,8 +73,8 @@ action:
 POSS | Somerset | Cheddar, South West, BS27 3AQ | Grade 14 £26016 - £26846 | Finance Assistant
 employer: The Kings of Wessex Academy
 closing_date: 2026-10-19T08:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
 factual_fingerprint: 3d204cd7a42c8ea61e04ed95a0927ae2e71475d09dcbd15184b9df77cc7922c0
@@ -107,7 +107,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-
 - [Customer Service Representative](https://teaching-vacancies.service.gov.uk/jobs/customer-service-representative) — Insufficient admin/service evidence.
 - [Data Administrator & System Management Support](https://teaching-vacancies.service.gov.uk/jobs/data-administrator-system-management-support) — Missing salary or pay scale.
 - [Exams, Data Insights and Systems Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-data-insights-and-systems-manager-bridgwater-college-academy) — Manager title salary ceiling £34,582 is not below £28,000.
-- [Finance Business Partner - Projects and Costings](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-projects-and-costings) — Insufficient admin/service evidence.
 - [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-yeovil-college) — Insufficient admin/service evidence.
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-oak-partnership-trust) — Manager title without salary evidence below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-robert-blake-academy) — Manager title salary ceiling £30,868 is not below £28,000.

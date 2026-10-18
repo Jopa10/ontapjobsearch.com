@@ -17,8 +17,8 @@ Edit only the `action:` line in each unresolved block:
 - EDITABLE NOW (no remembered action): **581**
 - REMEMBERED / RESOLVED: **0**
 - DEFERRED - REGION NOT LIVE: **31**
-- SELECTED: **195**
-- POSS: **87**
+- SELECTED: **194**
+- POSS: **88**
 - HARD PASS / EXCLUDED: **299**
 
 ## BEDFORDSHIRE — SELECTED
@@ -997,16 +997,7 @@ _No jobs in this group._
 
 ## HAMPSHIRE — SELECTED
 
----
-action:
-SELECTED | Hampshire | Portsmouth, South East, PO1 1RX | £26,033-£29,170 | SEN Administrator
-employer: St Edmund's Catholic School
-closing_date: 2026-11-02T15:00:00+00:00
-reason: Clear admin/service title: administrator
-factual_fingerprint: 6243a6aabf6db67ddbf8988459fe85eb0177f5165ca2ae6240276a4e8665b4c4
-source_job_id: sen-administrator-st-edmund-s-catholic-school-portsmouth-hampshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-st-edmund-s-catholic-school-portsmouth-hampshire
----
+_No jobs in this group._
 
 ## HAMPSHIRE — POSSIBLES
 
@@ -1019,6 +1010,17 @@ reason: Possible JobG8 duplicate requires review
 factual_fingerprint: f1288050d008cfa0c1bac949fbfa80f3200bff82347a1e289da70e2d63996625
 source_job_id: administrative-officer-105487cf-80e2-4f7a-a8ea-cac5b40a9e6d
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-105487cf-80e2-4f7a-a8ea-cac5b40a9e6d
+---
+
+---
+action:
+POSS | Hampshire | Portsmouth, South East, PO1 1RX | £26,033-£29,170 | SEN Administrator
+employer: St Edmund's Catholic School
+closing_date: 2026-11-02T15:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+factual_fingerprint: 6243a6aabf6db67ddbf8988459fe85eb0177f5165ca2ae6240276a4e8665b4c4
+source_job_id: sen-administrator-st-edmund-s-catholic-school-portsmouth-hampshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-st-edmund-s-catholic-school-portsmouth-hampshire
 ---
 
 ## HERTFORDSHIRE — SELECTED
@@ -2249,7 +2251,7 @@ action:
 POSS | Somerset | Cheddar, South West, BS27 3AQ | Grade 14 £26016 - £26846 | Finance Assistant
 employer: The Kings of Wessex Academy
 closing_date: 2026-10-19T08:00:00+01:00
-reason: Administrative duties evidenced in description
+reason: Possible JobG8 duplicate requires review
 factual_fingerprint: 3d204cd7a42c8ea61e04ed95a0927ae2e71475d09dcbd15184b9df77cc7922c0
 source_job_id: finance-assistant-the-kings-of-wessex-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the-kings-of-wessex-academy
@@ -3239,7 +3241,7 @@ SELECTED | Yorkshire - West | Ilkley, LS29 8TR | £23,455.00 - £25,466.00 Annua
 employer: Moorlands Learning Trust
 closing_date: 2026-11-02T08:00:00+00:00
 reason: Clear admin/service title: administrator
-factual_fingerprint: 001c82e8e476bad1a839273b10ecd44c92328077447fbb1d2a89d308ad1bf3de
+factual_fingerprint: eda7069851414097adf5e1c093ab19026ba54f39bb26709222027ccbe1828794
 source_job_id: trust-hr-administrator-moorlands-learning-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-hr-administrator-moorlands-learning-trust
 ---

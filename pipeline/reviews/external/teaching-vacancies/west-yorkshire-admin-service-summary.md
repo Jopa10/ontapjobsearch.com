@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-10-17
-review_fingerprint: 12ad5705499c9ed4e888b126311871d725f307e5ab11a299d0c4355809cf8d36
-routing_manifest_sha256: 70ba1e2abc5cbcea3bda56af4f4807368df0db0b99f18d37d3b09b46f7e46011
+review_date: 2026-10-18
+review_fingerprint: d6ece21c3895321e1a3e91ca7bc0e62dea0556fd66ca730938dbc9e071df6099
+routing_manifest_sha256: 1bb154e7c14e0bb43ab94c1a3d54011da7c18cd33c418df61de6d7f2a9c876d7
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -255,7 +255,7 @@ reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: NEW_REVIEW
-factual_fingerprint: 001c82e8e476bad1a839273b10ecd44c92328077447fbb1d2a89d308ad1bf3de
+factual_fingerprint: eda7069851414097adf5e1c093ab19026ba54f39bb26709222027ccbe1828794
 source: Teaching Vacancies
 source_job_id: trust-hr-administrator-moorlands-learning-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-hr-administrator-moorlands-learning-trust
@@ -423,7 +423,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-beckfoot-heaton-primary) — Manager title salary ceiling £34,811 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-holy-name-catholic-voluntary-academy) — Manager title salary ceiling £32,046 is not below £28,000.
 - [Operations Support Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/operations-support-co-ordinator) — Insufficient admin/service evidence.
-- [School Administrator Role - Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-administrator-role-attendance-assistant-outwood-academy-hemsworth) — Missing salary or pay scale.
+- [School Administrator Role - Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-administrator-role-attendance-assistant-768b631b-d361-4d35-990b-279a7fa5d4d7) — Missing salary or pay scale.
 - [School Operations Manager - West Yorkshire](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-west-yorkshire) — Manager title salary ceiling £38,221 is not below £28,000.
 - [School Support Manager](https://teaching-vacancies.service.gov.uk/jobs/school-support-manager-ark-the-king-s-school) — Manager title salary ceiling £41,771 is not below £28,000.
 - [Senior Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-altofts-junior-academy) — Insufficient admin/service evidence.
