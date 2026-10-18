@@ -2,11 +2,11 @@
 
 review_date: 2026-10-18
 
-- Open Administrative & Clerical rows reviewed: 2337
+- Open Administrative & Clerical rows reviewed: 2330
 - Auto/remembered selected: 395
 - Selected HC Tier A: 206
 - Selected HC Tier B: 189
-- POSS awaiting decision: 1835
+- POSS awaiting decision: 1828
 - Excluded: 0
 - HARD_PASS: 107
 
@@ -970,18 +970,6 @@ region: Lincolnshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0318-26-0026
 factual_fingerprint: 88b66ed3a37ba3b0167b2a03d1dc638597dc3d7820ac209a3c9d292f33c16673
----
-
----
-action:
-POSS | NHS Jobs | Greater Manchester - Manchester & Salford | Manchester, M13 9WL | £25760.00 to £27476.00 | Junior Digital Support Technician – Asset Management
-source_job_id: 5670497
-title: Junior Digital Support Technician – Asset Management
-employer: Manchester University NHS Foundation Trust
-region: Greater Manchester - Manchester & Salford
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-3093
-factual_fingerprint: 4ba9bcf0cf47a4791413df8a2378b09d4925f8ba4b5be6fb8dfbebf6b9238b24
 ---
 
 ---
@@ -2738,18 +2726,6 @@ factual_fingerprint: 8669237b045d8f66f3ed8f925a8959ad1476521e7cb38d2f246a3d4fecb
 
 ---
 action:
-POSS | NHS Jobs | Sussex | Brighton, BN2 3EW | £25760.00 to £27476.00 | Trainee Clinical Coder
-source_job_id: 5668066
-title: Trainee Clinical Coder
-employer: University Hospitals Sussex NHS Foundation Trust (279)
-region: Sussex
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9279-26-1095
-factual_fingerprint: e9c06f4b05f031f6040288d33ba42e4127c1a23dbb04d2f81583a78cbfc15a37
----
-
----
-action:
 POSS | NHS Jobs | Kent | Maidstone, ME16 9PL | £25760.00 to £27476.00 | Security Officer
 source_job_id: 5668082
 title: Security Officer
@@ -3622,18 +3598,6 @@ region:
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9338-26-0536
 factual_fingerprint: 218abdad23a8b2b377637ab4bf4ec68b095f333a3d4a3d6ef8d1b2e8d14064ad
----
-
----
-action:
-POSS | NHS Jobs | West Midlands - Birmingham & Solihull | Birmingham, B15 2FG | £32073.00 to £39043.00 | Band 5 Research and Development Assistant - The Barberry
-source_job_id: 5663528
-title: Band 5 Research and Development Assistant - The Barberry
-employer: Birmingham and Solihull Mental Health NHS Foundation Trust
-region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9436-26-0690
-factual_fingerprint: 7c1ecd6f89a1d7894157a8b43568840bc0c7a28fad53785d879a677f7121771c
 ---
 
 ---
@@ -4534,18 +4498,6 @@ region: Norfolk
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9426-26-0369
 factual_fingerprint: b9d4012fe3a665fcff9d5a746e55028bf4e493b7c9586f09ddf5ab3a3c46bec9
----
-
----
-action:
-POSS | NHS Jobs | Greater Manchester - Manchester & Salford | Manchester, M25 3BL | £25760.00 to £27476.00 | CEF Helpdesk Advisor
-source_job_id: 5665291
-title: CEF Helpdesk Advisor
-employer: Greater Manchester Mental Health NHS Foundation Trust
-region: Greater Manchester - Manchester & Salford
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9437-26-0946
-factual_fingerprint: a100a52a3c1b8fde143e2be19fe0118afa2ae6b46b73c94efe519c656b436e51
 ---
 
 ---
@@ -8798,18 +8750,6 @@ factual_fingerprint: 17f6e86167558d81d253beccdf2da7ad71b3cc0d863ccadc831dfa145d3
 
 ---
 action:
-POSS | NHS Jobs | Merseyside - Liverpool | Liverpool, L7 2QR | £32073.00 to £39043.00 | Team Leader
-source_job_id: 5659306
-title: Team Leader
-employer: City Health Care Partnership CIC
-region: Merseyside - Liverpool
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E9810-26-0327
-factual_fingerprint: 2f24b3fdf12a905261631299ffaae6b3ef4e9f9818142f8c3fb67486b8a1d55e
----
-
----
-action:
 POSS | NHS Jobs | Northamptonshire | Northampton, NN6 8QE, Northampton, NN6 9WU | Negotiable | Practice Secretary
 source_job_id: 5659387
 title: Practice Secretary
@@ -9322,18 +9262,6 @@ region: Greater Manchester - Manchester & Salford
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9236-26-1265
 factual_fingerprint: 7562174023a434720d5b07e3352b0ac86de12996b1040928430182d77dbe689d
----
-
----
-action:
-POSS | NHS Jobs | London | London, EN1 3XA | £33262.00 to £36027.00 | Band 4 Shared Recruitment Services Advisor (Helpdesk)
-source_job_id: 5658404
-title: Band 4 Shared Recruitment Services Advisor (Helpdesk)
-employer: North London Partners Shared Service
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C8391-26-0005
-factual_fingerprint: d2037e20d28a48b1f26989f88d9bf0b78b96dc5b700115ba7a62c0f0171a8936
 ---
 
 ---
@@ -10186,18 +10114,6 @@ region: Merseyside - Liverpool
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9287-26-1655
 factual_fingerprint: c4f99e5944916b5e058080d1bc68fdcb57df4282b50e318c18046826460d5787
----
-
----
-action:
-POSS | NHS Jobs | Wiltshire | Swindon, SN3 6BB | £25760.00 to £27476.00 | Paediatric Outreach Administrator
-source_job_id: 5657794
-title: Paediatric Outreach Administrator
-employer: Great Western Hospitals NHS Foundation Trust
-region: Wiltshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9249-26-0634
-factual_fingerprint: ddd68705faf3aea4cbc5e9df110f61018f1553545ba625e642c97a3f7bc33b72
 ---
 
 ---
