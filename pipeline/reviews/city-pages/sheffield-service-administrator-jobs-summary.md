@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 27
+- Effective included jobs: 28
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 27
+- automatic include: 28
 - automatic review: 6
 - automatic exclude: 29
-- effective include: 27
+- effective include: 28
 - effective review: 6
 - effective exclude: 29
 
-## INCLUDE (27)
+## INCLUDE (28)
 
 ---
 action: 
@@ -69,6 +69,18 @@ company: Adecco - Agency - Temporary
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225731356
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Area Planner
+company: The Guinness Partnership - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225723039
 reason: Approved Sheffield catchment.
 ---
 
@@ -153,18 +165,6 @@ company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S10 2JF
 source: NHS Jobs
 job_id: nhs-5662272
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: COMMERCIAL ADMINISTRATOR
-company: Resolve Personnel - Agency - Contract
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225627138
 reason: Approved Sheffield catchment.
 ---
 
@@ -309,6 +309,18 @@ company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2063431
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Reablement Care Coordinator
+company: Belmont Recruitment - Agency - Contract
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225727950
 reason: Approved Sheffield catchment.
 ---
 

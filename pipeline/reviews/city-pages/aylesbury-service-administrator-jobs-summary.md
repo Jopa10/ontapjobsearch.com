@@ -4,7 +4,7 @@
 - Live route: `/aylesbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 10
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 65
+- automatic include: 12
+- automatic review: 68
 - automatic exclude: 0
-- effective include: 10
-- effective review: 65
+- effective include: 12
+- effective review: 68
 - effective exclude: 0
 
-## INCLUDE (10)
+## INCLUDE (12)
 
 ---
 action: 
@@ -124,11 +124,35 @@ reason: Exact approved Aylesbury workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Planner
+company: Daniel Owen Ltd - Agency - Permanent
+location: Aylesbury
+source: JobG8
+job_id: jobg8-23643_225643261
+reason: Exact approved Aylesbury workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist/Admissions Officer
 company: Bearbrook Combined School
 location: Aylesbury
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-admissions-officer-bearbrook-combined-school
+reason: Exact approved Aylesbury workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Repairs Planner
+company: Daniel Owen Ltd - Agency - Permanent
+location: Aylesbury
+source: JobG8
+job_id: jobg8-23643_225639626
 reason: Exact approved Aylesbury workplace.
 ---
 
@@ -144,7 +168,7 @@ job_id: nhs-5648388
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (65)
+## REVIEW (68)
 
 ---
 action: 
@@ -582,6 +606,18 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Finance Assistant
+company: Office Angels - Agency - Temporary
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225661855
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Health Records Clerical Assistant
 company: NHS Professionals - Company - Temporary
 location: Buckinghamshire
@@ -847,10 +883,34 @@ action:
 decision: review
 automatic_decision: review
 title: Sales Administrator
+company: CBS Recruitment Limited - Agency - Contract
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225633052
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
 company: Elizabeth Michael Associates LTD - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225731641
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
+company: TXM Recruit - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-23643_225650195
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

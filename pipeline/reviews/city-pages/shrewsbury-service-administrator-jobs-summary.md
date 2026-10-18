@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 17
+- automatic review: 16
 - automatic exclude: 0
 - effective include: 4
-- effective review: 17
+- effective review: 16
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225715945
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (17)
+## REVIEW (16)
 
 ---
 action: 
@@ -90,11 +90,11 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Activities Coordinator - Care Home
-company: Barchester Healthcare - Company - Permanent
+title: Activity Co-ordinator
+company: Coverage Care Services - Agency - Permanent
 location: Shropshire
 source: JobG8
-job_id: jobg8-23643_225710199
+job_id: jobg8-23643_225728935
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -155,18 +155,6 @@ company: Thorngate Churcher Trust - Agency - Permanent
 location: Shropshire
 source: JobG8
 job_id: jobg8-23643_225698170
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Administrator
-company: Prince Personnel Limited - Agency - Temporary
-location: Shropshire
-source: JobG8
-job_id: jobg8-23643_225625621
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -270,11 +258,11 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Sales Administrator
-company: Adecco - Agency - Contract
-location: Shropshire
+title: Stores Coordinator / Front Counter Support
+company: Pertemps Telford - Agency - Temporary
+location: Telford
 source: JobG8
-job_id: jobg8-23643_225626801
+job_id: jobg8-23643_225735083
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/crawley/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 70
-- automatic exclude: 34
-- effective include: 8
-- effective review: 70
-- effective exclude: 34
+- automatic include: 9
+- automatic review: 69
+- automatic exclude: 36
+- effective include: 9
+- effective review: 69
+- effective exclude: 36
 
-## INCLUDE (8)
+## INCLUDE (9)
 
 ---
 action: 
@@ -57,6 +57,18 @@ company: Skilled Careers - Agency - Temporary
 location: Crawley
 source: JobG8
 job_id: jobg8-23643_225648538
+reason: Exact approved Crawley workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Connection Agreements Coordinator
+company: UK Power Networks (Operations) Ltd - Company - Permanent
+location: Crawley
+source: JobG8
+job_id: jobg8-23643_225737288
 reason: Exact approved Crawley workplace.
 ---
 
@@ -120,7 +132,7 @@ job_id: jobg8-2048366
 reason: Exact approved Crawley workplace.
 ---
 
-## REVIEW (70)
+## REVIEW (69)
 
 ---
 action: 
@@ -354,30 +366,6 @@ reason: The stated location is broader or less specific than the approved Crawle
 action: 
 decision: review
 automatic_decision: review
-title: Care Coordinator
-company: The Cinnamon Care Collection - Company - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225626351
-reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Content Manager
-company: Kairos Recruitment - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225625766
-reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Credit Controller
 company: Paula Rosa Manhattan - Agency - Permanent
 location: Sussex
@@ -522,6 +510,18 @@ reason: No approved Crawley employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
+title: Digital Marketing and Website Executive
+company: Office Angels - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225647702
+reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: E-commerce Coordinator
 company: Pineapple Careers - Agency - Permanent
 location: Sussex
@@ -564,6 +564,18 @@ location: Sussex
 source: JobG8
 job_id: jobg8-2056927
 reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Clearline Recruitment Ltd - Agency - Permanent
+location: Haywards Heath
+source: JobG8
+job_id: jobg8-23643_225668421
+reason: No approved Crawley employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -631,6 +643,18 @@ action:
 decision: review
 automatic_decision: review
 title: Marketing Executive
+company: Office Angels - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225639785
+reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Executive
 company: Reed - Agency - Permanent
 location: Burgess Hill
 source: JobG8
@@ -690,18 +714,6 @@ reason: The stated location is broader or less specific than the approved Crawle
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Manager
-company: Morgan Mckinley (Crawley) - Agency - Contract
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225625301
-reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Medical Receptionist
 company: Staff Partners Business - Agency - Permanent
 location: Sussex
@@ -743,18 +755,6 @@ company: Portfolio Payroll - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2021499
-reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Reception / Administrator - Immediate Start
-company: Office Angels - Agency - Contract
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225623952
 reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
@@ -882,23 +882,23 @@ reason: The stated location is broader or less specific than the approved Crawle
 action: 
 decision: review
 automatic_decision: review
-title: SEO Manager
-company: Kairos Recruitment - Agency - Permanent
-location: Sussex
+title: Senior Marketing Executive
+company: The Caravan and Motorhome Club - Agency - Contract
+location: East Grinstead
 source: JobG8
-job_id: jobg8-23643_225721980
-reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
+job_id: jobg8-23643_225647401
+reason: No approved Crawley employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Service Administrator
-company: Eko Talent - Agency - Permanent
+title: SEO Manager
+company: Kairos Recruitment - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-23643_225627132
+job_id: jobg8-23643_225721980
 reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
@@ -932,7 +932,7 @@ decision: review
 automatic_decision: review
 title: Telesales Executive
 company: Travail Employment Group - Agency - Permanent
-location: Burgess Hill
+location: Not Specified
 source: JobG8
 job_id: jobg8-23643_225735463
 reason: No approved Crawley employment-market rule matched the stated location; local geographic review is required.
@@ -962,7 +962,7 @@ job_id: jobg8-23643_225699794
 reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
-## EXCLUDE (34)
+## EXCLUDE (36)
 
 ---
 action: 
@@ -997,6 +997,18 @@ company: CMA Recruitment Group - Agency - Permanent
 location: Bognor Regis
 source: JobG8
 job_id: jobg8-23643_225712366
+reason: The stated workplace belongs outside the approved Crawley employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: CMA Recruitment Group - Agency - Temporary
+location: Bognor Regis
+source: JobG8
+job_id: jobg8-23643_225656949
 reason: The stated workplace belongs outside the approved Crawley employment market.
 ---
 
@@ -1141,6 +1153,18 @@ company: The Hyde Group - Agency - Permanent
 location: Chichester
 source: JobG8
 job_id: jobg8-23643_225707148
+reason: The stated workplace belongs outside the approved Crawley employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Credit Controller
+company: Michael Page - Agency - Permanent
+location: Brighton
+source: JobG8
+job_id: jobg8-23643_225663519
 reason: The stated workplace belongs outside the approved Crawley employment market.
 ---
 

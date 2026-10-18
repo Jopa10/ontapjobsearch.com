@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 16
 - automatic review: 5
-- automatic exclude: 61
+- automatic exclude: 64
 - effective include: 16
 - effective review: 5
-- effective exclude: 61
+- effective exclude: 64
 
 ## INCLUDE (16)
 
@@ -278,7 +278,7 @@ job_id: jobg8-23643_225656636
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (61)
+## EXCLUDE (64)
 
 ---
 action: 
@@ -289,6 +289,18 @@ company: Smile Digital - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225654935
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Administrator
+company: Transaction Recruitment - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225660067
 reason: Separate employment market.
 ---
 
@@ -601,6 +613,30 @@ company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
 location: Rugby
 source: JobG8
 job_id: jobg8-2093212
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant
+company: SF Partners - Agency - Temporary
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225660466
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant
+company: The Caraires Consultancy - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225658597
 reason: Separate employment market.
 ---
 
@@ -944,11 +980,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Sales Support Specialist
-company: Arden Personnel - Agency - Permanent
+title: Sales Administrator
+company: Arden Personnel - Agency - Contract
 location: Warwickshire
 source: JobG8
-job_id: jobg8-23643_225625542
+job_id: jobg8-23643_225634834
 reason: Separate employment market.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 47
+- automatic review: 49
 - automatic exclude: 0
 - effective include: 8
-- effective review: 47
+- effective review: 49
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: jobg8-2085791
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (47)
+## REVIEW (49)
 
 ---
 action: 
@@ -258,6 +258,18 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Bookkeeper
+company: Ernest Gordon Recruitment Limited - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225662404
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Business Support Administrator
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Gloucestershire
@@ -275,6 +287,18 @@ company: Red Recruitment - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225733251
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Claims Administrator
+company: Siamo Recruitment a division of Siamo Group - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225737090
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -347,18 +371,6 @@ company: Travail Employment Group - Agency - Temporary
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225636518
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Fees Finance Assistant
-company: i2i Recruitment - Agency - Permanent
-location: Gloucestershire
-source: JobG8
-job_id: jobg8-23643_225627058
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -539,6 +551,18 @@ company: Workforce Staffing Ltd - Agency - Temporary
 location: Cheltenham
 source: JobG8
 job_id: jobg8-23643_225727854
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
+company: First Base - Agency - Permanent
+location: Stonehouse
+source: JobG8
+job_id: jobg8-23643_225634420
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

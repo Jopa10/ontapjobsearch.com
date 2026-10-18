@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 73
+- automatic review: 76
 - automatic exclude: 0
 - effective include: 9
-- effective review: 73
+- effective review: 76
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -132,7 +132,7 @@ job_id: jobg8-23643_225673829
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (73)
+## REVIEW (76)
 
 ---
 action: 
@@ -155,6 +155,18 @@ company: Smile Digital - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225654935
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Administrator
+company: Transaction Recruitment - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225660067
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -491,6 +503,30 @@ company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
 location: Rugby
 source: JobG8
 job_id: jobg8-2093212
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: SF Partners - Agency - Temporary
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225660466
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: The Caraires Consultancy - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225658597
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -907,6 +943,18 @@ action:
 decision: review
 automatic_decision: review
 title: Sales Administrator
+company: Arden Personnel - Agency - Contract
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225634834
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
 company: Options Resourcing Ltd - Agency - Permanent
 location: Southam
 source: JobG8
@@ -923,18 +971,6 @@ company: SF Partners - Agency - Permanent
 location: Coventry
 source: JobG8
 job_id: jobg8-23643_225701362
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Support Specialist
-company: Arden Personnel - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225625542
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

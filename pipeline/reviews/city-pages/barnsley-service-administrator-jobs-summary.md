@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 6
 - automatic review: 6
-- automatic exclude: 50
+- automatic exclude: 51
 - effective include: 6
 - effective review: 6
-- effective exclude: 50
+- effective exclude: 51
 
 ## INCLUDE (6)
 
@@ -170,7 +170,7 @@ job_id: jobg8-23643_225681456
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (50)
+## EXCLUDE (51)
 
 ---
 action: 
@@ -229,6 +229,18 @@ company: Reed - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-2024835
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Area Planner
+company: The Guinness Partnership - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225723039
 reason: Separate employment market.
 ---
 
@@ -349,18 +361,6 @@ company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S10 2JF
 source: NHS Jobs
 job_id: nhs-5662272
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: COMMERCIAL ADMINISTRATOR
-company: Resolve Personnel - Agency - Contract
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225627138
 reason: Separate employment market.
 ---
 
@@ -673,6 +673,18 @@ company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Rotherham
 source: JobG8
 job_id: jobg8-2087559
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Reablement Care Coordinator
+company: Belmont Recruitment - Agency - Contract
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225727950
 reason: Separate employment market.
 ---
 

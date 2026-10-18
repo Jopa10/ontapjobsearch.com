@@ -4,7 +4,7 @@
 - Live route: `/worcester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 34
+- automatic include: 6
+- automatic review: 36
 - automatic exclude: 0
-- effective include: 5
-- effective review: 34
+- effective include: 6
+- effective review: 36
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (6)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: ACCOUNTS & OPERATIONS ASSISTANT
+company: PPM Recruitment - Agency - Permanent
+location: Worcester
+source: JobG8
+job_id: jobg8-23643_225662568
+reason: Exact approved Worcester workplace.
+---
 
 ---
 action: 
@@ -84,7 +96,7 @@ job_id: jobg8-2074804
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (34)
+## REVIEW (36)
 
 ---
 action: 
@@ -155,6 +167,18 @@ company: Sierra 57 Consult Ltd - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-23643_225713111
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable Clerk
+company: CY Executive Resourcing - Agency - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-23643_225663805
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -295,18 +319,6 @@ action:
 decision: review
 automatic_decision: review
 title: Customer Service Advisor
-company: Winsearch - Agency - Temporary
-location: Worcestershire
-source: JobG8
-job_id: jobg8-23643_225626756
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
 company: Workforce Staffing Ltd - Agency - Permanent
 location: Worcestershire
 source: JobG8
@@ -343,10 +355,10 @@ action:
 decision: review
 automatic_decision: review
 title: Finance Assistant
-company: Vibe Recruit - Agency - Permanent
-location: Malvern
+company: SF Partners - Agency - Temporary
+location: Pershore
 source: JobG8
-job_id: jobg8-23643_225722826
+job_id: jobg8-23643_225663440
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -355,10 +367,22 @@ action:
 decision: review
 automatic_decision: review
 title: Finance Assistant
-company: Vibe Recruit Limited - Agency - Permanent
+company: SF Partners - Agency - Temporary
+location: Redditch
+source: JobG8
+job_id: jobg8-23643_225668153
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Vibe Recruit - Agency - Permanent
 location: Malvern
 source: JobG8
-job_id: jobg8-108167424
+job_id: jobg8-23643_225722826
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -455,6 +479,18 @@ company: Jonathan Lee Recruitment Ltd - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-23643_225730839
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Ledger Clerk
+company: Four Squared Recruitment Ltd - Agency - Permanent
+location: Redditch
+source: JobG8
+job_id: jobg8-23643_225658142
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

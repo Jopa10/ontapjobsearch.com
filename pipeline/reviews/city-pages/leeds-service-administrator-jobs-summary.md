@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 87
+- Effective included jobs: 92
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 87
-- automatic review: 38
-- automatic exclude: 43
-- effective include: 87
-- effective review: 38
-- effective exclude: 43
+- automatic include: 92
+- automatic review: 39
+- automatic exclude: 42
+- effective include: 92
+- effective review: 39
+- effective exclude: 42
 
-## INCLUDE (87)
+## INCLUDE (92)
 
 ---
 action: 
@@ -285,6 +285,18 @@ company: Michael Page - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225684006
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Sales Administrator
+company: Headway Recruitment - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225642189
 reason: Approved Leeds catchment.
 ---
 
@@ -641,6 +653,18 @@ action:
 decision: include
 automatic_decision: include
 title: Marketing Executive
+company: AWC STAFF SERVICES LTD - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225532100
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Marketing Executive
 company: Lucy Walker Recruitment - Agency - Permanent
 location: Leeds
 source: JobG8
@@ -789,6 +813,30 @@ company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-2087152
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Officer
+company: Hawk 3 Talent Solutions - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225657571
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Officer
+company: Search Consultancy Ltd - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225661076
 reason: Approved Leeds catchment.
 ---
 
@@ -976,6 +1024,18 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Senior Paid Media Manager
+company: FS1 Recruitment - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_224825929
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Service Administrator
 company: Working Solutions Recruitment - Agency - Permanent
 location: Leeds
@@ -1068,7 +1128,7 @@ job_id: jobg8-23643_225706935
 reason: Approved Leeds catchment.
 ---
 
-## REVIEW (38)
+## REVIEW (39)
 
 ---
 action: 
@@ -1458,6 +1518,18 @@ reason: No approved Leeds catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Purchasing Administrator
+company: Siamo Recruitment a division of Siamo Group - Agency - Permanent
+location: Normanton
+source: JobG8
+job_id: jobg8-23643_225737081
+reason: No approved Leeds catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Administrator - Part time
 company: Huntress - Leeds - Agency - Permanent
 location: Batley
@@ -1526,7 +1598,7 @@ job_id: teaching-vacancies-work-experience-administrator-beckfoot-school-bingley
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
-## EXCLUDE (43)
+## EXCLUDE (42)
 
 ---
 action: 
@@ -1572,7 +1644,7 @@ title: Audi Warranty Administrator
 company: Sytner - Company - Permanent
 location: Huddersfield
 source: JobG8
-job_id: jobg8-23643_225624845
+job_id: jobg8-23643_225737043
 reason: Separate employment market.
 ---
 
@@ -1676,18 +1748,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Customer Service Administrator
-company: Huntress - Leeds - Agency - Temporary
-location: Halifax
-source: JobG8
-job_id: jobg8-23643_225625172
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Customer Service Advisor
 company: Search Consultancy Ltd - Agency - Permanent
 location: Bradford
@@ -1777,6 +1837,18 @@ company: Park Lane Academy
 location: Halifax
 source: Teaching Vacancies
 job_id: teaching-vacancies-inclusion-officer-administrator
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Internal Sales / New Business Executive
+company: Streamline Search - Agency - Permanent
+location: Bradford
+source: JobG8
+job_id: jobg8-23643_225639549
 reason: Separate employment market.
 ---
 
@@ -1933,18 +2005,6 @@ company: Ossett Surgery
 location: Wakefield, WF5 8DF
 source: NHS Jobs
 job_id: nhs-5662186
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Recruitment Account Coordinator
-company: Nexus People - Agency - Temporary
-location: Bradford
-source: JobG8
-job_id: jobg8-23643_225626845
 reason: Separate employment market.
 ---
 

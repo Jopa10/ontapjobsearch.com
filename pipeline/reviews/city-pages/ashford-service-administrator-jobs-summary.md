@@ -162,11 +162,35 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Accounts Administrator
+company: Shopfront Services - Agency - Permanent
+location: Dartford
+source: JobG8
+job_id: jobg8-23643_225668824
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Accounts Assistant
 company: Get Recruited (UK) Ltd - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-2046101
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Get-Recruited (UK) Ltd - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225664077
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -200,18 +224,6 @@ decision: review
 automatic_decision: review
 title: Accounts Assistant
 company: Pearson Whiffin Recruitment Ltd - Agency - Permanent
-location: Canterbury
-source: JobG8
-job_id: jobg8-23643_225625149
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Pearson Whiffin Recruitment Ltd - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225676732
@@ -227,18 +239,6 @@ company: HSB Technical - Agency - Contract
 location: Gravesend
 source: JobG8
 job_id: jobg8-23643_225513266
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administration Assistant
-company: Northgate Medical Practice
-location: Canterbury, CT1 1WL
-source: NHS Jobs
-job_id: nhs-5612839
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -287,18 +287,6 @@ company: Pearson Whiffin Recruitment Ltd - Agency - Contract
 location: Gillingham
 source: JobG8
 job_id: jobg8-23643_225699710
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: R9 Recruitment Ltd - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225716152
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -762,6 +750,18 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Health & Housing Coordinator
+company: Town & Country Housing Group - Agency - Contract
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225645620
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Administrator
 company: Huntress - Maidstone - Agency - Permanent
 location: Dartford
@@ -935,6 +935,18 @@ company: Reed - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-2044913
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Executive- Fixed Term Contract
+company: Office Angels - Agency - Contract
+location: Dartford
+source: JobG8
+job_id: jobg8-23643_225634929
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -1487,18 +1499,6 @@ company: Migrant Help - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225730262
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Works Planner/ Scheduler
-company: RG Setsquare - Agency - Permanent
-location: Aylesford
-source: JobG8
-job_id: jobg8-23643_225623144
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 

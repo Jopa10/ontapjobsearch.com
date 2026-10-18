@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 26
+- automatic review: 27
 - automatic exclude: 0
 - effective include: 7
-- effective review: 26
+- effective review: 27
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: jobg8-2039520
 reason: Exact approved Altrincham workplace.
 ---
 
-## REVIEW (26)
+## REVIEW (27)
 
 ---
 action: 
@@ -383,6 +383,18 @@ company: Bayman Atkinson Smythe - Agency - Permanent
 location: Trafford
 source: JobG8
 job_id: jobg8-23643_225735521
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales and Marketing Coordinator
+company: KD Recruitment - Agency - Permanent
+location: Sale
+source: JobG8
+job_id: jobg8-23643_225640492
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

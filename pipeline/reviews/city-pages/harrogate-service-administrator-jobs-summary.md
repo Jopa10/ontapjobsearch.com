@@ -4,7 +4,7 @@
 - Live route: `/harrogate/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 12
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
+- automatic include: 11
 - automatic review: 19
-- automatic exclude: 34
-- effective include: 12
+- automatic exclude: 32
+- effective include: 11
 - effective review: 19
-- effective exclude: 34
+- effective exclude: 32
 
-## INCLUDE (12)
+## INCLUDE (11)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: Tees Esk and Wear Valleys NHS Foundation Trust
 location: Harrogate, HG1 5QE
 source: NHS Jobs
 job_id: nhs-5649706
-reason: Exact approved Harrogate workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Commercial and Residential Property Secretary
-company: Unity Resourcing Ltd - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-23643_225626163
 reason: Exact approved Harrogate workplace.
 ---
 
@@ -398,7 +386,7 @@ job_id: jobg8-23643_225666115
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (34)
+## EXCLUDE (32)
 
 ---
 action: 
@@ -409,18 +397,6 @@ company: Adecco - Agency - Permanent
 location: Scarborough
 source: JobG8
 job_id: jobg8-23643_225673626
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: ABL Health - Agency - Permanent
-location: Scarborough
-source: JobG8
-job_id: jobg8-23643_225626086
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 
@@ -709,18 +685,6 @@ company: Haxby Group
 location: York, YO32 2LL, York, YO24 3BU, Huntington, YO32 9RU, York, YO32 4AG, York, YO26 6EQ
 source: NHS Jobs
 job_id: nhs-5655371
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Project Coordinator
-company: KD Recruitment - Agency - Permanent
-location: Scarborough
-source: JobG8
-job_id: jobg8-23643_225625778
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 

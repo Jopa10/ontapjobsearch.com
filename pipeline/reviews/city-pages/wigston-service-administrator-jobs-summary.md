@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 69
+- automatic review: 71
 - automatic exclude: 0
 - effective include: 0
-- effective review: 69
+- effective review: 71
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (69)
+## REVIEW (71)
 
 ---
 action: 
@@ -71,6 +71,18 @@ company: Blusource Professional Services Ltd - Agency - Temporary
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225731478
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: SF Partners - Agency - Temporary
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225657897
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -491,6 +503,18 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-2067389
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Junior Sales Administrator
+company: Precision People - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225635276
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

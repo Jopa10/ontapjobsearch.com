@@ -4,7 +4,7 @@
 - Live route: `/sunderland/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 108
+- automatic include: 10
+- automatic review: 107
 - automatic exclude: 0
-- effective include: 7
-- effective review: 108
+- effective include: 10
+- effective review: 107
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (10)
 
 ---
 action: 
@@ -33,6 +33,30 @@ company: BMC Recruitment Group - Agency - Permanent
 location: Sunderland
 source: JobG8
 job_id: jobg8-2042404
+reason: Exact approved Sunderland workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: BMC Recruitment Group Ltd - Agency - Permanent
+location: Sunderland
+source: JobG8
+job_id: jobg8-23643_225660967
+reason: Exact approved Sunderland workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant Permanent - Sunderland
+company: Office Angels - Agency - Permanent
+location: Sunderland
+source: JobG8
+job_id: jobg8-23643_225655565
 reason: Exact approved Sunderland workplace.
 ---
 
@@ -57,6 +81,18 @@ company: Trinity Academy New Bridge
 location: Sunderland
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-trinity-academy-new-bridge-sunderland
+reason: Exact approved Sunderland workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Business Development Executive
+company: Glen Callum Associates Ltd - Agency - Permanent
+location: Sunderland
+source: JobG8
+job_id: jobg8-23643_225646206
 reason: Exact approved Sunderland workplace.
 ---
 
@@ -108,7 +144,7 @@ job_id: jobg8-23643_225729432
 reason: Exact approved Sunderland workplace.
 ---
 
-## REVIEW (108)
+## REVIEW (107)
 
 ---
 action: 
@@ -883,6 +919,18 @@ action:
 decision: review
 automatic_decision: review
 title: Medical Receptionist
+company: Hartlepool & Stockton Health [H&SH]
+location: HARTLEPOOL, TS25 1QU
+source: NHS Jobs
+job_id: nhs-5639684
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist
 company: Holmside Medical Group
 location: Newcastle upon Tyne, NE4 8QB, Newcastle Upon Tyne, NE5 1LJ
 source: NHS Jobs
@@ -959,18 +1007,6 @@ company: Office Angels - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225661624
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Assistant
-company: Portfolio Payroll Limited - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225625201
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -1127,18 +1163,6 @@ company: SRG - Agency - Temporary
 location: County Durham
 source: JobG8
 job_id: jobg8-23643_225723153
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Retirement Living Coordinator
-company: Riverside Group - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-2066124
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 

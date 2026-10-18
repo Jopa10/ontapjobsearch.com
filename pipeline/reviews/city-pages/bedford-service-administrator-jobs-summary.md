@@ -210,18 +210,6 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Community Care Coordinator - Luton
-company: Blue Arrow - Agency - Temporary
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225627207
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Credit Controller
 company: Abacus Consulting - Agency - Permanent
 location: Bedfordshire
@@ -323,6 +311,18 @@ company: Portfolio Payroll - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-2046269
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: Portfolio Payroll Limited - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225664229
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

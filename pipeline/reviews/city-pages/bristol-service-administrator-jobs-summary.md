@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 45
+- Effective included jobs: 47
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 45
-- automatic review: 8
+- automatic include: 47
+- automatic review: 9
 - automatic exclude: 9
-- effective include: 45
-- effective review: 8
+- effective include: 47
+- effective review: 9
 - effective exclude: 9
 
-## INCLUDE (45)
+## INCLUDE (47)
 
 ---
 action: 
@@ -148,6 +148,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Bookkeeper
+company: Red Recruitment - Agency - Temporary
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225662841
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Client Benefits Customer Service Adviser
 company: Adecco - Agency - Contract
 location: Bristol
@@ -185,6 +197,18 @@ action:
 decision: include
 automatic_decision: include
 title: Credit Controller
+company: Morgan McKinley (South West) - Agency - Temporary
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225663218
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
 company: Morgan McKinley - Agency - Permanent
 location: Bristol
 source: JobG8
@@ -201,6 +225,18 @@ company: Kings Court Trust - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225729676
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Sales Coordinator
+company: Tilo Consulting - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225651882
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -249,6 +285,18 @@ company: Artis Recruitment - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2042684
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
+company: Red Recruitment - Agency - Temporary
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225662883
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -369,18 +417,6 @@ company: Greenway Community Practice
 location: Bristol, BS10 6AF
 source: NHS Jobs
 job_id: nhs-5643222
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Office Administrator
-company: Lancer Scott Holdings Ltd - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225625657
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -532,18 +568,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Shipping Coordinator
-company: Elliot Marsh - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225626803
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Social Media and Content Executive
 company: Moxie and Mettle Limited - Agency - Permanent
 location: Bristol
@@ -564,7 +588,7 @@ job_id: nhs-5636801
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (8)
+## REVIEW (9)
 
 ---
 action: 
@@ -599,6 +623,18 @@ company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Somerset
 source: JobG8
 job_id: jobg8-2087320
+reason: No approved Bristol catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Artis Recruitment - Agency - Permanent
+location: Yate
+source: JobG8
+job_id: jobg8-23643_225661210
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 

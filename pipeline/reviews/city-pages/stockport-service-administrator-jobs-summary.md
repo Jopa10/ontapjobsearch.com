@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 16
-- automatic review: 17
+- automatic review: 18
 - automatic exclude: 0
 - effective include: 16
-- effective review: 17
+- effective review: 18
 - effective exclude: 0
 
 ## INCLUDE (16)
@@ -216,7 +216,7 @@ job_id: jobg8-23643_225671741
 reason: Exact approved Stockport workplace.
 ---
 
-## REVIEW (17)
+## REVIEW (18)
 
 ---
 action: 
@@ -395,6 +395,18 @@ company: Bayman Atkinson Smythe - Agency - Permanent
 location: Trafford
 source: JobG8
 job_id: jobg8-23643_225735521
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales and Marketing Coordinator
+company: KD Recruitment - Agency - Permanent
+location: Sale
+source: JobG8
+job_id: jobg8-23643_225640492
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 

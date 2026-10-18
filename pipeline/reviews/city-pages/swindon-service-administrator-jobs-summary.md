@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 11
-- automatic review: 22
+- automatic review: 21
 - automatic exclude: 0
 - effective include: 11
-- effective review: 22
+- effective review: 21
 - effective exclude: 0
 
 ## INCLUDE (11)
@@ -156,7 +156,7 @@ job_id: jobg8-23643_225653482
 reason: Exact approved Swindon workplace.
 ---
 
-## REVIEW (22)
+## REVIEW (21)
 
 ---
 action: 
@@ -252,18 +252,6 @@ location: Wiltshire
 source: JobG8
 job_id: jobg8-23643_225636930
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Financial Services Administrator
-company: Burgh Recruitment Limited - Agency - Permanent
-location: Corsham
-source: JobG8
-job_id: jobg8-108114128
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---

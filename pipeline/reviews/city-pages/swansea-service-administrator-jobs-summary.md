@@ -4,7 +4,7 @@
 - Live route: `/swansea/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 11
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
+- automatic include: 11
 - automatic review: 9
 - automatic exclude: 0
-- effective include: 11
+- effective include: 10
 - effective review: 9
-- effective exclude: 2
+- effective exclude: 1
 
-## INCLUDE (11)
+## INCLUDE (10)
 
 ---
 action: 
@@ -129,18 +129,6 @@ company: NHS Wales Shared Services Partnership
 location: Swansea, SA6 8BX
 source: NHS Jobs
 job_id: nhs-5623771
-reason: Exact approved Swansea workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Spares & Service Administrator
-company: Hays Business Support - Agency - Permanent
-location: Swansea
-source: JobG8
-job_id: jobg8-23643_225681180
 reason: Exact approved Swansea workplace.
 ---
 
@@ -266,19 +254,7 @@ job_id: nhs-5656367
 reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (2)
-
----
-action: exclude
-decision: exclude
-automatic_decision: include
-title: Contact Centre Agent - Welsh Speaking and Writing
-company: Adecco - Agency - Contract
-location: Swansea
-source: JobG8
-job_id: jobg8-23643_225624580
-reason: Exact approved Swansea workplace.
----
+## EXCLUDE (1)
 
 ---
 action: exclude

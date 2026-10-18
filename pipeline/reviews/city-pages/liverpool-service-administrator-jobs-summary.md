@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 29
+- Effective included jobs: 31
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 29
+- automatic include: 31
 - automatic review: 3
 - automatic exclude: 0
-- effective include: 29
+- effective include: 31
 - effective review: 3
 - effective exclude: 0
 
-## INCLUDE (29)
+## INCLUDE (31)
 
 ---
 action: 
@@ -261,6 +261,30 @@ company: Stafforce Ports - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-23643_225691969
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Paid Media Executive
+company: Zachary Daniels Recruitment - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-23643_225646306
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Paid Media Specialist
+company: Zachary Daniels Recruitment - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-23643_225651752
 reason: Approved conservative Liverpool launch catchment.
 ---
 

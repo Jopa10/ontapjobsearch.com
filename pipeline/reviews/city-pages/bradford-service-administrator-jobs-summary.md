@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 18
-- automatic review: 37
-- automatic exclude: 113
+- automatic review: 38
+- automatic exclude: 117
 - effective include: 18
-- effective review: 37
-- effective exclude: 113
+- effective review: 38
+- effective exclude: 117
 
 ## INCLUDE (18)
 
@@ -125,6 +125,18 @@ action:
 decision: include
 automatic_decision: include
 title: Internal Sales / New Business Executive
+company: Streamline Search - Agency - Permanent
+location: Bradford
+source: JobG8
+job_id: jobg8-23643_225639549
+reason: Approved Bradford catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Internal Sales / New Business Executive
 company: Streamline Search Ltd - Agency - Permanent
 location: Bradford
 source: JobG8
@@ -184,18 +196,6 @@ reason: Approved Bradford catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Recruitment Account Coordinator
-company: Nexus People - Agency - Temporary
-location: Bradford
-source: JobG8
-job_id: jobg8-23643_225626845
-reason: Approved Bradford catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: School Administrator
 company: PK Education - Agency - Temporary
 location: Bradford
@@ -240,7 +240,7 @@ job_id: jobg8-23643_225645421
 reason: Approved Bradford catchment.
 ---
 
-## REVIEW (37)
+## REVIEW (38)
 
 ---
 action: 
@@ -630,6 +630,18 @@ reason: No approved Bradford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Purchasing Administrator
+company: Siamo Recruitment a division of Siamo Group - Agency - Permanent
+location: Normanton
+source: JobG8
+job_id: jobg8-23643_225737081
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Coordinator
 company: Unity Resourcing Ltd - Agency - Permanent
 location: Wetherby
@@ -686,7 +698,7 @@ job_id: teaching-vacancies-work-experience-administrator-beckfoot-school-bingley
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (113)
+## EXCLUDE (117)
 
 ---
 action: 
@@ -768,7 +780,7 @@ title: Audi Warranty Administrator
 company: Sytner - Company - Permanent
 location: Huddersfield
 source: JobG8
-job_id: jobg8-23643_225624845
+job_id: jobg8-23643_225737043
 reason: Separate employment market.
 ---
 
@@ -1052,6 +1064,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Customer Sales Administrator
+company: Headway Recruitment - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225642189
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Customer Service
 company: RG Setsquare - Agency - Temporary
 location: Leeds
@@ -1081,18 +1105,6 @@ company: Huntress - Leeds - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225728280
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Administrator
-company: Huntress - Leeds - Agency - Temporary
-location: Halifax
-source: JobG8
-job_id: jobg8-23643_225625172
 reason: Separate employment market.
 ---
 
@@ -1473,6 +1485,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Marketing Executive
+company: AWC STAFF SERVICES LTD - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225532100
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Marketing Executive
 company: Lucy Walker Recruitment - Agency - Permanent
 location: Leeds
 source: JobG8
@@ -1681,6 +1705,30 @@ company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-2087152
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Payroll Officer
+company: Hawk 3 Talent Solutions - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225657571
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Payroll Officer
+company: Search Consultancy Ltd - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225661076
 reason: Separate employment market.
 ---
 
@@ -1909,6 +1957,18 @@ company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-2022022
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Senior Paid Media Manager
+company: FS1 Recruitment - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_224825929
 reason: Separate employment market.
 ---
 

@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 10
 - automatic review: 19
-- automatic exclude: 36
+- automatic exclude: 33
 - effective include: 10
 - effective review: 19
-- effective exclude: 36
+- effective exclude: 33
 
 ## INCLUDE (10)
 
@@ -374,7 +374,7 @@ job_id: jobg8-23643_225666115
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (36)
+## EXCLUDE (33)
 
 ---
 action: 
@@ -385,18 +385,6 @@ company: Adecco - Agency - Permanent
 location: Scarborough
 source: JobG8
 job_id: jobg8-23643_225673626
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: ABL Health - Agency - Permanent
-location: Scarborough
-source: JobG8
-job_id: jobg8-23643_225626086
 reason: Separate employment market.
 ---
 
@@ -482,18 +470,6 @@ location: Yorkshire
 source: JobG8
 job_id: jobg8-23643_225656965
 reason: Broad regional label; not York-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Commercial and Residential Property Secretary
-company: Unity Resourcing Ltd - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-23643_225626163
-reason: Separate employment market.
 ---
 
 ---
@@ -673,18 +649,6 @@ company: Ventrolla - Agency - Permanent
 location: Harrogate
 source: JobG8
 job_id: jobg8-23643_225536401
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Project Coordinator
-company: KD Recruitment - Agency - Permanent
-location: Scarborough
-source: JobG8
-job_id: jobg8-23643_225625778
 reason: Separate employment market.
 ---
 

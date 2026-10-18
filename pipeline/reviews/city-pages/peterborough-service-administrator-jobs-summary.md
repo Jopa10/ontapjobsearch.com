@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 13
-- automatic review: 12
-- automatic exclude: 27
+- automatic review: 11
+- automatic exclude: 26
 - effective include: 13
-- effective review: 12
-- effective exclude: 27
+- effective review: 11
+- effective exclude: 26
 
 ## INCLUDE (13)
 
@@ -180,7 +180,7 @@ job_id: nhs-5665914
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (12)
+## REVIEW (11)
 
 ---
 action: 
@@ -294,18 +294,6 @@ reason: No approved Peterborough catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Office Administrator
-company: Interaction Recruitment - Agency - Permanent
-location: Wisbech
-source: JobG8
-job_id: jobg8-23643_225625249
-reason: No approved Peterborough catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Project Administrator - Wisbech
 company: Adecco - Agency - Permanent
 location: Wisbech
@@ -326,7 +314,7 @@ job_id: jobg8-23643_225691104
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (27)
+## EXCLUDE (26)
 
 ---
 action: 
@@ -465,6 +453,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Credit Controller
+company: Infinity Recruitment Consultancy Limited - Agency - Permanent
+location: Huntingdon
+source: JobG8
+job_id: jobg8-23643_225667401
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Credit Controller
 company: Robert Half - Agency - Permanent
 location: Cambridge
 source: JobG8
@@ -493,18 +493,6 @@ company: Saffron Building Society - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225671519
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Executive Assistant
-company: Bell Cornwall Recruitment - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225623807
 reason: Separate employment market.
 ---
 
@@ -565,18 +553,6 @@ company: Henderson Brown Recruitment - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-23643_225674624
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Office Administrator
-company: Platform Recruitment - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225624468
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/leicester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 16
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
+- automatic include: 18
 - automatic review: 53
 - automatic exclude: 0
-- effective include: 16
+- effective include: 18
 - effective review: 53
 - effective exclude: 0
 
-## INCLUDE (16)
+## INCLUDE (18)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: SF Partners - Agency - Temporary
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225657897
+reason: Exact approved Leicester workplace.
+---
 
 ---
 action: 
@@ -93,6 +105,18 @@ company: SF Partners - Agency - Permanent
 location: Leicester
 source: JobG8
 job_id: jobg8-23643_225730191
+reason: Exact approved Leicester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Junior Sales Administrator
+company: Precision People - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225635276
 reason: Exact approved Leicester workplace.
 ---
 

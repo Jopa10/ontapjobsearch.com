@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 22
+- Effective included jobs: 24
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 22
-- automatic review: 14
+- automatic include: 24
+- automatic review: 15
 - automatic exclude: 0
-- effective include: 22
-- effective review: 14
+- effective include: 24
+- effective review: 15
 - effective exclude: 0
 
-## INCLUDE (22)
+## INCLUDE (24)
 
 ---
 action: 
@@ -232,6 +232,18 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Logistics Coordinator
+company: Winsearch - Agency - Permanent
+location: Hull
+source: JobG8
+job_id: jobg8-23643_225735792
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: On-Site Account Administrator
 company: Prestige Recruitment Specialists - Agency - Permanent
 location: Hull
@@ -288,7 +300,19 @@ job_id: jobg8-23643_225667293
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (14)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Senior Administrator
+company: Hull University Teaching Hospitals NHS Trust
+location: Hull, HU16 5JQ
+source: NHS Jobs
+job_id: nhs-5662408
+reason: Approved conservative Hull launch catchment.
+---
+
+## REVIEW (15)
 
 ---
 action: 
@@ -395,6 +419,18 @@ company: Townends Accountants LLP - Agency - Permanent
 location: North Humberside
 source: JobG8
 job_id: jobg8-23643_225702204
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Coordinator
+company: Permanent Futures Limited - Agency - Permanent
+location: Beverley
+source: JobG8
+job_id: jobg8-23643_225737067
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

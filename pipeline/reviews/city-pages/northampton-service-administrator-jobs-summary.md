@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 19
-- automatic review: 48
+- automatic review: 45
 - automatic exclude: 0
 - effective include: 19
-- effective review: 48
+- effective review: 45
 - effective exclude: 0
 
 ## INCLUDE (19)
@@ -252,7 +252,7 @@ job_id: jobg8-23643_225641855
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (48)
+## REVIEW (45)
 
 ---
 action: 
@@ -510,18 +510,6 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Fleet Administrator
-company: SF Partners - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-23643_225624142
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Group Accounts Assistant
 company: Impact HR - Agency - Permanent
 location: Northamptonshire
@@ -539,6 +527,18 @@ company: Advanced Access Platforms - Agency - Permanent
 location: Corby
 source: JobG8
 job_id: jobg8-23643_225718945
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Lead Generation & Sales Support Executive
+company: Stewart Johnson Partners Limited - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225537927
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -599,18 +599,6 @@ company: Adapro Talent Partners - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-23643_225706886
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part Time Finance Assistant (Temp to Perm)
-company: Interaction Recruitment - Agency - Temporary
-location: Corby
-source: JobG8
-job_id: jobg8-23643_225625559
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -715,18 +703,6 @@ action:
 decision: review
 automatic_decision: review
 title: Recruitment Operations Coordinator
-company: R&V Group Ltd - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-108069317
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Recruitment Operations Coordinator
 company: R&V Recruitment Ltd - Agency - Permanent
 location: Northamptonshire
 source: JobG8
@@ -743,18 +719,6 @@ company: Simply Education Ltd - Agency - Contract
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-23643_225673908
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: RETAIND Ltd - Agency - Permanent
-location: Corby
-source: JobG8
-job_id: jobg8-23643_225625074
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/exeter/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 15
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
+- automatic include: 16
 - automatic review: 48
 - automatic exclude: 0
-- effective include: 15
+- effective include: 16
 - effective review: 48
 - effective exclude: 0
 
-## INCLUDE (15)
+## INCLUDE (16)
 
 ---
 action: 
@@ -129,6 +129,18 @@ company: Adecco - Agency - Temporary
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225736532
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Sales Administrator
+company: Office Angels - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-23643_225651226
 reason: Exact approved Exeter workplace.
 ---
 

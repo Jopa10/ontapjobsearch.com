@@ -4,7 +4,7 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 69
-- automatic exclude: 32
-- effective include: 11
-- effective review: 69
-- effective exclude: 32
+- automatic include: 12
+- automatic review: 68
+- automatic exclude: 34
+- effective include: 12
+- effective review: 68
+- effective exclude: 34
 
-## INCLUDE (11)
+## INCLUDE (12)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Tate - Agency - Temporary
 location: Brighton
 source: JobG8
 job_id: jobg8-23643_225685620
+reason: Approved Brighton & Hove catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
+company: Michael Page - Agency - Permanent
+location: Brighton
+source: JobG8
+job_id: jobg8-23643_225663519
 reason: Approved Brighton & Hove catchment.
 ---
 
@@ -156,7 +168,7 @@ job_id: nhs-5667013
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (69)
+## REVIEW (68)
 
 ---
 action: 
@@ -390,30 +402,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Care Coordinator
-company: The Cinnamon Care Collection - Company - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225626351
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Content Manager
-company: Kairos Recruitment - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225625766
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Credit Controller
 company: Paula Rosa Manhattan - Agency - Permanent
 location: Sussex
@@ -546,6 +534,18 @@ reason: No approved Brighton & Hove catchment rule matched; local review require
 action: 
 decision: review
 automatic_decision: review
+title: Digital Marketing and Website Executive
+company: Office Angels - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225647702
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: E-commerce Coordinator
 company: Pineapple Careers - Agency - Permanent
 location: Sussex
@@ -588,6 +588,18 @@ location: Sussex
 source: JobG8
 job_id: jobg8-2056927
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Clearline Recruitment Ltd - Agency - Permanent
+location: Haywards Heath
+source: JobG8
+job_id: jobg8-23643_225668421
+reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
 ---
@@ -655,6 +667,18 @@ action:
 decision: review
 automatic_decision: review
 title: Marketing Executive
+company: Office Angels - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225639785
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Executive
 company: Reed - Agency - Permanent
 location: Burgess Hill
 source: JobG8
@@ -714,18 +738,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Manager
-company: Morgan Mckinley (Crawley) - Agency - Contract
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225625301
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Medical Receptionist
 company: Staff Partners Business - Agency - Permanent
 location: Sussex
@@ -767,18 +779,6 @@ company: Portfolio Payroll - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2021499
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Reception / Administrator - Immediate Start
-company: Office Angels - Agency - Contract
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225623952
 reason: Broad location; review before city inclusion.
 ---
 
@@ -906,23 +906,23 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: SEO Manager
-company: Kairos Recruitment - Agency - Permanent
-location: Sussex
+title: Senior Marketing Executive
+company: The Caravan and Motorhome Club - Agency - Contract
+location: East Grinstead
 source: JobG8
-job_id: jobg8-23643_225721980
-reason: Broad location; review before city inclusion.
+job_id: jobg8-23643_225647401
+reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Service Administrator
-company: Eko Talent - Agency - Permanent
+title: SEO Manager
+company: Kairos Recruitment - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-23643_225627132
+job_id: jobg8-23643_225721980
 reason: Broad location; review before city inclusion.
 ---
 
@@ -956,7 +956,7 @@ decision: review
 automatic_decision: review
 title: Telesales Executive
 company: Travail Employment Group - Agency - Permanent
-location: Burgess Hill
+location: Not Specified
 source: JobG8
 job_id: jobg8-23643_225735463
 reason: No approved Brighton & Hove catchment rule matched; local review required.
@@ -986,7 +986,7 @@ job_id: jobg8-23643_225699794
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (32)
+## EXCLUDE (34)
 
 ---
 action: 
@@ -1033,6 +1033,18 @@ company: CMA Recruitment Group - Agency - Permanent
 location: Bognor Regis
 source: JobG8
 job_id: jobg8-23643_225712366
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
+company: CMA Recruitment Group - Agency - Temporary
+location: Bognor Regis
+source: JobG8
+job_id: jobg8-23643_225656949
 reason: Separate employment market.
 ---
 
@@ -1189,6 +1201,18 @@ company: The Hyde Group - Agency - Permanent
 location: Chichester
 source: JobG8
 job_id: jobg8-23643_225707148
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Connection Agreements Coordinator
+company: UK Power Networks (Operations) Ltd - Company - Permanent
+location: Crawley
+source: JobG8
+job_id: jobg8-23643_225737288
 reason: Separate employment market.
 ---
 

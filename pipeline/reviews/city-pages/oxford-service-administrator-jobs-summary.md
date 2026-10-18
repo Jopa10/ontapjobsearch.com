@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 27
-- automatic exclude: 46
+- automatic review: 30
+- automatic exclude: 47
 - effective include: 9
-- effective review: 27
-- effective exclude: 46
+- effective review: 30
+- effective exclude: 47
 
 ## INCLUDE (9)
 
@@ -132,7 +132,7 @@ job_id: teaching-vacancies-student-receptionist-and-pastoral-assistant-cheney-sc
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (27)
+## REVIEW (30)
 
 ---
 action: 
@@ -239,6 +239,30 @@ company: Faringdon Community College
 location: Faringdon
 source: Teaching Vacancies
 job_id: teaching-vacancies-inclusion-administrator-1d8857c6-4658-46bb-9bcc-5432cf1ee5cd
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Inside Sales Executive
+company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
+location: Witney
+source: JobG8
+job_id: jobg8-23643_225652299
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Internal Account Manager
+company: Planet Recruitment - Agency - Permanent
+location: Witney
+source: JobG8
+job_id: jobg8-23643_225639379
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -415,6 +439,18 @@ action:
 decision: review
 automatic_decision: review
 title: Sales Executive
+company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
+location: Witney
+source: JobG8
+job_id: jobg8-23643_225652157
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Executive
 company: Reed Specialist Recruitment - Agency - Permanent
 location: Hook Norton
 source: JobG8
@@ -458,7 +494,7 @@ job_id: nhs-5664768
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (46)
+## EXCLUDE (47)
 
 ---
 action: 
@@ -541,6 +577,18 @@ company: Performance Resourcing - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225718595
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Bookkeeper
+company: 9-2-3 Jobs Limited - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225656439
 reason: Broad county location; not Oxford-city evidence.
 ---
 

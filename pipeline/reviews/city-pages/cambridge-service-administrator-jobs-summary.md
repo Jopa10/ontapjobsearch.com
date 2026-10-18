@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 25
+- Effective included jobs: 23
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 25
-- automatic review: 12
-- automatic exclude: 15
-- effective include: 25
-- effective review: 12
-- effective exclude: 15
+- automatic include: 23
+- automatic review: 11
+- automatic exclude: 16
+- effective include: 23
+- effective review: 11
+- effective exclude: 16
 
-## INCLUDE (25)
+## INCLUDE (23)
 
 ---
 action: 
@@ -184,18 +184,6 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Executive Assistant
-company: Bell Cornwall Recruitment - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225623807
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Front of House Porter/Security
 company: Select Recruitment Specialists Ltd - Agency - Contract
 location: Cambridge
@@ -237,18 +225,6 @@ company: Henderson Brown Recruitment - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-23643_225674624
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Office Administrator
-company: Platform Recruitment - Agency - Permanent
-location: Cambridge
-source: JobG8
-job_id: jobg8-23643_225624468
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -324,7 +300,7 @@ job_id: jobg8-23643_225721995
 reason: Approved conservative Cambridge launch catchment.
 ---
 
-## REVIEW (12)
+## REVIEW (11)
 
 ---
 action: 
@@ -438,18 +414,6 @@ reason: No approved Cambridge catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Office Administrator
-company: Interaction Recruitment - Agency - Permanent
-location: Wisbech
-source: JobG8
-job_id: jobg8-23643_225625249
-reason: No approved Cambridge catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Project Administrator - Wisbech
 company: Adecco - Agency - Permanent
 location: Wisbech
@@ -470,7 +434,7 @@ job_id: jobg8-23643_225691104
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (15)
+## EXCLUDE (16)
 
 ---
 action: 
@@ -541,6 +505,18 @@ company: Greater Peterborough UTC
 location: Peterborough
 source: Teaching Vacancies
 job_id: teaching-vacancies-business-administrator-apprentice-greater-peterborough-utc
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Credit Controller
+company: Infinity Recruitment Consultancy Limited - Agency - Permanent
+location: Huntingdon
+source: JobG8
+job_id: jobg8-23643_225667401
 reason: Separate employment market.
 ---
 

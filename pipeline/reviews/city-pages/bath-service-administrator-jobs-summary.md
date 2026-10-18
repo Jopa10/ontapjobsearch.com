@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 53
+- automatic review: 56
 - automatic exclude: 0
 - effective include: 9
-- effective review: 53
+- effective review: 56
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -132,7 +132,7 @@ job_id: jobg8-23643_225653411
 reason: Exact approved Bath workplace.
 ---
 
-## REVIEW (53)
+## REVIEW (56)
 
 ---
 action: 
@@ -258,6 +258,18 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
+title: Bookkeeper
+company: Red Recruitment - Agency - Temporary
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225662841
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Brand Manager (Automotive Dealership)
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Gloucestershire
@@ -331,6 +343,18 @@ action:
 decision: review
 automatic_decision: review
 title: Credit Controller
+company: Morgan McKinley (South West) - Agency - Temporary
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225663218
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
 company: Morgan McKinley - Agency - Permanent
 location: Bristol
 source: JobG8
@@ -347,6 +371,18 @@ company: Kings Court Trust - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225729676
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Sales Coordinator
+company: Tilo Consulting - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225651882
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -395,6 +431,30 @@ company: Artis Recruitment - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2042684
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Artis Recruitment - Agency - Permanent
+location: Yate
+source: JobG8
+job_id: jobg8-23643_225661210
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Red Recruitment - Agency - Temporary
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225662883
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -551,18 +611,6 @@ company: Greenway Community Practice
 location: Bristol, BS10 6AF
 source: NHS Jobs
 job_id: nhs-5643222
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Office Administrator
-company: Lancer Scott Holdings Ltd - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225625657
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -731,18 +779,6 @@ company: The Solution Auto - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225708906
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Shipping Coordinator
-company: Elliot Marsh - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225626803
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 

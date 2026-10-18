@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 98
-- automatic review: 19
+- automatic review: 21
 - automatic exclude: 5
 - effective include: 98
-- effective review: 19
+- effective review: 21
 - effective exclude: 5
 
 ## INCLUDE (98)
@@ -772,18 +772,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Marketing Executive
-company: Reed Specialist Recruitment - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225625802
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Medical Administrator
 company: West Heath Surgery
 location: Birmingham, B31 3HB
@@ -813,18 +801,6 @@ company: Scott Arms Medical Centre
 location: Birmingham, B43 6EE
 source: NHS Jobs
 job_id: nhs-5658996
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Office Administrator
-company: Alliance Personnel - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225518765
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1036,6 +1012,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Sales Coordinator
+company: Adecco - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225640276
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Sales Ledger Clerk
 company: Four Squared Recruitment Ltd - Agency - Permanent
 location: Birmingham
@@ -1168,6 +1156,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Trainee Social & Web Executive
+company: Netcom Training - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225432468
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Training Administrator (Construction)
 company: Nicholas Associates - Agency - Contract
 location: Birmingham
@@ -1200,7 +1200,7 @@ job_id: jobg8-2039482
 reason: Approved conservative Birmingham launch catchment.
 ---
 
-## REVIEW (19)
+## REVIEW (21)
 
 ---
 action: 
@@ -1211,6 +1211,18 @@ company: Smile Digital - Agency - Permanent
 location: Shirley
 source: JobG8
 job_id: jobg8-23643_225654934
+reason: No approved Birmingham catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: SF Partners - Agency - Permanent
+location: Shirley
+source: JobG8
+job_id: jobg8-23643_225662469
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
@@ -1332,6 +1344,18 @@ location: West Midlands
 source: JobG8
 job_id: jobg8-2079601
 reason: Broad regional location; review before Birmingham inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Marketing Operations Manager (3 days p/w)
+company: Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent
+location: Shirley
+source: JobG8
+job_id: jobg8-23643_225637565
+reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
 ---

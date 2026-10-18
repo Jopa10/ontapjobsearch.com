@@ -1,10 +1,12 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
+include,jobg8-23643_225657897,Accounts Assistant,SF Partners - Agency - Temporary,Leicester,JobG8,include,include,Exact approved Leicester workplace.,exact:leicester,leicester-service-administrator-jobs
 include,jobg8-23643_225687426,Administrator,SF Partners - Agency - Permanent,Leicester,JobG8,include,include,Exact approved Leicester workplace.,exact:leicester,leicester-service-administrator-jobs
 include,jobg8-23643_225728707,Administrator,Siamo Recruitment a division of Siamo Group - Agency - Permanent,Leicester,JobG8,include,include,Exact approved Leicester workplace.,exact:leicester,leicester-service-administrator-jobs
 include,jobg8-2012728,Assistant Accountant,Macildowie Recruitment and Retention - Agency - Permanent,Leicester,JobG8,include,include,Exact approved Leicester workplace.,exact:leicester,leicester-service-administrator-jobs
 include,jobg8-23643_225699891,Customer Service Advisor,365 People - Agency - Permanent,Leicester,JobG8,include,include,Exact approved Leicester workplace.,exact:leicester,leicester-service-administrator-jobs
 include,jobg8-23643_225706585,Finance Assistant,Optima UK Inc Ltd - Agency - Permanent,Leicester,JobG8,include,include,Exact approved Leicester workplace.,exact:leicester,leicester-service-administrator-jobs
 include,jobg8-23643_225730191,Finance Assistant,SF Partners - Agency - Permanent,Leicester,JobG8,include,include,Exact approved Leicester workplace.,exact:leicester,leicester-service-administrator-jobs
+include,jobg8-23643_225635276,Junior Sales Administrator,Precision People - Agency - Permanent,Leicester,JobG8,include,include,Exact approved Leicester workplace.,exact:leicester,leicester-service-administrator-jobs
 include,teaching-vacancies-key-stage-administrator,Key Stage Administrator,Bosworth Academy,Leicester,Teaching Vacancies,include,include,Exact approved Leicester workplace.,exact:leicester,leicester-service-administrator-jobs
 include,jobg8-23643_225664160,Legal Assistant,GWR Legal Recruitment Ltd - Agency - Permanent,Leicester,JobG8,include,include,Exact approved Leicester workplace.,exact:leicester,leicester-service-administrator-jobs
 include,teaching-vacancies-pa-to-the-principal-06799846-251b-4b2c-bb1a-eb129a5f5011,PA to the Principal,"Tudor Grange Samworth Academy, A church of England School",Leicester,Teaching Vacancies,include,include,Exact approved Leicester workplace.,exact:leicester,leicester-service-administrator-jobs

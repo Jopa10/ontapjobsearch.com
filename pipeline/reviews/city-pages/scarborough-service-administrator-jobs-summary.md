@@ -4,7 +4,7 @@
 - Live route: `/scarborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 4
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 59
+- automatic include: 4
+- automatic review: 58
 - automatic exclude: 0
-- effective include: 6
-- effective review: 59
+- effective include: 4
+- effective review: 58
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (4)
 
 ---
 action: 
@@ -33,30 +33,6 @@ company: Adecco - Agency - Permanent
 location: Scarborough
 source: JobG8
 job_id: jobg8-23643_225673626
-reason: Exact approved Scarborough workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: ABL Health - Agency - Permanent
-location: Scarborough
-source: JobG8
-job_id: jobg8-23643_225626086
-reason: Exact approved Scarborough workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Project Coordinator
-company: KD Recruitment - Agency - Permanent
-location: Scarborough
-source: JobG8
-job_id: jobg8-23643_225625778
 reason: Exact approved Scarborough workplace.
 ---
 
@@ -96,7 +72,7 @@ job_id: jobg8-23643_225641309
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (59)
+## REVIEW (58)
 
 ---
 action: 
@@ -227,18 +203,6 @@ company: Search Consultancy Ltd - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-23643_225656965
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Commercial and Residential Property Secretary
-company: Unity Resourcing Ltd - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-23643_225626163
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

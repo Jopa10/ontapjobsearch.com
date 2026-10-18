@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 108
+- automatic review: 107
 - automatic exclude: 0
 - effective include: 8
-- effective review: 108
+- effective review: 107
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: nhs-5653585
 reason: Exact approved Watford workplace.
 ---
 
-## REVIEW (108)
+## REVIEW (107)
 
 ---
 action: 
@@ -180,18 +180,6 @@ location: Hertfordshire
 source: JobG8
 job_id: jobg8-23643_225647356
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin Assistant
-company: SolviT Recruitment Ltd - Agency - Temporary
-location: Hemel Hempstead
-source: JobG8
-job_id: jobg8-23643_225626116
-reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -510,18 +498,6 @@ reason: The stated location is broader or less specific than the approved Watfor
 action: 
 decision: review
 automatic_decision: review
-title: Education Apprenticeships Coordinator - Onboarding & Funding
-company: RecruitmentRevolution.com - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-23643_225624206
-reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: EMEA Marketing Coordinator
 company: Evolve Selection Ltd - Agency - Permanent
 location: Hertfordshire
@@ -606,6 +582,18 @@ reason: No approved Watford employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
+title: Finance Assistant
+company: Tate - Agency - Permanent
+location: Welwyn Garden City
+source: JobG8
+job_id: jobg8-23643_225657771
+reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Assistant - Part time
 company: STORMX RECRUITMENT LIMITED - Agency - Permanent
 location: St. Albans
@@ -623,18 +611,6 @@ company: Robert Walters - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-2053532
-reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Graduate/Trainee Project Coordinator (High-End projects)
-company: Ernest Gordon Recruitment Limited - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-23643_225625869
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
 ---
 
@@ -803,18 +779,6 @@ company: Elysium Healthcare
 location: Potters Bar, EN6 2SE
 source: NHS Jobs
 job_id: nhs-5630065
-reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Operational Support Coordinator
-company: Smart10 Ltd, Trading as SMT Recruitment - Agency - Contract
-location: Welwyn Garden City
-source: JobG8
-job_id: jobg8-23643_225626635
 reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -1122,6 +1086,18 @@ reason: The stated location is broader or less specific than the approved Watfor
 action: 
 decision: review
 automatic_decision: review
+title: Purchase Ledger Administrator
+company: Gotpeople - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-23643_225657894
+reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Purchase Ledger Clerk
 company: Sterling Recruitment Solutions Ltd - Agency - Permanent
 location: Bishop'S Stortford
@@ -1231,6 +1207,18 @@ action:
 decision: review
 automatic_decision: review
 title: Sales Administrator
+company: Adecco - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-23643_225635344
+reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
 company: Crystal Clear Recruitment - Agency - Permanent
 location: Hertfordshire
 source: JobG8
@@ -1266,11 +1254,11 @@ reason: No approved Watford employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Sales Support Representative
-company: Osborne Appointments - Agency - Temporary
-location: Hatfield
+title: Sales Support
+company: ITSS Recruitment - Agency - Permanent
+location: Ware
 source: JobG8
-job_id: jobg8-23643_225624002
+job_id: jobg8-23643_225641025
 reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
 ---
 

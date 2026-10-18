@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 59
+- automatic review: 60
 - automatic exclude: 0
 - effective include: 3
-- effective review: 59
+- effective review: 60
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: teaching-vacancies-receptionist-admin-assistant-willow-tree-academy
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (59)
+## REVIEW (60)
 
 ---
 action: 
@@ -167,6 +167,18 @@ company: TSR Recruitment Limited - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225685872
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Area Planner
+company: The Guinness Partnership - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225723039
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -287,18 +299,6 @@ company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S10 2JF
 source: NHS Jobs
 job_id: nhs-5662272
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: COMMERCIAL ADMINISTRATOR
-company: Resolve Personnel - Agency - Contract
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225627138
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -695,6 +695,18 @@ company: Travail Employment Group - Agency - Contract
 location: Yorkshire
 source: JobG8
 job_id: jobg8-23643_225681456
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Reablement Care Coordinator
+company: Belmont Recruitment - Agency - Contract
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225727950
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/glasgow/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 30
+- Effective included jobs: 31
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 30
-- automatic review: 3
+- automatic include: 31
+- automatic review: 4
 - automatic exclude: 0
-- effective include: 30
-- effective review: 3
+- effective include: 31
+- effective review: 4
 - effective exclude: 0
 
-## INCLUDE (30)
+## INCLUDE (31)
 
 ---
 action: 
@@ -208,11 +208,23 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Coordinator
-company: Adecco - Agency - Permanent
+title: Facilities Coordinator
+company: Search Consultancy Ltd - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-23643_225627617
+job_id: jobg8-23643_225640886
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Facilities Coordinator
+company: Total Facilities Recruitment Limited - Agency - Temporary
+location: Glasgow
+source: JobG8
+job_id: jobg8-23643_225636334
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -268,6 +280,18 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Marketing Administrator - Immediate Start
+company: Search Consultancy Ltd - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-23643_225641179
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Payroll Administrator
 company: Reed - Agency - Permanent
 location: Glasgow
@@ -309,18 +333,6 @@ company: Pertemps Glasgow Perms - Agency - Temporary
 location: Glasgow
 source: JobG8
 job_id: jobg8-23643_225724778
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Sales Coordinator
-company: Marmon Lift Recruitment - Agency - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225626525
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -384,7 +396,7 @@ job_id: jobg8-23643_225660265
 reason: Approved conservative Glasgow launch catchment.
 ---
 
-## REVIEW (3)
+## REVIEW (4)
 
 ---
 action: 
@@ -419,6 +431,18 @@ company: Realise Recruitment - Agency - Permanent
 location: Not Specified
 source: JobG8
 job_id: jobg8-23643_224045478
+reason: No approved Glasgow catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trainee/Graduate Sales Consultant (Phone Based)
+company: The Portfolio Group - Agency - Permanent
+location: Not Specified
+source: JobG8
+job_id: jobg8-23643_225635523
 reason: No approved Glasgow catchment rule matched; local review required.
 ---
 

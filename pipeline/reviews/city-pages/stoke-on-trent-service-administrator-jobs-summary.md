@@ -343,6 +343,18 @@ action:
 decision: review
 automatic_decision: review
 title: Marketing Manager
+company: Ellodave Creative Agency - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-23643_225643228
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Manager
 company: MorePeople - Agency - Permanent
 location: Stafford
 source: JobG8
@@ -587,18 +599,6 @@ company: Direct Recruitment (Midlands) Ltd - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225417337
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Senior Media Relations Exec
-company: SF Partners - Agency - Permanent
-location: Tamworth
-source: JobG8
-job_id: jobg8-23643_225627319
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

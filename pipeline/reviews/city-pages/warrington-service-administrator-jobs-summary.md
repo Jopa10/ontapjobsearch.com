@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 21
+- Effective included jobs: 24
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 21
-- automatic review: 6
-- automatic exclude: 4
-- effective include: 21
-- effective review: 6
-- effective exclude: 4
+- automatic include: 24
+- automatic review: 4
+- automatic exclude: 6
+- effective include: 24
+- effective review: 4
+- effective exclude: 6
 
-## INCLUDE (21)
+## INCLUDE (24)
 
 ---
 action: 
@@ -101,6 +101,18 @@ action:
 decision: include
 automatic_decision: include
 title: Credit Controller
+company: Axon Moore - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-23643_225656651
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
 company: Proactive Personnel Ltd - Agency - Temporary
 location: Warrington
 source: JobG8
@@ -160,6 +172,18 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Finance Assistant
+company: Adecco - Agency - Temporary
+location: Warrington
+source: JobG8
+job_id: jobg8-23643_225659096
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Fleet Coordinator
 company: Jobwise Ltd - Agency - Temporary
 location: Warrington
@@ -189,6 +213,18 @@ company: hireful - Company - Contract
 location: Warrington
 source: JobG8
 job_id: jobg8-23643_225730928
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Assistant
+company: Michael Page - Agency - Temporary
+location: Warrington
+source: JobG8
+job_id: jobg8-23643_225659253
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -276,17 +312,17 @@ job_id: nhs-5669955
 reason: Approved conservative Warrington launch catchment.
 ---
 
-## REVIEW (6)
+## REVIEW (4)
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Communications and Media Relations Manager
-company: MCS - Agency - Permanent
-location: Cheshire
+title: Accounts Payable Clerk
+company: Michael Page - Agency - Temporary
+location: Widnes
 source: JobG8
-job_id: jobg8-2145631
+job_id: jobg8-23643_225659228
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
@@ -326,31 +362,7 @@ job_id: nhs-5651037
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: System Recruitment - Agency - Permanent
-location: Widnes
-source: JobG8
-job_id: jobg8-23643_225626812
-reason: No approved Warrington catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator - Pharmaceuticals
-company: Smart4Sciences - Agency - Permanent
-location: Widnes
-source: JobG8
-job_id: jobg8-23643_225626952
-reason: No approved Warrington catchment rule matched; local review required.
----
-
-## EXCLUDE (4)
+## EXCLUDE (6)
 
 ---
 action: 
@@ -380,6 +392,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Finance Assistant
+company: Acorn by Synergie - Agency - Permanent
+location: Runcorn
+source: JobG8
+job_id: jobg8-23643_225657717
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Finance Assistant - Cost Control
 company: Halecroft Recruitment - Agency - Permanent
 location: Runcorn
@@ -397,5 +421,17 @@ company: Portfolio Payroll - Agency - Permanent
 location: Runcorn
 source: JobG8
 job_id: jobg8-2039669
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Payroll Administrator
+company: Portfolio Payroll Limited - Agency - Permanent
+location: Runcorn
+source: JobG8
+job_id: jobg8-23643_225659154
 reason: Separate employment market.
 ---

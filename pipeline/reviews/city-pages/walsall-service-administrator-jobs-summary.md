@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 11
-- automatic review: 41
+- automatic review: 43
 - automatic exclude: 0
 - effective include: 11
-- effective review: 41
+- effective review: 43
 - effective exclude: 0
 
 ## INCLUDE (11)
@@ -156,7 +156,7 @@ job_id: nhs-5664251
 reason: Exact approved Walsall workplace.
 ---
 
-## REVIEW (41)
+## REVIEW (43)
 
 ---
 action: 
@@ -203,6 +203,18 @@ company: SF Partners - Agency - Temporary
 location: Cradley Heath
 source: JobG8
 job_id: jobg8-23643_225709493
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Receivable Administrator
+company: MET Recruitment UK LTD - Agency - Permanent
+location: Dudley
+source: JobG8
+job_id: jobg8-23643_225660983
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -287,6 +299,18 @@ company: Howard James Recruitment Consultancy Ltd - Agency - Permanent
 location: Wolverhampton
 source: JobG8
 job_id: jobg8-23643_225698110
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Coordinator
+company: Kathryn Rose Consultancy Serviced Limited - Agency - Permanent
+location: Wolverhampton
+source: JobG8
+job_id: jobg8-23643_225735332
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 

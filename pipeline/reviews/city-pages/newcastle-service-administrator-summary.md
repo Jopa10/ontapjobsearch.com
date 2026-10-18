@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 27
-- automatic review: 57
-- automatic exclude: 31
+- automatic review: 55
+- automatic exclude: 35
 - effective include: 27
-- effective review: 57
-- effective exclude: 31
+- effective review: 55
+- effective exclude: 35
 
 ## INCLUDE (27)
 
@@ -348,7 +348,7 @@ job_id: jobg8-23643_225677749
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (57)
+## REVIEW (55)
 
 ---
 action: 
@@ -774,18 +774,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Payroll Assistant
-company: Portfolio Payroll Limited - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225625201
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Payroll Clerk
 company: Portfolio Payroll - Agency - Permanent
 location: Yorkshire
@@ -887,18 +875,6 @@ company: Office Angels - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225660233
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Retirement Living Coordinator
-company: Riverside Group - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-2066124
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1034,7 +1010,7 @@ job_id: jobg8-23643_225658559
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (31)
+## EXCLUDE (35)
 
 ---
 action: 
@@ -1065,10 +1041,34 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Accounts Assistant
+company: BMC Recruitment Group Ltd - Agency - Permanent
+location: Sunderland
+source: JobG8
+job_id: jobg8-23643_225660967
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
 company: Reed - Agency - Permanent
 location: Durham
 source: JobG8
 job_id: jobg8-2037066
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant Permanent - Sunderland
+company: Office Angels - Agency - Permanent
+location: Sunderland
+source: JobG8
+job_id: jobg8-23643_225655565
 reason: Separate employment market.
 ---
 
@@ -1141,6 +1141,18 @@ company: Reed - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-2053988
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Business Development Executive
+company: Glen Callum Associates Ltd - Agency - Permanent
+location: Sunderland
+source: JobG8
+job_id: jobg8-23643_225646206
 reason: Separate employment market.
 ---
 
@@ -1250,6 +1262,18 @@ location: County Durham
 source: JobG8
 job_id: jobg8-2053979
 reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Medical Receptionist
+company: Hartlepool & Stockton Health [H&SH]
+location: HARTLEPOOL, TS25 1QU
+source: NHS Jobs
+job_id: nhs-5639684
+reason: Outside Newcastle catchment.
 ---
 
 ---
