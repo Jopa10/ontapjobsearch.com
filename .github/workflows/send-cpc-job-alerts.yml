@@ -1,0 +1,67 @@
+name: Send CPC job alerts
+
+on:
+  workflow_dispatch:
+    inputs:
+      report_date:
+        description: UTC date of the newly published jobs report (YYYY-MM-DD)
+        required: true
+        type: string
+
+concurrency:
+  group: cpc-job-alert-delivery
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  send:
+    name: Match new CPC jobs and send opted-in digests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Test CPC job matching
+        working-directory: pipeline
+        run: python -m unittest discover -s tests -p 'test_send_cpc_job_alerts.py' -v
+
+      - name: Confirm feature and Brevo configuration
+        id: config
+        env:
+          ALERTS_ENABLED: ${{ vars.CPC_JOB_ALERTS_ENABLED }}
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          BREVO_LIST_ID: ${{ vars.BREVO_JOB_ALERTS_LIST_ID }}
+          BREVO_SENDER_EMAIL: ${{ vars.BREVO_SENDER_EMAIL }}
+          UNSUBSCRIBE_SECRET: ${{ secrets.JOB_ALERTS_UNSUBSCRIBE_SECRET }}
+        run: |
+          if [ "$ALERTS_ENABLED" != "true" ]; then
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "CPC job alerts are disabled; no email was sent." | tee -a "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          if [ -z "$BREVO_API_KEY" ] || [ -z "$BREVO_LIST_ID" ] || [ -z "$BREVO_SENDER_EMAIL" ] || [ -z "$UNSUBSCRIBE_SECRET" ]; then
+            echo "::error::CPC alerts are enabled but required Brevo settings are missing."
+            exit 1
+          fi
+          echo "enabled=true" >> "$GITHUB_OUTPUT"
+
+      - name: Send daily CPC alert digests
+        if: steps.config.outputs.enabled == 'true'
+        env:
+          CPC_JOB_ALERTS_ENABLED: ${{ vars.CPC_JOB_ALERTS_ENABLED }}
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          BREVO_JOB_ALERTS_LIST_ID: ${{ vars.BREVO_JOB_ALERTS_LIST_ID }}
+          BREVO_SENDER_EMAIL: ${{ vars.BREVO_SENDER_EMAIL }}
+          JOB_ALERTS_UNSUBSCRIBE_SECRET: ${{ secrets.JOB_ALERTS_UNSUBSCRIBE_SECRET }}
+        run: |
+          set -euo pipefail
+          python pipeline/scripts/send_cpc_job_alerts.py --date "${{ inputs.report_date }}"

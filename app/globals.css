@@ -24,3 +24,55 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.cpc-job-alert-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(15, 23, 42, 0.5);
+}
+
+.cpc-job-alert-dialog {
+  position: relative;
+  width: min(60vw, 760px);
+  height: min(64vh, 590px);
+  min-height: 480px;
+  overflow-y: auto;
+  border: 1px solid #dbe3ee;
+  border-radius: 12px;
+  background: #fff;
+  padding: 32px 38px;
+  box-shadow: 0 22px 70px rgba(0, 0, 0, 0.32);
+  color: #171717;
+}
+
+.cpc-job-alert-preferences {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px 18px;
+}
+
+.cpc-job-alert-dialog h2 {
+  font-size: 25px;
+}
+
+@media (max-width: 700px) {
+  .cpc-job-alert-dialog {
+    width: 92vw;
+    height: 68vh;
+    min-height: 440px;
+    padding: 26px 20px;
+  }
+
+  .cpc-job-alert-preferences {
+    grid-template-columns: 1fr;
+  }
+
+  .cpc-job-alert-dialog h2 {
+    font-size: 22px;
+  }
+}

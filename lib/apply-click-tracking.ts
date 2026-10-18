@@ -7,6 +7,7 @@ export type ApplyClickDetails = {
   region: string;
   source: string;
   slice_path?: string;
+  salary_text?: string;
 };
 
 export type ApplyClickParameters = {

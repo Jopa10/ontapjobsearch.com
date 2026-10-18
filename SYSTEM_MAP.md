@@ -9,6 +9,8 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 16 October 2026 — **CPC job-alert flow implemented on a feature branch, not production:** Apply opens the responsive prompt only when enabled and when both JobG8 source and `www.jobg8.com/Traffic.aspx` match. Brevo stores consent/preferences; the daily sender uses the first-seen job ledger, sends one matching digest per contact/day, and includes a signed unsubscribe link that removes only the CPC-alert list membership. No separate Ontap subscriber database is added. The flow remains disabled until provider/account settings and end-to-end delivery tests are complete.
+
 - 16 October 2026 — **First AI Job Advert Watch report published:** the AI hub links to the approved October snapshot, with an index for dated reports, full breadcrumbs, fixed canonicals, Article metadata and sitemap discovery. No recurring analysis, job-pipeline or indexing-API schedule was added.
 
 - 16 October 2026 — **Daily overview city-count test repaired:** the pre-build check now reconciles exact city routes and their count against the active family-city and broad-city registers, instead of assuming 64 pages. Yesterday's ten launches had blocked both post-deployment and hourly report runs. Test changes also trigger the existing recovery workflow; production-SHA verification and report-only publication remain unchanged.
@@ -266,6 +268,8 @@ Report lifecycle is recurring operational reporting / deliberate specialist anal
 
 ## 3. Website / UX
 
+The CPC job-alert prototype on `feat/cpc-job-alerts-brevo` adds a responsive Apply dialog for verified JobG8 CPC listings. It requests one email and pre-fills editable role, location and salary preferences; applying continues after consent is saved or the visitor declines. The daily sender matches only genuinely first-seen JobG8 CPC jobs to role/location and comparable salary ranges; jobs without published salary remain eligible. Emails link back to Ontap and provide a signed unsubscribe action that removes the contact from the CPC-alert list. Code is branch-only and the feature is disabled by default.
+
 Homepage regional and family-city counts use `lib/job-slice-jobs.ts`, shared with `JobSlicePage`, to read each linked page's own JSON, resolve canonical job IDs and deduplicate within that page. London Admin retains its London filter. Counts never infer membership from a job's single `slice_path`: a vacancy may count once on each qualifying family page. City visibility applies the existing four-job floor after page deduplication; the sitewide unique-job total and broad-city counts retain their existing published-inventory mechanisms.
 
 At widths up to 700px, Service Admin `JobSlicePage` uses a flex column to place its single `SavedLocationJobs` instance after the listing content, avoiding duplicated location state/listeners. `JobPageSearch` receives `compactMobile` for a 44px minimum-height toggle and 22px icon above the vacancies. Desktop order and other job families are unchanged.
@@ -335,6 +339,8 @@ Persistent product content belongs here when it changes product behaviour. Ontap
 NHS/public-sector inventory is a complementary supply and sector-switching advantage; it must not redefine Ontap as an NHS job board. Generic job discovery continues to mix NHS into the wider inventory under the source cap and the 4+1 display rhythm. The London-wide Service Admin trial now surfaces explicit NHS/public/charity interest through a client-visible sector view while preserving the single server-rendered all-jobs page.
 
 ## 5. Operations / infrastructure
+
+The branch-only CPC alert flow requires `NEXT_PUBLIC_CPC_JOB_ALERTS_ENABLED=true` and `CPC_JOB_ALERTS_ENABLED=true` in Vercel; GitHub Actions also requires the `CPC_JOB_ALERTS_ENABLED` repository variable, `BREVO_API_KEY` and `JOB_ALERTS_UNSUBSCRIBE_SECRET` secrets, plus `BREVO_JOB_ALERTS_LIST_ID` and `BREVO_SENDER_EMAIL` variables. Vercel needs the API key, list ID and unsubscribe secret. Brevo must define text attributes `ALERT_ROLE`, `ALERT_LOCATION`, `ALERT_SALARY`, `ALERT_JOB_ID`, `ALERT_SOURCE`, `ALERT_CONSENT_AT`, `ALERT_CONSENT_VERSION` and `ALERT_LAST_SENT_DATE`. The daily workflow is dispatched only after successful production deployment; keep the feature disabled until settings are configured and end-to-end tests pass.
 
 Core scheduled workflows include:
 

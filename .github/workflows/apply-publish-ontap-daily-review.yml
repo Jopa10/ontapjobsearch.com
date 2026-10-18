@@ -391,6 +391,22 @@ jobs:
             dispatch_one "shared verified pages" "publish-verified-pages.yml" "false"
             dispatch_one "production deployment" "deploy-vercel-after-publish.yml" "false"
             deployment_run_id="$LAST_RUN_ID"
+
+            # Alert delivery is separate and fail-soft: email issues never undo a published site.
+            alert_report_date="$(date -u +%F)"
+            alert_started_epoch="$(date -u +%s)"
+            if gh workflow run send-cpc-job-alerts.yml --ref main -f "report_date=$alert_report_date"; then
+              if wait_for_dispatched_run "send-cpc-job-alerts.yml" "$alert_started_epoch"; then
+                echo "Daily CPC job-alert delivery completed for $alert_report_date."
+              else
+                echo "::warning::Production is live, but CPC job-alert delivery failed for $alert_report_date."
+                echo "- CPC job-alert delivery failed after production deployment $deployment_run_id; inspect the Send CPC job alerts workflow." >> "$GITHUB_STEP_SUMMARY"
+              fi
+            else
+              echo "::warning::Production is live, but CPC job-alert delivery could not be dispatched."
+              echo "- CPC job-alert delivery could not be dispatched after production deployment $deployment_run_id." >> "$GITHUB_STEP_SUMMARY"
+            fi
+
             report_started_epoch="$(date -u +%s)"
 
             if gh workflow run build-daily-region-overview.yml \
