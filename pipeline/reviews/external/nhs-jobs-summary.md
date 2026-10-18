@@ -2,11 +2,11 @@
 
 review_date: 2026-10-18
 
-- Open Administrative & Clerical rows reviewed: 2341
+- Open Administrative & Clerical rows reviewed: 2337
 - Auto/remembered selected: 395
 - Selected HC Tier A: 206
 - Selected HC Tier B: 189
-- POSS awaiting decision: 1839
+- POSS awaiting decision: 1835
 - Excluded: 0
 - HARD_PASS: 107
 
@@ -1978,18 +1978,6 @@ region: Northamptonshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1878-26-0011
 factual_fingerprint: cc07044b5d0f2eca1ecfecb02f6f52060b9dfdc47e71c7ebfbf3817786b1f9dc
----
-
----
-action:
-POSS | NHS Jobs | London | Morden, SM4 5DX | £30630.00 to £32346.00 | SPA Administrator
-source_job_id: 5668530
-title: SPA Administrator
-employer: Central London Community Health Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9824-26-0946
-factual_fingerprint: ea9daab15238602d68d6f430297bedbf12dd96f2c9100e5d604d4aadb6c16ea5
 ---
 
 ---
@@ -10322,18 +10310,6 @@ factual_fingerprint: fc48a4ef8063054d6e25dd5dc39ae68f8152e41c3271a0756e23b732f4d
 
 ---
 action:
-POSS | NHS Jobs | Bristol & Bath | Bath, BA1 3NG | £25272.00 | Receptionist - Children's Outpatients
-source_job_id: 5655413
-title: Receptionist - Children's Outpatients
-employer: Royal United Hospitals Bath NHS Foundation Trust
-region: Bristol & Bath
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9427-26-0644
-factual_fingerprint: 86e2de2e5f8471cef71b6aecf0bda3d901010844267cc4f633dbd7cd48512f3e
----
-
----
-action:
 POSS | NHS Jobs | Bristol & Bath | Bath, BA1 3NG | £25760.00 to £27476.00 | Medical Secretary - Paediatrics
 source_job_id: 5655098
 title: Medical Secretary - Paediatrics
@@ -11302,18 +11278,6 @@ region: Yorkshire - West
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9389-26-0553
 factual_fingerprint: ace7e5416175c595e9d3684825c394d99860c0124d08991fc60f979e813af040
----
-
----
-action:
-POSS | NHS Jobs | Greater Manchester - Wigan & Bolton | Bolton, BL4 0JR | Negotiable | Volunteer Role
-source_job_id: 5655921
-title: Volunteer Role
-employer: Bolton NHS Foundation Trust
-region: Greater Manchester - Wigan & Bolton
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9241-26-0378
-factual_fingerprint: 5e322365494eb562a52f41af0f76da731f0aec4c42d0694f3efc4f7399d56886
 ---
 
 ---
@@ -14770,18 +14734,6 @@ region: Greater Manchester - Manchester & Salford
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9413-26-0762
 factual_fingerprint: 5813156da18cfd5d29935e76a5fa1e03577a25a68f99b1785b2aa48b09309ffd
----
-
----
-action:
-POSS | NHS Jobs | Nottinghamshire | Nottingham, NG5 1PB | £25272.00 | Catering Clerk
-source_job_id: 5650269
-title: Catering Clerk
-employer: Nottingham University Hospitals NHS Trusts
-region: Nottinghamshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9164-26-0957
-factual_fingerprint: 01198a5a35457652c183cb001861fc8e4dafececba3d1d3426ccae814d515339
 ---
 
 ---
