@@ -18,7 +18,7 @@ import re
 from pathlib import Path
 from typing import Any
 
-from scripts.scan_city_opportunities import DEFAULT_MARKET_REGISTER, DEFAULT_REGISTER, normalise
+from scripts.scan_city_opportunities import DEFAULT_MARKET_REGISTER, DEFAULT_REGISTER, normalise, patterns_include
 from scripts.update_city_opportunity_history import (
     DEFAULT_HISTORY,
     DEFAULT_THRESHOLD,
@@ -190,6 +190,43 @@ def find_market(markets: list[dict[str, Any]], region: str, locality: str) -> di
     return matches[0]
 
 
+def candidate_from_parent(
+    root: Path,
+    region: str,
+    slice_key: str,
+    market: dict[str, Any],
+) -> dict[str, Any] | None:
+    """Read a registered city market from its published regional JSON source.
+
+    Most regions use app/<region>/<slice>.json. Dynamic configured slices use
+    app/_city-pages/configured-slices/<region>/<slice>.json.
+    """
+    parents = [
+        Path("app") / region / f"{slice_key}.json",
+        Path("app/_city-pages/configured-slices") / region / f"{slice_key}.json",
+    ]
+    include = tuple(str(value) for value in market.get("include_patterns", []))
+    exclude = tuple(str(value) for value in market.get("exclude_patterns", []))
+    for parent in parents:
+        source = root / parent
+        if not source.is_file():
+            continue
+        jobs = json.loads(source.read_text(encoding="utf-8"))
+        if not isinstance(jobs, list):
+            raise ValueError(f"published slice must be a JSON array: {source}")
+        count = sum(
+            1
+            for job in jobs
+            if isinstance(job, dict) and patterns_include(job, include, exclude)
+        )
+        return {
+            "jobs": count,
+            "registered_market": True,
+            "parent_json": parent.as_posix(),
+        }
+    return None
+
+
 def reason_for_include(locality: str, pattern: str) -> str:
     return f"The stated workplace matches the approved {locality} employment-market pattern `{pattern}`."
 
@@ -201,6 +238,7 @@ def build_config(
     locality: str,
     market: dict[str, Any],
     all_markets: list[dict[str, Any]],
+    parent_page: str | None = None,
 ) -> dict[str, Any]:
     city_slug = slugify(locality)
     route_slice = public_slice(slice_key)
@@ -243,7 +281,7 @@ def build_config(
         "city_key": key,
         "display_name": locality,
         "category_label": category_label(slice_key),
-        "parent_page": f"app/{region}/{slice_key}.json",
+        "parent_page": parent_page or f"app/{region}/{slice_key}.json",
         "review_csv": f"pipeline/reviews/city-pages/{key}-review.csv",
         "summary_md": f"pipeline/reviews/city-pages/{key}-summary.md",
         "output_json": f"app/_city-pages/{city_slug}/{route_slice}.json",
@@ -333,24 +371,26 @@ def apply_approvals(root: Path, approval_path: Path) -> int:
         if block.get("status") != "READY FOR APPROVAL":
             raise ValueError(f"{block.get('city', 'city')} is not marked READY FOR APPROVAL")
         key = approval_key(block)
+        region = block["region"]
+        slice_key = block["slice"]
+        locality = block["city"]
+        market = find_market(markets, region, locality)
         current = current_by_key.get(key)
+        if not current:
+            current = candidate_from_parent(root, region, slice_key, market)
         if not current:
             raise ValueError(f"approved city is not a current registered candidate: {key}")
         if int(current.get("jobs", 0)) < DEFAULT_THRESHOLD:
             raise ValueError(f"approved city has fallen below {DEFAULT_THRESHOLD} current jobs: {key}")
         if not bool(current.get("registered_market", False)):
             raise ValueError(f"approved city is not backed by a registered local market: {key}")
-
-        region = block["region"]
-        slice_key = block["slice"]
-        locality = block["city"]
-        market = find_market(markets, region, locality)
         config = build_config(
             region=region,
             slice_key=slice_key,
             locality=locality,
             market=market,
             all_markets=markets,
+            parent_page=str(current.get("parent_json", "")) or None,
         )
         if config["route"] in existing_routes or config["city_key"] in existing_keys:
             print(f"Already active: {config['route']}")

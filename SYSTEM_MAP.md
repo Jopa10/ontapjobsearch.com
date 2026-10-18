@@ -9,7 +9,7 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
-- 18 October 2026 — **Horsham and Lincoln Service Admin city pages approved:** both use exact-town catchments and the existing permanent city-page derivation/maintenance workflow. Lincoln is added as a registered local market; the owner approval is based on the four-day city counts.
+- 18 October 2026 — **Horsham and Lincoln Service Admin city pages approved:** both use exact-town catchments and the existing permanent city-page derivation/maintenance workflow. Lincoln is added as a registered local market; the owner approval is based on the four-day city counts. The approval manager now also resolves parent JSON from dynamic configured regional slices and carries that parent route into the city-page configuration.
 
 - 16 October 2026 — **First AI Job Advert Watch report published:** the AI hub links to the approved October snapshot, with an index for dated reports, full breadcrumbs, fixed canonicals, Article metadata and sitemap discovery. No recurring analysis, job-pipeline or indexing-API schedule was added.
 

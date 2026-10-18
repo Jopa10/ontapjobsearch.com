@@ -85,4 +85,5 @@ slice: service-administrator-jobs
 current_jobs: 8
 qualifying_runs: 4/3
 last_pipeline_runs: 7, 7, 8, 8
+evidence: Daily regional overview counts for 15–18 October; explicit owner approval
 ---

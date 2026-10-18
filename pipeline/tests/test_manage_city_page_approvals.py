@@ -4,6 +4,7 @@ from pathlib import Path
 
 from scripts.manage_city_page_approvals import (
     build_config,
+    candidate_from_parent,
     page_source,
     parse_review,
     public_slice,
@@ -45,6 +46,38 @@ class CityPageApprovalTests(unittest.TestCase):
             path.write_text(edited, encoding="utf-8")
             blocks = parse_review(path)
         self.assertEqual(blocks[0]["action"], "approve")
+
+    def test_dynamic_configured_slice_is_a_supported_city_parent(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            source = root / "app/_city-pages/configured-slices/lincolnshire/service-administrator-jobs.json"
+            source.parent.mkdir(parents=True)
+            source.write_text(
+                '[{"location":"Lincoln"},{"location":"Boston"}]',
+                encoding="utf-8",
+            )
+            market = {
+                "region_key": "lincolnshire",
+                "market_key": "lincoln",
+                "display_name": "Lincoln",
+                "include_patterns": ["lincoln"],
+            }
+            candidate = candidate_from_parent(root, "lincolnshire", "service-administrator-jobs", market)
+            self.assertEqual(candidate["jobs"], 1)
+            self.assertEqual(
+                candidate["parent_json"],
+                "app/_city-pages/configured-slices/lincolnshire/service-administrator-jobs.json",
+            )
+            config = build_config(
+                region="lincolnshire",
+                slice_key="service-administrator-jobs",
+                locality="Lincoln",
+                market=market,
+                all_markets=[market],
+                parent_page=candidate["parent_json"],
+            )
+            self.assertEqual(config["parent_page"], candidate["parent_json"])
+            self.assertIn('href: "/job-search/lincolnshire/service-administrator-jobs"', page_source(config))
 
     def test_config_is_built_from_market_register_data_not_city_exceptions(self):
         leeds = {
