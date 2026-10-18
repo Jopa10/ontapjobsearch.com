@@ -334,56 +334,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "23643_225625223",
-    "title": "Goods In Administrator",
-    "company": "Meridian Business Support - Agency - Permanent",
-    "location": "Royton",
-    "region": "Greater Manchester - North",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "13.71",
-    "salary_max": "13.71",
-    "salary_text": "£13.71 per hour (Temp to perm)",
-    "posted_date": "2026-10-13",
-    "description": "Goods-In Administrator\nLocation: Royton, Oldham\nHours: Sunday to Tuesday, 12:30 pm-8:30 pm\nPay: 13.71 per hour\nContract: Temporary to permanent\nWe are recruiting a reliable and organised Goods-In Administrator to support a busy warehouse operation in Royton, Oldham. You will ensure new orders are processed accurately and prepared on the warehouse management system, ready for the picking team each morning.\nKey Responsibilities\nUse the warehouse management system (WMS) to process incoming goods and customer orders.\nEnter and check invoices accurately.\nOrganise and release new orders into the system, ensuring they are ready for the warehouse team to pick the following morning.\nMaintain accurate stock, order and delivery records.\nCheck information for errors and resolve any discrepancies.\nLiaise with warehouse colleagues to support smooth goods-in and order-picking operations.\nComplete general administrative duties as required.\nSkills and Experience\nPrevious administration experience, ideally within a warehouse, logistics or distribution environment.\nExperience using a warehouse management system is desirable.\nGood data-entry skills with strong attention to detail.\nConfident using computers and standard office software.\nAble to prioritise tasks and work accurately in a fast-paced environment.\nReliable and comfortable working the Sunday-to-Tuesday shift pattern.\nThis is an excellent temp-to-perm opportunity for someone looking to build a long-term career within warehouse administration.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?31Q%2fsvDzOVZ13eVegRW2PR%2bU3fs9dUUMj",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Meridian Business Support",
-    "advertiser_type": "Agency",
-    "work_pattern": "Part Time",
-    "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "23643_225625663",
-    "title": "Data Entry Clerk",
-    "company": "Meridian Business Support - Agency - Temporary",
-    "location": "Heywood",
-    "region": "Greater Manchester - North",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "13.46",
-    "salary_max": "13.46",
-    "salary_text": "£13.46 per hour (Long Term Work Available)",
-    "posted_date": "2026-10-13",
-    "description": "Data Entry Clerk Heywood, OL10 13.46 per hour Monday to Friday 7am to 4pm Weekly Pay Long-Term Work\n\nMeridian Business Support is recruiting Data Entry Clerks for an award-winning global document management company in Heywood. Offering full training, free onsite parking and long-term opportunities, this is an excellent role for candidates with administration, data entry or office experience.\nAs a Data Entry Clerk, you will:\n- Capture information from digital copies of confidential documents\n- Accurately enter data into databases and systems\n- Scan documents using handheld scanners\n- Move archive boxes between pallets and workstations (light manual handling)\n- Use a pallet pump truck when required\n- Work to productivity and accuracy targets\n\nWhat We're Looking For\n- Previous experience in data entry, administration, clerical or office-based roles\n- Typing speed of 35+ words per minute\n- Excellent attention to detail and accuracy\n- Good English language skills\n- Ability to work in a fast-paced, target-driven environment\n- Full training is provided.\n\nImportant Information: Due to the nature of the work, successful applicants must be willing to complete:\n- Basic DBS check\n- Credit check\n- 5-year verifiable employment and/or education history\n\nBenefits\n- 13.46 per hour\n- Weekly pay\n- Monday to Friday working\n- Free onsite parking\n- Good public transport links\n- Modern working environment\n- Full training and buddy system\n- Long-term opportunities\n- Ongoing Meridian support\n\nApply today to start your career as a Data Entry Clerk in Heywood or call our Trafford Park branch for more information.\nMeridian Business Support is a recruitment specialist acting on behalf of our client as an Employment Business for this vacancy.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?d1vRzEYF65QucpO9tusvqa9YSJkM5pPAx",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Meridian Business Support",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "nhs-5646769",
     "source": "NHS Jobs",
     "title": "Administrator",
@@ -400,6 +350,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9236-26-1149",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -419,6 +372,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1505-26-0008",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -438,6 +394,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0212-26-0048",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]
