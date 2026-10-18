@@ -157,6 +157,12 @@ SELECTED | Sussex | Sussex | £14.5 per hour | Night Care Assistant
 job_id: 23643_225440444
 ---
 
+---
+action:
+SELECTED | Sussex | Sussex | £17.15 per hour | Care Assistant - Bank - Care Home
+job_id: 23643_225718800
+---
+
 ## SUSSEX — POSSIBLES
 
 ---
@@ -319,12 +325,6 @@ job_id: 23643_225505291
 action:
 SELECTED | Kent | Canterbury | £12.75 - £13 per hour | Residential Support Worker
 job_id: 23643_225505282
----
-
----
-action:
-SELECTED | Kent | Sevenoaks | £25845 per year | Support Worker
-job_id: 23643_225734882
 ---
 
 ## KENT — POSSIBLES

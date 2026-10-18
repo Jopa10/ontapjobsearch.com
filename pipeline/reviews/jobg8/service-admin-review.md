@@ -1073,12 +1073,6 @@ job_id: 2021465
 
 ---
 action:
-SELECTED | London | London | £32000 - £40000 per year [JobG8 salary fields] | Operations & Sales Coordinator
-job_id: 23643_225413953
----
-
----
-action:
 SELECTED | London | London | £30000 per year (25 days holiday, contributory pens) [JobG8 salary fields] | Contracts Administrator
 job_id: 23643_225645289
 ---
@@ -2525,7 +2519,7 @@ job_id: 23643_225729050
 
 ---
 action:
-SELECTED | London | London | £27000 - £28000 per year [JobG8 salary fields] | Administrator
+SELECTED | London | Bromley | £27000 - £28000 per year [JobG8 salary fields] | Administrator
 job_id: 23643_225727860
 ---
 
@@ -3323,6 +3317,12 @@ job_id: 2089171
 action:
 SELECTED | Hampshire | Hampshire | £35000 - £40000 per year [JobG8 salary fields] | Assistant Accountant
 job_id: 2087359
+---
+
+---
+action:
+SELECTED | Hampshire | Hampshire | £30,000 per annum [extracted from description] | Housing Repairs Administrator
+job_id: 23643_225698170
 ---
 
 ---
@@ -6397,6 +6397,12 @@ SELECTED | Berkshire | Berkshire | £30000 - £35000 per year (Plus bonus and be
 job_id: 23643_225626777
 ---
 
+---
+action:
+SELECTED | Berkshire | Berkshire | £28000 - £30000 per year | Warranty Administrator
+job_id: 23643_225737365
+---
+
 ## BERKSHIRE — POSSIBLES
 
 ---
@@ -7415,6 +7421,12 @@ SELECTED | Cheshire - Warrington & Halton | Warrington | £25,000 per annum | Sa
 job_id: 23643_225736171
 ---
 
+---
+action:
+SELECTED | Cheshire - Warrington & Halton | Widnes | £25364 per year | Care Coordinator
+job_id: 23643_225737277
+---
+
 ## CHESHIRE - WARRINGTON & HALTON — POSSIBLES
 
 ---
@@ -7671,6 +7683,12 @@ job_id: 23643_225639058
 action:
 SELECTED | Derbyshire | Derbyshire | £26500 - £29000 per year | Sales Administrator
 job_id: 23643_225642139
+---
+
+---
+action:
+SELECTED | Derbyshire | Derbyshire | £32000 - £40000 per year | Operations & Sales Coordinator
+job_id: 23643_225413953
 ---
 
 ---
@@ -10049,6 +10067,12 @@ job_id: 23643_225714568
 
 ---
 action:
+SELECTED | Herefordshire | Hereford | £12.71 per hour | Reception and Administrative Assistant
+job_id: 23643_225714481
+---
+
+---
+action:
 SELECTED | Herefordshire | Hereford |  | Bookkeeper
 job_id: 23643_225505368
 ---
@@ -10553,6 +10577,12 @@ job_id: 23643_225735886
 action:
 SELECTED | Hertfordshire | Hertfordshire |  | Vetting Coordinator
 job_id: 23643_225735560
+---
+
+---
+action:
+SELECTED | Hertfordshire | Hertfordshire | £27000 - £30000 per year | Care Coordinator
+job_id: 23643_224502262
 ---
 
 ## HERTFORDSHIRE — POSSIBLES
@@ -11775,6 +11805,12 @@ job_id: 23643_225672398
 action:
 SELECTED | North Scotland | Inverness |  | Bookkeeper
 job_id: 2063984
+---
+
+---
+action:
+SELECTED | North Scotland | Inverness |  | Administrator
+job_id: 23643_225686466
 ---
 
 ---
@@ -13447,12 +13483,6 @@ job_id: 2073994
 
 ---
 action:
-SELECTED | Shropshire | Shropshire | £30,000 per annum | Housing Repairs Administrator
-job_id: 23643_225698170
----
-
----
-action:
 SELECTED | Shropshire | Shropshire |  | Payroll Assistant
 job_id: 2092604
 ---
@@ -13693,6 +13723,12 @@ job_id: 23643_225733262
 action:
 SELECTED | Somerset | Somerset |  | Finance Assistant
 job_id: 23643_225737255
+---
+
+---
+action:
+SELECTED | Somerset | Somerset | £24707 per year | Higher Education Administrator
+job_id: 108149344
 ---
 
 ## SOMERSET — POSSIBLES
@@ -15833,12 +15869,6 @@ job_id: 23643_225639995
 action:
 SELECTED | Yorkshire - East | Hull | £17.00 per hour | Bookkeeper & Payroll Administrator
 job_id: 2022226
----
-
----
-action:
-SELECTED | Yorkshire - East | Hessle | £27000 per year (Circa £27,000) | BOM Administrator
-job_id: 23643_225653759
 ---
 
 ---
