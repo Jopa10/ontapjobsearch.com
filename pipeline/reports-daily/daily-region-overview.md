@@ -1,8 +1,8 @@
 # Ontap daily regional overview
 
-Production source commit: `5e45540545b0308d6990c7e951e02cccd6a3afb2`
+Production source commit: `8c1d625f28c37b937d6f4a84d601c2c2902bdcf2`
 
-Generated: 2026-10-18T08:41:49+01:00
+Generated: 2026-10-18T21:40:09+01:00
 
 [Download this overview as Excel](./daily-region-overview.xlsx)
 
@@ -13,13 +13,13 @@ Generated: 2026-10-18T08:41:49+01:00
 | Unique live jobs | 4,071 |
 | Unique JobG8 jobs | 3,609 |
 | Unique non-JobG8 jobs | 462 |
-| Regional/category slice placements | 4,887 |
-| Jobs appearing on multiple slices | 808 |
-| Extra slice placements | 816 |
+| Regional/category slice placements | 4,889 |
+| Jobs appearing on multiple slices | 810 |
+| Extra slice placements | 818 |
 | Unique jobs outside governed slices | 0 |
 | Jobs found in non-LIVE slices | 0 |
 
-**Reconciliation: 4,071 unique jobs + 816 extra slice placements = 4,887 regional/category slice placements.**
+**Reconciliation: 4,071 unique jobs + 818 extra slice placements = 4,889 regional/category slice placements.**
 
 Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-10-18.csv` — **STALE — CSV says 4,148 for 2026-10-18**.
 
@@ -27,7 +27,7 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-10-1
 
 | Provider | Unique live jobs | Jobs on 2+ slices | Extra slice placements |
 |---|---:|---:|---:|
-| JobG8 | 3,609 | 808 | 816 |
+| JobG8 | 3,609 | 810 | 818 |
 | NHS Jobs | 313 | 0 | 0 |
 | Teaching Vacancies | 149 | 0 | 0 |
 
@@ -37,23 +37,23 @@ Latest source-count CSV: `pipeline/reports-daily/live-job-source-count-2026-10-1
 
 | JobG8 classification | Jobs received | Ontap jobs classified/published |
 |---|---:|---:|
-| Accounting | 3,975 | 894 |
-| Sales & Marketing | 3,280 | 669 |
-| Administration | 1,726 | 1,015 |
-| Legal | 1,633 | 257 |
-| I.T. & Communications | 1,468 | 7 |
-| Transport & Logistics | 1,375 | 27 |
+| Accounting | 3,981 | 897 |
+| Sales & Marketing | 3,291 | 667 |
+| Administration | 1,730 | 1,018 |
+| Legal | 1,618 | 256 |
+| I.T. & Communications | 1,462 | 7 |
+| Transport & Logistics | 1,372 | 27 |
 | HR / Recruitment | 1,248 | 165 |
-| Real Estate & Property | 1,221 | 66 |
-| Healthcare & Medical | 878 | 82 |
+| Real Estate & Property | 1,219 | 66 |
+| Healthcare & Medical | 880 | 84 |
 | Call Centre / CustomerService | 827 | 377 |
-| Education | 640 | 4 |
-| Community & Sport | 515 | 43 |
-| Insurance & Superannuation | 465 | 22 |
-| Banking & Financial Services | 366 | 10 |
+| Education | 646 | 4 |
+| Community & Sport | 512 | 43 |
+| Insurance & Superannuation | 467 | 22 |
+| Banking & Financial Services | 364 | 10 |
 | Government & Defence | 241 | 4 |
 | Advert / Media / Entertainment | 142 | 19 |
-| Total across classifications | 20,000 | 3,661 |
+| Total across classifications | 20,000 | 3,666 |
 
 ## JOBG8 XML RECONCILIATION
 
@@ -69,7 +69,7 @@ Saved history contains 8 of the latest 10 feed dates. Older feed totals were not
 
 | Feed date | JobG8 jobs received | Ontap jobs classified/published |
 |---|---:|---:|
-| 2026-10-18 | 20,000 | 3,661 |
+| 2026-10-18 | 20,000 | 3,666 |
 | 2026-10-17 | 20,000 | 3,577 |
 | 2026-10-16 | 20,000 | 3,239 |
 | 2026-10-15 | 20,000 | 3,076 |
@@ -84,33 +84,33 @@ Each dated column shows Ontap jobs classified/published in that JobG8 classifica
 
 | JobG8 classification | 2026-10-18 | 2026-10-17 | 2026-10-16 | 2026-10-15 | 2026-10-14 | 2026-10-13 | 2026-10-12 | 2026-10-11 |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Accounting | 894 | 842 | 709 | 671 | 659 | 461 | 473 | 468 |
-| Administration | 1015 | 1047 | 1037 | 1026 | 1006 | 74 | 78 | 81 |
+| Accounting | 897 | 842 | 709 | 671 | 659 | 461 | 473 | 468 |
+| Administration | 1018 | 1047 | 1037 | 1026 | 1006 | 74 | 78 | 81 |
 | Advert / Media / Entertainment | 19 | 21 | 20 | 19 | 20 | 4 | 6 | 6 |
 | Banking & Financial Services | 10 | 11 | 10 | 9 | 9 | 0 | 1 | 1 |
 | Call Centre / CustomerService | 377 | 388 | 374 | 360 | 351 | 65 | 36 | 36 |
 | Community & Sport | 43 | 47 | 46 | 50 | 51 | 6 | 5 | 6 |
 | Education | 4 | 4 | 3 | 2 | 2 | 2 | 2 | 2 |
 | Government & Defence | 4 | 4 | 3 | 4 | 4 | 0 | 0 | 1 |
-| Healthcare & Medical | 82 | 79 | 62 | 59 | 62 | 32 | 34 | 35 |
+| Healthcare & Medical | 84 | 79 | 62 | 59 | 62 | 32 | 34 | 35 |
 | HR / Recruitment | 165 | 170 | 159 | 129 | 120 | 5 | 5 | 5 |
 | I.T. & Communications | 7 | 8 | 8 | 8 | 10 | 12 | 19 | 20 |
 | Insurance & Superannuation | 22 | 21 | 21 | 20 | 20 | 10 | 36 | 37 |
-| Legal | 257 | 259 | 257 | 241 | 240 | 157 | 155 | 197 |
+| Legal | 256 | 259 | 257 | 241 | 240 | 157 | 155 | 197 |
 | Real Estate & Property | 66 | 56 | 44 | 43 | 41 | 13 | 23 | 25 |
-| Sales & Marketing | 669 | 593 | 461 | 412 | 386 | 187 | 187 | 180 |
+| Sales & Marketing | 667 | 593 | 461 | 412 | 386 | 187 | 187 | 180 |
 | Transport & Logistics | 27 | 27 | 25 | 23 | 24 | 14 | 57 | 56 |
 
 ## PAGES
 
-**Published/indexable URLs: 4,349** — 4,071 individual job pages, 196 regional/category pages, 74 city pages and 8 core pages.
+**Published/indexable URLs: 4,351** — 4,071 individual job pages, 196 regional/category pages, 76 city pages and 8 core pages.
 
 | Level | Page type | Area | Family | URL | Page count | Live jobs | In sitemap |
 |---|---|---|---|---|---:|---:|---|
-| Summary | All published/indexable URLs | Sitewide |  |  | 4,349 |  | Yes |
+| Summary | All published/indexable URLs | Sitewide |  |  | 4,351 |  | Yes |
 | Summary | Individual job | Sitewide |  | /jobs/[id] | 4,071 | 4,071 | Yes |
 | Summary | Regional/category | Sitewide |  | Multiple | 196 |  | Yes |
-| Summary | City | Sitewide |  | Multiple | 74 |  | Yes |
+| Summary | City | Sitewide |  | Multiple | 76 |  | Yes |
 | Summary | Core | Sitewide |  | Multiple | 8 |  | Yes |
 | Detail | Core | Sitewide |  | / | 1 |  | Yes |
 | Detail | Core | Sitewide |  | /browse-jobs | 1 |  | Yes |
@@ -209,6 +209,8 @@ Each dated column shows Ontap jobs classified/published in that JobG8 classifica
 | Detail | City | Watford | admin and office jobs | /watford/service-administrator-jobs | 1 | 8 | Yes |
 | Detail | City | Crawley | admin and office jobs | /crawley/service-administrator-jobs | 1 | 9 | Yes |
 | Detail | City | Swindon | admin and office jobs | /swindon/service-administrator-jobs | 1 | 11 | Yes |
+| Detail | City | Horsham | admin and office jobs | /horsham/service-administrator-jobs | 1 | 10 | Yes |
+| Detail | City | Lincoln | admin and office jobs | /lincoln/service-administrator-jobs | 1 | 27 | Yes |
 | Detail | City | Nottingham | All roles | /nottingham/jobs | 1 |  | Yes |
 | Detail | City | Wakefield | All roles | /wakefield/jobs | 1 |  | Yes |
 | Detail | City | Bolton | All roles | /bolton/jobs | 1 |  | Yes |
@@ -398,9 +400,7 @@ Each dated column shows Ontap jobs classified/published in that JobG8 classifica
 | Status | Town/city/locality | Region | All live jobs | Existing pages | Current routes | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre | Other / unclassified |
 |---|---|---|---:|---:|---||---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | CREATE | Redditch | Worcestershire | 13 | 0 |  | 10 | 0 | 0 | 0 | 0 | 3 | 0 | 0 | 0 |
-| CREATE | Horsham | Sussex | 12 | 0 |  | 9 | 0 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | CREATE | Carlisle | Cumbria - North | 9 | 0 |  | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| CREATE | Lincoln | Lincolnshire | 9 | 0 |  | 8 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
 | CREATE | Preston | Lancashire - Central | 9 | 0 |  | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | CREATE | Shirley | West Midlands - Birmingham & Solihull | 9 | 0 |  | 8 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 | CREATE | Witney | Oxfordshire | 9 | 0 |  | 4 | 0 | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -496,6 +496,7 @@ Each dated column shows Ontap jobs classified/published in that JobG8 classifica
 | LIVE PAGE | Bournemouth | Dorset | 12 | 1 | /bournemouth/service-administrator-jobs | 7 | 0 | 5 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Brighton & Hove | Sussex | 12 | 1 | /brighton-hove/service-administrator-jobs | 10 | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
 | LIVE PAGE | Chester | Cheshire - West | 12 | 1 | /chester/jobs | 10 | 0 | 0 | 0 | 1 | 1 | 0 | 0 | 0 |
+| LIVE PAGE | Horsham | Sussex | 12 | 1 | /horsham/service-administrator-jobs | 9 | 0 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Ashford | Kent | 11 | 1 | /ashford/service-administrator-jobs | 6 | 1 | 4 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Bolton | Greater Manchester - Wigan & Bolton | 11 | 1 | /bolton/jobs | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Crawley | Sussex | 11 | 1 | /crawley/service-administrator-jobs | 6 | 1 | 2 | 0 | 0 | 2 | 0 | 0 | 0 |
@@ -510,6 +511,7 @@ Each dated column shows Ontap jobs classified/published in that JobG8 classifica
 | LIVE PAGE | York | Yorkshire - North | 10 | 1 | /york/service-administrator-jobs | 9 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Basingstoke | Hampshire | 9 | 1 | /basingstoke/service-administrator-jobs | 3 | 2 | 3 | 0 | 0 | 0 | 0 | 1 | 0 |
 | LIVE PAGE | Huddersfield | Yorkshire - West | 9 | 1 | /huddersfield/service-administrator-jobs | 7 | 0 | 1 | 1 | 0 | 0 | 0 | 0 | 0 |
+| LIVE PAGE | Lincoln | Lincolnshire | 9 | 1 | /lincoln/service-administrator-jobs | 8 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
 | LIVE PAGE | Maidstone | Kent | 9 | 1 | /maidstone/service-administrator-jobs | 7 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
 | LIVE PAGE | Oxford | Oxfordshire | 9 | 1 | /oxford/service-administrator-jobs | 6 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0 |
 | LIVE PAGE | Warwick | West Midlands - Coventry & Warwickshire | 9 | 1 | /warwick/service-administrator-jobs | 6 | 0 | 0 | 1 | 0 | 1 | 1 | 0 | 0 |
@@ -959,7 +961,7 @@ Each dated column shows Ontap jobs classified/published in that JobG8 classifica
 | Lancashire - North |  |  |  |  |  |  |  |  |
 | Lancashire - West |  |  |  |  |  |  |  |  |
 | Leicestershire | 61 |  |  |  |  | 23 |  |  |
-| Lincolnshire | 39 |  |  |  |  | 7 |  |  |
+| Lincolnshire | 40 |  |  |  |  | 7 |  |  |
 | London | 353 | 34 | 82 | 60 | 85 | 87 | 37 | 8 |
 | Merseyside - Liverpool | 31 |  |  | 1 | 5 | 9 |  |  |
 | Merseyside - Sefton |  |  |  |  |  |  |  |  |
@@ -990,7 +992,7 @@ Each dated column shows Ontap jobs classified/published in that JobG8 classifica
 | Staffordshire | 46 |  |  |  | 6 | 8 |  | 2 |
 | Suffolk | 40 |  | 6 | 24 |  | 11 |  |  |
 | Surrey | 115 | 7 | 12 | 17 | 21 | 25 |  | 8 |
-| Sussex | 87 | 11 | 12 |  | 12 | 36 | 3 | 9 |
+| Sussex | 88 | 11 | 12 |  | 12 | 36 | 3 | 9 |
 | Wales - Mid |  |  |  |  |  |  |  |  |
 | Wales - West |  |  |  |  |  |  |  |  |
 | Wales South - Cardiff & Vale | 26 |  |  |  |  | 6 |  |  |
@@ -1029,8 +1031,8 @@ Each dated column shows Ontap jobs classified/published in that JobG8 classifica
 | Devon |  | 4 / 2.6 / 0/14 |  | 4 / 2.8 / 0/14 | 3 / 1.3 / 0/14 |  | 5 / 2.4 / 0/14 | 3 / 1.1 / 0/14 |
 | Dorset |  | 2 / 0.9 / 0/14 |  | 4 / 3.2 / 0/14 | 5 / 1.9 / 0/14 |  | 2 / 1.0 / 0/14 | 2 / 0.6 / 0/14 |
 | Essex |  | 5 / 3.0 / 0/14 |  |  |  |  |  | 3 / 1.7 / 0/14 |
-| Gloucestershire |  | 1 / 0.6 / 0/14 | 7 / 1.8 / 2/14 | 3 / 1.7 / 0/14 |  |  |  | 1 / 0.6 / 0/14 |
-| Greater Manchester - Manchester & Salford |  | 1 / 0.1 / 0/14 |  |  |  |  |  |  |
+| Gloucestershire |  | 2 / 0.6 / 0/14 | 7 / 1.8 / 2/14 | 4 / 1.8 / 0/14 |  |  |  | 1 / 0.6 / 0/14 |
+| Greater Manchester - Manchester & Salford |  | 2 / 0.2 / 0/14 |  |  |  |  |  |  |
 | Greater Manchester - North |  | 1 / 0.6 / 0/14 | 1 / 0.1 / 0/14 | 1 / 0.2 / 0/14 | 0 / 0.1 / 0/14 |  | 0 / 0.2 / 0/14 | 0 / 0.5 / 0/14 |
 | Greater Manchester - South |  | 0 / 0.9 / 0/14 | 3 / 1.3 / 0/14 | 1 / 1.3 / 0/14 |  | 3 / 2.1 / 0/14 | 4 / 1.5 / 0/14 | 1 / 0.4 / 0/14 |
 | Greater Manchester - Wigan & Bolton |  | 0 / 0.1 / 0/14 | 1 / 0.7 / 0/14 | 0 / 0.2 / 0/14 | 2 / 0.7 / 0/14 | 4 / 3.0 / 0/14 | 2 / 0.6 / 0/14 | 3 / 1.3 / 0/14 |
@@ -1044,7 +1046,7 @@ Each dated column shows Ontap jobs classified/published in that JobG8 classifica
 | Lancashire - North | 1 / 0.4 / 0/14 | 1 / 1.2 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.1 / 0/14 | 1 / 0.4 / 0/14 | 1 / 1.1 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 |
 | Lancashire - West | 0 / 0.4 / 0/14 | 0 / 0.0 / 0/14 | 1 / 0.3 / 0/14 | 0 / 0.0 / 0/14 | 1 / 0.1 / 0/14 | 1 / 1.3 / 0/14 | 0 / 0.1 / 0/14 | 0 / 0.1 / 0/14 |
 | Leicestershire |  | 0 / 0.0 / 0/14 | 6 / 2.6 / 3/14 | 3 / 1.9 / 0/14 | 4 / 2.8 / 0/14 |  | 7 / 2.6 / 3/14 | 2 / 1.1 / 0/14 |
-| Lincolnshire |  | 1 / 0.7 / 0/14 | 4 / 2.9 / 0/14 | 4 / 2.5 / 0/14 | 5 / 4.5 / 0/14 |  | 2 / 1.5 / 0/14 | 0 / 0.0 / 0/14 |
+| Lincolnshire |  | 1 / 0.7 / 0/14 | 5 / 2.9 / 0/14 | 4 / 2.5 / 0/14 | 5 / 4.5 / 0/14 |  | 2 / 1.5 / 0/14 | 0 / 0.0 / 0/14 |
 | London |  |  |  |  |  |  |  |  |
 | Merseyside - Liverpool |  | 0 / 0.0 / 0/14 | 0 / 0.2 / 0/14 |  |  |  | 0 / 0.1 / 0/14 | 1 / 0.4 / 0/14 |
 | Merseyside - Sefton | 1 / 0.9 / 0/14 | 0 / 0.1 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.4 / 0/14 | 1 / 1.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 |
@@ -1071,7 +1073,7 @@ Each dated column shows Ontap jobs classified/published in that JobG8 classifica
 | Scotland West - Lanarkshire | 3 / 2.5 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 1 / 0.9 / 0/14 | 0 / 0.0 / 0/14 | 2 / 0.9 / 0/14 | 1 / 0.3 / 0/14 | 0 / 0.0 / 0/14 |
 | Scotland West - Renfrewshire & Inverclyde | 3 / 2.1 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 1 / 0.6 / 0/14 | 0 / 0.0 / 0/14 |
 | Shropshire |  | 3 / 0.9 / 0/14 | 3 / 0.9 / 0/14 | 0 / 0.2 / 0/14 | 1 / 0.6 / 0/14 |  | 2 / 1.6 / 0/14 | 3 / 1.6 / 0/14 |
-| Somerset |  | 2 / 2.4 / 1/14 | 1 / 1.9 / 0/14 | 1 / 0.4 / 0/14 | 2 / 1.5 / 0/14 |  | 1 / 1.0 / 0/14 | 3 / 1.4 / 0/14 |
+| Somerset |  | 2 / 2.4 / 1/14 | 2 / 2.0 / 0/14 | 1 / 0.4 / 0/14 | 2 / 1.5 / 0/14 |  | 1 / 1.0 / 0/14 | 2 / 1.4 / 0/14 |
 | Staffordshire |  | 1 / 0.4 / 0/14 | 5 / 1.6 / 0/14 | 3 / 3.1 / 0/14 |  |  | 8 / 3.4 / 5/14 |  |
 | Suffolk |  | 1 / 0.8 / 0/14 |  |  | 4 / 1.1 / 0/14 |  | 6 / 2.5 / 3/14 | 1 / 0.4 / 0/14 |
 | Surrey |  |  |  |  |  |  | 9 / 3.9 / 5/14 |  |
@@ -1084,12 +1086,12 @@ Each dated column shows Ontap jobs classified/published in that JobG8 classifica
 | Wales South - Valleys |  | 0 / 0.0 / 0/14 | 2 / 2.7 / 0/14 | 0 / 0.0 / 0/14 | 0 / 0.0 / 0/14 | 1 / 1.3 / 0/14 | 0 / 0.1 / 0/14 | 4 / 2.2 / 0/14 |
 | West Midlands - Birmingham & Solihull |  | 0 / 0.0 / 0/14 | 1 / 0.6 / 0/14 |  |  |  |  | 4 / 2.1 / 0/14 |
 | West Midlands - Black Country |  | 0 / 0.0 / 0/14 | 2 / 0.5 / 0/14 | 1 / 1.9 / 0/14 | 3 / 1.7 / 0/14 | 12 / 5.1 / 5/14 | 5 / 1.9 / 0/14 | 4 / 1.5 / 0/14 |
-| West Midlands - Coventry & Warwickshire |  | 3 / 0.7 / 0/14 | 6 / 2.9 / 4/14 |  |  |  |  | 1 / 0.7 / 0/14 |
+| West Midlands - Coventry & Warwickshire |  | 3 / 0.7 / 0/14 | 7 / 3.0 / 4/14 |  |  |  |  | 2 / 0.8 / 0/14 |
 | Wiltshire |  |  | 1 / 1.0 / 0/14 | 1 / 2.8 / 3/14 | 1 / 1.4 / 0/14 |  | 0 / 0.3 / 0/14 | 1 / 0.4 / 0/14 |
 | Worcestershire |  | 0 / 0.1 / 0/14 | 9 / 3.1 / 4/14 | 2 / 3.0 / 0/14 | 2 / 0.6 / 0/14 |  | 0 / 0.0 / 0/14 | 3 / 1.3 / 0/14 |
-| Yorkshire - East |  | 0 / 0.2 / 0/14 | 5 / 1.1 / 0/14 | 3 / 1.9 / 0/14 | 1 / 0.1 / 0/14 |  | 1 / 0.5 / 0/14 | 1 / 0.4 / 0/14 |
+| Yorkshire - East |  | 0 / 0.2 / 0/14 | 4 / 1.0 / 0/14 | 3 / 1.9 / 0/14 | 1 / 0.1 / 0/14 |  | 1 / 0.5 / 0/14 | 1 / 0.4 / 0/14 |
 | Yorkshire - North |  | 0 / 0.1 / 0/14 | 2 / 0.9 / 0/14 |  |  |  | 1 / 0.6 / 0/14 | 2 / 1.7 / 0/14 |
-| Yorkshire - South |  |  | 3 / 2.0 / 0/14 | 4 / 2.4 / 0/14 | 7 / 5.0 / 4/14 |  | 3 / 1.6 / 0/14 | 4 / 2.0 / 0/14 |
+| Yorkshire - South |  |  | 3 / 2.0 / 0/14 | 4 / 2.4 / 0/14 | 8 / 5.1 / 4/14 |  | 3 / 1.6 / 0/14 | 4 / 2.0 / 0/14 |
 | Yorkshire - West |  |  |  |  |  |  |  |  |
 
 ## HEADLINE
@@ -1097,6 +1099,6 @@ Each dated column shows Ontap jobs classified/published in that JobG8 classifica
 | Measure | Service admin | Support worker | Sales advisor | Paralegal | Marketing | Finance / Accounts | HR / Recruitment | CS / Contact centre |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Live regions | 61 / 78 | 11 / 78 | 19 / 78 | 19 / 78 | 26 / 78 | 42 / 78 | 12 / 78 | 9 / 78 |
-| Live slice placements | 3103 | 81 + 1 CHECK | 298 + 1 CHECK | 239 + 1 CHECK | 293 + 2 CHECK | 711 + 5 CHECK | 95 + 1 CHECK | 67 + 1 CHECK |
+| Live slice placements | 3105 | 81 + 1 CHECK | 298 + 1 CHECK | 239 + 1 CHECK | 293 + 2 CHECK | 711 + 5 CHECK | 95 + 1 CHECK | 67 + 1 CHECK |
 
 **Live slices: 199 / 624.**
