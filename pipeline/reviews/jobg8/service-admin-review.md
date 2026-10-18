@@ -1,6 +1,6 @@
 # Service-admin manual review
 
-feed_date: 2026-10-17
+feed_date: 2026-10-18
 
 Edit only the `action:` line in each block:
 
@@ -821,6 +821,12 @@ job_id: 23643_225613243
 
 ---
 action:
+SELECTED | Yorkshire - South | Sheffield | £28244 per year [JobG8 salary fields] | Area Planner
+job_id: 23643_225723039
+---
+
+---
+action:
 SELECTED | Yorkshire - South | Sheffield | £13.49 per hour [JobG8 salary fields] | Receptionist
 job_id: 23643_225726240
 ---
@@ -1063,6 +1069,12 @@ job_id: 2021649
 action:
 SELECTED | London | London | no salary in JobG8 salary fields; no supported salary amount found in description | Accounts Assistant
 job_id: 2021465
+---
+
+---
+action:
+SELECTED | London | London | £32000 - £40000 per year [JobG8 salary fields] | Operations & Sales Coordinator
+job_id: 23643_225413953
 ---
 
 ---
@@ -2267,6 +2279,12 @@ job_id: 23643_225700654
 
 ---
 action:
+SELECTED | London | Bromley | £27000 - £30000 per year [JobG8 salary fields] | Administrator
+job_id: 23643_225716152
+---
+
+---
+action:
 SELECTED | London | London | £28000 per year [JobG8 salary fields] | Service Desk Coordinator
 job_id: 23643_225715199
 ---
@@ -2507,7 +2525,7 @@ job_id: 23643_225729050
 
 ---
 action:
-SELECTED | London | Bromley | £27000 - £28000 per year [JobG8 salary fields] | Administrator
+SELECTED | London | London | £27000 - £28000 per year [JobG8 salary fields] | Administrator
 job_id: 23643_225727860
 ---
 
@@ -2707,6 +2725,12 @@ job_id: 23643_225737014
 action:
 SELECTED | London | Uxbridge | no salary in JobG8 salary fields; no supported salary amount found in description | Bid Coordinator
 job_id: 107970959
+---
+
+---
+action:
+SELECTED | London | London | £34000 - £39000 per year [JobG8 salary fields] | Property Coordinator
+job_id: 23643_225737244
 ---
 
 ## LONDON — POSSIBLES
@@ -4405,6 +4429,12 @@ POSS - SURREY | Surrey | Surrey | £35408 - £40485 per year [JobG8 salary field
 job_id: 23643_225674584
 ---
 
+---
+action:
+POSS - SURREY | Surrey | Surrey | £32722 - £37369 per year [JobG8 salary fields] | Programme Coordinator
+job_id: 416347
+---
+
 ## KENT — SELECTED
 
 ---
@@ -4789,12 +4819,6 @@ job_id: 23643_225713533
 action:
 SELECTED | Kent | Kent | £27000 per year (+ £2,000 bonus) [JobG8 salary fields] | Customer Support Advisor - 1 day office (Must be based in Kent)
 job_id: 23643_225714083
----
-
----
-action:
-SELECTED | Kent | Kent | £27000 - £30000 per year [JobG8 salary fields] | Administrator
-job_id: 23643_225716152
 ---
 
 ---
@@ -5407,6 +5431,12 @@ job_id: 23643_225736740
 action:
 SELECTED | Sussex | Sussex |  | People Team Administrator
 job_id: 2145632
+---
+
+---
+action:
+SELECTED | Sussex | Sussex |  | Connection Agreements Coordinator
+job_id: 23643_225737288
 ---
 
 ## SUSSEX — POSSIBLES
@@ -7645,12 +7675,6 @@ job_id: 23643_225642139
 
 ---
 action:
-SELECTED | Derbyshire | Derbyshire | £32000 - £40000 per year | Operations & Sales Coordinator
-job_id: 23643_225413953
----
-
----
-action:
 SELECTED | Derbyshire | Derbyshire | £26500 per year | Administrator
 job_id: 23643_225646813
 ---
@@ -8069,7 +8093,7 @@ job_id: 23643_225726466
 
 ---
 action:
-SELECTED | Devon | Newton Abbot | £12.83 per hour | Customer Service/Call Centre On line Chat Advisor
+SELECTED | Devon | Devon | £12.83 per hour | Customer Service/Call Centre On line Chat Advisor
 job_id: 23643_225731716
 ---
 
@@ -10631,12 +10655,6 @@ SELECTED | Lancashire - Central | Chorley | £25000 - £30000 per year | Sales L
 job_id: 23643_225716967
 ---
 
----
-action:
-SELECTED | Lancashire - Central | Preston | £28000 - £32000 per year (Full time or Part time) | Payroll Assistant
-job_id: 23643_225612550
----
-
 ## LANCASHIRE - CENTRAL — POSSIBLES
 
 ---
@@ -11457,12 +11475,6 @@ job_id: 23643_225721850
 
 ---
 action:
-SELECTED | Norfolk | Norfolk | £26000 - £30000 per year | Business Support Administrator
-job_id: 23643_225627705
----
-
----
-action:
 SELECTED | Norfolk | Norfolk | £30000 - £32000 per year | Assistant Management Accountant
 job_id: 1987851
 ---
@@ -11767,12 +11779,6 @@ job_id: 2063984
 
 ---
 action:
-SELECTED | North Scotland | Inverness |  | Administrator
-job_id: 23643_225686466
----
-
----
-action:
 SELECTED | North Scotland | Montrose |  | Repair Technical Sales Coordinator
 job_id: 23643_225711224
 ---
@@ -11839,6 +11845,12 @@ job_id: 23643_225717820
 action:
 SELECTED | North Wales - East | Wrexham |  | HR Administrator
 job_id: 23643_225731093
+---
+
+---
+action:
+SELECTED | North Wales - East | Wrexham |  | Administrator
+job_id: 23643_225251951
 ---
 
 ## NORTH WALES - EAST — POSSIBLES
@@ -13221,12 +13233,6 @@ job_id: 23643_225708723
 
 ---
 action:
-SELECTED | Scotland West - Glasgow | Glasgow | £28000 - £30000 per year | Customer Service Coordinator
-job_id: 23643_225627617
----
-
----
-action:
 SELECTED | Scotland West - Glasgow | Glasgow |  | Customer Service Advisor
 job_id: 23643_225631819
 ---
@@ -13683,13 +13689,13 @@ SELECTED | Somerset | Somerset | £25000 - £28000 per year | Care Coordinator
 job_id: 23643_225733262
 ---
 
-## SOMERSET — POSSIBLES
-
 ---
 action:
-POSS - SOMERSET | Somerset | Somerset | £35000 - £40000 per year | Operations Coordinator
-job_id: 23643_225627621
+SELECTED | Somerset | Somerset |  | Finance Assistant
+job_id: 23643_225737255
 ---
+
+## SOMERSET — POSSIBLES
 
 ---
 action:

@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-10-17
+feed_date: 2026-10-18
 
 Edit only the `action:` line in each block:
 
@@ -147,7 +147,7 @@ job_id: 23643_225731908
 
 ---
 action:
-SELECTED | Sussex | Horsham | £14.8 per hour | Night Care Assistant - Bank
+SELECTED | Sussex | Sussex | £14.8 per hour | Night Care Assistant - Bank
 job_id: 23643_225619999
 ---
 
