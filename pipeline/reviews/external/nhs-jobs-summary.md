@@ -2,15 +2,87 @@
 
 review_date: 2026-10-19
 
-- Open Administrative & Clerical rows reviewed: 2297
-- Auto/remembered selected: 396
+- Open Administrative & Clerical rows reviewed: 2298
+- Auto/remembered selected: 399
 - Selected HC Tier A: 210
-- Selected HC Tier B: 186
-- POSS awaiting decision: 1787
+- Selected HC Tier B: 189
+- POSS awaiting decision: 1785
 - Excluded: 0
 - HARD_PASS: 114
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | London | London, E14 8JH | £28000.00 | Senior Patient Advisor
+source_job_id: 5674462
+title: Senior Patient Advisor
+employer: The Barkantine Practice
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2743-26-0009
+factual_fingerprint: e5db98e6deebc134208d80ff760fef5637c6581288224319dfb7bdb2927f829e
+---
+
+---
+action:
+POSS | NHS Jobs | — | North Somerset, BS21 7TA | £25225.00 to £25713.00 | Clinical Scanner and Coder
+source_job_id: 5674445
+title: Clinical Scanner and Coder
+employer: Mendip Vale Medical Group
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0219-26-0053
+factual_fingerprint: e20188467b4ffba84ff0bf9848798cc986a2cc2dba9f4e9d21a4272f6c4341b1
+---
+
+---
+action:
+POSS | NHS Jobs | — | Langford, BS40 5EL | £25224.00 to £25713.00 | Prescription Clerk
+source_job_id: 5674443
+title: Prescription Clerk
+employer: Mendip Vale Medical Group
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A0219-26-0052
+factual_fingerprint: 498e79b362a85f210fff42c08c916b5562d44d5a239141f048050fcfe4a40369
+---
+
+---
+action:
+POSS | NHS Jobs | Yorkshire - South | England, S75 3FG, Barnsley, S75 3FG, Birmingham, B15 2SG, London, NW9 5BG, Bristol, BS34 7QH, London, SW17 0RB, Liverpool, L24 8RB, Manchester, M13 9LL | £66582.00 to £77368.00 | Technical Lead
+source_job_id: 5674432
+title: Technical Lead
+employer: NHS Blood and Transplant
+region: Yorkshire - South
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M0048-26-0514
+factual_fingerprint: 85f5fe1cda5abc13c47d506537041a8f56e7344cf28ceb0e7a29b9a529a56e2e
+---
+
+---
+action:
+POSS | NHS Jobs | Yorkshire - West | Bradford, BD9 5PZ, BRADFORD, BD2 1QG | £13.09 | Administrative Support Co-ordinator
+source_job_id: 5674405
+title: Administrative Support Co-ordinator
+employer: Leylands Medical Centre
+region: Yorkshire - West
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2303-26-0003
+factual_fingerprint: 9b1f125d80543529732c3ce1e3b6902e0b97b0524c7c32812971226ca350c43e
+---
+
+---
+action:
+POSS | NHS Jobs | Suffolk | Woodbridge, IP13 0SB | Negotiable | PCN Business Administration Apprentice
+source_job_id: 5666346
+title: PCN Business Administration Apprentice
+employer: Primary Care Careers
+region: Suffolk
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0979
+factual_fingerprint: e779faaa08495ad94fa261d71d8b5be1540cb2e13081700cb9590a3859cb1519
+---
 
 ---
 action:
@@ -506,18 +578,6 @@ factual_fingerprint: 6ba1dadda5b7565cf25a07189e81eb20fdb34b5f0e169eab85d712e5132
 
 ---
 action:
-POSS | NHS Jobs | London | London, N18 1QX | £33262.00 to £36027.00 | Patient Pathway Coordinator
-source_job_id: 5672029
-title: Patient Pathway Coordinator
-employer: Royal Free London NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9391-26-1819
-factual_fingerprint: 6702ffc192bc0246177f669af054c9579cca0ff46bd60456ac1e64086600f9ea
----
-
----
-action:
 POSS | NHS Jobs | West Midlands - Coventry & Warwickshire | Coventry, CV2 2DX | £39959.00 to £48117.00 | LMS eDeveloper
 source_job_id: 5672206
 title: LMS eDeveloper
@@ -526,18 +586,6 @@ region: West Midlands - Coventry & Warwickshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9218-26-1288
 factual_fingerprint: 1237c8102c2a23153f3689b7670f43ecda45b2db8cc6e9bafd83733dc47d498e
----
-
----
-action:
-POSS | NHS Jobs | London | London, N18 1QX | £33262.00 to £36027.00 | Discharge Team Administrator
-source_job_id: 5672337
-title: Discharge Team Administrator
-employer: Royal Free London NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9391-26-1822
-factual_fingerprint: 7c60c55867fe4fcce0d6e1bb681642ca09842ac2e0a947e5cd14fa0e65e61de8
 ---
 
 ---
@@ -1618,18 +1666,6 @@ region: Merseyside - Liverpool
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9287-26-1734
 factual_fingerprint: c0e57e59e5ef54842b40f457da4da94bf2f41dabac4ad8026f2c6c71764731f7
----
-
----
-action:
-POSS | NHS Jobs | Merseyside - Liverpool | Liverpool, L7 8YE | £32073.00 to £39043.00 | Research Practitioner
-source_job_id: 5671579
-title: Research Practitioner
-employer: Liverpool University Hospitals NHS Foundation Trust
-region: Merseyside - Liverpool
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9287-26-1746
-factual_fingerprint: 2e449e29f195e4c5caa9eb805cd5618ae72041649e01448365bf573b2c89fab7
 ---
 
 ---
@@ -7586,18 +7622,6 @@ factual_fingerprint: 6e0747e319e78c968427d3f121d0ea6f523f6a9d818e81297852ad0b2d0
 
 ---
 action:
-POSS | NHS Jobs | Essex | Southend-on-Sea, SS0 0RY | £25760.00 | (**) Screening Data Assistant - Breast
-source_job_id: 5664285
-title: (**) Screening Data Assistant - Breast
-employer: Mid and South Essex NHS Foundation Trust
-region: Essex
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-2436
-factual_fingerprint: bbfe313a2998b75bf4f729cd782c8fe760ca0780b03e69a9f981013b190087b1
----
-
----
-action:
 POSS | NHS Jobs | West Midlands - Birmingham & Solihull | Birmingham, B2 4HQ | £79504.00 to £91609.00 | MRP- Operational Finance Lead
 source_job_id: 5664396
 title: MRP- Operational Finance Lead
@@ -8662,18 +8686,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9259-26-1781
 factual_fingerprint: b00fbc90b6ec9b9c00e23ea2b8b5bcd9fd7a0b9882f184b5ba4b8c62e4f29c00
----
-
----
-action:
-POSS | NHS Jobs | West Midlands - Birmingham & Solihull | Birmingham, B72 1RL | £25272.00 | Band 2 Receptionist/Admin Support - Community Paeds
-source_job_id: 5662717
-title: Band 2 Receptionist/Admin Support - Community Paeds
-employer: Birmingham Community Healthcare NHS FT
-region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9820-26-0713
-factual_fingerprint: 83402161fe23118ea3fb6d88029daa746c60116eddb23f16f19e7889b549d704
 ---
 
 ---
@@ -9854,18 +9866,6 @@ factual_fingerprint: c7717ba6f5641252cfa9c01fdaee0dfab7be2f9a7d4613e15b804915beb
 
 ---
 action:
-POSS | NHS Jobs | Hertfordshire | Watford, WD18 0HB | £51657.00 to £58785.00 | Band 7 - Governance Manager, Governance
-source_job_id: 5661056
-title: Band 7 - Governance Manager, Governance
-employer: West Hertfordshire Teaching Hospitals NHS Trust
-region: Hertfordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9360-26-0468
-factual_fingerprint: a608cfbcbfca96ddc1358907ccbf47a5f0f5847896db85245513c032f981aa7e
----
-
----
-action:
 POSS | NHS Jobs | West Midlands - Birmingham & Solihull | Birmingham, B15 2TH | £25760.00 to £27476.00 | Band 3 Administrator/Coordinator – Corporate Services
 source_job_id: 5661070
 title: Band 3 Administrator/Coordinator – Corporate Services
@@ -10970,18 +10970,6 @@ factual_fingerprint: 4bbc21eb3bdf1c9132b4ff4674df1f56b7e19aca3c12968079e727d22b4
 
 ---
 action:
-POSS | NHS Jobs | Kent | Canterbury, CT4 5BL, Canterbury, CT1 3NR, Canterbury, CT3 1TX | £13.45 | Care Navigator
-source_job_id: 5659052
-title: Care Navigator
-employer: Canterbury Medical Practice
-region: Kent
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1309-26-0015
-factual_fingerprint: 993eb6bae61d781ddf8c9a8931dd59d9385a410b4ef30a21c214eab2f890451c
----
-
----
-action:
 POSS | NHS Jobs | Hampshire | Southampton, SO16 6YD | £57528.00 to £64750.00 | Planning and Business Development Manager
 source_job_id: 5646822
 title: Planning and Business Development Manager
@@ -11338,18 +11326,6 @@ region: West Midlands - Birmingham & Solihull
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3238-26-0009
 factual_fingerprint: c95971e657c565747c52830aecd21a8d8a05b6a03b06374033604761a7620378
----
-
----
-action:
-POSS | NHS Jobs | Hertfordshire | Watford, WD18 0HB | £59798.00 to £67020.00 | Band 8a - Deputy Head of Governance - Gynaecology
-source_job_id: 5658385
-title: Band 8a - Deputy Head of Governance - Gynaecology
-employer: West Hertfordshire Teaching Hospitals NHS Trust
-region: Hertfordshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9360-26-0464
-factual_fingerprint: 8dbe3498065e6facba4efbd570de00f204dbc8c8bfbf6db45dbd3b8c58354f4a
 ---
 
 ---

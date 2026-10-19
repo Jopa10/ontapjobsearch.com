@@ -175,6 +175,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "108058213",
+    "title": "Service Advisor",
+    "company": "The Solution Automotive Limited - Agency - Permanent",
+    "location": "Carlisle",
+    "region": "Cumbria - North",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "35000",
+    "salary_max": "35000",
+    "salary_text": "£35000 per year",
+    "posted_date": "",
+    "description": "Service Advisor\n\nFranchised Motor Dealership - Carlisle\n\n42.5 Hours per Week\n\nMon-Fri 9am-6pm, 1 in 2 Saturdays 8am-1pm\n\nSalary from £29,879 DOE + Bonus + Excellent Benefits\n\nOur client, a successful and well-established main dealer, is looking to recruit an experienced Service Advisor to join their friendly and supportive aftersales team click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?io0x8AEcaIPDUX19ZBOssVGWhRd8grAWo",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "The Solution Automotive Limited",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225708854",
     "title": "Sales Co-ordinator",
     "company": "H Squared Talent Ltd - Agency - Permanent",
@@ -265,7 +290,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2170-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2170-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5660393",
@@ -283,6 +312,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9262-26-1599",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9262-26-1599",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

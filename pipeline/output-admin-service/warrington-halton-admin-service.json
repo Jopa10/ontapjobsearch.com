@@ -425,6 +425,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "108149320",
+    "title": "Activities Coordinator",
+    "company": "Exemplar Health Care - Company - Permanent",
+    "location": "Warrington",
+    "region": "Cheshire - Warrington & Halton",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "12.71",
+    "salary_max": "12.71",
+    "salary_text": "£12.71 per hour",
+    "posted_date": "",
+    "description": "Activities Coordinator\nWhen registering to this job board you will be redirected to the online application form. Please ensure that this is completed in full in order that your application can be reviewed.\nPosition: Activities Coordinator Care home: Woolston House Location: Woolston, Warrington Contract type: Full Time - 40 hours - weekends included Rate: £12 click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?aziU08XVyRFCTBfQ9%2fASVa6N9KKkEOBZd",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Exemplar Health Care",
+    "advertiser_type": "Company",
+    "work_pattern": "Full Time",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "2039669",
     "title": "Payroll Administrator",
     "company": "Portfolio Payroll - Agency - Permanent",
@@ -590,25 +615,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9835-HA26-115a",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9835-HA26-115a",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
-  },
-  {
-    "job_id": "nhs-5669955",
-    "source": "NHS Jobs",
-    "title": "Ward Clerk",
-    "company": "North Cheshire and Mersey NHS Foundation Trust (WHH)",
-    "advertiser_name": "North Cheshire and Mersey NHS Foundation Trust (WHH)",
-    "location": "Warrington, WA51QG",
-    "region": "Cheshire - Warrington & Halton",
-    "salary": "£25272.00",
-    "employment_type": "Fixed-Term",
-    "posted_date": "2026-10-16T11:52:57.791228786",
-    "closing_date": "2026-10-26",
-    "description": "The Ward Clerk is a key member of the multidisciplinary ward team, providing comprehensive administrative and clerical support to ensure the smooth and efficient day-to-day operation of the ward. The post holder acts as the first point of contact for patients, relatives, visitors and healthcare professionals, maintaining accurate patient information and supporting the delivery of high-quality patient care through effective administration. The successful candidate will possess excellent communication and organisational skills, demonstrate attention to detail, maintain confidentiality at all times, and be able to prioritise a varied workload within a busy hospital environment. Provide a comprehensive clerical and reception service for the ward. Greet patients, relatives and visitors in a professional, courteous and helpful manner. Answer telephone enquiries and direct calls appropriately. Maintain accurate patient records and update electronic systems. Prepare, organise and track patient notes and documentation. Coordinate admissions, transfers and discharges as required. Ensure confidential information is communicated promptly to relevant healthcare staff. Book appointments and support ward administration processes. Undertake filing, scanning, photocopying and general office duties. Support the Ward Manager and clinical team to ensure operational efficiency and achievement of service objectives. The Ward Clerk is responsible for providing a professional, efficient and confidential administrative and reception service to support the smooth day-to-day running of the ward. Acting as a key point of contact forpatients, relatives, visitors and the multidisciplinary team, the post holder maintains accurate patient records, manages ward communications and contributes to delivering a positive patient experience within abusy ward. FULL JOB DESCRIPTION ATTACHED",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9370-ADM2C21-2524",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9370-ADM2C21-2524",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5659960",
@@ -626,7 +637,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1131-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1131-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5651037",
@@ -644,6 +659,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3425-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3425-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

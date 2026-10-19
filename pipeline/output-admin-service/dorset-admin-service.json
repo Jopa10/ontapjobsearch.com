@@ -731,31 +731,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225705497",
-    "title": "Customer Service Administrator",
-    "company": "Holt Engineering - Agency - Permanent",
-    "location": "Dorset",
-    "region": "Dorset",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "28000",
-    "salary_text": "£28000 per year",
-    "posted_date": "",
-    "description": "Customer Service Administrator\nSalary: 28,000 per annum\nHours: 40 hours per week\nLocation: Poole\nOur client is looking for a Customer Service Administrator to join their team and provide a high level of service to customers while supporting the wider business with day-to-day administration. This is a varied role suited to someone who is organised, confident communicating with customers and able to manage multiple tasks in a busy office environment.\nDuties\n- Handle incoming customer enquiries by telephone and email\n- Make outbound calls to customers where required\n- Respond to customer queries and resolve issues efficiently\n- Manage and escalate complaints when necessary\n- Maintain accurate customer information and update internal systems\n- Process customer requests, quotations and orders\n- Support engineers with diary planning, appointments and customer communication\n- Liaise with different departments to ensure customer requirements are met\n- Provide general administrative support to the customer service team\n- Ensure all customer interactions and information are recorded accurately\n- Assist with additional tasks and projects to support the wider business\n\nTo apply, or for more information please contact Shannon on (phone number removed) or send an updated cv to (url removed)",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?aIHQjUdXakNj6xwBD48N0miDn%2f%2f5oNlSr",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Holt Engineering",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225680211",
     "title": "Administrator",
     "company": "Resource Recruitment - Agency - Contract",
@@ -1096,7 +1071,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0063-26-0021",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0063-26-0021",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5664520",
@@ -1114,7 +1093,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-1109",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-1109",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5655572",
@@ -1132,7 +1115,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0014-26-1920",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0014-26-1920",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5645280",
@@ -1150,7 +1137,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-1060",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-1060",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5586731",
@@ -1168,7 +1159,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1525-26-0017",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1525-26-0017",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5661555",
@@ -1186,7 +1181,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-1098",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-1098",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5655858",
@@ -1204,7 +1203,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9153-26-0877",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9153-26-0877",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5651442",
@@ -1222,7 +1225,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2314-26-0016",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2314-26-0016",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5645667",
@@ -1240,7 +1247,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-1062",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-1062",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5639068",
@@ -1258,6 +1269,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-1054",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-1054",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
