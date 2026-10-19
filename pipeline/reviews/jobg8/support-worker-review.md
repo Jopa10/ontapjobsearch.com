@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-10-18
+feed_date: 2026-10-19
 
 Edit only the `action:` line in each block:
 
@@ -147,7 +147,7 @@ job_id: 23643_225731908
 
 ---
 action:
-SELECTED | Sussex | Sussex | £14.8 per hour | Night Care Assistant - Bank
+SELECTED | Sussex | Horsham | £14.8 per hour | Night Care Assistant - Bank
 job_id: 23643_225619999
 ---
 
@@ -159,8 +159,8 @@ job_id: 23643_225440444
 
 ---
 action:
-SELECTED | Sussex | Sussex | £17.15 per hour | Care Assistant - Bank - Care Home
-job_id: 23643_225718800
+SELECTED | Sussex | Hastings | £14 - £14.25 per hour (Enhanced for Bank holiday) | Home Care Assistant
+job_id: 23643_225737488
 ---
 
 ## SUSSEX — POSSIBLES
@@ -229,20 +229,8 @@ job_id: 23643_225653471
 
 ---
 action:
-SELECTED | Hampshire | Winchester | £26018 - £27111 per year | Care Assistant
-job_id: 1401785443
----
-
----
-action:
 SELECTED | Hampshire | Eastleigh | £32780 - £35564 per year (Market Supplement, plus Enhancements) | Secure Children's Home Support Worker
 job_id: 1401785578
----
-
----
-action:
-SELECTED | Hampshire | Romsey | £26018 - £27111 per year () plus Market Supplement of £3,000 pro-rata, per annum) | Waking Night Childrens Home Support Worker
-job_id: 1401785693
 ---
 
 ---
@@ -327,6 +315,12 @@ SELECTED | Kent | Canterbury | £12.75 - £13 per hour | Residential Support Wor
 job_id: 23643_225505282
 ---
 
+---
+action:
+SELECTED | Kent | Maidstone | £13.71 - £15 per hour (Bank Holiday Enhancement) | Support Worker
+job_id: 23643_225038924
+---
+
 ## KENT — POSSIBLES
 
 _No jobs in this group._
@@ -349,12 +343,6 @@ job_id: 23643_225650968
 action:
 SELECTED | London | Hillingdon | £28531 per year | Floating Support Worker
 job_id: 23643_222879156
----
-
----
-action:
-SELECTED | London | Ilford | £15,412.00 per annum | Support Worker
-job_id: 2067783
 ---
 
 ---
