@@ -135,18 +135,6 @@ job_id: 23643_225725915
 
 ---
 action:
-SELECTED | Sussex | Eastbourne | £13.82 - £17.29 per hour | Residential Support Worker - Ofsted Registered Children's Home
-job_id: 23643_225731993
----
-
----
-action:
-SELECTED | Sussex | Eastbourne | £13.82 - £17.29 per hour | Residential Support Worker - Children's Residential Home
-job_id: 23643_225731908
----
-
----
-action:
 SELECTED | Sussex | Horsham | £14.8 per hour | Night Care Assistant - Bank
 job_id: 23643_225619999
 ---
@@ -202,12 +190,6 @@ job_id: 23643_225639600
 ---
 
 ## CUMBRIA SOUTH — SELECTED
-
----
-action:
-SELECTED | Cumbria - South | Kendal | £3,840 per year | Children's Residential Support Worker
-job_id: 25362_JR105208
----
 
 ---
 action:
@@ -273,6 +255,12 @@ job_id: 23643_225505280
 action:
 SELECTED | Hampshire | Hampshire | £13.5 - £16.8 per hour | Home Care Assistant - Complex Care Adults
 job_id: 23643_225730890
+---
+
+---
+action:
+SELECTED | Hampshire | Alton | £26018 - £27111 per year | Care Assistant
+job_id: 1401785913
 ---
 
 ## HAMPSHIRE — POSSIBLES
@@ -515,14 +503,14 @@ job_id: 2145616
 
 ---
 action:
-SELECTED | London | London | £15 per hour | Bank Support Worker
-job_id: 2145607
+SELECTED | London | London | £14 per hour | Support Worker
+job_id: 23643_225691357
 ---
 
 ---
 action:
-SELECTED | London | London | £14 per hour | Support Worker
-job_id: 23643_225691357
+SELECTED | London | London | £28000 - £32000 per year | Youth Support Worker Apprenticeship Coach
+job_id: 23643_225739094
 ---
 
 ## LONDON — POSSIBLES
@@ -635,12 +623,6 @@ job_id: 2064951
 action:
 SELECTED | Surrey | Fetcham | £17330 - £18471 per year (pro rata to £34,660 FTE) | Family Support Worker EDT
 job_id: 23643_225708916
----
-
----
-action:
-SELECTED | Surrey | Surrey | £15.17 per hour | Care Assistant - Care Home
-job_id: 23643_225713776
 ---
 
 ---
