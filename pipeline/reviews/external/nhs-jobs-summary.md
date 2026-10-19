@@ -2,15 +2,39 @@
 
 review_date: 2026-10-19
 
-- Open Administrative & Clerical rows reviewed: 2121
+- Open Administrative & Clerical rows reviewed: 2123
 - Auto/remembered selected: 371
 - Selected HC Tier A: 192
 - Selected HC Tier B: 179
-- POSS awaiting decision: 1648
+- POSS awaiting decision: 1650
 - Excluded: 0
 - HARD_PASS: 102
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | — | St Blazey, Par, PL24 2HY | £79504.00 to £91609.00 | Head of Workforce & Financial Intelligence
+source_job_id: 5667795
+title: Head of Workforce & Financial Intelligence
+employer: Cornwall Partnership NHS Foundation Trust
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9201-26-1300
+factual_fingerprint: e9c8f91e827bb14805b11149902a37ce54e8542313a30861b05f8bfbca769c76
+---
+
+---
+action:
+POSS | NHS Jobs | — | St Blazey, Par, PL24 2HY | £66582.00 to £77368.00 | Planning and Analytics Lead
+source_job_id: 5667788
+title: Planning and Analytics Lead
+employer: Cornwall Partnership NHS Foundation Trust
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9201-26-1299
+factual_fingerprint: c946060e140c7800362bb26c1bc9afe7560440cd4a7673565a9313062147f576
+---
 
 ---
 action:
