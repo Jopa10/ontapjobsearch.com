@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-10-18
-review_fingerprint: f6cf24dd497a94fca67f30268788395ebd851d72cacedc5ef5242441ab3ef9f6
-routing_manifest_sha256: 1bb154e7c14e0bb43ab94c1a3d54011da7c18cd33c418df61de6d7f2a9c876d7
+review_date: 2026-10-19
+review_fingerprint: 347b790beca61f48427e36798ff1464e356165a5c857dc4d1f845d1984af0d12
+routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 5
+- Records: 11
+- Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 3
@@ -38,6 +38,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+SELECTED | Wiltshire | Chippenham, South West, SN15 3EA | £9,676.00 - £9,985.00 Annually (Actual) Trust Scale Point 4-6 | Administrative Assistant
+employer: Charter Primary School
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5670a8b61b2fbb1c99c93318188f1cf16994498caaf7c9d47253afa824be53a4
+source: Teaching Vacancies
+source_job_id: administrative-assistant-charter-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-charter-primary-school
+---
+
+---
+action: 
 SELECTED | Wiltshire | Salisbury, South West, SP1 1QY | £27,254.00 - £28,598.00 Annually (FTE) Term time only, pro rata | Attendance Officer
 employer: St Joseph's Catholic School
 closing_date: 2026-10-19T23:59:00+01:00
@@ -49,6 +64,21 @@ factual_fingerprint: 3296fe14afc851a770c44b3f180e1a0810bed17b62917e6eb539491edeb
 source: Teaching Vacancies
 source_job_id: attendance-officer-686fafdf-6fc7-4a4c-ab8f-87001b20de78
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-686fafdf-6fc7-4a4c-ab8f-87001b20de78
+---
+
+---
+action: 
+SELECTED | Wiltshire | Swindon, South West, SN2 7SH | £26,429.00 - £27,275.00 Annually (FTE) Actual £23,852 - £24,615 | First Aider & Admin Assistant (Front Office)
+employer: Kingsdown School
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 081ba487ef64eebdadc840533118ce95ebb03bf62038e01bb189267de73b80ec
+source: Teaching Vacancies
+source_job_id: first-aider-admin-assistant-front-office
+source_url: https://teaching-vacancies.service.gov.uk/jobs/first-aider-admin-assistant-front-office
 ---
 
 ---

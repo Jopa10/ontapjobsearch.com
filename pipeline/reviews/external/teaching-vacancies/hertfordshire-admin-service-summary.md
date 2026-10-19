@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-10-18
-review_fingerprint: e20d295400b45e7d17569c75feddef48d17d8a53a35289dc52297b5bd74971bc
-routing_manifest_sha256: 1bb154e7c14e0bb43ab94c1a3d54011da7c18cd33c418df61de6d7f2a9c876d7
+review_date: 2026-10-19
+review_fingerprint: 85d23730ab5d347c5314bec711a333ced8019045517db866f4a895c5e07bc4d4
+routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 5
+- Records: 11
+- Selected: 3
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -34,21 +34,6 @@ factual_fingerprint: 247560e2264d02fdda0f49fa9a47e416bbcf17bb817e0b54f74ad19f41a
 source: Teaching Vacancies
 source_job_id: admin-officer-receptionist
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-officer-receptionist
----
-
----
-action: 
-SELECTED | Hertfordshire | Hatfield, East of England, AL9 7BN | £40,444.00 - £43,149.00 Annually (FTE) H9.28 to 31 (Fringe) Actual Salary including fringe allowance £36,503.16 | Headteacher's Personal Assistant
-employer: Chancellor's School
-closing_date: 2026-10-19T09:00:00+01:00
-reason: Clear admin/service title: personal assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 108695ea2f578ae5f7a2ea166248b58c0a9454b232eb0e244faf3fb969185e03
-source: Teaching Vacancies
-source_job_id: headteacher-s-personal-assistant-chancellor-s-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-personal-assistant-chancellor-s-school
 ---
 
 ---
@@ -79,21 +64,6 @@ factual_fingerprint: 5fa5979417a277c98d29a8f5bfd2a98b8000696e116f4007e107aebc225
 source: Teaching Vacancies
 source_job_id: office-administrator-6f6617da-aaca-482d-8c3c-49e7251458f9
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-6f6617da-aaca-482d-8c3c-49e7251458f9
----
-
----
-action: 
-SELECTED | Hertfordshire | Watford, East of England, WD19 7SL | £27,180.00 Annually (FTE) PART TIME (MORNINGS), TERM TIME ONLY | Part-Time Admin Assistant
-employer: Oxhey Wood Primary School
-closing_date: 2026-10-18T23:59:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 494688c903e500d50d4301e6faeb4756358e9452adf554f080e7fa60658e6744
-source: Teaching Vacancies
-source_job_id: part-time-admin-assistant-oxhey-wood-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-admin-assistant-oxhey-wood-primary-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -150,7 +120,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-support-assi
 ## HARD_PASS
 
 - [Assistant SENDCo](https://teaching-vacancies.service.gov.uk/jobs/assistant-sendco-69793fea-1d51-405a-a79e-55b4c58afc9c) — Insufficient admin/service evidence.
-- [Development Director](https://teaching-vacancies.service.gov.uk/jobs/development-director-watford-grammar-school-for-boys-watford-hertfordshire) — Insufficient admin/service evidence.
 - [Federation School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/federation-school-business-manager-hurst-drive-primary-school) — Manager title salary ceiling £49,817 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-aa7f3068-bd4a-4f6c-a3c0-513cc79c39b8) — Manager title salary ceiling £33,119 is not below £28,000.
 - [Procurement, Data and Compliance Lead](https://teaching-vacancies.service.gov.uk/jobs/procurement-data-and-compliance-lead) — Insufficient admin/service evidence.

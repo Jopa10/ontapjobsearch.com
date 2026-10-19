@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-10-18
-review_fingerprint: 2996ff7c1a922ecc83dfb35b981a12b82cef8548a4a8fa705401a50221912c52
-routing_manifest_sha256: 1bb154e7c14e0bb43ab94c1a3d54011da7c18cd33c418df61de6d7f2a9c876d7
+review_date: 2026-10-19
+review_fingerprint: a3779e6ee00cf825ce418fe774cb7991be9d4e3a0b8ef58adb558de3cf55a5a8
+routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 11
-- Selected: 4
+- Selected: 5
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: 926bbbb9b7de4a5f4790f04cc7799c345a12fc710b4dc21b39097852d59
 source: Teaching Vacancies
 source_job_id: assistant-exams-officer-cover-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/assistant-exams-officer-cover-administrator
+---
+
+---
+action: 
+SELECTED | Yorkshire - North | Harrogate, Yorkshire and the Humber, HG2 8PT | £18,978.00 - £20,228.00 Annually (Actual) NJC Grade B3, Scale Points 7-11, £27,274 - £29,070 per annum | Data Administrator
+employer: St John Fisher Catholic Academy
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Clear admin/service title: administrator, data administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2a882b72bd16bcd14c70c9f77f2c1d8e100b8f2ee3f3db79113c3398c3cba32a
+source: Teaching Vacancies
+source_job_id: data-administrator-st-john-fisher-catholic-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-administrator-st-john-fisher-catholic-academy
 ---
 
 ---
@@ -104,12 +119,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ## HARD_PASS
 
-- [Clerk to School Governing Body](https://teaching-vacancies.service.gov.uk/jobs/clerk-to-school-governing-body-sherburn-church-of-england-primary-academy) — Insufficient admin/service evidence.
 - [Exams Officer & Data Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-officer-data-manager-nidderdale-high-school) — Manager title salary ceiling £28,440 is not below £28,000.
-- [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-outwood-academy-easingwold) — Insufficient admin/service evidence.
 - [Hub Business Leader (Craven Hub)](https://teaching-vacancies.service.gov.uk/jobs/hub-business-leader-craven-hub) — Insufficient admin/service evidence.
 - [Multi-Site School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/multi-site-school-business-manager) — Manager title salary ceiling £41,177 is not below £28,000.
 - [Reception and Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/reception-and-administration-assistant-knavesmire-primary-school) — Insufficient admin/service evidence.
+- [Safeguarding Officer](https://teaching-vacancies.service.gov.uk/jobs/safeguarding-officer-8f1f1bf1-a960-4df0-918e-4da22ed5aa63) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

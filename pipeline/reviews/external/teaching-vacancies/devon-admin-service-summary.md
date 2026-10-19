@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-10-18
-review_fingerprint: 265e55e482013d2611540b4d295e74bb80781dc5ffd3cc69106c894455d63d61
-routing_manifest_sha256: 1bb154e7c14e0bb43ab94c1a3d54011da7c18cd33c418df61de6d7f2a9c876d7
+review_date: 2026-10-19
+review_fingerprint: 10fca6b1168dbbe1a9d14643daa6b41d21c10e9156b92d81c3be316f6a94e00c
+routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
+- Records: 17
 - Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 10
 
 ## SELECTED
 
@@ -83,17 +83,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/people-administrator-
 
 ---
 action: 
-SELECTED | Devon | Plymouth, South West, PL6 5ES | Grade C, Point 5-7 | Receptionist and Administrative Assistant
-employer: Woodlands School
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Clear admin/service title: administrative assistant, receptionist
+SELECTED | Devon | Plymouth, South West, PL7 4HJ | £26,427.00 - £27,274.00 Annually (FTE) | School Office Administrator
+employer: Boringdon Primary School
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Clear admin/service title: administrator, office administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 5952cf5a92b4e4cab324540c1a6d33c3076e703ffcaea9b2ceb0a3631b1791a3
+factual_fingerprint: f870d3c4d195c60b9e46333598adf854c2163f2af0027c5da63f6849429d4150
 source: Teaching Vacancies
-source_job_id: receptionist-and-administrative-assistant-woodlands-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-administrative-assistant-woodlands-school
+source_job_id: school-office-administrator-boringdon-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-administrator-boringdon-primary-school
 ---
 
 ---
@@ -144,7 +144,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 - [Finance Business Partner - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-maternity-cover) — Insufficient admin/service evidence.
 - [Marketing and Communications Lead](https://teaching-vacancies.service.gov.uk/jobs/marketing-and-communications-lead-learning-academies-trust) — Insufficient admin/service evidence.
 - [People Advisor ( Devon Cluster)](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-devon-cluster) — Insufficient admin/service evidence.
-- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-8814e3e0-1c77-47a4-8dae-d06f210769fa) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

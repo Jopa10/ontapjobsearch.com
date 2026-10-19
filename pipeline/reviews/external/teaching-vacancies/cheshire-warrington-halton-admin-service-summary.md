@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - Warrington & Halton
 
-review_date: 2026-10-18
+review_date: 2026-10-19
 review_fingerprint: ae9076d5b05e5ca005050baba199940d3f39edfd867898be5cdf4bda7c1d5fc5
-routing_manifest_sha256: 1bb154e7c14e0bb43ab94c1a3d54011da7c18cd33c418df61de6d7f2a9c876d7
+routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
 ontap_region: Cheshire - Warrington & Halton
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
+- Records: 1
 - Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 0
 
 ## SELECTED
 
@@ -46,7 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-suppor
 
 ## HARD_PASS
 
-- [Finance Assistant (30-Hours Per Week)](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-30-hours-per-week-the-great-schools-trust-warrington-not-recorded) — Insufficient admin/service evidence.
+- None.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-10-18
-review_fingerprint: cbb156b24bd353b9f25b35ffcc21ade672f5d26cbd33f5f5d827f91fadc4bf3a
-routing_manifest_sha256: 1bb154e7c14e0bb43ab94c1a3d54011da7c18cd33c418df61de6d7f2a9c876d7
+review_date: 2026-10-19
+review_fingerprint: 671103722c8a1319b9fe8c313c5e7e827124e32a77f8fa8713815fc49d27eb36
+routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -15,9 +15,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - Records: 66
 - Selected: 17
-- POSS awaiting decision: 11
+- POSS awaiting decision: 12
 - Excluded: 0
-- Hard pass: 38
+- Hard pass: 37
 
 ## SELECTED
 
@@ -68,17 +68,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admiss
 
 ---
 action: 
-SELECTED | London | Harrow, London, HA3 6NR | £30,467.00 - £32,320.00 Annually (Actual) | Attendance Officer
-employer: Hatch End High School
-closing_date: 2026-10-19T09:00:00+01:00
+SELECTED | London | Beckenham, London, BR3 3RD | £35,624.00 - £37,790.00 Annually (FTE) NJC Scale 6 Point 16-20 (FTE Salary: £35,624 - £37,790 per annum) (Actual Salary: £31,155 - £33,049 per annum) 40 weeks, 36 hours per week | Attendance Officer
+employer: Orion Eden Park
+closing_date: 2026-11-09T12:00:00+00:00
 reason: Clear admin/service title: attendance officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: f622ff10bc0fc3ff7b9c84db5f6448e76c617640f198b4e36eb7ac5ace1a1932
+factual_fingerprint: 7c2f89b27d670140c1fef38dea56b1283b62da6a0d36f567189387a945bfc4ab
 source: Teaching Vacancies
-source_job_id: attendance-officer-hatch-end-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-hatch-end-high-school
+source_job_id: attendance-officer-orion-eden-park
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-orion-eden-park
 ---
 
 ---
@@ -295,6 +295,36 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-office
 
 ---
 action: 
+POSS | London | Croydon, London, CR2 6HS | £30,408 | Administrative Assistant
+employer: Harris Primary Academy Haling Park
+closing_date: 2026-11-02T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 62b09da4070660a26530d1fcf96c838647fb50ed7f19d0af6bab68a3510731fa
+source: Teaching Vacancies
+source_job_id: administrative-assistant-harris-primary-academy-haling-park
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-harris-primary-academy-haling-park
+---
+
+---
+action: 
+POSS | London | Feltham, London, TW13 4QP | Scale 3 (£23,507.84 - £23.844.13) | Administrative Assistant
+employer: Oak Hill Academy West London
+closing_date: 2026-10-30T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1340bb2c34cbf94d3325b1562f1efa4f96c984c50584c87bd52f8f43159d95a9
+source: Teaching Vacancies
+source_job_id: administrative-assistant-oak-hill-academy-west-london
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-oak-hill-academy-west-london
+---
+
+---
+action: 
 POSS | London | London, London, E15 4LP | Scale 5 | Administrator
 employer: Sarah Bonnell School
 closing_date: 2026-10-30T23:59:00+00:00
@@ -400,21 +430,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ---
 action: 
-POSS | London | London, London, SE28 8AT | £30,408.00 - £32,655.00 Annually (Actual) pro rota for term time plus 2 weeks is £27,862 to £29,921 per annum (depending on experience) | Receptionist
-employer: Woolwich Polytechnic School
-closing_date: 2026-10-18T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 620395446a740aa6c20ac2c91ec560d6af7864d2d4ee95415ecaf85c5f35575f
-source: Teaching Vacancies
-source_job_id: receptionist-5eb98bff-1e99-4f7c-95a7-9f51e764c1dd
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-5eb98bff-1e99-4f7c-95a7-9f51e764c1dd
----
-
----
-action: 
 POSS | London | Dagenham, London, RM10 7UR | £28,909.00 - £30,200.00 Annually (Actual) Salary Scale: Scale 5 (Pt12-15, £33,609 - £35,109) Prorated salary range is likely to be approx. £28,909 - £30,200 (also dependant on experience, weeks per year and continuous service) Based on working 35 hours per week, Term time only. (Subject to job evaluation) | SEND Administrator
 employer: Eastbrook School
 closing_date: 2026-11-02T08:00:00+00:00
@@ -430,17 +445,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ea
 
 ---
 action: 
-POSS | London | London, London, SE9 5EE | £30,963.00 Annually (Actual) | SEND Administrator
-employer: Eltham Hill School
-closing_date: 2026-10-18T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
+POSS | London | Northolt, London, UB5 6AG | Grade 6 Pt 18 - 20 (£36,834 - £37,935) pro rata salary of £32,725 - £33,703Ppa | Transition, Assessment and Medical/Welfare Coordinator
+employer: Belvue School
+closing_date: 2026-11-12T12:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: ee782075bcbb74e7b377930c352324a072987078b9feafa6560b39f96e9b217b
+factual_fingerprint: c44130993da9c79ea99924284615e6daeabd96c8db68e195099470e0f88752d9
 source: Teaching Vacancies
-source_job_id: send-administrator-eltham-hill-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-eltham-hill-school
+source_job_id: transition-assessment-and-medical-welfare-coordinator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment-and-medical-welfare-coordinator
 ---
 
 ## EXCLUDED BY REVIEW
@@ -462,7 +477,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-el
 - [EA to the Principal](https://teaching-vacancies.service.gov.uk/jobs/ea-to-the-principal) — Out-of-scope occupation: principal.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-feec0708-8cac-454f-8890-7daafb1d5429) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-middlesex-learning-partnership) — Insufficient admin/service evidence.
-- [Head of Finance](https://teaching-vacancies.service.gov.uk/jobs/head-of-finance-anthem-schools-trust-london-not-recorded) — Insufficient admin/service evidence.
 - [Headteacher's PA](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-north-brent-school) — Out-of-scope occupation: teacher, headteacher.
 - [HR Lead](https://teaching-vacancies.service.gov.uk/jobs/hr-lead-royal-docks-academy-london) — Insufficient admin/service evidence.
 - [HR Officer, Office Manager & PA to Headteacher (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-office-manager-pa-to-headteacher-maternity-cover) — Manager title salary ceiling £49,212 is not below £28,000.
@@ -471,17 +485,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-el
 - [Human Resources Lead](https://teaching-vacancies.service.gov.uk/jobs/human-resources-lead) — Insufficient admin/service evidence.
 - [Human Resources Manager (Schools)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-manager-schools-netley-primary-school) — Manager title salary ceiling £41,000 is not below £28,000.
 - [Invigilators / Readers & Scribes](https://teaching-vacancies.service.gov.uk/jobs/invigilators-readers-scribes) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-iqra-primary-school) — Manager title salary ceiling £38,637 is not below £28,000.
 - [Operations Manager - Havering Secondary Hub](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-havering-secondary-hub) — Manager title salary ceiling £60,390 is not below £28,000.
+- [Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-girls-learning-trust) — Insufficient admin/service evidence.
 - [People Officer](https://teaching-vacancies.service.gov.uk/jobs/people-officer-newbridge-school) — Insufficient admin/service evidence.
 - [Pupil Support Lead (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/pupil-support-lead-maternity-cover-st-mary-cray-primary-academy) — Insufficient admin/service evidence.
-- [Regional HR Partner](https://teaching-vacancies.service.gov.uk/jobs/regional-hr-partner-36023a7d-c903-4173-b385-43f854d87e14) — Insufficient admin/service evidence.
 - [Reprographics Assistant](https://teaching-vacancies.service.gov.uk/jobs/reprographics-assistant-langley-park-school-for-boys-beckenham-kent) — Insufficient admin/service evidence.
 - [Reprographics Technician](https://teaching-vacancies.service.gov.uk/jobs/reprographics-technician-9ea74161-d55b-4b39-943d-187d640b5e5d) — Out-of-scope occupation: technician.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-acton-gardens-primary-school) — Manager title salary ceiling £51,961 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-handsworth-primary-school) — Manager title without salary evidence below £28,000.
 - [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-whitehall-park-school) — Manager title salary ceiling £43,696 is not below £28,000.
 - [SENDCo Assistant](https://teaching-vacancies.service.gov.uk/jobs/sendco-assistant-9fa464f8-e6a5-4f60-bac9-8d1c457a584c) — Insufficient admin/service evidence.
+- [Senior Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-admin-officer-st-stephen-s-cofe-primary-school-london) — Insufficient admin/service evidence.
 - [Senior Project Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-project-officer) — Insufficient admin/service evidence.
 - [Site Manager](https://teaching-vacancies.service.gov.uk/jobs/site-manager-hereward-primary-school-loughton-essex) — Out-of-scope occupation: site manager.
 - [Specialist Cover Coordinator](https://teaching-vacancies.service.gov.uk/jobs/specialist-cover-coordinator) — Insufficient admin/service evidence.

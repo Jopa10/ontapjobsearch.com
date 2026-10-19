@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - East
 
-review_date: 2026-10-18
-review_fingerprint: 0253eff5eef88fd99da860104dbe1af93a028c0c2027cc26d848022a46d03e89
-routing_manifest_sha256: 1bb154e7c14e0bb43ab94c1a3d54011da7c18cd33c418df61de6d7f2a9c876d7
+review_date: 2026-10-19
+review_fingerprint: 1c70381241f298cf23ab08d404c3315a24415ce70aae67fa3ea562d76d7dd801
+routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
 ontap_region: Yorkshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 4
 - Selected: 3
-- POSS awaiting decision: 1
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
 
@@ -68,20 +68,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-cover-co
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Yorkshire - East | Hull, HU7 4EY | £26,248 - £27,274 FTE £18,322 - £19,038 Actual | Administration Officer
-employer: Humber Education Trust
-closing_date: 2026-10-19T08:00:59+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 5595be49284fdfdbd160ec913a8f08f88d6d855e3182cdac64063e04723067be
-source: Teaching Vacancies
-source_job_id: administration-officer-humber-education-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-humber-education-trust
----
+- None.
 
 ## EXCLUDED BY REVIEW
 

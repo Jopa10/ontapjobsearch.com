@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-10-18
-review_fingerprint: 8d1e2df116bed4b68c631c5b4ec677d585b1c16cec14f715bd4d2665a5e72391
-routing_manifest_sha256: 1bb154e7c14e0bb43ab94c1a3d54011da7c18cd33c418df61de6d7f2a9c876d7
+review_date: 2026-10-19
+review_fingerprint: e3332012838fd7bd971114e56cbd3098fdeb7ebe31e8b3c6e2a4bd541391df89
+routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
+- Records: 13
 - Selected: 3
-- POSS awaiting decision: 2
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 9
 
@@ -67,21 +67,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Somerset | Cheddar, South West, BS27 3AQ | Grade 14 £26016 - £26846 | Finance Assistant
-employer: The Kings of Wessex Academy
-closing_date: 2026-10-19T08:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3d204cd7a42c8ea61e04ed95a0927ae2e71475d09dcbd15184b9df77cc7922c0
-source: Teaching Vacancies
-source_job_id: finance-assistant-the-kings-of-wessex-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the-kings-of-wessex-academy
----
 
 ---
 action: 

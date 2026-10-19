@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-10-18
-review_fingerprint: 099d989a3191ea19c14a450d6afd605a47b737bd7eab7a5e9836741a528362be
-routing_manifest_sha256: 1bb154e7c14e0bb43ab94c1a3d54011da7c18cd33c418df61de6d7f2a9c876d7
+review_date: 2026-10-19
+review_fingerprint: ec475535e3e7fcd16c2a82911e2898f3db5e0b825d3f17296e829bb520ecd2a7
+routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 15
-- Selected: 5
+- Selected: 6
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 7
 
 ## SELECTED
 
@@ -96,6 +96,21 @@ source_job_id: reprographics-administrative-assistant
 source_url: https://teaching-vacancies.service.gov.uk/jobs/reprographics-administrative-assistant
 ---
 
+---
+action: 
+SELECTED | Buckinghamshire | Aylesbury, HP22 6NL | £29,114.00 - £31,230.00 Annually (FTE) Actual salary for hours worked will be £24,690.91 to £26,485.44 | School Administrator
+employer: Chiltern Way Academy Trust
+closing_date: 2026-11-05T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e73b30abf3629fd14a6fb762760b4cd87be307e57332acdd15ab726b236af5de
+source: Teaching Vacancies
+source_job_id: school-administrator-chiltern-way-academy-trust-aylesbury-not-recorded
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-chiltern-way-academy-trust-aylesbury-not-recorded
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -140,7 +155,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-leve
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-8f6cfa11-ce79-4846-bec1-d44a416c2c86) — Manager title salary ceiling £53,051 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-56c55376-78b3-4ad8-a27c-1fdc31ec9895) — Insufficient admin/service evidence.
 - [Marketing Officer](https://teaching-vacancies.service.gov.uk/jobs/marketing-officer-7e5d89f3-aa30-4103-8e70-a83b509a9118) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-winslow-church-of-england-school) — Manager title salary ceiling £41,272 is not below £28,000.
 - [Trust Finance officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-stephenson-mk-trust-milton-keynes-not-recorded) — Insufficient admin/service evidence.
 
 ## Safety boundary

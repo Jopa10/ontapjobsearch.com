@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-10-18
-review_fingerprint: 439941bb2c29b2254aaccfd6f58e4f22a86d55e808773f52cd38a41611647c58
-routing_manifest_sha256: 1bb154e7c14e0bb43ab94c1a3d54011da7c18cd33c418df61de6d7f2a9c876d7
+review_date: 2026-10-19
+review_fingerprint: 7882e4483d38ded7104566e2cc0c1b7017d44f1733c09f9c4b4de3e20841b73d
+routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 1
+- Records: 6
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -36,6 +36,21 @@ source_job_id: exams-officer-downend-school-bristol
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-downend-school-bristol
 ---
 
+---
+action: 
+SELECTED | Bristol & Bath | Bristol, South West, BS10 6DS | £26,847.00 - £27,274.00 Annually (FTE) | School Administrator MAT cover
+employer: Little Mead Primary Academy
+closing_date: 2026-11-09T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: cd55fa00f417c09bca538a85cd01eb56f15af7c32e0f0766c9273589b7f3c002
+source: Teaching Vacancies
+source_job_id: school-administrator-mat-cover
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-mat-cover
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 - None.
@@ -48,6 +63,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-downend
 
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-st-bede-s-catholic-college) — Insufficient admin/service evidence.
 - [PA to Headteacher](https://teaching-vacancies.service.gov.uk/jobs/pa-to-headteacher-wellsway-school) — Missing salary or pay scale.
+- [Personal Care Assistant (EYFS + SEND)](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-eyfs-send) — Insufficient admin/service evidence.
 - [Systems Developer](https://teaching-vacancies.service.gov.uk/jobs/systems-developer-cabot-learning-federation) — Insufficient admin/service evidence.
 
 ## Safety boundary

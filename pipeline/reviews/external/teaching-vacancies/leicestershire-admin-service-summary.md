@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Leicestershire
 
-review_date: 2026-10-18
+review_date: 2026-10-19
 review_fingerprint: e8aeece5adeaa689722084b054926bd607d5aa903e6b3e3968718460336d5b44
-routing_manifest_sha256: 1bb154e7c14e0bb43ab94c1a3d54011da7c18cd33c418df61de6d7f2a9c876d7
+routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
 ontap_region: Leicestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -93,11 +93,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-admi
 
 - [Executive Assistant to the Trust Leader (CEO) and Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-to-the-trust-leader-ceo-and-compliance-officer) — Insufficient admin/service evidence.
 - [Extended Services Club Manager (EXS031BC)](https://teaching-vacancies.service.gov.uk/jobs/extended-services-club-manager-exs031bc-sileby-redlands-community-primary-school) — Manager title salary ceiling £28,146 is not below £28,000.
+- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-discovery-schools-academies-trust-ltd) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-thorpe-acre-junior-school) — Manager title salary ceiling £28,353 is not below £28,000.
 - [Office Manager (BAD31BC)](https://teaching-vacancies.service.gov.uk/jobs/office-manager-bad31bc) — Manager title salary ceiling £35,493 is not below £28,000.
 - [Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-discovery-schools-academies-trust-ltd) — Insufficient admin/service evidence.
 - [People Admin Team Leader](https://teaching-vacancies.service.gov.uk/jobs/people-admin-team-leader) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-sutton-bonington-primary-school) — Manager title salary ceiling £34,811 is not below £28,000.
 - [School Business Manager ( Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-maternity-cover-keyham-lodge-school) — Manager title salary ceiling £44,109 is not below £28,000.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - Liverpool
 
-review_date: 2026-10-18
+review_date: 2026-10-19
 review_fingerprint: bc74fb1b31a4c16a0825496074afc1fca623aa86e451b49e58adb96b49989b39
-routing_manifest_sha256: 1bb154e7c14e0bb43ab94c1a3d54011da7c18cd33c418df61de6d7f2a9c876d7
+routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
 ontap_region: Merseyside - Liverpool
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 3
 - Selected: 1
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 0
 
 ## SELECTED
 
@@ -74,7 +74,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-pastoral-senior-
 
 ## HARD_PASS
 
-- [People Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-lydiate-learning-trust) — Insufficient admin/service evidence.
+- None.
 
 ## Safety boundary
 

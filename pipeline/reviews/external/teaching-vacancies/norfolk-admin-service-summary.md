@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-10-18
+review_date: 2026-10-19
 review_fingerprint: cb925bfb967c93545273eb97f6420515e64c47c4cc87621fcdd7e69e7ce2e6d1
-routing_manifest_sha256: 1bb154e7c14e0bb43ab94c1a3d54011da7c18cd33c418df61de6d7f2a9c876d7
+routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
+- Records: 14
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 11
 
 ## SELECTED
 
@@ -84,6 +84,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-academy-admini
 - [Data Manager (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/data-manager-maternity-cover-great-yarmouth-charter-academy-great-yarmouth) — Manager title salary ceiling £34,811 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-queen-s-hill-primary-school) — Insufficient admin/service evidence.
 - [Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/procurement-manager-st-john-the-baptist-catholic-multi-academy-trust) — Manager title salary ceiling £49,816 is not below £28,000.
+- [Student Administration & Customer Service Assistant Degree Apprenticeship](https://teaching-vacancies.service.gov.uk/jobs/student-administration-customer-service-assistant-degree-apprenticeship) — Insufficient admin/service evidence.
 - [Transport Assistant](https://teaching-vacancies.service.gov.uk/jobs/transport-assistant-reepham-primary-school) — Insufficient admin/service evidence.
 - [Trust Data Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-data-manager-wymondham-college) — Manager title salary ceiling £48,738 is not below £28,000.
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-10-18
-review_fingerprint: d6ece21c3895321e1a3e91ca7bc0e62dea0556fd66ca730938dbc9e071df6099
-routing_manifest_sha256: 1bb154e7c14e0bb43ab94c1a3d54011da7c18cd33c418df61de6d7f2a9c876d7
+review_date: 2026-10-19
+review_fingerprint: b3c6b7d9d95ed328f440fbc35b252e04e4b477473c00dfe7e821220e9c5ed034
+routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 50
-- Selected: 17
-- POSS awaiting decision: 8
+- Records: 47
+- Selected: 14
+- POSS awaiting decision: 7
 - Excluded: 0
-- Hard pass: 25
+- Hard pass: 26
 
 ## SELECTED
 
@@ -143,21 +143,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-bradfor
 
 ---
 action: 
-SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS13 1DQ | £26,016.00 - £26,846.00 Annually (Actual) | General Administrator
-employer: Leeds West Academy
-closing_date: 2026-10-19T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 9ed1fa866b39baefd55a4314f8249bcb5b7be271ca3f7a3c8c3dca022bbd0911
-source: Teaching Vacancies
-source_job_id: general-administrator-leeds-west-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/general-administrator-leeds-west-academy
----
-
----
-action: 
 SELECTED | Yorkshire - West | Wakefield, Yorkshire and the Humber, WF1 2PF | £25,614 to £26,016 | HR Administrative Assistant
 employer: Outwood Grange Academy
 closing_date: 2026-10-26T08:00:00+00:00
@@ -169,21 +154,6 @@ factual_fingerprint: ee10b5b97df36a28c109f2b8b108c00e5fcbf7dd54511bb188fe96a3a78
 source: Teaching Vacancies
 source_job_id: hr-administrative-assistant-outwood-grange-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrative-assistant-outwood-grange-academy
----
-
----
-action: 
-SELECTED | Yorkshire - West | Halifax, Yorkshire and the Humber, HX3 9LG | £28,693.00 - £30,660.00 Annually (Actual) Grade 6, SCP 18-22. Term Time plus 5 days. | Inclusion Officer & Administrator
-employer: Park Lane Academy
-closing_date: 2026-10-19T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: f8a37639d11be5ff954de27a4b44b2c399b9c6525308d3984543801dac9591db
-source: Teaching Vacancies
-source_job_id: inclusion-officer-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-officer-administrator
 ---
 
 ---
@@ -261,21 +231,6 @@ source_job_id: trust-hr-administrator-moorlands-learning-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-hr-administrator-moorlands-learning-trust
 ---
 
----
-action: 
-SELECTED | Yorkshire - West | Bingley, Yorkshire and the Humber, BD16 1EE | £12,522.00 - £12,921.72 Annually (Actual) Band 5 SCP 4 - 6 | Work Experience Administrator
-employer: Beckfoot School
-closing_date: 2026-10-18T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: bbf5a67d1096c4293ad39878a7252ebcee0ada230d938882a832ba614fb17d39
-source: Teaching Vacancies
-source_job_id: work-experience-administrator-beckfoot-school-bingley-west-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/work-experience-administrator-beckfoot-school-bingley-west-yorkshire
----
-
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -306,21 +261,6 @@ factual_fingerprint: 22351c844f27f8e74e156cf2801ba651081d6f647c822930f4c6b7fdbb2
 source: Teaching Vacancies
 source_job_id: administrator-37
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-37
----
-
----
-action: 
-POSS | Yorkshire - West | Wakefield, WF1 2PF | £28,153 - £29,071 | Finance Assistant
-employer: Outwood Grange Academies Trust
-closing_date: 2026-10-19T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 266ddce57bcc49aa614a4bce1db3a70a9855e09c9c57925d119c195a49ad656a
-source: Teaching Vacancies
-source_job_id: finance-assistant-50e57e5f-9089-40ae-bc57-8113daf618d0
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-50e57e5f-9089-40ae-bc57-8113daf618d0
 ---
 
 ---
@@ -405,21 +345,22 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 ## HARD_PASS
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-wakefield-snapethorpe-primary-school-wakefield) — Insufficient admin/service evidence.
+- [Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-1a49a8cb-9a05-468f-84cb-f2dd01c42071) — Insufficient admin/service evidence.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-ethos-academy-trust) — Insufficient admin/service evidence.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-leeds-diocesan-learning-trust) — Insufficient admin/service evidence.
 - [Customer Experience Team Leader](https://teaching-vacancies.service.gov.uk/jobs/customer-experience-team-leader) — Insufficient admin/service evidence.
 - [Data and Exams Assistant (7698)](https://teaching-vacancies.service.gov.uk/jobs/data-and-exams-assistant-7698) — Insufficient admin/service evidence.
 - [Digital/Lens Counter Technician - Creative Arts](https://teaching-vacancies.service.gov.uk/jobs/digital-lens-counter-technician-creative-arts) — Out-of-scope occupation: technician.
+- [Employee Relations Specialist](https://teaching-vacancies.service.gov.uk/jobs/employee-relations-specialist) — Insufficient admin/service evidence.
 - [Enrichment & Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/enrichment-finance-officer) — Insufficient admin/service evidence.
 - [Estates Manager](https://teaching-vacancies.service.gov.uk/jobs/estates-manager-the-bishop-wheeler-catholic-academy-trust) — Manager title salary ceiling £44,253 is not below £28,000.
 - [Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilator-leeds-city-academy-leeds-west-yorkshire) — Insufficient admin/service evidence.
+- [Family Liaison Officer](https://teaching-vacancies.service.gov.uk/jobs/family-liaison-officer-39b7503c-0dfc-4dc9-b7cf-19e31f8c3bb6) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the-north-halifax-grammar-school) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-the-william-henry-smith-school-and-sixth-form) — Manager title salary ceiling £50,908 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-greenhead-college) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-high-park-school) — Insufficient admin/service evidence.
 - [Human Resources Business Partner (Central HR Team)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-central-hr-team-935af2eb-24ce-4cd3-ac6d-3868ceb4711e) — Insufficient admin/service evidence.
-- [Human Resources Officer](https://teaching-vacancies.service.gov.uk/jobs/human-resources-officer-ilkley-grammar-school) — Insufficient admin/service evidence.
-- [Learning Manager](https://teaching-vacancies.service.gov.uk/jobs/learning-manager-31a743da-8519-49fb-99c7-f5afb963c51c) — Manager title salary ceiling £36,581 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-beckfoot-heaton-primary) — Manager title salary ceiling £34,811 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-holy-name-catholic-voluntary-academy) — Manager title salary ceiling £32,046 is not below £28,000.
 - [Operations Support Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/operations-support-co-ordinator) — Insufficient admin/service evidence.

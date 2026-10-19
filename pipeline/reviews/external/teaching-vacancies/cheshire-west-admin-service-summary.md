@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - West
 
-review_date: 2026-10-18
+review_date: 2026-10-19
 review_fingerprint: 8864a508bad4b8fd449d37a72b4c38366e9c653d0140d489fa7c5616ef1e565a
-routing_manifest_sha256: 1bb154e7c14e0bb43ab94c1a3d54011da7c18cd33c418df61de6d7f2a9c876d7
+routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
 ontap_region: Cheshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 4
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -48,7 +48,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator
 
 - [Data Officer](https://teaching-vacancies.service.gov.uk/jobs/data-officer-ellesmere-port-catholic-high-school-a-voluntary-academy) — Missing salary or pay scale.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-4995d185-9e33-4fc5-bcfb-92eea964e047) — Insufficient admin/service evidence.
-- [FINANCE OFFICER](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-sandstone-trust-tarporley-not-recorded) — Insufficient admin/service evidence.
 - [Procurement Officer](https://teaching-vacancies.service.gov.uk/jobs/procurement-officer-the-learning-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary

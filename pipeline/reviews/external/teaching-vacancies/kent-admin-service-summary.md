@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-10-18
-review_fingerprint: 373f7fd57d369f7e5a8f1880cd5f6581a7d1a29c93f0455fd15809143cb9b624
-routing_manifest_sha256: 1bb154e7c14e0bb43ab94c1a3d54011da7c18cd33c418df61de6d7f2a9c876d7
+review_date: 2026-10-19
+review_fingerprint: 4870de2ec0bf66a24b230c8329965bc3b640137242aa2d37d3f2ed4baf1754be
+routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 3
+- Records: 9
+- Selected: 2
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 4
@@ -34,21 +34,6 @@ factual_fingerprint: d94ca71aeaebccecde6a91562d845a86806bea94e56793967492410e6fe
 source: Teaching Vacancies
 source_job_id: examinations-admissions-officer-waterfront-utc
 source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-admissions-officer-waterfront-utc
----
-
----
-action: 
-SELECTED | Kent | Dartford, South East, DA2 6FY | £30,621.00 - £34,172.00 Annually (FTE) | PA to Headteacher
-employer: Stone Lodge School
-closing_date: 2026-10-19T09:00:00+01:00
-reason: Clear admin/service title: pa to
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 92c00c90c899af36a72e1a55038fd24c505461db3fc0cecd162b38fd57ef88a2
-source: Teaching Vacancies
-source_job_id: pa-to-headteacher-stone-lodge-school-dartford-kent
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pa-to-headteacher-stone-lodge-school-dartford-kent
 ---
 
 ---

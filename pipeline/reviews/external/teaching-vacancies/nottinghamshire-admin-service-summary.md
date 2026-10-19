@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-10-18
-review_fingerprint: 3e76722f6a43c2172d77fbaf59f47b996e2f03f549ab4445923452182f6d7881
-routing_manifest_sha256: 1bb154e7c14e0bb43ab94c1a3d54011da7c18cd33c418df61de6d7f2a9c876d7
+review_date: 2026-10-19
+review_fingerprint: 9d4ace8d122a631661c740031359f1da9f048962355b39c64bca0543a62a8565
+routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 28
+- Records: 26
 - Selected: 10
-- POSS awaiting decision: 7
+- POSS awaiting decision: 6
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 10
 
 ## SELECTED
 
@@ -235,21 +235,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-greenwo
 
 ---
 action: 
-POSS | Nottinghamshire | Mansfield, East Midlands, NG19 8DF | £22,229.00 - £22,578.00 Annually (Actual) GAT 3, 37 hours per week, Monday - Friday, Term Time only | Administrator
-employer: The Bramble Academy
-closing_date: 2026-10-18T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 20644841fa29fef276144443be18aea76012d45ee3c5eb9964edf6880f2235fa
-source: Teaching Vacancies
-source_job_id: administrator-the-bramble-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-the-bramble-academy
----
-
----
-action: 
 POSS | Nottinghamshire | Nottingham, East Midlands, NG9 3DU | £22,630.72 - £23,356.04 Annually (Actual) NJE Grade 3, Pts 5 to 7 £26,427 - £27,274 (FTE) | Attendance and Inclusion Administration Officer
 employer: Alderman White School
 closing_date: 2026-11-02T09:00:00+00:00
@@ -286,7 +271,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 - [Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-king-edward-primary-school-nursery) — Insufficient admin/service evidence.
 - [Communications & Marketing Assistant](https://teaching-vacancies.service.gov.uk/jobs/communications-marketing-assistant) — Insufficient admin/service evidence.
-- [Data & MIS Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-mis-assistant) — Insufficient admin/service evidence.
 - [Data Protection Support Officer](https://teaching-vacancies.service.gov.uk/jobs/data-protection-support-officer) — Insufficient admin/service evidence.
 - [Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/examinations-manager-rushcliffe-spencer-academy) — Manager title salary ceiling £35,096 is not below £28,000.
 - [Exams and Assessment Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-and-assessment-officer-outwood-academy-kirkby) — Insufficient admin/service evidence.

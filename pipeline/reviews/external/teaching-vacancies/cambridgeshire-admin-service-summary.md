@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-10-18
-review_fingerprint: e6433db3f478fb555eeffcee580c7ab47975fe6f291a4ae623a5f82281a7c2ab
-routing_manifest_sha256: 1bb154e7c14e0bb43ab94c1a3d54011da7c18cd33c418df61de6d7f2a9c876d7
+review_date: 2026-10-19
+review_fingerprint: a77d0e48e9968270b8e81ab7123a04032fca047b399d12c87db89adb02345a3b
+routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -20,6 +20,21 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 - Hard pass: 5
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Cambridgeshire | Cambridge, East of England, CB24 8UA | £26,017.00 - £26,847.00 Annually (FTE) Pro rata salary £22,315 - £23,026 | Administration Assistant
+employer: Cottenham Village College
+closing_date: 2026-10-28T23:59:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: aadf477a6fedd61a2d7d449021cb982a7ae41748d45be1373ed427f0f224910f
+source: Teaching Vacancies
+source_job_id: administration-assistant-33fbff14-5670-4218-aac1-dee2a2b87010
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-33fbff14-5670-4218-aac1-dee2a2b87010
+---
 
 ---
 action: 
@@ -53,32 +68,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-SELECTED | Cambridgeshire | Wisbech, East of England, PE14 7HA | Scale D, Pt 6-7, £13.91 - £14.13/hour. Approx £22,989 - £23,354/year (FTE £26,847 - £27,274 per year, based on a 37hr week) Please note this salary will be paid pro rata | Administrator (SEN and Careers)
-employer: Marshland High School
-closing_date: 2026-10-19T01:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a67fec0346d191895272189bc223cbc638e905f8e731856a3d10e6cddd770878
-source: Teaching Vacancies
-source_job_id: administrator-sen-and-careers
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-sen-and-careers
----
-
----
-action: 
-SELECTED | Cambridgeshire | Peterborough, PE3 6SB | £25,000.00 - £30,000.00 Annually (FTE) | Admission Administrator
+SELECTED | Cambridgeshire | Peterborough, PE3 6SB | £25,000.00 - £30,000.00 Annually (FTE) | Admissions Administrator
 employer: United Learning Trust
 closing_date: 2026-11-05T23:59:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 4bfea114e84a762c0033b39b3f09fee730f9fadd9735608f534c8113a232a340
+factual_fingerprint: 487590fc46ed15e0edcd739ef79c38a9f5f072805143f6bc57968ebd91ae0c71
 source: Teaching Vacancies
-source_job_id: admission-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admission-administrator
+source_job_id: admissions-administrator-united-learning-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-administrator-united-learning-trust
 ---
 
 ---
@@ -98,17 +98,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administra
 
 ---
 action: 
-SELECTED | Cambridgeshire | Ely, East of England, CB6 2JA | £27,275-£29,071 FTE £14.18- £15.11per hour | Attendance Administrator
-employer: Witchford Village College
-closing_date: 2026-10-19T09:00:00+01:00
-reason: Clear admin/service title: administrator
+SELECTED | Cambridgeshire | Peterborough, East of England, PE3 9PY | £23,355.00 - £25,296.00 Annually (Actual) | Attendance Officer
+employer: Jack Hunt Academy
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Clear admin/service title: attendance officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 9c6ebe44b2e91d52bd0916aa351991b1e4ce7e80cbacc33e14d26f4bc0c1011a
+factual_fingerprint: 10d03f265fe2ef5a36f12928a6024cb0cb501a7ecfc8d58e5d63cccee84f95ee
 source: Teaching Vacancies
-source_job_id: attendance-administrator-witchford-village-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-witchford-village-college
+source_job_id: attendance-officer-jack-hunt-academy-peterborough-cambridgeshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-jack-hunt-academy-peterborough-cambridgeshire
 ---
 
 ---

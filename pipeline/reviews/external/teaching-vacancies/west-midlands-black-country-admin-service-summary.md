@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-10-18
-review_fingerprint: 3061b74b524d60d46dbe90a4db3a191cb4600ad85edd1793dc264e25f378d6ac
-routing_manifest_sha256: 1bb154e7c14e0bb43ab94c1a3d54011da7c18cd33c418df61de6d7f2a9c876d7
+review_date: 2026-10-19
+review_fingerprint: c1b677359e4cd89db4aaa8de40f74096980ef321e3cbd41a7ca02355cbdac9e2
+routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
+- Records: 12
 - Selected: 3
-- POSS awaiting decision: 4
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
 
@@ -113,21 +113,6 @@ source_job_id: head-of-house-pa-wednesfield-academy-wolverhampton-west-midlands
 source_url: https://teaching-vacancies.service.gov.uk/jobs/head-of-house-pa-wednesfield-academy-wolverhampton-west-midlands
 ---
 
----
-action: 
-POSS | West Midlands - Black Country | Wolverhampton, West Midlands, WV10 6NN | £13.70 - £13.92 Hourly | Receptionist
-employer: Elston Hall Primary School
-closing_date: 2026-10-19T09:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: df5be0223fe06b9c318caa115271a9a0f90493a52ede1070e18999535d5eaceb
-source: Teaching Vacancies
-source_job_id: receptionist-elston-hall-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-elston-hall-primary-school
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -135,7 +120,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-elston-h
 ## HARD_PASS
 
 - [Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/cover-manager-perryfields-academy) — Manager title salary ceiling £34,812 is not below £28,000.
-- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-ormiston-shelfield-community-academy-walsall-west-midlands) — Manager title salary ceiling £37,563 is not below £28,000.
 - [Exam Invigilators](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilators-ecfad9cd-e181-4168-a518-c94807aa906f) — Insufficient admin/service evidence.
 - [Head of Estates and Capital Strategy](https://teaching-vacancies.service.gov.uk/jobs/head-of-estates-and-capital-strategy) — Insufficient admin/service evidence.
 - [Human Resources Assistant](https://teaching-vacancies.service.gov.uk/jobs/human-resources-assistant-highfields-school) — Insufficient admin/service evidence.

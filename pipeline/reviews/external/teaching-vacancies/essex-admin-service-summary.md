@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-10-18
-review_fingerprint: e2a51f1bbf490a18c4dd45aff4c9f8cc016d8ffbfa3e0946dd2144f8759a4a6a
-routing_manifest_sha256: 1bb154e7c14e0bb43ab94c1a3d54011da7c18cd33c418df61de6d7f2a9c876d7
+review_date: 2026-10-19
+review_fingerprint: 049a6db1a520ff3b922e45d264fb53f1edb202bb0aa917d313d3e69537fc6764
+routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 19
-- Selected: 6
+- Selected: 7
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 13
+- Hard pass: 12
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: fa55814e94e2cd7588fa129cc1457f86713a7c645fe5df39f2390cb7e26
 source: Teaching Vacancies
 source_job_id: admin-assistant-buckhurst-hill-community-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-buckhurst-hill-community-primary-school
+---
+
+---
+action: 
+SELECTED | Essex | Benfleet, East of England, SS7 5RG | Scale 4 Point 8-9 | Admin Assistant
+employer: Jotmans Hall Primary School
+closing_date: 2026-10-28T12:00:00+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 192d45a19c278f2ba5b5b1de267e19f00a0c9f88a6339c307a448d1e0aa4f1b4
+source: Teaching Vacancies
+source_job_id: admin-assistant-jotmans-hall-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-jotmans-hall-primary-school
 ---
 
 ---
@@ -122,14 +137,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrative-a
 ## HARD_PASS
 
 - [Deputy Head of Year (Student Services)](https://teaching-vacancies.service.gov.uk/jobs/deputy-head-of-year-student-services) — Out-of-scope occupation: deputy head.
-- [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-colne-community-school) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-88731512-4f32-446c-b927-3ff9b578aae5) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-rayleigh-schools-trust) — Insufficient admin/service evidence.
 - [HEARTS Community Ambassador](https://teaching-vacancies.service.gov.uk/jobs/hearts-community-ambassador) — Insufficient admin/service evidence.
-- [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-mossbourne-port-side-academy) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-discovery-educational-trust-brentwood-not-recorded) — Insufficient admin/service evidence.
 - [SEND Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/send-administration-assistant-colne-community-school) — Insufficient admin/service evidence.
 - [Senior HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-350f15ec-6ca7-47eb-90e2-1629046cf441) — Insufficient admin/service evidence.
+- [Sixth Form Manager](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-manager-harris-academy-wickford) — Manager title salary ceiling £37,335 is not below £28,000.
 - [STUDENT ATTENDANCE AND INCLUSION MANAGER](https://teaching-vacancies.service.gov.uk/jobs/student-attendance-and-inclusion-manager-503e1cdc-f886-497b-8b9a-ca3c1f6b7938) — Manager title without salary evidence below £28,000.
 - [Support Manager](https://teaching-vacancies.service.gov.uk/jobs/support-manager-little-thurrock-primary-school) — Manager title salary ceiling £33,495 is not below £28,000.
 - [Trust Data and MIS Analyst](https://teaching-vacancies.service.gov.uk/jobs/trust-data-and-mis-analyst) — Insufficient admin/service evidence.

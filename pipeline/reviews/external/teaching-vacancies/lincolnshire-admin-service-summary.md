@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-10-18
-review_fingerprint: a448ee1d1126d03c589dd039153fc6b3c361a596b5b490c677a2f3c91eef2131
-routing_manifest_sha256: 1bb154e7c14e0bb43ab94c1a3d54011da7c18cd33c418df61de6d7f2a9c876d7
+review_date: 2026-10-19
+review_fingerprint: dc330986b04c236f228b82c877d1986b1e5852263523d7d613a9210896ec1b7f
+routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
-- Selected: 9
+- Records: 16
+- Selected: 7
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 7
@@ -49,21 +49,6 @@ factual_fingerprint: 5dd67c09618150fea2702956c2c4e411399b62229334514ed96ab47bc32
 source: Teaching Vacancies
 source_job_id: attendance-officer-temporary-7764
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-temporary-7764
----
-
----
-action: 
-SELECTED | Lincolnshire | Boston, East Midlands, PE20 1JS | £30,023.00 - £30,023.00 Annually (FTE) NJC13 £30,023 FTE (£27,723.95 pro rata) | Data & Exams Officer
-employer: Thomas Middlecott Academy
-closing_date: 2026-10-18T23:59:00+01:00
-reason: Clear admin/service title: exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e21874fdc87a0270efaa642a3500822a10a3d8637c25902f0ddd3b573aae7298
-source: Teaching Vacancies
-source_job_id: data-exams-officer-thomas-middlecott-academy-boston-lincolnshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-exams-officer-thomas-middlecott-academy-boston-lincolnshire
 ---
 
 ---
@@ -113,21 +98,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-as
 
 ---
 action: 
-SELECTED | Lincolnshire | Boston, East Midlands, PE22 9HR | £22,958.49 - £24,076.23 Annually (Actual) Associate Pay Scale - G4 | School Administrator
-employer: Old Leake Primary Academy
-closing_date: 2026-10-18T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6e82f768b86413e338dfad3ec96a81047c207b2fa43ccc4fd76a77a6e939ce0b
-source: Teaching Vacancies
-source_job_id: school-administrator-old-leake-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-old-leake-primary-academy
----
-
----
-action: 
 SELECTED | Lincolnshire | Stamford, East Midlands, PE9 1HE | £19,129.00 - £25,372.00 Annually (Actual) | SEND Administrator
 employer: Stamford Welland Academy
 closing_date: 2026-11-06T12:00:00+00:00
@@ -143,17 +113,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-st
 
 ---
 action: 
-SELECTED | Lincolnshire | Lincoln, LN5 8RE | PPS3 £25,614 per annum, pro rata £1,448 per annum | Sports Centre Receptionist
-employer: The Priory Federation Of Academies
-closing_date: 2026-10-18T23:59:00+01:00
-reason: Clear admin/service title: receptionist
+SELECTED | Lincolnshire | Skegness, East Midlands, PE25 2QX | £26,289.77 - £28,991.55 Annually (Actual) GAT 6 point 12 - 18 | Senior Administrator
+employer: Skegness Junior Academy
+closing_date: 2026-10-22T12:00:00+01:00
+reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: e32a0a7cabeab3fd0768694df4df2e31ebfec30897c447a62f5e9039059891a2
+factual_fingerprint: 021dba1c72a6f1fdaafcd2f1c8eeb0757aad1dd8276d8b38ee43503c20010742
 source: Teaching Vacancies
-source_job_id: sports-centre-receptionist-the-priory-federation-of-academies
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sports-centre-receptionist-the-priory-federation-of-academies
+source_job_id: senior-administrator-efe4655b-7f8f-45d9-9924-c3576ef7b21e
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-efe4655b-7f8f-45d9-9924-c3576ef7b21e
 ---
 
 ## POSS — choose SELECT or EXCLUDE

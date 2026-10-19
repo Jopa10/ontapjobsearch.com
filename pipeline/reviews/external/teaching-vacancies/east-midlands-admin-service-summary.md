@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-10-18
-review_fingerprint: 5b1b191eaef417f695660f45a000849f75824073074d0c8b04be3ba1768f12d5
-routing_manifest_sha256: 1bb154e7c14e0bb43ab94c1a3d54011da7c18cd33c418df61de6d7f2a9c876d7
+review_date: 2026-10-19
+review_fingerprint: 75419ee6365470cdbefd2f6152f314e8d8e377c0b2fabe9b37e7bf96715e41d5
+routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 11
 - Selected: 4
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -38,17 +38,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-160fe
 
 ---
 action: 
-SELECTED | East Midlands | Derby, East Midlands, DE21 4ET | NJC Grade 5 to 10 £22,901 - £24,789 | Administration Assistant (Fixed Term)
-employer: Da Vinci Academy
-closing_date: 2026-10-19T09:00:00+01:00
-reason: Clear admin/service title: administration assistant
+SELECTED | East Midlands | Derby, East Midlands, DE3 9LL | £17,198.00 - £17,466.00 Annually (Actual) NJC 7-8 | Admin Assistant (Student Services & Reception Support)
+employer: Murray Park Community School
+closing_date: 2026-11-09T09:00:00+00:00
+reason: Clear admin/service title: admin assistant
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: 44ecfe9a214f1d667a4aef72d21e9a4b8f666615603a948b8380e45dcc02e243
+factual_fingerprint: c68185b03a6c1f436f65074c67abbe7083beebf9b20406398b8f6fbe1dce9afd
 source: Teaching Vacancies
-source_job_id: administration-assistant-fixed-term-da-vinci-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-fixed-term-da-vinci-academy
+source_job_id: admin-assistant-student-services-reception-support-murray-park-community-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-student-services-reception-support-murray-park-community-school
 ---
 
 ---
@@ -134,7 +134,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-and-executive-lead
 
 ## HARD_PASS
 
-- [Human Resources Advisor](https://teaching-vacancies.service.gov.uk/jobs/human-resources-advisor-st-ralph-sherwin-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [Management Information System (MIS) Administrator & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/management-information-system-mis-administrator-cover-manager-85783a14-bff5-44f3-9d32-6556a2a69f08) — Manager title salary ceiling £32,488 is not below £28,000.
 - [Office Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/office-administration-assistant-1b11a0b9-fc3b-402e-84f1-2c7c938587f8) — Insufficient admin/service evidence.
 - [Peripatetic Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/peripatetic-administration-officer) — Insufficient admin/service evidence.

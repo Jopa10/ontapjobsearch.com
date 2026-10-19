@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-10-18
-review_fingerprint: 6e8050db906848126fdf06df2a07d53ba3f1ba5944a339c884bbc03ea20923b8
-routing_manifest_sha256: 1bb154e7c14e0bb43ab94c1a3d54011da7c18cd33c418df61de6d7f2a9c876d7
+review_date: 2026-10-19
+review_fingerprint: c9afdd8bcd8019f7a5494fdfc43704be948d6f3f8ae7791c258cf1d0de2a01ad
+routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 3
-- POSS awaiting decision: 0
+- Records: 11
+- Selected: 4
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: b16cdc0ec44185ae446003ac6a0b2ba6e171e5cbb2e19c8822d602fd06b
 source: Teaching Vacancies
 source_job_id: inclusion-administrator-1d8857c6-4658-46bb-9bcc-5432cf1ee5cd
 source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrator-1d8857c6-4658-46bb-9bcc-5432cf1ee5cd
+---
+
+---
+action: 
+SELECTED | Oxfordshire | Oxford, OX4 4SF | £30,025.00 - £32,046.00 Annually (FTE) 0.4 FTE Actual Salary: £12,010 - £12,818 | Procurement Administrator *Hybrid Role*
+employer: River Learning Trust
+closing_date: 2026-11-09T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 28971049b20848973643a4f7d28cb50a80ac099d7e59600eea846555ba8d648a
+source: Teaching Vacancies
+source_job_id: procurement-administrator-hybrid-role-river-learning-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/procurement-administrator-hybrid-role-river-learning-trust
 ---
 
 ---
@@ -68,7 +83,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-admi
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Oxfordshire | Carterton, South East, OX18 3AD | £21,235.00 - £25,147.00 Annually (Actual) Grade 9-10 depending on experience | School Business Manager
+employer: Carterton Primary School
+closing_date: 2026-11-15T23:59:00+00:00
+reason: Manager title below £28,000 salary ceiling requires review
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4aa41d106c5ee3f85c35b3a5c9b844102491af0d70c4c6c9aa77849be5da574c
+source: Teaching Vacancies
+source_job_id: school-business-manager-carterton-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-carterton-primary-school
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -81,6 +109,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-admi
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-edward-feild-primary-school) — Manager title salary ceiling £39,482 is not below £28,000.
 - [School Premises and Compliance Manager](https://teaching-vacancies.service.gov.uk/jobs/school-premises-and-compliance-manager) — Manager title salary ceiling £36,050 is not below £28,000.
 - [SEN Administrator](https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-kings-sutton-primary-academy) — Missing salary or pay scale.
+- [Trust Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-management-accountant-ridgeway-education-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

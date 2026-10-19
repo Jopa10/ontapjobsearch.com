@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-10-18
+review_date: 2026-10-19
 review_fingerprint: 201cbf64d5962dc81e55d176f78e8414a9dcd44e0b79f5313b87edec7b622e29
-routing_manifest_sha256: 1bb154e7c14e0bb43ab94c1a3d54011da7c18cd33c418df61de6d7f2a9c876d7
+routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 6
 - Selected: 1
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -76,8 +76,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 
 - [Behaviour Mentor](https://teaching-vacancies.service.gov.uk/jobs/behaviour-mentor-98013a7b-abcb-49b9-bc24-0e68d6997ce9) — Insufficient admin/service evidence.
 - [Minibus Driver](https://teaching-vacancies.service.gov.uk/jobs/minibus-driver-104babdb-863b-4900-8121-25129beb540f) — Insufficient admin/service evidence.
-- [People Lead](https://teaching-vacancies.service.gov.uk/jobs/people-lead-1946fc8a-54b9-4506-808b-a157f27767c8) — Insufficient admin/service evidence.
-- [Senior Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-officer-cornwall-education-learning-trust) — Insufficient admin/service evidence.
+- [Nursery Assistant](https://teaching-vacancies.service.gov.uk/jobs/nursery-assistant-aspire-academy-trust-st-austell-not-recorded) — Out-of-scope occupation: nurse.
 
 ## Safety boundary
 

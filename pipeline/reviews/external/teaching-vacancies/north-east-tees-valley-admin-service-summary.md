@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East - Tees Valley
 
-review_date: 2026-10-18
-review_fingerprint: 7508409455c0cfbc2ac80c45288b2ddeffb9d7aa652ba214c958e94269df61e3
-routing_manifest_sha256: 1bb154e7c14e0bb43ab94c1a3d54011da7c18cd33c418df61de6d7f2a9c876d7
+review_date: 2026-10-19
+review_fingerprint: 0e94c73da36d299bd77012c6d3ae862f276af799be473f45924fdad7141065ad
+routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
 ontap_region: North East - Tees Valley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 3
+- Records: 4
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
@@ -34,21 +34,6 @@ factual_fingerprint: 7ad8e6e3614b561f46333ed4d73cb21cc0768af42eb9390089bf7514e0d
 source: Teaching Vacancies
 source_job_id: administration-assistant-bewley-primary-school-billingham-cleveland
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-bewley-primary-school-billingham-cleveland
----
-
----
-action: 
-SELECTED | North East - Tees Valley | Stockton-on-Tees, North East, TS17 9DE | £25,185 - £25,583 pro rata (actual salary: £8,821 - £8,961) | Business Support Assistant
-employer: St Patrick's Catholic College, A Voluntary Catholic Academy
-closing_date: 2026-10-19T09:00:00+01:00
-reason: Clear admin/service title: business support assistant
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 6e2da1be2b6002e408999a56bf5b3a87473e83d03815f8cc875c0ce8fad9859a
-source: Teaching Vacancies
-source_job_id: business-support-assistant-st-patrick-s-catholic-college-a-voluntary-catholic-academy-stockton-on-tees-teesside
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-assistant-st-patrick-s-catholic-college-a-voluntary-catholic-academy-stockton-on-tees-teesside
 ---
 
 ---

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-10-18
+review_date: 2026-10-19
 review_fingerprint: 406dbca608b3d640d09a4f3330e7f24e35a0dda284b0290194453b0c4cafa143
-routing_manifest_sha256: 1bb154e7c14e0bb43ab94c1a3d54011da7c18cd33c418df61de6d7f2a9c876d7
+routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
+- Records: 16
 - Selected: 6
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 8
 
 ## SELECTED
 
@@ -151,14 +151,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/people-support-assist
 
 - [Business Lead](https://teaching-vacancies.service.gov.uk/jobs/business-lead-st-gregory-s-catholic-primary-school-south-shields-south-shields-tyne-and-wear) — Insufficient admin/service evidence.
 - [Business Lead](https://teaching-vacancies.service.gov.uk/jobs/business-lead-st-leonard-s-catholic-primary-school-silksworth-sunderland) — Insufficient admin/service evidence.
-- [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-st-anthony-s-girls-catholic-academy-sunderland-tyne-and-wear) — Manager title salary ceiling £42,123 is not below £28,000.
-- [Exams Assistant](https://teaching-vacancies.service.gov.uk/jobs/exams-assistant-park-view-school) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-bishop-hogarth-catholic-education-trust) — Insufficient admin/service evidence.
-- [Head of Governance, Risk & Compliance](https://teaching-vacancies.service.gov.uk/jobs/head-of-governance-risk-compliance) — Insufficient admin/service evidence.
 - [Head of People](https://teaching-vacancies.service.gov.uk/jobs/head-of-people-northern-lights-learning-trust) — Insufficient admin/service evidence.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-the-ascent-academies-trust) — Insufficient admin/service evidence.
 - [HR Support Staff](https://teaching-vacancies.service.gov.uk/jobs/hr-support-staff) — Insufficient admin/service evidence.
 - [People Officer](https://teaching-vacancies.service.gov.uk/jobs/people-officer-northern-lights-learning-trust) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-grange-primary-school-hartlepool) — Manager title without salary evidence below £28,000.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-10-18
-review_fingerprint: 167cb932b0c69ce9b85b57c6071121099f8d3f46366feb66de05a66d28c93c5a
-routing_manifest_sha256: 1bb154e7c14e0bb43ab94c1a3d54011da7c18cd33c418df61de6d7f2a9c876d7
+review_date: 2026-10-19
+review_fingerprint: d5947b486cadf1034ebc5e99a4a86b3b97619a090c148575599dafc3de44d459
+routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 8
 - Selected: 4
-- POSS awaiting decision: 2
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 3
 
 ## SELECTED
 
@@ -85,21 +85,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admi
 
 ---
 action: 
-POSS | West Midlands - Coventry & Warwickshire | Nuneaton, West Midlands, CV11 6BH | £27,266- £29,783 | Administration Officer - Learning Support
-employer: North Warwickshire and South Leicestershire College
-closing_date: 2026-10-18T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: d55e16b3de56c530f76caaced768669cfa71e1bc6b38bb03eeb109f61966c8d2
-source: Teaching Vacancies
-source_job_id: administration-officer-learning-support
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-learning-support
----
-
----
-action: 
 POSS | West Midlands - Coventry & Warwickshire | Coventry, CV1 5LY | Grade 4 - £26,847 to £30,515 per annum | MAT Compliance Officer
 employer: Sidney Stringer Multi Academy Trust
 closing_date: 2026-10-23T11:59:59+01:00
@@ -120,10 +105,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/mat-compliance-office
 ## HARD_PASS
 
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-etone-college) — Insufficient admin/service evidence.
-- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-5cc43304-a3a7-4b85-bf77-5aec67ba4d85) — Manager title salary ceiling £54,143 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-john-henry-newman-catholic-school) — Manager title salary ceiling £62,348 is not below £28,000.
 - [Senior Leisure & Lettings Coordinator](https://teaching-vacancies.service.gov.uk/jobs/senior-leisure-lettings-coordinator-kenilworth-multi-academy-trust) — Insufficient admin/service evidence.
-- [Technical Services Team Assistant](https://teaching-vacancies.service.gov.uk/jobs/technical-services-team-assistant-finham-park-school) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Shropshire
 
-review_date: 2026-10-18
-review_fingerprint: 6aeb899d762f61fee6a07607f0ed1d0e4b44cf444a4c6c0f4a2c3dfc936b9455
-routing_manifest_sha256: 1bb154e7c14e0bb43ab94c1a3d54011da7c18cd33c418df61de6d7f2a9c876d7
+review_date: 2026-10-19
+review_fingerprint: 11f9a4bb2d589453dbc4774f07d4fb8beb64ec5de5a5003b0e4cccc2908fc722
+routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
 ontap_region: Shropshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 4
+- Records: 8
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -68,6 +68,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
+SELECTED | Shropshire | Church Stretton, West Midlands, SY6 6EX | £27,709 - £29071 pro rata | Data & Exams Officer
+employer: Church Stretton School
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Clear admin/service title: exams officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8ea334d58bb05f6ff5d927d31faa15baaac1a1984d7bd1e1765fd4e03ae3973f
+source: Teaching Vacancies
+source_job_id: data-exams-officer-church-stretton-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-exams-officer-church-stretton-school
+---
+
+---
+action: 
 SELECTED | Shropshire | Telford, West Midlands, TF3 1LG | £17,488.00 - £17,722.00 Annually (Actual) Term time plus PD Days | Reception Administrator
 employer: Windmill Primary School
 closing_date: 2026-11-04T23:59:00+00:00
@@ -92,6 +107,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-administrat
 ## HARD_PASS
 
 - [Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-radbrook-primary-school) — Insufficient admin/service evidence.
+- [PA/Head of Administration](https://teaching-vacancies.service.gov.uk/jobs/pa-head-of-administration) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-beech-grove-primary-school) — Manager title salary ceiling £37,563 is not below £28,000.
 
 ## Safety boundary

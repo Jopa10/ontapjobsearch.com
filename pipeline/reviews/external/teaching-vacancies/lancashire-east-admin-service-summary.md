@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - East
 
-review_date: 2026-10-18
-review_fingerprint: 698aa078e452f3e9a370b6865d27cf9a98509a18b4c7459d1cde11cebd14eac8
-routing_manifest_sha256: 1bb154e7c14e0bb43ab94c1a3d54011da7c18cd33c418df61de6d7f2a9c876d7
+review_date: 2026-10-19
+review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
 ontap_region: Lancashire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,45 +13,19 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 1
-- POSS awaiting decision: 1
+- Records: 2
+- Selected: 0
+- POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 2
 
 ## SELECTED
 
----
-action: 
-SELECTED | Lancashire - East | Blackburn, North West, BB2 2JR | NJC pay scale: NJC5 – NJC9, £26,427-£28,153 pro rata. Actual Salary- £23,865 - £25,424. | Office and Admissions Administrator
-employer: St Wilfrid's Church of England Academy
-closing_date: 2026-10-19T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 6eede7fac909e181378c5f5d59910b8dbe39fc3a2c644690ae8c4b94e3350ac1
-source: Teaching Vacancies
-source_job_id: office-and-admissions-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-and-admissions-administrator
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: 
-POSS | Lancashire - East | Nelson, North West, BB9 0PR | £29,130.00 Annually (Actual) | Operations Officer
-employer: Marsden Heights Community College
-closing_date: 2026-10-18T23:59:00+01:00
-reason: Borderline school administration title: operations officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1310e15883e093a301dd8ababc47a4358c873c9843754b3fb4c5882861967176
-source: Teaching Vacancies
-source_job_id: operations-officer-marsden-heights-community-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-marsden-heights-community-college
----
+- None.
 
 ## EXCLUDED BY REVIEW
 
@@ -59,7 +33,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-ma
 
 ## HARD_PASS
 
-- [Examinations and Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/examinations-and-administration-officer-our-lady-and-st-john-rc-high-school-a-voluntary-academy) — Insufficient admin/service evidence.
+- [Data and Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-examinations-manager-all-saints-roman-catholic-high-school-a-voluntary-academy) — Manager title salary ceiling £32,061 is not below £28,000.
 - [HR Operations & Systems Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-operations-systems-advisor) — Insufficient admin/service evidence.
 
 ## Safety boundary
