@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-part-time-admin-assistant-oxhey-wood-primary-school",
-    "title": "Part-Time Admin Assistant",
-    "company": "Oxhey Wood Primary School",
-    "location": "Watford",
-    "region": "Hertfordshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£27,180.00 Annually (FTE) PART TIME (MORNINGS), TERM TIME ONLY",
-    "work_pattern": "",
-    "posted_date": "2026-10-02",
-    "closing_date": "2026-10-18",
-    "closing_datetime": "2026-10-18T23:59:00+01:00",
-    "summary": "Part-Time Admin Assistant with Oxhey Wood Primary School in Watford. ['part time']; £27,180.00 Annually (FTE) PART TIME (MORNINGS), TERM TIME ONLY.",
-    "description": "Oxhey Wood Primary School is recruiting for this vacancy in Watford.\n\nThe advertised position is Part-Time Admin Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £27,180.00 Annually (FTE) PART TIME (MORNINGS), TERM TIME ONLY.\n\nThe stated application deadline is 2026-10-18T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/part-time-admin-assistant-oxhey-wood-primary-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Oxhey Wood Primary School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-headteacher-s-personal-assistant-chancellor-s-school",
     "title": "Headteacher's Personal Assistant",
     "company": "Chancellor's School",
@@ -1706,6 +1678,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "23643_224502262",
+    "title": "Care Coordinator",
+    "company": "Brayson Consulting Ltd - Agency - Permanent",
+    "location": "Hertfordshire",
+    "region": "Hertfordshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "27000",
+    "salary_max": "30000",
+    "salary_text": "£27000 - £30000 per year",
+    "posted_date": "2026-10-19",
+    "description": "CARE COORDINATOR - EAST BARNET - Salary at £27000 - £30000 per year\n\nFull driving licence and own car essential. No Sponsorship available.\n\nCare Coordinator need to join a well established domiciliary and live in care branch that is part of a franchised group. The Care Coordinators role is assisting the Manager in organizing the day-to-day running of the service provided through the policies, training, supervision and guidance provided by the company. The Care Coordinator's responsibility is to support the Manager in achieving the company's Quality Assurance Policy and to assist in marketing services provided by the company and liasing with prospective clients, health professionals and other agencies that provide training and development.\n\nDuties & Responsibilities :\n- Providing detailed work schedules for the Carers and providing written and verbal instructions to them\n- maintain accurate files and records or clients and care workers\n- be conversant with the Care Standards Act 2008 for Domiciliary Care Regulations (National Minimum Standards) and legislation governing the service and other regulations concerning the provision of both domiciliary and residential care services\n- be aware to adhere to the Quality Assurance Policy of the of the Company in the provision of services to the clients\n- to ensure the telephones are promptly answered and people are spoken to in a polite and respectful manner\n- to always maintain the utmost confidentiality and carry out the Company's Confidentiality Policy\n- to monitor the the service of the Carers in the field and ensure it meets the quality standards of the Company and CQC requirements\n- to keep the Manager informed of any issues / emergencies\n- to visit clients and create reviews of the written Care Plans, examine written records of medication administration, finance and daily logs kept by staff as required by the Manager\n- to report any financial issues that impact on the overall budget to the Manager\n- to assist the Manager with the recruitment, induction, training and supervision of staff\n- at the direction of the Manager, carry out spot checks and supervision reviews of staff performance\n- to assist the Manager in holding team meetings for Care Workers\n- to participate in an out of hours on call roster (field phone calls)\n- to be familiar and to uphold all Health and Safety regulations as per the Health & Safety Work Act 1974 and to inform the Manager of any breaches and carry out risk assessments as per direction of the Manager\n\nSkills\n- Experience in Care Work and care provision as well as office administration\n- Willingness to adhere to health and safety standards\n- Functional literacy and numeracy skills\n- Good presentation and communication skills\n- Understanding of legislation concerning care provision\n- Strong Microsoft Office suite and computer literacy\n- Dedication and commitment\n- Abililty to deal with emergencies and remain calm and display empathy\n- Flexible and reliable\n- Outstanding communication and interpersonal skills\n- Strong ethics\n- Full driving licence\n\nExperience needed:\n- NQV2 or 3\n- experience as a supervisor or senior care worker or other roles within a care providing organisation\n\nFull driving licence and own car essential.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?mDcEDJmYTbwnaZ8jYAJFSMpVfC5cwFiet",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Brayson Consulting Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "23643_225631874",
     "title": "Order Processing and Customer Support Coordinator - SAP",
     "company": "Think Specialist Recruitment - Agency - Permanent",
@@ -2122,9 +2119,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9367-26-0972",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2144,9 +2138,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9824-26-0914",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2166,9 +2157,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9367-26-0955",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2188,31 +2176,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2303",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5627192",
-    "source": "NHS Jobs",
-    "title": "Part Time Receptionist",
-    "company": "Kings Langley Surgery",
-    "advertiser_name": "Kings Langley Surgery",
-    "location": "Kings Langley, WD4 8ET, Hemel Hempstead, HP3 0HG",
-    "region": "Hertfordshire",
-    "salary": "£12.80",
-    "employment_type": "Permanent",
-    "posted_date": "2026-09-28T14:02:19.568810087",
-    "closing_date": "2026-10-18",
-    "description": "2 part-time Receptionists required for a busy, friendly GP surgery in Kings Langley and Bovingdon, Herts . Receptionist 1: (29.25 hours per week) Mon: AM: 7:45-13:45 (6hrs) PM: 13:30-18:45 (5.25hrs ) Tues: AM: 7:45-13:45 (6hrs) Wed: AM: 7:45-13:45 (6hrs) Fri PM: 13:30-18:45 (6hrs) Receptionist 2: (23.25 hours per week) Wed: PM: 13:30-18:45 (5.25hrs) Thurs: PM: 13:30-18:45 (6hrs) Flexible cover for holidays and sickness is required. Main duties include answering telephones, completing Elite triage forms for those who are unable to do it online, face to face patient contact, appointment & general enquiries and signposting patients whilst providing an effective and friendly front of house service to our patients. You will also learn the administrative support role for our triage system & work alongside the GPs on a rota basis the reception & administrative team share. Experience desirable but not essential for the right candidate, computer skills essential but full training will be given in our specific systems. Salary: £12.80 Hours: See below Mon: AM: 7:45 13:45 (6hrs) PM: 13:30 18:45 (5.25hrs ) Tues: AM: 7:45 13:45 (6hrs) Wed: AM: 7:45 13:45 (6hrs) Fri PM: 13:30 18:45 (6hrs) Wed: PM: 13:30 18:45 (5.25hrs) Thurs: AM: 7:45 13:45 (6hrs) Job summary Receptionist Receive, assist and direct patients in accessing the appropriate service or healthcare professional in a courteous, efficient and effective way. Provide general assistance to the practice team and project a positive and friendly image to patients and other visitors, either in person or via the telephone Job responsibilities: Administration To have a thorough knowledge of all practice procedures To work in accordance with protocols Scan and photocopy as required Front of house reception greeting patients consulting with members of practice team Handing correspondence to patients, diligently checking their identity Be able to cover other shifts for annual & sick leave Ensuring at the end of all clinics that the waiting area is tidy To monitor the running times of the clinicians and advise patients if the clinic is running late Ensure the reception area is tidy at all times Good knowledge & respect for confidentiality of patients information - to be adhered to at all times Ensure visitors sign the visitors book Ad hoc duties as agreed with the practice manager Ensure that the rooms and computers are all switched on and ready for the GP's and nurses at the start of the day Ensure that the TV screen and check in service is ready for patients to use Appointments Direct patients to relevant resources for triage submissions Book Nursing team appointments Cancellation/changes of appointments Computer Computer data entry into medical records Process repeat prescription requests as required in accordance with practice guidelines. Ad hoc duties Complete E-consult forms on behalf of patients who are unable to do so themselves General Open post and allocate as necessary Action daily tasks list Phone patients as and when needed Ensure forms are always available e.g. registration, change of address, etc Coding onto patient records correctly if required Making sure information folders are kept up to date e.g. RESPECT folder Booking ambulances Liaison with District Nurses Liaison and Health Visitors Scanning Other Tasks Make sure rooms are tidy and computers switched off at end of day Ensure building security - have thorough knowledge of doors, windows and alarm system. Any other tasks allocated by managers Confidentiality Patients entrust us with, or allow us to gather, sensitive information in relation to their health and other matters. They do so in confidence and have the right to expect that staff will respect their privacy and act appropriately In the performance of the duties outlined in this job description, the post-holder may have access to confidential information relating to patients and their carers, practice staff and other healthcare workers. They may also have access to information relating to the practice as a business organisation. All such information from any source is to be regarded as strictly confidential Information relating to patients, carers, colleagues, other healthcare workers or the business of the practice may only be divulged to authorised persons in accordance with the practice policies and procedures relating to confidentiality and the protection of personal and sensitive data Health & safety The post-holder will assist in promoting and maintaining their own and others' health, safety and security as defined in the practice health & safety policy, the practice health & safety manual, and the practice infection control policy and published procedures. This will include: Using personal security systems within the workplace according to practice guidelines Identifying the risks involved in work activities and undertaking such activities in a way that manages those risks Making effective use of training to update knowledge and skills Using appropriate infection control procedures, maintaining work areas in a tidy and safe way and free from hazards Actively reporting of health and safety hazards and infection hazards immediately when recognised Keeping own work areas and patient areas generally clean, assisting in the maintenance of general standards of cleanliness consistent with the scope of the job holder's role Undertaking periodic infection control online training Reporting potential risks identified Equality and diversity The post-holder will support the equality, diversity and rights of patients, carers and colleagues, to include: Acting in a way that recognizes the importance of people's rights, interpreting them in a way that is consistent with practice procedures and policies, and current legislation Respecting the privacy, dignity, needs and beliefs of patients, carers and colleagues Behaving in a manner which is welcoming to and of the individual, is non-judgmental and respects their circumstances, feelings priorities and rights. Personal & Professional Development The post-holder will participate in any training programme implemented by the practice as part of this employment, such training to include: Participation in individual performance review, including taking responsibility for maintaining a record of own personal and professional development Taking responsibility for own development, learning and performance and demonstrating skills and activities to others who are undertaking similar work Quality The post-holder will strive to maintain quality within the practice, and will: Alert other team members to issues of quality and risk Assess own performance and take accountability for own actions, either directly or under supervision Contribute to the effectiveness of the team by reflecting on own and team activities and making suggestions on ways to improve and enhance the team's performance Work effectively with individuals in other agencies to meet patients needs Effectively manage own time, workload and resources Communication The post-holder should recognize the importance of effective communication within the team and will strive to: Communicate effectively with other team members Communicate effectively with patients and carers Recognize people's diversity & needs for alternative methods of communication and respond accordingly Contribution to the implementation of services The post-holder will: Apply practice policies, standards and guidance Discuss with other members of the team how the policies, standards and guidelines will affect own work Participate in reviews & audits where appropriate",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0644-26-0008",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0644-26-0008",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2232,9 +2195,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0072",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2254,9 +2214,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2862-26-0015",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2276,9 +2233,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1208-26-0006",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2298,9 +2252,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2171",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

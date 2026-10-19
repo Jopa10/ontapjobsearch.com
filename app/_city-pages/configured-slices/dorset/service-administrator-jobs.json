@@ -931,6 +931,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "107765584",
+    "title": "Trust Administrator",
+    "company": "Aspire Jobs Limited - Agency - Permanent",
+    "location": "Beaminster",
+    "region": "Dorset",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "32000",
+    "salary_max": "32000",
+    "salary_text": "£32000 per year",
+    "posted_date": "2026-08-24",
+    "description": "Location: Beaminster\n\nSalary £27k-£32k DOE (will pay more for experienced Trust administrator)\n\nHours: 9am-5.30pm Mon-Thurs, 9am-5pm Fri\n\nBenefits: 25 days hols + Bank hols (including 3 for Christmas shutdown), birthday off, no onsite parking but provide car parking permit for local car park, pension, medical insurance after probation, social events during the year\n\nAspire Jobs are delighted to be working click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Yic9job4bS%2bJSrLeOc2VEQJcTfsaVrBvc",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Aspire Jobs Limited",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "23643_225635774",
     "title": "Purchasing Assistant",
     "company": "Rubicon Recruitment - Agency - Permanent",
@@ -1072,9 +1097,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0063-26-0021",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1094,9 +1116,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-1109",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1116,9 +1135,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/L0014-26-1920",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1138,9 +1154,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-1060",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1160,9 +1173,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1525-26-0017",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1182,9 +1192,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-1098",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1204,9 +1211,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9153-26-0877",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1226,9 +1230,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2314-26-0016",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1248,9 +1249,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-1062",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1270,9 +1268,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-1054",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]
