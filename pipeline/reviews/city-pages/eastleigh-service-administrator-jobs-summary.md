@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 8
 - automatic review: 101
-- automatic exclude: 54
+- automatic exclude: 52
 - effective include: 8
 - effective review: 101
-- effective exclude: 54
+- effective exclude: 52
 
 ## INCLUDE (8)
 
@@ -1334,7 +1334,7 @@ job_id: jobg8-23643_225665585
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
-## EXCLUDE (54)
+## EXCLUDE (52)
 
 ---
 action: 
@@ -1544,18 +1544,6 @@ reason: The stated workplace belongs outside the approved Eastleigh employment m
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Business Support Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Portsmouth, PO2 0TA
-source: NHS Jobs
-job_id: nhs-5643304
-reason: The stated workplace belongs outside the approved Eastleigh employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Business Support Assistant
 company: University Hospital Southampton NHS Trust
 location: Southampton, SO16 7NP
@@ -1729,18 +1717,6 @@ company: Mulberry Recruitment - Agency - Permanent
 location: Farnborough
 source: JobG8
 job_id: jobg8-23643_225712981
-reason: The stated workplace belongs outside the approved Eastleigh employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Locality Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO14 0JY
-source: NHS Jobs
-job_id: nhs-5642963
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---
 

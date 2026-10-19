@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 110
+- automatic review: 109
 - automatic exclude: 0
 - effective include: 5
-- effective review: 110
+- effective review: 109
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-23643_225694409
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
-## REVIEW (110)
+## REVIEW (109)
 
 ---
 action: 
@@ -275,6 +275,18 @@ company: Mission 4 Recruitment - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-23643_225692179
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Coordinator
+company: Brayson Consulting Ltd - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-23643_224502262
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -863,30 +875,6 @@ company: HR GO Recruitment - Agency - Contract
 location: Bishop'S Stortford
 source: JobG8
 job_id: jobg8-23643_225728945
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part Time Receptionist
-company: Kings Langley Surgery
-location: Kings Langley, WD4 8ET, Hemel Hempstead, HP3 0HG
-source: NHS Jobs
-job_id: nhs-5627192
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part-Time Admin Assistant
-company: Oxhey Wood Primary School
-location: Watford
-source: Teaching Vacancies
-job_id: teaching-vacancies-part-time-admin-assistant-oxhey-wood-primary-school
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

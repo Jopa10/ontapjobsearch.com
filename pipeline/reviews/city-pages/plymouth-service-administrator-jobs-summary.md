@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 58
+- automatic review: 60
 - automatic exclude: 0
 - effective include: 6
-- effective review: 58
+- effective review: 60
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225736541
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (58)
+## REVIEW (60)
 
 ---
 action: 
@@ -119,6 +119,18 @@ company: NHS Professionals - Company - Temporary
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225672975
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin Assistant
+company: Switch - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-107719278
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -383,6 +395,18 @@ company: Build Recruitment - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225691719
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Fleet Distribution Administrator
+company: Switch - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-107939734
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

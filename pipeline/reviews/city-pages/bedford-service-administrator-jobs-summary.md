@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 34
+- automatic review: 32
 - automatic exclude: 0
 - effective include: 4
-- effective review: 34
+- effective review: 32
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225724509
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (34)
+## REVIEW (32)
 
 ---
 action: 
@@ -143,30 +143,6 @@ company: Vestry James Ltd - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_224485209
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant - salary negotiable; well-established independent firm
-company: Reed - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-2064411
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant - salary negotiable; well-established independent firm
-company: Reed - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-2070624
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

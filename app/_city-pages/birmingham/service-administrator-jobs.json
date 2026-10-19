@@ -325,34 +325,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "teaching-vacancies-business-support-assistant-087bd7f2-00c8-4216-9f63-98fee8083d04",
-    "title": "Business Support Assistant",
-    "company": "Starbank School",
-    "location": "Birmingham",
-    "region": "West Midlands - Birmingham & Solihull",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£26,847.00 to £27,274.00 per annum (pro rata £9,601.68 - £9,754.39 per annum)",
-    "work_pattern": "",
-    "posted_date": "2026-10-07",
-    "closing_date": "2026-10-18",
-    "closing_datetime": "2026-10-18T23:59:00+01:00",
-    "summary": "Business Support Assistant with Starbank School in Birmingham. ['part time']; £26,847.00 to £27,274.00 per annum (pro rata £9,601.68 - £9,754.39 per annum).",
-    "description": "Starbank School is recruiting for this vacancy in Birmingham.\n\nThe advertised position is Business Support Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £26,847.00 to £27,274.00 per annum (pro rata £9,601.68 - £9,754.39 per annum).\n\nThe stated application deadline is 2026-10-18T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/business-support-assistant-087bd7f2-00c8-4216-9f63-98fee8083d04?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Starbank School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "23643_225632294",
     "title": "Business Support Coordinator (Part time)",
     "company": "Four Squared Recruitment Ltd - Agency - Permanent",
@@ -1768,34 +1740,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "teaching-vacancies-receptionist-43f0e0db-e751-4263-b554-d231b0475340",
-    "title": "Receptionist",
-    "company": "Q3 Academy Great Barr",
-    "location": "Birmingham",
-    "region": "West Midlands - Birmingham & Solihull",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£25,614.00 - £26,016.00 Annually (Actual) Grade 2 SCP 3-4 (£25614 - £26016 FTE) | 52.14 Weeks Per year",
-    "work_pattern": "",
-    "posted_date": "2026-10-01",
-    "closing_date": "2026-10-18",
-    "closing_datetime": "2026-10-18T23:59:00+01:00",
-    "summary": "Receptionist with Q3 Academy Great Barr in Birmingham. ['full time']; £25,614.00 - £26,016.00 Annually (Actual) Grade 2 SCP 3-4 (£25614 - £26016 FTE) | 52.14 Weeks Per year.",
-    "description": "Q3 Academy Great Barr is recruiting for this vacancy in Birmingham.\n\nThe advertised position is Receptionist.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £25,614.00 - £26,016.00 Annually (Actual) Grade 2 SCP 3-4 (£25614 - £26016 FTE) | 52.14 Weeks Per year.\n\nThe stated application deadline is 2026-10-18T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/receptionist-43f0e0db-e751-4263-b554-d231b0475340?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Q3 Academy Great Barr",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "23643_225703485",
     "display_reference": "23643_225703485",
     "title": "Sales & Marketing Executive",
@@ -2260,9 +2204,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9436-26-0688",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2282,9 +2223,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0354-REQ000245",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2304,31 +2242,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3718-26-0005",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5626936",
-    "source": "NHS Jobs",
-    "title": "General Practice Administrator",
-    "company": "Iridium Medical Practice",
-    "advertiser_name": "Iridium Medical Practice",
-    "location": "Birmingham, B33 8TA, Birmingham, B33 9EN",
-    "region": "West Midlands - Birmingham & Solihull",
-    "salary": "£12.71 to £14.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-09-28T13:20:26.492269663",
-    "closing_date": "2026-10-18",
-    "description": "Iridium Medical Practice is seeking a motivated and organised General Practice Administrator to join our friendly and supportive primary care team. This role covers a wide range of General Practice activities including but not limited too; Docman Clinical Coding Record Summarisation Safeguarding QoF / Planned Care The successful candidate will work within the Practice Admin team with close support from Management. Streamline the flow of clinical correspondence through the organisation reducing the number of letters which a GP needs to process. Where there is uncertainty, to forward the letter to a clinician for safety. Code relevant information into patients electronic medical record on EMIS web clinical system via DOCMAN. Provide administrative support to clinicians, management and the wider team as required. Review medical records and produce an accurate summary of the patients medical history. To maintain confidentiality at all times, to respect patients privacy and act appropriately in the performance of the duties outlined in this post. Undertake any other duties deemed appropriate by the Practice. Work flexibly to meet the needs of the service and provide cover where required.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3763-26-0011",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3763-26-0011",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2348,9 +2261,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2119-26-0001",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2370,9 +2280,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4532-26-0006",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2392,9 +2299,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4072-26-0003",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -2414,9 +2318,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0020-26-1558",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

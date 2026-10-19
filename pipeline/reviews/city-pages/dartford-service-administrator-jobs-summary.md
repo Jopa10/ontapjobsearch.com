@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 14
-- automatic review: 74
+- automatic review: 76
 - automatic exclude: 36
 - effective include: 13
-- effective review: 74
+- effective review: 76
 - effective exclude: 37
 
 ## INCLUDE (13)
@@ -180,7 +180,7 @@ job_id: nhs-5659620
 reason: Exact approved Dartford workplace.
 ---
 
-## REVIEW (74)
+## REVIEW (76)
 
 ---
 action: 
@@ -527,6 +527,30 @@ company: Huntress - Maidstone - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225735139
+reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Administrator
+company: Michael Page - Agency - Permanent
+location: London
+source: JobG8
+job_id: jobg8-23643_225655450
+reason: No approved Dartford employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Administrator
+company: Michael Page - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225655920
 reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
 ---
 

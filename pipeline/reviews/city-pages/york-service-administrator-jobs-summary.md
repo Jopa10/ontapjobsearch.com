@@ -548,18 +548,6 @@ reason: Broad regional label; not York-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Digital Marketing Manager
-company: North Yorkshire Hospice Care - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-2131084
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Legal Assistant
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Northallerton
@@ -661,6 +649,18 @@ company: Travail Employment Group - Agency - Temporary
 location: Harrogate
 source: JobG8
 job_id: jobg8-23643_225698949
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Purchasing Assistant 9-12 Month Contract
+company: SI Recruitment - Agency - Permanent
+location: Northallerton
+source: JobG8
+job_id: jobg8-108167097
 reason: Separate employment market.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 19
-- automatic review: 45
+- automatic review: 46
 - automatic exclude: 0
 - effective include: 19
-- effective review: 45
+- effective review: 46
 - effective exclude: 0
 
 ## INCLUDE (19)
@@ -252,7 +252,7 @@ job_id: jobg8-23643_225641855
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (45)
+## REVIEW (46)
 
 ---
 action: 
@@ -695,6 +695,18 @@ company: Ideal Recruit Ltd - Agency - Permanent
 location: Kettering
 source: JobG8
 job_id: jobg8-23643_225642014
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment Operations Coordinator
+company: R&V Group Ltd - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-108069317
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

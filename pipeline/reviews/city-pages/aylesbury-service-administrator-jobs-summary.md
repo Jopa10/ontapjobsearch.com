@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 12
-- automatic review: 68
+- automatic review: 70
 - automatic exclude: 0
 - effective include: 12
-- effective review: 68
+- effective review: 70
 - effective exclude: 0
 
 ## INCLUDE (12)
@@ -168,7 +168,7 @@ job_id: nhs-5648388
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (68)
+## REVIEW (70)
 
 ---
 action: 
@@ -618,6 +618,18 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Finance Assistant
+company: Reed - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-1985722
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Health Records Clerical Assistant
 company: NHS Professionals - Company - Temporary
 location: Buckinghamshire
@@ -923,6 +935,18 @@ company: Guidant Global - Agency - Contract
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225722698
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales and Purchase Ledger Assistant 6m FTC
+company: Solus Accident Repair Centres - Company - Contract
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225737338
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

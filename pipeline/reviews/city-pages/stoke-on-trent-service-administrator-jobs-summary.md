@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 47
+- automatic review: 48
 - automatic exclude: 0
 - effective include: 5
-- effective review: 47
+- effective review: 48
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: nhs-5657920
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (47)
+## REVIEW (48)
 
 ---
 action: 
@@ -503,6 +503,18 @@ company: Ethero - Agency - Temporary
 location: Uttoxeter
 source: JobG8
 job_id: jobg8-23643_225660400
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchasing Coordinator (Construction)
+company: Ernest Gordon Recruitment - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-108111116
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/portsmouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 14
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
-- automatic review: 149
+- automatic include: 13
+- automatic review: 148
 - automatic exclude: 0
-- effective include: 14
-- effective review: 149
+- effective include: 13
+- effective review: 148
 - effective exclude: 0
 
-## INCLUDE (14)
+## INCLUDE (13)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: Michael Page Finance - Agency - Permanent
 location: Portsmouth
 source: JobG8
 job_id: jobg8-2055478
-reason: Exact approved Portsmouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Support Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Portsmouth, PO2 0TA
-source: NHS Jobs
-job_id: nhs-5643304
 reason: Exact approved Portsmouth workplace.
 ---
 
@@ -192,7 +180,7 @@ job_id: jobg8-23643_225684953
 reason: Exact approved Portsmouth workplace.
 ---
 
-## REVIEW (149)
+## REVIEW (148)
 
 ---
 action: 
@@ -1307,18 +1295,6 @@ company: Mulberry Recruitment - Agency - Permanent
 location: Farnborough
 source: JobG8
 job_id: jobg8-23643_225712981
-reason: No exact Portsmouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Locality Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO14 0JY
-source: NHS Jobs
-job_id: nhs-5642963
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 

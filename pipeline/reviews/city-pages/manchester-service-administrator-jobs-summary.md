@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 115
-- automatic review: 24
+- automatic review: 26
 - automatic exclude: 5
 - effective include: 115
-- effective review: 24
+- effective review: 26
 - effective exclude: 5
 
 ## INCLUDE (115)
@@ -201,6 +201,18 @@ company: Hays Accounts and Finance - Agency - Contract
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225694924
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller - Wythenshawe
+company: Michael Page - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-23643_225655749
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -597,18 +609,6 @@ company: MPJ Recruitment Ltd - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-2075693
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Foodbank Session Co-ordinator
-company: Manchester Central Foodbank - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-2145629
 reason: Approved conservative Manchester launch catchment.
 ---
 
@@ -1404,7 +1404,7 @@ job_id: jobg8-23643_225688135
 reason: Approved conservative Manchester launch catchment.
 ---
 
-## REVIEW (24)
+## REVIEW (26)
 
 ---
 action: 
@@ -1638,6 +1638,18 @@ reason: No approved Manchester catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: SEO Manager
+company: Sphere Digital Recruitment - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-1985437
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Social Media Executive
 company: Zachary Daniels - Agency - Permanent
 location: Lancashire
@@ -1667,6 +1679,18 @@ company: MCR Property Group - Agency - Permanent
 location: Lancashire
 source: JobG8
 job_id: jobg8-2066299
+reason: No approved Manchester catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Social Media Manager
+company: Time Recruitment - Agency - Permanent
+location: Lancashire
+source: JobG8
+job_id: jobg8-1985784
 reason: No approved Manchester catchment rule matched; local review required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 157
+- automatic review: 155
 - automatic exclude: 0
 - effective include: 6
-- effective review: 157
+- effective review: 155
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225686728
 reason: Exact approved Basingstoke workplace.
 ---
 
-## REVIEW (157)
+## REVIEW (155)
 
 ---
 action: 
@@ -527,18 +527,6 @@ company: Conquip Engineering Group - Agency - Permanent
 location: Alton
 source: JobG8
 job_id: jobg8-23643_225661078
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Support Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Portsmouth, PO2 0TA
-source: NHS Jobs
-job_id: nhs-5643304
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -1259,18 +1247,6 @@ company: Mulberry Recruitment - Agency - Permanent
 location: Farnborough
 source: JobG8
 job_id: jobg8-23643_225712981
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Locality Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO14 0JY
-source: NHS Jobs
-job_id: nhs-5642963
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 

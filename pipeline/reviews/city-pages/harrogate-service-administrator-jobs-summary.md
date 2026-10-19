@@ -4,7 +4,7 @@
 - Live route: `/harrogate/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 11
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
+- automatic include: 10
 - automatic review: 19
-- automatic exclude: 32
-- effective include: 11
+- automatic exclude: 33
+- effective include: 10
 - effective review: 19
-- effective exclude: 32
+- effective exclude: 33
 
-## INCLUDE (11)
+## INCLUDE (10)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: Tees Esk and Wear Valleys NHS Foundation Trust
 location: Harrogate, HG1 5QE
 source: NHS Jobs
 job_id: nhs-5649706
-reason: Exact approved Harrogate workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Digital Marketing Manager
-company: North Yorkshire Hospice Care - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-2131084
 reason: Exact approved Harrogate workplace.
 ---
 
@@ -386,7 +374,7 @@ job_id: jobg8-23643_225666115
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (32)
+## EXCLUDE (33)
 
 ---
 action: 
@@ -685,6 +673,18 @@ company: Haxby Group
 location: York, YO32 2LL, York, YO24 3BU, Huntington, YO32 9RU, York, YO32 4AG, York, YO26 6EQ
 source: NHS Jobs
 job_id: nhs-5655371
+reason: The stated workplace belongs outside the approved Harrogate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Purchasing Assistant 9-12 Month Contract
+company: SI Recruitment - Agency - Permanent
+location: Northallerton
+source: JobG8
+job_id: jobg8-108167097
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 

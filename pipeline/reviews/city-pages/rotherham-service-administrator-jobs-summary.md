@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 60
+- automatic review: 58
 - automatic exclude: 0
 - effective include: 3
-- effective review: 60
+- effective review: 58
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: teaching-vacancies-receptionist-admin-assistant-willow-tree-academy
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (60)
+## REVIEW (58)
 
 ---
 action: 
@@ -215,18 +215,6 @@ company: Elevation Recruitment Group - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2044207
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Attendance Officer
-company: Astrea Academy Sheffield
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-astrea-academy-sheffield
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -527,18 +515,6 @@ company: TRC Yorkshire - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225639980
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Office Administrator/ Accounts Assistant
-company: Think Recruitment - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-23643_225691295
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

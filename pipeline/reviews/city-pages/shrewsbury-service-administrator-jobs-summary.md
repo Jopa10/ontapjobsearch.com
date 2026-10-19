@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 16
+- automatic review: 15
 - automatic exclude: 0
 - effective include: 4
-- effective review: 16
+- effective review: 15
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225715945
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (16)
+## REVIEW (15)
 
 ---
 action: 
@@ -239,18 +239,6 @@ company: Windmill Primary School
 location: Telford
 source: Teaching Vacancies
 job_id: teaching-vacancies-reception-administrator-windmill-primary-school
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist/Administrator
-company: Knockin Medical Centre
-location: Oswestry, SY10 8HL
-source: NHS Jobs
-job_id: nhs-5631168
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

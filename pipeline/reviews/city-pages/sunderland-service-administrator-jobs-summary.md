@@ -463,18 +463,6 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Seaton Surgery
-location: Hartlepool, TS25 1AX
-source: NHS Jobs
-job_id: nhs-5637587
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
 company: Tyneside Surgical Services
 location: Gateshead, NE11 0HF
 source: NHS Jobs
@@ -919,6 +907,18 @@ action:
 decision: review
 automatic_decision: review
 title: Medical Receptionist
+company: Betts Avenue Medical Centre
+location: Newcastle Upon Tyne, NE15 6TQ, Newcastle Upon Tyne, NE3 3QP
+source: NHS Jobs
+job_id: nhs-5621861
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist
 company: Hartlepool & Stockton Health [H&SH]
 location: HARTLEPOOL, TS25 1QU
 source: NHS Jobs
@@ -935,6 +935,18 @@ company: Holmside Medical Group
 location: Newcastle upon Tyne, NE4 8QB, Newcastle Upon Tyne, NE5 1LJ
 source: NHS Jobs
 job_id: nhs-5660811
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Mental Health Act Administrator
+company: Cygnet Health Care
+location: Darlington , DL1 2LJ
+source: NHS Jobs
+job_id: nhs-5636455
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -1295,18 +1307,6 @@ company: AM Global - Agency - Contract
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225714293
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Darlington, DL2 2TS
-source: NHS Jobs
-job_id: nhs-5637413
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 

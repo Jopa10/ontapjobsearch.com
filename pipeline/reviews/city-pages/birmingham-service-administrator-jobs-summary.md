@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 98
+- Effective included jobs: 95
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 98
-- automatic review: 21
+- automatic include: 95
+- automatic review: 22
 - automatic exclude: 5
-- effective include: 98
-- effective review: 21
+- effective include: 95
+- effective review: 22
 - effective exclude: 5
 
-## INCLUDE (98)
+## INCLUDE (95)
 
 ---
 action: 
@@ -189,18 +189,6 @@ company: Office Angels - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225633528
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Support Assistant
-company: Starbank School
-location: Birmingham
-source: Teaching Vacancies
-job_id: teaching-vacancies-business-support-assistant-087bd7f2-00c8-4216-9f63-98fee8083d04
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -616,18 +604,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: General Practice Administrator
-company: Iridium Medical Practice
-location: Birmingham, B33 8TA, Birmingham, B33 9EN
-source: NHS Jobs
-job_id: nhs-5626936
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: GP receptionist
 company: Eden Court Medical Practice
 location: Birmingham, B35 6EE
@@ -952,18 +928,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Q3 Academy Great Barr
-location: Birmingham
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-43f0e0db-e751-4263-b554-d231b0475340
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Sales & Marketing Executive
 company: Four Squared Recruitment Ltd - Agency - Permanent
 location: Birmingham
@@ -1200,7 +1164,7 @@ job_id: jobg8-2039482
 reason: Approved conservative Birmingham launch catchment.
 ---
 
-## REVIEW (21)
+## REVIEW (22)
 
 ---
 action: 
@@ -1320,6 +1284,18 @@ location: West Midlands
 source: JobG8
 job_id: jobg8-23643_225690919
 reason: Broad regional location; review before Birmingham inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Manager - Fixed Term Contract 2 Years
+company: Birmingham Hospice - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-2148717
+reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
 ---

@@ -1,6 +1,8 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
+include,jobg8-107719278,Admin Assistant,Switch - Agency - Permanent,Exeter,JobG8,include,include,Exact approved Exeter workplace.,exact:exeter,exeter-service-administrator-jobs
 include,jobg8-23643_225718193,Administrator,Veolia - Agency - Permanent,Exeter,JobG8,include,include,Exact approved Exeter workplace.,exact:exeter,exeter-service-administrator-jobs
 include,nhs-5662336,Business Administrator,Devon Partnership NHS Trust,"Exeter, EX2 5AF",NHS Jobs,include,include,Exact approved Exeter workplace.,exact:exeter,exeter-service-administrator-jobs
+include,jobg8-107939734,Fleet Distribution Administrator,Switch - Agency - Permanent,Exeter,JobG8,include,include,Exact approved Exeter workplace.,exact:exeter,exeter-service-administrator-jobs
 include,jobg8-23643_225734169,HR Administrator/Assistant,Adecco - Agency - Permanent,Exeter,JobG8,include,include,Exact approved Exeter workplace.,exact:exeter,exeter-service-administrator-jobs
 include,jobg8-23643_225716272,HR Operations Administrator,Portfolio HR & Reward - Agency - Temporary,Exeter,JobG8,include,include,Exact approved Exeter workplace.,exact:exeter,exeter-service-administrator-jobs
 include,jobg8-23643_225702212,HR Ops Support Administrator,Adecco - Agency - Temporary,Exeter,JobG8,include,include,Exact approved Exeter workplace.,exact:exeter,exeter-service-administrator-jobs

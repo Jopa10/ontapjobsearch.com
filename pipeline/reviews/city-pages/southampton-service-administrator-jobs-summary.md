@@ -4,7 +4,7 @@
 - Live route: `/southampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 16
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
+- automatic include: 15
 - automatic review: 101
-- automatic exclude: 46
-- effective include: 16
+- automatic exclude: 45
+- effective include: 15
 - effective review: 101
-- effective exclude: 46
+- effective exclude: 45
 
-## INCLUDE (16)
+## INCLUDE (15)
 
 ---
 action: 
@@ -141,18 +141,6 @@ company: Lawfront - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-23643_225688531
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Locality Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Southampton, SO14 0JY
-source: NHS Jobs
-job_id: nhs-5642963
 reason: Approved Southampton catchment.
 ---
 
@@ -1430,7 +1418,7 @@ job_id: jobg8-23643_225665585
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (46)
+## EXCLUDE (45)
 
 ---
 action: 
@@ -1585,18 +1573,6 @@ company: Northamber PLC - Agency - Permanent
 location: Basingstoke
 source: JobG8
 job_id: jobg8-23643_224173384
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Business Support Administrator
-company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
-location: Portsmouth, PO2 0TA
-source: NHS Jobs
-job_id: nhs-5643304
 reason: Separate employment market.
 ---
 

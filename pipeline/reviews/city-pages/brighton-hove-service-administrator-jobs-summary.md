@@ -4,7 +4,7 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
+- automatic include: 11
 - automatic review: 68
-- automatic exclude: 34
-- effective include: 12
+- automatic exclude: 33
+- effective include: 11
 - effective review: 68
-- effective exclude: 34
+- effective exclude: 33
 
-## INCLUDE (12)
+## INCLUDE (11)
 
 ---
 action: 
@@ -129,18 +129,6 @@ company: BDS (Northern) Limited - Agency - Permanent
 location: Brighton
 source: JobG8
 job_id: jobg8-23643_225707578
-reason: Approved Brighton & Hove catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: People Team Administrator
-company: YMCA Downslink Group - Company - Permanent
-location: Hove
-source: JobG8
-job_id: jobg8-2145632
 reason: Approved Brighton & Hove catchment.
 ---
 
@@ -956,7 +944,7 @@ decision: review
 automatic_decision: review
 title: Telesales Executive
 company: Travail Employment Group - Agency - Permanent
-location: Not Specified
+location: Burgess Hill
 source: JobG8
 job_id: jobg8-23643_225735463
 reason: No approved Brighton & Hove catchment rule matched; local review required.
@@ -986,7 +974,7 @@ job_id: jobg8-23643_225699794
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (34)
+## EXCLUDE (33)
 
 ---
 action: 
@@ -1333,18 +1321,6 @@ company: SJC Partners - Agency - Permanent
 location: Chichester
 source: JobG8
 job_id: jobg8-2052879
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales Executive
-company: Hays Collections Ltd - Agency - Permanent
-location: Crawley
-source: JobG8
-job_id: jobg8-23643_225615981
 reason: Separate employment market.
 ---
 

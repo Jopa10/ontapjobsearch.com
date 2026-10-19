@@ -270,6 +270,18 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Medical Records Clerk
+company: Pennine Care NHS FT
+location: Stockport, SK1 3XE
+source: NHS Jobs
+job_id: nhs-5649683
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Pallet Network & Customer Service Coordinator
 company: Kinaxia Logistics Limited - Agency - Permanent
 location: Stockport
@@ -335,18 +347,6 @@ company: Jobwise Ltd - Agency - Temporary
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225692733
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Moya Cole Hospice
-location: Cheadle, SK8 3SZ, MANCHESTER, M28 0FE
-source: NHS Jobs
-job_id: nhs-5655179
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 28
+- Effective included jobs: 27
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 28
+- automatic include: 27
 - automatic review: 6
-- automatic exclude: 29
-- effective include: 28
+- automatic exclude: 28
+- effective include: 27
 - effective review: 6
-- effective exclude: 29
+- effective exclude: 28
 
-## INCLUDE (28)
+## INCLUDE (27)
 
 ---
 action: 
@@ -105,18 +105,6 @@ company: Elevation Recruitment Group - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2044207
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Attendance Officer
-company: Astrea Academy Sheffield
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-astrea-academy-sheffield
 reason: Approved Sheffield catchment.
 ---
 
@@ -434,7 +422,7 @@ job_id: jobg8-23643_225681456
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (29)
+## EXCLUDE (28)
 
 ---
 action: 
@@ -613,18 +601,6 @@ company: TRC Yorkshire - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225639980
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Office Administrator/ Accounts Assistant
-company: Think Recruitment - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-23643_225691295
 reason: Separate employment market.
 ---
 

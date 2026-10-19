@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 151
+- automatic review: 150
 - automatic exclude: 0
 - effective include: 4
-- effective review: 151
+- effective review: 150
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225654686
 reason: Exact approved Farnham workplace.
 ---
 
-## REVIEW (151)
+## REVIEW (150)
 
 ---
 action: 
@@ -1547,18 +1547,6 @@ company: Michael Page - Agency - Temporary
 location: Surrey
 source: JobG8
 job_id: jobg8-23643_225721997
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Senior Communications & Marketing Officer
-company: National Trust - Company - Permanent
-location: Surrey
-source: JobG8
-job_id: jobg8-2071183
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 

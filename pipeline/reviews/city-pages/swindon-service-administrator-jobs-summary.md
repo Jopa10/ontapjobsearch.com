@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 11
-- automatic review: 21
+- automatic review: 22
 - automatic exclude: 0
 - effective include: 11
-- effective review: 21
+- effective review: 22
 - effective exclude: 0
 
 ## INCLUDE (11)
@@ -156,7 +156,7 @@ job_id: jobg8-23643_225653482
 reason: Exact approved Swindon workplace.
 ---
 
-## REVIEW (21)
+## REVIEW (22)
 
 ---
 action: 
@@ -359,6 +359,18 @@ company: Thrive Group - Agency - Permanent
 location: Trowbridge
 source: JobG8
 job_id: jobg8-23643_225720495
+reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor (Motor)
+company: Thrive Group - Agency - Permanent
+location: Melksham
+source: JobG8
+job_id: jobg8-108160199
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 

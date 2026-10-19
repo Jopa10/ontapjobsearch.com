@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 71
+- automatic review: 70
 - automatic exclude: 0
 - effective include: 0
-- effective review: 71
+- effective review: 70
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (71)
+## REVIEW (70)
 
 ---
 action: 
@@ -287,18 +287,6 @@ company: Redline Group Ltd - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225671448
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Control
-company: Reed - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-2017641
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

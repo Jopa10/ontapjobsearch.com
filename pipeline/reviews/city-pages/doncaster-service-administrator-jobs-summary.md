@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 19
 - automatic review: 6
-- automatic exclude: 38
+- automatic exclude: 36
 - effective include: 19
 - effective review: 6
-- effective exclude: 38
+- effective exclude: 36
 
 ## INCLUDE (19)
 
@@ -326,7 +326,7 @@ job_id: jobg8-23643_225681456
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (38)
+## EXCLUDE (36)
 
 ---
 action: 
@@ -445,18 +445,6 @@ company: Elevation Recruitment Group - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2044207
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Attendance Officer
-company: Astrea Academy Sheffield
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-astrea-academy-sheffield
 reason: Separate employment market.
 ---
 
@@ -637,18 +625,6 @@ company: TRC Yorkshire - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225639980
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Office Administrator/ Accounts Assistant
-company: Think Recruitment - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-23643_225691295
 reason: Separate employment market.
 ---
 

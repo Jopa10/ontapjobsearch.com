@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 13
-- automatic review: 11
+- automatic review: 8
 - automatic exclude: 26
 - effective include: 13
-- effective review: 11
+- effective review: 8
 - effective exclude: 26
 
 ## INCLUDE (13)
@@ -180,43 +180,7 @@ job_id: nhs-5665914
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (11)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator (SEN and Careers)
-company: Marshland High School
-location: Wisbech
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-sen-and-careers
-reason: No approved Peterborough catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant - salary negotiable; well-established independent firm
-company: Reed - Agency - Permanent
-location: St. Ives
-source: JobG8
-job_id: jobg8-2064410
-reason: No approved Peterborough catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant - salary negotiable; well-established independent firm
-company: Reed - Agency - Permanent
-location: St. Neots
-source: JobG8
-job_id: jobg8-2070623
-reason: No approved Peterborough catchment rule matched; local review required.
----
+## REVIEW (8)
 
 ---
 action: 

@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 92
+- Effective included jobs: 91
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 92
-- automatic review: 39
+- automatic include: 91
+- automatic review: 38
 - automatic exclude: 42
-- effective include: 92
-- effective review: 39
+- effective include: 91
+- effective review: 38
 - effective exclude: 42
 
-## INCLUDE (92)
+## INCLUDE (91)
 
 ---
 action: 
@@ -844,18 +844,6 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Personal Assistant
-company: Leeds Teaching Hospitals
-location: Leeds, LS9 7TF
-source: NHS Jobs
-job_id: nhs-5642057
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: PPC Manager
 company: Robert Walters - Agency - Permanent
 location: Leeds
@@ -1128,7 +1116,7 @@ job_id: jobg8-23643_225706935
 reason: Approved Leeds catchment.
 ---
 
-## REVIEW (39)
+## REVIEW (38)
 
 ---
 action: 
@@ -1583,18 +1571,6 @@ company: Cowell Recruitment - Agency - Permanent
 location: Brighouse
 source: JobG8
 job_id: jobg8-23643_225555461
-reason: No approved Leeds catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Work Experience Administrator
-company: Beckfoot School
-location: Bingley
-source: Teaching Vacancies
-job_id: teaching-vacancies-work-experience-administrator-beckfoot-school-bingley-west-yorkshire
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 

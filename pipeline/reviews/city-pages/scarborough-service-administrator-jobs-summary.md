@@ -342,18 +342,6 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Digital Marketing Manager
-company: North Yorkshire Hospice Care - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-2131084
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR Administrator
 company: Sewell Wallis Ltd - Agency - Permanent
 location: York
@@ -611,6 +599,18 @@ company: Travail Employment Group - Agency - Temporary
 location: Harrogate
 source: JobG8
 job_id: jobg8-23643_225698949
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchasing Assistant 9-12 Month Contract
+company: SI Recruitment - Agency - Permanent
+location: Northallerton
+source: JobG8
+job_id: jobg8-108167097
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

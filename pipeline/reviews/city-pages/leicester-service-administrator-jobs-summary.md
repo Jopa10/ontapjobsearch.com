@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 18
-- automatic review: 53
+- automatic review: 52
 - automatic exclude: 0
 - effective include: 18
-- effective review: 53
+- effective review: 52
 - effective exclude: 0
 
 ## INCLUDE (18)
@@ -240,7 +240,7 @@ job_id: teaching-vacancies-student-services-administrator-b483b3bc-5d81-42ee-be3
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (53)
+## REVIEW (52)
 
 ---
 action: 
@@ -455,18 +455,6 @@ company: Redline Group Ltd - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225671448
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Control
-company: Reed - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-2017641
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

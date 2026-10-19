@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 10
 - automatic review: 68
-- automatic exclude: 36
+- automatic exclude: 34
 - effective include: 10
 - effective review: 68
-- effective exclude: 36
+- effective exclude: 34
 
 ## INCLUDE (10)
 
@@ -932,7 +932,7 @@ decision: review
 automatic_decision: review
 title: Telesales Executive
 company: Travail Employment Group - Agency - Permanent
-location: Not Specified
+location: Burgess Hill
 source: JobG8
 job_id: jobg8-23643_225735463
 reason: No approved Horsham employment-market rule matched the stated location; local geographic review is required.
@@ -962,7 +962,7 @@ job_id: jobg8-23643_225699794
 reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
-## EXCLUDE (36)
+## EXCLUDE (34)
 
 ---
 action: 
@@ -1280,18 +1280,6 @@ reason: The stated workplace belongs outside the approved Horsham employment mar
 action: 
 decision: exclude
 automatic_decision: exclude
-title: People Team Administrator
-company: YMCA Downslink Group - Company - Permanent
-location: Hove
-source: JobG8
-job_id: jobg8-2145632
-reason: The stated workplace belongs outside the approved Horsham employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Receptionist
 company: Arlington Road Medical Practice
 location: Eastbourne, BN21 1DH
@@ -1321,18 +1309,6 @@ company: SJC Partners - Agency - Permanent
 location: Chichester
 source: JobG8
 job_id: jobg8-2052879
-reason: The stated workplace belongs outside the approved Horsham employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales Executive
-company: Hays Collections Ltd - Agency - Permanent
-location: Crawley
-source: JobG8
-job_id: jobg8-23643_225615981
 reason: The stated workplace belongs outside the approved Horsham employment market.
 ---
 

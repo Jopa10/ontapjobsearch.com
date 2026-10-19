@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 24
-- automatic review: 4
+- automatic review: 5
 - automatic exclude: 6
 - effective include: 24
-- effective review: 4
+- effective review: 5
 - effective exclude: 6
 
 ## INCLUDE (24)
@@ -312,7 +312,7 @@ job_id: nhs-5669955
 reason: Approved conservative Warrington launch catchment.
 ---
 
-## REVIEW (4)
+## REVIEW (5)
 
 ---
 action: 
@@ -323,6 +323,18 @@ company: Michael Page - Agency - Temporary
 location: Widnes
 source: JobG8
 job_id: jobg8-23643_225659228
+reason: No approved Warrington catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Coordinator
+company: Neos Recruitment Ltd - Agency - Permanent
+location: Widnes
+source: JobG8
+job_id: jobg8-23643_225737277
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 

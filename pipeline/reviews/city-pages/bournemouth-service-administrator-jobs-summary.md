@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 50
+- automatic review: 51
 - automatic exclude: 0
 - effective include: 8
-- effective review: 50
+- effective review: 51
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: nhs-5651442
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (50)
+## REVIEW (51)
 
 ---
 action: 
@@ -707,6 +707,18 @@ company: CMA Recruitment Group - Agency - Permanent
 location: Poole
 source: JobG8
 job_id: jobg8-1986688
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trust Administrator
+company: Aspire Jobs Limited - Agency - Permanent
+location: Beaminster
+source: JobG8
+job_id: jobg8-107765584
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

@@ -67,7 +67,6 @@ include,jobg8-2053116,Payroll Assistant,Michael Page Finance - Agency - Permanen
 include,jobg8-2087152,Payroll Coordinator,IMPRESSION RECRUITMENT LIMITED - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225657571,Payroll Officer,Hawk 3 Talent Solutions - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225661076,Payroll Officer,Search Consultancy Ltd - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
-include,nhs-5642057,Personal Assistant,Leeds Teaching Hospitals,"Leeds, LS9 7TF",NHS Jobs,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-2059627,PPC Manager,Robert Walters - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225693149,Pr Manager,Focus 5 Recruitment Ltd - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225692585,Product Coordinator,Lucy Walker Recruitment - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
@@ -129,7 +128,6 @@ review,jobg8-23643_225714315,Sales Coordinator,Unity Resourcing Ltd - Agency - P
 review,jobg8-2078500,Senior Paid Media Executive,Elevation Recruitment Group - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-23643_225664255,Service Coordinator,Interaction Recruitment - Agency - Permanent,Keighley,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-23643_225555461,Trainee Sales Consultant,Cowell Recruitment - Agency - Permanent,Brighouse,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
-review,teaching-vacancies-work-experience-administrator-beckfoot-school-bingley-west-yorkshire,Work Experience Administrator,Beckfoot School,Bingley,Teaching Vacancies,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 exclude,jobg8-23643_225730421,Administrator,Encon Staffing Associates Ltd - Agency - Temporary,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
 exclude,jobg8-23643_225650085,Administrator NHS,Stafforce Recruitment - Agency - Temporary,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
 exclude,teaching-vacancies-apprentice-business-support-administrator,Apprentice Business Support Administrator,The North Halifax Grammar School,Halifax,Teaching Vacancies,exclude,exclude,Separate employment market.,halifax,leeds-service-administrator-jobs

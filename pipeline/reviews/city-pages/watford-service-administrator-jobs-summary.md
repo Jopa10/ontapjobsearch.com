@@ -4,7 +4,7 @@
 - Live route: `/watford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
+- automatic include: 7
 - automatic review: 107
 - automatic exclude: 0
-- effective include: 8
+- effective include: 7
 - effective review: 107
 - effective exclude: 0
 
-## INCLUDE (8)
+## INCLUDE (7)
 
 ---
 action: 
@@ -81,18 +81,6 @@ company: Zero Surplus - Agency - Permanent
 location: Watford
 source: JobG8
 job_id: jobg8-23643_225716356
-reason: Exact approved Watford workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Part-Time Admin Assistant
-company: Oxhey Wood Primary School
-location: Watford
-source: Teaching Vacancies
-job_id: teaching-vacancies-part-time-admin-assistant-oxhey-wood-primary-school
 reason: Exact approved Watford workplace.
 ---
 
@@ -299,6 +287,18 @@ company: Mission 4 Recruitment - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-23643_225692179
+reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Coordinator
+company: Brayson Consulting Ltd - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-23643_224502262
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
 ---
 
@@ -863,18 +863,6 @@ company: HR GO Recruitment - Agency - Contract
 location: Bishop'S Stortford
 source: JobG8
 job_id: jobg8-23643_225728945
-reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part Time Receptionist
-company: Kings Langley Surgery
-location: Kings Langley, WD4 8ET, Hemel Hempstead, HP3 0HG
-source: NHS Jobs
-job_id: nhs-5627192
 reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
 ---
 

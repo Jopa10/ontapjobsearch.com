@@ -4,7 +4,7 @@
 - Live route: `/stockport/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 16
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
-- automatic review: 18
+- automatic include: 17
+- automatic review: 17
 - automatic exclude: 0
-- effective include: 16
-- effective review: 18
+- effective include: 17
+- effective review: 17
 - effective exclude: 0
 
-## INCLUDE (16)
+## INCLUDE (17)
 
 ---
 action: 
@@ -136,6 +136,18 @@ reason: Exact approved Stockport workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Medical Records Clerk
+company: Pennine Care NHS FT
+location: Stockport, SK1 3XE
+source: NHS Jobs
+job_id: nhs-5649683
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Pallet Network & Customer Service Coordinator
 company: Kinaxia Logistics Limited - Agency - Permanent
 location: Stockport
@@ -216,7 +228,7 @@ job_id: jobg8-23643_225671741
 reason: Exact approved Stockport workplace.
 ---
 
-## REVIEW (18)
+## REVIEW (17)
 
 ---
 action: 
@@ -335,18 +347,6 @@ company: Bayman Atkinson Smythe - Agency - Permanent
 location: Trafford
 source: JobG8
 job_id: jobg8-23643_225695106
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Moya Cole Hospice
-location: Cheadle, SK8 3SZ, MANCHESTER, M28 0FE
-source: NHS Jobs
-job_id: nhs-5655179
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 

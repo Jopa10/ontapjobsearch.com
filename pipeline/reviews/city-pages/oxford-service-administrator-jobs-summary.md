@@ -4,7 +4,7 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
+- automatic include: 8
 - automatic review: 30
 - automatic exclude: 47
-- effective include: 9
+- effective include: 8
 - effective review: 30
 - effective exclude: 47
 
-## INCLUDE (9)
+## INCLUDE (8)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: Oxford University Hospitals NHS Foundation Trust
 location: Headington, Oxford, OX3 9DU
 source: NHS Jobs
 job_id: nhs-5652789
-reason: Approved conservative Oxford launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Oxford Health NHS Trust
-location: Abingdon, Oxford, OX14 1AG
-source: NHS Jobs
-job_id: nhs-5653386
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -584,6 +572,18 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Bid Portal Administrator
+company: Ridge & Partners LLP - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-108079592
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Bookkeeper
 company: 9-2-3 Jobs Limited - Agency - Permanent
 location: Oxfordshire
@@ -841,18 +841,6 @@ company: Tech Professionals - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225658856
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: People and Culture Administrator
-company: Church Mission Society - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-2145576
 reason: Broad county location; not Oxford-city evidence.
 ---
 

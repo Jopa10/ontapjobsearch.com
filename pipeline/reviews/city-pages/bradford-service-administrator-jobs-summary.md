@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 18
-- automatic review: 38
-- automatic exclude: 117
+- automatic review: 37
+- automatic exclude: 116
 - effective include: 18
-- effective review: 38
-- effective exclude: 117
+- effective review: 37
+- effective exclude: 116
 
 ## INCLUDE (18)
 
@@ -240,7 +240,7 @@ job_id: jobg8-23643_225645421
 reason: Approved Bradford catchment.
 ---
 
-## REVIEW (38)
+## REVIEW (37)
 
 ---
 action: 
@@ -686,19 +686,7 @@ job_id: jobg8-23643_225555461
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Work Experience Administrator
-company: Beckfoot School
-location: Bingley
-source: Teaching Vacancies
-job_id: teaching-vacancies-work-experience-administrator-beckfoot-school-bingley-west-yorkshire
-reason: No approved Bradford catchment rule matched; local review required.
----
-
-## EXCLUDE (117)
+## EXCLUDE (116)
 
 ---
 action: 
@@ -1729,18 +1717,6 @@ company: Search Consultancy Ltd - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225661076
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Personal Assistant
-company: Leeds Teaching Hospitals
-location: Leeds, LS9 7TF
-source: NHS Jobs
-job_id: nhs-5642057
 reason: Separate employment market.
 ---
 

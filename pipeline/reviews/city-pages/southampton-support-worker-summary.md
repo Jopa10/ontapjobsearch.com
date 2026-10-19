@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 5
-- automatic exclude: 6
+- automatic review: 4
+- automatic exclude: 5
 - effective include: 0
-- effective review: 5
-- effective exclude: 6
+- effective review: 4
+- effective exclude: 5
 
 ## INCLUDE (0)
 
-## REVIEW (5)
+## REVIEW (4)
 
 ---
 action: 
@@ -74,31 +74,7 @@ job_id: jobg8-23643_225653471
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
----
-action: 
-decision: review
-automatic_decision: review
-title: Waking Night Childrens Home Support Worker
-company: Hampshire County Council - Company - Permanent
-location: Romsey
-source: JobG8
-job_id: jobg8-1401785693
-reason: Broad location; review before city inclusion.
----
-
-## EXCLUDE (6)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Care Assistant
-company: Hampshire County Council - Company - Permanent
-location: Winchester
-source: JobG8
-job_id: jobg8-1401785443
-reason: Separate employment market.
----
+## EXCLUDE (5)
 
 ---
 action: 

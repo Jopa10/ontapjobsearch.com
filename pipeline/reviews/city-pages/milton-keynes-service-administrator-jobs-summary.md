@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 17
-- automatic review: 63
+- automatic review: 65
 - automatic exclude: 0
 - effective include: 17
-- effective review: 63
+- effective review: 65
 - effective exclude: 0
 
 ## INCLUDE (17)
@@ -228,7 +228,7 @@ job_id: jobg8-23643_225635978
 reason: Exact approved Milton Keynes workplace.
 ---
 
-## REVIEW (63)
+## REVIEW (65)
 
 ---
 action: 
@@ -654,6 +654,18 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
+title: Finance Assistant
+company: Reed - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-1985722
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Health Records Clerical Assistant
 company: NHS Professionals - Company - Temporary
 location: Buckinghamshire
@@ -935,6 +947,18 @@ company: Guidant Global - Agency - Contract
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225722698
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales and Purchase Ledger Assistant 6m FTC
+company: Solus Accident Repair Centres - Company - Contract
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225737338
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

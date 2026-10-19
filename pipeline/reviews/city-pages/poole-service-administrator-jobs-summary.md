@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 17
-- automatic review: 41
+- automatic review: 42
 - automatic exclude: 0
 - effective include: 17
-- effective review: 41
+- effective review: 42
 - effective exclude: 0
 
 ## INCLUDE (17)
@@ -228,7 +228,7 @@ job_id: jobg8-1986688
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (41)
+## REVIEW (42)
 
 ---
 action: 
@@ -707,6 +707,18 @@ company: Dorset HealthCare University NHS Foundation Trust
 location: Dorchester, DT1 2FD
 source: NHS Jobs
 job_id: nhs-5664520
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trust Administrator
+company: Aspire Jobs Limited - Agency - Permanent
+location: Beaminster
+source: JobG8
+job_id: jobg8-107765584
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
