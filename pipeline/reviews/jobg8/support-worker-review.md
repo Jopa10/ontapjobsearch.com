@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-10-19
+feed_date: 2026-10-20
 
 Edit only the `action:` line in each block:
 
@@ -11,11 +11,7 @@ Edit only the `action:` line in each block:
 
 ## WEST YORKSHIRE — SELECTED
 
----
-action:
-SELECTED | Yorkshire - West | Castleford | £3,840 per year | Children's Residential Support Worker
-job_id: 25362_JR105248-1
----
+_No jobs in this group._
 
 ## WEST YORKSHIRE — POSSIBLES
 
@@ -47,6 +43,12 @@ _No jobs in this group._
 action:
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Doncaster | £31000 - £32000 per year | Healthcare Assistant
 job_id: 23643_225735406
+---
+
+---
+action:
+POSS - YORKSHIRE - SOUTH | Yorkshire - South | Doncaster | £13.6 - £17.55 per hour | Housing Support Worker
+job_id: 23643_225630640
 ---
 
 ---
@@ -135,20 +137,14 @@ job_id: 23643_225725915
 
 ---
 action:
-SELECTED | Sussex | Horsham | £14.8 per hour | Night Care Assistant - Bank
-job_id: 23643_225619999
----
-
----
-action:
-SELECTED | Sussex | Sussex | £14.5 per hour | Night Care Assistant
-job_id: 23643_225440444
----
-
----
-action:
 SELECTED | Sussex | Hastings | £14 - £14.25 per hour (Enhanced for Bank holiday) | Home Care Assistant
 job_id: 23643_225737488
+---
+
+---
+action:
+SELECTED | Sussex | Sussex | £15.5 per hour | Care Assistant - Care Home
+job_id: 23643_225739546
 ---
 
 ## SUSSEX — POSSIBLES
@@ -191,11 +187,7 @@ job_id: 23643_225639600
 
 ## CUMBRIA SOUTH — SELECTED
 
----
-action:
-SELECTED | Cumbria - South | Grange-over-sands | £3,840 per year | Children's Residential Support Worker
-job_id: 25362_JR105293
----
+_No jobs in this group._
 
 ## CUMBRIA SOUTH — POSSIBLES
 
@@ -219,12 +211,6 @@ job_id: 1401785578
 action:
 SELECTED | Hampshire | Winchester | £28697 - £31573 per year | Support Worker (Adults)
 job_id: 1401785731
----
-
----
-action:
-SELECTED | Hampshire | Romsey | £28697 - £31573 per year (), plus Market Supplement of £3,000 pro-rata, per annum) | Children's Homes Support Worker
-job_id: 1401785691
 ---
 
 ---
@@ -379,12 +365,6 @@ job_id: 23643_225505273
 action:
 SELECTED | London | Kingston Upon Thames | £32,000.00 per annum | Specialist Support Worker
 job_id: 2124767
----
-
----
-action:
-SELECTED | London | Kingston Upon Thames | £15,400.00 per annum | Waking Night Support Worker
-job_id: 2124736
 ---
 
 ---
@@ -601,12 +581,6 @@ SELECTED | Oxfordshire | Oxford | £12.71 - £15 per hour | Support Worker
 job_id: 23643_225728855
 ---
 
----
-action:
-SELECTED | Oxfordshire | Burford | £3,840 per year | Children's Residential Support Worker
-job_id: 25362_JR105340
----
-
 ## OXFORDSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -649,6 +623,12 @@ SELECTED | Surrey | Surrey | £15.5 per hour | Care Assistant - Bank - Care Home
 job_id: 23643_225729356
 ---
 
+---
+action:
+SELECTED | Surrey | Surrey | £14.5 per hour | Night Care Assistant
+job_id: 23643_225440444
+---
+
 ## SURREY — POSSIBLES
 
 _No jobs in this group._
@@ -671,12 +651,6 @@ job_id: 23643_225713769
 action:
 SELECTED | Wiltshire | Salisbury | £28479 per year | Support Worker - Clouds House
 job_id: 23643_225712887
----
-
----
-action:
-SELECTED | Wiltshire | Westbury | £3,840 per year | Children's Residential Support Worker
-job_id: 25362_JR105322
 ---
 
 ## WILTSHIRE — POSSIBLES
