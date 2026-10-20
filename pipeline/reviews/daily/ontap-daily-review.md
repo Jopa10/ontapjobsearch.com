@@ -447,7 +447,7 @@ hub_fingerprint: 27b0c5d47d87b66ed18171598059e5c67fcfd6bebfa6ff65717b4615318e22a
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Derbyshire | Derbyshire | £32000 - £35000 per year | Assistant Management Accountant
 source_key: jobg8
 source: JobG8
@@ -465,7 +465,7 @@ hub_fingerprint: 360864363278ef7917f63de66db01d91e601bc7d98dbadb9d8a8b33e462fcfd
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Derbyshire | Derbyshire | £32000 - £39000 per year (£32,000 - £39,000 + car allowance) | Operations Coordinator
 source_key: jobg8
 source: JobG8
@@ -483,7 +483,7 @@ hub_fingerprint: 44648ef93512f14890c985f53f4ed7d603a5b2bef8b1d22e379bded34594b45
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Derbyshire | Derbyshire | £37000 - £39000 per year (£37,000 - £39,000 +£6000 car allowan) | Project Operations Coordinator (Supply Chain / Inventory)
 source_key: jobg8
 source: JobG8
@@ -501,7 +501,7 @@ hub_fingerprint: bf466923aacd59d296ca217aa5eaa7d34fe4bffae76d7f3175e370cf7f189a8
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Derbyshire | Derbyshire | £13.61 - £20.42 per hour | Technical Customer Support Advisor
 source_key: jobg8
 source: JobG8
@@ -519,7 +519,7 @@ hub_fingerprint: b74b28635cda34ec704994f6a65a425a934a219132c732d16e43095979aceb2
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Devon | Devon | £40000 - £45000 per year | Assistant Management Accountant
 source_key: jobg8
 source: JobG8
@@ -537,7 +537,7 @@ hub_fingerprint: 25fc48cd542b5d4e677550c9a9c9e05153d188430aaea586d7487e6b2f01ebc
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Dorset | Dorset | £40000 per year | Personal Assistant
 source_key: jobg8
 source: JobG8
@@ -555,7 +555,7 @@ hub_fingerprint: 6fb2f0e94a57372566bd008675af2645707e919893a2832eb066cf9eaff5b72
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Essex | Essex | £21.4 per hour | Administrator
 source_key: jobg8
 source: JobG8
@@ -573,7 +573,7 @@ hub_fingerprint: ad740f4e96a500e179216347cb20b252f9abb77560435dc241c020b21bf2333
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Essex | Essex | £20 per hour | Credit Controller
 source_key: jobg8
 source: JobG8
@@ -591,7 +591,7 @@ hub_fingerprint: f1070434e2e86874fc05e1db3c2a080a387d9c322c1721a0ff9a7c0634c20f2
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Essex | Essex | £23.77 per hour | Executive Assistant
 source_key: jobg8
 source: JobG8
@@ -609,7 +609,7 @@ hub_fingerprint: 711be92d6e73097bf47a1341fcfdddd684a6c4bf32b33a3dbd41b78d9f33178
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Essex | Essex | £15 - £19.48 per hour (Holiday, Pension & Adecco Benefits) | HR Administrator
 source_key: jobg8
 source: JobG8
@@ -627,7 +627,7 @@ hub_fingerprint: cddf5d29f4ec6c639c30413db7f44a4b44e82d2f7a7c451d291f73729c90948
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Essex | Essex | £20 per hour (PAYE) | HR Support Administrator
 source_key: jobg8
 source: JobG8
@@ -645,7 +645,7 @@ hub_fingerprint: 82277318a141e91c96562861b450a52877cae29aa519b3a21af73b2f0129823
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Essex | Essex | £27.38 per hour (Inside IR35 - Umbrella Rate) | Legal Assistant
 source_key: jobg8
 source: JobG8
@@ -663,7 +663,7 @@ hub_fingerprint: f98c7ca00598f7414ea6342391134fdf73e91a65eada2d330e58ae7aeb74fe4
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Essex | Essex | £34000 - £38000 per year | Rail Sales Coordinator
 source_key: jobg8
 source: JobG8
@@ -681,7 +681,7 @@ hub_fingerprint: 5e7648bc8a1626a5c3a3c4a0ed5cc4823c271094f3e7404720b86d667d3c882
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Essex | Essex | £18 - £20 per hour | Repairs Planner
 source_key: jobg8
 source: JobG8
@@ -699,7 +699,7 @@ hub_fingerprint: 967c70107f983dcba2afdd25fbb8cda222fa40c8a39e0b3336808b7c784c29d
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Essex | Essex | £35000 - £50000 per year (leave, medical and pension) | Supply Chain Coordinator
 source_key: jobg8
 source: JobG8
@@ -717,7 +717,7 @@ hub_fingerprint: 52bf7fd63ae1f1049476d7d2d02373ee1de7ccaf962d5a92a7738e1cddaf87d
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Essex | Takeley | £35000 - £40000 per year | After Sales Technical Administrator
 source_key: jobg8
 source: JobG8
@@ -735,7 +735,7 @@ hub_fingerprint: 6eedf0a613b4aff442f88ce3e9a64e9976c214291c0aaa6de45f0f20ffbbf9d
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Gloucestershire | Gloucestershire | £35000 - £45000 per year (Funded Courses + Benefits + Progres) | Bookkeeper
 source_key: jobg8
 source: JobG8
@@ -753,7 +753,7 @@ hub_fingerprint: 5526851e55ace69ad1f117b8205790024d871ca778e6552dea66bb1f3d29e4a
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Gloucestershire | Gloucestershire | £30000 - £40000 per year (Depend on experience) | Sales Support Coordinator
 source_key: jobg8
 source: JobG8
@@ -771,7 +771,7 @@ hub_fingerprint: 1054c189f8d42011f522ca3b3e7ff92001a2bd555b43fa05cbc1bb504fdf458
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £35000 - £42000 per year | Bookkeeper/Assistant Accountant
 source_key: jobg8
 source: JobG8
@@ -789,7 +789,7 @@ hub_fingerprint: ae71b79edfa8d07222311e313fd245b3d5bc2d0e35f397ea1959b5b4cbcbe59
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £18 - £19 per hour | Contract Coordinator
 source_key: jobg8
 source: JobG8
@@ -807,7 +807,7 @@ hub_fingerprint: 686c3301f93924b683e738941cb02c4afe39ff8a5c8e245f7c4de61768e0d3d
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £30000 - £40000 per year | Document Controller
 source_key: jobg8
 source: JobG8
@@ -825,7 +825,7 @@ hub_fingerprint: 437964dc4748a59b039b7054d6998f1ad22bc1e45a60fbf68f88fa9a63f3359
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £45000 - £55000 per year | Document Controller
 source_key: jobg8
 source: JobG8
@@ -843,7 +843,7 @@ hub_fingerprint: 8ab412aaac3ba0757617a054184ec7ac37f4e56c383a65689bdda7b3a5f5a84
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £32000 - £40000 per year | Document Controller
 source_key: jobg8
 source: JobG8
@@ -861,7 +861,7 @@ hub_fingerprint: 7e4ab0d5ef0b99a74c8fd730bc486f68b26693a5f42ae67c525f88882b8e373
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £16.42 - £22.03 per hour | Housing Customer Service Advisor
 source_key: jobg8
 source: JobG8
@@ -879,7 +879,7 @@ hub_fingerprint: 2d3e956f23a1723ae22ec3a560cde08a81f7c2acd70ebdd5f9b37788b2997bd
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £20 per hour | Repairs Planner
 source_key: jobg8
 source: JobG8
@@ -897,7 +897,7 @@ hub_fingerprint: 40cde0c27a4bf7d2ed0ce5b911a19172f156873781ad31e92e020f1cb0fc358
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £35000 - £40000 per year (To £32,250 basic, plus bonus £40k OT) | Service Advisor
 source_key: jobg8
 source: JobG8
@@ -914,8 +914,8 @@ source_url:
 hub_fingerprint: 78350d07040d4d6194ddf8b074f01a6cbc7eec73619046fcf16f1d6dd4ffd0c5
 ---
 
----
-action:
+--- 
+action: select
 POSS | JobG8 | Greater Manchester - Manchester & Salford | Manchester | £18.5 - £19.5 per hour | Site Administrator
 source_key: jobg8
 source: JobG8
@@ -933,7 +933,7 @@ hub_fingerprint: 652457375922872f989fd3d7015f7fc0d604bfd3da45f9eef743c5fe5d6cf94
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Greater Manchester - Manchester & Salford | Salford | £35000 - £40000 per year (+ Study + Benefits) | Assistant Management Accountant
 source_key: jobg8
 source: JobG8
@@ -951,7 +951,7 @@ hub_fingerprint: 465718ad8835e171f50ec9de150f755e19611535edd9048260dee2f93d16ee8
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Greater Manchester - North | Oldham | £27500 - £29000 per year | Export Administrator
 source_key: jobg8
 source: JobG8
@@ -969,7 +969,7 @@ hub_fingerprint: 92c118ab09135e4151a42790cc3f62b8bd18897f5f6851e9ab1141ba9235217
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Hampshire | Hampshire | £20 per hour | Administrative Assistant
 source_key: jobg8
 source: JobG8
@@ -987,7 +987,7 @@ hub_fingerprint: 5625df61529fa1ff4fa124a4efaff6cba3700527f01d8f965bd4c90b0772c00
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Hampshire | Hampshire | £35000 - £40000 per year (benefits) | Assistant Accountant
 source_key: jobg8
 source: JobG8
@@ -1005,7 +1005,7 @@ hub_fingerprint: 4ad1d3319880fee1b0d4ae2a3d3c3d4693d88e8b939a61586504ee31124d8c5
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Hampshire | Hampshire | £35000 - £40000 per year | Assistant Accountant
 source_key: jobg8
 source: JobG8
@@ -1023,7 +1023,7 @@ hub_fingerprint: df76d23777349dfb231b4fd38deb0618569315960a3879cd9b3a2925384e399
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Hampshire | Hampshire | £37000 per year | Assistant Accountant
 source_key: jobg8
 source: JobG8
@@ -1041,7 +1041,7 @@ hub_fingerprint: 32eef8169afe3ac5d00e09712c85a2a9fb6a47604e71b071be17b8be071b7af
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Hampshire | Hampshire | £35000 - £40000 per year (dependent on experience) | Assistant Accountant
 source_key: jobg8
 source: JobG8
@@ -1059,7 +1059,7 @@ hub_fingerprint: 347b82b68f141bbc493d529a059a370052e819d363da126b4ac95be4ecb0870
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Hampshire | Hampshire | £35000 - £40000 per year | Assistant Accountant
 source_key: jobg8
 source: JobG8
@@ -1077,7 +1077,7 @@ hub_fingerprint: cb7fc7c7791a02599e707d235fc62ce23567a8a10c4a0f3119c51b0ca92052e
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Hampshire | Hampshire | £35000 - £40000 per year | Assistant Accountant
 source_key: jobg8
 source: JobG8
@@ -1095,7 +1095,7 @@ hub_fingerprint: de3076a2f7d91d34347e7f5e0b20e9b43d72be43bd07a59f1996ba2195171a2
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Hampshire | Hampshire | £35000 per year | Assistant Accountant
 source_key: jobg8
 source: JobG8
@@ -1113,7 +1113,7 @@ hub_fingerprint: 45b10716fbdc2c0d9ae3140e7be22c0d4cd7b58845b850eba97cc5e584db974
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Hampshire | Hampshire | £40000 - £50000 per year ((DOE)) | Assistant Management Accountant
 source_key: jobg8
 source: JobG8
@@ -1131,7 +1131,7 @@ hub_fingerprint: a654011b51177e849e5a021e8f1dd6e669fb94b2cdaac30b0b019d7e48bdf30
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Hampshire | Hampshire | £20 per hour | Capability and SQEP Co-Ordinator
 source_key: jobg8
 source: JobG8
@@ -1149,7 +1149,7 @@ hub_fingerprint: b54c82548deaa50ae3e2e349075969df5b8158d8f1400e2e5d76371f3f134f2
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Hampshire | Hampshire | £31000 - £40600 per year | Car Dealership Service Advisor
 source_key: jobg8
 source: JobG8
@@ -1167,7 +1167,7 @@ hub_fingerprint: 68a3a0cb9720fd54335c45e52a7ca0807f74deaacba96a08d9185ecb3c10b27
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Hampshire | Hampshire | £35000 - £45000 per year (+ Package + brilliant perks) | Document Controller
 source_key: jobg8
 source: JobG8
@@ -1185,7 +1185,7 @@ hub_fingerprint: b949ccb69c77c9c841a5a93b5f6e65b03c584d5449ab44751a7920f98c1ec4c
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Hampshire | Hampshire | £35000 - £40000 per year (Negotiable depending on experience) | HR Coordinator
 source_key: jobg8
 source: JobG8
@@ -1203,7 +1203,7 @@ hub_fingerprint: d8384566fa40d45de5d850bba6f46b0591254fddf8d055ad3510effc219213a
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Hampshire | Hampshire | £30000 - £40000 per year | Marketing Co-ordinator
 source_key: jobg8
 source: JobG8
@@ -1221,7 +1221,7 @@ hub_fingerprint: 3141c14a0affa077dbf077419668e7ea17210b62f61c3b2d73f5d5d3de8e689
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Hampshire | Hampshire | £30000 - £40000 per year | Programme Planner
 source_key: jobg8
 source: JobG8
@@ -1239,7 +1239,7 @@ hub_fingerprint: 94f09c4b77859a3b8b68e52c6324088ba8b25481c8aa5154176a66721238388
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Hampshire | Hampshire | £19 per hour | Receptionist/Concierge
 source_key: jobg8
 source: JobG8
@@ -1257,7 +1257,7 @@ hub_fingerprint: f3e499b22c5bd5c7bc2679ec5eb2b349ec5a1b63b695f424d675dd2281b5c5b
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Hampshire | Hampshire | £15.09 - £19.59 per hour | Repairs Planner
 source_key: jobg8
 source: JobG8
@@ -1275,7 +1275,7 @@ hub_fingerprint: ac0142a7ccc62a5cd1e6db83bfe1b1e36abf1213048098da3a6770a148b262b
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Hampshire | Hampshire | £15.09 - £19.43 per hour | Repairs Planner
 source_key: jobg8
 source: JobG8
@@ -1293,7 +1293,7 @@ hub_fingerprint: b96314e525c6aacb3aaefc61c507d2d0124ed128634ea61d7e757b50f9d90fe
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Hampshire | Hampshire | £20 per hour | Secretary/Admin Assistant
 source_key: jobg8
 source: JobG8
