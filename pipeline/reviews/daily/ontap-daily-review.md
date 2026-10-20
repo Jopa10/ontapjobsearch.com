@@ -32,7 +32,7 @@ Edit only each `action:` line:
 ## JobG8 — 290 to review
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Bedfordshire | Bedfordshire | £40000 - £45000 per year | Document Controller
 source_key: jobg8
 source: JobG8
@@ -50,7 +50,7 @@ hub_fingerprint: 367544aed62792f588868493a30218d8d02e8a6cb4d727a841476a3b19f1e1b
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Berkshire | Berkshire | £31500 - £40000 per year (Monday to Friday) | Automotive Service Advisor
 source_key: jobg8
 source: JobG8
@@ -68,7 +68,7 @@ hub_fingerprint: 99ddac419656bf2bc60c7872be5c52086d5936a0f9679e383900e1740492bf4
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Berkshire | Berkshire | £35000 - £40000 per year | Bookkeeper
 source_key: jobg8
 source: JobG8
@@ -86,7 +86,7 @@ hub_fingerprint: 6cf605201127ac336268e83ecfa13e158b3ae107163075a5042030fca33218f
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Berkshire | Berkshire | £26.25 per hour | Domestic Abuse Coordinator
 source_key: jobg8
 source: JobG8
@@ -104,7 +104,7 @@ hub_fingerprint: 76b2e67865304c379c79d6a00a45ac54be6babd4d7b5efc4cd00a2a661b5486
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Berkshire | Reading | £38000 - £44000 per year (Plus bonus and lots of benefits) | Activity Coordinator
 source_key: jobg8
 source: JobG8
@@ -122,7 +122,7 @@ hub_fingerprint: 803f573caf997f1de46f323d0a847431f98c163ea08b9015d2226b6171ba968
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Berkshire | Reading | £32000 - £35000 per year (25 days + study support) | Assistant Accountant
 source_key: jobg8
 source: JobG8
@@ -140,7 +140,7 @@ hub_fingerprint: dd27572caf4a0ee3d81abb3e880066237ad67b935873168e862fad96f4da426
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Bristol & Bath | Bristol | £18 - £19 per hour | Financial Administrator
 source_key: jobg8
 source: JobG8
@@ -158,7 +158,7 @@ hub_fingerprint: f3a808aed0bc7d176f8761e8910f30a19cd794ecfc54d43a72fedeaa5ad524c
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Bristol & Bath | Bristol | £22 per hour | People Coordinator
 source_key: jobg8
 source: JobG8
@@ -176,7 +176,7 @@ hub_fingerprint: e49efb677b4545b3725d7bf36e1949471ff0ede745bf7b5cf04975879c63339
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Bristol & Bath | Bristol | £32000 - £45000 per year | Service Advisor
 source_key: jobg8
 source: JobG8
@@ -194,7 +194,7 @@ hub_fingerprint: 3e4f27bfa2a1a780e0efcf38d8c237135cacb4e07885e4c1e9740025e488cd1
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Buckinghamshire | Buckinghamshire | £20 - £21 per hour | Document Controller
 source_key: jobg8
 source: JobG8
@@ -212,7 +212,7 @@ hub_fingerprint: 2aa3b06c2c8d3f78da5aa0715f491de952b5f7156a53687c28535e0c6299168
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Buckinghamshire | Buckinghamshire | £20 - £21 per hour | Document Controller
 source_key: jobg8
 source: JobG8
@@ -230,7 +230,7 @@ hub_fingerprint: 699c2316e2a673a5f1ad98b31f4be1e8384efc2b5773313ddb2b00f772cf23c
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Buckinghamshire | Buckinghamshire | £45000 - £50000 per year | Executive Assistant
 source_key: jobg8
 source: JobG8
@@ -248,7 +248,7 @@ hub_fingerprint: 1897b4786a55dc1b34b8ccf720f842ecbeaf6ad7cabf9cf8b6e05d060651aea
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Buckinghamshire | Buckinghamshire | £36000 - £40000 per year | HR Assistant
 source_key: jobg8
 source: JobG8
@@ -266,7 +266,7 @@ hub_fingerprint: f146a71cea0a5cacd717706a180b867d07c491488e68a4cb05b67cca69211a2
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Cambridgeshire | Cambridge | £32000 - £36000 per year | Assistant Management Accountant
 source_key: jobg8
 source: JobG8
@@ -284,7 +284,7 @@ hub_fingerprint: afa3282600444cd0a7e2994994f259a36b62f0ae993e46061c1cb85c03df460
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Cambridgeshire | Cambridge | £35000 - £40000 per year | Document Controller
 source_key: jobg8
 source: JobG8
@@ -302,7 +302,7 @@ hub_fingerprint: e18e51199d5bbd0606d932068f8fa9c5002691701f12a703a6247c5af3abe28
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Cambridgeshire | Cambridge | £35000 - £38000 per year (Excellent) | Italian speaking Credit Controller
 source_key: jobg8
 source: JobG8
@@ -320,7 +320,7 @@ hub_fingerprint: 5dd84bfff1f13d293190103b31d2337fd039f9bf7cfd9c42721adbc8ef281ad
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Cambridgeshire | Cambridge | £21 per hour | Project Administrator
 source_key: jobg8
 source: JobG8
@@ -338,7 +338,7 @@ hub_fingerprint: 9b6bfcf03a158ea39b5791545ba0a7a3c46e3346d7f96f7b5c4fdbb7a629e11
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Cambridgeshire | Cambridge | £45000 - £50000 per year | Secretary
 source_key: jobg8
 source: JobG8
@@ -356,7 +356,7 @@ hub_fingerprint: caa3582592e7ecd232bd2edf9091b211980326a4dac7cf586fc6c073afaf480
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Cambridgeshire | Peterborough | £40000 - £50000 per year (Car or Allowance, Health, Pension, B) | Customer Care Coordinator
 source_key: jobg8
 source: JobG8
@@ -374,7 +374,7 @@ hub_fingerprint: 1a2763a8d99acb9c51638939b3f1d5896e43fa7c442874d83fa4a7903e49e8b
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Cheshire - Warrington & Halton | Warrington | £16.29 - £21 per hour | Broker Administrator
 source_key: jobg8
 source: JobG8
@@ -392,7 +392,8 @@ hub_fingerprint: c6a5c2bd0c31f911e5f346dce6e7df4ad74ef9071bc160c7580390a4b91ce29
 ---
 
 ---
-action:
+
+action: exclude
 POSS | JobG8 | Cheshire - Warrington & Halton | Warrington | £18 - £22 per hour | SHEQ Coordinator
 source_key: jobg8
 source: JobG8
@@ -410,7 +411,7 @@ hub_fingerprint: 9290489c88703691f409b3106d485f96b15b2ddaab896af99e51dcabfc54acf
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Cheshire - West | Chester | £16 - £19 per hour | Interim Credit Controller
 source_key: jobg8
 source: JobG8
@@ -428,7 +429,7 @@ hub_fingerprint: c8e24845d53219e8a828464a526368872d5554fe9178d58910a3a59a13f0656
 ---
 
 ---
-action:
+action:  exclude
 POSS | JobG8 | Cumbria - North | Carlisle | £40000 - £42000 per year (Benefits) | Service Advisor
 source_key: jobg8
 source: JobG8
