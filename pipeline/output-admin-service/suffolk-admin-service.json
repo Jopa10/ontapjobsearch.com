@@ -974,11 +974,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9179-26-0654",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9179-26-0654",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5645897",
@@ -996,11 +992,25 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9179-26-0649",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9179-26-0649",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
+  },
+  {
+    "job_id": "nhs-5664247",
+    "source": "NHS Jobs",
+    "title": "Receptionist / Care Navigator",
+    "company": "Primary Care Careers",
+    "advertiser_name": "Primary Care Careers",
+    "location": "Beccles, NR34 9NX",
+    "region": "Suffolk",
+    "salary": "£13.23",
+    "employment_type": "Fixed-Term",
+    "posted_date": "2026-10-20T15:43:04.504900892",
+    "closing_date": "2026-10-30",
+    "description": "eccles Medical Centre is looking to recruit a receptionist/care navigator to join our team on a part-time basis, for 20 hours a week. The care navigation team plays a vital role in supporting the administrative operations of Beccles Medical Centre. As a care navigator, you will often be the first point of contact for patients entering the practice, providing high-quality customer service and handling a wide range of patient enquiries on a daily basis. Excellent communication skills, professionalism, and a patient-centred approach are essential for success in this role. You will work under the direct supervision of the care navigation team leader, and contribute to the efficient day-to-day running of a busy medical centre that supports nearly 20,000 patients. You will be trained in care navigation as a foundation to any role at BMC which means that you will be the first line to the patient and will take I.C.E (ideas, concerns and expectations) from patients as trained, and care navigate to the right place, right person, right time, right resource using in-house protocols and procedures and online consultation tool when available. It is important in all roles across the practice that attention to detail, listening skills and teamwork are paramount. Whilst staff can work in differing roles, BMC encourages staff to work in an integral way across the whole of the practice. Duties and responsibilities include: Deliver care navigation as a core function of the role, acting as the first line of contact for patients. Use the I.C.E. model (ideas, concerns, expectations) to gather essential information from patients. Ensure patients are directed to the right place, right person, at the right time, utilising in-house protocols, procedures, and online consultation tools as appropriate. Provide consistently high standards of customer service and maintain professionalism in all patient interactions. Work collaboratively across the wider practice, supporting colleagues in a flexible and integrated manner. If you would like to find out more information about this role, please do not hesitate to get in contact with us.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0975",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0975",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5667924",
@@ -1018,11 +1028,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9432-26-0821",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9432-26-0821",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5660727",
@@ -1040,11 +1046,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9246-26-1174",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9246-26-1174",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5653700",
@@ -1062,10 +1064,6 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2466-26-0014",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2466-26-0014",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   }
 ]

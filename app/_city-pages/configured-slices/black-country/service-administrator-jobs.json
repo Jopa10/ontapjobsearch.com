@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-school-receptionist-new-leaf-school",
-    "title": "School Receptionist",
-    "company": "New Leaf School",
-    "location": "Walsall",
-    "region": "West Midlands - Black Country",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£21,924.00 - £22,623.00 Annually (Actual) Grade 3 SCP 4-6 | 36.25 Hours | 39 Weeks",
-    "work_pattern": "",
-    "posted_date": "2026-09-29",
-    "closing_date": "2026-10-20",
-    "closing_datetime": "2026-10-20T09:00:00+01:00",
-    "summary": "School Receptionist with New Leaf School in Walsall. ['full time']; £21,924.00 - £22,623.00 Annually (Actual) Grade 3 SCP 4-6 | 36.25 Hours | 39 Weeks.",
-    "description": "New Leaf School is recruiting for this vacancy in Walsall.\n\nThe advertised position is School Receptionist.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £21,924.00 - £22,623.00 Annually (Actual) Grade 3 SCP 4-6 | 36.25 Hours | 39 Weeks.\n\nThe stated application deadline is 2026-10-20T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-new-leaf-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "New Leaf School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-reception-secretary-ec1c05c3-72a7-428c-9317-7e034cf6f8cf",
     "title": "Reception Secretary",
     "company": "Queen Mary's Grammar School",
@@ -306,6 +278,31 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "23643_225646608",
+    "title": "Customer Service Advisor",
+    "company": "Ideal Recruit Ltd - Agency - Temporary",
+    "location": "Smethwick",
+    "region": "West Midlands - Black Country",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "12.71",
+    "salary_max": "19.91",
+    "salary_text": "£12.71 - £19.91 per hour",
+    "posted_date": "2026-10-20",
+    "description": "The Results People are looking for Customer services advisors for our well-known client based in Smethwick.\n\nLocation: Smethwick\nJob Type: Temporary to Permanent\nHours: 37.5 hours per week\nPay: £12.71 per hour initially, increasing to £13.27 per hour after 12 weeks\nOvertime: After 12 weeks, overtime may be available at £19.91 per hour\n\nAbout the Role\n\nWe are currently recruiting for Customer Service Advisors to join a busy team in Smethwick.\n\nThis is a fantastic opportunity for candidates who enjoy working with people, are confident communicating over the phone and by email, and have a strong customer-focused approach.\n\nYou will be responsible for handling customer enquiries and complaints, providing excellent customer service, and ensuring queries are dealt with professionally and efficiently.\n\nKey Responsibilities\n- Handling customer enquiries by telephone and email\n- Dealing with customer complaints in a professional and helpful manner\n- Providing accurate information and resolving customer queries\n- Maintaining a high level of customer service at all times\n- Updating customer records and internal systems\n- Working as part of a busy and supportive team\n- Escalating complex issues where necessary\n- Following company procedures and maintaining a professional approach\n\nWorking Hours\n\nThe role is 37.5 hours per week, including a 30-minute unpaid break.\n\nYou will work 5 days out of 7, with the following operating hours:\n- Monday Friday: 08 30\n- Saturday Sunday: 08 00\n- Weekend working: 1 weekend every 6 weeks\n\nYour working days and shifts will be confirmed as part of the recruitment process.\n\nPay & Benefits\n- £12.71 per hour initially\n- £13.27 per hour after 12 weeks\n- Potential for overtime after 12 weeks\n- Overtime paid at £19.91 per hour\n- Temporary to permanent opportunity\n- 2 weeks' fully supported training\n- On-site canteen\n- On-site car park\n\nTraining\n\nAll successful candidates will receive 2 weeks of training to help you settle into the role:\n\nWeek 1 Introduction\n- Introduction to the company and team\n- Role expectations and procedures\n- Customer service training\n\nWeek 2 System Training\n- Full training on the systems you will be using\n- Practical guidance and support\n- Preparation for moving into the role\n\nAbout You\n\nThe ideal candidate will:\n- Have excellent communication skills\n- Be confident speaking to customers over the phone\n- Have good written communication skills for dealing with emails\n- Be comfortable handling complaints and difficult conversations\n- Have a professional and positive attitude\n- Be able to remain calm under pressure\n- Have good attention to detail\n- Be reliable and punctual\n- Be comfortable working as part of a busy team\n\nPrevious customer service or call centre experience would be beneficial, but full training will be provided.\n\nHow to Apply\n\nIf you are looking for a long-term opportunity with the potential to become permanent, we would love to hear from you.\n\nIdeal candidates will be invited to attend an interview.\n\nApply today to be considered for this exciting Customer Service Advisor opportunity in Smethwick.\n\nSend a text message with your name and Customer services to (phone number removed) or call (phone number removed).",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX4cLJ7kNPNn2WZhW2AXuykUz",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Ideal Recruit Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
     "posted_date_basis": "ontap_first_published"
   },
   {
@@ -1175,9 +1172,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9225-26-0733",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1197,9 +1191,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0471-26-0004",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1219,9 +1210,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A6058-26-0000",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1241,9 +1229,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1659-26-0002",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1263,9 +1248,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9285-26-0673",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1285,9 +1267,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0692-26-0003",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1307,9 +1286,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9407-26-0402",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1329,9 +1305,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2805-26-0014",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -1351,9 +1324,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9285-26-0691",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

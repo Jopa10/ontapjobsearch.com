@@ -506,6 +506,25 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "nhs-5675104",
+    "source": "NHS Jobs",
+    "title": "GP Receptionist",
+    "company": "SSP Health",
+    "advertiser_name": "SSP Health",
+    "location": "Leigh, wn7 2pe",
+    "region": "Greater Manchester - Wigan & Bolton",
+    "salary": "£12.71",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-20T13:13:37.723559165",
+    "closing_date": "2026-11-13",
+    "description": "We are looking to appoint a Receptionist/Administrator/Care Navigator to join our busy GP practice across three of Leigh Family Practice, all based within Leigh. You will be the first point of contact for arranging patient appointments, as well as carrying out general office tasks. You will have a good telephone manner and experience of booking appointments proving strong organisational skills. You will work selected shifts between our opening hours of Monday - Friday: 8am - 6:30pm including Monday and Friday 8am-5.30pm and 9am-6.30pm alternated shifts. Your regular duties in this role will be dealing with telephone, face to face and electronic enquiries, booking and/or amending patient appointments and home visits, contacting patients to provide information from the clinical team and assisting patients to access our services and those available in the wider community. You will have a good telephone manner and experience of booking appointments proving strong organisational skills. You will work selected shifts between our opening hours of Monday - Friday: 8am - 6:30pm You will manage general administrative duties within the practices and work with our established processes, policies and procedures to provide a comprehensive high quality service and deal efficiently and courteously with patient enquiries and bookings. You will have excellent communication skills, a compassionate and friendly nature who can operate in a busy, demanding environment with a range of people and professions, as you will be working in our clinical and administration teams. This role is ideal for someone who is highly organised and an effective communicator who can provide a professional and warm welcome to our patients, ensuring every contact is of the highest quality.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5035-26-0087",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5035-26-0087",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5656125",
     "source": "NHS Jobs",
     "title": "Medical Receptionist",
@@ -522,9 +541,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4671-26-0000",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -544,9 +560,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2123-26-0015",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

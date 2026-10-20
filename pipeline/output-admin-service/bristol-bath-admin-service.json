@@ -1093,11 +1093,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0769",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0769",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5656080",
@@ -1115,11 +1111,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0560",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9083-26-0560",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5648878",
@@ -1137,11 +1129,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4134-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4134-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5643626",
@@ -1159,11 +1147,25 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-2058",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-2058",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
+  },
+  {
+    "job_id": "nhs-5674929",
+    "source": "NHS Jobs",
+    "title": "Outpatient Receptionist",
+    "company": "Bristol NHS Foundation Trust",
+    "advertiser_name": "Bristol NHS Foundation Trust",
+    "location": "Bristol, BS2 8EG",
+    "region": "Bristol & Bath",
+    "salary": "£25272.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-20T10:14:39.467633045",
+    "closing_date": "2026-11-03",
+    "description": "We are looking for a motivated and enthusiastic individual to become members of our Outpatient Reception team. Duties include greeting and arriving patients and their families, clinic preparation and general clerical duties under the supervision of the outpatient reception team leader. Communication : To liaise with wards, clinical staff, GPs and Trust support staff in person, via telephone and email as and when necessary To show a caring and professional approach towards patients and visitors when carrying out reception and appointment duties Escalate patient queries, capacity problems and general issues to the role's line manager or relevant clinical staff as appropriate. Patient Care: To show a caring and professional approach towards patients, relatives and carers. This may require acting with resilience to deal with sometimes distressed patients and relatives in an empathetic manner Organising and Planning: To carry out associated clerical duties, for example maintaining accurate filing systems, receiving post, diary management and scanning patient notes if required. To keep waiting areas tidy and patient information materials up to date To undertake the role's duties in the case of a major incident in your department (E.g. the ED Major Incident Process) Attend appropriate meetings as required by the role's line manager. Service Development and Research: Attend training courses as required to support personal development and the needs of the service. Assist in training of new members of the team. To take part in departmental audits and associated duties For a more detailed job description, main responsibilities, and person specification, please refer to the job description document attached to this vacancy.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-2148",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9387-26-2148",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5652485",
@@ -1181,11 +1183,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0375-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0375-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5647790",
@@ -1203,11 +1201,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0393-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0393-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5643222",
@@ -1225,11 +1219,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0678-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0678-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5635693",
@@ -1247,10 +1237,6 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0477-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0477-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   }
 ]

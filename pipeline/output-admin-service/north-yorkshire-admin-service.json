@@ -877,11 +877,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1286",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1286",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5635501",
@@ -899,11 +895,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4288-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4288-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5665026",
@@ -921,11 +913,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9419-26-0849",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9419-26-0849",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5655930",
@@ -943,11 +931,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1251",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1251",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5655371",
@@ -965,11 +949,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3172-26-0024",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3172-26-0024",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5649706",
@@ -987,11 +967,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1230",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9346-26-1230",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5651232",
@@ -1009,10 +985,6 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4014-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4014-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   }
 ]

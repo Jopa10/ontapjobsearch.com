@@ -2884,6 +2884,24 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "nhs-5675146",
+    "source": "NHS Jobs",
+    "title": "Receptionist",
+    "company": "Dapdune House Surgery",
+    "advertiser_name": "Dapdune House Surgery",
+    "location": "Guildford, GU1 4RP",
+    "region": "Surrey",
+    "salary": "£12.71",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-20T09:57:31.720982006",
+    "closing_date": "2026-11-01",
+    "description": "GP Receptionist Are you passionate about helping people? Do you thrive in a fast-paced, team-oriented environment? We are looking for a GP Receptionist to join our friendly and supportive team at Dapdune House Surgery. As the first point of contact for our patients, you will play a vital role in delivering excellent customer service and ensuring a positive patient experience. Whether welcoming patients at the reception desk or assisting them over the telephone, you will be calm, professional, and compassionate, helping patients access the care and support they need. Our website:www.dapdune.nhs.uk As part of our reception team, you will: Deliver a warm, welcoming and professional service to patients and visitors. Manage appointments, telephone calls and patient enquiries efficiently and accurately. Support patients with empathy, patience and understanding. Work collaboratively with clinicians and administrative colleagues to ensure smooth patient journeys. Maintain accurate records while ensuring confidentiality at all times. Undertake a range of administrative tasks to support the day-to-day operation of the practice. Contribute positively to a busy team environment and help deliver high-quality patient care. Greet patients and visitors in a professional and courteous manner. Answer telephone calls and respond to patient enquiries. Book, amend and cancel appointments using the practice clinical system. Direct patients to the most appropriate service or healthcare professional. Process repeat prescription requests in accordance with practice procedures. Scan, file and manage patient documentation. Register new patients and update patient information as required. Process incoming and outgoing correspondence. Maintain confidentiality and comply with GDPR and practice policies. Support clinicians and colleagues with administrative tasks. Maintain a clean, organised and welcoming reception area. Undertake additional duties as required to support the effective running of the practice.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2806-26-0001",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2806-26-0001",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A"
+  },
+  {
     "job_id": "nhs-5653539",
     "source": "NHS Jobs",
     "title": "Receptionist",
@@ -2899,11 +2917,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2942",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2942",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5653490",
@@ -2921,11 +2935,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2941",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2941",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5650956",
@@ -2943,11 +2953,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2935",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0314-26-2935",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5674367",
@@ -2965,11 +2971,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2934",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0279-26-2934",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5669830",
@@ -2987,11 +2989,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3505-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3505-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5659896",
@@ -3009,11 +3007,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3024-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3024-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5635205",
@@ -3031,10 +3025,6 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5057-26-0011",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5057-26-0011",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   }
 ]

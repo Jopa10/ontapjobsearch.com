@@ -1174,11 +1174,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0100",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0100",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5671545",
@@ -1196,11 +1192,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1902-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1902-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5661619",
@@ -1218,11 +1210,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4343-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4343-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5654826",
@@ -1240,11 +1228,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9186-26-0732",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9186-26-0732",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5652756",
@@ -1262,11 +1246,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9335-26-0140",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9335-26-0140",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5645581",
@@ -1284,11 +1264,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1310-26-0024",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1310-26-0024",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5630537",
@@ -1306,11 +1282,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0092",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0045-26-0092",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5673832",
@@ -1328,11 +1300,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3721-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3721-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5653042",
@@ -1350,11 +1318,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0220-26-0013MED",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0220-26-0013MED",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5640257",
@@ -1372,10 +1336,24 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0567-26-1234",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0567-26-1234",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
+  },
+  {
+    "job_id": "nhs-5629000",
+    "source": "NHS Jobs",
+    "title": "Receptionist/Care Navigator",
+    "company": "Radford Medical Practice",
+    "advertiser_name": "Radford Medical Practice",
+    "location": "Nottingham, NG7 3GW, Nottingham, NG1 4FW",
+    "region": "Nottinghamshire",
+    "salary": "Negotiable",
+    "employment_type": "Permanent",
+    "posted_date": "2026-09-30T08:15:02.896252",
+    "closing_date": "2026-10-20",
+    "description": "An exciting opportunity has arisen to work within our experienced administration team. We are looking for someone who is highly motivated, enthusiastic and adaptable and who also has a passion for helping and supporting patients. We are looking for someone who is able to work independently, can be flexible with their working pattern and has excellent communication skills. So, why would you want to work for us?..... You can enjoy the benefits of: A paid 30 minute lunch break. Company wellbeing events. NHS Blue light Discount. The opportunity to join the NHS pension scheme. The practice has a commitment to training and development of its team. Also, here is what some of our employees say about working for us! \"Every day brings a new challenge. I am continually learning.\" \"The satisfaction of knowing you've helped someone.\" \"I love working at Radford Medical Practice, the staff are really nice to work with, everyone works as a team and you can always ask for help if you need it from a member of the admin team or clinical team, everyone is always happy to help.\" \"Radford Medical Practice has a diverse staff ratio.\" Please apply via NHS jobs. If you have any questions please contact lesley.bethell@nhs.net. We look forward to meeting you! The role involves daily face-to-face and telephone contact with patients, carers and visitors, working within our friendly Care Navigator/ Administrations team. Our key aim is to enable patients to interact with the Right Person for the Right Reason at the Right Time. We encourage applications from candidates seeking either part-time work. Hours to include 8am starts and 6.30pm finishes. You will be required to respond to all queries and requests for assistance from patients and visitors efficiently and courteously. To ensure that telephones are answered promptly and politely at all times. To assist patients in using the practice online consultation system. To receive, assist and direct patients in accessing the most appropriate service or healthcare professional. This may be via the online consultation system, face to face or via telephone. To prioritise calls/patient requests according to urgency. To deal with any prescription requests promptly, ensuring at all times that patient details are correct.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3966-26-0006",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3966-26-0006",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B"
   }
 ]

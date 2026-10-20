@@ -350,6 +350,24 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "nhs-5676988",
+    "source": "NHS Jobs",
+    "title": "GP Receptionist",
+    "company": "Kirkham Health Centre",
+    "advertiser_name": "Kirkham Health Centre",
+    "location": "Preston, PR4 2DL",
+    "region": "Lancashire - Central",
+    "salary": "£12.82",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-20T14:43:29.140116131",
+    "closing_date": "2026-11-17",
+    "description": "We are looking for a friendly, approachable and enthusiastic receptionist. Our reception team ensures our patients are directed to the most appropriate service or clinician. The hours of work are 25 hours per week, 5 hours per day on a rota basis between 7:45am and 18:45pm. There may be an occasion where you would be required to work extra hours to cover annual leave or other absences. Reception duties, including answering calls, booking appointments, sign posting patients, dealing with prescription requests and all patient queries. Greeting patients and visitors in a professional and friendly manner Managing appointment bookings and cancellations Handling incoming calls and responding to queries Maintaining accurate patient records using clinical systems Processing online triage requests Liaising with clinicians and other healthcare professionals Ensuring confidentiality and data protection at all times Supporting general administrative duties within the practice Keeping the reception and patient waiting areas clean and tidy",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5252-26-0015",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5252-26-0015",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B"
+  },
+  {
     "job_id": "nhs-5665294",
     "source": "NHS Jobs",
     "title": "GP Surgery Receptionist",
@@ -365,11 +383,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4240-26-0013",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4240-26-0013",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5659594",
@@ -387,10 +401,6 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0392-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0392-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   }
 ]
