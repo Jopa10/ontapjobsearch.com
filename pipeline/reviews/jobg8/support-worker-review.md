@@ -27,7 +27,11 @@ job_id: 23643_225735406
 
 ## SOUTH YORKSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £39308 per year | Communication Support Worker
+job_id: 108213449
+---
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — SELECTED
 
@@ -145,6 +149,12 @@ SELECTED | Sussex | Sussex | £15.5 per hour | Care Assistant - Care Home
 job_id: 23643_225739546
 ---
 
+---
+action:
+SELECTED | Sussex | Sussex | £14.5 per hour | Night Care Assistant
+job_id: 23643_225440444
+---
+
 ## SUSSEX — POSSIBLES
 
 _No jobs in this group._
@@ -217,6 +227,12 @@ job_id: 23643_225730890
 action:
 SELECTED | Hampshire | Alton | £26018 - £27111 per year | Care Assistant
 job_id: 1401785913
+---
+
+---
+action:
+SELECTED | Hampshire | Gosport | £26018 - £27111 per year | Care Assistant
+job_id: 1401785962
 ---
 
 ## HAMPSHIRE — POSSIBLES
@@ -555,29 +571,11 @@ SELECTED | Surrey | Surrey | £15.5 per hour | Care Assistant - Bank - Care Home
 job_id: 23643_225729356
 ---
 
----
-action:
-SELECTED | Surrey | Surrey | £14.5 per hour | Night Care Assistant
-job_id: 23643_225440444
----
-
 ## SURREY — POSSIBLES
 
 _No jobs in this group._
 
 ## WILTSHIRE — SELECTED
-
----
-action:
-SELECTED | Wiltshire | Trowbridge | £14.25 - £16.35 per hour | Care Assistant
-job_id: 23643_225550225
----
-
----
-action:
-SELECTED | Wiltshire | Trowbridge | £14.25 - £16.35 per hour | Support Worker
-job_id: 23643_225550189
----
 
 ---
 action:
@@ -607,12 +605,6 @@ job_id: 23643_225713769
 action:
 SELECTED | Wiltshire | Salisbury | £28479 per year | Support Worker - Clouds House
 job_id: 23643_225712887
----
-
----
-action:
-SELECTED | Wiltshire | Wiltshire | £14.25 - £15.5 per hour | Learning Support Assistant
-job_id: 23643_225660582
 ---
 
 ## WILTSHIRE — POSSIBLES

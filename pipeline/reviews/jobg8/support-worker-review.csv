@@ -1,5 +1,6 @@
 ﻿feed_date,decision,region,title,town,salary_text,manual_override,manual_select,job_id
 2026-10-20,SELECTED,Yorkshire - South,Healthcare Assistant,Doncaster,£31000 - £32000 per year,,,23643_225735406
+2026-10-20,POSS - YORKSHIRE - SOUTH,Yorkshire - South,Communication Support Worker,Sheffield,£39308 per year,,,108213449
 2026-10-20,SELECTED,"North East - Tyneside, Wearside & Northumberland",Healthcare Assistant,Corbridge,£14.27 per hour,,,23643_225715797
 2026-10-20,SELECTED,"North East - Tyneside, Wearside & Northumberland",Care Assistant - Care Home,Bedlington,£13.21 per hour,,,23643_225715617
 2026-10-20,SELECTED,North East - County Durham & Darlington/Hartlepool,Family Support Worker,Darlington,£17 - £17.5 per hour (rate depending on experience),,,23643_225638969
@@ -17,6 +18,7 @@
 2026-10-20,SELECTED,Sussex,Healthcare Assistant,Sussex,£12.85 - £18.4 per hour,,,23643_225678003
 2026-10-20,SELECTED,Sussex,Home Care Assistant,Hastings,£14 - £14.25 per hour (Enhanced for Bank holiday),,,23643_225737488
 2026-10-20,SELECTED,Sussex,Care Assistant - Care Home,Sussex,£15.5 per hour,,,23643_225739546
+2026-10-20,SELECTED,Sussex,Night Care Assistant,Sussex,£14.5 per hour,,,23643_225440444
 2026-10-20,SELECTED,Hampshire,Therapeutic Children's Support Worker,Colden Common,£27500 per year,,,23643_225653471
 2026-10-20,SELECTED,Hampshire,Secure Children's Home Support Worker,Eastleigh,"£32780 - £35564 per year (Market Supplement, plus Enhancements)",,,1401785578
 2026-10-20,SELECTED,Hampshire,Support Worker (Adults),Winchester,£28697 - £31573 per year,,,1401785731
@@ -27,6 +29,7 @@
 2026-10-20,SELECTED,Hampshire,Children's Home Support Worker,Hook,£28697 - £31573 per year,,,1401785773
 2026-10-20,SELECTED,Hampshire,Home Care Assistant - Complex Care Adults,Hampshire,£13.5 - £16.8 per hour,,,23643_225730890
 2026-10-20,SELECTED,Hampshire,Care Assistant,Alton,£26018 - £27111 per year,,,1401785913
+2026-10-20,SELECTED,Hampshire,Care Assistant,Gosport,£26018 - £27111 per year,,,1401785962
 2026-10-20,SELECTED,Kent,"Family Support Worker/Ashford, Kent/GBP15-18p/h",Ashford,£15 - £18 per hour,,,23643_225669052
 2026-10-20,SELECTED,Kent,Residential Support Worker,Sittingbourne,£12.75 - £13 per hour,,,23643_225505333
 2026-10-20,SELECTED,Kent,Residential Support Worker,Maidstone,£12.75 - £13 per hour,,,23643_225505330
@@ -79,12 +82,8 @@
 2026-10-20,SELECTED,Surrey,Residential Support Worker,Cobham,£12.75 - £13.5 per hour,,,23643_225505322
 2026-10-20,SELECTED,Surrey,Residential Support Worker,Redhill,£31000 - £35000 per year,,,23643_225505302
 2026-10-20,SELECTED,Surrey,Care Assistant - Bank - Care Home,Surrey,£15.5 per hour,,,23643_225729356
-2026-10-20,SELECTED,Surrey,Night Care Assistant,Surrey,£14.5 per hour,,,23643_225440444
-2026-10-20,SELECTED,Wiltshire,Care Assistant,Trowbridge,£14.25 - £16.35 per hour,,,23643_225550225
-2026-10-20,SELECTED,Wiltshire,Support Worker,Trowbridge,£14.25 - £16.35 per hour,,,23643_225550189
 2026-10-20,SELECTED,Wiltshire,Care Assistant - Care Home,Trowbridge,£14.46 per hour,,,23643_225710191
 2026-10-20,SELECTED,Wiltshire,Care Assistant - Bank - Care Home,Trowbridge,£16.2 per hour,,,23643_225710192
 2026-10-20,SELECTED,Wiltshire,Care Assistant - Bank - Care Home,Wiltshire,£16.03 per hour,,,23643_225713768
 2026-10-20,SELECTED,Wiltshire,Care Assistant - Care Home,Wiltshire,£14.31 per hour,,,23643_225713769
 2026-10-20,SELECTED,Wiltshire,Support Worker - Clouds House,Salisbury,£28479 per year,,,23643_225712887
-2026-10-20,SELECTED,Wiltshire,Learning Support Assistant,Wiltshire,£14.25 - £15.5 per hour,,,23643_225660582
