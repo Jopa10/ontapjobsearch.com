@@ -1,10 +1,10 @@
 # Ontap daily job review
 
-> **NOT READY TO REVIEW — waiting for: NEJobs, VONNE, Teaching Vacancies, NHS Jobs**
+> **NOT READY TO REVIEW — waiting for: NEJobs, VONNE, Teaching Vacancies**
 > Do not start reviewing yet. Rebuild this review after those source refreshes complete.
 
 review_date: 2026-10-20
-generated_at: 2026-10-20T07:06:38+00:00
+generated_at: 2026-10-20T11:55:52+00:00
 
 **290 job(s) need a human decision.**
 
@@ -25,7 +25,7 @@ Edit only each `action:` line:
 | NEJobs | STALE | 2026-09-18 | 0 | — |
 | VONNE | STALE | 2026-10-19 | 0 | — |
 | Teaching Vacancies | STALE | 2026-10-19 | 0 | — |
-| NHS Jobs | STALE | 2026-10-19 | 0 | automatic Tier A/B publish; NHS POSS stays in the NHS-specific review and is optional |
+| NHS Jobs | OK | 2026-10-20 | 0 | automatic Tier A/B publish; NHS POSS stays in the NHS-specific review and is optional |
 
 > **Attention:** one or more active source reviews are stale or missing. Those sources contribute no jobs to this file and must not be treated as zero inventory.
 
@@ -5250,3 +5250,7 @@ reason: JobG8 selector marked this vacancy POSS
 source_url: 
 hub_fingerprint: deafac8cf6df4fe633986670ddff4e007efec0d11e729bf4ff3411bab5ba5f7f
 ---
+
+## NHS Jobs — 0 to review
+
+_No new or changed human decisions required._
