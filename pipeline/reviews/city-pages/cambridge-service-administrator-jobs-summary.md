@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 23
+- Effective included jobs: 26
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 23
-- automatic review: 7
+- automatic include: 26
+- automatic review: 9
 - automatic exclude: 18
-- effective include: 23
-- effective review: 7
+- effective include: 26
+- effective review: 9
 - effective exclude: 18
 
-## INCLUDE (23)
+## INCLUDE (26)
 
 ---
 action: 
@@ -112,6 +112,18 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Assistant Management Accountant
+company: Pure Resourcing Solutions Limited - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-23643_225703471
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Brand & Marketing Executive
 company: UBT - Agency - Permanent
 location: Cambridgeshire
@@ -129,6 +141,18 @@ company: Universal Business Team - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-23643_225662551
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Commercial Account Manager
+company: Select Recruitment Specialists Ltd - Agency - Temporary
+location: Cambridge
+source: JobG8
+job_id: jobg8-23643_225670934
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -280,6 +304,18 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Telesales Executive
+company: Reed Specialist Recruitment - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-23643_225735950
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Temporary Accounts Assistant
 company: Eclectic Recruitment - Agency - Temporary
 location: Cambridge
@@ -300,7 +336,7 @@ job_id: nhs-5673923
 reason: Approved conservative Cambridge launch catchment.
 ---
 
-## REVIEW (7)
+## REVIEW (9)
 
 ---
 action: 
@@ -371,6 +407,30 @@ company: Adecco - Agency - Permanent
 location: Wisbech
 source: JobG8
 job_id: jobg8-23643_225642540
+reason: No approved Cambridge catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Executive
+company: Anne Corder Recruitment - Agency - Permanent
+location: St. Ives
+source: JobG8
+job_id: jobg8-23643_225657890
+reason: No approved Cambridge catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Executive
+company: Interaction Recruitment - Agency - Permanent
+location: St. Ives
+source: JobG8
+job_id: jobg8-23643_225661395
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 

@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 37
-- automatic exclude: 122
+- automatic review: 39
+- automatic exclude: 130
 - effective include: 8
-- effective review: 37
-- effective exclude: 122
+- effective review: 39
+- effective exclude: 130
 
 ## INCLUDE (8)
 
@@ -120,7 +120,7 @@ job_id: jobg8-23643_225638565
 reason: Approved Huddersfield catchment.
 ---
 
-## REVIEW (37)
+## REVIEW (39)
 
 ---
 action: 
@@ -191,6 +191,30 @@ company: Mpeople Recruitment - Agency - Permanent
 location: Batley
 source: JobG8
 job_id: jobg8-2088263
+reason: No approved Huddersfield catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: Mpeople Recruitment North West - Agency - Permanent
+location: Batley
+source: JobG8
+job_id: jobg8-23643_225729117
+reason: No approved Huddersfield catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: Search Consultancy Ltd - Agency - Contract
+location: Batley
+source: JobG8
+job_id: jobg8-23643_225704238
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
@@ -566,7 +590,7 @@ job_id: jobg8-23643_225555461
 reason: No approved Huddersfield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (122)
+## EXCLUDE (130)
 
 ---
 action: 
@@ -601,18 +625,6 @@ company: Aspire People - Agency - Temporary
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225739432
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrative Assistant
-company: Holy Rosary and St Anne's Catholic Primary School, a Voluntary Academy
-location: Leeds
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-holy-rosary-and-st-anne-s-catholic-primary-school-a-voluntary-academy-leeds-west-yorkshire
 reason: Separate employment market.
 ---
 
@@ -673,6 +685,18 @@ company: The North Halifax Grammar School
 location: Halifax
 source: Teaching Vacancies
 job_id: teaching-vacancies-apprentice-business-support-administrator
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Assistant Management Accountant
+company: Hays Accounts and Finance - Agency - Temporary
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225710957
 reason: Separate employment market.
 ---
 
@@ -745,6 +769,30 @@ company: Reed Specialist Recruitment - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225673075
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Business Administrator
+company: Permanent Futures Limited - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225682342
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Business Support Officer
+company: Hatched Recruitment Group - Agency - Temporary
+location: Bradford
+source: JobG8
+job_id: jobg8-23643_225735615
 reason: Separate employment market.
 ---
 
@@ -992,6 +1040,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Customer Service / Sales Support Team Leader
+company: Huntress - Leeds - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225676663
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Customer Service Administrator
 company: Huntress - Leeds - Agency - Permanent
 location: Leeds
@@ -1129,6 +1189,30 @@ company: Bradford Academy
 location: Bradford
 source: Teaching Vacancies
 job_id: teaching-vacancies-exams-officer-bradford-academy-bradford
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Executive Assistant
+company: hireful - Company - Permanent
+location: Bradford
+source: JobG8
+job_id: jobg8-23643_225694366
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Executive Assistant
+company: Michael Page - Agency - Permanent
+location: Bradford
+source: JobG8
+job_id: jobg8-23643_225693357
 reason: Separate employment market.
 ---
 
@@ -1281,6 +1365,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: HR Coordinator
+company: Ashley Kate HR & Finance - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225710184
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: HR Coordinator
 company: Hays Business Support - Agency - Permanent
 location: Leeds
 source: JobG8
@@ -1417,6 +1513,18 @@ company: Hays Technology - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225724529
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Medical Receptionist
+company: Kensington Partnership
+location: Bradford, BD8 9LB
+source: NHS Jobs
+job_id: nhs-5676393
 reason: Separate employment market.
 ---
 
@@ -1621,6 +1729,18 @@ company: Search Consultancy Ltd - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225661076
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Personal Assistant
+company: Marmon Lift Recruitment - Agency - Permanent
+location: Bradford
+source: JobG8
+job_id: jobg8-23643_225707509
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/hemel-hempstead/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 108
+- automatic include: 6
+- automatic review: 115
 - automatic exclude: 0
-- effective include: 5
-- effective review: 108
+- effective include: 6
+- effective review: 115
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (6)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Think Specialist Recruitment - Agency - Temporary
 location: Hemel Hempstead
 source: JobG8
 job_id: jobg8-23643_225698178
+reason: Exact approved Hemel Hempstead workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Coordinator
+company: Michael Page - Agency - Permanent
+location: Hemel Hempstead
+source: JobG8
+job_id: jobg8-23643_225637054
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
@@ -84,7 +96,7 @@ job_id: jobg8-23643_225694409
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
-## REVIEW (108)
+## REVIEW (115)
 
 ---
 action: 
@@ -402,11 +414,35 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
+title: Customer Care Advisor
+company: SVC Technical - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-23643_225729762
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Care Coordinator
 company: Cityscape Recruitment - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-23643_225690021
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service
+company: TalentHQ Ltd - Agency - Permanent
+location: Welwyn Garden City
+source: JobG8
+job_id: jobg8-23643_224839746
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -438,6 +474,18 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Executive
+company: Osborne Appointments - Agency - Permanent
+location: Stevenage
+source: JobG8
+job_id: jobg8-23643_225707573
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: customer service/administrator
 company: Platypus Recruitment - Agency - Permanent
 location: Hertfordshire
@@ -455,6 +503,54 @@ company: Mulmar - Agency - Permanent
 location: Hatfield
 source: JobG8
 job_id: jobg8-23643_225645917
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Document controller
+company: CSC Recruitment Ltd - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-23643_225733610
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Document Controller
+company: Fawkes & Reece London - Agency - Permanent
+location: Hertford
+source: JobG8
+job_id: jobg8-23643_225687600
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Document Controller
+company: Recco - Agency - Permanent
+location: Hertford
+source: JobG8
+job_id: jobg8-23643_225686769
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Document Controller
+company: Skilled Careers - Agency - Permanent
+location: Hertford
+source: JobG8
+job_id: jobg8-23643_225735976
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

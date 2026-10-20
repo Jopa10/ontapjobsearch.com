@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 120
+- automatic review: 127
 - automatic exclude: 0
 - effective include: 9
-- effective review: 120
+- effective review: 127
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -132,7 +132,7 @@ job_id: jobg8-23643_225689196
 reason: Exact approved Ashford workplace.
 ---
 
-## REVIEW (120)
+## REVIEW (127)
 
 ---
 action: 
@@ -330,6 +330,18 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Bid Administrator Kent
+company: Fawkes & Reece London - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225700463
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Bookkeeper
 company: AMR Bookeeping Services - Agency - Permanent
 location: Tonbridge
@@ -366,6 +378,18 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Clinical Administrator
+company: Len Valley Practice
+location: Maidstone, ME17 2QF
+source: NHS Jobs
+job_id: nhs-5675481
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Communications Executive
 company: Trapeze Recruitment Services Ltd - Agency - Permanent
 location: Kent
@@ -390,11 +414,35 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Contracts & Commercial Administrator
+company: Huntress - Maidstone - Agency - Permanent
+location: Maidstone
+source: JobG8
+job_id: jobg8-23643_225675020
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Conveyancing Legal Assistant
 company: Diamond Search Recruitment Ltd - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225730521
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Corporate Receptionist
+company: Invictus Group - Agency - Temporary
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225646208
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -606,6 +654,18 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Document Controller
+company: Skilled Careers - Agency - Permanent
+location: Dartford
+source: JobG8
+job_id: jobg8-23643_225681805
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Document Controller - Dungeness
 company: Aureos Group - Agency - Permanent
 location: Kent
@@ -623,6 +683,18 @@ company: Waterfront UTC
 location: Chatham
 source: Teaching Vacancies
 job_id: teaching-vacancies-examinations-admissions-officer-waterfront-utc
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Exhibition Logistics & Sales Coordinator
+company: Detail 2 Limited - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225656583
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -1247,6 +1319,18 @@ company: The Meads Medical Practice Limited
 location: Sittingbourne, ME10 5AA
 source: NHS Jobs
 job_id: nhs-5651293
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: The Park Surgery
+location: Herne Bay, CT6 5RE, Herne Bay, CT67LY
+source: NHS Jobs
+job_id: nhs-5675071
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 

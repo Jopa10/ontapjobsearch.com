@@ -4,8 +4,8 @@
 - Live route: `/barnsley/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 5
-- Threshold currently met: no
+- Effective included jobs: 6
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
+- automatic include: 6
 - automatic review: 6
-- automatic exclude: 51
-- effective include: 5
+- automatic exclude: 54
+- effective include: 6
 - effective review: 6
-- effective exclude: 51
+- effective exclude: 54
 
-## INCLUDE (5)
+## INCLUDE (6)
 
 ---
 action: 
@@ -57,6 +57,18 @@ company: TSR Recruitment Limited - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225685872
+reason: Approved Barnsley catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Accountant
+company: Sewell Wallis Ltd - Agency - Permanent
+location: Barnsley
+source: JobG8
+job_id: jobg8-23643_225713436
 reason: Approved Barnsley catchment.
 ---
 
@@ -158,7 +170,7 @@ job_id: jobg8-23643_225681456
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (51)
+## EXCLUDE (54)
 
 ---
 action: 
@@ -320,6 +332,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Care Navigator (Receptionist)
+company: Dunsville Medical Centre
+location: Doncaster, DN7 4BY
+source: NHS Jobs
+job_id: nhs-5677415
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Clerical Officer
 company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S10 2JF
@@ -337,6 +361,18 @@ company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S5 7AU
 source: NHS Jobs
 job_id: nhs-5673070
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Clerical Officer
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S10 2SF
+source: NHS Jobs
+job_id: nhs-5674866
 reason: Separate employment market.
 ---
 
@@ -433,6 +469,18 @@ company: EE - Company - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-20279_63174-153faf593eb64b88272f45adeaa28d87
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Executive Assistant
+company: The Talent Division - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225334218
 reason: Separate employment market.
 ---
 
@@ -596,18 +644,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Personal Assistant
-company: Bradfield Secondary School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-personal-assistant-bradfield-secondary-school
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Procurement Administrator -Temporary
 company: Hays Business Support - Agency - Temporary
 location: Doncaster
@@ -721,6 +757,18 @@ company: Nexus People - Agency - Temporary
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225639569
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Secretary / Assistant EA
+company: Edwards & Pearce - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225636340
 reason: Separate employment market.
 ---
 

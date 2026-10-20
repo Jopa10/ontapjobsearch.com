@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 57
+- automatic review: 61
 - automatic exclude: 0
 - effective include: 8
-- effective review: 57
+- effective review: 61
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: jobg8-23643_225653411
 reason: Exact approved Bath workplace.
 ---
 
-## REVIEW (57)
+## REVIEW (61)
 
 ---
 action: 
@@ -438,6 +438,18 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
+title: Financial Administrator
+company: Aldwych Consulting - Agency - Temporary
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225640986
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Freight Co-Ordinator
 company: Travail Employment Group - Agency - Permanent
 location: Bristol
@@ -630,6 +642,18 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
+title: Outpatient Receptionist
+company: Bristol NHS Foundation Trust
+location: Bristol, BS2 8EG
+source: NHS Jobs
+job_id: nhs-5674929
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Patent Paralegal - Bristol (c&;40,000 + benefits Hybrid)
 company: Dawn Ellmore Employment Agency - Agency - Permanent
 location: Somerset
@@ -647,6 +671,18 @@ company: Menlo Park - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225678230
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: People Coordinator
+company: Adecco - Agency - Temporary
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225636147
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -755,6 +791,18 @@ company: Harwood Recruitment Solutions Ltd - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225707937
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: Pembrook Resourcing - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225679857
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 

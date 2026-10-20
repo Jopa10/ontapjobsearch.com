@@ -4,7 +4,7 @@
 - Live route: `/leicester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 17
+- Effective included jobs: 20
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
-- automatic review: 52
+- automatic include: 20
+- automatic review: 55
 - automatic exclude: 0
-- effective include: 17
-- effective review: 52
+- effective include: 20
+- effective review: 55
 - effective exclude: 0
 
-## INCLUDE (17)
+## INCLUDE (20)
 
 ---
 action: 
@@ -69,6 +69,42 @@ company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Leicester
 source: JobG8
 job_id: jobg8-2012728
+reason: Exact approved Leicester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Accountant
+company: RECfinancial - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225730677
+reason: Exact approved Leicester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Management Accountant
+company: Hamilton Woods - Agency - Contract
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225725322
+reason: Exact approved Leicester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Contract Administrator
+company: Danny Sullivan & Sons Ltd - Company - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225730878
 reason: Exact approved Leicester workplace.
 ---
 
@@ -228,7 +264,7 @@ job_id: teaching-vacancies-student-services-administrator-b483b3bc-5d81-42ee-be3
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (52)
+## REVIEW (55)
 
 ---
 action: 
@@ -414,6 +450,18 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Assistant Accountant
+company: Michael Page - Agency - Contract
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225664324
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Audi Service Advisor
 company: Sytner - Company - Permanent
 location: Leicestershire
@@ -431,6 +479,18 @@ company: Redline Group Ltd - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225671448
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Contracts Administrator
+company: Adecco - Agency - Contract
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225661333
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -515,6 +575,18 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225642426
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Executive Assistant
+company: Cherry Professional - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225648049
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

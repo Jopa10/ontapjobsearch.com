@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 61
+- automatic review: 62
 - automatic exclude: 0
 - effective include: 7
-- effective review: 61
+- effective review: 62
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: jobg8-23643_225736541
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (61)
+## REVIEW (62)
 
 ---
 action: 
@@ -215,6 +215,18 @@ company: Hays Business Support - Agency - Contract
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225663628
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Management Accountant
+company: Hays Senior Finance - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225730254
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

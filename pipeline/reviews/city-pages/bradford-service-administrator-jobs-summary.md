@@ -4,7 +4,7 @@
 - Live route: `/bradford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 16
+- Effective included jobs: 21
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
-- automatic review: 37
-- automatic exclude: 114
-- effective include: 16
-- effective review: 37
-- effective exclude: 114
+- automatic include: 21
+- automatic review: 39
+- automatic exclude: 117
+- effective include: 21
+- effective review: 39
+- effective exclude: 117
 
-## INCLUDE (16)
+## INCLUDE (21)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Encon Staffing Associates Ltd - Agency - Temporary
 location: Bradford
 source: JobG8
 job_id: jobg8-23643_225730421
+reason: Approved Bradford catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Business Support Officer
+company: Hatched Recruitment Group - Agency - Temporary
+location: Bradford
+source: JobG8
+job_id: jobg8-23643_225735615
 reason: Approved Bradford catchment.
 ---
 
@@ -100,6 +112,30 @@ reason: Approved Bradford catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Executive Assistant
+company: hireful - Company - Permanent
+location: Bradford
+source: JobG8
+job_id: jobg8-23643_225694366
+reason: Approved Bradford catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Executive Assistant
+company: Michael Page - Agency - Permanent
+location: Bradford
+source: JobG8
+job_id: jobg8-23643_225693357
+reason: Approved Bradford catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Freight Forwarding Administrator
 company: HTE Recruitment - Agency - Permanent
 location: Bradford
@@ -136,6 +172,18 @@ reason: Approved Bradford catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Medical Receptionist
+company: Kensington Partnership
+location: Bradford, BD8 9LB
+source: NHS Jobs
+job_id: nhs-5676393
+reason: Approved Bradford catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: MEDICAL RECEPTIONIST
 company: The Bradford Moor Practice
 location: Bradford, BD3 8QH
@@ -153,6 +201,18 @@ company: Marmon Lift Recruitment - Agency - Permanent
 location: Bradford
 source: JobG8
 job_id: jobg8-23643_225717915
+reason: Approved Bradford catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Personal Assistant
+company: Marmon Lift Recruitment - Agency - Permanent
+location: Bradford
+source: JobG8
+job_id: jobg8-23643_225707509
 reason: Approved Bradford catchment.
 ---
 
@@ -216,7 +276,7 @@ job_id: jobg8-23643_225645421
 reason: Approved Bradford catchment.
 ---
 
-## REVIEW (37)
+## REVIEW (39)
 
 ---
 action: 
@@ -287,6 +347,30 @@ company: Mpeople Recruitment - Agency - Permanent
 location: Batley
 source: JobG8
 job_id: jobg8-2088263
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: Mpeople Recruitment North West - Agency - Permanent
+location: Batley
+source: JobG8
+job_id: jobg8-23643_225729117
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: Search Consultancy Ltd - Agency - Contract
+location: Batley
+source: JobG8
+job_id: jobg8-23643_225704238
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -662,7 +746,7 @@ job_id: jobg8-23643_225555461
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (114)
+## EXCLUDE (117)
 
 ---
 action: 
@@ -697,18 +781,6 @@ company: Aspire People - Agency - Temporary
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225739432
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrative Assistant
-company: Holy Rosary and St Anne's Catholic Primary School, a Voluntary Academy
-location: Leeds
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-holy-rosary-and-st-anne-s-catholic-primary-school-a-voluntary-academy-leeds-west-yorkshire
 reason: Separate employment market.
 ---
 
@@ -757,6 +829,18 @@ company: The North Halifax Grammar School
 location: Halifax
 source: Teaching Vacancies
 job_id: teaching-vacancies-apprentice-business-support-administrator
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Assistant Management Accountant
+company: Hays Accounts and Finance - Agency - Temporary
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225710957
 reason: Separate employment market.
 ---
 
@@ -829,6 +913,18 @@ company: Reed Specialist Recruitment - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225673075
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Business Administrator
+company: Permanent Futures Limited - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225682342
 reason: Separate employment market.
 ---
 
@@ -1057,6 +1153,18 @@ company: Search Consultancy Ltd - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225718050
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Service / Sales Support Team Leader
+company: Huntress - Leeds - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225676663
 reason: Separate employment market.
 ---
 
@@ -1333,6 +1441,18 @@ company: Huntress - Leeds - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225635303
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: HR Coordinator
+company: Ashley Kate HR & Finance - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225710184
 reason: Separate employment market.
 ---
 

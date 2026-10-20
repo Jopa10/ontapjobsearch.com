@@ -10,17 +10,18 @@ include,jobg8-2033599,Audience Development Coordinator - Local Authority - Libra
 include,jobg8-23643_225692016,BMW/MINI Service Advisor,Sytner - Company - Permanent,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,nhs-5657398,Clerical Officer,Sheffield Teaching Hospitals NHS Foundation Trust,"Sheffield, S10 2JF",NHS Jobs,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,nhs-5673070,Clerical Officer,Sheffield Teaching Hospitals NHS Foundation Trust,"Sheffield, S5 7AU",NHS Jobs,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
+include,nhs-5674866,Clerical Officer,Sheffield Teaching Hospitals NHS Foundation Trust,"Sheffield, S10 2SF",NHS Jobs,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,nhs-5662272,Clerical Officer/Receptionist,Sheffield Teaching Hospitals NHS Foundation Trust,"Sheffield, S10 2JF",NHS Jobs,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,jobg8-23643_225679767,Counter - Customer Service Assistant,Lynx Employment Services Ltd - Agency - Permanent,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,jobg8-2043404,Credit Controller,Sharp Consultancy - Agency - Permanent,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,jobg8-23643_225597891,Customer Care Co-ordinator,Sue Ross Recruitment Ltd - Agency - Contract,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
+include,jobg8-23643_225334218,Executive Assistant,The Talent Division - Agency - Permanent,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,nhs-5627333,GP Receptionist,Elm Lane & Chapeltown Surgery,"Sheffield, S5 7TW, SHEFFIELD, S35 1TD",NHS Jobs,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,jobg8-2014257,Insolvency Case Administrator,GGT Insolvency Recruitment - Agency - Permanent,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,jobg8-23643_225651604,Land Rover Service Advisor,Sytner - Company - Permanent,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,jobg8-23643_225731215,Marketing Co-ordinator,Sue Ross Recruitment Ltd - Agency - Permanent,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,nhs-5630483,Medical Receptionist,Norwood Medical Centre,"Sheffield, S5 7HD",NHS Jobs,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,jobg8-23643_225739418,Operations Administrator,Sue Ross Recruitment Ltd - Agency - Temporary,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
-include,teaching-vacancies-personal-assistant-bradfield-secondary-school,Personal Assistant,Bradfield Secondary School,Sheffield,Teaching Vacancies,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,jobg8-23643_225694244,Purchase Ledger Clerk,Albion Search - Agency - Permanent,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,jobg8-2063431,Purchase Ledger Clerk,PRATAP PARTNERSHIP LTD - Agency - Permanent,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
 include,jobg8-23643_225727950,Reablement Care Coordinator,Belmont Recruitment - Agency - Contract,Sheffield,JobG8,include,include,Approved Sheffield catchment.,sheffield,sheffield-service-administrator-jobs
@@ -36,9 +37,11 @@ exclude,jobg8-23643_225704747,Administrator,Caval Limited - Agency - Permanent,B
 exclude,jobg8-2024835,Administrator,Reed - Agency - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,sheffield-service-administrator-jobs
 exclude,jobg8-23643_225653889,Administrator,Rullion - Eon - Agency - Temporary,Barnsley,JobG8,exclude,exclude,Separate employment market.,barnsley,sheffield-service-administrator-jobs
 exclude,jobg8-23643_225685872,Administrator,TSR Recruitment Limited - Agency - Permanent,Barnsley,JobG8,exclude,exclude,Separate employment market.,barnsley,sheffield-service-administrator-jobs
+exclude,jobg8-23643_225713436,Assistant Accountant,Sewell Wallis Ltd - Agency - Permanent,Barnsley,JobG8,exclude,exclude,Separate employment market.,barnsley,sheffield-service-administrator-jobs
 exclude,jobg8-2055573,Assistant Accountant,Sharp Consultancy - Agency - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,sheffield-service-administrator-jobs
 exclude,jobg8-20279_63174-89740a075c6163b74ea2c52702062e5d,Call Centre Agent,EE - Company - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,sheffield-service-administrator-jobs
 exclude,jobg8-20279_63174-73862c8b83139033e4e4a8b6efca9a33,Call Centre Operator,EE - Company - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,sheffield-service-administrator-jobs
+exclude,nhs-5677415,Care Navigator (Receptionist),Dunsville Medical Centre,"Doncaster, DN7 4BY",NHS Jobs,exclude,exclude,Separate employment market.,doncaster,sheffield-service-administrator-jobs
 exclude,jobg8-20279_63174-d24d3d6916a209e15b1680693740da2f,Contact Centre Agent,EE - Company - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,sheffield-service-administrator-jobs
 exclude,jobg8-23643_225686056,Customer Service Administrator,Office Angels - Agency - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,sheffield-service-administrator-jobs
 exclude,jobg8-23643_225691891,Customer Service Adviser,Unipart - Agency - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,sheffield-service-administrator-jobs
@@ -59,5 +62,6 @@ exclude,nhs-5670531,Receptionist,Hollygreen Practice,"Rotherham, S63 9EH, Thurns
 exclude,nhs-5647395,Receptionist,White House Farm Medical Centre,"Doncaster, DN3 3AH",NHS Jobs,exclude,exclude,Separate employment market.,doncaster,sheffield-service-administrator-jobs
 exclude,teaching-vacancies-receptionist-admin-assistant-willow-tree-academy,Receptionist & Admin Assistant,Willow Tree Academy,Rotherham,Teaching Vacancies,exclude,exclude,Separate employment market.,rotherham,sheffield-service-administrator-jobs
 exclude,jobg8-23643_225639569,Recruitment Account Coordinator,Nexus People - Agency - Temporary,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,sheffield-service-administrator-jobs
+exclude,jobg8-23643_225636340,Secretary / Assistant EA,Edwards & Pearce - Agency - Permanent,Doncaster,JobG8,exclude,exclude,Separate employment market.,doncaster,sheffield-service-administrator-jobs
 exclude,jobg8-23643_225739769,Service and Validation Administrator,Unicorn Resourcing - Agency - Permanent,Rotherham,JobG8,exclude,exclude,Separate employment market.,rotherham,sheffield-service-administrator-jobs
 exclude,jobg8-23643_225728023,Volunteer Coordinator,Rotherham Hospice - Agency - Permanent,Brinsworth,JobG8,exclude,exclude,Separate employment market.,context:rotherham,sheffield-service-administrator-jobs

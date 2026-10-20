@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 58
+- automatic review: 59
 - automatic exclude: 0
 - effective include: 4
-- effective review: 58
+- effective review: 59
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225641309
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (58)
+## REVIEW (59)
 
 ---
 action: 
@@ -119,6 +119,18 @@ company: KD Recruitment - Agency - Permanent
 location: Ripon
 source: JobG8
 job_id: jobg8-23643_225631397
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: Capital Outsourcing Group Ltd - Agency - Permanent
+location: Malton
+source: JobG8
+job_id: jobg8-23643_225489399
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

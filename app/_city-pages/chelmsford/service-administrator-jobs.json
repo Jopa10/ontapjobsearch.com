@@ -196,15 +196,12 @@
   },
   {
     "job_id": "23643_225699848",
-    "display_reference": "23643_225699848",
     "title": "HR Administrator",
     "company": "Adecco - Agency - Contract",
-    "advertiser_name": "Adecco",
-    "advertiser_type": "Agency",
     "location": "Chelmsford",
     "region": "Essex",
     "country": "UK",
-    "category": "HR / Recruitment",
+    "category": "Admin/Service – Office Support",
     "employment_type": "Contract",
     "salary_min": "15",
     "salary_max": "19.48",
@@ -213,7 +210,11 @@
     "description": "HR Administrator (Maternity Cover - 9 to 12 Months)\n\nLocation: Chelmsford\n\nHours: 8:30-5 PM Monday- Friday\n\nPay: 15- 19.48ph + Holiday, Pension and Adecco benefits\n\nStart date: Immediately after successful interview\n\nAre you an organised, proactive HR professional who thrives in a fast-paced environment? We're looking for an HR Administrator to join our clients friendly and supportive HR team of 7, providing essential support to employees across their manufacturing business.\n\nThis is a varied and hands-on role where you'll be the first point of contact for HR queries, managing the HR helpdesk and phone lines while delivering a high level of customer service to both employees and managers. You'll support the full employee lifecycle, including onboarding, offboarding, inductions, maintaining employee records, generating HR reports, and assisting with updating HR policies and procedures.\n\nWe're looking for someone who can work on their own initiative, take a proactive approach to problem-solving, and confidently manage multiple priorities. You'll be comfortable building relationships across the business and providing accurate guidance on HR processes and policies.\n\nEssential Requirements:\n- Previous HR administration experience within a busy HR environment\n- Strong working knowledge of Workday\n- Experience managing employee data and producing HR reports\n- Knowledge of onboarding and offboarding processes\n- CIPD Level 5 qualified or currently working towards\n- Excellent communication, organisational and administration skills\n- Ability to work independently and use initiative\n\nAbout You:\n\nYou'll be someone who enjoys being part of a social and collaborative team, knows when to roll up your sleeves and get stuck into the workload, but also appreciates having fun along the way. If you're professional, approachable, and passionate about delivering excellent HR support, we'd love to hear from you.\n\nWhy work for Adecco?\n- Candidate of the month incentives\n- Boost rewards - discount vouchers and collect points to spend!\n- Support programmes\n- Eye Care vouchers\n- Competitive pension scheme\n\nWe use generative AI tools to support our candidate screening process. This helps us ensure fair, consistent, and efficient experience for all applicants. Rest assured, all final decisions are made by our hiring team, and your application will be reviewed with care and attention.\n\nAdecco acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. The Adecco Group UK & Ireland is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Adecco. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
     "apply_url": "https://www.jobg8.com/Traffic.aspx?eq2PR%2bX5cty%2bVcovrhdx%2fdmRQKm9mFjlp",
     "source": "JobG8",
-    "hr_recruitment_family_reason": "approved HR / Recruitment support title",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Adecco",
+    "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
     "salary_period": "Hourly",
     "posted_date_basis": "ontap_first_published"
@@ -360,9 +361,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0084",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -382,9 +380,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0327-26-0559",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

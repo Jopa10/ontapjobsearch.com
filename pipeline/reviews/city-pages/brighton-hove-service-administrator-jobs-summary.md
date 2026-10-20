@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 11
-- automatic review: 66
-- automatic exclude: 31
+- automatic review: 72
+- automatic exclude: 33
 - effective include: 11
-- effective review: 66
-- effective exclude: 31
+- effective review: 72
+- effective exclude: 33
 
 ## INCLUDE (11)
 
@@ -156,7 +156,19 @@ job_id: nhs-5667013
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (66)
+## REVIEW (72)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accountant / Accounts Assistant Bexhill
+company: Placr Recruitment - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225724752
+reason: Broad location; review before city inclusion.
+---
 
 ---
 action: 
@@ -252,6 +264,30 @@ location: Lewes, BN7 1EA
 source: NHS Jobs
 job_id: nhs-5661992
 reason: No approved Brighton & Hove catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant (Part Qual)
+company: Morgan Mckinley (Crawley) - Agency - Contract
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225689923
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant/Accounts Assistant
+company: Alexander Lloyd - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225695130
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -522,6 +558,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Document Controller
+company: Skilled Careers - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225714726
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: E-commerce Coordinator
 company: Pineapple Careers - Agency - Permanent
 location: Sussex
@@ -587,6 +635,18 @@ company: First Recruitment Services - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2044482
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant - Construction
+company: Henley Chase - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225698846
 reason: Broad location; review before city inclusion.
 ---
 
@@ -906,6 +966,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Service Advisor (VAG Group)
+company: Holt Recruitment Ltd - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225717756
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Technical Account Executive - Leisure Marine
 company: Marine Resources - Agency - Permanent
 location: Hailsham
@@ -950,7 +1022,7 @@ job_id: jobg8-23643_225699794
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (31)
+## EXCLUDE (33)
 
 ---
 action: 
@@ -1209,6 +1281,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Finance Assistant - Assistant Accountant
+company: Morgan Mckinley (Crawley) - Agency - Permanent
+location: Horsham
+source: JobG8
+job_id: jobg8-23643_225672363
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant - Assistant Accountant
 company: Morgan McKinley - Agency - Permanent
 location: Horsham
 source: JobG8
@@ -1309,6 +1393,18 @@ company: First Recruitment Services - Agency - Permanent
 location: Eastbourne
 source: JobG8
 job_id: jobg8-23643_225667810
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Service Advisor
+company: Perfect Placement - Agency - Permanent
+location: Worthing
+source: JobG8
+job_id: jobg8-23643_225658069
 reason: Separate employment market.
 ---
 

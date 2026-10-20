@@ -4,7 +4,7 @@
 - Live route: `/stockport/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 15
+- Effective included jobs: 14
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
-- automatic review: 19
+- automatic include: 14
+- automatic review: 20
 - automatic exclude: 0
-- effective include: 15
-- effective review: 19
+- effective include: 14
+- effective review: 20
 - effective exclude: 0
 
-## INCLUDE (15)
+## INCLUDE (14)
 
 ---
 action: 
@@ -93,18 +93,6 @@ company: The People Pod - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225656217
-reason: Exact approved Stockport workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Records Clerk
-company: Pennine Care NHS FT
-location: Stockport, SK1 3XE
-source: NHS Jobs
-job_id: nhs-5649683
 reason: Exact approved Stockport workplace.
 ---
 
@@ -204,7 +192,7 @@ job_id: jobg8-108042377
 reason: Exact approved Stockport workplace.
 ---
 
-## REVIEW (19)
+## REVIEW (20)
 
 ---
 action: 
@@ -335,6 +323,18 @@ company: HT Practice
 location: Ashton Under Lyne, OL7 0NW
 source: NHS Jobs
 job_id: nhs-5671910
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Practice Receptionist / Administrator - Hattersley Group Practice
+company: Gtd Healthcare
+location: Hyde, SK14 3EH
+source: NHS Jobs
+job_id: nhs-5674517
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 58
+- automatic review: 62
 - automatic exclude: 0
 - effective include: 4
-- effective review: 58
+- effective review: 62
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225739769
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (58)
+## REVIEW (62)
 
 ---
 action: 
@@ -211,6 +211,18 @@ action:
 decision: review
 automatic_decision: review
 title: Assistant Accountant
+company: Sewell Wallis Ltd - Agency - Permanent
+location: Barnsley
+source: JobG8
+job_id: jobg8-23643_225713436
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
 company: Sharp Consultancy - Agency - Permanent
 location: Doncaster
 source: JobG8
@@ -282,6 +294,18 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Care Navigator (Receptionist)
+company: Dunsville Medical Centre
+location: Doncaster, DN7 4BY
+source: NHS Jobs
+job_id: nhs-5677415
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Clerical Officer
 company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S10 2JF
@@ -299,6 +323,18 @@ company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S5 7AU
 source: NHS Jobs
 job_id: nhs-5673070
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Clerical Officer
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S10 2SF
+source: NHS Jobs
+job_id: nhs-5674866
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -395,6 +431,18 @@ company: EE - Company - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-20279_63174-153faf593eb64b88272f45adeaa28d87
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Executive Assistant
+company: The Talent Division - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225334218
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -630,18 +678,6 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Personal Assistant
-company: Bradfield Secondary School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-personal-assistant-bradfield-secondary-school
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Procurement Administrator -Temporary
 company: Hays Business Support - Agency - Temporary
 location: Doncaster
@@ -731,6 +767,18 @@ company: Nexus People - Agency - Temporary
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225639569
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Secretary / Assistant EA
+company: Edwards & Pearce - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225636340
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

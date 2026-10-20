@@ -4,7 +4,7 @@
 - Live route: `/walsall/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 11
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 44
+- automatic include: 10
+- automatic review: 45
 - automatic exclude: 0
-- effective include: 11
-- effective review: 44
+- effective include: 10
+- effective review: 45
 - effective exclude: 0
 
-## INCLUDE (11)
+## INCLUDE (10)
 
 ---
 action: 
@@ -124,18 +124,6 @@ reason: Exact approved Walsall workplace.
 action: 
 decision: include
 automatic_decision: include
-title: School Receptionist
-company: New Leaf School
-location: Walsall
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-receptionist-new-leaf-school
-reason: Exact approved Walsall workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Temporary HR Administrator
 company: Bell Cornwall Recruitment - Agency - Temporary
 location: Walsall
@@ -156,7 +144,7 @@ job_id: nhs-5664251
 reason: Exact approved Walsall workplace.
 ---
 
-## REVIEW (44)
+## REVIEW (45)
 
 ---
 action: 
@@ -371,6 +359,18 @@ company: FT Recruitment - Agency - Permanent
 location: Smethwick
 source: JobG8
 job_id: jobg8-23643_225635002
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: Ideal Recruit Ltd - Agency - Temporary
+location: Smethwick
+source: JobG8
+job_id: jobg8-23643_225646608
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/horsham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 66
-- automatic exclude: 33
-- effective include: 9
-- effective review: 66
-- effective exclude: 33
+- automatic include: 10
+- automatic review: 72
+- automatic exclude: 34
+- effective include: 10
+- effective review: 72
+- effective exclude: 34
 
-## INCLUDE (9)
+## INCLUDE (10)
 
 ---
 action: 
@@ -113,6 +113,18 @@ action:
 decision: include
 automatic_decision: include
 title: Finance Assistant - Assistant Accountant
+company: Morgan Mckinley (Crawley) - Agency - Permanent
+location: Horsham
+source: JobG8
+job_id: jobg8-23643_225672363
+reason: Exact approved Horsham workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant - Assistant Accountant
 company: Morgan McKinley - Agency - Permanent
 location: Horsham
 source: JobG8
@@ -132,7 +144,19 @@ job_id: jobg8-23643_225645838
 reason: Exact approved Horsham workplace.
 ---
 
-## REVIEW (66)
+## REVIEW (72)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accountant / Accounts Assistant Bexhill
+company: Placr Recruitment - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225724752
+reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
+---
 
 ---
 action: 
@@ -228,6 +252,30 @@ location: Lewes, BN7 1EA
 source: NHS Jobs
 job_id: nhs-5661992
 reason: No approved Horsham employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant (Part Qual)
+company: Morgan Mckinley (Crawley) - Agency - Contract
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225689923
+reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant/Accounts Assistant
+company: Alexander Lloyd - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225695130
+reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
 ---
@@ -498,6 +546,18 @@ reason: The stated location is broader or less specific than the approved Horsha
 action: 
 decision: review
 automatic_decision: review
+title: Document Controller
+company: Skilled Careers - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225714726
+reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: E-commerce Coordinator
 company: Pineapple Careers - Agency - Permanent
 location: Sussex
@@ -563,6 +623,18 @@ company: First Recruitment Services - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2044482
+reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant - Construction
+company: Henley Chase - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225698846
 reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
@@ -882,6 +954,18 @@ reason: The stated location is broader or less specific than the approved Horsha
 action: 
 decision: review
 automatic_decision: review
+title: Service Advisor (VAG Group)
+company: Holt Recruitment Ltd - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225717756
+reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Technical Account Executive - Leisure Marine
 company: Marine Resources - Agency - Permanent
 location: Hailsham
@@ -926,7 +1010,7 @@ job_id: jobg8-23643_225699794
 reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
-## EXCLUDE (33)
+## EXCLUDE (34)
 
 ---
 action: 
@@ -1297,6 +1381,18 @@ company: First Recruitment Services - Agency - Permanent
 location: Eastbourne
 source: JobG8
 job_id: jobg8-23643_225667810
+reason: The stated workplace belongs outside the approved Horsham employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Service Advisor
+company: Perfect Placement - Agency - Permanent
+location: Worthing
+source: JobG8
+job_id: jobg8-23643_225658069
 reason: The stated workplace belongs outside the approved Horsham employment market.
 ---
 

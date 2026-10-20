@@ -4,7 +4,7 @@
 - Live route: `/basingstoke/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 152
+- automatic include: 9
+- automatic review: 165
 - automatic exclude: 0
-- effective include: 6
-- effective review: 152
+- effective include: 9
+- effective review: 165
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (9)
 
 ---
 action: 
@@ -96,7 +96,43 @@ job_id: jobg8-23643_225686728
 reason: Exact approved Basingstoke workplace.
 ---
 
-## REVIEW (152)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist/Administrator
+company: Operose Health
+location: Basingstoke, RG22 4EH
+source: NHS Jobs
+job_id: nhs-5676423
+reason: Exact approved Basingstoke workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist/Administrator
+company: Operose Health
+location: Basingstoke, RG22 4EH
+source: NHS Jobs
+job_id: nhs-5676426
+reason: Exact approved Basingstoke workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist/Administrator
+company: Operose Health
+location: Basingstoke, RG22 4EH
+source: NHS Jobs
+job_id: nhs-5676428
+reason: Exact approved Basingstoke workplace.
+---
+
+## REVIEW (165)
 
 ---
 action: 
@@ -263,6 +299,18 @@ company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 location: Southampton, SO16 4XE
 source: NHS Jobs
 job_id: nhs-5657473
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrative Assistant
+company: ARM - Agency - Contract
+location: Portsmouth
+source: JobG8
+job_id: jobg8-23643_225670746
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -487,6 +535,78 @@ action:
 decision: review
 automatic_decision: review
 title: Assistant Accountant
+company: CMA Recruitment Group - Agency - Permanent
+location: Andover
+source: JobG8
+job_id: jobg8-23643_225655048
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: CMA Recruitment Group - Agency - Permanent
+location: Totton
+source: JobG8
+job_id: jobg8-23643_225686657
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: CMA Recruitment Group - Agency - Permanent
+location: Portsmouth
+source: JobG8
+job_id: jobg8-23643_225693892
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: CMA Recruitment Group - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225725934
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: Michael Page - Agency - Permanent
+location: Portsmouth
+source: JobG8
+job_id: jobg8-23643_225671157
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: Michael Page - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-23643_225696140
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
 company: Michael Page Finance - Agency - Permanent
 location: Portsmouth
 source: JobG8
@@ -503,6 +623,30 @@ company: Michael Page Finance - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-2087359
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: Venture Recruitment Partners - Agency - Permanent
+location: Andover
+source: JobG8
+job_id: jobg8-23643_225729408
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Management Accountant
+company: Hays Accounts and Finance - Agency - Permanent
+location: Hedge End
+source: JobG8
+job_id: jobg8-23643_225701756
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -719,6 +863,18 @@ company: Fawkes & Reece London - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225738236
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Document Controller
+company: Melior Associates - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225666375
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -1206,6 +1362,18 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Marketing Co-ordinator
+company: SER Limited - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225692188
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Medical Receptionist
 company: Derby Road Practice
 location: Portsmouth, PO2 8HW
@@ -1542,6 +1710,18 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist/Concierge
+company: Invictus Group - Agency - Contract
+location: Farnborough
+source: JobG8
+job_id: jobg8-23643_225674962
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Recruitment Coordinator / Resourcer
 company: S.N.G Healthcare Group Ltd - Agency - Permanent
 location: Hampshire
@@ -1703,6 +1883,18 @@ company: DOMO TACTICAL COMMUNICATIONS - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225671135
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Secretary/Admin Assistant
+company: Click Digital - Agency - Contract
+location: Portsmouth
+source: JobG8
+job_id: jobg8-23643_225672061
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 

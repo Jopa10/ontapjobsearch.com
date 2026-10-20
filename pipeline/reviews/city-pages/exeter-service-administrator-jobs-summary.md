@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 21
-- automatic review: 47
+- automatic review: 48
 - automatic exclude: 0
 - effective include: 21
-- effective review: 47
+- effective review: 48
 - effective exclude: 0
 
 ## INCLUDE (21)
@@ -276,7 +276,7 @@ job_id: jobg8-23643_225684864
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (47)
+## REVIEW (48)
 
 ---
 action: 
@@ -383,6 +383,18 @@ company: Hays Business Support - Agency - Contract
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225663628
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Management Accountant
+company: Hays Senior Finance - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225730254
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 69
+- automatic review: 75
 - automatic exclude: 0
 - effective include: 0
-- effective review: 69
+- effective review: 75
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (69)
+## REVIEW (75)
 
 ---
 action: 
@@ -258,6 +258,42 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Assistant Accountant
+company: Michael Page - Agency - Contract
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225664324
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: RECfinancial - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225730677
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Management Accountant
+company: Hamilton Woods - Agency - Contract
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225725322
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Audi Service Advisor
 company: Sytner - Company - Permanent
 location: Leicestershire
@@ -275,6 +311,30 @@ company: Redline Group Ltd - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225671448
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Contract Administrator
+company: Danny Sullivan & Sons Ltd - Company - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225730878
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Contracts Administrator
+company: Adecco - Agency - Contract
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225661333
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -371,6 +431,18 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225642426
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Executive Assistant
+company: Cherry Professional - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225648049
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

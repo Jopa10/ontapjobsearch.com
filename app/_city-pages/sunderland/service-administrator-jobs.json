@@ -75,34 +75,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "teaching-vacancies-administration-assistant-st-john-bosco-catholic-primary-school-town-end-farm-sunderland",
-    "title": "Administration Assistant",
-    "company": "St John Bosco Catholic Primary School, Town End Farm, Sunderland",
-    "location": "Sunderland",
-    "region": "North East",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£11,938.98 - £12,398.69 Annually (Actual) This is pending outcome of Job Evaluation",
-    "work_pattern": "",
-    "posted_date": "2026-10-08",
-    "closing_date": "2026-10-20",
-    "closing_datetime": "2026-10-20T09:00:00+01:00",
-    "summary": "Administration Assistant with St John Bosco Catholic Primary School, Town End Farm, Sunderland in Sunderland. ['part time']; £11,938.98 - £12,398.69 Annually (Actual) This is pending outcome of Job Evaluation.",
-    "description": "St John Bosco Catholic Primary School, Town End Farm, Sunderland is recruiting for this vacancy in Sunderland.\n\nThe advertised position is Administration Assistant.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £11,938.98 - £12,398.69 Annually (Actual) This is pending outcome of Job Evaluation.\n\nThe stated application deadline is 2026-10-20T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-st-john-bosco-catholic-primary-school-town-end-farm-sunderland?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "St John Bosco Catholic Primary School, Town End Farm, Sunderland",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-administration-assistant-trinity-academy-new-bridge-sunderland",
     "title": "Administration Assistant",
     "company": "Trinity Academy New Bridge",
@@ -231,6 +203,25 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "nhs-5676939",
+    "source": "NHS Jobs",
+    "title": "Administrator",
+    "company": "ABL Health Ltd",
+    "advertiser_name": "ABL Health Ltd",
+    "location": "Sunderland, SR1 1PB",
+    "region": "North East",
+    "salary": "£25000.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-20T14:40:00.689366346",
+    "closing_date": "2026-10-27",
+    "description": "The role of the Administrator will be to provide administration support for a smoking cessation service. The post holder will be responsible for a range of administration, ensuring the smooth running of the office and the administration of the programmes to meet targets and deadlines set by the funding bodies. As an Administrator for the Sunderland Stop Smoking Service, you will provide comprehensive administrative and clerical support to ensure the smooth and efficient running of the service. You will manage incoming calls and healthcare referrals, direct enquiries to the appropriate team members, welcome clients to reception and arrange appointments using calendar systems. You will maintain accurate and confidential client records across electronic databases and paper files, process information within required timescales, and prepare correspondence, reports, meeting minutes and other documentation. Working collaboratively with colleagues, Project Leads and Managers, you will monitor workloads and service targets, support the identification of suitable venues in line with service demand and budget requirements, and ensure administrative tasks are completed efficiently. You will use a range of IT systems, including Microsoft Word, Excel and Publisher, follow established processes for allocating and completing work, and provide flexible cover for colleagues during periods of annual leave or sickness, contributing to a professional, responsive and client-focused service. Main Duties and responsibilities: Take incoming calls for Sunderland Stop Smoking Service ensuring that calls are transferred to the relevant person/ department and making sure messages are dealt with efficiently. To work within a busy office as part of a team, sharing work fairly and efficiently and respecting other admin staffs skills and competencies. To provide general clerical and administrative support including word processing, filing routine correspondence. To follow established systems for allocation and completion of work. Providing professional administration services to clients and identifying specific needs. Manage and maintain confidential patient files on a database and on paper. Manage and deal with incoming healthcare referrals promptly, adhering to company timescales. Book appointments for clients and use appropriate calendar software. Record client data accurately on appropriate service database. To use IT systems, including excel, word and publisher to exchange information. Use word processing, spreadsheet and in-house database. Work closely with Project Leads/ Managers and prepare computerised documents and reports. Work with service leads to source new venues, working in accordance with company budgets and areas of demand. Flexibility to cover colleagues annual leave, sickness etc. Weekly monitoring of workload and service targets. Take meeting minutes, type and distribute as required General administration (record keeping, filing etc.) Welcoming clients into the office reception area and notifying relevant staff of attendance. Skills & Competencies required: Be an experienced administrator used to working in a health and/or community setting or have experience in a customer service environment. Experienced working with Microsoft Office and health related database systems Positive and proactive working at pace with multiple tasks Adept in communication; positive and welcoming communication style with all patients, health professionals and colleagues Build strong relationships; good team player happy to work as part of a team and work independently on own tasks Quality driven; you naturally seek high standards and actively seek to improve them. Value and remain open to new ideas and perspectives Please note that we are unable to offer sponsorship for this role",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0343-26-0032abl933",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0343-26-0032abl933",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5666221",
     "source": "NHS Jobs",
     "title": "Receptionist",
@@ -247,9 +238,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9155-OPAC-1026-28",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

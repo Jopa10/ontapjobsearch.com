@@ -4,7 +4,7 @@
 - Live route: `/portsmouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 13
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
-- automatic review: 145
+- automatic include: 17
+- automatic review: 157
 - automatic exclude: 0
-- effective include: 13
-- effective review: 145
+- effective include: 17
+- effective review: 157
 - effective exclude: 0
 
-## INCLUDE (13)
+## INCLUDE (17)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrative Assistant
+company: ARM - Agency - Contract
+location: Portsmouth
+source: JobG8
+job_id: jobg8-23643_225670746
+reason: Exact approved Portsmouth workplace.
+---
 
 ---
 action: 
@@ -45,6 +57,30 @@ company: Dynamite Recruitment - Agency - Temporary
 location: Portsmouth
 source: JobG8
 job_id: jobg8-23643_225677753
+reason: Exact approved Portsmouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Accountant
+company: CMA Recruitment Group - Agency - Permanent
+location: Portsmouth
+source: JobG8
+job_id: jobg8-23643_225693892
+reason: Exact approved Portsmouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Accountant
+company: Michael Page - Agency - Permanent
+location: Portsmouth
+source: JobG8
+job_id: jobg8-23643_225671157
 reason: Exact approved Portsmouth workplace.
 ---
 
@@ -180,7 +216,19 @@ job_id: jobg8-23643_225684953
 reason: Exact approved Portsmouth workplace.
 ---
 
-## REVIEW (145)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Secretary/Admin Assistant
+company: Click Digital - Agency - Contract
+location: Portsmouth
+source: JobG8
+job_id: jobg8-23643_225672061
+reason: Exact approved Portsmouth workplace.
+---
+
+## REVIEW (157)
 
 ---
 action: 
@@ -559,10 +607,82 @@ action:
 decision: review
 automatic_decision: review
 title: Assistant Accountant
+company: CMA Recruitment Group - Agency - Permanent
+location: Andover
+source: JobG8
+job_id: jobg8-23643_225655048
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: CMA Recruitment Group - Agency - Permanent
+location: Totton
+source: JobG8
+job_id: jobg8-23643_225686657
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: CMA Recruitment Group - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225725934
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: Michael Page - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-23643_225696140
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
 company: Michael Page Finance - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-2087359
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: Venture Recruitment Partners - Agency - Permanent
+location: Andover
+source: JobG8
+job_id: jobg8-23643_225729408
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Management Accountant
+company: Hays Accounts and Finance - Agency - Permanent
+location: Hedge End
+source: JobG8
+job_id: jobg8-23643_225701756
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -779,6 +899,18 @@ company: Fawkes & Reece London - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225738236
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Document Controller
+company: Melior Associates - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225666375
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 
@@ -1254,6 +1386,18 @@ reason: No exact Portsmouth workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Marketing Co-ordinator
+company: SER Limited - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225692188
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: MES Administrator
 company: Randstad Sourceright - Agency - Contract
 location: Hampshire
@@ -1547,6 +1691,54 @@ company: Tadley Medical Partnership
 location: Tadley, RG26 4ER, Tadley , RG26 4AN
 source: NHS Jobs
 job_id: nhs-5656044
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist/Administrator
+company: Operose Health
+location: Basingstoke, RG22 4EH
+source: NHS Jobs
+job_id: nhs-5676423
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist/Administrator
+company: Operose Health
+location: Basingstoke, RG22 4EH
+source: NHS Jobs
+job_id: nhs-5676426
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist/Administrator
+company: Operose Health
+location: Basingstoke, RG22 4EH
+source: NHS Jobs
+job_id: nhs-5676428
+reason: No exact Portsmouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist/Concierge
+company: Invictus Group - Agency - Contract
+location: Farnborough
+source: JobG8
+job_id: jobg8-23643_225674962
 reason: No exact Portsmouth workplace matched; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 17
+- automatic review: 18
 - automatic exclude: 0
 - effective include: 4
-- effective review: 17
+- effective review: 18
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225715945
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (17)
+## REVIEW (18)
 
 ---
 action: 
@@ -167,6 +167,18 @@ company: EJ Connect - Agency - Temporary
 location: Shropshire
 source: JobG8
 job_id: jobg8-23643_225635286
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: PA
+company: Hays Business Support - Agency - Temporary
+location: Shropshire
+source: JobG8
+job_id: jobg8-23643_225726044
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

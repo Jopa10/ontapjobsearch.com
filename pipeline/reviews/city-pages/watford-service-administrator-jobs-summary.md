@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 106
+- automatic review: 114
 - automatic exclude: 0
 - effective include: 7
-- effective review: 106
+- effective review: 114
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: nhs-5653585
 reason: Exact approved Watford workplace.
 ---
 
-## REVIEW (106)
+## REVIEW (114)
 
 ---
 action: 
@@ -414,12 +414,36 @@ reason: The stated location is broader or less specific than the approved Watfor
 action: 
 decision: review
 automatic_decision: review
+title: Customer Care Advisor
+company: SVC Technical - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-23643_225729762
+reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Care Coordinator
 company: Cityscape Recruitment - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-23643_225690021
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service
+company: TalentHQ Ltd - Agency - Permanent
+location: Welwyn Garden City
+source: JobG8
+job_id: jobg8-23643_224839746
+reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -462,6 +486,18 @@ reason: The stated location is broader or less specific than the approved Watfor
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Executive
+company: Osborne Appointments - Agency - Permanent
+location: Stevenage
+source: JobG8
+job_id: jobg8-23643_225707573
+reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: customer service/administrator
 company: Platypus Recruitment - Agency - Permanent
 location: Hertfordshire
@@ -479,6 +515,54 @@ company: Mulmar - Agency - Permanent
 location: Hatfield
 source: JobG8
 job_id: jobg8-23643_225645917
+reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Document controller
+company: CSC Recruitment Ltd - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-23643_225733610
+reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Document Controller
+company: Fawkes & Reece London - Agency - Permanent
+location: Hertford
+source: JobG8
+job_id: jobg8-23643_225687600
+reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Document Controller
+company: Recco - Agency - Permanent
+location: Hertford
+source: JobG8
+job_id: jobg8-23643_225686769
+reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Document Controller
+company: Skilled Careers - Agency - Permanent
+location: Hertford
+source: JobG8
+job_id: jobg8-23643_225735976
 reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -636,6 +720,18 @@ location: Hertfordshire
 source: JobG8
 job_id: jobg8-23643_225680463
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Coordinator
+company: Michael Page - Agency - Permanent
+location: Hemel Hempstead
+source: JobG8
+job_id: jobg8-23643_225637054
+reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---

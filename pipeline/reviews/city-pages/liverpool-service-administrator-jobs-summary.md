@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 31
+- Effective included jobs: 33
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 31
+- automatic include: 33
 - automatic review: 3
 - automatic exclude: 0
-- effective include: 31
+- effective include: 33
 - effective review: 3
 - effective exclude: 0
 
-## INCLUDE (31)
+## INCLUDE (33)
 
 ---
 action: 
@@ -148,6 +148,18 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Document Controller
+company: Penguin Recruitment - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-23643_225721850
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Finance Assistant
 company: X1 Lettings - Agency - Permanent
 location: Liverpool
@@ -225,18 +237,6 @@ company: Brownlow Group Practice
 location: Liverpool, L69 3GF
 source: NHS Jobs
 job_id: nhs-5667460
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Receptionist
-company: Dunstan Village Group Practice
-location: Liverpool, L7 6HD
-source: NHS Jobs
-job_id: nhs-5620107
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -328,6 +328,18 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist and Administrator
+company: GP Practice Riverside
+location: Liverpool, L8 6QP, Liverpool, L7 6HD
+source: NHS Jobs
+job_id: nhs-5676638
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist/Admin
 company: Eastview Surgery
 location: Liverpool, L22 4QD
@@ -357,6 +369,18 @@ company: Zachary Daniels Recruitment - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-23643_225704895
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Service Advisor
+company: The Solution Auto - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-23643_225638866
 reason: Approved conservative Liverpool launch catchment.
 ---
 

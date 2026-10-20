@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 16
-- automatic review: 114
+- automatic review: 123
 - automatic exclude: 0
 - effective include: 16
-- effective review: 114
+- effective review: 123
 - effective exclude: 0
 
 ## INCLUDE (16)
@@ -216,7 +216,7 @@ job_id: jobg8-23643_225694242
 reason: Exact approved Chelmsford workplace.
 ---
 
-## REVIEW (114)
+## REVIEW (123)
 
 ---
 action: 
@@ -366,11 +366,47 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Administrator
+company: MMP Consultancy - Agency - Contract
+location: Essex
+source: JobG8
+job_id: jobg8-23643_225730889
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Primary Care Careers
+location: Basildon, SS16 5AD
+source: NHS Jobs
+job_id: nhs-5652208
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Administrator & Customer Service
 company: Focus Resourcing - Agency - Temporary
 location: Essex
 source: JobG8
 job_id: jobg8-23643_225740933
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: After Sales Technical Administrator
+company: NMS Recruit Ltd - Agency - Permanent
+location: Takeley
+source: JobG8
+job_id: jobg8-23643_225739294
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -743,6 +779,18 @@ company: Delta Housing - Agency - Temporary
 location: Essex
 source: JobG8
 job_id: jobg8-23643_225651182
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Support Administrator
+company: 4Recruitment Services - Agency - Contract
+location: Essex
+source: JobG8
+job_id: jobg8-23643_225733368
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -1206,11 +1254,35 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Rail Sales Coordinator
+company: Prime Appointments - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-23643_225730932
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist
 company: Angel Lane Surgery
 location: Essex, CM6 1AQ
 source: NHS Jobs
 job_id: nhs-5288592
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Primary Care Careers
+location: Colchester, CO4 3SQ
+source: NHS Jobs
+job_id: nhs-5655065
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -1242,6 +1314,30 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist / Care Navigator
+company: Primary Care Careers
+location: Maldon, CM9 5DF
+source: NHS Jobs
+job_id: nhs-5661188
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist / Care Navigator
+company: Primary Care Careers
+location: Basildon, SS16 5AD
+source: NHS Jobs
+job_id: nhs-5663693
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist/Administrator
 company: Church Langley Medical Practice
 location: Harlow, CM17 9TG
@@ -1259,6 +1355,18 @@ company: Operose Health
 location: Essex, SS4 1TU
 source: NHS Jobs
 job_id: nhs-5665206
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist/Administrator
+company: Primary Care Careers
+location: Colchester, CO4 5LE
+source: NHS Jobs
+job_id: nhs-5655615
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

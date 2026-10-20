@@ -4,7 +4,7 @@
 - Live route: `/southampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 13
+- Effective included jobs: 14
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
-- automatic review: 101
-- automatic exclude: 44
-- effective include: 13
-- effective review: 101
-- effective exclude: 44
+- automatic include: 14
+- automatic review: 106
+- automatic exclude: 54
+- effective include: 14
+- effective review: 106
+- effective exclude: 54
 
-## INCLUDE (13)
+## INCLUDE (14)
 
 ---
 action: 
@@ -69,6 +69,18 @@ company: University Hospital Southampton NHS Trust
 location: Southampton, SO16 6YD
 source: NHS Jobs
 job_id: nhs-5663473
+reason: Approved Southampton catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Accountant
+company: Michael Page - Agency - Permanent
+location: Southampton
+source: JobG8
+job_id: jobg8-23643_225696140
 reason: Approved Southampton catchment.
 ---
 
@@ -180,7 +192,7 @@ job_id: jobg8-23643_225636161
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (101)
+## REVIEW (106)
 
 ---
 action: 
@@ -402,6 +414,42 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Assistant Accountant
+company: CMA Recruitment Group - Agency - Permanent
+location: Totton
+source: JobG8
+job_id: jobg8-23643_225686657
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: CMA Recruitment Group - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225725934
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Management Accountant
+company: Hays Accounts and Finance - Agency - Permanent
+location: Hedge End
+source: JobG8
+job_id: jobg8-23643_225701756
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Assistant Management Accountant
 company: The Niche Partnership - Agency - Permanent
 location: Hampshire
@@ -551,6 +599,18 @@ company: Fawkes & Reece London - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225738236
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Document Controller
+company: Melior Associates - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225666375
 reason: Broad location; review before city inclusion.
 ---
 
@@ -900,6 +960,18 @@ location: Emsworth
 source: JobG8
 job_id: jobg8-23643_225736689
 reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Co-ordinator
+company: SER Limited - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225692188
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -1394,7 +1466,7 @@ job_id: jobg8-23643_225665585
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (44)
+## EXCLUDE (54)
 
 ---
 action: 
@@ -1417,6 +1489,18 @@ company: Matchtech - Agency - Contract
 location: Fareham
 source: JobG8
 job_id: jobg8-23643_225703759
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrative Assistant
+company: ARM - Agency - Contract
+location: Portsmouth
+source: JobG8
+job_id: jobg8-23643_225670746
 reason: Separate employment market.
 ---
 
@@ -1533,10 +1617,58 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Assistant Accountant
+company: CMA Recruitment Group - Agency - Permanent
+location: Andover
+source: JobG8
+job_id: jobg8-23643_225655048
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Assistant Accountant
+company: CMA Recruitment Group - Agency - Permanent
+location: Portsmouth
+source: JobG8
+job_id: jobg8-23643_225693892
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Assistant Accountant
+company: Michael Page - Agency - Permanent
+location: Portsmouth
+source: JobG8
+job_id: jobg8-23643_225671157
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Assistant Accountant
 company: Michael Page Finance - Agency - Permanent
 location: Portsmouth
 source: JobG8
 job_id: jobg8-2055478
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Assistant Accountant
+company: Venture Recruitment Partners - Agency - Permanent
+location: Andover
+source: JobG8
+job_id: jobg8-23643_225729408
 reason: Separate employment market.
 ---
 
@@ -1856,6 +1988,54 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Receptionist/Administrator
+company: Operose Health
+location: Basingstoke, RG22 4EH
+source: NHS Jobs
+job_id: nhs-5676423
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist/Administrator
+company: Operose Health
+location: Basingstoke, RG22 4EH
+source: NHS Jobs
+job_id: nhs-5676426
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist/Administrator
+company: Operose Health
+location: Basingstoke, RG22 4EH
+source: NHS Jobs
+job_id: nhs-5676428
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Receptionist/Concierge
+company: Invictus Group - Agency - Contract
+location: Farnborough
+source: JobG8
+job_id: jobg8-23643_225674962
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Residential Conveyancing Assistant - Post Completions
 company: Harwood Recruitment Solutions Ltd - Agency - Permanent
 location: Portsmouth
@@ -1885,6 +2065,18 @@ company: ECS Resource Group Ltd - Agency - Permanent
 location: Aldershot
 source: JobG8
 job_id: jobg8-23643_225661253
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Secretary/Admin Assistant
+company: Click Digital - Agency - Contract
+location: Portsmouth
+source: JobG8
+job_id: jobg8-23643_225672061
 reason: Separate employment market.
 ---
 

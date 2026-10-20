@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 16
-- automatic review: 47
+- automatic review: 58
 - automatic exclude: 0
 - effective include: 16
-- effective review: 47
+- effective review: 58
 - effective exclude: 0
 
 ## INCLUDE (16)
@@ -216,7 +216,7 @@ job_id: jobg8-23643_225641855
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (47)
+## REVIEW (58)
 
 ---
 action: 
@@ -342,6 +342,18 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Creative Digital Marketing Assistant
+company: Starting Off Ltd - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225639023
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Credit Controller
 company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Northamptonshire
@@ -407,6 +419,30 @@ company: Whistl - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-23643_225659123
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Document Controller
+company: RTL Group Ltd - Agency - Contract
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225721739
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: eCommerce Customer Success Executive
+company: Ricoh - Company - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225654683
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -534,11 +570,59 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Local Marketing Manager
+company: Howdens Joinery - Company - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-2088161
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Local Marketing Manager
+company: Howdens Joinery - Company - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225700966
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: M&E Administrator
 company: March - Company - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-23643_225646778
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Executive
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-2052292
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Executive
+company: Plus One Recruitment - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225716302
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -702,6 +786,18 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Sales & Marketing Executive
+company: MIU Consulting - Agency - Permanent
+location: Corby
+source: JobG8
+job_id: jobg8-23643_225656265
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Administrator - Temp to Perm - Immediate Start
 company: Interaction Recruitment - Agency - Temporary
 location: Corby
@@ -714,11 +810,47 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Sales Support Coordinator
+company: Travail Employment Group - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225705535
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Support Executive
 company: Complii - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-23643_225738732
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Social Media Assistant (Part Time)
+company: Recruitment Services UK - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225694005
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Social Media Assistant (Part Time)
+company: RecruitmentService.uk - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-2083728
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/stoke-on-trent/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 50
+- automatic include: 7
+- automatic review: 54
 - automatic exclude: 0
-- effective include: 5
-- effective review: 50
+- effective include: 7
+- effective review: 54
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (7)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Work Lyf Group Ltd - Agency - Permanent
 location: Stoke-On-Trent
 source: JobG8
 job_id: jobg8-23643_225686383
+reason: Exact approved Stoke-on-trent workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Medical Receptionist
+company: North Staffordshire Combined Healthcare Trust
+location: Stoke-on-Trent, ST1 3NJ
+source: NHS Jobs
+job_id: nhs-5674735
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
@@ -84,7 +96,19 @@ job_id: nhs-5657920
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (50)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Team Administrator
+company: North Staffordshire Combined Healthcare Trust
+location: Stoke-on-Trent, ST1 4ND
+source: NHS Jobs
+job_id: nhs-5675916
+reason: Exact approved Stoke-on-trent workplace.
+---
+
+## REVIEW (54)
 
 ---
 action: 
@@ -186,6 +210,18 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
+title: Business Support Administrator
+company: The Colliery Practice
+location: Cannock, WS11 1DJ
+source: NHS Jobs
+job_id: nhs-5677288
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Contact Centre Agent
 company: Safer Hand Solutions - Agency - Permanent
 location: Staffordshire
@@ -239,6 +275,18 @@ company: Pertemps Black Country Perms - Agency - Permanent
 location: Cannock
 source: JobG8
 job_id: jobg8-23643_225645345
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Administrator
+company: Linkster Recruitment - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-23643_225686777
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -335,6 +383,18 @@ company: SF Partners - Agency - Contract
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225716817
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Administrator
+company: Turner and voce - Agency - Permanent
+location: Rugeley
+source: JobG8
+job_id: jobg8-23643_225721610
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -647,6 +707,18 @@ company: Culina Group Limited - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225666458
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Talent Acquisition Advisor (12 Month FTC)
+company: Veolia - Agency - Permanent
+location: Cannock
+source: JobG8
+job_id: jobg8-23643_225679954
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/poole/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 14
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
+- automatic include: 15
 - automatic review: 40
 - automatic exclude: 0
-- effective include: 14
+- effective include: 15
 - effective review: 40
 - effective exclude: 0
 
-## INCLUDE (14)
+## INCLUDE (15)
 
 ---
 action: 
@@ -184,6 +184,18 @@ reason: Exact approved Poole workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Personal Assistant
+company: Kingston Barnes Ltd - Agency - Permanent
+location: Poole
+source: JobG8
+job_id: jobg8-23643_225701721
+reason: Exact approved Poole workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Temporary Purchase Ledger
 company: CMA Recruitment Group - Agency - Permanent
 location: Poole
@@ -215,18 +227,6 @@ company: Dorset HealthCare University NHS Foundation Trust
 location: Weymouth, DT3 6SA
 source: NHS Jobs
 job_id: nhs-5645280
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Agincare
-location: Dorchester, DT1 2EN
-source: NHS Jobs
-job_id: nhs-5655572
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -671,6 +671,18 @@ company: Aspire Jobs Limited - Agency - Permanent
 location: Beaminster
 source: JobG8
 job_id: jobg8-107765584
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Ward Clerk - Stroke Unit
+company: University Hospitals Dorset NHS Foundation Trust
+location: Bournemouth, BH7 7DW
+source: NHS Jobs
+job_id: nhs-5675567
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

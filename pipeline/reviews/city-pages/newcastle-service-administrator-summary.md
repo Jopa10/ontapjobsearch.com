@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 26
-- automatic review: 54
+- automatic review: 61
 - automatic exclude: 35
 - effective include: 26
-- effective review: 54
+- effective review: 61
 - effective exclude: 35
 
 ## INCLUDE (26)
@@ -336,7 +336,7 @@ job_id: jobg8-23643_225677749
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (54)
+## REVIEW (61)
 
 ---
 action: 
@@ -534,12 +534,48 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Candidate Manager / Resourcer
+company: Prospero Group - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225720328
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Community Engagement & Events Fundraiser
 company: HospiceCare North Northumberland - Agency - Permanent
 location: Northumberland
 source: JobG8
 job_id: jobg8-2124750
 reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Compliance Administrator - Leading Recruitment Company
+company: Prospero Group - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225672478
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Compliance Officer - Leading Recruitment Company
+company: Prospero Group - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225732862
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -576,6 +612,18 @@ location: Billingham
 source: JobG8
 job_id: jobg8-23643_225678483
 reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Delivery Consultant/Resourcer
+company: Coleman James - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_222573761
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -648,6 +696,18 @@ location: Yorkshire
 source: JobG8
 job_id: jobg8-2063469
 reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: IT Resourcer
+company: Randstad Technologies - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2078122
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -851,6 +911,30 @@ company: Office Angels - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225660233
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruiter
+company: Capital R2R Limited - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_222841829
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment Resourcer
+company: CDM Recruitment - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225396751
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1065,10 +1149,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Administration Assistant
-company: St John Bosco Catholic Primary School, Town End Farm, Sunderland
+company: Trinity Academy New Bridge
 location: Sunderland
 source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-st-john-bosco-catholic-primary-school-town-end-farm-sunderland
+job_id: teaching-vacancies-administration-assistant-trinity-academy-new-bridge-sunderland
 reason: Separate employment market.
 ---
 
@@ -1076,11 +1160,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administration Assistant
-company: Trinity Academy New Bridge
-location: Sunderland
-source: Teaching Vacancies
-job_id: teaching-vacancies-administration-assistant-trinity-academy-new-bridge-sunderland
+title: Administrator
+company: ABL Health Ltd
+location: Sunderland, SR1 1PB
+source: NHS Jobs
+job_id: nhs-5676939
 reason: Separate employment market.
 ---
 
@@ -1232,23 +1316,23 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Medical Receptionist
-company: Hartlepool & Stockton Health [H&SH]
-location: HARTLEPOOL, TS25 1QU
-source: NHS Jobs
-job_id: nhs-5639684
-reason: Outside Newcastle catchment.
+title: Payroll Officer
+company: Paul Card Recruitment - Agency - Temporary
+location: County Durham
+source: JobG8
+job_id: jobg8-23643_225736941
+reason: Separate employment market.
 ---
 
 ---
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Payroll Officer
-company: Paul Card Recruitment - Agency - Temporary
+title: People Officer
+company: Hays Business Support - Agency - Temporary
 location: County Durham
 source: JobG8
-job_id: jobg8-23643_225736941
+job_id: jobg8-23643_225710150
 reason: Separate employment market.
 ---
 

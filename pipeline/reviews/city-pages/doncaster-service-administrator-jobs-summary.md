@@ -4,7 +4,7 @@
 - Live route: `/doncaster/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 19
+- Effective included jobs: 21
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 19
+- automatic include: 21
 - automatic review: 6
-- automatic exclude: 37
-- effective include: 19
+- automatic exclude: 39
+- effective include: 21
 - effective review: 6
-- effective exclude: 37
+- effective exclude: 39
 
-## INCLUDE (19)
+## INCLUDE (21)
 
 ---
 action: 
@@ -69,6 +69,18 @@ company: EE - Company - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-20279_63174-73862c8b83139033e4e4a8b6efca9a33
+reason: Approved Doncaster catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Care Navigator (Receptionist)
+company: Dunsville Medical Centre
+location: Doncaster, DN7 4BY
+source: NHS Jobs
+job_id: nhs-5677415
 reason: Approved Doncaster catchment.
 ---
 
@@ -252,6 +264,18 @@ job_id: jobg8-23643_225639569
 reason: Approved Doncaster catchment.
 ---
 
+---
+action: 
+decision: include
+automatic_decision: include
+title: Secretary / Assistant EA
+company: Edwards & Pearce - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225636340
+reason: Approved Doncaster catchment.
+---
+
 ## REVIEW (6)
 
 ---
@@ -326,7 +350,7 @@ job_id: jobg8-23643_225681456
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (37)
+## EXCLUDE (39)
 
 ---
 action: 
@@ -440,6 +464,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Assistant Accountant
+company: Sewell Wallis Ltd - Agency - Permanent
+location: Barnsley
+source: JobG8
+job_id: jobg8-23643_225713436
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Assistant Management Accountant
 company: Elevation Recruitment Group - Agency - Permanent
 location: Sheffield
@@ -500,6 +536,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Clerical Officer
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S10 2SF
+source: NHS Jobs
+job_id: nhs-5674866
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Clerical Officer/Receptionist
 company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S10 2JF
@@ -541,6 +589,18 @@ company: Sue Ross Recruitment Ltd - Agency - Contract
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225597891
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Executive Assistant
+company: The Talent Division - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225334218
 reason: Separate employment market.
 ---
 
@@ -637,18 +697,6 @@ company: Sue Ross Recruitment Ltd - Agency - Temporary
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225739418
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Personal Assistant
-company: Bradfield Secondary School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-personal-assistant-bradfield-secondary-school
 reason: Separate employment market.
 ---
 

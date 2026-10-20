@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 19
+- automatic review: 20
 - automatic exclude: 33
 - effective include: 10
-- effective review: 19
+- effective review: 20
 - effective exclude: 33
 
 ## INCLUDE (10)
@@ -144,7 +144,7 @@ job_id: jobg8-23643_225691482
 reason: Exact approved Harrogate workplace.
 ---
 
-## REVIEW (19)
+## REVIEW (20)
 
 ---
 action: 
@@ -155,6 +155,18 @@ company: KD Recruitment - Agency - Permanent
 location: Ripon
 source: JobG8
 job_id: jobg8-23643_225631397
+reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: Capital Outsourcing Group Ltd - Agency - Permanent
+location: Malton
+source: JobG8
+job_id: jobg8-23643_225489399
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 

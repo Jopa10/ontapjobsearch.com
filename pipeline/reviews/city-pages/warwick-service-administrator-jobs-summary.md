@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 75
+- automatic review: 80
 - automatic exclude: 0
 - effective include: 9
-- effective review: 75
+- effective review: 80
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -132,7 +132,7 @@ job_id: jobg8-23643_225673829
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (75)
+## REVIEW (80)
 
 ---
 action: 
@@ -319,6 +319,18 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
+company: RTL Group Ltd - Agency - Contract
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225728034
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
 company: The Job People - Agency - Temporary
 location: Warwickshire
 source: JobG8
@@ -439,10 +451,34 @@ action:
 decision: review
 automatic_decision: review
 title: Document Controller
+company: RTL Group Ltd - Agency - Contract
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225709208
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Document Controller
 company: Stepnell Ltd - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225640022
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Document Controller
+company: Think Recruitment - Agency - Permanent
+location: Rugby
+source: JobG8
+job_id: jobg8-23643_225640270
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -846,6 +882,18 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Project Coordinator
+company: Pure Talent Group - Agency - Permanent
+location: Leamington Spa
+source: JobG8
+job_id: jobg8-23643_225739232
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Purchase Ledger
 company: SF Partners - Agency - Temporary
 location: Coventry
@@ -959,6 +1007,18 @@ company: SF Partners - Agency - Permanent
 location: Coventry
 source: JobG8
 job_id: jobg8-23643_225701362
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Development Representative
+company: Rapid Access - Agency - Permanent
+location: Nuneaton
+source: JobG8
+job_id: jobg8-23643_225702726
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

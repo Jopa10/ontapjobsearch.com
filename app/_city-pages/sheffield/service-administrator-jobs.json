@@ -302,6 +302,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "23643_225334218",
+    "title": "Executive Assistant",
+    "company": "The Talent Division - Agency - Permanent",
+    "location": "Sheffield",
+    "region": "Yorkshire - South",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "40000",
+    "salary_max": "50000",
+    "salary_text": "£40000 - £50000 per year",
+    "posted_date": "2026-10-20",
+    "description": "Executive Assistant\n\nLocation: Sheffield (Primarily Office-Based with up to 1 Day Hybrid Working)\nSalary: £40,000 £50,000 FTE (Dependent on Experience)\nHours: Full Time (Flexibility Available for the Right Candidate)\nContract Type: Permanent\n\nThe Opportunity\n\nWe're delighted to be supporting our client in the search for an experienced and highly organised Executive Assistant to support the MD of a fantastic global company.\n\nThis is a rare opportunity to become a trusted partner to the company's MD, helping them maximise their impact by managing priorities, protecting their time, and ensuring the smooth running of day-to-day operations. Working at the heart of the business, you'll support senior leadership, complex diary management, international travel arrangements over different time zones,codordinate key projects and events, and play an important role in helping the organisation continue its impressive growth journey.\n\nIf you're a proactive problem-solver who thrives in a fast-paced environment and enjoys bringing structure and organisation to busy schedules, we'd love to hear from you.\n\nKey Responsibilities\n- Provide comprehensive executive support to the MD, managing priorities across multiple business areas.\n- Proactively manage complex diaries, International travel plans,schedules, meetings, and appointments and monitor and triage inboxes, responding on behalf of the MD where appropriate.\n- Monitor and triage inboxes, responding on behalf of senior leaders where appropriate.\n- Arrange travel, accommodation, and detailed itineraries.\n- Prepare meeting agendas, papers, briefing notes, and follow-up actions.\n- Manage actions arising from meetings, ensuring tasks are followed through to completion.\n- Coordinate leadership meetings, strategy sessions.\n- Liaise confidently with clients, colleagues, and external stakeholders and handle confidential and sensitive information with the highest level of professionalism and discretion.\n- Handle confidential and sensitive information with the highest level of professionalism and discretion.\n\nWhat We're Looking For\n- Proven experience as an Executive Assistant supporting senior leaders, directors, or business owners with experience supporting multiple stakeholders simultaneously.\n- Exceptional organisational and time-management skills.\n- Strong communication skills, both written and verbal with excellent attention to detail.\n- Confident using Microsoft 365, Teams, Outlook, and modern workplace technology.\n- Professional, diplomatic, and capable of dealing with confidential information.\n- Experience handling complex diary management and international travel plans across many time zones.\n\nWhat's In It For You?\n- Competitive salary of £40,000 £50,000 FTE, depending on experience.\n- Pension scheme\n- Up to one day per week working from home.\n- 25 days holiday plus bank holidays\n- Modern Sheffield office with parking options available.\n- Comprehensive personal development.\n\nOur Commitment to Inclusion\n\nThe Talent Division is committed to creating an inclusive recruitment process where everyone feels valued, respected, and able to succeed.\n\nWe welcome applications from people of all backgrounds, experiences, and perspectives. We believe diverse teams make stronger businesses and encourage applications from all suitably qualified candidates regardless of age, disability, gender identity, marriage or civil partnership status, pregnancy or maternity, race, religion or belief, sex, or sexual orientation.\n\nIf you require any adjustments during the recruitment process, please let us know and we'll be happy to support you.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?1tcg6Aj2zazhvW35o%2bXbg%2fgVi5V2f%2bUGb",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "Executive Assistant Executive Assistant Location: Sheffield (Primarily Office-Based with up to 1 Day Hybrid Working) Salary: £40,000 £50,000 FTE (Dependent on Experience) Hours: Full Time (Flexibility Available for the Right Candidate) Contract Type: Permanent The Opportunity We're delighted to be supporting our client in the search for an experienced and highly organised Executive Assistant to support the MD of a fantastic global company.",
+    "advertiser_name": "The Talent Division",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "2014257",
     "title": "Insolvency Case Administrator",
     "company": "GGT Insolvency Recruitment - Agency - Permanent",
@@ -400,34 +425,6 @@
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
     "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "teaching-vacancies-personal-assistant-bradfield-secondary-school",
-    "title": "Personal Assistant",
-    "company": "Bradfield Secondary School",
-    "location": "Sheffield",
-    "region": "Yorkshire - South",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "Grade 6 Point 21 - 26",
-    "work_pattern": "",
-    "posted_date": "2026-10-07",
-    "closing_date": "2026-10-20",
-    "closing_datetime": "2026-10-20T09:00:59+01:00",
-    "summary": "Personal Assistant with Bradfield Secondary School in Sheffield. ['full time']; Grade 6 Point 21 - 26.",
-    "description": "Bradfield Secondary School is recruiting for this vacancy in Sheffield.\n\nThe advertised position is Personal Assistant.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is Grade 6 Point 21 - 26.\n\nThe stated application deadline is 2026-10-20T09:00:59+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-bradfield-secondary-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Bradfield Secondary School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225694244",
@@ -572,9 +569,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9190-26-0633",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -594,9 +588,25 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9190-26-0638",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5674866",
+    "source": "NHS Jobs",
+    "title": "Clerical Officer",
+    "company": "Sheffield Teaching Hospitals NHS Foundation Trust",
+    "advertiser_name": "Sheffield Teaching Hospitals NHS Foundation Trust",
+    "location": "Sheffield, S10 2SF",
+    "region": "Yorkshire - South",
+    "salary": "£25272.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-20T08:41:11.723273516",
+    "closing_date": "2026-10-26",
+    "description": "*** THIS VACANCY MAY BE CLOSED EARLY DUE TO THE HIGH VOLUME OF APPLICATIONS RECEIVED *** Obstetrics, Gynaecology and Neonatology Care Group (OGN) Full-time positions available. Exciting opportunities have arisen to join our Obstetrics, Gynaecology and Neonatology Care Group. We are seeking enthusiastic, professional Administrative & Clerical Officers to provide essential administrative support within our busy, friendly services. We are looking for individuals with excellent communication, organisational, and administrative skills who are methodical, flexible, and uphold our Trust's PROUD values. A good understanding of patient confidentiality is essential, along with effective computer skills, and experience with hospital systems would be desirable. Attention to detail and problem-solving skills are vital. Above all, you will be a team player who can thrive in a fast-paced, patient-focused setting. Joining our team means being part of a caring and committed group of professionals, working in a dynamic environment where your skills directly support patients and colleagues. You will have the opportunity to grow and develop within our Trust while contributing to the delivery of exceptional care. In this role, you may be based in reception, providing a warm and professional welcome in our busy inpatient or outpatient areas, or in an administrative position delivering high-quality clerical support to the care group. Whichever area you work in, you will play a vital part in ensuring patient information is accurate, complete, and up to date by recording, amending, and inputting data into the Trust's administration systems. You will be supporting patients by scheduling appointments and managing their queries. Your contribution will be key to maintaining the smooth flow of information that supports excellent patient care. Please note that this job advert may close early if a large volume of applications is received. Please view the attached Job Description and Person Specification documents for full details regarding this post. When completing your application please ensure that you clearly demonstrate how you meet the role criteria.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9190-26-0658",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9190-26-0658",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
     "posted_date_basis": "source"
   },
   {
@@ -616,9 +626,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9190-26-0656",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -638,9 +645,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5192-26-0002",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -660,9 +664,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1111-26-0000",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

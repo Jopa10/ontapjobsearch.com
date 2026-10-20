@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 47
+- Effective included jobs: 51
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 47
+- automatic include: 51
 - automatic review: 10
 - automatic exclude: 8
-- effective include: 47
+- effective include: 51
 - effective review: 10
 - effective exclude: 8
 
-## INCLUDE (47)
+## INCLUDE (51)
 
 ---
 action: 
@@ -292,6 +292,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Financial Administrator
+company: Aldwych Consulting - Agency - Temporary
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225640986
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Freight Co-Ordinator
 company: Travail Employment Group - Agency - Permanent
 location: Bristol
@@ -436,11 +448,35 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Outpatient Receptionist
+company: Bristol NHS Foundation Trust
+location: Bristol, BS2 8EG
+source: NHS Jobs
+job_id: nhs-5674929
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Patient Co-ordinator, Patchway
 company: Menlo Park - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225678230
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: People Coordinator
+company: Adecco - Agency - Temporary
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225636147
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -537,6 +573,18 @@ company: Harwood Recruitment Solutions Ltd - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225707937
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Service Advisor
+company: Pembrook Resourcing - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225679857
 reason: Approved conservative Bristol launch catchment.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 90
+- Effective included jobs: 96
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 90
+- automatic include: 96
 - automatic review: 21
 - automatic exclude: 5
-- effective include: 90
+- effective include: 96
 - effective review: 21
 - effective exclude: 5
 
-## INCLUDE (90)
+## INCLUDE (96)
 
 ---
 action: 
@@ -117,6 +117,42 @@ company: Search Consultancy Ltd - Agency - Temporary
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225638169
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Tradestech Recruitment - Agency - Contract
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225720634
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Accountant
+company: Four Squared Recruitment Ltd - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225709317
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Accountant (Financial Accounts)
+company: Sellick Partnership - Agency - Contract
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225699543
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -280,6 +316,18 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Customer Service Advisor (UK)
+company: SRS Recruitment Solutions - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225223910
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Customer Service Assistant
 company: Ritz Recruitment - Agency - Temporary
 location: Birmingham
@@ -389,6 +437,18 @@ action:
 decision: include
 automatic_decision: include
 title: Document Controller
+company: Falcon Green Personnel - Agency - Contract
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225591722
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Document Controller
 company: FERROVIAL CONSTRUCTION (UK) LIMITED - Agency - Permanent
 location: Birmingham
 source: JobG8
@@ -417,6 +477,18 @@ company: Red King Resourcing - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225721340
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Document Controller - Birmingham
+company: Real - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225662459
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1146,11 +1218,11 @@ reason: No approved Birmingham catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Care Home Administrator
-company: Avery Healthcare Group Ltd.
-location: Knowle, B93 9LQ
-source: NHS Jobs
-job_id: nhs-5638487
+title: Customer Experience Co-ordinator
+company: CCA Recruitment Group - Agency - Permanent
+location: Shirley
+source: JobG8
+job_id: jobg8-23643_225682283
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
@@ -1158,11 +1230,11 @@ reason: No approved Birmingham catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Customer Experience Co-ordinator
-company: CCA Recruitment Group - Agency - Permanent
+title: Executive Assistant
+company: Gleeson Recruitment Group - Agency - Permanent
 location: Shirley
 source: JobG8
-job_id: jobg8-23643_225682283
+job_id: jobg8-23643_225629392
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 

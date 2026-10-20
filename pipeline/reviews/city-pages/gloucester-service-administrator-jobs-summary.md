@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 53
+- automatic review: 54
 - automatic exclude: 0
 - effective include: 8
-- effective review: 53
+- effective review: 54
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: jobg8-23643_225690247
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (53)
+## REVIEW (54)
 
 ---
 action: 
@@ -647,6 +647,18 @@ company: First Choice Recruitment Services - Agency - Permanent
 location: Cheltenham
 source: JobG8
 job_id: jobg8-23643_225448632
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Support Coordinator
+company: Advanced Technical Recruitment - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225657514
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

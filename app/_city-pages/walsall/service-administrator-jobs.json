@@ -153,34 +153,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "teaching-vacancies-school-receptionist-new-leaf-school",
-    "title": "School Receptionist",
-    "company": "New Leaf School",
-    "location": "Walsall",
-    "region": "West Midlands - Black Country",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£21,924.00 - £22,623.00 Annually (Actual) Grade 3 SCP 4-6 | 36.25 Hours | 39 Weeks",
-    "work_pattern": "",
-    "posted_date": "2026-09-29",
-    "closing_date": "2026-10-20",
-    "closing_datetime": "2026-10-20T09:00:00+01:00",
-    "summary": "School Receptionist with New Leaf School in Walsall. ['full time']; £21,924.00 - £22,623.00 Annually (Actual) Grade 3 SCP 4-6 | 36.25 Hours | 39 Weeks.",
-    "description": "New Leaf School is recruiting for this vacancy in Walsall.\n\nThe advertised position is School Receptionist.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £21,924.00 - £22,623.00 Annually (Actual) Grade 3 SCP 4-6 | 36.25 Hours | 39 Weeks.\n\nThe stated application deadline is 2026-10-20T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-new-leaf-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "New Leaf School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "23643_225653580",
     "title": "Temporary HR Administrator",
     "company": "Bell Cornwall Recruitment - Agency - Temporary",
@@ -222,9 +194,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9407-26-0402",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -244,9 +213,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9285-26-0691",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -266,9 +232,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1659-26-0002",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

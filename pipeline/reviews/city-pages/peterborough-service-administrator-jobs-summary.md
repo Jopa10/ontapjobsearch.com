@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 15
-- automatic review: 7
-- automatic exclude: 26
+- automatic review: 9
+- automatic exclude: 29
 - effective include: 15
-- effective review: 7
-- effective exclude: 26
+- effective review: 9
+- effective exclude: 29
 
 ## INCLUDE (15)
 
@@ -204,7 +204,7 @@ job_id: jobg8-23643_225739501
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (7)
+## REVIEW (9)
 
 ---
 action: 
@@ -282,6 +282,30 @@ reason: No approved Peterborough catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Sales Executive
+company: Anne Corder Recruitment - Agency - Permanent
+location: St. Ives
+source: JobG8
+job_id: jobg8-23643_225657890
+reason: No approved Peterborough catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Executive
+company: Interaction Recruitment - Agency - Permanent
+location: St. Ives
+source: JobG8
+job_id: jobg8-23643_225661395
+reason: No approved Peterborough catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Service Administrator
 company: Interaction Recruitment - Agency - Contract
 location: St. Ives
@@ -290,7 +314,7 @@ job_id: jobg8-23643_225691104
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (26)
+## EXCLUDE (29)
 
 ---
 action: 
@@ -392,6 +416,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Assistant Management Accountant
+company: Pure Resourcing Solutions Limited - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-23643_225703471
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Brand & Marketing Executive
 company: UBT - Agency - Permanent
 location: Cambridgeshire
@@ -409,6 +445,18 @@ company: Universal Business Team - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-23643_225662551
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Commercial Account Manager
+company: Select Recruitment Specialists Ltd - Agency - Temporary
+location: Cambridge
+source: JobG8
+job_id: jobg8-23643_225670934
 reason: Separate employment market.
 ---
 
@@ -577,6 +625,18 @@ company: Pathfinder CofE Primary School
 location: Cambridge
 source: Teaching Vacancies
 job_id: teaching-vacancies-senior-office-administrator-3a5f781d-04a4-440d-b3a1-75326476e3e9
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Telesales Executive
+company: Reed Specialist Recruitment - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-23643_225735950
 reason: Separate employment market.
 ---
 

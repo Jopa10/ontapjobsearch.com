@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 14
 - automatic review: 3
-- automatic exclude: 67
+- automatic exclude: 72
 - effective include: 14
 - effective review: 3
-- effective exclude: 67
+- effective exclude: 72
 
 ## INCLUDE (14)
 
@@ -230,7 +230,7 @@ job_id: jobg8-23643_225656636
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (67)
+## EXCLUDE (72)
 
 ---
 action: 
@@ -385,6 +385,18 @@ company: Practice Plus Group - Health in Justice
 location: Rugby, CV23 8AP
 source: NHS Jobs
 job_id: nhs-5667538
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: RTL Group Ltd - Agency - Contract
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225728034
 reason: Separate employment market.
 ---
 
@@ -549,10 +561,34 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Document Controller
+company: RTL Group Ltd - Agency - Contract
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225709208
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Document Controller
 company: Stepnell Ltd - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225640022
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Document Controller
+company: Think Recruitment - Agency - Permanent
+location: Rugby
+source: JobG8
+job_id: jobg8-23643_225640270
 reason: Separate employment market.
 ---
 
@@ -896,6 +932,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Project Coordinator
+company: Pure Talent Group - Agency - Permanent
+location: Leamington Spa
+source: JobG8
+job_id: jobg8-23643_225739232
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Property Litigation Paralegal
 company: Michael Page Legal - Agency - Permanent
 location: Warwick
@@ -973,6 +1021,18 @@ company: Arden Personnel - Agency - Contract
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225634834
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Sales Development Representative
+company: Rapid Access - Agency - Permanent
+location: Nuneaton
+source: JobG8
+job_id: jobg8-23643_225702726
 reason: Separate employment market.
 ---
 

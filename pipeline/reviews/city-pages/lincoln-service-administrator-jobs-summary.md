@@ -4,7 +4,7 @@
 - Live route: `/lincoln/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 28
+- Effective included jobs: 30
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 28
-- automatic review: 10
+- automatic include: 30
+- automatic review: 11
 - automatic exclude: 0
-- effective include: 28
-- effective review: 10
+- effective include: 30
+- effective review: 11
 - effective exclude: 0
 
-## INCLUDE (28)
+## INCLUDE (30)
 
 ---
 action: 
@@ -101,6 +101,18 @@ action:
 decision: include
 automatic_decision: include
 title: Assistant Accountant
+company: Michael Page - Agency - Permanent
+location: Lincoln
+source: JobG8
+job_id: jobg8-23643_225686411
+reason: Exact approved Lincoln workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Accountant
 company: Michael Page Finance - Agency - Permanent
 location: Lincoln
 source: JobG8
@@ -118,6 +130,18 @@ location: Lincolnshire
 source: JobG8
 job_id: jobg8-2024723
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Management Accountant
+company: Michael Page - Agency - Contract
+location: Lincoln
+source: JobG8
+job_id: jobg8-23643_225666799
+reason: Exact approved Lincoln workplace.
 ---
 
 ---
@@ -360,7 +384,7 @@ job_id: jobg8-23643_225696261
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
-## REVIEW (10)
+## REVIEW (11)
 
 ---
 action: 
@@ -383,6 +407,18 @@ company: Stirling Warrington - Agency - Permanent
 location: Grantham
 source: JobG8
 job_id: jobg8-23643_225648525
+reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Executive Assistant
+company: Commercial Recruitment - Agency - Permanent
+location: Stamford
+source: JobG8
+job_id: jobg8-23643_225719266
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 17
-- automatic review: 61
+- automatic review: 65
 - automatic exclude: 0
 - effective include: 17
-- effective review: 61
+- effective review: 65
 - effective exclude: 0
 
 ## INCLUDE (17)
@@ -228,7 +228,7 @@ job_id: jobg8-23643_225635978
 reason: Exact approved Milton Keynes workplace.
 ---
 
-## REVIEW (61)
+## REVIEW (65)
 
 ---
 action: 
@@ -654,6 +654,18 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
+title: HR Assistant
+company: Fawkes & Reece London - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225740239
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Communications Executive
 company: Technical Futures Ltd - Agency - Permanent
 location: Buckinghamshire
@@ -834,6 +846,18 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist
+company: Primary Care Careers
+location: Olney, MK46 5QG
+source: NHS Jobs
+job_id: nhs-5618397
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Remote Conveyancing Paralegal
 company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
 location: Buckinghamshire
@@ -959,6 +983,30 @@ company: Monday Matters Recruitment Ltd - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225667454
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Ward Clerk
+company: Buckinghamshire Healthcare NHS Trust
+location: Aylesbury, HP21 8AL
+source: NHS Jobs
+job_id: nhs-5675336
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Ward Clerk - Maternity
+company: Buckinghamshire Healthcare NHS Trust
+location: Aylesbury, HP21 8AL
+source: NHS Jobs
+job_id: nhs-5676129
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

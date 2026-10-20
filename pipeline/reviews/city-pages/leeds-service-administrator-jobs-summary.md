@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 89
+- Effective included jobs: 92
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 89
-- automatic review: 38
-- automatic exclude: 40
-- effective include: 89
-- effective review: 38
-- effective exclude: 40
+- automatic include: 92
+- automatic review: 40
+- automatic exclude: 45
+- effective include: 92
+- effective review: 40
+- effective exclude: 45
 
-## INCLUDE (89)
+## INCLUDE (92)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Aspire People - Agency - Temporary
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225739432
-reason: Approved Leeds catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrative Assistant
-company: Holy Rosary and St Anne's Catholic Primary School, a Voluntary Academy
-location: Leeds
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-holy-rosary-and-st-anne-s-catholic-primary-school-a-voluntary-academy-leeds-west-yorkshire
 reason: Approved Leeds catchment.
 ---
 
@@ -93,6 +81,18 @@ company: Search Consultancy Ltd - Agency - Contract
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225645333
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Management Accountant
+company: Hays Accounts and Finance - Agency - Temporary
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225710957
 reason: Approved Leeds catchment.
 ---
 
@@ -153,6 +153,18 @@ company: Reed Specialist Recruitment - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225673075
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Business Administrator
+company: Permanent Futures Limited - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225682342
 reason: Approved Leeds catchment.
 ---
 
@@ -321,6 +333,18 @@ company: Search Consultancy Ltd - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225718050
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service / Sales Support Team Leader
+company: Huntress - Leeds - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225676663
 reason: Approved Leeds catchment.
 ---
 
@@ -549,6 +573,18 @@ company: Huntress - Leeds - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225635303
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Coordinator
+company: Ashley Kate HR & Finance - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225710184
 reason: Approved Leeds catchment.
 ---
 
@@ -1092,7 +1128,7 @@ job_id: jobg8-23643_225706935
 reason: Approved Leeds catchment.
 ---
 
-## REVIEW (38)
+## REVIEW (40)
 
 ---
 action: 
@@ -1163,6 +1199,30 @@ company: Mpeople Recruitment - Agency - Permanent
 location: Batley
 source: JobG8
 job_id: jobg8-2088263
+reason: No approved Leeds catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: Mpeople Recruitment North West - Agency - Permanent
+location: Batley
+source: JobG8
+job_id: jobg8-23643_225729117
+reason: No approved Leeds catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: Search Consultancy Ltd - Agency - Contract
+location: Batley
+source: JobG8
+job_id: jobg8-23643_225704238
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
@@ -1550,7 +1610,7 @@ job_id: jobg8-23643_225555461
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
-## EXCLUDE (40)
+## EXCLUDE (45)
 
 ---
 action: 
@@ -1609,6 +1669,18 @@ company: All Saints Catholic College
 location: Huddersfield
 source: Teaching Vacancies
 job_id: teaching-vacancies-business-support-officer-854eb79b-4156-4a90-8232-676cdd7ff0a7
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Business Support Officer
+company: Hatched Recruitment Group - Agency - Temporary
+location: Bradford
+source: JobG8
+job_id: jobg8-23643_225735615
 reason: Separate employment market.
 ---
 
@@ -1717,6 +1789,30 @@ company: Bradford Academy
 location: Bradford
 source: Teaching Vacancies
 job_id: teaching-vacancies-exams-officer-bradford-academy-bradford
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Executive Assistant
+company: hireful - Company - Permanent
+location: Bradford
+source: JobG8
+job_id: jobg8-23643_225694366
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Executive Assistant
+company: Michael Page - Agency - Permanent
+location: Bradford
+source: JobG8
+job_id: jobg8-23643_225693357
 reason: Separate employment market.
 ---
 
@@ -1845,6 +1941,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Medical Receptionist
+company: Kensington Partnership
+location: Bradford, BD8 9LB
+source: NHS Jobs
+job_id: nhs-5676393
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Medical Receptionist
 company: Stanley Health Centre
 location: Wakefield, WF3 4HS
 source: NHS Jobs
@@ -1897,6 +2005,18 @@ company: Reed - Agency - Permanent
 location: Wakefield
 source: JobG8
 job_id: jobg8-2064618
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Personal Assistant
+company: Marmon Lift Recruitment - Agency - Permanent
+location: Bradford
+source: JobG8
+job_id: jobg8-23643_225707509
 reason: Separate employment market.
 ---
 

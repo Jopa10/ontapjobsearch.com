@@ -13,6 +13,8 @@ review,teaching-vacancies-admin-assistant-oyster-park-primary-academy,Admin Assi
 review,teaching-vacancies-administration-assistant-the-mirfield-free-grammar-mirfield-west-yorkshire,Administration Assistant,The Mirfield Free Grammar,Mirfield,Teaching Vacancies,review,review,No approved Huddersfield catchment rule matched; local review required.,fallback,huddersfield-service-administrator-jobs
 review,nhs-5642303,Administrator/Receptionist,Church Lane Surgery,"Brighouse, HD6 1AT",NHS Jobs,review,review,No approved Huddersfield catchment rule matched; local review required.,fallback,huddersfield-service-administrator-jobs
 review,jobg8-2088263,Assistant Accountant,Mpeople Recruitment - Agency - Permanent,Batley,JobG8,review,review,No approved Huddersfield catchment rule matched; local review required.,fallback,huddersfield-service-administrator-jobs
+review,jobg8-23643_225729117,Assistant Accountant,Mpeople Recruitment North West - Agency - Permanent,Batley,JobG8,review,review,No approved Huddersfield catchment rule matched; local review required.,fallback,huddersfield-service-administrator-jobs
+review,jobg8-23643_225704238,Assistant Accountant,Search Consultancy Ltd - Agency - Contract,Batley,JobG8,review,review,No approved Huddersfield catchment rule matched; local review required.,fallback,huddersfield-service-administrator-jobs
 review,jobg8-23643_225715639,Bank Medical Secretary,Spire Healthcare - Company - Temporary,Elland,JobG8,review,review,No approved Huddersfield catchment rule matched; local review required.,fallback,huddersfield-service-administrator-jobs
 review,jobg8-2075601,Bookkeeper,IMPRESSION RECRUITMENT LIMITED - Agency - Permanent,Keighley,JobG8,review,review,No approved Huddersfield catchment rule matched; local review required.,fallback,huddersfield-service-administrator-jobs
 review,nhs-5664888,Clinical Administrator,Locala Health and Wellbeing,"Holmfirth, HD1 4EW",NHS Jobs,review,review,No approved Huddersfield catchment rule matched; local review required.,fallback,huddersfield-service-administrator-jobs
@@ -47,18 +49,20 @@ review,jobg8-23643_225555461,Trainee Sales Consultant,Cowell Recruitment - Agenc
 exclude,jobg8-23643_225678109,Accounts Payable,Lucy Walker Recruitment - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225663468,Admin / Business Support Officer,Colbern Limited - Agency - Contract,Wakefield,JobG8,exclude,exclude,Separate employment market.,wakefield,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225739432,Admin Assistant - Leeds,Aspire People - Agency - Temporary,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
-exclude,teaching-vacancies-administrative-assistant-holy-rosary-and-st-anne-s-catholic-primary-school-a-voluntary-academy-leeds-west-yorkshire,Administrative Assistant,"Holy Rosary and St Anne's Catholic Primary School, a Voluntary Academy",Leeds,Teaching Vacancies,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,nhs-5637209,Administrative Assistant,Leeds Teaching Hospitals,"Leeds, LS9 7TF",NHS Jobs,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225730421,Administrator,Encon Staffing Associates Ltd - Agency - Temporary,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225717635,Administrator,Huntress - Leeds - Agency - Contract,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225645333,Administrator,Search Consultancy Ltd - Agency - Contract,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,teaching-vacancies-apprentice-business-support-administrator,Apprentice Business Support Administrator,The North Halifax Grammar School,Halifax,Teaching Vacancies,exclude,exclude,Separate employment market.,halifax,huddersfield-service-administrator-jobs
+exclude,jobg8-23643_225710957,Assistant Management Accountant,Hays Accounts and Finance - Agency - Temporary,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225685033,Bank Medical Records Administrator,Spire Healthcare - Company - Temporary,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-2076475,Bookkeeper,PRATAP PARTNERSHIP LTD - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-2026795,Bookkeeper,Reed - Agency - Permanent,Halifax,JobG8,exclude,exclude,Separate employment market.,halifax,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225729716,Bookkeeper,Verelogic - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-2056878,Brand Manager,Reed - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225673075,Brand Manager,Reed Specialist Recruitment - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
+exclude,jobg8-23643_225682342,Business Administrator,Permanent Futures Limited - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
+exclude,jobg8-23643_225735615,Business Support Officer,Hatched Recruitment Group - Agency - Temporary,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,huddersfield-service-administrator-jobs
 exclude,nhs-5630977,Care Navigator / Receptionist,Lofthouse Surgery,"Wakefield, WF3 3SA, Leeds, LS26 0AE",NHS Jobs,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,nhs-5656950,Care Navigator/Receptionist,Ireland Wood & Horsforth Medical Practice,"Leeds, LS16 6FR",NHS Jobs,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,nhs-5653711,Clerical Officer/ Receptionist,Leeds Teaching Hospitals,"Leeds, LS9 7TF",NHS Jobs,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
@@ -79,6 +83,7 @@ exclude,jobg8-23643_225642189,Customer Sales Administrator,Headway Recruitment -
 exclude,jobg8-23643_225729701,Customer Service,RG Setsquare - Agency - Temporary,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225718050,Customer Service,Search Consultancy Ltd - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225713094,Customer Service & Sales Advisor,Search Consultancy Ltd - Agency - Permanent,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,huddersfield-service-administrator-jobs
+exclude,jobg8-23643_225676663,Customer Service / Sales Support Team Leader,Huntress - Leeds - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225728280,Customer Service Administrator,Huntress - Leeds - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225643609,Customer Service Administrator,Michael Page - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225723159,Customer Service Advisor,Pontoon - Agency - Temporary,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
@@ -91,6 +96,8 @@ exclude,jobg8-23643_225665867,Debt Recovery Customer Service Advisor,Michael Pag
 exclude,jobg8-23643_225677742,Digital Marketing Executive,Marmon Lift Recruitment - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225635321,Enrolment Coordinator,Huntress - Leeds - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,teaching-vacancies-exams-officer-bradford-academy-bradford,Exams Officer,Bradford Academy,Bradford,Teaching Vacancies,exclude,exclude,Separate employment market.,bradford,huddersfield-service-administrator-jobs
+exclude,jobg8-23643_225694366,Executive Assistant,hireful - Company - Permanent,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,huddersfield-service-administrator-jobs
+exclude,jobg8-23643_225693357,Executive Assistant,Michael Page - Agency - Permanent,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225665983,Executive Assistant & Administrator,Automated Industrial Robotics - Agency - Permanent,Wakefield,JobG8,exclude,exclude,Separate employment market.,wakefield,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225665208,Experienced GP Receptionist/Office Administrator,Anonymous - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225710931,External Communications Manager,Michael Page - Agency - Contract,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
@@ -103,6 +110,7 @@ exclude,jobg8-23643_225663662,Graduate Design & Project Coordinator (Luxury Spa 
 exclude,teaching-vacancies-hr-administrative-assistant-outwood-grange-academy,HR Administrative Assistant,Outwood Grange Academy,Wakefield,Teaching Vacancies,exclude,exclude,Separate employment market.,wakefield,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225640044,HR Administrator,Daniel Owen Ltd - Agency - Temporary,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225635303,HR and Compliance Administrator,Huntress - Leeds - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
+exclude,jobg8-23643_225710184,HR Coordinator,Ashley Kate HR & Finance - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225709267,HR Coordinator,Hays Business Support - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225727868,HR Coordinator,Only FE - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-2014271,Insolvency Case Administrator,GGT Insolvency Recruitment - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
@@ -115,6 +123,7 @@ exclude,jobg8-23643_225532100,Marketing Executive,AWC STAFF SERVICES LTD - Agenc
 exclude,jobg8-23643_225678158,Marketing Executive,Lucy Walker Recruitment - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225663734,Marketing Executive (Luxury Spa & Sauna's),Ernest Gordon Recruitment Limited - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225724529,Marketing Manager,Hays Technology - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
+exclude,nhs-5676393,Medical Receptionist,Kensington Partnership,"Bradford, BD8 9LB",NHS Jobs,exclude,exclude,Separate employment market.,bradford,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225669084,Medical Receptionist,Staff Partners Business - Agency - Temporary,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,nhs-5659053,Medical Receptionist,Stanley Health Centre,"Wakefield, WF3 4HS",NHS Jobs,exclude,exclude,Separate employment market.,wakefield,huddersfield-service-administrator-jobs
 exclude,nhs-5603161,MEDICAL RECEPTIONIST,The Bradford Moor Practice,"Bradford, BD3 8QH",NHS Jobs,exclude,exclude,Separate employment market.,bradford,huddersfield-service-administrator-jobs
@@ -132,6 +141,7 @@ exclude,jobg8-2053116,Payroll Assistant,Michael Page Finance - Agency - Permanen
 exclude,jobg8-2087152,Payroll Coordinator,IMPRESSION RECRUITMENT LIMITED - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225657571,Payroll Officer,Hawk 3 Talent Solutions - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225661076,Payroll Officer,Search Consultancy Ltd - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
+exclude,jobg8-23643_225707509,Personal Assistant,Marmon Lift Recruitment - Agency - Permanent,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,huddersfield-service-administrator-jobs
 exclude,jobg8-2059627,PPC Manager,Robert Walters - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225693149,Pr Manager,Focus 5 Recruitment Ltd - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs
 exclude,jobg8-23643_225692585,Product Coordinator,Lucy Walker Recruitment - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,huddersfield-service-administrator-jobs

@@ -4,7 +4,7 @@
 - Live route: `/aylesbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 10
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 68
+- automatic include: 12
+- automatic review: 70
 - automatic exclude: 0
-- effective include: 10
-- effective review: 68
+- effective include: 12
+- effective review: 70
 - effective exclude: 0
 
-## INCLUDE (10)
+## INCLUDE (12)
 
 ---
 action: 
@@ -144,7 +144,31 @@ job_id: nhs-5648388
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (68)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Ward Clerk
+company: Buckinghamshire Healthcare NHS Trust
+location: Aylesbury, HP21 8AL
+source: NHS Jobs
+job_id: nhs-5675336
+reason: Exact approved Aylesbury workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Ward Clerk - Maternity
+company: Buckinghamshire Healthcare NHS Trust
+location: Aylesbury, HP21 8AL
+source: NHS Jobs
+job_id: nhs-5676129
+reason: Exact approved Aylesbury workplace.
+---
+
+## REVIEW (70)
 
 ---
 action: 
@@ -594,6 +618,18 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: HR Assistant
+company: Fawkes & Reece London - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225740239
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Import & Export Administrator
 company: Insight Employment - Agency - Permanent
 location: Milton Keynes
@@ -803,6 +839,18 @@ company: NHS Professionals - Company - Temporary
 location: Buckingham
 source: JobG8
 job_id: jobg8-23643_225718008
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Primary Care Careers
+location: Olney, MK46 5QG
+source: NHS Jobs
+job_id: nhs-5618397
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 31
-- automatic exclude: 45
+- automatic review: 34
+- automatic exclude: 47
 - effective include: 8
-- effective review: 31
-- effective exclude: 45
+- effective review: 34
+- effective exclude: 47
 
 ## INCLUDE (8)
 
@@ -120,7 +120,7 @@ job_id: teaching-vacancies-student-receptionist-and-pastoral-assistant-cheney-sc
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (31)
+## REVIEW (34)
 
 ---
 action: 
@@ -131,6 +131,18 @@ company: Your Recruiters - Agency - Permanent
 location: Banbury
 source: JobG8
 job_id: jobg8-23643_225707883
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Assistant Accountant
+company: Brellis Recruitment - Agency - Permanent
+location: Banbury
+source: JobG8
+job_id: jobg8-23643_225662283
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -155,6 +167,18 @@ company: Thomas Franks Ltd - Agency - Permanent
 location: Hook Norton
 source: JobG8
 job_id: jobg8-2043202
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Bookkeeper/ Management Accountant
+company: hireful - Company - Permanent
+location: Henley-On-Thames
+source: JobG8
+job_id: jobg8-23643_225682276
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -355,6 +379,18 @@ action:
 decision: review
 automatic_decision: review
 title: Procurement Administrator
+company: Streamline Search - Agency - Permanent
+location: Witney
+source: JobG8
+job_id: jobg8-23643_225650287
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Procurement Administrator
 company: Xact Placements Limited - Agency - Permanent
 location: Witney
 source: JobG8
@@ -494,7 +530,7 @@ job_id: nhs-5664768
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (45)
+## EXCLUDE (47)
 
 ---
 action: 
@@ -644,6 +680,18 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Bookkeeper / Management Accountant
+company: Curtis Recruitment Limited - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_224789635
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Conveyancing Assistant
 company: GWR Legal Recruitment Ltd - Agency - Permanent
 location: Oxfordshire
@@ -769,6 +817,18 @@ company: Facilitate Search Ltd - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225657428
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Group Assistant Accountant
+company: Morgan McKinley (Milton Keynes) - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225675414
 reason: Broad county location; not Oxford-city evidence.
 ---
 

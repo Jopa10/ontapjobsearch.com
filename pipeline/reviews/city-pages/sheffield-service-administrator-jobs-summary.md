@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 27
+- Effective included jobs: 28
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 27
+- automatic include: 28
 - automatic review: 6
-- automatic exclude: 29
-- effective include: 27
+- automatic exclude: 32
+- effective include: 28
 - effective review: 6
-- effective exclude: 29
+- effective exclude: 32
 
-## INCLUDE (27)
+## INCLUDE (28)
 
 ---
 action: 
@@ -160,6 +160,18 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Clerical Officer
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S10 2SF
+source: NHS Jobs
+job_id: nhs-5674866
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Clerical Officer/Receptionist
 company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S10 2JF
@@ -201,6 +213,18 @@ company: Sue Ross Recruitment Ltd - Agency - Contract
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225597891
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Executive Assistant
+company: The Talent Division - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225334218
 reason: Approved Sheffield catchment.
 ---
 
@@ -273,18 +297,6 @@ company: Sue Ross Recruitment Ltd - Agency - Temporary
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225739418
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Personal Assistant
-company: Bradfield Secondary School
-location: Sheffield
-source: Teaching Vacancies
-job_id: teaching-vacancies-personal-assistant-bradfield-secondary-school
 reason: Approved Sheffield catchment.
 ---
 
@@ -422,7 +434,7 @@ job_id: jobg8-23643_225681456
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (29)
+## EXCLUDE (32)
 
 ---
 action: 
@@ -477,6 +489,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Assistant Accountant
+company: Sewell Wallis Ltd - Agency - Permanent
+location: Barnsley
+source: JobG8
+job_id: jobg8-23643_225713436
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Assistant Accountant
 company: Sharp Consultancy - Agency - Permanent
 location: Doncaster
 source: JobG8
@@ -505,6 +529,18 @@ company: EE - Company - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-20279_63174-73862c8b83139033e4e4a8b6efca9a33
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Care Navigator (Receptionist)
+company: Dunsville Medical Centre
+location: Doncaster, DN7 4BY
+source: NHS Jobs
+job_id: nhs-5677415
 reason: Separate employment market.
 ---
 
@@ -745,6 +781,18 @@ company: Nexus People - Agency - Temporary
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225639569
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Secretary / Assistant EA
+company: Edwards & Pearce - Agency - Permanent
+location: Doncaster
+source: JobG8
+job_id: jobg8-23643_225636340
 reason: Separate employment market.
 ---
 
