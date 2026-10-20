@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-10-19
-review_fingerprint: 4b5f268fca28c4a4c73855e1fa1b636d31613f32705826a670bd8ec18c780e1a
-routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
+review_date: 2026-10-20
+review_fingerprint: 448dfd62b6046676879bfa2919f408c59aab059bca47c4cb15fd5b2495fa8294
+routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 22
-- Selected: 8
+- Records: 19
+- Selected: 7
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 12
+- Hard pass: 10
 
 ## SELECTED
 
@@ -113,21 +113,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 
 ---
 action: 
-SELECTED | Berkshire | Windsor, South East, SL4 5EH | Salary for full time (37 hours per week), term time only is £24,114 which can be pro-rated for part time, depending on hours. | Sixth Form Administrator
-employer: The Windsor Boys' School
-closing_date: 2026-10-20T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8c5b848cc1f79e1920f1eaf3ae77133456359e277cd9d6b20085be21464bfea2
-source: Teaching Vacancies
-source_job_id: sixth-form-administrator-the-windsor-boys-school-windsor-berkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrator-the-windsor-boys-school-windsor-berkshire
----
-
----
-action: 
 SELECTED | Berkshire | Slough, South East, SL2 5BA | £22,274.00 - £22,957.00 Annually (Actual) | Welfare Assistant & Administrator
 employer: James Elliman Academy
 closing_date: 2026-12-31T23:59:00+00:00
@@ -183,9 +168,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-finance-assist
 - [Deputy Designated Safeguarding Lead](https://teaching-vacancies.service.gov.uk/jobs/deputy-designated-safeguarding-lead-maiden-erlegh-school) — Insufficient admin/service evidence.
 - [HR & Recruitment Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-recruitment-officer-the-park-federation-academy-trust) — Insufficient admin/service evidence.
 - [HR Coordinator (part-time)](https://teaching-vacancies.service.gov.uk/jobs/hr-coordinator-part-time) — Insufficient admin/service evidence.
-- [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-littledown-school) — Manager title salary ceiling £38,053 is not below £28,000.
 - [Reprographics Technician](https://teaching-vacancies.service.gov.uk/jobs/reprographics-technician-maiden-erlegh-school) — Out-of-scope occupation: technician.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-da5c7b12-e7a7-4b6e-aede-5ff7cf56267d) — Manager title without salary evidence below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-littledown-school) — Manager title salary ceiling £55,273 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-shefford-c-e-primary-school) — Manager title salary ceiling £41,177 is not below £28,000.
 - [School Development Officer](https://teaching-vacancies.service.gov.uk/jobs/school-development-officer) — Insufficient admin/service evidence.

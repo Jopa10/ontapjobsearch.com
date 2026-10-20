@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-10-19
+review_date: 2026-10-20
 review_fingerprint: 5b78f62f25c08b347fbb0d1a410b3334ac07bc31de0d4eafe13b7ae76498eeef
-routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
+routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -94,7 +94,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-inclusion-adminis
 - [Business, Operations, HR & Compliance Manager](https://teaching-vacancies.service.gov.uk/jobs/business-operations-hr-compliance-manager) — Manager title salary ceiling £33,672 is not below £28,000.
 - [Data & Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-exams-manager-queensbury-academy) — Manager title salary ceiling £39,481 is not below £28,000.
 - [Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/facilities-manager-denbigh-primary-school) — Manager title salary ceiling £43,149 is not below £28,000.
-- [Financial Controller](https://teaching-vacancies.service.gov.uk/jobs/financial-controller-c66a5ec1-0bf4-4c91-a1e1-d206dac91d10) — Insufficient admin/service evidence.
+- [Financial Controller](https://teaching-vacancies.service.gov.uk/jobs/financial-controller-567766f1-1593-41ed-9bcc-141b66967e36) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

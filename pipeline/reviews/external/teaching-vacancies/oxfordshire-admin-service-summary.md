@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-10-19
+review_date: 2026-10-20
 review_fingerprint: c9afdd8bcd8019f7a5494fdfc43704be948d6f3f8ae7791c258cf1d0de2a01ad
-routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
+routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 12
 - Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -105,6 +105,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-manag
 ## HARD_PASS
 
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-matthew-arnold-school) — Manager title salary ceiling £38,510 is not below £28,000.
+- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-fa511fa4-a43e-4107-84b2-b8783b539c04) — Insufficient admin/service evidence.
 - [MAT Administrator](https://teaching-vacancies.service.gov.uk/jobs/mat-administrator) — Missing salary or pay scale.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-edward-feild-primary-school) — Manager title salary ceiling £39,482 is not below £28,000.
 - [School Premises and Compliance Manager](https://teaching-vacancies.service.gov.uk/jobs/school-premises-and-compliance-manager) — Manager title salary ceiling £36,050 is not below £28,000.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-10-19
-review_fingerprint: 4c29069436fbfa2d3fb1ac9e36bb7244586e0b1520a1fbe200d4501c3dc4c173
-routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
+review_date: 2026-10-20
+review_fingerprint: 832eebe7cc475dcfb4ba0e30cfc3fc7aa0b39f816c159ddcb42e610a2bccb6a2
+routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 26
-- Selected: 9
-- POSS awaiting decision: 4
+- Records: 27
+- Selected: 10
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 13
+- Hard pass: 14
 
 ## SELECTED
 
@@ -83,17 +83,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrato
 
 ---
 action: 
-SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S35 0AE | Grade 6 Point 21 - 26 | Personal Assistant
-employer: Bradfield Secondary School
-closing_date: 2026-10-20T09:00:59+01:00
-reason: Clear admin/service title: personal assistant
+SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S20 1HQ | £26,427.00 - £26,847.00 Annually (FTE) Grade 3 SCP 5 to SCP 6 (Actual salary £22,729 - £23,091) | Receptionist
+employer: Westfield School
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 243b8f7e8a16c885b567d56f68a6761bc0ec0c6ba657da455200b260c78d65d5
+factual_fingerprint: 34dbed5b21a65380ec6617131b883a635b8b9ceabe6db5e2337d53fc7088920a
 source: Teaching Vacancies
-source_job_id: personal-assistant-bradfield-secondary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-bradfield-secondary-school
+source_job_id: receptionist-westfield-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-westfield-school
 ---
 
 ---
@@ -124,6 +124,21 @@ factual_fingerprint: b894c431a4eae6fdd4edce6ff3b60301dd909bc6542519b16f42f0e9fb3
 source: Teaching Vacancies
 source_job_id: receptionist-and-communication-assistant
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-communication-assistant
+---
+
+---
+action: 
+SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S25 2QZ | SCP 5 - 6 £25,583 - £25,989 (pay award pending) | School Admin Assistant
+employer: Anston Park Infant School
+closing_date: 2026-11-06T23:59:59+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 467e15fc8ab8ef5d755b2a068bc178de4c0b331e51d09bc939345c03b3afa793
+source: Teaching Vacancies
+source_job_id: school-admin-assistant-anston-park-infant-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-admin-assistant-anston-park-infant-school
 ---
 
 ---
@@ -190,21 +205,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-admin-suppor
 
 ---
 action: 
-POSS | Yorkshire - South | Sheffield, Yorkshire and the Humber, S20 1HQ | £26,427.00 - £26,847.00 Annually (FTE) Grade 3 SCP 5 to SCP 6 (Actual salary £22,729 - £23,091) | Receptionist
-employer: Westfield School
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 34dbed5b21a65380ec6617131b883a635b8b9ceabe6db5e2337d53fc7088920a
-source: Teaching Vacancies
-source_job_id: receptionist-westfield-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-westfield-school
----
-
----
-action: 
 POSS | Yorkshire - South | Rotherham, Yorkshire and the Humber, S60 5EJ | £26,427 to £26,847 | SEND Admin Support Assistant
 employer: Brinsworth Academy
 closing_date: 2026-11-02T09:00:00+00:00
@@ -226,13 +226,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-admin-support-as
 
 - [Administrative Office Manager](https://teaching-vacancies.service.gov.uk/jobs/administrative-office-manager-hcat) — Manager title salary ceiling £33,699 is not below £28,000.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-peak-edge-sheffield-not-recorded) — Insufficient admin/service evidence.
+- [Communication Support Worker](https://teaching-vacancies.service.gov.uk/jobs/communication-support-worker-the-sheffield-college) — Insufficient admin/service evidence.
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-ridgewood-school-doncaster-south-yorkshire) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-minerva-learning-trust) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-minerva-learning-trust-sheffield-not-recorded) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-ce12e672-834a-4926-ac88-d9b1ed0235b4) — Manager title salary ceiling £53,500 is not below £28,000.
 - [Inclusion Officer (Alternative Provision)](https://teaching-vacancies.service.gov.uk/jobs/inclusion-officer-alternative-provision-sir-thomas-wharton-academy) — Insufficient admin/service evidence.
+- [King's Trust Team Leader](https://teaching-vacancies.service.gov.uk/jobs/king-s-trust-team-leader) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-misson-primary-school) — Manager title salary ceiling £33,699 is not below £28,000.
-- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-42e231a7-dcef-4bf5-a3d7-0eb145f4ac02) — Insufficient admin/service evidence.
 - [School Business Manager at Wath Victoria Primary School](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-at-wath-victoria-primary-school) — Manager title salary ceiling £35,570 is not below £28,000.
 - [School Resource Business Partner](https://teaching-vacancies.service.gov.uk/jobs/school-resource-business-partner) — Insufficient admin/service evidence.
 - [Senior Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-manager-minerva-learning-trust) — Manager title salary ceiling £58,557 is not below £28,000.

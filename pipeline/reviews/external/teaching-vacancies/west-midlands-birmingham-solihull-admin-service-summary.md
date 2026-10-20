@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-10-19
+review_date: 2026-10-20
 review_fingerprint: db0649f18b8d850ee6ca183a09dab9318f23d479419b35fb76e421d0c456e7fb
-routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
+routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 13
 - Selected: 7
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -139,6 +139,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 - [Administration](https://teaching-vacancies.service.gov.uk/jobs/administration) — Insufficient admin/service evidence.
 - [Exams Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exams-invigilator-80585298-5967-4a4f-893a-2aa215609f82) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-the-heights-academy) — Manager title salary ceiling £34,955 is not below £28,000.
+- [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-brays-school) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-severne-junior-infant-and-nursery-school-birmingham-west-midlands) — Manager title salary ceiling £55,224 is not below £28,000.
 - [Senior Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-business-partner-forward-education-trust) — Insufficient admin/service evidence.
 

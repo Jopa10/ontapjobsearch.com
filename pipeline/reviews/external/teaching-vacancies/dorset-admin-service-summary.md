@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-10-19
-review_fingerprint: c3159fdfffbe775b0fba00ed26ff42e35716565e34bf462f5043026a34d49054
-routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
+review_date: 2026-10-20
+review_fingerprint: 0005e861139778d02ee2738bdcc9d863e514dfbe8f242f522427fc31205df8c7
+routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 2
+- Records: 6
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 3
@@ -34,6 +34,21 @@ factual_fingerprint: f27f2cc2673bfddb6aee95774aeda445524a98e4a9bb81080fae60b8ea2
 source: Teaching Vacancies
 source_job_id: admin-assistant-southern-education-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-southern-education-trust
+---
+
+---
+action: 
+SELECTED | Dorset | Bournemouth, South West, BH8 9PW | Actual Salary - £18,794 (FTE Salary - £27,696) | English Department Administrator & Librarian
+employer: The Bishop of Winchester Academy
+closing_date: 2026-10-30T08:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0e30d39a47284f65bace88c3b80a006202263436081f3c159eece195568ec935
+source: Teaching Vacancies
+source_job_id: english-department-administrator-librarian-the-bishop-of-winchester-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/english-department-administrator-librarian-the-bishop-of-winchester-academy
 ---
 
 ---

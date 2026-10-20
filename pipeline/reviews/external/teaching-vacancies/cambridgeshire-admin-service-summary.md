@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-10-19
-review_fingerprint: a77d0e48e9968270b8e81ab7123a04032fca047b399d12c87db89adb02345a3b
-routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
+review_date: 2026-10-20
+review_fingerprint: 27b53831d6723588d6d2314b70ad62aab3bf64d3d13ff9bdc0a83c5906735a6a
+routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 23
+- Records: 24
 - Selected: 10
-- POSS awaiting decision: 8
+- POSS awaiting decision: 9
 - Excluded: 0
 - Hard pass: 5
 
@@ -55,12 +55,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 action: 
 SELECTED | Cambridgeshire | Cambridge, East of England, CB4 2JF | £6,965.00 Annually (Actual) Pro Rata | Administrative Assistant (International and Community Projects)
 employer: North Cambridge Academy
-closing_date: 2026-10-26T09:00:00+00:00
+closing_date: 2026-11-02T09:00:00+00:00
 reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 46d6065d75038109225bb6df9bb5b3051dde3b3e7d54be47b36a7d4a82077e4c
+factual_fingerprint: 9b8fc19e4aa07fceb169abc8deb490f6c808f54fd94c76873b90e797ceee108e
 source: Teaching Vacancies
 source_job_id: administrative-assistant-international-and-community-projects-north-cambridge-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-international-and-community-projects-north-cambridge-academy
@@ -192,12 +192,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-ridgefi
 action: 
 POSS | Cambridgeshire | Cambridge, East of England, CB2 0SZ | £30,000.00 - £35,000.00 Annually (FTE) | Finance Officer
 employer: Cambridge Academy for Science and Technology
-closing_date: 2026-10-26T09:00:00+00:00
+closing_date: 2026-11-02T09:00:00+00:00
 reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 1783e53233c5ccc39f88847bfc66cf18d0852d4738e3d9def79254d88b582141
+factual_fingerprint: 73199926fa46d27d50b4ea3d69520e4395ba2dfadf58a40282d15bdfd87aa060
 source: Teaching Vacancies
 source_job_id: finance-officer-cambridge-academy-for-science-and-technology-cambridge-cambridgeshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-cambridge-academy-for-science-and-technology-cambridge-cambridgeshire
@@ -207,12 +207,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-cambr
 action: 
 POSS | Cambridgeshire | Cambridge, East of England, CB1 3RJ | £30,000.00 - £35,000.00 Annually (FTE) | Finance Officer
 employer: Coleridge Community College
-closing_date: 2026-10-26T09:00:00+00:00
+closing_date: 2026-11-02T09:00:00+00:00
 reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: c9f19cbb2caec283c9ea245a08ee135ef9ea54cbd35ed1cbb66bec9670856ae7
+factual_fingerprint: 93cf85f94577aed7eb697d42b5ab417c993a1466c6791cddd1f95af3d1d40b48
 source: Teaching Vacancies
 source_job_id: finance-officer-coleridge-community-college-cambridge-cambridgeshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-coleridge-community-college-cambridge-cambridgeshire
@@ -222,12 +222,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-coler
 action: 
 POSS | Cambridgeshire | Cambridge, East of England, CB1 1EH | £30,000.00 - £35,000.00 Annually (FTE) | Finance Officer
 employer: Parkside Community College
-closing_date: 2026-10-26T09:00:00+00:00
+closing_date: 2026-11-02T09:00:00+00:00
 reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: c98f8b189c5254b814fcc7459fa7a4669c3d222be752d443d760b844d19f5bd7
+factual_fingerprint: f1b47b9cb9695cb8bab846987a8e180737ca65073f51b52faaf993e7d37ffd95
 source: Teaching Vacancies
 source_job_id: finance-officer-parkside-community-college-cambridge-cambridgeshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-parkside-community-college-cambridge-cambridgeshire
@@ -237,12 +237,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-parks
 action: 
 POSS | Cambridgeshire | Cambridge, East of England, CB5 8ND | £30,000.00 - £35,000.00 Annually (FTE) | Finance Officer
 employer: The Galfrid School
-closing_date: 2026-10-26T09:00:00+00:00
+closing_date: 2026-11-02T09:00:00+00:00
 reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 8d9b9b4c5e13dfb075abbf0bd2d7837b476f4858d27e998d4ea6a5b2fb254b1d
+factual_fingerprint: 213189f79063b94dcec47df9cfb7add3f9a0901d81c7d0d980ca7fb9f6fdc2e8
 source: Teaching Vacancies
 source_job_id: finance-officer-the-galfrid-school-cambridge-cambridgeshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-galfrid-school-cambridge-cambridgeshire
@@ -252,12 +252,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-the-g
 action: 
 POSS | Cambridgeshire | Cambridge, East of England, CB2 9FD | £30,000.00 - £35,000.00 Annually (FTE) | Finance Officer
 employer: Trumpington Community College
-closing_date: 2026-10-26T09:00:00+00:00
+closing_date: 2026-11-02T09:00:00+00:00
 reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 103b275d34c37ce3ebcba8e70a3a0f657d80bea96c923c6d1d8a1b290920cefd
+factual_fingerprint: d116982fa548e4887d2d423a1243f1a48171dafac734b6de166b7ffb66239c91
 source: Teaching Vacancies
 source_job_id: finance-officer-trumpington-community-college-cambridge-cambridgeshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-officer-trumpington-community-college-cambridge-cambridgeshire
@@ -276,6 +276,21 @@ factual_fingerprint: 11933a3386d7de7e0fa291996da15ed1e00cf204c3e49099f83ef2a9013
 source: Teaching Vacancies
 source_job_id: hr-administrator-cambridge-regional-college
 source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-cambridge-regional-college
+---
+
+---
+action: 
+POSS | Cambridgeshire | Cambridge, East of England, CB22 3BP | Pay Scale SO1, Point 23 - 25 | Inclusion and Attendance Coordinator
+employer: Sawston Village College
+closing_date: 2026-11-04T23:59:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 93d0f008aabef6b55d76d4b998a3f2e97cf8a498fcb364376fe4258af9772693
+source: Teaching Vacancies
+source_job_id: inclusion-and-attendance-coordinator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-and-attendance-coordinator
 ---
 
 ---

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-10-19
-review_fingerprint: c1b677359e4cd89db4aaa8de40f74096980ef321e3cbd41a7ca02355cbdac9e2
-routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
+review_date: 2026-10-20
+review_fingerprint: dcc6e70724bc0375fd0837473a48bfd64df23c905211b57c4c038b5df07a303a
+routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 11
 - Selected: 3
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -38,6 +38,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
+SELECTED | West Midlands - Black Country | Halesowen, West Midlands, B63 4HY | £22,812.00 - £22,812.00 Monthly | Administration Assistant - Level 2
+employer: Huntingtree Primary School
+closing_date: 2026-11-08T23:59:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3630c7495dbe67f9e4a92f7bb53bec6186579b7470cffb85c0c1acdedec43e97
+source: Teaching Vacancies
+source_job_id: administration-assistant-level-2-huntingtree-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-level-2-huntingtree-primary-school
+---
+
+---
+action: 
 SELECTED | West Midlands - Black Country | Walsall, West Midlands, WS1 2PG | £13,510.00 - £13,942.00 Annually (Actual) NJC SCP 4 - 6 | Term time plus 1 week | Part Time, 3 days per week. | Reception Secretary
 employer: Queen Mary's Grammar School
 closing_date: 2026-10-21T09:00:00+01:00
@@ -49,21 +64,6 @@ factual_fingerprint: 67d749b302fc7781a82639118be48d4702e742b9ae4fd7a4a53e2396ae7
 source: Teaching Vacancies
 source_job_id: reception-secretary-ec1c05c3-72a7-428c-9317-7e034cf6f8cf
 source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-secretary-ec1c05c3-72a7-428c-9317-7e034cf6f8cf
----
-
----
-action: 
-SELECTED | West Midlands - Black Country | Walsall, West Midlands, WV12 4EG | £21,924.00 - £22,623.00 Annually (Actual) Grade 3 SCP 4-6 | 36.25 Hours | 39 Weeks | School Receptionist
-employer: New Leaf School
-closing_date: 2026-10-20T09:00:00+01:00
-reason: Clear admin/service title: receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8f22bda167279bb3291b7b5ff565a0c73e734a5607b82575ebd6a8fd74370503
-source: Teaching Vacancies
-source_job_id: school-receptionist-new-leaf-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-new-leaf-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -119,7 +119,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/head-of-house-pa-wedn
 
 ## HARD_PASS
 
-- [Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/cover-manager-perryfields-academy) — Manager title salary ceiling £34,812 is not below £28,000.
 - [Exam Invigilators](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilators-ecfad9cd-e181-4168-a518-c94807aa906f) — Insufficient admin/service evidence.
 - [Head of Estates and Capital Strategy](https://teaching-vacancies.service.gov.uk/jobs/head-of-estates-and-capital-strategy) — Insufficient admin/service evidence.
 - [Human Resources Assistant](https://teaching-vacancies.service.gov.uk/jobs/human-resources-assistant-highfields-school) — Insufficient admin/service evidence.

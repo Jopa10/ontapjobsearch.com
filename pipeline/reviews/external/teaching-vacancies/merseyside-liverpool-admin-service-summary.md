@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - Liverpool
 
-review_date: 2026-10-19
-review_fingerprint: bc74fb1b31a4c16a0825496074afc1fca623aa86e451b49e58adb96b49989b39
-routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
+review_date: 2026-10-20
+review_fingerprint: ed29f1c63aa9eed58afc557aa91a9ab87426eb2b332ef262ace508c86ad7fef9
+routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
 ontap_region: Merseyside - Liverpool
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 3
+- Records: 4
 - Selected: 1
-- POSS awaiting decision: 2
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 0
 
@@ -51,6 +51,21 @@ factual_fingerprint: 8af43c8b035b7b6b08d53ddd54fcef49b0e98816250db4ebfe72d426eb3
 source: Teaching Vacancies
 source_job_id: administration-officer-attendance-family-liaison
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-attendance-family-liaison
+---
+
+---
+action: 
+POSS | Merseyside - Liverpool | Liverpool, North West, L31 0BP | £22,598.99 - £24,471.09 Monthly | Office Manager
+employer: St Thomas Church of England Primary School, Lydiate
+closing_date: 2026-10-30T23:59:00+00:00
+reason: Manager title below £28,000 salary ceiling requires review
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c55d4c847d0383309d90fcbbd00018983fdf75a793310ba2ee409c15673d6991
+source: Teaching Vacancies
+source_job_id: office-manager-st-thomas-church-of-england-primary-school-lydiate
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-thomas-church-of-england-primary-school-lydiate
 ---
 
 ---

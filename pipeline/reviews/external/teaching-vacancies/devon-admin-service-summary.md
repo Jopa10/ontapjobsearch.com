@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-10-19
-review_fingerprint: 10fca6b1168dbbe1a9d14643daa6b41d21c10e9156b92d81c3be316f6a94e00c
-routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
+review_date: 2026-10-20
+review_fingerprint: 2a887d1c43599ccc552b836790886b8c1ecc08a51c54162821143585723a0b73
+routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 6
+- Records: 18
+- Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 10
@@ -34,6 +34,21 @@ factual_fingerprint: 936593f993acf01a6a6c8786f8d44d8532e4045256f6b7c8221b4e32ad7
 source: Teaching Vacancies
 source_job_id: administrator-devon-research-school-and-swift-teacher-training
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-devon-research-school-and-swift-teacher-training
+---
+
+---
+action: 
+SELECTED | Devon | Exeter, South West, EX4 8NN | Grade D £27,709 - £30,515 | Attendance Officer (part-time)
+employer: St James School
+closing_date: 2026-11-02T23:59:00+00:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: dc250c457682287e2cc5b19ca3a65caf4798277c997da129fb0427054d948ca3
+source: Teaching Vacancies
+source_job_id: attendance-officer-part-time-st-james-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-part-time-st-james-school
 ---
 
 ---

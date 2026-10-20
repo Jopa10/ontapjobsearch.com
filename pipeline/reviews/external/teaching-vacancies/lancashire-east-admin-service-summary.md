@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - East
 
-review_date: 2026-10-19
-review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
+review_date: 2026-10-20
+review_fingerprint: 4858723face4e14a76032aa0cca4679ba8320f961be08c043d27064b721304fa
+routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
 ontap_region: Lancashire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
+- Records: 4
 - Selected: 0
-- POSS awaiting decision: 0
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -25,7 +25,20 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Lancashire - East | Nelson, North West, BB9 0PR | £35,000.00 Annually (FTE) Local Government Pension, Health Care Cash Plan, Generous Staff Discount scheme, 3 extra inset days for planning, at least one personal leave day per year | Data Officer
+employer: Marsden Heights Community College
+closing_date: 2026-11-08T17:00:00+00:00
+reason: Borderline school administration title: data officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: aaab2b5cca3a62845155bbf4224101ed753ebd2fc0d563ff71183f1d7ec14b23
+source: Teaching Vacancies
+source_job_id: data-officer-marsden-heights-community-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-marsden-heights-community-college
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -35,6 +48,7 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 - [Data and Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-examinations-manager-all-saints-roman-catholic-high-school-a-voluntary-academy) — Manager title salary ceiling £32,061 is not below £28,000.
 - [HR Operations & Systems Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-operations-systems-advisor) — Insufficient admin/service evidence.
+- [Marketing Officer](https://teaching-vacancies.service.gov.uk/jobs/marketing-officer-marsden-heights-community-college) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

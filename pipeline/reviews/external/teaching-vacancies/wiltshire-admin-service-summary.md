@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-10-19
-review_fingerprint: 347b790beca61f48427e36798ff1464e356165a5c857dc4d1f845d1984af0d12
-routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
+review_date: 2026-10-20
+review_fingerprint: 220e39130e75056bfc22ccceec7b87fb14719baf72fd7a953b267c9204288cc7
+routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 14
 - Selected: 7
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 5
 
 ## SELECTED
 
@@ -49,21 +49,6 @@ factual_fingerprint: 5670a8b61b2fbb1c99c93318188f1cf16994498caaf7c9d47253afa824b
 source: Teaching Vacancies
 source_job_id: administrative-assistant-charter-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-charter-primary-school
----
-
----
-action: 
-SELECTED | Wiltshire | Salisbury, South West, SP1 1QY | £27,254.00 - £28,598.00 Annually (FTE) Term time only, pro rata | Attendance Officer
-employer: St Joseph's Catholic School
-closing_date: 2026-10-19T23:59:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3296fe14afc851a770c44b3f180e1a0810bed17b62917e6eb539491edeb7d572
-source: Teaching Vacancies
-source_job_id: attendance-officer-686fafdf-6fc7-4a4c-ab8f-87001b20de78
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-686fafdf-6fc7-4a4c-ab8f-87001b20de78
 ---
 
 ---
@@ -113,6 +98,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-receptionis
 
 ---
 action: 
+SELECTED | Wiltshire | Swindon, South West, SN5 4AT | £9,985.74 - £10,306.37 Annually (Actual) Actual salary will be determined depending on hours agreed | Progression Administrator
+employer: Bradon Forest School
+closing_date: 2026-11-01T12:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 89c89b0aeabbd71a2599526a59f4f2d21d195af5a457c8ae99c4f3f3d9d30bb5
+source: Teaching Vacancies
+source_job_id: progression-administrator-bradon-forest-school-swindon-wiltshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/progression-administrator-bradon-forest-school-swindon-wiltshire
+---
+
+---
+action: 
 SELECTED | Wiltshire | Swindon, South West, SN3 6EX | £9,215.09 - £9,361.55 Annually (Actual) NJC 5 - 6 (£26,427 - £26,847 FTE) | School & Nursery Administrator
 employer: Liden Academy
 closing_date: 2026-10-28T23:59:00+00:00
@@ -127,6 +127,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-nursery-admini
 ---
 
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Wiltshire | Salisbury, South West, SP4 6JZ | £26,847.00 - £27,709.00 Annually (FTE) Grade E, pay point 6-8, £26,847 - £27,709 per annum (DOE) FTE | Clerk to Governors
+employer: Gomeldon Primary School
+closing_date: 2026-11-22T23:59:00+00:00
+reason: Borderline school administration title: clerk to governors
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6f09f25c60b4ded1ad38e5a060da2dfb8722989b1060e87efadd20f23302dccd
+source: Teaching Vacancies
+source_job_id: clerk-to-governors-gomeldon-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-gomeldon-primary-school
+---
 
 ---
 action: 
@@ -150,8 +165,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-gr
 ## HARD_PASS
 
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-diocese-of-salisbury-academy-trust) — Insufficient admin/service evidence.
+- [HLTA Behaviour and Inclusion](https://teaching-vacancies.service.gov.uk/jobs/hlta-behaviour-and-inclusion-lawn-manor-academy) — Insufficient admin/service evidence.
 - [Local Governance Committee Clerks](https://teaching-vacancies.service.gov.uk/jobs/local-governance-committee-clerks) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-4c722adb-c7a9-4af5-b8d5-bf00527c02c0) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-william-morris-primary-school-swindon-wiltshire) — Manager title salary ceiling £46,185 is not below £28,000.
 
 ## Safety boundary
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-10-19
-review_fingerprint: 406dbca608b3d640d09a4f3330e7f24e35a0dda284b0290194453b0c4cafa143
-routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
+review_date: 2026-10-20
+review_fingerprint: 59f81c04db1c19c473a39cd8c9a01c00e7da835270c4eeb6cdba3e41e5b9975f
+routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 6
-- POSS awaiting decision: 2
+- Records: 13
+- Selected: 5
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 7
 
 ## SELECTED
-
----
-action: 
-SELECTED | North East | Sunderland, North East, SR5 4JW | £11,938.98 - £12,398.69 Annually (Actual) This is pending outcome of Job Evaluation | Administration Assistant
-employer: St John Bosco Catholic Primary School, Town End Farm, Sunderland
-closing_date: 2026-10-20T09:00:00+01:00
-reason: Clear admin/service title: administration assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4fa260ad0223a6a130dbe90852cd58d5407f07418bf89827340ac9e0c69eae05
-source: Teaching Vacancies
-source_job_id: administration-assistant-st-john-bosco-catholic-primary-school-town-end-farm-sunderland
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-st-john-bosco-catholic-primary-school-town-end-farm-sunderland
----
 
 ---
 action: 
@@ -115,21 +100,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-st-antho
 
 ---
 action: 
-POSS | North East | Peterlee, North East, SR8 2RN | Scale 5: £25,230 - £26,034 | HR Assistant
-employer: East Durham College
-closing_date: 2026-10-19T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: fc084c4162b08eed2b4c8d16ea3fbdf2724d8a3d62be53a33da8a0b749b4cec6
-source: Teaching Vacancies
-source_job_id: hr-assistant-east-durham-college
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-east-durham-college
----
-
----
-action: 
 POSS | North East | Darlington, DL3 7AU | NJC Band 5 (SCP 7-8), £27,274 – £27,709 per annum | People Support Assistant
 employer: Northern Arch Learning Partnership
 closing_date: 2026-10-27T12:00:00+00:00
@@ -151,7 +121,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/people-support-assist
 
 - [Business Lead](https://teaching-vacancies.service.gov.uk/jobs/business-lead-st-gregory-s-catholic-primary-school-south-shields-south-shields-tyne-and-wear) — Insufficient admin/service evidence.
 - [Business Lead](https://teaching-vacancies.service.gov.uk/jobs/business-lead-st-leonard-s-catholic-primary-school-silksworth-sunderland) — Insufficient admin/service evidence.
-- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-bishop-hogarth-catholic-education-trust) — Insufficient admin/service evidence.
 - [Head of People](https://teaching-vacancies.service.gov.uk/jobs/head-of-people-northern-lights-learning-trust) — Insufficient admin/service evidence.
 - [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-the-ascent-academies-trust) — Insufficient admin/service evidence.
 - [HR Support Staff](https://teaching-vacancies.service.gov.uk/jobs/hr-support-staff) — Insufficient admin/service evidence.

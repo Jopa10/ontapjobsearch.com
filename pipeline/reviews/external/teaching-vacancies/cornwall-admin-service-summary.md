@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-10-19
-review_fingerprint: 201cbf64d5962dc81e55d176f78e8414a9dcd44e0b79f5313b87edec7b622e29
-routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
+review_date: 2026-10-20
+review_fingerprint: 3732c55375e3e3bc7082b728bcdccf7f268840cfc5f4c36993c8a8d5399c0cd2
+routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 1
+- Records: 7
+- Selected: 2
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 3
@@ -34,6 +34,21 @@ factual_fingerprint: 04322909202992b02d48f5f119c394f0737a9879f76878d50a9691007b0
 source: Teaching Vacancies
 source_job_id: first-aid-administrator-newquay-tretherras
 source_url: https://teaching-vacancies.service.gov.uk/jobs/first-aid-administrator-newquay-tretherras
+---
+
+---
+action: 
+SELECTED | Cornwall | Redruth, South West, TR15 3PZ | £13.45 Hourly Term Time, Grade B | General Administrator & Receptionist
+employer: Pool Academy
+closing_date: 2026-11-03T09:00:00+00:00
+reason: Clear admin/service title: administrator, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1bcd8d066a1bb95d06930fbd3068491be2524b8cc7a966447f2090564d419252
+source: Teaching Vacancies
+source_job_id: general-administrator-receptionist
+source_url: https://teaching-vacancies.service.gov.uk/jobs/general-administrator-receptionist
 ---
 
 ## POSS — choose SELECT or EXCLUDE

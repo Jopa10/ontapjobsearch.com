@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-10-19
-review_fingerprint: b3c6b7d9d95ed328f440fbc35b252e04e4b477473c00dfe7e821220e9c5ed034
-routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
+review_date: 2026-10-20
+review_fingerprint: 7fe52adeb201472b950af39bb76540f2d12eb22ec8f3a729d4b1e0ab93d1f4f6
+routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 47
-- Selected: 14
+- Records: 46
+- Selected: 13
 - POSS awaiting decision: 7
 - Excluded: 0
 - Hard pass: 26
@@ -64,21 +64,6 @@ factual_fingerprint: e66ce8127782172ac9595d451a2540aa130398ce1d535a46ac60ec7f05f
 source: Teaching Vacancies
 source_job_id: administration-assistant-the-mirfield-free-grammar-mirfield-west-yorkshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-the-mirfield-free-grammar-mirfield-west-yorkshire
----
-
----
-action: 
-SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS7 4AW | B3 | Administrative Assistant
-employer: Holy Rosary and St Anne's Catholic Primary School, a Voluntary Academy
-closing_date: 2026-10-20T12:00:00+01:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 09df11e9e9a5b102aa80bdb989e08bdbf4dc35863a2b009575c8ebb4453e8c56
-source: Teaching Vacancies
-source_job_id: administrative-assistant-holy-rosary-and-st-anne-s-catholic-primary-school-a-voluntary-academy-leeds-west-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-holy-rosary-and-st-anne-s-catholic-primary-school-a-voluntary-academy-leeds-west-yorkshire
 ---
 
 ---
@@ -344,6 +329,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## HARD_PASS
 
+- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-e2369599-57e0-464a-a903-f4cbf97046f4) — Insufficient admin/service evidence.
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-wakefield-snapethorpe-primary-school-wakefield) — Insufficient admin/service evidence.
 - [Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-1a49a8cb-9a05-468f-84cb-f2dd01c42071) — Insufficient admin/service evidence.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-ethos-academy-trust) — Insufficient admin/service evidence.
@@ -367,7 +353,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [School Administrator Role - Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-administrator-role-attendance-assistant-768b631b-d361-4d35-990b-279a7fa5d4d7) — Missing salary or pay scale.
 - [School Operations Manager - West Yorkshire](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-west-yorkshire) — Manager title salary ceiling £38,221 is not below £28,000.
 - [School Support Manager](https://teaching-vacancies.service.gov.uk/jobs/school-support-manager-ark-the-king-s-school) — Manager title salary ceiling £41,771 is not below £28,000.
-- [Senior Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-officer-altofts-junior-academy) — Insufficient admin/service evidence.
 - [Sixth Form and Careers Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-and-careers-administration-officer) — Insufficient admin/service evidence.
 - [Trust Business Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-business-manager-enhance-academy-trust-bradford-not-recorded) — Manager title salary ceiling £47,665 is not below £28,000.
 

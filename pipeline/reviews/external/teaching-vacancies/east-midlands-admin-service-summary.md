@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-10-19
-review_fingerprint: 75419ee6365470cdbefd2f6152f314e8d8e377c0b2fabe9b37e7bf96715e41d5
-routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
+review_date: 2026-10-20
+review_fingerprint: a06746e82daf53684483aa3e86cc57b55a24071c4b78546b2a92304eb58794ca
+routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 12
 - Selected: 4
-- POSS awaiting decision: 3
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 6
 
 ## SELECTED
 
@@ -113,29 +113,16 @@ source_job_id: clerical-assistant-the-staffordshire-schools-multi-academy-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-the-staffordshire-schools-multi-academy-trust
 ---
 
----
-action: 
-POSS | East Midlands | Burton-on-Trent, West Midlands, DE13 0LL | £29,071.00 - £31,015.00 Annually (FTE) Actual salary for hours advertised £26,527 - £28,300 - ALP Grade 4 | HR and Executive Leadership Support Officer
-employer: The de Ferrers Academy
-closing_date: 2026-10-20T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 33f71f003fdd6346da92d1237a02796fdca6acc4905536d289f47f4a2ac874a9
-source: Teaching Vacancies
-source_job_id: hr-and-executive-leadership-support-officer
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-and-executive-leadership-support-officer
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
+- [Education Health Care Plans and Annual Review Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/education-health-care-plans-and-annual-review-co-ordinator) — Insufficient admin/service evidence.
 - [Management Information System (MIS) Administrator & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/management-information-system-mis-administrator-cover-manager-85783a14-bff5-44f3-9d32-6556a2a69f08) — Manager title salary ceiling £32,488 is not below £28,000.
 - [Office Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/office-administration-assistant-1b11a0b9-fc3b-402e-84f1-2c7c938587f8) — Insufficient admin/service evidence.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-alban-s-catholic-voluntary-academy-derby-derbyshire) — Manager title salary ceiling £29,057 is not below £28,000.
 - [Peripatetic Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/peripatetic-administration-officer) — Insufficient admin/service evidence.
 - [SEND Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/send-administration-assistant-alvaston-junior-academy-derby-derbyshire) — Insufficient admin/service evidence.
 

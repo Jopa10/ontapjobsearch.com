@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-10-19
-review_fingerprint: ec475535e3e7fcd16c2a82911e2898f3db5e0b825d3f17296e829bb520ecd2a7
-routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
+review_date: 2026-10-20
+review_fingerprint: 4455323aa9e81b46db731b74203365416f8867778e437ec0b832678f5e9a186e
+routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 6
-- POSS awaiting decision: 2
+- Records: 11
+- Selected: 4
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 6
 
 ## SELECTED
-
----
-action: 
-SELECTED | Buckinghamshire | Milton Keynes, South East, MK6 5LP | Up to. £25,844 Per Annum (Subject to experience) | Administrator - Prison Education - HMP Bullingdon
-employer: Milton Keynes College
-closing_date: 2026-10-19T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 927823d923692db34c1175444f846127c6aab8cc04ac34d04d9d9e6b5ac16976
-source: Teaching Vacancies
-source_job_id: administrator-prison-education-hmp-bullingdon
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-prison-education-hmp-bullingdon
----
 
 ---
 action: 
@@ -64,21 +49,6 @@ factual_fingerprint: 14ad43f2019a8e4778e71b32ecd76a7db9f570d451ec48fc1e4b05c3bce
 source: Teaching Vacancies
 source_job_id: payroll-and-hr-support-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-and-hr-support-administrator
----
-
----
-action: 
-SELECTED | Buckinghamshire | Aylesbury, South East, HP19 7QP | £26,522.00 - £28,742.00 Annually (FTE) | Receptionist/Admissions Officer
-employer: Bearbrook Combined School
-closing_date: 2026-10-19T23:59:00+01:00
-reason: Clear admin/service title: receptionist, admissions officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f5259fea177cd69103661b37af0b667eb0b92e1b55a0fb9ba3acf0d45c770886
-source: Teaching Vacancies
-source_job_id: receptionist-admissions-officer-bearbrook-combined-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admissions-officer-bearbrook-combined-school
 ---
 
 ---
@@ -128,21 +98,6 @@ source_job_id: business-support-glebe-farm-school-milton-keynes-buckinghamshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-glebe-farm-school-milton-keynes-buckinghamshire
 ---
 
----
-action: 
-POSS | Buckinghamshire | Milton Keynes, South East, MK17 7AA | £23,130.12 Annually (Actual) Grade C1, £25, 989 Full time equivalent | Business Support (Level 1)
-employer: St Mary's Wavendon CofE Primary
-closing_date: 2026-10-20T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 59a8db5768695e5e2d44837c2e6a8f05bd44cef532ba943fbefcaefa14ae6800
-source: Teaching Vacancies
-source_job_id: business-support-level-1-b4e89671-af8b-4563-bce3-fee0f7ec4d1e
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-level-1-b4e89671-af8b-4563-bce3-fee0f7ec4d1e
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -152,7 +107,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-leve
 - [Business Support L3](https://teaching-vacancies.service.gov.uk/jobs/business-support-l3-brooklands-farm-primary-school) — Insufficient admin/service evidence.
 - [Designated Safeguarding Lead](https://teaching-vacancies.service.gov.uk/jobs/designated-safeguarding-lead-brooklands-farm-primary-school) — Insufficient admin/service evidence.
 - [Executive Assistant to the Headteacher and Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-to-the-headteacher-and-operations-manager) — Out-of-scope occupation: teacher, headteacher.
-- [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-8f6cfa11-ce79-4846-bec1-d44a416c2c86) — Manager title salary ceiling £53,051 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-56c55376-78b3-4ad8-a27c-1fdc31ec9895) — Insufficient admin/service evidence.
 - [Marketing Officer](https://teaching-vacancies.service.gov.uk/jobs/marketing-officer-7e5d89f3-aa30-4103-8e70-a83b509a9118) — Insufficient admin/service evidence.
 - [Trust Finance officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-stephenson-mk-trust-milton-keynes-not-recorded) — Insufficient admin/service evidence.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-10-19
-review_fingerprint: 85d23730ab5d347c5314bec711a333ced8019045517db866f4a895c5e07bc4d4
-routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
+review_date: 2026-10-20
+review_fingerprint: b2c6769233b5abf987f4a238187051e4f99b9c5235eb63654595e26278fba976
+routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 9
 - Selected: 3
-- POSS awaiting decision: 3
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 5
 
@@ -67,36 +67,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 ---
 
 ## POSS — choose SELECT or EXCLUDE
-
----
-action: 
-POSS | Hertfordshire | Hoddesdon, East of England, EN11 8JY | £27,000.00 Annually (Actual) H6 + Fringe | Deputy Office Manager
-employer: Robert Barclay Academy
-closing_date: 2026-10-20T09:00:00+01:00
-reason: Manager title below £28,000 salary ceiling requires review
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 64ce3ae6fb7fbd0cf78d477f79eecb796c52f788d57f499ce86add29499cff4f
-source: Teaching Vacancies
-source_job_id: deputy-office-manager-robert-barclay-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/deputy-office-manager-robert-barclay-academy
----
-
----
-action: 
-POSS | Hertfordshire | Harpenden, East of England, AL5 5FH | £27,600.00 - £28,906.00 Annually (FTE) Actual salary: 30 hours, £20,128 - £21,080, 37 hours, £24,824 - £25,999 | Finance Assistant
-employer: Katherine Warington School
-closing_date: 2026-10-20T08:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 4fda33049c7d667ff40676f0aee9a58939937750f9d0723ea9c3d75bde375038
-source: Teaching Vacancies
-source_job_id: finance-assistant-katherine-warington-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-katherine-warington-school
----
 
 ---
 action: 

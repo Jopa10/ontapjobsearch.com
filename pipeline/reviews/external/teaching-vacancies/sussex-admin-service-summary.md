@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-10-19
-review_fingerprint: d9d25d2ba467b2c9818848f2509ef1f7773554a676378442a1ce4322288f6fb2
-routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
+review_date: 2026-10-20
+review_fingerprint: 20fc669b3f572d243aa4b20aaee6ab283adf096533cdaced15ac6aacc055c49c
+routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
+- Records: 2
 - Selected: 0
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 0
 
@@ -38,6 +38,21 @@ factual_fingerprint: 214d78cb3e2069424c697a57ac61e9b654b91a3c18b3b498d35ba67ebb3
 source: Teaching Vacancies
 source_job_id: eag-advisor
 source_url: https://teaching-vacancies.service.gov.uk/jobs/eag-advisor
+---
+
+---
+action: 
+POSS | Sussex | Worthing, South East, BN14 8AH | £26,268.00 Annually (Actual) Paid 47.6 week to include holiday and additional days | Finance Administrator
+employer: Bohunt School Worthing
+closing_date: 2026-10-30T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 32c26bd508f196d1cfef735e36511effdd2caa2420f3f4e2753d63aa788e8c89
+source: Teaching Vacancies
+source_job_id: finance-administrator-bohunt-school-worthing-worthing-west-sussex
+source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-bohunt-school-worthing-worthing-west-sussex
 ---
 
 ## EXCLUDED BY REVIEW

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - South
 
-review_date: 2026-10-19
+review_date: 2026-10-20
 review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
+routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
 ontap_region: Greater Manchester - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
+- Records: 1
 - Selected: 0
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 1
 
 ## SELECTED
 
@@ -33,7 +33,6 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## HARD_PASS
 
-- [Trust Data, Assessment and Insights Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-data-assessment-and-insights-manager) — Manager title salary ceiling £58,599 is not below £28,000.
 - [Trust Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-manager-achieve-and-learn-trust) — Manager title salary ceiling £40,991 is not below £28,000.
 
 ## Safety boundary

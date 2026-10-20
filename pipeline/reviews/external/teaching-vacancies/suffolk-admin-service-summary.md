@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-10-19
-review_fingerprint: b9da348f4eac49c6615b761aac23233094ffb899264ce158a2a05bc67fd1968e
-routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
+review_date: 2026-10-20
+review_fingerprint: c7e0d6a0e0f95e4e0badf7258cce246c8856571b4f781a317b00420f1c6dc4e9
+routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
-- Selected: 3
+- Records: 12
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 8
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Suffolk | Ipswich, East of England, IP8 3SU | £26,017 - £26,847 per annum (Dependent on qualifications and experience) | Bursary Administrator
+employer: One Sixth Form College
+closing_date: 2026-11-02T08:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: cbe199f2304157abd3d972abfed086567c7e34aec8377982237ae8d0921048a2
+source: Teaching Vacancies
+source_job_id: bursary-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/bursary-administrator
+---
 
 ---
 action: 
@@ -77,7 +92,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 ## HARD_PASS
 
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-stradbroke-high-school-eye-suffolk) — Insufficient admin/service evidence.
+- [Admissions and Review Officer](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-review-officer-eastern-education-group-trust-bury-st-edmunds-not-recorded) — Insufficient admin/service evidence.
+- [Admissions and Review Officer](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-review-officer-stone-lodge-academy) — Insufficient admin/service evidence.
 - [Group Management Accounts Lead](https://teaching-vacancies.service.gov.uk/jobs/group-management-accounts-lead) — Insufficient admin/service evidence.
+- [Group Management Accounts Lead](https://teaching-vacancies.service.gov.uk/jobs/group-management-accounts-lead-eastern-education-group-trust) — Insufficient admin/service evidence.
+- [HR Business Partnering](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partnering) — Insufficient admin/service evidence.
 - [Office Manager/Business Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-business-manager) — Manager title salary ceiling £37,563 is not below £28,000.
 - [Trust Attendance Lead](https://teaching-vacancies.service.gov.uk/jobs/trust-attendance-lead-unity-schools-partnership-haverhill-not-recorded) — Insufficient admin/service evidence.
 

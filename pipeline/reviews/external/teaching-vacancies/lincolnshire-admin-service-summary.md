@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-10-19
-review_fingerprint: dc330986b04c236f228b82c877d1986b1e5852263523d7d613a9210896ec1b7f
-routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
+review_date: 2026-10-20
+review_fingerprint: 9aa87457572f480e2199d85e0731df439438e7b82dbc7479dad42e019f2c1065
+routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 7
+- Records: 17
+- Selected: 8
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 7
@@ -34,6 +34,21 @@ factual_fingerprint: 2febb77862161236be707092792a59de6d36c0df2aa3020c89dd465d58c
 source: Teaching Vacancies
 source_job_id: administrative-assistant-cleethorpes-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-cleethorpes-academy
+---
+
+---
+action: 
+SELECTED | Lincolnshire | Sleaford, East Midlands, NG34 7AT | £11,046.00 - £11,396.00 Annually (Actual) | Administrative Assistant - band 2
+employer: Our Lady of Good Counsel Catholic Primary School, A Voluntary Academy
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 243b1348bdb8dc67e8b860b3239e7802a6b0e5c8a89b627cb198b29686f5fac7
+source: Teaching Vacancies
+source_job_id: administrative-assistant-band-2-96d0a457-1878-4579-bc10-d33c9990b986
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-band-2-96d0a457-1878-4579-bc10-d33c9990b986
 ---
 
 ---

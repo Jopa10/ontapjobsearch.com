@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-10-19
-review_fingerprint: 73ec6a76f74bf49abc3b7afb6fb74954bea3c5bea65e1da329f05bb1a34a6e7c
-routing_manifest_sha256: 1c8146cf47e469ba16b0169e1aa25bdf1cd254cdd9edaff5aae605d85bca979f
+review_date: 2026-10-20
+review_fingerprint: 4bd3e907db4aa1a10a9c9893c8add31b0b431fbda8d23be49d58d8a1d0e563cb
+routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 1
+- Records: 11
+- Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 8
@@ -34,6 +34,21 @@ factual_fingerprint: d6ba2527dbaa9dd6223c2a76f7fd462492c85b984334beb15bf0df13dd3
 source: Teaching Vacancies
 source_job_id: school-administrator-slt-support-st-thomas-becket-catholic-school-northampton-northamptonshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-slt-support-st-thomas-becket-catholic-school-northampton-northamptonshire
+---
+
+---
+action: 
+SELECTED | Northamptonshire | Northampton, East Midlands, NN4 6TP | £22,525.00 - £22,884.00 Annually (Actual) | Technical Administrator
+employer: Caroline Chisholm School
+closing_date: 2026-11-04T12:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d483896366dafd3a4dd0dcba39122bdf60db61f3f9a8911e9cf4538a5c35a172
+source: Teaching Vacancies
+source_job_id: technical-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/technical-administrator
 ---
 
 ## POSS — choose SELECT or EXCLUDE
