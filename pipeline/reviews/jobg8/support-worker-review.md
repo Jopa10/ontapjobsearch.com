@@ -16,23 +16,20 @@ _No jobs in this group._
 ## WEST YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - YORKSHIRE - WEST | Yorkshire - West | Halifax | £17.72 per hour | Housing Support Worker
 job_id: 23643_225733726
 ---
-
 ---
-action:
+action: exclude
 POSS - YORKSHIRE - WEST | Yorkshire - West | Halifax | £13.7 per hour | Housing Support Officer
 job_id: 23643_225732489
 ---
-
 ---
-action:
+action: exclude
 POSS - YORKSHIRE - WEST | Yorkshire - West | Bradford | £22.68 per hour | Recovery Worker
 job_id: 23643_225734849
 ---
-
 ## SOUTH YORKSHIRE — SELECTED
 
 _No jobs in this group._
@@ -40,23 +37,20 @@ _No jobs in this group._
 ## SOUTH YORKSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Doncaster | £31000 - £32000 per year | Healthcare Assistant
 job_id: 23643_225735406
 ---
-
 ---
-action:
+action: exclude
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Doncaster | £13.6 - £17.55 per hour | Housing Support Worker
 job_id: 23643_225630640
 ---
-
 ---
-action:
+action: exclude
 POSS - YORKSHIRE - SOUTH | Yorkshire - South | Barnsley | £22.68 per hour | Recovery Worker
 job_id: 23643_225734860
 ---
-
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — SELECTED
 
 ---
@@ -86,11 +80,10 @@ _No jobs in this group._
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - NE - Co Durham & Dar/Htlpl | North East - County Durham & Darlington/Hartlepool | Crook | £13.6 - £17.19 per hour | Housing Support Worker
 job_id: 23643_225675058
 ---
-
 ## SUSSEX — SELECTED
 
 ---
@@ -150,41 +143,35 @@ job_id: 23643_225739546
 ## SUSSEX — POSSIBLES
 
 ---
-action:
+action: select
 POSS - SUSSEX | Sussex | Brighton | £30000 - £40000 per year | 6 Month FTC Personal Assistant
 job_id: 23643_225665294
 ---
-
 ---
-action:
+action: select
 POSS - SUSSEX | Sussex | Sussex | £12.85 - £18.4 per hour | Children's Support Worker
 job_id: 23643_225655669
 ---
-
 ---
-action:
+action: select
 POSS - SUSSEX | Sussex | Sussex | £12.85 - £18.4 per hour | Healthcare Assistant
 job_id: 23643_225678003
 ---
-
 ---
-action:
+action: select
 POSS - SUSSEX | Sussex | Hastings | £14 - £18 per hour | Homecare Support Worker (Domiciliary Care)
 job_id: 23643_225046457
 ---
-
 ---
-action:
+action: select
 POSS - SUSSEX | Sussex | Eastbourne | £12.85 - £18.4 per hour | Support Worker
 job_id: 23643_225724515
 ---
-
 ---
-action:
+action: exclude
 POSS - SUSSEX | Sussex | Worthing | £22 - £23 per hour | Recovery Worker
 job_id: 23643_225639600
 ---
-
 ## CUMBRIA SOUTH — SELECTED
 
 _No jobs in this group._
@@ -252,11 +239,10 @@ job_id: 1401785913
 ## HAMPSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - HAMPSHIRE | Hampshire | Hook | £28697 - £31573 per year | Children's Home Support Worker
 job_id: 1401785773
 ---
-
 ## KENT — SELECTED
 
 ---
@@ -496,83 +482,70 @@ job_id: 23643_225739094
 ## LONDON — POSSIBLES
 
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £40000 - £55000 per year (Excellent) | Italian speaking Personal Assistant to CEO
 job_id: 23643_225640721
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £35000 - £40000 per year | Housing Support Officer
 job_id: 23643_225686534
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £16 - £19 per hour | Temporary Personal Assistant/ Relief Receptionist
 job_id: 23643_225721722
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | London | £45000 - £50000 per year | Complex care worker
 job_id: 23643_225735003
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | City | £13.75 - £14.5 per hour (Dependant on Experience) | Housing Support Worker
 job_id: 23643_221016439
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | City | £14 - £18 per hour | Complex Care Support Worker - Child
 job_id: 23643_225686112
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £18 - £20 per hour | Family Support Worker
 job_id: 23643_225660074
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £13.21 - £31.21 per hour | Night Care Assistant
 job_id: 23643_225710763
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | City | £22 - £23 per hour | Recovery Worker
 job_id: 23643_225720631
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | City | £22.68 per hour | Recovery Worker
 job_id: 23643_225734874
 ---
-
 ---
-action:
+action: exclude
 POSS - LONDON | London | Sutton-in-ashfield | £22 - £23 per hour | Recovery Worker
 job_id: 23643_225720618
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £15.5 - £17.25 per hour | Learning Support Assistant
 job_id: 23643_225715163
 ---
-
 ---
-action:
+action: select
 POSS - LONDON | London | London | £85 - £100 per daily | Learning Support Assistant
 job_id: 23643_225736598
 ---
-
 ## OXFORDSHIRE — SELECTED
 
 ---
@@ -656,35 +629,30 @@ job_id: 23643_225712887
 ## WILTSHIRE — POSSIBLES
 
 ---
-action:
+action: select
 POSS - WILTSHIRE | Wiltshire | Trowbridge | £14.25 - £16.35 per hour | Care Assistant
 job_id: 23643_225550225
 ---
-
 ---
-action:
+action: select
 POSS - WILTSHIRE | Wiltshire | Trowbridge | £14.25 - £16.35 per hour | Support Worker
 job_id: 23643_225550189
 ---
-
 ---
-action:
+action: select
 POSS - WILTSHIRE | Wiltshire | Trowbridge | £16.2 per hour | Care Assistant - Bank - Care Home
 job_id: 23643_225710192
 ---
-
 ---
-action:
+action: select
 POSS - WILTSHIRE | Wiltshire | Wiltshire | £16.03 per hour | Care Assistant - Bank - Care Home
 job_id: 23643_225713768
 ---
-
 ---
-action:
+action: select
 POSS - WILTSHIRE | Wiltshire | Wiltshire | £14.25 - £15.5 per hour | Learning Support Assistant
 job_id: 23643_225660582
 ---
-
 <!-- ONTAP_PERSISTENT_DECISIONS_V1
 {"decisions":{"05843b40-34ac-40a5-8f4c-e146dd6988e1":{"action":"select","decided_on":"2026-08-14"},"107658496":{"action":"select","decided_on":"2026-08-19","employer":"Priority Recruitment Services","title":"Female Support Worker","town":"Sussex"},"107699707":{"action":"select","decided_on":"2026-08-26","employer":"Paragon Home Healthcare","title":"Day Care Assistant","town":"London"},"107728647":{"action":"select","decided_on":"2026-08-26","employer":"Routes Healthcare (North)","title":"Complex Care Assistant","town":"Yorkshire"},"107728806":{"action":"select","decided_on":"2026-08-27","employer":"Routes Healthcare (North)","title":"Complex Care Assistant","town":"Yorkshire"},"107751768":{"action":"select","decided_on":"2026-08-14"},"107751975":{"action":"select","decided_on":"2026-08-15","employer":"Ask Jules","title":"Care Assistant to a Psychology University Student","town":"London"},"107769225":{"action":"select","decided_on":"2026-08-15","employer":"Ask Jules","title":"Live-in Care Assistant for a Business and Management Graduate","town":"Surrey"},"107797487":{"action":"select","decided_on":"2026-09-10","employer":"Ask Jules","title":"Live-In Personal Care Assistants for a University Student in Leeds","town":"Yorkshire"},"107823167":{"action":"select","decided_on":"2026-08-26","employer":"Ask Jules","title":"Live-in Personal Care Assistant History & Politics Student","town":"Middlesex"},"107832011":{"action":"exclude","decided_on":"2026-08-21","employer":"Medgen Ltd","title":"Mental Health Support Worker","town":"Wiltshire"},"107837858":{"action":"select","decided_on":"2026-09-24","employer":"Advantage Angels Ltd","title":"Healthcare Assistant","town":"Oxfordshire"},"107840646":{"action":"exclude","decided_on":"2026-08-27","employer":"Ask Jules","title":"Live in Care Assistant to 3rd year Biology Uni Student","town":"Oxfordshire"},"107840835":{"action":"exclude","decided_on":"2026-09-24","employer":"Advantage Angels Ltd","title":"Healthcare Assistant - Travelling Role","town":"Surrey"},"107854069":{"action":"select","decided_on":"2026-08-26","employer":"Superior Healthcare","title":"Complex Care Assistant","town":"Sussex"},"107854750":{"action":"select","decided_on":"2026-09-24","employer":"Advantage Angels Ltd","title":"Healthcare Assistant","town":"Kent"},"107856243":{"action":"select","decided_on":"2026-09-24","employer":"Advantage Angels Ltd","title":"Healthcare Assistant","town":"Isle of Wight"},"107856311":{"action":"select","decided_on":"2026-09-24","employer":"Advantage Angels Ltd","title":"Healthcare Assistant","town":"Yorkshire"},"107863056":{"action":"select","decided_on":"2026-09-24","employer":"Advantage Angels Ltd","title":"Healthcare Assistant","town":"Sussex"},"107879735":{"action":"select","decided_on":"2026-09-26","employer":"Advantage Angels Ltd","title":"Healthcare Assistant","town":"Wiltshire"},"107900179":{"action":"select","decided_on":"2026-08-27","employer":"Ask Jules","title":"Personal Care Assistant to a Business Management graduate","town":"Surrey"},"107949996":{"action":"exclude","decided_on":"2026-09-17","employer":"Niyaa People","title":"Housing Support Officer","town":"Wiltshire"},"107964852":{"action":"select","decided_on":"2026-10-06","employer":"Ask Jules","title":"Personal Assistant to an Adult at Home Salisbury","town":"Wiltshire"},"107978779":{"action":"select","decided_on":"2026-09-19","employer":"Active Care Group","title":"Support Worker Waking Nights","town":"Wiltshire"},"107983453":{"action":"select","decided_on":"2026-10-06","employer":"Ask Jules","title":"Hourly Care Assistant for a Physically Disabled Adult- Salisbury","town":"Wiltshire"},"108024728":{"action":"select","decided_on":"2026-09-26","employer":"Advantage Angels Ltd","title":"Healthcare Assistant","town":"Sussex"},"108025922":{"action":"exclude","decided_on":"2026-09-26","employer":"Medgen Ltd","title":"Mental Health Support Worker","town":"Wiltshire"},"1401784261":{"action":"select","decided_on":"2026-08-14"},"1401784339":{"action":"exclude","decided_on":"2026-08-30","employer":"Hampshire County Council","title":"Care Assistant (Older Adults)","town":"Hampshire"},"1401784414":{"action":"exclude","decided_on":"2026-08-30","employer":"Hampshire County Council","title":"Children's Home Support Worker","town":"Hampshire"},"1401784888":{"action":"select","decided_on":"2026-09-03","employer":"Hampshire County Council","title":"Support Worker (Out of Hours)","town":"Hampshire"},"1401784900":{"action":"select","decided_on":"2026-09-03","employer":"Hampshire County Council","title":"Secure Children's Home Support Worker","town":"Hampshire"},"1401785505":{"action":"select","decided_on":"2026-09-26","employer":"Hampshire County Council","title":"Children's Home Support Worker","town":"Hampshire"},"1401785578":{"action":"select","decided_on":"2026-09-30","employer":"Hampshire County Council","title":"Secure Children's Home Support Worker","town":"Hampshire"},"1401785747":{"action":"exclude","decided_on":"2026-10-08","employer":"Hampshire County Council","title":"Fostering Support Worker","town":"Hampshire"},"1785507":{"action":"select","decided_on":"2026-08-25","employer":"Reed","title":"Communication Support Worker","town":"Surrey"},"1785508":{"action":"select","decided_on":"2026-08-25","employer":"Reed","title":"Communication Support Worker","town":"Surrey"},"1786559":{"action":"exclude","decided_on":"2026-08-25","employer":"RMS Recruitment Ltd","title":"Temp Personal Assistant","town":"London"},"1820000":{"action":"select","decided_on":"2026-09-22","employer":"QUALITEACH EDUCATION GROUP LTD","title":"Learning Support Assistant","town":"London"},"1823089":{"action":"select","decided_on":"2026-09-22","employer":"Reeson Education","title":"Learning Support Assistant","town":"London"},"1834903":{"action":"select","decided_on":"2026-09-08","employer":"Remedy Recruitment Group","title":"Family Support Worker","town":"London"},"1843702":{"action":"select","decided_on":"2026-09-08","employer":"Office Angels","title":"Personal Assistant/ FOH - Graduate","town":"London"},"1873145":{"action":"exclude","decided_on":"2026-09-09","employer":"Engage Education","title":"Bank Staff Complex Needs Support Worker","town":"Yorkshire"},"1875238":{"action":"select","decided_on":"2026-09-22","employer":"Prospero Teaching","title":"Learning Support Assistant","town":"Hampshire"},"1881025":{"action":"select","decided_on":"2026-09-22","employer":"Academics","title":"Pastoral Support Worker","town":"Wiltshire"},"1939256":{"action":"select","decided_on":"2026-09-22","employer":"Randstad Care","title":"Care Home Support Worker - &;23p/h","town":"Tyne And Wear"},"1961257":{"action":"select","decided_on":"2026-09-19","employer":"LB Barking and Dagenham","title":"Early Language & Communication Support Worker","town":"Essex"},"1986485":{"action":"select","decided_on":"2026-10-06","employer":"The Care Collection","title":"Home Care Assistant","town":"Yorkshire"},"2022335":{"action":"select","decided_on":"2026-09-26","employer":"Long Term Futures","title":"Learning Support Assistant","town":"London"},"2028441":{"action":"select","decided_on":"2026-09-26","employer":"Reeson Education","title":"Learning Support Assistant","town":"London"},"2041406":{"action":"select","decided_on":"2026-10-06","employer":"Remedy Recruitment Group","title":"Family Support Worker","town":"London"},"2041628":{"action":"select","decided_on":"2026-10-06","employer":"QUALITEACH EDUCATION GROUP LTD","title":"Learning Support Assistant","town":"London"},"2044237":{"action":"select","decided_on":"2026-10-06","employer":"TLTP Education","title":"Learning Support Assistant","town":"London"},"2044609":{"action":"select","decided_on":"2026-10-06","employer":"Reed","title":"Learning Support Assistant","town":"Middlesex"},"2045863":{"action":"select","decided_on":"2026-10-06","employer":"TLTP Education","title":"Pastoral Support Worker","town":"Middlesex"},"2048175":{"action":"select","decided_on":"2026-10-06","employer":"Reed","title":"Learning Support Assistant","town":"Kent"},"2048687":{"action":"select","decided_on":"2026-10-06","employer":"Veritas Education Recruitment Ltd","title":"Learning Support Assistant","town":"Essex"},"2049697":{"action":"select","decided_on":"2026-09-05","employer":"First Choice Selection Services","title":"Children's Residential Support Worker - Belfast","town":"Belfast"},"2052552":{"action":"select","decided_on":"2026-09-12","employer":"First Choice Selection Services","title":"Support Worker - Belfast","town":"Belfast"},"2055208":{"action":"select","decided_on":"2026-10-06","employer":"The Supply Register Ltd","title":"Learning Support Assistant","town":"Tyne And Wear"},"2058341":{"action":"select","decided_on":"2026-10-06","employer":"Swalcliffe Park School","title":"Learning Support Assistant","town":"Oxfordshire"},"2071005":{"action":"exclude","decided_on":"2026-10-06","employer":"Engage Education","title":"Behaviour Support Worker","town":"Yorkshire"},"2075798":{"action":"select","decided_on":"2026-10-06","employer":"Remedy Recruitment Group","title":"Learning Support Assistant","town":"London"},"23643_224986550":{"action":"select","decided_on":"2026-09-05","employer":"Ashberry Recruitment","title":"Housing Support Worker","town":"Manchester"},"23643_225134809":{"action":"select","decided_on":"2026-08-18","employer":"opal carers ltd","title":"Support Care Workers - Camberley","town":"Surrey"},"23643_225493355":{"action":"select","decided_on":"2026-08-14"},"23643_225519021":{"action":"exclude","decided_on":"2026-08-30","employer":"Reed Specialist Recruitment","title":"Housing Support Worker","town":"Yorkshire"},"23643_225534852":{"action":"select","decided_on":"2026-09-03","employer":"Town & Country Housing Group","title":"Housing Support Worker (Casual)","town":"Kent"},"23643_225572316":{"action":"select","decided_on":"2026-09-05","employer":"Supporting Futures Consulting Ltd","title":"Reconnect+ Support Worker","town":"London"},"23643_225574825":{"action":"select","decided_on":"2026-09-08","employer":"Philosophy Education","title":"Learning Support Worker","town":"London"},"58c3e926-cf9b-4aae-a931-e1c867a7b221":{"action":"select","decided_on":"2026-08-14"},"61318ff3-8530-4604-9b2f-3445400107a3":{"action":"exclude","decided_on":"2026-08-18","employer":"Love Success Recruitment","title":"Permanent Part-time Private Personal Assistant - Cotswolds","town":"Wiltshire"},"62ac8011-cb52-461e-bd72-7273b61cb640":{"action":"select","decided_on":"2026-08-14"},"b0026c42-2444-46d8-8c8d-840b9df2e664":{"action":"exclude","decided_on":"2026-08-15","employer":"Dovetail & Slate","title":"Communication Support Worker","town":"London"},"dfd8c7b5-d8b9-4691-9c8d-2e2ebc1ab1e7":{"action":"select","decided_on":"2026-08-14"}},"version":1}
 -->

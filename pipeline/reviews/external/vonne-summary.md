@@ -54,7 +54,7 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173530
 ## POSS — choose SELECT or EXCLUDE
 
 ---
-action:
+action: exclude
 POSS | North East | Hybrid | £ Pro Rata | Payroll and People Systems Assistant
 employer: National Energy Action
 closing_date: 27 October 2026
@@ -67,7 +67,7 @@ source_job_id: 173536
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173536
 ---
 ---
-action:
+action: exclude
 POSS | North East - County Durham & Darlington/Hartlepool | County Durham | £26,439 Per Annum | Carer Support Coordinator
 employer: Durham County Carers Support
 closing_date: Friday, November 13, 2026 - 17:00
@@ -80,7 +80,7 @@ source_job_id: 173457
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173457
 ---
 ---
-action:
+action: exclude
 POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £24,796 to 28,153 Per Annum | Administrator (VAWG TEAM)
 employer: The Angelou Centre
 closing_date: Saturday, October 31, 2026 - 05:00
@@ -93,7 +93,7 @@ source_job_id: 173521
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173521
 ---
 ---
-action:
+action: exclude
 POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £30,303 to 35,781 Per Annum | Housing Coordinator
 employer: The Angelou Centre
 closing_date: Saturday, October 31, 2026 - 05:00
@@ -119,7 +119,7 @@ source_job_id: 173531
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173531
 ---
 ---
-action:
+action: exclude
 POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £26,718 to 28,772 Per Annum | Student Communities Coordinator, Sunderland
 employer: University of Sunderland Students' Union
 closing_date: Sunday, November 1, 2026 - 23:59
