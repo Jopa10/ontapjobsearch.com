@@ -5055,7 +5055,7 @@ hub_fingerprint: 8165be766295fd43ece239c97ec55f30ad683fff2d8d364ab25ba66f2f936fa
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Yorkshire - West | Halifax | £35000 - £40000 per year | Automotive Service Advisor
 source_key: jobg8
 source: JobG8
@@ -5073,7 +5073,7 @@ hub_fingerprint: 97528224f51e470769b7340639803f6989a743bed6c93b7ef6a22f558dcbe18
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Yorkshire - West | Halifax | £13.7 per hour | Housing Support Officer
 source_key: jobg8
 source: JobG8
@@ -5091,7 +5091,7 @@ hub_fingerprint: e78b4896c51aa8aaa76994b1d33a9a9d9c513aecd55bcaa668b42757fb26e87
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Yorkshire - West | Halifax | £17.72 per hour | Housing Support Worker
 source_key: jobg8
 source: JobG8
@@ -5109,7 +5109,7 @@ hub_fingerprint: f71c6c11d3c6dd1a5b7a7080f2d163e1cd94cfbbfd9d6a912e56860bc5c4e1b
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Yorkshire - West | Leeds | £18 - £22 per hour | Assistant Management Accountant
 source_key: jobg8
 source: JobG8
@@ -5127,7 +5127,7 @@ hub_fingerprint: abb373058fed140633f2a78afd0b3f652048ef9a424d1e1bfc941b4e3db0bba
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Yorkshire - West | Leeds | £30000 - £40000 per year (plus benefits) | Business Administrator
 source_key: jobg8
 source: JobG8
@@ -5145,7 +5145,7 @@ hub_fingerprint: 53f0635bb7d272b55b8f6517ef3b350e435a6aa1e1416285144d30b07a83bd6
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Yorkshire - West | Leeds | £30000 - £40000 per year (excellent benefits) | Customer Service / Sales Support Team Leader
 source_key: jobg8
 source: JobG8
@@ -5163,7 +5163,7 @@ hub_fingerprint: 5f51a6560c0a8325bdc6146ffc07763dd9e876a9d74dc3020c9bad8b48acb26
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Yorkshire - West | Leeds | £22.21 per hour | Executive Assistant
 source_key: jobg8
 source: JobG8
@@ -5181,7 +5181,7 @@ hub_fingerprint: c93288e8086c698f82dd07654551d0c7c21f2ebb0c2f8852cf7371ea1b29e5d
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Yorkshire - West | Leeds | £35000 - £40000 per year | HR Coordinator
 source_key: jobg8
 source: JobG8
@@ -5199,7 +5199,7 @@ hub_fingerprint: ba2bfc3d90f6ed002aa66c1e02629e6773793496e69fe0c1e633688054c104a
 ---
 
 ---
-action:
+action: select
 POSS | JobG8 | Yorkshire - West | Leeds | £17 - £19 per hour | Interim Finance Assistant
 source_key: jobg8
 source: JobG8
@@ -5217,7 +5217,7 @@ hub_fingerprint: a00653af4308bc9ce0ce4cf45e4f79af0e5e70aea524539394487c61ba03dce
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Yorkshire - West | Leeds | £35000 - £40000 per year | Service Scheduler
 source_key: jobg8
 source: JobG8
@@ -5235,7 +5235,7 @@ hub_fingerprint: 974e9efeb1ae3b1b06fe46ba4a3df2a0b7a16fab646e446bfc3c03f81ec7e48
 ---
 
 ---
-action:
+action: exclude
 POSS | JobG8 | Yorkshire - West | Leeds | £19 - £19.5 per hour | Site Administrator
 source_key: jobg8
 source: JobG8
