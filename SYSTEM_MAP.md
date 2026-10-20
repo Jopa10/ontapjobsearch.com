@@ -1,6 +1,6 @@
 # Ontap System Map
 
-**Last updated:** 18 October 2026
+**Last updated:** 20 October 2026
 **Status:** Canonical production architecture, reconciled on 12 October against active workflows, deployment runs, report history, slice register and current diagnostic contract.
 
 - 21 September 2026 — **Nearby-location analytics now explains incomplete location attempts and reliably measures restored preferences:** client events that occur before GA4 initialises wait for the shared analytics-ready signal instead of being dropped. Unsuccessful geolocation attempts now distinguish unsupported browsers, permission denial, unavailable positions, timeouts and nearby-API failures; manual-town attempts and saved-location refresh failures are measured separately. Existing `saved_location_return` and `saved_location_results_loaded` events remain the proof of remembered-location reuse.
@@ -8,6 +8,8 @@
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
+
+- 20 October 2026 — **Six broad city pages and fourteen regional/family slices prepared for the next verified publish:** Redditch, Guildford, Carlisle, Preston, Witney and Yeovil are added to the permanent `/[city]/jobs` register, mapped respectively to Worcestershire, Surrey, Cumbria North, Lancashire Central, Oxfordshire and Somerset. The 20 October overview shows 14, 12, 10, 10, 10 and 10 all-family jobs. Fourteen configured pairs are marked LIVE: Customer Sales in Cambridgeshire, Nottinghamshire, Coventry & Warwickshire and Worcestershire; Marketing in Northamptonshire and Glasgow; Finance / Accounts in Cornwall, Derbyshire and Herefordshire; HR / Recruitment in North East, Staffordshire and Surrey; and Customer Service / Contact Centre in Hertfordshire and Kent. Merseyside – St Helens & Knowsley was held because no matching canonical geography is configured. These changes update source registers only; the next normal verified publish will activate them in production.
 
 - 18 October 2026 — **Horsham and Lincoln Service Admin city pages approved:** both use exact-town catchments and the existing permanent city-page derivation/maintenance workflow. Lincoln is added as a registered local market; the owner approval is based on the four-day city counts. The approval manager now also resolves parent JSON from dynamic configured regional slices and carries that parent route into the city-page configuration.
 

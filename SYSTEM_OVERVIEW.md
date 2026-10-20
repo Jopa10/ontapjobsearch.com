@@ -1,11 +1,13 @@
 # Ontap System Overview
 
-**Last updated:** 18 October 2026
+**Last updated:** 20 October 2026
 **Status:** Canonical production state, reconciled on 12 October against active workflow definitions, deployment runs and current report data.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 20 October 2026 — **Six broad city pages and fourteen regional/family pages are prepared for the next verified publish:** Redditch, Guildford, Carlisle, Preston, Witney and Yeovil are added as permanent “Jobs in [City]” pages. Fourteen approved family/region pairs are added to the LIVE register using existing routes and filters. Production will pick them up on the next normal publish.
 
 - 18 October 2026 — **Two owner-approved Service Admin city pages added:** Horsham and Lincoln use exact-town catchments and the existing permanent city-page workflow, with Lincoln added to the local-market register. The approval workflow now handles configured dynamic regional source files as well as static regional pages.
 

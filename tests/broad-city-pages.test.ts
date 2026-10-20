@@ -9,8 +9,8 @@ import {
   locationCandidates,
 } from '../lib/broad-city-pages';
 
-test('registers the ten approved permanent broad city routes', () => {
-  assert.equal(broadCityDefinitions.length, 10);
+test('registers the sixteen approved permanent broad city routes', () => {
+  assert.equal(broadCityDefinitions.length, 16);
   assert.deepEqual(
     broadCityDefinitions.map((city) => city.route),
     ['/nottingham/jobs', '/wakefield/jobs', '/bolton/jobs', '/reading/jobs', '/chester/jobs', '/durham/jobs', '/gateshead/jobs', '/northallerton/jobs', '/norwich/jobs', '/salford/jobs']
