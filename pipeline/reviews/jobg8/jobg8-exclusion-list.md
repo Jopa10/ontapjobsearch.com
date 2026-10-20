@@ -6,9 +6,1041 @@ The `excluded_on` date is the day the exclusion decision was made.
 To restore a job, edit only its `action:` line to `action: select`.
 On the next JobG8 run that exact job ID will be restored and removed from this list.
 
-remembered_exclusions: 437
+remembered_exclusions: 536
 
 ## SERVICE / ADMIN — EXCLUDED
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Technical Customer Support Advisor
+employer: Blue Arrow
+region: 
+town: Derbyshire
+salary: 
+job_id: 23643_225726616
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Technial Records Administrator
+employer: Line Up Aviation
+region: 
+town: Oxfordshire
+salary: 
+job_id: 23643_225678323
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Supply Chain Coordinator
+employer: Willis Global
+region: 
+town: Essex
+salary: 
+job_id: 23643_225506255
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Supply Chain Administrator
+employer: April Quest
+region: 
+town: Hampshire
+salary: 
+job_id: 23643_225710520
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Site Administrator
+employer: We Are Footprint
+region: 
+town: Leeds
+salary: 
+job_id: 23643_225422061
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Site Administrator
+employer: Sterling Recruitment Solutions
+region: 
+town: Norfolk
+salary: 
+job_id: 23643_225279213
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Service Scheduler
+employer: SF Partners
+region: 
+town: Leeds
+salary: 
+job_id: 23643_225661390
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Service Advisor - CUPRA, SEAT & Škoda
+employer: West End Garage ORG
+region: 
+town: Stirlingshire
+salary: 
+job_id: 23643_225648611
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Service Advisor
+employer: The Recruitment Solution
+region: 
+town: Cumbria
+salary: 
+job_id: 23643_225709872
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Service Advisor
+employer: Renault Retail Group UK Ltd
+region: 
+town: Hertfordshire
+salary: 
+job_id: 23643_225708023
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Service Advisor
+employer: ACS Automotive Recruitment
+region: 
+town: Kent
+salary: 
+job_id: 23643_225628384
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Secretary
+employer: Eclectic Recruitment
+region: 
+town: Cambridgeshire
+salary: 
+job_id: 23643_225701653
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Salesforce and Data Administrator (Exams Team)
+employer: Gordon Yates Recruitment Consultancy
+region: 
+town: Norfolk
+salary: 
+job_id: 23643_225736797
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Sales Support Coordinator - Ecology & Environmental Consultancy
+employer: RecruitmentRevolution.com
+region: 
+town: Oxfordshire
+salary: 
+job_id: 23643_225659768
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: SUPPLY CHAIN COORDINATOR / PURCHASING SUPPORT
+employer: NEUTRA
+region: 
+town: Oxfordshire
+salary: 
+job_id: 23643_225718391
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: SHEQ Coordinator
+employer: We Are Footprint
+region: 
+town: Warrington
+salary: 
+job_id: 23643_225666346
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Repairs Scheduler
+employer: Think Recruitment
+region: 
+town: Kent
+salary: 
+job_id: 23643_225690458
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Repairs Planner
+employer: BDS (Northern) Limited
+region: 
+town: Hampshire
+salary: 
+job_id: 23643_225715716
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Repairs Planner
+employer: Build Recruitment
+region: 
+town: Hampshire
+salary: 
+job_id: 23643_225708208
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Repairs Planner
+employer: Hamilton Woods
+region: 
+town: Manchester
+salary: 
+job_id: 23643_225675000
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Repairs Planner
+employer: Fortus Recruitment Group
+region: 
+town: Essex
+salary: 
+job_id: 23643_225670869
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Property Portfolio & Operations Coordinator
+employer: Clearline Recruitment Ltd
+region: 
+town: Sussex
+salary: 
+job_id: 23643_225742289
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Property Portfolio & Operations Coordinator
+employer: Clearline Recruitment Ltd
+region: 
+town: Sussex
+salary: 
+job_id: 2153796
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Project Operations Coordinator (Supply Chain / Inventory)
+employer: Hays Business Support
+region: 
+town: Derbyshire
+salary: 
+job_id: 23643_225675529
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Project Coordinator / Operations Specialist
+employer: Adecco
+region: 
+town: London
+salary: 
+job_id: 23643_225733158
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Project Administrator
+employer: Coyles
+region: 
+town: Cambridgeshire
+salary: 
+job_id: 23643_225722027
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Project Administrator
+employer: Earthstream
+region: 
+town: Somerset
+salary: 
+job_id: 23643_225665919
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Programme Planner
+employer: Avolon M&E
+region: 
+town: Hampshire
+salary: 
+job_id: 23643_225663191
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Prestige Service Advisor
+employer: ACS Automotive Recruitment
+region: 
+town: Kent
+salary: 
+job_id: 23643_225719501
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Prestige Service Advisor
+employer: ACS Automotive Recruitment
+region: 
+town: Surrey
+salary: 
+job_id: 23643_225641161
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Prestige Service Advisor
+employer: ACS Automotive Recruitment
+region: 
+town: Surrey
+salary: 
+job_id: 23643_225542566
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Part Time Bookkeeper
+employer: Fletcher George
+region: 
+town: Surrey
+salary: 
+job_id: 23643_225731728
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: PA Project Coordinator
+employer: Australasian Recruitment Company
+region: 
+town: London
+salary: 
+job_id: 23643_225721191
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Outreach Coordinator
+employer: Unipart
+region: 
+town: Warwickshire
+salary: 
+job_id: 23643_225641176
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Operations Coordinator
+employer: Hays Business Support
+region: 
+town: Derbyshire
+salary: 
+job_id: 23643_225696440
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Mortgage Administrator (Training on Investments)
+employer: Ernest Gordon Recruitment Limited
+region: 
+town: Surrey
+salary: 
+job_id: 23643_225732577
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Media Planning Executive/ Digital Media Planner
+employer: GCS
+region: 
+town: London
+salary: 
+job_id: 23643_225727829
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: M&E Document Controller
+employer: Emeya Recruitment Limited
+region: 
+town: London
+salary: 
+job_id: 23643_225724708
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Legal Assistant
+employer: Contechs Consulting
+region: 
+town: Essex
+salary: 
+job_id: 23643_225648534
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Learning Coordinator
+employer: Morson Edge
+region: 
+town: Suffolk
+salary: 
+job_id: 23643_225671618
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Italian speaking Credit Controller
+employer: Language Business
+region: 
+town: Cambridgeshire
+salary: 
+job_id: 23643_225694043
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Interim Recruitment Coordinator
+employer: Michael Page
+region: 
+town: London
+salary: 
+job_id: 23643_225656737
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Interim Grant Finance Assistant
+employer: Michael Page
+region: 
+town: London
+salary: 
+job_id: 23643_225740599
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Interim FM Contracts Administrator
+employer: Adecco
+region: 
+town: Lincolnshire
+salary: 
+job_id: 23643_225710714
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Interim Credit Controller
+employer: Michael Page
+region: 
+town: Cheshire
+salary: 
+job_id: 23643_225715477
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Import/Export Coordinator
+employer: Hunters Recruitment and Training Ltd
+region: 
+town: Sussex
+salary: 
+job_id: 23643_225713918
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: IT Support - SAP Systems Coordinator
+employer: Hawk 3 Talent Solutions
+region: 
+town: Staffordshire
+salary: 
+job_id: 23643_225734912
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Housing Customer Service Advisor
+employer: BDS (Northern) Limited
+region: 
+town: Manchester
+salary: 
+job_id: 23643_225699175
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Higher Education Administrator
+employer: Adecco
+region: 
+town: London
+salary: 
+job_id: 23643_225662395
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: HR Administrator
+employer: Portfolio HR & Reward
+region: 
+town: London
+salary: 
+job_id: 23643_225728290
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: FieldView Administrator
+employer: Skilled Careers
+region: 
+town: London
+salary: 
+job_id: 23643_225693989
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Export Administrator
+employer: Gi Group
+region: 
+town: Manchester
+salary: 
+job_id: 23643_225714436
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Executive Assistant
+employer: Fawkes & Reece London
+region: 
+town: Buckinghamshire
+salary: 
+job_id: 23643_225721230
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Executive Assistant
+employer: Contechs Consulting
+region: 
+town: Essex
+salary: 
+job_id: 23643_225708222
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Executive Assistant
+employer: Formed-UK
+region: 
+town: Lincolnshire
+salary: 
+job_id: 23643_225676709
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Executive Assistant
+employer: Lucy Walker Recruitment
+region: 
+town: Leeds
+salary: 
+job_id: 23643_225651929
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: EA/Project Co-ordinator
+employer: Katie Bard
+region: 
+town: West Midlands
+salary: 
+job_id: 23643_225694512
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Domestic Abuse Coordinator
+employer: 4Recruitment Services
+region: 
+town: Berkshire
+salary: 
+job_id: 23643_225720996
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Document controller
+employer: Salter Grange Limited
+region: 
+town: London
+salary: 
+job_id: 23643_225736121
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Document Controller
+employer: Skilled Careers
+region: 
+town: London
+salary: 
+job_id: 23643_225733805
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Document Controller
+employer: Velocity Recruitment
+region: 
+town: Cambridgeshire
+salary: 
+job_id: 23643_225732683
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Document Controller
+employer: 365 Recruit
+region: 
+town: Buckinghamshire
+salary: 
+job_id: 23643_225732299
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Document Controller
+employer: PACE Recruitment
+region: 
+town: Middlesex
+salary: 
+job_id: 23643_225722344
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Document Controller
+employer: RG Setsquare
+region: 
+town: Buckinghamshire
+salary: 
+job_id: 23643_225690521
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Document Controller
+employer: MK Search
+region: 
+town: London
+salary: 
+job_id: 23643_225664544
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Document Controller
+employer: JAM Recruitment Ltd
+region: 
+town: Nottinghamshire
+salary: 
+job_id: 23643_225661218
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Document Controller
+employer: Vertical Recruitment Limited
+region: 
+town: Manchester
+salary: 
+job_id: 23643_225658198
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Document Controller
+employer: Knightwood Associates
+region: 
+town: London
+salary: 
+job_id: 23643_225655071
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Document Controller
+employer: Fawkes & Reece London
+region: 
+town: Bedfordshire
+salary: 
+job_id: 23643_225638782
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Disrepair Administrator
+employer: Vivid Resourcing Ltd
+region: 
+town: Staffordshire
+salary: 
+job_id: 23643_225642510
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Database Administrator
+employer: Hexwired Recruitment Limited
+region: 
+town: Northamptonshire
+salary: 
+job_id: 23643_225626334
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Customs Administrator
+employer: Entech Technical Solutions Limited
+region: 
+town: Staffordshire
+salary: 
+job_id: 23643_225668793
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Customer Care Coordinator
+employer: Encon Staffing Associates Ltd
+region: 
+town: Cambridgeshire
+salary: 
+job_id: 23643_225673234
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Car Dealership Service Advisor
+employer: ACS Automotive Recruitment
+region: 
+town: Hampshire
+salary: 
+job_id: 23643_225635290
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Capability and SQEP Co-Ordinator
+employer: Matchtech
+region: 
+town: Hampshire
+salary: 
+job_id: 23643_225667556
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Business Support Officer
+employer: Adecco
+region: 
+town: Northumberland
+salary: 
+job_id: 23643_225734587
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Broker Administrator
+employer: Medacs Healthcare
+region: 
+town: Warrington
+salary: 
+job_id: 23643_225694065
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Bookkeeper (AAT Qualified or Equivalent)
+employer: Ernest Gordon Recruitment Limited
+region: 
+town: Oxfordshire
+salary: 
+job_id: 23643_225676690
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Automotive Service Advisor
+employer: Holt Recruitment Ltd
+region: 
+town: Berkshire
+salary: 
+job_id: 23643_225732771
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Automotive Service Advisor
+employer: AKA The Recruitment Specialists
+region: 
+town: Yorkshire
+salary: 
+job_id: 23643_225719520
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Automotive Service Advisor
+employer: Monday Matters Recruitment Ltd
+region: 
+town: Kent
+salary: 
+job_id: 23643_225691982
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Assistant Planner / Planner
+employer: Mattinson Partnership
+region: 
+town: London
+salary: 
+job_id: 23643_225700271
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Assistant Management Accountant
+employer: Eaton Syalon Ltd
+region: 
+town: Derbyshire
+salary: 
+job_id: 23643_225677027
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Assistant Company Secretary
+employer: Gleeson Recruitment Group
+region: 
+town: Warwickshire
+salary: 
+job_id: 23643_225715122
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Administrator Team Leader
+employer: Turning Point
+region: 
+town: Herefordshire
+salary: 
+job_id: 108126205
+---
+
+---
+action:
+category: service_admin
+excluded_on: 2026-10-20
+title: Accounts Assistant (German Speaking)
+employer: Michael Page
+region: 
+town: Kent
+salary: 
+job_id: 23643_225713494
+---
 
 ---
 action:
@@ -5087,6 +6119,162 @@ job_id: 23643_225460911
 ---
 
 ## SUPPORT WORKER — EXCLUDED
+
+---
+action:
+category: support_worker
+excluded_on: 2026-10-20
+title: Recovery Worker
+employer: Red Sector Recruitment Limited
+region: 
+town: Sheffield
+salary: 
+job_id: 23643_225734874
+---
+
+---
+action:
+category: support_worker
+excluded_on: 2026-10-20
+title: Recovery Worker
+employer: Red Sector Recruitment Limited
+region: 
+town: Yorkshire
+salary: 
+job_id: 23643_225734860
+---
+
+---
+action:
+category: support_worker
+excluded_on: 2026-10-20
+title: Recovery Worker
+employer: Red Sector Recruitment Limited
+region: 
+town: Yorkshire
+salary: 
+job_id: 23643_225734849
+---
+
+---
+action:
+category: support_worker
+excluded_on: 2026-10-20
+title: Recovery Worker
+employer: Red Sector Recruitment Limited
+region: 
+town: Swindon
+salary: 
+job_id: 23643_225720631
+---
+
+---
+action:
+category: support_worker
+excluded_on: 2026-10-20
+title: Recovery Worker
+employer: Red Sector Recruitment Limited
+region: 
+town: Nottinghamshire
+salary: 
+job_id: 23643_225720618
+---
+
+---
+action:
+category: support_worker
+excluded_on: 2026-10-20
+title: Recovery Worker
+employer: Red Sector Recruitment Limited
+region: 
+town: Sussex
+salary: 
+job_id: 23643_225639600
+---
+
+---
+action:
+category: support_worker
+excluded_on: 2026-10-20
+title: Italian speaking Personal Assistant to CEO
+employer: Language Business
+region: 
+town: London
+salary: 
+job_id: 23643_225640721
+---
+
+---
+action:
+category: support_worker
+excluded_on: 2026-10-20
+title: Housing Support Worker
+employer: 4Recruitment Services
+region: 
+town: Yorkshire
+salary: 
+job_id: 23643_225733726
+---
+
+---
+action:
+category: support_worker
+excluded_on: 2026-10-20
+title: Housing Support Worker
+employer: BDS (Northern) Limited
+region: 
+town: County Durham
+salary: 
+job_id: 23643_225675058
+---
+
+---
+action:
+category: support_worker
+excluded_on: 2026-10-20
+title: Housing Support Worker
+employer: BDS (Northern) Limited
+region: 
+town: Yorkshire
+salary: 
+job_id: 23643_225630640
+---
+
+---
+action:
+category: support_worker
+excluded_on: 2026-10-20
+title: Housing Support Officer
+employer: Hatched Recruitment Group
+region: 
+town: Yorkshire
+salary: 
+job_id: 23643_225732489
+---
+
+---
+action:
+category: support_worker
+excluded_on: 2026-10-20
+title: Housing Support Officer
+employer: Hamilton Woods
+region: 
+town: London
+salary: 
+job_id: 23643_225686534
+---
+
+---
+action:
+category: support_worker
+excluded_on: 2026-10-20
+title: Complex care worker
+employer: Care4ocus
+region: 
+town: London
+salary: 
+job_id: 23643_225735003
+---
 
 ---
 action:
