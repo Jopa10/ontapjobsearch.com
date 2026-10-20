@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-10-19
-review_fingerprint: 64b4dc0a7b28a31409c1f23c244909b89c47e2b5aa3c26cc94b67a88d29deaee
+review_date: 2026-10-20
+review_fingerprint: 4b459e6e27af022761056538f8249c00d90a1e119691994621024e1af3154c75
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,9 +10,9 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-10-19T14:49:02+01:00
+Run generated: 2026-10-20T12:57:59+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 425
+JobG8 comparison rows: 417
 Approved NEJobs comparison rows: 0
 
 ## Funnel
@@ -22,14 +22,14 @@ Approved NEJobs comparison rows: 0
 - Detail failures/listing fallbacks: 0
 - Obvious hard passes not detail-fetched: 10
 - Tees Valley explicitly excluded: 0
-- Outside or unmapped geography excluded: 2
+- Outside or unmapped geography excluded: 1
 - Generic/derived geography rows requiring review: 3
-- Retained target candidates: 13
+- Retained target candidates: 14
 
 ## Outcomes
 - HC: 1
 - POSS: 6
-- HARD_PASS: 6
+- HARD_PASS: 7
 - Final selected after remembered/manual actions: 1
 - Final POSS awaiting decision: 5
 - Manually excluded: 1
@@ -137,6 +137,7 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173537
 
 ## HARD_PASS
 
+- [Advice Services Manager (Community)](https://www.vonne.org.uk/vonne-jobs-details?cid=173555) — out-of-scope VONNE occupation.
 - [Bid Writer (Trusts and Foundations)](https://www.vonne.org.uk/vonne-jobs-details?cid=173383) — insufficient service-admin evidence.
 - [Chief Executive](https://www.vonne.org.uk/vonne-jobs-details?cid=173526) — out-of-scope VONNE occupation.
 - [Community Link Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173544) — out-of-scope VONNE occupation.
