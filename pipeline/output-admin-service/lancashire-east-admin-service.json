@@ -25,6 +25,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "107954411",
+    "title": "HR Administrator",
+    "company": "Potential Recruitment - Agency - Permanent",
+    "location": "Blackburn",
+    "region": "Lancashire - East",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "27000",
+    "salary_max": "27000",
+    "salary_text": "£27000 per year",
+    "posted_date": "",
+    "description": "Are you an HR Administrator - ideally CIPD Level 3 - who wants to be part of a large successful company where you will be able to develop and grow yourself and your career?Then this is the role for you.\n\nYou will have a positive and proactive approach and ideally worked in the manufacturing sector but any good commercial HR background will stand you in good stead here click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?gZ0pd2TJz0LJ3ECX7E5RFPWB33bJsNjps",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Potential Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225730840",
     "title": "Assistant Management Accountant",
     "company": "Hays Accounts and Finance - Agency - Temporary",
@@ -46,31 +71,6 @@
     "advertiser_name": "Hays Accounts and Finance",
     "advertiser_type": "Agency",
     "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "1990879",
-    "title": "Part-Time Finance Assistant",
-    "company": "Recruitment Solutions (North West) Ltd - Agency - Permanent",
-    "location": "Burnley",
-    "region": "Lancashire - East",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£12.71 per hour",
-    "posted_date": "",
-    "description": "Job Description\n\nThere is a new opportunity to join a growing and supportive finance team as a Finance Assistant on a long term temporary/part-time basis. This is a varied role ideal for someone with previous finance or accounts experience who is looking to develop their skills within a busy and professional environment.\n\nWhat You'll Be Doing:\n- Processing purchase and sales invoices accurately and efficiently.\n- Assisting with purchase and sales ledger activities.\n- Completing regular bank reconciliations.\n- Processing payments and updating financial records.\n- Supporting with month-end processes and general finance administration.\n- Maintaining accurate financial records and ensuring information is entered in a timely manner.\n- Using Sage to process invoices, transactions and financial information.\n- Using Excel to analyse, organise and maintain financial data.\n- Providing general support to the wider finance team.\n\nWhat We're Looking For:\n- Experience using Sage is essential.\n- Good knowledge of Excel is essential.\n- Previous experience in a Finance Assistant, Accounts Assistant or similar finance role.\n- Strong attention to detail and a high level of accuracy.\n- Good communication and organisational skills.\n\nBenefits:\n- Part-time Monday-Thursday\n- £12.71 p/h plus Holiday Pay\n- Free onsite parking\n- Immediate Start\n\nDisclaimer\n\nDue to the large number of applications we receive, we may not be able to respond to every applicant. If you have not heard from us within two weeks, please consider your application for the currently advertised position unsuccessful. However, we may contact you regarding other suitable roles. We want to emphasize that no wording in this advertisement is intended to discriminate based on gender, marital status, race, religion, ethnicity, age, disability, or sexual orientation. All candidates will be evaluated solely on their merits, qualifications, and ability to fulfil the responsibilities of the role. Recruitment Solutions (NW) LTD operates as an employment agency for both permanent recruitment and temporary placements.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N6ue%2btLqiETHsHgwn%2bxxxjbq",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Recruitment Solutions (North West) Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Part Time",
     "salary_period": "Hourly",
     "posted_date_basis": ""
   },
@@ -315,7 +315,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4561-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4561-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5569798",
@@ -333,7 +337,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0046-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0046-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5640157",
@@ -351,6 +359,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2060-26-0013",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2060-26-0013",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

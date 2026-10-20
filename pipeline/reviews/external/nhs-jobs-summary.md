@@ -2,15 +2,51 @@
 
 review_date: 2026-10-20
 
-- Open Administrative & Clerical rows reviewed: 2288
-- Auto/remembered selected: 412
+- Open Administrative & Clerical rows reviewed: 2286
+- Auto/remembered selected: 411
 - Selected HC Tier A: 217
-- Selected HC Tier B: 195
-- POSS awaiting decision: 1765
+- Selected HC Tier B: 194
+- POSS awaiting decision: 1764
 - Excluded: 0
 - HARD_PASS: 111
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | — | Home, TN25 4AZ | £39959.00 to £48117.00 | Clinical Research Practitioner
+source_job_id: 5677304
+title: Clinical Research Practitioner
+employer: Kent Community Health NHS Foundation Trust
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9846-26-0636
+factual_fingerprint: f3673353f83a955ccaac3b8a481115f64516a60e00d508ca44968697bbdf891b
+---
+
+---
+action:
+POSS | NHS Jobs | Norfolk | Norwich, NR12 8DU | £12.71 | Practice Administrator/Care Co-ordinator
+source_job_id: 5671236
+title: Practice Administrator/Care Co-ordinator
+employer: Primary Care Careers
+region: Norfolk
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0991
+factual_fingerprint: 5f5aa98bfeb0adb267643c38533687e8121dcf30da7c98850341fbee7e7da57e
+---
+
+---
+action:
+POSS | NHS Jobs | Sussex | Worthing, BN11 1HS | £112782.00 to £129783.00 | Director of Patient Safety and Quality Governance
+source_job_id: 5677461
+title: Director of Patient Safety and Quality Governance
+employer: Sussex Partnership NHS Foundation Trust
+region: Sussex
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9354-26-1247
+factual_fingerprint: dcc815928de461ef3d7e44b2d1999befab4f0802f55c3f1f4df3882c0b681cbd
+---
 
 ---
 action:
@@ -2638,18 +2674,6 @@ region: Hampshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C8192-26-0557
 factual_fingerprint: 678a7db575b4c37232aa18ddfa190ffb83c74de91040b68e403da56aafb28340
----
-
----
-action:
-POSS | NHS Jobs | London | London, N1 5RA | £38488.00 to £46852.00 | Patient Administration Team Leader
-source_job_id: 5673746
-title: Patient Administration Team Leader
-employer: Homerton Healthcare NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9293-26-0537
-factual_fingerprint: 4528a1869fbbde78a578047f5f7459e5c80a5e497c664a894e198fe6eb121973
 ---
 
 ---
@@ -7282,30 +7306,6 @@ region: West Midlands - Coventry & Warwickshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9218-26-1280
 factual_fingerprint: 33f88bb08cae803f20342306ae0b2f74fcc30b3c8ab4221d25b57058f783da0e
----
-
----
-action:
-POSS | NHS Jobs | West Midlands - Coventry & Warwickshire | Coventry, CV2 2DX | £25760.00 to £27476.00 | Data Quality Administrator
-source_job_id: 5666379
-title: Data Quality Administrator
-employer: University Hospitals Coventry and Warwickshire NHS Trust
-region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9218-26-1279
-factual_fingerprint: 534cfe68b874c308ce1ba86a56cc3530159b9330b94bcc3c91cbb846a4c0aa00
----
-
----
-action:
-POSS | NHS Jobs | West Midlands - Coventry & Warwickshire | Coventry, CV2 2DX | £28392.00 to £31157.00 | Senior Admin Officer, CT MRI
-source_job_id: 5665497
-title: Senior Admin Officer, CT MRI
-employer: University Hospitals Coventry and Warwickshire NHS Trust
-region: West Midlands - Coventry & Warwickshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9218-26-1275
-factual_fingerprint: 09faafa9d012d67aaece1f781a11c1e3a043404b07b7e025a33fb266fd7a59d4
 ---
 
 ---
@@ -15826,18 +15826,6 @@ region: Leicestershire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9358-26-0675
 factual_fingerprint: 78392f97276b7458c414c5ed28c062ad3cb3dca8e7885aab3bd47634d0097a51
----
-
----
-action:
-POSS | NHS Jobs | Nottinghamshire | Nottingham, NG5 1PB | £25272.00 | Catering Clerk
-source_job_id: 5650393
-title: Catering Clerk
-employer: Nottingham University Hospitals NHS Trusts
-region: Nottinghamshire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9164-26-0963
-factual_fingerprint: 9b9410859bdcf9e79a2e4a2fe0d7d082d6d808cf81b00c1bce60df9ffc1907be
 ---
 
 ---

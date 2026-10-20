@@ -209,6 +209,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225743115",
+    "title": "Customer Service Advisor",
+    "company": "Gap Personnel - Agency - Contract",
+    "location": "Swindon",
+    "region": "Wiltshire",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Contract",
+    "salary_min": "13",
+    "salary_max": "13",
+    "salary_text": "£13 per hour",
+    "posted_date": "",
+    "description": "Job Title: Customer Service Advisor\n\nLocation: Swindon, SN25\n\nPay Rate: £13.00\n\nShifts: Monday to Friday , 9am 5pm\n\nContract: Temp to Perm\n\nGap personnel are currently recruiting for the role of Customer Service Advisor, SN25. The global garden furniture manufacturer is just coming into peak, and us working in partnership are recruiting for additional 2 Customer Service Advisors. Ideal candidate must have good English written and spoken, and warehouse experience would be an advantage. Must be also PC literate as lots of packing / goods in activities are involved in working on PC.\n\nFor those who demonstrate good attendance, performance and great work approach, there will be on going position available after probation period.\n\nJob Duties:\n\nDelivering a Customer-First Experience\n- Put the customer at the centre of every decision and interaction.\n- Deliver a friendly, professional and empathetic service across all communication channels.\n- Take ownership of customer enquiries from first contact through to resolution.\n- Build trust and confidence by providing accurate information and regular updates.\n- Create positive customer experiences that encourage loyalty and repeat business.\n\nCustomer Support\n- Respond to customer enquiries via email, telephone and other communication channels.\n- Resolve customer queries efficiently whilst maintaining a high level of accuracy and attention to detail.\n- Manage customer expectations through proactive communication.\n- Escalate complex issues where appropriate whilst maintaining ownership until resolution.\n\nOrder & Delivery Support\n- Assist customers with order enquiries, delivery updates and returns.\n- Liaise with Warehouse, Purchasing and courier partners to resolve customer issues.\n- Investigate lost, delayed or damaged deliveries.\n- Process refunds, replacements and credits in line with company procedures.\n\nProduct & Quality Support\n- Handle damaged, faulty and quality-related enquiries professionally.\n- Gather accurate information to support supplier claims where applicable.\n- Identify recurring product or service issues and escalate trends to the Customer Service Manager.\n- Ensure customer resolutions are fair, consistent and aligned with company policies.\n\nContinuous Improvement\n- Identify recurring customer issues and suggest improvements to processes and procedures.\n- Help reduce unnecessary customer contacts by highlighting opportunities to improve the customer journey.\n- Contribute to FAQs, knowledge articles and standard responses.\n- Work collaboratively with other departments to improve service across the business.\n\nSkills & Experience\n\nEssential\n- Previous customer service experience.\n- Excellent written and verbal communication skills.\n- Strong problem-solving and decision-making abilities.\n- Ability to manage multiple priorities in a fast-paced environment.\n- Excellent attention to detail.\n- Confident using Microsoft Office and computer systems.\n- A positive attitude and willingness to learn.\n\nWorking hours :\n- Monday to Friday 9am 5pm\n\nIf the job sounds like for you, please contact Aga immediately on (phone number removed). Alternatively, please call the office on (phone number removed) and ask for Aga.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Zg1fD7qgbpxoK2WskBYtvv2n3FLqIC0Ie",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Gap Personnel",
+    "advertiser_type": "Agency",
+    "work_pattern": "Not Specified",
+    "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225736419",
     "title": "IT & MI Coordinator",
     "company": "Siamo Recruitment a division of Siamo Group - Agency - Permanent",
@@ -809,31 +834,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "108189021",
-    "title": "Technical Support Coordinator",
-    "company": "Corston Architectural Detail - Agency - Permanent",
-    "location": "Wiltshire",
-    "region": "Wiltshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Description Corston was founded by a team of designers and engineers with a shared vision: to create beautifully designed switches, sockets, lighting and hardware that bring harmony and coordination throughout a space.\nAs our product range continues to grow, we're looking for a Product Support Coordinator to join our Product team click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?UzhMt9n%2bTsSzaeORfbhzGMdhk2Y7bYVTm",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Corston Architectural Detail",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "108182792",
     "title": "Assurance Coordinator Porton Down",
     "company": "Mainstay Facilities - Agency - Permanent",
@@ -874,7 +874,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3623-26-0022",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3623-26-0022",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5614143",
@@ -892,6 +896,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3442-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3442-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

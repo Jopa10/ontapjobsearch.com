@@ -706,31 +706,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225629711",
-    "title": "Customer Service Administrator",
-    "company": "Adecco - Agency - Permanent",
-    "location": "Worcestershire",
-    "region": "Worcestershire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "27000",
-    "salary_max": "27000",
-    "salary_text": "£27000 per year",
-    "posted_date": "",
-    "description": "Are you a highly organised customer service professional who thrives in a fast-paced environment? We are looking for a Customer Service Co-ordinator to join a busy operations team, supporting customers, processing orders and ensuring excellent service delivery from start to finish.\n\nKey Responsibilities\n- Receiving and processing customer orders\n- Managing order completion and invoice raising\n- Liaising with customers and logistics partners daily\n- Providing outstanding customer service\n- Monitoring stock levels and maintaining accuracy\n- Completing stock reconciliations and resolving discrepancies\n- Supporting other departments with stock and contract queries\n- Troubleshooting order and delivery issues\n- Providing holiday and sickness cover within the team\n\nPlease contact Gemma at Adecco today to find out more!\n\nAdecco acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. The Adecco Group UK & Ireland is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Adecco. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?ju9emE%2fz0VI2Jte1cnOFNNoz5uA7v%2fdHw",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Adecco",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225741799",
     "title": "Operations Coordinator",
     "company": "Workforce Staffing Ltd - Agency - Permanent",
@@ -831,31 +806,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225630625",
-    "title": "Imports Coordinator",
-    "company": "Adecco - Agency - Permanent",
-    "location": "Worcestershire",
-    "region": "Worcestershire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "27000",
-    "salary_max": "27000",
-    "salary_text": "£27000 per year",
-    "posted_date": "",
-    "description": "Are you highly organised, detail-oriented, and looking to build a long-term career within a busy supply chain and logistics environment?\n\nThe Role\n- Play a key role in supporting the import process for products entering the UK and EU.\n- Work closely with suppliers, freight forwarders and storage facilities.\n- Ensure shipments are processed accurately and delivered on time.\n\nKey Responsibilities\n- Updating and maintaining purchase and sales order information\n- Managing order statuses and tracking shipment dates\n- Checking import documentation and ensuring compliance requirements are met\n- Processing customs, duty and clearance documentation\n- Coordinating deliveries and issuing instructions to storage facilities\n- Monitoring stock receipts and resolving discrepancies\n- Liaising with suppliers, forwarding agents and logistics partners\n- Completing stock reconciliations and maintaining accurate records\n\nAbout You\n- Excellent organisational and administrative skills\n- Ability to work accurately in a fast-paced environment\n- Strong communication and prioritisation skills\n- Confident using computer systems and Microsoft Office\n- Proactive approach and ability to see tasks through to completion\n\nWhat's on Offer?\n- 27,000 salary\n- Monday to Friday working pattern\n- Permanent opportunity\n- Supportive team environment\n- Career development opportunities\n\nPlease contact Gemma at Adecco today!\n\nAdecco acts as an employment agency for permanent recruitment and an employment business for the supply of temporary workers. The Adecco Group UK & Ireland is an Equal Opportunities Employer.\n\nBy applying for this role your details will be submitted to Adecco. Our Candidate Privacy Information Statement explaining how we will use your information is available on our website.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?6WDmO0cNttpZopDh6lbzUiOcONz83%2fsVa",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Adecco",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "nhs-5666365",
     "source": "NHS Jobs",
     "title": "Administrator",
@@ -871,7 +821,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9798-26-0113",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9798-26-0113",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5660031",
@@ -889,7 +843,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9798-26-0107",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9798-26-0107",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5656799",
@@ -907,7 +865,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9798-26-0105",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9798-26-0105",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5650754",
@@ -925,7 +887,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9798-26-0096",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9798-26-0096",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5648429",
@@ -943,7 +909,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1345-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1345-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5633214",
@@ -961,7 +931,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0771-26-0007",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0771-26-0007",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5618246",
@@ -979,7 +953,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5395-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5395-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5659638",
@@ -997,6 +975,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2306-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2306-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
