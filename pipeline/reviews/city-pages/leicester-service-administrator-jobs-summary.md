@@ -4,7 +4,7 @@
 - Live route: `/leicester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 18
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
+- automatic include: 17
 - automatic review: 52
 - automatic exclude: 0
-- effective include: 18
+- effective include: 17
 - effective review: 52
 - effective exclude: 0
 
-## INCLUDE (18)
+## INCLUDE (17)
 
 ---
 action: 
@@ -189,18 +189,6 @@ company: InMind
 location: Leicester, LE2 9FS
 source: NHS Jobs
 job_id: nhs-5642838
-reason: Exact approved Leicester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: Sytner - Company - Permanent
-location: Leicester
-source: JobG8
-job_id: jobg8-23643_225703381
 reason: Exact approved Leicester workplace.
 ---
 
@@ -414,18 +402,6 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: Vantage Recruitment - Agency - Contract
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225629614
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Administrator (Excel Advanced)
 company: Interaction Recruitment - Agency - Permanent
 location: Leicestershire
@@ -563,6 +539,18 @@ company: Trinity House Group Ltd - Agency - Temporary
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225671422
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Administrator
+company: Aspire People - Agency - Temporary
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225630441
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

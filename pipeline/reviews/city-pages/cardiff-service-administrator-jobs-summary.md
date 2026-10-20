@@ -4,7 +4,7 @@
 - Live route: `/cardiff/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 26
+- Effective included jobs: 23
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 26
+- automatic include: 23
 - automatic review: 2
 - automatic exclude: 0
-- effective include: 26
+- effective include: 23
 - effective review: 2
 - effective exclude: 0
 
-## INCLUDE (26)
+## INCLUDE (23)
 
 ---
 action: 
@@ -57,6 +57,18 @@ company: Search Consultancy Ltd - Agency - Temporary
 location: Cardiff
 source: JobG8
 job_id: jobg8-23643_225731668
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Admin Assistant
+company: Pertemps SSDC DDT - Agency - Temporary
+location: Cardiff
+source: JobG8
+job_id: jobg8-23643_225739260
 reason: Approved conservative Cardiff launch catchment.
 ---
 
@@ -100,71 +112,11 @@ reason: Approved conservative Cardiff launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Call Centre Agent
-company: EE - Company - Permanent
-location: Cardiff
-source: JobG8
-job_id: jobg8-20279_62802-d7c6b8836d8aad88b024254f869d65a8
-reason: Approved conservative Cardiff launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Call Centre Operator
-company: EE - Company - Permanent
-location: Cardiff
-source: JobG8
-job_id: jobg8-20279_62802-85269a08ed0b6ec178c60afb43d9fa54
-reason: Approved conservative Cardiff launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Contact Centre Agent
-company: EE - Company - Permanent
-location: Cardiff
-source: JobG8
-job_id: jobg8-20279_62802-15fe4c84181266b2a56e090b8736c75e
-reason: Approved conservative Cardiff launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Credit Controller
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Cardiff
 source: JobG8
 job_id: jobg8-2078303
-reason: Approved conservative Cardiff launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Cardiff
-source: JobG8
-job_id: jobg8-20279_62802-f8145293a99ee8a5fe099e7dc9419d9b
-reason: Approved conservative Cardiff launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: Pontoon - Agency - Temporary
-location: Cardiff
-source: JobG8
-job_id: jobg8-23643_225630492
 reason: Approved conservative Cardiff launch catchment.
 ---
 
@@ -189,6 +141,18 @@ company: Amey Ltd - Company - Permanent
 location: Cardiff
 source: JobG8
 job_id: jobg8-23643_225728348
+reason: Approved conservative Cardiff launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Executive Assistant
+company: Office Angels - Agency - Contract
+location: Cardiff
+source: JobG8
+job_id: jobg8-23643_225742442
 reason: Approved conservative Cardiff launch catchment.
 ---
 

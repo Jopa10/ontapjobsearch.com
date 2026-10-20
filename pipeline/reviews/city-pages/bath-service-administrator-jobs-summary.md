@@ -4,7 +4,7 @@
 - Live route: `/bath/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 56
+- automatic include: 8
+- automatic review: 57
 - automatic exclude: 0
-- effective include: 9
-- effective review: 56
+- effective include: 8
+- effective review: 57
 - effective exclude: 0
 
-## INCLUDE (9)
+## INCLUDE (8)
 
 ---
 action: 
@@ -112,18 +112,6 @@ reason: Exact approved Bath workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Project Coordinator - Full time
-company: CMD Recruitment - Agency - Permanent
-location: Bath
-source: JobG8
-job_id: jobg8-23643_225696548
-reason: Exact approved Bath workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Workforce Development Administrator
 company: Adecco - Agency - Permanent
 location: Bath
@@ -132,7 +120,7 @@ job_id: jobg8-23643_225653411
 reason: Exact approved Bath workplace.
 ---
 
-## REVIEW (56)
+## REVIEW (57)
 
 ---
 action: 
@@ -179,18 +167,6 @@ company: East Trees Health Centre
 location: Bristol, BS5 6SA
 source: NHS Jobs
 job_id: nhs-5648878
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administration Coordinator
-company: Willmott Dixon Group - Company - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225714308
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -510,11 +486,35 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
+title: Interim Accounts Assistant
+company: Hays Accounts and Finance - Agency - Temporary
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225740039
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Interim Accounts Payable
 company: Hays Accounts and Finance - Agency - Temporary
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225732724
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Interim Accounts Payable Assistant
+company: Hays Accounts and Finance - Agency - Temporary
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225740068
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 

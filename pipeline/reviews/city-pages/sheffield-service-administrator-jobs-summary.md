@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 27
 - automatic review: 6
-- automatic exclude: 28
+- automatic exclude: 29
 - effective include: 27
 - effective review: 6
-- effective exclude: 28
+- effective exclude: 29
 
 ## INCLUDE (27)
 
@@ -148,6 +148,18 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Clerical Officer
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S5 7AU
+source: NHS Jobs
+job_id: nhs-5673070
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Clerical Officer/Receptionist
 company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S10 2JF
@@ -208,18 +220,6 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Hr Coordinator
-company: Connected Search Group - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225707290
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Insolvency Case Administrator
 company: GGT Insolvency Recruitment - Agency - Permanent
 location: Sheffield
@@ -268,6 +268,18 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Operations Administrator
+company: Sue Ross Recruitment Ltd - Agency - Temporary
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225739418
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Personal Assistant
 company: Bradfield Secondary School
 location: Sheffield
@@ -309,18 +321,6 @@ company: Belmont Recruitment - Agency - Contract
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225727950
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist
-company: Red Sector Recruitment Limited - Agency - Temporary
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225726240
 reason: Approved Sheffield catchment.
 ---
 
@@ -422,7 +422,7 @@ job_id: jobg8-23643_225681456
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (28)
+## EXCLUDE (29)
 
 ---
 action: 
@@ -745,6 +745,18 @@ company: Nexus People - Agency - Temporary
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225639569
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Service and Validation Administrator
+company: Unicorn Resourcing - Agency - Permanent
+location: Rotherham
+source: JobG8
+job_id: jobg8-23643_225739769
 reason: Separate employment market.
 ---
 

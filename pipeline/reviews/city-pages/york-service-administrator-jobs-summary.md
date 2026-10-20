@@ -318,18 +318,6 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Capital Outsourcing Group Ltd - Agency - Permanent
-location: Ripon
-source: JobG8
-job_id: jobg8-23643_225655354
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Residential Property Legal Secretary
 company: Search Consultancy Ltd - Agency - Permanent
 location: Malton
@@ -359,6 +347,18 @@ company: Auto Skills UK - Agency - Permanent
 location: Richmond
 source: JobG8
 job_id: jobg8-23643_225729465
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Coordinator
+company: Interaction - Leeds - Agency - Permanent
+location: Malton
+source: JobG8
+job_id: jobg8-108059238
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -548,6 +548,18 @@ reason: Broad regional label; not York-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Customer Service Advisor
+company: Yorkshire Building Society (YBS) - Agency - Permanent
+location: Ripon
+source: JobG8
+job_id: jobg8-108187895
+reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Legal Assistant
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Northallerton
@@ -649,18 +661,6 @@ company: Travail Employment Group - Agency - Temporary
 location: Harrogate
 source: JobG8
 job_id: jobg8-23643_225698949
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Purchasing Assistant 9-12 Month Contract
-company: SI Recruitment - Agency - Permanent
-location: Northallerton
-source: JobG8
-job_id: jobg8-108167097
 reason: Separate employment market.
 ---
 

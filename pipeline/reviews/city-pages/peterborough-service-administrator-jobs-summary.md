@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 13
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
-- automatic review: 8
+- automatic include: 15
+- automatic review: 7
 - automatic exclude: 26
-- effective include: 13
-- effective review: 8
+- effective include: 15
+- effective review: 7
 - effective exclude: 26
 
-## INCLUDE (13)
+## INCLUDE (15)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Barker Ross - Agency - Temporary
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_225719523
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Cambridgeshire and Peterborough NHS Foundation Trust
-location: Peterborough, PE78FZ
-source: NHS Jobs
-job_id: nhs-5647546
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -100,6 +88,30 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Customer Order Management Administrator
+company: Morgan Jones Recruitment Consultants - Agency - Contract
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225733606
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Services Administrator - Part Time
+company: Barker Ross - Agency - Temporary
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225739330
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Enterprise Sales Administrator
 company: CRG TEC - Agency - Permanent
 location: Peterborough
@@ -129,6 +141,18 @@ company: Commercial Recruitment - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_225237498
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Interim Sales & Marketing Executive
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-2153112
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -172,15 +196,15 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Old Fletton Surgery
-location: Peterborough, PE2 8AY
-source: NHS Jobs
-job_id: nhs-5665914
+title: Sales Support Executive
+company: Strange and Wright Recruitment Partners LTD - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225739501
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (8)
+## REVIEW (7)
 
 ---
 action: 
@@ -191,18 +215,6 @@ company: Vista Academy Littleport
 location: Ely
 source: Teaching Vacancies
 job_id: teaching-vacancies-attendance-administrator-vista-academy-littleport
-reason: No approved Peterborough catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Attendance Administrator
-company: Witchford Village College
-location: Ely
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-administrator-witchford-village-college
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
@@ -349,18 +361,6 @@ company: Anne Corder Recruitment - Agency - Contract
 location: Huntingdon
 source: JobG8
 job_id: jobg8-23643_225637156
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Cambridgeshire and Peterborough NHS Foundation Trust
-location: Fulbourn, Cambridge,, CB21 5EE
-source: NHS Jobs
-job_id: nhs-5642204
 reason: Separate employment market.
 ---
 
@@ -589,5 +589,17 @@ company: Eclectic Recruitment - Agency - Temporary
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225721995
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Ward Clerk
+company: Cambridge University Hospital NHS Foundation Trust
+location: Cambridge, CB2 0QQ
+source: NHS Jobs
+job_id: nhs-5673923
 reason: Separate employment market.
 ---

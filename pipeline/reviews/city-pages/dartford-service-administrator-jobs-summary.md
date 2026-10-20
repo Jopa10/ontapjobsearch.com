@@ -4,7 +4,7 @@
 - Live route: `/dartford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 13
+- Effective included jobs: 14
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
-- automatic review: 76
-- automatic exclude: 36
-- effective include: 13
-- effective review: 76
-- effective exclude: 37
+- automatic include: 15
+- automatic review: 80
+- automatic exclude: 34
+- effective include: 14
+- effective review: 80
+- effective exclude: 35
 
-## INCLUDE (13)
+## INCLUDE (14)
 
 ---
 action: 
@@ -100,6 +100,18 @@ reason: Exact approved Dartford workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Customer Service Coordinator Spanish Speaking
+company: Right Match Recruitment Group Limited - Agency - Permanent
+location: Dartford
+source: JobG8
+job_id: jobg8-23643_225738258
+reason: Exact approved Dartford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: GP Receptionist
 company: Pilgrims Way Surgery
 location: Dartford, DA1 1QY
@@ -136,18 +148,6 @@ reason: Exact approved Dartford workplace.
 action: 
 decision: include
 automatic_decision: include
-title: PA to Headteacher
-company: Stone Lodge School
-location: Dartford
-source: Teaching Vacancies
-job_id: teaching-vacancies-pa-to-headteacher-stone-lodge-school-dartford-kent
-reason: Exact approved Dartford workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Part-Time Accounts Assistant Dartford Temp to Perm
 company: Office Angels - Agency - Permanent
 location: Dartford
@@ -172,6 +172,18 @@ reason: Exact approved Dartford workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Procurement Customer Service Advisor/Administrator
+company: DCV Technologies - Agency - Temporary
+location: Dartford
+source: JobG8
+job_id: jobg8-23643_225710538
+reason: Exact approved Dartford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist/Administrator
 company: Pilgrims Way Surgery
 location: Dartford, DA1 1QY
@@ -180,7 +192,7 @@ job_id: nhs-5659620
 reason: Exact approved Dartford workplace.
 ---
 
-## REVIEW (76)
+## REVIEW (80)
 
 ---
 action: 
@@ -330,6 +342,18 @@ reason: No approved Dartford employment-market rule matched the stated location;
 action: 
 decision: review
 automatic_decision: review
+title: Communications Executive
+company: Trapeze Recruitment Services Ltd - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225739982
+reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Company Commercial 3-5yrs PQE
 company: TN Recruits - Agency - Permanent
 location: Kent
@@ -384,30 +408,6 @@ location: Kent
 source: JobG8
 job_id: jobg8-2063033
 reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Account Coordinator
-company: Morgan Jones Recruitment Consultants - Agency - Contract
-location: Whitstable
-source: JobG8
-job_id: jobg8-23643_225720486
-reason: No approved Dartford employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Account Coordinator 25 days A/L+Friday finish 1:30pm
-company: Office Angels - Agency - Contract
-location: Whitstable
-source: JobG8
-job_id: jobg8-23643_225720483
-reason: No approved Dartford employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -479,6 +479,18 @@ company: Ritz Recruitment - Agency - Temporary
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225648150
+reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Digital Marketing Executive
+company: Trapeze Recruitment Services Ltd - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225738308
 reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
 ---
 
@@ -642,6 +654,30 @@ reason: The stated location is broader or less specific than the approved Dartfo
 action: 
 decision: review
 automatic_decision: review
+title: Lettings Administrator
+company: PSM recruitment Ltd - Agency - Permanent
+location: Dover
+source: JobG8
+job_id: jobg8-23643_225059545
+reason: No approved Dartford employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: MAF in the Community (MiC) Resourcing Coordinator
+company: Mission Aviation Fellowship UK - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-107958419
+reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Account Executive - Kent - To £30K
 company: Jump IT Recruitment - Agency - Permanent
 location: Kent
@@ -787,6 +823,18 @@ action:
 decision: review
 automatic_decision: review
 title: Private Client Legal Secretary
+company: Recruitment Solutions - Agency - Permanent
+location: Gravesend
+source: JobG8
+job_id: jobg8-2152928
+reason: No approved Dartford employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Private Client Legal Secretary
 company: TN Recruits - Agency - Permanent
 location: Kent
 source: JobG8
@@ -828,6 +876,18 @@ location: Margate, CT9 4BF
 source: NHS Jobs
 job_id: nhs-5668902
 reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Mocketts Wood Surgery
+location: Broadstairs, CT10 2TR
+source: NHS Jobs
+job_id: nhs-5673036
+reason: No approved Dartford employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -1050,6 +1110,18 @@ reason: The stated location is broader or less specific than the approved Dartfo
 action: 
 decision: review
 automatic_decision: review
+title: Team Coordinator - 3-6 Months
+company: Office Angels - Agency - Temporary
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225740406
+reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Temporary Bid Writer/Document Controller
 company: Office Angels - Agency - Permanent
 location: West Malling
@@ -1074,18 +1146,6 @@ reason: The stated location is broader or less specific than the approved Dartfo
 action: 
 decision: review
 automatic_decision: review
-title: Training Coordinator
-company: Rubicon Recruitment - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225718683
-reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Trusts & Foundations Coordinator
 company: Migrant Help - Agency - Permanent
 location: Kent
@@ -1094,7 +1154,7 @@ job_id: jobg8-23643_225730262
 reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
 ---
 
-## EXCLUDE (37)
+## EXCLUDE (35)
 
 ---
 action: 
@@ -1172,18 +1232,6 @@ reason: The stated workplace belongs outside the approved Dartford employment ma
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Clinical Administrator
-company: Len Valley Practice
-location: Maidstone, ME17 2QF
-source: NHS Jobs
-job_id: nhs-5606943
-reason: The stated workplace belongs outside the approved Dartford employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Customer Service Advisor - Outbound Claims Support
 company: Guidant Global - Agency - Contract
 location: Tunbridge Wells
@@ -1213,18 +1261,6 @@ company: Damicor Ltd - Agency - Permanent
 location: Maidstone
 source: JobG8
 job_id: jobg8-23643_225722406
-reason: The stated workplace belongs outside the approved Dartford employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Document Controller
-company: Hill McGlynn Recruitment Limited - Agency - Permanent
-location: Chatham
-source: JobG8
-job_id: jobg8-23643_225629719
 reason: The stated workplace belongs outside the approved Dartford employment market.
 ---
 

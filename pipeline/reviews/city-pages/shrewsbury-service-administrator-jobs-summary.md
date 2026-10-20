@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 15
+- automatic review: 17
 - automatic exclude: 0
 - effective include: 4
-- effective review: 15
+- effective review: 17
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225715945
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (15)
+## REVIEW (17)
 
 ---
 action: 
@@ -246,11 +246,35 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Sales Administrator
+company: Adecco - Agency - Contract
+location: Shropshire
+source: JobG8
+job_id: jobg8-23643_225740864
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Stores Coordinator / Front Counter Support
 company: Pertemps Telford - Agency - Temporary
 location: Telford
 source: JobG8
 job_id: jobg8-23643_225735083
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Technical Records Administrator - MFTS
+company: Red Sky Personnel Ltd - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-23643_225739181
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

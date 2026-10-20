@@ -28,31 +28,6 @@
     "posted_date_basis": "source"
   },
   {
-    "job_id": "23643_225674289",
-    "title": "Bookkeeper",
-    "company": "CMD Recruitment - Agency - Permanent",
-    "location": "Swindon",
-    "region": "Wiltshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "28000",
-    "salary_max": "31000",
-    "salary_text": "£28000 - £31000 per year",
-    "posted_date": "2026-10-17",
-    "description": "Bookkeeper\nFull Time & Permanent\nSwindon\nUp to 31,000\n\nLooking for a bookkeeping role where you're more than just a number?\n\nWe're looking for an experienced Bookkeeper to join a friendly and collaborative team in Swindon. This is a varied role where you'll work closely with a portfolio of clients, becoming a trusted part of their businesses rather than simply processing figures from behind the scenes.\n\nYou'll have the opportunity to build strong client relationships, use your bookkeeping expertise to make a genuine difference and work alongside an experienced team who are happy to support you and help you develop.\n\nWhat makes this role different?\nYou'll be trusted to:\n- Manage bookkeeping for a portfolio of clients\n- Build strong, long-term relationships with clients and become a trusted point of contact\n- Work with clients to ensure their financial information is accurate, up to date and useful\n- Review bookkeeping records and identify areas where improvements can be made\n- Assist clients with VAT and CIS requirements\n- Work closely with colleagues across the business to help clients understand and improve their financial position\n- Look beyond the process and suggest better ways of doing things\n\nWhat we're looking for\nWe're looking for someone who enjoys working with numbers but also enjoys working with people.\nYou'll ideally have:\n- Previous bookkeeping experience\n- Experience using Xero and QuickBooks is an advantage and knowledge of other accounting software is also useful\n- Experience with VAT and CIS\n- Excellent attention to detail\n- Strong communication and relationship-building skills\n- A proactive approach and a willingness to look for ways to improve processes\n- The confidence to communicate directly with clients\n\nThanks for your application! Successful candidates will be contacted within 7 working days of their applications.\nShould you not hear from us within this time, please assume that your application was unsuccessful on this occasion.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?nbYVUHO1tX7zU%2b%2bmVqs0cm9JoSfd5bnKz",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "CMD Recruitment",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "23643_225733645",
     "title": "Customer Service Advisor",
     "company": "Search Consultancy Ltd - Agency - Contract",
@@ -259,6 +234,28 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "nhs-5672714",
+    "source": "NHS Jobs",
+    "title": "Receptionist / Administrator",
+    "company": "https://www.parklanepracticeswindon.nhs.uk/",
+    "advertiser_name": "https://www.parklanepracticeswindon.nhs.uk/",
+    "location": "Swindon, SN1 5HG, Swindon, SN1 5HG, Swindon, SN5 8SX",
+    "region": "Wiltshire",
+    "salary": "Negotiable",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-19T11:02:33.734722941",
+    "closing_date": "2026-10-26",
+    "description": "To be responsible for undertaking a wide range of reception and administrative duties and the provision of general support to the multidisciplinary team. Duties can include but are not limited to, greeting and directing patients, patient registration, booking appointments, processing of information (electronic and hard copy) and assisting patients as required. To act as the central point of contact for patients, the distribution of information, messages and enquiries for the clinical team, liaising with multidisciplinary team members and external agencies such as secondary care and community service providers. Excellent communication skills (written and oral) Strong IT skills Clear, polite telephone manner Competent in the use of Office and Outlook Systmone user skills Effective time management (Planning & Organising) Ability to work as a team member and autonomously Good interpersonal skills Problem solving & analytical skills Ability to follow policy and procedure a. Maintaining and monitoring the practice appointment system b. Process personal, telephone and e-requests for appointments c. Answer incoming phone calls, transferring calls or dealing with the callers request appropriately d. Action all incoming correspondence ie post and email e. Signpost patients to the correct service f. Process incoming and outgoing mail g. Initiating contact with and responding to, requests from patients, team members and external agencies h. Process referrals to external agencies such as secondary care using the electronic referral system (ERS) as required i. Process calling letters are requested j. Process all DNA letters in accordance with current policy k. Action GP2GP tasks l. Read code data on Systm1 clinical system m. Photocopy documentation as required n. File and store records as required o. Data entry of new and temporary registrations and relevant patient information as required p. Input data into the patients healthcare records as necessary q. Scanning of patient related documentation and attaching scanned documents to patients healthcare records r. Process requests for information i.e. SAR, insurance / solicitors letters and DVLA forms to the administrative team s. Manage all queries (including administrative queries) as necessary in an efficient & professional manner t. Carry out system searches as requested u. Maintain a clean, tidy, effective working area at all times v. Monitor and maintain the reception area and notice boards Support all clinical staff with general tasks as requested",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3623-26-0022",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3623-26-0022",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5614143",
     "source": "NHS Jobs",
     "title": "GP Receptionist",
@@ -275,6 +272,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3442-26-0004",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

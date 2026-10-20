@@ -4,7 +4,7 @@
 - Live route: `/horsham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 68
-- automatic exclude: 34
-- effective include: 10
-- effective review: 68
-- effective exclude: 34
+- automatic include: 9
+- automatic review: 66
+- automatic exclude: 33
+- effective include: 9
+- effective review: 66
+- effective exclude: 33
 
-## INCLUDE (10)
+## INCLUDE (9)
 
 ---
 action: 
@@ -100,18 +100,6 @@ reason: Exact approved Horsham workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Admissions / Transition Assistant & Community Receptionist
-company: Tanbridge House School
-location: Horsham
-source: Teaching Vacancies
-job_id: teaching-vacancies-admissions-transition-assistant-community-receptionist-tanbridge-house-school
-reason: Exact approved Horsham workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Bookkeeper
 company: Bennett and Game Recruitment LTD - Agency - Permanent
 location: Horsham
@@ -144,7 +132,7 @@ job_id: jobg8-23643_225645838
 reason: Exact approved Horsham workplace.
 ---
 
-## REVIEW (68)
+## REVIEW (66)
 
 ---
 action: 
@@ -276,18 +264,6 @@ location: East Grinstead
 source: JobG8
 job_id: jobg8-23643_225676710
 reason: No approved Horsham employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper
-company: Lloyd Recruitment - East Grinstead - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225722548
-reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
 ---
@@ -726,18 +702,6 @@ reason: The stated location is broader or less specific than the approved Horsha
 action: 
 decision: review
 automatic_decision: review
-title: Office Coordinator
-company: Tate - Agency - Temporary
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225630104
-reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Part time customer service administrator
 company: Harris Lord Recruitment - Agency - Permanent
 location: Sussex
@@ -962,7 +926,7 @@ job_id: jobg8-23643_225699794
 reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
-## EXCLUDE (34)
+## EXCLUDE (33)
 
 ---
 action: 
@@ -1249,18 +1213,6 @@ company: Office Angels - Agency - Temporary
 location: Crawley
 source: JobG8
 job_id: jobg8-23643_225718910
-reason: The stated workplace belongs outside the approved Horsham employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: MSK Therapies - Booking Clerk
-company: East Sussex Healthcare NHS Trust
-location: Hastings, TN37 7RD
-source: NHS Jobs
-job_id: nhs-5660033
 reason: The stated workplace belongs outside the approved Horsham employment market.
 ---
 

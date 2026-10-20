@@ -4,7 +4,7 @@
 - Live route: `/eastleigh/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
+- automatic include: 7
 - automatic review: 101
-- automatic exclude: 52
-- effective include: 8
+- automatic exclude: 50
+- effective include: 7
 - effective review: 101
-- effective exclude: 52
+- effective exclude: 50
 
-## INCLUDE (8)
+## INCLUDE (7)
 
 ---
 action: 
@@ -69,18 +69,6 @@ company: Dynamite Recruitment - Agency - Temporary
 location: Eastleigh
 source: JobG8
 job_id: jobg8-23643_225642419
-reason: Exact approved Eastleigh workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Coordinator
-company: Dynamite Recruitment - Agency - Temporary
-location: Eastleigh
-source: JobG8
-job_id: jobg8-23643_225685753
 reason: Exact approved Eastleigh workplace.
 ---
 
@@ -306,6 +294,18 @@ reason: The stated location is broader or less specific than the approved Eastle
 action: 
 decision: review
 automatic_decision: review
+title: Aftersales Service Advisor
+company: Eclipse Car Sales - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225740489
+reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Assistant Accountant
 company: CMA Recruitment Group - Agency - Permanent
 location: Romsey
@@ -403,18 +403,6 @@ action:
 decision: review
 automatic_decision: review
 title: Contractor Support Administrator
-company: Insignis - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225724165
-reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Contractor Support Administrator
 company: STR Group Careers - Agency - Permanent
 location: Hampshire
 source: JobG8
@@ -474,23 +462,11 @@ reason: The stated location is broader or less specific than the approved Eastle
 action: 
 decision: review
 automatic_decision: review
-title: Data Entry Clerk
-company: Connect2Hampshire - Agency - Contract
+title: Document Controller
+company: Bennett and Game Recruitment LTD - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-23643_225734087
-reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Divisional HR Assistant
-company: Denholm Industrial Services Ltd - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225631589
+job_id: jobg8-23643_225650556
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
@@ -499,10 +475,10 @@ action:
 decision: review
 automatic_decision: review
 title: Document Controller
-company: Bennett and Game Recruitment LTD - Agency - Permanent
+company: Fawkes & Reece London - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-23643_225650556
+job_id: jobg8-23643_225738236
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
@@ -1182,6 +1158,18 @@ reason: No approved Eastleigh employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
+title: Sales Ledger Administrator
+company: Conquip Engineering Group - Agency - Permanent
+location: Alton
+source: JobG8
+job_id: jobg8-23643_225738779
+reason: No approved Eastleigh employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Ledger Assistant
 company: DOMO TACTICAL COMMUNICATIONS - Agency - Permanent
 location: Hampshire
@@ -1334,7 +1322,7 @@ job_id: jobg8-23643_225665585
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
-## EXCLUDE (52)
+## EXCLUDE (50)
 
 ---
 action: 
@@ -1405,18 +1393,6 @@ company: Dynamite Recruitment - Agency - Temporary
 location: Portsmouth
 source: JobG8
 job_id: jobg8-23643_225677753
-reason: The stated workplace belongs outside the approved Eastleigh employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Dynamite Recruitment - Agency - Temporary
-location: Southampton
-source: JobG8
-job_id: jobg8-23643_225679074
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---
 
@@ -1537,18 +1513,6 @@ company: Northamber PLC - Agency - Permanent
 location: Basingstoke
 source: JobG8
 job_id: jobg8-23643_224173384
-reason: The stated workplace belongs outside the approved Eastleigh employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Business Support Assistant
-company: University Hospital Southampton NHS Trust
-location: Southampton, SO16 7NP
-source: NHS Jobs
-job_id: nhs-5659034
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---
 

@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 70
+- automatic review: 69
 - automatic exclude: 0
 - effective include: 0
-- effective review: 70
+- effective review: 69
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (70)
+## REVIEW (69)
 
 ---
 action: 
@@ -234,18 +234,6 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: Vantage Recruitment - Agency - Contract
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225629614
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Administrator (Excel Advanced)
 company: Interaction Recruitment - Agency - Permanent
 location: Leicestershire
@@ -431,6 +419,18 @@ company: SF Partners - Agency - Permanent
 location: Leicester
 source: JobG8
 job_id: jobg8-23643_225730191
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Administrator
+company: Aspire People - Agency - Temporary
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225630441
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -695,18 +695,6 @@ company: InMind
 location: Leicester, LE2 9FS
 source: NHS Jobs
 job_id: nhs-5642838
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Sytner - Company - Permanent
-location: Leicester
-source: JobG8
-job_id: jobg8-23643_225703381
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

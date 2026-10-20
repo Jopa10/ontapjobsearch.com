@@ -6,7 +6,6 @@ include,nhs-5671178,Administration Assistant,"Cumbria, Northumberland, Tyne and 
 include,nhs-5671180,Administration Assistant,"Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust","Newcastle upon Tyne, NE3 3XT",NHS Jobs,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
 include,nhs-5671182,Administration Assistant,"Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust","Gateshead, NE10 8DX",NHS Jobs,include,include,Approved Newcastle catchment.,gateshead,newcastle-service-administrator
 include,jobg8-23643_225705347,Administrative & Procurement Assistant,Recruitment Helpline - Agency - Permanent,Gateshead,JobG8,include,include,Approved Newcastle catchment.,gateshead,newcastle-service-administrator
-include,nhs-5658600,Administrative Assistant,Gateshead Health NHS Foundation Trust,"Gateshead, NE8 4YL",NHS Jobs,include,include,Approved Newcastle catchment.,gateshead,newcastle-service-administrator
 include,teaching-vacancies-administrative-assistant-level-3-north-gosforth-academy-newcastle-upon-tyne-tyne-and-wear,Administrative Assistant Level 3,North Gosforth Academy,Newcastle-upon-Tyne,Teaching Vacancies,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
 include,nhs-5667685,Administrator,Tyneside Surgical Services,"Gateshead, NE11 0HF",NHS Jobs,include,include,Approved Newcastle catchment.,gateshead,newcastle-service-administrator
 include,teaching-vacancies-administrator-student-reception,Administrator- Student Reception,St Mary's Catholic School,Newcastle-upon-Tyne,Teaching Vacancies,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
@@ -18,7 +17,6 @@ include,jobg8-23643_225375230,Customer Service Agent,Nigel Wright Recruitment - 
 include,jobg8-23643_225692502,Customer Service Assistant,Forrest Recruitment - Agency - Permanent,Newcastle,JobG8,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
 include,jobg8-23643_225721329,Graduate Accounts Assistant,Get-Recruited (UK) Ltd - Agency - Permanent,Newcastle Upon Tyne,JobG8,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
 include,nhs-5577937,Home Administrator,Akari Care Limited,"Gateshead, NE8 1QU",NHS Jobs,include,include,Approved Newcastle catchment.,gateshead,newcastle-service-administrator
-include,nhs-5621861,Medical Receptionist,Betts Avenue Medical Centre,"Newcastle Upon Tyne, NE15 6TQ, Newcastle Upon Tyne, NE3 3QP",NHS Jobs,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
 include,nhs-5660811,Medical Receptionist,Holmside Medical Group,"Newcastle upon Tyne, NE4 8QB, Newcastle Upon Tyne, NE5 1LJ",NHS Jobs,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
 include,jobg8-2074752,Part Time Accounts Assistant,Nigel Wright Group - Agency - Permanent,Gateshead,JobG8,include,include,Approved Newcastle catchment.,gateshead,newcastle-service-administrator
 include,jobg8-23643_225652927,People Support Administrator,The Recruitment Junction - Agency - Permanent,Newcastle,JobG8,include,include,Approved Newcastle catchment.,newcastle,newcastle-service-administrator
@@ -33,7 +31,6 @@ review,jobg8-2017987,Accounts Assistant,KCR Solutions - Agency - Permanent,Tyne 
 review,jobg8-2074204,Accounts Assistant,Nigel Wright Group - Agency - Permanent,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
 review,jobg8-2077376,Accounts Assistant,Reed - Agency - Permanent,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
 review,jobg8-23643_225677784,Accounts Assistant,SG Personnel Ltd - Agency - Permanent,Cramlington,JobG8,review,review,No approved Newcastle catchment rule matched; local review required.,fallback,newcastle-service-administrator
-review,jobg8-23643_225725686,Accounts Assistant,Westray Recruitment Consultants Ltd - Agency - Permanent,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
 review,jobg8-23643_225680764,Accounts Payable Administrator,MTrec Ltd Technical - Agency - Permanent,Northumberland,JobG8,review,review,No approved Newcastle catchment rule matched; local review required.,fallback,newcastle-service-administrator
 review,jobg8-2075393,Accounts Payable Administrator,MTrec Recruitment - Agency - Permanent,Northumberland,JobG8,review,review,No approved Newcastle catchment rule matched; local review required.,fallback,newcastle-service-administrator
 review,jobg8-23643_225666028,Ad Hoc Receptionist - Immediate Start - Newcastle City Centre,Office Angels - Agency - Temporary,Tyne And Wear,JobG8,review,review,Broad location; review before city inclusion.,tyne and wear,newcastle-service-administrator
@@ -90,6 +87,7 @@ exclude,jobg8-23643_225655565,Accounts Assistant Permanent - Sunderland,Office A
 exclude,jobg8-23643_225703713,Accounts Payable,Travail Employment Group - Agency - Temporary,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,teaching-vacancies-administration-assistant-st-john-bosco-catholic-primary-school-town-end-farm-sunderland,Administration Assistant,"St John Bosco Catholic Primary School, Town End Farm, Sunderland",Sunderland,Teaching Vacancies,exclude,exclude,Separate employment market.,sunderland,newcastle-service-administrator
 exclude,teaching-vacancies-administration-assistant-trinity-academy-new-bridge-sunderland,Administration Assistant,Trinity Academy New Bridge,Sunderland,Teaching Vacancies,exclude,exclude,Separate employment market.,sunderland,newcastle-service-administrator
+exclude,nhs-5672309,Administrator,Moorlands Surgery,"Darlington, DL3 9JP",NHS Jobs,exclude,exclude,Separate employment market.,darlington,newcastle-service-administrator
 exclude,jobg8-2045387,Bookkeeper,Cameron James - Agency - Permanent,Darlington,JobG8,exclude,exclude,Separate employment market.,darlington,newcastle-service-administrator
 exclude,jobg8-2053988,Brand Marketing Manager,Reed - Agency - Permanent,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,jobg8-23643_225646206,Business Development Executive,Glen Callum Associates Ltd - Agency - Permanent,Sunderland,JobG8,exclude,exclude,Separate employment market.,sunderland,newcastle-service-administrator
@@ -100,13 +98,12 @@ exclude,jobg8-23643_225733651,Customer service advisor,Berry Recruitment - Agenc
 exclude,jobg8-2087201,Finance and Payroll Assistant,MTrec Recruitment - Agency - Permanent,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,jobg8-23643_225706629,Finance Assistant,Wolviston Management Services - Agency - Permanent,Darlington,JobG8,exclude,exclude,Separate employment market.,darlington,newcastle-service-administrator
 exclude,jobg8-2093164,Finance Assistant (Hybrid),Ernest Gordon Recruitment Limited - Agency - Permanent,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
-exclude,jobg8-23643_225685318,Internal Sales Coordinator,Westray Recruitment Consultants Ltd - Agency - Permanent,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,jobg8-2053979,Marketing Manager,Reed - Agency - Permanent,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,nhs-5639684,Medical Receptionist,Hartlepool & Stockton Health [H&SH],"HARTLEPOOL, TS25 1QU",NHS Jobs,exclude,exclude,Outside Newcastle catchment.,hartlepool,newcastle-service-administrator
-exclude,nhs-5636455,Mental Health Act Administrator,Cygnet Health Care,"Darlington , DL1 2LJ",NHS Jobs,exclude,exclude,Separate employment market.,darlington,newcastle-service-administrator
 exclude,jobg8-23643_225736941,Payroll Officer,Paul Card Recruitment - Agency - Temporary,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,jobg8-23643_225712467,Procurement Assistant,Taryn Hall Recruitment - Agency - Permanent,Sunderland,JobG8,exclude,exclude,Separate employment market.,sunderland,newcastle-service-administrator
 exclude,jobg8-2036113,Purchase Ledger Clerk,Spear-heads - Agency - Permanent,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
+exclude,jobg8-2152924,Purchasing Administrator,Paul Card Recruitment Ltd - Agency - Permanent,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,nhs-5666221,Receptionist,South Tyneside and Sunderland NHS Foundation Trust,"SUNDERLAND, SR1 3AE",NHS Jobs,exclude,exclude,Separate employment market.,sunderland,newcastle-service-administrator
 exclude,jobg8-23643_225723153,Recruitment Administrator,SRG - Agency - Temporary,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,jobg8-23643_225682964,Sales Administrator,Paisley Recruitement Group - Agency - Permanent,County Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
@@ -115,4 +112,5 @@ exclude,jobg8-23643_225672369,Scheduling Administrator,Hays Business Support - A
 exclude,jobg8-23643_225674171,Site Administrator,Linear Recruitment Ltd - Agency - Contract,Sunderland,JobG8,exclude,exclude,Separate employment market.,sunderland,newcastle-service-administrator
 exclude,jobg8-23643_225674179,Site Administrator,Linear Recruitment Ltd - Agency - Contract,Durham,JobG8,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,nhs-5656729,Team Administrator,Tees Esk and Wear Valleys NHS Foundation Trust,"Durham, DH1 4LW",NHS Jobs,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
+exclude,nhs-5670229,Team Administrator,Tees Esk and Wear Valleys NHS Foundation Trust,"Durham, DH1 4LW",NHS Jobs,exclude,exclude,Separate employment market.,durham,newcastle-service-administrator
 exclude,jobg8-23643_225729432,Temporary School Administrator - Sunderland,Office Angels - Agency - Temporary,Sunderland,JobG8,exclude,exclude,Separate employment market.,sunderland,newcastle-service-administrator

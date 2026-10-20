@@ -102,18 +102,6 @@ decision: include
 automatic_decision: include
 title: Administrator
 company: Hull University Teaching Hospitals NHS Trust
-location: Hull, HU3 2JZ
-source: NHS Jobs
-job_id: nhs-5642388
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Hull University Teaching Hospitals NHS Trust
 location: Hull, HU16 5JQ
 source: NHS Jobs
 job_id: nhs-5643505
@@ -184,6 +172,18 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: BOM Administrator
+company: Professional Technical Ltd - Agency - Permanent
+location: Hull
+source: JobG8
+job_id: jobg8-23643_225740602
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Bookkeeper & Payroll Administrator
 company: Equals One - Agency - Permanent
 location: Hull
@@ -237,18 +237,6 @@ company: Winsearch - Agency - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-23643_225735792
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: On-Site Account Administrator
-company: Prestige Recruitment Specialists - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-23643_225698499
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -312,6 +300,18 @@ job_id: nhs-5662408
 reason: Approved conservative Hull launch catchment.
 ---
 
+---
+action: 
+decision: include
+automatic_decision: include
+title: Senior Administrator
+company: Hull University Teaching Hospitals NHS Trust
+location: Hull, HU3 2JZ
+source: NHS Jobs
+job_id: nhs-5672082
+reason: Approved conservative Hull launch catchment.
+---
+
 ## REVIEW (14)
 
 ---
@@ -323,18 +323,6 @@ company: Si Recruitment - Agency - Permanent
 location: Goole
 source: JobG8
 job_id: jobg8-2074255
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Hull University Teaching Hospitals NHS Trust
-location: Cottingham, HU16 5JQ
-source: NHS Jobs
-job_id: nhs-5641720
 reason: No approved Hull catchment rule matched; local review required.
 ---
 
@@ -419,6 +407,18 @@ company: Permanent Futures Limited - Agency - Permanent
 location: Beverley
 source: JobG8
 job_id: jobg8-23643_225737067
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Senior Administrator
+company: Hull University Teaching Hospitals NHS Trust
+location: Cottingham, HU16 5JQ
+source: NHS Jobs
+job_id: nhs-5643501
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

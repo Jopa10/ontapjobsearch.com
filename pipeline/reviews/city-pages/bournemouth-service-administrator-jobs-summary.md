@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 51
+- automatic review: 46
 - automatic exclude: 0
 - effective include: 8
-- effective review: 51
+- effective review: 46
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: nhs-5651442
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (51)
+## REVIEW (46)
 
 ---
 action: 
@@ -203,18 +203,6 @@ company: Resource Recruitment - Agency - Contract
 location: Poole
 source: JobG8
 job_id: jobg8-23643_225680211
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Aftersales Coordinator
-company: Rubicon Recruitment - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225695828
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -354,18 +342,6 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Administrator
-company: Holt Engineering - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-23643_225705497
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Service Advisor
 company: Simply Automotive Ltd - Agency - Permanent
 location: Dorset
@@ -431,30 +407,6 @@ company: Office Angels - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-2092371
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Human Resources Administrator
-company: Dorset HealthCare University NHS Foundation Trust
-location: Poole, BH17 0RB
-source: NHS Jobs
-job_id: nhs-5645667
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Internal Sales & Customer Service
-company: Bridgewater Resources UK - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-23643_225630051
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -719,18 +671,6 @@ company: Aspire Jobs Limited - Agency - Permanent
 location: Beaminster
 source: JobG8
 job_id: jobg8-107765584
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Ward Clerk
-company: Dorset HealthCare University NHS Foundation Trust
-location: Weymouth, DT4 0QE
-source: NHS Jobs
-job_id: nhs-5639068
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

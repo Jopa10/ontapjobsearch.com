@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 117
+- automatic review: 115
 - automatic exclude: 0
 - effective include: 0
-- effective review: 117
+- effective review: 115
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (117)
+## REVIEW (115)
 
 ---
 action: 
@@ -155,18 +155,6 @@ company: SG Personnel Ltd - Agency - Permanent
 location: Cramlington
 source: JobG8
 job_id: jobg8-23643_225677784
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Westray Recruitment Consultants Ltd - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225725686
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -354,18 +342,6 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Administrative Assistant
-company: Gateshead Health NHS Foundation Trust
-location: Gateshead, NE8 4YL
-source: NHS Jobs
-job_id: nhs-5658600
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Administrative Assistant Level 3
 company: North Gosforth Academy
 location: Newcastle-upon-Tyne
@@ -395,6 +371,18 @@ company: Makin Construction Careers Ltd - Agency - Contract
 location: Blyth
 source: JobG8
 job_id: jobg8-23643_225684373
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Moorlands Surgery
+location: Darlington, DL3 9JP
+source: NHS Jobs
+job_id: nhs-5672309
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -798,18 +786,6 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Internal Sales Coordinator
-company: Westray Recruitment Consultants Ltd - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-23643_225685318
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Junior Sales Administrator
 company: BMC Recruitment Group Ltd - Agency - Permanent
 location: Newton Aycliffe
@@ -859,18 +835,6 @@ action:
 decision: review
 automatic_decision: review
 title: Medical Receptionist
-company: Betts Avenue Medical Centre
-location: Newcastle Upon Tyne, NE15 6TQ, Newcastle Upon Tyne, NE3 3QP
-source: NHS Jobs
-job_id: nhs-5621861
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
 company: Hartlepool & Stockton Health [H&SH]
 location: HARTLEPOOL, TS25 1QU
 source: NHS Jobs
@@ -887,18 +851,6 @@ company: Holmside Medical Group
 location: Newcastle upon Tyne, NE4 8QB, Newcastle Upon Tyne, NE5 1LJ
 source: NHS Jobs
 job_id: nhs-5660811
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Mental Health Act Administrator
-company: Cygnet Health Care
-location: Darlington , DL1 2LJ
-source: NHS Jobs
-job_id: nhs-5636455
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -1091,6 +1043,18 @@ company: Spear-heads - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-2036113
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchasing Administrator
+company: Paul Card Recruitment Ltd - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-2152924
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -1307,6 +1271,18 @@ company: Tees Esk and Wear Valleys NHS Foundation Trust
 location: Durham, DH1 4LW
 source: NHS Jobs
 job_id: nhs-5656729
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Team Administrator
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Durham, DH1 4LW
+source: NHS Jobs
+job_id: nhs-5670229
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 

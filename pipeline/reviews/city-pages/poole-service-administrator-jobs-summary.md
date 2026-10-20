@@ -4,7 +4,7 @@
 - Live route: `/poole/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 17
+- Effective included jobs: 14
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
-- automatic review: 42
+- automatic include: 14
+- automatic review: 40
 - automatic exclude: 0
-- effective include: 17
-- effective review: 42
+- effective include: 14
+- effective review: 40
 - effective exclude: 0
 
-## INCLUDE (17)
+## INCLUDE (14)
 
 ---
 action: 
@@ -136,47 +136,11 @@ reason: Exact approved Poole workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Administrator
-company: Holt Engineering - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-23643_225705497
-reason: Exact approved Poole workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: ESR Administrator
 company: Dorset HealthCare University NHS Foundation Trust
 location: Poole, BH17 0RB
 source: NHS Jobs
 job_id: nhs-5661555
-reason: Exact approved Poole workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Human Resources Administrator
-company: Dorset HealthCare University NHS Foundation Trust
-location: Poole, BH17 0RB
-source: NHS Jobs
-job_id: nhs-5645667
-reason: Exact approved Poole workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Internal Sales & Customer Service
-company: Bridgewater Resources UK - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-23643_225630051
 reason: Exact approved Poole workplace.
 ---
 
@@ -228,7 +192,7 @@ job_id: jobg8-1986688
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (42)
+## REVIEW (40)
 
 ---
 action: 
@@ -299,18 +263,6 @@ company: Team Jobs - Commercial - Agency - Permanent
 location: Bournemouth
 source: JobG8
 job_id: jobg8-23643_225634868
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Aftersales Coordinator
-company: Rubicon Recruitment - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225695828
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -719,18 +671,6 @@ company: Aspire Jobs Limited - Agency - Permanent
 location: Beaminster
 source: JobG8
 job_id: jobg8-107765584
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Ward Clerk
-company: Dorset HealthCare University NHS Foundation Trust
-location: Weymouth, DT4 0QE
-source: NHS Jobs
-job_id: nhs-5639068
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

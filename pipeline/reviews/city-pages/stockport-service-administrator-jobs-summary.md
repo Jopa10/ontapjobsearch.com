@@ -4,7 +4,7 @@
 - Live route: `/stockport/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 17
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
-- automatic review: 17
+- automatic include: 15
+- automatic review: 19
 - automatic exclude: 0
-- effective include: 17
-- effective review: 17
+- effective include: 15
+- effective review: 19
 - effective exclude: 0
 
-## INCLUDE (17)
+## INCLUDE (15)
 
 ---
 action: 
@@ -52,18 +52,6 @@ reason: Exact approved Stockport workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Administrative Assistant
-company: Pennine Care NHS FT
-location: Stockport, SK1 3QD
-source: NHS Jobs
-job_id: nhs-5652816
-reason: Exact approved Stockport workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Customer Service Advisor
 company: CMR Jobs Limited - Agency - Permanent
 location: Stockport
@@ -81,30 +69,6 @@ company: Jobwise Ltd - Agency - Temporary
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225695945
-reason: Exact approved Stockport workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: Kinaxia Logistics Limited - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225656961
-reason: Exact approved Stockport workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: HR and Office Coordinator
-company: Hays Business Support - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225682665
 reason: Exact approved Stockport workplace.
 ---
 
@@ -228,7 +192,19 @@ job_id: jobg8-23643_225671741
 reason: Exact approved Stockport workplace.
 ---
 
-## REVIEW (17)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Sales Support Executive
+company: VCG Technology Services Limited - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-108042377
+reason: Exact approved Stockport workplace.
+---
+
+## REVIEW (19)
 
 ---
 action: 
@@ -295,6 +271,18 @@ action:
 decision: review
 automatic_decision: review
 title: Credit Controller
+company: Hays Accounts and Finance - Agency - Permanent
+location: Trafford
+source: JobG8
+job_id: jobg8-23643_225737501
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
 company: Michael Page - Agency - Permanent
 location: Trafford
 source: JobG8
@@ -335,6 +323,18 @@ company: Barrington Medical Centre Partnership
 location: Altrincham, WA14 1PF
 source: NHS Jobs
 job_id: nhs-5660746
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist
+company: HT Practice
+location: Ashton Under Lyne, OL7 0NW
+source: NHS Jobs
+job_id: nhs-5671910
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 

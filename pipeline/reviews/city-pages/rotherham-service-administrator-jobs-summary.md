@@ -4,8 +4,8 @@
 - Live route: `/rotherham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 3
-- Threshold currently met: no
+- Effective included jobs: 4
+- Threshold currently met: yes
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
+- automatic include: 4
 - automatic review: 58
 - automatic exclude: 0
-- effective include: 3
+- effective include: 4
 - effective review: 58
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (4)
 
 ---
 action: 
@@ -57,6 +57,18 @@ company: Willow Tree Academy
 location: Rotherham
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-admin-assistant-willow-tree-academy
+reason: Exact approved Rotherham workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Service and Validation Administrator
+company: Unicorn Resourcing - Agency - Permanent
+location: Rotherham
+source: JobG8
+job_id: jobg8-23643_225739769
 reason: Exact approved Rotherham workplace.
 ---
 
@@ -282,6 +294,18 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Clerical Officer
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S5 7AU
+source: NHS Jobs
+job_id: nhs-5673070
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Clerical Officer/Receptionist
 company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S10 2JF
@@ -426,18 +450,6 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Hr Coordinator
-company: Connected Search Group - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225707290
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Income Assistant / Finance Administrator - Local Authority
 company: Reed - Agency - Permanent
 location: Yorkshire
@@ -515,6 +527,18 @@ company: TRC Yorkshire - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225639980
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Operations Administrator
+company: Sue Ross Recruitment Ltd - Agency - Temporary
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225739418
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -683,18 +707,6 @@ company: Belmont Recruitment - Agency - Contract
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225727950
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Red Sector Recruitment Limited - Agency - Temporary
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225726240
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

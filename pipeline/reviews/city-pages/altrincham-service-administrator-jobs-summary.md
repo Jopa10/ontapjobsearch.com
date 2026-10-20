@@ -150,18 +150,6 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Administrative Assistant
-company: Pennine Care NHS FT
-location: Stockport, SK1 3QD
-source: NHS Jobs
-job_id: nhs-5652816
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Administrative assistant
 company: Tameside and Glossop Integrated Care NHS Foundation Trust
 location: Ashton Under Lyne, OL6 6NG
@@ -179,6 +167,18 @@ company: Moya Cole Hospice
 location: Cheadle, SK8 3SZ, MANCHESTER, M28 0AB
 source: NHS Jobs
 job_id: nhs-5653698
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
+company: Hays Accounts and Finance - Agency - Permanent
+location: Trafford
+source: JobG8
+job_id: jobg8-23643_225737501
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -222,30 +222,6 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Advisor
-company: Kinaxia Logistics Limited - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225656961
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR and Office Coordinator
-company: Hays Business Support - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-23643_225682665
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: IVA Administrator
 company: Imperium Financial Recruitment - Agency - Permanent
 location: Stockport
@@ -263,6 +239,18 @@ company: The People Pod - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225656217
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist
+company: HT Practice
+location: Ashton Under Lyne, OL7 0NW
+source: NHS Jobs
+job_id: nhs-5671910
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -407,6 +395,18 @@ company: Forrest Recruitment - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225671741
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Support Executive
+company: VCG Technology Services Limited - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-108042377
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

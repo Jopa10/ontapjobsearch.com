@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 32
+- automatic review: 30
 - automatic exclude: 0
 - effective include: 4
-- effective review: 32
+- effective review: 30
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225724509
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (32)
+## REVIEW (30)
 
 ---
 action: 
@@ -90,11 +90,11 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Admin Assistant (Pupil Responsibility) – Maternity Cover
-company: Dunstable Icknield Lower School
-location: Dunstable
-source: Teaching Vacancies
-job_id: teaching-vacancies-admin-assistant-pupil-responsibility-maternity-cover
+title: Admin Assistant
+company: Shuel Labour Solutions Ltd - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225741551
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -143,6 +143,18 @@ company: Vestry James Ltd - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_224485209
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator - Support
+company: Transcomm Recruitment Ltd - Agency - Permanent
+location: Dunstable
+source: JobG8
+job_id: jobg8-23643_225742377
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -318,18 +330,6 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: The Medici Medical Practice
-location: Bedfordshire, LU1 3UA
-source: NHS Jobs
-job_id: nhs-5660028
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Receptionist - Bank
 company: Hamberley Care Management Limited - Company - Permanent
 location: Bedfordshire
@@ -354,35 +354,11 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Reprographics and Admin Assistant
-company: Linslade School
-location: Leighton Buzzard
-source: Teaching Vacancies
-job_id: teaching-vacancies-reprographics-and-admin-assistant-linslade-school
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales Support Executive
 company: Resolve Recruitment - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225678625
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: School Administrator (Term time only + Inset Days)
-company: Edward Peake CofE VC School
-location: Biggleswade
-source: Teaching Vacancies
-job_id: teaching-vacancies-school-administrator-term-time-only-inset-days
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

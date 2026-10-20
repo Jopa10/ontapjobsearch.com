@@ -318,18 +318,6 @@ reason: No approved Harrogate employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist
-company: Capital Outsourcing Group Ltd - Agency - Permanent
-location: Ripon
-source: JobG8
-job_id: jobg8-23643_225655354
-reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Residential Property Legal Secretary
 company: Search Consultancy Ltd - Agency - Permanent
 location: Malton
@@ -359,6 +347,18 @@ company: Auto Skills UK - Agency - Permanent
 location: Richmond
 source: JobG8
 job_id: jobg8-23643_225729465
+reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Coordinator
+company: Interaction - Leeds - Agency - Permanent
+location: Malton
+source: JobG8
+job_id: jobg8-108059238
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -548,6 +548,18 @@ reason: The stated workplace belongs outside the approved Harrogate employment m
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Customer Service Advisor
+company: Yorkshire Building Society (YBS) - Agency - Permanent
+location: Ripon
+source: JobG8
+job_id: jobg8-108187895
+reason: The stated workplace belongs outside the approved Harrogate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: HR Administrator
 company: Sewell Wallis Ltd - Agency - Permanent
 location: York
@@ -673,18 +685,6 @@ company: Haxby Group
 location: York, YO32 2LL, York, YO24 3BU, Huntington, YO32 9RU, York, YO32 4AG, York, YO26 6EQ
 source: NHS Jobs
 job_id: nhs-5655371
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Purchasing Assistant 9-12 Month Contract
-company: SI Recruitment - Agency - Permanent
-location: Northallerton
-source: JobG8
-job_id: jobg8-108167097
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 

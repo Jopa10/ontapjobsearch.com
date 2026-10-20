@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 36
+- automatic review: 38
 - automatic exclude: 0
 - effective include: 6
-- effective review: 36
+- effective review: 38
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-2074804
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (36)
+## REVIEW (38)
 
 ---
 action: 
@@ -235,6 +235,18 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
+company: Jobsworth Recruitment Solutions LTD - Agency - Permanent
+location: Bromsgrove
+source: JobG8
+job_id: jobg8-23643_225740074
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
 company: Opus People Solutions Ltd - Agency - Temporary
 location: Redditch
 source: JobG8
@@ -311,6 +323,18 @@ company: Adecco - Agency - Permanent
 location: Evesham
 source: JobG8
 job_id: jobg8-23643_225634415
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: Michael Page - Agency - Temporary
+location: Worcestershire
+source: JobG8
+job_id: jobg8-23643_225738400
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -438,6 +462,18 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Operations Coordinator
+company: Workforce Staffing Ltd - Agency - Permanent
+location: Redditch
+source: JobG8
+job_id: jobg8-23643_225741799
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Administrator
 company: Four Squared Recruitment Ltd - Agency - Permanent
 location: Worcestershire
@@ -515,18 +551,6 @@ company: Michael Page Finance - Agency - Permanent
 location: Redditch
 source: JobG8
 job_id: jobg8-2027458
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Youth Programme Coordinator
-company: Rees Foundation - Agency - Permanent
-location: Droitwich
-source: JobG8
-job_id: jobg8-2138560
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

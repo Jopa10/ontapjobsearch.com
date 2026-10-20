@@ -4,7 +4,7 @@
 - Live route: `/swansea/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 10
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 9
+- automatic include: 7
+- automatic review: 5
 - automatic exclude: 0
-- effective include: 10
-- effective review: 9
+- effective include: 6
+- effective review: 5
 - effective exclude: 1
 
-## INCLUDE (10)
+## INCLUDE (6)
 
 ---
 action: 
@@ -64,54 +64,6 @@ reason: Exact approved Swansea workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Call Centre Agent
-company: EE - Company - Permanent
-location: Swansea
-source: JobG8
-job_id: jobg8-20279_62802-995fd547f623ddd8dd98283875fd8ae3
-reason: Exact approved Swansea workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Call Centre Operator
-company: EE - Company - Permanent
-location: Swansea
-source: JobG8
-job_id: jobg8-20279_62802-f02302d2c05f9e182b4e1de5b50bb5ce
-reason: Exact approved Swansea workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Contact Centre Agent
-company: EE - Company - Permanent
-location: Swansea
-source: JobG8
-job_id: jobg8-20279_62802-570151172d960a82452921a3fe3612f5
-reason: Exact approved Swansea workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Swansea
-source: JobG8
-job_id: jobg8-20279_62802-744c64d1a62f8e2f11c6d66dea1f4fa0
-reason: Exact approved Swansea workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Customer Service Advisor - Welsh Speaking/Written
 company: Adecco - Agency - Contract
 location: Swansea
@@ -144,7 +96,7 @@ job_id: jobg8-2101939
 reason: Exact approved Swansea workplace.
 ---
 
-## REVIEW (9)
+## REVIEW (5)
 
 ---
 action: 
@@ -167,54 +119,6 @@ company: Work Wales - Agency - Permanent
 location: Maesteg
 source: JobG8
 job_id: jobg8-23643_225719374
-reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Call Centre Agent
-company: EE - Company - Permanent
-location: Neath
-source: JobG8
-job_id: jobg8-20279_62802-03a94d39312f9ffe3077b38d0b76a197
-reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Call Centre Operator
-company: EE - Company - Permanent
-location: Neath
-source: JobG8
-job_id: jobg8-20279_62802-464809424754ea284d39308e729ab499
-reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Contact Centre Agent
-company: EE - Company - Permanent
-location: Neath
-source: JobG8
-job_id: jobg8-20279_62802-cf455cf99f122821fb92fcc435c747eb
-reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Neath
-source: JobG8
-job_id: jobg8-20279_62802-379bc928ca4f579bb6a7963d308e55bb
 reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
 ---
 

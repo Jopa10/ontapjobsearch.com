@@ -1,8 +1,6 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-23643_225692101,Account Coordinator,Gi Group - Agency - Permanent,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 include,jobg8-23643_225722424,Accounts Payable,SF Partners - Agency - Contract,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
-include,jobg8-23643_225677617,Accounts Payable Assistant,Hays Accounts and Finance - Agency - Permanent,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
-include,jobg8-2062212,Accounts Payable Assistant,Hays Specialist Recruitment Limited - Agency - Permanent,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 include,teaching-vacancies-administrative-assistant-finham-park-2,Administrative Assistant,Finham Park 2,Coventry,Teaching Vacancies,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 include,jobg8-23643_225702322,Bookkeeper,Bennett and Game Recruitment LTD - Agency - Permanent,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 include,jobg8-23643_225717657,Facilities and Maintenance Administrator,EA First - Agency - Temporary,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
@@ -15,10 +13,8 @@ include,jobg8-23643_225715976,Purchase Ledger,SF Partners - Agency - Temporary,C
 include,jobg8-23643_225730944,Quality Administrator,Sustainable Building Services - Agency - Permanent,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 include,nhs-5665205,Receptionist/Administrator,Operose Health,"Coventry, CV1 5FX",NHS Jobs,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 include,jobg8-23643_225701362,Sales Administrator,SF Partners - Agency - Permanent,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
-review,jobg8-23643_225631423,Administrator - Purchasing,Options Resourcing Ltd - Agency - Permanent,Southam,JobG8,review,review,No approved Coventry catchment rule matched; local review required.,fallback,coventry-service-administrator-jobs
 review,jobg8-23643_225727031,Installations Coordinator,Arden Personnel - Agency - Permanent,Alcester,JobG8,review,review,No approved Coventry catchment rule matched; local review required.,fallback,coventry-service-administrator-jobs
 review,teaching-vacancies-receptionist-and-administrator-2-days-per-week,Receptionist and Administrator (2 days per week),Kenilworth School and Sixth Form,Kenilworth,Teaching Vacancies,review,review,No approved Coventry catchment rule matched; local review required.,fallback,coventry-service-administrator-jobs
-review,jobg8-23643_225631422,Sales Administrator,Options Resourcing Ltd - Agency - Permanent,Southam,JobG8,review,review,No approved Coventry catchment rule matched; local review required.,fallback,coventry-service-administrator-jobs
 review,jobg8-23643_225656636,Temp Administrator,Brellis Recruitment - Agency - Permanent,Southam,JobG8,review,review,No approved Coventry catchment rule matched; local review required.,fallback,coventry-service-administrator-jobs
 exclude,jobg8-23643_225654935,"Account Handler, New Business Support administrator",Smile Digital - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-23643_225660067,Accounts Administrator,Transaction Recruitment - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
@@ -26,12 +22,14 @@ exclude,jobg8-23643_225681487,Accounts Assistant,Addington Ball - Agency - Perma
 exclude,jobg8-23643_225681366,Accounts Assistant,Brellis Recruitment - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-2046750,Accounts Assistant,Macildowie Recruitment and Retention - Agency - Permanent,Rugby,JobG8,exclude,exclude,Separate employment market.,rugby,coventry-service-administrator-jobs
 exclude,jobg8-23643_225700132,Accounts Assistant,ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent,Rugby,JobG8,exclude,exclude,Separate employment market.,rugby,coventry-service-administrator-jobs
+exclude,jobg8-23643_225738949,Accounts Assistant,TMRG - Agency - Contract,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-23643_225726651,Accounts Assistant / Purchase Ledger (Manufacturing),Marc Daniels - Agency - Permanent,Warwick,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-2085330,Activities & Coaching Operations Coordinator,Riding for the Disabled Association (RDA) - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-23643_225704336,Activity Coordinator,Accord Appointments Ltd - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-23643_223927243,Administrator,Genesis Employment Services Ltd - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-23643_225636347,Administrator,Office Angels - Agency - Temporary,Stratford-Upon-Avon,JobG8,exclude,exclude,Separate employment market.,stratford-upon-avon,coventry-service-administrator-jobs
 exclude,nhs-5667538,Administrator,Practice Plus Group - Health in Justice,"Rugby, CV23 8AP",NHS Jobs,exclude,exclude,Separate employment market.,rugby,coventry-service-administrator-jobs
+exclude,jobg8-23643_225739713,Administrator,The Job People - Agency - Temporary,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-23643_225731383,Administrator - GAP Claims Assessment,SVB Solutions - Agency - Permanent,Warwick,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-23643_225689658,BMW Motorrad Brand Manager,Sytner - Company - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-23643_225649181,Bookings Administrator,Belinda Roberts Ltd - Agency - Contract,Warwick,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
@@ -61,6 +59,7 @@ exclude,jobg8-23643_225686983,Marketing Campaign Manager,Macstaff - Agency - Per
 exclude,jobg8-2056868,Marketing Executive,TalentTech Recruitment - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-23643_225672914,Marketing Executive,TalentTech Recruitment Ltd - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,nhs-5657937,Medical Receptionist,Rother House Medical Centre,"Stratford-upon-avon, CV37 6PP",NHS Jobs,exclude,exclude,Separate employment market.,stratford-upon-avon,coventry-service-administrator-jobs
+exclude,jobg8-23643_225738411,Office Administrator,SolviT Recruitment Ltd - Agency - Temporary,Rugby,JobG8,exclude,exclude,Separate employment market.,rugby,coventry-service-administrator-jobs
 exclude,jobg8-23643_225703191,Operations Administrator,Four Squared Recruitment Ltd - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-2076444,Part time Bookkeeper,Four Squared - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-23643_225686816,Part time Bookkeeper,Four Squared Recruitment Ltd - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 17
-- automatic review: 65
+- automatic review: 61
 - automatic exclude: 0
 - effective include: 17
-- effective review: 65
+- effective review: 61
 - effective exclude: 0
 
 ## INCLUDE (17)
@@ -57,18 +57,6 @@ company: Morgan McKinley - Agency - Permanent
 location: Milton Keynes
 source: JobG8
 job_id: jobg8-2057564
-reason: Exact approved Milton Keynes workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator - Prison Education - HMP Bullingdon
-company: Milton Keynes College
-location: Milton Keynes
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-prison-education-hmp-bullingdon
 reason: Exact approved Milton Keynes workplace.
 ---
 
@@ -160,11 +148,23 @@ reason: Exact approved Milton Keynes workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Part Time Receptionist
+title: Office Coordinator
+company: Randstad Finance - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-23643_225739749
+reason: Exact approved Milton Keynes workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Part Time Receptionist (22 hours)
 company: Osborne Appointments - Agency - Temporary
 location: Milton Keynes
 source: JobG8
-job_id: jobg8-23643_225701778
+job_id: jobg8-23643_225739617
 reason: Exact approved Milton Keynes workplace.
 ---
 
@@ -228,7 +228,7 @@ job_id: jobg8-23643_225635978
 reason: Exact approved Milton Keynes workplace.
 ---
 
-## REVIEW (65)
+## REVIEW (61)
 
 ---
 action: 
@@ -594,18 +594,6 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Sales Administrator
-company: ASL - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225529617
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer service sales support
 company: ASL - Agency - Permanent
 location: Buckinghamshire
@@ -623,18 +611,6 @@ company: Chesham Grammar School
 location: Chesham
 source: Teaching Vacancies
 job_id: teaching-vacancies-development-administrator
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: Fremaux Delorme Co Ltd - Agency - Permanent
-location: Aylesbury
-source: JobG8
-job_id: jobg8-23643_225711333
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -799,18 +775,6 @@ action:
 decision: review
 automatic_decision: review
 title: Part Time Finance Assistant
-company: Bucks and Berks Recruitment - Agency - Permanent
-location: High Wycombe
-source: JobG8
-job_id: jobg8-2044228
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part Time Finance Assistant
 company: Platinum Resourcing - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
@@ -863,18 +827,6 @@ company: NHS Professionals - Company - Temporary
 location: Buckingham
 source: JobG8
 job_id: jobg8-23643_225718008
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist/Admissions Officer
-company: Bearbrook Combined School
-location: Aylesbury
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-admissions-officer-bearbrook-combined-school
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 19
 - automatic review: 6
-- automatic exclude: 36
+- automatic exclude: 37
 - effective include: 19
 - effective review: 6
-- effective exclude: 36
+- effective exclude: 37
 
 ## INCLUDE (19)
 
@@ -326,7 +326,7 @@ job_id: jobg8-23643_225681456
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (36)
+## EXCLUDE (37)
 
 ---
 action: 
@@ -488,6 +488,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Clerical Officer
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S5 7AU
+source: NHS Jobs
+job_id: nhs-5673070
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Clerical Officer/Receptionist
 company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S10 2JF
@@ -541,18 +553,6 @@ company: Elm Lane & Chapeltown Surgery
 location: Sheffield, S5 7TW, SHEFFIELD, S35 1TD
 source: NHS Jobs
 job_id: nhs-5627333
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Hr Coordinator
-company: Connected Search Group - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225707290
 reason: Separate employment market.
 ---
 
@@ -632,6 +632,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Operations Administrator
+company: Sue Ross Recruitment Ltd - Agency - Temporary
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225739418
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Personal Assistant
 company: Bradfield Secondary School
 location: Sheffield
@@ -704,18 +716,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist
-company: Red Sector Recruitment Limited - Agency - Temporary
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225726240
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Receptionist & Admin Assistant
 company: Willow Tree Academy
 location: Rotherham
@@ -745,6 +745,18 @@ company: Sue Ross Recruitment Ltd - Agency - Contract
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225736471
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Service and Validation Administrator
+company: Unicorn Resourcing - Agency - Permanent
+location: Rotherham
+source: JobG8
+job_id: jobg8-23643_225739769
 reason: Separate employment market.
 ---
 

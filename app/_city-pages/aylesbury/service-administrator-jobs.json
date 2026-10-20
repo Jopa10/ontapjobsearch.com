@@ -150,30 +150,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "23643_225711333",
-    "display_reference": "23643_225711333",
-    "title": "Finance Assistant",
-    "company": "Fremaux Delorme Co Ltd - Agency - Permanent",
-    "advertiser_name": "Fremaux Delorme Co Ltd",
-    "advertiser_type": "Agency",
-    "location": "Aylesbury",
-    "region": "Buckinghamshire",
-    "country": "UK",
-    "category": "Finance / Accounts",
-    "employment_type": "Permanent",
-    "salary_min": "35000",
-    "salary_max": "38000",
-    "salary_text": "£35000 - £38000 per year (22 days? annual leave. Contributory)",
-    "posted_date": "2026-10-11",
-    "description": "Finance Assistant\n\nWho we are\n\nFremaux Delorme is a luxury home textiles business based in Aylesbury and part of an established French international group. Known for brand luxury brand Yves Delorme, we bring quality bed linen, bath linen and home accessories to the UK market.\n\nWe are seeking an organised and proactive full time Finance Assistant to support our UK finance operations.\n\nThe Finance Assistant Role\n\nReporting to the Finance Manager, you will support the day-to-day running of the finance function across purchase ledger, sales ledger, credit control and journal processing.\n\nThis varied role involves processing transactions, reconciling accounts, resolving queries and preparing information for month-end reporting. You will work closely with colleagues, suppliers and customers to maintain accurate records and ensure outstanding matters are followed through.\n\nFinance Assistant Key Responsibilities\n- Process supplier invoices accurately and ensure they are recorded in time for month-end close. Reconcile supplier statements and intercompany accounts, investigating and resolving differences.\n- Manage supplier queries and the shared accounts inbox.\n- Set up new suppliers in accordance with company procedures.\n- Post approved supplier payments in Sage and allocate them against invoices.\n- Process company expenses and assist with prepayment and accrual schedules. Issue customer statements, follow up overdue balances and maintain credit-control records.\n- Resolve customer debt and pricing queries, escalating issues where necessary. Raise approved credit notes and invoices for rebates and recharges.\n- Manage concession accounts and associated queries.\n- Complete monthly bank reconciliations and prepare bank analysis for month-end reporting. Reconcile retail sale transactions and card-payment receipts, settlements and fees.\n- Assist with audit requests and support the Finance Manager with ad hoc projects.\n\nWhat We need from You\n- Previous experience as a Finance Assistant, Accounts Assistant or in a similar accounting role.\n- Practical knowledge of purchase and sales ledgers, credit control and account reconciliations.\n- Strong attention to detail and accuracy when handling financial information.\n- Good numerical skills and a methodical approach to investigating discrepancies.\n- Confidence communicating with suppliers, customers and colleagues.\n- Effective organisational skills and the ability to manage competing deadlines.\n- Proficiency in Microsoft Excel and experience using accounting software; knowledge of Sage 200 would be an advantage.\n- The ability to work independently, contribute to a team and recognise when to seek guidance.\n- Discretion and respect for confidentiality.\n- Familiarity with AI tools, or a willingness to learn and use them appropriately to support finance tasks and improve efficiency.\n- Good understanding of trial balance principles:pepayments, accruals and reconcilliations\n- AAT qualified or an equivalent accounting qualification would also be an advantage.\n\nRemuneration and Benefits\n- Salary of £35,000 £38,000 per annum, depending on experience.\n- 22 days annual leave.\n- Staff discounts on products\n- Contributory pension scheme.\n- On site parking space.\n- Hybrid working between office and home after probationary period.\n- Study support may be available after a qualifying period, for those working towards AAT.\n\nInclusion and Equal Opportunities\n\nWe welcome applications from people of all backgrounds. If you require any adjustments during the recruitment process, please let us know.\n\nAll employment offers are subject to Right to Work verification.\n\nTo apply, please submit your CV and a brief covering statement outlining your relevant experience.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Y5CHIaMSKAwsL2Huef%2fbqYCjM23wm1nsv",
-    "source": "JobG8",
-    "finance_accounts_family_reason": "approved Accounts & Finance Operations title",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "23643_225643261",
     "title": "Planner",
     "company": "Daniel Owen Ltd - Agency - Permanent",
@@ -197,34 +173,6 @@
     "work_pattern": "Full Time",
     "salary_period": "Annual",
     "posted_date_basis": "ontap_first_published"
-  },
-  {
-    "job_id": "teaching-vacancies-receptionist-admissions-officer-bearbrook-combined-school",
-    "title": "Receptionist/Admissions Officer",
-    "company": "Bearbrook Combined School",
-    "location": "Aylesbury",
-    "region": "Buckinghamshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['full time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£26,522.00 - £28,742.00 Annually (FTE)",
-    "work_pattern": "",
-    "posted_date": "2026-10-05",
-    "closing_date": "2026-10-19",
-    "closing_datetime": "2026-10-19T23:59:00+01:00",
-    "summary": "Receptionist/Admissions Officer with Bearbrook Combined School in Aylesbury. ['full time']; £26,522.00 - £28,742.00 Annually (FTE).",
-    "description": "Bearbrook Combined School is recruiting for this vacancy in Aylesbury.\n\nThe advertised position is Receptionist/Admissions Officer.\n\nThe source lists the employment type as ['full time'].\n\nThe advertised salary or pay scale is £26,522.00 - £28,742.00 Annually (FTE).\n\nThe stated application deadline is 2026-10-19T23:59:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/receptionist-admissions-officer-bearbrook-combined-school?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Bearbrook Combined School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
   },
   {
     "job_id": "23643_225639626",
@@ -268,6 +216,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1194",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -287,6 +238,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0054-26-0123TMP",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

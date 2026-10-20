@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 48
+- automatic review: 50
 - automatic exclude: 0
 - effective include: 5
-- effective review: 48
+- effective review: 50
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: nhs-5657920
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (48)
+## REVIEW (50)
 
 ---
 action: 
@@ -131,6 +131,18 @@ company: Adecco - Agency - Temporary
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225707300
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Fusion People Ltd - Agency - Contract
+location: Staffordshire
+source: JobG8
+job_id: jobg8-23643_225740166
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -299,6 +311,18 @@ company: Global Recruitment Services Ltd - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225725469
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Hire Customer Service Administrator
+company: Universal Business Team - Agency - Permanent
+location: Stafford
+source: JobG8
+job_id: jobg8-23643_225739392
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

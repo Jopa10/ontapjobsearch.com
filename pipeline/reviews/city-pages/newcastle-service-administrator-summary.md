@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 28
+- Effective included jobs: 26
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 28
-- automatic review: 55
-- automatic exclude: 34
-- effective include: 28
-- effective review: 55
-- effective exclude: 34
+- automatic include: 26
+- automatic review: 54
+- automatic exclude: 35
+- effective include: 26
+- effective review: 54
+- effective exclude: 35
 
-## INCLUDE (28)
+## INCLUDE (26)
 
 ---
 action: 
@@ -105,18 +105,6 @@ company: Recruitment Helpline - Agency - Permanent
 location: Gateshead
 source: JobG8
 job_id: jobg8-23643_225705347
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrative Assistant
-company: Gateshead Health NHS Foundation Trust
-location: Gateshead, NE8 4YL
-source: NHS Jobs
-job_id: nhs-5658600
 reason: Approved Newcastle catchment.
 ---
 
@@ -257,18 +245,6 @@ action:
 decision: include
 automatic_decision: include
 title: Medical Receptionist
-company: Betts Avenue Medical Centre
-location: Newcastle Upon Tyne, NE15 6TQ, Newcastle Upon Tyne, NE3 3QP
-source: NHS Jobs
-job_id: nhs-5621861
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Receptionist
 company: Holmside Medical Group
 location: Newcastle upon Tyne, NE4 8QB, Newcastle Upon Tyne, NE5 1LJ
 source: NHS Jobs
@@ -360,7 +336,7 @@ job_id: jobg8-23643_225677749
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (55)
+## REVIEW (54)
 
 ---
 action: 
@@ -432,18 +408,6 @@ location: Cramlington
 source: JobG8
 job_id: jobg8-23643_225677784
 reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Westray Recruitment Consultants Ltd - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225725686
-reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -1022,7 +986,7 @@ job_id: jobg8-23643_225658559
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (34)
+## EXCLUDE (35)
 
 ---
 action: 
@@ -1117,6 +1081,18 @@ company: Trinity Academy New Bridge
 location: Sunderland
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-trinity-academy-new-bridge-sunderland
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: Moorlands Surgery
+location: Darlington, DL3 9JP
+source: NHS Jobs
+job_id: nhs-5672309
 reason: Separate employment market.
 ---
 
@@ -1244,18 +1220,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Internal Sales Coordinator
-company: Westray Recruitment Consultants Ltd - Agency - Permanent
-location: County Durham
-source: JobG8
-job_id: jobg8-23643_225685318
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Marketing Manager
 company: Reed - Agency - Permanent
 location: County Durham
@@ -1274,18 +1238,6 @@ location: HARTLEPOOL, TS25 1QU
 source: NHS Jobs
 job_id: nhs-5639684
 reason: Outside Newcastle catchment.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Mental Health Act Administrator
-company: Cygnet Health Care
-location: Darlington , DL1 2LJ
-source: NHS Jobs
-job_id: nhs-5636455
-reason: Separate employment market.
 ---
 
 ---
@@ -1321,6 +1273,18 @@ company: Spear-heads - Agency - Permanent
 location: County Durham
 source: JobG8
 job_id: jobg8-2036113
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Purchasing Administrator
+company: Paul Card Recruitment Ltd - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-2152924
 reason: Separate employment market.
 ---
 
@@ -1417,6 +1381,18 @@ company: Tees Esk and Wear Valleys NHS Foundation Trust
 location: Durham, DH1 4LW
 source: NHS Jobs
 job_id: nhs-5656729
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Team Administrator
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Durham, DH1 4LW
+source: NHS Jobs
+job_id: nhs-5670229
 reason: Separate employment market.
 ---
 

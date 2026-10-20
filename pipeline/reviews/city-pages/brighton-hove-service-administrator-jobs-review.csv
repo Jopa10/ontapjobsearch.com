@@ -21,7 +21,6 @@ review,nhs-5661992,Administrator (Part Time),Practice Plus Group - Health in Jus
 review,jobg8-2060824,Assistant Management Accountant,William Reed - Agency - Permanent,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
 review,jobg8-2060284,Bookkeeper,Bennett & Game Recruitment - Agency - Permanent,East Grinstead,JobG8,review,review,No approved Brighton & Hove catchment rule matched; local review required.,fallback,brighton-hove-service-administrator-jobs
 review,jobg8-23643_225676710,Bookkeeper,Bennett and Game Recruitment LTD - Agency - Permanent,East Grinstead,JobG8,review,review,No approved Brighton & Hove catchment rule matched; local review required.,fallback,brighton-hove-service-administrator-jobs
-review,jobg8-23643_225722548,Bookkeeper,Lloyd Recruitment - East Grinstead - Agency - Permanent,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
 review,jobg8-23643_225705214,Bookkeeper,Office Angels - Agency - Permanent,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
 review,jobg8-2013599,Bookkeeper,Reed - Agency - Permanent,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
 review,jobg8-2066607,Bookkeeper 6-Month Contract,Marks Sattin - Agency - Permanent,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
@@ -58,7 +57,6 @@ review,jobg8-23643_225730465,Marketing Graduate,Me Learning - Agency - Permanent
 review,jobg8-23643_225710178,Marketing Manager,McBride Sport - Agency - Permanent,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
 review,jobg8-2067963,Marketing Manager,Michael Page Marketing - Agency - Permanent,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
 review,jobg8-23643_225734194,Medical Receptionist,Staff Partners Business - Agency - Permanent,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
-review,jobg8-23643_225630104,Office Coordinator,Tate - Agency - Temporary,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
 review,jobg8-23643_225699234,Part time customer service administrator,Harris Lord Recruitment - Agency - Permanent,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
 review,jobg8-2021499,Payroll administrator,Portfolio Payroll - Agency - Permanent,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
 review,nhs-5657299,Receptionist,Bird In Eye Surgery,"Uckfield, TN22 5AW",NHS Jobs,review,review,No approved Brighton & Hove catchment rule matched; local review required.,fallback,brighton-hove-service-administrator-jobs
@@ -91,7 +89,6 @@ exclude,jobg8-2064741,Accounts Assistant,Morgan McKinley - Agency - Permanent,Ho
 exclude,jobg8-2074351,Accounts Payable,CMA Recruitment Group - Agency - Permanent,Chichester,JobG8,exclude,exclude,Separate employment market.,chichester,brighton-hove-service-administrator-jobs
 exclude,nhs-5667249,Admin Assistant,Sussex Partnership NHS Foundation Trust,"Eastbourne, BN21 3UU",NHS Jobs,exclude,exclude,Separate employment market.,eastbourne,brighton-hove-service-administrator-jobs
 exclude,jobg8-23643_225714153,Administrator,Harris Lord Recruitment - Agency - Temporary,Horsham,JobG8,exclude,exclude,Separate employment market.,horsham,brighton-hove-service-administrator-jobs
-exclude,teaching-vacancies-admissions-transition-assistant-community-receptionist-tanbridge-house-school,Admissions / Transition Assistant & Community Receptionist,Tanbridge House School,Horsham,Teaching Vacancies,exclude,exclude,Separate employment market.,horsham,brighton-hove-service-administrator-jobs
 exclude,jobg8-23643_225620946,Bookkeeper,Bennett and Game Recruitment LTD - Agency - Permanent,Horsham,JobG8,exclude,exclude,Separate employment market.,horsham,brighton-hove-service-administrator-jobs
 exclude,jobg8-23643_225640644,Call Handler,Daniel Owen Ltd - Agency - Contract,Crawley,JobG8,exclude,exclude,Separate employment market.,crawley,brighton-hove-service-administrator-jobs
 exclude,jobg8-23643_225648538,Call Handler,Skilled Careers - Agency - Temporary,Crawley,JobG8,exclude,exclude,Separate employment market.,crawley,brighton-hove-service-administrator-jobs
@@ -102,7 +99,6 @@ exclude,jobg8-23643_225716566,Document Controller (Construction),Skilled Careers
 exclude,jobg8-23643_225697488,Finance Assistant,Academics - Agency - Permanent,Crawley,JobG8,exclude,exclude,Separate employment market.,crawley,brighton-hove-service-administrator-jobs
 exclude,jobg8-2056498,Finance Assistant - Assistant Accountant,Morgan McKinley - Agency - Permanent,Horsham,JobG8,exclude,exclude,Separate employment market.,horsham,brighton-hove-service-administrator-jobs
 exclude,jobg8-23643_225718910,HR & Payroll Administrator - Immediate Start,Office Angels - Agency - Temporary,Crawley,JobG8,exclude,exclude,Separate employment market.,crawley,brighton-hove-service-administrator-jobs
-exclude,nhs-5660033,MSK Therapies - Booking Clerk,East Sussex Healthcare NHS Trust,"Hastings, TN37 7RD",NHS Jobs,exclude,exclude,Separate employment market.,hastings,brighton-hove-service-administrator-jobs
 exclude,jobg8-23643_225645838,Office Coordinator,Premier Work Support - Agency - Permanent,Horsham,JobG8,exclude,exclude,Separate employment market.,horsham,brighton-hove-service-administrator-jobs
 exclude,jobg8-23643_225736740,Office Coordinator / Sales Administrator - Immediate Start,Office Angels - Agency - Permanent,Crawley,JobG8,exclude,exclude,Separate employment market.,crawley,brighton-hove-service-administrator-jobs
 exclude,nhs-5661046,Receptionist,Arlington Road Medical Practice,"Eastbourne, BN21 1DH",NHS Jobs,exclude,exclude,Separate employment market.,eastbourne,brighton-hove-service-administrator-jobs

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 49
+- automatic review: 53
 - automatic exclude: 0
 - effective include: 8
-- effective review: 49
+- effective review: 53
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -76,6 +76,18 @@ reason: Exact approved Gloucester workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Personal Assistant
+company: Gloucestershire Health and Care NHS Foundation Trust
+location: Gloucester, GL1 3PX
+source: NHS Jobs
+job_id: nhs-5673215
+reason: Exact approved Gloucester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Purchase Ledger
 company: SF Partners - Agency - Contract
 location: Gloucester
@@ -108,19 +120,7 @@ job_id: jobg8-23643_225690247
 reason: Exact approved Gloucester workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Salesforce Administrator
-company: UBT - Agency - Permanent
-location: Gloucester
-source: JobG8
-job_id: jobg8-2085791
-reason: Exact approved Gloucester workplace.
----
-
-## REVIEW (49)
+## REVIEW (53)
 
 ---
 action: 
@@ -270,11 +270,35 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Bookkeeper
+company: Reed - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-2048160
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Business Support Administrator
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225673749
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Call Handler
+company: Adecco - Agency - Temporary
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225739898
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -395,6 +419,18 @@ company: Euro London - Agency - Permanent
 location: Cirencester
 source: JobG8
 job_id: jobg8-2022072
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: GP receptionist / Administrator
+company: STONEHOUSE HEALTH CLINIC
+location: Stonehouse, GL10 2NG
+source: NHS Jobs
+job_id: nhs-5672395
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -539,6 +575,18 @@ company: Expert Employment - Agency - Temporary
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225723573
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: G DOC Ltd
+location: Lydney, GL15 5NQ
+source: NHS Jobs
+job_id: nhs-5673959
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

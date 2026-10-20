@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 76
+- automatic review: 75
 - automatic exclude: 0
 - effective include: 9
-- effective review: 76
+- effective review: 75
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -132,7 +132,7 @@ job_id: jobg8-23643_225673829
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (76)
+## REVIEW (75)
 
 ---
 action: 
@@ -222,35 +222,23 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Accounts Assistant
+company: TMRG - Agency - Contract
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225738949
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Accounts Payable
 company: SF Partners - Agency - Contract
 location: Coventry
 source: JobG8
 job_id: jobg8-23643_225722424
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable Assistant
-company: Hays Accounts and Finance - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-23643_225677617
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable Assistant
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-2062212
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -330,11 +318,11 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Administrator - Purchasing
-company: Options Resourcing Ltd - Agency - Permanent
-location: Southam
+title: Administrator
+company: The Job People - Agency - Temporary
+location: Warwickshire
 source: JobG8
-job_id: jobg8-23643_225631423
+job_id: jobg8-23643_225739713
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -666,6 +654,18 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Office Administrator
+company: SolviT Recruitment Ltd - Agency - Temporary
+location: Rugby
+source: JobG8
+job_id: jobg8-23643_225738411
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Operations Administrator
 company: Four Squared Recruitment Ltd - Agency - Permanent
 location: Warwickshire
@@ -947,18 +947,6 @@ company: Arden Personnel - Agency - Contract
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225634834
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: Options Resourcing Ltd - Agency - Permanent
-location: Southam
-source: JobG8
-job_id: jobg8-23643_225631422
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

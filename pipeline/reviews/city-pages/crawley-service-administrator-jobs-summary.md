@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 69
-- automatic exclude: 35
+- automatic review: 67
+- automatic exclude: 33
 - effective include: 8
-- effective review: 69
-- effective exclude: 35
+- effective review: 67
+- effective exclude: 33
 
 ## INCLUDE (8)
 
@@ -120,7 +120,7 @@ job_id: jobg8-2048366
 reason: Exact approved Crawley workplace.
 ---
 
-## REVIEW (69)
+## REVIEW (67)
 
 ---
 action: 
@@ -252,18 +252,6 @@ location: East Grinstead
 source: JobG8
 job_id: jobg8-23643_225676710
 reason: No approved Crawley employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper
-company: Lloyd Recruitment - East Grinstead - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225722548
-reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
 ---
@@ -714,18 +702,6 @@ reason: The stated location is broader or less specific than the approved Crawle
 action: 
 decision: review
 automatic_decision: review
-title: Office Coordinator
-company: Tate - Agency - Temporary
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225630104
-reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Part time customer service administrator
 company: Harris Lord Recruitment - Agency - Permanent
 location: Sussex
@@ -950,7 +926,7 @@ job_id: jobg8-23643_225699794
 reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
-## EXCLUDE (35)
+## EXCLUDE (33)
 
 ---
 action: 
@@ -1093,18 +1069,6 @@ company: Harris Lord Recruitment - Agency - Temporary
 location: Horsham
 source: JobG8
 job_id: jobg8-23643_225714153
-reason: The stated workplace belongs outside the approved Crawley employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Admissions / Transition Assistant & Community Receptionist
-company: Tanbridge House School
-location: Horsham
-source: Teaching Vacancies
-job_id: teaching-vacancies-admissions-transition-assistant-community-receptionist-tanbridge-house-school
 reason: The stated workplace belongs outside the approved Crawley employment market.
 ---
 
@@ -1261,18 +1225,6 @@ company: BDS (Northern) Limited - Agency - Permanent
 location: Brighton
 source: JobG8
 job_id: jobg8-23643_225707578
-reason: The stated workplace belongs outside the approved Crawley employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: MSK Therapies - Booking Clerk
-company: East Sussex Healthcare NHS Trust
-location: Hastings, TN37 7RD
-source: NHS Jobs
-job_id: nhs-5660033
 reason: The stated workplace belongs outside the approved Crawley employment market.
 ---
 

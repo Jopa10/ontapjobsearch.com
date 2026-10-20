@@ -4,7 +4,7 @@
 - Live route: `/exeter/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 18
+- Effective included jobs: 21
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
-- automatic review: 48
+- automatic include: 21
+- automatic review: 47
 - automatic exclude: 0
-- effective include: 18
-- effective review: 48
+- effective include: 21
+- effective review: 47
 - effective exclude: 0
 
-## INCLUDE (18)
+## INCLUDE (21)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Switch - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-107719278
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Switch - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-107919719
 reason: Exact approved Exeter workplace.
 ---
 
@@ -105,6 +117,18 @@ company: Adecco - Agency - Temporary
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225702212
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Medical Administrator - GP Practice
+company: St Thomas Medical Group
+location: Exeter, EX4 1HJ, EXETER, EX4 2AD, Exeter, EX44QP
+source: NHS Jobs
+job_id: nhs-5672950
 reason: Exact approved Exeter workplace.
 ---
 
@@ -196,6 +220,30 @@ reason: Exact approved Exeter workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Service Administrator
+company: Royal Devon University Healthcare NHS Foundation Trust
+location: Exeter, EX2 5DW
+source: NHS Jobs
+job_id: nhs-5671390
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Service Advisor
+company: Perfect Placement - Agency - Permanent
+location: Exeter
+source: JobG8
+job_id: jobg8-23643_225740565
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Service Advisor
 company: Tru Talent - Agency - Permanent
 location: Exeter
@@ -228,19 +276,7 @@ job_id: jobg8-23643_225684864
 reason: Exact approved Exeter workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Ward Administrator
-company: Devon Partnership NHS Trust
-location: Exeter, EX2 5AF
-source: NHS Jobs
-job_id: nhs-5615165
-reason: Exact approved Exeter workplace.
----
-
-## REVIEW (48)
+## REVIEW (47)
 
 ---
 action: 
@@ -263,18 +299,6 @@ company: NHS Professionals - Company - Temporary
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225672975
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Avocet recruitment ltd - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225630202
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -307,10 +331,10 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: RG Setsquare - Agency - Temporary
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225682122
+company: Livewell Southwest
+location: Plymouth, PL4 7PY, PLYMOUTH, PL6 6EJ
+source: NHS Jobs
+job_id: nhs-5671815
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -319,10 +343,10 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Royal Devon University Healthcare NHS Foundation Trust
-location: Barnstaple, EX31 4JB
-source: NHS Jobs
-job_id: nhs-5643112
+company: RG Setsquare - Agency - Temporary
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225682122
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -438,6 +462,18 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Call Handler/ Administrator for Animal Charity- 3 weeks
+company: Hays Business Support - Agency - Temporary
+location: Sidmouth
+source: JobG8
+job_id: jobg8-23643_225738863
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Complaints Administrator
 company: Red Recruitment - Agency - Temporary
 location: Devon
@@ -479,18 +515,6 @@ company: Motofix Accident Repair Centres - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225726466
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
-company: Pivotal Partnerships - Agency - Permanent
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225632333
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

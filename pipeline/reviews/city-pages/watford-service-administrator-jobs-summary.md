@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 107
+- automatic review: 106
 - automatic exclude: 0
 - effective include: 7
-- effective review: 107
+- effective review: 106
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,7 +108,19 @@ job_id: nhs-5653585
 reason: Exact approved Watford workplace.
 ---
 
-## REVIEW (107)
+## REVIEW (106)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Absolute Recruit - Agency - Permanent
+location: Hertford
+source: JobG8
+job_id: jobg8-2153515
+reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
+---
 
 ---
 action: 
@@ -450,18 +462,6 @@ reason: The stated location is broader or less specific than the approved Watfor
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Assistant
-company: TSG Building Services plc - Agency - Temporary
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-23643_225733082
-reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: customer service/administrator
 company: Platypus Recruitment - Agency - Permanent
 location: Hertfordshire
@@ -618,12 +618,12 @@ reason: The stated location is broader or less specific than the approved Watfor
 action: 
 decision: review
 automatic_decision: review
-title: Headteacher's Personal Assistant
-company: Chancellor's School
-location: Hatfield
-source: Teaching Vacancies
-job_id: teaching-vacancies-headteacher-s-personal-assistant-chancellor-s-school
-reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
+title: German and Hebrew speaking Account Coordinator
+company: Language Matters Recruitment Consultants Ltd - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-23643_225741103
+reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
 ---
 
 ---
@@ -738,18 +738,6 @@ reason: The stated location is broader or less specific than the approved Watfor
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Executive
-company: Reed - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-1987810
-reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Medical Receptionist
 company: Midway Surgery
 location: St. Albans, AL2 3JX
@@ -815,18 +803,6 @@ company: Hales Group - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-23643_225700035
-reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Order Processing and Customer Support Coordinator - SAP
-company: Think Specialist Recruitment - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-23643_225631874
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
 ---
 
@@ -971,18 +947,6 @@ company: Vitae Financial Recruitment Limited - Agency - Permanent
 location: Royston
 source: JobG8
 job_id: jobg8-2076568
-reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll Administrator - Temp
-company: MPI Limited - Agency - Contract
-location: Hertford
-source: JobG8
-job_id: jobg8-23643_225734129
 reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -1163,6 +1127,18 @@ company: Hales Group - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-23643_225725073
+reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Hertfordshire Community NHS Trust
+location: Hertford, SG14 1LP
+source: NHS Jobs
+job_id: nhs-5672014
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
 ---
 
@@ -1379,6 +1355,18 @@ company: Hertfordshire Partnership University NHS Foundation Trust
 location: Welwyn Garden City, AL8 6HG
 source: NHS Jobs
 job_id: nhs-5665330
+reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary Administrator
+company: Red Door Recruitment - Agency - Contract
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-23643_225740539
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
 ---
 

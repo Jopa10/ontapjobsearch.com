@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 11
-- automatic review: 68
-- automatic exclude: 33
+- automatic review: 66
+- automatic exclude: 31
 - effective include: 11
-- effective review: 68
-- effective exclude: 33
+- effective review: 66
+- effective exclude: 31
 
 ## INCLUDE (11)
 
@@ -156,7 +156,7 @@ job_id: nhs-5667013
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (68)
+## REVIEW (66)
 
 ---
 action: 
@@ -288,18 +288,6 @@ location: East Grinstead
 source: JobG8
 job_id: jobg8-23643_225676710
 reason: No approved Brighton & Hove catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bookkeeper
-company: Lloyd Recruitment - East Grinstead - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225722548
-reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -738,18 +726,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Office Coordinator
-company: Tate - Agency - Temporary
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225630104
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Part time customer service administrator
 company: Harris Lord Recruitment - Agency - Permanent
 location: Sussex
@@ -974,7 +950,7 @@ job_id: jobg8-23643_225699794
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (33)
+## EXCLUDE (31)
 
 ---
 action: 
@@ -1136,18 +1112,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Admissions / Transition Assistant & Community Receptionist
-company: Tanbridge House School
-location: Horsham
-source: Teaching Vacancies
-job_id: teaching-vacancies-admissions-transition-assistant-community-receptionist-tanbridge-house-school
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Bookkeeper
 company: Bennett and Game Recruitment LTD - Agency - Permanent
 location: Horsham
@@ -1261,18 +1225,6 @@ company: Office Angels - Agency - Temporary
 location: Crawley
 source: JobG8
 job_id: jobg8-23643_225718910
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: MSK Therapies - Booking Clerk
-company: East Sussex Healthcare NHS Trust
-location: Hastings, TN37 7RD
-source: NHS Jobs
-job_id: nhs-5660033
 reason: Separate employment market.
 ---
 

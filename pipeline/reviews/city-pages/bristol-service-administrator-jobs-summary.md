@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 47
-- automatic review: 9
-- automatic exclude: 9
+- automatic review: 10
+- automatic exclude: 8
 - effective include: 47
-- effective review: 9
-- effective exclude: 9
+- effective review: 10
+- effective exclude: 8
 
 ## INCLUDE (47)
 
@@ -69,18 +69,6 @@ company: East Trees Health Centre
 location: Bristol, BS5 6SA
 source: NHS Jobs
 job_id: nhs-5648878
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administration Coordinator
-company: Willmott Dixon Group - Company - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225714308
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -340,6 +328,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Interim Accounts Assistant
+company: Hays Accounts and Finance - Agency - Temporary
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225740039
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Internal Sales
 company: Travail Employment Group - Agency - Permanent
 location: Bristol
@@ -588,7 +588,7 @@ job_id: nhs-5636801
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (9)
+## REVIEW (10)
 
 ---
 action: 
@@ -666,6 +666,18 @@ reason: No approved Bristol catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Interim Accounts Payable Assistant
+company: Hays Accounts and Finance - Agency - Temporary
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-23643_225740068
+reason: No approved Bristol catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Medical Receptionist / Administrator
 company: St Augustine’s Medical Practice
 location: Keynsham, BS31 2GN
@@ -698,7 +710,7 @@ job_id: jobg8-23643_225702996
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
-## EXCLUDE (9)
+## EXCLUDE (8)
 
 ---
 action: 
@@ -781,18 +793,6 @@ company: Juice Recruitment Ltd - Agency - Permanent
 location: Bath
 source: JobG8
 job_id: jobg8-2070922
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Project Coordinator - Full time
-company: CMD Recruitment - Agency - Permanent
-location: Bath
-source: JobG8
-job_id: jobg8-23643_225696548
 reason: Separate employment market.
 ---
 

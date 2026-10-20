@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 16
+- Effective included jobs: 14
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
-- automatic review: 5
-- automatic exclude: 64
-- effective include: 16
-- effective review: 5
-- effective exclude: 64
+- automatic include: 14
+- automatic review: 3
+- automatic exclude: 67
+- effective include: 14
+- effective review: 3
+- effective exclude: 67
 
-## INCLUDE (16)
+## INCLUDE (14)
 
 ---
 action: 
@@ -45,30 +45,6 @@ company: SF Partners - Agency - Contract
 location: Coventry
 source: JobG8
 job_id: jobg8-23643_225722424
-reason: Approved Coventry catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Payable Assistant
-company: Hays Accounts and Finance - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-23643_225677617
-reason: Approved Coventry catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Payable Assistant
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-2062212
 reason: Approved Coventry catchment.
 ---
 
@@ -216,19 +192,7 @@ job_id: jobg8-23643_225701362
 reason: Approved Coventry catchment.
 ---
 
-## REVIEW (5)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator - Purchasing
-company: Options Resourcing Ltd - Agency - Permanent
-location: Southam
-source: JobG8
-job_id: jobg8-23643_225631423
-reason: No approved Coventry catchment rule matched; local review required.
----
+## REVIEW (3)
 
 ---
 action: 
@@ -258,18 +222,6 @@ reason: No approved Coventry catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Sales Administrator
-company: Options Resourcing Ltd - Agency - Permanent
-location: Southam
-source: JobG8
-job_id: jobg8-23643_225631422
-reason: No approved Coventry catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Temp Administrator
 company: Brellis Recruitment - Agency - Permanent
 location: Southam
@@ -278,7 +230,7 @@ job_id: jobg8-23643_225656636
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (64)
+## EXCLUDE (67)
 
 ---
 action: 
@@ -356,6 +308,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Accounts Assistant
+company: TMRG - Agency - Contract
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225738949
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Accounts Assistant / Purchase Ledger (Manufacturing)
 company: Marc Daniels - Agency - Permanent
 location: Warwick
@@ -421,6 +385,18 @@ company: Practice Plus Group - Health in Justice
 location: Rugby, CV23 8AP
 source: NHS Jobs
 job_id: nhs-5667538
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: The Job People - Agency - Temporary
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225739713
 reason: Separate employment market.
 ---
 
@@ -769,6 +745,18 @@ company: Rother House Medical Centre
 location: Stratford-upon-avon, CV37 6PP
 source: NHS Jobs
 job_id: nhs-5657937
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Office Administrator
+company: SolviT Recruitment Ltd - Agency - Temporary
+location: Rugby
+source: JobG8
+job_id: jobg8-23643_225738411
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/aylesbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 12
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
-- automatic review: 70
+- automatic include: 10
+- automatic review: 68
 - automatic exclude: 0
-- effective include: 12
-- effective review: 70
+- effective include: 10
+- effective review: 68
 - effective exclude: 0
 
-## INCLUDE (12)
+## INCLUDE (10)
 
 ---
 action: 
@@ -100,18 +100,6 @@ reason: Exact approved Aylesbury workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Finance Assistant
-company: Fremaux Delorme Co Ltd - Agency - Permanent
-location: Aylesbury
-source: JobG8
-job_id: jobg8-23643_225711333
-reason: Exact approved Aylesbury workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Medical Receptionist
 company: Primary Care Management Solutions Ltd
 location: Aylesbury, HP21 8TR
@@ -129,18 +117,6 @@ company: Daniel Owen Ltd - Agency - Permanent
 location: Aylesbury
 source: JobG8
 job_id: jobg8-23643_225643261
-reason: Exact approved Aylesbury workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist/Admissions Officer
-company: Bearbrook Combined School
-location: Aylesbury
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-admissions-officer-bearbrook-combined-school
 reason: Exact approved Aylesbury workplace.
 ---
 
@@ -168,7 +144,7 @@ job_id: nhs-5648388
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (70)
+## REVIEW (68)
 
 ---
 action: 
@@ -359,18 +335,6 @@ company: Future Engineering Recruitment Ltd - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225698486
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator - Prison Education - HMP Bullingdon
-company: Milton Keynes College
-location: Milton Keynes
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-prison-education-hmp-bullingdon
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -570,18 +534,6 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Sales Administrator
-company: ASL - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225529617
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer service sales support
 company: ASL - Agency - Permanent
 location: Buckinghamshire
@@ -726,6 +678,18 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Office Coordinator
+company: Randstad Finance - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-23643_225739749
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Operations Administrator
 company: Osborne Appointments - Agency - Temporary
 location: Buckingham
@@ -775,18 +739,6 @@ action:
 decision: review
 automatic_decision: review
 title: Part Time Finance Assistant
-company: Bucks and Berks Recruitment - Agency - Permanent
-location: High Wycombe
-source: JobG8
-job_id: jobg8-2044228
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part Time Finance Assistant
 company: Platinum Resourcing - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
@@ -798,11 +750,11 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Part Time Receptionist
+title: Part Time Receptionist (22 hours)
 company: Osborne Appointments - Agency - Temporary
 location: Milton Keynes
 source: JobG8
-job_id: jobg8-23643_225701778
+job_id: jobg8-23643_225739617
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

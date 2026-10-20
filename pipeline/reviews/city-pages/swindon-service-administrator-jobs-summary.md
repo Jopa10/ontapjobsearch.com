@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 11
-- automatic review: 22
+- automatic review: 25
 - automatic exclude: 0
 - effective include: 11
-- effective review: 22
+- effective review: 25
 - effective exclude: 0
 
 ## INCLUDE (11)
@@ -33,18 +33,6 @@ company: Liden Academy
 location: Swindon
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-181abc61-ea48-424a-9686-308bb273394d
-reason: Exact approved Swindon workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Bookkeeper
-company: CMD Recruitment - Agency - Permanent
-location: Swindon
-source: JobG8
-job_id: jobg8-23643_225674289
 reason: Exact approved Swindon workplace.
 ---
 
@@ -136,6 +124,18 @@ reason: Exact approved Swindon workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist / Administrator
+company: https://www.parklanepracticeswindon.nhs.uk/
+location: Swindon, SN1 5HG, Swindon, SN1 5HG, Swindon, SN5 8SX
+source: NHS Jobs
+job_id: nhs-5672714
+reason: Exact approved Swindon workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: School & Nursery Administrator
 company: Liden Academy
 location: Swindon
@@ -156,7 +156,7 @@ job_id: jobg8-23643_225653482
 reason: Exact approved Swindon workplace.
 ---
 
-## REVIEW (22)
+## REVIEW (25)
 
 ---
 action: 
@@ -186,12 +186,12 @@ reason: The stated location is broader or less specific than the approved Swindo
 action: 
 decision: review
 automatic_decision: review
-title: Attendance Officer
-company: St Joseph's Catholic School
-location: Salisbury
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-officer-686fafdf-6fc7-4a4c-ab8f-87001b20de78
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
+title: Assurance Coordinator Porton Down
+company: Mainstay Facilities - Agency - Permanent
+location: Wiltshire
+source: JobG8
+job_id: jobg8-108182792
+reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
 ---
@@ -307,10 +307,46 @@ action:
 decision: review
 automatic_decision: review
 title: Sales Administrator
+company: CMD Recruitment - Agency - Contract
+location: Devizes
+source: JobG8
+job_id: jobg8-23643_225741364
+reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
 company: Consult2Recruit - Agency - Permanent
 location: Devizes
 source: JobG8
 job_id: jobg8-23643_225672054
+reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Secretary (full or part-time)
+company: Thrive Group - Agency - Permanent
+location: Trowbridge
+source: JobG8
+job_id: jobg8-108205110
+reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Secretary (full or part-time)
+company: Thrive Group - Agency - Permanent
+location: Trowbridge
+source: JobG8
+job_id: jobg8-23643_225738689
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -370,18 +406,6 @@ title: Service Advisor (Motor)
 company: Thrive Group - Agency - Permanent
 location: Melksham
 source: JobG8
-job_id: jobg8-108160199
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Advisor (Motor)
-company: Thrive Group - Agency - Permanent
-location: Melksham
-source: JobG8
 job_id: jobg8-23643_225719796
 reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
 ---
@@ -419,6 +443,18 @@ company: Manucomm Recruitment Ltd - Agency - Permanent
 location: Wiltshire
 source: JobG8
 job_id: jobg8-23643_225656421
+reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Technical Support Coordinator
+company: Corston Architectural Detail - Agency - Permanent
+location: Wiltshire
+source: JobG8
+job_id: jobg8-108189021
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 

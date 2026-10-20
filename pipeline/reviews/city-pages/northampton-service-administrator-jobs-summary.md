@@ -4,7 +4,7 @@
 - Live route: `/northampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 19
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 19
-- automatic review: 46
+- automatic include: 16
+- automatic review: 47
 - automatic exclude: 0
-- effective include: 19
-- effective review: 46
+- effective include: 16
+- effective review: 47
 - effective exclude: 0
 
-## INCLUDE (19)
+## INCLUDE (16)
 
 ---
 action: 
@@ -64,23 +64,11 @@ reason: Exact approved Northampton workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Bookkeeper
-company: Reed - Agency - Permanent
+title: Business Development Executive
+company: Universal Business Team - Agency - Permanent
 location: Northampton
 source: JobG8
-job_id: jobg8-2088477
-reason: Exact approved Northampton workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Development Executive (Office Based)
-company: Ernest Gordon Recruitment Limited - Agency - Permanent
-location: Northampton
-source: JobG8
-job_id: jobg8-23643_225717010
+job_id: jobg8-23643_225628077
 reason: Exact approved Northampton workplace.
 ---
 
@@ -117,18 +105,6 @@ company: Impact Recruitment Services - Agency - Permanent
 location: Northampton
 source: JobG8
 job_id: jobg8-23643_225652290
-reason: Exact approved Northampton workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Designated Specialist Provision (DSP) Admin Assistant
-company: Moulton School and Science College
-location: Northampton
-source: Teaching Vacancies
-job_id: teaching-vacancies-designated-specialist-provision-dsp-admin-assistant-moulton-school-and-science-college-northampton-northamptonshire
 reason: Exact approved Northampton workplace.
 ---
 
@@ -184,18 +160,6 @@ reason: Exact approved Northampton workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Italian Customer Service
-company: Impact Recruitment Services - Agency - Permanent
-location: Northampton
-source: JobG8
-job_id: jobg8-23643_225631440
-reason: Exact approved Northampton workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Part Time Administrator
 company: The National Allotment Society - Agency - Permanent
 location: Northampton
@@ -220,11 +184,11 @@ reason: Exact approved Northampton workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Sales Executive (Office Based)
-company: Ernest Gordon Recruitment Limited - Agency - Permanent
-location: Northampton
-source: JobG8
-job_id: jobg8-23643_225687685
+title: Receptionist
+company: County Surgery
+location: Northampton, NN1 4QA, Rushden, NN10 9TR
+source: NHS Jobs
+job_id: nhs-5672247
 reason: Exact approved Northampton workplace.
 ---
 
@@ -252,7 +216,7 @@ job_id: jobg8-23643_225641855
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (46)
+## REVIEW (47)
 
 ---
 action: 
@@ -474,11 +438,35 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Export Administrator
+company: CML Fulfilment and Logistics - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-108188202
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Facilities Coordinator
 company: Major Recruitment North West Perms - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-23643_225721443
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Administrator (Payroll)
+company: Interaction Recruitment - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225739748
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -642,35 +630,11 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Part-time Payroll Administrator
-company: Cole Connections Ltd - Agency - Permanent
-location: Wellingborough
-source: JobG8
-job_id: jobg8-2039797
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Personal Assistant
 company: Miller Homes - Agency - Contract
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-23643_225646341
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Project Administrator - CAD Experience
-company: ACS Staffing Solutions - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-23643_225636122
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -743,6 +707,18 @@ company: Interaction Recruitment - Agency - Temporary
 location: Corby
 source: JobG8
 job_id: jobg8-23643_225724757
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Support Executive
+company: Complii - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225738732
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

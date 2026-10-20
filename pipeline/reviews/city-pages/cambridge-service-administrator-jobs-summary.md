@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 23
-- automatic review: 8
-- automatic exclude: 16
+- automatic review: 7
+- automatic exclude: 18
 - effective include: 23
-- effective review: 8
-- effective exclude: 16
+- effective review: 7
+- effective exclude: 18
 
 ## INCLUDE (23)
 
@@ -81,18 +81,6 @@ company: North Cambridge Academy
 location: Cambridge
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-international-and-community-projects-north-cambridge-academy
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Cambridgeshire and Peterborough NHS Foundation Trust
-location: Fulbourn, Cambridge,, CB21 5EE
-source: NHS Jobs
-job_id: nhs-5642204
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -300,7 +288,19 @@ job_id: jobg8-23643_225721995
 reason: Approved conservative Cambridge launch catchment.
 ---
 
-## REVIEW (8)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Ward Clerk
+company: Cambridge University Hospital NHS Foundation Trust
+location: Cambridge, CB2 0QQ
+source: NHS Jobs
+job_id: nhs-5673923
+reason: Approved conservative Cambridge launch catchment.
+---
+
+## REVIEW (7)
 
 ---
 action: 
@@ -311,18 +311,6 @@ company: Vista Academy Littleport
 location: Ely
 source: Teaching Vacancies
 job_id: teaching-vacancies-attendance-administrator-vista-academy-littleport
-reason: No approved Cambridge catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Attendance Administrator
-company: Witchford Village College
-location: Ely
-source: Teaching Vacancies
-job_id: teaching-vacancies-attendance-administrator-witchford-village-college
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
@@ -398,7 +386,7 @@ job_id: jobg8-23643_225691104
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (16)
+## EXCLUDE (18)
 
 ---
 action: 
@@ -433,18 +421,6 @@ company: Barker Ross - Agency - Temporary
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_225719523
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Cambridgeshire and Peterborough NHS Foundation Trust
-location: Peterborough, PE78FZ
-source: NHS Jobs
-job_id: nhs-5647546
 reason: Separate employment market.
 ---
 
@@ -500,6 +476,30 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Customer Order Management Administrator
+company: Morgan Jones Recruitment Consultants - Agency - Contract
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225733606
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Services Administrator - Part Time
+company: Barker Ross - Agency - Temporary
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225739330
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Enterprise Sales Administrator
 company: CRG TEC - Agency - Permanent
 location: Peterborough
@@ -548,6 +548,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Interim Sales & Marketing Executive
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-2153112
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Medical Receptionist/ Administrator
 company: Dr Laliwala and Partners
 location: Peterborough, PE1 4FS
@@ -584,10 +596,10 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist
-company: Old Fletton Surgery
-location: Peterborough, PE2 8AY
-source: NHS Jobs
-job_id: nhs-5665914
+title: Sales Support Executive
+company: Strange and Wright Recruitment Partners LTD - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225739501
 reason: Separate employment market.
 ---

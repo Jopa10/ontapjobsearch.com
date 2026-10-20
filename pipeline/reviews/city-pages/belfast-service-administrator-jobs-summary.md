@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 3
+- automatic review: 4
 - automatic exclude: 0
 - effective include: 3
-- effective review: 3
+- effective review: 4
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: jobg8-23643_225679035
 reason: Approved conservative Belfast launch catchment.
 ---
 
-## REVIEW (3)
+## REVIEW (4)
 
 ---
 action: 
@@ -95,6 +95,18 @@ company: Reed - Agency - Permanent
 location: Carryduff
 source: JobG8
 job_id: jobg8-2091543
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Commercial Vehicles Administrator
+company: Briggs Equipment Ltd - Agency - Permanent
+location: Lisburn
+source: JobG8
+job_id: jobg8-107952610
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 

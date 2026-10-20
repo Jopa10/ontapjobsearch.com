@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 11
-- automatic review: 43
+- automatic review: 44
 - automatic exclude: 0
 - effective include: 11
-- effective review: 43
+- effective review: 44
 - effective exclude: 0
 
 ## INCLUDE (11)
@@ -64,11 +64,11 @@ reason: Exact approved Walsall workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Clerical officer
-company: Walsall Healthcare NHS Trust
-location: walsall, WV12 5PR
-source: NHS Jobs
-job_id: nhs-5641631
+title: Customer Service Advisor Monday to Friday
+company: Interaction Recruitment - Agency - Temporary
+location: Walsall
+source: JobG8
+job_id: jobg8-23643_225708173
 reason: Exact approved Walsall workplace.
 ---
 
@@ -76,11 +76,11 @@ reason: Exact approved Walsall workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Advisor Monday to Friday
-company: Interaction Recruitment - Agency - Temporary
-location: Walsall
-source: JobG8
-job_id: jobg8-23643_225708173
+title: Outpatient Receptionist
+company: Walsall Healthcare NHS Trust
+location: Walsall, WS2 9PS
+source: NHS Jobs
+job_id: nhs-5671834
 reason: Exact approved Walsall workplace.
 ---
 
@@ -156,7 +156,7 @@ job_id: nhs-5664251
 reason: Exact approved Walsall workplace.
 ---
 
-## REVIEW (43)
+## REVIEW (44)
 
 ---
 action: 
@@ -270,11 +270,11 @@ reason: The stated location is broader or less specific than the approved Walsal
 action: 
 decision: review
 automatic_decision: review
-title: Adult Social Care DoLS Co-ordinator
-company: Connect2Dudley - Agency - Temporary
-location: Dudley
-source: JobG8
-job_id: jobg8-23643_225647283
+title: Administrator
+company: The Royal Wolverhampton NHS Trust
+location: Wolverhampton, WV10 9RU
+source: NHS Jobs
+job_id: nhs-5672149
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -282,11 +282,11 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Business Coordinator to MD
-company: International Insignia - Agency - Permanent
-location: Wolverhampton
+title: Adult Social Care DoLS Co-ordinator
+company: Connect2Dudley - Agency - Temporary
+location: Dudley
 source: JobG8
-job_id: jobg8-23643_225631415
+job_id: jobg8-23643_225647283
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -474,11 +474,11 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: HR and Payroll Assistant
-company: SF Partners - Agency - Contract
-location: Kingswinford
+title: HR Assistant
+company: Michael Page - Agency - Permanent
+location: West Bromwich
 source: JobG8
-job_id: jobg8-23643_225712520
+job_id: jobg8-23643_225740838
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -515,6 +515,18 @@ company: Industrial Recruitment Solutions Ltd - Agency - Temporary
 location: Wolverhampton
 source: JobG8
 job_id: jobg8-23643_225673345
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Planning Coordinator
+company: Adecco - Agency - Temporary
+location: Kingswinford
+source: JobG8
+job_id: jobg8-23643_225741050
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 

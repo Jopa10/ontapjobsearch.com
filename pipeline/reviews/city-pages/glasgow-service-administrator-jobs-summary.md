@@ -4,7 +4,7 @@
 - Live route: `/glasgow/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 32
+- Effective included jobs: 30
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 32
-- automatic review: 4
+- automatic include: 30
+- automatic review: 3
 - automatic exclude: 0
-- effective include: 32
-- effective review: 4
+- effective include: 30
+- effective review: 3
 - effective exclude: 0
 
-## INCLUDE (32)
+## INCLUDE (30)
 
 ---
 action: 
@@ -185,18 +185,6 @@ action:
 decision: include
 automatic_decision: include
 title: Customer Service Advisor
-company: Recruitment Helpline - Agency - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225631819
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
 company: Red Recruitment - Agency - Permanent
 location: Glasgow
 source: JobG8
@@ -225,18 +213,6 @@ company: Total Facilities Recruitment Limited - Agency - Temporary
 location: Glasgow
 source: JobG8
 job_id: jobg8-23643_225636334
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Ferrari Receptionist / Host
-company: Sytner - Company - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225735732
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -408,7 +384,7 @@ job_id: jobg8-23643_225660265
 reason: Approved conservative Glasgow launch catchment.
 ---
 
-## REVIEW (4)
+## REVIEW (3)
 
 ---
 action: 
@@ -443,18 +419,6 @@ company: Realise Recruitment - Agency - Permanent
 location: Not Specified
 source: JobG8
 job_id: jobg8-23643_224045478
-reason: No approved Glasgow catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trainee/Graduate Sales Consultant (Phone Based)
-company: The Portfolio Group - Agency - Permanent
-location: Not Specified
-source: JobG8
-job_id: jobg8-23643_225635523
 reason: No approved Glasgow catchment rule matched; local review required.
 ---
 

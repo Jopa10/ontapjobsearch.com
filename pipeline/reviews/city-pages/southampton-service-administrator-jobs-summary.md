@@ -4,7 +4,7 @@
 - Live route: `/southampton/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 15
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
+- automatic include: 13
 - automatic review: 101
-- automatic exclude: 45
-- effective include: 15
+- automatic exclude: 44
+- effective include: 13
 - effective review: 101
-- effective exclude: 45
+- effective exclude: 44
 
-## INCLUDE (15)
+## INCLUDE (13)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 location: Southampton, SO16 4XE
 source: NHS Jobs
 job_id: nhs-5657473
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Dynamite Recruitment - Agency - Temporary
-location: Southampton
-source: JobG8
-job_id: jobg8-23643_225679074
 reason: Approved Southampton catchment.
 ---
 
@@ -93,18 +81,6 @@ company: Michael Page Finance - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-2087359
-reason: Approved Southampton catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Business Support Assistant
-company: University Hospital Southampton NHS Trust
-location: Southampton, SO16 7NP
-source: NHS Jobs
-job_id: nhs-5659034
 reason: Approved Southampton catchment.
 ---
 
@@ -390,6 +366,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Aftersales Service Advisor
+company: Eclipse Car Sales - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225740489
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Assistant Accountant
 company: CMA Recruitment Group - Agency - Permanent
 location: Romsey
@@ -487,18 +475,6 @@ action:
 decision: review
 automatic_decision: review
 title: Contractor Support Administrator
-company: Insignis - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225724165
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Contractor Support Administrator
 company: STR Group Careers - Agency - Permanent
 location: Hampshire
 source: JobG8
@@ -558,23 +534,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Data Entry Clerk
-company: Connect2Hampshire - Agency - Contract
+title: Document Controller
+company: Bennett and Game Recruitment LTD - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-23643_225734087
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Divisional HR Assistant
-company: Denholm Industrial Services Ltd - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225631589
+job_id: jobg8-23643_225650556
 reason: Broad location; review before city inclusion.
 ---
 
@@ -583,10 +547,10 @@ action:
 decision: review
 automatic_decision: review
 title: Document Controller
-company: Bennett and Game Recruitment LTD - Agency - Permanent
+company: Fawkes & Reece London - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-23643_225650556
+job_id: jobg8-23643_225738236
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1266,6 +1230,18 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Sales Ledger Administrator
+company: Conquip Engineering Group - Agency - Permanent
+location: Alton
+source: JobG8
+job_id: jobg8-23643_225738779
+reason: No approved Southampton catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Ledger Assistant
 company: DOMO TACTICAL COMMUNICATIONS - Agency - Permanent
 location: Hampshire
@@ -1418,7 +1394,7 @@ job_id: jobg8-23643_225665585
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (45)
+## EXCLUDE (44)
 
 ---
 action: 
@@ -1621,18 +1597,6 @@ company: CMA Recruitment Group - Agency - Temporary
 location: Portsmouth
 source: JobG8
 job_id: jobg8-23643_225658714
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Coordinator
-company: Dynamite Recruitment - Agency - Temporary
-location: Eastleigh
-source: JobG8
-job_id: jobg8-23643_225685753
 reason: Separate employment market.
 ---
 

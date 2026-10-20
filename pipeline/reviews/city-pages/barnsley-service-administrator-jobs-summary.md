@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 5
 - automatic review: 6
-- automatic exclude: 50
+- automatic exclude: 51
 - effective include: 5
 - effective review: 6
-- effective exclude: 50
+- effective exclude: 51
 
 ## INCLUDE (5)
 
@@ -158,7 +158,7 @@ job_id: jobg8-23643_225681456
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (50)
+## EXCLUDE (51)
 
 ---
 action: 
@@ -332,6 +332,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Clerical Officer
+company: Sheffield Teaching Hospitals NHS Foundation Trust
+location: Sheffield, S5 7AU
+source: NHS Jobs
+job_id: nhs-5673070
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Clerical Officer/Receptionist
 company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S10 2JF
@@ -464,18 +476,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Hr Coordinator
-company: Connected Search Group - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225707290
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Insolvency Case Administrator
 company: GGT Insolvency Recruitment - Agency - Permanent
 location: Sheffield
@@ -517,6 +517,18 @@ company: Norwood Medical Centre
 location: Sheffield, S5 7HD
 source: NHS Jobs
 job_id: nhs-5630483
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Operations Administrator
+company: Sue Ross Recruitment Ltd - Agency - Temporary
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225739418
 reason: Separate employment market.
 ---
 
@@ -681,18 +693,6 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Receptionist
-company: Red Sector Recruitment Limited - Agency - Temporary
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225726240
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
 company: White House Farm Medical Centre
 location: Doncaster, DN3 3AH
 source: NHS Jobs
@@ -745,6 +745,18 @@ company: Sue Ross Recruitment Ltd - Agency - Contract
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225736471
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Service and Validation Administrator
+company: Unicorn Resourcing - Agency - Permanent
+location: Rotherham
+source: JobG8
+job_id: jobg8-23643_225739769
 reason: Separate employment market.
 ---
 

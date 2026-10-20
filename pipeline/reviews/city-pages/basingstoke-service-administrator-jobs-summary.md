@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 155
+- automatic review: 152
 - automatic exclude: 0
 - effective include: 6
-- effective review: 155
+- effective review: 152
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225686728
 reason: Exact approved Basingstoke workplace.
 ---
 
-## REVIEW (155)
+## REVIEW (152)
 
 ---
 action: 
@@ -332,18 +332,6 @@ decision: review
 automatic_decision: review
 title: Administrator
 company: Dynamite Recruitment - Agency - Temporary
-location: Southampton
-source: JobG8
-job_id: jobg8-23643_225679074
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Dynamite Recruitment - Agency - Temporary
 location: Eastleigh
 source: JobG8
 job_id: jobg8-23643_225729345
@@ -450,6 +438,18 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Aftersales Service Advisor
+company: Eclipse Car Sales - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225740489
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Assistant Accountant
 company: CMA Recruitment Group - Agency - Permanent
 location: Andover
@@ -534,18 +534,6 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Business Support Assistant
-company: University Hospital Southampton NHS Trust
-location: Southampton, SO16 7NP
-source: NHS Jobs
-job_id: nhs-5659034
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Care Navigator (Receptionist)
 company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 location: Gosport, PO12 1BA, Gosport, PO12 1PA, Gosport, PO13 0EW, Gosport, PO12 3AQ, Gosport, PO12 3JP
@@ -587,18 +575,6 @@ company: Prospero Group - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225672490
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Contractor Support Administrator
-company: Insignis - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225724165
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -726,35 +702,11 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Coordinator
-company: Dynamite Recruitment - Agency - Temporary
-location: Eastleigh
-source: JobG8
-job_id: jobg8-23643_225685753
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Data Entry Clerk
-company: Connect2Hampshire - Agency - Contract
+title: Document Controller
+company: Bennett and Game Recruitment LTD - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-23643_225734087
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Divisional HR Assistant
-company: Denholm Industrial Services Ltd - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225631589
+job_id: jobg8-23643_225650556
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -763,10 +715,10 @@ action:
 decision: review
 automatic_decision: review
 title: Document Controller
-company: Bennett and Game Recruitment LTD - Agency - Permanent
+company: Fawkes & Reece London - Agency - Permanent
 location: Hampshire
 source: JobG8
-job_id: jobg8-23643_225650556
+job_id: jobg8-23643_225738236
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -1727,6 +1679,18 @@ company: ECS Resource Group Ltd - Agency - Permanent
 location: Aldershot
 source: JobG8
 job_id: jobg8-23643_225661253
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Ledger Administrator
+company: Conquip Engineering Group - Agency - Permanent
+location: Alton
+source: JobG8
+job_id: jobg8-23643_225738779
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 

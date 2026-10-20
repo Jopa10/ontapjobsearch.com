@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 30
-- automatic exclude: 47
+- automatic review: 31
+- automatic exclude: 45
 - effective include: 8
-- effective review: 30
-- effective exclude: 47
+- effective review: 31
+- effective exclude: 45
 
 ## INCLUDE (8)
 
@@ -120,7 +120,7 @@ job_id: teaching-vacancies-student-receptionist-and-pastoral-assistant-cheney-sc
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (30)
+## REVIEW (31)
 
 ---
 action: 
@@ -179,6 +179,30 @@ company: Cameo Consultancy - Agency - Permanent
 location: Banbury
 source: JobG8
 job_id: jobg8-23643_225707609
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: Red Recruitment - Agency - Temporary
+location: Banbury
+source: JobG8
+job_id: jobg8-23643_225739605
+reason: No approved Oxford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Administrator
+company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
+location: Witney
+source: JobG8
+job_id: jobg8-23643_225738412
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -299,18 +323,6 @@ company: Abingdon School - Agency - Contract
 location: Abingdon
 source: JobG8
 job_id: jobg8-23643_225710419
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Office Coordinator
-company: Office Angels - Agency - Permanent
-location: Bicester
-source: JobG8
-job_id: jobg8-23643_225732186
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -482,7 +494,7 @@ job_id: nhs-5664768
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (47)
+## EXCLUDE (45)
 
 ---
 action: 
@@ -788,35 +800,11 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Management Accountant/Bookkeeper
-company: Ambition Europe Limited - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-2049838
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Marketing Executive - B2B - Professional Services
 company: Michael Page - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225716112
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Materials / Stock Administrator
-company: Vibe Recruit - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225710553
 reason: Broad county location; not Oxford-city evidence.
 ---
 

@@ -342,6 +342,18 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Advisor
+company: Yorkshire Building Society (YBS) - Agency - Permanent
+location: Ripon
+source: JobG8
+job_id: jobg8-108187895
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Administrator
 company: Sewell Wallis Ltd - Agency - Permanent
 location: York
@@ -606,35 +618,11 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Purchasing Assistant 9-12 Month Contract
-company: SI Recruitment - Agency - Permanent
-location: Northallerton
-source: JobG8
-job_id: jobg8-108167097
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Reception Administrator
 company: Travail Employment Group - Agency - Permanent
 location: Knaresborough
 source: JobG8
 job_id: jobg8-23643_225661252
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Capital Outsourcing Group Ltd - Agency - Permanent
-location: Ripon
-source: JobG8
-job_id: jobg8-23643_225655354
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -719,6 +707,18 @@ company: Auto Skills UK - Agency - Permanent
 location: Richmond
 source: JobG8
 job_id: jobg8-23643_225729465
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Coordinator
+company: Interaction - Leeds - Agency - Permanent
+location: Malton
+source: JobG8
+job_id: jobg8-108059238
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
