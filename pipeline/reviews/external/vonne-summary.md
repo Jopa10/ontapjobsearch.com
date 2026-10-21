@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-10-20
-review_fingerprint: 4b459e6e27af022761056538f8249c00d90a1e119691994621024e1af3154c75
+review_date: 2026-10-21
+review_fingerprint: 5970819fae321ceb103f1bb80b34470d882f28ee6a4bad0e9adbbf435aab8c7e
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,9 +10,9 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-10-20T12:57:59+01:00
+Run generated: 2026-10-21T13:12:55+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 417
+JobG8 comparison rows: 411
 Approved NEJobs comparison rows: 0
 
 ## Funnel
@@ -31,8 +31,8 @@ Approved NEJobs comparison rows: 0
 - POSS: 6
 - HARD_PASS: 7
 - Final selected after remembered/manual actions: 1
-- Final POSS awaiting decision: 5
-- Manually excluded: 1
+- Final POSS awaiting decision: 0
+- Manually excluded: 6
 ## Detail diagnostics
 - No unresolved detail-page failures.
 
@@ -137,13 +137,13 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173537
 
 ## HARD_PASS
 
+- [Access to Work Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173559) — out-of-scope VONNE occupation.
 - [Advice Services Manager (Community)](https://www.vonne.org.uk/vonne-jobs-details?cid=173555) — out-of-scope VONNE occupation.
 - [Bid Writer (Trusts and Foundations)](https://www.vonne.org.uk/vonne-jobs-details?cid=173383) — insufficient service-admin evidence.
 - [Chief Executive](https://www.vonne.org.uk/vonne-jobs-details?cid=173526) — out-of-scope VONNE occupation.
 - [Community Link Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173544) — out-of-scope VONNE occupation.
 - [Employability and Skills Mentor](https://www.vonne.org.uk/vonne-jobs-details?cid=173545) — insufficient service-admin evidence.
 - [Independent Advocate](https://www.vonne.org.uk/vonne-jobs-details?cid=173539) — insufficient service-admin evidence.
-- [Interim Chief Executive Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173518) — out-of-scope VONNE occupation.
 
 ## Safety boundary
 - The script writes CSV and Markdown review outputs only.
