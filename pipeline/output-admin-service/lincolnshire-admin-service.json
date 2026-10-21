@@ -293,31 +293,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225637933",
-    "title": "Private Client Secretary",
-    "company": "Hays Business Support - Agency - Permanent",
-    "location": "Lincolnshire",
-    "region": "Lincolnshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "26000",
-    "salary_max": "29000",
-    "salary_text": "£26000 - £29000 per year",
-    "posted_date": "",
-    "description": "Private Client Legal Secretary\n\nLincoln Full Time Office Based 26,000 - 29,000 Maternity Cover from November 2026 with potential opportunities beyond the initial contract\n\nThe best Legal Secretaries are often the people who quietly hold everything together.\n\nThey're the person who keeps a busy department organised, makes clients feel looked after and ensures that even the busiest days run smoothly. If that sounds like you, this could be a fantastic opportunity.\n\nWe're working with a long-established Lincoln law firm with an excellent reputation and, just as importantly, a reputation for looking after its people. In a profession where movement between firms can be common, many members of the team have built long and successful careers here. People stay because they're valued, trusted and genuinely enjoy being part of the firm.\n\nThis opportunity has arisen as a valued member of the team prepares to go on maternity leave. To allow for a thorough handover, the successful candidate will join in November 2026 ahead of maternity leave commencing in January. Whilst initially offered on a fixed-term basis, there is a realistic possibility that opportunities could exist beyond the maternity cover period.\n\nWorking closely with an experienced, busy and approachable Head of Department, you'll support a broad range of Private Client matters including Wills, Probate, Powers of Attorney and Estate Administration. You'll manage diaries and appointments, prepare correspondence and legal documentation, liaise with clients and professional contacts and help ensure matters continue progressing smoothly and efficiently.\n\nMore than anything, this role would suit somebody who loves being organised, enjoys creating structure and takes pride in being the person others rely on. Previous legal secretarial experience would be preferred, but we're equally interested in speaking with strong secretaries who have developed their skills within professional services environments, including strong audio typing skills and are looking for a role where they can make a genuine difference.\n\nPerhaps you're looking for a firm where your contribution will be recognised. Maybe you'd like to work more closely with an experienced lawyer who values good support. Or perhaps you're simply looking for a business where people stay because they enjoy being there.\n\nWhatever your reason for considering a move, opportunities like this don't come around very often. A respected local firm, a supportive manager, a proper handover, meaningful work and the chance to become part of a team where people build careers rather than simply pass through.\n\nIf you're highly organised, professional and take real pride in helping others succeed, we'd love to hear from you. Apply today for a confidential conversation and discover why so many people choose to stay with this firm for the long term.\n\nHays Specialist Recruitment Limited acts as an employment agency for permanent recruitment and employment business for the supply of temporary workers. By applying for this job you accept the T&C's, Privacy Policy and Disclaimers which can be found at (url removed)",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?b0ZSEQFKUCLPkn7Mb13FXuwysJWz08HRl",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Hays Business Support",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225640239",
     "title": "Admin Assistant / Receptionist",
     "company": "premier pitts - Agency - Permanent",
@@ -983,7 +958,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3629-26-0013",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3629-26-0013",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5653018",
@@ -1001,6 +980,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3333-26-0008",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3333-26-0008",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

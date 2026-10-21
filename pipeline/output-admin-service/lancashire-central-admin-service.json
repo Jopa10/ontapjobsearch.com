@@ -300,6 +300,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225747763",
+    "title": "Admin Assistant",
+    "company": "Randstad Education - Agency - Temporary",
+    "location": "Leyland",
+    "region": "Lancashire - Central",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "105",
+    "salary_max": "130",
+    "salary_text": "£105 - £130 per daily",
+    "posted_date": "",
+    "description": "Job Title: Administrative Assistant (Part-Time)\n\nLocation: Leyland area\n\nStart Date: Monday 2nd November 2026\n\nWorking Pattern: 5 days per week (Monday to Friday, 12:30pm - 4:00pm)\n\nContract Type: Part-Time, Long-Term\n\nAre you an organised and proactive administrator seeking a rewarding part-time role in a supportive school environment? Are you looking for a predictable afternoon schedule that offers an excellent work-life balance? Would you like to join a welcoming secondary school team starting on Monday 2nd November 2026?\n\nIf so, Randstad Education is delighted to partner with a highly regarded Catholic secondary school in the Leyland area to recruit a reliable Administrative Assistant for a long-term, part-time position.\n\nAbout the School\n\nThis secondary school is known for its strong faith ethos, warm community values, and dedication to nurturing every pupil and staff member. The school prides itself on fostering a compassionate, inclusive environment where high standards of conduct and mutual respect are at the heart of daily life.\n\nDriven by a supportive leadership team, the school offers a positive, collaborative workplace with modern administrative facilities. The office team plays a vital role in the smooth running of the school, working together in a friendly, fast-paced environment that makes a real contribution to the wider school community.\n\nDuties & Job Responsibilities\n\nAs an Administrative Assistant, you will provide vital operational and clerical support to the main school office, ensuring administrative tasks are completed efficiently and professionally.\n\nYour key responsibilities will include:\n- Acting as a welcoming first point of contact for visitors, parents, and external agencies at the main reception.\n- Answering incoming telephone queries, taking detailed messages, and routing calls to appropriate members of staff.\n- Managing school correspondence, including handling emails, filing documents, and updating pupil databases.\n- Providing general clerical assistance such as photocopying, shredding, laminating, and preparing school letters or mailings.\n- Assisting with administrative duties relating to pupil attendance, general school records, and daily office tasks.\n\nEssential Requirements\n- Previous experience in an administrative, receptionist, or customer-facing clerical role (experience in a school setting is desirable).\n- Strong communication and interpersonal skills, with a professional, friendly telephone manner.\n- Good ICT proficiency, including experience using Microsoft Office (Word, Excel, Outlook) and databases.\n- Excellent organisational skills, high attention to detail, and the ability to handle confidential information discreetly.\n- An enhanced DBS check registered on the Update Service (or readiness to process a new application).\n\nWhy Choose Randstad Education?\n\nAt Randstad Education, we partner with top-tier schools to help non-teaching and administrative staff find rewarding placements that match their schedules and experience. Working through Randstad ensures you receive dedicated, localised support every step of the way.\n\nYour Benefits Include:\n- Competitive daily/hourly rates, processed weekly through PAYE.\n- Access to our exclusive Refer-a-Friend scheme ( 300 REX Vouchers) for every colleague or candidate you refer to us.\n- Personalised guidance from a dedicated recruitment consultant who knows the local area.\n- An ideal, consistent afternoon schedule (12:30pm - 4:00pm) offering great flexibility.\n- The stability of a long-term role lined up to start this November 2026.\n\nHow to Apply\n\nIf you are interested in this part-time Administrative Assistant role or would like to request further details, we would love to hear from you! Please email (url removed) with your CV attached to register your interest.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Zg1fD7qgbpwUjXQfbEkPUXT6A7v7FDSHe",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Randstad Education",
+    "advertiser_type": "Agency",
+    "work_pattern": "Part Time",
+    "salary_period": "Daily",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "23643_225743022",
     "title": "Document Controller",
     "company": "Simply Recruitment Group - Agency - Permanent",
@@ -340,7 +365,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5252-26-0015",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5252-26-0015",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5665294",
@@ -358,7 +387,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4240-26-0013",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4240-26-0013",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5659594",
@@ -376,6 +409,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0392-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0392-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

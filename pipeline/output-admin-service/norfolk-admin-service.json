@@ -1256,6 +1256,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "108179546",
+    "title": "Account Coordinator",
+    "company": "Staffline Operations - Agency - Permanent",
+    "location": "Norfolk",
+    "region": "Norfolk",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "27040",
+    "salary_max": "27040",
+    "salary_text": "£27040 per year",
+    "posted_date": "",
+    "description": "Brilliant opportunity to work as a Account Coordinator for one of the market-leading Recruitment providers. Enabling the future of work by deploying a highly flexible, robust and skilled workforce.\n\nStaffline is recruiting Account Coordinators in King's Lynn.\n\nThe rate of pay is up to £27,040 per annum click apply for full job details",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?io0x8AEcaIOQFYuTL2s5vcbGRGarkMQ0o",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Staffline Operations",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "nhs-5668481",
     "source": "NHS Jobs",
     "title": "Administration Assistant",
@@ -1271,7 +1296,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9448-26-0379",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9448-26-0379",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5663281",
@@ -1289,7 +1318,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9839-26-0400",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9839-26-0400",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5665007",
@@ -1307,7 +1340,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9177-26-0424",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9177-26-0424",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5572899",
@@ -1325,6 +1362,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0782",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M0038-26-0782",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

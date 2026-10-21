@@ -253,6 +253,31 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "23643_225747287",
+    "title": "Service Administrator",
+    "company": "Eko Talent - Agency - Permanent",
+    "location": "Liskeard",
+    "region": "Cornwall",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "28000",
+    "salary_max": "28000",
+    "salary_text": "£28000 per year",
+    "posted_date": "",
+    "description": "Service Administrator\nSalary - 28,000 + Company Benefits\nJob Type: Full-time, Permanent\n\nMonday - Friday - Day Shift - 9 AM - 5:30 PM\n\nAbout the Company:\nOur client is a leading manufacturing company, are seeking an experienced Service Administrator to oversee their field service engineering team.\n\nThe Role:\nAs a Service Administrator, you will play a key role in ensuring technical support to the companies clientele, support with all service, maintenance and breakdown issues. You will lead the service team in scheduling of preventative and reactive maintenance, while providing industry leading customer service.\n\nThe Ideal Candidate:\n- A service, operations, planning or administration background within a engineering industry, ideally as a maintenance engineer within a production facility.\n- Experience scheduling reactive and routine maintenance across an engineering team.\n- Strong customer service and organisational skills\n- A proactive approach to problem-solving and process improvement.\n- Knowledge of health & safety regulations, risk assessments, and compliance.\n\nApply to this advert with an updated CV.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?gZ0pd2TJz0JuTiGt1T2k7k9yLE1rShais",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Eko Talent",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
     "job_id": "191614379124955545637340",
     "title": "O&M/ Scheduling Administrator/ Coordinator",
     "company": "Hirevo Recruitment - Agency - Permanent",
@@ -318,7 +343,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9201-26-1296",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9201-26-1296",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5662848",
@@ -336,7 +365,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9201-26-1290",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9201-26-1290",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5656298",
@@ -354,6 +387,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1654-26-0019",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1654-26-0019",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

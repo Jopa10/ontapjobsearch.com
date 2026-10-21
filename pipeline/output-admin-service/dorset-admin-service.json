@@ -706,31 +706,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225722380",
-    "title": "Part-Time Project Administrator/Document Controller",
-    "company": "1st Step - Agency - Contract",
-    "location": "Dorset",
-    "region": "Dorset",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Contract",
-    "salary_min": "13.5",
-    "salary_max": "14.5",
-    "salary_text": "£13.5 - £14.5 per hour",
-    "posted_date": "",
-    "description": "Part-Time Project Administrator/Document Controller\n12 Month Contract - 3 days p/w Mon, Weds & Fri (Flexible working hours)\nDorset\n1st Step Solutions are supporting a National Contractor on the requirement of an experienced Project Administrator to join their established team in Dorsett.\nWe are looking for selective candidates that have extensive experience of working with an M&E Contractor, supporting across all project functions and maximising the effectiveness of the management team.\nResponsibilities:\n- Document control.\n- Quality Assurance administration.\n- Procurement tracking.\n- Meeting coordination.\n- Action tracking.\n- Progress reporting.\n- Commissioning preparation.\n- Handover documentation.\nSkills:\n- Having interpersonal skills.\n- Good communication skills.\n- Being able to work as part of a team.\n- Having excellent IT skills. You must be comfortable using the office suite and be able to learn and absorb new web based databases.\n- Having high attention to details.\n- Ability to keep clear and accurate records and reports.\n- Having organisation skills.\n- Ability to organise work load and to manage filing systems.\n- Being flexible and proactive.\n- Having good written and spoken communication abilities.\nDue to the number of applications that we receive, only successful candidates will be contacted.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBbax6qzXVsEGIcOucuVEEeMk",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "1st Step",
-    "advertiser_type": "Agency",
-    "work_pattern": "Part Time",
-    "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225616407",
     "title": "Receptionist",
     "company": "Aspire Jobs - Agency - Permanent",
@@ -971,7 +946,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0063-26-0021",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B0063-26-0021",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5664520",
@@ -989,7 +968,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-1109",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-1109",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5586731",
@@ -1007,7 +990,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1525-26-0017",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1525-26-0017",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5675567",
@@ -1025,7 +1012,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9153-26-0915",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9153-26-0915",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5661555",
@@ -1043,7 +1034,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-1098",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9152-26-1098",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5655858",
@@ -1061,7 +1056,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9153-26-0877",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9153-26-0877",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5651442",
@@ -1079,6 +1078,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2314-26-0016",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2314-26-0016",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

@@ -1,33 +1,5 @@
 [
   {
-    "job_id": "teaching-vacancies-reception-secretary-ec1c05c3-72a7-428c-9317-7e034cf6f8cf",
-    "title": "Reception Secretary",
-    "company": "Queen Mary's Grammar School",
-    "location": "Walsall",
-    "region": "West Midlands - Black Country",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "['part time']",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "£13,510.00 - £13,942.00 Annually (Actual) NJC SCP 4 - 6 | Term time plus 1 week | Part Time, 3 days per week.",
-    "work_pattern": "",
-    "posted_date": "2026-10-05",
-    "closing_date": "2026-10-21",
-    "closing_datetime": "2026-10-21T09:00:00+01:00",
-    "summary": "Reception Secretary with Queen Mary's Grammar School in Walsall. ['part time']; £13,510.00 - £13,942.00 Annually (Actual) NJC SCP 4 - 6 | Term time plus 1 week | Part Time, 3 days per week..",
-    "description": "Queen Mary's Grammar School is recruiting for this vacancy in Walsall.\n\nThe advertised position is Reception Secretary.\n\nThe source lists the employment type as ['part time'].\n\nThe advertised salary or pay scale is £13,510.00 - £13,942.00 Annually (Actual) NJC SCP 4 - 6 | Term time plus 1 week | Part Time, 3 days per week..\n\nThe stated application deadline is 2026-10-21T09:00:00+01:00.\n\nUse the original Teaching Vacancies advert to check the complete duties, person specification and application requirements.",
-    "apply_url": "https://teaching-vacancies.service.gov.uk/jobs/reception-secretary-ec1c05c3-72a7-428c-9317-7e034cf6f8cf?utm_source=ontap&utm_medium=referral&utm_campaign=teaching_vacancies_external",
-    "source": "Teaching Vacancies",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Queen Mary's Grammar School",
-    "advertiser_type": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
     "job_id": "teaching-vacancies-administration-assistant-5668d12d-a90d-4f94-85ad-7747c1489e75",
     "title": "Administration Assistant",
     "company": "Holy Rosary Catholic Primary Academy",
@@ -403,6 +375,31 @@
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225635002",
+    "title": "Customer Service Advisor",
+    "company": "FT Recruitment - Agency - Permanent",
+    "location": "Smethwick",
+    "region": "West Midlands - Black Country",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "12.71",
+    "salary_max": "13.27",
+    "salary_text": "£12.71 - £13.27 per hour",
+    "posted_date": "",
+    "description": "FT Recruitment are recruiting on behalf of our brand new client based in Smethwick, We are looking for an individual who has experience within the Customer Service sector. This is a fantastic oppurtunity for someone who is looking for career progression and wanting to work in an established busy environment.\n\nYour role will entail:\n- Provide exceptional customer service by responding to customer inquiries and resolving issues in a timely and professional manner.\n- Handle a high volume of incoming calls and emails from customers, addressing their questions, concerns, and requests.\n- Accurately enter customer information and update records in the company database.\n- Collaborate with other team members to ensure customer satisfaction and achieve department goals.\n- Maintain a thorough understanding of company products, services, and policies to effectively assist customers.\n- Follow established procedures for handling customer complaints and escalating issues when necessary.\n- Provide product recommendations and assist with order placement or modifications.\n- Process returns, exchanges, and refunds according to company policies.\n\nwhat we are looking for:\n- Previous experience in a customer service role is preferred but not required.\n- Excellent communication skills, both verbal and written.\n- Strong problem-solving abilities and the ability to think quickly on your feet.\n- Proficient computer skills, including experience with CRM software and Microsoft Office Suite.\n- Ability to multitask and prioritize tasks in a fast-paced environment.\n- Positive attitude and a commitment to providing exceptional customer service.\n- Flexibility to work evenings, weekends, and holidays as needed.\n\nIf you are a motivated individual with a passion for delivering outstanding customer service, we want to hear from you!\n\nJoin our team as a Customer Service Representative and be part of our commitment to excellence. Apply today! Call on (phone number removed):)",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N5jhedIgFugXlQMeLLpwJ%2fuq",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "FT Recruitment",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
     "posted_date_basis": ""
   },
   {
@@ -1171,7 +1168,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9225-26-0733",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9225-26-0733",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5657426",
@@ -1189,7 +1190,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0471-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0471-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5655260",
@@ -1207,7 +1212,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A6058-26-0000",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A6058-26-0000",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5658734",
@@ -1225,7 +1234,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1659-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1659-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5639905",
@@ -1243,7 +1256,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0692-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0692-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5667281",
@@ -1261,7 +1278,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2805-26-0014",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2805-26-0014",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5664251",
@@ -1279,6 +1300,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9285-26-0691",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9285-26-0691",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
