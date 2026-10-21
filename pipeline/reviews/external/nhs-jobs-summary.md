@@ -2,15 +2,39 @@
 
 review_date: 2026-10-21
 
-- Open Administrative & Clerical rows reviewed: 2164
+- Open Administrative & Clerical rows reviewed: 2167
 - Auto/remembered selected: 394
 - Selected HC Tier A: 208
 - Selected HC Tier B: 186
-- POSS awaiting decision: 1665
+- POSS awaiting decision: 1667
 - Excluded: 0
-- HARD_PASS: 105
+- HARD_PASS: 106
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Hampshire | Alton, GU34 1RJ | £25272.00 to £25272.00 | Receptionist - Alton Community Hospital
+source_job_id: 5677586
+title: Receptionist - Alton Community Hospital
+employer: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+region: Hampshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9348-26-2310
+factual_fingerprint: e3c77a6b6b814f88520c98552a882b130d8962aed73566e3036ae14257ec46ed
+---
+
+---
+action:
+POSS | NHS Jobs | Greater Manchester - South | Ashton Under Lyne, OL7 0NW | £70000.00 to £80000.00 | Group Manager
+source_job_id: 5677574
+title: Group Manager
+employer: HT Practice
+region: Greater Manchester - South
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4914-26-0011
+factual_fingerprint: 9347364a49c704c3db61f285a0607eed2b238284844b91285821d70888f44113
+---
 
 ---
 action:
