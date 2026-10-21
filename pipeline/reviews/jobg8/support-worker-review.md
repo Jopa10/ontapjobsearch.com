@@ -145,19 +145,9 @@ SELECTED | Sussex | Brighton | £14 - £16 per hour | Support Worker
 job_id: 23643_222307132
 ---
 
----
-action:
-SELECTED | Sussex | Battle | £13 per hour | Healthcare Assistant
-job_id: 23643_225636742
----
-
 ## SUSSEX — POSSIBLES
 
----
-action:
-POSS - SUSSEX | Sussex | Sussex | £17 - £23 per hour | Female Rehabilitation Support Worker
-job_id: 23643_225635982
----
+_No jobs in this group._
 
 ## CUMBRIA SOUTH — SELECTED
 
