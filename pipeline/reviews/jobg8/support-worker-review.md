@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-10-20
+feed_date: 2026-10-21
 
 Edit only the `action:` line in each block:
 
@@ -27,11 +27,7 @@ job_id: 23643_225735406
 
 ## SOUTH YORKSHIRE — POSSIBLES
 
----
-action:
-POSS - YORKSHIRE - SOUTH | Yorkshire - South | Sheffield | £39308 per year | Communication Support Worker
-job_id: 108213449
----
+_No jobs in this group._
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — SELECTED
 
@@ -133,31 +129,35 @@ job_id: 23643_225725915
 
 ---
 action:
-SELECTED | Sussex | Sussex | £12.85 - £18.4 per hour | Healthcare Assistant
-job_id: 23643_225678003
----
-
----
-action:
 SELECTED | Sussex | Hastings | £14 - £14.25 per hour (Enhanced for Bank holiday) | Home Care Assistant
 job_id: 23643_225737488
 ---
 
 ---
 action:
-SELECTED | Sussex | Sussex | £15.5 per hour | Care Assistant - Care Home
-job_id: 23643_225739546
+SELECTED | Sussex | Sussex | £17.15 per hour | Care Assistant - Bank - Care Home
+job_id: 23643_225718800
 ---
 
 ---
 action:
-SELECTED | Sussex | Sussex | £14.5 per hour | Night Care Assistant
-job_id: 23643_225440444
+SELECTED | Sussex | Brighton | £14 - £16 per hour | Support Worker
+job_id: 23643_222307132
+---
+
+---
+action:
+SELECTED | Sussex | Battle | £13 per hour | Healthcare Assistant
+job_id: 23643_225636742
 ---
 
 ## SUSSEX — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - SUSSEX | Sussex | Sussex | £17 - £23 per hour | Female Rehabilitation Support Worker
+job_id: 23643_225635982
+---
 
 ## CUMBRIA SOUTH — SELECTED
 
@@ -165,7 +165,11 @@ _No jobs in this group._
 
 ## CUMBRIA SOUTH — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - CUMBRIA - SOUTH | Cumbria - South | Barrow-in-furness | £12.71 - £18 per hour | Female Bank Rehabilitation Support Worker
+job_id: 23643_225712948
+---
 
 ## HAMPSHIRE — SELECTED
 
@@ -179,12 +183,6 @@ job_id: 23643_225653471
 action:
 SELECTED | Hampshire | Eastleigh | £32780 - £35564 per year (Market Supplement, plus Enhancements) | Secure Children's Home Support Worker
 job_id: 1401785578
----
-
----
-action:
-SELECTED | Hampshire | Winchester | £28697 - £31573 per year | Support Worker (Adults)
-job_id: 1401785731
 ---
 
 ---
@@ -277,17 +275,23 @@ SELECTED | Kent | Maidstone | £13.71 - £15 per hour (Bank Holiday Enhancement)
 job_id: 23643_225038924
 ---
 
+---
+action:
+SELECTED | Kent | Kent | £13.7 per hour | Care Assistant - Care Home
+job_id: 23643_225744421
+---
+
+---
+action:
+SELECTED | Kent | Sevenoaks | £13.68 - £16 per hour | FEMALE Mental Health Support Worker
+job_id: 23643_223337598
+---
+
 ## KENT — POSSIBLES
 
 _No jobs in this group._
 
 ## LONDON — SELECTED
-
----
-action:
-SELECTED | London | Newham | £23200 per year | Family Support Worker
-job_id: 23643_225636263
----
 
 ---
 action:
@@ -351,7 +355,7 @@ job_id: 23643_225715163
 
 ---
 action:
-SELECTED | London | City | £14 - £18 per hour | Complex Care Support Worker - Child
+SELECTED | London | City | £14 - £18 per hour | Clinical Care Support Worker - Child
 job_id: 23643_225686112
 ---
 
@@ -517,6 +521,18 @@ SELECTED | London | London | £28000 - £32000 per year | Youth Support Worker A
 job_id: 23643_225739094
 ---
 
+---
+action:
+SELECTED | London | London | £120 - £130 per daily | Support Worker
+job_id: 23643_225744321
+---
+
+---
+action:
+SELECTED | London | City | £30000 - £32000 per year | Personal Assistant to the CEO
+job_id: 23643_225743869
+---
+
 ## LONDON — POSSIBLES
 
 _No jobs in this group._
@@ -571,6 +587,12 @@ SELECTED | Surrey | Surrey | £15.5 per hour | Care Assistant - Bank - Care Home
 job_id: 23643_225729356
 ---
 
+---
+action:
+SELECTED | Surrey | Surrey | £14.5 per hour | Night Care Assistant
+job_id: 23643_225440444
+---
+
 ## SURREY — POSSIBLES
 
 _No jobs in this group._
@@ -605,6 +627,12 @@ job_id: 23643_225713769
 action:
 SELECTED | Wiltshire | Salisbury | £28479 per year | Support Worker - Clouds House
 job_id: 23643_225712887
+---
+
+---
+action:
+SELECTED | Wiltshire | Wiltshire | £14.25 - £15.5 per hour | Learning Support Assistant
+job_id: 23643_225660582
 ---
 
 ## WILTSHIRE — POSSIBLES
