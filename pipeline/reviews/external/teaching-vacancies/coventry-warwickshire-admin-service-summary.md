@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Coventry & Warwickshire
 
-review_date: 2026-10-20
-review_fingerprint: d5947b486cadf1034ebc5e99a4a86b3b97619a090c148575599dafc3de44d459
-routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
+review_date: 2026-10-21
+review_fingerprint: 37c54709f8bb33434346c143bec393a021decc7204bc922c662b10bd0d950903
+routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
 ontap_region: West Midlands - Coventry & Warwickshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 4
-- POSS awaiting decision: 1
+- Records: 7
+- Selected: 3
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
-
----
-action: 
-SELECTED | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV2 2LH | £22,314.00 - £23,393.00 Annually (Actual) Grade 3 - £22,314- £23,393 pro rata, per annum | Admin Assistant
-employer: Whittle Academy
-closing_date: 2026-10-23T09:00:00+01:00
-reason: Clear admin/service title: admin assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: cb9cdd2e956dc8b4a5b765f44df1144721c24e73414e4cbf3b3f4d2b7bea483e
-source: Teaching Vacancies
-source_job_id: admin-assistant-whittle-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-whittle-academy
----
 
 ---
 action: 
@@ -85,6 +70,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admi
 
 ---
 action: 
+POSS | West Midlands - Coventry & Warwickshire | Coventry, West Midlands, CV2 2LH | £22,314.00 - £23,393.00 Annually (Actual) Grade 3 - £22,314- £23,393 pro rata, per annum | Admin Assistant
+employer: Whittle Academy
+closing_date: 2026-10-23T09:00:00+01:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: cb9cdd2e956dc8b4a5b765f44df1144721c24e73414e4cbf3b3f4d2b7bea483e
+source: Teaching Vacancies
+source_job_id: admin-assistant-whittle-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-whittle-academy
+---
+
+---
+action: 
 POSS | West Midlands - Coventry & Warwickshire | Coventry, CV1 5LY | Grade 4 - £26,847 to £30,515 per annum | MAT Compliance Officer
 employer: Sidney Stringer Multi Academy Trust
 closing_date: 2026-10-23T11:59:59+01:00
@@ -105,7 +105,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/mat-compliance-office
 ## HARD_PASS
 
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-etone-college) — Insufficient admin/service evidence.
-- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-john-henry-newman-catholic-school) — Manager title salary ceiling £62,348 is not below £28,000.
 - [Senior Leisure & Lettings Coordinator](https://teaching-vacancies.service.gov.uk/jobs/senior-leisure-lettings-coordinator-kenilworth-multi-academy-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-10-20
-review_fingerprint: 59f81c04db1c19c473a39cd8c9a01c00e7da835270c4eeb6cdba3e41e5b9975f
-routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
+review_date: 2026-10-21
+review_fingerprint: 035d8aa3959edec8e78780662b789025231b4a1fb2b71bb14122fb867f6098d5
+routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 5
+- Records: 12
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 7
@@ -49,21 +49,6 @@ factual_fingerprint: 84d6af86883fcef69e2eb9148cc01c831cb2c25341faef8a9cc5466f5ac
 source: Teaching Vacancies
 source_job_id: administrative-assistant-level-3-north-gosforth-academy-newcastle-upon-tyne-tyne-and-wear
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-level-3-north-gosforth-academy-newcastle-upon-tyne-tyne-and-wear
----
-
----
-action: 
-SELECTED | North East | Newcastle-upon-Tyne, North East, NE7 7PE | BBO4 | Administrator- Student Reception
-employer: St Mary's Catholic School
-closing_date: 2026-10-21T09:00:59+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9aba66ee765c45445a85d1537e100e86af3f7d05f5e701ed72090cead4c441f8
-source: Teaching Vacancies
-source_job_id: administrator-student-reception
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-student-reception
 ---
 
 ---

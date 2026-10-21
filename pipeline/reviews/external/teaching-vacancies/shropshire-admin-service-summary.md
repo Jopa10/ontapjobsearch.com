@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Shropshire
 
-review_date: 2026-10-20
+review_date: 2026-10-21
 review_fingerprint: 11f9a4bb2d589453dbc4774f07d4fb8beb64ec5de5a5003b0e4cccc2908fc722
-routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
+routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
 ontap_region: Shropshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 7
 - Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -107,7 +107,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-administrat
 ## HARD_PASS
 
 - [Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-radbrook-primary-school) — Insufficient admin/service evidence.
-- [PA/Head of Administration](https://teaching-vacancies.service.gov.uk/jobs/pa-head-of-administration) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-beech-grove-primary-school) — Manager title salary ceiling £37,563 is not below £28,000.
 
 ## Safety boundary

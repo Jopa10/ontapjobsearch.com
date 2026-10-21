@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Gloucestershire
 
-review_date: 2026-10-20
-review_fingerprint: c70c8d9844e7dac3552cd170715f9a68c46f40ba48eb79ecefc69d0bc5b1523e
-routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
+review_date: 2026-10-21
+review_fingerprint: 9d56c4c4c32d94cf5ea2e649a6397d9f5802ea90e55694c159c169d907b4e4a8
+routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
 ontap_region: Gloucestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -23,21 +23,6 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Gloucestershire | Gloucester, South West, GL4 6RN | £28,608.00 - £31,525.00 Annually (FTE) | Lead Administrator with Reception Duties
-employer: Gloucester Academy
-closing_date: 2026-10-20T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ca11eeef85b87e24010a66b29cfc6cb75ecddaf43468db1b91d6af5fdef7a4b3
-source: Teaching Vacancies
-source_job_id: lead-administrator-with-reception-duties
-source_url: https://teaching-vacancies.service.gov.uk/jobs/lead-administrator-with-reception-duties
----
-
----
-action: 
 SELECTED | Gloucestershire | Gloucester, South West, GL3 4QF | £8,464.32 - £8,871.56 Annually (Actual) | Part Time Receptionist
 employer: Henley Bank High School
 closing_date: 2026-11-01T23:59:00+00:00
@@ -49,6 +34,21 @@ factual_fingerprint: aaf7d06777ef858d96aa17af082ef3495a4d0c0201fb1e86c9c42362437
 source: Teaching Vacancies
 source_job_id: part-time-receptionist-henley-bank-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-receptionist-henley-bank-high-school
+---
+
+---
+action: 
+SELECTED | Gloucestershire | Cirencester, South West, GL7 1XB | £29,071.00 - £30,516.00 Annually (FTE) Grade 5, Scale Point 11 to 14 | Trips, Lettings & Payment Administrator
+employer: Cirencester Deer Park School
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0b0bc88a414d889c4517d7645afe2d090a7642aee3a4dfb933cca25759a03dda
+source: Teaching Vacancies
+source_job_id: trips-lettings-payment-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/trips-lettings-payment-administrator
 ---
 
 ## POSS — choose SELECT or EXCLUDE

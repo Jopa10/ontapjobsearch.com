@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-10-20
-review_fingerprint: 9aa87457572f480e2199d85e0731df439438e7b82dbc7479dad42e019f2c1065
-routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
+review_date: 2026-10-21
+review_fingerprint: 76e341c269d0310ac661518df208e5ab02bedec07bc5a22a8e407cd5878e60eb
+routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 8
+- Records: 16
+- Selected: 7
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 7
@@ -124,21 +124,6 @@ factual_fingerprint: e6f58bfa4e977961443206431f80d9230be15ec908ca8f86482e542d2ea
 source: Teaching Vacancies
 source_job_id: send-administrator-stamford-welland-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-stamford-welland-academy
----
-
----
-action: 
-SELECTED | Lincolnshire | Skegness, East Midlands, PE25 2QX | £26,289.77 - £28,991.55 Annually (Actual) GAT 6 point 12 - 18 | Senior Administrator
-employer: Skegness Junior Academy
-closing_date: 2026-10-22T12:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 021dba1c72a6f1fdaafcd2f1c8eeb0757aad1dd8276d8b38ee43503c20010742
-source: Teaching Vacancies
-source_job_id: senior-administrator-efe4655b-7f8f-45d9-9924-c3576ef7b21e
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-efe4655b-7f8f-45d9-9924-c3576ef7b21e
 ---
 
 ## POSS — choose SELECT or EXCLUDE

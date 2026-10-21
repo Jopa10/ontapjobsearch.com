@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-10-20
-review_fingerprint: 220e39130e75056bfc22ccceec7b87fb14719baf72fd7a953b267c9204288cc7
-routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
+review_date: 2026-10-21
+review_fingerprint: 07eb7c546d9f2d23470f04eb805d3f62e76fe15e2da9747769f46c70f93c2123
+routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 7
+- Records: 15
+- Selected: 9
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
@@ -68,21 +68,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/first-aider-admin-ass
 
 ---
 action: 
-SELECTED | Wiltshire | Swindon, South East, SN6 8FX | £27,709.00 - £30,023.00 Annually (FTE) Support Staff NJC Grade 6, SCP 8 - 13. Actual salary range - £11,572.11 - £12,538.50 | Office Administrator
-employer: Shrivenham Church of England School
-closing_date: 2026-10-20T23:59:00+01:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: e2324e5b9916bcfce1767014abc30a0e937cdf88aa554c3beaf223bc6f2c2d0d
-source: Teaching Vacancies
-source_job_id: office-administrator-5725eac8-39d6-4276-82f4-79f7dd232e3d
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-5725eac8-39d6-4276-82f4-79f7dd232e3d
----
-
----
-action: 
 SELECTED | Wiltshire | Swindon, South West, SN2 1JR | £12,931.00 Annually (Actual) | Part-Time Receptionist (Mat Cover 12 months FTC)
 employer: Swindon Academy
 closing_date: 2026-11-01T23:59:00+00:00
@@ -94,6 +79,21 @@ factual_fingerprint: 9fc4cedc2ba103a8703a636b602400cf77e8b2d86a404ac5db04f84c946
 source: Teaching Vacancies
 source_job_id: part-time-receptionist-mat-cover-12-months-ftc
 source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-receptionist-mat-cover-12-months-ftc
+---
+
+---
+action: 
+SELECTED | Wiltshire | Melksham, South West, SN12 6QZ | £18,143.00 - £19,021.00 Annually (Actual) WHFNJC K Grade | Pastoral Administrator
+employer: Melksham Oak Community School
+closing_date: 2026-11-15T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 69c4da1dcda680e53159944181315c414af766393be4178ed090503b69b64087
+source: Teaching Vacancies
+source_job_id: pastoral-administrator-melksham-oak-community-school-melksham-wiltshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-melksham-oak-community-school-melksham-wiltshire
 ---
 
 ---
@@ -113,6 +113,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/progression-administr
 
 ---
 action: 
+SELECTED | Wiltshire | Swindon, South West, SN25 2HY | £26,016.00 - £27,274.00 Annually (FTE) | Pupil Services Administrator
+employer: Oakhurst Community Primary School
+closing_date: 2026-11-04T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2fa0d574db1d3799e6827dfd3524ff65f197a679e6bb586a663b5547e2e694c6
+source: Teaching Vacancies
+source_job_id: pupil-services-administrator-oakhurst-community-primary-school-swindon-wiltshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-services-administrator-oakhurst-community-primary-school-swindon-wiltshire
+---
+
+---
+action: 
 SELECTED | Wiltshire | Swindon, South West, SN3 6EX | £9,215.09 - £9,361.55 Annually (Actual) NJC 5 - 6 (£26,427 - £26,847 FTE) | School & Nursery Administrator
 employer: Liden Academy
 closing_date: 2026-10-28T23:59:00+00:00
@@ -124,6 +139,21 @@ factual_fingerprint: 9c1ee1ef8e89155000d8a6c1e48e804d67ecaab86e7b5af5a744ca32a3a
 source: Teaching Vacancies
 source_job_id: school-nursery-administrator-liden-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-nursery-administrator-liden-academy
+---
+
+---
+action: 
+SELECTED | Wiltshire | Swindon, South West, SN25 2PP | £13,022.00 - £13,447.00 Annually (Actual) NJC Scale Point 4 - 6 £13.48 - £13.92ph | Sixth Form Admin Assistant
+employer: Great Western Academy
+closing_date: 2026-11-04T09:00:00+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: cb3209851bb39f2436e16e94267afe3323b377ec4b73dae65616bd6e5b321e3c
+source: Teaching Vacancies
+source_job_id: sixth-form-admin-assistant-great-western-academy-swindon
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-admin-assistant-great-western-academy-swindon
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -166,7 +196,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerk-to-governors-gr
 
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-diocese-of-salisbury-academy-trust) — Insufficient admin/service evidence.
 - [HLTA Behaviour and Inclusion](https://teaching-vacancies.service.gov.uk/jobs/hlta-behaviour-and-inclusion-lawn-manor-academy) — Insufficient admin/service evidence.
-- [Local Governance Committee Clerks](https://teaching-vacancies.service.gov.uk/jobs/local-governance-committee-clerks) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-4c722adb-c7a9-4af5-b8d5-bf00527c02c0) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-william-morris-primary-school-swindon-wiltshire) — Manager title salary ceiling £46,185 is not below £28,000.
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-10-20
-review_fingerprint: a3779e6ee00cf825ce418fe774cb7991be9d4e3a0b8ef58adb558de3cf55a5a8
-routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
+review_date: 2026-10-21
+review_fingerprint: 1d08488ff1e460ab37c650a0e8be44ec581bfb89955de05d4f3966f1fa7afbb9
+routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 5
+- Records: 13
+- Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 5
@@ -38,6 +38,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/assistant-exams-offic
 
 ---
 action: 
+SELECTED | Yorkshire - North | York, Yorkshire and the Humber, YO31 7PB | £25,989 - £28,142 (actual salary: £23,606 - £25,562) | Business Support Officer
+employer: St Wilfrid's Catholic Primary School - a Catholic Voluntary Academy
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Clear admin/service title: business support officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4cf7005ccde121431a2518f9ccd25f3a8a92b1d6a2b855c8b18e694fff0946db
+source: Teaching Vacancies
+source_job_id: business-support-officer-st-wilfrid-s-catholic-primary-school-a-catholic-voluntary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-st-wilfrid-s-catholic-primary-school-a-catholic-voluntary-academy
+---
+
+---
+action: 
 SELECTED | Yorkshire - North | Harrogate, Yorkshire and the Humber, HG2 8PT | £18,978.00 - £20,228.00 Annually (Actual) NJC Grade B3, Scale Points 7-11, £27,274 - £29,070 per annum | Data Administrator
 employer: St John Fisher Catholic Academy
 closing_date: 2026-11-02T09:00:00+00:00
@@ -49,6 +64,21 @@ factual_fingerprint: 2a882b72bd16bcd14c70c9f77f2c1d8e100b8f2ee3f3db79113c3398c3c
 source: Teaching Vacancies
 source_job_id: data-administrator-st-john-fisher-catholic-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/data-administrator-st-john-fisher-catholic-academy
+---
+
+---
+action: 
+SELECTED | Yorkshire - North | Scarborough, Yorkshire and the Humber, YO11 3LG | £25,614.00 - £26,427.00 Annually (FTE) | Receptionist Administrator
+employer: Braeburn Primary and Nursery Academy
+closing_date: 2026-10-30T12:00:00+00:00
+reason: Clear admin/service title: administrator, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 47eebabcf22c10aab8bf91110ae729bd49ad58f8e21e170b4853e48453ed824e
+source: Teaching Vacancies
+source_job_id: receptionist-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire
 ---
 
 ---
@@ -100,17 +130,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 
 ---
 action: 
-POSS | Yorkshire - North | Scarborough, Yorkshire and the Humber, YO11 3LG | £25,614.00 - £26,427.00 Annually (FTE) | Receptionist Administrator
-employer: Braeburn Primary and Nursery Academy
-closing_date: 2026-10-30T12:00:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
+POSS | Yorkshire - North | York, Yorkshire and the Humber, YO32 4BZ | Grade 4, Level 1-4 (£25,948 to £27,188 p.a.) reduced pro rata to £22,280 to £23,345 (calculated on full time hours) | Administration Officer
+employer: Joseph Rowntree School
+closing_date: 2026-11-08T23:59:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 47eebabcf22c10aab8bf91110ae729bd49ad58f8e21e170b4853e48453ed824e
+factual_fingerprint: 7a67fa81f7495124b0cf16cab987100c9bb93753d65ef71ea9140859d3756b11
 source: Teaching Vacancies
-source_job_id: receptionist-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-braeburn-primary-and-nursery-academy-scarborough-north-yorkshire
+source_job_id: administration-officer-dc55f46b-8083-476b-9b89-86e66dc7015f
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-dc55f46b-8083-476b-9b89-86e66dc7015f
 ---
 
 ## EXCLUDED BY REVIEW

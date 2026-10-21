@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-10-20
-review_fingerprint: 1add099ec78da938e5765f3f20bba6dcd0b9e18a557da0cdb2873be0c195b052
-routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
+review_date: 2026-10-21
+review_fingerprint: 55276e9114b5eca04dc0cf8fff227bfb2ede5ed7e8abba258261cb5e047f690e
+routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 9
-- Selected: 4
+- Selected: 3
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -64,21 +64,6 @@ factual_fingerprint: 2d711d40c0b3394995660c7ecfc9cee2f81cddc05f0dd27d4ba4bcb8641
 source: Teaching Vacancies
 source_job_id: office-administrator-and-receptionist-salford-city-academy-manchester
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-and-receptionist-salford-city-academy-manchester
----
-
----
-action: 
-SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M8 5UF | £27,274.00 - £29,071.00 | SEND Administrator
-employer: Abraham Moss Community School
-closing_date: 2026-10-21T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8bf63fffb58fb2d12e2a071d7255171169b2a64f9c26758677a340381147347e
-source: Teaching Vacancies
-source_job_id: send-administrator-abraham-moss-community-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-abraham-moss-community-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -136,6 +121,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-adminis
 
 - [First Aid, Medical and Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/first-aid-medical-and-administration-assistant) — Insufficient admin/service evidence.
 - [HR Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-operations-manager-levenshulme-high-school) — Manager title salary ceiling £42,123 is not below £28,000.
+- [Lead Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/lead-exam-invigilator-abraham-moss-community-school) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

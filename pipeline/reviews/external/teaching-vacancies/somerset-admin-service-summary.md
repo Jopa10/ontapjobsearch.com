@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Somerset
 
-review_date: 2026-10-20
+review_date: 2026-10-21
 review_fingerprint: e3332012838fd7bd971114e56cbd3098fdeb7ebe31e8b3c6e2a4bd541391df89
-routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
+routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
 ontap_region: Somerset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
+- Records: 12
 - Selected: 3
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 8
 
 ## SELECTED
 
@@ -96,7 +96,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-the-
 - [HR Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-manager-the-oak-partnership-trust) — Manager title without salary evidence below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-robert-blake-academy) — Manager title salary ceiling £30,868 is not below £28,000.
 - [Operations Lead](https://teaching-vacancies.service.gov.uk/jobs/operations-lead-bishops-hull-primary-school) — Insufficient admin/service evidence.
-- [Receptionist](https://teaching-vacancies.service.gov.uk/jobs/receptionist-midsomer-norton-schools-partnership) — Missing salary or pay scale.
 - [Trust Clerk](https://teaching-vacancies.service.gov.uk/jobs/trust-clerk-c394aee1-d7ed-4c84-85d4-9c9175bf52c7) — Insufficient admin/service evidence.
 
 ## Safety boundary

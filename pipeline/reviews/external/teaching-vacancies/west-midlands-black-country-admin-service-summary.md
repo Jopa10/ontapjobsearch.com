@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-10-20
-review_fingerprint: dcc6e70724bc0375fd0837473a48bfd64df23c905211b57c4c038b5df07a303a
-routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
+review_date: 2026-10-21
+review_fingerprint: bd0896a0d1480ad0537d9ef52ca2cc582b1559978836f60311f4ab104461d4e5
+routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 11
-- Selected: 3
+- Selected: 2
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -49,21 +49,6 @@ factual_fingerprint: 3630c7495dbe67f9e4a92f7bb53bec6186579b7470cffb85c0c1acdedec
 source: Teaching Vacancies
 source_job_id: administration-assistant-level-2-huntingtree-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-level-2-huntingtree-primary-school
----
-
----
-action: 
-SELECTED | West Midlands - Black Country | Walsall, West Midlands, WS1 2PG | £13,510.00 - £13,942.00 Annually (Actual) NJC SCP 4 - 6 | Term time plus 1 week | Part Time, 3 days per week. | Reception Secretary
-employer: Queen Mary's Grammar School
-closing_date: 2026-10-21T09:00:00+01:00
-reason: Clear admin/service title: secretary
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 67d749b302fc7781a82639118be48d4702e742b9ae4fd7a4a53e2396ae7ac928
-source: Teaching Vacancies
-source_job_id: reception-secretary-ec1c05c3-72a7-428c-9317-7e034cf6f8cf
-source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-secretary-ec1c05c3-72a7-428c-9317-7e034cf6f8cf
 ---
 
 ## POSS — choose SELECT or EXCLUDE
@@ -119,6 +104,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/head-of-house-pa-wedn
 
 ## HARD_PASS
 
+- [Educational Visits & DofE Support Officer](https://teaching-vacancies.service.gov.uk/jobs/educational-visits-dofe-support-officer) — Insufficient admin/service evidence.
 - [Exam Invigilators](https://teaching-vacancies.service.gov.uk/jobs/exam-invigilators-ecfad9cd-e181-4168-a518-c94807aa906f) — Insufficient admin/service evidence.
 - [Head of Estates and Capital Strategy](https://teaching-vacancies.service.gov.uk/jobs/head-of-estates-and-capital-strategy) — Insufficient admin/service evidence.
 - [Human Resources Assistant](https://teaching-vacancies.service.gov.uk/jobs/human-resources-assistant-highfields-school) — Insufficient admin/service evidence.

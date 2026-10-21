@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Surrey
 
-review_date: 2026-10-20
+review_date: 2026-10-21
 review_fingerprint: 1965509e810fd07e5e76f4a446ef26ec755cb3c504309441874dc9d207e5d119
-routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
+routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
 ontap_region: Surrey
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 9
 - Selected: 3
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -105,6 +105,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-adminstrator
 ## HARD_PASS
 
 - [Admissions Advisor](https://teaching-vacancies.service.gov.uk/jobs/admissions-advisor) — Insufficient admin/service evidence.
+- [Assistant Headteacher (EYFS and Personal Development)](https://teaching-vacancies.service.gov.uk/jobs/assistant-headteacher-eyfs-and-personal-development) — Out-of-scope occupation: teacher, headteacher.
 - [Chief Operating Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-operating-officer-the-howard-partnership-trust) — Insufficient admin/service evidence.
 - [HR Project Lead](https://teaching-vacancies.service.gov.uk/jobs/hr-project-lead) — Insufficient admin/service evidence.
 

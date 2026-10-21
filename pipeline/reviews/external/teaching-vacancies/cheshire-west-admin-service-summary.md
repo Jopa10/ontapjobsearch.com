@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - West
 
-review_date: 2026-10-20
+review_date: 2026-10-21
 review_fingerprint: 8864a508bad4b8fd449d37a72b4c38366e9c653d0140d489fa7c5616ef1e565a
-routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
+routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
 ontap_region: Cheshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 2
 - Selected: 1
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 1
 
 ## SELECTED
 
@@ -47,8 +47,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator
 ## HARD_PASS
 
 - [Data Officer](https://teaching-vacancies.service.gov.uk/jobs/data-officer-ellesmere-port-catholic-high-school-a-voluntary-academy) — Missing salary or pay scale.
-- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-4995d185-9e33-4fc5-bcfb-92eea964e047) — Insufficient admin/service evidence.
-- [Procurement Officer](https://teaching-vacancies.service.gov.uk/jobs/procurement-officer-the-learning-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

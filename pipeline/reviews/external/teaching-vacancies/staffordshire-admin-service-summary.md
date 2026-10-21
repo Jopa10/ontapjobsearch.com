@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-10-20
+review_date: 2026-10-21
 review_fingerprint: 1db33ab569ca7cd286860e33af959f145acfa8f772990b5c7ba76d147f5890ed
-routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
+routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 8
 - Selected: 0
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 6
 
 ## SELECTED
 
@@ -63,6 +63,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-ba
 
 - [Administration Support](https://teaching-vacancies.service.gov.uk/jobs/administration-support-st-thomas-more-catholic-academy-stoke-on-trent-staffordshire) — Insufficient admin/service evidence.
 - [Deputy Chief Executive Officer - Finance & Operations](https://teaching-vacancies.service.gov.uk/jobs/deputy-chief-executive-officer-finance-operations) — Insufficient admin/service evidence.
+- [People Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-manor-hall-academy-trust-stoke-on-trent-not-recorded) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-cf0d4ef8-1313-4ff6-b735-c5ac4ec13736) — Manager title without salary evidence below £28,000.
 - [School Transport Coordinator](https://teaching-vacancies.service.gov.uk/jobs/school-transport-coordinator) — Insufficient admin/service evidence.
 - [Senior Administration and Finance Assistant - Level 5](https://teaching-vacancies.service.gov.uk/jobs/senior-administration-and-finance-assistant-level-5-abbey-hill-academy-college) — Insufficient admin/service evidence.
 

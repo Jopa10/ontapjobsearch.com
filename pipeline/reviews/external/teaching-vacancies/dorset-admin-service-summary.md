@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Dorset
 
-review_date: 2026-10-20
+review_date: 2026-10-21
 review_fingerprint: 0005e861139778d02ee2738bdcc9d863e514dfbe8f242f522427fc31205df8c7
-routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
+routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
 ontap_region: Dorset
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 5
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -76,7 +76,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-as
 
 ## HARD_PASS
 
-- [Attendance Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/attendance-co-ordinator-the-bishop-of-winchester-academy) — Insufficient admin/service evidence.
 - [Exam Officer - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/exam-officer-maternity-cover-st-aldhelm-s-academy-poole-dorset) — Insufficient admin/service evidence.
 - [Pastoral Manager – Ferndown Middle School](https://teaching-vacancies.service.gov.uk/jobs/pastoral-manager-ferndown-middle-school) — Manager title salary ceiling £32,046 is not below £28,000.
 

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-10-20
-review_fingerprint: 832eebe7cc475dcfb4ba0e30cfc3fc7aa0b39f816c159ddcb42e610a2bccb6a2
-routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
+review_date: 2026-10-21
+review_fingerprint: f6a7cfa42189043ccf790c6a13bee15584741699726275e1d05c8886c302d545
+routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 27
+- Records: 26
 - Selected: 10
-- POSS awaiting decision: 3
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 14
+- Hard pass: 15
 
 ## SELECTED
 
@@ -175,36 +175,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/temporary-admin-assis
 
 ---
 action: 
-POSS | Yorkshire - South | Sheffield, Yorkshire and the Humber, S13 8HH | £27,274.00 - £29,542.00 | Attendance & Admin Officer
-employer: Athelstan Primary School
-closing_date: 2026-10-20T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: f816621a5ec64f1622c07b7111bf3190cc6350764f12b24cc6c3338aea072e29
-source: Teaching Vacancies
-source_job_id: attendance-admin-officer-athelstan-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-admin-officer-athelstan-primary-school
----
-
----
-action: 
-POSS | Yorkshire - South | Rotherham, Yorkshire and the Humber, S60 5EJ | £26,427 to £26,847 | Pastoral Admin Support
-employer: Brinsworth Academy
-closing_date: 2026-10-21T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c2a101fd9a3c1bb941d4c7de43c083d09423020c0fdfb6dcf05f0923b7df57e1
-source: Teaching Vacancies
-source_job_id: pastoral-admin-support-brinsworth-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-admin-support-brinsworth-academy
----
-
----
-action: 
 POSS | Yorkshire - South | Rotherham, Yorkshire and the Humber, S60 5EJ | £26,427 to £26,847 | SEND Admin Support Assistant
 employer: Brinsworth Academy
 closing_date: 2026-11-02T09:00:00+00:00
@@ -229,6 +199,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-admin-support-as
 - [Communication Support Worker](https://teaching-vacancies.service.gov.uk/jobs/communication-support-worker-the-sheffield-college) — Insufficient admin/service evidence.
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-ridgewood-school-doncaster-south-yorkshire) — Insufficient admin/service evidence.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-minerva-learning-trust) — Insufficient admin/service evidence.
+- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-af25a6a1-1704-464a-aa02-94005bbeab49) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-minerva-learning-trust-sheffield-not-recorded) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-ce12e672-834a-4926-ac88-d9b1ed0235b4) — Manager title salary ceiling £53,500 is not below £28,000.
 - [Inclusion Officer (Alternative Provision)](https://teaching-vacancies.service.gov.uk/jobs/inclusion-officer-alternative-provision-sir-thomas-wharton-academy) — Insufficient admin/service evidence.

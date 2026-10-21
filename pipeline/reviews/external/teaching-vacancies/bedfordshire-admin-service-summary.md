@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-10-20
-review_fingerprint: 5b78f62f25c08b347fbb0d1a410b3334ac07bc31de0d4eafe13b7ae76498eeef
-routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
+review_date: 2026-10-21
+review_fingerprint: b9d89257768959656d473d6cecdcbdbafdb32ab8c8a63160b51155e4eeba0692
+routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -45,10 +45,10 @@ reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: ecac5ad69f21a487ddaf405ae062456a4a28a264c8cb573bb9ca8d4fbb8eac95
+factual_fingerprint: afd2f06474966cf6edaf7e21aabb90256392b78709d4aaf831723691eb304076
 source: Teaching Vacancies
-source_job_id: administrative-assistant-f1377394-b592-4b02-a007-6146d841062d
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-f1377394-b592-4b02-a007-6146d841062d
+source_job_id: administrative-assistant-cf37bca3-64ec-41f1-b25b-fecf7343f14a
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-cf37bca3-64ec-41f1-b25b-fecf7343f14a
 ---
 
 ---

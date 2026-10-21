@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-10-20
-review_fingerprint: 448dfd62b6046676879bfa2919f408c59aab059bca47c4cb15fd5b2495fa8294
-routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
+review_date: 2026-10-21
+review_fingerprint: bd9ed654d29f449ced8f165c6afa6c11dd69c87e0d83da2d7710999c8e7fe745
+routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
-- Selected: 7
+- Records: 21
+- Selected: 9
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 10
@@ -49,6 +49,36 @@ factual_fingerprint: a5e334107c9014d1b4c687910ad206810ff11c490b91debfb6e61434ff1
 source: Teaching Vacancies
 source_job_id: behaviour-administrative-assistant
 source_url: https://teaching-vacancies.service.gov.uk/jobs/behaviour-administrative-assistant
+---
+
+---
+action: 
+SELECTED | Berkshire | Reading, South East, RG1 8EQ | £27,274.00 Annually (FTE) Grade 4 Scale Point 7-11 £15,762.53-£16,801.08 -FTE £27,274.00 - TTO plus 5 INSET days - 25 hours per week - 07:00-12:00 - 5 days per week | Cover & General Administrator
+employer: River Academy
+closing_date: 2026-10-30T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2320e57fc8f6347aae421a7528519a4bb19e105e43f20f4e70a95a83acd7de21
+source: Teaching Vacancies
+source_job_id: cover-general-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-general-administrator
+---
+
+---
+action: 
+SELECTED | Berkshire | Maidenhead, South East, SL6 7NQ | £16,473.00 - £16,735.00 Annually (Actual) Actual salary based on 25 hours per week | Medical Office Assistant
+employer: Furze Platt Senior School
+closing_date: 2026-11-03T09:00:00+00:00
+reason: Clear admin/service title: office assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2e25229cc061eb402cadc47a095e5e259658b06cf5dbb5865fbf4c368922e623
+source: Teaching Vacancies
+source_job_id: medical-office-assistant-furze-platt-senior-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/medical-office-assistant-furze-platt-senior-school
 ---
 
 ---

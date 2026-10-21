@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-10-20
-review_fingerprint: db0649f18b8d850ee6ca183a09dab9318f23d479419b35fb76e421d0c456e7fb
-routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
+review_date: 2026-10-21
+review_fingerprint: 73a6c89084f64ed3fbc167f689a0b2964ad8cbecdf64a1487fff9c657893af7c
+routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 7
+- Records: 15
+- Selected: 9
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 6
 
 ## SELECTED
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B34 6SS | £25,614.00 - £27,709.00 Annually (FTE) GR2 SCP 3 - 8 £23,059.62 - £24,945.69 Pro Rata | Administration Assistant
+employer: Brownmead Primary Academy
+closing_date: 2026-11-06T09:00:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 4ef85e452a7fe6aafc1772d787fab4bfcc39b9ed1a21801d897dd87124768af7
+source: Teaching Vacancies
+source_job_id: administration-assistant-brownmead-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-brownmead-primary-academy
+---
 
 ---
 action: 
@@ -34,6 +49,21 @@ factual_fingerprint: adbf799b8f463529e8dd9611f8bba3f23cb57deb2a59aa6e130b589ad57
 source: Teaching Vacancies
 source_job_id: attendance-administrator-alderbrook-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-administrator-alderbrook-school
+---
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B15 2AF | £28,153.00 - £34,811.00 Annually (FTE) Salary: Grade 3: £28,153pa (pro rata) - £34,811pa (pro rata) + SEN 1,780pa (pro rata) | Attendance Officer
+employer: James Brindley School
+closing_date: 2026-11-10T09:00:00+00:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7520a2a88e00b673e3e2cb4c3224dd538fb312e148c4270ec478e04447b812a2
+source: Teaching Vacancies
+source_job_id: attendance-officer-4d89eaab-e94d-49e7-960c-1acc9f5124bc
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-4d89eaab-e94d-49e7-960c-1acc9f5124bc
 ---
 
 ---

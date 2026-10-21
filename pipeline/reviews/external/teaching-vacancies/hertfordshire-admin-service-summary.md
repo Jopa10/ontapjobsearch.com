@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-10-20
+review_date: 2026-10-21
 review_fingerprint: b2c6769233b5abf987f4a238187051e4f99b9c5235eb63654595e26278fba976
-routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
+routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE

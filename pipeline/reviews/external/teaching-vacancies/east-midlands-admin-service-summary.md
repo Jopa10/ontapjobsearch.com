@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-10-20
-review_fingerprint: a06746e82daf53684483aa3e86cc57b55a24071c4b78546b2a92304eb58794ca
-routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
+review_date: 2026-10-21
+review_fingerprint: 4bd4b1d1cd8a03996232c1b8d2ce81b644eb9173c7e08ac0f565f1e1ea4995d1
+routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -102,12 +102,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administrati
 action: 
 POSS | East Midlands | Burton On Trent, DE13 7JE | £4,182.00 Annually (Actual) | Clerical Assistant
 employer: The Staffordshire Schools Multi Academy Trust
-closing_date: 2026-11-01T23:59:00+00:00
+closing_date: 2026-10-23T12:00:00+01:00
 reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: d0cac9c9b5f0350b61d039ec8f31101297e3db02a0a5f164b55b1737cfcf15f6
+factual_fingerprint: 18c2c758e810ef68bf0911eb3d67147c2b13319db90885523a6dc45cc80167bf
 source: Teaching Vacancies
 source_job_id: clerical-assistant-the-staffordshire-schools-multi-academy-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-the-staffordshire-schools-multi-academy-trust

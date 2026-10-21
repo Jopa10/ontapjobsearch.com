@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-10-20
-review_fingerprint: 56ba1867ce8806f85698d09e963da340c011a0bcf3c2f6ac10b496b49c6a7839
-routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
+review_date: 2026-10-21
+review_fingerprint: d88cc34a162ec4ace2e2e3536da06f7cba986e1372782ccf9690ab41f136163f
+routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 18
-- Selected: 7
+- Records: 19
+- Selected: 8
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 11
@@ -49,6 +49,21 @@ factual_fingerprint: 192d45a19c278f2ba5b5b1de267e19f00a0c9f88a6339c307a448d1e0aa
 source: Teaching Vacancies
 source_job_id: admin-assistant-jotmans-hall-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-jotmans-hall-primary-school
+---
+
+---
+action: 
+SELECTED | Essex | Brentwood, East of England, CM15 9NG | £25,171.00 - £26,384.00 Annually (Actual) | Admin Assistant
+employer: Larchwood Primary School
+closing_date: 2026-11-06T12:00:00+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: cdf3fc9ba128ff76d968e199633829a2a72f6bb1bc98c36e674917f20025991d
+source: Teaching Vacancies
+source_job_id: admin-assistant-larchwood-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-larchwood-primary-school
 ---
 
 ---

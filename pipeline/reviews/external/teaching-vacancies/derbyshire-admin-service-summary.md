@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-10-20
-review_fingerprint: 189c871906c0ae870cefbb369bece2e6d63441859c0631d0bd7057631de814ef
-routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
+review_date: 2026-10-21
+review_fingerprint: b50931c21b9f5adb9918b1374af1327175e82157d5442df6d0c5524c5b5cce39
+routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,15 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
-- Selected: 0
+- Records: 4
+- Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 2
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Derbyshire | Hope Valley, East Midlands, S33 6SD | £26,427.00 - £26,847.00 Annually (FTE) Actual Salary £13,823 to £14,043 | Receptionist
+employer: Hope Valley College
+closing_date: 2026-11-02T23:59:00+00:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0b9dc42575d55b4684ea471c8f42737569921775f9483dec51bf7c71642c322f
+source: Teaching Vacancies
+source_job_id: receptionist-d23e1267-9b18-4deb-8377-a4ade5fb90cf
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-d23e1267-9b18-4deb-8377-a4ade5fb90cf
+---
 
 ## POSS — choose SELECT or EXCLUDE
 
@@ -47,6 +60,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-heritag
 ## HARD_PASS
 
 - [Exams and Assessment Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-and-assessment-officer-outwood-academy-hasland-hall) — Insufficient admin/service evidence.
+- [Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-manager-anthony-gell-school) — Manager title salary ceiling £32,737 is not below £28,000.
 
 ## Safety boundary
 

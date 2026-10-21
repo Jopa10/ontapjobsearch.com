@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-10-20
-review_fingerprint: 7fe52adeb201472b950af39bb76540f2d12eb22ec8f3a729d4b1e0ab93d1f4f6
-routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
+review_date: 2026-10-21
+review_fingerprint: a573965bb830d30d1af8766f9ac9fa5b0b1d775f3d48663bfbf5b98638510a99
+routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 46
-- Selected: 13
-- POSS awaiting decision: 7
+- Records: 52
+- Selected: 14
+- POSS awaiting decision: 8
 - Excluded: 0
-- Hard pass: 26
+- Hard pass: 30
 
 ## SELECTED
 
@@ -53,6 +53,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-oyste
 
 ---
 action: 
+SELECTED | Yorkshire - West | Wakefield, Yorkshire and the Humber, WF4 5HE | Band D, £22,401 to £22,757 per annum (actual salary) Contract: 37 Hours Per Week, Term Time + 2 Insets Days | Administration Assistant
+employer: Horbury Academy
+closing_date: 2026-11-09T09:00:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: d7d5cf1ca3472f28b0c2b47a3ee198492898f255b2de424b3d671091faaf1014
+source: Teaching Vacancies
+source_job_id: administration-assistant-horbury-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-horbury-academy
+---
+
+---
+action: 
 SELECTED | Yorkshire - West | Mirfield, Yorkshire and the Humber, WF14 9EZ | £23,632.00 - £24,778.00 Annually (Actual) Grade 5, Scale Point 5-8. FTE - £26,427 - £27,709) | Administration Assistant
 employer: The Mirfield Free Grammar
 closing_date: 2026-11-02T09:00:00+00:00
@@ -83,17 +98,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-business-s
 
 ---
 action: 
-SELECTED | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD2 2JT | £25,583.00 - £25,989.00 Annually (FTE) Kirklees Grade 5 | Business Support Officer
-employer: All Saints Catholic College
-closing_date: 2026-11-03T09:00:00+00:00
-reason: Clear admin/service title: business support officer
+SELECTED | Yorkshire - West | Bradford, Yorkshire and the Humber, BD4 7EB | £23,274.00 - £24,579.00 Annually (Actual) | Attendance Officer
+employer: Bronte Girls' Academy
+closing_date: 2026-11-04T12:00:00+00:00
+reason: Clear admin/service title: attendance officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: NEW_REVIEW
-factual_fingerprint: 48b7d80023caaf1296d470a5bb1829efdf0f8d35fd8139f52e9eaa2f0ff53848
+factual_fingerprint: 266088610da4e1c20cd23015664ef6f551d8484f35e5625882990af1091fb927
 source: Teaching Vacancies
-source_job_id: business-support-officer-854eb79b-4156-4a90-8232-676cdd7ff0a7
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-854eb79b-4156-4a90-8232-676cdd7ff0a7
+source_job_id: attendance-officer-bronte-girls-academy-bradford
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-bronte-girls-academy-bradford
 ---
 
 ---
@@ -250,6 +265,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-37
 
 ---
 action: 
+POSS | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD2 2JT | £25,583.00 - £25,989.00 Annually (FTE) Kirklees Grade 5 | Business Support Officer
+employer: All Saints Catholic College
+closing_date: 2026-11-03T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: 48b7d80023caaf1296d470a5bb1829efdf0f8d35fd8139f52e9eaa2f0ff53848
+source: Teaching Vacancies
+source_job_id: business-support-officer-854eb79b-4156-4a90-8232-676cdd7ff0a7
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-officer-854eb79b-4156-4a90-8232-676cdd7ff0a7
+---
+
+---
+action: 
 POSS | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD1 4ES | £25,951.00 to £27,733.00 per annum FTE | HR Administrator
 employer: Greenhead College
 closing_date: 2026-11-01T23:59:00+00:00
@@ -280,21 +310,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ---
 action: 
-POSS | Yorkshire - West | Shipley, Yorkshire and the Humber, BD18 3JE | £35,570.00 - £40,444.00 Annually (FTE) Band S01 - S02, SCP 17 to SCP 28 (Actual salary £30,732 - £35,267), 37 hours per week, TTO+5 days | Operations Officer
-employer: Bradford Alternative Provision Academy
-closing_date: 2026-10-21T09:00:00+01:00
-reason: Borderline school administration title: operations officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 4bf01274b15814861596092b9df57521c3a60e32c4ae190e755545e402430bf9
-source: Teaching Vacancies
-source_job_id: operations-officer-bradford-alternative-provision-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-bradford-alternative-provision-academy
----
-
----
-action: 
 POSS | Yorkshire - West | Elland, HX5 0RY | £32,578.00 - £34,811.00 Annually (Actual) | Operations Officer
 employer: Great Heights Academy Trust
 closing_date: 2026-11-02T12:00:00+00:00
@@ -306,6 +321,21 @@ factual_fingerprint: dc6a407918505b2c9507a204c6991a9747b9810a516a6d4f2653a5a7a9f
 source: Teaching Vacancies
 source_job_id: operations-officer-great-heights-academy-trust
 source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-great-heights-academy-trust
+---
+
+---
+action: 
+POSS | Yorkshire - West | Halifax, Yorkshire and the Humber, HX3 9LG | £22,713.00 Annually (Actual) Grade 2, SCP4, term time plus 5 days | Receptionist
+employer: Park Lane Academy
+closing_date: 2026-11-05T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: e7337aab6290a3bac4b268796fe61d849eec31c5ab837c96bd2c3c88a2b313e8
+source: Teaching Vacancies
+source_job_id: receptionist-park-lane-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-park-lane-academy
 ---
 
 ---
@@ -329,9 +359,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## HARD_PASS
 
+- [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-ossett-academy-and-sixth-form-college) — Missing salary or pay scale.
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-e2369599-57e0-464a-a903-f4cbf97046f4) — Insufficient admin/service evidence.
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-wakefield-snapethorpe-primary-school-wakefield) — Insufficient admin/service evidence.
 - [Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-1a49a8cb-9a05-468f-84cb-f2dd01c42071) — Insufficient admin/service evidence.
+- [Attendance Leader](https://teaching-vacancies.service.gov.uk/jobs/attendance-leader-appleton-academy-bradford-west-yorkshire) — Insufficient admin/service evidence.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-ethos-academy-trust) — Insufficient admin/service evidence.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-leeds-diocesan-learning-trust) — Insufficient admin/service evidence.
 - [Customer Experience Team Leader](https://teaching-vacancies.service.gov.uk/jobs/customer-experience-team-leader) — Insufficient admin/service evidence.
@@ -350,6 +382,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-beckfoot-heaton-primary) — Manager title salary ceiling £34,811 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-holy-name-catholic-voluntary-academy) — Manager title salary ceiling £32,046 is not below £28,000.
 - [Operations Support Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/operations-support-co-ordinator) — Insufficient admin/service evidence.
+- [People Advisor (Temporary Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-temporary-maternity-cover-abbey-multi-academy-trust) — Insufficient admin/service evidence.
+- [Recruitment Officer (GORSE SCITT)](https://teaching-vacancies.service.gov.uk/jobs/recruitment-officer-gorse-scitt) — Insufficient admin/service evidence.
 - [School Administrator Role - Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-administrator-role-attendance-assistant-768b631b-d361-4d35-990b-279a7fa5d4d7) — Missing salary or pay scale.
 - [School Operations Manager - West Yorkshire](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-west-yorkshire) — Manager title salary ceiling £38,221 is not below £28,000.
 - [School Support Manager](https://teaching-vacancies.service.gov.uk/jobs/school-support-manager-ark-the-king-s-school) — Manager title salary ceiling £41,771 is not below £28,000.

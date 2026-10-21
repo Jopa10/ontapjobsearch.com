@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Sussex
 
-review_date: 2026-10-20
-review_fingerprint: 20fc669b3f572d243aa4b20aaee6ab283adf096533cdaced15ac6aacc055c49c
-routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
+review_date: 2026-10-21
+review_fingerprint: c3fc697744adb605cd45fc6a4bc1bb66f0670a3d0f9e9cc7830069d33a802973
+routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
 ontap_region: Sussex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,15 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
-- Selected: 0
+- Records: 3
+- Selected: 1
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 0
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Sussex | Bexhill-on-Sea, South East, TN40 1SE | Single Status Grade 7 | Business Administrator - Finance
+employer: St Richard's Catholic College
+closing_date: 2026-11-13T12:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9a65b3666ad79bb0985853c60dc64a615f0e62af4ca1a7328122521a4903ec11
+source: Teaching Vacancies
+source_job_id: business-administrator-finance-st-richard-s-catholic-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administrator-finance-st-richard-s-catholic-college
+---
 
 ## POSS — choose SELECT or EXCLUDE
 

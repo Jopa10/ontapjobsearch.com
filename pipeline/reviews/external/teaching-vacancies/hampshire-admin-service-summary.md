@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-10-20
+review_date: 2026-10-21
 review_fingerprint: f1d18508f7daf91517b4c6f05c196010ae29cd9ade902bc216f3a7939cc5294a
-routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
+routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE

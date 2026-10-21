@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-10-20
-review_fingerprint: 0b549d8c776284d620d80222ef192d33d935ea3864a06941daebdd1ca67e8e6a
-routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
+review_date: 2026-10-21
+review_fingerprint: 37b7c9e729b03177159d9757e0d07f570f8da12d2ecf8b6cd9c175ffb78fffe7
+routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 71
-- Selected: 19
-- POSS awaiting decision: 12
+- Records: 77
+- Selected: 20
+- POSS awaiting decision: 16
 - Excluded: 0
-- Hard pass: 40
+- Hard pass: 41
 
 ## SELECTED
 
@@ -113,21 +113,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-ri
 
 ---
 action: 
-SELECTED | London | London, London, N20 8AZ | £32,000.00 Annually (FTE) United Learning Pay Scales, G2 Vocational (negotiable depending on qualifications and experience) | Attendance Officer
-employer: The Totteridge Academy
-closing_date: 2026-10-20T23:59:00+01:00
-reason: Clear admin/service title: attendance officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: dab7653696f9dc85ac5d53d2ec267cfcdf2fd47c5f87ffce78c2609bc6f3d853
-source: Teaching Vacancies
-source_job_id: attendance-officer-the-totteridge-academy-london
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-the-totteridge-academy-london
----
-
----
-action: 
 SELECTED | London | London, London, N9 8DR | £28,148.19 - £30,407.51 Annually (FTE) NSCT Pay Scales: 18-21 / Actual Salary: £26,855.53 - £27,930.11 / NSCT Health Cash Plan + Generous Pension | Business Support Assistant
 employer: Woodpecker Hall Primary Academy
 closing_date: 2026-10-27T23:59:00+00:00
@@ -184,6 +169,36 @@ factual_fingerprint: 42d051a3a6536686eb484b25d8c3705d560171744b6a914d1340efe8376
 source: Teaching Vacancies
 source_job_id: exams-officer-harris-academy-tottenham-london
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-harris-academy-tottenham-london
+---
+
+---
+action: 
+SELECTED | London | Sutton, SM1 1DA | OHCAT Outer London Business Support Scale, Grade 5\6, actual salary £12,881.17 - £14,695.33 per annum (FTE £33,123 - £37,788 per annum) | HR Administrator (part-time)
+employer: Orchard Hill College Academy Trust
+closing_date: 2026-11-04T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 668553e8fdd3af109d89955a635f7c7257a1b970fcf70abf7060f3546c8b7fc6
+source: Teaching Vacancies
+source_job_id: hr-administrator-part-time-orchard-hill-college-academy-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-administrator-part-time-orchard-hill-college-academy-trust
+---
+
+---
+action: 
+SELECTED | London | London, London, SW4 9ET | £29,438.00 - £29,438.00 Annually (Actual) | Office Administrator & Receptionist
+employer: The Elms Academy
+closing_date: 2026-11-02T12:00:00+00:00
+reason: Clear admin/service title: administrator, office administrator, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ce83b41b25a8550a385cd38bd56b9a47a9c890972c1925f7212500cf82e1b892
+source: Teaching Vacancies
+source_job_id: office-administrator-receptionist-the-elms-academy-london
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-receptionist-the-elms-academy-london
 ---
 
 ---
@@ -310,6 +325,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/welfare-administrator
 
 ---
 action: 
+POSS | London | Dagenham, London, RM9 4UN | £28,709.00 - £30,364.00 Annually (Actual) full time equivalent £31,290- £32,655 | Admin Assistant
+employer: Jo Richardson Community School
+closing_date: 2026-11-11T08:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 18a1d99ee9771fb123b5ee4875489962f8bea0d33eabde8da7650cc1af85dd03
+source: Teaching Vacancies
+source_job_id: admin-assistant-3fdfc1e3-6219-478b-b4d8-4889ed95e085
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admin-assistant-3fdfc1e3-6219-478b-b4d8-4889ed95e085
+---
+
+---
+action: 
 POSS | London | Beckenham, London, BR3 1RF | £30,843.00 - £32,655.00 Annually (FTE) | Administration Officer
 employer: Worsley Bridge Primary School
 closing_date: 2026-11-05T12:00:00+00:00
@@ -366,6 +396,36 @@ factual_fingerprint: 7a86df79701cd933e088d7e80e539c6c5c70a26db6c642ad581e39d30a0
 source: Teaching Vacancies
 source_job_id: administrator-sarah-bonnell-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-sarah-bonnell-school
+---
+
+---
+action: 
+POSS | London | Wembley, HA0 3NT | £100,000.00 - £110,000.00 Annually (Actual) Depending on skills and experience | Chief Financial & Operations Officer (CFOO)
+employer: Wembley Multi Academy Trust
+closing_date: 2026-11-16T10:00:00+00:00
+reason: Borderline school administration title: operations officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 38c8e84b9438f675ee89e08531bde7e85b7911ceb86b97478a9d6074fdec2d84
+source: Teaching Vacancies
+source_job_id: chief-financial-operations-officer-cfoo
+source_url: https://teaching-vacancies.service.gov.uk/jobs/chief-financial-operations-officer-cfoo
+---
+
+---
+action: 
+POSS | London | Harrow, London, HA3 5RQ | £24,030.00 - £25,048.00 Annually (Actual) | Cover Supervisor Manager
+employer: Whitefriars School
+closing_date: 2026-11-09T23:59:00+00:00
+reason: Manager title below £28,000 salary ceiling requires review
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3cf2b4ff2bdfa48c45ca100714ab36e97e138709adfc37edd49d3625c6b39bba
+source: Teaching Vacancies
+source_job_id: cover-supervisor-manager-d381408a-aed2-44f0-8a2b-5602fd447ab9
+source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-manager-d381408a-aed2-44f0-8a2b-5602fd447ab9
 ---
 
 ---
@@ -460,6 +520,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-
 
 ---
 action: 
+POSS | London | London, London, E17 5SD | £26,016.00 to £26,427.00 per annum (pro rata £22,951.04 to £23,313.62 per annum) plus London Weighting £2,376.00 per annum (pro rata £2,096.08) | Receptionist
+employer: Eden Girls' School, Waltham Forest
+closing_date: 2026-11-08T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5079932ab4317857423cdbd51c1535359e58016cf85c928c272be90b985a959e
+source: Teaching Vacancies
+source_job_id: receptionist-eden-girls-school-waltham-forest
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-eden-girls-school-waltham-forest
+---
+
+---
+action: 
 POSS | London | Dagenham, London, RM10 7UR | £28,909.00 - £30,200.00 Annually (Actual) Salary Scale: Scale 5 (Pt12-15, £33,609 - £35,109) Prorated salary range is likely to be approx. £28,909 - £30,200 (also dependant on experience, weeks per year and continuous service) Based on working 35 hours per week, Term time only. (Subject to job evaluation) | SEND Administrator
 employer: Eastbrook School
 closing_date: 2026-11-02T08:00:00+00:00
@@ -517,6 +592,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment
 - [Human Resources Lead](https://teaching-vacancies.service.gov.uk/jobs/human-resources-lead) — Insufficient admin/service evidence.
 - [Human Resources Manager (Schools)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-manager-schools-netley-primary-school) — Manager title salary ceiling £41,000 is not below £28,000.
 - [Invigilators / Readers & Scribes](https://teaching-vacancies.service.gov.uk/jobs/invigilators-readers-scribes) — Insufficient admin/service evidence.
+- [Minibus Driver](https://teaching-vacancies.service.gov.uk/jobs/minibus-driver-the-avenue-school) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-willowfield-school) — Manager title salary ceiling £40,575 is not below £28,000.
 - [Operations Manager - Havering Secondary Hub](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-havering-secondary-hub) — Manager title salary ceiling £60,390 is not below £28,000.
 - [Payroll Officer](https://teaching-vacancies.service.gov.uk/jobs/payroll-officer-girls-learning-trust) — Insufficient admin/service evidence.

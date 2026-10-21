@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-10-20
-review_fingerprint: 27b53831d6723588d6d2314b70ad62aab3bf64d3d13ff9bdc0a83c5906735a6a
-routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
+review_date: 2026-10-21
+review_fingerprint: 9158b34b361060b6ad9e8da04668542283145dff7bcc59acd97138494d9f04d4
+routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 24
-- Selected: 10
-- POSS awaiting decision: 9
+- Selected: 11
+- POSS awaiting decision: 8
 - Excluded: 0
 - Hard pass: 5
 
@@ -171,22 +171,22 @@ source_job_id: senior-office-administrator-3a5f781d-04a4-440d-b3a1-75326476e3e9
 source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrator-3a5f781d-04a4-440d-b3a1-75326476e3e9
 ---
 
-## POSS — choose SELECT or EXCLUDE
-
 ---
 action: 
-POSS | Cambridgeshire | Cambridge, East of England, CB1 3RL | £26,427.00 - £26,847.00 Annually (FTE) NJC 5-6 - salary advertised is FTE, salary paid will be pro rata based on hours/weeks worked | Administrator
-employer: Ridgefield Primary School
-closing_date: 2026-10-21T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
+SELECTED | Cambridgeshire | Cambridge, East of England, CB24 9LX | £27,275 - £29,071 FTE | Sixth Form Administrator/Exams
+employer: Impington Village College
+closing_date: 2026-11-02T08:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: b4b3f01a592fa0b461cdb31ea84daf12d71cd3a5b0d518591ec912c7d21f9b3b
+factual_fingerprint: f7a671777dfe2572fcc20ace157e9bdff66748d092b10b3919167ca8464465cc
 source: Teaching Vacancies
-source_job_id: administrator-ridgefield-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-ridgefield-primary-school
+source_job_id: sixth-form-administrator-exams
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrator-exams
 ---
+
+## POSS — choose SELECT or EXCLUDE
 
 ---
 action: 

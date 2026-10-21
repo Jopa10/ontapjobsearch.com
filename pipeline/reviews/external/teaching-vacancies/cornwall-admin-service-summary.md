@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-10-20
+review_date: 2026-10-21
 review_fingerprint: 3732c55375e3e3bc7082b728bcdccf7f268840cfc5f4c36993c8a8d5399c0cd2
-routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
+routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 7
+- Records: 8
 - Selected: 2
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -89,6 +89,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 
 ## HARD_PASS
 
+- [Administrative & Educational Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/administrative-educational-support-assistant-launceston-primary-school) — Insufficient admin/service evidence.
 - [Behaviour Mentor](https://teaching-vacancies.service.gov.uk/jobs/behaviour-mentor-98013a7b-abcb-49b9-bc24-0e68d6997ce9) — Insufficient admin/service evidence.
 - [Minibus Driver](https://teaching-vacancies.service.gov.uk/jobs/minibus-driver-104babdb-863b-4900-8121-25129beb540f) — Insufficient admin/service evidence.
 - [Nursery Assistant](https://teaching-vacancies.service.gov.uk/jobs/nursery-assistant-aspire-academy-trust-st-austell-not-recorded) — Out-of-scope occupation: nurse.

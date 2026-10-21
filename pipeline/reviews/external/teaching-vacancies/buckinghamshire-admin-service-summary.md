@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-10-20
-review_fingerprint: 4455323aa9e81b46db731b74203365416f8867778e437ec0b832678f5e9a186e
-routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
+review_date: 2026-10-21
+review_fingerprint: 0b8c32e651c995490c64b4df80334a75da22e551e22c772a1ec9e1852f0a3659
+routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 4
+- Records: 13
+- Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 6
@@ -49,6 +49,36 @@ factual_fingerprint: 14ad43f2019a8e4778e71b32ecd76a7db9f570d451ec48fc1e4b05c3bce
 source: Teaching Vacancies
 source_job_id: payroll-and-hr-support-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/payroll-and-hr-support-administrator
+---
+
+---
+action: 
+SELECTED | Buckinghamshire | Milton Keynes, South East, MK2 3HQ | £24413 - £25583 per annum | Receptionist
+employer: Lift Sir Herbert Leon
+closing_date: 2026-11-17T13:08:02+00:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 881a26fa6ab64cba8a0f0aa26f4b8c19a4ad0a8dd29f6f1b9b9c13aba98ab33b
+source: Teaching Vacancies
+source_job_id: receptionist-lift-sir-herbert-leon
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-lift-sir-herbert-leon
+---
+
+---
+action: 
+SELECTED | Buckinghamshire | Milton Keynes, South East, MK10 9JQ | £16,347.00 Annually (Actual) 27.5 hours per week, term time only with mandatory training days in addition | Receptionist (General Administrator)
+employer: Oakgrove School
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Clear admin/service title: administrator, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8eb1ffb64e564a62e800de1803baa8009966a3dcb7160b655c6433d901d4c1dc
+source: Teaching Vacancies
+source_job_id: receptionist-general-administrator-ad565c22-7800-442c-b92a-0cd4c39c9cec
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-general-administrator-ad565c22-7800-442c-b92a-0cd4c39c9cec
 ---
 
 ---

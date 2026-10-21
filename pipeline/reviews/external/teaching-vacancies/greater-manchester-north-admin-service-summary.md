@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-10-20
+review_date: 2026-10-21
 review_fingerprint: d938f73afbfdc493db5c0749b93913573680f5ae17257d3269f53d05ddb37e94
-routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
+routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 6
 - Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 5
 
 ## SELECTED
 
@@ -46,6 +46,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/mis-systems-and-data-
 
 ## HARD_PASS
 
+- [Administration Apprentice based at Ram Mill Business Centre, Oldham](https://teaching-vacancies.service.gov.uk/jobs/administration-apprentice-based-at-ram-mill-business-centre-oldham) — Insufficient admin/service evidence.
 - [Head of Human Resources](https://teaching-vacancies.service.gov.uk/jobs/head-of-human-resources-st-teresa-of-calcutta-catholic-academy-trust) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-new-bridge-school-oldham-lancashire) — Insufficient admin/service evidence.
 - [Personal Care Assistant based at New Bridge Learning Centre](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-based-at-new-bridge-learning-centre-new-bridge-school-oldham-lancashire) — Insufficient admin/service evidence.

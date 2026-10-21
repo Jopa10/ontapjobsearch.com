@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-10-20
+review_date: 2026-10-21
 review_fingerprint: 4bd3e907db4aa1a10a9c9893c8add31b0b431fbda8d23be49d58d8a1d0e563cb
-routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
+routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 12
 - Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 8
+- Hard pass: 9
 
 ## SELECTED
 
@@ -75,6 +75,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-administra
 ## HARD_PASS
 
 - [Attendance Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/attendance-co-ordinator-abbeyfield-school) — Insufficient admin/service evidence.
+- [Data Apprentice](https://teaching-vacancies.service.gov.uk/jobs/data-apprentice-dslv-e-act-academy-daventry-northamptonshire) — Insufficient admin/service evidence.
 - [Finance and HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-and-hr-assistant-greenfields-specialist-school-for-communication-northampton-northamptonshire) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-bishop-stopford-school) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-weavers-academy) — Insufficient admin/service evidence.

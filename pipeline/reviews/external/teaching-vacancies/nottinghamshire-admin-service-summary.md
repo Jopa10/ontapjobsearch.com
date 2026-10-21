@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-10-20
-review_fingerprint: 9d4ace8d122a631661c740031359f1da9f048962355b39c64bca0543a62a8565
-routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
+review_date: 2026-10-21
+review_fingerprint: b2f3d81e7a7128ff017d6ecc6701210600ce6366ae77b6464e96829509ac81a1
+routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 26
-- Selected: 10
+- Records: 24
+- Selected: 9
 - POSS awaiting decision: 6
 - Excluded: 0
-- Hard pass: 10
+- Hard pass: 9
 
 ## SELECTED
 
@@ -143,21 +143,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ---
 action: 
-SELECTED | Nottinghamshire | Nottingham, East Midlands, NG8 2FT | £22,507.00 - £24,527.00 Annually (Actual) The salary advertised reflects the pro rata salary for this role, based on 45.6 weeks per year. The full-time equivalent FTE salary for this position is £25,666 - 27,970 per annum. | SEND Administrator
-employer: Fernwood School
-closing_date: 2026-11-02T09:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8ba44e2eb3a71c045dbc8a133d3f916deb67aaffe6c702713554e436164b73f4
-source: Teaching Vacancies
-source_job_id: send-administrator-fernwood-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-fernwood-school
----
-
----
-action: 
 SELECTED | Nottinghamshire | Nottingham, East Midlands, NG17 8EE | Grade 4 | Senior Office Administrative Assistant
 employer: The West Park Academy
 closing_date: 2026-11-02T23:59:00+00:00
@@ -205,21 +190,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-POSS | Nottinghamshire | Nottingham, East Midlands, NG4 4JD | £22,631.57 - £23,356.04 Annually (Actual) TTO | Administrative Assistant
-employer: Stanhope Primary and Nursery School
-closing_date: 2026-10-21T09:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: dee9a6bc4e6eae9c58317f0f2151ccd9c0dec507a6075ba6a93439965ee841b3
-source: Teaching Vacancies
-source_job_id: administrative-assistant-stanhope-primary-and-nursery-school-nottingham-nottinghamshire
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-stanhope-primary-and-nursery-school-nottingham-nottinghamshire
----
-
----
-action: 
 POSS | Nottinghamshire | Nottingham, NG3 5LR | £26,403.00 Annually (FTE) GAT 5/6 | Administrator
 employer: Greenwood Academies Trust
 closing_date: 2026-10-21T23:59:00+01:00
@@ -263,6 +233,21 @@ source_job_id: receptionist-administrator-carlton-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-carlton-academy
 ---
 
+---
+action: 
+POSS | Nottinghamshire | Nottingham, East Midlands, NG8 2FT | £22,507.00 - £24,527.00 Annually (Actual) The salary advertised reflects the pro rata salary for this role, based on 45.6 weeks per year. The full-time equivalent FTE salary for this position is £25,666 - 27,970 per annum. | SEND Administrator
+employer: Fernwood School
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8ba44e2eb3a71c045dbc8a133d3f916deb67aaffe6c702713554e436164b73f4
+source: Teaching Vacancies
+source_job_id: send-administrator-fernwood-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-fernwood-school
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -270,7 +255,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 ## HARD_PASS
 
 - [Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-king-edward-primary-school-nursery) — Insufficient admin/service evidence.
-- [Communications & Marketing Assistant](https://teaching-vacancies.service.gov.uk/jobs/communications-marketing-assistant) — Insufficient admin/service evidence.
 - [Data Protection Support Officer](https://teaching-vacancies.service.gov.uk/jobs/data-protection-support-officer) — Insufficient admin/service evidence.
 - [Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/examinations-manager-rushcliffe-spencer-academy) — Manager title salary ceiling £35,096 is not below £28,000.
 - [Exams and Assessment Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-and-assessment-officer-outwood-academy-kirkby) — Insufficient admin/service evidence.

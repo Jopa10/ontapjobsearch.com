@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-10-20
+review_date: 2026-10-21
 review_fingerprint: f01b183d6b5a13ad91df447069fc5dc14fd25f39f61e2d1898e5d17823252f68
-routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
+routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -68,7 +68,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-to
 - [Admissions and Outreach Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-outreach-coordinator-university-technical-college-norfolk-norwich-norfolk) — Insufficient admin/service evidence.
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-browick-road-primary-and-nursery-school-wymondham-norfolk) — Insufficient admin/service evidence.
 - [Data Manager (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/data-manager-maternity-cover-great-yarmouth-charter-academy-great-yarmouth) — Manager title salary ceiling £34,811 is not below £28,000.
-- [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-queen-s-hill-primary-school) — Insufficient admin/service evidence.
+- [People Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-norwich-city-college-of-further-and-higher-education) — Insufficient admin/service evidence.
 - [Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/procurement-manager-st-john-the-baptist-catholic-multi-academy-trust) — Manager title salary ceiling £49,816 is not below £28,000.
 - [Student Administration & Customer Service Assistant Degree Apprenticeship](https://teaching-vacancies.service.gov.uk/jobs/student-administration-customer-service-assistant-degree-apprenticeship) — Insufficient admin/service evidence.
 - [Student Services Assistant](https://teaching-vacancies.service.gov.uk/jobs/student-services-assistant-east-norfolk-multi-academy-trust) — Insufficient admin/service evidence.

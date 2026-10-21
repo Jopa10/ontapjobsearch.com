@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-10-20
+review_date: 2026-10-21
 review_fingerprint: 7882e4483d38ded7104566e2cc0c1b7017d44f1733c09f9c4b4de3e20841b73d
-routing_manifest_sha256: 46d78083c821a00715f56b32266f41e11c5b94879efb518c25932070f999eb5e
+routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 5
 - Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 3
 
 ## SELECTED
 
@@ -64,7 +64,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-st-bede-s-catholic-college) — Insufficient admin/service evidence.
 - [PA to Headteacher](https://teaching-vacancies.service.gov.uk/jobs/pa-to-headteacher-wellsway-school) — Missing salary or pay scale.
 - [Personal Care Assistant (EYFS + SEND)](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-eyfs-send) — Insufficient admin/service evidence.
-- [Systems Developer](https://teaching-vacancies.service.gov.uk/jobs/systems-developer-cabot-learning-federation) — Insufficient admin/service evidence.
 
 ## Safety boundary
 
