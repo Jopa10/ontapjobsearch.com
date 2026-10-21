@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 45
+- automatic review: 43
 - automatic exclude: 0
 - effective include: 10
-- effective review: 45
+- effective review: 43
 - effective exclude: 0
 
 ## INCLUDE (10)
@@ -40,11 +40,11 @@ reason: Exact approved Walsall workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Administrator
-company: Oliver Rae - Agency - Permanent
+title: Call Centre Advisor
+company: Interaction Recruitment - Agency - Temporary
 location: Walsall
 source: JobG8
-job_id: jobg8-23643_225633777
+job_id: jobg8-23643_225708194
 reason: Exact approved Walsall workplace.
 ---
 
@@ -52,11 +52,11 @@ reason: Exact approved Walsall workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Call Centre Advisor
+title: Customer Service Advisor
 company: Interaction Recruitment - Agency - Temporary
 location: Walsall
 source: JobG8
-job_id: jobg8-23643_225708194
+job_id: jobg8-23643_225740640
 reason: Exact approved Walsall workplace.
 ---
 
@@ -76,11 +76,11 @@ reason: Exact approved Walsall workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Outpatient Receptionist
-company: Walsall Healthcare NHS Trust
-location: Walsall, WS2 9PS
-source: NHS Jobs
-job_id: nhs-5671834
+title: Fleet Administrator
+company: BCS Group - Agency - Permanent
+location: Walsall
+source: JobG8
+job_id: jobg8-23643_225742721
 reason: Exact approved Walsall workplace.
 ---
 
@@ -144,7 +144,7 @@ job_id: nhs-5664251
 reason: Exact approved Walsall workplace.
 ---
 
-## REVIEW (45)
+## REVIEW (43)
 
 ---
 action: 
@@ -330,18 +330,6 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Advisor
-company: Berry Recruitment - Agency - Contract
-location: Dudley
-source: JobG8
-job_id: jobg8-23643_225733877
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer service Advisor
 company: Connect2Dudley - Agency - Temporary
 location: Dudley
@@ -355,10 +343,10 @@ action:
 decision: review
 automatic_decision: review
 title: Customer Service Advisor
-company: FT Recruitment - Agency - Permanent
-location: Smethwick
+company: Everywhen, part of the Ardonagh Group - Agency - Permanent
+location: Brierley Hill
 source: JobG8
-job_id: jobg8-23643_225635002
+job_id: jobg8-2116423
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -407,18 +395,6 @@ company: PSR Solutions - Agency - Permanent
 location: Wolverhampton
 source: JobG8
 job_id: jobg8-23643_225734568
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Executive Support and Commerical Coordinator
-company: Hays Business Support - Agency - Permanent
-location: Wolverhampton
-source: JobG8
-job_id: jobg8-23643_225637535
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -618,6 +594,18 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
+title: Sales & Marketing Coordinator
+company: Pertemps Black Country Perms - Agency - Permanent
+location: Halesowen
+source: JobG8
+job_id: jobg8-23643_225741797
+reason: The stated location is broader or less specific than the approved Walsall employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Administrator
 company: Pertemps Black Country Perms - Agency - Permanent
 location: Halesowen
@@ -648,18 +636,6 @@ location: Stourbridge
 source: JobG8
 job_id: jobg8-23643_225701373
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Team Administrator
-company: Black Country Healthcare NHS Foundation Trust
-location: Halesowen, B63 4SG
-source: NHS Jobs
-job_id: nhs-5645658
-reason: The stated location is broader or less specific than the approved Walsall employment market and needs review.
 ---
 
 ---

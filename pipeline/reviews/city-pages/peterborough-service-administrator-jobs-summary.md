@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 15
 - automatic review: 9
-- automatic exclude: 29
+- automatic exclude: 31
 - effective include: 15
 - effective review: 9
-- effective exclude: 29
+- effective exclude: 31
 
 ## INCLUDE (15)
 
@@ -88,18 +88,6 @@ reason: Approved conservative Peterborough launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Order Management Administrator
-company: Morgan Jones Recruitment Consultants - Agency - Contract
-location: Peterborough
-source: JobG8
-job_id: jobg8-23643_225733606
-reason: Approved conservative Peterborough launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Customer Services Administrator - Part Time
 company: Barker Ross - Agency - Temporary
 location: Peterborough
@@ -141,6 +129,18 @@ company: Commercial Recruitment - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_225237498
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Interim Marketing Campaigns Executive
+company: Hays Technology - Agency - Temporary
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225740748
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -314,7 +314,7 @@ job_id: jobg8-23643_225691104
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (29)
+## EXCLUDE (31)
 
 ---
 action: 
@@ -373,18 +373,6 @@ company: North Cambridge Academy
 location: Cambridge
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-international-and-community-projects-north-cambridge-academy
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Anne Corder Recruitment - Agency - Contract
-location: Huntingdon
-source: JobG8
-job_id: jobg8-23643_225637156
 reason: Separate employment market.
 ---
 
@@ -500,11 +488,47 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Customer Service Advisor
+company: Countrywide HQ - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-2104786
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Customer Service Advisor - Mortgages
 company: Saffron Building Society - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225671519
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Digital Marketing and Sales
+company: Interaction Recruitment - Agency - Permanent
+location: Cambridgeshire
+source: JobG8
+job_id: jobg8-23643_225744955
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Experienced Patent Secretary (To &;50,000!) - Cambridge/Hybrid
+company: Dawn Ellmore Employment Agency - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-2144050
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 72
-- automatic exclude: 33
-- effective include: 11
-- effective review: 72
-- effective exclude: 33
+- automatic include: 12
+- automatic review: 74
+- automatic exclude: 32
+- effective include: 12
+- effective review: 74
+- effective exclude: 32
 
-## INCLUDE (11)
+## INCLUDE (12)
 
 ---
 action: 
@@ -136,6 +136,18 @@ reason: Approved Brighton & Hove catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist
+company: Clearline Recruitment Ltd - Agency - Permanent
+location: Brighton
+source: JobG8
+job_id: jobg8-23643_225741908
+reason: Approved Brighton & Hove catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist / Administrator
 company: Integrated Care 24 Ltd
 location: Brighton, BN1 7GF
@@ -156,7 +168,7 @@ job_id: nhs-5667013
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (72)
+## REVIEW (74)
 
 ---
 action: 
@@ -390,6 +402,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Business Centre Coordinator / Administrator
+company: Additional Resources Ltd - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-2029067
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Call Handler
 company: MMP Consultancy - Agency - Temporary
 location: Sussex
@@ -402,11 +426,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Campaign Marketing Executive
-company: Lloyd Recruitment Services Ltd - Agency - Permanent
+title: Client Support Administrator
+company: Lloyd Recruitment - East Grinstead - Agency - Permanent
 location: Sussex
 source: JobG8
-job_id: jobg8-2060276
+job_id: jobg8-23643_225742224
 reason: Broad location; review before city inclusion.
 ---
 
@@ -527,18 +551,6 @@ company: Gi Group - Agency - Permanent
 location: East Grinstead
 source: JobG8
 job_id: jobg8-23643_225653638
-reason: No approved Brighton & Hove catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Support Specialist Long Term Temp
-company: Office Angels - Agency - Contract
-location: Burgess Hill
-source: JobG8
-job_id: jobg8-23643_225635139
 reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
@@ -690,18 +702,6 @@ reason: No approved Brighton & Hove catchment rule matched; local review require
 action: 
 decision: review
 automatic_decision: review
-title: Mandarin Speaking Office Administrator
-company: Michael Page - Agency - Permanent
-location: Burgess Hill
-source: JobG8
-job_id: jobg8-23643_225634413
-reason: No approved Brighton & Hove catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Marketing Executive
 company: Office Angels - Agency - Permanent
 location: Sussex
@@ -804,6 +804,18 @@ location: Sussex
 source: JobG8
 job_id: jobg8-2021499
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Administrator
+company: Tony Alan Recruitment - Agency - Permanent
+location: Hailsham
+source: JobG8
+job_id: jobg8-2103807
+reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
 ---
@@ -992,7 +1004,7 @@ decision: review
 automatic_decision: review
 title: Telesales Executive
 company: Travail Employment Group - Agency - Permanent
-location: Burgess Hill
+location: Not Specified
 source: JobG8
 job_id: jobg8-23643_225735463
 reason: No approved Brighton & Hove catchment rule matched; local review required.
@@ -1014,6 +1026,30 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Temporary HR & Operations Coordinator
+company: Office Angels - Agency - Temporary
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225744932
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trainee Administrator
+company: Lloyd Recruitment - East Grinstead - Agency - Permanent
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225743750
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Travel Operations Coordinator
 company: Office Angels - Agency - Permanent
 location: Sussex
@@ -1022,7 +1058,7 @@ job_id: jobg8-23643_225699794
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (33)
+## EXCLUDE (32)
 
 ---
 action: 
@@ -1033,18 +1069,6 @@ company: Global 4 Communications Ltd - Agency - Permanent
 location: Horsham
 source: JobG8
 job_id: jobg8-23643_225365618
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Assistant
-company: Alexander Lloyd - Agency - Permanent
-location: Crawley
-source: JobG8
-job_id: jobg8-1992013
 reason: Separate employment market.
 ---
 
@@ -1184,11 +1208,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Bookkeeper
-company: Bennett and Game Recruitment LTD - Agency - Permanent
-location: Horsham
+title: Administrator
+company: Olympus Recruitment - Agency - Permanent
+location: Chichester
 source: JobG8
-job_id: jobg8-23643_225620946
+job_id: jobg8-23643_225740875
 reason: Separate employment market.
 ---
 

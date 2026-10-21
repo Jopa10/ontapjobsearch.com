@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 10
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 20
-- automatic exclude: 33
-- effective include: 10
-- effective review: 20
-- effective exclude: 33
+- automatic include: 11
+- automatic review: 18
+- automatic exclude: 34
+- effective include: 11
+- effective review: 18
+- effective exclude: 34
 
-## INCLUDE (10)
+## INCLUDE (11)
 
 ---
 action: 
@@ -57,6 +57,18 @@ company: Woldgate School and Sixth Form College
 location: York
 source: Teaching Vacancies
 job_id: teaching-vacancies-assistant-exams-officer-cover-administrator
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Financial Services Administrator
+company: Capital Outsourcing Group Ltd - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-2111325
 reason: Approved York catchment.
 ---
 
@@ -144,17 +156,17 @@ job_id: nhs-5665026
 reason: Approved York catchment.
 ---
 
-## REVIEW (20)
+## REVIEW (18)
 
 ---
 action: 
 decision: review
 automatic_decision: review
-title: Administrator / Coordinator
-company: KD Recruitment - Agency - Permanent
-location: Ripon
+title: Administrator
+company: Magpie Recruitment - Agency - Permanent
+location: Richmond
 source: JobG8
-job_id: jobg8-23643_225631397
+job_id: jobg8-2113482
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -162,11 +174,11 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Assistant Accountant
-company: Capital Outsourcing Group Ltd - Agency - Permanent
-location: Malton
+title: Administrator / Coordinator
+company: KD Recruitment - Agency - Permanent
+location: Bedale
 source: JobG8
-job_id: jobg8-23643_225489399
+job_id: jobg8-23643_225745343
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -203,18 +215,6 @@ company: Ripon Farm Services - Agency - Permanent
 location: Ripon
 source: JobG8
 job_id: jobg8-2043051
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller, Ripon
-company: Si Recruitment - Agency - Permanent
-location: Ripon
-source: JobG8
-job_id: jobg8-2048214
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -318,18 +318,6 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Reception Administrator
-company: Travail Employment Group - Agency - Permanent
-location: Knaresborough
-source: JobG8
-job_id: jobg8-23643_225661252
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Residential Property Legal Secretary
 company: Search Consultancy Ltd - Agency - Permanent
 location: Malton
@@ -354,11 +342,11 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Service Advisor
-company: Auto Skills UK - Agency - Permanent
+title: Sales & Operations Administrator
+company: Lloyd Recruitment - Epsom - Agency - Permanent
 location: Richmond
 source: JobG8
-job_id: jobg8-23643_225729465
+job_id: jobg8-23643_225744461
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -366,11 +354,11 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Service Coordinator
-company: Interaction - Leeds - Agency - Permanent
-location: Malton
+title: Service Advisor
+company: Auto Skills UK - Agency - Permanent
+location: Richmond
 source: JobG8
-job_id: jobg8-108059238
+job_id: jobg8-23643_225729465
 reason: No approved York catchment rule matched; local review required.
 ---
 
@@ -386,7 +374,7 @@ job_id: jobg8-23643_225666115
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (33)
+## EXCLUDE (34)
 
 ---
 action: 
@@ -488,6 +476,30 @@ reason: Broad regional label; not York-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Commercial and Residential Property Secretary
+company: Clear Legal & Financial Recruitment - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-2104288
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Commercial Property Paralegal
+company: Clear Legal & Financial Recruitment - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2104210
+reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Commercial Property Paralegal
 company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Yorkshire
@@ -540,18 +552,6 @@ title: Credit Control
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Yorkshire
 source: JobG8
-job_id: jobg8-1987959
-reason: Broad regional label; not York-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Credit Control
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: Yorkshire
-source: JobG8
 job_id: jobg8-2057600
 reason: Broad regional label; not York-city evidence.
 ---
@@ -584,6 +584,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Legal Assistant - Residential Conveyancing
+company: Edwards & Pearce - Agency - Permanent
+location: Selby
+source: JobG8
+job_id: jobg8-23643_225738181
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Litigation Legal Assistant
 company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Northallerton
@@ -601,18 +613,6 @@ company: Technical Prospects - Agency - Permanent
 location: Harrogate
 source: JobG8
 job_id: jobg8-2089709
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Marketing Manager (Fundraising Appeals and Propositions)
-company: North Yorkshire Hospice Care - Agency - Permanent
-location: Harrogate
-source: JobG8
-job_id: jobg8-2131085
 reason: Separate employment market.
 ---
 

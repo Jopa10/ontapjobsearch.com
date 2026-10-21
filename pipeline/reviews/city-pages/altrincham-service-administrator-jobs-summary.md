@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 27
+- automatic review: 28
 - automatic exclude: 0
 - effective include: 7
-- effective review: 27
+- effective review: 28
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: jobg8-2039520
 reason: Exact approved Altrincham workplace.
 ---
 
-## REVIEW (27)
+## REVIEW (28)
 
 ---
 action: 
@@ -251,6 +251,18 @@ company: HT Practice
 location: Ashton Under Lyne, OL7 0NW
 source: NHS Jobs
 job_id: nhs-5671910
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Records Clerk
+company: Pennine Care NHS FT
+location: Stockport, SK1 3XE
+source: NHS Jobs
+job_id: nhs-5649683
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -414,11 +426,11 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Team Administrator
-company: Pennine Care NHS FT
-location: Ashton-Under-Lyne, OL6 7SR
-source: NHS Jobs
-job_id: nhs-5643892
+title: Social Value Wellbeing Coordinator
+company: Global Recruitment Group - Agency - Permanent
+location: Cheshire
+source: JobG8
+job_id: jobg8-23643_225744140
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

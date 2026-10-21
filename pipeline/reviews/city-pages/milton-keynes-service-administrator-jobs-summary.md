@@ -4,7 +4,7 @@
 - Live route: `/milton-keynes/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 17
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
-- automatic review: 65
+- automatic include: 19
+- automatic review: 66
 - automatic exclude: 0
-- effective include: 17
-- effective review: 65
+- effective include: 19
+- effective review: 66
 - effective exclude: 0
 
-## INCLUDE (17)
+## INCLUDE (19)
 
 ---
 action: 
@@ -124,6 +124,18 @@ reason: Exact approved Milton Keynes workplace.
 action: 
 decision: include
 automatic_decision: include
+title: HR Coordinator
+company: Bletchley Park Trust Limited - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-23643_225747350
+reason: Exact approved Milton Keynes workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Import & Export Administrator
 company: Insight Employment - Agency - Permanent
 location: Milton Keynes
@@ -184,6 +196,18 @@ reason: Exact approved Milton Keynes workplace.
 action: 
 decision: include
 automatic_decision: include
+title: People & Culture Coordinator
+company: Lifesearch - Agency - Contract
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-23643_225738973
+reason: Exact approved Milton Keynes workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist
 company: Purbeck Health Centre
 location: Milton Keynes, MK14 6BL
@@ -228,7 +252,7 @@ job_id: jobg8-23643_225635978
 reason: Exact approved Milton Keynes workplace.
 ---
 
-## REVIEW (65)
+## REVIEW (66)
 
 ---
 action: 
@@ -271,7 +295,7 @@ action:
 decision: review
 automatic_decision: review
 title: Accounts Assistant (maternity cover)
-company: Fortis Recruitment Solutions - Agency - Permanent
+company: Fortis Recruitment Solutions Ltd - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-2053673
@@ -419,6 +443,30 @@ company: Future Engineering Recruitment Ltd - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225698486
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: NHS Professionals - Company - Temporary
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225734546
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Osborne Appointments - Agency - Temporary
+location: Buckingham
+source: JobG8
+job_id: jobg8-23643_225742477
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -594,11 +642,11 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Customer service sales support
-company: ASL - Agency - Permanent
+title: Customer Support Advisor
+company: Aspire Personnel Ltd - Agency - Temporary
 location: Buckinghamshire
 source: JobG8
-job_id: jobg8-23643_225534216
+job_id: jobg8-23643_224284334
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -623,18 +671,6 @@ company: Office Angels - Agency - Temporary
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225661855
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: Reed - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-1985722
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -683,6 +719,18 @@ company: Technical Futures Ltd - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225692869
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Coordinator
+company: Journey recruitment - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-2159431
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -810,6 +858,18 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
+title: Property Secretary
+company: Search Consultancy Ltd - Agency - Permanent
+location: High Wycombe
+source: JobG8
+job_id: jobg8-23643_225745214
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Purchasing Coordinator (MRP)
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Buckinghamshire
@@ -827,18 +887,6 @@ company: Gladstone Road Surgery
 location: Chesham, HP5 3EZ
 source: NHS Jobs
 job_id: nhs-5638681
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: NHS Professionals - Company - Temporary
-location: Buckingham
-source: JobG8
-job_id: jobg8-23643_225718008
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -887,18 +935,6 @@ company: JR Recruitment - Agency - Permanent
 location: Chesham
 source: JobG8
 job_id: jobg8-23643_225704137
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: CBS Recruitment Limited - Agency - Contract
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225633052
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

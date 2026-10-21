@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 18
+- automatic review: 17
 - automatic exclude: 0
 - effective include: 4
-- effective review: 18
+- effective review: 17
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225715945
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (18)
+## REVIEW (17)
 
 ---
 action: 
@@ -143,18 +143,6 @@ company: Sytner - Company - Permanent
 location: Shropshire
 source: JobG8
 job_id: jobg8-23643_225724224
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Housing Repairs Administrator
-company: Thorngate Churcher Trust - Agency - Permanent
-location: Shropshire
-source: JobG8
-job_id: jobg8-23643_225698170
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

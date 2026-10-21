@@ -90,11 +90,11 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Commercial Vehicles Administrator
-company: Briggs Equipment Ltd - Agency - Permanent
-location: Lisburn
+title: Finance Assistant
+company: Hays Accounts and Finance - Agency - Permanent
+location: Belfast
 source: JobG8
-job_id: jobg8-107952610
+job_id: jobg8-23643_225743179
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 

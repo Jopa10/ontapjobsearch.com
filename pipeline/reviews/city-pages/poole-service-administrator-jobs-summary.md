@@ -4,7 +4,7 @@
 - Live route: `/poole/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 15
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
-- automatic review: 40
+- automatic include: 12
+- automatic review: 37
 - automatic exclude: 0
-- effective include: 15
-- effective review: 40
+- effective include: 12
+- effective review: 37
 - effective exclude: 0
 
-## INCLUDE (15)
+## INCLUDE (12)
 
 ---
 action: 
@@ -65,18 +65,6 @@ action:
 decision: include
 automatic_decision: include
 title: Assistant Accountant
-company: CMA Recruitment Group - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-1986873
-reason: Exact approved Poole workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Assistant Accountant
 company: Michael Page Finance - Agency - Permanent
 location: Poole
 source: JobG8
@@ -105,18 +93,6 @@ company: Resource Recruitment - Agency - Permanent
 location: Poole
 source: JobG8
 job_id: jobg8-2066041
-reason: Exact approved Poole workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Credit Controller
-company: Team Jobs - Commercial - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-23643_225680475
 reason: Exact approved Poole workplace.
 ---
 
@@ -192,19 +168,7 @@ job_id: jobg8-23643_225701721
 reason: Exact approved Poole workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Temporary Purchase Ledger
-company: CMA Recruitment Group - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-1986688
-reason: Exact approved Poole workplace.
----
-
-## REVIEW (40)
+## REVIEW (37)
 
 ---
 action: 
@@ -215,18 +179,6 @@ company: Michael Page Finance - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-2055800
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrative Assistant
-company: Dorset HealthCare University NHS Foundation Trust
-location: Weymouth, DT3 6SA
-source: NHS Jobs
-job_id: nhs-5645280
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -251,18 +203,6 @@ company: Regent's Park Healthcare
 location: Bournemouth, BH7 7DW
 source: NHS Jobs
 job_id: nhs-5671343
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Team Jobs - Commercial - Agency - Permanent
-location: Bournemouth
-source: JobG8
-job_id: jobg8-23643_225634868
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -539,18 +479,6 @@ company: Reed - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-2075541
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchasing Assistant
-company: Rubicon Recruitment - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225635774
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

@@ -15,12 +15,12 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 6
+- automatic include: 6
+- automatic review: 5
 - automatic exclude: 0
 - effective include: 6
-- effective review: 6
-- effective exclude: 1
+- effective review: 5
+- effective exclude: 0
 
 ## INCLUDE (6)
 
@@ -96,7 +96,7 @@ job_id: jobg8-2101939
 reason: Exact approved Swansea workplace.
 ---
 
-## REVIEW (6)
+## REVIEW (5)
 
 ---
 action: 
@@ -138,18 +138,6 @@ reason: No approved Swansea employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: HR administrator
-company: Focus Resourcing - Agency - Temporary
-location: Port Talbot
-source: JobG8
-job_id: jobg8-23643_225719730
-reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Planning Administrator
 company: Sigma Recruitment - Agency - Permanent
 location: Bridgend
@@ -170,16 +158,4 @@ job_id: nhs-5656367
 reason: No approved Swansea employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (1)
-
----
-action: exclude
-decision: exclude
-automatic_decision: include
-title: HR administrator
-company: Focus Resourcing - Agency - Temporary
-location: Swansea
-source: JobG8
-job_id: jobg8-23643_225720638
-reason: Exact approved Swansea workplace.
----
+## EXCLUDE (0)

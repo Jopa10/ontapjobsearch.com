@@ -4,7 +4,7 @@
 - Live route: `/basingstoke/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 165
+- automatic include: 10
+- automatic review: 168
 - automatic exclude: 0
-- effective include: 9
-- effective review: 165
+- effective include: 10
+- effective review: 168
 - effective exclude: 0
 
-## INCLUDE (9)
+## INCLUDE (10)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Northamber PLC - Agency - Permanent
 location: Basingstoke
 source: JobG8
 job_id: jobg8-23643_224173384
+reason: Exact approved Basingstoke workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Credit Controller
+company: Marc Daniels - Agency - Permanent
+location: Basingstoke
+source: JobG8
+job_id: jobg8-2160032
 reason: Exact approved Basingstoke workplace.
 ---
 
@@ -132,7 +144,7 @@ job_id: nhs-5676428
 reason: Exact approved Basingstoke workplace.
 ---
 
-## REVIEW (165)
+## REVIEW (168)
 
 ---
 action: 
@@ -143,6 +155,18 @@ company: Michael Page Finance - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-2042236
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Account Manager
+company: ECS Resource Group Ltd - Agency - Permanent
+location: Not Specified
+source: JobG8
+job_id: jobg8-23643_225740626
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -379,18 +403,6 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Dynamite Recruitment - Agency - Temporary
-location: Eastleigh
-source: JobG8
-job_id: jobg8-23643_225729345
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
 company: Huntress - Maidstone - Agency - Temporary
 location: Hampshire
 source: JobG8
@@ -419,18 +431,6 @@ company: Mulberry Recruitment - Agency - Permanent
 location: Farnborough
 source: JobG8
 job_id: jobg8-23643_225698459
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: NHS Professionals - Company - Temporary
-location: Southampton
-source: JobG8
-job_id: jobg8-23643_225637909
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -503,18 +503,6 @@ company: CMA Recruitment Group - Agency - Permanent
 location: Andover
 source: JobG8
 job_id: jobg8-2033941
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: CMA Recruitment Group - Agency - Permanent
-location: Romsey
-source: JobG8
-job_id: jobg8-2074872
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -678,6 +666,18 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Business Support Administrator
+company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
+location: Southampton, SO16 4XE
+source: NHS Jobs
+job_id: nhs-5677600
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Care Navigator (Receptionist)
 company: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 location: Gosport, PO12 1BA, Gosport, PO12 1PA, Gosport, PO13 0EW, Gosport, PO12 3AQ, Gosport, PO12 3JP
@@ -787,6 +787,18 @@ action:
 decision: review
 automatic_decision: review
 title: Credit Controller
+company: Carrington West - Agency - Permanent
+location: Portsmouth
+source: JobG8
+job_id: jobg8-23643_225743009
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Credit Controller
 company: CMA Recruitment Group - Agency - Permanent
 location: Waterlooville
 source: JobG8
@@ -822,6 +834,18 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Customer Experience and Operations Coordinator
+company: Tate - Agency - Temporary
+location: Totton
+source: JobG8
+job_id: jobg8-23643_225743265
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Adviser
 company: Adecco - Agency - Temporary
 location: Waterlooville
@@ -839,6 +863,18 @@ company: Portfolio - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225679441
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customs Administrator
+company: Amour Recruitment - Agency - Permanent
+location: Portsmouth
+source: JobG8
+job_id: jobg8-23643_225743313
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -1074,18 +1110,6 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: GIS Administrator/Geography Graduate
-company: Huntress - Maidstone - Agency - Temporary
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225635418
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Graduate Credit Control Assistant
 company: Tate - Agency - Permanent
 location: Eastleigh
@@ -1103,6 +1127,18 @@ company: Tristone Nash - Agency - Contract
 location: Eastleigh
 source: JobG8
 job_id: jobg8-23643_225642601
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Healthy Homes Administrator & Scheduling Coordinator
+company: TristoneNash Ltd - Agency - Permanent
+location: Eastleigh
+source: JobG8
+job_id: jobg8-2014390
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -1146,6 +1182,18 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Housing Repairs Administrator
+company: Thorngate Churcher Trust - Agency - Permanent
+location: Gosport
+source: JobG8
+job_id: jobg8-23643_225698170
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: HR Assistant
 company: CMA Recruitment Group - Agency - Permanent
 location: Havant
@@ -1163,18 +1211,6 @@ company: Liberty HR Recruitment - Agency - Permanent
 location: Havant
 source: JobG8
 job_id: jobg8-23643_225662240
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Coordinator
-company: Connect It Utility Services Limited - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225686270
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -1319,6 +1355,18 @@ company: 360 Recruitment - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-2089171
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Legal Secretary
+company: Chalk Hill Group - Agency - Permanent
+location: Fareham
+source: JobG8
+job_id: jobg8-2104445
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -1494,6 +1542,18 @@ reason: No exact Basingstoke workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Patent Secretary - Southampton
+company: Dawn Ellmore Employment Agency - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2111622
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll & Accounts Administrator (Part-time)
 company: Wade Macdonald - Agency - Permanent
 location: Andover
@@ -1652,18 +1712,6 @@ decision: review
 automatic_decision: review
 title: Purchase Ledger
 company: CMA Recruitment Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-1988017
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger
-company: CMA Recruitment Group - Agency - Permanent
 location: Southampton
 source: JobG8
 job_id: jobg8-1996561
@@ -1703,6 +1751,18 @@ company: Tadley Medical Partnership
 location: Tadley, RG26 4ER, Tadley , RG26 4AN
 source: NHS Jobs
 job_id: nhs-5656044
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist/ Admin Assistant
+company: NHS Professionals - Company - Temporary
+location: Winchester
+source: JobG8
+job_id: jobg8-23643_225664422
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -1883,6 +1943,18 @@ company: DOMO TACTICAL COMMUNICATIONS - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225671135
+reason: No exact Basingstoke workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Representative
+company: Capilaux - Agency - Permanent
+location: Fordingbridge
+source: JobG8
+job_id: jobg8-23643_225744728
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
@@ -2075,30 +2147,6 @@ company: Cowell Recruitment - Agency - Permanent
 location: Fareham
 source: JobG8
 job_id: jobg8-23643_225656452
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Warranty Administrator
-company: Amour Recruitment - Agency - Permanent
-location: Southampton
-source: JobG8
-job_id: jobg8-23643_225636161
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Weekend Receptionist
-company: Barchester Healthcare - Company - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-23643_225704986
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 

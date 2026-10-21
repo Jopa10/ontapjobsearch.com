@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 28
+- Effective included jobs: 30
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 28
-- automatic review: 6
-- automatic exclude: 32
-- effective include: 28
-- effective review: 6
-- effective exclude: 32
+- automatic include: 30
+- automatic review: 8
+- automatic exclude: 31
+- effective include: 30
+- effective review: 8
+- effective exclude: 31
 
-## INCLUDE (28)
+## INCLUDE (30)
 
 ---
 action: 
@@ -65,10 +65,10 @@ action:
 decision: include
 automatic_decision: include
 title: Administrator
-company: Adecco - Agency - Temporary
+company: Lynx Employment Services Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-23643_225731356
+job_id: jobg8-23643_225743141
 reason: Approved Sheffield catchment.
 ---
 
@@ -220,6 +220,18 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Customer Service Advisor
+company: Blundells - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2105206
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Executive Assistant
 company: The Talent Division - Agency - Permanent
 location: Sheffield
@@ -273,6 +285,18 @@ company: Sue Ross Recruitment Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225731215
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Matter Administrator
+company: CRA Consulting - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2134593
 reason: Approved Sheffield catchment.
 ---
 
@@ -360,7 +384,7 @@ job_id: jobg8-23643_225736471
 reason: Approved Sheffield catchment.
 ---
 
-## REVIEW (6)
+## REVIEW (8)
 
 ---
 action: 
@@ -371,6 +395,18 @@ company: Runwood Homes - Company - Permanent
 location: Bentley
 source: JobG8
 job_id: jobg8-23643_225736679
+reason: No approved Sheffield catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Office Angels - Agency - Permanent
+location: Brinsworth
+source: JobG8
+job_id: jobg8-23643_225741868
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
@@ -395,6 +431,18 @@ company: Reed - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2067582
+reason: No approved Sheffield catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part-time Payroll Admin
+company: Portfolio Payroll Limited - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-23643_225740720
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
@@ -434,7 +482,7 @@ job_id: jobg8-23643_225681456
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (32)
+## EXCLUDE (31)
 
 ---
 action: 
@@ -745,18 +793,6 @@ company: Hollygreen Practice
 location: Rotherham, S63 9EH, Thurnscoe, s63 0LT, BARNSLEY, S72 0EJ
 source: NHS Jobs
 job_id: nhs-5670531
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: White House Farm Medical Centre
-location: Doncaster, DN3 3AH
-source: NHS Jobs
-job_id: nhs-5647395
 reason: Separate employment market.
 ---
 

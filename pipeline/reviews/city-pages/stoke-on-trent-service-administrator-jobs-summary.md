@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 54
+- automatic review: 52
 - automatic exclude: 0
 - effective include: 7
-- effective review: 54
+- effective review: 52
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: nhs-5675916
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (54)
+## REVIEW (52)
 
 ---
 action: 
@@ -330,30 +330,6 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant
-company: SF Partners - Agency - Permanent
-location: Tamworth
-source: JobG8
-job_id: jobg8-2051869
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: SF Partners - Agency - Permanent
-location: Tamworth
-source: JobG8
-job_id: jobg8-23643_225667620
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Hire Administrator
 company: Global Recruitment Services Ltd - Agency - Permanent
 location: Staffordshire
@@ -395,18 +371,6 @@ company: Turner and voce - Agency - Permanent
 location: Rugeley
 source: JobG8
 job_id: jobg8-23643_225721610
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR Coordinator
-company: SF Partners - Agency - Permanent
-location: Tamworth
-source: JobG8
-job_id: jobg8-23643_225701397
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -559,6 +523,18 @@ action:
 decision: review
 automatic_decision: review
 title: Payroll and Benefits Officer
+company: Four Squared - Agency - Permanent
+location: Stafford
+source: JobG8
+job_id: jobg8-2104362
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll and Benefits Officer
 company: Four Squared Recruitment Ltd - Agency - Permanent
 location: Stafford
 source: JobG8
@@ -575,6 +551,18 @@ company: Horsefair Practice Group
 location: Rugeley, WS15 2LB, Rugeley, WS15 2FH, Rugeley, WS15 4UZ
 source: NHS Jobs
 job_id: nhs-5652964
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Procurement Administrator
+company: Mane Contract Services - Agency - Contract
+location: Staffordshire
+source: JobG8
+job_id: jobg8-23643_225746430
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -611,18 +599,6 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225701229
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Quality & Test Certification Administrator
-company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
-location: Staffordshire
-source: JobG8
-job_id: jobg8-23643_225630452
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

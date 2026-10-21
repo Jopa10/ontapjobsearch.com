@@ -4,7 +4,7 @@
 - Live route: `/doncaster/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 21
+- Effective included jobs: 20
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 21
-- automatic review: 6
-- automatic exclude: 39
-- effective include: 21
-- effective review: 6
-- effective exclude: 39
+- automatic include: 20
+- automatic review: 8
+- automatic exclude: 41
+- effective include: 20
+- effective review: 8
+- effective exclude: 41
 
-## INCLUDE (21)
+## INCLUDE (20)
 
 ---
 action: 
@@ -244,18 +244,6 @@ reason: Approved Doncaster catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: White House Farm Medical Centre
-location: Doncaster, DN3 3AH
-source: NHS Jobs
-job_id: nhs-5647395
-reason: Approved Doncaster catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Recruitment Account Coordinator
 company: Nexus People - Agency - Temporary
 location: Doncaster
@@ -276,7 +264,7 @@ job_id: jobg8-23643_225636340
 reason: Approved Doncaster catchment.
 ---
 
-## REVIEW (6)
+## REVIEW (8)
 
 ---
 action: 
@@ -287,6 +275,18 @@ company: Runwood Homes - Company - Permanent
 location: Bentley
 source: JobG8
 job_id: jobg8-23643_225736679
+reason: No approved Doncaster catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Office Angels - Agency - Permanent
+location: Brinsworth
+source: JobG8
+job_id: jobg8-23643_225741868
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
@@ -311,6 +311,18 @@ company: Reed - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2067582
+reason: No approved Doncaster catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part-time Payroll Admin
+company: Portfolio Payroll Limited - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-23643_225740720
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
@@ -350,7 +362,7 @@ job_id: jobg8-23643_225681456
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (39)
+## EXCLUDE (41)
 
 ---
 action: 
@@ -393,10 +405,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Administrator
-company: Adecco - Agency - Temporary
-location: Sheffield
+company: Caval Limited - Agency - Permanent
+location: Barnsley
 source: JobG8
-job_id: jobg8-23643_225731356
+job_id: jobg8-23643_225704747
 reason: Separate employment market.
 ---
 
@@ -405,10 +417,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Administrator
-company: Caval Limited - Agency - Permanent
-location: Barnsley
+company: Lynx Employment Services Ltd - Agency - Permanent
+location: Sheffield
 source: JobG8
-job_id: jobg8-23643_225704747
+job_id: jobg8-23643_225743141
 reason: Separate employment market.
 ---
 
@@ -596,6 +608,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Customer Service Advisor
+company: Blundells - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2105206
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Executive Assistant
 company: The Talent Division - Agency - Permanent
 location: Sheffield
@@ -649,6 +673,18 @@ company: Sue Ross Recruitment Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225731215
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Matter Administrator
+company: CRA Consulting - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2134593
 reason: Separate employment market.
 ---
 

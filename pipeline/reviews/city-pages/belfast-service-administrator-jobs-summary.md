@@ -4,7 +4,7 @@
 - Live route: `/belfast/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 3
+- Effective included jobs: 4
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 3
-- automatic review: 4
+- automatic include: 4
+- automatic review: 3
 - automatic exclude: 0
-- effective include: 3
-- effective review: 4
+- effective include: 4
+- effective review: 3
 - effective exclude: 0
 
-## INCLUDE (3)
+## INCLUDE (4)
 
 ---
 action: 
@@ -52,6 +52,18 @@ reason: Approved conservative Belfast launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Finance Assistant
+company: Hays Accounts and Finance - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-23643_225743179
+reason: Approved conservative Belfast launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Payroll Officer
 company: Hays Accounts and Finance - Agency - Permanent
 location: Belfast
@@ -60,7 +72,7 @@ job_id: jobg8-23643_225679035
 reason: Approved conservative Belfast launch catchment.
 ---
 
-## REVIEW (4)
+## REVIEW (3)
 
 ---
 action: 
@@ -95,18 +107,6 @@ company: Reed - Agency - Permanent
 location: Carryduff
 source: JobG8
 job_id: jobg8-2091543
-reason: No approved Belfast catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Commercial Vehicles Administrator
-company: Briggs Equipment Ltd - Agency - Permanent
-location: Lisburn
-source: JobG8
-job_id: jobg8-107952610
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/swindon/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 11
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 25
+- automatic include: 12
+- automatic review: 21
 - automatic exclude: 0
-- effective include: 11
-- effective review: 25
+- effective include: 12
+- effective review: 21
 - effective exclude: 0
 
-## INCLUDE (11)
+## INCLUDE (12)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Liden Academy
 location: Swindon
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-181abc61-ea48-424a-9686-308bb273394d
+reason: Exact approved Swindon workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: Gap Personnel - Agency - Contract
+location: Swindon
+source: JobG8
+job_id: jobg8-23643_225743115
 reason: Exact approved Swindon workplace.
 ---
 
@@ -100,18 +112,6 @@ reason: Exact approved Swindon workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Office Administrator
-company: Shrivenham Church of England School
-location: Swindon
-source: Teaching Vacancies
-job_id: teaching-vacancies-office-administrator-5725eac8-39d6-4276-82f4-79f7dd232e3d
-reason: Exact approved Swindon workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Operational Works Scheduler
 company: Connect2Swindon - Agency - Temporary
 location: Swindon
@@ -129,6 +129,18 @@ company: https://www.parklanepracticeswindon.nhs.uk/
 location: Swindon, SN1 5HG, Swindon, SN1 5HG, Swindon, SN5 8SX
 source: NHS Jobs
 job_id: nhs-5672714
+reason: Exact approved Swindon workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist / Clerical Assistant
+company: Thrive Group - Agency - Permanent
+location: Swindon
+source: JobG8
+job_id: jobg8-23643_225743517
 reason: Exact approved Swindon workplace.
 ---
 
@@ -156,7 +168,7 @@ job_id: jobg8-23643_225653482
 reason: Exact approved Swindon workplace.
 ---
 
-## REVIEW (25)
+## REVIEW (21)
 
 ---
 action: 
@@ -239,18 +251,6 @@ company: Travail Employment Group - Agency - Temporary
 location: Wiltshire
 source: JobG8
 job_id: jobg8-23643_225696653
-reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Despatch Planner
-company: Rubicon Recruitment - Agency - Permanent
-location: Wiltshire
-source: JobG8
-job_id: jobg8-23643_225636930
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 
@@ -390,30 +390,6 @@ reason: The stated location is broader or less specific than the approved Swindo
 action: 
 decision: review
 automatic_decision: review
-title: Service Advisor
-company: Thrive Group - Agency - Permanent
-location: Trowbridge
-source: JobG8
-job_id: jobg8-23643_225720495
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Advisor (Motor)
-company: Thrive Group - Agency - Permanent
-location: Melksham
-source: JobG8
-job_id: jobg8-23643_225719796
-reason: No approved Swindon employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Service Support Coordinator
 company: AlertSystems - Agency - Permanent
 location: Trowbridge
@@ -443,18 +419,6 @@ company: Manucomm Recruitment Ltd - Agency - Permanent
 location: Wiltshire
 source: JobG8
 job_id: jobg8-23643_225656421
-reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Technical Support Coordinator
-company: Corston Architectural Detail - Agency - Permanent
-location: Wiltshire
-source: JobG8
-job_id: jobg8-108189021
 reason: The stated location is broader or less specific than the approved Swindon employment market and needs review.
 ---
 

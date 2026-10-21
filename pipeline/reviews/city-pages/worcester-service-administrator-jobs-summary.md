@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 39
+- automatic review: 37
 - automatic exclude: 0
 - effective include: 7
-- effective review: 39
+- effective review: 37
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: jobg8-2074804
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (39)
+## REVIEW (37)
 
 ---
 action: 
@@ -332,18 +332,6 @@ decision: review
 automatic_decision: review
 title: Customer Service Administrator
 company: Adecco - Agency - Permanent
-location: Worcestershire
-source: JobG8
-job_id: jobg8-23643_225629711
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Administrator
-company: Adecco - Agency - Permanent
 location: Evesham
 source: JobG8
 job_id: jobg8-23643_225634415
@@ -431,18 +419,6 @@ company: Vibe Recruit - Agency - Permanent
 location: Malvern
 source: JobG8
 job_id: jobg8-23643_225722826
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Imports Coordinator
-company: Adecco - Agency - Permanent
-location: Worcestershire
-source: JobG8
-job_id: jobg8-23643_225630625
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

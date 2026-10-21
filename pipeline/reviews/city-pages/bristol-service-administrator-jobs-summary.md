@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 51
+- Effective included jobs: 55
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 51
-- automatic review: 10
+- automatic include: 55
+- automatic review: 11
 - automatic exclude: 8
-- effective include: 51
-- effective review: 10
+- effective include: 55
+- effective review: 11
 - effective exclude: 8
 
-## INCLUDE (51)
+## INCLUDE (55)
 
 ---
 action: 
@@ -136,6 +136,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Administrator
+company: Veolia - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225745153
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Bookkeeper
 company: Red Recruitment - Agency - Temporary
 location: Bristol
@@ -165,6 +177,18 @@ company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2064747
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Complaints Handler
+company: G2 Legal Limited - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-2113334
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -388,6 +412,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Jaguar Land Rover Accounts Assistant
+company: Sytner - Company - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225743357
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Junior Accountant
 company: Ashley Rees Associates - Agency - Permanent
 location: Bristol
@@ -484,6 +520,18 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Personal Injury Paralegal
+company: Yolk Recruitment Ltd - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-2155891
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Practice Receptionist
 company: West View Surgery
 location: Bristol, BS31 1BX
@@ -501,18 +549,6 @@ company: ReQuire Consultancy LTD - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225703813
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Reception and Appointment Clerk
-company: Bristol NHS Foundation Trust
-location: Bristol, BS2 8EL
-source: NHS Jobs
-job_id: nhs-5643626
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -608,6 +644,18 @@ title: Service Advisor
 company: The Solution Auto - Agency - Permanent
 location: Bristol
 source: JobG8
+job_id: jobg8-2104209
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Service Advisor
+company: The Solution Auto - Agency - Permanent
+location: Bristol
+source: JobG8
 job_id: jobg8-23643_225708906
 reason: Approved conservative Bristol launch catchment.
 ---
@@ -636,7 +684,7 @@ job_id: nhs-5636801
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (10)
+## REVIEW (11)
 
 ---
 action: 
@@ -755,6 +803,18 @@ company: Adecco - Agency - Temporary
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225702996
+reason: No approved Bristol catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Senior Internal Communications Manager
+company: HFT - Agency - Permanent
+location: Somerset
+source: JobG8
+job_id: jobg8-2158506
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 

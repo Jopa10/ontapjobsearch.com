@@ -4,7 +4,7 @@
 - Live route: `/bournemouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 46
+- automatic include: 8
+- automatic review: 41
 - automatic exclude: 0
-- effective include: 9
-- effective review: 46
+- effective include: 8
+- effective review: 41
 - effective exclude: 0
 
-## INCLUDE (9)
+## INCLUDE (8)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Regent's Park Healthcare
 location: Bournemouth, BH7 7DW
 source: NHS Jobs
 job_id: nhs-5671343
-reason: Exact approved Bournemouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Team Jobs - Commercial - Agency - Permanent
-location: Bournemouth
-source: JobG8
-job_id: jobg8-23643_225634868
 reason: Exact approved Bournemouth workplace.
 ---
 
@@ -132,7 +120,7 @@ job_id: nhs-5675567
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (46)
+## REVIEW (41)
 
 ---
 action: 
@@ -174,18 +162,6 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Administrative Assistant
-company: Dorset HealthCare University NHS Foundation Trust
-location: Weymouth, DT3 6SA
-source: NHS Jobs
-job_id: nhs-5645280
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Administrator
 company: Connect2Dorset - Agency - Temporary
 location: Shaftesbury
@@ -203,18 +179,6 @@ company: Resource Recruitment - Agency - Contract
 location: Poole
 source: JobG8
 job_id: jobg8-23643_225680211
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: CMA Recruitment Group - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-1986873
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -299,18 +263,6 @@ company: Resource Recruitment - Agency - Permanent
 location: Poole
 source: JobG8
 job_id: jobg8-2066041
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Team Jobs - Commercial - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-23643_225680475
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -570,18 +522,6 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Purchasing Assistant
-company: Rubicon Recruitment - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225635774
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Purchasing Coordinator (MRP/Logistics)
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Dorset
@@ -659,18 +599,6 @@ company: Dorset HealthCare University NHS Foundation Trust
 location: Dorchester, DT1 2FD
 source: NHS Jobs
 job_id: nhs-5664520
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary Purchase Ledger
-company: CMA Recruitment Group - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-1986688
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

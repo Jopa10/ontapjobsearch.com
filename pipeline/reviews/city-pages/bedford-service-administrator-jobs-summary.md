@@ -4,7 +4,7 @@
 - Live route: `/bedford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 30
+- automatic include: 5
+- automatic review: 33
 - automatic exclude: 0
-- effective include: 4
-- effective review: 30
+- effective include: 5
+- effective review: 33
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (5)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Watton Recruitment Ltd - Agency - Temporary
 location: Bedford
 source: JobG8
 job_id: jobg8-23643_225685492
+reason: Exact approved Bedford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Clinical Research Administrator
+company: SPD Development Company Ltd - Agency - Contract
+location: Bedford
+source: JobG8
+job_id: jobg8-23643_225741005
 reason: Exact approved Bedford workplace.
 ---
 
@@ -72,7 +84,19 @@ job_id: jobg8-23643_225724509
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (30)
+## REVIEW (33)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts & Administration Assistant
+company: Abacus Consulting - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-2113827
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -342,6 +366,18 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Repairs Administrator
+company: Gilmartins - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225742694
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Repairs Advisor Contact Centre
 company: Gilmartins - Agency - Permanent
 location: Bedfordshire
@@ -419,6 +455,18 @@ company: Aspire Personnel Ltd - Agency - Temporary
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225396424
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: TEST Office Administrator
+company: Get-Staffed (Integration) - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225744720
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/warrington/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 22
+- Effective included jobs: 23
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 22
-- automatic review: 5
+- automatic include: 23
+- automatic review: 7
 - automatic exclude: 6
-- effective include: 22
-- effective review: 5
+- effective include: 23
+- effective review: 7
 - effective exclude: 6
 
-## INCLUDE (22)
+## INCLUDE (23)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Accounts Assistant
+company: Michael Page - Agency - Permanent
+location: Warrington
+source: JobG8
+job_id: jobg8-23643_225740957
+reason: Approved conservative Warrington launch catchment.
+---
 
 ---
 action: 
@@ -57,18 +69,6 @@ company: Exemplar Health Care - Company - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-108149320
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Integra Resourcing - Agency - Temporary
-location: Warrington
-source: JobG8
-job_id: jobg8-23643_225635428
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -256,11 +256,11 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Records Administrator
-company: Meridian Business Support - Agency - Temporary
+title: Presenter and Content Creator
+company: Reed - Agency - Permanent
 location: Warrington
 source: JobG8
-job_id: jobg8-23643_225703530
+job_id: jobg8-2149341
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -268,11 +268,23 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Resource Planner (Field Service)
-company: Longreach Recruitment - Agency - Permanent
+title: Project Administrator
+company: Envipco - Agency - Permanent
 location: Warrington
 source: JobG8
-job_id: jobg8-23643_225401887
+job_id: jobg8-23643_225745141
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Records Administrator
+company: Meridian Business Support - Agency - Temporary
+location: Warrington
+source: JobG8
+job_id: jobg8-23643_225703530
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -288,7 +300,7 @@ job_id: jobg8-23643_225736171
 reason: Approved conservative Warrington launch catchment.
 ---
 
-## REVIEW (5)
+## REVIEW (7)
 
 ---
 action: 
@@ -306,11 +318,35 @@ reason: No approved Warrington catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Advanced Bookkeeper (On-site)
+company: Canning Generator Solutions Ltd - Agency - Permanent
+location: Widnes
+source: JobG8
+job_id: jobg8-23643_225745382
+reason: No approved Warrington catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Care Coordinator
 company: Neos Recruitment Ltd - Agency - Permanent
 location: Widnes
 source: JobG8
 job_id: jobg8-23643_225737277
+reason: No approved Warrington catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Content Creator Lead
+company: Reed - Agency - Permanent
+location: Cheshire
+source: JobG8
+job_id: jobg8-2149374
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 
@@ -356,11 +392,11 @@ reason: No approved Warrington catchment rule matched; local review required.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Administrator
-company: North Cheshire and Mersey NHS Foundation Trust (BCH)
-location: Runcorn, WA7 1HB
-source: NHS Jobs
-job_id: nhs-5661628
+title: Accounts Assistant (some hybrid)
+company: RG Consultancy Ltd - Agency - Permanent
+location: Runcorn
+source: JobG8
+job_id: jobg8-2153179
 reason: Separate employment market.
 ---
 
@@ -368,11 +404,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Contribution Co-Ordinator
-company: Adecco - Agency - Temporary
-location: Runcorn
-source: JobG8
-job_id: jobg8-23643_225633216
+title: Administrator
+company: North Cheshire and Mersey NHS Foundation Trust (BCH)
+location: Runcorn, WA7 1HB
+source: NHS Jobs
+job_id: nhs-5661628
 reason: Separate employment market.
 ---
 

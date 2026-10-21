@@ -102,18 +102,6 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
-title: Customer Care Coordinator
-company: Time Recruitment Solutions Ltd - Agency - Permanent
-location: Alderley Edge
-source: JobG8
-job_id: jobg8-23643_225692686
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Service Advisor
 company: Acorn by Synergie - Agency - Contract
 location: Crewe
@@ -131,6 +119,18 @@ company: RG Setsquare - Agency - Permanent
 location: Crewe
 source: JobG8
 job_id: jobg8-23643_225718706
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: FNOL Motor Claims Handler
+company: MPJ Recruitment Ltd - Agency - Permanent
+location: Wilmslow
+source: JobG8
+job_id: jobg8-2109059
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

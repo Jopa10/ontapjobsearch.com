@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 26
-- automatic review: 61
-- automatic exclude: 35
+- automatic review: 64
+- automatic exclude: 37
 - effective include: 26
-- effective review: 61
-- effective exclude: 35
+- effective review: 64
+- effective exclude: 37
 
 ## INCLUDE (26)
 
@@ -336,7 +336,7 @@ job_id: jobg8-23643_225677749
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (61)
+## REVIEW (64)
 
 ---
 action: 
@@ -408,6 +408,30 @@ location: Cramlington
 source: JobG8
 job_id: jobg8-23643_225677784
 reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Westray Recruitment Consultants Ltd - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225741708
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant - Temporary Ongoing Contract - Boldon
+company: Office Angels - Agency - Temporary
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225743822
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -690,6 +714,18 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Inbound Call Handlers
+company: MTrec Recruitment - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2104364
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Interim Marketing Manager
 company: Jackson Hogg - Agency - Permanent
 location: Yorkshire
@@ -774,6 +810,18 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Office Support Administrator
+company: MTrec Recruitment - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2134739
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Onboarding Support Administrator - Temp to Perm
 company: Office Angels - Agency - Temporary
 location: Houghton Le Spring
@@ -786,11 +834,11 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Part time Administrator/ Receptionist
-company: Berry Recruitment - Agency - Temporary
-location: Ferryhill
+title: Part Time Administrator - Accounts Receivable
+company: Bridgewater Resources - Agency - Permanent
+location: Yorkshire
 source: JobG8
-job_id: jobg8-23643_225637216
+job_id: jobg8-2149717
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
@@ -930,18 +978,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Recruitment Resourcer
-company: CDM Recruitment - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225396751
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales Advisor
 company: Red Recruitment - Agency - Permanent
 location: Not Specified
@@ -1070,7 +1106,7 @@ job_id: jobg8-23643_225658559
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (35)
+## EXCLUDE (37)
 
 ---
 action: 
@@ -1165,6 +1201,18 @@ company: ABL Health Ltd
 location: Sunderland, SR1 1PB
 source: NHS Jobs
 job_id: nhs-5676939
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
+company: Interaction Recruitment - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-23643_225744326
 reason: Separate employment market.
 ---
 
@@ -1310,6 +1358,18 @@ location: County Durham
 source: JobG8
 job_id: jobg8-2053979
 reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Medical Receptionist
+company: Hartlepool & Stockton Health [H&SH]
+location: HARTLEPOOL, TS25 1QU
+source: NHS Jobs
+job_id: nhs-5639684
+reason: Outside Newcastle catchment.
 ---
 
 ---

@@ -4,7 +4,7 @@
 - Live route: `/lincoln/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 30
+- Effective included jobs: 32
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 30
-- automatic review: 11
+- automatic include: 32
+- automatic review: 9
 - automatic exclude: 0
-- effective include: 30
-- effective review: 11
+- effective include: 32
+- effective review: 9
 - effective exclude: 0
 
-## INCLUDE (30)
+## INCLUDE (32)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Stafforce Recruitment - Agency - Temporary
 location: Lincolnshire
 source: JobG8
 job_id: jobg8-23643_225684511
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Chase and Holland Recruitment Ltd - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-2089307
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -184,6 +172,30 @@ reason: The stated workplace matches the approved Lincoln employment-market patt
 action: 
 decision: include
 automatic_decision: include
+title: Customer Service Advisor
+company: Venatu Consulting Ltd - Agency - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-23643_225742593
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
+company: William H Brown - Company - Permanent
+location: Lincolnshire
+source: JobG8
+job_id: jobg8-2125861
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Finance Assistant
 company: Benjamin Edwards - Agency - Permanent
 location: Lincoln
@@ -237,6 +249,18 @@ company: Huntress - Maidstone - Agency - Temporary
 location: Lincoln
 source: JobG8
 job_id: jobg8-23643_225708756
+reason: Exact approved Lincoln workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Office Administrator
+company: Blusource - Agency - Permanent
+location: Lincoln
+source: JobG8
+job_id: jobg8-2143583
 reason: Exact approved Lincoln workplace.
 ---
 
@@ -384,7 +408,7 @@ job_id: jobg8-23643_225696261
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
-## REVIEW (11)
+## REVIEW (9)
 
 ---
 action: 
@@ -407,18 +431,6 @@ company: Stirling Warrington - Agency - Permanent
 location: Grantham
 source: JobG8
 job_id: jobg8-23643_225648525
-reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Executive Assistant
-company: Commercial Recruitment - Agency - Permanent
-location: Stamford
-source: JobG8
-job_id: jobg8-23643_225719266
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -503,18 +515,6 @@ company: Stamford Welland Academy
 location: Stamford
 source: Teaching Vacancies
 job_id: teaching-vacancies-send-administrator-stamford-welland-academy
-reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Site Administrator & Document Controller
-company: NES Group Ltd - Agency - Contract
-location: Grimsby
-source: JobG8
-job_id: jobg8-23643_225733236
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 

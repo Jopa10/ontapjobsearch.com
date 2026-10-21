@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 14
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
-- automatic review: 3
-- automatic exclude: 72
-- effective include: 14
-- effective review: 3
-- effective exclude: 72
+- automatic include: 18
+- automatic review: 4
+- automatic exclude: 75
+- effective include: 18
+- effective review: 4
+- effective exclude: 75
 
-## INCLUDE (14)
+## INCLUDE (18)
 
 ---
 action: 
@@ -69,6 +69,30 @@ company: Bennett and Game Recruitment LTD - Agency - Permanent
 location: Coventry
 source: JobG8
 job_id: jobg8-23643_225702322
+reason: Approved Coventry catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Conveyancing Paralegal
+company: Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-2155838
+reason: Approved Coventry catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service & Sales Coordinator
+company: Adecco - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-23643_225633973
 reason: Approved Coventry catchment.
 ---
 
@@ -184,6 +208,18 @@ reason: Approved Coventry catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Residential Conveyancing Paralegal
+company: Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-23643_225740090
+reason: Approved Coventry catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Sales Administrator
 company: SF Partners - Agency - Permanent
 location: Coventry
@@ -192,7 +228,31 @@ job_id: jobg8-23643_225701362
 reason: Approved Coventry catchment.
 ---
 
-## REVIEW (3)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Technical Customer Support Coordinator
+company: Adecco - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-23643_225744797
+reason: Approved Coventry catchment.
+---
+
+## REVIEW (4)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Assistants
+company: Hiringpeople.co.uk - Agency - Permanent
+location: Southam
+source: JobG8
+job_id: jobg8-23643_225745080
+reason: No approved Coventry catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -230,7 +290,7 @@ job_id: jobg8-23643_225656636
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (72)
+## EXCLUDE (75)
 
 ---
 action: 
@@ -297,6 +357,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Accounts Assistant
+company: Michael Page - Agency - Contract
+location: Warwick
+source: JobG8
+job_id: jobg8-23643_225742987
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Assistant
 company: ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent
 location: Rugby
 source: JobG8
@@ -349,6 +421,18 @@ company: Accord Appointments Ltd - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225704336
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Admin Assistant
+company: Plus One Recruitment - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-23643_225744644
 reason: Separate employment market.
 ---
 
@@ -428,18 +512,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: BMW Motorrad Brand Manager
-company: Sytner - Company - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225689658
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Bookings Administrator
 company: Belinda Roberts Ltd - Agency - Contract
 location: Warwick
@@ -452,11 +524,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Clinical Administrator
-company: The Myton Hospices
-location: Coventry, CV2 2HJ, WARWICK, CV34 6PX, RUGBY, CV22 5PY
-source: NHS Jobs
-job_id: nhs-5647678
+title: Business Administrator
+company: Genesis Employment Services Ltd - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225744303
 reason: Separate employment market.
 ---
 
@@ -529,6 +601,18 @@ company: Adecco - Agency - Permanent
 location: Warwick
 source: JobG8
 job_id: jobg8-23643_225675173
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Service Advisor - Property Management
+company: Accord Lets - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2104797
 reason: Separate employment market.
 ---
 
@@ -692,18 +776,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Graduate Paralegal - Public Family Law (Care)
-company: Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent
-location: Leamington Spa
-source: JobG8
-job_id: jobg8-23643_225677746
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: HR Assistant
 company: Auctoro Recruitment - Agency - Permanent
 location: Warwick
@@ -745,6 +817,18 @@ company: Macstaff - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225686983
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Marketing Executive
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2159396
 reason: Separate employment market.
 ---
 
@@ -812,6 +896,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Part Time Administrator
+company: Provit Recruitment - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225745042
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Part time Bookkeeper
 company: Four Squared - Agency - Permanent
 location: Warwickshire
@@ -829,6 +925,18 @@ company: Four Squared Recruitment Ltd - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225686816
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Part-time Administrator
+company: Brellis Recruitment - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225743721
 reason: Separate employment market.
 ---
 
@@ -1009,18 +1117,6 @@ company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-2055387
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Sales Administrator
-company: Arden Personnel - Agency - Contract
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225634834
 reason: Separate employment market.
 ---
 

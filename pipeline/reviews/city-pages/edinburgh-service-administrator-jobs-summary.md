@@ -4,7 +4,7 @@
 - Live route: `/edinburgh/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 23
+- Effective included jobs: 22
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 23
+- automatic include: 22
 - automatic review: 3
 - automatic exclude: 0
-- effective include: 23
+- effective include: 22
 - effective review: 3
 - effective exclude: 0
 
-## INCLUDE (23)
+## INCLUDE (22)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Huntress - Maidstone - Agency - Temporary
 location: Edinburgh
 source: JobG8
 job_id: jobg8-23643_225694844
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Search Consultancy Ltd - Agency - Contract
-location: Edinburgh
-source: JobG8
-job_id: jobg8-23643_225630841
 reason: Approved conservative Edinburgh launch catchment.
 ---
 
@@ -232,6 +220,18 @@ reason: Approved conservative Edinburgh launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Russian Customer Service Advisor
+company: Oyster Consultant - Agency - Permanent
+location: Edinburgh
+source: JobG8
+job_id: jobg8-107916313
+reason: Approved conservative Edinburgh launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Site Administrator
 company: Boyd Recruitment - Agency - Contract
 location: Edinburgh
@@ -249,18 +249,6 @@ company: Trip.com - Agency - Permanent
 location: Edinburgh
 source: JobG8
 job_id: jobg8-23643_225719385
-reason: Approved conservative Edinburgh launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Temp Team Administrator (Pot to go Perm) HYBRID
-company: Office Angels - Agency - Temporary
-location: Edinburgh
-source: JobG8
-job_id: jobg8-23643_225636683
 reason: Approved conservative Edinburgh launch catchment.
 ---
 

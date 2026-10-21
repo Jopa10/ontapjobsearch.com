@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 62
+- automatic review: 65
 - automatic exclude: 0
 - effective include: 4
-- effective review: 62
+- effective review: 65
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225739769
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (62)
+## REVIEW (65)
 
 ---
 action: 
@@ -127,10 +127,10 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Adecco - Agency - Temporary
-location: Sheffield
+company: Caval Limited - Agency - Permanent
+location: Barnsley
 source: JobG8
-job_id: jobg8-23643_225731356
+job_id: jobg8-23643_225704747
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -139,10 +139,22 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Caval Limited - Agency - Permanent
-location: Barnsley
+company: Lynx Employment Services Ltd - Agency - Permanent
+location: Sheffield
 source: JobG8
-job_id: jobg8-23643_225704747
+job_id: jobg8-23643_225743141
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Office Angels - Agency - Permanent
+location: Brinsworth
+source: JobG8
+job_id: jobg8-23643_225741868
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -427,6 +439,18 @@ action:
 decision: review
 automatic_decision: review
 title: Customer Service Advisor
+company: Blundells - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2105206
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
 company: EE - Company - Permanent
 location: Doncaster
 source: JobG8
@@ -546,6 +570,18 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Matter Administrator
+company: CRA Consulting - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2134593
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Medical Receptionist
 company: Norwood Medical Centre
 location: Sheffield, S5 7HD
@@ -587,6 +623,18 @@ company: Sue Ross Recruitment Ltd - Agency - Temporary
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225739418
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part-time Payroll Admin
+company: Portfolio Payroll Limited - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-23643_225740720
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -743,18 +791,6 @@ company: Belmont Recruitment - Agency - Contract
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225727950
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: White House Farm Medical Centre
-location: Doncaster, DN3 3AH
-source: NHS Jobs
-job_id: nhs-5647395
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

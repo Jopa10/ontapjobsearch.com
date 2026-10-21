@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 6
-- automatic exclude: 54
+- automatic review: 8
+- automatic exclude: 55
 - effective include: 6
-- effective review: 6
-- effective exclude: 54
+- effective review: 8
+- effective exclude: 55
 
 ## INCLUDE (6)
 
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225639980
 reason: Approved Barnsley catchment.
 ---
 
-## REVIEW (6)
+## REVIEW (8)
 
 ---
 action: 
@@ -107,6 +107,18 @@ company: Runwood Homes - Company - Permanent
 location: Bentley
 source: JobG8
 job_id: jobg8-23643_225736679
+reason: No approved Barnsley catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Office Angels - Agency - Permanent
+location: Brinsworth
+source: JobG8
+job_id: jobg8-23643_225741868
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
@@ -131,6 +143,18 @@ company: Reed - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2067582
+reason: No approved Barnsley catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part-time Payroll Admin
+company: Portfolio Payroll Limited - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-23643_225740720
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
@@ -170,7 +194,7 @@ job_id: jobg8-23643_225681456
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (54)
+## EXCLUDE (55)
 
 ---
 action: 
@@ -213,10 +237,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Administrator
-company: Adecco - Agency - Temporary
+company: Lynx Employment Services Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
-job_id: jobg8-23643_225731356
+job_id: jobg8-23643_225743141
 reason: Separate employment market.
 ---
 
@@ -465,6 +489,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Customer Service Advisor
+company: Blundells - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2105206
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Service Advisor
 company: EE - Company - Permanent
 location: Doncaster
 source: JobG8
@@ -553,6 +589,18 @@ company: Sue Ross Recruitment Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225731215
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Matter Administrator
+company: CRA Consulting - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2134593
 reason: Separate employment market.
 ---
 
@@ -721,18 +769,6 @@ company: Hollygreen Practice
 location: Rotherham, S63 9EH, Thurnscoe, s63 0LT, BARNSLEY, S72 0EJ
 source: NHS Jobs
 job_id: nhs-5670531
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Receptionist
-company: White House Farm Medical Centre
-location: Doncaster, DN3 3AH
-source: NHS Jobs
-job_id: nhs-5647395
 reason: Separate employment market.
 ---
 

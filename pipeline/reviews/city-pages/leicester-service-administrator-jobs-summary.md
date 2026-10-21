@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 20
-- automatic review: 55
+- automatic review: 54
 - automatic exclude: 0
 - effective include: 20
-- effective review: 55
+- effective review: 54
 - effective exclude: 0
 
 ## INCLUDE (20)
@@ -100,6 +100,18 @@ reason: Exact approved Leicester workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Commercial Administrator
+company: Macildowie Recruitment and Retention - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-2049449
+reason: Exact approved Leicester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Contract Administrator
 company: Danny Sullivan & Sons Ltd - Company - Permanent
 location: Leicester
@@ -141,18 +153,6 @@ company: SF Partners - Agency - Permanent
 location: Leicester
 source: JobG8
 job_id: jobg8-23643_225730191
-reason: Exact approved Leicester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Junior Sales Administrator
-company: Precision People - Agency - Permanent
-location: Leicester
-source: JobG8
-job_id: jobg8-23643_225635276
 reason: Exact approved Leicester workplace.
 ---
 
@@ -264,7 +264,7 @@ job_id: teaching-vacancies-student-services-administrator-b483b3bc-5d81-42ee-be3
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (55)
+## REVIEW (54)
 
 ---
 action: 
@@ -354,18 +354,6 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Receivable Administrator
-company: Investigo - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-1986389
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Accounts Receivable Assistant
 company: Adecco - Agency - Permanent
 location: Leicestershire
@@ -415,10 +403,10 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Regional Recruitment - Agency - Permanent
+company: Office Angels - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-23643_225725112
+job_id: jobg8-23643_225744187
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -427,34 +415,10 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: SF Partners - Agency - Permanent
+company: Regional Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-23643_225629440
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator (Excel Advanced)
-company: Interaction Recruitment - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225629801
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: Michael Page - Agency - Contract
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225664324
+job_id: jobg8-23643_225725112
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -527,6 +491,30 @@ company: SF Partners - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225676614
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Administrator
+company: SF Partners - Agency - Contract
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225745582
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Administrator
+company: SF Partners - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225744135
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -618,11 +606,11 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: HR Administrator
-company: Aspire People - Agency - Temporary
+title: Financial Services Administrator
+company: North Oak Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
-job_id: jobg8-23643_225630441
+job_id: jobg8-23643_225640521
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
