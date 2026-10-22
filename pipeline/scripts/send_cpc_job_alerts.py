@@ -299,12 +299,73 @@ def send_digest(
     return True
 
 
+
+def send_private_test(email: str, site_url: str, app_dir: Path, *, api_key: str,
+                      list_id: int, sender_email: str, secret: str) -> None:
+    """Send one clearly labelled sample, without listing or updating other contacts."""
+    parts = urlsplit(site_url)
+    if (parts.scheme != "https" or not parts.hostname
+            or not parts.hostname.endswith(".vercel.app")
+            or parts.username or parts.password or parts.port
+            or parts.path not in ("", "/") or parts.query or parts.fragment):
+        raise DeliveryError("Private tests require an HTTPS Vercel Preview origin")
+    email = email.strip().casefold()
+    if not re.fullmatch(r"[^\s@,;]+@[^\s@,;]+\.[^\s@,;]+", email):
+        raise DeliveryError("Private tests require exactly one email address")
+    contact = _brevo_request("GET", "/contacts/" + urllib.parse.quote(email, safe=""), api_key)
+    if (str(contact.get("email") or "").casefold() != email
+            or list_id not in (contact.get("listIds") or [])
+            or list_id in (contact.get("listUnsubscribed") or [])
+            or contact.get("emailBlacklisted") is True):
+        raise DeliveryError("Test recipient must be an active member of the alert list")
+    attributes = contact.get("attributes") or {}
+    if not attributes.get("ALERT_CONSENT_AT") or not attributes.get("ALERT_CONSENT_VERSION"):
+        raise DeliveryError("Test recipient has no saved alert consent")
+    job_id = str(attributes.get("ALERT_JOB_ID") or "")
+    sample = None
+    for path in app_dir.rglob("*.json"):
+        if "_city-pages" in path.parts:
+            continue
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            continue
+        for row in data if isinstance(data, list) else [data]:
+            if (isinstance(row, dict) and job_id and str(row.get("job_id") or "") == job_id
+                    and is_cpc_job(str(row.get("source") or ""), str(row.get("apply_url") or ""))):
+                sample = {**row, "ontap_url": site_url.rstrip("/") + "/jobs/" + urllib.parse.quote(job_id, safe="")}
+                break
+        if sample:
+            break
+    if not sample:
+        raise DeliveryError("The signup job is missing from this checkout; no test sent")
+    if not matches_alert(attributes, sample):
+        raise DeliveryError("The signup job no longer matches the saved preferences")
+    unsubscribe = site_url.rstrip("/") + "/job-alerts/unsubscribe?token=" + _unsubscribe_token(email, secret)
+    html_body, text_body = _email_html([sample], unsubscribe)
+    notice = "PRIVATE TEST: this sample uses the job you signed up from, not a newly matched vacancy."
+    _brevo_request("POST", "/smtp/email", api_key, {
+        "sender": {"name": "Ontap Jobs", "email": sender_email},
+        "to": [{"email": email}],
+        "subject": "[Private test] Your Ontap job alert",
+        "htmlContent": "<p>" + notice + "</p>" + html_body,
+        "textContent": notice + "\n\n" + text_body,
+    })
+    print("Private test accepted by Brevo for the single requested recipient; no daily-send state changed.")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Send daily CPC job-alert digests.")
-    parser.add_argument("--date", required=True, help="UTC report date in YYYY-MM-DD format")
+    parser.add_argument("--date", help="UTC report date in YYYY-MM-DD format")
     parser.add_argument("--app-dir", type=Path, default=Path("app"))
     parser.add_argument("--reports-dir", type=Path, default=Path("pipeline/reports-daily"))
+    parser.add_argument("--test-recipient", help="Send one labelled sample to this opted-in contact only")
+    parser.add_argument("--test-site-url", help="HTTPS Vercel Preview origin for test links")
     args = parser.parse_args()
+    if bool(args.test_recipient) != bool(args.test_site_url):
+        parser.error("--test-recipient and --test-site-url must be used together")
+    if not args.test_recipient and not args.date:
+        parser.error("--date is required for daily delivery")
 
     if os.environ.get("CPC_JOB_ALERTS_ENABLED", "").lower() != "true":
         print("CPC alerts are disabled; no email was sent.")
@@ -319,6 +380,11 @@ def main() -> int:
         list_id = 0
     if not api_key or not secret or not sender_email or list_id <= 0:
         raise DeliveryError("CPC alerts are enabled but Brevo or unsubscribe settings are incomplete")
+
+    if args.test_recipient:
+        send_private_test(args.test_recipient, args.test_site_url, args.app_dir,
+                          api_key=api_key, list_id=list_id, sender_email=sender_email, secret=secret)
+        return 0
 
     report_path = args.reports_dir / f"newly-published-jobs-{args.date}.csv"
     if not report_path.is_file():

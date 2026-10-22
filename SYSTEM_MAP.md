@@ -1,6 +1,6 @@
 # Ontap System Map
 
-**Last updated:** 16 October 2026
+**Last updated:** 22 October 2026
 **Status:** Canonical production architecture, reconciled on 12 October against active workflows, deployment runs, report history, slice register and current diagnostic contract.
 
 - 21 September 2026 — **Nearby-location analytics now explains incomplete location attempts and reliably measures restored preferences:** client events that occur before GA4 initialises wait for the shared analytics-ready signal instead of being dropped. Unsuccessful geolocation attempts now distinguish unsupported browsers, permission denial, unavailable positions, timeouts and nearby-API failures; manual-town attempts and saved-location refresh failures are measured separately. Existing `saved_location_return` and `saved_location_results_loaded` events remain the proof of remembered-location reuse.
@@ -8,6 +8,8 @@
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
+
+- 22 October 2026 — **Private CPC email test mode (feature branch only):** `send_cpc_job_alerts.py --test-recipient ADDRESS --test-site-url https://PREVIEW.vercel.app` fetches only the named contact, requires active list membership and recorded consent, and sends one labelled sample using the signup job from the checkout. Job and signed unsubscribe links use the supplied Preview origin. It does not enumerate the list or update daily-send state. Requires the existing Brevo environment settings; no test has been sent by this change and no public rollout is enabled.
 
 - 16 October 2026 — **CPC job-alert flow implemented on a feature branch, not production:** Apply opens the responsive prompt only when enabled and when both JobG8 source and `www.jobg8.com/Traffic.aspx` match. Brevo stores consent/preferences; the daily sender uses the first-seen job ledger, sends one matching digest per contact/day, and includes a signed unsubscribe link that removes only the CPC-alert list membership. No separate Ontap subscriber database is added. The flow remains disabled until provider/account settings and end-to-end delivery tests are complete.
 

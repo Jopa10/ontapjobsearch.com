@@ -1,11 +1,13 @@
 # Ontap System Overview
 
-**Last updated:** 16 October 2026
+**Last updated:** 22 October 2026
 **Status:** Canonical production state, reconciled on 12 October against active workflow definitions, deployment runs and current report data.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 22 October 2026 — **Private email test prepared on the feature branch:** a single named test contact can receive a clearly labelled sample with Preview links. Other list contacts are untouched. Delivery and unsubscribe still need testing; production remains unchanged.
 
 - 16 October 2026 — **CPC job-alert flow implemented on a feature branch:** it captures preferences in Brevo, matches new JobG8 CPC listings, sends a daily digest and supports unsubscribe. It is not live and remains disabled until account settings and end-to-end tests are completed.
 
