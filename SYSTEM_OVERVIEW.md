@@ -7,6 +7,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 22 October 2026 — **Browser test added on the private feature branch:** the owner can send a labelled sample to the agreed test address through `/job-alerts/private-test`, using credentials already saved in Vercel. It is disabled outside the test Preview branch. Delivery and unsubscribe still need testing; nothing is rolled out publicly.
+
 - 22 October 2026 — **Private email test prepared on the feature branch:** a single named test contact can receive a clearly labelled sample with Preview links. Other list contacts are untouched. Delivery and unsubscribe still need testing; production remains unchanged.
 
 - 16 October 2026 — **CPC job-alert flow implemented on a feature branch:** it captures preferences in Brevo, matches new JobG8 CPC listings, sends a daily digest and supports unsubscribe. It is not live and remains disabled until account settings and end-to-end tests are completed.
