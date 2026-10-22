@@ -26,6 +26,8 @@ CPC_HOST = "www.jobg8.com"
 CPC_PATH = "/traffic.aspx"
 PAGE_SIZE = 500
 MAX_JOBS_PER_EMAIL = 20
+PRIVATE_TEST_EMAIL = "jpbt801@gmail.com"
+PRIVATE_TEST_ORIGIN = "https://ontapjobsearchcom-git-feat-cpc-job-alerts-brevo-ontap1.vercel.app"
 
 
 class DeliveryError(RuntimeError):
@@ -261,19 +263,24 @@ def send_digest(
     api_key: str,
     sender_email: str,
     unsubscribe_secret: str,
+    site_url: str = "https://www.ontapjobsearch.com",
+    private_test: bool = False,
 ) -> bool:
     email = str(contact.get("email") or "").strip()
+    if private_test and (email.casefold() != PRIVATE_TEST_EMAIL or site_url != PRIVATE_TEST_ORIGIN):
+        raise DeliveryError("Private daily delivery is restricted to the fixed test address and Preview")
     attributes = contact.get("attributes") if isinstance(contact.get("attributes"), dict) else {}
     if not email or contact.get("emailBlacklisted") is True:
         return False
     if attributes.get("ALERT_LAST_SENT_DATE") == report_date:
         return False
-    matches = [job for job in jobs if matches_alert(attributes, job)]
+    matches = [{**job, "ontap_url": site_url + "/jobs/" + urllib.parse.quote(str(job["job_id"]), safe="")}
+               for job in jobs if matches_alert(attributes, job)][:MAX_JOBS_PER_EMAIL]
     if not matches:
         return False
 
     token = _unsubscribe_token(email, unsubscribe_secret)
-    unsubscribe_url = f"https://www.ontapjobsearch.com/job-alerts/unsubscribe?token={token}"
+    unsubscribe_url = f"{site_url}/job-alerts/unsubscribe?token={token}"
     html_body, text_body = _email_html(matches, unsubscribe_url)
     _brevo_request(
         "POST",
@@ -282,7 +289,7 @@ def send_digest(
         {
             "sender": {"name": "Ontap Job Search", "email": sender_email},
             "to": [{"email": email}],
-            "subject": f"{len(matches)} new CPC job{'s' if len(matches) != 1 else ''} matching your alert",
+            "subject": ("[Private daily test] " if private_test else "") + f"{len(matches)} new CPC job{'s' if len(matches) != 1 else ''} matching your alert",
             "htmlContent": html_body,
             "textContent": text_body,
         },
@@ -354,6 +361,42 @@ def send_private_test(email: str, site_url: str, app_dir: Path, *, api_key: str,
     print("Private test accepted by Brevo for the single requested recipient; no daily-send state changed.")
 
 
+
+def private_daily_test(args: argparse.Namespace, *, api_key: str, list_id: int,
+                       sender_email: str, secret: str) -> None:
+    """Exercise the real daily report/matcher/digest for one active test contact."""
+    if list_id != 3:
+        raise DeliveryError("Private daily tests require list ID 3")
+    if os.environ.get("GITHUB_REF") != "refs/heads/feat/cpc-job-alerts-brevo":
+        raise DeliveryError("Private daily tests require the feature branch")
+    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", args.date or ""):
+        raise DeliveryError("A report date in YYYY-MM-DD format is required")
+    report = args.reports_dir / f"newly-published-jobs-{args.date}.csv"
+    if not report.is_file():
+        raise DeliveryError("The requested daily new-jobs report is missing")
+    contact = _brevo_request("GET", "/contacts/" + urllib.parse.quote(PRIVATE_TEST_EMAIL, safe=""), api_key)
+    attrs = contact.get("attributes") or {}
+    if (str(contact.get("email") or "").casefold() != PRIVATE_TEST_EMAIL
+            or 3 not in (contact.get("listIds") or [])
+            or 3 in (contact.get("listUnsubscribed") or [])
+            or contact.get("emailBlacklisted") is True
+            or not attrs.get("ALERT_CONSENT_AT") or not attrs.get("ALERT_CONSENT_VERSION")):
+        raise DeliveryError("The test address must have an active, consented signup in list 3")
+    jobs = new_cpc_jobs(report, args.app_dir, args.date)
+    matches = [job for job in jobs if matches_alert(attrs, job)]
+    print(f"Private daily matching: {len(jobs)} new CPC jobs; {len(matches)} matches; maximum 20 in a digest.")
+    for job in matches[:MAX_JOBS_PER_EMAIL]:
+        print(f"Match: {job.get('title', '')} | {job.get('location', '')} | {job.get('job_id', '')}")
+    if args.dry_run:
+        print("Dry run: no email sent and no contact state changed.")
+        return
+    sent = send_digest(contact, jobs, report_date=args.date, api_key=api_key,
+                       sender_email=sender_email, unsubscribe_secret=secret,
+                       site_url=PRIVATE_TEST_ORIGIN, private_test=True)
+    print("Private daily digest accepted by Brevo." if sent else
+          "No email sent: no matching jobs or this report date was already sent.")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Send daily CPC job-alert digests.")
     parser.add_argument("--date", help="UTC report date in YYYY-MM-DD format")
@@ -361,7 +404,13 @@ def main() -> int:
     parser.add_argument("--reports-dir", type=Path, default=Path("pipeline/reports-daily"))
     parser.add_argument("--test-recipient", help="Send one labelled sample to this opted-in contact only")
     parser.add_argument("--test-site-url", help="HTTPS Vercel Preview origin for test links")
+    parser.add_argument("--private-daily-test", action="store_true", help="Real daily matching for the fixed private test contact only")
+    parser.add_argument("--dry-run", action="store_true", help="Private daily test: match without sending or updating state")
     args = parser.parse_args()
+    if args.private_daily_test and (args.test_recipient or args.test_site_url):
+        parser.error("Private daily tests cannot be combined with sample mode")
+    if args.dry_run and not args.private_daily_test:
+        parser.error("--dry-run requires --private-daily-test")
     if bool(args.test_recipient) != bool(args.test_site_url):
         parser.error("--test-recipient and --test-site-url must be used together")
     if not args.test_recipient and not args.date:
@@ -380,6 +429,10 @@ def main() -> int:
         list_id = 0
     if not api_key or not secret or not sender_email or list_id <= 0:
         raise DeliveryError("CPC alerts are enabled but Brevo or unsubscribe settings are incomplete")
+
+    if args.private_daily_test:
+        private_daily_test(args, api_key=api_key, list_id=list_id, sender_email=sender_email, secret=secret)
+        return 0
 
     if args.test_recipient:
         send_private_test(args.test_recipient, args.test_site_url, args.app_dir,

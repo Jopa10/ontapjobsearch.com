@@ -1,0 +1,59 @@
+name: Private CPC daily matching test
+
+on:
+  push:
+    branches: [feat/cpc-job-alerts-brevo]
+    paths:
+      - pipeline/scripts/send_cpc_job_alerts.py
+      - pipeline/tests/test_send_cpc_job_alerts.py
+      - .github/workflows/private-cpc-daily-test.yml
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    if: github.ref == 'refs/heads/feat/cpc-job-alerts-brevo'
+    runs-on: ubuntu-latest
+    environment: ontap-brevo-private-test
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test matching and private daily delivery safeguards
+        working-directory: pipeline
+        run: python -m unittest discover -s tests -p 'test_send_cpc_job_alerts.py' -v
+      - name: Read current published job data (no scripts run from main)
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: published-inputs
+          persist-credentials: false
+      - name: Match only the private test contact without sending
+        env:
+          CPC_JOB_ALERTS_ENABLED: 'true'
+          BREVO_JOB_ALERTS_LIST_ID: '3'
+          BREVO_SENDER_EMAIL: jobs@ontapjobsearch.com
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          JOB_ALERTS_UNSUBSCRIBE_SECRET: ${{ secrets.JOB_ALERTS_UNSUBSCRIBE_SECRET }}
+        run: |
+          python - <<'PY'
+          import datetime
+          import os
+          import pathlib
+          import subprocess
+          import sys
+          required = ("BREVO_API_KEY", "JOB_ALERTS_UNSUBSCRIBE_SECRET")
+          if any(not os.environ.get(key) for key in required):
+              print("Private matching not run: add the existing Brevo API key and unsubscribe secret to the ontap-brevo-private-test GitHub environment. No email sent.")
+              sys.exit(1)
+          dates = sorted(pathlib.Path("published-inputs/pipeline/reports-daily").glob("newly-published-jobs-????-??-??.csv"))
+          if not dates:
+              sys.exit("No daily new-jobs report in the feature checkout; no email sent.")
+          date = dates[-1].stem.removeprefix("newly-published-jobs-")
+          print("Matching report date:", date, flush=True)
+          subprocess.run([sys.executable, "pipeline/scripts/send_cpc_job_alerts.py", "--private-daily-test", "--dry-run", "--date", date, "--app-dir", "published-inputs/app", "--reports-dir", "published-inputs/pipeline/reports-daily"], check=True)
+          PY

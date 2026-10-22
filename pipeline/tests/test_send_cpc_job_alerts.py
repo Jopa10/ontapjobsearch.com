@@ -156,5 +156,67 @@ class PrivateDeliveryTests(unittest.TestCase):
                                   api_key="fake", list_id=3, sender_email="jobs@example.com", secret="fake")
             self.assertEqual(request.call_count, 1)
 
+
+class PrivateDailyTests(unittest.TestCase):
+    def setUp(self):
+        self.contact = {"id": 1, "email": "jpbt801@gmail.com", "listIds": [3], "attributes": {
+            "ALERT_ROLE": "Accounts Assistant", "ALERT_LOCATION": "Leeds",
+            "ALERT_CONSENT_AT": "2026-10-22", "ALERT_CONSENT_VERSION": "v1"}}
+        self.job = {"job_id": "new-job", "title": "Accounts Assistant", "location": "Leeds"}
+
+    def run_private(self, dry_run, contact=None, list_id=3, branch="refs/heads/feat/cpc-job-alerts-brevo"):
+        import argparse
+        from unittest.mock import patch
+        from scripts.send_cpc_job_alerts import private_daily_test
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "newly-published-jobs-2026-10-22.csv").write_text("job_id\\n")
+            args = argparse.Namespace(date="2026-10-22", reports_dir=root, app_dir=root, dry_run=dry_run)
+            with patch.dict("os.environ", {"GITHUB_REF": branch}), \
+                 patch("scripts.send_cpc_job_alerts.new_cpc_jobs", return_value=[self.job]), \
+                 patch("scripts.send_cpc_job_alerts._brevo_request", side_effect=[contact or self.contact, {}, {}]) as request:
+                private_daily_test(args, api_key="fake", list_id=list_id, sender_email="jobs@example.com", secret="fake")
+                return request.call_args_list
+
+    def test_dry_run_fetches_only_fixed_contact_without_sending_or_updating(self):
+        calls = self.run_private(True)
+        self.assertEqual(len(calls), 1)
+        self.assertEqual(calls[0].args[:2], ("GET", "/contacts/jpbt801%40gmail.com"))
+
+    def test_real_daily_match_sends_only_fixed_recipient_with_preview_links_and_records_date(self):
+        calls = self.run_private(False)
+        self.assertEqual([call.args[0] for call in calls], ["GET", "POST", "PUT"])
+        payload = calls[1].args[3]
+        self.assertEqual(payload["to"], [{"email": "jpbt801@gmail.com"}])
+        self.assertIn("[Private daily test]", payload["subject"])
+        self.assertIn("https://ontapjobsearchcom-git-feat-cpc-job-alerts-brevo-ontap1.vercel.app/jobs/new-job", payload["textContent"])
+        self.assertNotIn("www.ontapjobsearch.com", payload["textContent"])
+        self.assertEqual(calls[2].args[3], {"attributes": {"ALERT_LAST_SENT_DATE": "2026-10-22"}})
+
+    def test_unsubscribed_or_unconsented_contact_is_rejected(self):
+        from scripts.send_cpc_job_alerts import DeliveryError
+        for contact in [{**self.contact, "listIds": []},
+                        {**self.contact, "listUnsubscribed": [3]},
+                        {**self.contact, "email": "anything@gmail.com"},
+                        {**self.contact, "attributes": {}},
+                        {**self.contact, "emailBlacklisted": True}]:
+            with self.assertRaises(DeliveryError):
+                self.run_private(False, contact)
+
+    def test_same_date_is_not_sent_again(self):
+        contact = {**self.contact, "attributes": {**self.contact["attributes"], "ALERT_LAST_SENT_DATE": "2026-10-22"}}
+        self.assertEqual(len(self.run_private(False, contact)), 1)
+
+    def test_no_matching_jobs_means_no_email(self):
+        contact = {**self.contact, "attributes": {**self.contact["attributes"], "ALERT_LOCATION": "Bristol"}}
+        self.assertEqual(len(self.run_private(False, contact)), 1)
+
+    def test_wrong_branch_or_list_fails_before_brevo(self):
+        from scripts.send_cpc_job_alerts import DeliveryError
+        for kwargs in [{"list_id": 2}, {"branch": "refs/heads/main"}]:
+            with self.assertRaises(DeliveryError):
+                self.run_private(False, **kwargs)
+
+
 if __name__ == "__main__":
     unittest.main()
