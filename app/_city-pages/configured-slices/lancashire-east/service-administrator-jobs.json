@@ -25,31 +25,6 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
-    "job_id": "107954411",
-    "title": "HR Administrator",
-    "company": "Potential Recruitment - Agency - Permanent",
-    "location": "Blackburn",
-    "region": "Lancashire - East",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "27000",
-    "salary_max": "27000",
-    "salary_text": "£27000 per year",
-    "posted_date": "2026-10-21",
-    "description": "Are you an HR Administrator - ideally CIPD Level 3 - who wants to be part of a large successful company where you will be able to develop and grow yourself and your career?Then this is the role for you.\n\nYou will have a positive and proactive approach and ideally worked in the manufacturing sector but any good commercial HR background will stand you in good stead here click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?gZ0pd2TJz0LJ3ECX7E5RFPWB33bJsNjps",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Potential Recruitment",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "23643_225730840",
     "title": "Assistant Management Accountant",
     "company": "Hays Accounts and Finance - Agency - Temporary",
@@ -291,6 +266,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4561-26-0005",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -310,6 +288,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0046-26-0004",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]
