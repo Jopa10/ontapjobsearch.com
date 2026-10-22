@@ -39,21 +39,22 @@ body {
 .cpc-job-alert-dialog {
   position: relative;
   width: min(60vw, 760px);
-  height: min(64vh, 590px);
-  min-height: 480px;
-  overflow-y: auto;
+  max-height: calc(100dvh - 40px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
   border: 1px solid #dbe3ee;
   border-radius: 12px;
   background: #fff;
-  padding: 32px 38px;
+  padding: 22px 28px;
   box-shadow: 0 22px 70px rgba(0, 0, 0, 0.32);
   color: #171717;
 }
 
 .cpc-job-alert-preferences {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 6px 18px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 6px 12px;
 }
 
 .cpc-job-alert-dialog h2 {
@@ -63,9 +64,8 @@ body {
 @media (max-width: 700px) {
   .cpc-job-alert-dialog {
     width: 92vw;
-    height: 68vh;
-    min-height: 440px;
-    padding: 26px 20px;
+    max-height: calc(100dvh - 24px);
+    padding: 20px 16px;
   }
 
   .cpc-job-alert-preferences {
@@ -76,3 +76,7 @@ body {
     font-size: 22px;
   }
 }
+
+.cpc-job-alert-form { display: flex; flex-direction: column; min-height: 0; }
+.cpc-job-alert-fields { overflow-y: auto; min-height: 0; }
+.cpc-job-alert-actions { flex-shrink: 0; padding-top: 8px; background: #fff; }
