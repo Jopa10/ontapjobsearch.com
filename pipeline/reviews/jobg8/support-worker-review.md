@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-10-21
+feed_date: 2026-10-22
 
 Edit only the `action:` line in each block:
 
@@ -45,11 +45,7 @@ job_id: 23643_225715617
 
 ## NORTH EAST - COUNTY DURHAM & DARLINGTON/HARTLEPOOL — SELECTED
 
----
-action:
-SELECTED | North East - County Durham & Darlington/Hartlepool | Darlington | £17 - £17.5 per hour (rate depending on experience) | Family Support Worker
-job_id: 23643_225638969
----
+_No jobs in this group._
 
 ## NORTH EAST - TYNESIDE, WEARSIDE & NORTHUMBERLAND — POSSIBLES
 
@@ -135,14 +131,32 @@ job_id: 23643_225737488
 
 ---
 action:
-SELECTED | Sussex | Sussex | £17.15 per hour | Care Assistant - Bank - Care Home
-job_id: 23643_225718800
+SELECTED | Sussex | Brighton | £14 - £16 per hour | Support Worker
+job_id: 23643_222307132
 ---
 
 ---
 action:
-SELECTED | Sussex | Brighton | £14 - £16 per hour | Support Worker
-job_id: 23643_222307132
+SELECTED | Sussex | Worthing | £14 - £15.5 per hour | Healthcare Assistant
+job_id: 23643_225750767
+---
+
+---
+action:
+SELECTED | Sussex | Burgess Hill | £14.86 per hour | Support Worker
+job_id: 23643_225749785
+---
+
+---
+action:
+SELECTED | Sussex | Pulborough | £12.71 - £14.45 per hour (Salary starts at £12.71 and increases t) | Female Waking Night Support Worker Pulborough
+job_id: 108179728
+---
+
+---
+action:
+SELECTED | Sussex | Sussex | £14.5 per hour | Night Care Assistant
+job_id: 23643_225440444
 ---
 
 ## SUSSEX — POSSIBLES
@@ -507,12 +521,6 @@ job_id: 23643_225691357
 
 ---
 action:
-SELECTED | London | London | £28000 - £32000 per year | Youth Support Worker Apprenticeship Coach
-job_id: 23643_225739094
----
-
----
-action:
 SELECTED | London | London | £120 - £130 per daily | Support Worker
 job_id: 23643_225744321
 ---
@@ -521,6 +529,18 @@ job_id: 23643_225744321
 action:
 SELECTED | London | City | £30000 - £32000 per year | Personal Assistant to the CEO
 job_id: 23643_225743869
+---
+
+---
+action:
+SELECTED | London | Southwark | £25,266.93 per annum | Support Worker
+job_id: 2160807
+---
+
+---
+action:
+SELECTED | London | London | £14.80 per hour | Support Worker
+job_id: 2160768
 ---
 
 ## LONDON — POSSIBLES
@@ -577,12 +597,6 @@ SELECTED | Surrey | Surrey | £15.5 per hour | Care Assistant - Bank - Care Home
 job_id: 23643_225729356
 ---
 
----
-action:
-SELECTED | Surrey | Surrey | £14.5 per hour | Night Care Assistant
-job_id: 23643_225440444
----
-
 ## SURREY — POSSIBLES
 
 _No jobs in this group._
@@ -617,12 +631,6 @@ job_id: 23643_225713769
 action:
 SELECTED | Wiltshire | Salisbury | £28479 per year | Support Worker - Clouds House
 job_id: 23643_225712887
----
-
----
-action:
-SELECTED | Wiltshire | Wiltshire | £14.25 - £15.5 per hour | Learning Support Assistant
-job_id: 23643_225660582
 ---
 
 ## WILTSHIRE — POSSIBLES
