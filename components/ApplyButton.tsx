@@ -19,7 +19,6 @@ export default function ApplyButton({
   const [errorMessage, setErrorMessage] = useState("");
   const [website, setWebsite] = useState("");
   const emailRef = useRef<HTMLInputElement>(null);
-  const applyWindow = useRef<Window | null>(null);
   const eligible = process.env.NEXT_PUBLIC_CPC_JOB_ALERTS_ENABLED === "true" && isCpcJobAlertEligible(source, apply_url);
 
   useEffect(() => { if (open) emailRef.current?.focus(); }, [open]);
@@ -28,8 +27,6 @@ export default function ApplyButton({
     if (!open) return;
     const handleEscape = (event: KeyboardEvent) => {
       if (event.key !== "Escape") return;
-      if (applyWindow.current && !applyWindow.current.closed) applyWindow.current.close();
-      applyWindow.current = null;
       setOpen(false);
     };
     window.addEventListener("keydown", handleEscape);
@@ -49,14 +46,7 @@ export default function ApplyButton({
   };
 
   const continueToEmployer = () => {
-    const popup = applyWindow.current;
-    if (popup && !popup.closed) {
-      popup.opener = null;
-      popup.location.href = apply_url;
-    } else {
-      window.open(apply_url, "_blank", "noopener,noreferrer");
-    }
-    applyWindow.current = null;
+    window.open(apply_url, "_blank", "noopener,noreferrer");
     setOpen(false);
   };
 
@@ -64,7 +54,6 @@ export default function ApplyButton({
     if (!eligible) { trackClick(); return; }
     event.preventDefault();
     trackClick();
-    applyWindow.current = window.open("about:blank", "_blank");
     setRole(title);
     setAlertLocation(location);
     setSalary(salary_text);
@@ -74,8 +63,6 @@ export default function ApplyButton({
   };
 
   const closeDialog = () => {
-    if (applyWindow.current && !applyWindow.current.closed) applyWindow.current.close();
-    applyWindow.current = null;
     setOpen(false);
   };
 
