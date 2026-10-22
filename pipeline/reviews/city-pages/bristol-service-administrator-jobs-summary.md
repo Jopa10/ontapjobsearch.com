@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 55
+- Effective included jobs: 54
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 55
-- automatic review: 11
+- automatic include: 54
+- automatic review: 10
 - automatic exclude: 8
-- effective include: 55
-- effective review: 11
+- effective include: 54
+- effective review: 10
 - effective exclude: 8
 
-## INCLUDE (55)
+## INCLUDE (54)
 
 ---
 action: 
@@ -508,18 +508,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: People Coordinator
-company: Adecco - Agency - Temporary
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225636147
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Personal Injury Paralegal
 company: Yolk Recruitment Ltd - Agency - Permanent
 location: Bristol
@@ -684,7 +672,7 @@ job_id: nhs-5636801
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (11)
+## REVIEW (10)
 
 ---
 action: 
@@ -803,18 +791,6 @@ company: Adecco - Agency - Temporary
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225702996
-reason: No approved Bristol catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Senior Internal Communications Manager
-company: HFT - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-2158506
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 

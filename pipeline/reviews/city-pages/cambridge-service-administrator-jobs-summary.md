@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 29
+- Effective included jobs: 31
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 29
-- automatic review: 9
-- automatic exclude: 17
-- effective include: 29
-- effective review: 9
-- effective exclude: 17
+- automatic include: 31
+- automatic review: 10
+- automatic exclude: 21
+- effective include: 31
+- effective review: 10
+- effective exclude: 21
 
-## INCLUDE (29)
+## INCLUDE (31)
 
 ---
 action: 
@@ -160,6 +160,18 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Conveyancing Legal Assistant
+company: Reed - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-2164056
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Credit Controller
 company: Robert Half - Agency - Permanent
 location: Cambridge
@@ -280,6 +292,18 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Office Administrator (IT)
+company: The Perse School - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-23643_225748756
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Purchase Ledger Clerk (Temp)
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Cambridgeshire
@@ -372,7 +396,7 @@ job_id: nhs-5673923
 reason: Approved conservative Cambridge launch catchment.
 ---
 
-## REVIEW (9)
+## REVIEW (10)
 
 ---
 action: 
@@ -383,6 +407,18 @@ company: Vista Academy Littleport
 location: Ely
 source: Teaching Vacancies
 job_id: teaching-vacancies-attendance-administrator-vista-academy-littleport
+reason: No approved Cambridge catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Conveyancing Legal Assistant
+company: Reed - Agency - Permanent
+location: Ely
+source: JobG8
+job_id: jobg8-2164057
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
@@ -482,7 +518,7 @@ job_id: jobg8-23643_225691104
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (17)
+## EXCLUDE (21)
 
 ---
 action: 
@@ -529,6 +565,30 @@ company: Greater Peterborough UTC
 location: Peterborough
 source: Teaching Vacancies
 job_id: teaching-vacancies-business-administrator-apprentice-greater-peterborough-utc
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Conveyancing Legal Assistant
+company: Reed - Agency - Permanent
+location: Huntingdon
+source: JobG8
+job_id: jobg8-2164052
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Conveyancing Legal Assistant
+company: Reed - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-2164053
 reason: Separate employment market.
 ---
 
@@ -589,6 +649,18 @@ company: French Selection - Agency - Permanent
 location: Huntingdon
 source: JobG8
 job_id: jobg8-23643_225716483
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: HR Administrator
+company: Interaction Recruitment - Agency - Temporary
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225750441
 reason: Separate employment market.
 ---
 
@@ -685,5 +757,17 @@ company: Strange and Wright Recruitment Partners LTD - Agency - Permanent
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_225739501
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Service Advisor
+company: Scout Recruiting LTD - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_221302954
 reason: Separate employment market.
 ---

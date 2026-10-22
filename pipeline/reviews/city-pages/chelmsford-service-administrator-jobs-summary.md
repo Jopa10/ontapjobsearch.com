@@ -4,7 +4,7 @@
 - Live route: `/chelmsford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 16
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 16
-- automatic review: 124
+- automatic include: 18
+- automatic review: 122
 - automatic exclude: 0
-- effective include: 16
-- effective review: 124
+- effective include: 18
+- effective review: 122
 - effective exclude: 0
 
-## INCLUDE (16)
+## INCLUDE (18)
 
 ---
 action: 
@@ -124,6 +124,18 @@ reason: Exact approved Chelmsford workplace.
 action: 
 decision: include
 automatic_decision: include
+title: HR & Training Administrator
+company: Adecco - Agency - Permanent
+location: Chelmsford
+source: JobG8
+job_id: jobg8-23643_225749621
+reason: Exact approved Chelmsford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: HR & Training Coordinator
 company: Pure Resourcing Solutions Limited - Agency - Permanent
 location: Chelmsford
@@ -141,6 +153,18 @@ company: Adecco - Agency - Contract
 location: Chelmsford
 source: JobG8
 job_id: jobg8-23643_225699848
+reason: Exact approved Chelmsford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: HR Administrator
+company: Office Angels - Agency - Contract
+location: Chelmsford
+source: JobG8
+job_id: jobg8-23643_225747162
 reason: Exact approved Chelmsford workplace.
 ---
 
@@ -216,7 +240,7 @@ job_id: jobg8-23643_225694242
 reason: Exact approved Chelmsford workplace.
 ---
 
-## REVIEW (124)
+## REVIEW (122)
 
 ---
 action: 
@@ -299,18 +323,6 @@ company: Additional Resources Ltd - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-2091879
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable Administrator
-company: Reed - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-2040153
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -786,6 +798,18 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Financial Administrator
+company: Prime Appointments - Agency - Permanent
+location: Colchester
+source: JobG8
+job_id: jobg8-23643_225749000
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Housing Administrator
 company: 4Recruitment Services - Agency - Contract
 location: Essex
@@ -1242,6 +1266,18 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Purchasing Assistant / Trainee Buyer
+company: Nicholas Associates - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-23643_225749724
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Rail Sales Coordinator
 company: Prime Appointments - Agency - Permanent
 location: Essex
@@ -1410,11 +1446,11 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Residential Property Legal Secretary
-company: The Recruiter Specialists Ltd - Agency - Permanent
+title: Repairs Planner/Scheduler
+company: Fortus Recruitment Group - Agency - Permanent
 location: Essex
 source: JobG8
-job_id: jobg8-23643_225728689
+job_id: jobg8-23643_225749974
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -1422,11 +1458,11 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Sales Administrator
-company: Noble Recruiting - Agency - Permanent
-location: Billericay
+title: Residential Property Legal Secretary
+company: The Recruiter Specialists Ltd - Agency - Permanent
+location: Essex
 source: JobG8
-job_id: jobg8-23643_225708861
+job_id: jobg8-23643_225728689
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 
@@ -1494,18 +1530,6 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Sales Executive (Southend-on-Sea)
-company: BramahHR Ltd - Agency - Permanent
-location: Southend-on-sea
-source: JobG8
-job_id: jobg8-23643_225638889
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales Ledger Clerk
 company: Huntress - Agency - Permanent
 location: Basildon
@@ -1542,18 +1566,6 @@ reason: No exact Chelmsford workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Service Administrator
-company: Adore Recruitment Ltd - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-23643_225508341
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Service Delivery Coordinator
 company: Rise Technical Recruitment - Agency - Permanent
 location: Essex
@@ -1583,18 +1595,6 @@ company: Adecco - Agency - Permanent
 location: Witham
 source: JobG8
 job_id: jobg8-23643_225745054
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Talent Acquisition Advisor
-company: Waddington Brown - Agency - Permanent
-location: Essex
-source: JobG8
-job_id: jobg8-107965330
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

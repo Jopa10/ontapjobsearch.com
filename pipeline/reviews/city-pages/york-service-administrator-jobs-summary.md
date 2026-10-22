@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
+- automatic include: 12
 - automatic review: 18
-- automatic exclude: 34
-- effective include: 11
+- automatic exclude: 33
+- effective include: 12
 - effective review: 18
-- effective exclude: 34
+- effective exclude: 33
 
-## INCLUDE (11)
+## INCLUDE (12)
 
 ---
 action: 
@@ -57,6 +57,18 @@ company: Woldgate School and Sixth Form College
 location: York
 source: Teaching Vacancies
 job_id: teaching-vacancies-assistant-exams-officer-cover-administrator
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Assistant Project Administrator (Construction)
+company: Ernest Gordon Recruitment Limited - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-23643_225747065
 reason: Approved York catchment.
 ---
 
@@ -374,7 +386,7 @@ job_id: jobg8-23643_225666115
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (34)
+## EXCLUDE (33)
 
 ---
 action: 
@@ -560,18 +572,6 @@ reason: Broad regional label; not York-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Customer Service Advisor
-company: Yorkshire Building Society (YBS) - Agency - Permanent
-location: Ripon
-source: JobG8
-job_id: jobg8-108187895
-reason: Broad regional label; not York-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Legal Assistant
 company: IMPRESSION RECRUITMENT LIMITED - Agency - Permanent
 location: Northallerton
@@ -668,6 +668,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Project Administrator
+company: Innovex - Agency - Permanent
+location: Selby
+source: JobG8
+job_id: jobg8-23643_225746940
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Purchase Ledger Assistant
 company: Travail Employment Group - Agency - Temporary
 location: Harrogate
@@ -745,18 +757,6 @@ company: Braeburn Primary and Nursery Academy
 location: Scarborough
 source: Teaching Vacancies
 job_id: teaching-vacancies-senior-administrator-a7025ffa-8f1a-4ca4-8107-74ae6341f075
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Coordinator (UPS)
-company: Dale Power Solutions - Agency - Permanent
-location: Scarborough
-source: JobG8
-job_id: jobg8-23643_225641309
 reason: Separate employment market.
 ---
 

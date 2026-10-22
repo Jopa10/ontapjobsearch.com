@@ -4,7 +4,7 @@
 - Live route: `/bedford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 33
+- automatic include: 4
+- automatic review: 32
 - automatic exclude: 0
-- effective include: 5
-- effective review: 33
+- effective include: 4
+- effective review: 32
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (4)
 
 ---
 action: 
@@ -72,19 +72,7 @@ job_id: jobg8-23643_225729306
 reason: Exact approved Bedford workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Lettings & Property Coordinator
-company: Allstaff - Agency - Permanent
-location: Bedford
-source: JobG8
-job_id: jobg8-23643_225724509
-reason: Exact approved Bedford workplace.
----
-
-## REVIEW (33)
+## REVIEW (32)
 
 ---
 action: 
@@ -162,18 +150,6 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: Vestry James Ltd - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_224485209
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Administrator - Support
 company: Transcomm Recruitment Ltd - Agency - Permanent
 location: Dunstable
@@ -222,6 +198,18 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Conveyancing Legal Assistant
+company: Reed - Agency - Permanent
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-2164055
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Credit Controller
 company: Abacus Consulting - Agency - Permanent
 location: Bedfordshire
@@ -263,18 +251,6 @@ company: Michael Page - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225661847
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Imports Administrator - Customs & Shipping
-company: Henderson Brown Recruitment - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225642228
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

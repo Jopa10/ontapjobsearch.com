@@ -4,7 +4,7 @@
 - Live route: `/lincoln/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 32
+- Effective included jobs: 31
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 32
-- automatic review: 9
+- automatic include: 31
+- automatic review: 8
 - automatic exclude: 0
-- effective include: 32
-- effective review: 9
+- effective include: 31
+- effective review: 8
 - effective exclude: 0
 
-## INCLUDE (32)
+## INCLUDE (31)
 
 ---
 action: 
@@ -202,18 +202,6 @@ location: Lincoln
 source: JobG8
 job_id: jobg8-23643_225691108
 reason: Exact approved Lincoln workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Assistant
-company: Reflect Recruitment Group - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-23643_225667448
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
 ---
@@ -408,7 +396,7 @@ job_id: jobg8-23643_225696261
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
-## REVIEW (9)
+## REVIEW (8)
 
 ---
 action: 
@@ -491,18 +479,6 @@ company: Market Cross Surgery
 location: Grantham, NG33 4BB
 source: NHS Jobs
 job_id: nhs-5562166
-reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist/Admin Assistant
-company: Boston Endeavour Academy
-location: Boston
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-admin-assistant-boston-endeavour-academy
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 

@@ -330,18 +330,6 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Administrator
-company: Adecco - Agency - Permanent
-location: Evesham
-source: JobG8
-job_id: jobg8-23643_225634415
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Service Advisor
 company: Michael Page - Agency - Temporary
 location: Worcestershire
@@ -359,6 +347,18 @@ company: Workforce Staffing Ltd - Agency - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-23643_225663649
+reason: No exact Worcester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: European and UK Road Coordinator
+company: Freight Personnel - Agency - Permanent
+location: Worcestershire
+source: JobG8
+job_id: jobg8-23643_225637689
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

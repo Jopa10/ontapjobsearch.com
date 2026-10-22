@@ -306,6 +306,30 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: CUSTOMER SERVICE ADVISOR
+company: Talent Sure Recruitment Limited - Agency - Permanent
+location: Christchurch
+source: JobG8
+job_id: jobg8-23643_225643416
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: CUSTOMER SERVICE ADVISOR
+company: Talent Sure Recruitment Limited - Agency - Permanent
+location: Bournemouth
+source: JobG8
+job_id: jobg8-23643_225699611
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Advisor
 company: The Work Shop Resourcing Ltd - Agency - Temporary
 location: Bournemouth
@@ -318,7 +342,7 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Coordinator
+title: Customer Service Advisor
 company: Transmission Developments Co (GB) Ltd - Agency - Permanent
 location: Dorset
 source: JobG8
@@ -335,18 +359,6 @@ company: Connect2Dorset - Agency - Temporary
 location: Dorchester
 source: JobG8
 job_id: jobg8-23643_225646313
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: Reed - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2013522
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -371,6 +383,18 @@ company: The Work Shop Resourcing Ltd - Agency - Permanent
 location: Ferndown
 source: JobG8
 job_id: jobg8-23643_224829412
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: JUNIOR FINANCE ADMINISTRATOR
+company: Talent Sure Recruitment Limited - Agency - Contract
+location: Bournemouth
+source: JobG8
+job_id: jobg8-23643_225682219
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -419,18 +443,6 @@ company: Holt Engineering - Agency - Permanent
 location: Wimborne
 source: JobG8
 job_id: jobg8-23643_225684990
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part-Time Project Administrator/Document Controller
-company: 1st Step - Agency - Contract
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225722380
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -587,18 +599,6 @@ company: Dorset HealthCare University NHS Foundation Trust
 location: Dorchester, DT1 2FD
 source: NHS Jobs
 job_id: nhs-5664520
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trust Administrator
-company: Aspire Jobs Limited - Agency - Permanent
-location: Beaminster
-source: JobG8
-job_id: jobg8-107765584
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

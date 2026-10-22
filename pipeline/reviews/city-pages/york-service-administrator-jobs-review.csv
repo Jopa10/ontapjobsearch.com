@@ -2,6 +2,7 @@ decision,job_id,title,company,location,source,automatic_decision,effective_decis
 include,jobg8-23643_225718615,Administrator,Search Consultancy Ltd - Agency - Contract,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,jobg8-23643_225652103,Assistant Buyer/Purchasing Assistant,PPM Recruitment - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,teaching-vacancies-assistant-exams-officer-cover-administrator,Assistant Exams Officer & Cover Administrator,Woldgate School and Sixth Form College,York,Teaching Vacancies,include,include,Approved York catchment.,york,york-service-administrator-jobs
+include,jobg8-23643_225747065,Assistant Project Administrator (Construction),Ernest Gordon Recruitment Limited - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,jobg8-2111325,Financial Services Administrator,Capital Outsourcing Group Ltd - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,jobg8-23643_225713571,HR Administrator,Sewell Wallis Ltd - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,jobg8-2076479,Legal Administrator,Venn Group - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
@@ -43,7 +44,6 @@ exclude,jobg8-23643_225706656,Commercial Property Paralegal,Search Consultancy L
 exclude,jobg8-2045708,Content Creator,Greenfield I T Recruitment - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
 exclude,jobg8-2077875,Conveyancing Assistant/Paralegal,SJC Partners - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
 exclude,jobg8-2057600,Credit Control,Hays Specialist Recruitment Limited - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
-exclude,jobg8-108187895,Customer Service Advisor,Yorkshire Building Society (YBS) - Agency - Permanent,Ripon,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,context:yorkshire,york-service-administrator-jobs
 exclude,jobg8-2063467,Legal Assistant,IMPRESSION RECRUITMENT LIMITED - Agency - Permanent,Northallerton,JobG8,exclude,exclude,Separate employment market.,northallerton,york-service-administrator-jobs
 exclude,jobg8-23643_225738181,Legal Assistant - Residential Conveyancing,Edwards & Pearce - Agency - Permanent,Selby,JobG8,exclude,exclude,Separate employment market.,selby,york-service-administrator-jobs
 exclude,jobg8-2075662,Litigation Legal Assistant,Clear Legal & Financial Recruitment - Agency - Permanent,Northallerton,JobG8,exclude,exclude,Separate employment market.,northallerton,york-service-administrator-jobs
@@ -52,6 +52,7 @@ exclude,jobg8-23643_225658052,Marketing Partnership Executive,Matchtech - Agency
 exclude,jobg8-23643_225700091,Paralegal,Unity Resourcing Ltd - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
 exclude,jobg8-2065406,Paralegal - Family,Edwards & Pearce - Doncaster - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
 exclude,jobg8-23643_225536401,Payroll/Finance Administrator,Ventrolla - Agency - Permanent,Harrogate,JobG8,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs
+exclude,jobg8-23643_225746940,Project Administrator,Innovex - Agency - Permanent,Selby,JobG8,exclude,exclude,Separate employment market.,selby,york-service-administrator-jobs
 exclude,jobg8-23643_225698949,Purchase Ledger Assistant,Travail Employment Group - Agency - Temporary,Harrogate,JobG8,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs
 exclude,jobg8-2055397,Remote Conveyancing Paralegal,LEGAL TALENT PARTNERS LIMITED - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
 exclude,jobg8-23643_225733131,Residential Property Legal Assistant,Clear Legal & Financial Recruitment - Agency - Permanent,Selby,JobG8,exclude,exclude,Separate employment market.,selby,york-service-administrator-jobs
@@ -59,6 +60,5 @@ exclude,jobg8-23643_225675199,Sales Ledger Administrator,Technical Prospects Ltd
 exclude,teaching-vacancies-school-administrator-saltergate-junior-school-harrogate-north-yorkshire,School Administrator,Saltergate Junior School,Harrogate,Teaching Vacancies,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs
 exclude,teaching-vacancies-send-administrator-george-pindar-school-scarborough,SEND Administrator,George Pindar School,Scarborough,Teaching Vacancies,exclude,exclude,Separate employment market.,scarborough,york-service-administrator-jobs
 exclude,teaching-vacancies-senior-administrator-a7025ffa-8f1a-4ca4-8107-74ae6341f075,Senior Administrator,Braeburn Primary and Nursery Academy,Scarborough,Teaching Vacancies,exclude,exclude,Separate employment market.,scarborough,york-service-administrator-jobs
-exclude,jobg8-23643_225641309,Service Coordinator (UPS),Dale Power Solutions - Agency - Permanent,Scarborough,JobG8,exclude,exclude,Separate employment market.,scarborough,york-service-administrator-jobs
 exclude,jobg8-2057285,Social Media Executive,Greenfield I T Recruitment - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
 exclude,jobg8-23643_225691482,Technical & Quality Support Administrator,Unity Resourcing Ltd - Agency - Permanent,Harrogate,JobG8,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs

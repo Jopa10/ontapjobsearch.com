@@ -4,7 +4,7 @@
 - Live route: `/gloucester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 51
+- automatic include: 6
+- automatic review: 50
 - automatic exclude: 0
-- effective include: 7
-- effective review: 51
+- effective include: 6
+- effective review: 50
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (6)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Morgan McKinley - Agency - Permanent
 location: Gloucester
 source: JobG8
 job_id: jobg8-2067302
-reason: Exact approved Gloucester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: People Services Coordinator
-company: SAFRAN UK - Agency - Permanent
-location: Gloucester
-source: JobG8
-job_id: jobg8-23643_225669327
 reason: Exact approved Gloucester workplace.
 ---
 
@@ -108,7 +96,7 @@ job_id: jobg8-23643_225690247
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (51)
+## REVIEW (50)
 
 ---
 action: 
@@ -354,11 +342,11 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Engineering Talent Acquisition Specialist
-company: SAFRAN UK - Agency - Permanent
-location: Gloucestershire
+title: Data Protection Co-Ordinator
+company: Marley Risk Consultants Limited - Agency - Permanent
+location: Cheltenham
 source: JobG8
-job_id: jobg8-23643_225731049
+job_id: jobg8-2165041
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -366,11 +354,11 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Factory Administrator
-company: Travail Employment Group - Agency - Temporary
+title: Engineering Talent Acquisition Specialist
+company: SAFRAN UK - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-23643_225636518
+job_id: jobg8-23643_225731049
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 
@@ -563,18 +551,6 @@ company: Workforce Staffing Ltd - Agency - Temporary
 location: Cheltenham
 source: JobG8
 job_id: jobg8-23643_225727854
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Administrator
-company: First Base - Agency - Permanent
-location: Stonehouse
-source: JobG8
-job_id: jobg8-23643_225634420
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

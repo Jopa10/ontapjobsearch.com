@@ -16,25 +16,13 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 20
-- automatic review: 41
+- automatic review: 36
 - automatic exclude: 0
 - effective include: 20
-- effective review: 41
+- effective review: 36
 - effective exclude: 0
 
 ## INCLUDE (20)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Admin Assistant
-company: Switch - Agency - Permanent
-location: Exeter
-source: JobG8
-job_id: jobg8-107719278
-reason: Exact approved Exeter workplace.
----
 
 ---
 action: 
@@ -117,6 +105,18 @@ company: Adecco - Agency - Temporary
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225702212
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Interim Accounts Assistant
+company: Hays Senior Finance - Agency - Temporary
+location: Exeter
+source: JobG8
+job_id: jobg8-23643_225747771
 reason: Exact approved Exeter workplace.
 ---
 
@@ -264,7 +264,7 @@ job_id: jobg8-23643_225699564
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (41)
+## REVIEW (36)
 
 ---
 action: 
@@ -354,18 +354,6 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Administrator (Devon Research School and SWIFT Teacher Training)
-company: Education South West
-location: Kingsbridge
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-devon-research-school-and-swift-teacher-training
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Administrator - Part time
 company: Hays Business Support - Agency - Contract
 location: Devon
@@ -438,35 +426,11 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Business Support Administrator
-company: Devon Partnership NHS Trust
-location: Totnes, TQ9 5JA
-source: NHS Jobs
-job_id: nhs-5660761
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Call Centre Advisor
 company: DK Recruitment - Agency - Permanent
 location: Plymouth
 source: JobG8
 job_id: jobg8-23643_225730951
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Call Handler/ Administrator for Animal Charity- 3 weeks
-company: Hays Business Support - Agency - Temporary
-location: Sidmouth
-source: JobG8
-job_id: jobg8-23643_225738863
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -582,18 +546,6 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: General Support Administrator
-company: City College Plymouth
-location: Plymouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-general-support-administrator
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: HR Administrator
 company: 4Recruitment Services - Agency - Contract
 location: Devon
@@ -635,18 +587,6 @@ company: Acorn by Synergie - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225678024
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: People Administrator
-company: Dartmoor Multi Academy Trust
-location: Okehampton
-source: Teaching Vacancies
-job_id: teaching-vacancies-people-administrator-dartmoor-multi-academy-trust-okehampton-not-recorded
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

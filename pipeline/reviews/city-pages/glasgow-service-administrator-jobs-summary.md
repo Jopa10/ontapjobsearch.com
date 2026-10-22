@@ -220,23 +220,11 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Facilities Coordinator
-company: Search Consultancy Ltd - Agency - Permanent
+title: Document Controller
+company: Contract Scotland - Agency - Permanent
 location: Glasgow
 source: JobG8
-job_id: jobg8-23643_225640886
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Facilities Coordinator
-company: Total Facilities Recruitment Limited - Agency - Temporary
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225636334
+job_id: jobg8-23643_225749422
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -249,6 +237,18 @@ company: Search Consultancy Ltd - Agency - Contract
 location: Glasgow
 source: JobG8
 job_id: jobg8-23643_225708526
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Lettings Administrator
+company: Reed - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-2149866
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -273,18 +273,6 @@ company: Search Consultancy Ltd - Agency - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-23643_225677174
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Marketing Administrator - Immediate Start
-company: Search Consultancy Ltd - Agency - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225641179
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -405,6 +393,18 @@ company: Search Consultancy Ltd - Agency - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-23643_225744835
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Social Media & Office Support Apprentice
+company: QA - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-2165508
 reason: Approved conservative Glasgow launch catchment.
 ---
 

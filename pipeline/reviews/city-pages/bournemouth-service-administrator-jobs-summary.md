@@ -4,7 +4,7 @@
 - Live route: `/bournemouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 41
+- automatic include: 10
+- automatic review: 39
 - automatic exclude: 0
-- effective include: 8
-- effective review: 41
+- effective include: 10
+- effective review: 39
 - effective exclude: 0
 
-## INCLUDE (8)
+## INCLUDE (10)
 
 ---
 action: 
@@ -64,11 +64,35 @@ reason: Exact approved Bournemouth workplace.
 action: 
 decision: include
 automatic_decision: include
+title: CUSTOMER SERVICE ADVISOR
+company: Talent Sure Recruitment Limited - Agency - Permanent
+location: Bournemouth
+source: JobG8
+job_id: jobg8-23643_225699611
+reason: Exact approved Bournemouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Customer Service Advisor
 company: The Work Shop Resourcing Ltd - Agency - Temporary
 location: Bournemouth
 source: JobG8
 job_id: jobg8-23643_225729918
+reason: Exact approved Bournemouth workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: JUNIOR FINANCE ADMINISTRATOR
+company: Talent Sure Recruitment Limited - Agency - Contract
+location: Bournemouth
+source: JobG8
+job_id: jobg8-23643_225682219
 reason: Exact approved Bournemouth workplace.
 ---
 
@@ -120,7 +144,7 @@ job_id: nhs-5675567
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (41)
+## REVIEW (39)
 
 ---
 action: 
@@ -306,7 +330,19 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Coordinator
+title: CUSTOMER SERVICE ADVISOR
+company: Talent Sure Recruitment Limited - Agency - Permanent
+location: Christchurch
+source: JobG8
+job_id: jobg8-23643_225643416
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
 company: Transmission Developments Co (GB) Ltd - Agency - Permanent
 location: Dorset
 source: JobG8
@@ -335,18 +371,6 @@ company: Dorset HealthCare University NHS Foundation Trust
 location: Poole, BH17 0RB
 source: NHS Jobs
 job_id: nhs-5661555
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Assistant
-company: Reed - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-2013522
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -431,18 +455,6 @@ company: Holt Engineering - Agency - Permanent
 location: Wimborne
 source: JobG8
 job_id: jobg8-23643_225684990
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part-Time Project Administrator/Document Controller
-company: 1st Step - Agency - Contract
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225722380
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -599,18 +611,6 @@ company: Dorset HealthCare University NHS Foundation Trust
 location: Dorchester, DT1 2FD
 source: NHS Jobs
 job_id: nhs-5664520
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Trust Administrator
-company: Aspire Jobs Limited - Agency - Permanent
-location: Beaminster
-source: JobG8
-job_id: jobg8-107765584
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

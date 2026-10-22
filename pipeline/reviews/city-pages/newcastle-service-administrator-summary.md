@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 26
+- Effective included jobs: 24
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 26
-- automatic review: 64
+- automatic include: 24
+- automatic review: 61
 - automatic exclude: 37
-- effective include: 26
-- effective review: 64
+- effective include: 24
+- effective review: 61
 - effective exclude: 37
 
-## INCLUDE (26)
+## INCLUDE (24)
 
 ---
 action: 
@@ -136,18 +136,6 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administrator- Student Reception
-company: St Mary's Catholic School
-location: Newcastle-upon-Tyne
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-student-reception
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Bookkeeper / Office Administrator
 company: Pin Point Healthcare - Agency - Permanent
 location: Newcastle Upon Tyne
@@ -196,18 +184,6 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Agent
-company: Nigel Wright Recruitment - Agency - Permanent
-location: Newcastle Upon Tyne
-source: JobG8
-job_id: jobg8-23643_225375230
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Customer Service Assistant
 company: Forrest Recruitment - Agency - Permanent
 location: Newcastle
@@ -244,11 +220,11 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Medical Receptionist
-company: Holmside Medical Group
-location: Newcastle upon Tyne, NE4 8QB, Newcastle Upon Tyne, NE5 1LJ
-source: NHS Jobs
-job_id: nhs-5660811
+title: Home Service Coordinator
+company: Aspire Housing Limited - Agency - Permanent
+location: Newcastle
+source: JobG8
+job_id: jobg8-23643_225745655
 reason: Approved Newcastle catchment.
 ---
 
@@ -256,11 +232,11 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Part Time Accounts Assistant
-company: Nigel Wright Group - Agency - Permanent
-location: Gateshead
-source: JobG8
-job_id: jobg8-2074752
+title: Medical Receptionist
+company: Holmside Medical Group
+location: Newcastle upon Tyne, NE4 8QB, Newcastle Upon Tyne, NE5 1LJ
+source: NHS Jobs
+job_id: nhs-5660811
 reason: Approved Newcastle catchment.
 ---
 
@@ -336,7 +312,7 @@ job_id: jobg8-23643_225677749
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (64)
+## REVIEW (61)
 
 ---
 action: 
@@ -379,18 +355,6 @@ action:
 decision: review
 automatic_decision: review
 title: Accounts Assistant
-company: Nigel Wright Group - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-2074204
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
 company: Reed - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
@@ -408,18 +372,6 @@ location: Cramlington
 source: JobG8
 job_id: jobg8-23643_225677784
 reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Westray Recruitment Consultants Ltd - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225741708
-reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -714,18 +666,6 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Inbound Call Handlers
-company: MTrec Recruitment - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-2104364
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Interim Marketing Manager
 company: Jackson Hogg - Agency - Permanent
 location: Yorkshire
@@ -918,6 +858,18 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Project Coordinator
+company: Westray Recruitment Consultants Ltd - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225749842
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Purchase Ledger
 company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Yorkshire
@@ -1067,18 +1019,6 @@ company: Office Angels - Agency - Temporary
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225679553
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary Administrator - Gosforth - Immediate Start
-company: Office Angels - Agency - Temporary
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225636850
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1352,11 +1292,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Marketing Manager
-company: Reed - Agency - Permanent
+title: Internal Sales Coordinator
+company: Westray Recruitment Consultants Ltd - Agency - Permanent
 location: County Durham
 source: JobG8
-job_id: jobg8-2053979
+job_id: jobg8-23643_225746091
 reason: Separate employment market.
 ---
 
@@ -1364,12 +1304,12 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Medical Receptionist
-company: Hartlepool & Stockton Health [H&SH]
-location: HARTLEPOOL, TS25 1QU
-source: NHS Jobs
-job_id: nhs-5639684
-reason: Outside Newcastle catchment.
+title: Marketing Manager
+company: Reed - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-2053979
+reason: Separate employment market.
 ---
 
 ---

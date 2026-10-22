@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 7
+- automatic review: 9
 - automatic exclude: 0
 - effective include: 0
-- effective review: 7
+- effective review: 9
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (7)
+## REVIEW (9)
 
 ---
 action: 
@@ -90,6 +90,18 @@ reason: No exact Newtownabbey workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
+title: Contracts Administrator
+company: Rise Technical Recruitment - Agency - Permanent
+location: Antrim
+source: JobG8
+job_id: jobg8-23643_225750735
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance Assistant
 company: Hays Accounts and Finance - Agency - Permanent
 location: Belfast
@@ -107,6 +119,18 @@ company: Hays Accounts and Finance - Agency - Permanent
 location: Belfast
 source: JobG8
 job_id: jobg8-23643_225679035
+reason: No exact Newtownabbey workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Ledger Assistant
+company: Woodside Logistics Group - Agency - Permanent
+location: County Antrim
+source: JobG8
+job_id: jobg8-108207818
 reason: No exact Newtownabbey workplace matched; local geographic review is required.
 ---
 

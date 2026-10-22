@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 16
-- automatic review: 59
+- automatic review: 60
 - automatic exclude: 0
 - effective include: 16
-- effective review: 59
+- effective review: 60
 - effective exclude: 0
 
 ## INCLUDE (16)
@@ -216,7 +216,7 @@ job_id: jobg8-23643_225641855
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (59)
+## REVIEW (60)
 
 ---
 action: 
@@ -342,11 +342,11 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Creative Digital Marketing Assistant
-company: Starting Off Ltd - Agency - Permanent
+title: Conveyancing Legal Assistant
+company: Reed - Agency - Permanent
 location: Northamptonshire
 source: JobG8
-job_id: jobg8-23643_225639023
+job_id: jobg8-2164054
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -558,6 +558,18 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Jaguar Land Rover Service Front of House
+company: Sytner Group - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-2161562
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Junior Business Development Executive
 company: Commercial Recruitment - Agency - Permanent
 location: Corby
@@ -574,7 +586,7 @@ title: Local Marketing Manager
 company: Howdens Joinery - Company - Permanent
 location: Northamptonshire
 source: JobG8
-job_id: jobg8-23643_225700966
+job_id: jobg8-2164807
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -599,18 +611,6 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-2052292
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Executive
-company: Plus One Recruitment - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-23643_225716302
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -714,6 +714,18 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Parts Administrator
+company: Blusource Professional Services Ltd - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225749319
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Assistant
 company: Impact Recruitment Services - Agency - Permanent
 location: Northamptonshire
@@ -763,7 +775,7 @@ action:
 decision: review
 automatic_decision: review
 title: Recruitment Operations Coordinator
-company: R&V Group Ltd - Agency - Permanent
+company: R&V Group Ltd - Agency - Contract
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-108069317

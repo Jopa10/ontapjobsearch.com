@@ -4,7 +4,7 @@
 - Live route: `/doncaster/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 20
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 20
+- automatic include: 18
 - automatic review: 8
-- automatic exclude: 41
-- effective include: 20
+- automatic exclude: 40
+- effective include: 18
 - effective review: 8
-- effective exclude: 41
+- effective exclude: 40
 
-## INCLUDE (20)
+## INCLUDE (18)
 
 ---
 action: 
@@ -240,30 +240,6 @@ job_id: jobg8-23643_225706715
 reason: Approved Doncaster catchment.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Recruitment Account Coordinator
-company: Nexus People - Agency - Temporary
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225639569
-reason: Approved Doncaster catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Secretary / Assistant EA
-company: Edwards & Pearce - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225636340
-reason: Approved Doncaster catchment.
----
-
 ## REVIEW (8)
 
 ---
@@ -362,19 +338,7 @@ job_id: jobg8-23643_225681456
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (41)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Payable Interim
-company: Michael Page - Agency - Temporary
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225635569
-reason: Separate employment market.
----
+## EXCLUDE (40)
 
 ---
 action: 
@@ -445,18 +409,6 @@ company: TSR Recruitment Limited - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225685872
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Area Planner
-company: The Guinness Partnership - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225723039
 reason: Separate employment market.
 ---
 
@@ -572,6 +524,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Commercial Administration Assistant
+company: Ford & Stanley Talentwise - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225748912
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Counter - Customer Service Assistant
 company: Lynx Employment Services Ltd - Agency - Permanent
 location: Sheffield
@@ -637,18 +601,6 @@ company: Elm Lane & Chapeltown Surgery
 location: Sheffield, S5 7TW, SHEFFIELD, S35 1TD
 source: NHS Jobs
 job_id: nhs-5627333
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Insolvency Case Administrator
-company: GGT Insolvency Recruitment - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2014257
 reason: Separate employment market.
 ---
 
@@ -841,6 +793,18 @@ company: Unicorn Resourcing - Agency - Permanent
 location: Rotherham
 source: JobG8
 job_id: jobg8-23643_225739769
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Training Coordinator
+company: Charto Recruitment Ltd - Agency - Permanent
+location: Barnsley
+source: JobG8
+job_id: jobg8-23643_225749128
 reason: Separate employment market.
 ---
 

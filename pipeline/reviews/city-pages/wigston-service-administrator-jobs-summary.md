@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 74
+- automatic review: 79
 - automatic exclude: 0
 - effective include: 0
-- effective review: 74
+- effective review: 79
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (74)
+## REVIEW (79)
 
 ---
 action: 
@@ -90,6 +90,18 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Accounts Payable Assistant - Part time
+company: Macildowie Recruitment and Retention - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-2159804
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Accounts Payable Clerk
 company: Macildowie Recruitment and Retention - Agency - Permanent
 location: Leicestershire
@@ -107,6 +119,18 @@ company: SF Partners - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225676664
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable Coordinator
+company: SolviT Recruitment Ltd - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-108147212
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -187,6 +211,18 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
+company: One Way Resourcing - Agency - Contract
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225749749
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
 company: Regional Recruitment - Agency - Permanent
 location: Leicestershire
 source: JobG8
@@ -222,11 +258,23 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Assistant Accountant
-company: Macildowie Recruitment and Retention - Agency - Permanent
+title: Administrator
+company: SolviT Recruitment Ltd - Agency - Temporary
 location: Leicester
 source: JobG8
-job_id: jobg8-2012728
+job_id: jobg8-23643_225752253
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator - Hire Dept
+company: Alma Personnel - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225582089
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -743,6 +791,18 @@ company: Office Angels - Agency - Permanent
 location: Leicester
 source: JobG8
 job_id: jobg8-23643_225663833
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchasing Assistant - early Friday finish
+company: Office Angels - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225746931
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

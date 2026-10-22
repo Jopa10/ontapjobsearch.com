@@ -4,7 +4,7 @@
 - Live route: `/barnsley/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 6
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
+- automatic include: 7
 - automatic review: 8
-- automatic exclude: 55
-- effective include: 6
+- automatic exclude: 51
+- effective include: 7
 - effective review: 8
-- effective exclude: 55
+- effective exclude: 51
 
-## INCLUDE (6)
+## INCLUDE (7)
 
 ---
 action: 
@@ -93,6 +93,18 @@ company: TRC Yorkshire - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225639980
+reason: Approved Barnsley catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Training Coordinator
+company: Charto Recruitment Ltd - Agency - Permanent
+location: Barnsley
+source: JobG8
+job_id: jobg8-23643_225749128
 reason: Approved Barnsley catchment.
 ---
 
@@ -194,19 +206,7 @@ job_id: jobg8-23643_225681456
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (55)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Payable Interim
-company: Michael Page - Agency - Temporary
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225635569
-reason: Separate employment market.
----
+## EXCLUDE (51)
 
 ---
 action: 
@@ -253,18 +253,6 @@ company: Reed - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-2024835
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Area Planner
-company: The Guinness Partnership - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225723039
 reason: Separate employment market.
 ---
 
@@ -416,6 +404,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Commercial Administration Assistant
+company: Ford & Stanley Talentwise - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225748912
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Contact Centre Agent
 company: EE - Company - Permanent
 location: Doncaster
@@ -553,18 +553,6 @@ company: Talent-UK Ltd - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225673478
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Insolvency Case Administrator
-company: GGT Insolvency Recruitment - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2014257
 reason: Separate employment market.
 ---
 
@@ -781,30 +769,6 @@ company: Willow Tree Academy
 location: Rotherham
 source: Teaching Vacancies
 job_id: teaching-vacancies-receptionist-admin-assistant-willow-tree-academy
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Recruitment Account Coordinator
-company: Nexus People - Agency - Temporary
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225639569
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Secretary / Assistant EA
-company: Edwards & Pearce - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225636340
 reason: Separate employment market.
 ---
 

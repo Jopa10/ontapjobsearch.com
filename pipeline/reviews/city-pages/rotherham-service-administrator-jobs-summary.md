@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 65
+- automatic review: 62
 - automatic exclude: 0
 - effective include: 4
-- effective review: 65
+- effective review: 62
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,19 +72,7 @@ job_id: jobg8-23643_225739769
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (65)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Payable Interim
-company: Michael Page - Agency - Temporary
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225635569
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
+## REVIEW (62)
 
 ---
 action: 
@@ -191,18 +179,6 @@ company: TSR Recruitment Limited - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225685872
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Area Planner
-company: The Guinness Partnership - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225723039
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -359,6 +335,18 @@ company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S10 2JF
 source: NHS Jobs
 job_id: nhs-5662272
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Commercial Administration Assistant
+company: Ford & Stanley Talentwise - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225748912
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -527,18 +515,6 @@ company: Reed - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2067582
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Insolvency Case Administrator
-company: GGT Insolvency Recruitment - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2014257
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -798,30 +774,6 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Recruitment Account Coordinator
-company: Nexus People - Agency - Temporary
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225639569
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Secretary / Assistant EA
-company: Edwards & Pearce - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225636340
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: SEND Administrator
 company: Aston Academy
 location: Sheffield
@@ -839,6 +791,18 @@ company: Sue Ross Recruitment Ltd - Agency - Contract
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225736471
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Training Coordinator
+company: Charto Recruitment Ltd - Agency - Permanent
+location: Barnsley
+source: JobG8
+job_id: jobg8-23643_225749128
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

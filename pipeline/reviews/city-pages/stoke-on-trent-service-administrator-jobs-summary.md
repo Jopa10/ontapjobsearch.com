@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 52
+- automatic review: 53
 - automatic exclude: 0
 - effective include: 7
-- effective review: 52
+- effective review: 53
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: nhs-5675916
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (52)
+## REVIEW (53)
 
 ---
 action: 
@@ -155,6 +155,18 @@ company: Adecco - Agency - Temporary
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225707300
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Project Coordinator
+company: Berry Recruitment - Agency - Permanent
+location: Staffordshire
+source: JobG8
+job_id: jobg8-23643_225747933
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -378,18 +390,6 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: HR Coordinator (human Resources Coordinator)
-company: The Supply Register - Agency - Permanent
-location: Staffordshire
-source: JobG8
-job_id: jobg8-23643_225640429
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Marketing Manager
 company: Ellodave Creative Agency - Agency - Permanent
 location: Staffordshire
@@ -451,18 +451,6 @@ action:
 decision: review
 automatic_decision: review
 title: Office Administrator
-company: Stoa Recruitment Limited - Agency - Permanent
-location: Staffordshire
-source: JobG8
-job_id: jobg8-23643_225642416
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Office Administrator
 company: Winner Recruitment - Agency - Permanent
 location: Tamworth
 source: JobG8
@@ -479,6 +467,18 @@ company: Pertemps North Midlands - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225661398
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part time Accounts Assistant
+company: Brampton Recruitment Ltd - Agency - Temporary
+location: Staffordshire
+source: JobG8
+job_id: jobg8-23643_225747582
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -635,6 +635,18 @@ company: Avery Healthcare Group Ltd.
 location: Rugeley, WS15 2EJ
 source: NHS Jobs
 job_id: nhs-5666554
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruiter
+company: Adecco - Agency - Contract
+location: Staffordshire
+source: JobG8
+job_id: jobg8-23643_225748542
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

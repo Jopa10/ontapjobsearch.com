@@ -52,11 +52,11 @@ reason: Exact approved Hemel Hempstead workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Office and Accounts Administrator
-company: Perfect Team - Agency - Permanent
+title: Part-time Accounts Receivable Administrator
+company: Think Specialist Recruitment - Agency - Permanent
 location: Hemel Hempstead
 source: JobG8
-job_id: jobg8-23643_225677199
+job_id: jobg8-2051739
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
@@ -64,11 +64,11 @@ reason: Exact approved Hemel Hempstead workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Part-time Accounts Receivable Administrator
-company: Think Specialist Recruitment - Agency - Permanent
+title: Project Administrator
+company: Perfect Team - Agency - Permanent
 location: Hemel Hempstead
 source: JobG8
-job_id: jobg8-2051739
+job_id: jobg8-23643_225677199
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
@@ -175,6 +175,18 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
+company: 2i Recruit Ltd - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-23643_225745505
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
 company: Central London Community Health Trust
 location: Watford, WD25 9XX
 source: NHS Jobs
@@ -203,6 +215,18 @@ company: NHS Professionals - Company - Contract
 location: Stevenage
 source: JobG8
 job_id: jobg8-23643_225697596
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Osborne Appointments - Agency - Temporary
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-23643_225751231
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -355,18 +379,6 @@ action:
 decision: review
 automatic_decision: review
 title: Commercial Administrator
-company: 2i Recruit Ltd - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-23643_225745505
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Commercial Administrator
 company: Howells Recruitment - Agency - Permanent
 location: Hertford
 source: JobG8
@@ -415,6 +427,18 @@ action:
 decision: review
 automatic_decision: review
 title: Commercial Property Legal Secretary
+company: Harwood Recruitment Solutions Limited - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-2166156
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Commercial Property Legal Secretary
 company: Harwood Recruitment Solutions Ltd - Agency - Permanent
 location: Hertfordshire
 source: JobG8
@@ -443,18 +467,6 @@ company: qed legal - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-2049385
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Credit Controller
-company: Michael Page Finance - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-2013461
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -583,6 +595,18 @@ action:
 decision: review
 automatic_decision: review
 title: Document Controller
+company: PSR Solutions - Agency - Contract
+location: Watford
+source: JobG8
+job_id: jobg8-23643_225746866
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Document Controller
 company: Recco - Agency - Permanent
 location: Hertford
 source: JobG8
@@ -611,18 +635,6 @@ company: Altro - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-23643_225714295
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: EMEA Marketing Coordinator
-company: Evolve Selection Ltd - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-2013521
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -671,18 +683,6 @@ company: Reed - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-2051692
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance Admin
-company: Tate - Agency - Temporary
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-23643_225736205
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -798,11 +798,35 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
+title: Inside Sales - Telesales
+company: Transcomm Recruitment - Agency - Permanent
+location: Berkhamsted
+source: JobG8
+job_id: jobg8-108112089
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Investment Administrator
 company: Claims Recruitment Services - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-2058650
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Investment Administrator
+company: Tate - Agency - Permanent
+location: Hertfordshire
+source: JobG8
+job_id: jobg8-23643_225748200
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -1326,18 +1350,6 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Sales Administrator
-company: Crystal Clear Recruitment - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-2074917
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales Administrator - Customer Excellence Associate
 company: Tate - Agency - Permanent
 location: Hertfordshire
@@ -1374,35 +1386,11 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Sales Support
-company: ITSS Recruitment - Agency - Permanent
-location: Ware
-source: JobG8
-job_id: jobg8-23643_225641025
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Senior Brand Manager Mr Kipling
 company: Premier Foods - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-2091464
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Senior Digital Marketing Executive
-company: Hab Law - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-23643_225665975
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -1487,6 +1475,18 @@ company: Red Door Recruitment - Agency - Contract
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-23643_225740539
+reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Trilingual Customer Service Advisor - Italian speaking
+company: French Selection - Agency - Permanent
+location: Watford
+source: JobG8
+job_id: jobg8-23643_225746059
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

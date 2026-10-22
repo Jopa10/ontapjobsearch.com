@@ -4,7 +4,7 @@
 - Live route: `/plymouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 54
+- automatic include: 6
+- automatic review: 50
 - automatic exclude: 0
-- effective include: 7
-- effective review: 54
+- effective include: 6
+- effective review: 50
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (6)
 
 ---
 action: 
@@ -88,18 +88,6 @@ reason: Exact approved Plymouth workplace.
 action: 
 decision: include
 automatic_decision: include
-title: General Support Administrator
-company: City College Plymouth
-location: Plymouth
-source: Teaching Vacancies
-job_id: teaching-vacancies-general-support-administrator
-reason: Exact approved Plymouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Resource Management Planner
 company: Adecco - Agency - Temporary
 location: Plymouth
@@ -108,7 +96,7 @@ job_id: jobg8-23643_225736541
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (54)
+## REVIEW (50)
 
 ---
 action: 
@@ -131,18 +119,6 @@ company: NHS Professionals - Company - Temporary
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225672975
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin Assistant
-company: Switch - Agency - Permanent
-location: Exeter
-source: JobG8
-job_id: jobg8-107719278
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -191,18 +167,6 @@ company: Veolia - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225718193
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator (Devon Research School and SWIFT Teacher Training)
-company: Education South West
-location: Kingsbridge
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-devon-research-school-and-swift-teacher-training
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -287,30 +251,6 @@ company: Devon Partnership NHS Trust
 location: Newton Abbot, TQ12 2PF
 source: NHS Jobs
 job_id: nhs-5656155
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Business Support Administrator
-company: Devon Partnership NHS Trust
-location: Totnes, TQ9 5JA
-source: NHS Jobs
-job_id: nhs-5660761
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Call Handler/ Administrator for Animal Charity- 3 weeks
-company: Hays Business Support - Agency - Temporary
-location: Sidmouth
-source: JobG8
-job_id: jobg8-23643_225738863
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -498,6 +438,18 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: Interim Accounts Assistant
+company: Hays Senior Finance - Agency - Temporary
+location: Exeter
+source: JobG8
+job_id: jobg8-23643_225747771
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Medical Administrator - GP Practice
 company: St Thomas Medical Group
 location: Exeter, EX4 1HJ, EXETER, EX4 2AD, Exeter, EX44QP
@@ -539,18 +491,6 @@ company: Office Angels - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225664276
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: People Administrator
-company: Dartmoor Multi Academy Trust
-location: Okehampton
-source: Teaching Vacancies
-job_id: teaching-vacancies-people-administrator-dartmoor-multi-academy-trust-okehampton-not-recorded
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

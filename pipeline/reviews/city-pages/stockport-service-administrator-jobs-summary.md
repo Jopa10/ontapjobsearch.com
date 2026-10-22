@@ -4,7 +4,7 @@
 - Live route: `/stockport/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 15
+- Effective included jobs: 14
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 15
+- automatic include: 14
 - automatic review: 20
 - automatic exclude: 0
-- effective include: 15
+- effective include: 14
 - effective review: 20
 - effective exclude: 0
 
-## INCLUDE (15)
+## INCLUDE (14)
 
 ---
 action: 
@@ -192,18 +192,6 @@ job_id: jobg8-23643_225671741
 reason: Exact approved Stockport workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Sales Support Executive
-company: VCG Technology Services Limited - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-108042377
-reason: Exact approved Stockport workplace.
----
-
 ## REVIEW (20)
 
 ---
@@ -342,6 +330,18 @@ reason: No approved Stockport employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
+title: Office Administrator
+company: Rogers McHugh Recruitment - Agency - Permanent
+location: Altrincham
+source: JobG8
+job_id: jobg8-23643_225748331
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Practice Receptionist / Administrator - Hattersley Group Practice
 company: Gtd Healthcare
 location: Hyde, SK14 3EH
@@ -407,18 +407,6 @@ company: Bayman Atkinson Smythe - Agency - Permanent
 location: Trafford
 source: JobG8
 job_id: jobg8-23643_225735521
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales and Marketing Coordinator
-company: KD Recruitment - Agency - Permanent
-location: Sale
-source: JobG8
-job_id: jobg8-23643_225640492
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 

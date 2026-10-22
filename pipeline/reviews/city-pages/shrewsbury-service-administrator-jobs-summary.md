@@ -4,7 +4,7 @@
 - Live route: `/shrewsbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 17
+- automatic include: 6
+- automatic review: 21
 - automatic exclude: 0
-- effective include: 4
-- effective review: 17
+- effective include: 6
+- effective review: 21
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (6)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Radbrook Primary School
 location: Shrewsbury
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-radbrook-primary-school
+reason: Exact approved Shrewsbury workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Prince Personnel Limited - Agency - Temporary
+location: Shrewsbury
+source: JobG8
+job_id: jobg8-23643_225717119
 reason: Exact approved Shrewsbury workplace.
 ---
 
@@ -64,6 +76,18 @@ reason: Exact approved Shrewsbury workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Purchase Ledger
+company: Counted Recruitment - Agency - Permanent
+location: Shrewsbury
+source: JobG8
+job_id: jobg8-2164220
+reason: Exact approved Shrewsbury workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Service Advisor
 company: Auto Skills UK - Agency - Permanent
 location: Shrewsbury
@@ -72,7 +96,7 @@ job_id: jobg8-23643_225715945
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (17)
+## REVIEW (21)
 
 ---
 action: 
@@ -83,6 +107,18 @@ company: Cosgrove & Cosgrove Ltd - Agency - Permanent
 location: Telford
 source: JobG8
 job_id: jobg8-2057863
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Payable Clerk
+company: LHH Recruitment Solutions - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-2053739
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -115,10 +151,10 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: MPI Limited - Agency - Contract
-location: Shropshire
+company: Prince Personnel Limited - Agency - Temporary
+location: Telford
 source: JobG8
-job_id: jobg8-23643_225707286
+job_id: jobg8-23643_225710678
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -150,11 +186,35 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Medical Receptionist
-company: EJ Connect - Agency - Temporary
+title: Credit Control
+company: Consula Group LTD - Agency - Permanent
 location: Shropshire
 source: JobG8
-job_id: jobg8-23643_225635286
+job_id: jobg8-2078828
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Housing Repairs Administrator
+company: Thorngate Churcher Trust - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-23643_225698170
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: HR Administrator
+company: Prince Personnel Limited - Agency - Temporary
+location: Shropshire
+source: JobG8
+job_id: jobg8-23643_225736709
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -263,6 +323,18 @@ company: Pertemps Telford - Agency - Temporary
 location: Telford
 source: JobG8
 job_id: jobg8-23643_225735083
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Technical Administrator ( Aviation)
+company: Rise Technical Recruitment - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-23643_225750867
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

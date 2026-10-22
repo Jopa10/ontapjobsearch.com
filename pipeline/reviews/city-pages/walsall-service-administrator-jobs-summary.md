@@ -4,7 +4,7 @@
 - Live route: `/walsall/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 10
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
-- automatic review: 43
+- automatic include: 9
+- automatic review: 45
 - automatic exclude: 0
-- effective include: 10
-- effective review: 43
+- effective include: 9
+- effective review: 45
 - effective exclude: 0
 
-## INCLUDE (10)
+## INCLUDE (9)
 
 ---
 action: 
@@ -88,18 +88,6 @@ reason: Exact approved Walsall workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Reception Secretary
-company: Queen Mary's Grammar School
-location: Walsall
-source: Teaching Vacancies
-job_id: teaching-vacancies-reception-secretary-ec1c05c3-72a7-428c-9317-7e034cf6f8cf
-reason: Exact approved Walsall workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist
 company: PSR Solutions - Agency - Temporary
 location: Walsall
@@ -144,7 +132,7 @@ job_id: nhs-5664251
 reason: Exact approved Walsall workplace.
 ---
 
-## REVIEW (43)
+## REVIEW (45)
 
 ---
 action: 
@@ -191,18 +179,6 @@ company: SF Partners - Agency - Temporary
 location: Cradley Heath
 source: JobG8
 job_id: jobg8-23643_225709493
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Receivable Administrator
-company: MET Recruitment UK LTD - Agency - Permanent
-location: Dudley
-source: JobG8
-job_id: jobg8-23643_225660983
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -282,6 +258,18 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
+title: Asbestos Removals Administrator / Coordinator
+company: Future Select Recruitment - Agency - Permanent
+location: Wolverhampton
+source: JobG8
+job_id: jobg8-23643_225751147
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Business Support Assistant
 company: Howard James Recruitment Consultancy Ltd - Agency - Permanent
 location: Wolverhampton
@@ -347,6 +335,18 @@ company: Everywhen, part of the Ardonagh Group - Agency - Permanent
 location: Brierley Hill
 source: JobG8
 job_id: jobg8-2116423
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: FT Recruitment - Agency - Permanent
+location: Smethwick
+source: JobG8
+job_id: jobg8-23643_225635002
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -600,6 +600,18 @@ location: Halesowen
 source: JobG8
 job_id: jobg8-23643_225741797
 reason: The stated location is broader or less specific than the approved Walsall employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
+company: Doocey Group - Agency - Permanent
+location: Tipton
+source: JobG8
+job_id: jobg8-23643_225621483
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---

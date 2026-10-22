@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 23
-- automatic review: 7
+- automatic review: 8
 - automatic exclude: 6
 - effective include: 23
-- effective review: 7
+- effective review: 8
 - effective exclude: 6
 
 ## INCLUDE (23)
@@ -64,47 +64,11 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Activities Coordinator
-company: Exemplar Health Care - Company - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-108149320
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Assistant Accountant
 company: Reed - Agency - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-2042291
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: B2B & International Marketing Manager
-company: Axon Moore Group Ltd - Agency - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-1996341
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: B2C & Retail Marketing Manager
-company: Axon Moore Group Ltd - Agency - Permanent
-location: Warrington
-source: JobG8
-job_id: jobg8-1996453
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -160,6 +124,18 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Customer Service Advisor
+company: Michael Page - Agency - Contract
+location: Warrington
+source: JobG8
+job_id: jobg8-23643_225745949
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Customer Service Coordinator
 company: Source 4 - Agency - Temporary
 location: Warrington
@@ -201,6 +177,18 @@ company: Jobwise Ltd - Agency - Temporary
 location: Warrington
 source: JobG8
 job_id: jobg8-23643_225732768
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Front of House Administrator
+company: Fawkes & Reece London - Agency - Temporary
+location: Warrington
+source: JobG8
+job_id: jobg8-23643_225750560
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -280,6 +268,18 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist
+company: Velocity Recruitment - Agency - Contract
+location: Warrington
+source: JobG8
+job_id: jobg8-23643_225746391
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Records Administrator
 company: Meridian Business Support - Agency - Temporary
 location: Warrington
@@ -300,7 +300,7 @@ job_id: jobg8-23643_225736171
 reason: Approved conservative Warrington launch catchment.
 ---
 
-## REVIEW (7)
+## REVIEW (8)
 
 ---
 action: 
@@ -347,6 +347,18 @@ company: Reed - Agency - Permanent
 location: Cheshire
 source: JobG8
 job_id: jobg8-2149374
+reason: No approved Warrington catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Courier Planner
+company: Freight Personnel - Agency - Permanent
+location: Widnes
+source: JobG8
+job_id: jobg8-23643_225747359
 reason: No approved Warrington catchment rule matched; local review required.
 ---
 

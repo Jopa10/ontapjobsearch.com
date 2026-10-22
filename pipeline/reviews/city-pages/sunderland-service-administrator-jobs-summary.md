@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 117
+- automatic review: 112
 - automatic exclude: 0
 - effective include: 10
-- effective review: 117
+- effective review: 112
 - effective exclude: 0
 
 ## INCLUDE (10)
@@ -144,7 +144,7 @@ job_id: jobg8-23643_225729432
 reason: Exact approved Sunderland workplace.
 ---
 
-## REVIEW (117)
+## REVIEW (112)
 
 ---
 action: 
@@ -211,18 +211,6 @@ action:
 decision: review
 automatic_decision: review
 title: Accounts Assistant
-company: Nigel Wright Group - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-2074204
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
 company: Reed - Agency - Permanent
 location: Durham
 source: JobG8
@@ -251,18 +239,6 @@ company: SG Personnel Ltd - Agency - Permanent
 location: Cramlington
 source: JobG8
 job_id: jobg8-23643_225677784
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Westray Recruitment Consultants Ltd - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225741708
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -498,18 +474,6 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Administrator- Student Reception
-company: St Mary's Catholic School
-location: Newcastle-upon-Tyne
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrator-student-reception
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Assistant Document Controller
 company: Arup - Agency - Contract
 location: Tyne And Wear
@@ -738,18 +702,6 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Agent
-company: Nigel Wright Recruitment - Agency - Permanent
-location: Newcastle Upon Tyne
-source: JobG8
-job_id: jobg8-23643_225375230
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Service Assistant
 company: Forrest Recruitment - Agency - Permanent
 location: Newcastle
@@ -906,11 +858,11 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Inbound Call Handlers
-company: MTrec Recruitment - Agency - Permanent
-location: Tyne And Wear
+title: Home Service Coordinator
+company: Aspire Housing Limited - Agency - Permanent
+location: Newcastle
 source: JobG8
-job_id: jobg8-2104364
+job_id: jobg8-23643_225745655
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -923,6 +875,18 @@ company: Jackson Hogg - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2063469
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Internal Sales Coordinator
+company: Westray Recruitment Consultants Ltd - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-23643_225746091
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -991,18 +955,6 @@ action:
 decision: review
 automatic_decision: review
 title: Medical Receptionist
-company: Hartlepool & Stockton Health [H&SH]
-location: HARTLEPOOL, TS25 1QU
-source: NHS Jobs
-job_id: nhs-5639684
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
 company: Holmside Medical Group
 location: Newcastle upon Tyne, NE4 8QB, Newcastle Upon Tyne, NE5 1LJ
 source: NHS Jobs
@@ -1055,18 +1007,6 @@ company: Office Angels - Agency - Temporary
 location: Houghton Le Spring
 source: JobG8
 job_id: jobg8-23643_225718647
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part Time Accounts Assistant
-company: Nigel Wright Group - Agency - Permanent
-location: Gateshead
-source: JobG8
-job_id: jobg8-2074752
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -1187,6 +1127,18 @@ company: Reed Specialist Recruitment - Agency - Permanent
 location: Seaham
 source: JobG8
 job_id: jobg8-23643_225656711
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Project Coordinator
+company: Westray Recruitment Consultants Ltd - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225749842
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -1463,18 +1415,6 @@ company: Office Angels - Agency - Temporary
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225679553
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary Administrator - Gosforth - Immediate Start
-company: Office Angels - Agency - Temporary
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225636850
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 

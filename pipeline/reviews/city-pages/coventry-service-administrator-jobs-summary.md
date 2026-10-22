@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 18
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
+- automatic include: 17
 - automatic review: 4
-- automatic exclude: 75
-- effective include: 18
+- automatic exclude: 74
+- effective include: 17
 - effective review: 4
-- effective exclude: 75
+- effective exclude: 74
 
-## INCLUDE (18)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Account Coordinator
-company: Gi Group - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-23643_225692101
-reason: Approved Coventry catchment.
----
+## INCLUDE (17)
 
 ---
 action: 
@@ -81,18 +69,6 @@ company: Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent
 location: Coventry
 source: JobG8
 job_id: jobg8-2155838
-reason: Approved Coventry catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service & Sales Coordinator
-company: Adecco - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-23643_225633973
 reason: Approved Coventry catchment.
 ---
 
@@ -177,6 +153,18 @@ company: SF Partners - Agency - Temporary
 location: Coventry
 source: JobG8
 job_id: jobg8-23643_225715976
+reason: Approved Coventry catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Purchase Ledger Clerk
+company: SF Partners - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-23643_225751750
 reason: Approved Coventry catchment.
 ---
 
@@ -290,7 +278,7 @@ job_id: jobg8-23643_225656636
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (75)
+## EXCLUDE (74)
 
 ---
 action: 
@@ -445,18 +433,6 @@ company: Genesis Employment Services Ltd - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_223927243
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Office Angels - Agency - Temporary
-location: Stratford-Upon-Avon
-source: JobG8
-job_id: jobg8-23643_225636347
 reason: Separate employment market.
 ---
 
@@ -632,47 +608,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Customer Service Coordinator
-company: SolviT Recruitment Ltd - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225642599
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Document Controller
 company: RTL Group Ltd - Agency - Contract
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225709208
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Document Controller
-company: Stepnell Ltd - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225640022
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Document Controller
-company: Think Recruitment - Agency - Permanent
-location: Rugby
-source: JobG8
-job_id: jobg8-23643_225640270
 reason: Separate employment market.
 ---
 
@@ -865,6 +805,18 @@ company: Rother House Medical Centre
 location: Stratford-upon-avon, CV37 6PP
 source: NHS Jobs
 job_id: nhs-5657937
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Office Administrator
+company: Innovo Global Talent - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225740069
 reason: Separate employment market.
 ---
 
@@ -1177,6 +1129,30 @@ company: Reed Specialist Recruitment - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225685303
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Service Advisor
+company: Auto Skills UK - Agency - Permanent
+location: Nuneaton
+source: JobG8
+job_id: jobg8-23643_225751455
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Temporary CRM Assistant
+company: Triumph - Agency - Temporary
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225746288
 reason: Separate employment market.
 ---
 

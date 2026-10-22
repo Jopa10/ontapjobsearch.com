@@ -1,30 +1,5 @@
 [
   {
-    "job_id": "107719278",
-    "title": "Admin Assistant",
-    "company": "Switch - Agency - Permanent",
-    "location": "Exeter",
-    "region": "Devon",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "24866",
-    "salary_max": "24866",
-    "salary_text": "£24866 per year",
-    "posted_date": "2026-08-26",
-    "description": "Job Title: Defleet Advisor (Administrator)\n\nLocation: Exeter-Head Office\n\nHours: Full Time 37.5h week\n\nBenefits:\n- 30 days holiday (including bank holidays)\n- Free onsite parking\n- Free onsite gym\n- Company pension scheme\n- Employee discount scheme\n- Funded Summer and Christmas events\n- Cycle to Work Scheme\n- Discounted car hire rates\n- Friendly and supportive working environment\n\nAre you a detail-oriented, communication click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?bZCSDJyF3N6jnHw%2bMYYElRVK1P%2f34RvNq",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Switch",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": "ontap_first_published"
-  },
-  {
     "job_id": "107919719",
     "title": "Administrator",
     "company": "Switch - Agency - Permanent",
@@ -169,6 +144,31 @@
     "working_arrangement_text": "Hybrid working",
     "working_arrangement_evidence": "Potential for hybrid working arrangements after training completion, providing flexibility to balance work and personal commitments.",
     "advertiser_name": "Adecco",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Hourly",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
+    "job_id": "23643_225747771",
+    "title": "Interim Accounts Assistant",
+    "company": "Hays Senior Finance - Agency - Temporary",
+    "location": "Exeter",
+    "region": "Devon",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Temporary",
+    "salary_min": "15",
+    "salary_max": "16",
+    "salary_text": "£15 - £16 per hour (£ Competitive)",
+    "posted_date": "2026-10-22",
+    "description": "Finance Assistant (Temporary)Location: Exeter area\nRate: Up to 16 per hour\nContract: Temporary, expected to run for up to 6 months\nWorking Pattern: Hybrid working available\nHours: Full-time\n\nAn exciting opportunity has arisen for a Finance Assistant to join a growing organisation on a temporary basis for an initial period of up to six months.This role would suit an experienced Finance Assistant, Accounts Assistant, Purchase Ledger Clerk or Sales Ledger professional who enjoys working in a fast-paced environment and is looking to gain exposure across a broad finance function.Working closely with the wider finance team, you will be responsible for supporting the day-to-day transactional finance activities while helping to ensure financial records remain accurate and up to date.\n\nKey Responsibilities\n- Processing supplier invoices and managing accounts payable activities\n- Raising customer invoices and supporting credit control processes\n- Preparing weekly and monthly payment runs\n- Processing electronic payments and bank transactions\n- Monitoring outstanding debt and chasing overdue payments\n- Assisting with cashflow reporting\n- Performing regular bank reconciliations\n- Maintaining accurate financial records and audit-ready documentation\n- Responding to finance-related queries from internal and external stakeholders\n- Supporting finance projects and process improvement initiatives\n\nAbout You\n- Previous experience within a finance or accounting environment\n- Strong attention to detail and high levels of accuracy\n- Good working knowledge of Microsoft Excel\n- Experience using accounting software such as Sage, Xero or similar systems\n- Excellent organisational and communication skills\n- Able to manage multiple priorities and meet deadlines\n\nWhat's on Offer?\n- Up to 16 per hour\n- Hybrid working arrangement\n- Initial temporary contract expected to last up to 6 months\n- Supportive and collaborative team environment\n- Opportunity to gain valuable experience within a growing business\n- Immediate start available\n\nIf you're an Accounts Assistant or Finance Assistant looking for your next temporary opportunity in the Exeter area, we'd be keen to hear from you.\n\nHays Specialist Recruitment Limited acts as an employment agency for permanent recruitment and employment business for the supply of temporary workers. By applying for this job you accept the T&C's, Privacy Policy and Disclaimers which can be found at (url removed)",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?Dw9iAXzSqBb3JMIXoosAx9GzQvOI22Aik",
+    "source": "JobG8",
+    "working_arrangement": "hybrid",
+    "working_arrangement_text": "Hybrid working",
+    "working_arrangement_evidence": "Interim Accounts Assistant Finance Assistant (Temporary)Location: Exeter area Rate: Up to 16 per hour Contract: Temporary, expected to run for up to 6 months Working Pattern: Hybrid working available Hours: Full-time An exciting opportunity has arisen for a Finance Assistant to join a growing organisation on a temporary basis for an initial period of up to six months.This role would suit an experienced Finance Assistant, Accounts Assistant, Purchase Ledger Clerk or Sales Ledger professional who enjoys working in a fast-paced environment and is looking to gain exposure across a broad finance function.Working closely with the wider finance team, you will be responsible for supporting the day-to-day transactional finance activities while helping to ensure financial records remain accurate and up to date.",
+    "advertiser_name": "Hays Senior Finance",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Hourly",
@@ -394,6 +394,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2325",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -413,6 +416,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0821",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -432,6 +438,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1244",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -451,6 +460,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1269",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -470,6 +482,9 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2331-26-0004",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

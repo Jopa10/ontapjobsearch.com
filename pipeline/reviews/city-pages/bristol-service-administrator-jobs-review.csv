@@ -39,7 +39,6 @@ include,nhs-5643222,Medical Secretary/Administrator,Greenway Community Practice,
 include,jobg8-23643_225717098,Operations Coordinator,MDE Consultants Ltd - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,nhs-5674929,Outpatient Receptionist,Bristol NHS Foundation Trust,"Bristol, BS2 8EG",NHS Jobs,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-23643_225678230,"Patient Co-ordinator, Patchway",Menlo Park - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
-include,jobg8-23643_225636147,People Coordinator,Adecco - Agency - Temporary,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-2155891,Personal Injury Paralegal,Yolk Recruitment Ltd - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,nhs-5635693,Practice Receptionist,West View Surgery,"Bristol, BS31 1BX",NHS Jobs,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-23643_225703813,Project Coordinator,ReQuire Consultancy LTD - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
@@ -64,7 +63,6 @@ review,jobg8-23643_225740068,Interim Accounts Payable Assistant,Hays Accounts an
 review,nhs-5652485,Medical Receptionist / Administrator,St Augustine’s Medical Practice,"Keynsham, BS31 2GN",NHS Jobs,review,review,No approved Bristol catchment rule matched; local review required.,fallback,bristol-service-administrator-jobs
 review,jobg8-2063740,"Patent Paralegal - Bristol (c&;40,000 + benefits Hybrid)",Dawn Ellmore Employment Agency - Agency - Permanent,Somerset,JobG8,review,review,No approved Bristol catchment rule matched; local review required.,fallback,bristol-service-administrator-jobs
 review,jobg8-23643_225702996,Purchase Ledger Clerk (Temporary),Adecco - Agency - Temporary,Gloucestershire,JobG8,review,review,No approved Bristol catchment rule matched; local review required.,fallback,bristol-service-administrator-jobs
-review,jobg8-2158506,Senior Internal Communications Manager,HFT - Agency - Permanent,Somerset,JobG8,review,review,No approved Bristol catchment rule matched; local review required.,fallback,bristol-service-administrator-jobs
 exclude,jobg8-2020842,Accounts Assistant,Reed - Agency - Permanent,Bath,JobG8,exclude,exclude,Separate employment market.,bath,bristol-service-administrator-jobs
 exclude,jobg8-2049154,Audit & Accounts Assistant,Reed - Agency - Permanent,Bath,JobG8,exclude,exclude,Separate employment market.,bath,bristol-service-administrator-jobs
 exclude,jobg8-23643_225671269,Customer Service Administrator,Crest Recruitment - Agency - Contract,Bath,JobG8,exclude,exclude,Separate employment market.,bath,bristol-service-administrator-jobs

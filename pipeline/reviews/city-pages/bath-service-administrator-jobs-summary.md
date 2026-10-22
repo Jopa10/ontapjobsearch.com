@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 66
+- automatic review: 64
 - automatic exclude: 0
 - effective include: 8
-- effective review: 66
+- effective review: 64
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: jobg8-23643_225653411
 reason: Exact approved Bath workplace.
 ---
 
-## REVIEW (66)
+## REVIEW (64)
 
 ---
 action: 
@@ -714,18 +714,6 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
-title: People Coordinator
-company: Adecco - Agency - Temporary
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225636147
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Personal Injury Paralegal
 company: Yolk Recruitment Ltd - Agency - Permanent
 location: Bristol
@@ -827,18 +815,6 @@ company: Harwood Recruitment Solutions Ltd - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225707937
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Senior Internal Communications Manager
-company: HFT - Agency - Permanent
-location: Somerset
-source: JobG8
-job_id: jobg8-2158506
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 

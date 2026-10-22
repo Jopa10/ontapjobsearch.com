@@ -428,6 +428,18 @@ reason: The stated workplace belongs outside the approved Harrogate employment m
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Assistant Project Administrator (Construction)
+company: Ernest Gordon Recruitment Limited - Agency - Permanent
+location: York
+source: JobG8
+job_id: jobg8-23643_225747065
+reason: The stated workplace belongs outside the approved Harrogate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Clinical Team Administrator
 company: Tees Esk and Wear Valleys NHS Foundation Trust
 location: Northallerton, DL6 2FG
@@ -529,18 +541,6 @@ company: Hays Specialist Recruitment Limited - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2057600
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Advisor
-company: Yorkshire Building Society (YBS) - Agency - Permanent
-location: Ripon
-source: JobG8
-job_id: jobg8-108187895
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 
@@ -704,6 +704,18 @@ reason: The stated workplace belongs outside the approved Harrogate employment m
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Project Administrator
+company: Innovex - Agency - Permanent
+location: Selby
+source: JobG8
+job_id: jobg8-23643_225746940
+reason: The stated workplace belongs outside the approved Harrogate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Remote Conveyancing Paralegal
 company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
 location: Yorkshire
@@ -745,18 +757,6 @@ company: Braeburn Primary and Nursery Academy
 location: Scarborough
 source: Teaching Vacancies
 job_id: teaching-vacancies-senior-administrator-a7025ffa-8f1a-4ca4-8107-74ae6341f075
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Service Coordinator (UPS)
-company: Dale Power Solutions - Agency - Permanent
-location: Scarborough
-source: JobG8
-job_id: jobg8-23643_225641309
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 30
+- Effective included jobs: 28
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 30
+- automatic include: 28
 - automatic review: 8
-- automatic exclude: 31
-- effective include: 30
+- automatic exclude: 30
+- effective include: 28
 - effective review: 8
-- effective exclude: 31
+- effective exclude: 30
 
-## INCLUDE (30)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Payable Interim
-company: Michael Page - Agency - Temporary
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225635569
-reason: Approved Sheffield catchment.
----
+## INCLUDE (28)
 
 ---
 action: 
@@ -69,18 +57,6 @@ company: Lynx Employment Services Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225743141
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Area Planner
-company: The Guinness Partnership - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-23643_225723039
 reason: Approved Sheffield catchment.
 ---
 
@@ -184,6 +160,18 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Commercial Administration Assistant
+company: Ford & Stanley Talentwise - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225748912
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Counter - Customer Service Assistant
 company: Lynx Employment Services Ltd - Agency - Permanent
 location: Sheffield
@@ -249,18 +237,6 @@ company: Elm Lane & Chapeltown Surgery
 location: Sheffield, S5 7TW, SHEFFIELD, S35 1TD
 source: NHS Jobs
 job_id: nhs-5627333
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Insolvency Case Administrator
-company: GGT Insolvency Recruitment - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2014257
 reason: Approved Sheffield catchment.
 ---
 
@@ -482,7 +458,7 @@ job_id: jobg8-23643_225681456
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (31)
+## EXCLUDE (30)
 
 ---
 action: 
@@ -812,35 +788,23 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Recruitment Account Coordinator
-company: Nexus People - Agency - Temporary
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225639569
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Secretary / Assistant EA
-company: Edwards & Pearce - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225636340
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Service and Validation Administrator
 company: Unicorn Resourcing - Agency - Permanent
 location: Rotherham
 source: JobG8
 job_id: jobg8-23643_225739769
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Training Coordinator
+company: Charto Recruitment Ltd - Agency - Permanent
+location: Barnsley
+source: JobG8
+job_id: jobg8-23643_225749128
 reason: Separate employment market.
 ---
 

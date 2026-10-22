@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 22
+- Effective included jobs: 21
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 22
+- automatic include: 21
 - automatic review: 11
 - automatic exclude: 0
-- effective include: 22
+- effective include: 21
 - effective review: 11
 - effective exclude: 0
 
-## INCLUDE (22)
+## INCLUDE (21)
 
 ---
 action: 
@@ -165,18 +165,6 @@ company: Vizion Network - Agency - Permanent
 location: Hull
 source: JobG8
 job_id: jobg8-23643_225702790
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Finance Procurement Administrator
-company: GlobalData UK Ltd - Company - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-23643_225639995
 reason: Approved conservative Hull launch catchment.
 ---
 

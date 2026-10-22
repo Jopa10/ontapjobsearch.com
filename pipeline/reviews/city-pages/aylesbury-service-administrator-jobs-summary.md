@@ -4,7 +4,7 @@
 - Live route: `/aylesbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 12
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
-- automatic review: 73
+- automatic include: 11
+- automatic review: 74
 - automatic exclude: 0
-- effective include: 12
-- effective review: 73
+- effective include: 11
+- effective review: 74
 - effective exclude: 0
 
-## INCLUDE (12)
+## INCLUDE (11)
 
 ---
 action: 
@@ -124,18 +124,6 @@ reason: Exact approved Aylesbury workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Repairs Planner
-company: Daniel Owen Ltd - Agency - Permanent
-location: Aylesbury
-source: JobG8
-job_id: jobg8-23643_225639626
-reason: Exact approved Aylesbury workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Team Administrator
 company: Oxford Health NHS Trust
 location: Aylesbury, HP20 1EG
@@ -168,7 +156,7 @@ job_id: nhs-5676129
 reason: Exact approved Aylesbury workplace.
 ---
 
-## REVIEW (73)
+## REVIEW (74)
 
 ---
 action: 
@@ -534,18 +522,6 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Credit Controller
-company: In2 Consult - Agency - Permanent
-location: High Wycombe
-source: JobG8
-job_id: jobg8-2014306
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Credit Controller - Temp 8 - 12 weeks
 company: Quality Personnel - Agency - Temporary
 location: Milton Keynes
@@ -666,6 +642,18 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Import & Export Administrator
+company: Insight Employment Ltd - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-107969156
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Communications Executive
 company: Technical Futures Ltd - Agency - Permanent
 location: Buckinghamshire
@@ -694,7 +682,19 @@ title: Marketing Coordinator
 company: Journey recruitment - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
-job_id: jobg8-2159431
+job_id: jobg8-2161577
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Coordinator
+company: Journey Recruitment Ltd - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225746573
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -779,6 +779,18 @@ company: Adecco - Agency - Temporary
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225715853
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Paralegal - Conveyancing
+company: Cameo Consultancy - Agency - Permanent
+location: Beaconsfield
+source: JobG8
+job_id: jobg8-23643_225746927
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 
@@ -1007,18 +1019,6 @@ company: Adecco - Agency - Permanent
 location: Milton Keynes
 source: JobG8
 job_id: jobg8-23643_225696301
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Training & Administration Coordinator
-company: Working Solutions Recruitment - Agency - Permanent
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-23643_225635978
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

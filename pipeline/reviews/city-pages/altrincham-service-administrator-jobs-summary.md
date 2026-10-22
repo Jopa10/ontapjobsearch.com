@@ -4,7 +4,7 @@
 - Live route: `/altrincham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 28
+- automatic include: 8
+- automatic review: 26
 - automatic exclude: 0
-- effective include: 7
-- effective review: 28
+- effective include: 8
+- effective review: 26
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (8)
 
 ---
 action: 
@@ -88,6 +88,18 @@ reason: Exact approved Altrincham workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Office Administrator
+company: Rogers McHugh Recruitment - Agency - Permanent
+location: Altrincham
+source: JobG8
+job_id: jobg8-23643_225748331
+reason: Exact approved Altrincham workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Recruitment & HR Administrator
 company: Halecroft Recruitment - Agency - Temporary
 location: Altrincham
@@ -108,7 +120,7 @@ job_id: jobg8-2039520
 reason: Exact approved Altrincham workplace.
 ---
 
-## REVIEW (28)
+## REVIEW (26)
 
 ---
 action: 
@@ -390,35 +402,11 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Sales and Marketing Coordinator
-company: KD Recruitment - Agency - Permanent
-location: Sale
-source: JobG8
-job_id: jobg8-23643_225640492
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales Support Administrator
 company: Forrest Recruitment - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225671741
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Support Executive
-company: VCG Technology Services Limited - Agency - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-108042377
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

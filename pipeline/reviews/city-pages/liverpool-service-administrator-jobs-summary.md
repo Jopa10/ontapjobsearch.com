@@ -160,6 +160,18 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: HR Administrator
+company: Hays Business Support - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-23643_225747159
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Legal Assistant - Damage Claims Portal Team
 company: Bond Turner - Agency - Permanent
 location: Liverpool
@@ -225,18 +237,6 @@ company: Zachary Daniels Recruitment - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-23643_225651752
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Pay and Benefits Coordinator
-company: Resourcery Group - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-2152011
 reason: Approved conservative Liverpool launch catchment.
 ---
 

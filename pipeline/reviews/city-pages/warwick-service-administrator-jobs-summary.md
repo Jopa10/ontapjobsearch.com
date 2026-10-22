@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 11
-- automatic review: 86
+- automatic review: 84
 - automatic exclude: 0
 - effective include: 11
-- effective review: 86
+- effective review: 84
 - effective exclude: 0
 
 ## INCLUDE (11)
@@ -156,19 +156,7 @@ job_id: jobg8-23643_225673829
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (86)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Account Coordinator
-company: Gi Group - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-23643_225692101
-reason: No exact Warwick workplace matched; local geographic review is required.
----
+## REVIEW (84)
 
 ---
 action: 
@@ -331,18 +319,6 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Office Angels - Agency - Temporary
-location: Stratford-Upon-Avon
-source: JobG8
-job_id: jobg8-23643_225636347
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
 company: Practice Plus Group - Health in Justice
 location: Rugby, CV23 8AP
 source: NHS Jobs
@@ -450,18 +426,6 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service & Sales Coordinator
-company: Adecco - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-23643_225633973
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Service Administrator
 company: Made Employment Ltd - Agency - Permanent
 location: Warwickshire
@@ -498,47 +462,11 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Coordinator
-company: SolviT Recruitment Ltd - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225642599
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Document Controller
 company: RTL Group Ltd - Agency - Contract
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225709208
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Document Controller
-company: Stepnell Ltd - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225640022
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Document Controller
-company: Think Recruitment - Agency - Permanent
-location: Rugby
-source: JobG8
-job_id: jobg8-23643_225640270
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -743,6 +671,18 @@ company: Rother House Medical Centre
 location: Stratford-upon-avon, CV37 6PP
 source: NHS Jobs
 job_id: nhs-5657937
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Office Administrator
+company: Innovo Global Talent - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225740069
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -1002,6 +942,18 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Purchase Ledger Clerk
+company: SF Partners - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-23643_225751750
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Quality Administrator
 company: Sustainable Building Services - Agency - Permanent
 location: Coventry
@@ -1158,6 +1110,18 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Service Advisor
+company: Auto Skills UK - Agency - Permanent
+location: Nuneaton
+source: JobG8
+job_id: jobg8-23643_225751455
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Technical Customer Support Coordinator
 company: Adecco - Agency - Permanent
 location: Coventry
@@ -1175,6 +1139,18 @@ company: Brellis Recruitment - Agency - Permanent
 location: Southam
 source: JobG8
 job_id: jobg8-23643_225656636
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Temporary CRM Assistant
+company: Triumph - Agency - Temporary
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225746288
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
