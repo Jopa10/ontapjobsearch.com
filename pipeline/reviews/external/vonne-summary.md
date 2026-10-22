@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-10-21
-review_fingerprint: 5970819fae321ceb103f1bb80b34470d882f28ee6a4bad0e9adbbf435aab8c7e
+review_date: 2026-10-22
+review_fingerprint: 23bf4382bde425e616b76c7c51123ae6eca5aa65c29fbcdb70077115ff9821ef
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,9 +10,9 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-10-21T13:12:55+01:00
+Run generated: 2026-10-22T13:16:06+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 411
+JobG8 comparison rows: 410
 Approved NEJobs comparison rows: 0
 
 ## Funnel
@@ -28,11 +28,11 @@ Approved NEJobs comparison rows: 0
 
 ## Outcomes
 - HC: 1
-- POSS: 6
-- HARD_PASS: 7
+- POSS: 5
+- HARD_PASS: 8
 - Final selected after remembered/manual actions: 1
 - Final POSS awaiting decision: 0
-- Manually excluded: 6
+- Manually excluded: 5
 ## Detail diagnostics
 - No unresolved detail-page failures.
 
@@ -53,19 +53,6 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173530
 ---
 ## POSS — choose SELECT or EXCLUDE
 
----
-action: exclude
-POSS | North East | Hybrid | £ Pro Rata | Payroll and People Systems Assistant
-employer: National Energy Action
-closing_date: 27 October 2026
-geography: GENERIC_REVIEW — generic VONNE location requires manual North East check
-reason: North East geography is generic or derived and requires review
-source: VONNE
-tracking_key: vonne-173536
-vacancy_fingerprint: 39bbcedd8cd9ba8da0d7036ea75f4a86f459d3ea9f3c418311b96d292d8e7189
-source_job_id: 173536
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173536
----
 ---
 action: exclude
 POSS | North East - County Durham & Darlington/Hartlepool | County Durham | £26,439 Per Annum | Carer Support Coordinator
@@ -144,6 +131,7 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173537
 - [Community Link Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173544) — out-of-scope VONNE occupation.
 - [Employability and Skills Mentor](https://www.vonne.org.uk/vonne-jobs-details?cid=173545) — insufficient service-admin evidence.
 - [Independent Advocate](https://www.vonne.org.uk/vonne-jobs-details?cid=173539) — insufficient service-admin evidence.
+- [Payroll and People Systems Assistant](https://www.vonne.org.uk/vonne-jobs-details?cid=173536) — confirmed JobG8 duplicate.
 
 ## Safety boundary
 - The script writes CSV and Markdown review outputs only.
