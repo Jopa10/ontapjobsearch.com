@@ -80,3 +80,22 @@ body {
 .cpc-job-alert-form { display: flex; flex-direction: column; min-height: 0; }
 .cpc-job-alert-fields { overflow-y: auto; min-height: 0; }
 .cpc-job-alert-actions { flex-shrink: 0; padding-top: 8px; background: #fff; }
+
+/* Compact phone layout; keep readable inputs and both choices visible. */
+@media (max-width: 700px) {
+  .cpc-job-alert-backdrop { padding: 10px; }
+  .cpc-job-alert-dialog { width: 100%; max-height: calc(100dvh - 20px); padding: 14px; }
+  .cpc-job-alert-eyebrow { display: none; }
+  .cpc-job-alert-dialog #job-alert-title { font-size: 21px !important; margin: 0 38px 8px 0 !important; }
+  .cpc-job-alert-fields > label { margin-top: 6px !important; }
+  .cpc-job-alert-dialog input { font-size: 16px !important; }
+  .cpc-job-alert-preference-panel { margin: 8px 0 0 !important; padding: 8px 10px !important; }
+  .cpc-job-alert-preference-panel > div:first-child { font-size: 13px !important; margin-bottom: 4px !important; }
+  .cpc-job-alert-preferences { gap: 3px; }
+  .cpc-job-alert-preferences label { margin: 0 !important; font-size: 13px !important; }
+  .cpc-job-alert-preferences input { height: 36px !important; padding: 6px 8px !important; margin-top: 2px !important; }
+  .cpc-job-alert-actions { padding-top: 8px; }
+  .cpc-job-alert-actions button[type="submit"] { padding: 10px 8px !important; font-size: 14px !important; line-height: 1.35; min-height: 44px; }
+  .cpc-job-alert-actions button[type="button"] { font-size: 14px !important; padding: 10px 0 !important; min-height: 44px; margin-top: 0 !important; }
+  .cpc-job-alert-actions p { margin-top: 2px !important; }
+}
