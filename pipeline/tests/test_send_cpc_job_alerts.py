@@ -189,8 +189,10 @@ class PrivateDailyTests(unittest.TestCase):
         payload = calls[1].args[3]
         self.assertEqual(payload["to"], [{"email": "jpbt801@gmail.com"}])
         self.assertIn("[Private daily test]", payload["subject"])
-        self.assertIn("https://ontapjobsearchcom-git-feat-cpc-job-alerts-brevo-ontap1.vercel.app/jobs/new-job", payload["textContent"])
-        self.assertNotIn("www.ontapjobsearch.com", payload["textContent"])
+        self.assertIn("https://www.ontapjobsearch.com/jobs/new-job", payload["textContent"])
+        self.assertIn("https://ontapjobsearchcom-git-feat-cpc-job-alerts-brevo-ontap1.vercel.app/job-alerts/unsubscribe?", payload["textContent"])
+        import uuid
+        self.assertEqual(str(uuid.UUID(payload["headers"]["idempotencyKey"])), payload["headers"]["idempotencyKey"])
         self.assertEqual(calls[2].args[3], {"attributes": {"ALERT_LAST_SENT_DATE": "2026-10-22"}})
 
     def test_unsubscribed_or_unconsented_contact_is_rejected(self):

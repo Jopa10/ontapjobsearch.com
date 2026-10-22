@@ -8,6 +8,10 @@ on:
       - pipeline/tests/test_send_cpc_job_alerts.py
       - .github/workflows/private-cpc-daily-test.yml
 
+concurrency:
+  group: ontap-private-cpc-daily-test
+  cancel-in-progress: false
+
 permissions:
   contents: read
 
@@ -57,3 +61,13 @@ jobs:
           print("Matching report date:", date, flush=True)
           subprocess.run([sys.executable, "pipeline/scripts/send_cpc_job_alerts.py", "--private-daily-test", "--dry-run", "--date", date, "--app-dir", "published-inputs/app", "--reports-dir", "published-inputs/pipeline/reports-daily"], check=True)
           PY
+
+      - name: One owner-authorised private delivery for 22 October
+        if: github.event.head_commit.message == 'Run one private daily delivery test'
+        env:
+          CPC_JOB_ALERTS_ENABLED: 'true'
+          BREVO_JOB_ALERTS_LIST_ID: '3'
+          BREVO_SENDER_EMAIL: jobs@ontapjobsearch.com
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          JOB_ALERTS_UNSUBSCRIBE_SECRET: ${{ secrets.JOB_ALERTS_UNSUBSCRIBE_SECRET }}
+        run: python pipeline/scripts/send_cpc_job_alerts.py --private-daily-test --date 2026-10-22 --app-dir published-inputs/app --reports-dir published-inputs/pipeline/reports-daily

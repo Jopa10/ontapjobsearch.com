@@ -7,6 +7,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 22 October 2026 — **Private daily delivery test authorised:** live Brevo dry-run checks confirmed that the test address has active consent and matches one new London Project Administrator vacancy. A one-off, exact-commit-message trigger exercises Python delivery for report date 2026-10-22 to the fixed test address only. Job links read existing public vacancies because Preview inventory is older; unsubscribe remains on Preview. Private sends use a stable Brevo idempotency key and the existing last-sent-date check, with workflow concurrency. No schedule, production configuration, automatic Git deployment or main-branch change is enabled. Inbox receipt and Python-generated unsubscribe still need owner verification.
+
 - 22 October 2026 — **Private daily sender verification:** The feature branch now has a private daily-matching dry run. It reads current published job data, checks only the agreed active test contact in list 3 and sends no email. It uses a separate GitHub test environment; its credentials must be configured there before live matching can run. The actual daily digest path has a test-only recipient and Preview-link guard, but no schedule or delivery trigger has been enabled. The earlier browser sample and unsubscribe were confirmed by the owner; daily Python delivery remains unverified.
 
 - 22 October 2026 — **Browser test added on the private feature branch:** the owner can send a labelled sample to the agreed test address through `/job-alerts/private-test`, using credentials already saved in Vercel. It is disabled outside the test Preview branch. Delivery and unsubscribe still need testing; nothing is rolled out publicly.

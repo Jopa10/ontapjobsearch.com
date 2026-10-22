@@ -274,7 +274,9 @@ def send_digest(
         return False
     if attributes.get("ALERT_LAST_SENT_DATE") == report_date:
         return False
-    matches = [{**job, "ontap_url": site_url + "/jobs/" + urllib.parse.quote(str(job["job_id"]), safe="")}
+    # Current new vacancies may be newer than the private Preview inventory.
+    job_origin = "https://www.ontapjobsearch.com" if private_test else site_url
+    matches = [{**job, "ontap_url": job_origin + "/jobs/" + urllib.parse.quote(str(job["job_id"]), safe="")}
                for job in jobs if matches_alert(attributes, job)][:MAX_JOBS_PER_EMAIL]
     if not matches:
         return False
@@ -282,12 +284,17 @@ def send_digest(
     token = _unsubscribe_token(email, unsubscribe_secret)
     unsubscribe_url = f"{site_url}/job-alerts/unsubscribe?token={token}"
     html_body, text_body = _email_html(matches, unsubscribe_url)
+    private_headers = {}
+    if private_test:
+        import uuid
+        private_headers = {"headers": {"idempotencyKey": str(uuid.uuid5(uuid.NAMESPACE_URL, f"ontap-private-daily:{email.casefold()}:{report_date}"))}}
     _brevo_request(
         "POST",
         "/smtp/email",
         api_key,
         {
-            "sender": {"name": "Ontap Job Search", "email": sender_email},
+            **private_headers,
+            "sender": {"name": "Ontap Jobs", "email": sender_email},
             "to": [{"email": email}],
             "subject": ("[Private daily test] " if private_test else "") + f"{len(matches)} new CPC job{'s' if len(matches) != 1 else ''} matching your alert",
             "htmlContent": html_body,
