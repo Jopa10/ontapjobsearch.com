@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-10-21
-review_fingerprint: 07eb7c546d9f2d23470f04eb805d3f62e76fe15e2da9747769f46c70f93c2123
-routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
+review_date: 2026-10-22
+review_fingerprint: 310cebc713f6d506a5a325be39770f66c2d0d6da249b435d372b522f0b5f4a63
+routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 9
+- Records: 17
+- Selected: 11
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 4
@@ -49,6 +49,21 @@ factual_fingerprint: 5670a8b61b2fbb1c99c93318188f1cf16994498caaf7c9d47253afa824b
 source: Teaching Vacancies
 source_job_id: administrative-assistant-charter-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-charter-primary-school
+---
+
+---
+action: 
+SELECTED | Wiltshire | Salisbury, South West, SP1 3JJ | NJC Scale 3 (points 5-6) £26,428 - £26,846 FTE (Actual starting salary £22,732) | Attendance Officer
+employer: South Wilts Grammar School
+closing_date: 2026-11-09T09:00:00+00:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6ea78b4b65b0b1514ed15568f69210a770cf124071869998533594a4c3227b4c
+source: Teaching Vacancies
+source_job_id: attendance-officer-south-wilts-grammar-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-south-wilts-grammar-school
 ---
 
 ---
@@ -124,6 +139,21 @@ factual_fingerprint: 2fa0d574db1d3799e6827dfd3524ff65f197a679e6bb586a663b5547e2e
 source: Teaching Vacancies
 source_job_id: pupil-services-administrator-oakhurst-community-primary-school-swindon-wiltshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pupil-services-administrator-oakhurst-community-primary-school-swindon-wiltshire
+---
+
+---
+action: 
+SELECTED | Wiltshire | Salisbury, South West, SP1 3JJ | Scale 4, NJC 7-11 £27,274 – £29,070 FTE | Receptionist & First Aider
+employer: South Wilts Grammar School
+closing_date: 2026-11-09T09:00:00+00:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 1bbeef705e8db9c66a2822392ac8f63c25303ca4a1c034b954bb046f7a93d0b7
+source: Teaching Vacancies
+source_job_id: receptionist-first-aider-south-wilts-grammar-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-first-aider-south-wilts-grammar-school
 ---
 
 ---

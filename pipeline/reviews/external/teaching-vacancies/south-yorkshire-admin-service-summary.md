@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-10-21
+review_date: 2026-10-22
 review_fingerprint: f6a7cfa42189043ccf790c6a13bee15584741699726275e1d05c8886c302d545
-routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
+routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 26
+- Records: 25
 - Selected: 10
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 15
+- Hard pass: 14
 
 ## SELECTED
 
@@ -205,7 +205,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-admin-support-as
 - [Inclusion Officer (Alternative Provision)](https://teaching-vacancies.service.gov.uk/jobs/inclusion-officer-alternative-provision-sir-thomas-wharton-academy) — Insufficient admin/service evidence.
 - [King's Trust Team Leader](https://teaching-vacancies.service.gov.uk/jobs/king-s-trust-team-leader) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-misson-primary-school) — Manager title salary ceiling £33,699 is not below £28,000.
-- [School Business Manager at Wath Victoria Primary School](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-at-wath-victoria-primary-school) — Manager title salary ceiling £35,570 is not below £28,000.
 - [School Resource Business Partner](https://teaching-vacancies.service.gov.uk/jobs/school-resource-business-partner) — Insufficient admin/service evidence.
 - [Senior Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-manager-minerva-learning-trust) — Manager title salary ceiling £58,557 is not below £28,000.
 - [Transactional Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/transactional-finance-manager) — Manager title salary ceiling £53,051 is not below £28,000.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-10-21
-review_fingerprint: 55276e9114b5eca04dc0cf8fff227bfb2ede5ed7e8abba258261cb5e047f690e
-routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
+review_date: 2026-10-22
+review_fingerprint: a5c35ff6e41a2f1ea4f558ec4317cdf9053caebff24ddaeee025ca2a0ac9e5f8
+routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 3
+- Records: 10
+- Selected: 4
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 3
@@ -23,17 +23,17 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ---
 action: 
-SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M8 8DT | £32,578.00 to £35,570.00 per annum (pro rata £30,176.96 to £32,948.45 per annum) | Data and Examinations Officer
-employer: Eden Girls' Leadership Academy, Manchester
-closing_date: 2026-10-21T23:59:00+01:00
-reason: Clear admin/service title: examinations officer
+SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M27 5TD | £26,001.00 Annually (FTE) Term Time Only plus 5 days | Administrative Assistant
+employer: The Deans Primary School
+closing_date: 2026-11-06T09:00:00+00:00
+reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 1252c4bb41c5836ce1ffd71dd8ddc9fbb3a0a083c3546c3375413f01cf056d6d
+factual_fingerprint: ebf7b622e05ae9c1e40ae709ca0ed0c536ee67af80567a60cee8e1e3d6bd341b
 source: Teaching Vacancies
-source_job_id: data-and-examinations-officer-eden-girls-leadership-academy-manchester
-source_url: https://teaching-vacancies.service.gov.uk/jobs/data-and-examinations-officer-eden-girls-leadership-academy-manchester
+source_job_id: administrative-assistant-the-deans-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-the-deans-primary-school
 ---
 
 ---
@@ -53,14 +53,29 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-chorlto
 
 ---
 action: 
+SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M30 7PQ | £24,947.00 - £28,090.00 Annually (FTE) Band 2 Professional, Point 1 – 6 (Pro rata due to part time) Cost of living increase to be added upon confirmation of award. | Office Admin & Receptionist
+employer: Salford City Academy
+closing_date: 2026-10-29T09:00:00+00:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b4b1585a91f07cf5d953fa82dbbfd7460d82aa926f9a2dbe25e246932db6918d
+source: Teaching Vacancies
+source_job_id: office-admin-receptionist
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-admin-receptionist
+---
+
+---
+action: 
 SELECTED | Greater Manchester - Manchester & Salford | Manchester, North West, M30 7PQ | £24,947.00 - £28,090.00 Annually (Actual) Band 2 Professional, Point 1 – 6 (24,947 – 28,090 pro-rata) Cost of living increase to be added upon confirmation of award. | Office Administrator and Receptionist.
 employer: Salford City Academy
-closing_date: 2026-10-30T09:00:00+00:00
+closing_date: 2026-10-29T09:00:00+00:00
 reason: Clear admin/service title: administrator, office administrator, receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 2d711d40c0b3394995660c7ecfc9cee2f81cddc05f0dd27d4ba4bcb8641c3534
+factual_fingerprint: 99b499d444050319819a5c525679ea84fb1032f6da54e66a11bf28e8b6cfb8e3
 source: Teaching Vacancies
 source_job_id: office-administrator-and-receptionist-salford-city-academy-manchester
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-and-receptionist-salford-city-academy-manchester

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-10-21
-review_fingerprint: 9158b34b361060b6ad9e8da04668542283145dff7bcc59acd97138494d9f04d4
-routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
+review_date: 2026-10-22
+review_fingerprint: 91887e4f5892cb881825995779f34747f35801e6259789d8578dbd26be7b2a1a
+routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 24
-- Selected: 11
-- POSS awaiting decision: 8
+- Records: 25
+- Selected: 10
+- POSS awaiting decision: 9
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -158,21 +158,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-admin-assista
 
 ---
 action: 
-SELECTED | Cambridgeshire | Cambridge, East of England, CB24 3DS | Point 4-5, £26,016 - £26,427 FTE | Senior Office Administrator
-employer: Pathfinder CofE Primary School
-closing_date: 2026-10-26T12:00:00+00:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a95d42caa583cf453e7892da86f6671454300258b2b6e0a7ddfee9b7c360c69d
-source: Teaching Vacancies
-source_job_id: senior-office-administrator-3a5f781d-04a4-440d-b3a1-75326476e3e9
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrator-3a5f781d-04a4-440d-b3a1-75326476e3e9
----
-
----
-action: 
 SELECTED | Cambridgeshire | Cambridge, East of England, CB24 9LX | £27,275 - £29,071 FTE | Sixth Form Administrator/Exams
 employer: Impington Village College
 closing_date: 2026-11-02T08:00:00+00:00
@@ -308,6 +293,21 @@ source_job_id: receptionist-comberton-village-college
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-comberton-village-college
 ---
 
+---
+action: 
+POSS | Cambridgeshire | Cambridge, East of England, CB24 3DS | Point 4-5, £26,016 - £26,427 FTE | Senior Office Administrator
+employer: Pathfinder CofE Primary School
+closing_date: 2026-10-26T12:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a95d42caa583cf453e7892da86f6671454300258b2b6e0a7ddfee9b7c360c69d
+source: Teaching Vacancies
+source_job_id: senior-office-administrator-3a5f781d-04a4-440d-b3a1-75326476e3e9
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-office-administrator-3a5f781d-04a4-440d-b3a1-75326476e3e9
+---
+
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -315,6 +315,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-comberto
 ## HARD_PASS
 
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-swavesey-village-college) — Manager title salary ceiling £35,412 is not below £28,000.
+- [Operation Manager](https://teaching-vacancies.service.gov.uk/jobs/operation-manager) — Manager title salary ceiling £35,412 is not below £28,000.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-5a3dff01-79b6-4729-902c-d66d0a984b7a) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-7ec77d3b-774d-4b4b-973d-4d3362c0e641) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-e275b9ec-d6f9-48ae-95a1-399e4246da3d) — Insufficient admin/service evidence.

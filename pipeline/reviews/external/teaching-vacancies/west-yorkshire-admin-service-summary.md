@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-10-21
-review_fingerprint: a573965bb830d30d1af8766f9ac9fa5b0b1d775f3d48663bfbf5b98638510a99
-routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
+review_date: 2026-10-22
+review_fingerprint: 77fe2a1c48137d34f62ea948cf97b85715f2bc136c9e0e4efed41a830b31fb24
+routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -14,8 +14,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 52
-- Selected: 14
-- POSS awaiting decision: 8
+- Selected: 15
+- POSS awaiting decision: 7
 - Excluded: 0
 - Hard pass: 30
 
@@ -173,6 +173,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/primary-receptionist-
 
 ---
 action: 
+SELECTED | Yorkshire - West | Halifax, Yorkshire and the Humber, HX3 9LG | £22,713.00 Annually (Actual) Grade 2, SCP4, term time plus 5 days | Receptionist
+employer: Park Lane Academy
+closing_date: 2026-11-05T23:59:00+00:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: e7337aab6290a3bac4b268796fe61d849eec31c5ab837c96bd2c3c88a2b313e8
+source: Teaching Vacancies
+source_job_id: receptionist-park-lane-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-park-lane-academy
+---
+
+---
+action: 
 SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS9 0JY | £11,273.00 - £11,634.00 Annually (Actual) Band B1, SCP 4-6. FTE: £26,016 - £ 26,847 | Receptionist/Administrator
 employer: Meadowfield Primary School
 closing_date: 2026-11-12T09:00:00+00:00
@@ -325,21 +340,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/operations-officer-gr
 
 ---
 action: 
-POSS | Yorkshire - West | Halifax, Yorkshire and the Humber, HX3 9LG | £22,713.00 Annually (Actual) Grade 2, SCP4, term time plus 5 days | Receptionist
-employer: Park Lane Academy
-closing_date: 2026-11-05T23:59:00+00:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: e7337aab6290a3bac4b268796fe61d849eec31c5ab837c96bd2c3c88a2b313e8
-source: Teaching Vacancies
-source_job_id: receptionist-park-lane-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-park-lane-academy
----
-
----
-action: 
 POSS | Yorkshire - West | Leeds, Yorkshire and the Humber, LS12 1JZ | B3-C1 depending on experience | School Administrator
 employer: Castleton Primary School
 closing_date: 2026-10-29T15:00:00+00:00
@@ -378,9 +378,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-the-william-henry-smith-school-and-sixth-form) — Manager title salary ceiling £50,908 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-greenhead-college) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-high-park-school) — Insufficient admin/service evidence.
-- [Human Resources Business Partner (Central HR Team)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-central-hr-team-935af2eb-24ce-4cd3-ac6d-3868ceb4711e) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-beckfoot-heaton-primary) — Manager title salary ceiling £34,811 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-holy-name-catholic-voluntary-academy) — Manager title salary ceiling £32,046 is not below £28,000.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-pudsey-bolton-royd-primary-school) — Manager title salary ceiling £34,811 is not below £28,000.
 - [Operations Support Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/operations-support-co-ordinator) — Insufficient admin/service evidence.
 - [People Advisor (Temporary Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-temporary-maternity-cover-abbey-multi-academy-trust) — Insufficient admin/service evidence.
 - [Recruitment Officer (GORSE SCITT)](https://teaching-vacancies.service.gov.uk/jobs/recruitment-officer-gorse-scitt) — Insufficient admin/service evidence.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands
 
-review_date: 2026-10-21
-review_fingerprint: 06b00a5b54a9df0504fd70f422da198a87dde8829962a65a949bfa8ace219836
-routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
+review_date: 2026-10-22
+review_fingerprint: 43b7422afeb5875f952c3ece465d6370cd62c9d0783181e71460821905065578
+routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
 ontap_region: West Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -40,12 +40,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 action: 
 SELECTED | West Midlands | West Midlands, SY7 8AU | £14.36 - £15.07 Hourly Grade 6, SCP 8 - SCP 11 | Administrator
 employer: Lydbury North Church of England Primary School
-closing_date: 2026-11-02T12:00:00+00:00
+closing_date: 2026-11-06T12:00:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: UNREGISTERED
 migration_status: 
-factual_fingerprint: 98dcc7b38760b5140760f380657ad4b0a0239da0825a91edda4467854550fd2b
+factual_fingerprint: c3c8d610003f8a228bae0d20c9f2049aba03ff926982dab9eb54190354d498b9
 source: Teaching Vacancies
 source_job_id: administrator-lydbury-north-church-of-england-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-lydbury-north-church-of-england-primary-school

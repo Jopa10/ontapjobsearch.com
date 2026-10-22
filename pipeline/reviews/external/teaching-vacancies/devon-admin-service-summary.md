@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-10-21
-review_fingerprint: d7bed0160cf2d5d83865f2da6799b8388c00e8ba8a65f64f51ae19ed1d17eb48
-routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
+review_date: 2026-10-22
+review_fingerprint: 94db8a5335a138ae86be4253f67c9cfc7965e3de2800c9881e91febb90952744
+routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,27 +13,27 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 22
-- Selected: 9
-- POSS awaiting decision: 2
+- Records: 23
+- Selected: 8
+- POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 12
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Devon | Kingsbridge, TQ7 1PL | £15,470.00 - £16,493.00 Annually (Actual) 22.5 hours per week, 42 weeks per year: Grade D8-D12 Full time equivalent - £27,709 - £29,542 Prorated D8-D12 - £15,470 - £16,493 Hourly rate (excluding ‘holiday pay’ uplift) £14.36 - £15.31 | Administrator (Devon Research School and SWIFT Teacher Training)
-employer: Education South West
-closing_date: 2026-10-21T23:59:00+01:00
+SELECTED | Devon | Ilfracombe, South West, EX34 9JB | £13.45 - £14.33 Hourly | Administrator for Support Teams
+employer: The Ilfracombe Church of England Academy
+closing_date: 2026-11-05T09:00:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 936593f993acf01a6a6c8786f8d44d8532e4045256f6b7c8221b4e32ad7c0220
+factual_fingerprint: b5db23ff9ac384d65582100d341bdcef1c5df7e7cd083f01ea562ab3f00ae244
 source: Teaching Vacancies
-source_job_id: administrator-devon-research-school-and-swift-teacher-training
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-devon-research-school-and-swift-teacher-training
+source_job_id: administrator-for-support-teams
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-for-support-teams
 ---
 
 ---
@@ -49,21 +49,6 @@ factual_fingerprint: dc250c457682287e2cc5b19ca3a65caf4798277c997da129fb0427054d9
 source: Teaching Vacancies
 source_job_id: attendance-officer-part-time-st-james-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-part-time-st-james-school
----
-
----
-action: 
-SELECTED | Devon | Plymouth, South West, PL1 5QG | Full Time | Permanent | £26,440 Per Annum | General Support Administrator
-employer: City College Plymouth
-closing_date: 2026-10-21T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 03d68b705a85dcc8f8908d88676d3b4c87ed5fa17c23961818366089c9b69651
-source: Teaching Vacancies
-source_job_id: general-support-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/general-support-administrator
 ---
 
 ---
@@ -160,6 +145,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-funding-admin
 
 ---
 action: 
+POSS | Devon | Exeter, South West, EX1 3RD | D | Exam & Data Assistant
+employer: St Luke's Church of England School
+closing_date: 2026-11-09T23:59:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a0418435685255fa2281502a1221f2c0d8c5786ca646b4d7baebc462b0f89cd1
+source: Teaching Vacancies
+source_job_id: exam-data-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exam-data-assistant
+---
+
+---
+action: 
 POSS | Devon | Plymouth, South West, PL2 3HN | £15,851.00 - £18,023.00 Annually (Actual) | HR Manager
 employer: Montpelier Primary School
 closing_date: 2026-11-08T23:59:00+00:00
@@ -202,6 +202,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 - [DTEC Curriculum & Quality Outreach Lead](https://teaching-vacancies.service.gov.uk/jobs/dtec-curriculum-quality-outreach-lead-city-college-plymouth) — Insufficient admin/service evidence.
 - [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-chulmleigh-community-college-chulmleigh-devon) — Missing salary or pay scale.
 - [Finance Business Partner - Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-maternity-cover) — Insufficient admin/service evidence.
+- [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-all-saints-marsh-cofe-academy) — Insufficient admin/service evidence.
 - [Marketing and Communications Lead](https://teaching-vacancies.service.gov.uk/jobs/marketing-and-communications-lead-learning-academies-trust) — Insufficient admin/service evidence.
 - [People Advisor ( Devon Cluster)](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-devon-cluster) — Insufficient admin/service evidence.
 - [School Caretaker](https://teaching-vacancies.service.gov.uk/jobs/school-caretaker-ladysmith-infant-nursery-school) — Out-of-scope occupation: caretaker.

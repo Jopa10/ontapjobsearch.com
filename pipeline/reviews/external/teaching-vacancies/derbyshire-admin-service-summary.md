@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-10-21
+review_date: 2026-10-22
 review_fingerprint: b50931c21b9f5adb9918b1374af1327175e82157d5442df6d0c5524c5b5cce39
-routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
+routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 5
 - Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 2
+- Hard pass: 3
 
 ## SELECTED
 
@@ -61,6 +61,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-heritag
 
 - [Exams and Assessment Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-and-assessment-officer-outwood-academy-hasland-hall) — Insufficient admin/service evidence.
 - [Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/exams-manager-anthony-gell-school) — Manager title salary ceiling £32,737 is not below £28,000.
+- [Inclusion Manager](https://teaching-vacancies.service.gov.uk/jobs/inclusion-manager-brookfield-community-school) — Manager title without salary evidence below £28,000.
 
 ## Safety boundary
 

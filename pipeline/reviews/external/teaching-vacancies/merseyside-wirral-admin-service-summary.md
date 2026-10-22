@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - Wirral
 
-review_date: 2026-10-21
-review_fingerprint: 8ec9fe54ea228df82066308575f59fb91f9a199d75b6d95caaca99db9d99c602
-routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
+review_date: 2026-10-22
+review_fingerprint: 2850ff753a7716ac528d363ad65d9304efe6acc233d62c7c25b842b7289920a6
+routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
 ontap_region: Merseyside - Wirral
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 1
-- Selected: 1
+- Records: 2
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 0
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Merseyside - Wirral | Birkenhead, North West, CH43 4UY | Grade 6, SCP 11-17, actual salary £25,116 - £27,686 (FTE £29,071 - £32,046) | Attendance Officer
+employer: Birkenhead Park School
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: e982933d70cf8407af19a4fbdf3bf432681898dd8ecf7995a1d257a571c446bf
+source: Teaching Vacancies
+source_job_id: attendance-officer-a53c84db-c3a3-4c48-8fc0-108a2d6c41cf
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-a53c84db-c3a3-4c48-8fc0-108a2d6c41cf
+---
 
 ---
 action: 

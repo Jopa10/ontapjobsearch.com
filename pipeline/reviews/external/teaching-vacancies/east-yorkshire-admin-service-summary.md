@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - East
 
-review_date: 2026-10-21
-review_fingerprint: 1c70381241f298cf23ab08d404c3315a24415ce70aae67fa3ea562d76d7dd801
-routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
+review_date: 2026-10-22
+review_fingerprint: 8a16bafaee4e05394f2f475cdd3f1e7abb00e105ba5e2b5897591fdcc68a6860
+routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
 ontap_region: Yorkshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
-- Selected: 3
-- POSS awaiting decision: 0
+- Records: 6
+- Selected: 4
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 1
 
@@ -34,6 +34,21 @@ factual_fingerprint: 92d75d19ec3fcd1e70a70829c3e4d167362721d15af3b3529f45f85e55c
 source: Teaching Vacancies
 source_job_id: academy-administrator-endike-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-endike-academy
+---
+
+---
+action: 
+SELECTED | Yorkshire - East | Hull, Yorkshire and the Humber, HU3 3PL | £22,468.00 - £23,188.00 Annually (Actual) | Administration Assistant
+employer: Chiltern Primary School
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6a9e91abe0d79576a0379516d3a95b6d9e57120cbd895e3d85db423c612dfb2a
+source: Teaching Vacancies
+source_job_id: administration-assistant-chiltern-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-chiltern-primary-school
 ---
 
 ---
@@ -68,7 +83,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-cover-co
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | Yorkshire - East | Hull, Yorkshire and the Humber, HU4 7EB | £26,016 - £27,274 FTE, £17,694 - £18,550 Actual | Administration Assistant
+employer: Christopher Pickering Primary School
+closing_date: 2026-10-31T08:00:59+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 2e14a520533938895a84d445937e02ad9712686f67b5939cb476b429b446ba46
+source: Teaching Vacancies
+source_job_id: administration-assistant-christopher-pickering-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-christopher-pickering-primary-school
+---
 
 ## EXCLUDED BY REVIEW
 

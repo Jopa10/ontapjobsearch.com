@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-10-21
-review_fingerprint: b2c6769233b5abf987f4a238187051e4f99b9c5235eb63654595e26278fba976
-routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
+review_date: 2026-10-22
+review_fingerprint: dcaca3fe0f7a9317bd4a36c446aea543b79e55dd3b0665f21b789fc8eb74a925
+routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 9
-- Selected: 3
-- POSS awaiting decision: 1
+- Records: 12
+- Selected: 4
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 6
 
 ## SELECTED
 
@@ -66,7 +66,37 @@ source_job_id: office-administrator-6f6617da-aaca-482d-8c3c-49e7251458f9
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-6f6617da-aaca-482d-8c3c-49e7251458f9
 ---
 
+---
+action: 
+SELECTED | Hertfordshire | Hatfield, East of England, AL9 7BN | £26,847.00 - £28,153.00 Annually (FTE) Actual Salary including fringe allowance £23,608.70 per annum | SEND Administrator
+employer: Chancellor's School
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3dc612c9bddcd85a560e94e29ff8a0c3c8094cc8adfce3a30a9e1d76f3ee2017
+source: Teaching Vacancies
+source_job_id: send-administrator-chancellor-s-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-chancellor-s-school
+---
+
 ## POSS — choose SELECT or EXCLUDE
+
+---
+action: 
+POSS | Hertfordshire | Hoddesdon, East of England, EN11 8JY | £27,000.00 Annually (Actual) H6 + Fringe | Deputy Office Manager
+employer: Robert Barclay Academy
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Manager title below £28,000 salary ceiling requires review
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 012a0ff4bbecf58e123884c3e7fa7b02f61542c84b3d4107c4f9d75979938142
+source: Teaching Vacancies
+source_job_id: deputy-office-manager-robert-barclay-academy-hoddesdon-hertfordshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/deputy-office-manager-robert-barclay-academy-hoddesdon-hertfordshire
+---
 
 ---
 action: 
@@ -90,6 +120,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-support-assi
 ## HARD_PASS
 
 - [Assistant SENDCo](https://teaching-vacancies.service.gov.uk/jobs/assistant-sendco-69793fea-1d51-405a-a79e-55b4c58afc9c) — Insufficient admin/service evidence.
+- [ATTENDANCE & SAFEGUARDING OFFICER](https://teaching-vacancies.service.gov.uk/jobs/attendance-safeguarding-officer-king-james-academy-royston) — Insufficient admin/service evidence.
 - [Federation School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/federation-school-business-manager-hurst-drive-primary-school) — Manager title salary ceiling £49,817 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-aa7f3068-bd4a-4f6c-a3c0-513cc79c39b8) — Manager title salary ceiling £33,119 is not below £28,000.
 - [Procurement, Data and Compliance Lead](https://teaching-vacancies.service.gov.uk/jobs/procurement-data-and-compliance-lead) — Insufficient admin/service evidence.

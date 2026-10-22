@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - East
 
-review_date: 2026-10-21
-review_fingerprint: 6d436e63dd4c2f3a61d97e93aa8d2a2c01a06727b669ae5a203cded9c03effea
-routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
+review_date: 2026-10-22
+review_fingerprint: f01bbb35aca0248bc0647c1324b53616ee76b264a7b6d170b18294a343b03a3d
+routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
 ontap_region: Cheshire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
-- Selected: 2
+- Records: 3
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 0
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Cheshire - East | Knutsford, North West, WA16 9DB | £22,100.00 Annually (Actual) | Receptionist and Admin Assistant (Maternity Cover)
+employer: Bexton Primary School
+closing_date: 2026-11-09T09:00:00+00:00
+reason: Clear admin/service title: admin assistant, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8c206b5f1a62d1dc55ac6adb81a1d20e8644e81d904002749e8a672ce6775293
+source: Teaching Vacancies
+source_job_id: receptionist-and-admin-assistant-maternity-cover
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-admin-assistant-maternity-cover
+---
 
 ---
 action: 

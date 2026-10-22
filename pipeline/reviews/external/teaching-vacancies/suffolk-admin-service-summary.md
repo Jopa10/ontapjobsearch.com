@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-10-21
-review_fingerprint: 9025e7402efec746caf4d34be11724a75ddd40abc5521f5f4fc26f787a2d8704
-routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
+review_date: 2026-10-22
+review_fingerprint: d45d63269257d33b86cab6ec3220184f9a3ebf04e191c9f3b7bfba251eda05e7
+routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 2
+- Records: 12
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 9
@@ -49,6 +49,21 @@ factual_fingerprint: 36709ca01806883746c23ab561f4bda6517dd5938408537a7e82ff3cfaa
 source: Teaching Vacancies
 source_job_id: receptionist-administrator-ormiston-sudbury-academy-sudbury-suffolk
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-ormiston-sudbury-academy-sudbury-suffolk
+---
+
+---
+action: 
+SELECTED | Suffolk | Ipswich, East of England, IP2 0NR | £26,016.00 - £26,847.00 Annually (FTE) Grade 3, Point 4 to Point 6 | School Administrator Maternity cover
+employer: The Oaks Primary School
+closing_date: 2026-12-31T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: e61aeee316b9cb58a2e0846d6c34bacf5a7ec4c9e7dcb07d262161cb5a1dd66e
+source: Teaching Vacancies
+source_job_id: school-administrator-maternity-cover-the-oaks-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-maternity-cover-the-oaks-primary-school
 ---
 
 ## POSS — choose SELECT or EXCLUDE

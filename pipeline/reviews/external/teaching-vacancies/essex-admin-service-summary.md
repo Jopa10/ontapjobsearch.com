@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-10-21
-review_fingerprint: d88cc34a162ec4ace2e2e3536da06f7cba986e1372782ccf9690ab41f136163f
-routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
+review_date: 2026-10-22
+review_fingerprint: 59bd38161126578b6858b3212e4d2e1ccae484f360fcceed44905c480efe6bf4
+routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
-- Selected: 8
+- Records: 20
+- Selected: 9
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 11
@@ -79,6 +79,21 @@ factual_fingerprint: ad5ae81a86246712d7dc8059a50be2f8963b184fd34640c2cc03004271a
 source: Teaching Vacancies
 source_job_id: administration-assistant-1c448502-5efb-4cf5-99ef-325c9696302b
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-1c448502-5efb-4cf5-99ef-325c9696302b
+---
+
+---
+action: 
+SELECTED | Essex | Westcliff-on-Sea, East of England, SS0 0LG | £9,630.00 - £9,785.00 Annually (Actual) Term Time plus 2 INSET days ( 1 year fixed term) | Administration Assistant - One Year Fixed Term
+employer: Prince Avenue Academy and Nursery
+closing_date: 2026-11-04T08:00:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 600818599db85e97c4872a0fffe84735bc1c58f290b32058438884c9dc34e652
+source: Teaching Vacancies
+source_job_id: administration-assistant-one-year-fixed-term
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-one-year-fixed-term
 ---
 
 ---

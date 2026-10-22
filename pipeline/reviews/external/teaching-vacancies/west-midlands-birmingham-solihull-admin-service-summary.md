@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-10-21
-review_fingerprint: 73a6c89084f64ed3fbc167f689a0b2964ad8cbecdf64a1487fff9c657893af7c
-routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
+review_date: 2026-10-22
+review_fingerprint: 99adec25030d63ef63ac6d04c23da8c11991249518b724bcd53af7da696e2a4b
+routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 15
-- Selected: 9
-- POSS awaiting decision: 0
+- Records: 19
+- Selected: 10
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 8
 
 ## SELECTED
 
@@ -60,10 +60,10 @@ reason: Clear admin/service title: attendance officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 7520a2a88e00b673e3e2cb4c3224dd538fb312e148c4270ec478e04447b812a2
+factual_fingerprint: da3d22964b042004eb98ce60197bbdd73c21227988be9cd89e85e581cb6a31cd
 source: Teaching Vacancies
-source_job_id: attendance-officer-4d89eaab-e94d-49e7-960c-1acc9f5124bc
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-4d89eaab-e94d-49e7-960c-1acc9f5124bc
+source_job_id: attendance-officer-65a61b9e-be5f-4172-b55c-8b707f8e10f9
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-65a61b9e-be5f-4172-b55c-8b707f8e10f9
 ---
 
 ---
@@ -128,6 +128,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/grade-2-administrativ
 
 ---
 action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B7 4QR | £11,923.86 Annually (Actual) Apprentice Rate 1 | Pastoral Support and Administrator Apprentice
+employer: E-ACT Heartlands Academy
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: fc9caa76be8457ea719186db4e1a4659906b392eefa19cd9849a3cdd129c37cb
+source: Teaching Vacancies
+source_job_id: pastoral-support-and-administrator-apprentice-e-act-heartlands-academy-birmingham-west-midlands
+source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-support-and-administrator-apprentice-e-act-heartlands-academy-birmingham-west-midlands
+---
+
+---
+action: 
 SELECTED | West Midlands - Birmingham & Solihull | Sutton Coldfield, West Midlands, B73 6UE | £21,775.00 - £23,933.00 Annually (Actual) | School Administrator
 employer: Sutton Park Primary
 closing_date: 2026-11-01T23:59:00+00:00
@@ -158,7 +173,20 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 
 ## POSS — choose SELECT or EXCLUDE
 
-- None.
+---
+action: 
+POSS | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B29 4HE | £23,408.04 - £25,392.13 Annually (Actual) SCP 12-17 | Administrator
+employer: E-ACT Shenley Academy
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a160e00b2049c2084085f183712d9f9dba704884f03fdd1188b23722f177209f
+source: Teaching Vacancies
+source_job_id: administrator-d9ca7417-7c7e-4daa-b266-5f0124cee80f
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-d9ca7417-7c7e-4daa-b266-5f0124cee80f
+---
 
 ## EXCLUDED BY REVIEW
 
@@ -168,8 +196,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-
 
 - [Administration](https://teaching-vacancies.service.gov.uk/jobs/administration) — Insufficient admin/service evidence.
 - [Exams Invigilator](https://teaching-vacancies.service.gov.uk/jobs/exams-invigilator-80585298-5967-4a4f-893a-2aa215609f82) — Insufficient admin/service evidence.
+- [Head of Talent and Workforce Planning](https://teaching-vacancies.service.gov.uk/jobs/head-of-talent-and-workforce-planning) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-the-heights-academy) — Manager title salary ceiling £34,955 is not below £28,000.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-brays-school) — Insufficient admin/service evidence.
+- [Recruitment & Compliance Lead and Executive Assistant to the Principal](https://teaching-vacancies.service.gov.uk/jobs/recruitment-compliance-lead-and-executive-assistant-to-the-principal) — Out-of-scope occupation: principal.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-severne-junior-infant-and-nursery-school-birmingham-west-midlands) — Manager title salary ceiling £55,224 is not below £28,000.
 - [Senior Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/senior-finance-business-partner-forward-education-trust) — Insufficient admin/service evidence.
 

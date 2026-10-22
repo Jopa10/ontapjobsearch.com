@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-10-21
-review_fingerprint: 4870de2ec0bf66a24b230c8329965bc3b640137242aa2d37d3f2ed4baf1754be
-routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
+review_date: 2026-10-22
+review_fingerprint: 0d8c474f77b5d55edbb2953e3eb7d5cae6740a4dcdfa4706d365e28e946e9441
+routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 2
+- Records: 12
+- Selected: 3
 - POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 6
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Kent | Dartford, South East, DA2 6FY | £23,781.00 - £25,137.00 Annually (Actual) | Admissions Officer
+employer: Stone Lodge School
+closing_date: 2026-11-08T09:00:00+00:00
+reason: Clear admin/service title: admissions officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ce6b840fa2cc2d0f8c43241c6d9e752570ce9c8687ba404f082f8be8448e0494
+source: Teaching Vacancies
+source_job_id: admissions-officer-stone-lodge-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/admissions-officer-stone-lodge-school
+---
 
 ---
 action: 

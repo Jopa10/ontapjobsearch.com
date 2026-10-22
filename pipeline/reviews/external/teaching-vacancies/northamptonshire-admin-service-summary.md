@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Northamptonshire
 
-review_date: 2026-10-21
-review_fingerprint: 4bd3e907db4aa1a10a9c9893c8add31b0b431fbda8d23be49d58d8a1d0e563cb
-routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
+review_date: 2026-10-22
+review_fingerprint: 42c2af6c703201ef2be72393478afc919b9a222a376eea212d0f758a72541cc6
+routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
 ontap_region: Northamptonshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,43 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 2
+- Records: 14
+- Selected: 4
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 9
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Northamptonshire | Kettering, East Midlands, NN15 6BJ | £26,427.53 Annually (FTE) | Administration Assistant
+employer: Bishop Stopford School
+closing_date: 2026-11-13T23:59:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: c7d796e965689c7986537bbc37634f2f54c86a796beeab45af43efe1acd86b7a
+source: Teaching Vacancies
+source_job_id: administration-assistant-bishop-stopford-school-kettering-northamptonshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-bishop-stopford-school-kettering-northamptonshire
+---
+
+---
+action: 
+SELECTED | Northamptonshire | Northampton, East Midlands, NN3 7SW | £26,016.00 - £26,427.00 Annually (FTE) | Content creator and Admin assistant
+employer: Moulton Primary School
+closing_date: 2026-11-04T23:59:00+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 53e7ad9b396980b8b0ec47c2dd78e7abc70c8df66c2b0fc749708ee735d9b2c3
+source: Teaching Vacancies
+source_job_id: content-creator-and-admin-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/content-creator-and-admin-assistant
+---
 
 ---
 action: 

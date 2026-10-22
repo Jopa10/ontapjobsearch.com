@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lancashire - East
 
-review_date: 2026-10-21
+review_date: 2026-10-22
 review_fingerprint: 4858723face4e14a76032aa0cca4679ba8320f961be08c043d27064b721304fa
-routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
+routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
 ontap_region: Lancashire - East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 8
 - Selected: 0
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 7
 
 ## SELECTED
 
@@ -47,6 +47,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-marsden-
 ## HARD_PASS
 
 - [Data and Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/data-and-examinations-manager-all-saints-roman-catholic-high-school-a-voluntary-academy) — Manager title salary ceiling £32,061 is not below £28,000.
+- [Examinations and Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/examinations-and-administration-officer-our-lady-and-st-john-rc-high-school-a-voluntary-academy-blackburn-lancashire) — Insufficient admin/service evidence.
+- [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-accrington-academy) — Insufficient admin/service evidence.
+- [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-marsden-heights-community-college) — Insufficient admin/service evidence.
+- [HR Assistant](https://teaching-vacancies.service.gov.uk/jobs/hr-assistant-the-hyndburn-academy) — Insufficient admin/service evidence.
 - [HR Operations & Systems Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-operations-systems-advisor) — Insufficient admin/service evidence.
 - [Marketing Officer](https://teaching-vacancies.service.gov.uk/jobs/marketing-officer-marsden-heights-community-college) — Insufficient admin/service evidence.
 

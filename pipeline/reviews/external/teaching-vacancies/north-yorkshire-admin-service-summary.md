@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-10-21
-review_fingerprint: 1d08488ff1e460ab37c650a0e8be44ec581bfb89955de05d4f3966f1fa7afbb9
-routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
+review_date: 2026-10-22
+review_fingerprint: 3e4c583e81cabecfc7446ef16c1b43d79465e67f95171d39de2bb807ecf90191
+routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
+- Records: 14
 - Selected: 7
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 5
 
@@ -141,6 +141,21 @@ factual_fingerprint: 7a67fa81f7495124b0cf16cab987100c9bb93753d65ef71ea9140859d37
 source: Teaching Vacancies
 source_job_id: administration-officer-dc55f46b-8083-476b-9b89-86e66dc7015f
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-dc55f46b-8083-476b-9b89-86e66dc7015f
+---
+
+---
+action: 
+POSS | Yorkshire - North | York, YO24 2RU | £19,740.94 - £20,616.86 Annually (Actual) Grade 5, Level 1-4 (£27,631 to £28,857 FTE) | Trust Data Officer
+employer: Excel Learning Trust
+closing_date: 2026-11-15T23:59:00+00:00
+reason: Borderline school administration title: data officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5abd1540cbe9e1523cba159ac694b2a7d4d00f928f4cea54f15d1ad65fd2ab56
+source: Teaching Vacancies
+source_job_id: trust-data-officer-excel-learning-trust
+source_url: https://teaching-vacancies.service.gov.uk/jobs/trust-data-officer-excel-learning-trust
 ---
 
 ## EXCLUDED BY REVIEW

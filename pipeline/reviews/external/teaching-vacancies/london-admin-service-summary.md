@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-10-21
-review_fingerprint: 37b7c9e729b03177159d9757e0d07f570f8da12d2ecf8b6cd9c175ffb78fffe7
-routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
+review_date: 2026-10-22
+review_fingerprint: 363b2b28aa2d5a802c7b1d5f93e1d74472e55bb130c39f47845b9df5033b41f9
+routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 77
+- Records: 80
 - Selected: 20
-- POSS awaiting decision: 16
+- POSS awaiting decision: 17
 - Excluded: 0
-- Hard pass: 41
+- Hard pass: 43
 
 ## SELECTED
 
@@ -49,6 +49,21 @@ factual_fingerprint: 39e6e09920a8c875d69e380227244d8f40f1bc1857aceeb2ae336b8bb63
 source: Teaching Vacancies
 source_job_id: afternoon-receptionist-bushey-meads-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/afternoon-receptionist-bushey-meads-school
+---
+
+---
+action: 
+SELECTED | London | London, London, SE3 7QR | £8.00 - £8.48 Hourly | Apprentice Administrator
+employer: The John Roan School
+closing_date: 2026-10-30T17:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 7ffb5408bccc681ab1a906f76562cbfc74705901458bcf2c0682c85c6b367ba3
+source: Teaching Vacancies
+source_job_id: apprentice-administrator-the-john-roan-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/apprentice-administrator-the-john-roan-school
 ---
 
 ---
@@ -109,21 +124,6 @@ factual_fingerprint: ab0b8336633321778a8685ae80808082ec05bc1983ddd6152172670eb1c
 source: Teaching Vacancies
 source_job_id: attendance-officer-riverside-bridge-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-riverside-bridge-school
----
-
----
-action: 
-SELECTED | London | London, London, N9 8DR | £28,148.19 - £30,407.51 Annually (FTE) NSCT Pay Scales: 18-21 / Actual Salary: £26,855.53 - £27,930.11 / NSCT Health Cash Plan + Generous Pension | Business Support Assistant
-employer: Woodpecker Hall Primary Academy
-closing_date: 2026-10-27T23:59:00+00:00
-reason: Clear admin/service title: business support assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 12e1d8febc08066810db7d6614e7aa1e44f4d4c1d12dbc24a475128aafdb2828
-source: Teaching Vacancies
-source_job_id: business-support-assistant-a81bf6ae-e6d3-4234-a787-8db0968be919
-source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-assistant-a81bf6ae-e6d3-4234-a787-8db0968be919
 ---
 
 ---
@@ -233,6 +233,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administ
 
 ---
 action: 
+SELECTED | London | London, London, SE3 7QR | £31,361.00 Annually (Actual) | Receptionist/Admin Assistant
+employer: The John Roan School
+closing_date: 2026-11-06T16:00:00+00:00
+reason: Clear admin/service title: admin assistant, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 190ac83e30a73502bd24748d5423b6c7c2aff90dc746b476e00089d031adb135
+source: Teaching Vacancies
+source_job_id: receptionist-admin-assistant-the-john-roan-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-the-john-roan-school
+---
+
+---
+action: 
 SELECTED | London | Barking, London, IG11 9AG | £24,710.00 - £25,063.00 Annually (Actual) Scale 3 (Pt 5-6, £30,408-£30,843 full time) Prorated salary range is likely to be approx. £24,710 - £25,063, (dependant on experience, weeks per year and continuous service). Based on working 35 hours per week, Term time only | Receptionist/Administrative Assistant
 employer: Barking Abbey School, A Specialist Sports and Humanities College
 closing_date: 2026-11-02T08:00:00+00:00
@@ -244,21 +259,6 @@ factual_fingerprint: 4f452880b1bebb674b19673f95f1d3d529352bd6442947706cfe43dc2d6
 source: Teaching Vacancies
 source_job_id: receptionist-administrative-assistant-7e8356f9-db59-4ab1-ade5-977261759017
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrative-assistant-7e8356f9-db59-4ab1-ade5-977261759017
----
-
----
-action: 
-SELECTED | London | London, London, N22 6RA | Full Time Equivalent: £31,290 Actual: £26,455.26 (term time only) | School Admin Assistant / Receptionist
-employer: Belmont Junior School
-closing_date: 2026-10-22T09:00:00+01:00
-reason: Clear admin/service title: admin assistant, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 74b384c509113416a9aa5a25ef673001ac077ff6c7a48be39a4c90074bc1bdfb
-source: Teaching Vacancies
-source_job_id: school-admin-assistant-receptionist-belmont-junior-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-admin-assistant-receptionist-belmont-junior-school
 ---
 
 ---
@@ -351,6 +351,21 @@ factual_fingerprint: f4c11333622b994e86adf0252b8142e05357200cd7dca57cea29f20574a
 source: Teaching Vacancies
 source_job_id: administration-officer-1d8ea2cf-23c2-491e-9778-888fe22529fb
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-1d8ea2cf-23c2-491e-9778-888fe22529fb
+---
+
+---
+action: 
+POSS | London | London, London, E17 8HA | £31,290.00 - £33,129.00 Annually (FTE) Term-Time + 5 Inset days & 4 Plus days | Administration Officer
+employer: Sybourn Primary School
+closing_date: 2026-11-06T23:59:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6339f78b9961014202e98a967754784dc3bea9d14556f1e21e5af85d6f6451c7
+source: Teaching Vacancies
+source_job_id: administration-officer-sybourn-primary-school-london
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-sybourn-primary-school-london
 ---
 
 ---
@@ -580,7 +595,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment
 - [Contracts & Procurement Lead](https://teaching-vacancies.service.gov.uk/jobs/contracts-procurement-lead-greenshaw-learning-trust) — Insufficient admin/service evidence.
 - [Data Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-administration-assistant-lilian-baylis-technology-school) — Insufficient admin/service evidence.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-goresbrook-school) — Manager title salary ceiling £43,000 is not below £28,000.
+- [Director of Finance](https://teaching-vacancies.service.gov.uk/jobs/director-of-finance-reach-schools) — Insufficient admin/service evidence.
 - [EA to the Principal](https://teaching-vacancies.service.gov.uk/jobs/ea-to-the-principal) — Out-of-scope occupation: principal.
+- [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-reach-schools) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-feec0708-8cac-454f-8890-7daafb1d5429) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-middlesex-learning-partnership) — Insufficient admin/service evidence.
 - [Headteacher's PA](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-north-brent-school) — Out-of-scope occupation: teacher, headteacher.
@@ -599,9 +616,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment
 - [People Officer](https://teaching-vacancies.service.gov.uk/jobs/people-officer-newbridge-school) — Insufficient admin/service evidence.
 - [Pupil Support Lead (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/pupil-support-lead-maternity-cover-st-mary-cray-primary-academy) — Insufficient admin/service evidence.
 - [Reprographics Assistant](https://teaching-vacancies.service.gov.uk/jobs/reprographics-assistant-langley-park-school-for-boys-beckenham-kent) — Insufficient admin/service evidence.
-- [Reprographics Technician](https://teaching-vacancies.service.gov.uk/jobs/reprographics-technician-9ea74161-d55b-4b39-943d-187d640b5e5d) — Out-of-scope occupation: technician.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-acton-gardens-primary-school) — Manager title salary ceiling £51,961 is not below £28,000.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-handsworth-primary-school) — Manager title without salary evidence below £28,000.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-hobbayne-primary-school-london) — Manager title salary ceiling £60,714 is not below £28,000.
 - [School Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-whitehall-park-school) — Manager title salary ceiling £43,696 is not below £28,000.
 - [SENDCo Assistant](https://teaching-vacancies.service.gov.uk/jobs/sendco-assistant-9fa464f8-e6a5-4f60-bac9-8d1c457a584c) — Insufficient admin/service evidence.
 - [Senior Admin Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-admin-officer-st-stephen-s-cofe-primary-school-london) — Insufficient admin/service evidence.

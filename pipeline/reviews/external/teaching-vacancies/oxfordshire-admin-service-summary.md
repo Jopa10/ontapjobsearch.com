@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-10-21
-review_fingerprint: c9afdd8bcd8019f7a5494fdfc43704be948d6f3f8ae7791c258cf1d0de2a01ad
-routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
+review_date: 2026-10-22
+review_fingerprint: 0d6cf608d9ebebe968e172f1493c472c3b2ce9803efc3884a2e66e4fb7fe39c2
+routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -14,10 +14,10 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 11
-- Selected: 4
-- POSS awaiting decision: 1
+- Selected: 5
+- POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 4
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: b16cdc0ec44185ae446003ac6a0b2ba6e171e5cbb2e19c8822d602fd06b
 source: Teaching Vacancies
 source_job_id: inclusion-administrator-1d8857c6-4658-46bb-9bcc-5432cf1ee5cd
 source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrator-1d8857c6-4658-46bb-9bcc-5432cf1ee5cd
+---
+
+---
+action: 
+SELECTED | Oxfordshire | Faringdon, South East, SN7 7RA | £13.49 - £13.49 Hourly | Part Time Office Administrator
+employer: Uffington Church of England Primary School
+closing_date: 2026-11-19T17:00:00+00:00
+reason: Clear admin/service title: administrator, office administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: faea98abcba9926d7b479df0d028147ee5d6d56ac08146f99cd501b03d4008d5
+source: Teaching Vacancies
+source_job_id: part-time-office-administrator-uffington-church-of-england-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-office-administrator-uffington-church-of-england-primary-school
 ---
 
 ---
@@ -85,6 +100,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/student-services-admi
 
 ---
 action: 
+POSS | Oxfordshire | Witney, South East, OX28 1DX | £27,151.00 - £28,981.00 Annually (Actual) Grade 7 | Data Officer
+employer: Wood Green School
+closing_date: 2026-11-04T12:00:00+00:00
+reason: Borderline school administration title: data officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 78272c52d8273498fc95586b26161e7bdf4197412b27e821c4103f41bd506da3
+source: Teaching Vacancies
+source_job_id: data-officer-wood-green-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/data-officer-wood-green-school
+---
+
+---
+action: 
 POSS | Oxfordshire | Carterton, South East, OX18 3AD | £21,235.00 - £25,147.00 Annually (Actual) Grade 9-10 depending on experience | School Business Manager
 employer: Carterton Primary School
 closing_date: 2026-11-15T23:59:00+00:00
@@ -104,11 +134,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-manag
 
 ## HARD_PASS
 
-- [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-fa511fa4-a43e-4107-84b2-b8783b539c04) — Insufficient admin/service evidence.
 - [MAT Administrator](https://teaching-vacancies.service.gov.uk/jobs/mat-administrator) — Missing salary or pay scale.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-edward-feild-primary-school) — Manager title salary ceiling £39,482 is not below £28,000.
 - [School Premises and Compliance Manager](https://teaching-vacancies.service.gov.uk/jobs/school-premises-and-compliance-manager) — Manager title salary ceiling £36,050 is not below £28,000.
-- [SEN Administrator](https://teaching-vacancies.service.gov.uk/jobs/sen-administrator-kings-sutton-primary-academy) — Missing salary or pay scale.
 - [Trust Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-management-accountant-ridgeway-education-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary

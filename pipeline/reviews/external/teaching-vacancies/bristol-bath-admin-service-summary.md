@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-10-21
-review_fingerprint: 7882e4483d38ded7104566e2cc0c1b7017d44f1733c09f9c4b4de3e20841b73d
-routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
+review_date: 2026-10-22
+review_fingerprint: f92146486c755ba2f9c5507959d9e919a84973fdb0d42e84f1e59cfc1c583939
+routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
-- Selected: 2
+- Records: 8
+- Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Bristol & Bath | Bristol, South West, BS3 2JL | £20,934.15 - £21,613.34 Annually (Actual) NJC 8 - 10 (£27,709 - £28,608) | Administrative Assistant (Trips, Visits & Events)
+employer: Ashton Park School
+closing_date: 2026-11-02T23:59:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 87abd3693bdd9a50bcf70bea02e9fbdd0aec7c8354fa0a98c28831f3676ce0df
+source: Teaching Vacancies
+source_job_id: administrative-assistant-trips-visits-events
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-trips-visits-events
+---
 
 ---
 action: 
@@ -34,6 +49,21 @@ factual_fingerprint: 4d9d928cf344872612461109944637729dca0aedbf91bb790155f671dd4
 source: Teaching Vacancies
 source_job_id: exams-officer-downend-school-bristol
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-downend-school-bristol
+---
+
+---
+action: 
+SELECTED | Bristol & Bath | Bristol, South West, BS9 2NT | £26,824.00 - £28,142.00 Annually (Actual) Actual salary £22,677 - £23,791 per annum | School Administrator
+employer: North Star 265°
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a51d053ae9b6fc6ca743f3fc04b484f7b5c53d2dbcb6b1567749d9092d6fe67b
+source: Teaching Vacancies
+source_job_id: school-administrator-north-star-265-bristol-bristol
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-north-star-265-bristol-bristol
 ---
 
 ---
@@ -62,6 +92,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 ## HARD_PASS
 
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-st-bede-s-catholic-college) — Insufficient admin/service evidence.
+- [First Aid Lead & Admissions Coordinator](https://teaching-vacancies.service.gov.uk/jobs/first-aid-lead-admissions-coordinator-ashton-park-school) — Insufficient admin/service evidence.
 - [PA to Headteacher](https://teaching-vacancies.service.gov.uk/jobs/pa-to-headteacher-wellsway-school) — Missing salary or pay scale.
 - [Personal Care Assistant (EYFS + SEND)](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-eyfs-send) — Insufficient admin/service evidence.
 

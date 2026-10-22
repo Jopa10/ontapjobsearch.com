@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Gloucestershire
 
-review_date: 2026-10-21
+review_date: 2026-10-22
 review_fingerprint: 9d56c4c4c32d94cf5ea2e649a6397d9f5802ea90e55694c159c169d907b4e4a8
-routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
+routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
 ontap_region: Gloucestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 5
 - Selected: 2
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 1
+- Hard pass: 2
 
 ## SELECTED
 
@@ -75,6 +75,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/governance-profession
 ## HARD_PASS
 
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-chosen-hill-school) — Manager title without salary evidence below £28,000.
+- [Finance Officer - Accounting Technician](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-accounting-technician) — Out-of-scope occupation: technician.
 
 ## Safety boundary
 

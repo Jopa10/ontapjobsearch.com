@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-10-21
-review_fingerprint: 4bd4b1d1cd8a03996232c1b8d2ce81b644eb9173c7e08ac0f565f1e1ea4995d1
-routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
+review_date: 2026-10-22
+review_fingerprint: fb64b7688950cd7144b0b4bb6a90dcce3bd3a951a095b59f3db78fadd77643c7
+routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 4
+- Records: 13
+- Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 6
@@ -79,6 +79,21 @@ factual_fingerprint: 845f76cdb40abbddc87e65cd127bc7ae5c2525550974886308a4111d09a
 source: Teaching Vacancies
 source_job_id: administrative-assistant-paulet-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-paulet-high-school
+---
+
+---
+action: 
+SELECTED | East Midlands | Derby, East Midlands, DE21 4ET | 26,731.00 - 28,997.00 | Examinations Officer
+employer: Da Vinci Academy
+closing_date: 2026-11-09T09:00:00+00:00
+reason: Clear admin/service title: examinations officer
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: a111846a6c167c1d779071acf7823be8b61b0d983d637df0159f15bd19c2a5c4
+source: Teaching Vacancies
+source_job_id: examinations-officer-da-vinci-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-da-vinci-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE

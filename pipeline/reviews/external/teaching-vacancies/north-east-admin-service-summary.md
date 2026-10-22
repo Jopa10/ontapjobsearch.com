@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — North East
 
-review_date: 2026-10-21
-review_fingerprint: 035d8aa3959edec8e78780662b789025231b4a1fb2b71bb14122fb867f6098d5
-routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
+review_date: 2026-10-22
+review_fingerprint: f4dce4283e2e063521e0f6a8fc991f085c9e17fccd583f3b1f236f4a7926858c
+routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
 ontap_region: North East
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 4
+- Records: 15
+- Selected: 7
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 7
 
 ## SELECTED
+
+---
+action: 
+SELECTED | North East | Stanley, North East, DH9 0TW | £17,994.00 - £18,372.00 Annually (Actual) (Pay award pending) | Administration Assistant
+employer: North Durham Academy
+closing_date: 2026-11-04T23:59:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ea3145d7d18e09c4a2b98f77059dfeaf404bbc3bb31e4091b27278a278410d24
+source: Teaching Vacancies
+source_job_id: administration-assistant-north-durham-academy-stanley-county-durham
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-north-durham-academy-stanley-county-durham
+---
 
 ---
 action: 
@@ -64,6 +79,36 @@ factual_fingerprint: f3f78d2125f86856b2a866a23954746eea0c32fca3498ec003c0b1df40a
 source: Teaching Vacancies
 source_job_id: attendance-officer-administrator-06cb042d-aa85-4097-86df-523d555d3707
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-administrator-06cb042d-aa85-4097-86df-523d555d3707
+---
+
+---
+action: 
+SELECTED | North East | Newcastle-upon-Tyne, North East, NE5 2SZ | £30,023.00 - £32,046.00 Annually (FTE) | Business Services Support Administrator
+employer: Studio West
+closing_date: 2026-11-06T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 08f59ea2de81dcfd4d960268df5ad62caab2f0666927cb6d5e0d95619ae32735
+source: Teaching Vacancies
+source_job_id: business-services-support-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/business-services-support-administrator
+---
+
+---
+action: 
+SELECTED | North East | Hartlepool, North East, TS25 4HA | £35,571.00 - £38,511.00 Annually (FTE) Actual Salary £30,730.82 - £34,024.53 / Term Time + 5 Days | Exams Officer
+employer: English Martyrs Catholic School and Sixth Form College
+closing_date: 2026-11-09T09:00:00+00:00
+reason: Clear admin/service title: exams officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0266e88cb2effea794940174b02076353455a2c9af11cd2bff1b76f565f7122b
+source: Teaching Vacancies
+source_job_id: exams-officer-english-martyrs-catholic-school-and-sixth-form-college
+source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-english-martyrs-catholic-school-and-sixth-form-college
 ---
 
 ---

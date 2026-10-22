@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-10-21
-review_fingerprint: b2f3d81e7a7128ff017d6ecc6701210600ce6366ae77b6464e96829509ac81a1
-routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
+review_date: 2026-10-22
+review_fingerprint: 492085130cfd516fd303562e19f797a203bba6e5286b692b0d329709f58b225b
+routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -160,6 +160,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-office-adminis
 
 ---
 action: 
+POSS | Nottinghamshire | Mansfield, East Midlands, NG18 2DP | £22,569.72 - £22,569.72 Annually (Actual) | Administration Assistant
+employer: Horizons Academy
+closing_date: 2026-11-08T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: d899813d4cf8922713d60e8a54242012f2c2b74e2d686003fe8c356326338421
+source: Teaching Vacancies
+source_job_id: administration-assistant-horizons-academy-mansfield-nottinghamshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-horizons-academy-mansfield-nottinghamshire
+---
+
+---
+action: 
 POSS | Nottinghamshire | Nottingham, East Midlands, NG2 1FX | £25,614 to £26,16 pro-rata (pro-rata, £21,993 - £22,338 actual per year) | Administration Assistant
 employer: Victoria Primary School
 closing_date: 2026-10-23T09:00:00+01:00
@@ -186,21 +201,6 @@ factual_fingerprint: 9588c2b250bf0ebf1de834821ffb1460f1cfe185c955d0151a9ec5e8e93
 source: Teaching Vacancies
 source_job_id: administrative-assistant-netherfield-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-netherfield-primary-school
----
-
----
-action: 
-POSS | Nottinghamshire | Nottingham, NG3 5LR | £26,403.00 Annually (FTE) GAT 5/6 | Administrator
-employer: Greenwood Academies Trust
-closing_date: 2026-10-21T23:59:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: a5b6fadf7d0db4853508ce2bb9a0e3feff11345028c014b4f985a80cad07a49b
-source: Teaching Vacancies
-source_job_id: administrator-greenwood-academies-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-greenwood-academies-trust
 ---
 
 ---

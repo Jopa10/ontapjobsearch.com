@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Buckinghamshire
 
-review_date: 2026-10-21
+review_date: 2026-10-22
 review_fingerprint: 0b8c32e651c995490c64b4df80334a75da22e551e22c772a1ec9e1852f0a3659
-routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
+routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
 ontap_region: Buckinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
+- Records: 14
 - Selected: 6
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -139,6 +139,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/business-support-gleb
 - [Executive Assistant to the Headteacher and Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-to-the-headteacher-and-operations-manager) — Out-of-scope occupation: teacher, headteacher.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-56c55376-78b3-4ad8-a27c-1fdc31ec9895) — Insufficient admin/service evidence.
 - [Marketing Officer](https://teaching-vacancies.service.gov.uk/jobs/marketing-officer-7e5d89f3-aa30-4103-8e70-a83b509a9118) — Insufficient admin/service evidence.
+- [Operations Support Assistant](https://teaching-vacancies.service.gov.uk/jobs/operations-support-assistant-oxley-park-academy) — Insufficient admin/service evidence.
 - [Trust Finance officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-stephenson-mk-trust-milton-keynes-not-recorded) — Insufficient admin/service evidence.
 
 ## Safety boundary

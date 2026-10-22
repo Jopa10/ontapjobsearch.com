@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-10-21
-review_fingerprint: 76e341c269d0310ac661518df208e5ab02bedec07bc5a22a8e407cd5878e60eb
-routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
+review_date: 2026-10-22
+review_fingerprint: e8641410d2f4102cb3af29522abaa79665783075a8b5d548e35560dfeed5e917
+routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 16
-- Selected: 7
+- Records: 17
+- Selected: 8
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 7
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Lincolnshire | Boston, East Midlands, PE20 1JS | £26,016.00 - £26,016.00 Annually (FTE) NJC 4: £26,016 - pro rata £13,896.42 per annum | Academy Administrator
+employer: Thomas Middlecott Academy
+closing_date: 2026-11-15T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 5d6faf98c302e5ae1174342fd014367e737902c198263a390e597217cbf5e708
+source: Teaching Vacancies
+source_job_id: academy-administrator-d3226de1-4ec2-436e-a6d8-67c72b5831ef
+source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-d3226de1-4ec2-436e-a6d8-67c72b5831ef
+---
 
 ---
 action: 
@@ -68,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-te
 
 ---
 action: 
+SELECTED | Lincolnshire | Lincoln, East Midlands, LN4 4PN | £30,023.00 - £30,023.00 Annually (Actual) NJC13 : £27,723.95pa pro rata | Personal Assistant
+employer: The Barnes Wallis Academy
+closing_date: 2026-11-08T23:59:00+00:00
+reason: Clear admin/service title: personal assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: ef1466679579971ee15f4e3246f1a0b4ba10cf8bd469e72c125960ccbcdd846a
+source: Teaching Vacancies
+source_job_id: personal-assistant-the-barnes-wallis-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/personal-assistant-the-barnes-wallis-academy
+---
+
+---
+action: 
 SELECTED | Lincolnshire | Lincoln, East Midlands, LN6 9AF | Grade 3 £23,490 - £24620 | Receptionist
 employer: Sir Robert Pattinson Academy
 closing_date: 2026-11-02T09:00:00+00:00
@@ -94,21 +124,6 @@ factual_fingerprint: 10fb410411a319e353ee2f2dc5e407e7688d542d7d18dcbe39a8322291b
 source: Teaching Vacancies
 source_job_id: receptionist-administrative-assistant-the-priory-city-of-lincoln-academy-lincoln-lincolnshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrative-assistant-the-priory-city-of-lincoln-academy-lincoln-lincolnshire
----
-
----
-action: 
-SELECTED | Lincolnshire | Boston, East Midlands, PE21 0PX | £23,933.00 - £25,098.00 Annually (Actual) G4.9-12 £26,846 - £28,153 FTE | Receptionist/Admin Assistant
-employer: Boston Endeavour Academy
-closing_date: 2026-10-21T23:59:00+01:00
-reason: Clear admin/service title: admin assistant, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 297da02685fe16b682d5e209eaff108a750b360588f9ca202855722d2ebd027c
-source: Teaching Vacancies
-source_job_id: receptionist-admin-assistant-boston-endeavour-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-admin-assistant-boston-endeavour-academy
 ---
 
 ---
@@ -164,13 +179,13 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-office-administrat
 
 ## HARD_PASS
 
-- [Attendance Information Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-information-officer-havelock-academy) — Insufficient admin/service evidence.
 - [Bursar](https://teaching-vacancies.service.gov.uk/jobs/bursar-cliffedale-primary-school-grantham-lincolnshire) — Insufficient admin/service evidence.
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-lincoln-carlton-academy) — Insufficient admin/service evidence.
+- [Data Analyst](https://teaching-vacancies.service.gov.uk/jobs/data-analyst-franklin-sixth-form-college) — Insufficient admin/service evidence.
+- [Health, Safety and Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/health-safety-and-compliance-officer-voyage-education-partnership) — Insufficient admin/service evidence.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-voyage-education-partnership) — Insufficient admin/service evidence.
 - [Operational Delivery Lead](https://teaching-vacancies.service.gov.uk/jobs/operational-delivery-lead) — Insufficient admin/service evidence.
 - [Senior Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-the-gainsborough-parish-church-primary-school) — Insufficient admin/service evidence.
-- [Trust HR Manager](https://teaching-vacancies.service.gov.uk/jobs/trust-hr-manager-keystone-academy-trust-bourne-not-recorded) — Manager title salary ceiling £40,444 is not below £28,000.
 
 ## Safety boundary
 

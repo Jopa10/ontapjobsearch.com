@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-10-21
+review_date: 2026-10-22
 review_fingerprint: b9d89257768959656d473d6cecdcbdbafdb32ab8c8a63160b51155e4eeba0692
-routing_manifest_sha256: dfc1a7ef8894032e1a448d6c826b56f946d57f50cc5ef026647be4cd2015a124
+routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
+- Records: 10
 - Selected: 4
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 6
 
 ## SELECTED
 
@@ -95,6 +95,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-inclusion-adminis
 - [Data & Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-exams-manager-queensbury-academy) — Manager title salary ceiling £39,481 is not below £28,000.
 - [Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/facilities-manager-denbigh-primary-school) — Manager title salary ceiling £43,149 is not below £28,000.
 - [Financial Controller](https://teaching-vacancies.service.gov.uk/jobs/financial-controller-567766f1-1593-41ed-9bcc-141b66967e36) — Insufficient admin/service evidence.
+- [Operations Assistant](https://teaching-vacancies.service.gov.uk/jobs/operations-assistant-wixams-academy) — Insufficient admin/service evidence.
+- [Science Technician](https://teaching-vacancies.service.gov.uk/jobs/science-technician-daubeney-academy-bedford-bedfordshire) — Out-of-scope occupation: technician.
 
 ## Safety boundary
 
