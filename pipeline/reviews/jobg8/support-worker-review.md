@@ -159,6 +159,12 @@ SELECTED | Sussex | Sussex | £14.5 per hour | Night Care Assistant
 job_id: 23643_225440444
 ---
 
+---
+action:
+SELECTED | Sussex | Sussex | £13.21 per hour | Night Care Assistant
+job_id: 23643_225751206
+---
+
 ## SUSSEX — POSSIBLES
 
 _No jobs in this group._
@@ -237,9 +243,19 @@ SELECTED | Hampshire | Gosport | £26018 - £27111 per year | Care Assistant
 job_id: 1401785962
 ---
 
+---
+action:
+SELECTED | Hampshire | Havant | £28697 - £31573 per year | Support Worker
+job_id: 1401786037
+---
+
 ## HAMPSHIRE — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - HAMPSHIRE | Hampshire | Havant | £34273 - £37570 per year | Child and Family Support Worker
+job_id: 1401786041
+---
 
 ## KENT — SELECTED
 
@@ -595,6 +611,12 @@ job_id: 23643_225505302
 action:
 SELECTED | Surrey | Surrey | £15.5 per hour | Care Assistant - Bank - Care Home
 job_id: 23643_225729356
+---
+
+---
+action:
+SELECTED | Surrey | Guildford | £26500 per year | Family Support Worker
+job_id: 23643_225751661
 ---
 
 ## SURREY — POSSIBLES
