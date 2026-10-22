@@ -62,12 +62,29 @@ jobs:
           subprocess.run([sys.executable, "pipeline/scripts/send_cpc_job_alerts.py", "--private-daily-test", "--dry-run", "--date", date, "--app-dir", "published-inputs/app", "--reports-dir", "published-inputs/pipeline/reports-daily"], check=True)
           PY
 
-      - name: One owner-authorised private delivery for 22 October
-        if: github.event.head_commit.message == 'Run one private daily delivery test'
+      - name: Private daily delivery runner (starts 23 October)
+        if: github.event.head_commit.message == 'Enable private daily test runner'
         env:
           CPC_JOB_ALERTS_ENABLED: 'true'
           BREVO_JOB_ALERTS_LIST_ID: '3'
           BREVO_SENDER_EMAIL: jobs@ontapjobsearch.com
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
           JOB_ALERTS_UNSUBSCRIBE_SECRET: ${{ secrets.JOB_ALERTS_UNSUBSCRIBE_SECRET }}
-        run: python pipeline/scripts/send_cpc_job_alerts.py --private-daily-test --date 2026-10-22 --app-dir published-inputs/app --reports-dir published-inputs/pipeline/reports-daily
+        run: |
+          python - <<'PY'
+          import datetime
+          import pathlib
+          import subprocess
+          import sys
+          date = datetime.datetime.now(datetime.timezone.utc).date()
+          if date < datetime.date(2026, 10, 23):
+              print("Private daily runner is prepared; no delivery before 23 October.")
+              sys.exit(0)
+          report = pathlib.Path(f"published-inputs/pipeline/reports-daily/newly-published-jobs-{date.isoformat()}.csv")
+          if not report.is_file():
+              sys.exit("Today's new-jobs report is not ready; no old report will be sent.")
+          subprocess.run([sys.executable, "pipeline/scripts/send_cpc_job_alerts.py",
+                          "--private-daily-test", "--date", date.isoformat(),
+                          "--app-dir", "published-inputs/app",
+                          "--reports-dir", "published-inputs/pipeline/reports-daily"], check=True)
+          PY
