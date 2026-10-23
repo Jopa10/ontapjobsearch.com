@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 13
 - automatic review: 75
-- automatic exclude: 33
+- automatic exclude: 32
 - effective include: 13
 - effective review: 75
-- effective exclude: 33
+- effective exclude: 32
 
 ## INCLUDE (13)
 
@@ -414,18 +414,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Call Handler
-company: MMP Consultancy - Agency - Temporary
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225638258
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Care Coordinator
 company: The Cinnamon Care Collection - Company - Permanent
 location: Sussex
@@ -715,18 +703,6 @@ action:
 decision: review
 automatic_decision: review
 title: Marketing Executive
-company: Office Angels - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225639785
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Executive
 company: Reed - Agency - Permanent
 location: Burgess Hill
 source: JobG8
@@ -810,24 +786,24 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Payroll administrator
-company: Portfolio Payroll - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2021499
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Payroll Administrator
 company: Tony Alan Recruitment - Agency - Permanent
 location: Hailsham
 source: JobG8
 job_id: jobg8-2103807
 reason: No approved Brighton & Hove catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Reception / Administrator - Immediate Start
+company: Office Angels - Agency - Contract
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225751553
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -864,6 +840,30 @@ location: Sussex
 source: JobG8
 job_id: jobg8-23643_225732287
 reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Quayside Medical Practice
+location: Newhaven, BN9 9SQ
+source: NHS Jobs
+job_id: nhs-5678409
+reason: No approved Brighton & Hove catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Total Facilities Recruitment Limited - Agency - Temporary
+location: Haywards Heath
+source: JobG8
+job_id: jobg8-23643_225755736
+reason: No approved Brighton & Hove catchment rule matched; local review required.
 ---
 
 ---
@@ -1082,7 +1082,7 @@ job_id: jobg8-23643_225699794
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (33)
+## EXCLUDE (32)
 
 ---
 action: 
@@ -1244,18 +1244,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Call Handler
-company: Skilled Careers - Agency - Temporary
-location: Crawley
-source: JobG8
-job_id: jobg8-23643_225648538
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Call Handler / Patient Coordinator
 company: First Recruitment Services - Agency - Temporary
 location: Crawley
@@ -1292,11 +1280,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Crewing Operations Coordinator
-company: Reed - Agency - Permanent
+title: Customer Service Advisor
+company: Rhodium Consulting - Agency - Permanent
 location: Crawley
 source: JobG8
-job_id: jobg8-2166014
+job_id: jobg8-23643_225747946
 reason: Separate employment market.
 ---
 

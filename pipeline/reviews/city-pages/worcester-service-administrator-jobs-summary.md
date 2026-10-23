@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 37
+- automatic review: 35
 - automatic exclude: 0
 - effective include: 7
-- effective review: 37
+- effective review: 35
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: jobg8-2074804
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (37)
+## REVIEW (35)
 
 ---
 action: 
@@ -236,18 +236,6 @@ decision: review
 automatic_decision: review
 title: Administrator
 company: Herefordshire and Worcestershire Health and Care NHS Trust
-location: Kidderminster, DY10 1PG
-source: NHS Jobs
-job_id: nhs-5650754
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Herefordshire and Worcestershire Health and Care NHS Trust
 location: Droitwich, WR9 8QU
 source: NHS Jobs
 job_id: nhs-5666365
@@ -323,18 +311,6 @@ company: VolkerWessels UK Ltd - Company - Permanent
 location: Worcestershire
 source: JobG8
 job_id: jobg8-23643_225681223
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
-company: Michael Page - Agency - Temporary
-location: Worcestershire
-source: JobG8
-job_id: jobg8-23643_225738400
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

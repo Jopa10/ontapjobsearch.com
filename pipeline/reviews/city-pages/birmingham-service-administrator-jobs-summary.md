@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 94
+- Effective included jobs: 95
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 94
-- automatic review: 15
-- automatic exclude: 5
-- effective include: 94
-- effective review: 15
-- effective exclude: 5
+- automatic include: 95
+- automatic review: 14
+- automatic exclude: 6
+- effective include: 95
+- effective review: 14
+- effective exclude: 6
 
-## INCLUDE (94)
+## INCLUDE (95)
 
 ---
 action: 
@@ -112,11 +112,11 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Ad Hoc Corporate Receptionist
-company: Search Consultancy Ltd - Agency - Temporary
+title: Administrator
+company: Skilled Careers - Agency - Contract
 location: Birmingham
 source: JobG8
-job_id: jobg8-23643_225638169
+job_id: jobg8-23643_225751416
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -237,6 +237,30 @@ company: SF Partners - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225726719
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Clinical Negligence Paralegal
+company: G2 Legal Limited - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2168705
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Contact Centre Advisor
+company: Adecco - Agency - Temporary
+location: Birmingham
+source: JobG8
+job_id: jobg8-23643_225748131
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -544,18 +568,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Ferrari Receptionist / Host
-company: Sytner - Company - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225729438
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Finance Admin - Immediate Start
 company: Mitchell Adam - Agency - Permanent
 location: Birmingham
@@ -717,6 +729,18 @@ company: The Recruitment Experts - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-2134556
+reason: Approved conservative Birmingham launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Marketing Manager
+company: Jarmy Recruitment Ltd - Agency - Permanent
+location: Birmingham
+source: JobG8
+job_id: jobg8-2172092
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -964,18 +988,6 @@ reason: Approved conservative Birmingham launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Senior Administrator
-company: Fairway Primary Academy
-location: Birmingham
-source: Teaching Vacancies
-job_id: teaching-vacancies-senior-administrator-fairway-primary-academy
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Senior School HR Administrator
 company: Smile Education Recruitment - Agency - Temporary
 location: Birmingham
@@ -1152,7 +1164,7 @@ job_id: jobg8-2039482
 reason: Approved conservative Birmingham launch catchment.
 ---
 
-## REVIEW (15)
+## REVIEW (14)
 
 ---
 action: 
@@ -1290,18 +1302,6 @@ reason: No approved Birmingham catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist - Bank
-company: Avery Healthcare Group Ltd.
-location: Knowle, B93 9LQ
-source: NHS Jobs
-job_id: nhs-5646101
-reason: No approved Birmingham catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Recruiter Support Co-ordinator
 company: Randstad Internal Resourcer - Agency - Temporary
 location: Sutton Coldfield
@@ -1334,7 +1334,7 @@ job_id: jobg8-23643_225731801
 reason: No approved Birmingham catchment rule matched; local review required.
 ---
 
-## EXCLUDE (5)
+## EXCLUDE (6)
 
 ---
 action: 
@@ -1381,6 +1381,18 @@ company: Ashley Kate HR & Finance - Agency - Contract
 location: Solihull
 source: JobG8
 job_id: jobg8-23643_225694190
+reason: Separate exact-city market at launch.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Reception Administrator
+company: GPS Healthcare
+location: Solihull, B90 4DD
+source: NHS Jobs
+job_id: nhs-5679907
 reason: Separate exact-city market at launch.
 ---
 

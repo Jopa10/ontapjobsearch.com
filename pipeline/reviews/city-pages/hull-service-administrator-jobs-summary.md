@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 21
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 21
-- automatic review: 11
+- automatic include: 19
+- automatic review: 14
 - automatic exclude: 0
-- effective include: 21
-- effective review: 11
+- effective include: 19
+- effective review: 14
 - effective exclude: 0
 
-## INCLUDE (21)
+## INCLUDE (19)
 
 ---
 action: 
@@ -77,34 +77,10 @@ action:
 decision: include
 automatic_decision: include
 title: Administrator
-company: Edwards & Pearce - Agency - Permanent
-location: Hull
-source: JobG8
-job_id: jobg8-23643_225717011
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
 company: Hull University Teaching Hospitals NHS Trust
 location: Hull, HU3 2JZ
 source: NHS Jobs
 job_id: nhs-5661401
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Hull University Teaching Hospitals NHS Trust
-location: Hull, HU3 2JZ
-source: NHS Jobs
-job_id: nhs-5661437
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -176,7 +152,7 @@ title: Finance Procurement Administrator ( Part-Time)
 company: GlobalData UK Ltd - Company - Permanent
 location: Hull
 source: JobG8
-job_id: jobg8-23643_225693733
+job_id: jobg8-23643_225754589
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -276,7 +252,7 @@ job_id: nhs-5672082
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (11)
+## REVIEW (14)
 
 ---
 action: 
@@ -318,11 +294,47 @@ reason: No approved Hull catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: BOM Administrator
+company: Consortium Professional Recruitment Ltd - Agency - Permanent
+location: Hessle
+source: JobG8
+job_id: jobg8-23643_225653759
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Business Support Administrator
 company: SaB Consulting Yorkshire Limited - Agency - Permanent
 location: Beverley
 source: JobG8
 job_id: jobg8-23643_225731702
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance & Reporting Administrator
+company: Consortium Professional Recruitment - Agency - Permanent
+location: Hessle
+source: JobG8
+job_id: jobg8-2165745
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance & Reporting Administrator
+company: Consortium Professional Recruitment Ltd - Agency - Permanent
+location: Hessle
+source: JobG8
+job_id: jobg8-23643_225751816
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

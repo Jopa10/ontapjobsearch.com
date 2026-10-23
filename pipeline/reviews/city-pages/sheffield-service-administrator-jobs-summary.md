@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 28
+- Effective included jobs: 26
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 28
-- automatic review: 8
-- automatic exclude: 30
-- effective include: 28
-- effective review: 8
-- effective exclude: 30
+- automatic include: 26
+- automatic review: 9
+- automatic exclude: 28
+- effective include: 26
+- effective review: 9
+- effective exclude: 28
 
-## INCLUDE (28)
+## INCLUDE (26)
 
 ---
 action: 
@@ -114,45 +114,9 @@ decision: include
 automatic_decision: include
 title: Clerical Officer
 company: Sheffield Teaching Hospitals NHS Foundation Trust
-location: Sheffield, S10 2JF
-source: NHS Jobs
-job_id: nhs-5657398
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Clerical Officer
-company: Sheffield Teaching Hospitals NHS Foundation Trust
-location: Sheffield, S5 7AU
-source: NHS Jobs
-job_id: nhs-5673070
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Clerical Officer
-company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S10 2SF
 source: NHS Jobs
 job_id: nhs-5674866
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Clerical Officer/Receptionist
-company: Sheffield Teaching Hospitals NHS Foundation Trust
-location: Sheffield, S10 2JF
-source: NHS Jobs
-job_id: nhs-5662272
 reason: Approved Sheffield catchment.
 ---
 
@@ -237,6 +201,18 @@ company: Elm Lane & Chapeltown Surgery
 location: Sheffield, S5 7TW, SHEFFIELD, S35 1TD
 source: NHS Jobs
 job_id: nhs-5627333
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: IP Administrator (Experienced)
+company: Withers & Rogers - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-108207449
 reason: Approved Sheffield catchment.
 ---
 
@@ -360,7 +336,7 @@ job_id: jobg8-23643_225736471
 reason: Approved Sheffield catchment.
 ---
 
-## REVIEW (8)
+## REVIEW (9)
 
 ---
 action: 
@@ -383,6 +359,18 @@ company: Office Angels - Agency - Permanent
 location: Brinsworth
 source: JobG8
 job_id: jobg8-23643_225741868
+reason: No approved Sheffield catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Digital Administration Assistant
+company: Back TO Work - Agency - Permanent
+location: Brinsworth
+source: JobG8
+job_id: jobg8-23643_225754435
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
@@ -458,7 +446,7 @@ job_id: jobg8-23643_225681456
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (30)
+## EXCLUDE (28)
 
 ---
 action: 
@@ -584,18 +572,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Customer Service Administrator
-company: Office Angels - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225686056
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Customer Service Adviser
 company: Unipart - Agency - Permanent
 location: Doncaster
@@ -649,18 +625,6 @@ company: Staff Partners Business - Agency - Permanent
 location: Barnsley
 source: JobG8
 job_id: jobg8-23643_225702906
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Next Day Tracking Coordinators
-company: TRC Yorkshire - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-23643_225639980
 reason: Separate employment market.
 ---
 

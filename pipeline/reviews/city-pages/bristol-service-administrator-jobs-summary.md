@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 54
+- Effective included jobs: 56
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 54
+- automatic include: 56
 - automatic review: 10
-- automatic exclude: 8
-- effective include: 54
+- automatic exclude: 7
+- effective include: 56
 - effective review: 10
-- effective exclude: 8
+- effective exclude: 7
 
-## INCLUDE (54)
+## INCLUDE (56)
 
 ---
 action: 
@@ -153,6 +153,18 @@ company: Red Recruitment - Agency - Temporary
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225662841
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Care Home Administrator
+company: Hamberley Care Management Limited - Company - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225752416
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -316,18 +328,6 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Financial Administrator
-company: Aldwych Consulting - Agency - Temporary
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225640986
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Freight Co-Ordinator
 company: Travail Employment Group - Agency - Permanent
 location: Bristol
@@ -460,11 +460,35 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Medical Administrator
+company: The Old School Surgery
+location: Bristol, BS16 1QY
+source: NHS Jobs
+job_id: nhs-5678615
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Medical Secretary/Administrator
 company: Greenway Community Practice
 location: Bristol, BS10 6AF
 source: NHS Jobs
 job_id: nhs-5643222
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Motor Trade Service Advisor
+company: Tru Talent - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225753239
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -532,11 +556,11 @@ reason: Approved conservative Bristol launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Project Coordinator
-company: ReQuire Consultancy LTD - Agency - Permanent
+title: Repairs Coordinator
+company: Tate - Agency - Temporary
 location: Bristol
 source: JobG8
-job_id: jobg8-23643_225703813
+job_id: jobg8-23643_225755555
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -794,19 +818,7 @@ job_id: jobg8-23643_225702996
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
-## EXCLUDE (8)
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Accounts Assistant
-company: Reed - Agency - Permanent
-location: Bath
-source: JobG8
-job_id: jobg8-2020842
-reason: Separate employment market.
----
+## EXCLUDE (7)
 
 ---
 action: 

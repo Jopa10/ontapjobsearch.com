@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 31
+- Effective included jobs: 30
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 31
-- automatic review: 10
-- automatic exclude: 21
-- effective include: 31
-- effective review: 10
-- effective exclude: 21
+- automatic include: 30
+- automatic review: 9
+- automatic exclude: 20
+- effective include: 30
+- effective review: 9
+- effective exclude: 20
 
-## INCLUDE (31)
+## INCLUDE (30)
 
 ---
 action: 
@@ -81,18 +81,6 @@ company: North Cambridge Academy
 location: Cambridge
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-international-and-community-projects-north-cambridge-academy
-reason: Approved conservative Cambridge launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Regent's Park Healthcare
-location: Cambridge, CB2 0QQ
-source: NHS Jobs
-job_id: nhs-5659435
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -396,7 +384,7 @@ job_id: nhs-5673923
 reason: Approved conservative Cambridge launch catchment.
 ---
 
-## REVIEW (10)
+## REVIEW (9)
 
 ---
 action: 
@@ -474,18 +462,6 @@ reason: No approved Cambridge catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Project Administrator - Wisbech
-company: Adecco - Agency - Permanent
-location: Wisbech
-source: JobG8
-job_id: jobg8-23643_225642540
-reason: No approved Cambridge catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales Executive
 company: Anne Corder Recruitment - Agency - Permanent
 location: St. Ives
@@ -518,7 +494,7 @@ job_id: jobg8-23643_225691104
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 
-## EXCLUDE (21)
+## EXCLUDE (20)
 
 ---
 action: 
@@ -541,18 +517,6 @@ company: Barker Ross - Agency - Temporary
 location: Peterborough
 source: JobG8
 job_id: jobg8-23643_225719523
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Cambridgeshire and Peterborough NHS Foundation Trust
-location: Peterborough, PE3 6DB
-source: NHS Jobs
-job_id: nhs-5659339
 reason: Separate employment market.
 ---
 

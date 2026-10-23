@@ -4,7 +4,7 @@
 - Live route: `/ashford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 143
+- automatic include: 10
+- automatic review: 144
 - automatic exclude: 0
-- effective include: 9
-- effective review: 143
+- effective include: 10
+- effective review: 144
 - effective exclude: 0
 
-## INCLUDE (9)
+## INCLUDE (10)
 
 ---
 action: 
@@ -33,6 +33,18 @@ company: Reed - Agency - Permanent
 location: Ashford
 source: JobG8
 job_id: jobg8-2024535
+reason: Exact approved Ashford workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: B2B Marketing Coordinator
+company: Uxbridge Employment Agency - Agency - Permanent
+location: Ashford
+source: JobG8
+job_id: jobg8-2171331
 reason: Exact approved Ashford workplace.
 ---
 
@@ -64,11 +76,11 @@ reason: Exact approved Ashford workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Medical Receptionist (Care Navigator)
-company: Kingsnorth Medical Practice
-location: Ashford, TN23 3ED
-source: NHS Jobs
-job_id: nhs-5651409
+title: Customer Service Administrator
+company: Office Angels - Agency - Temporary
+location: Ashford
+source: JobG8
+job_id: jobg8-23643_225744931
 reason: Exact approved Ashford workplace.
 ---
 
@@ -132,7 +144,7 @@ job_id: jobg8-23643_225689196
 reason: Exact approved Ashford workplace.
 ---
 
-## REVIEW (143)
+## REVIEW (144)
 
 ---
 action: 
@@ -191,6 +203,18 @@ company: Get-Recruited (UK) Ltd - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225664077
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: KHR - Recruitment Specialists - Agency - Permanent
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225752529
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -331,18 +355,6 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: R9 Recruitment Ltd - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225716152
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
 company: RG Setsquare - Agency - Contract
 location: Kent
 source: JobG8
@@ -359,6 +371,18 @@ company: Trapeze Recruitment Services Ltd - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225729788
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator- Immediate Start
+company: Huntress - Maidstone - Agency - Temporary
+location: Kent
+source: JobG8
+job_id: jobg8-23643_225756347
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -419,6 +443,18 @@ company: Insight Select - Agency - Permanent
 location: Swanley
 source: JobG8
 job_id: jobg8-23643_225658674
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Development Executive
+company: Intertek - Agency - Permanent
+location: Chatham
+source: JobG8
+job_id: jobg8-108117109
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -546,11 +582,11 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Customer Administrator
-company: Huntress - Maidstone - Agency - Temporary
+title: Curriculum Administrator
+company: MidKent College - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-23643_225749598
+job_id: jobg8-23643_225753756
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -558,11 +594,11 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Administrator
+title: Customer Administrator
 company: Huntress - Maidstone - Agency - Temporary
 location: Kent
 source: JobG8
-job_id: jobg8-23643_225638700
+job_id: jobg8-23643_225749598
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -623,6 +659,18 @@ company: Countrystyle Recycling - Agency - Permanent
 location: Sittingbourne
 source: JobG8
 job_id: jobg8-23643_225746607
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Apprentice
+company: South East Water - Agency - Permanent
+location: Snodland
+source: JobG8
+job_id: jobg8-23643_225755589
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -959,18 +1007,6 @@ company: University Medical Centre
 location: Canterbury, CT2 7PB
 source: NHS Jobs
 job_id: nhs-5668845
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Health & Housing Coordinator
-company: Town & Country Housing Group - Agency - Contract
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225645620
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -1447,6 +1483,18 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
+company: Invicta Health CIC
+location: Ramsgate, CT118AD
+source: NHS Jobs
+job_id: nhs-5680336
+reason: No exact Ashford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
 company: Kent Community Health NHS Foundation Trust
 location: Margate, CT9 4BF
 source: NHS Jobs
@@ -1475,18 +1523,6 @@ company: Newington Road Surgery
 location: Ramsgate, CT12 6EW
 source: NHS Jobs
 job_id: nhs-5660895
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: The Meads Medical Practice Limited
-location: Sittingbourne, ME10 5AA
-source: NHS Jobs
-job_id: nhs-5651293
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -1758,11 +1794,11 @@ reason: No exact Ashford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Smart Interventions Scheduler
-company: First Recruitment Services - Agency - Temporary
+title: Social Care Credit Controller
+company: Cygnet - Agency - Permanent
 location: Kent
 source: JobG8
-job_id: jobg8-23643_225674081
+job_id: jobg8-2167781
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 
@@ -1799,18 +1835,6 @@ company: Office Angels - Agency - Temporary
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225740406
-reason: No exact Ashford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Temporary Administrator
-company: Huntress - Maidstone - Agency - Temporary
-location: Aylesford
-source: JobG8
-job_id: jobg8-23643_225639969
 reason: No exact Ashford workplace matched; local geographic review is required.
 ---
 

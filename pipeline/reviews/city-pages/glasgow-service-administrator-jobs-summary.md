@@ -4,7 +4,7 @@
 - Live route: `/glasgow/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 36
+- Effective included jobs: 33
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 36
-- automatic review: 3
+- automatic include: 33
+- automatic review: 2
 - automatic exclude: 0
-- effective include: 36
-- effective review: 3
+- effective include: 33
+- effective review: 2
 - effective exclude: 0
 
-## INCLUDE (36)
+## INCLUDE (33)
 
 ---
 action: 
@@ -88,47 +88,11 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Call Centre Agent
-company: EE - Company - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-20279_63578-89740a075c6163b74ea2c52702062e5d
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Call Centre Operator
-company: EE - Company - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-20279_63578-73862c8b83139033e4e4a8b6efca9a33
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Client Services Administrator
 company: Realise Recruitment - Agency - Permanent
 location: Glasgow
 source: JobG8
 job_id: jobg8-23643_225720686
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Contact Centre Agent
-company: EE - Company - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-20279_63578-d24d3d6916a209e15b1680693740da2f
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -161,18 +125,6 @@ action:
 decision: include
 automatic_decision: include
 title: Customer Service Advisor
-company: EE - Company - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-20279_63578-153faf593eb64b88272f45adeaa28d87
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
 company: Pertemps Warwickshire County Council - Agency - Temporary
 location: Glasgow
 source: JobG8
@@ -196,11 +148,11 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Advisor
-company: Search Consultancy Ltd - Agency - Contract
+title: Data Administrator
+company: Adecco - Agency - Temporary
 location: Glasgow
 source: JobG8
-job_id: jobg8-23643_225645981
+job_id: jobg8-23643_225753870
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -309,6 +261,18 @@ company: Hays Accounts and Finance - Agency - Temporary
 location: Glasgow
 source: JobG8
 job_id: jobg8-23643_225696770
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Operations Administrator
+company: RPJ Energy Solutions Limited - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-23643_225752498
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -456,19 +420,7 @@ job_id: jobg8-23643_225660265
 reason: Approved conservative Glasgow launch catchment.
 ---
 
-## REVIEW (3)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Advisor
-company: EE - Company - Permanent
-location: Not Specified
-source: JobG8
-job_id: jobg8-20279_63578
-reason: No approved Glasgow catchment rule matched; local review required.
----
+## REVIEW (2)
 
 ---
 action: 

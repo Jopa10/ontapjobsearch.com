@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 60
+- automatic review: 61
 - automatic exclude: 0
 - effective include: 3
-- effective review: 60
+- effective review: 61
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,19 +60,7 @@ job_id: teaching-vacancies-senior-administrator-a7025ffa-8f1a-4ca4-8107-74ae6341
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (60)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Magpie Recruitment - Agency - Permanent
-location: Richmond
-source: JobG8
-job_id: jobg8-2113482
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
+## REVIEW (61)
 
 ---
 action: 
@@ -167,18 +155,6 @@ company: Si Recruitment - Agency - Permanent
 location: Harrogate
 source: JobG8
 job_id: jobg8-2048296
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Clinical Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Harrogate, HG1 5QE
-source: NHS Jobs
-job_id: nhs-5649706
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -619,6 +595,18 @@ action:
 decision: review
 automatic_decision: review
 title: Project Administrator
+company: Equals One Ltd - Agency - Permanent
+location: Selby
+source: JobG8
+job_id: jobg8-108215746
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Project Administrator
 company: Innovex - Agency - Permanent
 location: Selby
 source: JobG8
@@ -647,6 +635,18 @@ company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2055397
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Reprographics & Admin assistant
+company: PK Education - Agency - Temporary
+location: York
+source: JobG8
+job_id: jobg8-23643_225755874
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 
@@ -767,6 +767,18 @@ company: Michael Page - Agency - Temporary
 location: Richmond
 source: JobG8
 job_id: jobg8-23643_225666115
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Volunteer Coordinator (12 month maternity cover role)
+company: Harrogate Homeless Project - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-2174235
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

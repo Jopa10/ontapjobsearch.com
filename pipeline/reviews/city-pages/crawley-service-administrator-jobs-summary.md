@@ -4,7 +4,7 @@
 - Live route: `/crawley/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
+- automatic include: 7
 - automatic review: 76
 - automatic exclude: 37
-- effective include: 8
+- effective include: 7
 - effective review: 76
 - effective exclude: 37
 
-## INCLUDE (8)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Call Handler
-company: Skilled Careers - Agency - Temporary
-location: Crawley
-source: JobG8
-job_id: jobg8-23643_225648538
-reason: Exact approved Crawley workplace.
----
+## INCLUDE (7)
 
 ---
 action: 
@@ -64,11 +52,11 @@ reason: Exact approved Crawley workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Crewing Operations Coordinator
-company: Reed - Agency - Permanent
+title: Customer Service Advisor
+company: Rhodium Consulting - Agency - Permanent
 location: Crawley
 source: JobG8
-job_id: jobg8-2166014
+job_id: jobg8-23643_225747946
 reason: Exact approved Crawley workplace.
 ---
 
@@ -347,18 +335,6 @@ company: Additional Resources Ltd - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2029067
-reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Call Handler
-company: MMP Consultancy - Agency - Temporary
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225638258
 reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
@@ -667,18 +643,6 @@ action:
 decision: review
 automatic_decision: review
 title: Marketing Executive
-company: Office Angels - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225639785
-reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Executive
 company: Reed - Agency - Permanent
 location: Burgess Hill
 source: JobG8
@@ -762,24 +726,24 @@ reason: The stated location is broader or less specific than the approved Crawle
 action: 
 decision: review
 automatic_decision: review
-title: Payroll administrator
-company: Portfolio Payroll - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2021499
-reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Payroll Administrator
 company: Tony Alan Recruitment - Agency - Permanent
 location: Hailsham
 source: JobG8
 job_id: jobg8-2103807
 reason: No approved Crawley employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Reception / Administrator - Immediate Start
+company: Office Angels - Agency - Contract
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225751553
+reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
 ---
 
 ---
@@ -816,6 +780,30 @@ location: Sussex
 source: JobG8
 job_id: jobg8-23643_225732287
 reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Quayside Medical Practice
+location: Newhaven, BN9 9SQ
+source: NHS Jobs
+job_id: nhs-5678409
+reason: No approved Crawley employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Total Facilities Recruitment Limited - Agency - Temporary
+location: Haywards Heath
+source: JobG8
+job_id: jobg8-23643_225755736
+reason: No approved Crawley employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---

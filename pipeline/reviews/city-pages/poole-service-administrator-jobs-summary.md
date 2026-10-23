@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 12
-- automatic review: 37
+- automatic review: 38
 - automatic exclude: 0
 - effective include: 12
-- effective review: 37
+- effective review: 38
 - effective exclude: 0
 
 ## INCLUDE (12)
@@ -168,7 +168,7 @@ job_id: jobg8-23643_225701721
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (37)
+## REVIEW (38)
 
 ---
 action: 
@@ -402,6 +402,18 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Medical Receptionist
+company: The Apples Medical Centre
+location: Sherborne, DT9 3DG
+source: NHS Jobs
+job_id: nhs-5679447
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Office & Customer Experience Administrator
 company: Fischer Panda UK Limited - Agency - Permanent
 location: Verwood
@@ -498,6 +510,18 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Purchasing Administrator
+company: Rubicon Recruitment - Agency - Permanent
+location: Dorset
+source: JobG8
+job_id: jobg8-23643_225755536
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Purchasing Coordinator (MRP/Logistics)
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Dorset
@@ -575,18 +599,6 @@ company: Talent Guardian - Agency - Permanent
 location: Broadstone
 source: JobG8
 job_id: jobg8-23643_225736076
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Shipping Administrator
-company: Team Jobs - Strategic Accounts - Agency - Contract
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225684577
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

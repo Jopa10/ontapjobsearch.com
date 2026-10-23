@@ -54,11 +54,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Children's Home Support Worker
-company: Hampshire County Council - Company - Permanent
-location: Hook
+title: Home Care Assistant - Complex Care Adults
+company: Nurseplus UK Ltd - Agency - Temporary
+location: Hampshire
 source: JobG8
-job_id: jobg8-1401785773
+job_id: jobg8-23643_225730890
 reason: Broad location; review before city inclusion.
 ---
 
@@ -66,11 +66,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Home Care Assistant - Complex Care Adults
-company: Nurseplus UK Ltd - Agency - Temporary
-location: Hampshire
+title: Support Worker
+company: Hampshire County Council - Company - Permanent
+location: Havant
 source: JobG8
-job_id: jobg8-23643_225730890
+job_id: jobg8-1401786037
 reason: Broad location; review before city inclusion.
 ---
 

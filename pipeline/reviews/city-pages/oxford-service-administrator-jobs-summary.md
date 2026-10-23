@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 38
+- automatic review: 39
 - automatic exclude: 45
 - effective include: 9
-- effective review: 38
+- effective review: 39
 - effective exclude: 45
 
 ## INCLUDE (9)
@@ -132,7 +132,19 @@ job_id: teaching-vacancies-student-receptionist-and-pastoral-assistant-cheney-sc
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (38)
+## REVIEW (39)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Receivable Assistant
+company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
+location: Abingdon
+source: JobG8
+job_id: jobg8-23643_225752827
+reason: No approved Oxford catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -800,6 +812,18 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Executive Assistant
+company: Hachette UK - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-2172802
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Finance Administrator
 company: The Employment Network - Agency - Permanent
 location: Oxfordshire
@@ -896,18 +920,6 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Lodge Receptionist
-company: The Recruitment Group - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-108003381
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Marketing Executive
 company: Plus One Recruitment - Agency - Permanent
 location: Oxfordshire
@@ -932,18 +944,6 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Office Administrator
-company: Cameo Consultancy - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-23643_225641817
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Operations & Logistics Co-Ordinator
 company: Tech Professionals - Agency - Permanent
 location: Oxfordshire
@@ -961,6 +961,18 @@ company: RD Financial Recruitment - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-2052886
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Private Client Paralegal
+company: GWR Legal Recruitment Ltd - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-23643_225755789
 reason: Broad county location; not Oxford-city evidence.
 ---
 

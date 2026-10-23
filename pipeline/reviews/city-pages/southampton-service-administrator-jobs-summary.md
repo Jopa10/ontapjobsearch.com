@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 13
-- automatic review: 107
-- automatic exclude: 53
+- automatic review: 108
+- automatic exclude: 52
 - effective include: 13
-- effective review: 107
-- effective exclude: 53
+- effective review: 108
+- effective exclude: 52
 
 ## INCLUDE (13)
 
@@ -180,7 +180,7 @@ job_id: jobg8-23643_225719604
 reason: Approved Southampton catchment.
 ---
 
-## REVIEW (107)
+## REVIEW (108)
 
 ---
 action: 
@@ -311,6 +311,18 @@ company: Howett Thorpe - Agency - Temporary
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225709518
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin Assistant
+company: Denholm Industrial Services Ltd - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225754281
 reason: Broad location; review before city inclusion.
 ---
 
@@ -546,12 +558,12 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Customer Experience and Operations Coordinator
-company: Tate - Agency - Temporary
-location: Totton
+title: Customer Service Administrator
+company: Wild Recruitment - Agency - Permanent
+location: Hampshire
 source: JobG8
-job_id: jobg8-23643_225743265
-reason: No approved Southampton catchment rule matched; local review required.
+job_id: jobg8-23643_225754593
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -690,18 +702,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Finance Assistant (Temporary)
-company: Michael Page Finance - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2092785
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Officer
 company: Dynamite Recruitment Solutions Ltd - Agency - Permanent
 location: Havant
@@ -774,11 +774,11 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: HR Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Havant
+title: Housing Repairs Administrator
+company: Thorngate Churcher Trust - Agency - Permanent
+location: Gosport
 source: JobG8
-job_id: jobg8-23643_225657286
+job_id: jobg8-23643_225698170
 reason: No approved Southampton catchment rule matched; local review required.
 ---
 
@@ -918,6 +918,18 @@ reason: No approved Southampton catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Legal Secretary Private Client
+company: Harwood Recruitment Solutions Limited - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-2166164
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Co-ordinator
 company: SER Limited - Agency - Permanent
 location: Hampshire
@@ -959,6 +971,18 @@ company: ARM - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225702045
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Onboarding Coordinator
+company: Gattaca PLC - Agency - Permanent
+location: Hampshire
+source: JobG8
+job_id: jobg8-23643_225755528
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1139,18 +1163,6 @@ company: Artisan Recruitment Group Ltd - Agency - Permanent
 location: Hampshire
 source: JobG8
 job_id: jobg8-23643_225725711
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchase Ledger Assistant
-company: CMA Recruitment Group - Agency - Permanent
-location: Hampshire
-source: JobG8
-job_id: jobg8-2017694
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1466,7 +1478,7 @@ job_id: jobg8-23643_225665585
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (53)
+## EXCLUDE (52)
 
 ---
 action: 
@@ -1521,34 +1533,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Administrator
-company: Dynamite Recruitment - Agency - Permanent
-location: Eastleigh
-source: JobG8
-job_id: jobg8-23643_225701917
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
 company: Dynamite Recruitment - Agency - Temporary
 location: Portsmouth
 source: JobG8
 job_id: jobg8-23643_225677753
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Mulberry Recruitment - Agency - Permanent
-location: Farnborough
-source: JobG8
-job_id: jobg8-2089361
 reason: Separate employment market.
 ---
 
@@ -1676,6 +1664,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Complaints Handler
+company: Dynamite Recruitment - Agency - Temporary
+location: Eastleigh
+source: JobG8
+job_id: jobg8-23643_225752907
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Contracts Administrator
 company: Tate - Agency - Temporary
 location: Eastleigh
@@ -1729,6 +1729,18 @@ company: Marc Daniels - Agency - Permanent
 location: Basingstoke
 source: JobG8
 job_id: jobg8-2160032
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Service Administrator
+company: Office Angels - Agency - Temporary
+location: Farnborough
+source: JobG8
+job_id: jobg8-23643_225751494
 reason: Separate employment market.
 ---
 
@@ -1801,18 +1813,6 @@ company: CMA Recruitment Group - Agency - Temporary
 location: Portsmouth
 source: JobG8
 job_id: jobg8-23643_225663896
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: French speaking Export Sales Support
-company: French Selection - Agency - Permanent
-location: Andover
-source: JobG8
-job_id: jobg8-23643_225648946
 reason: Separate employment market.
 ---
 

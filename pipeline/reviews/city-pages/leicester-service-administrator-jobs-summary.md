@@ -4,7 +4,7 @@
 - Live route: `/leicester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 21
+- Effective included jobs: 20
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 21
-- automatic review: 58
+- automatic include: 20
+- automatic review: 61
 - automatic exclude: 0
-- effective include: 21
-- effective review: 58
+- effective include: 20
+- effective review: 61
 - effective exclude: 0
 
-## INCLUDE (21)
+## INCLUDE (20)
 
 ---
 action: 
@@ -244,18 +244,6 @@ reason: Exact approved Leicester workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Safeguarding Coordinator
-company: Adecco - Agency - Temporary
-location: Leicester
-source: JobG8
-job_id: jobg8-23643_225638400
-reason: Exact approved Leicester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Sales Support Coordinator
 company: Interaction Recruitment - Agency - Permanent
 location: Leicester
@@ -276,7 +264,7 @@ job_id: teaching-vacancies-student-services-administrator-b483b3bc-5d81-42ee-be3
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (58)
+## REVIEW (61)
 
 ---
 action: 
@@ -486,18 +474,6 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Audi Service Advisor
-company: Sytner - Company - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225646273
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Bookkeeper - Part Time
 company: Redline Group Ltd - Agency - Permanent
 location: Leicestershire
@@ -558,6 +534,18 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Customer Account Administrator
+company: Distinct Recruitment - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-2168782
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Administrator
 company: SF Partners - Agency - Contract
 location: Leicestershire
@@ -594,6 +582,18 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Advisor
+company: Vectis Recruitment - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225752965
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Data Entry Assistant
 company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
 location: Coalville
@@ -611,18 +611,6 @@ company: Whistl - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225659091
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Document Controller (Construction / Refurbishment)
-company: Ernest Gordon Recruitment Limited - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225642426
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -971,6 +959,42 @@ company: Full Circle Technical Recruitment - Agency - Contract
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225701621
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Site and Operations Administrator
+company: Saint Gobain - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225754680
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Training Coordinator
+company: Vectis Recruitment - Agency - Permanent
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225753129
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Web Content Administrator (admin)
+company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225751840
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

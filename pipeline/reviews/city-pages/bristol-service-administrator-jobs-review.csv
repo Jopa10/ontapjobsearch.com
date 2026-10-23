@@ -10,6 +10,7 @@ include,nhs-5656080,Administrator,Sirona care & health CIC,"Bristol, BS13 8QA",N
 include,jobg8-23643_225708455,Administrator,Sphere Solutions - Agency - Temporary,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-23643_225745153,Administrator,Veolia - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-23643_225662841,Bookkeeper,Red Recruitment - Agency - Temporary,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
+include,jobg8-23643_225752416,Care Home Administrator,Hamberley Care Management Limited - Company - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-23643_225681959,Client Benefits Customer Service Adviser,Adecco - Agency - Contract,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-2064747,Commercial Senior Paralegal,Clear Legal & Financial Recruitment - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-2113334,Complaints Handler,G2 Legal Limited - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
@@ -23,7 +24,6 @@ include,jobg8-2066943,Digital Marketing Executive,Moxie and Mettle Limited - Age
 include,teaching-vacancies-exams-officer-downend-school-bristol,Exams Officer,Downend School,Bristol,Teaching Vacancies,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-2042684,Finance Assistant,Artis Recruitment - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-23643_225662883,Finance Assistant,Red Recruitment - Agency - Temporary,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
-include,jobg8-23643_225640986,Financial Administrator,Aldwych Consulting - Agency - Temporary,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-23643_225685224,Freight Co-Ordinator,Travail Employment Group - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,nhs-5647790,GP Receptionist,Portishead Medical Group,"Bristol, BS20 6AQ",NHS Jobs,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-23643_225674536,HR Administrator,Tate - Agency - Temporary,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
@@ -35,13 +35,15 @@ include,jobg8-23643_225743357,Jaguar Land Rover Accounts Assistant,Sytner - Comp
 include,jobg8-2024392,Junior Accountant,Ashley Rees Associates - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-2077996,Legal PA/Secretary - Corporate - Bristol,qed legal - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-2087524,Litigation Paralegal,Reed - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
+include,nhs-5678615,Medical Administrator,The Old School Surgery,"Bristol, BS16 1QY",NHS Jobs,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,nhs-5643222,Medical Secretary/Administrator,Greenway Community Practice,"Bristol, BS10 6AF",NHS Jobs,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
+include,jobg8-23643_225753239,Motor Trade Service Advisor,Tru Talent - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-23643_225717098,Operations Coordinator,MDE Consultants Ltd - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,nhs-5674929,Outpatient Receptionist,Bristol NHS Foundation Trust,"Bristol, BS2 8EG",NHS Jobs,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-23643_225678230,"Patient Co-ordinator, Patchway",Menlo Park - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-2155891,Personal Injury Paralegal,Yolk Recruitment Ltd - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,nhs-5635693,Practice Receptionist,West View Surgery,"Bristol, BS31 1BX",NHS Jobs,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
-include,jobg8-23643_225703813,Project Coordinator,ReQuire Consultancy LTD - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
+include,jobg8-23643_225755555,Repairs Coordinator,Tate - Agency - Temporary,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-23643_225104066,Sales Administrator,Alexander Mae HR Ltd - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-23643_225698115,Sales Administrator,Travail Employment Group - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
 include,jobg8-23643_225733324,Sales administrator,Travail Employment Group - Agency - Permanent,Bristol,JobG8,include,include,Approved conservative Bristol launch catchment.,bristol,bristol-service-administrator-jobs
@@ -63,7 +65,6 @@ review,jobg8-23643_225740068,Interim Accounts Payable Assistant,Hays Accounts an
 review,nhs-5652485,Medical Receptionist / Administrator,St Augustine’s Medical Practice,"Keynsham, BS31 2GN",NHS Jobs,review,review,No approved Bristol catchment rule matched; local review required.,fallback,bristol-service-administrator-jobs
 review,jobg8-2063740,"Patent Paralegal - Bristol (c&;40,000 + benefits Hybrid)",Dawn Ellmore Employment Agency - Agency - Permanent,Somerset,JobG8,review,review,No approved Bristol catchment rule matched; local review required.,fallback,bristol-service-administrator-jobs
 review,jobg8-23643_225702996,Purchase Ledger Clerk (Temporary),Adecco - Agency - Temporary,Gloucestershire,JobG8,review,review,No approved Bristol catchment rule matched; local review required.,fallback,bristol-service-administrator-jobs
-exclude,jobg8-2020842,Accounts Assistant,Reed - Agency - Permanent,Bath,JobG8,exclude,exclude,Separate employment market.,bath,bristol-service-administrator-jobs
 exclude,jobg8-2049154,Audit & Accounts Assistant,Reed - Agency - Permanent,Bath,JobG8,exclude,exclude,Separate employment market.,bath,bristol-service-administrator-jobs
 exclude,jobg8-23643_225671269,Customer Service Administrator,Crest Recruitment - Agency - Contract,Bath,JobG8,exclude,exclude,Separate employment market.,bath,bristol-service-administrator-jobs
 exclude,jobg8-23643_225732800,Customer Service Advisor,Red Recruitment - Agency - Temporary,Bath,JobG8,exclude,exclude,Separate employment market.,bath,bristol-service-administrator-jobs

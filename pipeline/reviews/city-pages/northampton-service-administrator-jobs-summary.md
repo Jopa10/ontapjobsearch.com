@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 16
-- automatic review: 60
+- automatic review: 62
 - automatic exclude: 0
 - effective include: 16
-- effective review: 60
+- effective review: 62
 - effective exclude: 0
 
 ## INCLUDE (16)
@@ -45,6 +45,18 @@ company: JT Recruit - Agency - Temporary
 location: Northampton
 source: JobG8
 job_id: jobg8-23643_225696736
+reason: Exact approved Northampton workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: St Luke’s Primary Care Centre
+location: Northampton, NN5 6FR
+source: NHS Jobs
+job_id: nhs-5677922
 reason: Exact approved Northampton workplace.
 ---
 
@@ -204,19 +216,7 @@ job_id: jobg8-23643_225713679
 reason: Exact approved Northampton workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Vetting Administrator
-company: Search Consultancy Ltd - Agency - Contract
-location: Northampton
-source: JobG8
-job_id: jobg8-23643_225641855
-reason: Exact approved Northampton workplace.
----
-
-## REVIEW (60)
+## REVIEW (62)
 
 ---
 action: 
@@ -258,18 +258,6 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Receivable Assistant
-company: Michael Page Finance - Agency - Permanent
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-2021866
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Administrator
 company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
 location: Northamptonshire
@@ -299,6 +287,18 @@ company: Blue Arrow - Agency - Temporary
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-23643_225688288
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator - Temp to Perm
+company: Interaction Recruitment - Agency - Permanent
+location: Corby
+source: JobG8
+job_id: jobg8-23643_225753914
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -402,6 +402,18 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Advisor
+company: Vizion Network - Agency - Permanent
+location: Wellingborough
+source: JobG8
+job_id: jobg8-23643_225753288
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Dealership Service Advisor
 company: KPI People Ltd - Agency - Permanent
 location: Northamptonshire
@@ -443,6 +455,18 @@ company: Ricoh - Company - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-23643_225654683
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Events Administrator
+company: Impact Recruitment Services - Agency - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225752139
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -558,6 +582,18 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Internal Sales Coordinator
+company: Adecco - Agency - Temporary
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225755807
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Jaguar Land Rover Service Front of House
 company: Sytner Group - Agency - Permanent
 location: Northamptonshire
@@ -587,6 +623,18 @@ company: Howdens Joinery - Company - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-2164807
+reason: No exact Northampton workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Local Marketing Manager
+company: Howdens Joinery - Company - Permanent
+location: Northamptonshire
+source: JobG8
+job_id: jobg8-23643_225752369
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 
@@ -762,18 +810,6 @@ reason: No exact Northampton workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Recruitment Administrator
-company: Ideal Recruit Ltd - Agency - Permanent
-location: Kettering
-source: JobG8
-job_id: jobg8-23643_225642014
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Recruitment Operations Coordinator
 company: R&V Group Ltd - Agency - Contract
 location: Northamptonshire
@@ -911,18 +947,6 @@ company: Stafforce Recruitment - Agency - Permanent
 location: Daventry
 source: JobG8
 job_id: jobg8-23643_225735573
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Training Administrator
-company: Bis Henderson - Agency - Permanent
-location: Kettering
-source: JobG8
-job_id: jobg8-23643_225640674
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

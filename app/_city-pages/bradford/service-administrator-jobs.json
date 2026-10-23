@@ -74,6 +74,31 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "23643_225751342",
+    "title": "Credit Controller",
+    "company": "Concept Recruitment Group Ltd - Agency - Permanent",
+    "location": "Bradford",
+    "region": "Yorkshire - West",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "26400",
+    "salary_max": "26400",
+    "salary_text": "£26400 per year",
+    "posted_date": "2026-10-23",
+    "description": "Credit Controller - Bradford BD4\n\n£26400 pa - 37.5 hours per week - subject to salary increases\n\nFull benefits package - perm role - immediate start\n\nOn behalf of Our Client we are looking for a credible and experienced CREDIT CONTROLLER from any background:\n\nMain Duties\n\nWorking within a team each Credit Controller will have responsibilities for a section of the Sales Ledger.\n\nEach team member is responsible for the following aspects of their nominated accounts:\n- Receive, balance, & enter bank payments\n- Allocate payments\n- Reconcile accounts\n- Deal with queries / PODs / correspondence etc. Follow up as required\n- Follow up overdue accounts by letter & phone & email\n- Liaise with sales force & internal staff re overdue accounts, queries & other matters as necessary",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?1tcg6Aj2zawEb4zrtEBNxC0XVzJMsvckb",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "Concept Recruitment Group Ltd",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": "ontap_first_published"
+  },
+  {
     "job_id": "23643_225713094",
     "title": "Customer Service & Sales Advisor",
     "company": "Search Consultancy Ltd - Agency - Permanent",
@@ -352,6 +377,25 @@
     "posted_date_basis": "ontap_first_published"
   },
   {
+    "job_id": "nhs-5659504",
+    "source": "NHS Jobs",
+    "title": "GP Receptionist",
+    "company": "Idle Medical Centre",
+    "advertiser_name": "Idle Medical Centre",
+    "location": "Bradford, BD10 8RU",
+    "region": "Yorkshire - West",
+    "salary": "£12.80",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-21T11:37:35.769005031",
+    "closing_date": "2026-11-01",
+    "description": "Idle Medical Centre is seeking an enthusiastic Receptionist to join our team. This is an exciting opportunity to be part of an innovative team focused on delivering patient-centred care in a collaborative and supportive environment. Were a friendly, forward-thinking practice over-looking the village of Idle. We have a traditional approach to general practice, striving to offer the best service to our patients wherever possible. We strongly believe in supporting and investing in the practice team. Our ethos has always been to bring in the right people and build something better. If you think that might be you, then wed love to hear from you. This role offers the opportunity to become a part of a thriving team within a positive work environment. The successful applicant will join our dedicated and friendly Reception Team who are often the first contact our patients have with the practice. You will be part of a busy, thriving GP practice, where our reception team is central to ensuring a smooth and supportive experience for our patients. The role will involve answering the phones, manning the reception desk, booking appointments, assisting patients with queries and managing general administration tasks that support our day-to-day patient care. All general duties and responsibilities associated with a GP Receptionist: Answer the phones and book appointments, sometimes during very busy periods, while managing patient expectations. Staff the reception desk, booking patients in and dealing with enquiries. General administrative tasks to support patient care. The use of SystmOne to manage patient records. Utilise and demonstrate sensitive communication styles, to ensure patients are fully informed and understanding. Recognise the need for alternative methods of communication to overcome different levels of understanding, cultural background and preferred ways of communicating. Prioritise, organise and manage own workload in a manner that maintains and promotes quality. Work as an effective and responsible team member to support each other and continually improve the service. Support the equality and diversity of patients, carers and colleagues by recognising the importance of peoples rights and interpreting them in a way that is consistent with policy, procedures and current legislation. Respecting the privacy, dignity, needs and beliefs of patients, carers and colleagues by behaving in a manner which is welcoming, non-judgmental and respects their circumstances, feelings priorities and rights. Work with your line manager to undertake continual personal and professional development, access regular supervision and take an active part in reviewing and developing the roles and responsibilities of the post. Undertake any tasks consistent with the level of the post and the scope of the role, ensuring that work is delivered in a timely and effective manner. Duties may vary from time to time, without changing the general character of the post or the level of responsibility.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4752-26-0004",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4752-26-0004",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5603161",
     "source": "NHS Jobs",
     "title": "MEDICAL RECEPTIONIST",
@@ -368,9 +412,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0721-26-0006",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -390,9 +431,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1425-26-0007",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   },
   {
@@ -412,9 +450,6 @@
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1863-26-0051",
     "switchability": "OPEN_SWITCH",
     "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
     "posted_date_basis": "source"
   }
 ]

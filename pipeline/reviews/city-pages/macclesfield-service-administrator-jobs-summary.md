@@ -4,8 +4,8 @@
 - Live route: `/macclesfield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
-- Threshold currently met: yes
+- Effective included jobs: 2
+- Threshold currently met: no
 
 ## How to review
 Edit only the `action:` line inside a job block.
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 11
+- automatic include: 2
+- automatic review: 14
 - automatic exclude: 0
-- effective include: 4
-- effective review: 11
+- effective include: 2
+- effective review: 14
 - effective exclude: 0
 
-## INCLUDE (4)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Receptionist
-company: Adecco - Agency - Temporary
-location: Macclesfield
-source: JobG8
-job_id: jobg8-23643_225641288
-reason: Exact approved Macclesfield workplace.
----
+## INCLUDE (2)
 
 ---
 action: 
@@ -52,18 +40,6 @@ reason: Exact approved Macclesfield workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Adecco - Agency - Temporary
-location: Macclesfield
-source: JobG8
-job_id: jobg8-23643_225641292
-reason: Exact approved Macclesfield workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Sixth Form Administrator
 company: The Fallibroome Academy
 location: Macclesfield
@@ -72,7 +48,7 @@ job_id: teaching-vacancies-sixth-form-administrator-the-fallibroome-academy-macc
 reason: Exact approved Macclesfield workplace.
 ---
 
-## REVIEW (11)
+## REVIEW (14)
 
 ---
 action: 
@@ -114,11 +90,47 @@ reason: No exact Macclesfield workplace matched; local geographic review is requ
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Advisor
+company: Barlow Wood Ltd - Agency - Permanent
+location: Alderley Edge
+source: JobG8
+job_id: jobg8-23643_225755085
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Facilities Coordinator
 company: RG Setsquare - Agency - Permanent
 location: Crewe
 source: JobG8
 job_id: jobg8-23643_225718706
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance & Administration Coordinator
+company: Adecco - Agency - Permanent
+location: Crewe
+source: JobG8
+job_id: jobg8-2168706
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance & Administration Coordinator
+company: Adecco - Agency - Permanent
+location: Crewe
+source: JobG8
+job_id: jobg8-23643_225753338
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -143,6 +155,18 @@ company: Michael Page - Agency - Temporary
 location: Knutsford
 source: JobG8
 job_id: jobg8-23643_225663446
+reason: No exact Macclesfield workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Office Coordinator
+company: Forrest Recruitment - Agency - Permanent
+location: Wilmslow
+source: JobG8
+job_id: jobg8-23643_225755757
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 
@@ -191,18 +215,6 @@ company: Auto Skills UK - Agency - Permanent
 location: Crewe
 source: JobG8
 job_id: jobg8-23643_225699918
-reason: No exact Macclesfield workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Receptionist
-company: Perfect Placement - Agency - Permanent
-location: Knutsford
-source: JobG8
-job_id: jobg8-23643_225639227
 reason: No exact Macclesfield workplace matched; local geographic review is required.
 ---
 

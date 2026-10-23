@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 24
+- Effective included jobs: 25
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 24
-- automatic review: 61
-- automatic exclude: 37
-- effective include: 24
-- effective review: 61
-- effective exclude: 37
+- automatic include: 25
+- automatic review: 63
+- automatic exclude: 36
+- effective include: 25
+- effective review: 63
+- effective exclude: 36
 
-## INCLUDE (24)
+## INCLUDE (25)
 
 ---
 action: 
@@ -105,18 +105,6 @@ company: Recruitment Helpline - Agency - Permanent
 location: Gateshead
 source: JobG8
 job_id: jobg8-23643_225705347
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrative Assistant Level 3
-company: North Gosforth Academy
-location: Newcastle-upon-Tyne
-source: Teaching Vacancies
-job_id: teaching-vacancies-administrative-assistant-level-3-north-gosforth-academy-newcastle-upon-tyne-tyne-and-wear
 reason: Approved Newcastle catchment.
 ---
 
@@ -256,6 +244,30 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist / Administrator
+company: St. Albans Medical Group
+location: Gateshead, NE10 9QG
+source: NHS Jobs
+job_id: nhs-5679128
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Receptionist/Administrator
+company: Oakfields Health Group
+location: Newcastle Upon Tyne, NE17 7SB, Stanley, DH9 9DA
+source: NHS Jobs
+job_id: nhs-5678075
+reason: Approved Newcastle catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Sales Executive
 company: RecruitedUK - Agency - Permanent
 location: Newcastle Upon Tyne
@@ -312,7 +324,7 @@ job_id: jobg8-23643_225677749
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (61)
+## REVIEW (63)
 
 ---
 action: 
@@ -331,10 +343,10 @@ action:
 decision: review
 automatic_decision: review
 title: Accounts Assistant
-company: Jackson Hogg Ltd - Agency - Contract
+company: Gillespie Recruitment Ltd - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-23643_225669504
+job_id: jobg8-23643_225643191
 reason: Broad location; review before city inclusion.
 ---
 
@@ -343,10 +355,10 @@ action:
 decision: review
 automatic_decision: review
 title: Accounts Assistant
-company: KCR Solutions - Agency - Permanent
+company: Jackson Hogg Ltd - Agency - Contract
 location: Tyne And Wear
 source: JobG8
-job_id: jobg8-2017987
+job_id: jobg8-23643_225669504
 reason: Broad location; review before city inclusion.
 ---
 
@@ -372,6 +384,18 @@ location: Cramlington
 source: JobG8
 job_id: jobg8-23643_225677784
 reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Assistant
+company: Westray Recruitment Consultants Ltd - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225751496
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -558,12 +582,36 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
+title: Compliance Offier - Recruitment
+company: Prospero Group - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225755176
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Credit Controller
 company: Paul Card Recruitment - Agency - Temporary
 location: Yorkshire
 source: JobG8
 job_id: jobg8-23643_225694779
 reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Care Coordinator
+company: Westray Recruitment Consultants Ltd - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225750512
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -642,30 +690,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: FNOL Customer Claims Handler
-company: Aioi Nissay Dowa Europe - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225580765
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: GP Receptionist/Care Navigator
-company: Trinity Medical Centre
-location: South Shields, NE33 5DU
-source: NHS Jobs
-job_id: nhs-5646828
-reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Interim Marketing Manager
 company: Jackson Hogg - Agency - Permanent
 location: Yorkshire
@@ -720,6 +744,30 @@ location: Houghton Le Spring, DH4 4RW
 source: NHS Jobs
 job_id: nhs-5656347
 reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Mercedes-Benz Trainee Service Advisor
+company: Sytner - Company - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225753233
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Mercedes-Benz Trainee Service Advisor
+company: Sytner Group - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-2167974
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -883,18 +931,6 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
-company: Found Recruitment Services - Agency - Contract
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225517703
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
 company: RG Setsquare - Agency - Temporary
 location: Tyne And Wear
 source: JobG8
@@ -1046,7 +1082,7 @@ job_id: jobg8-23643_225658559
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (37)
+## EXCLUDE (36)
 
 ---
 action: 
@@ -1196,30 +1232,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Business Development Executive
-company: Glen Callum Associates Ltd - Agency - Permanent
-location: Sunderland
-source: JobG8
-job_id: jobg8-23643_225646206
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Clinical Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Durham, DH1 5YA
-source: NHS Jobs
-job_id: nhs-5649713
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Clinical Team Administrator
 company: Tees Esk and Wear Valleys NHS Foundation Trust
 location: Durham, DH1 5YA
@@ -1249,6 +1261,18 @@ company: Berry Recruitment - Agency - Contract
 location: Durham
 source: JobG8
 job_id: jobg8-23643_225733651
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Service Advisor
+company: RMS Recruitment - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-23643_225754645
 reason: Separate employment market.
 ---
 
@@ -1316,11 +1340,23 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Payroll Officer
-company: Paul Card Recruitment - Agency - Temporary
-location: County Durham
-source: JobG8
-job_id: jobg8-23643_225736941
+title: Medical Receptionist
+company: Hartlepool & Stockton Health [H&SH]
+location: HARTLEPOOL, TS25 1QU
+source: NHS Jobs
+job_id: nhs-5639684
+reason: Outside Newcastle catchment.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Mental Health Act Administrator
+company: Cygnet Health Care
+location: Darlington , DL1 2LJ
+source: NHS Jobs
+job_id: nhs-5636455
 reason: Separate employment market.
 ---
 
@@ -1328,11 +1364,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: People Officer
-company: Hays Business Support - Agency - Temporary
+title: Payroll Officer
+company: Paul Card Recruitment - Agency - Temporary
 location: County Durham
 source: JobG8
-job_id: jobg8-23643_225710150
+job_id: jobg8-23643_225736941
 reason: Separate employment market.
 ---
 
@@ -1453,18 +1489,6 @@ company: Linear Recruitment Ltd - Agency - Contract
 location: Durham
 source: JobG8
 job_id: jobg8-23643_225674179
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Durham, DH1 4LW
-source: NHS Jobs
-job_id: nhs-5656729
 reason: Separate employment market.
 ---
 

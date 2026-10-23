@@ -4,7 +4,7 @@
 - Live route: `/stockport/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 14
+- Effective included jobs: 15
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 14
+- automatic include: 15
 - automatic review: 20
 - automatic exclude: 0
-- effective include: 14
+- effective include: 15
 - effective review: 20
 - effective exclude: 0
 
-## INCLUDE (14)
+## INCLUDE (15)
 
 ---
 action: 
@@ -40,11 +40,35 @@ reason: Exact approved Stockport workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Activities Coordinator
+company: Exemplar Health Care - Company - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-108207964
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Admin/Contact Centre
 company: Alliance Personnel - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225732366
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administration Assistant
+company: Hays Business Support - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225753753
 reason: Exact approved Stockport workplace.
 ---
 
@@ -93,18 +117,6 @@ company: The People Pod - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225656217
-reason: Exact approved Stockport workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Medical Records Clerk
-company: Pennine Care NHS FT
-location: Stockport, SK1 3XE
-source: NHS Jobs
-job_id: nhs-5649683
 reason: Exact approved Stockport workplace.
 ---
 

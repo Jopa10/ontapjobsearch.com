@@ -1,11 +1,12 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-23643_225687790,Accounts Assistant,Pure 4 Recruitment - Agency - Permanent,Stockport,JobG8,include,include,Exact approved Stockport workplace.,exact:stockport,stockport-service-administrator-jobs
+include,jobg8-108207964,Activities Coordinator,Exemplar Health Care - Company - Permanent,Stockport,JobG8,include,include,Exact approved Stockport workplace.,exact:stockport,stockport-service-administrator-jobs
 include,jobg8-23643_225732366,Admin/Contact Centre,Alliance Personnel - Agency - Permanent,Stockport,JobG8,include,include,Exact approved Stockport workplace.,exact:stockport,stockport-service-administrator-jobs
+include,jobg8-23643_225753753,Administration Assistant,Hays Business Support - Agency - Permanent,Stockport,JobG8,include,include,Exact approved Stockport workplace.,exact:stockport,stockport-service-administrator-jobs
 include,jobg8-23643_225692979,Customer Service Advisor,CMR Jobs Limited - Agency - Permanent,Stockport,JobG8,include,include,Exact approved Stockport workplace.,exact:stockport,stockport-service-administrator-jobs
 include,jobg8-23643_225695945,Customer Service Advisor,Jobwise Ltd - Agency - Temporary,Stockport,JobG8,include,include,Exact approved Stockport workplace.,exact:stockport,stockport-service-administrator-jobs
 include,jobg8-2066888,IVA Administrator,Imperium Financial Recruitment - Agency - Permanent,Stockport,JobG8,include,include,Exact approved Stockport workplace.,exact:stockport,stockport-service-administrator-jobs
 include,jobg8-23643_225656217,Lettings Coordinator,The People Pod - Agency - Permanent,Stockport,JobG8,include,include,Exact approved Stockport workplace.,exact:stockport,stockport-service-administrator-jobs
-include,nhs-5649683,Medical Records Clerk,Pennine Care NHS FT,"Stockport, SK1 3XE",NHS Jobs,include,include,Exact approved Stockport workplace.,exact:stockport,stockport-service-administrator-jobs
 include,jobg8-23643_225656920,Pallet Network & Customer Service Coordinator,Kinaxia Logistics Limited - Agency - Permanent,Stockport,JobG8,include,include,Exact approved Stockport workplace.,exact:stockport,stockport-service-administrator-jobs
 include,jobg8-23643_225693186,Payroll Coordinator,CMR Jobs Limited - Agency - Permanent,Stockport,JobG8,include,include,Exact approved Stockport workplace.,exact:stockport,stockport-service-administrator-jobs
 include,jobg8-2043192,Property Coordinator,The People Pod - Agency - Permanent,Stockport,JobG8,include,include,Exact approved Stockport workplace.,exact:stockport,stockport-service-administrator-jobs

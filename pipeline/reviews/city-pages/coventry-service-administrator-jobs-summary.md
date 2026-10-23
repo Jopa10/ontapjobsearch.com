@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 17
-- automatic review: 4
-- automatic exclude: 74
+- automatic review: 5
+- automatic exclude: 80
 - effective include: 17
-- effective review: 4
-- effective exclude: 74
+- effective review: 5
+- effective exclude: 80
 
 ## INCLUDE (17)
 
@@ -228,7 +228,7 @@ job_id: jobg8-23643_225744797
 reason: Approved Coventry catchment.
 ---
 
-## REVIEW (4)
+## REVIEW (5)
 
 ---
 action: 
@@ -239,6 +239,18 @@ company: Hiringpeople.co.uk - Agency - Permanent
 location: Southam
 source: JobG8
 job_id: jobg8-23643_225745080
+reason: No approved Coventry catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Options Resourcing Ltd - Agency - Permanent
+location: Southam
+source: JobG8
+job_id: jobg8-23643_225752464
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
@@ -278,7 +290,7 @@ job_id: jobg8-23643_225656636
 reason: No approved Coventry catchment rule matched; local review required.
 ---
 
-## EXCLUDE (74)
+## EXCLUDE (80)
 
 ---
 action: 
@@ -453,6 +465,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Administrator
+company: Provit Recruitment - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225752858
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrator
 company: RTL Group Ltd - Agency - Contract
 location: Warwickshire
 source: JobG8
@@ -561,6 +585,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Customer Service Advisor
+company: Brellis Recruitment - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225748714
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Service Advisor
 company: SVB Solutions - Agency - Permanent
 location: Warwick
 source: JobG8
@@ -613,6 +649,18 @@ company: RTL Group Ltd - Agency - Contract
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225709208
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Document Controller
+company: Stepnell Ltd - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225640022
 reason: Separate employment market.
 ---
 
@@ -721,6 +769,18 @@ company: Auctoro Recruitment - Agency - Permanent
 location: Warwick
 source: JobG8
 job_id: jobg8-23643_220696281
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: HR Assistant
+company: HR Dept - South Warwickshire - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-23643_225752077
 reason: Separate employment market.
 ---
 
@@ -1040,6 +1100,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Receptionist
+company: SWFT Clinical Services Ltd
+location: Stratford Upon Avon, CV37 6NQ
+source: NHS Jobs
+job_id: nhs-5679471
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Recruitment Partner
 company: Vectis Recruitment - Agency - Permanent
 location: Warwickshire
@@ -1153,6 +1225,18 @@ company: Triumph - Agency - Temporary
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225746288
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Ward Administrator
+company: George Eliot Hospital NHS Trust
+location: Nuneaton, CV10 7DJ
+source: NHS Jobs
+job_id: nhs-5679192
 reason: Separate employment market.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/aylesbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 11
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
+- automatic include: 10
 - automatic review: 74
 - automatic exclude: 0
-- effective include: 11
+- effective include: 10
 - effective review: 74
 - effective exclude: 0
 
-## INCLUDE (11)
+## INCLUDE (10)
 
 ---
 action: 
@@ -117,18 +117,6 @@ company: Daniel Owen Ltd - Agency - Permanent
 location: Aylesbury
 source: JobG8
 job_id: jobg8-23643_225643261
-reason: Exact approved Aylesbury workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Team Administrator
-company: Oxford Health NHS Trust
-location: Aylesbury, HP20 1EG
-source: NHS Jobs
-job_id: nhs-5648388
 reason: Exact approved Aylesbury workplace.
 ---
 
@@ -642,18 +630,6 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Import & Export Administrator
-company: Insight Employment Ltd - Agency - Permanent
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-107969156
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Marketing Communications Executive
 company: Technical Futures Ltd - Agency - Permanent
 location: Buckinghamshire
@@ -942,18 +918,6 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Sales & Office Administrator
-company: JR Recruitment - Agency - Permanent
-location: Chesham
-source: JobG8
-job_id: jobg8-23643_225704137
-reason: No exact Aylesbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales Administrator
 company: Elizabeth Michael Associates LTD - Agency - Permanent
 location: Buckinghamshire
@@ -1002,6 +966,18 @@ reason: No exact Aylesbury workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Sales Ledger Controller
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Marlow
+source: JobG8
+job_id: jobg8-23643_225647949
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Service Administrator
 company: Future Engineering Recruitment Ltd - Agency - Permanent
 location: Buckinghamshire
@@ -1043,6 +1019,18 @@ company: Monday Matters Recruitment Ltd - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225667454
+reason: No exact Aylesbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Youth Mentoring Coordinator
+company: YMCA South Midlands - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-2169089
 reason: No exact Aylesbury workplace matched; local geographic review is required.
 ---
 

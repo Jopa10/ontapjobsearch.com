@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 5
+- automatic review: 4
 - automatic exclude: 0
 - effective include: 4
-- effective review: 5
+- effective review: 4
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225679035
 reason: Approved conservative Belfast launch catchment.
 ---
 
-## REVIEW (5)
+## REVIEW (4)
 
 ---
 action: 
@@ -119,18 +119,6 @@ company: Rise Technical Recruitment - Agency - Permanent
 location: Antrim
 source: JobG8
 job_id: jobg8-23643_225750735
-reason: No approved Belfast catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Ledger Assistant
-company: Woodside Logistics Group - Agency - Permanent
-location: County Antrim
-source: JobG8
-job_id: jobg8-108207818
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 

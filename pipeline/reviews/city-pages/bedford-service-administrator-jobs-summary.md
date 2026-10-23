@@ -4,7 +4,7 @@
 - Live route: `/bedford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,26 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 32
+- automatic include: 5
+- automatic review: 30
 - automatic exclude: 0
-- effective include: 4
-- effective review: 32
+- effective include: 5
+- effective review: 30
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (5)
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Primary Care Careers
+location: Bedford, MK40 2TX
+source: NHS Jobs
+job_id: nhs-5670310
+reason: Exact approved Bedford workplace.
+---
 
 ---
 action: 
@@ -72,7 +84,7 @@ job_id: jobg8-23643_225729306
 reason: Exact approved Bedford workplace.
 ---
 
-## REVIEW (32)
+## REVIEW (30)
 
 ---
 action: 
@@ -138,35 +150,11 @@ reason: No exact Bedford workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Administrator
-company: Redline Group Ltd - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225641377
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Administrator - Support
 company: Transcomm Recruitment Ltd - Agency - Permanent
 location: Dunstable
 source: JobG8
 job_id: jobg8-23643_225742377
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: BMW Service Advisor
-company: Sytner - Company - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225725305
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -251,6 +239,18 @@ company: Michael Page - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225661847
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Endoscopy Booking Clerk
+company: Bedfordshire Hospitals NHS Foundation Trust
+location: Luton, LU4 0DZ
+source: NHS Jobs
+job_id: nhs-5678105
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -431,18 +431,6 @@ company: Aspire Personnel Ltd - Agency - Temporary
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225396424
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: TEST Office Administrator
-company: Get-Staffed (Integration) - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225744720
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

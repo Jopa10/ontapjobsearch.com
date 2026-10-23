@@ -4,7 +4,7 @@
 - Live route: `/walsall/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 8
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 45
+- automatic include: 8
+- automatic review: 44
 - automatic exclude: 0
-- effective include: 9
-- effective review: 45
+- effective include: 8
+- effective review: 44
 - effective exclude: 0
 
-## INCLUDE (9)
+## INCLUDE (8)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: Interaction Recruitment - Agency - Temporary
 location: Walsall
 source: JobG8
 job_id: jobg8-23643_225740640
-reason: Exact approved Walsall workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor Monday to Friday
-company: Interaction Recruitment - Agency - Temporary
-location: Walsall
-source: JobG8
-job_id: jobg8-23643_225708173
 reason: Exact approved Walsall workplace.
 ---
 
@@ -132,7 +120,7 @@ job_id: nhs-5664251
 reason: Exact approved Walsall workplace.
 ---
 
-## REVIEW (45)
+## REVIEW (44)
 
 ---
 action: 
@@ -186,18 +174,6 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Admin Assistant with PA Support
-company: Alma Personnel - Agency - Permanent
-location: West Bromwich
-source: JobG8
-job_id: jobg8-23643_225638546
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Administration Assistant
 company: Holy Rosary Catholic Primary Academy
 location: Wolverhampton
@@ -228,6 +204,18 @@ location: Wednesbury
 source: JobG8
 job_id: jobg8-23643_225686287
 reason: The stated location is broader or less specific than the approved Walsall employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: The Dudley Group NHS Foundation Trust
+location: Stourbridge, DY8 4JB
+source: NHS Jobs
+job_id: nhs-5678785
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -347,18 +335,6 @@ company: FT Recruitment - Agency - Permanent
 location: Smethwick
 source: JobG8
 job_id: jobg8-23643_225635002
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor
-company: Ideal Recruit Ltd - Agency - Temporary
-location: Smethwick
-source: JobG8
-job_id: jobg8-23643_225646608
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 

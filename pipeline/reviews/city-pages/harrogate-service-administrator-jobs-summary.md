@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 18
-- automatic exclude: 35
+- automatic review: 17
+- automatic exclude: 37
 - effective include: 10
-- effective review: 18
-- effective exclude: 35
+- effective review: 17
+- effective exclude: 37
 
 ## INCLUDE (10)
 
@@ -45,18 +45,6 @@ company: Si Recruitment - Agency - Permanent
 location: Harrogate
 source: JobG8
 job_id: jobg8-2048296
-reason: Exact approved Harrogate workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Clinical Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Harrogate, HG1 5QE
-source: NHS Jobs
-job_id: nhs-5649706
 reason: Exact approved Harrogate workplace.
 ---
 
@@ -144,19 +132,19 @@ job_id: jobg8-23643_225691482
 reason: Exact approved Harrogate workplace.
 ---
 
-## REVIEW (18)
-
 ---
 action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Magpie Recruitment - Agency - Permanent
-location: Richmond
+decision: include
+automatic_decision: include
+title: Volunteer Coordinator (12 month maternity cover role)
+company: Harrogate Homeless Project - Agency - Permanent
+location: Harrogate
 source: JobG8
-job_id: jobg8-2113482
-reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
+job_id: jobg8-2174235
+reason: Exact approved Harrogate workplace.
 ---
+
+## REVIEW (17)
 
 ---
 action: 
@@ -362,7 +350,7 @@ job_id: jobg8-23643_225666115
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (35)
+## EXCLUDE (37)
 
 ---
 action: 
@@ -705,6 +693,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Project Administrator
+company: Equals One Ltd - Agency - Permanent
+location: Selby
+source: JobG8
+job_id: jobg8-108215746
+reason: The stated workplace belongs outside the approved Harrogate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Project Administrator
 company: Innovex - Agency - Permanent
 location: Selby
 source: JobG8
@@ -721,6 +721,18 @@ company: LEGAL TALENT PARTNERS LIMITED - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2055397
+reason: The stated workplace belongs outside the approved Harrogate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Reprographics & Admin assistant
+company: PK Education - Agency - Temporary
+location: York
+source: JobG8
+job_id: jobg8-23643_225755874
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 

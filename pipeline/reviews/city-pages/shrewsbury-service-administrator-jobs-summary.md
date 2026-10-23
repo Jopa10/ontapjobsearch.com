@@ -4,7 +4,7 @@
 - Live route: `/shrewsbury/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 21
+- automatic include: 7
+- automatic review: 22
 - automatic exclude: 0
-- effective include: 6
-- effective review: 21
+- effective include: 7
+- effective review: 22
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (7)
 
 ---
 action: 
@@ -88,6 +88,18 @@ reason: Exact approved Shrewsbury workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist
+company: Marysville Medical Practice
+location: Shrewsbury, SY3 7QR
+source: NHS Jobs
+job_id: nhs-5678074
+reason: Exact approved Shrewsbury workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Service Advisor
 company: Auto Skills UK - Agency - Permanent
 location: Shrewsbury
@@ -96,7 +108,7 @@ job_id: jobg8-23643_225715945
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (21)
+## REVIEW (22)
 
 ---
 action: 
@@ -191,18 +203,6 @@ company: Consula Group LTD - Agency - Permanent
 location: Shropshire
 source: JobG8
 job_id: jobg8-2078828
-reason: No exact Shrewsbury workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Housing Repairs Administrator
-company: Thorngate Churcher Trust - Agency - Permanent
-location: Shropshire
-source: JobG8
-job_id: jobg8-23643_225698170
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 
@@ -318,11 +318,35 @@ reason: No exact Shrewsbury workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Sales Administrator
+company: Prince Personnel Limited - Agency - Contract
+location: Shropshire
+source: JobG8
+job_id: jobg8-23643_225666142
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Stores Coordinator / Front Counter Support
 company: Pertemps Telford - Agency - Temporary
 location: Telford
 source: JobG8
 job_id: jobg8-23643_225735083
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Technical Administrator
+company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-23643_225754538
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

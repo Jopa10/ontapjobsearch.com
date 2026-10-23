@@ -4,7 +4,7 @@
 - Live route: `/bath/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,26 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
-- automatic review: 64
+- automatic include: 7
+- automatic review: 66
 - automatic exclude: 0
-- effective include: 8
-- effective review: 64
+- effective include: 7
+- effective review: 66
 - effective exclude: 0
 
-## INCLUDE (8)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Accounts Assistant
-company: Reed - Agency - Permanent
-location: Bath
-source: JobG8
-job_id: jobg8-2020842
-reason: Exact approved Bath workplace.
----
+## INCLUDE (7)
 
 ---
 action: 
@@ -120,7 +108,7 @@ job_id: jobg8-23643_225653411
 reason: Exact approved Bath workplace.
 ---
 
-## REVIEW (64)
+## REVIEW (66)
 
 ---
 action: 
@@ -263,6 +251,18 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Gloucestershire
 source: JobG8
 job_id: jobg8-23643_225689683
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Home Administrator
+company: Hamberley Care Management Limited - Company - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225752416
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -462,18 +462,6 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
-title: Financial Administrator
-company: Aldwych Consulting - Agency - Temporary
-location: Bristol
-source: JobG8
-job_id: jobg8-23643_225640986
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Freight Co-Ordinator
 company: Travail Employment Group - Agency - Permanent
 location: Bristol
@@ -642,6 +630,18 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
+title: Medical Administrator
+company: The Old School Surgery
+location: Bristol, BS16 1QY
+source: NHS Jobs
+job_id: nhs-5678615
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Medical Receptionist / Administrator
 company: St Augustine’s Medical Practice
 location: Keynsham, BS31 2GN
@@ -659,6 +659,18 @@ company: Greenway Community Practice
 location: Bristol, BS10 6AF
 source: NHS Jobs
 job_id: nhs-5643222
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Motor Trade Service Advisor
+company: Tru Talent - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225753239
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -738,11 +750,11 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
-title: Project Coordinator
-company: ReQuire Consultancy LTD - Agency - Permanent
-location: Bristol
+title: Purchase Ledger Clerk (Temporary)
+company: Adecco - Agency - Temporary
+location: Gloucestershire
 source: JobG8
-job_id: jobg8-23643_225703813
+job_id: jobg8-23643_225702996
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -750,11 +762,11 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
-title: Purchase Ledger Clerk (Temporary)
-company: Adecco - Agency - Temporary
-location: Gloucestershire
+title: Repairs Coordinator
+company: Tate - Agency - Temporary
+location: Bristol
 source: JobG8
-job_id: jobg8-23643_225702996
+job_id: jobg8-23643_225755555
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 

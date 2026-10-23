@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 50
+- automatic review: 49
 - automatic exclude: 0
 - effective include: 6
-- effective review: 50
+- effective review: 49
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225690247
 reason: Exact approved Gloucester workplace.
 ---
 
-## REVIEW (50)
+## REVIEW (49)
 
 ---
 action: 
@@ -366,23 +366,11 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Finance & Payroll Accounts Assistant - TEMP TO PERM
-company: Robert Half - Agency - Permanent
+title: Finance officer - Rent and Service Charges
+company: Gloucester City Homes - Agency - Permanent
 location: Gloucestershire
 source: JobG8
-job_id: jobg8-2021493
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: French speaking Payroll & HR Coordinator
-company: Euro London - Agency - Permanent
-location: Cirencester
-source: JobG8
-job_id: jobg8-2022072
+job_id: jobg8-2166597
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

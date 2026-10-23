@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
-- automatic review: 18
-- automatic exclude: 33
-- effective include: 12
-- effective review: 18
-- effective exclude: 33
+- automatic include: 13
+- automatic review: 17
+- automatic exclude: 34
+- effective include: 13
+- effective review: 17
+- effective exclude: 34
 
-## INCLUDE (12)
+## INCLUDE (13)
 
 ---
 action: 
@@ -160,6 +160,18 @@ reason: Approved York catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Reprographics & Admin assistant
+company: PK Education - Agency - Temporary
+location: York
+source: JobG8
+job_id: jobg8-23643_225755874
+reason: Approved York catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Ward Clerk
 company: York and Scarborough Teaching Hospitals NHS Foundation Trust
 location: York, YO31 8HE
@@ -168,19 +180,7 @@ job_id: nhs-5665026
 reason: Approved York catchment.
 ---
 
-## REVIEW (18)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Magpie Recruitment - Agency - Permanent
-location: Richmond
-source: JobG8
-job_id: jobg8-2113482
-reason: No approved York catchment rule matched; local review required.
----
+## REVIEW (17)
 
 ---
 action: 
@@ -386,7 +386,7 @@ job_id: jobg8-23643_225666115
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (33)
+## EXCLUDE (34)
 
 ---
 action: 
@@ -433,18 +433,6 @@ company: Si Recruitment - Agency - Permanent
 location: Harrogate
 source: JobG8
 job_id: jobg8-2048296
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Clinical Team Administrator
-company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Harrogate, HG1 5QE
-source: NHS Jobs
-job_id: nhs-5649706
 reason: Separate employment market.
 ---
 
@@ -669,6 +657,18 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Project Administrator
+company: Equals One Ltd - Agency - Permanent
+location: Selby
+source: JobG8
+job_id: jobg8-108215746
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Project Administrator
 company: Innovex - Agency - Permanent
 location: Selby
 source: JobG8
@@ -781,5 +781,17 @@ company: Unity Resourcing Ltd - Agency - Permanent
 location: Harrogate
 source: JobG8
 job_id: jobg8-23643_225691482
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Volunteer Coordinator (12 month maternity cover role)
+company: Harrogate Homeless Project - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-2174235
 reason: Separate employment market.
 ---

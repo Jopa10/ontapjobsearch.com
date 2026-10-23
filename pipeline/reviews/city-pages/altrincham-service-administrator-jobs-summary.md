@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 26
+- automatic review: 27
 - automatic exclude: 0
 - effective include: 8
-- effective review: 26
+- effective review: 27
 - effective exclude: 0
 
 ## INCLUDE (8)
@@ -120,7 +120,7 @@ job_id: jobg8-2039520
 reason: Exact approved Altrincham workplace.
 ---
 
-## REVIEW (26)
+## REVIEW (27)
 
 ---
 action: 
@@ -150,11 +150,35 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Activities Coordinator
+company: Exemplar Health Care - Company - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-108207964
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Admin/Contact Centre
 company: Alliance Personnel - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225732366
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Assistant
+company: Hays Business Support - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225753753
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -263,18 +287,6 @@ company: HT Practice
 location: Ashton Under Lyne, OL7 0NW
 source: NHS Jobs
 job_id: nhs-5671910
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Records Clerk
-company: Pennine Care NHS FT
-location: Stockport, SK1 3XE
-source: NHS Jobs
-job_id: nhs-5649683
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

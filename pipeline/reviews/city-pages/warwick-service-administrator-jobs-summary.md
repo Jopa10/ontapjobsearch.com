@@ -4,7 +4,7 @@
 - Live route: `/warwick/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 11
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 84
+- automatic include: 12
+- automatic review: 90
 - automatic exclude: 0
-- effective include: 11
-- effective review: 84
+- effective include: 12
+- effective review: 90
 - effective exclude: 0
 
-## INCLUDE (11)
+## INCLUDE (12)
 
 ---
 action: 
@@ -124,6 +124,18 @@ reason: Exact approved Warwick workplace.
 action: 
 decision: include
 automatic_decision: include
+title: HR Assistant
+company: HR Dept - South Warwickshire - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-23643_225752077
+reason: Exact approved Warwick workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: HR Officer
 company: Recruitable Staffing Solutions - Agency - Temporary
 location: Warwick
@@ -156,7 +168,7 @@ job_id: jobg8-23643_225673829
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (84)
+## REVIEW (90)
 
 ---
 action: 
@@ -319,10 +331,34 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
+company: Options Resourcing Ltd - Agency - Permanent
+location: Southam
+source: JobG8
+job_id: jobg8-23643_225752464
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
 company: Practice Plus Group - Health in Justice
 location: Rugby, CV23 8AP
 source: NHS Jobs
 job_id: nhs-5667538
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Provit Recruitment - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225752858
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -438,6 +474,18 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Customer Service Advisor
+company: Brellis Recruitment - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225748714
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Customer Service Advisor - Property Management
 company: Accord Lets - Agency - Permanent
 location: Warwickshire
@@ -467,6 +515,18 @@ company: RTL Group Ltd - Agency - Contract
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225709208
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Document Controller
+company: Stepnell Ltd - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225640022
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -966,6 +1026,18 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Receptionist
+company: SWFT Clinical Services Ltd
+location: Stratford Upon Avon, CV37 6NQ
+source: NHS Jobs
+job_id: nhs-5679471
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Receptionist and Administrator (2 days per week)
 company: Kenilworth School and Sixth Form
 location: Kenilworth
@@ -1151,6 +1223,18 @@ company: Triumph - Agency - Temporary
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225746288
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Ward Administrator
+company: George Eliot Hospital NHS Trust
+location: Nuneaton, CV10 7DJ
+source: NHS Jobs
+job_id: nhs-5679192
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 9
 - automatic review: 75
-- automatic exclude: 37
+- automatic exclude: 36
 - effective include: 9
 - effective review: 75
-- effective exclude: 37
+- effective exclude: 36
 
 ## INCLUDE (9)
 
@@ -366,18 +366,6 @@ reason: The stated location is broader or less specific than the approved Horsha
 action: 
 decision: review
 automatic_decision: review
-title: Call Handler
-company: MMP Consultancy - Agency - Temporary
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225638258
-reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Care Coordinator
 company: The Cinnamon Care Collection - Company - Permanent
 location: Sussex
@@ -667,18 +655,6 @@ action:
 decision: review
 automatic_decision: review
 title: Marketing Executive
-company: Office Angels - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-23643_225639785
-reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Marketing Executive
 company: Reed - Agency - Permanent
 location: Burgess Hill
 source: JobG8
@@ -762,24 +738,24 @@ reason: The stated location is broader or less specific than the approved Horsha
 action: 
 decision: review
 automatic_decision: review
-title: Payroll administrator
-company: Portfolio Payroll - Agency - Permanent
-location: Sussex
-source: JobG8
-job_id: jobg8-2021499
-reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Payroll Administrator
 company: Tony Alan Recruitment - Agency - Permanent
 location: Hailsham
 source: JobG8
 job_id: jobg8-2103807
 reason: No approved Horsham employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Reception / Administrator - Immediate Start
+company: Office Angels - Agency - Contract
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225751553
+reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
 ---
@@ -816,6 +792,30 @@ location: Sussex
 source: JobG8
 job_id: jobg8-23643_225732287
 reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Quayside Medical Practice
+location: Newhaven, BN9 9SQ
+source: NHS Jobs
+job_id: nhs-5678409
+reason: No approved Horsham employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Receptionist
+company: Total Facilities Recruitment Limited - Agency - Temporary
+location: Haywards Heath
+source: JobG8
+job_id: jobg8-23643_225755736
+reason: No approved Horsham employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---
@@ -1034,7 +1034,7 @@ job_id: jobg8-23643_225699794
 reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
 ---
 
-## EXCLUDE (37)
+## EXCLUDE (36)
 
 ---
 action: 
@@ -1124,18 +1124,6 @@ reason: The stated workplace belongs outside the approved Horsham employment mar
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Call Handler
-company: Skilled Careers - Agency - Temporary
-location: Crawley
-source: JobG8
-job_id: jobg8-23643_225648538
-reason: The stated workplace belongs outside the approved Horsham employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Call Handler / Patient Coordinator
 company: First Recruitment Services - Agency - Temporary
 location: Crawley
@@ -1208,11 +1196,11 @@ reason: The stated workplace belongs outside the approved Horsham employment mar
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Crewing Operations Coordinator
-company: Reed - Agency - Permanent
+title: Customer Service Advisor
+company: Rhodium Consulting - Agency - Permanent
 location: Crawley
 source: JobG8
-job_id: jobg8-2166014
+job_id: jobg8-23643_225747946
 reason: The stated workplace belongs outside the approved Horsham employment market.
 ---
 

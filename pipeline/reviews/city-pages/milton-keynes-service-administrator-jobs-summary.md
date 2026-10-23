@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 19
-- automatic review: 66
+- automatic review: 65
 - automatic exclude: 0
 - effective include: 19
-- effective review: 66
+- effective review: 65
 - effective exclude: 0
 
 ## INCLUDE (19)
@@ -148,18 +148,6 @@ reason: Exact approved Milton Keynes workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Import & Export Administrator
-company: Insight Employment Ltd - Agency - Permanent
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-107969156
-reason: Exact approved Milton Keynes workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Medical Receptionist
 company: Ashfield Medical Centre
 location: Milton Keynes, MK6 4NE
@@ -252,7 +240,19 @@ job_id: jobg8-23643_225696301
 reason: Exact approved Milton Keynes workplace.
 ---
 
-## REVIEW (66)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Youth Mentoring Coordinator
+company: YMCA South Midlands - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-2169089
+reason: Exact approved Milton Keynes workplace.
+---
+
+## REVIEW (65)
 
 ---
 action: 
@@ -930,18 +930,6 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Sales & Office Administrator
-company: JR Recruitment - Agency - Permanent
-location: Chesham
-source: JobG8
-job_id: jobg8-23643_225704137
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales Administrator
 company: Elizabeth Michael Associates LTD - Agency - Permanent
 location: Buckinghamshire
@@ -978,11 +966,11 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Service Administrator
-company: Future Engineering Recruitment Ltd - Agency - Permanent
-location: Buckinghamshire
+title: Sales Ledger Controller
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Marlow
 source: JobG8
-job_id: jobg8-23643_225661694
+job_id: jobg8-23643_225647949
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -990,11 +978,11 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Team Administrator
-company: Oxford Health NHS Trust
-location: Aylesbury, HP20 1EG
-source: NHS Jobs
-job_id: nhs-5648388
+title: Service Administrator
+company: Future Engineering Recruitment Ltd - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225661694
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

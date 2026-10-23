@@ -4,7 +4,7 @@
 - Live route: `/barnsley/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 7
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 8
-- automatic exclude: 51
-- effective include: 7
-- effective review: 8
-- effective exclude: 51
+- automatic include: 6
+- automatic review: 9
+- automatic exclude: 48
+- effective include: 6
+- effective review: 9
+- effective exclude: 48
 
-## INCLUDE (7)
+## INCLUDE (6)
 
 ---
 action: 
@@ -88,18 +88,6 @@ reason: Approved Barnsley catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Next Day Tracking Coordinators
-company: TRC Yorkshire - Agency - Permanent
-location: Barnsley
-source: JobG8
-job_id: jobg8-23643_225639980
-reason: Approved Barnsley catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Training Coordinator
 company: Charto Recruitment Ltd - Agency - Permanent
 location: Barnsley
@@ -108,7 +96,7 @@ job_id: jobg8-23643_225749128
 reason: Approved Barnsley catchment.
 ---
 
-## REVIEW (8)
+## REVIEW (9)
 
 ---
 action: 
@@ -131,6 +119,18 @@ company: Office Angels - Agency - Permanent
 location: Brinsworth
 source: JobG8
 job_id: jobg8-23643_225741868
+reason: No approved Barnsley catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Digital Administration Assistant
+company: Back TO Work - Agency - Permanent
+location: Brinsworth
+source: JobG8
+job_id: jobg8-23643_225754435
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
@@ -206,7 +206,7 @@ job_id: jobg8-23643_225681456
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (51)
+## EXCLUDE (48)
 
 ---
 action: 
@@ -358,45 +358,9 @@ decision: exclude
 automatic_decision: exclude
 title: Clerical Officer
 company: Sheffield Teaching Hospitals NHS Foundation Trust
-location: Sheffield, S10 2JF
-source: NHS Jobs
-job_id: nhs-5657398
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Clerical Officer
-company: Sheffield Teaching Hospitals NHS Foundation Trust
-location: Sheffield, S5 7AU
-source: NHS Jobs
-job_id: nhs-5673070
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Clerical Officer
-company: Sheffield Teaching Hospitals NHS Foundation Trust
 location: Sheffield, S10 2SF
 source: NHS Jobs
 job_id: nhs-5674866
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Clerical Officer/Receptionist
-company: Sheffield Teaching Hospitals NHS Foundation Trust
-location: Sheffield, S10 2JF
-source: NHS Jobs
-job_id: nhs-5662272
 reason: Separate employment market.
 ---
 
@@ -457,18 +421,6 @@ company: Sue Ross Recruitment Ltd - Agency - Contract
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225597891
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Administrator
-company: Office Angels - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-23643_225686056
 reason: Separate employment market.
 ---
 
@@ -553,6 +505,18 @@ company: Talent-UK Ltd - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225673478
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: IP Administrator (Experienced)
+company: Withers & Rogers - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-108207449
 reason: Separate employment market.
 ---
 

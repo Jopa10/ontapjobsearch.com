@@ -16,25 +16,13 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 53
+- automatic review: 54
 - automatic exclude: 0
 - effective include: 7
-- effective review: 53
+- effective review: 54
 - effective exclude: 0
 
 ## INCLUDE (7)
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Marketing Executive
-company: Work Lyf Group Ltd - Agency - Permanent
-location: Stoke-On-Trent
-source: JobG8
-job_id: jobg8-23643_225686383
-reason: Exact approved Stoke-on-trent workplace.
----
 
 ---
 action: 
@@ -45,6 +33,18 @@ company: North Staffordshire Combined Healthcare Trust
 location: Stoke-on-Trent, ST1 3NJ
 source: NHS Jobs
 job_id: nhs-5674735
+reason: Exact approved Stoke-on-trent workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Administrator
+company: hireful - Company - Permanent
+location: Stoke-On-Trent
+source: JobG8
+job_id: jobg8-23643_225755982
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
@@ -108,7 +108,7 @@ job_id: nhs-5675916
 reason: Exact approved Stoke-on-trent workplace.
 ---
 
-## REVIEW (53)
+## REVIEW (54)
 
 ---
 action: 
@@ -119,6 +119,18 @@ company: Veolia - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225720563
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Admin Assistant
+company: TeacherActive - Agency - Temporary
+location: Cannock
+source: JobG8
+job_id: jobg8-23643_225754033
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -234,6 +246,18 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
+title: Contact Centre Advisor - Working from Home
+company: Adecco - Agency - Temporary
+location: Staffordshire
+source: JobG8
+job_id: jobg8-23643_225749946
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Contact Centre Agent
 company: Safer Hand Solutions - Agency - Permanent
 location: Staffordshire
@@ -311,18 +335,6 @@ company: Anderson Wright Consulting - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225665775
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Data Entry
-company: Pertemps Wolverhampton and Walsall - Agency - Temporary
-location: Staffordshire
-source: JobG8
-job_id: jobg8-23643_225641936
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
