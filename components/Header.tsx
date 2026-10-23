@@ -50,10 +50,10 @@ export default function Header() {
                                 Home
                             </Link>
                         )}
-                        {!isHome && !isAdmin && (
+                        {!isAdmin && (
                             <Link
                                 href="/browse-jobs"
-                                className="hidden text-gray-700 hover:text-blue-600 font-normal transition-colors sm:inline"
+                                className={`text-gray-700 hover:text-blue-600 font-normal transition-colors ${isHome ? '' : 'hidden sm:inline'}`}
                             >
                                 Browse Jobs
                             </Link>
