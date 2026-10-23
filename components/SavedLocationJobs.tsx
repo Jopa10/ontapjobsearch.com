@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { FormEvent, useEffect, useState } from "react";
+import { FormEvent, useEffect, useRef, useState } from "react";
+import { usePathname } from "next/navigation";
 import styles from "@/components/SavedLocationJobs.module.css";
 import { ANALYTICS_READY_EVENT } from "@/lib/analytics-client";
 
@@ -32,6 +33,7 @@ export const savedLocationJobsEvent = LOCATION_EVENT;
 
 function trackNearbyEvent(
   eventName:
+    | "nearby_panel_view"
     | "nearby_location_click"
     | "nearby_location_success"
     | "nearby_location_failure"
@@ -98,6 +100,33 @@ export default function SavedLocationJobs({ jobId }: { jobId?: string }) {
   const [count, setCount] = useState<number>();
   const [message, setMessage] = useState("");
   const [showManual, setShowManual] = useState(false);
+  const panelRef = useRef<HTMLElement>(null);
+  const viewState = useRef({ path: "", viewed: false });
+  const pathname = usePathname();
+
+  useEffect(() => {
+    const panel = panelRef.current;
+    if (!panel || typeof IntersectionObserver === "undefined") return;
+    if (viewState.current.path !== pathname) viewState.current = { path: pathname, viewed: false };
+    let halfVisible = false;
+    const recordView = () => {
+      if (!halfVisible || document.visibilityState !== "visible" || viewState.current.viewed) return;
+      viewState.current.viewed = true;
+      trackNearbyEvent("nearby_panel_view", jobId, {
+        panel_state: readSavedLocation() ? "saved_location" : "find_location",
+      });
+    };
+    const observer = new IntersectionObserver(([entry]) => {
+      halfVisible = entry.isIntersecting && entry.intersectionRatio >= 0.5;
+      recordView();
+    }, { threshold: 0.5 });
+    observer.observe(panel);
+    document.addEventListener("visibilitychange", recordView);
+    return () => {
+      observer.disconnect();
+      document.removeEventListener("visibilitychange", recordView);
+    };
+  }, [pathname, jobId]);
 
   async function lookup(payload: Record<string, unknown>, method: LocationMethod) {
     if (method !== "saved") {
@@ -253,7 +282,7 @@ export default function SavedLocationJobs({ jobId }: { jobId?: string }) {
   }
 
   return (
-    <section className={styles.panel} aria-label="Jobs near your location">
+    <section ref={panelRef} className={styles.panel} aria-label="Jobs near your location">
       <span className={styles.pin} aria-hidden="true">●</span>
       <div className={styles.copy}>
         <div className={styles.heading}>{saved ? `Jobs near ${saved.town}` : "Find jobs near you"}</div>
