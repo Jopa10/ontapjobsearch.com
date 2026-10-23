@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-10-22
-review_fingerprint: 23bf4382bde425e616b76c7c51123ae6eca5aa65c29fbcdb70077115ff9821ef
+review_date: 2026-10-23
+review_fingerprint: 6fc91893d087c9383c863a279a41a66f65808665147711a246ded5542bbc379d
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,47 +10,36 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-10-22T13:16:06+01:00
+Run generated: 2026-10-23T12:57:29+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 410
+JobG8 comparison rows: 406
 Approved NEJobs comparison rows: 0
 
 ## Funnel
 - VONNE listings read: 15
-- Detail-page candidates: 5
-- Detail pages fetched successfully: 5
+- Detail-page candidates: 4
+- Detail pages fetched successfully: 4
 - Detail failures/listing fallbacks: 0
-- Obvious hard passes not detail-fetched: 10
+- Obvious hard passes not detail-fetched: 11
 - Tees Valley explicitly excluded: 0
 - Outside or unmapped geography excluded: 1
-- Generic/derived geography rows requiring review: 3
+- Generic/derived geography rows requiring review: 2
 - Retained target candidates: 14
 
 ## Outcomes
-- HC: 1
-- POSS: 5
-- HARD_PASS: 8
-- Final selected after remembered/manual actions: 1
+- HC: 0
+- POSS: 4
+- HARD_PASS: 10
+- Final selected after remembered/manual actions: 0
 - Final POSS awaiting decision: 0
-- Manually excluded: 5
+- Manually excluded: 4
 ## Detail diagnostics
 - No unresolved detail-page failures.
 
 ## SELECTED
 
----
-action:
-SELECTED | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £25,880 Per Annum | Contact Centre Adviser - Consumer
-employer: Citizens Advice Gateshead
-closing_date: Friday, October 23, 2026 - 09:00
-geography: CONFIRMED — location: approved location fallback
-reason: clear transferable title: contact centre
-source: VONNE
-tracking_key: vonne-173530
-vacancy_fingerprint: 48a133cf6dd62ccaf528f1e4c9ae33813dd3f80af77a8f77feab91e62a7f965a
-source_job_id: 173530
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173530
----
+- None.
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -94,19 +83,6 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173522
 ---
 ---
 action: exclude
-POSS | North East - Tyneside, Wearside & Northumberland | Hybrid | £ | Social Welfare Adviser
-employer: Citizens Advice Gateshead
-closing_date: 23 October 2026
-geography: DERIVED_REVIEW — employer-derived geography: area found in address: gateshead
-reason: North East geography is generic or derived and requires review
-source: VONNE
-tracking_key: vonne-173531
-vacancy_fingerprint: f66ce826443620503db801f7cc0a1c849b114fa6d8758b2c2a30486161b27452
-source_job_id: 173531
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173531
----
----
-action: exclude
 POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £26,718 to 28,772 Per Annum | Student Communities Coordinator, Sunderland
 employer: University of Sunderland Students' Union
 closing_date: Sunday, November 1, 2026 - 23:59
@@ -129,8 +105,10 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173537
 - [Bid Writer (Trusts and Foundations)](https://www.vonne.org.uk/vonne-jobs-details?cid=173383) — insufficient service-admin evidence.
 - [Chief Executive](https://www.vonne.org.uk/vonne-jobs-details?cid=173526) — out-of-scope VONNE occupation.
 - [Community Link Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173544) — out-of-scope VONNE occupation.
+- [Domestic Abuse Refuge Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173561) — out-of-scope VONNE occupation.
 - [Employability and Skills Mentor](https://www.vonne.org.uk/vonne-jobs-details?cid=173545) — insufficient service-admin evidence.
 - [Independent Advocate](https://www.vonne.org.uk/vonne-jobs-details?cid=173539) — insufficient service-admin evidence.
+- [Interim Chief Executive Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173518) — out-of-scope VONNE occupation.
 - [Payroll and People Systems Assistant](https://www.vonne.org.uk/vonne-jobs-details?cid=173536) — confirmed JobG8 duplicate.
 
 ## Safety boundary
