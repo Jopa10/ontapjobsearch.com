@@ -2,15 +2,171 @@
 
 review_date: 2026-10-23
 
-- Open Administrative & Clerical rows reviewed: 2005
-- Auto/remembered selected: 374
-- Selected HC Tier A: 198
+- Open Administrative & Clerical rows reviewed: 2018
+- Auto/remembered selected: 378
+- Selected HC Tier A: 202
 - Selected HC Tier B: 176
-- POSS awaiting decision: 1533
+- POSS awaiting decision: 1542
 - Excluded: 0
 - HARD_PASS: 98
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | West Midlands - Black Country | Wolverhampton, WV1 1SH, Birmingham, B1 1TT | £39959.00 to £48117.00 | Quality Officer
+source_job_id: 5677162
+title: Quality Officer
+employer: Black Country Integrated Care Board
+region: West Midlands - Black Country
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9118-26-0072
+factual_fingerprint: 96ca5b3ca887bb8d51fe4affb3ecd883973108d68330ac743baae97193305a69
+---
+
+---
+action:
+POSS | NHS Jobs | West Midlands - Black Country | Wolverhampton, WV1 1SH, Birmingham, B1 1TT | £57528.00 to £64750.00 | WorkWell Service Manager (Clinical)
+source_job_id: 5676927
+title: WorkWell Service Manager (Clinical)
+employer: Black Country Integrated Care Board
+region: West Midlands - Black Country
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9118-26-0071
+factual_fingerprint: f62c9b50a905dcd892639dfb5f498362bbdabea2f0787b923f6513907b766311
+---
+
+---
+action:
+POSS | NHS Jobs | Yorkshire - South | Barnsley, S71 5PN | Negotiable | Digital and Transformation Lead
+source_job_id: 5680339
+title: Digital and Transformation Lead
+employer: Barnsley Healthcare Federation
+region: Yorkshire - South
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0243-26-0057
+factual_fingerprint: d4bfbb48aaf09a2ec149f1b66fb1cb32cfe0644d6c7520cc8fa71dd03e4db764
+---
+
+---
+action:
+POSS | NHS Jobs | West Midlands - Birmingham & Solihull | Birmingham, B15 2TH | £25760.00 to £27476.00 | Band 3 Administrator/Coordinator- Nuclear Medicine
+source_job_id: 5680337
+title: Band 3 Administrator/Coordinator- Nuclear Medicine
+employer: University Hospitals Birmingham NHS Foundation Trust
+region: West Midlands - Birmingham & Solihull
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C0020-26-1632
+factual_fingerprint: df8d5f9b551afe92640fe2e4759779b90e423cef092d9a3ccb3bbe5842b23426
+---
+
+---
+action:
+POSS | NHS Jobs | Kent | Maidstone, ME15 6NB | £39959.00 to £48117.00 | Management Accountant
+source_job_id: 5679275
+title: Management Accountant
+employer: NHS Kent and Medway Integrated Care Board
+region: Kent
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9095-26-0089
+factual_fingerprint: 3e2f710fb92dd0bb9cddde2ff534b9941e8dbfb03b030605835ea31d810d16bf
+---
+
+---
+action:
+POSS | NHS Jobs | Kent | Maidstone, ME15 6NB | £57528.00 to £64750.00 | Finance Business Partner CMO/CNO
+source_job_id: 5679273
+title: Finance Business Partner CMO/CNO
+employer: NHS Kent and Medway Integrated Care Board
+region: Kent
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9095-26-0088
+factual_fingerprint: ab1542f0d53f3dfb60d971172a9524ea2781afe537c15e681b490302b4fb9f38
+---
+
+---
+action:
+POSS | NHS Jobs | West Midlands - Black Country | Wolverhampton, WV1 1SH, Birmingham, B1 1TT | £350.00 | Associate Medical Director roles
+source_job_id: 5675082
+title: Associate Medical Director roles
+employer: Black Country Integrated Care Board
+region: West Midlands - Black Country
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9118-26-0066
+factual_fingerprint: d18353895a174b49f91004e39e4ebded70c324b685e23194d18c52fc6acf487f
+---
+
+---
+action:
+POSS | NHS Jobs | Merseyside - Liverpool | Liverpool, L12 2AP | £25760.00 to £27476.00 | ERoster Assistant
+source_job_id: 5675029
+title: ERoster Assistant
+employer: Alder Hey Children's NHS Foundation Trust
+region: Merseyside - Liverpool
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9411-26-0248
+factual_fingerprint: df73bf805cdfece179b02a607eb67f2afdbc3741b6a0e9eda50df52925bf1c3c
+---
+
+---
+action:
+POSS | NHS Jobs | West Midlands - Black Country | Wolverhampton, WV1 1SH, Birmingham, B1 1TT | £350.00 | Clinical Leadership Roles
+source_job_id: 5677846
+title: Clinical Leadership Roles
+employer: Black Country Integrated Care Board
+region: West Midlands - Black Country
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9118-26-0074
+factual_fingerprint: 43d860609885b0bacf8da875892dbf0874370bb650b4a3ee77056ac734658b15
+---
+
+---
+action:
+POSS | NHS Jobs | Lincolnshire | Grantham, NG31 6HR | £12.71 | Medical & Admin Secretary
+source_job_id: 5680332
+title: Medical & Admin Secretary
+employer: St Johns Medical Centre
+region: Lincolnshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1825-26-0006
+factual_fingerprint: f9a3b64730543e798a6c589c8be1904c16ab120ba4521aab95d2219513789319
+---
+
+---
+action:
+POSS | NHS Jobs | West Midlands - Black Country | Wolverhampton, WV1 1SH, Birmingham, B1 1TT | £350.00 | Associate Medical Director: Clinical Lead for Medicines
+source_job_id: 5677625
+title: Associate Medical Director: Clinical Lead for Medicines
+employer: Black Country Integrated Care Board
+region: West Midlands - Black Country
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9118-26-0073
+factual_fingerprint: 0c0fd8384061a5793ac02b29b52e442aef199f27ac078f2cd16929edd04a49d4
+---
+
+---
+action:
+POSS | NHS Jobs | West Midlands - Black Country | Wolverhampton, WV1 1SH, Birmingham, B1 1TT | £350.00 | Associate Medical Director: Clinical Lead for Policies
+source_job_id: 5677608
+title: Associate Medical Director: Clinical Lead for Policies
+employer: Black Country Integrated Care Board
+region: West Midlands - Black Country
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/D9118-26-0067
+factual_fingerprint: a0861a401792d5c1dd3b12f51dbbe0c040686c622d569a7171276b56ca3ee561
+---
+
+---
+action:
+POSS | NHS Jobs | Essex | Grays, RM16 2PX | £28392.00 to £31157.00 | Management Accountant
+source_job_id: 5679895
+title: Management Accountant
+employer: Essex Partnership University NHS Foundation Trust
+region: Essex
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9364-26-1028
+factual_fingerprint: f8ed8cf984fe3fb7bf3b88520fc051d923b8f4e38474e9313443bf1f1d1af4ce
+---
 
 ---
 action:
@@ -10862,18 +11018,6 @@ factual_fingerprint: 36dabcedebbc1c0c6d650ca32456a6badf09f022a229e21ced719335d39
 
 ---
 action:
-POSS | NHS Jobs | Cheshire - East | Macclesfield, SK11 6JL | £34000.00 | Booking and Administration Manager
-source_job_id: 5663325
-title: Booking and Administration Manager
-employer: Vernova Healthcare Community Interest Company
-region: Cheshire - East
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0251-26-0020
-factual_fingerprint: bd9a7747ef2dec2cb67f1192df64698086ed3dffa2b4da1f4e2c1272baa53a09
----
-
----
-action:
 POSS | NHS Jobs | Yorkshire - West | Leeds, LS9 7TF | £28392.00 to £31157.00 | Project Support Officer
 source_job_id: 5663450
 title: Project Support Officer
@@ -14817,7 +14961,7 @@ employer: South West Yorkshire Partnership NHS Trust
 region: Yorkshire - West
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9378-CK2568
-factual_fingerprint: 6886515b32b2b1807f833672b9b140fd883a30950b0f52eaac911ddf0af901d3
+factual_fingerprint: c8346e8cf83c42c6ff9f6280b556d3f33b120cb136e6b633f18d4a1f0a2a92f4
 ---
 
 ---
@@ -15674,18 +15818,6 @@ factual_fingerprint: c9a5ecfb6142080e9f3719e1ce5dce4f885371680ad3cc647e75ba9ea12
 
 ---
 action:
-POSS | NHS Jobs | Cheshire - East | Macclesfield, SK11 6JL | £34000.00 | Service Manager Diabetes & Endocrinology
-source_job_id: 5637815
-title: Service Manager Diabetes & Endocrinology
-employer: Vernova Healthcare Community Interest Company
-region: Cheshire - East
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0251-26-0018
-factual_fingerprint: fc483895dc8679be7b7eff251ad446d62ca4b83a1c4d1de74eafbc0f5dd070e4
----
-
----
-action:
 POSS | NHS Jobs | North East - Tees Valley | Middlesbrough, TS4 3BW | £94356.00 to £108814.00 | Chief Procurement Services Officer
 source_job_id: 5650051
 title: Chief Procurement Services Officer
@@ -16514,18 +16646,6 @@ factual_fingerprint: 06f68104fef622f3105ad7ef114452edd63d8d3cdfdfc64bc74fbfc9b91
 
 ---
 action:
-POSS | NHS Jobs | Worcestershire | Worcester, WR7 4BW | £13.21 | Administrator / Receptionist 12hrs per week
-source_job_id: 5644218
-title: Administrator / Receptionist 12hrs per week
-employer: Grey Gable Surgery
-region: Worcestershire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2391-26-0018
-factual_fingerprint: dd5cb63e3bd52377e34f106a8b70e44bba1d42acefd39ad8c6cf8fb9d96b4437
----
-
----
-action:
 POSS | NHS Jobs | London | Bexleyheath, DA6 7LP | £30000.00 to £33000.00 | Operations Assistant
 source_job_id: 5643853
 title: Operations Assistant
@@ -16534,18 +16654,6 @@ region: London
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A3654-26-0001
 factual_fingerprint: e26346c620f0e0db92cce6489b4741fefabd41198d9fa74ac83d17743f20de45
----
-
----
-action:
-POSS | NHS Jobs | Worcestershire | Worcester, WR7 4BW | £13.21 | Administrator / Receptionist 38.5 hrs per week
-source_job_id: 5643858
-title: Administrator / Receptionist 38.5 hrs per week
-employer: Grey Gable Surgery
-region: Worcestershire
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A2391-26-0017
-factual_fingerprint: a70bbdbbc32008e562641e08688c992c63e947531d1fbeda4f0b9783b0241714
 ---
 
 ---
