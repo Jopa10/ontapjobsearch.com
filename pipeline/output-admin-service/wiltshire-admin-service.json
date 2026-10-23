@@ -981,6 +981,28 @@
     "posted_date_basis": ""
   },
   {
+    "job_id": "nhs-5683692",
+    "source": "NHS Jobs",
+    "title": "Team Administrator",
+    "company": "Oxford Health NHS Trust",
+    "advertiser_name": "Oxford Health NHS Trust",
+    "location": "Melksham, SN12 7NZ",
+    "region": "Wiltshire",
+    "salary": "£28392.00 to £31157.00",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-23T15:29:31.264942659",
+    "closing_date": "2026-11-05",
+    "description": "Are you an experienced administrator seeking a new challenge in mental health? We are recruiting a full time Administrator to work as part of the Melksham Community team to provide a comprehensive and confidential secretarial service to the multidisciplinary Child and Adolescent Mental Health Team. To work as part of the Community CAMHS Administration team to provide an effective, comprehensive and confidential administrative service. General administrative & reception tasks- receiving and replying to emails, answering the telephone, data entry, greeting visitors, taking notes and minutes in meetings. To ensure the Team databases/ electronic files/ performance systems are accurate and up to date, together with data inputting as necessary. To ensure efficient operation of allocating appointments, managing clinic diaries, reviews for patients and other professionals. Ensure clinicians have information available at appropriate times. Provide cover for administrative colleagues who are absent from the team and deputise for the Office Manager when needed. We hope that the advert has given you a clear understanding of the skills we are seeking and the opportunity at hand. You will need to use the supporting statement element of your application form to demonstrate your suitability for this role and you should refer to the job description, person specification and the guidance notes attached to this role to help you tailor your application. The essential and desirable criteria will be used to shortlist for interview and you should ensure that you refer to these within your application to increase your chances of being selected for interview.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1256",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1256",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
     "job_id": "nhs-5672714",
     "source": "NHS Jobs",
     "title": "Receptionist / Administrator",
@@ -996,7 +1018,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3623-26-0022",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3623-26-0022",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5614143",
@@ -1014,6 +1040,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3442-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3442-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

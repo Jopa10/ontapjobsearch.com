@@ -150,31 +150,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225648795",
-    "title": "Site Administrator",
-    "company": "Forrest Recruitment - Agency - Temporary",
-    "location": "Haslingden",
-    "region": "Lancashire - East",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "13",
-    "salary_max": "13",
-    "salary_text": "£13 per hour",
-    "posted_date": "",
-    "description": "Temporary Administrator. Haslingden. Ongoing. Start ASAP. 7.30am - 4.30pm Monday to Friday. 13 per hour.\n\nWe are currently working with a client who are looking for a temporary administrator to join their team to support with a large groundworks project in Haslingden. The role will be based on the construction site:\n\nDuties will include;\n- Booking in deliveries to site\n- Uploading inductions and training records to the system\n- Uploading drawings and RAMS onto the system for Project Managers, Work Managers and Engineers\n- Supporting one other client remotely with similar duties\n- Any additional office support the team need\n\nTo be successful, you must have good planning and organisational skills, the ability to multitask and be forward thinking. Computer literate with a great eye for detail and confident using Microsoft Excel.\n\nPlease note that due to the high volume of applications we receive, only those successfully shortlisted for the role will be personally contacted.\n\nFollow us on LinkedIn and Facebook for updates, recruitment information, new vacancies and more!",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?BLJDB6rXdtPQTEWH5epUB%2bWfqTTHJb4ck",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Forrest Recruitment",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "2065471",
     "title": "Finance Billing Co-Ordinator",
     "company": "Axon Moore Group Ltd - Agency - Permanent",
@@ -240,7 +215,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4561-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4561-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5569798",
@@ -258,6 +237,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0046-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0046-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

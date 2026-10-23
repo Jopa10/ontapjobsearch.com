@@ -50,31 +50,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "2067966",
-    "title": "Accounts Assistant",
-    "company": "Brook Street - Agency - Permanent",
-    "location": "Swansea",
-    "region": "Wales South - Swansea Bay",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "30000",
-    "salary_max": "32000",
-    "salary_text": "£30000 - £32000 per year",
-    "posted_date": "",
-    "description": "Our client is seeking a dedicated and detail-oriented Accounts Assistant to join their finance team on a fixed-term contract. This is an excellent opportunity for an experienced finance professional looking to develop their accounting skills within a busy and supportive environment.\n\nThe successful candidate will play a key role in the day-to-day running of the finance function, supporting a variety of transactional and month-end accounting activities. This position would suit someone who enjoys working with numbers, has strong Excel skills, and takes pride in maintaining accurate financial records.\n\nKey Responsibilities\n- Process and manage purchase and sales invoices accurately within the accounting system.\n- Handle invoice processing and ensure supporting documentation is complete and compliant.\n- Investigate and resolve invoice discrepancies with suppliers and internal stakeholders.\n- Allocate customer payments and cash receipts to customer accounts.\n- Assist with credit control activities, including chasing outstanding payments.\n- Review customer account information and credit limits where required.\n- Respond to customer, supplier and internal finance queries.\n- Support month-end accounting processes and preparation of financial information.\n- Perform account reconciliations, including supplier, customer, bank and intercompany accounts.\n- Assist with maintaining schedules for fixed assets, prepayments, accruals and operating expenses.\n- Maintain accurate financial records and provide administrative support to the finance team.\n- Contribute to financial reporting and support wider finance projects when required.\n\nAbout You\n- Previous experience within an Accounts Assistant, Finance Assistant or similar finance role.\n- Experience of purchase ledger and/or sales ledger processes.\n- Strong Microsoft Excel skills (essential).\n- A good understanding of invoice processing, reconciliations and financial administration.\n- Excellent numerical and analytical skills with strong attention to detail.\n- Strong organisational and time-management skills.\n- The ability to manage workloads effectively and meet deadlines.\n- Excellent communication skills, both written and verbal.\n- A proactive approach to problem-solving and resolving discrepancies.\n- The ability to work independently and as part of a team.\n\nDesirable Experience\n- Previous credit control experience.\n- Experience using SAP or a similar ERP/accounting system.\n- Studying towards, or holding, an accounting qualification such as AAT.\n\nWhat's On Offer\n- Salary of £30,000 - £32,000 depending on experience.\n- Opportunity to gain valuable experience within a busy finance function.\n- Supportive and collaborative working environment.\n- Exposure to a broad range of accounting and finance activities.\n- Opportunity to develop your technical accounting skills and progress your finance career.\n\nIf you're an organised and motivated Accounts Assistant looking for your next opportunity, we'd love to hear from you. Apply today to be considered.\n\nBrook Street NMR is acting as an Employment Agency in relation to this vacancy.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?G%2b5YiGNoEgr4geC98uUyqNHzsZ5NWX8Gn",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Brook Street",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "2101939",
     "title": "Trainee HR Administrator",
     "company": "ITOL Recruit - Agency - Permanent",
@@ -300,24 +275,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "nhs-5656367",
-    "source": "NHS Jobs",
-    "title": "Receptionist",
-    "company": "Kings Surgery",
-    "advertiser_name": "Kings Surgery",
-    "location": "Port Talbot, SA12 7BJ",
-    "region": "Wales South - Swansea Bay",
-    "salary": "Negotiable",
-    "employment_type": "Fixed-Term",
-    "posted_date": "2026-10-12T10:08:00.941051805",
-    "closing_date": "2026-10-30",
-    "description": "We are looking for an enthusiastic, reliable, and experienced Medical Receptionist to join our friendly and supportive team. This is a fantastic opportunity for someone who enjoys working with people, thrives in a busy environment, and is committed to delivering excellent patient care and customer service. The role is primarily 8:30am to 5:30pm , although flexibility is required as you will occasionally work 8:00am to 6:30pm as part of a rota system . Key Duties and Responsibilities Provide a professional and efficient reception service, ensuring the main reception desk is covered at all times. Answer and manage incoming telephone calls, dealing with patient enquiries in a courteous and confidential manner. Book, amend, and cancel patient appointments in line with practice procedures. Undertake a range of general administrative duties to support the smooth running of the practice. Scan and accurately code both electronic and paper clinical correspondence in accordance with practice protocols and agreed timescales. Enter coded information into the practice clinical system where appropriate. Oversee the distribution of clinical results in line with practice protocols. Ensure all data entry is completed accurately and complies with current guidelines and procedures. Sort and organise patient records and correspondence in chronological order in preparation for summarisation. File paper records promptly and accurately once summarisation has been completed. Liaise with clinical staff regarding any coding queries or issues to ensure accuracy and continuity of patient records. Maintain patient confidentiality and comply with all relevant policies, procedures, and data protection requirements. Main Duties/Key Tasks: Taking responsibility for own development, learning and performance and demonstrating skills and activities to others who are undertaking similar work. Manage data quality issues. Support the practice clinical audit program.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5585-26-0003",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5585-26-0003",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
-  },
-  {
     "job_id": "nhs-5623771",
     "source": "NHS Jobs",
     "title": "Receptionist",
@@ -333,6 +290,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M9043-26-0237",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/M9043-26-0237",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

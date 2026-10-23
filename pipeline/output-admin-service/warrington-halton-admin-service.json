@@ -715,7 +715,33 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9835-HA26-115a",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9835-HA26-115a",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
+  },
+  {
+    "job_id": "nhs-5675613",
+    "source": "NHS Jobs",
+    "title": "Medical Receptionist",
+    "company": "The Surgery",
+    "advertiser_name": "The Surgery",
+    "location": "Warrington, WA1 3RB",
+    "region": "Cheshire - Warrington & Halton",
+    "salary": "Negotiable",
+    "employment_type": "Permanent",
+    "posted_date": "2026-10-23T10:45:39.788864396",
+    "closing_date": "2026-11-11",
+    "description": "This post is not eligible for visa sponsorship. We are a friendly, patient-focused GP practice based in Warrington, committed to delivering high-quality care and excellent customer service to our local community. We are looking to recruit an enthusiastic, reliable, and motivated Receptionist/Administrator to join our welcoming and supportive team on a part-time basis (20.5 hours per week). This is an excellent opportunity for someone with previous experience of working in a GP practice, primary care, or a similar healthcare environment. The successful candidate will play a key role in supporting the smooth running of the practice by providing an efficient reception and administrative service, ensuring patients receive a professional, compassionate, and responsive experience. You will be joining a dedicated and experienced team with a positive working environment. We value teamwork, respect, and continuous improvement, and we are committed to supporting the development of our staff. Main duties of the job The successful candidate will be responsible for providing a comprehensive reception and administrative service, including: Welcoming patients and visitors in a professional, friendly, and compassionate manner. Responding to patient enquiries in person, by telephone, and through online services. Booking, amending, and cancelling appointments in accordance with practice procedures. Processing prescription requests and responding to prescription-related queries. Registering new patients and maintaining accurate patient records using the clinical system. Typing and processing referral letters and other clinical correspondence. Inviting patients for reviews, screening programmes, health checks, and other recall activities. Liaising with hospitals, community services, and other healthcare professionals to support patient care. Managing incoming and outgoing correspondence, both electronic and paper-based. Undertaking general administrative and office duties to support the effective running of the practice. Maintaining patient confidentiality and complying with NHS policies, GDPR, and practice procedures at all times. To provide a high-quality, professional reception and administrative service, supporting the effective day-to-day operation of the service. The post holder will be responsible for delivering a comprehensive range of reception and administrative duties while acting as the first point of contact for patients, carers, visitors, and members of the multidisciplinary team. The post holder will ensure patients receive a courteous, efficient, and compassionate service by welcoming and directing them appropriately, registering patient information accurately, booking and managing appointments, and maintaining both electronic and paper-based records in accordance with NHS policies and procedures. Working as part of the multidisciplinary team, the post holder will provide administrative support to clinical staff by processing referrals and correspondence, handling telephone and face-to-face enquiries, distributing information and messages promptly, and ensuring effective communication between patients, clinical teams, and external organisations, including secondary care providers, community services, and partner agencies. The role requires excellent organisational, communication, and customer service skills, with the ability to prioritise workloads, maintain confidentiality, and contribute to the delivery of a safe, efficient, and patient-centred service at all times.",
+    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1548-26-0005",
+    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1548-26-0005",
+    "switchability": "OPEN_SWITCH",
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5659960",
@@ -733,7 +759,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1131-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1131-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5651037",
@@ -751,6 +781,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3425-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3425-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
