@@ -164,15 +164,15 @@ class PrivateDailyTests(unittest.TestCase):
             "ALERT_CONSENT_AT": "2026-10-22", "ALERT_CONSENT_VERSION": "v1"}}
         self.job = {"job_id": "new-job", "title": "Accounts Assistant", "location": "Leeds"}
 
-    def run_private(self, dry_run, contact=None, list_id=3, branch="refs/heads/feat/cpc-job-alerts-brevo"):
+    def run_private(self, dry_run, contact=None, list_id=3, branch="refs/heads/feat/cpc-job-alerts-brevo", workflow="", verified_sha=None):
         import argparse
         from unittest.mock import patch
         from scripts.send_cpc_job_alerts import private_daily_test
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             (root / "newly-published-jobs-2026-10-22.csv").write_text("job_id\\n")
-            args = argparse.Namespace(date="2026-10-22", reports_dir=root, app_dir=root, dry_run=dry_run)
-            with patch.dict("os.environ", {"GITHUB_REF": branch}), \
+            args = argparse.Namespace(date="2026-10-22", reports_dir=root, app_dir=root, dry_run=dry_run, verified_production_sha=verified_sha)
+            with patch.dict("os.environ", {"GITHUB_REF": branch, "GITHUB_WORKFLOW": workflow}), \
                  patch("scripts.send_cpc_job_alerts.new_cpc_jobs", return_value=[self.job]), \
                  patch("scripts.send_cpc_job_alerts._brevo_request", side_effect=[contact or self.contact, {}, {}]) as request:
                 private_daily_test(args, api_key="fake", list_id=list_id, sender_email="jobs@example.com", secret="fake")
@@ -212,6 +212,19 @@ class PrivateDailyTests(unittest.TestCase):
     def test_no_matching_jobs_means_no_email(self):
         contact = {**self.contact, "attributes": {**self.contact["attributes"], "ALERT_LOCATION": "Bristol"}}
         self.assertEqual(len(self.run_private(False, contact)), 1)
+
+    def test_native_private_workflow_requires_main_exact_name_and_verified_sha(self):
+        calls = self.run_private(True, branch="refs/heads/main",
+                                 workflow="Send private CPC job alerts after publish", verified_sha="a" * 40)
+        self.assertEqual(len(calls), 1)
+        from scripts.send_cpc_job_alerts import DeliveryError
+        for kwargs in [
+            {"workflow": "Other workflow", "verified_sha": "a" * 40},
+            {"workflow": "Send private CPC job alerts after publish", "verified_sha": None},
+            {"workflow": "Send private CPC job alerts after publish", "verified_sha": "bad"},
+        ]:
+            with self.assertRaises(DeliveryError):
+                self.run_private(True, branch="refs/heads/main", **kwargs)
 
     def test_wrong_branch_or_list_fails_before_brevo(self):
         from scripts.send_cpc_job_alerts import DeliveryError

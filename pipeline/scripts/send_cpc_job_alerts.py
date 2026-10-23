@@ -374,8 +374,14 @@ def private_daily_test(args: argparse.Namespace, *, api_key: str, list_id: int,
     """Exercise the real daily report/matcher/digest for one active test contact."""
     if list_id != 3:
         raise DeliveryError("Private daily tests require list ID 3")
-    if os.environ.get("GITHUB_REF") != "refs/heads/feat/cpc-job-alerts-brevo":
-        raise DeliveryError("Private daily tests require the feature branch")
+    verified_sha = getattr(args, "verified_production_sha", None)
+    native_publish = (
+        os.environ.get("GITHUB_REF") == "refs/heads/main"
+        and os.environ.get("GITHUB_WORKFLOW") == "Send private CPC job alerts after publish"
+        and bool(re.fullmatch(r"[0-9a-f]{40}", verified_sha or ""))
+    )
+    if os.environ.get("GITHUB_REF") != "refs/heads/feat/cpc-job-alerts-brevo" and not native_publish:
+        raise DeliveryError("Private daily tests require the feature branch or the verified private post-publish workflow")
     if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", args.date or ""):
         raise DeliveryError("A report date in YYYY-MM-DD format is required")
     report = args.reports_dir / f"newly-published-jobs-{args.date}.csv"
@@ -411,6 +417,7 @@ def main() -> int:
     parser.add_argument("--reports-dir", type=Path, default=Path("pipeline/reports-daily"))
     parser.add_argument("--test-recipient", help="Send one labelled sample to this opted-in contact only")
     parser.add_argument("--test-site-url", help="HTTPS Vercel Preview origin for test links")
+    parser.add_argument("--verified-production-sha", help="Verified deployed inventory SHA, required by the native private workflow")
     parser.add_argument("--private-daily-test", action="store_true", help="Real daily matching for the fixed private test contact only")
     parser.add_argument("--dry-run", action="store_true", help="Private daily test: match without sending or updating state")
     args = parser.parse_args()
