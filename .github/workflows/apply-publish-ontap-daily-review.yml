@@ -391,6 +391,18 @@ jobs:
             dispatch_one "shared verified pages" "publish-verified-pages.yml" "false"
             dispatch_one "production deployment" "deploy-vercel-after-publish.yml" "false"
             deployment_run_id="$LAST_RUN_ID"
+            private_alert_started_epoch="$(date -u +%s)"
+            if gh workflow run send-private-cpc-job-alerts.yml --ref main -f "deployment_run_id=$deployment_run_id"; then
+              if wait_for_dispatched_run "send-private-cpc-job-alerts.yml" "$private_alert_started_epoch"; then
+                echo "Private CPC alert check completed after verified deployment."
+              else
+                echo "::warning::Private CPC alert check failed; published jobs remain live."
+                echo "- Private CPC alert check failed after deployment $deployment_run_id; inspect Send private CPC job alerts after publish." >> "$GITHUB_STEP_SUMMARY"
+              fi
+            else
+              echo "::warning::Private CPC alert check could not be dispatched; published jobs remain live."
+              echo "- Private CPC alert check could not be dispatched after deployment $deployment_run_id." >> "$GITHUB_STEP_SUMMARY"
+            fi
             report_started_epoch="$(date -u +%s)"
 
             if gh workflow run build-daily-region-overview.yml \

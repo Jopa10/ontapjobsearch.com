@@ -1,0 +1,132 @@
+name: Send private CPC job alerts after publish
+
+on:
+  workflow_dispatch:
+    inputs:
+      deployment_run_id:
+        description: Successful verified production deployment run ID
+        required: true
+        type: string
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/send-private-cpc-job-alerts.yml
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: ontap-private-cpc-daily-test
+  cancel-in-progress: false
+
+jobs:
+  private-alert:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment: ontap-brevo-private-test
+    steps:
+      - name: Check out audited private sender only
+        uses: actions/checkout@v4
+        with:
+          ref: a0bae2476e018bb875e4cb669d50a2db61b332e7
+          path: private-runner
+          persist-credentials: false
+          sparse-checkout: |
+            pipeline/scripts
+            pipeline/tests
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test private sender safeguards
+        working-directory: private-runner/pipeline
+        run: python -m unittest discover -s tests -p 'test_send_cpc_job_alerts.py' -v
+      - name: Resolve successful production deployment
+        id: receipt
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          DEPLOYMENT_RUN_ID: ${{ inputs.deployment_run_id }}
+        run: |
+          set -euo pipefail
+          run_id="$DEPLOYMENT_RUN_ID"
+          if [ -z "$run_id" ]; then
+            run_id="$(gh run list --workflow deploy-vercel-after-publish.yml --branch main --status success --limit 1 --json databaseId --jq '.[0].databaseId')"
+          fi
+          [[ "$run_id" =~ ^[0-9]+$ ]] || { echo "::error::No valid deployment run."; exit 1; }
+          gh run view "$run_id" --json name,headBranch,conclusion,status > "$RUNNER_TEMP/private-alert-deployment.json"
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          run = json.loads((Path(os.environ["RUNNER_TEMP"]) / "private-alert-deployment.json").read_text())
+          if (run.get("name") != "Deploy Ontap production after publish"
+                  or run.get("headBranch") != "main" or run.get("conclusion") != "success"
+                  or run.get("status") != "completed"):
+              raise SystemExit("Private alerts require a completed successful production deployment on main")
+          PY
+          gh run download "$run_id" --name verified-production-sha --dir "$RUNNER_TEMP/private-alert-receipt"
+          python - <<'PY'
+          import datetime, json, os, re, urllib.request
+          from pathlib import Path
+          sha = (Path(os.environ["RUNNER_TEMP"]) / "private-alert-receipt/verified-production-sha.txt").read_text().strip()
+          if not re.fullmatch(r"[0-9a-f]{40}", sha):
+              raise SystemExit("Invalid deployment receipt")
+          req = urllib.request.Request("https://www.ontapjobsearch.com/api/deployment-version?private-alert=" + os.environ["GITHUB_RUN_ID"],
+                                       headers={"Cache-Control": "no-cache"})
+          with urllib.request.urlopen(req, timeout=20) as response:
+              live = json.load(response).get("version")
+          if live != sha:
+              raise SystemExit("Production moved since this receipt; no email sent")
+          with open(os.environ["GITHUB_OUTPUT"], "a") as out:
+              out.write(f"sha={sha}\n")
+              out.write(f"date={datetime.datetime.now(datetime.timezone.utc).date().isoformat()}\n")
+          print("Verified live inventory:", sha)
+          PY
+      - name: Read exact deployed job inventory
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ steps.receipt.outputs.sha }}
+          path: published-inputs
+          persist-credentials: false
+          sparse-checkout: |
+            app
+            pipeline/reports-daily
+      - name: Match and optionally deliver to the fixed private recipient
+        env:
+          CPC_JOB_ALERTS_ENABLED: 'true'
+          BREVO_JOB_ALERTS_LIST_ID: '3'
+          BREVO_SENDER_EMAIL: jobs@ontapjobsearch.com
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          JOB_ALERTS_UNSUBSCRIBE_SECRET: ${{ secrets.JOB_ALERTS_UNSUBSCRIBE_SECRET }}
+          VERIFIED_SHA: ${{ steps.receipt.outputs.sha }}
+          REPORT_DATE: ${{ steps.receipt.outputs.date }}
+          SEND_PRIVATE: ${{ github.event_name == 'workflow_dispatch' }}
+        run: |
+          python - <<'PY'
+          import json, os, pathlib, subprocess, sys, urllib.request
+          date = os.environ["REPORT_DATE"]
+          report = pathlib.Path(f"published-inputs/pipeline/reports-daily/newly-published-jobs-{date}.csv")
+          if not report.is_file():
+              raise SystemExit("Today's report is absent from deployed inventory; no old report sent")
+          req = urllib.request.Request("https://www.ontapjobsearch.com/api/deployment-version?private-alert-final=" + os.environ["GITHUB_RUN_ID"],
+                                       headers={"Cache-Control": "no-cache"})
+          with urllib.request.urlopen(req, timeout=20) as response:
+              live = json.load(response).get("version")
+          if live != os.environ["VERIFIED_SHA"]:
+              raise SystemExit("Production changed before matching; no email sent")
+          args = [sys.executable, "private-runner/pipeline/scripts/send_cpc_job_alerts.py",
+                  "--private-daily-test", "--date", date,
+                  "--verified-production-sha", os.environ["VERIFIED_SHA"],
+                  "--app-dir", "published-inputs/app", "--reports-dir", "published-inputs/pipeline/reports-daily"]
+          if os.environ["SEND_PRIVATE"] != "true":
+              args.append("--dry-run")
+          result = subprocess.run(args, text=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+          print(result.stdout)
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as summary:
+              summary.write("## Private CPC alert test\n\n")
+              summary.write(f"Report: {date}; exact deployed inventory: {os.environ['VERIFIED_SHA']}.\n\n")
+              summary.write("Recipient is fixed to jpbt801@gmail.com, list 3. Public rollout is off.\n\n")
+              summary.write("Push validation sends no email. Dispatch respects consent and the existing last-sent-date guard.\n\n")
+              summary.write(result.stdout)
+          sys.exit(result.returncode)
+          PY

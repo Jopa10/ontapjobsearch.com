@@ -1,11 +1,13 @@
 # Ontap System Overview
 
-**Last updated:** 20 October 2026
+**Last updated:** 23 October 2026
 **Status:** Canonical production state, reconciled on 12 October against active workflow definitions, deployment runs and current report data.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 23 October 2026 — **Native private CPC alerts after verified publication:** the owner authorised a narrow live publishing-workflow change without public rollout. After the normal publisher has watched production deployment succeed, it explicitly dispatches `send-private-cpc-job-alerts.yml` with the deployment run ID and waits fail-soft: an alert failure is warned separately and does not undo/block healthy publication. The alert workflow validates the successful main deployment, downloads its verified-SHA receipt, checks live production before reading and again before delivery, and reads app/report data from that exact SHA. It executes only audited private sender code pinned to `a0bae2476e018bb875e4cb669d50a2db61b332e7` on `feat/cpc-job-alerts-brevo`, never the list-wide daily path. Recipient is fixed to `jpbt801@gmail.com`, list 3, using the existing private GitHub environment; active consent, blacklist/unsubscribe, last-sent date, private Brevo idempotency and shared private concurrency guards apply. Today's report must be present; no old report is substituted. Job links use existing public vacancies; unsubscribe uses Preview. Pushes to the alert workflow run tests and a no-send check only. The normal publishing dispatch is the delivery trigger; no public signup flags, website code, automatic Git-deployment settings or PR #325 merge are changed. The temporary ChatGPT daily trigger is to be disabled after native validation succeeds.
 
 - 20 October 2026 — **Six broad city pages and fourteen regional/family pages are prepared for the next verified publish:** Redditch, Guildford, Carlisle, Preston, Witney and Yeovil are added as permanent “Jobs in [City]” pages. Fourteen approved family/region pairs are added to the LIVE register using existing routes and filters. Production will pick them up on the next normal publish.
 
