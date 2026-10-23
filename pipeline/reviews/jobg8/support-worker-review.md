@@ -25,6 +25,12 @@ SELECTED | Yorkshire - South | Doncaster | £31000 - £32000 per year | Healthca
 job_id: 23643_225735406
 ---
 
+---
+action:
+SELECTED | Yorkshire - South | Barnsley | £14.24 per hour | Bank Health Care Assistant
+job_id: 108222655
+---
+
 ## SOUTH YORKSHIRE — POSSIBLES
 
 _No jobs in this group._
@@ -167,8 +173,8 @@ job_id: 23643_225751206
 
 ---
 action:
-SELECTED | Sussex | Brighton | £12.71 - £15 per hour | Mental Health Support Worker
-job_id: 23643_225648065
+SELECTED | Sussex | Sussex | £17.15 per hour | Care Assistant - Bank - Care Home
+job_id: 23643_225718800
 ---
 
 ## SUSSEX — POSSIBLES
@@ -559,6 +565,12 @@ SELECTED | London | London | £14.80 per hour | Support Worker
 job_id: 2160768
 ---
 
+---
+action:
+SELECTED | London | London | £27,823 per annum | Support Workers- Semi Independent Services
+job_id: 2174176
+---
+
 ## LONDON — POSSIBLES
 
 _No jobs in this group._
@@ -647,6 +659,12 @@ job_id: 23643_225713768
 action:
 SELECTED | Wiltshire | Salisbury | £28479 per year | Support Worker - Clouds House
 job_id: 23643_225712887
+---
+
+---
+action:
+SELECTED | Wiltshire | Wiltshire | £14.25 - £15.5 per hour | Learning Support Assistant
+job_id: 23643_225660582
 ---
 
 ## WILTSHIRE — POSSIBLES

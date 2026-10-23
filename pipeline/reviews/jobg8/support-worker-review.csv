@@ -1,5 +1,6 @@
 ﻿feed_date,decision,region,title,town,salary_text,manual_override,manual_select,job_id
 2026-10-23,SELECTED,Yorkshire - South,Healthcare Assistant,Doncaster,£31000 - £32000 per year,,,23643_225735406
+2026-10-23,SELECTED,Yorkshire - South,Bank Health Care Assistant,Barnsley,£14.24 per hour,,,108222655
 2026-10-23,SELECTED,"North East - Tyneside, Wearside & Northumberland",Healthcare Assistant,Corbridge,£14.27 per hour,,,23643_225715797
 2026-10-23,SELECTED,"North East - Tyneside, Wearside & Northumberland",Care Assistant - Care Home,Bedlington,£13.21 per hour,,,23643_225715617
 2026-10-23,SELECTED,Sussex,Children's Support Worker,Sussex,£12.85 - £18.4 per hour,,,23643_225655669
@@ -20,7 +21,7 @@
 2026-10-23,SELECTED,Sussex,Female Waking Night Support Worker Pulborough,Pulborough,£12.71 - £14.45 per hour (Salary starts at £12.71 and increases t),,,108179728
 2026-10-23,SELECTED,Sussex,Night Care Assistant,Sussex,£14.5 per hour,,,23643_225440444
 2026-10-23,SELECTED,Sussex,Night Care Assistant,Sussex,£13.21 per hour,,,23643_225751206
-2026-10-23,SELECTED,Sussex,Mental Health Support Worker,Brighton,£12.71 - £15 per hour,,,23643_225648065
+2026-10-23,SELECTED,Sussex,Care Assistant - Bank - Care Home,Sussex,£17.15 per hour,,,23643_225718800
 2026-10-23,POSS - CUMBRIA - SOUTH,Cumbria - South,Female Bank Rehabilitation Support Worker,Barrow-in-furness,£12.71 - £18 per hour,,,23643_225712948
 2026-10-23,SELECTED,Hampshire,Therapeutic Children's Support Worker,Colden Common,£27500 per year,,,23643_225653471
 2026-10-23,SELECTED,Hampshire,Secure Children's Home Support Worker,Eastleigh,"£32780 - £35564 per year (Market Supplement, plus Enhancements)",,,1401785578
@@ -82,6 +83,7 @@
 2026-10-23,SELECTED,London,Personal Assistant to the CEO,City,£30000 - £32000 per year,,,23643_225743869
 2026-10-23,SELECTED,London,Support Worker,Southwark,"£25,266.93 per annum",,,2160807
 2026-10-23,SELECTED,London,Support Worker,London,£14.80 per hour,,,2160768
+2026-10-23,SELECTED,London,Support Workers- Semi Independent Services,London,"£27,823 per annum",,,2174176
 2026-10-23,SELECTED,Oxfordshire,Support Worker,Oxford,£12.71 - £15 per hour,,,23643_225728855
 2026-10-23,SELECTED,Surrey,Legal Personal Assistant,Leatherhead,£30000 - £32000 per year,,,2064951
 2026-10-23,SELECTED,Surrey,Family Support Worker EDT,Fetcham,"£17330 - £18471 per year (pro rata to £34,660 FTE)",,,23643_225708916
@@ -94,3 +96,4 @@
 2026-10-23,SELECTED,Wiltshire,Care Assistant - Bank - Care Home,Trowbridge,£16.2 per hour,,,23643_225710192
 2026-10-23,SELECTED,Wiltshire,Care Assistant - Bank - Care Home,Wiltshire,£16.03 per hour,,,23643_225713768
 2026-10-23,SELECTED,Wiltshire,Support Worker - Clouds House,Salisbury,£28479 per year,,,23643_225712887
+2026-10-23,SELECTED,Wiltshire,Learning Support Assistant,Wiltshire,£14.25 - £15.5 per hour,,,23643_225660582
