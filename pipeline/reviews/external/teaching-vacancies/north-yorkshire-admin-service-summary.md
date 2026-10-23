@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - North
 
-review_date: 2026-10-22
-review_fingerprint: 3e4c583e81cabecfc7446ef16c1b43d79465e67f95171d39de2bb807ecf90191
-routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
+review_date: 2026-10-23
+review_fingerprint: 90c41240a3f2668a2211784518974e0eedb44250c0d6441a057760b623982629
+routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
 ontap_region: Yorkshire - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 7
+- Records: 13
+- Selected: 6
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 5
 
 ## SELECTED
-
----
-action: 
-SELECTED | Yorkshire - North | York, Yorkshire and the Humber, YO42 2LL | NJC SCP6 (£26,847 pro rata for term time working) | Assistant Exams Officer & Cover Administrator
-employer: Woldgate School and Sixth Form College
-closing_date: 2026-10-23T09:00:00+01:00
-reason: Clear admin/service title: administrator, exams officer
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 926bbbb9b7de4a5f4790f04cc7799c345a12fc710b4dc21b39097852d59d8091
-source: Teaching Vacancies
-source_job_id: assistant-exams-officer-cover-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/assistant-exams-officer-cover-administrator
----
 
 ---
 action: 

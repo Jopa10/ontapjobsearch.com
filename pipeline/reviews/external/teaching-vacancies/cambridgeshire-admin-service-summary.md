@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cambridgeshire
 
-review_date: 2026-10-22
-review_fingerprint: 91887e4f5892cb881825995779f34747f35801e6259789d8578dbd26be7b2a1a
-routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
+review_date: 2026-10-23
+review_fingerprint: 9a2447db64bced49b302f8983293e6ec049e9bf944c892d4b4a415008503217a
+routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
 ontap_region: Cambridgeshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 25
-- Selected: 10
+- Records: 30
+- Selected: 13
 - POSS awaiting decision: 9
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 8
 
 ## SELECTED
 
@@ -53,6 +53,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
+SELECTED | Cambridgeshire | Huntingdon, East of England, PE28 2RX | £7, 802 - 8,272 per annum | Administration Assistant & Play Worker
+employer: Warboys Primary Academy
+closing_date: 2026-11-06T09:00:00+00:00
+reason: Clear admin/service title: administration assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 8a30e8290248fe9964196e8e0060c8bfb6ba0ba61ad965b4e5228a8ac62c7e20
+source: Teaching Vacancies
+source_job_id: administration-assistant-play-worker
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-play-worker
+---
+
+---
+action: 
 SELECTED | Cambridgeshire | Cambridge, East of England, CB4 2JF | £6,965.00 Annually (Actual) Pro Rata | Administrative Assistant (International and Community Projects)
 employer: North Cambridge Academy
 closing_date: 2026-11-02T09:00:00+00:00
@@ -60,7 +75,7 @@ reason: Clear admin/service title: administrative assistant
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 9b8fc19e4aa07fceb169abc8deb490f6c808f54fd94c76873b90e797ceee108e
+factual_fingerprint: 78f7617e9c616c136849a3e9e4f50086367adf32bd17d99ff28983687a163c79
 source: Teaching Vacancies
 source_job_id: administrative-assistant-international-and-community-projects-north-cambridge-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-international-and-community-projects-north-cambridge-academy
@@ -154,6 +169,36 @@ factual_fingerprint: a7d35a6df112fcb3397a9d4a9d0d705eafc25504853d7f61cf1b8e52304
 source: Teaching Vacancies
 source_job_id: finance-admin-assistant-priory-junior-school-st-neots-cambridgeshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-admin-assistant-priory-junior-school-st-neots-cambridgeshire
+---
+
+---
+action: 
+SELECTED | Cambridgeshire | Ely, East of England, CB6 2PU | £26,016.00 Annually (FTE) | School Office Assistant
+employer: Sutton CofE VC Primary School
+closing_date: 2026-11-02T12:00:00+00:00
+reason: Clear admin/service title: office assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b2dc787ecc1a7cece0eedb208610a68e99ff51638c94dc800e47ecacff5bed37
+source: Teaching Vacancies
+source_job_id: school-office-assistant-sutton-cofe-vc-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-assistant-sutton-cofe-vc-primary-school
+---
+
+---
+action: 
+SELECTED | Cambridgeshire | St Ives, East of England, PE27 5QT | Scale 2, point 4 | School Receptionist & Finance Assistant (Temporary)
+employer: Eastfield Infant and Nursery School
+closing_date: 2026-11-12T12:00:00+00:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 79b6fdbd14ddaa8fc29e887a530dd262ecbe8cb45fc9a20087b5d5db9b13034b
+source: Teaching Vacancies
+source_job_id: school-receptionist-finance-assistant-temporary
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-receptionist-finance-assistant-temporary
 ---
 
 ---
@@ -314,8 +359,10 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-office-adminis
 
 ## HARD_PASS
 
+- [Cleaner](https://teaching-vacancies.service.gov.uk/jobs/cleaner-34934dbc-6989-4466-8253-34da9a9f27cb) — Out-of-scope occupation: cleaner.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-swavesey-village-college) — Manager title salary ceiling £35,412 is not below £28,000.
-- [Operation Manager](https://teaching-vacancies.service.gov.uk/jobs/operation-manager) — Manager title salary ceiling £35,412 is not below £28,000.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-a25def2c-b719-44d7-bdc8-c5a540dcd54e) — Manager title salary ceiling £29,542 is not below £28,000.
+- [Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-werrington-primary-school) — Manager title salary ceiling £35,412 is not below £28,000.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-5a3dff01-79b6-4729-902c-d66d0a984b7a) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-7ec77d3b-774d-4b4b-973d-4d3362c0e641) — Insufficient admin/service evidence.
 - [Personal Care Assistant](https://teaching-vacancies.service.gov.uk/jobs/personal-care-assistant-e275b9ec-d6f9-48ae-95a1-399e4246da3d) — Insufficient admin/service evidence.

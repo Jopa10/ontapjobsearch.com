@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - North
 
-review_date: 2026-10-22
-review_fingerprint: d938f73afbfdc493db5c0749b93913573680f5ae17257d3269f53d05ddb37e94
-routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
+review_date: 2026-10-23
+review_fingerprint: 20d856d17b81391390982eda2132cc2c995fd6fc8819cd977c6cb86319a27282
+routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
 ontap_region: Greater Manchester - North
 slice_category: admin_service
 slice_status: LIVE
@@ -13,15 +13,28 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
-- Selected: 0
+- Records: 7
+- Selected: 1
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 5
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Greater Manchester - North | Oldham, North West, OL2 5BF | £22,881.69 - £23,612.57 Annually (Actual) SCP4-6 - £22,881.69 - £23,612.57 - FTE: £26,016.00 - £26,847.00 - 39 weeks, 37 hours. | Academy Receptionist & Administrator
+employer: E-ACT the Oldham Academy North
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Clear admin/service title: administrator, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 91312a294e899592f2d5827840f4903e4efd9143d401b84260e985bd6a3c5994
+source: Teaching Vacancies
+source_job_id: academy-receptionist-administrator-e-act-the-oldham-academy-north
+source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-receptionist-administrator-e-act-the-oldham-academy-north
+---
 
 ## POSS — choose SELECT or EXCLUDE
 

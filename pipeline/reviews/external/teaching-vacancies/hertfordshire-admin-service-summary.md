@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hertfordshire
 
-review_date: 2026-10-22
+review_date: 2026-10-23
 review_fingerprint: dcaca3fe0f7a9317bd4a36c446aea543b79e55dd3b0665f21b789fc8eb74a925
-routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
+routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
 ontap_region: Hertfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
+- Records: 11
 - Selected: 4
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 5
 
 ## SELECTED
 
@@ -123,7 +123,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-support-assi
 - [ATTENDANCE & SAFEGUARDING OFFICER](https://teaching-vacancies.service.gov.uk/jobs/attendance-safeguarding-officer-king-james-academy-royston) — Insufficient admin/service evidence.
 - [Federation School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/federation-school-business-manager-hurst-drive-primary-school) — Manager title salary ceiling £49,817 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-aa7f3068-bd4a-4f6c-a3c0-513cc79c39b8) — Manager title salary ceiling £33,119 is not below £28,000.
-- [Procurement, Data and Compliance Lead](https://teaching-vacancies.service.gov.uk/jobs/procurement-data-and-compliance-lead) — Insufficient admin/service evidence.
 - [Teaching Assistant including personal care: Part Time / Full Time (H3)](https://teaching-vacancies.service.gov.uk/jobs/teaching-assistant-including-personal-care-part-time-full-time-h3-95102662-222e-4ff2-a528-9767fe48abd5) — Out-of-scope occupation: teaching assistant.
 
 ## Safety boundary

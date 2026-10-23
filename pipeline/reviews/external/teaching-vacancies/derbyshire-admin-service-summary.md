@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Derbyshire
 
-review_date: 2026-10-22
-review_fingerprint: b50931c21b9f5adb9918b1374af1327175e82157d5442df6d0c5524c5b5cce39
-routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
+review_date: 2026-10-23
+review_fingerprint: e4e89912884d92d32182204a145c3922abf3b06ead3ec835effbaf618dd4dd73
+routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
 ontap_region: Derbyshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 5
+- Records: 6
 - Selected: 1
-- POSS awaiting decision: 1
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 3
 
@@ -51,6 +51,21 @@ factual_fingerprint: fc6997b7628aa082ac781c5357f00f3cae589fc91246471098862b524eb
 source: Teaching Vacancies
 source_job_id: administrator-heritage-high-school-chesterfield-derbyshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-heritage-high-school-chesterfield-derbyshire
+---
+
+---
+action: 
+POSS | Derbyshire | Bakewell, East Midlands, DE45 1JA | £26,016.00 - £26,427.00 Annually (FTE) Actual Salary £14,306 to £14,532 per annum | School Business Assistant
+employer: Lady Manners School
+closing_date: 2026-11-02T23:59:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0efd3ddf6d37a47422e5ebf81b85c34e02245704062d7b4b39e1a062f5ddc443
+source: Teaching Vacancies
+source_job_id: school-business-assistant-lady-manners-school-bakewell-derbyshire
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-assistant-lady-manners-school-bakewell-derbyshire
 ---
 
 ## EXCLUDED BY REVIEW

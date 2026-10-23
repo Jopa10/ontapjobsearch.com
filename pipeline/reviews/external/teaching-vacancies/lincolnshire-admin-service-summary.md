@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Lincolnshire
 
-review_date: 2026-10-22
-review_fingerprint: e8641410d2f4102cb3af29522abaa79665783075a8b5d548e35560dfeed5e917
-routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
+review_date: 2026-10-23
+review_fingerprint: e2cba7826d96f41ddb096683d082283ac486e335ce3a1c39f7e74e2820d3cef3
+routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
 ontap_region: Lincolnshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
+- Records: 19
 - Selected: 8
-- POSS awaiting decision: 2
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 7
+- Hard pass: 10
 
 ## SELECTED
 
@@ -158,21 +158,6 @@ source_job_id: administration-officer-7752
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-7752
 ---
 
----
-action: 
-POSS | Lincolnshire | Grimsby, DN41 7QD | £29,542.00 - £32,046.00 Annually (Actual) Actual salary: £14,069 - £15,261 | HR & Office Administrator
-employer: Harbour Learning Trust
-closing_date: 2026-10-23T12:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: b94d957a97a2110f3441ec108223a0b8f505b7462e7962731fbb0e3d85253a35
-source: Teaching Vacancies
-source_job_id: hr-office-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-office-administrator
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -182,8 +167,11 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/hr-office-administrat
 - [Bursar](https://teaching-vacancies.service.gov.uk/jobs/bursar-cliffedale-primary-school-grantham-lincolnshire) — Insufficient admin/service evidence.
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-lincoln-carlton-academy) — Insufficient admin/service evidence.
 - [Data Analyst](https://teaching-vacancies.service.gov.uk/jobs/data-analyst-franklin-sixth-form-college) — Insufficient admin/service evidence.
+- [Examinations Officer](https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-de-aston-school-market-rasen-lincolnshire) — Missing salary or pay scale.
 - [Health, Safety and Compliance Officer](https://teaching-vacancies.service.gov.uk/jobs/health-safety-and-compliance-officer-voyage-education-partnership) — Insufficient admin/service evidence.
+- [HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/hr-adviser-harbour-learning-trust) — Insufficient admin/service evidence.
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-voyage-education-partnership) — Insufficient admin/service evidence.
+- [Marketing Officer](https://teaching-vacancies.service.gov.uk/jobs/marketing-officer-de-aston-school) — Insufficient admin/service evidence.
 - [Operational Delivery Lead](https://teaching-vacancies.service.gov.uk/jobs/operational-delivery-lead) — Insufficient admin/service evidence.
 - [Senior Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-officer-the-gainsborough-parish-church-primary-school) — Insufficient admin/service evidence.
 

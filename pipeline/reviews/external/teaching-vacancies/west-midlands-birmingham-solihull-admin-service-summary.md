@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Birmingham & Solihull
 
-review_date: 2026-10-22
-review_fingerprint: 99adec25030d63ef63ac6d04c23da8c11991249518b724bcd53af7da696e2a4b
-routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
+review_date: 2026-10-23
+review_fingerprint: a77308f0f88b378b95915c912bbe6cc35b22eba9ca27c60e62f3c26e03347d8c
+routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
 ontap_region: West Midlands - Birmingham & Solihull
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
-- Selected: 10
+- Records: 22
+- Selected: 13
 - POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 8
@@ -34,6 +34,21 @@ factual_fingerprint: 4ef85e452a7fe6aafc1772d787fab4bfcc39b9ed1a21801d897dd871247
 source: Teaching Vacancies
 source_job_id: administration-assistant-brownmead-primary-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-brownmead-primary-academy
+---
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Solihull, West Midlands, B92 7RR | £18,058.00 Annually (Actual) Starting band 2, point 5 | Administrative Assistant/Receptionist
+employer: St Margaret's Church of England Primary School
+closing_date: 2026-11-06T10:00:00+00:00
+reason: Clear admin/service title: administrative assistant, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3263133a5339352ba98373b65ba78d46d594c2ae7b184b876e8ad886a1274f15
+source: Teaching Vacancies
+source_job_id: administrative-assistant-receptionist-st-margaret-s-church-of-england-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-receptionist-st-margaret-s-church-of-england-primary-school
 ---
 
 ---
@@ -83,6 +98,36 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-co
 
 ---
 action: 
+SELECTED | West Midlands - Birmingham & Solihull | Sutton Coldfield, West Midlands, B74 2NH | £23,030.00 - £23,396.00 Annually (Actual) | Central Services Administrator
+employer: Bishop Vesey's Grammar School
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 23d4564f2ad7a2e8dc0ffd105c6f58c57b9df0b9490e833da1803a32878fdd9f
+source: Teaching Vacancies
+source_job_id: central-services-administrator-bishop-vesey-s-grammar-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/central-services-administrator-bishop-vesey-s-grammar-school
+---
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B37 5DP | £25,614.00 - £26,427.00 Annually (FTE) Band B - Actual salary £18,990.61 to £19,593.38 based on 32 working hours and 39 weeks | Clerical Assistant/Receptionist
+employer: St Anne's Catholic Primary School
+closing_date: 2026-11-12T23:59:00+00:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: f74f059efcbd8c74859a3eb0552a6dd6bf227009f7a06790ef0afa42e74a2281
+source: Teaching Vacancies
+source_job_id: clerical-assistant-receptionist-st-anne-s-catholic-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-receptionist-st-anne-s-catholic-primary-school
+---
+
+---
+action: 
 SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B37 6NU | £26,428.00 - £26,847.00 Annually (FTE) Term Time + 2 Weeks - Salary will be prorated based on weeks and hours worked | College Administrator (Term Time + 2 weeks) 12 month fixed term contract
 employer: Tudor Grange Academy Kingshurst
 closing_date: 2026-11-01T23:59:00+00:00
@@ -94,6 +139,21 @@ factual_fingerprint: 5732dc6a5cab149d5b810604408da052d5ada0dcad81a7d5a3d4ddff961
 source: Teaching Vacancies
 source_job_id: college-administrator-term-time-2-weeks-12-month-fixed-term-contract
 source_url: https://teaching-vacancies.service.gov.uk/jobs/college-administrator-term-time-2-weeks-12-month-fixed-term-contract
+---
+
+---
+action: 
+SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B24 8RE | actual salary £24729-£25949 (Term Time Only) | Cover Administrator
+employer: Erdington Academy
+closing_date: 2026-11-06T09:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6c1af6536533385a4a33b726730c5342b08bf08c415394712103d65db997aaa7
+source: Teaching Vacancies
+source_job_id: cover-administrator-erdington-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/cover-administrator-erdington-academy
 ---
 
 ---
@@ -154,21 +214,6 @@ factual_fingerprint: f0ada65026945e7e1421022b5f817712656cf3b1b8b5a81e1474836b35d
 source: Teaching Vacancies
 source_job_id: school-administrator-395dae48-626d-47cd-88b7-92b46f8c8d1e
 source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-395dae48-626d-47cd-88b7-92b46f8c8d1e
----
-
----
-action: 
-SELECTED | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B38 8XQ | £31,014.79 - £34,810.92 Annually (FTE) GLP Grade 4, SCP 12- 16 (pro-rata) | Senior Administrator
-employer: Fairway Primary Academy
-closing_date: 2026-10-22T23:59:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 506d63dead734c116f794b813ba5d8fd09a27e2d41c9a0242fb5c0acd429375d
-source: Teaching Vacancies
-source_job_id: senior-administrator-fairway-primary-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-fairway-primary-academy
 ---
 
 ## POSS — choose SELECT or EXCLUDE

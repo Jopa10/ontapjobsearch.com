@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Staffordshire
 
-review_date: 2026-10-22
-review_fingerprint: 3c634d183d7e8c0e1967775e1b45b4452476e26d8d3ab99b1844bb6da7bbc608
-routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
+review_date: 2026-10-23
+review_fingerprint: f3b9083bb416dd498e72f50f76c89e5d9c97a5699c0f2740c1c34bfbc074d514
+routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
 ontap_region: Staffordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,13 +13,43 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 1
-- POSS awaiting decision: 2
+- Records: 15
+- Selected: 3
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 9
+- Hard pass: 11
 
 ## SELECTED
+
+---
+action: 
+SELECTED | Staffordshire | Rugeley, West Midlands, WS15 2UE | Grade 4, SCP 4-6 (£22,374 to £23,089 per annum actual salary) | Administrative Assistant
+employer: The Hart School
+closing_date: 2026-11-08T23:59:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 12c96e7d002cf8c3c9f749048af421f7cec57d7c408e3497581af483d8e115a9
+source: Teaching Vacancies
+source_job_id: administrative-assistant-the-hart-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-the-hart-school
+---
+
+---
+action: 
+SELECTED | Staffordshire | Rugeley, West Midlands, WS15 2UE | Grade 4, SCP 4-6 (£13,606 to £14,040 per annum actual salary) | Attendance & Admin Assistant
+employer: The Hart School
+closing_date: 2026-11-08T23:59:00+00:00
+reason: Clear admin/service title: admin assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 9de5e47d90e7da500996ecd9d5ef1892c847aa2f1268cc2c891f1a70150a75eb
+source: Teaching Vacancies
+source_job_id: attendance-admin-assistant-3eb72589-09a8-45cd-a3b2-637d65a99a60
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-admin-assistant-3eb72589-09a8-45cd-a3b2-637d65a99a60
+---
 
 ---
 action: 
@@ -53,21 +83,6 @@ source_job_id: chief-finance-operations-officer-john-taylor-mat
 source_url: https://teaching-vacancies.service.gov.uk/jobs/chief-finance-operations-officer-john-taylor-mat
 ---
 
----
-action: 
-POSS | Staffordshire | Stoke-on-Trent, West Midlands, ST12 9DB | £25,614 | Clerical Assistant
-employer: Barlaston CofE (VC) First School
-closing_date: 2026-10-23T09:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1eab63916ba3bef7210d2d227016ee172b9f1e894e8657da75d557333beb34e2
-source: Teaching Vacancies
-source_job_id: clerical-assistant-barlaston-cofe-vc-first-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-barlaston-cofe-vc-first-school
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
@@ -79,6 +94,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-ba
 - [Contracts and Procurement Manager](https://teaching-vacancies.service.gov.uk/jobs/contracts-and-procurement-manager) — Manager title salary ceiling £50,908 is not below £28,000.
 - [Cover Supervisor](https://teaching-vacancies.service.gov.uk/jobs/cover-supervisor-500086d6-4b3c-4af3-bafb-bbb622675f91) — Insufficient admin/service evidence.
 - [Deputy Chief Executive Officer - Finance & Operations](https://teaching-vacancies.service.gov.uk/jobs/deputy-chief-executive-officer-finance-operations) — Insufficient admin/service evidence.
+- [Human Resources Manager](https://teaching-vacancies.service.gov.uk/jobs/human-resources-manager-community-academies-trust-tamworth-not-recorded) — Manager title salary ceiling £40,444 is not below £28,000.
+- [Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/management-accountant-a6176fdf-9fd1-40a5-9965-09d03373dad8) — Insufficient admin/service evidence.
 - [People Advisor](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-manor-hall-academy-trust-stoke-on-trent-not-recorded) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-cf0d4ef8-1313-4ff6-b735-c5ac4ec13736) — Manager title without salary evidence below £28,000.
 - [School Transport Coordinator](https://teaching-vacancies.service.gov.uk/jobs/school-transport-coordinator) — Insufficient admin/service evidence.

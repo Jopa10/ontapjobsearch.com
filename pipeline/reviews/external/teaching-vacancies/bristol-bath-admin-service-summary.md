@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bristol & Bath
 
-review_date: 2026-10-22
-review_fingerprint: f92146486c755ba2f9c5507959d9e919a84973fdb0d42e84f1e59cfc1c583939
-routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
+review_date: 2026-10-23
+review_fingerprint: f2c7b32ee38be998a50208426277d9e79c5ea14934d9689a2cb3147a424be9b0
+routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
 ontap_region: Bristol & Bath
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 4
+- Records: 9
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 4
@@ -49,6 +49,21 @@ factual_fingerprint: 4d9d928cf344872612461109944637729dca0aedbf91bb790155f671dd4
 source: Teaching Vacancies
 source_job_id: exams-officer-downend-school-bristol
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-downend-school-bristol
+---
+
+---
+action: 
+SELECTED | Bristol & Bath | Bristol, South West, BS7 9NL | £26,247.00 - £27,274.00 Annually (FTE) | Receptionist
+employer: Fairfield High School
+closing_date: 2026-11-03T09:00:00+00:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 38c0059b0cb3f9592f50b4ff9f01855dd4c1d846fe97c6152e35d79f7b71bf1a
+source: Teaching Vacancies
+source_job_id: receptionist-fairfield-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-fairfield-high-school
 ---
 
 ---

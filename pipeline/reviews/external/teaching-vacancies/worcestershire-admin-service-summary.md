@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Worcestershire
 
-review_date: 2026-10-22
-review_fingerprint: 50ec1ee6a92523bee902ab17b75bbc315cec94ce73ee71b540dd35c5cdcd719d
-routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
+review_date: 2026-10-23
+review_fingerprint: 7cd65316eb6fe98e091833e99c01ded73c7feb633c31aae057666feb86b073a8
+routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
 ontap_region: Worcestershire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 8
-- Selected: 4
+- Records: 7
+- Selected: 3
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 2
@@ -49,21 +49,6 @@ factual_fingerprint: d1a2619483e8e6164e8835d5fee630be07de444decfe9bf60c6cf0f4c07
 source: Teaching Vacancies
 source_job_id: office-administrator-northleigh-cofe-primary-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-northleigh-cofe-primary-school
----
-
----
-action: 
-SELECTED | Worcestershire | Evesham, West Midlands, WR11 3EU | Scale 3 Points 5 to 6 | Office Administrator (Burford Road site)
-employer: Bengeworth CE Academy
-closing_date: 2026-10-23T09:00:00+01:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 1f65be78602ccedc718d32225accd13d281bf23b0550cc977e271e8759742123
-source: Teaching Vacancies
-source_job_id: office-administrator-burford-road-site
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-burford-road-site
 ---
 
 ---

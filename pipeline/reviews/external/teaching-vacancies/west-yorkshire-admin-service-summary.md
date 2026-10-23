@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - West
 
-review_date: 2026-10-22
-review_fingerprint: 77fe2a1c48137d34f62ea948cf97b85715f2bc136c9e0e4efed41a830b31fb24
-routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
+review_date: 2026-10-23
+review_fingerprint: cdd4f7eb11f4bad13599be0e29ab4941aab2efc267bb8fca1b4cc0597b44fc2f
+routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
 ontap_region: Yorkshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 52
-- Selected: 15
-- POSS awaiting decision: 7
+- Records: 56
+- Selected: 16
+- POSS awaiting decision: 6
 - Excluded: 0
-- Hard pass: 30
+- Hard pass: 34
 
 ## SELECTED
 
@@ -34,6 +34,21 @@ factual_fingerprint: 62301829bf51441f239ce55941b60ed64382b946b862de12b8aa4548d91
 source: Teaching Vacancies
 source_job_id: academy-administrator-l3-dixons-cottingley-academy-bingley
 source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-administrator-l3-dixons-cottingley-academy-bingley
+---
+
+---
+action: 
+SELECTED | Yorkshire - West | Leeds, Yorkshire and the Humber, LS9 0BA | 25,826.85 - 28,955.19 | Academy Operations Administrator
+employer: Co-op Academy Brierley
+closing_date: 2026-11-08T23:00:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: NEW_REVIEW
+factual_fingerprint: d7520f3542f1ce04b19c80fc9bcd00d135e7fafe8892de5b102061cc9ff833bc
+source: Teaching Vacancies
+source_job_id: academy-operations-administrator-co-op-academy-brierley
+source_url: https://teaching-vacancies.service.gov.uk/jobs/academy-operations-administrator-co-op-academy-brierley
 ---
 
 ---
@@ -265,21 +280,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-meadowf
 
 ---
 action: 
-POSS | Yorkshire - West | Bradford, Yorkshire and the Humber, BD5 9ET | 25,584.00 - 25,989.00 | Administrator - 37
-employer: Co-op Academy Grange
-closing_date: 2026-10-23T09:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: NEW_REVIEW
-factual_fingerprint: 22351c844f27f8e74e156cf2801ba651081d6f647c822930f4c6b7fdbb272f13
-source: Teaching Vacancies
-source_job_id: administrator-37
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-37
----
-
----
-action: 
 POSS | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD2 2JT | £25,583.00 - £25,989.00 Annually (FTE) Kirklees Grade 5 | Business Support Officer
 employer: All Saints Catholic College
 closing_date: 2026-11-03T09:00:00+00:00
@@ -359,11 +359,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## HARD_PASS
 
-- [Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-ossett-academy-and-sixth-form-college) — Missing salary or pay scale.
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-e2369599-57e0-464a-a903-f4cbf97046f4) — Insufficient admin/service evidence.
 - [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-wakefield-snapethorpe-primary-school-wakefield) — Insufficient admin/service evidence.
+- [Administrative Support Assistant (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/administrative-support-assistant-maternity-cover-gledhow-primary-school) — Insufficient admin/service evidence.
 - [Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-1a49a8cb-9a05-468f-84cb-f2dd01c42071) — Insufficient admin/service evidence.
 - [Attendance Leader](https://teaching-vacancies.service.gov.uk/jobs/attendance-leader-appleton-academy-bradford-west-yorkshire) — Insufficient admin/service evidence.
+- [Business Support Office Manager](https://teaching-vacancies.service.gov.uk/jobs/business-support-office-manager-st-paulinus-catholic-primary-academy) — Manager title salary ceiling £35,570 is not below £28,000.
 - [Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-ethos-academy-trust) — Insufficient admin/service evidence.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-leeds-diocesan-learning-trust) — Insufficient admin/service evidence.
 - [Customer Experience Team Leader](https://teaching-vacancies.service.gov.uk/jobs/customer-experience-team-leader) — Insufficient admin/service evidence.
@@ -377,13 +378,16 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the-north-halifax-grammar-school) — Insufficient admin/service evidence.
 - [Finance Manager](https://teaching-vacancies.service.gov.uk/jobs/finance-manager-the-william-henry-smith-school-and-sixth-form) — Manager title salary ceiling £50,908 is not below £28,000.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-greenhead-college) — Insufficient admin/service evidence.
+- [Head of HR](https://teaching-vacancies.service.gov.uk/jobs/head-of-hr-south-pennine-academies) — Insufficient admin/service evidence.
 - [HR Officer](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-high-park-school) — Insufficient admin/service evidence.
+- [Human Resources Business Partner (Central HR Team)](https://teaching-vacancies.service.gov.uk/jobs/human-resources-business-partner-central-hr-team-b55206d0-76f0-4888-a689-a37af52e0913) — Insufficient admin/service evidence.
+- [Information Governance Coordinator](https://teaching-vacancies.service.gov.uk/jobs/information-governance-coordinator) — Insufficient admin/service evidence.
+- [Information Governance Officer](https://teaching-vacancies.service.gov.uk/jobs/information-governance-officer-dixons-academies-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-beckfoot-heaton-primary) — Manager title salary ceiling £34,811 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-holy-name-catholic-voluntary-academy) — Manager title salary ceiling £32,046 is not below £28,000.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-pudsey-bolton-royd-primary-school) — Manager title salary ceiling £34,811 is not below £28,000.
 - [Operations Support Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/operations-support-co-ordinator) — Insufficient admin/service evidence.
 - [People Advisor (Temporary Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-temporary-maternity-cover-abbey-multi-academy-trust) — Insufficient admin/service evidence.
-- [Recruitment Officer (GORSE SCITT)](https://teaching-vacancies.service.gov.uk/jobs/recruitment-officer-gorse-scitt) — Insufficient admin/service evidence.
 - [School Administrator Role - Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/school-administrator-role-attendance-assistant-768b631b-d361-4d35-990b-279a7fa5d4d7) — Missing salary or pay scale.
 - [School Operations Manager - West Yorkshire](https://teaching-vacancies.service.gov.uk/jobs/school-operations-manager-west-yorkshire) — Manager title salary ceiling £38,221 is not below £28,000.
 - [School Support Manager](https://teaching-vacancies.service.gov.uk/jobs/school-support-manager-ark-the-king-s-school) — Manager title salary ceiling £41,771 is not below £28,000.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Suffolk
 
-review_date: 2026-10-22
-review_fingerprint: d45d63269257d33b86cab6ec3220184f9a3ebf04e191c9f3b7bfba251eda05e7
-routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
+review_date: 2026-10-23
+review_fingerprint: 1c695c92aceef8794ec6d63c85dcfac7ea8738261e06205a35f45b7f45341f9c
+routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
 ontap_region: Suffolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,8 +13,8 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 12
-- Selected: 3
+- Records: 11
+- Selected: 2
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 9
@@ -34,21 +34,6 @@ factual_fingerprint: cbe199f2304157abd3d972abfed086567c7e34aec8377982237ae8d0921
 source: Teaching Vacancies
 source_job_id: bursary-administrator
 source_url: https://teaching-vacancies.service.gov.uk/jobs/bursary-administrator
----
-
----
-action: 
-SELECTED | Suffolk | Sudbury, East of England, CO10 1NW | £15,724.00 Annually (Actual) Actual salary based on working 26 hours per week | Receptionist/Administrator
-employer: Ormiston Sudbury Academy
-closing_date: 2026-10-23T09:00:00+01:00
-reason: Clear admin/service title: administrator, receptionist
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 36709ca01806883746c23ab561f4bda6517dd5938408537a7e82ff3cfaacb84f
-source: Teaching Vacancies
-source_job_id: receptionist-administrator-ormiston-sudbury-academy-sudbury-suffolk
-source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-administrator-ormiston-sudbury-academy-sudbury-suffolk
 ---
 
 ---

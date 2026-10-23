@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cornwall
 
-review_date: 2026-10-22
+review_date: 2026-10-23
 review_fingerprint: 3732c55375e3e3bc7082b728bcdccf7f268840cfc5f4c36993c8a8d5399c0cd2
-routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
+routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
 ontap_region: Cornwall
 slice_category: admin_service
 slice_status: LIVE

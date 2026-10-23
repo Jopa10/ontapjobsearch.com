@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — South West
 
-review_date: 2026-10-22
+review_date: 2026-10-23
 review_fingerprint: 17fd6fbc44c32c8445189f78d219983ccdaa2a069309ca4d0e7568b0061f2708
-routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
+routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
 ontap_region: South West
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 6
+- Records: 5
 - Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 2
 
 ## SELECTED
 
@@ -77,7 +77,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-secretary-stok
 ## HARD_PASS
 
 - [Admissions and Marketing Officer](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-marketing-officer-69c1e54a-5b35-4901-a222-0e20faca55c8) — Insufficient admin/service evidence.
-- [Family Liaison Worker](https://teaching-vacancies.service.gov.uk/jobs/family-liaison-worker-doubletrees-school) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-sexey-s-school) — Insufficient admin/service evidence.
 
 ## Safety boundary

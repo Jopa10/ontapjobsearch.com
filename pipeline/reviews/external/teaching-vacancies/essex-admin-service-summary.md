@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Essex
 
-review_date: 2026-10-22
-review_fingerprint: 59bd38161126578b6858b3212e4d2e1ccae484f360fcceed44905c480efe6bf4
-routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
+review_date: 2026-10-23
+review_fingerprint: f4da0d1bcb144cb812ddef5663f635523aa88a2bd806fe4eea5f81c9c668d256
+routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
 ontap_region: Essex
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 20
-- Selected: 9
+- Records: 23
+- Selected: 10
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 11
+- Hard pass: 13
 
 ## SELECTED
 
@@ -98,6 +98,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assist
 
 ---
 action: 
+SELECTED | Essex | Benfleet, East of England, SS7 5RG | £18,458.38 Annually (Actual) | Administrative Assistant - Part-Time Permanent
+employer: Jotmans Hall Primary School
+closing_date: 2026-10-28T23:59:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3115f0cbbb062042a116f5e993a361350cbf5c208bc1cd7c00e7158f81626f05
+source: Teaching Vacancies
+source_job_id: administrative-assistant-part-time-permanent
+source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-part-time-permanent
+---
+
+---
+action: 
 SELECTED | Essex | Stanford-le-Hope, East of England, SS17 8JT | £22,687 | Administrator: Reprographics
 employer: Mossbourne Fobbing Academy
 closing_date: 2026-11-01T23:59:00+00:00
@@ -171,12 +186,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrative-a
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-rayleigh-schools-trust) — Insufficient admin/service evidence.
 - [HEARTS Community Ambassador](https://teaching-vacancies.service.gov.uk/jobs/hearts-community-ambassador) — Insufficient admin/service evidence.
 - [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-discovery-educational-trust-brentwood-not-recorded) — Insufficient admin/service evidence.
+- [Music Administrator](https://teaching-vacancies.service.gov.uk/jobs/music-administrator-colchester-royal-grammar-school) — Missing salary or pay scale.
+- [Operations Manager - Harwich](https://teaching-vacancies.service.gov.uk/jobs/operations-manager-harwich) — Manager title salary ceiling £46,579 is not below £28,000.
+- [Pastoral Assistant](https://teaching-vacancies.service.gov.uk/jobs/pastoral-assistant-the-fitzwimarc-school) — Insufficient admin/service evidence.
 - [SEND Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/send-administration-assistant-colne-community-school) — Insufficient admin/service evidence.
 - [Senior HR Adviser](https://teaching-vacancies.service.gov.uk/jobs/senior-hr-adviser-350f15ec-6ca7-47eb-90e2-1629046cf441) — Insufficient admin/service evidence.
 - [Sixth Form Manager](https://teaching-vacancies.service.gov.uk/jobs/sixth-form-manager-harris-academy-wickford) — Manager title salary ceiling £37,335 is not below £28,000.
 - [Support Manager](https://teaching-vacancies.service.gov.uk/jobs/support-manager-little-thurrock-primary-school) — Manager title salary ceiling £33,495 is not below £28,000.
 - [Trust Data and MIS Analyst](https://teaching-vacancies.service.gov.uk/jobs/trust-data-and-mis-analyst) — Insufficient admin/service evidence.
-- [Trust Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/trust-finance-officer-discovery-educational-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary
 

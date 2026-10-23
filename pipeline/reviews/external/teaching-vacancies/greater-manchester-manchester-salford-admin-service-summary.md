@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Manchester & Salford
 
-review_date: 2026-10-22
+review_date: 2026-10-23
 review_fingerprint: a5c35ff6e41a2f1ea4f558ec4317cdf9053caebff24ddaeee025ca2a0ac9e5f8
-routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
+routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
 ontap_region: Greater Manchester - Manchester & Salford
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
+- Records: 11
 - Selected: 4
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 3
+- Hard pass: 4
 
 ## SELECTED
 
@@ -137,6 +137,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/reception-and-adminis
 - [First Aid, Medical and Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/first-aid-medical-and-administration-assistant) — Insufficient admin/service evidence.
 - [HR Operations Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-operations-manager-levenshulme-high-school) — Manager title salary ceiling £42,123 is not below £28,000.
 - [Lead Exam Invigilator](https://teaching-vacancies.service.gov.uk/jobs/lead-exam-invigilator-abraham-moss-community-school) — Insufficient admin/service evidence.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-john-s-rc-primary-school-a-voluntary-academy) — Manager title salary ceiling £4,315,047,664 is not below £28,000.
 
 ## Safety boundary
 

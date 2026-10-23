@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Kent
 
-review_date: 2026-10-22
+review_date: 2026-10-23
 review_fingerprint: 0d8c474f77b5d55edbb2953e3eb7d5cae6740a4dcdfa4706d365e28e946e9441
-routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
+routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
 ontap_region: Kent
 slice_category: admin_service
 slice_status: LIVE
@@ -122,9 +122,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 - [Attendance and Admissions Lead](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admissions-lead) — Insufficient admin/service evidence.
 - [Business Manager](https://teaching-vacancies.service.gov.uk/jobs/business-manager-hillview-school-for-girls-tonbridge-kent) — Manager title salary ceiling £75,885 is not below £28,000.
 - [Deputy Attendance Improvement Coordinator](https://teaching-vacancies.service.gov.uk/jobs/deputy-attendance-improvement-coordinator-maritime-academy) — Insufficient admin/service evidence.
-- [Finance Officer Maternity Cover](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-maternity-cover-the-diocese-of-canterbury-academies-trust) — Insufficient admin/service evidence.
 - [Human Resources Apprentice](https://teaching-vacancies.service.gov.uk/jobs/human-resources-apprentice-the-howard-academy-trust) — Insufficient admin/service evidence.
 - [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-gregory-s-catholic-school) — Manager title salary ceiling £32,140 is not below £28,000.
+- [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-john-fisher-catholic-comprehensive-school) — Manager title salary ceiling £48,226 is not below £28,000.
 
 ## Safety boundary
 

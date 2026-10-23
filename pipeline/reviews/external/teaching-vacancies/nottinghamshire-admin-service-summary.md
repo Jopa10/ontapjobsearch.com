@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Nottinghamshire
 
-review_date: 2026-10-22
-review_fingerprint: 492085130cfd516fd303562e19f797a203bba6e5286b692b0d329709f58b225b
-routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
+review_date: 2026-10-23
+review_fingerprint: aff9c7821002252c6184969bf402a9208b3bd89820ab033acc3d409d4723d45c
+routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
 ontap_region: Nottinghamshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 24
-- Selected: 9
-- POSS awaiting decision: 6
+- Records: 22
+- Selected: 8
+- POSS awaiting decision: 5
 - Excluded: 0
 - Hard pass: 9
 
@@ -98,21 +98,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/inclusion-administrat
 
 ---
 action: 
-SELECTED | Nottinghamshire | Nottingham, NG9 6RZ | £16,719.00 - £17,824.00 Annually (Actual) Part time, Term time only, NJC 8-12 (26 hours) | Office Administrator - SALT Team
-employer: The Spencer Academies Trust
-closing_date: 2026-10-23T12:00:00+01:00
-reason: Clear admin/service title: administrator, office administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 8281906ab2abc99cf6a63de61f88493ee31ddce89c76509da364572597de7c44
-source: Teaching Vacancies
-source_job_id: office-administrator-salt-team
-source_url: https://teaching-vacancies.service.gov.uk/jobs/office-administrator-salt-team
----
-
----
-action: 
 SELECTED | Nottinghamshire | Nottingham, East Midlands, NG12 2FS | Grade 3 | Office Administrator and Receptionist
 employer: Radcliffe-on-Trent Junior School
 closing_date: 2026-10-30T15:00:00+00:00
@@ -171,21 +156,6 @@ factual_fingerprint: d899813d4cf8922713d60e8a54242012f2c2b74e2d686003fe8c3563263
 source: Teaching Vacancies
 source_job_id: administration-assistant-horizons-academy-mansfield-nottinghamshire
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-horizons-academy-mansfield-nottinghamshire
----
-
----
-action: 
-POSS | Nottinghamshire | Nottingham, East Midlands, NG2 1FX | £25,614 to £26,16 pro-rata (pro-rata, £21,993 - £22,338 actual per year) | Administration Assistant
-employer: Victoria Primary School
-closing_date: 2026-10-23T09:00:00+01:00
-reason: Possible JobG8 duplicate requires review
-jobg8_check: POSSIBLE_DUPLICATE
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: c661c6f5166de11c4df24458d1a9244549dc7f23f4545ce884d57d12d5edcf3b
-source: Teaching Vacancies
-source_job_id: administration-assistant-victoria-primary-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-assistant-victoria-primary-school
 ---
 
 ---

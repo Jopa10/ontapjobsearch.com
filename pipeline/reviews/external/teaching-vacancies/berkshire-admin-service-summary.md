@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Berkshire
 
-review_date: 2026-10-22
-review_fingerprint: bd9ed654d29f449ced8f165c6afa6c11dd69c87e0d83da2d7710999c8e7fe745
-routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
+review_date: 2026-10-23
+review_fingerprint: 4bbde59281392aba16318e5984f18081d79c434eb89443d1fd533924fdae17bd
+routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
 ontap_region: Berkshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 21
-- Selected: 9
-- POSS awaiting decision: 2
+- Records: 20
+- Selected: 7
+- POSS awaiting decision: 3
 - Excluded: 0
 - Hard pass: 10
 
 ## SELECTED
-
----
-action: 
-SELECTED | Berkshire | Slough, South East, SL1 2TE | £22,858.00 - £23,559.00 Annually (Actual) | Attendance & Admissions Administrator (Maternity Cover)
-employer: Montem Academy
-closing_date: 2026-10-30T12:00:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 695c2e7898f7f3b1edb675e7c368e8236e10b8d22b9cb7258e5d59b239daad74
-source: Teaching Vacancies
-source_job_id: attendance-admissions-administrator-maternity-cover
-source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-admissions-administrator-maternity-cover
----
 
 ---
 action: 
@@ -128,21 +113,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-pastoral-administ
 
 ---
 action: 
-SELECTED | Berkshire | Wokingham, South East, RG41 5LP | £25,410.00 Annually (Actual) Grade 5, SCP 12-17 Term Time Only plus 5 INSET days. Plus SEN Allowance.£1,590 | Senior Administrator
-employer: Oak Tree School
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: eee1fad1e8a568bcd94b1997512aa9f31afad85e2972403eb0fad30e3ce366a5
-source: Teaching Vacancies
-source_job_id: senior-administrator-oak-tree-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-oak-tree-school
----
-
----
-action: 
 SELECTED | Berkshire | Slough, South East, SL2 5BA | £22,274.00 - £22,957.00 Annually (Actual) | Welfare Assistant & Administrator
 employer: James Elliman Academy
 closing_date: 2026-12-31T23:59:00+00:00
@@ -171,6 +141,21 @@ factual_fingerprint: 9283a2cfa1879ccec3594baefe14995caaf12bbfcde6f54546e7f43974c
 source: Teaching Vacancies
 source_job_id: exams-manager-part-time
 source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-manager-part-time
+---
+
+---
+action: 
+POSS | Berkshire | Wokingham, South East, RG41 5LP | £25,410.00 Annually (Actual) Grade 5, SCP 12-17 Term Time Only plus 5 INSET days. Plus SEN Allowance.£1,590 | Senior Administrator
+employer: Oak Tree School
+closing_date: 2026-11-01T23:59:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: eee1fad1e8a568bcd94b1997512aa9f31afad85e2972403eb0fad30e3ce366a5
+source: Teaching Vacancies
+source_job_id: senior-administrator-oak-tree-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-oak-tree-school
 ---
 
 ---

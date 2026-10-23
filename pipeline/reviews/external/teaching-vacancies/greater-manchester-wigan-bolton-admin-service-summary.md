@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Greater Manchester - Wigan & Bolton
 
-review_date: 2026-10-22
-review_fingerprint: 567c14838b0172fd08c7552d5f955e59dbbd9d202f833ca5f1c8b8aa532c3253
-routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
+review_date: 2026-10-23
+review_fingerprint: 01046b2ec3a56215e89ae354a557acf5751d6fcb46518bf5f7f84eb70eb5e019
+routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
 ontap_region: Greater Manchester - Wigan & Bolton
 slice_category: admin_service
 slice_status: LIVE
@@ -14,26 +14,41 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## Counts
 
 - Records: 7
-- Selected: 2
+- Selected: 3
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 5
+- Hard pass: 4
 
 ## SELECTED
 
 ---
 action: 
-SELECTED | Greater Manchester - Wigan & Bolton | Leigh, North West, WN7 5NL | G6 SCP 20-24, £28,153-£31,015 - FTE | Administrative Assistant (with Marketing)
-employer: The Westleigh School
-closing_date: 2026-10-23T12:00:59+01:00
-reason: Clear admin/service title: administrative assistant
+SELECTED | Greater Manchester - Wigan & Bolton | Bolton, North West, BL2 4HU | £25,534.00 - £28,615.00 Annually (Actual) based on 37 hours per week, plus 10 days | Attendance and Admissions Officer
+employer: Firwood High School
+closing_date: 2026-11-15T23:59:00+00:00
+reason: Clear admin/service title: admissions officer
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 19b59b838920e0b7d7d6b18bcba971146a99ff0dd93dcf156fa19e5e0953a1fd
+factual_fingerprint: bf701f344742e60a49f32dcd68118a215ee0343150259d49a3a789102c0265e3
 source: Teaching Vacancies
-source_job_id: administrative-assistant-with-marketing
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-with-marketing
+source_job_id: attendance-and-admissions-officer-firwood-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-and-admissions-officer-firwood-high-school
+---
+
+---
+action: 
+SELECTED | Greater Manchester - Wigan & Bolton | Bolton, North West, BL2 4HU | £22,989.00 - £24,893.00 Annually (Actual) Term Time plus 5 days - 37 hours per week | School Administrator (Reception)
+employer: Firwood High School
+closing_date: 2026-11-15T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 04e75b8069582759e59df39560fc612eafe31f5a308f192548296b79955c7472
+source: Teaching Vacancies
+source_job_id: school-administrator-reception-firwood-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-reception-firwood-high-school
 ---
 
 ---
@@ -61,7 +76,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-adminis
 
 ## HARD_PASS
 
-- [Attendance Assistant](https://teaching-vacancies.service.gov.uk/jobs/attendance-assistant-the-westleigh-school) — Insufficient admin/service evidence.
 - [Director of Finance/ Chief Financial Officer](https://teaching-vacancies.service.gov.uk/jobs/director-of-finance-chief-financial-officer-the-quill-c-of-e-trust) — Insufficient admin/service evidence.
 - [Exams and MIS Officer](https://teaching-vacancies.service.gov.uk/jobs/exams-and-mis-officer) — Insufficient admin/service evidence.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-st-mary-s-rc-primary-school-horwich-bolton-lancashire) — Manager title salary ceiling £37,900 is not below £28,000.

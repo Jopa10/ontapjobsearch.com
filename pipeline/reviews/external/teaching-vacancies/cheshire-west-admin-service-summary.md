@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Cheshire - West
 
-review_date: 2026-10-22
-review_fingerprint: 8864a508bad4b8fd449d37a72b4c38366e9c653d0140d489fa7c5616ef1e565a
-routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
+review_date: 2026-10-23
+review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
 ontap_region: Cheshire - West
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,15 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 2
-- Selected: 1
+- Records: 1
+- Selected: 0
 - POSS awaiting decision: 0
 - Excluded: 0
 - Hard pass: 1
 
 ## SELECTED
 
----
-action: 
-SELECTED | Cheshire - West | Frodsham, North West, WA6 0HY | £11,822.00 - £12,475.00 Annually (Actual) Grade 4 | Finance Administrator
-employer: Helsby High School
-closing_date: 2026-10-23T09:00:00+01:00
-reason: Clear admin/service title: administrator, finance administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: af949caa9ef92b38d389660e7d9aa344071a91fe6cca27439b56795cf1c51e6e
-source: Teaching Vacancies
-source_job_id: finance-administrator-helsby-high-school
-source_url: https://teaching-vacancies.service.gov.uk/jobs/finance-administrator-helsby-high-school
----
+- None.
 
 ## POSS — choose SELECT or EXCLUDE
 

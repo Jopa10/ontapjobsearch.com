@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Wiltshire
 
-review_date: 2026-10-22
-review_fingerprint: 310cebc713f6d506a5a325be39770f66c2d0d6da249b435d372b522f0b5f4a63
-routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
+review_date: 2026-10-23
+review_fingerprint: a6c93f1d09b01fd7cc08b89078fdd362e3bda6986eef8da9125cfe83396fe1bc
+routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
 ontap_region: Wiltshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,28 +13,13 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 17
-- Selected: 11
+- Records: 15
+- Selected: 9
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 4
 
 ## SELECTED
-
----
-action: 
-SELECTED | Wiltshire | Swindon, South West, SN3 6EX | £19,965.60 - £20,282.91 Annually (Actual) NJC 5-6 (£26,427 - £26,847 FTE) | Administrative Assistant
-employer: Liden Academy
-closing_date: 2026-10-28T23:59:00+00:00
-reason: Clear admin/service title: administrative assistant
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 221b8a504c521ab08c43987467895a4dc33232c04c6acc66072850a103468e96
-source: Teaching Vacancies
-source_job_id: administrative-assistant-181abc61-ea48-424a-9686-308bb273394d
-source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assistant-181abc61-ea48-424a-9686-308bb273394d
----
 
 ---
 action: 
@@ -154,21 +139,6 @@ factual_fingerprint: 1bbeef705e8db9c66a2822392ac8f63c25303ca4a1c034b954bb046f7a9
 source: Teaching Vacancies
 source_job_id: receptionist-first-aider-south-wilts-grammar-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-first-aider-south-wilts-grammar-school
----
-
----
-action: 
-SELECTED | Wiltshire | Swindon, South West, SN3 6EX | £9,215.09 - £9,361.55 Annually (Actual) NJC 5 - 6 (£26,427 - £26,847 FTE) | School & Nursery Administrator
-employer: Liden Academy
-closing_date: 2026-10-28T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 9c1ee1ef8e89155000d8a6c1e48e804d67ecaab86e7b5af5a744ca32a3a7642f
-source: Teaching Vacancies
-source_job_id: school-nursery-administrator-liden-academy
-source_url: https://teaching-vacancies.service.gov.uk/jobs/school-nursery-administrator-liden-academy
 ---
 
 ---

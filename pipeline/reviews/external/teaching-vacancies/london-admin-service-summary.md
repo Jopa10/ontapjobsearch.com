@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — London
 
-review_date: 2026-10-22
-review_fingerprint: 363b2b28aa2d5a802c7b1d5f93e1d74472e55bb130c39f47845b9df5033b41f9
-routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
+review_date: 2026-10-23
+review_fingerprint: a5e7e723ae80a4bc15b5b30882fd48f296d6f945b0613766919aa4350e4cc241
+routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
 ontap_region: London
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 80
+- Records: 83
 - Selected: 20
-- POSS awaiting decision: 17
+- POSS awaiting decision: 19
 - Excluded: 0
-- Hard pass: 43
+- Hard pass: 44
 
 ## SELECTED
 
@@ -124,21 +124,6 @@ factual_fingerprint: ab0b8336633321778a8685ae80808082ec05bc1983ddd6152172670eb1c
 source: Teaching Vacancies
 source_job_id: attendance-officer-riverside-bridge-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-riverside-bridge-school
----
-
----
-action: 
-SELECTED | London | Bromley, London, BR1 2NW | BR6 - £27,262 - £29,900 (Actual pro-rata salary £14,563) | Educational Visits and Enrichment Administrator
-employer: Bullers Wood School for Boys
-closing_date: 2026-10-23T09:00:00+01:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: de70f15d00af6eeb850e63d59404d575abcf9d7b71426a5ee78b29958a0b66a0
-source: Teaching Vacancies
-source_job_id: educational-visits-and-enrichment-administrator-bullers-wood-school-for-boys
-source_url: https://teaching-vacancies.service.gov.uk/jobs/educational-visits-and-enrichment-administrator-bullers-wood-school-for-boys
 ---
 
 ---
@@ -308,6 +293,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-bo
 
 ---
 action: 
+SELECTED | London | Woodford Green, London, IG8 7DQ | £26,433.00 - £27,586.00 Annually (Actual) LBR4 (£31290 - £32,655 full time equivalent) | Sixth Form Administrative Assistant & Independent Study Supervisor
+employer: Woodbridge High School
+closing_date: 2026-11-09T09:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 0d39fdcb1e07502fe084a870c99899eaf090c06eeb238fae7466c27a82610744
+source: Teaching Vacancies
+source_job_id: sixth-form-administrative-assistant-independent-study-supervisor
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrative-assistant-independent-study-supervisor
+---
+
+---
+action: 
 SELECTED | London | Uxbridge, London, UB10 9HT | £15,502.00 - £15,865.00 Annually (Actual) | Welfare Administrator
 employer: Oak Wood School
 closing_date: 2026-10-30T12:00:00+00:00
@@ -362,7 +362,7 @@ reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 6339f78b9961014202e98a967754784dc3bea9d14556f1e21e5af85d6f6451c7
+factual_fingerprint: c0f742d04f16b593f1dc2f848f95c2409d3cac934510e207926432a739086a9d
 source: Teaching Vacancies
 source_job_id: administration-officer-sybourn-primary-school-london
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-sybourn-primary-school-london
@@ -400,14 +400,14 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 
 ---
 action: 
-POSS | London | London, London, E15 4LP | Scale 5 | Administrator
+POSS | London | London, London, E15 4LP | Scale 6 | Administrator
 employer: Sarah Bonnell School
 closing_date: 2026-10-30T23:59:00+00:00
 reason: Possible JobG8 duplicate requires review
 jobg8_check: POSSIBLE_DUPLICATE
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 7a86df79701cd933e088d7e80e539c6c5c70a26db6c642ad581e39d30a0c1775
+factual_fingerprint: 7a7ee914f211a39cab9c6b913c8713ef0faf03209864e3dd78878843b84020a3
 source: Teaching Vacancies
 source_job_id: administrator-sarah-bonnell-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administrator-sarah-bonnell-school
@@ -565,6 +565,36 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-administrator-ea
 
 ---
 action: 
+POSS | London | London, London, W2 5EZ | WA Scale 5, Spine Point Range 12 - 17, £26,631 - £29,184 FTE (£23,780 - £26,081 pro rata) | Sixth Form Administrator
+employer: Westminster Academy
+closing_date: 2026-11-02T09:00:00+00:00
+reason: Possible JobG8 duplicate requires review
+jobg8_check: POSSIBLE_DUPLICATE
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 3e433f7be182cd37979946e256fecd4d6a5a477ab66464e06126ea3eb64577d2
+source: Teaching Vacancies
+source_job_id: sixth-form-administrator-westminster-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-administrator-westminster-academy
+---
+
+---
+action: 
+POSS | London | Woodford Green, London, IG8 7DQ | £26,433.00 - £27,586.00 Annually (Actual) LBR4 (£30,288 - £31,611 full time equivalent) | Sixth Form Independent Study Supervisor
+employer: Woodbridge High School
+closing_date: 2026-11-09T09:00:00+00:00
+reason: Administrative duties evidenced in description
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: a7af85e4e86f1ebdf1712c47a764423b72e71aad35ac2758e416d2f244577a73
+source: Teaching Vacancies
+source_job_id: sixth-form-independent-study-supervisor
+source_url: https://teaching-vacancies.service.gov.uk/jobs/sixth-form-independent-study-supervisor
+---
+
+---
+action: 
 POSS | London | Northolt, London, UB5 6AG | Grade 6 Pt 18 - 20 (£36,834 - £37,935) pro rata salary of £32,725 - £33,703Ppa | Transition, Assessment and Medical/Welfare Coordinator
 employer: Belvue School
 closing_date: 2026-11-12T12:00:00+00:00
@@ -593,15 +623,16 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/transition-assessment
 - [Clerk](https://teaching-vacancies.service.gov.uk/jobs/clerk-3c160b52-7e72-4e61-ad20-18c3b7f99817) — Insufficient admin/service evidence.
 - [Communications and Collaboration Lead](https://teaching-vacancies.service.gov.uk/jobs/communications-and-collaboration-lead) — Insufficient admin/service evidence.
 - [Contracts & Procurement Lead](https://teaching-vacancies.service.gov.uk/jobs/contracts-procurement-lead-greenshaw-learning-trust) — Insufficient admin/service evidence.
-- [Data Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/data-administration-assistant-lilian-baylis-technology-school) — Insufficient admin/service evidence.
 - [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-goresbrook-school) — Manager title salary ceiling £43,000 is not below £28,000.
 - [Director of Finance](https://teaching-vacancies.service.gov.uk/jobs/director-of-finance-reach-schools) — Insufficient admin/service evidence.
 - [EA to the Principal](https://teaching-vacancies.service.gov.uk/jobs/ea-to-the-principal) — Out-of-scope occupation: principal.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-reach-schools) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-feec0708-8cac-454f-8890-7daafb1d5429) — Insufficient admin/service evidence.
 - [Finance Officer](https://teaching-vacancies.service.gov.uk/jobs/finance-officer-middlesex-learning-partnership) — Insufficient admin/service evidence.
+- [Head of Year](https://teaching-vacancies.service.gov.uk/jobs/head-of-year-city-of-london-academy-highbury-grove) — Insufficient admin/service evidence.
 - [Headteacher's PA](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-north-brent-school) — Out-of-scope occupation: teacher, headteacher.
 - [Headteacher's PA](https://teaching-vacancies.service.gov.uk/jobs/headteacher-s-pa-orchard-park-high-school-croydon-surrey) — Out-of-scope occupation: teacher, headteacher.
+- [HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/hr-business-partner-university-schools-trust-east-london) — Insufficient admin/service evidence.
 - [HR Lead](https://teaching-vacancies.service.gov.uk/jobs/hr-lead-royal-docks-academy-london) — Insufficient admin/service evidence.
 - [HR Officer, Office Manager & PA to Headteacher (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/hr-officer-office-manager-pa-to-headteacher-maternity-cover) — Manager title salary ceiling £49,212 is not below £28,000.
 - [HR, People and Culture Manager](https://teaching-vacancies.service.gov.uk/jobs/hr-people-and-culture-manager) — Manager title salary ceiling £52,800 is not below £28,000.

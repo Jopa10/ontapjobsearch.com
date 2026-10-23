@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — West Midlands - Black Country
 
-review_date: 2026-10-22
-review_fingerprint: d55a2982f893474ebaa085e6c6d945152b385825e69bfe37ad4f6ba7ad945461
-routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
+review_date: 2026-10-23
+review_fingerprint: 8c1f87b8bb59715d325a15b02988dbe5dd043eb2ff85b192a9c4cc665a9dd7a0
+routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
 ontap_region: West Midlands - Black Country
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 14
-- Selected: 4
-- POSS awaiting decision: 3
+- Records: 13
+- Selected: 5
+- POSS awaiting decision: 1
 - Excluded: 0
 - Hard pass: 7
 
@@ -81,6 +81,21 @@ source_job_id: pastoral-admin-assistant-wolverhampton-girls-high-school
 source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-admin-assistant-wolverhampton-girls-high-school
 ---
 
+---
+action: 
+SELECTED | West Midlands - Black Country | Oldbury, West Midlands, B69 4DE | £28,153.00 - £34,811.00 Annually (FTE) | Senior Administrative Assistant
+employer: Christ Church Church of England Primary School
+closing_date: 2026-11-03T12:00:00+00:00
+reason: Clear admin/service title: administrative assistant
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 926386e989c9e233d403892175f36ac0944cb3616468852a8d3e910a172112a9
+source: Teaching Vacancies
+source_job_id: senior-administrative-assistant-christ-church-church-of-england-primary-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrative-assistant-christ-church-church-of-england-primary-school
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -96,36 +111,6 @@ factual_fingerprint: c001182029ed330155d8e361fddc07a18c5e6dd40971971e663fa001f4a
 source: Teaching Vacancies
 source_job_id: head-of-house-pa-8bc41336-6d4d-41f2-ab57-9bedabaa8422
 source_url: https://teaching-vacancies.service.gov.uk/jobs/head-of-house-pa-8bc41336-6d4d-41f2-ab57-9bedabaa8422
----
-
----
-action: 
-POSS | West Midlands - Black Country | Walsall, West Midlands, WS2 7NR | £28,523.00 - £28,523.00 Annually (Actual) Actual Starting Salary: £25,162.69 (FTE £28,523) | Head of House PA
-employer: Bloxwich Academy
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: ebe4e8dcae6d9e62baf140ba8ce8ec2aee86543525f32550ae5588778f9ff86b
-source: Teaching Vacancies
-source_job_id: head-of-house-pa-b63da4ba-19ba-4c61-9d9c-22c58869178c
-source_url: https://teaching-vacancies.service.gov.uk/jobs/head-of-house-pa-b63da4ba-19ba-4c61-9d9c-22c58869178c
----
-
----
-action: 
-POSS | West Midlands - Black Country | Wolverhampton, West Midlands, WV11 3ES | £25,162.69 - £25,162.69 Annually (Actual) Starting Salary £25,162.69 (FTE £28,523) | Head of House PA
-employer: Wednesfield Academy
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 409e6c8ca593c840b97d824478ac39084f6ae75dc3db7ee4172969ef26f0e715
-source: Teaching Vacancies
-source_job_id: head-of-house-pa-wednesfield-academy-wolverhampton-west-midlands
-source_url: https://teaching-vacancies.service.gov.uk/jobs/head-of-house-pa-wednesfield-academy-wolverhampton-west-midlands
 ---
 
 ## EXCLUDED BY REVIEW

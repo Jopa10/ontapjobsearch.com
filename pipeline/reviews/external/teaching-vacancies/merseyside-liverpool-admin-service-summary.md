@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - Liverpool
 
-review_date: 2026-10-22
-review_fingerprint: ed29f1c63aa9eed58afc557aa91a9ab87426eb2b332ef262ace508c86ad7fef9
-routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
+review_date: 2026-10-23
+review_fingerprint: 1c620202ec21edf7aebade05f4da72567851d84976827a65fbe10f2affb7cf5b
+routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
 ontap_region: Merseyside - Liverpool
 slice_category: admin_service
 slice_status: LIVE
@@ -13,9 +13,9 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 4
+- Records: 3
 - Selected: 1
-- POSS awaiting decision: 3
+- POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 0
 
@@ -42,12 +42,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/administrative-assist
 action: 
 POSS | Merseyside - Liverpool | Liverpool, North West, L14 5NX | £27,274.00 - £29,071.00 Annually (FTE) NJC SCP 7-11 | Pro Rata Salary £15,992 - £17,045 per annum | Administration Officer – Attendance & Family Liaison
 employer: Knotty Ash Primary School
-closing_date: 2026-10-23T12:00:00+01:00
+closing_date: 2026-11-06T08:00:00+00:00
 reason: Administrative duties evidenced in description
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 8af43c8b035b7b6b08d53ddd54fcef49b0e98816250db4ebfe72d426eb33f17e
+factual_fingerprint: 479c4314411c16e762bee64f2557f4482701ca51dede72f10eb62d7ac65ffaf0
 source: Teaching Vacancies
 source_job_id: administration-officer-attendance-family-liaison
 source_url: https://teaching-vacancies.service.gov.uk/jobs/administration-officer-attendance-family-liaison
@@ -66,21 +66,6 @@ factual_fingerprint: c55d4c847d0383309d90fcbbd00018983fdf75a793310ba2ee409c15673
 source: Teaching Vacancies
 source_job_id: office-manager-st-thomas-church-of-england-primary-school-lydiate
 source_url: https://teaching-vacancies.service.gov.uk/jobs/office-manager-st-thomas-church-of-england-primary-school-lydiate
----
-
----
-action: 
-POSS | Merseyside - Liverpool | Liverpool, North West, L26 0TY | £28,153.00 - £31,015.00 Annually (FTE) | SEND / Pastoral Senior Administration Officer
-employer: Finch Woods Academy
-closing_date: 2026-10-22T23:59:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 81387480d56fb1d52ea6b084ac03f9a99d9a017d93a71516fdf58a2bebbfea60
-source: Teaching Vacancies
-source_job_id: send-pastoral-senior-administration-officer
-source_url: https://teaching-vacancies.service.gov.uk/jobs/send-pastoral-senior-administration-officer
 ---
 
 ## EXCLUDED BY REVIEW

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Oxfordshire
 
-review_date: 2026-10-22
+review_date: 2026-10-23
 review_fingerprint: 0d6cf608d9ebebe968e172f1493c472c3b2ce9803efc3884a2e66e4fb7fe39c2
-routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
+routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
 ontap_region: Oxfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
+- Records: 9
 - Selected: 5
 - POSS awaiting decision: 2
 - Excluded: 0
-- Hard pass: 4
+- Hard pass: 2
 
 ## SELECTED
 
@@ -134,9 +134,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-business-manag
 
 ## HARD_PASS
 
-- [MAT Administrator](https://teaching-vacancies.service.gov.uk/jobs/mat-administrator) — Missing salary or pay scale.
 - [School Business Manager](https://teaching-vacancies.service.gov.uk/jobs/school-business-manager-edward-feild-primary-school) — Manager title salary ceiling £39,482 is not below £28,000.
-- [School Premises and Compliance Manager](https://teaching-vacancies.service.gov.uk/jobs/school-premises-and-compliance-manager) — Manager title salary ceiling £36,050 is not below £28,000.
 - [Trust Management Accountant](https://teaching-vacancies.service.gov.uk/jobs/trust-management-accountant-ridgeway-education-trust) — Insufficient admin/service evidence.
 
 ## Safety boundary

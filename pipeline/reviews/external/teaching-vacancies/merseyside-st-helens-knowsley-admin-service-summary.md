@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Merseyside - St Helens & Knowsley
 
-review_date: 2026-10-22
+review_date: 2026-10-23
 review_fingerprint: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
-routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
+routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
 ontap_region: Merseyside - St Helens & Knowsley
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -34,7 +34,7 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 ## HARD_PASS
 
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-the-sutton-academy-st-helens-merseyside) — Insufficient admin/service evidence.
-- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-ee8de53d-514d-46e2-807b-b6f08cc27f88) — Manager title without salary evidence below £28,000.
+- [Office Manager](https://teaching-vacancies.service.gov.uk/jobs/office-manager-e7541b7b-fd39-4dbc-913f-7c14352a4684) — Manager title without salary evidence below £28,000.
 
 ## Safety boundary
 

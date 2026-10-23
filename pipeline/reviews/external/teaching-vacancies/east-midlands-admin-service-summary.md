@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — East Midlands
 
-review_date: 2026-10-22
-review_fingerprint: fb64b7688950cd7144b0b4bb6a90dcce3bd3a951a095b59f3db78fadd77643c7
-routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
+review_date: 2026-10-23
+review_fingerprint: cfd6ad7bf0e2c3d405f5b944cd812f08b4e0f9d050d8ca630dc49bc9628b6adc
+routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
 ontap_region: East Midlands
 slice_category: admin_service
 slice_status: UNREGISTERED
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 13
-- Selected: 5
-- POSS awaiting decision: 2
+- Records: 15
+- Selected: 6
+- POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 8
 
 ## SELECTED
 
@@ -96,6 +96,21 @@ source_job_id: examinations-officer-da-vinci-academy
 source_url: https://teaching-vacancies.service.gov.uk/jobs/examinations-officer-da-vinci-academy
 ---
 
+---
+action: 
+SELECTED | East Midlands | Burton-on-Trent, West Midlands, DE13 8AZ | £26,427.00 Annually (FTE) Actual salary: Grade 3 (SCP 5) £15,505.88 per annum | Receptionist and Data Assistant
+employer: John Taylor High School
+closing_date: 2026-11-04T23:59:00+00:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: UNREGISTERED
+migration_status: 
+factual_fingerprint: c1b341e64cbbd7f05c15be7ed9d183f02fb86614f642a5b9446c6c0e0acbce50
+source: Teaching Vacancies
+source_job_id: receptionist-and-data-assistant
+source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-data-assistant
+---
+
 ## POSS — choose SELECT or EXCLUDE
 
 ---
@@ -113,27 +128,14 @@ source_job_id: business-administration-apprentice-level-3-embark-multi-academy-t
 source_url: https://teaching-vacancies.service.gov.uk/jobs/business-administration-apprentice-level-3-embark-multi-academy-trust
 ---
 
----
-action: 
-POSS | East Midlands | Burton On Trent, DE13 7JE | £4,182.00 Annually (Actual) | Clerical Assistant
-employer: The Staffordshire Schools Multi Academy Trust
-closing_date: 2026-10-23T12:00:00+01:00
-reason: Administrative duties evidenced in description
-jobg8_check: NO_MATCH
-slice_status: UNREGISTERED
-migration_status: 
-factual_fingerprint: 18c2c758e810ef68bf0911eb3d67147c2b13319db90885523a6dc45cc80167bf
-source: Teaching Vacancies
-source_job_id: clerical-assistant-the-staffordshire-schools-multi-academy-trust
-source_url: https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-the-staffordshire-schools-multi-academy-trust
----
-
 ## EXCLUDED BY REVIEW
 
 - None.
 
 ## HARD_PASS
 
+- [Associate HR Business Partner](https://teaching-vacancies.service.gov.uk/jobs/associate-hr-business-partner-derby-college) — Insufficient admin/service evidence.
+- [Data Manager](https://teaching-vacancies.service.gov.uk/jobs/data-manager-chellaston-academy) — Manager title salary ceiling £35,155 is not below £28,000.
 - [Education Health Care Plans and Annual Review Co-ordinator](https://teaching-vacancies.service.gov.uk/jobs/education-health-care-plans-and-annual-review-co-ordinator) — Insufficient admin/service evidence.
 - [Management Information System (MIS) Administrator & Cover Manager](https://teaching-vacancies.service.gov.uk/jobs/management-information-system-mis-administrator-cover-manager-85783a14-bff5-44f3-9d32-6556a2a69f08) — Manager title salary ceiling £32,488 is not below £28,000.
 - [Office Administration Assistant](https://teaching-vacancies.service.gov.uk/jobs/office-administration-assistant-1b11a0b9-fc3b-402e-84f1-2c7c938587f8) — Insufficient admin/service evidence.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Hampshire
 
-review_date: 2026-10-22
-review_fingerprint: f1d18508f7daf91517b4c6f05c196010ae29cd9ade902bc216f3a7939cc5294a
-routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
+review_date: 2026-10-23
+review_fingerprint: 06f9e268487b2750f0136684490c452f80b27c2ca19a1739e6dfd6cd0b56e280
+routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
 ontap_region: Hampshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,15 +13,43 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 11
-- Selected: 0
+- Records: 13
+- Selected: 2
 - POSS awaiting decision: 2
 - Excluded: 0
 - Hard pass: 9
 
 ## SELECTED
 
-- None.
+---
+action: 
+SELECTED | Hampshire | Ringwood, South East, BH24 1SE | £27,937.00 - £30,843.00 Annually (FTE) Salary will be pro rated to term time, plus one week of INSET days | Attendance Officer
+employer: Ringwood School Academy
+closing_date: 2026-11-06T09:00:00+00:00
+reason: Clear admin/service title: attendance officer
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 6679c66db82b0ccb78a450f10473602e54250b6ba2fe2533f5c33f62df9fb9d3
+source: Teaching Vacancies
+source_job_id: attendance-officer-66e679cb-65bb-4391-8ecd-a482bdaa6185
+source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-66e679cb-65bb-4391-8ecd-a482bdaa6185
+---
+
+---
+action: 
+SELECTED | Hampshire | Portsmouth, South East, PO5 4LS | Band 3 Pt 2-5 £12,296-£12,853 - Actual (£24,482-£25,583 FTE) pending pay award | Part Time Receptionist/Administrator
+employer: Ark Ayrton Primary Academy
+closing_date: 2026-11-05T00:00:00+00:00
+reason: Clear admin/service title: administrator, receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: b59065443bbaa5a1253fe6f53017ff2683dd92afe2f55775acdbd2fed9d162f9
+source: Teaching Vacancies
+source_job_id: part-time-receptionist-administrator-ark-ayrton-primary-academy
+source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-receptionist-administrator-ark-ayrton-primary-academy
+---
 
 ## POSS — choose SELECT or EXCLUDE
 

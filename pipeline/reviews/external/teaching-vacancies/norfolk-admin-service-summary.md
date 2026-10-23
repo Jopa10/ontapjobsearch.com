@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Norfolk
 
-review_date: 2026-10-22
-review_fingerprint: 3f0df6717004e0a734b2078cff121a3077e88af8af2e2b9332df92589a1c9fa3
-routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
+review_date: 2026-10-23
+review_fingerprint: 5abf0942d0e2157249ae1991eeebc21cadfa9c4a53257f0abc0c0c6ec6ec5107
+routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
 ontap_region: Norfolk
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 19
-- Selected: 6
+- Records: 21
+- Selected: 7
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 13
+- Hard pass: 14
 
 ## SELECTED
 
@@ -83,6 +83,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/exams-officer-litcham
 
 ---
 action: 
+SELECTED | Norfolk | Dereham, East of England, NR19 2EU | £18,629.00 - £18,929.00 Annually (Actual) | Part time Receptionist/Administration Assistant
+employer: Northgate High School
+closing_date: 2026-11-03T23:59:00+00:00
+reason: Clear admin/service title: receptionist
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 58a06fb68513f995485840082dfc945b5c9dd292adefa1ba5b226d6374ec4038
+source: Teaching Vacancies
+source_job_id: part-time-receptionist-administration-assistant-northgate-high-school
+source_url: https://teaching-vacancies.service.gov.uk/jobs/part-time-receptionist-administration-assistant-northgate-high-school
+---
+
+---
+action: 
 SELECTED | Norfolk | Attleborough, East of England, NR17 1RL | £28,028 - £30,470 actual pa | Personal Assistant to the Headteacher
 employer: Old Buckenham High School
 closing_date: 2026-11-09T00:00:00+00:00
@@ -121,11 +136,12 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-administrator-
 
 ## HARD_PASS
 
-- [Administration Officer](https://teaching-vacancies.service.gov.uk/jobs/administration-officer-queen-s-hill-primary-school) — Insufficient admin/service evidence.
 - [Administrative Officer](https://teaching-vacancies.service.gov.uk/jobs/administrative-officer-diss-infant-academy-and-nursery) — Insufficient admin/service evidence.
 - [Administrator](https://teaching-vacancies.service.gov.uk/jobs/administrator-admirals-academy) — Missing salary or pay scale.
 - [Admissions and Marketing Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-marketing-coordinator-university-technical-college-norfolk) — Insufficient admin/service evidence.
 - [Admissions and Outreach Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-outreach-coordinator-university-technical-college-norfolk-norwich-norfolk) — Insufficient admin/service evidence.
+- [Admissions and School Liaison Coordinator](https://teaching-vacancies.service.gov.uk/jobs/admissions-and-school-liaison-coordinator-norwich-city-college-of-further-and-higher-education) — Insufficient admin/service evidence.
+- [Attendance and Cover Officer](https://teaching-vacancies.service.gov.uk/jobs/attendance-and-cover-officer) — Insufficient admin/service evidence.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-st-john-the-baptist-catholic-multi-academy-trust) — Insufficient admin/service evidence.
 - [Clerical Assistant](https://teaching-vacancies.service.gov.uk/jobs/clerical-assistant-browick-road-primary-and-nursery-school-wymondham-norfolk) — Insufficient admin/service evidence.
 - [Data Manager (Maternity Cover)](https://teaching-vacancies.service.gov.uk/jobs/data-manager-maternity-cover-great-yarmouth-charter-academy-great-yarmouth) — Manager title salary ceiling £34,811 is not below £28,000.

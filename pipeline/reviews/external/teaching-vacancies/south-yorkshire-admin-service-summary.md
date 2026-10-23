@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Yorkshire - South
 
-review_date: 2026-10-22
-review_fingerprint: f6a7cfa42189043ccf790c6a13bee15584741699726275e1d05c8886c302d545
-routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
+review_date: 2026-10-23
+review_fingerprint: f7a7288489b6f279796d97f64b0c3696c366fa1672721b857e90b11c3d5533c6
+routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
 ontap_region: Yorkshire - South
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 25
-- Selected: 10
+- Records: 26
+- Selected: 9
 - POSS awaiting decision: 1
 - Excluded: 0
-- Hard pass: 14
+- Hard pass: 16
 
 ## SELECTED
 
@@ -68,21 +68,6 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/estates-compliance-an
 
 ---
 action: 
-SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S4 8GB | £25,989 FTE - actual salary £22,354 | Pastoral Administrator
-employer: Fir Vale Academy
-closing_date: 2026-11-01T23:59:00+00:00
-reason: Clear admin/service title: administrator
-jobg8_check: NO_MATCH
-slice_status: LIVE
-migration_status: 
-factual_fingerprint: 3662f484313426f927f7ee243d1c43557cbfa4702ba7ca136d95c25a5a7de02f
-source: Teaching Vacancies
-source_job_id: pastoral-administrator-5c2b0244-981c-458c-9f42-f41ca8d990f8
-source_url: https://teaching-vacancies.service.gov.uk/jobs/pastoral-administrator-5c2b0244-981c-458c-9f42-f41ca8d990f8
----
-
----
-action: 
 SELECTED | Yorkshire - South | Sheffield, Yorkshire and the Humber, S20 1HQ | £26,427.00 - £26,847.00 Annually (FTE) Grade 3 SCP 5 to SCP 6 (Actual salary £22,729 - £23,091) | Receptionist
 employer: Westfield School
 closing_date: 2026-11-01T23:59:00+00:00
@@ -120,7 +105,7 @@ reason: Clear admin/service title: receptionist
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: b894c431a4eae6fdd4edce6ff3b60301dd909bc6542519b16f42f0e9fb34f1f8
+factual_fingerprint: e596a047b50fc7abce1b623b1d3de0a4feed6d2c45677367dff787b03cf8ef38
 source: Teaching Vacancies
 source_job_id: receptionist-and-communication-assistant
 source_url: https://teaching-vacancies.service.gov.uk/jobs/receptionist-and-communication-assistant
@@ -197,7 +182,9 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/send-admin-support-as
 - [Administrative Office Manager](https://teaching-vacancies.service.gov.uk/jobs/administrative-office-manager-hcat) — Manager title salary ceiling £33,699 is not below £28,000.
 - [Chief Financial Officer (CFO)](https://teaching-vacancies.service.gov.uk/jobs/chief-financial-officer-cfo-peak-edge-sheffield-not-recorded) — Insufficient admin/service evidence.
 - [Communication Support Worker](https://teaching-vacancies.service.gov.uk/jobs/communication-support-worker-the-sheffield-college) — Insufficient admin/service evidence.
-- [Executive Assistant](https://teaching-vacancies.service.gov.uk/jobs/executive-assistant-ridgewood-school-doncaster-south-yorkshire) — Insufficient admin/service evidence.
+- [Employability Skills and Placement Officer - Sport and Public Services](https://teaching-vacancies.service.gov.uk/jobs/employability-skills-and-placement-officer-sport-and-public-services) — Insufficient admin/service evidence.
+- [Events Officer](https://teaching-vacancies.service.gov.uk/jobs/events-officer) — Insufficient admin/service evidence.
+- [Examinations Manager](https://teaching-vacancies.service.gov.uk/jobs/examinations-manager-sir-thomas-wharton-academy) — Manager title salary ceiling £35,570 is not below £28,000.
 - [Finance Assistant](https://teaching-vacancies.service.gov.uk/jobs/finance-assistant-minerva-learning-trust) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-af25a6a1-1704-464a-aa02-94005bbeab49) — Insufficient admin/service evidence.
 - [Finance Business Partner](https://teaching-vacancies.service.gov.uk/jobs/finance-business-partner-minerva-learning-trust-sheffield-not-recorded) — Insufficient admin/service evidence.

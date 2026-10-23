@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Bedfordshire
 
-review_date: 2026-10-22
-review_fingerprint: b9d89257768959656d473d6cecdcbdbafdb32ab8c8a63160b51155e4eeba0692
-routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
+review_date: 2026-10-23
+review_fingerprint: 245952382b9a5cf76128e1f8a9b0fd59c89b9e518730736e4c4f6f559fa8a0a6
+routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
 ontap_region: Bedfordshire
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 10
-- Selected: 4
+- Records: 12
+- Selected: 5
 - POSS awaiting decision: 0
 - Excluded: 0
-- Hard pass: 6
+- Hard pass: 7
 
 ## SELECTED
 
@@ -68,6 +68,21 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/attendance-officer-pu
 
 ---
 action: 
+SELECTED | Bedfordshire | Leighton Buzzard, East of England, LU7 2UA | £26,428.00 - £29,070.00 Annually (FTE) Pro-rata | Office & Community Administrator
+employer: Southcott Lower School
+closing_date: 2026-11-05T23:59:00+00:00
+reason: Clear admin/service title: administrator
+jobg8_check: NO_MATCH
+slice_status: LIVE
+migration_status: 
+factual_fingerprint: 95c2bab11db0b393eb77658d18194c12e0d49c492cc3d909e7fd14a58654ab8b
+source: Teaching Vacancies
+source_job_id: office-community-administrator
+source_url: https://teaching-vacancies.service.gov.uk/jobs/office-community-administrator
+---
+
+---
+action: 
 SELECTED | Bedfordshire | Luton, East of England, LU4 9RD | £8,790.00 - £9,073.00 Annually (Actual) | SEN Inclusion Administrator
 employer: Beechwood Primary School
 closing_date: 2026-11-19T12:00:00+00:00
@@ -93,6 +108,7 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-inclusion-adminis
 
 - [Business, Operations, HR & Compliance Manager](https://teaching-vacancies.service.gov.uk/jobs/business-operations-hr-compliance-manager) — Manager title salary ceiling £33,672 is not below £28,000.
 - [Data & Exams Manager](https://teaching-vacancies.service.gov.uk/jobs/data-exams-manager-queensbury-academy) — Manager title salary ceiling £39,481 is not below £28,000.
+- [Data Manager and Examinations Officer](https://teaching-vacancies.service.gov.uk/jobs/data-manager-and-examinations-officer-wixams-academy) — Manager title salary ceiling £48,900 is not below £28,000.
 - [Facilities Manager](https://teaching-vacancies.service.gov.uk/jobs/facilities-manager-denbigh-primary-school) — Manager title salary ceiling £43,149 is not below £28,000.
 - [Financial Controller](https://teaching-vacancies.service.gov.uk/jobs/financial-controller-567766f1-1593-41ed-9bcc-141b66967e36) — Insufficient admin/service evidence.
 - [Operations Assistant](https://teaching-vacancies.service.gov.uk/jobs/operations-assistant-wixams-academy) — Insufficient admin/service evidence.

@@ -1,8 +1,8 @@
 # Teaching Vacancies regional review — Devon
 
-review_date: 2026-10-22
-review_fingerprint: 94db8a5335a138ae86be4253f67c9cfc7965e3de2800c9881e91febb90952744
-routing_manifest_sha256: 89bff2930182ed0f5e7c0b31d31306ca4e84ea3d3c3d0d8e115a4f1171985750
+review_date: 2026-10-23
+review_fingerprint: d7def2894ecaafe14b91c36e981b7fb1ae514a9490cc09c2cf666aaacde0b68b
+routing_manifest_sha256: d7c9fa8955d6761c860cbf1d17956d9ad3eae6d378d34ad37b43117f1caee8fd
 ontap_region: Devon
 slice_category: admin_service
 slice_status: LIVE
@@ -13,11 +13,11 @@ CANDIDATE and UNREGISTERED slices remain unpublished regardless of actions.
 
 ## Counts
 
-- Records: 23
+- Records: 25
 - Selected: 8
 - POSS awaiting decision: 3
 - Excluded: 0
-- Hard pass: 12
+- Hard pass: 14
 
 ## SELECTED
 
@@ -98,17 +98,17 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/school-office-adminis
 
 ---
 action: 
-SELECTED | Devon | Plymouth, South West, PL4 6HT | TSAT Pay Group 3 pro rata to £12,946 - £15,024 for hours and weeks stated (£26,866 - £31,179 FTE ) | SEN Medical Administrator
-employer: Plymouth High School for Girls
-closing_date: 2026-11-01T23:59:00+00:00
+SELECTED | Devon | Barnstaple, South West, EX31 3UD | £31,724 - £35,688, Actual Salary Range £27,051 - £30,432 | Senior Administrator
+employer: The Shoreline Academy
+closing_date: 2026-11-20T23:59:00+00:00
 reason: Clear admin/service title: administrator
 jobg8_check: NO_MATCH
 slice_status: LIVE
 migration_status: 
-factual_fingerprint: 75e50ef159e0f59b69b3e17ebb9592ce3a65111d2ae27bba904a34143ef14d75
+factual_fingerprint: 56ee2b6a2a03c8345e5430c5425304a197be6fe16681f5dbe30721a85b8bcf82
 source: Teaching Vacancies
-source_job_id: sen-medical-administrator
-source_url: https://teaching-vacancies.service.gov.uk/jobs/sen-medical-administrator
+source_job_id: senior-administrator-1ab8b680-19b9-400d-b2ad-e7ffeda3ad14
+source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-administrator-1ab8b680-19b9-400d-b2ad-e7ffeda3ad14
 ---
 
 ---
@@ -205,6 +205,8 @@ source_url: https://teaching-vacancies.service.gov.uk/jobs/senior-pupil-services
 - [HR Advisor](https://teaching-vacancies.service.gov.uk/jobs/hr-advisor-all-saints-marsh-cofe-academy) — Insufficient admin/service evidence.
 - [Marketing and Communications Lead](https://teaching-vacancies.service.gov.uk/jobs/marketing-and-communications-lead-learning-academies-trust) — Insufficient admin/service evidence.
 - [People Advisor ( Devon Cluster)](https://teaching-vacancies.service.gov.uk/jobs/people-advisor-devon-cluster) — Insufficient admin/service evidence.
+- [Post-16 Transition Coordinator](https://teaching-vacancies.service.gov.uk/jobs/post-16-transition-coordinator-isca-academy) — Insufficient admin/service evidence.
+- [Reception Administrator](https://teaching-vacancies.service.gov.uk/jobs/reception-administrator-a8a7af34-eea8-4688-b23d-e979d7269a87) — Missing salary or pay scale.
 - [School Caretaker](https://teaching-vacancies.service.gov.uk/jobs/school-caretaker-ladysmith-infant-nursery-school) — Out-of-scope occupation: caretaker.
 
 ## Safety boundary
