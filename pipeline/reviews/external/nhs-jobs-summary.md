@@ -2,15 +2,51 @@
 
 review_date: 2026-10-23
 
-- Open Administrative & Clerical rows reviewed: 2018
+- Open Administrative & Clerical rows reviewed: 2021
 - Auto/remembered selected: 378
 - Selected HC Tier A: 202
 - Selected HC Tier B: 176
-- POSS awaiting decision: 1542
+- POSS awaiting decision: 1545
 - Excluded: 0
 - HARD_PASS: 98
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | London | Surbiton, KT5 9AL | £30630.00 to £32346.00 | Customer Care & Facilities Assistant
+source_job_id: 5677433
+title: Customer Care & Facilities Assistant
+employer: Your Healthcare CIC
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B9811-26-0055
+factual_fingerprint: b381394ed4508fe9f9cb17f598d5ded006127e58b5fc6b543d21c1a41998d5c8
+---
+
+---
+action:
+POSS | NHS Jobs | London | London, W1T 5BE | Negotiable | Clinical Team Leader (Central London)
+source_job_id: 5680345
+title: Clinical Team Leader (Central London)
+employer: MSI Reproductive Choices
+region: London
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/B0539-26-0248
+factual_fingerprint: 26009b6d657ba8e71f4837e14ad65c830bf204c2174ebf075a1fdfab2dd64a02
+---
+
+---
+action:
+POSS | NHS Jobs | Lancashire - Blackpool & Fylde | Lytham St Annes, FY8 2EP | Negotiable | Workflow Coordinator
+source_job_id: 5573040
+title: Workflow Coordinator
+employer: Parcliffe Medical Centre
+region: Lancashire - Blackpool & Fylde
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1794-26-0003
+factual_fingerprint: 43cc9d3fbba937abb73b61c7eb42f278d29b4d64408bbca554cff879362c777b
+---
 
 ---
 action:
