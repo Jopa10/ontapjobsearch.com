@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-10-22
+feed_date: 2026-10-23
 
 Edit only the `action:` line in each block:
 
@@ -165,6 +165,12 @@ SELECTED | Sussex | Sussex | £13.21 per hour | Night Care Assistant
 job_id: 23643_225751206
 ---
 
+---
+action:
+SELECTED | Sussex | Brighton | £12.71 - £15 per hour | Mental Health Support Worker
+job_id: 23643_225648065
+---
+
 ## SUSSEX — POSSIBLES
 
 _No jobs in this group._
@@ -217,12 +223,6 @@ job_id: 23643_225716746
 action:
 SELECTED | Hampshire | Aldershot | £12.75 - £13 per hour | Residential Support Worker
 job_id: 23643_225505280
----
-
----
-action:
-SELECTED | Hampshire | Hook | £28697 - £31573 per year | Children's Home Support Worker
-job_id: 1401785773
 ---
 
 ---
@@ -641,12 +641,6 @@ job_id: 23643_225710192
 action:
 SELECTED | Wiltshire | Wiltshire | £16.03 per hour | Care Assistant - Bank - Care Home
 job_id: 23643_225713768
----
-
----
-action:
-SELECTED | Wiltshire | Wiltshire | £14.31 per hour | Care Assistant - Care Home
-job_id: 23643_225713769
 ---
 
 ---
