@@ -4,7 +4,7 @@
 - Live route: `/milton-keynes/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 19
+- Effective included jobs: 20
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 19
-- automatic review: 65
+- automatic include: 20
+- automatic review: 60
 - automatic exclude: 0
-- effective include: 19
-- effective review: 65
+- effective include: 20
+- effective review: 60
 - effective exclude: 0
 
-## INCLUDE (19)
+## INCLUDE (20)
 
 ---
 action: 
@@ -172,18 +172,6 @@ reason: Exact approved Milton Keynes workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Part Time Receptionist (22 hours)
-company: Osborne Appointments - Agency - Temporary
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-23643_225739617
-reason: Exact approved Milton Keynes workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Payroll and HR Support Administrator
 company: The Woodlands School
 location: Milton Keynes
@@ -232,11 +220,35 @@ reason: Exact approved Milton Keynes workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Service Administrator
+company: Neos Recruitment Ltd - Agency - Permanent
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-23643_225757025
+reason: Exact approved Milton Keynes workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Stock Administrator
 company: Adecco - Agency - Permanent
 location: Milton Keynes
 source: JobG8
 job_id: jobg8-23643_225696301
+reason: Exact approved Milton Keynes workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Temporary HR Administrator
+company: Osborne Appointments - Agency - Temporary
+location: Milton Keynes
+source: JobG8
+job_id: jobg8-23643_225761685
 reason: Exact approved Milton Keynes workplace.
 ---
 
@@ -252,7 +264,7 @@ job_id: jobg8-2169089
 reason: Exact approved Milton Keynes workplace.
 ---
 
-## REVIEW (65)
+## REVIEW (60)
 
 ---
 action: 
@@ -378,18 +390,6 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Administration & Finance Assistant
-company: Quality Personnel - Agency - Contract
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225640299
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Administrative Assistant
 company: Top Tier Recruitment LTD - Agency - Contract
 location: Buckinghamshire
@@ -463,34 +463,10 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Osborne Appointments - Agency - Temporary
-location: Buckingham
-source: JobG8
-job_id: jobg8-23643_225742477
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
 company: SF Partners - Agency - Permanent
 location: Aylesbury
 source: JobG8
 job_id: jobg8-23643_225707968
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Accountant
-company: Parke Lane People - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-2026365
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -599,6 +575,18 @@ company: Better People - Agency - Permanent
 location: Buckinghamshire
 source: JobG8
 job_id: jobg8-23643_225716385
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Corporate Credit Controller
+company: Gleeson Recruitment Group - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225757294
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -786,18 +774,6 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Operations Administrator
-company: Osborne Appointments - Agency - Temporary
-location: Buckingham
-source: JobG8
-job_id: jobg8-23643_225709331
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Operations Coordinator
 company: Adecco - Agency - Temporary
 location: Buckinghamshire
@@ -846,23 +822,11 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Part Time Finance Assistant
-company: Platinum Resourcing - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-2028229
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Planner
-company: Daniel Owen Ltd - Agency - Permanent
+title: Project Co-ordinator
+company: Adecco - Agency - Permanent
 location: Aylesbury
 source: JobG8
-job_id: jobg8-23643_225643261
+job_id: jobg8-23643_225761154
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -875,18 +839,6 @@ company: Search Consultancy Ltd - Agency - Permanent
 location: High Wycombe
 source: JobG8
 job_id: jobg8-23643_225745214
-reason: No exact Milton Keynes workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Purchasing Coordinator (MRP)
-company: Ernest Gordon Recruitment Limited - Agency - Permanent
-location: Buckinghamshire
-source: JobG8
-job_id: jobg8-23643_225648958
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -907,10 +859,10 @@ action:
 decision: review
 automatic_decision: review
 title: Receptionist
-company: Primary Care Careers
-location: Olney, MK46 5QG
-source: NHS Jobs
-job_id: nhs-5618397
+company: Millbank Holdings - Agency - Permanent
+location: Newport Pagnell
+source: JobG8
+job_id: jobg8-23643_225757631
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 
@@ -966,11 +918,11 @@ reason: No exact Milton Keynes workplace matched; local geographic review is req
 action: 
 decision: review
 automatic_decision: review
-title: Sales Ledger Controller
-company: Gleeson Recruitment Group - Agency - Permanent
-location: Marlow
+title: Sales and Purchasing Coordinator (finish at 12 on Fridays)
+company: Universal Science Group - Agency - Permanent
+location: Buckinghamshire
 source: JobG8
-job_id: jobg8-23643_225647949
+job_id: jobg8-2169741
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/warwick/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 12
+- Effective included jobs: 13
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
+- automatic include: 13
 - automatic review: 90
 - automatic exclude: 0
-- effective include: 12
+- effective include: 13
 - effective review: 90
 - effective exclude: 0
 
-## INCLUDE (12)
+## INCLUDE (13)
 
 ---
 action: 
@@ -76,11 +76,23 @@ reason: Exact approved Warwick workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Bookings Administrator
-company: Belinda Roberts Ltd - Agency - Contract
+title: Customer Care Coordinator (Complaints Handling)
+company: Adecco - Agency - Permanent
 location: Warwick
 source: JobG8
-job_id: jobg8-23643_225649181
+job_id: jobg8-23643_225758011
+reason: Exact approved Warwick workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Complaints Handler
+company: SVB Solutions - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-23643_225758952
 reason: Exact approved Warwick workplace.
 ---
 
@@ -270,11 +282,11 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Activities & Coaching Operations Coordinator
-company: Riding for the Disabled Association (RDA) - Agency - Permanent
+title: Activities Coordinator - Care Home
+company: Barchester Healthcare - Company - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2085330
+job_id: jobg8-23643_225756406
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -311,18 +323,6 @@ company: Finham Park 2
 location: Coventry
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-finham-park-2
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Genesis Employment Services Ltd - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_223927243
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -426,18 +426,6 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Conveyancing Legal Assistant
-company: G2 Legal Limited - Agency - Permanent
-location: Leamington Spa
-source: JobG8
-job_id: jobg8-2024649
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Conveyancing Paralegal
 company: Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent
 location: Coventry
@@ -479,18 +467,6 @@ company: Brellis Recruitment - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225748714
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Service Advisor - Property Management
-company: Accord Lets - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-2104797
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -618,6 +594,18 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Finance Assistant
+company: thefutureworks - Agency - Temporary
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225756261
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Front of House Administrator
 company: Valpak Limited - Agency - Temporary
 location: Stratford-Upon-Avon
@@ -719,6 +707,30 @@ company: Workstreet - Agency - Permanent
 location: Coventry
 source: JobG8
 job_id: jobg8-2067815
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Manager
+company: ChilliMint (Europe) Limited - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225760687
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Manager (French Fluent Speaker)
+company: ChilliMint (Europe) Limited - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225760700
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 
@@ -1074,6 +1086,18 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Recruitment Resourcer
+company: Resolute Recruitment - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-2041977
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Referrals Coordinator
 company: Hamilton Woods - Agency - Temporary
 location: Warwickshire
@@ -1151,18 +1175,6 @@ company: TalentTech Recruitment Ltd - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225672723
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Senior Marketing Manager
-company: Reed - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-2054035
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

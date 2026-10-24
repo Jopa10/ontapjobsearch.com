@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 9
-- automatic exclude: 48
+- automatic review: 10
+- automatic exclude: 46
 - effective include: 6
-- effective review: 9
-- effective exclude: 48
+- effective review: 10
+- effective exclude: 46
 
 ## INCLUDE (6)
 
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225749128
 reason: Approved Barnsley catchment.
 ---
 
-## REVIEW (9)
+## REVIEW (10)
 
 ---
 action: 
@@ -107,6 +107,18 @@ company: Runwood Homes - Company - Permanent
 location: Bentley
 source: JobG8
 job_id: jobg8-23643_225736679
+reason: No approved Barnsley catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: NHS Professionals - Company - Temporary
+location: Brinsworth
+source: JobG8
+job_id: jobg8-23643_225757191
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
@@ -206,7 +218,7 @@ job_id: jobg8-23643_225681456
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (48)
+## EXCLUDE (46)
 
 ---
 action: 
@@ -249,10 +261,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Administrator
-company: Reed - Agency - Permanent
+company: NHS Professionals - Company - Temporary
 location: Doncaster
 source: JobG8
-job_id: jobg8-2024835
+job_id: jobg8-23643_225757175
 reason: Separate employment market.
 ---
 
@@ -289,18 +301,6 @@ company: Elevation Recruitment Group - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2044207
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Audience Development Coordinator - Local Authority - Libraries
-company: Reed - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2033599
 reason: Separate employment market.
 ---
 
@@ -625,18 +625,6 @@ company: SARIA - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225684316
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Payroll and Accounts Assistant
-company: Elevation Recruitment Group - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-2028957
 reason: Separate employment market.
 ---
 

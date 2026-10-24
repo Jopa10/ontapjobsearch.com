@@ -4,7 +4,7 @@
 - Live route: `/belfast/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 4
+- Effective included jobs: 5
 - Threshold currently met: no
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 4
-- automatic review: 4
+- automatic include: 5
+- automatic review: 6
 - automatic exclude: 0
-- effective include: 4
-- effective review: 4
+- effective include: 5
+- effective review: 6
 - effective exclude: 0
 
-## INCLUDE (4)
+## INCLUDE (5)
 
 ---
 action: 
@@ -72,7 +72,19 @@ job_id: jobg8-23643_225679035
 reason: Approved conservative Belfast launch catchment.
 ---
 
-## REVIEW (4)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Trainee Digital Marketing Manager No experience needed (Ref: 6901)
+company: Qualify Nation Recruitment - Agency - Permanent
+location: Belfast
+source: JobG8
+job_id: jobg8-2174848
+reason: Approved conservative Belfast launch catchment.
+---
+
+## REVIEW (6)
 
 ---
 action: 
@@ -119,6 +131,30 @@ company: Rise Technical Recruitment - Agency - Permanent
 location: Antrim
 source: JobG8
 job_id: jobg8-23643_225750735
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Hays Accounts and Finance - Agency - Permanent
+location: Larne
+source: JobG8
+job_id: jobg8-23643_225756135
+reason: No approved Belfast catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Ledger Assistant
+company: Woodside Logistics Group - Agency - Permanent
+location: County Antrim
+source: JobG8
+job_id: jobg8-108207818
 reason: No approved Belfast catchment rule matched; local review required.
 ---
 

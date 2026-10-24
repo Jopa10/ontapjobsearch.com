@@ -4,7 +4,7 @@
 - Live route: `/lincoln/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 29
+- Effective included jobs: 27
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 29
-- automatic review: 8
+- automatic include: 27
+- automatic review: 6
 - automatic exclude: 0
-- effective include: 29
-- effective review: 8
+- effective include: 27
+- effective review: 6
 - effective exclude: 0
 
-## INCLUDE (29)
+## INCLUDE (27)
 
 ---
 action: 
@@ -52,23 +52,23 @@ reason: The stated workplace matches the approved Lincoln employment-market patt
 action: 
 decision: include
 automatic_decision: include
-title: Accounts Payable Clerk
-company: Blusource Professional Services Ltd - Agency - Temporary
-location: Lincoln
+title: Admin Assistant
+company: Insight Employment - Agency - Temporary
+location: Lincolnshire
 source: JobG8
-job_id: jobg8-23643_225728373
-reason: Exact approved Lincoln workplace.
+job_id: jobg8-23643_225667184
+reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
 ---
 action: 
 decision: include
 automatic_decision: include
-title: Admin Assistant
-company: Insight Employment - Agency - Temporary
+title: Administrator
+company: NHS Professionals - Company - Temporary
 location: Lincolnshire
 source: JobG8
-job_id: jobg8-23643_225667184
+job_id: jobg8-23643_225757211
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -94,18 +94,6 @@ location: Lincoln
 source: JobG8
 job_id: jobg8-2060479
 reason: Exact approved Lincoln workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Assistant Accountant
-company: Reed - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-2024723
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
 ---
@@ -161,18 +149,6 @@ action:
 decision: include
 automatic_decision: include
 title: Customer Service Advisor
-company: Venatu Consulting Ltd - Agency - Permanent
-location: Lincolnshire
-source: JobG8
-job_id: jobg8-23643_225742593
-reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Advisor
 company: William H Brown - Company - Permanent
 location: Lincolnshire
 source: JobG8
@@ -196,11 +172,11 @@ reason: Exact approved Lincoln workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Finance Assistant/Accounts Payable
-company: Hays Specialist Recruitment Limited - Agency - Permanent
+title: Fleet Account Coordinator
+company: Listers - Agency - Permanent
 location: Lincolnshire
 source: JobG8
-job_id: jobg8-2028887
+job_id: jobg8-108220157
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
@@ -372,7 +348,7 @@ job_id: jobg8-23643_225696261
 reason: The stated workplace matches the approved Lincoln employment-market pattern `lincoln`.
 ---
 
-## REVIEW (8)
+## REVIEW (6)
 
 ---
 action: 
@@ -390,35 +366,11 @@ reason: No approved Lincoln employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Estimating Coordinator
-company: Stirling Warrington - Agency - Permanent
-location: Grantham
-source: JobG8
-job_id: jobg8-23643_225648525
-reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Goods In Administrator
 company: Recruitment pro - Agency - Permanent
 location: Scunthorpe
 source: JobG8
 job_id: jobg8-23643_225676641
-reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: HR & Office Administrator
-company: Harbour Learning Trust
-location: Grimsby
-source: Teaching Vacancies
-job_id: teaching-vacancies-hr-office-administrator
 reason: No approved Lincoln employment-market rule matched the stated location; local geographic review is required.
 ---
 

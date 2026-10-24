@@ -222,18 +222,6 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: Business Administrator
-company: Pertemps North Midlands - Agency - Permanent
-location: Staffordshire
-source: JobG8
-job_id: jobg8-23643_225649196
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Business Support Administrator
 company: The Colliery Practice
 location: Cannock, WS11 1DJ
@@ -299,18 +287,6 @@ company: Adecco - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-23643_225703254
-reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Account Administrator
-company: Pertemps Black Country Perms - Agency - Permanent
-location: Cannock
-source: JobG8
-job_id: jobg8-23643_225645345
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -402,11 +378,11 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: Marketing Manager
-company: Ellodave Creative Agency - Agency - Permanent
-location: Staffordshire
+title: Internal Sales Coordinator
+company: Oakley Recruitment Limited - Agency - Temporary
+location: Tamworth
 source: JobG8
-job_id: jobg8-23643_225643228
+job_id: jobg8-23643_225758838
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -431,6 +407,18 @@ company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Staffordshire
 source: JobG8
 job_id: jobg8-2076970
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Receptionist/Administrator
+company: Cambridge House Surgery
+location: Stoke on Trent, ST2 0EU
+source: NHS Jobs
+job_id: nhs-5684497
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -610,6 +598,18 @@ title: Purchasing Coordinator (Construction)
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Staffordshire
 source: JobG8
+job_id: jobg8-2094492
+reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Purchasing Coordinator (Construction)
+company: Ernest Gordon Recruitment Limited - Agency - Permanent
+location: Staffordshire
+source: JobG8
 job_id: jobg8-23643_225701229
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
@@ -654,11 +654,11 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: Recruiter
-company: Adecco - Agency - Contract
-location: Staffordshire
+title: Recruitment Administrator
+company: AM2PM Group - Agency - Temporary
+location: Lichfield
 source: JobG8
-job_id: jobg8-23643_225748542
+job_id: jobg8-23643_225658876
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 
@@ -666,11 +666,11 @@ reason: No exact Stoke-on-trent workplace matched; local geographic review is re
 action: 
 decision: review
 automatic_decision: review
-title: Recruitment Administrator
-company: AM2PM Group - Agency - Temporary
-location: Lichfield
+title: Recruitment Coordinator
+company: Adecco - Agency - Contract
+location: Staffordshire
 source: JobG8
-job_id: jobg8-23643_225658876
+job_id: jobg8-23643_225758295
 reason: No exact Stoke-on-trent workplace matched; local geographic review is required.
 ---
 

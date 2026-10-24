@@ -4,7 +4,7 @@
 - Live route: `/glasgow/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 33
+- Effective included jobs: 36
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 33
+- automatic include: 36
 - automatic review: 2
 - automatic exclude: 0
-- effective include: 33
+- effective include: 36
 - effective review: 2
 - effective exclude: 0
 
-## INCLUDE (33)
+## INCLUDE (36)
 
 ---
 action: 
@@ -148,6 +148,18 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Customer Service Coordinator
+company: Adecco - Agency - Permanent
+location: Glasgow
+source: JobG8
+job_id: jobg8-23643_225756220
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Data Administrator
 company: Adecco - Agency - Temporary
 location: Glasgow
@@ -208,6 +220,30 @@ reason: Approved conservative Glasgow launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Licensing Coordinator
+company: Adecco - Agency - Temporary
+location: Glasgow
+source: JobG8
+job_id: jobg8-23643_225757877
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Licensing Coordinator
+company: Pertemps Glasgow Perms - Agency - Temporary
+location: Glasgow
+source: JobG8
+job_id: jobg8-23643_225757567
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Logistics Co-ordinator - Import/Export Freight
 company: Dunwall - Agency - Permanent
 location: Glasgow
@@ -261,18 +297,6 @@ company: Hays Accounts and Finance - Agency - Temporary
 location: Glasgow
 source: JobG8
 job_id: jobg8-23643_225696770
-reason: Approved conservative Glasgow launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Operations Administrator
-company: RPJ Energy Solutions Limited - Agency - Permanent
-location: Glasgow
-source: JobG8
-job_id: jobg8-23643_225752498
 reason: Approved conservative Glasgow launch catchment.
 ---
 
@@ -393,6 +417,18 @@ company: Office Angels - Agency - Temporary
 location: Glasgow
 source: JobG8
 job_id: jobg8-23643_225719474
+reason: Approved conservative Glasgow launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Temporary Receptionist/Administrator
+company: Office Angels - Agency - Temporary
+location: Glasgow
+source: JobG8
+job_id: jobg8-23643_225760167
 reason: Approved conservative Glasgow launch catchment.
 ---
 

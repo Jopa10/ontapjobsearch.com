@@ -4,7 +4,7 @@
 - Live route: `/harrogate/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 10
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 10
+- automatic include: 11
 - automatic review: 17
-- automatic exclude: 37
-- effective include: 10
+- automatic exclude: 36
+- effective include: 11
 - effective review: 17
-- effective exclude: 37
+- effective exclude: 36
 
-## INCLUDE (10)
+## INCLUDE (11)
 
 ---
 action: 
@@ -117,6 +117,18 @@ company: Saltergate Junior School
 location: Harrogate
 source: Teaching Vacancies
 job_id: teaching-vacancies-school-administrator-saltergate-junior-school-harrogate-north-yorkshire
+reason: Exact approved Harrogate workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Technical & Quality Support Administrator
+company: Unity Resourcing - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-2081400
 reason: Exact approved Harrogate workplace.
 ---
 
@@ -234,18 +246,6 @@ reason: No approved Harrogate employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
-title: Medical Receptionist
-company: Beech House Surgery
-location: Knaresborough, HG5 0UB
-source: NHS Jobs
-job_id: nhs-5635501
-reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Patient Services Administrator
 company: Filey Surgery
 location: Filey, YO14 9AE
@@ -330,6 +330,18 @@ reason: No approved Harrogate employment-market rule matched the stated location
 action: 
 decision: review
 automatic_decision: review
+title: Senior Administrator - Medical Secretary
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Ripon, HG4 1HZ
+source: NHS Jobs
+job_id: nhs-5684296
+reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Service Advisor
 company: Auto Skills UK - Agency - Permanent
 location: Richmond
@@ -350,7 +362,7 @@ job_id: jobg8-23643_225666115
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (37)
+## EXCLUDE (36)
 
 ---
 action: 
@@ -397,18 +409,6 @@ company: PPM Recruitment - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-23643_225652103
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Assistant Exams Officer & Cover Administrator
-company: Woldgate School and Sixth Form College
-location: York
-source: Teaching Vacancies
-job_id: teaching-vacancies-assistant-exams-officer-cover-administrator
 reason: The stated workplace belongs outside the approved Harrogate employment market.
 ---
 

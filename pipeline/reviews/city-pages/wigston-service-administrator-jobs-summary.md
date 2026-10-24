@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 81
+- automatic review: 76
 - automatic exclude: 0
 - effective include: 0
-- effective review: 81
+- effective review: 76
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (81)
+## REVIEW (76)
 
 ---
 action: 
@@ -151,10 +151,10 @@ action:
 decision: review
 automatic_decision: review
 title: Accounts Receivable Assistant
-company: Adecco - Agency - Permanent
+company: Adecco - Agency - Temporary
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2026586
+job_id: jobg8-23643_225652191
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -486,18 +486,6 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Executive Assistant
-company: Cherry Professional - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225648049
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Administrator
 company: Trinity House Group - Agency - Permanent
 location: Leicestershire
@@ -618,18 +606,6 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Key Stage Administrator
-company: Bosworth Academy
-location: Leicester
-source: Teaching Vacancies
-job_id: teaching-vacancies-key-stage-administrator
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Legal Assistant
 company: GWR Legal Recruitment Ltd - Agency - Permanent
 location: Leicester
@@ -695,18 +671,6 @@ company: Barker Ross - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225676461
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: PA to the Principal
-company: Tudor Grange Samworth Academy, A church of England School
-location: Leicester
-source: Teaching Vacancies
-job_id: teaching-vacancies-pa-to-the-principal-06799846-251b-4b2c-bb1a-eb129a5f5011
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -834,18 +798,6 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist / Administrator
-company: Interaction Recruitment - Agency - Temporary
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225642990
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales Administrator
 company: Office Angels - Agency - Permanent
 location: Leicestershire
@@ -959,18 +911,6 @@ company: Saint Gobain - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225754680
-reason: No exact Wigston workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Student Services Administrator
-company: Tudor Grange Samworth Academy, A church of England School
-location: Leicester
-source: Teaching Vacancies
-job_id: teaching-vacancies-student-services-administrator-b483b3bc-5d81-42ee-be3a-16ed93deb17d
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

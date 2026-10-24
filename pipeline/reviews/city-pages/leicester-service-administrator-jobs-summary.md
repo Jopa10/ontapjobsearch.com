@@ -4,7 +4,7 @@
 - Live route: `/leicester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 20
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 20
-- automatic review: 61
+- automatic include: 17
+- automatic review: 59
 - automatic exclude: 0
-- effective include: 20
-- effective review: 61
+- effective include: 17
+- effective review: 59
 - effective exclude: 0
 
-## INCLUDE (20)
+## INCLUDE (17)
 
 ---
 action: 
@@ -160,35 +160,11 @@ reason: Exact approved Leicester workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Key Stage Administrator
-company: Bosworth Academy
-location: Leicester
-source: Teaching Vacancies
-job_id: teaching-vacancies-key-stage-administrator
-reason: Exact approved Leicester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Legal Assistant
 company: GWR Legal Recruitment Ltd - Agency - Permanent
 location: Leicester
 source: JobG8
 job_id: jobg8-23643_225664160
-reason: Exact approved Leicester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: PA to the Principal
-company: Tudor Grange Samworth Academy, A church of England School
-location: Leicester
-source: Teaching Vacancies
-job_id: teaching-vacancies-pa-to-the-principal-06799846-251b-4b2c-bb1a-eb129a5f5011
 reason: Exact approved Leicester workplace.
 ---
 
@@ -252,19 +228,7 @@ job_id: jobg8-23643_225664258
 reason: Exact approved Leicester workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Student Services Administrator
-company: Tudor Grange Samworth Academy, A church of England School
-location: Leicester
-source: Teaching Vacancies
-job_id: teaching-vacancies-student-services-administrator-b483b3bc-5d81-42ee-be3a-16ed93deb17d
-reason: Exact approved Leicester workplace.
----
-
-## REVIEW (61)
+## REVIEW (59)
 
 ---
 action: 
@@ -379,10 +343,10 @@ action:
 decision: review
 automatic_decision: review
 title: Accounts Receivable Assistant
-company: Adecco - Agency - Permanent
+company: Adecco - Agency - Temporary
 location: Leicestershire
 source: JobG8
-job_id: jobg8-2026586
+job_id: jobg8-23643_225652191
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -618,18 +582,6 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Executive Assistant
-company: Cherry Professional - Agency - Permanent
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225648049
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Finance Administrator
 company: Trinity House Group - Agency - Permanent
 location: Leicestershire
@@ -851,18 +803,6 @@ company: Office Angels - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225721480
-reason: No exact Leicester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist / Administrator
-company: Interaction Recruitment - Agency - Temporary
-location: Leicestershire
-source: JobG8
-job_id: jobg8-23643_225642990
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

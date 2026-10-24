@@ -4,7 +4,7 @@
 - Live route: `/doncaster/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 17
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,24 +15,24 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
-- automatic review: 9
-- automatic exclude: 37
-- effective include: 17
-- effective review: 9
-- effective exclude: 37
+- automatic include: 16
+- automatic review: 10
+- automatic exclude: 36
+- effective include: 16
+- effective review: 10
+- effective exclude: 36
 
-## INCLUDE (17)
+## INCLUDE (16)
 
 ---
 action: 
 decision: include
 automatic_decision: include
 title: Administrator
-company: Reed - Agency - Permanent
+company: NHS Professionals - Company - Temporary
 location: Doncaster
 source: JobG8
-job_id: jobg8-2024835
+job_id: jobg8-23643_225757175
 reason: Approved Doncaster catchment.
 ---
 
@@ -196,18 +196,6 @@ reason: Approved Doncaster catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Payroll and Accounts Assistant
-company: Elevation Recruitment Group - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-2028957
-reason: Approved Doncaster catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Procurement Administrator -Temporary
 company: Hays Business Support - Agency - Temporary
 location: Doncaster
@@ -228,7 +216,7 @@ job_id: jobg8-23643_225706715
 reason: Approved Doncaster catchment.
 ---
 
-## REVIEW (9)
+## REVIEW (10)
 
 ---
 action: 
@@ -239,6 +227,18 @@ company: Runwood Homes - Company - Permanent
 location: Bentley
 source: JobG8
 job_id: jobg8-23643_225736679
+reason: No approved Doncaster catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: NHS Professionals - Company - Temporary
+location: Brinsworth
+source: JobG8
+job_id: jobg8-23643_225757191
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
@@ -338,7 +338,7 @@ job_id: jobg8-23643_225681456
 reason: No approved Doncaster catchment rule matched; local review required.
 ---
 
-## EXCLUDE (37)
+## EXCLUDE (36)
 
 ---
 action: 
@@ -445,18 +445,6 @@ company: Elevation Recruitment Group - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2044207
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Audience Development Coordinator - Local Authority - Libraries
-company: Reed - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2033599
 reason: Separate employment market.
 ---
 

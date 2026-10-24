@@ -4,7 +4,7 @@
 - Live route: `/altrincham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 8
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 8
+- automatic include: 7
 - automatic review: 27
 - automatic exclude: 0
-- effective include: 8
+- effective include: 7
 - effective review: 27
 - effective exclude: 0
 
-## INCLUDE (8)
+## INCLUDE (7)
 
 ---
 action: 
@@ -33,18 +33,6 @@ company: Dark Horse - Agency - Permanent
 location: Altrincham
 source: JobG8
 job_id: jobg8-23643_225703710
-reason: Exact approved Altrincham workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Jobwise Ltd - Agency - Temporary
-location: Altrincham
-source: JobG8
-job_id: jobg8-23643_225649058
 reason: Exact approved Altrincham workplace.
 ---
 
@@ -150,18 +138,6 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Activities Coordinator
-company: Exemplar Health Care - Company - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-108207964
-reason: No exact Altrincham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Admin/Contact Centre
 company: Alliance Personnel - Agency - Permanent
 location: Stockport
@@ -198,11 +174,11 @@ reason: No exact Altrincham workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Bank Receptionist
-company: Moya Cole Hospice
-location: Cheadle, SK8 3SZ, MANCHESTER, M28 0AB
-source: NHS Jobs
-job_id: nhs-5653698
+title: Administrator
+company: Adecco - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225761727
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 
@@ -383,6 +359,18 @@ company: Winsearch - Agency - Temporary
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225720848
+reason: No exact Altrincham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Reporting Administrator
+company: Halecroft Recruitment - Agency - Temporary
+location: Trafford
+source: JobG8
+job_id: jobg8-23643_225757919
 reason: No exact Altrincham workplace matched; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 66
+- automatic review: 73
 - automatic exclude: 0
 - effective include: 7
-- effective review: 66
+- effective review: 73
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: jobg8-23643_225653411
 reason: Exact approved Bath workplace.
 ---
 
-## REVIEW (66)
+## REVIEW (73)
 
 ---
 action: 
@@ -143,18 +143,6 @@ company: Robert Half - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2057297
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Admin Support Administrator
-company: East Trees Health Centre
-location: Bristol, BS5 6SA
-source: NHS Jobs
-job_id: nhs-5648878
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -263,6 +251,18 @@ company: Hamberley Care Management Limited - Company - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225752416
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Care Navigator (Receptionist)
+company: Air Balloon Surgery
+location: Bristol, BS5 7PD
+source: NHS Jobs
+job_id: nhs-5684455
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -391,6 +391,18 @@ action:
 decision: review
 automatic_decision: review
 title: Customer Service Advisor
+company: Interaction Recruitment - Agency - Temporary
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225758669
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
 company: Tate - Agency - Temporary
 location: Bristol
 source: JobG8
@@ -407,6 +419,18 @@ company: Moxie and Mettle Limited - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2066943
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Event Co-ordinator
+company: In Any Event - Agency - Permanent
+location: Portishead
+source: JobG8
+job_id: jobg8-23643_225757463
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -443,6 +467,18 @@ company: Artis Recruitment - Agency - Permanent
 location: Yate
 source: JobG8
 job_id: jobg8-23643_225661210
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Morgan McKinley (South West) - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225760729
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -570,6 +606,18 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
+title: IP Records Administrator / Records Paralegal
+company: The Law Support Group - Agency - Permanent
+location: Somerset
+source: JobG8
+job_id: jobg8-2178869
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Italian Speaking Insurance Administrator
 company: Neon Talent Solutions - Agency - Permanent
 location: Bristol
@@ -598,7 +646,7 @@ title: Junior Accountant
 company: Ashley Rees Associates - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2024392
+job_id: jobg8-23643_225650858
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -630,6 +678,18 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
+title: Marketing and Communications Assistant
+company: Society for Endocrinology - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-2176205
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Medical Administrator
 company: The Old School Surgery
 location: Bristol, BS16 1QY
@@ -646,7 +706,7 @@ title: Medical Receptionist / Administrator
 company: St Augustine’s Medical Practice
 location: Keynsham, BS31 2GN
 source: NHS Jobs
-job_id: nhs-5652485
+job_id: nhs-5681497
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -823,6 +883,18 @@ action:
 decision: review
 automatic_decision: review
 title: Secretary / Administrator
+company: Harwood Recruitment Solutions Limited - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-2103238
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Secretary / Administrator
 company: Harwood Recruitment Solutions Ltd - Agency - Permanent
 location: Bristol
 source: JobG8
@@ -851,6 +923,18 @@ company: Perfect Placement - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225726289
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: Sytner - Company - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225760897
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 

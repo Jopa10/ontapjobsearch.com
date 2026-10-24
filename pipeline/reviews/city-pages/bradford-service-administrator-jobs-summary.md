@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 19
-- automatic review: 39
-- automatic exclude: 110
+- automatic review: 37
+- automatic exclude: 108
 - effective include: 19
-- effective review: 39
-- effective exclude: 110
+- effective review: 37
+- effective exclude: 108
 
 ## INCLUDE (19)
 
@@ -76,11 +76,11 @@ reason: Approved Bradford catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service & Sales Advisor
-company: Search Consultancy Ltd - Agency - Permanent
+title: Customer / Sales Administrator - Multiple applicants
+company: Office Angels - Agency - Permanent
 location: Bradford
 source: JobG8
-job_id: jobg8-23643_225713094
+job_id: jobg8-23643_225756046
 reason: Approved Bradford catchment.
 ---
 
@@ -252,19 +252,7 @@ job_id: jobg8-23643_225732501
 reason: Approved Bradford catchment.
 ---
 
-## REVIEW (39)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Academy Administrator L3
-company: Dixons Cottingley Academy
-location: Bingley
-source: Teaching Vacancies
-job_id: teaching-vacancies-academy-administrator-l3-dixons-cottingley-academy-bingley
-reason: No approved Bradford catchment rule matched; local review required.
----
+## REVIEW (37)
 
 ---
 action: 
@@ -299,18 +287,6 @@ company: The Mirfield Free Grammar
 location: Mirfield
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-the-mirfield-free-grammar-mirfield-west-yorkshire
-reason: No approved Bradford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator/Receptionist
-company: Church Lane Surgery
-location: Brighouse, HD6 1AT
-source: NHS Jobs
-job_id: nhs-5642303
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
@@ -474,6 +450,18 @@ reason: No approved Bradford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: GP Practice Receptionist
+company: Meltham Group Practice
+location: Holmfirth, HD9 5QQ
+source: NHS Jobs
+job_id: nhs-5684178
+reason: No approved Bradford catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: GP Receptionist / Care Navigator
 company: Robin Lane Health & Wellbeing Centre
 location: Pudsey, LS28 7DE
@@ -618,18 +606,6 @@ reason: No approved Bradford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Purchase & Sales Ledger Administrator
-company: IPS Finance - Agency - Permanent
-location: Brighouse
-source: JobG8
-job_id: jobg8-23643_225682519
-reason: No approved Bradford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Purchase Ledger Clerk
 company: PRATAP PARTNERSHIP LTD - Agency - Permanent
 location: Yorkshire
@@ -722,7 +698,7 @@ job_id: jobg8-23643_225555461
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (110)
+## EXCLUDE (108)
 
 ---
 action: 
@@ -733,18 +709,6 @@ company: Lucy Walker Recruitment - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225678109
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Admin / Business Support Officer
-company: Colbern Limited - Agency - Contract
-location: Wakefield
-source: JobG8
-job_id: jobg8-23643_225663468
 reason: Separate employment market.
 ---
 
@@ -781,18 +745,6 @@ company: Huntress - Leeds - Agency - Contract
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225717635
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Search Consultancy Ltd - Agency - Contract
-location: Leeds
-source: JobG8
-job_id: jobg8-23643_225645333
 reason: Separate employment market.
 ---
 
@@ -849,18 +801,6 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Bookkeeper
-company: Reed - Agency - Permanent
-location: Halifax
-source: JobG8
-job_id: jobg8-2026795
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Bookkeeper
 company: Verelogic - Agency - Permanent
 location: Leeds
 source: JobG8
@@ -908,18 +848,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Business Support Administrator Fixed Term Contract 12 Months
-company: WTW - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-2173006
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Business Support Officer
 company: All Saints Catholic College
 location: Huddersfield
@@ -944,35 +872,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Care Navigator / Receptionist
-company: Lofthouse Surgery
-location: Wakefield, WF3 3SA, Leeds, LS26 0AE
-source: NHS Jobs
-job_id: nhs-5630977
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Care Navigator/Receptionist
 company: Ireland Wood & Horsforth Medical Practice
 location: Leeds, LS16 6FR
 source: NHS Jobs
 job_id: nhs-5656950
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Clerical Officer/ Receptionist
-company: Leeds Teaching Hospitals
-location: Leeds, LS9 7TF
-source: NHS Jobs
-job_id: nhs-5653711
 reason: Separate employment market.
 ---
 
@@ -1177,6 +1081,18 @@ company: Huntress - Leeds - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225728280
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Service Administrator
+company: Michael Page - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225757245
 reason: Separate employment market.
 ---
 
@@ -1496,6 +1412,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Internal Sales Coordinator
+company: Huntress - Leeds - Agency - Permanent
+location: Batley
+source: JobG8
+job_id: jobg8-23643_225757873
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Internal Sales Executive
 company: TDRS - Agency - Permanent
 location: Huddersfield
@@ -1573,6 +1501,18 @@ company: Shirley Parsons Ltd - Agency - Permanent
 location: Huddersfield
 source: JobG8
 job_id: jobg8-23643_225663738
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Medical Receptionist
+company: Abbey Grange Medical Practice
+location: Leeds, LS5 3JN
+source: NHS Jobs
+job_id: nhs-5682586
 reason: Separate employment market.
 ---
 
@@ -1681,6 +1621,18 @@ company: Reed - Agency - Permanent
 location: Wakefield
 source: JobG8
 job_id: jobg8-2064618
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Payroll Administrator
+company: Portfolio Payroll Limited - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225757815
 reason: Separate employment market.
 ---
 
@@ -1832,11 +1784,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist
-company: Beechwood Medical Centre
-location: Halifax, HX2 8AL
+title: Receptionist / Administrator
+company: Ossett Surgery
+location: Wakefield, WF5 8DF
 source: NHS Jobs
-job_id: nhs-5623216
+job_id: nhs-5662186
 reason: Separate employment market.
 ---
 
@@ -1844,11 +1796,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Receptionist / Administrator
-company: Ossett Surgery
-location: Wakefield, WF5 8DF
+title: Receptionist/ Administrator
+company: Stainland Road Medical Centre
+location: Halifax, HX4 8BD
 source: NHS Jobs
-job_id: nhs-5662186
+job_id: nhs-5681414
 reason: Separate employment market.
 ---
 
@@ -2012,18 +1964,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Temporary Credit Controller
-company: Synergem Recruitment - Agency - Permanent
-location: Leeds
-source: JobG8
-job_id: jobg8-2028584
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Temporary Customer Service Administrator
 company: Office Angels - Agency - Temporary
 location: Leeds
@@ -2041,5 +1981,17 @@ company: Northern Gas - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-23643_225706935
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Veterinary Insurance Administrator
+company: Donaldsons vets - Agency - Permanent
+location: Huddersfield
+source: JobG8
+job_id: jobg8-23643_225760413
 reason: Separate employment market.
 ---

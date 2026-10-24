@@ -4,7 +4,7 @@
 - Live route: `/exeter/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 19
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 19
-- automatic review: 42
+- automatic include: 18
+- automatic review: 43
 - automatic exclude: 0
-- effective include: 19
-- effective review: 42
+- effective include: 18
+- effective review: 43
 - effective exclude: 0
 
-## INCLUDE (19)
+## INCLUDE (18)
 
 ---
 action: 
@@ -45,6 +45,18 @@ company: Veolia - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225718193
+reason: Exact approved Exeter workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: WR HVAC - Agency - Contract
+location: Exeter
+source: JobG8
+job_id: jobg8-23643_225759209
 reason: Exact approved Exeter workplace.
 ---
 
@@ -172,35 +184,11 @@ reason: Exact approved Exeter workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Sales Administrator
-company: Office Angels - Agency - Permanent
-location: Exeter
-source: JobG8
-job_id: jobg8-23643_225651226
-reason: Exact approved Exeter workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Scheduling Administrator
 company: Huntress - Maidstone - Agency - Temporary
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225680752
-reason: Exact approved Exeter workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Service Administrator
-company: Royal Devon University Healthcare NHS Foundation Trust
-location: Exeter, EX2 5DW
-source: NHS Jobs
-job_id: nhs-5657703
 reason: Exact approved Exeter workplace.
 ---
 
@@ -252,7 +240,7 @@ job_id: jobg8-23643_225699564
 reason: Exact approved Exeter workplace.
 ---
 
-## REVIEW (42)
+## REVIEW (43)
 
 ---
 action: 
@@ -323,18 +311,6 @@ company: RG Setsquare - Agency - Temporary
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225682122
-reason: No exact Exeter workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Sentinel Healthcare South West CIC
-location: Plymouth, PL6 8BT
-source: NHS Jobs
-job_id: nhs-5645618
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 
@@ -534,6 +510,18 @@ reason: No exact Exeter workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Finance Assistant
+company: Pontoon - Agency - Contract
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225650065
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Financial Services Administrator
 company: Hays Business Support - Agency - Permanent
 location: Torquay
@@ -719,6 +707,18 @@ company: Pembrook Resourcing - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-2167941
+reason: No exact Exeter workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: Perfect Placement - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225759002
 reason: No exact Exeter workplace matched; local geographic review is required.
 ---
 

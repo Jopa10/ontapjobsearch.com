@@ -112,35 +112,11 @@ reason: Approved conservative Warrington launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Administrator
-company: Source 4 - Agency - Temporary
-location: Warrington
-source: JobG8
-job_id: jobg8-23643_225652264
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Customer Service Advisor
 company: Michael Page - Agency - Contract
 location: Warrington
 source: JobG8
 job_id: jobg8-23643_225745949
-reason: Approved conservative Warrington launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Coordinator
-company: Source 4 - Agency - Temporary
-location: Warrington
-source: JobG8
-job_id: jobg8-23643_225653301
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -213,6 +189,18 @@ company: hireful - Company - Contract
 location: Warrington
 source: JobG8
 job_id: jobg8-23643_225730928
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Medical Receptionist
+company: The Surgery
+location: Warrington, WA1 3RB
+source: NHS Jobs
+job_id: nhs-5675613
 reason: Approved conservative Warrington launch catchment.
 ---
 
@@ -297,6 +285,18 @@ company: Envipco - Agency - Permanent
 location: Warrington
 source: JobG8
 job_id: jobg8-23643_225736171
+reason: Approved conservative Warrington launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Temp Receptionist
+company: Zachary Daniels Recruitment - Agency - Temporary
+location: Warrington
+source: JobG8
+job_id: jobg8-23643_225760575
 reason: Approved conservative Warrington launch catchment.
 ---
 

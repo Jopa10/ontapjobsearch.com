@@ -4,7 +4,7 @@
 - Live route: `/hull/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 19
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 19
-- automatic review: 14
+- automatic include: 18
+- automatic review: 16
 - automatic exclude: 0
-- effective include: 19
-- effective review: 14
+- effective include: 18
+- effective review: 16
 - effective exclude: 0
 
-## INCLUDE (19)
+## INCLUDE (18)
 
 ---
 action: 
@@ -208,18 +208,6 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist/Cover Coordinator
-company: Sirius Academy North
-location: Hull
-source: Teaching Vacancies
-job_id: teaching-vacancies-receptionist-cover-coordinator-sirius-academy-north
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Regional Network Coordinator
 company: Vizion Network - Agency - Permanent
 location: Hull
@@ -252,7 +240,7 @@ job_id: nhs-5672082
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (14)
+## REVIEW (16)
 
 ---
 action: 
@@ -287,18 +275,6 @@ company: Consortium Professional Recruitment Ltd - Agency - Permanent
 location: Hessle
 source: JobG8
 job_id: jobg8-23643_225731743
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: BOM Administrator
-company: Consortium Professional Recruitment Ltd - Agency - Permanent
-location: Hessle
-source: JobG8
-job_id: jobg8-23643_225653759
 reason: No approved Hull catchment rule matched; local review required.
 ---
 
@@ -354,6 +330,30 @@ reason: No approved Hull catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Logistics Coordinator
+company: Consortium Professional Recruitment - Agency - Permanent
+location: Hessle
+source: JobG8
+job_id: jobg8-108183003
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Medical Administrator
+company: Drs Reddy & Nunn
+location: Bridlington, YO16 4LZ
+source: NHS Jobs
+job_id: nhs-5684409
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Payroll Clerk
 company: Castle Employment - Agency - Permanent
 location: Bridlington
@@ -371,6 +371,18 @@ company: Townends Accountants LLP - Agency - Permanent
 location: North Humberside
 source: JobG8
 job_id: jobg8-23643_225702204
+reason: No approved Hull catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Administrator
+company: Ernest Gordon Recruitment Limited - Agency - Permanent
+location: Bridlington
+source: JobG8
+job_id: jobg8-23643_225760588
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

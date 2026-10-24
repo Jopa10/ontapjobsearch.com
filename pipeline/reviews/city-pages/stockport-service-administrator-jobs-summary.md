@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 15
-- automatic review: 20
+- automatic review: 19
 - automatic exclude: 0
 - effective include: 15
-- effective review: 20
+- effective review: 19
 - effective exclude: 0
 
 ## INCLUDE (15)
@@ -33,18 +33,6 @@ company: Pure 4 Recruitment - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225687790
-reason: Exact approved Stockport workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Activities Coordinator
-company: Exemplar Health Care - Company - Permanent
-location: Stockport
-source: JobG8
-job_id: jobg8-108207964
 reason: Exact approved Stockport workplace.
 ---
 
@@ -69,6 +57,18 @@ company: Hays Business Support - Agency - Permanent
 location: Stockport
 source: JobG8
 job_id: jobg8-23643_225753753
+reason: Exact approved Stockport workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrator
+company: Adecco - Agency - Permanent
+location: Stockport
+source: JobG8
+job_id: jobg8-23643_225761727
 reason: Exact approved Stockport workplace.
 ---
 
@@ -204,7 +204,7 @@ job_id: jobg8-23643_225671741
 reason: Exact approved Stockport workplace.
 ---
 
-## REVIEW (20)
+## REVIEW (19)
 
 ---
 action: 
@@ -239,30 +239,6 @@ company: Tameside and Glossop Integrated Care NHS Foundation Trust
 location: Ashton Under Lyne, OL6 6NG
 source: NHS Jobs
 job_id: nhs-5656329
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: Jobwise Ltd - Agency - Temporary
-location: Altrincham
-source: JobG8
-job_id: jobg8-23643_225649058
-reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Bank Receptionist
-company: Moya Cole Hospice
-location: Cheadle, SK8 3SZ, MANCHESTER, M28 0AB
-source: NHS Jobs
-job_id: nhs-5653698
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -383,6 +359,18 @@ company: Halecroft Recruitment - Agency - Temporary
 location: Altrincham
 source: JobG8
 job_id: jobg8-23643_225733574
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Reporting Administrator
+company: Halecroft Recruitment - Agency - Temporary
+location: Trafford
+source: JobG8
+job_id: jobg8-23643_225757919
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 

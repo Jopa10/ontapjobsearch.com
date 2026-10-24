@@ -126,18 +126,6 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Assistant Exams Officer & Cover Administrator
-company: Woldgate School and Sixth Form College
-location: York
-source: Teaching Vacancies
-job_id: teaching-vacancies-assistant-exams-officer-cover-administrator
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Assistant Project Administrator (Construction)
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: York
@@ -450,18 +438,6 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Medical Receptionist
-company: Beech House Surgery
-location: Knaresborough, HG5 0UB
-source: NHS Jobs
-job_id: nhs-5635501
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Paralegal
 company: LSL Property Services plc - Agency - Permanent
 location: York
@@ -726,6 +702,18 @@ reason: No exact Scarborough workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
+title: Senior Administrator - Medical Secretary
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Ripon, HG4 1HZ
+source: NHS Jobs
+job_id: nhs-5684296
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Service Advisor
 company: Auto Skills UK - Agency - Permanent
 location: Richmond
@@ -743,6 +731,18 @@ company: Greenfield I T Recruitment - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2057285
+reason: No exact Scarborough workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Technical & Quality Support Administrator
+company: Unity Resourcing - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-2081400
 reason: No exact Scarborough workplace matched; local geographic review is required.
 ---
 

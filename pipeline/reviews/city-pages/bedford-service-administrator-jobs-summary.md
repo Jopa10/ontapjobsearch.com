@@ -4,7 +4,7 @@
 - Live route: `/bedford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 5
+- Effective included jobs: 4
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 5
-- automatic review: 30
+- automatic include: 4
+- automatic review: 31
 - automatic exclude: 0
-- effective include: 5
-- effective review: 30
+- effective include: 4
+- effective review: 31
 - effective exclude: 0
 
-## INCLUDE (5)
+## INCLUDE (4)
 
 ---
 action: 
@@ -72,43 +72,7 @@ job_id: jobg8-23643_225673265
 reason: Exact approved Bedford workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Coordinator
-company: Osborne Appointments - Agency - Permanent
-location: Bedford
-source: JobG8
-job_id: jobg8-23643_225729306
-reason: Exact approved Bedford workplace.
----
-
-## REVIEW (30)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts & Administration Assistant
-company: Abacus Consulting - Agency - Permanent
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-2113827
-reason: No exact Bedford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts & Administration Assistant
-company: Abacus Consulting - Agency - Temporary
-location: Bedfordshire
-source: JobG8
-job_id: jobg8-23643_225714047
-reason: No exact Bedford workplace matched; local geographic review is required.
----
+## REVIEW (31)
 
 ---
 action: 
@@ -143,6 +107,18 @@ company: PSR Solutions - Agency - Contract
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225706258
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator & Booking Coordinator
+company: Siamo Recruitment a division of Siamo Group - Agency - Temporary
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225760218
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -239,6 +215,18 @@ company: Michael Page - Agency - Permanent
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225661847
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Customer Service Advisor
+company: NTER TALENT - Agency - Contract
+location: Luton
+source: JobG8
+job_id: jobg8-23643_225747969
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 
@@ -431,6 +419,18 @@ company: Aspire Personnel Ltd - Agency - Temporary
 location: Bedfordshire
 source: JobG8
 job_id: jobg8-23643_225396424
+reason: No exact Bedford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Technical Records Administrator
+company: Matchtech - Agency - Contract
+location: Bedfordshire
+source: JobG8
+job_id: jobg8-23643_225760744
 reason: No exact Bedford workplace matched; local geographic review is required.
 ---
 

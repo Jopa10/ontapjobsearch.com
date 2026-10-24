@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 22
+- automatic review: 23
 - automatic exclude: 0
 - effective include: 7
-- effective review: 22
+- effective review: 23
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: jobg8-23643_225715945
 reason: Exact approved Shrewsbury workplace.
 ---
 
-## REVIEW (22)
+## REVIEW (23)
 
 ---
 action: 
@@ -203,6 +203,18 @@ company: Consula Group LTD - Agency - Permanent
 location: Shropshire
 source: JobG8
 job_id: jobg8-2078828
+reason: No exact Shrewsbury workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Housing Repairs Administrator
+company: Thorngate Churcher Trust - Agency - Permanent
+location: Shropshire
+source: JobG8
+job_id: jobg8-23643_225698170
 reason: No exact Shrewsbury workplace matched; local geographic review is required.
 ---
 

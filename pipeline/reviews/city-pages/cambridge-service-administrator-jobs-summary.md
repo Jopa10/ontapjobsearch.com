@@ -4,7 +4,7 @@
 - Live route: `/cambridge/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 30
+- Effective included jobs: 33
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 30
-- automatic review: 9
+- automatic include: 33
+- automatic review: 10
 - automatic exclude: 20
-- effective include: 30
-- effective review: 9
+- effective include: 33
+- effective review: 10
 - effective exclude: 20
 
-## INCLUDE (30)
+## INCLUDE (33)
 
 ---
 action: 
@@ -69,6 +69,18 @@ company: Hardwick and Cambourne Community Primary School
 location: Cambridge
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-hardwick-and-cambourne-community-primary-school
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administrative Assistant
+company: Cambridge University Hospital NHS Foundation Trust
+location: Cambridge, CB2 0QQ
+source: NHS Jobs
+job_id: nhs-5677747
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -213,6 +225,18 @@ company: Interaction Recruitment - Agency - Permanent
 location: Cambridgeshire
 source: JobG8
 job_id: jobg8-23643_225744955
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Executive Assistant
+company: EA First - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-23643_225759112
 reason: Approved conservative Cambridge launch catchment.
 ---
 
@@ -376,6 +400,18 @@ reason: Approved conservative Cambridge launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: To c&;50,000 - Patent Secretary - Cambridge
+company: Dawn Ellmore Employment Agency - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-2099638
+reason: Approved conservative Cambridge launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Ward Clerk
 company: Cambridge University Hospital NHS Foundation Trust
 location: Cambridge, CB2 0QQ
@@ -384,7 +420,7 @@ job_id: nhs-5673923
 reason: Approved conservative Cambridge launch catchment.
 ---
 
-## REVIEW (9)
+## REVIEW (10)
 
 ---
 action: 
@@ -455,6 +491,18 @@ company: Coyle Personnel - Agency - Permanent
 location: St. Ives
 source: JobG8
 job_id: jobg8-23643_225695041
+reason: No approved Cambridge catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Patient Services Administrator
+company: Lakeside Healthcare Group
+location: ST. NEOTS, PE19 1BQ
+source: NHS Jobs
+job_id: nhs-5683940
 reason: No approved Cambridge catchment rule matched; local review required.
 ---
 

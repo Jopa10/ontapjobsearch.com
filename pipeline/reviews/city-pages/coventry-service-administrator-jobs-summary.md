@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 17
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
+- automatic include: 18
 - automatic review: 5
 - automatic exclude: 80
-- effective include: 17
+- effective include: 18
 - effective review: 5
 - effective exclude: 80
 
-## INCLUDE (17)
+## INCLUDE (18)
 
 ---
 action: 
@@ -189,6 +189,18 @@ company: Operose Health
 location: Coventry, CV1 5FX
 source: NHS Jobs
 job_id: nhs-5665205
+reason: Approved Coventry catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Recruitment Resourcer
+company: Resolute Recruitment - Agency - Permanent
+location: Coventry
+source: JobG8
+job_id: jobg8-2041977
 reason: Approved Coventry catchment.
 ---
 
@@ -404,11 +416,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Activities & Coaching Operations Coordinator
-company: Riding for the Disabled Association (RDA) - Agency - Permanent
+title: Activities Coordinator - Care Home
+company: Barchester Healthcare - Company - Permanent
 location: Warwickshire
 source: JobG8
-job_id: jobg8-2085330
+job_id: jobg8-23643_225756406
 reason: Separate employment market.
 ---
 
@@ -433,18 +445,6 @@ company: Plus One Recruitment - Agency - Permanent
 location: Warwick
 source: JobG8
 job_id: jobg8-23643_225744644
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Administrator
-company: Genesis Employment Services Ltd - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_223927243
 reason: Separate employment market.
 ---
 
@@ -512,18 +512,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Bookings Administrator
-company: Belinda Roberts Ltd - Agency - Contract
-location: Warwick
-source: JobG8
-job_id: jobg8-23643_225649181
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Business Administrator
 company: Genesis Employment Services Ltd - Agency - Permanent
 location: Warwickshire
@@ -548,11 +536,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Conveyancing Legal Assistant
-company: G2 Legal Limited - Agency - Permanent
-location: Leamington Spa
+title: Credit Controller
+company: SF Partners - Agency - Permanent
+location: Warwickshire
 source: JobG8
-job_id: jobg8-2024649
+job_id: jobg8-2057919
 reason: Separate employment market.
 ---
 
@@ -560,11 +548,23 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Credit Controller
-company: SF Partners - Agency - Permanent
-location: Warwickshire
+title: Customer Care Coordinator (Complaints Handling)
+company: Adecco - Agency - Permanent
+location: Warwick
 source: JobG8
-job_id: jobg8-2057919
+job_id: jobg8-23643_225758011
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Customer Complaints Handler
+company: SVB Solutions - Agency - Permanent
+location: Warwick
+source: JobG8
+job_id: jobg8-23643_225758952
 reason: Separate employment market.
 ---
 
@@ -613,18 +613,6 @@ company: Adecco - Agency - Permanent
 location: Warwick
 source: JobG8
 job_id: jobg8-23643_225675173
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Customer Service Advisor - Property Management
-company: Accord Lets - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-2104797
 reason: Separate employment market.
 ---
 
@@ -733,6 +721,18 @@ company: The Shakespeare Hospice - Agency - Permanent
 location: Stratford-Upon-Avon
 source: JobG8
 job_id: jobg8-23643_225712720
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Assistant
+company: thefutureworks - Agency - Temporary
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225756261
 reason: Separate employment market.
 ---
 
@@ -853,6 +853,30 @@ company: TalentTech Recruitment Ltd - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225672914
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Marketing Manager
+company: ChilliMint (Europe) Limited - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225760687
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Marketing Manager (French Fluent Speaker)
+company: ChilliMint (Europe) Limited - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-23643_225760700
 reason: Separate employment market.
 ---
 
@@ -1177,18 +1201,6 @@ company: TalentTech Recruitment Ltd - Agency - Permanent
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225672723
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Senior Marketing Manager
-company: Reed - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-2054035
 reason: Separate employment market.
 ---
 

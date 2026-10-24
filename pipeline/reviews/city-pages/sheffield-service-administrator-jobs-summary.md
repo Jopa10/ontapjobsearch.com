@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 26
+- Effective included jobs: 25
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 26
-- automatic review: 9
-- automatic exclude: 28
-- effective include: 26
-- effective review: 9
-- effective exclude: 28
+- automatic include: 25
+- automatic review: 10
+- automatic exclude: 27
+- effective include: 25
+- effective review: 10
+- effective exclude: 27
 
-## INCLUDE (26)
+## INCLUDE (25)
 
 ---
 action: 
@@ -81,18 +81,6 @@ company: Elevation Recruitment Group - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2044207
-reason: Approved Sheffield catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Audience Development Coordinator - Local Authority - Libraries
-company: Reed - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2033599
 reason: Approved Sheffield catchment.
 ---
 
@@ -336,7 +324,7 @@ job_id: jobg8-23643_225736471
 reason: Approved Sheffield catchment.
 ---
 
-## REVIEW (9)
+## REVIEW (10)
 
 ---
 action: 
@@ -347,6 +335,18 @@ company: Runwood Homes - Company - Permanent
 location: Bentley
 source: JobG8
 job_id: jobg8-23643_225736679
+reason: No approved Sheffield catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: NHS Professionals - Company - Temporary
+location: Brinsworth
+source: JobG8
+job_id: jobg8-23643_225757191
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
@@ -446,7 +446,7 @@ job_id: jobg8-23643_225681456
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 
-## EXCLUDE (28)
+## EXCLUDE (27)
 
 ---
 action: 
@@ -465,10 +465,10 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Administrator
-company: Reed - Agency - Permanent
+company: NHS Professionals - Company - Temporary
 location: Doncaster
 source: JobG8
-job_id: jobg8-2024835
+job_id: jobg8-23643_225757175
 reason: Separate employment market.
 ---
 
@@ -673,18 +673,6 @@ company: SARIA - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225684316
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Payroll and Accounts Assistant
-company: Elevation Recruitment Group - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-2028957
 reason: Separate employment market.
 ---
 

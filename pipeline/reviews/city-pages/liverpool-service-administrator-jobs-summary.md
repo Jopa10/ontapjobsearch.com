@@ -52,18 +52,6 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Accounts Payable Assistant
-company: Peel Ports Group - Agency - Permanent
-location: Liverpool
-source: JobG8
-job_id: jobg8-108225939
-reason: Approved conservative Liverpool launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Accounts Receivable Clerk
 company: Adele Carr Recruitment Limited - Agency - Permanent
 location: Liverpool
@@ -196,11 +184,11 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Finance Assistant
-company: X1 Lettings - Agency - Permanent
+title: Finance Officer
+company: Alder Hey Children's Charity - Agency - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-2027305
+job_id: jobg8-2174208
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -268,11 +256,11 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Paid Media Specialist
-company: Zachary Daniels Recruitment - Agency - Permanent
+title: Part Time Customer Service Advisor
+company: Adecco - Agency - Temporary
 location: Liverpool
 source: JobG8
-job_id: jobg8-23643_225651752
+job_id: jobg8-23643_225753553
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -280,11 +268,11 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Part Time Customer Service Advisor
-company: Adecco - Agency - Temporary
-location: Liverpool
-source: JobG8
-job_id: jobg8-23643_225753553
+title: Receptionist
+company: Rutherford Medical Centre
+location: Liverpool, L18 0HJ
+source: NHS Jobs
+job_id: nhs-5682461
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -340,11 +328,11 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist/Admin
-company: Eastview Surgery
-location: Liverpool, L22 4QD
-source: NHS Jobs
-job_id: nhs-5642457
+title: Resourcing Administrator
+company: Gordon Yates Recruitment Consultancy - Agency - Temporary
+location: Liverpool
+source: JobG8
+job_id: jobg8-23643_225757525
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -393,6 +381,18 @@ company: Morgan Ryder Associates - Agency - Permanent
 location: Liverpool
 source: JobG8
 job_id: jobg8-23643_225725401
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Temporary Receptionist
+company: Office Angels - Agency - Temporary
+location: Liverpool
+source: JobG8
+job_id: jobg8-23643_225761410
 reason: Approved conservative Liverpool launch catchment.
 ---
 

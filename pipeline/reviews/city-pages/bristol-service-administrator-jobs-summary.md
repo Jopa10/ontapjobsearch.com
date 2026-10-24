@@ -4,7 +4,7 @@
 - Live route: `/bristol/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 56
+- Effective included jobs: 60
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 56
-- automatic review: 10
+- automatic include: 60
+- automatic review: 13
 - automatic exclude: 7
-- effective include: 56
-- effective review: 10
+- effective include: 60
+- effective review: 13
 - effective exclude: 7
 
-## INCLUDE (56)
+## INCLUDE (60)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: Robert Half - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2057297
-reason: Approved conservative Bristol launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Admin Support Administrator
-company: East Trees Health Centre
-location: Bristol, BS5 6SA
-source: NHS Jobs
-job_id: nhs-5648878
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -165,6 +153,18 @@ company: Hamberley Care Management Limited - Company - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225752416
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Care Navigator (Receptionist)
+company: Air Balloon Surgery
+location: Bristol, BS5 7PD
+source: NHS Jobs
+job_id: nhs-5684455
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -269,6 +269,18 @@ action:
 decision: include
 automatic_decision: include
 title: Customer Service Advisor
+company: Interaction Recruitment - Agency - Temporary
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225758669
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Customer Service Advisor
 company: Tate - Agency - Temporary
 location: Bristol
 source: JobG8
@@ -309,6 +321,18 @@ company: Artis Recruitment - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-2042684
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Finance Assistant
+company: Morgan McKinley (South West) - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225760729
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -428,7 +452,7 @@ title: Junior Accountant
 company: Ashley Rees Associates - Agency - Permanent
 location: Bristol
 source: JobG8
-job_id: jobg8-2024392
+job_id: jobg8-23643_225650858
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -617,6 +641,18 @@ action:
 decision: include
 automatic_decision: include
 title: Secretary / Administrator
+company: Harwood Recruitment Solutions Limited - Agency - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-2103238
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Secretary / Administrator
 company: Harwood Recruitment Solutions Ltd - Agency - Permanent
 location: Bristol
 source: JobG8
@@ -645,6 +681,18 @@ company: Perfect Placement - Agency - Permanent
 location: Bristol
 source: JobG8
 job_id: jobg8-23643_225726289
+reason: Approved conservative Bristol launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Service Advisor
+company: Sytner - Company - Permanent
+location: Bristol
+source: JobG8
+job_id: jobg8-23643_225760897
 reason: Approved conservative Bristol launch catchment.
 ---
 
@@ -696,7 +744,7 @@ job_id: nhs-5636801
 reason: Approved conservative Bristol launch catchment.
 ---
 
-## REVIEW (10)
+## REVIEW (13)
 
 ---
 action: 
@@ -731,6 +779,18 @@ company: Clear Legal & Financial Recruitment - Agency - Permanent
 location: Somerset
 source: JobG8
 job_id: jobg8-2087320
+reason: No approved Bristol catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Event Co-ordinator
+company: In Any Event - Agency - Permanent
+location: Portishead
+source: JobG8
+job_id: jobg8-23643_225757463
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 
@@ -786,11 +846,35 @@ reason: No approved Bristol catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: IP Records Administrator / Records Paralegal
+company: The Law Support Group - Agency - Permanent
+location: Somerset
+source: JobG8
+job_id: jobg8-2178869
+reason: No approved Bristol catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing and Communications Assistant
+company: Society for Endocrinology - Agency - Permanent
+location: Gloucestershire
+source: JobG8
+job_id: jobg8-2176205
+reason: No approved Bristol catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Medical Receptionist / Administrator
 company: St Augustine’s Medical Practice
 location: Keynsham, BS31 2GN
 source: NHS Jobs
-job_id: nhs-5652485
+job_id: nhs-5681497
 reason: No approved Bristol catchment rule matched; local review required.
 ---
 

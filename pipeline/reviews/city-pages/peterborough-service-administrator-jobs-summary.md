@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 17
-- automatic review: 9
-- automatic exclude: 33
+- automatic review: 10
+- automatic exclude: 36
 - effective include: 17
-- effective review: 9
-- effective exclude: 33
+- effective review: 10
+- effective exclude: 36
 
 ## INCLUDE (17)
 
@@ -228,7 +228,7 @@ job_id: jobg8-23643_221302954
 reason: Approved conservative Peterborough launch catchment.
 ---
 
-## REVIEW (9)
+## REVIEW (10)
 
 ---
 action: 
@@ -306,6 +306,18 @@ reason: No approved Peterborough catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Patient Services Administrator
+company: Lakeside Healthcare Group
+location: ST. NEOTS, PE19 1BQ
+source: NHS Jobs
+job_id: nhs-5683940
+reason: No approved Peterborough catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Executive
 company: Anne Corder Recruitment - Agency - Permanent
 location: St. Ives
@@ -338,7 +350,7 @@ job_id: jobg8-23643_225691104
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (33)
+## EXCLUDE (36)
 
 ---
 action: 
@@ -385,6 +397,18 @@ company: Hardwick and Cambourne Community Primary School
 location: Cambridge
 source: Teaching Vacancies
 job_id: teaching-vacancies-administration-assistant-hardwick-and-cambourne-community-primary-school
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Administrative Assistant
+company: Cambridge University Hospital NHS Foundation Trust
+location: Cambridge, CB2 0QQ
+source: NHS Jobs
+job_id: nhs-5677747
 reason: Separate employment market.
 ---
 
@@ -560,6 +584,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Executive Assistant
+company: EA First - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-23643_225759112
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Experienced Patent Secretary (To &;50,000!) - Cambridge/Hybrid
 company: Dawn Ellmore Employment Agency - Agency - Permanent
 location: Cambridge
@@ -721,6 +757,18 @@ company: Eclectic Recruitment - Agency - Temporary
 location: Cambridge
 source: JobG8
 job_id: jobg8-23643_225721995
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: To c&;50,000 - Patent Secretary - Cambridge
+company: Dawn Ellmore Employment Agency - Agency - Permanent
+location: Cambridge
+source: JobG8
+job_id: jobg8-2099638
 reason: Separate employment market.
 ---
 

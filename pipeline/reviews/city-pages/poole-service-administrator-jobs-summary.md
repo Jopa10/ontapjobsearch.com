@@ -4,7 +4,7 @@
 - Live route: `/poole/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 12
+- Effective included jobs: 11
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
-- automatic review: 38
+- automatic include: 11
+- automatic review: 35
 - automatic exclude: 0
-- effective include: 12
-- effective review: 38
+- effective include: 11
+- effective review: 35
 - effective exclude: 0
 
-## INCLUDE (12)
+## INCLUDE (11)
 
 ---
 action: 
@@ -136,18 +136,6 @@ reason: Exact approved Poole workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Parts Coordinator
-company: Rubicon Recruitment - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-23643_225646723
-reason: Exact approved Poole workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Patient Administrator
 company: University Hospitals Dorset NHS Foundation Trust
 location: Poole, BH12 5AG
@@ -168,7 +156,19 @@ job_id: jobg8-23643_225701721
 reason: Exact approved Poole workplace.
 ---
 
-## REVIEW (38)
+## REVIEW (35)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Account Manager
+company: Collaborate Recruitment - Agency - Permanent
+location: Broadstone
+source: JobG8
+job_id: jobg8-23643_225761280
+reason: No exact Poole workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -203,6 +203,18 @@ company: Regent's Park Healthcare
 location: Bournemouth, BH7 7DW
 source: NHS Jobs
 job_id: nhs-5671343
+reason: No exact Poole workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: WR HVAC - Agency - Contract
+location: Wimborne
+source: JobG8
+job_id: jobg8-23643_225759239
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -308,18 +320,6 @@ decision: review
 automatic_decision: review
 title: CUSTOMER SERVICE ADVISOR
 company: Talent Sure Recruitment Limited - Agency - Permanent
-location: Christchurch
-source: JobG8
-job_id: jobg8-23643_225643416
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: CUSTOMER SERVICE ADVISOR
-company: Talent Sure Recruitment Limited - Agency - Permanent
 location: Bournemouth
 source: JobG8
 job_id: jobg8-23643_225699611
@@ -347,18 +347,6 @@ company: Transmission Developments Co (GB) Ltd - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225660198
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Data Administrator
-company: Connect2Dorset - Agency - Temporary
-location: Dorchester
-source: JobG8
-job_id: jobg8-23643_225646313
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -407,18 +395,6 @@ company: The Apples Medical Centre
 location: Sherborne, DT9 3DG
 source: NHS Jobs
 job_id: nhs-5679447
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Office & Customer Experience Administrator
-company: Fischer Panda UK Limited - Agency - Permanent
-location: Verwood
-source: JobG8
-job_id: jobg8-23643_225667761
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -522,11 +498,11 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Purchasing Coordinator (MRP/Logistics)
-company: Ernest Gordon Recruitment Limited - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225649037
+title: Radiology Clerical Officer
+company: University Hospitals Dorset NHS Foundation Trust
+location: Bournemouth, BH7 7DW
+source: NHS Jobs
+job_id: nhs-5681610
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 
@@ -570,35 +546,11 @@ reason: No exact Poole workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Receptionist / Practice Administrator
-company: The Panton Practice
-location: Bournemouth, BH1 3EG, BOURNEMOUTH, BH8 8QN
-source: NHS Jobs
-job_id: nhs-5651442
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Recruitment Coordinator
 company: Rubicon Recruitment - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225728966
-reason: No exact Poole workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Account Manager
-company: Talent Guardian - Agency - Permanent
-location: Broadstone
-source: JobG8
-job_id: jobg8-23643_225736076
 reason: No exact Poole workplace matched; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 40
+- automatic review: 36
 - automatic exclude: 0
 - effective include: 10
-- effective review: 40
+- effective review: 36
 - effective exclude: 0
 
 ## INCLUDE (10)
@@ -112,11 +112,11 @@ reason: Exact approved Bournemouth workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Beaufort Road Surgery
-location: Bournemouth, BH6 5AJ
+title: Radiology Clerical Officer
+company: University Hospitals Dorset NHS Foundation Trust
+location: Bournemouth, BH7 7DW
 source: NHS Jobs
-job_id: nhs-5586731
+job_id: nhs-5681610
 reason: Exact approved Bournemouth workplace.
 ---
 
@@ -124,11 +124,11 @@ reason: Exact approved Bournemouth workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist / Practice Administrator
-company: The Panton Practice
-location: Bournemouth, BH1 3EG, BOURNEMOUTH, BH8 8QN
+title: Receptionist
+company: Beaufort Road Surgery
+location: Bournemouth, BH6 5AJ
 source: NHS Jobs
-job_id: nhs-5651442
+job_id: nhs-5586731
 reason: Exact approved Bournemouth workplace.
 ---
 
@@ -144,7 +144,19 @@ job_id: nhs-5675567
 reason: Exact approved Bournemouth workplace.
 ---
 
-## REVIEW (40)
+## REVIEW (36)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Account Manager
+company: Collaborate Recruitment - Agency - Permanent
+location: Broadstone
+source: JobG8
+job_id: jobg8-23643_225761280
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -203,6 +215,18 @@ company: Resource Recruitment - Agency - Contract
 location: Poole
 source: JobG8
 job_id: jobg8-23643_225680211
+reason: No exact Bournemouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: WR HVAC - Agency - Contract
+location: Wimborne
+source: JobG8
+job_id: jobg8-23643_225759239
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -330,35 +354,11 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: CUSTOMER SERVICE ADVISOR
-company: Talent Sure Recruitment Limited - Agency - Permanent
-location: Christchurch
-source: JobG8
-job_id: jobg8-23643_225643416
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Service Advisor
 company: Transmission Developments Co (GB) Ltd - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225660198
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Data Administrator
-company: Connect2Dorset - Agency - Temporary
-location: Dorchester
-source: JobG8
-job_id: jobg8-23643_225646313
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -426,18 +426,6 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Office & Customer Experience Administrator
-company: Fischer Panda UK Limited - Agency - Permanent
-location: Verwood
-source: JobG8
-job_id: jobg8-23643_225667761
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: PA / Administrator
 company: Dovetail Recruitment Ltd - Agency - Permanent
 location: Christchurch
@@ -467,18 +455,6 @@ company: Holt Engineering - Agency - Permanent
 location: Wimborne
 source: JobG8
 job_id: jobg8-23643_225684990
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Parts Coordinator
-company: Rubicon Recruitment - Agency - Permanent
-location: Poole
-source: JobG8
-job_id: jobg8-23643_225646723
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 
@@ -558,18 +534,6 @@ reason: No exact Bournemouth workplace matched; local geographic review is requi
 action: 
 decision: review
 automatic_decision: review
-title: Purchasing Coordinator (MRP/Logistics)
-company: Ernest Gordon Recruitment Limited - Agency - Permanent
-location: Dorset
-source: JobG8
-job_id: jobg8-23643_225649037
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Receptionist
 company: Aspire Jobs - Agency - Permanent
 location: Beaminster
@@ -599,18 +563,6 @@ company: Rubicon Recruitment - Agency - Permanent
 location: Dorset
 source: JobG8
 job_id: jobg8-23643_225728966
-reason: No exact Bournemouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Account Manager
-company: Talent Guardian - Agency - Permanent
-location: Broadstone
-source: JobG8
-job_id: jobg8-23643_225736076
 reason: No exact Bournemouth workplace matched; local geographic review is required.
 ---
 

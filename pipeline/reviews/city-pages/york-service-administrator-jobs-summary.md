@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 13
+- Effective included jobs: 12
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 13
+- automatic include: 12
 - automatic review: 17
-- automatic exclude: 34
-- effective include: 13
+- automatic exclude: 35
+- effective include: 12
 - effective review: 17
-- effective exclude: 34
+- effective exclude: 35
 
-## INCLUDE (13)
+## INCLUDE (12)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: PPM Recruitment - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-23643_225652103
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Assistant Exams Officer & Cover Administrator
-company: Woldgate School and Sixth Form College
-location: York
-source: Teaching Vacancies
-job_id: teaching-vacancies-assistant-exams-officer-cover-administrator
 reason: Approved York catchment.
 ---
 
@@ -270,18 +258,6 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Medical Receptionist
-company: Beech House Surgery
-location: Knaresborough, HG5 0UB
-source: NHS Jobs
-job_id: nhs-5635501
-reason: No approved York catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Patient Services Administrator
 company: Filey Surgery
 location: Filey, YO14 9AE
@@ -366,6 +342,18 @@ reason: No approved York catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Senior Administrator - Medical Secretary
+company: Tees Esk and Wear Valleys NHS Foundation Trust
+location: Ripon, HG4 1HZ
+source: NHS Jobs
+job_id: nhs-5684296
+reason: No approved York catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Service Advisor
 company: Auto Skills UK - Agency - Permanent
 location: Richmond
@@ -386,7 +374,7 @@ job_id: jobg8-23643_225666115
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (34)
+## EXCLUDE (35)
 
 ---
 action: 
@@ -770,6 +758,18 @@ location: Yorkshire
 source: JobG8
 job_id: jobg8-2057285
 reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Technical & Quality Support Administrator
+company: Unity Resourcing - Agency - Permanent
+location: Harrogate
+source: JobG8
+job_id: jobg8-2081400
+reason: Separate employment market.
 ---
 
 ---

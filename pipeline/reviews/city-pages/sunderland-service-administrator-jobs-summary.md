@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 9
-- automatic review: 115
+- automatic review: 111
 - automatic exclude: 0
 - effective include: 9
-- effective review: 115
+- effective review: 111
 - effective exclude: 0
 
 ## INCLUDE (9)
@@ -132,7 +132,7 @@ job_id: jobg8-23643_225729432
 reason: Exact approved Sunderland workplace.
 ---
 
-## REVIEW (115)
+## REVIEW (111)
 
 ---
 action: 
@@ -167,18 +167,6 @@ company: Get-Recruited (UK) Ltd - Agency - Permanent
 location: Newcastle Upon Tyne
 source: JobG8
 job_id: jobg8-23643_225721307
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Assistant
-company: Gillespie Recruitment Ltd - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225643191
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -307,7 +295,7 @@ action:
 decision: review
 automatic_decision: review
 title: Admin Assistant
-company: Branta Recruitment Ltd - Agency - Permanent
+company: Branta Consulting Limited - Agency - Permanent
 location: Gateshead
 source: JobG8
 job_id: jobg8-23643_225723936
@@ -344,18 +332,6 @@ decision: review
 automatic_decision: review
 title: Administration Assistant
 company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
-location: Ashington, NE63 0EY
-source: NHS Jobs
-job_id: nhs-5655486
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administration Assistant
-company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
 location: Newcastle upon Tyne, NE4 8RR
 source: NHS Jobs
 job_id: nhs-5671178
@@ -383,6 +359,18 @@ company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
 location: Gateshead, NE10 8DX
 source: NHS Jobs
 job_id: nhs-5671182
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administration Assistant
+company: Cumbria, Northumberland, Tyne and wear (CNTW) NHS Foundation Trust
+location: Blyth, NE24 3BX
+source: NHS Jobs
+job_id: nhs-5680476
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -558,6 +546,18 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Care Navigator/Medical Receptionist
+company: Newburn Surgery
+location: Newcastle upon Tyne, NE15 8LX
+source: NHS Jobs
+job_id: nhs-5684305
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Client Retentions & Renewals Adviser
 company: Office Angels - Agency - Permanent
 location: Gateshead
@@ -582,11 +582,11 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Clinical Team Secretary/Administrator
+title: Clinical Team Administrator
 company: Tees Esk and Wear Valleys NHS Foundation Trust
-location: Durham, DH1 5RD
+location: Durham, DH1 5YA
 source: NHS Jobs
-job_id: nhs-5668716
+job_id: nhs-5684079
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -647,18 +647,6 @@ company: Paul Card Recruitment - Agency - Temporary
 location: Yorkshire
 source: JobG8
 job_id: jobg8-23643_225694779
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Customer Care Coordinator
-company: Westray Recruitment Consultants Ltd - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225750512
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -738,6 +726,18 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Data Entry Administrator
+company: MTrec Recruitment - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-2176401
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Delivery Consultant/Resourcer
 company: Coleman James - Agency - Permanent
 location: Tyne And Wear
@@ -786,6 +786,18 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: European Project Administrator
+company: LHH Recruitment Solutions - Agency - Permanent
+location: Northumberland
+source: JobG8
+job_id: jobg8-2083329
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Finance and Payroll Assistant
 company: MTrec Recruitment - Agency - Permanent
 location: County Durham
@@ -822,6 +834,18 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: GP Receptionist/Care Navigator
+company: Trinity Medical Centre
+location: South Shields, NE33 5DU
+source: NHS Jobs
+job_id: nhs-5683011
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Graduate Accounts Assistant
 company: Get-Recruited (UK) Ltd - Agency - Permanent
 location: Newcastle Upon Tyne
@@ -851,18 +875,6 @@ company: Aspire Housing Limited - Agency - Permanent
 location: Newcastle
 source: JobG8
 job_id: jobg8-23643_225745655
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Interim Marketing Manager
-company: Jackson Hogg - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2063469
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -930,54 +942,6 @@ reason: No exact Sunderland workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
-title: Medical Administrator
-company: Westbourne Medical Group
-location: Houghton Le Spring, DH4 4RW
-source: NHS Jobs
-job_id: nhs-5656347
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: Hartlepool & Stockton Health [H&SH]
-location: HARTLEPOOL, TS25 1QU
-source: NHS Jobs
-job_id: nhs-5639684
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Medical Receptionist
-company: Holmside Medical Group
-location: Newcastle upon Tyne, NE4 8QB, Newcastle Upon Tyne, NE5 1LJ
-source: NHS Jobs
-job_id: nhs-5660811
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Mental Health Act Administrator
-company: Cygnet Health Care
-location: Darlington , DL1 2LJ
-source: NHS Jobs
-job_id: nhs-5636455
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Mercedes-Benz Trainee Service Advisor
 company: Sytner - Company - Permanent
 location: Tyne And Wear
@@ -1019,18 +983,6 @@ company: Office Angels - Agency - Permanent
 location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225728484
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Office Support Administrator
-company: MTrec Recruitment - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-2134739
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -1151,18 +1103,6 @@ company: Reed Specialist Recruitment - Agency - Permanent
 location: Seaham
 source: JobG8
 job_id: jobg8-23643_225656711
-reason: No exact Sunderland workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Project Coordinator
-company: Westray Recruitment Consultants Ltd - Agency - Permanent
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225749842
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 
@@ -1511,6 +1451,18 @@ company: SG Personnel Ltd - Agency - Permanent
 location: Newcastle
 source: JobG8
 job_id: jobg8-23643_225677749
+reason: No exact Sunderland workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Ward Clerk
+company: Northumbria Healthcare NHS Foundation Trust
+location: Berwick-upon-Tweed, TD15 1LT
+source: NHS Jobs
+job_id: nhs-5682388
 reason: No exact Sunderland workplace matched; local geographic review is required.
 ---
 

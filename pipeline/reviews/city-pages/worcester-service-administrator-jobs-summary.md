@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 35
+- automatic review: 32
 - automatic exclude: 0
 - effective include: 7
-- effective review: 35
+- effective review: 32
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -45,6 +45,18 @@ company: Four Squared Recruitment Ltd - Agency - Temporary
 location: Worcester
 source: JobG8
 job_id: jobg8-23643_225709610
+reason: Exact approved Worcester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Administration Assistant
+company: Herefordshire and Worcestershire Health and Care NHS Trust
+location: Worcester, WR1 3LE
+source: NHS Jobs
+job_id: nhs-5680854
 reason: Exact approved Worcester workplace.
 ---
 
@@ -88,18 +100,6 @@ reason: Exact approved Worcester workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: Spring Gardens Group Medical Practice
-location: Worcester, WR1 2BS
-source: NHS Jobs
-job_id: nhs-5633214
-reason: Exact approved Worcester workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Wedding & Events Co-ordinator
 company: Four Squared - Agency - Permanent
 location: Worcester
@@ -108,7 +108,7 @@ job_id: jobg8-2074804
 reason: Exact approved Worcester workplace.
 ---
 
-## REVIEW (35)
+## REVIEW (32)
 
 ---
 action: 
@@ -215,18 +215,6 @@ company: Herefordshire and Worcestershire Health and Care NHS Trust
 location: Malvern, WR14 1EX
 source: NHS Jobs
 job_id: nhs-5660031
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Administrator
-company: DR & Partners - Agency - Permanent
-location: Worcestershire
-source: JobG8
-job_id: jobg8-23643_225649050
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -426,18 +414,6 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Office Administrator (Burford Road site)
-company: Bengeworth CE Academy
-location: Evesham
-source: Teaching Vacancies
-job_id: teaching-vacancies-office-administrator-burford-road-site
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Operations Coordinator
 company: Workforce Staffing Ltd - Agency - Permanent
 location: Redditch
@@ -467,18 +443,6 @@ company: Crabbs Cross Medical Centre
 location: Redditch, B97 5JX
 source: NHS Jobs
 job_id: nhs-5618246
-reason: No exact Worcester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist/Admin
-company: Crabbs Cross Surgery
-location: Redditch, B97 5JX
-source: NHS Jobs
-job_id: nhs-5648429
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 
@@ -522,11 +486,11 @@ reason: No exact Worcester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Trainee Accounts Payable
-company: Michael Page Finance - Agency - Permanent
-location: Redditch
-source: JobG8
-job_id: jobg8-2027458
+title: Workforce Compliance and Assurance Administrator
+company: Vertis Health
+location: Redditch, B97 5JX
+source: NHS Jobs
+job_id: nhs-5674934
 reason: No exact Worcester workplace matched; local geographic review is required.
 ---
 

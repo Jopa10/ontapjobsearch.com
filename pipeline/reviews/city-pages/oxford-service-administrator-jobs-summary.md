@@ -4,7 +4,7 @@
 - Live route: `/oxford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 9
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 39
+- automatic include: 10
+- automatic review: 36
 - automatic exclude: 45
-- effective include: 9
-- effective review: 39
+- effective include: 10
+- effective review: 36
 - effective exclude: 45
 
-## INCLUDE (9)
+## INCLUDE (10)
 
 ---
 action: 
@@ -40,11 +40,11 @@ reason: Approved conservative Oxford launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Administrative Assistant
+title: Assistant Patient Pathway Administrator
 company: Oxford University Hospitals NHS Foundation Trust
-location: Headington, Oxford, OX3 9DU
+location: Oxford, OX3 7LE
 source: NHS Jobs
-job_id: nhs-5652789
+job_id: nhs-5680081
 reason: Approved conservative Oxford launch catchment.
 ---
 
@@ -100,6 +100,18 @@ reason: Approved conservative Oxford launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Receptionist
+company: Oxford University Hospitals NHS Foundation Trust
+location: Oxford, OX3 9DU
+source: NHS Jobs
+job_id: nhs-5680116
+reason: Approved conservative Oxford launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Receptionist/Front of House Co-ordinator
 company: Adecco - Agency - Permanent
 location: Oxford
@@ -132,19 +144,7 @@ job_id: teaching-vacancies-student-receptionist-and-pastoral-assistant-cheney-sc
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (39)
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Accounts Receivable Assistant
-company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Temporary
-location: Abingdon
-source: JobG8
-job_id: jobg8-23643_225752827
-reason: No approved Oxford catchment rule matched; local review required.
----
+## REVIEW (36)
 
 ---
 action: 
@@ -335,18 +335,6 @@ company: Faringdon Community College
 location: Faringdon
 source: Teaching Vacancies
 job_id: teaching-vacancies-inclusion-administrator-1d8857c6-4658-46bb-9bcc-5432cf1ee5cd
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Inside Sales Executive
-company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
-location: Witney
-source: JobG8
-job_id: jobg8-23643_225652299
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -547,18 +535,6 @@ action:
 decision: review
 automatic_decision: review
 title: Sales Executive
-company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
-location: Witney
-source: JobG8
-job_id: jobg8-23643_225652157
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Sales Executive
 company: Reed Specialist Recruitment - Agency - Permanent
 location: Hook Norton
 source: JobG8
@@ -697,18 +673,6 @@ company: Focus Resourcing - Agency - Permanent
 location: Oxfordshire
 source: JobG8
 job_id: jobg8-23643_225703101
-reason: Broad county location; not Oxford-city evidence.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Bookkeeper
-company: Michael Page Finance - Agency - Permanent
-location: Oxfordshire
-source: JobG8
-job_id: jobg8-2028361
 reason: Broad county location; not Oxford-city evidence.
 ---
 
@@ -908,6 +872,18 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: HR and Payroll Officer
+company: Not For Profit People - Agency - Permanent
+location: Oxfordshire
+source: JobG8
+job_id: jobg8-2174234
+reason: Broad county location; not Oxford-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Immunisation Administrator
 company: NHS Professionals - Company - Temporary
 location: Oxfordshire
@@ -920,11 +896,11 @@ reason: Broad county location; not Oxford-city evidence.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Marketing Executive
-company: Plus One Recruitment - Agency - Permanent
+title: IP Records Administrator
+company: The Law Support Group - Agency - Permanent
 location: Oxfordshire
 source: JobG8
-job_id: jobg8-23643_225716302
+job_id: jobg8-2178941
 reason: Broad county location; not Oxford-city evidence.
 ---
 

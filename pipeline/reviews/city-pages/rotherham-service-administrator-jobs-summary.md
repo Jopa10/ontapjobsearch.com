@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 59
+- automatic review: 58
 - automatic exclude: 0
 - effective include: 4
-- effective review: 59
+- effective review: 58
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225739769
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (59)
+## REVIEW (58)
 
 ---
 action: 
@@ -139,10 +139,10 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Office Angels - Agency - Permanent
-location: Brinsworth
+company: NHS Professionals - Company - Temporary
+location: Doncaster
 source: JobG8
-job_id: jobg8-23643_225741868
+job_id: jobg8-23643_225757175
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -151,10 +151,22 @@ action:
 decision: review
 automatic_decision: review
 title: Administrator
-company: Reed - Agency - Permanent
-location: Doncaster
+company: NHS Professionals - Company - Temporary
+location: Brinsworth
 source: JobG8
-job_id: jobg8-2024835
+job_id: jobg8-23643_225757191
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: Office Angels - Agency - Permanent
+location: Brinsworth
+source: JobG8
+job_id: jobg8-23643_225741868
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -227,18 +239,6 @@ company: Elevation Recruitment Group - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-2044207
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Audience Development Coordinator - Local Authority - Libraries
-company: Reed - Agency - Permanent
-location: Sheffield
-source: JobG8
-job_id: jobg8-2033599
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -623,18 +623,6 @@ company: SARIA - Agency - Permanent
 location: Doncaster
 source: JobG8
 job_id: jobg8-23643_225684316
-reason: No exact Rotherham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Payroll and Accounts Assistant
-company: Elevation Recruitment Group - Agency - Permanent
-location: Doncaster
-source: JobG8
-job_id: jobg8-2028957
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

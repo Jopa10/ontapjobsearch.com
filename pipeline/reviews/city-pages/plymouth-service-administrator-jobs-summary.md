@@ -4,7 +4,7 @@
 - Live route: `/plymouth/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 6
+- Effective included jobs: 5
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 6
-- automatic review: 55
+- automatic include: 5
+- automatic review: 56
 - automatic exclude: 0
-- effective include: 6
-- effective review: 55
+- effective include: 5
+- effective review: 56
 - effective exclude: 0
 
-## INCLUDE (6)
+## INCLUDE (5)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Livewell Southwest
 location: Plymouth, PL4 7PY, PLYMOUTH, PL6 6EJ
 source: NHS Jobs
 job_id: nhs-5671815
-reason: Exact approved Plymouth workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Administrator
-company: Sentinel Healthcare South West CIC
-location: Plymouth, PL6 8BT
-source: NHS Jobs
-job_id: nhs-5645618
 reason: Exact approved Plymouth workplace.
 ---
 
@@ -96,7 +84,7 @@ job_id: jobg8-23643_225736541
 reason: Exact approved Plymouth workplace.
 ---
 
-## REVIEW (55)
+## REVIEW (56)
 
 ---
 action: 
@@ -167,6 +155,18 @@ company: Veolia - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225718193
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Administrator
+company: WR HVAC - Agency - Contract
+location: Exeter
+source: JobG8
+job_id: jobg8-23643_225759209
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -347,6 +347,18 @@ company: Build Recruitment - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225691719
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Assistant
+company: Pontoon - Agency - Contract
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225650065
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
@@ -606,18 +618,6 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
-title: Sales Administrator
-company: Office Angels - Agency - Permanent
-location: Exeter
-source: JobG8
-job_id: jobg8-23643_225651226
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Sales Administrator - Housebuilding
 company: untypical - Agency - Permanent
 location: Devon
@@ -658,18 +658,6 @@ title: Service Administrator
 company: Royal Devon University Healthcare NHS Foundation Trust
 location: Exeter, EX2 5DW
 source: NHS Jobs
-job_id: nhs-5657703
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Service Administrator
-company: Royal Devon University Healthcare NHS Foundation Trust
-location: Exeter, EX2 5DW
-source: NHS Jobs
 job_id: nhs-5671390
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
@@ -695,6 +683,18 @@ company: Perfect Placement - Agency - Permanent
 location: Exeter
 source: JobG8
 job_id: jobg8-23643_225740565
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Service Advisor
+company: Perfect Placement - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225759002
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 
