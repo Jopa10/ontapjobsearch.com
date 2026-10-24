@@ -1,6 +1,6 @@
 # Ontap System Map
 
-**Last updated:** 22 October 2026
+**Last updated:** 24 October 2026
 **Status:** Canonical production architecture, reconciled on 12 October against active workflows, deployment runs, report history, slice register and current diagnostic contract.
 
 - 21 September 2026 — **Nearby-location analytics now explains incomplete location attempts and reliably measures restored preferences:** client events that occur before GA4 initialises wait for the shared analytics-ready signal instead of being dropped. Unsuccessful geolocation attempts now distinguish unsupported browsers, permission denial, unavailable positions, timeouts and nearby-API failures; manual-town attempts and saved-location refresh failures are measured separately. Existing `saved_location_return` and `saved_location_results_loaded` events remain the proof of remembered-location reuse.
@@ -8,6 +8,8 @@
 This is the authoritative technical map of the persistent Ontap system. It is organised into five canonical buckets. Facts not verified from the repository are marked `UNKNOWN / NEEDS AUDIT` rather than inferred from chat history.
 
 ## Recent canonical changes
+
+- 24 October 2026 — **Agreed CPC matching rules implemented on the private feature branch:** `send_cpc_job_alerts.py` uses the explicit `ROLE_GROUPS` title-equivalence table (no description matches, unrelated-role expansion or family fallback); unknown titles fail closed. City/town matching uses the exact named location or its comma-qualified locality. Explicit governed region names/slugs are resolved using `pipeline/config/uk_assessable_regions.json`; no nearby catchments or substring geography. Salary overlap is inclusive; missing/competitive pay is labelled Salary not stated; incompatible units remain eligible with a non-comparable label. Hourly/annual conversions require unambiguous advertised weekly hours (52 weeks); FTE conversions require both actual and full-time hours, otherwise actual part-time pay is labelled unclear. Explicit actual/pro-rata salary takes priority over FTE. Configured family inventories under `app/_city-pages/configured-slices` are read; ordinary derived city copies remain excluded. Private sender/consent/idempotency safeguards are unchanged. Existing native private delivery remains pinned to its previously audited SHA; adopting this revision later also requires including the governed region config in its sparse checkout. No main/production workflow, selector, public rollout or schedule change. Branch push runs the existing tests and private no-send preview.
 
 - 22 October 2026 — **Private daily test runner prepared:** owner confirmed inbox receipt, correct matched vacancy and successful Python-email unsubscribe, then subscribed the same test address again. The private workflow now has a current-UTC-date delivery runner starting 23 October, restricted by the existing fixed-recipient/list/Preview-unsubscribe controls and last-sent-date guard. A ChatGPT daily task will rerun this pinned branch-only Actions job in the early afternoon; this is private-test orchestration, not a native GitHub scheduled workflow or production rollout. It fails closed if today's report is absent and never substitutes an older report. Production/main, automatic Git deployment settings and the list-wide sender remain unchanged.
 

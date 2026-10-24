@@ -54,68 +54,194 @@ def is_cpc_job(source: str, apply_url: str) -> bool:
     )
 
 
-def _salary_range(value: str) -> tuple[float, float, str] | None:
-    lowered = value.casefold()
-    numbers = []
-    for raw in re.findall(r"(?<![a-z])\d[\d,]*(?:\.\d+)?\s*k?", lowered):
-        multiplier = 1000 if raw.endswith("k") else 1
-        number = float(raw.rstrip("k").replace(",", "")) * multiplier
-        numbers.append(number)
-    if not numbers:
-        return None
+# Alert groups are deliberately narrower than publication families. Unknown titles
+# fail closed; description text never establishes a role match.
+ROLE_GROUPS = {
+    "general_admin": ("admin assistant", "administrative assistant", "administrator", "office administrator", "office assistant"),
+    "reception": ("receptionist", "front desk receptionist", "front of house receptionist", "reception administrator"),
+    "bookkeeping": ("bookkeeper", "book keeper", "accounts bookkeeper"),
+    "finance_assistant": ("finance assistant", "accounts assistant", "accounting assistant"),
+    "assistant_accountant": ("assistant accountant", "assistant management accountant"),
+    "customer_service": ("customer service advisor", "customer service adviser", "customer service assistant", "customer service representative"),
+    "payroll": ("payroll assistant", "payroll administrator", "payroll officer"),
+    "credit_control": ("credit controller", "credit control assistant", "credit control administrator"),
+    "ledger": tuple(f"{area} {level}" for area in
+                    ("purchase ledger", "sales ledger", "accounts payable", "accounts receivable")
+                    for level in ("clerk", "assistant", "administrator")),
+    "vehicle_service": ("service advisor", "service adviser", "vehicle service advisor", "vehicle service adviser",
+                        "automotive service advisor", "automotive service adviser"),
+    "hr_support": ("hr assistant", "hr administrator", "human resources assistant", "human resources administrator"),
+    "recruitment_support": ("recruitment assistant", "recruitment administrator", "recruitment coordinator"),
+    "legal_assistant": ("legal assistant",),
+    "paralegal": ("paralegal",),
+    "legal_secretary": ("legal secretary", "legal pa"),
+    "marketing_support": ("marketing assistant", "marketing administrator", "marketing coordinator"),
+    "support_worker": ("support worker",),
+}
 
-    period = ""
-    for key, label in (
-        (r"\b(?:hour|hourly|per hour|p\.?h\.?)\b", "hour"),
-        (r"\b(?:day|daily|per day)\b", "day"),
-        (r"\b(?:week|weekly|per week)\b", "week"),
-        (r"\b(?:month|monthly|per month)\b", "month"),
-        (r"\b(?:year|yearly|annual|annually|per year|p\.?a\.?)\b", "year"),
+
+def _role_group(value: str) -> str | None:
+    # Accept harmless contract/work-pattern adornments, not arbitrary specialist
+    # prefixes (e.g. Linux Systems Administrator) or mixed-role combinations.
+    title = normalise(value)
+    title = re.sub(r"\b(?:part time|full time|temporary|permanent|contract|fixed term|temp|hybrid|remote)\b", " ", title)
+    title = re.sub(r"\s+", " ", title).strip()
+    direct = [group for group, titles in ROLE_GROUPS.items() if title in titles]
+    if len(direct) == 1:
+        return direct[0]
+    # An explicit separated workplace qualifier is permitted for receptionist
+    # titles, e.g. Receptionist - Dental Practice. No generic word search.
+    base = re.split(r"\s+[-–—|]\s+|\s*\(", value, maxsplit=1)[0]
+    if normalise(base) != normalise(value):
+        clean_base = normalise(base)
+        clean_base = re.sub(r"\b(?:part time|full time|temporary|permanent|contract|fixed term|temp)\b", " ", clean_base)
+        clean_base = re.sub(r"\s+", " ", clean_base).strip()
+        if clean_base in ROLE_GROUPS["reception"]:
+            return "reception"
+    return None
+
+
+def _place(value: str) -> str:
+    return normalise(value.replace("&", " and "))
+
+
+def _region_catalog() -> dict[str, str]:
+    # Reuse governed market names/slugs, not a new nearby/catchment list.
+    path = Path(__file__).resolve().parents[1] / "config" / "uk_assessable_regions.json"
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
+    aliases = {}
+    for name, detail in data.get("regions", {}).items():
+        aliases[_place(name)] = _place(name)
+        aliases[_place(str(detail.get("slug") or ""))] = _place(name)
+    return aliases
+
+
+def _location_matches(preference: str, job: dict[str, Any]) -> bool:
+    wanted = _place(preference)
+    if not wanted:
+        return False
+    regions = _region_catalog()
+    region = _place(str(job.get("region") or ""))
+    # Exact recognised region selection; never expand a city to its region.
+    if wanted in regions:
+        return regions[wanted] == regions.get(region, region)
+    location = str(job.get("location") or "")
+    # A comma-qualified city (Leeds, West Yorkshire) is still Leeds. A broad
+    # region or a different place containing the same word is not that city.
+    return wanted == _place(location) or wanted == _place(location.split(",")[0])
+
+
+def _salary_range(value: str) -> tuple[float, float, str] | None:
+    text = value.casefold().replace("£", "")
+    periods = []
+    for pattern, label in (
+        (r"\b(?:hour|hourly|ph)\b|p\.?h\.?", "hour"),
+        (r"\b(?:day|daily)\b", "day"),
+        (r"\b(?:week|weekly)\b", "week"),
+        (r"\b(?:month|monthly)\b", "month"),
+        (r"\b(?:year|yearly|annual|annually|annum|pa)\b|p\.a\.", "year"),
     ):
-        if re.search(key, lowered):
-            period = label
-            break
-    return min(numbers), max(numbers), period
+        found = re.search(pattern, text)
+        if found:
+            periods.append((found.start(), label))
+    period = min(periods)[1] if periods else ""
+    # Only the pay expression, not hours, days, bonuses or numeric pay grades.
+    if re.search(r"\b(?:grade|point|band)\b", text) and not re.search(r"£|\d\s*k\b", value.casefold()):
+        return None
+    match = re.search(r"(?<![\w.])(\d[\d,]*(?:\.\d+)?)\s*(k)?"
+                      r"(?:\s*(?:-|–|—|to)\s*(?:£\s*)?(\d[\d,]*(?:\.\d+)?)\s*(k)?)?", text)
+    if not match:
+        return None
+    low = float(match[1].replace(",", ""))
+    high = float((match[3] or match[1]).replace(",", ""))
+    if match[2] or (match[4] and low < 1000):
+        low *= 1000
+    if match[4] or (match[2] and high < 1000):
+        high *= 1000
+    if low <= 0 or high <= 0:
+        return None
+    if not period and min(low, high) >= 1000:
+        period = "year"
+    if not period:
+        return None
+    return min(low, high), max(low, high), period
+
+
+def _salary_text(job: dict[str, Any]) -> str:
+    text = str(job.get("salary_text") or "").strip()
+    if text:
+        return text
+    values = [str(job.get(field) or "").strip() for field in ("salary_min", "salary_max")]
+    values = [value for value in values if value and value != "0"]
+    return " ".join(filter(None, (" - ".join(values), str(job.get("salary_period") or "")))) if values else ""
+
+
+def _weekly_hours(job: dict[str, Any]) -> float | None:
+    text = " ".join(str(job.get(field) or "") for field in
+                    ("work_pattern", "employment_type", "description", "full_description"))
+    values = {float(value) for value in re.findall(
+        r"(?<![\d.\-–])\b(\d{1,2}(?:\.\d+)?)\s*(?:hours?|hrs?)\s*(?:per|a|/)\s*week\b", text, re.I)}
+    # Ranges or conflicting hours require review; never choose an endpoint.
+    if re.search(r"\d\s*(?:-|–|to)\s*\d+(?:\.\d+)?\s*(?:hours?|hrs?)", text, re.I):
+        return None
+    return next(iter(values)) if len(values) == 1 and 0 < next(iter(values)) <= 60 else None
+
+
+def _salary_decision(preference: str, job: dict[str, Any]) -> tuple[bool, str]:
+    preferred = _salary_range(preference)
+    raw = _salary_text(job)
+    advertised = _salary_range(raw)
+    if not advertised:
+        return True, "Salary not stated"
+    label = raw
+    low, high, period = advertised
+    # Only use explicitly identified actual pay when both FTE and actual appear.
+    actual = re.search(r"(?:actual(?: annual)?(?: salary| pay| earnings)?|pro rata salary)\s*:?\s*(.+)", raw, re.I)
+    fte = bool(re.search(r"\bfte\b|full.time equivalent|pro.rata", raw, re.I))
+    if actual and (parsed := _salary_range(actual[1] + " per year")):
+        low, high, period = parsed
+        fte = False
+    if fte:
+        # Converting FTE requires both the actual and full-time weekly hours.
+        hours = _weekly_hours(job)
+        evidence = " ".join(str(job.get(field) or "") for field in ("work_pattern", "description", "full_description"))
+        full_hours = re.search(r"full[\s-]*time(?:\s+(?:week|hours|equivalent|basis|of|is))*\s*[:=]?\s*(\d{1,2}(?:\.\d+)?)\s*(?:hours?|hrs?)", evidence, re.I)
+        if period == "year" and hours and full_hours and 0 < hours <= float(full_hours[1]) <= 60:
+            factor = hours / float(full_hours[1])
+            low, high = low * factor, high * factor
+            label += f" · Actual part-time pay: £{low:,.0f}–£{high:,.0f} per year"
+        else:
+            return True, raw + " · Full-time equivalent—actual part-time pay unclear"
+    if not preferred:
+        return True, label
+    p_low, p_high, p_period = preferred
+    if p_period != period:
+        hours = _weekly_hours(job)
+        if hours and {p_period, period} == {"hour", "year"}:
+            if period == "hour":
+                low, high, period = low * hours * 52, high * hours * 52, "year"
+            else:
+                p_low, p_high = p_low * hours * 52, p_high * hours * 52
+                p_period = "year"
+        else:
+            return True, label + " · Salary not comparable with your preference"
+    return low <= p_high and high >= p_low, label
 
 
 def _salary_matches(preference: str, job_salary: str) -> bool:
-    preferred = _salary_range(preference)
-    advertised = _salary_range(job_salary)
-    # Keep jobs with no comparable published salary; do not invent an amount.
-    if not preferred or not advertised:
-        return True
-    preferred_low, preferred_high, preferred_period = preferred
-    job_low, job_high, job_period = advertised
-    if preferred_period and job_period and preferred_period != job_period:
-        return False
-    return job_low <= preferred_high and job_high >= preferred_low
+    return _salary_decision(preference, {"salary_text": job_salary})[0]
 
 
 def matches_alert(contact_attributes: dict[str, Any], job: dict[str, Any]) -> bool:
-    role = normalise(str(contact_attributes.get("ALERT_ROLE") or ""))
-    location = normalise(str(contact_attributes.get("ALERT_LOCATION") or ""))
-    if not role or not location:
+    role = _role_group(str(contact_attributes.get("ALERT_ROLE") or ""))
+    if role is None or role != _role_group(str(job.get("title") or "")):
         return False
-
-    role_terms = role.split()
-    job_text = normalise(" ".join(
-        str(job.get(field) or "")
-        for field in ("title", "category", "description", "full_description")
-    ))
-    if not all(term in job_text for term in role_terms):
+    if not _location_matches(str(contact_attributes.get("ALERT_LOCATION") or ""), job):
         return False
-
-    job_location = normalise(str(job.get("location") or ""))
-    job_region = normalise(str(job.get("region") or ""))
-    if not any(location in candidate or candidate in location for candidate in (job_location, job_region) if candidate):
-        return False
-
-    preferred_salary = str(contact_attributes.get("ALERT_SALARY") or "")
-    job_salary = " ".join(
-        str(job.get(field) or "")
-        for field in ("salary_text", "salary_min", "salary_max", "salary_period")
-    )
-    return _salary_matches(preferred_salary, job_salary)
+    return _salary_decision(str(contact_attributes.get("ALERT_SALARY") or ""), job)[0]
 
 
 def new_cpc_jobs(report_path: Path, app_dir: Path, report_date: str) -> list[dict[str, Any]]:
@@ -135,7 +261,7 @@ def new_cpc_jobs(report_path: Path, app_dir: Path, report_date: str) -> list[dic
 
     jobs: dict[str, dict[str, Any]] = {}
     for path in app_dir.rglob("*.json"):
-        if "_city-pages" in path.parts:
+        if "_city-pages" in path.parts and "configured-slices" not in path.parts:
             continue
         try:
             data = json.loads(path.read_text(encoding="utf-8"))
@@ -223,14 +349,7 @@ def _email_html(jobs: list[dict[str, Any]], unsubscribe_url: str) -> tuple[str, 
         title = html.escape(str(job.get("title") or "CPC job"))
         location = html.escape(str(job.get("location") or job.get("region") or "Location not listed"))
         employer = html.escape(str(job.get("company") or job.get("advertiser_name") or ""))
-        salary_value = str(job.get("salary_text") or "").strip()
-        if not salary_value:
-            low, high = str(job.get("salary_min") or "").strip(), str(job.get("salary_max") or "").strip()
-            period = str(job.get("salary_period") or "").strip()
-            if low or high:
-                salary_value = " - ".join(value for value in (low, high) if value)
-                salary_value = " ".join(value for value in (salary_value, period) if value)
-        salary = html.escape(salary_value)
+        salary = html.escape(str(job.get("_alert_salary_label") or _salary_decision("", job)[1]))
         url = html.escape(str(job.get("ontap_url") or ""), quote=True)
         detail = " · ".join(item for item in (employer, location, salary) if item)
         rows_html.append(
@@ -276,7 +395,7 @@ def send_digest(
         return False
     # Current new vacancies may be newer than the private Preview inventory.
     job_origin = "https://www.ontapjobsearch.com" if private_test else site_url
-    matches = [{**job, "ontap_url": job_origin + "/jobs/" + urllib.parse.quote(str(job["job_id"]), safe="")}
+    matches = [{**job, "_alert_salary_label": _salary_decision(str(attributes.get("ALERT_SALARY") or ""), job)[1], "ontap_url": job_origin + "/jobs/" + urllib.parse.quote(str(job["job_id"]), safe="")}
                for job in jobs if matches_alert(attributes, job)][:MAX_JOBS_PER_EMAIL]
     if not matches:
         return False
