@@ -7,6 +7,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 24 October 2026 — **Private daily emails switched to the agreed matching rules:** the automatic post-publish sender now uses the version verified by 35 tests and the two-job email received by the owner. It remains restricted to the existing private test address after successful publication. Duplicate-send protection remains active; today's validation sends no email. Public signup and rollout remain off.
+
 - 24 October 2026 — **Sutton-in-Ashfield geography corrected:** the authoritative `pipeline/geo/geo_lookup.xlsx` Sheet1 cell B1029 now maps Sutton-in-Ashfield to Nottinghamshire instead of London. Sutton (London) and Sutton Coldfield remain unchanged. This source correction takes effect when inventory is regenerated and normally published; existing generated app/report snapshots are not manually relabelled. Email-alert matching rules and private recipient safeguards are unchanged.
 
 - 23 October 2026 — **Nearby-panel visibility is measured:** `nearby_panel_view` fires once per mounted page visit when at least 50% of the Jobs near you panel intersects the viewport in a visible browser tab. Client-side route changes reset the page scope; scrolling away and back does not duplicate the event. It uses the existing analytics-ready delivery, page context/path and a saved-versus-new panel state, without location data. Historical impressions cannot be reconstructed.
@@ -323,6 +325,8 @@ Ontap remains positioned around useful job discovery for ordinary workers in an 
 NHS/public-sector inventory is an advantage for switchers and existing sector workers, but it must remain subordinate to the overall Ontap proposition. Generic regional discovery should not be swamped by NHS: the hard 20% source ceiling and the 4+1 display rhythm both enforce that principle. The London sector-view trial surfaces explicit NHS/public/charity interest without changing the underlying generic-page source ceiling, canonical URL or server-rendered inventory.
 
 ## 5. Operations / infrastructure
+
+Private daily job alerts now use the owner-approved role/location/salary matching rules and remain limited to the existing test address. They run after verified publication, send only when new jobs match, and retain duplicate-send protection. Public rollout remains off.
 
 Core controls are:
 

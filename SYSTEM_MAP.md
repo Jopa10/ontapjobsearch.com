@@ -9,6 +9,8 @@ This is the authoritative technical map of the persistent Ontap system. It is or
 
 ## Recent canonical changes
 
+- 24 October 2026 — **Automatic private alert sender adopts the tested matcher:** `send-private-cpc-job-alerts.yml` now pins the audited feature-branch revision `b39eedd283fa2b8a080d926c02c5eb6a83fd7cc3` and includes `pipeline/config` in its private-runner sparse checkout so governed region matching works. This supersedes the 23 October sender pin. The owner confirmed receipt of the labelled two-job Customer Service/London sample after 35 matching/delivery safeguard tests passed. Matching uses agreed equivalent title groups (including contract-duration qualifiers), exact localities or explicitly chosen governed regions, and salary overlap/uncertainty rules; configured family inventories are included. The workflow still calls only `--private-daily-test`, never the matched-sample or list-wide path. Fixed recipient/list, consent, unsubscribe/blacklist, last-sent date, stable private daily idempotency, shared concurrency, successful deployment receipt/live-SHA checks and fail-soft publisher isolation remain unchanged. Push validation is no-send. No feature-branch merge, public signup enablement, website deployment or publish-schedule change.
+
 - 24 October 2026 — **Sutton-in-Ashfield geography corrected:** the authoritative `pipeline/geo/geo_lookup.xlsx` Sheet1 cell B1029 now maps Sutton-in-Ashfield to Nottinghamshire instead of London. Sutton (London) and Sutton Coldfield remain unchanged. This source correction takes effect when inventory is regenerated and normally published; existing generated app/report snapshots are not manually relabelled. Email-alert matching rules and private recipient safeguards are unchanged.
 
 - 23 October 2026 — **Nearby-panel visibility is measured:** `nearby_panel_view` fires once per mounted page visit when at least 50% of the Jobs near you panel intersects the viewport in a visible browser tab. Client-side route changes reset the page scope; scrolling away and back does not duplicate the event. It uses the existing analytics-ready delivery, page context/path and a saved-versus-new panel state, without location data. Historical impressions cannot be reconstructed.
@@ -345,6 +347,8 @@ Persistent product content belongs here when it changes product behaviour. Ontap
 NHS/public-sector inventory is a complementary supply and sector-switching advantage; it must not redefine Ontap as an NHS job board. Generic job discovery continues to mix NHS into the wider inventory under the source cap and the 4+1 display rhythm. The London-wide Service Admin trial now surfaces explicit NHS/public/charity interest through a client-visible sector view while preserving the single server-rendered all-jobs page.
 
 ## 5. Operations / infrastructure
+
+The automatic private CPC sender is pinned to `b39eedd283fa2b8a080d926c02c5eb6a83fd7cc3`. Its sparse private checkout includes `pipeline/scripts`, `pipeline/tests` and `pipeline/config`; the last supplies the governed region-name/slug catalog. The existing post-publish workflow retains a fixed test contact/list and invokes only private daily mode. Public signup and list-wide delivery are not enabled by this adoption.
 
 Core scheduled workflows include:
 

@@ -29,12 +29,13 @@ jobs:
       - name: Check out audited private sender only
         uses: actions/checkout@v4
         with:
-          ref: a0bae2476e018bb875e4cb669d50a2db61b332e7
+          ref: b39eedd283fa2b8a080d926c02c5eb6a83fd7cc3
           path: private-runner
           persist-credentials: false
           sparse-checkout: |
             pipeline/scripts
             pipeline/tests
+            pipeline/config
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
