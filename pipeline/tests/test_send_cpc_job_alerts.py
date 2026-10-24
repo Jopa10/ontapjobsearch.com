@@ -337,6 +337,14 @@ class AgreedMatchingRulesTests(unittest.TestCase):
         self.assertIn("£20,000", result[1])
         self.assertFalse(_salary_decision("£28-32k", job)[0])
 
+    def test_compact_hourly_rate_and_pay_without_a_period(self):
+        from scripts.send_cpc_job_alerts import _salary_range, _salary_decision
+        self.assertEqual(_salary_range("£15.50ph"), (15.5, 15.5, "hour"))
+        result = _salary_decision("£28-32k", self.job(salary_text="£15"))
+        self.assertTrue(result[0])
+        self.assertIn("£15", result[1])
+        self.assertIn("not comparable", result[1])
+
     def test_pay_parser_ignores_hours_and_bonus_numbers(self):
         from scripts.send_cpc_job_alerts import _salary_range
         self.assertEqual(_salary_range("£25-30k per year, 20 hours per week"), (25000, 30000, "year"))

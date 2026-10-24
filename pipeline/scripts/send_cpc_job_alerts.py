@@ -138,7 +138,7 @@ def _salary_range(value: str) -> tuple[float, float, str] | None:
     text = value.casefold().replace("£", "")
     periods = []
     for pattern, label in (
-        (r"\b(?:hour|hourly|ph)\b|p\.?h\.?", "hour"),
+        (r"\b(?:hour|hourly|ph)\b|(?<=\d)ph\b|p\.?h\.?", "hour"),
         (r"\b(?:day|daily)\b", "day"),
         (r"\b(?:week|weekly)\b", "week"),
         (r"\b(?:month|monthly)\b", "month"),
@@ -195,6 +195,8 @@ def _salary_decision(preference: str, job: dict[str, Any]) -> tuple[bool, str]:
     raw = _salary_text(job)
     advertised = _salary_range(raw)
     if not advertised:
+        if re.search(r"£\s*\d|\d\s*k\b", raw, re.I):
+            return True, raw + " · Salary not comparable with your preference"
         return True, "Salary not stated"
     label = raw
     low, high, period = advertised
@@ -457,7 +459,7 @@ def send_private_test(email: str, site_url: str, app_dir: Path, *, api_key: str,
     job_id = str(attributes.get("ALERT_JOB_ID") or "")
     sample = None
     for path in app_dir.rglob("*.json"):
-        if "_city-pages" in path.parts:
+        if "_city-pages" in path.parts and "configured-slices" not in path.parts:
             continue
         try:
             data = json.loads(path.read_text(encoding="utf-8"))
