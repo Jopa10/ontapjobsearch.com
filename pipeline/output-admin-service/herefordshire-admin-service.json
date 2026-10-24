@@ -125,56 +125,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225505368",
-    "title": "Bookkeeper",
-    "company": "Autograph Specialist Recruitment - Agency - Permanent",
-    "location": "Hereford",
-    "region": "Herefordshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Bookkeeper\n\nHereford\n\nSalary DOE\n\nAutograph Recruitment are working with a successful accountancy practice in Hereford to recruit an experienced Bookkeeper to join their team.\n\nThis is a great opportunity for someone who enjoys working independently, managing client work and taking ownership of accurate, timely bookkeeping and VAT.\n\nThe Role\n\nYou will manage bookkeeping for a varied client portfolio, including:\n- Processing invoices and transactions through to trial balance\n- Completing bank and control account reconciliations\n- Preparing and submitting VAT returns\n- Resolving queries and discrepancies\n- Liaising with clients on bookkeeping and VAT matters\n- Maintaining accurate, well-organised records for accounts and tax work\n- Working with cloud accounting software including Xero and QuickBooks\n\nAbout You\n\nWe re looking for someone with:\n- Previous bookkeeping experience, ideally within practice\n- A strong understanding of double-entry bookkeeping\n- VAT experience\n- Confidence using cloud accounting software\n- Good client communication skills\n- A proactive, organised approach and the ability to work independently\n- AAT qualified, part-qualified or QBE candidates are all welcome.\n\nNext steps\n\nIf this sounds like a great opportunity and you can demonstrate the skills and enthusiasm required, then please click Apply to upload your CV for consideration. Alternatively, contact Ceris Mansfield on (phone number removed) or (url removed)\n\nWe also welcome confidential conversations about your career if this role is not quite the right fit.\n\nWe look forward to hearing from you.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?QHpHeWTcrP6j6ewyaL4tUd%2bXtvVJfLLRy",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Autograph Specialist Recruitment",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
-    "job_id": "2039485",
-    "title": "Accounts Assistant - Hybrid Working",
-    "company": "Anderson Recruitment Ltd - Agency - Permanent",
-    "location": "Ross-on-wye",
-    "region": "Herefordshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "Exciting opportunity in Ross-on-Wye for an Accounts Assistant to join an active and busy accounts function in a nationally recognised company, on a full time, 6-month fixed term contract.\n\nYou will support the Accounts Payable and Accounts Receivable function, assisting with supplier payments, bank reconciliations, credit control, customer and supplier queries, and maintaining accurate financial records. Full training on the role and systems will be provided.\n\nWhilst this is offered as a fixed-term contract, we regularly see temporary staff secure permanent opportunities within the business with strong development routes internally.\n\nKey Responsibilities\n- Process supplier invoices accurately and within deadlines.\n- Support supplier payment runs and maintain supplier accounts.\n- Reconcile supplier statements and resolve invoice or payment queries.\n- Process daily banking transactions and complete bank reconciliations.\n- Assist with month-end journals and financial reconciliations.\n- Support credit control by monitoring aged debt and chasing overdue payments.\n- Respond to customer and supplier queries in a professional manner.\n- Maintain accurate financial records, documentation and account data.\n- Work with colleagues to identify and support process improvements.\n\nKey Attributes\n- Previous finance or accounts experience\n- Reliable, team player\n- Confident communicator\n\nHours: Monday - Friday, 8:30am - 5pm (1hr lunch) - 37.5h pw with option to work from home up to 1-2 days per week once fully trained and settled.\n\nSalary: £25,200 - £28,000 benefits including:\n- Hybrid working\n- Free parking\n- EAP Programme.\n- 25 days holiday PLUS bank holidays + annual leave purchase scheme (pro rata for temp or part time)\n- Birthday day off.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?ju9emE%2fz0VK80OC%2bK6xBDHkIS2jXMSeiw",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "Accounts Assistant - Hybrid Working Exciting opportunity in Ross-on-Wye for an Accounts Assistant to join an active and busy accounts function in a nationally recognised company, on a full time, 6-month fixed term contract.",
-    "advertiser_name": "Anderson Recruitment Ltd",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "2046278",
     "title": "Accounts Assistant",
     "company": "Reed - Agency - Permanent",
@@ -265,7 +215,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/S0001-26-0073",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/S0001-26-0073",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5645321",
@@ -283,6 +237,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0871-26-0040",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0871-26-0040",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

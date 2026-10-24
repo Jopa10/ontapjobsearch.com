@@ -2,15 +2,39 @@
 
 review_date: 2026-10-24
 
-- Open Administrative & Clerical rows reviewed: 2188
-- Auto/remembered selected: 391
+- Open Administrative & Clerical rows reviewed: 2185
+- Auto/remembered selected: 390
 - Selected HC Tier A: 197
-- Selected HC Tier B: 194
-- POSS awaiting decision: 1701
+- Selected HC Tier B: 193
+- POSS awaiting decision: 1700
 - Excluded: 0
-- HARD_PASS: 96
+- HARD_PASS: 95
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | Leicestershire | Market Harborough, LE16 9BX | £12.71 | Patient Services Advisor
+source_job_id: 5684575
+title: Patient Services Advisor
+employer: Market Harborough & Bosworth Partnership
+region: Leicestershire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A1377-26-0018
+factual_fingerprint: 679e042a72dad670fe6e89d4fd61ffb01502bbe93670b2aac325d7894f0d5242
+---
+
+---
+action:
+POSS | NHS Jobs | East Midlands | Derby, DE23 6QQ | £12.71 | Receptionist/Clinical Coder
+source_job_id: 5684520
+title: Receptionist/Clinical Coder
+employer: Derby Family Medical Centre
+region: East Midlands
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4958-26-0011
+factual_fingerprint: 619a9e57a04aa5134924a03de8d94be5a0b9a54bfbcf7f334d1c61e6d91f8f61
+---
 
 ---
 action:
@@ -1010,18 +1034,6 @@ factual_fingerprint: fb274566e3e85efcf39dbae8b206bc2506f4b66fde8eeea655d3bcb78cb
 
 ---
 action:
-POSS | NHS Jobs | London | London, SE5 9RS | £31554.00 to £33270.00 | Diagnostic Appointment Administrator
-source_job_id: 5683106
-title: Diagnostic Appointment Administrator
-employer: King's College Hospital NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9213-26-0939
-factual_fingerprint: a9fbcaecd516e6e89e16a2dd8d198cfb29478eb300103616033a9d90b28176da
----
-
----
-action:
 POSS | NHS Jobs | Dorset | Dorchester, DT1 2JY | £25760.00 to £27476.00 | Clerical Administrator - Diagnostic Imaging
 source_job_id: 5681112
 title: Clerical Administrator - Diagnostic Imaging
@@ -1670,14 +1682,14 @@ factual_fingerprint: 75874c49b43de949c15ad6218d6bb342cd8d674391030479a86c81680dc
 
 ---
 action:
-POSS | NHS Jobs | London | Sutton in Ashfield, NG17 4JL | £57528.00 to £64750.00 | Head of Decontamination Services
+POSS | NHS Jobs | Nottinghamshire | Sutton in Ashfield, NG17 4JL | £57528.00 to £64750.00 | Head of Decontamination Services
 source_job_id: 5683129
 title: Head of Decontamination Services
 employer: Sherwood Forest Hospitals NHS Foundation Trust
-region: London
+region: Nottinghamshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9214-26-0931
-factual_fingerprint: 7f3f063befa6621051ff63dffec92622bb9755e04456b71c630a92f5a79b980f
+factual_fingerprint: 798146008108e8ac5a0341f36110219e663beaee36b626cea797236943a15217
 ---
 
 ---
@@ -1694,26 +1706,26 @@ factual_fingerprint: af55515c26bb9175960de2bac99ef30d558274c9e16e6e74ca9fd8c7ec0
 
 ---
 action:
-POSS | NHS Jobs | London | Sutton-In-Ashfield, NG17 4JL | £15600.00 | Project Implementation and Training Support Apprentice
+POSS | NHS Jobs | Nottinghamshire | Sutton-In-Ashfield, NG17 4JL | £15600.00 | Project Implementation and Training Support Apprentice
 source_job_id: 5683103
 title: Project Implementation and Training Support Apprentice
 employer: Sherwood Forest Hospitals NHS Foundation Trust
-region: London
+region: Nottinghamshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9214-26-0930
-factual_fingerprint: b335139871d1f57f8989d2ef7a3b1ebecf98dfb6e2d90674b8b9a0b7d01aa162
+factual_fingerprint: 37b306cbd15f378fbb17985e7047912d4594b4b68130c09093db48029c24d5fc
 ---
 
 ---
 action:
-POSS | NHS Jobs | London | Sutton-In-Ashfield, NG17 4JL | £15600.00 | Apprentice Cancer MDT Assistant
+POSS | NHS Jobs | Nottinghamshire | Sutton-In-Ashfield, NG17 4JL | £15600.00 | Apprentice Cancer MDT Assistant
 source_job_id: 5683101
 title: Apprentice Cancer MDT Assistant
 employer: Sherwood Forest Hospitals NHS Foundation Trust
-region: London
+region: Nottinghamshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9214-26-0929
-factual_fingerprint: 4e5bd9978918062b86d406ccac76b3db64f007403f43373aa55a0ce48ed5515c
+factual_fingerprint: 1ded256e8b08d7719ba22885514a76c423946216574752f8a9ccc770b7023a3b
 ---
 
 ---
@@ -1826,18 +1838,6 @@ factual_fingerprint: 9ef84b95a9ee277d5d5bee419f93a6d1bb8aa165590628643579cb3be12
 
 ---
 action:
-POSS | NHS Jobs | London | London, HA8 0AD | £30630.00 to £32346.00 | Band 3 - Dialysis & Outpatient Administrator
-source_job_id: 5682561
-title: Band 3 - Dialysis & Outpatient Administrator
-employer: Royal Free London NHS Foundation Trust
-region: London
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9391-26-1866
-factual_fingerprint: e82e9b93378e603f37e59bc2c97f80e0f39b2116a6d5edd4f6b77d59e0625d96
----
-
----
-action:
 POSS | NHS Jobs | — | Enfield/London, EN1 3XA | £63665.00 to £70887.00 | Band 8a Finance manager
 source_job_id: 5682485
 title: Band 8a Finance manager
@@ -1874,14 +1874,14 @@ factual_fingerprint: f6b58fdeb248cf7af215db857c41b17c686efbbe0472eee1771d962a82b
 
 ---
 action:
-POSS | NHS Jobs | London | Sutton-In-Ashfield, NG17 4JL | £25760.00 to £27476.00 | Outpatient Booking Officer
+POSS | NHS Jobs | Nottinghamshire | Sutton-In-Ashfield, NG17 4JL | £25760.00 to £27476.00 | Outpatient Booking Officer
 source_job_id: 5682781
 title: Outpatient Booking Officer
 employer: Sherwood Forest Hospitals NHS Foundation Trust
-region: London
+region: Nottinghamshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9214-26-0924
-factual_fingerprint: a743e015684b4adb1f382db5dc545e5f3e9fbed256b0b11a07db905969b4930f
+factual_fingerprint: 844b5d36715ea8bce35037dcf786accb292033542292f3f87f38e8b7ee900d35
 ---
 
 ---
@@ -4713,7 +4713,7 @@ employer: Manchester University NHS Foundation Trust
 region: Greater Manchester - Manchester & Salford
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-3138
-factual_fingerprint: 6f19f5a430942f9f1ba0a18abdcadfb8882ccef0d156c92264fb505df54598ca
+factual_fingerprint: aac0e10b1d480bca1a5786942486cff8cb6e991b794d57503703037e999efc16
 ---
 
 ---
@@ -5325,7 +5325,7 @@ employer: Manchester University NHS Foundation Trust
 region: Greater Manchester - Manchester & Salford
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9349-26-3135
-factual_fingerprint: f7c25e251d5df6bc4b9a4b8adf97316d4331255f008a1a10ffc31ff61a21a824
+factual_fingerprint: c470a5b5035b8f2c89c98c1a7178e754103739da6dc6f5c7f6adaae217c2b250
 ---
 
 ---
@@ -9242,14 +9242,14 @@ factual_fingerprint: 688e420b4e61e3729995f6c3af3fc1cc056739e5f99245641c9eada44dc
 
 ---
 action:
-POSS | NHS Jobs | London | Sutton-In-Ashfield, NG17 4JL | £32073.00 to £39043.00 | Accredited Clinical Coder (ACC)
+POSS | NHS Jobs | Nottinghamshire | Sutton-In-Ashfield, NG17 4JL | £32073.00 to £39043.00 | Accredited Clinical Coder (ACC)
 source_job_id: 5667827
 title: Accredited Clinical Coder (ACC)
 employer: Sherwood Forest Hospitals NHS Foundation Trust
-region: London
+region: Nottinghamshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9214-26-0908
-factual_fingerprint: d54e21743b01ab424693ecbd21f80e1a0b0cfb64a48af0c66300745cc0c5528c
+factual_fingerprint: 21646b23614a16aac082ee8aed93c8d5e1063eb70619437cedba87143b951147
 ---
 
 ---
@@ -11618,26 +11618,26 @@ factual_fingerprint: 4b6327cb3b4df9cd3e627021bb549b1a7bcab5c140a9599c9a0484ae3ed
 
 ---
 action:
-POSS | NHS Jobs | London | Sutton In Ashfield, NG17 4JL | £48007.00 to £55706.00 | Transformation Lead
+POSS | NHS Jobs | Nottinghamshire | Sutton In Ashfield, NG17 4JL | £48007.00 to £55706.00 | Transformation Lead
 source_job_id: 5667909
 title: Transformation Lead
 employer: Chesterfield Royal Hospital NHS Foundation Trust
-region: London
+region: Nottinghamshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9166-26-0385
-factual_fingerprint: 9eb30d6b99bfa1da08f7b579f4d4c10005507883053391bb0f350e08ca88c421
+factual_fingerprint: 9707c13e40dddcd3f1699972d3930f53dc19a11927b338f9307d11087297e245
 ---
 
 ---
 action:
-POSS | NHS Jobs | London | Sutton In Ashfield, NG17 4JL | £27343.00 to £30703.00 | Project Support Officer
+POSS | NHS Jobs | Nottinghamshire | Sutton In Ashfield, NG17 4JL | £27343.00 to £30703.00 | Project Support Officer
 source_job_id: 5667902
 title: Project Support Officer
 employer: Chesterfield Royal Hospital NHS Foundation Trust
-region: London
+region: Nottinghamshire
 reason: BRIDGEABLE: NHS admin/service title registry
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9166-26-0384
-factual_fingerprint: aa290f6775101ea759d43f4d1e822a59bd3f0b97bdf29bcf3a6d7d2a880bfba1
+factual_fingerprint: 33d145775e75cb58c0c7e8f6d78a54e49809c4dc6adf58ae5ad4b29d997beb58
 ---
 
 ---
@@ -11654,14 +11654,14 @@ factual_fingerprint: f7fdd3f5c3d655a60d792d0aa20383793d3dbaef46112267742f3f96c75
 
 ---
 action:
-POSS | NHS Jobs | London | Sutton In Ashfield, NG17 4JL | £31613.00 to £38527.00 | Transformation and Engagement Officer
+POSS | NHS Jobs | Nottinghamshire | Sutton In Ashfield, NG17 4JL | £31613.00 to £38527.00 | Transformation and Engagement Officer
 source_job_id: 5667889
 title: Transformation and Engagement Officer
 employer: Chesterfield Royal Hospital NHS Foundation Trust
-region: London
+region: Nottinghamshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9166-26-0382
-factual_fingerprint: 34938cb85d93d29eff8714192f94c78cc14f9a82eb7ad567e50e8f6c011afb9a
+factual_fingerprint: 12d768c1d1d21d1ca62d5768b4cfec677c8797c25dd8936642f6cb21774c445f
 ---
 
 ---
@@ -11690,14 +11690,14 @@ factual_fingerprint: e595ba77652ec937b02147a6c818ccc63277c6f54a6ec904ec292779d64
 
 ---
 action:
-POSS | NHS Jobs | London | Sutton In Ashfield, NG17 4JL | £38776.00 to £43003.00 | Product Analyst
+POSS | NHS Jobs | Nottinghamshire | Sutton In Ashfield, NG17 4JL | £38776.00 to £43003.00 | Product Analyst
 source_job_id: 5667858
 title: Product Analyst
 employer: Chesterfield Royal Hospital NHS Foundation Trust
-region: London
+region: Nottinghamshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9166-26-0381
-factual_fingerprint: 50da53d09615f920a9bd1541de6e64248c1396970b194a310431cb0444f4bcd1
+factual_fingerprint: 39b09051114470292e437407353ce98fb73ae8508b291d2463c9efabc5fecd46
 ---
 
 ---
@@ -11714,26 +11714,26 @@ factual_fingerprint: a82528546a8d8ac1e829ac2978a0c1c94381ec4ac8260698dd3d8963652
 
 ---
 action:
-POSS | NHS Jobs | London | Sutton In Ashfield, NG17 4JL | £31613.00 to £34616.00 | Product Support Analyst
+POSS | NHS Jobs | Nottinghamshire | Sutton In Ashfield, NG17 4JL | £31613.00 to £34616.00 | Product Support Analyst
 source_job_id: 5667850
 title: Product Support Analyst
 employer: Chesterfield Royal Hospital NHS Foundation Trust
-region: London
+region: Nottinghamshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9166-26-0380
-factual_fingerprint: 9719552527f18c260a5d6167f8cc85a44d11eae4d050cdb8da40cc060502483d
+factual_fingerprint: c77f625e08fe660e36e78beefe6fdcf22250f98e6214ebc92d48295ed2a3c23e
 ---
 
 ---
 action:
-POSS | NHS Jobs | London | Sutton-In-Ashfield, Nottinghamshire, NG17 4JL | £48007.00 to £55706.00 | EPR Testing Lead
+POSS | NHS Jobs | Nottinghamshire | Sutton-In-Ashfield, Nottinghamshire, NG17 4JL | £48007.00 to £55706.00 | EPR Testing Lead
 source_job_id: 5667833
 title: EPR Testing Lead
 employer: Chesterfield Royal Hospital NHS Foundation Trust
-region: London
+region: Nottinghamshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9166-26-0379
-factual_fingerprint: 333cf9e104d2b7f7508d4b94946b3a11faee1b41d5feefda5cf2360b9b3b68cf
+factual_fingerprint: a65e20f631999dac1569c0ec3de9a2a8d1627187520e8bac9a82787d1086cc30
 ---
 
 ---
@@ -11774,14 +11774,14 @@ factual_fingerprint: 133a244784a37418c916ef5e01d592cfececdb981ce279a03c4f7e3d501
 
 ---
 action:
-POSS | NHS Jobs | London | Sutton-In-Ashfield, Nottinghamshire, NG17 4JL | £78801.00 to £91255.00 | EPR Programme Director
+POSS | NHS Jobs | Nottinghamshire | Sutton-In-Ashfield, Nottinghamshire, NG17 4JL | £78801.00 to £91255.00 | EPR Programme Director
 source_job_id: 5667808
 title: EPR Programme Director
 employer: Chesterfield Royal Hospital NHS Foundation Trust
-region: London
+region: Nottinghamshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9166-26-0378
-factual_fingerprint: 7d703c93e9cdbb28997459a870328056354e9478b4b10ef3b571f7ee5d28e4fe
+factual_fingerprint: 4f52b88111e52b8bdcd7024dc9f3bdef2efb2c8cc78e325be8c1570a5b588009
 ---
 
 ---
@@ -12614,14 +12614,14 @@ factual_fingerprint: 2f2fe151611677f957e90b4fbdb70dc985fa28e59ca293d8cf685a6ee33
 
 ---
 action:
-POSS | NHS Jobs | London | Sutton-in-Ashfield, NG17 4JT | £15600.00 | Apprentice Administration Assistant
+POSS | NHS Jobs | Nottinghamshire | Sutton-in-Ashfield, NG17 4JT | £15600.00 | Apprentice Administration Assistant
 source_job_id: 5666189
 title: Apprentice Administration Assistant
 employer: Nottinghamshire Healthcare NHS Foundation Trust
-region: London
+region: Nottinghamshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9186-26-0755
-factual_fingerprint: acc4ac83fda7d52ee3cefb77cc0c1169a63597ddd909b20af869c9585c17d839
+factual_fingerprint: 5f37af97a1a79125c6c97a6aec065ce8b1adaf79f856c2dacc5cbe7ae24ca9cf
 ---
 
 ---
@@ -14846,18 +14846,6 @@ factual_fingerprint: 113bffc5cd29cf0eb7a44d3976b6e5d9d54d27487c1aa6885db016a346b
 
 ---
 action:
-POSS | NHS Jobs | Essex | Chelmsford, CM1 7ET | £28392.00 | Patient Access Officer
-source_job_id: 5661706
-title: Patient Access Officer
-employer: Mid and South Essex NHS Foundation Trust
-region: Essex
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9390-26-2412
-factual_fingerprint: 1223768d27f26ea4a800c7abdd2e806ab242c3608a7483aeeb720452ba39b8a1
----
-
----
-action:
 POSS | NHS Jobs | North East | Sunderland, SR5 1NB | £28392.00 to £31157.00 | Administration Team Lead
 source_job_id: 5661691
 title: Administration Team Lead
@@ -15722,14 +15710,14 @@ factual_fingerprint: c9e4a71955ec7ac172ee017d2d9f15036b7d86731b716c96a1d959663bb
 
 ---
 action:
-POSS | NHS Jobs | London | Sutton-in-Ashfield, NG17 4JL | £28392.00 to £31157.00 | Technical Support Officer
+POSS | NHS Jobs | Nottinghamshire | Sutton-in-Ashfield, NG17 4JL | £28392.00 to £31157.00 | Technical Support Officer
 source_job_id: 5659362
 title: Technical Support Officer
 employer: Sherwood Forest Hospitals NHS Foundation Trust
-region: London
+region: Nottinghamshire
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9214-26-0897
-factual_fingerprint: e0cac4479aae08eb34d0c50dcd2c3fd288587bdebd6bebc205130bc0a970dbcd
+factual_fingerprint: b77b91283c2da844653813d0cf2083e82b75ebffe1b0a4efd57f6e5f3dc81447
 ---
 
 ---
