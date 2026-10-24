@@ -1,7 +1,7 @@
 # VONNE ETL proof-of-concept review
 
-review_date: 2026-10-23
-review_fingerprint: 6fc91893d087c9383c863a279a41a66f65808665147711a246ded5542bbc379d
+review_date: 2026-10-24
+review_fingerprint: 7fd529dc3b26e2fcd4ed82cc74428a4f09aac54f533b29ab0b51caa170202013
 
 This implementation is review-only. It has no approved-JSON or publishing mode.
 
@@ -10,20 +10,20 @@ Edit only the `action:` line in editable blocks:
 - `action: exclude` rejects a POSS vacancy or removes an HC vacancy.
 - Actions are remembered while the same vacancy review facts remain unchanged; this review still does not publish anything.
 
-Run generated: 2026-10-23T12:57:29+01:00
+Run generated: 2026-10-24T12:26:32+01:00
 Listing input: https://www.vonne.org.uk/vonne-jobs
-JobG8 comparison rows: 406
+JobG8 comparison rows: 419
 Approved NEJobs comparison rows: 0
 
 ## Funnel
 - VONNE listings read: 15
-- Detail-page candidates: 4
-- Detail pages fetched successfully: 4
+- Detail-page candidates: 3
+- Detail pages fetched successfully: 3
 - Detail failures/listing fallbacks: 0
-- Obvious hard passes not detail-fetched: 11
+- Obvious hard passes not detail-fetched: 12
 - Tees Valley explicitly excluded: 0
 - Outside or unmapped geography excluded: 1
-- Generic/derived geography rows requiring review: 2
+- Generic/derived geography rows requiring review: 3
 - Retained target candidates: 14
 
 ## Outcomes
@@ -31,8 +31,8 @@ Approved NEJobs comparison rows: 0
 - POSS: 4
 - HARD_PASS: 10
 - Final selected after remembered/manual actions: 0
-- Final POSS awaiting decision: 0
-- Manually excluded: 4
+- Final POSS awaiting decision: 1
+- Manually excluded: 3
 ## Detail diagnostics
 - No unresolved detail-page failures.
 
@@ -56,17 +56,17 @@ source_job_id: 173457
 source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173457
 ---
 ---
-action: exclude
-POSS | North East - Tyneside, Wearside & Northumberland | Tyne and Wear | £24,796 to 28,153 Per Annum | Administrator (VAWG TEAM)
-employer: The Angelou Centre
-closing_date: Saturday, October 31, 2026 - 05:00
-geography: CONFIRMED — location: approved location fallback
-reason: possible cross-source duplicate requires review
+action:
+POSS | North East - Tyneside, Wearside & Northumberland | Flexible | £29,503 Per Annum | Employment Support Advisor
+employer: North Tyneside Carers' Centre
+closing_date: 06 November 2026
+geography: DERIVED_REVIEW — employer-derived geography: geography phrase: north tyneside
+reason: North East geography is generic or derived and requires review
 source: VONNE
-tracking_key: vonne-173521
-vacancy_fingerprint: 1b881bdff0978f7131882da6166feea86cc94020d825071b96d436091c31b1c4
-source_job_id: 173521
-source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173521
+tracking_key: vonne-173582
+vacancy_fingerprint: f1178a0e4cbcd10bc69ae022e8d3d130365fd73b4ee5b71246c4d3c40fbcaae6
+source_job_id: 173582
+source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173582
 ---
 ---
 action: exclude
@@ -103,12 +103,12 @@ source_url: https://www.vonne.org.uk/vonne-jobs-details?cid=173537
 - [Access to Work Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173559) — out-of-scope VONNE occupation.
 - [Advice Services Manager (Community)](https://www.vonne.org.uk/vonne-jobs-details?cid=173555) — out-of-scope VONNE occupation.
 - [Bid Writer (Trusts and Foundations)](https://www.vonne.org.uk/vonne-jobs-details?cid=173383) — insufficient service-admin evidence.
+- [Cancer and Dementia Care Community Link Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173588) — out-of-scope VONNE occupation.
 - [Chief Executive](https://www.vonne.org.uk/vonne-jobs-details?cid=173526) — out-of-scope VONNE occupation.
 - [Community Link Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173544) — out-of-scope VONNE occupation.
 - [Domestic Abuse Refuge Support Worker](https://www.vonne.org.uk/vonne-jobs-details?cid=173561) — out-of-scope VONNE occupation.
 - [Employability and Skills Mentor](https://www.vonne.org.uk/vonne-jobs-details?cid=173545) — insufficient service-admin evidence.
 - [Independent Advocate](https://www.vonne.org.uk/vonne-jobs-details?cid=173539) — insufficient service-admin evidence.
-- [Interim Chief Executive Officer](https://www.vonne.org.uk/vonne-jobs-details?cid=173518) — out-of-scope VONNE occupation.
 - [Payroll and People Systems Assistant](https://www.vonne.org.uk/vonne-jobs-details?cid=173536) — confirmed JobG8 duplicate.
 
 ## Safety boundary
