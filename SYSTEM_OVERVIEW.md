@@ -1,11 +1,13 @@
 # Ontap System Overview
 
-**Last updated:** 23 October 2026
+**Last updated:** 24 October 2026
 **Status:** Canonical production state, reconciled on 12 October against active workflow definitions, deployment runs and current report data.
 
 This is the short owner view of how Ontap is organised. It mirrors the five canonical system buckets in `SYSTEM_MAP.md`.
 
 ## Recent canonical changes
+
+- 24 October 2026 — **Sutton-in-Ashfield geography corrected:** the authoritative `pipeline/geo/geo_lookup.xlsx` Sheet1 cell B1029 now maps Sutton-in-Ashfield to Nottinghamshire instead of London. Sutton (London) and Sutton Coldfield remain unchanged. This source correction takes effect when inventory is regenerated and normally published; existing generated app/report snapshots are not manually relabelled. Email-alert matching rules and private recipient safeguards are unchanged.
 
 - 23 October 2026 — **Nearby-panel visibility is measured:** `nearby_panel_view` fires once per mounted page visit when at least 50% of the Jobs near you panel intersects the viewport in a visible browser tab. Client-side route changes reset the page scope; scrolling away and back does not duplicate the event. It uses the existing analytics-ready delivery, page context/path and a saved-versus-new panel state, without location data. Historical impressions cannot be reconstructed.
 
