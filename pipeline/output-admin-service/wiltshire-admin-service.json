@@ -256,31 +256,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225653482",
-    "title": "Service Advisor",
-    "company": "Auto Skills UK - Agency - Permanent",
-    "location": "Swindon",
-    "region": "Wiltshire",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "",
-    "salary_max": "",
-    "salary_text": "",
-    "posted_date": "",
-    "description": "SERVICE ADVISOR\nLocation: Swindon\nSalary: £30,000 Basic Salary OTE £34,000\nJob Type: Full-Time, Permanent\n\nLooking for a role where your customer service skills are recognised, your career can continue to progress, and you can become part of a supportive dealership team?\nIf you're an experienced Service Advisor looking for your next opportunity, this is an excellent chance to join a busy and well-established dealership in Swindon. Offering a competitive basic salary, achievable bonus, and a friendly working environment, you'll become an integral part of a professional aftersales team that prides itself on delivering outstanding customer service.\nAs the first point of contact for customers, you'll play a key role in ensuring every customer receives a first-class experience while helping the workshop operate efficiently and profitably.\n\nWHAT'S IN IT FOR YOU?\n£30,000 Basic Salary\nOTE £34,000\nBonus Scheme\nOngoing Training & Development\nCareer Progression Opportunities\nSupportive Team Environment\nModern Dealership Facilities\nStable, Full-Time Permanent Position\n\nTHE ROLE\nAs a Service Advisor, you'll be responsible for delivering an exceptional customer experience while ensuring the smooth day-to-day running of the service department.\nKey responsibilities include:\nBooking customer vehicles in for servicing, maintenance, and repairs\nLiaising with the workshop to ensure efficient scheduling and workshop loading\nKeeping customers informed throughout the repair process\nAdvising customers on additional work required and associated costs\nUpselling service plans, maintenance work, and aftersales products where appropriate\nPreparing estimates, invoices, and service documentation accurately\nWorking closely with the workshop team to ensure vehicles are completed on time\nDelivering outstanding customer service from vehicle drop-off through to collection\n\nABOUT YOU\nWe're keen to hear from candidates who can demonstrate:\nPrevious experience as a Service Advisor within the automotive industry\nExperience using Kerridge, 1 Link, Pinnacle, or a similar Dealer Management System (DMS)\nA proven track record of upselling additional work, service plans, and aftersales products\nExcellent customer service and communication skills\nStrong organisational skills with the ability to work effectively in a busy environment\nA positive, professional, and team-focused attitude\nFull UK Manual Driving Licence (subject to licence checks)\n\nAPPLY TODAY\nThis is an excellent opportunity to join a successful dealership that values exceptional customer service, invests in its people, and offers genuine opportunities for long-term career progression.\nIf you're an experienced Service Advisor looking for your next challenge, we'd love to hear from you.\n\nInterested in finding out more? Apply today or contact Kieran at Auto Skills for a confidential discussion about this Service Advisor opportunity, quoting job reference 54894.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?8QJ4AeKfiXcA4KLO2QEpCyDc66EVqvf0x",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Auto Skills UK",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225736419",
     "title": "IT & MI Coordinator",
     "company": "Siamo Recruitment a division of Siamo Group - Agency - Permanent",
@@ -996,7 +971,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1256",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9267-26-1256",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5672714",
@@ -1014,7 +993,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3623-26-0022",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3623-26-0022",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5614143",
@@ -1032,6 +1015,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3442-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3442-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

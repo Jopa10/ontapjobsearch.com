@@ -2,15 +2,87 @@
 
 review_date: 2026-10-24
 
-- Open Administrative & Clerical rows reviewed: 2184
-- Auto/remembered selected: 389
-- Selected HC Tier A: 197
-- Selected HC Tier B: 192
-- POSS awaiting decision: 1700
+- Open Administrative & Clerical rows reviewed: 2193
+- Auto/remembered selected: 393
+- Selected HC Tier A: 200
+- Selected HC Tier B: 193
+- POSS awaiting decision: 1705
 - Excluded: 0
 - HARD_PASS: 95
 
 Edit only each `action:` line for POSS rows. Unchanged decisions are restored by the shared decision ledger.
+
+---
+action:
+POSS | NHS Jobs | — | Remote (Home based), LU2 9TN | Negotiable | Interim Resourcing Officer
+source_job_id: 5671414
+title: Interim Resourcing Officer
+employer: Elysium Healthcare
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2381
+factual_fingerprint: 86457d968ed6f52124dc2bfbfd2a9cf7cbe244d961d16342e423dc234ec5cec4
+---
+
+---
+action:
+POSS | NHS Jobs | — | Remote (Home based), LU2 9TN | Negotiable | Interim Talent Acquisition Business Partner
+source_job_id: 5671413
+title: Interim Talent Acquisition Business Partner
+employer: Elysium Healthcare
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2380
+factual_fingerprint: 7f23a1a5fdac20a60d2525a7079f5fe34ae7cc739bf476de05b5712443cc606d
+---
+
+---
+action:
+POSS | NHS Jobs | — | Hybrid, LU2 9TN | Negotiable | Interim Talent Acquisition Specialist
+source_job_id: 5674431
+title: Interim Talent Acquisition Specialist
+employer: Elysium Healthcare
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2392
+factual_fingerprint: ecb0a658b67300986ba23c078c848c5d9f4b7026e50188320eb7b93663ffd0fd
+---
+
+---
+action:
+POSS | NHS Jobs | — | Remote (Home based), WD6 1JN | Negotiable | Learning and Quality Assurance Lead
+source_job_id: 5677154
+title: Learning and Quality Assurance Lead
+employer: Elysium Healthcare
+region: 
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2416
+factual_fingerprint: 83dbe0cd430ae5218c4ad6686031c77810342b9e9c94a31e2f62bd1bf9300cc4
+---
+
+---
+action:
+POSS | NHS Jobs | Buckinghamshire | Milton Keynes, MK6 5LS | £75000.00 | Deputy Hospital Director
+source_job_id: 5677150
+title: Deputy Hospital Director
+employer: Elysium Healthcare
+region: Buckinghamshire
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2415
+factual_fingerprint: 23c10860aa61beab0c5d6e66cf27600f19ca178671c07bac2428259beafd0b0c
+---
+
+---
+action:
+POSS | NHS Jobs | Surrey | Woking, GU22 7XL, WOKING, GU21 3LQ | Negotiable | Practice Nurse
+source_job_id: 5666487
+title: Practice Nurse
+employer: Goldsworth Medical Practice
+region: Surrey
+reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
+source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/A4411-26-0001
+factual_fingerprint: 52275fc47627e18db3da1d4367494dd0c7ef66ca95ea587a5ce5b6b8b9ce802a
+---
 
 ---
 action:
@@ -9130,18 +9202,6 @@ region: West Midlands - Birmingham & Solihull
 reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
 source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9820-26-0730
 factual_fingerprint: c77dca67b9974afd311272d276d7466a405ca1ff2914ffe8b1164db4d6335433
----
-
----
-action:
-POSS | NHS Jobs | West Midlands - Birmingham & Solihull | Birmingham, B5 7EG | £25760.00 to £27476.00 | Band 3 Medical Secretary
-source_job_id: 5671601
-title: Band 3 Medical Secretary
-employer: Birmingham Community Healthcare NHS FT
-region: West Midlands - Birmingham & Solihull
-reason: BRIDGEABLE: Unseen NHS Administrative & Clerical title; registry review required
-source_url: https://beta.jobs.nhs.uk/candidate/jobadvert/C9820-26-0729
-factual_fingerprint: 9f4acd9890071912d1bc4d14c11a889927775e94e36f7073440e5e7878149757
 ---
 
 ---

@@ -1753,31 +1753,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225650940",
-    "title": "People and Data Administrator",
-    "company": "Spire Healthcare - Company - Permanent",
-    "location": "Manchester",
-    "region": "Greater Manchester - Manchester & Salford",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "25000",
-    "salary_max": "30000",
-    "salary_text": "£25000 - £30000 per year",
-    "posted_date": "",
-    "description": "People & Data Administrator Full-Time Hybrid Manchester\n\nJoin Spire Healthcare as a People & Data Administrator and help drive data accuracy, system excellence, and informed decision-making across our People function.\n\nWe're looking for a detail-oriented and analytical professional to support the administration of our people systems, reporting processes, and data management activities. This is an exciting opportunity for someone with experience in HR systems, people data, or HR administration who enjoys working with data and technology to improve business processes.\n\nAbout the Role\n\nAs a People & Data Administrator, you'll play a key role in supporting the integrity, security, and effective use of people data across the organisation. Working closely with People, IT, and business stakeholders, you'll help maintain our Oracle HCM system, produce meaningful reports, support system upgrades and testing, and contribute to continuous improvement initiatives.\n\nKey Responsibilities\n- Support the administration and maintenance of Oracle HCM and related people systems.\n- Produce regular and ad hoc people reports and data insights.\n- Conduct data audits, identify discrepancies, and support data cleansing activities.\n- Manage user access and permissions whilst ensuring compliance with data protection requirements.\n- Support system testing, upgrades, enhancements, and user acceptance testing.\n- Provide second-line support for people systems queries.\nIdentify opportunities to improve processes, reporting, and system efficiency.\n\nWhat We're Looking For\n- Experience in HR Systems, HR Administration, HRIS, or People Data roles.\n- Experience using Oracle HCM or a similar HR system.\n- Strong Microsoft Excel skills, including Pivot Tables, lookups, and data analysis.\n- Experience producing reports and analysing data.\n- Knowledge of HR processes and employee lifecycle management.\n- Understanding of GDPR, data governance, and information security principles.\n- Excellent attention to detail, problem-solving skills, and ability to manage confidential information.\n- Power BI experience is desirable.\n\nWhy Join Spire Healthcare?\n\nAt Spire Healthcare, our people make the difference. You'll be joining a supportive team where continuous improvement, collaboration, and professional development are encouraged.\n\nOur values guide everything we do:\n- Caring is our passion\n- Driving clinical excellence\n- Doing the right thing\n- Keeping it simple\n- Delivering on our promises\n- Succeeding and celebrating together\n\nAbout Us\n\nSpire Healthcare is a leading independent healthcare group in the United Kingdom, running 38 hospitals and over 50 clinics across England, Wales and Scotland. It provides diagnostics, inpatient, day case and outpatient care, operates a network of private GPs and provides workplace health services to over 800 corporate clients. It also delivers a range of private and NHS mental health, musculoskeletal and dermatological services.\n\nWe have achieved our market leading position because of our Purpose, which is to 'make a positive difference to people's lives through outstanding personalised care'. Everyone at Spire is aligned to this purpose, which underpins a culture of respect, inclusion, passion and collaboration across our business, enabling us to achieve more than 98% of our hospitals being rated 'Good' or 'Outstanding' by the Regulators; these are sector leading standards.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?BLJDB6rXdtNeERaPVC19qMnN%2bPC7fpujk",
-    "source": "JobG8",
-    "working_arrangement": "hybrid",
-    "working_arrangement_text": "Hybrid working",
-    "working_arrangement_evidence": "People and Data Administrator People & Data Administrator Full-Time Hybrid Manchester Join Spire Healthcare as a People & Data Administrator and help drive data accuracy, system excellence, and informed decision-making across our People function.",
-    "advertiser_name": "Spire Healthcare",
-    "advertiser_type": "Company",
-    "work_pattern": "Full Time",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225667924",
     "title": "Activities Coordinator",
     "company": "Lowry Recruitment Ltd - Agency - Permanent",
@@ -2143,7 +2118,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0105-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0105-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5664083",
@@ -2161,7 +2140,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2420-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2420-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5428988",
@@ -2179,7 +2162,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5477-13102026",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5477-13102026",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5682920",
@@ -2197,7 +2184,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5300-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5300-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5682169",
@@ -2215,7 +2206,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0161-26-0014",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0161-26-0014",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5681350",
@@ -2233,7 +2228,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2981-26-0022",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2981-26-0022",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5613640",
@@ -2251,7 +2250,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3462-26-0002",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3462-26-0002",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5641457",
@@ -2269,7 +2272,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9437-26-0904",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9437-26-0904",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5569272",
@@ -2287,6 +2294,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1612-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1612-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

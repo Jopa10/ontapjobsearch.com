@@ -478,31 +478,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225653652",
-    "title": "Medical Receptionist",
-    "company": "Aspion - Agency - Temporary",
-    "location": "Liverpool",
-    "region": "Merseyside - Liverpool",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Temporary",
-    "salary_min": "13",
-    "salary_max": "14.57",
-    "salary_text": "£13 - £14.57 per hour",
-    "posted_date": "",
-    "description": "Job Title: Medical Receptionist\n\nLocation: Preston\n\nPay Rate: £13.00/ £14.57\n\nAspion are currently looking for an experienced and reliable Medical Receptionist to join a busy GP practice in Preston.\n\nThe ideal candidate will be EMIS trained, confident working in a primary care environment, and available to start immediately.\n\nThe role:\n- Monday to Friday, full-time working\n- Immediate start available\n- Based in Liverpool\n- Reception and front-of-house duties\n- Answering telephone calls and dealing with patient enquiries\n- Booking and managing appointments\n- Updating patient records and maintaining accurate information\n- Liaising with GPs, nurses and other members of the practice team\n\nWe are looking for someone who:\n- Has previous experience as a medical/GP receptionist\n- Is fully trained and confident using EMIS\n- Has excellent communication and organisational skills\n- Is professional, friendly and approachable\n- Can work well under pressure in a busy practice environment\n\nMorning and afternoon start times Monday to Friday\n\nAt Aspion, our core values have been built around the importance or transparency, innovation, passion and collaboration. As such, we are committed to open communication and the protection of your privacy. We have updated our policies in line.\n\nASPLIV",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?wcSLro6HHF6MbnmJ%2f9YCSw5kA803Cqi%2fm",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Aspion",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Hourly",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225735203",
     "title": "Sales Coordinator",
     "company": "Search Consultancy Ltd - Agency - Permanent",
@@ -568,7 +543,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0843",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0505-26-0843",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5682461",
@@ -586,7 +565,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2214-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2214-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5677636",
@@ -604,7 +587,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0048-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A0048-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5676638",
@@ -622,7 +609,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5232-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A5232-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5667822",
@@ -640,6 +631,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4774-26-0003",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A4774-26-0003",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

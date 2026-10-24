@@ -500,31 +500,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "108183003",
-    "title": "Logistics Coordinator",
-    "company": "Consortium Professional Recruitment - Agency - Permanent",
-    "location": "Hessle",
-    "region": "Yorkshire - East",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Permanent",
-    "salary_min": "34999",
-    "salary_max": "34999",
-    "salary_text": "£34999 per year",
-    "posted_date": "",
-    "description": "Consortium Professional Recruitment are pleased to be working with our client, a successful international FMCG business, to recruit a Logistics Coordinator based in East Yorkshire. This is an excellent opportunity to join an established organisation with a strong global presence, where you'll play an important role in keeping international supply chain operations running smoothly click apply for full job details",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?7Qtr4nk8kAwrRN4ROHqiOBnlve4HbVZww",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Consortium Professional Recruitment",
-    "advertiser_type": "Agency",
-    "work_pattern": "Not Specified",
-    "salary_period": "Annual",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "nhs-5661401",
     "source": "NHS Jobs",
     "title": "Administrator",
@@ -540,7 +515,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9356-26-0664",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9356-26-0664",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5661463",
@@ -558,7 +537,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9356-26-0666",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9356-26-0666",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5684494",
@@ -576,7 +559,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3073-26-0001",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A3073-26-0001",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5684409",
@@ -594,7 +581,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1684-26-0010",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1684-26-0010",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5672082",
@@ -612,6 +603,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9356-26-0675",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9356-26-0675",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]

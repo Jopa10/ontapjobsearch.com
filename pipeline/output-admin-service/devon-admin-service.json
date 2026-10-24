@@ -1028,31 +1028,6 @@
     "posted_date_basis": ""
   },
   {
-    "job_id": "23643_225650065",
-    "title": "Finance Assistant",
-    "company": "Pontoon - Agency - Contract",
-    "location": "Devon",
-    "region": "Devon",
-    "country": "UK",
-    "category": "Admin/Service – Office Support",
-    "employment_type": "Contract",
-    "salary_min": "120",
-    "salary_max": "120",
-    "salary_text": "£120 per daily",
-    "posted_date": "",
-    "description": "Finance Assistant Positions Available!\n\nOur client is seeking three motivated and detail-oriented Temporary Finance Assistants to join their dynamic Accounts Receivable team for a six-month contract. With an exciting increase in workload following a recent project go-live, this is a fantastic opportunity to contribute to a thriving environment.\n\nPositions Available:\n- 2 x Invoicing Finance Assistants\n- 1 x Payments Finance Assistant\n\nDaily Rate: 120.00 PAYE\nContract Length: 6 months\nWorking Pattern: Full Time\nLocation: Plymouth (Fully onsite for the first 3 months; hybrid arrangement after)\n\nRole Overview:\n\nThese roles will be pivotal in assisting with day-to-day transactional processing and administrative activities. Successful candidates will ensure that payments, invoicing activities, and customer inquiries are handled with accuracy and efficiency.\n\nKey Responsibilities:\n\nPayments Finance Assistant:\n- Support day-to-day processing of BACS payments.\n- Assist with payment allocations and customer refunds.\n- Process customer card payments over the phone.\n- Respond to payment-related inquiries and handle routine customer calls.\n\nInvoicing Finance Assistants:\n- Raise and issue invoices and credit notes using finance systems.\n- Process customer refunds and maintain accurate account information.\n- Respond to routine invoicing inquiries and support month-end activities.\n\nGeneral Administration:\n- Manage incoming and outgoing post.\n- Monitor shared mailboxes and provide administrative support.\n- Ensure compliance with established procedures and data protection requirements.\n\nCandidate Profile:\n\nThe ideal candidates will possess:\n- Previous experience in finance administration, transactional finance processing, or high-volume administrative roles.\n- Strong attention to detail and accuracy.\n- Excellent organisational and communication skills.\n- A proactive attitude and the ability to work collaboratively within a team.\n- Confidence in handling routine customer inquiries.\n\nSystems & Technical Skills:\n- Basic proficiency in Excel is required, including formulas, sums, and VLOOKUPs.\n- Familiarity with finance systems\n\nWhy Join This Team?\n- Join a supportive and fast-paced work environment.\n- Contribute to a crucial team during a period of significant growth.\n- Benefit from onsite parking and a flexible working arrangement after three months.\n\nIf you are a reliable, detail-oriented individual with a passion for finance administration, this is your chance to shine! Candidates from diverse backgrounds are encouraged to apply; industry-specific experience is not necessary.\n\nApply now and step into a rewarding temporary role that offers both challenge and opportunity!\n\nPontoon is an employment consultancy. We put expertise, energy, and enthusiasm into improving everyone's chance of being part of the workplace. We respect and appreciate people of all ethnicities, generations, religious beliefs, sexual orientations, gender identities, and more. We do this by showcasing their talents, skills, and unique experience in an inclusive environment that helps them thrive. If you require reasonable adjustments at any stage, please let us know and we will be happy to support you.\n\nWe use generative AI tools to support our candidate screening process. This helps us ensure a fair, consistent, and efficient experience for all applicants. Rest assured, all final decisions are made by our hiring team, and your application will be reviewed with care and attention.",
-    "apply_url": "https://www.jobg8.com/Traffic.aspx?1AqGbzZAab%2bHSjYOE48M3oW8gIt1R375l",
-    "source": "JobG8",
-    "working_arrangement": "onsite_or_not_stated",
-    "working_arrangement_text": "",
-    "working_arrangement_evidence": "",
-    "advertiser_name": "Pontoon",
-    "advertiser_type": "Agency",
-    "work_pattern": "Full Time",
-    "salary_period": "Daily",
-    "posted_date_basis": ""
-  },
-  {
     "job_id": "23643_225759209",
     "title": "Administrator",
     "company": "WR HVAC - Agency - Contract",
@@ -1097,6 +1072,31 @@
     "working_arrangement_text": "",
     "working_arrangement_evidence": "",
     "advertiser_name": "Perfect Placement",
+    "advertiser_type": "Agency",
+    "work_pattern": "Full Time",
+    "salary_period": "Annual",
+    "posted_date_basis": ""
+  },
+  {
+    "job_id": "23643_225761678",
+    "title": "Accountant / Accounts Bookkeeper",
+    "company": "WH Finance Ltd - Agency - Permanent",
+    "location": "Devon",
+    "region": "Devon",
+    "country": "UK",
+    "category": "Admin/Service – Office Support",
+    "employment_type": "Permanent",
+    "salary_min": "30000",
+    "salary_max": "40000",
+    "salary_text": "£30000 - £40000 per year",
+    "posted_date": "",
+    "description": "My client is a well established independent accountancy practice and they are now looking to recruit an Accountant / Accounts Bookkeeper to join the small and friendly team\n\nThis is a highly varied role covering:\n- Preparing a range of year end accounts from various incomplete records\n- VAT returns\n- Self-assessment tax returns\n- Corporation tax returns\n- Management accounts\n- Monthly Bookkeeping\n- Capital Gains\n\nInterviews are ongoing so apply now.",
+    "apply_url": "https://www.jobg8.com/Traffic.aspx?KY4ye8HUBXxeV6kkc5YRWRvWQo%2fiAXIlc",
+    "source": "JobG8",
+    "working_arrangement": "onsite_or_not_stated",
+    "working_arrangement_text": "",
+    "working_arrangement_evidence": "",
+    "advertiser_name": "WH Finance Ltd",
     "advertiser_type": "Agency",
     "work_pattern": "Full Time",
     "salary_period": "Annual",
@@ -1268,7 +1268,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9832-2026-AC-2009-2",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/B9832-2026-AC-2009-2",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5671390",
@@ -1286,7 +1290,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1269",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C0023-26-1269",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5665958",
@@ -1304,7 +1312,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0678-2",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0678-2",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5662336",
@@ -1322,7 +1334,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0821",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0821",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5552054",
@@ -1340,7 +1356,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2737-26-0005",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2737-26-0005",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A"
+    "hc_tier": "A",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5672950",
@@ -1358,7 +1378,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2331-26-0004",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2331-26-0004",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5606099",
@@ -1376,7 +1400,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0716",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0716",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5656155",
@@ -1394,7 +1422,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0812",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0812",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5660761",
@@ -1412,7 +1444,11 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0664-2",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9369-26-0664-2",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   },
   {
     "job_id": "nhs-5656323",
@@ -1430,6 +1466,10 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2332",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2332",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B"
+    "hc_tier": "B",
+    "advertiser_type": "",
+    "work_pattern": "",
+    "salary_period": "",
+    "posted_date_basis": "source"
   }
 ]
