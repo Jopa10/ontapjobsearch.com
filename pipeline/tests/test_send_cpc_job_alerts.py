@@ -270,6 +270,35 @@ class AgreedMatchingRulesTests(unittest.TestCase):
         self.assertTrue(matches_alert(self.attrs(ALERT_ROLE="Part-time Accounts Assistant"),
                                       self.job(title="Finance Assistant")))
 
+
+    def test_contract_duration_preserves_the_agreed_role_group(self):
+        # Published Leeds example: job 23643_225740595, £29–31k annually.
+        for title in (
+            "Finance Assistant - 12 Month Contract",
+            "Finance Assistant – 12-month FTC",
+            "Finance Assistant (6 months fixed-term contract)",
+            "12 Month Contract Finance Assistant",
+            "Finance Assistant - FTC",
+        ):
+            with self.subTest(title=title):
+                job = self.job(title=title, salary_text="£29000 - £31000 per year")
+                self.assertTrue(matches_alert(self.attrs(), job))
+                self.assertTrue(matches_alert(self.attrs(ALERT_ROLE=title),
+                                              self.job(title="Finance Assistant")))
+                self.assertFalse(matches_alert(self.attrs(ALERT_LOCATION="Bradford"), job))
+                self.assertFalse(matches_alert(self.attrs(ALERT_SALARY="£35-40k"), job))
+
+    def test_contract_qualifier_does_not_broaden_roles(self):
+        for title in (
+            "Senior Finance Assistant - 12 Month Contract",
+            "Finance Manager - 12 Month Contract",
+            "Finance Assistant / Bookkeeper - 12 Month Contract",
+            "Project Administrator - 12 Month Contract",
+            "Finance Assistant - 12 Month Contract Manager",
+        ):
+            with self.subTest(title=title):
+                self.assertFalse(matches_alert(self.attrs(), self.job(title=title)))
+
     def test_ledgers_are_one_group(self):
         self.assertTrue(matches_alert(self.attrs(ALERT_ROLE="Purchase Ledger Clerk"),
                                       self.job(title="Accounts Receivable Assistant")))

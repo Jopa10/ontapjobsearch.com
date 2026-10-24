@@ -7,6 +7,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 24 October 2026 — **Contract wording no longer hides equivalent alert roles:** the private matcher recognises Finance Assistant with a qualifier such as “12 Month Contract” as the same role. Role boundaries, location and salary rules remain intact; the daily sender has not been switched.
+
 - 24 October 2026 — **Tighter email matching prepared privately:** agreed equivalent job titles, exact town or explicitly chosen region, overlapping salary ranges and clearly labelled missing/non-comparable pay are implemented on the feature branch. Part-time comparisons use actual pay where supported, without assuming full-time hours. Unknown roles do not receive broad family alerts. Existing daily private delivery stays on its previously tested code until the new matcher is verified and deliberately adopted; no public rollout or job-selection change.
 
 - 22 October 2026 — **Private daily test runner prepared:** owner confirmed inbox receipt, correct matched vacancy and successful Python-email unsubscribe, then subscribed the same test address again. The private workflow now has a current-UTC-date delivery runner starting 23 October, restricted by the existing fixed-recipient/list/Preview-unsubscribe controls and last-sent-date guard. A ChatGPT daily task will rerun this pinned branch-only Actions job in the early afternoon; this is private-test orchestration, not a native GitHub scheduled workflow or production rollout. It fails closed if today's report is absent and never substitutes an older report. Production/main, automatic Git deployment settings and the list-wide sender remain unchanged.

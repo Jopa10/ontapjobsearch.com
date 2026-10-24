@@ -84,7 +84,13 @@ def _role_group(value: str) -> str | None:
     # Accept harmless contract/work-pattern adornments, not arbitrary specialist
     # prefixes (e.g. Linux Systems Administrator) or mixed-role combinations.
     title = normalise(value)
-    title = re.sub(r"\b(?:part time|full time|temporary|permanent|contract|fixed term|temp|hybrid|remote)\b", " ", title)
+    # Strip complete duration/contract qualifiers before individual work-pattern
+    # words, so "12 Month Contract" cannot leave unmatched duration tokens.
+    title = re.sub(
+        r"\b\d{1,2}\s*(?:months?|weeks?|years?)\s*(?:fixed term\s*)?(?:contract|ftc)\b",
+        " ", title,
+    )
+    title = re.sub(r"\b(?:part time|full time|temporary|permanent|contract|fixed term|ftc|temp|hybrid|remote)\b", " ", title)
     title = re.sub(r"\s+", " ", title).strip()
     direct = [group for group, titles in ROLE_GROUPS.items() if title in titles]
     if len(direct) == 1:
