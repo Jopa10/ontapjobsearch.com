@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       approval:
-        description: Type PUBLISH after review, or AUTOMATIC_FALLBACK for the unattended safety net
+        description: PUBLISH after review; PUBLISH_AVAILABLE to withhold unanswered jobs and republish clean inventory; AUTOMATIC_FALLBACK for the safety net
         required: true
         type: string
   schedule:
@@ -30,8 +30,8 @@ jobs:
         env:
           APPROVAL: ${{ inputs.approval }}
         run: |
-          if [ "$APPROVAL" != "PUBLISH" ] && [ "$APPROVAL" != "AUTOMATIC_FALLBACK" ]; then
-            echo "::error::Approval must be exactly PUBLISH or AUTOMATIC_FALLBACK."
+          if [ "$APPROVAL" != "PUBLISH" ] && [ "$APPROVAL" != "AUTOMATIC_FALLBACK" ] && [ "$APPROVAL" != "PUBLISH_AVAILABLE" ]; then
+            echo "::error::Approval must be exactly PUBLISH, PUBLISH_AVAILABLE or AUTOMATIC_FALLBACK."
             exit 1
           fi
 
@@ -48,6 +48,13 @@ jobs:
             echo "skip=false" >> "$GITHUB_OUTPUT"
             echo "unresolved_policy=quarantine" >> "$GITHUB_OUTPUT"
             echo "Manual PUBLISH mode selected."
+            exit 0
+          fi
+
+          if [ "$EVENT_NAME" = "workflow_dispatch" ] && [ "$APPROVAL" = "PUBLISH_AVAILABLE" ]; then
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+            echo "unresolved_policy=withhold" >> "$GITHUB_OUTPUT"
+            echo "Explicit PUBLISH_AVAILABLE mode: withhold unanswered jobs and republish clean inventory."
             exit 0
           fi
 
@@ -429,7 +436,7 @@ jobs:
             echo
             echo "The master review was reconciled against the latest committed source state before validation."
             if [ "${{ steps.mode.outputs.unresolved_policy }}" = "withhold" ]; then
-              echo "The 11:45 safety net ran because no successful manual publication was found today. Blank review jobs were withheld without becoming remembered exclusions; clean and automatic inventory continued."
+              echo "Withhold mode selected by explicit PUBLISH_AVAILABLE or the automatic safety net. Blank review jobs were withheld without becoming remembered exclusions; clean and automatic inventory continued."
             else
               echo "Up to 15 unresolved or malformed review actions per source were withheld fail-closed at job level and flagged; more than 15 isolates that source under the normal manual policy."
             fi
