@@ -59,7 +59,7 @@ from __future__ import annotations
 import csv
 import json
 import re
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from html import unescape
 from html.parser import HTMLParser
 from pathlib import Path
@@ -241,7 +241,64 @@ OUTPUT_FILES = {
 # Loaded from the Anchor_towns sheet in geo_lookup.xlsx during main().
 # No hard-coded fallback: missing or invalid configuration stops the pipeline.
 ANCHOR_TOWNS: dict[str, str] = {}
-SERVICE_ADMIN_HARD_SALARY_MAX_GBP = 55_000
+SERVICE_ADMIN_HARD_SALARY_MAX_GBP = 50_000
+
+# Owner-agreed title-specific salary review points. Values use the upper end of
+# the annualised salary range and override regional Service Admin review points.
+DOCUMENT_CONTROLLER_QUERY_GBP = 40_000
+DOCUMENT_CONTROLLER_HARD_MAX_GBP = 45_000
+COMMON_OFFICE_ROLE_QUERY_GBP = 40_000
+
+IMPORT_EXPORT_TITLE_RE = re.compile(r"\b(?:import|export)\b", re.IGNORECASE)
+IT_SUPPORT_TITLE_RE = re.compile(
+    r"\b(?:it\s+support|it\s+help\s*desk|help\s*desk|service\s+desk\s+analyst|"
+    r"product\s+support\s+analyst|software\s+(?:systems?\s+)?support|"
+    r"sap\s+(?:systems?\s+)?support)\b",
+    re.IGNORECASE,
+)
+SOFTWARE_IT_SUPPORT_RE = re.compile(
+    r"\b(?:sap|software|systems?)\b.{0,45}\b(?:it\s+support|technical\s+support|"
+    r"help\s*desk|service\s+desk|support\s+analyst|support\s+coordinator)\b"
+    r"|\b(?:it\s+support|technical\s+support|help\s*desk|service\s+desk)\b"
+    r".{0,45}\b(?:sap|software|systems?)\b",
+    re.IGNORECASE | re.DOTALL,
+)
+PART_TIME_MARKER_RE = re.compile(r"\bpart[- ]?time\b", re.IGNORECASE)
+PART_TIME_HOURS_RE = re.compile(
+    r"\b(?P<low>\d{1,2}(?:\.\d+)?)\s*(?:-|–|to)\s*"
+    r"(?P<high>\d{1,2}(?:\.\d+)?)\s*(?:hours?|hrs?)\s*(?:per|/)\s*week\b"
+    r"|\b(?P<single>\d{1,2}(?:\.\d+)?)\s*(?:hours?|hrs?)\s*(?:per|/)\s*week\b",
+    re.IGNORECASE,
+)
+FINANCE_PART_TIME_TITLE_RE = re.compile(
+    r"\b(?:finance|financial|accounts?|accounting|accountant|bookkeep(?:er|ing)|"
+    r"payroll|ledger|credit\s+control(?:ler)?|billing|invoic(?:e|ing))\b",
+    re.IGNORECASE,
+)
+PART_TIME_ALWAYS_EXCLUDE_TITLE_RE = re.compile(
+    r"\b(?:director|head|tax|audit|investment|advis(?:er|or)|consultant|paraplanner)\b",
+    re.IGNORECASE,
+)
+PART_TIME_FTE_SALARY_RE = re.compile(
+    r"\b(?:full[- ]time equivalent|FTE|pro[- ]?rata)\b", re.IGNORECASE
+)
+LANGUAGE_REQUIRED_TITLE_RE = re.compile(
+    r"\bbilingual\b|\b(?:french|german|italian|spanish|mandarin|cantonese|arabic|"
+    r"polish|portuguese|dutch|welsh|russian|ukrainian|hindi|japanese|swedish|"
+    r"norwegian|danish|finnish|greek|turkish|bilingual)[- ](?:speaking|speaker)\b",
+    re.IGNORECASE,
+)
+LANGUAGE_REQUIRED_DESCRIPTION_RE = re.compile(
+    r"\b(?:must|required|essential|fluent|fluency|native|bilingual)\b.{0,100}"
+    r"\b(?:french|german|italian|spanish|mandarin|cantonese|arabic|"
+    r"polish|portuguese|dutch|welsh|russian|ukrainian|hindi|japanese|swedish|"
+    r"norwegian|danish|finnish|greek|turkish)\b"
+    r"|\b(?:french|german|italian|spanish|mandarin|cantonese|arabic|"
+    r"polish|portuguese|dutch|welsh|russian|ukrainian|hindi|japanese|swedish|"
+    r"norwegian|danish|finnish|greek|turkish)\b.{0,100}"
+    r"\b(?:must|required|essential|fluent|fluency|native|bilingual)\b",
+    re.IGNORECASE | re.DOTALL,
+)
 
 PUBLISH_THRESHOLDS = {
     "Yorkshire - West": 6,
@@ -1640,7 +1697,109 @@ def absolute_hard_fail_hits(title_key: str) -> list[str]:
         title_key, "first notification of loss"
     ):
         hits = [pattern for pattern in hits if pattern != "claims handler"]
+    if IT_SUPPORT_TITLE_RE.search(title_key):
+        hits.append("IT/software support title")
+    if IMPORT_EXPORT_TITLE_RE.search(title_key):
+        hits.append("import/export named in title")
+    if LANGUAGE_REQUIRED_TITLE_RE.search(title_key):
+        hits.append("explicit language requirement in title")
     return hits
+
+
+def owner_title_salary_rule(
+    title: str, annual_upper_gbp: float | None
+) -> tuple[str | None, str | None, str | None]:
+    """Return (status, reason, hard-fail reason) for agreed title/pay rules."""
+    title_key = normalise_title_for_register(title)
+    if re.search(r"\bdocument\s+controller\b", title_key):
+        if annual_upper_gbp is None:
+            return "review", "Document Controller salary is unavailable or unclear", None
+        if annual_upper_gbp > DOCUMENT_CONTROLLER_HARD_MAX_GBP:
+            return "exclude", None, "Document Controller salary over £45k"
+        if annual_upper_gbp > DOCUMENT_CONTROLLER_QUERY_GBP:
+            return "review", "Document Controller salary over £40k", None
+        return "ok", "Document Controller salary at or below £40k", None
+    if (
+        annual_upper_gbp is not None
+        and annual_upper_gbp > SERVICE_ADMIN_HARD_SALARY_MAX_GBP
+    ):
+        return "exclude", None, "salary over £50k"
+    if re.search(
+        r"\b(?:assistant\s+(?:management\s+)?accountant|"
+        r"management\s+accountant\s+assistant|bookkeeper|bookkeeping)\b",
+        title_key,
+    ):
+        role = "Assistant Accountant/Bookkeeper"
+        if annual_upper_gbp is None:
+            return "review", f"{role} salary is unavailable or unclear", None
+        if annual_upper_gbp > COMMON_OFFICE_ROLE_QUERY_GBP:
+            return "review", f"{role} salary over £40k", None
+        return "ok", f"{role} salary at or below £40k", None
+    if re.search(r"\breceptionist\b", title_key):
+        if annual_upper_gbp is None:
+            return "review", "Receptionist salary is unavailable or unclear", None
+        if annual_upper_gbp > COMMON_OFFICE_ROLE_QUERY_GBP:
+            return "review", "Receptionist salary over £40k", None
+        return "ok", "Receptionist salary at or below £40k", None
+    return None, None, None
+
+
+def assess_part_time_finance(
+    *,
+    title: str,
+    employment_type: str,
+    description: str,
+    salary_period: str,
+    salary_text: str,
+    salary_assessment: Any,
+) -> tuple[bool, str, float | None, str]:
+    """Apply the explicit part-time finance exception using actual earnings.
+
+    Hourly rates are annualised using stated weekly hours. Annual FTE/pro-rata
+    ranges are reduced by the stated hours against a 37.5-hour week. When part-
+    time status, hours or earnings cannot be established, return review.
+    """
+    title_key = normalise_title_for_register(title)
+    text = " ".join((employment_type or "", description or ""))
+    hour_match = PART_TIME_HOURS_RE.search(text)
+    stated_hours: float | None = None
+    if hour_match:
+        stated_hours = float(hour_match.group("high") or hour_match.group("single"))
+    elif PART_TIME_HOURS_RE.search(title):
+        title_hours = PART_TIME_HOURS_RE.search(title)
+        stated_hours = float(title_hours.group("high") or title_hours.group("single"))
+
+    explicitly_part_time = bool(PART_TIME_MARKER_RE.search(title + " " + text))
+    if stated_hours is not None and stated_hours < 37.5:
+        explicitly_part_time = True
+    if not explicitly_part_time or not FINANCE_PART_TIME_TITLE_RE.search(title):
+        return False, "", salary_assessment.annual_upper_gbp, ""
+
+    if PART_TIME_ALWAYS_EXCLUDE_TITLE_RE.search(title_key):
+        return True, "exclude", salary_assessment.annual_upper_gbp, "director/head or specialist finance work"
+
+    if stated_hours is None or stated_hours <= 0 or stated_hours > 168:
+        return True, "review", None, "part-time hours are unclear"
+    annual_upper = salary_assessment.annual_upper_gbp
+    if annual_upper is None:
+        return True, "review", None, "part-time earnings are unclear"
+
+    # assess_salary annualises hourly pay on a 37.5-hour week. Correct that to
+    # the advertised part-time hours; annual FTE/pro-rata salary ranges use the
+    # same hours ratio, while a stated actual annual salary is already correct.
+    salary_basis = f"{salary_period} {salary_text}".casefold()
+    if re.search(r"\b(?:hour|hourly|hr|per\s+hour|/\s*hour)\b", salary_basis):
+        annual_upper *= stated_hours / 37.5
+    elif re.search(r"\b(?:day|daily|per\s+day)\b", salary_basis):
+        annual_upper *= stated_hours / 37.5
+    elif PART_TIME_FTE_SALARY_RE.search(description):
+        annual_upper *= stated_hours / 37.5
+
+    if annual_upper > 50_000:
+        return True, "exclude", annual_upper, "actual part-time annual earnings over £50k"
+    if annual_upper > 40_000:
+        return True, "review", annual_upper, "actual part-time annual earnings over £40k"
+    return True, "ok", annual_upper, "actual part-time annual earnings at or below £40k"
 
 
 def classify_title(title: str, title_register: dict[str, dict[str, str]] | None = None) -> tuple[str, str, int, str]:
@@ -1860,6 +2019,60 @@ def _process_batch(
             family="admin_service",
             reviewed_ceiling_gbp=reviewed_salary_ceiling,
         )
+        part_time_active, part_time_status, part_time_annual_upper, part_time_reason = (
+            assess_part_time_finance(
+                title=title,
+                employment_type=employment_type,
+                description=raw_description,
+                salary_period=normalise_salary_period(row),
+                salary_text=salary_text_preview,
+                salary_assessment=salary_assessment,
+            )
+        )
+        part_time_hard_fail = (
+            part_time_reason
+            if part_time_active and part_time_status == "exclude"
+            else None
+        )
+        if part_time_active:
+            salary_assessment = replace(
+                salary_assessment,
+                status=part_time_status,
+                annual_upper_gbp=part_time_annual_upper,
+                review_threshold_gbp=40_000.0,
+                reason=part_time_reason,
+            )
+            # The part-time owner rule overrides ordinary senior/manager/title
+            # exclusions, while absolute IT/import-export/language barriers and
+            # director/head/specialist exclusions continue to apply.
+            if (
+                part_time_status in {"ok", "review"}
+                and title_classification in {
+                    "HARD_PASS", "OUT_OF_SCOPE", "REVIEW_CONTEXT_DEPENDENT"
+                }
+                and not absolute_hard_fail_hits(normalise_title_for_register(title))
+                and not PART_TIME_ALWAYS_EXCLUDE_TITLE_RE.search(title)
+            ):
+                title_classification = "HIGH_CONFIDENCE"
+                title_priority = CLASSIFICATION_PRIORITY[title_classification]
+                title_classification_reason = "explicit part-time finance role rule"
+        owner_salary_status, owner_salary_reason, owner_salary_hard_fail = (
+            (None, None, None)
+            if part_time_active
+            else owner_title_salary_rule(title, salary_assessment.annual_upper_gbp)
+        )
+        if owner_salary_status:
+            owner_threshold = (
+                DOCUMENT_CONTROLLER_QUERY_GBP
+                if re.search(r"\bdocument\s+controller\b", normalise_title_for_register(title))
+                else COMMON_OFFICE_ROLE_QUERY_GBP
+            )
+            salary_assessment = replace(
+                salary_assessment,
+                status=owner_salary_status,
+                review_threshold_gbp=float(owner_threshold),
+                reason=owner_salary_reason or owner_salary_hard_fail or salary_assessment.reason,
+            )
         salary_review_status = salary_assessment.status
         annual_salary_upper = (
             round(salary_assessment.annual_upper_gbp, 2)
@@ -1874,6 +2087,12 @@ def _process_batch(
         if salary_assessment.corrupt:
             drop("salary credibility: " + salary_assessment.reason, region)
             continue
+        if owner_salary_hard_fail and manual_override != "FORCE_INCLUDE":
+            drop(owner_salary_hard_fail, region)
+            continue
+        if part_time_hard_fail:
+            drop(part_time_hard_fail, region)
+            continue
         if (
             salary_assessment.annual_upper_gbp is not None
             and salary_assessment.annual_upper_gbp > SERVICE_ADMIN_HARD_SALARY_MAX_GBP
@@ -1887,6 +2106,22 @@ def _process_batch(
 
         if title_classification in {"HARD_PASS", "OUT_OF_SCOPE"}:
             drop("title classification: " + title_classification + " - " + title_classification_reason, region)
+            continue
+        if (
+            (
+                LANGUAGE_REQUIRED_DESCRIPTION_RE.search(raw_description)
+                or (
+                    re.search(r"\b(?:sap|software|systems?)\b", title, re.IGNORECASE)
+                    and SOFTWARE_IT_SUPPORT_RE.search(raw_description)
+                )
+            )
+        ):
+            reason = (
+                "explicit language requirement in advert"
+                if LANGUAGE_REQUIRED_DESCRIPTION_RE.search(raw_description)
+                else "software/SAP role is explicitly IT support in advert"
+            )
+            drop(reason, region)
             continue
 
         context_assessment = assess_context_policy(context_policy, raw_description)
