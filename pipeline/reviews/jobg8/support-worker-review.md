@@ -137,6 +137,12 @@ job_id: 23643_225737488
 
 ---
 action:
+SELECTED | Sussex | Sussex | £15.5 per hour | Care Assistant - Care Home
+job_id: 23643_225739546
+---
+
+---
+action:
 SELECTED | Sussex | Brighton | £14 - £16 per hour | Support Worker
 job_id: 23643_222307132
 ---
@@ -173,14 +179,14 @@ job_id: 23643_225751206
 
 ---
 action:
-SELECTED | Sussex | Sussex | £17.15 per hour | Care Assistant - Bank - Care Home
-job_id: 23643_225718800
+SELECTED | Sussex | Hailsham | £13.39 per hour | Care Assistant
+job_id: 23643_225761986
 ---
 
 ---
 action:
-SELECTED | Sussex | Hailsham | £13.39 per hour | Care Assistant
-job_id: 23643_225649923
+SELECTED | Sussex | Sussex | £14.5 per hour | Night Care Assistant
+job_id: 23643_225440444
 ---
 
 ## SUSSEX — POSSIBLES
@@ -189,7 +195,11 @@ _No jobs in this group._
 
 ## CUMBRIA SOUTH — SELECTED
 
-_No jobs in this group._
+---
+action:
+SELECTED | Cumbria - South | Barrow-in-furness | £12.85 per hour (plus rolled up holiday pay) | Relief Support Worker
+job_id: 108215280
+---
 
 ## CUMBRIA SOUTH — POSSIBLES
 
@@ -525,12 +535,6 @@ job_id: 2145640
 
 ---
 action:
-SELECTED | London | Bromley | £30,784.00 per annum | Support Worker
-job_id: 2145616
----
-
----
-action:
 SELECTED | London | London | £14 per hour | Support Worker
 job_id: 23643_225691357
 ---
@@ -561,11 +565,7 @@ job_id: 2174176
 
 ## LONDON — POSSIBLES
 
----
-action:
-POSS - LONDON | London | Brent | £125 - £185 per daily | Calling all Youth Workers, Sports Coaches, Support Workers (MUST HOLD
-job_id: 23643_225653649
----
+_No jobs in this group._
 
 ## OXFORDSHIRE — SELECTED
 
