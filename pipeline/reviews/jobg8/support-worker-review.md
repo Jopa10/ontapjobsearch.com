@@ -1,6 +1,6 @@
 # Support-worker manual review
 
-feed_date: 2026-10-23
+feed_date: 2026-10-24
 
 Edit only the `action:` line in each block:
 
@@ -143,6 +143,12 @@ job_id: 23643_222307132
 
 ---
 action:
+SELECTED | Sussex | Sussex | £15.79 per hour | Night Care Assistant
+job_id: 23643_225745175
+---
+
+---
+action:
 SELECTED | Sussex | Worthing | £14 - £15.5 per hour | Healthcare Assistant
 job_id: 23643_225750767
 ---
@@ -161,12 +167,6 @@ job_id: 108179728
 
 ---
 action:
-SELECTED | Sussex | Sussex | £14.5 per hour | Night Care Assistant
-job_id: 23643_225440444
----
-
----
-action:
 SELECTED | Sussex | Sussex | £13.21 per hour | Night Care Assistant
 job_id: 23643_225751206
 ---
@@ -175,6 +175,12 @@ job_id: 23643_225751206
 action:
 SELECTED | Sussex | Sussex | £17.15 per hour | Care Assistant - Bank - Care Home
 job_id: 23643_225718800
+---
+
+---
+action:
+SELECTED | Sussex | Hailsham | £13.39 per hour | Care Assistant
+job_id: 23643_225649923
 ---
 
 ## SUSSEX — POSSIBLES
@@ -194,12 +200,6 @@ job_id: 23643_225712948
 ---
 
 ## HAMPSHIRE — SELECTED
-
----
-action:
-SELECTED | Hampshire | Colden Common | £27500 per year | Therapeutic Children's Support Worker
-job_id: 23643_225653471
----
 
 ---
 action:
@@ -318,12 +318,6 @@ job_id: 23643_223337598
 _No jobs in this group._
 
 ## LONDON — SELECTED
-
----
-action:
-SELECTED | London | City | £14.1 - £14.2 per hour | Family & Community Support Worker
-job_id: 23643_225650968
----
 
 ---
 action:
@@ -561,19 +555,17 @@ job_id: 2160807
 
 ---
 action:
-SELECTED | London | London | £14.80 per hour | Support Worker
-job_id: 2160768
----
-
----
-action:
 SELECTED | London | London | £27,823 per annum | Support Workers- Semi Independent Services
 job_id: 2174176
 ---
 
 ## LONDON — POSSIBLES
 
-_No jobs in this group._
+---
+action:
+POSS - LONDON | London | Brent | £125 - £185 per daily | Calling all Youth Workers, Sports Coaches, Support Workers (MUST HOLD
+job_id: 23643_225653649
+---
 
 ## OXFORDSHIRE — SELECTED
 
