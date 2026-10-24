@@ -60,7 +60,7 @@ class ServiceAdminOwnerSelectionRuleTests(unittest.TestCase):
         self.assertIn("dc40", jobs)
         self.assertEqual("", jobs["dc40"]["_review_required"])
         self.assertIn("dc42", jobs)
-        self.assertEqual("1", jobs["dc42"]["_review_required"])
+        self.assertEqual("", jobs["dc42"]["_review_required"])
         self.assertNotIn("dc46", jobs)
         self.assertIn("over £45k", reports["dc46"]["reason"])
         self.assertIn("dc-unknown", jobs)

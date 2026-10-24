@@ -245,7 +245,7 @@ SERVICE_ADMIN_HARD_SALARY_MAX_GBP = 50_000
 
 # Owner-agreed title-specific salary review points. Values use the upper end of
 # the annualised salary range and override regional Service Admin review points.
-DOCUMENT_CONTROLLER_QUERY_GBP = 40_000
+DOCUMENT_CONTROLLER_QUERY_GBP = 45_000
 DOCUMENT_CONTROLLER_HARD_MAX_GBP = 45_000
 COMMON_OFFICE_ROLE_QUERY_GBP = 40_000
 
@@ -337,6 +337,7 @@ HARD_PASS_PATTERNS = [
     "business development", "account manager", "sales consultant", "telesales", "estate agent",
 
     # Agreed specialist-function and seniority barriers.
+    "lead", "leader", "chief", "director", "head",
     "senior", "manager", "legal", "paralegal", "solicitor", "fee earner", "fee-earner", "pensions", "pension ", "ifa ", "wealth",
     "financial planning", "financial planner", "finance administrator", "credit administrator", "loan administrator",
     "paraplanner", "paraplanning", "para-planner", "para-planning", "para planner", "para planning",
@@ -351,6 +352,7 @@ HARD_PASS_PATTERNS = [
 # The planner patterns target town planning and specialist operational planning;
 # they deliberately do not match Planning Administrator or planning coordinators.
 ABSOLUTE_HARD_FAIL_PATTERNS = [
+    "asset management coordinator", "salesforce administrator",
     "town planner", "town planning",
     "supply chain planner", "supply planner", "demand planner", "asset planner", "traffic planner",
     "linux",
@@ -1717,8 +1719,8 @@ def owner_title_salary_rule(
         if annual_upper_gbp > DOCUMENT_CONTROLLER_HARD_MAX_GBP:
             return "exclude", None, "Document Controller salary over £45k"
         if annual_upper_gbp > DOCUMENT_CONTROLLER_QUERY_GBP:
-            return "review", "Document Controller salary over £40k", None
-        return "ok", "Document Controller salary at or below £40k", None
+            return "review", "Document Controller salary over £45k", None
+        return "ok", "Document Controller salary at or below £45k", None
     if (
         annual_upper_gbp is not None
         and annual_upper_gbp > SERVICE_ADMIN_HARD_SALARY_MAX_GBP
@@ -1726,10 +1728,10 @@ def owner_title_salary_rule(
         return "exclude", None, "salary over £50k"
     if re.search(
         r"\b(?:assistant\s+(?:management\s+)?accountant|"
-        r"management\s+accountant\s+assistant|bookkeeper|bookkeeping)\b",
+        r"management\s+accountant\s+assistant|bookkeeper|bookkeeping|finance\s+assistant|finance\s+officer|service\s+advis(?:or|er)|project\s+coordinator|hr\s+coordinator|administrator)\b",
         title_key,
     ):
-        role = "Assistant Accountant/Bookkeeper"
+        role = "Office/finance role"
         if annual_upper_gbp is None:
             return "review", f"{role} salary is unavailable or unclear", None
         if annual_upper_gbp > COMMON_OFFICE_ROLE_QUERY_GBP:
@@ -1859,6 +1861,9 @@ def classify_title(title: str, title_register: dict[str, dict[str, str]] | None 
         if classification not in CLASSIFICATION_PRIORITY:
             classification = "REVIEW_CONTEXT_DEPENDENT"
         return classification, "title register: " + reason, CLASSIFICATION_PRIORITY[classification], review_status
+
+    if title_key in {"service advisor", "service adviser", "project coordinator", "hr coordinator", "finance assistant", "finance officer"}:
+        return "HIGH_CONFIDENCE", "owner-approved ordinary office role", CLASSIFICATION_PRIORITY["HIGH_CONFIDENCE"], "STABLE"
 
     if title_key in REVIEW_CONTEXT_DEPENDENT_TITLES:
         classification = "REVIEW_CONTEXT_DEPENDENT"

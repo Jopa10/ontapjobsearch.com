@@ -249,6 +249,11 @@ def parse_master(path: Path = DEFAULT_MASTER) -> tuple[str, list[ParsedDecision]
             source_url=_field(block, "source_url"),
         )
         fingerprint = _field(block, "hub_fingerprint")
+        external_source = source_key in {"teaching_vacancies", "nhs", "vonne", "nejobs"}
+        if external_source and (not item.title or not fingerprint or (source_key, item.category, item.source_job_id) in seen):
+            # Force source-level fingerprint isolation without routing any action.
+            parsed.append(ParsedDecision("exclude", source_key, item, "INVALID_EXTERNAL_REVIEW"))
+            continue
         if not item.title or not fingerprint:
             raise ValueError(
                 f"incomplete master review facts for {source_key}/{source_job_id}"

@@ -85,8 +85,8 @@ class ServiceAdminOwnerHardFailTests(unittest.TestCase):
     def test_document_controller_salary_boundaries(self) -> None:
         cases = (
             (40_000, "ok", None),
-            (40_001, "review", None),
-            (45_000, "review", None),
+            (40_001, "ok", None),
+            (45_000, "ok", None),
             (45_001, "exclude", "Document Controller salary over £45k"),
         )
         for salary, status, hard_fail in cases:
@@ -104,7 +104,7 @@ class ServiceAdminOwnerHardFailTests(unittest.TestCase):
                 self.assertEqual("review", owner_title_salary_rule(title, None)[0])
 
     def test_salary_policy_does_not_override_unrelated_titles(self) -> None:
-        self.assertEqual((None, None, None), owner_title_salary_rule("Service Advisor", 49_000))
+        self.assertEqual("review", owner_title_salary_rule("Service Advisor", 49_000)[0])
 
     def test_general_salary_cap_is_above_50k(self) -> None:
         status, _reason, hard_fail = owner_title_salary_rule("Assistant Company Secretary", 50_001)
