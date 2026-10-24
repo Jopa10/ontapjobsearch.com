@@ -4,7 +4,7 @@
 - Live route: `/brighton-hove/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 11
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 11
-- automatic review: 76
+- automatic include: 10
+- automatic review: 77
 - automatic exclude: 31
-- effective include: 11
-- effective review: 76
+- effective include: 10
+- effective review: 77
 - effective exclude: 31
 
-## INCLUDE (11)
+## INCLUDE (10)
 
 ---
 action: 
@@ -57,18 +57,6 @@ company: Michael Page Finance - Agency - Permanent
 location: Brighton
 source: JobG8
 job_id: jobg8-2045548
-reason: Approved Brighton & Hove catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Document Controller
-company: Tradeline Recruitment - Agency - Permanent
-location: Brighton
-source: JobG8
-job_id: jobg8-23643_225488297
 reason: Approved Brighton & Hove catchment.
 ---
 
@@ -156,7 +144,7 @@ job_id: nhs-5667013
 reason: Approved Brighton & Hove catchment.
 ---
 
-## REVIEW (76)
+## REVIEW (77)
 
 ---
 action: 
@@ -659,6 +647,18 @@ company: The Law Support Group - Agency - Permanent
 location: Sussex
 source: JobG8
 job_id: jobg8-2178985
+reason: Broad location; review before city inclusion.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Management Accountant
+company: First Recruitment Services - Agency - Temporary
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225709715
 reason: Broad location; review before city inclusion.
 ---
 
@@ -1196,6 +1196,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Accounts Payable
+company: CMA Recruitment Group - Agency - Permanent
+location: Chichester
+source: JobG8
+job_id: jobg8-23643_225684878
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Admin Assistant
 company: Sussex Partnership NHS Foundation Trust
 location: Eastbourne, BN21 3UU
@@ -1273,18 +1285,6 @@ company: Rhodium Consulting - Agency - Permanent
 location: Crawley
 source: JobG8
 job_id: jobg8-23643_225747946
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Document Controller (Construction)
-company: Skilled Careers - Agency - Permanent
-location: Worthing
-source: JobG8
-job_id: jobg8-23643_225716566
 reason: Separate employment market.
 ---
 

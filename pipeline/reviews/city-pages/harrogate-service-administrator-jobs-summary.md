@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 11
 - automatic review: 17
-- automatic exclude: 36
+- automatic exclude: 35
 - effective include: 11
 - effective review: 17
-- effective exclude: 36
+- effective exclude: 35
 
 ## INCLUDE (11)
 
@@ -362,7 +362,7 @@ job_id: jobg8-23643_225666115
 reason: No approved Harrogate employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (36)
+## EXCLUDE (35)
 
 ---
 action: 
@@ -657,20 +657,8 @@ action:
 decision: exclude
 automatic_decision: exclude
 title: Part Time Finance Assistant
-company: Hays Accounts and Finance - Agency - Temporary
-location: York
-source: JobG8
-job_id: jobg8-23643_225696188
-reason: The stated workplace belongs outside the approved Harrogate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Part Time Finance Assistant
 company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: York
+location: Yorkshire
 source: JobG8
 job_id: jobg8-2087398
 reason: The stated workplace belongs outside the approved Harrogate employment market.

@@ -656,18 +656,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: French and German speaking Order Management Coordinator
-company: French Selection - Agency - Permanent
-location: Huntingdon
-source: JobG8
-job_id: jobg8-23643_225716483
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: HR Administrator
 company: Interaction Recruitment - Agency - Temporary
 location: Peterborough
@@ -733,6 +721,18 @@ company: Dr Laliwala and Partners
 location: Peterborough, PE1 4FS
 source: NHS Jobs
 job_id: nhs-5668718
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Part-Time Senior Accountant
+company: Blusource Professional Services Ltd - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225660845
 reason: Separate employment market.
 ---
 

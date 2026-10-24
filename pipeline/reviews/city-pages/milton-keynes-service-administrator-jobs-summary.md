@@ -4,7 +4,7 @@
 - Live route: `/milton-keynes/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 20
+- Effective included jobs: 19
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 20
-- automatic review: 60
+- automatic include: 19
+- automatic review: 61
 - automatic exclude: 0
-- effective include: 20
-- effective review: 60
+- effective include: 19
+- effective review: 61
 - effective exclude: 0
 
-## INCLUDE (20)
+## INCLUDE (19)
 
 ---
 action: 
@@ -129,18 +129,6 @@ company: Bletchley Park Trust Limited - Agency - Permanent
 location: Milton Keynes
 source: JobG8
 job_id: jobg8-23643_225747350
-reason: Exact approved Milton Keynes workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Import & Export Administrator
-company: Insight Employment - Agency - Permanent
-location: Milton Keynes
-source: JobG8
-job_id: jobg8-23643_225501536
 reason: Exact approved Milton Keynes workplace.
 ---
 
@@ -264,7 +252,7 @@ job_id: jobg8-2169089
 reason: Exact approved Milton Keynes workplace.
 ---
 
-## REVIEW (60)
+## REVIEW (61)
 
 ---
 action: 
@@ -635,6 +623,18 @@ company: Chesham Grammar School
 location: Chesham
 source: Teaching Vacancies
 job_id: teaching-vacancies-development-administrator
+reason: No exact Milton Keynes workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Document Controller
+company: Envelis Limited - Agency - Permanent
+location: Buckinghamshire
+source: JobG8
+job_id: jobg8-23643_225745809
 reason: No exact Milton Keynes workplace matched; local geographic review is required.
 ---
 

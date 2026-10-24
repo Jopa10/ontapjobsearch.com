@@ -44,7 +44,6 @@ review,jobg8-2163776,Marketing Assistant Asda Money & Mobile,ASDA - Company - Pe
 review,jobg8-2042141,Marketing Executive,pyramid8 - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Bradford catchment rule matched; local review required.,fallback,bradford-service-administrator-jobs
 review,jobg8-2045800,Marketing Executive (Luxury Spa & Sauna's),Ernest Gordon Recruitment Limited - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Bradford catchment rule matched; local review required.,fallback,bradford-service-administrator-jobs
 review,jobg8-23643_225734433,Office Administrator,West Riding Recruitment - Agency - Permanent,Ossett,JobG8,review,review,No approved Bradford catchment rule matched; local review required.,fallback,bradford-service-administrator-jobs
-review,jobg8-2057961,Part-Time Accounts Clerk,Equals One - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Bradford catchment rule matched; local review required.,fallback,bradford-service-administrator-jobs
 review,jobg8-2075306,Personal Injury Paralegal,CRA Consulting - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Bradford catchment rule matched; local review required.,fallback,bradford-service-administrator-jobs
 review,jobg8-23643_225738529,Project Coordinator,Lucy Walker Recruitment - Agency - Temporary,Castleford,JobG8,review,review,No approved Bradford catchment rule matched; local review required.,fallback,bradford-service-administrator-jobs
 review,jobg8-2165855,Purchase Ledger Clerk,PRATAP PARTNERSHIP LTD - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Bradford catchment rule matched; local review required.,fallback,bradford-service-administrator-jobs
@@ -116,6 +115,7 @@ exclude,jobg8-23643_225655460,Insurance Administrator,Get-Recruited (UK) Ltd - A
 exclude,jobg8-23643_225703687,Interim Finance Assistant,Hamilton Woods - Agency - Temporary,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
 exclude,jobg8-23643_225757873,Internal Sales Coordinator,Huntress - Leeds - Agency - Permanent,Batley,JobG8,exclude,exclude,Separate employment market.,context:leeds,bradford-service-administrator-jobs
 exclude,jobg8-23643_225710102,Internal Sales Executive,TDRS - Agency - Permanent,Huddersfield,JobG8,exclude,exclude,Separate employment market.,huddersfield,bradford-service-administrator-jobs
+exclude,jobg8-23643_225664054,Key Account Manager,Huntress - Leeds - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
 exclude,jobg8-23643_225739622,Legal PA,Lucy Walker Recruitment - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
 exclude,jobg8-2155893,Legal Secretary - Care Department - Huddersfield,qed legal - Agency - Permanent,Huddersfield,JobG8,exclude,exclude,Separate employment market.,huddersfield,bradford-service-administrator-jobs
 exclude,jobg8-23643_225663734,Marketing Executive (Luxury Spa & Sauna's),Ernest Gordon Recruitment Limited - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
@@ -131,7 +131,7 @@ exclude,jobg8-23643_225696913,Office Coordinator,Lucy Walker Recruitment - Agenc
 exclude,jobg8-23643_225668368,Outbound Sales Executive,Snowflake Media Ltd - Agency - Permanent,Halifax,JobG8,exclude,exclude,Separate employment market.,halifax,bradford-service-administrator-jobs
 exclude,jobg8-23643_225726658,Paid Media Manager,Michael Page - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
 exclude,jobg8-2042757,Paralegal - Real Estate & Projects - Hybrid working,CRA Consulting - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
-exclude,jobg8-2064618,Part- Time Accounts Administrator,Reed - Agency - Permanent,Wakefield,JobG8,exclude,exclude,Separate employment market.,wakefield,bradford-service-administrator-jobs
+exclude,jobg8-2057961,Part-Time Accounts Clerk,Equals One - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
 exclude,jobg8-23643_225757815,Payroll Administrator,Portfolio Payroll Limited - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
 exclude,jobg8-2053116,Payroll Assistant,Michael Page Finance - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs
 exclude,jobg8-2087152,Payroll Coordinator,IMPRESSION RECRUITMENT LIMITED - Agency - Permanent,Leeds,JobG8,exclude,exclude,Separate employment market.,leeds,bradford-service-administrator-jobs

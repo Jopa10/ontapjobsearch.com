@@ -1,7 +1,6 @@
 decision,job_id,title,company,location,source,automatic_decision,effective_decision,reason,matched_rule,city_key
 include,jobg8-23643_225722424,Accounts Payable,SF Partners - Agency - Contract,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 include,teaching-vacancies-administrative-assistant-finham-park-2,Administrative Assistant,Finham Park 2,Coventry,Teaching Vacancies,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
-include,jobg8-23643_225702322,Bookkeeper,Bennett and Game Recruitment LTD - Agency - Permanent,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 include,jobg8-2155838,Conveyancing Paralegal,Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 include,jobg8-23643_225717657,Facilities and Maintenance Administrator,EA First - Agency - Temporary,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
 include,jobg8-2067815,Marketing Executive,Workstreet - Agency - Permanent,Coventry,JobG8,include,include,Approved Coventry catchment.,coventry,coventry-service-administrator-jobs
@@ -50,7 +49,6 @@ exclude,jobg8-23643_225485953,Customer Service Advisor,SVB Solutions - Agency - 
 exclude,jobg8-23643_225675173,Customer Service Advisor - FULL TIME,Adecco - Agency - Permanent,Warwick,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-23643_225676671,Customer Service Coordinator,Approach Personnel Ltd - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-23643_225709208,Document Controller,RTL Group Ltd - Agency - Contract,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
-exclude,jobg8-23643_225640022,Document Controller,Stepnell Ltd - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-23643_225709181,Employment Law Secretary or Paralegal,Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent,Leamington Spa,JobG8,exclude,exclude,Separate employment market.,leamington,coventry-service-administrator-jobs
 exclude,jobg8-23643_225674948,Finance Assistant,Opus People Solutions Ltd - Agency - Temporary,Rugby,JobG8,exclude,exclude,Separate employment market.,rugby,coventry-service-administrator-jobs
 exclude,jobg8-2093212,Finance Assistant,ROSE & YOUNG RECRUITMENT LTD - Agency - Permanent,Rugby,JobG8,exclude,exclude,Separate employment market.,rugby,coventry-service-administrator-jobs
@@ -58,6 +56,7 @@ exclude,jobg8-23643_225660466,Finance Assistant,SF Partners - Agency - Temporary
 exclude,jobg8-23643_225658597,Finance Assistant,The Caraires Consultancy - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-23643_225712720,Finance Assistant,The Shakespeare Hospice - Agency - Permanent,Stratford-Upon-Avon,JobG8,exclude,exclude,Separate employment market.,stratford-upon-avon,coventry-service-administrator-jobs
 exclude,jobg8-23643_225756261,Finance Assistant,thefutureworks - Agency - Temporary,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
+exclude,jobg8-2138590,Finance Manager,Life 2009 - Agency - Permanent,Warwickshire,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs
 exclude,jobg8-23643_225707345,Front of House Administrator,Valpak Limited - Agency - Temporary,Stratford-Upon-Avon,JobG8,exclude,exclude,Separate employment market.,stratford-upon-avon,coventry-service-administrator-jobs
 exclude,nhs-5656280,GP Surgery Receptionist,Station Street Surgery,"Nuneaton, CV11 6HH",NHS Jobs,exclude,exclude,Separate employment market.,nuneaton,coventry-service-administrator-jobs
 exclude,jobg8-23643_220696281,HR Assistant,Auctoro Recruitment - Agency - Permanent,Warwick,JobG8,exclude,exclude,Separate employment market.,warwick,coventry-service-administrator-jobs

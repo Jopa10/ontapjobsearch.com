@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 36
+- automatic review: 34
 - automatic exclude: 45
 - effective include: 10
-- effective review: 36
+- effective review: 34
 - effective exclude: 45
 
 ## INCLUDE (10)
@@ -144,7 +144,19 @@ job_id: teaching-vacancies-student-receptionist-and-pastoral-assistant-cheney-sc
 reason: Approved conservative Oxford launch catchment.
 ---
 
-## REVIEW (36)
+## REVIEW (34)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Technician (Full or Part Time)
+company: Infinity Recruitment Consultancy Limited - Agency - Permanent
+location: Banbury
+source: JobG8
+job_id: jobg8-23643_225710819
+reason: No approved Oxford catchment rule matched; local review required.
+---
 
 ---
 action: 
@@ -179,18 +191,6 @@ company: BRELLIS RECRUITMENT LIMITED - Agency - Permanent
 location: Banbury
 source: JobG8
 job_id: jobg8-2048450
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Management Accountant
-company: Thomas Franks Ltd - Agency - Permanent
-location: Hook Norton
-source: JobG8
-job_id: jobg8-2043202
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 
@@ -299,30 +299,6 @@ company: Robert Half - Agency - Permanent
 location: Wantage
 source: JobG8
 job_id: jobg8-2062741
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: French speaking Sales Support Administrator
-company: French Selection - Agency - Permanent
-location: Witney
-source: JobG8
-job_id: jobg8-23643_225736931
-reason: No approved Oxford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: French Speaking Sales Support Administrator
-company: Gill Cooke Personnel Ltd T/A The Recruitment Group - Agency - Permanent
-location: Witney
-source: JobG8
-job_id: jobg8-23643_225749852
 reason: No approved Oxford catchment rule matched; local review required.
 ---
 

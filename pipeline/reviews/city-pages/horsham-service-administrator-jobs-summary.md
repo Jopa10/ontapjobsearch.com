@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 8
-- automatic review: 76
-- automatic exclude: 34
+- automatic review: 77
+- automatic exclude: 33
 - effective include: 8
-- effective review: 76
-- effective exclude: 34
+- effective review: 77
+- effective exclude: 33
 
 ## INCLUDE (8)
 
@@ -120,7 +120,7 @@ job_id: jobg8-2056498
 reason: Exact approved Horsham workplace.
 ---
 
-## REVIEW (76)
+## REVIEW (77)
 
 ---
 action: 
@@ -630,6 +630,18 @@ reason: The stated location is broader or less specific than the approved Horsha
 action: 
 decision: review
 automatic_decision: review
+title: Management Accountant
+company: First Recruitment Services - Agency - Temporary
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225709715
+reason: The stated location is broader or less specific than the approved Horsham employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Executive
 company: Reed - Agency - Permanent
 location: Burgess Hill
@@ -1034,7 +1046,7 @@ job_id: jobg8-108230183
 reason: No approved Horsham employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (34)
+## EXCLUDE (33)
 
 ---
 action: 
@@ -1093,6 +1105,18 @@ company: CMA Recruitment Group - Agency - Permanent
 location: Chichester
 source: JobG8
 job_id: jobg8-2074351
+reason: The stated workplace belongs outside the approved Horsham employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Payable
+company: CMA Recruitment Group - Agency - Permanent
+location: Chichester
+source: JobG8
+job_id: jobg8-23643_225684878
 reason: The stated workplace belongs outside the approved Horsham employment market.
 ---
 
@@ -1201,30 +1225,6 @@ company: Rhodium Consulting - Agency - Permanent
 location: Crawley
 source: JobG8
 job_id: jobg8-23643_225747946
-reason: The stated workplace belongs outside the approved Horsham employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Document Controller
-company: Tradeline Recruitment - Agency - Permanent
-location: Brighton
-source: JobG8
-job_id: jobg8-23643_225488297
-reason: The stated workplace belongs outside the approved Horsham employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Document Controller (Construction)
-company: Skilled Careers - Agency - Permanent
-location: Worthing
-source: JobG8
-job_id: jobg8-23643_225716566
 reason: The stated workplace belongs outside the approved Horsham employment market.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 15
-- automatic review: 59
+- automatic review: 58
 - automatic exclude: 0
 - effective include: 15
-- effective review: 59
+- effective review: 58
 - effective exclude: 0
 
 ## INCLUDE (15)
@@ -204,7 +204,7 @@ job_id: jobg8-23643_225713679
 reason: Exact approved Northampton workplace.
 ---
 
-## REVIEW (59)
+## REVIEW (58)
 
 ---
 action: 
@@ -395,18 +395,6 @@ company: Whistl - Agency - Permanent
 location: Northamptonshire
 source: JobG8
 job_id: jobg8-23643_225659123
-reason: No exact Northampton workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Document Controller
-company: RTL Group Ltd - Agency - Contract
-location: Northamptonshire
-source: JobG8
-job_id: jobg8-23643_225721739
 reason: No exact Northampton workplace matched; local geographic review is required.
 ---
 

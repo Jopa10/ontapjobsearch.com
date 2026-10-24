@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 4
-- automatic review: 58
+- automatic review: 62
 - automatic exclude: 0
 - effective include: 4
-- effective review: 58
+- effective review: 62
 - effective exclude: 0
 
 ## INCLUDE (4)
@@ -72,7 +72,7 @@ job_id: jobg8-23643_225739769
 reason: Exact approved Rotherham workplace.
 ---
 
-## REVIEW (58)
+## REVIEW (62)
 
 ---
 action: 
@@ -414,6 +414,18 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Ecommerce Marketing Executive
+company: Cavendish Maine Recruitment - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2077109
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Executive Assistant
 company: The Talent Division - Agency - Permanent
 location: Sheffield
@@ -498,6 +510,18 @@ reason: No exact Rotherham workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: Junior AEO Marketing Executive
+company: Back TO Work - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-23643_225754398
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Land Rover Service Advisor
 company: Sytner - Company - Permanent
 location: Sheffield
@@ -515,6 +539,18 @@ company: Sue Ross Recruitment Ltd - Agency - Permanent
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225731215
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Marketing Communications Manager
+company: Michael Page - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225668884
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 
@@ -743,6 +779,18 @@ company: Sue Ross Recruitment Ltd - Agency - Contract
 location: Sheffield
 source: JobG8
 job_id: jobg8-23643_225736471
+reason: No exact Rotherham workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Social Media Executive
+company: Elevation Recruitment Group - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2053411
 reason: No exact Rotherham workplace matched; local geographic review is required.
 ---
 

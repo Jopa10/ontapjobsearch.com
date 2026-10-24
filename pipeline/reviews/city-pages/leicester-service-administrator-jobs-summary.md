@@ -4,7 +4,7 @@
 - Live route: `/leicester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 17
+- Effective included jobs: 21
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
-- automatic review: 59
+- automatic include: 21
+- automatic review: 62
 - automatic exclude: 0
-- effective include: 17
-- effective review: 59
+- effective include: 21
+- effective review: 62
 - effective exclude: 0
 
-## INCLUDE (17)
+## INCLUDE (21)
 
 ---
 action: 
@@ -160,6 +160,18 @@ reason: Exact approved Leicester workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Internal Sales Representative - Lighting
+company: Gi Group - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225728619
+reason: Exact approved Leicester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Legal Assistant
 company: GWR Legal Recruitment Ltd - Agency - Permanent
 location: Leicester
@@ -177,6 +189,18 @@ company: Otis - Company - Permanent
 location: Leicester
 source: JobG8
 job_id: jobg8-23643_225687246
+reason: Exact approved Leicester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll Team Leader (part time)
+company: Michael Page - Agency - Temporary
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225720527
 reason: Exact approved Leicester workplace.
 ---
 
@@ -220,6 +244,30 @@ reason: Exact approved Leicester workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Recruitment Resourcer
+company: Ideal Recruit Ltd - Agency - Contract
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225734553
+reason: Exact approved Leicester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Sales Executive
+company: Alma Personnel - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_224791255
+reason: Exact approved Leicester workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Sales Support Coordinator
 company: Interaction Recruitment - Agency - Permanent
 location: Leicester
@@ -228,7 +276,7 @@ job_id: jobg8-23643_225664258
 reason: Exact approved Leicester workplace.
 ---
 
-## REVIEW (59)
+## REVIEW (62)
 
 ---
 action: 
@@ -443,6 +491,18 @@ company: Redline Group Ltd - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225671448
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Development Executive
+company: Regional Recruitment - Agency - Permanent
+location: Blaby
+source: JobG8
+job_id: jobg8-23643_225693331
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 
@@ -750,6 +810,18 @@ reason: No exact Leicester workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
+title: People Services (HR) Assistant
+company: Leicestershire Fire and Rescue - Agency - Contract
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225724878
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Planning Administrator / Equipment Controller
 company: Geary's Bakeries Ltd - Agency - Permanent
 location: Glenfield
@@ -803,6 +875,18 @@ company: Office Angels - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225721480
+reason: No exact Leicester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment Resourcer
+company: Pertemps Leicester - Agency - Temporary
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225663011
 reason: No exact Leicester workplace matched; local geographic review is required.
 ---
 

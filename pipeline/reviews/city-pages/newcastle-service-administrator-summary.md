@@ -4,7 +4,7 @@
 - Live route: `/newcastle/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 25
+- Effective included jobs: 24
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 25
-- automatic review: 60
-- automatic exclude: 35
-- effective include: 25
-- effective review: 60
-- effective exclude: 35
+- automatic include: 24
+- automatic review: 58
+- automatic exclude: 36
+- effective include: 24
+- effective review: 58
+- effective exclude: 36
 
-## INCLUDE (25)
+## INCLUDE (24)
 
 ---
 action: 
@@ -196,18 +196,6 @@ reason: Approved Newcastle catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Graduate Accounts Assistant
-company: Get-Recruited (UK) Ltd - Agency - Permanent
-location: Newcastle Upon Tyne
-source: JobG8
-job_id: jobg8-23643_225721329
-reason: Approved Newcastle catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Home Administrator
 company: Akari Care Limited
 location: Gateshead, NE8 1QU
@@ -324,7 +312,7 @@ job_id: jobg8-23643_225677749
 reason: Approved Newcastle catchment.
 ---
 
-## REVIEW (60)
+## REVIEW (58)
 
 ---
 action: 
@@ -486,18 +474,6 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Assistant Document Controller
-company: Arup - Agency - Contract
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225675589
-reason: Broad location; review before city inclusion.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Business Administrator / Client Coordinator
 company: Prime Property Surveyors - Agency - Permanent
 location: Tyne And Wear
@@ -642,18 +618,6 @@ reason: Broad location; review before city inclusion.
 action: 
 decision: review
 automatic_decision: review
-title: Document Controller
-company: MTrec Ltd Technical - Agency - Permanent
-location: Northumberland
-source: JobG8
-job_id: jobg8-23643_225630974
-reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Electrical Service Administrator
 company: Coleman James - Agency - Permanent
 location: Tyne And Wear
@@ -684,6 +648,18 @@ location: South Shields, NE33 5DU
 source: NHS Jobs
 job_id: nhs-5683011
 reason: No approved Newcastle catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Graduate Accounts Assistant
+company: Get-Recruited (UK) Ltd - Agency - Permanent
+location: Tyne And Wear
+source: JobG8
+job_id: jobg8-23643_225721329
+reason: Broad location; review before city inclusion.
 ---
 
 ---
@@ -966,18 +942,6 @@ reason: No approved Newcastle catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Site Admin Document Controller
-company: Naughton Contracts Limited - Agency - Contract
-location: Northumberland
-source: JobG8
-job_id: jobg8-23643_225663580
-reason: No approved Newcastle catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Supply Chain Coordinator
 company: AM Global - Agency - Contract
 location: Tyne And Wear
@@ -1046,7 +1010,7 @@ job_id: nhs-5682388
 reason: No approved Newcastle catchment rule matched; local review required.
 ---
 
-## EXCLUDE (35)
+## EXCLUDE (36)
 
 ---
 action: 
@@ -1117,6 +1081,18 @@ company: Travail Employment Group - Agency - Temporary
 location: County Durham
 source: JobG8
 job_id: jobg8-23643_225703713
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Accounts Senior
+company: SI Recruitment - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-107905235
 reason: Separate employment market.
 ---
 

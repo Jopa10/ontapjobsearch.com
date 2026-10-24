@@ -4,7 +4,7 @@
 - Live route: `/leeds/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 80
+- Effective included jobs: 82
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 80
-- automatic review: 39
-- automatic exclude: 45
-- effective include: 80
-- effective review: 39
-- effective exclude: 45
+- automatic include: 82
+- automatic review: 38
+- automatic exclude: 44
+- effective include: 82
+- effective review: 38
+- effective exclude: 44
 
-## INCLUDE (80)
+## INCLUDE (82)
 
 ---
 action: 
@@ -604,6 +604,18 @@ reason: Approved Leeds catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Key Account Manager
+company: Huntress - Leeds - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225664054
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Legal PA
 company: Lucy Walker Recruitment - Agency - Permanent
 location: Leeds
@@ -717,6 +729,18 @@ company: CRA Consulting - Agency - Permanent
 location: Leeds
 source: JobG8
 job_id: jobg8-2042757
+reason: Approved Leeds catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Part-Time Accounts Clerk
+company: Equals One - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-2057961
 reason: Approved Leeds catchment.
 ---
 
@@ -984,7 +1008,7 @@ job_id: jobg8-23643_225706935
 reason: Approved Leeds catchment.
 ---
 
-## REVIEW (39)
+## REVIEW (38)
 
 ---
 action: 
@@ -1314,18 +1338,6 @@ reason: No approved Leeds catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Part-Time Accounts Clerk
-company: Equals One - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2057961
-reason: No approved Leeds catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Personal Injury Paralegal
 company: CRA Consulting - Agency - Permanent
 location: Yorkshire
@@ -1454,7 +1466,7 @@ job_id: jobg8-23643_225555461
 reason: No approved Leeds catchment rule matched; local review required.
 ---
 
-## EXCLUDE (45)
+## EXCLUDE (44)
 
 ---
 action: 
@@ -1837,18 +1849,6 @@ company: Marmon Lift Recruitment - Agency - Permanent
 location: Bradford
 source: JobG8
 job_id: jobg8-23643_225717915
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Part- Time Accounts Administrator
-company: Reed - Agency - Permanent
-location: Wakefield
-source: JobG8
-job_id: jobg8-2064618
 reason: Separate employment market.
 ---
 

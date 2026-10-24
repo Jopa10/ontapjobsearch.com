@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 146
+- automatic review: 145
 - automatic exclude: 0
 - effective include: 7
-- effective review: 146
+- effective review: 145
 - effective exclude: 0
 
 ## INCLUDE (7)
@@ -108,7 +108,7 @@ job_id: jobg8-23643_225704651
 reason: Exact approved Maidstone workplace.
 ---
 
-## REVIEW (146)
+## REVIEW (145)
 
 ---
 action: 
@@ -654,18 +654,6 @@ reason: No exact Maidstone workplace matched; local geographic review is require
 action: 
 decision: review
 automatic_decision: review
-title: Customer Service Coordinator Spanish Speaking
-company: Right Match Recruitment Group Limited - Agency - Permanent
-location: Dartford
-source: JobG8
-job_id: jobg8-23643_225738258
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Customer Support Advisor - 1 day office (Must be based in Kent)
 company: Huntress - Maidstone - Agency - Permanent
 location: Chatham
@@ -743,18 +731,6 @@ company: Skilled Careers - Agency - Permanent
 location: Dartford
 source: JobG8
 job_id: jobg8-23643_225681805
-reason: No exact Maidstone workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Document Controller - Dungeness
-company: Aureos Group - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225684874
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 
@@ -1283,6 +1259,18 @@ company: Portfolio Payroll Limited - Agency - Permanent
 location: Kent
 source: JobG8
 job_id: jobg8-23643_225708705
+reason: No exact Maidstone workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll and Pensions Officer
+company: New Appointments Group - Agency - Temporary
+location: Sittingbourne
+source: JobG8
+job_id: jobg8-23643_225754147
 reason: No exact Maidstone workplace matched; local geographic review is required.
 ---
 

@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 76
+- automatic review: 83
 - automatic exclude: 0
 - effective include: 0
-- effective review: 76
+- effective review: 83
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (76)
+## REVIEW (83)
 
 ---
 action: 
@@ -311,6 +311,18 @@ company: Redline Group Ltd - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225671448
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Business Development Executive
+company: Regional Recruitment - Agency - Permanent
+location: Blaby
+source: JobG8
+job_id: jobg8-23643_225693331
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -606,6 +618,18 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Internal Sales Representative - Lighting
+company: Gi Group - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225728619
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Legal Assistant
 company: GWR Legal Recruitment Ltd - Agency - Permanent
 location: Leicester
@@ -695,6 +719,30 @@ company: Otis - Company - Permanent
 location: Leicester
 source: JobG8
 job_id: jobg8-23643_225687246
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll Team Leader (part time)
+company: Michael Page - Agency - Temporary
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225720527
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: People Services (HR) Assistant
+company: Leicestershire Fire and Rescue - Agency - Contract
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225724878
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 
@@ -798,11 +846,47 @@ reason: No exact Wigston workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
+title: Recruitment Resourcer
+company: Ideal Recruit Ltd - Agency - Contract
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_225734553
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Recruitment Resourcer
+company: Pertemps Leicester - Agency - Temporary
+location: Leicestershire
+source: JobG8
+job_id: jobg8-23643_225663011
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Sales Administrator
 company: Office Angels - Agency - Permanent
 location: Leicestershire
 source: JobG8
 job_id: jobg8-23643_225659626
+reason: No exact Wigston workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Sales Executive
+company: Alma Personnel - Agency - Permanent
+location: Leicester
+source: JobG8
+job_id: jobg8-23643_224791255
 reason: No exact Wigston workplace matched; local geographic review is required.
 ---
 

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 15
-- automatic review: 19
+- automatic review: 21
 - automatic exclude: 0
 - effective include: 15
-- effective review: 19
+- effective review: 21
 - effective exclude: 0
 
 ## INCLUDE (15)
@@ -204,7 +204,7 @@ job_id: jobg8-23643_225671741
 reason: Exact approved Stockport workplace.
 ---
 
-## REVIEW (19)
+## REVIEW (21)
 
 ---
 action: 
@@ -299,6 +299,18 @@ company: Barrington Medical Centre Partnership
 location: Altrincham, WA14 1PF
 source: NHS Jobs
 job_id: nhs-5660746
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Interim Finance Officer
+company: Hays Accounts and Finance - Agency - Temporary
+location: Altrincham
+source: JobG8
+job_id: jobg8-23643_225710489
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -407,6 +419,18 @@ company: Bayman Atkinson Smythe - Agency - Permanent
 location: Trafford
 source: JobG8
 job_id: jobg8-23643_225735521
+reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Senior Payroll Administrator
+company: Portfolio Payroll Limited - Agency - Permanent
+location: Altrincham
+source: JobG8
+job_id: jobg8-23643_225715889
 reason: No approved Stockport employment-market rule matched the stated location; local geographic review is required.
 ---
 

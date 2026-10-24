@@ -2,7 +2,6 @@ decision,job_id,title,company,location,source,automatic_decision,effective_decis
 include,jobg8-23643_225685620,Claims Administrator,Tate - Agency - Temporary,Brighton,JobG8,include,include,Approved Brighton & Hove catchment.,brighton,brighton-hove-service-administrator-jobs
 include,jobg8-23643_225663519,Credit Controller,Michael Page - Agency - Permanent,Brighton,JobG8,include,include,Approved Brighton & Hove catchment.,brighton,brighton-hove-service-administrator-jobs
 include,jobg8-2045548,Credit Controller,Michael Page Finance - Agency - Permanent,Brighton,JobG8,include,include,Approved Brighton & Hove catchment.,brighton,brighton-hove-service-administrator-jobs
-include,jobg8-23643_225488297,Document Controller,Tradeline Recruitment - Agency - Permanent,Brighton,JobG8,include,include,Approved Brighton & Hove catchment.,brighton,brighton-hove-service-administrator-jobs
 include,jobg8-23643_225733064,Exam & Office Administrator,Aldridge Education - Agency - Permanent,Brighton,JobG8,include,include,Approved Brighton & Hove catchment.,brighton,brighton-hove-service-administrator-jobs
 include,jobg8-23643_225747015,Fleet Customer Service Advisors,Clearline Recruitment Ltd - Agency - Permanent,Brighton,JobG8,include,include,Approved Brighton & Hove catchment.,brighton,brighton-hove-service-administrator-jobs
 include,jobg8-23643_225707578,Housing Administrator,BDS (Northern) Limited - Agency - Permanent,Brighton,JobG8,include,include,Approved Brighton & Hove catchment.,brighton,brighton-hove-service-administrator-jobs
@@ -52,6 +51,7 @@ review,jobg8-23643_225658603,HR Administrator (Maternity Contract),Arco Recruitm
 review,jobg8-23643_225748731,HR Project Coordinator - Immediate Start,Office Angels - Agency - Contract,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
 review,jobg8-23643_225674649,Internal Sales Account Manager - Print Industry,Kairos Recruitment - Agency - Permanent,Newhaven,JobG8,review,review,No approved Brighton & Hove catchment rule matched; local review required.,fallback,brighton-hove-service-administrator-jobs
 review,jobg8-2178985,IP Records Administrator,The Law Support Group - Agency - Permanent,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
+review,jobg8-23643_225709715,Management Accountant,First Recruitment Services - Agency - Temporary,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
 review,jobg8-2053373,Marketing Executive,Reed - Agency - Permanent,Burgess Hill,JobG8,review,review,No approved Brighton & Hove catchment rule matched; local review required.,fallback,brighton-hove-service-administrator-jobs
 review,jobg8-2059612,Marketing Executive (12 month FTC),Morgan McKinley - Agency - Permanent,East Grinstead,JobG8,review,review,No approved Brighton & Hove catchment rule matched; local review required.,fallback,brighton-hove-service-administrator-jobs
 review,jobg8-23643_225730465,Marketing Graduate,Me Learning - Agency - Permanent,Sussex,JobG8,review,review,Broad location; review before city inclusion.,sussex,brighton-hove-service-administrator-jobs
@@ -96,6 +96,7 @@ exclude,jobg8-23643_225679603,Accounts Assistant,Huntress - Crawley - Agency - P
 exclude,jobg8-23643_225680280,Accounts Assistant,Morgan Mckinley (Crawley) - Agency - Permanent,Horsham,JobG8,exclude,exclude,Separate employment market.,horsham,brighton-hove-service-administrator-jobs
 exclude,jobg8-2064741,Accounts Assistant,Morgan McKinley - Agency - Permanent,Horsham,JobG8,exclude,exclude,Separate employment market.,horsham,brighton-hove-service-administrator-jobs
 exclude,jobg8-2074351,Accounts Payable,CMA Recruitment Group - Agency - Permanent,Chichester,JobG8,exclude,exclude,Separate employment market.,chichester,brighton-hove-service-administrator-jobs
+exclude,jobg8-23643_225684878,Accounts Payable,CMA Recruitment Group - Agency - Permanent,Chichester,JobG8,exclude,exclude,Separate employment market.,chichester,brighton-hove-service-administrator-jobs
 exclude,nhs-5667249,Admin Assistant,Sussex Partnership NHS Foundation Trust,"Eastbourne, BN21 3UU",NHS Jobs,exclude,exclude,Separate employment market.,eastbourne,brighton-hove-service-administrator-jobs
 exclude,jobg8-23643_225714153,Administrator,Harris Lord Recruitment - Agency - Temporary,Horsham,JobG8,exclude,exclude,Separate employment market.,horsham,brighton-hove-service-administrator-jobs
 exclude,jobg8-23643_225740875,Administrator,Olympus Recruitment - Agency - Permanent,Chichester,JobG8,exclude,exclude,Separate employment market.,chichester,brighton-hove-service-administrator-jobs
@@ -103,7 +104,6 @@ exclude,jobg8-23643_225748791,Call Handler / Patient Coordinator,First Recruitme
 exclude,jobg8-23643_225707148,Complaints Administrator,The Hyde Group - Agency - Permanent,Chichester,JobG8,exclude,exclude,Separate employment market.,chichester,brighton-hove-service-administrator-jobs
 exclude,jobg8-23643_225737288,Connection Agreements Coordinator,UK Power Networks (Operations) Ltd - Company - Permanent,Crawley,JobG8,exclude,exclude,Separate employment market.,crawley,brighton-hove-service-administrator-jobs
 exclude,jobg8-23643_225747946,Customer Service Advisor,Rhodium Consulting - Agency - Permanent,Crawley,JobG8,exclude,exclude,Separate employment market.,crawley,brighton-hove-service-administrator-jobs
-exclude,jobg8-23643_225716566,Document Controller (Construction),Skilled Careers - Agency - Permanent,Worthing,JobG8,exclude,exclude,Separate employment market.,worthing,brighton-hove-service-administrator-jobs
 exclude,jobg8-23643_225697488,Finance Assistant,Academics - Agency - Permanent,Crawley,JobG8,exclude,exclude,Separate employment market.,crawley,brighton-hove-service-administrator-jobs
 exclude,jobg8-23643_225672363,Finance Assistant - Assistant Accountant,Morgan Mckinley (Crawley) - Agency - Permanent,Horsham,JobG8,exclude,exclude,Separate employment market.,horsham,brighton-hove-service-administrator-jobs
 exclude,jobg8-2056498,Finance Assistant - Assistant Accountant,Morgan McKinley - Agency - Permanent,Horsham,JobG8,exclude,exclude,Separate employment market.,horsham,brighton-hove-service-administrator-jobs

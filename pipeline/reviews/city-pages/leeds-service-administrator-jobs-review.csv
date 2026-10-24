@@ -47,6 +47,7 @@ include,jobg8-23643_225709267,HR Coordinator,Hays Business Support - Agency - Pe
 include,jobg8-23643_225727868,HR Coordinator,Only FE - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225655460,Insurance Administrator,Get-Recruited (UK) Ltd - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225703687,Interim Finance Assistant,Hamilton Woods - Agency - Temporary,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
+include,jobg8-23643_225664054,Key Account Manager,Huntress - Leeds - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225739622,Legal PA,Lucy Walker Recruitment - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225663734,Marketing Executive (Luxury Spa & Sauna's),Ernest Gordon Recruitment Limited - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225724529,Marketing Manager,Hays Technology - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
@@ -57,6 +58,7 @@ include,jobg8-23643_225661219,Office Administrator,Logical Personnel Solutions -
 include,jobg8-23643_225696913,Office Coordinator,Lucy Walker Recruitment - Agency - Temporary,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225726658,Paid Media Manager,Michael Page - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-2042757,Paralegal - Real Estate & Projects - Hybrid working,CRA Consulting - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
+include,jobg8-2057961,Part-Time Accounts Clerk,Equals One - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-23643_225757815,Payroll Administrator,Portfolio Payroll Limited - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-2053116,Payroll Assistant,Michael Page Finance - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
 include,jobg8-2087152,Payroll Coordinator,IMPRESSION RECRUITMENT LIMITED - Agency - Permanent,Leeds,JobG8,include,include,Approved Leeds catchment.,leeds,leeds-service-administrator-jobs
@@ -106,7 +108,6 @@ review,jobg8-2163776,Marketing Assistant Asda Money & Mobile,ASDA - Company - Pe
 review,jobg8-2042141,Marketing Executive,pyramid8 - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-2045800,Marketing Executive (Luxury Spa & Sauna's),Ernest Gordon Recruitment Limited - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-23643_225734433,Office Administrator,West Riding Recruitment - Agency - Permanent,Ossett,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
-review,jobg8-2057961,Part-Time Accounts Clerk,Equals One - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-2075306,Personal Injury Paralegal,CRA Consulting - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-23643_225738529,Project Coordinator,Lucy Walker Recruitment - Agency - Temporary,Castleford,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
 review,jobg8-2165855,Purchase Ledger Clerk,PRATAP PARTNERSHIP LTD - Agency - Permanent,Yorkshire,JobG8,review,review,No approved Leeds catchment rule matched; local review required.,fallback,leeds-service-administrator-jobs
@@ -150,7 +151,6 @@ exclude,nhs-5659053,Medical Receptionist,Stanley Health Centre,"Wakefield, WF3 4
 exclude,nhs-5603161,MEDICAL RECEPTIONIST,The Bradford Moor Practice,"Bradford, BD3 8QH",NHS Jobs,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
 exclude,jobg8-23643_225668368,Outbound Sales Executive,Snowflake Media Ltd - Agency - Permanent,Halifax,JobG8,exclude,exclude,Separate employment market.,halifax,leeds-service-administrator-jobs
 exclude,jobg8-23643_225717915,Outbound Sales Representative,Marmon Lift Recruitment - Agency - Permanent,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
-exclude,jobg8-2064618,Part- Time Accounts Administrator,Reed - Agency - Permanent,Wakefield,JobG8,exclude,exclude,Separate employment market.,wakefield,leeds-service-administrator-jobs
 exclude,jobg8-23643_225707509,Personal Assistant,Marmon Lift Recruitment - Agency - Permanent,Bradford,JobG8,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs
 exclude,jobg8-2171623,Quality Administrator,PRATAP PARTNERSHIP LTD - Agency - Permanent,Huddersfield,JobG8,exclude,exclude,Separate employment market.,huddersfield,leeds-service-administrator-jobs
 exclude,nhs-5667656,Receptionist,Affinity Care,"Shipley, BD18 3EG, Shipley, BD18 3EE, Bradford, BD10 9AZ",NHS Jobs,exclude,exclude,Separate employment market.,bradford,leeds-service-administrator-jobs

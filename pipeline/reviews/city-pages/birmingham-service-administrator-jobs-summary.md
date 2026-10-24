@@ -4,7 +4,7 @@
 - Live route: `/birmingham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 100
+- Effective included jobs: 97
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 100
+- automatic include: 97
 - automatic review: 14
 - automatic exclude: 7
-- effective include: 100
+- effective include: 97
 - effective review: 14
 - effective exclude: 7
 
-## INCLUDE (100)
+## INCLUDE (97)
 
 ---
 action: 
@@ -477,42 +477,6 @@ company: Conrad Consulting Ltd - Agency - Permanent
 location: Birmingham
 source: JobG8
 job_id: jobg8-23643_225652561
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Document Controller
-company: Falcon Green Personnel - Agency - Contract
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225591722
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Document Controller
-company: FERROVIAL CONSTRUCTION (UK) LIMITED - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_224853142
-reason: Approved conservative Birmingham launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Document Controller
-company: PSR Solutions - Agency - Permanent
-location: Birmingham
-source: JobG8
-job_id: jobg8-23643_225734548
 reason: Approved conservative Birmingham launch catchment.
 ---
 
@@ -1328,10 +1292,10 @@ decision: review
 automatic_decision: review
 title: Part-time Payroll Clerk
 company: Mitchell Adam - Agency - Permanent
-location: Sutton Coldfield
+location: West Midlands
 source: JobG8
 job_id: jobg8-2055533
-reason: No approved Birmingham catchment rule matched; local review required.
+reason: Broad regional location; review before Birmingham inclusion.
 ---
 
 ---

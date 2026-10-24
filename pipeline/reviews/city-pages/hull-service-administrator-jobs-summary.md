@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 18
-- automatic review: 16
+- automatic review: 14
 - automatic exclude: 0
 - effective include: 18
-- effective review: 16
+- effective review: 14
 - effective exclude: 0
 
 ## INCLUDE (18)
@@ -148,11 +148,11 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Finance Procurement Administrator ( Part-Time)
-company: GlobalData UK Ltd - Company - Permanent
+title: Logistics Coordinator
+company: Winsearch - Agency - Permanent
 location: Hull
 source: JobG8
-job_id: jobg8-23643_225754589
+job_id: jobg8-23643_225735792
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -160,11 +160,23 @@ reason: Approved conservative Hull launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Logistics Coordinator
-company: Winsearch - Agency - Permanent
+title: Medical Receptionist
+company: The Avenues Medical Centre
+location: HULL, HU5 3TJ
+source: NHS Jobs
+job_id: nhs-5684494
+reason: Approved conservative Hull launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Part-time Payroll specialist
+company: Portfolio Payroll Limited - Agency - Permanent
 location: Hull
 source: JobG8
-job_id: jobg8-23643_225735792
+job_id: jobg8-23643_225760812
 reason: Approved conservative Hull launch catchment.
 ---
 
@@ -222,25 +234,13 @@ decision: include
 automatic_decision: include
 title: Senior Administrator
 company: Hull University Teaching Hospitals NHS Trust
-location: Hull, HU16 5JQ
-source: NHS Jobs
-job_id: nhs-5662408
-reason: Approved conservative Hull launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Senior Administrator
-company: Hull University Teaching Hospitals NHS Trust
 location: Hull, HU3 2JZ
 source: NHS Jobs
 job_id: nhs-5672082
 reason: Approved conservative Hull launch catchment.
 ---
 
-## REVIEW (16)
+## REVIEW (14)
 
 ---
 action: 
@@ -270,35 +270,11 @@ reason: No approved Hull catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Bilingual Aftersales Coordinator
-company: Consortium Professional Recruitment Ltd - Agency - Permanent
-location: Hessle
-source: JobG8
-job_id: jobg8-23643_225731743
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Business Support Administrator
 company: SaB Consulting Yorkshire Limited - Agency - Permanent
 location: Beverley
 source: JobG8
 job_id: jobg8-23643_225731702
-reason: No approved Hull catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Finance & Reporting Administrator
-company: Consortium Professional Recruitment - Agency - Permanent
-location: Hessle
-source: JobG8
-job_id: jobg8-2165745
 reason: No approved Hull catchment rule matched; local review required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/watford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 9
+- Effective included jobs: 7
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 9
-- automatic review: 117
+- automatic include: 7
+- automatic review: 115
 - automatic exclude: 0
-- effective include: 9
-- effective review: 117
+- effective include: 7
+- effective review: 115
 - effective exclude: 0
 
-## INCLUDE (9)
+## INCLUDE (7)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Tate - Agency - Permanent
 location: Watford
 source: JobG8
 job_id: jobg8-23643_225744768
-reason: Exact approved Watford workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Document Controller
-company: PSR Solutions - Agency - Contract
-location: Watford
-source: JobG8
-job_id: jobg8-23643_225746866
 reason: Exact approved Watford workplace.
 ---
 
@@ -120,19 +108,7 @@ job_id: jobg8-23643_225743675
 reason: Exact approved Watford workplace.
 ---
 
----
-action: 
-decision: include
-automatic_decision: include
-title: Trilingual Customer Service Advisor - Italian speaking
-company: French Selection - Agency - Permanent
-location: Watford
-source: JobG8
-job_id: jobg8-23643_225746059
-reason: Exact approved Watford workplace.
----
-
-## REVIEW (117)
+## REVIEW (115)
 
 ---
 action: 
@@ -791,18 +767,6 @@ company: Robert Walters - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-2053532
-reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: German and Hebrew speaking Account Coordinator
-company: Language Matters Recruitment Consultants Ltd - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-23643_225741103
 reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
 ---
 
@@ -1524,18 +1488,6 @@ location: Hitchin
 source: JobG8
 job_id: jobg8-23643_225735560
 reason: No approved Watford employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Ward Clerk
-company: East and North Hertfordshire Teaching NHS Trust
-location: Stevenage, SG1 4AB
-source: NHS Jobs
-job_id: nhs-5681457
-reason: The stated location is broader or less specific than the approved Watford employment market and needs review.
 ---
 
 ## EXCLUDE (0)

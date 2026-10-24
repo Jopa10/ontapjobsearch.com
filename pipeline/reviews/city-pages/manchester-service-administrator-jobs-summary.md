@@ -4,7 +4,7 @@
 - Live route: `/manchester/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 122
+- Effective included jobs: 119
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 122
+- automatic include: 119
 - automatic review: 22
 - automatic exclude: 7
-- effective include: 122
+- effective include: 119
 - effective review: 22
 - effective exclude: 7
 
-## INCLUDE (122)
+## INCLUDE (119)
 
 ---
 action: 
@@ -688,42 +688,6 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Food Export Administrator
-company: Gi Group - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225755458
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: French Speaking Customer Service Advisor
-company: French Selection - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225678458
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: German speaking Customer Service Advisor
-company: French Selection - Agency - Permanent
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225754472
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Helpdesk Coordinator
 company: Jobwise Ltd - Agency - Temporary
 location: Manchester
@@ -1108,6 +1072,18 @@ reason: Approved conservative Manchester launch catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Property Finance Demand Generation & Qualification Analyst
+company: kenzoai - Agency - Permanent
+location: Manchester
+source: JobG8
+job_id: jobg8-23643_225616814
+reason: Approved conservative Manchester launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Purchase Ledger
 company: Hays Accounts and Finance - Agency - Permanent
 location: Manchester
@@ -1209,18 +1185,6 @@ company: CDI - Russell Taylor - Agency - Permanent
 location: Manchester
 source: JobG8
 job_id: jobg8-23643_225743789
-reason: Approved conservative Manchester launch catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Receptionist/ Front of House
-company: Search Consultancy Ltd - Agency - Contract
-location: Manchester
-source: JobG8
-job_id: jobg8-23643_225740053
 reason: Approved conservative Manchester launch catchment.
 ---
 

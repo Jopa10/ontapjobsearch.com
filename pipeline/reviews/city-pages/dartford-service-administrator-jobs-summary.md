@@ -4,7 +4,7 @@
 - Live route: `/dartford/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 17
+- Effective included jobs: 16
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
+- automatic include: 17
 - automatic review: 100
 - automatic exclude: 35
-- effective include: 17
+- effective include: 16
 - effective review: 100
 - effective exclude: 36
 
-## INCLUDE (17)
+## INCLUDE (16)
 
 ---
 action: 
@@ -93,18 +93,6 @@ company: Fawkes & Reece London - Agency - Permanent
 location: Dartford
 source: JobG8
 job_id: jobg8-23643_225655346
-reason: Exact approved Dartford workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Customer Service Coordinator Spanish Speaking
-company: Right Match Recruitment Group Limited - Agency - Permanent
-location: Dartford
-source: JobG8
-job_id: jobg8-23643_225738258
 reason: Exact approved Dartford workplace.
 ---
 
@@ -678,18 +666,6 @@ reason: The stated location is broader or less specific than the approved Dartfo
 action: 
 decision: review
 automatic_decision: review
-title: Document Controller - Dungeness
-company: Aureos Group - Agency - Permanent
-location: Kent
-source: JobG8
-job_id: jobg8-23643_225684874
-reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Exhibition Logistics & Sales Coordinator
 company: Detail 2 Limited - Agency - Permanent
 location: Kent
@@ -1008,6 +984,18 @@ location: Kent
 source: JobG8
 job_id: jobg8-23643_225708705
 reason: The stated location is broader or less specific than the approved Dartford employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Payroll and Pensions Officer
+company: New Appointments Group - Agency - Temporary
+location: Sittingbourne
+source: JobG8
+job_id: jobg8-23643_225754147
+reason: No approved Dartford employment-market rule matched the stated location; local geographic review is required.
 ---
 
 ---

@@ -282,6 +282,18 @@ reason: No exact Gloucester workplace matched; local geographic review is requir
 action: 
 decision: review
 automatic_decision: review
+title: Business Development Account Manager - Energy & Ut
+company: Workforce Staffing Ltd - Agency - Permanent
+location: Cheltenham
+source: JobG8
+job_id: jobg8-23643_225684163
+reason: No exact Gloucester workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Business Support Administrator
 company: Ernest Gordon Recruitment Limited - Agency - Permanent
 location: Gloucestershire
@@ -587,18 +599,6 @@ company: G DOC Ltd
 location: Lydney, GL15 5NQ
 source: NHS Jobs
 job_id: nhs-5673959
-reason: No exact Gloucester workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: Workforce Staffing Ltd - Agency - Temporary
-location: Cheltenham
-source: JobG8
-job_id: jobg8-23643_225727854
 reason: No exact Gloucester workplace matched; local geographic review is required.
 ---
 

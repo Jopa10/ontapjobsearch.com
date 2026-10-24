@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 19
-- automatic review: 37
-- automatic exclude: 108
+- automatic review: 36
+- automatic exclude: 109
 - effective include: 19
-- effective review: 37
-- effective exclude: 108
+- effective review: 36
+- effective exclude: 109
 
 ## INCLUDE (19)
 
@@ -252,7 +252,7 @@ job_id: jobg8-23643_225732501
 reason: Approved Bradford catchment.
 ---
 
-## REVIEW (37)
+## REVIEW (36)
 
 ---
 action: 
@@ -570,18 +570,6 @@ reason: No approved Bradford catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
-title: Part-Time Accounts Clerk
-company: Equals One - Agency - Permanent
-location: Yorkshire
-source: JobG8
-job_id: jobg8-2057961
-reason: No approved Bradford catchment rule matched; local review required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Personal Injury Paralegal
 company: CRA Consulting - Agency - Permanent
 location: Yorkshire
@@ -698,7 +686,7 @@ job_id: jobg8-23643_225555461
 reason: No approved Bradford catchment rule matched; local review required.
 ---
 
-## EXCLUDE (108)
+## EXCLUDE (109)
 
 ---
 action: 
@@ -1436,6 +1424,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Key Account Manager
+company: Huntress - Leeds - Agency - Permanent
+location: Leeds
+source: JobG8
+job_id: jobg8-23643_225664054
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Legal PA
 company: Lucy Walker Recruitment - Agency - Permanent
 location: Leeds
@@ -1616,11 +1616,11 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Part- Time Accounts Administrator
-company: Reed - Agency - Permanent
-location: Wakefield
+title: Part-Time Accounts Clerk
+company: Equals One - Agency - Permanent
+location: Leeds
 source: JobG8
-job_id: jobg8-2064618
+job_id: jobg8-2057961
 reason: Separate employment market.
 ---
 

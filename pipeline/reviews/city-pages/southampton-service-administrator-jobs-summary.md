@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 14
 - automatic review: 101
-- automatic exclude: 53
+- automatic exclude: 52
 - effective include: 14
 - effective review: 101
-- effective exclude: 53
+- effective exclude: 52
 
 ## INCLUDE (14)
 
@@ -1406,7 +1406,7 @@ job_id: jobg8-23643_225665585
 reason: Broad location; review before city inclusion.
 ---
 
-## EXCLUDE (53)
+## EXCLUDE (52)
 
 ---
 action: 
@@ -1837,18 +1837,6 @@ company: Amour Recruitment - Agency - Permanent
 location: Portsmouth
 source: JobG8
 job_id: jobg8-23643_225701326
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Operations Coordinator
-company: Huntress - Agency - Permanent
-location: Portsmouth
-source: JobG8
-job_id: jobg8-23643_225680141
 reason: Separate employment market.
 ---
 

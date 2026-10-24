@@ -4,7 +4,7 @@
 - Live route: `/bath/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 73
+- automatic include: 6
+- automatic review: 74
 - automatic exclude: 0
-- effective include: 7
-- effective review: 73
+- effective include: 6
+- effective review: 74
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (6)
 
 ---
 action: 
@@ -76,23 +76,11 @@ reason: Exact approved Bath workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Part Time Accounts Assistant
-company: Hays Specialist Recruitment Limited - Agency - Permanent
+title: Payroll Manager (Part Time)
+company: Reed Technology - Agency - Permanent
 location: Bath
 source: JobG8
-job_id: jobg8-2088889
-reason: Exact approved Bath workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Part time Finance Assistant - 22. 5 hours per week
-company: Juice Recruitment Ltd - Agency - Permanent
-location: Bath
-source: JobG8
-job_id: jobg8-2070922
+job_id: jobg8-23643_225660760
 reason: Exact approved Bath workplace.
 ---
 
@@ -108,7 +96,7 @@ job_id: jobg8-23643_225653411
 reason: Exact approved Bath workplace.
 ---
 
-## REVIEW (73)
+## REVIEW (74)
 
 ---
 action: 
@@ -618,18 +606,6 @@ reason: No approved Bath employment-market rule matched the stated location; loc
 action: 
 decision: review
 automatic_decision: review
-title: Italian Speaking Insurance Administrator
-company: Neon Talent Solutions - Agency - Permanent
-location: Bristol
-source: JobG8
-job_id: jobg8-2048221
-reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Jaguar Land Rover Accounts Assistant
 company: Sytner - Company - Permanent
 location: Bristol
@@ -755,6 +731,30 @@ company: Bristol NHS Foundation Trust
 location: Bristol, BS2 8EG
 source: NHS Jobs
 job_id: nhs-5674929
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part Time Accounts Assistant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Somerset
+source: JobG8
+job_id: jobg8-2088889
+reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Part time Finance Assistant - 22. 5 hours per week
+company: Juice Recruitment Ltd - Agency - Permanent
+location: Somerset
+source: JobG8
+job_id: jobg8-2070922
 reason: No approved Bath employment-market rule matched the stated location; local geographic review is required.
 ---
 

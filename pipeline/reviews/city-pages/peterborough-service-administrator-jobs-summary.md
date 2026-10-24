@@ -4,7 +4,7 @@
 - Live route: `/peterborough/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 17
+- Effective included jobs: 18
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 17
+- automatic include: 18
 - automatic review: 10
-- automatic exclude: 36
-- effective include: 17
+- automatic exclude: 35
+- effective include: 18
 - effective review: 10
-- effective exclude: 36
+- effective exclude: 35
 
-## INCLUDE (17)
+## INCLUDE (18)
 
 ---
 action: 
@@ -177,6 +177,18 @@ company: Dr Laliwala and Partners
 location: Peterborough, PE1 4FS
 source: NHS Jobs
 job_id: nhs-5668718
+reason: Approved conservative Peterborough launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Part-Time Senior Accountant
+company: Blusource Professional Services Ltd - Agency - Permanent
+location: Peterborough
+source: JobG8
+job_id: jobg8-23643_225660845
 reason: Approved conservative Peterborough launch catchment.
 ---
 
@@ -350,7 +362,7 @@ job_id: jobg8-23643_225691104
 reason: No approved Peterborough catchment rule matched; local review required.
 ---
 
-## EXCLUDE (36)
+## EXCLUDE (35)
 
 ---
 action: 
@@ -601,18 +613,6 @@ company: Dawn Ellmore Employment Agency - Agency - Permanent
 location: Cambridge
 source: JobG8
 job_id: jobg8-2144050
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: French and German speaking Order Management Coordinator
-company: French Selection - Agency - Permanent
-location: Huntingdon
-source: JobG8
-job_id: jobg8-23643_225716483
 reason: Separate employment market.
 ---
 

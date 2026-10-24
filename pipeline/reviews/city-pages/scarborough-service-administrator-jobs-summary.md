@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 3
-- automatic review: 61
+- automatic review: 60
 - automatic exclude: 0
 - effective include: 3
-- effective review: 61
+- effective review: 60
 - effective exclude: 0
 
 ## INCLUDE (3)
@@ -60,7 +60,7 @@ job_id: teaching-vacancies-senior-administrator-a7025ffa-8f1a-4ca4-8107-74ae6341
 reason: Exact approved Scarborough workplace.
 ---
 
-## REVIEW (61)
+## REVIEW (60)
 
 ---
 action: 
@@ -475,20 +475,8 @@ action:
 decision: review
 automatic_decision: review
 title: Part Time Finance Assistant
-company: Hays Accounts and Finance - Agency - Temporary
-location: York
-source: JobG8
-job_id: jobg8-23643_225696188
-reason: No exact Scarborough workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Part Time Finance Assistant
 company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: York
+location: Yorkshire
 source: JobG8
 job_id: jobg8-2087398
 reason: No exact Scarborough workplace matched; local geographic review is required.

@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 15
-- automatic review: 115
+- automatic review: 116
 - automatic exclude: 0
 - effective include: 15
-- effective review: 115
+- effective review: 116
 - effective exclude: 0
 
 ## INCLUDE (15)
@@ -204,7 +204,31 @@ job_id: jobg8-23643_225694242
 reason: Exact approved Chelmsford workplace.
 ---
 
-## REVIEW (115)
+## REVIEW (116)
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accountant
+company: Reed - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-2050332
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accountant
+company: Reed - Agency - Permanent
+location: Essex
+source: JobG8
+job_id: jobg8-2050334
+reason: No exact Chelmsford workplace matched; local geographic review is required.
+---
 
 ---
 action: 
@@ -683,18 +707,6 @@ company: Brand Recruitment - Agency - Permanent
 location: Essex
 source: JobG8
 job_id: jobg8-2033913
-reason: No exact Chelmsford workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Document Controller
-company: Prime Appointments - Agency - Temporary
-location: Essex
-source: JobG8
-job_id: jobg8-23643_225737453
 reason: No exact Chelmsford workplace matched; local geographic review is required.
 ---
 

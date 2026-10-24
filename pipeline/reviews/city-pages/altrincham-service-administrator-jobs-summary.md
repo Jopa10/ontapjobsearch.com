@@ -4,7 +4,7 @@
 - Live route: `/altrincham/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 9
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
+- automatic include: 9
 - automatic review: 27
 - automatic exclude: 0
-- effective include: 7
+- effective include: 9
 - effective review: 27
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (9)
 
 ---
 action: 
@@ -76,6 +76,18 @@ reason: Exact approved Altrincham workplace.
 action: 
 decision: include
 automatic_decision: include
+title: Interim Finance Officer
+company: Hays Accounts and Finance - Agency - Temporary
+location: Altrincham
+source: JobG8
+job_id: jobg8-23643_225710489
+reason: Exact approved Altrincham workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Office Administrator
 company: Rogers McHugh Recruitment - Agency - Permanent
 location: Altrincham
@@ -105,6 +117,18 @@ company: Robert Walters - Agency - Permanent
 location: Altrincham
 source: JobG8
 job_id: jobg8-2039520
+reason: Exact approved Altrincham workplace.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Senior Payroll Administrator
+company: Portfolio Payroll Limited - Agency - Permanent
+location: Altrincham
+source: JobG8
+job_id: jobg8-23643_225715889
 reason: Exact approved Altrincham workplace.
 ---
 

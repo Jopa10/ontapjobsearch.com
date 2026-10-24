@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 120
+- automatic review: 116
 - automatic exclude: 0
 - effective include: 6
-- effective review: 120
+- effective review: 116
 - effective exclude: 0
 
 ## INCLUDE (6)
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225694409
 reason: Exact approved Hemel Hempstead workplace.
 ---
 
-## REVIEW (120)
+## REVIEW (116)
 
 ---
 action: 
@@ -619,18 +619,6 @@ action:
 decision: review
 automatic_decision: review
 title: Document Controller
-company: PSR Solutions - Agency - Contract
-location: Watford
-source: JobG8
-job_id: jobg8-23643_225746866
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Document Controller
 company: Recco - Agency - Permanent
 location: Hertford
 source: JobG8
@@ -767,18 +755,6 @@ company: Robert Walters - Agency - Permanent
 location: Hertfordshire
 source: JobG8
 job_id: jobg8-2053532
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: German and Hebrew speaking Account Coordinator
-company: Language Matters Recruitment Consultants Ltd - Agency - Permanent
-location: Hertfordshire
-source: JobG8
-job_id: jobg8-23643_225741103
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 
@@ -1506,35 +1482,11 @@ reason: No exact Hemel Hempstead workplace matched; local geographic review is r
 action: 
 decision: review
 automatic_decision: review
-title: Trilingual Customer Service Advisor - Italian speaking
-company: French Selection - Agency - Permanent
-location: Watford
-source: JobG8
-job_id: jobg8-23643_225746059
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Vetting Coordinator
 company: Willmott Dixon Group - Company - Permanent
 location: Hitchin
 source: JobG8
 job_id: jobg8-23643_225735560
-reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Ward Clerk
-company: East and North Hertfordshire Teaching NHS Trust
-location: Stevenage, SG1 4AB
-source: NHS Jobs
-job_id: nhs-5681457
 reason: No exact Hemel Hempstead workplace matched; local geographic review is required.
 ---
 

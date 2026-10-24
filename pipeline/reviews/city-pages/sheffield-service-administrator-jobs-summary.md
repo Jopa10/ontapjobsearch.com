@@ -4,7 +4,7 @@
 - Live route: `/sheffield/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 25
+- Effective included jobs: 27
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 25
-- automatic review: 10
+- automatic include: 27
+- automatic review: 12
 - automatic exclude: 27
-- effective include: 25
-- effective review: 10
+- effective include: 27
+- effective review: 12
 - effective exclude: 27
 
-## INCLUDE (25)
+## INCLUDE (27)
 
 ---
 action: 
@@ -232,6 +232,18 @@ reason: Approved Sheffield catchment.
 action: 
 decision: include
 automatic_decision: include
+title: Marketing Communications Manager
+company: Michael Page - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225668884
+reason: Approved Sheffield catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
 title: Matter Administrator
 company: CRA Consulting - Agency - Permanent
 location: Sheffield
@@ -324,7 +336,19 @@ job_id: jobg8-23643_225736471
 reason: Approved Sheffield catchment.
 ---
 
-## REVIEW (10)
+---
+action: 
+decision: include
+automatic_decision: include
+title: Social Media Executive
+company: Elevation Recruitment Group - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2053411
+reason: Approved Sheffield catchment.
+---
+
+## REVIEW (12)
 
 ---
 action: 
@@ -378,6 +402,18 @@ reason: No approved Sheffield catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Ecommerce Marketing Executive
+company: Cavendish Maine Recruitment - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2077109
+reason: No approved Sheffield catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Factory Administrator
 company: E3 Recruitment - Agency - Permanent
 location: Brinsworth
@@ -395,6 +431,18 @@ company: Reed - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2067582
+reason: No approved Sheffield catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Junior AEO Marketing Executive
+company: Back TO Work - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-23643_225754398
 reason: No approved Sheffield catchment rule matched; local review required.
 ---
 

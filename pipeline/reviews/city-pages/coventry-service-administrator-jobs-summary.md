@@ -4,7 +4,7 @@
 - Live route: `/coventry/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 18
+- Effective included jobs: 17
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 18
+- automatic include: 17
 - automatic review: 5
 - automatic exclude: 80
-- effective include: 18
+- effective include: 17
 - effective review: 5
 - effective exclude: 80
 
-## INCLUDE (18)
+## INCLUDE (17)
 
 ---
 action: 
@@ -45,18 +45,6 @@ company: Finham Park 2
 location: Coventry
 source: Teaching Vacancies
 job_id: teaching-vacancies-administrative-assistant-finham-park-2
-reason: Approved Coventry catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Bookkeeper
-company: Bennett and Game Recruitment LTD - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-23643_225702322
 reason: Approved Coventry catchment.
 ---
 
@@ -644,18 +632,6 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
-title: Document Controller
-company: Stepnell Ltd - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225640022
-reason: Separate employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
 title: Employment Law Secretary or Paralegal
 company: Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent
 location: Leamington Spa
@@ -733,6 +709,18 @@ company: thefutureworks - Agency - Temporary
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225756261
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Finance Manager
+company: Life 2009 - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2138590
 reason: Separate employment market.
 ---
 

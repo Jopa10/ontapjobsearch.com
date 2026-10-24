@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 13
-- automatic review: 90
+- automatic review: 89
 - automatic exclude: 0
 - effective include: 13
-- effective review: 90
+- effective review: 89
 - effective exclude: 0
 
 ## INCLUDE (13)
@@ -180,7 +180,7 @@ job_id: jobg8-23643_225673829
 reason: Exact approved Warwick workplace.
 ---
 
-## REVIEW (90)
+## REVIEW (89)
 
 ---
 action: 
@@ -390,18 +390,6 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Bookkeeper
-company: Bennett and Game Recruitment LTD - Agency - Permanent
-location: Coventry
-source: JobG8
-job_id: jobg8-23643_225702322
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Business Administrator
 company: Genesis Employment Services Ltd - Agency - Permanent
 location: Warwickshire
@@ -498,18 +486,6 @@ reason: No exact Warwick workplace matched; local geographic review is required.
 action: 
 decision: review
 automatic_decision: review
-title: Document Controller
-company: Stepnell Ltd - Agency - Permanent
-location: Warwickshire
-source: JobG8
-job_id: jobg8-23643_225640022
-reason: No exact Warwick workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Employment Law Secretary or Paralegal
 company: Talentwise Solutions Legal Recruitment Ltd - Agency - Permanent
 location: Leamington Spa
@@ -599,6 +575,18 @@ company: thefutureworks - Agency - Temporary
 location: Warwickshire
 source: JobG8
 job_id: jobg8-23643_225756261
+reason: No exact Warwick workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Finance Manager
+company: Life 2009 - Agency - Permanent
+location: Warwickshire
+source: JobG8
+job_id: jobg8-2138590
 reason: No exact Warwick workplace matched; local geographic review is required.
 ---
 

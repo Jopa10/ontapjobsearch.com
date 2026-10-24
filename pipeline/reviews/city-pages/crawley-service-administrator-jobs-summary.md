@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 7
-- automatic review: 76
-- automatic exclude: 35
+- automatic review: 77
+- automatic exclude: 34
 - effective include: 7
-- effective review: 76
-- effective exclude: 35
+- effective review: 77
+- effective exclude: 34
 
 ## INCLUDE (7)
 
@@ -108,7 +108,7 @@ job_id: jobg8-2048366
 reason: Exact approved Crawley workplace.
 ---
 
-## REVIEW (76)
+## REVIEW (77)
 
 ---
 action: 
@@ -618,6 +618,18 @@ reason: The stated location is broader or less specific than the approved Crawle
 action: 
 decision: review
 automatic_decision: review
+title: Management Accountant
+company: First Recruitment Services - Agency - Temporary
+location: Sussex
+source: JobG8
+job_id: jobg8-23643_225709715
+reason: The stated location is broader or less specific than the approved Crawley employment market and needs review.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Marketing Executive
 company: Reed - Agency - Permanent
 location: Burgess Hill
@@ -1022,7 +1034,7 @@ job_id: jobg8-108230183
 reason: No approved Crawley employment-market rule matched the stated location; local geographic review is required.
 ---
 
-## EXCLUDE (35)
+## EXCLUDE (34)
 
 ---
 action: 
@@ -1148,6 +1160,18 @@ reason: The stated workplace belongs outside the approved Crawley employment mar
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Accounts Payable
+company: CMA Recruitment Group - Agency - Permanent
+location: Chichester
+source: JobG8
+job_id: jobg8-23643_225684878
+reason: The stated workplace belongs outside the approved Crawley employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Admin Assistant
 company: Sussex Partnership NHS Foundation Trust
 location: Eastbourne, BN21 3UU
@@ -1225,30 +1249,6 @@ company: Michael Page Finance - Agency - Permanent
 location: Brighton
 source: JobG8
 job_id: jobg8-2045548
-reason: The stated workplace belongs outside the approved Crawley employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Document Controller
-company: Tradeline Recruitment - Agency - Permanent
-location: Brighton
-source: JobG8
-job_id: jobg8-23643_225488297
-reason: The stated workplace belongs outside the approved Crawley employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Document Controller (Construction)
-company: Skilled Careers - Agency - Permanent
-location: Worthing
-source: JobG8
-job_id: jobg8-23643_225716566
 reason: The stated workplace belongs outside the approved Crawley employment market.
 ---
 

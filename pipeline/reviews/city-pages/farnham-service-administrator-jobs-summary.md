@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 5
-- automatic review: 161
+- automatic review: 160
 - automatic exclude: 0
 - effective include: 5
-- effective review: 161
+- effective review: 160
 - effective exclude: 0
 
 ## INCLUDE (5)
@@ -84,7 +84,7 @@ job_id: jobg8-23643_225654686
 reason: Exact approved Farnham workplace.
 ---
 
-## REVIEW (161)
+## REVIEW (160)
 
 ---
 action: 
@@ -731,18 +731,6 @@ company: Gerrard White - Agency - Permanent
 location: Surrey
 source: JobG8
 job_id: jobg8-23643_225702981
-reason: No exact Farnham workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Document Controller
-company: Duffy Group - Agency - Contract
-location: Leatherhead
-source: JobG8
-job_id: jobg8-23643_225715390
 reason: No exact Farnham workplace matched; local geographic review is required.
 ---
 

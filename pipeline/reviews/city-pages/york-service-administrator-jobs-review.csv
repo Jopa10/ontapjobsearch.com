@@ -6,8 +6,6 @@ include,jobg8-2111325,Financial Services Administrator,Capital Outsourcing Group
 include,jobg8-23643_225713571,HR Administrator,Sewell Wallis Ltd - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,jobg8-2076479,Legal Administrator,Venn Group - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,jobg8-2093053,Paralegal,LSL Property Services plc - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
-include,jobg8-23643_225696188,Part Time Finance Assistant,Hays Accounts and Finance - Agency - Temporary,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
-include,jobg8-2087398,Part Time Finance Assistant,Hays Specialist Recruitment Limited - Agency - Permanent,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,nhs-5655371,Patient Services Advisor (Receptionist),Haxby Group,"York, YO32 2LL, York, YO24 3BU, Huntington, YO32 9RU, York, YO32 4AG, York, YO26 6EQ",NHS Jobs,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,jobg8-23643_225755874,Reprographics & Admin assistant,PK Education - Agency - Temporary,York,JobG8,include,include,Approved York catchment.,york,york-service-administrator-jobs
 include,nhs-5665026,Ward Clerk,York and Scarborough Teaching Hospitals NHS Foundation Trust,"York, YO31 8HE",NHS Jobs,include,include,Approved York catchment.,york,york-service-administrator-jobs
@@ -49,6 +47,7 @@ exclude,jobg8-2089709,Marketing Assistant,Technical Prospects - Agency - Permane
 exclude,jobg8-23643_225658052,Marketing Partnership Executive,Matchtech - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
 exclude,jobg8-23643_225700091,Paralegal,Unity Resourcing Ltd - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
 exclude,jobg8-2065406,Paralegal - Family,Edwards & Pearce - Doncaster - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
+exclude,jobg8-2087398,Part Time Finance Assistant,Hays Specialist Recruitment Limited - Agency - Permanent,Yorkshire,JobG8,exclude,exclude,Broad regional label; not York-city evidence.,yorkshire,york-service-administrator-jobs
 exclude,jobg8-23643_225536401,Payroll/Finance Administrator,Ventrolla - Agency - Permanent,Harrogate,JobG8,exclude,exclude,Separate employment market.,harrogate,york-service-administrator-jobs
 exclude,jobg8-108215746,Project Administrator,Equals One Ltd - Agency - Permanent,Selby,JobG8,exclude,exclude,Separate employment market.,selby,york-service-administrator-jobs
 exclude,jobg8-23643_225746940,Project Administrator,Innovex - Agency - Permanent,Selby,JobG8,exclude,exclude,Separate employment market.,selby,york-service-administrator-jobs

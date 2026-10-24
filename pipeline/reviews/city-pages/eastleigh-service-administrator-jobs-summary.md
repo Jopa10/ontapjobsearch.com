@@ -17,10 +17,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 ## Counts
 - automatic include: 3
 - automatic review: 101
-- automatic exclude: 64
+- automatic exclude: 63
 - effective include: 3
 - effective review: 101
-- effective exclude: 64
+- effective exclude: 63
 
 ## INCLUDE (3)
 
@@ -1274,7 +1274,7 @@ job_id: jobg8-23643_225665585
 reason: The stated location is broader or less specific than the approved Eastleigh employment market and needs review.
 ---
 
-## EXCLUDE (64)
+## EXCLUDE (63)
 
 ---
 action: 
@@ -1813,18 +1813,6 @@ company: Amour Recruitment - Agency - Permanent
 location: Portsmouth
 source: JobG8
 job_id: jobg8-23643_225701326
-reason: The stated workplace belongs outside the approved Eastleigh employment market.
----
-
----
-action: 
-decision: exclude
-automatic_decision: exclude
-title: Operations Coordinator
-company: Huntress - Agency - Permanent
-location: Portsmouth
-source: JobG8
-job_id: jobg8-23643_225680141
 reason: The stated workplace belongs outside the approved Eastleigh employment market.
 ---
 

@@ -534,6 +534,18 @@ reason: No exact Plymouth workplace matched; local geographic review is required
 action: 
 decision: review
 automatic_decision: review
+title: Payroll Senior
+company: Autograph Specialist Recruitment - Agency - Permanent
+location: Devon
+source: JobG8
+job_id: jobg8-23643_225486999
+reason: No exact Plymouth workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Personal Assistant
 company: Elysium Healthcare
 location: Cullompton, EX15 1EA
@@ -563,18 +575,6 @@ company: Pertemps Plymouth - Agency - Permanent
 location: Devon
 source: JobG8
 job_id: jobg8-23643_225734510
-reason: No exact Plymouth workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Receptionist
-company: ITS (Exeter) Ltd - Agency - Temporary
-location: Devon
-source: JobG8
-job_id: jobg8-23643_225656895
 reason: No exact Plymouth workplace matched; local geographic review is required.
 ---
 

@@ -4,7 +4,7 @@
 - Live route: `/walsall/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 4
-- Effective included jobs: 7
+- Effective included jobs: 6
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 7
-- automatic review: 44
+- automatic include: 6
+- automatic review: 43
 - automatic exclude: 0
-- effective include: 7
-- effective review: 44
+- effective include: 6
+- effective review: 43
 - effective exclude: 0
 
-## INCLUDE (7)
+## INCLUDE (6)
 
 ---
 action: 
@@ -76,18 +76,6 @@ reason: Exact approved Walsall workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: PSR Solutions - Agency - Temporary
-location: Walsall
-source: JobG8
-job_id: jobg8-23643_225714561
-reason: Exact approved Walsall workplace.
----
-
----
-action: 
-decision: include
-automatic_decision: include
 title: Receptionist/Administrator
 company: Bloxwich Medical Practice
 location: Walsall, WS3 3JP
@@ -100,15 +88,15 @@ reason: Exact approved Walsall workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Ward Clerk
-company: Black Country Healthcare NHS Foundation Trust
-location: Walsall, WS2 9XH
-source: NHS Jobs
-job_id: nhs-5664251
+title: Sales Ledger
+company: Alma Personnel - Agency - Permanent
+location: Walsall
+source: JobG8
+job_id: jobg8-23643_224517979
 reason: Exact approved Walsall workplace.
 ---
 
-## REVIEW (44)
+## REVIEW (43)
 
 ---
 action: 
@@ -138,11 +126,11 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Accounts Assistant
-company: SF Partners - Agency - Temporary
-location: Cradley Heath
+title: Accounts Payable/Credit Control- Temp
+company: Gleeson Recruitment Group - Agency - Temporary
+location: Wolverhampton
 source: JobG8
-job_id: jobg8-23643_225709493
+job_id: jobg8-23643_225692119
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -215,6 +203,18 @@ company: Future Select Recruitment - Agency - Permanent
 location: Wolverhampton
 source: JobG8
 job_id: jobg8-23643_225751147
+reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Billing Administrator
+company: SF Partners - Agency - Contract
+location: West Midlands
+source: JobG8
+job_id: jobg8-23643_225693191
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 
@@ -318,18 +318,6 @@ reason: No approved Walsall employment-market rule matched the stated location; 
 action: 
 decision: review
 automatic_decision: review
-title: Document Controller
-company: PSR Solutions - Agency - Permanent
-location: Wolverhampton
-source: JobG8
-job_id: jobg8-23643_225734568
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Financial Services Secretary/Administrator
 company: Gleeson Recruitment Group - Agency - Contract
 location: Dudley
@@ -395,18 +383,6 @@ company: Red Rock Consultants Ltd - Agency - Permanent
 location: Halesowen
 source: JobG8
 job_id: jobg8-23643_225659772
-reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Lead Document Controller
-company: Russell Taylor - Agency - Permanent
-location: Wolverhampton
-source: JobG8
-job_id: jobg8-2101556
 reason: No approved Walsall employment-market rule matched the stated location; local geographic review is required.
 ---
 

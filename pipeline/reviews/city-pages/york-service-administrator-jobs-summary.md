@@ -4,7 +4,7 @@
 - Live route: `/york/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 12
+- Effective included jobs: 10
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 12
+- automatic include: 10
 - automatic review: 17
-- automatic exclude: 35
-- effective include: 12
+- automatic exclude: 36
+- effective include: 10
 - effective review: 17
-- effective exclude: 35
+- effective exclude: 36
 
-## INCLUDE (12)
+## INCLUDE (10)
 
 ---
 action: 
@@ -105,30 +105,6 @@ company: LSL Property Services plc - Agency - Permanent
 location: York
 source: JobG8
 job_id: jobg8-2093053
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Part Time Finance Assistant
-company: Hays Accounts and Finance - Agency - Temporary
-location: York
-source: JobG8
-job_id: jobg8-23643_225696188
-reason: Approved York catchment.
----
-
----
-action: 
-decision: include
-automatic_decision: include
-title: Part Time Finance Assistant
-company: Hays Specialist Recruitment Limited - Agency - Permanent
-location: York
-source: JobG8
-job_id: jobg8-2087398
 reason: Approved York catchment.
 ---
 
@@ -374,7 +350,7 @@ job_id: jobg8-23643_225666115
 reason: No approved York catchment rule matched; local review required.
 ---
 
-## EXCLUDE (35)
+## EXCLUDE (36)
 
 ---
 action: 
@@ -625,6 +601,18 @@ company: Edwards & Pearce - Doncaster - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2065406
+reason: Broad regional label; not York-city evidence.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Part Time Finance Assistant
+company: Hays Specialist Recruitment Limited - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2087398
 reason: Broad regional label; not York-city evidence.
 ---
 

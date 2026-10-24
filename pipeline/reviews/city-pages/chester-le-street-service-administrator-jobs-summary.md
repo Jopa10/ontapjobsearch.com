@@ -16,15 +16,15 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 0
-- automatic review: 120
+- automatic review: 118
 - automatic exclude: 0
 - effective include: 0
-- effective review: 120
+- effective review: 118
 - effective exclude: 0
 
 ## INCLUDE (0)
 
-## REVIEW (120)
+## REVIEW (118)
 
 ---
 action: 
@@ -203,6 +203,18 @@ company: MTrec Recruitment - Agency - Permanent
 location: Northumberland
 source: JobG8
 job_id: jobg8-2075393
+reason: No exact Chester Le Street workplace matched; local geographic review is required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Accounts Senior
+company: SI Recruitment - Agency - Permanent
+location: County Durham
+source: JobG8
+job_id: jobg8-107905235
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -395,18 +407,6 @@ company: Tyneside Surgical Services
 location: Gateshead, NE11 0HF
 source: NHS Jobs
 job_id: nhs-5667685
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Assistant Document Controller
-company: Arup - Agency - Contract
-location: Tyne And Wear
-source: JobG8
-job_id: jobg8-23643_225675589
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 
@@ -714,18 +714,6 @@ reason: No exact Chester Le Street workplace matched; local geographic review is
 action: 
 decision: review
 automatic_decision: review
-title: Document Controller
-company: MTrec Ltd Technical - Agency - Permanent
-location: Northumberland
-source: JobG8
-job_id: jobg8-23643_225630974
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
 title: Electrical Service Administrator
 company: Coleman James - Agency - Permanent
 location: Tyne And Wear
@@ -800,7 +788,7 @@ decision: review
 automatic_decision: review
 title: Graduate Accounts Assistant
 company: Get-Recruited (UK) Ltd - Agency - Permanent
-location: Newcastle Upon Tyne
+location: Tyne And Wear
 source: JobG8
 job_id: jobg8-23643_225721329
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
@@ -1283,18 +1271,6 @@ company: BMC Recruitment Group Ltd - Agency - Permanent
 location: Newton Aycliffe
 source: JobG8
 job_id: jobg8-23643_225678809
-reason: No exact Chester Le Street workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Site Admin Document Controller
-company: Naughton Contracts Limited - Agency - Contract
-location: Northumberland
-source: JobG8
-job_id: jobg8-23643_225663580
 reason: No exact Chester Le Street workplace matched; local geographic review is required.
 ---
 

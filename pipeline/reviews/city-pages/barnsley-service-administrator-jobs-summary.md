@@ -16,11 +16,11 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 6
-- automatic review: 10
-- automatic exclude: 46
+- automatic review: 12
+- automatic exclude: 48
 - effective include: 6
-- effective review: 10
-- effective exclude: 46
+- effective review: 12
+- effective exclude: 48
 
 ## INCLUDE (6)
 
@@ -96,7 +96,7 @@ job_id: jobg8-23643_225749128
 reason: Approved Barnsley catchment.
 ---
 
-## REVIEW (10)
+## REVIEW (12)
 
 ---
 action: 
@@ -150,6 +150,18 @@ reason: No approved Barnsley catchment rule matched; local review required.
 action: 
 decision: review
 automatic_decision: review
+title: Ecommerce Marketing Executive
+company: Cavendish Maine Recruitment - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-2077109
+reason: No approved Barnsley catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
 title: Factory Administrator
 company: E3 Recruitment - Agency - Permanent
 location: Brinsworth
@@ -167,6 +179,18 @@ company: Reed - Agency - Permanent
 location: Yorkshire
 source: JobG8
 job_id: jobg8-2067582
+reason: No approved Barnsley catchment rule matched; local review required.
+---
+
+---
+action: 
+decision: review
+automatic_decision: review
+title: Junior AEO Marketing Executive
+company: Back TO Work - Agency - Permanent
+location: Yorkshire
+source: JobG8
+job_id: jobg8-23643_225754398
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
@@ -218,7 +242,7 @@ job_id: jobg8-23643_225681456
 reason: No approved Barnsley catchment rule matched; local review required.
 ---
 
-## EXCLUDE (46)
+## EXCLUDE (48)
 
 ---
 action: 
@@ -548,6 +572,18 @@ reason: Separate employment market.
 action: 
 decision: exclude
 automatic_decision: exclude
+title: Marketing Communications Manager
+company: Michael Page - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-23643_225668884
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
 title: Matter Administrator
 company: CRA Consulting - Agency - Permanent
 location: Sheffield
@@ -757,6 +793,18 @@ company: Unicorn Resourcing - Agency - Permanent
 location: Rotherham
 source: JobG8
 job_id: jobg8-23643_225739769
+reason: Separate employment market.
+---
+
+---
+action: 
+decision: exclude
+automatic_decision: exclude
+title: Social Media Executive
+company: Elevation Recruitment Group - Agency - Permanent
+location: Sheffield
+source: JobG8
+job_id: jobg8-2053411
 reason: Separate employment market.
 ---
 

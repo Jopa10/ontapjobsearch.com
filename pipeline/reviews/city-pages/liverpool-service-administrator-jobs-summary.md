@@ -4,7 +4,7 @@
 - Live route: `/liverpool/service-administrator-jobs`
 - Mode: `publish`
 - Minimum live-job threshold: 6
-- Effective included jobs: 31
+- Effective included jobs: 32
 - Threshold currently met: yes
 
 ## How to review
@@ -15,14 +15,14 @@ Jobs are grouped include first, review second and exclude last, then alphabetica
 JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are unchanged.
 
 ## Counts
-- automatic include: 31
+- automatic include: 32
 - automatic review: 5
 - automatic exclude: 0
-- effective include: 31
+- effective include: 32
 - effective review: 5
 - effective exclude: 0
 
-## INCLUDE (31)
+## INCLUDE (32)
 
 ---
 action: 
@@ -184,11 +184,11 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Finance Officer
-company: Alder Hey Children's Charity - Agency - Permanent
+title: Document Controller
+company: Penguin Recruitment Ltd - Agency - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-2174208
+job_id: jobg8-2124299
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -196,11 +196,11 @@ reason: Approved conservative Liverpool launch catchment.
 action: 
 decision: include
 automatic_decision: include
-title: Financial Services Administrator
-company: Search Consultancy Ltd - Agency - Permanent
+title: Finance Officer
+company: Alder Hey Children's Charity - Agency - Permanent
 location: Liverpool
 source: JobG8
-job_id: jobg8-23643_225734026
+job_id: jobg8-2174208
 reason: Approved conservative Liverpool launch catchment.
 ---
 
@@ -261,6 +261,18 @@ company: Adecco - Agency - Temporary
 location: Liverpool
 source: JobG8
 job_id: jobg8-23643_225753553
+reason: Approved conservative Liverpool launch catchment.
+---
+
+---
+action: 
+decision: include
+automatic_decision: include
+title: Payroll & Pensions Administrator
+company: Search Consultancy Ltd - Agency - Permanent
+location: Liverpool
+source: JobG8
+job_id: jobg8-23643_225719250
 reason: Approved conservative Liverpool launch catchment.
 ---
 

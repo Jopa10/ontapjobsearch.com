@@ -76,11 +76,11 @@ reason: Exact approved Swansea workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Customer Service Advisor - Welsh Speaking/Written
-company: Adecco - Agency - Contract
-location: Swansea
-source: JobG8
-job_id: jobg8-23643_225730827
+title: Receptionist
+company: NHS Wales Shared Services Partnership
+location: Swansea, SA6 8BX
+source: NHS Jobs
+job_id: nhs-5623771
 reason: Exact approved Swansea workplace.
 ---
 
@@ -88,11 +88,11 @@ reason: Exact approved Swansea workplace.
 action: 
 decision: include
 automatic_decision: include
-title: Receptionist
-company: NHS Wales Shared Services Partnership
-location: Swansea, SA6 8BX
-source: NHS Jobs
-job_id: nhs-5623771
+title: Senior Finance Officer
+company: Yolk Recruitment - Agency - Permanent
+location: Swansea
+source: JobG8
+job_id: jobg8-23643_225668604
 reason: Exact approved Swansea workplace.
 ---
 

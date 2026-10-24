@@ -16,10 +16,10 @@ JobG8 identifiers are prefixed `jobg8-` in review files only; live job IDs are u
 
 ## Counts
 - automatic include: 10
-- automatic review: 158
+- automatic review: 157
 - automatic exclude: 0
 - effective include: 10
-- effective review: 158
+- effective review: 157
 - effective exclude: 0
 
 ## INCLUDE (10)
@@ -144,7 +144,7 @@ job_id: nhs-5676428
 reason: Exact approved Basingstoke workplace.
 ---
 
-## REVIEW (158)
+## REVIEW (157)
 
 ---
 action: 
@@ -1343,18 +1343,6 @@ company: Amour Recruitment - Agency - Permanent
 location: Portsmouth
 source: JobG8
 job_id: jobg8-23643_225701326
-reason: No exact Basingstoke workplace matched; local geographic review is required.
----
-
----
-action: 
-decision: review
-automatic_decision: review
-title: Operations Coordinator
-company: Huntress - Agency - Permanent
-location: Portsmouth
-source: JobG8
-job_id: jobg8-23643_225680141
 reason: No exact Basingstoke workplace matched; local geographic review is required.
 ---
 
