@@ -14,6 +14,12 @@ from .contracts import ParsedDecision, ReviewItem, SourceResult, VALID_ACTIONS, 
 DEFAULT_MASTER = PIPELINE_ROOT / "reviews/daily/ontap-daily-review.md"
 MAX_JOB_LEVEL_QUARANTINE_PER_SOURCE = 15
 UNRESOLVED_POLICIES = {"quarantine", "withhold"}
+ACTION_ALIASES = {"sel": "select", "exc": "exclude"}
+
+
+def _normalise_action(value: str) -> str:
+    action = value.strip().casefold()
+    return ACTION_ALIASES.get(action, action)
 
 
 def _md(value: object) -> str:
@@ -37,7 +43,7 @@ def _existing_actions(path: Path) -> dict[tuple[str, str, str, str], str]:
         return {}
     actions: dict[tuple[str, str, str, str], str] = {}
     for block in _blocks(path.read_text(encoding="utf-8-sig")):
-        action = _field(block, "action").casefold()
+        action = _normalise_action(_field(block, "action"))
         if action not in {"select", "exclude"}:
             continue
         key = (
@@ -94,8 +100,8 @@ def master_text(
             f"**{total} job(s) need a human decision.**",
             "",
             "Edit only each `action:` line:",
-            "- `action: select` = include the vacancy.",
-            "- `action: exclude` = reject the vacancy.",
+            "- `action: sel` (or `action: select`) = include the vacancy.",
+            "- `action: exc` (or `action: exclude`) = reject the vacancy.",
             "- Leave `action:` blank while you are still deciding it.",
             f"- Up to {MAX_JOB_LEVEL_QUARANTINE_PER_SOURCE} unresolved/bad action rows per source are fail-closed at job level: those jobs are withheld and flagged while the rest of that source can continue.",
             f"- More than {MAX_JOB_LEVEL_QUARANTINE_PER_SOURCE} unresolved/bad action rows in one source isolate that source from the run; they do not block other clean sources.",
@@ -226,7 +232,7 @@ def parse_master(path: Path = DEFAULT_MASTER) -> tuple[str, list[ParsedDecision]
         source_job_id = _field(block, "source_job_id")
         if not source_key or not source_job_id:
             continue
-        action = _field(block, "action").casefold()
+        action = _normalise_action(_field(block, "action"))
         if action not in VALID_ACTIONS:
             action = ""
         item = ReviewItem(

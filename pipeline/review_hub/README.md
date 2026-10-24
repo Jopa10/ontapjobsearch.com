@@ -10,7 +10,7 @@ The operator normally touches one file only:
 
 Each morning the hub reads current source review outputs and includes only vacancies that still need a human decision. Automatic selections, hard passes and unchanged remembered decisions are omitted. A source that did not refresh for the current date is shown as `STALE` or `MISSING` and contributes no review items; it must never be interpreted as zero inventory.
 
-Edit only `action:` in each review block (`select`, `exclude`, or blank). The apply workflow validates the stored fingerprint against the current source facts before copying a non-blank action back to the owning review surface.
+Edit only `action:` in each review block (`sel` / `select`, `exc` / `exclude`, or blank). The apply workflow validates the stored fingerprint against the current source facts before copying a non-blank action back to the owning review surface.
 
 If a source refresh is stale, fix/rerun that source first and then rerun `Ontap daily review` to rebuild the master edit file before reviewing. The publication layer is fail-soft where safe: a stale or failed source can be isolated while clean sources continue, but that does not make stale inventory equivalent to zero.
 
