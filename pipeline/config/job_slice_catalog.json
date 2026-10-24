@@ -104,6 +104,7 @@
     "Leicestershire": { "slug": "leicestershire", "anchor_town": "Leicester" },
     "Lincolnshire": { "slug": "lincolnshire", "anchor_town": "Lincoln" },
     "Merseyside - Liverpool": { "slug": "merseyside-liverpool", "anchor_town": "Liverpool" },
+    "Merseyside - St Helens & Knowsley": { "slug": "st-helens-knowsley", "anchor_town": "St Helens" },
     "Shropshire": { "slug": "shropshire", "anchor_town": "Shrewsbury" },
     "Suffolk": { "slug": "suffolk", "anchor_town": "Ipswich" },
     "West Midlands - Black Country": { "slug": "black-country", "anchor_town": "Wolverhampton" },

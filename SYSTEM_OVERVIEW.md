@@ -7,6 +7,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 24 October 2026 — **St Helens & Knowsley prepared for a later page launch:** its existing assessment geography is now connected to the regional page configuration. The page is not activated; publishing, selection rules and schedules are unchanged.
+
 - 24 October 2026 — **Private daily emails switched to the agreed matching rules:** the automatic post-publish sender now uses the version verified by 35 tests and the two-job email received by the owner. It remains restricted to the existing private test address after successful publication. Duplicate-send protection remains active; today's validation sends no email. Public signup and rollout remain off.
 
 - 24 October 2026 — **Sutton-in-Ashfield geography corrected:** the authoritative `pipeline/geo/geo_lookup.xlsx` Sheet1 cell B1029 now maps Sutton-in-Ashfield to Nottinghamshire instead of London. Sutton (London) and Sutton Coldfield remain unchanged. This source correction takes effect when inventory is regenerated and normally published; existing generated app/report snapshots are not manually relabelled. Email-alert matching rules and private recipient safeguards are unchanged.
