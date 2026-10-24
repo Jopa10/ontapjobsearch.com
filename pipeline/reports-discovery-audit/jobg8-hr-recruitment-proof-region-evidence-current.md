@@ -1,123 +1,140 @@
 # JobG8 HR / Recruitment proof-region evidence candidates
 
-Content-unique national LIKELY_IN + BORDERLINE inventory: **184** against viability floor **100**.
+Content-unique national LIKELY_IN + BORDERLINE inventory: **361** against viability floor **100**.
 This report does not approve proof regions or any LIVE slice. It surfaces the strongest current markets for human boundary inspection after national discovery.
 
 ## London
 
-- LIKELY_IN: **17**
-- BORDERLINE: **29**
-- Provisional OUT: **66**
+- LIKELY_IN: **10**
+- BORDERLINE: **41**
+- Provisional OUT: **112**
 
 Most common LIKELY_IN titles:
 
-- HR Assistant: 5
 - HR Coordinator: 2
-- HR Administrator: 1
-- Interim HR Coordinator, 2 months: 1
-- Learning & Development Assistant: 1
-- HR People Coordinator: 1
-- Temporary HR Administrator - Part-Time: 1
-- Talent Acquisition Assistant: 1
-- Temp HR Administrator!: 1
-- Temp HR Coordinator - Media: 1
-- HR Assistant (temporary): 1
-- HR ASSISTANT SPECIALIST LAW FIRM &;40,000 4:1 HYBRID: 1
+- HR Administrator: 2
+- Interim Recruitment Coordinator: 1
+- Part- Time HR Administrator: 1
+- HR Assistant: 1
+- Human Resources Administrator: 1
+- Human Resources Coordinator: 1
+- Recruitment Administrator: 1
 
 Borderline titles:
 
+- Recruitment Resourcer: 4
 - HR Officer: 3
-- HR Operations Administrator: 1
-- Recruitment Resourcer: 1
-- HR Recruiter: 1
-- People and Culture Advisor: 1
-- Talent Acquisition Advisor: 1
-- HR and Systems Administrator - National Charity: 1
-- Head of Finance and Operations: 1
-- HR Transformation Lead(Central Gov): 1
-- Recruitment HR & Compliance Manager: 1
-- HR Operations Assistant: 1
-- Interim Talent Acquisition Specialist: 1
-- HR Change Specialist / Business Partner) - Part Time: 1
-- Recruitment Advisor, Law Firm, London, Agile: 1
-- Product Development Manager: 1
-- Office Manager/ Sales Administrator: 1
-- HR & Administration Officer: 1
-- HR Operations - Hi Bob Essential: 1
-- HR & Professional Development Manager: 1
-- Sales Administrator- Central London: 1
-- Interim Part time HR Officer: 1
-- Recruitment Advisor - Brent Council: 1
-- HR and Onboarding Officer: 1
-- HR Officer - Employee Relations: 1
-- HR/ ER Policy Lead: 1
-- HR Caseworker - Temporary: 1
-- People & Talent Partner: 1
+- Office Support & Coordinator: 1
+- Lay Trustees (Finance & HR): 1
+- Recruiter - Complex Care: 1
+- Payroll and HR Operations Administrator: 1
+- Accountant - (Recruitment Industry): 1
+- HR Onboarding And Compliance Officer: 1
+- Recruitment Executive: 1
+- Payroll and Operations Assistant: 1
+- Payroll and HR Officer (Maternity Cover): 1
+- Apprentice Recruitment Resourcer: 1
+- Recruiter: 1
+- Recruitment Apprentice: 1
+- Internal Recruiter: 1
+- Hybrid Administrator / Resourcer - Wimbledon: 1
+- HR Officer - Data Project: 1
+- HR & Office Administrator: 1
+- Resourcer: 1
+- Business Support Coordinator: 1
+- Delivery Consultant- Recruitment: 1
+- Resourcing Coordinator: 1
+- Office Administrator / Recruitment Support Assistant: 1
+- French speaking Recruiter: 1
+- Onboarding Coordinator: 1
+- German HR Payroll: 1
+- HR Systems & Operations Officer: 1
+- Dutch HR Payroll: 1
+- Graduate Recruiter - Dutch or German Speaking: 1
+- Talent Acquisition Associate: 1
+- HR Officer HYBRID: 1
+- Trustee (HR & EDI, Community Arts, or Law & Tech Specialisms): 1
+- HR Business Analyst: 1
+- Early Careers Recruitment Apprentice: 1
+- HR Administrator (People Operations Officer): 1
+- HR & Office Administrator - Starting ASAP: 1
 
-## West Midlands - Coventry & Warwickshire
+## Surrey
+
+- LIKELY_IN: **7**
+- BORDERLINE: **4**
+- Provisional OUT: **21**
+
+Most common LIKELY_IN titles:
+
+- Temporary HR Assistant: 1
+- Temporary HR Administrator - DBS checked: 1
+- HR Administrator: 1
+- HR Assistant: 1
+- People Administrator: 1
+- HR Coordinator: 1
+- HR Administrator - Cobham: 1
+
+Borderline titles:
+
+- Recruitment Resourcer - Entry Level Role: 1
+- Workforce Administrator: 1
+- People, Payroll & Compliance Officer: 1
+- Payroll Coordinator Immediate Start Temp to Perm: 1
+
+## Nottinghamshire
+
+- LIKELY_IN: **7**
+- BORDERLINE: **3**
+- Provisional OUT: **21**
+
+Most common LIKELY_IN titles:
+
+- HR Administrator: 4
+- HR Assistant: 1
+- Data Entry & HR Administrator - Temporary: 1
+- Learning and Development Administrator: 1
+
+Borderline titles:
+
+- Senior Talent Acquisition Specialist: 1
+- Inhouse Recruiter, Account Manager, Construction: 1
+- Recruitment Resourcer (entry to recruitment): 1
+
+## Buckinghamshire
 
 - LIKELY_IN: **6**
-- BORDERLINE: **0**
-- Provisional OUT: **7**
-
-Most common LIKELY_IN titles:
-
-- HR Assistant: 2
-- HR Coordinator: 1
-- People Coordinator: 1
-- HR Administrator, Temporary to Permanent Opportunity: 1
-- HR & Recruitment Coordinator: 1
-
-## Northamptonshire
-
-- LIKELY_IN: **5**
 - BORDERLINE: **2**
-- Provisional OUT: **6**
+- Provisional OUT: **13**
 
 Most common LIKELY_IN titles:
 
-- HR Administrator: 2
-- Network HR Assistant: 1
-- People Assistant: 1
-- HR Administrator (Northampton Students Union Students Only): 1
-
-Borderline titles:
-
-- HR & Payroll Coordinator: 1
-- Recruitment Account Coordinator: 1
-
-## Hampshire
-
-- LIKELY_IN: **5**
-- BORDERLINE: **1**
-- Provisional OUT: **17**
-
-Most common LIKELY_IN titles:
-
-- HR Administrator: 3
 - HR Assistant: 1
-- Temporary Recruitment Administrator: 1
+- People & Culture Coordinator: 1
+- HR Assistant Manager: 1
+- HR Coordinator: 1
+- Senior HR Assistant: 1
+- Temporary HR Administrator: 1
 
 Borderline titles:
 
-- HR and Operations Manager: 1
+- Human Resources Officer: 1
+- Senior Recruiter: 1
 
-## Greater Manchester - Manchester & Salford
+## Staffordshire
 
-- LIKELY_IN: **4**
-- BORDERLINE: **4**
-- Provisional OUT: **18**
+- LIKELY_IN: **6**
+- BORDERLINE: **2**
+- Provisional OUT: **8**
 
 Most common LIKELY_IN titles:
 
+- Recruitment Administrator: 2
+- Recruitment Coordinator: 2
 - HR Administrator: 2
-- Senior People Services Administrator: 1
-- Learning & Development Coordinator: 1
 
 Borderline titles:
 
-- Human Resources Team Leader: 1
-- Human Resources Officer: 1
-- HR Service Centre Manager: 1
-- HR ER Meeting Lead: 1
+- Talent Acquisition Advisor (12 Month FTC): 1
+- Trainee Recruitment: 1
 

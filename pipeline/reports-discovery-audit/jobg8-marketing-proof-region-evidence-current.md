@@ -1,124 +1,160 @@
 # JobG8 Marketing proof-region evidence candidates
 
-Content-unique national LIKELY_IN + BORDERLINE inventory: **225** against viability floor **100**.
+Content-unique national LIKELY_IN + BORDERLINE inventory: **393** against viability floor **100**.
 This report does not approve proof regions or any LIVE slice. It surfaces the strongest current markets for human boundary inspection after national discovery.
 
 ## London
 
-- LIKELY_IN: **37**
-- BORDERLINE: **18**
-- Provisional OUT: **18**
+- LIKELY_IN: **50**
+- BORDERLINE: **26**
+- Provisional OUT: **21**
 
 Most common LIKELY_IN titles:
 
-- Marketing Manager: 2
-- Marketing Executive: 2
-- Digital Marketing Executive: 2
-- Luxury Content Marketing Executive: 1
-- Marketing Coordinator: 1
-- Media & Marketing Officer: 1
-- Digital Marketing Manager - Retail Experience: 1
-- Marketing Manager - Events: 1
-- German-Speaking Freelance Social Media Manager: 1
-- Digital Communications Officer: 1
-- Senior Content Marketing Manager: 1
-- Digital Marketing Manager - Agency Experience: 1
+- Marketing Executive: 7
+- Digital Marketing Executive: 3
+- Marketing Manager: 3
+- Social Media Executive: 3
+- Communications Officer: 2
+- Senior Marketing Manager: 2
+- Graduate Marketing Executive: 2
+- Digital Marketing Manager: 1
+- Content Assistant: 1
+- Assistant Marketing Manager: 1
+- PR Executive: 1
+- B2B Marketing Executive: 1
 
 Borderline titles:
 
-- Account Manager - Creative Agency / Channel Marketing: 1
-- Marketing Business Partner - Insurance: 1
-- Copywriter: 1
-- Digital Marketing & Social Media Consultant: 1
-- Corporate Communications Lead: 1
-- Freelance, PR Account Manager: 1
-- Marketing & Business Development Manager: 1
-- Marketing and Digital Assistant: 1
-- Marketing and Campaigns Officer - 6 month contract: 1
-- Senior Marketing and Events Executive: 1
-- Marketing & BD Executive: 1
-- Marketing Planner: 1
-- Contract- Content SEO: 1
-- Public Relations Manager (TV & Film Giant!): 1
-- Marketing Lead: 1
-- Digital Marketing Campaign Specialist (Language Skills): 1
-- Marketing Specialist: 1
-- Adobe Campaign Specialist: 1
-
-## Berkshire
-
-- LIKELY_IN: **8**
-- BORDERLINE: **3**
-- Provisional OUT: **1**
-
-Most common LIKELY_IN titles:
-
-- Senior Marketing Executive: 2
-- Digital Marketing Executive/Manager: 1
-- Content Marketing Executive: 1
-- Marketing Manager: 1
-- Marketing Officer: 1
-- Marketing Assistant - 14 months fixed term: 1
-- Internal Communications & Marketing Executive: 1
-
-Borderline titles:
-
+- Amazon PPC Executive: 2
+- Digital Marketing Senior: 1
+- Advertising Account Coordinator (German Speaking): 1
+- Senior Marketing Cloud Analyst: 1
+- Email Marketing Specialist: 1
+- Social Media and Partnership Manager: 1
+- Senior Director of Regional Marketing: 1
+- CRM Analyst: 1
+- Social Media Business Director: 1
+- Marketing & Growth Executive: 1
+- Paid Media Manager - B2B: 1
+- Paid Media Team Lead: 1
+- Media Strategist - OMNI Media: 1
+- Marketing and Sales: 1
+- Growth Marketing Specialist: 1
+- Senior Creator Executive - Social Media Campaigns. Social Agency: 1
+- Marketing Campaign Executive: 1
+- Content Producer: 1
+- eCommerce Product Photographer: 1
+- Digital Coordinator: 1
+- E-Commerce & Social Media Administrator: 1
+- External Engagement Officer: 1
+- Employee Engagement Manager (Fundraising): 1
+- Senior Social Media & Strategy Executive - Community & Engagement: 1
 - Marketing Campaign Manager: 1
-- Senior Account Manager - Experiential Marketing: 1
-- Marketing & Design Executive: 1
 
-## Surrey
+## Nottinghamshire
 
-- LIKELY_IN: **7**
-- BORDERLINE: **2**
+- LIKELY_IN: **17**
+- BORDERLINE: **3**
 - Provisional OUT: **4**
 
 Most common LIKELY_IN titles:
 
-- Digital Marketing Executive: 2
-- Marketing Assistant/Website Administrator: 1
-- Website and Marketing Assistant: 1
-- Part-Time Marketing Manager: 1
-- Brand Marketing Assistant: 1
-- Graduate Social Media Executive: 1
+- Marketing Executive: 4
+- Group Marketing Manager: 2
+- Marketing Manager: 2
+- Digital Marketing Apprentice: 2
+- Entry Level Promotional Marketing Assistant: 1
+- Senior Marketing Executive: 1
+- Marketing Officer: 1
+- Trainee Marketing Executive: 1
+- Digital Marketing Manager: 1
+- Aston Martin Marketing Executive: 1
+- Social Media Manager (Global): 1
 
 Borderline titles:
 
-- CRM Executive: 1
-- Brand Ambassador: 1
+- Digital Communications & Fundraising Officer: 1
+- Amazon Digital Advertising Executive - Entry Level Graduate Role with: 1
+- Amazon Digital Advertising Executive - Entry Level Graduate Role with Full Training: 1
 
-## Oxfordshire
+## Greater Manchester - Manchester & Salford
 
-- LIKELY_IN: **6**
-- BORDERLINE: **2**
-- Provisional OUT: **1**
-
-Most common LIKELY_IN titles:
-
-- Marketing Manager: 1
-- Content Creator: 1
-- Digital Marketing Executive, Meta Ads, Google Ads, Oxford, COR7681: 1
-- Digital Marketing Executive: 1
-- Marketing Executive: 1
-- Digital Marketing Manager: 1
-
-Borderline titles:
-
-- Junior PR Account Manager: 1
-- Church Engagement Manager: 1
-
-## Essex
-
-- LIKELY_IN: **6**
-- BORDERLINE: **0**
-- Provisional OUT: **1**
+- LIKELY_IN: **15**
+- BORDERLINE: **5**
+- Provisional OUT: **14**
 
 Most common LIKELY_IN titles:
 
-- E-commerce Assistant: 1
-- Digital Marketing & Social Media Executive: 1
-- Social Media Manager: 1
-- Marketing Executive (Content Creation / Adobe Creative Suite): 1
-- Digital Marketing Manager: 1
+- Marketing Executive: 3
 - Social Media & Content Creator: 1
+- Senior Digital Marketing Manager: 1
+- Social Media Manager (Podcasts / Video): 1
+- Social Media Manager: 1
+- Marketing Manager (Commercial): 1
+- Communications Executive: 1
+- Marketing Communications Manager, 12m FTC. Immediate Start. Manchester. Global hospitality business: 1
+- HubSpot Funnel & Conversion Marketing Manager - Travel Franchise: 1
+- B2B Marketing Executive: 1
+- Communications Executive - Content, PR & Marketing - Remote: 1
+- B2B marketing Manager: 1
+
+Borderline titles:
+
+- PR Manager: 1
+- Paid Media Manager: 1
+- Amazon PPC Executive: 1
+- Marketing Associate: 1
+- Fundraising Officer (Social Media): 1
+
+## Surrey
+
+- LIKELY_IN: **14**
+- BORDERLINE: **1**
+- Provisional OUT: **2**
+
+Most common LIKELY_IN titles:
+
+- Marketing Assistant: 2
+- Marketing Manager: 2
+- Internal Communications Officer: 2
+- Beauty Brand Manager: 1
+- Part-Time Marketing Manager: 1
+- Senior Digital Marketing Executive - Integrated Marketing Agency: 1
+- Digital Marketing Executive: 1
+- Digital Marketing Coordinator: 1
+- Social Media and Marketing Executive: 1
+- Digital Content Assistant: 1
+- Temporary Communications Administrator: 1
+
+Borderline titles:
+
+- CRM & Partnerships Executive: 1
+
+## Yorkshire - West
+
+- LIKELY_IN: **10**
+- BORDERLINE: **7**
+- Provisional OUT: **3**
+
+Most common LIKELY_IN titles:
+
+- Marketing Executive (Luxury Spa & Sauna's): 2
+- Brand Manager: 2
+- Marketing Executive: 1
+- Digital Marketing Executive: 1
+- Senior Paid Media Executive: 1
+- External Communications Manager: 1
+- Marketing Manager: 1
+- Marketing Assistant Asda Money & Mobile: 1
+
+Borderline titles:
+
+- PPC Manager: 1
+- Referral & Affiliate Marketing Specialist: 1
+- Pr Manager: 1
+- Interim Procurement Lead - Marketing Spend £6-700/d Leeds: 1
+- Paid Media Manager: 1
+- Community Engagement Coordinator: 1
+- Graduate Recruitment Consultant - Sales and Marketing: 1
 

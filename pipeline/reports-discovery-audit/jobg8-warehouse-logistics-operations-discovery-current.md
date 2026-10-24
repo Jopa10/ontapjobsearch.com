@@ -1,12 +1,12 @@
 # JobG8 Warehouse & Logistics Operations family discovery
 
-Feed: **2026-09-22.xlsx**
-Jobs in feed: **17,340**
-Raw broad possible universe before exclusions/dedupe: **176**
+Feed: **2026-10-24.xlsx**
+Jobs in feed: **20,000**
+Raw broad possible universe before exclusions/dedupe: **332**
 Reference-key duplicates within broad universe: **0**
-Reference-deduped broad universe: **176**
-Additional cross-reference content duplicates: **0**
-Content-unique broad universe: **176**
+Reference-deduped broad universe: **332**
+Additional cross-reference content duplicates: **2**
+Content-unique broad universe: **330**
 
 This is discovery evidence only. JobG8 classification is reported but never used as a candidate gate.
 All source rows remain in the CSV with duplicate flags; viability, geography and recurrence use content-unique adverts.
@@ -14,32 +14,32 @@ Salary rule applied diagnostically: **over £45,000 = OUT; exactly £45,000 is n
 
 ## Early volume viability gate
 
-Provisional LIKELY_IN: **32**
-Provisional BORDERLINE: **28**
-Provisional OUT (specialist/salary): **116**
-Estimated genuine inventory before deep advert review: **~46** (working range **32–60**).
+Provisional LIKELY_IN: **68**
+Provisional BORDERLINE: **66**
+Provisional OUT (specialist/salary): **196**
+Estimated genuine inventory before deep advert review: **~101** (working range **68–134**).
 Viability floor: **~100 genuine jobs nationally**.
-Early verdict: **STOP / VERY THIN**.
+Early verdict: **GO TO BOUNDARY SAMPLE / SCALE PLAUSIBLE**.
 
 ## Provisional decision breakdown
 
 | Decision | Content-unique jobs |
 |---|---:|
-| OUT_SPECIALIST | 94 |
-| LIKELY_IN | 32 |
-| BORDERLINE | 28 |
-| OUT_SALARY | 22 |
+| OUT_SPECIALIST | 149 |
+| LIKELY_IN | 68 |
+| BORDERLINE | 66 |
+| OUT_SALARY | 47 |
 
 ## Salary distribution — content-unique broad universe
 
 | Salary bucket | Jobs |
 |---|---:|
-| missing/unknown | 71 |
-| £25k–£30k | 41 |
-| £30k–£40k | 25 |
-| >£45,000 OUT | 22 |
-| £40k–£45,000 | 9 |
-| <£25k | 8 |
+| £25k–£30k | 103 |
+| £30k–£40k | 89 |
+| missing/unknown | 61 |
+| >£45,000 OUT | 47 |
+| <£25k | 20 |
+| £40k–£45,000 | 10 |
 
 ## JobG8 classifications feeding the seam
 
@@ -47,58 +47,60 @@ Classification column: **/Job/Classification**
 
 | JobG8 classification | Jobs |
 |---|---:|
-| Transport & Logistics | 148 |
-| I.T. & Communications | 11 |
-| Accounting | 6 |
-| Real Estate & Property | 2 |
-| Call Centre / CustomerService | 2 |
-| Executive Positions | 2 |
-| Administration | 1 |
-| HR / Recruitment | 1 |
-| Science & Technology | 1 |
-| Sales & Marketing | 1 |
-| Banking & Financial Services | 1 |
+| Transport & Logistics | 193 |
+| Administration | 69 |
+| Sales & Marketing | 36 |
+| Call Centre / CustomerService | 6 |
+| HR / Recruitment | 5 |
+| Government & Defence | 4 |
+| Accounting | 4 |
+| Banking & Financial Services | 4 |
+| I.T. & Communications | 4 |
+| Advert / Media / Entertainment | 2 |
+| Real Estate & Property | 1 |
+| Healthcare & Medical | 1 |
+| Legal | 1 |
 
 ## Geography — evidence only, not an occupational gate
 
 Canonical UK assessment universe: **78 markets**.
-Content-unique candidates mapping into that UK market universe: **166**.
-Content-unique candidates outside it or unresolved: **10**.
+Content-unique candidates mapping into that UK market universe: **288**.
+Content-unique candidates outside it or unresolved: **42**.
 The national occupational discovery count above is not reduced by geography. Geography is used only to describe spread after occupational candidate discovery.
 Exact detail aliases are rolled up to their canonical UK assessment market; ambiguous generic geo values remain unresolved rather than being forced into the wrong market.
 
 | Assessable market / geo result | Jobs | In UK market universe? |
 |---|---:|---|
-| London | 13 | YES |
-| North East | 8 | YES |
-| Northamptonshire | 8 | YES |
-| Bristol & Bath | 7 | YES |
-| Gloucestershire | 7 | YES |
-| Other / Unknown | 7 | NO |
-| Northern Ireland - East | 6 | YES |
-| Lincolnshire | 5 | YES |
-| Hertfordshire | 5 | YES |
-| Essex | 5 | YES |
-| Greater Manchester - Manchester & Salford | 5 | YES |
-| Suffolk | 4 | YES |
-| West Midlands - Birmingham & Solihull | 4 | YES |
-| Oxfordshire | 4 | YES |
-| Somerset | 4 | YES |
+| Other / Unknown | 31 | NO |
+| London | 25 | YES |
+| Greater Manchester - Manchester & Salford | 16 | YES |
+| Hampshire | 16 | YES |
+| Oxfordshire | 15 | YES |
+| Yorkshire - West | 14 | YES |
+| Kent | 13 | YES |
+| Nottinghamshire | 9 | YES |
+| Essex | 9 | YES |
+| West Midlands | 8 | NO |
+| Hertfordshire | 8 | YES |
+| Yorkshire - South | 8 | YES |
+| Berkshire | 8 | YES |
+| Leicestershire | 8 | YES |
+| Worcestershire | 8 | YES |
+| West Midlands - Birmingham & Solihull | 7 | YES |
+| Northamptonshire | 7 | YES |
+| North East | 7 | YES |
+| Gloucestershire | 6 | YES |
+| Bedfordshire | 6 | YES |
+| Buckinghamshire | 6 | YES |
+| West Midlands - Black Country | 6 | YES |
+| Surrey | 6 | YES |
+| West Midlands - Coventry & Warwickshire | 6 | YES |
+| Bristol & Bath | 5 | YES |
+| Suffolk | 5 | YES |
+| Dorset | 4 | YES |
 | Sussex | 4 | YES |
-| Kent | 4 | YES |
-| Surrey | 3 | YES |
-| Cheshire - West | 3 | YES |
-| Derbyshire | 3 | YES |
-| Greater Manchester - South | 3 | YES |
-| Dorset | 3 | YES |
-| Yorkshire - East | 3 | YES |
-| Staffordshire | 3 | YES |
-| Hampshire | 3 | YES |
-| Worcestershire | 3 | YES |
-| Nottinghamshire | 3 | YES |
-| Leicestershire | 3 | YES |
-| Cambridgeshire | 3 | YES |
-| Wales - West | 2 | YES |
+| Somerset | 4 | YES |
+| Cambridgeshire | 4 | YES |
 
 ## Next gate
 

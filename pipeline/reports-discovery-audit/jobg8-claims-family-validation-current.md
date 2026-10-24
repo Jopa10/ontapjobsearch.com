@@ -1,12 +1,12 @@
 # JobG8 Claims Support family validation
 
-Feed: **2026-09-22.xlsx**
-Jobs in feed: **17,340**
-Broad insurance/claims universe: **398** raw rows
-IN after advert-level boundary rules: **47** raw rows
+Feed: **2026-10-24.xlsx**
+Jobs in feed: **20,000**
+Broad insurance/claims universe: **515** raw rows
+IN after advert-level boundary rules: **129** raw rows
 BORDERLINE: **0** raw rows
-OUT: **351** raw rows
-Content-unique IN jobs: **45** (removed **2** exact-content duplicate rows)
+OUT: **386** raw rows
+Content-unique IN jobs: **125** (removed **4** exact-content duplicate rows)
 
 Diagnostic only: no LIVE slice, publishing rule or production family status is changed.
 
@@ -23,72 +23,81 @@ Diagnostic only: no LIVE slice, publishing rule or production family status is c
 
 | Decision | Raw rows |
 |---|---:|
-| IN | 47 |
+| IN | 129 |
 | BORDERLINE | 0 |
-| OUT | 351 |
+| OUT | 386 |
 
 ## Content-unique IN regional shape
 
 | Jobs | Ontap region |
 |---:|---|
+| 15 | London |
+| 13 | Greater Manchester - Manchester & Salford |
+| 11 | Scotland West - Glasgow |
+| 8 | Bristol & Bath |
+| 7 | Essex |
+| 6 | West Midlands - Birmingham & Solihull |
+| 5 | Yorkshire - West |
+| 5 | Hampshire |
 | 5 | Staffordshire |
-| 4 | Bristol & Bath |
-| 4 | Greater Manchester - Manchester & Salford |
-| 4 | Essex |
-| 4 | Yorkshire - West |
-| 3 | London |
-| 3 | Hertfordshire |
-| 2 | Scotland West - Glasgow |
-| 2 | North East - Tyneside, Wearside & Northumberland |
-| 1 | Dorset |
-| 1 | Greater Manchester - North |
-| 1 | Suffolk |
-| 1 | Berkshire |
-| 1 | South West |
-| 1 | West Midlands |
-| 1 | Scotland West - Renfrewshire & Inverclyde |
-| 1 | Kent |
+| 4 | Sussex |
+| 4 | North East - Tyneside, Wearside & Northumberland |
+| 3 | Kent |
+| 3 | Wales South - Cardiff & Vale |
+| 3 | Yorkshire - South |
+| 3 | Merseyside - Liverpool |
+| 3 | Greater Manchester - Wigan & Bolton |
+| 3 | West Midlands |
+| 2 | South West |
+| 2 | Berkshire |
+| 2 | Cheshire - East |
+| 1 | Nottinghamshire |
+| 1 | Surrey |
 | 1 | Cheshire - West |
+| 1 | Scotland West - Renfrewshire & Inverclyde |
 | 1 | Leicestershire |
-| 1 | West Midlands - Birmingham & Solihull |
-| 1 | Northamptonshire |
+| 1 | Gloucestershire |
+| 1 | Lancashire - Central |
+| 1 | Greater Manchester - South |
 
 ## JobG8 classifications feeding content-unique IN jobs
 
 | Jobs | JobG8 classification |
 |---:|---|
-| 38 | Insurance & Superannuation |
-| 4 | Legal |
-| 3 | Banking & Financial Services |
+| 122 | Insurance & Superannuation |
+| 3 | Call Centre / CustomerService |
 
 ## Recurring content-unique IN titles
 
 | Jobs | Title |
 |---:|---|
-| 8 | Claims Handler |
+| 12 | Casualty/Liability Claims Technician - Fully Remote |
+| 12 | Senior Casualty/Liability Claims Technician - Fully Remote |
+| 11 | Subisdence Claims Technician |
+| 10 | Claims Handler |
 | 8 | Casualty Claims Handler |
+| 5 | TPA / Property Claims Technician |
+| 5 | Claims Technician |
 | 5 | Subsidence Claims Handler |
+| 5 | Motor Claims Handler |
+| 3 | Insurance Claims Coordinator |
+| 3 | Claims Administrator |
 | 3 | Commercial Claims Handler |
-| 2 | Motor Claims Handler |
+| 3 | Insurance Claims Handler |
 | 2 | Property Claims Handler |
-| 2 | Technical Claims Handler |
-| 1 | Claims Handler - Home / Motor / Insurance - Remote |
-| 1 | Junior Claims Technician - Marine |
-| 1 | Claims Administrator |
-| 1 | Credit Hire Claims Handler |
-| 1 | Claims & Customer Service Advisor |
-| 1 | Senior Claims Handler EL/PL |
-| 1 | EL/PL Liability Claims Handler |
-| 1 | FNOL Motor Claims Handler |
-| 1 | Personal Injury Claims Handler |
-| 1 | Commercial Claims Handler (Personal Lines Handlers Considered!) |
-| 1 | Claims Handler (Top Insurance Company) |
-| 1 | Legal Claim Handler |
-| 1 | Legal Claims Advisor |
-| 1 | Claims Administrator - Life and Pensions |
-| 1 | Disease Claims Handler (3 - Month FTC) |
+| 2 | FNOL Motor Claims Handler |
+| 2 | Senior Claims Handler |
+| 2 | Liability Claims Handler |
+| 1 | Casualty /Public Liability Claims Technician |
+| 1 | Senior Casualty Claims Technician |
+| 1 | Property Claims Handler (London) |
+| 1 | Commercial Property Claims Technician Bristol/Hybrid |
+| 1 | Commercial Property Claims Technician Bolton/Hybrid |
+| 1 | Senior Property Claims Handler - Manchester |
+| 1 | Commercial Property Claims Technician - Nottingham |
+| 1 | Property Claims Technician |
 
 ## Salary guard check
 
-Content-unique IN jobs with usable annualised maximum: **8**.
+Content-unique IN jobs with usable annualised maximum: **34**.
 IN jobs still over £50k: **0** (must be zero).
