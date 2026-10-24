@@ -1224,7 +1224,7 @@ hub_fingerprint: c23cb6ef026976424a804de78f6aec52619f3fb1840dbc6c5c941b21b8d97b9
 ## Teaching Vacancies — 91 to review
 
 ---
-action:
+action: exc
 POSS | Teaching Vacancies | Berkshire | Bracknell, South East, RG12 9DA | £15,347.00 - £22,545.00 Annually (Actual) BG-H 15-24 – depending on experience | Exams Manager (part time)
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1242,7 +1242,7 @@ hub_fingerprint: d2c0bb94a30acf8c1bda3bfbb97179e15d59ef42c9f4ab9c3dea6acae6172db
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Buckinghamshire | Milton Keynes, South East, MK17 8XY | £26,824.00 Annually (FTE) | Business Support
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1260,7 +1260,7 @@ hub_fingerprint: 287cf49f1fda567a86bb12e4e9976384c8f751219d3a05457226f55619b875e
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Buckinghamshire | Milton Keynes, South East, MK2 3HQ | £24413 - £25583 per annum | Receptionist
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1278,7 +1278,7 @@ hub_fingerprint: 564c4d4771b043464c6910f7634c770f823cd1895ccae79e3f0f72abb0e7e24
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Cambridgeshire | Cambridge, East of England, CB1 1EH | £30,000.00 - £35,000.00 Annually (FTE) | Finance Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1296,7 +1296,7 @@ hub_fingerprint: 28916839705def32d90ba57ebabf362958e9346ce4cb5bf76592e3bbd5a5f3c
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Cambridgeshire | Cambridge, East of England, CB1 3RJ | £30,000.00 - £35,000.00 Annually (FTE) | Finance Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1314,7 +1314,7 @@ hub_fingerprint: 876995a1420d29d75564c8d5c93081e200afc7b8156b064665ad694cc0f3101
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Cambridgeshire | Cambridge, East of England, CB2 0SZ | £30,000.00 - £35,000.00 Annually (FTE) | Finance Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1332,7 +1332,7 @@ hub_fingerprint: a5fd97884516c1269c1b5799400bd831f122d1715c1c30738f0fe2d6c52ad44
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Cambridgeshire | Cambridge, East of England, CB2 9FD | £30,000.00 - £35,000.00 Annually (FTE) | Finance Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1350,7 +1350,7 @@ hub_fingerprint: f010ad0cf41d87b22fd302dc5009719d0cde7d292bb28486623deed53ebbfd2
 ---
 
 ---
-action:
+action: exc
 POSS | Teaching Vacancies | Cambridgeshire | Cambridge, East of England, CB22 3BP | Pay Scale SO1, Point 23 - 25 | Inclusion and Attendance Coordinator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1368,7 +1368,7 @@ hub_fingerprint: 6a80bcd7a8e400ec1c3f732965f9e02df1129e7484904171a50f360cfb1208d
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Cambridgeshire | Cambridge, East of England, CB23 7DU | £25,185.00 - £25,583.00 Annually (FTE) NJC Scale 2, Points 5 to 6. Actual salary £21,600.98 per annum (based on 37 hrs per week) on point 12 (pay award pending). | Receptionist
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1386,7 +1386,7 @@ hub_fingerprint: b137ff89fa275c51887dacba54b5974dd52511c454061ab2436b559c5ecc13c
 ---
 
 ---
-action:
+action: exc
 POSS | Teaching Vacancies | Cambridgeshire | Cambridge, East of England, CB24 3DS | Point 4-5, £26,016 - £26,427 FTE | Senior Office Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1404,7 +1404,7 @@ hub_fingerprint: 8c12f1751b6a420b449a4cd26dfbd525098d111fdd6b81c812f4459790bd4c3
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Cambridgeshire | Cambridge, East of England, CB4 2QT | £25,823-£27,152 per annum | HR Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1422,7 +1422,7 @@ hub_fingerprint: 2c042a6e5bd35c719825d67f47744bd265cf4d43802c2845377a2eff615e48a
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Cambridgeshire | Cambridge, East of England, CB5 8ND | £30,000.00 - £35,000.00 Annually (FTE) | Finance Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1440,7 +1440,7 @@ hub_fingerprint: 58ce5c4f7978ba266d243b11c8b3d7bbdb01d17ef162fc6c8f1c65b82b00927
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Cheshire - Warrington & Halton | Warrington, North West, WA2 0LN | £16,899.00 - £17,556.00 Annually (Actual) Grade 4: NJC SCP 6 to SCP 7 (Full year salary range £26,847 to £27,274; Actual Salary: £16,899 to £17,282 per annum) | Administrative Support Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1458,7 +1458,7 @@ hub_fingerprint: a9e70965b87688612a80e1a56f39f07baef25e4c81cfe40cd91c2933f32b216
 ---
 
 ---
-action:
+action: exc
 POSS | Teaching Vacancies | Cornwall | Liskeard, PL14 3EA | £32,046.00 - £34,811.00 Annually (FTE) Actual salary approx. £21,727 - £23,602 per annum | Governance Professional to Trust Board and Local Governing Committees
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1476,7 +1476,7 @@ hub_fingerprint: 3163723353a8c50ef50a1609120e9553eb1d28873d6c24a5a71ffa0bdd4bca1
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Cornwall | Penzance, South West, TR19 7JU | 15,886.74 | Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1494,7 +1494,7 @@ hub_fingerprint: 9c65ace5c76b405b48f5151603c324a37ceb1f3d8cdde1494c7075442060393
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Derbyshire | Bakewell, East Midlands, DE45 1JA | £26,016.00 - £26,427.00 Annually (FTE) Actual Salary £14,306 to £14,532 per annum | School Business Assistant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1512,7 +1512,7 @@ hub_fingerprint: a390fbfbb469351d803783398bbade7cc9688da05466c79df40188b0dffd5ca
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Derbyshire | Chesterfield, East Midlands, S43 4QG | £22,278.00 - £23,356.00 Annually (Actual) 2 posts available, 37 hrs/ 39 weeks, 37hrs / 41 weeks. Grade 2 £26,016 - £27,274 FTE per annum | Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1530,7 +1530,7 @@ hub_fingerprint: 720c744685d34fa1138c70f5c371ae13c946d22e58a0c62b87e38f969fc3758
 ---
 
 ---
-action:
+action: exc
 POSS | Teaching Vacancies | Devon | Exeter, South West, EX1 3RD | D | Exam & Data Assistant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1548,7 +1548,7 @@ hub_fingerprint: 3b4791ab27c7cdd86c356c95f97e0c6f212898069fe62bacb683bed507d1b4b
 ---
 
 ---
-action:
+action: exc
 POSS | Teaching Vacancies | Devon | Exeter, South West, EX2 4NQ | £27,709.00 - £29,070.00 Annually (FTE) | Senior Pupil Services Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1566,7 +1566,7 @@ hub_fingerprint: 951857d0f4ab0c380df0f0a7ab18fa65556082bd951f29b53a2592feeffe9f8
 ---
 
 ---
-action:
+action: exc
 POSS | Teaching Vacancies | Devon | Holsworthy, South West, EX22 6JD | £24,075.00 - £25,667.00 Annually (Actual) NJC Grade D. Range 8 to 12 | Data Manager
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1584,7 +1584,7 @@ hub_fingerprint: 478c25b8c5a6c8c00a1c9fdf7d748cd80b9fa289620a0c0534878edb7df37c3
 ---
 
 ---
-action:
+action: exc
 POSS | Teaching Vacancies | Devon | Plymouth, South West, PL2 3HN | £15,851.00 - £18,023.00 Annually (Actual) | HR Manager
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1602,7 +1602,7 @@ hub_fingerprint: e0b582c4ec37dce44060ca2f0bcfc9458f696235a9b9e111fe461ba41a1a709
 ---
 
 ---
-action:
+action: exc
 POSS | Teaching Vacancies | Gloucestershire | Tewkesbury, South West, GL20 5SW | £20.00 - £30.00 Hourly Estimated total hours of 130 annually. Hourly rates depending on experience, invoiced for work undertaken | Governance Professional / Clerk to the Trust Board
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1620,7 +1620,7 @@ hub_fingerprint: da78ed2e970e2ad5371889c9ab9825d4592ba1e6df80dbd6b2b1a91c7dc43dd
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Greater Manchester - Manchester & Salford | Manchester, North West, M20 2ET | £18,491 - £19,395 (Actual salary) | Reception and Administration Assistant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1638,7 +1638,7 @@ hub_fingerprint: 60a5e8531f40a809b7c2e7c1c2c5fa8b6266493cdfde3ad5f7df63d9fb46469
 ---
 
 ---
-action:
+action: exc
 POSS | Teaching Vacancies | Greater Manchester - Manchester & Salford | Manchester, North West, M28 0SY | £25,820.00 - £28,323.00 Annually (FTE) United Learning Band 2 Vocational Payscale points 1 - 5 | Business Admin Apprentice - Data & Exams
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1656,7 +1656,7 @@ hub_fingerprint: 51d985f2e6c15c7b8af98e168e590a99d9f7fcab1a6c79778b7e1479b9b7d0e
 ---
 
 ---
-action:
+action: exc
 POSS | Teaching Vacancies | Greater Manchester - North | Oldham, North West, OL9 0BN | 28,148.50 - 30,733.73 | MIS Systems and Data Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1674,7 +1674,7 @@ hub_fingerprint: be02beac6901e6d1acd83b0438d87f5a4245db2e08cd4b47bb2e981d72aa2d6
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Hampshire | Portsmouth, South East, PO1 1FG | £22,814.00 - £24,728.00 Annually (Actual) | Administrative Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1692,7 +1692,7 @@ hub_fingerprint: e10153c142a24fbf7424e4458f0bf97b1284ef428c5dd5c79f428824fbd8ea9
 ---
 
 ---
-action:
+action: exc
 POSS | Teaching Vacancies | Hertfordshire | Hoddesdon, East of England, EN11 8JY | £27,000.00 Annually (Actual) H6 + Fringe | Deputy Office Manager
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1710,7 +1710,7 @@ hub_fingerprint: c720c35f8700ecfd894383df4d77183248490af342d6c0bd76021e541c650bd
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Hertfordshire | Royston, East of England, SG8 6EF | £26,403.00 - £28,142.00 Annually (FTE) NJC Scale 4, point 7 to 11 . Actual salary £22,645.65 per annum on point 7. | Pastoral Support Assistant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1728,7 +1728,7 @@ hub_fingerprint: 1f26c326a5f5f341d5c5f6f329b879c584ca7175450904664ffa315ad09ec89
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Kent | Dartford, South East, DA1 2JT | £25,429 per annum | Centre Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1746,7 +1746,7 @@ hub_fingerprint: 99ee6e1a02d5f51574170975af2d0dca11c258834fc0c3c66557a522237aca3
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Kent | Gillingham, South East, ME7 2JG | £26,016.00 - £29,071.00 Annually (FTE) Medway D2 4 - 11 £22,047.56 - £25,024.19 Actual Salary | Administration Assistant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1764,7 +1764,7 @@ hub_fingerprint: 8d7524604c5697f9b6e89b95fbbb840ef5380c90866ebe8b3206ea1163a3aaa
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Kent | Sevenoaks, South East, TN13 3LE | £12,757.00 Annually (Actual) | Administration Assistant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1782,7 +1782,7 @@ hub_fingerprint: 7e6118511640286346d15bf84117f3feceabbf2b249f8980d61a2267d187c23
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Kent | Tonbridge, South East, TN9 2HE | Actual Pro Rata Salary £23,599 | Administrative Assistant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1800,7 +1800,7 @@ hub_fingerprint: edf695bfa1d202058bb4963ac45c9604696a743789c3221f1bb7ce200668267
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Lancashire - Central | Preston, North West, PR4 6AQ | £23,155.61 - £23,895.24 Annually (Actual) FTE £26,016 - £26,847 | Receptionist
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1818,7 +1818,7 @@ hub_fingerprint: ebd63c01e4e5e43ea690ac4e34d3d8fb72f4809f3e973cd1bd39a5400e52b2a
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Lancashire - East | Blackburn, North West, BB1 4ED | £34,357.00 Annually (FTE) 5 Inset days per year, plus an additional 3 planning days, at least one personal day per year | Data Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1836,7 +1836,7 @@ hub_fingerprint: 15c017ab5902be33a8f1ee4ee685a20589062efa57916b394779c771c984d67
 ---
 
 ---
-action:
+action: exc
 POSS | Teaching Vacancies | Lancashire - East | Nelson, North West, BB9 0PR | £35,000.00 Annually (FTE) Local Government Pension, Health Care Cash Plan, Generous Staff Discount scheme, 3 extra inset days for planning, at least one personal leave day per year | Data Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1854,7 +1854,7 @@ hub_fingerprint: 2fc0809e11b5cfb50d7e4302178cbf4260ecf179048b76635180e8c8d6beab2
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Lincolnshire | Grimsby, Yorkshire and the Humber, DN37 9EH | £26,016.00 - £26,847.00 Annually (FTE) Grade C Points 4 to 6 (£26,016 to £26,847 Full Time Equivalent) subject to pro rata. The minimum actual pro rata salary for this role is £15,186.48. | Administration Officer (7752)
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1872,7 +1872,7 @@ hub_fingerprint: d970a3eb7ef37fb0782683fd2c0e9d159fe321941321c56248f4ffd2502a36a
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | London | Beckenham, London, BR3 1RF | £30,843.00 - £32,655.00 Annually (FTE) | Administration Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1890,7 +1890,7 @@ hub_fingerprint: 82585250193bc9696bb0c1cb5ce6941e2639248fa246c50a1d88daf45291b74
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | London | Carshalton, London, SM5 2PT | £30,408.00 - £32,655.00 Annually (FTE) | Finance & Administration Assistant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1908,7 +1908,7 @@ hub_fingerprint: 598884d4f0b7ea5790123f66b54a04ed06aa53f96b65d36cc940e319ccb6f16
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | London | Croydon, London, CR2 6HS | £30,408 | Administrative Assistant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1926,7 +1926,7 @@ hub_fingerprint: e6c32a9cebf15174573cae81559dacfb8e739ea4e44f2dc6863d2d589c10934
 ---
 
 ---
-action:
+action: exc
 POSS | Teaching Vacancies | London | Dagenham, London, RM10 7UR | £28,909.00 - £30,200.00 Annually (Actual) Salary Scale: Scale 5 (Pt12-15, £33,609 - £35,109) Prorated salary range is likely to be approx. £28,909 - £30,200 (also dependant on experience, weeks per year and continuous service) Based on working 35 hours per week, Term time only. (Subject to job evaluation) | SEND Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1944,7 +1944,7 @@ hub_fingerprint: 734d3a0331dd4511d4af8dfde72848445c10f8178c8ea092fc8a807468d9391
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | London | Dagenham, London, RM9 4UN | £28,709.00 - £30,364.00 Annually (Actual) full time equivalent £31,290- £32,655 | Admin Assistant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1962,7 +1962,7 @@ hub_fingerprint: 835ff8abadeb436a59a6a0946aeecaf7c339e5b48e7a7b38172f4e7728c7f4e
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | London | Feltham, London, TW13 4QP | Scale 3 (£23,507.84 - £23.844.13) | Administrative Assistant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1980,7 +1980,7 @@ hub_fingerprint: 87fd16b2c3ec8400e1988b977b8b52085b3317ffab94bbcf1d6b976892c3144
 ---
 
 ---
-action:
+action: exc
 POSS | Teaching Vacancies | London | Harrow, London, HA3 5RQ | £24,030.00 - £25,048.00 Annually (Actual) | Cover Supervisor Manager
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -1998,7 +1998,7 @@ hub_fingerprint: 2cb81236dec33ecad89911c8016b8f976f144317822382ac7742ea713475dfd
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | London | London, EC4R 2SP | £37,597.00 - £39,598.00 Annually (FTE) | Governance Professional
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2016,7 +2016,7 @@ hub_fingerprint: 304016d4d1dc0875ce1cc4de47f578e476bb86ff63658108c196331891b0919
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | London | London, London, E14 0AF | £33,700-£35,500 per annum | CTEC Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2034,7 +2034,7 @@ hub_fingerprint: 05860591e34c7ff8aead62efbe71ed2ea6340725314c3143c09f94b636a022f
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | London | London, London, E15 4LP | Scale 6 | Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2052,7 +2052,7 @@ hub_fingerprint: 8a4482f9446610a05c76f35c765ca155d0550c9b3410ccfa276f044fe56f81b
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | London | London, London, E17 5SD | £26,016.00 to £26,427.00 per annum (pro rata £22,951.04 to £23,313.62 per annum) plus London Weighting £2,376.00 per annum (pro rata £2,096.08) | Receptionist
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2070,7 +2070,7 @@ hub_fingerprint: a3df8bfd5d5a49e0640ee2ed0ec8622bec45421d593ad112864bacdf138a63e
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | London | London, London, E17 8HA | £31,290.00 - £33,129.00 Annually (FTE) Term-Time + 5 Inset days & 4 Plus days | Administration Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2088,7 +2088,7 @@ hub_fingerprint: 5a82d24380536d6c2373b279786f746f894d74c44968cc8ce93b4e5cf2cff49
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | London | London, London, SE11 4AX | £33,036.00 Annually (FTE) | Office Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2106,7 +2106,7 @@ hub_fingerprint: 1c595b8ccad4c8e5153abb23157ac455d36e90b292ccfa42c85830f2550b794
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | London | London, London, W2 5EZ | WA Scale 5, Spine Point Range 12 - 17, £26,631 - £29,184 FTE (£23,780 - £26,081 pro rata) | Sixth Form Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2124,7 +2124,7 @@ hub_fingerprint: 06b1a1c423993560e9829b9b7c779bf5a3791234dd303da5eef29c194d31c0b
 ---
 
 ---
-action:
+action: exc
 POSS | Teaching Vacancies | London | Loughton, IG10 3HE | £22,841.00 - £27,511.00 Annually (Actual) | Governance Manager
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2142,7 +2142,7 @@ hub_fingerprint: d7f93e70103c38a5ff59370e99396ef0dbb05d77f661d941aad010476f31d4d
 ---
 
 ---
-action:
+action: exc
 POSS | Teaching Vacancies | London | Northolt, London, UB5 6AG | Grade 6 Pt 18 - 20 (£36,834 - £37,935) pro rata salary of £32,725 - £33,703Ppa | Transition, Assessment and Medical/Welfare Coordinator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2160,7 +2160,7 @@ hub_fingerprint: 2f91bf4e979b98586e74d747ab87be6b91fd13628e183f58f542c77ceae6878
 ---
 
 ---
-action:
+action: exc
 POSS | Teaching Vacancies | London | Romford, London, RM3 8HN | £29,895.10 - £32,173.39 Annually (Actual) NJC Points 14v -19, 36 hours per week, 39 weeks per year (term time only plus inset) | EHCP Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2178,7 +2178,7 @@ hub_fingerprint: 7c62b3165ee94856f48461a354ca6201930842c18ed0e39f09295fc7efd58a8
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | London | Wembley, HA0 3NT | £100,000.00 - £110,000.00 Annually (Actual) Depending on skills and experience | Chief Financial & Operations Officer (CFOO)
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2196,7 +2196,7 @@ hub_fingerprint: c05377bc7abc19934acb9d0771727dd7832e2cc995221bc9cfb032d29b7680e
 ---
 
 ---
-action:
+action: exc
 POSS | Teaching Vacancies | London | Woodford Green, London, IG8 7DQ | £26,433.00 - £27,586.00 Annually (Actual) LBR4 (£30,288 - £31,611 full time equivalent) | Sixth Form Independent Study Supervisor
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2214,7 +2214,7 @@ hub_fingerprint: 6f62c9ef655ee246d733ab464506284137faf559e09117d4b260c4db5abbf74
 ---
 
 ---
-action:
+action: exc
 POSS | Teaching Vacancies | Merseyside - Liverpool | Liverpool, North West, L14 5NX | £27,274.00 - £29,071.00 Annually (FTE) NJC SCP 7-11 \| Pro Rata Salary £15,992 - £17,045 per annum | Administration Officer – Attendance & Family Liaison
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2232,7 +2232,7 @@ hub_fingerprint: 8a3276ed3c260edb54b765feda1c0ee17cc03971576675a8cdbf49dae9297b7
 ---
 
 ---
-action:
+action: exc 
 POSS | Teaching Vacancies | Merseyside - Liverpool | Liverpool, North West, L31 0BP | £22,598.99 - £24,471.09 Monthly | Office Manager
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2250,7 +2250,7 @@ hub_fingerprint: c39522871c93ce2e56cdfb6e136e52ebdace93cf5cd6e1c0642632964ac0297
 ---
 
 ---
-action:
+action: exc
 POSS | Teaching Vacancies | North East | Darlington, DL3 7AU | NJC Band 5 (SCP 7-8), £27,274 – £27,709 per annum | People Support Assistant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2268,7 +2268,7 @@ hub_fingerprint: d2918b7a23dbe2747b8a15c2d053fa8086153ab79edbec387d935c96ecc0fab
 ---
 
 ---
-action:
+action: exc
 POSS | Teaching Vacancies | Northamptonshire | Corby, East Midlands, NN17 5EB | £27,514.00 Annually (Actual) | Operations Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2286,7 +2286,7 @@ hub_fingerprint: ac502666be695ba91102c21c4be0dc9d89b88de5c2201aee3501aeedcd603c2
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Northamptonshire | Wellingborough, East Midlands, NN8 3HB | £16,624.20 - £16,889.23 Annually (FTE) Based on NJS Scale F6 - F7, FTE salary is £26,846 - £27,274 | Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2304,7 +2304,7 @@ hub_fingerprint: 95dfcb7090b915916c44c627cecff0fb750dcce62bd4dcf96b3d6b71042ab77
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Nottinghamshire | Mansfield, East Midlands, NG18 2DP | £22,569.72 - £22,569.72 Annually (Actual) | Administration Assistant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2322,7 +2322,7 @@ hub_fingerprint: 095a3e9993e6cf95c06e0e92650acc5afbe0692b6280b406c9f8256b63376f4
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Nottinghamshire | Nottingham, East Midlands, NG4 2LR | £22,753 Actual Salary (£26,016 FTE) | Administrative Assistant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2340,7 +2340,7 @@ hub_fingerprint: 59e3df1a17e0264c90880b181aa347f63ac5a20726614c086a6d6511e7b83d3
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Nottinghamshire | Nottingham, East Midlands, NG4 3SH | Redhill Academy Trust pay scale BAND 6 | Receptionist Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2358,7 +2358,7 @@ hub_fingerprint: 8d4f19a97485ac9db3a63b26d8aa52fa5d444c3081157c3849ea2bfa022c0b8
 ---
 
 ---
-action:
+action: exc
 POSS | Teaching Vacancies | Nottinghamshire | Nottingham, East Midlands, NG8 2FT | £22,507.00 - £24,527.00 Annually (Actual) The salary advertised reflects the pro rata salary for this role, based on 45.6 weeks per year. The full-time equivalent FTE salary for this position is £25,666 - 27,970 per annum. | SEND Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2376,7 +2376,7 @@ hub_fingerprint: 735bbb6dfb8c00920602acc79a81fd3db77393ddd82c2b579d02fe9c1a609dd
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Nottinghamshire | Nottingham, East Midlands, NG9 3DU | £22,630.72 - £23,356.04 Annually (Actual) NJE Grade 3, Pts 5 to 7 £26,427 - £27,274 (FTE) | Attendance and Inclusion Administration Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2394,7 +2394,7 @@ hub_fingerprint: 6c61b9df79795adb41de75bccaf1897ac3c43aa2c7fe3b9587c2e78da347fe0
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Oxfordshire | Abingdon, South East, OX14 5NL | £27,709.00 - £30,023.00 Annually (FTE) Grade 6, SCP 8 - 13. Actual salary - £19,783.71 - £21,435.86 | Office Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2412,7 +2412,7 @@ hub_fingerprint: ddd2efad18026a19d58307a5e1868ff8607af69cda2b78adfc1a1eb9106067b
 ---
 
 ---
-action:
+action: exc
 POSS | Teaching Vacancies | Oxfordshire | Carterton, South East, OX18 3AD | £21,235.00 - £25,147.00 Annually (Actual) Grade 9-10 depending on experience | School Business Manager
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2430,7 +2430,7 @@ hub_fingerprint: 327415a1399b2bfcd8e4432889b58393df003a4f9db95c804b4ecef38299c30
 ---
 
 ---
-action:
+action: exc
 POSS | Teaching Vacancies | Oxfordshire | Witney, South East, OX28 1DX | £27,151.00 - £28,981.00 Annually (Actual) Grade 7 | Data Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2448,7 +2448,7 @@ hub_fingerprint: 03b55ddebd1a626dca6fd15a46458ff9b46bf423734e07ec26f68acf2ae9d83
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Somerset | Taunton, TA2 7EG | FTE= £26,847, Actual= £12,427 | HR Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2466,7 +2466,7 @@ hub_fingerprint: f5b69c3492a94b42c9cd3dfc38685a7be5bbdf434cd456ab27eb6fd610bcdc9
 ---
 
 ---
-action:
+action: exc
 POSS | Teaching Vacancies | Staffordshire | Rugeley, WS15 1FY | £115,000.00 - £125,000.00 Annually (FTE) Salary points: £115,000 - £120,000 - £125,000 per annum (progression based on performance) | Chief Finance & Operations Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2484,7 +2484,7 @@ hub_fingerprint: d344afac5ec9be981986bdae4c1fb4096435e06dcbbe8beee9dbada42995d26
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Surrey | Oxted, South East, RH8 0AB | £25,940.00 - £31,224.00 Annually (FTE) P4.1 to P5.6 | HR Assistant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2502,7 +2502,7 @@ hub_fingerprint: 1e54dfe0b87f7eb06c74926577d55cf94293a77976436f933a80bfc98392f4d
 ---
 
 ---
-action:
+action: exc
 POSS | Teaching Vacancies | Surrey | Sunbury-on-Thames, South East, TW16 6LF | £24,570.00 - £26,730.00 Annually (Actual) P5 (FTE £28,700 to £31,224pa) | SEND Adminstrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2520,7 +2520,7 @@ hub_fingerprint: 8d3f1f622369904927fb2d936e92da7017300125e9979d6de93c772eedd9d0e
 ---
 
 ---
-action:
+action: exc
 POSS | Teaching Vacancies | Sussex | Lewes, South East, BN7 3AE | Between £25,729 - £28,796 per annum | EAG Advisor
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2538,7 +2538,7 @@ hub_fingerprint: 65330ec985d2cf1ad11a914e74a0b39a443c12afcf4dbe6316f31294628f143
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Sussex | Worthing, South East, BN14 8AH | £26,268.00 Annually (Actual) Paid 47.6 week to include holiday and additional days | Finance Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2556,7 +2556,7 @@ hub_fingerprint: 1fa71dc737cff821fd8f1b33aa549565d7d8d65b95c5ae9f7349d18d36fe211
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | West Midlands - Birmingham & Solihull | Birmingham, West Midlands, B29 4HE | £23,408.04 - £25,392.13 Annually (Actual) SCP 12-17 | Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2574,7 +2574,7 @@ hub_fingerprint: 81bee0180ac6c4b2202225c815141ffc1a82763f74a38c5beef129221175c47
 ---
 
 ---
-action:
+action: exc
 POSS | Teaching Vacancies | West Midlands - Black Country | Walsall, West Midlands, WS9 0RF | £28,523.00 - £28,523.00 Annually (FTE) Starting Salary: £25,162.69 (FTE £28,523.00) | Head of House PA
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2592,7 +2592,7 @@ hub_fingerprint: ccb69b733cce3211c6664392d49e160e49c76dc001f260f78ff4a1f54b056c4
 ---
 
 ---
-action:
+action: exc
 POSS | Teaching Vacancies | West Midlands - Coventry & Warwickshire | Rugby, West Midlands, CV22 6DY | £22,318.00 - £24,756.00 Annually (Actual) | ECHP Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2610,7 +2610,7 @@ hub_fingerprint: 289b85cd9136af0ade626c87c942b47b83d2aac4de9e7d7e3584f1cc2682e94
 ---
 
 ---
-action:
+action: exc
 POSS | Teaching Vacancies | Wiltshire | Salisbury, South West, SP4 6JZ | £26,847.00 - £27,709.00 Annually (FTE) Grade E, pay point 6-8, £26,847 - £27,709 per annum (DOE) FTE | Clerk to Governors
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2628,7 +2628,7 @@ hub_fingerprint: b46f094eaae6940cee885eca2ad73745ee4f1c795a6b2fad08f2ac6b85c874d
 ---
 
 ---
-action:
+action: exc
 POSS | Teaching Vacancies | Wiltshire | Swindon, SN4 9DL | £14.20 - £15.90 Hourly | Clerk to Governors
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2646,7 +2646,7 @@ hub_fingerprint: c40077e13386562f829dcfcaa363dac20cade2e9ea8f815d4b44168b9afce99
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Worcestershire | Worcester, West Midlands, WR4 9SG | £26,016.00 - £26,016.00 Annually (FTE) Actual pro rata salary for term time only and part time hours £21,710 per annum | Administrative Finance Assistant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2664,7 +2664,7 @@ hub_fingerprint: 79b1c6540a8d2333b1689f8825705e1a0d264cf8b8d22f7c3dfab5249f64bc1
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Worcestershire | Worcester, WR4 9SG | £27,273.00 - £27,273.00 Annually (FTE) Casual zero hour contract - hourly rate | Governance Professional/Clerk
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2682,7 +2682,7 @@ hub_fingerprint: 39f3f9a18e6c01661c51631710fe8625933be49e575ca4b3d10fd33108ad505
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Yorkshire - East | Hull, Yorkshire and the Humber, HU4 7EB | £26,016 - £27,274 FTE, £17,694 - £18,550 Actual | Administration Assistant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2700,7 +2700,7 @@ hub_fingerprint: 3dfb95e1a9d852654abb017e498a48eccde8f2ecc1d15914f0f593f1c80d25d
 ---
 
 ---
-action:
+action: exc
 POSS | Teaching Vacancies | Yorkshire - North | York, YO24 2RU | £19,740.94 - £20,616.86 Annually (Actual) Grade 5, Level 1-4 (£27,631 to £28,857 FTE) | Trust Data Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2718,7 +2718,7 @@ hub_fingerprint: ae80d379c2539a5e78349fa075c237173b1af05d68dd801c84411d47d60780a
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Yorkshire - North | York, Yorkshire and the Humber, YO32 4BZ | Grade 4, Level 1-4 (£25,948 to £27,188 p.a.) reduced pro rata to £22,280 to £23,345 (calculated on full time hours) | Administration Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2736,7 +2736,7 @@ hub_fingerprint: 66215d6dea054a2084a17569ba441f7fdb901e712a223a38e40c660ed64b2b5
 ---
 
 ---
-action:
+action: exc
 POSS | Teaching Vacancies | Yorkshire - South | Rotherham, Yorkshire and the Humber, S60 5EJ | £26,427 to £26,847 | SEND Admin Support Assistant
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2754,7 +2754,7 @@ hub_fingerprint: 524666e77a3d8f05b7a2073604539f962bf1105c7f8f2ff5c28b81bce3f594c
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Yorkshire - West | Elland, HX5 0RY | £32,578.00 - £34,811.00 Annually (Actual) | HR Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2772,7 +2772,7 @@ hub_fingerprint: 01a04c84fff204f8c5affce01a6ca7a5541c4b7c7fe4cc3176b6e60f3f98c4e
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Yorkshire - West | Elland, HX5 0RY | £32,578.00 - £34,811.00 Annually (Actual) | Operations Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2790,7 +2790,7 @@ hub_fingerprint: 1d0a7cb63fdb62935c33aa85a37883caed5c0b9d46a635059d48403d7f44187
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD1 4ES | £25,951.00 to £27,733.00 per annum FTE | HR Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2808,7 +2808,7 @@ hub_fingerprint: 1e78d7227cf5a0937c6e08642988bc83861f41e570a38caaa797ab968f68073
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Yorkshire - West | Huddersfield, Yorkshire and the Humber, HD2 2JT | £25,583.00 - £25,989.00 Annually (FTE) Kirklees Grade 5 | Business Support Officer
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2826,7 +2826,7 @@ hub_fingerprint: d9a8af6fd76c27ded4bd7c8e2d14249baf6deb662dd976dfdea6eaf3714b2a2
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Yorkshire - West | Leeds, Yorkshire and the Humber, LS12 1JZ | B3-C1 depending on experience | School Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
@@ -2844,7 +2844,7 @@ hub_fingerprint: 8678855f515a020d637dbaa2c3aa2ff4dc0c54238c04db8473bb9ecb993cff9
 ---
 
 ---
-action:
+action: sel
 POSS | Teaching Vacancies | Yorkshire - West | Wetherby, Yorkshire and the Humber, LS23 6DX | £25,185-£25,989 | Office Administrator
 source_key: teaching_vacancies
 source: Teaching Vacancies
