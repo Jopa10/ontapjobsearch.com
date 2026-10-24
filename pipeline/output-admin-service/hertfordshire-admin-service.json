@@ -2115,11 +2115,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2303",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2303",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5439405",
@@ -2137,33 +2133,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0072",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0106-26-0072",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "A",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
-  },
-  {
-    "job_id": "nhs-5681457",
-    "source": "NHS Jobs",
-    "title": "Ward Clerk",
-    "company": "East and North Hertfordshire Teaching NHS Trust",
-    "advertiser_name": "East and North Hertfordshire Teaching NHS Trust",
-    "location": "Stevenage, SG1 4AB",
-    "region": "Hertfordshire",
-    "salary": "£25272.00",
-    "employment_type": "Permanent",
-    "posted_date": "2026-10-23T10:34:23.276030356",
-    "closing_date": "2026-11-05",
-    "description": "We are recruiting for a Ward Clerk who shares our vision to be trusted to provide consistently outstanding care and exemplary service to our patients. An exciting opportunity has arisen for an enthusiastic, reliable and committed individual to join our busy Team as a Ward Clerk as part of the Ward Clerk Pool structure. You will be expected to carry out various clerking, some data entry and reception duties. Duties also include filing of hospital notes, meeting and greeting patients and relatives, liaising with doctors and specialty secretaries etc. You will need to be computer literate and any previous reception duties would be an advantage. If you have experience of using Lorenzo and Ifit this would be very much desirable although full training will be provided to successful candidates on induction. At the heart of everything we do are our core values:Include,Respect, andImprove. We encourage you to embrace these values throughout the recruitment process and in your role with us. The Ward Clerk is responsible for data entry of confidential information onto the computerised database. The data entry needs to be accurate so attention to detail is essential. You will be responsible for the provision of a high-quality reception service by meeting and greeting visitors to the ward. The successful candidate will also support the general running of the ward by being involved in general organisational and administrative activities. You will update and maintain accurate complete patient data on the computer-based system (Lorenzo/Nervecentre) and medical records database (IFIT). The post holder will enter and retrieve data from all current Trust computer systems in place (EPR, Lorenzo/Nervecentre) to acceptable data quality standards. Please see the attached Job Description and Person Specification applicant pack for further detailed information regarding this role.",
-    "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9361-26-0633",
-    "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/C9361-26-0633",
-    "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "A"
   },
   {
     "job_id": "nhs-5670118",
@@ -2181,11 +2151,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2862-26-0015",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A2862-26-0015",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5644452",
@@ -2203,11 +2169,7 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1208-26-0006",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/A1208-26-0006",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   },
   {
     "job_id": "nhs-5630065",
@@ -2225,10 +2187,6 @@
     "source_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2171",
     "apply_url": "https://beta.jobs.nhs.uk/candidate/jobadvert/E0132-26-2171",
     "switchability": "OPEN_SWITCH",
-    "hc_tier": "B",
-    "advertiser_type": "",
-    "work_pattern": "",
-    "salary_period": "",
-    "posted_date_basis": "source"
+    "hc_tier": "B"
   }
 ]
