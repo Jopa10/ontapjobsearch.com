@@ -116,6 +116,10 @@ class SliceRegistryTests(unittest.TestCase):
         self.assertEqual(
             sales_regions,
             {
+                "Cheshire - East",
+                "Gloucestershire",
+                "Leicestershire",
+                "Norfolk",
                 "London",
                 "Yorkshire - West",
                 "Greater Manchester - Manchester & Salford",
@@ -186,6 +190,7 @@ class SliceRegistryTests(unittest.TestCase):
         self.assertEqual(
             marketing_regions,
             {
+                "Yorkshire - South",
                 "London",
                 "Surrey",
                 "Berkshire",
@@ -239,6 +244,7 @@ class SliceRegistryTests(unittest.TestCase):
         self.assertEqual(
             finance_regions,
             {
+                "West Midlands - Black Country",
                 "Yorkshire - North",
                 "Gloucestershire",
                 "North East",
@@ -295,6 +301,8 @@ class SliceRegistryTests(unittest.TestCase):
         self.assertEqual(
             hr_regions,
             {
+                "Leicestershire",
+                "Suffolk",
                 "London",
                 "Yorkshire - West",
                 "Berkshire",

@@ -9,11 +9,11 @@ import {
   locationCandidates,
 } from '../lib/broad-city-pages';
 
-test('registers the sixteen approved permanent broad city routes', () => {
-  assert.equal(broadCityDefinitions.length, 16);
+test('registers the twenty-two approved permanent broad city routes', () => {
+  assert.equal(broadCityDefinitions.length, 22);
   assert.deepEqual(
     broadCityDefinitions.map((city) => city.route),
-    ['/nottingham/jobs', '/wakefield/jobs', '/bolton/jobs', '/reading/jobs', '/chester/jobs', '/durham/jobs', '/gateshead/jobs', '/northallerton/jobs', '/norwich/jobs', '/salford/jobs']
+    ["/nottingham/jobs", "/wakefield/jobs", "/bolton/jobs", "/reading/jobs", "/chester/jobs", "/durham/jobs", "/gateshead/jobs", "/northallerton/jobs", "/norwich/jobs", "/salford/jobs", "/redditch/jobs", "/guildford/jobs", "/carlisle/jobs", "/preston/jobs", "/witney/jobs", "/yeovil/jobs", "/hertford/jobs", "/leatherhead/jobs", "/rugby/jobs", "/colchester/jobs", "/hereford/jobs", "/stafford/jobs"]
   );
   assert.ok(broadCityDefinitions.every((city) => city.lifecycle_state === 'active'));
 });

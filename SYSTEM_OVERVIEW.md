@@ -7,6 +7,8 @@ This is the short owner view of how Ontap is organised. It mirrors the five cano
 
 ## Recent canonical changes
 
+- 24 October 2026 — **Owner authorised immediate activation of six broad cities and ten family/region pages:** Hertford (Hertfordshire), Leatherhead (Surrey), Rugby (Coventry & Warwickshire), Colchester (Essex), Hereford (Herefordshire) and Stafford (Staffordshire) are active permanent broad-city definitions. The LIVE slice register adds Service Admin in St Helens & Knowsley; Customer Sales in Cheshire East, Gloucestershire, Leicestershire and Norfolk; Paralegal in Glasgow; Marketing in South Yorkshire; Finance / Accounts in Black Country; HR / Recruitment in Leicestershire and Suffolk. This supersedes the earlier deferral. Current production selectors and the existing single Apply and publish entry point are retained; separate selector feature work is not merged. Production availability requires successful inventory generation and verified deployment. A failing new addition must be held rather than delaying otherwise healthy existing inventory.
+
 - 24 October 2026 — **St Helens & Knowsley prepared for a later page launch:** its existing assessment geography is now connected to the regional page configuration. The page is not activated; publishing, selection rules and schedules are unchanged.
 
 - 24 October 2026 — **Private daily emails switched to the agreed matching rules:** the automatic post-publish sender now uses the version verified by 35 tests and the two-job email received by the owner. It remains restricted to the existing private test address after successful publication. Duplicate-send protection remains active; today's validation sends no email. Public signup and rollout remain off.

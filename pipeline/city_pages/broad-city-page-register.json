@@ -110,5 +110,47 @@
     "region": "Somerset",
     "route": "/yeovil/jobs",
     "lifecycle_state": "active"
+  },
+  {
+    "display_name": "Hertford",
+    "slug": "hertford",
+    "region": "Hertfordshire",
+    "route": "/hertford/jobs",
+    "lifecycle_state": "active"
+  },
+  {
+    "display_name": "Leatherhead",
+    "slug": "leatherhead",
+    "region": "Surrey",
+    "route": "/leatherhead/jobs",
+    "lifecycle_state": "active"
+  },
+  {
+    "display_name": "Rugby",
+    "slug": "rugby",
+    "region": "West Midlands - Coventry & Warwickshire",
+    "route": "/rugby/jobs",
+    "lifecycle_state": "active"
+  },
+  {
+    "display_name": "Colchester",
+    "slug": "colchester",
+    "region": "Essex",
+    "route": "/colchester/jobs",
+    "lifecycle_state": "active"
+  },
+  {
+    "display_name": "Hereford",
+    "slug": "hereford",
+    "region": "Herefordshire",
+    "route": "/hereford/jobs",
+    "lifecycle_state": "active"
+  },
+  {
+    "display_name": "Stafford",
+    "slug": "stafford",
+    "region": "Staffordshire",
+    "route": "/stafford/jobs",
+    "lifecycle_state": "active"
   }
 ]
