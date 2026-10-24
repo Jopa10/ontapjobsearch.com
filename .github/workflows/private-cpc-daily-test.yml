@@ -109,3 +109,5 @@ jobs:
                           "--app-dir", "published-inputs/app",
                           "--reports-dir", "published-inputs/pipeline/reports-daily"], check=True)
           PY
+
+# Owner-requested matched sample: 24 October 2026.
